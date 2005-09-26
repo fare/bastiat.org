@@ -1,0 +1,82 @@
+; -*- Scheme -*-
+; $Id: capitalisme.scr,v 1.2 2003/05/19 00:20:25 fare Exp $
+(style 'bo-style)
+(in-bof :title "Le Capitalisme - un système de coopération fondé sur la liberté, la responsabilité, la propriété")
+(set! *scribe-footer*
+	(list
+	 (hrule)
+	 (font :size -1
+	  (table :width "100%" (tr
+	  (td :width "25%" :align 'left
+		(bof-ref #f (tt[Bastiat.org])))
+	  (td :width "50%" :align 'center
+		(strong(mfc-ref #f
+			[Marche pour Fêter le Capitalisme])))
+	  (td :width "25%" :align 'center
+		(ref :url "http://libertariens.cjb.net/"
+			[Association des Libertariens])))))))
+
+(document :title [Le Capitalisme]
+(p*[
+Le ,(strong[Capitalisme]) est un
+système de coopération pacifique
+entre travailleurs passés, présents et futurs du monde entier.
+][
+Le capitalisme est fondé
+(1) sur le respect de la propriété de chacun sur soi-même,
+son propre corps, son propre esprit, le choix de ses activités,
+(2) sur le respect du droit de propriété de chacun
+sur les richesses qu'il crée,
+(3) sur le respect des interactions, échanges et contrats librement consentis
+dans l'intérêt mutuel de participants volontaires.
+][
+Le capital n'est rien d'autre que le fruit du travail de créateurs prévoyants,
+qui, au lieu de consommer ou dilapider immédiatement tout ce qu'ils ont créé,
+en conservent une partie, le ,(emph[capital]), pour un usage futur.
+La rémunération du capital n'est rien d'autre que
+la rémunération des travailleurs passés
+qui collaborent avec les travailleurs présents
+pour produire les satisfactions futures pour d'autres hommes.
+][
+Les valeurs sous-jacentes au Capitalisme sont
+la liberté individuelle, la responsabilité individuelle,
+la créativité individuelle, l'autonomie individuelle,
+la propriété individuelle, les droits individuels imprescriptibles de l'homme.
+][
+Le respect, même partiel, des principes du capitalisme
+a permis dans les siècles récents
+l'apparition d'une prospérité sans précédent,
+une extraordinaire
+élévation matérielle, intellectuelle et spirituelle de l'homme.
+Les atteintes à ces principes ont eux causé une douleur énorme,
+par les ravages de la guerre, d'esprit de conquête, du mercantilisme,
+du protectionnisme, du colonialisme, du socialisme,
+et de l'interventionnisme d'état.
+C'est bien du non-respect des principes du capitalisme
+que découlent les malheurs qui touchent notre monde.
+Et le non-respect de ces principes,
+loin d'être un ,(emph[excès]) de capitalisme,
+est au contraire un ,(emph[défaut]) de capitalisme.
+][
+Or si les atteintes à ces principes sont parfois, trop souvent,
+le fait de voyous sans mandat officiel,
+les atteintes systématiques à ces principes sont principalement
+le fait des États,
+sous la pression de lobbies intéressés et de militants ignorants.
+Par cette marche nous visons aussi
+à éclairer ces militants et à démasquer ces lobbies.
+][
+Ainsi, en réaffirmant les principes du capitalisme,
+nous espérons ainsi contribuer à un monde meilleur,
+plus libre, plus paisible et plus prospère,
+dans l'harmonie des intérêts humains.
+][
+,(underline[Pour en savoir plus]):
+si vous voulez comprendre la nature du capitalisme,
+nous vous invitons à lire
+les ,(bof-ref "harmonies" (cite-title[Harmonies Économiques]))
+de Frédéric Bastiat.
+]))
+; valeurs?
+; exemples pratique?
+; solutions pratiques?

@@ -1,0 +1,158 @@
+; -*- Scheme -*- $Id: guillaumin.scr,v 1.45 2005/07/24 10:33:58 fare Exp $
+(style 'bo-style)
+(in-bof :title "OEuvres complètes de Frédéric Bastiat
+- sommaire de l'édition Guillaumin")
+
+(set! =bof.url= "")
+(style '../oeuvres_bastiat)
+
+(define (insere-sommaire)
+ (letrec
+   ((tome (lambda (num ord contenu bnf pagemax pageoffset date rec)
+	(list
+	 (hr)
+	 (tag :a :name (number->string num))
+	 (tag :a :name contenu)
+	 (subtitle (list "Tome " ord (br) (bold contenu)))
+	 (tag :p :align 'right (small [
+Cette pagination est celle de l'édition de ,(id date).
+,(br)
+,(if (< num 7)
+ [Cliquez sur une page pour la visionner via la BNF.]
+ [Le ,(ref :url "http://oll.libertyfund.org/Texts/Bastiat0139/Works/0137-07_Bk.pdf" [tome 7])
+ est ,(ref :url "http://oll.libertyfund.org/Home3/Author.php?recordID=0319" [disponible])
+ via l',(ref :url "http://oll.libertyfund.org/" [OLL])])]))
+	 (set! curbnf bnf)
+	 (set! curoffset pageoffset)
+	 (flush)
+	 (for-each entry rec)
+	 (apply table :width "100%" (get-table)))))
+    (curbnf 0)
+    (curoffset 0)
+    (curtable '())
+    (flush (lambda () (set! curtable '())))
+    (add! (lambda x (set! curtable (append (reverse x) curtable))))
+    (add-line! (lambda (content page)
+	(add! (tr (td :width "96%" :align 'left :valign 'top content)
+		  (td :width "3%" :align 'right :valign 'top page)))))
+    (get-table (lambda () (reverse curtable)))
+    (filename (lambda (x) (make-string1 x ".scr")))
+    (xref (lambda (file sub title)
+	(if (file-exists? (filename file))
+	  (ref :url (make-string1 file ".html"
+			(if sub (make-string1 "#" sub) "")) title)
+	  title)))
+    (entry (lambda (rec)
+	(case (car rec)
+	  ((P) (apply P (cdr rec)))
+	  ((G) (apply G (cdr rec)))
+	  ((S) (S (cadr rec) (cddr rec)))
+	  ((PS) (PS (nth 1 rec) (nth 2 rec) (nth 3 rec)
+		    (nth 4 rec) (nth 5 rec)
+		    (nthcdr 6 rec))))))
+    (page-num (lambda (num type page)
+	(if (eq? type :p) (+ page curoffset) (- page 1))))
+    (page-name (lambda (num type page)
+	(if (eq? type :p) page (roman-name page))))
+    (page-ref (lambda (num name)
+		(if curbnf
+		  (ref :url (make-page-url curbnf num) name)
+		  name)))
+    (make-page-url (lambda (bnf num)
+	(make-string1
+	 "http://gallica.bnf.fr/scripts/ConsultationTout.exe"
+	 "?O=" bnf "&E=" num)))
+    (make-page-ref (lambda (num type page)
+	(page-ref (page-num num type page)
+		  (page-name num type page))))
+    (add-page-line! (lambda (type num beg end file sub title)
+	 (add-line!
+	  (xref file sub title)
+	  (make-page-ref num type beg))))
+    (X (lambda (type num beg end file title)
+	 (add-page-line! type num beg end file #f title)))
+    (P (lambda (num beg end file title)
+	(X :p num beg end file title)))
+    (G (lambda (num beg end file title)
+	(X :g num beg end file title)))
+    (S (lambda (title rec)
+	(add! (tr (th :align 'center (or title (nbsp)))))
+	(for-each entry rec)))
+    (PS (lambda (num beg end file title rec)
+	  (P num beg end file title)
+	  (for-each (SP num file) rec)))
+    (SP (lambda (num file)
+	 (lambda (rec)
+	  (if (and (list? rec)
+		   (eq? 'SP (car rec)))
+	   (apply (lambda (beg sub title)
+		    (add-page-line! :p num beg #f file sub title))
+		(cdr rec))))))
+    (C (lambda (rec)
+	(if (and (list? rec)
+	         (>= (length rec) 8)
+	         (eq? 'tome (car rec)))
+	   (tome (nth 1 rec) (nth 2 rec) (nth 3 rec)
+	    (nth 4 rec) (nth 5 rec) (nth 6 rec) (nth 7 rec)
+	    (nthcdr 8 rec))
+	   (error "foo")))))
+   (map C sommaire-db)))
+
+(document :title [,(OE)uvres complètes de Frédéric Bastiat ,(br) ,(--)
+		 sommaire de l'édition Guillaumin]
+	:author (author :name (ref :url =bo.url=
+				   (font :size "+1" (tt =bo.url=))))
+(table :width "100%" :cellpadding 10 (tr
+(tdLT (p*[
+Ceci est le sommaire de l'édition originale de 1862-64 en 7 volumes,
+des ,(q(cite-title[,(bold[,(oe)uvres complètes de Frédéric Bastiat]),
+	mises en ordre,
+	revues et annotées d'après les manuscrits de l'auteur]))
+chez Guillaumin et C,(sup[ie]), libraires,
+éditeurs du Journal des économistes,
+de la Collection des principaux Économistes,
+du Dictionnaire de l'Économie politique,
+du Dictionnaire universel du Commerce et de la Navigation, etc.,
+Paris, Rue Richelieu, 14.
+][
+La ,(BNF-ref #f [Bibliothèque Nationale de France])
+a photo-numérisé en octobre 2002 l'ensemble des
+,(BNF-ref
+ "scripts/catalog.php?Mod=i&FondsTout=on&FondsTxt=on&FondsImp=on&Auteur=bastiat"
+	[six premiers volumes des ,(oe)uvres complètes de Frédéric Bastiat]).
+J'ai consécutivement repris pour chacun de ces tomes
+la pagination de l'édition photo-numérisée par la BNF.
+En 2004, l',(ref :url "http://oll.libertyfund.org/" [Online Library of Liberty])
+a à son tour photo-numérisé les mêmes
+,(ref :url "http://oll.libertyfund.org/Home3/Author.php?recordID=0319"
+[,(oe)uvres complètes]),
+sans omettre cette fois le tome 7, publié en 1864,
+et composé de textes jusqu'alors inédits.
+,(XXX[Notez que les exemplaires scannés par la BNF
+sont de l'édition de 1862-1863,
+sauf pour le troisième tome qui est de l'édition de 1854,
+mais ce n'est pas grave, car pour ce tome,
+l'édition de 1863 a la même pagination.])
+Voir aussi le ,(leter-ref "Fr%8Ed%8Eric%20Bastiat%20sommaire"
+	[sommaire de l'édition Leter]),
+pour l'ordre chronologique, et
+pour quelques textes numérisés non encore disponibles sur ce site.
+][
+Rejoignez notre équipe et vous aussi participez à la
+	,(bof-ref "numerisation"
+	[numérisation des ,(oe)uvres complètes de Frédéric Bastiat])!
+]))
+(tdLT
+      (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))
+
+(insere-sommaire)
+
+(set! =bof.url= "http://bastiat.org/fr/")
+(with-footer
+(p*[
+,(leter-ref "Sommaire%20Guillaumin"
+	[Originellement numérisé, copieusement annoté,
+	mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),(pv)
+repris, corrigé, adapté et enrichi de liens par ,(FRR) pour ,(Bastiat.org).
+])))

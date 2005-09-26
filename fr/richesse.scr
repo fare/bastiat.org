@@ -1,0 +1,932 @@
+; -*- Scheme -*-
+; $Id: richesse.scr,v 1.11 2005/08/26 03:18:52 fare Exp $
+(style 'bo-style)
+(in-bof :title "Richesse
+	- par Frédéric Bastiat")
+(document :title "Richesse"
+	:author author-FB
+(subtitle [Chapitre VI des ,(HarmoniesEconomiques)])
+(p*[
+Ainsi, en tout ce qui est propre à satisfaire nos besoins et nos désirs,
+il y a à considérer, à distinguer deux choses,
+ce qu'a fait la nature et ce que fait l'homme,
+,(--) ce qui est gratuit et ce qui est onéreux,
+,(--) le don de Dieu et le service humain,
+,(--) l',(emph[utilité]) et la ,(emph[valeur]).
+Dans le même objet, l'une peut être immense et l'autre imperceptible.
+Celle-là restant invariable, celle-ci peut diminuer indéfiniment
+et diminue en effet, chaque fois qu'un procédé ingénieux
+nous fait obtenir un résultat identique avec un moindre effort.
+][
+On peut pressentir ici une des plus grandes difficultés,
+une des plus abondantes sources de malentendus,
+de controverses et d'erreurs placées à l'entrée même de la science.
+][
+Qu'est-ce que la ,(emph[richesse])?
+][
+Sommes-nous ,(emph[riches]) en proportion
+des utilités dont nous pouvons disposer,
+c'est-à-dire des besoins et des désirs que nous pouvons satisfaire?
+,(q[Un homme est pauvre ou riche, dit A. Smith,
+selon le plus ou moins de choses ,(emph[utiles])
+dont il peut se procurer la jouissance.])
+][
+Sommes-nous ,(emph[riches]) en proportion
+des ,(emph[valeurs]) que nous possédons,
+c'est-à-dire des ,(emph[services]) que nous pouvons commander?
+,(q[La richesse, dit J. B. Say, est en proportion de la valeur.
+Elle est grande, si la somme de valeur dont elle se compose est considérable;
+elle est petite, si les valeurs le sont.])
+][
+Les ignorants donnent les deux sens au mot Richesse.
+Quelquefois on les entend dire:
+,(q[L'abondance des eaux est une Richesse pour telle contrée,])
+alors ils ne pensent qu'à l'Utilité.
+Mais quand l'un d'entre eux veut connaître sa propre richesse,
+il fait ce qu'on nomme un inventaire
+où l'on ne tient compte que de la Valeur.
+][
+N'en déplaise aux savants, je crois que les ignorants ont raison cette fois.
+La richesse, en effet, est ,(emph[effective]) ou ,(emph[relative]).
+Au premier point de vue elle se juge par nos satisfactions;
+l'humanité devient d'autant plus Riche qu'elle acquiert plus de bien-être,
+quelle que soit la valeur des objets qui le procurent.
+Mais veut-on connaître la part proportionnelle de chaque homme
+au bien-être général, en d'autres termes la ,(emph[richesse relative])?
+,(XXX) C'est là un simple rapport que la valeur seule révèle,
+parce qu'elle est elle-même un rapport.
+][
+La science se préoccupe du bien-être général des hommes,
+de la proportion qui existe entre leurs Efforts et leurs Satisfactions,
+proportion que modifie avantageusement la participation progressive
+de l'utilité gratuite à l',(oe)uvre de la production.
+Elle ne peut donc pas exclure cet élément de l'idée de la Richesse.
+À ses yeux la Richesse effective ce n'est pas la somme des valeurs,
+mais la somme des utilités gratuites ou onéreuses attachées à ces valeurs.
+Au point de vue de la satisfaction, c'est-à-dire de la réalité,
+nous sommes riches autant de la valeur anéantie par le progrès
+que de celle qui lui survit encore.
+][
+Dans les transactions ordinaires de la vie,
+on ne tient plus compte de l'utilité
+à mesure qu'elle devient ,(emph[gratuite]) par l'abaissement de la valeur.
+Pourquoi? parce que ce qui est gratuit est ,(emph[commun]),
+et ce qui est commun n'altère en rien
+la part proportionnelle de chacun à la richesse effective.
+On n'échange pas ce qui est commun;
+et comme, dans la pratique des affaires,
+on n'a besoin de connaître que cette proportion
+qui est constatée par la valeur,
+on ne s'occupe que d'elle.
+][
+Un débat s'est élevé entre Ricardo et J. B. Say à ce sujet.
+Ricardo donnait au mot Richesse le sens d'Utilité;
+J. B. Say, celui de Valeur.
+Le triomphe exclusif de l'un des champions était impossible,
+puisque ce mot a l'un et l'autre sens,
+selon qu'on se place au point de vue de l'effectif ou du relatif.
+][
+Mais il faut bien le dire,
+et d'autant plus que l'autorité de Say est plus grande en ces matières,
+si l'on assimile la Richesse (au sens de bien-être effectif) à la Valeur,
+si l'on affirme surtout que l'une est proportionnelle à l'autre,
+on s'expose à fourvoyer la science.
+Les livres des économistes de second ordre et ceux des socialistes
+ne nous en offrent que trop la preuve.
+C'est un point de départ malheureux
+qui dérobe au regard justement
+ce qui forme le plus beau patrimoine de l'humanité;
+il fait considérer comme anéantie
+cette part de bien-être que le progrès rend commun à tous,
+et fait courir à l'esprit le plus grand des dangers,
+,(--) celui d'entrer dans une pétition de principe sans issue et sans fin,
+de concevoir une économie politique à rebours,
+où le ,(emph[but]) auquel nous aspirons est perpétuellement confondu
+avec l',(emph[obstacle]) qui nous arrête.
+][
+En effet, il n'y a de Valeur que par ces obstacles.
+Elle est le signe, le symptôme, le témoin, la preuve
+de notre infirmité native.
+Elle nous rappelle incessamment cet arrêt prononcé à l'origine:
+Tu mangeras ton pain à la sueur de ton front.
+Pour l'Être tout-puissant ces mots, ,(emph[Effort, Service]),
+et, par conséquent, ,(emph[Valeur]) n'existent pas.
+Quant à nous, nous sommes plongés dans un milieu d',(emph[utilités]),
+dont un grand nombre sont gratuites,
+mais dont d'autres ne nous sont livrées qu'à titre onéreux.
+Des obstacles s'interposent entre ces utilités
+et les besoins auxquels elles peuvent satisfaire.
+Nous sommes condamnés à nous passer de l'Utilité
+ou à vaincre l'Obstacle par nos efforts.
+Il faut que la sueur tombe de notre front,
+ou pour nous ou pour ceux qui l'ont répandue à notre profit.
+][
+Plus donc il y a de valeurs dans une société,
+plus cela prouve sans doute qu'on y a surmonté d'obstacles,
+mais plus cela prouve aussi qu'il y avait des obstacles à surmonter.
+Ira-t-on jusqu'à dire que ces obstacles font la Richesse,
+parce que sans eux les Valeurs n'existeraient pas?
+][
+On peut concevoir deux nations.
+L'une a plus de satisfactions que l'autre,
+mais elle a moins de valeurs,
+parce que la nature l'a favorisée et qu'elle rencontre moins d'obstacles.
+Quelle sera la plus riche?
+][
+Bien plus: prenons le même peuple à deux époques.
+Les obstacles à vaincre sont les mêmes.
+Mais aujourd'hui il les surmonte avec une telle facilité,
+il exécute, par exemple, ses transports, ses labours, ses tissages,
+avec si peu d'efforts,
+que les valeurs s'en trouvent considérablement réduites.
+Il a donc pu prendre un de ces deux partis:
+ou se contenter des mêmes satisfactions qu'autrefois,
+ses progrès se traduisant en loisirs;
+et en ce cas dira-t-on que sa Richesse est rétrograde
+parce qu'il possède moins de valeurs?
+,(--) ou bien, consacrer ses efforts devenus disponibles
+à accroître ses jouissances;
+et s'avisera-t-on, parce que la somme de ses valeurs sera restée stationnaire,
+d'en conclure que sa richesse est restée stationnaire aussi?
+C'est à quoi l'on aboutit, si l'on assimile ces deux choses:
+,(emph[Richesse]) et ,(emph[Valeur]).
+][
+L'écueil est ici bien dangereux pour l'économie politique.
+Doit-elle mesurer la richesse
+par les satisfactions réalisées
+ou par les valeurs créées?
+][
+S'il n'y avait jamais d'obstacles entre les utilités et les désirs,
+il n'y aurait ni efforts, ni services, ni Valeurs,
+non plus qu'il n'y en a pour Dieu;
+et pendant que, dans le premier sens, l'humanité serait, comme Dieu,
+en possession de la Richesse infinie,
+suivant la seconde acception,
+elle serait dépourvue de toutes Richesses.
+De deux économistes dont chacun adopterait une de ces définitions,
+l'un dirait: ,(emph[Elle est infiniment riche]),
+,(--) l'autre: ,(emph[Elle est infiniment pauvre]).
+][
+L'infini, il est vrai, n'est sous aucun rapport l'attribut de l'humanité.
+Mais enfin elle se dirige de quelque côté,
+elle fait des efforts,
+elle a des tendances,
+elle gravite vers la Richesse progressive ou vers la Progressive Pauvreté.
+Or, comment les Économistes pourront-ils s'entendre,
+si cet anéantissement successif de l'effort par rapport au résultat,
+de la peine à prendre ou à rémunérer,
+de la Valeur, est considéré par les uns comme un progrès vers la Richesse,
+par les autres comme une chute dans la Misère?
+][
+Encore si la difficulté ne concernait que les économistes,
+on pourrait dire: Entre eux les débats.
+,(--) Mais les législateurs, les gouvernements
+ont tous les jours à prendre des mesures
+qui exercent sur les intérêts humains une influence réelle.
+Et où en sommes-nous, si ces mesures sont prises
+en l'absence d'une lumière qui nous fasse distinguer
+la Richesse de la Pauvreté?
+][
+Or, j'affirme ceci:
+La théorie qui définit la Richesse par la valeur
+n'est en définitive que la glorification de l'Obstacle.
+Voici son syllogisme:
+,(q[La Richesse est proportionnelle aux valeurs,
+les valeurs aux efforts, les efforts aux obstacles;
+donc les richesses sont proportionnelles aux obstacles.])
+,(--) J'affirme encore ceci:
+À cause de la division du travail,
+qui a renfermé tout homme dans un métier ou profession,
+cette illusion est très-difficile à détruire.
+Chacun de nous vit des services qu'il rend à l'occasion
+d'un obstacle, d'un besoin, d'une souffrance:
+le médecin sur les maladies,
+le laboureur sur la famine,
+le manufacturier sur le froid,
+le voiturier sur la distance,
+l'avocat sur l'iniquité,
+le soldat sur le danger du pays;
+de telle sorte qu'il n'est pas un obstacle
+dont la disparition ne fût très-inopportune et très-importante à quelqu'un,
+et même ne paraisse funeste, au point de vue général,
+parce qu'elle semble anéantir une source
+de services, de valeurs, de richesses.
+Fort peu d'économistes se sont entièrement préservés de cette illusion,
+et, si jamais la science parvient à la dissiper,
+sa mission pratique dans le monde sera remplie;
+car je fais encore cette troisième affirmation:
+Notre pratique officielle s'est imprégnée de cette théorie,
+et chaque fois que les gouvernements croient devoir favoriser
+une classe, une profession, une industrie,
+ils n'ont pas d'autre procédé que d'élever des Obstacles,
+afin de donner à une certaine nature d'efforts
+l'occasion de se développer,
+afin d'élargir artificiellement le cercle des services
+auxquels la communauté sera forcée d'avoir recours,
+d'accroître ainsi la valeur,
+et, soi-disant, la Richesse.
+][
+Et, en effet, il est très-vrai que
+ce procédé est utile à la classe favorisée;
+on la voit se féliciter, s'applaudir,
+et que fait-on?
+On accorde successivement la même faveur à toutes les autres.
+][
+Assimiler d'abord l'Utilité à la Valeur,
+puis la Valeur à la Richesse,
+quoi de plus naturel!
+La science n'a pas rencontré de piège
+dont elle se soit moins défiée.
+Car que lui est-il arrivé?
+À chaque progrès, elle a raisonné ainsi:
+,(q[L'obstacle diminue, donc l'effort diminue;
+donc la valeur diminue;
+donc l'utilité diminue; ,(XXX)
+donc la richesse diminue;
+donc nous sommes les plus malheureux des hommes
+pour nous être avisés
+d'inventer, d'échanger,
+d'avoir cinq doigts au lieu de trois, et deux bras au lieu d'un;
+donc il faut engager le gouvernement, qui a la force,
+à mettre ordre à ces abus.])
+][
+Cette économie politique à rebours
+défraye un grand nombre de journaux
+et les séances de nos assemblées législatives.
+Elle a égaré l'honnête et philanthrope Sismondi;
+on la trouve très logiquement exposée
+dans le livre de M. de Saint-Chamans.
+][
+,(q[Il y a deux sortes de richesse pour une nation, dit-il.
+Si l'on considère seulement les produits ,(emph[utiles])
+sous le rapport de la quantité, de l'abondance,
+on s'occupe d'une richesse qui procure des jouissances à la société,
+et que j'appellerai ,(emph[Richesse de jouissance]).])
+][
+,(q[Si l'on considère les produits
+sous le rapport de leur Valeur échangeable
+ou simplement de leur valeur,
+l'on s'occupe d'une Richesse qui procure des valeurs à la société,
+et que je nomme ,(emph[Richesse de valeur]).])
+][
+,(q[,(emph[C'est de la richesse de valeur
+que s'occupe spécialement l'Économie politique;
+c'est celle-là surtout dont peut s'occuper
+le Gouvernement]).])
+][
+Ceci posé, que peuvent l'économie politique et le gouvernement?
+L'une, indiquer les moyens d'accroître cette ,(emph[Richesse de valeur]),(pv)
+l'autre, mettre ces moyens en ,(oe)uvre.
+][
+Mais la richesse de Valeur est proportionnelle aux efforts,
+et les efforts sont proportionnels aux obstacles.
+L'Économie politique doit donc enseigner,
+et le Gouvernement s'ingénier à multiplier les obstacles.
+M. de Saint-Chamans ne recule en aucune façon devant cette conséquence.
+][
+L'Échange facilite-t-il aux hommes les moyens
+d'acquérir plus de ,(emph[Richesse de jouissance])
+avec moins de ,(emph[Richesse de valeur?])
+,(--) il faut contrarier l'échange (page 438).
+][
+Y a-t-il quelque part de l'Utilité gratuite
+qu'on pourrait remplacer par de l'Utilité onéreuse,
+par exemple en supprimant un outil ou une machine?
+Il n'y faut pas manquer:
+car il est bien évident, dit-il,
+que si les machines augmentent la ,(emph[Richesse de jouissance]),
+elles diminuent la ,(emph[Richesse de valeur]).
+,(q[,(emph[Bénissons les obstacles])
+que la cherté du combustible oppose chez nous
+à la multiplicité des machines à vapeur])
+(page 263).
+][
+La nature nous a-t-elle favorisés en quoi que ce soit?
+c'est pour notre malheur,
+car, par là, elle nous a ôté une occasion de travailler.
+,(q[J'avoue qu'il est fort possible pour moi
+de désirer voir faire avec les mains, les sueurs, et un travail forcé,
+ce qui peut être produit sans peine et spontanément])
+(page 456).
+][
+Aussi quel dommage qu'elle ne nous ait pas laissé fabriquer l'eau potable!
+C'eût été une belle occasion de produire de la ,(emph[Richesse de valeur]).
+Fort heureusement nous prenons notre revanche sur le vin.
+,(q[Trouvez le secret de faire sortir de la terre
+des sources de vin aussi abondamment que les sources d'eau,
+et vous verrez que ce bel ordre de choses ruinera un quart de la France])
+(page 456).
+][
+D'après la série d'idées que parcourt
+avec tant de naïveté notre économiste,
+il y a une foule de moyens, tous très-simples,
+de réduire les hommes à créer de la ,(emph[Richesse de valeur]).
+][
+Le premier, c'est de la leur prendre à mesure.
+,(q[Si l'impôt prend l'argent où il abonde
+pour le porter où il manque, il sert,
+et, loin, que ce soit une perte pour l'État, ,(emph[c'est un gain])])
+(page 161).
+][
+Le second, c'est de la dissiper.
+,(q[Le luxe et la prodigalité,
+si nuisibles aux fortunes des particuliers,
+sont ,(emph[avantageux]) à la richesse publique.
+Vous prêchez là une belle morale, me dira-t-on.
+Je n'en ai pas la prétention.
+Il s'agit d'économie politique et non de morale.
+On cherche les moyens de rendre les nations plus riches,
+et je prêche le luxe]) (page 168).
+][
+Un moyen plus prompt encore,
+c'est de la détruire par de bonnes guerres.
+,(q[Si l'on reconnaît avec moi
+que la dépense des prodiges est aussi productive qu'une autre;
+que la dépense des gouvernements est également productive...
+on ne s'étonne plus de la richesse de l'Angleterre,
+après cette guerre si dispendieuse]) (page 168).
+][
+Mais pour pousser à la création de la ,(emph[Richesse de valeur]),
+tous ces moyens, impôts, luxe, guerre, etc.,
+sont forcés de baisser papillon devant une ressource beaucoup plus efficace:
+c'est l'incendie.
+][
+,(q[C'est une grande source de richesses que de bâtir,
+parce que cela fournit des revenus aux propriétaires
+qui vendent des matériaux, aux ouvriers,
+et à diverses classes d'artisans et d'artistes.
+Melon cite le chevalier Petty,
+qui regarde comme ,(emph[profit de la nation])
+le travail pour le rétablissement des édifices de Londres,
+après le fameux incendie qui consuma les deux tiers de la ville,
+et il l'apprécie (ce profit!) à un million sterling par an (valeur de 1666),
+pendant quatre années,
+sans que cela ait altéré en rien les autres commerces.
+Sans regarder, ajoute M. de Saint-Chamans,
+comme bien assurée l'évaluation ,(emph[de ce profit]) à une somme fixe,
+il est certain du moins que cet événement n'a pas eu une influence fâcheuse
+sur la richesse anglaise à cette époque.....
+Le résultat du chevalier Petty n'est pas impossible,
+puisque la nécessité de rebâtir Londres a dû créer
+une immense quantité de nouveaux revenus]) (page 63).
+][
+Les économistes qui partent de ce point:
+,(emph[La Richesse, c'est la Valeur]),
+arriveraient infailliblement aux mêmes conclusions,
+s'ils étaient logiques;
+mais ils ne le sont pas, parce que sur le chemin de l'absurdité,
+on s'arrête toujours, un peu plus tôt, un peu plus tard,
+selon qu'on a l'esprit plus ou moins juste.
+M. de Saint-Chamans lui-même semble avoir reculé enfin quelque peu
+devant les conséquences de son principe,
+quand elles le conduisent jusqu'à l'éloge de l'incendie.
+On voit qu'il hésite et se contente d'un éloge négatif.
+Logiquement il devait aller jusqu'au bout,
+et dire ouvertement ce qu'il donne fort clairement à entendre.
+][
+De tous les économistes,
+celui qui a succombé de la manière la plus affligeante
+à la difficulté dont il est ici question,
+c'est certainement M. Sismondi.
+Comme M. de Saint-Chamans, il a pris pour point de départ
+cette idée que la valeur était l'élément de la richesse;
+comme lui, il a bâti sur cette donnée
+une ,(emph[Économie politique à rebours]),
+maudissant tout ce qui diminue la valeur.
+Lui aussi exalte l'obstacle,
+proscrit les machines,
+anathématise l'échange, la concurrence, la liberté,
+glorifie le luxe et l'impôt,
+et arrive enfin à cette conséquence,
+que plus est grande l'abondance de toutes choses,
+plus les hommes sont dénués de tout.
+][
+Cependant M. de Sismondi, d'un bout à l'autre de ses écrits,
+semble porter au fond de sa conscience
+le sentiment qu'il se trompe,
+et qu'un voile qu'il ne peut percer, ,(XXX :sic)
+s'interpose entre lui et la vérité.
+Il n'ose tirer brutalement, comme M. de Saint-Chamans,
+les conséquences de son principe;
+il se trouble, il hésite.
+Il se demande quelquefois s'il est possible
+que tous les hommes, depuis le commencement du monde,
+soient dans l'erreur et sur la voie du suicide,
+quand ils cherchent à diminuer le rapport de l'effort à la satisfaction,
+c'est-à-dire la ,(emph[valeur]).
+Ami et ennemi de la liberté,
+il la redoute, puisqu'elle conduit à l'universelle misère
+par l'abondance qui déprécie la valeur;
+et en même temps, il ne sait comment s'y prendre
+pour détruire cette liberté funeste.
+Il arrive ainsi sur les confins
+du socialisme et des organisations artificielles,
+il insinue que le gouvernement et la science
+doivent tout régler et comprimer,
+puis il comprend le danger de ses conseils,
+les rétracte et finit enfin par tomber dans le désespoir,
+disant: La liberté mène au gouffre,
+la Contrainte est aussi impossible qu'inefficace;
+il n'y a pas d'issue.
+,(--) Il n'y en a pas en effet,
+si la Valeur est la Richesse,
+c'est-à-dire si l'obstacle au bien-être est le bien-être,
+c'est-à-dire si le mal est le bien.
+][
+Le dernier écrivain qui ait, à ma connaissance, remué cette question,
+c'est M. Proudhon.
+Elle était pour son livre des ,(cite-title[Contradictions économiques])
+une bonne fortune.
+Jamais plus belle occasion de saisir aux cheveux une ,(emph[antinomie])
+et de narguer la science.
+Jamais plus belle occasion de lui dire:
+,(q[Vois-tu dans l'accroissement de la valeur un bien ou un mal?
+,(inlatin[Quidquid dixeris argumentabor]).])
+,(--) Je laisse à penser quelle fête
+,(footnote*[,(q[Prenez parti pour la concurrence, vous aurez tort;
+prenez parti contre la concurrence, vous aurez tort:
+ce qui signifie que vous aurez toujours raison.])
+(P.-J. Proudhon, ,(cite-title[Contradictions économiques]), p. 182.)])!
+][
+,(q[Je somme tout économiste sérieux, dit-il,
+de me dire autrement qu'en traduisant et répétant la question,
+par quelle cause la valeur décroît à mesure que la production augmente,
+et réciproquement...
+En termes techniques, la valeur utile et la valeur échangeable,
+quoique nécessaires l'une à l'autre,
+sont en raison inverse l'une de l'autre...
+La valeur utile et la valeur échangeable
+restent donc fatalement enchainées l'une à l'autre,
+bien que par leur nature elles tendent continuellement à s'exclure.])
+][
+,(q[Il n'y a pas, sur la contradiction inhérente à la notion de valeur,
+de cause assignable ni d'explication possible.....
+Étant donné pour l'homme le besoin d'une grande variété de produits
+avec l'obligation d'y pourvoir par son travail,
+l'opposition de valeur utile à valeur échangeable en résulte nécessairement;
+et de cette opposition, une contradiction
+sur le seuil même de l'économie politique.
+Aucune intelligence, aucune volonté divine et humaine ne saurait l'empêcher.
+Ainsi, au lieu de chercher une explication inutile,
+contentons-nous de bien constater la ,(emph[nécessité de la contradiction]).])
+][
+On sait que la grande découverte due à M. Proudhon
+est que tout est à la fois
+vrai et faux, bon et mauvais, légitime et illégitime,
+qu'il n'y a aucun principe qui ne se contredise,
+et que la ,(emph[contradiction]) n'est pas seulement dans les fausses théories,
+mais dans l'essence même des choses et des phénomènes;
+,(q[elle est l'expression pure de la nécessité,
+la loi intime des être, etc.;])
+en sorte qu'elle est inévitable
+et serait incurable rationnellement sans la ,(emph[série])
+et, en pratique, sans la ,(emph[Banque du peuple]).
+Dieu, antinomie;
+liberté, antinomie;
+concurrence, antinommie;
+propriété, antinomie;
+valeur, crédit, monopole, communauté, antinomie et toujours antinomie.
+Quand M. Proudhon fit cette fameuse découverte,
+son c,(oe)ur dut certainement bondir de joie;
+car, puisque la Contradiction est en tout et partout,
+il y a toujours matière à contredire, ce qui est pour lui le bien suprême.
+Il me disait un jour: Je voudrais bien aller en paradis,
+mais j'ai peur que tout le monde n'y soit d'accord
+et de n'y trouver personne avec qui disputer.
+][
+Il faut avouer que la Valeur lui fournissait
+une excellente occasion de faire tout à son aise de l'antinomie.
+,(--) Mais, je lui en demande bien pardon,
+les contradictions et oppositions que ce mot fait ressortir
+sont dans les fausses théories,
+et pas du tout, ainsi qu'il le prétend,
+dans la nature même du phénomène.
+][
+Les théoriciens ont d'abord commencé
+par confondre la Valeur avec l'utilité,
+c'est-à-dire le mal avec le bien
+(car l'utilité, c'est le résultat désiré,
+et la Valeur vient de l'obstacle
+qui s'interpose entre le résultat et le désir),(pv)
+c'était une première faute,
+et quand ils en ont aperçu les conséquences,
+ils ont cru sauver la difficulté
+en imaginant de distinguer la Valeur d'utilité de la Valeur d'échange,
+tautologie encombrante qui avait le tort
+d'attacher le même mot ,(--) Valeur ,(--) à deux phénomènes opposés.
+][
+Mais si, mettant de côté ces subtilités, nous nous attachons aux faits,
+que voyez-nous?
+,(--) Rien assurément que de très-naturel et de fort peu contradictoire.
+][
+Un homme travaille exclusivement pour lui-même.
+S'il acquiert de l'habileté,
+si sa force et son intelligence se développent,
+si la nature devient plus libérale
+ou s'il apprend à la mieux faire concourir à son ,(oe)uvre,
+il a ,(emph[plus de bien-être avec moins de peine]).
+Où voyez-vous la Contradiction, et y a-t-il là tant de quoi se récrier?
+][
+Maintenant, au lieu d'être isolé,
+cet homme a des relations avec d'autres hommes.
+Ils échangent, et je répète mon observation,
+à mesure qu'ils acquièrent
+de l'habileté, de l'expérience, de la force, de l'intelligence,
+à mesure que la nature plus libérale ou plus asservie
+prête une collaboration plus efficace,
+ils ont ,(emph[plus de bien-être avec moins de peine]),
+il y a à leur disposition une plus grande somme d'utilité gratuite;
+dans leurs transactions ils se transmettent les uns aux autres
+une plus grande somme de résultats utiles
+pour chaque quantité donnée de travail.
+Où donc est la contradiction?
+][
+Ah! si vous avez le tort,
+à l'exemple de Smith et de tous ses successeurs,
+d'attacher la même dénomination, ,(--) celle de ,(emph[valeur]), ,(--)
+et aux résultats obtenus et à la peine prise,
+,(--) en ce cas, l'antinomie ou la contradiction se montre.
+,(--) Mais, sachez-le bien,
+elle est tout entière dans vos explications erronées,
+et nullement dans les faits.
+][
+M. Proudhon aurait donc dû établir ainsi sa proposition:
+Étant donné pour l'homme le besoin d'une grande variété de produits,
+la nécessité d'y pourvoir par son travail
+et le don précieux d'apprendre et de se perfectionner,
+rien au monde de plus naturel
+que l'accroissement soutenu des résultats par rapports aux efforts,
+et il n'est nullement contradictoire qu'une valeur donnée
+serve de véhicule à plus d'utilités réalisées.
+][
+Car, encore une fois, pour l'homme,
+l'Utilité c'est le beau côté,
+la Valeur c'est le triste revers de la médaille.
+L'Utilité n'a de rapports qu'avec nos Satisfactions,
+la Valeur qu'avec nos peines.
+L'Utilité réalise nos jouissances et leur est proportionnelle;
+la Valeur atteste notre infirmité native,
+naît de l'obstacle et lui est proportionnelle.
+][
+En vertu de la perfectibilité humaine,
+l'utilité gratuite tend à se substituer de plus en plus
+à l'utilité onéreuse exprimée par le mot ,(emph[valeur]).
+Voilà le phénomène, et il ne présente assurément rien de contradictoire.
+][
+Mais reste toujours la question de savoir si le mot Richesse
+doit comprendre ces deux utilités réunies ou la dernière seulement.
+][
+Si l'on pouvait faire, une fois pour toutes, deux classes d'utilités,
+mettre d'un côté toutes celles qui sont gratuites,
+et de l'autre toutes celles qui sont onéreuses,
+on ferait aussi deux classes de Richesses,
+qu'on appellerait ,(emph[richesses naturelles])
+et ,(emph[richesses sociales]) avec M. Say;
+ou bien ,(emph[richesses de jouissance]) et ,(emph[richesses de valeur])
+avec M. de Saint-Chamans.
+Après quoi, comme ces écrivains le proposent,
+on ne s'occuperait plus des premières.
+][
+,(q[Les biens accessibles à tous, dit M. Say,
+dont chacun peut jouir à sa volonté,
+sans être obligé de les acquérir,
+sans crainte de les épuiser,
+tels que l'air, l'eau, la lumière du soleil, etc.,
+nous étant donnés gratuitement par la nature,
+peuvent être appelés ,(emph[richesses naturelles]).
+Comme elles ne sauraient être ni produites, ni distribuées, ni consommées,
+,(emph[elles ne sont pas du ressort de l'économie politique]).])
+][
+,(q[Celles dont l'étude est l'objet de cette science
+se composent des biens qu'on possède
+et qui ont une valeur reconnue.
+On peut les nommer Richesses sociales,
+parce qu'elles n'existent que parmi les hommes réunis en société.])
+][
+,(q[C'est de la ,(emph[richesse de valeur]),
+dit M. de Saint-Chamans,
+,(emph[que s'occupe spécialement l'économie politique]),
+et toutes les fois que dans cet ouvrage
+je parlerai de la richesse sans spécifier,
+c'est de celle-là seulement qu'il est question.])
+][
+Presque tous les économistes l'ont vu ainsi:
+][
+,(q[La distinction la plus frappante qui se présente d'abord, dit Storch,
+c'est qu'il y a des valeurs qui sont susceptibles d'appropriation,
+et qu'il y en a qui ne le sont point
+,(footnote*[
+Toujours cette perpétuelle et maudite confusion
+entre la Valeur et l'Utilité.
+Je puis bien vous montrer des utilités non appropriées,
+mais je vous défie de me montrer dans le monde entier
+une seule valeur qui n'ait pas de propriétaire.]).
+,(emph[Les premières seules sont l'objet de l'économie politique]),
+car l'analyse des autres ne fournirait aucun résultat
+qui fût digne de l'attention de l'homme d'État.])
+][
+Pour moi, je crois que cette portion d'utilité
+qui, par suite du progrès, cesse d'être onéreuse, cesse d'avoir de la valeur,
+mais ne cesse pas pour cela d'être utilité
+et va tomber dans le domaine ,(emph[commun]) et ,(emph[gratuit]),
+est précisément celle qui doit constamment
+attirer l'attention de l'homme d'État et de l'économiste.
+Sans cela, au lieu de pénétrer et de comprendre
+les grands résultats qui affectent et élèvent l'humanité,
+la science reste en face d'une chose
+tout à fait contingente, mobile,
+tendant à diminuer, sinon à disparaître,
+d'un simple rapport, de la Valeur en un mot;
+sans s'en apercevoir elle se laisse aller à ne considérer
+que la peine, l'obstacle, l'intérêt du producteur,
+qui pis est, à le confondre avec l'intérêt public,
+c'est-à-dire à prendre justement le mal pour le bien,
+et à aller tomber, sous la conduite des saint-Chamans et des Sismondi,
+dans l'utopie socialiste ou l'antinomie Proudhonienne.
+][
+Et puis cette ligne de démarcation entre les deux utilités
+n'est-elle pas tout à fait chimérique, arbitraire, impossible?
+Comment voulez-vous disjoindre ainsi
+la coopération de la nature et celle de l'homme,
+quand elles se mêlent, se combinent, se confondent partout,
+bien plus, quand l'une tend incessamment à remplacer l'autre,
+et que c'est justement en cela que consiste le progrès?
+Si la science économique, si aride à quelques égards,
+élève et enchante l'intelligence sous d'autres rapports,
+c'est précisément qu'elle décrit les lois
+de cette association entre l'homme et la nature;
+c'est qu'elle montre l'utilité gratuite
+se substituant de plus en plus à l'utilité onéreuse,
+la proportion des jouissances de l'homme
+s'accroissant eu égard à ses fatigues,
+l'obstacle s'abaissant sans cesse, et avec lui la Valeur,
+les perpétuelles déceptions du producteur
+plus que compensées par le bien-être croissant des consommateurs,
+la richesse naturelle, c'est-à-dire ,(emph[gratuite]) et ,(emph[commune]),
+venant prendre la place
+de la richesse ,(emph[personnelle]) et ,(emph[appropriée]).
+Eh quoi! on exclurait de l'économie politique
+ce qui constitue sa religieuse Harmonie!
+][
+L'air, l'eau, la lumière sont gratuits, dites-vous.
+C'est vrai, et si nous n'en jouissions que sous leur forme primitive,
+si nous les faisions concourir à aucun de nos travaux,
+nous pourrions les exclure de l'économie politique,
+comme nous en excluons l'utilité possible et probable des comètes.
+Mais observez l'homme au point d'où il est parti et au point où il est arrivé.
+D'abord il ne savait faire concourir que très imparfaitement
+l'eau, l'air, la lumière et les autres agents naturels.
+Chacune de ses satisfactions était achetée par de grands efforts personnels,
+exigeait une très-grande proportion de travail,
+ne pouvait être cédée que comme un grand ,(emph[service]),
+représentait en un mot beaucoup de ,(emph[valeur]).
+Peu à peu cette eau, cet air, cette lumière,
+la gravitation, l'élasticité, le calorique,
+l'électricité, la vie végétale
+sont sortis de cette inertie relative.
+Ils se sont de plus en plus mêlés à notre industrie.
+Ils s'y sont substitués au travail humain.
+Ils ont fait gratuitement ce qu'il faisait à titre onéreux.
+Ils ont, sans nuire aux satisfactions, anéanti de la valeur.
+Pour parler en langue vulgaire,
+ce qui coûtait cent francs n'en coûte que dix,
+ce qui exigeait dix jours de labeur n'en demande qu'un.
+Toute cette valeur anéantie est passée du domaine de la Propriété
+dans celui de la Communauté.
+Une proportion considérable d'efforts humains
+ont été dégagés et rendus disponibles pour d'autres entreprises:
+c'est ainsi qu'à peine égale, à services égaux, à valeurs égales,
+l'humanité a prodigieusement élargi le cercle de ses jouissances,
+et vous dites que je dois éliminer de la science
+cette utilité gratuite, commune,
+qui seule explique le progrès tant en hauteur qu'en surface,
+si je puis m'exprimer ainsi, tant en bien-être qu'en égalité!
+][
+Concluons qu'on peut donner et qu'on donne légitimement
+deux sens au mot Richesse:
+][
+La ,(emph[Richesse effective]), vraie, réalisant des satisfactions;
+ou la somme des Utilités
+que le travail humain, aidé du concours de la nature,
+met à la portée des sociétés.
+][
+La ,(emph[Richesse relative]),
+c'est-à-dire la quote-part proportionnelle de chacun à la Richesse générale,
+quote-part qui se détermine par la Valeur.
+][
+Voici donc la loi Harmonique enveloppée dans ce mot:
+Par le travail, l'action des hommes se combine avec l'action de la nature.
+][
+L'Utilité résulte de cette coopération.
+][
+Chacun prend à l'utilité générale
+une part proportionnelle à la valeur qu'il crée,
+c'est-à-dire aux services qu'il rend,
+,(--) c'est-à-dire, en définitive, à l'utilité dont il est lui-même
+,(XXX [sic: manque "l'auteur"?])
+,(footnote*[
+Ce qui suit est un commencement de note complémentaire
+trouvé dans les papiers de l'auteur. ,(NdEEO)]).
+][
+,(emph[Moralité de la richesse]).
+Nous venons d'étudier la richesse au point de vue économique:
+il n'est peut-être pas inutile de dire quelque chose de ses effets moraux.
+][
+À toutes les époques, la richesse, au point de vue moral,
+a été un sujet de controverse.
+Certains philosophes, certaines religions
+ont ordonné de la mépriser;
+d'autres ont surtout vanté la médiocrité.
+,(inlatin[Aurea mediocritas]).
+Il en est bien peu, s'il en est,
+qui aient admis comme morale
+une ardente aspiration vers les jouissances de la fortune.
+][
+Qui a tort? qui a raison?
+Il n'appartient pas à l'économie politique
+de traiter ce sujet de morale individuelle.
+Je dirai seulement ceci:
+Je suis toujours porté à croire
+que, dans les choses qui sont du domaine de la pratique universelle,
+les théoriciens, les savants, les philosophes
+sont beaucoup plus sujets à se tromper
+que cette pratique universelle elle-même,
+lorsque dans ce mot, Pratique,
+on fait entrer non-seulement les actions de la généralité des hommes,
+mais encore leurs sentiments et leurs idées.
+][
+Or, que nous montre l'universelle pratique?
+Elle nous montre tous les hommes s'efforçant
+de sortir de la misère, qui est notre point de départ;
+préférant tous à la sensation du besoin celle de la satisfaction,
+au dénûment la richesse,
+tous, dis-je, et même, à bien peu d'exceptions près,
+ceux qui déclament contre elle.
+][
+L'aspiration vers la richesse est
+immense, incessante, universelle, indomptable;
+elle a triomphé sur presque tout le globe
+de notre native aversion pour le travail;
+elle se manifeste, quoi qu'on en dise,
+avec un caractère de basse avidité plus encore
+chez les sauvages et les barbares ,(XXX)
+que chez les peuples civilisés.
+Tous les navigateurs qui sont partis d'Europe, au dix-huitième siècle,
+imbus de ces idées mises en vogue par Rousseau,
+qu'ils allaient rencontrer aux Antipodes
+l'homme de la nature, l'homme désintéressé, généreux, hospitalier,
+ont été frappés de la rapacité dont ces hommes primitifs étaient dévorés.
+Nos militaires ont pu constater, de nos jours,
+ce qu'il fallait penser du désintéressement si vanté des peuplades arabes.
+][
+D'un autre côté, l'opinion de tous les hommes,
+même de ceux qui n'y conforment pas leur conduite,
+s'accorde à honorer le désintéressement, la générosité, l'empire sur soi,
+et à flétrir cet amour désordonné des richesses
+qui nous porte à ne reculer devant aucun moyen de nous les procurer.
+,(--) Enfin la même opinion environne d'estime
+celui qui, dans quelque condition que ce soit,
+applique son travail persévérant et honnête
+à améliorer son sort, à élever la condition de sa famille.
+,(--) C'est de cet ensemble de faits, d'idées et de sentiments
+qu'on doit conclure, ce me semble,
+le jugement à porter sur la richesse,
+au point de vue de la morale individuelle.
+][
+Il faut d'abord reconnaître que le mobile qui nous pousse vers elle
+est dans la nature;
+il est de création providentielle et par conséquent ,(emph[moral]).
+Il réside dans ce dénûment primitif et général,
+qui serait notre lot à tous,
+s'il ne créait en nous le désir de nous en affranchir.
+,(--) Il faut reconnaître, en second lieu,
+que les efforts que font les hommes pour sortir de ce dénûment primitif,
+pourvu qu'ils restent dans les limites de la justice,
+sont respectables et estimables,
+puisqu'ils sont universellement estimés et respectés.
+Il n'est personne d'ailleurs qui ne convienne
+que le travail porte en lui-même un caractère moral.
+Cela s'exprime par ce proverbe qui est de tous les pays:
+,(q[L'oisiveté est la mère de tous les vices.])
+Et l'on tomberait dans une contradiction choquante,
+si l'on disait, d'un côté,
+que le travail est indispensable à la moralité des hommes,
+et, de l'autre, que les hommes sont
+immoraux quand ils cherchent à réaliser la richesse par le travail.
+][
+Il faut reconnaître, en troisième lieu,
+que l'aspiration vers la richesse devient immorale
+quand elle est portée au point de nous faire sortir
+des bornes de la justice,
+et aussi, que l'avidité devient plus impopulaire
+à mesure que ceux qui s'y abandonnent sont plus riches.
+][
+Tel est le jugement porté,
+non par quelques philosophes ou quelques sectes,
+mais par l'universalité des hommes, et je m'y tiens.
+][
+Je ferai remarquer néanmoins
+que ce jugement peut n'être pas le même aujourd'hui et dans l'antiquité,
+sans qu'il y ait contradiction.
+][
+Les Esséniens, les Stoïciens vivaient au milieu d'une société
+où la richesse était toujours le prix
+de l'oppression, du pillage, de la violence.
+Non-seulement elle était immorale en elle-même,
+mais par l'immoralité des moyens d'acquisition,
+elle révélait l'immoralité des hommes qui en étaient pourvus.
+Une réaction même exagérée contre les riches et la richesse
+était bien naturelle.
+Les philosophes modernes qui déclament contre la richesse,
+sans tenir compte de la différence des moyens d'acquisition,
+se croient des Sénèques, des Christs.
+Ils ne sont que des perroquets répétant ce qu'ils ne comprennent pas.
+][
+Mais la question que se pose l'économie politique est celle-ci:
+La richesse est-elle un bien moral ou un mal moral pour l'humanité?
+Le développement progressif de la richesse
+implique-t-il, au point de vue moral,
+un perfectionnement ou une décadence?
+][
+Le lecteur pressent ma réponse,
+et il comprend que j'ai dû dire quelques mots
+de la question de morale individuelle
+pour échapper à cette contradiction ou plutôt à cette impossibilité:
+Ce qui est une immoralité individuelle est une moralité générale.
+][
+Sans recourir à la statistique,
+sans consulter les écrous de nos prisons,
+on peut aborder un problème qui s'énonce en ces termes:
+][
+L'homme se dégrade-t-il à mesure
+qu'il exerce plus d'empire sur les choses et la nature,
+qu'il la réduit à le servir,
+qu'il se crée ainsi des loisirs,
+et que, s'affranchissant des besoins les plus impérieux de son organisation,
+il peut tirer de l'inertie, où elles sommeillaient,
+des facultés intellectuelles et morales
+qui ne lui ont pas été sans doute accordées
+pour rester dans une éternelle léthargie?
+][
+L'homme se dégrade-t-il à mesure
+qu'il s'éloigne, pour ainsi dire, de l'état le plus inorganique,
+pour s'élever vers l'état le plus spiritualiste dont il puisse approcher?
+Poser ainsi le problème, c'est le résoudre.
+Je conviendrai volontiers
+que lorsque la richesse se développe par des moyens immoraux,
+elle a une influence immorale, comme chez les Romains.
+][
+Je conviendrai encore que lorsqu'elle se développe d'une manière fort inégale,
+creusant un abîme de plus en plus profond entre les classes,
+elle a une influence immorale et crée des passions subversives.
+][
+Mais en est-il de même quand elle est le fruit
+du travail honnête, de transactions libres,
+et qu'elle se répand d'une manière uniforme
+sur toutes les classes?
+Cela n'est vraiment pas soutenable.
+][
+Cependant les livres socialistes sont pleins de déclamations contre les riches.
+][
+Je ne comprends vraiment pas comment ces écoles,
+si diverses à d'autres égards,
+mais si unanimes en ceci,
+ne s'aperçoivent pas de la contradiction où elles tombent.
+][
+D'une part, la richesse, suivant les chefs de ces écoles,
+a une action délétère, démoralisante,
+qui flétrit l'âme, endurcit le c,(oe)ur,
+ne laisse survivre que le goût des jouissances dépravées.
+Les riches ont tous les vices.
+Les pauvres ont toutes les vertus.
+Ils sont justes, sensés, désintéressés, généreux;
+voilà le thème adopté.
+][
+Et d'un autre côté, tous les efforts d'imagination des Socialistes,
+tous les systèmes qu'ils inventent,
+toutes les lois qu'ils veulent nous imposer,
+tendent, s'il faut les en croire,
+à convertir la pauvreté en richesse...........
+][
+Moralité de la richesse prouvée par cette maxime:
+,(emph[Le profit de l'un est le profit de l'autre])
+,(footnote*[
+Cette dernière indication de l'auteur
+n'est accompagnée d'aucun développement.
+Mais divers chapitres de ce volume y suppléent.
+Voir notamment
+,(bof-ref "propriete_communaute" (cite-title[Propriété et Communauté])),
+,(bof-ref "rapports" (cite-title
+		      [Rapport de l'économie politique avec la morale])),
+et ,(bof-ref "solidarite" (cite-title[Solidarité])).
+,(NdEEO)])..........
+])
+(with-footer
+(p* [Extrait de l',(EO1863), tome VI ,(HarmoniesEconomiques),
+ chapitre VI. "Richesse", pp. 207-227.]
+    [Texte scanné par la ,(BNF),
+	transcrit par ,(frk.paris),
+	relu et mis en hypertexte par ,(FRR)
+	pour ,(Bastiat.org),
+	relu par ,(fguerinet).
+])))

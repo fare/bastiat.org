@@ -1,0 +1,151 @@
+; -*- Scheme -*-
+; $Id: reciprocite.scr,v 1.2 2003/03/11 19:24:42 fare Exp $
+(style 'bo-style)
+(in-bof :title "Réciprocité
+	- par Frédéric Bastiat")
+(document :title "Réciprocité"
+	:author author-FB
+(subtitle[Chapitre X de la ,(Iere) série des ,(SophismesEconomiques)])
+(p*[
+Nous venons de voir que tout ce qui, dans le trajet, rend le transport onéreux,
+agit dans le sens de la protection, ou, si on l'aime mieux,
+que la protection agit dans le sens de tout ce qui rend le transport onéreux.
+][
+Il est donc vrai de dire qu'un tarif est
+un marais, une ornière, une lacune, une pente roide, ,(XXX :sic)
+en un mot, un ,(emph[obstacle]) dont l'effet se résout
+à augmenter la différence du prix de consommation au prix de production.
+Il est de même incontestable qu'un marais, une fondrière,
+sont de véritables tarifs protecteurs.
+][
+Il y a des gens (en petit nombre, il est vrai, mais il y en a)
+qui commencent à comprendre que les obstacles, pour être artificiels,
+n'en sont pas moins des obstacles,
+et que notre bien-être a plus à gagner à la liberté qu'à la protection,
+précisement par la même raison qui fait
+qu'un canal lui est plus favorable
+qu'un ,(q[chemin sablonneux, montant et malaisé]). ,(XXX :EO [. in q])
+][
+Mais, disent-ils, il faut que cette liberté soit réciproque.
+Si nous abaissions nos barrières devant l'Espagne,
+sans que l'Espagne les abaissât devant nous,
+évidemment, nous serions dupes.
+Faisons donc des ,(emph[traités de commerce])
+sur la base d'une juste réciprocité,
+concédons pour qu'on nous concède,
+faisons le ,(emph[sacrifice]) d'acheter pour obtenir l'avantage de vendre.
+][
+Les personnes qui raisonnent ainsi, je suis fâché de le leur dire,
+sont, qu'elles le sachent ou non, dans le principe de la protection;
+seulement elles sont un peu plus inconséquentes
+que les prohibitionistes ,(XXX :sic) absolus.
+][
+Je le démontrerai par l'apologue suivant.
+])
+(subtitle[Stulta et Puera])
+(p*[
+Il y avait, n'importe où, deux villes,
+,(emph[Stulta]) et ,(emph[Puera]).
+Elles construisirent à gros frais
+une route qui les rattachait l'une à l'autre.
+Quand cela fut fait, ,(emph[Stulta]) se dit:
+ ,(q[Voici que ,(emph[Puera]) m'inonde ,(XXX :sic) de ses produits,
+il faut y aviser.])
+En conséquence, elle créa et paya un corps d',(emph[Enrayeurs]),
+ainsi nommés parce que leur mission était de mettre
+des obstacles aux convois qui arrivaient de ,(emph[Puera]).
+Bientôt après, ,(emph[Puera]) eut aussi un corps d',(emph[Enrayeurs]).
+][
+Au bout de quelques siècles,
+les lumières ayant fait de grands progrès,
+la capacité de ,(emph[Puera]) se haussa
+jusqu'à lui faire découvrir que ces obstacles réciproques
+pourraient bien n'être que réciproquement nuisibles.
+Elle envoya un diplomate à ,(emph[Stulta]), lequel,
+sauf la phraséologie officielle, parla en ce sens:
+,(q[Nous avons créé une route,
+et maintenant nous embarrassons ,(XXX :sic) cette route.
+Cela est absurde.
+Mieux eût valu laisser les choses dans leur premier état.
+Nous n'aurions pas eu à payer la route d'abord, et puis les embarras.
+Au nom de ,(emph[Puera]), je viens vous proposer,
+non point de renoncer tout à coup à nous opposer des obstacles mutuels,
+ce serait agir selon un principe,
+et nous méprisons autant que vous les principes,
+mais d'atténuer quelque peu ces obstacles,
+en ayant soin de pondérer équitablement à cet égard
+nos ,(emph[sacrifices]) respectifs.])
+Ainsi parla le diplomate.
+,(emph[Stulta]) demanda du temps pour réfléchir.
+Elle consulta tour à tour ses fabricants, ses agriculteurs.
+Enfin au bout de quelques années,
+elle déclara que les négociations étaient rompues.
+][
+À cette nouvelle, les habitants de ,(emph[Puera]) tinrent conseil.
+Un vieillard (on a toujours soupçonné
+qu'il avait été secrètement acheté par ,(emph[Stulta]))
+se leva et dit:
+,(q[Les obstacles créés par ,(emph[Stulta]) nuisent à nos ventes,
+c'est un malheur.
+Ceux que nous avons créés nuisent à nos achats et c'est un autre malheur.
+Nous ne pouvons rien sur le premier, mais le second dépend de nous.
+Délivrons-nous au moins de l'un,
+puisque nous ne pouvons nous défaire des deux.
+Supprimons nos ,(emph[Enrayeurs])
+sans exiger que ,(emph[Stulta]) en fasse autant.
+Un jour sans doute elle apprendra à mieux faire ses comptes.])
+][
+Un second conseiller, homme de pratique et de faits,
+exempt de principes et nourri de la vieille expérience des ancêtres,
+répliqua:
+,(q[N'écoutons pas
+	ce rêveur, ce théoricien, ce novateur, cet utopiste,
+	cet économiste, ce ,(emph[stultomane]).
+Nous serions perdus si les embarras de la route n'étaient pas bien
+	égalisés, équilibrés et pondérés
+	entre ,(emph[Stulta]) et ,(emph[Puera]).
+Il y aurait plus de difficultés pour ,(emph[aller]) que pour ,(emph[venir]),
+et pour ,(emph[exporter]) que pour ,(emph[importer]).
+Nous serions, relativement à ,(emph[Stulta])
+dans les conditions d'infériorité où se trouvent
+	le Havre, Nantes, Bordeaux, Lisbonne, Londres,
+	Hambourg, la Nouvelle-Orléans,
+par rapport aux villes placées aux sources de
+	la Seine, de la Loire, de la Garonne,
+	de la Tamise, de l'Elbe et du Mississippi;
+car il y a plus de difficultés
+	à remonter les fleuves qu'à les descendre.
+,(--) (Une voix: Les villes des embouchures ont prospéré
+	plus que celles des sources.)
+,(--) Ce n'est pas possible.
+,(--) (La même voix: Mais cela est.)
+,(--) Eh bien, elles ont prospéré contre les règles.])
+Un raisonnement si concluant ébranla l'assemblée.
+L'orateur acheva de la convaincre en parlant
+	d'indépendance nationale, d'honneur national,
+	de dignité nationale, de travail national,
+	d'inondation de produits,
+	de tributs, de concurrence meurtrière;
+bref, il emporta le maintien des obstacles;
+et, si vous en êtes curieux,
+je puis vous conduire en certain pays où vous verrez de vos yeux
+	des cantonniers et des enrayeurs
+	travaillant de la meilleure intelligence du monde,
+	par décret de la même assemblée législative
+	et aux frais des mêmes contribuables,
+	les uns à déblayer la route
+	et les autres à l'embarrasser.
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome IV, ,(SophismesEconomiques),
+,(Iere) série, chapitre X, "Réciprocité", pp. 67-70.
+][
+Texte scanné fourni par ,(AlainMadelin),
+numérisé, mis en hypertexte par	,(cvincent),
+relu et édité par ,(FRR)
+	pour
+	,(Bastiat.org).
+,(XXX [ Relu _très_ attentivement par Faré ])
+])))

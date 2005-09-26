@@ -1,0 +1,181 @@
+; -*- Scheme -*-
+; $Id: introduction_sophismes.scr,v 1.5 2003/03/11 21:46:39 fare Exp $
+(style 'bo-style)
+(in-bof :title "Introduction à la première série des Sophismes Économiques
+	- par Frédéric Bastiat")
+(document :title [Introduction
+	à la première série des ,(SophismesEconomiques)]
+	:author author-FB
+(tag :p :align 'right
+(small[
+En économie politique, il y a beaucoup à apprendre et peu à faire.
+])(br)(small[(Bentham.)]))
+(p*[
+J'ai cherché, dans ce petit volume
+,(footnote*[
+Le petit volume,
+contenant la première série des ,(Sophismeseconomiques),
+parut à la fin de 1845.
+Plusieurs des chapitres qu'il contient
+avaient été publiés par le ,(cite-title[Journal des Économistes])
+dans les numéros d'avril, juillet et octobre de la même année.
+,(NdEEO)
+]),
+à réfuter quelques uns
+des arguments qu'on oppose à l'affranchissement du commerce.
+][
+Ce n'est pas un combat que j'engage avec les protectionistes. ,(XXX :sic)
+C'est un principe que j'essaie de faire pénétrer
+dans l'esprit des hommes sincères qui hésitent parce qu'ils doutent.
+][
+Je ne suis pas de ceux qui disent:
+La protection s'appuie sur des intérêts.
+,(--) Je crois qu'elle repose sur des erreurs,
+ou, si l'on veut, sur des ,(emph[vérités incomplètes]).
+Trop de personnes redoutent la liberté
+pour que cette appréhension ne soit pas sincère.
+][
+C'est placer haut mes prétentions,
+mais je voudrais, je l'avoue,
+que cet opuscule devînt comme le ,(emph[manuel])
+des hommes qui sont appelés à prononcer entre les deux principes.
+Quand on ne s'est pas familiarisé de longue main
+avec la doctrine de la liberté,
+les sophismes de la protection reviennent sans cesse à l'esprit
+sous une forme ou sous une autre.
+Pour l'en dégager, il faut à chaque fois un long travail d'analyse,
+et ce travail, tout le monde n'a pas le temps de le faire;
+les législateurs moins que personne.
+C'est pourquoi j'ai essayé de le donner tout fait.
+][
+Mais, dira-t-on, les bienfaits de la liberté sont-ils donc si cachés
+qu'ils ne se montrent qu'aux économistes de profession?
+][
+Oui, nous en convenons, nos adversaires dans la discussion
+ont sur nous un avantage signalé.
+Ils peuvent en quelques mots, exposer une vérité ,(emph[incomplète]),(pv)
+et, pour montrer qu'elle est incomplète,
+il nous faut de longues et arides dissertations.
+][
+Cela tient à la nature des choses.
+La protection réunit sur un point donné le bien qu'elle fait,
+et infuse dans la masse le mal qu'elle inflige.
+L'un est sensible à l',(oe)il extérieur,
+l'autre ne se laisse apercevoir que par l',(oe)il de l'esprit
+,(footnote*[
+Cet aperçu a donné lieu plus tard au pamphlet
+,(bof-ref "cqovecqonvp" (cite-title[Ce qu'on voit et ce qu'on ne voit pas])),
+compris dans le volume suivant.
+,(NdEEO)
+]).
+,(--) C'est précisément le contraire pour la liberté.
+][
+Il en est ainsi de presque toutes les questions économiques.
+][
+Dites: Voici une machine qui a mis sur le pavé trente ouvriers;
+][
+Ou bien: Voici un prodigue qui encourage toutes les industries;
+][
+Ou encore: La conquête d'Alger a doublé le commerce de Marseille;
+][
+Ou enfin: Le budget assure l'existence de cent mille familles;
+][
+Vous serez compris de tous,
+vos propositions sont claires, simples et vraies en elles-mêmes.
+Déduisez-en ces principes:
+][
+Les machines sont un mal;
+][
+Le luxe, les conquêtes, les lourds impôts sont un bien;
+][
+Et votre théorie aura d'autant plus de succès
+que vous pourrez l'appuyer de faits irrécusables.
+][
+Mais nous, nous ne pouvons nous en tenir à une cause et à son effet prochain.
+Nous savons que cet effet même devient cause à son tour.
+Pour juger une mesure, il faut donc que nous la suivions
+à travers l'enchaînement des résultats, jusqu'à l'effet définitif.
+Et, puisqu'il faut lâcher le grand mot,
+nous sommes réduits à ,(emph[raisonner]).
+][
+Mais aussitôt nous voilà assaillis par cette clameur:
+Vous êtes des théoriciens, des métaphysiciens, des idéologues,
+des utopistes, des hommes à principes,
+,(--) et toutes les préventions du public se tournent contre nous.
+][
+Que faire donc?
+invoquer la patience et la bonne foi du lecteur,
+et jeter dans nos déductions, si nous en sommes capables,
+une clarté si vive que le vrai et le faux s'y montrent à nu,
+afin que la victoire, une fois pour toutes,
+demeure à la restriction ou à la liberté.
+][
+J'ai à faire ici une observation essentielle.
+][
+Quelques extraits de ce petit volume ont paru
+dans le ,(cite-title[Journal des Economistes]).
+][
+Dans une critique, d'ailleurs très-bienveillante
+que M. le vicomte de Romanet a publiée
+(Voir le ,(cite-title[Moniteur industriel]) 18 mai 1845),
+il suppose que je demande ,(emph[la suppression des douanes]).
+M. de Romanet se trompe.
+Je demande la suppression du régime protecteur.
+Nous ne refusons pas des taxes au gouvernement;
+mais nous voudrions, si cela est possible,
+dissuader les gouvernés de se taxer les uns les autres.
+Napoléon a dit:
+,(q[La douane ne doit pas être un instrument fiscal,
+mais un moyen de protéger l'industrie.])
+,(--) Nous plaidons le contraire, et nous disons:
+La douane ne doit pas être
+aux mains des travailleurs ,(XXX :sic [Pas d'incise])
+un instrument de rapine réciproque,
+mais elle peut être une machine fiscale aussi bonne qu'une autre.
+Nous sommes si loin, ou, pour n'engager que moi dans la lutte,
+je suis si loin de demander la suppression des douanes,
+que j'y vois pour l'avenir l'ancre de salut de nos finances.
+Je les crois susceptibles de procurer au Trésor des recettes immenses,
+et, s'il faut dire toute ma pensée,
+à la lenteur que mettent à se répandre les saines doctrines économiques,
+à la rapidité avec laquelle notre budget s'accroît,
+je compte plus, pour la réforme commerciale,
+sur les nécessités du Trésor que sur la force d'une opinion éclairée.
+][
+Mais enfin, me dira-t-on, à quoi concluez-vous?
+][
+Je n'ai pas besoin de conclure.
+Je combats des sophismes, voilà tout.
+][
+Mais, poursuit-on, il ne suffit pas de détruire, il faut édifier.
+,(--) Je pense que détruire une erreur, c'est édifier la vérité contraire.
+][
+Après cela, je n'ai pas de répugnance à dire quel est mon v,(oe)u.
+Je voudrais que l'opinion fût amenée à sanctionner une loi de douanes
+conçue à peu près en ces termes:
+]
+(apply table :width "100%"
+(map (lambda (x) (tr (tdLT (car x)) (tdRB (cdr x))))
+`((,[Les objets de première nécessité
+	paieront un droit ,(inlatin[ad valorem]) de]
+   ,[5%])
+  (,[Les objets de convenance] ,[10%])
+  (,[Les objets de luxe] ,[15 ou 20%]))))
+[
+Encore ces distinctions sont prises
+dans un ordre d'idées entièrement étrangères
+à l'économie politique proprement dite,
+et je suis loin de les croire aussi utiles
+et aussi justes qu'on le suppose communément.
+Mais ceci n'est plus de mon sujet.
+])
+(with-footer
+(p*[
+Extrait de l',(EO1862), tome IV,
+,(SophismesEconomiques), ,(Iere) série, Introduction.
+pp. 1-4.
+][
+Texte original fourni par ,(FRR),
+scanné, numérisé, mis en hypertexte par ,(cbalanca),
+relu et édité par ,(FRR) pour ,(Bastiat.org).
+])))

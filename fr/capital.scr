@@ -1,0 +1,1256 @@
+; -*- Scheme -*-
+; $Id: capital.scr,v 1.7 2004/11/11 15:32:09 fare Exp $
+(style 'bo-style)
+(in-bof :title "Capital
+	- par Frédéric Bastiat")
+(document :title "Capital"
+	:author author-FB
+(subtitle [Chapitre VII des ,(HarmoniesEconomiques)])
+(p*[
+Les lois économiques agissent sur le même principe,
+qu'il s'agisse d'une nombreuse agglomération d'hommes,
+de deux individus, ou même d'un seul,
+condamné par les circonstances à vivre dans l'isolement.
+][
+L'individu, s'il pouvait vivre quelque temps isolé,
+serait à la fois capitaliste, entrepreneur, ouvrier,
+producteur, et consommateur.
+Toute l'évolution économique s'accomplirait en lui.
+En observant chacun des éléments qui la composent:
+le besoin, l'effort, la satisfaction,
+l'utilité gratuite et l'utilité onéreuse,
+il se ferait une idée du mécanisme tout entier,
+quoique réduit à sa plus grande simplicité.
+][
+Or s'il y a quelque chose d'évident au monde,
+c'est qu'il ne pourrait jamais confondre
+ce qui est gratuit avec ce qui exige des efforts.
+Cela implique contradiction dans les termes.
+Il saurait bien quand une matière ou une force
+lui sont fournies par la nature,
+sans la coopération de son travail,
+alors même qu'elles s'y mêlent
+pour le rendre plus fructueux.
+][
+L'individu isolé ne songerait jamais à demander une chose à son travail
+tant qu'il pourrait la recueillir directement de la nature.
+Il n'irait pas chercher de l'eau à une lieue,
+s'il avait une source près de sa hutte.
+Par le même motif, chaque fois que son travail aurait à intervenir,
+il chercherait à y substituer le plus possible de collaboration naturelle.
+][
+C'est pourquoi, s'il construisait un canot,
+il le ferait du bois le plus léger,
+afin de mettre à profit le poids de l'eau.
+Il s'efforcerait d'y adapter une voile,
+afin que le vent lui épargnât la peine de ramer, etc.
+][
+Pour faire concourir ainsi des puissances naturelles,
+il faut des instruments.
+][
+Ici, on sent que l'individu isolé aura un calcul à faire.
+Il se posera cette question:
+Maintenant j'obtiens une satisfaction avec un effort donné;
+quand je serai en possession de l'instrument,
+obtiendrai-je la même satisfaction avec un effort moindre,
+en ajoutant à celui qui me restera à faire
+celui qu'exige la confection de l'instrument lui-même?
+][
+Nul homme ne veut dissiper ses forces pour le plaisir de les dissiper.
+Notre Robinson ne se livrera donc à la confection de l'instrument
+qu'autant qu'il apercevra, au bout,
+une économie définitive d'efforts à satisfaction égale,
+ou un accroissement de satisfactions à efforts égaux.
+][
+Une circonstance qui influe beaucoup sur le calcul,
+c'est le nombre et la fréquence des produits
+auxquels devra concourir l'instrument pendant sa durée.
+Robinson a un premier terme de comparaison.
+C'est l'effort actuel, celui auquel il est assujetti
+chaque fois qu'il veut se procurer la satisfaction
+directement et sans nulle aide.
+Il estime ce que l'instrument lui épargnera d'efforts
+dans chacune de ces occasions;
+mais il faut travailler pour faire l'instrument,
+et ce travail il le répartira, par la pensée,
+sur le nombre total des circonstances où il pourra s'en servir.
+Plus ce nombre sera grand,
+plus sera puissant aussi
+le motif déterminant à faire concourir l'agent naturel.
+,(--) C'est là, c'est dans cette répartition
+d'une ,(emph[avance]) sur la totalité des produits,
+qu'est le principe et la raison d'être de l'Intérêt.
+][
+Une fois que Robinson est décidé à fabriquer l'instrument,
+il s'aperçoit que la bonne volonté et l'avantage ne suffisent pas.
+Il faut des instruments pour faire des instruments;
+il faut du fer pour battre le fer, et ainsi de suite,
+en remontant de difficulté en difficulté
+vers une difficulté première qui semble insoluble.
+Ceci nous avertit de l'extrême lenteur
+avec laquelle les capitaux ont dû se former à l'origine
+et dans quelle proportion énorme
+l'effort humain était sollicité pour chaque satisfaction.
+][
+Ce n'est pas tout.
+Pour faire les instruments de travail,
+eût-on les outils nécessaires,
+il faut encore des ,(emph[matériaux]).
+S'ils sont fournis gratuitement par la nature, comme la pierre,
+encore faut-il les réunir, ce qui est une peine.
+Mais presque toujours la possession de ces matériaux
+suppose un travail antérieur, long et compliqué,
+comme s'il s'agit de mettre en ,(oe)uvre
+de la laine, du lin, du fer, du plomb, etc.
+][
+Ce n'est pas tout encore.
+Pendant que l'homme travaille ainsi,
+dans l'unique vue de faciliter son travail ultérieur,
+il ne fait rien pour ses besoins actuels.
+Or c'est là un ordre de phénomènes
+dans lequel la nature n'a pas voulu mettre d'interruption.
+Tous les jours il faut se nourrir, se vêtir, s'abriter.
+Robinson s'apercevra donc qu'il ne peut rien entreprendre,
+en vue de faire concourir des forces naturelles,
+qu'il n'ait préalablement accumulé des ,(emph[provisions]).
+Il faut que chaque jour il redouble d'activité à la chasse,
+qu'il mette de côté une partie du gibier,
+puis qu'il s'impose des privations,
+afin de se donner le temps nécessaire
+à l'exécution de l'instrument de travail qu'il projette.
+Dans ces circonstances,
+il est plus que vraisemblable que sa prétention
+se bornera à faire un instrument imparfait et grossier,
+c'est-à-dire très-peu propre à remplir sa destination.
+][
+Plus tard, toutes les facultés s'accroîtront de concert.
+La réflexion et l'expérience auront appris à notre insulaire à mieux opérer;
+le premier instrument lui-même lui fournira
+les moyens d'en fabriquer d'autres
+et d'accumuler des provisions avec plus de promptitude.
+][
+Instruments, matériaux, provisions,
+voilà sans doute ce que Robinson appellera son ,(emph[capital]),(pv)
+et il reconnaîtra aisément que plus ce capital sera considérable,
+plus il asservira de forces naturelles,
+plus il les fera concourir à ses travaux,
+plus enfin il augmentera le rapport de ses satisfactions à ses efforts.
+][
+Plaçons-nous maintenant au sein de l'ordre social.
+Le Capital se composera aussi
+des instruments de travail, des matériaux et des provisions
+sans lesquels, ni dans l'isolement ni dans la société,
+il ne se peut rien entreprendre de longue haleine.
+Ceux qui se trouveront pourvus de ce capital
+ne l'auront que parce qu'ils l'auront créé
+par leurs efforts ou par leurs privations,
+et ils n'auront fait ces efforts (étrangers aux besoins actuels),
+ils ne se seront imposé ces privations
+qu'en vue d'avantages ultérieurs,
+en vue, par exemple, de faire concourir désormais
+une grande proportion de forces naturelles.
+De leur part, céder ce capital,
+ce sera se priver de l'avantage cherché,
+ce sera céder cet avantage à d'autres,
+ce sera rendre ,(emph[service]).
+Dès lors, ou il faut renoncer aux plus simples éléments de la justice,
+il faut même renoncer à raisonner,
+ou il faut reconnaître qu'ils auront parfaitement le droit
+de ne faire cette cession qu'en échange
+d'un ,(emph[service]) librement débattu, volontairement consenti.
+Je ne crois pas qu'il se rencontre un seul homme sur la terre
+qui conteste l'équité de la ,(emph[mutualité des services]),
+car mutualité des services signifie, en d'autres termes, équité.
+Dira-t-on que la transaction ne devra pas se faire ,(emph[librement]),
+parce que celui qui a des capitaux
+est en mesure de faire la loi à celui qui n'en a pas?
+Mais comment devra-t-elle se faire?
+À quoi reconnaître l',(emph[équivalence des services]),
+si ce n'est quand de part et d'autre
+l'échange est volontairement accepté?
+Ne voit-on pas d'ailleurs que l'emprunteur, libre de le faire,
+refusera, s'il n'a pas avantage à accepter,
+et que l'emprunt ne peut jamais empirer sa condition?
+Il est clair que la question qu'il se posera sera celle-ci:
+L'emploi de ce capital me donnera-t-il des avantages
+qui fassent plus que compenser les conditions qui me sont demandées;
+ou bien: L'effort que je suis maintenant obligé de faire,
+pour obtenir une satisfaction donnée,
+est-il supérieur ou moindre que la somme des efforts
+auxquels je serai contraint par l'emprunt,
+d'abord pour rendre les ,(emph[services]) qui me sont demandés,
+ensuite pour poursuivre cette satisfaction à l'aide du capital emprunté?
+,(--) Que si, tout compris, tout considéré, il n'y a pas avantage,
+il n'empruntera pas, il conservera sa position;
+et, en cela, quel tort lui est-il infligé?
+Il pourra se tromper, dira-t-on. Sans doute.
+On peut se tromper dans toutes les transactions imaginables.
+Est-ce à dire qu'il ne doit y en avoir aucune de libre?
+Qu'on aille donc jusque-là,
+et qu'on nous dise ce qu'il faut mettre à la place de la libre volonté,
+du libre consentement.
+Sera-ce la contrainte,
+car je ne connais que la contrainte en dehors de la liberté?
+Non, dit-on, ce cera le jugement d'un tiers.
+Je le veux bien, à trois conditions.
+C'est que la décision de ce personnage, quelque nom qu'on lui donne,
+ne sera pas exécutée par la contrainte.
+La seconde, qu'il sera infaillible,
+car pour remplacer une faillibilité par une autre ce n'est pas la peine;
+et celle dont je me défie le moins est celle de l'intéressé.
+Enfin, la troisième condition, c'est que ce personnage ne se fasse pas payer;
+car ce serait une singulière manière
+de manifester sa sympathie pour l'emprunteur
+que de lui ravir d'abord sa liberté
+et de lui mettre ensuite une charge de plus sur les épaules,
+en compensation de ce philanthropique service.
+Mais laissons la question de droit,
+et rentrons dans l'économie politique.
+][
+Un capital, qu'il se compose de matériaux, de provisions ou d'instruments,
+présente deux aspects:
+l'Utilité et la Valeur.
+J'aurais bien mal exposé la théorie de la Valeur,
+si le lecteur ne comprenait pas
+que celui qui cède un capital ne s'en fait payer que la ,(emph[valeur]),
+c'est-à-dire le service rendu à son occasion,
+c'est-à-dire la peine prise par le cédant
+combinée avec la peine épargnée au cessionnaire.
+Un capital, en effet, est un produit comme un autre.
+Il n'emprunte ce nom qu'à sa destination ultérieure.
+C'est une grande illusion de croire
+que le capital soit une chose existant par elle-même.
+Un sac de blé est un sac de blé,
+encore que, selon les points de vue,
+l'un le vende comme revenu et l'autre l'achète comme capital.
+L'échange s'opère sur ce principe invariable:
+valeur pour valeur, service pour service;
+et tout ce qui entre dans la chose d'utilité gratuite
+est donné par-dessus le marché,
+attendu que ce qui est gratuit n'a pas de valeur,
+et que la valeur seule figure dans les transactions.
+En cela, celles relatives aux capitaux ne diffèrent en rien des autres.
+][
+Il résulte de là, dans l'ordre social,
+des vues admirables et que je ne puis qu'indiquer ici.
+L'homme isolé n'a de capital que lorsqu'il a réuni
+des matériaux, des provisions et des intruments.
+Il n'en est pas de même de l'homme social.
+Il suffit à celui-ci d'avoir rendu des ,(emph[services]),
+et d'avoir ainsi la faculté de retirer de la société,
+par l'appareil de l'échange, des services équivalents.
+Ce que j'appelle l'appareil de l'échange,
+c'est la monnaie, les billets à ordre, les billets de banque
+et même les banquiers.
+Quiconque a rendu un ,(emph[service])
+et n'a pas encore reçu la ,(emph[satisfaction]) correspondante
+est porteur d'un titre, soit pourvu de valeur comme la monnaie,
+soit fiduciaire comme les billets de banque,
+qui lui donne la faculté de retirer, du milieu social,
+quand il voudra, où il voudra, et sous la forme qu'il voudra,
+un ,(emph[service]) équivalent.
+Ce qui n'altère en rien,
+ni dans les principes, ni dans les effets, ni au point de vue du droit,
+la grande loi que je cherche à élucider:
+,(emph[Les services s'échangent contre les services]).
+C'est toujours le troc embryonnaire qui s'est
+développé, agrandi, compliqué, sans cesser d'être lui-même.
+][
+Le porteur du titre peut donc retirer de la société, à son gré,
+soit une satisfaction immédiate,
+soit un objet qui, à son point de vue, ait le caractère d'un capital.
+C'est ce dont le cédant ne se préoccupe en aucune façon.
+On examine l',(emph[équivalence des services]), voilà tout.
+][
+Il peut encore céder son titre à un autre
+pour en faire ce qu'il voudra,
+sous la double condition de la ,(emph[restitution]) et d'un ,(emph[service]),
+au temps fixé.
+Si l'on pénètre le fond des choses,
+on trouve qu'en ce cas le cédant
+,(emph[se prive]) en faveur du cessionnaire
+ou d'une satisfaction immédiate qu'il recule de plusieurs années,
+ou d'un instrument de travail qui aurait augmenté ses forces,
+fait concourir les agents naturels,
+et augmenté à son profit le rapport des satisfactions aux efforts.
+Ces avantages, il s'en prive pour en investir autrui.
+C'est là certainement rendre ,(emph[service]),
+et il n'est pas possible d'admettre, en bonne équité,
+que ce service soit sans droit à la mutualité.
+La restitution pure et simple, au bout d'un an,
+ne peut être considérée comme la rémunération de ce service spécial.
+Ceux qui le soutiennent ne comprennent pas
+qu'il ne s'agit pas ici d'une vente,
+dans laquelle, comme la livraison est immédiate,
+la rémunération est immédiate aussi.
+Il s'agit d'un délai.
+Et le délai, ,(emph[à lui seul]) est un service spécial,
+puisqu'il impose un sacrifice à celui qui l'accorde,
+et confère un avantage à celui qui le demande.
+Il y a donc lieu à rémunération,
+ou il faut renoncer à cette loi suprême de la société:
+,(emph[Service pour service]).
+C'est cette rémunération
+qui prend diverses dénominations selon les circonstances:
+,(emph[loyer]), ,(emph[fermage]), ,(emph[rente]),
+mais dont le nom générique est ,(emph[Intérêt])
+,(footnote*[
+Voir ma brochure intitulée
+,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])).]).
+][
+Ainsi, chose admirable, et grâce au merveilleux mécanisme de l'échange,
+tout ,(emph[service]) est ou peut devenir un capital.
+Si des ouvriers doivent commencer dans dix ans un chemin de fer,
+nous ne pouvons pas épargner dès aujourd'hui, et en nature,
+le blé qui les nourrira, le lin qui les vêtira,
+et les brouettes dont ils s'aideront
+pendant cette opération de longue haleine.
+Mais nous pouvons épargner et leur transmettre
+la ,(emph[valeur]) de ces choses.
+Il suffit pour cela de rendre à la société
+des ,(emph[services actuels]),
+et de n'en retirer que des titres,
+lesquels dans dix ans se convertiront en blé, en lin.
+Il n'est pas même indispensable
+que nous laissions sommeiller improductivement ces titres dans l'intervalle.
+Il y a des négociants, il y a des banquiers,
+il y a des rouages dans la société
+qui rendront, contre des services,
+le service de s'imposer ces privations à notre place.
+][
+Ce qui est plus surprenant encore,
+c'est que nous pouvons faire l'opération inverse,
+quelque impossible qu'elle semble au premier coup d',(oe)il.
+Nous pouvons convertir
+en instrument de travail, en chemin de fer, en maisons,
+un capital qui n'est pas encore né,
+utilisant ainsi des ,(emph[services])
+qui ne seront rendus qu'au ,(XXe) siècle.
+Il y a des banquiers qui en font l'avance
+sur la foi que les travailleurs et les voyageurs
+de la troisième ou quatrième génération pourvoiront au payement;
+et ces titres sur l'avenir se transmettent de main en main
+sans rester jamais improductifs.
+Je ne pense pas, je l'avoue,
+que les inventeurs de sociétés artificielles,
+quelque nombreux qu'ils soient,
+imaginent jamais rien de si simple à la fois et de si compliqué,
+de si ingénieux et de si équitable.
+Certes, ils renonceraient à leurs fades et lourdes utopies,
+s'ils connaissaient les belles Harmonies de la mécanique sociale
+instituée par Dieu.
+Un roi d'Aragon cherchait aussi
+quel avis il aurait donné à la Providence sur la mécanique céleste,
+s'il eût été appelé à ses conseils.
+Ce n'est pas Newton qui eût conçu cette pensée impie.
+][
+Mais, il faut le dire, toutes les transmissions de services,
+d'un point à un autre point de l'espace et du temps,
+reposent sur cette donnée qu',(emph[accorder délai c'est rendre service]),(pv)
+en d'autres termes, sur la légitimité de l'Intérêt.
+l'homme qui, de nos jours, a voulu supprimer l'intérêt
+n'a pas compris qu'il ramenait l'échange à sa forme embryonnaire,
+le troc actuel sans avenir et sans passé.
+Il n'a pas compris que, se croyant le plus avancé,
+il était le plus rétrograde des hommes,
+puisqu'il reconstruisait la société sur son ébauche la plus primitive.
+Il voulait, disait-il, la ,(emph[mutualité des services]).
+Mais il commençait par ôter le caractère de ,(emph[services])
+justement à cette nature de ,(emph[services])
+qui rattache, lie et solidarise tous les lieux et tous les temps.
+De tous les socialistes, c'est celui qui,
+malgré l'audace de ses aphorismes à effet,
+a le mieux compris et le plus respecté l'ordre actuel des sociétés.
+Ses réformes se bornent à une seule qui est négative.
+Elle consiste à supprimer dans la société
+le plus puissant et le plus merveilleux de ses rouages.
+][
+J'ai expliqué ailleurs
+la ,(emph[légitimité]) et la ,(emph[perpétuité]) de l'intérêt.
+Je me contenterai de rappeler ici que:
+][
+1° La légitimité de l'intérêt repose sur ce fait:
+,(emph[Celui qui accorde terme rend service]).
+Donc l'intérêt est légitime, en vertu du principe
+,(emph[service pour service]).
+][
+2° La perpétuité de l'intérêt repose sur cet autre fait:
+,(emph[Celui qui emprunte doit restituer intégralement à l'échéance]).
+Or, si la chose ou la valeur est restituée à son propriétaire,
+il la peut prêter de nouveau.
+Elle lui sera rendue une seconde fois,
+il la pourra prêter une troisième,
+et ainsi de suite à ,(emph[perpétuité]).
+Quel est celui des emprunteurs successifs et volontaires
+qui peut avoir à se plaindre?
+][
+Puisque la légitimité de l'intérêt
+a été assez contestée dans ces derniers temps
+pour effrayer le capital,
+et le déterminer à se cacher et à fuir,
+qu'il me soit permis de montrer combien
+cette étrange levée de boucliers est insensée.
+][
+Et d'abord, ne serait-il pas aussi absurde qu'injuste
+que la rémunération fût identique,
+soit qu'on demandât et obtînt un an, deux ans, dix ans de terme,
+ou qu'on n'en prît pas du tout?
+Si, malheureusement,
+sous l'influence de la doctrine prétendue ,(emph[égalitaire]),
+notre Code l'exigeait ainsi,
+toute une catégorie de transactions humaines
+serait à l'instant supprimée.
+Il y aurait encore des ,(emph[trocs]), des ,(emph[ventes au comptant]),
+il n'y aurait plus de ,(emph[ventes à terme]) ni de ,(emph[prêts]).
+Les égalitaires déchargeraient les emprunteurs du poids de l'intérêt,
+c'est vrai, mais en les frustant de l'emprunt.
+Sur cette donnée, on peut aussi soustraire les hommes
+à l'incommode nécessité de payer ce qu'ils achètent.
+Il n'y a qu'à leur défendre d'acheter, ou,
+ce qui revient au même, à faire déclarer par la loi
+que les ,(emph[prix]) sont illégitimes.
+][
+Le principe égalitaire a quelque chose d'égalitaire en effet.
+D'abord il empêcherait le capital de se former;
+car qui voudrait épargner ce dont on ne peut tirer aucun parti?
+et ensuite, il réduirait les salaires à zéro;
+car où il n'y a pas de capital (instruments, matériaux et provisions),
+il ne saurait y avoir ni travail d'avenir, ni salaires.
+Nous arriverions donc bientôt à la plus complète des égalités,
+celle du néant.
+][
+Mais quel homme peut-être assez aveugle
+pour ne pas comprendre
+que le délai est ,(emph[par lui-même]) une circonstance ,(emph[onéreuse])
+et, par suite, rémunérable?
+Même en dehors du prêt, chacun ne s'efforce-t-il pas d'abréger les délais?
+Mais c'est l'objet de nos préoccupations continuelles.
+Tout entrepreneur prend en grande considération
+l'époque où il rentrera dans ses avances.
+Il vend plus ou moins cher,
+selon que cette époque est prochaine ou éloignée.
+Pour rester indifférent sur ce point,
+il faudrait ignorer que le capital est une force;
+car si on sait cela, on désire naturellement
+qu'elle accomplisse le plus tôt possible l',(oe)uvre où on l'a engagée,
+afin de l'engager dans une ,(oe)uvre nouvelle.
+][
+Ce sont de bien pauvres économistes
+que ceux qui croient que nous ne payons l'intérêt des capitaux
+que lorsque nous les empruntons.
+La règle générale, fondée sur la justice,
+est que celui qui recueille la satisfaction
+doit supporter toutes les charges de la production,
+,(emph[délais compris]),
+soit qu'il se rendre le service à lui-même,
+soit qu'il se le fasse rendre par autrui.
+L'homme isolé, qui ne fait, lui, de transactions avec personne,
+considérerait comme ,(emph[onéreuse])
+toute circonstance qui le priverait de ses armes pendant un an.
+Pourquoi donc une circonstance analogue
+ne serait-elle pas considérée comme onéreuse dans la société?
+Que si un homme s'y soumet volontairement
+pour l'avantage d'un autre qui stipule volontairement une rémunération,
+en quoi cette rémunération est-elle illégitime?
+][
+Rien ne se ferait dans le monde,
+aucune entreprise qui exige des avances ne s'accomplirait,
+on ne planterait pas, on ne sèmerait pas, on ne labourerait pas,
+si le délai n'était, ,(emph[en lui-même])
+considéré comme une circonstance ,(emph[onéreuse]),
+traité et rémunéré comme tel.
+Le consentement universel est si unanime sur ce point,
+qu'il n'est pas un échange où ce principe ne domine.
+Les délais, les retards entrent dans l'appréciation des ,(emph[services]),
+et, par conséquent, dans la constitution de la ,(emph[valeur]).
+][
+Ainsi, dans leur croisade contre l'intérêt,
+les égalitaires foulent aux pieds
+non-seulement les plus simples notions d'équité,
+non-seulement leur propre principe:
+,(emph[service pour service]),
+mais encore l'autorité du genre humain et la pratique universelle.
+Comment osent-ils étaler à tous les yeux
+l'incommensurable orgueil qu'une telle prétention suppose?
+et n'est-ce pas une chose bien étrange et bien triste
+que des sectaires prennent cette devise implicite et souvent explicite:
+Depuis le commencement du monde, tous les hommes se trompent, hors moi?
+,(inlatin[Omnes, ego non]).
+][
+Qu'on me pardonne d'avoir insisté
+sur la légitimité de l'intérêt fondée sur cet axiome:
+,(emph[puisque délai coûte, il faut qu'il se paye]),
+,(emph[coûter]) et ,(emph[payer]) étant corrélatifs.
+La faute en est à l'esprit de notre époque.
+Il faut bien se porter du côté des vérités vitales,
+admises par le genre humain,
+mais ébranlées par quelques novateurs fanatiques.
+,(--) Pour un écrivain qui aspire
+à montrer un ensemble harmonieux de phénomènes,
+c'est une chose pénible, qu'on le croie bien,
+d'avoir à s'interrompre à chaque instant
+pour élucider les notions les plus élémentaires.
+Laplace aurait-il pu exposer dans toute sa simplicité
+le système du monde planétaire,
+si, parmi ses lecteurs,
+il n'y eût pas eu des notions communes et reconnues;
+si, pour prouver que la terre tourne,
+il lui eût fallu préalablement enseigner la rémunération?
+,(--) Telle est la dure alternative de l'Économiste à notre époque.
+S'il ne scrute pas les éléments, il n'est pas compris;
+et s'il les explique, le torrent des détails
+fait perdre de vue la simplicité et la beauté de l'ensemble.
+][
+Et vraiment, il est heureux pour l'humanité
+que l',(emph[Intérêt]) soit légitime.
+][
+Sans cela elle serait, elle aussi,
+placée dans une rude alternative:
+Périr en restant juste,
+ou progresser par l'injustice.
+][
+Toute industrie est un ensemble d'efforts.
+Mais il y a entre ces efforts
+une distinction essentielle à faire.
+Les uns se rapportent aux services qu'il s'agit de rendre actuellement,
+les autres à une série indéfinie de services analogues.
+Je m'explique.
+][
+La peine que prend, dans une journée, le porteur d'eau
+doit lui être payée par ceux qui profitent de cette peine;
+mais celle qu'il a prise pour faire sa brouette et son tonneau
+doit être répartie, quant à la rémunération,
+sur un nombre indéterminé de consommateurs.
+][
+De même, ensemencement, sarclage, labourage, hersage, moisson, battage,
+ne regardent que la récolte actuelle;
+mais clôtures, défrichements, desséchements, bâtisses, amendements,
+concernent et facilitent une série indéterminée de récoltes ultérieures.
+][
+D'après la loi générale ,(emph[Service pour service]),
+ceux à qui doit aboutir la satisfaction
+ont à restituer les efforts qu'on a fait pour eux.
+Quant aux efforts de la première catégorie, pas de difficulté.
+Ils sont débattus et ,(emph[évalués])
+entre celui qui les fait et celui qui en profite.
+Mais les services de la seconde catégorie,
+comment seront-ils ,(emph[évalués])?
+Comment une juste proportion
+des avances permanentes, frais généraux,
+capital fixe, comme disent les économistes,
+sera-t-elle répartie sur toute la série des satisfactions
+qu'elles sont destinées à réaliser?
+Par quel procédé en fera-t-on retomber le poids d'une manière équitable
+sur tous les acquéreurs d'eau, jusqu'à ce que la brouette soit usée;
+sur tous les acquéreurs de blé, tant que le champ en fournira?
+][
+J'ignore comment on résoudrait le problème en Icarie ou au Phalanstère.
+Mais il est permis de croire
+que messieurs les inventeurs de sociétés,
+si féconds en arrangements artificiels
+et si prompts à les imposer par la loi,
+c'est-à-dire, qu'ils en conviennent ou non, par la Contrainte,
+n'imagineraient pas une solution plus ingénieuse
+que le procédé tout naturel
+que les hommes ont trouvé d'eux-mêmes (les audacieux!)
+depuis le commencement du monde,
+et qu'on voudrait aujourd'hui leur interdire.
+Ce procédé, le voici:
+il découle de la loi de l',(emph[Intérêt]).
+][
+Soient mille francs ayant été employés en améliorations foncières;
+soient le taux de l'intérêt à cinq pour cent
+et la récolte moyenne de cinquante hectolitres.
+Sur ces données, chaque hectolitre de blé devra être grevé d'un franc.
+][
+Ce franc est évidemment la récompense légitime
+d'un ,(emph[service]) réel rendu par le propriétaire
+(qu'on pourrait appeler travailleur),
+aussi bien à celui qui acquerra un hectolitre de blé dans dix ans
+qu'à celui qui l'achète aujourd'hui.
+La loi de stricte justice est donc observée.
+][
+Que si l'amélioration foncière, ou la brouette et le tonneau,
+ne doivent avoir qu'une durée approximativement appréciable,
+un amortissement vient s'ajouter à l'intérêt,
+afin que le propriétaire ne soit pas dupe
+et puisse encore recommencer.
+C'est toujours la loi de justice qui domine.
+][
+Il ne faudrait pas croire que ce franc d'intérêt
+dont est grevé chaque hectolitre de blé est invariable.
+Non, il représente une valeur et est soumis à la loi des valeurs.
+Il s'accroît ou décroît selon la variation de l'offre et de la demande,
+c'est-à-dire selon les exigences des temps
+et le plus grand bien de la société.
+][
+On est généralement porté à croire que cette nature de rémunération
+tend à s'accroître, sinon quant aux améliorations industrielles,
+du moins quant aux améliorations foncières.
+En admettant que cette rente fût équitable à l'origine, dit-on,
+elle finit par devenir abusive,
+parce que le propriétaire, qui reste désormais les bras croisés,
+la voit grossir d'année en année,
+par le seul fait de l'accroissement de la population,
+impliquant un accroissement dans la demande du blé.
+][
+Cette tendance existe, j'en conviens,
+mais elle n'est pas spéciale à la rente foncière,
+elle est commune à tous les genres de travaux.
+Il n'en est pas un
+dont la valeur ne s'accroisse avec la densité de la population,
+et le simple manouvrier gagne plus à Paris qu'en Bretagne.
+][
+Ensuite, relativement à la rente foncière,
+la tendance qu'on signale
+est énergiquement balancée par une tendance opposée,
+c'est celle du progrès.
+Une amélioration réalisée aujourd'hui par des moyens perfectionnés,
+obtenue avec moins de travail humain,
+et dans un temps où le taux de l'intérêt a baissé,
+empêche toutes les anciennes améliorations d'élever trop haut leurs exigences.
+Le capital fixe du propriétaire, comme celui du manufacturier,
+se détériore à la longue,
+par l'apparition d'instruments de plus en plus énergiques à valeur égale.
+C'est là une magnifique Loi
+qui renverse la triste théorie de Ricardo;
+elle sera exposée avec plus de détails
+quand nous en serons à la propriété foncière.
+][
+Remarquez que le problème de la répartition
+des services rémunératoires dus aux améliorations permanentes
+ne pouvait se résoudre que par la loi de l',(emph[intérêt]).
+Le propriétaire ne pouvait répartir le Capital
+même sur un certain nombre d'acquéreurs successifs;
+car où se serait-il arrêté, puisque le nombre en est indéterminé?
+Les premiers auraient payé pour les derniers,
+ce qui n'est pas juste.
+En outre, un moment serait arrivé
+où le propriétaire aurait eu à la fois
+et le capital et l'amélioration,
+ce qui ne l'est pas davantage.
+Reconnaissons donc que le mécanisme social naturel
+est assez ingénieux
+pour que nous puissions nous dispenser
+de lui substituer un mécanisme artificiel.
+][
+J'ai présenté le phénomène sous sa forme la plus
+simple afin d'en faire comprendre la nature.
+Dans la pratique les choses ne se passent pas
+tout à fait ainsi.
+][
+Le propriétaire n'opère pas lui-même la répartition,
+ce n'est pas lui qui décide que chaque hectolitre de blé
+sera grevé d'un franc plus ou moins.
+Il trouve toutes choses établies dans le monde,
+tant le cours moyen du blé que le taux de l'intérêt.
+C'est sur cette donnée qu'il décide de la destination de son capital.
+Il le consacrera à l'amélioration foncière
+s'il calcule que le cours du blé
+lui permet de retrouver le taux normal de l'intérêt.
+Dans le cas contraire, il le dirige sur une industrie plus lucrative,
+et qui, par cela même, exerce sur les capitaux, dans l'intérêt social,
+une plus grande force d'attraction.
+Cette marche, qui est la vraie,
+arrive au même résultat et présente une harmonie de plus.
+][
+Le lecteur comprendra que je ne me suis renfermé dans un fait spécial
+que pour élucider une loi générale,
+à laquelle sont soumises toutes les professions.
+][
+Un avocat, par exemple, ne peut se faire rembourser
+les frais de son éducation, de son stage, de son premier établissement,
+,(--) soit une vingtaine de mille francs,
+,(--) par le premier plaideur qui lui tombe sous la main.
+Outre que ce serait inique, ce serait inexécutable;
+jamais ce premier plaideur ne se présenterait,
+et notre Cujas serait réduit à imiter ce maître de maison
+qui, voyant que personne ne se rendait à son premier bal, disait:
+L'année prochaine je commencerai par le second.
+][
+Il en est ainsi du négociant, du médecin, de l'armateur, de l'artiste.
+En toute carrière, se rencontrent les deux catégories d'efforts;
+la seconde exige impérieusement
+une répartition sur une clientèle indéterminée,
+et je défie qu'on puisse imaginer une telle répartition
+en dehors du mécanisme de l',(emph[intérêt]).
+][
+Dans ces derniers temps, de grands efforts ont été faits
+pour soulever les répugnances populaires
+contre le capital, l'infâme, l'infernal capital;
+on le représente aux masses comme un monstre dévorant et insatiable,
+plus destructeur que le choléra,
+plus effrayant que l'émeute,
+exerçant sur le corps social l'action d'un vampire
+dont la puissance de succion se multiplierait indéfiniment par elle-même.
+,(inlatin[Vires acquirit eundo]).
+La langue de ce monstre s'appelle rente, usure, loyer, fermage, intérêt.
+Un écrivain, qui pouvait devenir célèbre par ses fortes facultés
+et qui a préféré l'être par ses paradoxes,
+s'est plu à jeter celui-là
+au milieu d'un peuple déjà tourmenté de la fièvre révolutionnaire.
+J'ai aussi un apparent paradoxe à soumettre au lecteur,
+et je le prie d'examiner s'il n'est pas une grande et consolante vérité.
+][
+Mais avant, je dois dire un mot
+de la manière dont M. Proudhon et son école
+expliquent ce qu'ils nomment l'illégitimité de l',(emph[intérêt]).
+][
+Les capitaux sont des instruments de travail.
+Les instruments de travail ont pour destination
+de faire concourir les forces ,(emph[gratuites]) de la nature.
+Par la machine à vapeur on s'empare de l'élasticité des gaz;
+par le ressort de montre, de l'élasticité de l'acier;
+par des poids ou des chutes d'eau, de la gravitation;
+par la pile de Volta, de la rapidité de l'étincelle électrique;
+par le sol, des combinaisons chimiques et physiques
+qu'on appelle végétation, etc., etc.
+,(--) Or, confondant l'Utilité avec la Valeur,
+on suppose que ces agents naturels
+ont une valeur ,(emph[qui leur est propre]),
+et que par conséquent ceux qui s'en emparent
+s'en font payer l'usage, car valeur implique payement.
+On s'imagine que les produits
+sont grevés d'un ,(emph[item]) pour les services de l'homme,
+ce qu'on admet comme juste,
+et d'un autre ,(emph[item]) pour les services de la nature,
+ce qu'on repousse comme inique.
+Pourquoi, dit-on, faire payer
+la gravitation, l'électricité, la vie végétale, l'élasticité? etc.
+][
+La réponse se trouve dans la théorie de la ,(emph[valeur]).
+Cette classe de socialistes, qui prennent le nom d'Égalitaires,
+confond la légitime ,(emph[valeur]) de l'instrument,
+fille d'un service humain,
+avec son résultat utile, toujours gratuit,
+sous déduction de cette légitime valeur ou de l'intérêt y relatif.
+Quand je rémunère un laboureur, un meunier, une compagnie de chemin de fer,
+je ne donne rien, absolument rien,
+pour le phénomène végétal, pour la gravitation,
+pour l'élasticité de la vapeur.
+Je paye le travail humain qu'il a fallu consacrer à faire des instruments
+au moyen desquels ces forces sont contraintes à agir;
+ou, ce qui vaut mieux pour moi, je paye l'intérêt de ce travail.
+Je rends service contre service,
+moyennant quoi l'action utile de ces forces
+est toute à mon profit et gratuitement.
+C'est comme dans l'échange, comme dans le simple troc.
+La présence du capital ne modifie pas cette loi,
+car le capital n'est autre chose qu'une accumulation
+de valeurs, de ,(emph[services])
+auxquels est donnée la mission spéciale de faire coopérer la nature.
+][
+Et maintenant voir mon paradoxe:
+][
+De tous les éléments qui composent la valeur totale d'un produit quelconque,
+celui que nous devons payer le plus joyeusement,
+c'est cet élément même qu'on appelle intérêt des avances ou du capital.
+][
+Et pourquoi? parce que cet élément
+ne nous fait payer ,(emph[un]) qu'en nous épargnant ,(emph[deux]).
+Parce que, par sa présence même,
+il constate que des forces naturelles ont concouru au résultat final
+sans faire payer leur concours;
+parce qu'il en résulte
+que la même utilité générale est mise à notre disposition,
+avec cette circonstance,
+qu'une certaine proportion d'utilité gratuite a été substituée,
+heureusement pour nous, à de l'utilité onéreuse,
+et, pour tout dire en un mot,
+parce que le produit a baissé de prix.
+Nous l'acquérons avec une moindre proportion de notre propre travail,
+et il arrive à la société tout entière
+ce qui arriverait à l'homme isolé
+qui aurait réalisé une ingénieuse invention.
+][
+Voici un modeste ouvrier qui gagne quatre francs par jour.
+Avec deux francs, c'est-à-dire avec une demi-journée de travail,
+il achète une paire de bas de coton.
+S'il voulait se procurer ces bas directement et par son propre travail,
+je crois vraiment que sa vie entière n'y suffirait pas.
+Comment se fait-il donc que sa demi-journée acquitte tous
+les ,(emph[services humains]) qui lui sont rendus en cette occasion?
+D'après la loi ,(emph[service pour service]),
+comment n'est-il pas obligé de livrer plusieurs années de travail?
+][
+C'est que cette paire de bas
+est le résultat de ,(emph[services humains])
+dont les agents naturels, par l'intermédiaire du Capital,
+ont énormément diminué la proportion.
+Notre ouvrier paye cependant,
+non-seulement le travail actuel de tous ceux qui ont concouru à l',(oe)uvre,
+mais encore l'intérêt des capitaux qui y ont fait concourir la nature;
+et ce qu'il faut remarquer, c'est que,
+sans cette dernière rémunération,
+ou si elle était tenue pour illégitime,
+le capital n'aurait pas sollicité les agents naturels,
+il n'y aurait dans le produit que de l'utilité onéreuse,
+il serait le résultat unique du travail humain,
+et notre ouvrier serait placé au point de départ,
+c'est-à-dire dans l'alternative ou de se priver de bas,
+ou de les payer au prix de plusieurs années de labeur.
+][
+Si notre ouvrier a appris à analyser les phénomènes,
+certes il se réconciliera avec le Capital
+en voyant combien il lui est redevable.
+Il se convaincra surtout que la gratuité des dons de Dieu
+lui a été complétement réservée,
+que ces dons lui sont même prodigués
+avec une libéralité qu'il ne doit pas à son propre mérite,
+mais au beau mécanisme de l'ordre social ,(emph[naturel]).
+Le capital, ce n'est pas la force végétative
+qui a fait germer et fleurir le coton,
+mais la ,(emph[peine prise]) par le planteur;
+le Capital, ce n'est pas le vent qui a gonflé les voiles du navire,
+ni le magnétisme qui a agi sur la boussole,
+mais la ,(emph[peine prise]) par le voilier et l'opticien;
+le Capital, ce n'est pas l'élasticité de la vapeur
+qui a fait tourner les broches de la fabrique,
+mais la ,(emph[peine prise]) par le constructeur de machines.
+Végétation, force des vents, magnétisme, élasticité,
+tout cela est certes gratuit;
+et voilà pourquoi les bas ont si peu de valeur.
+Quant à cet ensemble de peines prises
+par le planteur, le voilier, l'opticien,
+le constructeur, le marin, le fabricant, le négociant,
+elles se répartissent ou plutôt,
+en tant que c'est le Capital qui agit,
+l'intérêt s'en répartit entre d'innombrables acquéreurs de bas;
+et voilà pourquoi la portion de travail cédée en retour
+par chacun d'eux est si petite.
+][
+En vérité, réformateurs modernes,
+quand vous voulez remplacer cet ordre admirable
+par un arrangement de votre invention,
+il y a deux choses (et elles n'en font qu'une)
+qui me confondent:
+votre manque de foi en la Providence
+et votre foi en vous-mêmes;
+votre ignorance et votre orgueil.
+De ce qui précède, il résulte
+que le progrès de l'humanité coïncide avec la rapide formation des Capitaux;
+car dire que de nouveaux capitaux se forment,
+c'est dire en d'autres termes
+que des obstacles, autrefois onéreusement combattus par le travail,
+sont aujourd'hui gratuitement combattus par la nature;
+et cela, remarquez-le bien,
+non au profit des capitalistes,
+mais au profit de la communauté.
+][
+S'il en est ainsi, l'intérêt dominant de tous les hommes
+(bien entendu au point de vue économique),
+c'est de favoriser la rapide formation du Capital.
+Mais le Capital s'accroît pour ainsi dire de lui-même
+sous la triple influence de l'activité, de la frugalité et de la sécurité.
+Nous ne pouvons guère exercer d'action directe
+sur l'activité et la frugalité de nos frères,
+si ce n'est par l'intermédiaire de l'opinion publique,
+par une intelligente dispensation de nos antipathies et de nos sympathies.
+Mais nous pouvons beaucoup pour la sécurité,
+sans laquelle les capitaux, loin de se former,
+se cachent, fuient, se détruisent;
+et par là on voit combien il y a quelque chose qui tient du suicide
+dans cette ardeur que montre quelquefois la classe ouvrière
+à troubler la paix publique.
+Qu'elle le sache bien,
+le Capital travaille depuis le commencement
+à affranchir les hommes du joug
+de l'ignorance, du besoin, du despotisme.
+Effrayer le Capital, c'est river une triple chaîne aux bras de l'humanité.
+][
+Le ,(inlatin[vires acquirit eundo])
+s'applique avec une exactitude rigoureuse
+au Capital et à sa bienfaisante influence.
+Tout capital qui se forme laisse nécessairement
+disponibles et du travail et de la rémunération pour ce travail.
+Il porte donc en lui-même une puissance de progression.
+Il y a en lui quelque chose qui ressemble à la loi des vitesses.
+,(--) Et c'est là ce que la science a peut-être omis jusqu'à ce jour
+d'opposer à cette autre progression remarquée par Malthus.
+C'est une harmonie que nous ne pouvons traiter ici.
+Nous la réservons pour le chapitre
+,(bof-ref "de_la_population" [de la Population]).
+][
+Je dois prémunir le lecteur contre une objection spécieuse.
+Si la mission du capital, dira-t-il,
+est de faire exécuter par la nature
+ce qui s'exécutait par le travail humain
+quelque bien qu'il confère à l'humanité,
+il doit nuire à la classe ouvrière,
+spécialement à celle qui vit de salaire;
+car tout ce qui met des bras en disponibilité
+active la concurrence qu'ils se font entre eux,
+et c'est sans doute là la secrète raison
+de l'opposition que les prolétaires font aux capitalistes.
+,(--) Si l'objection était fondée, il y aurait en effet
+un ton discordant dans l'harmonie sociale.
+][
+L'illusion consiste en ce qu'on perd de vue ceci:
+,(emph[Le Capital, à mesure que son action s'étend,
+ne met en disponibilité une certaine quantité d'efforts humains
+qu'en mettant aussi en disponibilité
+une quantité de rémunération correspondante]),
+de telle sorte que ces deux éléments se retrouvant,
+se satisfont l'un par l'autre.
+Le travail n'est pas frappé d'inertie;
+remplacé dans une ,(oe)uvre spéciale par l'énergie gratuite,
+il se prend à d'autres obstacles dans l',(oe)uvre générale du progrès,
+avec d'autant plus d'infaillibilité
+que sa récompense est déjà toute préparée au sein de la communauté.
+][
+Et en effet, reprenant l'exemple ci-dessus,
+il est aisé de voir que le prix des bas
+(comme celui des livres, des transports et de toutes choses)
+ne baisse, sous l'action du capital,
+qu'en laissant entre les mains de l'acheteur
+une partie du prix ancien.
+C'est même là un pléonasme presque puéril;
+l'ouvrier, qui paye 2 francs ce qu'il aurait payé 6 francs autrefois,
+a donc 4 francs en disponibilité.
+Or c'est justement dans cette proportion
+que le travail humain a été remplacé par des forces naturelles.
+Ces forces sont donc une pure et simple conquête,
+qui n'altère en rien le rapport du travail à la rémunération disponible.
+Que le lecteur veuille bien se rappeler
+que la réponse à cette objection
+avait été d'avance préparée (page 68 et suiv.),
+,(footnote*[
+Il s'agit, au chapitre III
+",(bof-ref "des_besoins_de_l_homme" [Des besoins de l'homme])",
+du texte commençant par
+,(blockquote[Oui, l'inégalité factice,
+l'inégalité que la loi réalise en troublant l'ordre naturel
+du développement des diverses classes de la société, ,(inbracket[...])])
+,(NdEBO)
+])
+lorsque, observant l'homme dans l'isolement,
+ou bien réduit encore à la primitive loi du troc,
+je le mettais en garde contre l'illusion si commune
+que j'essaye ici de détruire.
+][
+Laissons donc sans scrupules les capitaux
+se créer, se multiplier
+suivant ,(emph[leurs]) propres tendances et celles du c,(oe)ur humain.
+N'allons pas nous imaginer
+que lorsque le rude travailleur économise pour ses vieux jours,
+lorsque le père de famille songe
+à la carrière de son fils ou à la dot de sa fille,
+ils n'exercent cette noble faculté de l'homme,
+la Prévoyance, qu'au préjudice du bien général.
+Il en serait ainsi, les vertus privées seraient
+en antagonisme avec le bien public,
+s'il y avait incompatibilité entre le Capital et le Travail.
+][
+Loin que l'humanité ait été soumise à cette contradiction,
+disons plus, à cette impossibilité
+(car comment concevoir le mal progressif dans l'ensemble
+résultant du bien progressif dans les fractions?),
+il faut reconnaître qu'au contraire la Providence,
+dans sa justice et sa bonté,
+a réservé, dans le progrès,
+une plus belle part au Travail qu'au Capital,
+un stimulant plus efficace,
+une récompense plus libérale
+à celui qui verse actuellement la sueur de son front,
+qu'à celui qui vit sur la sueur de ses pères.
+][
+En effet, étant admis que tout accroissement de capital
+est suivi d'un accroissement nécessaire de bien-être général,
+j'ose poser comme inébranlable,
+quant à la distribution de ce bien-être,
+l'axiome suivant:
+][
+,(q[,(emph[À mesure que les capitaux s'accroissent,
+la part absolue des capitalistes dans les produits totaux augmente
+et leur part relative diminue.
+Au contraire, les travailleurs
+voient augmenter leur part dans les deux sens]).])
+][
+Je ferais mieux comprendre ma pensée par des chiffres.
+][
+Représentons les produits totaux de la société,
+à des époques successives, par les chiffres
+1,000, 2,000, 3,000, 4,000, etc.
+][
+Je dis que le prélèvement du capital
+descendra successivement de 50 p. 100 à 40, 35, 30 p. 100,
+et celui du travail s'élèvera par conséquent
+de 50. p. 100 à 60, 65, 70 p. 100.
+,(--) De telle sorte néanmoins que la part ,(emph[absolue]) du capital
+soit toujours plus grande à chaque période,
+bien que sa part ,(emph[relative]) soit plus petite.
+][
+Ainsi le partage se fera de la manière suivante:
+]
+(table
+(tr(td)(td[Produit total])(td[Part du capital])(td[Part du travail]))
+(tr(td[Première période...])(tdRT 1000)(tdRT 500)(tdRT 500))
+(tr(td[Deuxième période...])(tdRT 2000)(tdRT 800)(tdRT 1200))
+(tr(td[Troisième période...])(tdRT 3000)(tdRT 1050)(tdRT 1950))
+(tr(td[Quatrième période...])(tdRT 4000)(tdRT 1200)(tdRT 2800)))
+[
+Telle est la grande, admirable, consolante,
+nécessaire et ,(emph[inflexible]) loi du capital.
+La démontrer c'est, ce me semble, frapper de discrédit
+ces déclamations dont on nous rebat les oreilles depuis si longtemps
+contre ,(emph[l'avidité]), la ,(emph[tyrannie])
+du plus puissant instrument de civilisation et d',(emph[égalisation])
+qui sorte des facultés humaines.
+][
+Cette démonstration se divise en deux.
+Il faut prouver d'abord que la part ,(emph[relative]) du capital
+va diminuant sans cesse.
+][
+Ce ne sera pas long, car cela revient à dire:
+,(emph[Plus les capitaux abondent, plus l'intérêt baisse]).
+Or c'est un point de fait incontestable et incontesté.
+Non-seulement la science l'explique, mais il crève les yeux.
+Les Écoles les plus excentriques l'admettent;
+celle qui s'est spécialement posée
+comme l'adversaire de l',(emph[infernal]) capital,
+en fait la base de sa théorie,
+car c'est de cette baisse visible de l'intérêt
+qu'elle conclut à son anéantissement fatal;
+or, dit-elle, puisque cet anéantissement est fatal,
+puisqu'il doit arriver dans un temps donné,
+puisqu'il implique la réalisation du bien absolu,
+il faut le hâter et le décréter.
+,(--) Je n'ai pas à réfuter ici
+ces principes et les inductions qu'on en tire.
+Je constate seulement que toutes les Écoles
+économistes, socialistes, égalitaires et autres,
+admettent, en point de fait,
+que, dans l'ordre ,(emph[naturel]) des sociétés,
+l'intérêt baisse d'autant plus que les capitaux abondent davantage.
+Leur plût-il de ne point l'admettre,
+le fait n'en serait pas moins assuré.
+Le fait a pour lui l'autorité du genre humain
+et l'acquiescement, involontaire peut-être,
+de tous les capitalistes du monde.
+Il est de fait que l'intérêt des capitaux
+est moins élevé en Espagne qu'au Mexique,
+en France qu'en Espagne,
+en Angleterre qu'en France,
+et en Hollande qu'en Angleterre.
+Or, quand l'intérêt descend de 20 p. 100 à 15 p. 100,
+et puis à 10, à 8, à 6, à 5, à 4 1/2, à 4, à 3 1/2, à 3 p. 100,
+qu'est-ce que cela veut dire relativement à la question qui nous occupe?
+Cela veut dire que le capital,
+pour son concours, dans l',(oe)uvre industrielle,
+à la réalisation du bien-être,
+se contente, ou, si l'on veut, est forcé de se contenter
+d'une part de plus en plus réduite
+à mesure qu'il s'accroît.
+Entrait-il pour un tiers dans la valeur
+du blé, des maisons, des lins, des navires, des canaux?
+en d'autres termes, quand on vendait ces choses,
+revenait-il un tiers aux capitalistes et deux tiers aux travailleurs?
+Peu à peu les capitalistes ne reçoivent plus
+qu'un quart, un cinquième, un sixième;
+leur part ,(emph[relative]) va décroissant;
+celle des travailleurs augmente dans la même proportion,
+et la première partie de ma démonstration est faite.
+][
+Il me reste à prouver
+que la part ,(emph[absolue]) du capital s'accroît sans cesse.
+Il est bien vrai que l'intérêt tend à baisser.
+Mais quand et pourquoi?
+Quand et parce que le capital augmente.
+Il est donc fort possible que le produit total s'acroisse,
+bien que le ,(emph[percentage]) ,(XXX :sic) diminue,
+Un homme a plus de rentes avec 200,000 francs à 4 p. 100
+qu'avec 100,000 francs à 5 p. 100,
+encore que, dans le premier cas,
+il fasse payer moins cher aux travailleurs l'usage du capital.
+Il en est de même d'une nation et de l'humanité tout entière.
+Or je dis que le ,(emph[percentage]) dans sa tendance à baisser,
+ne doit ni ne peut suivre une progression tellement rapide
+que la ,(emph[somme totale]) des intérêts soit moins grande
+alors que les capitaux abondent que lorsqu'ils sont rares.
+J'admets bien que si le capital de l'humanité
+est représenté par 100 et l'intérêt par 5,
+,(--) cet intérêt ne sera plus que 4
+alors que le capital sera monté à 200.
+,(--) Ici l'on voit la simultanéité des deux effets.
+Moindre part ,(emph[relative]), plus grande part ,(emph[absolue]).
+,(--) Mais je n'admets pas, dans l'hypothèse,
+que l'élévation du capital de 100 à 200
+puisse faire tomber l'intérêt de 5 p. 100 à 2 p. 100, par exemple.
+,(--) Car, s'il en était ainsi,
+le capitaliste qui avait 5,000 francs de rentes
+avec 100,000 francs de capital,
+n'aurait plus que 4,000 francs de rentes avec 200,000 de capital.
+,(--) Résultat contradictoire et impossible,
+anomalie étrange qui rencontrerait
+le plus simple et le plus agréable de tous les remèdes;
+car alors, pour augmenter ses rentes,
+il suffirait de manger la moitié de son capital.
+Heureuse et bizarre époque
+où il nous sera donné de nous enrichir en nous appauvrissant!
+][
+Il ne faut donc pas perdre de vue
+que la combinaison de ces deux faits corrélatifs:
+accroissement du capital, abaissement de l'intérêt,
+s'accomplit ,(emph[nécessairement])
+de telle façon que le produit total augmente sans cesse.
+][
+Et, pour le dire en passant,
+ceci détruit d'une manière radicale et absolue
+l'illusion de ceux qui s'imaginent
+que parce que l'intérêt baisse il tend à s'anéantir.
+Il en résulterait qu'un jour viendra
+où le capital se sera tellement développé
+qu'il ne donnera plus rien à ses possesseurs.
+Qu'on se tranquillise;
+avant ce temps-là,
+ceux-ci se hâteront de dissiper le fonds pour faire reparaître le revenu.
+][
+Ainsi la grande loi du Capital et du Travail,
+en ce qui concerne le partage du produit de la collaboration,
+est déterminée.
+Chacun d'eux a une part ,(emph[absolue]) de plus en plus grande,
+mais la part ,(emph[proportionnelle]) du Capital
+diminue sans cesse comparativement à celle du Travail.
+][
+Cessez donc, capitalistes et ouvriers,
+de vous regarder d'un ,(oe)il de défiance et d'envie.
+Fermez l'oreille à ces déclamations absurdes,
+dont rien n'égale l'orgueil si ce n'est l'ignorance,
+qui, sous promesse d'une philanthropie en perspective,
+commencent par soulever la discorde actuelle.
+Reconnaissez que vos intérêts sont communs, identiques, quoi qu'on en dise,
+qu'ils se confondent, qu'ils tendent ensemble
+vers la réalisation du bien général,
+que les sueurs de la génération présente
+se mêlent aux sueurs des générations passées,
+qu'il faut bien qu'une part de rémunération
+revienne à tous ceux qui concourent à l',(oe)uvre,
+et que la plus ingénieuse comme la plus équitable répartition
+s'opère entre vous, par la sagesse des lois providentielles,
+sous l'empire de transactions libres et volontaires,
+sans qu'un Sentimentalisme parasite
+vienne vous imposer ses décrets aux dépens de votre bien-être,
+de votre liberté, de votre sécurité et de votre ,(emph[dignité]).
+][
+Le Capital a sa racine dans trois attributs de l'homme:
+la Prévoyance, l'Intelligence et la Frugalité.
+Pour se déterminer à former un capital,
+il faut en effet prévoir l'avenir,
+lui sacrifier le présent,
+exercer un noble empire sur soi-même et sur ses appétits,
+résister non-seulement à l'appât des jouissances actuelles,
+mais encore aux aiguillons de la vanité
+et aux caprices de l'opinion publique,
+toujours si partiale envers les caractères insouciants et prodigues.
+Il faut encore lier les effets aux causes,
+savoir par quels procédés, par quels instruments
+la nature se laissera dompter
+et assujetir à l',(oe)uvre de la production.
+Il faut surtout être animé de l'esprit de famille,
+et ne pas reculer devant des sacrifices
+dont le fruit sera recueilli par les êtres chéris
+qu'on laissera après soi.
+Capitaliser, c'est préparer
+le vivre, le couvert, l'abri, le loisir,
+l'instruction, l'indépendance, la dignité
+aux générations futures.
+Rien de tout cela ne se peut faire
+sans mettre en exercice les vertus les plus sociales,
+qui plus est, sans les convertir en habitudes.
+][
+Il est cependant bien commun d'attribuer au
+Capital une sorte d'efficace funeste,
+dont l'effet serait d'introduire
+l'égoïsme, la dureté, le machiavélisme
+dans le c,(oe)ur de ceux qui y aspirent ou le possèdent.
+Mais ne fait-on pas confusion? Il
+y a des pays où le travail ne mène pas à grand'chose.
+Le peu qu'on gagne, il faut le partager avec le fisc.
+Pour vous arracher le fruit de vos sueurs,
+ce qu'on nomme l'État vous enlace d'une multitude d'entraves.
+Il intervient dans tous vos actes,
+il se mêle de toutes vos transactions;
+il régente votre intelligence et votre foi;
+il déplace tous les intérêts,
+et met chacun dans une position artificielle et précaire;
+il énerve l'activité et l'énergie individuelle
+en s'emparant de la direction de toutes choses;
+il fait retomber la responsabilité des actions
+sur ceux à qui elle ne revient pas;
+en sorte que, peu à peu, la notion du juste et de l'injuste s'efface;
+il engage la nation, par sa diplomatie, dans toutes les querelles du monde,
+et puis il y fait intervenir la marine et l'armée;
+il fausse autant qu'il est en lui
+l'intelligence des masses sur les questions économiques,
+car il a besoin de leur faire croire que ses folles dépenses,
+ses injustes agressions, ses conquêtes, ses colonies,
+sont pour elles une source de richesses.
+Dans ces pays le capital a beaucoup de peine à
+se former par les voies naturelles.
+Ce à quoi l'on aspire surtout,
+c'est à le soutirer par la force et par la ruse à ceux qui l'ont crée.
+Là, on voit les hommes s'enrichir par la guerre,
+les fonctions publiques, le jeu, les fournitures,
+l'agiotage, les fraudes commerciales,
+les entreprises hasardées, les marchés publics, etc.
+Les qualités requises pour arracher ainsi le capital
+aux mains de ceux qui le forment
+sont précisément l'opposé de celles qui sont nécessaires pour le former.
+Il n'est donc pas surprenant que dans ces pays-là
+il s'établisse une sorte d'association entre ces deux idées:
+,(emph[capital]) et ,(emph[égoïsme]),(pv)
+et cette association devient indestructible,
+si toutes les idées morales de ce pays
+se puisent dans l'histoire de l'antiquité et du moyen âge.
+][
+Mais lorsqu'on porte sa pensée,
+non sur la soustraction des capitaux,
+mais sur leur formation par l'activité intelligente,
+la prévoyance et la frugalité,
+il est impossible de ne pas reconnaître
+qu'une vertu sociale et moralisante est attachée à leur acquisition.
+][
+S'il y a de la sociabilité morale dans la formation du capital,
+il n'y en a pas moins dans son action.
+Son effet propre est de faire concourir la nature;
+de décharger l'homme de ce qu'il y a
+de plus matériel, de plus musculaire, de plus brutal
+dans l',(oe)uvre de la production;
+de faire prédominer de plus en plus le principe intelligent;
+d'agrandir de plus en plus la place,
+je ne dis pas de l'oisiveté, mais du loisir;
+de rendre de moins en moins impérieuse,
+par la facilité de la satisfaction,
+la voix des besoins grossiers,
+et d'y substituer des jouissances plus élevées,
+plus délicates, plus pures, plus artistiques, plus spirituelles.
+][
+Ainsi, à quelque point de vue qu'on se place,
+qu'on considère le Capital
+dans ses rapports avec nos besoins qu'il ennoblit,
+avec nos efforts qu'il soulage,
+avec nos satisfactions qu'il épure,
+avec la nature qu'il dompte,
+avec la moralité qu'il change en habitude,
+avec la sociabilité qu'il développe,
+avec l'égalité qu'il provoque,
+avec la liberté dont il vit,
+avec l'équité qu'il réalise par les procédés les plus ingénieux,
+partout, toujours et à la condition qu'il se forme
+et agisse dans un ordre social
+qui ne soit pas détourné de ses voies naturelles,
+nous reconnaîtrons en lui
+ce qui est le cachet de toutes les grandes lois providentielles:
+l'Harmonie.
+])
+(with-footer
+(p* [
+Extrait de l',(EO1863),
+tome VI, ,(HarmoniesEconomiques),
+chapitre VII, ,(cite-title[Capital]), pp. 228-255.
+][
+Texte scanné par la ,(BNF),
+	transcrit et relu ,(frk.paris),
+	relu et mis en hypertexte ,(FRR)
+	pour ,(Bastiat.org).
+])))

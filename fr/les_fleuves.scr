@@ -1,0 +1,51 @@
+; -*- Scheme -*-
+; $Id: les_fleuves.scr,v 1.3 2004/11/19 11:00:46 fare Exp $
+(style 'bo-style)
+(in-bof :title "Les fleuves obstrués plaidant pour les prohibitionistes
+	- par Frédéric Bastiat")
+(document :title "Les fleuves obstrués plaidant pour les prohibitionistes"
+	:author author-FB
+(subtitle[Chapitre XVI de la ,(Iere) série des ,(SophismesEconomiques)])
+(p*[
+Il y a quelques années, j'étais à Madrid. J'allai aux cortès.
+On y discutait un traité avec le Portugal sur l'amélioration du cours du Duero.
+Un député se lève et dit:
+,(q[Si le Duero est canalisé, les transports s'y feront à plus bas prix.
+Les grains portugais se vendront à meilleur marché dans les Castilles
+et feront à notre ,(emph[travail national]) une concurrence redoutable.
+Je repousse le projet, à moins que MM. les ministres ne s'engagent
+à relever le tarif des douanes de manière à rétablir l'équilibre.])
+L'assemblée trouva l'argument sans réplique.
+][
+Trois mois après j'étais à Lisbonne. La même question était soumise au sénat.
+Un noble hidalgo dit:
+,(q[Senhor presidente, le projet est absurde.
+Vous placez des gardes, à gros frais, sur les rives du Duero,
+pour empêcher l'invasion du grain castillan en Portugal,
+et, en même temps, vous voulez, toujours à gros frais faciliter cette invasion.
+C'est une inconséquence à laquelle je ne puis m'associer.
+Que le Duero passe à nos fils tel que nous l'ont laissé nos pères.])
+]
+(nbsp)
+[
+Plus tard, quand il s'est agi d'améliorer la Garonne,
+je me suis rappelé les arguments des orateurs ibériens, et je me disais:
+Si les députés de Toulouse étaient aussi bons économistes
+que celui de Palencia,
+et les représentants de Bordeaux aussi forts logiciens
+que ceux d'Oporto,
+assurément on laisserait la Garonne 
+,(blockquote[
+Dormir au bruit flatteur de son urne penchante,
+])
+car la canalisation de la Garonne favorisera,
+au préjudice de Bordeaux, ,(emph[l'invasion]) des produits toulousains,
+et, au détriment de Toulouse, ,(emph[l'inondation]) des produits bordelais.
+])
+(with-footer
+(p* [Extrait de l',(EO1863), tome IV, ,(SophismesEconomiques),
+ ,(Iere) série, chapitre XVI,
+"Les fleuves obstrués plaidant pour les prohibitionistes", pp. 92-93.]
+    [Texte scanné, numérisé, mis en hypertexte par ,(cbalanca),
+	relu et édité par ,(FRR)
+	pour ,(Bastiat.org).])))

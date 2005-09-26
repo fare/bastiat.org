@@ -1,0 +1,92 @@
+; -*- Scheme -*- $Id: harmonies.scr,v 1.8 2005/07/24 09:49:39 fare Exp $
+(style 'bo-style)
+(in-bof :title "Les Harmonies Économiques - par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title [Harmonies Économiques]
+	:author author-FB
+
+(itemize
+(item[Introduction.
+	,(bof-ref "a_la_jeunesse_francaise" [À la jeunesse française])])
+(item[I. ,(bof-ref "organisation" [Organisation naturelle, organisation artificielle])
+])
+(item[II. ,(bof-ref "besoins_efforts_satisfactions" [Besoins, efforts, satisfactions])
+])
+(item[III. ,(bof-ref "des_besoins_de_l_homme" [Des besoins de l'homme])
+])
+(item[IV. ,(bof-ref "echange" [Échange])
+])
+(item[V. ,(bof-ref "de_la_valeur" [De la valeur])
+])
+(item[VI. ,(bof-ref "richesse" [Richesse])
+])
+(item[VII. ,(bof-ref "capital" [Capital])
+])
+(item[VIII. ,(bof-ref "propriete_communaute" [Propriété, communauté])
+])
+(item[IX. ,(bof-ref "propriete_fonciere" [Propriété foncière])
+])
+(item[X. ,(bof-ref "concurrence" [Concurrence])
+])
+(item[,(bof-ref "conclusion_eo_harmonies" [Conclusion de l'édition originale])
+])
+(item[XI. ,(bof-ref "producteur_consommateur" [Producteur, consommateur])
+])
+(item[XII. ,(bof-ref "les_deux_devises" [Les deux devises])
+])
+(item[XIII. ,(bof-ref "de_la_rente" [De la rente])
+])
+(item[De la monnaie
+,(footnote*[
+Voir ,(bof-ref "maudit_argent" (cite-title[Maudit Argent!])),
+tome V, page 64. ,(NdEEO)
+])
+])
+(item[Du crédit
+,(footnote*[
+voir ,(Gratuitecredit),
+tome V, page 94.
+,(NdEEO)
+])
+])
+(item[XIV. ,(bof-ref "des_salaires" [Des salaires])
+])
+(item[XV. ,(bof-ref "de_l_epargne" [De l'épargne])
+])
+(item[XVI. ,(bof-ref "de_la_population" [De la population])
+])
+(item[XVII. ,(bof-ref "services" [Services privés, service public])
+])
+(item[XVIII. ,(bof-ref "causes_perturbatrices" [Causes perturbatrices])
+])
+(item[XIX. ,(bof-ref "guerre" [Guerre])
+])
+(item[XX. ,(bof-ref "responsabilite" [Responsabilité])
+])
+(item[XXI. ,(bof-ref "solidarite" [Solidarité])
+])
+(item[XXII. ,(bof-ref "moteur_social" [Moteur social])
+])
+(item[XXIII. ,(bof-ref "le_mal" [Le mal])
+])
+(item[XXIV. ,(bof-ref "perfectibilite" [Perfectibilité])
+])
+(item[XXV. ,(bof-ref "rapports" [Rapports de l'économie politique avec...])
+]))
+
+
+(set! =bof.url= "http://bastiat.org/fr/")
+(with-footer
+(p*[
+Préparé par ,(FRR) pour ,(Bastiat.org)
+avec l'aide de nombreux autres ,(bof-ref "numerisation" [numériseurs]):
+,(cbalanca), ,(krylenko), ,(loic), ,(JML), ,(frk.paris), ,(cvincent).
+,(XXX[
+Notez que l'édition en anglais par la FEE
+contient de nombreuses notes de bas de page
+pour éclaircir les références culturelles aujourd'hui désuettes
+dont regorge le texte.
+])
+])))

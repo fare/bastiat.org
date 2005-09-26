@@ -1,0 +1,485 @@
+; -*- Scheme -*-
+; $Id: abondance_disette.scr,v 1.11 2003/03/11 19:24:38 fare Exp $
+(style 'bo-style)
+(in-bof :title "Abondance, Disette - par Frédéric Bastiat")
+(document :title "Abondance, Disette"
+	:author author-FB
+(subtitle[Chapitre I de la ,(Iere) série des ,(SophismesEconomiques)])
+(p*[
+Qu'est-ce qui vaut mieux pour l'homme et pour la société,
+l'abondance ou la disette?
+][
+Quoi! s'écriera-t-on, cela peut-il faire une question?
+A-t-on jamais avancé,
+est-il possible de soutenir
+que la disette est le fondement du bien-être des hommes?
+][
+Oui, cela a été avancé;
+oui, cela a été soutenu;
+on le soutient tous les jours,
+et je ne crains pas de dire que la ,(emph[théorie de la disette])
+est de beaucoup la plus populaire.
+Elle défraie ,(XXX :sic) les conversations, les
+journaux, les livres, la tribune, et,
+quoique cela puisse paraître extraordinaire,
+il est certain que l'économie politique
+aura rempli sa tâche et sa mission pratique
+quand elle aura vulgarisé et rendu irréfutable
+cette proposition si simple:
+,(q[La richesse des hommes, c'est l'abondance des choses.])
+][
+N'entend-on pas dire tous les jours:
+,(q[L'étranger va nous inonder de ses produits])?
+,(XXX :EO [? dans les guillemets])
+Donc on redoute l'abondance.
+][
+M. de Saint-Cricq n'a-t-il pas dit:
+	,(q[La production surabonde])?
+,(XXX :EO [? dans les guillemets])
+Donc il craignait l'abondance.
+][
+Les ouvriers ne brisent-ils pas les machines?
+Donc ils s'effraient de l'excès de la production ou de l'abondance.
+][
+M. Bugeaud n'a-t-il pas prononcé ces paroles:
+,(q[Que le pain soit cher, et l'agriculteur sera riche!])
+Or, le pain ne peut être cher que parce qu'il est rare;
+donc M. Bugeaud préconisait la disette.
+][
+M. d'Argout ne s'est-il pas fait un argument
+contre l'industrie sucrière de sa fécondité même?
+Ne disait-il pas: ,(q[La betterave n'a pas d'avenir,
+et sa culture ne saurait s'étendre,
+parce qu'il suffirait d'y consacrer quelques hectares par département
+pour pourvoir à toute la consommation de la France])?
+,(XXX :EO [? dans les guillemets])
+Donc, à ses yeux, le bien est dans la stérilité, dans la disette;
+le mal, dans la fertilité, dans l'abondance.
+][
+La ,(cite-title[Presse]), le ,(cite-title[Commerce])
+et la plupart des journaux quotidiens
+ne publient-ils pas un ou plusieurs articles chaque matin
+pour démontrer aux chambres et au gouvernement
+qu'il est d'une saine politique d'élever législativement
+le prix de toutes choses par l'opération des tarifs?
+Les trois pouvoirs n'obtempèrent-ils pas tous les jours
+à cette injonction de la presse périodique?
+Or, les tarifs n'élèvent les prix des choses
+que parce qu'ils en diminuent la quantité ,(emph[offerte]) sur le marché!
+Donc les journaux, les Chambres, le ministère,
+mettent en pratique la théorie de la disette,
+et j'avais raison de dire que cette théorie est de beaucoup la plus populaire.
+][
+Comment est-il arrivé qu'aux yeux
+des travailleurs, des publicistes, des hommes d'État,
+l'abondance se soit montrée redoutable et la disette avantageuse?
+Je me propose de remonter à la source de cette illusion.
+][
+On remarque qu'un homme s'enrichit en proportion
+de ce qu'il tire un meilleur parti de son travail,
+c'est-à-dire de ce qu',(emph[il vend à plus haut prix]).
+Il vend à plus haut prix à proportion de la rareté,
+de la disette du genre de produit qui fait l'objet de son industrie.
+On en conclut que, quant à lui du moins, la disette l'enrichit.
+Appliquant successivement ce raisonnement à tous les travailleurs,
+on en déduit la ,(emph[théorie de la disette]).
+De là on passe à l'application, et,
+afin de favoriser tous les travailleurs,
+on provoque artificiellement la cherté, la disette de toutes choses
+par la prohibition, la restriction, la suppression des machines
+et autres moyens analogues.
+][
+Il en est de même de l'abondance.
+On observe que, quand un produit abonde, il se vend à bas prix:
+donc le producteur gagne moins.
+Si tous les producteurs sont dans ce cas, ils sont tous misérables:
+donc c'est l'abondance qui ruine la société.
+Et comme toute conviction cherche à se traduire en fait,
+on voit, dans beaucoup de pays,
+les lois des hommes lutter contre l'abondance des choses.
+][
+Ce sophisme, revêtu d'une forme générale,
+ferait peut-être peu d'impression;
+mais appliqué à un ordre particulier de faits,
+à telle ou telle industrie, à une classe donnée de travailleurs,
+il est extrêmement spécieux, et cela s'explique.
+C'est un syllogisme qui n'est pas ,(emph[faux]), mais ,(emph[incomplet]).
+Or, ce qu'il y a de ,(emph[vrai]) dans un syllogisme
+est toujours et nécessairement présent à l'esprit.
+Mais l',(emph[incomplet]) est une qualité négative,
+une donnée absente dont il est fort possible
+et même fort aisé de ne pas tenir compte.
+][
+L'homme produit pour consommer.
+Il est à la fois producteur et consommateur.
+Le raisonnement que je viens d'établir ne le considère
+que sous le premier de ces points de vue.
+Sous le second, il aurait conduit à une conclusion opposée.
+Ne pourrait-on pas dire, en effet:
+][
+Le consommateur est d'autant plus riche
+qu'il ,(emph[achète]) toutes choses à meilleur marché;
+il achète les choses à meilleur marché,
+en proportion de ce qu'elles abondent, donc l'abondance l'enrichit;
+et ce raisonnement, étendu à tous les consommateurs, conduirait à
+,(emph[la théorie de l'abondance])! ,(XXX :EO [! dans emph])
+][
+C'est la notion imparfaitement comprise de l',(emph[échange])
+qui produit ces illusions.
+Si nous consultons notre intérêt personnel,
+nous reconnaissons distinctement qu'il est double.
+Comme ,(emph[vendeurs]),
+nous avons intérêt à la cherté,
+et par conséquent à la rareté;
+comme acheteurs, au bon marché, ou,
+ce qui revient au même, à l'abondance des choses.
+Nous ne pouvons donc point baser un raisonnement
+sur l'un ou l'autre de ces intérêts
+avant d'avoir reconnu lequel des deux coïncide et s'identifie
+avec l'intérêt général et permanent de l'espèce humaine.
+][
+Si l'homme était un animal solitaire,
+s'il travaillait exclusivement pour lui,
+s'il consommait directement le fruit de son labeur,
+en un mot, ,(emph[s'il n'échangeait pas]),
+jamais la théorie de la disette n'eût pu s'introduire dans le monde.
+Il est trop évident que l'abondance lui serait avantageuse,
+de quelque part qu'elle lui vint,
+soit qu'elle fût le résultat de son industrie,
+d'ingénieux outils, de puissantes machines qu'il aurait inventées,
+soit qu'il la dût à la fertilité du sol,
+à la libéralité de la nature,
+ou même à une mystérieuse ,(emph[invasion]) de produits
+que le flot aurait apportés du dehors et abandonnés sur le rivage.
+Jamais l'homme solitaire n'imaginerait,
+pour donner de l'encouragement,
+pour assurer un aliment à son propre travail,
+de briser les instruments qui l'épargnent,
+de neutraliser la fertilité du sol,
+de rendre à la mer les biens qu'elle lui aurait apportés.
+Il comprendrait aisément que le travail n'est pas un but, mais un moyen:
+qu'il serait absurde de repousser le but, de peur de nuire au moyen.
+Il comprendrait que,
+s'il consacre deux heures de la journée à pourvoir à ses besoins,
+toute circonstance (machine, fertilité, don gratuit, n'importe)
+qui lui épargne une heure de ce travail, le résultat restant le même,
+met cette heure à sa disposition,
+et qu'il peut la consacrer à augmenter son bien-être;
+il comprendrait, en un mot,
+qu',(emph[épargne de travail]) ce n'est autre chose que ,(emph[progrès]).
+][
+Mais l',(emph[échange]) trouble notre vue sur une vérité si simple.
+Dans l'état social,
+et avec la séparation des occupations qu'il amène,
+la production et la consommation d'un objet
+ne se confondent pas dans le même individu.
+Chacun est porté à voir dans son travail
+non plus un moyen, mais un but.
+L'échange crée, relativement à chaque objet,
+deux intérêts, celui du producteur et celui du consommateur,
+et ces deux intérêts sont toujours immédiatement opposés.
+][
+Il est essentiel de les analyser et d'en étudier la nature.
+][
+Prenons un producteur quel qu'il soit;
+quel est son intérêt immédiat?
+Il consiste en ces deux choses,
+1° que le plus petit nombre possible de personnes
+se livrent au même travail que lui;
+2° que le plus grand nombre possible de personnes
+recherchent le produit de ce même travail;
+ce que l'économie politique explique plus succinctement en ces termes:
+que l'offre soit très restreinte et la demande très étendue;
+en d'autres termes encore: concurrence limitée, débouchés illimités.
+][
+Quel est l'intérêt immédiat du consommateur?
+Que l'offre du produit dont il s'agit soit étendue et la demande restreinte.
+][
+Puisque ces deux intérêts se contredisent,
+l'un d'eux doit nécessairement coïncider avec l'intérêt social ou général,
+et l'autre lui est antipathique.
+][
+Mais quel est celui que la législation doit favoriser,
+comme étant l'expression du bien public,
+si tant est qu'elle en doive favoriser aucun?
+][
+Pour le savoir, il suffit de rechercher ce qui arriverait
+si les désirs secrets des hommes étaient accomplis.
+][
+En tant que producteurs, il faut bien en convenir,
+chacun de nous fait des v,(oe)ux antisociaux.
+Sommes-nous vignerons?
+nous serions peu fâchés qu'il gelât sur toutes les vignes du monde,
+excepté sur la nôtre:
+,(emph[c'est la théorie de la disette]).
+Sommes-nous propriétaires de forges?
+nous désirons qu'il n'y ait sur le marché d'autre fer
+que celui que nous y apportons,
+quel que soit le besoin que le public en ait,
+et précisément pour que ce besoin,
+vivement senti et imparfaitement satisfait,
+détermine à nous en donner un haut prix:
+,(emph[c'est encore la théorie de la disette]).
+Sommes-nous laboureurs?
+nous disons, avec M. Bugeaud:
+Que le pain soit cher, c'est-à-dire rare,
+et les agriculteurs feront bien leurs affaires:
+,(emph[c'est toujours la théorie de la disette]).
+][
+Sommes-nous médecins?
+nous ne pouvons nous empêcher de voir que
+certaines améliorations physiques,
+comme l'assainissement du pays,
+le développement de certaines vertus morales,
+telles que la modération et la tempérance,
+le progrès des lumières poussé au point
+que chacun sût soigner sa propre santé,
+la découverte de certains remèdes simples et d'une application facile,
+seraient autant de coups funestes portés à notre profession.
+En tant que médecins, nos v,(oe)ux secrets sont antisociaux.
+Je ne veux pas dire que les médecins forment de tels v,(oe)ux.
+J'aime à croire qu'ils accueilleraient avec joie une panacée universelle;
+mais, dans ce sentiment, ce n'est pas le médecin, c'est l'homme,
+c'est le chrétien qui se manifeste;
+il se place, par une noble abnégation de lui-même,
+au point de vue du consommateur.
+En tant qu'exerçant une profession,
+en tant que puisant dans cette profession son bien-être,
+sa considération et jusqu'aux moyens d'existence de sa famille,
+il ne se peut pas que ses désirs, ou, si l'on veut, ses intérêts,
+ne soient antisociaux.
+][
+Fabriquons-nous des étoffes de coton?
+nous désirons les vendre au prix le plus avantageux ,(emph[pour nous]).
+Nous consentirions volontiers
+à ce que toutes les manufactures rivales fussent interdites,
+et si nous n'osons exprimer publiquement ce v,(oe)u
+ou en poursuivre la réalisation complète avec quelques chances de succès,
+nous y parvenons pourtant, dans une certaine mesure,
+par des moyens détournés:
+par exemple, en excluant les tissus étrangers,
+afin de diminuer la ,(emph[quantité offerte]),
+et de produire ainsi, par l'emploi de la force et à notre profit,
+la ,(emph[rareté]) des vêtements.
+][
+Nous passerions ainsi toutes les industries en revue,
+et nous trouverions toujours que les producteurs, en tant que tels,
+ont des vues antisociales.
+,(q[Le marchand, dit Montaigne, ne fait bien ses affaires
+qu'à la débauche de la jeunesse;
+le laboureur, à la cherté des blés;
+l'architecte, à la ruine des maisons;
+les officiers de justice, ,(XXX :EO ";")
+	aux procez et aux querelles des hommes.
+L'honneur même et practique des ministres de la religion
+se tire de nostre mort et de nos vices.
+Nul médecin ne prend plaisir à la santé de ses amis mêmes,
+ni soldats à la paix de sa ville; ainsi du reste.])
+][
+Il suit de là que,
+si les v,(oe)ux secrets de chaque producteur étaient réalisés,
+le monde rétrograderait rapidement vers la barbarie.
+La voile proscrirait la vapeur,
+la rame proscrirait la voile,
+et devrait bientôt céder les transports au chariot,
+celui-ci au mulet, et le mulet au porte-balle.
+La laine exclurait le coton, le coton exclurait la laine, et ainsi de suite,
+jusqu'à ce que la disette de toutes choses
+eût fait disparaître l'homme même de dessus la surface du globe.
+][
+Supposez pour un moment que la puissance législative et la force publique
+fussent mises à la disposition du comité Mimerel,
+et que chacun des membres qui composent cette association
+eût la faculté de lui faire admettre et sanctionner une petite loi:
+est-il bien malaisé de deviner
+à quel code industriel serait soumis le public?
+]
+(nbsp)
+[
+Si nous venons maintenant à considérer l'intérêt immédiat du consommateur,
+nous trouverons qu'il est en parfaite harmonie avec l'intérêt général,
+avec ce que réclame le bien-être de l'humanité.
+Quand l'acheteur se présente sur le marché,
+il désire le trouver abondamment pourvu.
+Que les saisons soient propices à toutes les récoltes;
+que des inventions de plus en plus merveilleuses
+mettent à sa portée un plus grand nombre de produits et de satisfactions;
+que le temps et le travail soient épargnés;
+que les distances s'effacent;
+que l'esprit de paix et de justice
+permette de diminuer le poids des taxes;
+que les barrières de toute nature tombent;
+en tout cela, l'intérêt immédiat du consommateur
+suit parallèlement la même ligne que l'intérêt public bien entendu.
+Il peut pousser ses v,(oe)ux secrets jusqu'à la chimère, jusqu'à l'absurde,
+sans que ses v,(oe)ux cessent d'être humanitaires.
+Il peut désirer que le vivre et le couvert,
+le toit et le foyer,
+l'instruction et la moralité,
+la sécurité et la paix,
+la force et la santé 
+s'obtiennent sans efforts, sans travail et sans mesure,
+comme la poussière des chemins,
+l'eau du torrent,
+l'air qui nous environne,
+la lumière qui nous baigne,
+sans que la réalisation de tels désirs
+soit en contradiction avec le bien de la société.
+][
+On dira peut-être que, si ces v,(oe)ux étaient exaucés,
+l',(oe)uvre du producteur se restreindrait de plus en plus,
+et finirait par s'arrêter faute d'aliment.
+Mais pourquoi? Parce que, dans cette supposition extrême,
+tous les besoins et tous les désirs imaginables
+seraient complètement satisfaits.
+L'homme, comme la Toute-Puissance,
+créerait toutes choses par un seul acte de sa volonté.
+Veut-on bien me dire, dans cette hypothèse,
+en quoi la production industrielle serait regrettable?
+][
+Je supposais tout à l'heure une assemblée législative
+composée de travailleurs,
+dont chaque membre formulerait en loi son ,(emph[v,(oe)u secret]),
+en tant que producteur;
+et je disais que le code émané de cette assemblée
+serait le monopole systématisé,
+la théorie de la disette mise en pratique.
+][
+De même, une Chambre, où chacun consulterait exclusivement
+son intérêt immédiat de consommateur,
+aboutirait à systématiser la liberté,
+la suppression de toutes les mesures restrictives,
+le renversement de toutes les barrières artificielles,
+en un mot, à réaliser la théorie de l'abondance.
+][
+Il suit de là:
+][
+Que consulter exclusivement l'intérêt immédiat de la production,
+c'est consulter un intérêt antisocial;
+][
+Que ,(XXX :sic [majuscule])
+prendre exclusivement pour base l'intérêt immédiat de la consommation,
+ce serait prendre pour base l'intérêt général.
+][
+Qu'il me soit permis d'insister encore sur ce point de vue,
+au risque de me répéter.
+][
+Un antagonisme radical existe entre le vendeur et l'acheteur
+,(footnote*[
+L'auteur a rectifié les termes de cette proposition dans un ouvrage postérieur.
+Voir ,(Har-ref[Harmonies économiques]), 
+,(bof-ref "producteur_consommateur" [chap. XI]).
+,(NdEEO)
+]).
+][
+Celui-là désire que l'objet du marché soit le ,(emph[rare]),
+peu offert, à un prix élevé.
+][
+Celui-ci le souhaite ,(emph[abondant]),
+très-offert, à bas prix.
+][
+Les lois, qui devraient être au moins neutres,
+prennent parti pour le vendeur contre l'acheteur,
+pour le producteur contre le consommateur,
+pour la cherté contre le bon marché
+	,(footnote*[
+	Nous n'avons pas en français un substantif
+	pour exprimer l'idée opposée à celle de ,(emph[cherté]) (cheapness).
+	Il est assez remarquable que l'instinct populaire
+	exprime cette idée par cette périphrase:
+	marché avantageux, ,(emph[bon marché]).
+	Les prohibitionnistes devraient bien réformer cette locution.
+	Elle implique tout un système économique opposé au leur.]),
+pour la disette contre l'abondance.
+][
+Elles agissent sinon intentionnellement,
+du moins logiquement sur cette donnée:
+,(emph[Une nation est riche quand elle manque de tout]).
+][
+Car elles disent:
+c'est le producteur qu'il faut favoriser
+en lui assurant un bon placement de son produit.
+Pour cela, il faut en élever le prix;
+pour en élever le prix, il faut en restreindre l'offre;
+et restreindre l'offre, c'est créer la disette.
+][
+Et voyez:
+je suppose que, dans le monde actuel,
+où ces lois ont toute leur force,
+on fasse un inventaire complet,
+non en valeur,
+mais en poids, mesures, volumes, quantités,
+de tous les objets existants en France,
+propres à satisfaire les besoins et les goûts de ses habitants,
+blés, viandes, draps, toiles, combustibles, denrées coloniales, etc.
+][
+Je suppose encore que l'on renverse le lendemain
+toutes les barrières qui s'opposent à l'introduction en France
+des produits étrangers.
+][
+Enfin, pour apprécier le résultat de cette réforme,
+je suppose que l'on procède trois mois après un nouvel inventaire.
+][
+N'est-il pas vrai qu'il se trouvera en France plus
+de blé, de bestiaux, de drap, de toile, de fer, de houille, de sucre, etc.,
+lors du second qu'à l'époque du premier inventaire?
+][
+Cela est si vrai que nos tarifs producteurs n'ont pas d'autre but
+que d'empêcher toutes ces choses de parvenir jusqu'à nous,
+d'en restreindre l'offre,
+d'en prévenir la dépréciation, l'abondance.
+][
+Maintenant, je le demande,
+le peuple est-il mieux nourri, sous l'empire de nos lois,
+parce qu'il y a ,(emph[moins])
+	de pain, de viande et de sucre dans le pays?
+Est-il mieux vêtu parce qu'il y a ,(emph[moins])
+	de fils, de toiles et de draps?
+Est-il mieux chauffé parce qu'il y a ,(emph[moins]) de houille?
+Est-il mieux aidé dans ses travaux parce qu'il y a ,(emph[moins])
+de fer, de cuivre, d'outils, de machines?
+][
+Mais, dit-on, si l'étranger nous ,(emph[inonde]) de ses produits,
+il emportera notre numéraire!
+][
+Eh, qu'importe?
+L'homme ne se nourrit pas de numéraire,
+il ne se vêt pas d'or,
+il ne se chauffe pas avec de l'argent.
+Qu'importe qu'il y ait plus ou moins de numéraire dans le pays,
+s'il y a plus de pain aux buffets,
+plus de viande aux crochets,
+plus de linge dans les armoires,
+et plus de bois dans les bûchers?
+][
+Je poserai toujours aux lois restrictives ce dilemme:
+][
+Ou vous convenez que vous produisez la disette,
+ou vous n'en convenez pas.
+][
+Si vous en convenez, vous avouerez par cela même
+que vous faites au peuple tout le mal que vous pouvez lui faire.
+Si vous n'en convenez pas, alors vous niez avoir restreint l'offre,
+élevé les prix, et, par conséquent,
+vous niez avoir favorisé le producteur.
+][
+Vous êtes funestes ou inefficaces. Vous ne pouvez être utiles
+,(footnote*[
+L'auteur a traité ce sujet avec plus d'étendue dans le
+,(bof-ref "producteur_consommateur" [,(XIe) chapitre])
+des ,(Har-ref[Harmonies économiques]),
+puis, sous une autre forme,
+dans l'article ,(bof-ref "abondance" (cite-title[Abondance])),
+écrit pour le ,(cite-title[Dictionnaire de l'économie politique]),
+et que nous reproduisons à la fin du ,(5e) volume.
+,(NdEEO)
+]).
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome IV, ,(SophismesEconomiques), ,(Iere) série, chapitre I, pp. 5-15.
+][
+Scanné, numérisé, mis en hypertexte, édité et relu par ,(FRR)
+	pour ,(Bastiat.org).
+])))

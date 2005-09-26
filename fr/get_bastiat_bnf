@@ -1,0 +1,566 @@
+#!/bin/zsh -f
+# $Id: get_bastiat_bnf,v 1.33 2003/05/04 13:16:41 fare Exp $
+
+setopt NULL_GLOB BRACE_CCL
+
+RESOLUTION=200 # dpi - the resolution at which bastiat books were scanned
+
+TOMES=( # fichiers entiers récupérés sur Gallica
+N0202315_TIFF_1_563.TIFF
+N0202316_TIFF_1_489.TIFF
+N0202317_TIFF_1_525.TIFF
+N0202318_TIFF_1_551.TIFF
+N0202319_TIFF_1_567.TIFF
+N0202320_TIFF_1_659.TIFF
+)
+OFFSETS=( 51 3 3 3 3 3 ) # pages numérisées avant la pagination normale
+EDITIONS=( 1862 1862 1854 1863 1863 1863 )
+PAGEMAX=( 512 486 522 548 564 656 )
+
+g () { X g $@ }
+p () { X p $@ }
+
+table_des_matieres () {
+# Produit par scribe shell-maker.scr
+# Tome premier
+g 1 5 8 preface
+g 1 9 52 sur_bastiat
+p 1 1 14 lettres_calmetes
+p 1 14 106 lettres_coudroy
+p 1 106 193 lettres_cobden
+p 1 194 197 lettre_fonteyraud
+p 1 197 200 lettre_congres_paix
+p 1 200 203 lettres_horace_say
+p 1 204 205 lettre_fontenay
+p 1 205 209 lettres_paillottet
+p 1 209 216 lettre_journal_economistes
+p 1 217 231 aux_electeurs_landes
+p 1 231 243 reflexions_petitions_bordeaux
+p 1 243 260 fisc_vigne
+p 1 261 283 question_vinicole
+p 1 283 333 impot_foncier_landes
+p 1 334 386 tarifs_francais_anglais
+p 1 387 392 commerce_vins
+p 1 392 405 question_conseils_generaux
+p 1 406 428 lettre_lamartine_1
+p 1 428 433 livre_dunoyer
+p 1 434 439 eloge_comte
+p 1 440 451 livre_vidal
+p 1 452 460 lettre_lamartine_2
+p 1 461 480 pdfe1846
+p 1 480 506 lettre_larnac
+p 1 506 507 pdfe1848
+p 1 507 510 pdfe1849
+# Tome deuxième
+p 2 1 4 association_libre_echange
+p 2 4 7 libre_echange
+p 2 7 11 bornes_association
+p 2 12 15 generalites
+p 2 15 21 plan_de_campagne
+p 2 22 25 reflexions_1846
+p 2 25 39 protectionnisme_agricole_1
+p 2 39 44 protectionnisme_agricole_2
+p 2 44 47 echelle_mobile
+p 2 48 57 echelle_mobile_angleterre
+p 2 58 63 invasion_produits_etrangers
+p 2 63 68 libre_entree_subsistances
+p 2 68 71 libre_introduction_betail_etranger
+p 2 72 77 defense_exporter_cereales
+p 2 77 80 hausse_aliments_baisse_salaires
+p 2 81 93 traite_belge
+p 2 93 100 parti_democratique_libre_echange
+p 2 100 104 democratie_libre_echange
+p 2 104 110 douane_octroi
+p 2 110 111 monde_renverse
+p 2 112 116 exportation_numeraire
+p 2 116 124 du_communisme
+p 2 124 131 reponse_atelier
+p 2 131 133 liberte_echanges
+p 2 134 141 douane_fiscale
+p 2 141 147 ligues_anglaise_allemande
+p 2 147 158 organisation_et_liberte
+p 2 158 164 nature_echanges
+p 2 164 168 empereur_russie
+p 2 168 170 liberte_pain
+p 2 170 177 libre_echange_relations_peuples
+p 2 177 185 angleterre_et_libre_echange
+p 2 186 194 cpe
+p 2 194 200 armements_en_angleterre_1
+p 2 200 205 armements_en_angleterre_2
+p 2 205 209 inscription_maritime
+p 2 210 216 taxe_unique
+p 2 216 219 politique_balance_du_commerce
+p 2 219 221 paresse_et_restriction
+p 2 222 225 deux_modes_egalisation_taxes
+p 2 225 228 impot_du_sel
+p 2 229 238 discours_1
+p 2 238 246 discours_2
+p 2 246 259 discours_3
+p 2 260 273 discours_4
+p 2 273 293 discours_5
+p 2 293 311 discours_6
+p 2 311 328 discours_7
+p 2 328 342 discours_cercle_librairie
+p 2 343 348 de_la_moderation
+p 2 348 355 peuple_et_bourgeoisie
+p 2 355 358 economie_politique_generaux
+p 2 358 363 recettes_protectionnistes
+p 2 363 370 deux_principes
+p 2 370 373 logique_cunin_gridaine
+p 2 373 377 hommes_speciaux
+p 2 377 384 1profit_2pertes
+p 2 384 391 2pertes_1profit
+p 2 392 400 peur_d_un_mot
+p 2 400 409 midi_a_quatorze_heures
+p 2 409 415 manuel_consommateur
+p 2 415 418 remontrance
+p 2 418 429 le_maire_d_enios
+p 2 429 435 association_espagnole
+p 2 435 446 l_indiscret
+p 2 446 451 sucre_antediluvien
+p 2 452 458 monita_secreta
+p 2 459 461 petites_affiches
+p 2 462 465 ministere_introuvable
+p 2 466 482 funestes_illusions
+# Tome troisième
+p 3 1 80 introduction_cobden_ligue
+p 3 81 91 ligue_1
+p 3 91 96 ligue_2
+p 3 96 118 ligue_3
+p 3 118 144 ligue_4
+p 3 144 153 ligue_5
+p 3 153 160 ligue_6
+p 3 160 179 ligue_7
+p 3 179 190 ligue_8
+p 3 190 206 ligue_9
+p 3 207 223 ligue_10
+p 3 223 235 ligue_11
+p 3 236 238 ligue_12
+p 3 238 246 ligue_13
+p 3 246 259 ligue_14
+p 3 259 275 ligue_15
+p 3 275 281 ligue_16
+p 3 281 298 ligue_17
+p 3 298 309 ligue_18
+p 3 309 326 ligue_19
+p 3 327 343 ligue_20
+p 3 343 351 ligue_21
+p 3 351 355 ligue_22
+p 3 355 384 ligue_23
+p 3 384 391 ligue_24
+p 3 391 403 ligue_25
+p 3 403 404 ligue_26
+p 3 404 409 ligue_27
+p 3 409 420 ligue_28
+p 3 420 429 ligue_29
+p 3 430 436 ligue_30
+p 3 437 448 ligue_31
+p 3 449 458 ligue_32
+p 3 459 462 ligue_33
+p 3 463 492 ligue_34
+p 3 492 496 ligue_35
+p 3 497 507 ligue_36
+p 3 508 518 ligue_37
+# Tome quatrième
+p 4 1 5 introduction_sophismes
+p 4 5 15 abondance_disette
+p 4 15 18 obstacle_cause
+p 4 19 27 effort_resultat
+p 4 27 46 egaliser_les_conditions_de_production
+p 4 46 52 greves_de_taxes
+p 4 52 57 balance_du_commerce_sophisme
+p 4 57 62 petition
+p 4 62 63 droits_differentiels
+p 4 63 67 immense_decouverte
+p 4 67 70 reciprocite
+p 4 70 74 prix_absolus
+p 4 74 79 protection_taux_salaires
+p 4 79 86 theorie_pratique
+p 4 86 90 conflit_de_principes
+p 4 90 92 encore_reciprocite
+p 4 92 93 les_fleuves
+p 4 93 94 chemin_de_fer
+p 4 94 97 principes_absolus
+p 4 97 99 independance_nationale
+p 4 100 105 thtn
+p 4 105 115 matieres_premieres
+p 4 115 119 metaphores
+p 4 119 126 conclusion_sophismes
+p 4 127 148 physiologie_de_la_spoliation
+p 4 148 156 deux_morales
+p 4 156 159 les_deux_haches
+p 4 160 163 conseil_inferieur_du_travail
+p 4 163 173 cherte_bon_marche
+p 4 173 182 aux_artisans_et_ouvriers
+p 4 182 187 conte_chinois
+p 4 187 189 post_hoc_propter_hoc
+p 4 189 198 le_vol_a_la_prime
+p 4 198 203 percepteur
+p 4 204 212 l_utopiste
+p 4 213 229 sel_poste_douane
+p 4 229 241 les_trois_echevins
+p 4 241 251 autre_chose
+p 4 251 257 arsenal
+p 4 258 265 la_main_droite_et_la_main_gauche
+p 4 265 274 domination_par_le_travail
+p 4 275 297 propriete_et_loi
+p 4 298 326 justice_fraternite
+p 4 327 341 l_Etat
+p 4 342 393 la_loi
+p 4 394 441 propriete_et_spoliation
+p 4 442 503 baccalaureat_et_socialisme
+p 4 504 545 protectionisme_et_communisme
+# Tome cinquième
+p 5 1 15 spoliation_et_loi
+p 5 16 22 guerre_aux_chaires_d_economie_politique
+p 5 23 63 capital_et_rente
+p 5 64 93 maudit_argent
+p 5 94 111 lettre1
+p 5 111 120 lettre2
+p 5 120 133 lettre3
+p 5 133 145 lettre4
+p 5 146 156 lettre5
+p 5 156 167 lettre6
+p 5 168 190 lettre7
+p 5 191 204 lettre8
+p 5 205 225 lettre9
+p 5 225 237 lettre10
+p 5 238 271 lettre11
+p 5 272 289 lettre12
+p 5 290 312 lettre13
+p 5 312 335 lettre14
+p 5 336 392 cqovecqonvp
+p 5 393 401 abondance
+p 5 402 406 balance_du_commerce
+p 5 407 467 paix_et_liberte
+p 5 468 493 impot_des_boissons
+p 5 494 512 repression_coalitions
+p 5 513 517 aux_democrates
+p 5 518 561 incompatibilites_parlementaires
+# Tome sixième
+p 6 1 22 a_la_jeunesse_francaise
+p 6 23 44 organisation
+p 6 45 61 besoins_efforts_satisfactions
+p 6 62 92 des_besoins_de_l_homme
+p 6 93 139 echange
+p 6 140 206 de_la_valeur
+p 6 207 227 richesse
+p 6 228 255 capital
+p 6 256 296 propriete_communaute
+p 6 297 348 propriete_fonciere
+p 6 349 387 concurrence
+p 6 388 397 conclusion_eo_harmonies
+p 6 398 418 producteur_consommateur
+p 6 419 429 les_deux_devises
+p 6 430 436 de_la_rente
+p 6 437 491 des_salaires
+p 6 492 496 de_l_epargne
+p 6 497 534 de_la_population
+p 6 535 562 services
+p 6 563 573 causes_perturbatrices
+p 6 574 587 guerre
+p 6 588 617 responsabilite
+p 6 618 626 solidarite
+p 6 627 638 moteur_social
+p 6 639 643 le_mal
+p 6 644 650 perfectibilite
+p 6 651 655 rapports
+}
+
+X () {
+  dest=$(printf "%d_%03d_%03d_%s" $1 $2 $3 $4) TOME=$1 o=$OFFSETS[$TOME]
+  first=$[$2+$o] last=$[$3+$o]
+  extract_text $dest $TOME $first $last
+}
+
+get_bastiat_page () {
+  wget -O $1 $(printf \
+	"http://gallica.bnf.fr/scripts/get_page.exe?O=%d&E=%d&.PDF" \
+	$[202314+$2] $3)
+}
+
+pdf2tiff () {
+  local p=${1}.pdf t=${1}.tiff
+  convert -density ${RESOLUTION}x${RESOLUTION} $p toto.pbm &&
+  pnmcrop -white toto.pbm > tata.pbm &&
+  convert tata.pbm $t &&
+  /bin/rm -f $p toto.pbm tata.pbm
+  FILES=($FILES $t)
+}
+
+extract_text () {
+  DEST=$1 TOME=$2 FIRST=$3 LAST=$4
+  FILES=()
+  PAGE=$FIRST
+  while [ $PAGE -le $LAST ] ; do
+    f=$(printf "%d_%03d" $TOME $PAGE)
+    get_bastiat_page ${f}.pdf $TOME $PAGE
+    pdf2tiff ${f}
+    PAGE=$[$PAGE+1]
+  done
+  tiffcp ${FILES} ${DEST}.tif # accomodate for CP/M three-letter extensions :(
+  mkdir ${DEST} ; mv ${FILES} ${DEST}
+}
+
+# telechargements
+
+X () {
+  # convert from previous convention to current # use once # already used :)
+  dest=$4 TOME=$1 o=$OFFSETS[$TOME]
+  first=$[$2] last=$[$3] prefix=$(printf "%d_%03d_%03d" $TOME $first $last)
+  mv ${dest} ${prefix}_${dest}
+  mv ${dest}.tiff ${prefix}_${dest}.tiff
+}
+
+number_files () {
+  local prefix="$1" suffix="$2" min="${3:-0}" i="${4:-1}" max files len f
+  files=( * )
+  max=$#files
+  [[ $max -gt $min ]] || max=$min
+  len=1 ; while [[ 10**$len -le $max ]] ; do len=$[$len+1] ; done
+  mask="${prefix}%0${len}d${suffix}"
+  for f in $files ; do
+    mv $f $(printf $mask $i)
+    i=$[$i+1]
+  done
+}
+
+crop_tif () {
+  for i ; do
+    convert tiff:$i pbm:- | pnmcrop -white | convert pbm:- ${i}.new.tiff &&
+    /bin/mv -f ${i}.new.tiff $i
+  done
+}
+renumber () {
+  rename 's/(.)\_(...)\.tif/
+    my @a = ( 51, 3, 3, 3, 3, 3 ); my $p=$a[$1 -1];
+    my $q = ($2 > 3) && ($2 <= $p);
+    if ( $2 > $p ) { sprintf "%d-p%03d.tif", $1, ($2 - $p) ;}
+    else { sprintf "%d-g%03d.tif", $1, ($2 + $q) ;}
+  /e' *
+}
+split_tome () {(
+  mkdir $1 || exit
+  cd $1
+  tiffsplit ../tomes/$TOMES[$1]
+  number_files "${1}_" .tif
+  crop_tif *.tif
+  renumber
+)}
+
+mvtxttif () {
+  dest="${1:-/X/3/samba/scans/done}" ; shift
+  A=( $@ ) ; if [ $#A = 0 ] ; then A=( *.txt ) ; fi
+  mv $A $( print -l $A | sed -e 's/txt/tif/' ) $dest
+}
+
+renum4 () { # Fix from a numbering bug due to my previous experiments
+  rename 's/4-g00(.)\.(...)/sprintf "4-g00%d.%s", ($1 - 1), $2 /e' 4-g00?.*
+}
+
+movebynum () {
+  A=( $1-* )
+  if [ -n "$A" ] ; then
+    mv $A /pub/bastiat/par_page/$1/
+  fi
+}
+
+sort_by_page () {
+  for i in {1-6} ; do movebynum $i ; done
+}
+
+shuffle_files () {
+  cd /X/3/samba/scans/2 ; mv *.txt ../todo
+  cd /X/3/samba/scans/todo ; mvtxttif $@
+  cd /X/3/samba/scans/done ; sort_by_page
+}
+
+check_page () {
+  f=$(printf "%d-%s%03d" $@)
+  p=/pub/bastiat/par_page/$1/$f
+  [ -f $p.txt -a -f $p.tif ] || {
+    echo "La page $f est manquante!" ; exit 42
+  }
+}
+check_pages () {
+  local i=$3
+  while [ $i -le $4 ] ; do check_page $1 $2 $i ; i=$[$i+1] ; done
+}
+check_all_pages () {
+  local i
+  check_pages 1 g 5 52
+  for i in {1-6} ; do
+    check_pages $i g 1 3
+    check_pages $i p 1 $PAGEMAX[$i]
+  done
+  echo "Toutes les pages y sont!"
+}
+check_6_pages () {
+  check_pages 6 p 1 $PAGEMAX[6]
+  echo "Toutes les pages y sont!"
+}
+
+sort_by_text () {
+  X () {
+    local i d p f files
+    d="$(printf "%d-%s%03d-%03d-%s" $2 $1 $3 $4 $5)"
+    p=/pub/bastiat/texte/$2/$d
+    #f=/pub/bastiat/page/$2/$(printf "%d-%s%03d" $2 $1 $4).txt
+    [ -d $p ] || {
+      mkdir -p $p
+      cd $p && {
+        i=$3 files=() ; while [ $i -le $4 ] ; do
+          f="$(printf "%d-%s%03d" $2 $1 $i)"
+	  files=($files ../../../page/$2/$f.{tif,txt})
+          i=$[$i+1]
+        done
+        ln $files .
+      }
+    }
+  }
+  table_des_matieres
+}
+
+make_1_text () {
+FILTER="$(cat)" <<'END'
+
+sub wrapline1 {
+    # split a line into a short enough beginning and an end
+    local $_ = shift ;	# text to wrap
+    s/^\s+// ; s/\s+$// ;
+    if (length($_) < 79 ) { return ($_,""); }
+    if (/^(.{0,77}\,) /) { return ($1,$'); }
+    #if (/^(.{1,77}) /) { return ($1,$'); }
+    #if (/^(.{78,}?) /) { return ($1,$'); }
+    return ($_,"") ;
+}
+sub wrapline {
+    my $l = shift;
+    my $b, @r = "", () ;
+    $l =~ s/[\r\n]/ /g ;
+    while (length($l) > 0) {
+      ($b, $l) = wrapline1($l) ;
+      if (length($b) > 0) { push @r, $b; }
+    }
+    return join("\n",@r) ;
+}
+
+# Lire tout le texte
+    $_ = join("",<>,"### FIN ###\n");
+
+# Le traiter
+    # Gérer les aller à la ligne
+    s/\r\n/\n\n/gs ;
+    s/\r/\n\n/gs ;
+
+    # Enlever les lignes parasites en début de page "119 CONCLUSION"
+    s/^(\#\#\#.*\n)[^a-z]*$/$1/mg ;
+
+    # Ne pas sauter à la ligne au changement de page si la nouvelle page
+    #s/^\n(\#\#\#.*\n)([a-z].*)$/$2/mg ;
+    # Avant d'appliquer une telle règle, régler le cas des notes de bas de page
+
+    # Régler les espaces avant/après la ponctuation
+    s/ ([:;,.?!»])/$1/g ;
+    s/([«]) /$1/g ;
+
+    # Repérer quelques fautes habituelles
+    s/ h / à /g ;
+    s/prùs/près/g ;
+    s/aieut/aient/g ;
+    s/flarmonie/Harmonie/g ;
+    s/ mème/ même/g ;
+
+    #s/\n/\n\n/gs ;
+    s/([.;!?:]) /$1\n/gs ;
+    s/^(.*)$/wrapline($1)/gem ;
+    s/\n\n/\n/gs ;
+    s/\n{3,}/\n\n/gs ;
+
+    # Remettre certains accents:
+    s/^A /À/g ;
+
+    # Enlever les marqueurs de pages
+    s/^\#\#\#[^#]*\#\#\#\n?//mg ;
+
+# Afficher le texte traité
+    print ;
+END
+  for i in $@ ; do
+    echo "### PAGE $i ###"
+    cat $i
+  done | perl -e "$FILTER"
+}
+
+make_text () {
+  X () {
+    local i d p f files
+    # [ $2 = 6 ] && return
+    d="$(printf "%d-%s%03d-%03d-%s" $2 $1 $3 $4 $5)"
+    p=/pub/bastiat/texte/$2/$d
+    f="${5}.txt"
+    #f=/pub/bastiat/par_page/$2/$(printf "%d-%s%03d" $2 $1 $4).txt
+    cd $p &&
+	# { [ -f "$f" ] || 
+	make_1_text [1-6]-*.txt > "$f" # }
+  }
+  table_des_matieres
+}
+
+make_tif () {
+  X () {
+    local i d p f files
+    d="$(printf "%d-%s%03d-%03d-%s" $2 $1 $3 $4 $5)"
+    p=/pub/bastiat/texte/$2/$d
+    f="${5}.tif"
+    cd $p && { [ -f "$f" ] || tiffcp $2-*.tif "$f" }
+  }
+  table_des_matieres
+}
+
+x_table_des_matieres () {
+}
+
+WC () {
+  A=( )
+  X () {
+    A=($A "/home/fare/webs/bastiat/fr/$5.scr")
+  }
+  table_des_matieres
+  wc $A
+}
+
+#set -x
+
+#shuffle_files
+#check_6_pages
+#make_1_text /pub/bastiat/texte/4/4-p119-126-conclusion_sophismes/4-*.txt | less
+
+#sort_by_text
+#make_tif
+#make_text
+
+WC
+
+exit 0
+
+### A CONVERTIR?
+
+baccalaureat.html
+ex_de_la_valeur.html
+ex_tarifs_fr_ang.html
+secusoc.html
+salaires.html
+
+for i (*.html) { [ -f $(basename $i .html).scr ] || echo $i }
+
+a () {
+  i=$(basename $1 .html)
+  d html2scr < $i.html > $i.scr
+  mv $i.html $i.html.bak
+  cvsz remove $i.html
+  cvsz add $i.scr
+}
+
+### A CORRIGER:
+grep 'XXX *[\[")]' *.scr | less

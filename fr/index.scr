@@ -1,0 +1,1434 @@
+; -*- Scheme -*-
+; $Id: index.scr,v 1.69 2005/09/03 00:32:52 fare Exp $
+(style 'bo-style)
+(in-bof :title "Frédéric Bastiat - Bastiat.org
+- Nous démystifions les sophismes économiques depuis 1845")
+(set! =bof.url= "")
+(set! =boe.url= "../en/")
+
+(document :title "Frédéric Bastiat"
+(center(font :size "+2" (strong[
+,(Bastiat.org)
+,(--) Démystificateurs de sophismes économiques depuis 1845.])))
+(br)
+(XXX[À FAIRE:
+intégrer les machins d'econlib et les trucs espagnols
+dans la liste des oeuvres publiées.
+Verifier que les textes espagnols sont toujours disponibles...
+Intégrer les textes de Michel Leter...
+	http://aboutleter.chez.tiscali.fr/pages/etexts%20Bastiat/Fr%8Ed%8Eric%20Bastiat%20sommaire.html
+])
+
+(subtitle[Tout sur Frédéric Bastiat])
+(table :width "100%"
+(tr (tdLT
+(itemize
+(item(ref :url "#biographie" [Sa Vie]))
+(item(ref :url "#oeuvre" [Son ,(OE)uvre]))
+(item(ref :url "#images" [Iconographie]))
+(item(ref :url "#ouebe" [Frédéric Bastiat sur la Toile]))
+(item(ref :url "#bois_mort" [Éditions imprimées]))
+(item(ref :url "#pointeurs" [Quelques Pointeurs]))))
+(tdRT
+(tag :img :src "../pic/bastiat1.jpg"
+     :alt "Portrait de Frédéric Bastiat")))
+(tr (td :colspan 2 :align 'center
+(tag :form :method 'get :action "http://bastiat.org/search.php"
+(tag :input :type 'text :name "q" :size 31 :maxlength 255 :value "")
+(tag :input :type 'hidden :name "hl" :value "fr")
+(tag :input :type 'submit :name "Bastiat.org" :value "Bastiat @ Google")))))
+
+(hrule)
+(subtitle [Dernières Nouvelles!])
+(small
+(itemize
+(item[
+Les ,(HarmoniesEconomiques) de Frédéric Bastiat
+paraîtront mi-octobre 2005 aux Éditions du Trident
+préfacé par Georges Lane,
+,(ref :url "http://www.europelibre.com/TR/bastiat1.htm"
+[on peut commander le livre dès maintenant]).
+Il s'agit d'une réédition de l'édition originale parue du vivant de l'auteur,
+comprenant l'introduction et les dix premiers chapitre du tome 7 des
+,(bof-ref "guillaumin" [,(OE)uvres complètes]).
+])
+(item ;(font :size "4"[
+[
+La prochaine ,(strong(ref :url "../marche/"
+	[Journée du Capitalisme]))
+aura lieu ,(strong[le 5 juin 2005]) dans le monde entier.
+Si aucun événement n'est encore organisé près de chez vous, organisez-le!
+]) ; ,(br),(nbsp) ]))
+(item[
+Kalin Manolov de la BOIS vient de publier
+,(ref :url "http://www.helikon.bg/book.php?book_id=114723"
+      [,(cite-title[la loi]) en Bulgare]) (2005-05).
+])
+(item[
+,(ref :url "http://www.lesbelleslettres.com/" [Les Belles Lettres])
+viennent de republier ce janvier 2005,
+pour la première fois depuis plus d'un siècle,
+et avec une préface de Michel Leter,
+,(ref :url "http://www.lesbelleslettres.com/asp/un_ouvrage.asp?CodArt=27577&CodCol=101&CodAuteur=20068"
+      (cite-title(bold[Les Sophismes Économiques])))
+de Frédéric Bastiat.
+Commandez dès à présent votre exemplaire!
+])
+(item[
+À l'occasion de l'anniversaire de Frédéric Bastiat,
+Notre ami ,(ref :url "http://kyuuri.blogtribe.org/" [Kyuuri])
+a traduit depuis l'anglais ,(cite-title[La loi]) en japonais!
+	,(ref :url "http://www.geocities.jp/kyuurinona/FB/THELAW.PDF"
+		[lire le PDF]). (30 juin 2004.)
+])
+(item(font :size "4"[
+Jacques de Guenin, président du
+	,(ref :url "http://bastiat.net/" [Cercle Frédéric Bastiat des Landes]),
+vient (mai 2004) de publier aux éditions de l'institut Charles Coquelin
+un livre essentiel pour désamorcer la propagande néo-communiste:
+	,(center[,(cite-title(font :size "5" (bold(ref :url
+"http://www.action-liberale.org/articles/La+bibliotheque+des+lib%E9raux/De+Guenin_ATTAC+ou+l%27intoxication+des+personnes+de+bonne+volont%E9.html"
+	[ATTAC, ou l'intoxication des personnes de bonne volonté]))))])
+,(br)
+La ,(ref :url "http://membres.lycos.fr/mgrunert/preface.htm" [Préface])
+	de Pascal Salin est disponible
+	chez ,(ref :url "http://membres.lycos.fr/mgrunert/" [Marc Grunert]).
+,(br),(nbsp)
+]))
+(item[Sur Bastiat, ce
+	  ,(bof-ref "guillaumat_bastiat"(cite-title[compte-rendu de lecture]))
+	  par ,(strong[François Guillaumat]),
+	  aussi ,(ref :url "http://membres.lycos.fr/mgrunert/bastiat.htm"
+		      [disponible])
+	  chez ,(ref :url "http://membres.lycos.fr/mgrunert/" [Marc Grunert])
+	  (2004-01-04).
+])
+(item[
+Parmi les ,(strong(bof-ref "guillaumin" [,(OE)uvres complètes])) de Bastiat,
+nous avons dernièrement
+	,(bof-ref "numerisation" [numérisé]):
+,(itemize
+(item[,(cite-title(bof-ref "lettre1"
+	[Gratuité du crédit ,(--) Première lettre]))
+	(merci à ,(GregB)
+	,(--) 2005-07-24)
+])
+(item[,(cite-title(bof-ref "peur_d_un_mot"
+	[La peur d'un mot])) et
+	,(cite-title(bof-ref "manuel_consommateur"
+	[le petit manuel du consommateur]))
+	(merci à ,(clement.junca)
+	,(--) 2004-11-09)
+])
+(item[,(cite-title(bof-ref "deux_morales"
+	[Deux morales]))
+	(merci à ,(krylenko)
+	,(--) 2004-10-26)
+])
+(item[,(cite-title(bof-ref "physiologie_de_la_spoliation"
+	[Physiologie de la Spoliation]))
+	(merci à ,(krylenko)
+	,(--) 2004-09-29)
+])
+(item[,(cite-title(bof-ref "impot_des_boissons"
+	[Discours sur l'impôt des boissons])),
+	ainsi que
+      ,(cite-title(bof-ref "paix_et_liberte"
+	[Paix et liberté ou le budget républicain]))
+	(merci à ,(clement.junca)
+	,(--) 2004-06-01)
+])
+(item[Pour compléter la première série des ,(SophismesEconomiques):
+	,(cite-title(bof-ref "balance_du_commerce_sophisme"
+		[Balance du commerce])),
+	,(cite-title(bof-ref "prix_absolus" [Prix absolus])),
+	,(cite-title(bof-ref "protection_taux_salaires"
+		[La protection élève-t-elle le taux des salaires?])),
+	,(cite-title(bof-ref "theorie_pratique" [Théorie, pratique])),
+	,(cite-title(bof-ref "encore_reciprocite" [Encore la réciprocité])),
+	,(cite-title(bof-ref "metaphores" [Métaphores]))
+	(merci à ,(krylenko)
+	,(--) 2003-11-20).
+])
+(item[,(cite-title(bof-ref "libre_echange"
+	[Libre-Échange]))
+	(ce qu'il signifie
+	,(--) 2003-10-01).
+])
+(item[,(cite-title(bof-ref "monita_secreta"
+	[Monita secreta]))
+	(Bastiat dénonce l'attitude des protectionnistes
+	,(--) 2003-09-20).
+])
+)])
+(item[,(strong(bof-ref "nouvelles_precedentes" [Nouvelles précédentes...]))])))
+
+(hrule)
+(tag :a :name "biographie")
+(subtitle[Sa Vie])
+(p*[
+Frédéric Bastiat (1801-1850) est un économiste et homme politique français,
+injustement méconnu en France,
+quoique reconnu comme étant un auteur de premier plan dans d'autres pays
+(aux États-Unis notamment).
+,(XXX[
+Nul n'est prophète en son pays,
+surtout quand le monde ,(q[intellectuel]) du dit pays
+a été complètement trusté par une bande d'escrocs
+ayant détruit ou réprimé, au nom d'une doctrine ,(q[scientifique])
+(que ses derniers adhérents préfèrent ne plus discuter,
+sans cesser pour autant de se justifier d'elle pour réclamer le pouvoir),
+toute forme de pensée claire et honnête.
+])
+][
+Pour en savoir plus sur lui,
+	trêve de commentaires redondants;
+	je vous invite à lire sa biographie et ses ,(oe)uvres,
+	librement disponibles ci-dessous.
+][
+Documents biographiques:
+,(itemize
+(item[En courte introduction,
+	cette ,(ref :url "http://bastiat.net/fr/qui.html"
+	[présentation synthétique de F.B.]) par le Cercle Frédéric Bastiat.
+])
+(item[La ,(ref :url "http://bastiat.net/fr/biographie/chronologie.html" [chronologie de la vie et des ,(oe)uvres de F.B.])
+	de Jean-Claude Paul-Dejean,
+	dans la ,(ref :url "http://bastiat.net/fr/biographie/" [section idoine de bastiat.net]),
+	situe Bastiat dans son contexte historique.
+])
+(item[Cette ,(ref :url "http://herve.dequengo.free.fr/Bastiat/Bastiat_bio.htm" [nécrologie de Bastiat])
+	nous montre Bastiat vu par son ami, collaborateur et successeur,
+	,(ref :url "http://herve.dequengo.free.fr/Molinari/Molinari.htm" [Gustave de Molinari]).
+])
+(item[La ,(bof-ref "sur_bastiat" [Notice sur la vie et les écrits
+	de Frédéric Bastiat]) par Roger de Fontenay (1862),
+	dresse un portrait idéalisé de Bastiat.
+])
+(item[En complément, ces
+	,(ref :url "http://www.subir.com/bastiat/bio.html" [quelques notes]) (en anglais) par Subir Grewal
+	nous rendent Bastiat plus humain.
+])
+(item[,(ref :url "http://www.euro92.org/acrob/dejean.pdf" [,(q[Les années de formation de Frédéric Bastiat])]) (PDF)
+	par Jean-Claude Paul-Dejean, Institut EURO92, mai 1997.
+]))
+])
+
+(hrule)
+(tag :a :name "oeuvre")
+(subtitle [Son ,(OE)uvre])
+(p*
+(strong[Consultez la
+	,(bof-ref "guillaumin"
+		[table des matières de ses ,(oe)uvres complètes]).])
+[
+Toutes ne sont pas encore transcrites en texte électronique,
+mais la Bibliothèque Nationale de France a publié en octobre 2002
+des photographies numériques de l'ensemble des six premiers volumes
+de des ,(oe)uvres complètes de Frédéric Bastiat.
+,(Gallica.Bastiat.ref [Cherchez par auteur Bastiat])
+sur le site ,(Gallica),
+et régalez-vous avec les fichiers images TIFF ou PDF.
+Il ne manque que le septième volume, composé de petits textes inédits
+collectés après la première édition des ,(oe)uvres complètes
+(mais nous disposons d'une copie scannée de ce volume grâce à Alexandre Mandy).
+Grâce à ces photographies, il est plus facile que jamais de participer à la
+,(bof-ref "numerisation" [numérisation]) de ces chefs d',(oe)uvres
+,(--)
+,(ref :url "numerisation.html" [rejoignez-nous!]) 
+][
+Je me propose en effet d'héberger ici
+	,(bof-ref "guillaumin" [l'intégrale des ,(oe)uvres de Bastiat]),
+	au fur et à mesure qu'elles seront transcrites en texte électronique,
+	par moi ou par autrui
+	(oui, je veux parler de ,(strong[vous]), là,
+	qui me lisez maintenant;
+	rendez-vous sur
+	,(bof-ref "numerisation" [notre page ,(q[numérisation])])
+	pour participer).
+][
+J'ai édité avec soin les textes suivants,
+	extraits de ses
+	,(strong(bof-ref "guillaumin" [,(oe)uvres complètes])),
+	pour leur publication électronique
+(voir cependant
+,(ref :url "http://fare.tunes.org/books/#avertissement" [cet avertissement])).
+J'ai abandonné ma tentative initiale d'ordre chronologique
+	pour reprendre
+	,(ref :url "http://bastiat.net/fr/oeuvres/" [la classification])
+	choisie par le
+	,(ref :url "http://bastiat.net/fr/cercle/" [Cercle Frédéric Bastiat]).
+(Pour l'ordre chronologique, voir
+,(leter-ref "Fr%8Ed%8Eric%20Bastiat%20sommaire" [l'édition Leter]).)
+][
+Je donne ,(inbracket[entre crochets]) des pointeurs
+	vers des traductions ou versions différentes des mêmes textes,
+	que j'ai trouvées sur l'Internet,
+	annotés par le code ISO de la langue desdites versions.
+	Je ne suis ni l'auteur ni l'éditeur
+	de ces traductions, dont je ne garantis pas la qualité.
+	Sauf indication contraire,
+	je ne suis pas l'hôte de ces textes traduits non plus;
+	mais par crainte de les voir disparaître de l'internet
+	(comme cela est arrivé dans le passé),
+	je garde une copie locale de certaines de ces traductions
+	(lien vers ,(Bastiat.org)),
+	mais pas de toutes.
+]
+(small(itemize
+(item[Indice 1: les textes les plus populaires sont aussi les plus traduits
+et les plus republiés;
+si vous êtes pressés, prenez les en priorité.])
+(item[Indice 2: Bastiat est un bon guide de l'Internet;
+les sites qui publient des textes de Bastiat publient aussi
+de fort intéressantes informations, aussi, jouez sur les URLs.])
+(item[Indice 3: les copies de ,(q[La Loi]) en anglais sont si nombreuses,
+et se multiplient si vite, qu'il est impossible de toutes les lister.])
+(item[Indice 4: pour des sélections d',(oe)uvres de Bastiat plus proéminentes,
+voir aussi les ,(ref :url "#bois_mort" [éditions papier]) existantes.])
+(item[Indice 5: la plupart des textes de Bastiat non disponibles ici
+ont été déjà scannés par la BNF;
+vous pouvez donc les lire tout de même.])))
+(itemize
+(item[,(strong[Premiers écrits])
+,(itemize
+(item[,(bof-ref "tarifs_francais_anglais"
+	[De l'influence des tarifs français et anglais
+	sur l'avenir des deux peuples]) (1844)
+	  ,(trad '((:bof "ex_tarifs_fr_ang" [extraits])))
+]))])
+(item[,(strong[Le libre-échange])
+,(itemize
+(item[,(emph[Association pour la liberté des échanges]) (1846):
+	,(bof-ref "association_libre_echange"
+	[Déclaration]),
+	,(bof-ref "libre_echange"
+	(q[Libre-Échange])), ...
+])
+(item[,(bof-ref "angleterre_et_libre_echange"
+	[L'Angleterre et le libre-échange]) (1847)
+])
+(item[,(bof-ref "cpe" [Curieux phénomène économique]) (1847)
+	,(trad
+	  '(("http://bastiat.de/bastiat/oekonom_phaenomen.html" [de])))
+])
+(item[La Ligue anglaise et la Ligue allemande
+	,(trad
+	  '(("http://bastiat.de/bastiat/deutsche_ligue.html" [de])))
+])
+(item[,(bof-ref "discours_cercle_librairie"
+	[Discours au cercle de la librairie]) (1847)
+])
+(item[,(bof-ref "liberte_pain"
+	[La liberté a donné du pain au peuple anglais]) (1848)
+	,(trad '(("http://bastiat.de/bastiat/brot.html" [de])))
+]))])
+(item[,(strong[Cobden et la Ligue])
+,(itemize
+(item[,(bof-ref "introduction_cobden_ligue" [Introduction])
+	,(trad '(("http://bastiat.de/bastiat/einleitung.html" [de])))
+]))])
+(item[,(tag :a :name "sophismes")
+,(strong[Sophismes Économiques])
+	,(trad '((:elb "basSophtoc" [en])))
+,(XXX[Rajouter ceux qui manquent...])
+,(itemize
+(item[Première Série (1845)
+,(itemize
+(item[,(bof-ref "introduction_sophismes" [Introduction])
+	,(trad '((:elb- "basSoph1" "Author%27s%20Introduction%20to%20the%20French%20Edition" [en])))
+])
+(item[I.1. ,(bof-ref "abondance_disette" [Abondance, disette])
+	,(trad
+	  '((:elb- "basSoph1" "S.1 Ch.1, Abundance and Scarcity" [en])
+	    ("http://perso.normandnet.fr/jfa/fredbastiat.htm" [fr])
+	    ("http://membres.lycos.fr/libertar/documenti/bastiat_3.htm" [it])))
+])
+(item[I.2. ,(bof-ref "obstacle_cause" [Obstacle, cause])
+	,(trad
+	  '((:elb- "basSoph1" "S.1, Ch.2, Obstacle and Cause" [en])))
+])
+(item[I.3. ,(bof-ref "effort_resultat" [Effort, résultat])
+	,(trad
+	  '((:elb- "basSoph1" "S.1, Ch.3, Effort and Result" [en])))
+])
+(item[I.4. ,(bof-ref "egaliser_les_conditions_de_production"
+	[Égaliser les conditions de production])
+	,(trad
+	  '((:elb- "basSoph2" "S.1, Ch.4, Equalizing the Conditions of Production" [en])))
+])
+(item[I.5. ,(bof-ref "greves_de_taxes" [Nos produits sont grevés de taxes])
+	,(trad
+	  '((:elb- "basSoph2" "S.1, Ch.5, Our Products Are Burdened with Taxes" [en])))
+])
+(item[I.6. ,(bof-ref "balance_du_commerce_sophisme" [Balance du commerce])
+	,(trad
+	  '((:elb- "basSoph2" "S.1, Ch.6, The Balance of Trade" [en])))
+])
+(item[I.7. ,(bof-ref "petition" [Une pétition])
+	,(trad
+	  '(("http://www.libinst.cz/etexts/bastiat-petice.pdf" [cz])
+	    ("http://bastiat.de/bastiat/Petition.html" [de])
+	    ("http://users.forthnet.gr/pat/nmantzaris/articles/article007.html" [el])
+	    (:elb- "basSoph3" "S.1, Ch.7, A Petition" [en])
+	    ("http://www.dallasfed.org/htm/dallas/articles/dbr1994.html#anchor1" [en])
+	    ("http://www.newaus.com.au/econ12.html" [en])
+	    (:boe "petition" [en])
+	    ("http://people.morehead-st.edu/fs/t.pitts/ecsop7.html" [en])
+	    ("http://www.usm.maine.edu/~phillips/000spring2000Candle.html" [en])
+    ;(MIA "http://www.econ.duke.edu/~mmcelroy/154Home/Petition.htm" [en])
+	    (:boes "peticion" [es])
+	    ("http://www.elcato.org/publicaciones/otros/bastiat_peticion.html" [es])
+	    ("http://www.andriki.is/vt/2001/Une_Petition.htm" [is])
+	    ("http://membres.lycos.fr/libertar/documenti/bastiat_4.htm" [it])
+	    ("http://www.frihandel.nu/bastiat/petition.asp" [se])
+	    ("http://www.prave-spektrum.sk/article.php?65" [sk])))
+])
+(item[I.8. ,(bof-ref "droits_differentiels" [Droits différentiels])
+	,(trad
+	  '((:elb- "basSoph3" "S.1, Ch.8, Differential%20Tariffs" [en])))
+])
+(item[I.9. ,(bof-ref "immense_decouverte" [Immense découverte!!!])
+	,(trad
+	  '((:elb- "basSoph3" "S.1, Ch.9, An Immense Discovery" [en])
+	    ("http://membres.lycos.fr/libertar/documenti/fenomenale_scoperta.htm" [it])))
+])
+(item[I.10. ,(bof-ref "reciprocite" [Réciprocité])
+	,(trad
+	  '((:elb- "basSoph3" "S.1, Ch.10, Reciprocity" [en])))
+])
+(item[I.11. ,(bof-ref "prix_absolus" [Prix absolus])
+	,(trad
+	  '((:elb- "basSoph3" "S.1, Ch.11, Money Prices" [en])))
+])
+(item[I.12. ,(bof-ref "protection_taux_salaires"
+		[La protection élève-t-elle le taux des salaires?])
+	,(trad
+	  '((:elb- "basSoph3" "S.1, Ch.12, Does Protectionism Raise Wage Rates" [en])))
+])
+(item[I.13. ,(bof-ref "theorie_pratique" [Théorie, pratique])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.13, Theory and Practice" [en])))
+])
+(item[I.14. ,(bof-ref "conflit_de_principes" [Conflit de principes])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.14, Conflict of Principles" [en])))
+])
+(item[I.15. ,(bof-ref "encore_reciprocite" [Encore la réciprocité])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.15, Reciprocity Again" [en])))
+])
+(item[I.16. ,(bof-ref "les_fleuves" [Les fleuves obstrués plaidant pour les prohibitionistes])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.16, Obstructed Rivers as Advocates for the Protectionists" [en])))
+])
+(item[I.17. ,(bof-ref "chemin_de_fer" [Un chemin de fer négatif])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.17, A Negative Railroad" [en])))
+])
+(item[I.18. ,(bof-ref "principes_absolus" [Il n'y a pas de principes absolus])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.18, There Are No Absolute Principles" [en])))
+])
+(item[I.19. ,(bof-ref "independance_nationale" [Indépendance nationale])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.19, National Independence" [en])))
+])
+(item[I.20. ,(bof-ref "thtn" [Travail humain, travail national])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.20, Human vs. Mechanical Labor and Domestic vs. Foreign Labor" [en])))
+])
+(item[I.21. ,(bof-ref "matieres_premieres" [Matières premières])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.21, Raw Materials" [en])))
+])
+(item[I.22. ,(bof-ref "metaphores" [Métaphores])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.22, Metaphors" [en])))
+])
+(item[,(bof-ref "conclusion_sophismes" [Conclusion de la première série des Sophismes])
+	,(trad
+	  '((:elb- "basSoph4" "S.1, Ch.23, Conclusion" [en])))
+]))])
+(item[Deuxième Série (1848)
+,(itemize
+(item[II.1. ,(bof-ref "physiologie_de_la_spoliation"
+	[Physiologie de la Spoliation])
+	,(trad
+	  '((:elb- "basSoph5" "S.2, Ch.1, The Physiology of Plunder" [en])))
+])
+(item[II.2. ,(bof-ref "deux_morales" [Deux morales])
+	,(trad
+	  '((:elb- "basSoph5" "S.2, Ch.2, Two Systems of Ethics" [en])))
+])
+(item[II.3. ,(bof-ref "les_deux_haches" [Les deux haches])
+	,(trad
+	  '((:elb- "basSoph5" "S.2, Ch.3, The Two Hatchets" [en])))
+])
+(item[II.7. ,(bof-ref "conte_chinois" [Conte chinois])
+	,(trad
+	  '((:elb- "basSoph6" "S.2, Ch.7, A Chinese Tale" [en])))
+])
+(item[II.10. ,(bof-ref "percepteur" [Le percepteur])
+	,(trad
+	  '(("http://bastiat.de/bastiat/Steuereintreiber.html" [de])
+	    (:elb- "basSoph6" "S.2, Ch.10, The Tax Collector" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/recaudador.htm" [es])))
+])
+(item[II.13. ,(bof-ref "les_trois_echevins" [La protection ou les trois échevins])
+	,(trad
+	  '((:elb- "basSoph7" "S.2, Ch.13, Protectionism, or the Three Aldermen" [en])
+	    ("http://www.house.gov/jec/classics/bastiat.htm" [en])
+	    (:boe "protectionism" [en])))
+])
+(item[II.14. ,(bof-ref "autre_chose" [Autre chose])
+	,(trad
+	  '((:elb- "basSoph8" "S.2, Ch.14, Something Else" [en])
+	    ("http://www.frihandel.nu/bastiat/ngtant.asp" [se])))
+])
+(item[II.15. ,(bof-ref "arsenal" [Le petit arsenal du libre-échangiste])
+	,(trad
+	  '((:elb- "basSoph8" "S.2, Ch.15, The Little Arsenal of the Freetrader" [en])))
+])
+(item[II.16. ,(bof-ref "la_main_droite_et_la_main_gauche" [La main droite et la main gauche])
+	,(trad
+	  '((:elb- "basSoph8" "S.2, Ch.16, The Right Hand and the Left" [en])))
+])
+(item[II.17. ,(bof-ref "domination_par_le_travail" [domination par le travail])
+	,(trad
+	  '((:elb- "basSoph8" "S.2, Ch.17, Domination through Industrial Superiority" [en])))
+]))]))])
+(item[,(strong[Autres sophismes publiés dans la presse])
+,(itemize
+(item[,(bof-ref "recettes_protectionnistes" [Recettes protectionnistes]) (1846)
+])
+(item[,(bof-ref "1profit_2pertes" [Un profit contre deux pertes]) (1847)
+])
+(item[,(bof-ref "2pertes_1profit" [Deux pertes contre un profit]) (1847)
+])
+(item[,(bof-ref "peur_d_un_mot" [La peur d'un mot]) (1847)
+])
+(item[,(bof-ref "midi_a_quatorze_heures" [Midi à quatorze heure]) (1847)
+])
+(item[,(bof-ref "manuel_consommateur" [le petit manuel du consommateur]) (1841)
+])
+(item[,(bof-ref "le_maire_d_enios" [Le maire d'Énios]) (1848)
+])
+(item[,(bof-ref "association_espagnole"
+	[Association espagnole pour la défense du travail national ,(--)
+		le pont de la Bidassoa]) (1847)
+	,(trad
+	  '(("http://www.eureka.runa.net/ec_bastiat9.htm" [es])))
+])
+(item[,(bof-ref "l_indiscret"
+	[L'indiscret]) (1848)
+])
+(item[,(bof-ref "sucre_antediluvien"
+	[Le sucre antédiluvien]) (1848)
+])
+(item[,(bof-ref "monita_secreta"
+	[Monita secreta]) (1848)
+])
+(item[,(bof-ref "petites_affiches"
+	[petites affiches de Jacques Bonhomme]) (1848)
+])
+(item[,(bof-ref "ministere_introuvable"
+	[Circulaires d'un ministère introuvable]) (1848)
+])
+(item[,(bof-ref "funestes_illusions"
+	[Funestes illusions]) (1848)
+])
+(item[,(bof-ref "laissez_faire" [Laissez faire]) (1850?)
+	,(trad
+	  '(("http://membres.lycos.fr/libertar/documenti/lessefeer.htm" [it])))
+])
+(item[,(bof-ref "p5r4" [Prendre cinq et rendre quatre]) (1850?)
+	,(trad
+	  '(("http://membres.lycos.fr/libertar/documenti/prendi_cinque.htm" [it])))
+]))])
+(item[,(strong[Pamphlets]) ,(trad '((:elb "basEsstoc" [en])))
+,(itemize
+(item[,(bof-ref "propriete_et_loi" [Propriété et Loi]) (1848)
+	,(trad
+	  '(("http://bastiat.de/bastiat/Eigentum_Gesetz.html" [de])
+	    ("http://se1.com/ush/important/bastiat/property-law.htm" [en])
+	    (:boe "property_law" [en])
+	    (:elb- "basEss3" "Chapter 3" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/propiedad.htm" [es])
+	    ("http://perso.wanadoo.fr/patrick.madrolle/economie/_bastia2.htm" [fr])))
+])
+(item[,(bof-ref "justice_fraternite" [Justice et Fraternité]) (1848)
+	,(trad
+	  '(("http://bastiat.de/bastiat/Bruederlichkeit.html" [de])
+	    ("http://se1.com/ush/important/bastiat/justice-fraternity.htm" [en])
+	    (:boe "justice_fraternity" [en])
+	    (:elb- "basEss4" "Chapter 4" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/justicia.htm" [es])))
+])
+(item[,(bof-ref "l_Etat" [l'État]) (1848)
+	,(trad
+	  '(("http://bastiat.de/bastiat/Staat.html" [de])
+	    ("http://www.mind-trek.com/treatise/fb-g.htm" [en])
+	    (:boe "government" [en])
+	    (:elb- "basEss5" "Chapter 5" [en])
+	    ("http://www.socsci.mcmaster.ca/~econ/ugcm/3ll3/bastiat/Government.htm" [en])
+	    ("http://ipf.simplenet.com/eeta/htm-01/fb-govt.shtml" [en])
+	    ("http://www.lexrex.com/informed/otherdocuments/government.htm" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/estado.htm" [es])
+	    ("http://www.elcato.org/publicaciones/otros/gobierno_bastiat.html" [es])
+	    ("http://membres.lycos.fr/libertar/documenti/bastiat_2.htm" [it])
+	    ("http://digilander.iol.it/biblioego/bastiat.htm" [it])))
+])
+(item[,(bof-ref "la_loi" [La loi]) (1850)
+	,(trad
+	  '(("http://bastiat.de/bastiat/Gesetz.html" [de])
+	    ("http://se1.com/ush/important/bastiat/law.htm" [en])
+	    (:boe "the_law" [en])
+	    (:elb- "basEss2" "Chapter 2" [en])
+	    ("http://www.socsci.mcmaster.ca/~econ/ugcm/3ll3/bastiat/TheLaw.htm" [en])
+	    ("http://www.geocities.com/Heartland/7006/thelaw.html" [en])
+	    ("http://people.netscape.com/ccardiff/bastiat.html" [en])
+	    ("http://www.mind-trek.com/treatise/fb-tl.htm" [en])
+	    ("http://www.jim.com/jamesd/bastiat.htm" [en])
+	    ("http://citizensrights.com/law.htm" [en])
+	    ("http://www.math.ku.dk/~buhl/Library/Bastiat.The_law.html" [en])
+	    ("http://www.cycad.com/cgi-bin/Upstream/Library/Bastiat/bastiat-law.html" [en])
+	    ("http://www.taxgate.com/articles/bastiat1.htm" [en])
+	    ("http://www.barefootsworld.net/the_law.html" [en])
+	    ("http://www.elcato.org/publicaciones/ensayos/ens-2002-08-16.html" [es])
+	    ("http://www.atlas.org.ar/introductoria/bastiat.asp" [es])
+	    ("http://xld.com/TheLaw/LaLey.htm" [es])
+	    ("http://perso.wanadoo.fr/patrick.madrolle/economie/_laloi.htm" [fr])
+	    ("http://allserv.rug.ac.be/~frvandun/bastiat.html" [fr])
+	    ("http://www.geocities.jp/kyuurinona/FB/THELAW.PDF" [jp])
+	    ("http://www.ilk.lublin.pl/bastiat/bast00.htm" [pl])))
+])
+(item[,(bof-ref "baccalaureat_et_socialisme"
+	[Baccalauréat et Socialisme]) (1850)
+	,(trad
+	  '(("http://bastiat.de/bastiat/klassische_studien.html" [de])
+	    (:elb- "basEss9" "Chapter 9" [en])
+	    (:bof "baccalaureat" [fr (extraits)])
+	    ("http://membres.tripod.fr/Alex22/f-bastiat.htm" [fr (idem)])))
+])
+(item[Propriété et Spoliation (184?)
+	,(trad
+	  '((:elb- "basEss6" "Chapter 6" [en])))
+])
+(item[,(bof-ref "protectionisme_et_communisme"
+	[Protectionisme et Communisme]) (1849)
+	,(trad
+	  '((:elb- "basEss7" "Chapter 7" [en])))
+])
+(item[,(bof-ref "capital_et_rente" [Capital et rente]) (1849)
+	,(trad
+	  '((:boe "capital_and_interest" [en])))
+])
+(item[,(bof-ref "maudit_argent" [Maudit argent]) (1849)
+	,(trad
+	  '((:boe "what_is_money" [en])))
+])
+(item[,(bof-ref "spoliation_et_loi" [Spoliation et loi])
+	,(trad
+	  '((:elb- "basEss8" "Chapter 8" [en])))
+])
+(item[,(bof-ref "guerre_aux_chaires_d_economie_politique" [Guerre aux chaires d'économie politique]) (1847)
+	,(trad
+	  '((:elb- "basEss10" "Chapter 10" [en])))
+])
+(item[Discours sur la répression des coalitions industrielles (184?)
+	,(trad
+	  '((:elb- "basEss11" "Chapter 11" [en])))
+])
+(item[,(bof-ref "aux_democrates"
+	[Réflexions sur l'amendement de M. Mortimer-Ternaux
+	,(--) Aux Démocrates])
+	(1850)
+	,(trad
+	  '((:elb- "basEss12" "Chapter 12" [en])))
+]))])
+(item[,(strong(bof-ref "cqovecqonvp" [Ce qu'on voit et ce qu'on ne voit pas]))
+	(1850)
+	,(trad
+	  '(("http://bastiat.de/bastiat/was_man_sieht_und.html" [de])
+	    ("http://www.mind-trek.com/treatise/fb-twins.htm" [en])
+	    (:boe "twisatwins" [en])
+	    (:elb "basEss1" [en])
+	    ("http://www.laissez-fairerepublic.com/notseen.htm" [en])
+	    ("http://ipf.simplenet.com/eeta/htm-01/fb-seen.shtml" [en])
+	    ("http://www.cycad.com/cgi-bin/Upstream/Library/Bastiat/bastiat-seen.html" [en])
+	    ("http://www.freedomsnest.com/fn/bastiat.html" [en])
+	    ("http://www.library.adelaide.edu.au/etext/vt/45/" [en])
+	    ("http://www.frihandel.nu/bastiat/detmanser.asp" [se])))
+,(itemize
+(item[,(bof-ref "cqovecqonvp" "introduction"
+	[Introduction])])
+(item[,(bof-ref "cqovecqonvp" "vitre_cassee"
+	[I. La vitre cassée])])
+(item[,(bof-ref "cqovecqonvp" "le_licenciement"
+	[II. Le Licenciement])])
+(item[,(bof-ref "cqovecqonvp" "l_impot"
+	[III. L'impôt])])
+(item[,(bof-ref "cqovecqonvp" "theatres_beaux_arts"
+	[IV. Théâtres, Beaux-Arts])
+	,(trad '(("http://membres.lycos.fr/libertar/documenti/bastiat_5.htm" [it])))
+])
+(item[,(bof-ref "cqovecqonvp" "travaux_publics"
+	[V. Travaux publics])
+	,(trad '(("http://membres.lycos.fr/libertar/documenti/bastiat_1.htm" [it])))
+])
+(item[,(bof-ref "cqovecqonvp" "les_intermediaires"
+	[VI. Les Intermédiaires])])
+(item[,(bof-ref "cqovecqonvp" "restriction"
+	[VII. Restriction])])
+(item[,(bof-ref "cqovecqonvp" "les_machines"
+	[VIII. Les Machines])])
+(item[,(bof-ref "cqovecqonvp" "credit"
+	[IX. Crédit])])
+(item[,(bof-ref "cqovecqonvp" "l_algerie"
+	[X. L'Algérie])])
+(item[,(bof-ref "cqovecqonvp" "epargne_et_luxe"
+	[XI. Épargne et Luxe])])
+(item[,(bof-ref "cqovecqonvp" "droit_au_travail_droit_au_profit"
+	[XII. Droit au Travail, Droit au Profit])]))])
+(item[,(strong[Gratuité du crédit])
+,(itemize
+(item[,(bof-ref "lettre1" [Première Lettre: F. C. Chevé à Fréderic Bastiat])
+(1849)])
+(item[,(bof-ref "lettre2" [Deuxième Lettre: Fréderic Bastiat à ,(cite-title[La Voix du Peuple])])
+(1849)]))])
+(item[,(strong[Textes destinés à ses collègues de l'Assemblée])
+,(itemize
+(item[,(bof-ref "balance_du_commerce" [Balance du commerce])
+	,(trad
+	  '((:elb- "basEss13" "Chapter 13" [en])))
+])
+(item[,(bof-ref "paix_et_liberte" [Paix et liberté ou le budget républicain])
+])
+(item[,(bof-ref "impot_des_boissons" [Discours sur l'impôt des boissons])
+]))])
+(item[
+,(tag :a :name "harmonies")
+,(strong(bof-ref "harmonies" [Harmonies Économiques])) (1850)
+	,(trad
+	  '((:elb "basHartoc" [en])))
+,(itemize
+(item[Introduction. ,(bof-ref "a_la_jeunesse_francaise" [À la jeunesse française])
+	,(trad
+	  '((:elb- "basHar0" "To the Youth of France" [en])))
+])
+(item[I. ,(bof-ref "organisation" [Organisation naturelle, organisation artificielle])
+	,(trad
+	  '((:elb "basHar1" [en])))
+])
+(item[II. ,(bof-ref "besoins_efforts_satisfactions" [Besoins, efforts, satisfactions])
+	,(trad
+	  '((:elb "basHar2" [en])))
+])
+(item[III. ,(bof-ref "des_besoins_de_l_homme" [Des besoins de l'homme])
+	,(trad
+	  '((:elb "basHar3" [en])))
+])
+(item[IV. ,(bof-ref "echange" [Échange])
+	,(trad
+	  '((:elb "basHar4" [en])))
+])
+(item[V. ,(bof-ref "de_la_valeur" [De la valeur])
+	,(trad
+	  '((:elb "basHar5" [en])))
+])
+(item[VI. ,(bof-ref "richesse" [Richesse])
+	,(trad
+	  '((:elb "basHar6" [en])))
+])
+(item[VII. ,(bof-ref "capital" [Capital])
+	,(trad
+	  '((:elb "basHar7" [en])))
+])
+(item[VIII. ,(bof-ref "propriete_communaute" [Propriété, communauté])
+	,(trad
+	  '((:elb "basHar8" [en])))
+])
+(item[IX. ,(bof-ref "propriete_fonciere" [Propriété foncière])
+	,(trad
+	  '((:elb "basHar9" [en])))
+])
+(item[X. ,(bof-ref "concurrence" [Concurrence])
+	,(trad
+	  '((:elb "basHar10" [en])
+	    ("http://www.atlas.org.ar/economia/bastiat.asp" [es])))
+])
+(item[,(bof-ref "conclusion_eo_harmonies"
+	[Conclusion de l'édition originale])
+	,(trad
+	  '((:elb "basHar10a" [en])))
+])
+(item[XI. ,(bof-ref "producteur_consommateur" [Producteur, consommateur])
+	,(trad
+	  '((:elb "basHar11" [en])))
+])
+(item[XII. ,(bof-ref "les_deux_devises" [Les deux devises])
+	,(trad
+	  '((:elb "basHar12" [en])))
+])
+(item[XIII. ,(bof-ref "de_la_rente" [De la rente])
+	,(trad
+	  '((:elb "basHar13" [en])))
+])
+(item[XIV. ,(bof-ref "des_salaires" [Des salaires])
+	,(trad
+	  '((:elb "basHar14" [en])))
+])
+(item[XV. ,(bof-ref "de_l_epargne" [De l'épargne])
+	,(trad
+	  '((:elb "basHar15" [en])))
+])
+(item[XVI. ,(bof-ref "de_la_population" [De la population])
+	,(trad
+	  '((:elb "basHar16" [en])))
+])
+(item[XVII. ,(bof-ref "services" [Services privés, service public])
+	,(trad
+	  '((:elb "basHar17" [en])
+	    ("http://www.elcato.org/publicaciones/ensayos/ens-2002-08-09.html" [es])))
+])
+(item[XVIII. ,(bof-ref "causes_perturbatrices" [Causes perturbatrices])
+	,(trad
+	  '((:elb "basHar18" [en])))
+])
+(item[XIX. ,(bof-ref "guerre" [Guerre])
+	,(trad
+	  '((:elb "basHar19" [en])))
+])
+(item[XX. ,(bof-ref "responsabilite" [Responsabilité])
+	,(trad
+	  '((:elb "basHar20" [en])))
+])
+(item[XXI. ,(bof-ref "solidarite" [Solidarité])
+	,(trad
+	  '((:elb "basHar21" [en])))
+])
+(item[XXII. ,(bof-ref "moteur_social" [Moteur social])
+	,(trad
+	  '((:elb "basHar22" [en])))
+])
+(item[XXIII. ,(bof-ref "le_mal" [Le mal])
+	,(trad
+	  '((:elb "basHar23" [en])))
+])
+(item[XXIV. ,(bof-ref "perfectibilite" [Perfectibilité])
+	,(trad
+	  '((:elb "basHar24" [en])))
+])
+(item[XXV. ,(bof-ref "rapports" [Rapports de l'économie politique avec...])
+	,(trad
+	  '((:elb "basHar25" [en])))
+]))])
+(item[,(strong[Correspondance])
+,(itemize
+(item[Lettres à M. Victor Calmètes:
+	,(bof-ref "lettre_calmetes1819" [12 septembre 1819]),
+	,(bof-ref "lettre_calmetes1820a" [5 mars 1820]),...
+])
+(item[Lettre à M. de Fontenay
+	,(trad
+	  '(("http://bastiat.de/bastiat/fontenay.html" [de])))
+]))])
+(item[,(strong[Campagnes électorales])
+,(itemize
+(item[,(bof-ref "pdfe1846"
+	[À Messieurs les électeurs de l'arrondissement de Saint-Séver])
+	(1846) ,(--) un chef d',(oe)uvre.
+	,(trad
+	  '((:boe "electors_1846" [en])))
+])
+(item[,(bof-ref "pdfe1848" [Aux électeurs des Landes]) (1848)
+])
+(item[,(bof-ref "pdfe1849" [À Messieurs Tonnelier, Degos, Bergeron, Camors,
+	Dubroca, Pomède, Fauret, etc.]) (1849).
+]))])
+(item[,(strong[Mélanges])
+,(itemize
+(item[,(bof-ref "lettre_lamartine_1"
+	[Un économiste à M. de Lamartine]) (1845)])
+(item[,(bof-ref "abondance" [Abondance]) (1850)
+]))]))
+[
+Il existe sur la Toile
+	quelques
+	extraits intéressants d',(oe)uvres de Bastiat.
+Ci-dessous ceux que j'ai trouvés
+(veuillez m'envoyer les adresses de ceux que je n'aurais pas trouvé):
+,(itemize
+(item[Cet ,(bof-ref "baccalaureat" [extrait]) de
+	,(q(bof-ref "baccalaureat_et_socialisme" [Baccalauréat et Socialisme]))
+	(1850)
+	,(trad '(("http://membres.tripod.fr/Alex22/f-bastiat.htm" [fr])))
+])
+(item[Cet ,(bof-ref "ex_de_la_valeur" [extrait]) du chapitre V
+	,(q(bof-ref "de_la_valeur" [De la valeur]))
+	des Harmonies Économiques (1850)
+])
+(item[Cet ,(bof-ref "salaires" [extrait initial]) du chapitre XIV
+	,(q(bof-ref "des_salaires" [Des salaires]))
+	des Harmonies Économiques (1850)
+])
+(item[Ce ,(bof-ref "secusoc" [texte prémonitoire sur la sécurité sociale])
+	(aussi extrait de ,(q(bof-ref "des_salaires" [Des salaires])), 1850)
+	,(trad '(("http://www.gie-sml.fr/bastiat.htm" [fr])))
+]))])
+
+(hrule)
+(tag :a :name "images")
+(subtitle [Iconographie])
+(p*[
+Il semble qu'il existe essentiellement
+	deux portraits originaux de Bastiat disponibles numériquement,
+dont diverses variantes sont trouvables sur la Toile.
+Voici des sites proposant des portraits de Bastiat
+(et copies locales de certaines images):
+,(itemize
+(item[
+,(ref :url "http://www.econ.duke.edu/Economists/" [Portraits of Well-Known Economists])
+	à la Duke University
+	(,(ref :url "../pic/bastiat1a.png" [1a]))
+])
+(item[
+,(ref :url "http://www.bus.lsu.edu/economics/links/portrait/portrait.htm" [Portraits of Famous Economists])
+	à l'Université d'État de Louisiane
+	(1b).
+])
+(item[
+,(ref :url "http://perso.wanadoo.fr/patrick.madrolle/economie/" [Un village d'hommes libres]),
+	site que j'apprécie,
+	par Patrick Madrolle et ses amis
+	(,(ref :url "../pic/bastiat1.jpg" [1c])).
+])
+(item[
+,(ref :url "http://www.acton.org/publicat/randl/liberal.php?id=23"
+	[In the liberal tradition]) à l'Acton Institute
+	(,(ref :url "../pic/bastiat3.jpg" [1d])
+	,(--) croquis ,(emph[me semble-t-il]) inspiré du portrait précédent)
+])
+(item[
+,(ref :url "http://cac.psu.edu/~jdm114/#bastiat" [Dead Economists Society]) par John D. McGinnis
+	(,(ref :url "../pic/bastiat2.jpg" [2])
+	,(--) l'image était à l'envers, je l'ai remise à l'endroit)
+]))
+])
+
+(hrule)
+(tag :a :name "ouebe")
+(subtitle [Frédéric Bastiat sur la Toile])
+(p*[
+Je suis toujours à la recherche de bonnes pages
+	sur Frédéric Bastiat disponibles sur la Toile.
+La plupart des innombrables pages sur Bastiat que révèle une recherche ouèbe
+	sont sans intérêt, ou ne renferment qu'une enième copie
+	de La Loi ou un autre essai.
+Cependant, certaines pages apportent vraiment des informations
+	originales sur Bastiat,
+	ou relient son ,(oe)uvre au reste de la tradition libérale.
+J'ai à plusieurs reprises passé un certain temps à éplucher le ouèbe
+	pour l'écrémer avant de compiler la liste suivante.
+Si vous repérez sur la toile d'autres documents électroniques intéressants
+	sur Bastiat ,(ref :url "http://fare.tunes.org/contact.html"
+	[dites-le moi]) en précisant l'URL.
+][
+Les pages suivantes sortent nettement du lot,
+	et apportent sur Bastiat des informations notables:
+,(itemize
+(item[Le site ,(ref :url "http://bastiat.net/" [bastiat.net]) du
+	,(ref :url "http://bastiat.net/fr/cercle/" [Cercle Frédéric Bastiat]),
+	auquel nous sommes associés,
+	y compris sa section
+	,(ref :url "http://bastiat.net/fr/publis/" [publications sur Bastiat]).
+	(Voir aussi sa ,(ref :url "http://bastiat.net/fr/Bastiat2001/" [La conférence Bastiat'2001]).)
+])
+(item[L',(ref :url "http://www.subir.com/bastiat/" [excellente page]) (en anglais) de
+	,(ref :url "http://www.subir.com/" [Subir Grewal]) sur Bastiat,
+	source d'informations intéressantes et parfois inédites
+	(comme cette ,(ref :url "http://www.subir.com/bastiat/bio.html" [note biographique])),
+	y compris une
+	,(ref :url "http://www.subir.com/bastiat/bib.html" [bibliographie]).
+])
+(item[,(ref :url "http://www.euro92.org/edi/bull/archives/arch28bastiat.htm" [L'héritage économique de Frédéric Bastiat]),
+	par Guido Hülsmann (Institut Euro 92, juillet 2001).
+])
+(item[Cet ,(ref :url "http://www.mises.org/fredericbastiat.asp" [article])
+	(en anglais) de Thomas J. Dilorenzo à
+	l',(ref :url "http://www.mises.org/"
+		[Institut Ludwig von Mises])
+	sur l'influence de F.B. sur l'école autrichienne.
+])
+(item[La ,(ref :url "http://www.econlib.org/" [Library of Economics and Liberty]),
+	publie
+	,(ref :url "http://www.econlib.org/library/classics.html#bastiat" [les traductions de Bastiat vers l'anglais]) par la
+	,(ref :url "http://www.fee.org/" [FEE])
+	(individuellement listés ci-dessus;
+	voir aussi les
+	,(elb-ref "BastiatBio" [textes préliminaires])),
+	ainsi qu'une
+	,(elb-ref "BastiatBib" [Bibliographie annotée]).
+	D'autres grands classiques du libéralisme y sont aussi disponibles.
+])
+(item[Le site de ,(ref :url "http://herve.dequengo.free.fr" [Hervé de Quengo])
+	publie en français de nombreux articles d'autres auteurs libéraux,
+	dont quelques uns sur Bastiat.
+])
+(item[Ce ,(bof-ref "guillaumat_bastiat" [compte-rendu de lecture])
+	 par François Guillaumat
+	 est aussi ,(ref :url "http://membres.lycos.fr/mgrunert/bastiat.htm"
+			 [disponible])
+	 chez ,(ref :url "http://membres.lycos.fr/mgrunert/" [Marc Grunert]).
+])
+(item[Last but not least,
+	le site ,(ref :url "http://bastiat.de/" [Bastiat.de]), quoique réservé aux germanophones,
+	est d'une excellente qualité,
+	notamment par les précisions érudites qu'il donne
+	sur le contexte historique de l',(oe)uvre de Bastiat.
+]))
+][
+Les pages suivantes,
+sans apporter d'information nouvelle sur Bastiat lui-même
+par rapport à ce qui précède,
+présentent néanmoins un intérêt de par les liens qu'elles tissent:
+,(itemize
+(item[En français,
+,(itemize
+(item[,(ref :url "http://www.uqac.uquebec.ca/zone30/Classiques_des_sciences_sociales/livres/bastiat_frederic/bastiat_frederic.html" [Bastiat])
+	parmi les
+,(ref :url "http://www.uqac.uquebec.ca/zone30/Classiques_des_sciences_sociales/" [Classiques des sciences sociales])
+	de l',(ref :url "http://www.uqac.uquebec.ca/" [université de Québec à Chicoutimi]).
+])
+(item[,(ref :url "http://phare.univ-paris1.fr/bvcatac.html#Bastiat" [Bastiat])
+	dans la
+	,(ref :url "http://phare.univ-paris1.fr/textes.html" [Bibliothèque Virtuelle])
+	du
+	,(ref :url "http://phare.univ-paris1.fr/" [PHARE])
+	(,(ref :url "http://fare.tunes.org/books/chpe.html" [accès universel])).
+])
+(item[Cet intéressante ,(ref :url "http://www.univ-st-etienne.fr/creuset/personnel/SolalTXT5.html" [analyse par P. Solal et A. Zouache])
+	du rôle de la raison dans l',(oe)uvre de Bastiat.
+	(Quant à moi, je pense que
+	,(ref :url "http://www.hayekcenter.org/friedrichhayek/hayek.html" [F.A. Hayek]),
+	dans ,(q[Law, Legislation and Liberty]),
+	a mieux que quiconque élucidé le rôle de la raison dans la
+	pensée économique.)
+])
+(item[Dans mon journal préféré,
+	,(ref :url "http://www.quebecoislibre.org/" [Le Québécois Libre]),
+	par un de mes auteurs favoris, Pierre Desrochers,
+	,(ref :url "http://www.quebecoislibre.org/010609-3.htm" [Frédéric Bastiat, un économiste à redécouvrir]).
+])
+(item[Depuis
+	l',(ref :url "http://www.iedm.org/" [Institut Économique de Montréal]):
+	Par Michel Kelly-Gagnon,
+	,(ref :url "http://www.iedm.org/library/art103_fr.html" [Récession: l'État comme planche de salut?
+	Non, l'économie ne peut pas être relancée par des dépenses publiques
+	,(--) La Presse, 17 octobre 2001, p. A-21.])
+	ou
+	,(ref :url "http://www.iedm.org/chronique/gagnon36_fr.html" [Bastiat, le Adam Smith francophone
+	,(--) Les Affaires, 18 mai 2002, p. 12.])
+])
+(item[,(q[,(ref :url "claude.bordes.html" [Frédéric Bastiat, un économiste politique et social])]),
+	par Claude Bordes.
+])
+(item[Un ,(ref :url "http://www.ifrance.com/catallaxia/Auteurs/bastiat.html" [article sur F.B.]) dans
+	,(ref :url "http://www.catallaxia.org" [Catallaxia]).
+])
+(item[Cet ,(ref :url "http://www.soreze.com/galerie.htm#bastiat" [hommage])
+	rendu par le collège de Sorèze à son ancien élève.
+])
+(item[De
+	,(ref :url "http://www.dallasfed.org/htm/dallas/mcteer2.html" [Bob McTeer]),
+	ce ,(ref :url "http://www.iedm.org/library/mcteer_fr.html" [discours])
+	,(inbracket(ref :url "http://www.iedm.org/library/mcteer_en.html" [VO])),
+	ou encore ceux-ci (en anglais, parmi tant d'autres):
+	,(ref :url "http://www.dallasfed.org/htm/dallas/rhyme/dbr1994.html" [1]),
+	,(ref :url "http://www.dallasfed.org/htm/dallas/speeches/092100.html" [2]).
+])
+(item[Bastiat ,(ref :url "http://www.google.com/search?hl=en&lr=&ie=UTF-8&q=+site:www.libres.org+bastiat" [apparaît souvent]) sur site libéral de Jacques Garello,
+	,(ref :url "http://www.libres.org" [libres.org]).
+	On y trouve notamment
+,(ref :url "http://www.libres.org/francais/argumentaire/madelin.htm" [cet article de Madelin]), ou
+	,(ref :url "http://www.libres.org/francais/universite_d_ete/bastiat_2001/sommaire_2001.htm" [l'université d'été 2001]) consacrée à Bastiat
+	(page à ,(ref :url "http://www.ieseurope.asso.fr/theme 2001 vf.htm" [IES Europe])).
+	Édité par Jacques Garello, voir aussi le livre ,(q[Aimez-vous Bastiat?]).
+])
+(item[À titre de référence nostalgique,
+	mon ,(ref :url "http://www.eleves.ens.fr:8080/cof/bocal/1993-1996/BOcal_189.html#HARMONIES" [premier article sur Bastiat]),
+	dans le ,(ref :url "http://www.eleves.ens.fr/cof/bocal/" [BOcal]),
+	peu après l'avoir découvert, en mai 1996.
+])
+(item[,(ref :url "http://www.panarchy.org/" [panarchy.org])
+	publie des articles passionnants, dont certains de Bastiat.
+,(XXX [ Non sélectionné:
+,(item[Page d',(ref :url "http://perso.club-internet.fr/aleric/bastiat.htm" [Aleric]) sur FB, collection de pointeurs
+	sur une vieille version de ma page.
+])
+,(item[Cette ,(ref :url "http://www.godf.org/decouv2.htm" [Lettre de l'IDERM])
+	contenant un court filet sur un article sur Bastiat.
+Frédéric Bastiat et le cercle maçonnique bayonnais, par Jean Crouzet
+dans Le Maillon n° 60, novembre 1997.
+Frédéric Bastiat (1801-1850) est l'une des figures
+de l'économie politique libérale et de la théorie du libre-échange.
+Cette étude approfondie fait le point sur le milieu maçonnique
+qu'il fréquentait et son engagement au sein de
+la Respectable Loge La Zélée (Orient de Bayonne).
+])])
+]))])
+(item[Dans d'autres langues,
+,(itemize
+(item[,(inbracket[en])
+,(emph[Il y a de très nombreuses informations en anglais,
+	indexées depuis
+	,(ref :url "http://bastiat.org/en/"
+		[la version anglaise de cette page])]).
+,(XXX [
+,(item[,(inbracket[bg])
+En bulgare,
+	,(ref :url "http://www.easibulgaria.org/sofizmi.php" [cette page de l'EASI]).
+])])
+])
+(item[,(inbracket[de])
+,(ref :url "http://bastiat.de/" [Bastiat.de]),
+	rendez-vous indispensable
+	des amateurs germanophones des textes de Bastiat.
+	Pour d'autres auteurs du même acabit,
+	consulter ,(ref :url "http://richard-cobden.de/" [Richard-Cobden.de])
+	et ,(ref :url "http://www.mises.de/" [Mises.de]).
+])
+(item[,(inbracket[es])
+En espagnol, visitez
+	,(ref :url "http://bastiat.org/es/" [la version espagnole de cette page]).
+])
+(item[,(inbracket[is])
+,(ref :url "http://www.andriki.is/" [Andriki.is])
+	publie Bastiat en islandais.
+])
+(item[,(inbracket[it])
+En italien,
+	,(ref :url "http://www.venet.net/libertarissima/" [libertarissima]).
+	Voir aussi
+	,(ref :url "http://www.libertari.org/" [libertari]),
+	,(ref :url "http://digilander.libero.it/secedo/alb_mingardi.htm" [Alberto Mingardi])
+	(dont
+	,(ref :url "http://digilander.iol.it/biblioego/bastbic.htm" [cet article])).
+])
+(item[,(inbracket[pl])
+Bastiat ,(ref :url "http://www.ilk.lublin.pl/bastiat/bast00.htm" [publié en polonais]) sur le site de
+	l',(ref :url "http://www.ilk.lublin.pl/" [ILK])
+	(les amateurs aimeront peut-être aussi
+	,(ref :url "http://www.libertarianizm.pl/" [libertarianizm.pl])).
+,(XXX [
+,(item[,(inbracket[pt])
+http://oindividuo.com/alvaro/alvaro67.htm
+,(inbracket[sk]) ?
+http://www.prave-spektrum.sk/print.php?67
+])])
+])
+(item[,(inbracket[se])
+,(ref :url "http://www.frihandel.nu/fredericbastiat.asp" [Frihandel.nu])
+	publie Bastiat en suédois;
+	en suédois, voir aussi
+	,(ref :url "http://www.liberalismen.com/bastiat.shtml"
+	      [liberalismen.com]).
+]))]))])
+
+(hrule)
+(tag :a :name "bois_mort")
+(subtitle [Éditions imprimées])
+(p*[
+Si vous appréciez cet auteur,
+	vous pouvez aussi tenter de vous procurer
+	des exemplaires imprimés de ses ,(oe)uvres.
+][
+,(leter) est en train de
+,(leter-ref "Fr%8Ed%8Eric Bastiat sommaire"
+	[rééditer les ,(oe)uvres complètes])
+	de Frédéric Bastiat,
+	dans l'ordre chronologique,
+	et avec de nouveaux commentaires.
+	464 volumes en tout, 12 volumes par an, sur 38 ans (!).
+	Abonnement: 380 FRF pour 12 volumes.
+	Les textes publiés sont aussi librement disponibles sur l'Internet,
+	aussi vous enjoins-je à encourager cette action en vous abonnant.
+	L'édition prend cependant du retard,
+	3 volumes seulement étant présentement sortis la première année.
+][
+À part ces ,(oe)uvres complètes en cours de lente réédition,
+les seules éditions papier commercialement disponibles
+	d',(oe)uvres de Bastiat dans leur version française originale
+	sont les suivantes:
+]
+(itemize
+(item[Chez ,(ref :url "http://www.romillat.fr/fr/voit.html" [Romillat]),
+	,(strong[,(q[Ce qu'on voit et ce qu'on ne voit pas])]),
+	Choix de sophismes et de pamphlets économiques,
+	Frédéric Bastiat,
+	255 pages, format poche 11 x 18 broché,
+	Paris, janvier 1994,
+ 	ISBN 2-87894-004-0,
+	Prix: 10 EUR.
+,(br)
+	,(underline[Table des matières]):
+	Table ronde;
+	,(bof-ref "sur_bastiat" [Notice sur la vie et les écrits de Frédéric Bastiat]),(pv)
+	Mélanges:
+	,(bof-ref "recettes_protectionnistes" [Recettes protectionnistes]),
+	,(bof-ref "1profit_2pertes" [Un profit contre deux pertes]),
+	,(bof-ref "2pertes_1profit" [Deux pertes contre un profit]),
+	,(bof-ref "midi_a_quatorze_heures" [Midi à quatorze heure]),
+	,(bof-ref "ministere_introuvable"
+	[Circulaires d'un ministère introuvable]),
+	,(bof-ref "les_deux_haches" [Les deux haches]),
+	,(bof-ref "petition" [Pétition des fabricants de chandelles]),
+	,(bof-ref "droits_differentiels" [Droits différentiels]),
+	,(bof-ref "immense_decouverte" [Immense découverte!!!]),
+	,(bof-ref "laissez_faire" [Laissez faire]),
+	,(bof-ref "reciprocite" [Réciprocité]),
+	,(bof-ref "la_main_droite_et_la_main_gauche"
+	      [La main droite et la main gauche]),
+	,(bof-ref "thtn" [Travail humain, travail national]),
+	,(bof-ref "laissez_faire" [Laissez faire]),
+	,(bof-ref "p5r4" [Prendre cinq et rendre quatre]),
+	,(bof-ref "propriete_et_loi" [Propriété et Loi]),
+	,(bof-ref "la_loi" [La loi]),
+	,(bof-ref "cqovecqonvp" [Ce qu'on voit et ce qu'on ne voit pas]),
+	,(bof-ref "services" [Services privés, service public]).
+])
+(item[Chez les ,(ref :url "http://www.puf.com/livres/fiches/22404269_pre.htm"
+		     [PUF]),
+	,(strong[,(q[,(OE)uvres économiques])]), Frédéric Bastiat,
+	Collection ,(q[Libre échange]),
+	textes choisis par Florin Aftalion,
+	224 pages, 15 x 22 cm,
+	Paris, Février 1983,
+	ISBN 2-13037-861-7, Prix: 17.99 EUR.
+,(br)
+	,(underline[Table des matières]):
+	Introduction, par Florin Aftalion;
+	,(bof-ref "sur_bastiat" [Notice sur la vie et les écrits de Frédéric Bastiat]),
+	,(bof-ref "ex_tarifs_fr_ang" [Des tarifs français et anglais... (extrait)]),
+	,(bof-ref "association_libre_echange" [Association pour la liberté des échanges]),
+	,(bof-ref "angleterre_et_libre_echange" [L'Angleterre et le libre-échange]),
+	,(bof-ref "balance_du_commerce" [Balance du commerce]),
+	,(bof-ref "les_deux_haches" [Les deux haches]),
+	,(bof-ref "immense_decouverte" [Immense découverte!!!]),
+	,(bof-ref "cqovecqonvp" "theatres_beaux_arts" [Théâtres, Beaux-Arts]),
+	,(bof-ref "cqovecqonvp" "travaux_publics" [Travaux publics]),
+	,(bof-ref "petition" [Pétition]),
+	,(bof-ref "abondance_disette" [Abondance, disette]),
+	,(bof-ref "justice_fraternite" [Justice et Fraternité]),
+	,(bof-ref "lettre2" [Deuxième Lettre]),
+	,(bof-ref "salaires" [Des salaires]),
+	,(bof-ref "la_loi" [La loi]),
+	,(bof-ref "ex_de_la_valeur" [De la valeur (extrait)]),
+	,(bof-ref "services" [Services privés, service public]).
+])
+(item[Au ,(ref :url "http://bastiat.net/" [Cercle Frédéric Bastiat]),
+	40320 Saint-Loubouer,
+	,(strong(q[l'État])),
+	Frédéric Bastiat,
+	12 pages,
+	Format A5,
+	broché,
+	Saint-Loubouer, 2001.
+	Prix: 1 EUR.
+,(br)
+	Contient
+	,(bof-ref "l_Etat" [l'État])
+	et des informations sur l'époque du pamphlet et sur le Cercle.
+	Le Cercle Frédéric Bastiat publie de même d'autres petits fascicules:
+	,(bof-ref "propriete_et_loi" (strong(q[Propriété et Loi]))),
+	,(bof-ref "pdfe1846" (strong(q[À Messieurs les électeurs
+		de l'arrondissement de Saint-Séver]))),
+	,(bof-ref "justice_fraternite" (strong(q[Justice et Fraternité]))), et
+	,(bof-ref "la_loi" (strong(q[La loi]))).
+])
+(item[L',(ref :url "http://www.iedm.org/" [IEDM]) (Institut Économique De Montréal)
+	a publié en mai 2002 un fascicule
+	,(strong(ref :url "http://www.iedm.org/etudes/etude16_fr.html" (q[Frédéric Bastiat: défenseur du bon sens économique]))).
+	Prix: 16 CAD (port compris).
+,(br)
+	,(underline[Table des matières]):
+	Avant-Propos; Introduction par Bob McTeer;
+	,(bof-ref "cqovecqonvp" [Ce qu'on voit et ce qu'on ne voit pas])
+	(extraits: ,(bof-ref "cqovecqonvp" "introduction" [introduction])
+	et parties ,(bof-ref "cqovecqonvp" "vitre_cassee" [I]),
+	,(bof-ref "cqovecqonvp" "travaux_publics" [V]),
+	,(bof-ref "cqovecqonvp" "les_machines" [VIII]),
+	,(bof-ref "cqovecqonvp" "credit" [IX]) parmi douze),
+	,(bof-ref "abondance_disette" [Abondance, disette]),
+	,(bof-ref "petition" [Pétition des fabricants de chandelles, etc.]),
+	,(bof-ref "conte_chinois" [Conte chinois]),
+	,(bof-ref "autre_chose" [Autre chose]).
+])
+(item[Chez ,(ref :url "http://www.slatkine.com/" [Slatkine]),
+	,(strong(q[Harmonies économiques])) (1851),
+	Frédéric Bastiat,
+	567 pages,
+	Format in-8,
+	relié en 1 volume,
+	Genève, janvier 1982,
+	Prix: 120 CHF HT.
+,(br)
+	Contient
+	les ,(ref :url "#harmonies" [Harmonies Économiques]),
+	dans leur édition originale de 1851.
+	Cette édition est essentiellement identique
+	quant à son contenu au tome VI de l'édition Guillaumin
+	de 1854 des ,(OE)uvres Complètes de F.B.
+	,(XXX[
+	Résumer ici le message d'Hervé quant à cette édition.
+	])
+]))
+[
+Ces éditions sont difficiles à trouver,
+	à moins de les commander chez l'éditeur,
+		directement ou via un détaillant.
+Quelques soient leurs qualités,
+	elles sont partielles, et chacune possède à la fois
+	de nombreux textes communs avec les autres,
+		ce qui décourage d'en acquérir plusieurs,
+	et aussi de nombreux textes intéressants que n'ont pas les autres,
+		ce qui fait regretter de ne pas les avoir.
+Il existe aussi des éditions anciennes voire originales,
+	disponibles à prix d'or et en fort peu d'exemplaires
+		auprès d'antiquaires spécialisés
+(i.e. autour de FRF 3500 chez un libraire antiquaire parisien
+pour les ,(OE)uvres Complètes édition in-4,
+ou FRF 6800 pour une édition in-8,
+estimations téléphoniques en juillet 2000).
+Cela dit, s'il y a un texte en particulier qui vous intéresse dans
+,(bof-ref "guillaumin" [l'édition originale Guillaumin]),
+je me ferai un plaisir de le scanner pour vous
+à partir de mon exemplaire chèrement acquis de ladite édition.
+,(XXX [ FRF 3800 plus 223F de taxes d'importation(!) pour une édition in-8
+auprès d'un libraire suisse ])
+][
+Quant au fonds publiquement disponible (en 1997),
+	il n'y a qu'un seul exemplaire
+		d'une seule de ces éditions
+		(la Romillat,
+		riche en coquilles,
+		quoique censément conforme à l'édition de 1854
+		d'où ces coquilles ont été photographiquement copiées),
+	dans l'ensemble des bibliothèques municipales parisiennes;
+	dans celles de Nice, il n'y a aussi qu'un unique exemplaire,
+		de la même édition,
+		qui est consultable, mais non pas empruntable.
+	Je doute que la situation soit meilleure
+		dans les autres villes de France
+		(merci de me détromper).
+	(On me signale que la bibliothèque de Montpellier possède les
+	,(oe)uvres complètes, consultables hors prêt.)
+][
+Si vous préférez la langue anglaise
+	(ce dont je doute, puisque vous lisez cette phrase),
+	vous pouvez aisément vous procurer
+	des exemplaires sur papier de traductions de ses ,(oe)uvres,
+en les commandant sur chez l'éditeur libertarien
+	,(ref :url "http://www.laissezfaire.org/bastiat.cfm"
+	      [Laissez-Faire Books]),
+voire directement auprès de la ,(ref :url "http://www.fee.org/" [FEE])
+qui a produit la traduction moderne de Bastiat,
+ou chez votre votre libraire électronique habituel.
+Nous vous invitons cependant au
+	,(ref :url "http://www.noamazon.com/" [boycott d'Amazon]).
+][
+Le besoin d'une édition électronique en français des ,(oe)uvres de Bastiat
+	est donc fort pressant,
+et je me propose d'héberger ici
+	toutes les ,(oe)uvres de Bastiat qui me parviendront
+	(et de pointer vers les traductions dont on me donnera l'adresse).
+Si vous souhaitez participer, rendez-vous sur
+	,(bof-ref "numerisation" [notre page ,(q[numérisation])]).
+][
+Voir notre ,(ref :url "../en/" [page en anglais])
+pour les éditions en langue anglaise, bien plus fournies,
+y compris une réédition sur microfiches des traductions originales!
+Je n'ai pas d'information particulière 
+sur les nombreuses éditions en d'autres langues d',(oe)uvres de Bastiat.
+][
+Non pas de Bastiat, mais sur Bastiat,
+voir les bibliographies sur Bastiat.net,
+,(ref :url "http://bastiat.net/fr/publis/" [en français]) et
+,(ref :url "http://bastiat.net/en/about/" [en anglais]).
+])
+
+(hrule)
+(tag :a :name "pointeurs")
+(subtitle [Quelques pointeurs])
+(p*[
+Si vous avez apprécié l',(oe)uvre de Frédéric Bastiat,
+	peut-être serez-vous intéressés par les pages suivantes:
+]
+(itemize
+(item[La section
+	,(ref :url "http://bastiat.net/fr/" [francophone]) de
+	,(ref :url "http://bastiat.net/" [bastiat.net]).
+])
+(item[La ,(bof-ref "forum" [liste de diffusion]) francophone
+	,(ref :url "http://bastiat.net/archive_bastiat-fr.html" [bastiat-fr])
+	et son pendant anglophone
+	,(ref :url "http://lists.tunes.org/mailman/listinfo/bastiat-fans" [bastiat-fans])
+])
+(item[Autres grands classiques à chercher sur la toile:
+	,(ref :url "http://herve.dequengo.free.fr/Molinari/Molinari.htm" [Gustave de Molinari]),
+	,(ref :url "http://www.mises.org/mises.asp" [Ludwig von Mises]),
+	,(ref :url "http://www.freespeaker.org/aboutfee/leonardread.html" [Leonard Read]),
+	,(ref :url "http://www.hayekcenter.org/" [Friedrich A. Hayek]),
+	,(ref :url "http://www.hazlitt.org/" [Henry Hazlitt]),
+	,(ref :url "http://www.rothbard.org/mnr.asp" [Murray Rothbard])...
+])
+(item[Économistes avec une page ouèbe:
+	,(ref :url "http://www.lemennicier.com/" [Bertrand Lemennicier]),
+	,(ref :url "http://www.gmu.edu/departments/economics/bcaplan/" [Bryan Caplan]),
+	,(ref :url "http://www.pierrelemieux.org/" [Pierre Lemieux]),
+	,(ref :url "http://www.daviddfriedman.com/" [David D. Friedman]),...
+])
+(item[Mes collaborateurs pour bastiat.org et leurs pages:
+	,(cbalanca), ,(loic), ,(andre), ,(fguerinet), ,(krylenko),
+	,(JML), ,(belem), ,(leter), ,(pmadrolle),
+	,(frk.paris), ,(bruno) et ,(cvincent)
+	(francophones),
+	mais aussi
+	,(ref :url "http://www.ConservativeBeacon.com/" [Michael Koller])
+	et ,(ref :url "http://www.subir.com/" [Subir Grewal]) (anglophones).
+])
+(item[Pages miennes:
+	,(itemize
+	(item[Ma page sur les ,(ref :url "http://fare.tunes.org/books/" [Libres Livres]).
+])
+	(item[Ma page sur ,(ref :url "http://fare.tunes.org/liberalisme/" [le Libéralisme, le vrai])
+		(voir aussi ces
+		,(ref :url "http://fare.tunes.org/articles/liberalisme.html#pointeurs" [pointeurs])).
+])
+	(item[D'autres
+		,(ref :url "http://fare.tunes.org/reading.html" [lectures (en général) que je recommande]).
+])
+	(item[Ma ,(ref :url "http://fare.tunes.org/" [page personnelle]).
+	]))])
+(item[Sur l'élaboration de ce site:
+,(itemize
+(item[
+,(ref :url "http://www.hertgen.com/anybrowser.html" [Optimisé pour n'importe quel navigateur])
+])
+(item[,(ref :url "http://burnallgifs.org/" [Burn All GIFs!])
+])
+(item[,(ref :url "http://fare.tunes.org/libre-logiciel.html" [Le Libre Logiciel])
+]))])
+(item[,(small[À rajouter sur cette page:
+,(ref :url "http://www.ibastiat.com/" [iBastiat.com]) (bientôt sur vos écrans);
+,(ref :url "http://www.marxists.org/francais/marx/works/1868/07/km18680711.htm" [Marx sur Bastiat]),(pv)
+,(ref :url "http://www.groupe-auffray.com/fr/actualites.html" [Club du 5 rue Frédéric Bastiat]),(pv)
+,(ref :url "http://www.institutmolinari.org/" [Institut Molinari]),(pv)
+,(ref :url "http://www.bastiatstichting.nl/" [Bastiat Stichting]),(pv)
+	...
+])])))
+(tag :address
+(tag :p :align 'right
+     (ref :url [mailto:webmaster,(at)bastiat.org]
+	  [Soviet de préservation des ,(oe)uvres de Frédéric Bastiat]))))

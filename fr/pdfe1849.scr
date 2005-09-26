@@ -1,0 +1,170 @@
+; -*- Scheme -*-
+; $Id: pdfe1849.scr,v 1.2 2003/03/13 13:49:50 fare Exp $
+(style 'bo-style)
+(in-bof :title "Profession de foi électorale de 1849
+	- par Frédéric Bastiat")
+(document :title "Profession de foi électorale de 1849"
+	:author author-FB
+(p*[
+,(strong[À Messieurs Tonnelier, Degos, Bergeron, Camors,
+Dubroca, Pomède, Fauret, etc.]) ,(XXX)
+][
+Mes amis,
+][
+Merci pour votre bonne lettre.
+Le pays peut disposer de moi comme il l'entendra;
+votre persévérante confiance me sera un encouragement... ou une consolation.
+][
+Vous me dites qu'on me fait passer pour ,(emph[socialiste]).
+Que puis-je répondre? Mes écrits sont là.
+À la doctrine Louis Blanc n'ai-je pas opposé
+	,(bof-ref "propriete_et_loi" (cite-title[Propriété et Loi])),(pv)
+à la doctrine Considérant,
+	,(XXX :bof-ref "propriete_et_spoliation")
+	,(cite-title[Propriété et Spoliation]),(pv)
+à la doctrine Leroux,
+	,(bof-ref "justice_fraternite"
+		(cite-title[Justice et Fraternité])),(pv)
+à la doctrine Proudhon,
+	,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),(pv)
+au comité Mimerel,
+	,(bof-ref "protectionisme_et_communisme"
+		  (cite-title[Protectionnisme et Communisme])),(pv) ,(XXX)
+au papier-monnaie,
+	,(bof-ref "maudit_argent" (cite-title[Maudit Argent])),(pv)
+au manifeste Montagnard,
+	,(bof-ref "l_Etat" (cite-title[L'État]))
+,(--) Je passe ma vie à combattre le socialisme.
+Il serait bien douloureux pour moi qu'on me rendît cette justice partout,
+	excepté dans le département des Landes.
+][
+On a rapproché mes votes de ceux de ,(emph[l'extrême gauche]).
+Pourquoi n'a-t-on pas signalé aussi les occasions ,(XXX)
+	où j'ai voté avec ,(emph[la droite])?
+][
+Mais me direz-vous,
+comment avez-vous pu vous trouver alternativement dans deux camps si opposés?
+Je vais m'expliquer.
+][
+Depuis un siècle, les partis prennent beaucoup de noms, beaucoup de prétextes;
+au fond, il s'agit toujours de la même chose:
+la lutte des pauvres contre les riches.
+][
+Or, les pauvres demandent ,(emph[plus]) que ce qui est juste
+et les riches refusent ,(emph[même]) ce qui est juste.
+Si cela continue, ,(emph[la guerre sociale]),
+	dont nos pères ont vu le premier acte en 93,
+	dont nous avons le second acte en juin,
+,(--) cette guerre affreuse et fratricide n'est pas près de finir.
+Il n'y a de conciliation possible que sur le terrain de la ,(emph[justice]),
+en tout et pour tous.
+][
+Après février, le peuple a mis en avant
+	une foule de prétentions iniques et absurdes,
+	mêlées à des réclamations fondées.
+Que fallait-il pour conjurer la guerre sociale?
+Deux choses:
+,(XXX)
+][
+1° Réfuter comme écrivain,
+	repousser comme législateur
+	les prétentions iniques;
+][
+2° Appuyer comme écrivain,
+	admettre comme législateur
+	les réclamations fondées.
+][
+C'est la clef de ma conduite.
+][
+Au premier moment de la révolution,
+	les espérances populaires étaient très éxaltées
+	et ne connaissaient pas de limites,
+	même dans notre département;
+et rappelez-vous qu'on ne me trouva pas assez ,(emph[rouge]).
+C'était bien pis à Paris;
+les ouvriers étaient organisés, armés, maîtres du terrain,
+	à la merci des plus fougueux démagogues.
+][
+Le début de l'Assemblée nationale dut être une ,(oe)uvre de résistance.
+Elle se concentra surtout dans le ,(emph[Comité des finances]),
+composé d'hommes appartenant à la classe riche.
+Résister aux exigences folles et subversives,
+repousser
+	l'impôt progressif,
+	le papier-monnaie,
+	l'accaparement de l'industrie privée ,(XXX) par l'État,
+	la suspension des dettes nationales,
+telle fut sa laborieuse tâche.
+J'y ai pris ma part;
+et je vous le demande, Citoyens, ,(XXX)
+si j'avais été ,(emph[socialiste]),
+ce comité m'aurait-il appelé huit fois de suite à la vice-présidence?
+][
+Une fois l',(oe)uvre de ,(emph[résistance]) accomplie,
+restait à réaliser l',(oe)uvre de ,(emph[réforme]),
+à l'occasion du budget de 1849.
+Que de taxes mal réparties à modifier!
+Que d'entraves à supprimer!
+Car enfin, cette ,(emph[conscription]) (appelée depuis recrutement),
+impôt de sept ans de vie, ,(emph[tiré au sort])!
+,(emph[Ces droits réunis]) (appelés aujourd'hui contributions indirectes),
+	impôt ,(emph[progressif à rebours]),
+	puisqu'il frappe en proportion de la misère;
+ne sont-ce pas là ,(emph[des griefs fondés]) de la part du peuple?
+Après les journées de juin, quand l'anarchie a été vaincue,
+l'Assemblée nationale a pensé que le temps était venu
+	d'entrer résolument, spontanément,
+dans cette voie de réparation commandée par l'équité et même par la prudence.
+][
+Le ,(emph[Comité des finances]), par sa composition,
+	était moins disposé à cette seconde tâche qu'à la première.
+De nouveaux éléments s'y étaient introduits par les élections partielles,
+	et l'on y entendait dire à chaque instant:
+Loin de modifier les taxes, nous serions bien heureux
+	si nous pouvions rétablir les choses
+		absolument comme elles étaient avant février.
+][
+C'est pourquoi l'Assemblée confia à une commission de trentes membres
+	le soin de préparer le budget.
+Elle chargea une autre commission de mettre l'impôt des boissons
+	en harmonie avec les principes
+		avec les principes de liberté et d'égalité
+			inscrits dans la Constitution.
+J'ai fait partie des deux;
+	et autant j'avais été ardent à repousser les exigences utopiques,
+	autant je l'ai été à réaliser de justes réformes.
+][
+Il serait trop long de dire
+	comment les bonnes intentions de l'assemblée ont été paralysées.
+L'histoire le dira.
+Mais vous pouvez comprendre ma ligne de conduite.
+Ce qu'on me reproche, c'est précisément ce dont me j'honore.
+Oui, j'ai voté avec la droite contre la gauche,
+	quand il s'est agi de résister au débordement
+		des fausses idées populaires.
+Oui, j'ai voté avec la gauche contre la droite,
+	quand les légitimes griefs de la classe pauvre et souffrante
+		ont été méconnus.
+][
+Il se peut que par là, je me sois aliéné les deux partis,
+	et que je reste écrasé au milieu.
+N'importe. J'ai la conscience d'avoir été fidèle à mes engagements,
+	logique, impartial, juste, prudent, maître de moi-même.
+Ceux qui m'accusent se sentent, sans doute, la force de mieux faire.
+S'il en est ainsi, que le pays les nomme à ma place.
+Je m'efforcerai d'oublier que j'ai perdu sa confiance,
+en me rappelant que je l'ai obtenue une fois;
+et ce n'est pas un léger froissement d'amour-propre
+	qui effacera la profonde reconnaissance que je lui dois.
+][
+Je suis, mes chers Compatriotes, votre dévoué.
+][
+    Frédéric Bastiat ,(XXX)
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863), tome I, pp. 507-510.
+][
+Ce texte a été numérisé par ,(cvincent),
+relu et édité par ,(FRR) pour ,(Bastiat.org).
+])))

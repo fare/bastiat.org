@@ -1,0 +1,2975 @@
+; -*- Scheme -*-
+; $Id: de_la_valeur.scr,v 1.12 2004/11/15 09:51:36 fare Exp $
+(style 'bo-style)
+(in-bof)
+
+(document :title "De la valeur"
+	:author author-FB
+(subtitle [Chapitre V des ,(HarmoniesEconomiques)])
+(p*[
+Dissertation, ennui.
+,(--) Dissertation sur la Valeur, ennui sur ennui.
+][
+Aussi quel novice écrivain, placé en face d'un problème économique,
+n'a essayé de le résoudre,
+abstraction faite de toute définition de la valeur?
+][
+Mais il n'aura pas tardé à reconnaître combien ce procédé est insuffisant.
+La théorie de la Valeur est à l'économie politique
+ce que la numération est à l'arithmétique.
+Dans quels inextricables embarras ne se serait pas jeté Bezout,
+si, pour épargner quelque fatigue à ses élèves,
+il eût entrepris de leur enseigner les quatre règles et les proportions,
+sans leur avoir préalablement expliqué
+la valeur que les chiffres empruntent à leur figure ou à leur position?
+][
+Si encore le lecteur pouvait pressentir
+les belles conséquences qui se déduisent de la théorie de la valeur!
+Il accepterait l'ennui de ces premières notions,
+comme on se résigne à étudier péniblement les éléments de la géométrie,
+en vue du magnifique champ qu'ils ouvrent à notre intelligence.
+][
+Mais cette sorte de prévision intuitive n'est pas possible.
+Plus je me donnerai de soin pour distinguer la Valeur,
+soit de l'Utilité, soit du Travail,
+pour montrer combien il était naturel
+que la science commençât par trébucher à ces écueils,
+plus, sans doute, on sera porté à ne voir dans cette délicate discussion
+que de stériles et oiseuses subtilités,
+bonnes tout au plus à satisfaire la curiosité des hommes du métier.
+][
+Vous recherchez laborieusement, me dira-t-on,
+si la richesse est dans l'utilité des choses,
+ou dans leur valeur ou dans leur rareté.
+N'est-ce pas une question, comme celle de l'école:
+La forme est-elle dans la substance ou dans l'accident?
+Et ne craignez-vous pas qu'un Molière de carrefour
+ne vous expose aux risées du public des Variétés?
+][
+Et cependant, je dois le dire:
+au point de vue économique, Société c'est Échange.
+La première création de l'échange, c'est la notion de ,(emph[valeur]),
+en sorte que toute vérité ou toute erreur
+introduite dans les intelligences par ce mot
+est une vérité ou une erreur sociale.
+][
+J'entreprends de montrer dans cet écrit
+l'Harmonie des lois providentielles qui régissent la société humaine.
+Ce qui fait que ces lois sont harmoniques et non discordantes,
+c'est que tous les principes, tous les mobiles, tous les ressorts,
+tous les intérêts concourent vers un grand résultat final,
+que l'humanité n'atteindra jamais
+à cause de son ,(emph[imperfection]) native,
+mais dont elle approchera toujours
+en vertu de sa ,(emph[perfectibilité]) indomptable;
+et ce résultat est:
+le rapprochement indéfini de toutes les classes
+vers un niveau qui s'élève toujours;
+en d'autres termes:
+l',(emph[égalisation]) des individus dans l',(emph[amélioration]) générale.
+][
+Mais pour réussir il faut que je fasse comprendre deux choses, savoir:
+][
+1° Que l',(emph[Utilité]) tend à devenir de plus en plus gratuite, commune,
+en sortant progressivement du domaine de l',(emph[appropriation]) individuelle;
+][
+2° Que la Valeur, au contraire, seule appropriable,
+seule constituant la propriété de droit et de fait,
+tend à diminuer de plus en plus relativement
+à l'utilité à laquelle elle est attachée.
+][
+En sorte que, si elle est bien faite,
+une telle démonstration fondée sur la Propriété,
+mais seulement sur la propriété de la Valeur,
+,(--) et sur la Communauté,
+mais seulement sur la communauté de l'utilité,
+,(--) une telle démonstration, dis-je,
+doit satisfaire et concilier toutes les écoles,
+en leur concédant que toutes ont entrevu la vérité,
+mais la vérité partielle prise à des points de vue divers.
+][
+Économistes, vous défendez la propriété.
+Il n'y a, dans l'ordre social,
+d'autre propriété que celle des ,(emph[valeurs]),
+et celle-là est inébranlable.
+][
+Communistes, vous rêvez la communauté.
+Vous l'avez.
+L'ordre social rend toutes les ,(emph[utilités]) communes,
+à la condition que l'échange des valeurs appropriées soit libre.
+][
+Vous ressemblez à des architectes qui disputent sur un monument,
+dont chacun n'a observé qu'une face.
+Ils ne voient pas ,(emph[mal]), mais ils ne voient pas ,(emph[tout]).
+Pour les mettre d'accord,
+il ne faut que les décider à faire le tour de l'édifice.
+][
+Mais cet édifice social, comment le pourrais-je reconstruire,
+aux yeux du public, dans toute sa belle harmonie,
+si je rejette ses deux pierres angulaires:
+Utilité, Valeur?
+Comment pourrais-je amener la désirable conciliation de toutes les écoles,
+sur le terrain de la vérité,
+si je recule devant l'analyse de ces deux idées,
+alors que la dissidence est née
+de la malheureuse confusion qui en a été faite?
+][
+Cette manière d'exorde était nécessaire pour déterminer, s'il se peut,
+le lecteur à un instant d'attention, de fatigue,
+et probablement, hélas! d'ennui.
+Ou je me fais bien illusion,
+ou la consolante beauté des conséquences
+rachètera la sécheresse des prémisses.
+Si Newton s'était laissé rebuter, à l'origine,
+par le dégoût des premières études mathématiques,
+jamais son c,(oe)ur n'eût battu d'admiration
+à l'aspect des harmonies de la mécanique céleste;
+et je soutiens qu'il suffit
+de traverser virilement quelques notions élémentaires
+pour reconnaître que Dieu n'a pas déployé, dans la mécanique sociale,
+moins de bonté touchante, d'admirable simplicité et de magnifique splendeur.
+][
+Dans le premier chapitre nous avons vu
+que l'homme est ,(emph[passif]) et ,(emph[actif]),(pv)
+que le ,(emph[Besoin]) et la ,(emph[Satisfaction]),
+n'affectant que la sensibilité,
+étaient, de leur nature, personnels, intimes, intransmissibles;
+que l',(emph[Effort]), au contraire,
+lien entre le Besoin et la Satisfaction,
+,(emph[moyen]) entre le principe et la fin,
+partant de notre ,(emph[activité]), de notre spontanéité, de notre volonté,
+était susceptible de conventions, de transmission.
+Je sais qu'on pourrait, au point de vue métaphysique,
+contester cette assertion et soutenir que l'Effort aussi est personnel.
+Je n'ai pas envie de m'engager sur le terrain de l'idéologie,
+et j'espère que ma pensée sera admise sans controverse
+sous cette forme vulgaire:
+nous ne pouvons ,(emph[sentir]) les besoins des autres;
+nous ne pouvons ,(emph[sentir]) les satisfactions des autres;
+mais nous pouvons nous ,(emph[rendre service]) les uns aux autres.
+][
+C'est cette transmission d'efforts,
+cet échange de services qui fait la matière de l'économie politique,
+et, puisque, d'un autre côté,
+la science économique se résume dans le mot ,(emph[Valeur]),
+dont elle n'est que la longue explication,
+il s'ensuit que la notion de ,(emph[valeur])
+sera imparfaitement, faussement conçue
+si on la fonde sur les phénomènes extrêmes
+qui s'accomplissent dans notre sensibilité:
+,(emph[Besoins]) et ,(emph[Satisfactions]),
+phénomènes intimes, intransmissibles,
+,(emph[incommensurables]) d'un individu à l'autre,
+,(--) au lieu de la fonder sur les manifestations de notre ,(emph[activité]),
+sur les ,(emph[efforts]),
+sur les ,(emph[services]) réciproques qui s'échangent,
+parce qu'ils sont susceptibles d'être comparés, appréciés, ,(emph[évalués]),
+et qui sont susceptibles d'être ,(emph[évalués])
+précisément parce qu'ils s'échangent.
+][
+Dans le même chapitre nous sommes arrivés à ces formules:
+][
+,(q[L'utilité
+(la propriété qu'ont certains actes ou certaines choses de nous servir)
+est composée:
+une partie est due à l'action de la nature,
+une autre à l'action de l'homme.])
+,(--) ,(q[Il reste d'autant moins à faire au travail humain,
+pour un résultat donné, que la nature a plus fait.])
+,(--) ,(q[La coopération de la nature
+est essentiellement ,(emph[gratuite]),(pv)
+la coopération de l'homme,
+intellectuelle ou matérielle, échangée ou non, collective ou solitaire,
+est essentiellement ,(emph[onéreuse]),
+ainsi que l'implique ce mot même: ,(emph[Effort]).])
+][
+Et comme ce qui est gratuit ne saurait avoir de ,(emph[valeur]),
+puisque l'idée de ,(emph[valeur]) implique
+celle d'acquisition à titre ,(emph[onéreux]),
+il s'ensuit que la notion de Valeur sera encore mal conçue,
+si on l'étend, en tout ou partie,
+aux dons ou à la coopération de la nature,
+au lieu de la restreindre exclusivement à la coopération humaine.
+][
+Ainsi, de deux côtés, par deux routes différentes,
+nous arrivons à cette conclusion
+que la ,(emph[valeur]) doit avoir trait
+aux ,(emph[efforts]) que font les hommes
+pour donner ,(emph[satisfaction]) à leurs ,(emph[besoins]).
+][
+Au troisième chapitre,
+nous avons constaté que l'homme ne pouvait vivre dans l'isolement.
+Mais si, par la pensée, nous évoquons cette situation chimérique,
+cet état ,(emph[contre nature])
+que le dix-huitième siècle exaltait sous le nom d',(emph[état de nature]),
+nous ne tardons pas à reconnaître
+qu'il ne révèle pas encore la notion de Valeur,
+bien qu'il présente cette manifestation de notre principe actif
+que nous avons appelée Effort.
+La raison en est simple:
+Valeur implique comparaison, appréciation, ,(emph[évaluation]), mesure.
+Pour que deux choses se mesurent l'une par l'autre,
+il faut qu'elles soient commensurables,
+et, pour cela, il faut qu'elles soient de même nature.
+Dans l'isolement, à quoi pourrait-on comparer l'effort?
+au besoin, à la satisfaction?
+Cela ne peut conduire qu'à lui reconnaître
+plus ou moins d'à-propos, d'opportunité.
+Dans l'état social, ce que l'on compare
+(et c'est de cette comparaison que naît l'idée de Valeur),
+c'est l'effort d'un homme à l'effort d'un autre homme,
+deux phénomènes de même nature et, par conséquent, ,(emph[commensurables]).
+,(XXX[euh, là Bastiat s'égare: un homme peut comparer justement
+l',(emph[opportunité]) de deux siens efforts différents, et choisir
+l'un plutôt que l'autre.])
+][
+Ainsi la définition du mot valeur, pour être juste,
+doit avoir trait non-seulement aux efforts humains,
+mais encore à ces efforts échangés ou échangeables.
+L'échange fait plus que de constater et de mesurer les valeurs,
+il leur donne l'existence.
+Je ne veux pas dire qu'il donne l'existence
+aux actes et aux choses qui s'échangent,
+mais il la donne à la notion de ,(emph[valeur]).
+][
+Or quand deux hommes se cèdent mutuellement leur effort actuel,
+ou les résultats de leurs efforts antérieurs,
+ils se ,(emph[servent]) l'un l'autre,
+ils se rendent réciproquement ,(emph[service]).
+][
+Je dis donc:
+,(strong[La valeur, c'est le rapport de deux services échangés]).
+][
+L'idée de ,(emph[valeur]) est entrée dans le monde
+la première fois qu'un homme ayant dit à son frère:
+Fais ceci pour moi, je ferai cela pour toi,
+,(--) ils sont tombés d'accord;
+car alors pour la première fois on a pu dire:
+Les deux ,(emph[services]) échangés se ,(emph[valent]).
+][
+Il est assez singulier que la vraie théorie de la valeur,
+qu'on cherche en vain dans maint gros livre,
+se rencontre dans la jolie fable de Florian,
+,(cite-title[l'Aveugle et le Paralytique]) ,(XXX [":" ?])
+](verses
+		[Aidons-nous mutuellement,]
+	[La charge des malheurs en sera plus légère...... À nous deux]
+	[nous possédons le bien à chacun nécessaire.]
+		[J'ai des jambes, et vous des yeux.]
+	[Moi, je vais vous porter; vous, vous serez mon guide:]
+	[Ainsi, sans que jamais notre amitié décide]
+	[Qui de nous deux remplit le plus utile emploi,]
+	[Je marcherai pour vous; vous y verrez pour moi.])
+[
+Voilà la ,(emph[valeur]) trouvée et définie.
+La voilà dans sa rigoureuse exactitude économique,
+sauf le trait touchant relatif à l'amitié,
+qui nous transporte dans une autre sphère.
+On conçoit que deux malheureux se rendent réciproquement ,(emph[service]),
+sans trop rechercher ,(emph[lequel des deux remplit le plus utile emploi]).
+La situation exceptionnelle imaginée par le fabuliste
+explique assez que le principe sympathique,
+agissant avec une grande puissance,
+vienne absorber, pour ainsi dire,
+l'appréciation minutieuse des services échangés,
+appréciation indispensable pour dégager complétement la notion de Valeur.
+Aussi elle apparaîtrait entière,
+si tous les hommes ou la plupart d'entre eux
+étaient frappés de paralysie ou de cécité;
+car alors l'inexorable loi de l'offre et de la demande prendrait le dessus,
+et, faisant disparaître le sacrifice permanent
+accepté par celui qui remplit le plus utile emploi,
+elle replacerait la transaction sur le terrain de la justice.
+][
+Nous sommes tous aveugles ou perclus en quelque point.
+Nous comprenons bientôt qu'en nous entr'aidant
+,(emph[la charge des malheurs en sera plus légère]).
+De là l',(strong[Échange]).
+Nous travaillons pour nous nourrir, vêtir, abriter, éclairer,
+guérir, défendre, instruire les uns les autres.
+De là les ,(strong[services]) réciproques.
+Ces services nous les comparons, nous les discutons, nous les ,(emph[évaluons]):
+de là la ,(strong[Valeur]).
+][
+Une foule de circonstances peuvent augmenter
+l'importance relative d'un Service.
+Nous le trouvons plus ou moins grand,
+selon qu'il nous est plus ou moins utile,
+que plus ou moins de personnes sont disposées à nous le rendre;
+qu'il exige d'elles plus ou moins de travail, de peine,
+d'habileté, de temps, d'études préalables;
+qu'il nous en épargne plus ou moins à nous-mêmes.
+Non-seulement la valeur dépend de ces circonstances,
+mais encore du jugement que nous en portons:
+car il peut arriver, et il arrive souvent,
+que nous estimons très-haut un service,
+parce que nous le jugeons fort utile,
+tandis qu'en réalité il nous est nuisible.
+C'est pour cela que la vanité, l'ignorance, l'erreur
+ont leur part d'influence
+sur ce rapport essentiellement élastique et mobile
+que nous nommons ,(emph[valeur]),(pv)
+et l'on peut affirmer que l'appréciation des services
+tend à se rapprocher d'autant plus de la vérité et de la justice absolues,
+que les hommes s'éclairent, se moralisent et se perfectionnent davantage.
+][
+On a jusqu'ici cherché le principe de la Valeur
+dans une de ces circonstances qui l'augmentent ou qui la diminuent,
+matérialité, durée, utilité, rareté, travail,
+difficulté d'acquisition, jugement, etc.;
+fausse direction imprimée dès l'origine à la science,
+car l'accident qui modifie le phénomène n'est pas le phénomène.
+De plus, chaque auteur s'est fait, pour ainsi dire,
+le parrain d'une de ces circonstances qu'il croyait prépondérante,
+résultat auquel on arrive toujours à force de généraliser;
+car tout est dans tout,
+et il n'y a rien qu'on ne puisse faire entrer dans un mot
+à force d'en étendre le sens.
+Ainsi le principe de la valeur
+est pour Smith dans la matérialité et la durée,
+pour Say dans l'utilité, pour Ricardo dans le travail,
+pour Senior dans la rareté,
+pour Storch dans le jugement, etc.
+][
+Qu'est-il arrivé et que devait-il arriver?
+C'est que ces auteurs ont innocemment porté atteinte
+à l'autorité et à la dignité de la science,
+en paraissant se contredire,
+quand, au fond, ils avaient raison chacun à son point de vue.
+En outre,
+ils ont enfoncé la première notion de l'économie politique
+dans un dédale de difficultés inextricables,
+car les mêmes mots ne représentaient plus pour les auteurs les mêmes idées;
+et, d'ailleurs, quoiqu'une circonstance fût proclamée fondamentale,
+les autres agissaient d'une manière trop évidente
+pour ne pas se faire faire place,
+et l'on voyait les définitions s'allonger sans cesse.
+][
+Ce livre n'est pas destiné à la controverse, mais à l'exposition.
+Je montre ce que je vois, et non ce que les autres ont vu.
+Je ne pourrai m'empêcher cependant d'appeler l'attention du lecteur
+sur les circonstances dans lesquelles on a cherché le fondement de la Valeur.
+Mais avant,
+je dois la faire poser elle-même devant lui dans une série d'exemples.
+C'est par des applications diverses que l'esprit saisit une théorie.
+][
+Je montrerai comment tout se réduit à un troc de services.
+Je prie seulement qu'on se rappelle
+ce qui a été dit du troc dans le chapitre précédent.
+Il est rarement simple;
+quelquefois il s'accomplit par circulation entre plusieurs contractants,
+plus souvent par l'intermédiaire de la monnaie,
+et il se décompose alors en deux facteurs,
+,(emph[vente]) et ,(emph[achat]),(pv)
+mais comme cette complication ne change pas sa nature,
+il me sera permis, pour plus de facilité,
+de supposer le troc immédiat et direct.
+Cela ne peut nous induire à aucune méprise sur la nature de la Valeur.
+][
+Nous naissons tous avec un impérieux besoin matériel
+qui doit être satisfait sous peine de mort, celui de respirer.
+D'un autre côté,
+nous sommes tous plongés dans un milieu qui pourvoit à ce besoin, en général,
+sans l'intervention d'aucun effort de notre part.
+L'air atmosphérique a donc de l'utilité sans avoir de ,(emph[valeur]).
+Il n'a pas de Valeur, parce que, ne donnant lieu à aucun Effort,
+il n'est l'occasion d'aucun service.
+Rendre service à quelqu'un, c'est lui épargner une peine;
+et là où il n'y a pas de peine à prendre pour réaliser la satisfaction,
+il n'y en a pas à épargner.
+][
+Mais si un homme descend au fond d'un fleuve, dans une cloche à plongeur,
+un corps étranger s'interpose entre l'air et ses poumons;
+pour rétablir la communication, il faut mettre la pompe en mouvement;
+il y a là un effort à faire, une peine à prendre;
+certes, cet homme y sera tout disposé, car il y va de la vie,
+et il ne saurait se rendre à lui-même un plus grand ,(emph[service]).
+][
+Au lieu de faire cet effort, il me prie de m'en charger;
+et, pour m'y déterminer, il s'engage à prendre lui-même
+une peine dont je recueillerai la satisfaction.
+Nous débattons et concluons.
+Que voyons-nous ici?
+Deux besoins, deux satisfactions qui ne se déplacent pas;
+deux efforts qui sont l'objet d'une transaction volontaire,
+deux ,(emph[services]) qui s'échangent - et la ,(emph[valeur]) apparaît.
+][
+Maintenant on dit que l'utilité est le fondement de la valeur;
+et comme l'utilité est inhérente à l'air,
+on induit l'esprit à penser qu'il en est de même de la valeur.
+Il y a là évidente confusion.
+L'air, par sa constitution,
+a des propriétés physiques
+en harmonie avec un de nos organes physiques,
+le poumon.
+Ce que j'en puise dans l'atmosphère
+pour en remplir la cloche à plongeur
+ne change pas de nature,
+c'est toujours de l'oxygène et de l'azote;
+aucune nouvelle qualité physique ne s'y est combinée,
+aucun réactif n'en ferait sortir un élément nouveau appelé ,(emph[valeur]).
+La vérité est que celle-ci naît exclusivement du service rendu.
+][
+Quand on pose cet axiome:
+L'Utilité est le fondement de la Valeur, si l'on entend dire:
+Le Service a de la Valeur parce qu'il est utile
+à celui qui le reçoit et le paye, je ne disputerai pas.
+C'est là un ,(emph[truisme]) dont le mot ,(emph[service]) tient suffisamment compte.
+][
+Mais ce qu'il ne faut pas confondre,
+c'est l'utilité de l'air avec l'utilité du service.
+Ce sont là deux utilités distinctes, d'un autre ordre, d'une autre nature,
+qui n'ont entre elles aucune proportion, aucun rapport nécessaire.
+Il y a des circonstances où je puis, avec un très-léger effort,
+en lui épargnant une peine insignifiante,
+en lui rendant par conséquent un très-mince service,
+mettre à la portée de quelqu'un
+une substance d'une très-grande ,(emph[utilité]) intrinsèque.
+][
+Chercherons-nous à savoir comment les deux contractants s'y prendront
+pour évaluer le ,(emph[service])
+que l'un rend à l'autre en lui envoyant de l'air?
+Il faut un point de comparaison,
+et il ne peut être que dans le ,(emph[service])
+que le plongeur s'est engagé à rendre en retour.
+Leur exigence réciproque dépendra
+de leur situation respective,
+de l'intensité de leurs désirs,
+de la facilité plus ou moins grande de se passer l'un de l'autre,
+et d'une foule de circonstances
+qui démontrent que la Valeur est dans le Service,
+puisqu'elle s'accroît avec lui.
+][
+Et si le lecteur veut prendre cette peine,
+il lui sera facile de varier cette hypothèse,
+de manière à reconnaître que la Valeur
+n'est pas nécessairement proportionnelle à l'intensité des efforts;
+remarque que je place ici comme une pierre d'attente qui a sa destination,
+car j'ai à prouver que la Valeur
+n'est pas plus dans le travail que dans l'utilité.
+][
+Il a plu à la nature de m'organiser de telle façon
+que je mourrai si je ne me désaltère de temps en temps,
+et la source est à une lieue du village.
+C'est pourquoi tous les matins
+je me donne la peine d'aller chercher ma petite provision d'eau,
+car c'est à l'eau que j'ai reconnu ces qualités utiles
+qui ont la propriété de calmer la souffrance qu'on appelle la Soif.
+,(--) Besoin, Effort, Satisfaction, tout s'y trouve.
+Je connais l'Utilité, je ne connais pas encore la Valeur.
+][
+Cependant, mon voisin allant aussi à la fontaine, je lui dis:
+,(q[,(emph[Épargnez-moi la peine]) de faire le voyage;
+,(emph[rendez-moi le service]) de me porter de l'eau.
+Pendant ce temps, je ferai quelque chose pour vous,
+j'enseignerai à votre enfant à épeler.])
+Il se trouve que cela nous arrange tous deux.
+Il y a là échange de deux services;
+et l'on peut dire que l'un ,(emph[vaut]) l'autre.
+Remarquez que ce qui a été comparé ici, ce sont les deux efforts,
+et non les deux besoins et les deux satisfactions;
+car d'après quelle mesure comparerait-on
+l'avantage de boire à celui de savoir épeler?
+][
+Bientôt je dis à mon voisin:
+,(q[Votre enfant m'importune, j'aime mieux faire autre chose pour vous;
+vous continuerez à me porter de l'eau, et je vous donnerai cinq sous.])
+Si la proposition est agréée, l'économiste, sans craindre de se tromper,
+pourra dire: ,(emph[Le service ,(strong[vaut]) cinq sous]).
+][
+Plus tard, mon voisin n'attend plus ma requête.
+Il sait, par expérience, que tous les jours j'ai besoin de boire.
+Il va au-devant de mes désirs.
+Du même coup, il pourvoit d'autres villageois.
+Bref, il se fait marchand d'eau.
+Alors on commence à s'exprimer ainsi:
+,(emph[l'eau ,(strong[vaut]) cinq sous]).
+][
+Mais, en vérité, l'eau a-t-elle changé de nature?
+La Valeur, qui était tout à l'heure dans le service,
+s'est-elle matérialisée,
+pour aller s'incorporer dans l'eau
+et y ajouter un nouvel élément chimique?
+Une légère modification
+dans la forme des arrangements intervenus entre mon voisin et moi,
+a-t-elle eu la puissance de déplacer le principe de la valeur
+et d'en changer la nature?
+Je ne suis pas assez puriste pour m'opposer à ce qu'on dise:
+,(emph[L'eau vaut cinq sous]),
+comme on dit:
+,(emph[Le soleil se couche]).
+Mais il faut qu'on sache que ce sont là des métonymies;
+que les métaphores n'affectent pas la réalité des faits;
+que scientifiquement, puisque enfin nous faisons de la science,
+la Valeur ne réside pas plus dans l'eau
+que le soleil ne se couche dans la mer.
+][
+Laissons donc aux choses les qualités qui leur sont propres:
+à l'eau, à l'air, l',(emph[Utilité]),(pv)
+aux services, la ,(emph[Valeur]).
+Disons:
+c'est l'eau qui est ,(emph[utile]),
+parce qu'elle a la propriété d'apaiser la soif;
+c'est le service qui ,(emph[vaut]),
+parce qu'il est le sujet de la convention débattue.
+Cela est si vrai, que, si la source s'éloigne ou se rapproche,
+l'Utilité de l'eau reste la même, mais la valeur augmente ou diminue.
+Pourquoi?
+Parce que le ,(emph[service]) est plus grand ou plus petit.
+La ,(emph[valeur]) est donc dans le ,(emph[service]),
+puisqu'elle varie avec lui et comme lui.
+]
+(br)
+[
+Le diamant joue un grand rôle dans les livres des économistes.
+Il s'en servent pont élucider les lois de la valeur
+ou pour signaler les prétendues perturbations de ces lois.
+C'est une arme brillante avec laquelle toutes les écoles se combattent.
+L'école anglaise dit-elle:
+,(q[La valeur est dans le travail]),
+l'école française lui montre un diamant:
+,(q[Voilà, dit-elle, un produit qui n'exige aucun travail
+et renferme une valeur immense.])
+L'école française affirme-t-elle que la valeur est dans l'utilité,
+aussitôt l'école anglaise met en opposition le diamant
+avec l'air, la lumière et l'eau.
+,(q[L'air est fort utile, dit-elle, et n'a pas de valeur;
+le diamant n'a qu'une ,(emph[utilité]) fort contestable,
+et ,(emph[vaut]) plus que toute l'atmosphère.])
+Et le lecteur de dire comme Henri IV:
+ils ont, ma foi, tous deux raison.
+Enfin, on finit par s'accorder dans cette erreur,
+qui surpasse les deux autres:
+Il faut avouer que Dieu met de la ,(emph[valeur]) dans ses ,(oe)uvres
+et qu'elle est ,(emph[matérielle]).
+][
+Ces anomalies s'évanouissent, ce me semble,
+devant ma simple définition,
+qui est confirmée plutôt qu'infirmée
+par l'exemple en question.
+][
+Je me promène au bord de la mer.
+Un heureux hasard me fait mettre la main sur un superbe diamant.
+Me voilà en possession d'une grande ,(emph[valeur]).
+Pourquoi?
+Est-ce que je vais répandre un grand bien dans l'humanité?
+Serait-ce que je me sois limé à un long et rude travail?
+Ni l'un ni l'autre.
+Pourquoi donc ce diamant a-t-il tant de ,(emph[valeur])?
+C'est sans doute que celui à qui je le cède
+estime que je lui rends un grand ,(emph[service]),
+d'autant plus grand que beaucoup de gens riches le recherchent
+et que moi seul puis le rendre.
+Les motifs de son jugement sont controversables, soit.
+Ils naissent de la vanité, de l'orgueil, soit encore.
+Mais ce jugement existe dans la tête d'un homme
+disposé à agir en conséquence, et cela suffit.
+][
+Bien loin qu'ici ce jugement soit fondé
+sur une raisonnable appréciation de l',(emph[utilité]),
+on pourrait dire que c'est tout le contraire.
+Montrer qu'elle sait faire de grands sacrifices pour l',(emph[inutile]),
+c'est précisément le but que se propose l'ostentation.
+][
+Bien loin que la Valeur ait ici une proportion nécessaire
+avec le travail ,(emph[accompli]) par celui qui rend le service,
+on peut dite qu'elle est plutôt proportionnelle
+au travail ,(emph[épargné]) à celui qui le reçoit;
+c'est du reste la loi des valeurs,
+loi générale et qui n'a pas été,
+que je sache, observée par les théoriciens,
+quoiqu'elle gouverne la pratique universelle.
+Nous dirons plus tard par quel admirable mécanisme
+la Valeur tend à se proportionner au travail quand il est libre;
+mais il n'en est pas moins vrai qu'elle a son principe
+moins dans l'effort accompli par celui qui ,(emph[sert])
+que dans l'effort épargné à celui qui est ,(emph[servi]).
+][
+En effet, la transaction relative à notre pierre précieuse
+suppose le dialogue suivant:
+](itemize
+(item[Monsieur, cédez-moi votre diamant.])
+(item[Monsieur, je veux bien;
+	cédez-moi en échange votre travail de toute une année.])
+(item[Mais, Monsieur,
+	vous n'avez pas sacrifié une minute à votre acquisition.])
+(item[Eh bien, Monsieur, tâchez de rencontrer une minute semblable.])
+(item[Mais, en bonne justice,
+	nous devrions échanger ,(emph[à travail égal]).])
+(item[Non, en bonne justice, vous appréciez vos services,
+	et moi les miens.
+	Je ne vous force pas;
+	pourquoi me forceriez-vous?
+	Donnez-moi un an tout entier, ou cherchez vous-même un diamant.])
+(item[Mais cela m'entraînerait à dix ans de pénibles recherches,
+	sans compter une déception probable au bout.
+	Je trouve plus sage, plus profitable
+	d'employer ces dix ans d'une autre manière.])
+(item[C'est justement pour cela que je crois
+	vous rendre encore ,(emph[service])
+	en ne vous demandant qu'un an.
+	Je vous en épargne neuf,
+	et voilà pourquoi j'attache
+	beaucoup de ,(emph[valeur]) à ce ,(emph[service]).
+	Si je vous parais exigeant,
+	c'est que vous ne considérez que le travail que j'ai accompli;
+	mais considérez aussi celui que je vous épargne,
+	et vous me trouverez débonnaire.])
+(item[Il n'en est pas moins vrai
+	que vous profitez d'un travail de la nature.])
+(item[Et si je vous cédais ma trouvaille pour rien ou pour peu de chose,
+	c'est vous qui en profiteriez.
+	D'ailleurs, si ce diamant a beaucoup de valeur,
+	ce n'est pas parce que la nature l'élabore
+	depuis le commencement des siècles,
+	autant elle en fait pour la goutte de rosée.])
+(item[Oui, mais si les diamants
+	étaient aussi nombreux que les gouttes de rosée,
+	vous ne me feriez pas la loi.])
+(item[Sans doute, parce qu'en ce cas vous ne vous adresseriez pas à moi,
+	ou vous ne seriez pas disposé à me récompenser chèrement
+	pour un ,(emph[service])
+	que vous pourriez vous rendre si facilement à vous-même.]))
+[
+Il résulte de ce dialogue que la Valeur,
+que nous avons vu n'être ni dans l'eau ni dans l'air,
+n'est pas davantage dans le diamant;
+elle est tout entière dans les ,(emph[services])
+	rendus et reçus à l'occasion de ces choses,
+et déterminée par le libre débat des contractants.
+][
+Prenez la collection des économistes;
+lisez, comparez toutes les définitions.
+S'il y en a une qui aille à l'air et au diamant,
+à deux cas en apparence si opposés, jetez ce livre au feu.
+Mais si la mienne, toute simple qu'elle est,
+résout la difficulté ou plutôt la fait disparaître,
+lecteur, en bonne conscience, vous êtes tenu d'aller jusqu'au bout;
+car ce ne peut être en vain qu'une bonne étiquette
+est placée à l'entrée de la science.
+][
+Qu'il me soit permis de multiplier ces exemples,
+tant pour élucider ma pensée
+que pour familiariser le lecteur avec une définition nouvelle.
+En le montrant sous tous ses aspects,
+cet exercice sur le principe prépare d'ailleurs la voie
+à l'intelligence des conséquences,
+qui seront, j'ose l'annoncer, aussi importantes qu'inattendues.
+][
+Parmi les besoins auxquels nous assujettit notre constitution physique,
+se trouve celui de l'alimentation;
+et un des objets les plus propres à le satisfaite, c'est le Pain.
+][
+Naturellement, comme le besoin de manger est en moi,
+je devrais faire toutes les opérations relatives
+à la production de la quantité de pain qui m'est nécessaire.
+Je puis d'autant moins exiger
+	de mes frères qu'ils me rendent gratuitement ce service,
+qu'ils sont eux-mêmes soumis au même besoin et condamnés au même effort.
+][
+Si je faisais moi-même mon pain,
+j'aurais à me livrer à un travail infiniment plus compliqué,
+mais tout à fait analogue à celui que m'impose
+la nécessité d'aller chercher l'eau à la source.
+En effet, les éléments du pain existent partout dans la nature.
+Selon la judicieuse observation de J. B. Say,
+il n'y a ni nécessité ni possibilité pour l'homme de rien créer.
+Gaz, sels, électricité, force végétale, tout cela existe;
+il s'agit pour moi de réunir, aider, combiner, transporter,
+en me servant de ce grand laboratoire qu'on nomme la terre,
+et dans lequel s'accomplissent des mystères
+dont à peine la science humaine a soulevé le voile.
+Si l'ensemble des opérations auxquelles je me livre,
+à la poursuite de mon but, est fort compliqué,
+chacune d'elles, prise isolément,
+est aussi simple que l'action
+	d'aller puiser à la fontaine l'eau que la nature y a mise.
+Chacun de mes efforts n'est donc autre chose
+	qu'un service que je me rends à moi-même;
+et si, par convention librement débattue,
+il arrive que d'autres personnes m'épargnent
+	quelques-uns ou la totalité de ces efforts,
+ce sont autant de ,(emph[services]) que je reçois.
+L'ensemble de ces services,
+comparés à ceux que je rends en retour,
+constitue la valeur du Pain et la détermine.
+][
+Un intermédiaire commode est survenu
+pour faciliter cet échange de services,
+et même pour en mesurer l'importance relative:
+c'est la monnaie.
+Mais le fond des choses reste le même,
+comme la transmission des forces est soumise à la même loi,
+qu'elle s'opère par un ou plusieurs engrenages.
+][
+Cela est si vrai que, lorsque le Pain vaut quatre sous, par exemple,
+si un bon teneur de livres voulait décomposer cette ,(emph[valeur]),
+il parviendrait à retrouver,
+à travers des transactions fort multipliées sans doute,
+tous ceux dont les ,(emph[services]) ont concouru à la former,
+tous ceux qui ont épargné une peine
+à celui qui, en définitive, paye parce qu'il consommera.
+Il trouvera d'abord le boulanger, qui en retient un vingtième,
+et sur ce vingtième rémunère le maçon qui a bâti son four,
+le bûcheron qui a préparé ses fagots, etc.;
+viendra ensuite le meunier,
+qui recevra non seulement la récompense de son propre travail,
+mais de quoi rembourser le carrier qui a fait la meule,
+le terrassier qui a élevé les digues, etc.
+D'autres parties de la valeur totale
+iront au batteur en grange, au moissonneur, au laboureur, au semeur,
+jusqu'à ce que compte soit rendu de la dernière obole.
+Il n'y en a pas une, une seule,
+qui ira rémunérer Dieu ou la nature.
+Une telle supposition est absurde par elle-même,
+et cependant elle est impliquée rigoureusement
+dans la théorie des économistes qui attribuent
+à la matière ou aux forces naturelles
+une part quelconque dans la ,(emph[valeur]) du produit.
+Non, encore ici, ce qui ,(emph[vaut]),
+ce n'est pas le Pain,
+c'est la série des ,(emph[services]) par lesquels il est mis à ma portée.
+][
+Il est bien vrai que,
+parmi les parties élémentaires de la valeur du pain,
+notre teneur de livres en rencontrera une
+qu'il aura peine à rattacher à un ,(emph[service]),
+du moins à un service exigeant un effort.
+Il trouvera que sur ces 20 cent.,
+il y en a un ou deux qui sont la part du propriétaire du sol,
+de celui qui détient le laboratoire.
+Cette petite portion de la valeur du pain
+constitue ce qu'on nomme la ,(emph[rente de la terre]),(pv)
+et, trompé par la locution,
+par cette métonymie que nous retrouvons encore ici,
+notre comptable sera peut-être tenté de croire que cette part
+est afférente à des agents naturels, au sol lui-même.
+][
+Je soutiens que, s'il est habile,
+il découvrira que c'est encore le prix de ,(emph[services]) très réels
+de même nature que tous les autres.
+C'est ce qui sera démontré avec la dernière évidence
+quand nous traiterons de la ,(emph[Propriété foncière]).
+Pour le moment, je ferai remarquer
+que je ne m'occupe pas ici de la propriété,
+mais de la ,(emph[valeur]).
+Je ne recherche pas si tous les services sont réels, légitimes,
+et si des hommes sont parvenus à se faire payer
+pour des services qu'ils ne rendent pas.
+Eh! mon Dieu!
+le monde est plein de telles injustices,
+parmi lesquelles ne doit pas figurer la ,(emph[rente]).
+][
+Tout ce que j'ai à démontrer ici,
+c'est que la prétendue Valeur des ,(emph[choses])
+n'est que la Valeur des ,(emph[services]), réels ou imaginaires,
+reçus et rendus à leur occasion;
+qu'elle n'est pas dans les choses mêmes,
+pas plus dans le pain que dans le diamant, ou dans l'eau ou dans l'air;
+qu'aucune part de rémunération ne va à la nature;
+qu'elle se distribue tout entière,
+par le consommateur définitif,
+entre des hommes,
+et qu'elle ne peut leur être par lui accordée
+que parce qu'ils lui ont rendu des services,
+sauf le cas de fraude ou de violence.
+][
+Deux hommes jugent que la glace est une bonne chose en été,
+et la houille une meilleure chose en hiver.
+Elles répondent à deux de nos besoins:
+l'une nous rafraîchit, l'autre nous réchauffe.
+Ne nous lassons pas de faire remarquer
+que l'Utilité de ces corps consiste
+en certaines propriétés ,(emph[matérielles]),
+qui sont en rapport de convenance avec nos organes ,(emph[matériels]).
+Remarquons en outre que, parmi ces propriétés,
+que la physique et la chimie pourraient énumérer,
+ne se trouve pas la ,(emph[valeur]), ni rien de semblable.
+Comment donc est-on arrivé à penser que la Valeur
+était dans la matière et matérielle?
+][
+Si nos deux personnages se veulent satisfaire sans se concerter,
+chacun d'eux travaillera à faire sa double provision.
+S'ils s'entendent,
+l'un ira chercher de la houille pour deux dans la mine,
+l'autre de la glace pour deux dans la montagne.
+Mais, en ce cas, il y aura lieu à convention.
+Il faudra bien régler le rapport des deux services échangés.
+On tiendra compte de toutes les circonstances:
+	difficultés à vaincre,
+	dangers à braver,
+	temps à perdre,
+	peine à prendre,
+	habileté à déployer,
+	chances à courir,
+	possibilité de se satisfaire d'une autre façon,
+	etc.
+Quand on sera d'accord, l'économiste dira:
+Les deux ,(emph[services]) échangés se ,(emph[valent]),(pv)
+la langue vulgaire, par métonymie:
+Telle quantité de houille ,(emph[vaut]) telle quantité de glace,
+comme si la valeur avait matériellement passé dans les corps.
+Mais il est aisé de reconnaître
+que si la locution vulgaire suffit pour exprimer les résultats,
+l'expression scientifique révèle seule la vérité des causes.
+][
+Au lieu de deux services et deux personnes,
+la convention peut en embrasser un grand nombre,
+substituant l'Échange composé au Troc simple.
+En ce cas, la monnaie interviendra pour faciliter l'exécution.
+Ai-je besoin de dire que le principe de la Valeur
+n'en sera ni déplacé ni changé?
+][
+Mais je dois ajouter une observation à propos de la houille.
+Il se peut qu'il n'y ait qu'une mine dans le pays,
+et qu'un homme s'en soit emparé.
+Si cela est, cet homme fera la loi,
+c'est-à-dire qu'il mettra à haut prix
+ses ,(emph[services]) ou ses prétendus ,(emph[services]).
+][
+Nous n'en sommes pas encore à la question de droit et de justice,
+à séparer les services loyaux des services frauduleux.
+Cela viendra.
+Ce qui importe en ce moment,
+c'est de consolider la vraie théorie de la Valeur,
+et de la débarrasser d'une erreur
+dont la science économique est affectée.
+Quand nous disons: Ce que la nature a fait ou donné,
+	elle l'a fait ou donné ,(emph[gratuitement]),
+	cela n'a pas par conséquent de ,(emph[valeur])
+,(--) on nous répond en décomposant le prix de la houille
+ou de tout autre produit naturel.
+On reconnaît bien que ce prix,
+pour la plus grande partie, est afférent à des services humains.
+L'un a creusé la terre, l'autre a épuisé l'eau;
+celui-ci a monté le combustible, celui-là l'a transporté;
+et c'est la totalité de ces travaux qui constitue,
+dit-on, ,(emph[presque]) toute la ,(emph[valeur]).
+Cependant il reste encore une portion de valeur
+qui ne répond à aucun travail, à aucun ,(emph[service]).
+C'est le prix de la houille gisant sous le sol,
+encore vierge, comme on dit, de tout travail humain;
+il forme la part du propriétaire;
+et puisque cette portion de valeur n'est pas de création humaine,
+il faut bien qu'elle soit de création naturelle.
+][
+Je repousse une telle conclusion,
+et je préviens le lecteur que,
+s'il l'admet de près ou de loin,
+il ne peut plus faire un pas dans la science.
+Non, l'action de la nature ne crée pas la valeur,
+pas plus que l'action de l'homme ne crée la matière.
+De deux choses l'une:
+ou le propriétaire a utilement concouru au résultat final
+et a rendu des services réels,
+et alors la part de Valeur qu'il a attachée à la houille
+rentre dans ma définition;
+ou bien il s'est imposé comme un parasite, et, en ce cas,
+il a eu l'adresse de se faire payer pour des ,(emph[services])
+qu'il n'a pas rendus;
+le prix de la houille s'est trouvé indûment augmenté.
+Cette circonstance prouve bien qu'une injustice
+s'est introduite dans la transaction;
+mais elle ne saurait renverser la théorie
+au point d'autoriser à dire
+que cette portion de valeur est matérielle,
+qu'elle est combinée, comme un élément physique,
+avec les dons gratuits de la Providence.
+En voici la preuve:
+qu'on fasse cesser l'injustice, si injustice il y a,
+et la valeur correspondante disparaîtra.
+Il n'en serait certes pas ainsi,
+si elle était inhérente à la matière et de création naturelle.
+]
+(br)
+[
+Passons maintenant à un de nos besoins les plus impérieux,
+celui de la ,(emph[sécurité]).
+][
+Un certain nombre d'hommes abordent une plage inhospitalière.
+Ils se mettent à travailler.
+Mais chacun d'eux se trouve à chaque instant détourné de ses occupations
+par la nécessité de se défendre
+contre les bêtes féroces ou des hommes plus féroces encore.
+Outre le temps et les efforts qu'il consacre directement à sa défense,
+il en emploie beaucoup à se pourvoir d'armes et de munitions.
+On finit par reconnaître
+que la déperdition totale des efforts serait infiniment moindre,
+si quelques-uns, abandonnant les autres travaux,
+se chargeaient exclusivement de ce ,(emph[service]).
+On y affecterait ceux qui ont le plus d'adresse, de courage et de vigueur.
+Ils se perfectionneraient dans un art
+dont ils feraient leur occupation constante;
+et pendant qu'ils veilleraient sur le salut de la communauté,
+celle-ci recueillerait de ses travaux, désormais non interrompus,
+plus de satisfactions ,(emph[pour tous])
+que ne lui en peut faire perdre le détournement de dix de ses membres.
+En conséquence, l'arrangement se fait.
+Que peut-on voir là, si ce n'est un nouveau progrès
+dans la ,(emph[séparation des occupations]),
+amenant et exigeant un échange de ,(emph[services])?
+][
+Les services de ces militaires, soldats, miliciens, gardes,
+comme on voudra les appeler, sont-ils ,(emph[productifs])?
+Sans doute, puisque l'arrangement n'a eu lieu
+que pour augmenter le rapport des Satisfactions totales aux efforts généraux.
+][
+Ont-ils une ,(emph[valeur])?
+Il le faut bien, puisqu'on les estime, on les cote, on les ,(emph[évalue]),
+et, en définitive, on les paye par d'autres ,(emph[services])
+auxquels ils sont comparés.
+][
+La forme sous laquelle cette rémunération est stipulée,
+le mode de cotisation,
+le procédé par lequel on arrive à débattre et conclure l'arrangement,
+rien de tout cela n'altère le principe.
+Y a-t-il efforts épargnés aux uns par les autres?
+Y a-t-il satisfactions procurées aux uns par les autres?
+En ce cas il y a ,(emph[services]) échangés, comparés, ,(emph[évalués]),
+il y a ,(emph[valeur]).
+][
+Ce genre de services amène souvent, au milieu des complications sociales,
+de terribles phénomènes.
+Comme la nature même des services
+qu'on demande à cette classe de travailleurs
+exige que la communauté remette en leurs mains la Force,
+et une force capable de vaincre toutes les résistances,
+il peut arriver que ceux qui en sont dépositaires,
+en abusant, la tournent contre la communauté elle-même.
+,(--) Il peut arriver encore que,
+tirant de la communauté des services proportionnés
+au besoin qu'elle a de ,(emph[sécurité]),
+ils provoquent l'insécurité même,
+afin de se rendre plus nécessaires,
+et engagent leurs compatriotes,
+par une diplomatie trop habile, dans des guerres continuelles.
+][
+Tout cela s'est vu et se voit encore.
+Il en résulte, j'en conviens,
+d'énormes perturbations
+dans le juste équilibre des services réciproques.
+Mais il n'en résulte aucune altération
+dans le principe fondamental et la théorie scientifique de la Valeur.
+]
+(br)
+[
+Encore un exemple ou deux.
+Je prie le lecteur de croire
+que je sens, au moins autant que lui,
+ce qu'il y a de fatigant et de lourd dans cette série d'hypothèses,
+toutes ramenant les mêmes preuves,
+aboutissant à la même conclusion,
+exprimée dans les mêmes termes.
+Il voudra bien comprendre que ce procédé,
+s'il n'est pas le plus divertissant,
+est au moins le plus sûr
+pour établir la vraie théorie de la Valeur
+et dégager ainsi la route que nous aurons à parcourir.
+][
+Nous sommes à Paris.
+Dans cette vaste métropole fermentent beaucoup de désirs;
+elle abonde aussi en moyens de les satisfaire.
+Une multitude d'hommes riches ou aisés
+se livrent à l'industrie, aux arts, à la politique;
+et le soir, ils recherchent avec ardeur une heure de délassement.
+Parmi les plaisirs dont ils sont le plus avides,
+figure au premier rang celui d'entendre
+la belle musique de Rossini chantée par madame Malibran,
+ou l'admirable poésie de Racine interprétée par Rachel.
+Il n'y a que deux femmes, dans le monde entier,
+capables de procurer ces délicates et nobles jouissances;
+et, à moins qu'on ne fasse intervenir la torture,
+ce qui probablement ne réussirait pas,
+il faut bien s'adresser à leur volonté.
+Ainsi les services qu'on attend de Malibran et de Rachel
+auront une grande ,(emph[valeur]).
+Cette explication est bien prosaïque, elle n'en est pas moins vraie.
+][
+Qu'un opulent banquier veuille donc, pour gratifier sa vanité,
+faire entendre dans ses salons une de ces grandes artistes,
+il éprouvera, par expérience, que ma théorie est exacte de tous points.
+Il recherche une vive satisfaction, il la recherche avec ardeur;
+une seule personne au monde peut la lui procurer.
+Il n'a d'autre moyen de l'y déterminer
+que d'offrir une rémunération considérable.
+][
+Quelles sont les limites extrêmes entre lesquelles oscillera la transaction?
+Le banquier ira jusqu'au point
+où il préfère se priver de la satisfaction que de la payer;
+la cantatrice, jusqu'au point où elle préfère la rémunération offerte
+à n'être pas rémunérée du tout.
+Ce point d'équilibre déterminera la Valeur de ce service spécial,
+comme de tous les autres.
+Il se peut que, dans beaucoup de cas,
+l'usage fixe ce point délicat.
+On a trop de goût dans le beau monde
+pour ,(emph[marchander]) certains services.
+Il se peut même que la rémunération
+soit assez galamment déguisée
+pour voiler ce que la loi économique a de vulgarité.
+Cette loi ne plane pas moins sur cette transaction
+comme sur les transactions les plus ordinaires,
+et la Valeur ne change pas de nature
+parce que l'expérience ou l'urbanité
+dispense de la débattre en toute rencontre.
+][
+Ainsi s'explique la grande fortune
+à laquelle peuvent parvenir les artistes hors ligne.
+Une autre circonstance les favorise.
+Leurs services sont de telle nature,
+qu'ils peuvent les rendre, par un même Effort,
+à une multitude de personnes.
+Quelque vaste que soit une enceinte,
+pourvu que la voix de Rachel la remplisse,
+chacun des spectateurs reçoit dans son âme
+toute l'impression qu'y peut faire naître une inimitable déclamation.
+On conçoit que c'est la base d'un nouvel arrangement.
+Trois, quatre mille personnes éprouvant le même désir
+peuvent s'entendre, se cotiser;
+et la masse des services que chacun apporte en tribut à la grande tragédienne
+fait équilibre au service unique rendu par elle à tous les auditeurs à la fois.
+Voilà la ,(emph[Valeur]).
+][
+Comme un grand nombre d'auditeurs s'entendent pour écouter,
+plusieurs acteurs peuvent s'entendre
+pour chanter un opéra ou représenter un drame.
+Des entrepreneurs peuvent intervenir
+pour dispenser les contractants d'une foule de petits arrangements accessoires.
+La Valeur se multiplie, se complique, se ramifie, se distribue;
+elle ne change pas de nature.
+][
+Terminons par ce qu'on nomme des cas exceptionnels.
+Ils sont l'épreuve des bonnes théories.
+Quand la règle est vraie, l'exception ne l'infirme pas, elle la confirme.
+][
+Voici un vieux prêtre qui chemine, pensif,
+bâton en main, bréviaire sous le bras.
+Que ses traits sont sereins!
+que sa physionomie est expressive!
+que son regard est inspiré!
+Où va-t-il?
+Ne voyez-vous pas ce clocher à l'horizon?
+Le jeune desservant du village ne se fie pas encore à ses propres forces;
+il a appelé à son aide le vieux missionnaire.
+Mais, auparavant, il y avait quelques dispositions à prendre.
+Le prédicateur trouvera bien au presbytère le vivre et le couvert.
+Mais d'un carême à l'autre il faut vivre;
+c'est la loi commune.
+Donc, M. le curé a provoqué, parmi les riches du village,
+une cotisation volontaire, modeste, mais suffisante;
+car le vieux pasteur n'a pas été exigeant,
+et à ce qu'on lui a écrit à ce sujet il a répondu:
+,(q[Du pain pour moi, voilà mon nécessaire;
+une obole pour le pauvre, voilà mon superflu.])
+][
+Ainsi les préalables économiques sont remplis;
+car cette importune économie politique se glisse partout et se mêle à tout,
+et je crois vraiment que c'est elle qui a dit:
+,(q[,(inlatin[Nil humani a me alienum puto]).])
+][
+Dissertons un peu sur cet exemple,
+bien entendu au point de vue qui nous occupe.
+][
+Voici bien un échange de services.
+D'un côté, un vieillard va consacrer
+son temps, sa force, ses talents, sa santé,
+à faire pénétrer quelque clarté
+dans l'intelligence d'un petit nombre de villageois,
+à relever leur niveau moral.
+D'un autre côté, du pain pour quelques jours,
+une superbe soutane d'alépine et un tricorne neuf
+sont assurés à l'homme de la parole.
+][
+Mais il y a autre chose ici.
+Il y a un assaut de sacrifices.
+Le vieux prêtre refuse tout ce qui ne lui est pas strictement indispensable.
+Cette maigre pitance, le desservant en prend la moitié à sa charge;
+et l'autre moitié, les Crésus du village en dispensent leurs frères,
+qui profiteront pourtant de la prédication.
+][
+Ces sacrifices infirment-ils notre définition de la Valeur?
+Pas le moins du monde.
+Chacun est libre de ne céder ses efforts qu'aux conditions qui lui conviennent.
+Si l'on est facile sur ces conditions, ou si même on n'en exige aucune,
+qu'en résulte-t-il?
+Que le ,(emph[service]), en conservant son utilité, perd de sa valeur.
+Le vieux prêtre est persuadé que ses efforts
+trouveront leur récompense ailleurs.
+Il ne tient pas à ce qu'ils la trouvent ici-bas.
+Il sait sans doute qu'il rend service à ses auditeurs en leur parlant;
+mais il croit aussi que ses auditeurs
+lui rendent service à lui-même en l'écoutant.
+Il suit de là que la transaction se fait
+sur des bases avantageuses à l'une des parties contractantes,
+du consentement de l'autre.
+Voilà tout.
+En général,
+les échanges de services sont déterminés et évalués par l'intérêt personnel.
+Mais ils le sont quelquefois, grâce au ciel, par le principe sympathique.
+Alors,
+ou nous cédons à autrui une satisfaction
+que nous avions le droit de nous réserver,
+ou nous faisons pour lui un effort
+que nous pouvions nous consacrer à nous-mêmes.
+La générosité, le dévouement, l'abnégation,
+sont des impulsions de notre nature
+qui, comme beaucoup d'autres circonstances,
+influent sur la ,(emph[valeur]) actuelle d'un service déterminé,
+mais qui ne changent pas la loi générale des ,(emph[valeurs]).
+][
+En opposition avec ce consolant exemple,
+j'en pourrais placer d'un tout autre caractère.
+Pour qu'un service ait de la valeur dans le sens économique du mot,
+une valeur de fait,
+il n'est pas indispensable qu'il soit réel, consciencieux, utile:
+il suffit qu'on l'accepte et qu'on le paye par un autre service.
+Le monde est plein de gens qui font accepter et payer par le public
+des services d'un aloi plus que douteux.
+Tout dépend du ,(emph[jugement]) qu'on en porte,
+et c'est pourquoi la morale sera toujours
+le meilleur auxiliaire de l'économie politique.
+][
+Des fourbes parviennent à faire prévaloir une fausse croyance.
+Ils sont, disent-ils, les envoyés du ciel.
+Ils ouvrent à leur gré les portes du paradis ou de l'enfer.
+Quand cette croyance est bien enracinée:
+,(q[Voici, disent-ils,
+de petites images auxquelles nous avons communiqué la vertu
+de rendre éternellement heureux ceux qui les porteront sur eux.
+Vous céder une de ces images, c'est vous rendre un immense ,(emph[service]),(pv)
+rendez-nous donc des ,(emph[services]) en retour.])
+Voilà une ,(emph[valeur]) créée.
+Elle tient à une fausse appréciation, dira-t-on;
+cela est vrai.
+Autant on en peut dire de bien des choses matérielles
+et qui ont une valeur certaine, car elles trouveraient des acquéreurs,
+fussent-elles mises aux enchères.
+La science économique ne serait pas possible,
+si elle n'admettait comme valeurs que les valeurs judicieusement appréciées.
+À chaque pas, elle devrait renouveler
+un cours de sciences physiques et morales.
+Dans l'isolement, un homme peut,
+en vertu de désirs dépravés ou d'une intelligence faussée,
+poursuivre par de grands efforts une satisfaction chimérique, une déception.
+De même, en société, il nous arrive, comme disait un philosophe,
+d'acheter fort cher un regret.
+S'il est dans la nature de l'intelligence humaine
+d'avoir une plus naturelle proportion avec la vérité qu'avec l'erreur,
+toutes ces fraudes sont destinées à disparaître,
+tous ces faux services à être refusés,
+à perdre leur ,(emph[valeur]).
+La civilisation mettra, à la longue, chacun et chaque chose à sa place.
+][
+Il faut pourtant clore cette trop longue analyse.
+Besoin de respirer, de boire, de manger;
+besoin de la vanité, de l'intelligence, du c,(oe)ur, de l'opinion,
+des espérances fondées ou chimériques,
+nous avons cherché partout la Valeur,
+nous l'avons constatée partout où elle existe,
+c'est-à-dire partout où il y a ,(emph[échange de services]),(pv)
+nous l'avons trouvée partout identique à elle-même,
+fondée sur un principe clair, simple, absolu,
+quoique influencée par une multitude de circonstances diverses.
+Nous aurions passé en revue tous nos autres besoins;
+nous aurions fait comparaître
+le menuisier, le maçon, le fabricant, le tailleur,
+le médecin, l'huissier, l'avocat, le négociant, le peintre,
+le juge, le président de la république,
+que nous n'aurions jamais trouvé autre chose:
+souvent de la matière,
+quelquefois des forces fournies ,(emph[gratuitement]) par la nature,
+toujours des services humains
+s'échangeant entre eux, se mesurant, s'estimant, s'appréciant,
+s',(emph[évaluant]) les uns par les autres,
+et manifestant seuls le résultat de cette évaluation ou la ,(strong[Valeur]).
+][
+Il est néanmoins un de nos besoins, fort spécial de sa nature,
+ciment de la société, cause et effet de toutes nos transactions,
+éternel problème de l'économie politique,
+dont je dois dire ici quelques mots:
+je veux parler du besoin d',(emph[échanger]).
+][
+Dans le chapitre précédent,
+nous avons décrit les merveilleux effets de l'échange.
+Ils sont tels,
+que les hommes doivent éprouver naturellement le désir de le faciliter,
+même au prix de grands sacrifices.
+C'est pour cela qu'il y a des routes, des canaux, des chemins de fer,
+des chars, des vaisseaux, des négociants, des marchands, des banquiers;
+et il est impossible de croire que l'humanité se serait soumise,
+pour faciliter l'échange, à un si énorme prélèvement sur ses forces,
+si elle n'eût dû trouver dans l'échange lui-même une large compensation.
+][
+Nous avons vu aussi que le simple ,(emph[troc])
+ne pouvait donner lieu qu'à des transactions
+fort incommodes et fort restreintes.
+C'est pour cela que les hommes ont imaginé
+de décomposer le troc en deux facteurs:
+,(emph[vente]) et ,(emph[achat]),
+au moyen d'une marchandise intermédiaire, facilement divisible,
+et surtout pourvue de ,(emph[valeur]),
+afin qu'elle portât avec elle son titre à la confiance publique.
+C'est la Monnaie.
+][
+Ce que je veux faire observer ici, c'est que ce qu'on appelle,
+par ellipse ou métonymie, la Valeur de l'or et de l'argent,
+repose sur le même principe
+que la valeur de l'air, de l'eau, du diamant,
+des sermons de notre vieux missionnaire, ou des roulades de Malibran,
+c'est-à-dire sur des services rendus et reçus.
+][
+L'or, en effet, qui se trouve répandu sur les heureux rivages du Sacramentel,
+tient de la nature beaucoup de qualités précieuses:
+ductilité, pesanteur, éclat, brillant,
+utilité même, si l'on veut.
+Mais il y a une chose que la nature ne lui a pas donnée,
+parce que cela ne la regarde pas:
+c'est la ,(emph[valeur]).
+Un homme sait que l'or répond à un besoin bien senti, qu'il est très-désiré.
+Il va en Californie pour chercher de l'or,
+comme mon voisin allait tout à l'heure à la fontaine pour chercher de l'eau.
+Il se livre à de rudes efforts, il fouille, il pioche, il lave, il fond,
+et puis il vient me dire:
+Je vous rendrai le service de vous céder cet or;
+quel service me rendrez-vous en retour?
+Nous débattons,
+chacun de nous pèse toutes les circonstances qui peuvent le déterminer;
+enfin nous concluons, et voilà la Valeur manifestée et fixée.
+Trompé par cette locution abrégée:
+L'or ,(emph[vaut]),
+on pourra bien croire que la valeur est dans l'or
+au même titre que la pesanteur et la ductilité,
+et que la nature a pris soin de l'y mettre.
+J'espère que le lecteur est maintenant convaincu
+que c'est là un malentendu.
+Il se convaincra plus tard que c'est un malentendu déplorable.
+][
+Il y en a un autre au sujet de l'or ou plutôt de la monnaie.
+Comme elle est l'intermédiaire habituel dans toutes les transactions,
+le terme moyen entre les deux facteurs du ,(emph[troc composé]),
+que c'est toujours à sa valeur
+qu'on compare celle des deux services qu'il s'agit d'échanger,
+elle est devenue la ,(emph[mesure]) des valeurs.
+Dans la pratique cela ne peut être autrement.
+Mais la science ne doit jamais perdre de vue
+que la monnaie est soumise,
+quant à la valeur, aux mêmes fluctuations
+que tout autre produit ou service.
+Elle l'oublie souvent, et cela n'a rien de surprenant.
+Tout semble concourir à faire considérer la monnaie
+comme la mesure des valeurs
+au même titre que le litre est la mesure de capacité.
+,(--) Elle joue un rôle analogue dans les transactions.
+,(--) On n'est pas averti de ses propres fluctuations
+parce que le franc, ainsi que ses multiples et ses sous-multiples,
+conservent toujours la même dénomination.
+,(--) Enfin l'arithmétique elle-même conspire à propager la confusion,
+en rangeant le franc, comme mesure,
+parmi le mètre, le litre, l'are, le stère, le gramme, etc.
+][
+J'ai défini la Valeur, telle du moins que je la conçois.
+J'ai soumis ma définition à l'épreuve de faits très-divers;
+aucun, ce me semble, ne l'a démentie;
+enfin le sens scientifique que j'ai donné à ce mot
+se confond avec l'acception vulgaire,
+ce qui n'est ni un méprisable avantage ni une mince garantie;
+car qu'est-ce que la science, sinon l'expérience raisonnée?
+Qu'est-ce que la théorie,
+sinon la méthodique exposition de l'universelle pratique?
+][
+Il doit m'être permis maintenant de jeter un rapide coup d',(oe)il
+sur les systèmes qui ont jusqu'ici prévalu.
+Ce n'est pas en esprit de controverse, encore moins de critique,
+que j'entreprends cet examen,
+et je l'abandonnerais volontiers,
+si je n'étais convaincu qu'il peut jeter de nouvelles clartés
+sur la pensée fondamentale de cet écrit.
+][
+Nous avons vu que les auteurs avaient cherché le principe de la Valeur
+dans un ou plusieurs des accidents qui exercent sur elle
+une notable influence,
+matérialité, conservabilité, utilité, rareté, travail, etc.,
+,(--) comme un physiologiste qui chercherait le principe de la vie
+dans un ou plusieurs des phénomènes extérieurs qui la développent,
+dans l'air, l'eau, la lumière, l'électricité, etc.
+][
+,(emph[Matérialité]).
+,(q[L'homme, dit M. de Bonald, est une intelligence servie par des organes.])
+Si les économistes de l'école matérialiste
+avaient seulement voulu dire
+que les hommes ne se peuvent rendre des services réciproques
+que par l'entremise de leurs organes corporels,
+pour en conclure qu'il y a toujours
+quelque chose de matériel dans ces services
+et, par suite, dans la Valeur,
+je n'irais pas au delà, ayant en horreur les disputes de mots
+et ces subtilités dont l'esprit aime trop souvent à se montrer fécond.
+][
+Mais ce n'est pas ainsi qu'ils l'ont entendu.
+Ce qu'ils ont cru, c'est que la Valeur était communiquée à la matière,
+soit par le travail de l'homme, soit par l'action de la nature.
+En un mot, trompés par cette locution elliptique:
+L'or ,(emph[vaut]) tant,
+le blé ,(emph[vaut]) tant,
+ils ont été conduits à voir dans la matière une qualité nommée ,(emph[valeur]),
+comme le physicien y reconnaît
+l'impénétrabilité, la pesanteur,
+,(--) et encore ces attributs lui sont-ils contestés.
+][
+Quoi qu'il en soit, je lui conteste formellement la valeur.
+][
+Et d'abord, on ne peut nier que Matière et Valeur ne soient souvent séparées.
+Quand nous disons à un homme:
+,(--) Portez cette lettre à son adresse,
+allez-moi chercher de l'eau,
+enseignez-moi cette science ou ce procédé,
+donnez-moi un conseil sur ma maladie ou mon procès,
+veillez à ma sûreté pendant que je me livrerai au travail ou au sommeil;
+,(--) ce que nous réclamons c'est un Service,
+et à ce service nous reconnaissons, à la face de l'univers, une Valeur,
+puisque nous le payons volontairement par un service équivalent.
+Il serait étrange que la théorie refusât d'admettre
+ce qu'admet dans la pratique le consentement universel.
+][
+Il est vrai que nos transactions portent souvent sur des objets matériels;
+mais qu'est-ce que cela prouve?
+C'est que les hommes, par prévoyance,
+se préparent à rendre des services qu'ils sauront être demandés;
+que j'achète un habit tout fait,
+ou que je fasse venir chez moi un tailleur pour travailler à la journée,
+en quoi cela change-t-il le principe de la Valeur,
+au point surtout de faire qu'il réside tantôt dans l'habit,
+tantôt dans le service?
+][
+On pourrait poser ici cette question subtile:
+Faut-il voir le principe de la Valeur dans l'objet matériel,
+et de là l'attribuer, par analogie, aux services?
+Je dis que c'est tout le contraire:
+il faut le reconnaître dans les services, et l'attribuer ensuite,
+si l'on veut, par métonymie, aux objets matériels.
+][
+Du reste, les nombreux exemples que j'ai soumis au lecteur,
+en manière d'exercice,
+me dispensent d'insister davantage sur cette discussion.
+Mais je ne puis m'empêcher de me justifier de l'avoir abordée
+en montrant à quelles conséquences funestes peut conduire une erreur
+ou, si l'on veut, une vérité incomplète, placée à l'entrée d'une science.
+][
+Le moindre inconvénient de la définition que je combats
+a été d'écourter et mutiler l'économie politique.
+Si la valeur réside dans la matière,
+là où il n'y a pas de matière il n'y a pas de valeur.
+Les physiocrates appelaient classes ,(emph[stériles]),
+et Smith, adoucissant l'expression, classes ,(emph[improductives]),
+les trois quarts de la population.
+][
+Et comme en définitive les faits sont plus forts que les définitions,
+il fallait bien, par quelque côté,
+faire rentrer ces classes dans le cercle des études économiques.
+On les y appelait par voie d'analogie;
+mais la langue de la science, faite sur une autre donnée,
+se trouvait d'avance matérialisée
+au point de rendre cette extension choquante.
+Qu'est-ce que: ,(q[,(emph[Consommer un produit immatériel?])
+,(emph[L'homme est un capital accumulé?])
+,(emph[La sécurité est une marchandise?])])
+etc., etc.
+][
+Non-seulement on matérialisait outre mesure la langue,
+mais on était réduit à la surcharger de distinctions subtiles,
+afin de réconcilier les idées qu'on avait faussement séparées.
+On imaginait la ,(emph[valeur d'usage])
+par opposition à la ,(emph[valeur d'échange]), etc.
+][
+Enfin, et ceci est bien autrement grave,
+grâce à cette confusion
+des deux grands phénomènes sociaux,
+la ,(emph[propriété]) et la ,(emph[communauté]),
+l'un restait injustifiable et l'autre indiscernable.
+][
+En effet, si la valeur est dans la matière,
+elle se confond avec les qualités physiques des corps
+qui les rendent utiles à l'homme.
+Or ces qualités y sont souvent mises par la nature.
+Donc la nature concourt à créer la ,(emph[valeur]),
+et nous voilà attribuant de la Valeur
+à ce qui est ,(emph[gratuit et commun]) par essence.
+Où est donc alors la base de la ,(emph[propriété])?
+Quand la rémunération que je cède pour acquérir un produit matériel,
+du blé, par exemple,
+se distribue entre tous les travailleurs
+qui, à l'occasion de ce produit, m'ont, de près ou de loin,
+rendu quelque service,
+à qui va cette part de rémunération correspondante
+à la portion de Valeur due à la nature et étrangère à l'homme?
+Va-t-elle à Dieu?
+Nul ne le soutient, et l'on n'a jamais vu Dieu réclamer son salaire.
+Va-t-elle à un homme?
+À quel titre, puisque, dans l'hypothèse, il n'a rien fait?
+][
+Et qu'on n'imagine pas que j'exagère,
+que, dans l'intérêt de ma définition,
+je force les conséquences rigoureuses de la définition des économistes.
+Non, ces conséquences,
+ils les ont très-explicitement tirées eux-mêmes
+sous la pression de la logique.
+][
+Ainsi, ,(emph[Senior]) en est arrivé à dire:
+,(q[Ceux qui se sont emparés des agents naturels
+reçoivent, sous forme de rente, une récompense sans avoir fait de sacrifices.
+Leur rôle se borne à tendre la main
+pour recevoir les offrandes du reste de la communauté.])
+,(emph[Scrope]): ,(q[La propriété de la terre
+est une restriction artificielle mise à la jouissance des dons
+que le Créateur avait destinés à la satisfaction des besoins de tous.])
+,(emph[Say]):
+,(q[Les terres cultivables ,(emph[sembleraient]) devoir être comprises
+parmi les richesses naturelles, puisqu'elles ne sont pas de création humaine,
+et que la nature les donne ,(emph[gratuitement]) à l'homme.
+Mais comme cette richesse n'est pas fugitive, ainsi que l'air et l'eau,
+comme un champ est un espace fixe et circonscrit
+que ,(emph[certains]) hommes ,(emph[ont pu]) s'approprier,
+à l'exclusion de tous les autres
+qui ont donné leur consentement à cette appropriation,
+la terre, qui était un bien naturel et ,(emph[gratuit]),
+est ,(emph[devenue]) une richesse sociale
+dont l'usage ,(emph[a dû]) se payer.])
+][
+Certes, s'il en est ainsi,
+Proudhon est justifié d'avoir posé cette terrible interrogation,
+suivie d'une affirmation plus terrible encore:
+][
+,(q[À qui est dû le fermage de la terre?
+Au producteur de la terre sans doute.
+Qui a fait la terre?
+Dieu.
+En ce cas, propriétaire, retire-toi.])
+][
+Oui, par une mauvaise définition,
+l'économie politique a mis la logique du côté des communistes.
+Cette arme terrible,
+je la briserai dans leurs mains,
+ou plutôt ils me la rendront joyeusement.
+Il ne restera rien des conséquences quand j'aurai anéanti le principe.
+Et je prétends démontrer
+que si, dans la production des richesses,
+l'action de la nature se combine avec l'action de l'homme,
+la première, gratuite et commune par essence,
+reste toujours gratuite et commune à travers toutes nos transactions;
+que la seconde représente seule des ,(emph[services]), de la ,(emph[valeur]),(pv)
+que, seule, elle se rémunère;
+que, seule, elle est le fondement, l'explication et la justification
+de la Propriété.
+En un mot, je prétends que, relativement les uns aux autres,
+les hommes ne sont propriétaires que de la valeur des choses,
+et qu'en se passant de main en main les produits
+ils stipulent uniquement sur la valeur,
+c'est-à-dire sur les services réciproques,
+se donnant, par-dessus le marché,
+toutes les qualités, propriétés et utilités
+que ces produits tiennent de la nature.
+][
+Si, jusqu'ici, l'économie politique,
+en méconnaissant cette considération fondamentale,
+a ébranlé le principe tutélaire de la propriété,
+présentée comme une institution artificielle, nécessaire, mais injuste;
+du même coup elle a laissé dans l'ombre, complétement inaperçu,
+un autre phénomène admirable,
+la plus touchante dispensation de la Providence envers sa créature,
+le phénomène de la ,(emph[communauté progressive]).
+][
+La richesse, en prenant ce mot dans son acception générale,
+résulte de la combinaison de deux actions,
+celle de la nature et celle de l'homme.
+La première est ,(emph[gratuite]) et ,(emph[commune]),
+par destination providentielle,
+et ne perd jamais ce caractère.
+La seconde est seule ,(emph[pourvue de valeur]),
+et par conséquent ,(emph[appropriée]).
+Mais, par suite du développement de l'intelligence
+et du progrès de la civilisation,
+l'une prend une part de plus en plus grande,
+l'autre prend une part de plus en plus petite
+à la réalisation de toute utilité donnée;
+d'où il suit que le domaine de la Gratuité et de la Communauté
+se dilate sans cesse, au sein de la race humaine,
+proportionnellement au domaine de la Valeur et de la Propriété:
+aperçu fécond et consolant,
+entièrement soustrait à l',(oe)il de la science
+tant qu'elle attribue de la valeur à la coopération de la nature.
+][
+Dans toutes les religions on remercie Dieu de ses bienfaits;
+le père de famille bénit le pain qu'il rompt et distribue à ses enfants:
+touchant usage que la raison ne justifierait pas
+s'il n'y avait rien de gratuit dans les libéralités de la Providence.
+][
+,(emph[Conservabilité]).
+Cette prétendue condition ,(inlatin[sine quâ non]) de la Valeur
+se rattache à celle que je viens de discuter.
+Pour que la Valeur existe, pensait ,(emph[Smith]),
+il faut qu'elle soit fixée en quelque chose
+qui se puisse échanger, accumuler, conserver,
+par conséquent en quelque chose de ,(emph[matériel]).
+][
+,(q[Il y a un genre de travail, dit-il,
+qui ajoute,(footnote*[
+,(emph[Ajoute!]) Le sujet avait donc de la valeur par lui-même,
+antérieurement au travail.
+Il ne pouvait la tenir que de la nature.
+L'action naturelle n'est donc pas ,(emph[gratuite]).
+Qui donc a l'audace de se faire payer
+cette portion de valeur ,(emph[extra-humaine?])
+])
+à la valeur du sujet sur lequel il s'exerce.
+Il y en a un autre qui n'a pas cet effet.])
+][
+,(q[Le travail manufacturier, ajoute Smith,
+se fixe et se réalise dans quelque marchandise vendable,
+,(emph[qui dure au moins quelque temps]) après que le travail est passé.
+Le travail des domestiques, au contraire
+(auquel l'auteur assimile sous ce rapport celui
+des militaires, magistrats, musiciens, professeurs, etc.),
+ne se fixe en aucune marchandise vendable.
+Les services s'évanouissent à mesure qu'ils sont rendus,
+et ne laissent pas trace de ,(emph[Valeur]) après eux.])
+][
+On voit qu'ici la ,(emph[Valeur]) se rapporte plutôt
+à la modification des choses qu'à la satisfaction des hommes;
+erreur profonde:
+car s'il est bon que les choses soient modifiées,
+c'est uniquement pour arriver à cette satisfaction
+qui est le but, la fin, la ,(emph[consommation]) de tout Effort.
+Si donc nous la réalisons par un effort immédiat et direct,
+le résultat est le même;
+si, en outre, cet effort est susceptible de transactions, d'échanges,
+d',(emph[évaluation]), il renferme le principe de la ,(emph[valeur]).
+][
+Quant à l'intervalle qui peut s'écouler entre l'effort et la satisfaction,
+en vérité Smith lui donne trop de gravité
+quand il dit que l'existence ou la non-existence de la Valeur en dépend.
+,(--) ,(q[La Valeur d'une marchandise vendable, dit-il,
+,(emph[dure au moins quelque temps]).])
+,(--) Oui, sans doute, elle dure
+jusqu'à ce que cet objet ait rempli sa destination,
+qui est de satisfaire au besoin,
+et il en est exactement de même d'un service.
+Tant que cette assiette de fraises restera dans le buffet;
+elle conservera sa valeur.
+,(--) Mais pourquoi?
+parce qu'elle est le résultat d'un service
+que j'ai voulu me rendre à moi-même
+ou que d'autres m'ont rendu moyennant compensation,
+et ,(emph[dont je n'ai pas encore usé]).
+Sitôt que j'en aurai usé en mangeant les fraises, la valeur disparaîtra.
+,(emph[Le service se sera évanoui
+et ne laissera pas trace de valeur après lui.])
+C'est tout comme dans le service personnel.
+Le consommateur fait disparaîre la Valeur,
+car elle n'a été créée qu'à cette fin.
+Il importe peu à la notion de valeur
+que la peine prise aujourd'hui satisfasse le besoin
+immédiatement, ou demain, ou dans un an.
+][
+Quoi! je suis affligé de la cataracte.
+J'appelle un oculiste.
+L'instrument dont il se sert aura de la ,(emph[Valeur]),
+parce qu'il a de la durée,
+et l'opération n'en a pas,
+encore que je la paye,
+que j'en aie débattu le prix,
+que j'aie mis plusieurs opérateurs en concurrence?
+Mais cela est contraire aux faits les plus usuels,
+aux notions les plus unanimement reçues;
+et qu'est-ce qu'une théorie
+qui, ne sachant pas rendre compte de l'universelle pratique,
+la tient pour non avenue?
+][
+Je vous prie de croire, lecteur,
+que je ne me laisse pas emporter
+par un goût désordonné pour la controverse.
+Si j'insiste sur ces notions élémentaires,
+c'est pour préparer votre esprit
+à des conséquences d'une haute gravité qui se manifesteront plus tard.
+Je ne sais si c'est violer les lois de la méthode
+que de faire pressentir, par anticipation, ces conséquences;
+mais je me permets cette légère infraction,
+dans la crainte où je suis de voir la patience vous échapper.
+C'est ce qui m'a porté tout à l'heure à vous parler prématurément
+de ,(emph[propriété]) et de ,(emph[communauté]).
+Par le même motif, je dirai un mot du ,(emph[Capital]).
+][
+Smith, faisant résider la richesse dans la matière,
+ne pouvait concevoir le Capital
+que comme une accumulation d'objets matériels.
+Comment donc attribuer de la Valeur
+à des Services non susceptibles d'être accumulés, capitalisés?
+][
+Parmi les capitaux, on place en première ligne
+les outils, machines, instruments de travail.
+Ils servent à faire concourir les forces naturelles
+à l',(oe)uvre de la production,
+et puisqu'on attribuait à ces forces la faculté de créer de la valeur,
+on était amené à penser que les instruments de travail
+étaient, ,(emph[par eux-mêmes]), doués de la même faculté,
+indépendamment de tout service humain.
+Ainsi la bêche, la charrue, la machine à vapeur,
+étaient censées concourir simultanément
+avec les agents naturels et les forces humaines
+à créer non-seulement de l'Utilité, mais encore de la Valeur.
+Mais toute valeur se paye dans l'échange.
+À qui donc revenait cette part de valeur indépendante de tout service humain?
+][
+C'est ainsi que l'école de Proudhon,
+après avoir contesté la ,(emph[rente de la terre]),
+a été amenée à contester l',(emph[intérêt des capitaux]),
+thèse plus large, puisqu'elle embrasse l'autre.
+J'affirme que l'erreur proudhonnienne, au point de vue scientifique,
+a sa racine dans l'erreur de Smith.
+Je démontrerai que les capitaux, comme les agents naturels,
+considérés en eux-mêmes et dans leur action propre, créent de l'utilité,
+mais jamais de valeur.
+Celle-ci est, par essence, le fruit d'un légitime ,(emph[service]).
+Je démontrerai aussi que, dans l'ordre social,
+les capitaux ne sont pas une accumulation d'objets matériels,
+tenant à la conservabilité matérielle,
+mais une accumulation de ,(emph[valeurs]),
+c'est-à-dire de ,(emph[services]).
+Par là se trouvera détruite,
+virtuellement du moins et faute de raison d'être,
+cette lutte récente contre la productivité du capital,
+et cela à la satisfaction de ceux-là mêmes qui l'ont soulevée;
+car si je prouve qu'il ne se passe rien
+dans le monde des échanges qu'une ,(emph[mutualité de services]),
+M. Proudhon devra se tenir pour vaincu par la victoire même de son principe.
+][
+,(emph[Travail]). Ad. Smith et ses élèves ont assigné
+le principe de la Valeur au Travail, sous la condition de la Matérialité.
+Ceci est contradictoire à cette autre opinion,
+que les forces naturelles prennent une part quelconque
+dans la production de la Valeur.
+Je n'ai pas ici à combattre ces contradictions
+qui se manifestent dans toutes leurs conséquences funestes,
+quand ces auteurs parlent de la rente des terres ou de l'intérêt des capitaux.
+][
+Quoi qu'il en soit,
+quand ils font remonter le principe de la Valeur au Travail,
+ils approcheraient énormément de la vérité,
+s'ils ne faisaient pas allusion au travail manuel.
+J'ai dit, en effet, en commençant ce chapitre,
+que la valeur devait se rapporter à l'Effort,
+expression que j'ai préférée à celle de Travail,
+comme plus générale et embrassant toute la sphère de l'activité humaine.
+Mais je me suis hâté d'ajouter
+qu'elle ne pouvait naître que d'efforts échangés, ou de Services réciproques,
+parce qu'elle n'est pas une chose existant par elle-même, mais un rapport.
+][
+Il y a donc, rigoureusement parlant, deux vices dans la définition de Smith.
+Le premier, c'est qu'elle ne tient pas compte de l'échange,
+sans lequel la valeur ne se peut ni produire ni concevoir;
+le second, c'est qu'elle se sert d'un mot trop étroit, ,(emph[travail]),
+à moins qu'on ne donne à ce mot une extension inusitée
+en y comprenant des idées, non-seulement d'intensité et de durée,
+mais d'habileté, de sagacité et même de chances plus ou moins heureuses.
+][
+Remarquez que le mot ,(emph[service]), que je substitue dans la définition,
+fait disparaître ces deux défectuosités.
+Il implique nécessairement l'idée de transmission,
+puisqu'un service ne peut être rendu qu'il ne soit reçu;
+et il implique aussi l'idée ,(XXX :EO [iée]) d'un Effort
+sans préjuger que la valeur lui soit proportionnelle.
+][
+Et c'est là surtout en quoi pèche la définition des économistes anglais.
+Dire que la valeur est dans le travail,
+c'est induire l'esprit à penser qu'ils se servent de mesure réciproque,
+qu'ils sont proportionnels entre eux.
+En cela, elle est contraire aux faits,
+et une définition contraire aux faits est une définition défectueuse.
+][
+Il est très-fréquent qu'un travail considéré comme insignifiant en lui-même
+soit accepté dans le monde pour une ,(emph[valeur]) énorme
+(exemples: le diamant,
+le chant d'une prima donna,
+quelques traits de plume d'un banquier,
+la spéculation heureuse d'un armateur,
+le coup de pinceau d'un Raphaël,
+une bulle d'indulgence plénière,
+le facile rôle d'une reine d'Angleterre, etc.),(pv)
+il est plus fréquent encore qu'un travail opiniâtre, accablant,
+n'aboutisse qu'à une déception, à une ,(emph[non-valeur]).
+S'il en est ainsi, comment pourrait-on établir une corrélation,
+une proportion nécessaire entre la ,(emph[Valeur]) et le ,(emph[Travail])?
+][
+Ma définition lève la difficulté.
+Il est clair qu'il est des circonstances
+où l'on peut rendre un grand Service en se donnant peu de peine;
+d'autres, où, après s'être donné beaucoup de peine,
+on trouve qu'elle ne rend ,(emph[service]) à personne,
+et c'est pourquoi il est plus exact de dire, sous ce rapport encore,
+que la Valeur est dans le Service plutôt que dans le Travail,
+puisqu'elle est proportionnelle à l'un et pas à l'autre.
+][
+J'irai plus loin.
+J'affirme que la ,(emph[valeur]) s'estime au moins autant
+par le travail épargné au cessionnaire
+que par le travail exécuté par le cédant.
+Que le lecteur veuille bien se rappeler
+le dialogue intervenu entre deux contractants,
+à propos d'une pierre précieuse.
+Il n'est pas né d'une circonstance accidentelle,
+et j'ose dire qu'il est, tacitement, au fond de toutes les transactions.
+Il ne faut pas perdre de vue que nous supposons ici aux deux contractants
+une entière liberté, la pleine possession de leur volonté et de leur jugement.
+Chacun d'eux se détermine à accepter l'échange
+par des considérations nombreuses,
+parmi lesquelles figure certainement en première-ligne
+la difficulté pour le cessionnaire
+de se procurer directement la satisfaction qui lui est offerte.
+Tous deux ont les yeux sur cette difficulté et en tiennent compte,
+l'un pour être plus ou moins facile, l'autre pour être plus ou moins exigeant.
+La peine prise par le cédant exerce aussi une influence sur le marché,
+c'en est un des éléments, mais ce n'est pas le seul.
+Il n'est donc pas exact de dire que la Valeur est déterminée par le travail.
+Elle l'est par une foule de considérations,
+toutes comprises dans le mot ,(emph[service]).
+][
+Ce qui est très-vrai, c'est que,
+par l'effet de la concurrence,
+les Valeurs ,(emph[tendent]) à se proportionner aux Efforts,
+ou les récompenses aux mérites.
+C'est une des belles Harmonies de l'ordre social.
+Mais, relativement à la valeur,
+cette pression égalitaire exercée par la concurrence est tout extérieure;
+et il n'est pas permis, en bonne logique,
+de confondre l'influence que subit un phénomène d'une cause externe
+avec le phénomène même
+,(footnote*[
+C'est parce que, sous l'empire de la liberté,
+les efforts se font concurrence entre eux
+qu'ils obtiennent cette rémunération
+à peu près proportionnelle à leur intensité.
+Mais, je le répète,
+cette proportionnalité n'est pas inhérente à la notion de valeur.
+][
+Et la preuve, c'est que là où la concurrence n'existe pas,
+la proportionnalité n'existe pas davantage.
+On ne remarque, en ce cas,
+aucun rapport entre les travaux de diverse nature et leur rémunération.
+][
+L'absence de concurrence peut provenir
+de la nature des choses ou de la perversité des hommes.
+][
+Si elle vient de la nature des choses,
+on verra un travail comparativement très-faible
+donner lieu à une grande ,(emph[valeur]),
+sans que personne ait raisonnablement à se plaindre.
+C'est le cas de la personne qui trouve un diamant;
+c'est le cas de Rubini, de Malibran, de Taglioni,
+du tailleur en vogue, du propriétaire du Clos-Vougeot, etc., etc.
+Les circonstances les ont mis en possession
+d'un moyen extraordinaire de rendre service;
+ils n'ont pas de rivaux et se font payer cher.
+,(emph[Le service lui-même étant d'une rareté excessive]),
+cela prouve qu'il n'est pas essentiel
+au bien-être et au progrès de l'humanité.
+Donc c'est un objet de luxe, d'ostentation:
+que les riches se le procurent.
+N'est-il pas naturel que tout homme attende,
+avant d'aborder ce genre de satisfactions,
+qu'il se soit mis à même de pourvoir
+à des besoins plus impérieux et plus raisonnables?
+][
+Si la concurrence est absente par suite de quelque violence humaine,
+alors les mêmes effets se produisent,
+mais avec cette différence énorme
+qu'ils se produisent où et quand ils n'auraient pas dû se produire.
+Alors on voit aussi un travail comparativement faible
+donner lieu à une grande valeur;
+mais comment?
+En interdisant violemment cette concurrence
+qui a pour mission de proportionner les rémunérations aux services.
+Alors, de ,(XXX :EO [du] '?) même que Rubini peut dire à un dilettante:
+,(q[Je veux une très-grande récompense,
+ou je ne chante pas à votre soirée,])
+se fondant sur ce qu'il s'agit là d'un service que lui seul peut rendre,
+,(--) de même un boulanger, un boucher, un propriétaire, un banquier peut dire:
+,(q[Je veux une récompense extravagante,
+ou vous n'aurez pas mon blé, mon pain, ma viande, mon or;
+et j'ai pris des précautions, j'ai organisé des baïonnettes
+pour que vous ne puissiez pas vous pourvoir ailleurs,
+pour que nul ne puisse vous rendre des services analogues aux miens.])
+][
+Les personnes qui assimilent le monopole artificiel
+et ce qu'elles appellent le monopole naturel,
+parce que l'un et l'autre ont cela de commun,
+qu'ils accroissent la valeur du travail, ces personnes, dis-je,
+sont bien aveugles et bien superficielles.
+][
+Le monopole artificiel est une spoliation véritable.
+Il produit des maux qui n'existeraient pas sans lui.
+Il inflige des privations à une portion considérable de la société,
+souvent à l'égard des objets les plus nécessaires.
+En outre, il fait naître l'irritation, la haine, les représailles,
+fruits de l'injustice.
+][
+Les avantages naturels ne font aucun mal à l'humanité.
+Tout au plus pourrait-on dire
+qu'ils constatent un mal préexistant et qui ne leur est pas imputable.
+Il est fâcheux, peut-être,
+que le tokay ne soit pas aussi abondant et à aussi bas prix que la piquette.
+Mais ce n'est pas là un fait social;
+il nous a été imposé par la nature.
+][
+Il y a donc entre l'avantage naturel et le monopole artificiel
+cette différence profonde:
+][
+L'un est la conséquence d'une rareté préexistante, inévitable;
+][
+L'autre est la cause d'une rareté factice, contre nature.
+][
+Dans le premier cas, ce n'est pas l'absence de concurrence qui fait la rareté,
+c'est la rareté qui explique l'absence de concurrence.
+L'humanité serait puérile, si elle se tourmentait, se révolutionnait,
+parce qu'il n'y a, dans le monde,
+qu'une Jenny Lind, un Clos-Vougeot et un Régent.
+][
+Dans le second cas, c'est tout le contraire.
+Ce n'est pas à cause d'une rareté providentielle
+que la concurrence est impossible,
+mais c'est parce que la force a étouffé la concurrence
+qu'il s'est produit parmi les hommes une rareté qui ne devait pas être.
+][
+(,(emph[Note extraite des manuscrits de l'auteur.]))
+]).
+][
+,(emph[Utilité]). J. B. Say, si je ne me trompe,
+est le premier qui ait secoué le joug de la ,(emph[matérialité]).
+Il fit très-expressément de la valeur une ,(emph[qualité morale]),
+expression qui peut-être dépasse le but,
+car la valeur n'est guère ni physique ni morale,
+c'est simplement ,(--) un rapport.
+][
+Mais le grand économiste français avait dit lui-même:
+,(q[Il n'est donné à personne d'arriver aux confins de la science.
+Les savants montent sur les épaules les uns des autres
+pour explorer du regard un horizon de plus en plus étendu.])
+Peut-être la gloire de M. Say
+(en ce qui concerne la question spéciale qui nous occupe,
+car, à d'autres égards,
+ses titres de gloire sont aussi nombreux qu'impérissables)
+est-elle d'avoir légué à ses successeurs un aperçu fécond.
+][
+L'axiome de M. Say était celui-ci:
+,(emph[La valeur a pour fondement l'utilité]).
+][
+S'il était ici question de l'utilité relative des ,(emph[services]) humains,
+je ne contesterais pas.
+Tout au plus pourrais-je faire observer
+que l'axiome est superflu à force d'être évident.
+Il est bien clair en effet que nul ne consent à rémunérer un ,(emph[service])
+que parce qu'à tort ou à raison il le juge utile.
+Le mot ,(emph[service]) renferme tellement l'idée d',(emph[utilité]),
+qu'il n'est autre chose que la traduction en français,
+et même la reproduction littérale
+du mot latin ,(inlatin[uti]), ,(emph[servir]).
+][
+Mais malheureusement ce n'est pas ainsi que Say l'entendait.
+Il trouvait le principe de la valeur
+non-seulement dans les services humains rendus à l'occasion des choses,
+mais encore dans les qualités ,(emph[utiles]),
+mises par la nature dans les choses elles-mêmes.
+,(--) Par là il se replaçait sous le joug de la matérialité.
+Par là, il faut bien le dire,
+il était loin de déchirer le voile funeste
+que les économistes anglais avaient jeté sur la question de propriété.
+][
+Avant de discuter en lui-même l'axiome de Say,
+j'en dois faire voir la portée logique,
+afin qu'il ne me soit pas reproché
+de me lancer et d'entraîner le lecteur dans d'oiseuses dissertations.
+][
+On ne peut pas douter que l'Utilité dont parle Say
+est celle qui est dans les choses.
+Si le blé, le bois, la houille, le drap ont de la valeur,
+c'est que ces produits ont des qualités qui les rendent propres à notre usage,
+à satisfaire le besoin que nous avons
+de nous nourrir, de nous chauffer, de nous vêtir.
+][
+Dès lors, comme la nature crée de l',(emph[Utilité]),
+elle crée de la ,(emph[Valeur]),(pv)
+,(--) funeste confusion
+dont les ennemis de la propriété se sont fait une arme terrible.
+][
+Voilà un produit, du blé, par exemple.
+Je l'achète à la halle pour seize francs.
+Une grande partie de ces seize francs se distribue,
+par des ramifications infinies,
+par une inextricable complication d'avances et de remboursements,
+entre tous les hommes qui, de près ou de loin,
+ont concouru à mettre ce blé à ma portée.
+Il y a quelque chose pour
+le laboureur, le semeur, le moissonneur, le batteur,
+le charretier, ainsi que pour le forgeron,
+le charron qui ont préparé les instruments.
+Jusqu'ici il n'y a rien à dire, que l'on soit économiste ou communiste.
+][
+Mais j'aperçois que quatre francs sur mes seize francs
+vont au propriétaire du sol,
+et j'ai bien le droit de demander si cet homme, comme tous les autres,
+m'a rendu un Service,
+pour avoir, comme tous les autres, droit incontestable à une rémunération.
+][
+D'après la doctrine que cet écrit aspire à faire prévaloir,
+la réponse est catégorique.
+Elle consiste en un ,(emph[oui]) très formel.
+Oui, le propriétaire m'a rendu un ,(emph[service]).
+Quel est-il?
+Le voici:
+Il a, par lui-même ou par son aïeul, défriché et clôturé le champ;
+il l'a purgé de mauvaises herbes et d'eaux stagnantes;
+il a donné plus d'épaisseur à la couche végétale;
+il a bâti une maison, des étables, des écuries.
+Tout cela suppose un long travail qu'il a exécuté en personne,
+ou, ce qui revient au même, qu'il a payé à d'autres.
+Ce sont certainement là des services
+qui, en vertu de la juste loi de réciprocité, doivent lui être remboursés.
+Or, ce propriétaire n'a jamais été rémunéré, du moins intégralement.
+Il ne pouvait pas l'être
+par le premier qui est venu lui acheter un hectolitre de blé.
+Quel est donc l'arrangement qui est intervenu?
+Assurément le plus ingénieux,
+le plus légitime et le plus équitable qu'on pût imaginer.
+Il consiste en ceci:
+Quiconque voudra obtenir un sac de blé, payera,
+outre les services des différents travailleurs que nous avons énumérés,
+une petite portion des ,(emph[services]) rendus par le propriétaire;
+en d'autres termes,
+la ,(emph[Valeur des services]) du propriétaire se répartira
+sur tous les sacs de blé qui sortiront de ce champ.
+][
+Maintenant on peut demander si cette rémunération,
+supposée être ici de quatre francs, est trop grande ou trop petite.
+Je réponds:
+Cela ne regarde pas l'économie politique.
+Cette science constate que la valeur des services du propriétaire foncier
+se règle absolument par les mêmes lois
+que la valeur de tous les autres services, et cela suffit.
+][
+On peut s'étonner aussi que ce système de remboursement morcelé
+n'arrive pas à la longue à un amortissement intégral,
+par conséquent à l'extinction du droit du propriétaire.
+Ceux qui font cette objection ne savent pas
+qu'il est dans la nature des capitaux de produire une rente perpétuelle;
+c'est ce que nous apprendrons plus tard.
+][
+Pour le moment, je ne dois pas m'écarter plus longtemps de la question,
+et je ferai remarquer (car tout est là)
+qu'il n'y a pas dans mes seize francs
+une obole qui n'aille rémunerer des services humains,
+pas une qui corresponde à la prétendue ,(emph[valeur])
+que la nature aurait introduite dans le blé eu y mettant l',(emph[utilité]).
+][
+Mais si, vous appuyant sur l'axiome de Say et des économistes anglais,
+vous dites:
+Sur les seize francs, il y en a douze qui vont
+aux laboureurs, semeurs, moissonneurs, charretiers, etc.,
+deux qui récompensent les services personnels du propriétaire;
+enfin, deux autres francs représentent une valeur
+qui a pour fondement l',(emph[utilité]) créée par Dieu,
+par des agents naturels,
+et en dehors de toute coopération humaine;
+,(--) ne voyez-vous pas qu'on vous demandera de suite:
+Qui doit profiter de cette portion de ,(emph[valeur])
+qui a droit à cette rémunération?
+Dieu ne se présente pas pour la recevoir.
+Qui osera se présenter à sa place?
+][
+Et plus Say veut expliquer la propriété sur cette donnée,
+plus il prête le flanc à ses adversaires.
+Il compare d'abord, avec raison, la terre à un laboratoire,
+où s'accomplissent des opérations chimiques
+dont le résultat est utile aux hommes.
+,(q[Le sol, ajoute-t-il, est donc ,(emph[producteur d'une utilité]),
+et lorsqu',(strong[il]) (le sol) la fait payer
+sous la forme d'un profit ou d'un fermage ,(emph[pour son propriétaire]),
+ce n'est pas sans rien donner au consommateur
+en échange de ce que le consommateur ,(strong[lui]) (au sol) paye.
+,(strong[Il]) (toujours le sol) lui donne une utilité produite,
+et c'est en produisant cette utilité
+que ,(emph[la terre est productive aussi bien que le travail]).])
+][
+Ainsi, l'assertion est nette.
+Voilà deux prétendants qui se présentent
+pour se partager la rémunération due par le consommateur du blé, savoir:
+la terre et le travail.
+Ils se présentent au même titre, car le sol, dit M. Say,
+est productif comme le travail.
+Le travail demande à être rémunéré d'un ,(emph[service]),(pv)
+le sol demande à être rémunéré d'une ,(emph[utilité]), et cette rémunération,
+il ne la demande pas pour lui (sous quelle forme la lui donnerait-on?),
+il la réclame pour ,(emph[son propriétaire]).
+][
+Sur quoi Proudhon somme ce propriétaire,
+qui se dit chargé de pouvoirs du sol, de montrer sa procuration.
+][
+On veut que je paye, en d'autres termes, que je rende un service,
+pour recevoir l',(emph[utilité]) produite par les agents naturels,
+indépendamment du concours de l'homme déjà payé séparément.
+][
+Mais je demanderai toujours:
+Qui profitera de mon service?
+][
+Sera-ce le producteur de l'utilité, c'est-à-dire le sol?
+Cela est absurde,
+et je puis attendre tranquillement qu'il m'envoie un huissier.
+][
+Sera-ce un homme?
+mais à quel titre?
+Si c'est pour m'avoir rendu un service, à la bonne heure.
+Mais alors vous êtes à mon point de vue.
+C'est le service humain qui ,(emph[vaut]),
+et non le service naturel;
+c'est la conclusion à laquelle je veux vous amener.
+][
+Cependant, cela est contraire à votre hypothèse même.
+Vous dites que tous les services humains sont rémunérés par quatorze francs,
+et que les deux francs qui complètent le prix du blé
+répondent à la valeur créée par la nature.
+En ce cas, je répète ma question:
+À quel titre un homme quelconque se présente-t-il pour les recevoir?
+Et n'est-il pas malheureusement trop clair
+que si vous appliquez spécialement le nom de ,(emph[propriétaire])
+à l'homme qui revendique le droit de toucher ces deux francs,
+vous justifiez cette trop fameuse maxime:
+,(emph[La propriété c'est le vol?])
+][
+Et qu'on ne pense pas que cette confusion
+entre l'utilité et la valeur
+se borne à ébranler la propriété foncière.
+Après avoir conduit à contester la ,(emph[rente de la terre]),
+elle conduit à contester l',(emph[intérêt du capital]).
+][
+En effet, les machines, les instruments de travail
+sont, comme le sol, producteurs d',(emph[utilité]).
+Si cette utilité a une valeur, elle se paye,
+car le mot Valeur implique droit à payement.
+Mais à qui se paye-t-elle?
+au propriétaire de la machine, sans doute.
+Est-ce pour un service personnel?
+alors dites donc que la valeur est dans le service.
+Mais si vous dites qu'il faut faire un premier payement pour le service,
+et un second pour l'utilité produite par la machine,
+indépendamment de toute action humaine déjà rétribuée,
+on vous demandera à qui va ce second payement, et comment l'homme,
+qui est déjà rémunéré de tous ses services,
+a-t-il droit de réclamer quelque chose de plus?
+][
+La vérité est que l'utilité produite par la nature
+est ,(emph[gratuite]), partant ,(emph[commune]),
+ainsi que celle produite par les instruments de travail.
+Elle est gratuite et commune à une condition:
+c'est de se donner la peine,
+c'est de se rendre à soi-même le service de la recueillir, ou,
+si l'on donne cette peine, si l'on demande ce service à autrui,
+de céder en retour un service ,(emph[équivalent]).
+C'est dans ces services comparés qu'est la valeur,
+et nullement dans l'utilité naturelle.
+Cette peine peut être plus ou moins grande,
+ce qui fait varier la valeur et non l'utilité.
+Quand nous sommes auprès d'une source abondante,
+l'eau est gratuite pour nous tous,
+à la condition de nous baisser pour la prendre.
+Si nous chargeons notre voisin de prendre cette peine pour nous,
+alors je vois apparaître une convention, un marché, une ,(emph[valeur]),
+mais cela ne fait pas que l'eau ne reste gratuite.
+Si nous sommes à une heure de la source,
+le marché se fera sur d'autres bases quant au degré,
+mais non quant au principe.
+La valeur n'aura pas passé pour cela dans l'eau ni dans son utilité.
+L'eau continuera d'être ,(emph[gratuite]), à la condition de l'aller chercher,
+ou de rémunérer ceux qui, après libre débat,
+consentent à nous épargner cette peine en la prenant eux-mêmes.
+][
+Il en est ainsi pour tout.
+Les utilités nous entourent,
+mais il faut ,(emph[se baisser pour les prendre]),(pv)
+cet effort, quelquefois très-simple, est souvent fort compliqué.
+Rien n'est plus facile, dans la plupart des cas,
+que de recueillir l'eau dont la nature a préparé l'utilité.
+Il ne l'est pas autant de recueillir le blé
+dont la nature prépare également l'utilité.
+C'est pourquoi la valeur de ces deux efforts diffère par le degré,
+non par le principe.
+Le service est plus ou moins onéreux;
+partant, il ,(emph[vaut]) plus ou moins;
+l'utilité est et reste toujours ,(emph[gratuite]).
+][
+Que s'il intervient un instrument de travail, qu'en résulte-t-il?
+que l'utilité est plus facilement recueillie.
+Aussi le service a-t-il moins de ,(emph[valeur]).
+Nous payons certainement moins cher les livres
+depuis l'invention de l'imprimerie.
+Phénomène admirable et trop méconnu!
+Vous dites que les instruments de travail produisent de la Valeur;
+vous vous trompez,
+c'est de l'Utilité et de l'Utilité gratuite qu'il faut dire.
+Quant à de la Valeur, ils en produisent si peu,
+qu'ils l'anéantissent de plus en plus.
+][
+Il est vrai que celui qui a fait la machine a rendu service.
+Il reçoit une rémunération dont s'augmente la valeur du produit.
+C'est pourquoi nous sommes disposés à nous figurer
+que nous rétribuons l'utilité produite par la machine:
+c'est une illusion.
+Ce que nous rétribuons,
+ce sont les ,(emph[services]) que nous rendent
+tous ceux qui ont concouru à la faire confectionner ou fonctionner.
+La valeur est si peu dans l'utilité produite, que,
+même après avoir rétribué ces nouveaux services,
+l'utilité nous est acquise à de meilleures conditions qu'avant.
+][
+Habituons-nous donc à distinguer l'Utilité de la Valeur.
+Il n'y a de science économique qu'à ce prix.
+Loin que l'Utilité et la Valeur soient identiques ou même assimilables,
+j'ose affirmer, sans crainte d'aller jusqu'au paradoxe,
+que ce sont des idées opposées.
+Besoin, Effort, Satisfaction,
+voilà l'homme, avons-nous dit, au point de vue économique.
+Le rapport de l'Utilité est avec le Besoin et la Satisfaction.
+Le rapport de la Valeur est avec l'Effort.
+L'Utilité est le Bien qui fait cesser le besoin par la satisfaction.
+La Valeur est le mal,
+car elle naît de l'obstacle qui s'interpose entre le besoin et la satisfaction;
+sans ces obstacles, il n'y aurait pas d'efforts à faire et à échanger,
+l'utilité serait infinie, gratuite et commune ,(emph[sans condition]),
+et la notion de valeur ne se serait jamais introduite dans ce monde.
+Par la présence de ces obstacles,
+l'utilité n'est gratuite qu'à la condition d'efforts échangés,
+qui, comparés entre eux, constatent la valeur.
+Plus les obstacles s'abaissent
+devant la libéralité de la nature ou les progrès des sciences,
+plus l'utilité s'approche de la gratuité et de la communauté absolues,
+car la condition onéreuse et par conséquent la ,(emph[valeur])
+diminuent avec ces obstacles.
+Je m'estimerais heureux si,
+à travers toutes ces dissertations qui peuvent paraître subtiles,
+et dont je suis condamné à redouter
+tout à la fois la longueur et la concision,
+je parviens à établir cette vérité rassurante:
+,(emph[propriété légitime de la valeur]),
+,(--) et cette autre vérité consolante:
+,(emph[communauté progressive de l'utilité]).
+][
+Encore une remarque:
+Tout ce qui ,(emph[sert]) est ,(emph[utile])
+(,(inlatin[uti]), ,(emph[servir])),(pv)
+à ce titre, il est fort douteux qu'il existe rien dans l'univers;
+force ou matière, qui ne soit ,(emph[utile]) à l'homme.
+][
+Nous pouvons affirmer du moins, sans crainte de nous tromper,
+qu'une foule de choses nous sont utiles à notre insu.
+Si la lune était placée plus haut ou plus bas,
+il est fort possible que le règne inorganique,
+par suite, le règne végétal,
+par suite encore, le règne animal,
+fussent profondément modifiés.
+Sans cette étoile qui brille au firmament pendant que j'écris,
+peut-être le genre humain ne pourrait-il exister.
+La nature nous a environnés d'utilités.
+Cette qualité d'être ,(emph[utiles]),
+nous la reconnaissons dans beaucoup de substances et de phénomènes;
+dans d'autres, la science et l'expérience nous la révèlent tous les jours;
+dans d'autres encore, elle existe
+quoique complétement et peut-être pour toujours ignorée de nous.
+][
+Quand ces substances et ces phénomènes
+exercent sur nous, mais ,(emph[sans nous]),
+leur action utile, nous n'avons aucun intérêt
+à comparer le degré d'utilité
+dont ils nous sont, et qui plus est,
+nous n'en avons guère les moyens.
+Nous savons que l'oxygène et l'azote nous sont utiles,
+mais nous n'essayons pas, et nous essayerions probablement en vain
+de déterminer dans quelle proportion.
+Il n'y a pas là les éléments de l'évaluation, de la valeur.
+J'en dirai autant des sels, des gaz, des forces répandues dans la nature.
+Quand tous ces agents se meuvent et se combinent de manière
+à produire pour nous, mais ,(emph[sans notre concours]),
+de l'utilité, cette utilité, nous en jouissons sans ,(emph[l'évaluer]).
+C'est quand notre coopération intervient et surtout quand elle s'échange,
+c'est alors et seulement alors qu'apparaissent l'Évaluation et la Valeur,
+portant non sur l'utilité de substances et de phénomènes souvent ignorés,
+mais sur cette coopération même.
+][
+C'est pourquoi je dis:
+la valeur, c'est l'appréciation des services échangés.
+Ces services peuvent être fort compliqués,
+ils peuvent avoir exigé une foule de travaux divers anciens et récents,
+ils peuvent se transmettre d'un hémisphère ou d'une génération
+à une autre génération et à un autre hémisphère,
+embrassant de nombreux contractants,
+nécessitant des crédits, des avances, des arrangements variés,
+jusqu'à ce que la balance générale se fasse;
+toujours est-il que le principe de la ,(emph[valeur]) est en eux
+et non dans l'utilité à laquelle ils servent de véhicule,
+utilité gratuite par essence, et qui passe de main en main,
+qu'on me permette le mot, ,(emph[par-dessus le marché]).
+][
+Après tout, si l'on persiste à voir dans l'Utilité le fondement de la Valeur,
+je le veux bien;
+mais qu'il soit bien entendu
+qu'il ne s'agit pas de cette utilité
+qui est dans les choses et les phénomènes
+par la dispensation de la Providence ou la puissance de l'art,
+mais de l'utilité des services humains comparés et échangés.
+][
+,(emph[Rareté]).
+Selon Senior, de toutes les circonstances qui influent sur la Valeur,
+la rareté est la plus décisive.
+Je n'ai aucune objection à faire contre cette remarque,
+si ce n'est qu'elle suppose, par sa forme,
+que la valeur est inhérente aux choses mêmes;
+hypothèse dont je combattrai toujours jusqu'à l'apparence.
+Au fond, le mot ,(emph[rareté]), dans le sujet qui nous occupe,
+exprime d'une manière abrégée cette pensée:
+Toutes choses égales d'ailleurs,
+un service a d'autant plus de valeur
+que nous aurions plus de difficulté à nous le rendre à nous-mêmes,
+et que, par conséquent,
+nous rencontrons plus d'exigences quand nous le réclamons d'autrui.
+La rareté est une de ces difficultés.
+C'est un ,(emph[obstacle]) de plus à surmonter.
+Plus il est grand, plus nous rémunérons ceux qui le surmontent pour nous.
+,(--) La rareté donne souvent lieu à des rémunérations considérables;
+et c'est pourquoi je refusais
+d'admettre tout à l'heure avec les économistes anglais
+que la Valeur fût proportionnelle au travail.
+Il faut tenir compte de la parcimonie
+avec laquelle la nature nous a traités à certains égards.
+Le mot ,(emph[service]) embrasse toutes ces idées et nuances d'idées.
+][
+,(emph[Jugement]).
+Storch voit la valeur dans le jugement qui nous la fait reconnaître.
+,(--) Sans doute, chaque fois qu'il s'agit d'un ,(emph[rapport]),
+il faut comparer et ,(emph[juger]).
+Mais le rapport n'en est pas moins une chose et le jugement une autre.
+Quand nous comparons la hauteur de deux arbres,
+leur grandeur et la différence de leur grandeur
+sont indépendantes de notre appréciation.
+][
+Mais dans la détermination de la valeur,
+quel est le rapport qu'il s'agit de juger?
+C'est le rapport de deux services échangés.
+La question est de savoir ce que valent, l'un à l'égard de l'autre,
+les services rendus et reçus,
+à l'occasion des actes transmis ou des choses cédées,
+en tenant compte de toutes les circonstances,
+et non ce que ces actes ou ces choses contiennent d'utilité intrinsèque,
+car cette utilité peut être en partie étrangère
+à toute action humaine et par conséquent étrangère à la ,(emph[valeur]).
+][
+Storch reste donc dans l'erreur fondamentale que je combats ici,
+quand il dit:
+][
+,(q[Notre jugement nous fait découvrir
+le rapport qui existe entre nos besoins et l'utilité des choses.
+L'arrêt que notre jugement porte sur l',(emph[utilité des choses])
+constitue leur ,(emph[valeur]).])
+][
+Et plus loin:
+][
+,(q[Pour créer une valeur, il faut la réunion de trois circonstances:
+1° que l'homme éprouve ou conçoive un besoin;
+2° qu'il existe une chose propre à satisfaire ce besoin;
+3° que le jugement se prononce en faveur de l',(emph[utilité de la chose]).
+Donc la valeur des choses, c'est leur ,(emph[utilité]) relative.])
+][
+Le jour, j'éprouve le besoin de voir clair.
+Il existe une chose propre à satisfaire ce besoin,
+qui est la lumière du soleil.
+Mon jugement se prononce en faveur de l'utilité de cette chose, et...
+elle n'a pas de valeur.
+Pourquoi?
+Parce que j'en jouis sans réclamer le service de personne.
+][
+La nuit, j'éprouve le même besoin.
+Il existe une chose propre à le satisfaire très-imparfaitement, une bougie.
+Mon jugement se prononce sur l'utilité,
+mais sur l'utilité relative beaucoup moindre de cette chose,
+et elle a une ,(emph[valeur]).
+Pourquoi?
+Parce que celui qui s'est donné la peine de faire la bougie
+ne veut pas me rendre le service de me la céder,
+si je ne lui rends un service équivalent.
+][
+Ce qu'il s'agit de comparer et de juger, pour déterminer la valeur,
+ce n'est donc pas l',(emph[utilité relative]) des choses,
+mais le rapport de deux services.
+][
+En ces termes, je ne repousse pas la définition de Storch.
+][
+Résumons ce paragraphe,
+afin de montrer que ma définition
+contient tout ce qu'il y a de vrai dans celles de mes prédécesseurs,
+et élimine tout ce qu'elles ont d'erroné par excès ou défaut.
+][
+Le principe de la Valeur, ai-je dit, est dans un ,(emph[service]) humain.
+Elle résulte de l'appréciation de deux services comparés.
+][
+La Valeur doit avoir trait à l'effort:
+,(--) ,(emph[Service]) implique un effort quelconque.
+][
+Elle suppose comparaison d'efforts échangés, au moins échangeables:
+,(--) ,(emph[Service]) implique les termes donner et recevoir.
+][
+En fait, elle n'est cependant pas proportionnelle à l'intensité des efforts:
+,(--) ,(emph[Service]) n'implique pas nécessairement cette proportion.
+][
+Une foule de circonstances extérieures
+influent sur la valeur sans être la valeur même:
+,(--) Le mot ,(emph[Service]) tient compte de toutes ces circonstances
+dans la mesure convenable.
+][
+,(emph[Matérialité]).
+Quand le service consiste à céder une chose matérielle,
+rien n'empêche de dire, par métonymie, que c'est cette chose qui ,(emph[vaut]).
+Mais il ne faut pas perdre de vue
+que c'est là un trope qui attribue aux choses mêmes
+la valeur des services dont elles sont l'occasion.
+][
+,(emph[Conservabilité]).
+Matière ou non, la valeur se conserve jusqu'à la satisfaction,
+et pas plus loin.
+Elle ne change pas de nature
+selon que la satisfaction suit l'effort de plus ou moins près,
+selon que le service est personnel ou réel.
+][
+,(emph[Accumulabilité]).
+Ce que l'épargne accumule, dans l'ordre social,
+ce n'est pas la matière, mais la valeur ou les services
+,(footnote*[
+V. ci-après le chap. XV.
+][
+L',(emph[accumulation]) est une circonstance
+de nulle considération en économie politique.
+][
+Que la satisfaction soit immédiate ou retardée,
+qu'elle puisse être ajournée ou ne se puisse séparer de l'effort,
+en quoi cela change-t-il la nature des choses?
+][
+Je suis disposé à faire un sacrifice
+pour me donner le plaisir d'entendre une belle voix,
+je vais au théâtre et je paye;
+la satisfaction est immédiate.
+Si j'avais consacré mon argent à acheter un plat de fraises,
+j'aurais pu renvoyer la satisfaction à demain;
+voilà tout.
+][
+On dira sans doute que les fraises sont de la richesse,
+parce que je puis les échanger encore.
+Cela est vrai.
+Tant que l'effort ayant eu lieu la satisfaction n'est pas accomplie,
+la richesse subsiste.
+C'est la satisfaction qui la détruit.
+Quand le plat de fraises sera mangé,
+cette satisfaction ira rejoindre celle que m'a procurée la voix d'Alboni.
+][
+Service reçu, service rendu: voilà l'économie politique.
+][
+(,(emph[Note extraite des manuscrits de l'auteur.]))
+]).
+][
+,(emph[Utilité]).
+J'admettrai avec M. Say que l'Utilité est le fondement de la Valeur,
+pourvu qu'on convienne
+qu'il ne s'agit nullement de l'utilité qui est dans les choses,
+mais de l'utilité relative des services.
+][
+,(emph[Travail]).
+J'admettrai avec Ricardo que le Travail est le fondement de la Valeur,
+pourvu d'abord qu'on prenne le mot travail dans le sens le plus général,
+et ensuite qu'on ne conclue pas
+à une proportionnalité contraire à tous les faits,
+en d'autres termes,
+pourvu qu'on substitue au mot ,(emph[travail]) le mot ,(emph[service]).
+][
+,(emph[Rareté]).
+J'admets avec Senior que la rareté influe sur la ,(emph[valeur]).
+Mais pourquoi?
+Parce qu'elle rend le ,(emph[service]) d'autant plus précieux.
+][
+,(emph[Jugement]).
+J'admets avec Storch que la valeur résulte d'un jugement,
+pourvu qu'on convienne que c'est du jugement que nous portons,
+non sur l'utilité des choses, mais sur l'utilité des ,(emph[services]).
+][
+Ainsi les Économistes de toutes nuances devront se tenir pour satisfaits.
+Je leur donne raison à tous, parce que tous ont aperçu la vérité par un côté.
+Il est vrai que l'erreur était sur le revers de la médaille.
+C'est au lecteur de décider si ma définition
+tient compte de toutes les vérités et rejette toutes les erreurs.
+][
+Je ne dois pas terminer sans dire un mot
+de cette quadrature de l'Économie politique:
+la ,(emph[mesure de la valeur]),(pv)
+,(--) et ici je répéterai, avec bien plus de force encore,
+l'observation qui termine les précédents chapitres.
+][
+J'ai dit que nos besoins, nos désirs,
+nos goûts n'ont ni bornes ni mesure précise.
+][
+J'ai dit que nos moyens d'y pourvoir,
+dons de la nature, facultés, activité, prévoyance, discernement,
+n'avaient pas de mesure précise.
+Chacun de ces éléments est variable en lui-même;
+il diffère d'homme à homme,
+il diffère dans chaque individu de minute en minute,
+en sorte que tout cela forme un ensemble qui est la mobilité même.
+][
+Si maintenant l'on considère quelles sont les circonstances
+qui influent sur la valeur, utilité, travail, rareté, jugement,
+et si l'on reconnaît qu'il n'est aucune de ces circonstances
+qui ne varie à l'infini,
+comment s'obstinerait-on à chercher à la ,(emph[valeur]) une mesure fixe?
+][
+Il serait curieux qu'on trouvât la fixité
+dans un terme moyen composé d'éléments mobiles,
+et qui n'est autre chose qu'un Rapport
+entre deux termes extrêmes plus mobiles encore!
+][
+Les économistes qui poursuivent une ,(emph[mesure absolue de la valeur])
+courent donc après une chimère, et qui plus est, après une inutilité.
+La pratique universelle a adopté l'or et l'argent,
+encore qu'elle n'ignorât pas combien la valeur de ces métaux est variable.
+Mais qu'importe la variabilité de la mesure,
+si, affectant de la même manière les deux objets échangés,
+elle ne peut altérer la loyauté de l'échange?
+C'est une ,(emph[moyenne proportionnelle]) qui peut hausser ou baisser,
+sans manquer pour cela à sa mission,
+qui est d'accuser exactement le ,(emph[Rapport]) des deux extrêmes.
+][
+La science ne se propose pas pour but, comme l'échange,
+de chercher le ,(emph[Rapport actuel de deux services]),
+car en ce cas la monnaie lui suffirait.
+Ce qu'elle cherche surtout,
+c'est le ,(emph[Rapport de l'effort à la satisfaction]),(pv)
+et à cet égard, une mesure de la valeur, existât-elle,
+ne lui apprendrait rien,
+car l'effort apporte toujours à la satisfaction
+une proportion variable d'utilité gratuite qui n'a pas de valeur.
+C'est parce que cet élément de bien-être a été perdu de vue,
+que la plupart des écrivains ont déploré l'absence d'une mesure de la valeur.
+Ils n'ont pas vu qu'elle ne ferait aucune réponse à la question proposée:
+Quelle est la Richesse ou le bien-être comparatif
+de deux classes, de deux peuples, de deux générations?
+][
+Pour résoudre cette question, il faut à la science une mesure qui lui révèle,
+non pas le ,(emph[rapport de deux services]),
+lesquels peuvent servir de véhicule
+à des doses très-diverses d'utilité gratuite,
+mais le rapport de l',(emph[effort à la satisfaction]),
+et cette mesure ne saurait être autre que l'effort lui-même ou le travail.
+][
+Mais comment le travail servira-t-il de mesure?
+N'est-il pas lui-même un des éléments les plus variables?
+N'est-il pas plus ou moins habile, pénible, chanceux, dangereux, répugnant?
+N'exige-t-il pas plus ou moins l'intervention
+de certaines facultés intellectuelles, de certaines vertus morales?
+et ne conduit-il pas, en raison de toutes ces circonstances,
+à des rémunérations d'une variété infinie?
+][
+Il y a une nature de travail qui, en tout temps, en tous lieux,
+est identique à lui-même, et c'est celui-là qui doit servir de type.
+C'est le travail le plus simple,
+le plus brut,
+le plus primitif,
+le plus musculaire,
+celui qui est le plus dégagé de toute coopération naturelle,
+celui que tout homme peut exécuter,
+celui qui rend des services que chacun peut se rendre à soi-même,
+celui qui n'exige ni force exceptionnelle,
+ni habileté,
+ni apprentissage;
+le travail tel qu'il s'est manifesté au point de départ de l'humanité,
+le travail, en un mot, du simple journalier.
+Ce travail est partout le plus offert, le moins spécial,
+le plus homogène et le moins rétribué.
+Toutes les rémunérations s'échelonnent et se graduent à partir de cette base;
+elles augmentent avec toutes les circonstances qui ajoutent à son mérite.
+][
+Si donc on veut comparer deux états sociaux,
+il ne faut pas recourir à une ,(emph[mesure de la valeur]),
+par deux motifs aussi logiques l'un que l'autre:
+d'abord parce qu'il n'y en a pas;
+ensuite parce qu'elle ferait à l'interrogation une réponse trompeuse,
+négligeant un élément considérable et progressif du bien-être humain:
+l'utilité gratuite.
+][
+Ce qu'il faut faire, c'est au contraire oublier complètement la valeur,
+particulièrement la monnaie, et se demander:
+Quelle est, dans tel pays, à telle époque,
+la quantité de chaque genre d'utilité spéciale,
+et la somme de toutes les utilités
+qui répond à chaque quantité donnée de travail brut;
+en d'autres termes:
+Quel est le bien-être que peut se procurer par l'échange le simple journalier?
+][
+On peut affirmer que l'ordre social naturel est perfectible et harmonique,
+si, d'un côté, le nombre des hommes voués au travail brut,
+et recevant la plus petite rétribution possible,
+va sans cesse diminuant,
+et si, de l'autre, cette rémunération mesurée non en valeur ou en monnaie,
+mais en satisfaction réelle, s'accroît sans cesse
+,(footnote*[
+Ce qui suit était destiné par l'auteur
+à trouver place dans le présent chapitre.
+,(NdEEO)
+]).,(hrule)
+][
+Les anciens avaient bien décrit toutes les combinaisons de l'Échange:
+][
+,(inlatin[Do ut des]) (produit contre produit),
+,(inlatin[Do ut facias]) (produit contre service),
+,(inlatin[Facio ut des]) (service contre produit),
+,(inlatin[Facio ut facias]) (service contre service).
+][
+Puisque produits et services s'échangent entre eux,
+il faut bien qu'ils aient quelque chose de commun,
+quelque chose par quoi ils se comparent et s'apprécient,
+à savoir la ,(emph[valeur]).
+][
+Mais la Valeur est une chose identique à elle-même.
+Elle ne peut donc qu'avoir, soit dans le produit, soit dans le service,
+la même origine, la même raison d'être.
+][
+Cela étant ainsi, la valeur est-elle originairement,
+essentiellement dans le ,(emph[produit]),
+et est-ce par analogie qu'on en a étendu la notion au ,(emph[service])?
+][
+Ou bien, au contraire, la valeur réside-t-elle dans le service,
+et ne s'incarne-t-elle pas dans le produit,
+précisément et uniquement parce que le service s'y incarne lui-même?
+][
+Quelques personnes paraissent croire
+que c'est là une question de pure subtilité.
+C'est ce que nous verrons tout à l'heure.
+Provisoirement je me bornerai à faire observer
+combien il serait étrange qu'en économie politique
+une bonne ou une mauvaise définition de la valeur fût indifférente.
+][
+Il ne me paraît pas douteux qu'à l'origine
+l'économie politique a cru voir la valeur dans le produit,
+bien plus, dans la ,(emph[matière]) du produit.
+Les Physiocrates l'attribuaient exclusivement à la terre,
+et appelaient ,(emph[stériles])
+toutes les classes qui n'ajoutent rien à la matière:
+tant à leurs yeux ,(emph[matière]) et ,(emph[valeur])
+étaient étroitement liées ensemble.
+][
+Il semble qu'Adam Smith aurait dû briser cette notion,
+puisqu'il faisait découler la ,(emph[valeur]) du ,(emph[travail]).
+Les purs services n'exigent-ils pas du travail,
+par conséquent n'impliquent-ils pas de la valeur?
+Si près de la vérité, Smith ne s'en rendit pas maître encore:
+car, outre qu'il dit formellement
+que pour que le travail ait de la valeur
+il faut qu'il s'applique à la matière,
+à quelque chose de physiquement tangible et accumulable,
+tout le monde sait que, comme les Physiocrates,
+il range parmi les classes improductives
+celles qui se bornent à rendre des services.
+][
+À la vérité,
+Smith s'occupe beaucoup de ces classes dans son traité des Richesses.
+Mais qu'est-ce que cela prouve,
+si ce n'est qu'après avoir donné une définition,
+il s'y trouvait à l'étroit,
+et que par conséquent cette définition était fausse?
+Smith n'eût pas conquis la vaste et juste renommée qui l'environne,
+s'il n'eût écrit ses magnifiques chapitres
+sur l'Enseignement, le Clergé, les Services publics,
+et si, traitant de la Richesse,
+il se fût circonscrit dans sa définition.
+Heureusement il échappa, par l'inconséquence, au joug de ses prémisses.
+Cela arrive toujours ainsi.
+Jamais un homme de quelque génie, partant d'un faux principe,
+n'échappera à l'inconséquence;
+sans quoi il serait dans l'absurde progressif, et,
+loin d'être un homme de génie, il ne serait pas même un homme.
+][
+Comme Smith avait fait un pas en avant sur les Physiocrates,
+Say en fit un autre sur Smith.
+Peu à peu, il fut amené à reconnaître de la valeur aux services,
+mais seulement par analogie, par extension.
+C'est dans le produit qu'il voyait la valeur essentielle,
+et rien ne le prouve mieux que cette bizarre dénomination donnée aux services:
+,(q[,(emph[Produits immatériels]).])
+deux mots qui hurlent de se trouver ensemble.
+Say est parti de Smith, et ce qui le prouve,
+c'est que toute la théorie du maître se retrouve
+dans les dix premières lignes qui ouvrent les travaux du disciple
+,(footnote*[
+,(cite-title[Traité d'Écon. pol.]), p. 1.
+]).
+Mais il a médité et progressé pendant trente ans.
+Aussi il s'est approché de la vérité, sans jamais l'atteindre complétement.
+][
+Au reste, on aurait pu croire qu'il remplissait sa mission d'économiste,
+aussi bien en étendant la valeur du produit au service,
+qu'en la ramenant du service au produit,
+si la propagande socialiste, fondée sur ses propres déductions,
+ne fût venue révéler l'insuffisance et le danger de son principe.
+][
+M'étant donc posé cette question:
+Puisque certains produits ont de la valeur,
+puisque certains services ont de la valeur,
+et puisque la valeur identique à elle-même ne peut avoir
+qu'une origine, une raison d'être, une explication identique;
+cette origine, cette explication est-elle dans le produit ou dans le service?
+][
+Et, je le dis bien hautement, la réponse ne me paraît pas un instant douteuse,
+par la raison sans réplique que voici:
+C'est que tout produit qui a de la valeur implique un service,
+tandis que tout service ne suppose pas nécessairement un produit.
+][
+Ceci me parait décisif, mathématique.
+][
+Voilà un service:
+qu'il revête ou non une forme matérielle, il a de la valeur;
+puisqu'il est service.
+][
+Voilà de la matière:
+si en la cédant on rend service, elle a de la valeur,
+mais si on ne rend pas service, elle n'a pas de valeur.
+][
+Donc la valeur ne va pas de la matière au service,
+mais du service à la matière.
+][
+Ce n'est pas tout.
+Rien ne s'explique plus aisément que cette prééminence,
+cette priorité donnée au service, au point de vue de la valeur,
+sur le produit.
+On va voir que cela tient à une circonstance qu'il était aisé d'apercevoir,
+et qu'on n'a pas observée, précisément parce qu'elle crève les yeux.
+Elle n'est autre que cette prévoyance naturelle à l'homme,
+en vertu de laquelle,
+au lieu de se borner à rendre les services qu'on lui demande,
+il se prépare d'avance à rendre ceux qu'il prévoit devoir lui être demandés.
+C'est ainsi que le ,(inlatin[facio ut facias])
+se transforme en ,(inlatin[do ut des]),
+sans cesser d'être le fait dominant et explicatif de toute transaction.
+][
+Jean dit à Pierre:
+Je désire une coupe.
+Ce serait à moi de la faire;
+mais si tu veux la faire pour moi,
+tu me rendras un service que je payerai par un service équivalent.
+][
+Pierre accepte.
+En conséquence, il se met en quête de terres convenables, il les mélange,
+il les manipule;
+bref, il fait ce que Jean aurait dû faire.
+][
+Il est bien évident ici que c'est le service qui détermine la valeur.
+Le mot dominant de la transaction c'est ,(inlatin[facio]).
+Et si plus tard la valeur s'incorpore dans le produit,
+ce n'est que parce qu'elle découlera du service,
+lequel est la combinaison du travail exécuté par Pierre
+et du travail épargné à Jean.
+][
+Or il peut arriver que Jean fasse souvent à Pierre la même proposition,
+que d'autres personnes la lui fassent aussi,
+de telle sorte que Pierre puisse prévoir avec certitude
+que ce genre de services lui sera demandé,
+et se préparer à le rendre.
+Il peut se dire:
+J'ai acquis une certaine habileté à faire des coupes.
+Or l'expérience m'avertit que les coupes répondent
+à un besoin qui veut être satisfait.
+Je puis donc en fabriquer d'avance.
+][
+Dorénavant Jean devra dire à Pierre,
+non plus: ,(inlatin[Facio ut facias]),
+mais: ,(emph[Facio ut des]).
+Si même il a, de son côté,
+prévu les besoins de Pierre et travaillé d'avance à y pourvoir,
+il dira: ,(emph[Do ut des]).
+][
+Mais en quoi, je le demande,
+ce progrès qui découle de la prévoyance humaine
+change-t-il la nature et l'origine de la Valeur?
+Est-ce qu'elle n'a pas toujours pour raison d'être et pour mesure le service?
+Qu'importe, quant à la vraie notion de la valeur,
+que pour faire une coupe Pierre ait attendu qu'on la lui demandât,
+ou qu'il l'ait faite d'avance, prévoyant qu'elle lui serait demandée?
+][
+Remarquez ceci:
+dans l'humanité,
+l'inexpérience et l'imprévoyance précèdent l'expérience et la prévoyance.
+Ce n'est qu'avec le temps
+que les hommes ont pu prévoir leurs besoins réciproques,
+au point de se préparer à y pourvoir.
+Logiquement, le ,(inlatin[facio ut facias])
+a dû précéder le ,(inlatin[do ut des]).
+Celui-ci est en même temps le fruit et le signe
+de quelques connaissances répandues,
+de quelque expérience acquise,
+de quelque sécurité politique,
+de quelque confiance en l'avenir,
+en un mot, d'une certaine civilisation.
+Cette prévoyance sociale,
+cette foi en la ,(emph[demande]) qui fait qu'on prépare l',(emph[offre]),
+cette sorte de ,(emph[statistique intuitive])
+dont chacun a une notion plus ou moins précise,
+et qui établit un si surprenant équilibre
+entre les besoins et les approvisionnements,
+est un des ressorts les plus efficaces de la perfectibilité humaine.
+C'est à lui que nous devons la séparation des occupations,
+ou du moins les professions et les métiers.
+C'est à lui que nous devons un des biens
+que les hommes recherchent avec le plus d'ardeur:
+la fixité des rémunérations,
+sous forme de ,(emph[salaire]) quant au travail,
+et d',(emph[intérêt]) quant au capital.
+C'est à lui que nous devons
+le crédit, les opérations à longue échéance,
+celles qui ont pour objet le nivellement des risques, etc.
+Il est surprenant qu'au point de vue de l'économie politique
+ce noble attribut de l'homme, la Prévoyance, n'ait pas été plus remarqué.
+C'est toujours, ainsi que le disait Rousseau,
+à cause de la difficulté que nous éprouvons
+à observer le milieu dans lequel nous sommes plongés
+et qui forme notre atmosphère naturelle.
+Il n'y a que les faits anormaux qui nous frappent,
+et nous laissons passer inaperçus
+ceux qui, agissant autour de nous,
+sur nous et en nous d'une manière permanente,
+modifient profondément l'homme et la société.
+][
+Pour en revenir au sujet qui nous occupe,
+il se peut que la prévoyance humaine, dans sa diffusion infinie,
+tende de plus en plus à substituer
+le ,(inlatin[do ut des]) au ,(inlatin[facio ut facias]),(pv)
+mais n'oublions pas néanmoins
+que c'est dans la forme primitive et nécessaire de l'échange
+que se trouve pour la première fois la notion de valeur,
+que cette forme primitive est le service réciproque,
+et, qu'après tout, au point de vue de l'échange,
+le produit n'est qu'un ,(emph[service prévu]).
+][
+Après avoir constaté que la valeur n'est pas inhérente à la matière
+et ne peut être classée parmi ses attributs,
+je suis loin de nier qu'elle ne passe du ,(emph[service]) au ,(emph[produit]),
+de manière pour ainsi dire à s'y incarner.
+Je prie mes contradicteurs de croire
+que je ne suis pas assez pédant
+pour exclure du langage ces locutions familières:
+l'or ,(emph[vaut]), le froment ,(emph[vaut]), la terre ,(emph[vaut]).
+Je me crois seulement en droit de demander à la science le pourquoi;
+et si elle me répond:
+Parce que l'or, le froment, la terre
+portent en eux-mêmes une valeur intrinsèque,
+,(--) je me crois en droit de lui dire
+,(q[Tu te trompes et ton erreur est dangereuse.
+Tu te trompes, car il y a de l'or et de la terre sans valeur;
+c'est l'or et la terre qui n'ont encore été l'occasion d'aucun service humain.
+Ton erreur est dangereuse,
+car elle induit à voir une usurpation des dons gratuits de Dieu
+dans un simple droit à la réciprocité des services.])
+][
+Je suis donc prêt à reconnaître que les produits ont de la valeur,
+pourvu qu'on m'accorde qu'elle ne leur est pas essentielle,
+qu'elle se rattache à des services et en provient.
+][
+Et cela est si vrai, qu'il s'ensuit une conséquence très-importante,
+,(--) fondamentale en économie politique,
+,(--) qui n'a pas été et ne pouvait être remarquée, c'est celle-ci:
+][
+,(emph[Quand la valeur a passé du service au produit,
+elle subit dans le produit toutes les chances
+auxquelles elle reste assujettie dans le service lui-même.])
+][
+Elle n'est pas fixe dans le produit,
+comme cela serait si c'était une de ses qualités intrinsèques;
+non, elle est essentiellement variable, elle peut s'élever indéfiniment,
+elle peut s'abaisser jusqu'à l'annulation,
+suivant la destinée du genre de services auxquels elle doit son origine.
+][
+Celui qui fait actuellement une coupe, pour la vendre dans un an,
+y met de la valeur sans doute;
+et cette valeur est déterminée par celle du service,
+,(--) non par la valeur qu'a actuellement le service,
+mais par celle qu'il aura dans un an.
+Si, au moment de vendre la coupe,
+le genre de services dont il s'agit est plus recherché,
+la coupe vaudra plus;
+elle sera dépréciée dans le cas contraire.
+][
+C'est pourquoi l'homme est constamment stimulé à exercer sa prévoyance,
+à en faire un utile usage.
+Il a toujours en perspective,
+dans l'amélioration ou la dépréciation de la valeur,
+pour ses prévisions justes une récompense,
+pour ses prévisions erronées un châtiment.
+Et remarquez que ses succès comme ses revers
+coïncident avec le bien et le mal général.
+S'il a bien dirigé ses prévisions,
+il s'est préparé d'avance à jeter dans le milieu social
+des services plus recherchés, plus appréciés, plus efficaces,
+qui répondent à des besoins mieux sentis;
+il a contribué à diminuer la rareté, à augmenter l'abondance
+de ce genre de services,
+à le mettre à la portée d'un plus grand nombre de personnes
+avec moins de sacrifices.
+Si au contraire il s'est trompé dans son appréciation de l'avenir,
+il vient, par sa concurrence, déprimer des services déjà délaissés;
+il ne fait, à ses dépens, qu'un bien négatif:
+c'est d'avertir qu'un certain ordre de besoins
+n'exige pas actuellement une grande part d'activité sociale,
+qu'elle n'a pas à prendre cette direction où elle ne serait pas récompensée.
+][
+Ce fait remarquable ,(--) que la ,(emph[valeur incorporée]),
+si je puis m'exprimer ainsi, ne cesse pas d'avoir une destinée commune
+avec celle du genre de service auquel elle se rattache,
+,(--) est de la plus haute importance,
+non-seulement parce qu'il démontre de plus en plus cette théorie:
+que le principe de la valeur est dans le service;
+mais encore parce qu'il explique avec la plus grande facilité,
+des phénomènes que les autres systèmes considèrent comme anormaux.
+][
+Une fois le produit lancé sur le marché du monde, y a-t-il,
+au sein de l'humanité,
+des tendances générales qui poussent sa ,(emph[valeur])
+plutôt vers la baisse que vers la hausse?
+C'est demander si le genre de services qui a engendré cette valeur
+tend à être plus ou moins bien rémunéré.
+L'un est aussi possible que l'autre,
+et c'est ce qui ouvre une carrière sans bornes à la prévoyance humaine.
+][
+Cependant on peut remarquer que la loi générale
+des êtres susceptibles d'expérimenter, d'apprendre et de se rectifier,
+c'est le progrès.
+La probabilité est donc qu'à une époque donnée,
+une certaine dépense de temps et de peine
+obtienne plus de résultats qu'à une époque antérieure;
+d'où l'on peut conclure que la tendance dominante de la valeur incorporée
+est vers la baisse.
+Par exemple,
+si la coupe dont je parlais tout à l'heure comme symbole des produits
+est faite depuis plusieurs années,
+selon toute apparence elle aura subi quelque dépréciation.
+En effet, pour confectionner une coupe identique,
+on a aujourd'hui plus d'habileté, plus de ressources, de meilleurs outils,
+des capitaux moins exigeants,
+une division du travail mieux entendue.
+Or, s'adressant au détenteur de la coupe,
+celui qui la désire ne dit pas:
+Faites-moi savoir quel est, en quantité et qualité,
+le travail qu'elle vous a coûté
+afin que je vous rémunère en conséquence.
+Non, il dit:
+Aujourd'hui, grâce aux progrès de l'art,
+je puis faire moi-même ou me procurer par l'échange une coupe semblable,
+avec tant de travail de telle qualité;
+et c'est la limite de la rémunération que je consens à vous donner.
+][
+Il résulte de là que toute valeur incorporée,
+autrement dit tout travail accumulé, ou tout capital
+tend à se déprécier devant les services
+naturellement perfectibles et progressivement productifs;
+et que, dans l'échange du travail actuel contre du travail antérieur,
+l'avantage est généralement du côté du travail actuel,
+ainsi que cela doit être puisqu'il rend plus de services.
+][
+Et c'est pour cela qu'il y a quelque chose de si vide
+dans les déclamations que nous entendons diriger sans cesse
+contre la valeur des propriétés foncières:
+][
+Cette valeur ne diffère en rien des autres,
+ni par son origine ni par sa nature,
+ni par la loi générale de sa lente dépréciation.
+][
+Elle représente des services anciens:
+desséchements, défrichements, épierrements, nivellements, clôtures,
+accroissement des couches végétales, bâtisses, etc.;
+elle est là pour réclamer les droits de ces services.
+Mais ces droits ne se règlent pas par la considération du travail exécuté.
+Le propriétaire foncier ne dit pas:
+,(q[Donnez-moi en échange de cette terre autant de travail qu'elle en a reçu])
+(c'est ainsi qu'il s'exprimerait si, selon la théorie de Smith,
+la valeur venait du travail et lui était proportionnelle).
+Encore moins vient-il dire,
+comme le supposent Ricardo et nombre d'économistes:
+,(q[Donnez-moi d'abord autant de travail que ce sol en a reçu,
+puis en outre une certaine quantité de travail
+pour équivaloir aux forces naturelles qui s'y trouvent.])
+Non, le propriétaire foncier, lui qui représente
+les possesseurs qui l'ont précédé et jusqu'aux premiers défricheurs,
+en est réduit à tenir en leur nom cet humble langage:
+][
+,(q[Nous avons préparé des services,
+et nous demandons à les échanger contre des services équivalents.
+Nous avons autrefois beaucoup travaillé:
+car de notre temps on ne connaissait pas vos puissants moyens d'exécution;
+il n'y avait pas de routes;
+nous étions forcés de tout faire à force de bras.
+Bien des sueurs, bien des vies humaines sont enfouies dans ces sillons.
+Mais nous ne demandons pas travail pour travail;
+nous n'aurions aucun moyen pour obtenir une telle transaction.
+Nous savons que le travail qui s'exécute aujourd'hui sur la terre,
+soit en France, soit au dehors, est beaucoup plus parfait et plus productif.
+Ce que nous demandons et ce qu'on ne peut évidemment nous refuser,
+c'est que notre travail ancien et le travail nouveau
+s'échangent proportionnellement,
+non à leur durée ou leur intensité, mais à leurs résultats,
+de telle sorte que nous recevions même rémunération pour même service.
+Par cet arrangement nous perdons, au point de vue du travail,
+puisqu'il en faut deux fois et peut-être trois plus du nôtre que du vôtre
+pour rendre le même service;
+mais c'est un arrangement forcé;
+nous n'avons pas plus les moyens d'en faire prévaloir un autre
+que vous de nous le refuser.])
+][
+Et, en point de fait, les choses se passent ainsi.
+Si l'on pouvait se rendre compte
+de la quantité d'efforts, de fatigues, de sueurs sans cesse renouvelées
+qu'il a fallu pour amener chaque hectare du sol français
+à son état de productivité actuelle,
+on resterait bien convaincu que celui qui l'achète
+ne donne pas travail pour travail,
+,(--) au moins dans quatre-vingt-dix-neuf circonstances sur cent.
+][
+Je mets ici cette restriction, parce qu'il ne faut pas perdre ceci de vue:
+qu'un service incorporé peut acquérir de la valeur comme il peut en perdre.
+Et encore que la tendance générale soit vers la dépréciation,
+néanmoins le phénomène contraire se manifeste quelquefois,
+dans des circonstances exceptionnelles,
+à propos de terre comme à propos de toute autre chose,
+sans que la loi de justice soit blessée
+et sans qu'on puisse crier au monopole.
+][
+Au fait, ce qui est toujours en présence, pour dégager la valeur,
+ce sont les services.
+C'est une chose très-probable que du travail ancien,
+dans une application déterminée,
+rend moins de services que du travail nouveau;
+mais ce n'est pas une loi absolue.
+Si le travail ancien rend moins de services,
+comme c'est presque toujours le cas, que le travail nouveau,
+il faut dans l'échange plus du premier que du second
+pour établir l'équivalence,
+puisque, je le répète, l'équivalence se règle par les services.
+Mais aussi, quand il arrive
+que le travail ancien rend plus de services que le nouveau,
+il faut bien que celui-ci subisse la compensation
+du sacrifice de la quantité...
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863), tome VI, ,(HarmoniesEconomiques),
+chapitre V, ,(cite-title[De la valeur]), pp. 140-206.
+][
+Texte scanné par la ,(BNF),
+transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org),
+relu par ,(fguerinet).
+])
+))

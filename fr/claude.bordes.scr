@@ -1,0 +1,483 @@
+; -*- Scheme -*-
+; $Id: claude.bordes.scr,v 1.1 2003/03/12 18:01:45 fare Exp $
+(style 'bo-style)
+(in-bof :title "Frédéric Bastiat, un économiste politique et social
+	- par Claude Bordes")
+(document :title "Frédéric Bastiat, un économiste politique et social"
+	:author (author :name "Claude Bordes"
+			:url (ref :url =bo.url= =bo.url=))
+(blockquote*
+(small[
+Il a été mieux qu'un économiste.
+Il a été un économiste politique et social.
+C'est-à-dire qu'il a compris, dès l'origine,
+que l'activité économique n'était pas une activité close
+	qui s'exerçait au travers de statistiques ou de documents comptables,
+mais que l'activité économique, par sa nature, débouche,
+	d'un côté, sur l'homme et, de l'autre, sur la société.
+Il faut donc prendre en compte à la fois les aspirations de l'homme
+et les problèmes de la société.
+])
+(small[
+Valéry Giscard d'Estaing, colloque de Sorrèze, 19 février 1987.
+]))
+(section :title [La vie de Frédéric Bastiat]
+(p*[
+Claude Frédéric Bastiat naît en 1801 à Bayonne,
+où son père tenait une maison de commerce.
+Orphelin à 9 ans, il est recueilli par une tante fortunée
+et grandira à Mugron, une bourgade landaise
+qui comptait alors 2150 habitants.
+En 1814, il entre au collège dominicain de Sorrèze,
+où l'on enseignait ,(--) outre les humanités classiques ,(--),
+les sciences commerciales, les langues étrangères et les mathématiques.
+Il le quittera en 1820 sans avoir passé le baccalauréat,
+pour rejoindre l'entreprise d'import ,(--) export de son oncle à Bayonne.
+Là, il s'initiera à l'esprit du commerce
+et fort de l'expérience concrète des méfaits de l'interventionnisme,
+se ralliera aux thèses du Libre Échange
+,(footnote*[
+Alain Madelin, quand il était Ministre du Commerce et de l'Industrie,
+aimait citer ce texte de Bastiat,
+dans lequel le ministre du Commerce s'adressant à ses administrés,
+les négociants, leur remettait sereinement sa démission:
+,(blockquote*
+(q[Mes prédécesseurs ont fait de grands efforts
+pour vous procurer des affaires, sans autre résultat que celui-ci:
+aggraver les charges de la nation et vous créer des obstacles
+,(inbracket[...]).
+Tous ces tâtonnements ont conduit à reconnaître
+la vérité de cette règle dans laquelle se confondent
+et votre intérêt propre et l'intérêt national et l'intérêt de l'humanité:
+acheter et vendre là où l'on peut le faire avec le plus d'avantages.
+Or, comme c'est là ce que vous faites naturellement sans que je m'en mêle,
+je suis réduit à avouer que mes fonctions sont plus qu'inutiles.
+C'est pourquoi je vous donne avis que mon ministère est supprimé...]))
+]).
+][
+À la mort de son grand père, en 1825,
+il retourne à Mugron pour gérer les 250 hectares
+et les 12 métairies du domaine familial de Segresse.
+Après quelques tentatives infructueuses
+pour acclimater en Chalosse les innovations agronomiques du moment
+(l'association de la culture et de l'élevage
+qui permet de supprimer la jachère et d'élever les rendements,
+les cultures alternées,...), il se résignera à vivre de ses rentes;
+le gentleman farmer occupera son loisir
+à jouer du violoncelle
+et à étudier l'économie et la philosophie politiques...
+sans autre charge que celles de Juge de paix et de Conseiller général.
+][
+Les mouvement d'idées qui embrasent la capitale, retentissent en province.
+Grâce à ses longues conversations avec son ami, l'avocat Félix Coudroy,
+et à sa fréquentation assidue d'une loge maçonnique libérale
+(la Zélée à Bayonne),
+il s'imprègne et se nourrit des doctrines du moment.
+Rejetant tour à tour l'idéal d'un Rousseau puis celui d'un De Maistre,
+écartant successivement les séductions de la Révolution
+et celles de la Réaction,
+c'est auprès de Quesnay, de Smith et de Say qu'il trouvera la synthèse:
+l'idée que le plus grand bonheur pour le plus grand nombre
+naît de l'heureuse concordance des intérêts individuels,
+qu'il suffit pour que l'harmonie prévale de ,(q[laisser faire]) (...la Liberté)
+et de ,(q[laisser passer]) (...la Justice de Dieu),(pv)
+qu'il revient à l'État de garantir la Justice pour tous
+en protégeant les droits naturels de chacun
+(la liberté, la propriété, la sécurité).
+][
+Son premier pamphlet connu remonte à 1834:
+,(q[Pétition sur les ports]),(pv)
+après quelques écrits d'intérêt local ou spécialisé
+(,(q[le fisc et la vigne]),
+,(q[la répartition de l'impôt foncier dans les Landes])),
+il accède à la notoriété en octobre 1844
+avec un article publié dans le Journal des Économistes:
+,(q[de l'influence des tarifs anglais et français sur l'avenir des deux pays]).
+Son combat libre échangiste se poursuit par la publication, en mai 1845,
+d'un ouvrage sur ,(q[Cobden et la Ligue]),
+vulgarisant pour le public français le combat
+du filateur de Manchester et de sa Ligue contre les Droits.
+][
+Ce combat, les Ligueurs le gagneront un an plus tard, en 1846,
+avec l'abolition des ,(q[Corn Laws]).
+Cette année là, Bastiat fonde à Bordeaux l'Association pour le Libre Échange.
+Le 8 février, dans ,(q[le Mémorial bordelais]),
+il démontre l'absurdité économique
+de ce qui était alors la théorie pop du commerce international
+(la doctrine dite de la balance du commerce): 
+,(blockquote[
+,(q[La Loi nous laisse à tous la pleine liberté de vendre;
+il faut qu'elle nous laisse aussi la pleine liberté d'acheter.
+Vendre et acheter, ce sont ,(inbracket[...]) les deux termes d'un même contrat.
+Là où l'un des termes manque, l'autre fait défaut par cela même;
+et il est mathématiquement impossible
+que les ventes ne soient pas contrariées sur tous les points du globe,
+si sur tous les points du globe la loi contrarie les achats]).
+])
+][
+Comme toujours chez Bastiat,
+l'argument de Justice vient redoubler l'argument d'efficacité:
+,(blockquote[
+,(q[l'Association se place en dehors de tous les partis politiques.
+Elle ne se met au service d'aucune industrie, d'aucune classe,
+d'aucune portion du territoire.
+Elle embrasse la cause de l'éternelle justice,
+de la paix, de l'union, de la libre communication,
+de la fraternité entre tous les hommes;
+la cause de l'intérêt général, qui se confond,
+partout et sous tous les aspects, avec celle du Public consommateur])
+(déclaration du 10 mai 1846).
+])
+][
+Durant les quatre années qui suivent,
+Bastiat monte à Paris et se donne tout entier à sa cause.
+Faisant feu de tout bois, multipliant pamphlets et conférences,
+articles dans le Journal des Économistes et dans la presse,
+polémiquant avec Proudhon dans la Voix du peuple,
+treize semaines durant, il pourfend l'étatisme,
+démasque les sophismes, ridiculise le protectionnisme,
+combat le socialisme...
+][
+La tentation de porter le combat sur le terrain politique
+résiste à trois échecs précédents
+,(footnote*[
+en 1832, il n'obtiendra qu'une voix
+sur les 209 électeurs de sa circonscription: la sienne.]).
+Dans une lettre à F. Coudroy, il s'en explique:
+,(blockquote[
+,(q[Quand je viens à penser qu'il n'y a pas dans les deux chambres
+un homme qui ose avouer le principe de la liberté des échanges,
+ou qui sache le soutenir contre les sophismes du moment,
+j'avoue que je désire au fond du c,(oe)ur m'emparer de cette place vide.])
+])
+][
+En 1848, le suffrage universel en fera le représentant des Landes
+à la Constituante puis à l'Assemblée législative.
+Vice Président du Comité des Finances,
+il bataillera contre les doctrines socialistes:
+le Manifeste Montagnard, les ateliers nationaux de Louis Blanc,
+le fourrierisme d'un Considérant,...
+][
+Républicain convaincu, il votera avec la Gauche
+le bannissement de la Famille d'Orléans,
+l'abolition de la peine de mort,
+ou contre l'autorisation de poursuivre Louis Blanc;
+il votera avec la Droite contre l'abolition du remplacement militaire
+ou en faveur de Cavaignac...
+Suivant chaque fois sa conscience,
+il s'en explique dans une lettre à ses électeurs:
+,(blockquote[
+,(q[Ce qu'on me reproche, c'est ce dont je m'honore.
+Oui j'ai voté avec la Droite contre la Gauche
+quand il s'est agi de résister au débordement des fausses idées populaires.
+Oui j'ai voté avec la Gauche contre la Droite,
+quand les légitimes griefs de la classe pauvre et souffrante ont été méconnus.
+Il se peut que par là je me sois aliéné les deux partis...])
+])
+][
+De fait, ses idées ne trouvent guère d'écho dans l'hémicycle:
+trop révolutionnaire pour les modérés, trop économiste pour les socialistes.
+Miné par la tuberculose, il meurt le 24 décembre 1850.
+][
+À l'aube du cent cinquantenaire de sa mort,
+les pamphlets du libre penseur de Mugron ont franchi l'Atlantique
+,(footnote*[
+à ce jour, un million d'exemplaires de La Loi ont été vendus en Amérique.]),
+mais peinent encore à franchir l'Adour:
+la plupart ne sont plus édités,
+et l'Éducation Nationale l'a mis sous le boisseau.
+Certes, à Mugron, on peut visiter sa maison;
+l'État français a logé là sa Perception!
+Au lieu d'un musée du libéralisme... le mausolée du contribuable!
+La France a oublié Frédéric Bastiat.
+]))
+(section :title[La pensée de Frédéric Bastiat]
+(subsection :title [le libéralisme comme humanisme]
+(p*[
+L'histoire de la pensée distingue
+parmi les économistes classiques de la première partie du 19ème siècle,
+l'École anglaise ,(--) pessimiste ,(--), et l'École française ,(--) optimiste.
+D'un côté, Malthus, Ricardo et Mill, de l'autre Say, Dunoyer et Bastiat.
+][
+,(q[C'est l'époque de l'économie romantique, sociale et passionnelle]),
+écrit Raymond Barre, où dans la floraison des doctrines et des ,(q[ismes])
+(Fourrierisme, Owenisme, Industrialisme...),
+Bastiat représente le ,(q[libéralisme optimiste]).
+Dans son étude du libéralisme français,
+Lucien Jaume l'inscrit dans la tradition de ,(q[l'économie providentialiste]),
+à la suite de Quesnay
+,(footnote*[
+Lucien Jaume, L'individu effacé, Fayard, 1997.])...
+Bastiat serait ,(--) il le docteur Pangloss de l'économie politique?
+][
+Voilà bien, direz-vous, l'optimisme des économistes!
+Ils sont tellement esclaves de leurs propres systèmes,
+qu'ils ferment les yeux aux faits de peur de les voir ,(inbracket[...])
+et la société s'écroulera qu'ils répéteront encore:
+,(q[Tout est pour le mieux dans le meilleur des mondes]).
+,(footnote*[
+cette citation et celles qui la suivent sont extraites
+de l'introduction des ,(q[Harmonies économiques]).])
+][
+En vérité, le point de départ de sa doctrine repose sur un solide pessimisme:
+][
+pessimisme sur la nature humaine:
+l'histoire de l'humanité, c'est l'histoire
+de ,(q[la lutte perpétuelle du fort contre le Droit]).
+La plupart de nos semblables guettent
+,(q[l'occasion de vivre aux dépens du prochain]),
+et ne se résignent à vivre de leur travail
+que lorsqu'il ne peuvent vivre de la spoliation.
+][
+pessimisme sur la condition humaine:
+,(blockquote[
+Il a plu à Dieu d'attacher la douleur à notre nature,
+puisqu'il a voulu qu'en nous la faiblesse fut antérieure à la force,
+l'ignorance à la science,
+le besoin à la satisfaction,
+l'effort au résultat, ,(inbracket[...])
+le dénuement à la richesse,
+l'erreur à la vérité,
+l'expérience à la prévoyance.
+])
+][
+Le Mal est donc au départ de l'expérience,
+et l'optimisme d'un Bastiat réside tout entier
+dans sa foi ,(--) chrétienne et physiocratique ,(--)
+en un Ordre providentiel, capable de mettre le Mal au service du Bien:
+,(blockquote[
+Pour que les lois providentielles soient tenues pour harmoniques,
+il n'est pas nécessaire qu'elles excluent le mal.
+Il suffit qu'il ait son explication et sa mission,
+qu'il se serve de limite à lui-même.
+])
+][
+Du mal pourra sortir le bien
+,(footnote*[
+pour Quesnay aussi, les diverses voies du mal constituent
+,(q[des lois obligatoires pour le bien]). L. Jaume, op. cit.]).
+Il suffit pour cela de ,(q[laisser faire la liberté]):
+,(blockquote*[
+Puisque l'homme est libre, il peut choisir;
+puisqu'il peut choisir, il peut se tromper;
+puisqu'il peut se tromper, il peut souffrir.
+Je dis plus: il doit se tromper et souffrir.
+][
+Le mobile de l'intérêt et l'aiguillon de la responsabilité
+le mèneront nécessairement,
+,(q[par la douleur même, dans la voie du bien et de la vérité]).
+Selon le mot de Needham, ,(q[l'intérêt ne saurait mentir]).
+])
+][
+Un monde gouverné par les seuls principes
+de l'intérêt et de la responsabilité triompherait du Mal.
+Ce serait, en premier lieu, un monde paisible.
+Le ,(q[doux commerce]) et le libre échange
+passent alors pour des faiseurs de paix
+,(footnote*[
+A. Hirshman: Les passions et les intérêts
+(l'expression ,(q[le doux commerce]) se trouve chez Montesquieu).]),(pv)
+par contraste, le ,(q[régime prohibitif]) et le système mercantiliste
+sont des fauteurs de guerre.
+][
+Ce serait aussi un monde prospère.
+À la suite de Smith et de Say,
+Bastiat est convaincu que c'est en oeuvrant pour son bien propre
+que l'homme concourt du mieux qu'il puisse au bien commun.
+Mais derrière la ,(q[main invisible]),
+il ne va pas jusqu'à voir, comme Smith,
+la main de la Société (le principe de sympathie),(pv)
+pour lui comme pour Quesnay,
+,(q[cette main aussi généreuse que puissante])
+c'est celle de Dieu (le principe providentiel):
+,(blockquote[
+je la bénis, je l'admire, je l'adore.
+])
+][
+Ainsi, de la concordance naturelle des intérêts naîtrait ,(q[l'harmonie]),
+l'optimum économique et social.
+Pour cela, il faut et il suffit
+que l'État s'en tienne à son seul rôle utile:
+le rôle du Gendarme, appliqué à laisser faire toutes ,(q[choses honnêtes])
+et à empêcher les ,(q[choses déshonnêtes]).
+][
+Malheureusement, la pente naturelle de l'État,
+,(q[cette fiction par laquelle tout le monde
+s'efforce de vivre aux dépens de tout le monde]),
+c'est de tendre à imposer la loi du plus fort contre le Droit Naturel.
+Aussi importe ,(--) t ,(--) il de limiter a priori le domaine de la Loi:
+,(blockquote[
+Le propre domaine de la Loi et des Gouvernements, c'est la Justice.
+,(footnote*[
+la justice, c'est aussi le but que Quesnay et Smith assignent au Souverain.])
+])
+][
+Qu'est ,(--) ce donc que la Justice?
+c'est la Loi vouée toute entière
+à la légitime défense des droits naturels attachés à la personne humaine.
+,(q[La liberté, la propriété, la personnalité]),
+tout ce qui fait l'Homme, sont antérieures, donc extérieures, à la Loi;
+par exemple:
+,(blockquote[
+ce n'est pas parce qu'il y a des lois qu'il y a des propriétés,
+mais parce qu'il y a des propriétés qu'il y a des lois.
+,(footnote*[
+in ,(q[Propriété et Loi]).])
+])
+][
+Aussi le Droit positif doit ,(--) il être subordonné au Droit Naturel
+,(footnote*[
+pour Quesnay, le souverain est explicitement
+,(q[l'autorité tutélaire établie par la Société
+pour la gouverner par des lois positives, conformément aux lois naturelles]).
+Cf. Lucien Jaume, op. cit.]),
+et la Loi doit ,(--) elle s'incliner devant l'Homme au lieu de chercher,
+avec les socialistes, à édifier l'Homme nouveau:
+,(blockquote[
+Leur foi est dans le législateur, non dans l'humanité.
+La notre est dans l'humanité, non dans le législateur.
+])
+][
+En effet, vouloir contrarier ou déplacer les intérêts
+au motif qu'ils seraient ,(q[antagoniques])
+,(--) l'intérêt du travail s'opposant à celui du capital... ,(--),
+c'est aller au mal en voulant faire le bien.
+Et vouloir organiser la fraternité,
+c'est prendre le risque d'instituer l'Injustice au nom de la Justice;
+d'abord, parce que la fraternité cela ne se décrète pas,
+ensuite parce que
+,(q[la Loi prenant aux uns ce qui leur appartient
+pour donner aux autres ce qui ne leur appartient pas]),
+la Redistribution implique inévitablement la ,(q[Spoliation]):
+,(blockquote[
+Il y a trois régions pour l'Humanité:
+une inférieure, celle de la Spoliation;
+une supérieure, celle de la Charité;
+une intermédiaire, celle de la Justice.
+,(inbracket[...])
+La Loi, quand elle veut faire par la force
+ce que la morale fait faire par la persuasion,
+bien loin de s'élever à la région de la Charité,
+tombe dans le domaine de la Spoliation.
+,(footnote*[
+Autographe de l'auteur publié par la Société des gens de lettres.])
+])
+][
+Et peut ,(--) on imaginer pire injustice que la ,(q[Spoliation légale])?
+,(blockquote[
+La Loi pervertie...
+La Loi devenue l'instrument de toutes les cupidités,
+au lieu d'en être le frein!
+La Loi accomplissant elle-même l'iniquité
+qu'elle avait pour mission de punir!
+,(footnote*[
+l'entame célèbre de ,(q[La Loi]).])
+])
+]))
+(subsection :title [L'économie au service de la politique]
+(p*[
+Robert Heilbronner voyait en lui
+,(q[une très petite étoile dans la constellation économique]).
+De fait, sa principale contribution à la science économique
+apparaît aujourd'hui dans les théories de l'école du Public Choice;
+c'est dire que la pensée de Bastiat est éminemment politique,
+raison pour laquelle il a davantage inspiré
+les hommes politiques que les économistes. 
+][
+Margaret Thatcher pouvait déclamer de mémoire
+des passages entiers de son oeuvre ,(footnote*[
+d'après le témoignage de VGE, op. cit.]).
+Ronald Reagan l'avait lu avant d'entrer en politique,
+et ne manquait pas une occasion de le citer
+,(footnote*[
+R. Evans: What philosophical thinkers
+most influenced your conduct as a leader, as a person?
+Ronald Reagan: Well... I've always been a voracious reader...
+I have read the economic views of von Mises and Hayek, and Bastiat...
+I know about Cobden and Bright in England...
+and the elimination of the corn laws and so forth,
+the great burst of economic prosperity for England that followed.
+Rowland Evans & Robert Novak,
+The Reagan Revolution, New York: E. P. Dutton, 1981, p. 229.]).
+Chez nous, il a inspiré le Président Giscard d'Estaing,
+il inspire un Madelin...
+Dans le firmament du libéralisme, Frédéric Bastiat,
+c'est un peu l'étoile du berger...
+][
+En libéral authentique, il voyait dans l'économie politique
+une ,(q[science du droit]) ,(--) qui a vocation à dire ,(q[le juste]) ,(--),
+plutôt qu'une ,(q[science du fait]) ,(--) qui se limite
+à ,(q[ce qui est]) et se désintéresse de ,(q[ce qui doit être]).
+,(footnote*[
+R. de Fontenay: Notice sur la vie et l',(oe)uvre de F. Bastiat.])
+][
+L'économie politique précède la politique;
+celle-là dit si les intérêts humains
+sont naturellement harmoniques ,(inbracket[thèse libérale])
+ou antagoniques ,(inbracket[thèse socialiste]);
+ce que celle ,(--) ci devrait savoir
+avant de fixer les attributions du gouvernement.
+][
+Mais au fil du temps, l'Économie venait à se couper de la Politique;
+par le fait, elle abandonnait au Socialisme
+les idées de Justice, d'Égalité, de Fraternité, de Solidarité...,
+elle lui cédait ,(q[le monopole du c,(oe)ur]).
+De leur côté, les Socialistes,
+en associant dans un même mépris la ,(q[science lugubre])
+,(footnote*[
+d'après la formule de Thomas Carlyle qui qualifiait l'Économie de 
+,(q[dismal science]).]) et sa créature,
+l'homo economicus, se coupaient de l'Économie
+et s'apprêtaient à mener l'humanité vers les horreurs que l'on sait.
+][
+Refusant l'économisme des disciples de Ricardo,
+Bastiat réconcilie l'Économie et la Politique;
+et c'est l'économie politique qu'il opposera, sans relâche,
+à la pensée cynique des ,(q[courtisans de popularité]),
+à la pensée magique des ,(q[marchands d'utopies]),
+et plus généralement, à tous ces maîtres à penser (les ,(q[publicistes]))
+qui, tout à leur vision insensée de l'humanité ,(q[telle qu'elle devrait être]),
+ne voient plus dans l'humanité ,(q[telle qu'elle est]),
+que ,(q[l'argile du potier]) où modeler leurs rêves et laisser leur empreinte.
+]))
+(subsection :title [Bastiat pédagogue ou le sophisme démasqué]
+(p*[
+Qu'il s'agisse de juger des effets
+d'une politique de grands travaux ou de partage du travail,
+d'une politique de Protection ou de Redistribution...,
+Bastiat met en balance ,(q[ce que l'on voit]), ce que tout le monde voit,
+et ,(q[ce qu'on ne voit pas]), ce que seul l'économiste voit:
+,(blockquote[
+Dans la sphère économique, un acte, une habitude, une institution, une loi
+n'engendrent pas seulement un effet, mais une série d'effets.
+De ces effets, le premier seul est immédiat;
+il se manifeste simultanément avec sa cause, on le voit.
+Les autres ne se déroulent que successivement, on ne les voit pas;
+heureux si on les prévoit.
+Entre un mauvais et un bon Économiste, voici toute la différence:
+l'un s'en tient à l'effet visible;
+l'autre tient compte et de l'effet qu'on voit et de ceux qu'il faut prévoir.
+,(footnote*[
+l'entame de ,(q[Ce que l'on voit et ce qu'on ne voit pas]).])
+])
+][
+Avec Bastiat, on a la thèse (le sophisme),
+l'antithèse (la leçon d'économie) et la synthèse (la morale)...
+Et le plaisir de la lecture:
+il fut l'un des rares économistes qui maîtrisait l'art de l'humour
+et la langue française.
+Dans l'anthologie qui suit, on trouvera des formulations,
+parmi les plus belles et les plus limpides qui soient,
+de la conception libérale de l'État, de l'absurdité du protectionnisme,
+des bienfaits du libre échange,
+des méfaits de l'interventionnisme et des dangers du socialisme.
+Avec Bastiat, l'économie politique ressemble à la science du bonheur.
+])))
+(tag :p :align 'right [
+Claude Bordes, professeur de SES au Lycée Galilée, Guérande
+])
+(with-footer
+(p*[
+Originellement publié dans la revue DEES (revue trimestrielle du CNDP)
+en octobre 1999. 
+])))

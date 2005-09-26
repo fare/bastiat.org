@@ -1,0 +1,20 @@
+; -*- Scheme -*-
+; $Id: old_news.scr,v 1.3 2005/02/24 00:15:58 fare Exp $
+(style 'bo-style)
+(in-boe :title "Old News - Bastiat.org")
+(set! =boe.url= "")
+
+(document :title [Old News ,(br) for Bastiat.org]
+(br)
+(subtitle[Events])
+(itemize
+(item[
+A ,(strong(ref :url "http://www.celebratecapitalism.org/"
+	[Capitalism Day]))
+took place in the whole wide world on June ,(1st) 2003,
+but also December 7,(sup[th]) 2003,
+June 6,(sup[th]) 2004,
+December 5,(sup[th]) 2004.
+The first sunday of June and December are Capitalism Days.
+Celebrate and Enjoy!
+])))

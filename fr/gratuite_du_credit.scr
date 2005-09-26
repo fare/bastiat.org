@@ -1,0 +1,51 @@
+; -*- Scheme -*- $Id: gratuite_du_credit.scr,v 1.2 2005/07/25 13:07:24 fare Exp $
+(style 'bo-style)
+(in-bof :title "Gratuité du Crédit - par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title [Gratuité du Crédit]
+	:author author-FB
+(p*
+(itemize
+(item (xbof-ref "lettre1"
+	[Première lettre.
+	,(--) F. C. Chevé,
+	l'un des rédacteurs de la ,(cite-title[Voix du Peuple]),
+	à Frédéric Bastiat]))
+(item (xbof-ref "lettre2"
+	[Deuxième lettre.
+	,(--) F. Bastiat au rédacteur de la ,(cite-title[Voix du peuple])]))
+(item (xbof-ref "lettre3"
+	[Troisième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre4"
+	[Quatrième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+(item (xbof-ref "lettre5"
+	[Cinquième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre6"
+	[Sixième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+(item (xbof-ref "lettre7"
+	[Septième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre8"
+	[Huitième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+(item (xbof-ref "lettre9"
+	[Neuvième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre10"
+	[Dixième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+(item (xbof-ref "lettre11"
+	[Onzième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre12"
+	[Douzième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+(item (xbof-ref "lettre13"
+	[Treizième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
+(item (xbof-ref "lettre14"
+	[Quatorzième lettre. ,(--) F. Bastiat à P. J. Proudhon]))))
+(set! =bof.url= "http://bastiat.org/fr/")
+(with-footer
+(p*[
+Extrait de l',(EO1863), tome V, ,(GratuiteCredit), pp. 94-335.
+][
+Préparé par ,(FRR) pour ,(Bastiat.org)
+avec l'aide de ,(XXX [ nombreux autres ,(bof-ref "numerisation" [numériseurs]): ])
+,(GregB).
+])))

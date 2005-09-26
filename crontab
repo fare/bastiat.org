@@ -1,0 +1,26 @@
+### crontab for bastiat@bespin ###
+# $Id: crontab,v 1.2 2002/05/29 00:53:37 fare Exp $
+#
+# RTFM: crontab(1) crontab(5) cron(8)
+#
+# For security reasons, the system crontab on bespin
+# must be updated manually when this file is modified:
+#	/usr/bin/crontab -u bastiat /serv/bastiat/org/crontab
+#
+# If you add a job, beware:
+# 1) non-script.zsh functions must be redirected to /dev/null:
+# * * * * * /stupid/job > /dev/null 2> /dev/null
+# 2) script.zsh functions may instead use the LOG function,
+# either internally (see the definition of existing jobs),
+# or externally, as in junk.script LOG stupid.function
+#
+# use /bin/sh to run commands, no matter what /etc/passwd says,
+# and mail any output to `fare', no matter whose crontab this is.
+# Beware: these features haven't been tested with bespin's cron daemon!
+SHELL=/bin/sh
+MAILTO=fare
+#
+# Every night at 0:18, update the web site
+0 18 * * *	/serv/bastiat/bin/script.zsh LOG updateweb
+#
+## EOF ##

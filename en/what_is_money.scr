@@ -1,0 +1,1430 @@
+; -*- Scheme -*-
+; $Id: what_is_money.scr,v 1.4 2003/06/29 11:53:52 fare Exp $
+(style 'bo-style)
+(in-boe :title "What Is Money? - by Frederic Bastiat")
+(document :title [What Is Money?]
+	:author author-FB
+(p*[
+,(q[,(strong[Hateful]) money! hateful money!])
+cried ,(emph[F,(--)]), the economist, despairingly,
+as he came from the Committee of Finance,
+where a project of paper money had just been discussed.
+,(q[What's the matter?]) said I.
+,(q[What is the meaning of this sudden dislike to the most extolled
+of all the divinities of this world?])
+][
+,(emph[F.]) Hateful money! hateful money!
+][
+,(emph[B.]) You alarm me. I hear peace, liberty, and life cried down,
+and Brutus went so far even as to say, ,(q[Virtue! thou art but a name!])
+But what can have happened?
+][
+,(emph[F.]) Hateful money! hateful money!
+][
+,(emph[B.]) Come, come, exercise a little philosophy.
+What has happened to you?
+Has Croesus been affecting you?
+Has Jones been playing you false?
+or has Smith been libeling you in the papers?
+][
+,(emph[F.]) I have nothing to do with Croesus;
+my character, by its insignificance, is safe from any slanders of Smith;
+and as to Jones... ,(XXX)
+][
+,(emph[B.]) Ah! Now I have it. How could I be so blind?
+You, too, are the inventor of a social reorganization
+,(--) of the ,(emph[F,(--)-system]), in fact.
+Your society is to be more perfect than that of Sparta,
+and, therefore, all money is to be rigidly banished from it.
+And the thing that troubles you is,
+how to persuade your people to throw away the contents of their purses.
+What would you have?
+This is the rock on which all reorganizers split.
+There is not one but would do wonders,
+if he could contrive to overcome all resisting influences,
+and if all mankind would consent to become soft wax in his fingers;
+but men are resolved not to be soft wax;
+they listen, applaud, or reject and ,(--) go on as before.
+][
+,(emph[F.]) Thank heaven I am still free from this fashionable mania.
+Instead of inventing social laws,
+I am studying those which it has pleased Providence to invent,
+and I am delighted to find them admirable in their progressive development.
+This is why I exclaim, ,(q[Hateful money! hateful money!])
+][
+,(emph[B.]) You are a disciple of Proudhon, then?
+Well, there is a very simple way for you to satisfy yourself.
+Throw your purse into the river,
+only reserving a small draft on the Bank of Exchange.
+][
+,(emph[F.]) If I cry out against money,
+is it likely I should tolerate its deceitful substitute?
+][
+,(emph[B.]) Then I have only one more guess to make.
+You are a new Diogenes, and are going to victimize me
+with a discourse on the contempt of riches.
+][
+,(emph[F.]) Heaven preserve me from that!
+For riches, don't you see, are not a little more or a little less money.
+They are bread for the hungry,
+clothes for the naked,
+fuel to warm you,
+oil to lengthen the day,
+a career open to your son,
+a certain portion for your daughter,
+a day of rest after fatigue,
+a cordial for the faint,
+a little assistance slipped into the hand of a poor man,
+a shelter from the storm,
+a diversion for a brain worn by thought,
+the incomparable pleasure of making those happy who are dear to us.
+Riches are instruction, independence, dignity, confidence, charity;
+they are progress and civilization.
+Riches are the admirable civilizing result of two admirable agents,
+more civilizing even than riches themselves ,(--) labor and exchange.
+][
+,(emph[B.]) Well! now you seem to be singing the praises of riches,
+when, a moment ago, you were loading them with imprecations!
+][
+,(emph[F.]) Why, don't you see that it was only the whim of an economist?
+I cry out against money, just because everybody confounds it,
+as you did just now, with riches,
+and that this confusion is the cause of errors and calamities without number.
+I cry out against it because its function in society is not understood,
+and very difficult to explain.
+I cry out against it because it jumbles all ideas,
+causes the means to be taken for the end,
+the obstacle for the cause,
+the alpha for the omega;
+because its presence in the world, though in itself beneficial,
+has, nevertheless, introduced
+a fatal notion, a perversion of principles, a contradictory theory,
+which, in a multitude of forms,
+has impoverished mankind and deluged the earth with blood.
+I cry out against it, because I feel that I am incapable
+of contending against the error to which it has given birth,
+otherwise than by a long and fastidious dissertation
+to which no one would listen.
+Oh! if I could only find a patient and benevolent listener!
+][
+,(emph[B.]) Well, it shall not be said that for want of a victim
+you remain in the state of irritation in which you now are.
+I am listening; speak, lecture, do not restrain yourself in any way.
+][
+,(emph[F.]) You promise to take an interest?
+][
+,(emph[B.]) I promise to have patience.
+][
+,(emph[F.]) That is not much.
+][
+,(emph[B.]) It is all that I can give.
+Begin, and explain to me, at first,
+how a mistake on the subject of money, if mistake there be,
+is to be found at the root of all economical errors?
+][
+,(emph[F.]) Well, now, is it possible that you can conscientiously assure me
+that you have never happened to confound wealth with money?
+][
+,(emph[B.]) I don't know;
+but, after all, what would be the consequence of such a confusion?
+][
+,(emph[F.]) Nothing very important.
+An error in your brain, which would have no influence over your actions;
+for you see that, with respect to labor and exchange,
+although there are as many opinions as there are heads,
+we all act in the same way.
+][
+,(emph[B.]) Just as we walk upon the same principle,
+although we are not agreed upon the theory of equilibrium and gravitation.
+][
+,(emph[F.]) Precisely.
+A person who argued himself into the opinion that during the night
+our heads and feet changed places,
+might write very fine books upon the subject,
+but still he would walk about like everybody else.
+][
+,(emph[B.]) So I think.
+Nevertheless, he would soon suffer the penalty of being too much of a logician.
+][
+,(emph[F.]) In the same way, a man would die of hunger,
+who having decided that money is real wealth,
+should carry out the idea to the end.
+That is the reason that this theory is false,
+for there is no true theory but such as results from facts themselves,
+as manifested at all times, and in all places.
+][
+,(emph[B.]) I can understand, that practically,
+and under the influence of personal interest,
+the injurious effects of the erroneous action would tend to correct an error.
+But if that of which you speak has so little influence,
+why does it disturb you so much?
+][
+,(emph[F.]) Because, when a man, instead of acting for himself,
+decides for others,
+personal interest, that ever watchful and sensible sentinel,
+is no longer present to cry out, ,(q[Stop! the responsibility is misplaced.])
+It is Peter who is deceived, and John suffers;
+the false system of the legislator
+necessarily becomes the rule of action of whole populations.
+And observe the difference.
+When you have money, and are very hungry,
+whatever your theory about money may be, what do you do?
+][
+,(emph[B.]) I go to a baker's and buy some bread.
+][
+,(emph[F.]) You do not hesitate about using your money?
+][
+,(emph[B.]) The only use of money is to buy what one wants.
+][
+,(emph[F.]) And if the baker should happen to be thirsty, what does he do?
+][
+,(emph[B.]) He goes to the wine merchant's,
+and buys wine with the money I have given him.
+][
+,(emph[F.]) What! is he not afraid he shall ruin himself?
+][
+,(emph[B.]) The real ruin would be to go without eating or drinking.
+][
+,(emph[F.]) And everybody in the world,
+if he is free, acts in the same manner?
+][
+,(emph[B.]) Without a doubt.
+Would you have them die of hunger for the sake of laying by pence?
+][
+,(emph[F.]) So far from it, that I consider they act wisely,
+and I only wish that the theory was nothing
+but the faithful image of this universal practice.
+But, suppose now, that you were the legislator,
+the absolute king of a vast empire, where there were no gold mines.
+][
+,(emph[B.]) No unpleasant fiction.
+][
+,(emph[F.]) Suppose, again, that you were perfectly convinced of this,
+,(--) that wealth consists solely and exclusively of money,
+to what conclusion would you come?
+][
+,(emph[B.]) I should conclude that there was no other means
+for me to enrich my people,
+or for them to enrich themselves,
+but to draw away the money from other nations.
+][
+,(emph[F.]) That is to say, to impoverish them.
+The first conclusion, then, to which you would arrive would be this,
+,(--) a nation can only gain when another loses.
+][
+,(emph[B.]) This axiom has the authority of Bacon and Montaigne.
+,(footnote*[
+During the sixteenth and seventeenth centuries
+this theory was almost universally accepted in Europe.])
+][
+,(emph[F.]) It is not the less sorrowful for that, for it implies
+,(--) that progress is impossible.
+Two nations, no more than two men, cannot prosper side by side.
+][
+,(emph[B.]) It would seem that such is the result of this principle.
+][
+,(emph[F.]) And as all men are ambitious to enrich themselves,
+it follows that all are desirous, according to a law of Providence,
+of ruining their fellow-creatures.
+][
+,(emph[B.]) This is not Christianity, but it is political economy.
+][
+,(emph[F.]) Such a doctrine is detestable.
+But, to continue, I have made you an absolute king.
+You must not be satisfied with reasoning, you must act.
+There is no limit to your power.
+How would you treat this doctrine ,(--) wealth is money?
+][
+,(emph[B.]) It would be my endeavor to increase, incessantly, among my people
+the quantity of money.
+][
+,(emph[F.]) But there are no mines in your kingdom.
+How would you set about it? What would you do?
+][
+,(emph[B.]) I should do nothing: I should merely forbid, on pain of death,
+that a single dollar should leave the country.
+][
+,(emph[F.]) And if your people should happen to be hungry as well as rich?
+][
+,(emph[B.]) Never mind.
+In the system we are discussing, to allow them to export dollars,
+would be to allow them to impoverish themselves.
+][
+,(emph[F.]) So that, by your own confession,
+you would force them to act upon a principle equally opposite
+to that upon which you would yourself act under similar circumstances.
+Why so?
+][
+,(emph[B.]) Just because my own hunger touches me,
+and the hunger of a nation does not touch legislators.
+][
+,(emph[F.]) Well, I can tell you that your plan would fail,
+and that no superintendence would be sufficiently vigilant,
+when the people were hungry,
+to prevent the dollars from going out and the grain from coming in.
+][
+,(emph[B.]) If so, this plan, whether erroneous or not, would effect nothing;
+it would do neither good nor harm,
+and therefore requires no further consideration.
+][
+,(emph[F.]) You forget that you are a legislator.
+A legislator must not be disheartened at trifles,
+when he is making experiments on others.
+The first measure not having succeeded,
+you ought to take some other means of attaining your end.
+][
+,(emph[B.]) What end?
+][
+,(emph[F.]) You must have a bad memory.
+Why, that of increasing, in the midst of your people, the quantity of money,
+which is presumed to be true wealth.
+][
+,(emph[B.]) Ah! to be sure; I beg your pardon.
+But then you see, as they say of music, a little is enough;
+and this may be said, I think, with still more reason, of political economy.
+I must consider.
+But really I don't know how to contrive ,(--)
+]
+(nbsp)
+[
+,(emph[F.]) Ponder it well.
+First, I would have you observe
+that your first plan solved the problem only negatively.
+To prevent the dollars from going out of the country
+is the way to prevent the wealth from diminishing,
+but it is not the way to increase
+][
+,(emph[B.]) Ah! now I am beginning to see...
+the grain which is allowed to come in...
+a bright idea strikes me...
+the contrivance is ingenious, the means infallible;
+I am coming to it now.
+][
+,(emph[F.]) Now, I, in turn, must ask you ,(--) to what?
+][
+,(emph[B.]) Why, to a means of increasing the quantity of money.
+][
+,(emph[F.]) How would you set about it, if you please?
+][
+,(emph[B.]) Is it not evident
+that if the heap of money is to be constantly increasing,
+the first condition is that none must be taken from it?
+][
+,(emph[F.]) Certainly.
+][
+,(emph[B.]) And the second, that additions must constantly be made to it?
+][
+,(emph[F.]) To be sure.
+][
+,(emph[B.]) Then the problem will be solved, either negatively or positively;
+if on the one hand I prevent the foreigner from taking from it,
+and on the other I oblige him to add to it.
+][
+,(emph[F.]) Better and better.
+][
+,(emph[B.]) And for this there must be two simple laws made,
+in which money will not even be mentioned.
+By the one, my subjects will be forbidden to buy anything abroad;
+and by the other, they will be required to sell a great deal.
+][
+,(emph[F.]) A well-advised plan.
+][
+,(emph[B.]) Is it new? I must take out a patent for the invention.
+][
+,(emph[F.]) You need do no such thing;
+you have been forestalled.
+But you must take care of one thing.
+][
+,(emph[B.]) What is that?
+][
+,(emph[F.]) I have made you an absolute king.
+I understand that you are going to prevent your subjects
+from buying foreign productions.
+It will be enough if you prevent them from entering the country.
+Thirty or forty thousand customhouse officers will do the business.
+][
+,(emph[B.]) It would be rather expensive. But what does that signify?
+The money they receive will not go out of the country.
+][
+,(emph[F.]) True; and in this system it is the grand point.
+But to insure a sale abroad, how would you proceed?
+][
+,(emph[B.]) I should encourage it by prizes,
+obtained by means of some good taxes
+laid upon my people.
+][
+,(emph[F.]) In this case, the exporters,
+constrained by competition among themselves,
+would lower their prices in proportion,
+and it would be like making a present to the foreigner
+of the prizes or of the taxes.
+][
+,(emph[B.]) Still, the money would not go out of the country.
+][
+,(emph[F.]) Of course. That is understood.
+But if your system is beneficial,
+the governments of other countries will adopt it.
+They will make similar plans to yours;
+they will have their custom-house officers, and reject your productions;
+so that with them, as with you, the heap of money may not be diminished.
+][
+,(emph[B.]) I shall have an army and force their barriers.
+][
+,(emph[F.]) They will have an army and force yours.
+][
+,(emph[B.]) I shall arm vessels, make conquests, acquire colonies,
+and create consumers for my people,
+who will be obliged to eat our corn and drink our wine.
+][
+,(emph[F.]) The other governments will do the same.
+They will dispute your conquests, your colonies, and your consumers;
+then on all sides there will be war, and all will be uproar.
+][
+,(emph[B.]) I shall raise my taxes, and increase
+my custom-house officers, my army, and my navy.
+][
+,(emph[F.]) The others will do the same.
+][
+,(emph[B.]) I shall redouble my exertions.
+][
+,(emph[F.]) The others will redouble theirs.
+In the meantime, we have no proof
+that you would succeed in selling to a great extent.
+][
+,(emph[B.]) It is but too true.
+It would be well if the commercial efforts would neutralize each other.
+][
+,(emph[F.]) And the military efforts also.
+And, tell me, are not these custom-house officers, soldiers, and vessels,
+these oppressive taxes, this perpetual struggle towards an impossible result,
+this permanent state of open or secret war with the whole world,
+are they not the logical and inevitable consequence
+of the legislators having adopted an idea,
+which you admit is acted upon by no man who is his own master,
+that ,(q[wealth is money;
+and to increase the amount of money is to increase wealth?])
+][
+,(emph[B.]) I grant it.
+Either the axiom is true,
+and then the legislator ought to act as I have described,
+although universal war should be the consequence;
+or it is false;
+and in this case men, in destroying each other, only ruin themselves.
+][
+,(emph[F.]) And, remember, that before you became a king,
+this same axiom had led you by a logical process to the following maxims:
+,(--) That which one gains, another loses.
+The profit of one is the loss of the other:
+,(--) which maxims imply an unavoidable antagonism amongst all men.
+][
+,(emph[B.]) It is only too certain.
+Whether I am a philosopher or a legislator,
+whether I reason or act upon the principle that money is wealth,
+I always arrive at one conclusion, or one result: ,(--) universal war.
+It is well that you pointed out the consequences
+before beginning a discussion upon it;
+otherwise, I should never have had the courage
+to follow you to the end of your economical dissertation,
+for, to tell you the truth, it is not much to my taste.
+][
+,(emph[F.]) What do you mean?
+I was just thinking of it when you heard me grumbling against money!
+I was lamenting that my countrymen have not the courage
+to study what it is so important that they should know.
+][
+,(emph[B.]) And yet the consequences are frightful.
+][
+,(emph[F.]) The consequences!
+As yet I have only mentioned one.
+I might have told you of others still more fatal.
+][
+,(emph[B.]) You make my hair stand on end!
+What other evils can have been caused to mankind
+by this confusion between money and wealth?
+][
+,(emph[F.]) It would take me a long time to enumerate them.
+This doctrine is one of a very numerous family.
+The eldest, whose acquaintance we have just made,
+is called the ,(emph[prohibitive system]),(pv)
+the next, the ,(emph[colonial system]),(pv)
+the third, ,(emph[hatred of capital]),(pv)
+the last and worst, ,(emph[paper money]).
+][
+,(emph[B.]) What! does paper money proceed from the same error?
+][
+,(emph[F.]) Yes, directly.
+When legislators, after having ruined men by war and taxes,
+persevere in their idea, they say to themselves,
+,(q[If the people suffer, it is because there is not money enough.
+We must make some.])
+And as it is not easy to multiply the precious metals,
+especially when the pretended resources of prohibition have been exhausted,
+they add,
+,(q[We will make fictitious money, nothing is more easy,
+and then every citizen will have his pocket-book full of it,
+and they will all be rich.])
+][
+,(emph[B.]) In fact, this proceeding is more expeditious than the other,
+and then it does not lead to foreign war.
+][
+,(emph[F.]) No, but it leads to civil disaster.
+][
+,(emph[B.]) You are a grumbler.
+Make haste and dive to the bottom of the question.
+I am quite impatient, for the first time,
+to know if money (or its sign) is wealth.
+][
+,(emph[F.]) You will grant that men
+do not satisfy any of their wants immediately
+with coined dollars, or dollar bills.
+If they are hungry, they want bread;
+if naked, clothing;
+if they are ill, they must have remedies;
+if they are cold, they want shelter and fuel;
+if they would learn, they must have books;
+if they would travel, they must have conveyances ,(--) and so on.
+The riches of a country consist
+in the abundance and proper distribution of all these things.
+Hence you may perceive and rejoice at the falseness
+of this gloomy maxim of Bacon's,
+,(q[,(emph[What one people gains, another necessarily loses]):])
+a maxim expressed in a still more discouraging manner by Montaigne,
+in these words: ,(q[,(emph[The profit of one is the loss of another]).])
+When Shem, Ham, and Japhet divided amongst themselves
+the vast solitudes of this earth,
+they surely might each of them build, drain, sow, reap,
+and obtain improved lodging, food and clothing,
+and better instruction, perfect and enrich themselves
+,(--) in short, increase their enjoyments,
+without causing a necessary diminution
+in the corresponding enjoyments of their brothers.
+It is the same with two nations.
+][
+,(emph[B.]) There is no doubt that two nations, the same as two men,
+unconnected with each other, may, by working more, and working better,
+prosper at the same time, without injuring each other.
+It is not this which is denied by the axioms of Montaigne and Bacon.
+They only mean to say,
+that in the transactions which take place between two nations or two men,
+if one gains, the other must lose.
+And this is self-evident, as exchange adds nothing by itself
+to the mass of those useful things of which you were speaking;
+for if, after the exchange, one of the parties is found
+to have gained something,
+the other will, of course, be found to have lost something.
+][
+,(emph[F.]) You have formed a very incomplete, nay, a false idea of exchange.
+If Shem is located upon a plain which is fertile in corn,
+Japhet upon a slope adapted for growing the vine,
+Ham upon a rich pasturage
+,(--) the distinction of their occupations,
+far from hurting any of them, might cause all three to prosper more.
+It must be so, in fact,
+for the distribution of labor, introduced by exchange,
+will have the effect of increasing the mass of corn, wine, and meat
+which is produced, and which is to be shared.
+How can it be otherwise, if you allow liberty in these transactions?
+From the moment that any one of the brothers
+should perceive that labor in company,
+as it were, was a permanent loss, compared to solitary labor,
+he would cease to exchange.
+Exchange brings with it its claim to our gratitude.
+The fact of its being accomplished proves that it is a good thing.
+][
+,(emph[B.]) But Bacon's axiom is true in the case of gold and silver.
+If we admit that at a certain moment
+there exists in the world a given quantity,
+it is perfectly clear that one purse
+cannot be filled without another being emptied.
+][
+,(emph[F.]) And if gold is considered to be riches,
+the natural conclusion is,
+that displacements of fortune take place among men, but no general progress.
+It is just what I said when I began.
+If, on the contrary, you look upon an abundance of useful things,
+fit for satisfying our wants and our tastes, as true riches,
+you will see that simultaneous prosperity is possible.
+Money serves only to facilitate the transmission of these useful things
+from one to another,
+which may be done equally well with an ounce of rare metal like gold,
+with a pound of more abundant material as silver,
+or with a hundredweight of still more abundant metal, as copper.
+According to that, if a country like the United States
+had at its disposal as much again of all these useful things, ,(XXX)
+its people would be twice as rich,
+although the quantity of money remained the same;
+but it would not be the same if there were double the money,
+for in that case the amount of useful things would not increase.
+][
+,(emph[B.]) The question to be decided is,
+whether the presence of a greater number of dollars has not the effect,
+precisely, of augmenting the sum of useful things?
+][
+,(emph[F.]) What connection can there be between these two terms?
+Food, clothing, houses, fuel, all come from nature and from labor,
+from more or less skillful labor exerted upon a more or less liberal nature.
+][
+,(emph[B.]) You are forgetting one great force, which is ,(--) exchange.
+If you acknowledge that this is a force,
+as you have admitted that dollars facilitate it,
+you must also allow that they have an indirect power of production.
+][
+,(emph[F.]) But I have added, that a small quantity of rare metal
+facilitates transactions as much as a large quantity of abundant metal;
+whence it follows, that a people is not enriched
+by being ,(emph[forced]) to give up useful things
+for the sake of having more money.
+][
+,(emph[B.]) Thus, it is your opinion
+that the treasures discovered in California
+will not increase the wealth of the world?
+][
+,(emph[F.]) I do not believe that, on the whole,
+they will add much to the enjoyments, to the real satisfactions of mankind.
+If the Californian gold merely replaces in the world
+that which has been lost and destroyed, it may have its use.
+If it increases the amount of money, it will depreciate it.
+The gold diggers will be richer than they would have been without it.
+But those in whose possession the gold is at the moment of its depreciation,
+will obtain a smaller gratification for the same amount.
+I cannot look upon this as an increase,
+but as a displacement of true riches, as I have defined them.
+][
+,(emph[B.]) All that is very plausible.
+But you will not easily convince me that I am not richer
+(all other things being equal)
+if I have two dollars, than if I had only one.
+][
+,(emph[F.]) I do not deny it.
+][
+,(emph[B.]) And what is true of me is true of my neighbor,
+and of the neighbor of my neighbor, and so on,
+from one to another, all over the country.
+Therefore, if every citizen of the United States has more dollars,
+the United States must be more rich.
+][
+,(emph[F.]) And here you fall into the common mistake of concluding
+that what affects one affects all, ,(XXX [fr:/what...all/])
+and thus confusing the individual with the general interest.
+][
+,(emph[B.]) Why, what can be more conclusive?
+What is true of one, must be so of all.
+What are all, but a collection of individuals? ,(XXX [fr: /all/ /individuals/])
+You might as well tell me
+that every American could suddenly grow an inch taller, ,(XXX [fr: /every/])
+without the average height of all the Americans being increased.
+][
+,(emph[F.]) Your reasoning is apparently sound, I grant you,
+and that is why the allusion it conceals is so common.
+However, let us examine it a little.
+Ten persons were at play.
+For greater ease, they had adopted the plan of each taking ten counters,
+and against these they each placed a hundred dollars under a candlestick,
+so that each counter corresponded to ten dollars.
+After the game the winnings were adjusted,
+and the players drew from the candlestick
+as many ten dollars as would represent the number of counters.
+Seeing this, one of them, a great arithmetician perhaps,
+but an indifferent reasoner, said:
+,(q[Gentlemen, experience invariably teaches me that,
+at the end of the game,
+I find myself a gainer in proportion to the number of my counters.
+Have you not observed the same with regard to yourselves?
+Thus, what is true of me must be true of each of you,
+and ,(emph[what is true of each must be true of all]).
+We should, therefore, all of us gain more, at the end of the game,
+if we all had more counters.
+Now, nothing can be easier;
+we have only to distribute twice the number of counters.])
+This was done;
+but when the game was finished, and they came to adjust the winnings,
+it was found that the one thousand under the candlestick
+had not been miraculously multiplied, according to the general expectation.
+They had to be divided accordingly,
+and the only result obtained (chimerical enough) was this;
+,(--) every one had, it is true, his double number of counters,
+but every counter, instead of corresponding to ,(emph[ten]) dollars,
+only represented ,(emph[five]).
+Thus it was clearly shown that what is true of each is not always true of all.
+][
+,(emph[B.]) I see;
+you are supposing a general increase of counters,
+without a corresponding increase of the sum placed under the candlestick.
+][
+,(emph[F.]) And you are supposing a general increase of dollars,
+without a corresponding increase of things,
+the exchange of which is facilitated by these dollars.
+][
+,(emph[B.]) Do you compare the dollars to counters?
+][
+,(emph[F.]) In any other point of view, certainly not;
+but in the case you place before me,
+and which I have to argue against, I do.
+Remark one thing.
+In order that there be a general increase of dollars in a country,
+this country must have mines, or its commerce must be such
+as to give useful things in exchange for money.
+Apart from these two circumstances, ,(XXX [fr:/.../])
+a universal increase is impossible, the dollars only changing hands;
+and in this case,
+although it may be very true that each one, taken individually,
+is richer in proportion to the number of dollars that he has,
+we cannot draw the inference which you drew just now,
+because a dollar more in one purse implies necessarily
+a dollar less in some other.
+It is the same as with your comparison of the middle height.
+If each of us grew only at the expense of others,
+it would be very true of each, taken individually,
+that he would be a taller man if he had the chance,
+but this would never be true of the whole taken collectively.
+][
+,(emph[B.]) Be it so: but, in the two suppositions that you have made,
+the increase is real, and you must allow that I am right.
+][
+,(emph[F.]) To a certain point, gold and silver have a value.
+To obtain this value, men consent to give
+other useful things which have a value also.
+When, therefore, there are mines in a country,
+if that country obtains from them sufficient gold
+to purchase a useful thing from abroad ,(--) a locomotive, for instance ,(--)
+it enriches itself with all the enjoyments which a locomotive can procure,
+exactly as if the machine had been made at home.
+The question is, whether it spends more efforts
+in the former proceeding than in the latter?
+For if it did not export this gold, it would depreciate,
+and something worse would happen
+than what did sometimes happen in California and in Australia,
+for there, at least, the precious metals are used
+to buy useful things made elsewhere.
+Nevertheless, there is still a danger that they may starve on heaps of gold;
+as it would be if the law prohibited the exportation of gold.
+As to the second supposition
+,(--) that of the gold which we obtain by trade:
+it is an advantage, or the reverse,
+according as the country stands more or less in need of it,
+compared to its wants of the useful things
+which must be given up in order to obtain it.
+It is not for the law to judge of this,
+but for those who are concerned in it;
+for if the law should start upon this principle,
+that gold is preferable to useful things,
+whatever may be their value,
+and if it should act effectually in this sense,
+it would tend to put every country adopting the law
+in the curious position of having a great deal of cash to spend,
+and nothing to buy.
+It is the very same system which is represented by Midas,
+who turned everything he touched into gold,
+and was in consequence in danger of dying of starvation.
+][
+,(emph[B.]) The gold which is ,(emph[im])ported implies
+that a ,(emph[useful thing]) is ,(emph[ex])ported,
+and in this respect there is a satisfaction withdrawn from the country.
+But is there not a corresponding benefit?
+And will not this gold be the source of a number of new satisfactions,
+by circulating from hand to hand, and inciting to labor and industry,
+until at length it leaves the country in its turn,
+and causes the importation of some useful thing.
+][
+,(emph[F.]) Now you have come to the heart of the question.
+Is it true that a dollar is the principle
+which causes the production of all the objects whose exchange it facilitates?
+It is very clear that a piece of coined gold or silver stamped as a dollar
+is only worth a dollar; ,(XXX [fr: /worth/])
+but we are led to believe that this value has a particular character:
+that it is not consumed like other things,
+or that it is exhausted very gradually;
+that it renews itself, as it were, in each transaction;
+and that, finally this particular dollar has been worth a dollar,
+as many times as it has accomplished transactions
+,(--) that it is of itself worth all the things
+for which it has been successively exchanged;
+and this is believed,
+because it is supposed that without this dollar
+these things would never have been produced.
+It is said the shoemaker would have sold fewer shoes,
+consequently he would have bought less of the butcher;
+the butcher would not have gone so often to the grocer,
+the grocer to the doctor, the doctor to the lawyer, and so on.
+][
+,(emph[B.]) No one can dispute that.
+][
+,(emph[F.]) This is the time, then, to analyze the true function of money,
+independently of mines and importations.
+You have a dollar.
+What does it imply in your hands?
+It is, as it were, the witness and proof that you have, at some time or other,
+performed some labor, which, instead of turning to your advantage,
+you have bestowed upon society as represented by the person of your client
+(employer or debtor).
+This coin testifies that you have performed a ,(emph[service]) for society,
+and, moreover, it shows the value of it.
+It bears witness, besides, that you have not yet obtained from society
+a ,(emph[real]) equivalent service, to which you have a right.
+To place you in a condition to exercise this right,
+at the time and in the manner you please,
+society, as represented by your client,
+has given you an acknowledgment, a title, a privilege from the republic,
+a counter, a title to a dollar's worth of property in fact,
+which only differs from executive titles by bearing its value in itself;
+,(XXX [fr: various /.../ preceedingly])
+and if you are able to read with your mind's eye
+the inscriptions stamped upon it you will distinctly decipher these words:
+,(--) ,(q[,(emph[Pay the bearer a service equivalent
+to what he has rendered to society,
+the value received being shown, proved, and measured
+by that which is represented by me]).])
+Now, you give up your dollar to me.
+Either my title to it is gratuitous, or it is a claim.
+If you give it to me as payment for a service, the following is the result:
+,(--) your account with society for real satisfactions
+is regulated, balanced, and closed.
+You had rendered it a service for a dollar,
+you now restore the dollar for a service;
+as far as you are concerned you are clear.
+As for me, I am just in the position in which you were just now.
+It is I who am now in advance to society for the service
+which I have just rendered it in your person.
+I have become its creditor for the value of the labor
+which I have performed for you, and which I might devote to myself.
+It is into my hands then, that the title of this credit
+,(--) the proof of this social debt ,(--) ought to pass.
+You cannot say that I am any richer;
+if I am entitled to receive, it is because I have given.
+Still less can you say that society is a dollar richer,
+because one of its members has a dollar more, and another has one less.
+For if you let me have this dollar gratis,
+it is certain that I shall be so much the richer,
+but you will be so much the poorer for it;
+and the social fortune, taken in a mass, will have undergone no change,
+because as I have already said, this fortune consists in real services,
+in effective satisfactions, in useful things.
+You were a creditor to society;
+you made me a substitute to your rights,
+and it signifies little to society, which owes a service,
+whether it pays the debt to you or to me.
+This is discharged as soon as the bearer of the claim is paid.
+][
+,(emph[B.]) But if we all had a great number of dollars
+we should obtain from society many services.
+Would not that be very desirable?
+][
+,(emph[F.]) You forget that in the process which I have described,
+and which is a picture of the reality,
+we only obtain services from society because we have bestowed some upon it.
+Whoever speaks of a ,(emph[service]), speaks, at the same time
+of a service ,(emph[received]) and ,(emph[returned]),
+for these two terms imply each other,
+so that the one must always be balanced by the other.
+It is impossible for society to render more services than it receives,
+and yet a belief to the contrary is the chimera
+which is being pursued by means of the multiplication of coins,
+of paper money, etc.
+][
+,(emph[B.]) All that appears very reasonable in theory,
+,(XXX [fr: /in theory/])
+but in practice I cannot help thinking, when I see how things go,
+that if, by some fortunate circumstance,
+the number of dollars could be multiplied in such a way
+that each of us could see his little property doubled,
+we should all be more at our ease;
+we should all make more purchases, and trade would receive a powerful stimulus.
+][
+,(emph[F.]) More purchases! and what should we buy?
+Doubtless, useful articles
+,(--) things likely to procure for us substantial gratification
+,(--) such as provisions, stuffs, houses, books, pictures.
+You should begin, then, by proving that all these things create themselves;
+you must suppose the Mint melting ingots of gold
+which have fallen from the moon;
+or that the printing presses be put in action at the Treasury Department;
+for you cannot reasonably think
+that if the quantity of corn, cloth, ships, hats, and shoes remains the same,
+the share of each of us can be greater,
+because we each go to market with a greater amount of real or fictitious money.
+Remember the players.
+In the social order the useful things
+are what the workers place under the candlestick,
+and the dollars which circulate from hand to hand are the counters.
+If you multiply the dollars without multiplying the useful things,
+the only result will be that more dollars will be required for each exchange,
+just as the players required more counters for each deposit.
+You have the proof of this in what passes for gold, silver, and copper.
+Why does the same exchange
+require more copper than silver, more silver than gold?
+Is it not because these metals
+are distributed in the world in different proportions?
+What reason have you to suppose
+that if gold were suddenly to become as abundant as silver,
+it would not require as much of one as of the other to buy a house?
+][
+,(emph[B.]) You may be right, but I should prefer your being wrong.
+In the midst of the sufferings which surround us,
+so distressing in themselves, and so dangerous in their consequences,
+I have found some consolation in thinking
+that there was an easy method of making all the members of the community happy.
+][
+,(emph[F.]) Even if gold and silver were true riches,
+it would be no easy matter to increase the amount of them
+in a country where there are no mines.
+][
+,(emph[B.]) No, but it is easy to substitute something else.
+I agree with you that gold and silver can do but little service,
+except as a mere means of exchange.
+It is the same with paper money, bank-notes, etc.
+Then, if we had all of us plenty of the latter, which it is so easy to create,
+we might all buy a great deal, and should want for nothing.
+,(footnote*[
+Stated in the abstract, these views,
+which M. Bastiat causes his imaginary advocate
+of the issue and use of irredeemable paper money to express,
+seem so absurd, that one reading involuntarily asks himself:
+,(q[Do people in actual life,
+holding important positions of trust and influence
+really ever thus talk and believe?])
+To this the answer, unfortunately, must be in the affirmative.
+The legislative history of all countries
+is full of examples of such utterances;
+and that of the United States, especially, abounds with them.
+Pelatiah Webster, in his history of ,(q[Continental Money,])
+tells us that when the subject of increased taxation for the support of the war
+was under consideration by the Continental Congress,
+a member arose and indignantly asked,
+,(q[if he was expected to help tax people,
+when they could go to the printing-office and get money by the cart load.])
+During the debates in the Senate of the United States in 1875,
+the Hon. O. P. Morton, a senator from Indiana,
+a man whom no small number of people
+have thought worthy of being called to the Executive chair of the nation,
+authoritatively laid down this proposition:
+,(q[,(emph[That an abundance of money])]) (meaning irredeemable paper money)
+,(q[,(emph[does produce enterprise, prosperity, and progress;
+that when money was plentiful interest would be lower,])])
+,(emph[just as when horses and hogs are abundant, horses and hogs are cheap.])
+The trouble here was that this senator
+had not sufficiently comprehended the a, b, c's of finance,
+to appreciate the difference between capital and currency;
+and in the simplicity of his heart imagined that it was all the same
+whether we had pictures of horses, hogs, and money,
+or real horses, hogs, and money,
+which represent, and are only produced by labor.
+,(--) ,(cite-title[Robinson Crusoe's Money]), p. 110.
+])
+Your cruel theory dissipates hopes,
+illusions, if you will,
+whose principle is assuredly very philanthropic.
+][
+,(emph[F.]) Yes, like all other barren dreams
+formed to promote universal felicity.
+The extreme facility of the means which you recommend
+is quite sufficient to expose its hollowness.
+Do you believe that if it were merely needful to print bank-notes
+in order to satisfy all our wants, our tastes, and desires,
+that mankind would have been contented to go on till now
+without having recourse to this plan?
+I agree with you that the discovery is tempting.
+It would immediately banish from the world,
+not only plunder, in its diversified and deplorable forms,
+but even labor itself, except in the National Printing Bureau.
+But we have yet to learn how greenbacks are to purchase houses,
+which no one would have built;
+corn, which no one would have raised;
+stuffs, which no one would have taken the trouble to weave.
+][
+,(emph[B.]) One thing strikes me in your argument.
+You say yourself that if there is no gain,
+at any rate there is no loss in multiplying the instrument of exchange,
+as is seen by the instance of the players,
+who were quits by a very mild deception.
+Why, then, refuse the philosopher's stone,
+which would teach us the secret of changing base material into gold,
+or what is the same thing, converting paper into money?
+Are you so blindly wedded to logic,
+that you would refuse to try an experiment where there can be no risk?
+If you are mistaken, you are depriving the nation,
+as your numerous adversaries believe, of an immense advantage.
+If the error is on their side, no harm can result, as you yourself say,
+beyond the failure of a hope.
+The measure, excellent in their opinion, in yours is merely negative.
+Let it be tried, then, since the worst which can happen
+is not the realization of an evil, but the non-realization of a benefit.
+][
+,(emph[F.]) In the first place, the failure of a hope
+is a very great misfortune to any people.
+It is also very undesirable that the government
+should announce the abolition of several taxes
+on the faith of a resource which must infallibly fail.
+Nevertheless, your remark would deserve some consideration,
+if, after the issue of paper money and its depreciation,
+the equilibrium of values should instantly and simultaneously take place
+in all things and in every part of the country.
+The measure would tend, as in my example of the players,
+to a universal mystification,
+in respect to which the best thing we could do
+would be to look at one another and laugh.
+But this is not in the course of events.
+The experiment has been made, and every time a government
+,(--) be it King or Congress ,(--) has altered the money...
+][
+,(emph[B.]) Who says anything about altering the money?
+][
+,(emph[F.]) Why, to force people to take in payment scraps of paper
+which have been officially baptized ,(emph[dollars]),
+or to force them to receive, as weighing an ounce,
+a piece of silver which weighs only half an ounce,
+but which has been officially named a ,(emph[dollar]),
+is the same thing, if not worse;
+and all the reasoning which can be made in favor of paper money
+has been made in favor of legal false-coined money.
+Certainly, looking at it, as you did just now,
+and as you appear to be doing still,
+if it is believed that to multiply the instruments of exchange
+is to multiply the exchanges themselves as well as the things exchanged,
+it might very reasonably be thought that the most simple means
+was to mechanically divide the coined dollar,
+and to cause the law to give to the half the name and value of the whole.
+Well, in both cases, depreciation is inevitable.
+I think I have told you the cause.
+I must also inform you, that this depreciation,
+which, with paper, might go on till it came to nothing,
+is effected by continually making dupes;
+and of these, poor people, simple persons, workmen and countrymen
+are the chief.
+][
+,(emph[B.]) I see; but stop a little.
+This dose of Economy is rather too strong for once.
+][
+,(emph[F.]) Be it so.
+We are agreed, then, upon this point
+,(--) that wealth is the mass of useful things which we produce by labor;
+or, still better, the result of all the efforts
+which we make for the satisfaction of our wants and tastes.
+These useful things are exchanged for each other,
+according to the convenience of those to whom they belong.
+There are two forms in these transactions;
+one is called barter: ,(XXX [fr: /barter/])
+in this case a service is rendered
+for the sake of receiving an equivalent service immediately.
+In this form transactions would be exceedingly limited.
+In order that they may be multiplied,
+and accomplished independently of time and space
+amongst persons unknown to each other,
+and by infinite fractions, an intermediate agent has been necessary
+,(--) this is money.
+It gives occasion for exchange,
+which is nothing else but a complicated bargain.
+This is what has to be remarked and understood.
+Exchange decomposes itself into two bargains,
+into two departments, sale and purchase
+,(XXX [fr: /Exchange/ /sale/ /purchase/]) 
+,(--) the reunion of which is needed to complete it.
+You ,(emph[sell]) a service, and receive a dollar ,(--),(--)
+then, with this dollar you ,(emph[buy]) a service.
+Then only is the bargain complete;
+it is not till then that your effort has been followed by a real satisfaction.
+Evidently you only work to satisfy the wants of others,
+that others may work to satisfy yours.
+So long as you have only the dollar which has been given you for your work,
+you are only entitled to claim the work of another person.
+When you have done so, the economical evolution will be accomplished
+as far as you are concerned, since you will then only have obtained,
+by a real satisfaction, the true reward for your trouble.
+The idea of a bargain ,(XXX [fr://])
+implies a service rendered, and a service received.
+Why should it not be the same with exchange,
+which is merely a bargain in two parts?
+And here there are two observations to be made.
+First ,(--) It is a very unimportant circumstance
+whether there be much or little money in the world.
+If there is much, much is required;
+if there is little, little is wanted, for each transaction:
+that is all.
+The second observation is this:
+,(--) Because it is seen that money always reappears in every exchange,
+it has come to be regarded as the ,(emph[sign]) and the ,(emph[measure])
+of the things exchanged.
+][
+,(emph[B.]) Will you still deny that money is the ,(emph[sign])
+of the useful things of which you speak?
+][
+,(emph[F.]) A half-eagle is no more the sign of a barrel of flour,
+than a barrel of flour is the sign of a half-eagle.
+][
+,(emph[B.]) What harm is there in looking at money as the sign of wealth?
+][
+,(emph[F.]) The inconvenience is this
+,(--) it leads to the idea that we have only to increase the sign,
+in order to increase the things signified;
+and we are in danger of adopting all the false measures
+which you took when I made you an absolute king.
+We should go still further.
+Just as in money we see the sign of wealth,
+we see also in paper money the sign of money;
+and thence conclude that there is a very easy and simple method
+of procuring for everybody the pleasures of fortune.
+][
+,(emph[B.]) But you will not go so far as to dispute
+that money is the ,(emph[measure]) of values?
+][
+,(emph[F.]) Yes, certainly, I do go as far as that,
+for that is precisely where the illusion lies.
+It has become customary to refer the value of everything to that of money.
+It is said, this is ,(emph[worth]) five, ten, or twenty dollars,
+as we say this ,(emph[weighs]) five, ten, or twenty grains;
+this ,(emph[measures]) five, ten, or twenty yards;
+this ground ,(emph[contains]) five, ten, or twenty acres;
+and hence it has been concluded that money
+is the ,(emph[measure]) of ,(emph[values]).
+][
+,(emph[B.]) Well, it appears as if it was so.
+][
+,(emph[F.]) Yes, it appears so, and it is this appearance I complain of,
+and not of the reality.
+A measure of length, size, surface,
+is a quantity agreed upon, and unchangeable.
+It is not so with the value of gold and silver.
+This varies as much as that of corn, wine, cloth, or labor,
+and from the same causes, for it has the same source and obeys the same laws.
+Gold is brought within our reach, just like iron,
+by the labor of miners, the advances of capitalists,
+and the combination of merchants and seamen.
+It costs more or less, according to the expense of its production,
+according to whether there is much or little in the market,
+and whether it is much or little in request;
+in a word, it undergoes the fluctuations of all other human productions.
+But one circumstance is singular, and gives rise to many mistakes.
+When the value of money varies,
+the variation is attributed by language
+to the other productions for which it is exchanged.
+Thus, let us suppose
+that all the circumstances relative to gold remain the same,
+and that the corn harvest has failed.
+The price of corn will rise.
+It will be said,
+,(q[The barrel of flour, which was worth five dollars, is now worth eight;])
+and this will be correct, for it is the value of the flour which has varied,
+and language agrees with the fact.
+But let us reverse the supposition:
+let us suppose that all the circumstances relative to flour remain the same,
+and that half of all the gold in existence is swallowed up;
+this time it is the price of gold which will rise.
+It would seem that we ought to say,
+,(q[This halfeagle, which ,(emph[was worth]) ten dollars,
+,(emph[is now worth]) twenty.])
+Now, do you know how this is expressed?
+Just as if it was the other objects of comparison which had fallen in price,
+it is said
+,(--) ,(q[Flour, which ,(emph[was worth]) ten dollars,
+,(emph[is now only worth]) five.])
+][
+,(emph[B.]) It all comes to the same thing in the end.
+][
+,(emph[F.]) No doubt;
+but only think what disturbances,
+what cheatings are produced in exchanges,
+when the value of the medium varies,
+without our becoming aware of it by a change in the name.
+Old pieces are issued, or notes bearing the name of five dollars,
+and which will bear that name through every subsequent depreciation.
+The value will be reduced a quarter, a half,
+but they will still be called
+,(emph[pieces]) or ,(emph[notes of five dollars]).
+Clever persons will take care not to part with their good
+unless for a larger number of notes
+,(--) in other words, they will ask ten dollars
+for what they would formerly have sold for five;
+but simple persons will be taken in.
+Many years must pass before all the values will find their proper level.
+Under the influence of ignorance and ,(emph[custom]),
+the day's pay of a country laborer
+will remain for a long time at a dollar
+while the salable price of all the articles of consumption around him
+will be rising.
+He will sink into destitution without being able to discover the cause.
+In short, since you wish me to finish, I must beg you, before we separate,
+to fix your whole attention upon this essential point:
+,(--) When once false money (under whatever form it may take)
+is put into circulation, depreciation will ensue,
+and manifest itself by the universal rise
+of every thing which is capable of being sold.
+But this rise in prices is not instantaneous and equal for all things.
+Sharp men, brokers, and men of business, will not suffer by it;
+for it is their trade to watch the fluctuations of prices,
+to observe the cause, and even to speculate upon it.
+But little tradesmen, countrymen, and workmen will bear the whole weight of it.
+The rich man is not any the richer for it,
+but the poor man becomes poorer by it.
+Therefore, expedients of this kind have the effect
+of increasing the distance which separates wealth from poverty,
+of paralyzing the social tendencies
+which are incessantly bringing men to the same level,
+and it will require centuries for the suffering classes
+to regain the ground which they have lost
+in their advance towards ,(emph[equality of condition]).
+,(footnote*[
+Although to all who have investigated the subject
+the evidence is conclusive that an irredeemable fluctuating paper money
+is always made an agency for taxing with special severity
+all that class of consumers who live on fixed incomes, salaries, and wages,
+it has, nevertheless, always been a somewhat difficult matter
+to find illustrations of the fact so clear and simple
+as to carry conviction by presentation
+that it does thus act to the classes most interested.
+With a view of obtaining such an illustration,
+application was made some months since
+to an eminent American merchant (A. T. Stewart),
+whose large and varied experience abundantly
+qualified him to discuss the subject;
+and the result of the application may be thus stated:
+][
+,(emph[Q.]) In buying in gold and selling in currency,
+what addition do you make to your selling price, in the way of insurance,
+that the currency received will be sufficient ,(--) plus profit, interest, etc.
+,(--) to replace or buy back the gold represented by the original purchase?
+][
+,(emph[A.]) We do but very little of that now; hardly enough to speak about.
+][
+,(emph[Q.]) But still you make insurance against currency fluctuations
+an item in your business to be regarded to some extent.
+][
+,(emph[A.]) Why, yes, certainly; it won't do to overlook it entirely.
+][
+,(emph[Q.]) Well, then, if you have no objections,
+please tell me what you do allow under existing circumstances?
+][
+,(emph[A.]) I have certainly no objections.
+We buy closely for cash; sell largely for cash, or very short credit;
+and, within the comparatively narrow limits
+that currency has fluctuated for the last two or three years,
+add but little to our selling prices as insurance on that account,
+say one or two per cent for cash, or three months' credit;
+and for a longer credit ,(--) if we give it ,(--) something additional.
+During or immediately after the war,
+when the currency fluctuations were more extensive, frequent, and capricious,
+the case was very different.
+Then selling prices had to be watched very closely,
+and changed very frequently, sometimes daily.
+My present experience, therefore, is exceptional;
+and to get the information you want, you must look further.
+I think I can help you to do this.
+We buy regularly large quantities of a foreign product,
+let us suppose, for illustration, ,(emph[cloths]),
+for the large manufacturers and dealers in ready-made clothing.
+We buy for gold, and we sell for gold,
+and do not allow the currency or its fluctuations
+to enter in any way into these transactions.
+But how is it with ,(emph[my]) customers?
+I allow them some credit;
+and the amount involved being often very large,
+I, of course, must know something
+of the way in which they manage their business.
+They transform the cloth purchased with gold into clothing,
+and then sell the clothing, in turn,
+to ,(emph[their]) customers, jobbers and retailers, all over the country,
+for currency, on a much longer average credit
+than they obtain from me for their raw material.
+As a matter of safety and necessity these wholesale dealers and manufacturers
+must add to their selling prices a sufficient percentage
+to make sure that the currency they are to receive
+at the end of three, six, or nine months
+will be sufficient to buy them as much gold as they have paid to me,
+or as much as will buy them another lot of cloth
+to meet the further demands of their business and their customers.
+How much they thus add I cannot definitely say.
+There is no regular rule.
+Every man doubtless adds all that competition will permit;
+and every circumstance likely to affect the prospective price of gold
+is carefully considered.
+Five per centage, in my opinion, on a credit of three months,
+would be the average minimum;
+and for a longer time, a larger percentage.
+If competition does not allow any insurance percentage to be added
+there is a liability to a loss of capital,
+which in the long run may be most disastrous,
+a circumstance that may explain the wreck of many firms,
+whose managers, on the old-fashioned basis of doing business,
+would have been successful.
+The jobbers and the retailers,
+to whom the wholesale dealers and manufacturers sell,
+are not so likely to take currency insurance into consideration
+in fixing their selling prices;
+but to whatever amount the cost price of their goods
+has been enhanced by the necessity of insurance against currency fluctuations,
+on that same amount they estimate and add for interest and profits;
+the total enhancement of prices falling ultimately on the consumer,
+who, of necessity, can rarely know
+the elements of the cost of the article he purchases.
+][
+,(emph[Q.]) So Mr. Webster, then, in his remark,
+which has become almost a proverb,
+that ,(q[of all contrivances for cheating the laboring classes,
+none has been more effectual than that which deludes them with paper money,])
+must have been thoroughly cognizant of the nature of such transactions?
+][
+,(emph[A.]) Most undoubtedly;
+for such transactions are the inevitable consequence
+of using as a medium of exchange a variable, irredeemable currency.
+The illustration above given, therefore, in the place of being imaginary,
+is based on the actual condition of business at the present time,
+January, 1876.
+,(--) Note from ,(cite-title[Robinson Crusoe's Money]), by David A. Wells.
+])
+][
+,(emph[B.]) Good morning;
+I shall go and meditate upon the lecture you have been giving me.
+][
+,(emph[F.]) Have you finished your own dissertation?
+As for me, I have scarcely begun mine.
+I have not yet spoken
+of the popular ,(emph[hatred]) of capital,
+of gratuitous credit (loans without interest)
+,(--) a most unfortunate notion, a deplorable mistake,
+which takes its rise from the same source.
+][
+,(emph[B.]) What!
+does this frightful commotion of the populace against capitalists
+arise from money being confounded with wealth?
+][
+,(emph[F.]) It is the result of different causes.
+Unfortunately, certain capitalists
+have arrogated to themselves monopolies and privileges
+which are quite sufficient to account for this feeling.
+But when the theorists of democracy have wished
+to justify it, to systematize it,
+to give it the appearance of a reasonable opinion,
+and to turn it against the very nature of capital,
+they have had recourse to that false political economy
+at whose root the same confusion is always to be found.
+They have said to the people:
+,(--) ,(q[Take a dollar;
+put it under a glass;
+forget it for a year;
+then go and look at it,
+and you will be convinced
+that it has not produced ten cents, nor five cents, nor any fraction of a cent.
+Therefore, money produces no interest.])
+Then, substituting for the word money, its pretended sign, ,(emph[capital]),
+they have made it by their logic undergo this modification
+,(--) ,(q[Then capital produces no interest.])
+Then follows this series of consequences
+,(--) ,(q[Therefore he who lends a capital ought to obtain nothing from it;
+therefore he who lends you a capital,
+if he gains something by it, is robbing you;
+therefore all capitalists are robbers;
+therefore wealth, which ought to serve gratuitously those who borrow it,
+belongs in reality to those to whom it does not belong;
+therefore there is no such thing as property,
+therefore everything belongs to everybody;
+therefore.....])
+][
+,(emph[B.]) This is very serious;
+the more so, from the syllogism being so admirably formed.
+I should very much like to be enlightened on the subject.
+But, alas! I can no longer command my attention.
+There is such a confusion in my head
+of the words ,(emph[coin, money, services, capital, interest]),
+that really I hardly know where I am.
+We will, if you please, resume the conversation another day.
+][
+,(emph[F.]) In the meantime here is a little work entitled
+,(boe-ref "capital_and_interest" (cite-title[Capital and Rent])).
+It may perhaps remove some of your doubts.
+Just look at it when you are in want of a little amusement.
+][
+,(emph[B.]) To amuse me?
+][
+,(emph[F.]) Who knows? One nail drives in another;
+one wearisome thing drives away another.
+][
+,(emph[B.]) I have not yet made up my mind
+that your views upon money and political economy in general are correct.
+But, from your conversation, this is what I have gathered:
+,(--) That these questions are of the highest importance;
+for peace or war, order or anarchy, the union or the antagonism of citizens,
+are at the root of the answer to them.
+How is it that in France and most other countries
+which regard themselves as highly civilized,
+a science which concerns us all so nearly,
+and the diffusion of which would have so decisive an influence
+upon the fate of mankind, is so little known?
+Is it that the State does not teach it sufficiently?
+][
+,(emph[F.]) Not exactly.
+For, without knowing it, the State applies itself
+to loading everybody's brain with prejudices,
+and everybody's heart with sentiments favorable
+to the spirit of anarchy, war, and hatred;
+so that, when a doctrine of order, peace, and union presents itself,
+it is in vain that it has clearness and truth on its side,
+,(--) it cannot gain admittance.
+][
+,(emph[B.]) Decidedly you are a frightful grumbler.
+What interest can the State have in mystifying people's intellects
+in favor of revolutions, and civil and foreign wars?
+There must certainly be a great deal of exaggeration in what you say.
+][
+,(emph[F.]) Consider.
+At the period when our intellectual faculties begin to develop themselves,
+at the age when impressions are liveliest,
+when habits of mind are formed with the greatest ease
+,(--) when we might look at society and understand it
+,(--) in a word, as soon as we are seven or eight years old,
+what does the State do?
+It puts a bandage over our eyes,
+takes us gently from the midst of the social circle which surrounds us,
+to plunge us, with our susceptible faculties, our impressible hearts,
+into the midst of Roman society.
+It keeps us there for ten years at least,
+long enough to make an ineffaceable impression on the brain.
+Now observe, that Roman society is directly opposed
+to what our society ought to be.
+There they lived upon war;
+here we ought to hate war;
+there they hated labor;
+here we ought to live upon labor.
+There the means of subsistence were founded upon slavery and plunder;
+here they should be drawn from free industry.
+Roman society was organized in consequence of its principle.
+It necessarily admired what made it prosper.
+There they considered as virtue what we look upon as vice.
+Its poets and historians had to exalt what we ought to despise.
+The very words
+,(emph[liberty, order, justice, people, honor, influence, etc.]),
+could not have the same signification at Rome,
+as they have, or ought to have, at Paris.
+How can you expect that all these youths
+who have been at university or conventual schools,
+with Livy and Quintus Curtius for their catechism,
+will not understand liberty like the Gracchi,
+virtue like Cato, patriotism like Caesar?
+How can you expect them not to be factious and warlike?
+How can you expect them to take the slightest interest
+in the mechanism of our social order?
+Do you think that their minds have been prepared to understand it?
+Do you not see that in order to do so
+they must get rid of their present impressions,
+and receive others entirely opposed to them?
+][
+,(emph[B.]) What do you conclude from that?
+][
+,(emph[F.]) I will tell you.
+The most urgent necessity is, not that the State should teach,
+but that it should ,(emph[allow]) education.
+All monopolies are detestable,
+but the worst of all is the monopoly of education.
+])
+(with-footer :lang 'en
+(p*[
+This text was reprinted in the
+,(ref :url "http://www.mises.org/qjae/"
+	(cite-title[Quarterly Journal of Austrian Economics])),
+,(ref :url "http://www.mises.org/journals/qjae/pdf/qjae5_3_7.pdf"
+	[Vol. 5, No. 3 (Fall 2002): 87­105]),
+from ,(strong[Frédéric Bastiat]), ,(cite-title[Essays on Political Economy]),
+David A. Wells, trans. and notes (New York: G. P. Putnam's Sons, 1877).
+See the corresponding article by Mark Thornton:
+	,(ref :url "http://www.mises.org/fullstory.asp?control=1251"
+	[Frédéric Bastiat's Views on the Nature of Money]).
+See also ,(bof-ref "maudit_argent" [the original version in French])
+from ,(Bastiat.org).
+])))

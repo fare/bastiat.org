@@ -1,0 +1,702 @@
+; -*- Scheme -*-
+; $Id: index.scr,v 1.17 2005/07/15 19:14:38 fare Exp $
+(style 'bo-style)
+(in-boe :title "Frédéric Bastiat - Bastiat.org
+- We debunk economic fallacies since 1845")
+(set! =boe.url= "")
+(set! =bof.url= "../fr/")
+(document :title "Frédéric Bastiat"
+(center(font :size "+2" (strong[
+,(Bastiat.org)
+,(--) We debunk economic fallacies since 1845.])))
+(br)
+(XXX[TO DO:
+integrate econlib stuff into the list of published works.
+add links from french version.
+Merge Subir Grewal's site.
+])
+
+(subtitle[All About Frédéric Bastiat])
+(table :width "100%"
+(tr (tdLT
+(itemize
+(item(ref :url "#life" [His Life]))
+(item(ref :url "#works" [His Works]))
+(item(ref :url "#pictures" [Iconography]))
+(item(ref :url "#web" [Frédéric Bastiat on the Web]))
+(item(ref :url "#dead_tree" [Dead Tree Publishing]))
+(item(ref :url "pointers" [A Few Pointers]))))
+(tdRT
+(tag :img :src "../pic/bastiat1.jpg"
+     :alt "Portrait de Frédéric Bastiat")))
+(tr (td :colspan 2 :align 'center
+(tag :form :method 'get :action "http://bastiat.org/search.php"
+(tag :input :type 'text :name "q" :size 31 :maxlength 255 :value "")
+(tag :input :type 'hidden :name "hl" :value "fr")
+(tag :input :type 'submit :name "Bastiat.org" :value "Bastiat @ Google")))))
+
+(small[
+Note: Si vous comprenez le français, vous lirez avantageusement la
+,(ref :url "../fr/index.html" [version française]) de cette page.
+])
+
+(hrule)
+(subtitle [Latest News!])
+(small
+(itemize
+(item(font :size "4"[
+The next ,(strong(ref :url "http://www.celebratecapitalism.org/"
+	[Capitalism Day]))
+will take place in the whole wide world on Sunday June 5,(sup[th]) 2005.
+][
+You can join the event on the town nearest to where you live.
+And if no one's organizing any event around it yet
+,(--) you can be the one to organize it!
+]))
+(item[
+Celebrating the birthday anniversary of Frederic Bastiat,
+our friend ,(ref :url "http://kyuuri.blogtribe.org/" [Kyuuri])
+has translated ,(cite-title[The Law]) into japanese!
+	,(ref :url "http://www.geocities.jp/kyuurinona/FB/THELAW.PDF"
+		[lire le PDF]).
+(June 30th, 2004.)
+])
+(item[
+The ,(ref :url "http://www.iedm.org/" [IEDM]) has published in English
+,(ref :url "http://www.iedm.org/etudes/bastiat_en.html"
+	[a booklet of works by Bastiat]).
+])
+(item[
+,(ref :url "http://www.freeaudio.org/" (strong[FreeAudio.org])) publishes
+an audiobook of Bastiat's ,(boe-ref "the_law" (cite-title[The Law]))
+in MP3 format. Congrats, Art!
+])
+(item[,(strong(boe-ref "old_news" [Old news...]))])))
+
+(hrule)
+(tag :a :name "life")
+(subtitle[His Life])
+(p*[
+Frédéric Bastiat (1801-1850) is a French economist and politician,
+wrongfully ignored in France,
+though recognized as being an author of foremost importance
+in many other countries (in the United States in particular).
+][
+To know some more about him, I invite you to read his works,
+some of which is available online (see below).
+Other web pages listed below have biographical information in English,
+including the great ones hosted by
+,(elb-ref "BastiatBib"
+	[The Library of Economics and Liberty]),
+by ,(ref :url "http://www.subir.com/bastiat/"
+	[Subir Grewal])
+or by ,(ref :url "http://www.mises.org/fredericbastiat.asp"
+	[the Ludwig von Mises Institute]).
+If you can read French, you can see the according
+	,(bof-ref "index" "biographie" [french-speaking section])
+	of this site.
+
+])
+
+(hrule)
+(tag :a :name "works")
+(subtitle [His Works])
+(p*
+(strong[
+In the english language, your best reading is
+,(ref :url "http://www.econlib.org/library/classicsauB.html#bastiat"
+[the works of Frederic Bastiat]),
+as translated to english and excellently annotated
+by the ,(ref :url "http://www.fee.org/" [FEE])
+and published electronically by the
+,(ref :url "http://www.econlib.org/" [Library of Economics and Liberty]).
+])
+[
+Many of Bastiat's works are available in French from
+,(ref :url "../fr/index.html#oeuvre" [the french version of his page]).
+Below, I only list the works
+that have been translated into english and published on-line.
+I sorted them in a tentative chronological order.
+In parenthesis is the original french text, when electronically available.
+Within ,(inbracket[brackets])
+are pointers to translations or versions of the same texts,
+that I found on the Internet, annotated by the ISO code of the target language.
+I am neither the author nor the editor of these translations,
+of which I cannot guarantee the quality (I did publish the french versions);
+I only host local copies of translations found on the web (credits given),
+with some reformatting, and bug-fixing when bugs were reported.
+]
+(small(itemize
+(item[Hint #1: the most popular texts
+are also the most translated and republished ones;
+if you're in a hurry, pick them in priority.])
+(item[Hint #2: Bastiat is a good guide to the Internet;
+sites that host Bastiat e-texts may also host quite some
+interesting information, so play with the URLs.])
+(item[Hint #3: copies of ,(q[The Law]) in English are so many
+and multiply so fast that it's impossible to list them all.])))
+[
+Works not (yet?) available from
+,(ref :url "http://www.econlib.org/" [econlib.org]):
+,(itemize
+(item[,(boe-ref "electors_1846"
+	[To the Electors of the District of Saint-Sever])
+	(,(bof-ref "pdfe1846" (cite-title
+	[À Messieurs les électeurs de l'arrondissement de Saint-Séver])),
+	1846)
+])
+(item[,(boe-ref "capital_and_interest"
+	[Capital and Interest])
+	(,(bof-ref "capital_et_rente" (cite-title
+	[Capital et rente])),
+	1849)
+])
+(item[,(boe-ref "what_is_money"
+	[What is Money?])
+	(,(bof-ref "maudit_argent" (cite-title
+	[Maudit Argent])),
+	1849)
+]))
+][
+Among the works available from
+,(ref :url "http://www.econlib.org/" [econlib.org]),
+some are so popular as to have been previously published on the internet:
+,(itemize
+(item[Among the
+	,(elb-ref "basSoph"
+	[Economic Sophisms]) (1845-1848)
+	(translated by the FEE, full text on econlib.org):
+,(itemize
+(item[,(boe-ref "petition" [Petition of the Candlestickmakers, etc.])
+	(,(bof-ref "petition" (cite-title
+	[Pétition des marchands de chandelles, etc.])), 1845)
+	,(trad
+	  '(("http://www.libinst.cz/etexts/bastiat-petice.pdf" [cz])
+	    ("http://bastiat.de/bastiat/Petition.html" [de])
+	    ("http://users.forthnet.gr/pat/nmantzaris/articles/article007.html" [el])
+	    (:elb- "basSoph3" "S.1, Ch.7, A Petition" [en])
+	    ("http://www.dallasfed.org/htm/dallas/articles/dbr1994.html#anchor1" [en])
+	    ("http://www.newaus.com.au/econ12.html" [en])
+	    ("http://people.morehead-st.edu/fs/t.pitts/ecsop7.html" [en])
+	    ("http://www.usm.maine.edu/~phillips/000spring2000Candle.html" [en])
+    ;(MIA "http://www.econ.duke.edu/~mmcelroy/154Home/Petition.htm" [en])
+	    (:boes "peticion" [es])
+	    ("http://www.elcato.org/publicaciones/otros/bastiat_peticion.html" [es])
+	    ("http://www.andriki.is/vt/2001/Une_Petition.htm" [is])
+	    ("http://membres.lycos.fr/libertar/documenti/bastiat_4.htm" [it])
+	    ("http://www.frihandel.nu/bastiat/petition.asp" [se])
+	    ("http://www.prave-spektrum.sk/article.php?65" [sk])))
+])
+(item[,(boe-ref "protectionism" [Protectionism, or the Three Aldermen])
+	(,(bof-ref "les_trois_echevins" (cite-title
+	[La protection ou les trois échevins])),
+	1847 ?)
+	,(trad
+	  '((:elb- "basSoph7" "S.2, Ch.13, Protectionism, or the Three Aldermen" [en])
+	    ("http://www.house.gov/jec/classics/bastiat.htm" [en])))
+]))])
+(item[Among the
+	,(elb-ref "basEss" [Essays]) (1845-1850)
+	(translated by the FEE, full text on econlib.org):
+,(itemize
+(item[,(boe-ref "property_law" [Property and Law])
+	(,(bof-ref "propriete_et_loi" (cite-title[Propriété et Loi])), 1848)
+	,(trad
+	  '(("http://bastiat.de/bastiat/Eigentum_Gesetz.html" [de])
+	    ("http://se1.com/ush/important/bastiat/property-law.htm" [en])
+	    (:elb- "basEss3" "Chapter%203" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/propiedad.htm" [es])
+	    ("http://perso.wanadoo.fr/patrick.madrolle/economie/_bastia2.htm" [fr])))
+])
+(item[,(boe-ref "government" [Government])
+	(,(bof-ref "l_Etat" (cite-title[l'État])), 1848)
+	,(trad
+	  '((:bof "l_Etat" [l'État])
+	    ("http://bastiat.de/bastiat/Staat.html" [de])
+	    ("http://www.mind-trek.com/treatise/fb-g.htm" [en])
+	    (:boe "government" [en])
+	    (:elb- "basEss5" "Chapter%205" [en])
+	    ("http://www.socsci.mcmaster.ca/~econ/ugcm/3ll3/bastiat/Government.htm" [en])
+	    ("http://ipf.simplenet.com/eeta/htm-01/fb-govt.shtml" [en])
+	    ("http://www.lexrex.com/informed/otherdocuments/government.htm" [en])
+	    ("http://www.libertario.org/libertarismo/clasicos/estado.htm" [es])
+	    ("http://www.elcato.org/publicaciones/otros/gobierno_bastiat.html" [es])
+	    ("http://membres.lycos.fr/libertar/documenti/bastiat_2.htm" [it])
+	    ("http://digilander.iol.it/biblioego/bastiat.htm" [it])))
+])
+(item[,(boe-ref "the_law" [The Law])
+	(,(bof-ref "la_loi" (cite-title[La loi])), 1850)
+	,(trad
+	  '(("http://www.freeaudio.org/" [Audio!])
+	    ("http://bastiat.de/bastiat/Gesetz.html" [de])
+	    ("http://se1.com/ush/important/bastiat/law.htm" [en])
+	    (:elb- "basEss2" "Chapter%202" [en])
+	    ("http://www.socsci.mcmaster.ca/~econ/ugcm/3ll3/bastiat/TheLaw.htm" [en])
+	    ("http://www.geocities.com/Heartland/7006/thelaw.html" [en])
+	    ("http://people.netscape.com/ccardiff/bastiat.html" [en])
+	    ("http://www.mind-trek.com/treatise/fb-tl.htm" [en])
+	    ("http://www.jim.com/jamesd/bastiat.htm" [en])
+	    ("http://citizensrights.com/law.htm" [en])
+	    ("http://www.math.ku.dk/~buhl/Library/Bastiat.The_law.html" [en])
+	    ("http://www.cycad.com/cgi-bin/Upstream/Library/Bastiat/bastiat-law.html" [en])
+	    ("http://www.taxgate.com/articles/bastiat1.htm" [en])
+	    ("http://www.barefootsworld.net/the_law.html" [en])
+	    ("http://www.elcato.org/publicaciones/ensayos/ens-2002-08-16.html" [es])
+	    ("http://www.atlas.org.ar/introductoria/bastiat.asp" [es])
+	    ("http://xld.com/TheLaw/LaLey.htm" [es])
+	    ("http://perso.wanadoo.fr/patrick.madrolle/economie/_laloi.htm" [fr])
+	    ("http://allserv.rug.ac.be/~frvandun/bastiat.html" [fr])
+	    ("http://www.geocities.jp/kyuurinona/FB/THELAW.PDF" [jp])
+	    ("http://www.ilk.lublin.pl/bastiat/bast00.htm" [pl])))
+])
+(item[,(boe-ref "twisatwins" [That Which is Seen, and That Which is Not Seen])
+	(,(bof-ref "cqovecqonvp" (cite-title
+	[Ce qu'on voit et ce qu'on ne voit pas])), 1850)
+	,(trad
+	  '(("http://bastiat.de/bastiat/was_man_sieht_und.html" [de])
+	    ("http://www.mind-trek.com/treatise/fb-twins.htm" [en])
+	    (:boe "twisatwins" [en])
+	    (:elb "basEss1" [en])
+	    ("http://www.laissez-fairerepublic.com/notseen.htm" [en])
+	    ("http://ipf.simplenet.com/eeta/htm-01/fb-seen.shtml" [en])
+	    ("http://www.cycad.com/cgi-bin/Upstream/Library/Bastiat/bastiat-seen.html" [en])
+	    ("http://www.freedomsnest.com/fn/bastiat.html" [en])
+	    ("http://www.library.adelaide.edu.au/etext/vt/45/" [en])
+	    ("http://www.frihandel.nu/bastiat/detmanser.asp" [se])))
+]))])
+(item[Among the ,(elb-ref "basHar" [Economic Harmonies]) (1850)
+	(translated by the FEE, full text on econlib.org):
+,(itemize
+(item[(nothing yet in English.)
+]))]))
+][
+A few other works by Bastiat have been published on the web,
+but not translated in english (yet?).
+See our ,(bof-ref #f [french page]) for a more complete list.
+][
+PDA users (Palm, etc) may find versions of the most popular among these texts
+converted for use on their favorite handheld device on
+,(ref :url "http://www.memoware.com/" [memoware.com]).
+])
+
+(hrule)
+(tag :a :name "pictures")
+(subtitle [Iconography])
+(p*[
+It seems that there are primarily two original portraits of Bastiat
+digitally available, whose various alternatives can be found on the Web.
+Below are sites proposing portraits of Bastiat
+(and local copies of some pictures):
+,(itemize
+(item[
+,(ref :url "http://www.econ.duke.edu/Economists/" [Portraits of Well-Known Economists])
+	at Duke University
+	(,(ref :url "../pic/bastiat1a.png" [1a]))
+])
+(item[
+,(ref :url "http://www.bus.lsu.edu/economics/links/portrait/portrait.htm" [Portraits of Famous Economists])
+	at State University of Louisiana
+	(1b).
+])
+(item[
+,(ref :url "http://perso.wanadoo.fr/patrick.madrolle/economie/" [Un village d'hommes libres]),
+	nice french site by Patrick Madrolle and friends
+	(,(ref :url "../pic/bastiat1.jpg" [1c])).
+])
+(item[
+,(ref :url "http://www.acton.org/publicat/randl/liberal.php?id=23" [In the liberal tradition]), at the Acton Institute
+	(,(ref :url "../pic/bastiat3.jpg" [1d])
+	,(--) drawing that ,(emph[seems to me])
+	is inspired from preceding portrait)
+])
+(item[
+,(ref :url "http://cac.psu.edu/~jdm114/#bastiat" [Dead Economists Society]) par John D. McGinnis
+	(,(ref :url "../pic/bastiat2.jpg" [2])
+	,(--) the picture was reversed;
+	I had to mirror it).
+]))])
+
+(hrule)
+(tag :a :name "web")
+(subtitle [Frédéric Bastiat on the Web])
+(p*[
+I am always in the search of good web pages on Frédéric Bastiat.
+The majority of the innumerable pages on Bastiat revealed by a web search
+either are devoid of any interest,
+or only contain a n-th copy of ,(q[The Law]) or another essay.
+However, some pages bring truly original information on Bastiat,
+or connect his work to the remainder of the classical liberal tradition.
+I have several times spent my time in resource-consuming researches,
+peeling the web to skim it before I compiled the following list.
+If you know a Bastiat-related e-document that isn't listed on this page,
+please ,(ref :url "http://fare.tunes.org/contact.html" [tell me]) about it.
+][
+Some people spell Frédéric Bastiat's name without accents,
+as Frederic Bastiat, which is correct in english,
+although it is not faithful to the french original.
+Other people mispell his name as Frederick Bastiat, which is a plain mistake.
+This remark is meant
+as much so that the spelling be settled once and for all
+as it is so that your web searches can find mistaken people's pages
+and as it is so that these people's web searches can find this page.
+][
+The following pages are clearly superior to all the rest
+(apart from
+,(ref :url "http://bastiat.org/en/" [this very page]), of course:),
+and contributes relevant information on Bastiat: 
+,(itemize
+(item[The ,(ref :url "http://bastiat.net/" [bastiat.net]) site from
+	the ,(ref :url "http://bastiat.net/en/cercle/"
+	[Cercle Frédéric Bastiat]),
+	of which I am a member.
+	See particularly its
+	,(ref :url "http://bastiat.net/en/about/"
+	[bibliography of texts about Bastiat]),
+	or the ,(ref :url "http://bastiat.net/en/Bastiat2001/"
+	[Bastiat'2001 congress]).
+])
+(item[The ,(ref :url "http://www.subir.com/bastiat/" [great page]) by
+	,(ref :url "http://www.subir.com/" [Subir Grewal]) on Bastiat,
+	that provides interesting and sometimes never previously published
+	information (such as these
+	,(ref :url "http://www.subir.com/bastiat/bio.html"
+	[biographical notes])),
+	including a
+	,(ref :url "http://www.subir.com/bastiat/bib.html" [bibliography]).
+])
+(item[From the ,(ref :url "http://www.mises.org/"
+	[Ludwig von Mises Institute]),
+	this ,(ref :url "http://www.mises.org/fredericbastiat.asp" [article])
+	by Thomas J. Dilorenzo
+	on the influence de F.B. over the austrian school of economics,
+	as well as many other articles,
+	including this speech by Mark Thornton on
+	,(ref :url "http://www.mises.org/journals/scholar/BastiatAustrian.pdf"
+	[Bastiat as an austrian economist])
+	from a
+	,(ref :url "http://www.mises.org/upcomingstory.asp?control=15"
+	[conference on Frederic Bastiat]),
+	and his article
+	,(ref :url "http://www.mises.org/fullstory.asp?control=1251"
+	[Frédéric Bastiat's Views on the Nature of Money]).
+])
+(item[The ,(ref :url "http://www.econlib.org/"
+	[Library of Economics and Liberty]),
+	is now publishing the whole of
+	,(ref :url "http://www.econlib.org/library/classicsauB.html#bastiat"
+	[Bastiat's works]),
+	as translated into english by the
+	,(ref :url "http://www.fee.org/" [FEE]).
+	It also publishes many other
+	,(ref :url "http://www.econlib.org/library/classics.html"
+	[great classics of liberalism]).
+])
+(item[Last but not least,
+	,(ref :url "http://bastiat.de/" [Bastiat.de]),
+	albeit reserved to german-speakers,
+	is a great site that gives erudite details
+	on the historical context of Bastiat's works.
+]))
+][
+The following pages, although they do not bring much original information
+on Bastiat proper, are somehow interesting by the links they draw:
+,(itemize
+(item[This ,(ref :url "http://bomis.com/rings/bastiat/ring_home.html" [ring])
+	of web pages about Bastiat on
+	,(ref :url "http://bomis.com/" [Bomis.com]).
+])
+(item[The section on
+	,(ref :url "http://dmoz.org/Science/Social_Sciences/Economics/People/Bastiat,_Frederic/" [F.B.])
+	from the
+	,(ref :url "http://www.dmoz.org/" [Open Directory Project]).
+])
+(item[Bastiat was named twice ,(q[Hero of the Day]) by the
+	,(ref :url "http://www.dailyobjectivist.com/" [Daily Objectivist]):
+	,(ref :url "http://www.dailyobjectivist.com/Heroes/FredericBastiat.asp" [1]),
+	,(ref :url "http://www.dailyobjectivist.com/Heroes/FredericBastiat2.asp" [2]).
+])
+(item[The
+	,(ref :url "http://www.cpm.ll.ehime-u.ac.jp/AkamacHomePage/Akamac_E-text_Links/Bastiat.html" [Bastiat entry]) in the
+	,(ref :url "http://www.cpm.ll.ehime-u.ac.jp/AkamacHomePage/Akamac_E-text_Links/Akamac_E-text_Links.html" [AKAMAC]).
+])
+(item[This ,(ref :url "http://online.bcc.ctc.edu/econ/econgallery/gallery.htm" [Gallery of Economists]) helped me a lot
+	despite its broken links (the site HET moved).
+])
+(item[The ,(ref :url "http://cepa.newschool.edu/het/profiles/bastiat.htm" [Bastiat page]) from the
+	,(ref :url "http://cepa.newschool.edu/het/index.htm" [HET]) site of newschool.edu
+	is a good directory of works of Bastiat available on the web.
+	(See also their page on the
+	,(ref :url "http://cepa.newschool.edu/het/schools/manchester.htm" [Manchester school]).)
+])
+(item[The ,(ref :url "http://www.newadvent.org/cathen/02345b.htm" [entry about F.B.]) in the
+	,(ref :url "http://www.newadvent.org/cathen/" [Catholic Encyclopedia])
+])
+(item[Bastiat Quotes:
+	from ,(ref :url "http://www.subir.com/bastiat/quotes.html" [Subir Grewal]),
+	from ,(ref :url "http://www.freedomsnest.com/cgi-bin/qa.cgi?ref=basfre" [Freedom's Nest]),
+	from the ,(ref :url "http://www.apee.org/teachers/main.html" [APEE]).
+])
+(item[This excellent
+	,(ref :url "http://www.dallasfed.org/htm/dallas/rhyme/dbr1994.html" [article]) by
+	,(ref :url "http://www.dallasfed.org/htm/dallas/mcteer2.html" [Bob McTeer]), or
+	,(ref :url "http://www.dallasfed.org/htm/dallas/speeches/092100.html" [this speech]), or
+	,(ref :url "http://www.iedm.org/library/mcteer_en.html" [this one])
+	,(inbracket
+	[,(ref :url "http://www.iedm.org/library/mcteer_fr.html" [fr])])
+	among many others.
+])
+(item[,(ref :url "http://se1.com/ush/important/default.htm" [Documents and Authors Important to U.S. History])
+	contains not only works by Bastiat,
+	but also other texts that played an influential role
+	in american culture of liberty.
+])
+(item[This
+	,(ref :url "http://www.libertyhaven.com/thinkers/fredericbastiatandjohnchamberlain/index.html" [section]) from
+	,(ref :url "http://www.libertyhaven.com/" [LibertyHaven]).
+])
+(item[
+,(ref :url "http://www.libertarian.to/" [Libertarian International]) on
+,(ref :url "http://www.libertarian.to/projects/bastiat/" [Bastiat]).
+])
+(item[,(ref :url "http://people.ne.mediaone.net/bastiat/mironcv.html" [Jeffrey A. Myron])'s
+	,(ref :url "http://people.ne.mediaone.net/bastiat/index.html" [Bastiat Institute]),
+	,(ref :url "http://www.scs.unr.edu/~tenney/tenney.htm" [Glenn Tenney])'s
+	,(ref :url "http://www.scs.unr.edu/~tenney/bastiatfoundation.htm" [Bastiat Foundation]),
+	Jason Murphey's
+	,(ref :url "http://www.bastiatsociety.com/" [Frederic Bastiat Society]),
+	or another small
+	,(ref :url "http://kevin.oreilly.net/circle/" [Circle Frederic Bastiat]).
+])
+(item[,(ref :url "http://www.panarchy.org/" [panarchy.org])
+	publishes interesting texts, among which some by Bastiat.
+]))
+,(XXX[
+Non selected:
+http://www.theihs.org/libertyguide/people.php/75835.html
+http://www.theshop.net/faithpub/bastiat/bastiat.html
+,(itemize
+(item[L'Acton Institute propose des
+	,(ref :url "http://www.acton.org/publicat/randl/liberal.php?id=23" [lectures]) sur Bastiat.
+])
+(item[Correct, mais n'apportant rien de nouveau sur Bastiat,
+	ni de lien avec d'autres auteurs ou d'autres sujets:
+	,(ref :url "http://www.laissez-fairerepublic.com/Basti.htm" [Sam's Hallowed Hall of Ideological Heroes of the Mind
+	,(--) First Inductee])
+])
+(item[La page sur F.B. de
+	,(ref :url "http://www.raybo.com/fbastiat.shtml" [Hans Wienhold])
+	donne des pointeurs pour acheter des éditions en bois mort
+	de F.B. en anglais.
+])
+(item[Cette ,(ref :url "http://www.seidata.com/~neusys/colm0012.html" [introduction à ,(q[la loi])]) par
+	,(ref :url "http://www.seidata.com/~neusys/" [David W. Neuendorf])
+])
+(item[Ces articles citent Bastiat, mais sans plus:
+	,(ref :url "http://www.gaiafriends.com/ethics/Authors/MCGEE/protect_moral.htm" [Protectionism and Morality]) de Robert W. McGee,
+	,(ref :url "http://www.libertarianworld.com/moral.html" [The Moral Foundations of Society]) de Margaret Thatcher.
+])
+(item[,(ref :url "http://www.mises.org/fullstory.asp?control=830" [,(q[Frederic Bastiat on Government])])
+			by Gary M. Galles;
+]))
+Not worthy of being listed here:
+,(itemize
+(item[Cet ,(ref :url "http://www.leaderu.com/offices/cleveland/docs/bastiat.html" [article soi-disant biographique])
+		écrit par Paul A. Cleveland,
+		à défaut de nous apprendre quoi que ce soit
+		sur la vie et l',(oe)uvre de Bastiat,
+		semble représentatif de la façon dont F.B. est
+		assimilé par nos cousins anglo-saxons.
+])
+(item[Ce mauvais
+	,(ref :url "http://www.dickinson.edu/~skrabis/micro98/papers/bastiat.html" [devoir de collégien])
+])
+(item[Ce grotesque ,(ref :url "http://www.onesalt.com/p0000326.htm" [pamphlet américano-chrétien-de-gauche]) contre Bastiat.
+]))
+])
+][
+Frédéric Bastiat in other languages than English:
+,(itemize
+(item[,(inbracket[fr])
+	,(emph[There is lots of information in French,
+	as indexed from
+	,(ref :url "http://bastiat.org/fr/"
+	[the french version of this site]).])
+])
+(item[,(inbracket[de])
+	In German,
+	,(ref :url "http://www.bastiat.de/" [Bastiat.de]) is the place to go.
+	For other similar authors, see also
+	,(ref :url "http://richard-cobden.de/" [Richard-Cobden.de])
+	and ,(ref :url "http://www.mises.de/" [Mises.de]).
+])
+(item[,(inbracket[es])
+	In Spanish, visit
+	,(ref :url "http://bastiat.org/es/" [the spanish version of this site])
+])
+(item[,(inbracket[is])
+	In Icelandish, visit
+	,(ref :url "http://www.andriki.is/" [Andriki.is])
+])
+(item[,(inbracket[it])
+	In Italian,
+	,(ref :url "http://www.venet.net/libertarissima/" [libertarissima]).
+	See also
+	,(ref :url "http://www.libertari.org/" [libertari]),
+	,(ref :url "http://ww.albertomingardi.com" [Alberto Mingardi])
+	(including
+	,(ref :url "http://digilander.iol.it/biblioego/bastbic.htm" [this article])).
+])
+(item[,(inbracket[pl])
+	In Polish, the ,(ref :url "http://www.ilk.lublin.pl/" [ILK])
+	has published a translation of
+	,(ref :url "http://www.ilk.lublin.pl/bastiat/bast00.htm" [The Law])
+	(amateurs might also like
+	,(ref :url "http://www.libertarianizm.pl/" [libertarianizm.pl])).
+])
+(item[,(inbracket[se])
+	In Swedish, see
+	,(ref :url "http://www.frihandel.nu/fredericbastiat.asp"
+	[Frihandel.nu]) and
+	,(ref :url "http://www.liberalismen.com/bastiat.shtml"
+	[liberalismen.com]).
+]))
+])
+
+(hrule)
+(tag :a :name "dead_tree")
+(subtitle [Dead Tree Publishing])
+(p*[
+If you like this author,
+	you may also want to acquire a printed copy of his works.
+,(XXX[ (I, for instance, started a collection.) ])
+][
+For his original works in French, see
+,(bof-ref :url "index" "bois_mort" [the french version]) of this page.
+][
+For english translations, try your cheapest electronic book store
+(but ,(ref :url "http://noamazon.com" [Boycott Amazon])).
+I can recommend the libertarian publisher
+	,(ref :url "http://www.laissezfaire.org/bastiat.cfm"
+	[laissezfaire.org]).
+You can also order directly from the
+	,(ref :url "http://www.fee.org/" [FEE])
+that funded the modern translation of Bastiat.
+][
+You can also find a small
+,(ref :url "http://www.iedm.org/etudes/bastiat_en.html"
+	[a booklet of works by Bastiat])
+from the ,(ref :url "http://www.iedm.org/" [IEDM]).
+][
+There would be a lot of use for a larger electronic publication
+of the works of Bastiat, in French, in english, and in every language.
+I invite you to digitize original printed works of Bastiat,
+or send or let or pay me copies so I may digitize them.
+I also invite you to translate yet-to-be-translated works,
+to proof-read existing translations, and/or to convince publishers
+of existing translations to republish them freely on the web.
+][
+For the few who are willing to acquire a microfiche reader,
+,(ref :url "http://www.acenet.com.au/~jzube/" [John Zube])
+sells cheap microfiches with the complete works of Bastiat,
+among many other things.
+])
+
+(hrule)
+(tag :a :name "pointers")
+(subtitle [A few pointers])
+(p*[
+If you liked the works by Frédéric Bastiat,
+	you might be interested by the following pages:
+]
+(itemize
+(item[The
+	,(ref :url "http://bastiat.net/en/" [english-speaking]) section of
+	,(ref :url "http://bastiat.net/" [bastiat.net]).
+])
+(item[The english-speaking mailing-list
+	,(ref :url "http://lists.tunes.org/mailman/listinfo/bastiat-fans" [bastiat-fans]),
+	and its french-speaking counterpart
+	,(ref :url "http://bastiat.net/archive_bastiat-fr.html" [bastiat-fr]).
+])
+(item[Other Great (classical) Liberal Economists:
+	,(ref :url "http://herve.dequengo.free.fr/Molinari/Molinari.htm" [Gustave de Molinari]),
+	,(ref :url "http://www.mises.org/" [Ludwig von Mises]),
+	,(ref :url "http://www.freespeaker.org/aboutfee/leonardread.html" [Leonard Read]),
+	,(ref :url "http://www.hayekcenter.org/" [F.A. Hayek]),
+	,(ref :url "http://www.hazlitt.org/" [Henry Hazlitt]),
+	,(ref :url "http://www.rothbard.org/mnr.asp" [Murray Rothbard])...
+])
+(item[Pages of my fellow bastiat.org collaborators:
+	,(ref :url "http://www.subir.com/" [Subir Grewal]) and
+	,(ref :url "http://www.ConservativeBeacon.com/" [Michael Koller]) (in English),
+	but also
+	,(cbalanca), ,(XXX[ ,(loic), ,(andre),]) ,(krylenko),
+	,(JML), ,(XXX[ ,(belem), ,(leter),]) ,(frk.paris) and ,(cvincent)
+	(in French).
+])
+(item[Pages of mine:
+	,(itemize
+	(item[My page on ,(ref :url "http://fare.tunes.org/books/" [Free e-texts])
+		(in French, but just follow the
+		,(ref :url "http://fare.tunes.org/books/#pointeurs" [pointers]))])
+	(item[My page on ,(ref :url "http://fare.tunes.org/liberty/" [Liberty, as it is])])
+	(item[Other
+		,(ref :url "http://fare.tunes.org/reading.html" [readings (in general) that I recommend])])
+	(item[My ,(ref :url "http://fare.tunes.org/" [personal]) web page
+	]))
+])
+(item[About the making of this site:
+	,(itemize
+	(item[,(ref :url "http://www.anybrowser.org/campaign/" [Any Browser Campaign])])
+	(item[,(ref :url "http://burnallgifs.org/" [Burn All.GIFs!])])
+	(item[,(ref :url "http://www.gnu.org/" [Free Software Foundation])])
+	(item[Made with ,(Scribe.ref)]))
+])
+(item[,(small[To add to this page:
+,(q[Bastiat's Legacy in Economics]) by Guido Hülsmann
+QJAE Volume 4, Number 4 (Winter 2001) on Mises.org;
+,(ref :url "http://www.mises.org/bastiat200.asp" [,(q[Frédéric Bastiat: Two Hundred Years On]),
+			by Joseph R. Stromberg]),(pv)
+,(ref :url "http://www.fee.org/iol/1997/june%2097/powell.html" [,(q[Frederic Bastiat, Ingenious Champion for Liberty and Peace])
+		by Jim Powell, Ideas on Liberty, June 1997]),(pv)
+,(ref :url "http://www.fee.org/iol/1998-IOL/1998/sept%2098/opitz.html" [Leonard E. Read: A Portrait])
+	by Edmund A. Opitz, IOL, September 1998,
+	tells how Read rediscovered Bastiat;
+,(ref :url "http://www.progress.org/fold203.htm" [Fred Foldvary on Bastiat]),(pv)
+,(ref :url "http://bastiat.freehosting.net/images/bastiat_article.jpg" [,(q[Philosopher Frédéric Bastiat:
+		His belief in the Free Market
+		Changed the World of Economics]),
+		by Antonio A. Prado,
+		Investor's Business Daily, 2001-07-27]),(pv)
+,(ref :url "http://www.mlwerke.de/me/me16/me16_312.htm" [Karl Marx on Bastiat]), also
+,(ref :url "http://www.econlib.org/library/BohmBawerk/bbCI22.html#Book IV,Ch.III" [Böhm-Bawerk on Bastiat]),(pv)
+,(ref :url "http://www.best.com/~advo/freeman/8908pete.html" [Freeman Pete]),(pv)
+,(ref :url "http://people.netscape.com/ccardiff/" [Chris Cardiff]) was the first to publish Bastiat on the Web;
+,(ref :url "http://libertystory.net/LSTHINKBASTIAT.htm" [LibertyStory on Bastiat]),(pv)
+,(ref :url "http://www.capitalismmagazine.com/2001/august/ww_bastiat.htm" [capitalism magazine on bastiat]),(pv)
+,(ref :url "http://www.blupete.com/Literature/Biographies/Philosophy/Bastiat.htm" [Bastiat @ Blupete.com]),(pv)
+,(ref :url "http://www.wikipedia.com/wiki/Frederic+Bastiat" [Bastiat @ Wikipedia.com]),(pv)
+other articles on Bastiat from mises.org;
+,(ref :url "http://www.policynetwork.net/article.php?ID=371" [first Bastiat prize in Journalism]),(pv)
+,(ref :url "http://freedom.orlingrabbe.com/lfetimes/life_bastiat.htm" [Bastiat in the laissez-faire electronic times]),(pv)
+,(ref :url "http://fredericbastiat.com/" [Frederic Bastiat Interversity])
+(= ,(ref :url "http://www.fredericbastiatinterversity.com/" [FBI])),(pv)
+,(ref :url "http://www.epistemelinks.com/Main/Philosophers.aspx?PhilCode=Bast" [epistemelinks]),(pv)
+,(ref :url "http://www.bastiatstichting.nl/" [Bastiat Stichting]),(pv)
+,(ref :url "http://www.econlib.org/library/Columns/y2003/CaplanMises.html"
+	[Mises and Bastiat on How Democracy Goes Wrong, by Bryan Caplan]),(pv)
+,(ref :url "http://oll.libertyfund.org/Intros/Bastiat.php"
+	[Bastiat at the Online Library of Liberty]),(pv)
+,(XXX [
+
+http://www.sinoliberal.com/bastiat/Frederic%20Bastiat%20Harmonious%20Warrior.htm
+http://www.fnf.org.za/Liberal_Thinkers/bastiat.htm
+http://www.cooperativeindividualism.org/johannsen_bastiat.html
+http://www.cooperativeindividualism.org/schwartzman_on_frederic_bastiat.html
+])
+...
+])])))
+(tag :address
+(tag :p :align 'right
+     (ref :url [mailto:webmaster,(at)bastiat.org]
+	  [Committee to Preserve the Works of Frédéric Bastiat]))))

@@ -1,0 +1,127 @@
+; -*- Scheme -*-
+; $Id: independance_nationale.scr,v 1.7 2004/11/19 11:00:46 fare Exp $
+(style 'bo-style)
+(in-bof :title "Indépendance nationale
+	- par Frédéric Bastiat")
+(document :title "Indépendance nationale"
+	:author author-FB
+(subtitle[Chapitre XIX de la ,(Iere) série des ,(SophismesEconomiques)
+,(XXX :EO [ce sophisme est incorrectement numéroté XXI au lieu de XIX (!) ])
+])
+(p*[
+Parmi les arguments qu'on fait valoir en faveur du régime restrictif,
+il ne faut pas oublier celui qu'on tire de ,(emph[l'indépendance nationale]).
+][
+,(q[Que ferons-nous en cas de guerre, dit-on,
+si nous nous sommes mis à la discrétion de l'Angleterre
+pour le fer et la houille?])
+][
+Les monopoleurs anglais ne manquent pas de s'écrier de leur côté:
+][
+,(q[Que deviendra la Grande-Bretagne en temps de guerre,
+si elle se met, pour les aliments,
+sous la dépendance des Français?])
+][
+On ne prend pas garde à une chose;
+c'est que cette sorte de dépendance qui résulte des échanges,
+des transactions commerciales, est une dépendance ,(emph[réciproque]).
+Nous ne pouvons dépendre de l'étranger sans que l'étranger dépende de nous.
+Or c'est là l'essence même de la ,(emph[société]).
+Rompre des relations naturelles,
+ce n'est pas se placer dans un état d'indépendance,
+mais dans un état d'isolement.
+][
+Et remarquez ceci:
+on s'isole dans la prévision de la guerre;
+mais l'acte même de s'isoler est un commencement de guerre.
+Il la rend plus facile, moins onéreuse et, partant, moins impopulaire.
+Que les peuples soient des uns aux autres des débouchés permanents;
+que leurs relations, ne puissent être rompues
+sans leur infliger la double souffrance de la privation et de l'encombrement,
+et ils n'auront plus besoin de ces puissantes marines qui les ruinent,
+de ces grandes armées qui les écrasent;
+la paix du monde ne sera pas compromise
+par le caprice d'un Thiers ou d'un Palmerston,
+et la guerre disparaîtra faute
+d'aliments, de ressources, de motifs, de prétextes et de sympathie populaire.
+][
+Je sais bien qu'on me reprochera (c'est la mode du jour)
+de donner pour base à la fraternité des peuples l'intérêt,
+le vil et prosaïque intérêt.
+On aimerait mieux qu'elle eût son principe
+dans la charité, dans l'amour,
+qu'il y fallût même un peu d'abnégation,
+et que, froissant le bien-être matériel des hommes,
+elle eût le mérite d'un généreux sacrifice.
+][
+Quand donc en finirons-nous avec ces puériles déclamations?
+Quand bannirons-nous enfin la tartuferie de la science?
+Quand cesserons-nous de mettre cette contradiction nauséabonde
+entre nos écrits et nos actions?
+Nous huons, nous conspuons l',(emph[intérêt]), c'est-à-dire l'utile, le bien
+(car dire que tous les peuples sont intéressés à une chose,
+c'est dire que cette chose est bonne en soi),
+comme si l'intérêt n'était pas le mobile nécessaire, éternel, indestructible,
+en qui la Providence a confié la perfectibilité humaine!
+Ne dirait-on pas que nous sommes tous des anges de désintéressement?
+Et pense-t-on que le public ne commence pas à voir avec dégoût
+que ce langage affecté noircit précisément les pages
+qu'on lui fait payer le plus cher? Oh! l'affectation!
+l'affectation! c'est vraiment la maladie de ce siècle.
+][
+Quoi! parce que le bien-être et la paix sont choses corrélatives,
+parce qu'il a plu à Dieu d'établir cette belle harmonie dans le monde moral,
+vous ne voulez pas que j'admire, que j'adore ses décrets
+et que j'accepte avec gratitude des lois
+qui font de la justice la condition du bonheur?
+Vous ne voulez la paix qu'autant qu'elle froisse le bien-être,
+et la liberté vous pèse parce qu'elle ne vous impose pas des sacrifices?
+Et qui vous empêche, si l'abnégation a pour vous tant de charmes,
+d'en mettre dans vos actions privées?
+La société vous en sera reconnaissante,
+car quelqu'un au moins en recueillera le fruit;
+mais vouloir l'imposer à l'humanité comme un principe,
+c'est le comble de l'absurdité, car l'abnégation de tous,
+c'est le sacrifice de tous, c'est le mal érigé en théorie.
+][
+Mais, grâce au ciel, on peut écrire et lire beaucoup de ces déclamations
+sans que pour cela le monde cesse d'obéir à son mobile,
+qui est, qu'on le veuille ou non, l',(emph[intérêt]).
+][
+Après tout, il est assez singulier de voir invoquer
+les sentiments de la plus sublime abnégation
+à l'appui de la spoliation elle-même.
+Voilà donc à quoi aboutit ce fastueux désintéressement!
+Ces hommes si poétiquement délicats
+qu'ils ne veulent pas de la paix elle-même
+si elle est fondée sur le vil ,(emph[intérêt]) des hommes,
+mettent la main dans la poche d'autrui, et surtout du pauvre;
+car quel article du tarif protège le pauvre?
+Eh! messieurs, disposez comme vous l'entendez de ce qui vous appartient,
+mais laissez-nous disposer aussi du fruit de nos sueurs,
+nous en servir ou l'échanger à notre gré.
+Déclamez sur le renoncement à soi-même, car cela est beau;
+mais en même temps soyez au moins honnêtes
+,(footnote*[
+V. le pamphlet
+,(bof-ref "justice_fraternite" (cite-title[Justice et Fraternité])),
+au présent volume.
+,(--) V. aussi
+,(bof-ref "introduction_cobden_ligue"
+[l'introduction de ,(cite-title[Cobden et la ligue anglaise])]),
+puis la
+,(XXX :bof-ref "ligue_32")
+,(cite-title[seconde campagne de la ligue]),
+au tome II.
+,(NdEEO)]).
+])
+(with-footer (p*[
+	Extrait de l',(EO1863),
+	tome IV, ,(SophismesEconomiques), ,(Iere) série, XIX,
+	"Indépendance nationale",
+	pp. 97-99.
+][
+	Texte original fourni par ,(FRR),
+	scanné, numérisé, mis en HTML par ,(cbalanca),
+	relu et édité par ,(FRR) pour ,(Bastiat.org).
+])))

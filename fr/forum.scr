@@ -1,0 +1,43 @@
+; -*- Scheme -*-
+; $Id: forum.scr,v 1.2 2003/03/15 17:50:19 fare Exp $
+(style 'bo-style)
+(in-bof :title "Forums de discussion sur Frédéric Bastiat - Bastiat.org")
+(document :title "Forum de discussion sur Frédéric Bastiat"
+(p*[
+Le ,(ref :url "http://bastiat.net/" [Cercle Frédéric Bastiat])
+héberge la liste de diffusion francophone
+	,(ref :url "http://bastiat.net/archive_bastiat-fr.html" [bastiat-fr@bastiat.net])
+pour toute annonce ou discussion d'intérêt général
+autour de Frédéric Bastiat, son ,(oe)uvre,
+sa présence sur l'Internet et autres media.
+La liste est
+	,(ref :url "http://bastiat.net/archive_bastiat-fr.html" [publiquement archivée]).
+Les messages provenant de non abonnés
+sont soumis à filtrage par un modérateur.
+][
+Pour envoyer une commande au programme gérant la liste,
+il faut envoyer un message électronique adressé à:
+	,(tt['liste'-'commande',(at)bastiat.net]).
+Le contenu du sujet ou du corps du message sont sans effet:
+l'adresse de l'envoyeur est déduite des entêtes du message.
+,(itemize
+(item[On s'abonne en envoyant un message à:
+	,(tt[bastiat-fr-subscribe,(at)bastiat.net]).
+])
+(item[On se désabonne en envoyant un message à:
+	,(tt[bastiat-fr-unsubscribe,(at)bastiat.net]).
+])
+(item[On demande de l'aide en envoyant un message à:
+	,(tt[bastiat-fr-help,(at)bastiat.net]).
+]))
+][
+Il existe aussi une liste de diffusion anglophone publiquement archivée
+,(ref :url "http://lists.tunes.org/mailman/listinfo/bastiat-fans"
+	[bastiat-fans]),
+hébergée par ,(Bastiat.org).
+(Inscription depuis
+,(tt(ref :url "http://lists.tunes.org/mailman/listinfo/bastiat-fans" [http://lists.tunes.org/mailman/listinfo/bastiat-fans])))
+][
+Il y a aussi une
+,(ref :url "../es/listas-de-correo.html" [liste de diffusion en espagnol]).
+]))

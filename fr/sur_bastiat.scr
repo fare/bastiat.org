@@ -1,0 +1,1447 @@
+; -*- Scheme -*-
+; $Id: sur_bastiat.scr,v 1.3 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Notice sur la vie et les Écrits de Frédéric Bastiat
+	- par Roger de Fontenay")
+(document :title [Notice sur la vie et les Écrits ,(br) de Frédéric Bastiat]
+	:author (author :name [Roger de Fontenay]
+			:url (ref :url =bo.url= =bo.url=))
+(small[
+Extrait des
+,(bof-ref "guillaumin" (cite-title
+	[,(OE)uvres complètes de Frédéric Bastiat])),
+deuxième édition, Paris, Guillaumin & C,(sup[ie]) Libraires, 1862-1864.
+])
+(p*[
+Frédéric Bastiat est né à Bayonne, le 19 juin 1801,(footnote*[
+	Cette date est celle donnée
+	dans l'édition originale de cette biographie (1862),
+	que nous avons repris essentiellement à l'identique.
+	L'acte de naissance de Claude Frédéric Bastiat indique le
+	11 messidor an 9, soit le 30 juin 1801 dans le calendrier grégorien.
+	C'est cette dernière date que reprend l'historien J.-C. Paul-Dejean,
+	historien éminent et biographe passionné de Bastiat.
+][
+,(emph[(Note de Faré, 2001-05-31, 2001-07-18.)])
+]),
+	d'une famille honorable et justement considérée dans le pays.
+Son père était un homme
+	remarquablement doué de tous les avantages du corps et de l'esprit,
+	brave, loyal, généreux.
+On dit que Frédéric, son fils unique,
+	avait avec lui la plus grande ressemblance.
+En 1810, F. Bastiat resta orphelin sous la tutelle de son grand-père;
+sa tante, mademoiselle Justine Bastiat (qui lui a survécu),
+	lui servit de mère:
+,(--) c'est cette parente dont les lettres de Bastiat parlent
+	avec une si tendre sollicitude.
+Après avoir été un an au collège de Saint-Sever,
+Bastiat fut envoyé à Sorrèze, où il fit de très bonnes études.
+C'est là qu'il se lia d'une amitié intime avec M. V. Calmètes
+,(--) aujourd'hui conseiller à la Cour de cassation ,(--),
+à qui sont adressées les premières lettres de la ,(cite-title[Correspondance]).
+][
+Quelques particularités de cette liaison d'enfance
+	révèlent déjà la bonté et la délicatesse infinies
+	que Bastiat portait en toutes choses.
+Robuste, alerte, entreprenant et passionné pour les exercices du corps,
+	il se privait presque toujours de ces plaisirs,
+	pour tenir compagnie à son ami
+		que la faiblesse de sa santé éloignait des jeux violents.
+Cette amitié remarquable était respectée par les maîtres eux-mêmes;
+elle avait des privilèges particuliers,
+	et pour que tout fût plus complètement commun entre les deux élèves,
+	on leur permettait de faire leurs devoirs en collaboration
+		et sur la même copie signée des deux noms.
+C'est ainsi qu'ils obtinrent, en 1818, un prix de poésie.
+La récompense était une médaille d'or;
+elle ne pouvait se partager:
+,(q[Garde-la, ,(XXX :EO [là]) dit Bastiat qui était orphelin;
+puisque tu as encore ton père et ta mère,
+la médaille leur revient de droit.])
+][
+En quittant le collège de Sorrèze,
+Bastiat, que sa famille destinait au commerce,
+entra, en 1818, dans la maison de son oncle, à Bayonne.
+À cette époque,
+le plaisir tint naturellement plus de place dans sa vie que les affaires.
+Nous voyons pourtant, dans ses lettres,
+	qu'il prenait sa carrière au sérieux,
+	et qu'il gardait, au milieu des entraînements du monde,
+		un penchant marqué pour la retraite;
+étudiant, quelquefois jusqu'à se rendre malade,
+	tour à tour ou tout ensemble,
+	les langues étrangères,
+	la musique,
+	la littérature française, anglaise et italienne,
+	la question religieuse,
+	l'économie politique enfin,
+		que depuis l'âge de dix-neuf ans il a toujours travaillée.
+][
+Vers l'âge de vingt-deux à vingt-trois ans,
+	après quelques hésitations sur le choix d'un état,
+	il revint, pour obéir aux désirs de sa famille,
+	se fixer à Mugron, sur les bords de l'Adour,
+	dans une terre dont la mort de son grand-père (1825)
+	le mit bientôt en possession.
+Il parait qu'il y tenta des améliorations agricoles:
+	le résultat en fut assez médiocre,
+	et ne pouvait guère manquer de l'être
+		dans les conditions de l'entreprise.
+D'abord, c'était vers 1827,
+	et à ce moment la science agronomique n'existait pas en France.
+Ensuite, il s'agissait d'un domaine de 250 hectares environ,
+	subdivisé en une douzaine de métairies;
+	et tous les agriculteurs savent
+		que le régime parcellaire et routinier du métayage
+		oppose à tout progrès sérieux
+		un enchevêtrement presque infranchissable
+		de difficultés matérielles
+		et surtout de résistances morales.
+Enfin, le caractère de Bastiat était incapable de se plier
+	,(--) on pourrait dire de s'abaisser ,(--)
+	aux qualités étroites
+		d'exactitude,
+		d'attention minutieuse,
+		de patiente fermeté,
+		de surveillance défiante,
+			dure,
+			âpre au gain,
+	sans lesquelles un propriétaire
+	ne peut diriger fructueusement une exploitation très-morcelée.
+Il avait bien entrepris,
+	pour chaque culture et chaque espèce d'engrais,
+	de tenir exactement compte des déboursés et des produits,
+	et ses essais durent avoir quelque valeur théorique;
+mais, dans la pratique,
+il était
+	trop indifférent à l'argent,
+	trop accessible à toutes les sollicitations,
+	pour défendre ses intérêts propres,
+	et la condition de ses métayers ou de ses ouvriers
+		dut seule bénéficier de ses améliorations.
+][
+L'agriculture ne fut donc guère, pour Bastiat,
+	qu'un goût ou un semblant d'occupation.
+L'intérêt véritable, le charme sérieux de sa vie campagnarde,
+	ce fut au fond l'étude,
+	et la conversation qui est l'étude à deux
+,(--) ,(q[la conférence, comme dit Montaigne,
+	qui apprend et exerce en un coup]),
+quand elle s'établit entre deux esprits distingués.
+Le bon génie de Bastiat lui fit rencontrer, à côté de lui,
+	cette intelligence-s,(oe)ur,
+	qui devait, en quelque sorte, doubler la sienne.
+Ici vient se placer un nom qui fut si profondément mêlé
+	à l'existence intime et à la pensée de Bastiat,
+qu'il l'en sépare à peine lui-même dans ses derniers écrits:
+	c'est celui de M. Félix Coudroy.
+Si Calmètes est le camarade du c,(oe)ur et des jeunes impressions,
+Coudroy est l'ami de l'intelligence et de la raison virile,
+comme plus tard R. Cobden sera l'ami politique,
+le frère d'armes de l'action extérieure et du rude apostolat.
+][
+Cette intimité a été trop féconde en grands résultats
+	pour que nous ne nous arrêtions pas un moment
+	à dire la manière dont elle s'engrena:
+c'est M. F. Coudroy qui nous l'a racontée.
+Son éducation,
+ses opinions de famille,
+plus encore peut-être sa nature nerveuse, mélancolique et méditative,
+l'avaient tourné de bonne heure du côté
+	de l'étude de la philosophie religieuse.
+Un moment séduit par les utopies de Rousseau et de Mably,
+il s'était rejeté ensuite, par dégoût de ces rêves,
+vers la ,(cite-title[Politique sacrée])
+et la ,(cite-title[Législation primitive]),
+sous ce dogme absolu de l'Autorité,
+si éloquemment prêché alors par les de Maistre et les Bonald:
+où l'on ne comprend l'ordre
+	que comme résultat de l'abdication complète
+		de toutes les volontés particulières
+		sous une volonté unique et toute-puissante;
+où les tendances naturelles de l'humanité sont supposées mauvaises,
+	et par conséquent condamnées à un suicide perpétuel;
+où enfin la liberté et le sentiment de la dignité individuelle
+	sont considérés comme
+	des forces insurrectionnelles,
+	des principes de déchéance et de désordre.
+Quand les deux jeunes gens se retrouvèrent,
+	en sortant l'un de l'école de droit de Toulouse,
+	l'autre des cercles de Bayonne,
+	et qu'on se mit à parler d'opinions et de principes,
+Bastiat, qui avait déjà entrevu en germe,
+	dans les idées d'Ad. Smith,
+	de Tracy et de J.-B. Say,
+	une solution tout autre du problème humain,
+Bastiat arrêtait à chaque pas son ami,
+	lui montrant par les faits économiques
+	comment les manifestations libres des intérêts individuels
+		se limitent réciproquement par leur opposition même,
+		et se ramènent mutuellement
+		à une résultante commune d'ordre et d'intérêt général;
+	comment le mal,
+		au lieu d'être une des tendances positives
+			de la nature humaine,
+		n'est au fond qu'un accident de la recherche même du bien,
+		une erreur que corrigent l'intérêt général qui le surveille
+			et l'expérience qui le poursuit dans les faits;
+	comment l'humanité a toujours marché d'étape en étape,
+		en brisant à chaque pas
+		quelqu'une des lisières de son enfance;
+	comment, enfin, la liberté n'est pas seulement le résultat et le but,
+		mais le principe, le moyen, la condition nécessaire
+			de ce grand et incontestable mouvement...
+][
+Il étonna d'abord un peu,
+	puis finit par conquérir à ces idées nouvelles son ami,
+	dont l'esprit était juste
+	et le c,(oe)ur sincèrement passionné pour le vrai.
+Toutefois, ce ne fut pas sans recevoir lui-même
+	une certaine impression
+	de ces grandes théories de Bonald et de Maistre:
+car les négations puissantes ont le bon effet
+	d'élever forcément à une hauteur égale
+	le point de vue des systèmes qui les combattent.
+Il y eut sans doute des compromis,
+	des concessions mutuelles;
+et c'est peut-être à une sorte de pénétration réciproque
+	des deux principes ou des deux tendances
+qu'il faudrait attribuer le caractère profondément religieux
+	qui se mêle, dans les écrits de Bastiat,
+	à la fière doctrine du ,(emph[progrès par la liberté]).
+][
+Nous n'avons pas la prétention de chercher
+	quelle put être la ,(emph[mise de fonds])
+	que chacun des deux associés d'idées versa ainsi à la masse commune.
+Nous pensons que de part et d'autre l'apport fut considérable.
+Le seul ouvrage de M. Coudroy que nous connaissions,
+	sa brochure ,(emph[sur le duel]),
+nous a laissé une haute opinion de son talent,
+et l'on sait que Bastiat a eu un moment la pensée de lui léguer à finir
+	le second volume de ses ,(emph[Harmonies]).
+Il semblerait pourtant que dans l'association,
+	l'un apportait plus particulièrement
+		l'esprit d'entreprise et d'initiative,
+	l'autre l'élément de suite et de continuité.
+	Bastiat avait le travail capricieux,
+		comme les natures artistes;
+il procédait par intuitions soudaines,
+et, après avoir franchi d'un élan toute une étape,
+il s'endormait dans les délices de la flânerie.
+L'ami Coudroy,
+comme le volant régulateur de la machine,
+absorbait de temps en temps cet excès de mouvement,
+pour le rendre en impulsion féconde à son paresseux et distrait sociétaire.
+Quand celui-ci recevait quelque ouvrage nouveau,
+il l'apportait à Coudroy, qui le dégustait,
+notait avec soin les passages remarquables,
+puis les lisait à son ami.
+Très souvent, Bastiat se contentait de ces fragments;
+c'était seulement quand le livre l'intéressait sérieusement,
+qu'il l'emportait pour le lire de son côté:
+ces jours-là,
+	la musique était mise de côté,
+	la romance avait tort,
+	et le violoncelle restait muet.
+][
+C'était ainsi qu'ils passaient leur vie ensemble,
+logés à quatre pas l'un de l'autre,
+se voyant trois fois par jour,
+tantôt dans leurs chambres,
+tantôt à de longues promenades qu'on faisait un livre sous le bras.
+Ouvrages
+	de philosophie,
+	d'histoire,  
+	de politique ou de religion,
+	poésie,
+voyages,
+mémoires,
+économie politique,
+utopies socialistes...
+tout passait ainsi au contrôle de cette double intelligence ,(--)
+ou plutôt de cette intelligence doublée,
+	qui portait partout la même méthode
+	et rattachait au moyen du même fil conducteur
+	toutes ces notions éparses à une grande synthèse.
+C'est dans ces conversations que l'esprit de Bastiat faisait son travail;
+c'est là que ses idées se développaient,
+et quand quelqu'une le frappait plus particulièrement,
+il prenait quelques heures de ses matinées pour la rédiger sans effort;
+c'est ainsi, raconte M. Coudroy,
+qu'il a fait
+	l'article sur les ,(emph[tarifs]),
+	les ,(emph[sophismes]),
+	etc.
+Ce commerce intime a duré,
+nous l'avons dit, plus de vingt ans,
+presque sans interruption,
+et chose remarquable, sans dissentiments.
+On comprend après cela comment de cette longue étude préparatoire,
+de cette méditation solitaire à deux,
+a pu s'élancer si sûr de lui-même
+cet esprit improvisateur,
+	qui à travers les interruptions de la maladie
+		et les pertes de temps énormes
+			d'une vie continuellement publique et extérieure,
+a jeté au monde, dans l'espace de cinq ans,
+la masse d'idées si neuves, si variées et pourtant si homogènes
+	que contiennent ces volumes.
+][
+Membre du Conseil général des Landes depuis 1832,
+Bastiat se laissait porter de temps en temps à la députation.
+Décidé, s'il eût été nommé,
+à ne jamais accepter une place du gouvernement
+et à donner immédiatement sa démission des fonctions modestes de juge de paix,
+il redoutait bien plus qu'il ne désirait un honneur qui eût profondément
+dérangé sa vie et probablement sa fortune.
+Mais il profitait,
+comme il le racontait en riant,
+de ces rares moments où on lit en province,
+pour répandre dans ses circulaires électorales,
+et ,(q[distribuer sous le manteau de la candidature]) quelques vérités utiles.
+On voit que son ambition originale
+	intervertissait la marche naturelle des choses;
+car il est certainement bien plus dans les usages ordinaires
+de faire de l'économie politique le marchepied d'une candidature,
+que de faire d'une candidature le prétexte d'un enseignement économique.
+Quelques écrits plus sérieux trahissaient de loin en loin
+	la profondeur de cette intelligence si bien ordonnée:
+comme ,(cite-title[Le fisc et fa vigne]), en 1841,
+le ,(cite-title[Mémoire sur la question vinicole]), en 1843,
+qui se rattachent à des intérêts locaux importants,
+que Bastiat avait tenté un moment de grouper en une association puissante.
+C'est aussi à cette époque de ses travaux qu'il faut rapporter,
+quoiqu'il n'ait été fini qu'en 1844,
+le ,(cite-title[Mémoire sur la répartition de l'impôt foncier
+	dans le département des Landes]),
+un petit chef-d',(oe)uvre que tous les statisticiens doivent étudier
+	pour apprendre comment il faut manier les chiffres.
+][
+La force des choses allait jeter bientôt Bastiat sur un théâtre plus vaste.
+Depuis longtemps (dès 1825) il s'était préoccupé de la réforme douanière.
+En 1829 il avait commencé un ouvrage ,(cite-title[sur le régime restrictif])
+	dont nous avons deux chapitres manuscrits
+	et que les événements de 1830 l'empêchèrent sans doute
+		de faire imprimer.
+En 1834, il publia ,(cite-title[sur les pétitions des ports])
+	des réflexions d'une vigueur de logique
+	que les ,(cite-title[Sophismes]) n'ont pas surpassée.
+Mais la liberté du commerce ne lui était apparue encore
+	que comme une vague espérance de l'avenir.
+Une circonstance insignifiante vint lui apprendre tout à coup
+	que son rêve prenait un corps,
+	que son utopie se réalisait
+dans un pays voisin.
+][
+Il y avait un cercle à Mugron,
+un cercle même où il se faisait beaucoup d'esprit:
+,(q[deux langues, dit Bastiat,
+y suffisaient à peine.])
+Il s'y faisait aussi de la politique,
+et naturellement le fond en était une haine féroce contre l'Angleterre.
+Bastiat,
+	porté vers les idées anglaises
+	et cultivant la littérature anglaise,
+avait souvent des lances à rompre à ce propos.
+Un jour, le plus ,(emph[anglophobe]) des habitués
+	l'aborde en lui présentant d'un air furieux
+	un des deux journaux que recevait le cercle:
+,(q[Lisez, dit-il,
+et voyez comment vos amis nous traitent!...])
+C'était la traduction d'un discours de R. Peel
+	à la Chambre des communes;
+elle se terminait ainsi:
+	,(q[Si nous adoptions ce parti,
+	nous tomberions,
+	,(emph[comme la France]),
+	au dernier rang des nations.])
+L'insulte était écrasante,
+il n'y avait pas un mot à répondre.
+Cependant, à la réflexion,
+il sembla étrange à Bastiat
+	qu'un Premier Ministre d'Angleterre
+	eût de la France une opinion semblable,
+et plus étrange encore
+	qu'il l'exprimât en pleine Chambre.
+Il voulut en avoir le c,(oe)ur net,
+	et sur-le-champ il écrivit à Paris
+	pour se faire abonner à un journal anglais,
+	en demandant qu'on lui envoyât tous les numéros du dernier mois écoulé.
+Quelques jours après,
+,(cite-title[The Globe and Traveller]) arrivait à Mugron;
+on pouvait lire le discours de R. Peel en anglais;
+les mots malencontreux ,(emph[comme la France]) n'y étaient pas,
+ils n'avaient jamais été prononcés.
+][
+Mais la lecture du ,(cite-title[Globe]) fit faire à Bastiat
+	une découverte bien autrement importante.
+Ce n'était pas seulement en traduisant mal
+	que la presse française égarait l'opinion,
+c'était surtout en ne traduisant pas.
+Une immense agitation se propageait sur toute l'Angleterre,
+	et personne n'en parlait chez nous.
+La ligue pour la liberté du commerce
+	faisait trembler sur sa base la vieille législation.
+Pendant deux ans,
+	Bastiat put suivre avec admiration
+	la marche et les progrès de ce beau mouvement;
+et l'idée de faire connaître et peut-être imiter en France
+	cette magnifique réforme vint le mordre au c,(oe)ur vaguement.
+C'est sous cette impression
+	qu'il se décida à envoyer au ,(cite-title[Journal des Économistes])
+	son premier article:
+,(q[Sur l'influence des tarifs anglais et français.])
+L'article parut en octobre 1844.
+L'impression en fut profonde dans le petit monde économiste;
+les compliments et les encouragements arrivèrent en foule de Paris à Mugron.
+La glace était rompue.
+Tout en faisant paraître des articles dans les journaux,
+et surtout cette charmante première série des ,(cite-title[Sophismes économiques]),
+Bastiat commence à écrire l'histoire de la Ligue anglaise,
+et pour avoir quelques renseignements qui lui manquent,
+se met en rapport avec R. Cobden.
+][
+Au mois de mai 1845,
+il vient à Paris pour faire imprimer son livre de ,(emph[Cobden]),
+qui lui valut neuf mois plus tard le titre de
+	membre correspondant de l'Institut.
+On l'accueille à bras ouverts,
+on veut qu'il dirige le ,(cite-title[Journal des Économistes]),
+on lui trouvera une chaire d'économie politique,
+on se serre autour de cet homme étrange
+	qui semble porter au milieu du groupe un peu hésitant des économistes
+	le feu communicatif de ses hardies convictions.
+De Paris, Bastiat passe en Angleterre,
+serre la main à Cobden et aux chefs des Ligueurs,
+puis il va se réfugier à Mugron.
+Comme ces grands oiseaux
+	qui essayent deux ou trois fois leurs ailes
+		avant de se lancer dans l'espace,
+Bastiat revenait
+	s'abattre encore une fois dans ce nid tranquille de ses pensées;
+	et déjà trop bien averti
+		des agitations
+		et des luttes qui allaient envahir
+			sa vie livrée désormais à tous les vents,
+	donner un dernier baiser d'adieu
+		à son bonheur passé,
+		à son repos,
+		à sa liberté perdue.
+Il n'était pas homme à se griser du bruit subit fait autour de son nom,
+il se débattait contre les entraînements de l'action extérieure,
+il eût voulu rester dans sa retraite
+,(--) ses lettres le prouvent à chaque page.
+Vaine résistance à la destinée!
+L'épée était sortie du fourreau pour n'y plus rentrer.
+][
+Au moins de février 1846, l'étincelle part de Bordeaux.
+Bastiat y organise l'association pour la liberté des échanges.
+De là il va à Paris, où s'agitaient, sans parvenir à se constituer,
+les éléments d'un noyau puissant
+	par le nom, le rang et la fortune de ses principaux membres.
+Bastiat se trouve en face d'obstacles sans nombre.
+,(q[Je perds tout mon temps,
+l'association marche à pas de tortue]),
+écrivait-il à M. Coudroy.
+À Cobden:
+,(q[Je souffre de ma pauvreté;
+si, au lieu de courir de l'un à l'autre à pied,
+	crotté jusqu'au dos,
+	pour n'en rencontrer qu'un ou deux par jour
+	et n'obtenir que des réponses évasives ou dilatoires,
+je pouvais les réunir à ma table, dans un riche salon,
+	que de difficultés seraient levées!
+Ah! ce n'est ni la tête ni le c,(oe)ur qui me manquent;
+mais je sens que cette superbe Babylone n'est pas ma place
+et qu'il faut que je me hâte de rentrer dans ma solitude...])
+Rien n'était plus original en effet que l'extérieur du nouvel agitateur.
+,(q[Il n'avait pas eu encore le temps
+	de prendre un tailleur et un chapelier parisiens,
+raconte M. de Molinari
+,(--) d'ailleurs il y songeait bien en vérité!
+Avec ses cheveux longs et son petit chapeau,
+son ample redingote et son parapluie de famille,
+on l'aurait pris volontiers pour un bon paysan
+	en train de visiter les merveilles de la capitale.
+Mais la physionomie de ce campagnard
+	était malicieuse et spirituelle,
+son grand ,(oe)il noir était lumineux,
+et son front taillé carrément portait l'empreinte de la pensée.
+,(cite-title[Sancta simplicitas])!
+Qu'on ne s'y trompe pas, du reste:
+il n'y a rien d'actif
+	comme ces solitaires lancés au milieu du grand monde,
+	rien d'intrépide comme ces natures repliées et délicates,
+	une fois qu'elles ont mis le respect humain sous leurs pieds,
+rien d'irrésistible comme ces timidités devenues effrontées
+	à force de conviction.])
+,(XXX)
+][
+Mais quelle entreprise pour un homme
+	qui tombe du fond des Landes sur le pavé inconnu de Paris!
+Il fallait
+	voir les journalistes,
+	parler aux ministres,
+	réunir les commerçants,
+	obtenir des autorisations de s'assembler,
+	faire et défaire des manifestes,
+	composer et décomposer des bureaux,
+	encourager les noms marquants,
+	contenir l'ardeur des recrues plus obscures,
+	quêter des souscriptions...
+Tout cela à travers
+	les discussions intérieures des voies et moyens,
+	les divergences d'opinions,
+	les froissements des amours-propres.
+Bastiat est à tout:
+sous cette impulsion communicative,
+le mouvement prend peu à
+peu un corps et l'opinion s'ébranle à Paris.
+La Commission centrale s'organise,
+	il en est le secrétaire;
+on fonde un journal hebdomadaire,
+	il le dirige;
+il parle dans les meetings,
+il se met en rapport avec les étudiants et les ouvriers,
+il correspond avec les associations naissantes
+	des grandes villes de la province,
+il va faire des tournées et des discours
+	à Lyon,
+	à Marseille,
+	au Havre,
+	etc.;
+il ouvre, salle Taranne,
+un cours à la jeunesse des écoles;
+et il ne cesse pas d'écrire pour cela:
+,(q[Il donnait à la fois,
+dit un de ses collaborateurs, M. de Molinari,
+	des lettres,
+	des articles de polémique et
+	des variétés
+à trois journaux,
+sans compter des travaux plus sérieux
+	pour le ,(cite-title[Journal des Économistes]).
+Voyait-il le matin poindre un sophisme protectionniste
+	dans un journal un peu accrédité,
+aussitôt il prenait la plume,
+	démolissait le sophisme
+	avant même d'avoir songé à déjeuner,
+et notre langue comptait un petit chef-d',(oe)uvre de plus.])
+Il faut voir dans les lettres de Bastiat le complément de ce tableau:
+	les tiraillements intérieurs,
+	les découragements,
+	les soucis de famille ou la maladie qui viennent tout interrompre,
+	les menées électorales,
+	la froideur ou l'hostilité soldée de la presse,
+	les calomnies qui vont l'assaillir jusque dans ses foyers.
+On lui écrit de Mugron
+	,(q[qu'on n'ose plus parler de lui ,(emph[qu'en famille]),
+	tant l'esprit public y est monté contre leur entreprise...]).
+Hélas!
+qu'étaient devenus les lectures avec l'ami Coudroy et les bons mots
+gascons du petit ,(emph[cercle])!
+][
+Nous n'avons pas à apprécier ici le mérite ou les fautes
+	des tentatives libre-échangistes de 1846-1847.
+Personne ne peut dire ce que fût devenu ce mouvement,
+	s'il n'eût été brusquement arrêté par la révolution de 1848.
+Depuis ce moment-là,
+l'idée a fait à petit bruit son chemin dans l'opinion
+	qu'elle a de plus en plus pénétrée.
+Et quand est arrivé le traité avec l'Angleterre,
+il a trouvé le terrain débarrassé des fausses théories,
+et les esprits tout prêts pour la pratique.
+Cette initiation, il faut le dire, manquait totalement alors:
+aussi, à l'exception de quelques villes de grand commerce,
+l'agitation ne s'est guère exercée
+	que dans un milieu restreint d'écrivains et de journalistes.
+Les populations vinicoles,
+si nombreuses en France et si directement intéressées
+	à la liberté des échanges,
+ne s'en sont même pas occupées.
+Bastiat, du reste,
+ne s'est jamais abusé sur le succès immédiat;
+il ne voyait
+	ni les masses
+		préparées,
+	ni même les instigateurs du mouvement
+		assez solidement ancrés sur les principes.
+Il comptait ,(q[sur l'agitation même pour éclairer ceux qui la faisaient]).
+Il déclarait à Cobden qu'il aimait mieux
+	,(q[l'esprit du libre-échange que le libre-échange lui-même]).
+Et c'est pour cela que tout en se plaignant un peu
+	d'être ,(q[garrotté dans une spécialité]),
+il avait toujours soin, en réalité,
+	d'élargir les discussions spéciales,
+	de les rattacher aux grands principes,
+	d'accoutumer ses collègues à faire de la doctrine,
+	et d'en faire lui-même à tout propos
+		,(--) comme il est facile de le voir
+		dans les deux séries des
+		,(Soph-ref(cite-title[sophismes économiques])) ,(XXX)
+		et dans les articles où il commençait déjà à discuter
+			les systèmes socialistes.
+][
+En cela Bastiat ne s'est pas trompé.
+Il a rendu un immense service à notre génération,
+	qui s'amusait à écouter les utopies de toute espèce
+	comme une innocente diversion aux romans-feuilletons.
+Il a accoutumé le public à entendre traiter sérieusement
+	les questions sérieuses;
+il a réuni autour d'un drapeau,
+	exercé par une lutte de tous les jours,
+	excité par son exemple,
+	dirigé par ses conseils et sa vive conversation,
+une phalange jeune et vigoureuse d'économistes,
+	qui s'est trouvée à son poste de combat et sous les armes,
+	aussitôt que la Révolution de Février
+		a déchaîné l'arrière-ban du socialisme.
+Quand le mouvement du libre-échange n'aurait servi qu'à cela,
+	il me semble que les hommes
+		qui, à différents titres, l'ont provoqué et soutenu
+	auraient encore suffisamment bien mérité de leur pays.
+][
+Après la Révolution de Février,
+	Bastiat se rallia franchement à la République,
+	tout en comprenant que personne n'y était préparé.
+Comme dans l'agitation du libre-échange,
+	il comptait sur la pratique même des institutions
+	pour y mûrir et façonner les esprits.
+Le département des Landes l'envoya comme député
+	à l'Assemblée constituante,
+	puis à la Législative.
+Il y siégea à la gauche,
+dans une attitude pleine de modération et de fermeté
+qui, tout en restant un peu isolée,
+fut entourée du respect de tous les partis.
+Membre du Comité des Finances,
+dont il fut nommé huit fois de suite vice-président,
+il y eut une influence très marquée,
+mais tout intérieure et à huis clos.
+La faiblesse croissante de ses poumons
+lui interdisait à peu près la tribune;
+ce fut souvent pour lui une dure épreuve d'être ainsi cloué sur son banc.
+Mais ces discours ,(emph[rentrés]) sont devenus les ,(cite-title[Pamphlets]),
+et nous avons gagné à ce mutisme forcé
+des chefs-d',(oe)uvre de logique et de style.
+Il lui manquait beaucoup des qualités matérielles de l'orateur;
+et pourtant sa puissance de persuasion était remarquable.
+Dans une des rares occasions où il prit la parole
+,(--) à propos des incompatibilités parlementaires ,(--),
+au commencement de son discours
+il n'avait pas dix personnes de son opinion,
+en descendant de la tribune il avait entraîné la majorité;
+l'amendement était voté,
+sans M. Billault et la commission
+qui demandèrent à le reprendre,
+et en suspendant le vote pendant deux jours,
+donnèrent le temps de travailler les votes.
+Bastiat a défini lui-même sa ligne de conduite
+	dans une lettre à ses électeurs:
+,(q[J'ai voté, dit-il,
+avec la droite contre la gauche,
+quand il s'est agi de résister
+	au débordement des fausses idées populaires.
+,(--) J'ai voté avec la gauche contre la droite,
+quand les griefs légitimes de la classe pauvre et souffrante
+	ont été méconnus.])
+][
+Mais la grande ,(oe)uvre de Bastiat, à cette époque,
+ce fut la guerre ouverte, incessante,
+qu'il déclara
+	à tous ces systèmes faux,
+	à toute cette effervescence désordonnée
+		d'idées,
+		de plans,
+		de formules creuses,
+		de prédications bruyantes,
+	dont le tohu-bohu nous rappela pendant quelques mois
+	ce pays rabelaisien où les paroles dégèlent toutes à la fois.
+Le socialisme, longtemps caressé par une grande partie de la littérature,
+se dessinait avec une effrayante audace;
+il y avait table rase absolue;
+les bases sociales étaient remises en question comme les bases politiques.
+Devant la phraséologie énergique et brillante
+	de ces hommes habitués sinon à résoudre,
+	du moins à remuer profondément les grands problèmes,
+	les avocats-orateurs,
+	les légistes du droit écrit,
+	les hommes d'État des bureaux,
+	les fortes têtes du comptoir et de la fabrique,
+	les grands administrateurs de la routine se trouvaient impuissants,
+	déroutés par une tactique nouvelle,
+	interdits comme les Mexicains
+		en face de l'artillerie de Fernand Cortès.
+D'autre part, les catholiques criaient à la fin du monde,
+enveloppant dans un même anathème l'agression et la défense,
+le socialisme et l'économie politique,
+,(q[le vipereau et la vipère]),(footnote*[	Donoso Cortès.
+,(NdEEO)]).
+Mais Bastiat était prêt depuis longtemps.
+Comme un savant ingénieur,
+	il avait d'avance étudié les plans des ennemis,
+	et contre-miné les approches en creusant plus profondément qu'eux
+		le terrain des lois sociales.
+À chaque erreur, de quelque côté qu'elle vienne,
+il oppose un de ses petits livres:
+	à la doctrine Louis Blanc,
+	,(bof-ref "propriete_et_loi" (cite-title[Propriété et Loi])),(pv)
+	à la doctrine Considérant,
+	,(XXX :bof-ref "propriete_et_spoliation")
+	,(cite-title[Propriété et Spoliation]),(pv)
+	à la doctrine Leroux,
+	,(bof-ref "justice_fraternite"
+		(cite-title[Justice et Fraternité])),(pv)
+	à la doctrine Proudhon,
+	,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),(pv)
+	au comité Mimerel,
+	,(bof-ref "protectionisme_et_communisme"
+		  (cite-title[Protectionnisme et Communisme])),(pv) ,(XXX)
+	au papier-monnaie,
+	,(bof-ref "maudit_argent" (cite-title[Maudit Argent])),(pv)
+	au manifeste montagnard,
+	,(bof-ref "l_Etat" (cite-title[L'État])),
+	etc.
+Partout on le trouve sur la brèche,
+partout il éclaire et foudroie.
+Quel malheur et quelle honte
+	qu'une association intelligente des défenseurs de l'ordre
+	n'ait pas alors répandu par milliers
+	ces petits livres
+	à la fois si profonds et si intelligibles pour tous!
+][
+Dans cette lutte
+,(--) où il faut dire, pour être juste,
+	que notre écrivain se trouva entouré et soutenu dignement
+	par ses collègues du libre-échange ,(--),
+Bastiat apporta dans la polémique une sérénité
+et un calme bien remarquables à cette époque de colère et d'injures.
+Il s'irritait bien un peu contre l'outrecuidance
+	de ces despotiques organisateurs,
+	de ces ,(q[pétrisseurs de l'argile humaine]),(pv)
+il s'attristait profondément de cet entraînement vers les réformes sociales
+	qui compromettait les réformes politiques encore si mal assises;
+mais d'un autre côté il ne méconnaissait pas
+	le côté élevé de ces aspirations égarées:
+toutes les grandes écoles socialistes, disait-il,
+ont à leur base une puissante vérité...
+Le tort de leurs adeptes, c'est de ne pas savoir assez,
+et de ne pas voir que le développement naturel de la société
+	tend bien mieux que toutes leurs organisations artificielles
+		à la réalisation de chacune de leurs formules...
+Magnifique programme qui indique aux économistes
+	le vrai terrain de la pacification des esprits.
+Sa correspondance avec ,(ref :url "http://richard-cobden.de/" [R. Cobden])
+	nous a révélé l'action pleine de grandeur
+que Bastiat cherchait à exercer en même temps sur la politique extérieure.
+Mais une autre préoccupation l'obsédait,
+toujours plus vive à mesure que sa santé s'affaiblissait.
+Il avait dans la tête, depuis longtemps,
+,(q[un exposé nouveau de la science])
+et il craignait de mourir sans l'avoir formulé.
+Il se recueillit enfin pendant trois mois
+pour écrire le premier volume des ,(Har-ref(cite-title[Harmonies])).
+Puisque cette ,(oe)uvre, tout incomplète qu'elle soit,
+	est le dernier mot de Bastiat,
+qu'on nous permette de chercher à définir
+	l'esprit et la tendance de sa doctrine.
+][
+L'économie politique, en France,
+a eu, dès son origine,
+le caractère d'une sorte de morale supérieure.
+Les physiocrates lui donnaient pour objet le ,(emph[bonheur des hommes]),(pv)
+ils la nommaient la ,(emph[science du droit naturel]).
+Le génie anglais, essentiellement positif et pratique,
+commença tout de suite par restreindre ce vol ambitieux:
+en substituant la considération de la ,(emph[richesse])
+	à celle du ,(emph[bien-être]),
+et l'analyse des ,(emph[faits]) à la recherche des ,(emph[droits]).
+Ad. Smith renferma la science économique
+	dans des limites plus précises sans doute,
+mais incontestablement plus étroites.
+Seulement, Ad. Smith,
+en homme de génie qu'il était,
+ne s'est pas cru obligé de respecter servilement
+les bornes qu'il avait posées lui-même;
+et à chaque pas sa pensée s'élève
+	du fait à l'idée de l'utile général
+	ou du juste, aux considérations morales et politiques.
+Mais sous ses successeurs, esprits plus ordinaires,
+on voit la science se restreindre et se matérialiser de plus en plus.
+Dans Ricardo surtout et ses disciples immédiats,
+l'idée de justice n'apparaît pour ainsi dire plus.
+C'est de cette phase de l'école
+qu'on a pu dire qu'elle subordonnait
+	le producteur à la production,
+	et l'homme à la chose.
+Aussi faut-il voir avec quelle vivacité
+le vieux Dupont de Nemours protestait
+contre cet abaissement de l'économie politique:
+,(q[Pourquoi, disait-il à J.-B. Say,
+restreignez-vous la science à celle des richesses?
+Sortez du comptoir...
+ne vous emprisonnez pas dans les idées et la langue des Anglais,
+peuple sordide qui croit qu'un homme ne vaut que par l'argent...
+qui parlent de leur ,(emph[contrée]) (country)
+et n'ont pas dit encore qu'ils eussent une ,(emph[patrie])...])
+Dupont de Nemours était un peu sévère pour J.-B. Say,
+dont l'enseignement économique
+	a été beaucoup plus large et plus élevé
+	que les systèmes qui avaient de son temps la vogue en Angleterre.
+Mais tout en abordant, quand le sujet l'y conduit,
+les aperçus philosophiques et moraux,
+Say n'en persiste pas moins à les considérer, en principe,
+comme étrangers à l'économie politique.
+L'économie politique est, selon lui,
+une ,(emph[science de faits]) et uniquement de faits:
+elle dit ,(emph[ce qui est]),
+elle n'a pas à chercher ,(emph[ce qui devrait être]).
+][
+Un savant a parfaitement le droit de se renfermer
+dans les limites qui conviennent le mieux à ses forces;
+mais il ne faut pas qu'il rende la science elle-même solidaire de sa modestie,
+et qu'il l'entraîne à une abdication.
+La science doit être ambitieuse;
+si elle craint d'empiéter sur ses voisins,
+elle risque de laisser inoccupée une partie de ses domaines.
+Il ne nous est nullement démontré
+qu'il soit possible ou utile
+	de séparer les études sociales en deux branches distinctes
+,(--) l'une qui serait la simple analyse des résultats de la pratique établie
+,(--) l'autre qui en discuterait
+	les causes théoriques,
+	le but final,
+	la légitimité;
+mais quand même on admettrait ainsi
+	une science du ,(emph[fait]) et une science du ,(emph[droit]),
+il n'en est pas moins vrai que,
+	puisqu'à côté de l'enseignement économique aucune science classée,
+		aucun groupe d'hommes spéciaux ne s'occupait de rechercher
+		la raison et le droit des faits sociaux,
+	c'était à l'économie politique à prendre
+	,(--) ne fût-ce que provisoirement ,(--) cette position importante.
+Du moment qu'elle la laissait vide,
+il était évident qu'une rivale viendrait s'y établir,  
+et qu'une protestation dangereuse battrait le fait avec
+vidée du droit.
+Conformément au génie comme aux traditions nationales,
+cette protestation devait éclater surtout en France.
+Ce fut le ,(emph[socialisme]).
+La fin de non-recevoir qu'il opposait à l'économie politique était spécieuse.
+,(q[Le mal, disait-il,
+est dans les faits humains à côté du bien;
+votre science se borne à catégoriser ces faits,
+sans les soumettre au contrôle préalable du droit;
+par conséquent vos formules contiennent le mal comme le bien;
+elles ne sont, à nos yeux, que le mal mis en théories,
+érigé en axiomes absolus et immuables.])
+Si le socialisme eût ajouté:
+,(q[Nous allons vérifier vos formules à la lumière du juste]),
+il n'y aurait pas eu un mot à lui répondre,
+et l'économie politique lui eût tendu la main.
+Mais, passionné et exclusif comme toutes les réactions,
+le socialisme nia au lieu de contrôler.
+On s'était contenté d'étudier,
+au point de vue de l'utile,
+	les résultats de la propriété,
+	de l'intérêt,
+	de l'hérédité,
+	de la concurrence,
+	etc.,
+en les prenant comme faits acceptés
+et sans discuter leur raison d'être et leur justice;
+le socialisme nia au point de vue du juste
+et attaqua comme illégitimes
+	la propriété,
+	l'intérêt,
+	l'héritage,
+	la concurrence,
+	etc.
+On s'était un peu trop borné à décrire ce qui est;
+il se borna à décrire
+	ce qui, dans ses rêves d'organisation nouvelle, devait être.
+On avait, disait-on,
+	écrasé l'homme sous les choses et les faits;
+par une sorte de vengeance,
+	il écrasa sous ses pieds les faits et les choses
+	pour remettre l'homme à son rang.
+][
+Dans cette situation, qu'y avait-il à faire,
+	pour opérer la réconciliation des esprits?
+Évidemment, il fallait réunir et fondre ensemble
+	les deux aspects distincts du ,(emph[fait]) et du ,(emph[droit]),(pv)
+revenir à la formule des physiocrates,
+	à ,(emph[la science des faits au point de vue du droit naturel]),(pv)
+soumettre la pratique au contrôle du juste;
+faire du socialisme savant et consciencieux;
+prouver que ,(emph[ce qui est]),
+	dans son ensemble actuel
+	et surtout dans sa tendance progressive,
+	est conforme à ,(emph[ce qui doit être])
+	selon les aspirations de la conscience universelle.
+][
+Voilà ce qu'a voulu faire Bastiat,
+et ce qu'il a fait,
+autant du moins qu'il l'a pu dans un livre inachevé.
+Il a passé en revue les phénomènes économiques
+et les formes fondamentales de nos sociétés modernes:
+en les examinant au triple point de vue
+	de l'intérêt particulier,
+	de l'intérêt général,
+	et de la justice;
+il a montré que les trois aspects concordaient.
+Au-dessus des divergences d'intérêts qu'on aperçoit d'abord
+	entre le producteur et le consommateur,
+	le capitaliste et le salarié,
+	celui qui possède et celui qui ne possède pas,
+	etc.,
+il a fait voir qu'il existe
+	des lois prédominantes d'équilibre et d'unité
+	qui associent ces intérêts
+	et englobent ces oppositions secondaires
+		dans une harmonie supérieure.
+En sorte que
+	,(q[le bien de chacun favorise le bien de tous,
+	comme le bien de tous favorise le bien de chacun]),(pv)
+et que
+	,(q[le résultat naturel du mécanisme social
+	est une élévation constante du niveau
+		physique,
+		intellectuel et
+		moral
+	pour toutes les classes,
+	avec une tendance à l'égalisation])
+,(--) développement qui n'a d'autre condition
+que le champ laissé à la recherche et à l'action,
+c'est-à-dire ,(emph[la liberté]).
+][
+Pour caractériser plus nettement
+	la grande et belle position prise par Bastiat,
+nous avons supprimé des transitions et des nuances.
+Il est essentiel de les rétablir;
+sans quoi il semblerait que Bastiat a créé une science nouvelle,
+tandis qu'il n'a prétendu, comme il le dit,
+que présenter un exposé nouveau d'une science déjà formée.
+Il faut donc faire remarquer
+que ses devanciers avaient déjà bien préparé son terrain,
+soit par leurs savantes analyses des phénomènes
+	qu'il n'a eu le plus souvent qu'à rappeler,
+soit en s'élevant eux-mêmes aux considérations de l',(emph[intérêt général])
+	,(--) notion beaucoup moins éloignée qu'on ne pense
+		de celle de ,(emph[juste]).
+Il faut dire que,
+sans être aussi hautement formulée,
+l'idée des grandes lois sociales a été de tout temps en germe
+	dans la pensée des économistes,
+et que la fameuse devise du ,(emph[laisser passer])
+	n'est au fond qu'une affirmation
+		de la gravitation naturelle des intérêts
+			vers l'ordre et le progrès.
+Enfin il faut ajouter,
+pour rendre justice à deux hommes que Bastiat a reconnus comme ses maîtres,
+que Ch. Comte et M. Dunoyer avaient, avant lui,
+déjà ramené très sensiblement la science
+	vers le point de vue élevé des physiocrates:
+le premier, en soumettant au contrôle du droit naturel
+	les formes diverses de la législation et de la propriété;
+le second, en introduisant hardiment
+	les fonctions de l'ordre intellectuel et moral
+	dans le champ des études économiques.
+][
+C'est là précisément l'excellence du point de vue de Bastiat,
+qu'il se rattache aux meilleures traditions,
+tout en ouvrant des perspectives nouvelles.
+,(q[Les sciences, pour employer une de ses expressions,
+ont une croissance comme les plantes]),(pv)
+il n'y a pas d'idées neuves,
+il n'y a que des idées développées;
+et l'initiateur est
+	celui qui formule en un principe net et absolu
+		des traditions hésitantes et incomplètes,
+	celui qui fait un système d'une tendance.
+Bastiat, d'ailleurs,
+ne s'est pas borné à affirmer son principe dans toute sa généralité,
+sans exceptions ni réserves ,(--) chose neuve déjà et hardie.
+pour réclamer l'harmonie parfaite des lois économiques,
+il a fallu qu'il la fît en quelque sorte lui-même,
+	en supprimant des dissonances,
+	en rectifiant des erreurs appuyées de noms célèbres.
+Il a fallu
+	dissiper la confusion établie entre la valeur et l'utilité
+		,(--) l'utilité qui est le but et le bien
+		-, la valeur, qui représente l'obstacle et le mal;
+	asseoir solidement ce beau principe
+		de la gravité absolue du concours de la nature;
+	attaquer toute cette théorie qui entachait la propriété foncière
+		d'une accusation de monopole aggravateur du prix;
+	débarrasser la loi du Progrès
+		de cette effrayante perspective
+			du renchérissement de la subsistance et
+			de l'épuisement du sol,
+	etc.;
+toutes choses qui peuvent paraître simples maintenant,
+mais qui alors ont été critiquées pour leur hardiesse extraordinaire.
+][
+Du reste, à notre sens,
+ce qu'il y a de plus grand encore dans le livre de Bastiat,
+c'est l'idée de l',(emph[harmonie]) elle-même:
+	idée qui répond éminemment
+		au travail secret d'unité dans les sciences
+			que poursuit notre époque,
+	et qui a plutôt le caractère d'une intuition et d'un acte de foi
+		que d'une déduction scientifique.
+C'est comme un cadre immense
+	dans lequel chaque étude partielle des lois sociales
+	peut et doit venir se classer infailliblement.
+Bastiat aurait manqué son livre,
+	qu'il nous semble qu'avec sa donnée seule,
+	ce livre se serait fait tôt ou tard.
+Il est permis de croire qu'en le commençant il n'en voyait pas toute la portée.
+Il avait sans doute rassemblé d'abord quelques aperçus principaux;
+puis les vérités se sont attirées l'une l'autre;
+chaque rapport nouveau ouvrait de nouvelles équations,
+chaque groupe ,(emph[harmonisé]) ou identifié
+	se résolvait en une synthèse supérieure.
+De sorte que les points de vue allaient en s'agrandissant toujours,
+et que Bastiat, à la fin, a dû se sentir écrasé, comme il le dit lui-même,
+par la masse des harmonies qui s'offraient à lui.
+Une note posthume très précieuse
+	nous indique comment cette extension de son sujet
+	l'avait conduit à l'idée de refondre complètement tout l'ouvrage.
+,(q[J'avais d'abord pensé, dit-il,
+à commencer par l'exposition des ,(emph[Harmonies économiques]),
+et par conséquent ne traiter que des sujets purement économiques:
+	valeur,
+	propriété,
+	richesse,
+	concurrence,
+	salaire,
+	population,
+	monnaie,
+	crédit,
+	etc.
+Plus tard, si j'en avais eu le temps et la force,
+j'aurais appelé l'attention du lecteur sur un sujet plus vaste:
+	les ,(emph[Harmonies sociales]).
+C'est là que j'aurais parlé
+	de la ,(emph[constitution humaine]),
+	du ,(emph[moteur social]),
+	de la ,(emph[responsabilité]),
+	de la ,(emph[solidarité]),
+	etc.
+L',(oe)uvre ainsi conçue était commencée
+	quand je me suis aperçu qu'il était mieux
+	de fondre ensemble que de séparer ces deux ordres de considérations.
+Mais alors la logique voulait que l'étude de l'homme
+	précédât les recherches économiques.
+Il n'était plus temps...])
+Il n'était plus temps en effet!
+][
+Bastiat ne s'était décidé à écrire les ,(cite-title[Harmonies])
+	que parce qu'il commençait à sentir que ses jours étaient comptés.
+On le devine à l'entassement tumultueux d'idées
+	du dernier chapitre,(footnote*[Le ,(ref :url "concurrence.html" [chapitre X]).
+Le reste de l'ouvrage se compose de fragments recueillis après
+sa mort et réunis dans l'ordre indiqué par Bastiat lui-même.
+,(NdEEO)])
+	et aux plaintes qui lui échappent sur le temps qui lui manque.
+Tout en continuant à jeter au courant des discussions du jour
+	quelques-unes de ses belles pages
+,(--) comme la polémique avec Proudhon dans ,(cite-title[La Voix du Peuple]),
+	,(XXX :bof-ref "lettre1")
+	,(bof-ref "la_loi" (cite-title[la Loi])), ,(XXX)
+	,(bof-ref "cqovecqonvp" (cite-title
+		[Ce qu'on voit et ce qu'on ne voit pas])),
+	l'article ,(bof-ref "abondance" (q[Abondance])),
+		pour le ,(cite-title[Dictionnaire de l'économie politique]),
+il préparait avec une ardeur fébrile
+	des ébauches du second volume des ,(Har-ref(cite-title[Harmonies])).
+Il ne voulut pas s'attarder à réparer dans le repos ses forces épuisées;
+il mit tout son enjeu sur un dé,
+il crut qu'il pourrait peut-être gagner de vitesse sur les progrès du mal,
+et arriver par un élan suprême à ne tomber qu'au but...
+Dans ce steeple-chase désespéré contre la mort, il a perdu.
+][
+Quand un homme, à l'âge de quarante-cinq ans,
+brise d'un seul coup tous les liens de son passé,
+comme l'a fait Bastiat,
+et, sans l'ombre d'ambition,
+se jette d'une solitude méditative dans l'ardente atmosphère de l'action,
+vous pouvez être sûr que cet homme ne s'arrêtera plus que dans la tombe.
+Il y a quelque chose
+	de plus terrible cent fois,
+	de plus implacable au repos que l'ambition même:
+c'est le fanatisme de l'idée,
+c'est le sentiment d'une mission.
+Chez l'ambitieux, l'égoïsme veille et ménage ses ressources;
+chez l'homme que domine l'idée, le moi est foudroyé,
+il n'avertit plus par sa résistance de l'épuisement des forces.
+Une volonté supérieure s'installe en souveraine dans sa volonté,
+une sorte de conscience étrangère dans sa conscience;
+	c'est le ,(emph[devoir]).
+Il se dresse sur la dernière marche de sa vie passée,
+	comme l'ange au glaive de feu sur le seuil de l'Eden;
+il ferme la porte sur les rêves de bonheur et de paix.
+Désormais, proscrit, tu n'as plus de chez toi;
+tu ne rentreras plus dans l'indépendance intime de ta pensée;
+tu ne reviendras plus te délasser dans l'asile de ton c,(oe)ur;
+tu ne t'appartiens pas,
+tu es la chose de ton idée; vivant ou mourant,
+ta mission te traînera.
+][
+Or la mission que Bastiat s'était donnée,
+ou plutôt que les événements lui imposèrent,
+était au-dessus des forces humaines.
+Bastiat, par le malheur d'une organisation trop riche,
+était à la fois
+	homme de théories avancées,
+		génie créateur
+	,(--) et homme d'action extérieure,
+		esprit éminemment vulgarisateur et propagandiste.
+Il eût fallu opter entre les deux rôles.
+On peut être à la rigueur Ad. Smith et R. Cobden tour à tour;
+mais à la fois et en même temps, non.
+Ad. Smith n'a pas essayé de jeter aux masses
+	les vérités nouvelles qu'il creusait lentement dans sa retraite,
+et R. Cobden n'a fait passer dans l'opinion publique et les faits
+	que des axiomes anciens et acceptés de longue date par la science.
+Bastiat, lui, a jeté dans le tumulte des discussions publiques
+		les lambeaux de sa doctrine propre,
+et c'est au milieu de l'action qu'il a eu l'air d'improviser un système.
+Défricher les terrains vierges de la science pure,
+porter en même temps la hache
+	au milieu de la forêt des préjugés gouvernementaux,
+et labourer en pleine révolution l'opinion publique,
+le sol
+	le plus ingrat,
+	le plus tourmenté,
+	le plus impropre à une moisson prochaine,
+c'était faire triplement le métier de pionnier;
+	,(--) et l'on sait que ce métier-là est mortel.
+][
+Tant qu'on ne s'agita qu'autour du libre-échange,
+	comme il y avait là un symbole commun et un drapeau reconnu,
+Bastiat se trouva aidé et soutenu vigoureusement;
+et contre la résistance
+	de l'ignorance,
+	des préjugés et
+	des intérêts égoïstes,
+la lutte, en dépit de quelques tiraillements,
+	fut possible.
+Mais quand arriva le socialisme
+	et la grande bataille
+		où l'on n'avait plus le temps de s'entendre d'avance,
+quand Bastiat fut entraîné par l'urgence du péril
+	à combattre à sa manière,
+	et à jeter de plus en plus dans la mêlée des idées à lui
+		,(--) idées presque aussi neuves pour ses alliés
+			que pour ses adversaires ,(--),
+il se trouva dans la position d'un chef
+	qui, au milieu du feu,
+	changerait l'armement et la tactique de son parti:
+tout en admirant sa nouvelle manière de faire,
+	on se contenta de le regarder;
+et plus il s'avançait ainsi,
+	plus il se trouvait seul.
+Or la collectivité est indispensable aux succès d'opinion
+	et à l'effet sur les masses:
+un homme qui combat isolé ne peut que mourir admirablement.
+Quand les ,(Har-ref(cite-title[Harmonies])) parurent
+et mirent plus au jour les vues nouvelles
+	que les ,(Soph-ref(cite-title[Sophismes]))
+		et les ,(cite-title[Pamphlets])
+		avaient seulement fait pressentir,
+il se fit un silence froid dans l'école déroutée,
+et la plupart des économistes se prononcèrent contre les idées de Bastiat.
+][
+Cet abandon lui fut très sensible,
+	mais il ne s'en étonna ni ne s'en plaignit:
+il se sentait trop près de sa fin
+	pour laisser un adieu de reproche
+		à ses anciens compagnons de travaux,
+		restés unis à lui par le c,(oe)ur,
+		sinon par les idées.
+D'autres chagrins se joignaient
+	à la pensée de son ,(oe)uvre incomprise et inachevée;
+la mort avait fauché dans sa famille pendant son absence,
+la politique amoncelait de sombres nuages,
+et de ce côté-là encore il voyait l'opinion égarée tourner contre lui.
+Il n'avait plus la force ni le désir de lutter.
+Son esprit commençait à entrer
+	dans cette région plus haute de suprême bienveillance,
+	dans ce jour crépusculaire triste et doux
+		qui assouplit les contours heurtés
+		et adoucit les oppositions de couleur.
+,(q[Nous autres souffreteux, écrivit-il à un de ses amis,
+nous avons, comme les enfants, besoin d'indulgence:
+car plus le corps est faible, plus l'âme s'amollit,
+et il semble que la vie à son premier, comme à son dernier crépuscule,
+souffle au c,(oe)ur le besoin de chercher partout des attaches.
+Ces attendrissements involontaires sont l'effet de tous les déclins:
+	fin du jour,
+	fin de l'année,
+	demi-jour des basiliques,
+	etc.
+Je l'éprouvais hier, sous les sombres allées des Tuileries...
+Ne vous alarmez cependant pas de ce diapason élégiaque.
+Je ne suis pas Millevoye,
+et les feuilles, qui s'ouvrent à peine, ne sont pas près de tomber.
+Bref, je ne me trouve pas plus mal,
+mais seulement plus faible,
+et je ne puis plus guère reculer devant la demande d'un congé.
+C'est en perspective une solitude encore plus solitaire.
+Autrefois je l'aimais;
+je savais la peupler
+	de lectures,
+	de travaux capricieux,
+	de rêves politiques,
+	avec intermèdes de violoncelle.
+Maintenant,
+	tous ces vieux amis me délaissent,
+	même la fidèle compagne de l'isolement, la méditation.
+Ce n'est pas que ma pensée sommeille.
+Elle n'a jamais été plus active;
+à chaque instant elle saisit de nouvelles harmonies,
+et il semble que le livre de l'humanité s'ouvre devant elle.
+Mais c'est un tourment de plus,
+puisque je ne puis transcrire aucune page de ce livre mystérieux
+	sur un livre plus palpable...]).
+][
+Dès le printemps de 1850, en effet,
+la maladie de poitrine contre laquelle il se débattait depuis longtemps
+	avait fait des progrès graves.
+Les eaux des Pyrénées, qui l'avaient sauvé plusieurs fois,
+	aggravèrent son mal.
+L'affection se porta au larynx et à la gorge:
+	la voix s'éteignit,
+	l'alimentation,
+	la respiration même devinrent excessivement douloureuses.
+Au commencement de l'automne,
+	les médecins l'envoyèrent en Italie.
+Au moment où il y arrivait,
+le bruit prématuré de sa mort s'était répandu,
+et il put lire dans les journaux les phrases banales de regret
+	sur la perte du ,(q[grand économiste]) et de ,(q[l'illustre écrivain]).
+Il languit quelque temps encore à Pise, puis à Rome.
+Ce fut de là qu'il envoya sa dernière lettre
+	au ,(cite-title[Journal des Économistes]).
+M. Paillottet, qui avait quitté Paris
+	pour aller recueillir les dernières instructions de son ami,
+	nous a conservé un journal intéressant de la fin de sa vie.
+Cette fin fut d'un calme et d'une sérénité antiques.
+Bastiat sembla y assister en spectateur indifférent,
+causant, en l'attendant,  
+	d'économie politique,
+	de philosophie et
+	de religion.
+Il voulut mourir en chrétien:
+,(q[J'ai pris, disait-il simplement,
+la chose par le bon bout et en toute humilité.
+Je ne discute pas le dogme, je l'accepte.
+En regardant autour de moi,
+je vois que sur cette terre
+	les nations les plus éclairées sont dans la foi chrétienne;
+je suis bien aise de me trouver en communion
+	avec cette portion du genre humain.])
+Son intelligence conserva jusqu'au bout toute sa lucidité.
+Un instant avant d'expirer, il fit approcher,
+comme pour leur dire quelque chose d'important,
+son cousin l'abbé de Monclar et M. Paillottet.
+,(q[Son ,(oe)il, dit ce dernier,
+brillait de cette expression particulière
+que j'avais souvent remarquée dans nos entretiens,
+et qui annonçait la solution d'un problème.])
+Il murmura à deux fois: ,(emph[La vérité...])
+Mais le souffle lui manqua,
+et il ne put achever d'expliquer sa pensée.
+Goethe, en mourant, demandait ,(emph[la pleine lumière]),
+Bastiat saluait ,(emph[la vérité]).
+Chacun d'eux, à ce moment suprême,
+résumait-il l'aspiration de sa vie
+,(--) ou proclamait-il sa prise de possession du but?
+Était-ce le dernier mot de la question ou le premier de la réponse?
+l'adieu au rêve qui s'en va ,(--) ou le salut à la réalité qui arrive?...
+][
+Bastiat mourut le 24 décembre 1850,
+âgé de quarante-neuf ans et six mois.
+On lui fit, à l'église de Saint-Louis-des-Français, de pompeuses funérailles.
+C'est en 1845 qu'il était venu à Paris;
+sa carrière active d'économiste n'a donc embrassé guère plus de cinq ans.
+][
+F. Bastiat était de taille moyenne;
+mince et maigre, il était doué d'une force physique
+	que son extérieur ne semblait pas annoncer;
+dans sa jeunesse, il passait pour le meilleur coureur du pays basque.
+Sa figure était agréable,
+la bouche extrêmement fine,
+l',(oe)il doux et plein de feu sous un sourcil épais,
+le front carré largement encadré
+d'une forêt de longs cheveux noirs.
+Sa conversation était
+	celle d'un homme qui comprend tout et qui s'intéresse à tout,
+	vive,
+	variée,
+	sans prétention,
+	colorée de l'accent comme de l'esprit méridional.
+Jamais il ne causait d'économie politique le premier,
+jamais non plus il n'affectait d'éviter ce sujet,
+	quel que fût le rang ou l'éducation de son interlocuteur.
+Dans les discussions sérieuses, il était
+	modeste,
+	conciliant,
+	plein d'aménité dans sa fermeté de convictions.
+Rien dans sa parole ne sentait le discours ou la leçon.
+En général, son opinion finissait par entraîner l'assentiment général;
+mais il n'avait pas l'air de s'apercevoir de son influence.
+Ses manières et ses habitudes étaient d'une extrême simplicité.
+Comme les hommes qui vivent dans leur pensée,
+il avait quelque chose souvent de naïf et de distrait:
+L. Leclerc l'appelait
+	,(emph[le La Fontaine de l'économie politique]).
+Il convenait en riant
+	qu'il n'avait jamais été de la rue de Choiseul au Palais-Royal
+		sans se tromper de chemin.
+Un jour qu'il était parti pour aller faire un discours à Lyon,
+il se trouvait débarqué dans un cabaret au fond des Vosges.
+Pour tout ce qui s'appelle affaires,
+	il était d'un laisser-aller d'enfant.
+Sa bourse était ouverte à tout venant, quand il était en fonds;
+il n'y a pas d'auteur qui ait moins tiré parti de ses livres.
+Le détail matériel des choses lui était antipathique;
+jamais il n'a su prendre une précaution pour sa santé;
+jamais il n'a voulu s'occuper d'une annonce
+	ou d'un compte rendu pour ses ouvrages.
+Il était si ennemi de charlatanisme en tout,
+il craignait tellement d'engager son indépendance
+	dans l'engrenage des coteries,
+qu'après cinq ans de séjour à Paris,
+il ne connaissait pas un des écrivains de la presse quotidienne.
+Aussi les ,(emph[comptes rendus]) de journaux sur les livres de Bastiat
+	sont-ils extrêmement rares.
+Le ,(cite-title[Journal des économistes]), lui-même,
+attendit six mois avant de parler des Harmonies,
+et son article ne fut qu'une réfutation.
+][
+Nous avons déjà dit, je crois,
+que Bastiat écrivait avec une extrême facilité.
+On le devine à la netteté remarquable de ses manuscrits,
+où la plume semble, la plupart du temps, avoir couru de toute sa vitesse.
+Peut-être le travail préalable qui se faisait dans sa tête
+	était-il long et pénible;
+mais je crois plutôt que c'était une de ces intelligences saines
+	qui tournent naturellement du côté de la lumière,
+	comme certaines fleurs vers le soleil,
+	et que la vérité lui était facile,
+	comme aux natures honnêtes la vertu.
+Il est certain cependant que Bastiat se préoccupait de la forme...
+	à sa manière.
+Nous avons vu, dans ses cahiers,
+un de ses ,(cite-title[Sophismes]), entre autres,
+refondu entièrement trois fois
+,(--) trois morceaux aussi fins l'un que l'autre,
+mais très différents de ton.
+La première manière, la plus belle à mon avis,
+c'était la déduction scientifique,
+	ferme,
+	précise,
+	magistrale;
+la seconde offrait déjà
+	quelque chose de plus effacé dans la tournure
+	et de plus bourgeois,
+	une causerie terre à terre,
+	débarrassée des mots techniques
+	et à la portée du commun des lecteurs;
+la troisième, enfin,
+	encadrait tout cela dans une forme un peu légère,
+	un dialogue ou une petite scène demi-plaisante.
+La première, c'était Bastiat écrivant pour lui,
+	se parlant ses idées;
+la dernière, c'était Bastiat écrivant pour le public ignorant ou distrait,
+	émiettant le pain des forts pour le faire avaler aux faibles.
+Un écrivain ordinaire ne se donne pas tant de peine pour s'amoindrir
+	et ne s'efface pas ainsi volontairement
+	pour faire passer son idée:
+il faut pour cela telle souveraine préoccupation du but
+	qui caractérise l'apôtre.
+][
+Il ne nous appartient pas de préjuger le rang que la postérité
+	assignera à Bastiat.
+M. M. Chevalier a placé hautement les ,(Har-ref(cite-title[Harmonies]))
+	à côté du livre immortel d'Ad. Smith.
+Tout récemment, R. Cobden a exprimé la même opinion.
+Pour nous, en cherchant à mettre cette simple et noble figure
+	sur un piédestal,
+nous craindrions de faire quelque maladresse.
+Et puis, nous l'avouons,
+il nous semble qu'un éloge trop cru
+blesserait encore cet homme que nous avons connu si désintéressé de lui-même,
+qui ne s'est jamais mis en avant que pour être utile
+et n'a brillé que pour éclairer.
+Tout ce que nous pouvons dire,
+c'est que les idées neuves et d'abord contestées de son système
+ont fait leur chemin depuis sa mort,
+et que, sans parler de l'école américaine,
+des économistes marquants,
+	en Angleterre,
+	en Écosse,
+	en Italie,
+	en Espagne et
+	ailleurs,
+professent hautement et enseignent ses opinions.
+Et s'il est certain que le caractère matériel, en quelque sorte, de la vérité,
+dans une doctrine comme dans une religion,
+est la puissance du prosélytisme qu'elle possède,
+on peut dire que la doctrine de Bastiat est vraie:
+car les nombreux convertis qui passent aujourd'hui à l'économie politique
+y vont à peu près tous par Bastiat et sous son patronage.
+Son ,(oe)uvre de propagande se poursuit
+et se poursuivra longtemps encore après lui
+,(--) c'est la seule espèce d'immortalité qu'il ait ambitionnée.
+][
+Bastiat était tout simplement une belle intelligence
+éclairée par un admirable c,(oe)ur,
+un de ces grands ,(emph[pacifiques]) auxquels, selon la parole sacrée,
+le monde finit toujours par appartenir.
+Nous préférons hautement ces hommes-là
+aux génies solitaires et aux penseurs sybillins.
+Ce ne sont, en effet,
+ni les idées ni les systèmes qui nous manquent aujourd'hui,
+mais le trait d'union et le lien d'harmonie.
+La masse incohérente des matériaux épars de l'avenir
+ressemble à ces gangues
+	où le métal précieux abonde, mais disséminé dans la boue.
+Ce qu'il faut à notre siècle,
+c'est l'aimant qui rassemblera le fer autour de lui,
+c'est la goutte de mercure qui, promenée à travers le mélange,
+s'assimilera les parcelles d'or et d'argent.
+Or, ce rôle assimilateur
+nous parait éminemment réservé
+	aux natures sympathiques qui ont soif du bien et du vrai
+		et vont le chercher partout,
+	aux hommes de foi plutôt encore que de science.
+][
+Voilà pourquoi nous souhaitons à notre pays
+	des hommes comme Bastiat,
+	et des vérités comme la doctrine de l',(cite-title[Harmonie]),
+	de ces vérités simples et fécondes
+		qu'on ne découvre et qu'on ne perçoit qu'avec
+			,(emph[l'esprit de son c,(oe)ur]),
+			comme a dit de Maistre
+			,(--) ,(inlatin[mente cordis sui]).
+][
+R. de Fontenay, 1862 ,(XXX)
+][
+,(small[
+Dans l'édition originale, cette introduction comprend aussi
+des notes de bas de page supplémentaires renvoyant à diverses ,(oe)uvres,
+et est suivie d'extraits du journal de M. Paillotet
+relatant les derniers jours de Bastiat.
+])
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863), tome I, pp. IX-LII. ,(XXX)
+][
+Numérisé par ,(FRR) pour ,(Bastiat.org).
+])))

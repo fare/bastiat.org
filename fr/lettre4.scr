@@ -1,0 +1,756 @@
+; -*- Scheme -*-
+; $Id: lettre4.scr,v 1.3 2005/07/27 22:42:38 fare Exp $
+(style 'bo-style)
+(in-bof :title "Gratuité du crédit - Quatrième lettre
+	- Frédéric Bastiat à P. J. Proudhon")
+(document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatrième lettre]
+	:author author-FB
+(tag :p :align 'center (font :size "+3" (strong[
+	F. Bastiat à P. J. Proudhon.])))
+(tag :p :align 'center
+(font :size "+2" (strong[
+Circonscription logique du débat.
+,(--) Dire oui et non n'est pas répondre.
+,(--) Futilité de l'objection fondée sur ce que le capitaliste ne se prive pas.
+,(--) Productivité naturelle et nécessaire du ,(strong[capital])
+démontrée par des exemples.
+,(--) Considérations sur le loisir.
+])))
+(date-tag(small[26 novembre 1849.]))
+(p*[
+Monsieur, vous me posez sept questions.
+Veuillez vous rappeler qu'entre nous il ne s'agit en ce moment que d'une seule:
+,(emph[L'intérêt du capital est-il légitime?])
+][
+Cette question est grosse de tempêtes.
+Il faut la vider.
+En acceptant la loyale hospitalité de vos colonnes,
+je n'ai pas eu en vue d'analyser
+toutes les combinaisons possibles de crédit
+que le fertile génie des socialistes peut enfanter.
+Je me suis demandé si l',(emph[intérêt]),
+qui entre dans le prix de toutes choses,
+est une spoliation;
+si, par conséquent,
+le monde se partage entre des capitalistes voleurs et des travailleurs volés.
+Je ne le crois pas,
+mais d'autres le croient.
+Selon que la vérité est de mon côté ou du leur,
+l'avenir réservé à notre chère patrie est la concorde,
+ou une lutte sanglante et inévitable.
+La question vaut donc la peine d'être sérieusement étudiée.
+][
+Que ne sommes-nous d'accord sur ce point de départ!
+Notre ,(oe)uvre se bornerait à détruire,
+dans l'esprit des masses,
+des erreurs funestes et des préventions dangereuses.
+Nous montrerions au peuple le capital,
+non comme un parasite avide,
+mais comme une puissance amie et féconde.
+Nous le lui montrerions,
+,(--) et ici je reproduis presque vos expressions,
+,(--) s'accumulant par l'activité,
+l'ordre,
+l'épargne,
+la prévoyance,
+la séparation des travaux,
+la paix et la sécurité publique;
+se distribuant,
+en vertu de la liberté,
+entre toutes les classes;
+se mettant de plus en plus à la portée de tous,
+par la modicité croissante de sa rémunération;
+rachetant l'humanité enfin du poids de la fatigue et du joug des loisirs.
+][
+Mais comment nous élever à d'autres vues du problème social,
+lorsque, à cette première question:
+L'intérêt du capital est-il légitime?
+vous ,(XXX [pas majuscule à ,(q[vous])]) répondez:
+,(strong[Oui]) et ,(strong[Non]).
+][
+,(strong[Oui]):
+car ,(--) ,(q[il est très-vrai ,(XXX [trait d'union])
+que le prêt est un ,(emph[service]),
+et comme tout service est une ,(emph[valeur]),
+conséquemment,
+comme il est de sa nature d'être rémunéré,
+il s'ensuit que le prêt doit avoir son prix,
+,(emph[qu'il doit porter intérêt]).])
+][
+,(strong[Non]):
+car ,(--) ,(q[le prêt,
+par l'intérêt qui en résulte,
+produit un bénéfice qui permet au capitaliste de vivre sans travailler.
+Or,
+vivre sans travailler,
+c'est,
+en économie politique aussi bien qu'en morale,
+une proposition contradictoire,
+une chose impossible.])
+][
+,(strong[Oui]):
+car ,(--) ,(q[la négation fondamentale de l'intérêt
+ne détruit pas à nos yeux le principe,
+le ,(emph[droit]) qui donne naissance à l'intérêt.
+Le véritable problème,
+pour nous,
+n'est pas de savoir si l'usure a une raison d'existence;
+nous sommes,
+sous ce rapport,
+de l'opinion des économistes.])
+][
+,(strong[Non]):
+car ,(--) ,(q[nous nions,
+avec le christianisme et l'Evangile,
+la légitimité en soi du prêt à intérêt.])
+][
+,(strong[Oui]):
+car ,(--) ,(q[l'usure n'a été,
+dans son institution providentielle,
+qu'un instrument d'utilité et de progrès.])
+][
+,(strong[Non]):
+car ,(--) ,(q[tout ce qui,
+en remboursement du prêt,
+est donné en sus du prêt est usure,
+spoliation.])
+][
+,(strong[Oui]) et ,(strong[Non]),
+enfin:
+car ,(--) ,(q[le socialisme n'a la prétention de convertir personne,
+ni l'Église,
+qui nie l'intérêt,
+ni l'économie politique,
+qui l'affirme,
+d'autant moins qu'il est convaincu qu'elles ont raison toutes deux.])
+][
+Il y en a qui disent:
+ces solutions contradictoires
+sont un amusement que M. Proudhon donne à son esprit.
+D'autres:
+ll ,(XXX [il avec majuscule]) ne faut voir là
+que des coups de pistolet que M. Proudhon tire dans la rue,
+pour faire mettre le public aux fenêtres.
+Pour moi,
+qui sais que vous les appliquez à tous les sujets;
+liberté,
+propriété,
+concurrence,
+machines,
+religion,
+je les tiens pour une conception sincère et sérieuse de votre intelligence.
+][
+Mais, Monsieur,
+pensez-vous que le peuple puisse vous suivre longtemps
+dans le dédale de vos ,(emph[Antinomies])?
+Son génie ne s'est pas façonné sur les bancs vermoulus de la Sorbonne.
+Les fameux:
+,(inlatin[Quidquid dixeris, argumentabor,
+,(--) Ego vero contra]) ,(footnote*[
+Formule latine, ,(it[Quoi que tu diras, j'argumenterai le contraire.])
+,(XXX[oui, mais à l'époque était-ce courant? d'où vient ce mème?])
+,(NdEBO)
+])
+,(--) ne vont pas à ses franches allures;
+il veut voir le fond des choses,
+et il sent instinctivement qu'au fond des choses
+il y a un ,(emph[Oui]) ou un ,(emph[Non]),
+mais qu'il ne peut y avoir un ,(emph[Oui]) et un ,(emph[Non]) fondus ensemble.
+Pour ne pas sortir du sujet qui nous occupe,
+il vous dira:
+Il faut pourtant bien que l'intérêt soit légitime ou illégitime,
+juste ou injuste,
+providentiel ou satanique,
+propriété ou spoliation.
+][
+La ,(emph[contradiction]),
+soyez-en sûr,
+est ce qu'il y a de plus difficile à faire accepter,
+même aux esprits subtils,
+à plus forte raison au peuple.
+][
+Si je m'arrête à la première moitié,
+j'ose dire à la bonne moitié de votre ,(emph[thèse]),
+en quoi différez-vous des économistes?
+][
+Vous convenez qu'avancer un capital,
+c'est rendre un ,(emph[service]),
+qui donne droit à un ,(emph[service]) équivalent,
+lequel est susceptible d'évaluation et s'appelle ,(emph[intérêt]).
+][
+Vous convenez que le seul moyen de dégager l'équivalence de ces deux services,
+c'est de les laisser s'échanger librement,
+puisque vous repoussez l'intervention de l'Etat,
+et proclamez,
+dès le début de votre article,
+la liberté de l'homme et du citoyen.
+][
+Vous convenez que l'intérêt a été,
+dans son institution providentielle,
+un instrument d'égalité et de progrès.
+][
+Vous convenez que,
+par l'accumulation des capitaux
+(qui certes ne s'accumuleraient pas ,(XXX)
+si toute rémunération leur était déniée),
+l'Intérêt tend à baisser,
+à mettre l'instrument du travail,
+la matière première et l'approvisionnement,
+toujours à la porté plus facile de classes plus nombreuses.
+][
+Vous convenez que les obstacles,
+qui arrêtent cette désirable diffusion du capital,
+sont artificiels et se nomment
+privilèges, restrictions, monopoles;
+qu'ils ne peuvent être la conséquence fatale de la liberté,
+puisque vous invoquez la liberté.
+][
+Voilà une doctrine qui,
+par sa simplicité,
+sa grandeur,
+sa concordance,
+le parfum de justice qui s'en exhale,
+s'impose aux convictions,
+entraîne les c,(oe)urs,
+et fait pénétrer,
+dans tous les replis de l'intelligence,
+le sentiment de la certitude.
+Que reprochez-vous donc à l'économie politique?
+Est-ce d'avoir repoussé les formules diverses
+,(--) et par suite refusé de prendre le nom ,(--) du socialisme?
+Oui,
+elle a combattu le saint-simonisme et le fouriérisme;
+vous les avez combattus comme elle.
+Oui,
+elle a réprouvé les théories du Luxembourg;
+vous les avez réprouvées comme elle.
+Oui,
+elle a lutté contre le communisme;
+vous avez fait plus,
+vous l'avez écrasé.
+][
+D'accord avec l'économie politique sur le capital,
+son origine,
+sa mission,
+son droit,
+ses tendances;
+d'accord avec elle sur le principe à promouvoir,
+la liberté;
+,(--) d'accord avec elle sur l'ennemi à combattre,
+l'intervention abusive de l'Etat dans les transactions honnêtes;
+,(--) d'accord avec elle dans ses luttes
+contre les manifestations passées du socialisme;
+,(--) d'où vient que vous vous retournez contre elle?
+C'est que vous avez trouvé au socialisme une nouvelle formule:
+la ,(emph[contradiction]),
+ou, si vous aimez mieux,
+l',(emph[antinomie]).
+C'est pourquoi vous apostrophez l'économie politique et lui dites:
+][
+Tu es vielle d'un siècle.
+Tu n'es plus au courant des questions du jour.
+Tu n'envisages la question que sous une face.
+Tu te fondes sur la légitimité et l'utilité de l'intérêt,
+et tu as raison,
+car il est utile et légitime;
+mais ce que tu ne comprends pas,
+c'est qu'en même temps il est nuisible et illégitime.
+Cette contradiction t'émerveille;
+la gloire du néo-socialisme est de l'avoir découverte,
+et c'est par là qu'il dépasse ta portée.
+][
+Avant de chercher,
+ainsi que vous m'y invitez,
+à faire sortir une solution de ces prémisses contradictoires,
+il faut savoir si la contradiction existe,
+et nous sommes ramenés par là à creuser de plus en plus ce problème:
+][
+,(emph[L'intérêt du capital est-il légitime?])
+][
+Mais que puis-je dire?
+Mon ,(oe)il se fixe sur l'épée de Damoclès
+que vous tenez suspendue sur ma tête.
+Plus concluantes seront mes raisons,
+plus vous vous frotterez les mains,
+disant:
+On ne saurait mieux prouver ma ,(emph[thèse]).
+Que si, des bas-fonds du communisme,
+il s'élève contre mes arguments une réfutation spécieuse,
+vous vous frotterez les mains encore,
+disant:
+Voici du secours qui arrive à mon ,(emph[anti-thèse]).
+O antinomie!
+tu ,(XXX [sans majuscule]) es vraiment une citadelle imprenable;
+tu ressembles,
+trait pour trait,
+au ,(emph[scepticisme]).
+Comment convaincre Pyrrhon,
+qui vous dit:
+Je doute si tu me parles ou si je te parle;
+je doute si tu es et si je suis;
+je doute si tu affirmes;
+je doute si je doute?
+][
+Voyons néanmoins sur quelle base
+vous faites reposer la seconde moitié de l'antinomie.
+][
+Vous invoquez d'abord les Pères de l'Église,
+le judaïsme et le paganisme.
+Permettez-moi de les récuser en matière économique.
+Vous l'avouez vous-même,
+Juifs et gentils ont parlé dans un sens et agi dans un autre.
+Quand il s'agit d'étudier les lois générales auxquelles obéit la société,
+la manière dont les hommes agissent universellement
+a plus de poids que quelques sentences.
+][
+Vous dites:
+,(q[Celui qui prête ne se ,(emph[prive]) pas du capital qu'il prête.
+Il le prête, au contraire,
+parce que ce prêt ne constitue pas pour lui une privation;
+il le prête,
+parce qu'il n'en a que faire pour lui-même,
+étant suffisamment pourvu,
+d'ailleurs,
+de capitaux.
+Il le prête,
+enfin,
+parce qu'il n'est ni dans son intention ni dans sa puissance
+de le faire personnellement valoir
+,(footnote*[ 1 L'argument tiré de ce que le capitaliste ,(emph[ne se prive pas]),
+n'est pas exclusivement à l'usage des socialistes.
+Considérer comme un élément important de la légitimité de l'intérêt
+la ,(emph[privation]) éprouvée par le prêteur,
+est une opinion qui fut soutenue,
+le 15 juin 1849,
+dans le ,(cite-title[Journal des Economistes]),
+à l'occasion du pamphlet
+,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),
+récemment publié. ,(NdEEO)]).])
+][
+Et qu'importe, s'il l'a créé par son travail, précisément pour le prêter?
+Il n'y a là qu'une équivoque
+sur l'effet nécessaire de la séparation des occupations.
+Votre argument attaque la ,(emph[vente]) aussi bien que le ,(emph[prêt]).
+En voulez vous la preuve?
+Je vais reproduire votre phrase,
+en substituant ,(emph[Vente]) à ,(emph[Prêt])
+et ,(emph[Chapelier]) à ,(emph[Capitaliste]).
+][
+,(q[Celui qui vend,
+dirai-je,
+ne se ,(emph[prive]) pas du chapeau qu'il vend.
+Il le vend,
+au contraire,
+parce que cette vente ne constitue pas pour lui une privation.
+Il le vend parce qu'il n'en a que faire pour lui-même,
+étant d'ailleurs suffisamment pourvu de chapeaux.
+Il le vend enfin parce qu'il n'est ni dans son intention,
+ni dans sa puissance de le faire personnellement servir.])
+][
+En faveur de votre ,(emph[antithèse]),
+vous alléguez encore la compensation.
+][
+,(q[Vous me prêtez,
+moyennant intérêt,
+le rabot que vous avez fabriqué pour polir vos planches.
+Si,
+de mon côté,
+je vous prête la scie que j'ai montée pour débiter mes souches,
+j'aurai droit pareillement à un intérêt... ,(XXX)
+Si,
+de part et d'autre,
+les capitaux avancés sont égaux,
+les intérêts se balançant,
+le solde sera nul.])
+][
+Sans doute;
+et si les capitaux avancés sont inégaux,
+un solde légitime apparaîtra.
+C'est précisément ainsi que les choses se passent.
+Encore ici,
+ce que vous dites du prêt,
+on peut le dire de l'échange et même du travail:
+parce que des travaux échangés se compensent,
+en concluez-vous que le travail a été anéanti?
+][
+Le socialisme moderne aspire,
+dites-vous,
+à réaliser cette prestation mutuelle des capitaux,
+afin que l'intérêt,
+partie intégrante du prix de toutes choses,
+se compense pour tous et,
+par conséquent,
+s'annule.
+,(--) Qu'il se compense,
+ce n'est pas idéalement impossible,
+et je ne demande pas mieux.
+Mais il y faut d'autres façons qu'une Banque d'invention nouvelle.
+Que le socialisme égalise chez tous les hommes
+l'activité,
+l'habileté,
+la probité,
+l'économie,
+la prévoyance,
+les besoins,
+les goûts,
+les vertus,
+les vices et même les chances,
+et alors il aura réussi.
+Mais alors il importera peu que l'intérêt
+se cote à demi pour cent ou à cinquante pour cent.
+][
+Vous nous reprochez de méconnaître la signification du socialisme,
+parce que nous ne fondons pas de grandes espérances
+sur ses rêves de ,(emph[crédit gratuit]).
+Vous nous dites
+,(q[Vous attribuez au capital le mérite et le progrès
+opéré dans le domaine de l'industrie et de la richesse,
+tandis que le progrès a pour cause non le ,(emph[capital]),
+mais la ,(strong[circulation]) du capital.])
+][
+Je crois que c'est vous qui prenez ici l'effet pour la cause.
+Pour que le capital circule,
+il faut d'abord qu'il existe;
+et,
+pour qu'il existe,
+il faut qu'il soit provoqué à naître
+par la perspective des récompenses attachées aux vertus qui l'engendrent.
+Ce n'est pas parce qu'il circule que le capital est utile;
+c'est parce qu'il est utile qu'il circule.
+Son utilité intrinsèque fait que les uns les ,(emph[demandent]),
+que les autres l',(emph[offrent]),(pv)
+de là la circulation qui n'a besoin que d'une chose:
+,(strong[être libre]).
+][
+Mais ce que je déplore surtout,
+c'est de voir séparer en deux classes antagoniques
+les capitalistes et les travailleurs,
+comme s'il y avait un seul travailleur au monde qui ne fût,
+à quelque degré,
+capitaliste,
+comme si capital et travail n'étaient pas une même chose;
+comme si rémunérer l'un ce n'était pas rémunérer l'autre.
+Ce n'est certes pas à vous qu'il faut démontrer cette proposition.
+Permettez-moi,
+cependant,
+de l'élucider par un exemple;
+car,
+vous le savez bien,
+nous n'écrivons pas l'un pour l'autre,
+mais pour le public.
+][
+Deux ouvriers se présentent,
+égaux d'activité,
+de force,
+d'adresse.
+L'un n'a que ses bras;
+l'autre a une hache,
+une scie,
+une herminette.
+Je paie au premier 3 fr.
+par jour,
+au second 3 fr.
+75 c.
+Il semble que le salaire soit inégale:
+creusons la matière,
+et nous nous convaincrons que
+cette inégalité apparente est de l'égalité réelle.
+][
+D'abord,
+il faut bien que je rembourse au charpentier
+l',(emph[usure]) des outils qu'il ,(emph[use]) à mon service et à mon profit.
+Il faut bien qu'il trouve,
+dans un accroissement de salaire,
+de quoi entretenir cet outillage et maintenir sa position.
+De ce chef,
+je lui donne 5 sous de plus par jour qu'au simple man,(oe)uvre,
+sans que l'égalité soit le moins du monde blessée.
+][
+Ensuite,
+,(--) et l'invoque ici l'attention du lecteur,
+car nous sommes au vif de la question;
+,(--) pourquoi le charpentier a-t-il des outils?
+Apparemment parce qu'il les a faits ,(emph[avec du travail])
+ou payés ,(emph[par du travail]),
+ce qui est tout un.
+Supposons qu'il les ait faits en consacrant à cette création
+tout le premier mois de l'année.
+Le man,(oe)uvre,
+qui n'a pas pris cette peine
+pourra me louer ses services pendant 300 jours,
+tandis que le charpentier-capitaliste
+n'aura plus que 270 journées disponibles ou rémunérables.
+Il faut donc que 270 journées,
+avec outils,
+lui produisent autant que 300 journées sans outils;
+en d'autres termes,
+que les premiers se paient 5 sous de plus.
+][
+Ce n'est pas tout encore.
+Quand le charpentier s'est décidé à faire ses outils,
+il a eu un but,
+assurément fort légitime,
+celui d'améliorer sa condition.
+On ne peut lui mettre dans la bouche ce raisonnement:
+,(q[Je vais accumuler des approvisionnements,
+m'imposer des privations,
+afin de pouvoir travailler tout un mois sans rien gagner.
+Ce mois,
+je le consacrerai à fabriquer des outils
+qui me mettront à même
+de débiter beaucoup plus d'ouvrage au profit de mon client;
+ensuite,
+je lui demanderai de régler mon salaire pour les onze mois suivants,
+de manière à gagner juste autant,
+tout compris,
+que si j'étais resté man,(oe)uvre.]) Non,
+cela ne peut être ainsi.
+Il est évident que ce qui a stimulé, dans cet artisan,
+la sagacité,
+l'habileté,
+la prévoyance,
+la privation,
+c'est l'espoir, le très-juste espoir
+d'obtenir pour son travail une meilleure récompense.
+][
+Ainsi nous arrivons à ce que la rétribution du charpentier
+se décompose comme il suit:
+])
+(simple-table
+'(([1°] [3] [fr.] [,(--)] [] [c,]
+   [salaire brut.])
+  ([2°] []  []    [,(--)] [25] []
+   [usure des outils.])
+  ([3°] []  []    [,(--)] [25] []
+   [compensation du temps consacré à faire les outils.])
+  ([4°] []  []    [,(--)] [25] []
+   [juste rémunération de l'habileté, de la prévoyance, de la privation.])
+  ([]   (br) []   []      (br) [] []) ; trait de séparation (?)
+  ([  ] [3] [fr.] [,(--)] [75] [c.]
+   [(total) ,(XXX [la mention N'est pas dans l'original ]) ])))
+(p*[
+Où peut-on voir là injustice, iniquité, spoliation?
+Que signifient toutes ces clameurs
+si absurdement élevées contre notre charpentier devenu capitaliste?
+][
+Et remarquez bien que l'excédant de salaire qu'il reçoit
+n'est obtenu ,(emph[aux dépens]) de personne;
+moi qui le paie,
+j'ai moins que personne à m'en plaindre.
+Grâce aux outils,
+une production supplémentaire a été pour ainsi dire tirée du néant.
+Cet excédant d'utilité se partage entre le capitaliste
+et moi qui, comme consommateur, représente ici la communauté,
+l'humanité tout entière.
+][
+Autre exemple,
+,(--) car il me semble que ces analyses directes des faits
+instruisent plus que la controverse.
+][
+Le laboureur a un champ rendu presque improductif
+par la surabondance d'humidité.
+En homme primitif,
+il prend un vase et va puiser l'eau qui noie ses sillons.
+Voilà un travail excessif;
+qui doit le payer?
+évidemment ,(XXX [pas de majuscule]) l'acquéreur de la récolte.
+Si l'homme n'avait jamais imaginé d'autre procédé de desséchement,
+le blé serait si cher, ,(XXX)
+,(emph[quoiqu])'il n'y eut pas de capital à rémunérer
+(ou plutôt ,(emph[parce que])),
+que l'on n'en produirait pas;
+et tel a été le sort de l'humanité pendant des siècles.
+][
+Mais notre laboureur s'avise de faire une rigole.
+Voilà le capital qui parait.
+Qui doit payer les frais de cet ouvrage?
+Ce n'est pas l'acquéreur de la première récolte.
+Cela serait injuste,
+puisque la rigole doit favoriser un nombre indéterminé de récoltes successives.
+Comment donc se réglera la répartition?
+Par la loi de l'intérêt et de l'amortissement.
+Il faut que le laboureur,
+comme le charpentier,
+retrouve les quatre éléments de rémunération que j'énumérais tout à l'heure,
+ou il ne fera pas la rigole.
+][
+Et,
+encore que le prix du blé se trouve ici grevé d'un intérêt,
+ce serait tomber dans un hérésie économique que de dire:
+cet intérêt est une perte pour le consommateur.
+Bien au contraire;
+c'est parce que le consommateur paie l'intérêt de ce capital,
+sous forme de rigole,
+qu'il ne paie pas l'épuisement,
+beaucoup plus dispendieux,
+à force de bras.
+,(--) Et, si vous observez la chose de près,
+vous verrez que c'est toujours du ,(emph[travail]) qu'il paie;
+seulement,
+dans le second cas,
+il intervient une coopération de la nature,
+très-utile,
+très-productive,
+mais qui ne se paie pas.
+][
+Votre plus grand grief contre l'intérêt
+est qu'il permet aux capitalistes de vivre sans travailler.
+,(q[Or,
+dites-vous,
+vivre sans travailler,
+c'est,
+en économie politique comme en morale,
+une proposition contradictoire,
+une chose impossible.])
+][
+Sans doute,
+vivre sans travailler,
+pour l'homme tel qu'il a plu à Dieu de le faire,
+est,
+d'une manière absolue,
+chose impossible.
+Mais ce qui n'est pas impossible à l'homme,
+c'est de vivre deux jours sur le travail d'un seul.
+Ce qui n'est pas impossible à l'humanité,
+ce qui est même une conséquence providentielle de sa nature perfectible,
+c'est d'accroître incessamment
+la proportion des résultats obtenus aux efforts employés.
+Si un artisan a pu améliorer son sort en fabriquant de grossiers outils,
+pourquoi ne l'améliorerait-il pas davantage encore
+en créant des machines plus compliquées,
+en déployant plus d'activité, plus de génie, plus de prévoyance;
+en se soumettant à de plus longues privations?
+Que si le talent, la persévérance, l'ordre, l'économie,
+l'exercice de toutes les vertus,
+se perpétuent dans la famille;
+pourquoi ne parviendrait-elle pas, à la longue,
+au loisir relatif,
+ou, pour mieux dire, à s'initier à des travaux d'un ordre plus élevé?
+][
+Pour que ce loisir provoquât avec justice,
+chez ceux qui n'y sont pas encore parvenus,
+l'irritation et l'envie,
+il faudrait qu'il fut acquis aux dépens d'autrui,
+et j'ai prouvé qu'il n'en était pas ainsi.
+Il faudrait, de plus,
+qu'il ne fût pas l'éternelle aspiration de tous les hommes.
+][
+Je terminerai cette lettre,
+déjà trop longue,
+par une considération sur le loisir.
+][
+Quelle que soit mon admiration sincère
+pour les admirables lois de l'économie sociale,
+quelque temps de ma vie que j'aie consacré à étudier cette science,
+quelque confiance que m'inspirent ses solutions,
+je ne suis pas de ceux qui croient qu'elle embrasse toute la destinée humaine.
+Production,
+distribution,
+circulation,
+consommation des richesses,
+ce n'est pas tout pour l'homme.
+Il n'est rien,
+dans la nature,
+qui n'ait sa cause finale;
+et l'homme aussi doit avoir une autre fin
+que celle de pourvoir à son existence matérielle.
+Tout nous le dit.
+D'où lui viennent et la délicatesse de ses sentiments,
+et l'ardeur de ses aspirations;
+sa puissance d'admirer et de s'extasier?
+D'où vient qu'il trouve dans la moindre fleur un sujet de contemplation?
+que ,(XXX [pas de majuscule]) ses organes
+saisissent avec tant de vivacité et rapportent à l'âme,
+comme les abeilles à la ruche,
+tous les trésors de beauté et d'harmonie
+que la nature et l'art ont répandus autour de lui?
+D'où vient que des larmes mouillent ses yeux
+au moindre trait de dévouement qu'il entend raconter?
+D'où viennent ces flux et des reflux d'affection
+que son c,(oe)ur élabore comme il élabore le sang et la vie?
+D'où lui viennent son amour de l'humanité et ses élans vers l'infini?
+Ce sont là les indices d'une noble destination
+qui n'est pas circonscrite dans l'étroit domaine de la production industrielle.
+L'homme a donc une fin.
+Quelle est-elle?
+Ce n'est pas ici le lieu de soulever cette question.
+Mais quelle qu'elle soit,
+ce qu'on peut dire,
+c'est qu'il ne la peut atteindre si,
+courbé sous le joug d'un travail inexorable et incessant,
+il ne lui reste aucun loisir pour développer ses organes,
+ses affections,
+son intelligence,
+le sens du beau,
+ce qu'il y a de plus pur et de plus élevé dans sa nature;
+ce qui est en germe chez tous les hommes,
+mais latent et inerte,
+faute de loisir,
+chez un trop grand nombre d'entre eux
+,(footnote*[ Voy., au ,(bof-ref "harmonies" [tome VI]),
+la fin du ,(bof-ref "richesse" [chap. VI]).
+,(NdEEO)])
+][
+Quelle est la puissance qui allégera pour tous,
+dans une certaine mesure,
+le fardeau de la peine?
+Qui abrégera les heures de travail?
+Qui desserrera les liens de ce joug pesant
+qui courbe aujourd'hui vers la matière,
+non-seulement les hommes,
+mais les femmes et les enfants qui n'y semblaient pas destinés?
+,(--) C'est le capital;
+le capital qui, sous la forme
+de roue,
+d'engrenage,
+de rail,
+de chute d'eau,
+de poids,
+de voile,
+de rame,
+de charrue,
+prend à sa charge une si grande partie
+de l',(oe)uvre primitivement accomplie aux dépens de nos nerfs et de nos muscles;
+le capital qui fait concourir,
+de plus en plus,
+au profit de tous,
+les forces gratuites de la nature.
+Le capital est donc l'ami,
+le bienfaiteur de tous les hommes,
+et particulièrement des classes souffrantes.
+Ce qu'elles doivent désirer,
+c'est qu'il s'accumule,
+se multiplie,
+se répande sans compte ni mesure,
+,(--) Et s'il y a un triste spectacle au monde,
+,(--) spectacle qu'on ne pourrait définir que par ces mots:
+suicide matériel,
+moral et collectif,
+,(--) c'est de voir ces classes,
+dans leur égarement,
+faire au capital une guerre acharnée.
+,(--) Il ne serait ni plus absurde,
+ni plus triste,
+si nous voyions tous les capitalistes du monde
+se concerter pour paralyser les bras et tuer le travail.
+][
+En me résumant, monsieur Proudhon, je vous dira ceci:
+Le jour où nous serons d'accord sur cette première donnée,
+l'intérêt du capital,
+déterminé par le libre débat,
+est légitime;
+,(--) je me ferai un plaisir et un devoir de discuter loyalement avec vous
+les autres questions que vous me posez.
+])
+(tag :p :align 'right (strong[Frédéric Bastiat.]))
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome V, ,(Gratuitecredit), ,(4eme) lettre. pp. 133-145.
+][
+Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
+][
+Numérisé par ,(GregB),
+relu et mis en hypertexte par ,(FRR)
+pour ,(Bastiat.org).
+])))

@@ -1,0 +1,72 @@
+; -*- Scheme -*- $Id: sophismes.scr,v 1.1 2005/07/24 09:49:39 fare Exp $
+(style 'bo-style)
+(in-bof :title "Les Sophismes Économiques - par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title [Sophismes Économiques]
+	:author author-FB
+
+(p*
+(subtitle [Première Série (1845)])
+(itemize
+(item (xbof-ref "introduction_sophismes" [Introduction]))
+(item (xbof-ref "abondance_disette" [I. Abondance, disette]))
+(item (xbof-ref "obstacle_cause" [II. Obstacle, cause]))
+(item (xbof-ref "effort_resultat" [III. Effort, résultat]))
+(item (xbof-ref "egaliser_les_conditions_de_production" [IV. Égaliser les conditions de production]))
+(item (xbof-ref "greves_de_taxes" [V. Nos produits sont grevés de taxes]))
+(item (xbof-ref "balance_du_commerce_sophisme" [VI. Balance du commerce]))
+(item (xbof-ref "petition" [VII. Pétition des fabricants de chandelles, etc.]))
+(item (xbof-ref "droits_differentiels" [VIII. Droits différentiels]))
+(item (xbof-ref "immense_decouverte" [IX. Immense découverte!!!]))
+(item (xbof-ref "reciprocite" [X. Réciprocité]))
+(item (xbof-ref "prix_absolus" [XI. Prix absolus]))
+(item (xbof-ref "protection_taux_salaires" [XII. La protection élève-t-elle le taux des salaires ?]))
+(item (xbof-ref "theorie_pratique" [XIII. Théorie, Pratique]))
+(item (xbof-ref "conflit_de_principes" [XIV. Conflit de principes]))
+(item (xbof-ref "encore_reciprocite" [XV. Encore la réciprocité]))
+(item (xbof-ref "les_fleuves" [XVI. Les fleuves obstrués plaidant pour les prohibitionistes]))
+(item (xbof-ref "chemin_de_fer" [XVII. Un chemin de fer négatif]))
+(item (xbof-ref "principes_absolus" [XVIII. Il n'y a pas de principes absolus]))
+(item (xbof-ref "independance_nationale" [XIX. Indépendance nationale]))
+(item (xbof-ref "thtn" [XX. Travail humain, travail national]))
+(item (xbof-ref "matieres_premieres" [XXI. Matières premières]))
+(item (xbof-ref "metaphores" [XXII. Métaphores]))
+(item (xbof-ref "conclusion_sophismes" [Conclusion])))
+(subtitle [Deuxième Série (1848)])
+(itemize
+(item (xbof-ref "physiologie_de_la_spoliation" [I. Physiologie de la Spoliation]))
+(item (xbof-ref "deux_morales" [II. Deux morales]))
+(item (xbof-ref "les_deux_haches" [III. Les deux haches]))
+(item (xbof-ref "conseil_inferieur_du_travail" [IV. Conseil inférieur du travail]))
+(item (xbof-ref "cherte_bon_marche" [V. Cherté, bon marché]))
+(item (xbof-ref "aux_artisans_et_ouvriers" [VI. Aux artisans et ouvriers]))
+(item (xbof-ref "conte_chinois" [VII. Conte chinois]))
+(item (xbof-ref "post_hoc_propter_hoc" [VIII. Post hoc, ergo propter hoc]))
+(item (xbof-ref "le_vol_a_la_prime" [IX. Le vol à la prime]))
+(item (xbof-ref "percepteur" [X. Le percepteur]))
+(item (xbof-ref "l_utopiste" [XI. L'utopiste]))
+(item (xbof-ref "sel_poste_douane" [XII. Le sel, la poste et la douane]))
+(item (xbof-ref "les_trois_echevins" [XIII. Les trois Échevins]))
+(item (xbof-ref "autre_chose" [XIV. Autre chose]))
+(item (xbof-ref "arsenal" [XV. Le petit arsenal du libre-échangiste]))
+(item (xbof-ref "la_main_droite_et_la_main_gauche" [XVI. La main droite et la main gauche]))
+(item (xbof-ref "domination_par_le_travail" [XVII. Domination par le travail]))))
+(set! =bof.url= "http://bastiat.org/fr/")
+(with-footer
+(p*[
+Extrait de l',(EO1862), tome IV,
+,(SophismesEconomiques),
+pp. 1-274.
+][
+Préparé par ,(FRR) pour ,(Bastiat.org)
+avec l'aide de nombreux autres ,(bof-ref "numerisation" [numériseurs]):
+,(cbalanca), ,(krylenko), ,(loic), ,(JML), ,(frk.paris), ,(cvincent).
+,(XXX[
+Notez que l'édition en anglais par la FEE
+contient de nombreuses notes de bas de page
+pour éclaircir les références culturelles aujourd'hui désuettes
+dont regorge le texte.
+])
+])))

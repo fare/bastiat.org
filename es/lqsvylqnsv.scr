@@ -1,0 +1,2415 @@
+; -*- Scheme -*-
+; $Id: lqsvylqnsv.scr,v 1.5 2004/11/09 18:00:29 fare Exp $
+(style 'bo-style)
+(in-boes :title "Lo que se ve y lo que no se ve
+	- por Frédéric Bastiat")
+(document :title [Lo que se ve ,(br) y ,(br) lo que no se ve]
+	:author author-FB
+(itemize
+(item[,(ref :url "#introduccion" [Introducción])])
+(item[,(ref :url "#cristal_roto" [I. El cristal roto])])
+(item[,(ref :url "#el_despido" [II. El despido])])
+(item[,(ref :url "#los_impuestos" [III. Los impuestos])])
+(item[,(ref :url "#teatro_bellas_artes" [IV. Teatro, Bellas artes])])
+(item[,(ref :url "#obras_publicas" [V. Obras públicas])])
+(item[,(ref :url "#los_intermediarios" [VI. Los intermediarios])])
+(item[,(ref :url "#restriccion" [VII. Restricción])])
+(item[,(ref :url "#las_maquinas" [VIII. Las máquinas])])
+(item[,(ref :url "#el_credito" [IX. El crédito])])
+(item[,(ref :url "#argelia" [X. Argelia])])
+(item[,(ref :url "#ahorro_y_lujo" [XI. Ahorro y lujo])])
+(item[,(ref :url "#derecho_al_trabajo_y_al_beneficio" [XII. Derecho al
+ trabajo, derecho al beneficio])]))
+(p*[
+,(tag :a :name "introduccion")
+En la esfera económica, un acto, una costumbre, una institución, una ley
+no engendran un solo efecto, sino una serie de ellos.
+De estos efectos
+	,(footnote*[
+Este panfleto, publicado en Julio de 1850, es el último que escribió Bastiat.
+Desde hacía un año estaba prometido al público.
+He aquí como su aparición fue retrasada.
+El autor perdió el manuscrito cuando lo transportaba
+de su domicilio de la calle de Choiseul a la calle de Argel.
+Tras larga e inútil búsqueda, se decidió a recomenzar su obra por completo,
+y escogió como base principal de sus demostraciones
+los discursos recientemente pronunciados en la Asamble Nacional.
+Una vez terminada esta tarea, se reprochó el haber sido demasiado serio,
+tiró al fuego el segundo manuscrito y escribió el que nosotros reimprimimos.
+,(NdEEO)
+]),
+el primero es sólo el más inmediato;
+se manifiesta simultáneamente con la causa, ,(emph[se ve]).
+Los otros aparecen sucesivamente, ,(emph[no se ven]),(pv)
+bastante es si los ,(emph[prevemos]).
+][
+Toda la diferencia entre un mal y un buen economista es ésta:
+uno se limita al efecto ,(emph[visible]),(pv)
+el otro tiene en cuenta el efecto que se ve y los que hay que prever.
+][
+Pero esta diferencia es enorme, ya que casi siempre sucede
+que, cuando la consecuencia inmediata es favorable,
+las consecuencias ulteriores son funestas, y ,(emph[vice versa]).
+,(--) Así, el mal economista persigue un beneficio inmediato
+que será seguido de un gran mal en el futuro,
+mientras que el verdadero economista persigue un gran bien para el futuro,
+aun a riesgo de un pequeño mal presente.
+][
+Lo mismo vale para la higiene o la moral.
+A menudo, cuanto más agradable es el primer fruto de una costumbre,
+más amargos son los siguientes.
+Por ejemplo: la corrupción, la pereza, el prodigarse.
+En cuanto un hombre, impresionado por el efecto que ,(emph[se ve]),
+no habiendo aprendido aún a comprender los que ,(emph[no se ven]),
+se abandona a sus funestas costumbres, no sólo por rutina,
+sino por cálculo (su propio beneficio).
+][
+Esto explica la evolución fatalmente dolorosa de la humanidad.
+La ignorancia lo rodea al principio;
+así, ésta determina sus actos por sus consecuencias primeras,
+las únicas que, al principio, puede ver.
+Sólo con el tiempo aprende a tener en cuenta las otras
+,(footnote*[
+	V. el ,(bof-ref "responsabilite" [cap. XX del tomo VI])
+,(NdEEO)
+]).
+Dos maestros bien diferentes le enseñan esta lección:
+La Experiencia y la Previsión.
+La experiencia enseña de manera eficaz pero brutal.
+Nos instruye de todos los efectos de un acto haciéndonoslos sufrir,
+y no podemos evitar, a fuerza de quemarnos,
+terminar sabiendo que el fuego quema.
+Me gustaría, todo lo posible, sustituir este rudo doctor
+por otro más agradable: la Previsión.
+Esto es por lo que voy a investigar
+las consecuencias de algunos fenómenos económicos,
+oponiendo a las que ,(emph[se ven]) las que ,(emph[no se ven]).
+][
+,(tag :a :name "cristal_roto")
+,(subtitle[I. El cristal roto])
+][
+¿Ha sido usted alguna vez testigo de la cólera
+de un buen burgués Juan Buenhombre,
+cuando su terrible hijo acaba de romper un cristal de una ventana?
+Si alguna vez ha asistido a este espectáculo,
+seguramente habrá podido constatar que todos los asistentes,
+así fueran éstos treinta,
+parecen haberse puesto de acuerdo para ofrecer al propietario
+siempre el mismo consuelo:
+,(q[La desdicha sirve para algo.
+Tales accidentes hacen funcionar la industria.
+Todo el mundo tiene que vivir.
+¿Qué sería de los cristaleros, si nunca se rompieran cristales?])
+][
+Mas, hay en esta fórmula de condolencia toda una teoría,
+que es bueno sorprender en ,(emph[flagrante delito]),
+en este caso muy simple, dado que es exactamente la misma
+que, por desgracia, dirige la mayor parte de nuestras instituciones económicas.
+][
+Suponiendo que haya que gastar seis francos para reparar el destrozo,
+si se quiere decir que el accidente hace llegar a la industria cristalera,
+que ayuda a dicha industria en seis francos, estoy de acuerdo,
+de ninguna manera lo contesto, razonamos justamente.
+El cristalero vendrá, hará la reparación, cobrará seis francos,
+se frotará las manos y bendirá de todo corazón al terrible niño.
+,(emph[Esto es lo que se ve]).
+][
+Pero si, por deducción, se llega a la conclusión, como a menudo ocurre,
+que es bueno romper cristales, que esto hace circular el dinero,
+que ayuda a la industria en general, estoy obligado a gritar:
+¡Alto ahí!
+Vuestra teoría se detiene en ,(emph[lo que se ve]),
+no tiene en cuenta ,(emph[lo que no se ve]).
+][
+,(emph[No se ve]) que,
+puesto que nuestro burgués a gastado seis francos en una cosa,
+no podrá gastarlos en otra.
+,(emph[No se ve]) que si él no hubiera tenido que reemplazar el cristal,
+habría reemplazado, por ejemplo, sus gastados zapatos
+o habría añadido un nuevo libro a su biblioteca.
+O sea, hubiera hecho de esos seis francos un uso que no efectuará.
+][
+Hagamos las cuentas para la industria ,(emph[en general]).
+][
+Estando el cristal roto,
+la industria cristalera es favorecida con seis francos;
+,(emph[esto es lo que se ve]).
+Si el cristal no se hubiera roto,
+la industria zapatera (o cualquier otra) habría sido favorecida
+con seis francos. ,(emph[Esto es lo que no se ve]).
+][
+Y si tomamos en consideración ,(emph[lo que no se ve])
+que es un efecto negativo,
+tanto como ,(emph[lo que se ve]),
+que es un efecto positivo,
+se comprende que no hay ningún interés para la industria ,(emph[en general]),
+o para el conjunto del ,(emph[trabajo nacional]),
+en que los cristales se rompan o no.
+][
+Hagamos ahora las cuentas de Juan Buenhombre.
+][
+En la primera hipótesis, la del cristal roto,
+él gasta seis francos, y disfruta, ni más ni menos que antes, de un cristal.
+En la segunda, en la que el accidente no llega a producirse,
+habría gastado seis francos en calzado y disfrutaría
+de un par de buenos zapatos y un cristal.
+][
+O sea, que como Juan Buenhombre forma parte de la sociedad,
+hay que concluir que, considerada en su conjunto,
+y hecho todo el balance de sus trabajos y sus disfrutes,
+la sociedad ha perdido el valor de un cristal roto.
+][
+Por donde, generalizando, llegamos a esta sorprendente conclusión:
+,(q[la sociedad pierde el valor de los objetos destruidos inútilmente,])
+,(--) y a este aforismo que pondrá los pelos de punta a los proteccionistas:
+,(q[Romper, rasgar, disipar no es promover el trabajo nacional,])
+o más brevemente:
+,(q[destrucción no es igual a beneficio.])
+][
+¿Qué dirá usted, ,(cite-title[Moniteur Industriel]), ,(footnote*[
+El periódico ,(cite-title[Le Moniteur Industriel])
+era el órgano principal de la propaganda en el favor del proteccionismo.
+])
+que dirán ustedes, seguidores de este buen Sr. de Saint-Chamans,
+que ha calculado con tantísima precisión
+lo que la industria ganaría en el incendio de París,
+por todas las casas que habría que reconstruir?
+][
+Me molesta haber perturbado sus ingeniosos cálculos,
+tanto más porque ha introducido el espíritu de éstos en nuestra legislación.
+Pero le ruego que los empiece de nuevo,
+esta vez teniendo en cuenta ,(emph[lo que no se ve])
+al lado de ,(emph[lo que se ve]).
+][
+Es preciso que el lector se esfuerce en constatar
+que no hay solamente dos personajes, sino tres,
+en el pequeño drama que he puesto a su disposición.
+Uno, Juan Buenhombre, representa el Consumidor,
+obligado por el destrozo a un disfrute en lugar de a dos.
+El otro, en la figura del Cristalero,
+nos muestra el Productor para el que el accidente beneficia a su industria.
+El tercero es el zapatero, (o cualquier otro industrial)
+para el que el trabajo se ve reducido por la misma causa.
+Es este tercer personaje que se deja siempre en la penumbra
+y que, personificando lo que no se ve, es un elemento necesario en el problema.
+Es él quien enseguida nos enseñará que no es menos absurdo
+el ver un beneficio en una restricción,
+que no es sino una destrucción parcial.
+,(--) Vaya también al fondo de todos los argumentos que se hacen en su favor,
+y no encontrará que otra forma de formular el dicho popular:
+,(q[¿Que sería de los cristaleros, si nunca se rompieran cristales?])
+,(footnote*[
+V. en el tomo IV,
+el ,(bof-ref "thtn" [capítulo XX]) de la 1ª serie de ,(emph[Sofismas]),
+p. 100 y siguientes.
+,(NdEEO)
+])
+][
+,(tag :a :name "el_despido")
+,(subtitle[II. El despido])
+][
+Lo que vale para un hombre vale para un pueblo.
+Cuando quiere darse una satisfacción, debe ver si vale lo que cuesta.
+Para una nación, la Seguridad es el mayor de los bienes.
+Si, para adquirirla,
+hay que poner en pie de guerra a cien mil hombres y gastar cien millones,
+no tengo nada que decir.
+Es un disfrute comprado al precio de un sacrificio.
+][
+Que no se malinterprete el alcance de mi tesis.
+][
+Un representante propone despedir cien mil hombres para dispensar a
+los contribuyentes de pagar los cien millones.
+][
+Si la respuesta se limita a:
+,(q[Esos cien mil hombres y cien millones
+son indispensables para la seguridad nacional:
+es un sacrificio;
+pero, sin ese sacrificio,
+Francia sería desgarrada por facciones o invadida por los extranjeros.])
+,(--) No tengo nada que oponer a este argumento,
+que puede ser de hecho verdadero o falso,
+pero que no encierra ninguna herejía económica.
+La herejía comienza cuando quiere representarse el sacrificio mismo
+como una ventaja, porque beneficia a alguien.
+][
+O mucho me equivoco,
+o el autor de la proposición no tardará más en bajarse de la tribuna
+que el tiempo de que un orador se precipite a ella para decir:
+][
+,(q[¡Despedir cien mil hombres! ¿Lo ha pensado?
+¿Qué va a ser de ellos? ¿De qué van a vivir? ¿Del trabajo?
+¿Pero no saben que el trabajo escasea por todas partes?
+¿Que todos los puestos están ocupados?
+¿Quiere tirarlos a la plaza pública para aumentar la competición
+y hacer bajar los salarios?
+Ahora que es tan difícil ganarse la vida,
+¿no es maravilloso que el Estado dé pan a cien mil individuos?
+Considere, además, que el ejército consume vino, vestidos, armas,
+que extiende la actividad por las fábricas, en las ciudades de guarnición,
+y que es la Providencia de sus numerosos proveedores.
+¿No pensará siquiera en la idea de eliminar
+este inmenso movimiento industrial?])
+][
+Este discurso, claramente,
+concluye con el mantenimiento de los cien mil soldados,
+abstracción hecha de la necesidad de su servicio,
+y por consideraciones económicas.
+Son estas consideraciones las que tengo que refutar.
+][
+Cien mil hombres, que cuestan a los contribuyentes cien millones,
+viven y permiten vivir a sus proveedores tanto como permiten cien millones:
+,(emph[esto es lo que se ve.])
+][
+Pero cien millones, salidos del bolsillo del contribuyente,
+dejan de servir a los contribuyentes y a sus proveedores,
+tanto como permiten esos cien millones:
+,(emph[esto es lo que no se ve]).
+][
+En cuanto a mí, os diré dónde está la ,(emph[pérdida]),
+y, para simplificar, en lugar de hablar de cien mil hombres y cien millones,
+razonemos con un hombre y mil francos.
+][
+Henos aquí en el pueblo de A.
+Los reclutadores pasan y reclutan un hombre.
+Los recaudadores pasan y recaudan mil francos.
+El hombre y la suma de dinero son transportados a Metz,
+destinada una a hacer vivir al otro sin hacer nada.
+Si usted sólo observa Metz, ¡oh!, tiene usted cien veces razón,
+la medida es muy ventajosa;
+pero si sus ojos se posan en el pueblo de A,
+usted juzgará de otra manera,
+ya que, a no ser que sea ciego,
+verá usted que el pueblo ha perdido un trabajador
+y los mil francos que remuneraban su trabajo,
+y la actividad que, mediante el gasto de esos mil francos,
+generaba en torno a él.
+][
+A primera vista, parece que haya compensación.
+El fenómeno que sucedía en el pueblo A se pasa ahora en Metz, y eso es todo.
+][
+Pero he aquí dónde está la pérdida.
+En el pueblo A, un hombre trabajaba: era un trabajador;
+en Metz, hace mirada al frente, izquierda y derecha: es un soldado.
+El dinero y la circulación son los mismos en los dos casos;
+pero en uno había trescientos días de trabajo productivo;
+en el otro, hay trescientos días de trabajo improductivo,
+siempre bajo la suposición de que una parte del ejército
+no es indispensable para la seguridad pública.
+][
+Ahora viene el despido.
+Ustedes me señalan un incremento de cien mil trabajadores,
+la competencia estimulada y la presión que ésta ejerce sobre los salarios.
+Eso es lo que ustedes ven.
+][
+Pero he aquí lo que ustedes no ven.
+No ven que licenciar cien mil soldados no es eliminar cien millones,
+es devolverlos a los contribuyentes.
+Ustedes no ven que meter cien mil trabajadores en el mercado,
+es meter, de golpe, los cien millones destinados a pagar su sueldo;
+que, en consecuencia, la misma medida que aumenta la ,(emph[oferta]) de brazos
+aumenta también la ,(emph[demanda]),(pv)
+de ahí se sigue que vuestra bajada de salarios es ilusoria.
+Ustedes no ven que antes, como después del despido,
+hay en el país cien millones correspondientes a cien mil hombres;
+que toda la diferencia consiste en esto:
+antes, el país da los cien millones a los cien mil hombres por no hacer nada;
+después, se los da por trabajar.
+En resumen, ustedes no ven que cuando un contribuyente da su dinero,
+sea a un soldado a cambio de nada,
+sea a un trabajador a cambio de algo,
+todas las consecuencias posteriores de la circulación de este dinero
+son las mismas en los casos;
+solo que, en el segundo caso, el contribuyente recibe algo,
+y en el primero, no recibe nada.
+,(--) Resultado: una perdida inútil para la nación.
+][
+El sofisma que combato aquí no resiste la prueba de la progresión,
+que es la piedra angular de todos los principios.
+Si, todo compensado, todos los intereses examinados,
+hay un ,(emph[beneficio nacional]) en aumentar el ejército,
+¿por qué no alistar bajo la bandera toda la población masculina del país?
+][
+,(tag :a :name "los_impuestos")
+,(subtitle[III. Los impuestos])
+][
+¿Nunca les ha sucedido oír decir:
+][
+,(q[Los impuestos, son el mejor emplazamiento; es una rosa fecundadora?
+Mire cuántas familias hace vivir, y piense en el impacto sobre la industria:
+Es el infinito, es la vida.])
+][
+Para combatir esta doctrina,
+estoy obligado a reproducir la refutación precedente.
+La economía política sabe bien que sus argumentos
+no son lo bastante equívocos para que se pueda decir:
+,(emph[Repetitia placent]).
+Así, como Basile, ha adaptado el proverbio a su uso,
+bien convencida de que en su boca, ,(emph[Repetitia docent]).
+][
+Las ventajas que los funcionarios encuentran
+al ascender en la escala social (prosperar),
+,(emph[es lo que se ve]).
+El bien que de ello resulta para sus proveedores,
+,(emph[también se ve]).
+Esto es evidente a los ojos.
+][
+Pero la desventaja que los contribuyentes sufren al liberarse,
+,(emph[es lo que no se ve]),
+y el daño que de ello resulta
+,(emph[es lo que se ve aún menos]),
+aunque salte a la vista de la inteligencia.
+][
+Cuando un funcionario gasta en su beneficio
+,(emph[cien perras de más]),
+esto implica que un contribuyente gasta en su beneficio
+,(emph[cien perras de menos]).
+Pero el gasto del funcionario ,(emph[se ve]),
+porque se efectúa;
+mientras que el del contribuyente ,(emph[no se ve])
+porque se le impide hacerlo.
+][
+Ustedes comparan la nación a la tierra seca
+y los impuestos a la lluvia fecunda.
+De acuerdo.
+Pero también deberían preguntarse dónde están las fuentes de esa lluvia,
+y si no son precisamente los impuestos
+quienes absorben la humedad del suelo y lo desecan.
+][
+Deberían preguntarse además si es posible
+que el suelo reciba tanta de esta preciosa agua a través de la lluvia
+como pierde por evaporación.
+][
+Lo que está muy claro es que,
+cuando Juan Buenhombre da cien perras al recaudador,
+aquél no recibe nada a cambio.
+Después, cuando un funcionario gasta esas cien perras,
+las devuelve a Juan Buenhombre,
+es a cambio de un valor igual de trigo o de trabajo.
+El resultado final para Juan Buenhombre es una pérdida de cinco francos.
+][
+Es muy cierto que a menudo, las más de las veces si se quiere,
+el funcionario da a Juan Buenhombre un servicio equivalente.
+En este caso, no hay pérdida para nadie, no hay más que intercambio.
+De la misma manera, mi argumentación no se dirige en modo alguno
+a las funciones útiles.
+Lo que yo digo es: si se quiere una función, pruébese su utilidad.
+Demuéstrese que sirve a Juan Buenhombre, por los servicios que le presta,
+el equivalente de lo que a él le cuesta.
+Pero, abstracción hecha de esta utilidad intrínseca,
+no invoquéis como argumento la ventaja que ésta da al funcionario,
+a su familia o a sus proveedores;
+que no se alegue que ésta favorece el trabajo.
+][
+Cuando Juan Buenhombre da cien perras a un funcionario
+a cambio de un servicio realmente útil,
+es exactamente como cuando él da cien perras
+a un zapatero a cambio de un par de buenos zapatos.
+Ambos dan, y quedan en paz.
+Pero, cuando Juan Buenhombre da cien perras a un funcionario
+para no recibir servicio alguno o incluso para sufrir vejaciones,
+es como si se los diera a un ladrón.
+De nada sirve decir que el funcionario gastará los cien perras
+para mayor beneficio del trabajo nacional;
+lo mismo hubiera hecha un ladrón;
+lo mismo hubiera hecho Juan Buenhombre
+si no se hubiera encontrado en su camino al parásito extra-legal o al legal.
+][
+Habituémonos pues a no juzgar las cosas solamente por ,(emph[lo que se ve]),
+sino también por ,(emph[lo que no se ve]).
+][
+El año pasado, estaba yo en el Comité de finanzas,
+ya que, bajo la Constituyente,
+los miembros de la oposición no eran sistemáticamente excluidos
+de todas las Comisiones;
+en ésta, la Constituyente actuaba sabiamente.
+Hemos oído decir al Sr. Thiers:
+,(q[Durante toda mi vida he combatido
+los hombres del partido legitimista y del partido religioso.
+Desde que el peligro común se nos ha acercado,
+desde que los frecuento, que los conozco, que nos hablamos de corazón,
+me he dado cuenta de que no son los monstruos que yo me había imaginado.])
+][
+Sí, las desconfianzas se exageran,
+los odios se exaltan entre los partidos que no se mezclan;
+y si la mayoría deja entrar en el seno de las Comisiones
+algunos miembros de la minoría,
+puede que se reconociera, de una parte como de la otra,
+que las ideas no están tan alejadas y sobre todo
+las intenciones no son tan perversas como se las supone.
+][
+Como quiera que así fuera, el año pasado,
+yo estaba en el Comité de finanzas.
+Cada vez que uno de nuestros colegas hablaba de fijar a una cifra moderada
+los gastos del Presidente de la República, de los ministros,
+de los embajadores, se le respondía:
+][
+,(q[Por el bien mismo del servicio,
+hay que envolver algunas funciones de pompa y dignidad.
+Es la manera de interesar a los hombres de mérito.
+Innumerables desgracias se dirigen al Presidente de la República,
+y sería ponerle en una situación difícil
+si se viera obligado a rechazarlas todas.
+Una cierta representación en los salones ministeriales y diplomáticos
+es uno de los engranajes de los gobiernos constitucionales, etc. etc.])
+][
+Aunque tales argumentos puedan resultar controvertidos,
+ciertamente merecen un serio examen.
+Están fundados sobre el interés público, bien o mal entendido;
+y, en cuanto a mí, les presto mucha más atención
+que muchos de nuestros Cantones,
+movidos por un espíritu estrecho de escatimar o por la envidia.
+][
+Pero lo que me revuelve mi conciencia de economista,
+lo que me hace enrojecer por culpa de la renombrada intelectualidad de mi país,
+es cuando se llega (sin fallar jamás) a esta banalidad absurda,
+y siempre bien acogida:
+][
+,(q[Por otra parte, el lujo de los grandes funcionarios
+favorece las artes, la industria, el trabajo.
+El jefe del Estado y sus ministros no pueden dar sus festines y sus veladas
+sin hacer circular la vida en todas las venas del cuerpo social.
+Reducir estos tratamientos, es matar de hambre a la industria parisina,
+y, de golpe, la industria nacional.])
+][
+Con la venia, Señores, respeten al menos la aritmética y no me vengan a decir,
+delante de la Asamblea nacional de Francia, no vaya a ser
+que para su vergüenza nos apruebe,
+que una suma de un resultado diferente,
+según se haga de arriba a abajo o de abajo a arriba.
+][
+¡Cómo! Voy a arreglármelas con un obrero para
+que me haga una acequia en mi terreno, mediando cien perras.
+En el momento de concluir,
+el recaudador me toma mis cien perras y se las da al ministro del interior;
+mi contrato queda roto pero el Sr. ministro añadirá un plato a su cena.
+¡Basándoos en qué, osáis afirmar que este gasto oficial
+es una carga añadida a la industria nacional!
+¿No comprendéis que no hay más
+que un simple ,(emph[desplazamiento]) de satisfacción y de trabajo?
+Un ministro tiene su mesa mejor servida, es cierto;
+pero un agricultor tiene un terreno peor desecado,
+y ésto es tan cierto como lo otro.
+Un restaurador parisino a ganado cien perras, lo concedo;
+pero concédaseme que un obrero de provincias no ha ganado cinco francos.
+Todo lo que se puede decir, es que el plato oficial
+y el restaurador satisfechos ,(emph[es lo que se ve]),
+el terreno inundado y el obrero sin trabajo,
+,(emph[es lo que no se ve]).
+][
+¡Dios mío! cuanto esfuerzo para probar, en economía política,
+que dos y dos son cuatro;
+y si se consigue, se dice uno:
+,(q[Está tan claro, que es hasta aburrido.])
+,(--) Después se vota como si nada se hubiera probado.
+][
+,(tag :a :name "teatro_bellas_artes")
+,(subtitle[IV. Teatro, Bellas artes])
+][
+¿Debe el Estado subvencionar las artes?
+][
+Hay en efecto mucho que decir a Favor y en Contra.
+][
+A favor del sistema de subvenciones,
+puede decirse que las artes extienden, elevan y poetizan
+el alma de una nación, que arrancan de las preocupaciones materiales,
+le dan el sentido de lo bello,
+y actúan favorablemente en sus maneras, sus costumbres, sus hábitos
+e incluso su industria.
+Podemos preguntarnos dónde estaría la música en Francia,
+sin el Teatro-Italiano y el Conservatorio;
+el arte dramático, sin el Teatro-Francés;
+la pintura y la escultura, sin nuestras colecciones y museos.
+Se puede ir aún más lejos y preguntarse si,
+sin la centralización y en consecuencia la subvención de las bellas artes,
+ese gusto exquisito se hubiera desarrollado,
+que es el noble patrimonio del trabajo francés
+e impone sus frutos al universo entero.
+En presencia de tales resultados,
+¿no sería una gran imprudencia renunciar a esta módica cotización
+de todos los ciudadanos que en definitiva,
+hace, en medio de Europa, su superioridad y su gloria?
+][
+A estas razones y a bastantes otras,
+de las que yo no pongo en duda su fuerza,
+podemos oponer otras no menos poderosas.
+Hay, para empezar, podríamos decir, una cuestión de justicia distributiva.
+El derecho del legislador,
+¿puede reducir el salario del artesano
+para constituir un beneficio extra para el artista?
+El Sr. Lamartine decía:
+,(q[Si suprimís la subvención de un teatro,
+¿dónde os pararéis en esta vía?,
+¿no seréis lógicamente llevados a suprimir vuestras Facultades,
+vuestros museos, vuestros Institutos, vuestras Bibliotecas?])
+Podría respondérsele:
+,(q[Si usted quiere subvencionar todo lo que es bueno y útil,
+¿dónde se parará usted en esa vía?
+¿no será usted lógicamente llevado a constituir una lista civil de
+la agricultura, la industria, el comercio, la beneficencia, la instrucción?])
+De hecho, ¿es cierto que las subvenciones favorecen el progreso del arte?
+Es ésta una cuestión lejos de estar resuelta,
+y vemos con nuestros propios ojos que los teatros que prosperan
+son los que viven de su propio funcionamiento.
+En fin, elevándose a más altas consideraciones,
+puede observarse que las necesidades y los deseos
+nacen los unos de los otros,
+y se elevan hacia cimas cada vez más puras
+,(footnote*[
+V. ,(bof-ref "des_besoins_de_l_homme"
+	[le chap. III du tome VI]).
+,(NdEEO)
+]),
+a medida que la riqueza del público permite satisfacerlas;
+que el gobierno no tiene por qué inmiscuirse en esta correspondencia,
+ya que, en un estado dado de la riqueza actual,
+no sabría estimular, mediante impuestos, las industrias del lujo
+sin afectar a las de primera necesidad,
+interviniendo así en la marcha normal de la civilización.
+Puede observarse que los desplazamientos artificiales de necesidades, gustos,
+trabajo y población, ponen a los pueblos en una situación precaria y peligrosa,
+que no tiene una base sólida.
+][
+He ahí algunas de la razones
+que alegan los adversarios de la intervención del Estado,
+en lo que concierne el orden
+en el que los ciudadanos creen deber satisfacer sus necesidades y deseos,
+y en consecuencia dirigir su actividad.
+Yo soy, lo confieso, de los que piensan que la elección, el impulso
+debe venir de abajo, y no de arriba, de los ciudadanos, no del legislador;
+y la doctrina contraria me parece conducir
+a la eliminación de la libertad y de la dignidad humanas.
+][
+Pero, por una deducción tan falsa como injusta,
+¿saben de qué se acusa a los economistas?
+De, cuando rehusamos la subvención,
+rechazar la cosa misma que se subvenciona,
+de ser enemigos de todo tipo de actividad,
+porque queremos que esas actividades sean, por una parte, libres,
+y por otra, que ellas busquen en sí mismas su recompensa.
+Así, ¿que pedimos al Estado que no intervenga, vía los impuestos,
+en materia religiosa? somos ateos;
+¿que pedimos que el Estado no intervenga, vía impuestos,
+en la educación? odiamos las Luces;
+¿que decimos que el Estado no debe dar, por los impuestos,
+un valor ficticio al suelo, o a una industria dada?
+somos enemigos de la propiedad y del trabajo;
+¿que pensamos que el estado no debe subvencionar a los artistas?
+somos unos bárbaros que juzgamos las artes inútiles.
+][
+Protesto aquí con todas mis fuerzas contra estas deducciones.
+][
+Lejos de pensar que deberíamos reducir
+la religión, la educación, la propiedad, el trabajo y las artes
+cuando pedimos que el Estado proteja
+el libre desarrollo de todos estos órdenes de la actividad humana,
+sin les subvencionar unos a expensas de otros,
+creemos por contra que todas las fuerzas vivas de la sociedad
+se desarrollarán armoniosamente bajo la influencia de la libertad,
+que ninguna de ellas será, como lo vemos hoy en día,
+una fuente de problemas, de abusos, de tiranía y de desorden.
+][
+Nuestros adversarios creen que una actividad
+que no sea subvencionada ni reglamentada es una actividad condenada.
+Nosotros creemos lo contrario.
+Su fe es en el legislador, no en la humanidad.
+La nuestra es en la humanidad, no en el legislador.
+][
+Así, el Sr. Lamartine decía:
+,(q[En nombre de este principio,
+habría que ,(emph[abolir]) las exposiciones públicas
+que hacen el honor y la riqueza de este país.])
+][
+Yo contesto al Sr. Lamartine:
+,(q[Desde su punto de vista, ,(emph[no subvencionar]) es ,(emph[abolir]),
+porque, partiendo del hecho de que nada existe
+si no es por voluntad del Estado,
+usted concluye que nada vive salvo lo que los impuestos hacen vivir.
+Pero yo vuelvo contra usted el ejemplo que ha escogido,
+y le hago observar que la más grande, la más noble de las exposiciones,
+y la que ha sido realizada en la mentalidad más liberal, la más universal,
+y hasta podría decir, sin exagerar, humanitaria,
+es la exposición que se prepara en Londres,
+la única en la que ningún gobierno se mete y que ningún impuesto subvenciona.])
+][
+Volviendo a las bellas artes, se puede, repito,
+alegar a favor y en contra del sistema de subvenciones poderosas razones.
+El lector comprenderá que, de acuerdo con el objetivo social de este escrito,
+no tengo por qué exponer estas razones ni decantarme por una de ellas.
+][
+Pero el Sr. Lamartine a puesto de relieve un argumento
+que yo no puedo silenciar,
+ya que entra en el preciso ámbito de este estudio económico.
+][
+Ha dicho:
+][
+,(blockquote[
+La cuestión económica, en materia de teatros,
+se reduce a una sola palabra: El trabajo.
+Poco importa la naturaleza de este trabajo,
+es un trabajo tan fecundo, tan productivo
+como todo tipo de trabajo en una nación.
+Los teatros, saben ustedes, no alimentan, no pagan salarios, en Francia,
+a menos de ochenta mil obreros de todo tipo,
+pintores, constructores, decoradores, costureros, arquitectos, etc.,
+que son la vida misma y el movimiento de varios barrios de esta capital,
+y, a justo título, ¡deben recibir su simpatía!
+])
+][
+¡Su simpatía! ,(--) tradúzcase: sus subvenciones.
+][
+Y aún más:
+][
+,(blockquote[
+Los placeres de París son el trabajo y el consumo de los departamentos,
+y los lujos del rico son el salario y el pan
+de doscientos mil obreros de toda clase,
+que viven de la tan diversa industria de teatros
+sobre la superficie de la República,
+y reciben de esos placeres nobles, que instruyen a Francia,
+el alimento para su vida y las necesidades de sus familias e hijos.
+Es a ellos a los que dais los 60,000 francos.
+(¡Muy bien! ¡muy bien!, numerosas manifestaciones de aprobación)
+])
+][
+Yo estoy obligado a decir: ,(emph[¡muy mal! ¡muy mal!])
+restringiendo, por supuesto, el alcance del juicio
+al argumento económico del que es aquí cuestión.
+][
+Sí, es a los obreros del teatro que irán, al menos en parte,
+los 60,000 francos de los que se trata.
+Algunas migajas podrán apartarse del camino.
+Incluso, si escrutamos de cerca la cosa,
+quizá descubramos que el pastel tomará otro camino;
+¡felices los obreros si les quedan aunque sea unas migajas!
+Pero admitamos que la subvención entera irá a
+los pintores, decoradores, costureros, peluqueros, etc.
+,(emph[Esto es lo que se ve.])
+][
+Pero, ¿de dónde viene?
+he aquí el ,(emph[reverso]) de la cuestión,
+tan importante su examen como el del ,(emph[anverso.])
+¿Dónde esta la fuente de los 60,000 francos?
+Y, ¿a dónde irían, si un voto legislativo no los dirigiera primero
+a la calle Rivoli y de ahí a la calle Grenelle?
+,(emph[Esto es lo que no se ve.])
+][
+Seguramente nadie osará sostener que el voto legislativo
+a hecho nacer esta suma de la urna del escrutinio;
+que es una pura suma hecha a l a riqueza nacional;
+que, sin ese voto milagroso, esos sesenta mil francos
+habrían sido por siempre jamás invisibles e impalpables.
+Hay que admitir que todo lo que ha podido hacer la mayoría,
+es decidir que serán cogidos de un sitio para ser enviados a otro,
+y que no tendrán esa destinación más que porque son desviados de otra.
+][
+Siendo así la cosa, está claro que el contribuyente
+al que se le ha cobrado un impuesto de 1 franco,
+no dispondrá de ese franco.
+Será privado de una satisfacción en la medida de un franco,
+y el obrero, el que sea, que la habría procurado,
+será privado en la misma medida de su salario.
+][
+No nos hagamos pues la pueril ilusión de creer
+que el voto del 16 de Mayo añade lo que sea al bienestar y al trabajo nacional.
+,(emph[Desplaza]) los disfrutes, ,(emph[desplaza]) los salarios, eso es todo.
+][
+¿Se dirá que sustituye un genero de satisfacción y de trabajo
+por satisfacciones y trabajos más urgentes, más morales, más razonables?
+Yo podría luchar en este terreno.
+Yo podría decir: Quitando 60,000 francos a los contribuyentes,
+ustedes disminuyen los salarios de
+agricultores, obreros, carpinteros, herreros,
+y aumentan otro tanto los salarios de
+cantantes, peluqueros, decoradores y costureros.
+Nada prueba que esta última clase sea menos interesante que la otra.
+El Sr. Lamartine no responde.
+Dice que el trabajo de los teatros es tan fecundo, tan productivo
+(y no más) como cualquier otro,
+lo que podría ser rebatido;
+ya que la prueba de que el segundo no es tan productivo como el primero
+es que éste es obligado a subvencionar aquél.
+][
+Pero esta comparación entre la valor y el mérito intrínseco
+de las diversas formas de trabajo no entra en mi presente tesis.
+Todo lo que tengo que hacer aquí es mostrar
+que si el Sr. Lamartine y las personas
+que han aplaudido su argumentación han visto, con el ojo izquierdo,
+los salarios ganados por los proveedores de los comediantes,
+deberían haber visto, con el ojo derecho,
+los salarios perdidos por los proveedores de los contribuyentes;
+y por no haberlo hecho, se han expuesto al ridículo
+de tomar un ,(emph[desplazamiento]) por una ,(emph[ganancia]).
+Si fueran consecuentes con su doctrina,
+pedirían subvenciones hasta el infinito;
+ya que lo que es cierto para un franco y para 60,000,
+es cierto, en idénticas circunstancias, para un millardo de francos.
+][
+Cuando se trata de impuestos, señores,
+prueben su utilidad con razones de fundamento,
+pero no con este desafortunado aserto:
+,(q[Los gastos públicos hacen vivir a la clase obrera.])
+Contiene el error de disimular un hecho esencial,
+a saber que los ,(emph[gastos públicos])
+sustituyen ,(emph[siempre]) a ,(emph[gastos privados]),
+y que, en consecuencia, hacen en efecto vivir a un obrero en vez de a otro,
+pero no añaden nada al conjunto de la clase obrera.
+Su argumentación está muy a la moda, pero es demasiado absurda,
+para que la razón no tenga razón.
+][
+,(tag :a :name "obras_publicas")
+,(subtitle[V. Obras públicas])
+][
+Que una nación, después de haberse asegurado de que una gran empresa
+debe beneficiar a la comunidad,
+la haga ejecutar bajo la financiación de una cotización común,
+nada hay más natural.
+Pero la paciencia se me agota, lo confieso,
+cuando oigo a alguien proclamar su apoyo a ésta resolución
+con ésta metedura de pata económica:
+,(q[Además es una manera de crear trabajo para los obreros.])
+][
+El estado traza un camino, construye un palacio,
+mejora una calle, cava un canal;
+así da trabajo a unos obreros,
+,(emph[esto es lo que se ve]),
+pero priva de trabajo a otros obreros,
+,(emph[esto es lo que no se ve]).
+][
+He aquí la carretera siendo construida.
+Mil obreros llegan todas la mañanas, se van todas las noches,
+cierto es, tienen un salario.
+Si la carretera no hubiera sido decretada,
+si los fondos no hubieran sido votados,
+estas bravas gentes no habrían tenido ni el trabajo ni el salario,
+bien es cierto.
+][
+Pero, ¿es esto todo?
+La operación, en su conjunto, ¿no comprende alguna otra cosa?
+En el momento en el que el Sr. Dupin pronuncia las palabras sacramentales:
+,(q[La Asamblea ha adoptado]),
+¿descienden los millones milagrosamente por un rayo de luna
+a las arcas de los señores Fould y Bineau?
+Para que la evolución, como se dice, sea completa,
+¿no hace falta que el Estado organice tanto el cobro como el gasto?
+¿que ponga a sus recaudadores en campaña y a sus contribuyentes a contribuir?
+][
+Estudie entonces la cuestión en sus dos elementos.
+Siempre constatando el destino que el Estado da a los millones votados,
+no olvide constatar también el destino que los contribuyentes habrían dado
+,(--) y ya no pueden dar,(--) a esos mismos millones.
+Entonces, comprenderá que una empresa pública es un medallón con dos caras.
+En una figura un obrero ocupado,
+con la inscripción: ,(emph[lo que se ve]),
+y sobre la otra, un obrero en paro,
+con la inscripción: ,(emph[lo que no se ve]).
+][
+El sofisma que yo combato en este escrito es tanto más peligroso,
+aplicado a las obras públicas, en cuanto sirve a las empresas más alocadas.
+Cuando un ferrocarril o un puente tienen una utilidad real,
+basta invocar esta utilidad.
+Pero si no se puede, ¿que se hace?
+Se recurre a este engaño: ,(q[Hay que dar trabajo a los obreros.])
+][
+Dicho esto, se ordena hacer y deshacer las terrazas de los Campos de Marte.
+El gran Napoleón, lo sabemos, creía hacer una obra filantrópica
+haciendo cavar y rellenar fosas.
+También decía:
+,(q[¿Qué importa el resultado?
+No hay más que ver la riqueza distribuida entre las clases trabajadoras.])
+][
+Vayamos al fondo del asunto.
+El dinero nos hace ilusión.
+Pedir la participación, en forma de dinero,
+de todos los ciudadanos a una obra común,
+es en realidad pedirles una participación al contado:
+ya que cada uno de ellos se procura, mediante el trabajo,
+la suma sobre la que se le impone fiscalmente.
+Que se reuna a todos los ciudadanos para hacerles ejecutar,
+mediante préstamo, una obra útil a todos, es comprensible;
+su recompensa estará en el resultado de la obra misma.
+Pero que tras haberles convocado,
+se les pida hacer carreteras por las que ninguno va a pasar,
+palacios en los que ninguno de ellos habitará,
+y esto, bajo pretexto de ofrecerles trabajo:
+esto sería absurdo y ciertamente podrían objetar:
+de este trabajo no obtendremos beneficio alguno
+(sólo obtendremos el esfuerzo),(pv)
+preferimos trabajar por nuestra cuenta.
+][
+El procedimiento por el que se hace participar a los ciudadanos en dinero
+y no en trabajo no cambia nada el resultado general.
+Solo que, por el primer procedimiento,
+la pérdida se reparte entre todo el mundo.
+Por el primero, aquellos a los que el Estado
+ocupa escapan a su parte de pérdida,
+añadiéndola a la que sus compatriotas han sufrido ya.
+][
+Hay un artículo de la Constitución que dice:
+][
+,(q[La sociedad favorece y apoya el desarrollo del trabajo...
+mediante el establecimiento por el Estado, los departamentos y las comunas,
+de obras públicas destinadas a emplear los brazos desocupados.])
+][
+Como medida temporal, en un tiempo de crisis, durante un invierno riguroso,
+esta intervención del contribuyente puede tener buenos efectos.
+Actúa de la misma manera que los seguros.
+No añade nada al trabajo y al salario,
+pero toma trabajo y salario del tiempo ordinario para dotar,
+con pérdida bien es cierto, las épocas difíciles.
+][
+Como medida permanente, general, sistemática,
+no es más que un engaño ruinosa,
+un imposible, una contradicción
+que muestra un poco de trabajo estimulado que ,(emph[se ve]),
+y oculta mucho trabajo impedido, que ,(emph[no se ve]).
+][
+,(tag :a :name "los_intermediarios")
+,(subtitle[VI. Los intermediarios])
+][
+La sociedad es el conjunto de servicios
+que los hombres prestan por la fuerza o voluntariamente los unos a los otros,
+es decir, servicios públicos y servicios privados.
+][
+Los primeros, impuestos y reglamentados por la ley,
+que no siempre es fácil de cambiar cuando debería,
+pueden sobrevivir largo tiempo, tanto como su propia utilidad,
+y conservar aún el nombre de servicios públicos,
+incluso cuando dejan de ser servicios,
+e incluso cuando no son más que vejaciones públicas.
+Los segundos son del ámbito de la voluntad, de la responsabilidad individual.
+Cada uno da y recibe lo que él quiere, lo que puede,
+tras un debate contradictorio.
+Se les supone siempre una utilidad real,
+medida con exactitud por su valor comparativo.
+][
+Es por esto por lo que aquellos son tachados de inmovilismo,
+mientras que estos obedecen a la ley del progreso.
+][
+Mientras que el desarrollo exagerado de los servicios públicos,
+por la pérdida de fuerzas que entraña,
+tiende a constituir en el seno de la sociedad un funesto parasitismo,
+es bastante singular que varias sectas modernas,
+atribuyendo este carácter a los servicios libres y privados,
+buscan transformar las profesiones en funciones.
+][
+Estas sectas se alzan con fuerza
+contra lo que ellas denominan ,(emph[intermediarios]).
+Suprimirían de buen grado al capitalista, al banquero,
+al especulador, al empresario, al mercader y al negociante,
+acusándoles de interponerse entre la producción y el consumo
+para sangrarlos a los dos, sin añadirles valor alguno.
+,(--) O mejor aún, les gustaría transferir al Estado
+la obra que éstos llevan a cabo, ya que ésta no podría ser suprimida.
+][
+El sofisma de los socialistas sobre este punto consiste
+en mostrar al público lo que él paga a los ,(emph[intermediarios])
+a cambio de sus servicios,
+y en ocultarles lo que habría que pagar al Estado.
+Es siempre la lucha entre lo que se ve directamente con los ojos
+y lo que sólo el espíritu puede intuir,
+entre ,(emph[lo que se ve]) y ,(emph[lo que no se ve.])
+][
+Fue sobre todo en 1847 y a la ocasión de la penuria
+que las escuelas socialistas intentaron y consiguieron popularizar
+su funesta teoría.
+Sabían bien que la más absurda propaganda tiene una posibilidad
+de ser aceptada por aquellos que sufren; ,(inlatin[malesuada fames]).
+][
+Así, ayudándose de grandes frases:
+,(emph[Explotación del hombre por el hombre]),
+,(emph[especulación sobre el hambre]),
+,(emph[acaparamiento]),
+buscan denigrar el comercio y correr un tupido velo sobre sus beneficios.
+][
+,(q[¿Por qué, dicen, dejar a los negociantes
+al cuidado de hacer llegar las mercancías
+de los Estados Unidos y de Crimea?
+¿Por qué el Estado, los departamentos, las comunas
+no organizan un servicio de abastecimiento y almacenes de reserva?
+Llegarían al ,(emph[precio de coste]), ,(XXX[de costos ?])
+y el pueblo, el pobre pueblo estaría liberado del tributo
+que paga al comercio libre, es decir, egoísta, individualista y anárquico.])
+][
+El tributo que el pueblo paga al comercio, ,(emph[es lo que se ve ]).
+El tributo que el pueblo pagaría al Estado o a sus agentes,
+en el sistema socialista, ,(emph[es lo que no se ve]).
+¿En qué consiste el pretendido tributo
+que el pueblo paga al comercio?
+En esto: que dos hombres se presten mutuamente servicio,
+en completa libertad, bajo la presión de la competencia
+y tras debatir el precio.
+Cuando el estómago que tiene hambre está en París
+y el trigo que puede satisfacerlo está en Odessa,
+el sufrimiento no puede cesar si el trigo no se acerca al estómago.
+Hay tres medios para que se opere este acercamiento:
+1º Los hombres hambrientos pueden ir ellos mismos a buscar el trigo.
+2º Pueden dirigirse a los que se encargan de esa tarea.
+3º pueden cotizar a un fondo y encargar
+a funcionarios públicos de la operación.
+][
+De estos tres medios, ¿Cuál es el más ventajoso?
+][
+En cualquier época, en cualquier país, y tanto más cuanto más libres,
+más cultivados y más experimentados son,
+los hombres siempre han escogido ,(emph[preferentemente]) el segundo,
+y confieso que esto es suficiente para poner, a mi modo de ver,
+la respuesta de ese lado.
+Mi espíritu se niega a admitir que la humanidad en masa
+se equivoca en un tema que tanto la concierne
+,(footnote*[
+El autor ha invocado a menudo la presunción de verdad
+que se asocia al consentimiento universal
+manifestado por la práctica de todos los hombres.
+,(NdEEO)]).
+][
+Examinemos en cualquier caso.
+][
+Que treinta y seis millones de ciudadanos partan
+para buscar el trigo que necesitan a Odessa, es evidentemente irrealizable.
+El primer medio no vale nada.
+Los consumidores no pueden actuar por ellos mismos,
+luego por fuerza han de recurrir a ,(emph[intermediarios]),
+sean funcionarios o negociantes.
+][
+Notemos sin embargo que este primer medio sería el más natural.
+En el fondo, corresponde a aquél que tiene hambre
+el ir a buscar el trigo.
+Es una ,(emph[molestia]) que le concierne;
+es un servicio que se debe a si mismo.
+Si otro, por el motivo que sea,
+le presta este ,(emph[servicio]) y se toma la molestia por él,
+este otro tiene derecho a una compensación.
+Lo que digo aquí, es para constatar que los servicios de los intermediarios
+contienen en si mismos el principio de la remuneración.
+De la manera que sea, ya que hay que recurrir
+a lo que los socialistas caracterizan de parásito,
+¿cuál es, entre el negociante y el funcionario, el parásito menos exigente?
+][
+El comercio (lo supongo libre, si no, ¿cómo podría razonar?),
+el comercio, digo, está llamado, por interés,
+a estudiar las estaciones,
+a observar día a día el estado de las cosechas,
+a recibir informaciones de todos los puntos del globo,
+a prever necesidades,
+a tomar precauciones.
+Hay navíos preparados, corresponsales por todas partes,
+y su interés inmediato es comprar al mejor precio posible,
+economizar en todos los detalles de la operación,
+y conseguir los mejores resultados con el mínimo esfuerzo.
+No son sólo los negociantes franceses,
+sino los negociantes del mundo entero
+quienes se ocupan del abastecimiento de Francia en caso de necesidad;
+y si el interés les lleva irremediablemente
+a cumplir con su tarea al mínimo costo,
+la competencia que se hacen entre ellos
+les lleva no menos irremediablemente
+a hacer llegar a los consumidores todo el ahorro realizado.
+El trigo llega, el comercio tiene interés en venderlo lo antes posible
+para evitar riesgos, a verificar sus fondos y recomenzar si se puede.
+Dirigido por la comparación de precios,
+distribuye los alimentos por todo el país,
+comenzando siempre por el lugar más caro,
+es decir, allí donde la necesidad se hace sentir más.
+No es posible entonces imaginar
+una organización mejor calculada en el interés de los que tienen hambre,
+y la belleza de esta organización, que escapa a los socialistas,
+resulta de que es libre.
+,(--) En verdad, el consumidor está obligado a reembolsar al comercio
+de los gastos de transporte, transbordos, almacenaje, comisión, etc.;
+¿pero en que sistema no hace falta que el que come el trigo
+no pague los gastos que hay que hacer para que esté a su alcance?
+Además hay que pagar la remuneración del ,(emph[servicio dado]),
+pero, en cuanto a su importancia, está reducida al ,(emph[mínimo]) posible
+por la competencia;
+y, en cuanto a su justicia,
+sería extraño que los artesanos de París
+no trabajasen para los negociantes de Marsella,
+cuando los negociantes de Marsella
+trabajan para los artesanos de París.
+][
+¿Qué, según la invención socialista cuando el Estado sustituyese al comercio,
+qué ocurriría?
+Ruego que se me señale dónde estaría, para el público, la economía.
+¿Estaría en el precio de compra?
+Pero que se imagine los delegados de cuarenta mil comunas
+que llegan a Odessa un día dado y de necesidad;
+que se imagine el efecto sobre el precio.
+¿Estaría en los gastos?
+Pero, ¿harán falta menos navíos, menos marineros,
+menos transbordos, menos almacenaje,
+o serían dispensados de pagar todas estas cosas?
+¿Será en el beneficio de los negociantes?
+¿Pero es que los delegados funcionarios irán a Odessa a cambio de nada?
+¿Es que trabajarían y viajarían por el principio de la fraternidad?
+¿No haría falta que viviesen?
+¿No haría falta que su tiempo fuese pagado?
+¿Y creéis que esto no superará mil veces
+el dos o tres por ciento que gana el negociante,
+tasa que él está presto a aceptar?
+][
+Y además, piensen en la dificultad
+de recaudar tantos impuestos, de repartir tantos alimentos.
+Piensen en las injusticias, en los abusos inseparables de une empresa tal.
+Piensen en la responsabilidad que pesaría sobre el gobierno.
+][
+Los socialistas que han inventado estas locuras,
+y que, los días de desgracia,
+insuflan en el espíritu de las masas,
+de dan el título de ,(emph[hombres avanzados]),
+y peligrosamente el uso, ese tirano de las lenguas,
+ratifica la palabra y el juicio que implica.
+,(emph[¡Avanzados!])
+Esto supone que estos señores ven más lejos que el vulgo;
+que su solo error es el de estar adelantados a su siglo;
+y que si no ha venido aún el tiempo de suprimir ciertos servicios libres,
+pretendidos parásitos, la culpa es del público
+que está retrasado respecto al socialismo.
+En mi alma y conciencia, es lo contrario lo verdadero,
+y no sé a qué siglo bárbaro habría que remontar para encontrar,
+sobre este tema, el nivel de conocimientos socialista.
+][
+Los sectarios modernos oponen sin cese la asociación a la sociedad actual.
+No se dan cuenta de que la sociedad, en un régimen de libertad,
+es una verdadera asociación,
+muy superior a todas las que salen de su fértil imaginación.
+][
+Elucidemos esto mediante un ejemplo:
+][
+Para que un hombre pueda, al levantarse, ponerse un traje,
+hace falta que un terreno haya sido
+librado de malas hierbas,
+secado, arado, sembrado de un cierto tipo de vegetal;
+hace falta que los rebaños se hayan alimentado de ellos,
+que hayan dado lana, que ésta haya sido hilada, tejida, teñida
+y convertida en tela;
+que esta tela haya sido cortada, cosida, y convertida en vestido.
+Y toda esta serie de operaciones implica una multitud de personas;
+ya que ella supone el empleo de instrumentos para arar,
+rediles, ,(XXX[apriscos, establos ???])
+fábricas, hulla, minas, carros, etc.
+][
+Si la sociedad no fuera una asociación más que real,
+el que quisiera un traje se vería obligado a trabajar en solitario,
+es decir a realizar él mismo todos los innumerables actos de esta serie,
+desde el primer golpe de pico que la comienza
+hasta el último cosido de aguja que la termina.
+][
+Pero, gracias a la sociabilidad
+que es el carácter distintivo de nuestra especie,
+estas operaciones han sido distribuidas entre una multitud de trabajadores,
+y se subdividen cada vez más por el bien común,
+a medida que, incrementándose el consumo,
+un acto especializado puede alimentar una industria nueva.
+Viene después el reparto del producto,
+que se produce según el valor que cada uno ha aportado a la obra final.
+Si esto no una asociación, me pregunto qué puede serlo.
+][
+Noten que como ninguno de los trabajadores
+ha sacado de la nada la mínima partícula de materia,
+han tenido que ofrecerse servicios mutuos,
+ayudarse dentro de un objetivo común,
+y que todos pueden ser considerados, respecto a los otros,
+como ,(emph[intermediarios]).
+Si, por ejemplo, en el curso de la operación,
+el transporte se vuelve importante para ocupar a una persona,
+el hilado una segunda,
+el tejido una tercera,
+¿por qué la primera sería considerada como más parásita que las otras?
+¿No hace falta que el transporte se haga?
+¿El que lo hace no consacra tiempo y molestias a ello?
+¿No les hacen falta a sus asociados?
+¿Hacen estos más que él u otra cosa?
+¿No están todos sometidos a la remuneración,
+es decir por el reparto del producto, a la ley del ,(emph[precio discutido])?
+¿No es así que en completa libertad, por el bien común,
+se produce esta división de trabajos y se llega a esos acuerdos?
+¿Qué hace entonces un socialista, bajo pretexto de la organización,
+viniendo despóticamente a destruir nuestros acuerdos voluntarios,
+terminar con la división del trabajo,
+substituir los esfuerzos aislados por los asociados
+y hacer retroceder la civilización?
+][
+La asociación, tal como yo la describo aquí,
+¿es menos asociación, porque cada uno entra y sale libremente,
+escoge su lugar, juzga y estipula por si mismo bajo su responsabilidad,
+y aporta la motivación y la garantía de su interés personal?
+Para que merezca tal nombre,
+¿es necesario que un pretendido reformador
+nos venga a imponer su fórmula y su voluntad y concentrar,
+por así decir, la humanidad en él mismo?
+][
+Cuanto más examinamos estas ,(emph[escuelas avanzadas]),
+más nos convencemos de que en el fondo no hay más que una cosa:
+la ignorancia proclamándose infalible
+y reclamando el despotismo en nombre de esta infalibilidad.
+][
+Que el lector excuse esta digresión.
+No puede ser inútil en el momento en que,
+salidas de libros ,(emph[sansimonianos]), ,(emph[falansterianos]) e
+,(emph[icarianos]),
+,(footnote*[
+Los sansimonianos, falansterianos e icarianos
+son miembros de diversas sectas socialistas de la época.
+Los primeros son los discípulos de San Simón,
+los segundos eran partidarios de los falansterios,
+sociedades comunistas similares a los muy posteriores kibboutz.
+La Icaría fue una utopía socialista que sus partidarios
+quisieron fundar en América. ,(NdT)
+])
+las proclamas contra los intermediarios
+invaden el periodismo y las tribunas,
+y amenazan seriamente la libertad del trabajo y de las transacciones.
+][
+,(tag :a :name "restriccion")
+,(subtitle[VII. Restricción])
+][
+El Sr. Prohibidor
+(no he sido yo quien lo ha llamado así, sino el Sr. Charles Dupin,
+que desde entonces... pero ahora...),
+el Sr. Prohibidor consagraba su tiempo y su capital
+a convertir en hierro el mineral de sus tierras.
+Como la naturaleza había sido más pródiga con los Belgas,
+éstos daban su hierro a los Franceses a mejor precio que el Sr. Prohibidor,
+lo que significa que todos los Franceses, o Francia,
+podían obtener una cantidad de hierro ,(emph[con menos trabajo]),
+comprándolo a los honestos Flamencos.
+Guiados por su interés, éstos no se equivocaban,
+y todos los días veíamos una multitud
+de ferrateros, herreros, carrocero, mecánicos, herradores y trabajadores
+ir ellos mismo s, o a través de intermediarios, a abastecerse a Bélgica.
+Ésto no agradó en absoluto al Sr. Prohibidor.
+Al principio le vino la idea de parar semejante abuso por sus propios medios.
+Es lo mínimo que se podía esperar, ya que él era el único que sufría por ello.
+Cogeré mi carabina, se dijo, me pondré cuatro pistolas al cinto,
+llenaré mi cartuchera, me ceñiré la espada y así equipado
+me dirigiré a la frontera.
+Allí, al primer herrero, ferratero, mecánico o cerrajero que se presente,
+para hacer bien sus negocios y no los míos, lo mato,
+para que aprenda a vivir correctamente.
+][
+Cuando iba a partir, el Sr. Prohibidor hizo algunas reflexiones
+que atemperaron su ardor belicoso.
+Se dijo: no es del todo imposible
+que los compradores de hierro, mis compatriotas y enemigos,
+se tomen a mal el asunto,
+y que en vez de dejarse matar, me maten a mí.
+Entonces, incluso llevando a todos mis sirvientes,
+no podremos vigilar todos los sitios de paso.
+Y encima todo esto me costará enormemente caro,
+más caro de lo que merece la pena el resultado.
+][
+El Sr. Prohibidor iba a resignarse tristemente
+a no ser más libre que cualquier otro,
+cuando un rayo de luz vino a iluminar su cerebro.
+Se acordó que en París hay una gran fábrica de leyes.
+¿Qué es una ley? se dijo.
+Es una medida que, una vez decretada, buena o mala,
+todo el mundo tiene que cumplir.
+Para el cumplimiento de ésta, se organiza una fuerza pública,
+y para constituir dicha fuerza se obtienen de la nación hombres y dinero.
+][
+Si consiguiera que saliera de la gran fábrica parisina
+una mínima ley que dijera:
+,(q[El hierro belga queda prohibido,])
+obtendría los resultados siguientes:
+el gobierno reemplazaría los sirvientes
+que iba yo a enviar a la frontera por veinte mil
+de mis herreros, cerrajeros, herradores artesanos, mecánicos
+y trabajadores recalcitrantes.
+Después, para mantener en buena disposición
+el ánimo de esos veinte mil aduaneros,
+se les distribuirá veinticinco millones de francos
+tomados a esos mismos
+herreros, cerrajeros, herradores artesanos, mecánicos y trabajadores.
+La vigilancia estará mejor realizada;
+no me costará nada, no seré expuesto a la brutalidad de los anticuarios,
+venderé el hierro a mi precio, y disfrutaré de la dulce recreación
+de ver nuestro gran pueblo vergonzosamente engañado.
+Esto le enseñará a proclamarse sin cese el precursor
+y el promotor de todo progreso en Europa.
+¡Oh! ,(emph[sería más que interesante])
+y merece la pena ser intentado.
+][
+Así pues, el Sr. Prohibidor se presentó en la fábrica de leyes.
+,(--) En otra ocasión contaré la historia de sus sórdidos tejemanejes;
+hoy no quiero hablar más que de sus más ostensibles iniciativas.
+,(--) Hizo valer delante de los señores legisladores
+la siguiente consideración:
+][
+,(q[El hierro belga se vende en Francia a diez francos,
+lo que me fuerza a vender el mío al mismo precio.
+Me gustaría venderlo a quince y no puedo,
+por culpa de ese hierro belga que Dios maldiga.
+Hagan una ley que diga:
+,(--) El hierro belga no entrará más en Francia. ,(--)
+Inmediatamente yo elevo mi precio a quince francos
+y he aquí las consecuencias:])
+][
+,(q[Por cada quintal de hierro que yo distribuya al público,
+en vez de recibir diez francos, serán quince, me enriqueceré más rápidamente,
+y extenderé mi explotación, ocupando a más obreros.
+Mis obreros y yo haremos más gastos,
+para regocijo de nuestros proveedores de todos los lugares de alrededor.
+Estos, teniendo más salidas, harán más pedidos a la industria,
+y poco a poco, la actividad se extenderá por todo el país.
+Esta bienafortunada moneda de cien perras,
+que ustedes depositarán en mi caja fuerte,
+como una piedra que cae en  un lago,
+generará un número ilimitado de círculos concéntricos.])
+][
+Encantados con este discurso, encantados de aprender
+que es tan fácil aumentar legislativamente la riqueza de un pueblo,
+los fabricantes de leyes votarán la Restricción.
+¿Para qué hablamos tanto de trabajo y economía? dicen.
+¿Para qué todos estos penosos medios de aumentar la riqueza nacional,
+si un Decreto es suficiente?
+][
+Y en efecto, la ley tuvo
+todas las consecuencias anunciadas por el Sr. Prohibidor;
+solo que también tuvo otras, dado que, hagámosle justicia,
+no había hecho un razonamiento ,(emph[falso]),
+ino un razonamiento ,(emph[incompleto]).
+Reclamando un privilegio, había mostrado los efectos que ,(emph[se ven]),
+dejando en la penumbra los que ,(emph[no se ven]).
+No mostró más que dos personajes,
+cuando en realidad había tres en la escena.
+A nosotros corresponde subsanar este olvido involuntario o premeditado.
+][
+Sí, el escudo desviado legislativamente
+hacia la caja fuerte del Sr. Prohibidor,
+constituye una ventaja para él y para los que esto debe promover el trabajo.
+,(--) Y si el Decreto hubiera hecho bajar este escudo de la Luna,
+esos buenos efectos no habrían sido compensados por ningún efecto perverso.
+Desgraciadamente, no es de la Luna de donde sale
+esta misteriosa moneda de cien perras,
+sino del bolsillo de un herrero, ferretero, carretero, herrero,
+trabajador, constructor, en una palabra, de Juan Buenhombre,
+que la da hoy, sin recibir
+ni un miligramo de hierro de más que cuando la pagaba a diez francos.
+A primera vista, debemos darnos cuenta de que esto cambia bastante la cuestión,
+ya que, evidentemente, el ,(emph[beneficio]) del Sr. Prohibidor
+es compensado por la ,(emph[pérdida]) de Juan Buenhombre,
+y todo lo que el Sr. Prohibidor podrá hacer de este escudo
+para favorecer el trabajo Juan Buenhombre lo habría hecho igualmente.
+La piedra es lanzada sobre un punto del lago sólo
+porque ha sido impedida por la legislación de caer en otro.
+][
+Entonces, lo que ,(emph[no se ve]) compensa lo que ,(emph[se ve]),
+y hasta aquí es, por residuo de la operación, una injusticia,
+y ¡algo deplorable! una injusticia perpetrada por la ley.
+][
+Pero no es todo.
+He dicho que dejábamos siempre oculto un tercer personaje.
+Es necesario que lo haga aparecer aquí para que nos revele
+una ,(emph[segunda pérdida]) de cinco francos.
+Así tendremos el resultado de la evolución completa.
+][
+Juan Buenhombre posee 15 Fr., fruto de su sudor.
+En este momento aún es libre.
+¿Que hace de esos 15 Fr.?
+Se compra un artículo de moda por 10 Fr.
+y es con este artículo con el que paga
+(o que el intermediario paga por él)
+el quintal de hierro belga.
+Le quedan aún a Juan Buenhombre 5 Fr.
+No los tira al río, sino que (y esto es lo que ,(emph[no se ve]))
+los da a un industrial a cambio de un disfrute,
+por ejemplo a un librero a cambio del
+,(emph[Discurso sobre le Historia Universal]) de Bousset.
+][
+Así, en lo que concierne al ,(emph[trabajo nacional]),
+éste es promovido en la medida de 15 Fr., a saber:
+][
+10 Fr. que van al ,(emph[artículo parisino]),(pv)
+5 Fr. Que van al librero.
+][
+Y en cuanto a Juan Buenhombre, obtiene por sus 15 Fr.
+dos objetos de satisfacción, a saber:
+][
+1º, un quintal de hierro;
+2º, un libro.
+][
+El decreto se promulga.
+][
+¿Qué le ocurre a la situación de Juan Buenhombre?
+¿Qué le sucede a la del trabajo nacional?
+][
+Cuando Juan Buenhombre da los 15 Fr., hasta el último céntimo,
+a cambio de un quintal de hierro,
+no obtiene más disfrute que el quintal de hierro.
+Pierde el beneficio de un libro o de un objeto equivalente.
+Pierde 5 francos.
+Estaremos de acuerdo; es imposible no estarlo;
+no se puede discutir que, cuando la restricción aumenta el precio de las cosas,
+el consumidor pierde la diferencia.
+][
+Pero, se dice, el trabajo nacional ha ganado.
+][
+No, no ha ganado;
+ya que, desde el decreto, no ha sido favorecido más que por 15 Fr,
+tanto como antes del mismo.
+][
+Solo que, desde el decreto,
+los 15 Fr. de Juan Buenhombre van a la metalurgia,
+mientras que antes se repartían entre el artículo de moda y el librero.
+][
+La violencia que ejerce el Sr. Prohibidor él mismo en la frontera
+o la que él hace ejercer por la ley
+pueden ser juzgadas de manera bien diferente, desde el punto de vista moral.
+Hay gente que piensa que la expoliación pierde toda su inmoralidad
+siempre que ésta sea legal.
+En cuanto a mí, no podría imaginar una circunstancia más agravante.
+De todas formas, lo que es cierto,
+es que los resultados económicos son los mismos.
+][
+Tómenlo como quieran, pero miren con atención y verán
+que no sale nada bueno de la expoliación legal o ilegal.
+No negamos que algo bueno no salga para la industria del Sr. Prohibidor,
+o si se quiere para el trabajo nacional, un beneficio de 5 Fr.
+Pero nosotros afirmamos que se obtienen también pérdidas,
+primero para Juan Buenhombre, que paga 15 Fr. por lo que le habría costado 10;
+y también para el trabajo nacional que no recibe la diferencia.
+Escojan una de las dos pérdidas con la que se darán el gusto de compensar
+el beneficio que reconocemos.
+La otra no será menos una ,(emph[pérdida inútil]).
+][
+Moraleja: Violentar no es producir, es destruir.
+¡Oh!, si violentar fuera producir,
+nuestra Francia sería mucho más rica de lo que lo es.
+][
+,(tag :a :name "las_maquinas")
+,(subtitle[VIII. Las Máquinas])
+][
+,(q[¡Malditas sean las máquinas!
+Cada año su potencia progresiva lleva a la pauperización
+de millones de obreros quitándoles el trabajo,
+con el trabajo el salario, con el salario ¡el Pan!
+¡Maldición pese sobre ellas!])
+][
+He aquí el grito que se eleva desde el prejuicio vulgar
+y del cual el eco resuena en los periódicos.
+][
+Pero maldecir las máquinas es ¡maldecir el espíritu humano!
+][
+Lo que me confunde, es que se pueda encontrar
+un hombre que se sienta a gusto en semejante doctrina
+,(footnote*[
+,(XXX)
+Ver en el tomo IV, páginas 86 y 94,
+los cap. ,(bof-ref "conflit_de_principes" [XIV])
+y ,(bof-ref "principes_absolus" [XVIII])
+de la 1ª serie de ,(Soph-ref(cite-title[Sofismas])),
+y, página 538, las ,(bof-ref "protectionisme_et_communisme"
+[reflexiones enviadas al Sr. Thiers sobre el mismo tema]),(pv)
+además, en el presente volumen,
+   el ,(ref :url "#ahorro_y_lujo" [cap. XI]).
+,(NdEEO)
+]).
+][
+Ya que al final, si es cierta, ¿cuál es la rigurosa consecuencia?
+Que no hay actividad, ni bienestar, ni riquezas, ni felicidad posibles
+más que para los pueblos estúpidos, golpeados por el inmovilismo mental,
+a quienes Dios no ha dado el don funesto
+de pensar, de observar, de combinar, de inventar,
+de obtener los más grandes resultados con los mínimos esfuerzos.
+Al contrario, los harapos, las chozas innobles, la pobreza, la inanición
+es la inevitable recompensa de toda nación que busca y encuentra
+en el hierro, el fuego, el viento, la electricidad, el magnetismo,
+las leyes de la química y la mecánica,
+en una palabra en las fuerzas de la naturaleza,
+un suplemento de sus propias fuerzas,
+y es ésta buena ocasión de decir con Rousseau:
+,(q[Todo hombre que piensa es un animal depravado.])
+][
+Pero no es todo: si esta doctrina es cierta,
+como todos los hombres piensan e inventan,
+como todos, de hecho, desde el primero hasta el último,
+y en cada minuto de su existencia,
+intentar hacer cooperar las fuerza naturales,
+hacer más con menos,
+reducir su mano de obra o la que pagan,
+conseguir la mayor suma posible de satisfacciones con el mínimo de trabajo,
+hay que concluir que la humanidad en su totalidad
+está llevada a su decadencia,
+precisamente por esta aspiración inteligente
+hacia el progreso que atormenta cada uno de sus miembros.
+][
+Además debe ser constatado por la estadística
+que los habitantes de Lancastre,
+huyendo de esta patria de máquinas,
+van a buscar trabajo en Irlanda, donde no se conocen,
+y, por la historia, que la barbarie ensombrece las épocas de civilización,
+y que la civilización brilla en los tiempos de ignorancia y de barbarie.
+][
+Evidentemente, hay, en este amasijo de contradicciones,
+algo que choca y nos advierte de que el problema oculta
+un elemento de solución que no ha sido suficientemente aclarado.
+][
+He aquí todo el misterio:
+tras ,(emph[lo que se ve]) habita ,(emph[lo que no se ve]).
+Voy a intentar sacarlo a la luz.
+Mi demostración no podrá ser sino una repetición de la precedente,
+ya que se trata de un problema idéntico.
+][
+Es una inclinación natural de los hombres el ir,
+si no les impide mediante la violencia, hacia el ,(emph[buen negocio]),
+,(--) es decir, hacia lo que, para la misma satisfacción, ahorra trabajo,
+,(--) que este buen negocio les viene
+de un hábil ,(emph[Productor extranjero])
+o de un hábil ,(emph[Productor mecánico]).
+La objeción teórica que se dirige a esta inclinación
+es la misma en los dos casos.
+Tanto en uno como en el otro,
+se le reprocha el trabajo que en apariencia golpea de muerte.
+Mas, el trabajo realizado no ,(emph[inerte]), sino ,(emph[disponible]),
+es precisamente lo que la determina.
+][
+Y es esto por lo que se le opone también, en los dos casos,
+el mismo obstáculo práctico, la violencia.
+El legislador ,(emph[prohibe])
+la competencia extranjera y la competencia mecánica.
+,(--) Ya que, ¿que otra manera puede existir
+de impedir una tendencia natural de los hombres sino robarles la libertad?
+][
+En muchos países, cierto es, el legislador no golpea más
+que una de las dos competencias y se limita a lamentarse de la otra.
+Esto no prueba más que una cosa, y es que, en este país,
+el legislador es inconsecuente.
+][
+Esto no debe sorprendernos.
+En una falsa vía siempre se es inconsecuente,
+si no, se mataría a la humanidad.
+Nunca se ha visto ni se verá un principio falso
+llevado hasta sus últimas consecuencias.
+Digo por otra parte:
+La inconsecuencia es el límite de lo absurdo.
+Y podría haber añadido:
+ella es al mismo tiempo la prueba.
+][
+Volvamos a la demostración; no será larga.
+][
+Juan Buenhombre tenía dos francos que hacía ganar a dos obreros.
+][
+Pero he aquí que se imagina un mecanismo de cuerdas y pesas
+que reduce el trabajo a la mitad.
+Así que obtiene la misma satisfacción,
+se ahorra un franco y despide a un obrero.
+][
+Despide a un obrero; ,(emph[esto es lo que se ve]).
+][
+Y, no viendo más que esto, se dice:
+,(q[Ved aquí como la miseria surge de la civilización,
+ved como la libertad es fatal para la igualdad.
+El espíritu humano ha realizado una conquista,
+e inmediatamente un obrero cae para siempre en el abismo de la pobreza.
+Puede sin embargo que Juan Buenhombre continúe a hacer trabajar
+los dos obreros, pero no les dará más que diez perras a cada uno,
+ya que se harán la competencia entre ellos y se ofrecerán a la rebaja.
+Así es como los ricos son cada vez más ricos y los pobres cada vez más pobres.
+Hay que rehacer la sociedad.])
+][
+¡Bella conclusión, y digna del exordio!
+][
+Felizmente, exordio y conclusión, son los dos falsos,
+porque, detrás de la mitad del fenómeno ,(emph[que vemos]),
+hay otra mitad que ,(emph[no vemos]).
+][
+No se ve el franco ahorrado por Juan Buenhombre
+y los efectos necesarios de este ahorro.
+][
+Dado que, debido a su invención,
+Juan Buenhombre no gasta más que un franco en mano de obra,
+tras la obtención de una satisfacción determinada, le queda otro franco.
+][
+Si existe en el mundo un obrero que ofrezca sus brazos desocupados,
+hay en este mundo también un capitalista que ofrece su franco ocioso.
+Estos dos elementos se encuentran y se combinan.
+][
+Y es claro como el día que entre la oferta y la demanda de trabajo,
+entre la oferta y la demanda de salario,
+la relación no ha cambiado en absoluto.
+][
+La invención y un obrero, pagado con el primer franco,
+hacen ahora la obra que realizaban antes dos obreros.
+][
+El segundo obrero, pagado con el segundo franco,
+realiza una obra nueva.
+][
+¿Qué ha cambiado entonces en el mundo?
+Hay una satisfacción nacional más, en otros términos,
+la invención es una conquista gratuita,
+un beneficio gratuito para la humanidad.
+][
+De la forma que he dado a mi demostración,
+podrá extraerse esta consecuencia:
+][
+,(q[Es el capitalista el que recoge todo el fruto de las máquinas.
+La clase asalariada, si bien no las sufre que momentáneamente,
+no las aprovecha nunca, dado que, según usted mismo,
+ellas ,(emph[desplazan]) una porción del trabajo nacional
+sin ,(emph[disminuirlo]), cierto, pero sin ,(emph[aumentarlo]) tampoco.])
+][
+No entra en el plan de este opúsculo el resolver todas las objeciones.
+Su único objetivo es combatir un prejuicio vulgar,
+muy peligroso y muy extendido.
+Yo quería probar que una máquina nueva no pone ociosos
+un cierto número de brazos más que poniendo también,
+,(emph[forzosamente]), disponibles la remuneración que les paga.
+Estos brazos y esta remuneración pueden producir
+lo que era imposible antes de la invención;
+de donde se sigue que ,(emph[da por resultado definitivo
+un aumento de la satisfacción con el mismo trabajo]).
+][
+¿Quién recoge este excedente de satisfacción?
+][
+¿Quién? primero el capitalista, el inventor,
+el primero que se sirve con éxito de la máquina,
+y esa es la recompensa de su genio y de su audacia.
+En ese caso, como acabamos de ver,
+realiza un ahorro en los gastos de producción,
+el cual, de cualquier manera que sea gastado
+(y siempre lo es),
+ocupa tantos brazos como la máquina ha hecho despedir.
+][
+Pero enseguida la competencia
+le fuerza a bajar el precio de venta en la medida de este mismo ahorro.
+Y entonces ya no es el inventor el que recibe el beneficio de la invención;
+es el comprador del producto, el consumidor, el público,
+incluidos los obreros, en una palabra, es la humanidad.
+][
+Y ,(emph[lo que no se ve]), es que el Ahorro,
+así procurado a todos los consumidores,
+forma un fondo de donde el salario extrae alimento,
+que reemplaza el que la máquina ha agotado.
+][
+Así, retomando el ejemplo de antes,
+Juan Buenhombre obtiene un producto gastando dos francos de salario.
+Gracias a su invención, la mano de obra no le cuesta más que un franco.
+][
+Mientras venda el producto al mismo precio,
+hay un obrero ocupado de menos haciendo este producto específico,
+,(emph[que es lo que se ve]),
+pero hay un obrero más ocupado por el franco
+que Juan Buenhombre ha ahorrado:
+,(emph[es lo que no se ve]).
+][
+Cuando, por la marcha natural de las cosas,
+Juan Buenhombre es obligado a bajar de un franco el precio del producto,
+entonces deja de realizar un ahorro;
+entonces no dispone de un franco
+para encargar al trabajo nacional una nueva producción.
+Pero, en este aspecto, el que lo ha adquirido se pone en su lugar,
+y éste, es la humanidad.
+Quienquiera que compre el producto paga un franco menos, ahorra un franco,
+y pone necesariamente este ahorro al servicio del fondo de salarios:
+,(emph[esto es lo que sigue sin verse]).
+][
+Se ha dado, a este problema de máquinas, otra solución,
+fundada sobre los hechos.
+][
+Se ha dicho: La máquina reduce los gastos de producción,
+y hace bajar el precio del producto.
+La rebaja del producto produce un aumento del consumo,
+la cual requiere de un aumento de la producción,
+y en definitiva, la intervención de otros tantos obreros o más,
+que los que hacían falta antes.
+Citamos, apoyándolo, la imprenta, la fábrica de hilado, la prensa, etc.
+][
+Esta demostración no es científica.
+][
+Habría que concluir que,
+si el consumo de un producto específico del que se trate
+permanece estacionario o casi,
+la máquina perjudicaría el trabajo.
+,(--) Lo que no es así.
+][
+Supongamos que en un país todos lo hombres llevan sombrero.
+Si, mediante una máquina, se redujera el precio a la mitad,
+no se sigue ,(emph[necesariamente]) que se consumirá el doble de ellos.
+][
+¿Se dirá, en ese caso, que una porción del trabajo nacional ha sido eliminado?
+Si, según la demostración popular.
+No, según la mía;
+ya que, aunque en ese país no se comprara un sólo sombrero de más,
+el fondo entero de salarios no quedaría menos a salvo;
+lo que iría de menos a la industria sombrerera
+se encontraría en el Ahorro realizado por todos los consumidores,
+e iría de ahí a pagar todo el trabajo que la máquina ha inutilizado,
+provocando un desarrollo nuevo de todas las industrias.
+][
+Y es así como suceden las cosas.
+He visto los periódicos a 80 Fr., y ahora están 48.
+Es un ahorro de 32 fr. para los abonados.
+No es seguro, al menos, no es necesario que los 32 Fr.
+continúen yendo a la industria periodística;
+pero lo que es seguro, lo que es necesario,
+es que, si no llevan esa dirección, tomarán otra.
+Uno lo utiliza para recibir más periódicos,
+otro para alimentarse mejor,
+un tercero para vestirse mejor,
+un cuarto para amueblar mejor su casa.
+][
+Así, las industrias son solidarias.
+Forman un vasto conjunto donde todas sus partes
+se comunican por canales secretos.
+Lo que se ahorra en una aprovecha a todas las demás.
+Lo que importa, es bien comprender
+que nunca, nunca jamás, los ahorros tienen lugar
+a costa del trabajo y los salarios.
+][
+,(tag :a :name "el_credito")
+,(subtitle[IX. El Crédito])
+][
+Desde siempre, pero sobretodo en los últimos años,
+se ha buscado universalizar la riqueza universalizando el crédito.
+][
+No creo exagerar diciendo que, desde la revolución de Febrero,
+las imprentas parisinas han vomitado más de diez mil panfletos preconizando
+esta solución al ,(emph[Problema social]).
+][
+Esta solución, tiene por base una mera ilusión óptica,
+si se puede decir que una ilusión sea una base.
+][
+Se comienza confundiendo el valor monetario con los productos,
+después se confunde el papel moneda con el valor monetario,
+y de estas dos confusiones se pretende extraer una realidad.
+][
+Hay que, en esta cuestión, completamente olvidar el dinero, la moneda,
+los billetes y los otros instrumentos o medios por los que los productos
+pasan de mano en mano,
+para no ver más que los productos mismos,
+que son la verdadera materia de préstamo.
+][
+Ya que cuando un labrador pide prestados cincuenta francos
+para comprar un carro,
+no son en realidad cincuenta francos lo que se le presta,
+sino el carro mismo.
+][
+Y cuando un mercader toma prestados veinte mil francos
+para comprar una casa,
+no son veinte mil francos lo que debe,
+sino la casa.
+][
+El dinero no aparece en escena más que para facilitar
+un acuerdo entre diversas partes.
+][
+Pedro puede no estar dispuesto a prestar su carro
+y Juan puede estarlo a prestar su dinero.
+¿Qué hace Guillermo entonces?
+Toma prestado a Juan el dinero,
+y con este dinero, compra el carro a Pedro. 
+][
+Pero, en realidad, nadie toma prestado dinero por el dinero mismo.
+Se toma un préstamo para conseguir productos.
+][
+Mas, en ningún país, no pueden pasarse de una mano a otra
+más productos de los que hay.
+][
+Cualquiera que sea la suma de valor monetario y de papel que circule,
+el conjunto de tomadores de préstamos no pueden recibir
+más carros, casas, útiles, aprovisionamientos, materias primas,
+que el conjunto de prestadores pueden proveer.
+][
+Ya que metámonos bien en la cabeza
+que todo tomador de un préstamo supone alguien que presta,
+y que toda toma implica un préstamo.
+Aclarado esto,
+¿qué bien pueden hacer las instituciones de crédito?
+Facilitar, entre los tomadores y los que prestan,
+el medio de encontrarse y entenderse.
+Pero, lo que no pueden hacer,
+es aumentar instantáneamente la masa de objetos
+prestados y tomados en préstamo.
+][
+Ésto se necesitará sin embargo
+para que el objetivo de los Reformadores se alcance,
+ya que aspiran a nada menos que a poner
+carros, casas, útiles, provisiones, materias primas
+entre las manos de todos los que lo deseen.
+][
+Y para ello, ¿qué imaginan?
+][
+Dar al préstamo la garantía del Estado.
+][
+Profundicemos en la materia, ya que hay algo ,(emph[que se ve]),
+y algo ,(emph[que no se ve]).
+Intentemos ver estas dos cosas.
+][
+Supongamos que no hay más que un carro en le mundo y que dos
+labradores pretenden obtenerlo.
+][
+Pedro es poseedor del único carro disponible en Francia.
+Juan y Santiago desean pedirlo prestado.
+Juan, por su probidad, sus propiedades, por su buena reputación,
+ofrece garantías.
+Se ,(emph[cree]) en él; tiene ,(emph[crédito]).
+Santiago no inspira confianza o inspira menos.
+Naturalmente, lo que sucede es que Pedro presta su carro a Juan.
+][
+Pero he aquí que, bajo la inspiración socialista,
+el Estado interviene y dice a Pedro:
+preste su carro a Santiago, os garantizo el reembolso,
+y esta garantía vale más que la de Juan,
+ya que no hay más que él para responder por él mismo,
+y yo, no tengo nada, cierto,
+pero dispongo de la fortuna de todos los contribuyentes;
+con sus dineros os pagaré a medida el préstamo y el interés.
+][
+En consecuencia, Pedro presta su carro a Santiago:
+,(emph[es lo que se ve]). 
+][
+Y los socialistas se frotan las manos, diciendo:
+Vean como nuestro plan ha funcionado.
+Gracias a la intervención del Estado, el pobre Santiago tiene un carro.
+Ya no estará obligado a layar la tierra;
+hele aquí en el camino hacia la fortuna.
+Es un bien para él y un beneficio para la nación tomada en masa.
+][
+¡Pues no! señores, no es un beneficio para la nación,
+ya que he aquí ,(emph[lo que no se ve]).
+][
+,(emph[No vemos]) que el carro ha sido para Santiago
+sólo porque no lo ha sido para Juan.
+][
+,(emph[No vemos]) que, si Santiago labra en lugar de layar,
+Juan será forzado a layar en lugar de labrar.
+][
+Que, en consecuencia,
+lo que se consideraba como un ,(emph[incremento]) del préstamo
+no es más que un ,(emph[desplazamiento]) del mismo.
+][
+Además, ,(emph[no se ve]) que este desplazamiento
+implica dos profundas injusticias.
+][
+Injusticia para con Juan, quien,
+tras haber merecido y conquistado el ,(emph[crédito])
+por su probidad y su actividad
+se ve desprovisto de él.
+][
+Injusticia para con los contribuyentes,
+expuestos a pagar una deuda que nada tiene que ver con ellos.
+][
+¿Se dirá que el gobierno ofrece a Juan las mismas facilidades que a Santiago?
+Pero como no hay más que un carro disponible, no se pueden prestar dos.
+El argumento siempre vuelve al hecho de que,
+gracias a la intervención del Estado,
+se concederán más préstamos de los que se pueden dar,
+ya que aquí el carro representa la masa de los capitales disponibles.
+][
+He reducido, cierto es, la operación a su expresión más simple;
+pero, prueben con la misma lógica
+las instituciones gubernamentales de crédito más complejas,
+se convencerán de que no pueden tener más resultado que éste:
+,(emph[desplazar]) el crédito, no ,(emph[aumentarlo]).
+En un país y tiempo dados,
+no hay más que una cierta suma de capitales disponibles y todos se utilizan.
+Garantizando a los insolventes,
+el Estado puede en efecto aumentar el número de los tomadores de crédito,
+hacer aumentar el interés (siempre perjudicial para el contribuyente),
+pero, lo que no puede hacer,
+es aumentar el número de los que prestan y el total de lo prestado.
+][
+Que no se me impute, sin embargo, una conclusión de la que Dios me libre.
+Yo digo que la Ley no debe favorecer artificialmente
+las peticiones de préstamos;
+pero tampoco que deba dificultarlas artificialmente.
+Si hubiera, en nuestro régimen hipotecario o en otros,
+obstáculos a la difusión y a la aplicación del crédito,
+que se hagan desaparecer;
+nada mejor, nada más justo.
+Pero eso es, con la libertad,
+todo lo que deben pedir a la Ley los Reformadores dignos de ese nombre.
+][
+,(tag :a :name "argelia")
+,(subtitle[X. Argelia])
+][
+Pero he aquí cuatro oradores que se disputan la tribuna.
+Hablan primero todos a la vez, luego uno tras otro.
+¿Qué han dicho? cosas seguramente muy bellas
+sobre el poderío y la grandeza de Francia,
+sobre la necesidad de sembrar para cosechar,
+sobre el brillante futuro de nuestra gigantesca colonia,
+sobre la ventaja de enviar lejos el ,(emph[exceso]) de nuestra población,
+etc., etc.;
+magníficas muestras de elocuencia, siempre ornamentadas de esta perorata:
+][
+,(q[Voten cincuenta millones (más o menos)
+para hacer en Argelia puertos y carreteras,
+para llevar colonos, para construir casas, cultivar los campos.
+Así aliviarán al trabajador francés,
+favorecerán el trabajo africano,
+y harán fructificar el comercio marsellés.
+Todo son beneficios.])
+][
+Sí, es cierto, si no consideramos los cincuenta millones más
+que a partir del momento en que el Estado los gasta,
+si miramos a dónde van, no de dónde vienen;
+si sólo tenemos en cuenta el bien que harán saliendo
+del cofre de los recaudadores y no el mal que han producido,
+no más que el bien que se ha impedido, haciéndoles entrar ahí;
+sí, desde ese limitado punto de vista, todo son beneficios.
+La casa construida en Barbaría, ,(emph[es lo que se ve]),
+el puerto construido en Barbaría, ,(emph[es lo que se ve]),
+el trabajo provocado en Barbaría, ,(emph[es lo que se ve]),
+algunos brazos de menos en Francia, ,(emph[es lo que se ve]),
+un gran movimiento de mercancías en Marsella,
+,(emph[sigue siendo lo que se ve]).
+][
+Pero hay algo que ,(emph[no se ve]).
+Son los cincuenta millones gastados por el Estado no pudiendo serlo,
+como lo habrían sido, por el contribuyente.
+De todo el bien atribuido al gasto público ejecutado,
+hay que deducir todo el mal del gasto privado así impedido;
+,(--) a menos que se vaya hasta decir que Juan Buenhombre
+no habría hecho nada con las monedas de cien perras que había ganado
+y que el impuesto le ha arrebatado;
+aserción absurda, ya que si se ha tomado la molestia de ganarlas,
+es que esperaba darse la satisfacción de servirse de ellas.
+Habría hecho elevar la cerca de su jardín y no podrá,
+,(emph[esto es lo que no se ve]).
+Habría añadido un piso a su choza y no podrá,
+esto es ,(emph[lo que no se ve]).
+Habría hecho abonar ,(XXX[margar = abonar con marga])) su campo y no lo hará,
+,(emph[esto es lo que no se ve]).
+Habría aumentado sus aperos y ya no podrá,
+,(emph[esto no se ve]).
+Estaría mejor vestido, mejor alimentado,
+podría hacer instruir mejor a sus hijos,
+habría mejorado la dote de su hija y no podrá,
+,(emph[esto es lo que no se ve]).
+Se habría metido en la asociación de socorro mutuo y no lo hará,
+,(emph[esto no se ve]).
+Por una parte, los disfrutes que se le escamotean,
+y los medios para actuar que se han destruido en sus manos, por otra;
+el trabajo del obrero, del carpintero, del herrero, del sastre,
+del maestro de escuela de su pueblo,
+que él habría favorecido y se encuentra empobrecido,
+,(emph[esto es lo que se sigue sin ver]).
+][
+Se cuenta mucho con la futura prosperidad de Argelia; sea.
+Pero que cuente algo también el marasmo
+con el que, mientras tanto, se golpea a Francia.
+Se me muestra el comercio marsellés;
+pero si se hace con el producto de los impuestos,
+yo mostraré un comercio disminuido igual en el resto del país.
+Se dice: ,(q[He aquí un colono transportado a Barbaría;
+es un alivio para la población que se queda en el país.])
+Yo respondo: ¿Cómo puede ser esto, si llevando al colono a Argel,
+se ha transportado con él el dos o tres veces el capital
+que le habría permitido vivir en Francia,(footnote*[
+El Sr. Ministro de la guerra a afirmado últimamente
+que cada individuo transportado a Argelia a costado al Estado 8000 Fr.
+Ahora bien, es seguro que los desdichados
+de los que se trata habrían vivido muy bien en Francia
+con un capital de 4000 Fr.
+Yo pregunto ¿en que se alivia a la población francesa,
+cuando se le priva de un hombre y los medios de existencia de dos?
+])?
+][
+El único objetivo que pretendo, es hacer comprender al lector
+que, en todo gasto público, tras el bien aparente,
+hay un mal más difícil de discernir.
+Como la tengo yo ya, querría hacerle tomar la costumbre
+de ver el uno y el otro y tener en cuenta los dos.
+][
+Cuando un gasto público es propuesto,
+hay que examinarlo en sí mismo,
+abstracción hecha del pretendido beneficio que de él resulta para el trabajo,
+ya que no es más que una quimera.
+Lo que hace al respecto el gasto público,
+el gasto privado lo habría hecho igualmente.
+Así que el interés del trabajo no puede ser la causa.
+][
+No entra en el objeto de este escrito apreciar el mérito intrínseco
+del gasto público en lo referente a Argelia.
+][
+Pero no puedo retener una observación general.
+Y es que la presunción es siempre desfavorable
+a los gastos colectivos mediante impuestos.
+¿Por qué? Por lo siguiente:
+][
+Para empezar la justicia siempre sufre algo por esto.
+Dado que Juan Buenhombre ha sudado para ganar su moneda de cien perras,
+en vista de una satisfacción,
+es por lo menos molesto que el fisco intervenga
+para quitar a Juan Buenhombre esta satisfacción y conferirla a otro.
+Cierto, corresponden al fisco o a los que lo hacen actuar dar buenas razones.
+Hemos visto que el Estado da una detestable cuando dice:
+con estas cien perras, haré trabajar obreros,
+ya que Juan Buenhombre (a no ser que tenga cataratas)
+no dejará de responder:
+,(q[¡Caramba! con esas cien perras, ¡yo mismo los haré trabajar!])
+][
+Puesta a parte esta razón, las otras se desnudan completamente,
+y el debate entre el fisco y el pobre Juan
+se encuentra enormemente simplificado.
+Que el Estado le diga: Te tomo cien perras para pagar al gendarme
+que te dispensa de ocuparte tú mismo de tu seguridad;
+,(--) para pavimentar la calle que atraviesas todos los días;
+,(--) para pagar el sueldo al magistrado
+que hace respetar la propiedad y la libertad;
+,(--) para alimentar al soldado que defiende nuestras fronteras,
+Juan Buenhombre pagará sin decir una sola palabra, o mucho me equivoco.
+Pero si el estado le dice:
+Te tomo estas cien perras para darte una perra de prima,
+en el caso de que hubieras cultivado bien tu campo;
+,(--) o por enseñar a tu hijo lo que tú no quieres que aprenda;
+,(--) o para que el Sr. Ministro añada un centésimo primer plato a su cena;
+,(--) yo te los tomo para construir una choza en Argelia,
+si no, te tomo cien perras más cada año para mantener allá al colono;
+y otras cien perras para mantener un general que rija al soldado, etc., etc.,
+me parece oír al pobre Juan gritar:
+,(q[¡Este régimen legal se asemeja bastante al del bosque de Bondy
+,(footnote*[
+Bosque reputado por los bandidos
+que desvalijaban a los viajeros que lo atravesaban.
+,(emph[(Nota del editor de la edición de la FEE.)])
+])!])
+Y como el Estado preve la objeción, ¿qué hace?
+Emborronar todo; hace aparecer precisamente
+esta razón detestable que no debería tener influencia en la cuestión;
+habla del efecto de cien perras sobre el trabajo,
+muestra al cocinero y al proveedor del ministro;
+muestra al colono, al soldado, al general, viviendo de los cinco francos;
+en fin, muestra ,(emph[lo que se ve]),
+y mientras Juan Buenhombre no haya aprendido a apreciar también
+,(emph[lo que no se ve]), Juan Buenhombre será engañado.
+Esto es por lo que me esfuerzo de enseñárselo a base de repeticiones.
+][
+De que el gasto público desplace el trabajo sin aumentarlo,
+resulta contra el primero una segunda y grave presunción.
+Desplazar el trabajo, es desplazar a los trabajadores,
+es perturbar las leyes naturales
+que presiden la distribución de la población en el territorio.
+Cuando 50 millones son dejados a los contribuyentes,
+como están por todas partes,
+alimentan el trabajo en las cuarenta mil comunas de Francia;
+actúan en el sentido de un lazo que une a cada uno a su tierra natal;
+se reparten entre todos los trabajadores posibles
+y todas las industrias imaginables.
+Mas si el Estado, quitando 50 millones a los ciudadanos,
+los acumula y gasta en un punto dado,
+atrae sobre este punto una cantidad proporcional de trabajo desplazado,
+un número correspondiente de trabajadores desarraigados,
+población flotante, desclasada,
+y osaría decir peligrosa cuando el dinero se termina!
+,(--) Pero ocurre esto (y por aquí entro en mi tema):
+esta actividad febril, y por así decir inducida en un estrecho espacio
+está a la vista de todos, ,(emph[es lo que se ve]),
+el pueblo aplaude, se maravilla de la belleza
+y de la facilidad del procedimiento,
+y reclama su renuevo y extensión.
+,(emph[Lo que no se ve]), es que una cantidad igual de trabajo,
+probablemente más juicioso, ha sido eliminado del resto de Francia.
+][
+,(tag :a :name "ahorro_y_lujo")
+,(subtitle[XI. Ahorro y Lujo])
+][
+No es solo en materia de gasto público
+que ,(emph[lo que se ve]) eclipsa ,(emph[lo que no se ve]).
+Dejando en la penumbra la mitad de la economía política,
+este fenómeno induce una falsa moral.
+Lleva a las naciones a considerar como antagonistas
+sus intereses morales y sus intereses materiales.
+¡Qué podría ser más descorazonador y más triste!
+Vean:
+][
+No hay padre de familia que no se tome como deber el enseñar a sus hijos
+el orden, el acuerdo, el espíritu de la conversación, la economía,
+la moderación en el gasto.
+No hay religión que no truene contra el fasto y el lujo.
+Está muy bien; pero, por otra parte, qué más popular que estas frases:
+][
+,(q[Atesorar, es secar las venas del pueblo.])
+,(q[El lujo de los grandes hace la comodidad de los pequeños.])
+,(q[Los pródigos se arruinan, pero enriquecen al Estado.])
+,(q[Es sobre lo superfluo del rico que germina el pan del pobre.])
+][
+He aquí, en efecto, entre la idea moral y la idea social,
+una flagrante contradicción.
+¡Que los espíritus eminentes, tras constatar el conflicto, descansen en paz!
+Esto es lo que nunca he podido comprender;
+ya que me parece que no hay nada que podamos sentir más doloroso
+que ver dos tendencias opuestas en la humanidad.
+¡Cómo! ¡llega ella a la degradación tanto por una como por otra vía!
+¡Ahorradora, ella cae en la miseria;
+pródiga, se corrompe en la decadencia moral!
+][
+Felizmente las máximas populares muestran engañosamente el Ahorro y el Lujo,
+no teniendo en cuenta más
+que las consecuencias inmediatas que ,(emph[se ven]),
+y no los efectos ulteriores que ,(emph[no se ven]).
+Intentemos rectificar esta visión incompleta.
+][
+Don Minervo y su hermano Don Arístides, ,(XXX)
+habiéndose repartido la herencia paterna,
+tienen cada uno cincuenta mil francos de renta.
+Don Minervo practica la filantropía a la moda.
+Es lo que se llama un verdugo de dinero.
+Renueva su mobiliario varias veces al año,
+cambia sus equipajes cada mes;
+se cuenta los ingeniosos procedimientos a los que recurre para gastarlo antes:
+en resumen, hace palidecer a los vividores de Balzac y Alejandro Dumas.
+][
+¡Además, hay que oír el concierto de elogios que le rodea siempre!
+,(q[¡Háblenos de Don Minervo! ¡Viva Don Minervo!
+Es el benefactor del obrero; es la providencia del pueblo.
+En realidad, se sumerge en la orgía, contagia a los pasantes;
+su dignidad y la de la humanidad sufren un poco por ello.
+Pero, bah, si no se muestra útil por sí mismo, es útil por su fortuna.
+Hace circular el dinero: en su corte nunca faltan proveedores
+que siempre se retiran satisfechos.
+¿No se dice que si el oro es redondo, es porque rueda?])
+][
+Don Arístides ha adoptado un tren de vida muy diferente.
+Si bien no es un egoísta, es por lo menos un ,(emph[individualista]),
+ya que controla sus gastos,
+no busca más que disfrutes moderados y razonables,
+piensa en el futuro de sus hijos, y, digámoslo, ,(emph[ahorra]).
+][
+¡Y hay que oír lo que de él dice el populacho!
+][
+,(q[¿Para qué sirve este mal rico, este avaro?
+Sin duda, hay algo de imponente y sensible en la simplicidad de su vida;
+es por lo demás humano, bienhechor, generoso, pero ,(emph[calcula]).
+No se come todos sus ingresos.
+Su mansión no está sin cesar resplandeciente y agitada.
+¿Qué reconocimiento se gana entre
+los tejedores, los carroceros, los chalanes y los pasteleros?])
+][
+Estos juicios, funestos para la moral,
+son fundados sobre el hecho de que hay algo que salta a la vista:
+el gasto del pródigo;
+y hay algo que no: el gasto igual e incluso superior del ahorrador.
+][
+Pero las cosas han sido tan admirablemente puestas
+por el divino inventor del orden social,
+que en esto, como en todo, la Economía política y la Moral,
+lejos de agredirse, concuerdan, y que la sabiduría de Don Arístides
+es, no solamente más digna, sino incluso más ,(emph[beneficiosa])
+que la locura de Don Minervo.
+][
+Y cuando digo más beneficiosa, no quiero decir sólo para Don Arístides,
+o incluso para la sociedad en general,
+sino más beneficiosa para los obreros actuales, para la industria del día.
+][
+Para probarlo, basta poner bajo la mirada del espíritu
+las consecuencias ocultas de las acciones humanas que el ojo no ve.
+][
+Sí, la prodigalidad de Don Minervo tiene efectos visibles para cualquiera:
+cada cual puede ver sus berlinas, sus coches, sus carros de paseo,
+las maravillosas pinturas de sus techos, sus ricas alfombras,
+el brillo de su mansión.
+Todo el mundo sabe que sus pura sangres corren en el hipódromo.
+Las cenas que organiza en el ,(emph[hôtel de Paris])
+paran la muchedumbre sobre el bulevar, y se dicen:
+he aquí un hombre bravo,
+quien, lejos de reservarse nada de sus ingresos,
+merma probablemente su capital. ,(--) ,(emph[Esto es lo que se ve]).
+][
+No es tan fácil ver, desde el punto de vista del interés de los trabajadores
+lo que ocurre a los ingresos de Don Arístides.
+Sigamos la pista, sin embargo, y nos aseguraremos de que todos,
+,(emph[hasta el último óbolo]), hacen trabajar obreros,
+tan ciertamente como los de Don Minervo.
+No hay más que esta diferencia:
+El gasto loco de Don Minervo está condenado a decrecer sin cese
+y encontrar necesariamente un final;
+el sabio gasto de Don Arístides irá aumentando de año en año.
+][
+Y así es como, en efecto, el interés público
+se pone de acuerdo con la moral.
+][
+Don Arístides gasta, para sí y su casa, veinte mil francos al año.
+Si esto no bastara para su felicidad, no merecería el nombre de sabio.
+,(--) Es receptivo a los males que pesan sobre las clases pobres;
+se cree, en conciencia, obligado a aportar un cierto alivio
+y consagra diez mil francos a actos de beneficencia.
+,(--) Entre los negociantes, los fabricantes, los agricultores,
+hay amigos momentáneamente en problemas.
+Se informa de su situación,
+con el fin de ayudarles con prudencia y eficacia,
+y destina a esta obra otros diez mil francos.
+,(--) Finalmente, no se olvida de que hay hijas a las que dotar,
+hijos a los que hay que asegurar un porvenir, y, en consecuencia,
+se impone ahorrar y poner a plazo diez mil francos cada año.
+][
+Éste es pues el empleo de sus ingresos:
+]
+(table
+(tr(tdRT[1°])(tdLT[Gastos personales])(tdRT[20 000])(tdLT[ Fr.]))
+(tr(tdRT[2°])(tdLT[Beneficencia])(tdRT[10 000])(tdLT[ Fr.]))
+(tr(tdRT[3°])(tdLT[Servicios a amigos])(tdRT[10 000])(tdLT[ Fr.]))
+(tr(tdRT[4°])(tdLT[Ahorro])(tdRT[10 000])(tdLT[ Fr.])))
+[
+Retomemos cada uno de los capítulos,
+y veremos que ni un solo óbolo escapa al trabajo nacional.
+][
+1º Gastos personales.
+Éstos, en cuanto a obreros y proveedores,
+tienen efectos absolutamente idénticos al mismo gasto hecho por Don Minervo.
+Esto es evidente en sí mismo, no hablemos más de ello.
+][
+2º Beneficencia.
+Los diez mil francos consagrados a esta finalidad
+van también a alimentar la industria;
+llegan al panadero, al carnicero, al vendedor de trajes y de muebles.
+Sólo el pan, la carne, los vestidos no sirven directamente a Don Arístides,
+sino a los que le han sustituido.
+Pero esta simple substitución de un consumidor por otro
+no afecta en nada a la industria en general.
+Que Don Arístides gaste cien perras o
+que le ruegue a un desdichado de gastarlas en su lugar,
+es lo mismo.
+][
+3º Servicios a amigos.
+El amigo al que Don Arístides presta o da diez mil francos
+no los recibe para enterrarlos;
+esto repugna como hipótesis.
+Se sirve para pagar mercancías o deudas.
+En el primer caso, la industria es favorecida.
+¿Se osará decir que habría ganado más comprando Don Minervo
+un pura sangre de diez mil francos
+que comprando Don Arístides o su amigo diez mil francos de tela?
+Si la suma se destina a pagar una deuda, todo lo que resulta,
+es que aparece un tercer personaje, el acreedor,
+que percibirá los diez mil francos,
+pero que seguro los empleará en algo en
+su comercio, su fábrica o su explotación.
+Es un intermediario más entre Don Arístides y los obreros.
+Los nombres propios cambian, pero el gasto persiste
+y el impulso a la industria también.
+][
+4º
+Ahorro.
+][
+Quedan los diez mil francos ,(emph[ahorrados]),(pv)
+,(--) y es aquí donde desde el punto de vista del impulso
+a las artes, la industria, el trabajo, los obreros,
+Don Minervo parece muy superior a Don Arístides,
+aunque, en la comparación moral,
+Don Arístides se muestre un poco por encima de Don Minervo.
+][
+Nunca sin malestar físico, que va hasta el sufrimiento,
+veo yo aparecer tales contradicciones entre las leyes de la naturaleza.
+Si la humanidad se viera forzada a optar entre dos posibilidades,
+de las cuales una hiere sus intereses y la otra su conciencia,
+no nos queda sino desesperarnos por su destino.
+Felizmente, esto no es as
+,(footnote*[
+V. la nota de la página 369.
+,(NdEEO)
+Se trata, más arriba en este mismo documento, de la nota
+,(q[Ver en el tomo IV, las páginas 86 y 94...])
+,(emph[(Nota del editor de Bastiat.org.)])
+]).
+,(--) Y, para ver a Don Arístides retomar su superioridad económica,
+tanto como su superioridad moral,
+basta comprender este axioma consolador,
+que no es menos cierto por tener una fisonomía paradójica:
+,(emph[Ahorrar, es gastar]).
+][
+¿Cuál es el objetivo de Don Arístides, al ahorrar diez mil francos?
+¿Es acaso enterrar diez mil monedas de cien perras
+en un escondite de su jardín?
+Pues no, busca aumentar su capital y sus ingresos.
+En consecuencia, su dinero lo emplea en comprar tierras, una casa,
+rentas del Estado, acciones industriales,
+o bien lo deposita en un negocio o un banco.
+Sigan los escudos en todas sus hipótesis,
+y se convencerán de que, por intermediación de vendedores o por préstamos,
+van a alimentar el trabajo tan seguro
+como si Don Arístides, siguiendo el ejemplo de su hermano,
+los hubiera cambiado por muebles, joyas o caballos.
+][
+Ya que, cuando Don Arístides compra por 10,000 Fr. tierras o renta,
+está determinado por la consideración
+de que no tiene necesidad de gastar esta suma,
+ya que es ésto lo que le echan en cara.
+][
+Pero, por la misma, el que le vende la tierra o la renta
+está determinado por la consideración de que el sí necesita gastar
+los diez mil francos de una manera dada.
+][
+De manera que el gasto se hace, en cualquier caso,
+o por Don Arístides o por los que le substituyen.
+][
+Desde el punto de vista de la clase obrera, del impulso al trabajo,
+no hay pues, entre la conducta de Don Arístides y la de Don Minervo,
+más que una diferencia;
+el gasto de Don Minervo es realizado directamente por él,
+y a su alrededor, ,(emph[se ve]),(pv)
+el gasto de Don Arístides se ejecuta en parte
+por medio de intermediarios y de lejos,
+,(emph[no se ve]).
+Pero, de hecho, para el que sabe unir los efectos y las causas,
+el gasto que no se ve es tan cierto como el que no.
+Lo que lo prueba, es que en los dos casos los escudos ,(emph[circulan]),
+y que no queda más en la caja fuerte del sabio que en la del derrochador.
+][
+Es por tanto falso decir que el Ahorro es un daño real a la industria.
+Desde esta perspectiva, es tan beneficioso como el Lujo.
+][
+Pero cuan superior es, si el pensamiento,
+en lugar de encerrarse en la hora que sigue, abarca un largo periodo.
+][
+Diez años han pasado.
+¿Qué ha sido de Don Minervo y su fortuna, y de su gran popularidad?
+Todo se ha evaporado, Don Minervo está arruinado;
+lejos de aportar sesenta mil francos todos los años al cuerpo social,
+está quizás a su cargo.
+En todo caso, ya no hace la felicidad de sus proveedores,
+ya no cuenta como promotor de las artes y la industria,
+ya no sirve para nada a los obreros, no más que su prole,
+que deja desamparada.
+][
+Al cabo de los mismo diez años,
+no solamente Don Arístides a continuado poniendo sus ingresos en circulación,
+sino que aporta ingresos crecientes de año en año.
+Aumenta el capital nacional, es decir el fondo que alimenta los salarios,
+y como es de la importancia de dicho fondo
+del que depende la demanda de brazos,
+contribuye a aumentar progresivamente la remuneración de la clase obrera.
+Cuando muera, quedan sus hijos que él ha preparado
+para reemplazarle en su obra de progreso y de civilización.
+][
+En el plano moral, la Superioridad del Ahorro sobre el Lujo es incontestable.
+Es consolador pensar que es lo mismo, en el plano económico,
+para cualquiera que, sin detenerse en los efectos inmediatos de los fenómenos,
+sabe llevar sus investigaciones hasta sus efectos definitivos.
+][
+,(tag :a :name "derecho_al_trabajo_y_al_beneficio")
+,(subtitle[XII. Derecho al trabajo, derecho al beneficio.])
+][
+,(q[Hermanos, cotizad para proveerme de obreros a vuestro precio.])
+Es el Derecho al trabajo, el Socialismo elemental o de primer grado.
+][
+,(q[Hermanos, cotizad para proveerme de obreros a mi precio.])
+Es el derecho al beneficio, el Socialismo refinado o de segundo grado.
+][
+El uno y el otro viven gracias a los efectos que ,(emph[se ven]).
+Los dos morirán por los efectos que ,(emph[no se ven]).
+][
+,(emph[Lo que se ve]),
+es el trabajo y el beneficio estimulados por la cotización social.
+,(emph[Lo que no se ve]),
+son los trabajos a los que daría lugar esta misma cotización
+si se la dejáramos a los contribuyentes.
+][
+En 1848, el Derecho al trabajo se mostró un momento bajo sus dos caras.
+Esto bastó para arruinarlo de cara a la opinión pública.
+][
+Una de esas caras se llamaba: ,(emph[Taller nacional]).
+][
+La otra: ,(emph[Cuarenta y cinco céntimos]).
+][
+Millones iban todos los días de la calle de Rivoli a los talleres nacionales.
+Es el lado bello de la medalla.
+][
+Pero he aquí el reverso.
+Para que salgan millones hace falta que hayan entrado.
+Es por lo que los organizadores del Derecho al trabajo
+se dirigen a los contribuyentes.
+][
+Pero entonces, los campesinos decían:
+Tengo que pagar 45 céntimos.
+Así pues,  tendré que privarme de un traje,
+no abonaré mis campos,
+no arreglaré mi casa.
+][
+Mas, los campesinos dicen:
+Ya que nuestro burgués se priva de un vestido,
+habrá menos trabajo para el taller;
+como no abona ,(XXX) su campo,
+habrá menos trabajo para el labrador;
+como no hace reparar su casa,
+habrá menos trabajo para el carpintero y el peón.
+][
+Hay entonces que probar que no se saca de un bolso dos moliendas,
+y que el trabajo remunerado por el gobierno
+se hace a expensas del trabajo pagado por el contribuyente.
+Así fue la muerte del Derecho al trabajo,
+que apareció como una quimera, tanto como una injusticia.
+][
+Y sin embargo, el derecho al beneficio,
+que no es sino la exageración del Derecho al Trabajo,
+vive aún y le va maravillosamente.
+][
+¿No hay algo de vergonzoso en el rol
+que el proteccionista hace interpretar a la sociedad?
+][
+Él le dice:
+][
+Tienes que darme trabajo, y, lo que es más, trabajo lucrativo.
+He escogido tontamente una industria
+que me deja un diez por ciento de pérdidas.
+Si tu instauras una contribución de veinte francos de mis compatriotas
+y si me la das, mi pérdida se convertirá en beneficio.
+Y el beneficio es un Derecho, tú me lo debes.
+][
+La sociedad que escucha a este sofista,
+que se carga de impuestos para satisfacerle,
+que no se percata de que la pérdida sufrida por una industria
+no es menos pérdida porque se obligue a compensarla,
+esta sociedad, digo yo, merece el fardo que se le obliga a portar.
+][
+Así, lo vemos a través de los numerosos temas que he recorrido:
+No saber Economía política, es dejarse deslumbrar
+por el efecto inmediato de un fenómeno;
+saber, es introducir en el pensamiento y en la previsión
+el conjunto de los efectos,(footnote*[
+Si todas las consecuencias de una acción recayeran sobre su autor,
+nuestra educación sería rápida.
+Pero no es así.
+A veces las buenas consecuencias visibles son para nosotros,
+y las malas consecuencias invisibles para los otros,
+lo que nos las vuelve más invisibles aún.
+Hay que esperar a que la reacción venga de aquellos
+que tienen que soportar las malas consecuencias del acto.
+Esto lleva algunas veces mucho tiempo,
+y esto es lo que prolonga el reinado del error.
+Un hombre hace un acto que produce buenas consecuencias iguales a 10,
+en su beneficio y malas consecuencias iguales a 15,
+repartidas entre 30 de sus semejantes de manera
+que no recae sobre cada uno de ellos más que 1/2.
+En total, hay pérdida y la reacción debe necesariamente producirse.
+Se concibe sin embargo que se haga esperar tanto más cuanto más disperso
+esté el mal entre la masa y el bien más concentrado en un punto.
+,(emph[(Nota inédita del autor)])
+]).
+][
+Podría someter aquí una enorme cantidad de cuestiones a la misma prueba.
+Pero reculo ante la monotonía de una demostración siempre idéntica, y termino,
+aplicando a la Economía política lo que Chateaubriand dice de la Historia:
+]
+(blockquote[
+,(q[Hay, dice él, dos consecuencias en historia:
+una inmediata y que es conocida al instante,
+otra lejana y que no se percibe a primera vista.
+Estas consecuencias a menudo se contradicen;
+unas vienen de nuestra escasa sabiduría,
+las otras de la sabiduría perdurable.
+El suceso providencial aparece tras el suceso humano.
+Dios se eleva tras los hombres.
+Negad tanto como os plazca el consejo supremo,
+no consintáis su acción, disputáos sobre las palabras,
+llamad fuerza de las cosas o razón lo que el pueblo llama Providencia;
+pero mirad al final de un hecho consumado,
+y vereis que siempre ha producido lo contrario de lo que se esperaba
+de él cuando no ha sido establecido primero sobre la moral y la justicia.])
+,(tag :br :align 'right)
+(,(strong[Chateaubriand]),(pv) ,(cite-title[Memorias de ultratumba]).)
+]))
+(with-footer(p*[
+Extraído de la edición original en 7 volúmenes (1863)
+de ,(bof-ref "guillaumin" [las obras completas]) de Frédéric Bastiat,
+tomo V, ,(bof-ref "cqovecqonvp"
+	(cite-title[Ce qu'on voit et ce qu'on ne voit pas])), pp. 362-392.
+][
+Traducido y maquetado en hipertexto por
+,(ref :url "http://www.eurecom.fr/~garces/"
+	[Luis Garcés-Erice]); luis.garces,(at)gmail.com
+para ,(Bastiat.org),
+según el texto de ,(FRR).
+])))

@@ -1,0 +1,914 @@
+; -*- Scheme -*-
+; $Id: physiologie_de_la_spoliation.scr,v 1.4 2004/10/08 16:56:37 fare Exp $
+(style 'bo-style)
+(in-bof :title "Physiologie de la Spoliation
+	- par Frédéric Bastiat")
+(document :title "Physiologie de la Spoliation"
+	:author author-FB
+(subtitle[Chapitre I de la seconde série des ,(SophismesEconomiques)
+,(footnote*[
+La seconde série des ,(cite-title[Sophismes économiques]),
+dont plusieurs chapitres avaient figuré
+dans le ,(cite-title[Journal des Économistes])
+et le journal ,(cite-title[le Libre Echange]),
+parut à la fin de janvier 1848. ,(NdEEO)])
+,(footnote*[
+La seconde série des ,(cite-title[Sophismes économiques])
+portait en exergue avant le premier chapitre la citation suivante:
+,(blockquote[
+La requête de l'industrie au gouvernement est aussi modeste
+que celle de Diogène à Alexandre: ,(strong[Ote-toi de mon soleil]). (Bentham.)
+])
+,(NdEBO)
+])
+,(footnote*[
+Voir au ,(bof-ref "harmonies" [tome VI]), les chapitres
+,(bof-ref "causes_perturbatrices" [XVIII]),
+,(bof-ref "guerre" [XIX]),
+,(bof-ref "moteur_social" [XXII]), et 
+,(bof-ref "perfectibilite" [XXIV])
+pour les développements projetés et commencés par l'auteur
+sur les ,(emph[Causes perturbatrices]) de l'harmonie des lois naturelles.
+,(NdEEO)])
+])
+(p*[
+Pourquoi irais-je m'aheurter à cette science aride,
+l',(emph[Économie politique])?
+][
+Pourquoi? ,(--) La question est judicieuse.
+Tout travail est assez répugnant de sa nature,
+pour qu'on ait le droit de demander où il mène.
+][
+Voyons, cherchons.
+][
+Je ne m'adresse pas à ces philosophes
+qui font profession d'adorer la misère,
+sinon en leur nom, du moins au nom de l'humanité.
+][
+Je parle à quiconque tient la ,(emph[Richesse]) pour quelque chose.
+,(--) Entendons par ce mot, non l'opulence de quelques-uns,
+mais l'aisance, le bien-être, la sécurité, l'indépendance, l'instruction,
+la dignité de tous.
+][
+Il n'y a que deux moyens de se procurer les choses nécessaires
+à la conservation, à l'embellissement et au perfectionnement de la vie:
+la ,(strong[Production]) et la ,(strong[Spoliation]).
+][
+Quelques personnes disent:
+La ,(strong[Spoliation]) est un accident, un abus local et passager,
+flétri par la morale, réprouvé par la loi,
+indigne d'occuper l',(emph[Economie politique]).
+][
+Cependant, quelque bienveillance, quelque optimisme que l'on porte au c,(oe)ur,
+on est forcé de reconnaître
+que la ,(strong[Spoliation]) s'exerce dans ce monde sur une trop vaste échelle,
+qu'elle se mêle trop universellement à tous les grands faits humains
+pour qu'aucune science sociale, et l',(emph[Économie politique]) surtout,
+puisse se dispenser d'en tenir compte.
+][
+Je vais plus loin.
+Ce qui sépare l'ordre social de la perfection
+(du moins de toute celle dont il est susceptible),
+c'est le constant effort de ses membres
+pour vivre et se développer aux dépens les uns des autres.
+][
+En sorte que si la ,(strong[Spoliation]) n'existait pas,
+la société étant parfaite,
+les sciences sociales seraient sans objet.
+][
+Je vais plus loin encore.
+Lorsque la ,(strong[Spoliation]) est devenue
+le moyen d'existence d'une agglomération d'hommes
+unis entre eux par le lien social,
+ils se font bientôt une loi qui la sanctionne, une morale qui la glorifie.
+][
+Il suffit de nommer quelques-unes
+des formes les plus tranchées de la ,(emph[Spoliation])
+pour montrer quelle place elle occupe dans les transactions humaines.
+][
+C'est d'abord la ,(strong[Guerre]).
+,(--) Chez les sauvages, le vainqueur tue le vaincu
+pour acquérir au gibier un droit,
+sinon incontestable, du moins ,(emph[incontesté]).
+][
+C'est ensuite l',(strong[Esclavage]).
+,(--) Quand l'homme comprend
+qu'il est possible de féconder la terre par le travail,
+il fait avec son frère ce partage:
+,(q[À toi la fatigue, à moi le produit.])
+]
+(nbsp)
+[
+Vient la ,(strong[Théocratie]).
+,(--) ,(q[Selon ce que tu me donneras ou me refuseras de ce qui t'appartient,
+je t'ouvrirai la porte du ciel ou de l'enfer.])
+][
+Enfin arrive le ,(strong[Monopole]).
+,(--) Son caractère distinctif est de laisser subsister la grande loi sociale:
+,(emph[Service pour service]),
+mais de faire intervenir la force dans le débat,
+et par suite, d'altérer la juste proportion
+entre le ,(emph[service reçu]) et le ,(emph[service rendu]).
+][
+La Spoliation porte toujours dans son sein le germe de mort qui la tue.
+Rarement c'est le grand nombre qui spolie le petit nombre.
+En ce cas, celui-ci se réduirait promptement
+au point de ne pouvoir plus satisfaire la cupidité de celui-là,
+et la Spoliation périrait faute d'aliment.
+][
+Presque toujours c'est le grand nombre qui est opprimé,
+et la Spoliation n'en est pas moins frappée d'un arrêt fatal.
+][
+Car si elle a pour agent la Force, comme dans la Guerre et l'Esclavage,
+il est naturel que la Force à la longue passe du côté du grand nombre.
+][
+Et si c'est la Ruse, comme dans la Théocratie et le Monopole,
+il est naturel que le grand nombre s'éclaire,
+sans quoi l'intelligence ne serait pas l'intelligence.
+][
+Une autre loi providentielle dépose un second germe de mort
+au c,(oe)ur de la Spoliation, c'est celle-ci:
+][
+La Spoliation ne ,(emph[déplace]) pas seulement la richesse,
+elle en détruit toujours une partie.
+][
+La Guerre anéantit bien des valeurs.
+][
+L'Esclavage paralyse bien des facultés.
+][
+La Théocratie détourne bien des efforts vers des objets puérils ou funestes.
+][
+Le Monopole aussi fait passer la richesse d'une poche à l'autre;
+mais il s'en perd beaucoup dans le trajet.
+][
+Cette loi est admirable.
+,(--) Sans elle, pourvu qu'il y eût équilibre de force
+entre les oppresseurs et les opprimés,
+la Spoliation n'aurait pas de terme.
+,(--) Grâce à elle, cet équilibre tend toujours à se rompre,
+soit parce que les Spoliateurs se font conscience
+d'une telle déperdition de richesses,
+soit, en l'absence de ce sentiment,
+parce que le mal empire sans cesse,
+et qu'il est dans la nature de ce qui empire toujours de finir.
+][
+Il arrive en effet un moment où, dans son accélération progressive,
+la déperdition des richesses est telle que le Spoliateur
+est moins riche qu'il n'eût été en restant honnête.
+][
+Tel est un peuple à qui les frais de guerre coûtent plus que ne vaut le butin.
+][
+Un maître qui paie plus cher le travail esclave que le travail libre.
+][
+Une Théocratie qui a tellement hébété le peuple et détruit son énergie
+qu'elle n'en peut plus rien tirer.
+][
+Un Monopole qui agrandit ses efforts d'absorption
+à mesure qu'il y a moins à absorber,
+comme l'effort de traire s'accroît à mesure que le pis est plus desséché.
+][
+Le Monopole, on le voit, est une Espèce du Genre Spoliation.
+Il a plusieurs Variétés,
+entre autres la Sinécure, le Privilége, la Restriction.
+][
+Parmi les formes qu'il revêt, il y en a de simples et naïves.
+Tels étaient les droits féodaux.
+Sous ce régime la masse est spoliée et le sait.
+Il implique l'abus de la force et tombe avec elle.
+][
+D'autres sont très compliquées.
+Souvent alors la masse est spoliée et ne le sait pas.
+Il peut même arriver qu'elle croie tout devoir à la Spoliation,
+et ce qu'on lui laisse, et ce qu'on lui prend,
+et ce qui se perd dans l'opération.
+Il y a plus, j'affirme que, dans la suite des temps,
+et grâce au mécanisme si ingénieux de la ,(emph[coutume]),
+beaucoup de Spoliateurs le sont sans le savoir et sans le vouloir.
+Les Monopoles de cette variété sont engendrés par la Ruse
+et nourris par l'Erreur.
+Ils ne s'évanouissent que devant la Lumière.
+][
+J'en ai dit assez pour montrer
+que l'Économie politique a une utilité pratique évidente.
+C'est le flambeau qui, dévoilant la Ruse et dissipant l'Erreur,
+détruit ce désordre social, la Spoliation.
+Quelqu'un, je crois que c'est une femme, et elle avait bien raison,
+l'a ainsi définie:
+,(emph[C'est la serrure de sûreté du pécule populaire]).
+][
+,(emph[Commentaire]).
+][
+Si ce petit livre était destiné à traverser trois ou quatre mille ans,
+à être lu, relu, médité, étudié phrase à phrase, mot à mot, lettre à lettre,
+de génération en génération, comme un Koran nouveau;
+s'il devait attirer dans toutes les bibliothèques du monde
+des avalanches d'annotations, éclaircissements et paraphrases,
+je pourrais abandonner à leur sort, dans leur concision un peu obscure,
+les pensées qui précèdent.
+Mais puisqu'elles ont besoin de commentaire,
+il me paraît prudent de les commenter moi-même.
+][
+La véritable et équitable loi des hommes, c'est:
+,(emph[Échange librement débattu de service contre service]).
+La Spoliation consiste à bannir par force ou par ruse la liberté du débat
+afin de recevoir un service sans le rendre.
+][
+La Spoliation par la force s'exerce ainsi:
+On attend qu'un homme ait produit quelque chose,
+qu'on lui arrache, l'arme au poing.
+][
+Elle est formellement condamnée par le Décalogue:
+,(emph[Tu ne prendras point]).
+][
+Quand elle se passe d'individu à individu,
+elle se nomme ,(emph[vol]) et mène au bagne;
+quand c'est de nation à nation,
+elle prend nom conquête et conduit à la gloire.
+]
+(nbsp)
+[
+Pourquoi cette différence?
+Il est bon d'en rechercher la cause.
+Elle nous révélera une puissance irrésistible, l'Opinion,
+qui, comme l'atmosphère, nous enveloppe d'une manière si absolue,
+que nous ne la remarquons plus.
+Car Rousseau n'a jamais dit une vérité plus vraie que celle-ci:
+,(q[Il faut beaucoup de philosophie
+pour observer les faits qui sont trop près de nous.])
+][
+Le ,(emph[voleur]), par cela même qu'il agit isolément,
+a contre lui l'opinion publique.
+Il alarme tous ceux qui l'entourent.
+Cependant, s'il a quelques associés,
+il s'enorgueillit devant eux de ses prouesses,
+et l'on peut commencer à remarquer ici la force de l'Opinion;
+car il suffit de l'approbation de ses complices
+pour lui ôter le sentiment de sa turpitude
+et même le rendre vain de son ignominie.
+][
+Le ,(emph[guerrier]) vit dans un autre milieu.
+L'Opinion qui le flétrit est ailleurs, chez les nations vaincues;
+il n'en sent pas la pression.
+Mais l'Opinion qui est autour de lui l'approuve et le soutient.
+Ses compagnons et lui sentent vivement la solidarité qui les lie.
+La patrie, qui s'est créé des ennemis et des dangers,
+a besoin d'exalter le courage de ses enfants.
+Elle décerne aux plus hardis, à ceux qui, élargissant ses frontières,
+y ont apporté le plus de butin, les honneurs, la renommée, la gloire.
+Les poètes chantent leurs exploits et les femmes leur tressent des couronnes.
+Et telle est la puissance de l'Opinion,
+qu'elle sépare de la Spoliation l'idée d'injustice
+et ôte au spoliateur jusqu'à la conscience de ses torts.
+][
+L'Opinion, qui réagit contre la spoliation militaire,
+placée non chez le peuple spoliateur, mais chez le peuple spolié,
+n'exerce que bien peu d'influence.
+Cependant, elle n'est pas tout à fait inefficace,
+et d'autant moins que les nations se fréquentent et se comprennent davantage.
+Sous ce rapport, on voit que l'étude des langues
+et la libre communication des peuples
+tendent à faire prédominer l'opinion contraire à ce genre de spoliation.
+][
+Malheureusement, il arrive souvent
+que les nations qui entourent le peuple spoliateur
+sont elles-mêmes spoliatrices, quand elles le peuvent,
+et dès lors imbues des mêmes préjugés.
+][
+Alors, il n'y a qu'un remède: le temps.
+Il faut que les peuples aient appris, par une rude expérience,
+l'énorme désavantage de se spolier les uns les autres.
+][
+On parlera d'un autre frein: la moralisation.
+Mais la moralisation a pour but de multiplier les actions vertueuses.
+Comment donc restreindrait-elle les actes spoliateurs
+quand ces actes sont mis par l'Opinion au rang des plus hautes vertus?
+Y a-t-il un moyen plus puissant de moraliser un peuple que la Religion?
+Y eut-il jamais Religion plus favorable à la paix
+et plus universellement admise que le Christianisme?
+Et cependant qu'a-t-on vu pendant dix-huit siècles?
+On a vu les hommes se battre non seulement malgré la Religion,
+mais au nom de la Religion même.
+][
+Un peuple conquérant ne fait pas toujours la guerre offensive.
+Il a aussi de mauvais jours.
+Alors ses soldats défendent
+le foyer domestique, la propriété, la famille, l'indépendance, la liberté.
+La guerre prend un caractère de sainteté et de grandeur.
+Le drapeau, bénit par les ministres du Dieu de paix,
+représente tout ce qu'il y a de sacré sur la terre;
+on s'y attache comme à la vivante image de la patrie et de l'honneur;
+et les vertus guerrières sont exaltées au-dessus de toutes les autres vertus.
+,(--) Mais le danger passé, l'Opinion subsiste, et,
+par une naturelle réaction de l'esprit de vengeance
+qui se confond avec le patriotisme,
+on aime à promener le drapeau chéri de capitale en capitale.
+Il semble que la nature ait préparé ainsi le châtiment de l'agresseur.
+][
+C'est la crainte de ce châtiment, et non les progrès de la philosophie,
+qui retient les armes dans les arsenaux,
+car, on ne peut pas le nier,
+les peuples les plus avancés en civilisation font la guerre,
+et se préoccupent bien peu de justice
+quand ils n'ont pas de représailles à redouter.
+Témoin l'Hymalaya, l'Atlas et le Caucase.
+][
+Si la Religion a été impuissante, si la philosophie est impuissante,
+comment donc finira la guerre?
+][
+L'Économie politique démontre que,
+même à ne considérer que le peuple victorieux,
+la guerre se fait toujours dans l'intérêt du petit nombre
+et aux dépens des masses.
+Il suffit donc que les masses aperçoivent clairement cette vérité.
+Le poids de l'Opinion, qui se partage encore,
+pèsera tout entier du côté de la paix ,(footnote*[
+Voy., tome I, ,(XXX :bof-ref "lettre_congres_paix")
+la lettre adressée au président du Congrès de la paix à Francfort.
+,(NdEEO)]).
+][
+La Spoliation exercée par la force prend encore une autre forme.
+On n'attend pas qu'un homme ait produit une chose pour la lui arracher.
+On s'empare de l'homme lui-même;
+on le dépouille de sa propre personnalité;
+on le contraint au travail;
+on ne lui dit pas:
+,(emph[Si tu prends cette peine pour moi, je prendrai cette peine pour toi]),
+on lui dit:
+,(emph[A toi toutes les fatigues, à moi toutes les jouissances]).
+C'est l'Esclavage, qui implique toujours l'abus de la force.
+][
+Or, c'est une grande question de savoir
+s'il n'est pas dans la nature d'une force incontestablement dominante
+d'abuser toujours d'elle-même.
+Quant à moi, je ne m'y fie pas,
+et j'aimerais autant attendre d'une pierre qui tombe
+la puissance qui doit l'arrêter dans sa chute,
+que de confier à la force sa propre limite.
+][
+Je voudrais, au moins, qu'on me montrât un pays, une époque
+où l'Esclavage a été aboli par la libre et gracieuse volonté des maîtres.
+][
+L'Esclavage fournit un second et frappant exemple
+de l'insuffisance des sentiments religieux et philanthropiques
+aux prises avec l'énergique sentiment de l'intérêt.
+Cela peut paraître triste à quelques Écoles modernes
+qui cherchent dans l'abnégation le principe réformateur de la société.
+Qu'elles commencent donc par réformer la nature de l'homme.
+][
+Aux Antilles, les maîtres professent de père en fils,
+depuis l'institution de l'esclavage, la Religion chrétienne.
+Plusieurs fois par jour ils répètent ces paroles:
+,(q[Tous les hommes sont frères;
+aimer son prochain, c'est accomplir toute la loi.])
+,(--) Et pourtant ils ont des esclaves.
+Rien ne leur semble plus naturel et plus légitime.
+Les réformateurs modernes espèrent-ils
+que leur morale sera jamais aussi universellement acceptée,
+aussi populaire, aussi forte d'autorité, aussi souvent sur toutes les lèvres
+que l'Évangile?
+Et si l'Evangile n'a pu passer des lèvres au c,(oe)ur
+par-dessus ou à travers la grande barrière de l'intérêt,
+comment espèrent-ils que leur morale fasse ce miracle?
+][
+Mais quoi! l'Esclavage est-il donc invulnérable?
+Non; ce qui l'a fondé le détruira, je veux dire l',(emph[Intérêt]),
+pourvu que, pour favoriser les intérêts spéciaux qui ont créé la plaie,
+on ne contrarie pas les intérêts généraux qui doivent la guérir.
+][
+C'est encore une vérité démontrée par l'Économie politique,
+que le travail libre est essentiellement progressif
+et le travail esclave nécessairement stationnaire.
+En sorte que le triomphe du premier sur le second est inévitable.
+Qu'est devenue la culture de l'indigo par les noirs?
+][
+Le travail libre appliqué à la production du sucre
+en fera baisser de plus en plus le prix.
+A mesure, l'esclave sera de moins en moins lucratif pour son maître.
+L'esclavage serait depuis longtemps tombé de lui-même en Amérique,
+si, en Europe, les lois n'eussent élevé artificiellement le prix du sucre.
+Aussi nous voyons les maîtres, leurs créanciers et leurs délégués
+travailler activement à maintenir ces lois,
+qui sont aujourd'hui les colonnes de l'édifice.
+]
+(nbsp)
+[
+Malheureusement, elles ont encore la sympathie
+des populations du sein desquelles l'esclavage a disparu;
+par où l'on voit qu'encore ici l'Opinion est souveraine.
+][
+Si elle est souveraine, même dans la région de la Force,
+elle l'est à bien plus forte raison dans le monde de la Ruse.
+A vrai dire, c'est là son domaine.
+La Ruse, c'est l'abus de l'intelligence;
+le progrès de l'opinion, c'est le progrès des intelligences.
+Les deux puissances sont au moins de même nature.
+Imposture chez le spoliateur implique crédulité chez le spolié,
+et l'antidote naturel de la crédulité c'est la vérité.
+Il s'ensuit qu'éclairer les esprits,
+c'est ôter à ce genre de spoliation son aliment.
+][
+Je passerai brièvement en revue quelques-unes
+des spoliations qui s'exercent par la Ruse sur une très-grande échelle.
+][
+La première qui se présente c'est la Spoliation par ruse théocratique.
+][
+De quoi s'agit-il?
+De se faire rendre en aliments, vêtements, luxe,
+considération, influence, pouvoir,
+des services réels contre des services fictifs.
+][
+Si je disais à un homme:
+,(--) ,(q[Je vais te rendre des services immédiats,])
+,(--) il faudrait bien tenir parole;
+faute de quoi cet homme saurait bientôt à quoi s'en tenir,
+et ma ruse serait promptement démasquée.
+][
+Mais si je lui dis:
+,(--) ,(q[En échange de tes services,
+je te rendrai d'immenses services, non dans ce monde, mais dans l'autre.
+Après cette vie, tu peux être éternellement heureux ou malheureux,
+et cela dépend de moi;
+je suis un être intermédiaire entre Dieu et sa créature,
+et puis, à mon gré, t'ouvrir les portes du ciel ou de l'enfer.])
+,(--) Pour peu que cet homme me croie, il est à ma discrétion.
+][
+Ce genre d'imposture a été pratiqué très en grand depuis l'origine du monde,
+et l'on sait à quel degré de toute-puissance
+étaient arrivés les prêtres égyptiens.
+]
+(nbsp)
+[
+Il est aisé de savoir comment procèdent les imposteurs.
+Il suffit de se demander ce qu'on ferait à leur place.
+][
+Si j'arrivais, avec des vues de cette nature,
+au milieu d'une peuplade ignorante,
+et que je parvinsse,
+par quelque acte extraordinaire et d'une apparence merveilleuse,
+à me faire passer pour un être surnaturel,
+je me donnerais pour un envoyé de Dieu,
+ayant sur les futures destinées des hommes un empire absolu.
+][
+Ensuite, j'interdirais l'examen de mes titres;
+je ferais plus: comme la raison serait mon ennemi le plus dangereux,
+j'interdirais l'usage de la raison même,
+au moins appliquée à ce sujet redoutable.
+Je ferais de cette question, et de toutes celles qui s'y rapportent,
+des questions ,(emph[tabou]), comme disent les sauvages.
+Les résoudre, les agiter, y penser même, serait un crime irrémissible.
+][
+Certes, ce serait le comble de l'art de mettre une barrière ,(emph[tabou])
+à toutes les avenues intellectuelles qui pourraient conduire
+à la découverte de ma supercherie.
+Quelle meilleure garantie de sa durée que de rendre le doute même sacrilége?
+][
+Cependant, à cette garantie fondamentale, j'en ajouterais d'accessoires.
+Par exemple, pour que la lumière ne pût jamais descendre dans les masses,
+je m'attribuerais, ainsi qu'à mes complices,
+le monopole de toutes les connaissances,
+je les cacherais sous les voiles d'une langue morte
+et d'une écriture hiéroglyphique,
+et, pour n'être jamais surpris par aucun danger,
+j'aurais soin d'inventer une institution qui me ferait pénétrer,
+jour par jour, dans le secret de toutes les consciences.
+][
+Il ne serait pas mal non plus
+que je satisfisse à quelques besoins réels de mon peuple,
+surtout si, en le faisant, je pouvais accroître mon influence et mon autorité.
+Ainsi les hommes ont un grand besoin d'instruction et de morale:
+je m'en ferais le dispensateur.
+Par là je dirigerais à mon gré l'esprit et le c,(oe)ur de mon peuple.
+J'entrelacerais dans une chaîne indissoluble la morale et mon autorité;
+je les représenterais comme ne pouvant exister l'une sans l'autre,
+en sorte que si quelque audacieux
+tentait enfin de remuer une question ,(emph[tabou]),
+la société tout entière, qui ne peut se passer de morale,
+sentirait le terrain trembler sous ses pas,
+et se tournerait avec rage contre ce novateur téméraire.
+][
+Quand les choses en seraient là,
+il est clair que ce peuple m'appartiendrait plus que s'il était mon esclave.
+L'esclave maudit sa chaîne, mon peuple bénirait la sienne,
+et je serais parvenu à imprimer, non sur les fronts,
+mais au fond des consciences, le sceau de la servitude.
+][
+L'Opinion seule peut renverser un tel édifice d'iniquité;
+mais par où l'entamera-t-elle, si chaque pierre est ,(emph[tabou])?
+,(--) C'est l'affaire du temps et de l'imprimerie.
+][
+À Dieu ne plaise que je veuille ébranler ici ces croyances consolantes
+qui ,(emph[relient]) cette vie d'épreuves à une vie de félicités!
+Mais qu'on ait abusé de l'irrésistible pente qui nous entraîne vers elles,
+c'est ce que personne, pas même le chef de la chrétienté,
+ne pourrait contester.
+Il y a, ce me semble, un signe pour reconnaître
+si un peuple est dupe ou ne l'est pas.
+Examinez la Religion et le prêtre;
+examinez si le prêtre est l'instrument de la Religion,
+ou si la Religion est l'instrument du prêtre.
+][
+Si ,(emph[le prêtre est l'instrument de la Religion]),
+s'il ne songe qu'à étendre sur la terre sa morale et ses bienfaits,
+il sera doux, tolérant, humble, charitable, plein de zèle;
+sa vie reflétera celle de son divin modèle;
+il prêchera la liberté et l'égalité parmi les hommes,
+la paix et la fraternité entre les nations;
+il repoussera les séductions de la puissance temporelle,
+ne voulant pas faire alliance
+avec ce qui a le plus besoin de frein en ce monde;
+il sera l'homme du peuple,
+l'homme des bons conseils et des douces consolations,
+l'homme de l'Opinion, l'homme de l'Evangile.
+][
+Si, au contraire, ,(emph[la Religion est l'instrument du prêtre]),
+il la traitera comme on traite un instrument
+qu'on altère, qu'on plie, qu'on retourne en toutes façons,
+de manière à en tirer le plus grand avantage pour soi.
+Il multipliera les questions ,(emph[tabou]),(pv)
+sa morale sera flexible comme les temps, les hommes et les circonstances.
+Il cherchera à en imposer par des gestes et des attitudes étudiés;
+il marmottera cent fois par jour des mots dont le sens sera évaporé,
+et qui ne seront plus qu'un vain ,(emph[conventionalisme]).
+Il trafiquera des choses saintes,
+mais tout juste assez pour ne pas ébranler la foi en leur sainteté,
+et il aura soin que le trafic soit d'autant moins ostensiblement actif
+que le peuple est plus clairvoyant.
+Il se mêlera des intrigues de la terre;
+il se mettra toujours du côté des puissants
+à la seule condition que les puissants se mettront de son côté.
+En un mot, dans tous ses actes,
+on reconnaîtra qu'il ne veut pas faire avancer la Religion par le clergé,
+mais le clergé par la Religion;
+et comme tant d'efforts supposent un but,
+comme ce but, dans cette hypothèse,
+ne peut être autre que la puissance et la richesse,
+le signe définitif que le peuple est dupe,
+c'est quand le prêtre est riche et puissant.
+][
+Il est bien évident qu'on peut abuser d'une Religion vraie
+comme d'une Religion fausse.
+Plus même son autorité est respectable,
+plus il est à craindre qu'on ne pousse loin l'épreuve.
+Mais il y a bien de la différence dans les résultats.
+L'abus insurge toujours une partie saine, éclairée, indépendante d'un peuple.
+Il ne se peut pas que la foi n'en soit ébranlée,
+et l'affaiblissement d'une religion vraie
+est bien autrement funeste que l'ébranlement d'une Religion fausse.
+][
+La Spoliation par ce procédé et la clairvoyance d'un peuple
+sont toujours en proportion inverse l'une de l'autre,
+car il est de la nature des abus d'aller tant qu'ils trouvent du chemin.
+Non qu'au milieu de la population la plus ignorante,
+il ne se rencontre des prêtres purs et dévoués,
+mais comment empêcher la fourbe de revêtir la soutane
+et l'ambition de ceindre la mitre?
+Les spoliateurs obéissent à la loi malthusienne:
+ils multiplient comme les moyens d'existence;
+et les moyens d'existence des fourbes, c'est la crédulité de leurs dupes.
+On a beau chercher, on trouve toujours qu'il faut que l'Opinion s'éclaire.
+Il n'y a pas d'autre Panacée.
+][
+Une autre variété de Spoliation par la ruse
+s'appelle ,(emph[fraude commerciale]),
+nom qui me semble beaucoup trop restreint,
+car ne s'en rend pas coupable
+seulement le marchand qui altère la denrée ou raccourcit son mètre,
+mais aussi le médecin qui se fait payer des conseils funestes,
+l'avocat qui embrouille les procès, etc.
+Dans l'échange entre deux services, l'un est de mauvais aloi;
+mais ici, le service reçu étant toujours préalablement et volontairement agréé,
+il est clair que la Spoliation de cette espèce doit reculer
+à mesure que la clairvoyance publique avance.
+][
+Vient ensuite l'abus des ,(emph[services publics]),
+champ immense de Spoliation tellement immense
+que nous ne pouvons y jeter qu'un coup d',(oe)il.
+][
+Si Dieu avait fait de l'homme un animal solitaire,
+chacun travaillerait pour soi.
+La richesse individuelle serait en proportion des services
+que chacun se rendrait à soi-même.
+][
+Mais ,(emph[l'homme étant sociable,
+les services s'échangent les uns contre les autres]),
+proposition que vous pouvez, si cela vous convient, construire à rebours.
+][
+Il y a dans la société des besoins tellement généraux, tellement universels,
+que ses membres y pourvoient en organisant des ,(emph[services publics]).
+Tel est le besoin de la sécurité.
+On se concerte, on se cotise pour rémunérer en ,(emph[services]) divers
+ceux qui rendent le ,(emph[service]) de veiller à la sécurité commune.
+][
+Il n'y a rien là qui soit en dehors de l'Economie politique:
+,(emph[Fais ceci pour moi, je ferai cela pour toi]).
+L'essence de la transaction est la même,
+le procédé rémunératoire seul est différent;
+mais cette circonstance a une grande portée.
+][
+Dans les transactions ordinaires chacun reste juge
+soit du service qu'il reçoit, soit du service qu'il rend.
+Il peut toujours ou refuser l'échange ou le faire ailleurs,
+d'où la nécessité de n'apporter sur le marché
+que des services qui se feront volontairement agréer.
+][
+Il n'en est pas ainsi avec l'État,
+surtout avant l'avénement des gouvernements représentatifs.
+Que nous ayons ou non besoin de ses services,
+qu'ils soient de bon ou de mauvais aloi,
+il nous faut toujours les accepter tels qu'il les fournit
+et les payer au prix qu'il y met.
+][
+Or, c'est la tendance de tous les hommes
+de voir par le petit bout de la lunette les services qu'ils rendent,
+et par le gros bout les services qu'ils reçoivent;
+et les choses iraient bon train si nous n'avions pas,
+dans les transactions privées, la garantie du ,(emph[prix débattu]).
+][
+Cette garantie, nous ne l'avons pas ou nous ne l'avons guère
+dans les transactions publiques.
+,(--) Et cependant, l'État, composé d'hommes
+(quoique de nos jours on insinue le contraire),
+obéit à l'universelle tendance.
+Il veut nous ,(emph[servir]) beaucoup, nous servir plus que nous ne voulons,
+et nous faire agréer comme service ,(emph[vrai])
+ce qui est quelquefois loin de l'être,
+et cela, pour nous imposer en retour des ,(emph[services]) ou contributions.
+][
+L'État aussi est soumis à la loi malthusienne.
+Il tend à dépasser le niveau de ses moyens d'existence,
+il grossit en proportion de ces moyens,
+et ce qui le fait exister c'est la substance des peuples.
+Malheur donc aux peuples qui ne savent pas limiter
+la sphère d'action de l'État.
+Liberté, activité privée, richesse, bien-être, indépendance, dignité,
+tout y passera.
+][
+Car il y a une circonstance qu'il faut remarquer, c'est celle-ci:
+Parmi les services que nous demandons à l'État,
+le principal est la ,(emph[sécurité]).
+Pour nous la garantir,
+il faut qu'il dispose d'une force capable de vaincre toutes les forces,
+particulières ou collectives, intérieures ou extérieures,
+qui pourraient la compromettre.
+Combinée avec cette fâcheuse disposition que nous remarquons dans les hommes
+à vivre aux dépens des autres, il y a là un danger qui saute aux yeux.
+][
+Aussi, voyez sur quelle immense échelle, depuis les temps historiques,
+s'est exercée la Spoliation par abus et excès du gouvernement?
+Qu'on se demande quels services ont rendus aux populations
+et quels services en ont retirés les pouvoirs publics
+chez les Assyriens, les Babyloniens, les Egyptiens, les Romains, les Persans,
+les Turcs, les Chinois, les Russes, les Anglais, les Espagnols, les Français?
+L'imagination s'effraie devant cette énorme disproportion.
+][
+Enfin, on a inventé le gouvernement représentatif
+et, ,(emph[à priori]), on aurait pu croire
+que le désordre allait cesser comme par enchantement.
+][
+En effet, le principe de ces gouvernements est celui-ci:
+,(q[La population elle-même, par ses représentants,
+décidera la nature et l'étendue des fonctions
+qu'elle juge à propos de constituer en ,(emph[services publics]),
+et la quotité de la rémunération qu'elle entend attacher à ces ,(emph[services]).])
+][
+La tendance à s'emparer du bien d'autrui
+et la tendance à défendre son bien étaient ainsi mises en présence.
+On devait penser que la seconde surmonterait la première.
+][
+Certes, je suis convaincu que la chose réussira à la longue.
+Mais il faut bien avouer que jusqu'ici elle n'a pas réussi.
+][
+Pourquoi? par deux motifs bien simples:
+les gouvernements ont eu trop, et les populations pas assez de sagacité.
+][
+Les gouvernements sont fort habiles.
+Ils agissent avec méthode, avec suite,
+sur un plan bien combiné et constamment perfectionné
+par la traditicn et l'expérience.
+Ils étudient les hommes et leurs passions.
+S'ils reconnaissent, par exemple, qu'ils ont l'instinct de la guerre,
+ils attisent, ils excitent ce funeste penchant.
+Ils environnent la nation de dangers par l'action de la diplomatie,
+et tout naturellement ensuite, ils lui demandent
+des soldats, des marins, des arsenaux, des fortifications:
+souvent même ils n'ont que la peine de les laisser offrir;
+alors ils ont des grades, des pensions et des places à distribuer.
+Pour cela, il faut beaucoup d'argent; les impôts et les emprunts sont là.
+][
+Si la nation est généreuse, ils s'offrent à guérir tous les maux de l'humanité.
+Ils relèveront, disent-ils, le commerce, feront prospérer l'agriculture,
+développeront les fabriques, encourageront les lettres et les arts,
+extirperont la misère, etc., etc.
+Il ne s'agit que de créer des fonctions et payer des fonctionnaires.
+][
+En un mot, la tactique consiste à
+présenter comme services effectifs ce qui n'est qu'entraves;
+alors la nation paie non pour être servie, mais desservie.
+Les gouvernements, prenant des proportions gigantesques,
+finissent par absorber la moitié de tous les revenus.
+Et le peuple s'étonne de travailler autant,
+d'entendre annoncer des inventions merveilleuses
+qui doivent multiplier à l'infini les produits et...
+d'être toujours Gros-Jean comme devant.
+][
+C'est que, pendant que le gouvernement déploie tant d'habileté,
+le peuple n'en montre guère.
+Ainsi, appelé à choisir ses chargés de pouvoirs,
+ceux qui doivent déterminer la sphère et la rémunération
+de l'action gouvernementale, qui choisit-il?
+Les agents du gouvernement.
+Il charge le pouvoir exécutif de fixer lui-même
+la limite de son activité et de ses exigences.
+Il fait comme le ,(emph[Bourgeois gentilhomme]),
+qui, pour le choix et le nombre de ses habits,
+s'en remet... à son tailleur ,(footnote*[
+Voy., au tome 1,
+,(XXX :bof-ref "lettre_larnac")
+	la lettre adressée à M. Larnac,
+et au tome V,
+,(XXX :bof-ref "incompatibilites_parlementaires")
+	les Incompatibilités parlementaires.
+,(NdEEO)]).
+][
+Cependant les choses vont de mal en pis,
+et le peuple ouvre enfin les yeux, non sur le remède
+(il n'en est pas là encore), mais sur le mal.
+][
+,(emph[Gouverner]) est un métier si doux que tout le monde y aspire.
+Aussi les conseillers du peuple ne cessent de lui dire:
+Nous voyons tes souffrances et nous les déplorons.
+Il en serait autrement si nous te gouvernions.
+][
+Cette période, qui est ordinairement fort longue,
+est celle des rébellions et des émeutes.
+Quand le peuple est vaincu, les frais de la guerre s'ajoutent à ses charges.
+Quand il est vainqueur, le personnel gouvernemental change et les abus restent.
+][
+Et cela dure jusqu'à ce qu'enfin le peuple apprenne
+à connaître et à défendre ses vrais intérêts.
+Nous arrivons donc toujours à ceci:
+Il n'y a de ressource que dans le progrès de la Raison publique.
+][
+Certaines nations paraissent merveilleusement disposées
+à devenir la proie de la Spoliation gouvernementale.
+Ce sont celles où les hommes,
+ne tenant aucun compte de leur propre dignité et de leur propre énergie,
+se croiraient perdus
+s'ils n'étaient ,(emph[administrés]) et ,(emph[gouvernés]) en toutes choses.
+Sans avoir beaucoup voyagé, j'ai vu des pays
+où l'on pense que l'agriculture ne peut faire aucun progrès
+si l'État n'entretient des fermes expérimentales;
+qu'il n'y aura bientôt plus de chevaux, si l'État n'a pas de haras;
+que les pères ne feront pas élever leurs enfants
+ou ne leur feront enseigner que des choses immorales,
+si l'État ne décide pas ce qu'il est bon d'apprendre, etc., etc.
+Dans un tel pays, les révolutions peuvent se succéder rapidement,
+les gouvernants tomber les uns sur les autres.
+Mais les gouvernés n'en seront pas moins gouvernés à merci et miséricorde
+(car la disposition que je signale ici
+est l'étoffe même dont les gouvernements sont faits),
+jusqu'à ce qu'enfin le peuple s'aperçoive
+qu'il vaut mieux laisser le plus grand nombre possible de ,(emph[services])
+dans la catégorie de ceux que les parties intéressées échangent
+,(emph[à prix débattu]) ,(footnote*[
+Voir au présent tome,
+,(bof-ref "l_Etat" (cite-title[l'État])),
+,(bof-ref "la_loi" (cite-title[la Loi])),
+et au tome VI, le chapitre XVII ,(bof-ref "services"
+	(cite-title[Services privés et services publics])). ,(NdEEO)]).
+][
+Nous avons vu que la société est ,(emph[échange des services]).
+Elle ne devrait être qu'échange de bons et loyaux services.
+Mais nous avons constaté aussi
+que les hommes avaient un grand intérêt et, par suite, une pente irrésistible
+à exagérer la valeur relative des services qu'ils rendent.
+Et véritablement, je ne puis apercevoir d'autre limite à cette prétention
+que la libre acceptation ou le libre refus
+de ceux à qui ces services sont offerts.
+][
+De là il arrive que certains hommes ont recours à la loi
+pour qu'elle diminue chez les autres
+les naturelles prérogatives de cette liberté.
+Ce genre de spoliation s'appelle Privilége ou Monopole.
+Marquons-en bien l'origine et le caractère.
+][
+Chacun sait que les services qu'il apporte dans le marché général
+y seront d'autant plus appréciés et rémunérés qu'ils y seront plus rares.
+Chacun implorera donc l'intervention de la loi pour éloigner du marché
+tous ceux qui viennent y offrir des services analogues,
+,(--) ou, ce qui revient au même,
+si le concours d'un instrument est indispensable
+pour que le service soit rendu,
+il en demandera à la loi la possession exclusive
+,(footnote*[
+Pour la distinction entre les monopoles véritables
+et ce qu'on a nommé les monopoles naturels,
+voir, au ,(bof-ref "de_la_valeur" [chapitre 5 du tome VI]),
+la note qui accompagne l'exposé de la doctrine d'Adam Smith sur la valeur.
+,(NdEEO)]).
+][
+Cette variété de Spoliation étant l'objet principal de ce volume,
+j'en dirai peu de chose ici, et me bornerai à une remarque.
+][
+Quand le monopole est un fait isolé,
+il ne manque pas d'enrichir celui que la loi en a investi.
+Il peut arriver alors que chaque classe de travailleurs,
+au lieu de poursuivre la chute de ce monopole,
+réclame pour elle-même un monopole semblable.
+Cette nature de Spoliation, ainsi réduite en système,
+devient alors la plus ridicule des mystifications pour tout le monde,
+et le résultat définitif est que chacun croit retirer ,(emph[plus])
+d'un marché général ,(emph[appauvri de tout]).
+][
+Il n'est pas nécessaire d'ajouter que ce singulier régime
+introduit en outre un antagonisme universel
+entre toutes les classes, toutes les professions, tous les peuples;
+qu'il exige une interférence constante,
+mais toujours incertaine de l'action gouvernementale;
+qu'il abonde ainsi dans le sens des abus
+qui font l'objet du précédent paragraphe;
+qu'il place toutes les industries dans une insécurité irrémédiable,
+et qu'il accoutume les hommes à mettre sur la loi, et non sur eux-mêmes,
+la responsabilité de leur propre existence.
+Il serait difficile d'imaginer une cause plus active de perturbation sociale
+,(footnote*[
+Cette cause de perturbation,
+l'auteur devait bientôt assister à son développement
+et la combattre avec énergie.
+Voir ci-après l',(bof-ref "l_Etat" (cite-title[État])),
+puis, au tome II,
+,(bof-ref "funestes_illusions" (cite-title[Funestes illusions]))
+et, au tome VI, les dernières pages du
+,(bof-ref "echange" [chapitre 4]). ,(NdEEO)]).
+][
+,(emph[Justification]).
+][
+On dira:
+,(q[Pourquoi ce vilain mot: Spoliation?
+Outre qu'il est grossier, il blesse, il irrite,
+il tourne contre vous les hommes calmes et modérés, il envenime la lutte.])
+][
+Je le déclare hautement, je respecte les personnes;
+je crois à la sincérité de presque tous les partisans de la Protection;
+et je ne me reconnais le droit de suspecter la probité personnelle,
+la délicatesse, la philanthropie de qui que ce soit.
+Je répète encore que la Protection est l',(oe)uvre, l',(oe)uvre funeste,
+d'une commune erreur dont tout le monde, ou du moins la grande majorité,
+est à la fois victime et complice.
+,(--) Après cela je ne puis pas empêcher
+que les choses ne soient ce qu'elles sont.
+][
+Qu'on se figure une espèce de Diogène mettant la tête hors de son tonneau,
+et disant:
+,(q[Athéniens, vous vous faites servir par des esclaves.
+N'avez-vous jamais pensé que vous exerciez sur vos frères
+la plus inique des spoliations?])
+][
+Ou encore, un tribun parlant ainsi dans le Forum:
+,(q[Romains, vous avez fondé tous vos moyens d'existence
+sur le pillage successif de tous les peuples.])
+][
+Certes, ils ne feraient qu'exprimer une vérité incontestable.
+Faudrait-il en conclure qu'Athènes et Rome
+n'étaient habitées que par de malhonnêtes gens?
+que Socrate et Platon, Caton et Cincinnatus
+étaient des personnages méprisables?
+][
+Qui pourrait avoir une telle pensée?
+Mais ces grands hommes vivaient
+dans un milieu qui leur ôtait la conscience de leur injustice.
+On sait qu'Aristote ne pouvait pas même se faire l'idée
+qu'une société pût exister sans esclavage.
+][
+Dans les temps modernes, l'esclavage a vécu jusqu'à nos jours
+sans exciter beaucoup de scrupules dans l'âme des planteurs.
+Des armées ont servi d'instrument à de grandes conquêtes,
+c'est-à-dire à de grandes spoliations.
+Est-ce à dire qu'elles ne fourmillent pas de soldats et d'officiers,
+personnellement aussi délicats, plus délicats peut-être
+qu'on ne l'est généralement dans les carrières industrielles;
+d'hommes à qui la pensée seule d'un vol ferait monter le rouge au front,
+et qui affronteraient mille morts plutôt que de descendre à une bassesse?
+][
+Ce qui est blâmable ce ne sont pas les individus,
+mais le mouvement général qui les entraîne et les aveugle,
+mouvement dont la société entière est coupable.
+][
+II en est ainsi du Monopole.
+J'accuse le système, et non point les individus;
+la société en masse, et non tel ou tel de ses membres.
+Si les plus grands philosophes ont pu se faire illusion
+sur l'iniquité de l'esclavage,
+à combien plus forte raison des agriculteurs et des fabricants
+peuvent-ils se tromper sur la nature et les effets du régime restrictif?
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863), tome IV, ,(SophismesEconomiques),
+seconde série, chapitre I,
+,(cite-title[Physiologie de la Spoliation]),
+pp. 127-148.
+][
+Numérisé par ,(krylenko),
+relu et édité par ,(FRR) pour ,(Bastiat.org).
+])))

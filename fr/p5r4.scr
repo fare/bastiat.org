@@ -1,0 +1,131 @@
+; -*- Scheme -*-
+; $Id: p5r4.scr,v 1.2 2003/03/24 11:32:13 fare Exp $
+(style 'bo-style)
+(in-bof :title "Prendre cinq et rendre quatre ce n'est pas donner
+	- par Frédéric Bastiat")
+(document :title "Prendre cinq et rendre quatre ce n'est pas donner"
+	:author author-FB
+(p*[
+Là, soyons de bon compte, qu'est-ce que l'État?
+N'est-ce pas la collection de tous les fonctionnaires publics?
+Il y a donc dans le monde deux espèces d'hommes, savoir:
+les fonctionnaires de toute sorte qui forment l'État,
+et les travailleurs de tout genre qui composent la société.
+Cela posé, sont-ce les fonctionnaires qui font vivre les travailleurs,
+ou les travailleurs qui font vivre les fonctionnaires?
+En d'autres termes, l'État fait-il vivre la société,
+ou la société fait-elle vivre l'État?
+][
+Je ne suis pas un savant,
+mais un pauvre diable qui s'appelle Jacques Bonhomme,
+qui n'est et n'a jamais pu être que travailleur.
+][
+Or, en qualité de travailleur,
+payant l'impôt
+	sur mon pain,
+	sur mon vin,
+	sur ma viande,
+	sur mon sel,
+	sur ma fenêtre,
+	sur ma porte,
+	sur le fer et l'acier de mes outils,
+	sur mon tabac,
+	etc., etc.,
+j'attache une grande importance à cette question et je la répète:
+][
+Les fonctionnaires font-ils vivre les travailleurs,
+ou les travailleurs font-ils vivre les fonctionnaires?
+][
+Vous me demanderez pourquoi j'attache de l'importance à cette question,
+le voici:
+][
+Depuis quelques temps,
+je remarque une disposition énorme chez tout le monde
+à demander à l'État des moyens d'existence.
+][
+Les agriculteurs lui disent:
+Donnez-nous
+	des primes,
+	de l'instruction,
+	de meilleures charrues,
+	de plus belles races de bestiaux, etc.
+][
+Les manufacturiers:
+Faites-nous gagner un peu plus
+	sur nos draps,
+	sur nos toiles,
+	sur nos fers.
+][
+Les ouvriers:
+Donnez-nous
+	de l'ouvrage,
+	des salaires et
+	des instruments de travail.
+][
+Je trouve ces demandes bien naturelles,
+et je voudrais bien que l'État pût donner tout ce qu'on exige de lui.
+][
+Mais, pour le donner, où le prend-il?
+Hélas! Il prend
+	un peu plus sur mon pain,
+	un peu plus sur mon vin,
+	un peu plus sur ma viande,
+	un peu plus sur mon sel,
+	un peu plus sur mon tabac,
+	etc., etc.
+][
+En sorte que ce qu'il me donne,
+il me le prend et ne peut pas ne pas me le prendre.
+Ne vaudrait-il pas mieux qu'il me donnât moins et me prît moins?
+][
+Car enfin, il ne me donne jamais tout ce qu'il me prend.
+Même pour prendre et donner,
+il a besoin d'agents qui gardent une partie de ce qui est pris.
+][
+Ne suis-je pas une grande dupe de faire avec l'État le marché suivant?
+J'ai besoin d'ouvrage.
+Pour m'en faire avoir tu prendras
+	cinq francs sur mon pain,
+	cinq francs sur mon vin,
+	cinq francs sur mon sel
+	et cinq francs sur mon tabac.
+Cela fera vingt francs.
+Tu en garderas six pour vivre
+et tu me feras une demande d'ouvrage pour quatorze.
+Évidemment je serai un peu plus pauvre qu'avant;
+j'en appellerais à toi pour rétablir mes affaires,
+et voici ce que tu feras.
+Tu récidiveras.
+Tu prélèveras
+	autres cinq francs sur mon pain,
+	autres cinq francs sur mon vin,
+	autres cinq bancs sur mon sel
+	et autres cinq francs sur mon tabac;
+ce qui fera autres vingt francs.
+Sur quoi, tu mettras autres six francs dans ta poche
+et me feras gagner autres quatorze francs.
+Cela fait, je serai encore d'un degré plus misérable.
+J'aurai de nouveau recours à toi, etc.
+]
+(verses
+(inlatin[Si maladia])
+(inlatin[Opiniatra])
+(inlatin[Non vult se guarire, ])
+(inlatin[Quid illi facere?])
+(inlatin[,(--) Purgare, saignare, clysterisare, ])
+(inlatin[Repurgare, resaignare, reclysterisare.]))
+[
+Jacques Bonhomme!
+Jacques Bonhomme!
+J'ai peine à croire
+	que tu aies été assez fou pour te soumettre à ce régime,
+		parce qu'il a plu à quelques écrivailleurs de le baptiser:
+			,(emph[Organisation et Fraternité]).
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome VII, texte 60. ,(XXX :pp.)
+][
+Numérisé et mis en hypertexte par ,(FRR) pour ,(Bastiat.org).
+])))
