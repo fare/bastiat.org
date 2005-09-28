@@ -1,0 +1,108 @@
+; -*- Scheme -*-
+; $Id: les_deux_haches.scr,v 1.3 2004/09/29 14:09:04 fare Exp $
+(style 'bo-style)
+(in-bof :title "Post hoc, ergo propter hoc
+	- par Frédéric Bastiat")
+(document :title "Post hoc, ergo propter hoc"
+	:author author-FB
+(subtitle[Chapitre VIII de la seconde série des ,(SophismesEconomiques)
+,(footnote*[
+Tiré du ,(cite-title[Libre-Echange]), n° du 6 décembre 1840
+,(NdEEO)
+])
+])
+(p*[
+Le plus commun et le plus faux des raisonnements:
+][
+Des souffrances réelles se manifestent en Angleterre.
+][
+Ce fait vient à la suite de deux autres:
+][
+1° La réforme douanière;
+][
+2° La perte de deux récoltes consécutives.
+][
+À laquelle de ces deux dernières circonstances
+faut-il attribuer la première?
+][
+Les protectionnistes ne manquent pas de s'écrier:
+,(q[C'est cette liberté maudite qui fait tout le mal.
+Elle nous promettait monts et merveilles, nous l'avons accueillie,
+et voilà que les fabriques s'arrêtent et le peuple souffre:
+,(inlatin[Cum hoc, ergo propter hoc]).])
+][
+La liberté commerciale distribue
+de la manière la plus uniforme et la plus équitable
+les fruits que la Providence accorde au travail de l'homme.
+Si ces fruits sont enlevés, en partie, par un fléau,
+elle ne préside pas moins à la bonne distribution de ce qui en reste.
+Les hommes sont moins bien pourvus, sans doute;
+mais faut-il s'en prendre à la liberté ou au fléau?
+][
+La liberté agit sur le même principe que les assurances.
+Quand un sinistre survient, elle répartit
+sur un grand nombre d'hommes, sur un grand nombre d'années,
+des maux qui, sans elle, s'accumuleraient sur un peuple et sur un temps.
+Or, s'est-on jamais avisé de dire que l'incendie n'est pas un fléau
+depuis qu'il y a des assurances?
+][
+En 1842, 43 et 44, la réduction des taxes a commencé en Angleterre.
+En même temps les récoltes y ont été trés-abondantes,
+et il est permis de croire que ces deux circonstances
+ont concouru à la prospérité inouïe
+dont ce pays a donné spectacle pendant cette période.
+][
+En 1845, la récolte a été mauvaise; en 1846, plus mauvaise encore.
+][
+Les aliments ont renchéri;
+le peuple à dépensé ses ressources pour se nourrir,
+et restreint ses autres consommations.
+Les vêtements ont été moins demandés, les fabriques moins occupées,
+et le salaire a manifesté une tendance à la baisse.
+Heureusement que, dans cette même année,
+les barrières restrictives ayant été de nouveau abaissées,
+une masse énorme d'aliments a pu parvenir sur le marché anglais.
+Sans cette circonstance, il est à peu près certain
+qu'en ce moment une révolution terrible ensanglanterait la Grande-Bretagne.
+][
+Et l'on vient accuser la liberté des désastres qu'elle prévient
+et répare du moins en partie!
+][
+Un pauvre lépreux vivait dans la solitude.
+Ce qu'il avait touché, nul ne le voulait toucher.
+Réduit à se suffire à lui-même,
+il traînait dans ce monde une misérable existence.
+Un grand médecin le guérit.
+Voilà notre solitaire
+en pleine possession de la ,(emph[liberté des échanges]).
+Quelle belle perspective s'ouvrait devant lui!
+Il se plaisait à calculer le bon parti
+que, grâce à ses relations avec les autres hommmes,
+il pourrait tirer de ses bras vigoureux.
+Il vint à se les rompre tous les deux.
+Hélas! son sort fut horrible.
+Les journalistes de ce pays, temoin de sa misère, disaient:
+,(q[Voyez à quoi l'a réduit la faculté d'échanger!
+Vraiment, il était moins à plaindre quand il vivait seul.
+,(--) Eh! quoi, répondait le médecin,
+ne tenez-vous aucun compte de ses deux bras cassés?
+n'entrent-ils pour rien dans sa triste destinée?
+Son malheur est d'avoir perdu les bras,
+et non point d'être guéri de la lèpre.
+Il serait bien plus à plaindre
+s'il était manchot et lépreux par dessus le marché.])
+][
+,(inlatin[Post hoc, ergo propter hoc]),(pv) méfiez-vous de ce sophisme.
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome IV, ,(SophismesEconomiques),
+seconde série, chapitre VIII,
+,(cite-title[Post hoc, ergo propter hoc]),
+pp. 187-189.
+][
+Numérisé par ,(fguerinet),
+et édité par ,(FRR) pour ,(Bastiat.org).
+À relire.
+])))
