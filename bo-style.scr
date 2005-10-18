@@ -166,8 +166,8 @@
 		 (:html #f) (:tex #f) (:info #f) (:man #f))
   (format-selector :txt txt :html html :tex tex :info info :man man))
 (define (nbsp) (make-glyph :txt " " :html "&nbsp;" :tex "~"))
-;(define (--) (make-glyph :txt "--" :html "&#151;" :tex "---"))
-;(define (br) (make-glyph :txt "\n" :html "<br>\n" :tex "\\\\{}"))
+(define (--) (make-glyph :txt "--" :html "&#151;" :tex "---"))
+(define (br) (make-glyph :txt "\n" :html "<br>\n" :tex "\\\\{}"))
 (define (hr) (make-glyph :txt "\n---\n" :html "<hr></hr>\n" :tex "\\\\{}"))
 (define p-justify (make-environment
 		    :txt p
