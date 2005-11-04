@@ -4,9 +4,9 @@
 (in-bof :title "La protection ou les trois échevins.
 	- par Frédéric Bastiat")
 (define (tableau title description . para)
-  (list (center(font :size "+1" title))
+  (*list (center(font :size "+1" title))
 	(p (center(small description)))
-	(apply p* para)))
+	(apply* p* para)))
 	    
 
 (document :title "La protection ou les trois échevins."

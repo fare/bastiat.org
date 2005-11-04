@@ -89,7 +89,7 @@ vu leur nombre, dans les impôts de consommation.
 ][
 D'après ce qui précède, le prélèvement additionnel imaginé par les whigs
 devait produire:
-](apply table (map (lambda (x) (tr (td :align 'right (car x)) (td (cadr x))))
+](apply* table (map* (lambda (x) (tr (td :align 'right (car x)) (td (cadr x))))
  '(([1,426,040] [liv. st. 5 pour 100 sur la douane et l'accise,
 	spiritueux non compris;])
    ([186,000] [liv. st. 4 pence par gallon, sur les spiritueux;])
@@ -193,13 +193,13 @@ quel aurait dû être le produit de la douane et de l'accise,
 et quel fut-il en réalité?
 C'est ce qu'on verra dans le tableau suivant
 ]
-(apply table
- (apply tr (map (lambda (x) (td :valign 'top x))
+(apply* table
+ (apply* tr (map* (lambda (x) (td :valign 'top x))
   (list [ANNÉES.]
 	[POPULATION.]
 	[PRODUIT PROPORTIONNEL ,(br) des taxes indirectes.] []
 	[PRODUIT RÉEL.])))
- (map (lambda (x) (apply tr (map td x)))
+ (map* (lambda (x) (apply* tr (map* td x)))
   `((1836 [26,158,524] [36,392,472 l.s.] () [30,392,472 l. s.])
     (1837 [26,518,885] [36,938,363] () [33,958,421])
     (1838 [26,879,246] [37,484,254] () [34,478,417])

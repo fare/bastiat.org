@@ -6,7 +6,7 @@
 - événement festif libéral mondial")
 (set! =mfc.url= "")
 (set! *scribe-footer*
-	(list
+	(*list
 	 (hrule)
 	 (font :size -1
 	  (table :width "100%" (tr
@@ -20,7 +20,7 @@
 
 (document :title [La Marche pour Fêter le Capitalisme]
 (p*
-(center(list
+(center(*list
 (font :size "+2" [
 La prochaine ,(strong[Marche pour Fêter le Capitalisme]) ,(br)
 aura lieu ,(strong[le dimanche 6 juin 2004]) dans le monde entier.

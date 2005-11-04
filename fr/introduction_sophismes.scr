@@ -14,7 +14,7 @@ En économie politique, il y a beaucoup à apprendre et peu à faire.
 J'ai cherché, dans ce petit volume
 ,(footnote*[
 Le petit volume,
-contenant la première série des ,(Sophismeseconomiques),
+contenant la première série des ,(Sophismes_economiques),
 parut à la fin de 1845.
 Plusieurs des chapitres qu'il contient
 avaient été publiés par le ,(cite-title[Journal des Économistes])
@@ -154,8 +154,8 @@ Après cela, je n'ai pas de répugnance à dire quel est mon v,(oe)u.
 Je voudrais que l'opinion fût amenée à sanctionner une loi de douanes
 conçue à peu près en ces termes:
 ]
-(apply table :width "100%"
-(map (lambda (x) (tr (tdLT (car x)) (tdRB (cdr x))))
+(apply* table :width "100%"
+(map* (lambda (x) (tr (tdLT (car x)) (tdRB (cdr x))))
 `((,[Les objets de première nécessité
 	paieront un droit ,(inlatin[ad valorem]) de]
    ,[5%])

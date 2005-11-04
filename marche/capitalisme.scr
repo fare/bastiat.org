@@ -3,7 +3,7 @@
 (style 'bo-style)
 (in-bof :title "Le Capitalisme - un système de coopération fondé sur la liberté, la responsabilité, la propriété")
 (set! *scribe-footer*
-	(list
+	(*list
 	 (hrule)
 	 (font :size -1
 	  (table :width "100%" (tr
