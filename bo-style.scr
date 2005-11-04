@@ -60,9 +60,7 @@
 	[Bertrand Lemennicier]))
 (define (JML)
   (ref :url "http://www.nouveau-monde.org/" [Jean-Michel Leloup]))
-(define (cbalanca)
-  (ref :url "http://www.ibastiat.com/" [Claude Balança]))
-  ; claudebalanca@ibastiat.com
+(define (cbalanca) [Claude Balança]) ; MIA http://www.ibastiat.com/
 (define (clement.junca)
   (ref :url "http://fr.wikipedia.org/wiki/Utilisateur:Eudoxe" [Clément Junca]))
 (define (cvincent)
