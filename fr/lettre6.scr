@@ -4,7 +4,7 @@
 (in-bof :title "Gratuité du crédit - Sixième lettre
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
-	:author author-FB
+	:author (author-FB)
 (tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
 (tag :p :align 'center

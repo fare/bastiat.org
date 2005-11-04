@@ -4,7 +4,7 @@
 (in-bof :title "Maudit Argent!
 	- pamphlet par Frédéric Bastiat")
 (document :title [Maudit Argent!]
-	:author author-FB
+	:author (author-FB)
 (p*[
 ,(--) Maudit argent
 ,(footnote*[

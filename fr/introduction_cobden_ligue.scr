@@ -4,7 +4,7 @@
 (in-bof :title "Introduction à «Cobden et la Ligue»
 	- par Frédéric Bastiat")
 (document :title [Introduction à ,(cite-title[Cobden et la Ligue])]
-	:author author-FB
+	:author (author-FB)
 (p*[
 La personne la plus exposée à se faire illusion
 sur le mérite et la portée d'un livre,

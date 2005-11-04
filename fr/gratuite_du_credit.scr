@@ -5,7 +5,7 @@
 (set! =bof.url= "")
 
 (document :title [Gratuité du Crédit]
-	:author author-FB
+	:author (author-FB)
 (p*
 (itemize
 (item (xbof-ref "lettre1"

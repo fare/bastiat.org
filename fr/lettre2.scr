@@ -4,7 +4,7 @@
 (in-bof :title "Gratuité du crédit - Deuxième lettre
 	- Frédéric Bastiat à La Voix du Peuple")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Deuxième lettre]
-	:author author-FB
+	:author (author-FB)
 (tag :p :align 'center (font :size "+3" (strong[
 		F. Bastiat ,(br)
 	Au rédacteur de ,(cite-title[La Voix du Peuple])

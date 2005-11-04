@@ -4,7 +4,7 @@
 (in-boes :title "Lo que se ve y lo que no se ve
 	- por Frédéric Bastiat")
 (document :title [Lo que se ve ,(br) y ,(br) lo que no se ve]
-	:author author-FB
+	:author (author-FB)
 (itemize
 (item[,(ref :url "#introduccion" [Introducción])])
 (item[,(ref :url "#cristal_roto" [I. El cristal roto])])

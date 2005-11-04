@@ -4,7 +4,7 @@
 (in-bof :title "Discours sur l'impôt des boissons, par Frédéric Bastiat")
 
 (document :title "Discours sur l'impôt des boissons"
-	:author author-FB
+	:author (author-FB)
 (p*[
 ,(strong[Citoyens représentants,])
 ,(footnote*[Cette improvisation fut prononcée à l'Assemblée législative

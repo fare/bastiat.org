@@ -5,7 +5,7 @@
 	- par Frédéric Bastiat")
 (document :title [Ce qu'on voit ,(br) et ,(br)
 	,(strong[ce qu'on ne voit pas])]
-	:author author-FB
+	:author (author-FB)
 (itemize
 (item(ref :url "#introduction" [Introduction]))
 (item(ref :url "#vitre_cassee" [I. La vitre cassée]))

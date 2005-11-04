@@ -116,13 +116,6 @@
 (define (EO1863) (EO18xx 7 63))
 (define (EO1864) (EO18xx 7 64))
 
-(define author-FB
- (author :name "Frédéric Bastiat"
-	 :url (bo-ref #f =bo.url=)))
-(define author-FRR
- (author :name "François-René Rideau"
-	 :url (Fare.ref #f =fare.url=)))
-
 (set! *scribe-background* "white")
 (set! *scribe-foreground* "black")
 (set! *scribe-tbackground* "#99FF6F")
