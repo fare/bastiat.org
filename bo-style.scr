@@ -103,8 +103,6 @@
   (ref :url "http://www.fee.org/" [FEE]))
 (define (NdEBO)
   (it [(Note de l'éditeur de ,(Bastiat.org).)]))
-(define (NdEEO)
-  (it [(Note de l'éditeur de l'édition originale.)]))
 (define (NdEEF)
   (it [(Note de l'éditeur de l'édition de la ,(FEE).)]))
 (define (NdML)
@@ -129,24 +127,6 @@
 (set! *scribe-foreground* "black")
 (set! *scribe-tbackground* "#99FF6F")
 
-(define-markup (in-bo (:title #f) (:lang #f))
-  (set! *webbug* (nedstatbasic "AB96kQQPKcA9hvtk46jfLrOJROZQ"))
-  (apply* with-header :title title :lang lang '())
-  (with-footer :lang lang))
-(define-markup (in-boe (:title #f))
-  (set! *webbug* (nedstatbasic "AB1t4Q0lGCThWKJZmCMwPijGBuvg"))
-  (apply* with-header :title title :lang 'en '())
-  (with-footer :lang 'en))
-(define-markup (in-bof (:title #f))
-  (set! *webbug* (nedstatbasic "AB1t5AEToaCwyNzVqItEA1IJ4eCg"))
-  (apply* with-header :title title :lang 'fr '())
-  (with-footer))
-(define-markup (in-boes (:title #f))
-  (set! *webbug* (nedstatbasic "AB96lAiJYmytD2BwLTX0J8Im4GXg"))
-  ;(set! NdEEO (lambda () (emph[(Nota del editor de la edición original.)])))
-  ;(set! NdT (lambda () (emph[(Nota del Traductor.)])))
-  (apply* with-header :title title :lang 'es '())
-  (with-footer :lang 'es))
 (define bo-header-args
   '(:textcolor "black" :bgcolor "white"
     :icon "http://bastiat.org/pic/favicon.ico"))
@@ -158,15 +138,15 @@
 	num))
 
 (define (tradlink a b . rest)
- (or
-  (case a
-    ((:bof) (*list* (bof-ref b (car rest)) (cdr rest)))
-    ((:bof-) (*list* (bof-ref b (car rest) (cadr rest)) (cddr rest)))
-    ((:boe) (*list* (boe-ref b (car rest)) (cdr rest)))
-    ((:boes) (*list* (boes-ref b (car rest)) (cdr rest)))
-    ((:elb) (*list* (elb-ref b (car rest)) (cdr rest)))
-    ((:elb-) (*list* (elb-ref b (car rest) (cadr rest)) (cddr rest))))
-  (*list* (ref :url a b) rest)))
+ (if (keyword? a)
+     (case a
+       ((:bof) (*list* (bof-ref b (car rest)) (cdr rest)))
+       ((:bof-) (*list* (bof-ref b (car rest) (cadr rest)) (cddr rest)))
+       ((:boe) (*list* (boe-ref b (car rest)) (cdr rest)))
+       ((:boes) (*list* (boes-ref b (car rest)) (cdr rest)))
+       ((:elb) (*list* (elb-ref b (car rest)) (cdr rest)))
+       ((:elb-) (*list* (elb-ref b (car rest) (cadr rest)) (cddr rest))))
+     (*list* (ref :url a b) rest)))
 (define (trad x)
    (inbracket
     (*list*
