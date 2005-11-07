@@ -1,4 +1,5 @@
-# $Id: Makefile,v 1.2 2005/08/13 21:14:31 fare Exp $
+export LISP=cmucl
+
 ifeq (.depend, $(wildcard .depend))
 all: ALL
 
