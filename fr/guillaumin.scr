@@ -151,7 +151,7 @@ Rejoignez notre équipe et vous aussi participez à la
 (tdLT
       (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))
 
-(insere-sommaire)
+(apply* *list (insere-sommaire))
 
 (begin (set! =bof.url= "http://bastiat.org/fr/") #f)
 (with-footer
