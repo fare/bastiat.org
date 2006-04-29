@@ -62,7 +62,8 @@
   (ref :url "http://www.nouveau-monde.org/" [Jean-Michel Leloup]))
 (define (cbalanca) [Claude Balança]) ; MIA http://www.ibastiat.com/
 (define (clement.junca)
-  (ref :url "http://fr.wikipedia.org/wiki/Utilisateur:Eudoxe" [Clément J]))
+  [Clément J])
+  ;;(ref :url "http://fr.wikipedia.org/wiki/Utilisateur:Eudoxe" [Clément Junca])
 (define (cvincent)
   (ref :url "http://perso.club-internet.fr/cvincent/" [Christophe Vincent]))
 (define (frk.paris)
@@ -86,7 +87,7 @@
 (define (Bastiat.org)
   (ref :url =bo.url= [Bastiat.org]))
 (define (Scribe.url)
-  (ref :url "http://www-sop.inria.fr/mimosa/fp/Scribe/" "Scribe"))
+  (ref :url "http://www-sop.inria.fr/mimosa/fp/Scribe/" [Scribe]))
 (define (oeuvres.completes.FB)
   [,(ref :url "guillaumin.html" [,(oe)uvres complètes])
 	de Frédéric Bastiat])
