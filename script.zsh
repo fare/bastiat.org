@@ -217,6 +217,56 @@ publish_pages () {
 }
 updateweb () { update_bastiat ; make_bastiat ; publish_pages }
 
+txt2scr () {
+perl -e '
+   $_ = join("",<>);
+   s/\r\n?/\n/gs ;
+   s/XXX\:sic\:/(XXX sicYYY)/gs ;
+   s/XXX\:sic/(XXX YYYsic)/gs ;
+   s/\s*([,.:;?!])/$1/gs ;
+   s/([,.:;?!])([A-Za-zÀ-ÿ])/$1 $2/gs ;
+   s/YYY/:/gs ;
+   s/ +/ /gs ;
+   s/ \n/\n/gs ;
+   s/^ //gm ;
+   s/\n{3,}/\n\]\n(nbsp)\n[\n/gs ;
+   s/\n\n/\n\]\[\n/gs ;
+   # Gérer les itemize avec s/^\- /...
+   # Gérer les blockquotes avec s/^\i/...
+   s/\[\*+([^\]]*)\]/,(footnote[$1\])/gs ;
+   s/\/([^0-9\/]*)\//,(emph\[$1\])/gs ;
+   s/(\W)l,\(emph\[/$1\,\(inlatin\[/gs ;
+   s/(\W)i,\(emph\[/$1\,\(initalian\[/gs ;
+   s/(\W)e,\(emph\[/$1\,\(inenglish\[/gs ;
+   s/(\W)t,\(emph\[/$1\,\(cite-title\[/gs ;
+   s/\*([^\*]*)\*/,(strong\[$1\])/gs ;
+   s/\"\s*([^\"]*?\S)?\s*\"/,(q\[$1\])/gs ;
+   s/\«\s*([^\"]*?\S)?\s*\»/,(q\[$1\])/gs ;
+   s/\x93\s*([^\"]*?\S)?\s*\x94/,(q\[$1\])/gs ;
+   s/oe([uil])/,(oe)$1/gs ;
+   s/\-\-/,(--)/gs ;
+   s/NdEEO/,(NdEEO)/gs ;
+   s/NdEEE/,(NdEBO)/gs ;
+   s/NdEBO/,(NdEBO)/gs ;
+   s/\(XXX ([^\)]+)\)/,(XXX [$1])/gs ;
+   s/XXX/,(XXX)/gs ;
+   s/\,\(\,\(XXX\)/,(XXX/gs ;
+   s/\(footnote/\(footnote\*/gs ;
+   s/\)\;/),(pv)/gs ;
+   s/\x9C/,(oe)/gs ;
+   s/\x8C/,(OE)/gs ;
+   s/\x91/\'\''/gs ; # Note the shell quoting of a single quote here
+   s/\x92/\'\''/gm ; # Note the shell quoting of a single quote here
+   s/\x97/,(--)/gm ;
+   s/\x96/,(--)/gm ;
+   s/\xFF//gm ;
+   s/\x85/.../gm ; # \&hellip\;
+   print;
+' -- $@
+}
+
+
+
 default_behavior () {
   : default_behavior $@
   no_func_abort $@
