@@ -1,6 +1,4 @@
 #!/bin/zsh -f
-# $Id: script.zsh,v 1.22 2003/03/24 10:37:42 fare Exp $
-#
 # For security reasons, the actual executable on bespin
 # must be updated manually when this file is modified:
 : /usr/bin/install -m 755 -o bastiat -g bastiat \
@@ -120,9 +118,10 @@ scribe_rule () {
 	other="oeuvres_bastiat.scr"
       fi
       rule "$b.html" "$i $style $other" \
-	"$CD ; $SCRIBE -I ${fare}/fare/www -I ${top} $file -o $base.html"
+	"$CD ; $EXSCRIBE -I ${fare}/fare/www -I ${top} $file -o $base.html"
       FILES="$b.html"
       HFILES="$b.html"
+      CFILES="$b.html"
 }
 do_depend_guillaumin () {
   print -l fr/*.scr > fr/.depend.guillaumin
@@ -150,6 +149,7 @@ EOF
 init () {
   ALLFILES=
   ALLHFILES=
+  ALLCFILES=
 }
 
 stuff () {
@@ -160,6 +160,7 @@ stuff () {
   top="$(echo $i | sed -e 's/[^\/]*\/[^\/]*/..\//g')" ; : ${top:=.}
   FILES=""
   HFILES=""
+  CFILES=""
 }
 
 init
@@ -189,10 +190,12 @@ for i in $SOURCES ; do
   fi
   ALLFILES="$ALLFILES $FILES"
   ALLHFILES="$ALLHFILES $HFILES"
+  ALLCFILES="$ALLCFILES $CFILES"
 done
 
 rule allfiles: "$ALLFILES"
 rule html: "$ALLHFILES"
+rule clean: "" "-rm -fv $ALLCFILES"
 depend_guillaumin
 
 }
@@ -265,8 +268,6 @@ perl -e '
    print;
 ' -- $@
 }
-
-
 
 default_behavior () {
   : default_behavior $@
