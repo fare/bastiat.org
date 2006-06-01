@@ -33,6 +33,14 @@
 (define (trLT . x) (apply* tr (map* tdLT x)))
 (define (trLT* x) (apply* trLT x))
 (define (simple-table x) (apply* table (map* trLT* x)))
+(define (tdRT2 . x) (apply* td :colspan 2 :align 'right :valign 'top x))
+(define (tdLT2 . x) (apply* td :colspan 2 :align 'left :valign 'top x))
+(define (tdCT . x) (apply* td :align 'center :valign 'top x))
+(define (tdCB . x) (apply* td :align 'center :valign 'bottom x))
+(define (tdCT2 . x) (apply* td :colspan 2 :align 'center :valign 'top x))
+(define (tdCB2 . x) (apply* td :colspan 2 :align 'center :valign 'bottom x))
+(define (enFr x) (*list x (nbsp) "fr."))
+
 
 (define (ELeter)
   (leter-ref "Fr%8Ed%8Eric%20Bastiat"
