@@ -60,7 +60,7 @@
   (ref :url "http://www.alainmadelin.com/"
 	[Alain Madelin]))
 (define (pmadrolle)
-  (ref :url "http://perso.wanadoo.fr/patrick.madrolle/economie/"
+  (ref :url "http://ami.du.laissez-faire.eu/"
 	[Patrick Madrolle]))
 (define (belem)
   (ref :url "http://lemennicier.com/"
@@ -151,5 +151,3 @@
     (*list*
      (join* "; "
 	    (map* (lambda (x) (apply* tradlink x)) x)))))
-(define (date-tag x)
-  (tag :p :align 'right x))
