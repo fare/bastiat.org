@@ -1,5 +1,4 @@
 ; -*- Scheme -*-
-; $Id: index.scr,v 1.69 2005/09/03 00:32:52 fare Exp $
 (style 'bo-style)
 (in-bof :title "Frédéric Bastiat - Bastiat.org
 - Nous démystifions les sophismes économiques depuis 1845")
@@ -43,22 +42,26 @@ Intégrer les textes de Michel Leter...
 (small
 (itemize
 (item[
-Les ,(HarmoniesEconomiques) de Frédéric Bastiat
-paraîtront mi-octobre 2005 aux Éditions du Trident
-préfacé par Georges Lane,
+La numérisation de ,(Gratuite_credit) vient d'être complétée (2006-08-23),
+grâce aux efforts de ,(GregB) et ,(fguerinet).
+À vous de juger qui de Bastiat ou Proudhon a les arguments les plus convaincants!
+])
+(item[
+Les ,(HarmoniesEconomiques) de Frédéric Bastiat sont
 ,(ref :url "http://www.europelibre.com/TR/bastiat1.htm"
-[on peut commander le livre dès maintenant]).
+[parues début 2006 aux Éditions du Trident])
+préfacées par Georges Lane.
 Il s'agit d'une réédition de l'édition originale parue du vivant de l'auteur,
 comprenant l'introduction et les dix premiers chapitre du tome 7 des
 ,(bof-ref "guillaumin" [,(OE*)uvres complètes]).
 ])
-(item ;(font :size "4"[
-[
-La prochaine ,(strong(ref :url "../marche/"
-	[Journée du Capitalisme]))
-aura lieu ,(strong[le 5 juin 2005]) dans le monde entier.
-Si aucun événement n'est encore organisé près de chez vous, organisez-le!
-]) ; ,(br),(nbsp) ]))
+;(item ;(font :size "4"[
+;[
+;La prochaine ,(strong(ref :url "../marche/"
+;	[Journée du Capitalisme]))
+;aura lieu ,(strong[le 5 juin 2005]) dans le monde entier.
+;Si aucun événement n'est encore organisé près de chez vous, organisez-le!
+;]) ; ,(br),(nbsp) ]))
 (item[
 Kalin Manolov de la BOIS vient de publier
 ,(ref :url "http://www.helikon.bg/book.php?book_id=114723"
