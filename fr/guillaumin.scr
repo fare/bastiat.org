@@ -16,7 +16,7 @@
 	(*list
 	 (hrule)
 	 (tag :a :name (number->string num))
-	 (tag :a :name contenu)
+	 ;;(tag :a :name contenu)
 	 (subtitle (*list "Tome " ord (br) (bold contenu)))
 	 (tag :p :align 'right (small [
 Cette pagination est celle de l'édition de ,(id date).
