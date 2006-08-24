@@ -1,5 +1,4 @@
 ; -*- Scheme -*-
-; $Id: numerisation.scr,v 1.29 2004/09/24 09:32:01 fare Exp $
 (style 'bo-style)
 (in-bof :title "Numérisation des OEuvres de Frédéric Bastiat")
 
@@ -303,7 +302,9 @@ j'ai d'abord écrit Bastiat.org directement
 en ,(ref :url "http://www.w3.org/MarkUp/" [HTML]),
 mais je me suis lassé de l'horreur qu'impliquaient
 la gestion des notes de bas de page, sans parler de la lourdeur du tout.
-Aujourd'hui, j'utilise ,(Scribe.url), et j'en suis très satisfait:
+Aujourd'hui, j'utilise ,(Scribe.url)
+(en fait, ma réimplémentation, ,(Exscribe.url)),
+et j'en suis très satisfait:
 par exemple, ceci est un exemple de note de bas de page
 produit automatiquement par Scribe,
 et si vous avez l'estomac bien accroché,
@@ -319,7 +320,7 @@ pour les textes dont il s'agit.
 J'ai un script qui transforme automatiquement les fichiers écrits en ce format
 en des fichiers Scribe, qui est le format dans lequel je stoque les textes.
 ][
-Les fichiers au format Word me sont à peu prêt inutile pour Bastiat.org,
+Les fichiers au format Word me sont à peu près inutile pour Bastiat.org,
 car toute leur mise en page est inexploitable.
 Quand j'en reçois, je m'empresse de le transformer en texte
 (ce qui ne m'est pas facile non plus),
@@ -334,7 +335,7 @@ ou en Scribe, sont ce que j'attends de la part des numériseurs.
 ,(strong[Envoyez-moi du simple texte]) (format ,(tt[.txt])) annoté comme suit.
 ,(footnote*[
 Surtout, pas de Word, ni de RTF, ni même de HTML.
-Vous pouvez m'envoyer du Scribe si vous voulez.
+Vous pouvez m'envoyer du ,(Scribe.url) si vous voulez.
 ])])
 (item[
 ,(strong[Suivez comme exemple
@@ -350,7 +351,7 @@ ou ,(ref :url "les_deux_devises.html" [le format HTML])
 Si vous devenez co-webmestre de Bastiat.org, vous devrez apprendre le Scribe,
 mais vous pouvez continuer à saisir les textes numérisés en texte,
 car il est de toute façon plus simple de les saisir ainsi
-et de les convertir automatiquement en Scribe.
+et de les convertir automatiquement en ,(Scribe.url).
 La saisie en HTML est une perte de temps.
 ])])
 (item[
@@ -412,8 +413,8 @@ Notez que dans l'édition Guillaumin des ,(oe)uvres de Bastiat,
 ce que j'identifie au "gras" est écrit en "smallcaps", c'est-à-dire
 tout en majuscule, mais avec des lettres plus grosses pour les
 vraies majuscules et plus petites pour les minuscules.
-Ainsi le mot L,(font :size -1 "IBERTÉ") sera transcrit ,(tt[*Liberté*]),
-alors que ,(font :size -1 "LIBERTÉ") sera transcrit ,(tt[*liberté*]).
+Ainsi le mot L,(font :size -2 "IBERTÉ") sera transcrit ,(tt[*Liberté*]),
+alors que ,(font :size -2 "LIBERTÉ") sera transcrit ,(tt[*liberté*]).
 ])
 (item[
 Insérez les notes de bas de page à l'endroit où se trouve le numéro de
