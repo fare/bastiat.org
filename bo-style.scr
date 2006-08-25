@@ -127,6 +127,7 @@
 (set! *scribe-background* "white")
 (set! *scribe-foreground* "black")
 (set! *scribe-tbackground* "#99FF6F")
+(define *section-title-background* "#CCFFB8")
 
 (define bo-header-args
   '(:textcolor "black" :bgcolor "white"
