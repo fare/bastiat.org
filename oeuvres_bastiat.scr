@@ -483,7 +483,7 @@
 	"Capital et rente")
   (P 5  64  93 "maudit_argent"
 	"Maudit argent")
-  (S "Gratuité du crédit"
+  (S ,(bof-ref "gratuite_du_credit" [Gratuité du crédit])
   (P 5  94 111 "lettre1"
 	,[Première lettre.
 	,(--) F. C. Chevé,
