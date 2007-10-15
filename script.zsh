@@ -195,7 +195,7 @@ done
 
 rule allfiles: "$ALLFILES"
 rule html: "$ALLHFILES"
-rule clean: "" "-rm -fv $ALLCFILES"
+#rule clean: "" "-rm -fv $ALLCFILES"
 depend_guillaumin
 
 }
@@ -272,6 +272,14 @@ perl -e '
 default_behavior () {
   : default_behavior $@
   no_func_abort $@
+}
+clean () {
+  setopt LOCAL_OPTIONS EXTENDED_GLOB
+  FILES=
+  for i in **/*.scr ; do
+    FILES=($FILES ${i%%.scr}.html) ;
+  done
+  rm -fv $FILES
 }
 main () {
   : main $@

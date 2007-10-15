@@ -19,6 +19,9 @@ depend:
 tdepend:
 	zsh -f script.zsh tdepend
 
+clean:
+	zsh -f script.zsh clean
+
 alldirs:
 
 fr/gratuite_du_credit.html: $(wildcard fr/lettre[1-9]*.scr)
