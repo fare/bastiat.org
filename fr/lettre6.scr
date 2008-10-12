@@ -1,133 +1,133 @@
 ; -*- Scheme -*-
 ; $Id: lettre6.scr,v 1.3 2005/08/12 20:10:51 fare Exp $
 (style 'bo-style)
-(in-bof :title "Gratuité du crédit - Sixième lettre
-	- Frédéric Bastiat à P. J. Proudhon")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
+(in-bof :title "GratuitÃ© du crÃ©dit - SixiÃ¨me lettre
+	- FrÃ©dÃ©ric BastiatÂ Ã  P. J. Proudhon")
+(document :title [,(cite-title[GratuitÃ© du crÃ©dit]) ,(--) SixiÃ¨me lettre]
 	:author (author-FB)
 (tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
+	F. Bastiat Ã  P. J. Proudhon.])))
 (tag :p :align 'center
 (font :size "+2" (strong[
-Est-il vrai que prêter n'est plus aujourd'hui rendre un service?
-,(--) La société est-elle un capitaliste tenu de prêter gratuitement?
+Est-il vrai que prÃªter n'est plus aujourd'hui rendre un service?
+,(--) La sociÃ©tÃ© est-elle un capitaliste tenu de prÃªter gratuitement?
 ,(--) Explication sur la circulation des capitaux.
-,(--) Chimères appelées par leur nom.
-,(--) Ce qui est vrai, c'est que l'intérêt dispense
-d'une rémunération plus onéreuse.
+,(--) ChimÃ¨res appelÃ©es par leur nom.
+,(--) Ce qui est vrai, c'est que l'intÃ©rÃªt dispense
+d'une rÃ©munÃ©ration plus onÃ©reuse.
 ])))
-(date-tag(small[10 décembre 1849.]))
+(date-tag(small[10 dÃ©cembre 1849.]))
 (p*[
 Je veux rester sur mon terrain;
-vous voulez m'attirer sur le vôtre, et vous me dites:
-Qu'êtes-vous venu faire à la ,(cite-title[Voix du Peuple]),
-si ce n'est réfuter la théorie du crédit gratuit, etc.?
+vous voulez m'attirer sur le vÃ´tre, et vous me dites:
+Qu'Ãªtes-vous venu faire Ã  la ,(cite-title[Voix du Peuple]),
+si ce n'est rÃ©futer la thÃ©orie du crÃ©dit gratuit, etc.?
 ][
-Il y a là un malentendu.
-Je n'ai point été à la ,(cite-title[Voix du Peuple]),(pv)
-la ,(cite-title[Voix du Peuple]) est venue à moi.
-De tous côtés, on parlait du crédit gratuit,
-et chaque jour voyait éclore un plan nouveau pour la réalisation de cette idée.
+Il y a lÃ  un malentendu.
+Je n'ai point Ã©tÃ© Ã  la ,(cite-title[Voix du Peuple]),(pv)
+la ,(cite-title[Voix du Peuple]) est venue Ã  moi.
+De tous cÃ´tÃ©s, on parlait du crÃ©dit gratuit,
+et chaque jour voyait Ã©clore un plan nouveau pour la rÃ©alisation de cette idÃ©e.
 ][
 Alors je me dis:
-Il est inutile de combattre ces plans l'un après l'autre.
-Prouver que le capital a un droit légitime et indestructible à être rémunéré,
-c'est les ruiner tous à la fois, c'est renverser leur base commune.
+Il est inutile de combattre ces plans l'un aprÃ¨s l'autre.
+Prouver que le capital a un droit lÃ©gitime et indestructible Ã  Ãªtre rÃ©munÃ©rÃ©,
+c'est les ruiner tous Ã  la fois, c'est renverser leur base commune.
 ][
 Et je publiai la brochure
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])).
 ][
 La ,(cite-title[Voix du Peuple]),
-ne trouvant pas ma démonstration concluante, l'a réfutée.
-J'ai demandé à la maintenir, vous y avez consenti loyalement:
+ne trouvant pas ma dÃ©monstration concluante, l'a rÃ©futÃ©e.
+J'ai demandÃ© Ã  la maintenir, vous y avez consenti loyalement:
 c'est donc sur mon terrain que doit se continuer la discussion.
 ][
-D'ailleurs, la société s'est développée perpétuellement et universellement
+D'ailleurs, la sociÃ©tÃ© s'est dÃ©veloppÃ©e perpÃ©tuellement et universellement
 sur le principe que j'invoque.
-C'est à ceux qui veulent que,
-à partir d'aujourd'hui, elle se développe sur le principe opposé,
-à prouver qu'elle a eu tort.
+C'est Ã  ceux qui veulent que,
+Ã  partir d'aujourd'hui, elle se dÃ©veloppe sur le principe opposÃ©,
+Ã  prouver qu'elle a eu tort.
 L',(inlatin[onus probandi]) leur incombe.
 ][
-Et après tout, de quelle importance réelle est ce débat préalable?
-Prouver que l'intérêt est légitime, juste, utile, bienfaisant, indestructible,
-n'est-ce pas prouver que la gratuité du crédit est une chimère?
+Et aprÃ¨s tout, de quelle importance rÃ©elle est ce dÃ©bat prÃ©alable?
+Prouver que l'intÃ©rÃªt est lÃ©gitime, juste, utile, bienfaisant, indestructible,
+n'est-ce pas prouver que la gratuitÃ© du crÃ©dit est une chimÃ¨re?
 ][
-Permettez-moi donc, Monsieur, de m'en tenir à cette question dominante:
-,(emph[L'intérêt est-il légitime et utile?])
+Permettez-moi donc, Monsieur, de m'en tenir Ã  cette question dominante:
+,(emph[L'intÃ©rÃªt est-il lÃ©gitime et utile?])
 ][
-Par pitié pour l'ignorance où vous me voyez
+Par pitiÃ© pour l'ignorance oÃ¹ vous me voyez
 (ainsi que bon nombre de nos lecteurs) de la philosophie germanique,
-vous voulez bien, métamorphosant Kant en Diafoirus,
-substituer à la ,(emph[loi de la contradiction])
+vous voulez bien, mÃ©tamorphosant Kant en Diafoirus,
+substituer Ã  la ,(emph[loi de la contradiction])
 celle de la ,(emph[distinction]).
 ][
 Je vous remercie de cette condescendance.
-Elle me met à l'aise.
+Elle me met Ã  l'aise.
 Mon esprit se refuse invinciblement, je l'avoue,
-à admettre que deux assertions contradictoires
-puissent être vraies en même temps.
+Ã  admettre que deux assertions contradictoires
+puissent Ãªtre vraies en mÃªme temps.
 Je respecte, comme je le dois, quoique de confiance, Kant, Fichte et Hegel.
-Mais si leurs livres entraînent l'esprit du lecteur
-à admettre des propositions comme celles-ci:
-,(emph[Le Vol, c'est la propriété;
-la Propriété, c'est le vol;
+Mais si leurs livres entraÃ®nent l'esprit du lecteur
+Ã  admettre des propositions comme celles-ci:
+,(emph[Le Vol, c'est la propriÃ©tÃ©;
+la PropriÃ©tÃ©, c'est le vol;
 le jour, c'est la nuit]),(pv)
-je bénirai le Ciel, tous les jours de ma vie,
+je bÃ©nirai le Ciel, tous les jours de ma vie,
 de n'avoir pas fait tomber ces livres sous mes yeux.
-À ces sublimes subtilités, votre intelligence s'est aiguisée;
-la mienne y eut infailliblement succombé,
+Ã€ ces sublimes subtilitÃ©s, votre intelligence s'est aiguisÃ©e;
+la mienne y eut infailliblement succombÃ©,
 et, bien loin de me faire comprendre des autres,
-je ne pourrais plus me comprendre moi-même.
+je ne pourrais plus me comprendre moi-mÃªme.
 ][
-Enfin, à cette question: L'intérêt est-il légitime?
-vous répondez, non plus en allemand:
+Enfin, Ã  cette question: L'intÃ©rÃªt est-il lÃ©gitime?
+vous rÃ©pondez, non plus en allemand:
 ,(emph[Oui et non]), mais en latin: ,(inlatin[Distinguo]).
 ,(q[Distingons;
-oui, l'intérêt du capital a pu être considéré comme légitime dans un temps;
-non, il ne peut plus l'être dans un autre.])
+oui, l'intÃ©rÃªt du capital a pu Ãªtre considÃ©rÃ© comme lÃ©gitime dans un temps;
+non, il ne peut plus l'Ãªtre dans un autre.])
 ][
-Eh bien! votre condescendance hâte, ce me semble, la conclusion de ce débat.
+Eh bien! votre condescendance hÃ¢te, ce me semble, la conclusion de ce dÃ©bat.
 Elle prouve surtout que j'avais bien choisi le terrain;
-car, que prétendez-vous?
-Vous dites qu'à un moment donné,
-la rémunération du capital passe de la légitimité à l'illégitimité;
-c'est-à-dire que le capital lui-même
-se dépouille de sa nature pour revêtir une nature opposée.
+car, que prÃ©tendez-vous?
+Vous dites qu'Ã  un moment donnÃ©,
+la rÃ©munÃ©ration du capital passe de la lÃ©gitimitÃ© Ã  l'illÃ©gitimitÃ©;
+c'est-Ã -dire que le capital lui-mÃªme
+se dÃ©pouille de sa nature pour revÃªtir une nature opposÃ©e.
 Certes,
-la présomption n'est pas pour vous,
-et c'est à celui qui veut bouleverser la pratique universelle
-sur la foi d'une affirmation si ,(emph[étrange]),
-à la prouver.
+la prÃ©somption n'est pas pour vous,
+et c'est Ã  celui qui veut bouleverser la pratique universelle
+sur la foi d'une affirmation si ,(emph[Ã©trange]),
+Ã  la prouver.
 ][
-J'avais fait résultat la légitimité de l'intérêt
-de ce que le prêt est un ,(emph[service]),
-lequel est susceptible d'être ,(emph[évalué]),
-a, par conséquent, une ,(emph[valeur])
-et peut s'échanger contre toute autre valeur égale.
-Je croyais même que vous étiez convenu de la vérité de cette doctrine,
+J'avais fait rÃ©sultat la lÃ©gitimitÃ© de l'intÃ©rÃªt
+de ce que le prÃªt est un ,(emph[service]),
+lequel est susceptible d'Ãªtre ,(emph[Ã©valuÃ©]),
+a, par consÃ©quent, une ,(emph[valeur])
+et peut s'Ã©changer contre toute autre valeur Ã©gale.
+Je croyais mÃªme que vous Ã©tiez convenu de la vÃ©ritÃ© de cette doctrine,
 en ces termes:
 ][
-,(q[Il est très-vrai,
-comme vous l'établissez vous-même péremptoirement,
-que le prêt est un service.
+,(q[Il est trÃ¨s-vrai,
+comme vous l'Ã©tablissez vous-mÃªme pÃ©remptoirement,
+que le prÃªt est un service.
 Et comme tout service est une valeur,
-comme il est de la nature de tout service d'être rémunéré,
-il s'ensuit que le prêt doit avoir son prix,
+comme il est de la nature de tout service d'Ãªtre rÃ©munÃ©rÃ©,
+il s'ensuit que le prÃªt doit avoir son prix,
 ou,
 pour employer le mot technique,
-qu'il doit ,(emph[porter intérêt]).])
+qu'il doit ,(emph[porter intÃ©rÃªt]).])
 ][
-Voilà ce que vous disiez,
+VoilÃ  ce que vous disiez,
 il y a quinze jours.
 Aujourd'hui vous dites:
 Distinguons, ,(XXX)
-prêter c'était rendre service autrefois,
+prÃªter c'Ã©tait rendre service autrefois,
 ce n'est plus rendre service maintenant.
 ][
-Or, si prêter n'est pas rendre service,
-il va sans dire que l'intérêt est,
-je ne dis pas illégitime,
+Or, si prÃªter n'est pas rendre service,
+il va sans dire que l'intÃ©rÃªt est,
+je ne dis pas illÃ©gitime,
 mais impossible.
 ][
 Votre argumentation nouvelle implique ce dialogue:
@@ -136,11 +136,11 @@ Votre argumentation nouvelle implique ce dialogue:
 Monsieur,
 je voudrais monter un magasin,
 j'ai besoin de dix mille francs,
-veuillez me les prêter.
+veuillez me les prÃªter.
 ][
-,(strong[le prêteur.])
+,(strong[le prÃªteur.])
 Volontiers,
-nous allons débattre les condition.
+nous allons dÃ©battre les condition.
 ][
 ,(strong[l'emprunteur.])
 Monsieur,
@@ -148,16 +148,16 @@ je n'accepte pas de conditions.
 Je garderai votre argent un an,
 deux ans,
 vingt ans,
-après quoi je vous le rendrai purement et simplement,
+aprÃ¨s quoi je vous le rendrai purement et simplement,
 attendu que
 ,(emph[tout ce qui,
-dans le remboursement du prêt,
-est donné en sus de prêt,
+dans le remboursement du prÃªt,
+est donnÃ© en sus de prÃªt,
 est usure,
 spoliation]).
 ,(XXX)
 ][
-,(strong[le prêteur.])
+,(strong[le prÃªteur.])
 Mais puisque vous venez me demander un ,(emph[service]),
 il est bien naturel que je vous en demande un autre.
 ][
@@ -165,102 +165,102 @@ il est bien naturel que je vous en demande un autre.
 Monsieur,
 ,(emph[je n'ai que faire de votre service]).
 ][
-,(strong[le prêteur.])
+,(strong[le prÃªteur.])
 En ce cas,
 je garderai mon capital,
-dussé-je le manger.
+dussÃ©-je le manger.
 ][
 ,(strong[l'emprunteur.])
 ,(q[Monsieur, ,(XXX)
 je suis socialiste,
 et le socialisme,
-redoublant d'énergie,
+redoublant d'Ã©nergie,
 proteste et vous dit par ma bouche:
 je n'ai que faire de votre service,
 service pour vous et spoliation pour moi,
-tandis qu'il est loisible à la société
-de me faire jouir des mêmes avantages que vous m'offrez,
-et cela sans rétribution.
+tandis qu'il est loisible Ã  la sociÃ©tÃ©
+de me faire jouir des mÃªmes avantages que vous m'offrez,
+et cela sans rÃ©tribution.
 M'imposer un tel service,
-malgré moi,
+malgrÃ© moi,
 en refusant d'organiser la circulation des capitaux,
-c'est me faire supporter un prélèvement injuste,
+c'est me faire supporter un prÃ©lÃ¨vement injuste,
 c'est me voler.])
 ][
-,(strong[le prêteur.])
-Je ne vous impose rien malgré vous.
-Dès que vous ne voyez pas,
-dans le prêt,
+,(strong[le prÃªteur.])
+Je ne vous impose rien malgrÃ© vous.
+DÃ¨s que vous ne voyez pas,
+dans le prÃªt,
 un service,
 abstenez-vous d'emprunter,
-comme moi de prêter.
-Que si la ,(emph[société]) vous offre
-des ,(emph[avantages]) sans ,(emph[rétribution]),
-adressez-vous à elle,
+comme moi de prÃªter.
+Que si la ,(emph[sociÃ©tÃ©]) vous offre
+des ,(emph[avantages]) sans ,(emph[rÃ©tribution]),
+adressez-vous Ã  elle,
 c'est bien plus commode;
 et,
-quant à ,(emph[organiser la circulation des capitaux]),
+quant Ã  ,(emph[organiser la circulation des capitaux]),
 ainsi que vous me sommez de le faire,
-si vous entendez par là que les miens vous arrivent gratis,
-par l'intermédiaire de la société,
-j'ai contre ce procédé indirect
-tout juste les mêmes objections
-qui m'ont fait vous refuser le prêt direct et gratuit.
+si vous entendez par lÃ  que les miens vous arrivent gratis,
+par l'intermÃ©diaire de la sociÃ©tÃ©,
+j'ai contre ce procÃ©dÃ© indirect
+tout juste les mÃªmes objections
+qui m'ont fait vous refuser le prÃªt direct et gratuit.
 ][
-La Société!
-J'ai été surpris,
+La SociÃ©tÃ©!
+J'ai Ã©tÃ© surpris,
 je l'avoue,
-de voir apparaître dans un écrit émané de vous,
+de voir apparaÃ®tre dans un Ã©crit Ã©manÃ© de vous,
 ce personnage nouveau,
 ce capitaliste accommodant.
 ][
 Eh quoi! Monsieur,
-vous qui, dans la même feuille où vous m'adressez votre lettre,
-avez combattu avec une si rude énergie
-les systèmes de Louis Blanc et de Pierre Leroux,
-n'avez-vous dissipé la fiction de l',(emph[État])
-que pour y substituer la fiction de la ,(emph[Société])?
+vous qui, dans la mÃªme feuille oÃ¹ vous m'adressez votre lettre,
+avez combattu avec une si rude Ã©nergie
+les systÃ¨mes de Louis Blanc et de Pierre Leroux,
+n'avez-vous dissipÃ© la fiction de l',(emph[Ã‰tat])
+que pour y substituer la fiction de la ,(emph[SociÃ©tÃ©])?
 ][
-Qu'est-ce donc que la Société,
-en dehors de quiconque prête ou emprunte,
-perçoit ou paie l'intérêt inhérent au prix de toutes choses?
+Qu'est-ce donc que la SociÃ©tÃ©,
+en dehors de quiconque prÃªte ou emprunte,
+perÃ§oit ou paie l'intÃ©rÃªt inhÃ©rent au prix de toutes choses?
 Quel est ce ,(inlatin[Deus ex machina])
-que vous faites intervenir d'une manière si inattendue
-pour donner le mot du problème?
-Y a-t-il, d'un côté,
-la masse entière des travailleurs, marchands, artisans, capitalistes,
-et, de l'autre, la Société,
-personnalité distincte,
-possédant des capitaux en telle abondance
-qu'elle en peut prêter à chacun sans compte ni mesure,
-et cela sans ,(emph[rétribution])?
+que vous faites intervenir d'une maniÃ¨re si inattendue
+pour donner le mot du problÃ¨me?
+Y a-t-il, d'un cÃ´tÃ©,
+la masse entiÃ¨re des travailleurs, marchands, artisans, capitalistes,
+et, de l'autre, la SociÃ©tÃ©,
+personnalitÃ© distincte,
+possÃ©dant des capitaux en telle abondance
+qu'elle en peut prÃªter Ã  chacun sans compte ni mesure,
+et cela sans ,(emph[rÃ©tribution])?
 ][
 Ce n'est pas ainsi que vous l'entendez;
-je n'en veux pour preuve que votre article sur l'État.
-Vous savez bien que la société n'a d'autres capitaux
+je n'en veux pour preuve que votre article sur l'Ã‰tat.
+Vous savez bien que la sociÃ©tÃ© n'a d'autres capitaux
 que ceux qui sont entre les mains des capitalistes grands et petits.
-Serait-ce que la Société doit s'emparer de ces capitaux
+Serait-ce que la SociÃ©tÃ© doit s'emparer de ces capitaux
 et les faire circuler gratuitement,
-sous prétexte de les organiser?
-En vérité,
+sous prÃ©texte de les organiser?
+En vÃ©ritÃ©,
 je m'y perds,
 et il me semble que,
 sous votre plume,
 cette limite s'efface sans cesse,
-qui sépare,
+qui sÃ©pare,
 aux yeux de la conscience publique,
-la propriété du vol.
+la propriÃ©tÃ© du vol.
 ][
-En cherchant à pénétrer jusqu'à la racine de l'erreur que je combats ici,
+En cherchant Ã  pÃ©nÃ©trer jusqu'Ã  la racine de l'erreur que je combats ici,
 je crois la trouver dans la confusion que vous faites
 entre les ,(emph[frais de circulation des capitaux])
-et les ,(emph[intérêts des capitaux]).
-Vous croyez qu'on peut arriver à la circulation gratuite,
-et vous en concluez que le prêt sera gratuit.
+et les ,(emph[intÃ©rÃªts des capitaux]).
+Vous croyez qu'on peut arriver Ã  la circulation gratuite,
+et vous en concluez que le prÃªt sera gratuit.
 C'est comme si l'on disait que
-lorsque les frais de transport de Bordeaux à Paris seront anéantis,
-les vins de Bordeaux se donneront pour rien à Paris.
-Vous n'êtes pas le premier qui se soit fait cette illusion.
+lorsque les frais de transport de Bordeaux Ã  Paris seront anÃ©antis,
+les vins de Bordeaux se donneront pour rien Ã  Paris.
+Vous n'Ãªtes pas le premier qui se soit fait cette illusion.
 Law disait:
 ,(q[La loi de la circulation est la seule qui puisse sauver les empires.])
 Il agit sur ce principe,
@@ -269,31 +269,31 @@ au lieu de sauver la France,
 il la perdit.
 ][
 Je dis:
-une chose est la circulation des capitaux et les frais qu'elle entraîne;
-autre chose est l'intérêt des capitaux.
-Les capitaux d'une nation consistent en matériaux de toutes sortes,
+une chose est la circulation des capitaux et les frais qu'elle entraÃ®ne;
+autre chose est l'intÃ©rÃªt des capitaux.
+Les capitaux d'une nation consistent en matÃ©riaux de toutes sortes,
 approvisionnements,
 outils,
 marchandises,
-espèces,
-et ces choses-là ne se prêtent pas pour rien.
-Selon que la société est plus ou moins avancée,
-il y a plus ou moins de facilité à faire passer un capital donné,
+espÃ¨ces,
+et ces choses-lÃ  ne se prÃªtent pas pour rien.
+Selon que la sociÃ©tÃ© est plus ou moins avancÃ©e,
+il y a plus ou moins de facilitÃ© Ã  faire passer un capital donnÃ©,
 ou sa valeur,
-d'un lieu à un autre lieu,
-d'une main à une autre main;
-mais cela n'a rien de commun avec l'abolition de l'intérêt.
-Un Parisien désire prêter,
-un Bayonnais désire emprunter.
+d'un lieu Ã  un autre lieu,
+d'une main Ã  une autre main;
+mais cela n'a rien de commun avec l'abolition de l'intÃ©rÃªt.
+Un Parisien dÃ©sire prÃªter,
+un Bayonnais dÃ©sire emprunter.
 Mais le premier n'a pas la chose qui convient au second.
 D'ailleurs,
-ils ne connaissent pas réciproquement leurs intentions;
+ils ne connaissent pas rÃ©ciproquement leurs intentions;
 ils ne peuvent s'aboucher,
 s'accorder,
 conclure.
-Voilà les obstacles à la ,(emph[circulation]).
+VoilÃ  les obstacles Ã  la ,(emph[circulation]).
 Ces obstacles vont diminuant sans cesse,
-d'abord par l'intervention du numéraire,
+d'abord par l'intervention du numÃ©raire,
 puis par celle de la lettre de change,
 successivement par celle du banquier,
 de la Banque nationale,
@@ -304,206 +304,206 @@ comme il est heureux pour les consommateurs de vin,
 que les moyens de transport se perfectionnent.
 Mais,
 d'une part,
-jamais les frais de circulation ne peuvent descendre à zéro,
-puisqu'il y a toujours là un intermédiaire qui rend ,(emph[service]),(pv) et,
+jamais les frais de circulation ne peuvent descendre Ã  zÃ©ro,
+puisqu'il y a toujours lÃ  un intermÃ©diaire qui rend ,(emph[service]),(pv) et,
 d'autre part,
-ces frais fussent-ils complètement anéantis,
-l'Intérêt subsisterait encore,
-et n'en serait même pas sensiblement affecté.
+ces frais fussent-ils complÃ¨tement anÃ©antis,
+l'IntÃ©rÃªt subsisterait encore,
+et n'en serait mÃªme pas sensiblement affectÃ©.
 Il y a des banques libres aux Etat-Unis;
-elles sont sous l'influence des ouvriers eux-mêmes,
+elles sont sous l'influence des ouvriers eux-mÃªmes,
 qui en sont les actionnaires;
 et, de plus,
 elles sont, vu leur nombre,
-toujours à leur portée;
+toujours Ã  leur portÃ©e;
 chaque jour,
-les uns y déposent leurs économies,
-les autres y reçoivent les avances qui leur sont nécessaires;
+les uns y dÃ©posent leurs Ã©conomies,
+les autres y reÃ§oivent les avances qui leur sont nÃ©cessaires;
 la circulation est aussi facile,
 aussi rapide que possible.
-Est-ce à dire que le crédit y soit gratuit,
-que les capitaux ne produisent pas d'intérêt à ceux qui prêtent,
-et n'en coûtent pas à ceux qui empruntent?
+Est-ce Ã  dire que le crÃ©dit y soit gratuit,
+que les capitaux ne produisent pas d'intÃ©rÃªt Ã  ceux qui prÃªtent,
+et n'en coÃ»tent pas Ã  ceux qui empruntent?
 Non,
-cela signifie seulement que prêteurs et emprunteurs
+cela signifie seulement que prÃªteurs et emprunteurs
 s'y rencontrent plus facilement qu'ailleurs.
 ][
 Ainsi,
-gratuité absolue de la circulation,
-,(--) chimère.
+gratuitÃ© absolue de la circulation,
+,(--) chimÃ¨re.
 ][
-Gratuité du crédit,
-,(--) chimère.
+GratuitÃ© du crÃ©dit,
+,(--) chimÃ¨re.
 ][
-Imaginer que la première de ces gratuités,
-si elle était possible,
+Imaginer que la premiÃ¨re de ces gratuitÃ©s,
+si elle Ã©tait possible,
 impliquerait la seconde,
-,(--) troisième chimère.
+,(--) troisiÃ¨me chimÃ¨re.
 ][
-Vous voyez que je me suis laissé entraîner sur votre terrain,
+Vous voyez que je me suis laissÃ© entraÃ®ner sur votre terrain,
 et,
 puisque j'y ai fait trois pas,
 j'en ferais deux autres.
 ][
 Vous voulez ,(emph[organiser la circulation])
-de telle sorte que chacun perçoive autant d'intérêt qu'il en paie,
-et c'est là ce qui réalisera,
+de telle sorte que chacun perÃ§oive autant d'intÃ©rÃªt qu'il en paie,
+et c'est lÃ  ce qui rÃ©alisera,
 dites-vous,
-l'égalité des fortunes.
+l'Ã©galitÃ© des fortunes.
 ][
 Or, je dis:
 ][
-Compensation universelle des intérêts,
-,(--) chimère.
+Compensation universelle des intÃ©rÃªts,
+,(--) chimÃ¨re.
 ][
-Egalité absolue des fortunes,
-comme conséquence de cette chimère,
-,(--) autre chimère.
+EgalitÃ© absolue des fortunes,
+comme consÃ©quence de cette chimÃ¨re,
+,(--) autre chimÃ¨re.
 ][
-Toute valeur se compose de deux éléments:
-la rémunération du travail et la rémunération du capital.
-Pour que ces deux éléments entrassent,
+Toute valeur se compose de deux Ã©lÃ©ments:
+la rÃ©munÃ©ration du travail et la rÃ©munÃ©ration du capital.
+Pour que ces deux Ã©lÃ©ments entrassent,
 en proportion identique,
-dans toutes valeurs égales,
-il faudrait que toute ,(oe)uvre humaine admît le même emploi de machines,
-la même consommation d'approvisionnements,
-le même contingent de travail actuel et de travail accumulé.
+dans toutes valeurs Ã©gales,
+il faudrait que toute ,(oe)uvre humaine admÃ®t le mÃªme emploi de machines,
+la mÃªme consommation d'approvisionnements,
+le mÃªme contingent de travail actuel et de travail accumulÃ©.
 ][
 Votre banque fera-t-elle jamais que le commissionnaire du coin,
-dont toute l'industrie consiste à louer son temps et ses jambes,
+dont toute l'industrie consiste Ã  louer son temps et ses jambes,
 fasse intervenir autant de capital dans ses services
 que l'imprimeur ou le fabriquant de bas?
 Remarquez que,
-pour qu'une paire de bas de coton arrive à ce commissionnaire,
+pour qu'une paire de bas de coton arrive Ã  ce commissionnaire,
 il a fallu l'intervention d'une terre,
 qui est un capital;
 d'un navire,
 qui est un capital;
 d'une filature,
 qui est un capital.
-Direz-vous que lorsque le commissionnaire échange son service,
-estimé 3 francs,
-contre un livre estimé 3 francs,
-il est dupe en ce que l'élément ,(emph[travail actuel]) domine dans le service,
-et l'élément ,(emph[travail accumulé]) dans le livre?
+Direz-vous que lorsque le commissionnaire Ã©change son service,
+estimÃ© 3 francs,
+contre un livre estimÃ© 3 francs,
+il est dupe en ce que l'Ã©lÃ©ment ,(emph[travail actuel]) domine dans le service,
+et l'Ã©lÃ©ment ,(emph[travail accumulÃ©]) dans le livre?
 Qu'importe,
-si les deux objets de l'échange ,(emph[se valent]),
-si leur équivalence est déterminée par le libre débat?
-Pourvu que ce qui vaut cent s'échange contre ce qui vaut cent,
-qu'importe la proportion des deux éléments
-qui constituent chacune de ces valeurs égales?
-Nierez-vous la légitimité de la rémunération afférente au capital?
-Ce serait revenir sur un point déjà acquis à la discussion.
+si les deux objets de l'Ã©change ,(emph[se valent]),
+si leur Ã©quivalence est dÃ©terminÃ©e par le libre dÃ©bat?
+Pourvu que ce qui vaut cent s'Ã©change contre ce qui vaut cent,
+qu'importe la proportion des deux Ã©lÃ©ments
+qui constituent chacune de ces valeurs Ã©gales?
+Nierez-vous la lÃ©gitimitÃ© de la rÃ©munÃ©ration affÃ©rente au capital?
+Ce serait revenir sur un point dÃ©jÃ  acquis Ã  la discussion.
 D'ailleurs,
 sur quel fondement le ,(emph[travail ancien]) serait-il,
 plus que le ,(emph[travail actuel]),
-exclu de toute rétribution?
+exclu de toute rÃ©tribution?
 ][
-Le travail se divise en deux catégories bien distinctes:
+Le travail se divise en deux catÃ©gories bien distinctes:
 ][
-Ou il est exclusivement consacré à la production d'un objet,
-comme lorsque l'agriculteur sème,
+Ou il est exclusivement consacrÃ© Ã  la production d'un objet,
+comme lorsque l'agriculteur sÃ¨me,
 sarcle,
-moissonne et égrène son blé,
+moissonne et Ã©grÃ¨ne son blÃ©,
 lorsque le tailleur coupe et coud un habit,
 etc.;
 ][
-Ou il sert à la production d'une série indéterminée d'objets semblables,
-comme quand l'agriculteur clôt,
+Ou il sert Ã  la production d'une sÃ©rie indÃ©terminÃ©e d'objets semblables,
+comme quand l'agriculteur clÃ´t,
 amende,
-dessèche son champ,
+dessÃ¨che son champ,
 ou que le tailleur meuble son atelier.
 ][
 Dans le premier cas,
-tout le travail doit être payé par l'acquéreur de la récolte ou de l'habit;
+tout le travail doit Ãªtre payÃ© par l'acquÃ©reur de la rÃ©colte ou de l'habit;
 dans le second,
-il doit être payé sur un nombre indéterminé de récoltes ou d'habits.
+il doit Ãªtre payÃ© sur un nombre indÃ©terminÃ© de rÃ©coltes ou d'habits.
 Et certes,
 il serait absurde de dire
-que le travail de cette seconde catégorie ne doit pas être payé du tout,
+que le travail de cette seconde catÃ©gorie ne doit pas Ãªtre payÃ© du tout,
 parce qu'il prend le nom de capital.
 ][
 Or,
-comment parvient-il à répartir la rémunération qui lui est due
-sur un nombre indéfini d'acheteurs successifs?
-par les combinaisons de l'amortissement et de l'intérêt,
-combinaisons que l'humanité a inventées dès l'origine,
-combinaisons ingénieuses,
-que les socialistes seraient bien embarrassés de remplacer.
-Aussi tout leur génie se borne à les supprimer,
-et ils ne s'aperçoivent pas que c'est tout simplement supprimer l'humanité.
+comment parvient-il Ã  rÃ©partir la rÃ©munÃ©ration qui lui est due
+sur un nombre indÃ©fini d'acheteurs successifs?
+par les combinaisons de l'amortissement et de l'intÃ©rÃªt,
+combinaisons que l'humanitÃ© a inventÃ©es dÃ¨s l'origine,
+combinaisons ingÃ©nieuses,
+que les socialistes seraient bien embarrassÃ©s de remplacer.
+Aussi tout leur gÃ©nie se borne Ã  les supprimer,
+et ils ne s'aperÃ§oivent pas que c'est tout simplement supprimer l'humanitÃ©.
 ][
-Mais quand on accorderait comme réalisable
-tout ce qui vient d'être démontré chimérique:
-gratuité de circulation,
-gratuité de prêt,
-compensation d'intérêts,
-je dis qu'on n'arriverait pas encore à l'égalité absolue des fortunes.
+Mais quand on accorderait comme rÃ©alisable
+tout ce qui vient d'Ãªtre dÃ©montrÃ© chimÃ©rique:
+gratuitÃ© de circulation,
+gratuitÃ© de prÃªt,
+compensation d'intÃ©rÃªts,
+je dis qu'on n'arriverait pas encore Ã  l'Ã©galitÃ© absolue des fortunes.
 Et la raison en est simple.
-Est-ce que la Banque du Peuple aurait la prétention
+Est-ce que la Banque du Peuple aurait la prÃ©tention
 de changer le c,(oe)ur humain?
-Fera-t-elle que tous les hommes soient également
+Fera-t-elle que tous les hommes soient Ã©galement
 forts,
 actifs,
 intelligents,
-ordonnés,
-économes,
-prévoyants?
+ordonnÃ©s,
+Ã©conomes,
+prÃ©voyants?
 fera-t-elle que
-les goûts,
+les goÃ»ts,
 les penchants,
 les aptitudes,
-les idées
-ne varient à l'infini?
-que les uns ne préfèrent dormir au soleil,
-pendant que les autres s'épuisent au travail?
+les idÃ©es
+ne varient Ã  l'infini?
+que les uns ne prÃ©fÃ¨rent dormir au soleil,
+pendant que les autres s'Ã©puisent au travail?
 qu'il n'y ait des prodigues et des avares,
-des gens ardents à poursuivre les biens de ce monde,
-et d'autres plus préoccupés de la vie future?
-Il est clair que l'égalité absolue des fortunes
-ne pourrait être que la résultante
-de toutes ces égalités impossibles et de bien d'autres.
+des gens ardents Ã  poursuivre les biens de ce monde,
+et d'autres plus prÃ©occupÃ©s de la vie future?
+Il est clair que l'Ã©galitÃ© absolue des fortunes
+ne pourrait Ãªtre que la rÃ©sultante
+de toutes ces Ã©galitÃ©s impossibles et de bien d'autres.
 ][
-Mais si l'égalité absolue des fortunes est chimérique,
+Mais si l'Ã©galitÃ© absolue des fortunes est chimÃ©rique,
 ce qui ne l'est pas,
 c'est l'approximation constante de tous les hommes
-vers un même niveau physique, intellectuel et moral,
-sous le régime de la liberté.
-Parmi toutes les énergies qui concourent à ce grand nivellement,
+vers un mÃªme niveau physique, intellectuel et moral,
+sous le rÃ©gime de la libertÃ©.
+Parmi toutes les Ã©nergies qui concourent Ã  ce grand nivellement,
 une des plus puissantes,
 c'est celle du capital.
 Et puisque vous m'avez offert vos colonnes,
 permettez-moi d'appeler un moment l'attention de vos lecteurs sur ce sujet.
-Ce n'est pas tout de démontrer que l'intérêt est légitime,
+Ce n'est pas tout de dÃ©montrer que l'intÃ©rÃªt est lÃ©gitime,
 il faut encore prouver qu'il est utile,
-même à ceux qui le supportent.
-Vous avez dit que l'intérêt a été autrefois
-,(q[un instrument d'égalité et de progrès.])
-Ce qu'il a été, il l'est encore et le sera toujours,
-parce qu'en se développant il ne change pas de nature.
+mÃªme Ã  ceux qui le supportent.
+Vous avez dit que l'intÃ©rÃªt a Ã©tÃ© autrefois
+,(q[un instrument d'Ã©galitÃ© et de progrÃ¨s.])
+Ce qu'il a Ã©tÃ©, il l'est encore et le sera toujours,
+parce qu'en se dÃ©veloppant il ne change pas de nature.
 ][
-Les travailleurs seront peut-être étonnés de m'entendre affirmer ceci:
+Les travailleurs seront peut-Ãªtre Ã©tonnÃ©s de m'entendre affirmer ceci:
 ][
-De tous les éléments qui entrent dans le prix des choses,
+De tous les Ã©lÃ©ments qui entrent dans le prix des choses,
 celui qu'ils doivent payer avec le plus de joie,
-c'est précisément l'intérêt ou la rémunération du capital,
-parce que ce paiement leur en épargne toujours un plus grand.
+c'est prÃ©cisÃ©ment l'intÃ©rÃªt ou la rÃ©munÃ©ration du capital,
+parce que ce paiement leur en Ã©pargne toujours un plus grand.
 ][
 Pierre est un artisan parisien.
-Il a besoin qu'un fardeau soit transporté à Lille;
-c'est un présent qu'il veut faire à sa mère.
+Il a besoin qu'un fardeau soit transportÃ© Ã  Lille;
+c'est un prÃ©sent qu'il veut faire Ã  sa mÃ¨re.
 S'il n'y avait pas de capital au monde
-(et il n'y en aurait pas si toute rémunération lui était déniée),
-ce transport coûterait à Pierre au moins deux mois de fatigues,
-soit qu'il le fit lui-même,
+(et il n'y en aurait pas si toute rÃ©munÃ©ration lui Ã©tait dÃ©niÃ©e),
+ce transport coÃ»terait Ã  Pierre au moins deux mois de fatigues,
+soit qu'il le fit lui-mÃªme,
 soit qu'il se fit rendre ce service par un autre;
-car il ne pourrait l'exécuter lui-même
-qu'en charriant le fardeau par monts et par vaux, sur ses épaules,
-et nul ne pourrait l'exécuter pour lui que de la même manière.
+car il ne pourrait l'exÃ©cuter lui-mÃªme
+qu'en charriant le fardeau par monts et par vaux, sur ses Ã©paules,
+et nul ne pourrait l'exÃ©cuter pour lui que de la mÃªme maniÃ¨re.
 ][
 Pourquoi se rencontre-t-il
-des entrepreneurs qui ne demandent à Pierre
-qu'une journée de sont travail pour lui en épargner soixante?
+des entrepreneurs qui ne demandent Ã  Pierre
+qu'une journÃ©e de sont travail pour lui en Ã©pargner soixante?
 Parce que le capital est intervenu sous forme
 de char,
 de chevaux,
@@ -511,99 +511,99 @@ de rails,
 de wagons,
 de locomotives.
 Sans doute,
-Pierre doit payer tribut à ce capital;
+Pierre doit payer tribut Ã  ce capital;
 mais c'est justement pour cela
-qu'il fait ou fait faire en un jour ce qui lui aurait demandé deux mois.
+qu'il fait ou fait faire en un jour ce qui lui aurait demandÃ© deux mois.
 ][
-Jean est maréchal ferrant,
-fort honnête homme,
-mais qu'on entend souvent déclamer contre la propriété.
+Jean est marÃ©chal ferrant,
+fort honnÃªte homme,
+mais qu'on entend souvent dÃ©clamer contre la propriÃ©tÃ©.
 Il gagne 3 francs par jour;
 c'est peu,
 c'est trop peu;
 mais enfin,
-comme le blé vaut environ 18 francs l'hectolitre,
+comme le blÃ© vaut environ 18 francs l'hectolitre,
 Jean peut dire qu'il fait jaillir de son enclume
-un hectolitre de blé par semaine ou la valeur,
+un hectolitre de blÃ© par semaine ou la valeur,
 soit 52 hectolitres par an.
 Je suppose maintenant qu'il n'y eut pas de capital,
 et que,
-mettant notre maréchal en face de 1,000 hectares de terre,
+mettant notre marÃ©chal en face de 1,000 hectares de terre,
 on lui dit:
 Disposez de ce sol,
-qui est doué d'une grande fertilité;
-tout le blé que vous ferez croître est à vous.
-Jean répondrait sans doute:
+qui est douÃ© d'une grande fertilitÃ©;
+tout le blÃ© que vous ferez croÃ®tre est Ã  vous.
+Jean rÃ©pondrait sans doute:
 ,(q[Sans chevaux,
 sans charrue,
 sans hache,
 sans instruments d'aucune sorte,
-comment voulez-vous que je débarrasse le sol des arbres,
+comment voulez-vous que je dÃ©barrasse le sol des arbres,
 des racines,
 des herbes,
 des pierres,
 des eaux stagnantes qui l'obstruent?
-je n'y ferai pas pousser une gerbe de blé en dix ans.])
-Donc, que Jean fasse enfin cette réflexion:
+je n'y ferai pas pousser une gerbe de blÃ© en dix ans.])
+Donc, que Jean fasse enfin cette rÃ©flexion:
 ,(q[Ce que je ne pourrais faire en dix ans,
 d'autres le font pour moi,
 et ne me demandent qu'une semaine de travail.
-Il est clair que c'est un avantage pour moi de rémunérer le capital,
-car si je ne le rémunérerais pas,
+Il est clair que c'est un avantage pour moi de rÃ©munÃ©rer le capital,
+car si je ne le rÃ©munÃ©rerais pas,
 il n'y en aurait pas,
-et les autres seraient aussi embarrassés devant ce sol
-que je le suis moi-même.])
+et les autres seraient aussi embarrassÃ©s devant ce sol
+que je le suis moi-mÃªme.])
 ][
-Jacques achète tous les matins,
+Jacques achÃ¨te tous les matins,
 pour un sou,
 la ,(cite-title[Voix du Peuple]).
 Comme il gagne 100 sous par jour,
 ou 50 centimes par heure,
-c'est six minutes de travail qu'il échange contre le prix d'un numéro,
-prix dans lequel se trouvent comprises deux rémunérations,
+c'est six minutes de travail qu'il Ã©change contre le prix d'un numÃ©ro,
+prix dans lequel se trouvent comprises deux rÃ©munÃ©rations,
 celle du travail et celle du capital.
 Comment Jacques ne se dit-il pas quelquefois:
 ,(q[Si aucun capital n'intervenait
 dans l'impression de la ,(cite-title[Voix du Peuple]),
-je ne l'obtiendrais ni à un sou ni à 100 francs?])
-,(XXX [on dirait qu'il y a une fin de croché à cet endroit])
+je ne l'obtiendrais ni Ã  un sou ni Ã  100 francs?])
+,(XXX [on dirait qu'il y a une fin de crochÃ© Ã  cet endroit])
 ][
 Je pourrais passer en revue tous les objets
 qui satisfont les besoins des travailleurs,
-et la même réflexion reviendrait sans cesse.
+et la mÃªme rÃ©flexion reviendrait sans cesse.
 Donc le capital n'est pas le ,(emph[tyran]) que l'on dit.
 ][
 Il rend des services, de grands services;
-il est de toute justice qu'il en soit rémunéré.
-Cette rémunération diminue de plus en plus à mesure que le capital abonde.
+il est de toute justice qu'il en soit rÃ©munÃ©rÃ©.
+Cette rÃ©munÃ©ration diminue de plus en plus Ã  mesure que le capital abonde.
 Pour qu'il abonde,
-il faut qu'on soit intéressé à le former,
-et pour qu'on soit intéressé à le former,
-il faut être soutenu par l'espoir d'une rémunération.
+il faut qu'on soit intÃ©ressÃ© Ã  le former,
+et pour qu'on soit intÃ©ressÃ© Ã  le former,
+il faut Ãªtre soutenu par l'espoir d'une rÃ©munÃ©ration.
 Quel est l'artisan,
-quel est l'ouvrier qui portera ses économies à la Caisse d'épargne,
-ou même qui fera des économies,
-si l'on commence par déclarer que l'intérêt est un vol
+quel est l'ouvrier qui portera ses Ã©conomies Ã  la Caisse d'Ã©pargne,
+ou mÃªme qui fera des Ã©conomies,
+si l'on commence par dÃ©clarer que l'intÃ©rÃªt est un vol
 et qu'il faut le supprimer?
 ][
 Non,
 non,
-c'est là une propagande insensée;
+c'est lÃ  une propagande insensÃ©e;
 elle heurte la raison,
 la morale,
-la science économique,
-les intérêts du pauvre,
-les croyances unanimes du genre humain manifestées par la pratique universelle.
-Vous ne prêchez pas,
+la science Ã©conomique,
+les intÃ©rÃªts du pauvre,
+les croyances unanimes du genre humain manifestÃ©es par la pratique universelle.
+Vous ne prÃªchez pas,
 il est vrai,
 la ,(emph[tyrannie du capital]),
-mais vous prêchez la ,(emph[gratuité du crédit]),
+mais vous prÃªchez la ,(emph[gratuitÃ© du crÃ©dit]),
 ce qui est tout un.
-Dire que toute rémunération accordée au capital est un vol,
-c'est dire que le capital doit disparaître de la surface du globe,
+Dire que toute rÃ©munÃ©ration accordÃ©e au capital est un vol,
+c'est dire que le capital doit disparaÃ®tre de la surface du globe,
 c'est dire que Pierre, Jean, Jacques,
-doivent exécuter les transports,
-se procurer le blé,
+doivent exÃ©cuter les transports,
+se procurer le blÃ©,
 les livres,
 avec autant de travail
 qu'il leur en faudrait pour produire ces choses directement
@@ -612,37 +612,37 @@ et sans autre ressource que leurs mains.
 Marche,
 marche,
 capital!
-poursuis ta carrière,
-réalisant du bien pour l'humanité!
+poursuis ta carriÃ¨re,
+rÃ©alisant du bien pour l'humanitÃ©!
 C'est toi qui as affranchi les esclaves;
-c'est toi qui as renversé les châteaux forts de la féodalité!
+c'est toi qui as renversÃ© les chÃ¢teaux forts de la fÃ©odalitÃ©!
 Grandis encore;
 asservis la nature:
 fais concourir aux jouissances humaines
 la gravitation,
 la chaleur,
-la lumière,
-l'électricité;
-prends à ta charge
-ce qu'il y a de répugnant et d'abrutissant dans le travail mécanique;
-élève la démocratie,
+la lumiÃ¨re,
+l'Ã©lectricitÃ©;
+prends Ã  ta charge
+ce qu'il y a de rÃ©pugnant et d'abrutissant dans le travail mÃ©canique;
+Ã©lÃ¨ve la dÃ©mocratie,
 transforme les machines humaines en ,(emph[hommes]),
-en hommes doués de loisirs,
-d'idées,
-de sentiment et d'espérances!
+en hommes douÃ©s de loisirs,
+d'idÃ©es,
+de sentiment et d'espÃ©rances!
 ][
 Permettez-moi,
 Monsieur,
 en finissant,
 de vous adresser un reproche.
-Au début de votre lettre,
-vous m'aviez promis de renoncer pour aujourd'hui à l'antinomie;
+Au dÃ©but de votre lettre,
+vous m'aviez promis de renoncer pour aujourd'hui Ã  l'antinomie;
 vous la terminez cependant par cette antinomie
 que vous appelez votre ,(emph[cri de guerre]):
-,(emph[La propriété, c'est le vol]).
+,(emph[La propriÃ©tÃ©, c'est le vol]).
 ][
 Oui,
-vous l'avez bien caractérisée;
+vous l'avez bien caractÃ©risÃ©e;
 c'est,
 en effet,
 un lugubre tocsin,
@@ -653,22 +653,22 @@ elle a perdu quelque chose de sa puissance.
 Il y a dans l'esprit des masses
 un fond de bon sens
 qui ne perd pas ses droits,
-et se révolte enfin contre ces paradoxes étranges
-donnés pour de sublimes découvertes.
-Oh! que n'avez-vous établi votre active propagande sur cet autre axiome,
-assurément plus impérissable que le vôtre:
-,(emph[Le vol, c'est le contraire de la propriété!]) ,(XXX)
+et se rÃ©volte enfin contre ces paradoxes Ã©tranges
+donnÃ©s pour de sublimes dÃ©couvertes.
+Oh! que n'avez-vous Ã©tabli votre active propagande sur cet autre axiome,
+assurÃ©ment plus impÃ©rissable que le vÃ´tre:
+,(emph[Le vol, c'est le contraire de la propriÃ©tÃ©!]) ,(XXX)
 Alors,
-avec votre indomptable énergie,
+avec votre indomptable Ã©nergie,
 votre style populaire,
 votre dialectique invincible,
-je ne puis mesurer le bien qu'il vous eût été donné
-de répandre sur notre chère patrie et sur l'humanité.
+je ne puis mesurer le bien qu'il vous eÃ»t Ã©tÃ© donnÃ©
+de rÃ©pandre sur notre chÃ¨re patrie et sur l'humanitÃ©.
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+(tag :p :align 'right (strong[FrÃ©dÃ©ric Bastiat.]))
 ;(p* (nbsp))
 ;(tag :p :align 'right (strong[l'emprunteur.]))
-;(tag :p :align 'right (strong[le prêteur.]))
+;(tag :p :align 'right (strong[le prÃªteur.]))
 ;XXX
 (with-footer
 (p*[
@@ -677,7 +677,7 @@ tome V, ,(Gratuite_credit), ,(6eme) lettre. pp. 156-167.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
 ][
-Numérisé par ,(GregB),
+NumÃ©risÃ© par ,(GregB),
 relu et mis en hypertexte par ,(FRR)
 pour ,(Bastiat.org).
 ])))

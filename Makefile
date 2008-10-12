@@ -19,7 +19,7 @@ depend:
 tdepend:
 	zsh -f script.zsh tdepend
 
-clean:
+clean::
 	zsh -f script.zsh clean
 
 alldirs:

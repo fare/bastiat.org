@@ -1,153 +1,153 @@
 ; -*- Scheme -*-
-; TODO: vérifier l'adéquation entre tdm et textes au tome 2.
+; TODO: vÃ©rifier l'adÃ©quation entre tdm et textes au tome 2.
 (define sommaire-db `(
- (tome 1 "premier" "Correspondance et mélanges"
+ (tome 1 "premier" "Correspondance et mÃ©langes"
 	0202315 563 51 1862
   (G 1   5   8 "preface"
-	"Préface")
+	"PrÃ©face")
   (G 1   9  52 "sur_bastiat"
-	"Notice sur la vie et les écrits de Frédéric Bastiat
+	"Notice sur la vie et les Ã©crits de FrÃ©dÃ©ric Bastiat
 	(par R. de Fontenay, 1862)")
   (S "Correspondance"
   (P 1   1  14 "lettres_calmetes"
-	"Lettres à M. Victor Calmètes")
+	"Lettres Ã  M. Victor CalmÃ¨tes")
   (P 1  14 106 "lettres_coudroy"
-	"Lettres à M. Félix Coudroy")
+	"Lettres Ã  M. FÃ©lix Coudroy")
   (P 1 106 193 "lettres_cobden"
-	"Lettres à Richard Cobden")
+	"Lettres Ã  Richard Cobden")
   (P 1 194 197 "lettre_fonteyraud"
-	"Lettre à M. Alcide Fonteyraud")
+	"Lettre Ã  M. Alcide Fonteyraud")
   (P 1 197 200 "lettre_congres_paix"
-	"Lettre au président du Congrès de la paix")
+	"Lettre au prÃ©sident du CongrÃ¨s de la paix")
   (P 1 200 203 "lettres_horace_say"
-	"Lettres à M. Horace Say")
+	"Lettres Ã  M. Horace Say")
   (P 1 204 205 "lettre_fontenay"
-	"Lettre à M. de Fontenay")
+	"Lettre Ã  M. de Fontenay")
   (P 1 205 209 "lettres_paillottet"
-	"Lettres à M. de Paillottet")
+	"Lettres Ã  M. de Paillottet")
   (P 1 209 216 "lettre_journal_economistes"
-	,[Lettre au ,(cite-title[Journal des Économistes])]))
-  (S "Premiers écrits"
+	,[Lettre au ,(cite-title[Journal des Ã‰conomistes])]))
+  (S "Premiers Ã©crits"
   (P 1 217 231 "aux_electeurs_landes"
-	"Aux électeurs du département des Landes (1830)") ; MAD
+	"Aux Ã©lecteurs du dÃ©partement des Landes (1830)") ; MAD
   (P 1 231 243 "reflexions_petitions_bordeaux"
-	"Réflexions sur les pétitions de Bordeaux, etc. (1834)")
+	"RÃ©flexions sur les pÃ©titions de Bordeaux, etc. (1834)")
   (P 1 243 260 "fisc_vigne"
 	"Le fisc et la vigne (1841)")
   (P 1 261 283 "question_vinicole"
-	"Mémoire sur la question vinicole")
+	"MÃ©moire sur la question vinicole")
   (P 1 283 333 "impot_foncier_landes"
-	"Mémoire sur la répartition de l'impôt foncier
+	"MÃ©moire sur la rÃ©partition de l'impÃ´t foncier
 	dans les Landes (1844)"))
-  (S "Mélanges"
+  (S "MÃ©langes"
   (P 1 334 386 "tarifs_francais_anglais"
-	"De l'influence des tarifs français et anglais
+	"De l'influence des tarifs franÃ§ais et anglais
 	sur l'avenir des deux peuples") ; ex_tarifs_fr_ang ; MAD
   (P 1 387 392 "commerce_vins"
 	"De l'avenir du commerce des vins
 	entre la France et la Grande-Bretagne")
   (P 1 392 405 "question_conseils_generaux"
-	"Une question soumise aux conseils généraux (1845)")
+	"Une question soumise aux conseils gÃ©nÃ©raux (1845)")
   (P 1 406 428 "lettre_lamartine_1"
-	"Un économiste à M. de Lamartine (1845)")
+	"Un Ã©conomiste Ã  M. de Lamartine (1845)")
   (P 1 428 433 "livre_dunoyer"
 	"Sur un livre de M. Dunoyer (1845)")
   (P 1 434 439 "eloge_comte"
-	"Sur l'éloge de Ch. Comte (1847)")
+	"Sur l'Ã©loge de Ch. Comte (1847)")
   (P 1 440 451 "livre_vidal"
 	"Sur un livre de Monsieur Vidal (1846)")
   (P 1 452 460 "lettre_lamartine_2"
-	"Seconde lettre à Monsieur de Lamartine (1846)")
+	"Seconde lettre Ã  Monsieur de Lamartine (1846)")
   (P 1 461 480 "pdfe1846"
-	"Aux électeurs de l'arrondissement de Saint-Sever")
+	"Aux Ã©lecteurs de l'arrondissement de Saint-Sever")
   (P 1 480 506 "lettre_larnac"
-	,[De la réforme parlementaire
-	,(--) À M. de Larnac, député des Landes (1846)]) ; MAD
+	,[De la rÃ©forme parlementaire
+	,(--) Ã€ M. de Larnac, dÃ©putÃ© des Landes (1846)]) ; MAD
   (P 1 506 507 "pdfe1848"
-	"Profession de foi électorale de 1848")
+	"Profession de foi Ã©lectorale de 1848")
   (P 1 507 510 "pdfe1849"
-	"Profession de foi électorale de 1849")))
- (tome 2 "deuxième" "Le Libre-Échange"
+	"Profession de foi Ã©lectorale de 1849")))
+ (tome 2 "deuxiÃ¨me" "Le Libre-Ã‰change"
 	0202316 489  3 1862
-  (S "Association pour la liberté des échanges"
+  (S "Association pour la libertÃ© des Ã©changes"
   (P 2   1   4 "association_libre_echange"
-	"1  Déclaration de principes")
+	"1  DÃ©claration de principes")
   (P 2   4   7 "libre_echange"
-	"2  le libre-échange (ce qu'il signifie)")
+	"2  le libre-Ã©change (ce qu'il signifie)")
   (P 2   7  11 "bornes_association"
 	"3  Bornes que s'impose l'Association")
   (P 2  12  15 "generalites"
-	"4  Sur les généralités")
+	"4  Sur les gÃ©nÃ©ralitÃ©s")
   (P 2  15  21 "plan_de_campagne"
-	"5  D'un plan de campagne proposé à l'Association"))
+	"5  D'un plan de campagne proposÃ© Ã  l'Association"))
   (S #f
   (P 2  22  25 "reflexions_1846"
-	"6  Réflexions sur l'année 1846")
+	"6  RÃ©flexions sur l'annÃ©e 1846")
   (P 2  25  39 "protectionnisme_agricole_1"
-	"7  De l'influence du régime protecteur sur l'agriculture")
+	"7  De l'influence du rÃ©gime protecteur sur l'agriculture")
   (P 2  39  44 "protectionnisme_agricole_2"
-	"8  Inanité de la protection de l'agriculture")
+	"8  InanitÃ© de la protection de l'agriculture")
   (P 2  44  47 "echelle_mobile"
-	"9  L'échelle mobile et ses effets")
+	"9  L'Ã©chelle mobile et ses effets")
   (P 2  48  57 "echelle_mobile_angleterre"
-	"10 L'échelle mobile et ses effets en Angleterre")
+	"10 L'Ã©chelle mobile et ses effets en Angleterre")
   (P 2  58  63 "invasion_produits_etrangers"
-	"11 À quoi se réduit l'invasion des produits étrangers")
+	"11 Ã€ quoi se rÃ©duit l'invasion des produits Ã©trangers")
   (P 2  63  68 "libre_entree_subsistances"
-	"12 De la libre entrée des subsistances")
+	"12 De la libre entrÃ©e des subsistances")
   (P 2  68  71 "libre_introduction_betail_etranger"
-	"13 De la libre introduction du bétail étranger")
+	"13 De la libre introduction du bÃ©tail Ã©tranger")
   (P 2  72  77 "defense_exporter_cereales"
-	"14 Sur la défense d'exporter les céréales")
+	"14 Sur la dÃ©fense d'exporter les cÃ©rÃ©ales")
   (P 2  77  80 "hausse_aliments_baisse_salaires"
 	"15 Hausse des aliments, baisse des salaires"))
   (S #f
   (P 2  81  93 "traite_belge"
 	,[16 ,(cite-title[La Tribune]) et ,(cite-title[la Presse]),(pv)
-	    à propos du traité belge])
+	    Ã  propos du traitÃ© belge])
   (P 2  93 100 "parti_democratique_libre_echange"
-	"17 Le parti démocratique et le libre-échange")
+	"17 Le parti dÃ©mocratique et le libre-Ã©change")
   (P 2 100 104 "democratie_libre_echange"
-	"18 Démocratie et libre-échange")
+	"18 DÃ©mocratie et libre-Ã©change")
   (P 2 104 110 "douane_octroi"
 	,[19 Le ,(cite-title[National]) (la Douane et l'Octroi)])
   (P 2 110 111 "monde_renverse"
-	"20 Le monde renversé
-	(l'entrée des subsistances, les mariages espagnols)")
+	"20 Le monde renversÃ©
+	(l'entrÃ©e des subsistances, les mariages espagnols)")
   (P 2 112 116 "exportation_numeraire"
-	"21 Sur l'exportation du numéraire")
+	"21 Sur l'exportation du numÃ©raire")
   (P 2 116 124 "du_communisme"
 	,[22 Du Communisme
-	(le journal ,(cite-title[l'Atelier]) et le Libre-Échange)])
+	(le journal ,(cite-title[l'Atelier]) et le Libre-Ã‰change)])
   (P 2 124 131 "reponse_atelier"
-	,[23 Réponse au journal ,(cite-title[l'Atelier])
-	(Accusations contre l'économie politique)])
+	,[23 RÃ©ponse au journal ,(cite-title[l'Atelier])
+	(Accusations contre l'Ã©conomie politique)])
   (P 2 131 133 "liberte_echanges"
-	"24 Réponse à divers
-	(sur la liberté des échanges)")
+	"24 RÃ©ponse Ã  divers
+	(sur la libertÃ© des Ã©changes)")
   (P 2 134 141 "douane_fiscale"
-	"25 Lettre de M. Considérant et réponse
+	"25 Lettre de M. ConsidÃ©rant et rÃ©ponse
 	(la Douane fiscale)")
   (P 2 141 147 "ligues_anglaise_allemande"
-	,[26 Réponse à ,(cite-title[la Presse])
+	,[26 RÃ©ponse Ã  ,(cite-title[la Presse])
 	(La Ligue anglaise et la Ligue allemande)])
   (P 2 147 158 "organisation_et_liberte"
-	,[27 Organisation et liberté
-	(à propos des lettres de M. Vidal dans ,(cite-title[la Presse]))])
+	,[27 Organisation et libertÃ©
+	(Ã  propos des lettres de M. Vidal dans ,(cite-title[la Presse]))])
   (P 2 158 164 "nature_echanges"
-	,[28 Autre réponse à ,(cite-title[la Presse])
-	(sur la nature des échanges)])
+	,[28 Autre rÃ©ponse Ã  ,(cite-title[la Presse])
+	(sur la nature des Ã©changes)])
   (P 2 164 168 "empereur_russie"
-	"29 L'empereur de Russie achetant des rentes françaises"))
+	"29 L'empereur de Russie achetant des rentes franÃ§aises"))
   (S #f
   (P 2 168 170 "liberte_pain"
-	"30 La liberté a donné du pain au peuple anglais") ; bastiat.de
+	"30 La libertÃ© a donnÃ© du pain au peuple anglais") ; bastiat.de
   (P 2 170 177 "libre_echange_relations_peuples"
-	"31 Influence du libre-échange sur les relations des peuples")
+	"31 Influence du libre-Ã©change sur les relations des peuples")
   (P 2 177 185 "angleterre_et_libre_echange"
-	"32 L'Angleterre et le libre-échange")
+	"32 L'Angleterre et le libre-Ã©change")
   (P 2 186 194 "cpe"
-	"33 Curieux phénomène économique")
+	"33 Curieux phÃ©nomÃ¨ne Ã©conomique")
   (P 2 194 200 "armements_en_angleterre_1"
 	"34 Les armements en Angleterre")
   (P 2 200 205 "armements_en_angleterre_2"
@@ -157,54 +157,54 @@
   (P 2 210 216 "taxe_unique"
 	"37 La taxe unique en Angleterre (proposition de M. Ewart)")
   (P 2 216 219 "politique_balance_du_commerce"
-	"38 M. de Noailles à la Chambre des pairs
+	"38 M. de Noailles Ã  la Chambre des pairs
 	(politique de la Balance du commerce)")
   (P 2 219 221 "paresse_et_restriction"
 	"39 Paresse et restriction")
   (P 2 222 225 "deux_modes_egalisation_taxes"
-	"40 Deux modes d'égalisation de taxes")
+	"40 Deux modes d'Ã©galisation de taxes")
   (P 2 225 228 "impot_du_sel"
-	"41 L'impôt du sel"))
+	"41 L'impÃ´t du sel"))
   (S #f
   (P 2 229 238 "discours_1"
-	"42 Premier discours, à Bordeaux
-	(besoin de fonder une Association pour la liberté des échanges,
+	"42 Premier discours, Ã  Bordeaux
+	(besoin de fonder une Association pour la libertÃ© des Ã©changes,
 	et la Ligue anglaise)")
   (P 2 238 246 "discours_2"
-	"43 Second discours, à Paris
-	(les transitions, les intéressés à la réforme douanières)")
+	"43 Second discours, Ã  Paris
+	(les transitions, les intÃ©ressÃ©s Ã  la rÃ©forme douaniÃ¨res)")
   (P 2 246 259 "discours_3"
-	"44 Troisième discours, à Paris
-	(adressé à des jeunes gens sur l'importance et la connexité
-	de la question du libre-échange avec d'autres graves questions)")
+	"44 TroisiÃ¨me discours, Ã  Paris
+	(adressÃ© Ã  des jeunes gens sur l'importance et la connexitÃ©
+	de la question du libre-Ã©change avec d'autres graves questions)")
   (P 2 260 273 "discours_4"
-	"45 Quatrième discours, à Lyon
-	(les conséquences comparées du régime protecteur et du libre-échange)")
+	"45 QuatriÃ¨me discours, Ã  Lyon
+	(les consÃ©quences comparÃ©es du rÃ©gime protecteur et du libre-Ã©change)")
   (P 2 273 293 "discours_5"
-	"46 Cinquième discours, à Lyon
-	(influence du régime protecteur sur les salaires:
+	"46 CinquiÃ¨me discours, Ã  Lyon
+	(influence du rÃ©gime protecteur sur les salaires:
 	le Travail et le Capital)")
   (P 2 293 311 "discours_6"
-	"47 Sixième discours, à Marseille
-	(Vue générale du libre-échange
-	en réponse aux arguments des protectionnistes,
+	"47 SixiÃ¨me discours, Ã  Marseille
+	(Vue gÃ©nÃ©rale du libre-Ã©change
+	en rÃ©ponse aux arguments des protectionnistes,
 	et aux scrupules du patriotisme et de la philanthropie)")
   (P 2 311 328 "discours_7"
-	"48 Septième discours, à Paris
-	(le Libre-Échange est un des aspects de la cause 
-	du peuple, des masses et de la démocratie)")
+	"48 SeptiÃ¨me discours, Ã  Paris
+	(le Libre-Ã‰change est un des aspects de la cause 
+	du peuple, des masses et de la dÃ©mocratie)")
   (P 2 328 342 "discours_cercle_librairie"
-	,[49 Huitième discours, à Paris
-	(la propriété littéraire).
-	Lettre à M. Hippolyte Castille,
-	fondateur du journal la ,(cite-title[Propriété intellectuelle]).]))
+	,[49 HuitiÃ¨me discours, Ã  Paris
+	(la propriÃ©tÃ© littÃ©raire).
+	Lettre Ã  M. Hippolyte Castille,
+	fondateur du journal la ,(cite-title[PropriÃ©tÃ© intellectuelle]).]))
   (S #f
   (P 2 343 348 "de_la_moderation"
-	"50 De la modération (des partisans de la réforme douanière)")
+	"50 De la modÃ©ration (des partisans de la rÃ©forme douaniÃ¨re)")
   (P 2 348 355 "peuple_et_bourgeoisie"
 	"51 Peuple et bourgeoisie")
   (P 2 355 358 "economie_politique_generaux"
-	"52 L'économie politique des généraux")
+	"52 L'Ã©conomie politique des gÃ©nÃ©raux")
   (P 2 358 363 "recettes_protectionnistes"
 	"53 Recettes protectionnistes (l'incendie, etc.)")
   (P 2 363 370 "deux_principes"
@@ -212,169 +212,169 @@
   (P 2 370 373 "logique_cunin_gridaine"
 	"55 La logique de M. Cunin-Gridaine")
   (P 2 373 377 "hommes_speciaux"
-	"56 Les hommes spéciaux")
+	"56 Les hommes spÃ©ciaux")
   (P 2 377 384 "1profit_2pertes"
 	"57 Un profit contre deux pertes")
   (P 2 384 391 "2pertes_1profit"
 	"58 Deux pertes contre un profit")
   (P 2 392 400 "peur_d_un_mot"
-	"59 La peur d'un mot (Libre-Échange)") ; MAD
+	"59 La peur d'un mot (Libre-Ã‰change)") ; MAD
   (P 2 400 409 "midi_a_quatorze_heures"
-	"60 Midi à quatorze heures (au lieu des faits les plus simples)")
+	"60 Midi Ã  quatorze heures (au lieu des faits les plus simples)")
   (P 2 409 415 "manuel_consommateur"
 	"61 Le petit manuel du consommateur")
   (P 2 415 418 "remontrance"
 	"62 Remontrance (l'isolement)")
   (P 2 418 429 "le_maire_d_enios"
-	"63 Le maire d'Énios (les restrictions communales)")
+	"63 Le maire d'Ã‰nios (les restrictions communales)")
   (P 2 429 435 "association_espagnole"
-	"64 Association espagnole pour la défense du travail national
+	"64 Association espagnole pour la dÃ©fense du travail national
 	(le pont de la Bidassoa)")
   (P 2 435 446 "l_indiscret"
 	"65 L'indiscret") ; MAD
   (P 2 446 451 "sucre_antediluvien"
-	"66 Le sucre antédiluvien.
+	"66 Le sucre antÃ©diluvien.
 	(travail libre et travail esclave,
 	industrie naturelle et industrie artificielle)") ; andre
   (P 2 452 458 "monita_secreta"
 	"67 Monita secreta (morale du protectionnisme)")
   (P 2 459 461 "petites_affiches"
 	"68 Manifestes de Jacques Bonhomme
-	(soulagement immédiat du peuple, funeste remède)")
+	(soulagement immÃ©diat du peuple, funeste remÃ¨de)")
   (P 2 462 465 "ministere_introuvable"
-	"69 Circulaires d'un ministère introuvable
-	(les citoyens font vivre l'État,
-	l'État ne peut faire vivre les citoyens).")
+	"69 Circulaires d'un ministÃ¨re introuvable
+	(les citoyens font vivre l'Ã‰tat,
+	l'Ã‰tat ne peut faire vivre les citoyens).")
   (P 2 466 482 "funestes_illusions"
 	"70 Funestes illusions")))
- (tome 3 "troisième" "Cobden et la Ligue
-		ou L'agitation anglaise pour la Liberté des Échanges"
-	0202317 525  3 1854 ; l'édition de 1864 a la même pagination.
+ (tome 3 "troisiÃ¨me" "Cobden et la Ligue
+		ou L'agitation anglaise pour la LibertÃ© des Ã‰changes"
+	0202317 525  3 1854 ; l'Ã©dition de 1864 a la mÃªme pagination.
   (S #f
   (P 3   1  80 "introduction_cobden_ligue"
 	"Introduction")
   (P 3  81  91 "ligue_1"
-	"Meeting à Manchester, en octobre 1842.
+	"Meeting Ã  Manchester, en octobre 1842.
 	- Discours de M. Cobden")
   (P 3  91  96 "ligue_2"
-	"Meeting à Londres, 16 mars 1843, théâtre de Drury-Lane.
+	"Meeting Ã  Londres, 16 mars 1843, thÃ©Ã¢tre de Drury-Lane.
 	- Discours de M. Cobden")
   (P 3  96 118 "ligue_3"
-	"Meeting à Londres, 30 mars 1843.
+	"Meeting Ã  Londres, 30 mars 1843.
 	- Discours de MM. James Wilson, J. W. Fox et Cobden")
   (P 3 118 144 "ligue_4"
-	"Meeting à Londres, 5 avril 1843.
-	- Exposé du président;
+	"Meeting Ã  Londres, 5 avril 1843.
+	- ExposÃ© du prÃ©sident;
 	discours de MM. Hume, Brotherton, Milner Gibson")
   (P 3 144 153 "ligue_5"
-	"Meeting à Londres, 13 avril 1843.
+	"Meeting Ã  Londres, 13 avril 1843.
 	- Discours du D. Bowring")
   (P 3 153 160 "ligue_6"
-	"Meeting à Londres, 26 avril 1843.
+	"Meeting Ã  Londres, 26 avril 1843.
 	- Discours du R. Th. Spencer")
   (P 3 160 179 "ligue_7"
-	"Meeting à Londres, 5 mai 1843.
+	"Meeting Ã  Londres, 5 mai 1843.
 	- Discours du R. Cox et de M. Cobden")
   (P 3 179 190 "ligue_8"
-	"Meeting à Londres, 13 mai 1843, salle de l'Opéra.
+	"Meeting Ã  Londres, 13 mai 1843, salle de l'OpÃ©ra.
 	- Discours de M. Cobden")
   (P 3 190 206 "ligue_9"
-	"Meeting à Londres, octobre 1843, théâtre de Covent-Garden.
+	"Meeting Ã  Londres, octobre 1843, thÃ©Ã¢tre de Covent-Garden.
 	- Discours de M. Cobden et J. W. Fox")
   (P 3 207 223 "ligue_10"
-	"Meeting en Écosse, du 8 au 18 janvier 1844.
+	"Meeting en Ã‰cosse, du 8 au 18 janvier 1844.
 	- Allocutions diverses;
-	extraits des discours de M. Cobden, à Perth,
-	et du colonel Thompson, à Greenock, etc.")
+	extraits des discours de M. Cobden, Ã  Perth,
+	et du colonel Thompson, Ã  Greenock, etc.")
   (P 3 223 235 "ligue_11"
-	"Meeting à Londres, 25 janvier 1844, théâtre de Covent-Garden.
+	"Meeting Ã  Londres, 25 janvier 1844, thÃ©Ã¢tre de Covent-Garden.
 	- Discours de MM. George Wilson et J. W. Fox")
   (P 3 236 238 "ligue_12"
-	"Meeting à Londres, 1er février 1844.
+	"Meeting Ã  Londres, 1er fÃ©vrier 1844.
 	- Compte rendu")
   (P 3 238 246 "ligue_13"
-	"Banquet. à Wakefield (Yorkshire) le 31 janvier 1844.
-	- Allocution du président, M. Marshall et
+	"Banquet. Ã  Wakefield (Yorkshire) le 31 janvier 1844.
+	- Allocution du prÃ©sident, M. Marshall et
 	discours de Lord Morphet et de M. Cobden")
   (P 3 246 259 "ligue_14"
-	"Meeting à Londres, 15 février 1844.
+	"Meeting Ã  Londres, 15 fÃ©vrier 1844.
 	- Discours le MM. Villiers et J.W. Fox")
   (P 3 259 275 "ligue_15"
-	"Meeting à Londres, 21 février 1844.
+	"Meeting Ã  Londres, 21 fÃ©vrier 1844.
 	- Compte rendu; discours de MM. O'Connell et George Thompson")
   (P 3 275 281 "ligue_16"
-	,[Meeting à Londres, 28 février 1844.
+	,[Meeting Ã  Londres, 28 fÃ©vrier 1844.
 	- Discours de M. Ashworth])
   (P 3 281 298 "ligue_17"
-	"Meeting à Londres, 17 avril 1844.
+	"Meeting Ã  Londres, 17 avril 1844.
 	- Compte rendu; discours de M. George Thompson")
   (P 3 298 309 "ligue_18"
-	"Meeting à Londres, 1er mai 1844.
+	"Meeting Ã  Londres, 1er mai 1844.
 	- Discours de MM. Ricardo et Cobden")
   (P 3 309 326 "ligue_19"
-	"Meeting à Londres, 14 mai 1844.
+	"Meeting Ã  Londres, 14 mai 1844.
 	- Discours de MM. Bright et James Wilson")
   (P 3 327 343 "ligue_20"
-	"Meeting à Londres, 22 mai 1844.
+	"Meeting Ã  Londres, 22 mai 1844.
 	- Discours de M. George Thompson")
   (P 3 343 351 "ligue_21"
-	"Meeting à Londres, 5 juin 1844.
-	- Résumé d'un discours de M. Bouverie,
+	"Meeting Ã  Londres, 5 juin 1844.
+	- RÃ©sumÃ© d'un discours de M. Bouverie,
 	et discours de Milner Gibson")
   (P 3 351 355 "ligue_22"
-	"Exposé du dissentiment sur le tarif des sucres")
+	"ExposÃ© du dissentiment sur le tarif des sucres")
   (P 3 355 384 "ligue_23"
-	"Meeting à Londres, le 19 juin 1844.
+	"Meeting Ã  Londres, le 19 juin 1844.
 	- Discours du R. Th. Spencer et de MM. Cobden et Fox.
-	Réflexions du traducteur")
+	RÃ©flexions du traducteur")
   (P 3 384 391 "ligue_24"
-	"Débat à la Chambre des communes sur la proposition de M. Villiers.
-	- Argument de M. Milner Gibson. - Résumé historique.")
+	"DÃ©bat Ã  la Chambre des communes sur la proposition de M. Villiers.
+	- Argument de M. Milner Gibson. - RÃ©sumÃ© historique.")
   (P 3 391 403 "ligue_25"
-	"Meeting à Londres, le 7 août 1844.
-	- Considérations sur l'esprit de paix.
+	"Meeting Ã  Londres, le 7 aoÃ»t 1844.
+	- ConsidÃ©rations sur l'esprit de paix.
 	Discours de M. Milner Gibson et de M. Fox")
   (P 3 403 404 "ligue_26"
-	,[Les ,(inenglish[free-traders]) et les chartistes à Northampton])
+	,[Les ,(inenglish[free-traders]) et les chartistes Ã  Northampton])
   (P 3 404 409 "ligue_27"
-	"Démonstrations en faveur de la liberté commerciale à Walsall.
-	- Présentation d'une coupe à M. John B. Smith")
+	"DÃ©monstrations en faveur de la libertÃ© commerciale Ã  Walsall.
+	- PrÃ©sentation d'une coupe Ã  M. John B. Smith")
   (P 3 409 420 "ligue_28"
-	"Grand meeting de la Ligue au théâtre de Covent-Garden,
-	17 décembre 1844.
+	"Grand meeting de la Ligue au thÃ©Ã¢tre de Covent-Garden,
+	17 dÃ©cembre 1844.
 	- Discours de M. Cobden")
   (P 3 420 429 "ligue_29"
-	"Meeting général de la Ligue à Manchester, 22 janvier 1845.
+	"Meeting gÃ©nÃ©ral de la Ligue Ã  Manchester, 22 janvier 1845.
 	- Discours de M. J. Bright")
   (P 3 430 436 "ligue_30"
 	,[Interrogatoire de Jacques Deacon Hume, esq.,
-	ancien secrétaire du ,(inenglish[Board of trade]),
-	sur la loi des céréales,
-	devant le comité de la Chambre des communes
-	chargé de préparer le projet de loi relatif
+	ancien secrÃ©taire du ,(inenglish[Board of trade]),
+	sur la loi des cÃ©rÃ©ales,
+	devant le comitÃ© de la Chambre des communes
+	chargÃ© de prÃ©parer le projet de loi relatif
 	aux droits d'importation pour 1839]))
   (S "Appendice"
   (P 3 437 448 "ligue_31"
-	"Fin de la première campagne de la Ligue anglaise")
+	"Fin de la premiÃ¨re campagne de la Ligue anglaise")
   (P 3 449 458 "ligue_32"
 	,(bold[Seconde campagne de la Ligue]))
   (P 3 459 462 "ligue_33"
 	"Deux Angleterre")
   (P 3 463 492 "ligue_34"
-	"Meeting dit 25 janvier 1818, à Manchester.
+	"Meeting dit 25 janvier 1818, Ã  Manchester.
 	- Discours de MM. Milner, Gibson, Cobden et J. Bright")
   (P 3 492 496 "ligue_35"
-	"Lettre de Bastiat à M. G. Wilson, du 15 janvier 1849")
+	"Lettre de Bastiat Ã  M. G. Wilson, du 15 janvier 1849")
   (P 3 497 507 "ligue_36"
-	"La réforme coloniale en Angleterre.
-	- Discours de M. Cobden à Bradford.
+	"La rÃ©forme coloniale en Angleterre.
+	- Discours de M. Cobden Ã  Bradford.
 	- Discours de John Russell au Parlement")
   (P 3 508 518 "ligue_37"
 	"Discours de John Russell au Parlement")))
- (tome 4 "quatrième" "Sophismes économiques - Petits pamphlets I"
+ (tome 4 "quatriÃ¨me" "Sophismes Ã©conomiques - Petits pamphlets I"
 	0202318 551  3 1863
-  (S "Sophismes économiques"
-  (S "Première série"
+  (S "Sophismes Ã©conomiques"
+  (S "PremiÃ¨re sÃ©rie"
   (P 4   1   5 "introduction_sophismes"
 	"Introduction")
   (P 4   5  15 "abondance_disette"
@@ -382,48 +382,48 @@
   (P 4  15  18 "obstacle_cause"
 	"II. Obstacle, cause")
   (P 4  19  27 "effort_resultat"
-	"III. Effort, résultat")
+	"III. Effort, rÃ©sultat")
   (P 4  27  46 "egaliser_les_conditions_de_production"
-	"IV. Égaliser les conditions de production")
+	"IV. Ã‰galiser les conditions de production")
   (P 4  46  52 "greves_de_taxes"
-	"V. Nos produits sont grevés de taxes")
+	"V. Nos produits sont grevÃ©s de taxes")
   (P 4  52  57 "balance_du_commerce_sophisme"
 	"VI. Balance du commerce") ; MAD
   (P 4  57  62 "petition"
-	"VII. Pétition des fabricants de chandelles, etc.")
+	"VII. PÃ©tition des fabricants de chandelles, etc.")
   (P 4  62  63 "droits_differentiels"
-	"VIII. Droits différentiels")
+	"VIII. Droits diffÃ©rentiels")
   (P 4  63  67 "immense_decouverte"
-	"IX. Immense découverte!!!")
+	"IX. Immense dÃ©couverte!!!")
   (P 4  67  70 "reciprocite"
-	"X. Réciprocité")
+	"X. RÃ©ciprocitÃ©")
   (P 4  70  74 "prix_absolus"
 	"XI. Prix absolus")
   (P 4  74  79 "protection_taux_salaires"
-	"XII. La protection élève-t-elle le taux des salaires ?")
+	"XII. La protection Ã©lÃ¨ve-t-elle le taux des salaires ?")
   (P 4  79  86 "theorie_pratique"
-	"XIII. Théorie, Pratique")
+	"XIII. ThÃ©orie, Pratique")
   (P 4  86  90 "conflit_de_principes"
 	"XIV. Conflit de principes")
   (P 4  90  92 "encore_reciprocite"
-	"XV. Encore la réciprocité")
+	"XV. Encore la rÃ©ciprocitÃ©")
   (P 4  92  93 "les_fleuves"
-	"XVI. Les fleuves obstrués plaidant pour les prohibitionistes")
+	"XVI. Les fleuves obstruÃ©s plaidant pour les prohibitionistes")
   (P 4  93  94 "chemin_de_fer"
-	"XVII. Un chemin de fer négatif")
+	"XVII. Un chemin de fer nÃ©gatif")
   (P 4  94  97 "principes_absolus"
 	"XVIII. Il n'y a pas de principes absolus")
   (P 4  97  99 "independance_nationale"
-	"XIX. Indépendance nationale")
+	"XIX. IndÃ©pendance nationale")
   (P 4 100 105 "thtn"
 	"XX. Travail humain, travail national")
   (P 4 105 115 "matieres_premieres"
-	"XXI. Matières premières")
+	"XXI. MatiÃ¨res premiÃ¨res")
   (P 4 115 119 "metaphores"
-	"XXII. Métaphores")
+	"XXII. MÃ©taphores")
   (P 4 119 126 "conclusion_sophismes"
 	"Conclusion"))
-  (S "Deuxième série"
+  (S "DeuxiÃ¨me sÃ©rie"
   (P 4 127 148 "physiologie_de_la_spoliation"
 	"I. Physiologie de la Spoliation")
   (P 4 148 156 "deux_morales"
@@ -431,9 +431,9 @@
   (P 4 156 159 "les_deux_haches"
 	"III. Les deux haches")
   (P 4 160 163 "conseil_inferieur_du_travail"
-	"IV. Conseil inférieur du travail")
+	"IV. Conseil infÃ©rieur du travail")
   (P 4 163 173 "cherte_bon_marche"
-	"V. Cherté, bon marché")
+	"V. ChertÃ©, bon marchÃ©")
   (P 4 173 182 "aux_artisans_et_ouvriers"
 	"VI. Aux artisans et ouvriers")
   (P 4 182 187 "conte_chinois"
@@ -441,7 +441,7 @@
   (P 4 187 189 "post_hoc_propter_hoc"
 	"VIII. Post hoc, ergo propter hoc")
   (P 4 189 198 "le_vol_a_la_prime"
-	"IX. Le vol à la prime")
+	"IX. Le vol Ã  la prime")
   (P 4 198 203 "percepteur"
 	"X. Le percepteur")
   (P 4 204 212 "l_utopiste"
@@ -449,87 +449,87 @@
   (P 4 213 229 "sel_poste_douane"
 	"XII. Le sel, la poste et la douane")
   (P 4 229 241 "les_trois_echevins"
-	"XIII. Les trois Échevins")
+	"XIII. Les trois Ã‰chevins")
   (P 4 241 251 "autre_chose"
 	"XIV. Autre chose")
   (P 4 251 257 "arsenal"
-	"XV. Le petit arsenal du libre-échangiste")
+	"XV. Le petit arsenal du libre-Ã©changiste")
   (P 4 258 265 "la_main_droite_et_la_main_gauche"
 	"XVI. La main droite et la main gauche")
   (P 4 265 274 "domination_par_le_travail"
 	"XVII. Domination par le travail")))
   (S "Pamphlets"
   (P 4 275 297 "propriete_et_loi"
-	"Propriété et loi")
+	"PropriÃ©tÃ© et loi")
   (P 4 298 326 "justice_fraternite"
-	"Justice et fraternité")
+	"Justice et fraternitÃ©")
   (P 4 327 341 "l_Etat"
-	"L'État")
+	"L'Ã‰tat")
   (P 4 342 393 "la_loi"
 	"La Loi")
   (P 4 394 441 "propriete_et_spoliation"
-	"Propriété et Spoliation")
+	"PropriÃ©tÃ© et Spoliation")
   (P 4 442 503 "baccalaureat_et_socialisme"
-	"Baccalauréat et socialisme") ; baccalaureat
+	"BaccalaurÃ©at et socialisme") ; baccalaureat
   (P 4 504 545 "protectionisme_et_communisme"
 	"Protectionisme et communisme")))
- (tome 5 "cinquième" "Sophismes économiques - Petits pamphlets II"
+ (tome 5 "cinquiÃ¨me" "Sophismes Ã©conomiques - Petits pamphlets II"
 	0202319 567  3 1863
   (P 5   1  15 "spoliation_et_loi"
 	"Spoliation et loi")
   (P 5  16  22 "guerre_aux_chaires_d_economie_politique"
-	"Guerre aux chaires d'économie politique")
+	"Guerre aux chaires d'Ã©conomie politique")
   (P 5  23  63 "capital_et_rente"
 	"Capital et rente")
   (P 5  64  93 "maudit_argent"
 	"Maudit argent")
-  (S ,(bof-ref "gratuite_du_credit" [Gratuité du crédit])
+  (S ,(bof-ref "gratuite_du_credit" [GratuitÃ© du crÃ©dit])
   (P 5  94 111 "lettre1"
-	,[Première lettre.
-	,(--) F. C. Chevé,
-	l'un des rédacteurs de la ,(cite-title[Voix du Peuple]),
-	à Frédéric Bastiat])
+	,[PremiÃ¨re lettre.
+	,(--) F. C. ChevÃ©,
+	l'un des rÃ©dacteurs de la ,(cite-title[Voix du Peuple]),
+	Ã  FrÃ©dÃ©ric Bastiat])
   (P 5 111 120 "lettre2"
-	,[Deuxième lettre.
-	,(--) F. Bastiat au rédacteur de la ,(cite-title[Voix du peuple])])
+	,[DeuxiÃ¨me lettre.
+	,(--) F. Bastiat au rÃ©dacteur de la ,(cite-title[Voix du peuple])])
   (P 5 120 133 "lettre3"
-	,[Troisième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[TroisiÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 133 145 "lettre4"
-	,[Quatrième lettre. ,(--) F. Bastiat à P. J. Proudhon])
+	,[QuatriÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon])
   (P 5 146 156 "lettre5"
-	,[Cinquième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[CinquiÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 156 167 "lettre6"
-	,[Sixième lettre. ,(--) F. Bastiat à P. J. Proudhon])
+	,[SixiÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon])
   (P 5 168 190 "lettre7"
-	,[Septième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[SeptiÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 191 204 "lettre8"
-	,[Huitième lettre. ,(--) F. Bastiat à P. J. Proudhon])
+	,[HuitiÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon])
   (P 5 205 225 "lettre9"
-	,[Neuvième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[NeuviÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 225 237 "lettre10"
-	,[Dixième lettre. ,(--) F. Bastiat à P. J. Proudhon])
+	,[DixiÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon])
   (P 5 238 271 "lettre11"
-	,[Onzième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[OnziÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 272 289 "lettre12"
-	,[Douzième lettre. ,(--) F. Bastiat à P. J. Proudhon])
+	,[DouziÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon])
   (P 5 290 312 "lettre13"
-	,[Treizième lettre. ,(--) P. J. Proudhon à F. Bastiat])
+	,[TreiziÃ¨me lettre. ,(--) P. J. Proudhon Ã  F. Bastiat])
   (P 5 312 335 "lettre14"
-	,[Quatorzième lettre. ,(--) F. Bastiat à P. J. Proudhon]))
+	,[QuatorziÃ¨me lettre. ,(--) F. Bastiat Ã  P. J. Proudhon]))
   (S #f
   (PS 5 336 392 "cqovecqonvp"
 	"Ce qu'on voit et ce qu'on ne voit pas"
-   (SP 337 vitre_cassee "I. La vitre cassée")
+   (SP 337 vitre_cassee "I. La vitre cassÃ©e")
    (SP 340 le_licenciement "II. Le licenciement")
-   (SP 343 l_impot "III. L'impôt")
-   (SP 347 theatres_beaux_arts "IV. Théâtres, Beaux-Arts")
+   (SP 343 l_impot "III. L'impÃ´t")
+   (SP 347 theatres_beaux_arts "IV. ThÃ©Ã¢tres, Beaux-Arts")
    (SP 353 travaux_publics "V. Travaux publics")
-   (SP 356 les_intermediaires "VI. Les Intermédiaires")
+   (SP 356 les_intermediaires "VI. Les IntermÃ©diaires")
    (SP 363 restriction "VII. Restriction")
    (SP 368 les_machines "VIII. Les Machines")
-   (SP 375 credit "IX. Crédit")
-   (SP 379 l_algerie "X. L'Algérie")
-   (SP 383 epargne_et_luxe "XI. Épargne et Luxe")
+   (SP 375 credit "IX. CrÃ©dit")
+   (SP 379 l_algerie "X. L'AlgÃ©rie")
+   (SP 383 epargne_et_luxe "XI. Ã‰pargne et Luxe")
    (SP 390 droit_au_travail_droit_au_profit
 		"XII. Droit au Travail, Droit au Profit")))
   (S #f
@@ -538,19 +538,19 @@
   (P 5 402 406 "balance_du_commerce"
 	"Balance du commerce")
   (P 5 407 467 "paix_et_liberte"
-	"Paix et liberté ou le budget républicain")
+	"Paix et libertÃ© ou le budget rÃ©publicain")
   (P 5 468 493 "impot_des_boissons"
-	"Discours sur l'impôt des boissons")
+	"Discours sur l'impÃ´t des boissons")
   (P 5 494 512 "repression_coalitions"
-	"Discours sur la répression des coalitions industrielles")
+	"Discours sur la rÃ©pression des coalitions industrielles")
   (P 5 513 517 "aux_democrates"
-	"Réflexions sur l'amendement de M. Mortimer-Ternaux. Aux démocrates")
+	"RÃ©flexions sur l'amendement de M. Mortimer-Ternaux. Aux dÃ©mocrates")
   (P 5 518 561 "incompatibilites_parlementaires"
-	"Incompatibilités parlementaires")))
- (tome 6 "sixième" ,(bof-ref "harmonies" [Harmonies économiques])
+	"IncompatibilitÃ©s parlementaires")))
+ (tome 6 "sixiÃ¨me" ,(bof-ref "harmonies" [Harmonies Ã©conomiques])
 	0202320 659  3 1863
   (P 6   1  22 "a_la_jeunesse_francaise"
-	"Introduction. À la jeunesse française")
+	"Introduction. Ã€ la jeunesse franÃ§aise")
   (P 6  23  44 "organisation"
 	"I. Organisation naturelle, organisation artificielle")
   (P 6  45  61 "besoins_efforts_satisfactions"
@@ -558,7 +558,7 @@
   (P 6  62  92 "des_besoins_de_l_homme"
 	"III. Des besoins de l'homme")
   (P 6  93 139 "echange"
-	"IV. Échange")
+	"IV. Ã‰change")
   (P 6 140 206 "de_la_valeur"
 	"V. De la valeur") ; de_la_valeur = extraits seulement
   (P 6 207 227 "richesse"
@@ -566,13 +566,13 @@
   (P 6 228 255 "capital"
 	"VII. Capital")
   (P 6 256 296 "propriete_communaute"
-	"VIII. Propriété, communauté")
+	"VIII. PropriÃ©tÃ©, communautÃ©")
   (P 6 297 348 "propriete_fonciere"
-	"IX. Propriété foncière")
+	"IX. PropriÃ©tÃ© fonciÃ¨re")
   (P 6 349 387 "concurrence"
 	"X. Concurrence")
   (P 6 388 397 "conclusion_eo_harmonies"
-	"Conclusion de l'édition originale")
+	"Conclusion de l'Ã©dition originale")
   (P 6 398 418 "producteur_consommateur"
 	"XI. Producteur, consommateur")
   (P 6 419 429 "les_deux_devises"
@@ -582,178 +582,178 @@
   (P 6 437 491 "des_salaires"
 	"XIV. Des salaires")
   (P 6 492 496 "de_l_epargne"
-	"XV. De l'épargne")
+	"XV. De l'Ã©pargne")
   (P 6 497 534 "de_la_population"
 	"XVI. De la population")
   (P 6 535 562 "services"
-	"XVII. Services privés, services publics")
+	"XVII. Services privÃ©s, services publics")
   (P 6 563 573 "causes_perturbatrices"
 	"XVIII. Causes perturbatrices")
   (P 6 574 587 "guerre"
 	"XIX. Guerre")
   (P 6 588 617 "responsabilite"
-	"XX. Responsabilité")
+	"XX. ResponsabilitÃ©")
   (P 6 618 626 "solidarite"
-	"XXI. Solidarité")
+	"XXI. SolidaritÃ©")
   (P 6 627 638 "moteur_social"
 	"XXII. Moteur social")
   (P 6 639 643 "le_mal"
 	"XXIII. Le mal")
   (P 6 644 650 "perfectibilite"
-	"XXIV. Perfectibilité")
+	"XXIV. PerfectibilitÃ©")
   (P 6 651 655 "rapports"
-	"XXV. Rapports de l'économie politique
+	"XXV. Rapports de l'Ã©conomie politique
 		avec la morale, avec la politique,
-		avec la législation, avec la religion"))
- (tome 7 "septième" "Essais, Ébauches, Correspondance"
+		avec la lÃ©gislation, avec la religion"))
+ (tome 7 "septiÃ¨me" "Essais, Ã‰bauches, Correspondance"
 	#f 452  5 1864
   (G 7 5 6 avertissement "Avertissement")
   (S "Essais"
   (P 7 1 4 "refugies_polonais"
-	"1. - D'une pétition en faveur des réfugiés polonais")
+	"1. - D'une pÃ©tition en faveur des rÃ©fugiÃ©s polonais")
   (P 7 4 10 "nouveau_college"
-	"2. - D'un nouveau collége à fonder")
+	"2. - D'un nouveau collÃ©ge Ã  fonder")
   (P 7 10 14 "duels"
 	"3. - Compte rendu sur la question des duels")
   (P 7 14 20 "liberte_du_commerce"
-	"4. - Liberté du commerce")
+	"4. - LibertÃ© du commerce")
   (P 7 20 30 "questions_conseils_generaux"
-	"5. - Questions soumises aux Conseils généraux, en 1845")
+	"5. - Questions soumises aux Conseils gÃ©nÃ©raux, en 1845")
   (P 7 30 34 "projet_de_ligue_antiprotectioniste1"
 	"6. - Projet de ligue anti-protectioniste")
   (P 7 34 38 "projet_de_ligue_antiprotectioniste2"
-	"7. - Même sujet")
+	"7. - MÃªme sujet")
   (P 7 38 43 "projet_de_ligue_antiprotectioniste3"
-	"8. - Même sujet")
+	"8. - MÃªme sujet")
   (P 7 43 47 "association_bordeaux"
-	"9. - Association à Bordeaux")
+	"9. - Association Ã  Bordeaux")
   (P 7 47 50 "au_journal_de_lille"
-	,[10. - Au rédacteur du ,(cite-title[Journal de Lille])])
+	,[10. - Au rÃ©dacteur du ,(cite-title[Journal de Lille])])
   (P 7 50 53 "theorie_du_benefice"
-	"11. - Théorie du bénéfice")
+	"11. - ThÃ©orie du bÃ©nÃ©fice")
   (P 7 53 58 "a_l_epoque"
-	,[12. - Au rédacteur de ,(cite-title[l'Époque])])
+	,[12. - Au rÃ©dacteur de ,(cite-title[l'Ã‰poque])])
   (P 7 58 63 "libre_echange_en_action"
-	"13. - Le libre-échange en action")
+	"13. - Le libre-Ã©change en action")
   (P 7 63 66 "le_commerce"
 	"14. - Qu'est-ce que le commerce?")
   (P 7 66 53 "ministre_du_commerce"
-	"15. - À M. le Ministre du commerce")
+	"15. - Ã€ M. le Ministre du commerce")
   (P 7 53 78 "courrier_francais"
-	,[16. - Au rédacteur du ,(cite-title[Courrier français])])
+	,[16. - Au rÃ©dacteur du ,(cite-title[Courrier franÃ§ais])])
   (P 7 78 83 "reforme_postale1"
-	"17. - La réforme postale")
+	"17. - La rÃ©forme postale")
   (P 7 83 91 "reforme_postale2"
-	"18. - Même sujet")
+	"18. - MÃªme sujet")
   (P 7 91 96 "liberte_commerciale"
-	"19. - La liberté commerciale")
+	"19. - La libertÃ© commerciale")
   (P 7 96 99 "lettre1_journal_des_debats"
-	,[20. - ,(1ere) lettre au ,(cite-title[Journal des Débats])])
+	,[20. - ,(1ere) lettre au ,(cite-title[Journal des DÃ©bats])])
   (P 7 99 103 "lettre2_journal_des_debats"
 	,[21. - ,(2eme) lettre])
   (P 7 103 114 "aux_membres_de_l_association"
 	"22. - Aux membres de l'Association")
   (P 7 114 119 "a_tanneguy_duchatel"
-	"24. - À M. Tanneguy-Duchâtel")
+	"24. - Ã€ M. Tanneguy-DuchÃ¢tel")
   (P 7 119 122 "la_logique_du_moniteur_industriel"
 	,[25. - La logique du ,(cite-title[Moniteur industriel])])
   (P 7 122 125 "toast"
 	"26. - Toast")
   (P 7 125 128 "loi_des_cereales_salaire"
-	"27. - La loi des céréales et le salaire")
+	"27. - La loi des cÃ©rÃ©ales et le salaire")
   (P 7 128 131 "au_moniteur_industriel"
 	,[28. - Au ,(cite-title[Moniteur industriel])])
   (P 7 131 143 "negociants_havre"
-	"29 à 31. - Aux négociants du Havre")
+	"29 Ã  31. - Aux nÃ©gociants du Havre")
   (P 7 143 152 "a_la_presse"
-	,[32 et 33. - Aux rédacteurs de la ,(cite-title[Presse])])
+	,[32 et 33. - Aux rÃ©dacteurs de la ,(cite-title[Presse])])
   (P 7 152 167 "au_national"
-	,[34 et 35. - Aux rédacteurs du ,(cite-title[National])])
+	,[34 et 35. - Aux rÃ©dacteurs du ,(cite-title[National])])
   (P 7 167 170 "roi_libre_echangiste"
-	"36. - Le Roi libre-échangiste")
+	"36. - Le Roi libre-Ã©changiste")
   (P 7 170 178 "discours_salle_duphot"
-	"37. - Discours à la salle Duphot")
+	"37. - Discours Ã  la salle Duphot")
   (P 7 178 193 "projet_discours_bayonne"
-	"38. - Projet de discours à Bayonne")
+	"38. - Projet de discours Ã  Bayonne")
   (P 7 193 199 "conseil_general_seine"
-	"39. - Aux membres du Conseil général de la Seine")
+	"39. - Aux membres du Conseil gÃ©nÃ©ral de la Seine")
   (P 7 199 207 "conseil_general_nievre"
-	"40. - Aux membres du Conseil général de la Nièvre")
+	"40. - Aux membres du Conseil gÃ©nÃ©ral de la NiÃ¨vre")
   (P 7 207 210 "a_jobard"
-	"41. - À M. Jobard")
+	"41. - Ã€ M. Jobard")
   (P 7 210 235 "republique_francaise"
-	,[42 à 45. - Courts articles dans
-	la ,(cite-title[République française]),
-	du 27 février au 6 mars 1848])
+	,[42 Ã  45. - Courts articles dans
+	la ,(cite-title[RÃ©publique franÃ§aise]),
+	du 27 fÃ©vrier au 6 mars 1848])
   (P 7 235 248 "jacques_bonhomme"
-	,[56 à 63 - Courts articles dans le ,(cite-title[Jacques-Bonhomme]),
-	La Liberté,
+	,[56 Ã  63 - Courts articles dans le ,(cite-title[Jacques-Bonhomme]),
+	La LibertÃ©,
 	,(bof-ref "laissez_faire" [Laissez faire]),
-	L'Assemblée nationale,
-	L'État (n°1 du 11 au 15 juin 1848),(pv)
+	L'AssemblÃ©e nationale,
+	L'Ã‰tat (nÂ°1 du 11 au 15 juin 1848),(pv)
 	,(bof-ref "p5r4" [Prendre cinq et rendre quatre ce n'est pas donner]),
-	Une mystification (n°2 du 15 au 18 juin 1848),(pv)
+	Une mystification (nÂ°2 du 15 au 18 juin 1848),(pv)
 	Funeste gradation,
-	Aux citoyens Lamartine et Ledru-Rollin (n°3 du 20 au 23 juin 1848)])
+	Aux citoyens Lamartine et Ledru-Rollin (nÂ°3 du 20 au 23 juin 1848)])
   (P 7 248 255 "le_capital"
 	"64. - Le Capital")
   (P 7 255 263 "profession"
 	"65. - Profession de foi de 1849")
   (P 7 263 270 "conseil_general_landes"
-	"66. - Rapport du Conseil général des Landes"))
-  (S "Ébauches"
+	"66. - Rapport du Conseil gÃ©nÃ©ral des Landes"))
+  (S "Ã‰bauches"
   (P 7 271 280 "sophismes_electoraux"
-	"67. - Sophismes électoraux")
+	"67. - Sophismes Ã©lectoraux")
   (P 7 280 289 "dialogue_electoral"
-	"68. - Dialogue électoral")
+	"68. - Dialogue Ã©lectoral")
   (P 7 289 289 "fragment"
 	"69. - Fragment")
   (P 7 289 298 "reforme_parlementaire"
-	"70. - Réforme parlementaire")
+	"70. - RÃ©forme parlementaire")
   (P 7 298 300 "lettre_a_un_candidat"
-	"71. - Lettre à un candidat")
+	"71. - Lettre Ã  un candidat")
   (P 7 300 303 "lettre_dampierre"
-	"72. - Lettre à M. Dampierre")
+	"72. - Lettre Ã  M. Dampierre")
   (P 7 303 309 "projet_preface_harmonies"
-	"73. - Projet de préface pour les Harmonies")
+	"73. - Projet de prÃ©face pour les Harmonies")
   (P 7 309 327 "anglomanie_anglophobie"
 	"74. - Anglomanie, Anglophobie")
   (P 7 327 328 "profit_de_l_un_dommage_de_l_autre"
 	"75. - Le profit de l'un est le dommage de l'autre")
   (P 7 328 343 "individualisme_et_fraternite"
-	"76. - Individualisme et Fraternité")
+	"76. - Individualisme et FraternitÃ©")
   (P 7 343 351 "barataria"
 	"77. - Barataria")
   (P 7 351 353 "lettre_ecclesiastique"
-	"78. - Lettre à un ecclésiastique")
+	"78. - Lettre Ã  un ecclÃ©siastique")
   (P 7 353 357 "question_religieuse"
 	"79. - Question religieuse")
   (P 7 357 361 "separation_temporel_spirituel"
-	"80. - De la séparation du temporel et du spirituel")
+	"80. - De la sÃ©paration du temporel et du spirituel")
   (P 7 361 361 "pensee"
-	"81. - Pensée")
+	"81. - PensÃ©e")
   (P 7 361 369 "les_trois_conseils"
 	"82. - Les trois conseils"))
   (S "Correspondance"
   (P 7 369 371 "lettre_laurence"
-	"Lettre à M. Laurence")
+	"Lettre Ã  M. Laurence")
   (P 7 371 373 "lettre_dunoyer"
-	"Lettre à M. Dunoyer")
+	"Lettre Ã  M. Dunoyer")
   (P 7 373 374 "lettre_lamartine_3"
-	"Lettre à M. de Lamartine")
+	"Lettre Ã  M. de Lamartine")
   (P 7 374 377 "lettre_paulton"
-	"Lettre à M. Paulton")
+	"Lettre Ã  M. Paulton")
   (P 7 377 385 "lettres_horace_say2"
-	"Cinq lettres à M. Horace Say")
+	"Cinq lettres Ã  M. Horace Say")
   (P 7 385 412 "lettres_domenger"
-	"Dix-sept lettres à M. Domenger")
+	"Dix-sept lettres Ã  M. Domenger")
   (P 7 412 416 "lettre_george_wilson"
-	"Lettre à M. George Wilson")
+	"Lettre Ã  M. George Wilson")
   (P 7 416 420 "lettres_comte_arrivabene"
-	"Deux lettres à M. le comte Arrivabene")
+	"Deux lettres Ã  M. le comte Arrivabene")
   (P 7 420 432 "lettres_madame_schwabe"
-	"Onze lettres à M. et madame Schwabe")
+	"Onze lettres Ã  M. et madame Schwabe")
   (P 7 432 436 "lettres_madame_cheuvreux"
-	"Cinq lettres à M. et madame Cheuvreux")
+	"Cinq lettres Ã  M. et madame Cheuvreux")
   (P 7 436 445 "lettres_paillotet2"
-	"Huit lettres à M. Paillotet")))))
+	"Huit lettres Ã  M. Paillotet")))))

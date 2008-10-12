@@ -1,7 +1,7 @@
 ; -*- Scheme -*- $Id: guillaumin.scr,v 1.45 2005/07/24 10:33:58 fare Exp $
 (style 'bo-style)
-(in-bof :title "OEuvres complètes de Frédéric Bastiat
-- sommaire de l'édition Guillaumin")
+(in-bof :title "OEuvres complÃ¨tes de FrÃ©dÃ©ric Bastiat
+- sommaire de l'Ã©dition Guillaumin")
 
 (set! =bof.url= "")
 (style 'oeuvres_bastiat)
@@ -19,7 +19,7 @@
 	 ;;(tag :a :name contenu)
 	 (subtitle (*list "Tome " ord (br) (bold contenu)))
 	 (tag :p :align 'right (small [
-Cette pagination est celle de l'édition de ,(id date).
+Cette pagination est celle de l'Ã©dition de ,(id date).
 ,(br)
 ,(if (< num 7)
  [Cliquez sur une page pour la visionner via la BNF.]
@@ -104,52 +104,52 @@ Cette pagination est celle de l'édition de ,(id date).
 	    (error "foo"))))
      (map* C sommaire-db))))
 
-(document :title [,(OE*)uvres complètes de Frédéric Bastiat ,(br) ,(--)
-		 sommaire de l'édition Guillaumin]
+(document :title [,(OE*)uvres complÃ¨tes de FrÃ©dÃ©ric Bastiat ,(br) ,(--)
+		 sommaire de l'Ã©dition Guillaumin]
 	:author (author :name (ref :url =bo.url=
 				   (font :size "+1" (tt =bo.url=))))
 (table :width "100%" :cellpadding 10 (tr
 (tdLT (p*[
-Ceci est le sommaire de l'édition originale de 1862-64 en 7 volumes,
-des ,(q(cite-title[,(bold[,(oe)uvres complètes de Frédéric Bastiat]),
+Ceci est le sommaire de l'Ã©dition originale de 1862-64 en 7 volumes,
+des ,(q(cite-title[,(bold[,(oe)uvres complÃ¨tes de FrÃ©dÃ©ric Bastiat]),
 	mises en ordre,
-	revues et annotées d'après les manuscrits de l'auteur]))
+	revues et annotÃ©es d'aprÃ¨s les manuscrits de l'auteur]))
 chez Guillaumin et C,(sup[ie]), libraires,
-éditeurs du Journal des économistes,
-de la Collection des principaux Économistes,
-du Dictionnaire de l'Économie politique,
+Ã©diteurs du Journal des Ã©conomistes,
+de la Collection des principaux Ã‰conomistes,
+du Dictionnaire de l'Ã‰conomie politique,
 du Dictionnaire universel du Commerce et de la Navigation, etc.,
 Paris, Rue Richelieu, 14.
 ][
-La ,(BNF-ref #f [Bibliothèque Nationale de France])
-a photo-numérisé en octobre 2002 l'ensemble des
+La ,(BNF-ref #f [BibliothÃ¨que Nationale de France])
+a photo-numÃ©risÃ© en octobre 2002 l'ensemble des
 ,(BNF-ref
  "scripts/catalog.php?Mod=i&FondsTout=on&FondsTxt=on&FondsImp=on&Auteur=bastiat"
-	[six premiers volumes des ,(oe)uvres complètes de Frédéric Bastiat]).
-J'ai consécutivement repris pour chacun de ces tomes
-la pagination de l'édition photo-numérisée par la BNF.
+	[six premiers volumes des ,(oe)uvres complÃ¨tes de FrÃ©dÃ©ric Bastiat]).
+J'ai consÃ©cutivement repris pour chacun de ces tomes
+la pagination de l'Ã©dition photo-numÃ©risÃ©e par la BNF.
 En 2004, l',(ref :url "http://oll.libertyfund.org/" [Online Library of Liberty])
-a à son tour photo-numérisé les mêmes
+a Ã  son tour photo-numÃ©risÃ© les mÃªmes
 ,(ref :url "http://oll.libertyfund.org/Home3/Author.php?recordID=0319"
-[,(oe)uvres complètes]),
-sans omettre cette fois le tome 7, publié en 1864,
-et composé de textes jusqu'alors inédits.
-,(XXX[Notez que les exemplaires scannés par la BNF
-sont de l'édition de 1862-1863,
-sauf pour le troisième tome qui est de l'édition de 1854,
+[,(oe)uvres complÃ¨tes]),
+sans omettre cette fois le tome 7, publiÃ© en 1864,
+et composÃ© de textes jusqu'alors inÃ©dits.
+,(XXX[Notez que les exemplaires scannÃ©s par la BNF
+sont de l'Ã©dition de 1862-1863,
+sauf pour le troisiÃ¨me tome qui est de l'Ã©dition de 1854,
 mais ce n'est pas grave, car pour ce tome,
-l'édition de 1863 a la même pagination.])
+l'Ã©dition de 1863 a la mÃªme pagination.])
 Voir aussi le ,(leter-ref "Fr%8Ed%8Eric%20Bastiat%20sommaire"
-	[sommaire de l'édition Leter]),
+	[sommaire de l'Ã©dition Leter]),
 pour l'ordre chronologique, et
-pour quelques textes numérisés non encore disponibles sur ce site.
+pour quelques textes numÃ©risÃ©s non encore disponibles sur ce site.
 ][
-Rejoignez notre équipe et vous aussi participez à la
+Rejoignez notre Ã©quipe et vous aussi participez Ã  la
 	,(bof-ref "numerisation"
-	[numérisation des ,(oe)uvres complètes de Frédéric Bastiat])!
+	[numÃ©risation des ,(oe)uvres complÃ¨tes de FrÃ©dÃ©ric Bastiat])!
 ]))
 (tdLT
-      (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))
+      (tag :img :src "../pic/bastiat1.jpg" :alt "FrÃ©dÃ©ric Bastiat"))))
 
 (apply* *list (insere-sommaire))
 
@@ -157,8 +157,8 @@ Rejoignez notre équipe et vous aussi participez à la
 (with-footer
 (p*[
 ,(leter-ref "Sommaire%20Guillaumin"
-	[Originellement numérisé, copieusement annoté,
-	mis en hypertexte et publié])
+	[Originellement numÃ©risÃ©, copieusement annotÃ©,
+	mis en hypertexte et publiÃ©])
 par ,(leter) pour son ,(ELeter),(pv)
-repris, corrigé, adapté et enrichi de liens par ,(FRR) pour ,(Bastiat.org).
+repris, corrigÃ©, adaptÃ© et enrichi de liens par ,(FRR) pour ,(Bastiat.org).
 ])))

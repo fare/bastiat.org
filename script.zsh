@@ -228,15 +228,15 @@ perl -e '
    s/XXX\:sic\:/(XXX sicYYY)/gs ;
    s/XXX\:sic/(XXX YYYsic)/gs ;
    s/\s*([,.:;?!])/$1/gs ;
-   s/([,.:;?!])([A-Za-zÀ-ÿ])/$1 $2/gs ;
+   s/([,.:;?!])([A-Za-zÃ€-Ã¿])/$1 $2/gs ;
    s/YYY/:/gs ;
    s/ +/ /gs ;
    s/ \n/\n/gs ;
    s/^ //gm ;
    s/\n{3,}/\n\]\n(nbsp)\n[\n/gs ;
    s/\n\n/\n\]\[\n/gs ;
-   # Gérer les itemize avec s/^\- /...
-   # Gérer les blockquotes avec s/^\i/...
+   # GÃ©rer les itemize avec s/^\- /...
+   # GÃ©rer les blockquotes avec s/^\i/...
    s/\[\*+([^\]]*)\]/,(footnote[$1\])/gs ;
    s/\/([^0-9\/]*)\//,(emph\[$1\])/gs ;
    s/(\W)l,\(emph\[/$1\,\(inlatin\[/gs ;
@@ -245,7 +245,7 @@ perl -e '
    s/(\W)t,\(emph\[/$1\,\(cite-title\[/gs ;
    s/\*([^\*]*)\*/,(strong\[$1\])/gs ;
    s/\"\s*([^\"]*?\S)?\s*\"/,(q\[$1\])/gs ;
-   s/\«\s*([^\"]*?\S)?\s*\»/,(q\[$1\])/gs ;
+   s/\Â«\s*([^\"]*?\S)?\s*\Â»/,(q\[$1\])/gs ;
    s/\x93\s*([^\"]*?\S)?\s*\x94/,(q\[$1\])/gs ;
    s/oe([uil])/,(oe)$1/gs ;
    s/\-\-/,(--)/gs ;

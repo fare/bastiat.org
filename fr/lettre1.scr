@@ -1,704 +1,704 @@
 ; -*- Scheme -*-
 ; $Id: lettre1.scr,v 1.5 2005/07/25 13:02:57 fare Exp $
 (style 'bo-style)
-(in-bof :title "Gratuité du crédit - Première lettre
-	- F. C. Chevé à Frédéric Bastiat")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Première lettre]
+(in-bof :title "GratuitÃ© du crÃ©dit - PremiÃ¨re lettre
+	- F. C. ChevÃ© Ã  FrÃ©dÃ©ric Bastiat")
+(document :title [,(cite-title[GratuitÃ© du crÃ©dit]) ,(--) PremiÃ¨re lettre]
 
 (tag :p :align 'center
 (font :size "+3" [
-	,(strong[F. C. Chevé.]) ,(br)
-L'un des rédacteurs de la ,(cite-title[Voix du peuple]),
+	,(strong[F. C. ChevÃ©.]) ,(br)
+L'un des rÃ©dacteurs de la ,(cite-title[Voix du peuple]),
 ,(br)
-,(strong[à Fréderic Bastiat.
+,(strong[Ã  FrÃ©deric Bastiat.
 ,(footnote*[
 La brochure ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente]))
-avait fait une certaine impression sur les classes ouvrières,
-à qui l'auteur s'adressait,
+avait fait une certaine impression sur les classes ouvriÃ¨res,
+Ã  qui l'auteur s'adressait,
 et produit une scission dans certaine portion du socialisme.
-La ,(cite-title[Voix du Peuple]) jugea donc nécessaire de combattre cet écrit.
-,(--) Au premier article de M. Chevé,
-Bastiat fit demander à la rédaction la permission de répondre et l'obtint.
-Mais il fut prévenu que, pour la continuation de la discussion,
-M. Proudhon se substituait à M. Chevé. ,(XXX)
-Les répliques se succédèrent à peu près de semaine en semaine
-jusqu'à la treizième lettre,
-dans laquelle M. Proudhon déclara le débat clos.
+La ,(cite-title[Voix du Peuple]) jugea donc nÃ©cessaire de combattre cet Ã©crit.
+,(--) Au premier article de M. ChevÃ©,
+Bastiat fit demander Ã  la rÃ©daction la permission de rÃ©pondre et l'obtint.
+Mais il fut prÃ©venu que, pour la continuation de la discussion,
+M. Proudhon se substituait Ã  M. ChevÃ©. ,(XXX)
+Les rÃ©pliques se succÃ©dÃ¨rent Ã  peu prÃ¨s de semaine en semaine
+jusqu'Ã  la treiziÃ¨me lettre,
+dans laquelle M. Proudhon dÃ©clara le dÃ©bat clos.
 Il fit de la collection des treize lettres un volume sous ce titre:
-,(cite-title[Intérêt et Principal]).
+,(cite-title[IntÃ©rÃªt et Principal]).
 Bastiat, usant de son droit,
-publia de son côté la même collection,
-augmentée d'une quatorzième lettre,
+publia de son cÃ´tÃ© la mÃªme collection,
+augmentÃ©e d'une quatorziÃ¨me lettre,
 et lui donna pour titre:
 ,(Gratuite_credit).
 ,(NdEEO)])])
 ]))
 (tag :p :align 'center
 (font :size "+2" (strong[
-Adhésion à la formule:
-le prêt est un service qui doit s'échanger contre un service.
+AdhÃ©sion Ã  la formule:
+le prÃªt est un service qui doit s'Ã©changer contre un service.
 ,(--) Distinction sur la nature des services. ,(XXX)
-,(--) Le service qui consiste à céder l'usage temporaire d'une propriété
-ne doit pas être rémunéré par la cession définitive d'une propriété.
-,(--) Conséquences funestes de l'intérêt pour l'emprunteur,
-pour le prêteur lui-même et pour la société tout entière.
+,(--) Le service qui consiste Ã  cÃ©der l'usage temporaire d'une propriÃ©tÃ©
+ne doit pas Ãªtre rÃ©munÃ©rÃ© par la cession dÃ©finitive d'une propriÃ©tÃ©.
+,(--) ConsÃ©quences funestes de l'intÃ©rÃªt pour l'emprunteur,
+pour le prÃªteur lui-mÃªme et pour la sociÃ©tÃ© tout entiÃ¨re.
 ])))
 (date-tag[22 octobre 1849.])
 (p*[
-Tous les principes d'économie sociale
-que vous avez propagés avec un talent si remarquable
-concluent forcément, inévitablement,
-à l'abolition de l'intérêt ou de la rente.
-Curieux de savoir par quelle étrange contradiction votre logique,
-toujours si vive et si sûre,
-reculait devant cette conclusion définitive,
-j'interrogeai votre pamphlet intitulé:
+Tous les principes d'Ã©conomie sociale
+que vous avez propagÃ©s avec un talent si remarquable
+concluent forcÃ©ment, inÃ©vitablement,
+Ã  l'abolition de l'intÃ©rÃªt ou de la rente.
+Curieux de savoir par quelle Ã©trange contradiction votre logique,
+toujours si vive et si sÃ»re,
+reculait devant cette conclusion dÃ©finitive,
+j'interrogeai votre pamphlet intitulÃ©:
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),
-et je m'aperçus, avec une surprise mêlée de joie,
-qu'il n'y avait plus entre vous et nous que l'épaisseur d'une simple équivoque.
+et je m'aperÃ§us, avec une surprise mÃªlÃ©e de joie,
+qu'il n'y avait plus entre vous et nous que l'Ã©paisseur d'une simple Ã©quivoque.
 ][
-,(--) Cette équivoque porte tout entière
+,(--) Cette Ã©quivoque porte tout entiÃ¨re
 sur la confusion de deux choses cependant bien distinctes,
-l',(emph[usage]) et la ,(emph[propriété]). ,(XXX)
+l',(emph[usage]) et la ,(emph[propriÃ©tÃ©]). ,(XXX)
 ][
-Comme nous, vous partez de ce principe fondamental et incontesté:
-réciprocité, mutualité, équivalence des services.
-Seulement, en confondant l'usage et la propriété,
+Comme nous, vous partez de ce principe fondamental et incontestÃ©:
+rÃ©ciprocitÃ©, mutualitÃ©, Ã©quivalence des services.
+Seulement, en confondant l'usage et la propriÃ©tÃ©,
 et en identifiant ces deux ordres
-de nature diverse et sans équivalence possible,
-vous détruisez toute mutualité, toute réciprocité, toute équivalence véritable,
-renversant ainsi, de vos propres mains, le principe que vous avez posé.
+de nature diverse et sans Ã©quivalence possible,
+vous dÃ©truisez toute mutualitÃ©, toute rÃ©ciprocitÃ©, toute Ã©quivalence vÃ©ritable,
+renversant ainsi, de vos propres mains, le principe que vous avez posÃ©.
 ][
-C'est ce principe qui vient se réclamer de vous-même contre vous-même.
-Comment récuseriez-vous,
+C'est ce principe qui vient se rÃ©clamer de vous-mÃªme contre vous-mÃªme.
+Comment rÃ©cuseriez-vous,
 en faveur de l'abolition de la rente,
-ce juge que vous avez invoqué contre elle?
+ce juge que vous avez invoquÃ© contre elle?
 ][
 Vous ne nous accuserez pas, Monsieur, de manquer de courtoisie.
-Nous, les premiers attaqués,
+Nous, les premiers attaquÃ©s,
 nous vous laissons le choix du lieu, de l'heure et des armes,
-et, sans nous plaindre des désavantages du terrain,
-nous acceptons la discussion dans les termes où vous l'avez posée.
-Bien plus, nous contentant de suivre un à un tous les exemples,
-toutes les démonstrations de votre écrit
+et, sans nous plaindre des dÃ©savantages du terrain,
+nous acceptons la discussion dans les termes oÃ¹ vous l'avez posÃ©e.
+Bien plus, nous contentant de suivre un Ã  un tous les exemples,
+toutes les dÃ©monstrations de votre Ã©crit
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),
 nous ne ferons que rectifier le malentendu,
-la malheureuse équivoque qui seule vous a empêché de conclure contre la rente.
-Les clauses de ce débat vous semblent-elles, ou non, loyales?
+la malheureuse Ã©quivoque qui seule vous a empÃªchÃ© de conclure contre la rente.
+Les clauses de ce dÃ©bat vous semblent-elles, ou non, loyales?
 ][
-Entrons donc en matière.
+Entrons donc en matiÃ¨re.
 ][
-Paul échange avec Pierre dix pièces de 50 centimes contre 100 sous:
-voilà le troc pour troc, l'échange de propriété contre propriété.
+Paul Ã©change avec Pierre dix piÃ¨ces de 50 centimes contre 100 sous:
+voilÃ  le troc pour troc, l'Ã©change de propriÃ©tÃ© contre propriÃ©tÃ©.
 ,(--) Mais Pierre dit Paul:
-,(q[Tu me donneras les dix pièces de 10 sous actuellement,
-et moi je te donnerai la pièce de 100 sous dans un an.])
-Voilà ,(q[un service nouveau et d'une autre espèce que Pierre demande à Paul.])
+,(q[Tu me donneras les dix piÃ¨ces de 10 sous actuellement,
+et moi je te donnerai la piÃ¨ce de 100 sous dans un an.])
+VoilÃ  ,(q[un service nouveau et d'une autre espÃ¨ce que Pierre demande Ã  Paul.])
 ][
 ,(--) Mais quelle est la nature de ce service?
-Pierre demande-t-il à Paul de lui céder la propriété
+Pierre demande-t-il Ã  Paul de lui cÃ©der la propriÃ©tÃ©
 d'une nouvelle somme quelle qu'elle soit?
 non,
 ,(XXX :EO :sic)
 mais simplement de lui laisser l',(emph[usage]) de celle-ci pendant un an.
-Or, puisque tout service doit être payé par un service équivalent,
-un service d',(emph[usage]) doit donc être échangé
+Or, puisque tout service doit Ãªtre payÃ© par un service Ã©quivalent,
+un service d',(emph[usage]) doit donc Ãªtre Ã©changÃ©
 contre un service d',(emph[usage]):
 rien de moins,
 rien de plus.
-,(--) Pierre dira à Paul:
-Tu me donnes l',(emph[usage]) de dix pièces de 10 sous pendant un an,
-je te devrai donc en retour le même service,
-c'est-à-dire l',(emph[usage]) de dix pièces de 10 sous pendant un an aussi.
+,(--) Pierre dira Ã  Paul:
+Tu me donnes l',(emph[usage]) de dix piÃ¨ces de 10 sous pendant un an,
+je te devrai donc en retour le mÃªme service,
+c'est-Ã -dire l',(emph[usage]) de dix piÃ¨ces de 10 sous pendant un an aussi.
 Est-ce juste, oui ou non?
 ][
-Un homme échange un navire contre une maison:
-voilà le troc pour troc,
-l'échange de propriété contre propriété.
+Un homme Ã©change un navire contre une maison:
+voilÃ  le troc pour troc,
+l'Ã©change de propriÃ©tÃ© contre propriÃ©tÃ©.
 ,(--) Mais l'armateur veut,
 en outre,
 avoir l'usage de la maison pendant un an,
 avant de livrer son navire.
-Le propriétaire lui dit:
+Le propriÃ©taire lui dit:
 ,(q[C'est un service nouveau que vous me demandez,
 j'ai droit de vous refuser ou de vous demander en compensation
-un service équivalent.])
-,(--) Evidemment, répond l'armateur,
-vous me donnez, une année durant,
+un service Ã©quivalent.])
+,(--) Evidemment, rÃ©pond l'armateur,
+vous me donnez, une annÃ©e durant,
 l',(emph[usage]) d'une valeur de 20,000 fr.,
-je suppose, je vous devrais donc en échange
-l',(emph[usage]) d'une égale valeur de 20,000.
+je suppose, je vous devrais donc en Ã©change
+l',(emph[usage]) d'une Ã©gale valeur de 20,000.
 Rien de plus juste.
-Mais comme je paie votre propriété par celle de mon navire,
-ce n'est pas une propriété nouvelle,
-mais un simple ,(emph[usage]) que vous me concédez,
-je ne dois donc vous concéder aussi que l',(emph[usage]) d'une même valeur,
-et pour un temps égal.
-,(q[Les services échangés se valent.])
+Mais comme je paie votre propriÃ©tÃ© par celle de mon navire,
+ce n'est pas une propriÃ©tÃ© nouvelle,
+mais un simple ,(emph[usage]) que vous me concÃ©dez,
+je ne dois donc vous concÃ©der aussi que l',(emph[usage]) d'une mÃªme valeur,
+et pour un temps Ã©gal.
+,(q[Les services Ã©changÃ©s se valent.])
 Exiger plus serait un vol.
 ][
-Mathurin prête un sac de blé
-,(q[à Jérôme qui promet de rendre, au bout de l'an,
-un sac de blé de même qualité, de même poids,
+Mathurin prÃªte un sac de blÃ©
+,(q[Ã  JÃ©rÃ´me qui promet de rendre, au bout de l'an,
+un sac de blÃ© de mÃªme qualitÃ©, de mÃªme poids,
 sans qu'il en manque un seul grain.])
 ,(--) Mathurin voudrait, en outre,
-cinq litres de blé en sus de l'hectolitre,
-pour le service qu'il rend à Jérôme.
+cinq litres de blÃ© en sus de l'hectolitre,
+pour le service qu'il rend Ã  JÃ©rÃ´me.
 ,(--) Non, reprend celui-ci,
 ce serait une injustice et une spoliation,
-tu ne me donnes la propriété de rien,
+tu ne me donnes la propriÃ©tÃ© de rien,
 car, au bout de l'an,
 je dois te remettre la valeur exacte de ce que tu me livres aujourd'hui.
-Ce que tu me concèdes,
-c'est l',(emph[usage]) pendant un an de ton sac de blé,
-tu as donc droit à l',(emph[usage]) de la même valeur pendant une année aussi.
-Rien au-delà; sinon il n'y aurait plus
-mutualité, réciprocité, équivalence des services.
+Ce que tu me concÃ¨des,
+c'est l',(emph[usage]) pendant un an de ton sac de blÃ©,
+tu as donc droit Ã  l',(emph[usage]) de la mÃªme valeur pendant une annÃ©e aussi.
+Rien au-delÃ ; sinon il n'y aurait plus
+mutualitÃ©, rÃ©ciprocitÃ©, Ã©quivalence des services.
 ][
-De son côté, Mathurin, qui est quelque peu clerc, fait ce raisonnement:
-,(q[Ce que m'objecte Jérôme est incontestable;
+De son cÃ´tÃ©, Mathurin, qui est quelque peu clerc, fait ce raisonnement:
+,(q[Ce que m'objecte JÃ©rÃ´me est incontestable;
 et, en effet, si au bout de l'an,
-il me rentre cinq litres de blé en sus des cent litres que je viens de prêter,
-et que dans quelques temps je puisse prêter
-deux sacs de blé, puis trois, puis quatre,
-lorsque j'en aurai placé un assez grand nombre
-pour vivre sur la somme de ces rétributions,])
+il me rentre cinq litres de blÃ© en sus des cent litres que je viens de prÃªter,
+et que dans quelques temps je puisse prÃªter
+deux sacs de blÃ©, puis trois, puis quatre,
+lorsque j'en aurai placÃ© un assez grand nombre
+pour vivre sur la somme de ces rÃ©tributions,])
 je pourrai manger en ne faisant rien,
-et sans jamais dépenser mon avoir.
+et sans jamais dÃ©penser mon avoir.
 Or, ce que je mangerai, ce sera pourtant quelqu'un qui l'aura produit.
-Ce quelqu'un n'étant pas moi, mais autrui,
-je vivrai donc aux dépens d'autrui,
+Ce quelqu'un n'Ã©tant pas moi, mais autrui,
+je vivrai donc aux dÃ©pens d'autrui,
 ce qui est un vol.
 Et cela se comprend,
 car le service que j'aurai rendu n'est
-qu'un ,(emph[prêt]) ou l',(emph[usage]) d'une valeur,
-tandis que le service qu'on m'aurait remis en échange
-serait un ,(emph[don]) ou la ,(emph[propriété]) d'une chose.
-Il n'y a donc justice, égalité, équivalence de services
-que dans le sens où l'entend Jérôme.
+qu'un ,(emph[prÃªt]) ou l',(emph[usage]) d'une valeur,
+tandis que le service qu'on m'aurait remis en Ã©change
+serait un ,(emph[don]) ou la ,(emph[propriÃ©tÃ©]) d'une chose.
+Il n'y a donc justice, Ã©galitÃ©, Ã©quivalence de services
+que dans le sens oÃ¹ l'entend JÃ©rÃ´me.
 ][
-Valère veut occuper, un an durant, la maison de Mondor.
-,(q[Il sera tenu de se soumettre à trois conditions.
-La première, de déguerpir au bout de l'an,
-et de rendre la maison en bon état,
-sauf les dégradations inévitables qui résultent de la seule durée.
-La seconde, de rembourser à Mondor les 300 francs
-que celui-ci paie annuellement à l'architecte
-pour réparer les outrages du temps;
-car ces outrages survenant pendant que la maison est au service de Valère,
-il est de toute justice qu'il en supporte les conséquences.
-La troisième c'est de rendre à Mondor
-un service équivalent à celui qu'il en reçoit.])
+ValÃ¨re veut occuper, un an durant, la maison de Mondor.
+,(q[Il sera tenu de se soumettre Ã  trois conditions.
+La premiÃ¨re, de dÃ©guerpir au bout de l'an,
+et de rendre la maison en bon Ã©tat,
+sauf les dÃ©gradations inÃ©vitables qui rÃ©sultent de la seule durÃ©e.
+La seconde, de rembourser Ã  Mondor les 300 francs
+que celui-ci paie annuellement Ã  l'architecte
+pour rÃ©parer les outrages du temps;
+car ces outrages survenant pendant que la maison est au service de ValÃ¨re,
+il est de toute justice qu'il en supporte les consÃ©quences.
+La troisiÃ¨me c'est de rendre Ã  Mondor
+un service Ã©quivalent Ã  celui qu'il en reÃ§oit.])
 Or, ce service est l',(emph[usage]) d'une maison pendant un an.
-Valère devra donc à Mondor l',(emph[usage])
-de la même valeur pendant le même laps de temps.
-Cette valeur devra être librement débattue entre les deux contractants.
+ValÃ¨re devra donc Ã  Mondor l',(emph[usage])
+de la mÃªme valeur pendant le mÃªme laps de temps.
+Cette valeur devra Ãªtre librement dÃ©battue entre les deux contractants.
 ][
 Jacques vient d'achever la confection d'un rabot.
-Guillaume dit à Jacques:
+Guillaume dit Ã  Jacques:
 ,(--) Il faut que tu me rendes un service.
 ,(--) Lequel?
-,(--) Prête-moi ce rabot pour un an.
+,(--) PrÃªte-moi ce rabot pour un an.
 ,(--) Y penses-tu, Guillaume!
 Et, si je te rends ce service,
-quel service me rendras-tu de ton côté?
-,(--) Le même, bien entendu;
-et si tu me ,(emph[prêtes]) une valeur de 20 francs pour un an,
-je devrai te ,(emph[prêter]), à mon tour,
-la même valeur pendant une égale durée.
+quel service me rendras-tu de ton cÃ´tÃ©?
+,(--) Le mÃªme, bien entendu;
+et si tu me ,(emph[prÃªtes]) une valeur de 20 francs pour un an,
+je devrai te ,(emph[prÃªter]), Ã  mon tour,
+la mÃªme valeur pendant une Ã©gale durÃ©e.
 ,(--) D'abord, dans un an,
 il faudra mettre le rabot au rebut:
-il ne sera plus bon à rien.
+il ne sera plus bon Ã  rien.
 Il est donc juste que tu m'en rendes un autre exactement semblable,
-ou que tu me donnes assez d'argent pour le faire réparer,
-ou que tu me remplaces les deux journées que je devrai consacrer à le refaire.
-De manière ou d'autre,
-il faut que le rabot me revienne en bon état, comme je te le livre.
-,(--) C'est trop juste, je me soumets à cette condition;
-je m'engage à te rendre, ou un rabot semblable, ou la valeur. ,(XXX)
-,(--) Indépendamment de la restitution intégrale déjà stipulée,
-il faut que tu me rendes un service que nous allons débattre.
+ou que tu me donnes assez d'argent pour le faire rÃ©parer,
+ou que tu me remplaces les deux journÃ©es que je devrai consacrer Ã  le refaire.
+De maniÃ¨re ou d'autre,
+il faut que le rabot me revienne en bon Ã©tat, comme je te le livre.
+,(--) C'est trop juste, je me soumets Ã  cette condition;
+je m'engage Ã  te rendre, ou un rabot semblable, ou la valeur. ,(XXX)
+,(--) IndÃ©pendamment de la restitution intÃ©grale dÃ©jÃ  stipulÃ©e,
+il faut que tu me rendes un service que nous allons dÃ©battre.
 ,(--) Le service est bien simple.
-De même que pour ton rabot cédé,
+De mÃªme que pour ton rabot cÃ©dÃ©,
 je dois te rendre un rabot pareil,
-ou égale valeur en argent,
-de même pour l',(emph[usage]) de cette valeur pendant un an,
+ou Ã©gale valeur en argent,
+de mÃªme pour l',(emph[usage]) de cette valeur pendant un an,
 je te dois l',(emph[usage]) de pareille somme pendant un an aussi.
-Dans l'un comme dans l'autre cas ,(q[les services échangés se valent.])
+Dans l'un comme dans l'autre cas ,(q[les services Ã©changÃ©s se valent.])
 ][
-Cela posé, voici, ce me semble,
-une série de conséquences dont il est impossible de contester la justesse:
+Cela posÃ©, voici, ce me semble,
+une sÃ©rie de consÃ©quences dont il est impossible de contester la justesse:
 ][
-1° Si l'usage paie l'usage,
+1Â° Si l'usage paie l'usage,
 et si la cession purement temporaire par l'emprunteur
-de l',(emph[usage]) d'une valeur égale
-,(q[est une rétribution naturelle, équitable,
+de l',(emph[usage]) d'une valeur Ã©gale
+,(q[est une rÃ©tribution naturelle, Ã©quitable,
 juste prix d'un service d',(emph[usage]),
-nous pouvons en conclure, en généralisant,
-qu'il est ,(strong[contraire]) à la nature du capital de produire un intérêt.])
+nous pouvons en conclure, en gÃ©nÃ©ralisant,
+qu'il est ,(strong[contraire]) Ã  la nature du capital de produire un intÃ©rÃªt.])
 En effet, il est bien clair
-qu'après l'usage réciproque des deux services échangés,
-chaque propriétaire n'étant rentré
-que dans la valeur exacte de ce qu'il possédait auparavant,
-il n'y a intérêt ou productivité du capital ni pour l'un ni pour l'autre.
-Et il n'en saurait être autrement,
-puisque le prêteur ne pourrait tirer un intérêt de la valeur prêtée
-qu'autant que l'emprunteur ne tirerait lui-même
-aucun intérêt de la valeur rendue;
-qu'ainsi, l'intérêt du capital est la négation de lui-même
+qu'aprÃ¨s l'usage rÃ©ciproque des deux services Ã©changÃ©s,
+chaque propriÃ©taire n'Ã©tant rentrÃ©
+que dans la valeur exacte de ce qu'il possÃ©dait auparavant,
+il n'y a intÃ©rÃªt ou productivitÃ© du capital ni pour l'un ni pour l'autre.
+Et il n'en saurait Ãªtre autrement,
+puisque le prÃªteur ne pourrait tirer un intÃ©rÃªt de la valeur prÃªtÃ©e
+qu'autant que l'emprunteur ne tirerait lui-mÃªme
+aucun intÃ©rÃªt de la valeur rendue;
+qu'ainsi, l'intÃ©rÃªt du capital est la nÃ©gation de lui-mÃªme
 et qu'il n'existe pour Paul, Mathurin, Mondor et Jacques
-qu'à la condition d'être supprimé pour Pierre, Jérôme, Valère et Guillaume.
-Toutes choses étant, en réalité, instruments de production au même titre,
-les premiers ne peuvent prélever l'intérêt de la valeur prêtée
-qu'autant que les seconds prélèvent en retour
-l'intérêt de la valeur remise en échange,
-ce qui détruit l'intérêt du capital par lui-même
-et le réduit à un simple droit d'usage contre l'usage.
-Vouloir échanger l'usage contre la propriété, c'est dépouiller,
+qu'Ã  la condition d'Ãªtre supprimÃ© pour Pierre, JÃ©rÃ´me, ValÃ¨re et Guillaume.
+Toutes choses Ã©tant, en rÃ©alitÃ©, instruments de production au mÃªme titre,
+les premiers ne peuvent prÃ©lever l'intÃ©rÃªt de la valeur prÃªtÃ©e
+qu'autant que les seconds prÃ©lÃ¨vent en retour
+l'intÃ©rÃªt de la valeur remise en Ã©change,
+ce qui dÃ©truit l'intÃ©rÃªt du capital par lui-mÃªme
+et le rÃ©duit Ã  un simple droit d'usage contre l'usage.
+Vouloir Ã©changer l'usage contre la propriÃ©tÃ©, c'est dÃ©pouiller,
 spolier l'un au profit de l'autre,
-,(q[c'est légaliser, organiser, systématiser l'injustice elle-même.])
-Posons donc en fait que l'intérêt est illégitime, inique et spoliateur.
+,(q[c'est lÃ©galiser, organiser, systÃ©matiser l'injustice elle-mÃªme.])
+Posons donc en fait que l'intÃ©rÃªt est illÃ©gitime, inique et spoliateur.
 ][
-2° Une seconde conséquence, non moins remarquable que la première,
-c'est que l'intérêt nuit à l'emprunteur, au prêteur lui-même,
-et à la société tout entière.
-Il nuit à l'emprunteur et le spolie, car il est évident que
-si Pierre, Jérôme, Valère et Guillaume doivent rendre
-une valeur plus grande que celle qu'ils ont reçue,
-il n'y a pas équivalence de services,
+2Â° Une seconde consÃ©quence, non moins remarquable que la premiÃ¨re,
+c'est que l'intÃ©rÃªt nuit Ã  l'emprunteur, au prÃªteur lui-mÃªme,
+et Ã  la sociÃ©tÃ© tout entiÃ¨re.
+Il nuit Ã  l'emprunteur et le spolie, car il est Ã©vident que
+si Pierre, JÃ©rÃ´me, ValÃ¨re et Guillaume doivent rendre
+une valeur plus grande que celle qu'ils ont reÃ§ue,
+il n'y a pas Ã©quivalence de services,
 et que la valeur qu'ils rendent en plus
-étant produite par eux et prélevée par d'autres,
-ils sont spoliés d'autant.
-Il nuit au prêteur, parce que, quand celui-ci a recours à l'emprunt,
-il est victime de la même spoliation.
-Il nuit à l'un et à l'autre et à la société tout entière,
-parce que l'intérêt ou la rente,
-augmentant considérablement le prix de revient de tous les produits,
-chaque consommateur se trouve spolié d'autant sur tout ce qu'il achète;
+Ã©tant produite par eux et prÃ©levÃ©e par d'autres,
+ils sont spoliÃ©s d'autant.
+Il nuit au prÃªteur, parce que, quand celui-ci a recours Ã  l'emprunt,
+il est victime de la mÃªme spoliation.
+Il nuit Ã  l'un et Ã  l'autre et Ã  la sociÃ©tÃ© tout entiÃ¨re,
+parce que l'intÃ©rÃªt ou la rente,
+augmentant considÃ©rablement le prix de revient de tous les produits,
+chaque consommateur se trouve spoliÃ© d'autant sur tout ce qu'il achÃ¨te;
 que les travailleurs,
 ne pouvant plus racheter leurs produits au prix de leur salaire,
-sont forcés de réduire leur consommation;
-que cette réduction de consommation amène le chômage;
-que ce chômage entraîne une réduction nouvelle de consommation,
-et qu'il exige le don improductif de sommes énormes englouties
-par l'assistance publique ou privée,
-et la répression des crimes toujours croissants enfantés
-par le manque de travail et la misère.
-D'où une perturbation effroyable dans la loi de l'offre et de la demande,
-et dans tous les rapports d'économie sociale;
+sont forcÃ©s de rÃ©duire leur consommation;
+que cette rÃ©duction de consommation amÃ¨ne le chÃ´mage;
+que ce chÃ´mage entraÃ®ne une rÃ©duction nouvelle de consommation,
+et qu'il exige le don improductif de sommes Ã©normes englouties
+par l'assistance publique ou privÃ©e,
+et la rÃ©pression des crimes toujours croissants enfantÃ©s
+par le manque de travail et la misÃ¨re.
+D'oÃ¹ une perturbation effroyable dans la loi de l'offre et de la demande,
+et dans tous les rapports d'Ã©conomie sociale;
 un obstacle
 ,(XXX :EO [abstacle])
 infranchissable
-,(q[à la formation, à la multiplication, à l'abondance des capitaux;])
+,(q[Ã  la formation, Ã  la multiplication, Ã  l'abondance des capitaux;])
 l'autocratie absolue du capital,
 la servitude radicale des travailleurs,
 l'oppression partout,
-la liberté nulle part.
-Que la société
+la libertÃ© nulle part.
+Que la sociÃ©tÃ©
 ,(q[comprenne donc le dommage qu'elle s'inflige
-quand elle proclame la légitimité de l'intérêt.])
+quand elle proclame la lÃ©gitimitÃ© de l'intÃ©rÃªt.])
 ][
-3° Les anecdotes
+3Â° Les anecdotes
 ,(XXX :EO [anedoctes])
-que nous avons racontées mettent aussi sur la voie d'expliquer
-tout ce qu'a de monstrueux ce phénomène qu'on appelle
-la pérennité ou la perpétuité de l'intérêt.
-Dès qu'infidèles au principe de l'équivalence des services,
+que nous avons racontÃ©es mettent aussi sur la voie d'expliquer
+tout ce qu'a de monstrueux ce phÃ©nomÃ¨ne qu'on appelle
+la pÃ©rennitÃ© ou la perpÃ©tuitÃ© de l'intÃ©rÃªt.
+DÃ¨s qu'infidÃ¨les au principe de l'Ã©quivalence des services,
 Paul, Mathurin, Mondor et Jacques
-veulent échanger, non plus l'usage contre l'usage,
-mais l'usage contre la propriété,
+veulent Ã©changer, non plus l'usage contre l'usage,
+mais l'usage contre la propriÃ©tÃ©,
 il arrive qu'en quatorze ans environ,
-ils ont reçu la valeur de leur bien,
-en un siècle dix fois cette valeur,
-et que, le prêtant ainsi indéfiniment,
+ils ont reÃ§u la valeur de leur bien,
+en un siÃ¨cle dix fois cette valeur,
+et que, le prÃªtant ainsi indÃ©finiment,
 ils en recevront mille, cent mille, un million de fois la valeur,
-,(emph[sans jamais cesser d'en être propriétaires]).
+,(emph[sans jamais cesser d'en Ãªtre propriÃ©taires]).
 De sorte que le simple ,(emph[usage])
-du sac de blé, de la maison, du rabot,
-équivaudra à la ,(emph[propriété]),
+du sac de blÃ©, de la maison, du rabot,
+Ã©quivaudra Ã  la ,(emph[propriÃ©tÃ©]),
 non pas d'un, mais d'un million, d'un milliard, et ainsi de suite,
-de sacs de blé, de maisons, de rabots.
-C'est la faculté de vendre toujours de nouveau le même objet
+de sacs de blÃ©, de maisons, de rabots.
+C'est la facultÃ© de vendre toujours de nouveau le mÃªme objet
 et d'en recevoir toujours de nouveau le prix,
-sans jamais céder la propriété de ce qu'on vend.
-Les valeurs échangées sont-elles égales?
-Les services réciproques se valent-ils?
+sans jamais cÃ©der la propriÃ©tÃ© de ce qu'on vend.
+Les valeurs Ã©changÃ©es sont-elles Ã©gales?
+Les services rÃ©ciproques se valent-ils?
 Car remarquez bien ceci:
 les instruments de production sont un service
-pour les prêteurs comme pour les emprunteurs,
-et si Pierre, Jérôme, Valère et Guillaume
-ont reçu un service qui consiste
+pour les prÃªteurs comme pour les emprunteurs,
+et si Pierre, JÃ©rÃ´me, ValÃ¨re et Guillaume
+ont reÃ§u un service qui consiste
 dans l',(emph[usage])
-d'une pièce de cent sous, d'un sac de blé, d'une maison, d'un rabot,
-ils ont rendu, en échange, un service qui consiste
-dans la ,(emph[propriété]) d'un milliard
-de pièces de cent sous, de sacs de blé, de maisons, de rabots.
-Or, à moins de démontrer que l'usage de 5 francs
-égale la propriété de 5 milliards,
-il faut reconnaître que l'intérêt du capital est un vol.
+d'une piÃ¨ce de cent sous, d'un sac de blÃ©, d'une maison, d'un rabot,
+ils ont rendu, en Ã©change, un service qui consiste
+dans la ,(emph[propriÃ©tÃ©]) d'un milliard
+de piÃ¨ces de cent sous, de sacs de blÃ©, de maisons, de rabots.
+Or, Ã  moins de dÃ©montrer que l'usage de 5 francs
+Ã©gale la propriÃ©tÃ© de 5 milliards,
+il faut reconnaÃ®tre que l'intÃ©rÃªt du capital est un vol.
 ][
-Dès que, par l'intérêt ou la rente,
-un individu ou une succession d'individus peuvent échanger 5 francs,
-un sac de blé, une maison, un rabot
+DÃ¨s que, par l'intÃ©rÃªt ou la rente,
+un individu ou une succession d'individus peuvent Ã©changer 5 francs,
+un sac de blÃ©, une maison, un rabot
 contre un milliard et plus
-de pièces de 5 francs, de sacs de blé, de maisons, de rabots,
-il y a un homme dans le monde qui reçoit un milliard de plus qu'il n'a produit.
+de piÃ¨ces de 5 francs, de sacs de blÃ©, de maisons, de rabots,
+il y a un homme dans le monde qui reÃ§oit un milliard de plus qu'il n'a produit.
 ,(--) Or, ce milliard, c'est la subsistance de cent, de mille autres;
-et en supposant que le salaire qui reste à ces mille autres;
-et en supposant que le salaire qui reste à ces mille spoliés
-suffise encore à les nourrir,
-en travaillent jusqu'à leur dernière heure,
+et en supposant que le salaire qui reste Ã  ces mille autres;
+et en supposant que le salaire qui reste Ã  ces mille spoliÃ©s
+suffise encore Ã  les nourrir,
+en travaillent jusqu'Ã  leur derniÃ¨re heure,
 c'est le loisir de mille individus qu'un seul engloutit,
-c'est-à-dire leur vie morale et intellectuelle.
-,(--) Ces hommes auxquels on enlève ainsi, au profit d'un seul,
-toute vie de l'âme et de la pensée fussent peut-être devenus
-des Newtons, des Fénelons, des Pascals,
-réalisant de merveilleuses découvertes dans les sciences et dans les arts,
-et avançant d'un siècle les progrès de l'humanité.
+c'est-Ã -dire leur vie morale et intellectuelle.
+,(--) Ces hommes auxquels on enlÃ¨ve ainsi, au profit d'un seul,
+toute vie de l'Ã¢me et de la pensÃ©e fussent peut-Ãªtre devenus
+des Newtons, des FÃ©nelons, des Pascals,
+rÃ©alisant de merveilleuses dÃ©couvertes dans les sciences et dans les arts,
+et avanÃ§ant d'un siÃ¨cle les progrÃ¨s de l'humanitÃ©.
 ,(--) Mais non,
-,(q[grâce à la rente et à sa monstrueuse pérennité,])
-le loisir est interdit précisément à tous ceux qui travaillent
-du berceau jusqu'à la tombe,
-et devient le privilège exclusif des quelques oisifs
-qui, par intérêt du capital,
+,(q[grÃ¢ce Ã  la rente et Ã  sa monstrueuse pÃ©rennitÃ©,])
+le loisir est interdit prÃ©cisÃ©ment Ã  tous ceux qui travaillent
+du berceau jusqu'Ã  la tombe,
+et devient le privilÃ¨ge exclusif des quelques oisifs
+qui, par intÃ©rÃªt du capital,
 s'approprient sans rien faire, ,(XXX)
 le fruit du labeur accablant des travailleurs.
-,(--) La presque totalité de
-,(q[l'humanité est réduite à croupir
-dans la vie végétative et stationnaire, dans l'ignorance éternelle,])
+,(--) La presque totalitÃ© de
+,(q[l'humanitÃ© est rÃ©duite Ã  croupir
+dans la vie vÃ©gÃ©tative et stationnaire, dans l'ignorance Ã©ternelle,])
 par suite de cette spoliation de la rente,
-qui lui enlève la subsistance d'abord et le loisir ensuite.
+qui lui enlÃ¨ve la subsistance d'abord et le loisir ensuite.
 ,(--) Sans la rente, au contraire,
 personne ne recevant exactement que ce qu'il a produit,
 un nombre immense d'hommes,
-maintenant oisifs ou livrés à un travail improductif et souvent destructeur,
+maintenant oisifs ou livrÃ©s Ã  un travail improductif et souvent destructeur,
 seraient contraints de travailler, ,(XXX)
 ce qui augmenterait d'autant la somme
-de la richesse générale ou du loisir possible,
-et ce loisir appartiendrait toujours à ceux qui l'ont réellement acquis
-par leur propre travail ou par celui de leurs pères.
+de la richesse gÃ©nÃ©rale ou du loisir possible,
+et ce loisir appartiendrait toujours Ã  ceux qui l'ont rÃ©ellement acquis
+par leur propre travail ou par celui de leurs pÃ¨res.
 ][
 Mais, dit-on:
-,(q[Si le capital ne doit plus produire d'intérêt,
-qui voudra créer les instruments de travail,
-les matériaux et les provisions de toute espèce dont il se compose?
-Chacun les consommera à mesure,
-et l'humanité ne fera jamais un pas en avant.
-Le capital ne se formera plus puisqu'il n'y aura plus intérêt à le former.])
-Singulière équivoque en vérité!
-Est-ce que le laboureur n'a pas avantage à produire le plus possible,
-bien qu'il n'échange sa récolte au marché
-que contre une valeur égale une fois payée,
-sans aucune rente ou intérêt du capital?
-Est-ce que l'industriel n'a pas avantage à doubler et à tripler ses produits,
-bien qu'il ne les vende que pour une somme équivalente une seule fois donnée,
-sans aucun intérêt du capital?
-Est-ce que 100,000 francs écus cesseront de valoir 100,000 francs,
-parce qu'ils ne produisent plus d'intérêt?
+,(q[Si le capital ne doit plus produire d'intÃ©rÃªt,
+qui voudra crÃ©er les instruments de travail,
+les matÃ©riaux et les provisions de toute espÃ¨ce dont il se compose?
+Chacun les consommera Ã  mesure,
+et l'humanitÃ© ne fera jamais un pas en avant.
+Le capital ne se formera plus puisqu'il n'y aura plus intÃ©rÃªt Ã  le former.])
+SinguliÃ¨re Ã©quivoque en vÃ©ritÃ©!
+Est-ce que le laboureur n'a pas avantage Ã  produire le plus possible,
+bien qu'il n'Ã©change sa rÃ©colte au marchÃ©
+que contre une valeur Ã©gale une fois payÃ©e,
+sans aucune rente ou intÃ©rÃªt du capital?
+Est-ce que l'industriel n'a pas avantage Ã  doubler et Ã  tripler ses produits,
+bien qu'il ne les vende que pour une somme Ã©quivalente une seule fois donnÃ©e,
+sans aucun intÃ©rÃªt du capital?
+Est-ce que 100,000 francs Ã©cus cesseront de valoir 100,000 francs,
+parce qu'ils ne produisent plus d'intÃ©rÃªt?
 Est-ce que 500,000 francs en terres, en maisons, en machines ou autrement
-cesseront d'être 500,000 francs parce que l'on n'en tirera plus la rente?
+cesseront d'Ãªtre 500,000 francs parce que l'on n'en tirera plus la rente?
 En un mot, la richesse acquise,
-sous quelque forme et de quelque manière qu'elle le soit,
+sous quelque forme et de quelque maniÃ¨re qu'elle le soit,
 ne sera-t-elle plus une richesse
 parce que je ne pourrai m'en servir pour spolier autrui?
-,(--) Qui voudra créer la richesse?
-Mais tous ceux qui désireront être riches.
-,(--) Qui épargnera?
+,(--) Qui voudra crÃ©er la richesse?
+Mais tous ceux qui dÃ©sireront Ãªtre riches.
+,(--) Qui Ã©pargnera?
 Mais tous ceux qui voudront vivre le lendemain sur le travail de la veille.
-,(--) Quel intérêt y aura-t-il à former le capital?
-L'intérêt de posséder 10,000 francs quand on aura produit 10,000 francs,
-d'en posséder 100,000, quand on en aura produit 100,000,
+,(--) Quel intÃ©rÃªt y aura-t-il Ã  former le capital?
+L'intÃ©rÃªt de possÃ©der 10,000 francs quand on aura produit 10,000 francs,
+d'en possÃ©der 100,000, quand on en aura produit 100,000,
 et ainsi de suite.
 ][
 ,(q[La loi, dites-vous,
 nous ravira la perspective d'amasser un peu de bien,
 puisqu'elle nous interdira d'en tirer aucun parti.])
-Tout au contraire, la loi assurera à tous
+Tout au contraire, la loi assurera Ã  tous
 la perspective d'amasser autant de richesses qu'ils ont produit de travail,
-en interdisant à chacun de spolier son voisin du fruit de ses labeurs,
-et en voulant que les services échangés se vaillent:
-usage contre usage et propriété contre propriété.
-,(q[Elle détruira en nous, ajoutez-vous,
-et le stimulant de l'épargne dans le présent,
-et l'espérance du repos dans l'avenir.
-Nous aurons beau nous exténuer de fatigues,
-il faut renoncer à transmettre à nos fils et à nos filles un petit pécule,
-puisque la science moderne le frappe de stérilité,
-puisque nous deviendrons des exploiteurs d'hommes si nous prêtions à intérêt.])
-Tout au contraire, l'abolition de l'intérêt du capital
-ravive en vous le stimulant de l'épargne dans le présent
-et vous assure l'espérance du repos dans l'avenir,
-puisqu'elle vous empêche, vous, travailleurs,
-d'être dépouillés, par la rente,
+en interdisant Ã  chacun de spolier son voisin du fruit de ses labeurs,
+et en voulant que les services Ã©changÃ©s se vaillent:
+usage contre usage et propriÃ©tÃ© contre propriÃ©tÃ©.
+,(q[Elle dÃ©truira en nous, ajoutez-vous,
+et le stimulant de l'Ã©pargne dans le prÃ©sent,
+et l'espÃ©rance du repos dans l'avenir.
+Nous aurons beau nous extÃ©nuer de fatigues,
+il faut renoncer Ã  transmettre Ã  nos fils et Ã  nos filles un petit pÃ©cule,
+puisque la science moderne le frappe de stÃ©rilitÃ©,
+puisque nous deviendrons des exploiteurs d'hommes si nous prÃªtions Ã  intÃ©rÃªt.])
+Tout au contraire, l'abolition de l'intÃ©rÃªt du capital
+ravive en vous le stimulant de l'Ã©pargne dans le prÃ©sent
+et vous assure l'espÃ©rance du repos dans l'avenir,
+puisqu'elle vous empÃªche, vous, travailleurs,
+d'Ãªtre dÃ©pouillÃ©s, par la rente,
 de la plus grande part du fruit de votre travail,
-et qu'en vous obligeant à ne pouvoir dépenser
-que la somme exacte de ce que vous avez gagné,
-elle rend l'épargne plus indispensable encore à tous,
+et qu'en vous obligeant Ã  ne pouvoir dÃ©penser
+que la somme exacte de ce que vous avez gagnÃ©,
+elle rend l'Ã©pargne plus indispensable encore Ã  tous,
 riches ou pauvres.
-Non seulement vous pourrez transmettre à vos fils et à vos filles
-un petit pécule, sans devenir exploiteurs d'hommes,
-mais ce pécule, vous l'obtiendrez avec bien moins de fatigues qu'aujourd'hui;
-car, si gagnant 10 fr. par jour et en dépensant 5,
-les 5 autres vous sont actuellement enlevés
-par toutes les formes de la rente et de l'intérêt du capital,
-vous n'avez, après quarante année des plus rudes travaux,
-pas une obole à laisser à vos enfants;
-tandis que, la rente abolie, vous aurez plus de 60,000 francs à leur léguer.
+Non seulement vous pourrez transmettre Ã  vos fils et Ã  vos filles
+un petit pÃ©cule, sans devenir exploiteurs d'hommes,
+mais ce pÃ©cule, vous l'obtiendrez avec bien moins de fatigues qu'aujourd'hui;
+car, si gagnant 10 fr. par jour et en dÃ©pensant 5,
+les 5 autres vous sont actuellement enlevÃ©s
+par toutes les formes de la rente et de l'intÃ©rÃªt du capital,
+vous n'avez, aprÃ¨s quarante annÃ©e des plus rudes travaux,
+pas une obole Ã  laisser Ã  vos enfants;
+tandis que, la rente abolie, vous aurez plus de 60,000 francs Ã  leur lÃ©guer.
 ][
-Tous les sophismes économiques,
-à l'endroit de l'intérêt du capital,
-tiennent uniquement à ce qu'on se borne toujours
-à prendre la question par un seul côté,
-au lieu de l'envisager sous ses deux faces réciproques.
-On démontre à merveille que la valeur prêtée est un service,
+Tous les sophismes Ã©conomiques,
+Ã  l'endroit de l'intÃ©rÃªt du capital,
+tiennent uniquement Ã  ce qu'on se borne toujours
+Ã  prendre la question par un seul cÃ´tÃ©,
+au lieu de l'envisager sous ses deux faces rÃ©ciproques.
+On dÃ©montre Ã  merveille que la valeur prÃªtÃ©e est un service,
 un moyen de travail et de production pour l'emprunteur;
-mais on oublie que la valeur rendue est également un service,
-un moyen de travail et de production au même titre pour le prêteur,
-et qu'ainsi l'usage du même service se balançant dans le même temps donné,
-l'intérêt du capital est une absurdité non moins qu'une spoliation.
-On énumère avec pompe les bénéfices d'une épargne qui,
-en se multipliant indéfiniment par la rente,
+mais on oublie que la valeur rendue est Ã©galement un service,
+un moyen de travail et de production au mÃªme titre pour le prÃªteur,
+et qu'ainsi l'usage du mÃªme service se balanÃ§ant dans le mÃªme temps donnÃ©,
+l'intÃ©rÃªt du capital est une absurditÃ© non moins qu'une spoliation.
+On Ã©numÃ¨re avec pompe les bÃ©nÃ©fices d'une Ã©pargne qui,
+en se multipliant indÃ©finiment par la rente,
 produit l'opulence scandaleuse de quelques oisifs;
-mais on oublie que ces bénéfices,
-prélevés par celui qui ne fait rien sur celui qui travaille,
-produisent la misère effroyable des masses,
-auxquelles ils enlèvent souvent la subsistance,
-toujours au moins l'épargne,
-le loisir et la possibilité de laisser quelque chose à leur fils.
-On proclame à grand frais la nécessité de la formation des capitaux,
-et l'on ne voit pas que l'intérêt restreint cette formation
+mais on oublie que ces bÃ©nÃ©fices,
+prÃ©levÃ©s par celui qui ne fait rien sur celui qui travaille,
+produisent la misÃ¨re effroyable des masses,
+auxquelles ils enlÃ¨vent souvent la subsistance,
+toujours au moins l'Ã©pargne,
+le loisir et la possibilitÃ© de laisser quelque chose Ã  leur fils.
+On proclame Ã  grand frais la nÃ©cessitÃ© de la formation des capitaux,
+et l'on ne voit pas que l'intÃ©rÃªt restreint cette formation
 en un nombre presque imperceptible de mains,
 tandis que l'abolition de la rente y appellerait tout le monde sans exception,
 et que les capitaux se multiplieraient
 dans une proportion d'autant plus grande
 que chacun devrait compenser par le chiffre de la valeur du fonds
-l'intérêt supprimé.
-,(q[Dire que l'intérêt s'anéantira,
-c'est donc dire qu'il y aura un motif de plus d'épargner, de se priver,
+l'intÃ©rÃªt supprimÃ©.
+,(q[Dire que l'intÃ©rÃªt s'anÃ©antira,
+c'est donc dire qu'il y aura un motif de plus d'Ã©pargner, de se priver,
 de former de nouveaux capitaux et de conserver les anciens,])
 puisque d'abord toute richesse acquise restera toujours une richesse;
 qu'ensuite chacun pouvant toujours s'enrichir
-en proportion exacte de son travail et de son épargne,
-nul ne sera conduit par l'opulence et la misère excessives
-à la dissipation et à l'imprévoyance;
-qu'enfin tous vivant, non plus sur l'intérêt, mais sur le fonds,
-il faudra nécessairement que l'importance du capital
+en proportion exacte de son travail et de son Ã©pargne,
+nul ne sera conduit par l'opulence et la misÃ¨re excessives
+Ã  la dissipation et Ã  l'imprÃ©voyance;
+qu'enfin tous vivant, non plus sur l'intÃ©rÃªt, mais sur le fonds,
+il faudra nÃ©cessairement que l'importance du capital
 compense le chiffre de la rente abolie.
 ][
-Tout le monde sait que le zéro,
-bien que n'ayant par lui-même aucune valeur intrinsèque et absolue,
+Tout le monde sait que le zÃ©ro,
+bien que n'ayant par lui-mÃªme aucune valeur intrinsÃ¨que et absolue,
 a cependant une valeur de service et d'usage
-dans la numérisation ou la multiplication des valeurs,
-puisque chaque nombre s'accroît d'une dizaine,
-selon les zéros qui le suivent.
-Dire que le taux naturel et vrai de l'intérêt est zéro,
-c'est donc dire simplement que l'usage ne peut s'échanger
-que contre l'usage et jamais contre la propriété.
-De même qu'une paire de bas se paie sa valeur,
+dans la numÃ©risation ou la multiplication des valeurs,
+puisque chaque nombre s'accroÃ®t d'une dizaine,
+selon les zÃ©ros qui le suivent.
+Dire que le taux naturel et vrai de l'intÃ©rÃªt est zÃ©ro,
+c'est donc dire simplement que l'usage ne peut s'Ã©changer
+que contre l'usage et jamais contre la propriÃ©tÃ©.
+De mÃªme qu'une paire de bas se paie sa valeur,
 soit 2 fr., par exemple,
-de même l',(emph[usage]) d'une valeur
+de mÃªme l',(emph[usage]) d'une valeur
 ne doit se payer que par l',(emph[usage])
-pendant le même temps d'une valeur égale.
-C'est là sans doute empêcher la spoliation de la propriété par la propriété,
-mais, à coup sûr, ce n'est pas la rente acéphale.
+pendant le mÃªme temps d'une valeur Ã©gale.
+C'est lÃ  sans doute empÃªcher la spoliation de la propriÃ©tÃ© par la propriÃ©tÃ©,
+mais, Ã  coup sÃ»r, ce n'est pas la rente acÃ©phale.
 ][
-Vous voulez l'épargne qui constitue la formation des capitaux.
-Supprimez donc la rente qui enlève l'épargne des travailleurs,
-rend l'épargne superflue au riche
-qui retrouve toujours dans le revenu la richesse qu'il dépense toujours,
-et impossible au pauvre dont le salaire ne dépasse jamais,
-s'il les égale,
+Vous voulez l'Ã©pargne qui constitue la formation des capitaux.
+Supprimez donc la rente qui enlÃ¨ve l'Ã©pargne des travailleurs,
+rend l'Ã©pargne superflue au riche
+qui retrouve toujours dans le revenu la richesse qu'il dÃ©pense toujours,
+et impossible au pauvre dont le salaire ne dÃ©passe jamais,
+s'il les Ã©gale,
 les besoins de sa subsistance.
 Vous voulez l'abondance des capitaux.
-Supprimez donc la rente qui empêche
-les quatre-ving-dix-neuf centièmes des travailleurs
+Supprimez donc la rente qui empÃªche
+les quatre-ving-dix-neuf centiÃ¨mes des travailleurs
 de ,(XXX :sic [pas de ,(q[ne])])
-pouvoir jamais acquérir et conserver le capital ou la richesse.
+pouvoir jamais acquÃ©rir et conserver le capital ou la richesse.
 Vous voulez la conciliation du capital et du travail.
-Supprimez donc la rente qui éternise l'antagonisme de ces deux choses,
-en détruisant l'équivalence et la réciprocité des services,
+Supprimez donc la rente qui Ã©ternise l'antagonisme de ces deux choses,
+en dÃ©truisant l'Ã©quivalence et la rÃ©ciprocitÃ© des services,
 et en amenant une exploitation du travail par le capital
-telle, qu'en un temps donnée,
+telle, qu'en un temps donnÃ©e,
 le premier paie au second 5 milliards
-pour l'usage d'une seule pièce de cent sous,
-comme nous l'avons montré plus haut.
+pour l'usage d'une seule piÃ¨ce de cent sous,
+comme nous l'avons montrÃ© plus haut.
 Vous voulez l'harmonie des classes.
 Supprimez donc la rente,
-afin que, les services s'échangeant sans cesse
-contre des services égaux et de même nature,
+afin que, les services s'Ã©changeant sans cesse
+contre des services Ã©gaux et de mÃªme nature,
 chacun reste toujours possesseur de la somme exacte de son travail,
-et qu'ainsi il ne puisse plus y avoir ni exploitants ni exploités,
-ni maîtres ni esclaves.
+et qu'ainsi il ne puisse plus y avoir ni exploitants ni exploitÃ©s,
+ni maÃ®tres ni esclaves.
 ][
-Alors la sécurité sera partout,
+Alors la sÃ©curitÃ© sera partout,
 parce que l'injustice ne sera nulle part.
 Alors les travailleurs seront les premiers
-à se porter les gardiens naturels de cette société,
-dont ils ne conspirent aujourd'hui la ruine que parce qu'elle réalise la leur.
+Ã  se porter les gardiens naturels de cette sociÃ©tÃ©,
+dont ils ne conspirent aujourd'hui la ruine que parce qu'elle rÃ©alise la leur.
 Alors on ne parlera plus d'organisation artificielle du travail,
 parce qu'on aura l'organisation naturelle et vraie.
 Alors on repoussera les arrangements de la contrainte,
-parce qu'on possédera ceux de la liberté.
-Alors tomberont, comme d'elles-mêmes,
+parce qu'on possÃ©dera ceux de la libertÃ©.
+Alors tomberont, comme d'elles-mÃªmes,
 ,(q[les jalousies de classe, les malveillances, les haines sans fondement,
-les défiances injustes;])
-car la parfaite égalité de l'échange,
-l'incontestable équivalence des services
-,(q[sera susceptible d'être rigoureusement, mathématiquement démontrée,])
+les dÃ©fiances injustes;])
+car la parfaite Ã©galitÃ© de l'Ã©change,
+l'incontestable Ã©quivalence des services
+,(q[sera susceptible d'Ãªtre rigoureusement, mathÃ©matiquement dÃ©montrÃ©e,])
 et la justice absolue qu'elle consacrera
 ,(q[n'en sera pas moins sublime,
 parce qu'elle satisfera autant l'intelligence que le sentiment.])
 ][
 Vous le voyez, Monsieur,
-j'ai suivi pas à pas, et je pourrais dire lettre à lettre,
-chacun des exemples, chacune des démonstrations contenues dans votre écrit
+j'ai suivi pas Ã  pas, et je pourrais dire lettre Ã  lettre,
+chacun des exemples, chacune des dÃ©monstrations contenues dans votre Ã©crit
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])),
-et il m'a suffi de rétablir la distinction entre l'usage et la propriété,
-et d'éviter ainsi l'équivoque qui nous sépare,
-pour conclure de vos propres pensées et de vos propres paroles
-à l'abolition de la rente.
+et il m'a suffi de rÃ©tablir la distinction entre l'usage et la propriÃ©tÃ©,
+et d'Ã©viter ainsi l'Ã©quivoque qui nous sÃ©pare,
+pour conclure de vos propres pensÃ©es et de vos propres paroles
+Ã  l'abolition de la rente.
 Ce n'est pas ma lettre,
-c'est votre ouvrage lui-même
-qui contient cette conclusion depuis la première ligne jusqu'à la dernière.
+c'est votre ouvrage lui-mÃªme
+qui contient cette conclusion depuis la premiÃ¨re ligne jusqu'Ã  la derniÃ¨re.
 Aussi n'ai-je fait que le reproduire,
-souvent littéralement et en n'en changeant
-que les termes qui ont donné lieu à cette malheureuse équivoque.
-Cette réfutation n'est pas de moi, mais de vous.
-Comment donc pourriez-vous récuser votre propre témoignage?
+souvent littÃ©ralement et en n'en changeant
+que les termes qui ont donnÃ© lieu Ã  cette malheureuse Ã©quivoque.
+Cette rÃ©futation n'est pas de moi, mais de vous.
+Comment donc pourriez-vous rÃ©cuser votre propre tÃ©moignage?
 ][
-C'est le principe même de la rente que vous avez voulu justifier.
-Là se bornait votre tâche.
+C'est le principe mÃªme de la rente que vous avez voulu justifier.
+LÃ  se bornait votre tÃ¢che.
 ][
-C'est le principe même de l'abolition de la rente que j'ai, ce me semble,
-mathématiquement démontré par vos propres aphorismes.
-Là doit se borner aussi mon ,(oe)uvre.
+C'est le principe mÃªme de l'abolition de la rente que j'ai, ce me semble,
+mathÃ©matiquement dÃ©montrÃ© par vos propres aphorismes.
+LÃ  doit se borner aussi mon ,(oe)uvre.
 ][
-Je me suis arrêté où vous avez jugé nécessaire de nous arrêter vous-même.
+Je me suis arrÃªtÃ© oÃ¹ vous avez jugÃ© nÃ©cessaire de nous arrÃªter vous-mÃªme.
 ][
-La question de principe une fois vidée,
+La question de principe une fois vidÃ©e,
 s'il arrivait, ce que Dieu veuille,
-que vous reconnaissiez en droit l'injustice et l'illégitimité de l'intérêt,
-il resterait sans doute à traiter la question d'application.
+que vous reconnaissiez en droit l'injustice et l'illÃ©gitimitÃ© de l'intÃ©rÃªt,
+il resterait sans doute Ã  traiter la question d'application.
 ][
-Je ne veux point la préjuger ici,
-puisqu'elle sort évidemment du cercle que vous-même avez tracé.
-Cependant, quelques mots seront utiles peut-être pour démontrer,
-non pas seulement la possibilité, mais la facilité pratique
-de réaliser l'abolition de la rente par la liberté seule,
-et même avant que la loi la sanctionne.
-Au fond, tout le problème se réduit à ceci:
-Donner aux travailleurs le moyen d'acquérir,
-soit par à-compte,
-soit de toute autre manière,
-la ,(emph[propriété]) de toutes les choses
-dont l'intérêt, le louage, fermage ou loyer
-leur fait éternellement payer la valeur
+Je ne veux point la prÃ©juger ici,
+puisqu'elle sort Ã©videmment du cercle que vous-mÃªme avez tracÃ©.
+Cependant, quelques mots seront utiles peut-Ãªtre pour dÃ©montrer,
+non pas seulement la possibilitÃ©, mais la facilitÃ© pratique
+de rÃ©aliser l'abolition de la rente par la libertÃ© seule,
+et mÃªme avant que la loi la sanctionne.
+Au fond, tout le problÃ¨me se rÃ©duit Ã  ceci:
+Donner aux travailleurs le moyen d'acquÃ©rir,
+soit par Ã -compte,
+soit de toute autre maniÃ¨re,
+la ,(emph[propriÃ©tÃ©]) de toutes les choses
+dont l'intÃ©rÃªt, le louage, fermage ou loyer
+leur fait Ã©ternellement payer la valeur
 pour n'en avoir que le simple ,(emph[usage]).
 Or, ce moyen est possible.
 ][
 En effet, supposez,
 ,(--) et ce fait n'est plus une supposition,
-mais une ,(oe)uvre maintenant en plein cours d'exécution:
-,(--) supposez qu'une sorte de banque privée se forme
-afin d'émettre des billets
-que les associations ouvrières de toutes les professions indispensables
-s'engagent à recevoir pour le montant d'un cinquième, par exemple,
+mais une ,(oe)uvre maintenant en plein cours d'exÃ©cution:
+,(--) supposez qu'une sorte de banque privÃ©e se forme
+afin d'Ã©mettre des billets
+que les associations ouvriÃ¨res de toutes les professions indispensables
+s'engagent Ã  recevoir pour le montant d'un cinquiÃ¨me, par exemple,
 de tous les achats qui leur seront faits.
-Supposez que ces billets, échangés contre de l'argent
-par tous les hommes qui veulent l'abolition de l'intérêt,
-et qui en trouvent l'écoulement immédiat dans les associations,
-produisent une somme nécessaire pour construire des maisons
-où la rente sera abolie,
-et où le prix de loyer donnera toujours droit
-à une valeur égale sur le montant de la propriété elle-même
+Supposez que ces billets, Ã©changÃ©s contre de l'argent
+par tous les hommes qui veulent l'abolition de l'intÃ©rÃªt,
+et qui en trouvent l'Ã©coulement immÃ©diat dans les associations,
+produisent une somme nÃ©cessaire pour construire des maisons
+oÃ¹ la rente sera abolie,
+et oÃ¹ le prix de loyer donnera toujours droit
+Ã  une valeur Ã©gale sur le montant de la propriÃ©tÃ© elle-mÃªme
 qu'on acquerra ainsi, en vingt-cinq ans, par le seul payement des termes.
 ][
-Supposez que l'opération se continue ainsi indéfiniment par l'émission,
+Supposez que l'opÃ©ration se continue ainsi indÃ©finiment par l'Ã©mission,
 soit des anciens, soit de nouveaux billets,
 et qu'elle embrasse, non-seulement
 ,(XXX :sic [tiret])
 les maisons,
 mais tous les instruments de production et les terres,
-où le prix de louage et de fermage rembourserait de la même manière
-la valeur de la propriété elle-même.
+oÃ¹ le prix de louage et de fermage rembourserait de la mÃªme maniÃ¨re
+la valeur de la propriÃ©tÃ© elle-mÃªme.
 Voici la rente abolie sous toutes ses formes,
 non-seulement ,(XXX :sic)
-pour les capitaux sur lesquels opère cette banque,
-et qui arriveront nécessairement à un chiffre colossal,
-mais bientôt pour tous les autres,
+pour les capitaux sur lesquels opÃ¨re cette banque,
+et qui arriveront nÃ©cessairement Ã  un chiffre colossal,
+mais bientÃ´t pour tous les autres,
 qui, par la loi inexorable de la concurrence,
-tomberont au même taux,
-c'est-à-dire au simple échange de valeurs égales contre valeurs égales,
-sans aucun intérêt ou rente de part ni d'autre.
+tomberont au mÃªme taux,
+c'est-Ã -dire au simple Ã©change de valeurs Ã©gales contre valeurs Ã©gales,
+sans aucun intÃ©rÃªt ou rente de part ni d'autre.
 ][
-J'élimine tous détails pour être bref,
-et je me contente de résumer en deux mots le principe sommaire de l'opération.
-Toutes les idées économiques vous sont trop familières, Monsieur,
-pour que vous ne saisissiez pas de suite le résultat de ce mécanisme,
+J'Ã©limine tous dÃ©tails pour Ãªtre bref,
+et je me contente de rÃ©sumer en deux mots le principe sommaire de l'opÃ©ration.
+Toutes les idÃ©es Ã©conomiques vous sont trop familiÃ¨res, Monsieur,
+pour que vous ne saisissiez pas de suite le rÃ©sultat de ce mÃ©canisme,
 d'ailleurs si simple.
 C'est assez pour que vous puissiez voir d'un regard comment il est possible,
-sinon même facile, de tuer la rente par l'abolition de la rente,
-l'intérêt du capital par la suppression de cet intérêt,
+sinon mÃªme facile, de tuer la rente par l'abolition de la rente,
+l'intÃ©rÃªt du capital par la suppression de cet intÃ©rÃªt,
 et d'amener librement, pacifiquement, sans secousse,
-le jour où le prêt, le louage, le fermage ou loyer
-ne seront plus qu'une des formes de l'échange
-dont ils constituent aujourd'hui une déviation monstrueuse,
-et où se réaliseront dans toute la plénitude de leur vérité
+le jour oÃ¹ le prÃªt, le louage, le fermage ou loyer
+ne seront plus qu'une des formes de l'Ã©change
+dont ils constituent aujourd'hui une dÃ©viation monstrueuse,
+et oÃ¹ se rÃ©aliseront dans toute la plÃ©nitude de leur vÃ©ritÃ©
 vos propres principes:
-mutualité, réciprocité, équivalence des services.
+mutualitÃ©, rÃ©ciprocitÃ©, Ã©quivalence des services.
 ][
-Le principe du moyen d'application posé,
-variez-en les formes, les éléments, les conditions, le mécanisme;
+Le principe du moyen d'application posÃ©,
+variez-en les formes, les Ã©lÃ©ments, les conditions, le mÃ©canisme;
 simplifiez, perfectionnez-en la base;
-étendez, universalisez-en l'action;
-substituez librement, partout, au signe monétaire,
-un signe d'échange qui ne puisse permettre l'intérêt;
-frappez dans toute circulation le capital du caractère d'improductivité;
+Ã©tendez, universalisez-en l'action;
+substituez librement, partout, au signe monÃ©taire,
+un signe d'Ã©change qui ne puisse permettre l'intÃ©rÃªt;
+frappez dans toute circulation le capital du caractÃ¨re d'improductivitÃ©;
 solidarisez volontairement le travail;
 en un mot, reproduisez cette combinaison
 de l'abolition de la rente sous tous les modes du possible:
-c'est là le domaine de la liberté.
+c'est lÃ  le domaine de la libertÃ©.
 Il suffit de montrer que le moyen pratique existe;
-laissez le génie de l'homme agir,
+laissez le gÃ©nie de l'homme agir,
 et vous verrez s'il ne sait pas s'en servir.
 ][
 Quoi qu'il en soit,
-et indépendamment de toute opinion sur les moyens pratiques,
-l'égalité, la justice n'en restent pas moins toujours ce qu'elles sont,
-la vérité n'en est pas moins la vérité,
-et l'intérêt du capital,
-illégitime en droit,
+et indÃ©pendamment de toute opinion sur les moyens pratiques,
+l'Ã©galitÃ©, la justice n'en restent pas moins toujours ce qu'elles sont,
+la vÃ©ritÃ© n'en est pas moins la vÃ©ritÃ©,
+et l'intÃ©rÃªt du capital,
+illÃ©gitime en droit,
 absurde et monstrueux en principe,
 spoliateur en fait,
-commande l'anathème de tous les hommes de bien,
-la malédiction des races opprimées,
+commande l'anathÃ¨me de tous les hommes de bien,
+la malÃ©diction des races opprimÃ©es,
 et la juste indignation
-de quiconque porte une âme généreuse et pleine de sympathie
+de quiconque porte une Ã¢me gÃ©nÃ©reuse et pleine de sympathie
 pour tout ce qui souffre et pleure.
-C'est à ce titre, Monsieur,
-que je le dénonce à vos coups,
-persuadé qu'après l'avoir envisagé de nouveau,
-et dans sa hideuse iniquité,
-vous ne trouverez point de plus noble tâche
+C'est Ã  ce titre, Monsieur,
+que je le dÃ©nonce Ã  vos coups,
+persuadÃ© qu'aprÃ¨s l'avoir envisagÃ© de nouveau,
+et dans sa hideuse iniquitÃ©,
+vous ne trouverez point de plus noble tÃ¢che
 que de consacrer votre talent si remarquable
-de verve, de lucidité, de pittoresque et d'incisif,
-à combattre ce fléau,
-source de toutes ces indescriptibles misères auxquelles le monde est en proie.
+de verve, de luciditÃ©, de pittoresque et d'incisif,
+Ã  combattre ce flÃ©au,
+source de toutes ces indescriptibles misÃ¨res auxquelles le monde est en proie.
 ][
-Permettez-moi dons de terminer cette trop longue épître
-par les paroles suivantes de votre écrit,
-qui sont comme la pierre d'attente et le préambule
-de cette grande ,(oe)uvre de réhabilitation
-à laquelle l'égalité, la justice et l'amour du peuple vous convient:
+Permettez-moi dons de terminer cette trop longue Ã©pÃ®tre
+par les paroles suivantes de votre Ã©crit,
+qui sont comme la pierre d'attente et le prÃ©ambule
+de cette grande ,(oe)uvre de rÃ©habilitation
+Ã  laquelle l'Ã©galitÃ©, la justice et l'amour du peuple vous convient:
 ][
-Voilà deux hommes.
+VoilÃ  deux hommes.
 L'un travaille soir et matin,
-d'un bout de l'année à l'autre,
-et s'il a consommé tout ce qu'il a gagné,
-fût-ce par force majeure,
+d'un bout de l'annÃ©e Ã  l'autre,
+et s'il a consommÃ© tout ce qu'il a gagnÃ©,
+fÃ»t-ce par force majeure,
 il reste pauvre.
 Quand vient la Saint Sylvestre,
-il ne se trouve pas plus avancé qu'au premier de l'an,
+il ne se trouve pas plus avancÃ© qu'au premier de l'an,
 et sa seule perspective est de recommencer.
 L'autre ne fait rien de ses bras ni de son intelligence,
 du moins, s'il s'en sert, c'est pour son plaisir;
@@ -707,67 +707,67 @@ car il a une rente.
 Il ne travaille pas;
 et cependant il vit bien,
 tout lui arrive en abondance,
-mets délicats, meubles somptueux, élégants équipages,
-c'est-à-dire qu'il détruit chaque jour
-des choses que les travailleurs ont dû produire à la sueur de leur front;
-car ces choses ne sont pas faites d'elles-mêmes,
-et, quant à lui, il n'y a pas mis les mains.
+mets dÃ©licats, meubles somptueux, Ã©lÃ©gants Ã©quipages,
+c'est-Ã -dire qu'il dÃ©truit chaque jour
+des choses que les travailleurs ont dÃ» produire Ã  la sueur de leur front;
+car ces choses ne sont pas faites d'elles-mÃªmes,
+et, quant Ã  lui, il n'y a pas mis les mains.
 C'est nous, travailleurs,
-qui avons fait germer ce blé, verni ces meubles, tissé ces tapis:
+qui avons fait germer ce blÃ©, verni ces meubles, tissÃ© ces tapis:
 ce sont nos femmes et nos filles qui ont
-filé, découpé, cousu, brodé ces étoffes.
+filÃ©, dÃ©coupÃ©, cousu, brodÃ© ces Ã©toffes.
 Nous travaillons donc pour lui et pour nous;
 pour lui d'abord, et pour nous s'il en reste.
 ][
 Mais voici quelque chose de plus fort:
 si le premier de ces deux hommes,
 le travailleur,
-consomme dans l'année ce qu'on lui a laissé de profit dans l'année,
-il en est toujours au point de départ,
-et sa destinée le condamne à tourner sans cesse
-dans un cercle éternel et monotone de fatigues.
-Le travail n'est donc rémunéré qu'une fois.
+consomme dans l'annÃ©e ce qu'on lui a laissÃ© de profit dans l'annÃ©e,
+il en est toujours au point de dÃ©part,
+et sa destinÃ©e le condamne Ã  tourner sans cesse
+dans un cercle Ã©ternel et monotone de fatigues.
+Le travail n'est donc rÃ©munÃ©rÃ© qu'une fois.
 Mais si le second,
 le rentier,
-consomme dans l'année sa rente de l'année,
-il a, l'année d'après, et les années suivantes, et pendant l'éternité entière,
-une rente toujours égale, intarissable, perpétuelle.
-Le capital est donc rémunéré non pas une fois ou deux fois,
-mais un nombre indéfini de fois!
+consomme dans l'annÃ©e sa rente de l'annÃ©e,
+il a, l'annÃ©e d'aprÃ¨s, et les annÃ©es suivantes, et pendant l'Ã©ternitÃ© entiÃ¨re,
+une rente toujours Ã©gale, intarissable, perpÃ©tuelle.
+Le capital est donc rÃ©munÃ©rÃ© non pas une fois ou deux fois,
+mais un nombre indÃ©fini de fois!
 En sorte qu'au bout de cent ans,
-la famille qui a placé 20,000 fr.
-à 5 pour 100 aura touché 100,000 fr.,
-ce qui ne l'empêchera pas d'en toucher encore 100,000 dans le siècle suivant.
+la famille qui a placÃ© 20,000 fr.
+Ã  5 pour 100 aura touchÃ© 100,000 fr.,
+ce qui ne l'empÃªchera pas d'en toucher encore 100,000 dans le siÃ¨cle suivant.
 En d'autres termes, pour 20,000 fr.
-qui représentent son travail,
-elle aura prélevé, en deux siècles, une valeur décuple
-,(XXX :EO [déculpe])
+qui reprÃ©sentent son travail,
+elle aura prÃ©levÃ©, en deux siÃ¨cles, une valeur dÃ©cuple
+,(XXX :EO [dÃ©culpe])
 sur le travail d'autrui.
 ][
-N'y a-t-il pas dans cet ordre social un vice monstrueux à réformer?
+N'y a-t-il pas dans cet ordre social un vice monstrueux Ã  rÃ©former?
 ][
 Ce n'est pas tout encore.
-S'il plaît à cette famille de restreindre quelque peu ses jouissances,
-de ne dépenser, par exemple, que 900 fr. au lieu de 1,000
+S'il plaÃ®t Ã  cette famille de restreindre quelque peu ses jouissances,
+de ne dÃ©penser, par exemple, que 900 fr. au lieu de 1,000
 ,(--) sans aucun travail,
 sans autre peine que celle de placer 100 francs par an,
-elle peut accroître son capital et sa rente dans un progression si rapide,
-qu'elle sera bientôt en mesure de consommer
+elle peut accroÃ®tre son capital et sa rente dans un progression si rapide,
+qu'elle sera bientÃ´t en mesure de consommer
 autant que cent familles d'ouvriers laborieux.
 ][
-Tout cela ne dénote-t-il pas que la société actuelle
+Tout cela ne dÃ©note-t-il pas que la sociÃ©tÃ© actuelle
 porte dans son sein un cancer hideux qu'il faut extirper,
-au risque de quelques souffrances passagères?
+au risque de quelques souffrances passagÃ¨res?
 ][
-C'est ce cancer hideux que vous nous aiderez, Monsieur, à extirper.
-Vous voulez pour l'échange la ,(emph[liberté]),
-veuillez donc aussi l',(strong[égalité]),
-afin que la ,(emph[fraternité]),
+C'est ce cancer hideux que vous nous aiderez, Monsieur, Ã  extirper.
+Vous voulez pour l'Ã©change la ,(emph[libertÃ©]),
+veuillez donc aussi l',(strong[Ã©galitÃ©]),
+afin que la ,(emph[fraternitÃ©]),
 en les couronnant toutes deux,
-amène sur le monde le règne de la justice,
+amÃ¨ne sur le monde le rÃ¨gne de la justice,
 de la paix et de la conciliation universelle.
 ])
-(tag :p :align 'right (strong[F. Chevé]))
+(tag :p :align 'right (strong[F. ChevÃ©]))
 (with-footer
 (p*[
 Extrait de l',(EO1863),
@@ -776,7 +776,7 @@ tome V,
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
 ][
-Numérisé par ,(GregB),
+NumÃ©risÃ© par ,(GregB),
 relu et mis en hypertexte par ,(FRR)
 pour ,(Bastiat.org).
 ])))

@@ -1,44 +1,44 @@
 ; -*- Scheme -*-
 ; $Id: abondance.scr,v 1.9 2004/09/24 09:32:01 fare Exp $
 (style 'bo-style)
-(in-bof :title "Abondance, par Frédéric Bastiat")
+(in-bof :title "Abondance, par FrÃ©dÃ©ric Bastiat")
 
 (document :title "Abondance"
 	:author (author-FB)
 (p*[
 C'est une vaste et noble science
 ,(footnote*[
-Article destiné au ,(cite-title[Dictionnaire de l'Économie politique]).
-Il fut écrit peu de jours avant le départ de l'auteur pour l'Italie,
-,(--) d'où il ne devait pas revenir!... ,(NdEEO)
+Article destinÃ© au ,(cite-title[Dictionnaire de l'Ã‰conomie politique]).
+Il fut Ã©crit peu de jours avant le dÃ©part de l'auteur pour l'Italie,
+,(--) d'oÃ¹ il ne devait pas revenir!... ,(NdEEO)
 ]),
-en tant qu'exposition, que l'économie politique.
+en tant qu'exposition, que l'Ã©conomie politique.
 ][
-Elle scrute les ressorts du mécanisme social
+Elle scrute les ressorts du mÃ©canisme social
 et les fonctions de chacun des organes
 qui constituent ces corps vivants et merveilleux,
-qu'on nomme des sociétés humaines.
-Elle étudie les lois générales
-selon lesquelles le genre humain est appelé à croître
-en nombre, en richesse, en intelligence, en moralité.
-Et néanmoins, reconnaissant un libre arbitre social
+qu'on nomme des sociÃ©tÃ©s humaines.
+Elle Ã©tudie les lois gÃ©nÃ©rales
+selon lesquelles le genre humain est appelÃ© Ã  croÃ®tre
+en nombre, en richesse, en intelligence, en moralitÃ©.
+Et nÃ©anmoins, reconnaissant un libre arbitre social
 comme un libre arbitre personnel,
 elle dit comment les lois providentielles
-peuvent être méconnues ou violées;
-quelle responsabilité terrible naît de ces expérimentations fatales,
+peuvent Ãªtre mÃ©connues ou violÃ©es;
+quelle responsabilitÃ© terrible naÃ®t de ces expÃ©rimentations fatales,
 et comment la civilisation peut se trouver ainsi
-arrêtée, retardée, refoulée et pour longtemps étouffée.
+arrÃªtÃ©e, retardÃ©e, refoulÃ©e et pour longtemps Ã©touffÃ©e.
 ][
 Qui le croirait?
-Cette science si vaste et si élevée, comme exposition,
-en est presque réduite, en tant que controverse, et dans sa partie polémique,
-à l'ingrate tâche de démontrer cette proposition,
-qui semble puérile à force d'être claire:
+Cette science si vaste et si Ã©levÃ©e, comme exposition,
+en est presque rÃ©duite, en tant que controverse, et dans sa partie polÃ©mique,
+Ã  l'ingrate tÃ¢che de dÃ©montrer cette proposition,
+qui semble puÃ©rile Ã  force d'Ãªtre claire:
 ,(q[L'abondance vaut mieux que la disette.])
 ][
-Car, qu'on y regarde de près, et l'on se convaincra
+Car, qu'on y regarde de prÃ¨s, et l'on se convaincra
 que la plupart des objections et des doutes
-qu'on oppose à l'économie politique
+qu'on oppose Ã  l'Ã©conomie politique
 impliquent ce principe:
 ,(q[La disette vaut mieux que l'abondance.])
 ][
@@ -46,322 +46,322 @@ C'est ce qu'expriment ces locutions si populaires:
 ][
 ,(q[La production surabonde.])
 ][
-,(q[Nous périssons de pléthore.])
+,(q[Nous pÃ©rissons de plÃ©thore.])
 ][
-,(q[Tous les marchés sont engorgés et toutes les carrières encombrées.])
+,(q[Tous les marchÃ©s sont engorgÃ©s et toutes les carriÃ¨res encombrÃ©es.])
 ][
-,(q[La faculté de consommer ne peut plus suivre la faculté de produire.])
+,(q[La facultÃ© de consommer ne peut plus suivre la facultÃ© de produire.])
 ][
-Voici un détracteur des machines.
-Il déplore que les miracles du génie de l'homme
-étendent indéfiniment sa puissance de produire.
+Voici un dÃ©tracteur des machines.
+Il dÃ©plore que les miracles du gÃ©nie de l'homme
+Ã©tendent indÃ©finiment sa puissance de produire.
 Que redoute-t-il?
 L'abondance.
 ][
 Voici un protectioniste.
-Il gémit de la libéralité de la nature envers d'autres climats.
-Il craint que la France n'y participe par l'échange
+Il gÃ©mit de la libÃ©ralitÃ© de la nature envers d'autres climats.
+Il craint que la France n'y participe par l'Ã©change
 et ne veut pas qu'elle soit libre,
-parce que, si elle l'était,
-elle ne manquerait pas d'attirer sur elle-même
-le fléau de l',(emph[invasion]) et de l',(emph[inondation])...
+parce que, si elle l'Ã©tait,
+elle ne manquerait pas d'attirer sur elle-mÃªme
+le flÃ©au de l',(emph[invasion]) et de l',(emph[inondation])...
 Que redoute-t-il? L'abondance.
 ][
-Voici un homme d'État.
+Voici un homme d'Ã‰tat.
 Il s'effraie de tous les moyens de satisfaction
 que le travail accumule dans le pays,
 et croyant apercevoir, dans les profondeurs de l'avenir,
-le fantôme d'un bien-être révolutionnaire et d'une égalité séditieuse,
-il imagine de lourds impôts, de vastes armées,
-des dissipations de produits sur une grande échelle,
+le fantÃ´me d'un bien-Ãªtre rÃ©volutionnaire et d'une Ã©galitÃ© sÃ©ditieuse,
+il imagine de lourds impÃ´ts, de vastes armÃ©es,
+des dissipations de produits sur une grande Ã©chelle,
 de grandes existences,
 une puissante aristocratie artificielle
-chargée de remédier, par son luxe et son faste,
-à l'insolent excès de fécondité de l'industrie humaine.
+chargÃ©e de remÃ©dier, par son luxe et son faste,
+Ã  l'insolent excÃ¨s de fÃ©conditÃ© de l'industrie humaine.
 Que redoute-t-il? L'abondance.
 ][
 Enfin, voici un logicien
-qui, dédaignant les voies tortueuses et allant droit au but,
-conseille de brûler périodiquement Paris,
+qui, dÃ©daignant les voies tortueuses et allant droit au but,
+conseille de brÃ»ler pÃ©riodiquement Paris,
 pour offrir au travail l'occasion et l'avantage de le reconstruire.
 Que redoute t-il?
 L'abondance.
 ][
-Comment de telles idées ont-elles pu se former,
-et, il faut bien le dire, prévaloir quelquefois,
+Comment de telles idÃ©es ont-elles pu se former,
+et, il faut bien le dire, prÃ©valoir quelquefois,
 non point sans-doute dans la pratique personnelle des hommes,
-mais dans leurs théories et leurs législations?
-Car s'il est une assertion qui semble porter sa preuve en elle-même,
+mais dans leurs thÃ©ories et leurs lÃ©gislations?
+Car s'il est une assertion qui semble porter sa preuve en elle-mÃªme,
 c'est bien celle-ci:
 ,(q[En fait de choses utiles, il vaut mieux avoir que manquer.])
-Et s'il est incontestable que l'abondance est un fléau,
+Et s'il est incontestable que l'abondance est un flÃ©au,
 quand elle porte sur des objets malfaisants, destructifs,
 importuns comme les sauterelles, les chenilles,
-la vermine, les vices, les miasmes délétères,
-il ne peut pas être moins vrai qu'elle est un bienfait,
+la vermine, les vices, les miasmes dÃ©lÃ©tÃ¨res,
+il ne peut pas Ãªtre moins vrai qu'elle est un bienfait,
 quand il s'agit de ces choses qui apaisent des besoins,
 procurent des satisfactions,
 ,(--) de ces objets que l'homme recherche,
 poursuit au prix de ses sueurs,
-qu'il consent à acheter par le travail ou par l'échange,
+qu'il consent Ã  acheter par le travail ou par l'Ã©change,
 qui ont de la valeur,
-tels que les aliments, les vêtements, les logements, les ,(oe)uvres d'art,
+tels que les aliments, les vÃªtements, les logements, les ,(oe)uvres d'art,
 les moyens de locomotion, de communication, d'instruction, de diversion,
-en un mot tout ce dont s'occupe l'économie politique.
+en un mot tout ce dont s'occupe l'Ã©conomie politique.
 ][
-Si l'on veut comparer la civilisation de deux peuples ou de deux siècles,
-est-ce qu'on ne demande pas à la statistique lequel des deux présente,
-proportionnellement à la population,
+Si l'on veut comparer la civilisation de deux peuples ou de deux siÃ¨cles,
+est-ce qu'on ne demande pas Ã  la statistique lequel des deux prÃ©sente,
+proportionnellement Ã  la population,
 plus de moyens d'existence,
 plus de productions agricoles,
 industrielles ou artistiques,
-plus de routes, de canaux, de bibliothèques et de musées?
-Est-ce qu'on ne décide pas, si je puis m'exprimer ainsi,
-par l'activité comparée des consommations, c'est-à-dire par l',(emph[abondance?])
+plus de routes, de canaux, de bibliothÃ¨ques et de musÃ©es?
+Est-ce qu'on ne dÃ©cide pas, si je puis m'exprimer ainsi,
+par l'activitÃ© comparÃ©e des consommations, c'est-Ã -dire par l',(emph[abondance?])
 ][
-On dira peut-être qu'il ne suffit pas que les produits ,(emph[abondent]),(pv)
-qu'il faut encore qu'ils soient équitablement répartis.
+On dira peut-Ãªtre qu'il ne suffit pas que les produits ,(emph[abondent]),(pv)
+qu'il faut encore qu'ils soient Ã©quitablement rÃ©partis.
 Rien n'est plus vrai.
 Mais ne confondons pas les questions.
-Quand nous défendons l'abondance, quand nos adversaires la décrient,
+Quand nous dÃ©fendons l'abondance, quand nos adversaires la dÃ©crient,
 les uns et les autres nous sous-entendons ces mots:
 ,(inlatin[c,(ae)teris paribus]),
-toutes choses égales d'ailleurs,
-l'équité dans la répartition étant supposée la même.
+toutes choses Ã©gales d'ailleurs,
+l'Ã©quitÃ© dans la rÃ©partition Ã©tant supposÃ©e la mÃªme.
 ][
 Et puis remarquez que l'abondance
-est par elle-même une cause de bonne répartition.
+est par elle-mÃªme une cause de bonne rÃ©partition.
 Plus une chose abonde, moins elle a de valeur;
-moins elle a de valeur, plus elle est à la portée de tous,
-plus les hommes sont égaux devant elle.
-Nous sommes tous égaux devant l'air,
-parce qu'il est, relativement à nos besoins et à nos désirs,
-d'une abondance inépuisable.
-Nous sommes un peu moins égaux devant l'eau,
-parce qu'étant moins abondante elle commence à coûter;
-moins encore devant le blé, devant les fruits délicats,
-devant les primeurs, devant les ,(emph[raretés]),
+moins elle a de valeur, plus elle est Ã  la portÃ©e de tous,
+plus les hommes sont Ã©gaux devant elle.
+Nous sommes tous Ã©gaux devant l'air,
+parce qu'il est, relativement Ã  nos besoins et Ã  nos dÃ©sirs,
+d'une abondance inÃ©puisable.
+Nous sommes un peu moins Ã©gaux devant l'eau,
+parce qu'Ã©tant moins abondante elle commence Ã  coÃ»ter;
+moins encore devant le blÃ©, devant les fruits dÃ©licats,
+devant les primeurs, devant les ,(emph[raretÃ©s]),
 l'exclusion se faisant toujours en raison inverse de l',(strong[abondance]).
 ][
-Nous ajouterons, pour répondre aux scrupules sentimentalistes de notre époque,
-que l'abondance n'est pas seulement un bien matériel.
-Les besoins se développent, au sein de l'humanité, dans un certain ordre;
-ils ne sont pas tous également impérieux,
-et l'on peut même remarquer que leur ordre de priorité
-n'est pas leur ordre de dignité.
-Les besoins les plus grossiers veulent être satisfaits les premiers,
-parce qu'à cette satisfaction tient la vie,
-et que, quoi qu'en disent les déclamateurs,
+Nous ajouterons, pour rÃ©pondre aux scrupules sentimentalistes de notre Ã©poque,
+que l'abondance n'est pas seulement un bien matÃ©riel.
+Les besoins se dÃ©veloppent, au sein de l'humanitÃ©, dans un certain ordre;
+ils ne sont pas tous Ã©galement impÃ©rieux,
+et l'on peut mÃªme remarquer que leur ordre de prioritÃ©
+n'est pas leur ordre de dignitÃ©.
+Les besoins les plus grossiers veulent Ãªtre satisfaits les premiers,
+parce qu'Ã  cette satisfaction tient la vie,
+et que, quoi qu'en disent les dÃ©clamateurs,
 avant de vivre dignement, il faut vivre.
-,(inlatin[Primò vivere, deindè philosophare]).
+,(inlatin[PrimÃ² vivere, deindÃ¨ philosophare]).
 ][
-Il suit de là que c'est l'abondance des choses
-propres à répondre aux nécessités les plus vulgaires,
-qui permet à l'humanité de spiritualiser de plus en plus ses jouissances,
-de s'élever dans la région du Vrai et du Beau.
+Il suit de lÃ  que c'est l'abondance des choses
+propres Ã  rÃ©pondre aux nÃ©cessitÃ©s les plus vulgaires,
+qui permet Ã  l'humanitÃ© de spiritualiser de plus en plus ses jouissances,
+de s'Ã©lever dans la rÃ©gion du Vrai et du Beau.
 Elle ne peut consacrer au perfectionnement de la forme,
-au culte de l'art, aux investigations de la pensée
+au culte de l'art, aux investigations de la pensÃ©e
 que le temps et les forces
-qui, en vertu du progrès,
-cessent d'être absorbés par les exigences de la vie animale.
-L'abondance, fruit de longs travaux et de patientes économies,
-ne peut être instantanément universelle, dès l'origine des sociétés.
-Elle ne peut se faire en même temps
+qui, en vertu du progrÃ¨s,
+cessent d'Ãªtre absorbÃ©s par les exigences de la vie animale.
+L'abondance, fruit de longs travaux et de patientes Ã©conomies,
+ne peut Ãªtre instantanÃ©ment universelle, dÃ¨s l'origine des sociÃ©tÃ©s.
+Elle ne peut se faire en mÃªme temps
 sur toute la ligne des productions possibles.
-Elle suit un ordre successif, passant du matériel au spirituel.
+Elle suit un ordre successif, passant du matÃ©riel au spirituel.
 Malheureux les peuples,
-quand des impulsions extérieures, comme celles des gouvernements,
+quand des impulsions extÃ©rieures, comme celles des gouvernements,
 s'efforcent d'intervertir cet ordre,
-substituent à des désirs grossiers mais impérieux
-d'autres désirs plus élevés mais prématurés,
+substituent Ã  des dÃ©sirs grossiers mais impÃ©rieux
+d'autres dÃ©sirs plus Ã©levÃ©s mais prÃ©maturÃ©s,
 changent la direction naturelle du travail
-et rompent cet équilibre des besoins et des satisfactions,
-d'où naissent les garanties de la stabilité sociale.
+et rompent cet Ã©quilibre des besoins et des satisfactions,
+d'oÃ¹ naissent les garanties de la stabilitÃ© sociale.
 ][
-Au reste, si l'abondance était un fléau,
-cela serait aussi malheureux qu'étrange,
-car, quelque facile que soit le remède
-(s'abstenir de produire et détruire, quoi de plus aisé?),
-jamais on n'y déterminera l'individualité.
-On a beau déclamer contre
-l'abondance, la surabondance, la pléthore, l'encombrement,
-on a beau faire la théorie de la disette,
+Au reste, si l'abondance Ã©tait un flÃ©au,
+cela serait aussi malheureux qu'Ã©trange,
+car, quelque facile que soit le remÃ¨de
+(s'abstenir de produire et dÃ©truire, quoi de plus aisÃ©?),
+jamais on n'y dÃ©terminera l'individualitÃ©.
+On a beau dÃ©clamer contre
+l'abondance, la surabondance, la plÃ©thore, l'encombrement,
+on a beau faire la thÃ©orie de la disette,
 lui donner l'appui des lois, proscrire les machines,
-gêner, entraver, contrarier les échanges,
-cela n'empêche personne, pas même les coryphées de ces systèmes,
-de travailler à réaliser l'abondance.
+gÃªner, entraver, contrarier les Ã©changes,
+cela n'empÃªche personne, pas mÃªme les coryphÃ©es de ces systÃ¨mes,
+de travailler Ã  rÃ©aliser l'abondance.
 Sur toute la surface du globe,
 on ne rencontrerait pas un seul homme
-dont la pratique ne proteste contre ces vaines théories.
+dont la pratique ne proteste contre ces vaines thÃ©ories.
 On n'en rencontrerait pas un
-qui ne cherche à tirer le meilleur parti possible de ses forces,
-à les ménager, à les économiser,
-à en augmenter le résultat par la coopération des forces naturelles;
+qui ne cherche Ã  tirer le meilleur parti possible de ses forces,
+Ã  les mÃ©nager, Ã  les Ã©conomiser,
+Ã  en augmenter le rÃ©sultat par la coopÃ©ration des forces naturelles;
 on n'en trouverait pas un,
-même parmi ceux qui déclament le plus contre la liberté des transactions,
+mÃªme parmi ceux qui dÃ©clament le plus contre la libertÃ© des transactions,
 qui ne se conduise sur ce principe (tout en voulant l'interdire aux autres):
-vendre le plus cher et acheter au meilleur marché possible;
-,(--) de telle sorte que la théorie de la disette qui prévaut dans les livres,
+vendre le plus cher et acheter au meilleur marchÃ© possible;
+,(--) de telle sorte que la thÃ©orie de la disette qui prÃ©vaut dans les livres,
 dans les journaux, dans les conversations, dans les parlements,
-et, par là, dans les lois,
-est réfutée et démentie par la manière d'agir de toutes les individualités,
+et, par lÃ , dans les lois,
+est rÃ©futÃ©e et dÃ©mentie par la maniÃ¨re d'agir de toutes les individualitÃ©s,
 sans aucune exception, qui composent le genre humain,
-ce qui est certes la plus péremptoire réfutation
+ce qui est certes la plus pÃ©remptoire rÃ©futation
 qu'il soit possible d'imaginer.
 ][
-Mais en face de ce problème:
+Mais en face de ce problÃ¨me:
 l'abondance vaut-elle mieux que la disette,
-d'où vient que tous les hommes,
-après s'être virtuellement prononcés pour l'abondance,
-par leur manière d'agir, de travailler et d'échanger,
-se constituent théoriquement les défenseurs de la disette,
-jusque-là qu'ils forment dans ce sens l'opinion publique
+d'oÃ¹ vient que tous les hommes,
+aprÃ¨s s'Ãªtre virtuellement prononcÃ©s pour l'abondance,
+par leur maniÃ¨re d'agir, de travailler et d'Ã©changer,
+se constituent thÃ©oriquement les dÃ©fenseurs de la disette,
+jusque-lÃ  qu'ils forment dans ce sens l'opinion publique
 et en font jaillir toutes sortes de lois restrictives et compressives?
 ][
-C'est ce qu'il nous reste à expliquer.
+C'est ce qu'il nous reste Ã  expliquer.
 ][
-Au fond, ce à quoi nous aspirons tous,
-c'est que chacun de nos efforts réalise pour nous
-la plus grande somme possible de bien-être.
-Si nous n'étions pas sociables, si nous vivions dans l'isolement,
-nous ne connaîtrions, pour atteindre ce but, qu'une règle:
+Au fond, ce Ã  quoi nous aspirons tous,
+c'est que chacun de nos efforts rÃ©alise pour nous
+la plus grande somme possible de bien-Ãªtre.
+Si nous n'Ã©tions pas sociables, si nous vivions dans l'isolement,
+nous ne connaÃ®trions, pour atteindre ce but, qu'une rÃ¨gle:
 ,(emph[travailler plus et mieux]),
-règle qui implique l'abondance progressive.
+rÃ¨gle qui implique l'abondance progressive.
 ][
-Mais, à cause de l'Échange et de la séparation des occupations,
-qui en est la suite, ce n'est pas immédiatement à nous-mêmes,
-c'est à autrui que nous consacrons
+Mais, Ã  cause de l'Ã‰change et de la sÃ©paration des occupations,
+qui en est la suite, ce n'est pas immÃ©diatement Ã  nous-mÃªmes,
+c'est Ã  autrui que nous consacrons
 notre travail, nos efforts, nos produits, nos services.
-Dès lors, sans perdre de vue la règle:
+DÃ¨s lors, sans perdre de vue la rÃ¨gle:
 ,(emph[produire plus]),
-nous en avons une autre toujours plus actuellement présente à notre esprit:
+nous en avons une autre toujours plus actuellement prÃ©sente Ã  notre esprit:
 ,(emph[produire plus de valeur]).
-Car c'est de là que dépend
-la quantité de services que nous avons à recevoir en retour des nôtres.
+Car c'est de lÃ  que dÃ©pend
+la quantitÃ© de services que nous avons Ã  recevoir en retour des nÃ´tres.
 ][
-Or, ,(emph[créer plus de produits]),
-ou ,(emph[créer plus de valeur]),
-ce n'est pas la même chose.
+Or, ,(emph[crÃ©er plus de produits]),
+ou ,(emph[crÃ©er plus de valeur]),
+ce n'est pas la mÃªme chose.
 Il est bien clair que si, par force ou par ruse,
-nous parvenions à raréfier beaucoup
-le service spécial ou le produit qui font l'objet de notre profession,
+nous parvenions Ã  rarÃ©fier beaucoup
+le service spÃ©cial ou le produit qui font l'objet de notre profession,
 nous nous enrichirions sans augmenter ni perfectionner notre travail.
 Si un cordonnier, par exemple,
-pouvait, par un acte de sa volonté,
-faire évaporer tous les souliers du monde,
-excepté ceux de sa boutique,
+pouvait, par un acte de sa volontÃ©,
+faire Ã©vaporer tous les souliers du monde,
+exceptÃ© ceux de sa boutique,
 ou frapper de paralysie
 quiconque sait man,(oe)uvrer le tranchet et le tire-pied,
-il deviendrait un Crésus;
-son sort s'améliorerait, non point avec le sort général de l'humanité,
-mais en raison inverse de la destinée universelle.
+il deviendrait un CrÃ©sus;
+son sort s'amÃ©liorerait, non point avec le sort gÃ©nÃ©ral de l'humanitÃ©,
+mais en raison inverse de la destinÃ©e universelle.
 ][
-Voilà tout le secret ,(--) et tout l'odieux ,(--)
-de la théorie de la disette,
+VoilÃ  tout le secret ,(--) et tout l'odieux ,(--)
+de la thÃ©orie de la disette,
 telle qu'elle se manifeste dans
-les restrictions, les monopoles et les priviléges.
+les restrictions, les monopoles et les privilÃ©ges.
 Elle ne fait que traduire et voiler, par un commentaire scientifique,
-ce sentiment égoïste que nous portons tous au fond du c,(oe)ur:
+ce sentiment Ã©goÃ¯ste que nous portons tous au fond du c,(oe)ur:
 les concurrents m'importunent.
 ][
-Quand nous apportons un produit sur le marché,
-deux circonstances sont également de nature à en surhausser la valeur:
-la première, c'est qu'il y rencontre
-une très-grande abondance des choses contre lesquelles il peut s'échanger,
-c'est-à-dire de tout;
-la seconde, c'est qu'il y rencontre une très-grande rareté de ses similaires.
+Quand nous apportons un produit sur le marchÃ©,
+deux circonstances sont Ã©galement de nature Ã  en surhausser la valeur:
+la premiÃ¨re, c'est qu'il y rencontre
+une trÃ¨s-grande abondance des choses contre lesquelles il peut s'Ã©changer,
+c'est-Ã -dire de tout;
+la seconde, c'est qu'il y rencontre une trÃ¨s-grande raretÃ© de ses similaires.
 ][
-Or, ni par nous-mêmes,
-ni par l'intermédiaire des lois et de la force publique,
-nous ne pouvons rien sur la première de ces circonstances.
-L'abondance universelle ne se décrète malheureusement pas;
-il y faut d'autres façons;
-les législateurs, les douaniers et les entraves n'y peuvent rien.
+Or, ni par nous-mÃªmes,
+ni par l'intermÃ©diaire des lois et de la force publique,
+nous ne pouvons rien sur la premiÃ¨re de ces circonstances.
+L'abondance universelle ne se dÃ©crÃ¨te malheureusement pas;
+il y faut d'autres faÃ§ons;
+les lÃ©gislateurs, les douaniers et les entraves n'y peuvent rien.
 ][
-Si donc nous voulons élever artificiellement la valeur du produit,
-force nous est d'agir sur l'autre élément de cette valeur.
-En ceci, la volonté individuelle n'est pas aussi impuissante.
+Si donc nous voulons Ã©lever artificiellement la valeur du produit,
+force nous est d'agir sur l'autre Ã©lÃ©ment de cette valeur.
+En ceci, la volontÃ© individuelle n'est pas aussi impuissante.
 Avec des lois ,(inlatin[ad hoc]),
-avec de l'arbitraire, avec des baïonnettes,
-avec des chaînes, avec des entraves,
-avec des châtiments et des persécutions,
+avec de l'arbitraire, avec des baÃ¯onnettes,
+avec des chaÃ®nes, avec des entraves,
+avec des chÃ¢timents et des persÃ©cutions,
 il n'est pas impossible de chasser les concurrents,
-de créer la rareté et cette hausse artificielle
-qui est l'objet de dos désirs.
+de crÃ©er la raretÃ© et cette hausse artificielle
+qui est l'objet de dos dÃ©sirs.
 ][
-Les choses étant ainsi,
-il est aisé de comprendre ce qui peut et doit arriver
-dans un temps d'ignorance, de barbarie et de cupidité effrénée.
+Les choses Ã©tant ainsi,
+il est aisÃ© de comprendre ce qui peut et doit arriver
+dans un temps d'ignorance, de barbarie et de cupiditÃ© effrÃ©nÃ©e.
 ][
-Chacun s'adresse à la législature,
-et par cet intermédiaire à la force publique,
-pour lui demander de créer artificiellement,
-par tous les moyens en son pouvoir, la rareté de la chose qu'il produit.
-L'agriculteur demande la rareté du blé;
-l'éleveur, la rareté du bétail;
-le maître de forges, la rareté du fer;
-le colon, la rareté du sucre;
-le tisseur, la rareté du drap, etc., etc.
-Chacun donne les mêmes raisons,
+Chacun s'adresse Ã  la lÃ©gislature,
+et par cet intermÃ©diaire Ã  la force publique,
+pour lui demander de crÃ©er artificiellement,
+par tous les moyens en son pouvoir, la raretÃ© de la chose qu'il produit.
+L'agriculteur demande la raretÃ© du blÃ©;
+l'Ã©leveur, la raretÃ© du bÃ©tail;
+le maÃ®tre de forges, la raretÃ© du fer;
+le colon, la raretÃ© du sucre;
+le tisseur, la raretÃ© du drap, etc., etc.
+Chacun donne les mÃªmes raisons,
 ce qui finit par faire un corps de doctrine
-qu'on peut bien appeler la théorie de la disette;
-et la force publique emploie le fer et le feu au triomphe de cette théorie.
+qu'on peut bien appeler la thÃ©orie de la disette;
+et la force publique emploie le fer et le feu au triomphe de cette thÃ©orie.
 ][
 Mais, sans parler des masses,
-ainsi soumises au régime de la privation universelle,
-il est aisé de voir à quelle mystification
-viennent se heurter les inventeurs de ce régime,
-et quel terrible châtiment attend leur rapacité sans scrupule.
+ainsi soumises au rÃ©gime de la privation universelle,
+il est aisÃ© de voir Ã  quelle mystification
+viennent se heurter les inventeurs de ce rÃ©gime,
+et quel terrible chÃ¢timent attend leur rapacitÃ© sans scrupule.
 ][
-Nous avons vu que, relativement à chaque produit spécial,
-la valeur avait deux éléments:
-1° la rareté de ce qui lui est similaire;
-2° l'abondance de tout ce qui ne lui est pas similaire.
+Nous avons vu que, relativement Ã  chaque produit spÃ©cial,
+la valeur avait deux Ã©lÃ©ments:
+1Â° la raretÃ© de ce qui lui est similaire;
+2Â° l'abondance de tout ce qui ne lui est pas similaire.
 ][
 Or, qu'on veuille bien remarquer ceci:
-par cela même que la législature, esclave de l'égoïsme individuel,
-travaille à réaliser le premier de ces deux éléments de la valeur,
-elle détruit le second, sans pouvoir l'éviter,
-puisque c'est une seule et même chose.
+par cela mÃªme que la lÃ©gislature, esclave de l'Ã©goÃ¯sme individuel,
+travaille Ã  rÃ©aliser le premier de ces deux Ã©lÃ©ments de la valeur,
+elle dÃ©truit le second, sans pouvoir l'Ã©viter,
+puisque c'est une seule et mÃªme chose.
 Elle a successivement satisfait les v,(oe)ux
-de l'agriculteur, de l'éleveur, du maître de forges, du fabricant, du colon,
-en produisant artificiellement la rareté
-du blé, de la viande, du fer, du drap, du sucre, etc.;
+de l'agriculteur, de l'Ã©leveur, du maÃ®tre de forges, du fabricant, du colon,
+en produisant artificiellement la raretÃ©
+du blÃ©, de la viande, du fer, du drap, du sucre, etc.;
 mais cela qu'est-ce autre chose
-que détruire cette ,(emph[abondance générale]),
+que dÃ©truire cette ,(emph[abondance gÃ©nÃ©rale]),
 qui est la seconde condition de la valeur de chaque produit particulier?
-Ainsi, après avoir soumis la communauté à des privations effectives,
-impliquées dans la disette, dans le but d'exhausser la valeur des produits,
-il se trouve qu'on n'a pas même réussi
-à atteindre cette ombre,
-à étreindre ce fantôme,
-à exhausser cette valeur nominale,
-parce que précisément ce que la rareté du produit spécial opère en sa faveur,
-dans ce sens, la rareté des autres produits le neutralise.
+Ainsi, aprÃ¨s avoir soumis la communautÃ© Ã  des privations effectives,
+impliquÃ©es dans la disette, dans le but d'exhausser la valeur des produits,
+il se trouve qu'on n'a pas mÃªme rÃ©ussi
+Ã  atteindre cette ombre,
+Ã  Ã©treindre ce fantÃ´me,
+Ã  exhausser cette valeur nominale,
+parce que prÃ©cisÃ©ment ce que la raretÃ© du produit spÃ©cial opÃ¨re en sa faveur,
+dans ce sens, la raretÃ© des autres produits le neutralise.
 Est-il donc si difficile de comprendre
-que le cordonnier dont nous parlions tout à l'heure,
-parvînt-il à détruire, par un seul acte de sa volonté,
-tous les souliers du monde, excepté ceux de sa façon,
-ne serait pas plus avancé, même au point de vue puéril de la valeur nominale,
-si du même coup tous les objets, contre lesquels les souliers s'échangent,
-se raréfiaient dans la même proportion?
-Il n'y aurait que ceci de changé:
+que le cordonnier dont nous parlions tout Ã  l'heure,
+parvÃ®nt-il Ã  dÃ©truire, par un seul acte de sa volontÃ©,
+tous les souliers du monde, exceptÃ© ceux de sa faÃ§on,
+ne serait pas plus avancÃ©, mÃªme au point de vue puÃ©ril de la valeur nominale,
+si du mÃªme coup tous les objets, contre lesquels les souliers s'Ã©changent,
+se rarÃ©fiaient dans la mÃªme proportion?
+Il n'y aurait que ceci de changÃ©:
 tous les hommes, y compris notre cordonnier,
-seraient plus mal chaussés, vêtus, nourris, logés,
-encore que les produits conservassent entre eux la même valeur relative.
+seraient plus mal chaussÃ©s, vÃªtus, nourris, logÃ©s,
+encore que les produits conservassent entre eux la mÃªme valeur relative.
 ][
 Et il faut bien qu'il en soit ainsi.
-Où en serait la société,
-si l'injustice, l'oppression, l'égoïsme, la cupidité et l'ignorance
-n'entraînaient aucun châtiment?
+OÃ¹ en serait la sociÃ©tÃ©,
+si l'injustice, l'oppression, l'Ã©goÃ¯sme, la cupiditÃ© et l'ignorance
+n'entraÃ®naient aucun chÃ¢timent?
 Heureusement il n'est pas possible
-que quelques hommes puissent, sans inconvénient pour eux-mêmes,
+que quelques hommes puissent, sans inconvÃ©nient pour eux-mÃªmes,
 faire tourner la force publique et l'appareil gouvernemental
 au profit de la disette,
-et comprimer l'universel élan de l'humanité vers l'abondance
+et comprimer l'universel Ã©lan de l'humanitÃ© vers l'abondance
 ,(footnote*[ V., tome IV, pages 5 et 163,
 les chap. ,(bof-ref "abondance_disette" (cite-title[Abondance, Disette])),
-,(cite-title[Cherté, Bon marché]). ,(XXX :bof-ref "cherte_bon_marche")
+,(cite-title[ChertÃ©, Bon marchÃ©]). ,(XXX :bof-ref "cherte_bon_marche")
 ,(NdEEO)]).
 ])
 (with-footer (p*[
@@ -369,7 +369,7 @@ Extrait de l',(EO1863), tome V,
 ,(cite-title[Abondance]),
 pp. 393-401.
 ][
-Texte scanné par la ,(BNF),
+Texte scannÃ© par la ,(BNF),
 	transcrit et relu par ,(krylenko),
 	mis en hypertexte par ,(FRR)
 	pour ,(Bastiat.org).

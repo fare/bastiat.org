@@ -1,962 +1,962 @@
 ; -*- Scheme -*-
 ; $Id: lettre_lamartine_1.scr,v 1.2 2003/03/13 04:12:32 fare Exp $
 (style 'bo-style)
-(in-bof :title "Un économiste à M. Alphonse de Lamartine
-	- par Frédéric Bastiat")
-(document :title [Un économiste à M. Alphonse de Lamartine]
+(in-bof :title "Un Ã©conomiste Ã  M. Alphonse de Lamartine
+	- par FrÃ©dÃ©ric Bastiat")
+(document :title [Un Ã©conomiste Ã  M. Alphonse de Lamartine]
 	:author (author-FB)
-(subtitle [À l'occasion de son écrit intitulé: ,(br)
+(subtitle [Ã€ l'occasion de son Ã©crit intitulÃ©: ,(br)
 	     ,(cite-title[Du droit au travail])])
 (p*
 (strong[Monsieur
 ,(footnote*[
-Extrait du ,(cite-title[Journal des Économistes]), n° de février 1845
+Extrait du ,(cite-title[Journal des Ã‰conomistes]), nÂ° de fÃ©vrier 1845
 ]),
 ])
 [
-Le talent prodigieux dont vous a doué la nature,
-talent que rehausse une réputation sans tache,
-après avoir fait de vous le point de mire des partis,
-vous a signalé comme l'attente des doctrines.
-Vos opinions, à demi voilées,
-laissaient à chaque école l'espoir de vous rallier.
-Le catholicisme, le néo-christianisme, la liberté,
-et même ces modernes excentricités qu'on nomme
-saint-simonisme, fouriérisme, communisme,
-comptaient sur vous, espéraient en vous.
-Le système qui se résume par le mot ,(emph[concentration forcée]),
+Le talent prodigieux dont vous a douÃ© la nature,
+talent que rehausse une rÃ©putation sans tache,
+aprÃ¨s avoir fait de vous le point de mire des partis,
+vous a signalÃ© comme l'attente des doctrines.
+Vos opinions, Ã  demi voilÃ©es,
+laissaient Ã  chaque Ã©cole l'espoir de vous rallier.
+Le catholicisme, le nÃ©o-christianisme, la libertÃ©,
+et mÃªme ces modernes excentricitÃ©s qu'on nomme
+saint-simonisme, fouriÃ©risme, communisme,
+comptaient sur vous, espÃ©raient en vous.
+Le systÃ¨me qui se rÃ©sume par le mot ,(emph[concentration forcÃ©e]),
 celui qui se formule par le mot ,(emph[libre concurrence]),
-la théorie qui veut imposer au travail, aux facultés, aux capitaux
+la thÃ©orie qui veut imposer au travail, aux facultÃ©s, aux capitaux
 une ,(emph[organisation artificielle]),
 celle qui ne voit pas de meilleure organisation des forces sociales
 que leur ,(emph[naturelle gravitation]),
-toutes les écoles, en un mot,
-vous désiraient pour auxiliaire
-et vous eussent accepté pour chef.
+toutes les Ã©coles, en un mot,
+vous dÃ©siraient pour auxiliaire
+et vous eussent acceptÃ© pour chef.
 ][
-Car il n'en est pas dont vous n'eussiez été le plus puissant interprète.
-Que faut-il à une idée qui porte en elle-même l'élément du triomphe, la vérité?
-Étre connue, être comprise, être vulgarisée;
+Car il n'en est pas dont vous n'eussiez Ã©tÃ© le plus puissant interprÃ¨te.
+Que faut-il Ã  une idÃ©e qui porte en elle-mÃªme l'Ã©lÃ©ment du triomphe, la vÃ©ritÃ©?
+Ã‰tre connue, Ãªtre comprise, Ãªtre vulgarisÃ©e;
 et, pour cela, il lui faut des expressions saisissantes,
-des formules lumineuses qui, par leur clarté soudaine,
-aillent réveiller dans tous les c,(oe)urs
-cette sympathie innée pour le vrai et le juste
-que la libéralité de la Providence y a déposée.
-Voilà pourquoi les hommes de labeur, de veille et d'étude
-auraient confié à votre parole
-le travail des années et des siècles,
+des formules lumineuses qui, par leur clartÃ© soudaine,
+aillent rÃ©veiller dans tous les c,(oe)urs
+cette sympathie innÃ©e pour le vrai et le juste
+que la libÃ©ralitÃ© de la Providence y a dÃ©posÃ©e.
+VoilÃ  pourquoi les hommes de labeur, de veille et d'Ã©tude
+auraient confiÃ© Ã  votre parole
+le travail des annÃ©es et des siÃ¨cles,
 les investigations de la science,
-les rectifications de l'expérience,
-en un mot, tout le mouvement intellectuel de leur école,
+les rectifications de l'expÃ©rience,
+en un mot, tout le mouvement intellectuel de leur Ã©cole,
 afin que vous le manifestassiez au monde.
-Par cette heureuse combinaison de fortes pensées et de vives images,
-dont vous seul possédez le secret,
-par le privilége inouï, qui n'a été dévolu qu'à vous,
-de faire pénétrer la logique dans la poésie et la poésie dans la logique,
-vous eussiez fait briller la vérité dans le cabinet du savant,
+Par cette heureuse combinaison de fortes pensÃ©es et de vives images,
+dont vous seul possÃ©dez le secret,
+par le privilÃ©ge inouÃ¯, qui n'a Ã©tÃ© dÃ©volu qu'Ã  vous,
+de faire pÃ©nÃ©trer la logique dans la poÃ©sie et la poÃ©sie dans la logique,
+vous eussiez fait briller la vÃ©ritÃ© dans le cabinet du savant,
 dans l'atelier de l'artiste, dans le salon et le boudoir,
-dans le palais et la chaumière;
-vous lui eussiez frayé une voie vers la chaire et vers la tribune.
+dans le palais et la chaumiÃ¨re;
+vous lui eussiez frayÃ© une voie vers la chaire et vers la tribune.
 ][
 Et moi aussi, monsieur,
-parce que j'ai dans l'esprit une conviction entière,
-parce que je porte au ceeur une foi inébranlable,
-combien de fois n'ai-je pas tourné mes regards vers vous!
-combien de fois n'ai-je pas demandé aux paroles tombées de vos lèvres,
-aux écrits échappés à votre plume,
+parce que j'ai dans l'esprit une conviction entiÃ¨re,
+parce que je porte au ceeur une foi inÃ©branlable,
+combien de fois n'ai-je pas tournÃ© mes regards vers vous!
+combien de fois n'ai-je pas demandÃ© aux paroles tombÃ©es de vos lÃ¨vres,
+aux Ã©crits Ã©chappÃ©s Ã  votre plume,
 s'ils ne m'apportaient pas enfin le secret de vos opinions,
-s'ils ne recélaient point votre vague et mystérieux symbole!
-Car comprenant ou du moins croyant sincèrement comprendre
-le mécanisme des forces sociales, je me disais:
-,(q[Cette lumière n'est rien tant qu'elle.
+s'ils ne recÃ©laient point votre vague et mystÃ©rieux symbole!
+Car comprenant ou du moins croyant sincÃ¨rement comprendre
+le mÃ©canisme des forces sociales, je me disais:
+,(q[Cette lumiÃ¨re n'est rien tant qu'elle.
 est sous le boisseau;
-et elle n'en sortira qu'à la voix puissante
+et elle n'en sortira qu'Ã  la voix puissante
 de l'homme capable de fondre dans sa parole
-la dialectique du métaphysicien,
-l'expérience de l'homme d'État,
-l'éloquence du tribun,
-l'ardente charité du chrétien
-et l'accent délicieux du poëte.])
+la dialectique du mÃ©taphysicien,
+l'expÃ©rience de l'homme d'Ã‰tat,
+l'Ã©loquence du tribun,
+l'ardente charitÃ© du chrÃ©tien
+et l'accent dÃ©licieux du poÃ«te.])
 ][
-Vous vous êtes prononcé enfin.
-Mais, hélas!
-l'attente des écoles économiques a été trompée.
+Vous vous Ãªtes prononcÃ© enfin.
+Mais, hÃ©las!
+l'attente des Ã©coles Ã©conomiques a Ã©tÃ© trompÃ©e.
 Vous n'en reconnaissez que deux,
-et vous déclarez n'appartenir ni à l'une ni à l'autre.
-Tel est l'écueil du génie.
-Il dédaigne les voies explorées,
-et le Trésor des connaissances accumulé par les siècles.
-Il cherche son trésor en lui-même;
+et vous dÃ©clarez n'appartenir ni Ã  l'une ni Ã  l'autre.
+Tel est l'Ã©cueil du gÃ©nie.
+Il dÃ©daigne les voies explorÃ©es,
+et le TrÃ©sor des connaissances accumulÃ© par les siÃ¨cles.
+Il cherche son trÃ©sor en lui-mÃªme;
 il veut se frayer sa propre voie.
 ][
 Comme vous le dites,
-il y a deux écoles en économie politique.
-Permettez-morde les caractériser,
-afin d'apprécier ensuite l'amère critique que,
+il y a deux Ã©coles en Ã©conomie politique.
+Permettez-morde les caractÃ©riser,
+afin d'apprÃ©cier ensuite l'amÃ¨re critique que,
 par une inexplicable contradiction,
-vous faites de celle dont en définitive vous adoptez le principe,
-et les emphatiques éloges que vous décernez,
+vous faites de celle dont en dÃ©finitive vous adoptez le principe,
+et les emphatiques Ã©loges que vous dÃ©cernez,
 par une autre contradiction non moins inexplicable,
-à celle dont vous repoussez les vaines et subversives théories.
+Ã  celle dont vous repoussez les vaines et subversives thÃ©ories.
 ][
-La première procède d'une manière scientifique.
-Elle constate, étudie, groupe et classe les faits et les phénomènes,
-elle cherche leurs rapports dercause à effet;
+La premiÃ¨re procÃ¨de d'une maniÃ¨re scientifique.
+Elle constate, Ã©tudie, groupe et classe les faits et les phÃ©nomÃ¨nes,
+elle cherche leurs rapports dercause Ã  effet;
 et de l'ensemble de ses observations,
-elle déduit les ,(emph[lois générales et providentielles])
-selon lesquelles les hommes prospèrent ou dépérissent.
+elle dÃ©duit les ,(emph[lois gÃ©nÃ©rales et providentielles])
+selon lesquelles les hommes prospÃ¨rent ou dÃ©pÃ©rissent.
 Elle pense que l'action de la science, en tant que science,
-sur l'espèce humaine, se borne à exposer et, divulguer ces ,(emph[lois]),
+sur l'espÃ¨ce humaine, se borne Ã  exposer et, divulguer ces ,(emph[lois]),
 afin que chacun sache
-la récompense qui est attachée à leur observation
+la rÃ©compense qui est attachÃ©e Ã  leur observation
 et la peine dont leur violation est suivie,
 elle s'en rapporte au c,(oe)ur humain pour le reste,
-sachant bien qu'il aspire invinciblement à l'une
-et a pour l'autre un éloignement inévitable;
-et parce que ce double mobile, le désir du bien, l'horreur du mal,
+sachant bien qu'il aspire invinciblement Ã  l'une
+et a pour l'autre un Ã©loignement inÃ©vitable;
+et parce que ce double mobile, le dÃ©sir du bien, l'horreur du mal,
 est la plus puissante des forces
-qui ramènent l'homme sous l'empire des lois sociales,
-elle repousse comme un fléau
+qui ramÃ¨nent l'homme sous l'empire des lois sociales,
+elle repousse comme un flÃ©au
 l'intervention de forces arbitraires
-qui tendent à altérer la juste distribution naturelle
+qui tendent Ã  altÃ©rer la juste distribution naturelle
 des plaisirs et des peines.
-De là ce fameux axiome:
+De lÃ  ce fameux axiome:
 ,(q[,(emph[Laissez faire, laissez passer,])])
 contre lequel vous manifestez tant d'indignation,
-,(--) qui n'est cependant que la périphrase servile du mot ,(emph[liberté]),
-que vous inscrivez sur votre bannière comme le principe de votre doctrine.
+,(--) qui n'est cependant que la pÃ©riphrase servile du mot ,(emph[libertÃ©]),
+que vous inscrivez sur votre banniÃ¨re comme le principe de votre doctrine.
 ][
-L'autre école, ou plutôt l'autre méthode,
-qui a enfanté et-devait enfanter des sectes innombrables,
-procède par l',(emph[imagination]).
-La société n'est pas pour elle un sujet d'observations,
-mais une matière à expériences,
+L'autre Ã©cole, ou plutÃ´t l'autre mÃ©thode,
+qui a enfantÃ© et-devait enfanter des sectes innombrables,
+procÃ¨de par l',(emph[imagination]).
+La sociÃ©tÃ© n'est pas pour elle un sujet d'observations,
+mais une matiÃ¨re Ã  expÃ©riences,
 elle n'est pas un ,(emph[corps vivant])
-dont il s'agit d'étudier les organes,
-mais une ,(emph[matière inerte])
-que le législateur soumet à un arrangement artificiel.
-Cette école ne suppose pas
-que le corps social soit assujetti à des lois providentielles;
-elle prétend lui imposer des lois de son invention.
-,(emph[La République]) de Platon,
+dont il s'agit d'Ã©tudier les organes,
+mais une ,(emph[matiÃ¨re inerte])
+que le lÃ©gislateur soumet Ã  un arrangement artificiel.
+Cette Ã©cole ne suppose pas
+que le corps social soit assujetti Ã  des lois providentielles;
+elle prÃ©tend lui imposer des lois de son invention.
+,(emph[La RÃ©publique]) de Platon,
 ,(emph[l'Utopie]) de Thomas Morus.
 ,(emph[l'Oceana]) de Harrington,
-,(emph[le Salente]) de Fénelon,
-le régime protecteur,
+,(emph[le Salente]) de FÃ©nelon,
+le rÃ©gime protecteur,
 le saint-simonisme,
-lé fouriérisme,
+lÃ© fouriÃ©risme,
 l'owenisme
 et mille autres combinaisons bizarres,
-quelquefois appliquées,
-pour le malheur de l'espèce humaine,
-presque toujours à l'état de rêve,
-pour servir de pâture aux enfants à cheveux blancs,
-telles sont quelques unes des manifestations infinies de cette-école.
+quelquefois appliquÃ©es,
+pour le malheur de l'espÃ¨ce humaine,
+presque toujours Ã  l'Ã©tat de rÃªve,
+pour servir de pÃ¢ture aux enfants Ã  cheveux blancs,
+telles sont quelques unes des manifestations infinies de cette-Ã©cole.
 ][
-La méthode ,(emph[analytique]) devait nécessairement conduire à l'unité de doctrine,
+La mÃ©thode ,(emph[analytique]) devait nÃ©cessairement conduire Ã  l'unitÃ© de doctrine,
 car il n'y a pas de raison pour que
-les même faits ne présentent les mêmes aspects, à tous les observateurs.
-Voilà pourquoi, sauf quelques légères nuances
-que des observations rectifiées tendent incessamment à faire disparaître,
-elle a rallié autour de la même foi,
+les mÃªme faits ne prÃ©sentent les mÃªmes aspects, Ã  tous les observateurs.
+VoilÃ  pourquoi, sauf quelques lÃ©gÃ¨res nuances
+que des observations rectifiÃ©es tendent incessamment Ã  faire disparaÃ®tre,
+elle a ralliÃ© autour de la mÃªme foi,
 Smith, Ricardo, Malthus, Mill, Jefferson, Bentham, Senior, Cobden, Thompson.
 Huskisson, Peel, Destutt de Tracy, Say, Comte, Dunoyer, Droz
 et bien d'autres hommes illustres,
-dont la vi s'est passée non point
-à arranger dans leur tête une société de leur invention
+dont la vi s'est passÃ©e non point
+Ã  arranger dans leur tÃªte une sociÃ©tÃ© de leur invention
 avec des hommes de leur invention,
-mais à étudier les hommes et les choses et leur action réciproque,
-afin de reconnaître et de formuler
-les lois auxquelles il a plu à Dieu de soumettre la société.
+mais Ã  Ã©tudier les hommes et les choses et leur action rÃ©ciproque,
+afin de reconnaÃ®tre et de formuler
+les lois auxquelles il a plu Ã  Dieu de soumettre la sociÃ©tÃ©.
 ][
-La méthode ,(emph[inventive]) devait de toute nécessité
+La mÃ©thode ,(emph[inventive]) devait de toute nÃ©cessitÃ©
 amener l'anarchie des intelligences,
-parce qu'il y a l'infini à parier contre un
-qu'une infinité de rêveurs ne feront pas le même rêve.
-Aussi voyons-nous, que, pour se mettre à l'aise dans leur monde imaginaire,
-l'un en a banni la propriété, l'autre l'hérédité,
-celui-ci la famille, celui-là la liberté;
+parce qu'il y a l'infini Ã  parier contre un
+qu'une infinitÃ© de rÃªveurs ne feront pas le mÃªme rÃªve.
+Aussi voyons-nous, que, pour se mettre Ã  l'aise dans leur monde imaginaire,
+l'un en a banni la propriÃ©tÃ©, l'autre l'hÃ©rÃ©ditÃ©,
+celui-ci la famille, celui-lÃ  la libertÃ©;
 en voici qui ne tiennent aucun compte de la loi de la population,
-en voilà qui font abstraction du principe de la solidarité humaine,
-car il fallait mettre en ,(oe)uvre des êtres chimériques
-pour faire une société chimérique.
+en voilÃ  qui font abstraction du principe de la solidaritÃ© humaine,
+car il fallait mettre en ,(oe)uvre des Ãªtres chimÃ©riques
+pour faire une sociÃ©tÃ© chimÃ©rique.
 ][
-Ainsi la première ,(emph[observe l'arrangement]) naturel des choses,
-et sa conclusion est ,(emph[liberté]) ,(footnote*[
-En disant que les hommes doivent jouir du libre exercice de leurs facultés,
-il demeure bien entendu que je n'entends point dénier au gouvernement
-le droit et le devoir de réprimer l'abus qu'ils en peuvent faire.
-Bien au contraire, les économistes pensent que
-c'est là sa principale et presque sa seule mission.
+Ainsi la premiÃ¨re ,(emph[observe l'arrangement]) naturel des choses,
+et sa conclusion est ,(emph[libertÃ©]) ,(footnote*[
+En disant que les hommes doivent jouir du libre exercice de leurs facultÃ©s,
+il demeure bien entendu que je n'entends point dÃ©nier au gouvernement
+le droit et le devoir de rÃ©primer l'abus qu'ils en peuvent faire.
+Bien au contraire, les Ã©conomistes pensent que
+c'est lÃ  sa principale et presque sa seule mission.
 ]).
-La seconde ,(emph[arrange]) une société artificielle,
-et son point de départ est ,(emph[contrainte]).
-C'est'pourquoi, et pour abréger,
-j'appellerai l'une ,(emph[école économiste]) ou ,(emph[libérale]),
-et l'autre ,(emph[école arbitraire]).
+La seconde ,(emph[arrange]) une sociÃ©tÃ© artificielle,
+et son point de dÃ©part est ,(emph[contrainte]).
+C'est'pourquoi, et pour abrÃ©ger,
+j'appellerai l'une ,(emph[Ã©cole Ã©conomiste]) ou ,(emph[libÃ©rale]),
+et l'autre ,(emph[Ã©cole arbitraire]).
 ][
 Voyons maintenant le jugement que vous portez sur ces deux doctrines:
 ]
 (blockquote*
 (q[
-Il y a en économie politique deux écoles:
-une école anglaise et matérialiste
-(c'est l'école ,(emph[libérale]) que vous voulez décrire dans ces lignes)
-qui traite les hommes comme des quantités inertes;
+Il y a en Ã©conomie politique deux Ã©coles:
+une Ã©cole anglaise et matÃ©rialiste
+(c'est l'Ã©cole ,(emph[libÃ©rale]) que vous voulez dÃ©crire dans ces lignes)
+qui traite les hommes comme des quantitÃ©s inertes;
 qui parle en chiffres de peur qu'il ne se glisse
-un sentiment ou une idée dans ses systèmes;
-qui fait de la société industrielle
-une espèce d'arithmétique impassible et de mécanisme sans c,(oe)ur,
-où l'humanité n'est qu'une société en commandite,
-où les travailleurs ne sont que des rouages
-à user et à dépenser au plus bas prix possible,
-où tout se résout par perte ou gain au bas d'une colonne de chiffres,
-sans considérer que ces quantités sont des hommes,
+un sentiment ou une idÃ©e dans ses systÃ¨mes;
+qui fait de la sociÃ©tÃ© industrielle
+une espÃ¨ce d'arithmÃ©tique impassible et de mÃ©canisme sans c,(oe)ur,
+oÃ¹ l'humanitÃ© n'est qu'une sociÃ©tÃ© en commandite,
+oÃ¹ les travailleurs ne sont que des rouages
+Ã  user et Ã  dÃ©penser au plus bas prix possible,
+oÃ¹ tout se rÃ©sout par perte ou gain au bas d'une colonne de chiffres,
+sans considÃ©rer que ces quantitÃ©s sont des hommes,
 que ces rouages sont des intelligences,
-que ces chiffres sont la vie, la moralité, la sueur, le corps,
-l'âme de millions d'êtres semblables à nous
-et créés par Dieu pour les mêmes destinées.
-C'est cette école qui règne en France
-depuis l'importation de la science économique née en Angleterre.
-C'est celle qui a écrit, professé et gouverné jusqu'ici,
+que ces chiffres sont la vie, la moralitÃ©, la sueur, le corps,
+l'Ã¢me de millions d'Ãªtres semblables Ã  nous
+et crÃ©Ã©s par Dieu pour les mÃªmes destinÃ©es.
+C'est cette Ã©cole qui rÃ¨gne en France
+depuis l'importation de la science Ã©conomique nÃ©e en Angleterre.
+C'est celle qui a Ã©crit, professÃ© et gouvernÃ© jusqu'ici,
 sauf quelques grandes exceptions;
-c'est celle qui a proscrit l'aumône,
-incriminé la mendicité sans pourvoir aux mendiants,
-blâmé les hôpitaux, condamné les hospices,
-raillé a la charité, mis la misère hors la loi,
-maudit l'excès de la population, interdit les mariages,
-conseillé la stérilité, fermé les tours des enfants trouvés,
-et qui, livrant tout sans miséricorde et sans entrailles à la concurrence,
-cette providence de l'égoïsme, a dit aux prolétaires:
+c'est celle qui a proscrit l'aumÃ´ne,
+incriminÃ© la mendicitÃ© sans pourvoir aux mendiants,
+blÃ¢mÃ© les hÃ´pitaux, condamnÃ© les hospices,
+raillÃ© a la charitÃ©, mis la misÃ¨re hors la loi,
+maudit l'excÃ¨s de la population, interdit les mariages,
+conseillÃ© la stÃ©rilitÃ©, fermÃ© les tours des enfants trouvÃ©s,
+et qui, livrant tout sans misÃ©ricorde et sans entrailles Ã  la concurrence,
+cette providence de l'Ã©goÃ¯sme, a dit aux prolÃ©taires:
 ,(q[Travaillez.
 ,(--) Mais nous ne trouvons pas de travail.
 ,(--) Eh bien! mourez.
 Si vous ne rapportez rien, vous n'avez pas le droit de vivre;
-la société est un compte bien fait.])])
+la sociÃ©tÃ© est un compte bien fait.])])
 
-(q[Il y a une autre école qui est née en France, dans ces a dernières années,
-des souffrances du prolétaire, des égoïsmes du manufacturier,
-de la dureté du capitaliste, de l'agitation des temps,
+(q[Il y a une autre Ã©cole qui est nÃ©e en France, dans ces a derniÃ¨res annÃ©es,
+des souffrances du prolÃ©taire, des Ã©goÃ¯smes du manufacturier,
+de la duretÃ© du capitaliste, de l'agitation des temps,
 des souvenirs de la Convention,
 des entrailles de la philanthropie
-et des rêves anticipés d'une époque entièrement idéale.
+et des rÃªves anticipÃ©s d'une Ã©poque entiÃ¨rement idÃ©ale.
 C'est celle qui,
-prophétisant aux masses l'avènement du Christ industriel (Fourier),
-les appelle à la religion de l'association,
+prophÃ©tisant aux masses l'avÃ¨nement du Christ industriel (Fourier),
+les appelle Ã  la religion de l'association,
 substitue ce principe de l'association par le travail
-à tous les autres principes, à tous les autres instincts,
-à tous les autres sentiments dont Dieu a pétri la nature humaine,
-croit avoir trouvé le moyen d'organiser le travail
+Ã  tous les autres principes, Ã  tous les autres instincts,
+Ã  tous les autres sentiments dont Dieu a pÃ©tri la nature humaine,
+croit avoir trouvÃ© le moyen d'organiser le travail
 sans intervertir les rapports libres du producteur et du consommateur,
-de violenter le capital sans l'anéantir,
-de régler les salaires et de les distribuer arbitrairement
-avec l'infaillibilité et la toute justice de Dieu.
-Cette école, qui compte parmi ses maîtres et ses adeptes
-tant d'hommes de lumière et de foi, porte en soi deux grands trésors:
+de violenter le capital sans l'anÃ©antir,
+de rÃ©gler les salaires et de les distribuer arbitrairement
+avec l'infaillibilitÃ© et la toute justice de Dieu.
+Cette Ã©cole, qui compte parmi ses maÃ®tres et ses adeptes
+tant d'hommes de lumiÃ¨re et de foi, porte en soi deux grands trÃ©sors:
 un principe, l'association;
-une vertu, la charité des masses.
-Mais elle nous semble pousser son principe jusqu'à l'excès
-et la vertu jusqu'à la chimère.
-Le fouriérisme est jusqu'ici une sublime exagération de l'espérance.
-,(--) Nous n'appartenons ni à l'une ni à l'autre de ces écoles.
+une vertu, la charitÃ© des masses.
+Mais elle nous semble pousser son principe jusqu'Ã  l'excÃ¨s
+et la vertu jusqu'Ã  la chimÃ¨re.
+Le fouriÃ©risme est jusqu'ici une sublime exagÃ©ration de l'espÃ©rance.
+,(--) Nous n'appartenons ni Ã  l'une ni Ã  l'autre de ces Ã©coles.
 Nous les croyons toutes deux dans le faux.
-Mais l'une manque d'âme,
+Mais l'une manque d'Ã¢me,
 et l'autre manque ,(emph[seulement]) de mesure dans la passion du bien.
-Nous faisons entre elles la différence qu'il y a
-entre une cruauté et une illusion,
+Nous faisons entre elles la diffÃ©rence qu'il y a
+entre une cruautÃ© et une illusion,
 et nous empruntons, pour la solution de la question des salaires,
-à l'une la lumière des calculs, à l'autre la chaleur de la charité.]))
+Ã  l'une la lumiÃ¨re des calculs, Ã  l'autre la chaleur de la charitÃ©.]))
 [
-Je ne m'arrêterai pas à relever les expressions vagues et fausses,
-les assertions hasardées qui fourmillent dans ce passage,
-où il semble que votre plume vous a maîtrisé
-plus que vous n'avez maîtrisé votre plume.
-Où avez-vous vu que les économistes
-traitent les hommes comme des ,(emph[quantités inertes]),
-eux qui voient précisément l'harmonie du monde social
-dans la liberté de leur action?
-Où avez-vous vu que cette école gouverne en France,
+Je ne m'arrÃªterai pas Ã  relever les expressions vagues et fausses,
+les assertions hasardÃ©es qui fourmillent dans ce passage,
+oÃ¹ il semble que votre plume vous a maÃ®trisÃ©
+plus que vous n'avez maÃ®trisÃ© votre plume.
+OÃ¹ avez-vous vu que les Ã©conomistes
+traitent les hommes comme des ,(emph[quantitÃ©s inertes]),
+eux qui voient prÃ©cisÃ©ment l'harmonie du monde social
+dans la libertÃ© de leur action?
+OÃ¹ avez-vous vu que cette Ã©cole gouverne en France,
 quand elle ne compte pas un seul organe,
-du moins avoué, au ministère ou au Parlement?
-Qu'est-ce que ce dédain pour les chiffres, les calculs, l'arithmétique,
-comme si les chiffres servaient à autre chose qu'à constater des résultats,
-et comme si le bien et le mal pouvaient s'apprécier autrement
-que par des résultats constatés?
-Quelle valeur scientifique est-il possible de reconnaître
-dans votre indignation contre la ,(emph[dureté du capitaliste]),
-l',(emph[égoïsme du manufacturier]), en tant que tels,
-comme si les services industriels et les capitaux pouvaient échapper,
+du moins avouÃ©, au ministÃ¨re ou au Parlement?
+Qu'est-ce que ce dÃ©dain pour les chiffres, les calculs, l'arithmÃ©tique,
+comme si les chiffres servaient Ã  autre chose qu'Ã  constater des rÃ©sultats,
+et comme si le bien et le mal pouvaient s'apprÃ©cier autrement
+que par des rÃ©sultats constatÃ©s?
+Quelle valeur scientifique est-il possible de reconnaÃ®tre
+dans votre indignation contre la ,(emph[duretÃ© du capitaliste]),
+l',(emph[Ã©goÃ¯sme du manufacturier]), en tant que tels,
+comme si les services industriels et les capitaux pouvaient Ã©chapper,
 plus que les salaires, aux lois de l'offre et de la demande qui les gouvernent,
 pour se soumettre aux lois du sentiment et de la philanthropie?
 ][
 Mais je sens le besoin de protester de toutes mes forces
 contre les imputations odieuses que vous faites peser
-sur la tête de tous ces savants illustres,
-dont je rappelais tout à l'heure les noms vénérés.
-Non, la postérité ne ratifiera pas votre arrêt.
+sur la tÃªte de tous ces savants illustres,
+dont je rappelais tout Ã  l'heure les noms vÃ©nÃ©rÃ©s.
+Non, la postÃ©ritÃ© ne ratifiera pas votre arrÃªt.
 Elle ne mettra pas, comme vous le faites,
 entre Smith et Fourier, entre Say et Enfantin
-l'abîme qui sépare la ,(emph[cruauté]) de la simple ,(emph[illusion]).
-Elle ne conviendra pas que le seul tort de Fourier ait été de pousser
-,(q[un grand principe jusqu'à l'excès
-et une grande vertu jusqu'à la chimère.])
-Elle ne verra pas dans la ,(emph[promiscuité]) des sexes
-une ,(emph[sublime exagération de l'espérance]).
-Elle ne croira pas la science sociale redevable au fouriérisme
+l'abÃ®me qui sÃ©pare la ,(emph[cruautÃ©]) de la simple ,(emph[illusion]).
+Elle ne conviendra pas que le seul tort de Fourier ait Ã©tÃ© de pousser
+,(q[un grand principe jusqu'Ã  l'excÃ¨s
+et une grande vertu jusqu'Ã  la chimÃ¨re.])
+Elle ne verra pas dans la ,(emph[promiscuitÃ©]) des sexes
+une ,(emph[sublime exagÃ©ration de l'espÃ©rance]).
+Elle ne croira pas la science sociale redevable au fouriÃ©risme
 de ces trois grandes ,(emph[innovations]):
-,(q[la foi à ,(XXX :sic) l'amélioration indéfinie de l'espèce humaine,
-le principe de l'association et la charité des masses;])
-,(--) parce que la perfectibilité de l'homme,
-conséquence de son principe intelligent,
-a été reconnue longtemps avant Fourier;
+,(q[la foi Ã  ,(XXX :sic) l'amÃ©lioration indÃ©finie de l'espÃ¨ce humaine,
+le principe de l'association et la charitÃ© des masses;])
+,(--) parce que la perfectibilitÃ© de l'homme,
+consÃ©quence de son principe intelligent,
+a Ã©tÃ© reconnue longtemps avant Fourier;
 ,(--) parce que l'association est aussi ancienne que la famille;
-,(--) parce que la charité des masses,
-de quelque manière qu'on veuille la considérer,
-au point de vue théorique ou au point de vue pratique,
-dans l'individu ou dans la société,
-a été formellement promulguée par le christianisme
-et partout mise en ,(oe)uvre, du moins à quelque degré.
-Mais la postérité s'étonnera
-que vous assigniez une place si élevée,
-que vous prodiguiez tant d'encens à une école
-que vous flétrissez en même temps par ces paroles éloquentes:
-C'est un monastère où
-,(q[la mère n'est qu'une femme enceinte,
-le père un homme qui engendre,
+,(--) parce que la charitÃ© des masses,
+de quelque maniÃ¨re qu'on veuille la considÃ©rer,
+au point de vue thÃ©orique ou au point de vue pratique,
+dans l'individu ou dans la sociÃ©tÃ©,
+a Ã©tÃ© formellement promulguÃ©e par le christianisme
+et partout mise en ,(oe)uvre, du moins Ã  quelque degrÃ©.
+Mais la postÃ©ritÃ© s'Ã©tonnera
+que vous assigniez une place si Ã©levÃ©e,
+que vous prodiguiez tant d'encens Ã  une Ã©cole
+que vous flÃ©trissez en mÃªme temps par ces paroles Ã©loquentes:
+C'est un monastÃ¨re oÃ¹
+,(q[la mÃ¨re n'est qu'une femme enceinte,
+le pÃ¨re un homme qui engendre,
 et l'enfant un produit des deux sexes.])
 ][
-Mais que blâmez-vous dans les économistes?
+Mais que blÃ¢mez-vous dans les Ã©conomistes?
 Serait-ce les formes parfois arides
-dont ils ont revêtu leurs idées?
-C'est là de la critique littéraire.
-En ce cas il fallait reconnaître les services qu'ils ont rendus à la science,
-et vous borner à les accuser d'être de froids écrivains.
-Sur ce terrain encore, on pourrait répondre
-que si le langage sévère et précis de la science
-a l'inconvénient de n'en pas hâter assez la propagation,
-le style chaleureux et imagé du poëte,
-transporté dans le domaine didactique,
-a l'inconvénient bien plus grave
-d'égarer souvent le lecteur après avoir égaré l'écrivain.
+dont ils ont revÃªtu leurs idÃ©es?
+C'est lÃ  de la critique littÃ©raire.
+En ce cas il fallait reconnaÃ®tre les services qu'ils ont rendus Ã  la science,
+et vous borner Ã  les accuser d'Ãªtre de froids Ã©crivains.
+Sur ce terrain encore, on pourrait rÃ©pondre
+que si le langage sÃ©vÃ¨re et prÃ©cis de la science
+a l'inconvÃ©nient de n'en pas hÃ¢ter assez la propagation,
+le style chaleureux et imagÃ© du poÃ«te,
+transportÃ© dans le domaine didactique,
+a l'inconvÃ©nient bien plus grave
+d'Ã©garer souvent le lecteur aprÃ¨s avoir Ã©garÃ© l'Ã©crivain.
 Mais ce n'est pas la forme que vous attaquez,
-c'est la pensée et même l'intention.
+c'est la pensÃ©e et mÃªme l'intention.
 ][
-La pensée!
+La pensÃ©e!
 mais comment l'accuser?
-Elle peut bien être fausse;
-elle ne saurait être blâmable, car elle se résume ainsi:
+Elle peut bien Ãªtre fausse;
+elle ne saurait Ãªtre blÃ¢mable, car elle se rÃ©sume ainsi:
 ,(q(emph[Il y a plus d'harmonie dans les lois divines
 que dans les combinaisons humaines.]))
-Permis à vous de dire comme Alphonse:
+Permis Ã  vous de dire comme Alphonse:
 ,(q[Ces lois seraient meilleures
-si j'eusse été appelé dans les conseils de Dieu.])
+si j'eusse Ã©tÃ© appelÃ© dans les conseils de Dieu.])
 Mais non, vous ne tenez point ce langage impie.
-Vous laissez de tels blasphèmes aux utopistes.
-Pour vous, vous vous emparez de la doctrine même
-dont vous essayez de flétrir les révélateurs,
-et dans tout votre écrit, sauf quelques vues exceptionnelles
-que je discuterai tout à l'heure,
-domine le grand principe de la liberté,
+Vous laissez de tels blasphÃ¨mes aux utopistes.
+Pour vous, vous vous emparez de la doctrine mÃªme
+dont vous essayez de flÃ©trir les rÃ©vÃ©lateurs,
+et dans tout votre Ã©crit, sauf quelques vues exceptionnelles
+que je discuterai tout Ã  l'heure,
+domine le grand principe de la libertÃ©,
 qui suppose de votre part la reconnaissance de l'harmonie des lois divines,
-puisqu'il serait puéril d'adhérer à la liberté,
+puisqu'il serait puÃ©ril d'adhÃ©rer Ã  la libertÃ©,
 non parce qu'elle est la vraie condition de l'ordre et du bonheur social,
-mais par un platonique amour pour la liberté elle-même,
-abstraction faite des résultats qu'il est dans sa nature de produire.
+mais par un platonique amour pour la libertÃ© elle-mÃªme,
+abstraction faite des rÃ©sultats qu'il est dans sa nature de produire.
 ][
 L'intention!
-mais quelle perversité peut-on apercevoir
-dans l'intention de ceux qui se bornent à dire à l'arbitraire:
-,(q[L'équilibre des forces sociales s'établit de lui-même;
+mais quelle perversitÃ© peut-on apercevoir
+dans l'intention de ceux qui se bornent Ã  dire Ã  l'arbitraire:
+,(q[L'Ã©quilibre des forces sociales s'Ã©tablit de lui-mÃªme;
 n'y touchez pas?])
 ][
-Pour arriver jusqu'aux intentions des économistes,
+Pour arriver jusqu'aux intentions des Ã©conomistes,
 il faudrait prouver trois choses:
 ][
-1° Que le libre jeu des forces sociales providentielles
-est funeste à l'humanité;
+1Â° Que le libre jeu des forces sociales providentielles
+est funeste Ã  l'humanitÃ©;
 ][
-2° Qu'il est possible d'en paralyser l'action
+2Â° Qu'il est possible d'en paralyser l'action
 par la substitution de forces arbitraires;
 ][
-3° Que les économistes repoussent celles-ci
-en parfaite connaissance de leur prétendue supériorité sur celles-là.
+3Â° Que les Ã©conomistes repoussent celles-ci
+en parfaite connaissance de leur prÃ©tendue supÃ©rioritÃ© sur celles-lÃ .
 ][
-En dehors de ces trois démonstrations,
-vos attaques, si vous pensiez à les faire remonter
-jusqu'à l'intention des écrivains dont je parle,
-ne seraient ni justifiées ni justifiables.
+En dehors de ces trois dÃ©monstrations,
+vos attaques, si vous pensiez Ã  les faire remonter
+jusqu'Ã  l'intention des Ã©crivains dont je parle,
+ne seraient ni justifiÃ©es ni justifiables.
 ][
 Mais je ne croirai jamais que vous,
-dont personne ne soupçonne l'honneur et la loyauté,
-vous ayez voulu incriminer jusqu'à la moralité
-des savants illustres qui vous ont précédé dans la carrière,
-qui vous ont légué leurs doctrines
-et que l'humanité a absous d'avance
-par la vénération et le respect dont elle environne leur mémoire.
+dont personne ne soupÃ§onne l'honneur et la loyautÃ©,
+vous ayez voulu incriminer jusqu'Ã  la moralitÃ©
+des savants illustres qui vous ont prÃ©cÃ©dÃ© dans la carriÃ¨re,
+qui vous ont lÃ©guÃ© leurs doctrines
+et que l'humanitÃ© a absous d'avance
+par la vÃ©nÃ©ration et le respect dont elle environne leur mÃ©moire.
 ][
-Y a-t-il d'ailleurs, dans ce qu'il vous plaît d'appeler l'école anglaise,
+Y a-t-il d'ailleurs, dans ce qu'il vous plaÃ®t d'appeler l'Ã©cole anglaise,
 comme si une science
-qui se borne à décrire les faits et leur enchaînement
-pouvait être d'un pays plutôt que d'un autre,
-comme s'il pouvait y avoir une géométrie russe,
-une mécanique hollandaise, une anatomie espagnole
-et une économie française ou anglaise;
-y a-t-il, dis-je, dans cette école,
+qui se borne Ã  dÃ©crire les faits et leur enchaÃ®nement
+pouvait Ãªtre d'un pays plutÃ´t que d'un autre,
+comme s'il pouvait y avoir une gÃ©omÃ©trie russe,
+une mÃ©canique hollandaise, une anatomie espagnole
+et une Ã©conomie franÃ§aise ou anglaise;
+y a-t-il, dis-je, dans cette Ã©cole,
 des hommes qui, comme les prohibitionnistes, ,(XXX :sic)
-aient proclamé leurs doctrines pour abuser les esprits
-et bénéficier par l'erreur commune sciemment et volontairement répandue?
+aient proclamÃ© leurs doctrines pour abuser les esprits
+et bÃ©nÃ©ficier par l'erreur commune sciemment et volontairement rÃ©pandue?
 Non, vous n'en citeriez pas un seul.
-Aucune secte philosophique peut-être
-n'a offert le spectacle d'autant de dignité,
-de modération, de dévouement au bien public;
-et si vous voulez y réfléchir,
-vous comprendrez qu'il devait en être ainsi.
+Aucune secte philosophique peut-Ãªtre
+n'a offert le spectacle d'autant de dignitÃ©,
+de modÃ©ration, de dÃ©vouement au bien public;
+et si vous voulez y rÃ©flÃ©chir,
+vous comprendrez qu'il devait en Ãªtre ainsi.
 ][
-Dans le ,(XVIIIe) siècle,
-quand l'astronomie n'était pas parvenue
-au point où elle est arrivée de nos jours,
-on avait remarqué une sorte d'aberration dans la marche des planètes.
-On avait constaté que les unes se rapprochaient,
-que les autres s'éloignaient du centre du mouvement;
-et l'on se hâta de conclure
-que les premières s'enfonçaient de plus en plus
-dans les profondeurs glacées de l'espace,
-que les secondes allaient s'engloutir dans la matière incandescente du soleil.
-Laplace vint, il soumit ces prétendues aberrations au calcul,
-il démontra que si les planètes s'écartaient de leur orbite,
+Dans le ,(XVIIIe) siÃ¨cle,
+quand l'astronomie n'Ã©tait pas parvenue
+au point oÃ¹ elle est arrivÃ©e de nos jours,
+on avait remarquÃ© une sorte d'aberration dans la marche des planÃ¨tes.
+On avait constatÃ© que les unes se rapprochaient,
+que les autres s'Ã©loignaient du centre du mouvement;
+et l'on se hÃ¢ta de conclure
+que les premiÃ¨res s'enfonÃ§aient de plus en plus
+dans les profondeurs glacÃ©es de l'espace,
+que les secondes allaient s'engloutir dans la matiÃ¨re incandescente du soleil.
+Laplace vint, il soumit ces prÃ©tendues aberrations au calcul,
+il dÃ©montra que si les planÃ¨tes s'Ã©cartaient de leur orbite,
 la force qui les y rappelait s'augmentait
-en raison de cet éloignement même:
-,(q[Par la toute-puissance d'une formule, mathématique, dit M. Arago,
-le monde matériel se trouva raffermi sur ses fondements.])
-Pense-t-on que celui qui découvrit et mesura cette belle harmonie
-eût volontiers consenti, dans un intérêt personnel,
-à troubler ces admirables lois de la gravitation?
+en raison de cet Ã©loignement mÃªme:
+,(q[Par la toute-puissance d'une formule, mathÃ©matique, dit M. Arago,
+le monde matÃ©riel se trouva raffermi sur ses fondements.])
+Pense-t-on que celui qui dÃ©couvrit et mesura cette belle harmonie
+eÃ»t volontiers consenti, dans un intÃ©rÃªt personnel,
+Ã  troubler ces admirables lois de la gravitation?
 ][
-L'économie des sociétés a eu aussi ses Laplace.
+L'Ã©conomie des sociÃ©tÃ©s a eu aussi ses Laplace.
 S'il y a des perturbations sociales,
-ils ont aussi constaté l'existence de forces providentielles
-qui ramènent tout à l'équilibre,
-et ils ont trouvé que ces forces réparatrices
+ils ont aussi constatÃ© l'existence de forces providentielles
+qui ramÃ¨nent tout Ã  l'Ã©quilibre,
+et ils ont trouvÃ© que ces forces rÃ©paratrices
 se proportionnent aux forces perturbatrices,
 parce qu'elles en proviennent.
 Ravis d'admiration devant cette harmonie du monde moral,
-ils ont dû se passionner pour l',(oe)uvre divine
-et répugner plus que les autres hommes à tout ce qui peut la troubler.
+ils ont dÃ» se passionner pour l',(oe)uvre divine
+et rÃ©pugner plus que les autres hommes Ã  tout ce qui peut la troubler.
 Aussi n'a-t-on jamais vu, que je sache,
-les séductions de l'intérêt privé balancer
-dans leur c,(oe)ur cet éternel objet de leur admiration et de leur amour.
-Bonaparte s'en étonna.
-Peu habitué à de telles résistances,
+les sÃ©ductions de l'intÃ©rÃªt privÃ© balancer
+dans leur c,(oe)ur cet Ã©ternel objet de leur admiration et de leur amour.
+Bonaparte s'en Ã©tonna.
+Peu habituÃ© Ã  de telles rÃ©sistances,
 il les honora du titre de ,(emph[niais]),
-parce qu'ils refusaient leur concours à sa mission d'arbitraire,
+parce qu'ils refusaient leur concours Ã  sa mission d'arbitraire,
 la regardant comme incompatible avec les grandes lois sociales
-qu'ils avaient découvertes et proclamées.
+qu'ils avaient dÃ©couvertes et proclamÃ©es.
 Et ce titre glorieux, ils le portent encore,
 ,(--) et on n'en voit aucun aux affaires,
 car ils n'y veulent entrer qu'avec leur principe.
 ][
 Je le dis avec regret mais avec franchise, monsieur,
 je crois que vous avez fait une chose funeste
-et de nature à égarer les premiers pas d'une jeunesse pleine de confiance
-dans l'autorité de vos paroles,
-lorsque, distribuant sans mesure le blâme et l'éloge,
-vous avez violemment assailli l'école la plus consciencieuse,
-la plus pratiquement chrétienne qui se soit jamais élevée
-à l'horizon des sciences morales,
-réservant votre enthousiasme, votre sympathie et,
-pardonnez-moi le mot, vos coquettes câlineries
-pour ces autres écoles qui ne sont, selon vous-même,
-que la négation de la liberté, de l'ordre, de la propriété,
+et de nature Ã  Ã©garer les premiers pas d'une jeunesse pleine de confiance
+dans l'autoritÃ© de vos paroles,
+lorsque, distribuant sans mesure le blÃ¢me et l'Ã©loge,
+vous avez violemment assailli l'Ã©cole la plus consciencieuse,
+la plus pratiquement chrÃ©tienne qui se soit jamais Ã©levÃ©e
+Ã  l'horizon des sciences morales,
+rÃ©servant votre enthousiasme, votre sympathie et,
+pardonnez-moi le mot, vos coquettes cÃ¢lineries
+pour ces autres Ã©coles qui ne sont, selon vous-mÃªme,
+que la nÃ©gation de la libertÃ©, de l'ordre, de la propriÃ©tÃ©,
 de la famille, de l'amour, des affections domestiques
-et ,(emph[de tous les sentiments dont Dieu a pétri la nature humaine]).
+et ,(emph[de tous les sentiments dont Dieu a pÃ©tri la nature humaine]).
 ][
-Et ce qui achève de rendre cette injuste appréciation des hommes
-tout à fait inexplicable,
+Et ce qui achÃ¨ve de rendre cette injuste apprÃ©ciation des hommes
+tout Ã  fait inexplicable,
 c'est que vous adoptez, ainsi que je l'ai dit,
-le principe des économistes,
-la liberté des transactions, la libre concurrence,
-,(emph[cette providence de l'égoïsme]).
+le principe des Ã©conomistes,
+la libertÃ© des transactions, la libre concurrence,
+,(emph[cette providence de l'Ã©goÃ¯sme]).
 ][
-,(q[Il n'y a d'autre organisation du travail, dites-vous, que sa liberté;
+,(q[Il n'y a d'autre organisation du travail, dites-vous, que sa libertÃ©;
 il n'y a d'autre distribution des salaires
-que le travail lui-même se rétribuant par ses ,(oe)uvres
-et se faisant à lui-même une justice que vos systèmes arbitraires
+que le travail lui-mÃªme se rÃ©tribuant par ses ,(oe)uvres
+et se faisant Ã  lui-mÃªme une justice que vos systÃ¨mes arbitraires
 ne lui feraient pas.
 Le libre arbitre du travail dans le producteur, dans le consommateur,
 dans le salaire, dans l'ouvrier,
-est aussi sacré que le libre arbitre de la conscience dans l'homme.
-En touchant à l'un, on tue le mouvement;
-en touchant à l'autre, on tue la moralité.
+est aussi sacrÃ© que le libre arbitre de la conscience dans l'homme.
+En touchant Ã  l'un, on tue le mouvement;
+en touchant Ã  l'autre, on tue la moralitÃ©.
 Les meilleurs gouvernements sont ceux qui n'y touchent pas.])
 ][
 Et ailleurs:
 ,(q[Nous ne connaissons d'autre organisation ,(emph[possible]) du travail
-dans un pays libre que la liberté se rétribuant elle-même
-par la concurrence, par la capacité, par la moralité.])
+dans un pays libre que la libertÃ© se rÃ©tribuant elle-mÃªme
+par la concurrence, par la capacitÃ©, par la moralitÃ©.])
 ][
-Ce n'est pas assez de dire que ces paroles coïncident
-avec les idées des économistes;
-elles embrassent et résument leur doctrine tout entière.
+Ce n'est pas assez de dire que ces paroles coÃ¯ncident
+avec les idÃ©es des Ã©conomistes;
+elles embrassent et rÃ©sument leur doctrine tout entiÃ¨re.
 Elles supposent en vous la pleine connaissance,
 la claire vue de cette grande loi de la concurrence
-qui porte en elle-même le remède général
-aux maux inévitables qu'elle peut produire dans des cas particuliers.
+qui porte en elle-mÃªme le remÃ¨de gÃ©nÃ©ral
+aux maux inÃ©vitables qu'elle peut produire dans des cas particuliers.
 ][
 Et cependant, comment croire
 que votre vue embrasse l'ensemble des faits et des forces sociales
-qui découlent du principe de la liberté,
-quand on vous voit décliner le dogme
-de la responsabilité des agents intelligents et libres!
+qui dÃ©coulent du principe de la libertÃ©,
+quand on vous voit dÃ©cliner le dogme
+de la responsabilitÃ© des agents intelligents et libres!
 ][
-Car en parlant des deux grandes écoles,
-celle de la ,(emph[liberté]) et celle de la ,(emph[contrainte]),
+Car en parlant des deux grandes Ã©coles,
+celle de la ,(emph[libertÃ©]) et celle de la ,(emph[contrainte]),
 vous dites:
-,(q[J'emprunte à l'une la lumière de ses calculs,
-à l'autre la chaleur de sa charité.])
-Pour parler avec précision, vous deviez dire:
-,(q[J'emprunte à l'une le principe de la ,(emph[liberté]),
-à l'autre celui de l',(emph[irresponsabilité]).])
+,(q[J'emprunte Ã  l'une la lumiÃ¨re de ses calculs,
+Ã  l'autre la chaleur de sa charitÃ©.])
+Pour parler avec prÃ©cision, vous deviez dire:
+,(q[J'emprunte Ã  l'une le principe de la ,(emph[libertÃ©]),
+Ã  l'autre celui de l',(emph[irresponsabilitÃ©]).])
 ][
-En effet, il résulte des citations que je viens de produire
-que ce que vous avez pris aux économistes,
+En effet, il rÃ©sulte des citations que je viens de produire
+que ce que vous avez pris aux Ã©conomistes,
 ce n'est point des calculs seulement,
-c'est un principe, à savoir:
-,(q(emph[la liberté est la meilleure des organisations sociales.]))
+c'est un principe, Ã  savoir:
+,(q(emph[la libertÃ© est la meilleure des organisations sociales.]))
 ][
-Mais ce n'est qu'à une condition:
-c'est que la loi de la responsabilité sortisse son plein,
+Mais ce n'est qu'Ã  une condition:
+c'est que la loi de la responsabilitÃ© sortisse son plein,
 entier et naturel effet.
-Que si la loi humaine intervient et fait dévier les conséquences des actions,
+Que si la loi humaine intervient et fait dÃ©vier les consÃ©quences des actions,
 de telle sorte qu'elles ne retombent pas
-sur ceux à qui elles étaient destinées,
-non seulement la liberté n'est plus une bonne organisation,
+sur ceux Ã  qui elles Ã©taient destinÃ©es,
+non seulement la libertÃ© n'est plus une bonne organisation,
 mais elle n'existe pas.
 ][
 C'est donc une grave contradiction de dire
-qu'on emprunte là la liberté et ici la contrainte,
-pour en faire un monstrueux ou plutôt un impossible mélange.
+qu'on emprunte lÃ  la libertÃ© et ici la contrainte,
+pour en faire un monstrueux ou plutÃ´t un impossible mÃ©lange.
 ][
-Je me ferai mieux comprendre en abordant quelques détails.
+Je me ferai mieux comprendre en abordant quelques dÃ©tails.
 ][
-Vous reprochez à l'école ,(emph[libérale]) d'être cruelle,
-et dès lors vous empruntez à l'école arbitraire
-la ,(q[chaleur de sa charité]).
-,(--) Voilà la généralité, voici l'application.
+Vous reprochez Ã  l'Ã©cole ,(emph[libÃ©rale]) d'Ãªtre cruelle,
+et dÃ¨s lors vous empruntez Ã  l'Ã©cole arbitraire
+la ,(q[chaleur de sa charitÃ©]).
+,(--) VoilÃ  la gÃ©nÃ©ralitÃ©, voici l'application.
 ][
-Vous accusez les économistes d',(emph[interdire le mariage]),
-de ,(emph[conseiller la stérilité]),
+Vous accusez les Ã©conomistes d',(emph[interdire le mariage]),
+de ,(emph[conseiller la stÃ©rilitÃ©]),
 ,(--) et par opposition, vous voulez
-que ,(emph[l'État adopte les enfants orphelins ou trop nombreux]).
+que ,(emph[l'Ã‰tat adopte les enfants orphelins ou trop nombreux]).
 ][
-Vous accusez les économistes de ,(emph[proscrire et de railler l'aumône]),
+Vous accusez les Ã©conomistes de ,(emph[proscrire et de railler l'aumÃ´ne]),
 ,(--) et par opposition, vous voulez que
-,(emph[l'État s'interpose entre les masses et leurs misères]).
+,(emph[l'Ã‰tat s'interpose entre les masses et leurs misÃ¨res]).
 ][
-Vous accusez les économistes de dire aux prolétaires
+Vous accusez les Ã©conomistes de dire aux prolÃ©taires
 ,(q(emph[Travaillez ou mourez])),
 ,(--) et par opposition,
-vous voulez que la société proclame
+vous voulez que la sociÃ©tÃ© proclame
 le ,(emph[droit au travail]), le ,(emph[droit de vivre]).
 ][
-Examinons ces trois antithèses, que j'aurais pu multiplier;
-cela suffira pour reconnaître s'il est possible de ramasser ainsi
-des dogmes dans des écoles opposées
+Examinons ces trois antithÃ¨ses, que j'aurais pu multiplier;
+cela suffira pour reconnaÃ®tre s'il est possible de ramasser ainsi
+des dogmes dans des Ã©coles opposÃ©es
 et d'accomplir entre eux une solide alliance.
 ][
-Je ne veux point encombrer par des discussions de détail
+Je ne veux point encombrer par des discussions de dÃ©tail
 le terrain des principes sur lequel j'entends me maintenir.
-Je ferai cependant une remarque préliminaire.
-Il y a longtemps qu'on a dit que le moyen le plus sûr,
+Je ferai cependant une remarque prÃ©liminaire.
+Il y a longtemps qu'on a dit que le moyen le plus sÃ»r,
 mais certainement le moins loyal, de combattre son adversaire,
-c'était de lui prêter des sentiments outrés,
-des idées fausses et des paroles qu'il n'a jamais prononcées.
-Je vous crois incapable de recourir sciemment à un tel artifice;
-mais, soit entraînement de la phrase à effet, soit exigences de concision,
-il est certain que vous attribuez aux économistes
+c'Ã©tait de lui prÃªter des sentiments outrÃ©s,
+des idÃ©es fausses et des paroles qu'il n'a jamais prononcÃ©es.
+Je vous crois incapable de recourir sciemment Ã  un tel artifice;
+mais, soit entraÃ®nement de la phrase Ã  effet, soit exigences de concision,
+il est certain que vous attribuez aux Ã©conomistes
 un langage qui ne fut jamais le leur.
 ][
-Jamais ils n'ont ,(emph[conseillé la stérilité, interdit le mariage]).
-,(--) Ce reproche pourrait être adressé avec plus de raison
-et vous l'adressez en effet au ,(emph[fouriérisme]).
+Jamais ils n'ont ,(emph[conseillÃ© la stÃ©rilitÃ©, interdit le mariage]).
+,(--) Ce reproche pourrait Ãªtre adressÃ© avec plus de raison
+et vous l'adressez en effet au ,(emph[fouriÃ©risme]).
 ,(--) S'ils ont, non pas ,(emph[maudit]),
-mais déploré l',(emph[excès]) de la population,
-ce mot même ,(q(emph[excès])) que vous employez les justifie.
+mais dÃ©plorÃ© l',(emph[excÃ¨s]) de la population,
+ce mot mÃªme ,(q(emph[excÃ¨s])) que vous employez les justifie.
 ][
 Ce qu'ils ont dit sur ce grave sujet, le voici:
-,(q[L'homme est un être libre, responsable et intelligent.
-Parce qu'il est libre, il dirige ses actions par sa volonté;
+,(q[L'homme est un Ãªtre libre, responsable et intelligent.
+Parce qu'il est libre, il dirige ses actions par sa volontÃ©;
 ,(--) parce qu'il est responsable,
-il recueille la récompense ou le châtiment de ses actions,
-selon qu'elles sont ou ne sont pas conformes aux lois de son être;
+il recueille la rÃ©compense ou le chÃ¢timent de ses actions,
+selon qu'elles sont ou ne sont pas conformes aux lois de son Ãªtre;
 ,(--) parce qu'il est intelligent,
-sa volonté et par suite ses actes se perfectionnent sans cesse,
-ou par la lumière de la prévoyance ou par les leçons fatales de l'expérience.
+sa volontÃ© et par suite ses actes se perfectionnent sans cesse,
+ou par la lumiÃ¨re de la prÃ©voyance ou par les leÃ§ons fatales de l'expÃ©rience.
 ,(--) C'est un ,(emph[fait])
-que les hommes, comme tous les êtres qui ont vie,
-peuvent se multiplier au-delà de leurs moyens actuels de subsistance.
-C'est un autre ,(emph[fait]) que lorsque l'équilibre est rompu
+que les hommes, comme tous les Ãªtres qui ont vie,
+peuvent se multiplier au-delÃ  de leurs moyens actuels de subsistance.
+C'est un autre ,(emph[fait]) que lorsque l'Ã©quilibre est rompu
 entre le nombre des hommes et les ressources qui font vivre,
-il y a malaise et souffrance dans la société.
+il y a malaise et souffrance dans la sociÃ©tÃ©.
 ,(--) Donc, il n'y a pas d'autre alternative:
-il faut ,(emph[prévoir]) pour que l'équilibre se maintienne;
-ou ,(emph[souffrir]) pour qu'il se rétablisse.
-Nous concluons qu'il est à désirer que la population,
+il faut ,(emph[prÃ©voir]) pour que l'Ã©quilibre se maintienne;
+ou ,(emph[souffrir]) pour qu'il se rÃ©tablisse.
+Nous concluons qu'il est Ã  dÃ©sirer que la population,
 prise en masse, ne suive pas une progression trop rapide,
 et pour cela, que les individus qui la composent
-n'entrent dans l'état du mariage
+n'entrent dans l'Ã©tat du mariage
 qu'autant qu'ils ont la chance probable de pouvoir entretenir une famille,
 ,(--) Et comme les hommes sont libres, comme nous n'admettons pas
-de législation coercitive ou restrictive en cette matière,
-nous nous adressons à leur raison, à leurs sentiments, à leur bon sens.
+de lÃ©gislation coercitive ou restrictive en cette matiÃ¨re,
+nous nous adressons Ã  leur raison, Ã  leurs sentiments, Ã  leur bon sens.
 Le langage que nous leur faisons entendre
 n'a rien d'utopique ou d'abstrait.
-Nous leur disons avec la sagesse des siècles
+Nous leur disons avec la sagesse des siÃ¨cles
 et ce sens si commun qu'il est presque de l'instinct:
-,(--) ,(q[C'est donner la vie à des malheureux,
-c'est se rendre malheureux soi-même
-que de se charger imprudemment ou prématurément d'une famille
-qu'on n'a pas encore les moyens d'élever.])
+,(--) ,(q[C'est donner la vie Ã  des malheureux,
+c'est se rendre malheureux soi-mÃªme
+que de se charger imprudemment ou prÃ©maturÃ©ment d'une famille
+qu'on n'a pas encore les moyens d'Ã©lever.])
 Nous ajoutons:
-,(q[Si ces actes individuels d'imprévoyance sont trop multipliés,
-la société a plus d'enfants qu'elle n'en peut nourrir:
+,(q[Si ces actes individuels d'imprÃ©voyance sont trop multipliÃ©s,
+la sociÃ©tÃ© a plus d'enfants qu'elle n'en peut nourrir:
 elle ,(emph[souffre])
  car l'homme n'est pas seulement soumis
-à la loi de la ,(emph[responsabilité]),
-mais encore à celle de la ,(emph[solidarité]);
-et c'est pour cela que les économistes s'attachent
-à exposer toutes les conséquences fatales
-de la multiplication désordonnée des êtres humains,
+Ã  la loi de la ,(emph[responsabilitÃ©]),
+mais encore Ã  celle de la ,(emph[solidaritÃ©]);
+et c'est pour cela que les Ã©conomistes s'attachent
+Ã  exposer toutes les consÃ©quences fatales
+de la multiplication dÃ©sordonnÃ©e des Ãªtres humains,
 afin que l'opinion intervienne avec son action toute puissante,
-car ils croient sincèrement que, contre ce terrible phénomène,
-la société n'a que cette alternative, la prévoyance ou la souffrance.])])
+car ils croient sincÃ¨rement que, contre ce terrible phÃ©nomÃ¨ne,
+la sociÃ©tÃ© n'a que cette alternative, la prÃ©voyance ou la souffrance.])])
 ,(XXX :EO [pas de fin de qs])
 ][
-Mais vous, monsieur, vous lui apportez un expédient.
-Vous ne pensez pas qu'elle doit prévoir pour ne pas souffrir,
-et vous ne voulez pas qu'elle souffre pour n'avoir pas prévu.
-Vous dites: ,(q(emph[Que l'État adopte les enfants trop nombreux.]))
+Mais vous, monsieur, vous lui apportez un expÃ©dient.
+Vous ne pensez pas qu'elle doit prÃ©voir pour ne pas souffrir,
+et vous ne voulez pas qu'elle souffre pour n'avoir pas prÃ©vu.
+Vous dites: ,(q(emph[Que l'Ã‰tat adopte les enfants trop nombreux.]))
 ][
-Voilà certes qui est bientôt décrété.
-Mais avec quoi, s'il vous plaît, les entretiendra-t-il?
-Sans doute avec des aliments, des vêtements, des produits
-prélevés sur la masse sous forme d'impôts,
-car l',(emph[État]), que je sache, n'a pas de ressources à lui,
-indépendantes du travail national.
-,(--) Ainsi la grande loi de la ,(emph[responsabilité]) sera éludée.
-Ceux qui, dans des vues personnelles peut-être,
-mais parfaitement conformes à l'intérêt public,
-se seront conduits d'après les règles de la prudence,
-de l'honnêteté et de la raison,
-se seront abstenus ou auront retardé
+VoilÃ  certes qui est bientÃ´t dÃ©crÃ©tÃ©.
+Mais avec quoi, s'il vous plaÃ®t, les entretiendra-t-il?
+Sans doute avec des aliments, des vÃªtements, des produits
+prÃ©levÃ©s sur la masse sous forme d'impÃ´ts,
+car l',(emph[Ã‰tat]), que je sache, n'a pas de ressources Ã  lui,
+indÃ©pendantes du travail national.
+,(--) Ainsi la grande loi de la ,(emph[responsabilitÃ©]) sera Ã©ludÃ©e.
+Ceux qui, dans des vues personnelles peut-Ãªtre,
+mais parfaitement conformes Ã  l'intÃ©rÃªt public,
+se seront conduits d'aprÃ¨s les rÃ¨gles de la prudence,
+de l'honnÃªtetÃ© et de la raison,
+se seront abstenus ou auront retardÃ©
 le moment de s'entourer d'une famille,
 se verront ,(emph[contraints]) de nourrir les enfants
-de ceux qui se seront abandonnés à la brutalité de leurs instincts.
-,(--) Mais le mal sera-t-il guéri au moins?
+de ceux qui se seront abandonnÃ©s Ã  la brutalitÃ© de leurs instincts.
+,(--) Mais le mal sera-t-il guÃ©ri au moins?
 Bien au contraire, il s'aggravera sans cesse,
-car en même temps qu'on ne pourra plus compter
-sur la prévoyance qui n'aura plus rien de rationnel,
-la souffrance elle-même, sans cesser d'agir,
-n'agira plus comme châtiment, comme frein, comme leçon,
-comme force équilibrante;
-elle perdra sa moralité,
+car en mÃªme temps qu'on ne pourra plus compter
+sur la prÃ©voyance qui n'aura plus rien de rationnel,
+la souffrance elle-mÃªme, sans cesser d'agir,
+n'agira plus comme chÃ¢timent, comme frein, comme leÃ§on,
+comme force Ã©quilibrante;
+elle perdra sa moralitÃ©,
 il n'y aura plus rien en elle qui l'explique et la justifie,
-et c'est alors que l'homme pourra sans blasphémer
-dire à l'auteur des choses:
-,(q[À quoi sert le mal sur la terre, puisqu'il n'a pas de cause finale?])
+et c'est alors que l'homme pourra sans blasphÃ©mer
+dire Ã  l'auteur des choses:
+,(q[Ã€ quoi sert le mal sur la terre, puisqu'il n'a pas de cause finale?])
 ][
-On peut faire sur la charité les mêmes remarques.
-D'abord, jamais la science économique
-n'a ,(emph[proscrit]) ni ,(emph[raillé]) l'aumône.
+On peut faire sur la charitÃ© les mÃªmes remarques.
+D'abord, jamais la science Ã©conomique
+n'a ,(emph[proscrit]) ni ,(emph[raillÃ©]) l'aumÃ´ne.
 La science ne raille pas et ne proscrit rien;
-elle observe, déduit et expose.
+elle observe, dÃ©duit et expose.
 ][
-Ensuite, l'économie politique distingue
-la charité volontaire de la charité légale ou forcée.
-L'une, par cela même qu'elle est ,(emph[volontaire]),
-se rattache au principe de la liberté
-et entre comme élément harmonique dans le jeu des lois sociales;
-l'autre, parce qu'elle est ,(emph[forcée]),
-appartient aux écoles qui ont adopté la doctrine de la ,(emph[contrainte]),
-et inflige au corps social des maux inévitables.
-La misère est méritée ou imméritée,
-et il n'y a que la charité libre et spontanée
+Ensuite, l'Ã©conomie politique distingue
+la charitÃ© volontaire de la charitÃ© lÃ©gale ou forcÃ©e.
+L'une, par cela mÃªme qu'elle est ,(emph[volontaire]),
+se rattache au principe de la libertÃ©
+et entre comme Ã©lÃ©ment harmonique dans le jeu des lois sociales;
+l'autre, parce qu'elle est ,(emph[forcÃ©e]),
+appartient aux Ã©coles qui ont adoptÃ© la doctrine de la ,(emph[contrainte]),
+et inflige au corps social des maux inÃ©vitables.
+La misÃ¨re est mÃ©ritÃ©e ou immÃ©ritÃ©e,
+et il n'y a que la charitÃ© libre et spontanÃ©e
 qui puisse faire cette distinction essentielle.
-Si elle a des secours même pour l'être dégradé
+Si elle a des secours mÃªme pour l'Ãªtre dÃ©gradÃ©
 qui a encouru son malheur par sa faute,
 elle les distribue d'une main parcimonieuse,
-justement dans la mesure nécessaire
-pour que la punition ne soit pas trop sévère;
-et elle n'encourage pas, par d'inopportunes délicatesses,
-des sentiments abjects et méprisables,
-qui, dans l'intérêt général, ne doivent pas être encouragés.
-Elle réserve, pour les infortunes imméritées et cachées,
-la libéralité de ses dons et ce secret, cette ombre, ces ménagements
-auxquels a droit le malheur, au nom de la dignité humaine.
+justement dans la mesure nÃ©cessaire
+pour que la punition ne soit pas trop sÃ©vÃ¨re;
+et elle n'encourage pas, par d'inopportunes dÃ©licatesses,
+des sentiments abjects et mÃ©prisables,
+qui, dans l'intÃ©rÃªt gÃ©nÃ©ral, ne doivent pas Ãªtre encouragÃ©s.
+Elle rÃ©serve, pour les infortunes immÃ©ritÃ©es et cachÃ©es,
+la libÃ©ralitÃ© de ses dons et ce secret, cette ombre, ces mÃ©nagements
+auxquels a droit le malheur, au nom de la dignitÃ© humaine.
 ][
-Mais la charité légale, contrainte, organisée,
-décrétée comme une ,(emph[dette]) du côté du donateur
-et une ,(emph[créance]) positive du côté du donataire,
+Mais la charitÃ© lÃ©gale, contrainte, organisÃ©e,
+dÃ©crÃ©tÃ©e comme une ,(emph[dette]) du cÃ´tÃ© du donateur
+et une ,(emph[crÃ©ance]) positive du cÃ´tÃ© du donataire,
 ne fait ni ne peut faire une telle distinction.
-Permettez-moi d'invoquer ici l'autorité
-d'un auteur trop peu connu et trop peu consulté en ces matières:
+Permettez-moi d'invoquer ici l'autoritÃ©
+d'un auteur trop peu connu et trop peu consultÃ© en ces matiÃ¨res:
 ]
 (blockquote*
 (q[Il est plusieurs genres de vices, dit M. Charles Comte,
-dont le principal effet est de produire la misère
-pour celui qui les a contractés.
-Une institution qui a pour objet de mettre à l'abri de la misère
+dont le principal effet est de produire la misÃ¨re
+pour celui qui les a contractÃ©s.
+Une institution qui a pour objet de mettre Ã  l'abri de la misÃ¨re
 toute sorte de personnes, sans distinction des causes qui l'ont produite,
-a donc pour résultat d'encourager tous les vices qui conduisent à la pauvreté.
-Les tribunaux ne peuvent condamner à l'amende
+a donc pour rÃ©sultat d'encourager tous les vices qui conduisent Ã  la pauvretÃ©.
+Les tribunaux ne peuvent condamner Ã  l'amende
 les individus qui sont coupables
-de paresse, d'intempérance, d'imprévoyance et d'autres vices de ce genre;
-mais la nature, qui a fait à l'homme une loi
-du travail, de la tempérance, de la modération, de la prévoyance,
+de paresse, d'intempÃ©rance, d'imprÃ©voyance et d'autres vices de ce genre;
+mais la nature, qui a fait Ã  l'homme une loi
+du travail, de la tempÃ©rance, de la modÃ©ration, de la prÃ©voyance,
 ,(emph[a pris sur elle d'infliger aux coupables
-les châtiments qu'ils encourent]).
-Rendre ces châtiments vains en donnant ,(emph[droit]) à des secours
-à ceux qui les ont encourus,
+les chÃ¢timents qu'ils encourent]).
+Rendre ces chÃ¢timents vains en donnant ,(emph[droit]) Ã  des secours
+Ã  ceux qui les ont encourus,
 c'est laisser au vice tous les attraits qu'il a;
 c'est laisser agir, de plus,
-les maux qu'il produit pour les individus auxquels il est étranger,
-et affaiblir ou détruire les seules peines qui peuvent le réprimer.]))
+les maux qu'il produit pour les individus auxquels il est Ã©tranger,
+et affaiblir ou dÃ©truire les seules peines qui peuvent le rÃ©primer.]))
 [
-Ainsi la charité gouvernementale,
-indépendamment de ce qu'elle viole les principes
-de la liberté et de la propriété,
-intervertit encore les lois de la responsabilité;
-et en établissant une sorte de communauté de droit
-entre les classes aisées et les classes pauvres,
-elle ôte à l'aisance le caractère de récompense,
-à la misère le caractère de châtiment
-que la nature des choses leur avait imprimé.
+Ainsi la charitÃ© gouvernementale,
+indÃ©pendamment de ce qu'elle viole les principes
+de la libertÃ© et de la propriÃ©tÃ©,
+intervertit encore les lois de la responsabilitÃ©;
+et en Ã©tablissant une sorte de communautÃ© de droit
+entre les classes aisÃ©es et les classes pauvres,
+elle Ã´te Ã  l'aisance le caractÃ¨re de rÃ©compense,
+Ã  la misÃ¨re le caractÃ¨re de chÃ¢timent
+que la nature des choses leur avait imprimÃ©.
 ][
-Vous voulez que l',(emph[État s'interpose entre les masses et leur misère]).
+Vous voulez que l',(emph[Ã‰tat s'interpose entre les masses et leur misÃ¨re]).
 ,(--) Mais avec quoi?
 ,(--) Avec des capitaux.
-,(--) Et d'où les tirera-t-il?
-,(--) De l'impôts il aura un budget des pauvres.
-,(--) II faudra donc que, soutirant ces capitaux à la circulation générale,
-il fasse retomber sur les masses, sous forme d'aumônes,
+,(--) Et d'oÃ¹ les tirera-t-il?
+,(--) De l'impÃ´ts il aura un budget des pauvres.
+,(--) II faudra donc que, soutirant ces capitaux Ã  la circulation gÃ©nÃ©rale,
+il fasse retomber sur les masses, sous forme d'aumÃ´nes,
 ce qui leur arrivait sous forme de salaires!
 ][
-Enfin vous proclamez le ,(emph[droit]) du prolétaire
-au travail, au salaire, à la subsistance.
-Et qui jamais a contesté à qui que ce soit le ,(emph[droit de travailler]),
-et par conséquent le droit à une juste rémunération?
-Est-ce sous le régime de la liberté qu'un tel droit peut être dénié?
-Mais, dites-vous, en nous plaçant dans une terrible hypothèse,
-,(q[si la société n'a pas du travail pour tous ses membres,
-si son capital ne suffit pas pour donner à tous de l'occupation?])
-Eh bien! cette supposition extrême implique
-que la population a dépassé ses moyens de subsistance.
-Je vois bien alors par quels procédés
-la liberté tend à rétablir l'équilibre;
+Enfin vous proclamez le ,(emph[droit]) du prolÃ©taire
+au travail, au salaire, Ã  la subsistance.
+Et qui jamais a contestÃ© Ã  qui que ce soit le ,(emph[droit de travailler]),
+et par consÃ©quent le droit Ã  une juste rÃ©munÃ©ration?
+Est-ce sous le rÃ©gime de la libertÃ© qu'un tel droit peut Ãªtre dÃ©niÃ©?
+Mais, dites-vous, en nous plaÃ§ant dans une terrible hypothÃ¨se,
+,(q[si la sociÃ©tÃ© n'a pas du travail pour tous ses membres,
+si son capital ne suffit pas pour donner Ã  tous de l'occupation?])
+Eh bien! cette supposition extrÃªme implique
+que la population a dÃ©passÃ© ses moyens de subsistance.
+Je vois bien alors par quels procÃ©dÃ©s
+la libertÃ© tend Ã  rÃ©tablir l'Ã©quilibre;
 je vois les salaires et les profits baisser,
-c'est-à-dire je vois diminuer la part de chacun à la masse commune;
+c'est-Ã -dire je vois diminuer la part de chacun Ã  la masse commune;
 je vois les encouragements au mariage s'affaiblir,
-les naissances diminuer, peut-être la mortalité augmenter
-jusqu'à ce que le niveau soit rétabli.
-Je vois que ce sont là des maux, des souffrances;
-je le vois et je le déplore.
+les naissances diminuer, peut-Ãªtre la mortalitÃ© augmenter
+jusqu'Ã  ce que le niveau soit rÃ©tabli.
+Je vois que ce sont lÃ  des maux, des souffrances;
+je le vois et je le dÃ©plore.
 Mais ce que je ne vois pas,
-c'est que la société puisse éviter ces maux
+c'est que la sociÃ©tÃ© puisse Ã©viter ces maux
 en proclamant le ,(emph[droit au travail]),
-en décrétant que l'État prendra sur les capitaux insuffisants
-de quoi fournir du travail à ceux qui en manquent;
+en dÃ©crÃ©tant que l'Ã‰tat prendra sur les capitaux insuffisants
+de quoi fournir du travail Ã  ceux qui en manquent;
 car il me semble que c'est faire le plein d'une part
 en faisant le vide de l'autre.
 C'est agir comme cet homme simple qui, voulant remplir un tonneau,
 puisait par-dessous de quoi verser par-dessus;
-ou comme un médecin qui, pour donner des forces au malade,
-introduirait dans le bras droit le sang qu'il aurait tiré au bras gauche.
+ou comme un mÃ©decin qui, pour donner des forces au malade,
+introduirait dans le bras droit le sang qu'il aurait tirÃ© au bras gauche.
 ][
-À nos yeux, dans l'hypothèse extrême où l'on nous force de raisonner,
-de tels expédients ne sont pas seulement inefficaces,
+Ã€ nos yeux, dans l'hypothÃ¨se extrÃªme oÃ¹ l'on nous force de raisonner,
+de tels expÃ©dients ne sont pas seulement inefficaces,
 ils sont essentiellement nuisibles.
-L'État ne déplace pas seulement les capitaux,
+L'Ã‰tat ne dÃ©place pas seulement les capitaux,
 il retient une partie de ceux auxquels il touche,
 et trouble l'action de ceux qu'il ne touche pas.
 De plus, la nouvelle distribution des salaires
-est moins équitable que celle à laquelle présidait la liberté,
+est moins Ã©quitable que celle Ã  laquelle prÃ©sidait la libertÃ©,
 et ne se proportionne pas, comme celle-ci,
-aux justes droits de la capacité et de la moralité.
+aux justes droits de la capacitÃ© et de la moralitÃ©.
 Enfin, loin de diminuer les souffrances sociales,
 elle les aggrave au contraire.
-Ces expédients ne font rien pour rétablir l'équilibre rompu
+Ces expÃ©dients ne font rien pour rÃ©tablir l'Ã©quilibre rompu
 entre le nombre des hommes et leurs moyens d'exister;
-bien loin de là, ils tendent à déranger de plus en plus cet équilibre.
+bien loin de lÃ , ils tendent Ã  dÃ©ranger de plus en plus cet Ã©quilibre.
 ][
-Mais si nous pensons que la société peut être placée
+Mais si nous pensons que la sociÃ©tÃ© peut Ãªtre placÃ©e
 dans une situation telle qu'elle n'a que le choix des maux,
-si nous pensons qu'en ce cas la liberté
-lui apporte les remèdes les plus efficaces et les moins douloureux,
-prenez garde que nous croyons aussi qu'elle agit surtout comme moyen préventif.
-Avant de rétablir l'équilibre entre les hommes et les subsistances,
-elle agit pour empêcher que cet équilibre ne soit rompu,
+si nous pensons qu'en ce cas la libertÃ©
+lui apporte les remÃ¨des les plus efficaces et les moins douloureux,
+prenez garde que nous croyons aussi qu'elle agit surtout comme moyen prÃ©ventif.
+Avant de rÃ©tablir l'Ã©quilibre entre les hommes et les subsistances,
+elle agit pour empÃªcher que cet Ã©quilibre ne soit rompu,
 parce qu'elle laisse toute leur influence
-aux motifs qu'ont les hommes d'être moraux, actifs, tempérants et prévoyants.
+aux motifs qu'ont les hommes d'Ãªtre moraux, actifs, tempÃ©rants et prÃ©voyants.
 Nous ne nions pas que ce qui suit l'oubli de ces vertus,
 c'est la souffrance;
 mais vouloir qu'il n'en soit pas ainsi,
 c'est vouloir qu'un peuple ignorant et vicieux
-jouisse du même degré de bien-être et de bonheur
-qu'un peuple moral et éclairé.
+jouisse du mÃªme degrÃ© de bien-Ãªtre et de bonheur
+qu'un peuple moral et Ã©clairÃ©.
 ][
-Il est si vrai que la liberté prévient les maux
-dont vous cherchez le remède dans le ,(emph[droit au travail]),
-que vous reconnaissez vous-même que ce droit
-est sans application aux industries qui jouissent d'une entière liberté:
-,(q[Laissons de côté, dites-vous,
-le cordonnier, le tailleur, le maréchal,
+Il est si vrai que la libertÃ© prÃ©vient les maux
+dont vous cherchez le remÃ¨de dans le ,(emph[droit au travail]),
+que vous reconnaissez vous-mÃªme que ce droit
+est sans application aux industries qui jouissent d'une entiÃ¨re libertÃ©:
+,(q[Laissons de cÃ´tÃ©, dites-vous,
+le cordonnier, le tailleur, le marÃ©chal,
 le charron, le tonnelier, le serrurier,
-le maçon, le charpentier, le menuisier.....
-Le sort de tous ceux-là est hors de cause.])
+le maÃ§on, le charpentier, le menuisier.....
+Le sort de tous ceux-lÃ  est hors de cause.])
 Mais le sort des ouvriers des fabriques serait aussi hors de cause
-si l'industrie manufacturière vivait d'une vie naturelle,
+si l'industrie manufacturiÃ¨re vivait d'une vie naturelle,
 ne posait le pied que sur un terrain solide,
-ne progressait qu'à mesure des besoins,
+ne progressait qu'Ã  mesure des besoins,
 ne comptait pas sur les prix factices et variables de la ,(emph[protection]),
-une des formes émanées de la théorie de l',(emph[arbitraire]).
+une des formes Ã©manÃ©es de la thÃ©orie de l',(emph[arbitraire]).
 ][
 Vous proclamez le ,(emph[droit au travail]),
-vous l'érigez en ,(emph[principe]),(pv)
-mais, en même temps, vous montrez peu de foi dans ce principe.
-Voyez en effet dans quelles étroites limites vous circonscrivez son action.
-Ce droit au travail ne pourra être invoqué que
-,(emph[dans des cas rares, dans des cas extrêmes,
+vous l'Ã©rigez en ,(emph[principe]),(pv)
+mais, en mÃªme temps, vous montrez peu de foi dans ce principe.
+Voyez en effet dans quelles Ã©troites limites vous circonscrivez son action.
+Ce droit au travail ne pourra Ãªtre invoquÃ© que
+,(emph[dans des cas rares, dans des cas extrÃªmes,
 pour cause de vie seulement]) (,(inlatin[propter vitam])),
-et à la condition que son application ne créera jamais,
+et Ã  la condition que son application ne crÃ©era jamais,
 ,(emph[contre le travail des industries libres
 et le tarif des salaires volontaires,
-la concurrence meurtrière de l'État]).
+la concurrence meurtriÃ¨re de l'Ã‰tat]).
 ][
-Réduites à ces termes,
+RÃ©duites Ã  ces termes,
 les mesures que vous annoncez sont du domaine de la police
-plutôt que de l'économie sociale.
-Je crois pouvoir affirmer, au nom des économistes,
-qu'ils n'ont pas d'objections sérieuses
-à faire contre l'intervention de l'État
-dans des cas rares, extrêmes,
-où, sans nuire aux industries libres,
-sans altérer le tarif des salaires volontaires,
+plutÃ´t que de l'Ã©conomie sociale.
+Je crois pouvoir affirmer, au nom des Ã©conomistes,
+qu'ils n'ont pas d'objections sÃ©rieuses
+Ã  faire contre l'intervention de l'Ã‰tat
+dans des cas rares, extrÃªmes,
+oÃ¹, sans nuire aux industries libres,
+sans altÃ©rer le tarif des salaires volontaires,
 il serait possible de venir, ,(inlatin[propter vitam]),
-au secours d'ouvriers momentanément, brusquement déplacés,
-sous le coup de crises industrielles imprévues.
+au secours d'ouvriers momentanÃ©ment, brusquement dÃ©placÃ©s,
+sous le coup de crises industrielles imprÃ©vues.
 ,(--) Mais, je vous le demande,
-pour aboutir à ces mesures d',(emph[exception]),
-fallait-il remuer toutes les théories des écoles les plus opposées?
-fallait-il élever drapeau contre drapeau, principe contre principe,
+pour aboutir Ã  ces mesures d',(emph[exception]),
+fallait-il remuer toutes les thÃ©ories des Ã©coles les plus opposÃ©es?
+fallait-il Ã©lever drapeau contre drapeau, principe contre principe,
 et faire retentir aux oreilles des masses ces mots trompeurs:
 ,(emph[droit au travail, droit de vivre!])
 Je vous dirai, en empruntant vos propres expressions:
-,(q[Ces idées ne sont si sonores
-que parce qu'il n'y a rien dedans que du vent et des tempêtes.])
+,(q[Ces idÃ©es ne sont si sonores
+que parce qu'il n'y a rien dedans que du vent et des tempÃªtes.])
 ][
-Monsieur, je ne pense pas que le Ciel ait jamais accordé à un homme
-des dons plus précieux que ceux qu'il vous a prodigués.
-Il y a assez de chaleur dans votre âme,
-assez de puissance dans votre génie
-pour que le siècle subisse votre influence
-et fasse, à votre voix, un pas de plus dans la carrière de la civilisation.
-Mais pour cela, il ne faut pas que vous alliez butiner d'ici, de là,
-dans les écoles les plus opposées, des principes qui s'excluent.
+Monsieur, je ne pense pas que le Ciel ait jamais accordÃ© Ã  un homme
+des dons plus prÃ©cieux que ceux qu'il vous a prodiguÃ©s.
+Il y a assez de chaleur dans votre Ã¢me,
+assez de puissance dans votre gÃ©nie
+pour que le siÃ¨cle subisse votre influence
+et fasse, Ã  votre voix, un pas de plus dans la carriÃ¨re de la civilisation.
+Mais pour cela, il ne faut pas que vous alliez butiner d'ici, de lÃ ,
+dans les Ã©coles les plus opposÃ©es, des principes qui s'excluent.
 Votre prodigieux talent est un puissant levier;
 mais ce levier est sans force
 s'il n'a pour point d'appui un ,(emph[principe]).
-,(--) Naguère vous vous présentâtes devant l'opposition,
-la bonne foi au c,(oe)ur et l'éloquence sur les lèvres.
-Quel résultat avez-vous obtenu?
+,(--) NaguÃ¨re vous vous prÃ©sentÃ¢tes devant l'opposition,
+la bonne foi au c,(oe)ur et l'Ã©loquence sur les lÃ¨vres.
+Quel rÃ©sultat avez-vous obtenu?
 Aucun, parce que vous ne lui portiez pas un ,(emph[principe]).
-Oh! si vous adhériez fortement à la liberté!
+Oh! si vous adhÃ©riez fortement Ã  la libertÃ©!
 Si vous la montriez faisant progresser le monde social
 par l'action de ses deux grandes lois corollaires:
-responsabilité, solidarité!
-Si vous ralliiez les esprits autour de cette vérité:
-,(q[En économie politique, il y a beaucoup à apprendre et peu à faire!])
-On comprendrait alors que la liberté porte en elle-même
-la solution de tous les grands problèmes sociaux que notre époque agite,
+responsabilitÃ©, solidaritÃ©!
+Si vous ralliiez les esprits autour de cette vÃ©ritÃ©:
+,(q[En Ã©conomie politique, il y a beaucoup Ã  apprendre et peu Ã  faire!])
+On comprendrait alors que la libertÃ© porte en elle-mÃªme
+la solution de tous les grands problÃ¨mes sociaux que notre Ã©poque agite,
 et ,(q[qu'elle fait aux hommes une justice
-que les systèmes arbitraires ne leur feraient pas.])
-Comment avez-vous rencontré des vérités si fécondes
-pour les abandonner l'instant d'après?
-,(--) Ne voyez-vous pas que la conséquence rationnelle et pratique
+que les systÃ¨mes arbitraires ne leur feraient pas.])
+Comment avez-vous rencontrÃ© des vÃ©ritÃ©s si fÃ©condes
+pour les abandonner l'instant d'aprÃ¨s?
+,(--) Ne voyez-vous pas que la consÃ©quence rationnelle et pratique
 de cette doctrine c'est la ,(emph[simplification du gouvernement?])
 Courage donc, suivez cette voie lumineuse!
-Dédaignez la vaine popularité qu'on vous promet ailleurs.
-Vous ne pouvez servir deux maîtres.
-Vous ne pouvez travailler à la simplification du pouvoir,
-demander qu'il ne touche ,(q[ni au travail ni à la conscience,])
-et exiger en même temps ,(q[qu'il prodigue l'instruction,
+DÃ©daignez la vaine popularitÃ© qu'on vous promet ailleurs.
+Vous ne pouvez servir deux maÃ®tres.
+Vous ne pouvez travailler Ã  la simplification du pouvoir,
+demander qu'il ne touche ,(q[ni au travail ni Ã  la conscience,])
+et exiger en mÃªme temps ,(q[qu'il prodigue l'instruction,
 qu'il colonise, qu'il adopte les enfants trop nombreux,
-qu'il s'interpose entre les masses et leurs misères.])
-Si vous lui contiez ces tâches multipliées et délicates,
+qu'il s'interpose entre les masses et leurs misÃ¨res.])
+Si vous lui contiez ces tÃ¢ches multipliÃ©es et dÃ©licates,
 vous l'agrandissez outre mesure;
-vous lui conférez une mission qui n'est pas la sienne;
-vous substituez ses combinaisons à l'économie des lois sociales;
+vous lui confÃ©rez une mission qui n'est pas la sienne;
+vous substituez ses combinaisons Ã  l'Ã©conomie des lois sociales;
 vous le transformez en
-,(q[Providence qui ne voit pas seulement mais qui prévoit]),(pv :EO 'in)
-vous le mettez à même de prélever et de distribuer d'énormes impôts;
-vous le rendez l'objet de toutes les ambitions, de toutes les espérances,
-de toutes les déceptions, de toutes les intrigues;
-vous agrandissez démesurément ses cadres,
-vous transformez la nation en employés;
-en un mot vous êtes sur la voie
-d'un fouriérisme bâtard, incomplet et illogique.
+,(q[Providence qui ne voit pas seulement mais qui prÃ©voit]),(pv :EO 'in)
+vous le mettez Ã  mÃªme de prÃ©lever et de distribuer d'Ã©normes impÃ´ts;
+vous le rendez l'objet de toutes les ambitions, de toutes les espÃ©rances,
+de toutes les dÃ©ceptions, de toutes les intrigues;
+vous agrandissez dÃ©mesurÃ©ment ses cadres,
+vous transformez la nation en employÃ©s;
+en un mot vous Ãªtes sur la voie
+d'un fouriÃ©risme bÃ¢tard, incomplet et illogique.
 ][
-Ce ne sont pas là les doctrines que vous devez promulguer en France.
-Repoussez leurs trompeuses séductions.
-Rattachez-vous au principe sévère, mais vrai, mais le seul vrai de la Liberté.
+Ce ne sont pas lÃ  les doctrines que vous devez promulguer en France.
+Repoussez leurs trompeuses sÃ©ductions.
+Rattachez-vous au principe sÃ©vÃ¨re, mais vrai, mais le seul vrai de la LibertÃ©.
 Embrassez dans votre vaste intelligence
-et ses lois, et son action, et ses phénomènes,
-et les causes qui la troublent, et les forces réparatrices qui sont en elle.
-Inscrivez sur votre bannière:
-,(q(emph[Société libre, gouvernement simple])), ,(XXX :EO 'in)
-,(--) idées corrélatives et pour ainsi dire consubstantielles.
-Cette bannière, les partis la repousseront peut-être;
+et ses lois, et son action, et ses phÃ©nomÃ¨nes,
+et les causes qui la troublent, et les forces rÃ©paratrices qui sont en elle.
+Inscrivez sur votre banniÃ¨re:
+,(q(emph[SociÃ©tÃ© libre, gouvernement simple])), ,(XXX :EO 'in)
+,(--) idÃ©es corrÃ©latives et pour ainsi dire consubstantielles.
+Cette banniÃ¨re, les partis la repousseront peut-Ãªtre;
 mais la nation l'embrassera avec transport.
-Mais effacez-y jusqu'à la dernière trace de cette devise:
-,(q(emph[Société contrainte, gouvernement compliqué])). ,(XXX :EO 'in)
+Mais effacez-y jusqu'Ã  la derniÃ¨re trace de cette devise:
+,(q(emph[SociÃ©tÃ© contrainte, gouvernement compliquÃ©])). ,(XXX :EO 'in)
 ,(--) Des mesures exceptionnelles, applicables dans des circonstances rares,
-dans des cas extrêmes et d'une utilité après tout fort contestable,
+dans des cas extrÃªmes et d'une utilitÃ© aprÃ¨s tout fort contestable,
 ne sauraient longtemps contrebalancer dans votre esprit
-la valeur et l'autorité d'un ,(emph[principe]).
+la valeur et l'autoritÃ© d'un ,(emph[principe]).
 Un principe est de tous les temps, de tous les lieux,
 de tous les climats et de toutes les circonstances.
-Proclamez donc la liberté:
-liberté de travail, liberté d'échanges,
-liberté de transactions pour ce pays et pour tous les pays,
-pour cette époque et pour toutes les époques.
-À ce prix, j'ose vous promettre sinon la popularité du jour, du
-moins la popularité et les bénédictions des siècles.
-Un grand homme s'est emparé de ce rôle en Angleterre.
-Il n'y a pas de jour dans l'année,
+Proclamez donc la libertÃ©:
+libertÃ© de travail, libertÃ© d'Ã©changes,
+libertÃ© de transactions pour ce pays et pour tous les pays,
+pour cette Ã©poque et pour toutes les Ã©poques.
+Ã€ ce prix, j'ose vous promettre sinon la popularitÃ© du jour, du
+moins la popularitÃ© et les bÃ©nÃ©dictions des siÃ¨cles.
+Un grand homme s'est emparÃ© de ce rÃ´le en Angleterre.
+Il n'y a pas de jour dans l'annÃ©e,
 il n'y a pas d'heure dans le jour
-où on ne le voie exposer aux yeux des masses
-les grandes lois de la ,(emph[mécanique sociale]).
-Il a réuni autour de lui une université mouvante,
-un apostolat du ,(XIXe) siècle;
-et la parole de vie pénétrant dans toutes les couches de la société
-en a fait surgir une opinion publique puissante, éclairée, pacifique,
-mais indomptable, qui sous peu présidera aux destinées de la Grande-Bretagne.
+oÃ¹ on ne le voie exposer aux yeux des masses
+les grandes lois de la ,(emph[mÃ©canique sociale]).
+Il a rÃ©uni autour de lui une universitÃ© mouvante,
+un apostolat du ,(XIXe) siÃ¨cle;
+et la parole de vie pÃ©nÃ©trant dans toutes les couches de la sociÃ©tÃ©
+en a fait surgir une opinion publique puissante, Ã©clairÃ©e, pacifique,
+mais indomptable, qui sous peu prÃ©sidera aux destinÃ©es de la Grande-Bretagne.
 Car savez-vous ce qui arrive?
-Plus de cinquante mille Anglais se seront mis, d'ici à la fin du mois,
-en possession du droit électoral
-pour balancer l'influence des écoles arbitraires
+Plus de cinquante mille Anglais se seront mis, d'ici Ã  la fin du mois,
+en possession du droit Ã©lectoral
+pour balancer l'influence des Ã©coles arbitraires
 et neutraliser les efforts des prohibitionnistes,
 des faux philanthropes et de l'aristocratie.
-,(--) la liberté! ,(--) voilà le principe qui va régner à nos portes;
+,(--) la libertÃ©! ,(--) voilÃ  le principe qui va rÃ©gner Ã  nos portes;
 et un homme, M. Cobden,
-aura été l'instrument de cette grande et paisible révolution.
-Oh! puisse vous être réservée une semblable destinée,
-dont vous êtes si digne!
+aura Ã©tÃ© l'instrument de cette grande et paisible rÃ©volution.
+Oh! puisse vous Ãªtre rÃ©servÃ©e une semblable destinÃ©e,
+dont vous Ãªtes si digne!
 ]
 (blockquote[Mugron (Landes)... janvier 1845]))
 (with-footer (p*[
 Extrait de l',(EO1863), tome I, pp. 406-428.
 ][
 Texte ,(ref :url "http://www.lemennicier.com/rh%E9torique/Lamartine.htm"
-	[numérisé, mis en hypertexte et publié])
+	[numÃ©risÃ©, mis en hypertexte et publiÃ©])
 par ,(ref :url "http://www.lemennicier.com/" [Bertrand Lemennicier]),
-relu et édité par ,(FRR) pour ,(Bastiat.org).
+relu et Ã©ditÃ© par ,(FRR) pour ,(Bastiat.org).
 ])))

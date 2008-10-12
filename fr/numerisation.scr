@@ -1,303 +1,303 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Numérisation des OEuvres de Frédéric Bastiat")
+(in-bof :title "NumÃ©risation des OEuvres de FrÃ©dÃ©ric Bastiat")
 
-(document :title [Numérisation des ,(OE*)uvres de Frédéric Bastiat]
+(document :title [NumÃ©risation des ,(OE*)uvres de FrÃ©dÃ©ric Bastiat]
 (p*[
 Si vous souhaitez participer un tant soit peu
-à la numérisation des textes de Frédéric Bastiat,
-cette page est conçue pour vous.
+Ã  la numÃ©risation des textes de FrÃ©dÃ©ric Bastiat,
+cette page est conÃ§ue pour vous.
 ])
 (section :title [Mettre Bastiat dans le PGDP?]
 (p*[
 Un truc vraiment sympa serait de mettre les ,(oeuvres.completes.FB)
-à relire par le ,(ref :url "http://dp.rastko.net/" [PGDP Europe]).
+Ã  relire par le ,(ref :url "http://dp.rastko.net/" [PGDP Europe]).
 ][
-Je recommande d'y mettre au fur et à mesure qu'ils sont complétés et
-dans cet ordre de priorité les volumes 7, 3, 1, 2, 5, 4, 6,
-tels que téléchargeables depuis la ,(BNF)
+Je recommande d'y mettre au fur et Ã  mesure qu'ils sont complÃ©tÃ©s et
+dans cet ordre de prioritÃ© les volumes 7, 3, 1, 2, 5, 4, 6,
+tels que tÃ©lÃ©chargeables depuis la ,(BNF)
 ou depuis mon site ,(bastiat.ftp) (mot de passe ,(tt[bastiat])).
 ][
-Ce n'est pas très compliqué et ça peut rapporter très gros,
-mais ça demande du temps et de la patience.
+Ce n'est pas trÃ¨s compliquÃ© et Ã§a peut rapporter trÃ¨s gros,
+mais Ã§a demande du temps et de la patience.
 Y a-t-il un volontaire pour s'en charger?
 ][
-Pour le reste, vous pouvez utiliser la méthode traditionnelle, ici décrite.
+Pour le reste, vous pouvez utiliser la mÃ©thode traditionnelle, ici dÃ©crite.
 ]))
-(section :title [Le processus de numérisation]
+(section :title [Le processus de numÃ©risation]
 (p*[
-Pour participer, il faut d'abord et surtout être prêt à passer du temps:
+Pour participer, il faut d'abord et surtout Ãªtre prÃªt Ã  passer du temps:
 plusieurs heures pour chaque texte.
 ,(strong[
 Le travail n'est pas dur, mais demande de l'application.
-Il est aussi possible de se faire aider et de travailler à deux (dictée).
-Les textes sont intéressants, et le travail n'est donc pas ennuyeux.
+Il est aussi possible de se faire aider et de travailler Ã  deux (dictÃ©e).
+Les textes sont intÃ©ressants, et le travail n'est donc pas ennuyeux.
 ])][
-Le travail se divise en plusieurs étapes,
-qui ne sont pas nécessairement accomplies par la même personne.
+Le travail se divise en plusieurs Ã©tapes,
+qui ne sont pas nÃ©cessairement accomplies par la mÃªme personne.
 Si vous ne pouvez ou ne voulez accomplir que l'une d'entre elle,
-ce n'est pas grave, vous êtes aussi le bienvenu.
+ce n'est pas grave, vous Ãªtes aussi le bienvenu.
 ,(itemize
-(item[La première étape (facile) est de
-	  choisir un texte à numériser.])
-(item[La deuxième étape (déjà faite) est de
+(item[La premiÃ¨re Ã©tape (facile) est de
+	  choisir un texte Ã  numÃ©riser.])
+(item[La deuxiÃ¨me Ã©tape (dÃ©jÃ  faite) est de
 	  scanner le texte.])
-(item[La troisième étape (optionnelle) est de
-	  numériser automatiquement le texte.])
-(item[La quatrième étape (le plus cruciale) est de
+(item[La troisiÃ¨me Ã©tape (optionnelle) est de
+	  numÃ©riser automatiquement le texte.])
+(item[La quatriÃ¨me Ã©tape (le plus cruciale) est de
 	  saisir le texte.])
-(item[La cinquième étape (la plus fastidieuse) est de
-	  relire le texte et d'éliminer les erreurs.])
-(item[La sixième étape (optionnelle) est de
+(item[La cinquiÃ¨me Ã©tape (la plus fastidieuse) est de
+	  relire le texte et d'Ã©liminer les erreurs.])
+(item[La sixiÃ¨me Ã©tape (optionnelle) est de
 	  mettre en forme le texte (italiques, etc.)]))
-,(strong[Les étapes cruciales sont la saisie et la relecture]):
+,(strong[Les Ã©tapes cruciales sont la saisie et la relecture]):
 je suis plus ou moins en mesure d'effectuer toutes les autres pour vous.
 Contactez-moi juste sur la liste de diffusion ,(numeriseurs).
 ][
-Une étape supplémentaire est pour l'éditeur (i.e. votre serviteur)
+Une Ã©tape supplÃ©mentaire est pour l'Ã©diteur (i.e. votre serviteur)
 de gommer les erreurs restantes
 et de tout rendre conforme aux standards du site,
 avant de publier le texte sur ,(Bastiat.org).
 ][
-À titre indicatif,
-moi qui suis un habitué de la numérisation et un informaticien chevronné,
-je numérise à la vitesse de croisière de 10 pages par heure,
-effectuant toutes les étapes, mais avec une seule lecture du texte.
-Votre vitesse sera sans doute plus lente, surtout au début,
-et je vous recommande de vous chronométrer sur des textes plus courts,
-pour pouvoir planifier une activité de numérisation dans votre emploi du temps,
+Ã€ titre indicatif,
+moi qui suis un habituÃ© de la numÃ©risation et un informaticien chevronnÃ©,
+je numÃ©rise Ã  la vitesse de croisiÃ¨re de 10 pages par heure,
+effectuant toutes les Ã©tapes, mais avec une seule lecture du texte.
+Votre vitesse sera sans doute plus lente, surtout au dÃ©but,
+et je vous recommande de vous chronomÃ©trer sur des textes plus courts,
+pour pouvoir planifier une activitÃ© de numÃ©risation dans votre emploi du temps,
 compte tenu de la pagination textes
-disponible sur la ,(ref :url "guillaumin.html" [table des matières])
+disponible sur la ,(ref :url "guillaumin.html" [table des matiÃ¨res])
 des ,(oeuvres.completes.FB).
 ]))
 (section :title [Choisir un texte]
 (p*[
-La première chose à faire est de choisir
-un texte ou plusieurs textes à numériser
-parmi ceux qui ne l'ont pas encore été.
+La premiÃ¨re chose Ã  faire est de choisir
+un texte ou plusieurs textes Ã  numÃ©riser
+parmi ceux qui ne l'ont pas encore Ã©tÃ©.
 Pour cela, le plus simple est de consulter
 la liste des
-,(bof-ref "guillaumin" [,(oe)uvres complètes])
-de Frédéric Bastiat sur Bastiat.org,
-et d'en choisir une non encore publiée.
+,(bof-ref "guillaumin" [,(oe)uvres complÃ¨tes])
+de FrÃ©dÃ©ric Bastiat sur Bastiat.org,
+et d'en choisir une non encore publiÃ©e.
 Si le choix vous embarasse,
-n'hésitez pas à poser la question sur la liste de diffusion
+n'hÃ©sitez pas Ã  poser la question sur la liste de diffusion
 ,(numeriseurs),
 et nous vous conseillerons.
-,(strong[Les textes non encore numérisés des tomes 4, 5, 6
-	     sont des choix sûrs.])
+,(strong[Les textes non encore numÃ©risÃ©s des tomes 4, 5, 6
+	     sont des choix sÃ»rs.])
 ][
 Avant de passer plusieurs heures sur un texte,
-il peut être utile de vérifier que le texte que vous voulez numériser
-n'est pas déjà en train de l'être par quelqu'un d'autre.
-Pour cela, contactez-nous à ,(numeriseurs)
+il peut Ãªtre utile de vÃ©rifier que le texte que vous voulez numÃ©riser
+n'est pas dÃ©jÃ  en train de l'Ãªtre par quelqu'un d'autre.
+Pour cela, contactez-nous Ã  ,(numeriseurs)
 et annoncez votre intention.
-(Je peux vous inscrire ou vous désinscrire de cette liste de diffusion
-si vous le désirez.)
-Comme en général tous ne se bousculent pas pour numériser Bastiat,
+(Je peux vous inscrire ou vous dÃ©sinscrire de cette liste de diffusion
+si vous le dÃ©sirez.)
+Comme en gÃ©nÃ©ral tous ne se bousculent pas pour numÃ©riser Bastiat,
 ce n'est toutefois pas indispensable.
-(D'un autre côté, c'est bien sûr toujours ,(emph[en même temps])
-que se manifestent les nouveaux numériseurs.)
+(D'un autre cÃ´tÃ©, c'est bien sÃ»r toujours ,(emph[en mÃªme temps])
+que se manifestent les nouveaux numÃ©riseurs.)
 ]))
 (section :title [Scanner le texte]
 (p*[
-,(strong[La plupart des textes de Bastiat ont déjà été scannés])
-et sont publiés par la BNF sur ,(Gallica).
-Tout est répertorié sur
-,(bof-ref "guillaumin" [mon sommaire des ,(oe)uvres complètes]).
-Ne manque que le volume 7 des ,(oe)uvres complètes,
-fait de petits inédits collectionnés entre la première et la seconde édition.
-,(strong[Cette étape est donc dans la plupart des cas superflue.])
-Il faut toutefois récupérer les textes.
-J'ai tout préparé pour vous
+,(strong[La plupart des textes de Bastiat ont dÃ©jÃ  Ã©tÃ© scannÃ©s])
+et sont publiÃ©s par la BNF sur ,(Gallica).
+Tout est rÃ©pertoriÃ© sur
+,(bof-ref "guillaumin" [mon sommaire des ,(oe)uvres complÃ¨tes]).
+Ne manque que le volume 7 des ,(oe)uvres complÃ¨tes,
+fait de petits inÃ©dits collectionnÃ©s entre la premiÃ¨re et la seconde Ã©dition.
+,(strong[Cette Ã©tape est donc dans la plupart des cas superflue.])
+Il faut toutefois rÃ©cupÃ©rer les textes.
+J'ai tout prÃ©parÃ© pour vous
 ,(footnote*[
-Pour les informaticiens que cela intéresseraient,
-j'ai sauvé dans un shell script
+Pour les informaticiens que cela intÃ©resseraient,
+j'ai sauvÃ© dans un shell script
 ,(ref :url "get_bastiat_bnf" [get_bastiat_bnf])
-les commandes grâce auxquelles j'ai semi-automatisé toute la préparation.
-]), et ,(strong[vous n'avez qu'à télécharger les textes])
-qu'il vous intéresse de numériser ou relire,
+les commandes grÃ¢ce auxquelles j'ai semi-automatisÃ© toute la prÃ©paration.
+]), et ,(strong[vous n'avez qu'Ã  tÃ©lÃ©charger les textes])
+qu'il vous intÃ©resse de numÃ©riser ou relire,
 ,(strong[en pointant votre explorateur sur ,(bastiat.ftp)])
 avec pour mot de passe ,(tt[bastiat]).
 ][
-Si vous disposez vous-même d'un texte
-et comptez faire l'ensemble de la numérisation et la relecture,
-alors l'étape de scanner n'est pas indispensable;
+Si vous disposez vous-mÃªme d'un texte
+et comptez faire l'ensemble de la numÃ©risation et la relecture,
+alors l'Ã©tape de scanner n'est pas indispensable;
 elle reste utile pour permettre
-des relectures supplémentaires par des éventuels tiers,
-ou un retour à l'édition originale pour d'éventuels chercheurs.
+des relectures supplÃ©mentaires par des Ã©ventuels tiers,
+ou un retour Ã  l'Ã©dition originale pour d'Ã©ventuels chercheurs.
 ][
-Si vous disposez du texte scanné, c'est parfait, passez à l'étape suivante.
-S'il n'a pas encore été scanné,
-et que vous n'avez pas la possibilité de le scanner vous-même, pas de problème:
-demandez (gentiment) aux autres numériseurs
-que l'un d'entre eux se dévoue pour scanner le texte et vous l'envoyer;
-puis, passez à l'étape suivante.
+Si vous disposez du texte scannÃ©, c'est parfait, passez Ã  l'Ã©tape suivante.
+S'il n'a pas encore Ã©tÃ© scannÃ©,
+et que vous n'avez pas la possibilitÃ© de le scanner vous-mÃªme, pas de problÃ¨me:
+demandez (gentiment) aux autres numÃ©riseurs
+que l'un d'entre eux se dÃ©voue pour scanner le texte et vous l'envoyer;
+puis, passez Ã  l'Ã©tape suivante.
 ][
-Supposons maintenant que vous disposez d'un texte original non encore scanné
+Supposons maintenant que vous disposez d'un texte original non encore scannÃ©
 (livre ou photocopie) et d'un scanneur.
-Réglez votre scanneur sur la résolution ,(emph[optique]) maximale disponible
-(pour référence, nous scannons les textes à 300ppp;
-la BNF les a scanné à 200ppp),
+RÃ©glez votre scanneur sur la rÃ©solution ,(emph[optique]) maximale disponible
+(pour rÃ©fÃ©rence, nous scannons les textes Ã  300ppp;
+la BNF les a scannÃ© Ã  200ppp),
 en mode "ligne" (1 bit par point, noir et blanc).
-Sauvez chaque page ou feuille séparément dans un fichier TIFF,
+Sauvez chaque page ou feuille sÃ©parÃ©ment dans un fichier TIFF,
 en utilisant la compression G3 ou G4, si elle est disponible.
 Mettez toutes les pages dans un seul fichier TIFF ou dans une archive ZIP,
-que je publierai sur ma machine. Et voilà!
+que je publierai sur ma machine. Et voilÃ !
 ][
-Enfin, si le texte a déjà été scanné, mais que vous avez des difficultés
-à le récupérer, contactez-moi, et précisez quel format vous préférez:
+Enfin, si le texte a dÃ©jÃ  Ã©tÃ© scannÃ©, mais que vous avez des difficultÃ©s
+Ã  le rÃ©cupÃ©rer, contactez-moi, et prÃ©cisez quel format vous prÃ©fÃ©rez:
 un seul fichier TIFF multipage, une archive avec un fichier TIFF par page,
 un fichier PDF, ou autre.
-Si vous ne savez pas, précisez de quels logiciels vous disposez.
+Si vous ne savez pas, prÃ©cisez de quels logiciels vous disposez.
 ,(XXX "et/ou essayez avec ces fichiers d'exemple: ...")
 ]))
-(section :title [Numériser automatiquement le texte]
+(section :title [NumÃ©riser automatiquement le texte]
 (p*[
-,(strong[J'ai déjà effectué cette étape pour vous])
-pour tous les textes déjà scannés, c'est à dire la grande plupart.
-Il vous suffit de récupérer le résultat
-au même endroit que les textes déjà scannés,
+,(strong[J'ai dÃ©jÃ  effectuÃ© cette Ã©tape pour vous])
+pour tous les textes dÃ©jÃ  scannÃ©s, c'est Ã  dire la grande plupart.
+Il vous suffit de rÃ©cupÃ©rer le rÃ©sultat
+au mÃªme endroit que les textes dÃ©jÃ  scannÃ©s,
 sur le site ,(bastiat.ftp), mot de passe ,(tt[bastiat]).
 ][
-Supposons que vous numérisiez un des textes non scanné par la BNF.
-Vous disposez maintenant du texte sous forme scannée.
-Si vous disposez d'un logiciel adéquat,
-une bonne base de travail pour la numérisation du texte
-est de le faire reconnaître automatiquement par un logiciel d'OCR
-(Optical Character Recognition ,(--) Reconnaissance Optique de Caractères).
+Supposons que vous numÃ©risiez un des textes non scannÃ© par la BNF.
+Vous disposez maintenant du texte sous forme scannÃ©e.
+Si vous disposez d'un logiciel adÃ©quat,
+une bonne base de travail pour la numÃ©risation du texte
+est de le faire reconnaÃ®tre automatiquement par un logiciel d'OCR
+(Optical Character Recognition ,(--) Reconnaissance Optique de CaractÃ¨res).
 ][
 Si vous ne disposez pas d'un tel logiciel,
-ou que votre logiciel est de trop mauvaise qualité,
+ou que votre logiciel est de trop mauvaise qualitÃ©,
 contactez la liste ,(numeriseurs),
-et un autre numériseur mieux équipé le fera pour vous.
+et un autre numÃ©riseur mieux Ã©quipÃ© le fera pour vous.
 ][
-Cette étape n'est pas du tout indispensable.
-Vous préférez peut-être tout retaper vous-même.
-Mais le résultat de l'OCR peut vous faire gagner du temps,
+Cette Ã©tape n'est pas du tout indispensable.
+Vous prÃ©fÃ©rez peut-Ãªtre tout retaper vous-mÃªme.
+Mais le rÃ©sultat de l'OCR peut vous faire gagner du temps,
 surtout si vous travaillez seul.
 ]))
 (section :title [Saisir le texte]
 (p*[
-,(strong[C'est là la partie la plus cruciale.])
-Il n'y a pas de méthode miracle ,(--) sinon j'aurais déjà tout fait.
-Mais heureusement, c'est aussi un travail agréable,
-puisqu'il permet de découvrir de près les chefs-d',(oe)uvres de Bastiat.
+,(strong[C'est lÃ  la partie la plus cruciale.])
+Il n'y a pas de mÃ©thode miracle ,(--) sinon j'aurais dÃ©jÃ  tout fait.
+Mais heureusement, c'est aussi un travail agrÃ©able,
+puisqu'il permet de dÃ©couvrir de prÃ¨s les chefs-d',(oe)uvres de Bastiat.
 Voici des petits conseils pour vous aider.
 ][
 Supposons que vous disposiez du texte original,
-sur papier (édition originale, photocopie, imprimé depuis la version scannée),
-ou sur votre écran (si vous arrivez à supporter la chose).
-La façon bête et méchante de faire est de retaper tout le texte.
-Il existe cependant plusieurs méthodes pour vous simplifier la tâche.
+sur papier (Ã©dition originale, photocopie, imprimÃ© depuis la version scannÃ©e),
+ou sur votre Ã©cran (si vous arrivez Ã  supporter la chose).
+La faÃ§on bÃªte et mÃ©chante de faire est de retaper tout le texte.
+Il existe cependant plusieurs mÃ©thodes pour vous simplifier la tÃ¢che.
 ][
-Une première façon est d'utiliser
-un logiciel d'OCR (Reconnaissance Optique de Caractères)
-qui reconnaît une bonne partie du texte
-à partir de la version scannée (cf. étape précédente).
-Une deuxième façon est d'utiliser un logiciel de dictée vocale,
-qui reconnaît une bonne partie du texte
-à partir de votre voix.
+Une premiÃ¨re faÃ§on est d'utiliser
+un logiciel d'OCR (Reconnaissance Optique de CaractÃ¨res)
+qui reconnaÃ®t une bonne partie du texte
+Ã  partir de la version scannÃ©e (cf. Ã©tape prÃ©cÃ©dente).
+Une deuxiÃ¨me faÃ§on est d'utiliser un logiciel de dictÃ©e vocale,
+qui reconnaÃ®t une bonne partie du texte
+Ã  partir de votre voix.
 Dans un cas comme dans l'autre,
 ces logiciels font toutefois de nombreuses erreurs,
-et il ne faut pas négliger de repasser derrière
+et il ne faut pas nÃ©gliger de repasser derriÃ¨re
 pour corriger ces erreurs, restaurer la mise en page, etc.
 ][
 Si les logiciels disponibles de reconnaissance automatiques
-ne vous satisfont pas, une autre façon est de tout faire à la main.
-Si vous avez les textes scannés, il peut être utile d'afficher
-à l'écran la version que vous transcrivez en même temps que
-l'éditeur de texte dans lequel vous le transcrivez:
-ceci vous permet d'avoir tout sous les yeux sans avoir à faire
-les incessants mouvements de cou nécessaires si le texte est à plat
-sur une table, sans parler des ajustements oculaires dûs aux changements
-de luminescence entre l'écran et le papier.
-Une autre façon de faire est de se faire dicter le texte par un parent ou ami
-,(--) voire par soi-même, via un enregistrement de votre voix.
-Dans le cas d'une dictée,
-enregistrer la dictée est de toute façon une bonne idée,
-car cela facilite l'étape suivante de relecture.
+ne vous satisfont pas, une autre faÃ§on est de tout faire Ã  la main.
+Si vous avez les textes scannÃ©s, il peut Ãªtre utile d'afficher
+Ã  l'Ã©cran la version que vous transcrivez en mÃªme temps que
+l'Ã©diteur de texte dans lequel vous le transcrivez:
+ceci vous permet d'avoir tout sous les yeux sans avoir Ã  faire
+les incessants mouvements de cou nÃ©cessaires si le texte est Ã  plat
+sur une table, sans parler des ajustements oculaires dÃ»s aux changements
+de luminescence entre l'Ã©cran et le papier.
+Une autre faÃ§on de faire est de se faire dicter le texte par un parent ou ami
+,(--) voire par soi-mÃªme, via un enregistrement de votre voix.
+Dans le cas d'une dictÃ©e,
+enregistrer la dictÃ©e est de toute faÃ§on une bonne idÃ©e,
+car cela facilite l'Ã©tape suivante de relecture.
 ][
 Si cela peut vous aider,
-notez que certains textes ont déjà été partiellement transcrits,
-des extraits étant disponibles sur Bastiat.org,
+notez que certains textes ont dÃ©jÃ  Ã©tÃ© partiellement transcrits,
+des extraits Ã©tant disponibles sur Bastiat.org,
 ou dans les archives de Bastiat.org
 ,(--) raison de plus de contacter ,(numeriseurs).
 ][
-Notez que si vous repérez des erreurs systématiques du logiciel,
-vous pouvez les réparer semi-automatiquement avec les fonctions
-de recherche et remplacement de votre éditeur de texte.
-De bons éditeurs de texte disponibles sur tous les ordinateurs sont
+Notez que si vous repÃ©rez des erreurs systÃ©matiques du logiciel,
+vous pouvez les rÃ©parer semi-automatiquement avec les fonctions
+de recherche et remplacement de votre Ã©diteur de texte.
+De bons Ã©diteurs de texte disponibles sur tous les ordinateurs sont
 ,(ref :url "http://www.xemacs.org/" [XEmacs]) et
 ,(ref :url "http://www.vim.org/" [VIM]).
 Ils vous aiderons aussi pour la mise en forme du texte,
-sachant que de toute façon,
-la mise en page de Word ou d'un éditeur HTML
+sachant que de toute faÃ§on,
+la mise en page de Word ou d'un Ã©diteur HTML
 ne me servirait pas beaucoup en tant que tel.
 (cf. section plus bas).
 ]))
 (section :title [Relecture]
 (p*[
 La partie la plus longue et fastidieuse consiste en la relecture,
-armé à la fois du texte original et de l'ébauche numérisée sur un ordinateur.
+armÃ© Ã  la fois du texte original et de l'Ã©bauche numÃ©risÃ©e sur un ordinateur.
 ,(strong[Cette partie n'est pas strictement indispensable])
 si vous avez saisi le texte,
-car je serai sans aucun doute derrière vous à relire.
-En fait, comme il fastidieux d'être à la fois transcripteur et relecteur
-pour le même texte, il est bon que deux personnes différentes effectuent
-ces travaux différents ,(--) ainsi, le relecteur, découvrant le texte,
-y est plus intéressé, donc plus attentif, et peut corriger des erreurs
+car je serai sans aucun doute derriÃ¨re vous Ã  relire.
+En fait, comme il fastidieux d'Ãªtre Ã  la fois transcripteur et relecteur
+pour le mÃªme texte, il est bon que deux personnes diffÃ©rentes effectuent
+ces travaux diffÃ©rents ,(--) ainsi, le relecteur, dÃ©couvrant le texte,
+y est plus intÃ©ressÃ©, donc plus attentif, et peut corriger des erreurs
 auquel le transcripteur n'a pas fait attention.
-Néanmoins, vous pouvez me faire gagner du temps en relisant de votre côté,
+NÃ©anmoins, vous pouvez me faire gagner du temps en relisant de votre cÃ´tÃ©,
 et/ou en faisant relire par autrui, ou en relisant en tandem.
 Il est bon aussi que vous relisiez les textes que j'ai transcrits.
 ][
-Idéalement, trouvez une personne amie pour lire le texte à haute voix
-en spécifiant la ponctuation et les bizarreries orthographiques,
-pour contre-vérifier votre texte;
+IdÃ©alement, trouvez une personne amie pour lire le texte Ã  haute voix
+en spÃ©cifiant la ponctuation et les bizarreries orthographiques,
+pour contre-vÃ©rifier votre texte;
 ou enregistrez-vous en train de dicter le texte de la sorte.
-Ou si vous disposez d'un écran assez bon, vous affichez l'original scanné
-côte-à-côte avec sa transcription (ou l'un au-dessus de l'autre).
+Ou si vous disposez d'un Ã©cran assez bon, vous affichez l'original scannÃ©
+cÃ´te-Ã -cÃ´te avec sa transcription (ou l'un au-dessus de l'autre).
 ][
 Utilisez si vous pouvez un logiciel de correction orthographique.
 Attention toutefois que certaines erreurs sont d'origine,
-et qu'il était correct d'écrire certains mots ou certaines expressions
-de façon différente au milieu du dix-neuvième siècle.
+et qu'il Ã©tait correct d'Ã©crire certains mots ou certaines expressions
+de faÃ§on diffÃ©rente au milieu du dix-neuviÃ¨me siÃ¨cle.
 ][
-Votre relecture peut se faire pendant, avant, et/ou après
-l'étape suivante de mise en page du texte.
-En fait, cela m'aiderait si elle se fait pendant et après,
-c'est-à-dire si vous vous occupez au moins un peu
+Votre relecture peut se faire pendant, avant, et/ou aprÃ¨s
+l'Ã©tape suivante de mise en page du texte.
+En fait, cela m'aiderait si elle se fait pendant et aprÃ¨s,
+c'est-Ã -dire si vous vous occupez au moins un peu
 de la mise en forme du texte.
 ][
-,(strong[Si vous relisez un texte déjà numérisé,
-le plus simple pour moi que vous éditiez le fichier au format Scribe.])
+,(strong[Si vous relisez un texte dÃ©jÃ  numÃ©risÃ©,
+le plus simple pour moi que vous Ã©ditiez le fichier au format Scribe.])
 Remplacez .html par .scr dans l'URL du fichier,
-et téléchargez ainsi le fichier Scribe,
+et tÃ©lÃ©chargez ainsi le fichier Scribe,
 modifiez-le et envoyez-le moi.
 (Attention: beaucoup d'antivirus refusent l'envoi de fichier en .scr
 dans l'email. Aussi, renommez le fichier en .txt avant de me l'envoyer.)
 ,(strong[Sinon,
-envoyez-moi un fichier où vous aurez mis les fautes en rouge
-ou accompagnées de XXX]).
+envoyez-moi un fichier oÃ¹ vous aurez mis les fautes en rouge
+ou accompagnÃ©es de XXX]).
 Annotez les fautes avec des XXX dans le texte,
-et suggérez entre parenthèses une correction,
-si vous avez regardé l'original.
-C'est la façon la plus simple pour vous et moi de transmettre
-les corrections de façon simple à vérifier et à répercuter.
-Si vous ne pouvez pas mettre du rouge, insérez des XXX dans le texte.
+et suggÃ©rez entre parenthÃ¨ses une correction,
+si vous avez regardÃ© l'original.
+C'est la faÃ§on la plus simple pour vous et moi de transmettre
+les corrections de faÃ§on simple Ã  vÃ©rifier et Ã  rÃ©percuter.
+Si vous ne pouvez pas mettre du rouge, insÃ©rez des XXX dans le texte.
 ]))
 (section :title [Mise en forme]
 (p*[
 Pour la publication des textes sur Bastiat.org,
-j'ai défini un format de fichier qui permet simplement
-de spécifier les italiques, etc.,
-d'une façon à la fois facile à écrire et à lire.
-Cela me simplifie énormément la vie si vous suivez les consignes suivantes
+j'ai dÃ©fini un format de fichier qui permet simplement
+de spÃ©cifier les italiques, etc.,
+d'une faÃ§on Ã  la fois facile Ã  Ã©crire et Ã  lire.
+Cela me simplifie Ã©normÃ©ment la vie si vous suivez les consignes suivantes
 ,(footnote*[
-Pour que l'édition électronique soit de la meilleure qualité possible,
-permettre des relectures ultérieures, un retour au texte, etc.,
-il faut que les textes numérisés préservent les informations commes:
+Pour que l'Ã©dition Ã©lectronique soit de la meilleure qualitÃ© possible,
+permettre des relectures ultÃ©rieures, un retour au texte, etc.,
+il faut que les textes numÃ©risÃ©s prÃ©servent les informations commes:
 les italiques, les notes de bas de page,
 coquilles de l'original et leur correction, etc.
 Il n'y a pas de moyen universel de communiquer
@@ -306,117 +306,117 @@ il faut donc s'accorder sur des conventions.
 Les recommendations qui suivent sont les conventions
 que j'utilise sur Bastiat.org.
 ][
-Bien sûr, ces recommendations sont facultatives,
-au sens où je vous remercie déjà bien assez
+Bien sÃ»r, ces recommendations sont facultatives,
+au sens oÃ¹ je vous remercie dÃ©jÃ  bien assez
 si vous saisissez et relisez des textes de Bastiat
 sans suivre ces conventions.
-Néanmoins, je vous convie vivement à les suivre,
+NÃ©anmoins, je vous convie vivement Ã  les suivre,
 d'autant plus qu'elles sont relativement simples.
 ][
-Pour ceux que la technique intéresse,
-j'ai d'abord écrit Bastiat.org directement
+Pour ceux que la technique intÃ©resse,
+j'ai d'abord Ã©crit Bastiat.org directement
 en ,(ref :url "http://www.w3.org/MarkUp/" [HTML]),
-mais je me suis lassé de l'horreur qu'impliquaient
+mais je me suis lassÃ© de l'horreur qu'impliquaient
 la gestion des notes de bas de page, sans parler de la lourdeur du tout.
 Aujourd'hui, j'utilise ,(Scribe.url)
-(en fait, ma réimplémentation, ,(Exscribe.url)),
-et j'en suis très satisfait:
+(en fait, ma rÃ©implÃ©mentation, ,(Exscribe.url)),
+et j'en suis trÃ¨s satisfait:
 par exemple, ceci est un exemple de note de bas de page
 produit automatiquement par Scribe,
-et si vous avez l'estomac bien accroché,
-vous pouvez comparer la simplicité relative
-des instructions qui suivent avec la complexité du HTML à déployer pour
-obtenir le même résultat ,(--) demandez à votre navigateur d'afficher
+et si vous avez l'estomac bien accrochÃ©,
+vous pouvez comparer la simplicitÃ© relative
+des instructions qui suivent avec la complexitÃ© du HTML Ã  dÃ©ployer pour
+obtenir le mÃªme rÃ©sultat ,(--) demandez Ã  votre navigateur d'afficher
 le source HTML de cette page.
 ][
-Comme Scribe est inutilement compliqué pour les néophytes,
-de par sa sophistication, j'ai formalisé un format de fichier texte
-qui est plus facile à taper et à relire, et qui suffit amplement
+Comme Scribe est inutilement compliquÃ© pour les nÃ©ophytes,
+de par sa sophistication, j'ai formalisÃ© un format de fichier texte
+qui est plus facile Ã  taper et Ã  relire, et qui suffit amplement
 pour les textes dont il s'agit.
-J'ai un script qui transforme automatiquement les fichiers écrits en ce format
+J'ai un script qui transforme automatiquement les fichiers Ã©crits en ce format
 en des fichiers Scribe, qui est le format dans lequel je stoque les textes.
 ][
-Les fichiers au format Word me sont à peu près inutile pour Bastiat.org,
+Les fichiers au format Word me sont Ã  peu prÃ¨s inutile pour Bastiat.org,
 car toute leur mise en page est inexploitable.
-Quand j'en reçois, je m'empresse de le transformer en texte
+Quand j'en reÃ§ois, je m'empresse de le transformer en texte
 (ce qui ne m'est pas facile non plus),
 et je perds du coup les italiques, etc.
-Le HTML est presqu'aussi mauvais (plus simple à visionner
-et à transformer en texte, mais aussi difficile à exploiter).
-Vraiment, les fichiers au format de texte indiqué,
-ou en Scribe, sont ce que j'attends de la part des numériseurs.
+Le HTML est presqu'aussi mauvais (plus simple Ã  visionner
+et Ã  transformer en texte, mais aussi difficile Ã  exploiter).
+Vraiment, les fichiers au format de texte indiquÃ©,
+ou en Scribe, sont ce que j'attends de la part des numÃ©riseurs.
 ]):
 ,(itemize
 (item[
-,(strong[Envoyez-moi du simple texte]) (format ,(tt[.txt])) annoté comme suit.
+,(strong[Envoyez-moi du simple texte]) (format ,(tt[.txt])) annotÃ© comme suit.
 ,(footnote*[
-Surtout, pas de Word, ni de RTF, ni même de HTML.
+Surtout, pas de Word, ni de RTF, ni mÃªme de HTML.
 Vous pouvez m'envoyer du ,(Scribe.url) si vous voulez.
 ])])
 (item[
 ,(strong[Suivez comme exemple
-,(ref :url "les_deux_devises.txt" [le chapitre XII des Harmonies Économiques])
+,(ref :url "les_deux_devises.txt" [le chapitre XII des Harmonies Ã‰conomiques])
 ])
 	au format texte que je vous demande.
 ,(footnote*[
-À titre indicatif, vous pouvez voir ce que donne à partir du format texte
+Ã€ titre indicatif, vous pouvez voir ce que donne Ã  partir du format texte
 ,(ref :url "les_deux_devises.scr" [le format Scribe])
 	sur lequel je travaille,
 ou ,(ref :url "les_deux_devises.html" [le format HTML])
 	obtenu en fin de compte.
 Si vous devenez co-webmestre de Bastiat.org, vous devrez apprendre le Scribe,
-mais vous pouvez continuer à saisir les textes numérisés en texte,
-car il est de toute façon plus simple de les saisir ainsi
+mais vous pouvez continuer Ã  saisir les textes numÃ©risÃ©s en texte,
+car il est de toute faÃ§on plus simple de les saisir ainsi
 et de les convertir automatiquement en ,(Scribe.url).
 La saisie en HTML est une perte de temps.
 ])])
 (item[
-Eliminez les césures (coupure par un tiret d'un mot en fin de la ligne),(pv)
-éliminez les numéros de page, les rappels de titre de chapitre en haut de page.
-Plus généralement,
-éliminez tous les artefacts technologiques de l'édition originale
+Eliminez les cÃ©sures (coupure par un tiret d'un mot en fin de la ligne),(pv)
+Ã©liminez les numÃ©ros de page, les rappels de titre de chapitre en haut de page.
+Plus gÃ©nÃ©ralement,
+Ã©liminez tous les artefacts technologiques de l'Ã©dition originale
 qui ne sont pas le fait de l'auteur.
 ,(footnote*[
 Par contre, conservez les orthographes d'origine,
-notamment les tirets dans non-seulement ou très-bien,
-les accents aigus dans priviléges, etc.
-Ajoûtez un ,(tt[XXX:sic]) si vous voulez.
-Ne corrigez que ce qui était une faute à l'époque
--- et alors précisez l'original avec sa faute dans un
+notamment les tirets dans non-seulement ou trÃ¨s-bien,
+les accents aigus dans privilÃ©ges, etc.
+AjoÃ»tez un ,(tt[XXX:sic]) si vous voulez.
+Ne corrigez que ce qui Ã©tait une faute Ã  l'Ã©poque
+-- et alors prÃ©cisez l'original avec sa faute dans un
 ,(tt[(XXX :EO ...)]).
-Cf. plus bas pour toutes les précisions sur ces annotations.
+Cf. plus bas pour toutes les prÃ©cisions sur ces annotations.
 ])
 ])
 (item[
-Sautez systématiquement une ligne blanche entre chaques paragraphes,
-et n'en sautez jamais à l'intérieur d'un même paragraphe.
+Sautez systÃ©matiquement une ligne blanche entre chaques paragraphes,
+et n'en sautez jamais Ã  l'intÃ©rieur d'un mÃªme paragraphe.
 ,(footnote*[
-À l'intérieur d'un paragraphe,
+Ã€ l'intÃ©rieur d'un paragraphe,
 les sauts de ligne sans ligne blanche ne comptent pas trop;
-du coup, j'aime bien les mettre de façon
-à couper les phrases de façon "logique",
-c'est-à-dire à la frontière entre deux groupes grammaticaux
+du coup, j'aime bien les mettre de faÃ§on
+Ã  couper les phrases de faÃ§on "logique",
+c'est-Ã -dire Ã  la frontiÃ¨re entre deux groupes grammaticaux
 aussi larges que possible
 ,(--) voir les fichiers d'exemples ci-haut.
-Outre l'aspect esthétique, qui est je l'avoue discutable,
-je trouve d'expérience que cela permet de repérer facilement les erreurs
-qui consistent à effacer ou oublier de transcrire des morceaux de phrase,
-ou à les transcrire deux fois. De telles erreurs "sautent aux yeux"
-quand les phrases sont découpées logiquement.
+Outre l'aspect esthÃ©tique, qui est je l'avoue discutable,
+je trouve d'expÃ©rience que cela permet de repÃ©rer facilement les erreurs
+qui consistent Ã  effacer ou oublier de transcrire des morceaux de phrase,
+ou Ã  les transcrire deux fois. De telles erreurs "sautent aux yeux"
+quand les phrases sont dÃ©coupÃ©es logiquement.
 ][
-Quant à la ponctuation, je suis les conventions habituelles
-dans la typographie française pour les fichiers textes:
-pas d'espace avant les ponctuations :;?!., mais un espace après;
-pas d'espace juste après l'ouverture de parenthèses ou guillemets,
+Quant Ã  la ponctuation, je suis les conventions habituelles
+dans la typographie franÃ§aise pour les fichiers textes:
+pas d'espace avant les ponctuations :;?!., mais un espace aprÃ¨s;
+pas d'espace juste aprÃ¨s l'ouverture de parenthÃ¨ses ou guillemets,
 ni juste avant leur fermeture, mais un espace juste avant l'ouverture
-et juste après la fermeture.
+et juste aprÃ¨s la fermeture.
 ])])
 (item[
-Indiquez les italiques entre barres de division ,(tt[/comme ça/])
+Indiquez les italiques entre barres de division ,(tt[/comme Ã§a/])
 ,(footnote*[
 Pour distinguer des italiques d'emphase
-celles utilisées pour indiquer une langue étrangère,
-ou la citation d'un titre, précédez la première barre de division
+celles utilisÃ©es pour indiquer une langue Ã©trangÃ¨re,
+ou la citation d'un titre, prÃ©cÃ©dez la premiÃ¨re barre de division
 d'une lettre code dans les cas suivants:
 ,(tt[l/.../]) pour le latin,
 ,(tt[e/.../]) pour l'anglais,
@@ -424,132 +424,132 @@ d'une lettre code dans les cas suivants:
 ,(tt[t/.../]) pour le titre d'une publication.
 ]).])
 (item[
-Indiquez les gras entre astérisques ,(tt[*comme ça*])
-Notez que dans l'édition Guillaumin des ,(oe)uvres de Bastiat,
-ce que j'identifie au "gras" est écrit en "smallcaps", c'est-à-dire
+Indiquez les gras entre astÃ©risques ,(tt[*comme Ã§a*])
+Notez que dans l'Ã©dition Guillaumin des ,(oe)uvres de Bastiat,
+ce que j'identifie au "gras" est Ã©crit en "smallcaps", c'est-Ã -dire
 tout en majuscule, mais avec des lettres plus grosses pour les
 vraies majuscules et plus petites pour les minuscules.
-Ainsi le mot L,(font :size -3 "IBERTÉ") sera transcrit ,(tt[*Liberté*]),
-alors que ,(font :size -3 "LIBERTÉ") sera transcrit ,(tt[*liberté*]).
+Ainsi le mot L,(font :size -3 "IBERTÃ‰") sera transcrit ,(tt[*LibertÃ©*]),
+alors que ,(font :size -3 "LIBERTÃ‰") sera transcrit ,(tt[*libertÃ©*]).
 ])
 (item[
-Insérez les notes de bas de page à l'endroit où se trouve le numéro de
-référence, entre crochets et avec une astérisque ,(tt"[* comme ça]")
+InsÃ©rez les notes de bas de page Ã  l'endroit oÃ¹ se trouve le numÃ©ro de
+rÃ©fÃ©rence, entre crochets et avec une astÃ©risque ,(tt"[* comme Ã§a]")
 ,(footnote*[
 Si comme c'est souvent le cas, la note de bas de page est juste avant
-une virgule ou un point, le signe de ponctuation sera donc rejeté
-jusqu'après le crochet refermant la note de bas de page.
+une virgule ou un point, le signe de ponctuation sera donc rejetÃ©
+jusqu'aprÃ¨s le crochet refermant la note de bas de page.
 ]).
-Signez ,(tt "NdEEO") ,(--) comme abbréviation pour ,(NdEEO) ,(--)
-partout où l'édition originale signe ,(emph[(Note de l'éditeur.)]).
+Signez ,(tt "NdEEO") ,(--) comme abbrÃ©viation pour ,(NdEEO) ,(--)
+partout oÃ¹ l'Ã©dition originale signe ,(emph[(Note de l'Ã©diteur.)]).
 ])
 (item[
-Insérez tout commentaire de votre part en parenthèses
-en commençant par XXX, comme ceci: ,(tt "(XXX ceci est un commentaire...)").
+InsÃ©rez tout commentaire de votre part en parenthÃ¨ses
+en commenÃ§ant par XXX, comme ceci: ,(tt "(XXX ceci est un commentaire...)").
 ,(footnote*[
 Mettez des commentaires quand vous avez des doutes sur le texte:
-si quelque chose vous paraît une coquille, mais vous n'en êtes pas sûr,
+si quelque chose vous paraÃ®t une coquille, mais vous n'en Ãªtes pas sÃ»r,
 parce que vous n'avez pas l'original sous les yeux,
-ou que l'image scannée est floue ,(--)
-ainsi un relecteur ultérieur pourra rapidement s'occuper des passages
-qui méritent vraiment un coup d',(oe)il.
+ou que l'image scannÃ©e est floue ,(--)
+ainsi un relecteur ultÃ©rieur pourra rapidement s'occuper des passages
+qui mÃ©ritent vraiment un coup d',(oe)il.
 Un ,(tt "(XXX)") suffit pour indiquer que quelque chose vous chiffonne
-à cet endroit.
+Ã  cet endroit.
 ][
-Mettez aussi une remarque si vous voulez rajouter une note de l'éditeur,
+Mettez aussi une remarque si vous voulez rajouter une note de l'Ã©diteur,
 rapprocher le texte d'un autre, m'envoyer un message concernant
 un fragment du texte, etc.
 ][
-Enfin et surtout, mettez impérativement une remarque
+Enfin et surtout, mettez impÃ©rativement une remarque
 si vous corrigez le moins du monde l'original.
 ])])
 (item[
 En particulier, si l'original contenait une coquille
-ou une orthographe douteuse ou obsolète,
-précisez-le par la marque ,(tt "XXX:sic") après l'endroit concerné,
-ou ,(tt "XXX:sic:") avant l'endroit concerné.
+ou une orthographe douteuse ou obsolÃ¨te,
+prÃ©cisez-le par la marque ,(tt "XXX:sic") aprÃ¨s l'endroit concernÃ©,
+ou ,(tt "XXX:sic:") avant l'endroit concernÃ©.
 ,(footnote*[
-Même s'il n'y a pas d'erreur mais que vous pensez qu'un lecteur pourrait
-penser que c'en est une, insérez un ,(tt "XXX:sic") pour lui épargner
-d'avoir à regarder l'original ou à mettre lui-même un ,(tt "XXX")
+MÃªme s'il n'y a pas d'erreur mais que vous pensez qu'un lecteur pourrait
+penser que c'en est une, insÃ©rez un ,(tt "XXX:sic") pour lui Ã©pargner
+d'avoir Ã  regarder l'original ou Ã  mettre lui-mÃªme un ,(tt "XXX")
 qui fera regarder un relecteur suivant.
 ][
 Si vous estimez devoir corriger une erreur, indiquez dans un commentaire
-l'orthographe de l'édition originale, comme dans cet exemple:
+l'orthographe de l'Ã©dition originale, comme dans cet exemple:
 ,(tt "Si notre artisan entreprend (XXX :EO entrepndre) un voyage...")
-Je note en général ,(tt ":EO") si mon commentaire suit l'erreur,
-et ,(tt "EO:") si mon commentaire précède l'erreur corrigée.
-De même, j'indique ,(tt "(XXX sic:)") si le passage non corrigé suit
-le commentaire plutôt qu'il ne le précède.
-Si l'erreur est dans le texte lui-même, surtout ne corrigez pas l'auteur,
-mais insérez une note de bas de page signée ,(tt "NdEEE")
-(pour "Note de l'éditeur de l'édition électronique"),
+Je note en gÃ©nÃ©ral ,(tt ":EO") si mon commentaire suit l'erreur,
+et ,(tt "EO:") si mon commentaire prÃ©cÃ¨de l'erreur corrigÃ©e.
+De mÃªme, j'indique ,(tt "(XXX sic:)") si le passage non corrigÃ© suit
+le commentaire plutÃ´t qu'il ne le prÃ©cÃ¨de.
+Si l'erreur est dans le texte lui-mÃªme, surtout ne corrigez pas l'auteur,
+mais insÃ©rez une note de bas de page signÃ©e ,(tt "NdEEE")
+(pour "Note de l'Ã©diteur de l'Ã©dition Ã©lectronique"),
 dans laquelle vous apporter votre contradiction et votre correction.
-Il est essentiel que les lecteurs aient accès à un texte aussi proche
-de l'original que possible, et que ceux qui étudieront et citeront le texte
-puissent accéder au texte exact de l'original.
+Il est essentiel que les lecteurs aient accÃ¨s Ã  un texte aussi proche
+de l'original que possible, et que ceux qui Ã©tudieront et citeront le texte
+puissent accÃ©der au texte exact de l'original.
 ])])
 (item[
-De même, il est important de citer précisément
-la source utilisée pour numériser vos textes,
-à fin bibliographique autant que pour permettre aux relecteurs futurs
+De mÃªme, il est important de citer prÃ©cisÃ©ment
+la source utilisÃ©e pour numÃ©riser vos textes,
+Ã  fin bibliographique autant que pour permettre aux relecteurs futurs
 de localiser rapidement les textes originaux.
 Si c'est moi qui ai fourni le texte, je peux m'en charger,
-mais sinon, vous devez indiquer l'édition que vous avez numérisé,
-les numéros de page, etc., et remercier ceux qui vous ont fourni le texte, etc.
-À mettre dans un commentaire ,(tt "(XXX ...)") en fin du texte.
+mais sinon, vous devez indiquer l'Ã©dition que vous avez numÃ©risÃ©,
+les numÃ©ros de page, etc., et remercier ceux qui vous ont fourni le texte, etc.
+Ã€ mettre dans un commentaire ,(tt "(XXX ...)") en fin du texte.
 ,(footnote*[
 Enfin, il est judicieux d'indiquer
 dans ce commentaire ,(tt "XXX") de fin de texte 
 si vous avez ou non relu le texte,
-et si cette relecture a été extensive et minutieuse, ou si elle a été rapide.
-Cela permettra d'améliorer le degré de confiance
-que les (re)lecteurs peuvent accorder au texte numérisé.
+et si cette relecture a Ã©tÃ© extensive et minutieuse, ou si elle a Ã©tÃ© rapide.
+Cela permettra d'amÃ©liorer le degrÃ© de confiance
+que les (re)lecteurs peuvent accorder au texte numÃ©risÃ©.
 ])]))
 ]))
 (section :title [Remerciements]
 (p*[
-Les personnes suivantes ont numérisé avec
+Les personnes suivantes ont numÃ©risÃ© avec
 ,(ref :url "http://fare.tunes.org/" [moi])
 des ,(oe)uvres de Bastiat,
-qu'elles en soient remerciées:
+qu'elles en soient remerciÃ©es:
 ,(cbalanca), ,(GregB), ,(loic), ,(andre),
 ,(JML), ,(belem), ,(fguerinet),
 ,(clement.junca), ,(krylenko), ,(leter),
 ,(pmadrolle), ,(frk.paris), ,(bruno), ,(cvincent).
 ][
-Nous tenons aussi à remercier tous ceux qui nous ont fourni
-des textes de Bastiat à numériser:
+Nous tenons aussi Ã  remercier tous ceux qui nous ont fourni
+des textes de Bastiat Ã  numÃ©riser:
 ,(ref :url "http://bastiat.de/" [Claus et Marianne Diem]) et
 ,(ref :url "http://bastiat.net/" [Jacques de Guenin]) pour leurs photocopies,
 mais aussi
 ,(ref :url "http://www.democratie-liberale.asso.fr/editorial/mad/index.html"
-[Alain Madelin]) pour les nombreuses ,(oe)uvres scannées de Bastiat
-sur le CD-ROM qu'il a édité,
-,(cite-title[Aux sources des idées libérales]),(footnote*[
-Au cas où il y aurait des mal-comprenants parmi nos lecteurs,
+[Alain Madelin]) pour les nombreuses ,(oe)uvres scannÃ©es de Bastiat
+sur le CD-ROM qu'il a Ã©ditÃ©,
+,(cite-title[Aux sources des idÃ©es libÃ©rales]),(footnote*[
+Au cas oÃ¹ il y aurait des mal-comprenants parmi nos lecteurs,
 non, cela n'implique aucunement de notre part un quelconque engagement
-ou une quelconque caution concernant l'activité politique de M. Madelin.
-Nous lui savons gré de son intérêt profond et sincère
-pour les idées libérales en général
-et l',(oe)uvre de Frédéric Bastiat en particulier;
+ou une quelconque caution concernant l'activitÃ© politique de M. Madelin.
+Nous lui savons grÃ© de son intÃ©rÃªt profond et sincÃ¨re
+pour les idÃ©es libÃ©rales en gÃ©nÃ©ral
+et l',(oe)uvre de FrÃ©dÃ©ric Bastiat en particulier;
 mais nous nous gardons d'avoir une opinion collective
-(concept même qui nous répugne profondément)
-vis-à-vis de l'adéquation de ses options politiques et compromis électoraux.
+(concept mÃªme qui nous rÃ©pugne profondÃ©ment)
+vis-Ã -vis de l'adÃ©quation de ses options politiques et compromis Ã©lectoraux.
 Ainsi, chacun d'entre nous, fort de sa propre opinion,
 vote (ou s'abstient de voter) selon son c,(oe)ur et sa raison,
 comme de bien entendu.
-Cette remarque ne doit d'ailleurs pas non plus être interprétée
-comme un dénigrement de la même activité politique.
-En fait, nous invitons notre lecteur à ne pas considérer le moins du monde
-nos éventuelles opinions quant à ladite activité politique.
-]) et enfin ,(ref :url "http://gallica.bnf.fr" [la BNF]) pour avoir scanné
+Cette remarque ne doit d'ailleurs pas non plus Ãªtre interprÃ©tÃ©e
+comme un dÃ©nigrement de la mÃªme activitÃ© politique.
+En fait, nous invitons notre lecteur Ã  ne pas considÃ©rer le moins du monde
+nos Ã©ventuelles opinions quant Ã  ladite activitÃ© politique.
+]) et enfin ,(ref :url "http://gallica.bnf.fr" [la BNF]) pour avoir scannÃ©
 les 6 premiers tomes des ,(oeuvres.completes.FB)
 ,(footnote*[
 Et ceci non plus n'implique aucune caution
-des activités de cette institution en général, de son caractère étatique, etc.
+des activitÃ©s de cette institution en gÃ©nÃ©ral, de son caractÃ¨re Ã©tatique, etc.
 ]).]))
 (with-footer
-(p*[Article écrit pour ,(Bastiat.org) par ,(FRR),
-numériseur de nombreux textes de F.B.,
-éditeur de ,(Bastiat.org)])))
+(p*[Article Ã©crit pour ,(Bastiat.org) par ,(FRR),
+numÃ©riseur de nombreux textes de F.B.,
+Ã©diteur de ,(Bastiat.org)])))

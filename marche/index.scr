@@ -1,9 +1,9 @@
 ; -*- Scheme -*-
 ; $Id: index.scr,v 1.7 2004/01/05 03:49:38 fare Exp $
 (style 'bo-style)
-(in-bof :title "La Marche pour Fêter le Capitalisme
+(in-bof :title "La Marche pour FÃªter le Capitalisme
 - Dimanche 1er Juin 2003
-- événement festif libéral mondial")
+- Ã©vÃ©nement festif libÃ©ral mondial")
 (set! =mfc.url= "")
 (set! *scribe-footer*
 	(*list
@@ -18,23 +18,23 @@
 	  (td :width "25%"  :align 'right
 		 (Lib.ref)))))))
 
-(document :title [La Marche pour Fêter le Capitalisme]
+(document :title [La Marche pour FÃªter le Capitalisme]
 (p*
 (center(*list
 (font :size "+2" [
-La prochaine ,(strong[Marche pour Fêter le Capitalisme]) ,(br)
+La prochaine ,(strong[Marche pour FÃªter le Capitalisme]) ,(br)
 aura lieu ,(strong[le dimanche 6 juin 2004]) dans le monde entier.
 ])
 (br)
-[Nous en organiserons une à Paris - réservez la date dans vos agendas!]))
+[Nous en organiserons une Ã  Paris - rÃ©servez la date dans vos agendas!]))
 [
-La précédente ,(strong[Marche pour Fêter le Capitalisme])
-à avoir eu lieu à Paris fut le dimanche ,(1er) juin 2003.
-Partis à 14h00 de la Place de la Bourse, devant la Bourse (métro Bourse),
-nous avons marché jusqu'au lycée Turgot.
+La prÃ©cÃ©dente ,(strong[Marche pour FÃªter le Capitalisme])
+Ã  avoir eu lieu Ã  Paris fut le dimanche ,(1er) juin 2003.
+Partis Ã  14h00 de la Place de la Bourse, devant la Bourse (mÃ©tro Bourse),
+nous avons marchÃ© jusqu'au lycÃ©e Turgot.
 ])
 (hrule)
-(subtitle[Tout sur la Marche pour Fêter le Capitalisme])
+(subtitle[Tout sur la Marche pour FÃªter le Capitalisme])
 (p*
 (itemize
 (item(ref :url "#objet" [Objet de la Marche]))
@@ -46,74 +46,74 @@ nous avons marché jusqu'au lycée Turgot.
 (tag :a :name "objet")
 (subtitle [Objet de la Marche])
 (p*[
-Cette manifestation a pour objet de fêter
+Cette manifestation a pour objet de fÃªter
 le ,(mfc-ref "capitalisme" [Capitalisme]),
-système de coopération pacifique
-entre travailleurs passés, présents et futurs du monde entier.
+systÃ¨me de coopÃ©ration pacifique
+entre travailleurs passÃ©s, prÃ©sents et futurs du monde entier.
 ][
-Nous célébrons les valeurs sous-jacentes au Capitalisme:
-la liberté individuelle, la responsabilité individuelle,
-la créativité individuelle, l'autonomie individuelle,
-la propriété individuelle, les droits individuels imprescriptibles de l'homme.
+Nous cÃ©lÃ©brons les valeurs sous-jacentes au Capitalisme:
+la libertÃ© individuelle, la responsabilitÃ© individuelle,
+la crÃ©ativitÃ© individuelle, l'autonomie individuelle,
+la propriÃ©tÃ© individuelle, les droits individuels imprescriptibles de l'homme.
 ][
-Nous célébrons aussi la prospérité, l'extraordinaire
-élévation matérielle, intellectuelle et spirituelle
-qu'a permis le respect ,(--) même partiel ,(--) de ces valeurs
-dans les siècles récents,
-malgré les ravages de la guerre, d'esprit de conquête, du mercantilisme,
+Nous cÃ©lÃ©brons aussi la prospÃ©ritÃ©, l'extraordinaire
+Ã©lÃ©vation matÃ©rielle, intellectuelle et spirituelle
+qu'a permis le respect ,(--) mÃªme partiel ,(--) de ces valeurs
+dans les siÃ¨cles rÃ©cents,
+malgrÃ© les ravages de la guerre, d'esprit de conquÃªte, du mercantilisme,
 du protectionnisme, du colonialisme, du socialisme, du collectivisme
-et de l'interventionnisme d'état.
+et de l'interventionnisme d'Ã©tat.
 ][
-Si les questions d'actualités seront dans les esprits,
-la marche aura un caractère essentiellement festif et éducatif,
-plutôt que de revendicatif et protestataire. 
+Si les questions d'actualitÃ©s seront dans les esprits,
+la marche aura un caractÃ¨re essentiellement festif et Ã©ducatif,
+plutÃ´t que de revendicatif et protestataire. 
 ])
 
 (hrule)
 (tag :a :name "organisateurs")
 (subtitle [Organisateurs de la Marche])
 (p*[
-La marche a été originellement initiée en Australie par
+La marche a Ã©tÃ© originellement initiÃ©e en Australie par
 le ,(ref :url "http://www.prodos.org/" [PRODOS Institute]).
 Elle a lieu dans de nombreuses villes de par le monde.
 Son site Internet officiel, en anglais, est
 ,(ref :url "http://www.celebratecapitalism.org/"
 	[CelebrateCapitalism.org]).
-L'organisation responsable de la marche à Paris
+L'organisation responsable de la marche Ã  Paris
 est l',(ref :url "http://libertariens.cjb.net/"
 	[Association des Libertariens]) (ADEL).
 ][
-Nous invitons à se joindre à nous
+Nous invitons Ã  se joindre Ã  nous
 tous ceux qui se reconnaissent dans l'objet de cette marche,
 toutes les personnes qui souhaitent promouvoir
-un monde de liberté, de paix et de prospérité.
+un monde de libertÃ©, de paix et de prospÃ©ritÃ©.
 ][
-Si aucune marche n'est encore organisée près de chez vous,
+Si aucune marche n'est encore organisÃ©e prÃ¨s de chez vous,
 il est encore temps pour vous d'en organiser une!
 Nous vous y aiderons.
 ][
 Pour tout renseignement,
 	,(tt (ref :url [mailto:webmaster,(at)bastiat.org]
 		[contactez-nous par email]))
-ou téléphonez-nous au 06.61.31.55.45.
+ou tÃ©lÃ©phonez-nous au 06.61.31.55.45.
 ])
 
 (hrule)
 (tag :a :name "historique")
 (subtitle [Historique de la Marche])
 (p*[
-C'est l'animateur australien Prodos qui a lancé en 2001 l'idée
-d'une marche annuelle lors d'une journée mondiale du Capitalisme.
-La date en fut fixée au premier dimanche du mois de décembre de chaque année.
-Les premières éditions, le 2 décembre 2001, et le ,(1er) décembre 2002,
-ont mobilisé des dizaines de milliers de personnes de par le monde,
+C'est l'animateur australien Prodos qui a lancÃ© en 2001 l'idÃ©e
+d'une marche annuelle lors d'une journÃ©e mondiale du Capitalisme.
+La date en fut fixÃ©e au premier dimanche du mois de dÃ©cembre de chaque annÃ©e.
+Les premiÃ¨res Ã©ditions, le 2 dÃ©cembre 2001, et le ,(1er) dÃ©cembre 2002,
+ont mobilisÃ© des dizaines de milliers de personnes de par le monde,
 dans une centaine de villes.
-Pour que la Marche puisse être une fête joyeuse et ensoleillée
-dans l'hémisphère nord comme dans l'hémisphère sud,
-il a été décidé en 2003 de doubler l'événement en deux journées,
-le premier dimanche de juin et le premier dimanche de décembre,
+Pour que la Marche puisse Ãªtre une fÃªte joyeuse et ensoleillÃ©e
+dans l'hÃ©misphÃ¨re nord comme dans l'hÃ©misphÃ¨re sud,
+il a Ã©tÃ© dÃ©cidÃ© en 2003 de doubler l'Ã©vÃ©nement en deux journÃ©es,
+le premier dimanche de juin et le premier dimanche de dÃ©cembre,
 pour que chaque organisation locale puisse selon ce qui lui convient
-organiser une marche ou un banquet pour célébrer le capitalisme.
+organiser une marche ou un banquet pour cÃ©lÃ©brer le capitalisme.
 ])
 
 (hrule)
@@ -123,12 +123,12 @@ organiser une marche ou un banquet pour célébrer le capitalisme.
 Pour une courte introduction au capitalisme,
 voir ,(mfc-ref "capitalisme" [notre page sur le Capitalisme]).
 ][
-Autres sites sur la Marche pour Fêter le Capitalisme:
+Autres sites sur la Marche pour FÃªter le Capitalisme:
 ,(itemize
 (item[
 ,(ref :url "http://www.CelebrateCapitalism.org/"
 	[CelebrateCapitalism.org]),
-site officiel mondial de la Marche pour Fêter le Capitalisme.
+site officiel mondial de la Marche pour FÃªter le Capitalisme.
 ])
 ; JUNE WCC: http://groups.yahoo.com/group/ProjectLeadersActionNetwork/message/626
 (item[
@@ -137,13 +137,13 @@ Le site de la Marche pour
 	[Bruxelles]).
 ])
 (item[
-Les sites des précédentes Marches ayant eu lieu à Paris:
+Les sites des prÃ©cÃ©dentes Marches ayant eu lieu Ã  Paris:
 la marche du
 ,(ref :url "http://pageperso.aol.fr/_ht_a/pregentil/marche.htm"
-	[dimanche 2 décembre 2001]),
+	[dimanche 2 dÃ©cembre 2001]),
 et celle du
 ,(ref :url "http://pageperso.aol.fr/_ht_a/pregentil/marche2.htm"
-	[dimanche ,(1er) décembre 2002])
+	[dimanche ,(1er) dÃ©cembre 2002])
 	(,(ref :url "http://www.les4verites.com/les4verites/sujets/marchecapitalisme2002.htm" [photos])).
 ]))
 ][
@@ -155,22 +155,22 @@ L',(ref :url "http://libertariens.cjb.net/"
 ])
 (item[
 L',(ref :url "http://www.libertarian.to/"
-	[Internationale Libérale]) (Libertarian International).
+	[Internationale LibÃ©rale]) (Libertarian International).
 ]))
 ][
-Autres sites participant à la Marche:
+Autres sites participant Ã  la Marche:
 ,(itemize
-(item[Journaux libéraux sur le web:
+(item[Journaux libÃ©raux sur le web:
 ,(ref :url "http://www.quebecoislibre.org/"
-	[Le Québécois Libre]),
+	[Le QuÃ©bÃ©cois Libre]),
 ,(ref :url "http://www.les4verites.com/"
-	[Les 4 vérités])
+	[Les 4 vÃ©ritÃ©s])
 ...
 ])
 (item[
-Blogs libéraux:
+Blogs libÃ©raux:
 ,(ref :url "http://www.pageliberale.org/"
-	[La Page Libérale]),
+	[La Page LibÃ©rale]),
 ,(ref :url "http://www.prolibertate.org/"
 	[Pro Libertate]),
 ,(ref :url "http://aristophane-triboulet.com"
@@ -180,17 +180,17 @@ Blogs libéraux:
 ...
 ])
 (item[
-Sites de textes classiques libéraux:
+Sites de textes classiques libÃ©raux:
 ,(ref :url "http://bastiat.org/"
-	[Frédéric Bastiat]),
+	[FrÃ©dÃ©ric Bastiat]),
 ,(ref :url "http://herve.dequengo.free.fr/"
-	[Hervé de Quengo]),
+	[HervÃ© de Quengo]),
 ...
 ])
 ;(item[
-;Sites d'opinion libéraux:
+;Sites d'opinion libÃ©raux:
 ;,(ref :url "http://fare.tunes.org/"
-;	[Le Libéralisme, le vrai])...
+;	[Le LibÃ©ralisme, le vrai])...
 ;])
 )
 ][

@@ -1,167 +1,167 @@
 ; -*- Scheme -*-
 ; $Id: theorie_pratique.scr,v 1.4 2004/11/19 11:00:46 fare Exp $
 (style 'bo-style)
-(in-bof :title "Théorie, pratique
-	- Sophisme économique démonté par Frédéric Bastiat")
-(document :title "Théorie, pratique"
+(in-bof :title "ThÃ©orie, pratique
+	- Sophisme Ã©conomique dÃ©montÃ© par FrÃ©dÃ©ric Bastiat")
+(document :title "ThÃ©orie, pratique"
 	:author (author-FB)
-(subtitle[Chapitre XIII de la ,(Iere) série des ,(SophismesEconomiques)])
+(subtitle[Chapitre XIII de la ,(Iere) sÃ©rie des ,(SophismesEconomiques)])
 (p*[
-Partisans de la liberté des échanges,
-on nous accuse d'être des théoriciens,
+Partisans de la libertÃ© des Ã©changes,
+on nous accuse d'Ãªtre des thÃ©oriciens,
 de ne pas tenir assez compte de la pratique.
 ][
-,(q[Quel terrible préjugé contre M. Say, dit M. Ferrier
+,(q[Quel terrible prÃ©jugÃ© contre M. Say, dit M. Ferrier
 ,(footnote*[
-,(cite-title[De l'Administration commerciale opposée à l'économie politique]),
+,(cite-title[De l'Administration commerciale opposÃ©e Ã  l'Ã©conomie politique]),
 page 5.]),
-que cette longue suite d'administrateurs distingués,
-que cette ligue imposante d'écrivains qui tous ont vu autrement que lui,
+que cette longue suite d'administrateurs distinguÃ©s,
+que cette ligue imposante d'Ã©crivains qui tous ont vu autrement que lui,
 et M. Say ne se le dissimule pas!
-Écoutons-le:
-,(blockquote(q[On a dit, à l'appui des vieilles erreurs,
+Ã‰coutons-le:
+,(blockquote(q[On a dit, Ã  l'appui des vieilles erreurs,
 qu'il faut bien qu'il y ait quelque fondement
-à des idées si généralement adoptées par toutes les nations.
-Ne doit-on pas se défier d'observations et de raisonnements
-qui renversent ce qui a été tenu pour constant jusqu'à ce jour,
-ce qui a été tenu pour certain par tant de personnages
-que rendaient recommandables leurs lumières et leurs intentions?
+Ã  des idÃ©es si gÃ©nÃ©ralement adoptÃ©es par toutes les nations.
+Ne doit-on pas se dÃ©fier d'observations et de raisonnements
+qui renversent ce qui a Ã©tÃ© tenu pour constant jusqu'Ã  ce jour,
+ce qui a Ã©tÃ© tenu pour certain par tant de personnages
+que rendaient recommandables leurs lumiÃ¨res et leurs intentions?
 Cet argument, je l'avoue, est digne de faire une profonde impression,
 et pourrait jeter du doute sur les points les plus incontestables,
-si l'on n'avait vu tour à tour les opinions les plus fausses,
-et que maintenant on reconnaît généralement pour telles,
-reçues et professées par tout le monde pendant une longue suite de siècles.
+si l'on n'avait vu tour Ã  tour les opinions les plus fausses,
+et que maintenant on reconnaÃ®t gÃ©nÃ©ralement pour telles,
+reÃ§ues et professÃ©es par tout le monde pendant une longue suite de siÃ¨cles.
 Il n'y a pas encore bien longtemps que toutes les nations,
-depuis la plus grossière jusqu'à la plus éclairée,
+depuis la plus grossiÃ¨re jusqu'Ã  la plus Ã©clairÃ©e,
 et que tous les hommes, depuis le portefaix jusqu'au philosophe le plus savant,
-admettaient quatre éléments.
-Personne n'eût songé à contester cette doctrine, qui pourtant est fausse;
-tellement qu'aujourd'hui il n'y a pas d'aide-naturaliste qui ne se décriât
-s'il regardait la terre, l'eau et le feu comme des éléments.]))])
+admettaient quatre Ã©lÃ©ments.
+Personne n'eÃ»t songÃ© Ã  contester cette doctrine, qui pourtant est fausse;
+tellement qu'aujourd'hui il n'y a pas d'aide-naturaliste qui ne se dÃ©criÃ¢t
+s'il regardait la terre, l'eau et le feu comme des Ã©lÃ©ments.]))])
 ][
 Sur quoi M. Ferrier fait cette observation:
 ][
-,(q[Si M. Say croit répondre ainsi à l'objection très-forte qu'il s'est proposée,
-il s'abuse étrangement.
-Que des hommes, d'ailleurs très-éclairés,
-se soient trompés pendant plusieurs siècles
+,(q[Si M. Say croit rÃ©pondre ainsi Ã  l'objection trÃ¨s-forte qu'il s'est proposÃ©e,
+il s'abuse Ã©trangement.
+Que des hommes, d'ailleurs trÃ¨s-Ã©clairÃ©s,
+se soient trompÃ©s pendant plusieurs siÃ¨cles
 sur un point quelconque d'histoire naturelle,
 cela se comprend et ne prouve rien.
-L'eau, l'air, la terre et le feu, éléments ou non,
-en étaient-ils moins utiles à l'homme?...
-Ces erreurs-là sont sans conséquence;
-elles n'amènent pas de bouleversements,
+L'eau, l'air, la terre et le feu, Ã©lÃ©ments ou non,
+en Ã©taient-ils moins utiles Ã  l'homme?...
+Ces erreurs-lÃ  sont sans consÃ©quence;
+elles n'amÃ¨nent pas de bouleversements,
 ne jettent pas de malaise dans les esprits,
-elles ne blessent surtout aucun intérêt,
-raison pour laquelle elles pourraient, sans inconvénient,
-durer des milliers d'années.
+elles ne blessent surtout aucun intÃ©rÃªt,
+raison pour laquelle elles pourraient, sans inconvÃ©nient,
+durer des milliers d'annÃ©es.
 Le monde physique marche donc comme si elles n'existaient pas.
-Mais en peut-il être ainsi des erreurs qui attaquent le monde moral?
-Conçoit-on qu'un système d'administration
-qui serait absolument faux, dommageable par conséquent,
-pût être suivi, pendant plusieurs siècles et chez plusieurs peuples,
-avec l'assentiment général de tous les hommes instruits?
-Expliquera-t-on comment un tel système
-pourrait se lier avec la prospérité toujours croissante des nations?
+Mais en peut-il Ãªtre ainsi des erreurs qui attaquent le monde moral?
+ConÃ§oit-on qu'un systÃ¨me d'administration
+qui serait absolument faux, dommageable par consÃ©quent,
+pÃ»t Ãªtre suivi, pendant plusieurs siÃ¨cles et chez plusieurs peuples,
+avec l'assentiment gÃ©nÃ©ral de tous les hommes instruits?
+Expliquera-t-on comment un tel systÃ¨me
+pourrait se lier avec la prospÃ©ritÃ© toujours croissante des nations?
 M. Say avoue que l'argument qu'il combat
 est digne de faire une impression profonde.
 Oui certes, et cette impression reste,
-car M. Say l'a plutôt augmentée que détruite.])
+car M. Say l'a plutÃ´t augmentÃ©e que dÃ©truite.])
 ][
-Écoutons M. de Saint-Chamans:
+Ã‰coutons M. de Saint-Chamans:
 ][
-,(q[Ce n'est guère qu'au milieu du dernier siècle,
-de ce dix-huitième siècle
-où toutes les matières, tous les principes sans exception,
-furent livrés à la discussion des écrivains,
-que ces fournisseurs d'idées ,(emph[spéculatives]),
-appliquées à tout sans être applicables à rien,
-commencèrent à écrire sur l'économie politique.
-Il existait auparavant un système d'économie politique
-non écrit, mais ,(emph[pratiqué]) par les gouversements.
-Colbert, dit-on, en était l'inventeur,
-et il était la règle de tous les États de l'Europe.
+,(q[Ce n'est guÃ¨re qu'au milieu du dernier siÃ¨cle,
+de ce dix-huitiÃ¨me siÃ¨cle
+oÃ¹ toutes les matiÃ¨res, tous les principes sans exception,
+furent livrÃ©s Ã  la discussion des Ã©crivains,
+que ces fournisseurs d'idÃ©es ,(emph[spÃ©culatives]),
+appliquÃ©es Ã  tout sans Ãªtre applicables Ã  rien,
+commencÃ¨rent Ã  Ã©crire sur l'Ã©conomie politique.
+Il existait auparavant un systÃ¨me d'Ã©conomie politique
+non Ã©crit, mais ,(emph[pratiquÃ©]) par les gouversements.
+Colbert, dit-on, en Ã©tait l'inventeur,
+et il Ã©tait la rÃ¨gle de tous les Ã‰tats de l'Europe.
 Ce qu'il y a de plus singulier, c'est qu'il l'est encore,
-malgré les anathèmes et le mépris, malgré les découvertes de l'école moderne.
-Ce système, que nos écrivains ont nommé le ,(emph[système mercantile]),
-consistait à... contrarier, par des prohibitions ou des droits d'entrée,
-les productions étrangères
+malgrÃ© les anathÃ¨mes et le mÃ©pris, malgrÃ© les dÃ©couvertes de l'Ã©cole moderne.
+Ce systÃ¨me, que nos Ã©crivains ont nommÃ© le ,(emph[systÃ¨me mercantile]),
+consistait Ã ... contrarier, par des prohibitions ou des droits d'entrÃ©e,
+les productions Ã©trangÃ¨res
 qui pouvaient ruiner nos manufactures par leur concurrence...
-Ce système a été déclaré inepte, absurde, propre à appauvrir tout pays,
-par les écrivains économistes de toutes les écoles
+Ce systÃ¨me a Ã©tÃ© dÃ©clarÃ© inepte, absurde, propre Ã  appauvrir tout pays,
+par les Ã©crivains Ã©conomistes de toutes les Ã©coles
 ,(footnote*[
 Ne pourrait-on pas dire:
-C'est un terrible préjugé contre MM. Ferrier et Saint-Chamans
-que les économistes ,(emph[de toutes les écoles]),
-c'est-à-dire tous les hommes qui ont étudié la question,
-soient arrivés à ce résultat;
-après tout, la liberté vaut mieux que la contrainte,
+C'est un terrible prÃ©jugÃ© contre MM. Ferrier et Saint-Chamans
+que les Ã©conomistes ,(emph[de toutes les Ã©coles]),
+c'est-Ã -dire tous les hommes qui ont Ã©tudiÃ© la question,
+soient arrivÃ©s Ã  ce rÃ©sultat;
+aprÃ¨s tout, la libertÃ© vaut mieux que la contrainte,
 et les lois de Dieu sont plus sages que celles de Colbert.]),(pv)
-il a été banni de tous les livres,
-réduit à se réfugier dans la ,(emph[pratique]) de tous les peuples;
-et on ne conçoit pas que, pour ce qui regarde la richesse des nations,
-les gouvernements ne s'en soient pas rapportés aux savants auteurs
-plutôt qu'à la ,(emph[vieille expérience]) d'un système, etc...
-On ne conçoit pas surtout que le gouvernement français...
-s'obstine, en économie politique, à résister aux progrès des lumières
-et à conserver dans sa ,(emph[pratique]) ces vieilles erreurs
-que tous nos économistes de plume ont signalées...
-Mais en voilà trop sur ce système mercantile,
+il a Ã©tÃ© banni de tous les livres,
+rÃ©duit Ã  se rÃ©fugier dans la ,(emph[pratique]) de tous les peuples;
+et on ne conÃ§oit pas que, pour ce qui regarde la richesse des nations,
+les gouvernements ne s'en soient pas rapportÃ©s aux savants auteurs
+plutÃ´t qu'Ã  la ,(emph[vieille expÃ©rience]) d'un systÃ¨me, etc...
+On ne conÃ§oit pas surtout que le gouvernement franÃ§ais...
+s'obstine, en Ã©conomie politique, Ã  rÃ©sister aux progrÃ¨s des lumiÃ¨res
+et Ã  conserver dans sa ,(emph[pratique]) ces vieilles erreurs
+que tous nos Ã©conomistes de plume ont signalÃ©es...
+Mais en voilÃ  trop sur ce systÃ¨me mercantile,
 qui n'a pour lui ,(emph[que les faits]),
-et qui n'est soutenu par aucun écrivain
+et qui n'est soutenu par aucun Ã©crivain
 ,(footnote*[
-,(cite-title[Du Système de l'impôt]), etc.,
+,(cite-title[Du SystÃ¨me de l'impÃ´t]), etc.,
 par M. le vicomte de Saint-Chamans, page 11.])!])
 ][
-Ne dirait-on pas, à entendre ce langage,
-que les économistes, en réclamant pour chacun
-,(emph[la libre disposition de sa propriété]),
-ont fait sortir de leur cervelle, comme les fouriéristes,
-un ordre social nouveau, chimérique, étrange,
-une sorte de phalanstère sans précédent dans les annales du genre humain!
+Ne dirait-on pas, Ã  entendre ce langage,
+que les Ã©conomistes, en rÃ©clamant pour chacun
+,(emph[la libre disposition de sa propriÃ©tÃ©]),
+ont fait sortir de leur cervelle, comme les fouriÃ©ristes,
+un ordre social nouveau, chimÃ©rique, Ã©trange,
+une sorte de phalanstÃ¨re sans prÃ©cÃ©dent dans les annales du genre humain!
 Il me semble que, s'il y a, en tout ceci,
-quelque chose d'inventé, de contingent,
-ce n'est pas la liberté, mais la protection;
-ce n'est pas la faculté d'échanger, mais bien la douane,
-la douane appliquée à bouleverser artificiellement
-l'ordre naturel des rémunérations.
+quelque chose d'inventÃ©, de contingent,
+ce n'est pas la libertÃ©, mais la protection;
+ce n'est pas la facultÃ© d'Ã©changer, mais bien la douane,
+la douane appliquÃ©e Ã  bouleverser artificiellement
+l'ordre naturel des rÃ©munÃ©rations.
 ][
-Mais il ne s'agit pas de comparer, de juger les deux systèmes;
+Mais il ne s'agit pas de comparer, de juger les deux systÃ¨mes;
 la question, pour le moment, est de savoir lequel des deux
-s'appuie sur l'expérience.
+s'appuie sur l'expÃ©rience.
 ][
 Ainsi donc, Messieurs les Monopoleurs,
-vous prétendez que les ,(emph[faits]) sont pour vous;
-que nous n'avons de notre côté que des ,(emph[théories]).
+vous prÃ©tendez que les ,(emph[faits]) sont pour vous;
+que nous n'avons de notre cÃ´tÃ© que des ,(emph[thÃ©ories]).
 ][
-Vous vous flattez même que cette longue série d'actes publics,
-cette ,(emph[vieille expérience]) de l'Europe que vous invoquez,
-a paru imposante à M. Say;
-et je conviens qu'il ne vous a pas réfutés avec sa sagacité habituelle.
-,(--) Pour moi, je ne vous cède pas le domaine des ,(emph[faits]),
+Vous vous flattez mÃªme que cette longue sÃ©rie d'actes publics,
+cette ,(emph[vieille expÃ©rience]) de l'Europe que vous invoquez,
+a paru imposante Ã  M. Say;
+et je conviens qu'il ne vous a pas rÃ©futÃ©s avec sa sagacitÃ© habituelle.
+,(--) Pour moi, je ne vous cÃ¨de pas le domaine des ,(emph[faits]),
 car vous n'avez pour vous que des faits exceptionnels et contraints,
-et nous avons à leur opposer les faits universels,
+et nous avons Ã  leur opposer les faits universels,
 les actes libres et volontaires de tous les hommes.
 ][
 Que disons-nous et que dites-vous?
 ][
 ,(--) Nous disons:
 ][
-,(q[Il vaut mieux acheter à autrui ce qu'il en coûte plus cher de faire soi-même.])
+,(q[Il vaut mieux acheter Ã  autrui ce qu'il en coÃ»te plus cher de faire soi-mÃªme.])
 ][
 Et vous, vous dites:
 ][
-,(q[Il vaut mieux faire les choses soi-même,
-encore qu'il en coûte moins cher de les acheter à autrui.])
+,(q[Il vaut mieux faire les choses soi-mÃªme,
+encore qu'il en coÃ»te moins cher de les acheter Ã  autrui.])
 ][
-Or, Messieurs, laissant de côté la théorie, la démonstration, le raisonnement,
-toutes choses qui paraissent vous donner des nausées,
+Or, Messieurs, laissant de cÃ´tÃ© la thÃ©orie, la dÃ©monstration, le raisonnement,
+toutes choses qui paraissent vous donner des nausÃ©es,
 quelle est celle de ces deux assertions
 qui a pour elle la sanction de l',(emph[universelle pratique])?
 ][
 Visitez donc les champs, les ateliers, les usines, les magasins;
 regardez au-dessus, au-dessous et autour de vous;
-scrutez ce qui s'accomplit dans votre propre ménage;
+scrutez ce qui s'accomplit dans votre propre mÃ©nage;
 observez vos propres actes de tous les instants,
 et dites quel est le principe qui dirige
 ces laboureurs, ces ouvriers, ces entrepreneurs, ces marchands;
@@ -169,131 +169,131 @@ dites quelle est votre ,(emph[pratique]) personnelle.
 ][
 Est-ce que l'agriculteur fait ses habits?
 est-ce que le tailleur produit le grain qu'il consomme?
-est-ce que votre ménagère ne cesse pas de faire le pain à la maison
-aussitôt qu'elle trouve économie à l'acheter au boulanger?
+est-ce que votre mÃ©nagÃ¨re ne cesse pas de faire le pain Ã  la maison
+aussitÃ´t qu'elle trouve Ã©conomie Ã  l'acheter au boulanger?
 est-ce que vous quittez la plume pour la brosse,
-afin de ne pas payer ,(emph[tribut]) au décrotteur?
-est-ce que l'économie tout entière de la société
-ne repose pas sur la séparation des occupations,
-sur la division du travail, sur l',(emph[échange]) en un mot?
-et l'échange est-il autre chose que ce calcul
-qui nous fait, à tous tant que nous sommes,
+afin de ne pas payer ,(emph[tribut]) au dÃ©crotteur?
+est-ce que l'Ã©conomie tout entiÃ¨re de la sociÃ©tÃ©
+ne repose pas sur la sÃ©paration des occupations,
+sur la division du travail, sur l',(emph[Ã©change]) en un mot?
+et l'Ã©change est-il autre chose que ce calcul
+qui nous fait, Ã  tous tant que nous sommes,
 discontinuer la production directe,
-lorsque l'acquisition indirecte nous présente épargne de temps et de peine?
+lorsque l'acquisition indirecte nous prÃ©sente Ã©pargne de temps et de peine?
 ][
-Vous n'êtes donc pas les hommes de la ,(emph[pratique]),
+Vous n'Ãªtes donc pas les hommes de la ,(emph[pratique]),
 puisque vous ne pourriez pas montrer un seul homme,
 sur toute la surface du globe, qui agisse selon votre principe.
 ][
 Mais, direz-vous, nous n'avons jamais entendu faire de notre principe
-la règle des relations individuelles.
+la rÃ¨gle des relations individuelles.
 Nous comprenons bien que ce serait briser le lien social,
-et forcer les hommes à vivre, comme les colimaçons, chacun dans sa carapace.
-Nous nous bornons à prétendre qu'il domine ,(emph[de fait])
-les relations qui se sont établies
-entre les agglomérations de la famille humaine.
+et forcer les hommes Ã  vivre, comme les colimaÃ§ons, chacun dans sa carapace.
+Nous nous bornons Ã  prÃ©tendre qu'il domine ,(emph[de fait])
+les relations qui se sont Ã©tablies
+entre les agglomÃ©rations de la famille humaine.
 ][
-Eh bien, cette assertion est encore erronée.
-La famille, la commune, le canton, le département, la province,
-sont autant d'agglomérations qui toutes, sans aucune exception,
-rejettent ,(emph[pratiquement]) votre principe et n'y ont même jamais songé.
-Toutes se procurent par voie d'échange
-ce qu'il leur en coûterait plus de se procurer par voie de production.
-Autant en feraient les peuples, si vous ne l'empêchiez ,(emph[par la force]).
+Eh bien, cette assertion est encore erronÃ©e.
+La famille, la commune, le canton, le dÃ©partement, la province,
+sont autant d'agglomÃ©rations qui toutes, sans aucune exception,
+rejettent ,(emph[pratiquement]) votre principe et n'y ont mÃªme jamais songÃ©.
+Toutes se procurent par voie d'Ã©change
+ce qu'il leur en coÃ»terait plus de se procurer par voie de production.
+Autant en feraient les peuples, si vous ne l'empÃªchiez ,(emph[par la force]).
 ][
-C'est donc nous qui sommes les hommes de pratique et d'expérience;
+C'est donc nous qui sommes les hommes de pratique et d'expÃ©rience;
 car, pour combattre l'interdit
-que vous avez mis exceptionnellement sur quelques échanges internationaux,
-nous nous fondons sur la pratique et l'expérience
-de tous les individus et de toutes les agglomérations d'individus
+que vous avez mis exceptionnellement sur quelques Ã©changes internationaux,
+nous nous fondons sur la pratique et l'expÃ©rience
+de tous les individus et de toutes les agglomÃ©rations d'individus
 dont les actes sont volontaires,
-et peuvent par conséquent être invoqués en témoignage.
-Mais vous, vous commencez par ,(emph[contraindre]), par ,(emph[empêcher]),
-et puis vous vous emparez d'actes ,(emph[forcés]) ou ,(emph[prohibés])
-pour vous écrier: ,(q[Voyez, la pratique nous justifie!])
+et peuvent par consÃ©quent Ãªtre invoquÃ©s en tÃ©moignage.
+Mais vous, vous commencez par ,(emph[contraindre]), par ,(emph[empÃªcher]),
+et puis vous vous emparez d'actes ,(emph[forcÃ©s]) ou ,(emph[prohibÃ©s])
+pour vous Ã©crier: ,(q[Voyez, la pratique nous justifie!])
 ][
-Vous vous élevez contre notre ,(emph[théorie]),
-et même contre la ,(emph[théorie]) en général.
-Mais, quand vous posez un principe antagonique au nôtre,
-vous êtes-vous imaginé, par hasard,
-que vous ne faisiez pas de la ,(emph[théorie])?
+Vous vous Ã©levez contre notre ,(emph[thÃ©orie]),
+et mÃªme contre la ,(emph[thÃ©orie]) en gÃ©nÃ©ral.
+Mais, quand vous posez un principe antagonique au nÃ´tre,
+vous Ãªtes-vous imaginÃ©, par hasard,
+que vous ne faisiez pas de la ,(emph[thÃ©orie])?
 Non, non, rayez cela de vos papiers.
-Vous faites de la théorie comme nous,
-nais il y a entre la vôtre et la nôtre cette différence:
+Vous faites de la thÃ©orie comme nous,
+nais il y a entre la vÃ´tre et la nÃ´tre cette diffÃ©rence:
 ][
-Notre théorie ne consiste qu'à observer les ,(emph[faits]) universels,
-les sentiments universels, les calculs, les procédés universels,
-et tout au plus à les classer, à les coordonner pour les mieux comprendre.
+Notre thÃ©orie ne consiste qu'Ã  observer les ,(emph[faits]) universels,
+les sentiments universels, les calculs, les procÃ©dÃ©s universels,
+et tout au plus Ã  les classer, Ã  les coordonner pour les mieux comprendre.
 ][
-Elle est si peu opposée à la pratique
-qu'elle n'est autre chose que ,(emph[la pratique expliquée]).
+Elle est si peu opposÃ©e Ã  la pratique
+qu'elle n'est autre chose que ,(emph[la pratique expliquÃ©e]).
 Nous regardons agir les hommes mus
-par l'instinct de la conservation et du progrès,
+par l'instinct de la conservation et du progrÃ¨s,
 et ce qu'ils font librement, volontairement,
-c'est cela même que nous appelons ,(emph[économie politique])
-ou économie de la société.
-Nous allons sans cesse répétant:
-Chaque homme est ,(emph[pratiquement]) un excellent économiste,
-produisant ou échangeant
-selon qu'il y a plus d'avantage à échanger ou à produire.
-Chacun, par l'expérience, s'élève à la science,
-ou plutôt la science n'est que cette même expérience
-scrupuleusement observée et méthodiquement exposée.
+c'est cela mÃªme que nous appelons ,(emph[Ã©conomie politique])
+ou Ã©conomie de la sociÃ©tÃ©.
+Nous allons sans cesse rÃ©pÃ©tant:
+Chaque homme est ,(emph[pratiquement]) un excellent Ã©conomiste,
+produisant ou Ã©changeant
+selon qu'il y a plus d'avantage Ã  Ã©changer ou Ã  produire.
+Chacun, par l'expÃ©rience, s'Ã©lÃ¨ve Ã  la science,
+ou plutÃ´t la science n'est que cette mÃªme expÃ©rience
+scrupuleusement observÃ©e et mÃ©thodiquement exposÃ©e.
 ][
-Mais vous, vous faites de la ,(emph[théorie]) dans le sens défavorable du mot.
-Vous imaginez, vous inventez des procédés
-qui ne sont sanctionnés par la pratique
-d'aucun homme vivant sous la voûte des cieux,
-et puis vous appelez à votre aide la contrainte et la prohibition.
-Il faut bien que vous ayez recours ,(emph[à la force]),
+Mais vous, vous faites de la ,(emph[thÃ©orie]) dans le sens dÃ©favorable du mot.
+Vous imaginez, vous inventez des procÃ©dÃ©s
+qui ne sont sanctionnÃ©s par la pratique
+d'aucun homme vivant sous la voÃ»te des cieux,
+et puis vous appelez Ã  votre aide la contrainte et la prohibition.
+Il faut bien que vous ayez recours ,(emph[Ã  la force]),
 puisque, voulant que les hommes produisent
 ce qu'il leur est ,(emph[plus avantageux]) d'acheter,
-vous voulez qu'ils renoncent à un ,(emph[avantage]),
+vous voulez qu'ils renoncent Ã  un ,(emph[avantage]),
 vous exigez d'eux qu'ils se conduisent
-d'après une doctrine qui implique contradiction,
-même dans ses termes.
+d'aprÃ¨s une doctrine qui implique contradiction,
+mÃªme dans ses termes.
 ][
 Aussi, cette doctrine qui, vous en convenez,
 serait absurde dans les relations individuelles,
-je vous défie de l'étendre, même en spéculation,
-aux transactions entre familles, communes, départements ou provinces.
+je vous dÃ©fie de l'Ã©tendre, mÃªme en spÃ©culation,
+aux transactions entre familles, communes, dÃ©partements ou provinces.
 De votre propre aveu, elle n'est applicable qu'aux relations internationales.
 ][
-Et c'est pourquoi vous êtes réduits à répéter chaque jour:
+Et c'est pourquoi vous Ãªtes rÃ©duits Ã  rÃ©pÃ©ter chaque jour:
 ][
 ,(q[Les principes n'ont rien d'absolu.
 Ce qui est ,(emph[bien]) dans l'individu, la famille, la commune, la province,
 est ,(emph[mal]) dans la nation.
-Ce qui est ,(emph[bon]) en détail,
-,(--) savoir: acheter plutôt que produire,
+Ce qui est ,(emph[bon]) en dÃ©tail,
+,(--) savoir: acheter plutÃ´t que produire,
 quand l'achat est plus avantageux que la production,
-,(--) cela même est ,(emph[mauvais]) en masse;
-l'économie politique des individus n'est pas celle des peuples,])
+,(--) cela mÃªme est ,(emph[mauvais]) en masse;
+l'Ã©conomie politique des individus n'est pas celle des peuples,])
 et autres balivernes ,(inlatin[ejusdem farinae]).
 ][
 Et tout cela, pourquoi?
-Regardez-y de près.
-Pour nous prouver que nous, consommateurs, nous sommes votre propriété!
-que nous vous appartenons en corps et en âme!
+Regardez-y de prÃ¨s.
+Pour nous prouver que nous, consommateurs, nous sommes votre propriÃ©tÃ©!
+que nous vous appartenons en corps et en Ã¢me!
 que vous avez sur nos estomacs et sur nos membres un droit exclusif!
-qu'il vous appartient de nous nourrir et de nous vêtir à votre prix,
-quelles que soient votre impéritie, votre rapacité
-ou l'infériorité de votre situation!
+qu'il vous appartient de nous nourrir et de nous vÃªtir Ã  votre prix,
+quelles que soient votre impÃ©ritie, votre rapacitÃ©
+ou l'infÃ©rioritÃ© de votre situation!
 ][
-Non, vous n'êtes pas les hommes de la pratique,
-vous êtes des hommes d'abstraction... et d'extorsion
+Non, vous n'Ãªtes pas les hommes de la pratique,
+vous Ãªtes des hommes d'abstraction... et d'extorsion
 ,(footnote*[
-V. ci-après le ,(bof-ref "encore_repriprocite" [chapitre XV]). ,(NdEEO)
+V. ci-aprÃ¨s le ,(bof-ref "encore_repriprocite" [chapitre XV]). ,(NdEEO)
 ]).
 ])
 (with-footer
 (p*[
 	Extrait de l',(EO1862),
-	tome IV, ,(cite-title[Sophismes Économiques]),
-	,(Iere) série, chapitre XIII, ,(cite-title[Théorie, pratique]),
+	tome IV, ,(cite-title[Sophismes Ã‰conomiques]),
+	,(Iere) sÃ©rie, chapitre XIII, ,(cite-title[ThÃ©orie, pratique]),
 	pp. 79-86.
 ][
-Texte original scanné par la ,(BNF),
+Texte original scannÃ© par la ,(BNF),
 mis en hypertexte par ,(krylenko),
-relu et édité par ,(FRR) pour ,(Bastiat.org).
+relu et Ã©ditÃ© par ,(FRR) pour ,(Bastiat.org).
 ])))

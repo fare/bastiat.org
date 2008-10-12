@@ -1,43 +1,43 @@
 ; -*- Scheme -*-
 ; $Id: nouvelles_precedentes.scr,v 1.12 2005/02/24 00:15:58 fare Exp $
 (style 'bo-style)
-(in-bof :title "Nouvelles Précédentes - Bastiat.org")
+(in-bof :title "Nouvelles PrÃ©cÃ©dentes - Bastiat.org")
 (set! =bof.url= "")
 
-(document :title [Nouvelles Précédentes ,(br) sur Bastiat.org]
+(document :title [Nouvelles PrÃ©cÃ©dentes ,(br) sur Bastiat.org]
 (br)
-(subtitle[Événements])
+(subtitle[Ã‰vÃ©nements])
 (itemize
 (item[
 Une ,(strong(ref :url "../marche/"
-	[Journée du Capitalisme]))
+	[JournÃ©e du Capitalisme]))
 a eu lieu dans le monde entier
-,(strong[le 7 décembre 2003])
+,(strong[le 7 dÃ©cembre 2003])
 ainsi que
  ,(strong[le 6 juin 2004])
 et le
-,(strong[le 5 décembre 2003]).
+,(strong[le 5 dÃ©cembre 2003]).
 ])
 (item[
 La ,(strong(ref :url "../marche/"
-	[Marche pour Fêter le Capitalisme]))
+	[Marche pour FÃªter le Capitalisme]))
 a eu lieu ,(strong[le ,(1er) juin 2003]) dans le monde entier.
-,(strong[À Paris, rencontre à 14h00 place de la Bourse]).
+,(strong[Ã€ Paris, rencontre Ã  14h00 place de la Bourse]).
 ])
 (item[
 ,(strong[,(bof-ref "guillaumin"
-	[Notre sommaire des ,(oe)uvres complètes de Frédéric Bastiat])
+	[Notre sommaire des ,(oe)uvres complÃ¨tes de FrÃ©dÃ©ric Bastiat])
 indexe maintenant tout])
-ce qui a été photonumérisé en octobre 2002 par
-la ,(BNF-ref #f [Bibliothèque Nationale de France]),
-i.e. la première édition en six volumes
+ce qui a Ã©tÃ© photonumÃ©risÃ© en octobre 2002 par
+la ,(BNF-ref #f [BibliothÃ¨que Nationale de France]),
+i.e. la premiÃ¨re Ã©dition en six volumes
 (2003-01-01).
 ])
 (item[
-La deuxième ,(strong[,(ref :url "http://www.celebratecapitalism.org/"
+La deuxiÃ¨me ,(strong[,(ref :url "http://www.celebratecapitalism.org/"
 	[marche pour le capitalisme])])
-a eu lieu le ,(1er) décembre 2002,
-à ,(ref :url "http://pageperso.aol.fr/_ht_a/pregentil/marche2.htm"
+a eu lieu le ,(1er) dÃ©cembre 2002,
+Ã  ,(ref :url "http://pageperso.aol.fr/_ht_a/pregentil/marche2.htm"
 	[Paris])
 	(,(ref :url "http://www.les4verites.com/les4verites/sujets/marchecapitalisme2002.htm" [photos])),
 	,(ref :url "http://www.objectivisme.org/walkforcapitalism/index-fr.htm" [Bruxelles]),
@@ -46,48 +46,48 @@ et dans le monde entier.
 (item[
 ,(leter) est en train de
 ,(leter-ref "Fr%8Ed%8Eric%20Bastiat%20sommaire"
-	[rééditer les ,(oe)uvres complètes])
-	de Frédéric Bastiat,
-	commentées et dans l'ordre chronologique!
+	[rÃ©Ã©diter les ,(oe)uvres complÃ¨tes])
+	de FrÃ©dÃ©ric Bastiat,
+	commentÃ©es et dans l'ordre chronologique!
 	(2000).
 ]))
 (br)
 (subtitle[,(bof-ref "guillaumin" [,(OE*)uvres]) de Bastiat
-	récemment ,(bof-ref "numerisation" [numérisées])])
+	rÃ©cemment ,(bof-ref "numerisation" [numÃ©risÃ©es])])
 (itemize
 (item[,(cite-title(bof-ref "conclusion_eo_harmonies"
-	[Conclusion de l'édition originale]))
+	[Conclusion de l'Ã©dition originale]))
 	(la place de la Spoliation dans le monde
 	,(--) 2003-04-23).
-	,(strong[Ceci complète vraiment
+	,(strong[Ceci complÃ¨te vraiment
 	les ,(HarmoniesEconomiques) de Bastiat]).
 ])
 (item[,(cite-title(bof-ref "tarifs_francais_anglais"
-	[De l'influence des tarifs français et anglais
+	[De l'influence des tarifs franÃ§ais et anglais
 	sur l'avenir des deux peuples]))
-	(Bastiat dénonce le système protecteur et colonial
+	(Bastiat dÃ©nonce le systÃ¨me protecteur et colonial
 	,(--) 2003-06-25).
 ])
 (item[,(cite-title(bof-ref "liberte_pain"
-	[La liberté a donné du pain au peuple anglais]))
-	(Bastiat démontre les bienfaits du libre échange
+	[La libertÃ© a donnÃ© du pain au peuple anglais]))
+	(Bastiat dÃ©montre les bienfaits du libre Ã©change
 	,(--) 2003-04-22).
 ])
-(item[,(cite-title(bof-ref "sucre_antediluvien" [Le sucre antédiluvien]))
-	(Bastiat dénonce le système colonial français
+(item[,(cite-title(bof-ref "sucre_antediluvien" [Le sucre antÃ©diluvien]))
+	(Bastiat dÃ©nonce le systÃ¨me colonial franÃ§ais
 	,(--) 2003-04-11).
 ])
-(item[,(cite-title(bof-ref "propriete_communaute" [Propriété, communauté]))
-	(chapitre VIII des Harmonies Économiques,
+(item[,(cite-title(bof-ref "propriete_communaute" [PropriÃ©tÃ©, communautÃ©]))
+	(chapitre VIII des Harmonies Ã‰conomiques,
 	Bastiat corrige l'erreur fondamentale des communistes.
 	,(--) 2003-04-01).
 ])
 (item[,(cite-title(bof-ref "l_indiscret" [L'indiscret]))
-	(qui bénéficie ,(emph[vraiment]) de la protection?
+	(qui bÃ©nÃ©ficie ,(emph[vraiment]) de la protection?
 	,(--) 2003-03-28).
 ])
-(item[,(cite-title(bof-ref "propriete_fonciere" [Propriété foncière]))
-	(chapitre IX des Harmonies Économiques,
+(item[,(cite-title(bof-ref "propriete_fonciere" [PropriÃ©tÃ© fonciÃ¨re]))
+	(chapitre IX des Harmonies Ã‰conomiques,
 	Bastiat corrige l'erreur physiocratique.
 	,(--) 2003-03-25).
 ])
@@ -96,15 +96,15 @@ et dans le monde entier.
 	(2003-03-24).
 ])
 (item[,(bof-ref "midi_a_quatorze_heures"
-	(cite-title[Midi à quatorze heure]))
+	(cite-title[Midi Ã  quatorze heure]))
 	(2003-03-24).
 ])
 (item[,(bof-ref "ministere_introuvable"
-	(cite-title[Circulaires d'un ministère introuvable]))
+	(cite-title[Circulaires d'un ministÃ¨re introuvable]))
 	(2003-03-18).
 ])
 (item[,(bof-ref "lettre_lamartine_1"
-	(cite-title[Un économiste à M. Alphonse de Lamartine]))
+	(cite-title[Un Ã©conomiste Ã  M. Alphonse de Lamartine]))
 	(2003-03-12).
 ])
 (item[,(bof-ref "spoliation_et_loi" (cite-title[Spoliation et loi]))
@@ -112,50 +112,50 @@ et dans le monde entier.
 ])
 (item[,(bof-ref "producteur_consommateur"
 	(cite-title[Producteur, consommateur])),
-	,(bof-ref "solidarite" (cite-title[solidarité])),
+	,(bof-ref "solidarite" (cite-title[solidaritÃ©])),
 	,(bof-ref "moteur_social" (cite-title[moteur social]))
 	(chapitres XI, XXI, XXII des Harmonies. ,(--) 2003-02-24).
 ])
-(item[,(bof-ref "responsabilite" (cite-title[Responsabilité]))
-	(ch. 20 des Harmonies Économiques,
-	Bastiat sur le principe du progrès humain
+(item[,(bof-ref "responsabilite" (cite-title[ResponsabilitÃ©]))
+	(ch. 20 des Harmonies Ã‰conomiques,
+	Bastiat sur le principe du progrÃ¨s humain
 	,(--) 2003-02-17).
 ])
 (item[,(bof-ref "guerre" (cite-title[Guerre]))
-	(ch. 19 des Harmonies Économiques,
+	(ch. 19 des Harmonies Ã‰conomiques,
 	Bastiat sur l'essence du principe spoliateur
 	,(--) 2003-02-17).
 ])
 (item[
 ,(bof-ref "causes_perturbatrices" (cite-title[Causes perturbatrices]))
-	(ch. 18 des Harmonies Économiques,
-	Bastiat sur les limites naturelles de la liberté
+	(ch. 18 des Harmonies Ã‰conomiques,
+	Bastiat sur les limites naturelles de la libertÃ©
 	,(--) 2003-02-16).
 ])
 (item[
 ,(bof-ref "de_la_rente" (cite-title[De la rente]))
-	(ch. 13 des Harmonies Économiques,
-	Bastiat démythifie la rente foncière.
+	(ch. 13 des Harmonies Ã‰conomiques,
+	Bastiat dÃ©mythifie la rente fonciÃ¨re.
 	,(--) 2003-02-15).
 ])
-(item[,(bof-ref "de_l_epargne" (cite-title[De l'épargne]))
+(item[,(bof-ref "de_l_epargne" (cite-title[De l'Ã©pargne]))
 	(ch. 15 des Harmonies,
-	Bastiat sur l'épargne
+	Bastiat sur l'Ã©pargne
 	,(--) 2003-02-13).
 ])
 (item[,(bof-ref "capital" (cite-title[Capital]))
 	(ch. 7 des Harmonies,
-	Bastiat montre le rôle du Capital dans le progrès de la civilisation
+	Bastiat montre le rÃ´le du Capital dans le progrÃ¨s de la civilisation
 	,(--) 2003-02-07).
 ])
 (item[,(bof-ref "abondance" (cite-title[Abondance]))
-	(Bastiat extrait la substantifique moëlle
-	des doctrines ,(q[économiques]) étatistes
+	(Bastiat extrait la substantifique moÃ«lle
+	des doctrines ,(q[Ã©conomiques]) Ã©tatistes
 	,(--) 2003-02-04).
 ])
-(item[,(bof-ref "perfectibilite" (cite-title[Perfectibilité])),
+(item[,(bof-ref "perfectibilite" (cite-title[PerfectibilitÃ©])),
 	,(bof-ref "rapports"
-		 (cite-title[Rapports de l'économie politique avec...]))
+		 (cite-title[Rapports de l'Ã©conomie politique avec...]))
 	(ultimes esquisses de Bastiat pour ses Harmonies
 	,(--) 2003-02-03).
 ])
@@ -166,84 +166,84 @@ et dans le monde entier.
 ])
 (item[
 ,(bof-ref "conclusion_sophismes"
-	(cite-title[Conclusion de la première série des Sophismes]))
-	(Bastiat expose le rôle de l'économiste politique
+	(cite-title[Conclusion de la premiÃ¨re sÃ©rie des Sophismes]))
+	(Bastiat expose le rÃ´le de l'Ã©conomiste politique
 	,(--) 2003-01-24).
 ])
 (item[
 ,(bof-ref "richesse" (cite-title[Richesse]))
-	(Bastiat distingue deux notions opposées de richesse,
-	des points de vue respectifs de l'utilité et de la valeur
+	(Bastiat distingue deux notions opposÃ©es de richesse,
+	des points de vue respectifs de l'utilitÃ© et de la valeur
 	,(--) 2003-01-18).
 ])
 (item[
-Introduction à ,(bof-ref "capital_et_rente" (cite-title[Capital et rente]))
-	(Bastiat résout la question du capital
+Introduction Ã  ,(bof-ref "capital_et_rente" (cite-title[Capital et rente]))
+	(Bastiat rÃ©sout la question du capital
 	,(--) 2003-01-13).
 ])
 (item[
-,(bof-ref "echange" (cite-title[Échange]))
+,(bof-ref "echange" (cite-title[Ã‰change]))
 	(Bastiat explique ce principe de la civilisation
 	,(--) 2003-01-09).
 ])
 (item[
 ,(bof-ref "baccalaureat_et_socialisme"
-	(cite-title[Baccalauréat et Socialisme]))
+	(cite-title[BaccalaurÃ©at et Socialisme]))
 	(Bastiat contre le monopole de l'enseignement
 	,(--) 2003-01-05).
 ])
 (item[
 ,(bof-ref "guerre_aux_chaires_d_economie_politique"
-	(cite-title[Guerre aux chaires d'économie politique]))
+	(cite-title[Guerre aux chaires d'Ã©conomie politique]))
 	(Bastiat contre le monopole de l'enseignement
 	,(--) 2003-01-04).
 ])
 (item[
 ,(bof-ref "de_la_valeur" (cite-title[De la valeur]))
-	(ch. 5 des Harmonies Économiques,
+	(ch. 5 des Harmonies Ã‰conomiques,
 	Bastiat clarifie cette notion et dissipe bien des sophismes.
 	,(--) 2003-01-03).
 ])
 (item[
 ,(bof-ref "des_besoins_de_l_homme" (cite-title[Des besoins de l'homme]))
-	(ch. 3 des Harmonies Économiques,
-	Bastiat clarifie la notion de progrès
+	(ch. 3 des Harmonies Ã‰conomiques,
+	Bastiat clarifie la notion de progrÃ¨s
 	,(--) 2002-12-13).
 ])
 (item[
 ,(bof-ref "introduction_cobden_ligue"
-	(cite-title[Introduction à ,(q[Cobden et la Ligue])]))
-	(Bastiat présente la révolution libérale
+	(cite-title[Introduction Ã  ,(q[Cobden et la Ligue])]))
+	(Bastiat prÃ©sente la rÃ©volution libÃ©rale
 	en marche en Angleterre ,(--) 2002-12-08).
 ])
 (item[
 ,(bof-ref "besoins_efforts_satisfactions"
 	(cite-title[Besoins, efforts, satisfactions]))
-	(ch. 2 des Harmonies Économiques,
+	(ch. 2 des Harmonies Ã‰conomiques,
 	Bastiat pose les bases de l'Action Humaine
 	,(--) 2002-12-05).
 ])
 (item[
 ,(bof-ref "les_deux_devises" (cite-title[Les deux devises]))
-	(ch. 12 des Harmonies Économiques,
-	Bastiat règle le compte aux ,(q[altruistes])
+	(ch. 12 des Harmonies Ã‰conomiques,
+	Bastiat rÃ¨gle le compte aux ,(q[altruistes])
 	,(--) 2002-12-03).
 ])
 (item[
 ,(bof-ref "organisation"
 	(cite-title[Organisation naturelle, organisation artificielle]))
-	(ch. 1 des Harmonies Économiques,
-	Bastiat règle le compte des ,(q[législateurs]) à la Rousseau
+	(ch. 1 des Harmonies Ã‰conomiques,
+	Bastiat rÃ¨gle le compte des ,(q[lÃ©gislateurs]) Ã  la Rousseau
 	,(--) 2002-11-30).
 ])
 (item[
 ,(bof-ref "de_la_population" (cite-title[De la population]))
-	(ch. 16 des Harmonies Économiques,
+	(ch. 16 des Harmonies Ã‰conomiques,
 	Bastiat reprend et corrige Malthus
 	,(--) 2002-11-25).
 ])
 (item[
-,(bof-ref "cpe" (cite-title[Curieux phénomène économique]))
+,(bof-ref "cpe" (cite-title[Curieux phÃ©nomÃ¨ne Ã©conomique]))
 	(la courbe de Laffer, 150 ans avant
 	,(--) 2002-11-25).
 ])

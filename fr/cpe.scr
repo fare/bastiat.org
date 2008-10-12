@@ -1,69 +1,69 @@
 ; -*- Scheme -*-
 ; $Id: cpe.scr,v 1.14 2003/03/15 18:49:07 fare Exp $
 (style 'bo-style)
-(in-bof :title "Curieux phénomène économique
-	- par Frédéric Bastiat")
-(document :title "Curieux phénomène économique"
+(in-bof :title "Curieux phÃ©nomÃ¨ne Ã©conomique
+	- par FrÃ©dÃ©ric Bastiat")
+(document :title "Curieux phÃ©nomÃ¨ne Ã©conomique"
 	:author (author-FB)
-(subtitle [21 Février 1847])
+(subtitle [21 FÃ©vrier 1847])
 (p* [
-Dans la séance du 9,
-M. Léon Faucher a appelé l'attention de la Chambre
-sur les circonstances financières qui ont hâté en Angleterre
-l'avènement des réformes commerciales.
-Il y a là tout un enchaînement de faits, aussi intéressants qu'instructifs,
-qui nous paraissent mériter d'être soumis
-aux sérieuses méditations de nos lecteurs,
-principalement de ceux qui exercent des industries privilégiées.
-Ils y apprendront peut-être que les monopoles, non plus que les taxes élevées,
+Dans la sÃ©ance du 9,
+M. LÃ©on Faucher a appelÃ© l'attention de la Chambre
+sur les circonstances financiÃ¨res qui ont hÃ¢tÃ© en Angleterre
+l'avÃ¨nement des rÃ©formes commerciales.
+Il y a lÃ  tout un enchaÃ®nement de faits, aussi intÃ©ressants qu'instructifs,
+qui nous paraissent mÃ©riter d'Ãªtre soumis
+aux sÃ©rieuses mÃ©ditations de nos lecteurs,
+principalement de ceux qui exercent des industries privilÃ©giÃ©es.
+Ils y apprendront peut-Ãªtre que les monopoles, non plus que les taxes Ã©levÃ©es,
 ne tiennent pas toujours ce qu'ils semblent promettre.
 ][
-En 1837, l'insurrection du Canada ayant amené un accroissement de dépenses
+En 1837, l'insurrection du Canada ayant amenÃ© un accroissement de dÃ©penses
 qui vint se combiner avec un affaiblissement dans la recette,
-l'équilibre des finances fut rompu en Angleterre,
-et elles présentèrent un premier déficit de 16 millions de francs.
+l'Ã©quilibre des finances fut rompu en Angleterre,
+et elles prÃ©sentÃ¨rent un premier dÃ©ficit de 16 millions de francs.
 ][
-L'année suivante, second déficit de 40 millions;
-1839 laisse un découvert de 37 millions, et 1840 de 40 millions.
+L'annÃ©e suivante, second dÃ©ficit de 40 millions;
+1839 laisse un dÃ©couvert de 37 millions, et 1840 de 40 millions.
 ][
-L'administration songea sérieusementà fermer cette plaie toujours croissante.
-Il y avait à choisir entre deux moyens:
-diminuer les dépenses ou accroître les recettes.
-Soit qu'aux yeux du ministère, le cercle des réformes possibles,
-dans la première de ces directions, eût été parcouru depuis 1815,
+L'administration songea sÃ©rieusementÃ  fermer cette plaie toujours croissante.
+Il y avait Ã  choisir entre deux moyens:
+diminuer les dÃ©penses ou accroÃ®tre les recettes.
+Soit qu'aux yeux du ministÃ¨re, le cercle des rÃ©formes possibles,
+dans la premiÃ¨re de ces directions, eÃ»t Ã©tÃ© parcouru depuis 1815,
 soit que, selon l'usage de tous les gouvernements,
-il se crût obligé d'épuiser le peuple
+il se crÃ»t obligÃ© d'Ã©puiser le peuple
 avant de toucher aux droits acquis des fonctionnaires,
-toujours est-il que sa première pensée
-fut celle qui s'offre à tous les ministres:
-,(emph[demander à l'impôt tout ce qu'il peut rendre.])
+toujours est-il que sa premiÃ¨re pensÃ©e
+fut celle qui s'offre Ã  tous les ministres:
+,(emph[demander Ã  l'impÃ´t tout ce qu'il peut rendre.])
 ][
-En conséquence, le cabinet Russel provoqua, et le parlement vota
-un bill qui autorisait un prélèvement additionnel
-de 10 pour 100 sur l'impôt foncier,
+En consÃ©quence, le cabinet Russel provoqua, et le parlement vota
+un bill qui autorisait un prÃ©lÃ¨vement additionnel
+de 10 pour 100 sur l'impÃ´t foncier,
 5 pour 100 sur la douane et l'accise,
 et 4 pence par gallon sur les spiritueux.
 ][
 Avant d'aller plus loin,
-il est bon de jeter un coup d',(oe)il sur la manière dont étaient réparties,
-à cette époque, les contributions publiques du Royaume-Uni.
+il est bon de jeter un coup d',(oe)il sur la maniÃ¨re dont Ã©taient rÃ©parties,
+Ã  cette Ã©poque, les contributions publiques du Royaume-Uni.
 ][
-Le chiffre des recettes s'élevait à environ 47 millions sterling.
+Le chiffre des recettes s'Ã©levait Ã  environ 47 millions sterling.
 ][
-Elles étaient puisées à trois sources:
+Elles Ã©taient puisÃ©es Ã  trois sources:
 la ,(emph[douane]) et l',(emph[accise]),
-nature d'impôts qui frappe tout le monde d'une manière à peu près égale,
-c'est-à-dire qui retombe, dans une proportion énorme,
+nature d'impÃ´ts qui frappe tout le monde d'une maniÃ¨re Ã  peu prÃ¨s Ã©gale,
+c'est-Ã -dire qui retombe, dans une proportion Ã©norme,
 sur les classes laborieuses;
-les ,(inenglish[assessed taxes]) ou impôt foncier,
+les ,(inenglish[assessed taxes]) ou impÃ´t foncier,
 qui atteint directement le riche, surtout en Angleterre;
 et le ,(emph[timbre]), qui est d'une nature mixte.
 ][
-L'impôt du peuple rendait 37 millions ou 9/12 de la totalité;
+L'impÃ´t du peuple rendait 37 millions ou 9/12 de la totalitÃ©;
 ][
-L'impôt du riche, 4 millions ou 4/12 de la totalité;
+L'impÃ´t du riche, 4 millions ou 4/12 de la totalitÃ©;
 ][
-L'impôt mixte, 2 millions ou 2/12.
+L'impÃ´t mixte, 2 millions ou 2/12.
 ,(footnote :note [
 Il y a visiblement ici une erreur de calcul;
 Bastiat voulait dire 1/24 et non pas 2/12.
@@ -71,283 +71,283 @@ Mais cela a peu d'incidence sur le reste de la discussion.
 ,(NdEBO)
 ])
 ][
-D'où il suit que le commerce, l'industrie, le travail,
-les classes moyennes et pauvres de la société
-acquittaient les cinq sixièmes des charges publiques,
-ce qui avait fait dire, sans doute, à M. Cobden:
+D'oÃ¹ il suit que le commerce, l'industrie, le travail,
+les classes moyennes et pauvres de la sociÃ©tÃ©
+acquittaient les cinq sixiÃ¨mes des charges publiques,
+ce qui avait fait dire, sans doute, Ã  M. Cobden:
 ,(q [Si notre code financier parvenait sans commentaires dans la lune,
 les habitants de ce satellite n'auraient pas besoin d'autre document
-pour en induire que l'Angleterre est gouvernée
-par une aristocratie maîtresse du sol et de la législation.])
+pour en induire que l'Angleterre est gouvernÃ©e
+par une aristocratie maÃ®tresse du sol et de la lÃ©gislation.])
 ][
-Faisons remarquer ici en passant, et à l'honneur de la France,
+Faisons remarquer ici en passant, et Ã  l'honneur de la France,
 que, pendant que les possesseurs de la terre ne payent en Angleterre
 que 8 pour 100 des contributions totales,
 chez nous ils acquittent 33 pour 100,
 et qu'en outre ils prennent une beaucoup plus grande part,
-vu leur nombre, dans les impôts de consommation.
+vu leur nombre, dans les impÃ´ts de consommation.
 ][
-D'après ce qui précède, le prélèvement additionnel imaginé par les whigs
+D'aprÃ¨s ce qui prÃ©cÃ¨de, le prÃ©lÃ¨vement additionnel imaginÃ© par les whigs
 devait produire:
 ](apply* table (map* (lambda (x) (tr (td :align 'right (car x)) (td (cadr x))))
  '(([1,426,040] [liv. st. 5 pour 100 sur la douane et l'accise,
 	spiritueux non compris;])
    ([186,000] [liv. st. 4 pence par gallon, sur les spiritueux;])
-   ([400,000] [liv. st. 10 pour 100 sur l'impôt foncier.]))))
+   ([400,000] [liv. st. 10 pour 100 sur l'impÃ´t foncier.]))))
 [
-Ici encore le peuple était appelé à réparer, dans la proportion des 4/5,
-le déficit amené par les fautes de l'oligarchie.
+Ici encore le peuple Ã©tait appelÃ© Ã  rÃ©parer, dans la proportion des 4/5,
+le dÃ©ficit amenÃ© par les fautes de l'oligarchie.
 ][
-Le bill fut mis à exécution au commencement de 1840.
-Au 5 avril 1841, on procéda avec anxiété à la balance;
-et ce ne fut pas sans une surprise mélée d'effroi
+Le bill fut mis Ã  exÃ©cution au commencement de 1840.
+Au 5 avril 1841, on procÃ©da avec anxiÃ©tÃ© Ã  la balance;
+et ce ne fut pas sans une surprise mÃ©lÃ©e d'effroi
 qu'on constata, au lieu de l'accroissement attendu de 2,200,000 liv. st.,
-une diminution sur la recette de l'année précédente
+une diminution sur la recette de l'annÃ©e prÃ©cÃ©dente
 de quelques centaines de mille livres.
 ][
-Ce fut une révélation subite.
-C'était donc en vain que le peuple avait été frappé de nouvelles taxes;
-ce serait en vain qu'on aurait recours désormais à ce moyen.
-L'expérience venait de mettre au jour un fait capital,
-c'est que l'Angleterre était arrivée à la limite extrême
+Ce fut une rÃ©vÃ©lation subite.
+C'Ã©tait donc en vain que le peuple avait Ã©tÃ© frappÃ© de nouvelles taxes;
+ce serait en vain qu'on aurait recours dÃ©sormais Ã  ce moyen.
+L'expÃ©rience venait de mettre au jour un fait capital,
+c'est que l'Angleterre Ã©tait arrivÃ©e Ã  la limite extrÃªme
 de ses ressources contributives,
-et qu'il devenait à l'avenir impossible, par l'accroissement des impôts,
+et qu'il devenait Ã  l'avenir impossible, par l'accroissement des impÃ´ts,
 de lui arracher un schelling.
-Cependant le déficit était toujours béant.
-(,(emph[V. à l'introduction du tome III, pages 42 et suiv.]))
+Cependant le dÃ©ficit Ã©tait toujours bÃ©ant.
+(,(emph[V. Ã  l'introduction du tome III, pages 42 et suiv.]))
 ][
-Les ,(emph[théoriciens]), comme on les appelle,
-se mirent à étudier le menaçant phénomène.
-Il leur vint à l'idée qu'on pourrait peut-être
-augmenter les recettes en diminuant les impôts,
-idée qui semblait impliquer une contradiction choquante.
-Outre les raisons théoriques qu'ils alléguaient en faveur de leur opinion,
-quelques expériences antérieures donnaient une certaine autorité à leur avis.
-Mais, pour les personnes qui, quoique vouées au culte des ,(emph[faits]),
+Les ,(emph[thÃ©oriciens]), comme on les appelle,
+se mirent Ã  Ã©tudier le menaÃ§ant phÃ©nomÃ¨ne.
+Il leur vint Ã  l'idÃ©e qu'on pourrait peut-Ãªtre
+augmenter les recettes en diminuant les impÃ´ts,
+idÃ©e qui semblait impliquer une contradiction choquante.
+Outre les raisons thÃ©oriques qu'ils allÃ©guaient en faveur de leur opinion,
+quelques expÃ©riences antÃ©rieures donnaient une certaine autoritÃ© Ã  leur avis.
+Mais, pour les personnes qui, quoique vouÃ©es au culte des ,(emph[faits]),
 n'ont pas cependant horreur de la ,(emph[raison des faits]),
 nous devons dire comment ils soutenaient leur opinion.
 ]
 (q [
-Le produit d'un impôt sur un objet de consommation, disaient-ils,
-est en raison du taux de la taxe et de la quantité consommée.
-Exemple: si, l'impôt étant ,(emph[un]), il se consomme dix livres de sucre,
+Le produit d'un impÃ´t sur un objet de consommation, disaient-ils,
+est en raison du taux de la taxe et de la quantitÃ© consommÃ©e.
+Exemple: si, l'impÃ´t Ã©tant ,(emph[un]), il se consomme dix livres de sucre,
 la recette sera ,(emph[dix]).
-Cette recette s'accroîtra,
-soit que le taux de la taxe s'élève, la consommation restant la même,
-soit que la consommation s'étende, le taux de la taxe ne variant pas.
-Elle baissera si l'un ou l'autre de ces éléments s'altère;
+Cette recette s'accroÃ®tra,
+soit que le taux de la taxe s'Ã©lÃ¨ve, la consommation restant la mÃªme,
+soit que la consommation s'Ã©tende, le taux de la taxe ne variant pas.
+Elle baissera si l'un ou l'autre de ces Ã©lÃ©ments s'altÃ¨re;
 elle baissera encore quoique l'un des deux augmente,
 si l'autre diminue dans une plus forte proportion.
-Ainsi, quoiqu'on élève la taxe à 2, si la consommation se réduit à 4,
+Ainsi, quoiqu'on Ã©lÃ¨ve la taxe Ã  2, si la consommation se rÃ©duit Ã  4,
 la recette ne sera que de 8.
-Dans ce dernier cas, la privation pour le peuple sera énorme,
-,(--) sans profit, bien plus, avec dommage pour le Trésor.])
-(XXX :sic [guillemets non fermés dans l'EO])
+Dans ce dernier cas, la privation pour le peuple sera Ã©norme,
+,(--) sans profit, bien plus, avec dommage pour le TrÃ©sor.])
+(XXX :sic [guillemets non fermÃ©s dans l'EO])
 [
-Cela posé, ce multiplicateur et ce multiplicande
-sont-ils indépendants entre eux,
-ou ne peut-on grossir l'un qu'aux dépens de l'autre?
-Les théoriciens répondaient:
+Cela posÃ©, ce multiplicateur et ce multiplicande
+sont-ils indÃ©pendants entre eux,
+ou ne peut-on grossir l'un qu'aux dÃ©pens de l'autre?
+Les thÃ©oriciens rÃ©pondaient:
 ,(q [La taxe agit comme tous les frais de production,
-elle élève le prix des choses,
-et les place hors de la portée d'un certain nombre d'hommes.
-D'où cette conclusion mathématique:
-si un impôt est graduellement et indéfiniment élevé,
-par cela même qu'à chaque degré d'élévation
-il restreint un peu plus la consommation ou la matière imposable,
-un moment arrive nécessairement où la moindre addition à la taxe
+elle Ã©lÃ¨ve le prix des choses,
+et les place hors de la portÃ©e d'un certain nombre d'hommes.
+D'oÃ¹ cette conclusion mathÃ©matique:
+si un impÃ´t est graduellement et indÃ©finiment Ã©levÃ©,
+par cela mÃªme qu'Ã  chaque degrÃ© d'Ã©lÃ©vation
+il restreint un peu plus la consommation ou la matiÃ¨re imposable,
+un moment arrive nÃ©cessairement oÃ¹ la moindre addition Ã  la taxe
 diminue la recette.])
-,(XXX :sic [guillemets non fermés dans l'EO])
+,(XXX :sic [guillemets non fermÃ©s dans l'EO])
 ][
-Que les protectionnistes sincères, et ils sont nombreux,
-nous permettent de recommander ce phénomène à leur attention.
-Nous verrons plus tard que l'excès de la protection
-leur fait jouer le même rôle qu'au Trésor l'exagération des taxes.
+Que les protectionnistes sincÃ¨res, et ils sont nombreux,
+nous permettent de recommander ce phÃ©nomÃ¨ne Ã  leur attention.
+Nous verrons plus tard que l'excÃ¨s de la protection
+leur fait jouer le mÃªme rÃ´le qu'au TrÃ©sor l'exagÃ©ration des taxes.
 ][
-Les théoriciens ne se bornèrent pas à ce théorème arithmétique.
+Les thÃ©oriciens ne se bornÃ¨rent pas Ã  ce thÃ©orÃ¨me arithmÃ©tique.
 Creusant un peu plus dans la question, ils disaient:
-Si le gouvernement eût mieux connu l'état déplorable des ressources du peuple,
+Si le gouvernement eÃ»t mieux connu l'Ã©tat dÃ©plorable des ressources du peuple,
 il n'aurait pas fait une tentative qui le couvre de confusion.
 ][
-En effet, si la condition individuelle des citoyens était stationnaire,
+En effet, si la condition individuelle des citoyens Ã©tait stationnaire,
 le revenu des taxes indirectes augmenterait exactement comme la population.
-Si, en outre, le capital national, et avec lui le bien-être général,
+Si, en outre, le capital national, et avec lui le bien-Ãªtre gÃ©nÃ©ral,
 vont croissant, le revenu doit augmenter plus vite que le nombre des hommes.
-Enfin, si les facultés de consommation sont rétrogrades,
-le Trésor doit en souffrir.
-Il suit de là que lorsqu'on a sous les yeux ce double phénomène:
+Enfin, si les facultÃ©s de consommation sont rÃ©trogrades,
+le TrÃ©sor doit en souffrir.
+Il suit de lÃ  que lorsqu'on a sous les yeux ce double phÃ©nomÃ¨ne:
 accroissement de population, diminution de recettes,
 on a une double raison pour conclure
-que le peuple est soumis à des privations progressives.
-Élever dans ce moment le prix des choses,
-c'est soumettre les citoyens à des privations additionnelles,
+que le peuple est soumis Ã  des privations progressives.
+Ã‰lever dans ce moment le prix des choses,
+c'est soumettre les citoyens Ã  des privations additionnelles,
 sans aucun avantage fiscal.
 ][
-Or, quel était, à ce point de vue, l'état des choses en 1840?
+Or, quel Ã©tait, Ã  ce point de vue, l'Ã©tat des choses en 1840?
 ][
-Il était constaté que la population augmentait de 360,361 habitants par année.
+Il Ã©tait constatÃ© que la population augmentait de 360,361 habitants par annÃ©e.
 ][
-D'après cela,
+D'aprÃ¨s cela,
 en supposant les ressources individuelles seulement stationnaires,
-quel aurait dû être le produit de la douane et de l'accise,
-et quel fut-il en réalité?
+quel aurait dÃ» Ãªtre le produit de la douane et de l'accise,
+et quel fut-il en rÃ©alitÃ©?
 C'est ce qu'on verra dans le tableau suivant
 ]
 (apply* table
  (apply* tr (map* (lambda (x) (td :valign 'top x))
-  (list [ANNÉES.]
+  (list [ANNÃ‰ES.]
 	[POPULATION.]
 	[PRODUIT PROPORTIONNEL ,(br) des taxes indirectes.] []
-	[PRODUIT RÉEL.])))
+	[PRODUIT RÃ‰EL.])))
  (map* (lambda (x) (apply* tr (map* td x)))
   `((1836 [26,158,524] [36,392,472 l.s.] () [30,392,472 l. s.])
     (1837 [26,518,885] [36,938,363] () [33,958,421])
     (1838 [26,879,246] [37,484,254] () [34,478,417])
     (1839 [27,239,607] [38,030,145] () [35,093,633])
     (1840 [27,599,968] [38,567,036] ,(footnote :note [
-Avec la surtaxe de 5 pour 100 votée cette année (1840).
+Avec la surtaxe de 5 pour 100 votÃ©e cette annÃ©e (1840).
 ]) [35,536,469]))))
 [
-Ainsi, même en l'absence de tout progrès industriel,
+Ainsi, mÃªme en l'absence de tout progrÃ¨s industriel,
 et par la force seule du nombre, le revenu,
-qui avait été de 36 millions en 1836,
-aurait dû être de 38 millions en 1840.
-Il tomba à 35 millions, malgré la surtaxe de 5 pour 100,
-résultat que l'affaiblissement des années précédentes aurait dû faire prévoir.
-Ce qu'il y a de singulier, c'est que dans les cinq années antérieures
-le contraire était arrivé.
-La douane et l'accise ayant été dégrévées, le revenu public s'était amélioré
-dans une proportion supérieure à l'accroissement de la population.
+qui avait Ã©tÃ© de 36 millions en 1836,
+aurait dÃ» Ãªtre de 38 millions en 1840.
+Il tomba Ã  35 millions, malgrÃ© la surtaxe de 5 pour 100,
+rÃ©sultat que l'affaiblissement des annÃ©es prÃ©cÃ©dentes aurait dÃ» faire prÃ©voir.
+Ce qu'il y a de singulier, c'est que dans les cinq annÃ©es antÃ©rieures
+le contraire Ã©tait arrivÃ©.
+La douane et l'accise ayant Ã©tÃ© dÃ©grÃ©vÃ©es, le revenu public s'Ã©tait amÃ©liorÃ©
+dans une proportion supÃ©rieure Ã  l'accroissement de la population.
 ][
-Le lecteur devine peut-être quelles conséquences
-les théoriciens tiraient de ces observations.
-Ils disaient au ministère:
+Le lecteur devine peut-Ãªtre quelles consÃ©quences
+les thÃ©oriciens tiraient de ces observations.
+Ils disaient au ministÃ¨re:
 Vous ne pouvez plus grossir utilement
 le multiplicateur (le taux de la taxe)
-sans altérer dans une proportion plus forte
-le multiplicande (la matière imposable),(pv)
-essayez, en abaissant l'impôt,
-de laisser s'accroître les ressources du peuple.
+sans altÃ©rer dans une proportion plus forte
+le multiplicande (la matiÃ¨re imposable),(pv)
+essayez, en abaissant l'impÃ´t,
+de laisser s'accroÃ®tre les ressources du peuple.
 ][
-Mais c'était là une entreprise pleine de périls.
-En admettant même qu'elle pût être couronnéee de succès dans un avenir éloigné,
+Mais c'Ã©tait lÃ  une entreprise pleine de pÃ©rils.
+En admettant mÃªme qu'elle pÃ»t Ãªtre couronnÃ©ee de succÃ¨s dans un avenir Ã©loignÃ©,
 on sait positivement qu'il faut du temps
-avant que les réductions de taxes comblent les vides qu'elles font,
-et, ne l'oublions pas, on avait en face le déficit.
+avant que les rÃ©ductions de taxes comblent les vides qu'elles font,
+et, ne l'oublions pas, on avait en face le dÃ©ficit.
 ][
-Il ne s'agissait donc de rien moins que de creuser de plus en plus cet abîme,
-de compromettre le crédit de la vieille Angleterre,
-et d'ouvrir la porte à des catastrophes incalculables.
+Il ne s'agissait donc de rien moins que de creuser de plus en plus cet abÃ®me,
+de compromettre le crÃ©dit de la vieille Angleterre,
+et d'ouvrir la porte Ã  des catastrophes incalculables.
 ][
-La difficulté était pressante.
-Elle accabla le ministère whig.
+La difficultÃ© Ã©tait pressante.
+Elle accabla le ministÃ¨re whig.
 Peel entra aux affaires.
 ][
-On sait comment il résolut le problème.
-Il commença par mettre un impôt sur les riches.
-Il se créa ainsi des ressources,
-non-seulement pour combler le déficit,
-mais encore pour parer aux découverts monentanés
-que devaient entraîner les réformes qu'il méditait.
+On sait comment il rÃ©solut le problÃ¨me.
+Il commenÃ§a par mettre un impÃ´t sur les riches.
+Il se crÃ©a ainsi des ressources,
+non-seulement pour combler le dÃ©ficit,
+mais encore pour parer aux dÃ©couverts monentanÃ©s
+que devaient entraÃ®ner les rÃ©formes qu'il mÃ©ditait.
 ][
-Grâce à l',(inenglish[income-tax]),
+GrÃ¢ce Ã  l',(inenglish[income-tax]),
 il soulagea le peuple du fardeau de l'accise,
-et, à mesure que la Ligue propageait les saines idées économiques,
+et, Ã  mesure que la Ligue propageait les saines idÃ©es Ã©conomiques,
 des restrictions de la douane.
-Aujourd'hui, malgré la suppression de beaucoup de taxes,
+Aujourd'hui, malgrÃ© la suppression de beaucoup de taxes,
 l'abaissement de toutes les autres,
-l'Échiquier serait florissant,
-sans les calamités imprévues qui sont venues fondre sur la Grande-Bretagne.
+l'Ã‰chiquier serait florissant,
+sans les calamitÃ©s imprÃ©vues qui sont venues fondre sur la Grande-Bretagne.
 ][
-Il faut en convenir, M. Peel a conduit cette révolution financière
-avec une énergie, une audace qui étonnent.
-Ce n'est pas sans raison qu'il caractérisait souvent ces mesures par ces mots:
-,(q (inenglish[Bold experiment,])) expérience hardie.
-Ce n'est pas nous qui voudrions altérer la renommée de cet homme d'État
+Il faut en convenir, M. Peel a conduit cette rÃ©volution financiÃ¨re
+avec une Ã©nergie, une audace qui Ã©tonnent.
+Ce n'est pas sans raison qu'il caractÃ©risait souvent ces mesures par ces mots:
+,(q (inenglish[Bold experiment,])) expÃ©rience hardie.
+Ce n'est pas nous qui voudrions altÃ©rer la renommÃ©e de cet homme d'Ã‰tat
 et la recoinnaissance des classes laborieuses d'Angleterre,
 et on peut dire de tous les pays.
-Mais l'exéculion c'est assez pour sa gloire,
-et nous devons dire en toute justice que l'invention appartient tout entière
-à un théoricien, à un simple journaliste, M. James Wilson,
-dont les conseils, s'ils étaient suivis,
-sauveraient peut-être l'Irlande de 1847
-comme ils ont sauvé l'Angleterre de 1840.
+Mais l'exÃ©culion c'est assez pour sa gloire,
+et nous devons dire en toute justice que l'invention appartient tout entiÃ¨re
+Ã  un thÃ©oricien, Ã  un simple journaliste, M. James Wilson,
+dont les conseils, s'ils Ã©taient suivis,
+sauveraient peut-Ãªtre l'Irlande de 1847
+comme ils ont sauvÃ© l'Angleterre de 1840.
 ][
 Maintenant, les hommes qui cherchent
-les succès de leur industrie dans le monopole
+les succÃ¨s de leur industrie dans le monopole
 nous demanderont quelle analogie il y a
-entre les faits que nous venons de rappeler et le régime protecteur.
+entre les faits que nous venons de rappeler et le rÃ©gime protecteur.
 ][
-Nous les prions de regarder les choses de près
+Nous les prions de regarder les choses de prÃ¨s
 et de voir s'ils ne sont pas dans la position assez ridicule
-où s'est trouvé l'Échiquier en 1840.
+oÃ¹ s'est trouvÃ© l'Ã‰chiquier en 1840.
 ][
 Qu'est-ce que la protection? Une taxe sur les consommateurs.
 Vous dites qu'elle vous profite.
-Sans doute, comme les taxes profitent au Trésor.
-Mais vous ne pouvez pas empêcher que ces taxes
-n'amoindrissent les facultés du public consommateur,
+Sans doute, comme les taxes profitent au TrÃ©sor.
+Mais vous ne pouvez pas empÃªcher que ces taxes
+n'amoindrissent les facultÃ©s du public consommateur,
 sa puissance d'acheter, de payer, d'absorber des produits.
-Certainement, il consomme moins de blé et de drap
+Certainement, il consomme moins de blÃ© et de drap
 que s'il lui en venait de toutes les parties du monde.
-C'est déjà un grand mal, nous dirons même une grande injustice;
-mais, relativement à vous, à votre intérêt,
+C'est dÃ©jÃ  un grand mal, nous dirons mÃªme une grande injustice;
+mais, relativement Ã  vous, Ã  votre intÃ©rÃªt,
 la question est de savoir si vous ne subirez pas le sort du fisc;
-s'il n'y a pas un moment où cet anéantissement des forces de la consommation
-vous prive de débouchés dans une telle mesure,
+s'il n'y a pas un moment oÃ¹ cet anÃ©antissement des forces de la consommation
+vous prive de dÃ©bouchÃ©s dans une telle mesure,
 que cela fait plus que compenser le taux de la protection;
 en d'autres termes, si dans cette lutte
-entre l'exhaussement artificiel du prix dû au droit protecteur
-et l'abaissement du prix occasionné par l'impuissance des acheteurs,
-ce dernier effet ne prévaut pas sur le premier,
-auquel cas évidemment vous perdriez
-et sur le prix de vente et sur la quantité vendue.
+entre l'exhaussement artificiel du prix dÃ» au droit protecteur
+et l'abaissement du prix occasionnÃ© par l'impuissance des acheteurs,
+ce dernier effet ne prÃ©vaut pas sur le premier,
+auquel cas Ã©videmment vous perdriez
+et sur le prix de vente et sur la quantitÃ© vendue.
 ][
-À cela vous dites qu'il y a contradiction.
-Que, puisque c'est à l'élévation du prix
+Ã€ cela vous dites qu'il y a contradiction.
+Que, puisque c'est Ã  l'Ã©lÃ©vation du prix
 qu'est imputable l'impuissance relative des consommateurs,
-on ne peut admettre que, sous le régime de la liberté,
-le prix s'élevât, sans admettre par cela même un rétrécissement de débouchés;
-que, par la même raison, un accroissement de débouchés
+on ne peut admettre que, sous le rÃ©gime de la libertÃ©,
+le prix s'Ã©levÃ¢t, sans admettre par cela mÃªme un rÃ©trÃ©cissement de dÃ©bouchÃ©s;
+que, par la mÃªme raison, un accroissement de dÃ©bouchÃ©s
 implique un abaissement du prix, puisque l'un est effet et l'autre cause.
 ][
-Il y a à répondre que vous vous faites illusion.
+Il y a Ã  rÃ©pondre que vous vous faites illusion.
 On peut certainement concevoir un pays
-où tout le monde soit assez dans l'aisance
-pour qu'on y puisse vendre les choses même à un bon prix,
-et un autre pays où tout le monde soit si dénué
-qu'on n'y peut trouver du débit même à bon marché.
-C'est vers ce dernier état que nous conduisent
-et les grosses taxes qui vont au Trésor,
+oÃ¹ tout le monde soit assez dans l'aisance
+pour qu'on y puisse vendre les choses mÃªme Ã  un bon prix,
+et un autre pays oÃ¹ tout le monde soit si dÃ©nuÃ©
+qu'on n'y peut trouver du dÃ©bit mÃªme Ã  bon marchÃ©.
+C'est vers ce dernier Ã©tat que nous conduisent
+et les grosses taxes qui vont au TrÃ©sor,
 et les grosses taxes qui vont aux fabricants;
-et il arrive un moment où le Trésor et les fabricants
-n'ont plus qu'un moyen de maintenir et d'accroître leurs recettes,
-c'est de relâcher le taux de la taxe et de laisser respirer le public.
+et il arrive un moment oÃ¹ le TrÃ©sor et les fabricants
+n'ont plus qu'un moyen de maintenir et d'accroÃ®tre leurs recettes,
+c'est de relÃ¢cher le taux de la taxe et de laisser respirer le public.
 ][
-Au reste, ce n'est pas là une argumentation dénuée de preuves.
-Chaque fois qu'on a soustrait un peuple à la pression d'un droit protecteur,
-il est survenu que deux tendances opposées ont agi sur le prix.
-L'absence de protection l'a certainement poussé vers la baisse;
+Au reste, ce n'est pas lÃ  une argumentation dÃ©nuÃ©e de preuves.
+Chaque fois qu'on a soustrait un peuple Ã  la pression d'un droit protecteur,
+il est survenu que deux tendances opposÃ©es ont agi sur le prix.
+L'absence de protection l'a certainement poussÃ© vers la baisse;
 mais l'accroissement de demande
-l'a poussé tout aussi certainement vers la hausse;
+l'a poussÃ© tout aussi certainement vers la hausse;
 en sorte que le prix s'est au moins maintenu,
-et le profit net de l'opération a été un excédant de consommation.
+et le profit net de l'opÃ©ration a Ã©tÃ© un excÃ©dant de consommation.
 Vous dites que cela n'est pas possible.
 Nous disons que cela est;
 et si vous voulez consulter les prix courants
-du café, des soieries, du sucre, des laines, en Angleterre,
-dans les années qui ont suivi la réduction des droits protecteurs,
+du cafÃ©, des soieries, du sucre, des laines, en Angleterre,
+dans les annÃ©es qui ont suivi la rÃ©duction des droits protecteurs,
 vous en resterez convaincus
 ,(footnote :note [
-V. tome IV, le chap. ,(cite-title [Cherté, bon marché]), page 163.
+V. tome IV, le chap. ,(cite-title [ChertÃ©, bon marchÃ©]), page 163.
 ,(NdEEO).]).
 ]
 (with-footer
 (p* [
-Extrait de l',(EO1863), tome II, ,(cite-title[Le Libre Échange]),
-texte 33, ,(cite-title[Curieux phénomène économique]), pp. 186-194.
+Extrait de l',(EO1863), tome II, ,(cite-title[Le Libre Ã‰change]),
+texte 33, ,(cite-title[Curieux phÃ©nomÃ¨ne Ã©conomique]), pp. 186-194.
 ][
-Texte scanné par la ,(BNF),
+Texte scannÃ© par la ,(BNF),
 	transcrit et mis en hypertexte par ,(FRR)
 	pour ,(Bastiat.org),
 	relu par ,(cvincent).])

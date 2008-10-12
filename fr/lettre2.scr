@@ -1,492 +1,492 @@
 ; -*- Scheme -*-
 ; $Id: lettre2.scr,v 1.10 2005/08/11 22:52:03 fare Exp $
 (style 'bo-style)
-(in-bof :title "Gratuité du crédit - Deuxième lettre
-	- Frédéric Bastiat à La Voix du Peuple")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Deuxième lettre]
+(in-bof :title "GratuitÃ© du crÃ©dit - DeuxiÃ¨me lettre
+	- FrÃ©dÃ©ric Bastiat Ã  La Voix du Peuple")
+(document :title [,(cite-title[GratuitÃ© du crÃ©dit]) ,(--) DeuxiÃ¨me lettre]
 	:author (author-FB)
 (tag :p :align 'center (font :size "+3" (strong[
 		F. Bastiat ,(br)
-	Au rédacteur de ,(cite-title[La Voix du Peuple])
+	Au rÃ©dacteur de ,(cite-title[La Voix du Peuple])
 ,(footnote*[
-Cette lettre est en réponse
-à une ,(bof-ref "lettre1" [lettre ouverte de F. Chevé à Bastiat])
+Cette lettre est en rÃ©ponse
+Ã  une ,(bof-ref "lettre1" [lettre ouverte de F. ChevÃ© Ã  Bastiat])
 parue dans ,(cite-title[La Voix du Peuple]),
-elle même réaction au pamphlet
+elle mÃªme rÃ©action au pamphlet
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente]))
 (also available ,(boe-ref "capital_and_interest" (cite-title[in English]))).
-À la suite de cet échange, un débat épistolaire eut lieu
-entre Proudhon et Bastiat dans les colonnes du même journal.
-Proudhon termina avec sa 6,(sup[ème]) lettre
-en déclarant le débat clôt et Bastiat mort.
-La réponse de Bastiat ne fut pas publiée par le journal.
-Les treizes premières lettres du débat (se terminant par l'anathème)
-furent publiées par Proudhon comme un livre,
-,(cite-title[Intérêt et Principal]).
-Bastiat publia alors lui aussi l'échange, augmenté de sa dernière lettre,
+Ã€ la suite de cet Ã©change, un dÃ©bat Ã©pistolaire eut lieu
+entre Proudhon et Bastiat dans les colonnes du mÃªme journal.
+Proudhon termina avec sa 6,(sup[Ã¨me]) lettre
+en dÃ©clarant le dÃ©bat clÃ´t et Bastiat mort.
+La rÃ©ponse de Bastiat ne fut pas publiÃ©e par le journal.
+Les treizes premiÃ¨res lettres du dÃ©bat (se terminant par l'anathÃ¨me)
+furent publiÃ©es par Proudhon comme un livre,
+,(cite-title[IntÃ©rÃªt et Principal]).
+Bastiat publia alors lui aussi l'Ã©change, augmentÃ© de sa derniÃ¨re lettre,
 comme ,(GratuiteCredit). ,(XXX)
-Pour référence, la traduction en anglais
-des quatres premières lettres de Proudhon
-dans cette correspondance publique est disponible sur le ouèbe:
+Pour rÃ©fÃ©rence, la traduction en anglais
+des quatres premiÃ¨res lettres de Proudhon
+dans cette correspondance publique est disponible sur le ouÃ¨be:
 ,(ref :url "http://dwardmac.pitzer.edu/anarchist_archives/proudhon/interestletter1.html" [1]),
 ,(ref :url "http://dwardmac.pitzer.edu/anarchist_archives/proudhon/interestletter2.html" [2]),
 ,(ref :url "http://dwardmac.pitzer.edu/anarchist_archives/proudhon/interestletter3.html" [3]),
 ,(ref :url "http://dwardmac.pitzer.edu/anarchist_archives/proudhon/interestletter4.html" [4]).
-Pour en savoir plus, vous pouvez consulter un des sites consacrés à
+Pour en savoir plus, vous pouvez consulter un des sites consacrÃ©s Ã 
 ,(ref :url "http://perso.wanadoo.fr/jean-pierre.proudhon/p_j_prou/pierre_j.htm"
 	[P.-J. Proudhon]),
-ou les bibliothèques économiques en-ligne.
-Si des volontaires sont intéressés par m'aider dans la
-,(bof-ref "numerisation" [numérisation]) intégrale de ce débat (242 pages),
+ou les bibliothÃ¨ques Ã©conomiques en-ligne.
+Si des volontaires sont intÃ©ressÃ©s par m'aider dans la
+,(bof-ref "numerisation" [numÃ©risation]) intÃ©grale de ce dÃ©bat (242 pages),
 me contacter.
 Le texte est de toute la correspondance est disponible
 sur ,(BNF-ref #f [gallica.bnf.fr]):
 voyez dans notre ,(bof-ref "guillaumin"
-	[sommaire des ,(oe)uvres complètes de Bastiat]),
+	[sommaire des ,(oe)uvres complÃ¨tes de Bastiat]),
 au tome V, ,(Gratuite_credit).
 ,(NdEBO)
 ])
 ])))
 (tag :p :align 'center
 (font :size "+2" (strong[
-L'usage d'une propriété est une valeur.
+L'usage d'une propriÃ©tÃ© est une valeur.
 ,(br)
-,(--) Toute valeur peut s'échanger contre une autre.
+,(--) Toute valeur peut s'Ã©changer contre une autre.
 ,(br)
-,(--) Fécondité du ,(strong[capital]).
+,(--) FÃ©conditÃ© du ,(strong[capital]).
 ,(br)
-Sa coopération n'est pas rémunérée aux dépens du ,(strong[travail]).
+Sa coopÃ©ration n'est pas rÃ©munÃ©rÃ©e aux dÃ©pens du ,(strong[travail]).
 ,(br)
-,(--) Cette rémunération n'est pas exclusivement attachée
-à la circonstance du ,(strong[prêt]).
+,(--) Cette rÃ©munÃ©ration n'est pas exclusivement attachÃ©e
+Ã  la circonstance du ,(strong[prÃªt]).
 ])))
 (date-tag(small[12 novembre 1849.]))
 (p*[
-L'ardeur extrême avec laquelle le peuple, en France,
-s'est mis à creuser les problèmes économiques,
-et l'inconcevable indifférence des classes aisées à l'égard de ces problèmes
-forment un des traits les plus caractéristiques de notre époque.
-Pendant que les anciens journaux, organes et miroirs de la bonne société,
-s'en tiennent à la guerroyante et stérile politique de parti,
-les feuilles destinées aux classes ouvrières
+L'ardeur extrÃªme avec laquelle le peuple, en France,
+s'est mis Ã  creuser les problÃ¨mes Ã©conomiques,
+et l'inconcevable indiffÃ©rence des classes aisÃ©es Ã  l'Ã©gard de ces problÃ¨mes
+forment un des traits les plus caractÃ©ristiques de notre Ã©poque.
+Pendant que les anciens journaux, organes et miroirs de la bonne sociÃ©tÃ©,
+s'en tiennent Ã  la guerroyante et stÃ©rile politique de parti,
+les feuilles destinÃ©es aux classes ouvriÃ¨res
 agitent incessamment ce qu'on peut appeler les questions de fond,
 	les questions sociales.
 Malheureusement, je le crains bien,
-elles s'égarent dès leurs premiers pas dans cette voie.
-Mais en pouvait-il être autrement?
-Elles ont du moins le mérite de chercher la vérité.
-Tôt ou tard la possession de la vérité sera leur récompense.
+elles s'Ã©garent dÃ¨s leurs premiers pas dans cette voie.
+Mais en pouvait-il Ãªtre autrement?
+Elles ont du moins le mÃ©rite de chercher la vÃ©ritÃ©.
+TÃ´t ou tard la possession de la vÃ©ritÃ© sera leur rÃ©compense.
 ][
 Puisque vous voulez bien, Monsieur,
 m'ouvrir les colonnes de ,(emph[La Voix du Peuple]),
 je poserai devant vos lecteurs,
-et m'efforcerai de résoudre ces deux questions:
+et m'efforcerai de rÃ©soudre ces deux questions:
 ][
-1° L'intérêt des capitaux est-il légitime?
+1Â° L'intÃ©rÃªt des capitaux est-il lÃ©gitime?
 ][
-2° Est-il prélevé aux dépens du travail et des travailleurs?
+2Â° Est-il prÃ©levÃ© aux dÃ©pens du travail et des travailleurs?
 ][
-Nous différons sur la solution;
+Nous diffÃ©rons sur la solution;
 mais il est un point sur lequel nous sommes certainement d'accord:
-c'est que l'esprit humain ne peut s'attaquer (sauf les problèmes religieux)
-à des questions plus graves.
+c'est que l'esprit humain ne peut s'attaquer (sauf les problÃ¨mes religieux)
+Ã  des questions plus graves.
 ][
 Si c'est moi qui me trompe,
-si l'intérêt est une taxe abusive prélevée par le capital
+si l'intÃ©rÃªt est une taxe abusive prÃ©levÃ©e par le capital
 	sur tous les objets de consommation,
-j'aurai à me reprocher d'avoir, à mon insu,
-étançonné par mes arguments
+j'aurai Ã  me reprocher d'avoir, Ã  mon insu,
+Ã©tanÃ§onnÃ© par mes arguments
 	le plus ancien,
 	le plus effroyable
 	et le plus universel abus
-		que le génie de la spoliation ait jamais imaginé;
+		que le gÃ©nie de la spoliation ait jamais imaginÃ©;
 abus auquel ne se peuvent comparer,
-quant à la généralité des résultats,
-	ni le pillage systématique des peuples guerriers,
+quant Ã  la gÃ©nÃ©ralitÃ© des rÃ©sultats,
+	ni le pillage systÃ©matique des peuples guerriers,
 	ni l'esclavage,
 	ni le despotisme sacerdotal.
-Une déplorable erreur économique
-aurait tourné contre la démocratie
-cette flamme démocratique que je sens brûler dans mon c,(oe)ur.
+Une dÃ©plorable erreur Ã©conomique
+aurait tournÃ© contre la dÃ©mocratie
+cette flamme dÃ©mocratique que je sens brÃ»ler dans mon c,(oe)ur.
 ][
-Mais si l'erreur est de votre côté,
-si l'intérêt est non seulement naturel, juste et légitime,
+Mais si l'erreur est de votre cÃ´tÃ©,
+si l'intÃ©rÃªt est non seulement naturel, juste et lÃ©gitime,
 mais encore utile et profitable,
-même à ceux qui le paient,
+mÃªme Ã  ceux qui le paient,
 vous conviendrez que votre propagande ne peut que faire,
-malgré vos bonnes intentions,
+malgrÃ© vos bonnes intentions,
 un mal immense.
-Elle induit les travailleurs à se croire victimes
+Elle induit les travailleurs Ã  se croire victimes
 d'une injustice qui n'existe pas;
-à prendre pour un mal ce qui est un bien.
-Elle sème l'irritation dans une classe et la frayeur dans l'autre.
-Elle détourne ceux qui souffrent
-de découvrir la vraie cause de leurs souffrances
+Ã  prendre pour un mal ce qui est un bien.
+Elle sÃ¨me l'irritation dans une classe et la frayeur dans l'autre.
+Elle dÃ©tourne ceux qui souffrent
+de dÃ©couvrir la vraie cause de leurs souffrances
 en les mettant sur une fausse piste.
-Elle leur montre une prétendue spoliation
-qui les empêche de voir et de combattre les spoliations réelles.
-Elle familiarise les esprits avec cette pensée funeste
-que l'ordre, la justice et l'union ne peuvent renaître
+Elle leur montre une prÃ©tendue spoliation
+qui les empÃªche de voir et de combattre les spoliations rÃ©elles.
+Elle familiarise les esprits avec cette pensÃ©e funeste
+que l'ordre, la justice et l'union ne peuvent renaÃ®tre
 que par une transformation universelle
-	(aussi détestable qu'impossible dans l'hypothèse)
-de tout le système selon lequel s'accomplissent,
-depuis le commencement du monde, le Travail et les Échanges.
+	(aussi dÃ©testable qu'impossible dans l'hypothÃ¨se)
+de tout le systÃ¨me selon lequel s'accomplissent,
+depuis le commencement du monde, le Travail et les Ã‰changes.
 ][
 Il n'est donc pas de question plus grave.
-Je la reprendrai au point où la discussion l'a amenée.
+Je la reprendrai au point oÃ¹ la discussion l'a amenÃ©e.
 ][
 Oui, Monsieur, vous avez raison.
-Comme vous dites, nous ne sommes séparés
-que par l'épaisseur d'une Équivoque
-portant sur les mots Usage et Propriété.
-Mais cette équivoque suffit pour que vous croyiez devoir marcher,
+Comme vous dites, nous ne sommes sÃ©parÃ©s
+que par l'Ã©paisseur d'une Ã‰quivoque
+portant sur les mots Usage et PropriÃ©tÃ©.
+Mais cette Ã©quivoque suffit pour que vous croyiez devoir marcher,
 plein de confiance, vers l'Occident,
 tandis que ma foi me pousse vers l'Orient.
-Entre nous, au point de départ,
+Entre nous, au point de dÃ©part,
 la distance est imperceptible,
-mais elle ne tarde pas à devenir un abîme incommensurable.
+mais elle ne tarde pas Ã  devenir un abÃ®me incommensurable.
 ][
-La première chose à faire, c'est de revenir sur nos pas,
-jusqu'à ce que nous ayons retrouvé
-le point de départ sur lequel nous sommes d'accord.
+La premiÃ¨re chose Ã  faire, c'est de revenir sur nos pas,
+jusqu'Ã  ce que nous ayons retrouvÃ©
+le point de dÃ©part sur lequel nous sommes d'accord.
 Ce terrain qui nous est commun,
-	c'est la ,(emph[mutualité des services]).
+	c'est la ,(emph[mutualitÃ© des services]).
 ][
 J'avais dit:
-Celui qui prête
+Celui qui prÃªte
 	une maison,
-	un sac de blé,
+	un sac de blÃ©,
 	un rabot,
-	une pièce de monnaie,
+	une piÃ¨ce de monnaie,
 	un navire,
 	en un mot une ,(strong[valeur]),
-pour un temps déterminé,
+pour un temps dÃ©terminÃ©,
 	rend un ,(emph[service]).
 Il doit donc recevoir,
-outre la restitution de cette valeur à l'échéance,
-un ,(emph[service équivalent]).
+outre la restitution de cette valeur Ã  l'Ã©chÃ©ance,
+un ,(emph[service Ã©quivalent]).
 ,(--) Vous convenez qu'il doit, en effet, recevoir ,(emph[quelque chose]).
 C'est un grand pas vers la solution,
-car c'est ce quelque chose que j'appelle ,(strong[intérêt]).
+car c'est ce quelque chose que j'appelle ,(strong[intÃ©rÃªt]).
 ][
-Voyons, Monsieur, nous accordons-nous sur ce point de départ?
-Vous me prêtez, pour toute l'année 1849,
-1000 F en écus,
-,(--) ou un instrument de travail estimé 1000 F
+Voyons, Monsieur, nous accordons-nous sur ce point de dÃ©part?
+Vous me prÃªtez, pour toute l'annÃ©e 1849,
+1000 F en Ã©cus,
+,(--) ou un instrument de travail estimÃ© 1000 F
 ,(--) ou un approvisionnement valant 1000 F
 ,(--) ou une maison valant 1000 F.
 C'est en 1849 que je recueillerai
 tous les avantages que peut procurer cette ,(emph[valeur])
-créée par votre travail et non par le mien.
+crÃ©Ã©e par votre travail et non par le mien.
 C'est en 1849 que vous vous priverez volontairement, en ma faveur,
-de ces avantages que vous pourriez très légitimement vous réserver.
+de ces avantages que vous pourriez trÃ¨s lÃ©gitimement vous rÃ©server.
 Suffira-t-il,
 	pour que nous soyons quittes,
-	pour que les services aient été équivalents et réciproques,
+	pour que les services aient Ã©tÃ© Ã©quivalents et rÃ©ciproques,
 	pour que la justice soit satisfaite,
 suffira-t-il qu'au premier de l'an 1850,
-je vous restitue intégralement, mais uniquement,
-vos écus, votre machine, votre blé, votre maison?
-Prenez garde, s'il en doit être ainsi,
-je vous avertis que le rôle que je me réserverai toujours,
+je vous restitue intÃ©gralement, mais uniquement,
+vos Ã©cus, votre machine, votre blÃ©, votre maison?
+Prenez garde, s'il en doit Ãªtre ainsi,
+je vous avertis que le rÃ´le que je me rÃ©serverai toujours,
 dans ces sortes de transactions, sera celui d'emprunteur:
-ce rôle est commode, il est tout profit;
-il me met à même d'être logé et pourvu toute ma vie aux dépens d'autrui;
-à la condition toutefois de trouver un préteur,
-ce qui, dans ce système, ne sera pas facile;
-car qui bâtira des maisons pour les louer ,(emph[gratis])
+ce rÃ´le est commode, il est tout profit;
+il me met Ã  mÃªme d'Ãªtre logÃ© et pourvu toute ma vie aux dÃ©pens d'autrui;
+Ã  la condition toutefois de trouver un prÃ©teur,
+ce qui, dans ce systÃ¨me, ne sera pas facile;
+car qui bÃ¢tira des maisons pour les louer ,(emph[gratis])
 et se contenter, de terme en terme, de la pure restitution?
 ][
-Aussi n'est-ce pas là ce que vous prétendez.
-Vous reconnaissez (et c'est ce que je tiens à bien constater)
-que celui qui a prêté une maison ou une valeur quelconque,
+Aussi n'est-ce pas lÃ  ce que vous prÃ©tendez.
+Vous reconnaissez (et c'est ce que je tiens Ã  bien constater)
+que celui qui a prÃªtÃ© une maison ou une valeur quelconque,
 a rendu un ,(emph[service])
-dont il n'est pas rémunéré par la simple remise des clefs au terme,
-ou le simple remboursement à l'échéance.
-Il y a donc, d'après vous comme d'après moi,
-,(emph[quelque chose]) à stipuler en sus de la restitution.
+dont il n'est pas rÃ©munÃ©rÃ© par la simple remise des clefs au terme,
+ou le simple remboursement Ã  l'Ã©chÃ©ance.
+Il y a donc, d'aprÃ¨s vous comme d'aprÃ¨s moi,
+,(emph[quelque chose]) Ã  stipuler en sus de la restitution.
 Nous pouvons ne pas nous accorder sur la nature et le nom
 	de ce ,(emph[quelque chose]),(pv)
-mais ,(emph[quelque chose]) est dû par l'emprunteur.
-Et puisque vous admettez, d'une part, la ,(emph[mutualité des services]),
-puisque, d'autre part, vous avouez que le préteur a rendu ,(emph[service]),
+mais ,(emph[quelque chose]) est dÃ» par l'emprunteur.
+Et puisque vous admettez, d'une part, la ,(emph[mutualitÃ© des services]),
+puisque, d'autre part, vous avouez que le prÃ©teur a rendu ,(emph[service]),
 permettez-moi d'appeler provisoirement
 	,(emph[cette chose]) due par l'emprunteur
 	un ,(emph[service]).
 ][
 Eh bien! Monsieur,
-il me semble que la question a fait un pas, et même un grand pas,
-car voici où nous en sommes:
+il me semble que la question a fait un pas, et mÃªme un grand pas,
+car voici oÃ¹ nous en sommes:
 ][
-Selon votre théorie, tout aussi bien que selon la mienne,
-entre le prêteur et l'emprunteur,
-cette convention est parfaitement légitime qui stipule:
+Selon votre thÃ©orie, tout aussi bien que selon la mienne,
+entre le prÃªteur et l'emprunteur,
+cette convention est parfaitement lÃ©gitime qui stipule:
 ][
-1° La restitution intégrale, à l'échéance, de l'objet prêté;
+1Â° La restitution intÃ©grale, Ã  l'Ã©chÃ©ance, de l'objet prÃªtÃ©;
 ][
-2° Un ,(emph[service]) à rendre par l'emprunteur au prêteur,
-en compensation du service qu'il en a reçu.
+2Â° Un ,(emph[service]) Ã  rendre par l'emprunteur au prÃªteur,
+en compensation du service qu'il en a reÃ§u.
 ][
 Maintenant, quels seront la nature et le nom
-	de ce service dû par l'emprunteur?
-Je n'attache pas à ces questions l'importance scientifique que vous y mettez.
-Elles peuvent être abandonnées aux contractants eux-mêmes,
+	de ce service dÃ» par l'emprunteur?
+Je n'attache pas Ã  ces questions l'importance scientifique que vous y mettez.
+Elles peuvent Ãªtre abandonnÃ©es aux contractants eux-mÃªmes,
 dans chaque cas particulier.
-C'est véritablement leur affaire de débattre
-	la nature et l'équivalence des services à échanger,
-aussi bien que leur appellation spéciale.
-La science a fini quand elle en a montré
-	la cause, l'origine et la légitimité.
+C'est vÃ©ritablement leur affaire de dÃ©battre
+	la nature et l'Ã©quivalence des services Ã  Ã©changer,
+aussi bien que leur appellation spÃ©ciale.
+La science a fini quand elle en a montrÃ©
+	la cause, l'origine et la lÃ©gitimitÃ©.
 L'emprunteur s'acquittera
-	en blé,
+	en blÃ©,
 	en vin,
 	en souliers,
 	en main-d',(oe)uvre,
-selon son état.
+selon son Ã©tat.
 Dans la plupart des circonstances,
-et seulement pour plus de commodité, il paiera en argent;
+et seulement pour plus de commoditÃ©, il paiera en argent;
 et comme on ne se procure l'argent qu'avec du travail,
 on pourra dire qu'il paie avec du travail.
-Ce paiement, juste et légitime d'après vous-même,
-pourquoi me défendriez-vous de le baptiser
+Ce paiement, juste et lÃ©gitime d'aprÃ¨s vous-mÃªme,
+pourquoi me dÃ©fendriez-vous de le baptiser
 	,(emph[loyer]), ,(emph[fermage]), ,(emph[escompte]),
-	,(emph[rente]), ,(emph[prêt]), ,(emph[intérêt]),
+	,(emph[rente]), ,(emph[prÃªt]), ,(emph[intÃ©rÃªt]),
 selon l'occurrence?
 ][
-Mais venons-en à l'équivoque qui nous sépare,
-à la prétendue confusion que je fais, dites-vous,
-entre l',(emph[usage]) et la ,(emph[propriété]),
-entre le ,(emph[prêt]) de la chose et une ,(emph[cession]) absolue.
+Mais venons-en Ã  l'Ã©quivoque qui nous sÃ©pare,
+Ã  la prÃ©tendue confusion que je fais, dites-vous,
+entre l',(emph[usage]) et la ,(emph[propriÃ©tÃ©]),
+entre le ,(emph[prÃªt]) de la chose et une ,(emph[cession]) absolue.
 ][
 Vous dites:
-Celui qui emprunte une propriété, une valeur,
-étant tenu de la rendre intégralement à l'échéance,
-n'a reçu, au fond, qu'un ,(emph[usage]).
-Ce qu'il doit, ce n'est pas une propriété, une valeur,
-mais l',(emph[usage]) d'une propriété, d'une valeur équivalentes.
-Identifier ces deux ordres de nature diverse sans équivalence possible,
-c'est détruire la ,(emph[mutualité des services]).
+Celui qui emprunte une propriÃ©tÃ©, une valeur,
+Ã©tant tenu de la rendre intÃ©gralement Ã  l'Ã©chÃ©ance,
+n'a reÃ§u, au fond, qu'un ,(emph[usage]).
+Ce qu'il doit, ce n'est pas une propriÃ©tÃ©, une valeur,
+mais l',(emph[usage]) d'une propriÃ©tÃ©, d'une valeur Ã©quivalentes.
+Identifier ces deux ordres de nature diverse sans Ã©quivalence possible,
+c'est dÃ©truire la ,(emph[mutualitÃ© des services]).
 ][
-Pour aller à la racine de l'objection,
-il faudrait remuer tous les fondements de l'économie sociale.
+Pour aller Ã  la racine de l'objection,
+il faudrait remuer tous les fondements de l'Ã©conomie sociale.
 Vous n'attendez pas de moi un tel travail,
 mais je vous demanderai si, selon vous,
-l',(emph[usage]) d'une valeur n'a pas lui-même une ,(emph[valeur])?
-s'il n'est pas susceptible d'être ,(emph[évalué])?
-D'après quelle règle, sur quel principe,
-empêcherez-vous deux contractants de comparer un ,(emph[usage])
-	à une somme d'argent,
-	à une quantité de main-d',(oe)uvre,
-et d'échanger sur ces bases, si cela les arrange?
+l',(emph[usage]) d'une valeur n'a pas lui-mÃªme une ,(emph[valeur])?
+s'il n'est pas susceptible d'Ãªtre ,(emph[Ã©valuÃ©])?
+D'aprÃ¨s quelle rÃ¨gle, sur quel principe,
+empÃªcherez-vous deux contractants de comparer un ,(emph[usage])
+	Ã  une somme d'argent,
+	Ã  une quantitÃ© de main-d',(oe)uvre,
+et d'Ã©changer sur ces bases, si cela les arrange?
 ][
-Vous me prêtez une maison de 20000 F;
-par là vous me rendez un ,(emph[service]).
-Entendez-vous dire que, malgré mon consentement et le vôtre,
+Vous me prÃªtez une maison de 20000 F;
+par lÃ  vous me rendez un ,(emph[service]).
+Entendez-vous dire que, malgrÃ© mon consentement et le vÃ´tre,
 je ne puis m'acquitter, au nom de la science,
-qu'en vous prêtant aussi une maison de même valeur?
+qu'en vous prÃªtant aussi une maison de mÃªme valeur?
 Mais cela est absurde, car si nous avions tous des maisons,
-nous resterions chacun dans la nôtre,
-et quelle serait la raison d'être du prêt?
-Si vous allez jusqu'à prétendre que ,(emph[mutualité des services])
-implique que les deux services échangés doivent être
-	non seulement égaux en valeur,
+nous resterions chacun dans la nÃ´tre,
+et quelle serait la raison d'Ãªtre du prÃªt?
+Si vous allez jusqu'Ã  prÃ©tendre que ,(emph[mutualitÃ© des services])
+implique que les deux services Ã©changÃ©s doivent Ãªtre
+	non seulement Ã©gaux en valeur,
 	mais ,(emph[identiques en nature]),
-vous supprimez l'échange aussi bien que le prêt.
-Un chapelier devra dire à son client:
-Ce que je vous cède, ce n'est pas de l'argent, mais un chapeau;
+vous supprimez l'Ã©change aussi bien que le prÃªt.
+Un chapelier devra dire Ã  son client:
+Ce que je vous cÃ¨de, ce n'est pas de l'argent, mais un chapeau;
 ce que vous me devez, c'est un chapeau, et non de l'argent.
 ][
-Que si vous reconnaissez que les services s',(emph[évaluent]) et s'échangent,
-précisément parce qu'ils diffèrent de nature,
+Que si vous reconnaissez que les services s',(emph[Ã©valuent]) et s'Ã©changent,
+prÃ©cisÃ©ment parce qu'ils diffÃ¨rent de nature,
 vous devez convenir que la cession d'un usage qui est un ,(emph[service]),
-peut très-légitimement s'évaluer en blé, en argent, en main-d',(oe)uvre.
-Prenez-y garde, votre théorie,
-tout en laissant parfaitement subsister le principe de l'intérêt,
-ne tend à rien moins qu'à frapper d'inertie toutes les transactions.
+peut trÃ¨s-lÃ©gitimement s'Ã©valuer en blÃ©, en argent, en main-d',(oe)uvre.
+Prenez-y garde, votre thÃ©orie,
+tout en laissant parfaitement subsister le principe de l'intÃ©rÃªt,
+ne tend Ã  rien moins qu'Ã  frapper d'inertie toutes les transactions.
 ][
-Vous ne réformez pas, vous paralysez.
+Vous ne rÃ©formez pas, vous paralysez.
 Je suis cordonnier.
-Mon métier doit me faire vivre;
-mais pour l'exercer, il faut que je sois logé, et je n'ai pas de maison.
-D'un autre côté, vous avez consacré votre travail à en bâtir une;
+Mon mÃ©tier doit me faire vivre;
+mais pour l'exercer, il faut que je sois logÃ©, et je n'ai pas de maison.
+D'un autre cÃ´tÃ©, vous avez consacrÃ© votre travail Ã  en bÃ¢tir une;
 mais vous ne savez pas faire vos souliers ni ne voulez aller pieds nus.
 Nous pouvons nous arranger: vous me logerez, je vous chausserai.
 Je profiterai de votre travail comme vous du mien;
-nous nous rendrons réciproquement service.
-Le tout est d'arriver à une juste évaluation, à une parfaite équivalence,
-et je n'y vois d'autre moyen que le libre débat.
+nous nous rendrons rÃ©ciproquement service.
+Le tout est d'arriver Ã  une juste Ã©valuation, Ã  une parfaite Ã©quivalence,
+et je n'y vois d'autre moyen que le libre dÃ©bat.
 ][
-Et, sous prétexte qu'il y a cession d'un objet matériel, d'un côté,
+Et, sous prÃ©texte qu'il y a cession d'un objet matÃ©riel, d'un cÃ´tÃ©,
 et que, de l'autre, il n'y a cession que d'un usage,
-la théorie viendrait nous dire:
+la thÃ©orie viendrait nous dire:
 Cette transaction ne se fera pas,
-elle est illégitime, abusive et spoliatrice;
-il s'agit de deux services ,(emph[qui n'ont pas d'équivalence possible]),
+elle est illÃ©gitime, abusive et spoliatrice;
+il s'agit de deux services ,(emph[qui n'ont pas d'Ã©quivalence possible]),
 et que vous n'avez
-	ni la faculté d',(emph[évaluer]),
-	ni le droit d'échanger!
+	ni la facultÃ© d',(emph[Ã©valuer]),
+	ni le droit d'Ã©changer!
 ][
 Ne voyez-vous pas, Monsieur,
-qu'une telle théorie tue à la fois et l'échange et la liberté?
-Quelle est donc l'autorité qui viendra anéantir ainsi
+qu'une telle thÃ©orie tue Ã  la fois et l'Ã©change et la libertÃ©?
+Quelle est donc l'autoritÃ© qui viendra anÃ©antir ainsi
 notre commun et libre consentement?
 Sera-ce la loi?
-Sera-ce l'État?
+Sera-ce l'Ã‰tat?
 Mais je croyais, moi,
 que nous faisions la loi,
-que nous payions l'État
-pour protéger nos droits et non pour les supprimer.
+que nous payions l'Ã‰tat
+pour protÃ©ger nos droits et non pour les supprimer.
 ][
-Ainsi, nous étions d'accord tout à l'heure sur ce point,
+Ainsi, nous Ã©tions d'accord tout Ã  l'heure sur ce point,
 que l'emprunteur doit ,(emph[quelque chose])
 en sus de la simple restitution.
 Accordons-nous maintenant sur cet autre point,
-que ce ,(emph[quelque chose]) est susceptible d'être ,(emph[évalué]),
-	et par conséquent d'être acquitté,
+que ce ,(emph[quelque chose]) est susceptible d'Ãªtre ,(emph[Ã©valuÃ©]),
+	et par consÃ©quent d'Ãªtre acquittÃ©,
 selon la convenance des contractants,
 sous une des formes quelconques que peut affecter la valeur.
 ][
-La conséquence qui s'ensuit, c'est que, à l'échéance,
-le prêteur doit recouvrer:
+La consÃ©quence qui s'ensuit, c'est que, Ã  l'Ã©chÃ©ance,
+le prÃªteur doit recouvrer:
 ][
-1° La valeur intégrale prêtée;
+1Â° La valeur intÃ©grale prÃªtÃ©e;
 ][
-2° La valeur du service rendu par le prêt.
+2Â° La valeur du service rendu par le prÃªt.
 ][
-Je n'ai pas besoin de répéter ici
-comment la restitution intégrale de l'objet prêté
-implique nécessairement la pérennité de l'intérêt.
+Je n'ai pas besoin de rÃ©pÃ©ter ici
+comment la restitution intÃ©grale de l'objet prÃªtÃ©
+implique nÃ©cessairement la pÃ©rennitÃ© de l'intÃ©rÃªt.
 ][
 Examinons maintenant, en peu de mots, cette seconde question:
 ][
-,(emph[L'intérêt du capital est-il prélevé aux dépens du travail? ])
+,(emph[L'intÃ©rÃªt du capital est-il prÃ©levÃ© aux dÃ©pens du travail? ])
 ][
 Vous le savez aussi bien que moi, Monsieur,
-on se ferait une idée bien circonscrite de l'intérêt,
-si l'on supposait qu'il n'apparaît qu'à l'occasion du prêt.
-Quiconque fait concourir un capital à la création d'un produit
-entend être rémunéré non seulement pour son travail,
+on se ferait une idÃ©e bien circonscrite de l'intÃ©rÃªt,
+si l'on supposait qu'il n'apparaÃ®t qu'Ã  l'occasion du prÃªt.
+Quiconque fait concourir un capital Ã  la crÃ©ation d'un produit
+entend Ãªtre rÃ©munÃ©rÃ© non seulement pour son travail,
 mais pour son capital;
-de telle sorte que l'intérêt entre comme élément
+de telle sorte que l'intÃ©rÃªt entre comme Ã©lÃ©ment
 dans le prix de tous les objets de consommation.
 ][
-Il ne suffit peut-être pas de démontrer la légitimité de l'intérêt
+Il ne suffit peut-Ãªtre pas de dÃ©montrer la lÃ©gitimitÃ© de l'intÃ©rÃªt
 aux hommes qui n'ont pas de capitaux.
-Ils seraient sans doute tentés de dire:
-puisque l'intérêt est légitime,
+Ils seraient sans doute tentÃ©s de dire:
+puisque l'intÃ©rÃªt est lÃ©gitime,
 il faut bien que nous le subissions;
 mais c'est un grand malheur,
-car sans cela nous obtiendrions toutes choses à meilleur marché.
+car sans cela nous obtiendrions toutes choses Ã  meilleur marchÃ©.
 ][
-Ce grief est complètement erroné;
+Ce grief est complÃ¨tement erronÃ©;
 ce qui fait que les jouissances humaines
 se rapprochent de plus en plus
-	de la ,(emph[gratuité]) et de la ,(emph[communauté]),
+	de la ,(emph[gratuitÃ©]) et de la ,(emph[communautÃ©]),
 c'est l'intervention du capital.
-Le capital c'est la puissance démocratique, philanthropique et égalitaire
+Le capital c'est la puissance dÃ©mocratique, philanthropique et Ã©galitaire
 	par excellence.
 Aussi, celui qui en fera comprendre l'action
-rendra le plus signalé service à la société,
+rendra le plus signalÃ© service Ã  la sociÃ©tÃ©,
 car il fera cesser cet antagonisme de classes
-qui n'est fondé que sur une erreur.
+qui n'est fondÃ© que sur une erreur.
 ][
-Il m'est de toute impossibilité de faire entrer dans un article de journal
-la théorie des capitaux.
-Je dois me borner à indiquer ma pensée
-par un exemple, une anecdote, une hypothèse
+Il m'est de toute impossibilitÃ© de faire entrer dans un article de journal
+la thÃ©orie des capitaux.
+Je dois me borner Ã  indiquer ma pensÃ©e
+par un exemple, une anecdote, une hypothÃ¨se
 qui est l'image de toutes les transactions humaines.
 ][
-Plaçons-nous au point de départ de l'humanité,
-à cette époque où nous pouvons supposer qu'il n'existait aucun capital.
-Quelle était alors la valeur, mesurée au travail,
+PlaÃ§ons-nous au point de dÃ©part de l'humanitÃ©,
+Ã  cette Ã©poque oÃ¹ nous pouvons supposer qu'il n'existait aucun capital.
+Quelle Ã©tait alors la valeur, mesurÃ©e au travail,
 	d'un objet quelconque,
 	d'une paire de bas,
-	d'un sac de blé,
+	d'un sac de blÃ©,
 	d'un meuble,
 	d'un livre,
 	etc.;
 en d'autres termes, au prix de quel travail
-ces objets auraient-ils été achetés?
-Je ne crains pas de dire que la réponse est contenue dans ce mot:
+ces objets auraient-ils Ã©tÃ© achetÃ©s?
+Je ne crains pas de dire que la rÃ©ponse est contenue dans ce mot:
 	l',(emph[Infini]).
-De tels objets étaient alors tout à fait inaccessibles à l'humanité.
+De tels objets Ã©taient alors tout Ã  fait inaccessibles Ã  l'humanitÃ©.
 ][
 Qu'il s'agisse d'une paire de bas de coton,
-aucun homme ne serait parvenu à la produire
-avec cent ni avec mille journées de travail.
+aucun homme ne serait parvenu Ã  la produire
+avec cent ni avec mille journÃ©es de travail.
 ][
-D'où vient qu'aujourd'hui, en France,
+D'oÃ¹ vient qu'aujourd'hui, en France,
 il n'y a pas un ouvrier si malheureux
 qu'il ne puisse obtenir une paire de bas de coton
-avec son travail d'une journée?
-,(--) C'est justement parce que du capital concourt à la création de ce produit.
-Le gente humain a inventé des instruments
-qui forcent la nature à une collaboration ,(emph[gratuite]).
+avec son travail d'une journÃ©e?
+,(--) C'est justement parce que du capital concourt Ã  la crÃ©ation de ce produit.
+Le gente humain a inventÃ© des instruments
+qui forcent la nature Ã  une collaboration ,(emph[gratuite]).
 ][
-Il est bien vrai qu'en décomposant le prix de cette paire de bas,
-vous trouvez qu'une partie assez considérable de ce prix
+Il est bien vrai qu'en dÃ©composant le prix de cette paire de bas,
+vous trouvez qu'une partie assez considÃ©rable de ce prix
 	se rapporte au capital.
 Il faut bien payer le ,(emph[squatter])
-qui a défriché la terre de la Caroline;
+qui a dÃ©frichÃ© la terre de la Caroline;
 il faut bien payer la voile qui pousse le navire de New York au Havre;
 il faut bien payer la machine qui fait tourner dix mille broches.
 Mais c'est justement parce que nous payons ces instruments
 qu'ils font concourir la nature
 et qu'ils substituent son action ,(emph[gratuite])
-à l'action ,(emph[onéreuse]) du travail.
-Si nous supprimions successivement cette série d'intérêts à payer,
-nous supprimerions par cela même les instruments
+Ã  l'action ,(emph[onÃ©reuse]) du travail.
+Si nous supprimions successivement cette sÃ©rie d'intÃ©rÃªts Ã  payer,
+nous supprimerions par cela mÃªme les instruments
 et la collaboration naturelle qu'ils mettent en ,(oe)uvre;
-en un mot, nous reviendrions au point de départ,
-à l'époque où mille journées de travail
+en un mot, nous reviendrions au point de dÃ©part,
+Ã  l'Ã©poque oÃ¹ mille journÃ©es de travail
 n'auraient pas suffi pour se procurer une paire de bas.
 Il en est ainsi de toutes choses.
 ][
-Vous pensez que l'intérêt est prélevé
+Vous pensez que l'intÃ©rÃªt est prÃ©levÃ©
 ,(emph[par celui qui ne fait rien sur celui qui travaille]).
 Ah! Monsieur, avant de laisser tomber une seconde fois dans le public
 cette triste et irritante assertion,
 scrutez-la jusque dans la racine.
 Demandez-lui ce qu'elle contient,
 et vous vous assurez qu'elle ne porte en elle
-que des erreurs et des tempêtes.
+que des erreurs et des tempÃªtes.
 Vous invoquez mon apologue du Rabot,
 permettez-moi d'y revenir.
 ][
-Voilà un homme qui veut faire des planches.
-Il n'en fera pas une dans l'année, car il n'a que ses dix doigts.
-Je lui prête une scie et un rabot
+VoilÃ  un homme qui veut faire des planches.
+Il n'en fera pas une dans l'annÃ©e, car il n'a que ses dix doigts.
+Je lui prÃªte une scie et un rabot
 ,(--) deux instruments, ne le perdez pas de vue,
 qui sont le fruit de mon travail
-et dont je pourrais tirer parti pour moi-même.
+et dont je pourrais tirer parti pour moi-mÃªme.
 Au lieu d'une planche, il en fait cent et m'en donne cinq.
-Je l'ai donc mis à même, en me privant de ma chose,
+Je l'ai donc mis Ã  mÃªme, en me privant de ma chose,
 d'avoir quatre-vingt-quinze planches au lieu d'une
 ,(--) et vous venez dire que je l'opprime et le vole!
 Quoi!
-grâce à une scie et à un rabot que j'ai fabriqués à la sueur de mon front,
-une production centuple est, pour ainsi dire, sortie du néant,
-la société entre en possession d'une jouissance centuple,
+grÃ¢ce Ã  une scie et Ã  un rabot que j'ai fabriquÃ©s Ã  la sueur de mon front,
+une production centuple est, pour ainsi dire, sortie du nÃ©ant,
+la sociÃ©tÃ© entre en possession d'une jouissance centuple,
 un ouvrier qui ne pouvait pas faire une planche en a fait cent;
-et parce qu'il me cède librement et volontairement,
-un vingtième de cet ,(emph[excédent]),
-vous me représentez comme un tyran et un voleur!
+et parce qu'il me cÃ¨de librement et volontairement,
+un vingtiÃ¨me de cet ,(emph[excÃ©dent]),
+vous me reprÃ©sentez comme un tyran et un voleur!
 L'ouvrier verra fructifier son travail,
-l'humanité verra s'élargir le cercle de ses jouissances;
-et je suis le seul au monde, moi, l'auteur de ces résultats,
-à qui il sera défendu d'y participer,
-même du consentement universel!
+l'humanitÃ© verra s'Ã©largir le cercle de ses jouissances;
+et je suis le seul au monde, moi, l'auteur de ces rÃ©sultats,
+Ã  qui il sera dÃ©fendu d'y participer,
+mÃªme du consentement universel!
 ][
-Non, non; il ne peut en être ainsi.
-Votre théorie est aussi contraire
-	à la justice,
-	à l'utilité générale,
-	à l'intérêt même des ouvriers,
-	qu'à la pratique de tous les temps et de tous les lieux.
+Non, non; il ne peut en Ãªtre ainsi.
+Votre thÃ©orie est aussi contraire
+	Ã  la justice,
+	Ã  l'utilitÃ© gÃ©nÃ©rale,
+	Ã  l'intÃ©rÃªt mÃªme des ouvriers,
+	qu'Ã  la pratique de tous les temps et de tous les lieux.
 Permettez-moi d'ajouter qu'elle n'est pas moins contraire
 	au rapprochement des classes,
-	à l'union des c,(oe)urs,
-	à la réalisation de la fraternité humaine,
+	Ã  l'union des c,(oe)urs,
+	Ã  la rÃ©alisation de la fraternitÃ© humaine,
 qui est plus que la justice,
 mais ne peut se passer de la justice.
 ])
@@ -497,5 +497,5 @@ tome V, ,(Gratuite_credit), ,(2eme) lettre. pp. 111-120.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
 ][
-Numérisé, mis en hypertexte et annoté par ,(FRR) pour ,(Bastiat.org).
+NumÃ©risÃ©, mis en hypertexte et annotÃ© par ,(FRR) pour ,(Bastiat.org).
 ])))

@@ -1,22 +1,22 @@
 ; -*- Scheme -*- $Id: harmonies.scr,v 1.8 2005/07/24 09:49:39 fare Exp $
 (style 'bo-style)
-(in-bof :title "Les Harmonies Économiques - par Frédéric Bastiat")
+(in-bof :title "Les Harmonies Ã‰conomiques - par FrÃ©dÃ©ric Bastiat")
 
 (set! =bof.url= "")
 
-(document :title [Harmonies Économiques]
+(document :title [Harmonies Ã‰conomiques]
 	:author (author-FB)
 
 (itemize
 (item[Introduction.
-	,(bof-ref "a_la_jeunesse_francaise" [À la jeunesse française])])
+	,(bof-ref "a_la_jeunesse_francaise" [Ã€ la jeunesse franÃ§aise])])
 (item[I. ,(bof-ref "organisation" [Organisation naturelle, organisation artificielle])
 ])
 (item[II. ,(bof-ref "besoins_efforts_satisfactions" [Besoins, efforts, satisfactions])
 ])
 (item[III. ,(bof-ref "des_besoins_de_l_homme" [Des besoins de l'homme])
 ])
-(item[IV. ,(bof-ref "echange" [Échange])
+(item[IV. ,(bof-ref "echange" [Ã‰change])
 ])
 (item[V. ,(bof-ref "de_la_valeur" [De la valeur])
 ])
@@ -24,13 +24,13 @@
 ])
 (item[VII. ,(bof-ref "capital" [Capital])
 ])
-(item[VIII. ,(bof-ref "propriete_communaute" [Propriété, communauté])
+(item[VIII. ,(bof-ref "propriete_communaute" [PropriÃ©tÃ©, communautÃ©])
 ])
-(item[IX. ,(bof-ref "propriete_fonciere" [Propriété foncière])
+(item[IX. ,(bof-ref "propriete_fonciere" [PropriÃ©tÃ© fonciÃ¨re])
 ])
 (item[X. ,(bof-ref "concurrence" [Concurrence])
 ])
-(item[,(bof-ref "conclusion_eo_harmonies" [Conclusion de l'édition originale])
+(item[,(bof-ref "conclusion_eo_harmonies" [Conclusion de l'Ã©dition originale])
 ])
 (item[XI. ,(bof-ref "producteur_consommateur" [Producteur, consommateur])
 ])
@@ -44,7 +44,7 @@ Voir ,(bof-ref "maudit_argent" (cite-title[Maudit Argent!])),
 tome V, page 64. ,(NdEEO)
 ])
 ])
-(item[Du crédit
+(item[Du crÃ©dit
 ,(footnote*[
 voir ,(Gratuite_credit),
 tome V, page 94.
@@ -53,40 +53,40 @@ tome V, page 94.
 ])
 (item[XIV. ,(bof-ref "des_salaires" [Des salaires])
 ])
-(item[XV. ,(bof-ref "de_l_epargne" [De l'épargne])
+(item[XV. ,(bof-ref "de_l_epargne" [De l'Ã©pargne])
 ])
 (item[XVI. ,(bof-ref "de_la_population" [De la population])
 ])
-(item[XVII. ,(bof-ref "services" [Services privés, service public])
+(item[XVII. ,(bof-ref "services" [Services privÃ©s, service public])
 ])
 (item[XVIII. ,(bof-ref "causes_perturbatrices" [Causes perturbatrices])
 ])
 (item[XIX. ,(bof-ref "guerre" [Guerre])
 ])
-(item[XX. ,(bof-ref "responsabilite" [Responsabilité])
+(item[XX. ,(bof-ref "responsabilite" [ResponsabilitÃ©])
 ])
-(item[XXI. ,(bof-ref "solidarite" [Solidarité])
+(item[XXI. ,(bof-ref "solidarite" [SolidaritÃ©])
 ])
 (item[XXII. ,(bof-ref "moteur_social" [Moteur social])
 ])
 (item[XXIII. ,(bof-ref "le_mal" [Le mal])
 ])
-(item[XXIV. ,(bof-ref "perfectibilite" [Perfectibilité])
+(item[XXIV. ,(bof-ref "perfectibilite" [PerfectibilitÃ©])
 ])
-(item[XXV. ,(bof-ref "rapports" [Rapports de l'économie politique avec...])
+(item[XXV. ,(bof-ref "rapports" [Rapports de l'Ã©conomie politique avec...])
 ]))
 
 
 (set! =bof.url= "http://bastiat.org/fr/")
 (with-footer
 (p*[
-Préparé par ,(FRR) pour ,(Bastiat.org)
-avec l'aide de nombreux autres ,(bof-ref "numerisation" [numériseurs]):
+PrÃ©parÃ© par ,(FRR) pour ,(Bastiat.org)
+avec l'aide de nombreux autres ,(bof-ref "numerisation" [numÃ©riseurs]):
 ,(cbalanca), ,(krylenko), ,(loic), ,(JML), ,(frk.paris), ,(cvincent).
 ,(XXX[
-Notez que l'édition en anglais par la FEE
+Notez que l'Ã©dition en anglais par la FEE
 contient de nombreuses notes de bas de page
-pour éclaircir les références culturelles aujourd'hui désuettes
+pour Ã©claircir les rÃ©fÃ©rences culturelles aujourd'hui dÃ©suettes
 dont regorge le texte.
 ])
 ])))
