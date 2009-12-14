@@ -1,0 +1,413 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Aux artisans et aux ouvriers
+	- par Frédéric Bastiat")
+(document :title "Aux artisans et aux ouvriers"
+	:author (author-FB)
+(subtitle[Chapitre VI de la seconde série des ,(SophismesEconomiques)
+,(footnote*[
+Ce chapitre est tiré
+du ,(cite-title[Courrier français]) (n° du 18 septembre 1846),
+dont les colonnes furent ouvertes à l'auteur
+pour repousser les attaques de l',(cite-title[Atelier]).
+Ce ne fut que deux mois plus tard que parut
+la feuille du ,(cite-title[Libre-Échange]). ,(NdEEO)
+])])
+(p*[
+Plusieurs journaux m'ont attaqué devant vous.
+Ne voudrez-vous pas lire ma défense?
+][
+Je ne suis pas défiant.
+Quand un homme écrit ou parle, je crois qu'il pense ce qu'il dit.
+][
+Pourtant, j'ai beau lire et relire les journaux auxquels je réponds,
+il me semble y découvrir de tristes tendances.
+][
+De quoi s'agissait-il?
+de rechercher ce qui vous est le plus favorable, la restriction ou la liberté.
+][
+Je crois que c'est la liberté, ,(--) ils croient que c'est la restriction;
+,(--) à chacun de prouver sa thèse.
+][
+Était-il nécessaire d'insinuer que nous sommes
+les agents de l'Angleterre, du Midi, du Gouvernement?
+][
+Voyez combien la récrimination, sur ce terrain, nous serait facile.
+][
+Nous sommes, disent-ils, agents des Anglais,
+parce que quelques-uns d'entre nous se sont servis des mots
+,(inenglish[meeting]), ,(inenglish[free-trader])!
+][
+Et ne se servent-ils pas des mots
+,(inenglish[drawback]), ,(inenglish[budget])?
+][
+Nous imitons Cobden et la démocratie anglaise!
+][
+Et eux, ne parodient-ils pas Bentinck et l'aristocratie britannique?
+][
+Nous empruntons à la perfide Albion la doctrine de la liberté!
+][
+Et eux, ne lui empruntent-ils pas les arguties de la protection?
+][
+Nous suivons l'impulsion de Bordeaux et du Midi!
+][
+Et eux, ne servent-ils pas la cupidité de Lille et du Nord?
+][
+Nous favorisons les secrets desseins du ministère,
+qui veut détourner l'attention de sa politique!
+][
+Et eux, ne favorisent-ils pas les vues de la liste civile,
+qui gagne, par le régime protecteur, plus que qui que ce soit au monde?
+][
+Vous voyez donc bien que, si nous ne méprisions cette guerre de dénigrement,
+les armes ne nous manqueraient pas.
+][
+Mais ce n'est pas ce dont il s'agit.
+][
+La question, et je ne la perdrai pas de vue, est celle-ci:
+][
+,(emph[Qu'est-ce qui vaut mieux pour les classes laborieuses,
+être libres, ou n'être pas libres d'acheter au dehors?])
+][
+Ouvriers, on vous dit:
+,(q[Si vous êtes libres d'acheter au dehors
+ce que vous faites maintenant vous-mêmes, vous ne le ferez plus;
+vous serez sans travail, sans salaire et sans pain;
+c'est donc pour votre bien qu'on restreint votre liberté.])
+][
+Cette objection revient sous toutes les formes.
+On dit, par exemple:
+,(q[Si nous nous habillons avec du drap anglais,
+si nous faisons nos charrues avec du fer anglais,
+si nous coupons notre pain avec des couteaux anglais,
+si nous essuyons nos mains dans des serviettes anglaises,
+que deviendront les ouvriers français,
+que deviendra le ,(emph[travail national])?])
+][
+Dites-moi, ouvriers, si un homme se tenait sur le port de Boulogne,
+et qu'à chaque Anglais qui débarque, il dit:
+Voulez-vous me donner ces bottes anglaises,
+je vous donnerai ce chapeau français?
+,(--) Ou bien: Voulez-vous me céder ce cheval anglais,
+je vous céderai ce tilbury français
+,(--) Ou bien : Vous plaît-il d'échanger cette machine de Birmingham
+contre cette pendule de Paris?
+,(--) Ou encore : Vous arrange-t-il de troquer cette houille de Newcastle
+contre ce vin de Champagne?
+,(--) Je vous le demande, en supposant que notre homme
+mît quelque discernement dans ses propositions,
+peut-on dire que notre travail national, pris en masse, en serait affecté?
+][
+Le serait-il davantage
+quand il y aurait vingt de ces offreurs de services à Boulogne au lieu d'un,
+quand il se ferait un million de trocs au lieu de quatre,
+et quand on ferait intervenir les négociants et la monnaie
+pour les faciliter et les multiplier à l'infini?
+][
+Or, qu'un pays achète à l'autre en gros pour revendre en détail,
+ou en détail pour revendre en gros,
+si on suit la chose jusqu'au bout,
+on trouvera toujours que le commerce n'est qu'un ensemble de
+,(emph[trocs pour trocs, produits contre produits, services pour services]).
+Si donc un troc ne nuit pas au ,(emph[travail national]),
+puisqu'il implique autant de ,(emph[travail national]) donné
+que de ,(emph[travail étranger]) reçu,
+cent mille millions de trocs ne lui nuiront pas davantage.
+][
+Mais où sera le profit? Direz-vous.
+,(--) Le profit est de faire le meilleur emploi des ressources de chaque pays,
+de manière à ce qu'une même somme de travail donne partout
+plus de satisfaction et de bien-être.
+][
+Il y en a qui emploient envers vous une singulière tactique.
+Ils commencent par convenir
+de la supériorité du système libre sur le système prohibitif,
+sans doute pour n'avoir pas à se défendre sur ce terrain.
+][
+Ensuite, ils font observer que, dans le passage d'un système à l'autre,
+il y aura quelque ,(emph[déplacement]) de travail.
+][
+Puis, ils s'étendent sur les souffrances
+que doit entraîner, selon eux, ce déplacement.
+Ils les exagèrent, ils les grossissent,
+ils en font le sujet principal de la question,
+ils les présentent comme le résultat exclusif et définitif de la réforme,
+et s'efforcent ainsi de vous enrôler sous le drapeau du monopole.
+][
+C'est du reste une tactique qui a été mise au service de tous les abus;
+et je dois avouer naïvement une chose,
+c'est qu'elle embarrasse toujours les amis
+des réformes même les plus utiles au peuple.
+,(--) Vous allez comprendre pourquoi.
+][
+Quand un abus existe, tout s'arrange là-dessus.
+][
+Des existences s'y rattachent, d'autres à celles-là, et puis d'autres encore,
+et cela forme un grand édifice.
+][
+Y voulez-vous porter la main?
+Chacun se récrie et ,(--) remarquez bien ceci ,(--)
+les criards paraissent toujours, au premier coup d',(oe)il, avoir raison,
+parce qu'il est plus facile de montrer le dérangement,
+qui doit accompagner la réforme,
+que l'arrangement qui doit la suivre.
+][
+Les partisans de l'abus citent des faits particuliers;
+ils nomment les personnes et leurs fournisseurs et leurs ouvriers
+qui vont être froissés,
+,(--) tandis que le pauvre diable de réformateur
+ne peut s'en référer qu'au ,(emph[bien général])
+qui doit se répandre insensiblement dans les masses.
+,(--) Cela ne fait pas, à beaucoup près, autant d'effet.
+][
+Ainsi, est-il question d'abolir l'esclavage?
+,(--) ,(q[Malheureux! dit-on aux noirs, qui va désormais vous nourrir?
+Le commandeur distribue des coups de fouet, mais il distribue aussi le manioc.])
+][
+Et l'esclave regrette sa chaîne, car il se demande:
+D'où me viendra le manioc?
+][
+Il ne voit pas que ce n'est pas le commandeur qui le nourrit,
+mais son propre travail, lequel nourrit aussi le commandeur.
+][
+Quand, en Espagne, on réforma les couvents, on disait aux mendiants:
+,(q[Où trouverez-vous le potage et la bure? Le prieur est votre Providence.
+N'est-il pas bien commode de s'adresser à lui?])
+][
+Et les mendiants de dire:
+,(q[C'est vrai. Si le prieur s'en va, nous voyons bien ce que nous perdrons,
+mais nous ne voyons pas ce qui nous viendra à la place.])
+][
+Ils ne prenaient pas garde que
+si les couvents faisaient des aumônes, ils en vivaient;
+en sorte que le peuple avait plus à leur donner qu'à en recevoir.
+][
+De même, ouvriers, le monopole vous met à tous imperceptiblement
+des taxes sur les épaules, et puis, avec le produit de ces taxes,
+il vous fait travailler.
+][
+Et vos faux amis vous disent:
+S'il n'y avait pas de monopole, qui vous ferait travailler?
+][
+Et vous répondez: C'est vrai, c'est vrai.
+Le travail que nous procurent les monopoleurs est certain.
+Les promesses de la liberté sont incertaines.
+][
+Car vous ne voyez pas qu'on vous soutire de l'argent d'abord,
+et qu'ensuite on vous rend une partie de cet argent contre votre travail.
+][
+Vous demandez qui vous fera travailler?
+Eh, morbleu! vous vous donnerez du travail les uns aux autres!
+Avec l'argent qu'on ne vous prendra plus,
+le cordonnier se vêtira mieux et fera travailler le tailleur.
+Le tailleur renouvellera plus souvent sa chaussure et fera travailler le cordonnier.
+Et ainsi de suite pour tous les états.
+][
+On dit qu'avec la liberté il y aura moins d'ouvriers aux mines et aux filatures.
+][
+Je ne le crois pas. Mais si cela arrive,
+c'est ,(emph[nécessairement]) qu'il y en aura plus travaillant librement
+en chambre et au soleil.
+][
+Car si ces mines et ces filatures ne se soutiennent, comme on le dit,
+qu'à l'aide de taxes mises à leur profit sur ,(emph[tout le monde]),
+une fois ces taxes abolies, tout le monde en sera plus aisé,
+et c'est l'aisance de tous qui alimente le travail de chacun.
+][
+Pardonnez-moi si je m'arrête encore sur cette démonstration.
+Je voudrais tant vous voir du côté de la liberté!
+][
+En France, les capitaux engagés dans l'industrie donnent,
+je suppose, 5 p. 100 de profit.
+,(--) Mais voici Mondor qui a dans une usine 100,000 fr.
+qui lui laissent 5 p. 100 de perte.
+,(--) De la perte au gain, la différence est 10,000 fr.
+,(--) Que fait-on?
+,(--) Tout chattement, on répartit entre vous un petit impôt de 10,000 fr,
+qu'on donne à Mondor;
+vous ne vous en apercevez pas, car la chose est fort habilement déguisée.
+Ce n'est pas le percepteur qui vient vous demander votre part de l'impôt;
+mais vous le payez à Mondor, maître de forges,
+chaque fois que vous achetez vos haches, vos truelles et vos rabots.
+,(--) Ensuite on vous dit:
+Si vous ne payez pas cet impôt, Mondor ne fera plus travailler;
+ses ouvriers, Jean et Jacques, seront sans ouvrage. Corbleu!
+si on vous remettait l'impôt, ne feriez-vous pas travailler vous-mêmes,
+t pour votre compte encore?
+][
+Et puis, soyez tranquilles,
+quand il n'aura plus ce doux oreiller du supplément de prix par l'impôt,
+Mondor s'ingéniera pour convertir sa perte en bénéfice,
+et Jean et Jacques ne seront pas renvoyés.
+Alors, tout sera profit ,(emph[pour tous]).
+][
+Vous insisterez peut-être, disant:
+,(q[Nous comprenons qu'après la réforme,
+il y aura en général plus d'ouvrage qu'avant;
+mais, en attendant, Jean et Jacques seront sur la rue.])
+][
+À quoi je réponds :
+][
+1° Quand l'ouvrage ne se déplace que pour augmenter,
+l'homme qui a du c,(oe)ur et des bras n'est pas longtemps sur la rue;
+][
+2° Rien n'empêche que l'État ne réserve quelques fonds
+pour prévenir, dans la transition,
+des chômages auxquels, quant à moi, je ne crois pas;
+][
+3° Enfin, si, pour sortir d'une ornière
+et entrer dans un état meilleur pour tous, et surtout plus juste,
+il faut absolument braver quelques instants pénibles,
+les ouvriers sont prêts, ou je les connais mal.
+Plaise à Dieu qu'il en soit de même des entrepreneurs!
+][
+Eh quoi!
+parce que vous êtes ouvriers, n'êtes-vous pas intelligents et moraux?
+Il semble que vos prétendus amis l'oublient.
+N'est-il pas surprenant qu'ils traitent devant vous une telle question,
+parlant de salaires et d'intérêts,
+sans prononcer seulement le mot ,(emph[justice])?
+Ils savent pourtant bien que la restriction est ,(emph[injuste]).
+Pourquoi donc n'ont-ils pas le courage de vous en prévenir et de vous dire:
+,(q[Ouvriers, une iniquité prévaut dans le pays,
+mais elle vous profite, il faut la soutenir.])
+,(--) Pourquoi?
+parce qu'ils savent que vous répondriez:
+Non.
+][
+Mais il n'est pas vrai que cette iniquité vous profite.
+Prêtez-moi encore quelques moments d'attention, et jugez vous-mêmes.
+][
+Que protége-t-on en France? ,(XXX)
+Des choses qui se font par de gros entrepreneurs dans de grosses usines,
+le fer, la houille, le drap, les tissus,
+et l'on vous dit que c'est, non dans l'intérêt des entrepreneurs,
+mais dans le vôtre, et pour vous assurer du travail.
+][
+Cependant toutes les fois que le ,(emph[travail étranger])
+se présente sur notre marché sous une forme telle qu'il puisse vous nuire,
+mais qu'il serve les gros entrepreneurs, ne le laisse-t-on pas entrer?
+][
+N'y a-t-il pas à Paris trente mille Allemands
+qui font des habits et des souliers?
+Pourquoi les laisse-t-on s'établir à vos côtés, quand on repousse le drap?
+Parce que le drap se fait dans de grandes usines
+appartenant à des fabricants législateurs.
+Mais les habits se font en chambre par des ouvriers.
+Pour convertir la laine en drap,
+ces messieurs ne veulent pas de concurrence, parce que c'est leur métier;
+mais, pour convertir le drap en habits, ils l'admettent fort bien,
+parce que c'est le vôtre.
+][
+Quand on a fait des chemins de fer, on a repoussé les rails anglais,
+mais on a fait venir des ouvriers anglais. Pourquoi?
+Eh! c'est tout simple:
+parce que les rails anglais font concurrence aux grandes usines,
+et que les bras anglais ne font concurrence qu'à vos bras.
+][
+Nous ne demandons pas, nous,
+qu'on repousse les tailleurs allemands et les terrassiers anglais.
+Nous demandons qu'on laisse entrer les draps et les rails.
+Nous demandons justice pour tous, égalité devant la loi pour tous !
+][
+C'est une dérision que de venir nous dire
+que la restriction douanière a en vue votre avantage.
+Tailleurs, cordonniers, charpentiers, menuisiers,
+maçons, forgerons, marchands, épiciers, horlogers, bouchers,
+boulangers, tapissiers, modistes,
+je vous mets au défi de me citer une seule manière
+dont la restriction vous profite
+et, quand vous voudrez, je vous en citerai quatre par où elle vous nuit.
+][
+Et après tout, cette abnégation que vos journaux attribuent aux monopoleurs,
+voyez combien elle est vraisemblable.
+][
+Je crois qu'on peut appeler ,(emph[taux naturel des salaires])
+celui qui s'établirait naturellement sous le régime de la liberté.
+Lors donc qu'on vous dit que la restriction vous profite,
+c'est comme si on vous disait
+qu'elle ajoute un excédant à vos salaires ,(emph[naturels]).
+Or, un excédant ,(emph[extra-naturel]) de salaires doit être pris quelque part;
+il ne tombe pas de la lune, et il doit être pris sur ceux qui le payent.
+Vous êtes donc conduits à cette conclusion que, selon vos prétendus amis,
+le régime protecteur a été créé et mis au monde
+pour que les capitalistes fussent sacrifiés aux ouvriers.
+][
+Dites, cela est-il probable ?
+][
+Où est donc votre place à la chambre des pairs?
+Quand est-ce que vous avez siégé au Palais-Bourbon?
+Qui vous a consultés?
+D'où vous est venue cette idée d'établir le régime protecteur?
+][
+Je vous entends me répondre:
+Ce n'est pas nous qui l'avons établi. Hélas!
+nous ne sommes ni pairs ni députés, ni conseillers d'État.
+Ce sont les capitalistes qui ont fait la chose.
+][
+Par le grand Dieu du ciel!
+Ils étaient donc bien disposés ce jour-là!
+Quoi!
+les capitalistes ont fait la loi;
+ils ont établi le régime prohibitif,
+et cela pour que vous, ouvriers, fissiez des profits à leurs dépens !
+][
+Mais voici qui est plus étrange encore.
+][
+Comment se fait il que vos prétendus amis,
+qui vous parlent aujourd'hui de la bonté, de la générosité,
+de l'abnégation des capitalistes,
+vous plaignent sans cesse de ne pas jouir de vos droits politiques?
+À leur point de vue, qu'en pourriez-vous faire ?
+,(--) Les capitalistes ont le monopole de la législation;
+c'est vrai.
+Grâce à ce monopole, ils se sont adjugé
+le monopole du fer, du drap, de la toile, de la houille, du bois, de la viande,
+c'est encore vrai.
+Mais voici vos prétendus amis qui disent qu'en agissant ainsi,
+les capitalistes se sont dépouillés sans y être obligés,
+pour vous enrichir sans que vous y eussiez droit!
+Assurément, si vous étiez électeurs et députés,
+vous ne feriez pas mieux vos affaires;
+vous ne les feriez même pas si bien.
+][
+Si l'organisation industrielle qui nous régit est faite dans votre intérêt,
+c'est donc une perfidie de réclamer pour vous des droits politiques;
+car ces démocrates d'un nouveau genre ne sortiront jamais de ce dilemme:
+la loi, faite par la bourgeoisie,
+vous donne ,(emph[plus])
+ou vous donne ,(emph[moins]) que vos salaires naturels.
+Si elle vous donne ,(emph[moins]),
+ils vous trompent en vous invitant à la soutenir.
+Si elle vous donne ,(emph[plus]),
+ils vous trompent encore en vous engageant à réclamer des droits politiques,
+alors que la bourgeoisie vous fait des sacrifices
+que, dans votre honnêteté, vous n'oseriez pas voter.
+][
+Ouvriers, à Dieu ne plaise que cet écrit ait pour effet
+de jeter dans vos c,(oe)urs des germes d'irritation contre les classes riches!
+Si des intérêts mal entendus ou sincèrement alarmés
+soutiennent encore le monopole,
+n'oublions pas qu'il a sa racine
+dans des erreurs qui sont communes aux capitalistes et aux ouvriers.
+Loin donc de les exciter les uns contre les autres,
+travaillons à les rapprocher.
+Et pour cela que faut-il faire?
+S'il est vrai que les naturelles tendances sociales
+concourent à effacer l'inégalité parmi les hommes,
+il ne faut que laisser agir ces tendances,
+éloigner les obstructions artificielles qui en suspendent l'effet,
+et laisser les relations des classes diverses s'établir
+sur le principe de la justice qui se confond,
+du moins dans mon esprit, avec le principe de la ,(sc[liberté]),(footnote*[
+V. au tome II, la polémique directe contre divers journaux. ,(NdEEO)
+])])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome IV, ,(SophismesEconomiques),
+seconde série, chapitre VI,
+"aux artisans et ouvriers", pp. 173-181.
+][
+Texte numérisé par ,(WikiSourceFr).
+])))

@@ -86,6 +86,9 @@
 	     [Krylenko])) ; JB
 (define (leter) (ref :url "http://leter.net/" [Michel Leter]))
 (define (GregB) [Gregory Bodylski])
+(define (WikiSourceFr)
+  (ref :url "http://fr.wikisource.org/"
+	[WikiSource]))
 (define (numeriseurs)
   (ref :url [mailto:numeriseurs,(at)bastiat.net]
       [numeriseurs,(at)bastiat.net]))
