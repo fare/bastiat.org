@@ -12,7 +12,7 @@
 ###
 
 setopt EXTENDED_GLOB
-export PATH=/usr/local/bin:/usr/bin:/bin
+#export PATH=/usr/local/bin:/usr/bin:/bin
 fare=~fare
 
 LOG_FILE=/serv/bastiat/tmp/x.log
