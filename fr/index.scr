@@ -11,6 +11,7 @@
 ,(--) Démystificateurs de sophismes économiques depuis 1845.])))
 (br)
 (XXX[À FAIRE:
+intégrer les textes de WikiSource
 intégrer les machins d'econlib et les trucs espagnols
 dans la liste des oeuvres publiées.
 Verifier que les textes espagnols sont toujours disponibles...
@@ -111,10 +112,13 @@ Parmi les ,(strong(bof-ref "guillaumin" [,(OE*)uvres complètes])) de Bastiat,
 nous avons dernièrement
 	,(bof-ref "numerisation" [numérisé]):
 ,(itemize
-(item[,(cite-title(bof-ref "lettre1"
-	[Gratuité du crédit ,(--) Première lettre]))
-	(merci à ,(GregB)
-	,(--) 2005-07-24)
+(item[,(cite-title(bof-ref "propriete_et_spoliation"
+        [Propriété et Spoliation]))
+      (merci à l',(ref :url "http://oll.libertyfund.org" [OLL])
+      — 2013-12-21)])
+(item[,(cite-title(bof-ref "gratuite_du_credit"
+        [Gratuité du Crédit ,(--) toute la correspondance Bastiat-Proudhon!]))
+	(merci à ,(GregB) — 2006-08-23)
 ])
 (item[,(cite-title(bof-ref "peur_d_un_mot"
 	[La peur d'un mot])) et
@@ -619,7 +623,7 @@ vous pouvez donc les lire tout de même.])))
 	    (:bof "baccalaureat" [fr (extraits)])
 	    ("http://membres.tripod.fr/Alex22/f-bastiat.htm" [fr (idem)])))
 ])
-(item[Propriété et Spoliation (184?)
+(item[,(bof-ref "propriete_et_spoliation" [Propriété et Spoliation]) (1848)
 	,(trad
 	  '((:elb- "basEss6" "Chapter 6" [en])))
 ])
