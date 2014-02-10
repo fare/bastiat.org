@@ -13,7 +13,7 @@
 
 setopt EXTENDED_GLOB
 #export PATH=/usr/local/bin:/usr/bin:/bin
-fare=~fare
+fare=${FARE:-$HOME}
 
 LOG_FILE=/serv/bastiat/tmp/x.log
 MAX_LOG_SIZE=$[2**18]

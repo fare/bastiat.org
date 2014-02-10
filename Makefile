@@ -1,5 +1,6 @@
 export LISP=cmucl
 export BA=$(shell pwd)
+export FARE=${HOME}
 
 ifeq (.depend, $(wildcard .depend))
 all: ALL
@@ -30,4 +31,4 @@ ALL:	allfiles alldirs
 
 # works best with clisp...
 allscr:
-	exscribe --include ${BA} --include ~fare/fare/www --many ${BA} ${BA}/html */*.scr
+	exscribe --include ${BA} --include ${FARE}/fare/www --many ${BA} ${BA}/html */*.scr
