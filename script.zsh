@@ -70,7 +70,7 @@ sizeof () {
 function_p () {
   local WHENCE="$(whence -v $1)"
   case "$WHENCE" in
-    "$1 is a shell function")
+    "$1 is a shell function"*)
 	return 0 ;;
     *)
         return 1 ;;
@@ -105,7 +105,7 @@ scribe_rule () {
       subdir="$(dirname $i)"
       base="$(basename $i .scr)"
       file="${base}.scr"
-      style=bo-style.scr
+      style="bo-style.scr"
       other=
       id_rule $i
       hdir="${HOST_DIR}$subdir"

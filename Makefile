@@ -2,20 +2,18 @@ export LISP=cmucl
 export BA=$(shell pwd)
 export FARE=${HOME}
 
-ifeq (.depend, $(wildcard .depend))
 all: ALL
 
+.depend:
+	zsh -f script.zsh depend > .depend
+
 include .depend
-else
-all: depend
-endif
 
 .PHONY: dep depend tdepend
 
 dep: depend
 
-depend:
-	zsh -f script.zsh depend > .depend
+depend: .depend
 
 tdepend:
 	zsh -f script.zsh tdepend

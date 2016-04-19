@@ -1,8 +1,42 @@
-; bo-style.scr -- Scribe style file for bastiat.org -*- Scheme -*-
+;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Scheme -*-
 
 (style 'fare-style)
 
-; All that is to define correctly...
+;;; All that is to define correctly...
+
+(define-markup (in-bo
+                (:title #f) (:lang #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB96kQQPKcA9hvtk46jfLrOJROZQ"))
+  (apply* with-header :title title :lang lang :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (bo-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [A site by ,(FRR) ,(webbug)]))
+
+(define-markup (in-boe (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1t4Q0lGCThWKJZmCMwPijGBuvg"))
+  (apply* with-header :title title :lang 'en :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (boe-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [A site by ,(FRR) ,(webbug)]))
+
+(define-markup (in-bof (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1t5AEToaCwyNzVqItEA1IJ4eCg"))
+  (apply* with-header :title title :lang 'fr :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (bof-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Lib.ref))
+	       :right [Un site par ,(FRR) ,(webbug)]))
+
+(define-markup (in-boes (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB96lAiJYmytD2BwLTX0J8Im4GXg"))
+  (apply* with-header :title title :lang 'es :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (boes-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [Un sitio por ,(FRR) ,(webbug)]))
+
 
 (define (hist-note x) (*list "[" x "]"))
 (define (xbof-ref file title)
