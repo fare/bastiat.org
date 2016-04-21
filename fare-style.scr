@@ -1,0 +1,465 @@
+; fare-style.scr -- Scribe style file for fare.tunes.org -*- Scheme -*-
+; Works with both scribe and exscribe.
+; See cl-compat.scr for the implementation-dependent stuff.
+(style 'cl-compat)
+
+;;(define *default-charset* "iso-8859-1")
+(define *default-charset* "utf-8")
+
+(define (subtitle x) (font :size +6 (center x)))
+(define (abstract . x) (apply* p-justify (underline "Abstract")": " x))
+(define (strong x) (bold x))
+(define (cite x) (emph x))
+(define (cite-title x) (it x))
+(define-macro (set-q! x) `(fset! q ,x))
+
+(eval-now
+(define (make-string1 . x) (foo->string x))
+(define (string-cdr x) (substring x 1 (string-length x)))
+(define (keyword->string1 x) (string-cdr (keyword->string x)))
+(define (create-symbol . x) (string->symbol (foo->string x)))
+(define (maybe-list-ref l n)
+  (and (pair? l) (if (= n 0) (car l) (maybe-list-ref (cdr l) (1- n))))))
+
+
+
+(define (http-equiv x y) (otag :meta :http-equiv x :content y))
+(define (metanc x y) (otag :meta :name x :content y))
+
+(define-markup (make-glyph (:txt "") (:html #f) (:tex #f) (:info #f) (:man #f) (:pdf #f))
+  (let ((foo (format-selector :txt txt
+			      :html html :tex tex :info info :man man :pdf pdf)))
+   (%raw foo)))
+(define ($ x) ; TeX math mode
+  (format-selector :txt x
+		   :html (funcall (raw-environment "<tt>" "</tt>") x)
+		   :info x
+		   :man x
+		   :pdf x
+		   :tex (funcall (raw-environment "$" "$") x)))
+
+(define (pv . x) (declare (ignore x)) #\;) ;;; (*list (thinsp) #\;)
+(define (oe) (make-glyph :txt "oe" :html "&oelig;" :tex "{\\oe}"))
+(define (ae) (make-glyph :txt "ae" :html "&aelig;" :tex "{\\ae}"))
+(define (OE*) (make-glyph :txt "OE" :html "&OElig;" :tex "{\OE}"))
+(define (AE*) (make-glyph :txt "AE" :html "&AElig;" :tex "{\AE}"))
+(define (i~) (make-glyph :txt "i" :html "&#297;" :tex "{\\~i}"))
+(define (o+) (make-glyph :txt "o" :html "&#417;" :tex "{o}"))
+(define (u+) (make-glyph :txt "u" :html "&#432;" :tex "{u}"))
+(define (copy) (make-glyph :txt "(c)" :html "&copy;" :tex "{\copy}"))
+(define (at) (make-glyph :txt "@" :html "&#64;" :pdf "@"))
+;(define (--) (make-glyph :txt "--" :html "&#151;" :tex "---"))
+(define (--) (make-glyph :txt "--" :html "&mdash;" :tex "---"))
+(define (nbsp) (make-glyph :txt " " :html "&nbsp;" :tex "~"))
+(define (thinsp) (make-glyph :txt " " :html "&thinsp;" :tex "\;")) ; &#8201;
+(define *made-with* "Made with")
+(define *site-by* "A site by")
+(define (NdT) (emph[(Note du traducteur)]))
+(define (NdEEO) (emph[(Note de l'éditeur de l'édition originale.)]))
+
+(define (use-lang lang)
+   (case lang
+     ((en)
+      (set-q! nq)
+      (set! *made-with* "Made with")
+      (set! *site-by* "A site by")
+      (set! *footnotes-title* "Notes"))
+     ((fr)
+      (set-q! fq)
+      (set! *made-with* "Fait avec")
+      (set! *site-by* "Un site par")
+      (set! *footnotes-title* "Notes"))
+     ((es)
+      (set-q! nq)
+      (set! *made-with* "Hecho con")
+      (set! *site-by* "Un sitio por")
+      (set! *footnotes-title* "Notas")
+      (fset! NdEEO (lambda () (emph[(Nota del editor de la edición original.)])))
+      (fset! NdT (lambda () (emph[(Nota del Traductor.)]))))
+     (else (use-lang 'en))))
+(define (verses . x)
+  (blockquote (apply* br* x)))
+
+(define (XXX . rest) (declare (ignore rest)) '())
+(define (p* . rest) (apply* *list (map* p-justify rest)))
+;(define (p* . rest) (map* (lambda (x) (p :align 'justify x)) rest)) ; XXX :(
+(define (blockquote* . x)
+  (blockquote (apply* p* x)))
+
+(eval-now
+(define (integers-from-to n m)
+  (if (> n m) '() (cons n (integers-from-to (1+ n) m))))
+(define (n-eme-suffix n) (if (eqv? n 1) "er" "ème"))
+(define (n-o-suffix n) (declare (ignore n)) "o")
+(define (n-th-suffix n) (if (integer? n)
+			    (let* ((s (remainder n 100)) (r (remainder s 10)))
+			      (cond ((and (> s 10) (< n 14)) "th")
+			            ((= r 1) "st")
+				    ((= r 2) "nd")
+				    ((= r 3) "rd")
+				    (else "th")))
+			    "th"))
+(define (adding-suffix suffix x) (*list x (sup (funcall suffix x))))
+(define (n-eme x) (adding-suffix (function n-eme-suffix) x))
+(define (n-th x) (adding-suffix (function n-th-suffix) x))
+(define (n-o x) (adding-suffix (function n-o-suffix) x)))
+(define-macro (mk-def-nth nth n)
+  ``(define (,(create-symbol ,n (symbol-cased (,(create-symbol nth :-suffix) ,n))))
+      (,',nth ,,n)))
+(define-macro (def-n-eme)
+   `(begin ,@(map* (lambda (n) (mk-def-nth n-eme n))
+		 (integers-from-to 1 20))))
+(define-macro (def-n-th)
+   `(begin ,@(map* (lambda (n) (mk-def-nth n-th n))
+		 (integers-from-to 1 20))))
+(define-macro (def-n-o)
+   `(begin ,@(map* (lambda (n) (mk-def-nth n-o n))
+		 (integers-from-to 1 9))))
+(def-n-eme)
+(def-n-th)
+(def-n-o)
+(define (Mme) [M,(sup "me")])
+(define (Ier) [I,(sup "er")])
+(define (Iere) [I,(sup "ère")])
+(define (eme) (sup "ème"))
+(define (1ere) [1,(sup "ère")])
+(define (2eme) [2,(eme)])
+(define (3eme) [3,(eme)])
+(define (4eme) [4,(eme)])
+(define (5eme) [5,(eme)])
+(define (6eme) [6,(eme)])
+(define (7eme) [7,(eme)])
+(define (8eme) [8,(eme)])
+(define (9eme) [9,(eme)])
+(define (10eme) [10,(eme)])
+(define (11eme) [11,(eme)])
+(define (12eme) [12,(eme)])
+(define (13eme) [13,(eme)])
+(define (14eme) [14,(eme)])
+(define (2e) [2,(sup "e")])
+(define (3e) [3,(sup "e")])
+(define (5e) [5,(sup "e")])
+(define (12e) [12,(sup "e")])
+(define (20e) [20,(sup "e")])
+(define (VIIe) [VII,(sup "e")])
+(define (XIe) [XI,(sup "e")])
+(define (XVIIIe) [XVIII,(sup "e")])
+(define (XVIIIeme) [XVIII,(sup "ème")])
+(define (XIXe) [XIX,(sup "e")])
+(define (XIXeme) [XIX,(sup "ème")])
+(define (XIXth) (n-th [XIX]))
+(define (XXe) [XX,(sup "e")])
+(define (XXeme) [XX,(eme)])
+(define (XXIe) [XXI,(sup "e")])
+;(define (1o) [1°])
+;(define (2o) [2°])
+;(define (3o) [3°])
+;(define (4o) [4°])
+
+(define (join* s l)
+  (cond ((null? l) l)
+	((null? (cdr l)) l)
+	(else (cons (car l) (cons s (join* s (cdr l)))))))
+
+(define (inbracket x) (*list "[" x "]"))
+(define (inlatin x) (it x))
+(define (inenglish x) (it x))
+(define (initalian x) (it x))
+
+
+(define (apriori) (inlatin "a priori"))
+(define (aposteriori) (inlatin "a posteriori"))
+(define (defacto) (inlatin "de facto"))
+(define (dejure) (inlatin "de jure"))
+(define (adhoc) (inlatin "ad hoc"))
+
+(define +url-fare/+ "http://fare.tunes.org/")
+(define *url-fare/* +url-fare/+)
+(define *url-blog-fare/* "http://fare.livejournal.com/")
+(define *url-lib/* (cons *url-fare/* "liberalisme/"))
+(define *url-liben/* (cons *url-fare/* "liberty/"))
+(define *url-info/* (cons *url-fare/* "informatique/"))
+(define *url-comp/* (cons *url-fare/* "computing/"))
+(define +url-QL/+ "http://www.quebecoislibre.org/")
+(define (url-fare/ . x) (apply* string-append *url-fare/* x))
+(define (url-lib/ . x) (apply* string-append *url-lib/* x))
+
+(define (ref-maker-body b d s r)
+  (let* ((x (maybe-list-ref r 0))
+	 (x1 (maybe-list-ref r 1))
+	 (x2 (maybe-list-ref r 2))
+	 (y (or x2 x1))
+	 (a (and x2 x1)))
+    (ref :url (make-string1 b (if x (cons x s)) (if a (cons "#" a)))
+	 (or y d))))
+(define-macro (ref-maker b . r)
+  (let ((x (gensym))
+	(d (maybe-list-ref r 0))
+	(s (maybe-list-ref r 1)))
+  `(lambda ,(make-rest-arg x)
+     (ref-maker-body ,b ,d ,(or s ".html") ,x))))
+
+(def-ref-maker Comp.ref *url-comp/* [Faré on Computing])
+(def-ref-maker Info.ref *url-info/* [L'informatique selon Faré])
+(def-ref-maker Lib.ref *url-lib/* [Le Libéralisme, le vrai])
+(def-ref-maker Liben.ref *url-liben/* [Liberty, as it is])
+(def-ref-maker Fare.ref *url-fare/* [Faré's])
+(def-ref-maker QL.ref +url-QL/+ "Québécois Libre" ".htm")
+(define =bof.url= "http://bastiat.org/fr/")
+(def-ref-maker bof-ref =bof.url= [Bastiat.org])
+(define =bo.url= "http://bastiat.org/")
+(def-ref-maker bo-ref =bo.url= [Bastiat.org])
+(define =boe.url= "http://bastiat.org/en/")
+(def-ref-maker boe-ref =boe.url=)
+(define =boes.url= "http://bastiat.org/es/")
+(def-ref-maker boes-ref =boes.url= [Bastiat.org])
+(def-ref-maker blog-ref *url-blog-fare/* [Cybernéthique])
+(def-ref-maker blog-en-ref *url-blog-fare/* [Cybernethics])
+(define =fare.url= "http://fare.tunes.org/")
+(def-ref-maker Scribe.ref "http://www-sop.inria.fr/mimosa/fp/Scribe/" "Scribe")
+(define =mfc.url= "http://bastiat.org/marche/")
+(def-ref-maker mfc-ref =mfc.url= [Marche pour le Capitalisme])
+
+(define (FRR*) "François-René Rideau")
+(define (FRR) (Fare.ref #f (FRR*)))
+
+(define (author-FB)
+ (author :name "Frédéric Bastiat"
+	 :url (bo-ref #f =bo.url=)))
+(define (author-FRR)
+ (author :name "François-René Rideau"
+	 :url (Fare.ref #f =fare.url=)))
+(define (author-LB)
+ (author :name "Lauren Branchini"))
+
+(define (FareR*) "Faré Rideau")
+(define (FareR) (Fare.ref #f (FareR*)))
+(define (DVB) (make-glyph :txt "Dang-Vu Ban"
+			:html "&#272;&#7863;ng-V&#361; B&acirc;n"))
+(define (DVB/) (ref :url "http://dang-vu.org/" (DVB)))
+(define (FB) [Frédéric Bastiat])
+
+
+(define doctype "<!doctype html public \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">")
+(define (webbug) '()) ;;;(lambda () (if *webbug* (*webbug*))))
+(define fare-header-args
+  '(:textcolor "black" :bgcolor "white"
+    ;:icon "http://bastiat.org/pic/favicon.ico"
+))
+
+(define *bitcoin-address* "1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6")
+(define bitcoin-url (string-append "bitcoin:" *bitcoin-address*))
+
+(defun donate (&optional (root *url-fare/*))
+  [,(Fare.ref "donate" [Donate]):
+   ,(ref :url bitcoin-url [bitcoins])
+   ,(tag :img :alt *bitcoin-address* :valign :top :align :right
+          :src (strcat root "files/pics/fare-btc1.png"))
+   or
+   ,(ref :url "https://paypal.com/" [paypal]) to ,(tt[fahree,(at)gmail.com])])
+
+(defun donations (&optional (root *url-fare/*))
+  [,(Fare.ref "donate" [Donations]):
+   ,(ref :url bitcoin-url [bitcoins])
+   ,(img :alt *bitcoin-address*
+         :src (strcat root "files/pics/fare-btc1.png"))
+   ou
+   ,(ref :url "https://paypal.com/" [paypal]) à ,(tt[fahree,(at)gmail.com])])
+
+(define *parent-document* #f)
+
+(define *footer-left* (FareR))
+(define *footer-middle* #f)
+(define *footer-right* [Site by ,(FareR) — ,(donate)])
+
+(define-markup (with-footer (:left #f) (:right #f) (:middle #f) . body)
+  (when left (set! *footer-left* left))
+  (when middle (set! *footer-middle* middle))
+  (when right (set! *footer-right* right))
+  (set! *scribe-footer*
+	(format-selector
+         :txt ""
+         :html
+         (*list
+          (hrule) lflf
+          (font :size -1
+                (*list* body)
+                (table :width "100%" (tr
+                                      (td :width "25%" :align 'left
+                                          *footer-left*)
+                                      ;; (Fare.ref "pictures/fare4.jpg" (FRR)) (DVB/)
+                                      (td :width "50%" :align 'center
+                                          *footer-middle*)
+                                      (td :width "25%"  :align 'right
+                                          *footer-right*))))
+          (%raw "</body>" (if (eq? *cl-compat* :common-lisp) "</html>"))
+          lf)
+         :pdf (small[Document generated by Exscribe & CL-Typesetting])
+         ))
+  #f)
+(define-markup (with-header (:title #f) (:lang #f) (:icon #f)
+        (:textcolor #f) (:bgcolor #f) (:linkcolor #f)
+	(:charset *default-charset*) . head)
+  (use-lang lang)
+  (set! *scribe-header*
+        (format-selector
+         :txt ""
+         :html (*list
+                (%raw doctype lf "<html>" lf)
+                (head lf
+                      (if lang (http-equiv "Content-Language" lang)) lf
+                      (http-equiv "Content-Type"
+                                  (make-string1 "text/html; charset=" charset)) lf
+                                  (if icon (xtag :link :rel "shortcut icon" :type "image/x-icon"
+                                                 :href icon)) lf
+                                                 (*list* head)
+                                                 (if title (title* title)) lf)
+                (apply* otag :body
+                        (append (if bgcolor (list :bgcolor bgcolor) '())
+                                (if textcolor (list :text textcolor) '())
+                                (if linkcolor (list :link linkcolor) '())))
+                lf)))
+  #f)
+(with-header)
+(with-footer)
+
+(define (nedstatbasic id)
+  id ;---ignore
+  '(case *scribe-format*
+    ((html)
+     (%raw "<script language=\"JavaScript\" src=\"http://m1.nedstatbasic.net/basic.js\"></script><script language=\"JavaScript\"><!--
+  nedstatbasic(\"" id "\", 0);
+// --></script><noscript><a target=\"_blank\" href=\"http://v1.nedstatbasic.net/stats?" id "\"><img src=\"http://m1.nedstatbasic.net/n?id=" id "\" border=\"0\" nosave width=\"18\" height=\"18\"></a></noscript>
+")))
+  #f)
+(define *webbug* #f)
+
+(define-markup (in-fare-home
+                (:title #f) (:lang #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1t3gTL63YpE53UXWKTuSxJGlCQ"))
+  (apply* with-header :title title :lang lang :charset charset '())
+  (with-footer :middle (strong(Fare.ref #f [Faré's]))
+               :right [Site by ,(FareR) — ,(donate "/")]))
+
+(define-markup (in-fare-computing
+                (:title #f) (:lang #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB96lg/EFHDvxGajn0IHFujIpdsg"))
+  (apply* with-header :title title :lang lang :charset charset '())
+  (with-footer :middle (Comp.ref #f [Faré on Computing])))
+
+(define-markup (in-bo
+                (:title #f) (:lang #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB96kQQPKcA9hvtk46jfLrOJROZQ"))
+  (apply* with-header :title title :lang lang :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (bo-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [A site by ,(FRR) ,(webbug)]))
+(define-markup (in-boe (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1t4Q0lGCThWKJZmCMwPijGBuvg"))
+  (apply* with-header :title title :lang 'en :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (boe-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [A site by ,(FRR) ,(webbug)]))
+(define-markup (in-bof (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1t5AEToaCwyNzVqItEA1IJ4eCg"))
+  (apply* with-header :title title :lang 'fr :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (bof-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Lib.ref))
+	       :right [Un site par ,(FRR) ,(webbug)]))
+(define-markup (in-boes (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB96lAiJYmytD2BwLTX0J8Im4GXg"))
+  (apply* with-header :title title :lang 'es :charset charset
+	 :icon "http://bastiat.org/pic/favicon.ico" '())
+  (with-footer :left (boes-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [Un sitio por ,(FRR) ,(webbug)]))
+
+(define-markup (in-liberty (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1ulwU3yqLxpcI0HIoIyJU4KDfA"))
+  (apply* with-header :title title :lang 'en :charset charset '())
+  (with-footer :middle (strong(Liben.ref))))
+(define-markup (in-liberalisme (:title #f) (:charset *default-charset*))
+  ;(set! *webbug* (nedstatbasic "AB1umwc2buYYBmf97bxLea626Y1g"))
+  (apply* with-header :title title :lang 'fr :charset charset '())
+  (with-footer :middle (strong(Lib.ref))))
+
+(set! *scribe-background* "white")
+(set! *scribe-foreground* "black")
+(set! *scribe-tbackground* "#FFDB31")
+
+(define *background* "white")
+(define *foreground* "black")
+(define *tbackground* "#FFDB31")
+(define *section-title-background* "#FFC189")
+
+(case *scribe-format*
+  ((html) (begin
+	    (set! *scribe-html-section-title-start*
+		  (%raw "<table width=100%>" "<tr><td bgcolor=\"#FFC189\">"
+			"<font face=\"sans-serif\" size=+1><B>"))
+	    (set! *scribe-html-section-title-stop*
+		  (%raw "</b></font></td></tr></table><p>")))))
+
+(define (tdc . r) (apply* td :valign 'top :align 'center :width "49%" r))
+(define (tdl . r) (apply* td :valign 'top :align 'left :width "49%" r))
+
+(define (items . x) (apply* itemize (map* item x)))
+(define (title-item y . l)
+   (*list y (apply* itemize (map* item l))))
+(define (lref* u y . r)
+   (*list (ref :url u y) (if (null? r) r (*list ", " (apply* lref* r)))))
+(define (lref** x) (apply* lref* x))
+(define (link-item y l)
+   (tdl (apply* title-item (bold y) (map* lref** l))))
+
+(define (date-tag x)
+  (*p :align 'right x))
+
+(define (url x) (ref :url x (tt x)))
+
+(define (q-- . x)
+  (q (list (--) " " x)))
+
+(define (p+ . x)
+  (apply #'p* (group-by-paragraphs x)))
+
+(define (footnote+ . x)
+  (apply 'footnote* (group-by-paragraphs x)))
+
+(define (p1 . x)
+  (div :style "text-indent: 2em;" x))
+
+(define (p1m . x)
+  (let ((ps (group-by-paragraphs x)))
+    (when ps
+      (cons
+       (div (first ps))
+       (mapcar #'p1 (rest ps))))))
+
+(defun trim-lf (l)
+  (loop :for x = (car l) :while (eq x scribble::*lf*) :do (pop l)) l)
+
+(defun reverse-trim-lf (x)
+  (trim-lf (reverse (trim-lf x))))
+
+(defun group-by-paragraphs (x)
+  (loop :with l = '() :with trimmed
+    :for endp = (null x) :for donep = (and endp (null l))
+    :for cur = (pop x) :for next = (car x) :until donep
+    :when (or endp (and (equal cur scribble::*lf*) (equal next scribble::*lf*)))
+      :do (setf trimmed (reverse-trim-lf l) l '()) :and
+      :when trimmed :collect trimmed :end
+    :else :do (push cur l)))
+
+(define (stars)
+  (p :align :center [* * *]))
+
+(define-markup (epigraph (:author #f) . body)
+  (div :style "margin-left: 60%; margin-top: 1em; margin-bottom: 1em; padding-left: 1em;"
+    (div :style "font-style: italic;" body)
+    (when author
+          (div :style "text-align: right;" "— " author))))
+

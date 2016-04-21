@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820d.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+d’octobre 1820")
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(date-tag[Bayonne, octobre 1820])
+(p*[
+Je t’avoue, mon cher ami, que le chapitre de la religion me tient dans une hésitation, une incertitude qui commencent à me devenir à charge. Comment ne pas voir une mythologie dans les dogmes de notre catholicisme ? Et cependant cette mythologie est si belle, si consolante, si sublime, que l’erreur est presque préférable à la vérité. Je pressens que si j’avais dans mon cœur une étincelle de foi, il deviendrait bientôt un foyer. Ne sois pas surpris de ce que je te dis là. Je crois à la Divinité, à l’immortalité de l’âme, aux récompenses de la vertu et au châtiment du vice. Dès lors, quelle immense différence entre l’homme religieux et l’incrédule ! mon état est insupportable. Mon cœur brûle d’amour et de reconnaissance pour mon Dieu, et j’ignore le moyen de lui payer le tribut d’hommages que je lui dois. Il n’occupe que vaguement ma pensée, tandis que l’homme religieux a devant lui une carrière tracée à parcourir. Il prie. Toutes les cérémonies du culte le tiennent sans cesse occupé de son Créateur. Et puis ce sublime rapprochement de Dieu et de l’homme, cette rédemption, qu’il doit être doux d’y croire ! quelle invention, Calmètes, si c’en est une !
+][
+Outre ces avantages, il en est un autre qui n’est pas moindre : l’incrédule est dans la nécessité de se faire une morale, puis de la suivre. Quelle perfection dans l’entendement, quelle force dans la volonté lui sont indispensables ! et qui lui répond qu’il ne devra pas changer demain son système d’aujourd’hui ? L’homme religieux au contraire a sa route tracée. Il se nourrit d’une morale toujours divine.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))
