@@ -11,9 +11,10 @@ include .depend
 
 .PHONY: dep depend tdepend
 
-dep: depend
+dep:
+	zsh -f script.zsh depend > .depend
 
-depend: .depend
+depend: dep
 
 tdepend:
 	zsh -f script.zsh tdepend

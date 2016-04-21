@@ -1,6 +1,10 @@
 How to hack bastiat.org
 =======================
 
+This is the source code for the [bastiat.org](http://bastiat.org/)
+website dedicated to the life and works of Frédéric Bastiat.
+
+
 Installing the toolchain
 ------------------------
 
@@ -23,10 +27,6 @@ Installing the toolchain
   5. Move Exscribe to a place in your `$PATH`, e.g.:
 
         sudo install -m 755 -o 0 -g 0 exscribe /usr/local/bin/
-
-  6. Make sure you have a copy of my `fare-style.scr` in your `bastiat.org/` checkout.
-
-        wget http://fare.tunes.org/files/exscribe/fare-style.scr
 
 
 Building the website

@@ -13,7 +13,6 @@
 
 setopt EXTENDED_GLOB
 #export PATH=/usr/local/bin:/usr/bin:/bin
-fare=${FARE:-$HOME}
 
 LOG_FILE=/serv/bastiat/tmp/x.log
 MAX_LOG_SIZE=$[2**18]
@@ -118,7 +117,7 @@ scribe_rule () {
 	other="oeuvres_bastiat.scr"
       fi
       rule "$b.html" "$i $style $other" \
-	"$CD ; $SCRIBE -I ${fare}/fare/www -I ${top} $file -o $base.html"
+	"$CD ; $SCRIBE -I ${top} $file -o $base.html"
       FILES="$b.html"
       HFILES="$b.html"
       CFILES="$b.html"
