@@ -1,0 +1,32 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 2 mars 1834")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Bordeaux, le 2 mars 1834])
+(p*[
+… Je me suis un peu occupé de faire quelques connaissances, j’y réussirai, j’espère. Mais ici vous voyez écrit sur chaque visage auquel vous faites politesse : ,(emph[Qu’y a-t-il à gagner avec toi ?]) Cela décourage. — On fonde, il est vrai, un nouveau journal. Le prospectus n’apprend pas grand’chose, et le rédacteur encore moins ; car l’un est rédigé avec le pathos à la mode, et l’autre, me supposant un homme de parti, s’est borné à me faire sentir combien le ,(cite-title[Mémorial]) et l’,(cite-title[Indicateur]) étaient insuffisants pour les patriotes. Tout ce que j’ai pu en obtenir, c’est beaucoup d’insistance pour que je prenne un abonnement.
+][
+Fonfrède est tout à fait dans les principes de Say. Il fait de longs articles qui seraient très-bons dans un ouvrage de longue haleine. À tout risque, je lui pousserai ma visite.
+][
+Je crois qu’un cours réussirait ici, et je me sens tenté. Il me semble que j’aurais la force de le faire, surtout si l’on pouvait commencer par la seconde séance ; car j’avoue que je ne répondrais pas, à la première, même de pouvoir lire couramment : mais je ne puis quitter ainsi toutes mes affaires. Nous verrons pourtant cet hiver.
+][
+Il s’est établi déjà un professeur de chimie. J’ai dîné avec lui sans savoir qu’il faisait un cours. Si je l’avais su, j’aurais pris des renseignements sur le nombre d’élèves, la cotisation, etc. J’aurais su si, avec un professeur d’histoire, un professeur de mécanique, un professeur d’économie politique, on pourrait former une sorte d’,(emph[Athénée]). Si j’habitais Bordeaux, il y aurait bien du malheur si je ne parvenais à l’instituer, dussé-je en faire tous les frais ; car j’ai la conviction qu’en y adjoignant une bibliothèque, cet établissement réussirait. Apprends donc l’histoire, et nous essayerons peut-être un jour.
+][
+Je te quitte ; trente tambours s’exercent sous mes fenêtres, je ne sais plus ce que je dis.
+][
+Adieu.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))

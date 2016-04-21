@@ -1,0 +1,29 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820c.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+du 8 décembre 1821")
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(date-tag[Bayonne, 8 décembre 1821])
+(p*[
+J’étais absent, mon cher ami, quand ta lettre est parvenue à Bayonne, ce qui retarde un peu ma réponse. Que j’ai eu de plaisir à la recevoir cette chère lettre ! À mesure que l’époque de notre séparation s’éloigne de nous, je pense à toi avec plus d’attendrissement ; je sens mieux le prix d’un bon ami. Je n’ai pas trouvé ici qui pût te remplacer dans mon cœur. Comme nous nous aimions ! pendant quatre ans nous ne nous sommes pas quittés un instant. Souvent l’uniformité de notre manière de vivre, la parfaite conformité de nos sentiments et de nos pensées ne nous permettait pas de beaucoup causer. Avec tout autre, de silencieuses promenades aussi longues m’auraient été insupportables ; avec toi, je n’y trouvais rien de fatigant ; elles ne me laissaient rien à désirer. J’en vois qui ne s’aiment que pour faire parade de leur amitié, et nous, nous nous aimions obscurément, bonnement ; nous ne nous aperçûmes que notre attachement était remarquable que lorsqu’on nous l’eut fait remarquer. Ici, mon cher, tout le monde m’aime, mais je n’ai pas d’ami…
+][
+. . . . . . . . . . . . . . 
+][
+Te voilà donc, mon ami, en robe et en bonnet carré ! Je suis en peine de savoir si tu as des dispositions pour l’état que tu embrasses. Je te connais beaucoup de justesse et de rectitude dans le jugement ; mais c’est la moindre des choses. Tu dois avoir l’élocution facile, mais l’as-tu aussi pure ? ton accent n’a pas dû s’améliorer à Toulouse, ni se perfectionner à Perpignan. Le mien est toujours détestable et probablement ne changera jamais. Tu aimes l’étude, assez la discussion. Je crois donc que tu dois à présent t’attacher surtout à l’étude des lois, car ce sont des notions que l’on n’apprend que par le travail, comme l’histoire et la géographie, — et ensuite à la partie physique de ta profession. Les grâces, les manières nobles et aisées, ce vernis, ce coup d’œil, cet avant-main, ce je ne sais quoi qui plaît, qui prévient, qui entraîne. C’est là la moitié du succès. Lis à ce sujet les Lettres de lord Chesterfield à son fils. C’est un livre dont je suis loin d’approuver la morale, toute séduisante qu’elle est ; mais un esprit juste comme le tien saura facilement laisser le mauvais et faire son profit du bon.
+][
+Pour moi, ce n’est pas Thémis, c’est l’aveugle Fortune que j’ai choisie, ou qu’on m’a choisie pour amante. Cependant, je dois l’avouer, mes idées sur cette déesse ont beaucoup changé. Ce 
+,(emph[vil métal]) n’est plus aussi vil à mes yeux. Sans doute il était beau de voir les Fabricius et les Curius demeurer pauvres, lorsque les richesses n’étaient le fruit que du brigandage et de l’usure ; sans doute Cincinnatus faisait bien de manger des fèves et des raves, puisqu’il aurait dû vendre sa patrie et son honneur pour manger des mets plus délicats ; mais les temps sont changés. — À Rome la fortune était le fruit du hasard, de la naissance, de la conquête ; aujourd’hui elle n’est que le prix du travail, de l’industrie, de l’économie. Dans ce cas elle n’a rien que d’honorable. C’est un fort sot préjugé qu’on puise dans les colléges, que celui qui fait mépriser l’homme qui sait acquérir avec probité et user avec discernement. Je ne crois pas que le monde ait tort, dans ce sens, d’honorer le riche ; son tort est d’honorer indistinctement le riche honnête homme et le riche fripon…
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))

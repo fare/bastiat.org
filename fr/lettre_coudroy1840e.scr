@@ -1,0 +1,34 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 24 octobre 1840")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Lisbonne, le 24 octobre 1840])
+(p*[
+Mon cher Félix, voilà bien longtemps que je ne t’ai écrit. C’est que nous sommes si éloignés et qu’il faut si longtemps pour avoir une réponse de Mugron, que je ne suis jamais sûr de la recevoir ici. Enfin me voilà à peu près décidé, et sauf circonstances imprévues, à dire adieu à la Péninsule de lundi en huit. Mon intention est d’aller à Londres ; je ne puis, selon le conseil que tu me transmets, de la part de ma tante, aller d’abord à Plymouth. Le steamboat va directement à Londres. J’avais d’abord pensé à m’embarquer pour Liverpool. Je satisferais ainsi à l’économie et à mon goût pour la marine, parce que la navigation à voiles est moins chère et plus fertile en émotions que la monotone vapeur. Mais la saison est si avancée que ce serait imprudence, et je courrais le risque de passer un mois en mer.
+][
+Je me suis un peu ennuyé à Lisbonne les premiers jours. Maintenant, à part le désir bien naturel de revenir chez moi, je me plais ici, quoique j’y mène une vie uniforme. Mais ce climat est si doux, si beau, cette nature si riche, et je me sens un bien-être, une plénitude de santé si inaccoutumée, que j’attribue à cela l’absence d’ennui.
+][
+Voici un pays qui, je crois, te conviendrait bien : ni chaud, ni froid, ni brouillards, ni humidité ; s’il pleut, ce sont des torrents pendant un jour ou deux, puis le ciel reprend sa sérénité, et l’atmosphère sa douce tiédeur. Partout on peut disposer d’un peu d’eau ; ce sont des bosquets de myrtes, d’orangers, des treilles touffues, des héliotropes qui rampent le long des murs, comme chez nous les convolvulus. Maintenant je comprends la vie des Maures. Malheureusement les hommes ici ne valent pas la nature, ils ne veulent pas se donner la peine par laquelle les Arabes se donnaient tant de jouissances. Peut-être penses-tu que ces fervents catholiques dédaignent la fraîcheur et les parfums de l’oranger, et qu’ils se renferment dans les sévères plaisirs de la pensée et de la contemplation. Hélas ! je reviendrai bien désabusé de la bonne opinion de Custine ; il a cru voir ce qu’il désirait voir.
+][
+Ce sera pour moi une étude fort curieuse que celle de l’Angleterre succédant à celle de la Péninsule. La comparaison serait plus intéressante encore, si le catholicisme était aussi vivace ici qu’on se le représente. Mais enfin je verrai un peuple dont la religion réside dans l’intelligence, après en avoir vu un pour qui elle est toute dans les sens. Ici les pompes du culte : des flambeaux, des parfums, des habits magnifiques, des statues ; mais la démoralisation la plus complète. Là, au contraire, des liens de famille, l’homme et la femme chacun aux devoirs de son sexe, le travail ennobli par un but patriotique, la fidélité aux traditions des ancêtres, l’étude constante de la morale biblique et évangélique ; mais un culte simple, grave, se rapprochant du pur déisme. Quel contraste ! que d’oppositions ! quelle source de réflexions !
+][
+Ce voyage aura aussi produit un effet auquel je ne me serais pas attendu. Il n’a pu effacer cette habitude que nous avons contractée de nous observer nous-mêmes, de nous écouter penser et sentir, de suivre toutes les modifications de nos opinions. Cette étude de soi a bien des charmes, et l’amour-propre lui communique un intérêt qui ne saurait s’affaiblir. Mais à Mugron, toujours dans un milieu uniforme, nous ne pouvions que tourner dans un même cercle ; en voyage, des situations excentriques donnent lieu à de nouvelles observations. Par exemple, il est probable que les événements actuels m’affectent bien différemment que si j’étais à Mugron ; un patriotisme plus ardent donne plus d’activité à ma pensée. En même temps, le champ où elle s’exerce est plus étendu, comme un homme placé sur une hauteur embrasse un plus vaste horizon. Mais la puissance du regard est pour chacun de nous une quantité donnée, et il n’en est pas de même de la faculté de penser et de sentir.
+][
+Ma tante, à l’occasion de la guerre, me recommande la prudence ; je n’ai absolument aucun danger à courir. Si je voyageais dans un bâtiment français et que la guerre fût déclarée, je pourrais craindre les corsaires ; mais dans un navire anglais je ne cours pas ce danger, à moins de tomber sous la serre d’un croiseur français, ce qui ne serait pas bien dangereux d’ailleurs. D’après les nouvelles reçues aujourd’hui, je vois que la France a pris le parti d’une résignation sentimentale, qui devient grotesque. D’ici elle me paraît toute ,(emph[décontenancée]) ; elle met son honneur à ,(emph[prouver sa modération]), et, à chaque insulte, elle répond par des arguments en forme pour démontrer qu’elle a été insultée. Elle a l’air de croire que le remords va s’emparer des Anglais, et que, les larmes aux yeux, ils vont cesser de poursuivre leur but et nous demander pardon. Cela me rappelle ce mot : ,(emph[Il m’a souffleté, mais je lui ai bien dit son fait.])
+][
+Adressez-moi vos lettres à Londres, sous couvert de MM. A. A. Gower neveux et compagnie.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))

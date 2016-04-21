@@ -1,0 +1,37 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+du 4 mars 1846")
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(date-tag[Bayonne, 4 mars 1846])
+(p*[
+Mon bon et vieil ami, ta lettre m’a réjoui le cœur, et il me semblait en la lisant que vingt-cinq ans de moins pesaient sur ma tête. Je me reportais à ces jours heureux où nos bras toujours entrelacés étaient l’image de notre cordiale union. Vingt-cinq ans ! hélas ! ils sont bien vite revenus faire sentir leur poids.
+][
+. . . . . . . . . . . . . . . . . . . . . .
+][
+Je crois qu’en elle-même la nomination de membre correspondant de l’Institut a peu d’importance, et je crains bien que beaucoup de médiocrités n’aient pu se parer de ce titre ; mais les circonstances particulières qui ont précédé ma nomination ne me permettent pas de repousser les amicales félicitations. — Je n’avais publié qu’un livre et, dans ce livre, la préface seule était mon œuvre. Rentré dans ma solitude, cette préface a travaillé pour moi, et à mon insu ; car la même lettre qui m’a appris mon élection m’a annoncé ma candidature. — Jamais de la vie je n’avais pensé à cet honneur.
+][
+Ce livre est intitulé : ,(cite-title[Cobden et la Ligue]). Je te l’envoie par ce courrier, ce qui me dispense de t’en parler. — En 1842 et 1843, je m’efforçai d’attirer l’attention sur le sujet qui y est traité. J’adressai des articles à la 
+,(cite-title[Presse]), au 
+,(cite-title[Mémorial Bordelais]) et à d’autres journaux. Ils furent refusés. Je vis que ma cause venait se briser contre la 
+,(emph[conspiration du silence]) ; et je n’avais d’autre ressource que de faire un livre. — Voilà comment je me suis trouvé auteur sans le savoir. Maintenant je me trouve engagé dans la carrière, et je le regrette sincèrement ; bien que j’aie toujours aimé l’,(emph[économie politique]), il m’en coûte d’y donner exclusivement mon attention, que j’aimais à laisser errer librement sur tous les objets des connaissances humaines. Encore, dans cette science, une seule question m’entraîne et va m’absorber : La liberté des relations internationales ; car peut-être auras-tu vu qu’on m’a assigné un rôle dans l’association qui vient de se former à Bordeaux. Tel est le siècle ; on ne peut s’y mêler sans être garrotté dans les liens d’une spécialité.
+][
+. . . . . . . . . . . . . . . . . . . . . . 
+][
+J’oubliais de te parler d’élections. Les électeurs de mon pays songent à moi, mais nous nous boudons. Je prétends que leur choix est leur affaire et non la mienne, et que par conséquent je n’ai rien à leur demander. Ils veulent absolument que j’aille solliciter leurs suffrages, sans doute pour acquérir des droits sur mon temps et mes services, dans des vues personnelles. Tu vois que nous ne nous entendons pas ; aussi ne serai-je pas nommé !…
+][
+Adieu, cher Calmètes : ton ami dévoué.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))

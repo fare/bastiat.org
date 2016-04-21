@@ -1,0 +1,28 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 11 janvier 1841")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Paris, 11 janvier 1841])
+(p*[
+Que n’es-tu auprès de moi, mon cher Félix ! cela ferait cesser bien des incertitudes. Je t’ai entretenu du nouveau projet que j’ai conçu ; mais seul, abandonné à moi-même, les difficultés de l’exécution m’effrayent. Je sens que le succès est à peu près infaillible ; mais il exige une force morale que ta présence me donnerait, et des ressources matérielles que je ne sais pas prendre sur moi de demander. J’ai tâté le pouls à plusieurs députés, et je les ai trouvés froids. Ils ont presque tous des ,(emph[ménagements]) à garder ; tu sais que nos hommes du Midi sont presque tous quêteurs de places. — Quant à l’opposition, il serait dangereux de lui donner la haute main dans l’association, elle s’en ferait un instrument, ce qu’il faut éviter. Ainsi, tout bien pesé, il faut renoncer à fonder l’association par le ,(emph[haut]), ce qui eût été plus prompt et plus facile. C’est la base qu’il faut fonder. — Si elle se constitue fortement, elle entraînera tout. Que les vignerons ne se fassent pas illusion, s’ils demeurent dans l’inertie, ils seront ici faiblement défendus. Je tâcherai de partir d’ici dimanche prochain ; j’aurai dans une poche le projet des statuts de l’association, dans l’autre le prospectus d’un petit journal destiné à être d’abord le propagateur et plus tard l’organe de l’association. Avec cela je m’assurerai si ce projet rencontre de la sympathie dans Orléans, la Charente et le bassin de la Garonne. La suite dépendra de mes observations. Une brusque initiative eût été plus de mon goût. Il y a quelques années que je l’aurais peut-être tentée ; maintenant une avance de six à huit mille francs me fait reculer, et j’en ai vraiment honte, car quelques centaines d’abonnés m’eussent relevé de tous risques. Le courage m’a manqué, n’en parlons plus.
+][
+Je suis obligé, mon cher Félix, d’invoquer sans cesse mon impartialité et ma philosophie pour ne pas tomber dans le découragement, à la vue de toutes les misères dont je suis témoin. Pauvre France ! — Je vois tous les jours des députés qui, dans le tête-à-tête, sont opposés aux fortifications de Paris$ et qui cependant vont les appuyer à la chambre, l’un pour soutenir Guizot, l’autre pour ne pas abandonner Thiers, un troisième de peur qu’on ne le traite de Russe ou d’Autrichien ; l’opinion, la presse, la mode les entraîne, et beaucoup cèdent à des motifs plus honteux encore. Le $maréchal Soult lui-même est personnellement opposé à cette mesure, et tout ce qu’il ose faire, c’est de proposer une exécution lente, dans l’espoir qu’un revirement d’opinion lui viendra en aide, quand il n’y aura encore qu’une centaine de millions engloutis. C’est bien pis dans les questions extérieures. Il semble qu’un bandeau couvre tous les yeux, et on court risque d’être maltraité si l’on énonce seulement un fait qui contrarie le préjugé dominant.
+][
+Adieu, mon cher Félix, il me tarde bien de causer avec toi ; les sujets ne nous manqueront pas.
+][
+Adieu, ton ami.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))

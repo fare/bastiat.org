@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+du 12 mars 1829")
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(date-tag[Mugron, 12 mars 1829])
+(p*[
+À propos, sais-tu que je suis dans l’intention de me faire imprimer tout vif ? — Quoi ! vas-tu dire, Bastiat auteur ? que va-t-il nous donner ? sera-ce un recueil de dix à douze tragédies ? ou bien une épopée ? ou bien des madrigaux ? Suit-il les traces de Walter Scott ou de lord Byron ? Rien de tout cela, mon ami ; je me suis borné à accumuler les plus lourds raisonnements sur la plus lourde des questions. En un mot, je traite du 
+,(emph[régime prohibitif]). Vois si cela te tente, et je t’enverrai 
+,(emph[mes œuvres complètes]), bien entendu lorsqu’elles auront reçu les honneurs de l’impression. — Je voulais t’en parler plus au long, mais j’ai trop d’autres choses à te dire…
+,(footnote*[Cet écrit ne fut pas imprimé.
+,(NdEEO)])
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l'université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))
