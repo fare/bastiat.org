@@ -27,6 +27,7 @@ Installing the toolchain
   5. Move Exscribe to a place in your `$PATH`, e.g.:
 
         sudo install -m 755 -o 0 -g 0 exscribe /usr/local/bin/
+		\rm -f exscribe
 
 
 Building the website
@@ -65,8 +66,8 @@ Either:
       and send a pull request, or
 
    2. Have me add you to [the official repository on github](http://github.com/fare/bastiat.org),
-      and push there, and also
-	  get [an account on bespin.org](bespin.org/application.html),
-	  and rsync there.
+      and to the the bastiat account on bespin
+	  (maybe also get [an account on bespin.org](bespin.org/application.html)).
+	  Then you can `make bespin` to rebuild the website.
 
 Please consult a `git` tutorial for details.

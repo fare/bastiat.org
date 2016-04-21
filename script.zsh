@@ -131,7 +131,7 @@ depend_guillaumin () {
     do_depend_guillaumin
     cmp --silent fr/.depend.guillaumin fr/.depend.guillaumin.bak ||
     oldtouch fr/guillaumin.html
-    rm fr/.depend.guillaumin.bak
+    command rm -f fr/.depend.guillaumin.bak
   else
     do_depend_guillaumin
     oldtouch fr/guillaumin.html
@@ -196,7 +196,6 @@ rule allfiles: "$ALLFILES"
 rule html: "$ALLHFILES"
 #rule clean: "" "-rm -fv $ALLCFILES"
 depend_guillaumin
-
 }
 
 update_bespin () {
@@ -263,7 +262,7 @@ clean () {
   for i in **/*.scr ; do
     FILES=($FILES ${i%%.scr}.html) ;
   done
-  rm -fv $FILES
+  command rm -fv $FILES
 }
 main () {
   : main $@
