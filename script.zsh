@@ -199,26 +199,11 @@ depend_guillaumin
 
 }
 
-update_bastiat () {
-  cd ~bastiat/org
-  cvs -q update -dfP
+update_bespin () {
+    make dep &&
+    make &&
+    rsync -av --delete ./ bastiat@bastiat.org:html/
 }
-make_bastiat () {
-  cd ~bastiat/org/
-  make depend
-  make
-}
-publish_pages () {
-  cd ~bastiat/org
-  cmp --silent /serv/bastiat/bin/script.zsh /serv/bastiat/org/script.zsh ||
-  { DBG ">>>>>> script.zsh was changed. Please update as applicable. <<<<<<" }
-  rsync --delete -av \
-	--exclude CVS --exclude '.*' \
-	--exclude Makefile --exclude script.zsh --exclude crontab \
-	/serv/bastiat/org/ /serv/bastiat/html/
-  # do not use -C, or it will exclude .html's!!!!
-}
-updateweb () { update_bastiat ; make_bastiat ; publish_pages }
 
 txt2scr () {
 perl -e '

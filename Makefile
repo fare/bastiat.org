@@ -9,7 +9,7 @@ all: ALL
 
 include .depend
 
-.PHONY: dep depend tdepend
+.PHONY: dep depend tdepend allscr all ALL allfiles alldirs bespin clean
 
 dep:
 	zsh -f script.zsh depend > .depend
@@ -31,3 +31,6 @@ ALL:	allfiles alldirs
 # works best with clisp...
 allscr:
 	exscribe --include ${BA} --include ${FARE}/fare/www --many ${BA} ${BA}/html */*.scr
+
+bespin:
+	zsh -f script.zsh update_bespin
