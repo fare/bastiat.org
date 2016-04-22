@@ -1,0 +1,16 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
+du 118 février 1850")
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(date-tag[18 février 1850])
+(p*[
+L’avenir politique est toujours bien sombre. Aux griefs réels se mêlent malheureusement beaucoup de passions et de soupçons factices : c’est toujours ainsi en révolution. Moi qui vois des hommes de tous les partis, je puis pour ainsi dire mesurer ce qu’il y a de faux dans leurs accusations réciproques. Mais la haine, fondée ou non, produit les mêmes effets. Je crois que la majorité comprend que ce qu’il y a de plus prudent c’est de rester en république. Son tort est de ne pas en prendre assez résolument son parti. À quoi bon dénigrer et menacer sans cesse ce qu’on ne veut pas changer ? De son côté, la minorité cherche à ressaisir le pouvoir par des moyens qui lui en rendraient le fardeau bien lourd. Elle excite des espérances qu’elle ne pourrait satisfaire.
+][
+Cependant je ne désespère pas, la discussion éclairant bien des questions. Le tout est de gagner du temps.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 385-512. ,(XXX)
+])))

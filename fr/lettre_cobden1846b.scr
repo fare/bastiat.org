@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 9 février 1846")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Mugron, 9 février 1846])
+(p*[
+Mon cher Monsieur, au moment où vous recevrez cette lettre vous serez dans le ,(emph[coup de feu]) de la discussion. J’espère pourtant que vous trouverez un moment pour notre France ; car, malgré ce que vous me dites d’intéressant sur l’état des choses chez vous, je ne vous en parlerai pas. Je n’aurais rien à vous dire, et il me faudrait perdre un temps précieux à exprimer des sentiments d’admiration et de bonheur dont vous ne doutez pas. Parlons donc de la France. Mais avant je veux en finir avec la question anglaise. Je n’ai rien vu, dans votre ,(emph[Peel’s measure]), concernant les vins. C’est certainement une grande faute contre l’économie politique et contre la politique. — Un dernier vestige ,(emph[of the Policy of reciprocal treaties]) se montre dans cette omission, ainsi que dans celle du ,(emph[timber]). C’est une tache dans le projet de M. Peel ; et elle détruira, dans une proportion énorme, l’effet moral de l’ensemble, précisément sur les classes, en France et dans le Nord, qui étaient les mieux disposées à recevoir ce haut enseignement. Cette lacune et cette phrase : ,(emph[We shall beat all other nations]), ce sont deux grands aliments jetés à nos préjugés ; ils vivront longtemps là-dessus. Ils verront là la pensée secrète, la pensée machiavélique de la ,(emph[perfide Albion]). De grâce, proposez un amendement. Quel que soit l’absolutisme de M. Peel, il ne résistera pas à vos arguments.
+][
+Je reviens en France (d’où je ne suis guère sorti). Plus je vais, plus j’ai lieu de me féliciter d’une chose qui m’avait donné d’abord quelques soucis. C’est d’avoir mis votre nom sur le titre de mon livre. Votre nom est maintenant devenu populaire dans mon pays, et avec votre nom, votre cause. On m’accable de lettres ; on me demande des détails ; les journaux s’offrent à moi, et l’institut de France m’a élu membre correspondant, M. Guizot et M. Duchâtel ayant voté pour moi. Je ne suis pas assez aveugle pour m’attribuer ces succès ; je les dois à ,(emph[l’à-propos]), je les dois à ce que les temps sont venus, et je les apprécie, non pour moi, mais comme moyens d’être utile. Vous serez surpris que tout cela ne m’ait pas déterminé à m’installer à Paris. En voici le motif : Bordeaux prépare une grande démonstration, trop grande selon moi, car elle embrassera force gens qui se croient ,(emph[free-traders]) et ne le sont pas plus que M. Knatchbull. Je crois que mon rôle en ce moment est de mettre à profit la connaissance des procédés de la ,(emph[Ligue]), pour veiller à ce que notre association se forme sur des bases solides. Peut-être vous enverra-t-on le ,(cite-title[Mémorial bordelais]) où j’insère une série d’articles sur ce sujet. J’insiste et j’insisterai jusqu’au bout, pour que notre Ligue, comme la vôtre, s’attache à un principe absolu ; et si je ne réussis pas en cela, je l’abandonnerai.
+][
+Voilà ma crainte. — En demandant une ,(emph[sage]) liberté, une protection ,(emph[modérée]), on est sûr d’avoir à Bordeaux beaucoup de sympathies, et cela séduira les fondateurs. Mais où cela les mènera-t-il ? à la tour de Babel. — C’est le ,(emph[principe]) même de la protection que je veux battre en brèche. Jusqu’à ce que cette affaire soit décidée, je n’irai pas à Paris. — On m’annonce qu’une réunion de quarante à cinquante négociants va avoir lieu à Bordeaux. C’est là qu’on doit jeter les bases d’une ligue, sur laquelle je suis invité à donner mon avis. Vous rappelez-vous que nous avons vainement cherché ensemble votre ,(emph[règlement]) dans l’,(emph[Anti-Bread-tax circular]) ? Combien je regrette aujourd’hui que nous n’ayons pu réussir à le trouver ! Si M. Paulton voulait dépenser une heure à le chercher, elle ne serait pas perdue ; car je tremble que notre Ligue n’adopte des bases vacillantes. Après cette réunion, il y aura un grand ,(emph[meeting]) à la bourse pour lever un ,(emph[League-fund]). C’est le maire de Bordeaux qui se place à la tête du mouvement.
+][
+J’avais connaissance de l’adresse que vous avez reçue de la société des économistes, mais je ne l’ai pas lue ; puisse-t-elle être digne de vous et de notre cause !
+][
+Pardon de vous entretenir si longtemps de notre France. Mais vous comprendrez que les faibles vagissements qu’elle fait entendre m’intéressent presque autant que les virils accents de sir Robert.
+][
+Une fois que l’affaire bordelaise sera réglée, je me rendrai à Paris. L’espoir de votre visite me décide.
+][
+Je vais dresser un plan pour la distribution de 50 exemplaires de ma traduction.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

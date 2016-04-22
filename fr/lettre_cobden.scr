@@ -1,0 +1,14 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 18 mars 1820")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Mugron, 18 mars 1820])
+(p*[
+
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))
