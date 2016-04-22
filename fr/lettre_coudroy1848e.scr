@@ -1,0 +1,29 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 9 juin 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Paris, 9 juin 1848])
+(p*[
+Mon cher Félix, j’ai été en effet bien longtemps sans t’écrire, et il faut me le pardonner, car je ne sais plus où donner de la tête. Voici ma vie : je me lève à six heures ; s’habiller, se raser, déjeuner, parcourir les journaux, cela tient jusqu’à sept heures et sept heures et demie. Vers neuf heures, il faut que je parte, car à dix heures commence la séance du comité des finances auquel j’appartiens ; il dure jusqu’à une heure, et alors c’est la séance publique qui commence et se prolonge jusqu’à sept. Je rentre pour dîner, et il est bien rare qu’après dîner il n’y ait pas réunion des sous-commissions chargées de questions spéciales.
+][
+La seule heure à ma disposition, c’est donc de huit à neuf heures du matin, c’est aussi celle où les visites m’arrivent ; de tout cela il résulte que non-seulement je ne puis faire face à ma correspondance, mais que je ne puis rien étudier, quand, mis enfin en contact avec la pratique des affaires, je m’aperçois que j’ai tout à apprendre.
+][
+Aussi je suis profondément dégoûté de ce métier, et ce qui se passe n’est pas propre à me relever. L’assemblée est certainement excellente sous le rapport des intentions, elle a bonne volonté, elle veut faire le bien ; mais elle ne le peut pas, d’abord parce que les principes ne sont pas sus, ensuite parce qu’il n’y a d’initiative nulle part. La commission exécutive s’efface complétement, nul ne sait si les membres qui la composent sont d’accord entre eux, ils ne sortent de leur inertie que pour manifester la plus étrange incohérence de vues. La chambre a beau leur réitérer des preuves de confiance pour les encourager à agir, il semble qu’ils ont le parti pris de nous abandonner à nous-mêmes. Juge ce que peut être une assemblée de neuf cents personnes chargées de délibérer et d’agir, ajoute à cela une salle immense où on ne s’entend pas. Pour avoir voulu dire quelques mots aujourd’hui, je me suis retiré avec un rhume ; c’est ce qui fait que je ne sors pas et que j’écris.
+][
+Mais d’autres symptômes sont bien plus effrayants ; l’idée dominante, celle qui a envahi toutes les classes de la société, c’est que l’État est chargé de faire vivre tout le monde. C’est une curée générale à laquelle les ouvriers sont enfin appelés ; on les blâme, on les craint, que font-ils ? Ce qu’ont fait jusqu’ici toutes les classes. Les ouvriers sont mieux fondés ; ils disent : « Du pain contre du travail. » Les monopoleurs étaient et sont encore plus exigeants. Mais enfin où cela nous mènera-t-il ? je tremble d’y penser.
+][
+Le comité des finances résiste naturellement, sa mission le rend économe et économiste ; aussi il est déjà tombé dans l’impopularité. « Vous défendez le capital ! » avec ce mot on nous tue, car il faut savoir que le capital passe ici pour un monstre dévorant.
+][
+Duprat, loin d’être mort, n’est pas malade.
+,(verses[« Les gens que vous tuez se portent assez bien. »])
+][
+Dans l’émeute du 15, je n’ai été ni frappé ni menacé ; j’ajouterai même que je n’ai pas éprouvé la plus légère émotion, si ce n’est quand j’ai cru qu’une tribune publique allait s’écrouler sous les pieds des factieux. Le sang aurait ruisselé dans la salle, et alors…
+][
+Adieu, mon cher Félix.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

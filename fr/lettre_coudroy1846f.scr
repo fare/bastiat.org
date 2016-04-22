@@ -1,0 +1,22 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 24 mai 1846")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Paris, le 24 mai 1846])
+(p*[
+Mon cher Félix, j’ai tant couru ce matin que je ne puis tenir la plume, et mon écriture est toute tremblante. Ce que tu me dis de l’utilité de ma présence à Mugron me préoccupe tous les jours. Mais, mon ami, j’ai presque la certitude que, si je quitte Paris, notre association tombera dans l’eau et tout sera à recommencer. Tu en jugeras ; voici où nous en sommes : je crois t’avoir dit qu’une commission avait été nommée, réunissant pleins pouvoirs ; au moment de lancer notre ,(emph[manifeste]), plusieurs des commissaires ont voulu que nous fussions pourvus de ,(emph[l’autorisation préalable]). Elle a été demandée, le ministre l’a promise ; mais les jours se passent et je ne vois rien arriver. En attendant, le manifeste est dans nos cartons. C’est certainement une faute d’exiger ,(emph[l’autorisation]), nous devions nous borner à une simple ,(emph[déclaration]). Les peureux ont cru être agréables au ministre, et je crois qu’ils l’embarrassent, parce que, surtout à l’approche des élections, il craindra de se mettre à dos les manufacturiers.
+][
+Cependant M. Guizot a déclaré qu’il donnerait l’autorisation, M. de Broglie a laissé entendre qu’il viendrait à nous aussitôt après, c’est pourquoi je patiente encore ; mais pour peu qu’on retarde, je casserai les vitres, au risque de tout dissoudre, sauf à recommencer sur un autre plan, et avec d’autres personnes.
+][
+Tu vois combien il est difficile de déserter le terrain en ce moment ; ce n’est pas l’envie qui me manque, car, mon cher Félix, Paris et moi nous ne sommes pas faits l’un pour l’autre. Il y aurait trop à dire là-dessus, ce sera pour une autre fois.
+][
+Ton article du ,(cite-title[Mémorial]) était excellent, peu de personnes l’ont lu, car il n’est arrivé précisément que quand nos réunions ont cessé, par la cause que je t’ai dite ; mais je l’ai communiqué à Dunoyer et à Say, ainsi qu’à quelques autres, et tous y ont trouvé une vivacité et une clarté qui entraînent le lecteur et forcent la conviction. Le ,(emph[je ne m’en mêle plus]) ne pouvait que plaire beaucoup à Dunoyer ; malheureusement les idées du jour sont portées à un point effrayant vers l’autre sens : ,(emph[Mêler à tout l’État]). Bientôt on fera une seconde édition de mes ,(cite-title[Sophismes]). Nous pourrons y joindre cet article et quelques autres, si tu en fais. Je puis bien te dire à toi que ce petit livre est destiné à une grande circulation. En Amérique, on se propose de le propager à profusion ; les journaux anglais et italiens l’ont traduit presque en entier. Mais ce qui me vexe un peu, c’est de voir que les trois à quatre plaisanteries que j’ai glissées dans ce volume ont fait fortune, tandis que la partie sérieuse est fort négligée. Tâche donc de faire aussi du ,(emph[Buffa]).
+][
+Je te quitte ; je viens d’apprendre qu’une occasion se présente pour Bordeaux, et je veux en profiter.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

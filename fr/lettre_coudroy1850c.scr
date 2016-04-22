@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 11 novembre 1850")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Rome, le 11 novembre 1850])
+(p*[
+Si je renvoie de jour en jour à t’écrire, mon cher Félix, c’est qu’il me semble toujours que sous peu j’aurai la force de me livrer à une longue causerie. Au lieu de cela, je suis forcé de restreindre toujours davantage mes lettres, soit que ma faiblesse augmente, soit que je me déshabitue de la plume. — Me voici dans la ville éternelle, mon ami, malheureusement fort peu disposé à en visiter les merveilles. J’y suis infiniment mieux qu’à Pise, entouré d’excellents amis qui m’enveloppent de la sollicitude la plus affectueuse. De plus, j’y ai retrouvé Eugène, qui vient passer avec moi une partie de la journée. Enfin, si je sors, je puis toujours donner à mes promenades un but intéressant. Je ne demanderais qu’une chose, être soulagé de ce que mon mal au larynx a d’aigu ; cette continuité de souffrance me désole. Les repas sont pour moi de vrais supplices. Parler, boire, manger, avaler la salive, tousser, tout cela sont des opérations douloureuses. Une promenade à pied me fatigue, la promenade en voiture m’irrite la gorge, je ne puis pas travailler ni même lire sérieusement. Tu vois où j’en suis réduit. Vraiment, je ne serai bientôt plus qu’un cadavre qui a retenu la faculté de souffrir : j’espère que les soins que je suis décidé à prendre, les remèdes qu’on me fait, et la douceur du climat, adouciront bientôt un peu ma situation si déplorable.
+][
+Mon ami, je ne te parlerai que vaguement d’un des objets dont tu m’entretiens. J’y avais déjà songé, et il doit y avoir, parmi mes papiers, quelque ébauche d’articles sous forme de lettres à toi adressées. Si la santé me revient et que je puisse faire le second volume des ,(cite-title[Harmonies]), je te le dédierai. Sinon, je mettrai une courte dédicace à la seconde édition du premier volume. Dans cette dernière hypothèse, qui implique la fin de ma carrière, je pourrai t’exposer mon plan et te léguer la mission de le remplir.
+][
+Ici on a de la peine à trouver des journaux. Il m’en est tombé un vieux sous la main, du temps où l’engouement était à l’amélioration du sort des classes ouvrières. L’avenir des ouvriers, la condition des ouvriers, les éternelles vertus des ouvriers, c’était le texte de tout livre, brochure, revue ou journal. Et penser que ce sont ,(emph[les mêmes écrivains]), qui accablent le peuple d’injures, enrôlés qu’ils sont à l’une des trois dynasties qui, se disputant notre pauvre France, font tout le mal de la situation. Sais-tu rien de plus triste ?
+][
+Je te remercie d’avoir bien voulu envoyer quelques renseignements biographiques à M. Paillottet. Ma vie n’offre aucun intérêt au public, si ce n’est la circonstance qui m’a tiré de Mugron. Si j’avais su qu’on s’occupait de cette notice, j’aurais raconté ce fait curieux.
+][
+Adieu, mon cher Félix, à moins d’être tout à fait hors d’état de voyager ou ,(emph[tout à fait guéri]), je compte passer le mois d’avril à Mugron, puisqu’il m’est défendu de rentrer à Paris avant le mois de mai. Je gémis de ne pouvoir remplir mes devoirs de représentant, mais il est malheureusement certain que ce n’est pas ma faute. — En Italie, ainsi qu’en Espagne, on est souvent témoin du peu d’influence de la dévotion extérieure sur la morale.
+][
+Mes souvenirs à tous les amis ; donne de mes nouvelles à ma tante ; présente mes amitiés à ta sœur.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

@@ -1,0 +1,18 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 24 juin 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[24 juin 1848])
+(p*[
+Mon cher Félix, les journaux te disent l’état affreux de notre triste capitale. Le canon, la fusillade, voilà le bruit qui domine ; la guerre civile a commencé et avec un tel acharnement que nul ne peut prédire les suites. Si ce spectacle m’afflige comme homme, tu dois penser que j’en souffre aussi comme économiste ; la vraie cause du mal c’est bien le faux socialisme.
+][
+Tu t’étonneras peut-être, et beaucoup de personnes s’étonnent ici, de ce que je n’aie pas encore exposé notre doctrine à la tribune. Elles me pardonneraient sans doute si elles jetaient un coup d’œil sur cette immense salle où l’on ne peut pas se faire entendre. Et puis notre assemblée est indisciplinée ; si un seul mot choque quelques membres, même avant que la phrase ne soit finie, un orage éclate. Dans ces conditions tu comprends ma répugnance à parler. J’ai concentré ma faible action dans le comité dont je fais partie (celui des finances), et jusqu’ici ce n’est pas tout à fait sans succès.
+][
+Je voudrais pouvoir te fixer sur le dénoûment de la terrible bataille qui se livre autour de nous. Si le parti de l’ordre l’emporte, jusqu’où ira la réaction ? Si c’est le parti de l’émeute, jusqu’où iront ses prétentions ? On frémit d’y penser. S’il s’agissait d’une lutte accidentelle, je ne serais pas découragé. Mais ce qui travaille la société, c’est une erreur manifeste qui ira jusqu’au bout, car elle est plus ou moins partagée par ceux-là mêmes qui en combattent les manifestations exagérées. Puisse la France ne pas devenir une Turquie !
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

@@ -1,0 +1,32 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 15 mars 1849")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[15 mars 1849])
+(p*[
+Mon cher Félix, tes lettres sont en effet bien rares, mais elles me sont douces comme cette sensation qu’on éprouve quand on revoit après longtemps le clocher de son village.
+][
+C’est une tâche pénible que d’être et de vouloir rester patriote et conséquent. Par je ne sais quelle illusion d’optique, on vous attribue les changements qui s’opèrent autour de vous. J’ai rempli mon mandat dans l’esprit où je l’avais reçu ; mon pays a le droit de changer et par conséquent de changer ses mandataires ; mais il n’a pas le droit de dire que c’est moi qui ai changé.
+][
+Tu as vu par les journaux que j’avais présenté ma motion. ,(emph[Que les représentants restent représentants]), ai-je dit, car si la loi fait briller à leurs yeux d’autres perspectives, à l’instant le mandat est vicié, exploité ; et comme il constitue l’essence même du régime représentatif, c’est ce régime tout entier qui est faussé dans sa source et dans son principe.
+][
+Chose extraordinaire ! Quand je suis monté à la tribune, je n’avais pas dix adhérents, quand j’en suis descendu, j’avais la majorité. Ce n’est certainement pas la puissance oratoire qui avait opéré ce phénomène, mais la puissance du sens commun. Les ministres et tous ceux qui aspirent à le devenir étaient dans les transes ; on allait voter, quand la commission, M. Billaut en tête, a évoqué l’amendement. Il a été renvoyé ,(emph[de droit]) à cette commission. Dimanche et lundi il y a eu une réaction de l’opinion d’ailleurs fort peu préparée, si bien que mardi chacun disait : ,(emph[Les représentants rester représentants !]) mais c’est un danger effroyable, c’est pire que la Terreur ! — Tous les journaux avaient tronqué, altéré, supprimé mes paroles, mis des absurdités dans ma bouche. Toutes les réunions, rue de ,(emph[Poitiers]), etc., avaient jeté le cri d’alarme… enfin les moyens ordinaires.
+][
+Bref, je suis resté avec une minorité, composée de quelques exaltés, qui ne m’ont pas mieux compris que les autres ; mais il est certain que l’impression a été vive et ne s’effacera pas de sitôt. Plus de cent membres m’ont dit qu’ils penchaient pour ma proposition, mais qu’ils votaient contre, craignant de se tromper sur une innovation de cette importance, à laquelle ils n’avaient pas assez réfléchi.
+][
+Tu me connais assez pour penser que je n’aurais pas voulu réussir par surprise. Plus tard, l’opinion aurait attribué à mon amendement toutes les calamités que le temps peut nous réserver.
+][
+Au point de vue personnel, ce qu’il y a de triste c’est le charlatanisme qui règne ici dans les journaux. C’est un parti pris d’exalter certains hommes et d’en rabaisser certains autres. Que faire ? il me serait facile d’avoir aussi un grand nombre d’amis dans la presse ; mais il faudrait pour cela se donner un soin que je ne prendrai pas, la chaîne est trop lourde.
+][
+Quant aux élections, j’ignore si je pourrai y assister, je n’irai qu’autant que l’assemblée se dissoudra : membre de la commission du budget, il faut bien que je reste à mon poste : que le pays m’en punisse s’il le veut, j’ai fait mon devoir. Je n’ai qu’une chose à me reprocher, c’est de n’avoir pas assez travaillé, encore j’ai pour excuse ma santé fort délabrée, et l’impossibilité de lutter avec mes faibles poumons contre les orages parlementaires. Ne pouvant parler, j’ai pris le parti d’écrire. Il n’est pas une question brûlante qui n’ait donné lieu à une brochure de moi. Il est vrai que j’y traitais moins la question pratique que celle de principe ; en cela j’obéissais à la nature de mon esprit qui est de remonter à la source des erreurs, chacun se rend utile à sa manière ; Au milieu des passions déchaînées, je ne pouvais exercer d’action sur les effets, j’ai signalé les causes ; suis-je resté inactif ?
+][
+À la doctrine de L. Blanc, j’ai opposé mon écrit ,(cite-title[Individualisme et Fraternité]). — La propriété est attaquée, je fais la brochure ,(cite-title[Propriété et Loi]). — On se rejette sur la rente des terres, je fais les cinq articles des ,(cite-title[Débats]) : ,(cite-title[Propriété et Spoliation]). — La source pratique du communisme se montre, je fais la brochure ,(cite-title[Protectionisme et Communisme]). — Proudhon et ses adhérents prêchent la gratuité du crédit, doctrine qui gagne comme un incendie, je fais la brochure ,(cite-title[Capital et Rente]). — Il est clair qu’on va chercher l’équilibre par de nouveaux impôts, je fais la brochure ,(cite-title[Paix et Liberté]). — Nous sommes en présence d’une loi qui favorise les coalitions parlementaires, je fais la brochure des ,(cite-title[Incompatibilités]). On nous menace du papier-monnaie, je fais la brochure ,(cite-title[Maudit argent]). — Toutes ces brochures distribuées gratuitement, en grand nombre, m’ont beaucoup coûté ; sous ce rapport, les électeurs n’ont rien à me reprocher. Sous le rapport de l’action, je n’ai pas non plus trahi leur confiance. Au 15 mai, dans les journées de juin, j’ai pris part au péril. Après cela, que leur verdict me condamne, je le ressentirai peut-être dans mon cœur, mais non dans ma conscience.
+][
+Adieu.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

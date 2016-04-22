@@ -1,0 +1,34 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 29 février 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[29 février 1848])
+(p*[
+Mon cher Félix, malgré les conditions mesquines et ridicules qui te sont faites, je te féliciterai de bon cœur si tu arrives à un arrangement. Nous nous faisons vieux ; un peu de paix et de calme, dans l’arrière-saison, voilà le bien auquel il faut prétendre.
+][
+Puisque aussi bien, mon bon ami, je ne puis te donner ni conseils ni consolations sur ce triste dénoûment, tu ne seras pas surpris que je te parle de suite des grands événements qui viennent de s’accomplir.
+][
+La révolution de février a été certainement plus héroïque que celle de juillet ; rien d’admirable comme le courage, l’ordre, le calme, la modération de la population parisienne. Mais quelles en seront les suites ? Depuis dix ans, de fausses doctrines, fort en vogue, nourrissent les classes laborieuses d’absurdes illusions. Elles sont maintenant convaincues que l’État est obligé de donner du pain, du travail, de l’instruction à tout le monde. Le gouvernement provisoire en a fait la promesse solennelle ; il sera donc forcé de renforcer tous les impôts pour essayer de tenir cette promesse, et, malgré cela, il ne la tiendra pas. Je n’ai pas besoin de te dire l’avenir que cela nous prépare.
+][
+Il y aurait une ressource, ce serait de combattre l’erreur elle-même, mais cette tâche est si impopulaire qu’on ne peut la remplir sans danger ; je suis pourtant résolu de m’y dévouer si le pays m’envoie à l’assemblée nationale.
+][
+Il est évident que toutes ces promesses aboutiront à ruiner la province pour satisfaire la population de Paris ; car le gouvernement n’entreprendra jamais de nourrir tous les métayers, ouvriers et artisans des départements, et surtout des campagnes. Si notre pays comprend la situation, il me nommera, je le dis franchement, sinon je remplirai mon devoir avec plus de sécurité comme simple écrivain.
+][
+La ,(emph[curée]) des places est commencée, plusieurs de mes amis sont tout-puissants ; quelques-uns devraient comprendre que mes études spéciales pourraient être utilisées ; mais je n’entends pas parler d’eux. Quant à moi, je ne mettrai les pieds à l’Hôtel de ville que comme curieux ; je regarderai le mât de cocagne, je n’y monterai pas. Pauvre peuple ! que de déceptions on lui a préparées ! Il était si simple et si juste de le soulager par la diminution des taxes ; on veut le faire par la profusion, et il ne voit pas que tout le mécanisme consiste à lui prendre dix pour lui donner huit, sans compter la liberté réelle qui succombera à l’opération !
+][
+J’ai essayé de jeter ces idées dans la rue par un journal éphémère qui est né de la circonstance ; croirais-tu que les ouvriers imprimeurs eux-mêmes discutent et désapprouvent l’entreprise ! ils la disent ,(emph[contre-révolutionnaire]).
+][
+Comment, comment lutter contre une école qui a la force en main et qui promet le bonheur parfait à tout le monde ?
+][
+Ami, si l’on me disait : Tu vas faire prévaloir ton idée aujourd’hui, et demain tu mourras dans l’obscurité, j’accepterais de suite ; mais lutter sans chance, sans être même écouté, quelle rude tâche !
+][
+Il y a plus, l’ordre et la confiance étant l’intérêt suprême du moment, il faut s’abstenir de toute critique et appuyer le gouvernement provisoire à tout prix, en le ménageant même dans ses erreurs. C’est un devoir qui me force à des ménagements infinis.
+][
+Adieu, les élections sont prochaines, nous nous verrons alors ; en attendant, dis-moi si tu remarques quelques bonnes dispositions en ma faveur.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

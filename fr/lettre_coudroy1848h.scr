@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 7 septembre 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[7 septembre 1848])
+(p*[
+Mon cher Félix, ta lettre ne me laissait pas le choix du parti que j’avais à prendre. Je viens d’envoyer ma démission de membre du conseil général ; je ne donne pas celle de représentant, et tu en comprends les motifs. En définitive, ce n’est pas quelques Mugronnais qui m’ont conféré ce titre.
+][
+Je voudrais savoir combien il y en a, parmi ceux qui me blâment, qui ont lu dans le ,(cite-title[Moniteur]) la défense de L. Blanc ; et, s’ils ne l’ont pas lue, il faut avouer que leur audace est grande à se prononcer.
+][
+On dit que j’ai cédé à la peur ; la peur était toute de l’autre côté. Ces messieurs pensent-ils qu’il faut moins de courage à Paris que dans les départements pour heurter les passions du jour ? On nous menaçait de la colère de la garde nationale, si nous repoussions le projet de poursuites. Cette menace venait du quartier qui dispose de la force militaire.
+][
+La peur a donc pu influencer les boules noires, mais non les boules blanches. Il faut un degré peu commun d’absurdité et de sottise pour croire que c’est un acte de courage que de voter du côté de la force, de l’armée, de la garde nationale, de la majorité, de la passion du moment, de l’autorité.
+][
+As-tu lu l’enquête ? as-tu lu la déposition d’un ex-ministre, Trélat ? Elle dit : « Je suis allé à Clichy, je n’y ai pas vu L. Blanc, je n’ai pas appris qu’il y soit allé ; mais j’ai reconnu des traces de son passage à l’attitude, aux gestes, à la physionomie et jusqu’aux articulations des ouvriers. » A-t-on jamais vu la passion se manifester par des tendances plus dangereuses ? Et les trois quarts de l’enquête sont dans cet esprit !
+][
+Bref, en conscience, je crois que L. Blanc a fait beaucoup de mal, complice en cela de tous les socialistes, et il y en a beaucoup qui le sont, sans le savoir, même parmi ceux qui crient contre lui ; mais je ne crois pas qu’il ait pris part aux attentats de mai et juin, et je n’ai pas d’autres raisons à donner de ma conduite.
+][
+Je te remercie de m’avoir tenu au courant de l’état des esprits. Je connais trop le cœur humain pour en vouloir à personne. À leur point de vue, ceux qui me blâment ont raison. Puissent-ils se préserver longtemps de cette peste du socialisme ! Je me sens soulagé d’un grand poids depuis que ma lettre au préfet est à la poste. Le pays verra que j’entends qu’il se fasse représenter à son gré. Quand viendra la réélection, prie instamment M. Domenger de ne point appuyer ma candidature. En l’acceptant, je m’étais laissé entraîner par le désir de revoir mon pays ; c’était un sentiment tout personnel ; j’en ai été puni. Maintenant je ne désire autre chose que de me débarrasser d’un mandat plus pénible.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

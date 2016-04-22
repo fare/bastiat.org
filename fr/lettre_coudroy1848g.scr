@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 26 août 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[26 août 1848])
+(p*[
+Mon cher Félix, j’éprouve une bien vive peine de voir, malgré mon désir, notre correspondance aussi languissante. Il me serait bien doux de continuer par lettres cet échange de sentiments et d’idées qui, pendant tant d’années, a suffi à notre bonheur. Tes lettres d’ailleurs me seraient bien nécessaires. Ici, au milieu des faits, dans le tumulte des passions, je sens que la netteté des principes s’efface, parce que la vie se passe à transiger. Je demeure aujourd’hui convaincu que la pratique des affaires exclut la possibilité de produire une œuvre vraiment scientifique ; et pourtant, je ne te le cache pas, je conserve toujours cette ancienne chimère de mes ,(cite-title[Harmonies sociales]), et je ne puis me défendre de l’idée que, si j’étais resté auprès de toi, je serais parvenu à jeter une idée utile dans le monde. Aussi il me tarde bien de prendre ma retraite.
+][
+Nous avons terminé ce matin cette grande affaire de l’enquête, qui pesait si lourdement sur l’assemblée et sur le pays. Un vote de la chambre autorise des poursuites contre L. Blanc et Caussidière, pour la part qu’ils ont pu prendre à l’attentat du 15 mai. On sera peut-être un peu surpris, dans le pays, que j’aie voté en cette circonstance contre le gouvernement. C’était autrefois mon projet de faire connaître à mes commettants le motif de mes votes. Le défaut de temps et de force peut seul me faire manquer à ce devoir ; mais ce vote est si grave que je voudrais faire savoir ce qui l’a déterminé. Le gouvernement croyait les poursuites contre ces deux collègues nécessaires ; on allait jusqu’à dire qu’on ne pouvait compter qu’à cette condition sur l’appui de la garde nationale. Je ne me suis pas cru le droit, même pour ce motif, de faire taire la voix de ma conscience. Tu sais que les doctrines de L. Blanc n’ont pas, peut-être dans toute la France, un adversaire plus décidé que moi. Je ne doute pas que ces doctrines n’aient eu une influence funeste sur les idées des ouvriers et, par suite, sur leurs actes. Mais étions-nous appelés à nous prononcer sur des doctrines ? Quiconque a une croyance doit considérer comme funeste la doctrine contraire à cette croyance. Quand les catholiques faisaient brûler les protestants, ce n’était pas parce que ceux-ci étaient dans l’erreur, mais parce que cette erreur était réputée dangereuse. Sur ce principe, nous nous tuerions les uns les autres.
+][
+Il y avait donc à examiner si L. Blanc s’était rendu vraiment coupable ,(emph[des faits]) de conspiration et insurrection. Je ne l’ai pas cru, et quiconque lira sa défense ne pourra le croire. En attendant, je ne puis oublier les circonstances où nous sommes : l’état de siège est en vigueur, la justice ordinaire est suspendue, la presse est bâillonnée. Pouvais-je livrer deux collègues à des adversaires politiques au moment où il n’y a plus aucune garantie ? C’est un acte auquel je ne pouvais m’associer, un premier pas que je n’ai pas voulu faire.
+][
+Je ne blâme pas Cavaignac d’avoir suspendu momentanément toutes les libertés, je crois que cette triste nécessité lui a été aussi douloureuse qu’à nous ; et elle peut être justifiée par ce qui justifie tout, le salut public. Mais le salut public exigeait-il que deux de nos collègues fussent livrés ? Je ne l’ai pas pensé. Bien au contraire, j’ai cru qu’un tel acte ne pouvait que semer parmi nous le désordre, envenimer les haines, creuser l’abîme entre les partis, non-seulement dans l’assemblée, mais dans la France entière ; j’ai pensé qu’en présence des circonstances intérieures et extérieures, quand le pays souffre, quand il a besoin d’ordre, de confiance, d’institutions, d’union, le moment était mal choisi de jeter dans la représentation nationale un brandon de discorde. Il me semble que nous ferions mieux d’oublier nos griefs, nos rancunes, pour travailler au bien du pays ; et je m’estimais heureux qu’il n’y eût pas de ,(emph[faits précis]) à la charge de nos collègues, puisque par là j’étais dispensé de les livrer.
+][
+La majorité a pensé autrement. Puisse-t-elle ne s’être pas trompée ! puisse ce vote n’être pas fatal à la république !
+][
+Si tu le juges à propos, je t’autorise à envoyer un extrait de cette lettre au journal du pays.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

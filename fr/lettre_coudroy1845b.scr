@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 23 mai 1845")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Paris, le 23 mai 1845])
+(p*[
+Tu t’attends à beaucoup de détails, mon cher Félix, mais tu vas être bien désappointé ; depuis ma dernière lettre que j’envoyai par Bordeaux et dont je n’ai pas encore l’accusé de réception, nous avons un temps qui me dégoûte des visites. Je passe les matinées à perdre mon temps à quelques bagatelles, commissions, affaires obligées, et le soir à le regretter. Ma lettre sera donc bien aride ; cependant j’espère qu’elle te sera agréable à cause de celle de Dunoyer que j’y joins. Tu verras qu’il a apprécié ton écrit sur le duel. Je le quitte à l’instant ; il m’a répété de vive voix ce qu’il a consigné dans sa lettre : il a vanté le fond et le style de la brochure, et a dit qu’elle supposait des études faites dans la bonne voie ; il m’a exprimé le regret de ne pouvoir en causer plus longtemps, et le désir de venir chez moi pour traiter plus à fond le sujet. Demain je la communiquerai à M. Say, qui est un homme vraiment séduisant par sa douceur, sa grâce, jointe à une grande fermeté de principes. C’est l’ancre du parti économiste. Sans lui, sans son esprit conciliant, le troupeau serait bientôt dispersé. Beaucoup de ,(emph[mes collaborateurs]) sont engagés dans des journaux qui les rétribuent beaucoup mieux que l’économiste. D’autres ont des ménagements politiques à garder ; en un mot, il y a une réunion accidentelle d’hommes bienveillants, qui s’aiment quoique différant d’opinions à beaucoup d’égards ; il n’y a pas de parti ferme, organisé et homogène. Pour moi, si j’avais le temps de rester ici et une fortune à recevoir chez moi, je tenterais de fonder une sorte de Ligue. Mais quand on ne fait que passer, il est inutile d’essayer une aussi grande entreprise.
+][
+D’ailleurs je suis arrivé trop tôt ; ma traduction ne s’imprime que lentement. Si j’avais pu disposer de quelques exemplaires, ils m’auraient peut-être ouvert des portes.
+][
+Je n’ai pas vu M. de Lamartine, il est absent de Paris ; j’ignore l’époque de son retour.
+][
+Un homme aimable aussi, c’est M. Reybaud ; ce qui prouve en lui une vigueur d’intelligence remarquable, c’est qu’il est devenu économiste en se livrant à l’étude des réformateurs du ,(XIXe) siècle. Il en tenait aussi quand il commença son ouvrage, mais son bon sens a triomphé.
+][
+Je suis en peine de savoir si M. Guizot t’a écrit. Il est à craindre que ses nombreuses préoccupations ne l’empêchent de lire ta brochure. S’il n’était qu’homme de lettres, certainement il te répondrait ; mais il est ministre et ministre dirigeant. En tout cas, s’il arrive quelque chose de ce côté, ne manque pas de m’en faire part.
+][
+Je me suis un peu occupé d’affaires publiques, je veux dire départementales. Ce serait trop long à raconter. Mais je crois que l’Adour, c’est-à-dire le bas Adour, de Hourquet au Gave, obtiendra 1 500 000 fr. Le hasard m’a placé de manière à y donner un petit coup d’épaule : ce sera toujours quelque chose si les bateaux à vapeur arrivent jusqu’à Pontons. Quant à la partie comprise entre Mugron et Hourquet, c’est pitoyable de savoir à quoi son exclusion a tenu ; mais que faire ? Il n’y a qu’une chose dont le public ne veut pas s’occuper, c’est des affaires publiques.
+][
+Je ne sais si j’écrirai aujourd’hui à ma tante, en tout cas fais-lui dire que nous nous portons tous bien ici. Adieu, mon cher Félix, mes souvenirs à ta sœur.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+de janvier (?) 1850")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Commencement de 1850])
+(p*[
+Il n’y a pas de jour, mon cher Félix, où je ne pense à te répondre. Toujours par la même cause, j’ai la tête si faible que le moindre travail m’assomme. Pour peu que je sois engagé dans quelques-unes de ces affaires qui commandent, le peu de temps que je puis consacrer à tenir une plume est absorbé ; et me voilà forcé de renvoyer de jour en jour ma correspondance. Mais enfin, si je dois trouver de l’indulgence quelque part, c’est bien dans mes amis.
+][
+Tu me disais, dans une lettre précédente, que tu avais un projet et que tu me le communiquerais. J’attends, très-disposé à te seconder ; mais s’il s’agit de journaux, je dois te prévenir que j’ai très-peu de relations avec eux, et tu devines pourquoi. Il serait impossible de se lier avec eux sans y laisser son indépendance. Je suis décidé, quoi qu’il arrive, à n’être pas un homme de parti. Avec nos idées, c’est un rôle impossible. Je sais bien qu’en ce temps s’isoler c’est s’annuler, mais j’aime mieux cela. Si j’avais la force que j’avais autrefois, le moment serait venu d’exercer une véritable action sur l’opinion publique, et mon éloignement de toute faction me viendrait en aide. Mais je vois l’occasion m’échapper, et c’est bien triste. Il n’y a pas de jour où l’on ne me fournisse l’occasion de dire ou écrire quelque vérité utile. La concordance entre tous les points de notre doctrine finirait par frapper les esprits, qui y sont d’ailleurs préparés par les nombreuses déceptions dont ils ont été dupes. Je vois cela, beaucoup d’amis me pressent de me jeter dans la mêlée, et je ne puis pas. — Je t’assure que j’apprends la résignation ; et, quand j’en aurai besoin, je m’en trouverai bien pourvu.
+][
+Les ,(cite-title[Harmonies]) passent inaperçues ici, si ce n’est d’une douzaine de connaisseurs. Je m’y attendais ; il ne pouvait en être autrement. Je n’ai pas même pour moi le zèle accoutumé de notre petite église, qui m’accuse d’hétérodoxie ; malgré cela j’ai la confiance que ce livre se fera faire place petit à petit. En Allemagne, il a été bien autrement reçu. On le creuse, on le pioche, on le laboure, on y cherche ce qui y est et ce qui n’y est pas. Pouvais-je souhaiter mieux ?
+][
+Maintenant je demanderais au ciel de m’accorder un an pour faire le second volume, qui n’est pas même commencé, après quoi je chanterais le ,(emph[Nunc dimittis]).
+][
+Le socialisme se propage d’une manière effrayante ; mais, comme toutes les contagions, en s’étendant il s’affaiblit et même se transforme. Il périra par là. Le nom pourra rester, mais non la chose. Aujourd’hui, ,(emph[socialisme]) est devenu synonyme de ,(emph[progrès]) ; est socialiste quiconque veut un changement ,(emph[quelconque]). Vous réfutez ,(emph[L. Blanc, Proudhon, Leroux, Considerant]) ; vous n’en êtes pas moins socialiste, si vous ne demandez pas le ,(emph[statu quo]) en toutes choses. Ceci aboutit à une mystification. Un jour tous les hommes se rencontreront avec cette étiquette sur leur chapeau ; et comme, pour cela, ils ne seront pas plus d’accord sur les réformes à faire, il faudra inventer d’autres noms, la guerre s’introduira parmi les socialistes. Elle y est déjà, et c’est ce qui sauve la France.
+][
+Adieu, mon cher Félix, fais dire à ma tante que je me porte bien.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

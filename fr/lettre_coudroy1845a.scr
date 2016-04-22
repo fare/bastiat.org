@@ -1,0 +1,30 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+de mai 1845")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[Paris, mai 1845])
+(p*[
+Mon cher Félix, je suis persuadé qu’il te tarde de recevoir de mes nouvelles. J’aurais aussi bien des choses à te dire, mais je serai forcé d’être court. Quoique à la fin de chaque jour il se rencontre que je n’ai rien fait, je suis toujours affairé. Dans ce Paris, jusqu’à ce qu’on soit au courant, il faut perdre un demi-jour pour utiliser un quart d’heure.
+][
+J’ai été très-bien accueilli par M. Guillaumin, qui est le premier ,(emph[économiste]) que j’ai vu. Il m’annonça qu’il donnerait un dîner, suivi d’une soirée, pour me mettre en rapport avec les hommes de notre école ; en conséquence je ne suis allé voir aucun de ces messieurs. — Hier a eu lieu ce dîner. J’étais à la droite de l’amphitryon, ce qui prouve bien que le dîner était à mon occasion ; à la gauche était Dunoyer. À côté de madame Guillaumin, MM. Passy et Say. Il y avait en outre MM. Dussard et Reybaud. Béranger avait été invité, mais il avait d’autres engagements. Le soir, arrivèrent une foule d’autres économistes : MM. Renouard, Daire, Monjean, Garnier, etc., etc. Mon ami, entre toi et moi, je puis te dire que j’ai éprouvé une satisfaction bien vive. Il n’y a aucun de ces messieurs qui n’ait lu, relu et parfaitement compris mes trois articles. Je pourrais écrire mille ans dans la ,(cite-title[Chalosse]), la ,(cite-title[Sentinelle]), le ,(cite-title[Mémorial]), sans trouver, toi excepté, un vrai lecteur. Ici on est lu, étudié, et compris. Je n’en puis pas douter, parce que tous ou presque tous sont entrés dans des détails minutieux, qui attestent que la politesse ne faisait pas seule les frais de cet accueil ; je n’ai trouvé un peu froid que M. X… Te dire les caresses dont j’ai été comblé, l’espoir qu’on a paru fonder sur ma coopération, c’est te faire comprendre que j’étais honteux de mon rôle. Mon ami, j’en suis aujourd’hui bien convaincu, si notre isolement nous a empêchés de meubler beaucoup notre esprit, il lui a donné, du moins sur une question spéciale, une force et une justesse, que des hommes plus instruits et mieux doués ne possèdent peut-être pas.
+][
+Ce qui m’a fait le plus de plaisir, parce que cela prouve qu’on m’a réellement lu avec soin, c’est que le dernier article, intitulé ,(cite-title[Sophismes]), a été mis au-dessus des autres. C’est en effet celui où les principes sont scrutés avec le plus de profondeur ; et je m’attendais à ce qu’il ne serait pas goûté. Dunoyer m’a prié de faire un article sur son ouvrage pour être inséré aux ,(cite-title[Débats]). Il a bien voulu dire qu’il me croyait éminemment propre à faire apprécier son travail. Hélas ! je sens déjà que je ne me tiendrai pas à la hauteur exagérée où ces hommes bienveillants me placent.
+][
+Après dîner, on a parlé du duel. J’ai rendu un compte succinct de ta brochure. Demain nous avons encore un dîner de corps chez Véfour ; je l’y porterai, et comme elle n’est pas longue, j’espère qu’on la lira. Si tu pouvais la refondre ou du moins la retoucher, je crois qu’on la mettrait dans le journal ; mais le règlement s’oppose à ce qu’on la transcrive textuellement. — Du reste le ,(cite-title[Journal des Économistes]) n’est pas aussi délaissé que je le craignais. Il a cinq à six cents abonnés ; il gagne tous les jours en autorité.
+][
+Te rapporter la conversation m’entraînerait trop loin. Quel monde, mon ami, et qu’on peut bien dire : On ne vit qu’à Paris et l’on végète ailleurs !… Malgré cela je soupire déjà après nos promenades et nos entretiens intimes. Le papier me manque ; adieu, cher Félix, ton ami.
+][
+,(emph[P. S.]) Je m’étais trompé ; un dîner, même d’économistes, n’est pas une occasion favorable pour la lecture d’une brochure. J’ai remis la tienne à M. Dunoyer, je ne connaîtrai son sentiment que dans quelques jours. Tu trouveras dans le ,(emph[Moniteur]) du 27 mars, qui doit être dans la bibliothèque de ma chambre, le réquisitoire de Dupin sur le duel. Peut-être cela te fournira-t-il l’occasion d’étendre la brochure. Ce soir je passe la soirée chez Y… Il m’a fait le plus cordial accueil, et nous avons parlé de tout, même de religion. Il m’a paru faible sur ce chapitre, parce qu’il la respecte sans y croire.
+][
+Ce n’est qu’aujourd’hui que je me suis présenté chez Lamartine. Je n’ai pas été admis, il partait pour Argenteuil ; mais avec sa grâce ordinaire, il m’a fait dire qu’il veut que nous causions à l’aise et m’a donné rendez-vous pour demain. Comment m’en tirerai-je ?
+][
+Dans notre dîner, ou pour mieux dire après, on a agité une grande question : ,(emph[de la propriété intellectuelle]). Un Belge, M. Jobard, a émis des idées neuves et qui t’étonneront. Il me tarde que nous puissions causer de toutes ces choses ; car malgré ces succès éphémères je sens que je ne suis plus ,(emph[amusable]) de ce côté. À peine si cela touche l’épiderme ; et, tout bien balancé, la vie de province pourrait être rendue plus douce que celle-ci pour peu que l’on y eût le goût de l’étude et des arts.
+][
+Adieu, mon cher Félix, à une autre fois. Écris-moi de temps en temps et occupe-toi de ton écrit sur le duel. Puisque la cour est revenue à sa singulière jurisprudence, la chose en vaut la peine.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))

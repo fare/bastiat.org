@@ -1,0 +1,20 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
+du 5 janvier 1848")
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(date-tag[5 janvier 1848])
+(p*[
+Mon cher Félix, écrivant à Domenger, je profite de l’occasion uniquement pour te souhaiter une meilleure année que les précédentes.
+][
+J’ai honte de faire paraître mon second volume des ,(cite-title[Sophismes]) ; ce n’est qu’un ramassis de ce qui a paru déjà dans les journaux. Il faudra un troisième volume pour me relever ; j’en ai les matériaux informes.
+][
+Mais je tiendrais bien autrement à publier le cours que je fais à la jeunesse des écoles. Malheureusement je n’ai que le temps de jeter quelques notes sur le papier. J’en enrage, car je puis te le dire à toi, et d’ailleurs tu le sais, nous voyons l’économie politique sous un jour un peu nouveau. Quelque chose me dit qu’elle peut être simplifiée et plus rattachée à la politique et à la morale.
+][
+Adieu, je te quitte, je suis réduit à compter les minutes.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 14-106. ,(XXX)
+])))
