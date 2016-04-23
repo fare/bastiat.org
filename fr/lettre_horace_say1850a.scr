@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Horace Say
+du 3 juin 1850")
+(document :title "Lettre à Horace Say"
+	:author (author-FB)
+(date-tag[Mugron, 3 juin 1850])
+(p*[
+,(strong[Mon cher ami]),
+][
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+][
+Pourquoi avez-vous renfermé dans des limites si étroites l’excellente lettre que vous avez envoyée au dernier numéro du ,(cite-title[Journal des économistes]) ? En ce qui concerne les faits et les causes, elle est pleine de sagacité et décèle une expérience des affaires dont on nous reproche souvent, et avec quelque raison, de manquer. De tels articles satisfont toujours les lecteurs, et avancent les principes sans en parler. Vous devriez développer la pensée que vous ne faites qu’indiquer à la fin de votre lettre. Oui, par l’absence de spéculation, les céréales sont à un prix plus bas qu’elles ne devraient être, et il est infaillible qu’elles ne dépassent bientôt le taux normal. C’est la loi générale de l’action et de la réaction. La spéculation aurait rapproché les deux extrêmes d’une moyenne. Bien plus, elle aurait abaissé la moyenne elle-même, car elle aurait prévenu des gaspillages et des exportations imprudentes. Un travail de vous sur ce sujet serait fort utile tant au point de vue pratique qu’au point de vue scientifique. Sous ce dernier rapport, il dissiperait le funeste préjugé contre les ,(emph[intermédiaires]) et l’,(emph[accaparement]). Mettez-vous donc à l’œuvre.
+][
+Quoique je m’occupe peu de politique, j’ai pu me convaincre, avec douleur, que nos grands hommes d’État n’ont que trop bien réussi dans la première partie de leur plan de campagne qui est de semer l’alarme pour l’exploiter. Partout où j’ai passé, j’ai vu régner une terreur vraiment maladive. Il semble que la loi agraire nous menace. On croit Paris sur un volcan. On va jusqu’à invoquer la lutte immédiate ou l’invasion étrangère, non par des sentiments pervers, mais par peur de pis. On maudit la République, les républicains et même les résignés ; on blesse les classes inférieures par un luxe d’épithètes outrageantes. Bref, il me semble qu’on oublie tout, même la prudence. Dieu veuille que ce paroxysme passe vite ! où nous mènerait-il ?…
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 377-385. ,(XXX)
+])))
