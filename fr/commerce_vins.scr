@@ -1,0 +1,60 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "De l’avenir du commerce des vins entre la France et la Grande-Bretagne, par Frédéric Bastiat")
+
+(document :title "De l’avenir du commerce des vins entre la France et la Grande-Bretagne"
+	:author (author-FB)
+(p*[
+,(subtitle[Aux membres de la ,(emph[Ligue]), aux officiers du ,(inenglish[Board of trade]), aux ministres du gouvernement anglais.])
+][
+La ,(emph[Ligue]) provoque les réformes commerciales, le ,(inenglish[Board of trade]) les élabore, le ministre les convertit en lois : c’est donc à ces trois degrés de juridiction que j’adresse les réflexions qui suivent.
+][
+L’Angleterre ne produisant pas de vins, les droits de douane qui frappent ce liquide ne peuvent être considérés comme ,(emph[protecteurs]). Par ce motif, ils ne suscitent pas les réclamations de la ,(emph[Ligue]). Aussi voit-on les vins figurer parmi les huit articles auxquels paraît devoir se restreindre l’action du tarif anglais.
+][
+Cependant un droit, même fiscal, est contraire à la liberté du commerce, si, par son exagération, il prévient des échanges internationaux, s’il interdit au peuple des satisfactions qui n’ont en elles-mêmes rien d’immoral, s’il va jusqu’à lui ravir le choix de ses habitudes,(footnote*[J’ai souvent entendu dire, en Angleterre, que l’élévation des droits sur les vins de basse qualité était sans importance, parce qu’en aucun cas le peuple ne buvait de vin, dont il n’a pas l’,(emph[habitude]). Mais ne sont-ce pas ces droits qui ont créé ces habitudes ?]),
+si même, sacrifiant ce revenu public, qui lui sert de prétexte, on s’en sert comme d’un acte de représailles contre des tarifs étrangers, ou qu’on le réserve comme moyen d’agir sur ces tarifs,(footnote*[Sir Robert Peel, en présentant son plan financier, a dit qu’il « réservait les droits sur les vins comme moyen d’amener la France à un traité de commerce. » Mais il a dit aussi que « si cette politique ne réussissait pas, y persévérer serait léser les intérêts du peuple anglais. »]).
+C’est parce que l’administration anglaise est décidée à mettre enfin la justice au-dessus de ces vaines considérations d’une fausse et étroite politique, qu’elle se propose, si je suis bien informé, de substituer au droit fixe actuel de 5 sch. 6 d. par gallon une taxe fixe d’un schilling, plus un droit de 20 pour 100.
+][
+Cependant, en laissant subsister ce droit fixe d’un schilling, faites-vous réellement ,(emph[justice]) au peuple anglais, d’une part, de l’autre, entrez-vous franchement dans la voie d’une saine ,(emph[politique]) à l’égard des autres peuples ? — Ce sont deux points sur lesquels je vous prie de me permettre d’appeler votre attention.
+][
+Mais quel droit a un étranger de s’immiscer dans une telle question ? Le droit que je tiens de votre principe : ,(emph[liberté de commerce]) n’implique-t-elle pas entre les nations ,(emph[communauté d’intérêts]) ? En m’occupant de votre pays, je travaille pour le mien, ou, si vous l’aimez mieux, en m’occupant du mien, je travaille pour le vôtre.
+][
+Qu’un droit uniforme appliqué à des valeurs différentes soit ,(emph[injuste]), c’est ce qui n’a pas besoin de démonstration. Je me bornerai donc, sur ce point, à montrer en chiffres les résultats des trois systèmes, en supposant que les prix maximum et minimum des vins pouvant donner lieu à un commerce important soient de 28 sch. et 3 sch. le gallon.
+][
+(ajouter tableaux)
+][
+Ces chiffres approximatifs n’ont pas besoin de commentaires.
+][
+Aujourd’hui, ,(emph[pour une dépense égale]), le pauvre paye ,(emph[huit fois]) la taxe du riche.
+][
+Dans le système projeté, il payerait encore une ,(emph[taxe double]).
+][
+Le droit ,(inlatin[ad valorem]) est seul équitable.
+][
+J’ai eu l’honneur de soumettre verbalement cette observation à quelques-uns de vos plus célèbres économistes, à des membres du Parlement, à des hommes d’État : ils sont loin d’en contester la justesse ; mais, disent-ils, le droit ,(inlatin[ad valorem]) est d’une perception coûteuse et difficile.
+][
+Mais une difficulté d’exécution suffit-elle pour justifier la perpétration d’une injustice ? En France, l’administration aurait trouvé commode de frapper chaque hectare de terre d’un impôt uniforme, sans égard à sa force contributive ; elle n’y a pas songé, cependant, et n’a pas reculé devant les complications du cadastre. La raison en est simple : quand la nation en masse rencontre un obstacle, c’est à la nation en masse à le vaincre ; et elle ne peut sans iniquité s’en débarrasser aux dépens d’une classe, et précisément de la classe la plus malheureuse.
+][
+L’objection, d’ailleurs, perd toute sa force en présence du système ,(emph[mixte]). Il implique la possibilité de prélever le droit graduel. 
+][
+On ajoute, il est vrai, que sans le droit fixe il faudrait, sous peine de compromettre le revenu de l’État, porter plus haut le droit ,(inlatin[ad valorem]), qui, dans ce cas, offrirait un trop fort appât à la fraude.
+][
+Mais sont-ce les réformateurs auxquels je m’adresse qui plaideront la cause des droits exagérés, au point de vue fiscal ? Quand vous voulez grossir votre revenu, quel est depuis longtemps tout votre secret ? C’est justement de modérer les taxes. Cette politique ne vous a jamais failli ; et, en ce moment même, les résultats de l’abaissement des droits sur le sucre lui donnent une éclatante consécration.
+][
+On peut, je crois, tenir pour certain qu’avec un droit modéré de 20 pour 100, l’Angleterre fera sur les vins un commerce immense et constamment progressif. La France consomme 40 millions d’hectolitres de vins, malgré les taxes et les entraves par lesquelles il semble qu’elle cherche à détruire cette branche d’industrie ; y a-t-il exagération à établir que la Grande-Bretagne, avec ses puissantes ressources de consommation, achètera ,(emph[le dixième]) de ce qu’achète la France, ou 4 millions d’hectolitres, dont 7/8 de vins ordinaires à 3 sch. et 1/8 de vins fins à 28 sch. en moyenne ? Or, dans cette hypothèse, le Trésor recouvrerait de 3 à 4 millions sterling. Il ne perçoit aujourd’hui que 2 millions.
+][
+J’ai dit, en second lieu, que le droit uniforme me semble ,(emph[impolitique]).
+][
+L’Angleterre s’étant assurée que la prospérité d’un peuple se mesure mieux par ses importations que par ses exportations, a pris le parti d’ouvrir ses ports aux produits des autres nations, sans attendre d’elles ,(emph[réciprocité]), et sans même la leur demander. Son but principal est de mettre sa législation commerciale en harmonie avec la saine économie politique ; mais, accessoirement, elle espère agir au dehors par son exemple, car, jusqu’à ce que la liberté soit universelle, elle ne lui cédera que la moitié de ses fruits.
+][
+Or, au point de vue de l’influence que peut exercer sur les nations cette initiative de la grande réforme commerciale, quelle différence immense sépare le ,(emph[droit fixe]) du droit ,(inlatin[ad valorem]) !
+][
+Avec le droit uniforme, vous continuerez, comme aujourd’hui, à recevoir quelques vins de Xérès et des bons crus de la Champagne et du Bordelais. L’Angleterre et la France se toucheront encore par leurs sommités aristocratiques, et vos riches seigneurs donneront la main, par-dessus la Manche et à travers les tarifs, à nos grands propriétaires. Mais voulez-vous que votre population et la nôtre soient mises en contact sur tous les points ; qu’un commerce actif et régulier entre les deux peuples pénètre dans tous les districts, dans toutes les communes, dans toutes les familles ? Tenez-vous à voir l’Angleterre passer le détroit et enfoncer dans notre sol de profondes racines ? Renoncez à ce droit ,(emph[fixe]), et laissez l’infinie variété de nos produits aller satisfaire l’infinie variété de vos goûts et de vos fortunes. Alors les avocats du ,(inenglish[free-trade]), en France, auront une large base d’opérations ; car la connaissance, l’amour, le besoin du ,(emph[libre-échange]) descendront jusque dans nos chaumières, et il n’y aura pas un de nos foyers qui ne suscite quelque défenseur à ce principe d’éternelle justice. Et ai-je besoin de vous dire les conséquences ?… La puissance de consommation s’élargira tellement, en France comme en Angleterre, qu’il y aura des débouchés pour vos manufactures comme pour nos fabriques, pour nos champs comme pour les vôtres ; et le temps arrivera, je l’espère, où vous pourrez transformer en navires marchands vos vaisseaux de guerre, comme nous pourrons rendre nos jeunes soldats à l’industrie.
+][
+Paix au dehors, justice au dedans, prospérité partout, — de tels résultats pourraient-ils être balancés dans votre esprit par une simple difficulté d’exécution, qui ne vous a pas arrêtés pour le thé, et que d’ailleurs vous n’évitez pas par le système mixte ?
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome I,
+,(cite-title[De l’avenir du commerce des vins entre la France et la Grande-Bretagne]),
+pp. 387-392.
+])))
