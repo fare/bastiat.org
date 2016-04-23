@@ -1,0 +1,155 @@
+; -*- Scheme -*-
+; $Id: le_vol_a_la_prime.scr,v 1.3 2004/09/29 14:09:04 fare Exp $
+(style 'bo-style)
+(in-bof :title "Le vol à la prime
+	- par Frédéric Bastiat")
+(document :title "Le vol à la prime"
+	:author (author-FB)
+(subtitle[Chapitre IX de la seconde série des ,(SophismesEconomiques)
+,(footnote*[
+Tiré du ,(cite-title[Journal des Économistes]), n° de janvier 1846
+,(NdEEO)
+])
+])
+(p*[
+On trouve mon petit livre des ,(strong[Sophismes]) trop théorique, scientifique, métaphysique. Soit. Essayons du genre trivial, banal, et, s’il le faut, brutal. Convaincu que le public est ,(emph[dupe]) à l’endroit de la protection, je le lui ai voulu prouver. Il préfère qu’on le lui crie. Donc vociférons :
+,(verses[Midas, le roi Midas a des oreilles d’âne !])
+][
+Une explosion de franchise fait mieux souvent que les circonlocutions les plus polies. Vous vous rappelez Oronte et le mal qu’a le misanthrope, tout misanthrope qu’il est, à le convaincre de sa folie.
+
+,(verses[,(strong[Alceste.]) On s’expose à jouer un mauvais personnage.]
+[,(strong[Oronte.]) Est-ce que vous voulez me déclarer par là]
+[Que j’ai tort de vouloir…]
+[,(strong[Alceste.]) Je ne dis pas cela.]
+[Mais…]
+[,(strong[Oronte.]) Est-ce que j’écris mal ?]
+[,(strong[Alceste.]) Je ne dis pas cela.]
+[Mais enfin…]
+[,(strong[Oronte.]) Mais ne puis-je savoir ce que dans mon sonnet ?…]
+[,(strong[Alceste.]) Franchement, il est bon à mettre au cabinet.])
+][
+Franchement, bon public, ,(emph[on te vole]). C’est cru, mais c’est clair.
+][
+Les mots ,(emph[vol, voler, voleur]), paraîtront de mauvais goût à beaucoup de gens. Je leur demanderai comme Harpagon à Élise : Est-ce le mot ou la chose qui vous fait peur ?
+][
+« Quiconque a soustrait frauduleusement une chose qui ne lui appartient pas, est coupable de vol. » (,(emph[C. pén. art.]) 379.)
+][
+,(emph[Voler :]) Prendre furtivement ou par force. (,(emph[Dictionnaire de l’Académie.]))
+][
+,(emph[Voleur :]) Celui qui exige plus qu’il ne lui est dû. (,(emph[Id.]))
+][
+Or, le monopoleur qui, de par une loi de sa façon, m’oblige à lui payer 20 fr. ce que je puis avoir ailleurs pour 15, ne me soustrait-il pas frauduleusement 5 fr. qui m’appartiennent ?
+][
+Ne prend-il pas furtivement ou par force ?
+][
+N’exige-t-il pas plus qu’il ne lui est dû ?
+][
+Il soustrait, il prend, il exige, dira-t-on ; mais non point ,(emph[furtivement]) ou ,(emph[par force]) ; ce qui caractériserait le vol.
+][
+Lorsque nos bulletins de contributions se trouvent chargés des 5 fr. pour la prime, que soustrait, prend ou exige le monopoleur, quoi de plus ,(emph[furtif]), puisque si peu d’entre nous s’en doutent ? Et pour ceux qui ne sont pas dupes, quoi de plus ,(emph[forcé]), puisqu’au premier refus le garnisaire est à nos portes ?
+][
+Au reste, que les monopoleurs se rassurent. Les vols ,(emph[à la prime]) ou ,(emph[au tarif]), s’ils blessent l’équité tout aussi bien que le vol à l’américaine, ne violent pas la loi ; ils se commettent, au contraire, de par la loi ; ils n’en sont que pires, mais ils n’ont rien à démêler avec la ,(emph[correctionnelle]).
+][
+D’ailleurs, bon gré, mal gré, nous sommes tous ,(emph[voleurs]) et ,(emph[volés]) en cette affaire. L’auteur de ce volume a beau crier ,(emph[au voleur]) quand il achète, on peut crier après lui quand il vend ,(footnote*[Possédant un champ qui le fait vivre, il est de la classe des ,(emph[protégés]). Cette circonstance devrait désarmer la critique. Elle montre que, s’il se sert d’expressions dures, c’est contre la chose et non contre les intentions.]) ; s’il diffère de beaucoup de ses compatriotes, c’est seulement en ceci : il sait qu’il perd au jeu plus qu’il n’y gagne, et eux ne le savent pas ; s’ils le savaient, le jeu cesserait bientôt.
+][
+Je ne me vante pas, au surplus, d’avoir le premier restitué à la chose son vrai nom. Voici plus de soixante ans que Smith disait :
+][
+« Quand des industriels s’assemblent, on peut s’attendre à ce qu’une conspiration va s’ourdir contre les poches du public. » Faut-il s’en étonner, puisque le public n’en prend aucun souci ?
+][
+Or donc, une assemblée d’industriels délibère officiellement sous le nom de ,(emph[Conseils généraux]). Que s’y passe-t-il et qu’y résout-on ?
+][
+Voici, fort en abrégé, le procès-verbal d’une séance.
+][
+« ,(strong[Un armateur.]) Notre marine est aux abois (digression belliqueuse). Cela n’est pas surprenant, je ne saurais construire sans fer. J’en trouve bien à 10 fr. ,(emph[sur le marché du monde]) ; mais, de par la loi, le maître de forges français me force à le lui payer 15 fr. : c’est donc 5 fr. qu’il me soustrait. Je demande la liberté d’acheter où bon me semble.
+][
+« ,(strong[Un maître de forges.]) ,(emph[Sur le marché du monde]), je trouve à faire opérer des transports à 20 fr. — Législativement, l’armateur en exige 30 : c’est donc 10 fr. qu’il me ,(emph[prend]). Il me pille, je le pille ; tout est pour le mieux.
+][
+« ,(strong[Un homme d’État.]) La conclusion de l’armateur est bien imprudente. Oh ! cultivons l’union touchante qui fait notre force ; si nous effaçons un iota à la théorie de la protection, adieu la théorie entière.
+][
+« ,(strong[L’armateur.]) Mais pour nous la protection a failli : je répète que la marine est aux abois.
+][
+« ,(strong[Un marin.]) Eh bien ! relevons la ,(emph[surtaxe]), et que l’armateur, qui prend 30 au public pour son fret, en prenne 40.
+][
+« ,(strong[Un ministre.]) Le gouvernement poussera jusqu’aux dernières limites le beau mécanisme de la surtaxe ; mais je crains que cela ne suffise pas.
+,(footnote*[Voici le texte : « Je citerai encore les lois de douane des 9 et 11 juin dernier, qui ont en grande partie pour objet d’encourager la navigation lointaine, en augmentant sur plusieurs articles les
+,(emph[surtaxes]) afférentes au pavillon étranger. Nos lois de douane, vous le savez, sont généralement dirigées vers ce but, et peu à peu la
+,(emph[surtaxe]) de 10 francs, établie par la loi du 28 avril 1816 et souvent insuffisante,
+,(emph[disparaît]) pour faire place… à une protection plus efficace et plus en harmonie avec la
+,(emph[cherté]) relative de notre navigation. » — Ce
+,(emph[disparaît]) est précieux.]
+[(M. ,(strong[Cunin-Gridaine]), séance du 15 décembre 1845, 
+,(emph[discours d’ouverture]).)
+])
+][
+« ,(strong[Un fonctionnaire.]) Vous voilà tous bien empêchés pour peu de chose. N’y a-t-il de salut que dans le tarif, et oubliez-vous l’impôt ? Si le consommateur est bénévole, le contribuable ne l’est pas moins. Accablons-le de taxes, et que l’armateur soit satisfait. Je propose 5 fr. de prime, à prendre sur les contributions publiques, pour être livrés au constructeur pour chaque quintal de fer qu’il emploiera.
+][
+« ,(emph[Voix confuses.]) Appuyé, appuyé ! ,(emph[Un agriculteur :]) A moi 3 fr. de prime par hectolitre de blé ! ,(emph[Un tisserand :]) A moi 2 fr. de prime par mètre de toile ! etc., etc.
+][
+« ,(strong[Le président.]) Voilà qui est entendu ; notre session aura enfanté le système des ,(emph[primes]), et ce sera sa gloire éternelle. Quelle industrie pourra perdre désormais, puisque nous avons deux moyens si simples de convertir les pertes en profits : le tarif et la prime ? La séance est levée. »
+][
+Il faut que quelque vision surnaturelle m’ait montré en songe la prochaine apparition de la ,(emph[prime]) (qui sait même si je n’en ai pas suggéré la pensée à M. Dupin), lorsqu’il y a quelques mois j’écrivais ces paroles :
+][
+« Il me semble évident que la protection aurait pu, sans changer de nature et d’effets, prendre la forme d’une taxe directe prélevée par l’État et distribuée en primes indemnitaires aux industries privilégiées. »
+][
+Et après avoir comparé le droit protecteur à la prime :
+][
+« J’avoue franchement ma prédilection pour ce dernier système ; il me semble plus juste, plus économique et plus loyal. Plus juste, parce que si la société veut faire des largesses à quelques-uns de ses membres, il faut que tous y contribuent ; plus économique, parce qu’il épargnerait beaucoup de frais de perception et ferait disparaître beaucoup d’entraves ; plus loyal enfin, parce que le public verrait clair dans l’opération et saurait ce qu’on lui fait faire ,(footnote*[,(cite-title[Sophismes économiques]), ,(Iere) série, chap. V, pag. 49 et 50.]). »
+][
+Puisque l’occasion nous en est si bénévolement offerte, étudions le ,(emph[vol à la prime]). Aussi bien, ce qu’on en peut dire s’applique au ,(emph[vol au tarif]), et comme celui-ci est un peu mieux déguisé, le filoutage direct aidera à comprendre le filoutage indirect. L’esprit procède ainsi du simple au composé.
+][
+Mais quoi ! n’y a-t-il pas quelque variété de vol plus simple encore ? Si fait, il y a le ,(emph[vol de grand chemin]) : il ne lui manque que d’être légalisé, monopolisé, ou, comme on dit aujourd’hui, ,(emph[organisé]).
+][
+Or, voici ce que je lis dans un récit de voyages :
+][
+« Quand nous arrivâmes au royaume de A..., toutes les industries se disaient en souffrance. L’agriculture gémissait, la fabrique se plaignait, le commerce murmurait, la marine grognait et le gouvernement ne savait à qui entendre. D’abord, il eut la pensée de taxer d’importance tous les mécontents, et de leur distribuer le produit de ces taxes, après s’être fait sa part : c’eût été comme, dans notre chère Espagne, la loterie. Vous êtes mille, l’État vous prend une piastre à chacun ; puis subtilement il escamote 250 piastres, et en répartit 750, en lots plus ou moins forts, entre les joueurs. Le brave Hidalgo qui reçoit trois quarts de piastre, oubliant qu’il a donné piastre entière, ne se possède pas de joie et court dépenser ses quinze réaux au cabaret. C’eût été encore quelque chose comme ce qui se passe en France. Quoi qu’il en soit, tout barbare qu’était le pays, le gouvernement ne compta pas assez sur la stupidité des habitants pour leur faire accepter de si singulières protections, et voici ce qu’il imagina.
+][
+« La contrée était sillonnée de routes. Le gouvernement les fit exactement kilométrer, puis il dit à l’agriculteur : « Tout ce que tu pourras voler aux passants entre ces deux bornes est à toi : que cela te serve de ,(emph[prime]), de protection, d’encouragement. » Ensuite, il assigna à chaque manufacturier, à chaque armateur, une portion de route à exploiter, selon cette formule :
+
+,(verses[Dono tibi et concedo]
+[Virtutem et puissantiam]
+[Volandi,]
+[Pillandi,]
+[Derobandi,]
+[Filoutandi,]
+[Et escroquandi,]
+[Impunè per totam istam]
+[Viam.])
+][
+« Or, il est arrivé que les naturels du royaume de A… sont aujourd’hui si familiarisés avec ce régime, si habitués à ne tenir compte que de ce qu’ils volent et non de ce qui leur est volé, si profondément enclins à ne considérer le pillage qu’au point de vue du pillard, qu’ils regardent comme un ,(emph[profit national]) la somme de tous les vols particuliers, et refusent de renoncer à un système de ,(emph[protection]) en dehors duquel, disent-ils, il n’est pas une industrie qui puisse se suffire. »
+][
+Vous vous récriez ? Il n’est pas possible, dites-vous, que tout un peuple consente à voir un ,(emph[surcroît de richesses]) dans ce que les habitants se dérobent les uns aux autres.
+][
+Et pourquoi pas ? Nous avons bien cette conviction en France, et tous les jours nous y organisons et perfectionnons le ,(emph[vol réciproque]) sous le nom de primes et tarifs protecteurs.
+][
+N’exagérons rien toutefois : convenons que, sous le rapport du ,(emph[mode de perception]) et quant aux circonstances collatérales, le système du royaume de A… peut être pire que le nôtre ; mais disons aussi que, quant aux principes et aux effets nécessaires, il n’y a pas un atome de différence entre toutes ces espèces de vols légalement organisés pour fournir des suppléments de profits à l’industrie.
+][
+Remarquez que si le ,(emph[vol de grand chemin]) présente quelques inconvénients d’exécution, il a aussi des avantages qu’on ne trouve pas dans le ,(emph[vol au tarif]).
+][
+Par exemple : on en peut faire une répartition équitable entre tous les producteurs. Il n’en est pas de même des droits de douane. Ceux-ci sont impuissants par leur nature à protéger certaines classes de la société, telles que artisans, marchands, hommes de lettres, hommes de robe, hommes d’épée, hommes de peine, etc., etc.
+][
+Il est vrai que le ,(emph[vol à la prime]) se prête aussi à des subdivisions infinies, et, sous ce rapport, il ne le cède pas en perfection au ,(emph[vol de grand chemin ;]) mais, d’un autre côté, il conduit souvent à des résultats si bizarres, si jocrisses, que les naturels du royaume de A… s’en pourraient moquer avec grande raison.
+][
+Ce que perd le volé, dans le vol de grand chemin, est gagné par le voleur. L’objet dérobé reste au moins dans le pays. Mais, sous l’empire du ,(emph[vol à la prime]), ce que l’impôt soustrait aux Français est conféré souvent aux Chinois, aux Hottentots, aux Cafres, aux Algonquins, et voici comme :
+][
+Une pièce de drap vaut ,(emph[cent francs]) à Bordeaux. Il est impossible de la vendre au-dessous, sans y perdre. Il est impossible de la vendre au-dessus, la ,(emph[concurrence]) entre les marchands s’y oppose. Dans ces circonstances, si un Français se présente pour avoir ce drap, il faudra qu’il le paie ,(emph[cent francs]), ou qu’il s’en passe. Mais si c’est un Anglais, alors le gouvernement intervient et dit au marchand : Vends ton drap, je te ferai donner ,(emph[vingt francs]) par les contribuables. Le marchand, qui ne veut ni ne peut tirer que cent francs de son drap, le livre à l’Anglais pour 80 francs. Cette somme, ajoutée aux 20 francs, produit du ,(emph[vol à la prime]), fait tout juste son compte. C’est donc exactement comme si les contribuables eussent donné 20 francs à l’Anglais, sous la condition d’acheter du drap français à 20 francs de rabais, à 20 francs au-dessous des frais de production, à 20 francs au-dessous de ce qu’il nous coûte à nous-mêmes. Donc, le ,(emph[vol à la prime]) a ceci de particulier, que les ,(emph[volés]) sont dans le pays qui le tolère, et les ,(emph[voleurs]) disséminés sur la surface du globe.
+][
+Vraiment, il est miraculeux que l’on persiste à tenir pour démontrée cette proposition : ,(emph[Tout ce que l’individu vole à la masse est un gain général.]) Le mouvement perpétuel, la pierre philosophale, la quadrature du cercle sont tombés dans l’oubli ; mais la théorie du ,(emph[Progrès par le vol]) est encore en honneur. ,(inlatin[A priori]) pourtant, on aurait pu croire que de toutes les puérilités c’était la moins viable.
+][
+Il y en a qui nous disent : Vous êtes donc les partisans du ,(emph[laissez passer]) ? des économistes de l’école surannée des Smith et des Say ? Vous ne voulez donc pas l’,(emph[organisation du travail]) ? Eh ! messieurs, organisez le travail tant qu’il vous plaira. Mais nous veillerons, nous, à ce que vous n’organisiez pas le ,(emph[vol]).
+][
+D’autres plus nombreux répètent : ,(emph[primes]), ,(emph[tarifs]), tout cela a pu être exagéré. Il en faut user sans en abuser. Une sage liberté, combinée avec une protection modérée, voilà ce que réclament les hommes ,(emph[sérieux]) et pratiques. Gardons-nous des ,(emph[principes absolus]).
+][
+C’est précisément, selon le voyageur espagnol, ce qui se disait au royaume de A… « Le vol de grand chemin, disaient les sages, n’est ni bon ni mauvais ; cela dépend des circonstances. Il ne s’agit que de bien ,(emph[pondérer]) les choses, et de nous bien payer, nous fonctionnaires, pour cette œuvre de pondération. Peut-être a-t-on laissé au pillage trop de latitude, peut-être pas assez. Voyons, examinons, balançons les comptes de chaque travailleur. A ceux qui ne gagnent pas assez, nous donnerons un peu plus de route à exploiter. Pour ceux qui gagnent trop, nous réduirons les heures, jours ou mois de pillage. »
+][
+Ceux qui parlaient ainsi s’acquirent un grand renom de modération, de prudence et de sagesse. Ils ne manquaient jamais de parvenir aux plus hautes fonctions de l’État.
+][
+Quant à ceux qui disaient : Réprimons les injustices et les fractions d’injustice ; ne souffrons ni ,(emph[vol]), ni ,(emph[demi-vol]), ni ,(emph[quart de vol]), ceux-là passaient pour des idéologues, des rêveurs ennuyeux qui répétaient toujours la même chose. Le peuple, d’ailleurs, trouvait leurs raisonnements trop à sa portée. Le moyen de croire vrai ce qui est si simple !
+])
+(with-footer
+(p*[
+Extrait de l',(EO1863),
+tome IV, ,(SophismesEconomiques),
+seconde série, chapitre IX,
+,(cite-title[Le vol à la prime]),
+pp. 189-198.
+])))

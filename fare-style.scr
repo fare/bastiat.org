@@ -168,6 +168,7 @@
 (define (inbracket x) (*list "[" x "]"))
 (define (inlatin x) (it x))
 (define (inenglish x) (it x))
+(define (ingerman x) (it x))
 (define (initalian x) (it x))
 
 
