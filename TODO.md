@@ -1,11 +1,28 @@
-Je veux voir l'emplacement de mes erreurs pour ne pas passer une demi-heure à relire à chaque fois.
+TODO
+====
 
-Mettre adresse relative pour le css
+Texts
+-----
 
-Strong doit être small-caps, comme dans l'édition originale, au lieu de bold (pour avoir du bold, on aura une balise bold, pas strong)
+  * Import all texts that are missing from Bastiat.org
 
-Réparer liens Gallica
+  * Do another pass of proofreading by comparing to the original edition,
+    and/or by comparing independent digitizations.
 
-Un paragraphe en latin à centrer dans le Vol à la prime... T_T Chépa comment faire
 
-Polices de texte: une ancienne dans le style de l'édition originale pour le texte de Bastiat, une autre pour le texte autour.
+Infrastructure
+--------------
+
+  * Fix exscribe, so it's obvious where the error is.
+
+  * Use a relative URL for the CSS.
+
+  * Strong should be small-caps, as in the original edition, rather
+    than bold (to have bold, use a bold tag).
+
+  * Repair links to Gallica.
+
+  * Re-center a paragraphe in "le Vol à la prime"
+
+  * Fonts: use an old one in the style of the original edition for
+    Bastiat writings, another one for other text.

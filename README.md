@@ -20,14 +20,19 @@ Installing the toolchain
 
         sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)'
 
-  4. Compile [Exscribe](http://cliki.net/Exscribe):
+  4. Download [Exscribe](http://cliki.net/Exscribe):
 
-        sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/typeset)' --eval '(progn (setf uiop:*image-entry-point* (lambda () (exscribe::main uiop:*command-line-arguments*))) (uiop:dump-image "exscribe" :executable t))'
+        mkdir -p ~/common-lisp/
+		cd ~/common-lisp/
+		git clone https://gitlab.common-lisp.net/frideau/exscribe.git
 
-  5. Move Exscribe to a place in your `$PATH`, e.g.:
+  5. Compile Exscribe:
 
-        sudo install -m 755 -o 0 -g 0 exscribe /usr/local/bin/
-		\rm -f exscribe
+        sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/executable)'
+
+  6. Symlink exscribe into a place in your `$PATH`, e.g.:
+
+        sudo ln -sf ~/common-lisp/exscribe/exscribe /usr/local/bin/
 
 
 Building the website
