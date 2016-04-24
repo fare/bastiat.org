@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 11 mai 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Paris, 11 mai 1848])
+(p*[
+Mon cher Cobden, il ne m’est pas possible de vous écrire longuement. D’ailleurs, que vous dirais-je ? Comment prévoir ce qui sortira du sein d’une assemblée de 900 personnes, qui ne sont contenues par aucune règle, par aucun précédent ; qui ne se connaissent pas entre elles ; qui sont sous l’empire de tant d’erreurs ; qui ont à satisfaire tant d’espérances justes ou chimériques, et qui pourtant peuvent à peine s’entendre et délibérer, à cause de leur nombre et de l’immensité de la salle ? Ce que je puis dire, c’est que l’assemblée nationale a de bonnes intentions. L’esprit démocratique y domine. Je voudrais pouvoir en dire autant de l’esprit de paix et de non-intervention. Nous le saurons lundi. C’est ce jour-là qu’on a fixé pour la conversation sur la Pologne et l’Italie.
+][
+En attendant j’aborde de suite le sujet de ma lettre.
+][
+Vous savez qu’une commission de travailleurs se réunissait au Luxembourg, sous la présidence de L. Blanc. L’assemblée nationale l’a dispersée par sa présence ; mais elle s’est hâtée de fonder, dans son propre sein, une commission chargée de faire une enquête sur la situation des travailleurs industriels et agricoles, ainsi que de proposer les moyens d’améliorer leur sort.
+][
+C’est une œuvre immense, et que les illusions qui ont cours rendent périlleuse.
+][
+Je suis appelé à faire partie de cette commission. J’ai été nommé loyalement, après avoir exposé mes doctrines sans réticences, mais en les considérant surtout au point de vue du droit de propriété. Ce que j’ai dit et qui m’a valu d’être nommé, je le reproduis, sous forme d’un article intitulé : ,(cite-title[Loi et propriété]), qui paraîtra dans le prochain numéro du ,(cite-title[Journal des Économistes]). Je vous prie de le lire.
+][
+Maintenant, je voudrais faire servir cette enquête à faire jaillir la vérité. Que je me trompe ou non, c’est la vérité qu’il nous faut. — Nous n’avons pas en France une grande expérience de cette ,(inenglish[machinery]) qu’on nomme ,(emph[enquêtes parlementaires]). Connaîtriez-vous quelque ouvrage où soit exposé l’art de les conduire de manière à dégager la vérité ? Si vous en connaissez, ayez la bonté de me le signaler, ou mieux encore de me le faire envoyer.
+][
+Les préventions antibritanniques sont encore loin d’être éteintes ici. On pense que les Anglais s’appliquent à contrarier, sur le continent, la politique franco-républicaine ; et cela ne m’étonnerait pas de la part de votre aristocratie. Aussi je suivrai avec un vif intérêt votre nouvelle agitation, en faveur des réformes politiques et économiques qui peuvent diminuer l’influence au dehors de la ,(inenglish[Squirarchy]).
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

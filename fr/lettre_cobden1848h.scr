@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 18 août 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[18 août 1848])
+(p*[
+Mon cher Cobden, j’ai reçu votre lettre et le beau discours de M. Molesworth. Si j’avais eu du temps à ma disposition, je l’aurais traduit pour le ,(cite-title[Journal des Économistes]). Mais le temps me manque et plus encore la force. Elle m’échappe, et je vous avoue que me voilà saisi de la manie de tous les écrivains. Je voudrais consacrer le peu de santé qui me reste, d’abord à établir les vrais principes d’économie politique tels que je les conçois, et ensuite à montrer leurs relations avec toutes les autres sciences morales. C’est toujours ma chimère des ,(cite-title[Harmonies économiques]). Si cet ouvrage était fait, il me semble qu’il rallierait à nous une foule de belles intelligences, que le cœur entraîne vers le socialisme. Malheureusement, pour qu’un livre surnage et soit lu, il doit être à la fois court, clair, précis et empreint de sentiments autant que d’idées. C’est vous dire qu’il ne doit pas contenir un mot qui ne soit pesé. Il doit se former goutte à goutte comme le cristal, et, comme lui encore, dans le silence et l’obscurité. Aussi je pousse bien des soupirs vers mes chères Landes et Pyrénées.
+][
+Il ne m’a pas paru encore opportun de faire une ouverture à Cavaignac relativement à l’objet de votre lettre ,(footnote*[Il s’agissait d’une réduction simultanée dans les armements, en France et en Angleterre. ,(NdEEO)]). Le moment me semble mal choisi. Il faut attendre que les affaires d’Italie soient un peu éclaircies. Rien ne serait plus impopulaire en ce moment qu’une diminution dans l’armée. Tous les partis se réuniraient pour la condamner : les politiques, à cause de l’état de l’Europe ; les propriétaires et négociants, à cause des passions démagogiques. L’armée française est admirable de dévouement et de discipline. Elle est, pour le moment, notre ancre de salut. — Ses chefs les plus aimés sont au pouvoir et ne voudront rien faire qui puisse altérer son affection.
+][
+Quant à la marine, il n’est pas probable que la France entrerait dans une négociation qui aurait pour objet la ,(emph[réduction proportionnelle]). Il faudrait que l’Angleterre allât plus loin, et je crains bien qu’elle n’y soit pas préparée. Je voudrais savoir au moins ce que l’on pourrait espérer d’obtenir.
+][
+L’esprit public, de ce côté du détroit, rend une négociation semblable extrêmement difficile, surtout avec l’Angleterre seule. Il faudrait tâcher de l’étendre à toutes les puissances.
+][
+C’est pourquoi je n’ai pas osé compromettre le succès, en demandant à Cavaignac une audience ,(inlatin[ad hoc]). Je tâcherai de sonder ses idées occasionnellement et je vous les communiquerai.
+][
+Il est impossible de se proposer un plus noble but. J’ai vu avec plaisir que la ,(cite-title[Presse]) entre dans cette voie. Je vais tâcher d’y faire entrer aussi les ,(cite-title[Débats]). Mais la difficulté est d’y entraîner les journaux populaires ; cependant je n’en désespère pas.
+][
+Adieu, je suis forcé de vous quitter.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

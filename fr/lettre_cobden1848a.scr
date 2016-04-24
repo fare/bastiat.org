@@ -1,0 +1,38 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 25 février 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Paris, 25 février 1848])
+(p*[
+Mon cher Cobden, vous savez déjà nos événements. Hier nous étions une monarchie, aujourd’hui nous sommes une république.
+][
+Je n’ai pas le temps de raconter, je veux seulement vous soumettre un point de vue de la plus haute importance.
+][
+La France veut la paix et en a besoin. Ses dépenses vont s’accroître, ses recettes s’affaiblir et son budget est déjà en déficit. Donc, il lui faut la paix et la réduction de son état militaire.
+][
+Sans cette réduction, pas d’économie sérieuse possible, par conséquent pas de réforme financière, pas d’abolition de taxes odieuses. — Et sans cela, la révolution se dépopularise.
+][
+Or, la France, vous le comprendrez, ,(emph[ne peut pas prendre l’initiative du désarmement]). Il serait absurde de le lui demander.
+][
+Voyez les conséquences. Ne désarmant pas, elle ne peut rien réformer, et ne réformant rien, ses finances la tuent.
+][
+Le seul fait que l’étranger ,(emph[conserve ses forces]) nous réduit donc à périr. Or, nous ne voulons pas périr. Donc, si les nations étrangères ne nous mettent pas à même de désarmer en désarmant elles-mêmes, s’il nous faut tenir trois ou quatre cent mille hommes sur pied, nous serons entraînés à la guerre de propagande. C’est forcé. Car alors, le seul moyen d’arriver à respirer, chez nous, sera de créer des embarras à tous les rois de l’Europe.
+][
+Si donc l’étranger comprend notre situation et ses dangers, il n’hésitera pas à nous donner cette preuve de confiance de désarmer ,(emph[sérieusement]). Par là, il nous mettra à même d’en faire autant, de rétablir nos finances, de soulager le peuple, d’accomplir l’œuvre qui nous est dévolue.
+][
+Si, au contraire, l’étranger juge prudent de rester armé, je n’hésite pas à dire que cette prétendue prudence ,(emph[est de la plus haute imprudence]), car elle nous réduira à l’extrémité que je viens de vous dire.
+][
+Plaise au ciel que l’Angleterre comprenne et fasse comprendre ! Elle sauverait l’avenir de l’Europe. Que si elle consulte les traditions de la vieille politique, je vous défie bien de me dire comment nous pourrons échapper aux conséquences.
+][
+Méditez cette lettre, cher Cobden, pesez-en toutes les expressions. Voyez par vous-même si tout ce que je vous dis n’est pas inévitable.
+][
+Si vous restez armés, nous restons armés sans mauvaise intention. Mais restant armés, nous succomberons sous le poids de taxes impopulaires. Aucun gouvernement n’y pourra tenir. Ils auront beau se succéder, ils rencontreront tous la même difficulté ; et un jour viendra où l’on dira : Puisque nous ne pouvons renvoyer l’armée dans ses foyers, il faut l’envoyer soulever les peuples.
+][
+Si vous désarmez dans une forte proportion, si vous vous unissez fortement à nous pour conseiller à la Prusse la même politique, à cette condition, une ère nouvelle peut surgir et surgira du 24 février.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

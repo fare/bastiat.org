@@ -1,0 +1,28 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 26 février 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Paris, 26 février 1848])
+(p*[
+Mon cher Cobden, je donnerais beaucoup d’argent (si j’en avais), pour voir un moment M. de Lamartine, notre ministre des Affaires étrangères. Mais je ne puis arriver à lui.
+][
+Je voudrais aller à Londres, mais non sans l’avoir vu, parce qu’il faut bien lui soumettre les idées que j’aurais à vous communiquer.
+][
+L’Angleterre peut faire un bien immense, sans se nuire le moins du monde. Elle peut substituer chez nous l’attachement sincère à de funestes préventions. Elle n’a qu’à le vouloir. Par exemple, pourquoi ne ferait-elle pas cesser ,(emph[spontanément]) sa sourde opposition à notre triste conquête algérienne ? Pourquoi ne ferait-elle pas cesser ,(emph[spontanément]) les dangers qui naissent du droit de visite ? Pourquoi laisser s’enraciner chez nous l’idée qu’elle veut nous humilier ? Pourquoi attendre que les circonstances enveniment ces affaires ? Quel magnifique spectacle si l’Angleterre disait : « Quand la France aura choisi un gouvernement, l’Angleterre s’empressera de le reconnaître, et, pour preuve de sa sympathie, elle reconnaîtra aussi l’Algérie comme française, et renoncera au droit de visite dont elle aperçoit du reste l’inefficacité et les inconvénients ! »
+][
+Dites-moi, mon cher Cobden, ce que de tels actes coûteraient à votre pays, s’ils étaient faits, comme je le dis, ,(emph[spontanément ?])
+][
+Ici nous ne pouvons pas tirer de l’idée des Français que l’Angleterre convoite l’Algérie. C’est absurde ; mais les apparences y sont.
+][
+Nous ne pouvons pas effacer des esprits la pensée que le droit de visite entre dans votre politique. C’est encore absurde ; mais les apparences y sont.
+][
+Au nom de la paix et de l’humanité, provoquez ces grandes mesures ! Faisons donc une fois de la diplomatie populaire, et faisons-la en temps utile.
+][
+Écrivez-moi ; dites-moi franchement si un voyage à Londres, entrepris dans ces vues, sous les auspices de M. de Lamartine, aurait quelques chances d’amener un résultat. Je lui montrerai votre lettre.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

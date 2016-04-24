@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 7 août 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[7 août 1848])
+(p*[
+Mon cher Cobden, je quitte l’assemblée pour répondre quelques lignes à votre lettre du 5. J’espérais voir nos ministres pour conférer avec eux sur la communication que vous me faites, mais ils ne sont pas venus. En attendant d’autres détails, voici ce que je sais.
+][
+Nous nous sommes trouvés, pour 1848, en face d’un déficit impossible à combler par l’impôt. Le ministre des finances a pris la résolution d’y pourvoir par l’emprunt et d’organiser son budget de 1849 de manière à équilibrer les recettes et les dépenses, sans en appeler de nouveau au crédit. L’intention est bonne, le tout est d’y être fidèle.
+][
+Dans cette pensée, il a reconnu que les recettes ordinaires ne pouvaient faire face aux dépenses de 1849, qu’autant que celles-ci seraient réduites d’un chiffre assez considérable. Il a donc déclaré à tous ses collègues qu’ils devaient aviser à une réduction à répartir entre tous les services. Le département de la marine est compris pour 30 millions dans la réduction ,(emph[proposée]) ; et comme il y a dans ce département des chapitres qu’il est impossible de toucher, tels que dépenses coloniales, bagnes, vivres, solde, etc., il s’ensuit que la réduction portera exclusivement sur les armements nouveaux à faire.
+][
+Cette résolution n’est pas immuable. Elle ne part pas d’un parti pris de diminuer nos forces militaires. Mais il est certain que le gouvernement et l’assemblée seraient fortement encouragés à persévérer dans cette voie, si l’Angleterre offrait de nous y suivre et surtout de nous y précéder dans une proportion convenable. C’est sur quoi je vais appeler l’attention de Bastide.
+][
+En ce moment, il circule, à l’occasion de l’Italie, des bruits qui sont de nature à faire échouer les bonnes dispositions du ministre des finances. Je crains bien que la paix de l’Europe ne puisse pas être maintenue. Dieu veuille au moins que nos deux pays marchent d’accord !
+][
+Adieu, mon cher Cobden. Je vous écrirai prochainement.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

@@ -1,0 +1,22 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 5 avril 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Mugron, 5 avril 1848])
+(p*[
+Mon cher ami, me voici dans ma solitude. Que ne puis-je m’y ensevelir pour toujours, et y travailler paisiblement à celle synthèse économique, que j’ai dans la tête et qui n’en sortira jamais ! — Car, à moins d’un revirement subit dans l’opinion du pays, je vais être envoyé à Paris chargé du terrible mandat de Représentant du Peuple. Si j’avais de la force et de la santé, j’accepterais cette mission avec enthousiasme. Mais que pourront ma faible voix, mon organisation maladive et nerveuse au milieu des tempêtes révolutionnaires ? Combien il eût été plus sage de consacrer mes derniers jours à creuser, dans le silence, le grand problème de la destinée sociale ; d’autant que quelque chose me dit que je serais arrivé à la solution. Pauvre village, humble toit de mes pères, je vais vous dire un éternel adieu ; je vais vous quitter avec le pressentiment que mon nom et ma vie, perdus au sein des orages, n’auront pas même cette modeste utilité pour laquelle vous m’aviez préparé !…
+][
+Mon ami, je suis trop loin du théâtre des événements pour vous en parler. Vous les apprenez avant moi ; et au moment où j’écris, peut-être les faits sur lesquels je pourrais raisonner sont-ils de l’histoire ancienne. Si le gouvernement déchu nous avait laissé les finances en bon ordre, j’aurais une foi entière dans l’avenir de la République. Malheureusement le trésor public est écrasé, et je sais assez l’histoire de notre première révolution pour connaître l’influence du délabrement des finances sur les événements. Une mesure urgente entraîne une mesure arbitraire ; et c’est là surtout que la fatalité exerce son empire. Maintenant, le peuple est admirable ; et vous seriez surpris de voir comme le ,(emph[suffrage universel]) fonctionne bien dès son début. Mais qu’arrivera-t-il quand les impôts, au lieu d’être diminués, seront aggravés, quand l’ouvrage manquera, quand aux plus brillantes espérances succéderont d’amères réalités ? J’avais aperçu une planche de salut, sur laquelle il est vrai je ne comptais guère, car elle supposait de la sagesse et de la prudence dans les rois ; c’était le désarmement simultané de l’Europe. Alors les finances eussent été partout rétablies, les peuples soulagés et rattachés à l’ordre ; l’industrie se serait développée, le travail eût abondé et les peuples eussent attendu avec calme le développement progressif des institutions. Les monarques ont préféré jouer leur ,(emph[va-tout]), ou plutôt ils n’ont pas su lire dans le présent et dans l’avenir. Ils pressent un ressort, sans comprendre qu’à mesure que leur force s’épuise celle du ressort augmente.
+][
+Supposez qu’ils aient partout désarmé et dégrevé d’autant les impôts, en outre accordé aux nations des institutions d’ailleurs inévitables. La France obérée se fût hâtée d’en faire autant, trop heureuse de pouvoir fonder la République sur la solide base du soulagement réel des souffrances populaires. Le calme et le progrès se fussent donné la main. — Mais le contraire est arrivé. Partout on arme, partout on accroît les dépenses publiques, et les impôts et les entraves, quand les impôts existants sont précisément la cause des révolutions. Tout cela ne finira-t-il pas par une terrible explosion ?
+][
+Quoi donc ! la justice est-elle si difficile à pratiquer, la prudence si difficile à comprendre ?
+][
+Depuis que je suis ici, je ne vois pas de journaux anglais. Je ne sais rien de ce qui se passe dans votre parlement. J’aurais espéré que l’Angleterre prendrait l’initiative de la politique rationnelle, et qu’elle la prendrait avec cette hardiesse vigoureuse dont elle a donné tant d’exemples. J’aurais espéré qu’elle eût voulu ,(inenglish[to teach mankind how to live :]) désarmer, désarmer, abandonner les colonies onéreuses, cesser d’être menaçante, se mettre dans l’impossibilité d’être menacée, supprimer les taxes impopulaires et présenter au monde un beau spectacle d’union, de force, de sagesse, de justice et de sécurité. Mais hélas ! l’Économie politique n’a pas encore assez pénétré les masses, même chez vous.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

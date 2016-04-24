@@ -1,0 +1,22 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 27 mai 1848")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Paris, le 27 mai 1848])
+(p*[
+Mon cher Cobden, je vous remercie de m’avoir procuré l’occasion de faire la connaissance de M. Baines. Je regrette seulement de n’avoir pu m’entretenir qu’un instant avec un homme aussi distingué.
+][
+Pardonnez-moi de vous avoir donné la peine de m’écrire au sujet des enquêtes et de leur forme. J’ai déserté notre comité du travail pour celui des finances. C’est là en définitive que viendront aboutir toutes les questions et même toutes les utopies. À moins que le pays ne renonce à l’usage de la raison, il faudra bien qu’il subordonne aux finances, même sa politique extérieure, dans une certaine mesure. Puissions-nous faire triompher la politique de la paix ! Pour moi, je suis convaincu qu’après la guerre immédiate, rien n’est plus funeste à ma patrie que le système inauguré par notre gouvernement, et qu’il a appelé ,(emph[diplomatie armée]). À quelque point de vue qu’on le considère, un tel système est injuste, faux et ruineux. Je me désole quand je songe que quelques simples notions d’économie politique suffiraient pour le dépopulariser en France. Mais comment y parvenir, quand l’immense majorité croit que les intérêts des peuples, et même les intérêts en général, sont radicalement et naturellement antagoniques ? Il faut attendre que ce préjugé disparaisse, et ce sera long. Pour ce qui me concerne, rien ne peut m’ôter de l’idée que mon rôle était d’être publiciste campagnard comme autrefois, ou tout au plus professeur. Je ne suis pas né à une époque où ma place soit sur la scène de la politique active.
+][
+Quoi de plus simple, en apparence, que de décider la France et l’Angleterre à s’entendre pour désarmer en même temps ? qu’auraient-elles à craindre ? combien de difficultés réelles, imminentes, pressantes, ne se mettraient-elles pas à même de résoudre ! combien d’impôts à réformer ! que de souffrances à soulager ! que d’affections populaires à conquérir ! que de troubles et de révolutions à éloigner ! Et cependant, nous n’y parviendrons pas. L’impossibilité matérielle de recouvrer l’impôt ne suffira pas, chez vous ni chez nous, pour faire adopter un désarmement, d’ailleurs indiqué par la plus simple prudence.
+][
+Cependant je dois dire que j’ai été agréablement surpris de trouver dans notre comité, composé de soixante membres, les meilleures dispositions. Dieu veuille que l’esprit qui l’anime se répande d’abord sur l’assemblée et de là sur le public. Mais hélas ! sur quinze comités, il y en a un qui, chargé des voies et moyens, est arrivé à des idées de paix et d’économies. Les autres quatorze comités ne s’occupent que de projets qui, tous, entraînent des dépenses nouvelles, — résistera-t-il au torrent ?
+][
+Je crois qu’en ce moment vous avez près de vous madame Cobden, ainsi que M. et madame Schwabe — je vous prie de leur présenter mes civilités affectueuses. Depuis le départ de M. Schwabe, les Champs-Élysées me semblent un désert ; avant je les trouvais bien nommés.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

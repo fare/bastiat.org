@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 3 août 1850")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[3 août 1850])
+(p*[
+Mon cher Cobden, depuis le départ de nos bons amis les Schwabe, je n’ai plus l’occasion de m’entretenir de vous. Cependant, je ne vous ai pas tout à fait perdu de vue, et, dans une occasion récente, j’ai remarqué avec joie, mais sans étonnement, que vous vous étiez séparé de nos amis pour rester fidèle à vos convictions. Je veux parler du vote sur Palmerston. Cette bouffée d’orgueil britannique qui a caractérisé cet épisode, n’est pas d’accord avec la marche naturelle des événements et le progrès de la raison publique en Angleterre. Vous avez bien fait de résister. C’est cette parfaite concordance de toutes vos actions et de tous vos votes qui donnera plus tard à votre nom et à votre exemple une autorité irrésistible.
+][
+Je suis allé dans mon pays pour voir à guérir ces malheureux poumons, qui me sont des serviteurs fort capricieux. Je suis revenu un peu mieux, mais atteint d’une maladie de larynx accompagnée d’une extinction de voix complète. Le médecin m’ordonne le silence absolu. C’est pourquoi je vais aller passer deux mois à la campagne aux environs de Paris. Là, j’essayerai de faire le second volume des ,(cite-title[Harmonies économiques]). Le premier est passé à peu près inaperçu dans le monde savant. Je ne serais pas ,(emph[auteur]), si je souscrivais à cet arrêt. J’en appelle à l’avenir, j’ai la conscience que ce livre contient une idée importante, une ,(emph[idée mère]). Le temps me viendra en aide.
+][
+Aujourd’hui je voulais vous dire quelques mots en faveur de notre confrère en économie politique, A. Scialoja. Vous savez qu’il était professeur à Turin. Les événements en ont fait, pendant quelques jours, un ministre du commerce à Naples. C’était à l’époque de la Constitution. Au retour du pouvoir absolu, Scialoja, pensant qu’un ministère du commerce n’est pas assez politique pour compromettre son titulaire, ne voulut pas fuir. Mal lui en prit. Il a été arrêté et mis en prison. Voilà dix mois qu’il sollicite en vain son élargissement ou un jugement.
+][
+J’ai fait quelques démarches ici afin d’intéresser notre diplomatie. (Que la diplomatie soit bonne à quelque chose une fois dans la vie !) On m’a répondu que notre ambassade ferait ce qu’elle pourrait, mais qu’elle avait peu de chances. Scialoja serait, dit-on, beaucoup mieux protégé par la bienveillance anglaise. Voyez donc à lui ménager l’appui de votre ambassadeur à Naples.
+][
+Scialoja demande à être jugé ! j’aimerais mieux pour lui qu’on lui donnât un passe-port pour Londres ou Paris ; car un jugement napolitain ne me paraît pas offrir de grandes garanties, même à l’innocence la plus blanche.
+][
+Irez-vous à Francfort ? Pour moi, il est inutile que j’assiste au congrès, puisque je suis devenu muet ; mais il me serait bien agréable de vous voir à votre passage à Paris, et mon appartement, rue d’Alger, n°3, est à votre disposition.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))
