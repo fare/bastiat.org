@@ -1,0 +1,38 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 29 septembre 1846")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Paris, 29 septembre 1846])
+(p*[
+Mon cher ami, je suis allé chez M. de Loménie, il est venu chez moi, et nous ne nous sommes pas encore rencontrés. Mais je le verrai demain et je mettrai à sa disposition tous mes documents et ceux de Fonteyraud. En outre, je lui offrirai ma coopération, soit pour traduire, soit pour donner à son article, au besoin, la couleur d’orthodoxie économique. J’ai très-présent à la mémoire le passage de votre discours de clôture, où vous faites une excursion dans l’avenir, et, de là, montrez à vos auditeurs un horizon plus vaste et plus beau que celui que le Pic du midi a étalé à vos yeux. — Ce discours sera traduit et communiqué à M. de Loménie. Il pourrait bien se servir aussi de votre morceau sur l’émigration, qui est vraiment éloquent. Bref, rapportez-vous-en à moi. — Seulement, je dois vous dire que l’on ne parle guère ici de cette ,(emph[galerie des hommes illustres]). On assure que ce genre d’ouvrage est une spéculation sur l’amour-propre des prétendants à l’illustration. Mais peut-être cette insinuation a-t-elle sa source dans des jalousies d’auteurs et d’éditeurs, ,(inlatin[irritabile genus]), la plus vaine espèce d’hommes que je connaisse, après les maîtres d’escrime.
+][
+Je reçois à l’instant votre bonne lettre. M’arrivera-t-elle à temps ? J’ai cousu assez naturellement le texte que vous me signalez à mon discours. Comment n’ai-je pas pensé à vous demander vos conseils ? Cela provient sans doute de ce que j’ai la tête pleine d’arguments et me sentais ,(emph[riche]). Mais je ne pensais qu’au ,(emph[sujet]), et vous me faites penser à l’,(emph[auditoire]). Je comprends maintenant qu’un bon discours doit nous être fourni par l’auditoire plus encore que par le sujet. En repassant le mien dans ma tête, il me semble qu’il n’est pas trop philosophique ; que la science, l’à-propos et la parabole s’y mêlent en assez juste proportion ,(footnote*[V. ce discours, t. II, p. 238. ,(NdEEO)]). Je vous l’enverrai, et vous m’en direz votre façon de penser, pour mon instruction. Vous comprenez que tout ménagement serait un mauvais service que vous me rendriez, mon cher Cobden. J’ai de l’amour-propre comme les autres, et personne ne craint plus que moi le ridicule ; mais c’est précisément ce qui me fait désirer les bons conseils et les bonnes critiques. Une de vos remarques peut m’en épargner mille dans l’avenir qui s’ouvre devant moi et qui m’entraîne. Ce soir va décider beaucoup de choses.
+][
+On m’attend au Havre. Oh ! quel fardeau qu’une réputation ,(emph[exagérée !]) Là, il faudra traiter le ,(inenglish[shipping interest]). Je me rappelle que vous avez dit de bonnes choses à ce sujet, à Liverpool ou à Hall. Je chercherai, mais si vous avez quelque bonne idée relativement au Havre, faites-m’en la charité, ou plutôt faites-la, ,(inenglish[through me]), à ces peureux armateurs qui comptent sur la ,(emph[rareté des échanges]) pour ,(emph[multiplier les transports]). Quel aveuglement ! quelle perversion de l’intelligence humaine !
+][
+,(verses
+[Et je suis étonné, quand je pense à cela,]
+[Comment l’esprit humain peut baisser jusque-là.]
+)
+][
+Je ne mettrai ma lettre à la poste que demain, afin de vous rendre compte d’un événement qui vous intéresse, je suis sûr, comme s’il vous était personnel.
+][
+J’oubliais de vous dire que votre lettre antérieure m’est arrivée trop tard. J’avais arrêté déjà deux appartements séparés, l’un pour l’association, l’autre pour moi, mais dans la même maison. Il faut en prendre son parti avec ce mot qui console l’Espagnol de tout : ,(inspanish[no hay remedio !]) Quant à ma santé, ne vous alarmez pas ; elle va mieux. Je crois que la Providence m’en donnera jusqu’au bout. Je deviens superstitieux, n’est-il pas bon de l’être un peu ?
+][
+Mais voici que ma lettre arrive au ,(inenglish[square yard]). Elle payera de forts droits. Il n’en serait pas ainsi probablement, si la poste adoptait ,(inenglish[the ad valorem duty]). Je réserve la place pour demain.
+])
+(date-tag[Minuit.])
+(p*[
+La séance vient de finir. Anisson nous présidait. L’auditoire était plus nombreux que l’autre fois. Nous avons eu cinq ,(inenglish[Speeches]), dont deux de professeurs qui croyaient faire leur cours. Bien plus que moi, ils ont songé à leur sujet plus qu’à leur public. M. Say a eu beaucoup de succès. Il a parlé avec chaleur et a été fort applaudi. Cela me fait bien plaisir, car comment ne pas aimer cet excellent homme ? M*** a fait ,(emph[trois]) excellents discours en un. Il n’avait d’autre défaut que la longueur. J’ai parlé le cinquième, et avec le désavantage de n’avoir plus qu’un auditoire harassé. Cependant, j’ai réussi tout autant que je le désirais. Chose drôle, je n’éprouvais d’émotion qu’au ,(emph[mollet]). Je comprends maintenant le vers de Racine :
+,(verses[Et mes genoux tremblants se dérobent sous moi.])
+])
+(date-tag[30.])
+(p*[
+Je n’ai vu qu’un journal, ,(cite-title[le Commerce]). Voici comment il s’exprime : « M. Bastiat a fait accepter des paraboles économiques, grâce à un débit sans prétention et à une verve toute méridionale. » Ce maigre éloge me suffit, et je n’en voudrais pas davantage ; car Dieu me préserve d’exciter jamais l’envie parmi mes collaborateurs !
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))

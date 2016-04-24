@@ -1,0 +1,22 @@
+; -*- Scheme -*-
+; $Id: lettre_calmetes1820b.scr,v 1.2 2003/09/19 22:44:44 fare Exp $
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
+du 21 juillet 1846")
+(document :title "Lettre à Richard Cobden"
+	:author (author-FB)
+(date-tag[Bordeaux, 21 juillet 1846])
+(p*[
+Mon cher et excellent ami, votre lettre est venue me trouver à Bordeaux, où je me suis rendu pour assister à un meeting occasionné par le retour de notre président M. Duffour-Dubergié. Ce meeting aura lieu dans quelques heures ; je dois y parler, et cette circonstance me préoccupe à tel point que vous excuserez le désordre et le décousu de ma lettre. Je ne veux cependant pas remettre de vous écrire à un autre moment, puisque vous me demandez de vous répondre par retour du courrier.
+][
+Je n’ai pas besoin de vous dire combien j’ai accueilli avec joie l’achèvement de votre grande et glorieuse entreprise. La clef de voûte est tombée ; tout l’édifice du monopole va s’écrouler, y compris le ,(emph[Système colonial]), en tant que lié au régime protecteur. C’est là surtout ce qui agira fortement sur l’opinion publique, en Europe, et dissipera chez nous de bien funestes et profondes préventions.
+][
+Lorsque j’intitulai mon livre ,(cite-title[Cobden et la Ligue]), personne ne m’avait dit que vous étiez l’âme de cette puissante organisation et que vous lui aviez communiqué toutes les qualités de votre intelligence et de votre cœur. Je suis fier de vous avoir deviné et d’avoir pressenti sinon devancé l’opinion de l’Angleterre toute entière. Pour l’amour des hommes, ne rejetez pas le témoignage qu’elle vous confère. Laissez les peuples exprimer librement et noblement leur reconnaissance. L’Angleterre vous honore, mais elle s’honore encore plus par ce grand acte d’équité. Croyez qu’elle place à gros intérêts ces 100 000 livres sterling ; car tant qu’elle saura ainsi récompenser ses fidèles serviteurs, elle sera bien servie. Les grands hommes ne lui feront jamais défaut. Ici, dans notre France, nous avons aussi de belles intelligences et de nobles cœurs, mais ils sont à l’état virtuel, parce que le pays n’a point encore appris cette leçon si importante quoique si simple : ,(emph[honorer ce qui est honorable et mépriser ce qui est méprisable]). Le don qu’on vous prépare est une glorieuse consommation de la plus glorieuse entreprise que le monde ait jamais vue. Laissez ces grands exemples arriver entiers aux générations futures.
+][
+J’irai à Paris au commencement d’août. Il n’est pas probable que j’y arrive comme député. Toujours la même cause me force à attendre que ce mandat me soit ,(emph[imposé]), et, en France, on peut attendre longtemps. Mais comme vous, je pense que l’œuvre que j’ai à faire est en dehors de l’enceinte législative.
+][
+Je sors du meeting où je n’ai pas parlé ,(footnote*[L’explication de cette circonstance se trouve dans une lettre adressée à M. Coudroy, p. 74. ,(NdEEO)]). Mais il m’est arrivé, à propos de députation, une chose bien extraordinaire. Je vous la conterai à Paris. Oh ! mon ami, il est des pays où il faut avoir vraiment l’âme grande pour s’occuper du bien public, tant on s’y applique à vous décourager.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 106-193. ,(XXX)
+])))
