@@ -1,0 +1,18 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Pensée, par Frédéric Bastiat")
+
+(document :title "Pensée"
+	:author (author-FB)
+(p*[
+N’en est-il pas en religion comme en économie politique ? et n’a-t-on point le tort de chercher la solution dans une ,(emph[unité]) factice, imposée, intolérante, persécutrice, socialiste, incapable d’ailleurs de fournir ses titres à la domination et ses preuves de vérité ?
+][
+L’unité, en toutes choses, est la consommation suprême, le point vers lequel gravite et gravitera éternellement, sans jamais l’atteindre, l’esprit humain. Si elle devait se réaliser dans l’humanité, ce ne serait qu’à la fin de toutes les libres évolutions sociales.
+][
+C’est la variété, la diversité qui sont au commencement, à l’origine, au point de départ de l’humanité, car la diversité des opinions doit être d’autant plus grande que le trésor des vérités acquises est plus petit et que l’esprit des hommes s’est mis d’accord, par la science, sur un moins grand nombre de points…
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII,
+,(cite-title[Pensée]),
+p. 361.
+])))

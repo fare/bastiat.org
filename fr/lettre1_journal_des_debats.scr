@@ -1,0 +1,73 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Première lettre au rédacteur du Journal des débats, par Frédéric Bastiat")
+
+(document :title "Première lettre au rédacteur du Journal des débats"
+	:author (author-FB)
+(date-tag[,(cite-title[Journal des Débats]) du 2 mai 1846.])
+(p*[
+,(strong[Monsieur]),
+][
+Me permettrez-vous d’ajouter quelque chose aux judicieuses observations que vous faites, dans votre feuille du 28 avril, au sujet des modifications que l’Angleterre fait subir à ses tarifs ?
+][
+Vous envisagez cette réforme au point de vue spécial de l’influence qu’elle pourra exercer sur notre commerce. Vous faites remarquer que nos ventes dans le Royaume-Uni devront nécessairement s’accroître, puisque les droits d’entrée y seront considérablement réduits, quelquefois abolis sur une foule d’articles, tels que céréales, bestiaux, beurre, fromage, eau-de-vie, vinaigre, soieries, tissus de laine et de lin, peaux ouvrées, savons, chapeaux, bottes, horlogerie, carrosserie, ouvrages en métaux, cuivre, bronze, plomb ou étain, papiers de tenture, etc., etc.
+][
+Vous pensez, avec raison, que cette grande mesure aura pour effet de développer considérablement les échanges de la Grande-Bretagne avec les États continentaux.
+][
+Assurément, il n’est pas possible de douter que la réforme anglaise n’ouvre de nouveaux débouchés aux produits des autres peuples.
+][
+Mais qui s’emparera de ces débouchés nouveaux ? Il me semble évident que ce sont les nations qui les premières réformeront leurs propres tarifs.
+][
+Tout négociant sait que ce qui favorise ou entrave les exportations, c’est le plus ou moins de facilité à opérer les retours. Vendre pour de l’argent, c’est une demi-opération qui supporte les frais d’une opération entière, et qui, par ce motif, sourit beaucoup moins aux négociants qu’aux théoriciens de cabinet.
+][
+Je me ferai comprendre par un exemple.
+][
+Vous avez cité le beurre parmi les articles dont notre exportation pourra s’accroître.
+][
+Je suppose que deux navires entrent dans la Tamise, l’un venant de France, l’autre de Hollande, tous les deux chargés de beurre. Je suppose encore que le prix de revient soit identique.
+][
+Ici on pourra m’arrêter et me dire que de telles suppositions ne se réalisent jamais ; mais comme je cherche l’influence de deux systèmes de douane différents sur deux opérations analogues, je dois bien raisonner comme les géomètres, sur cette formule : ,(emph[toutes choses égales d’ailleurs]).
+][
+Ainsi admettons qu’en entrant en rivière le beurre normand et le beurre hollandais reviennent à 100 fr. les 100 kilogr. ; admettons encore que le fret ajoutera 5 fr. à ce prix, et que les spéculateurs veulent faire un bénéfice de 10 p. 100.
+][
+Voici le compte du négociant français :
+]
+(simple-table '(
+([Prix de revient du beurre] [100 fr.])
+([Fret] [5])
+([Retour à vide du navire] [5])
+([Bénéfice] [10])
+([Total] [120 fr.])
+))
+[
+Au-dessous de ce cours, il y aurait perte, tout au moins absence de bénéfice, et ce genre de commerce ne pourrait continuer.
+][
+Voici maintenant le compte du négociant hollandais :
+]
+(simple-table '(
+([Prix de revient du beurre] [100 fr.])
+([Fret] [5])
+([Retour du navire : ,(emph[néant]), puisque les frais en seront supportés par la cargaison de retour.] [0])
+([Bénéfice, comme ci-dessus] [10])
+([Total] [115 fr.])
+))
+[
+Par où l’on voit que le Hollandais pourra établir le cours à 115 fr., gagner encore et chasser le Français du marché.
+][
+Et il le fera même nécessairement sous l’aiguillon de la concurrence que lui feront ses compatriotes.
+][
+Je pourrais, monsieur le Rédacteur, tirer de là bien des conséquences ; faire voir que le beurre français n’attendra pas d’être chassé des marchés anglais ; que par cela seul qu’il ne pourra s’y vendre, il ne sera pas produit en Bretagne et en Normandie ; qu’il y aura donc dans ces provinces moins de prairies artificielles et naturelles, moins de bestiaux, moins d’engrais, moins de capitaux engagés dans l’agriculture, etc., etc.
+][
+On me dira sans doute que, d’un autre côté, par cela seul que le navire français n’a pu rapporter de la toile et des rails, ces mêmes capitaux payeront des fileurs et des mineurs.
+][
+Reste à savoir si cet emploi forcé est plus avantageux que l’autre. Je me garderai bien d’entrer ici dans cette discussion, et je terminerai en faisant observer que le beurre n’a été pris que comme exemple ; ce que j’en ai dit s’applique à l’ensemble de nos transactions.
+][
+Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un second article.
+][
+Agréez, etc.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII,
+,(cite-title[Première lettre au rédacteur du Journal des débats]),
+pp. 96-99.
+])))

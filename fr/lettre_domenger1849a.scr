@@ -1,0 +1,13 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
+du 18 janvier 1849")
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(date-tag[18 janvier 1849])
+(p*[
+Nous sommes à peu près tous d’accord ici sur la nécessité de nous dissoudre. Cependant un très grand nombre (et sans la crainte des élections ce serait la totalité) ne voudraient pas céder à une pression violente et factice. Beaucoup craignent aussi pour l’existence même de la République. S’il n’y avait qu’un prétendant, ce serait l’affaire d’une révolution (dont Dieu nous préserve) ; mais comme il y en a plusieurs, c’est une question de guerre civile. Il est bien permis d’hésiter.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 385-412. ,(XXX)
+])))

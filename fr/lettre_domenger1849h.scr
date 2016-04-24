@@ -1,0 +1,20 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(date-tag[Sans date.])
+(p*[
+Mon élection, que j’appris il y a deux jours, va me donner plus d’affaires après qu’avant : car, si j’ai pu la négliger un peu, je ne dois pas au moins oublier d’exprimer à mes amis toute ma reconnaissance, non pas du service qu’ils m’ont rendu, mais de l’attachement et de la confiance qu’ils m’ont témoignés. Vous êtes en première ligne, et je suis profondément touché du zèle que vous y avez mis, d’autant que cela a dû beaucoup vous coûter. Je sais que vous répugnez à cette agitation électorale et que depuis longtemps vous aspirez à n’y prendre qu’une part toute personnelle. D’un autre côté, vous avez dû vous mettre en opposition avec beaucoup de vos amis. Croyez que toutes ces circonstances me font d’autant plus apprécier votre dévouement.
+][
+Quelle sera la destinée de la nouvelle assemblée ? On fonde sur elle de grandes espérances. Dieu veuille que ce ne soient pas de grandes illusions. Elle ne sera certainement pas mieux intentionnée que celle qui vient de mourir. Mais que font les intentions ? Je pense comme la ,(cite-title[Presse]) ; la meilleure assemblée ne vaut rien que pour empêcher le mal. Pour faire le bien, il faut l’initiative d’un pouvoir plus concentré ; nous en avons la preuve depuis cinq mois. Le ministère a borné son rôle à susciter et soutenir un conflit, et la chambre avec ses bonnes intentions n’a pu rien faire.
+][
+Ce qui rend l’avenir redoutable, c’est l’ignorance. La classe pauvre s’enrégimente et marche comme un seul homme à une guerre insensée, sans se douter qu’elle se suicide elle-même, car quand elle aura détruit le capital et le mobile même qui le forme, quel sera son sort ?
+][
+Au fond, il ne devrait y avoir entre les deux classes qu’une question d’impôts. Arriver à l’impôt proportionnel, c’est tout ce que la justice exige ; au delà il n’y a qu’injustice, oppression et malheur pour tous. Mais comment le faire comprendre à des hommes qui s’en prennent au principe même de la propriété ?
+][
+Je vous dirai que j’ai dans la tête une pensée qui m’absorbe, me détourne de mes devoirs et me fait négliger mes amis. C’est une explication nouvelle de ces deux mots : ,(emph[Propriété, Communauté]). Je crois pouvoir démontrer de la manière la plus évidente que l’ordre naturel des sociétés fonde, sur la propriété même, la plus belle, la plus large et la plus progressive communauté. Cela vous paraîtra paradoxal, mais j’ai dans l’esprit ,(emph[certitude complète]). Il me tarde de pouvoir jeter cette pensée dans le public, car il me semble qu’elle réconciliera les hommes sincères de toutes les écoles. Elle ne ramènera pas sans doute les chefs de sectes. Mais elle empêchera la jeunesse des écoles d’aller s’enrôler sous les drapeaux du communisme. Suis-je sous l’empire d’une illusion ? — C’est possible, mais le fait est que je sèche du désir de publier mon idée. Je crains toujours de n’avoir pas le temps, et lorsque le choléra décimait l’Assemblée, je disais à Dieu : Ne me retirez pas de ce monde avant que je n’aie accompli ma mission.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 385-412. ,(XXX)
+])))

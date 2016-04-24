@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
+du 3 septembre 1848")
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(date-tag[3 septembre 1848])
+(p*[
+Demain nous commençons à discuter la Constitution. Mais, quoiqu’on en dise, cette œuvre portera toujours au cœur un chancre dévorant, puisqu’elle sera discutée sous le régime de l’état de siège et en l’absence de la liberté de la presse. Quant à nous représentants, nous nous sentons parfaitement libres, mais cela ne suffit pas. Les partis exploiteront ce qu’il y a d’anormal dans notre situation pour miner et décréditer la constitution. Aussi j’ai voté hier contre l’état de siège. Je crois que Cavaignac fait la faute vulgaire et bien naturelle de sacrifier l’avenir au présent. Tout disposé que je suis à prêter de la force à ce gouvernement honnête et bien intentionné que nous avons érigé, je ne puis aller jusque-là. Me voilà donc votant encore avec la république rouge, mais ce n’est pas ma faute. Il ne faut pas regarder ,(emph[avec qui]), mais ,(emph[pourquoi]) l’on vote.
+][
+Je présume qu’un nouvel effort sera tenté en faveur de la liberté de la presse. Je m’y associerai, avant tout je veux que la constitution soit respectée. S’il y a à Paris des ferments de désordre tels qu’on ne puisse maintenir l’empire des lois, eh bien, j’aime mieux que la lutte recommence, et que le pays apprenne à se défendre lui-même.
+][
+Il n’est bruit que de conspirations légitimistes. Je ne puis pas y croire. Quoi ! les légitimistes, impuissants en 89, espéreraient être forts en 1848 ! Ah ! Dieu les préserve de réveiller le lion révolutionnaire ! Si vous avez occasion de les voir, dites-leur bien qu’il ne faut pas qu’ils se fassent illusion. Ils ont contre eux tous les ouvriers, tous les socialistes, tous les républicains, tout le peuple, avec des chefs capables de pousser les choses jusqu’à la dernière extrémité. Que le clergé surtout soit circonspect. Les hommes à ,(emph[principes]) qui, comme moi, ont foi dans la puissance de la vérité, ne demandent que la libre discussion et acceptent d’avance le triomphe de l’opinion, ,(emph[quand même]) (sauf à la faire changer), ces hommes sont en petit nombre. Ceux qui acceptent la lutte ailleurs, sur le champ du combat, sont innombrables, décidés à pousser les choses jusqu’au bout. Que les légitimistes et le clergé ne donnent pas le signal de l’action ; ils seraient écrasés. Le légitimisme sait bien que son principe a fait son temps, et quant au clergé, s’il n’est pas tout à fait aveugle, il ne peut ignorer son côté vulnérable. Qu’une certaine irritation populaire provenant de la crise industrielle et des embarras financiers ne leur inspire pas de dangereuses et folles espérances, à moins qu’ils ne veuillent une bonne fois jouer leur ,(emph[va tout]).
+][
+Employez votre influence à préserver notre cher département des suites d’une lutte affreuse. À Dieu ne plaise que je veuille priver qui que ce soit du droit d’exprimer et de faire valoir ses idées ! Mais qu’on évite avec soin tout ce qui pourrait ressembler à la conspiration.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 385-412. ,(XXX)
+])))

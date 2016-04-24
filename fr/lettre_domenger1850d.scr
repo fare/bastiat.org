@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
+du 28 novembre 1850")
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(date-tag[Rome, le 28 ,(footnote*[Ici la date précise importe, à cause des appréciations politiques qui suivent, et Bastiat a laissé le quantième en blanc ; mais la suscription offre très-net le timbre de la Sardaigne du ,(1er) décembre, d’où il suit que la lettre fut probablement écrite et jetée à la poste à Rome le 28 novembre. ,(NdEEO)]) novembre 1850])
+(p*[
+Je suis bien heureux d’être venu à Rome où j’ai trouvé des soins et quelques ressources, je ne sais comment je m’en serais tiré à Pise. La gorge est devenue si douloureuse que c’est pour moi une grande affaire que de manger et de boire. Il faut qu’on me fasse des préparations spéciales, et sous ce rapport mes amis m’ont été bien utiles. — Je ne puis vous dire si je suis mieux. D’un jour à l’autre je n’aperçois pas de changement ; mais si je me compare à moi-même de mois en mois, je ne puis m’empêcher de reconnaître un affaiblissement progressif assez prononcé. Puissé-je, mon cher D…, avoir la force, au mois de février, de regagner Mugron ! On a beau célébrer les vertus du climat, il ne remplace pas le chez soi. D’ailleurs j’envisage ma maladie dans les deux hypothèses de la guérison et de la grande conclusion. Si je dois succomber, je voudrais être couché dans le ,(emph[dortoir]) où dorment mes amis et mes parents. Je voudrais que nos amis du cercle m’accompagnassent à cette dernière demeure et que ce fût notre excellent curé de Mugron qui prononçât pour moi ce vœu sublime : ,(inlatin[Lux perpetua luceat ei !]) etc., etc. — Aussi, si je le puis, je me propose de profiter des beaux jours de février pour aller à Marseille, où Justin pourra me venir chercher.
+][
+Si jamais je rentre au gîte, ce sera pour moi un grand crève-cœur d’avoir passé plusieurs mois à Rome et de n’y avoir rien vu. Je n’ai visité que Saint-Pierre, à cause de l’immuabilité de sa température. Je me borne à aller tous les jours m’exposer au soleil sur le mont Pincio, où je ne puis rester longtemps, puisqu’il n’y a pas de bancs. Je n’aurai donc vu Rome qu’à vol d’oiseau. Malgré cela, quelques connaissances vous arrivent toujours par la lecture, la conversation, l’atmosphère. Ce qui me frappe le plus, c’est la solidité de la tradition chrétienne et l’abondance des témoignages irrécusables.
+][
+Mon ami, le récent dénouement politique me fait bien plaisir, puisqu’il donne du répit à notre France. Il me semble justifier complétement ma ligne de conduite. Lors des premières élections je promis d’essayer loyalement la République honnête, et je suis sûr que c’était le vœu général. Par un motif ou par un autre, prêtres, nobles, plébéiens s’accordaient là-dessus, quoique avec des espérances diverses. Légitimistes et Orléanistes s’effacèrent complétement en tant que tels. Mais qu’est-il arrivé ? dès qu’ils l’ont pu ils se sont mis à décrier, fausser, calomnier, embarrasser la République au profit du légitimisme, de l’orléanisme, du bonapartisme. Tout cela échoue. Et maintenant ils font ce qu’ils avaient promis de faire, ce que j’ai fait et ce dont ils se sont écartés pendant deux ans. Ils ont agité la France inutilement.
+][
+J’ai eu très grand tort, je l’avoue, de vous parler comme je l’ai fait des dames X… J’étais sous l’empire de cette idée que la dévotion, quand elle se charge de pratiques minutieuses, oublie la vraie morale, et j’en avais sous les yeux de frappants exemples. Mais il est certain que cela n’avait rien de commun avec ces dames.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 385-412. ,(XXX)
+])))
