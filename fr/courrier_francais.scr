@@ -1,0 +1,69 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "A M. le rédacteur du Courrier français, par Frédéric Bastiat")
+
+(document :title "A M. le rédacteur du Courrier français"
+	:author (author-FB)
+(date-tag[,(cite-title[Courrier français]) du 11 avril 1846.])
+(p*[
+J’ai toujours trouvé fort hardi, presque impertinent, l’usage d’attribuer le langage d’un journal au personnage qu’on suppose en être le patron, et de se servir de ces locutions : ,(emph[M. Guizot dit ; — M. Thiers affirme ; — M. de Metternich nous répond]), — et cela à propos d’un ,(emph[premier Paris]) dont il est plus que probable que ces illustres patrons n’ont eu aucune connaissance. Ce n’est pas que j’aie la simplicité d’ignorer, tout villageois que je suis, les liens qui attachent certaines feuilles à certains hommes politiques ; mais, je le répète, la formule banale dont je parle me semble renfermer une double insulte ; elle dit au patron qu’on interpelle : Tu n’as pas le courage d’avouer tes paroles ! — et au client supposé : Tu n’es qu’un commis à gages !
+][
+Aussi je me garderai de faire remonter à M. Thiers la responsabilité de l’article qui a paru hier dans le ,(cite-title[Constitutionnel]), ,(emph[sur]) ou ,(emph[contre]) la liberté des échanges. Et pourtant, quand on voit ce manifeste suivre de si près celui du ,(cite-title[Journal des Débats]), et ces deux feuilles élever bannière contre bannière, ne peut-on pas supposer, sans sortir du domaine des conjectures permises, que M. Thiers et M. Guizot ont transporté leur lutte sur le terrain de la réforme commerciale ?
+][
+S’il en est ainsi, on ne peut pas féliciter M. Thiers du rôle qu’il a pris. — Se placer dans les idées rétrogrades, planter sa tente au milieu du camp des monopoles, chercher la force dans la sympathie des intérêts égoïstes, c’est assurément manquer de tact ; c’est engager la partie avec des chances, peut-être ,(emph[actuellement]) favorables, mais qui, de leur nature, doivent aller toujours s’amoindrissant ; c’est abandonner à son adversaire des auxiliaires puissants : la liberté, la vérité, la justice, l’intérêt général et le développement naturel de la raison publique.
+][
+Mais laissons là le champ des conjectures, et, sans nous occuper des ressorts plus ou moins problématiques qui agissent sur le journalisme, examinons en lui-même l’article du ,(cite-title[Constitutionnel]).
+][
+La première erreur où tombe cette feuille, c’est de supposer que les associations qui se forment pour la défense de la liberté, en matière d’échanges, aspirent à supprimer la douane, et qu’elles attribuent cette portée à la réforme de sir Robert Peel.
+][
+« À lire la plupart des appréciations de la mesure de sir Robert Peel, et quand on ignore les conditions d’existence mercantile de la Grande-Bretagne, on est tenté de croire que, sous peu, il n’y aura plus chez nos voisins, ni taxes à l’entrée, ni douanes. C’est, il faut le dire, une illusion bien naïve ; car, malgré les réformes, le gouvernement anglais s’arrange de manière à retirer encore des douanes un revenu de 450 à 500 millions de francs. Malgré les réformes, il n’y aura pas un douanier de moins sur cette vaste étendue de côtes ; malgré les réformes, le métier de ,(inenglish[smuggler]) sera encore très lucratif ; malgré les réformes, enfin, le tabac, le thé, les eaux-de-vie, les vins continueront à être frappés de taxes tellement exorbitantes, qu’on chercherait en vain dans les tarifs des autres peuples des droits aussi élevés sur les mêmes articles. Si vous appelez cela de la liberté commerciale, il faut avouer que vous êtes faciles à contenter et que vous êtes d’excellente composition pour l’application des principes. »
+][
+Oui, nous sommes d’excellente composition avec le fisc, dont, ,(emph[en tant qu’association]), nous ne nous occupons pas. Mais nous sommes moins faciles à l’égard de la ,(emph[protection]), avec laquelle, je l’espère, nous ne transigerons jamais.
+][
+Au moment où beaucoup de bons esprits sentent la nécessité de s’unir pour la propagation des saines doctrines économiques, nous croyons utile d’insister sur cette distinction fondamentale et de fixer, de manière à ce qu’on ne puisse plus s’y méprendre, le vrai caractère des associations qui se forment. — Nous n’avons pas besoin de dire que nous n’exprimons ici que notre opinion personnelle.
+][
+Napoléon a dit : « La douane n’est pas seulement un instrument fiscal, elle doit être encore et surtout un moyen de protéger l’industrie. » Prenant le contre-pied de cette sentence, nous disons : « La douane ne doit pas être un moyen de protéger l’industrie et de restreindre les échanges ; mais elle peut être un moyen comme un autre de prélever l’impôt. » Là est toute la pensée de l’,(emph[Association]). Elle ne doit pas, elle ne ,(emph[peut]) pas être ailleurs.
+][
+Nous ferons encore connaître son esprit et sa portée par une autre opposition.
+][
+Sous le titre de ,(emph[Comité central pour la défense du travail national]), une société s’est formée en France, et son objet avoué est d’exploiter l’institution des douanes, non seulement au détriment du ,(emph[public consommateur]), mais au détriment du fisc lui-même.
+][
+L’Association pour la liberté des échanges a pour mission de propager le principe directement opposé à celui du ,(emph[Comité central]).
+][
+Elle réclame pour tout Français, en ce qui ne blesse ni d’ordre public ni les bonnes mœurs, la ,(emph[plénitude du droit de propriété]), lequel implique la faculté d’opter entre la consommation et l’échange.
+][
+Elle demande que la ,(emph[liberté d’acheter]) au dehors soit reconnue et garantie aussi bien que la ,(emph[liberté de vendre]) au dehors, d’autant plus que ce qui restreint l’une limite nécessairement l’autre.
+][
+De ce que l’association réclame pour tous les produits le libre passage de la frontière, il ne s’ensuit pas qu’elle s’oppose à ce qu’une taxe fiscale les atteigne soit à l’entrée soit à la sortie. Sans renoncer à discuter accessoirement l’opportunité et la quotité de ces taxes, ,(emph[il suffit qu’elles soient calculées exclusivement dans un but de fiscalité]), pour qu’elles sortent de la compétence de l’Association. Elle ne s’attaque pas au fisc, mais à la protection. Elle s’élève contre le système qui consiste à exagérer le droit, même au préjudice du trésor, dans le but avoué d’élever le prix d’une denrée, afin d’accroître, aux dépens du consommateur, la rémunération naturelle du producteur. Elle soutient que c’est là une violation de la propriété et une usurpation commise par la loi.
+][
+Ici se présente une difficulté que je crois devoir aborder ouvertement, car, d’un côté, sous peine d’introduire la dissension dans son sein, l’Association ne doit pas se laisser entraîner à poursuivre des réformes, quelque séduisantes qu’elles paraissent, ,(emph[qui ne sont pas dans son principe ;]) et d’une autre part, il importe qu’on sache bien au dehors où elle commence, où elle s’arrête, quelle est la sphère de son activité et le terme précis de ses prétentions.
+][
+Nous l’avons déjà dit, un droit de douane peut être soit fiscal, soit protecteur. Malheureusement il peut être aussi, et il est presque toujours à la fois l’un et l’autre.
+][
+Il est ,(emph[fiscal]) quand la charge qu’il impose au public profite ,(emph[tout entière]) au trésor, c’est-à-dire au public lui-même. Tels sont les droits sur le ,(emph[thé]) et les autres denrées qui n’ont pas de similaires dans le pays. En ce cas, pas de difficulté, l’Association ne s’en mêle pas. De tels droits peuvent être fort différemment appréciés, et, à cet égard, l’opinion de chaque sociétaire est réservée. Mais enfin c’est une question d’impôt ; la protection n’y est pour rien, et l’Association non plus. Pour le dire en passant, on voit combien le ,(cite-title[Constitutionnel]) s’est mépris quand, pour prouver que la réforme anglaise est ,(emph[tout ce qu’il y a de plus vulgaire]), il cite précisément les taxes qu’elle a laissées subsister sur les denrées de cette catégorie. Il ne voit pas que c’est en cela que consiste tout le libéralisme de la mesure.
+][
+Le droit est exclusivement ,(emph[protecteur]) quand il empêche l’importation de la marchandise étrangère, comme dans les cas de prohibition ou de droits prohibitifs. — Dans ce cas encore, pas de difficulté. C’est là l’abus contre lequel l’Association s’est formée ; sa tâche est de démontrer que d’une telle mesure, généralisée et réduite en système, résulte pour tout Français interdiction de tirer tout l’avantage possible de son travail, contrainte de s’adresser à un vendeur plus malhabile ou moins bien situé. Ici, l’acheteur n’acquitte pas une taxe au trésor, dont il profite comme citoyen ; il paye un excédant de prix qui ne lui reviendra sous aucune forme ; il subventionne une industrie privilégiée ; il est soumis à une extorsion ; il est dépouillé sans compensation d’une partie de sa propriété ; il travaille pour autrui et, dans une certaine mesure, sans rémunération ; il est esclave dans toute la rigueur du mot, car l’esclavage consiste non dans la forme, mais dans le fait d’une spoliation permanente et légale. — C’est ce régime que l’Association veut détruire.
+][
+Mais on nous dit : Vous admettez un droit ,(emph[fiscal]). Or, chaque fois qu’un produit étranger a un similaire au dedans, est-il possible de le frapper d’un droit, même ,(emph[fiscal]), qui n’élève le prix vénal de ce produit et n’agisse, par conséquent, comme droit protecteur ?
+][
+Voici, dans ce cas, comment il me semble que l’Association doit comprendre l’application de son principe.
+][
+Chaque fois qu’un droit est arrivé à cette limite inférieure, au-dessous de laquelle il ne pourrait descendre, sans compromettre d’une manière permanente le revenu qu’en tire le trésor, on peut dire qu’il est ,(emph[essentiellement]) fiscal et ,(emph[involontairement]) protecteur. C’est à cette limite que l’action de l’Association doit s’arrêter, parce que tout ce que l’on pourrait discuter au delà serait une question d’impôt.
+][
+Ainsi, par exemple, si l’on abaissait successivement le droit sur les fers à 20, 15 et 10 pour 100, cherchant, sans se préoccuper aucunement de nos forges, le point où il donne le plus gros revenu possible, c’est-à-dire où il entre le plus de fer possible sans nuire au trésor, — je dis qu’à cette limite le droit devrait être considéré comme fiscal et soustrait aux discussions de nos assemblées. Ce n’est pas à dire que cet impôt, ,(emph[comme impôt]), fût à l’abri de toute objection. Il resterait à savoir s’il est d’une bonne administration de renchérir le prix du fer. Mais cette considération rentre dans les questions générales relatives à toute contribution publique. Elle se présente aussi bien à propos du sel et du port des lettres qu’au sujet des douanes. Elle sort de la compétence de l’Association, parce que l’Association ne discute pas les impôts, même mauvais ; elle n’a qu’un but : le renversement du système protecteur.
+][
+Il ne faut pas se le dissimuler, cette déclaration ouvre une brèche au monopole. À chaque abaissement du tarif, il s’écriera : « Arrêtez ! non dans mon intérêt, mais dans celui du trésor. »
+][
+C’est un inconvénient ; mais ce serait bien pis si l’Association ignorait ce qu’elle veut et à quoi elle tend. Quand une difficulté résulte de la nature des choses, il n’y a nul avantage à fermer les yeux pour se la dissimuler à soi-même.
+][
+Je sais que beaucoup de personnes ont de la peine à admettre cette distinction. Elles voient, dans toute restriction douanière, alors même qu’elle a un but fiscal, une atteinte à la ,(emph[liberté des échanges]), et elles en concluent que l’Association désavouerait son propre titre, si elle se bornait à combattre le système protecteur.
+][
+Mais une taxe n’infirme pas plus le principe de la liberté commerciale, qu’un impôt n’infirme le principe de la propriété. Si l’Association voulait intervenir dans les questions que peuvent soulever, à propos de tous les cas particuliers, l’opportunité, la quotité, la forme, l’assiette ou la perception des contributions publiques, elle n’aurait aucune chance de durée, car les avis y seraient bientôt partagés ; — et à une institution de cette nature, ce n’est pas la ,(emph[majorité]) qu’il faut, c’est l’,(emph[unanimité]).
+][
+Entre associés, il n’y a qu’un lien possible : ,(emph[la communauté du principe]). — ,(emph[Pas de protection !]) Voilà notre mot de ralliement. — Que le législateur ramène le tarif à sa destination originaire, qui est de prélever sur tous une taxe qui profite à tous. Mais nous ne voulons pas de taxes qui, sans rentrer au trésor, pèsent sur le grand nombre pour profiter au petit nombre. Attachons-nous à ce principe, ne nous en laissons jamais séparer. C’est un rocher inébranlable qui repose sur deux bases éternelles : la justice et la vérité.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII,
+,(cite-title[A M. le rédacteur du Courrier français]),
+pp. 71-77.
+])))

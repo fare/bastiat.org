@@ -1,0 +1,49 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Sous la République, par Frédéric Bastiat")
+
+(document :title "Sous la République"
+	:author (author-FB)
+(date-tag[Paris, 26 février 1848. ,(footnote*[N° du 27 février 1848 de la ,(cite-title[République française]).])])
+(p*[
+,(footnote*[Dans le t. II, p. 459 à 465, figure le contingent fourni par Bastiat aux ,(cite-title[Petites affiches de Jacques Bonhomme]). Grâce à l’obligeance de M. G. de Molinari, nous pouvons reproduire maintenant de courts articles qu’écrivit Bastiat pour deux autres des feuilles publiques, qui eurent une courte existence en 1848, la ,(cite-title[République française]) et ,(cite-title[Jacques Bonhomme]). ,(NdEEO)])
+
+Nul ne peut dire quel sera, en Europe, le contre-coup de la Révolution. Plaise au ciel que tous les peuples sachent se soustraire à la triste nécessité de se précipiter les uns sur les autres, au signal des aristocraties et des rois.
+][
+Mais supposons que les puissances absolues conservent encore, pendant quelque temps, leurs moyens d’action au dehors.
+][
+Nous posons ici deux faits qui nous paraissent incontestables et dont on va voir les conséquences :
+][
+1° La France ne peut pas prendre l’initiative du désarmement.
+][
+2° Sans le désarmement, la Révolution ne peut remplir que très imparfaitement les espérances du peuple.
+][
+Ces deux faits, disons-nous, sont incontestables.
+][
+Quant au désarmement, le plus grand ennemi de la France ne pourrait le lui conseiller, tant que les puissances absolues sont armées. Il est inutile d’insister là-dessus.
+][
+Le second fait est aussi évident. Se tenir armée de manière à garantir l’indépendance nationale, c’est avoir trois ou quatre cent mille hommes sous les drapeaux ; c’est être dans l’impossibilité de faire, sur les dépenses publiques, aucun retranchement assez sérieux pour remanier immédiatement notre système d’impôts. Accordons que, par une taxe somptuaire, on puisse réformer l’impôt du sel et quelques autres contributions exorbitantes. Est-ce là une chose dont puisse se contenter le peuple français ?
+][
+On réduira, dit-on, la bureaucratie : soit. Mais, nous l’avons dit hier, la diminution probable des recettes compensera et au delà ces réformes partielles, et, ne l’oublions pas, le dernier budget a été réglé en déficit.
+][
+Or, si la Révolution est mise dans l’impossibilité de remanier un système d’impôts iniques, mal répartis, qui frappent le peuple et paralysent le travail, elle est compromise.
+][
+Mais la Révolution ne veut pas périr.
+][
+Voici, relativement aux étrangers, les conséquences nécessaires de cette situation. Certes, ce n’est pas nous qui conseillerons jamais des guerres d’agression. Mais la dernière chose qu’on puisse demander à un peuple, c’est de se suicider.
+][
+Si donc, même sans nous attaquer directement, l’étranger, par son attitude armée, nous forçait à tenir trois ou quatre cent mille hommes sur pied, c’est comme s’il nous demandait de nous suicider.
+][
+Pour nous, il est de la dernière évidence que si la France est placée dans la situation que nous venons de décrire, qu’elle le veuille ou non, elle jettera sur l’Europe la lave révolutionnaire.
+][
+Ce sera le seul moyen de créer aux rois des embarras chez eux, qui nous permettent de respirer chez nous.
+][
+Que les étrangers le comprennent. Ils ne peuvent échapper au danger qu’en prenant avec loyauté l’initiative du désarmement. Le conseil leur paraîtra bien téméraire. Ils se hâteront de dire : « Ce serait une imprudence. » Et nous, nous disons : Ce serait de la prudence la plus consommée.
+][
+C’est ce que nous nous chargerons de démontrer.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Sous la République]),
+pp. 210-235.
+])))

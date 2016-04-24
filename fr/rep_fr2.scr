@@ -1,0 +1,21 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Article dans La République française, par Frédéric Bastiat")
+
+(document :title "Article dans La République française"
+	:author (author-FB)
+(date-tag[Paris, 26 février 1848.])
+(p*[
+Lorsqu’on parcourt les rues de Paris, à peine assez spacieuses pour contenir les flots de la population, et qu’on vient à se rappeler qu’il n’y a dans cette immense métropole, en ce moment, ni roi, ni cour, ni gardes municipaux, ni troupes, ni police autre que celle que les citoyens exercent eux-mêmes ; quand on songe que quelques hommes, sortis hier de nos rangs, s’occupent seuls des affaires publiques ; — à l’aspect de la joie, de la sécurité, de la confiance qui respire dans toutes les physionomies, le premier sentiment est celui de l’admiration et de la fierté.
+][
+Mais bientôt on fait un retour sur le passé, et l’on se dit : « Il n’est donc pas si difficile à un peuple de se gouverner qu’on voulait nous le persuader, et le gouvernement à bon marché n’est pas une utopie. »
+][
+Il ne faut pas se le dissimuler : en France on nous a habitués à être gouvernés outre mesure, à merci et miséricorde. Nous avions fini par croire que nous nous déchirerions tous les uns les autres, si nous jouissions de la moindre liberté, et si l’État ne réglait pas tous nos mouvements.
+][
+Voici une grande expérience qui démontre qu’il y a dans le cœur des hommes d’indestructibles principes d’ordre. L’ordre est un besoin et le premier des besoins, sinon pour tous, du moins pour l’immense majorité. Ayons donc confiance et tirons de là cette leçon que le grand et dispendieux appareil gouvernemental, que les ,(emph[intéressés]) nous représentaient comme indispensable, peut et doit être simplifié.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Article dans La République française]),
+pp. 210-235.
+])))
