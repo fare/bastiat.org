@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettres à Prosper Paillottet
+	- par Frédéric Bastiat")
+
+(document :title "Lettres à Prosper Paillottet"
+	:author (author-FB)
+(itemize
+  (item (ref :url "lettre_paillottet1849.html" [14 juillet 1849]))
+  (item (ref :url "lettre_paillottet1850a.html" [19 mai 1850]))
+  (item (ref :url "lettre_paillottet1850b.html" [2 juin 1850]))
+  (item (ref :url "lettre_paillottet1850c.html" [23 juin 1850]))
+  (item (ref :url "lettre_paillottet1850d.html" [28 juin 1850]))
+  (item (ref :url "lettre_paillottet1850e.html" [2 juillet 1850]))
+  (item (ref :url "lettre_paillottet1850f.html" [14 septembre 1850]))
+  (item (ref :url "lettre_paillottet1850g.html" [11 octobre 1850]))
+  (item (ref :url "lettre_paillottet1850h.html" [26 novembre 1850]))
+  (item (ref :url "lettre_paillottet1850i.html" [8 décembre 1850]))
+  ))

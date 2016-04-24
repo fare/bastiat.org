@@ -1,0 +1,21 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
+du 23 juin 1850")
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(date-tag[Eaux-Bonnes, 23 juin 1850])
+(p*[
+…Me voici à la prétendue source de la santé. Je fais les choses en conscience ; c’est vous dire que je travaille très peu. N’ayant pas envie de me mettre à continuer les ,(cite-title[Harmonies]), j’achève le pamphlet ,(cite-title[Ce qu’on voit et ce qu’on ne voit pas]), et je serai probablement en mesure de vous l’envoyer d’ici à quelques jours.
+][
+Je vous remercie de l’article que vous avez inséré dans l’,(cite-title[Ordre]). Il vient d’être reproduit dans les journaux de mon département. C’est probablement tout ce qu’on y saura jamais de mon livre.
+][
+Un autre compte rendu a paru dans le ,(cite-title[Journal des Economistes]). Je ne puis comprendre comment M. Clément a jugé à propos de critiquer mon chapitre ,(emph[futur]) sur la Population. Ce qui a paru offre bien assez de prise, sans aller s’en prendre d’avance à ce qui n’a pas paru. J’ai annoncé, il est vrai, que j’essayerai de démontrer cette thèse : La densité de la population équivaut à une facilité croissante de production. — Il faudra bien que M. Clément en convienne, ou qu’il nie la vertu de l’échange et de la division du travail.
+][
+La critique qu’il fait du chapitre ,(cite-title[Propriété foncière]) me fait penser qu’il serait peut-être utile de réimprimer en brochure les quatre ou cinq articles qui ont paru dans les ,(cite-title[Débats]) sous le titre de ,(cite-title[Propriété et Spoliation]). Ce sera d’ailleurs un anneau de notre propagande, nécessaire à ceux qui n’ont pas la patience de lire les ,(cite-title[Harmonies]).
+][
+Ne m’oubliez pas auprès de MM. Quijano et de Fontenay.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 436-444. ,(XXX)
+])))

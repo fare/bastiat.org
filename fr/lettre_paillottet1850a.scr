@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
+du 19 mai 1850")
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(date-tag[Mugron, 19 mai 1850])
+(p*[
+Mon cher Paillottet, je vous remercie de l’intérêt que vous prenez à ma santé et à mon voyage. Celui-ci s’est fait très heureusement et plus régulièrement que vous ne l’aviez prévu. Il n’y a pas eu de malentendu entre ma place et moi. En route, de Tours à Bordeaux, j’ai rencontré de fervents adeptes de l’économie politique, ce qui m’a fait plaisir, mais m’a forcé de parler un peu trop. À Bordeaux, je n’ai pu éviter quelque chose de pis que la simple causerie, car la réaction y est arrivée à un tel excès qu’il faudrait être de marbre pour écouter froidement ses blasphèmes. — Tout cela fait que mon larynx est arrivé ici un peu fatigué, et les épanchements de l’amitié, quelque délicieux qu’ils soient, ne sont pas propres à le délasser. Pourtant, considérant les choses en gros, je me trouve un peu mieux ; j’ai plus de force de corps et de tête. Voilà certes un long bulletin de ma santé ; votre amitié me l’a demandé, prenez-vous-en à elle.
+][
+Je reçus hier le ,(cite-title[Journal des économistes]), en même temps que votre lettre ; j’ai lu mon article. Je ne sais comment vous vous y êtes pris, mais il m’a été impossible d’y reconnaître les ,(emph[reprises]), tant elles se confondent avec le tissu. L’idée dominante de cet article n’y est peut-être pas mise assez en saillie. Malgré cela, elle devrait frapper les bons esprits ; et si j’avais été à Paris, j’aurais fait tirer à part 500 copies pour les distribuer à l’Assemblée. L’article n’étant pas long, il me semble que la ,(cite-title[Voix du peuple]) devrait le reproduire dans un de ses ,(emph[lundis]). Si vous en entendez parler, faites-moi savoir ce qu’on en dit.
+][
+…Vous voilà chargé de mes affaires publiques et privées. En tout cas, n’y consacrez, je vous prie, que vos moments perdus. Vous voudriez beaucoup faire une renommée à mes pauvres ,(cite-title[Harmonies]). Cela vous sera difficile. Le temps seul y réussira, si elles valent la peine que le temps s’occupe d’elles. — J’ai obtenu tout ce que je pouvais raisonnablement désirer, savoir : que quelques jeunes hommes de bonne volonté étudient le livre. Cela suffit pour qu’il ne tombe pas, s’il mérite de se tenir debout. M. de Fontenay aura beaucoup fait pour moi, s’il réussit à obtenir l’insertion d’un compte rendu dans la ,(cite-title[Revue des deux mondes]). Il fera plus encore à l’avenir par les développements qu’il saura donner à l’idée principale. C’est tout un continent à défricher. Je ne suis qu’un pionnier, commençant avec des instruments fort imparfaits. La culture perfectionnée viendra plus tard, et je ne saurais trop encourager de Fontenay à s’y préparer. En attendant, tâchez, par notre ami Michel Chevalier, de nous rendre M. Buloz favorable.
+][
+J’oublie probablement bien des choses, mais cela se retrouvera ; car j’espère que vous voudrez bien m’écrire le plus souvent possible, et quant à moi, je vous donnerai souvent de mon écriture à débrouiller.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 436-444. ,(XXX)
+])))

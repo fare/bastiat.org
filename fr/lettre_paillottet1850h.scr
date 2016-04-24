@@ -1,0 +1,23 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
+du 26 novembre 1850")
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(date-tag[Rome, 26 novembre 1850])
+(p*[
+Mon cher Paillottet, chaque fois que je reçois une lettre de Paris, il me semble que mes correspondants sont des ,(emph[Toinette]), et que je suis un ,(emph[Argan]).
+][
+« La coquine a soutenu pendant une heure durant que je n’étais pas malade ! vous savez, m’amour, ce qui en est. »
+][
+Vous prenez bien tous un intérêt amical à mon mal ; mais vous me traitez ensuite en homme bien portant. Vous me préparez des occupations, vous me demandez mon avis sur plusieurs sujets graves, puis vous me dites de ne vous écrire que quelques lignes. Je voudrais bien que vous eussiez mis dans votre lettre le secret, en même temps que le conseil, de tout dire en quelques mots. Comment puis-je vous parler des ,(cite-title[Incompatibilités parlementaires]), des corrections à y apporter, des raisons qui me font penser que ce sujet ne peut être accolé, ni pour le fond ni pour la forme, avec le discours sur l’impôt des boissons, — le tout en une ligne ? Et puis il faut bien que je dise quelque chose de Carey, puisque vous m’envoyez ses épreuves en Toscane ; — des ,(cite-title[Harmonies]), puisque vous m’annoncez que l’édition est épuisée.
+][
+Dans votre bonne lettre, que je reçois aujourd’hui, vous manifestez la crainte qu’à la vue de Rome, l’enthousiasme ne me saisisse et ne nuise à ma guérison en ébranlant mes nerfs. Vous me placez toujours là dans l’hypothèse d’un homme bien portant. Figurez-vous, mon ami, qu’il y a deux raisons, aussi fortes l’une que l’autre, pour que les monuments de Rome ne fassent pas éclater en moi un enthousiasme dangereux. La première, c’est que je ne vois aucun de ces monuments, étant à peu près confiné dans ma chambre au milieu des cendres et des cafetières ; la seconde, c’est que la source de l’enthousiasme est en moi complétement tarie, toutes les forces de mon attention et de mon imagination se portant sur les moyens d’avaler un peu de nourriture ou de boisson, et d’accrocher un peu de sommeil entre deux quintes.
+][
+J’ai beau écrire à Florence, je suis sans aucune nouvelle des épreuves de Carey. Dieu sait quand elles m’arriveront.
+][
+Adieu ! je finis brusquement. J’aurais mille choses à vous dire pour M. et ,(Mme) Planat, pour M. de Fontenay, pour M. Manin. Bientôt, quand je serai mieux, je causerai plus longtemps avec vous. Maintenant c’est tout ce que j’ai pu faire que d’arriver à cette page.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome I, pp. 205-209. ,(XXX)
+])))

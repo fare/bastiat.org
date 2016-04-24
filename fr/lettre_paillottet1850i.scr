@@ -1,0 +1,29 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
+du 8 décembre 1850")
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(date-tag[Rome, 8 décembre 1850])
+(p*[
+Cher Paillottet, suis-je mieux ? Je ne puis le dire ; je me sens toujours plus faible. Mes amis croient que les forces me reviennent. Qui a raison ?
+][
+La famille Cheuvreux quitte Rome immédiatement, par suite de la maladie de madame Girard. Jugez de ma douleur. J’aime à croire qu’elle vient surtout de celle de ces bons amis ; mais assurément des motifs plus égoïstes y ont une grande part.
+][
+Par un hasard providentiel, hier j’écrivis à ma famille pour qu’on m’expédiât une espèce de Michel Morin, homme plein de gaieté et de ressources, cocher, cuisinier, etc., etc., qui m’a souvent servi et qui m’est entièrement dévoué. Dès qu’il sera ici, je serai maître de partir quand je voudrai pour la France. Car il faut que vous sachiez que le médecin et mes amis ont pris à ce sujet une délibération solennelle. Ils ont pensé que la nature de ma maladie me crée des difficultés si nombreuses, que tous les avantages du climat ne compensent pas les soins domestiques.
+][
+D’après ces dispositions, mon cher Paillottet, vous ne viendrez pas à Rome, gagner auprès de moi les œuvres de miséricorde. L’affection que vous m’avez vouée est telle que vous en serez contrarié, j’en suis sûr. Mais consolez-vous en pensant qu’à raison de la nature de ma maladie, vous auriez pu faire bien peu pour moi, si ce n’est de venir me tenir compagnie deux heures par jour, chose encore plus agréable que raisonnable. Je voudrais pouvoir vous donner à ce sujet des explications. Mais, bon Dieu ! des explications ! il faudrait beaucoup écrire, et je ne puis. Mon ami, sous des milliers de rapports j’éprouve le supplice de Tantale. En voici un nouvel exemple : je voudrais vous dire toute ma pensée, et je n’en ai pas la force…
+][
+Ce que vous et Guillaumin aurez fait pour les ,(cite-title[Incompatibilités]) sera bien fait.
+][
+Quant à l’affaire Carey, je vous avoue qu’elle me présente un peu de louche. D’un côté, Garnier annonce que le journal prend parti pour la ,(emph[propriété-monopole]). D’une autre part, Guillaumin m’apprend que M. Clément va intervenir dans la lutte. Si le ,(cite-title[Journal des Économistes]) veut me punir d’avoir traité avec indépendance une question scientifique, il est bien peu généreux de choisir le moment où je suis sur un grabat, privé de la faculté de lire, d’écrire, de penser, et cherchant à conserver au moins celle de manger, de boire et de dormir qui me quitte.
+][
+Pressentant que je ne pourrais accepter le combat, j’ai ajouté à ma réponse à Carey quelques considérations adressées au ,(cite-title[Journal des Économistes]). Vous me direz comment elles ont été reçues.
+][
+Fontenay ne sera-t-il donc jamais prêt à entrer en lice ? Il doit comprendre combien son assistance me serait nécessaire. Garnier dit : Nous avons pour nous Smith, Ricardo, Malthus, J. B. Say, Rossi et tous les économistes, ,(emph[moins Carey et Bastiat]). J’espère bien que la foi dans la légitimité de la propriété foncière trouvera bientôt d’autres défenseurs, et je compte surtout sur Fontenay.
+][
+Je vous prie d’écrire à Michel Chevalier, de lui dire combien je suis reconnaissant de son excellent article sur mon livre. Il n’a d’autre défaut que d’être trop bienveillant et de laisser trop peu de place à la critique. Dites à Chevalier que je n’attends qu’un peu de force pour lui adresser moi-même l’expression de mes vifs sentiments de gratitude. Je fais des vœux sincères pour qu’il hérite du fauteuil de M. Droz ; ce ne sera que tardive justice.
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 436-444. ,(XXX)
+])))

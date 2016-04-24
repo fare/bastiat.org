@@ -1,0 +1,17 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
+du 14 septembre 1850")
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(date-tag[Lyon, 14 septembre 1850])
+(p*[
+Je ne veux pas me lancer dans la seconde moitié de mon voyage, sans vous dire que tout s’est assez bien passé jusqu’ici. Je n’ai été un peu éprouvé que dans le trajet de Tonnerre à Dijon ; mais cela était presque inévitable. Je crois que le mieux eût été de sacrifier une nuit et de prendre le courrier. C’est toujours le meilleur système. Coucher en route vous assujettit à prendre des pataches, des coucous, à être jeté sur l’impériale au milieu d’hommes ivres, etc. ; et vous arrivez dans un mauvais cabaret pour recommencer le lendemain.
+][
+Je ne vous ai pas dit, mon ami, combien j’ai été sensible à l’idée qui vous a un moment traversé l’esprit de m’accompagner jusqu’en Italie. Je vous suis tout aussi reconnaissant que si vous eussiez exécuté ce projet. Mais je ne l’aurais pas souffert. C’eût été priver madame Paillottet de l’occasion de voir un jour ce beau pays, ou du moins c’eût été diminuer ses chances. D’ailleurs, ne pouvant pas causer, tout le charme de voyager ensemble eût été perdu. Ou nous aurions souvent violé la consigne, ce qui nous eût causé des remords ; ou nous l’aurions observée, et ce n’eût pas été sans une lutte pénible et perpétuelle. Quoiqu’il en soit, je vous remercie du fond du cœur ; et si madame Paillottet en a le courage, venez me chercher ce printemps, quand je ne serai plus muet.
+][
+Rappelez à de Fontenay mon conseil, je dis plus, ma pressante invitation de faire imprimer son ,(cite-title[Capital]).
+])
+(with-footer (p*[
+Extrait de l',(EO1854), tome VII, pp. 436-444. ,(XXX)
+])))
