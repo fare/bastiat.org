@@ -1,0 +1,303 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "L’utopiste, par Frédéric Bastiat")
+
+(document :title "L’utopiste"
+	:author (author-FB)
+(subtitle[Chapitre XI de la seconde série des ,(SophismesEconomiques)])
+(date-tag[,(cite-title[Libre-Échange]), n° du 17 janvier 1847.])
+(p*[
+— Si j’étais ministre de Sa Majesté !…
+][
+— Eh bien, que feriez-vous ?
+][
+— Je commencerais par… par…, ma foi, par être fort embarrassé. Car enfin, je ne serais ministre que parce que j’aurais la majorité ; je n’aurais la majorité que parce que je me la serais faite ; je ne me la serais faite, honnêtement du moins, qu’en gouvernant selon ses idées… Donc, si j’entreprenais de faire prévaloir les miennes en contrariant les siennes, je n’aurais plus la majorité, et si je n’avais pas la majorité, je ne serais pas ministre de Sa Majesté.
+][
+— Je suppose que vous le soyez et que par conséquent la majorité ne soit pas pour vous un obstacle ; que feriez-vous ?
+][
+— Je rechercherais de quel côté est le ,(emph[juste]).
+][
+— Et ensuite ?
+][
+— Je chercherais de quel côté est l’,(emph[utile]).
+][
+— Et puis ?
+][
+— Je chercherais s’ils s’accordent ou se gourment entre eux.
+][
+— Et si vous trouviez qu’ils ne s’accordent pas ?
+][
+— Je dirais au roi Philippe :
+][
+,(verses
+[Reprenez votre portefeuille.]
+[La rime n’est pas riche et le style en est vieux ;]
+[Mais ne voyez-vous pas que cela vaut bien mieux]
+[Que ces ,(emph[transactions]) dont le bon sens murmure,]
+[Et que l’,(emph[honnêteté]) parle là toute pure ?])
+][
+— Mais si vous reconnaissez que le ,(emph[juste]) et l’,(emph[utile]) c’est tout un ?
+][
+— Alors, j’irai droit en avant.
+][
+— Fort bien. Mais pour réaliser l’utilité par la justice, il faut une troisième chose.
+][
+— Laquelle ?
+][
+— La possibilité.
+][
+— Vous me l’avez accordée.
+][
+— Quand ?
+][
+— Tout à l’heure.
+][
+— Comment ?
+][
+— En me concédant la majorité.
+][
+— Il me semblait aussi que la concession était fort hasardée, car enfin elle implique que la majorité voit clairement ce qui est juste, voit clairement ce qui est utile, et voit clairement qu’ils sont en parfaite harmonie.
+][
+— Et si elle voyait clairement tout cela, le bien se ferait, pour ainsi dire, tout seul.
+][
+— Voilà où vous m’amenez constamment : à ne voir de réforme possible que par le progrès de la raison générale.
+][
+— Comme à voir, par ce progrès, toute réforme infaillible.
+][
+— A merveille. Mais ce progrès préalable est lui-même un peu long. Supposons-le accompli. Que feriez-vous ? car je suis pressé de vous voir à l’œuvre, à l’exécution, à la pratique.
+][
+— D’abord, je réduirais la taxe des lettres à 10 centimes.
+][
+— Je vous avais entendu parler de 5 centimes,(footnote*[L’auteur avait dit en effet 5 centimes, en mai 1846, dans un article du ,(cite-title[Journal des économistes]), qui est devenu le chap. XII de la seconde série des ,(cite-title[Sophismes]).]).
+][
+— Oui ; mais comme j’ai d’autres réformes en vue, je dois procéder avec prudence pour éviter le déficit.
+][
+— Tudieu ! quelle prudence ! Vous voilà déjà en déficit de 30 millions.
+][
+— Ensuite, je réduirais l’impôt du sel à 10 fr.
+][
+— Bon ! vous voilà en déficit de 30 autres millions. Vous avez sans doute inventé un nouvel impôt ?
+][
+— Le ciel m’en préserve ! D’ailleurs, je ne me flatte pas d’avoir l’esprit si inventif.
+][
+— Il faut pourtant bien… ah ! j’y suis. Où avais-je la tête ? Vous allez simplement diminuer la dépense. Je n’y pensais pas.
+][
+— Vous n’êtes pas le seul. — J’y arriverai, mais, pour le moment, ce n’est pas sur quoi je compte.
+][
+— Oui-dà ! vous diminuez la recette sans diminuer la dépense, et vous évitez le déficit ?
+][
+— Oui, en diminuant en même temps d’autres taxes.
+][
+(Ici l’interlocuteur, posant l’index de la main droite sur son sinciput, hoche la tête, ce qui peut se traduire ainsi : il bat la campagne.)
+][
+— Par ma foi ! le procédé est ingénieux. Je verse 100 francs au trésor, vous me dégrevez de 5 francs sur le sel, de 5 francs sur la poste ; et pour que le trésor n’en reçoive pas moins 100 francs, vous me dégrevez de 10 francs sur quelque autre taxe ?
+][
+— Touchez là ; vous m’avez compris.
+][
+— Du diable si c’est vrai ! Je ne suis pas même sûr de vous avoir entendu.
+][
+— Je répète que je balance un dégrèvement par un autre.
+][
+— Morbleu ! j’ai quelques instants à perdre : autant vaut que je vous écoute développer ce paradoxe.
+][
+— Voici tout le mystère : je sais une taxe qui vous coûte 20 francs et dont il ne rentre pas une obole au trésor ; je vous fais remise de moitié et fais prendre à l’autre moitié le chemin de l’hôtel de la rue de Rivoli.
+][
+— Vraiment ! vous êtes un financier sans pareil. Il n’y a qu’une difficulté. En quoi est-ce, s’il vous plaît, que je paie une taxe qui ne va pas au trésor ?
+][
+— Combien vous coûte cet habit ?
+][
+— 100 francs.
+][
+— Et si vous eussiez fait venir le drap de Verviers, combien vous coûterait-il ?
+][
+— 80 francs.
+][
+— Pourquoi donc ne l’avez-vous pas demandé à Verviers ?
+][
+— Parce que cela est défendu.
+][
+— Et pourquoi cela est-il défendu ?
+][
+— Pour que l’habit me revienne à 100 francs au lieu de 80.
+][
+— Cette défense vous coûtera donc 20 francs ?
+][
+— Sans aucun doute.
+][
+— Et où passent-ils, ces 20 francs ?
+][
+— Et où passeraient-ils ? Chez le fabricant de drap.
+][
+— Eh bien ! donnez-moi 10 francs pour le trésor, je ferai lever la défense, et vous gagnerez encore 10 francs.
+][
+— Oh ! oh ! je commence à y voir clair. Voici le compte du trésor : il perd 5 francs sur la poste, 5 sur le sel, et gagne 10 francs sur le drap. Partant quitte.
+][
+— Et voici votre compte à vous : vous gagnez 5 francs sur le sel, 5 francs sur la poste et 10 francs sur le drap.
+][
+— Total, 20 francs. Ce plan me sourit assez. Mais que deviendra le pauvre fabricant de draps ?
+][
+— Oh ! j’ai pensé à lui. Je lui ménage des compensations, toujours au moyen de dégrèvements profitables au trésor ; et ce que j’ai fait pour vous à l’occasion du drap, je le fais pour lui à l’égard de la laine, de la houille, des machines, etc. ; en sorte qu’il pourra baisser son prix sans perdre.
+][
+— Mais êtes-vous sûr qu’il y aura balance ?
+][
+— Elle penchera de son côté. Les 20 francs que je vous fais gagner sur le drap, s’augmenteront de ceux que je vous économiserai encore sur le blé, la viande, le combustible, etc. Cela montera haut ; et une épargne semblable sera réalisée par chacun de vos trente-cinq millions de concitoyens. Il y a là de quoi épuiser les draps de Verviers et ceux d’Elbeuf. La nation sera mieux vêtue, voilà tout.
+][
+— J’y réfléchirai ; car tout cela se brouille un peu dans ma tête.
+][
+— Après tout, en fait de vêtements, l’essentiel est d’être vêtu. Vos membres sont votre propriété et non celle du fabricant. Les mettre à l’abri de grelotter est votre affaire, et non la sienne ! Si la loi prend parti pour lui contre vous, la loi est injuste, et vous m’avez autorisé à raisonner dans l’hypothèse que ce qui est injuste est nuisible.
+][
+— Peut-être me suis-je trop avancé ; mais poursuivez l’exposé de votre plan financier.
+][
+— Je ferai donc une loi de douanes.
+][
+— En deux volumes in-folio ?
+][
+— Non, en deux articles.
+][
+— Pour le coup, on ne dira plus que ce fameux axiome : « Nul n’est censé ignorer la loi, » est une fiction. Voyons donc votre tarif.
+][
+— Le voici :
+][
+Art. ,(1er). Toute marchandise importée paiera une taxe de 5 p. 100 de la valeur.
+][
+— Même les ,(emph[matières premières ?])
+][
+— A moins qu’elles n’aient point de ,(emph[valeur]).
+][
+— Mais elles en ont toutes, peu ou ,(emph[prou]).
+][
+— En ce cas, elles paieront peu ou ,(emph[prou]).
+][
+— Comment voulez-vous que nos fabriques luttent avec les fabriques étrangères qui ont les ,(emph[matières premières]) en franchise ?
+][
+— Les dépenses de l’État étant données, si nous fermons cette source de revenus, il en faudra ouvrir une autre : cela ne diminuera pas l’infériorité relative de nos fabriques, et il y aura une administration de plus à créer et à payer.
+][
+— Il est vrai ; je raisonnais comme s’il s’agissait d’annuler la taxe et non de la déplacer. J’y réfléchirai. Voyons votre second article…
+][
+— Art. 2. Toute marchandise exportée paiera une taxe de 5 p. % de la valeur.
+][
+— Miséricorde ! monsieur l’utopiste. Vous allez vous faire lapider, et au besoin je jetterai la première pierre.
+][
+— Nous avons admis que la majorité est éclairée.
+][
+— Éclairée ! soutiendrez-vous qu’un ,(emph[droit de sortie]) ne soit pas onéreux ?
+][
+— Toute taxe est onéreuse, mais celle-ci moins qu’une autre.
+][
+— Le carnaval justifie bien des excentricités. Donnez-vous le plaisir de rendre spécieux, si cela est possible, ce nouveau paradoxe.
+][
+— Combien avez-vous payé ce vin ?
+][
+— Un franc le litre.
+][
+— Combien l’auriez-vous payé hors barrière ?
+][
+— Cinquante centimes.
+][
+— Pourquoi cette différence ?
+][
+— Demandez-le à l’octroi qui a prélevé dix sous dessus.
+][
+— Et qui a établi l’octroi ?
+][
+— La commune de Paris, afin de paver et d’éclairer les rues.
+][
+— C’est donc un droit d’importation. Mais si c’étaient les communes limitrophes qui eussent érigé l’octroi à leur profit, qu’arriverait-il ?
+][
+— Je n’en paierais pas moins 1 fr. mon vin de 50 c., et les autres 50 c. paveraient et éclaireraient Montmartre et les Batignoles.
+][
+— En sorte qu’en définitive c’est le consommateur qui paie la taxe ?
+][
+— Cela est hors de doute.
+][
+— Donc, en mettant un droit à l’exportation, vous faites contribuer l’étranger à vos dépenses.
+][
+— Je vous prends en faute, ce n’est plus de la ,(emph[justice]).
+][
+— Pourquoi pas ? Pour qu’un produit se fasse, il faut qu’il y ait dans le pays de l’instruction, de la sécurité, des routes, des choses qui coûtent. Pourquoi l’étranger ne supporterait-il pas les charges occasionnées par ce produit, lui qui, en définitive, va le consommer ?
+][
+— Cela est contraire aux idées reçues.
+][
+— Pas le moins du monde. Le dernier acheteur doit rembourser tous les frais de production directs ou indirects.
+][
+— Vous avez beau dire, il saute aux yeux qu’une telle mesure paralyserait le commerce et nous fermerait des débouchés.
+][
+— C’est une illusion. Si vous payiez cette taxe en sus de toutes les autres, vous avez raison. Mais si les 100 millions prélevés par cette voie dégrèvent d’autant d’autres impôts, vous reparaissez sur les marchés du dehors avec tous vos avantages, et même avec plus d’avantages, si cet impôt a moins occasionné d’embarras et de dépenses.
+][
+— J’y réfléchirai. — Ainsi, voilà le sel, la poste et la douane réglés. Tout est-il fini là ?
+][
+— A peine je commence.
+][
+— De grâce, initiez-moi à vos autres utopies.
+][
+— J’avais perdu 60 millions sur le sel et la poste. La douane me les fait retrouver ; mais elle me donne quelque chose de plus précieux.
+][
+— Et quoi donc, s’il vous plaît ?
+][
+— Des rapports internationaux fondés sur la justice, et une probabilité de paix qui équivaut à une certitude. Je congédie l’armée.
+][
+— L’armée tout entière ?
+][
+— Excepté les armes spéciales, qui se recruteront volontairement comme toutes les autres professions. Vous le voyez, la conscription est abolie.
+][
+— Monsieur, il faut dire le recrutement.
+][
+— Ah ! j’oubliais. J’admire comme il est aisé, en certains pays, de perpétuer les choses les plus impopulaires en leur donnant un autre nom.
+][
+— C’est comme les ,(emph[droits réunis]), qui sont devenus des ,(emph[contributions indirectes]).
+][
+— Et les ,(emph[gendarmes]) qui ont pris nom ,(emph[gardes municipaux]).
+][
+— Bref, vous désarmez le pays sur la foi d’une utopie.
+][
+— J’ai dit que je licenciais l’armée et non que je désarmais le pays. J’entends lui donner au contraire une force invincible.
+][
+— Comment arrangez-vous cet amas de contradictions ?
+][
+— J’appelle tous les citoyens au service.
+][
+— Il valait bien la peine d’en dispenser quelques-uns pour y appeler tout le monde.
+][
+— Vous ne m’avez pas fait ministre pour laisser les choses comme elles sont. Aussi, à mon avènement au pouvoir, je dirai comme Richelieu : « Les maximes de l’État sont changées. » Et ma première maxime, celle qui servira de base à mon administration, c’est celle-ci : Tout citoyen doit savoir deux choses : pourvoir à son existence et défendre son pays.
+][
+— Il me semble bien, au premier abord, qu’il y a quelque étincelle de bon sens là-dessous.
+][
+— En conséquence, je fonde la défense nationale sur une loi en deux articles :
+][
+Art. ,(1er). Tout citoyen valide, sans exception, restera sous les drapeaux pendant quatre années, de 21 à 25 ans, pour y recevoir l’instruction militaire.
+][
+— Voilà une belle économie ! vous congédiez 400 000 soldats et vous en faites 10 millions.
+][
+— Attendez mon second article.
+][
+Art. 2. A moins qu’il ne prouve, à 21 ans, savoir parfaitement l’école de peloton.
+][
+— Je ne m’attendais pas à cette chute. Il est certain que pour éviter quatre ans de service, il y aurait une terrible émulation, dans notre jeunesse, à apprendre le ,(emph[par le flanc droit]) et la ,(emph[charge en douze temps]). L’idée est bizarre.
+][
+— Elle est mieux que cela. Car enfin, sans jeter la douleur dans les familles, et sans froisser l’égalité, n’assure-t-elle pas au pays, d’une manière simple et peu dispendieuse, 10 millions de défenseurs capables de défier la coalition de toutes les armées permanentes du globe ?
+][
+— Vraiment, si je n’étais sur mes gardes, je finirais par m’intéresser à vos fantaisies.
+][
+,(emph[L’utopiste s’échauffant :]) Grâce au ciel, voilà mon budget soulagé de 200 millions ! Je supprime l’octroi, je refonds les contributions indirectes, je…
+][
+— Eh ! monsieur l’utopiste !
+][
+,(emph[L’utopiste s’échauffant de plus en plus :]) Je proclame la liberté des cultes, la liberté d’enseignement. Nouvelles ressources. J’achète les chemins de fer, je rembourse la dette, j’affame l’agiotage.
+][
+— Monsieur l’utopiste !
+][
+— Débarrassé de soins trop nombreux, je concentre toutes les forces du gouvernement à réprimer la fraude, distribuer à tous prompte et bonne justice, je…
+][
+— Monsieur l’utopiste, vous entreprenez trop de choses, la nation ne vous suivra pas !
+][
+— Vous m’avez donné la majorité.
+][
+— Je vous la retire.
+][
+— A la bonne heure ! alors je ne suis plus ministre, et mes plans restent ce qu’ils sont, des ,(strong[utopies]).
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome IV,
+,(cite-title[L’utopiste]),
+pp. 204-212.
+])))

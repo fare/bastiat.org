@@ -1,0 +1,367 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Le sel, la poste et la douane, par Frédéric Bastiat")
+
+(document :title "Le sel, la poste et la douane"
+	:author (author-FB)
+(subtitle[Chapitre XII de la seconde série des ,(SophismesEconomiques)])
+(date-tag[,(cite-title[Journal des Économistes]), n° de mai 1846.])
+(p*[
+On s’attendait, il y a quelques jours, à voir le mécanisme représentatif enfanter un produit tout nouveau et que ses rouages n’étaient pas encore parvenus à élaborer : ,(emph[le soulagement du contribuable]).
+][
+Chacun était attentif : l’expérience était intéressante autant que nouvelle. Les forces aspirantes de cette machine ne donnent d’inquiétude à personne. Elle fonctionne, sous ce rapport, d’une manière admirable, quels que soient le temps, le lieu, la saison et la circonstance.
+][
+Mais, quant aux réformes qui tendent à simplifier, égaliser et alléger les charges publiques, nul ne sait encore ce qu’elle peut faire.
+][
+On disait : Vous allez voir : voici le moment ; c’est l’œuvre des ,(emph[quatrièmes sessions]), alors que la popularité est bonne à quelque chose. 1842 nous valut les chemins de fer ; 1846 va nous donner l’abaissement de la taxe du sel et des lettres ; 1850 nous réserve le remaniement des tarifs et des contributions indirectes. La quatrième session, c’est le ,(emph[jubilé]) du contribuable.
+][
+Chacun était donc plein d’espoir, et tout semblait favoriser l’expérience. Le ,(cite-title[Moniteur]) avait annoncé que de trimestre en trimestre, les sources du revenu vont toujours grossissant ; et quel meilleur usage pouvait-on faire de ces rentrées inattendues, que de permettre au villageois un grain de sel de plus pour son eau tiède, une lettre de plus du champ de bataille où se joue la vie de son fils ?
+][
+Mais qu’est-il arrivé ? Comme ces deux matières sucrées qui, dit-on, s’empêchent réciproquement de cristalliser ; ou comme ces deux chiens dont la lutte fut si acharnée qu’il n’en resta que les deux queues, les deux réformes se sont entre-dévorées. Il ne nous en reste que les queues, c’est-à-dire force projets de lois, exposés des motifs, rapports, statistiques et annexes, où nous avons la consolation de voir nos souffrances philanthropiquement appréciées et homéopathiquement calculées. — Quant aux réformes elles-mêmes, elles n’ont pas cristallisé, il ne sort rien du creuset, et l’expérience a failli.
+][
+Bientôt les chimistes se présenteront devant le jury pour expliquer cette déconvenue, et ils diront,
+][
+L’un : « J’avais ,(emph[proposé]) la réforme postale ; mais la Chambre a voulu dégrever le sel, et j’ai dû la retirer. »
+][
+L’autre : « J’avais ,(emph[voté]) le dégrèvement du sel ; mais le ministère a proposé la réforme postale, et le vote n’a pas abouti. »
+][
+Et le jury, trouvant la raison excellente, recommencera l’épreuve sur les mêmes données, et renverra à l’œuvre les mêmes chimistes.
+][
+Ceci nous prouve qu’il pourrait bien y avoir quelque chose de raisonnable, malgré la source, dans la pratique qui s’est introduite depuis un demi-siècle de l’autre côté du détroit, et qui consiste, pour le public, à ne poursuivre qu’une réforme à la fois. C’est long, c’est ennuyeux ; mais ça mène à quelque chose.
+][
+Nous avons une douzaine de réformes sur le chantier ; elles se pressent comme les ombres à la porte de l’oubli, et pas une entre.
+,(verses[Ohimè ! che lasso !]
+[Una a la volta, per carità.])
+][
+C’est ce que disait ,(emph[Jacques Bonhomme]) dans un dialogue avec ,(emph[John Bull]) sur la ,(emph[réforme postale]). Il vaut la peine d’être rapporté.
+][
+,(subtitle[JACQUES BONHOMME, JOHN BULL.])
+][
+,(strong[Jacques Bonhomme.]) Oh ! qui me délivrera de cet ouragan de réformes ! J’en ai la tête fendue. Je crois qu’on en invente tous les jours : réforme universitaire, financière, sanitaire, parlementaire ; réforme électorale, réforme commerciale, réforme sociale, et voici venir la réforme ,(emph[postale !])
+][
+,(strong[John Bull.]) Pour celle-ci, elle est si facile à faire et si utile, comme nous l’éprouvons chez nous, que je me hasarde à vous la conseiller.
+][
+,(strong[Jacques.]) On dit pourtant que ça a mal tourné en Angleterre, et que votre Échiquier y a laissé dix millions.
+][
+,(strong[John.]) Qui en ont enfanté cent dans le public.
+][
+,(strong[Jacques.]) Cela est-il bien certain ?
+][
+,(strong[John.]) Voyez tous les signes par lesquels se manifeste la satisfaction publique. Voyez la nation, Peel et Russel en tête, donner à M. Rowland-Hill, à la façon britannique, des témoignages substantiels de gratitude. Voyez le pauvre peuple ne faire circuler ses lettres qu’après y avoir déposé l’empreinte de ses sentiments au moyen de pains à cacheter qui portent cette devise : ,(emph[A la réforme postale, le peuple reconnaissant.]) Voyez les chefs de la ligue déclarer en plein parlement que, sans elle, il leur eût fallu trente ans pour accomplir leur grande entreprise, pour affranchir la nourriture du pauvre. Voyez les officiers du ,(inenglish[Board of trade]) déclarer qu’il est fâcheux que la monnaie anglaise ne se prête pas à une réduction plus radicale encore du port des lettres ! Quelles preuves vous faut-il de plus ?
+][
+,(strong[Jacques.]) Oui, mais le Trésor ?
+][
+,(strong[John.]) Est-ce que le Trésor et le public ne sont pas dans la même barque ?
+][
+,(strong[Jacques.]) Pas tout à fait.— Et puis, est-il bien certain que notre système postal ait besoin d’être réformé ?
+][
+,(strong[John.]) C’est là la question. Voyons un peu comment se passent les choses. Que deviennent les lettres qui sont mises à la poste ?
+][
+,(strong[Jacques.]) Oh ! c’est un mécanisme d’une simplicité admirable : le directeur ouvre la boîte à une certaine heure, et il en retire, je suppose, cent lettres.
+][
+,(strong[John.]) Et ensuite ?
+][
+,(strong[Jacques.]) Ensuite il les inspecte l’une après l’autre. Un tableau géographique sous les yeux, et une balance en main, il cherche à quelle catégorie chacune d’elles appartient sous le double rapport de la distance et du poids. Il n’y a que onze zones et autant de degrés de pesanteur.
+][
+,(strong[John.]) Cela fait bien 121 combinaisons pour chaque lettre.
+][
+,(strong[Jacques.]) Oui, et il faut doubler ce nombre, parce que la lettre peut appartenir ou ne pas appartenir au ,(emph[service rural]).
+][
+,(strong[John.]) C’est donc 24 200 recherches pour les cent lettres. — Que fait ensuite M. le directeur ?
+][
+,(strong[Jacques.]) Il inscrit le poids sur un coin et la taxe au beau milieu de l’adresse, sous la figure d’un hiéroglyphe convenu dans l’administration.
+][
+,(strong[John.]) Et ensuite ?
+][
+,(strong[Jacques.]) Il timbre ; il partage les lettres en dix paquets, selon les bureaux avec lesquels il correspond. Il additionne le total des taxes des dix paquets.
+][
+,(strong[John.]) Et ensuite ?
+][
+,(strong[Jacques.]) Ensuite il inscrit les dix sommes, en long, sur un registre et, en travers, sur un autre.
+][
+,(strong[John.]) Et ensuite ?
+][
+,(strong[Jacques.]) Ensuite il écrit une lettre à chacun des dix directeurs correspondants, pour l’informer de l’article de comptabilité qui le concerne.
+][
+,(strong[John.]) Et si les lettres sont affranchies ?
+][
+,(strong[Jacques.]) Oh ! alors j’avoue que le service se complique un peu. Il faut recevoir la lettre, la peser et mesurer, comme devant, toucher le payement et rendre monnaie ; choisir parmi trente timbres celui qui convient ; constater sur la lettre son numéro d’ordre, son poids et sa taxe ; transcrire l’adresse tout entière sur un premier registre, puis sur un second, puis sur un troisième, puis sur un bulletin détaché ; envelopper la lettre dans le bulletin, envoyer le tout bien ficelé au directeur correspondant, et relater chacune de ces circonstances dans une douzaine de colonnes choisies parmi cinquante qui bariolent les sommiers.
+][
+,(strong[John.]) Et tout cela pour 40 centimes !
+][
+,(strong[Jacques.]) Oui, en moyenne.
+][
+,(strong[John.]) Je vois qu’en effet le ,(emph[départ]) est assez simple. Voyons comment les choses se passent à l’,(emph[arrivée]).
+][
+,(strong[Jacques.]) Le directeur ouvre la dépêche.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il lit les dix avis de ses correspondants.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il compare le total accusé par chaque avis avec le total qui résulte de chacun des dix paquets de lettres.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il fait le total des totaux, et sait de quelle somme en bloc il rendra les facteurs responsables.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Après, tableau des distances et balance en main, il vérifie et rectifie la taxe de chaque lettre.
+John. Et après ?
+][
+,(strong[Jacques.]) Il inscrit de registre en registre, de colonne en colonne, selon d’innombrables occurrences, les ,(emph[plus trouvés]) et les ,(emph[moins trouvés]).
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il se met en correspondance avec les dix directeurs pour signaler des erreurs de 10 ou 20 centimes.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il remanie toutes les lettres reçues pour les donner aux facteurs.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Il fait le total des taxes que chaque facteur prend en charge.
+][
+,(strong[John.]) Et après ?
+][
+,(strong[Jacques.]) Le facteur vérifie ; on discute la signification des hiéroglyphes. Le facteur avance la somme, et il part.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Le facteur va chez le destinataire ; il frappe à la porte, un domestique descend. Il y a six lettres à cette adresse. On additionne les taxes, séparément d’abord, puis en commun. On en trouve pour 2 fr. 70 cent.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Le domestique va trouver son maître ; celui-ci procède à la vérification des hiéroglyphes. Il prend les 3 pour des 2, et les 9 pour des 4 ; il a des doutes sur les poids et les distances ; bref, il faut faire monter le facteur, et, en l’attendant, il cherche à deviner le signataire des lettres, pensant qu’il serait sage de les refuser.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Le facteur arrive et plaide la cause de l’administration. On discute, on examine, on pèse, on mesure ; enfin le destinataire reçoit cinq lettres et en ,(emph[rebute]) une.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Il ne s’agit plus que du payement. Le domestique va chez l’épicier chercher de la monnaie. Enfin, au bout de vingt minutes, le facteur est libre et il court recommencer de porte en porte la même cérémonie.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Il revient au bureau. Il compte et recompte avec le directeur. Il remet les lettres rebutées et se fait restituer ses avances. Il rend compte des objections des destinataires relativement aux poids et aux distances.
+][
+,(strong[John.]) ,(inenglish[Go on.])
+][
+,(strong[Jacques.]) Le directeur cherche les registres, les sommiers, les bulletins spéciaux, pour faire ses comptes de ,(emph[rebuts]).
+][
+,(strong[John.]) ,(inenglish[Go on, if you please.])
+][
+,(strong[Jacques.]) Et ma foi, je ne suis pas directeur. Nous arriverions ici aux comptes de dizaines, de vingtaines, de fin du mois ; aux moyens imaginés, non-seulement pour établir, mais pour contrôler une comptabilité si minutieuse portant sur 50 millions de francs, résultant de taxes moyennes de 43 centimes, et de 116 millions de lettres, chacune desquelles peut appartenir à 242 catégories.
+][
+,(strong[John.]) Voilà une simplicité très-compliquée. Certes, l’homme qui a résolu ce problème devait avoir cent fois plus de génie que votre M. Piron ou notre Rowland-Hill.
+][
+,(strong[Jacques.]) Mais vous, qui avez l’air de rire de notre système, expliquez-moi le vôtre.
+][
+,(strong[John.]) En Angleterre, le gouvernement fait vendre, dans tous les lieux où il le juge utile, des enveloppes et des bandes à un penny pièce.
+][
+,(strong[Jacques.]) Et après ?
+][
+,(strong[John.]) Vous écrivez, pliez votre lettre en quatre, la mettez dans une de ces enveloppes, la jetez ou l’envoyez à la poste.
+][
+,(strong[Jacques.]) Et après ?
+][
+,(strong[John.]) Après, tout est dit. Il n’y a ni poids, ni distance, ni ,(emph[plus trouvés]), ni ,(emph[moins trouvés]), ni ,(emph[rebuts]), ni bulletins, ni registres, ni sommiers, ni colonnes, ni comptabilité, ni contrôle, ni monnaie à donner et à recevoir, ni hiéroglyphes, ni discussions et interprétations, ni forcement en recette, etc., etc.
+][
+,(strong[Jacques.]) Vraiment, cela paraît simple. Mais ça ne l’est-il pas trop ? Un enfant comprendrait cela. C’est avec de pareilles réformes qu’on étouffe le génie des grands administrateurs. Pour moi, je tiens à la manière française. Et puis, votre ,(emph[taxe uniforme]) a le plus grand de tous les défauts. Elle est injuste.
+][
+,(strong[John.]) Pourquoi donc ?
+][
+,(strong[Jacques.]) Parce qu’il est injuste de faire payer autant pour une lettre qu’on porte au voisinage que pour celle qu’on porte à cent lieues.
+][
+,(strong[John.]) En tous cas, vous conviendrez que l’injustice est renfermée dans les limites d’un penny.
+][
+,(strong[Jacques.]) Qu’importe ? c’est toujours une injustice.
+][
+,(strong[John.]) Elle ne peut même jamais s’étendre qu’à un demi-penny, car l’autre moitié est afférente à des frais fixes pour toutes les lettres, quelle que soit la distance.
+][
+,(strong[Jacques.]) Penny ou demi-penny, il y a toujours là un principe d’injustice.
+][
+,(strong[John.]) Enfin cette injustice qui, au ,(inlatin[maximum]), ne peut aller qu’à un demi-penny dans un cas particulier, s’efface pour chaque citoyen dans l’ensemble de sa correspondance, puisque chacun écrit tantôt au loin, tantôt au voisinage.
+][
+,(strong[Jacques.]) Je n’en démords pas. L’injustice est atténuée à l’infini si vous voulez, elle est inappréciable, infinitésimale, homéopathique, mais elle existe.
+][
+,(strong[John.]) L’État vous fait-il payer plus cher le gramme de tabac que vous achetez à la rue de Clichy que celui qu’on vous ,(emph[débite]) au quai d’Orsay ?
+][
+,(strong[Jacques.]) Quel rapport y a-t-il entre les deux objets de comparaison ?
+][
+,(strong[John.]) C’est que, dans un cas comme dans l’autre, il a fallu faire les frais d’un transport. Il serait juste, mathématiquement, que chaque prise de tabac fût plus chère rue de Clichy qu’au quai d’Orsay de quelque millionième de centime.
+][
+,(strong[Jacques.]) C’est vrai, il ne faut vouloir que ce qui est possible.
+][
+,(strong[John.]) Ajoutez que votre système de poste n’est juste qu’en apparence. Deux maisons se trouvent côte à côte, mais l’une en dehors, l’autre en dedans de la zone. La première payera 10 centimes de plus que la seconde, juste autant que coûte en Angleterre le port entier de la lettre. Vous voyez bien que, malgré les apparences, l’injustice se commet chez vous sur une bien plus grande échelle.
+][
+,(strong[Jacques.]) Cela semble bien vrai. Mon objection ne vaut pas grand-chose, mais reste toujours la perte du revenu.
+][
+Ici, je cessai d’entendre les deux interlocuteurs. Il paraît cependant que Jacques Bonhomme fut entièrement converti ; car, quelques jours après, le rapport de M. de Vuitry ayant paru, il écrivit la lettre suivante à l’honorable législateur :
+][
+,(strong[J. Bonhomme à M. de Vuitry, député, rapporteur de la commission chargée d’examiner le projet de loi relatif à la taxe des lettres.])
+][
+« ,(strong[Monsieur]),
+][
+« Bien que je n’ignore pas l’extrême défaveur qu’on crée contre soi quand on se fait l’avocat d’une ,(emph[théorie absolue]), je ne crois pas devoir abandonner la cause de la ,(emph[taxe unique et réduite au simple remboursement du service rendu]).
+][
+« En m’adressant à vous, je vous fais beau jeu assurément. D’un côté, un cerveau brûlé, un réformateur de cabinet, qui parle de renverser tout un système brusquement, sans transition ; un rêveur qui n’a peut-être pas jeté les yeux sur cette montagne de lois, ordonnances, tableaux, annexes, statistiques qui accompagnent votre rapport ; et, pour tout dire en un mot, un ,(emph[théoricien !]) — De l’autre, un législateur grave, prudent, modéré, qui a pesé et comparé, qui ménage les intérêts divers, qui rejette tous les ,(emph[systèmes]), ou, ce qui revient au même, en compose un de ce qu’il emprunte à tous les autres : certes, l’issue de la lutte ne saurait être douteuse.
+][
+« Néanmoins, tant que la question est pendante, les convictions ont le droit de se produire. Je sais que la mienne est assez tranchée pour appeler sur les lèvres du lecteur le sourire de la raillerie, Tout ce que j’ose attendre de lui, c’est de me le prodiguer, s’il y a lieu, après et non avant d’avoir écouté mes raisons.
+][
+« Car enfin, moi aussi, je puis invoquer l’,(emph[expérience]). Un grand peuple en a fait l’épreuve. Comment la juge-t-il ? On ne nie pas qu’il ne soit habile en ces matières, et son jugement a quelque poids.
+][
+« Eh bien, il n’y a pas une voix en Angleterre qui ne bénisse la ,(emph[réforme postale]). J’en ai pour témoin la souscription ouverte en faveur de M. Rowland-Hill ; j’en ai pour témoin la manière originale dont le peuple, à ce que me disait John Bull, exprime sa reconnaissance ; j’en ai pour témoin cet aveu si souvent réitéré de la Ligue : « Jamais, sans le ,(inenglish[penny-postage]), nous n’aurions développé l’opinion publique qui renverse aujourd’hui le système protecteur. » J’en ai pour témoin ce que je lis dans un ouvrage émané d’une plume officielle :
+][
+,(blockquote*[« La taxe des lettres doit être réglée non dans un but de fiscalité, mais dans l’unique objet de couvrir la dépense. »])
+][
+« A quoi M. Mac-Gregor ajoute :
+][
+,(blockquote*[«Il est vrai que la taxe étant descendue au niveau de notre plus petite monnaie, il n’est pas possible de l’abaisser davantage, quoiqu’elle donne du revenu. Mais ce revenu, qui ira sans cesse grossissant, doit être consacré à améliorer le service et à développer notre système de paquebots sur toutes les mers. »])
+][
+« Ceci me conduit à examiner la pensée fondamentale de la commission, qui est, au contraire, que la taxe des lettres doit être pour l’État une source de revenus.
+][
+« Cette pensée domine tout votre rapport, et j’avoue que, sous l’empire de cette préoccupation, vous ne pouviez arriver à rien de grand, à rien de complet ; heureux si, en voulant concilier tous les systèmes, vous n’en avez pas combiné les inconvénients divers.
+][
+« La première question qui se présente est donc celle-ci : La correspondance entre les particuliers est-elle une bonne ,(emph[matière imposable ?])
+][
+« Je ne remonterai pas aux principes abstraits. Je ne ferai pas remarquer que la société n’étant que la communication des idées, l’objet de tout gouvernement doit être de favoriser et non de contrarier cette communication.
+][
+« J’examinerai les faits existants.
+][
+« La longueur totale des routes royales, départementales et vicinales est d’un million de kilomètres ; en supposant que chacun a coûté 100 000 francs, cela fait un capital de 100 milliards dépensé par l’État pour favoriser la locomotion des choses et des hommes.
+][
+« Or, je vous le demande, si un de vos honorables collègues proposait à la Chambre un projet de loi ainsi conçu :
+][
+,(blockquote*[« A partir du ,(1er) janvier 1847, l’État percevra sur tous les voyageurs une taxe calculée, non-seulement pour couvrir les dépenses des routes, mais encore pour faire rentrer dans ses caisses quatre ou cinq fois le montant de cette dépense… »])
+][
+« Ne trouveriez-vous pas cette proposition antisociale et monstrueuse ?
+][
+« Comment se fait-il que cette pensée de ,(emph[bénéfice]), que dis-je ? de simple ,(emph[rémunération]), ne se soit jamais présentée à l’esprit, quand il s’est agi de la circulation des choses, et qu’elle vous paraisse si naturelle, quand il est question de la circulation des idées ?
+][
+« J’ose dire que cela tient à l’habitude. S’il était question de créer la poste, à coup sûr il paraîtrait monstrueux de l’établir sur le ,(emph[principe fiscal]).
+][
+« Et veuillez remarquer qu’ici l’oppression est mieux caractérisée.
+][
+« Quand l’État a ouvert une route, il ne force personne à s’en servir. (Il le ferait sans doute si l’usage de la route était taxé.) Mais quand la poste royale existe, nul n’a plus la faculté d’écrire par une autre voie, fût-ce à sa mère.
+][
+« Donc, en principe, la taxe des lettres devrait être ,(emph[rémunératoire]), et, par ce motif, ,(emph[uniforme]).
+][
+« Que si l’on part de cette idée, comment ne pas être émerveillé de la facilité, de la beauté, de la simplicité de la réforme ?
+][
+« La voici tout entière, et, sauf rédaction, formulée en projet de loi :
+][
+,(blockquote*[«Art. ,(1er). A partir du ,(1er) janvier 1847, il sera exposé en vente, partout où l’administration le jugera utile, des ,(emph[enveloppes]) et des ,(emph[bandes timbrées]) au prix de cinq (ou dix) centimes.]
+[« 2. Toute lettre mise dans une de ces enveloppes et ne dépassant pas le poids de 15 grammes, tout ,(emph[journal]) ou ,(emph[imprimé]) mis sous une de ces bandes et ne dépassant pas … grammes, sera porté et remis, sans frais, à son adresse.]
+[« 3. La comptabilité de la poste est entièrement supprimée.]
+[« 4. Toute criminalité et pénalité en matière de ports de lettres sont abolies. »])
+][
+« Cela est bien simple, je l’avoue, beaucoup trop simple, et je m’attends à une nuée d’objections.
+][
+« Mais, à supposer que ce système ait des inconvénients, ce n’est pas la question ; il s’agit de savoir si le vôtre n’en a pas de plus grands encore.
+][
+« Et de bonne foi, peut-il, sous quelque aspect que ce soit (sauf le revenu), supporter un instant la comparaison ?
+][
+« Examinez-les tous les deux ; comparez-les sous les rapports de la facilité, de la commodité, de la célérité, de la simplicité, de l’ordre, de l’économie, de la justice, de l’égalité, de la multiplication des affaires, de la satisfaction des sentiments, du développement intellectuel et moral, de la puissance civilisatrice, et dites, la main sur la conscience, s’il est possible d’hésiter un moment.
+][
+« Je me garderai bien de développer chacune de ces considérations. Je vous donne les ,(emph[en-têtes]) de douze chapitres et laisse le reste en blanc, persuadé que personne n’est mieux en état que vous de les remplir.
+][
+« Mais, puisqu’il n’y a qu’une seule objection, le ,(emph[revenu]), il faut bien que j’en dise un mot.
+][
+« Vous avez fait un tableau duquel il résulte que la taxe unique, même à 20 centimes, constituerait le Trésor en perte de 22 millions.
+][
+« A 10 centimes, la perte serait de 28 millions, et à 5 centimes, de 33 millions, hypothèses si effrayantes que vous ne les formulez même pas.
+][
+« Mais permettez-moi de vous dire que les chiffres, dans votre rapport, dansent avec un peu trop de laisser aller. Dans tous vos tableaux, dans tous vos calculs, vous sous-entendez ces mots : ,(emph[Toutes choses égales d’ailleurs.]) Vous supposez les mêmes frais avec une administration simple qu’avec une administration compliquée ; le même nombre de lettres avec la taxe moyenne de 43 qu’avec la taxe unique à 20 cent. Vous vous bornez à cette règle de trois : 87 millions de lettres à 42 cent. ½ ont donné tant. Donc, à 20 cent. elles donneraient tant ; admettant néanmoins quelques distinctions quand elles sont contraires à la réforme.
+][
+« Pour évaluer le sacrifice réel du Trésor, il faudrait savoir d’abord ce qu’on économiserait sur le service ; ensuite, dans quelle proportion s’augmenterait l’activité de la correspondance. Ne tenons compte que de cette dernière donnée, parce que nous pouvons supposer que l’épargne réalisée sur les frais se réduirait à ceci, que le personnel actuel ferait face à un service plus développé.
+][
+« Sans doute il n’est pas possible de fixer le chiffre de l’accroissement dans la circulation des lettres ; mais, en ces matières, une analogie raisonnable a toujours été admise.
+][
+« Vous dites vous-même qu’en Angleterre une réduction de 7/8 dans la taxe a amené une augmentation de 360 pour 100 dans la correspondance.
+][
+« Chez nous, l’abaissement à 5 cent. de la taxe qui est actuellement, en moyenne, de 43 cent., constituerait aussi une réduction de 7/8. Il est donc permis d’attendre le même résultat, c’est-à-dire 417 millions de lettres, au lieu de 116 millions.
+][
+« Mais calculons sur 300 millions.
+][
+« Y a-t-il exagération à admettre qu’avec une taxe de moitié moindre, nous arriverons à 8 lettres par habitant, quand les Anglais sont parvenus à 13 ?
+]
+(simple-table '(
+([Or, 300 millions de lettres à 5 c. donnent] [15 mil.])
+([100 millions de journaux et imprimés à 5 c.] [5])
+([Voyageurs par les malles-postes] [4])
+([Articles d’argent] [4])
+([TOTAL des recettes] [28 mil.])))
+
+(simple-table '(
+([La dépense actuelle (qui pourra diminuer) est de] [31 mil.])
+([A déduire celle des paquebots] [5])
+([Reste sur les dépêches, voyageurs et articles d’argent] [26 mil.])
+([Produit net] [2])))
+
+(simple-table '(
+([Aujourd’hui le produit net est de] [19])
+([Perte, ou plutôt réduction de gain] [17 mil.])))
+[
+« Maintenant je demande si l’État, qui fait un ,(emph[sacrifice positif]) de 800 millions par an pour faciliter la circulation ,(emph[gratuite]) des personnes, ne doit pas faire un ,(emph[sacrifice négatif]) de 17 millions pour ,(emph[ne pas gagner]) sur la circulation des idées ?
+][
+« Mais enfin le fisc, je le sais, a ses habitudes ; et autant il contracte avec facilité celle de voir grossir les recettes, autant il s’accoutume malaisément à les voir diminuer d’une obole. Il semble qu’il soit pourvu de ces valvules admirables qui, dans notre organisation, laissent le sang affluer dans une direction, mais l’empêchent de rétrograder. Soit. Le fisc est un peu vieux pour que nous puissions changer ses allures. N’espérons donc pas le décider à se dessaisir. Mais que dirait-il, si moi, Jacques Bonhomme, je lui indiquais un moyen simple, facile, commode, essentiellement pratique, de faire un grand bien au pays, sans qu’il lui en coûtât un centime !
+]
+(simple-table '(
+([La poste donne brut au Trésor] [50 mil.])
+([Le sel] [70])
+([La douane] [160])
+([TOTAL pour ces trois services] [280 mil.])))
+[
+« Eh bien ! mettez la taxe des lettres au taux uniforme de 5 cent.
+][
+« Abaissez la taxe du sel à 10 fr. le quintal, comme la Chambre l’a voté.
+][
+« Donnez-moi la faculté de modifier le tarif des douanes, en ce sens qu’,(strong[il me sera formellement interdit d’élever aucun droit, mais qu’il me sera loisible de les abaisser à mon gré.])
+][
+« Et moi, Jacques Bonhomme, je vous garantis, non pas 280, mais 300 millions. Deux cents banquiers de France seront mes cautions. Je ne demande pour ma prime que ce que ces trois impôts produiront en sus des 300 millions.
+][
+« Maintenant ai-je besoin d’énumérer les avantages de ma proposition ?
+][
+« 1° Le peuple recueillera tout le bénéfice du ,(emph[bon marché]) dans le prix d’un objet de première nécessité, le sel.
+][
+« 2° Les pères pourront écrire à leurs fils, les mères à leurs filles. Les affections, les sentiments, les épanchements de l’amour et de l’amitié ne seront pas, comme aujourd’hui, refoulés par la main du fisc au fond des cœurs.
+][
+« 3° Porter une lettre d’un ami à un ami ne sera pas inscrit sur nos codes comme une action criminelle.
+][
+« 4° Le commerce refleurira avec la liberté ; notre marine marchande se relèvera de son humiliation.
+][
+« 5° Le fisc gagnera d’abord ,(emph[vingt millions]) ; ensuite, tout ce que fera affluer vers les autres branches de contributions l’épargne réalisée par chaque citoyen sur le sel, sur les lettres et sur les objets dont les droits auront été abaissés.
+][
+« Si ma proposition n’est pas acceptée, que devrai-je en conclure ? Pourvu que la compagnie de banquiers que je présente offre des garanties suffisantes, sous quel prétexte pourrait-on rejeter mon offre ? Il n’est pas possible d’invoquer l’,(emph[équilibre des budgets]). Il sera bien rompu, mais rompu de manière à ce que les recettes excèdent les dépenses. Il ne s’agit pas ici d’une théorie, d’un système, d’une statistique, d’une probabilité, d’une conjecture ; c’est une offre, une offre comme celle d’une compagnie qui demande la concession d’un chemin de fer. Le fisc me dit ce qu’il retire de la poste, du sel et de la douane. J’offre de lui donner ,(emph[plus]). L’objection ne peut donc pas venir de lui. J’offre de diminuer le tarif du sel, de la poste et de la douane ; je m’engage à ne pas l’élever ; l’objection ne peut donc pas venir des contribuables.— De qui viendrait-elle donc ?— Des monopoleurs ?— Reste à savoir si leur voix doit étouffer en France celle de l’État et celle du peuple. Pour nous en assurer, je vous prie de transmettre ma proposition au conseil des ministres.
+][
+« Jacques Bonhomme. »
+][
+« ,(inlatin[P. S.]) Voici le texte de mon offre :
+][
+« Moi, Jacques Bonhomme, représentant une compagnie de banquiers et capitalistes, prête à donner toutes garanties et à déposer tous cautionnements qui seront nécessaires ;
+][
+« Ayant appris que l’État ne tire que 280 millions de la douane, de la poste et du sel, au moyen des droits tels qu’ils sont actuellement fixés,
+][
+« J’offre de lui donner 300 millions du produit brut de ces trois services,
+][
+« Même alors qu’il réduirait la taxe du sel de 30 francs à 10 francs ;
+][
+« Même alors qu’il réduirait la taxe des lettres de 42 ½ cent. en moyenne, à une taxe unique et uniforme de 5 à 10 centimes ;
+][
+« A la seule condition qu’il me sera permis non point d’,(emph[élever]) (ce qui me sera formellement interdit), mais d’,(emph[abaisser]), autant que je le voudrai, les droits de douane.
+][
+« Jacques Bonhomme. »
+][
+Mais vous êtes fou, dis-je à Jacques Bonhomme, qui me communiquait sa lettre ; vous n’avez jamais rien su prendre avec modération. L’autre jour vous vous récriiez contre l’,(emph[ouragan des réformes]), et voilà que vous en réclamez trois, faisant de l’une la condition des deux autres. Vous vous ruinerez. — Soyez tranquille, dit-il, j’ai fait tous mes calculs. Plaise à Dieu qu’ils acceptent ! Mais ils n’accepteront pas. — Là-dessus, nous nous quittâmes la tête pleine, lui de chiffres, moi de réflexions, que j’épargne au lecteur.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome IV,
+,(cite-title[Le sel, la poste et la douane]),
+pp. 213-229.
+])))
