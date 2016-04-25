@@ -1,0 +1,99 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Second discours, par Frédéric Bastiat")
+
+(document :title "Second discours"
+	:author (author-FB)
+(p*[
+,(small[Prononcé à Paris, salle Montesquieu, 29 septembre 1846. ,(footnote*[N’ayant pas le texte entier de ce discours, nous en reproduisons tout ce qu’en a conservé le ,(cite-title[Journal des Économistes]), dans son numéro d’octobre 1846. ,(NdEEO)])])
+][
+,(small[La première partie de ce discours est à l’adresse de ceux qui accusent les libre-échangistes de ne pas ,(emph[ménager les transitions]).])
+][
+Dans mon village, il y avait un pauvre menuisier ; il ne travaillait que six heures par jour. Hélas ! mon village et bien d’autres ont été ruinés par le régime protecteur ; on n’y a pas toujours le nécessaire, à plus forte raison on s’y passe de superflu. Bref, notre menuisier ne travaillait que six heures. — Il devint aveugle ; mais comme il ne manquait pas d’énergie, il parvint à expédier le même ouvrage, en y consacrant douze heures de pénible labeur.
+][
+Un de ses voisins, menuisier comme lui, venait le voir souvent et lui disait : « Vous êtes bien heureux d’avoir la cataracte ; avant, vous n’aviez pas de quoi vous occuper, maintenant vous êtes occupé toute la journée ; et, vous le savez, M. de Saint-Cricq l’a dit : le travail, c’est la richesse. » (Hilarité.)
+][
+Le pauvre aveugle le crut. Il se voyait déjà millionnaire, et il s’encroûta si bien de cette doctrine qu’il refusait opiniâtrement de se laisser opérer.
+][
+Alors ses parents et ses amis se concertèrent pour le tirer d’erreur. Ils cherchèrent à lui démontrer que le travail n’est de la richesse qu’autant qu’il est suivi de quelques résultats. Je crois même que mon ami, M. Wolowski, leur a dérobé l’argument du ,(emph[tread-mill]), qu’il vous soumettait tout à l’heure avec tant d’à-propos. — Le malade était sur le point d’être persuadé.
+][
+Que fit son perfide concurrent ? Il vint trouver l’aveugle et lui dit : Vos parents sont de beaux ,(emph[théoriciens]), et peut-être ont-ils raison ,(emph[en principe]). Mais vous ont-ils parlé du danger de la ,(emph[transition ?]) — Ils ne m’en ont pas dit un mot, dit l’aveugle. — Ah ! je les y surprends ; ils veulent exposer vos yeux subitement à la clarté du soleil et vous faire perdre à jamais la vue. (L’hilarité redouble.)
+][
+Le malade, toujours crédule, s’en fut à ses parents et leur dit : Vous ne m’aviez pas parlé de la ,(emph[transition]). Vous voulez donc me rendre aveugle ?
+][
+— Vous ne seriez pas pis que vous n’êtes, répondirent les parents. (Rires.) Cependant, soyez tranquille. Nous ne voulons pas vous faire perdre la vue, mais vous la rendre. Nous n’avons pas parlé de ,(emph[transition]), parce que cela ne nous regarde pas, c’est l’affaire de l’oculiste. Il fallait bien vous décider à l’appeler. Nous n’étions préoccupés que de combattre votre égarement. Une fois cela obtenu, nous laisserons faire l’opérateur, pourvu toutefois qu’il ne s’entende pas avec votre perfide conseiller, et ne vous laisse pas un bandeau sur les yeux toute votre vie, sous prétexte de ,(emph[ménager la transition]). (Éclats de rires.)
+][
+L’aveugle fut convaincu, se laissa opérer, et la transition ne fit aucune difficulté ; car malgré tous les raisonnements du concurrent, qui ne cessait de crier : « N’ôtez pas le bandeau ou tout est perdu, » le malade était le premier à demander la lumière. (Très-bien ! très-bien !)
+][
+Ce petit conte, messieurs, me semble assigner assez fidèlement le rôle de chacun dans le grand débat qui nous occupe. Le pauvre aveugle, c’est le peuple, qui a perdu une faculté précieuse, ce qui l’oblige à plus de travail. Le faux ami, ce sont les théoriciens de la protection, qui, après avoir cherché à persuader au peuple qu’il était trop heureux d’être privé d’une faculté, et ne pouvant plus tenir ce terrain, lui font peur maintenant de la ,(emph[transition]). Les vrais amis du peuple, c’est l’,(emph[Association]), qui croit n’avoir autre chose à faire qu’à le tirer de son erreur, bien convaincue qu’il exigera ensuite de lui-même la ,(emph[liberté des échanges]). L’opérateur, c’est le gouvernement, et l’Association n’a rien à démêler avec lui, si ce n’est de veiller à ce qu’il ne se coalise pas avec le conseiller perfide, auquel cas elle dirait au malade : Adressons-nous à un autre ; il n’en manque pas. (Rires et bravos.)
+][
+,(small[L’hilarité générale interrompt un moment la séance.])
+][
+,(small[La seconde parabole de M. Bastiat avait pour but une démonstration économique assez difficile, l’orateur a triomphé de son sujet avec un grand bonheur. Voici comment il a démontré, à son tour, qu’il y a au fond du système protecteur une grande déception, même pour les industries qui croient le plus en profiter.])
+][
+Il y avait une fois… encore un conte. Mais rassurez-vous, celui-ci est très-court. — Vraiment, Messieurs, je me demande si ce style familier est bien de mise devant un auditoire si éclairé. Je m’empresse de me placer sous l’autorité du bon La Fontaine, qui était bien Français, et qui disait :
+][
+,(verses[« Si Peau d’âne m’était conté,]
+[« J’y prendrais un plaisir extrême. »])
+][
+D’ailleurs, je vous ai prévenus, je ne suis pas orateur ; je n’ai pas fait mon cours de rhétorique, et je ne puis pas même dire comme Lindor :
+,(verses[« Je ne suis qu’un simple bachelier, »])
+][
+Et je dois avouer, ainsi que la servante de Chrysale :
+,(verses[« Que je parle tout dret comme on parle cheux nous. »])
+][
+Donc un homme descendait une montagne, le baromètre à la main. Quand il fut au fond de la vallée : Oh ! oh ! dit-il, qu’est-ce ceci ? Le mercure a monté ! Il faut de toute nécessité qu’il ait perdu de son poids.
+][
+Cet homme se trompait. Ce n’était pas le mercure, c’était l’atmosphère qui avait changé. Il ne prenait pas garde que la hauteur d’un fluide dans un tube dépend de deux circonstances : de sa pesanteur spécifique sans doute, et aussi du poids de la colonne d’air qui le presse.
+][
+Voilà, Messieurs, la source de toutes les erreurs économiques. On cherche la ,(emph[valeur]) d’un objet en lui-même, dans son utilité intrinsèque, dans le travail qu’il a occasionné ; et l’on oublie que cette valeur dépend aussi du milieu dans lequel l’objet est placé. Par exemple, si le sol sur lequel je suis était à vendre, il trouverait probablement des acquéreurs à des centaines, à des milliers de francs la toise carrée. Dans mon pays des Landes, une égale superficie de terrain se donnerait pour cinq centimes. D’où vient la différence ? Est-elle dans les qualités intrinsèques de la terre ? Non, messieurs, on peut faire des fossés aussi profonds et élever des murs aussi hauts chez nous qu’à Paris. Mais ici le terrain à bâtir est dans un autre ,(emph[milieu]) : il est environné d’une population nombreuse, riche, qui veut être logée.
+][
+Ce que je dis des choses est vrai des hommes. L’Auvergnat qui descend de sa montagne, où il ne gagnait peut-être pas dix sous par jour, ne subit pas, en arrivant à Paris, une transformation instantanée. Ses muscles ne prennent pas tout à coup de la force et son esprit du développement. Cependant il gagne 2 et 3 francs. Pourquoi ? Parce qu’il est dans un autre milieu.
+][
+Mais je crains que ces détails techniques ne vous fatiguent. (Non ! non ! — Parlez ! parlez !)
+][
+Le monde, au point de vue économique, peut être considéré comme un vaste bazar où chacun de nous apporte ses services et reçoit en retour… quoi ? des écus, c’est-à-dire des ,(emph[bons]) qui lui donnent droit à retirer de la masse des services équivalents à ceux qu’il y a versés.
+][
+Chacun de nous comprend instinctivement que nos services seront d’autant plus recherchés, d’autant plus demandés, auront d’autant plus de ,(emph[valeur]), d’autant plus de ,(emph[prix]), qu’ils seront plus ,(emph[rares, toutes choses égales d’ailleurs]), c’est-à-dire le grand réservoir commun, le ,(emph[milieu]) demeurant également pourvu. Et voilà pourquoi nous avons tous l’instinct du monopole. Tous nous voudrions opérer la rareté du service qui fait l’objet de notre industrie, en éloignant nos concurrents.
+][
+Mais il est bien clair que, si nous réussissions tous dans ce vœu, la rareté se manifesterait, non-seulement dans l’objet spécial que nous présentons au grand réservoir commun, mais encore à l’égard de tous les produits qui le composent et qui forment, relativement à chaque service déterminé, cette atmosphère, ce milieu dont je parlais tout à l’heure. En sorte que, de même, qu’il n’y aurait aucune variation dans la hauteur du mercure alors qu’il perdrait de son poids, s’il était promené dans une atmosphère constamment allégée en même proportion, de même il n’y a aucune variation dans la ,(emph[valeur nominale]), dans le ,(emph[prix]) des choses lorsque la rareté s’opère également sur toutes à la fois.
+][
+Et c’est là ce que fait précisément le régime protecteur. Il dit au maître de forges : « Tu n’es pas content de ta position, tu ne trouves pas que tu t’enrichisses assez vite ; mais j’ai la force en main, et je vais élever la valeur du fer en le rendant plus ,(emph[rare]). Pour cela, j’écarterai le fer étranger. »
+][
+S’il s’arrêtait là, il commettrait une injustice envers tous ceux qui échangent leurs services contre du fer. Mais il va plus loin. Après avoir opéré la rareté du fer, poussé par le même motif, il opère la rareté des bestiaux, du drap, du blé, des combustibles, de l’huile, en un mot, de l’atmosphère dans laquelle le fer est plongé. Il en détruit les ressources, les moyens d’échange, les débouchés, la force d’absorption : en un mot, il rétablit au taux primitif toutes les valeurs nominales.
+][
+Mais n’y a-t-il rien de changé cependant ? n’y a-t-il que des compensations ? Oh ! si fait, il y a l’abondance changée en rareté. Les produits ont conservé leur valeur relative, mais il y en a moins, et par conséquent les hommes sont moins bien pourvus de toutes choses.
+][
+De cette démonstration, on peut tirer plusieurs conséquences.
+][
+La première, c’est que le système protecteur est une déception, et qu’il trompe même ceux qu’il prétend favoriser. Il aspire à leur conférer le triste privilége de la ,(emph[rareté]), dont le propre, il est vrai, est d’élever le prix d’un objet, quand elle est ,(emph[relative ;]) mais opérant de même sur tout, ce n’est pas la ,(emph[rareté]) relative, mais bien la ,(emph[rareté absolue]) qu’il procure, manquant même son but immédiat.
+][
+Une autre conséquence plus importante encore qui vous aura frappés, c’est celle-ci : pour chaque individu, pour chaque industrie, pour chaque nation, le moyen le plus sûr de s’enrichir, c’est d’enrichir les autres, puisque la richesse générale est ce ,(emph[milieu]) qui donne de l’emploi, des débouchés et des rémunérations aux services de chacun ; et nous sommes ainsi conduits à reconnaître que la fraternité humaine n’est pas un vain sujet de déclamation, mais un phénomène susceptible de démonstration rigoureuse.
+][
+Enfin, il s’ensuit encore que le régime protecteur est essentiellement ,(emph[injuste]). — Il est injuste même à l’égard des industries privilégiés, car il ne lui est pas possible d’accorder à toutes, — il n’en a pas la prétention, — la faveur d’une ,(emph[rareté]) exactement proportionnelle.
+][
+Mais que dirai-je, Messieurs, des nombreux services humains qui payent tribut au monopole et ne reçoivent, ne sont pas même susceptibles de recevoir aucune compensation par l’action des tarifs ?
+][
+Ces services sont si nombreux qu’ils occupent le fond même de la population. Je crois qu’on ne l’a point assez remarqué, et je vous prie de me permettre d’en faire passer sous vos yeux la nomenclature.
+][
+Pour qu’un service puisse recevoir la protection douanière il faut que le travail auquel il donne lieu s’incorpore dans un objet matériel susceptible de passer la frontière ; car ce n’est que sous cette forme que le produit similaire étranger peut être repoussé ou grevé d’une taxe.
+][
+Or, il est un produit extrêmement précieux qui n’est pas dans ce cas, je veux parler de la ,(emph[sécurité]). Ce service absorbe, ou est censé absorber les facultés d’une multitude de personnes, depuis les ministres du roi jusqu’aux gardes champêtres, magistrats, militaires, marins, collecteurs de taxes, etc., etc.
+][
+Une autre classe qui ne peut pas être protégée, c’est celle qui rend des services immatériels : avocats, avoués, médecins, notaires, greffiers, huissiers, auteurs, artistes, professeurs, prêtres, etc., etc.
+][
+Une troisième classe est celle qui s’occupe exclusivement de distribuer les produits : banquiers, négociants, marchands en gros et en détail, agents de change, assureurs, courtiers, voituriers, etc., etc.
+][
+Une quatrième se compose de tous ceux qui font un travail qui se consomme sur place et à mesure qu’il se produit : tailleurs, cordonniers, menuisiers, maçons, charpentiers, forgerons, jardiniers, etc., etc.
+][
+Enfin, il faut aussi compter comme radicalement exclus des faveurs de la protection tous ceux qui cultivent ou fabriquent des choses qui ne craignent pas la concurrence étrangère : les vins, les soies, les articles de Paris, etc.
+][
+Toutes ces classes, Messieurs, payent tribut au monopole, et n’en peuvent jamais recevoir aucune compensation. À leur égard, l’injustice de ce système est évidente.
+][
+Messieurs, j’ai insisté principalement sur la question de justice, parce qu’elle me semble de beaucoup la plus importante. Le monopole a deux faces comme Janus. Le côté économique a des traits incertains ; il faut être du métier pour en discerner la laideur. Mais du côté moral on ne peut pas s’y tromper, et il suffit d’y jeter les yeux pour le prendre en horreur. Il y en a qui me disent : Voulez-vous faire de la propagande ? Parlez aux hommes de leurs intérêts, montrez-leur comment le monopole les ruine. — Et moi je dis que c’est surtout la question de ,(emph[justice]) qui passionne les masses. J’ai du moins cette foi dans mon siècle et dans mon pays. — Et voilà pourquoi, tant que ma main pourra tenir une plume ou mes lèvres proférer un son, je ne cesserai de crier : Justice pour tous ! liberté pour tous ! égalité devant la loi pour tous ! »
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome II,
+,(cite-title[Second discours]),
+pp. 238-246.
+])))

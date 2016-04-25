@@ -1,0 +1,61 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "De la libre introduction du bétail étranger, par Frédéric Bastiat")
+
+(document :title "De la libre introduction du bétail étranger"
+	:author (author-FB)
+(date-tag[14 mars 1847])
+(p*[
+La Belgique vient de suspendre le droit d’entrée sur le bétail.
+][
+Ainsi, à l’heure qu’il est les Belges, les Anglais, les Suisses, ont le droit de se livrer à tout ,(emph[travail national]) qui trouve à s’échanger contre de la viande étrangère.
+][
+Nous autres, Français, nous n’avons pas ce droit, ou nous devons l’acheter par une taxe, — taxe que nous payons à contre-cœur, car elle ne va pas au Trésor et n’est pas dépensée au profit de la communauté.
+][
+En tous temps, un prélèvement, par quelques particuliers, sur le prix de la viande, nous semble injuste. En ce moment, il nous paraît cruel.
+][
+Il faut que l’esprit de monopole soit bien enraciné chez nous pour résister, non plus seulement aux démonstrations de la science, mais au cri de la faim.
+][
+Quoi ! un ouvrier de Paris, à qui la nature a donné le besoin de manger et des bras pour travailler, ne pourra pas échanger son travail contre des aliments ?
+][
+Quoi ! si l’artisan français peut faire sortir de la viande de son marteau, de sa hache ou de sa navette, cela lui sera défendu !
+][
+Cela sera défendu à trente-cinq millions de Français, pour plaire à quelques éleveurs !
+][
+Ah ! plus que jamais nous persistons à réclamer la liberté de l’échange, qui implique la liberté et le bon choix du travail, non comme une bonne police seulement, mais comme ,(emph[un droit]).
+][
+S’il plaît à la Providence de nous envoyer la famine, nous nous résignerons. Mais nous ne pouvons nous résigner à ce que la famine, dans une mesure quelconque, soit décrétée par la loi.
+][
+Nous défions qui que ce soit de nous prouver que l’ouvrier doive une redevance à l’éleveur, pas plus que l’éleveur à l’ouvrier.
+][
+Puisque la loi n’élève pas le taux du salaire, elle ne doit pas élever le taux de la viande.
+][
+On dit que cette mesure restrictive a pour objet de favoriser l’espèce particulière de ,(emph[travail national]) qui a pour objet la production de la viande. Mais si ce travail a pour fin unique de fournir des aliments à la consommation, quelle inconséquence n’est-ce pas que de commencer par restreindre la consommation des aliments, sous prétexte d’en protéger la production ?
+][
+En fait d’aliments, l’essentiel est d’,(emph[en avoir]), et non point de les produire par tel ou tel procédé. Que les éleveurs fassent de la viande, mais qu’ils nous laissent la liberté d’en faire à coups de hache, d’aiguille, de plume et de marteau, comme nous faisons l’or, le café et le thé.
+][
+Nous voudrions éviter (car il n’est pas de notre intérêt d’irriter les passions), mais nous ne pouvons nous empêcher de dire que la loi, qui restreint le travail et les jouissances de tous au profit de quelques-uns, est une loi oppressive. Elle prend une certaine somme dans la poche de Jean pour la mettre dans la poche de Jacques, ,(emph[avec perte définitive d’une somme égale pour la communauté]).
+][
+Il est de mode aujourd’hui de rire du ,(emph[laissez faire]). Nous ne disons pas que les gouvernements doivent tout ,(emph[laisser faire]). Bien loin de là, nous les croyons institués précisément pour ,(emph[empêcher de faire]) certaines choses, et entre autres pour empêcher que Jacques ne prenne dans la poche de Jean. Que dire donc d’une loi qui ,(emph[laisse faire]), bien plus, qui ,(emph[oblige de faire]) la chose même qu’elle a pour mission à peu près exclusive d’empêcher ?
+][
+On dit qu’il est utile de restreindre l’entrée de la viande pour favoriser notre agriculture ; que cette restriction accroît chez nous la production du bétail et par conséquent de l’engrais. Quelle dérision !
+][
+Voyons, sortez de ce dilemme.
+][
+Votre taxe à l’entrée augmente-t-elle le prix de la viande, oui ou non ? 
+][
+Si vous dites ,(emph[oui]), nous répondons :
+][
+Puisqu’elle accroît le prix moyen de la viande, il y a donc ,(emph[moins de bétail]) dans le pays sous l’empire de cette taxe ; car d’où peut venir l’augmentation de prix, sinon de la rareté relative de la chose ? Et si, à tous les moments donnés, il y a ,(emph[moins de bétail]) dans le pays, comment y aurait-il ,(emph[plus d’engrais ?])
+][
+Si vous dites que le droit n’élève pas le prix, nous vous demanderons pourquoi vous le maintenez ?
+][
+On parle toujours de l’intérêt agricole ; mais en a-t-on une vue complète ? Est-ce que l’agriculture n’achète pas autant de bœufs qu’elle en vend ? Est-ce que, parmi nos innombrables métayers et petits propriétaires, il n’y en a pas vingt qui achètent deux bœufs de travail pour un qui vend un bœuf de boucherie ? Est-ce que la restriction n’affecte pas, au préjudice des agriculteurs, le prix de ces quarante bœufs de travail, comme elle affecte, au bénéfice de l’éleveur, le prix du bœuf qu’il livre à la consommation ? Enfin, est-ce que les agriculteurs, qui forment les deux tiers de notre population, ne mangent pas quelque peu de viande ? et, sous ce rapport, après avoir fait tous les frais de la protection sur les quarante bœufs de travail, ne supportent-ils pas encore, pour les deux tiers ou du moins dans une forte proportion, les frais de la protection accordée sur le bœuf de boucherie ?
+][
+Après tout, si l’agriculture a cette grande importance que personne ne conteste, c’est uniquement par le motif qu’elle fournit à la nation des aliments. Il est absurde, contradictoire et cruel, sous prétexte de favoriser l’agriculture, de diminuer l’alimentation du peuple.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome II,
+,(cite-title[De la libre introduction du bétail étranger]),
+pp. 68-71.
+])))

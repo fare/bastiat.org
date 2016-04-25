@@ -1,0 +1,176 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Deux principes, par Frédéric Bastiat")
+
+(document :title "Deux principes"
+	:author (author-FB)
+(date-tag[7 février 1847])
+(p*[
+— Je viens de lire un chef-d’œuvre sur le libre-échange.
+][
+— Qu’en pensez-vous ?
+][
+— J’en penserais tout le bien possible, si je n’avais lu immédiatement après un chef-d’œuvre sur la protection.
+][
+— Vous donnez donc la préférence à ce dernier ?
+][
+— Oui ; si je n’avais lu le premier immédiatement avant.
+][
+— Mais enfin, lequel des deux vous a convaincu ?
+][
+— Ni l’un ni l’autre, ou plutôt l’un et l’autre ; car, arrivé au bout, je disais comme Henri IV sortant du plaid : Ils ont, ma foi, tous deux raison.
+][
+— En sorte que vous n’en êtes pas plus avancé ?
+][
+— Heureux si je n’étais pas plus reculé ! car il m’est ensuite tombé sous la main un troisième factum, intitulé : ,(cite-title[Contradictions économiques]), où ,(emph[Liberté]) et ,(emph[Non-Liberté]), ,(emph[Protection]) et ,(emph[Non-Protection]) sont arrangées de la belle manière. Vraiment, monsieur, la tête m’en tourne.
+][
+,(verses[Vo solcando un mar crudele]
+[Senza vele]
+[E senza sarte.])
+][
+Orient et Occident, Zénith et Nadir, tout se confond dans ma tête, et je n’ai pas la plus petite boussole pour me reconnaître au milieu de ce dédale. Ceci me rappelle la triste position où je me suis trouvé il y a quelques années.
+][
+— Contez-moi cela, je vous prie.
+][
+— Nous chassions, Eugène et moi, entre Bordeaux et Bayonne, dans ces vastes landes où rien, ni arbres ni clochers, n’arrête le regard. La brunie était épaisse. Nous fîmes tant de tours et de détours à la poursuite d’un lièvre, qu’enfin…
+][
+— Vous le prîtes ?
+][
+— Non, ce fut lui qui nous prit, car le drôle parvint à nous désorienter complétement. Le soir une route ignorée se présente à nous. À ma grande surprise, Eugène et moi nous nous tournons le dos. Où vas-tu, lui dis-je ? — À Bayonne. — Mais tu prends la direction de Bordeaux. — Tu te moques, le vent est Nord et il nous glace les épaules. — C’est qu’il souffle du ,(emph[Sud]). — Mais ce matin le soleil s’est levé là. — Non, il a paru ici. — Ne vois-tu pas devant nous les Pyrénées ? — Ce sont des nuages qui bordent la mer. Bref, jamais nous ne pûmes nous entendre.
+][
+— Comment cela finit-il ?
+][
+— Nous nous assîmes au bord du chemin, attendant qu’un passant nous tirât de peine. Bientôt un voyageur se présente : Monsieur, lui dis-je, voici mon ami qui prétend que Bayonne est à gauche, et je soutiens qu’il est à droite. — Mes beaux Messieurs, répondit-il, vous avez, chacun de vous, un peu tort et un peu raison. Gardez-vous des ,(emph[idées arrêtées]) et des ,(emph[systèmes absolus]). Bonsoir ! — Et il partit. J’étais tenté de lui envoyer une pierre dans le dos, quand j’aperçus un second voyageur qui venait vers nous. — Je l’accostai le plus poliment du monde, et lui dis : Brave homme, nous sommes désorientés. Dites-nous si, pour rentrer à Bayonne, il faut marcher par ici ou par là. — Ce n’est pas la question, nous dit-il : l’essentiel est de ne pas franchir la distance qui vous sépare de Bayonne, d’un seul bond et ,(emph[sans transition]). Cela ne serait pas sage, et vous risqueriez de vous casser le nez. — Monsieur, lui dis-je, c’est vous qui n’êtes pas dans la question. Quant à notre nez, vous y prenez trop d’intérêt. Soyez sûr que nous y veillerons nous-mêmes. Cependant, avant de nous décider à marcher vite ou lentement, il faut bien que nous sachions de quel côté il faut marcher. — Mais le maroufle insistant : Marchez progressivement, nous dit-il, et ne mettez jamais un pied devant l’autre sans avoir bien réfléchi aux conséquences. Bon voyage. — Ce fut heureux pour lui qu’il y eût du plomb de loup dans mon fusil ; s’il n’y eût eu que de la grenaille, franchement, j’aurais criblé au moins la croupe de sa monture.
+][
+— Pour punir le cavalier. Ô justice distributive !
+][
+— Survint un troisième voyageur. Il avait l’air grave et posé. J’en augurai bien, et lui adressai ma question : De quel côté est Bayonne ? — Chasseur diligent, me dit-il, il faut distinguer entre la théorie et la pratique. Étudiez bien la configuration du sol, et si la théorie vous dit que Bayonne est vers le bas, marchez vers le haut.
+][
+— Mille bombes ! m’écriai-je, avez-vous tous juré ?…
+][
+— Ne jurez pas vous-même. Et dites-moi quel parti vous prîtes.
+][
+— Celui de suivre la première moitié du dernier conseil. Nous examinâmes l’écorce des bruyères, la pente des eaux. Une fleur nous mit d’accord. Vois, dis-je à Eugène, elle a coutume de se pencher vers le soleil 
+,(verses[Et cherche encor le regard de Phébus.])
+Donc, Bayonne est là. Il se soumit à ce gracieux arbitrage, et nous cheminâmes d’assez bonne intelligence. Mais, chose singulière ! Eugène avait de la peine à laisser ,(emph[le monde tel qu’il est]), et l’univers, faisant un demi-tour dans son imagination, le replaçait sans cesse sous l’empire de la même erreur.
+][
+— Ce qui est arrivé à votre ami, en géographie, vous arrivera souvent en économie politique. La carte se retourne dans le cerveau, et l’on trouve alors des donneurs d’avis de la même force.
+][
+— Que faut-il donc faire ?
+][
+— Ce que vous avez fait : apprendre à ,(emph[s’orienter]).
+][
+— Mais dans les landes de l’économie politique, trouverai-je, pour me guider, une pauvre petite fleur ?
+][
+— Non, mais un principe,
+][
+— Ce n’est pas si gracieux. Et y a-t-il véritablement une idée claire, simple, qui puisse servir de fil conducteur à travers ce labyrinthe ?
+][
+— Il y en a une.
+][
+— Dites-la-moi de grâce.
+][
+— Je préfère que vous la disiez vous-même. Répondez-moi. À quoi le blé est-il bon ?
+][
+— Eh parbleu ! à être mangé.
+][
+— Voilà un principe.
+][
+— Vous appelez cela un principe ? En ce cas, j’en fais souvent, comme M. Jourdain de la prose, sans le savoir.
+][
+— C’est un principe, vous dis-je, et le plus méconnu quoique le plus vrai de tous ceux qui ont jamais figuré dans un corps de doctrine. — Et, dites-moi, le blé n’a-t-il pas encore une autre utilité ?
+][
+— À quoi serait-il utile, sinon à être mangé ?
+][
+— Cherchez bien.
+][
+— Ah ! j’y suis : à procurer du travail au laboureur.
+][
+— Vous y êtes en effet. Voilà un autre principe.
+][
+— Diantre ! je ne croyais pas qu’il fût si facile de faire des principes. J’en dis un à chaque mot.
+][
+— N’est-il pas vrai que tous les produits imaginables ont les deux genres d’,(emph[utilité]) que vous venez d’assigner au blé ?
+][
+— Que voulez-vous dire ?
+][
+— À quoi sert la houille ?
+][
+— À nous fournir de la chaleur, de la lumière, de la force.
+][
+— Ne sert-elle pas à autre chose ?
+][
+— Elle sert encore à procurer du travail aux mineurs, aux voituriers, aux marins.
+][
+— Et le drap n’a-t-il pas deux espèces d’utilité ?
+][
+— Si fait. Il garantit du froid et de la pluie. De plus, il donne du travail au berger, au fileur, au tisseur.
+][
+— Pour vous prouver que vous avez bien réellement émis deux principes, permettez-moi de les revêtir d’une forme générale. Le premier dit : ,(emph[Les produits sont faits pour être consommés ;]) le second : ,(emph[Les produits sont faits pour être produits.])
+][
+— Voilà que je recommence à comprendre un peu moins.
+][
+— Je vais donc varier le thème :
+][
+,(emph[Premier principe :]) L’homme travaille pour consommer.
+][
+,(emph[Second principe :]) L’homme consomme pour travailler.
+][
+,(emph[Premier principe :]) Le blé est fait pour les estomacs.
+][
+,(emph[Second principe :]) Les estomacs sont faits pour le blé.
+][
+,(emph[Premier principe :]) Les moyens sont faits pour le but.
+][
+,(emph[Second principe :]) Le but est fait pour les moyens.
+][
+,(emph[Premier principe :]) Le laboureur laboure afin qu’on mange.
+][
+,(emph[Second principe :]) On mange afin que le laboureur laboure.
+][
+,(emph[Premier principe :]) Les bœufs vont devant la charrette.
+][
+,(emph[Second principe :]) La charrette va devant les bœufs.
+][
+— Juste ciel ! quand je disais : ,(emph[Le blé est utile parce qu’on le mange]), et puis : ,(emph[Le blé est utile parce qu’on le cultive]), j’émettais, sans m’en douter, ce torrent de principes ?
+][
+,(verses[Par la sambleu ! ,(emph[Monsieur]), je ne croyais pas être]
+[Si ,(emph[savant]) que je suis.])
+][
+— Tout beau ! vous n’avez dit que deux principes, et moi, je les ai mis en variations.
+][
+— Mais où diable en voulez-vous venir ?
+][
+— À vous faire connaître la bonne et la mauvaise boussole, au cas que vous vous égariez jamais dans le dédale économique. Chacune d’elles vous guidera, selon un orientement opposé, l’une vers le temple de la vérité, l’autre dans la région de l’erreur.
+][
+— Voulez-vous dire que les deux écoles, libérale et protectioniste, qui se partagent le domaine de l’opinion, diffèrent seulement en ceci, que l’une ,(emph[met les bœufs avant la charrette]), et l’autre, ,(emph[la charrette avant les bœufs ?])
+][
+— Justement. Je dis que si l’on remonte au point précis qui divise ces deux écoles, on le trouve dans l’application vraie ou fausse du mot ,(emph[utilité]). Ainsi que vous venez de le dire vous-même, chaque produit a deux espèces d’utilité : l’une est relative au consommateur, et consiste ,(emph[à satisfaire des besoins ;]) l’autre a trait au producteur, et consiste ,(emph[à être l’occasion d’un travail]). On peut donc appeler la première de ces utilités ,(emph[fondamentale]), et la seconde ,(emph[occasionnelle]). L’une est la boussole de la vraie science, l’autre la boussole de la fausse science. Si l’on a le malheur, comme cela est trop commun, de monter à cheval sur le second principe, c’est-à-dire de ne considérer les produits que dans leurs rapports avec les producteurs, on voyage avec une boussole retournée, on s’égare de plus en plus ; on s’enfonce dans la région des ,(emph[priviléges]), des ,(emph[monopoles]), de l’,(emph[antagonisme]), des ,(emph[jalousies nationales]), de la ,(emph[dissipation]), de la ,(emph[réglementation]), de la ,(emph[politique de restriction]) et ,(emph[d’envahissement ;]) en un mot, on entre dans une série de conséquences subversives de l’humanité, prenant constamment le mal pour le bien, et cherchant dans des maux nouveaux le remède aux maux qu’on a fait surgir de la législation. Si, au contraire, on prend pour flambeau et pour boussole, au point de départ, l’intérêt du consommateur, ou plutôt de la ,(emph[consommation générale]), on s’avance vers la liberté, l’égalité, la fraternité, la paix universelle, le bien-être, l’épargne, l’ordre et tous les principes progressifs du genre humain.
+][
+— Quoi ! ces deux axiomes : ,(emph[Le blé est fait pour être mangé ; le blé est fait pour être cultivé]), peuvent conduire à des résultats si opposés ?
+][
+— Très-certainement. Vous savez l’histoire de ces deux navires qui voyageaient de conserve. Un orage vint à éclater. Quand il fut dissipé, il n’y avait rien de changé dans l’univers, si ce n’est qu’une des deux boussoles, par l’effet de l’électricité, se tournait vers le sud. Mais c’est assez pour qu’un navire fasse fausse route pendant l’éternité entière, du moins tant qu’il obéit à celle fausse indication.
+][
+— Je vous avoue que je suis à mille lieues de comprendre l’importance que vous attachez à ce que vous appelez ,(emph[deux principes]) (quoique j’aie eu l’honneur de les trouver), et je serais bien aise que vous me fissiez connaître toute votre pensée.
+][
+— Eh bien ! écoutez-moi, je divise mon sujet en…
+][
+— Miséricorde ! je n’ai pas le temps de vous écouter. Mais dimanche prochain je suis tout à vous.
+][
+— Je voudrais bien pourtant…
+][
+— Je suis pressé. Adieu.
+][
+— À présent que je vous tiens…
+][
+— Oh ! vous ne me tenez pas encore. À dimanche ,(footnote*[Le dimanche est le jour de la semaine où paraissait le ,(cite-title[Libre-Échange]). ,(NdEEO)]).
+][
+— À dimanche, soit. Dieu, que les auditeurs sont légers !
+][
+— Ciel ! que les démonstrateurs sont lourds !
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome II,
+,(cite-title[Deux principes]),
+pp. 363-370.
+])))
