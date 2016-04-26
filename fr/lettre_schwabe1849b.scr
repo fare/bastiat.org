@@ -1,0 +1,27 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
+du 14 octobre 1849")
+(document :title "Lettre à Mme Schwabe"
+	:author (author-FB)
+(date-tag[14 octobre 1849])
+(p*[
+Ne craignez pas, Madame, que vos conseils m’importunent. Est-ce qu’ils ne prennent pas leur source dans l’amitié ? Est-ce qu’ils n’en sont pas le plus sûr témoignage ?…
+][
+C’est en vain que vous présentez l’avenir à mes yeux comme renfermant des chances d’un tardif bonheur. Il n’en est plus pour moi, même dans la poursuite, même dans le triomphe d’une idée utile à l’humanité ; car ma santé me condamne à détester le combat. Chère dame, je n’ai versé dans votre cœur qu’une goutte de ce calice d’amertume qui remplit le mien. Voyez, par exemple, quelle est ma pénible position politique, et vous jugerez si je puis accepter la perspective que vous m’offrez.
+][
+De tout temps j’ai eu une pensée politique simple, vraie, intelligible pour tous et pourtant méconnue. Que me manquait-il ? Un théâtre où je pusse l’exposer. La révolution de février est venue. Elle me donne un auditoire de neuf cents personnes, l’élite de la nation déléguée par le suffrage universel, ayant autorité pour la réalisation de mes vues — Ces neuf cents personnes sont animées des meilleures intentions. L’avenir les effraye. Elles attendent, elles cherchent une idée de salut. Elles font silence dans l’espoir qu’une voix va s’élever ; elles sont prêtes à s’y rallier. Je suis là ; c’est mon droit et mon devoir de parler. J’ai la conscience que mes paroles seront accueillies par l’Assemblée et retentiront dans les masses. Je sens l’idée fermenter dans ma tête et dans mon cœur… et je suis forcé de me taire. Connaissez-vous une torture plus grande ? Je suis forcé de me taire, parce que c’est dans ce moment même qu’il a plu à Dieu de m’ôter toute force ; et quand d’immenses révolutions se sont accomplies pour m’élever une tribune, je ne puis y monter. Je me sens hors d’état non seulement de parler, mais même d’écrire. Quelle amère déception ! quelle cruelle ironie !
+][
+Depuis mon retour, pour avoir voulu seulement faire un article de journal, me voilà confiné dans ma chambre.
+][
+Ce n’est pas tout, un espoir me restait. C’était, avant de disparaître de ce monde, de jeter cette pensée sur le papier, afin qu’elle ne pérît pas avec moi. Je sais bien que c’est une triste ressource, car on ne lit guère aujourd’hui que les auteurs à grande renommée. Un froid volume ne peut certes pas remplacer la prédication sur le premier théâtre politique du monde. Mais enfin l’idée qui me tourmente m’aurait survécu. Eh bien ! la force d’écrire, de mettre en ordre un système tout entier, je ne l’ai plus. Il me semble que l’intelligence se paralyse dans ma tête. N’est-ce pas une affliction bien poignante ?
+][
+Mais de quoi vais-je vous entretenir ? Il faut que je compte bien sur votre indulgence. C’est que j’ai si longtemps renfermé mes peines en moi-même, qu’en présence d’un bon cœur je sens toutes mes confidences prêtes à s’échapper.
+][
+Je voudrais envoyer à vos chers enfants un petit ouvrage français plein d’âme et de vérité, qui a fait le charme de presque toutes les jeunes générations françaises. Il fut mon compagnon d’enfance ; plus tard, il n’y a pas bien longtemps encore, dans les soirées d’hiver, une femme, ses deux enfants et moi nous mêlions nos larmes à cette lecture. — Malheureusement M. Héron est parti ; je ne sais plus comment m’y prendre. J’essaierai de le faire parvenir à M. Faulkner de Folkestone.
+][
+Adieu, chère dame, je suis forcé de vous quitter. Quoique souffrant, il faut que j’aille défendre la cause des Noirs dans un de nos comités, sauf à regagner ensuite mon seul ami, l’,(emph[oreiller]).
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII, pp. 420-432. ,(XXX)
+])))

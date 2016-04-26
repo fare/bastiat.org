@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
+du 17 janvier 1848")
+(document :title "Lettre à Mme Schwabe"
+	:author (author-FB)
+(date-tag[17 janvier 1848])
+(p*[
+,(strong[Madame]),
+][
+J’apprends avec bien du plaisir que M. Schwabe a fait un heureux voyage et qu’il a trouvé la situation de l’Angleterre en voie d’amélioration.
+][
+Je vous remercie d’avoir songé à m’envoyer le ,(cite-title[Punch]). J’y trouverai peut-être quelque chose pour le ,(cite-title[Libre-Échange]), après quoi je le ferai passer à M. Anisson, ou vous le reporterai moi-même.
+][
+Voici cinq numéros du dernier ,(cite-title[Libre-Échange]). J’ai fait le premier article sur les ,(emph[armements]), dans l’espoir qu’il peut exercer quelque influence en Angleterre. Il m’est donc bien agréable d’apprendre que vous vous chargez de l’y faire parvenir.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII, pp. 420-432. ,(XXX)
+])))

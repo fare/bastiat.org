@@ -1,0 +1,29 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à M. Schwabe
+du 1er juillet 1848")
+(document :title "Lettre à M. Schwabe"
+	:author (author-FB)
+(date-tag[Paris, ,(1er) juillet 1848])
+(p*[
+Mon cher Monsieur,
+][
+Je vous remercie de l’intérêt affectueux qui vous a fait penser à moi, à l’occasion des terribles événements qui ont affligé cette capitale. Grâce au ciel, la cause de l’ordre et de la civilisation l’a emporté. Nos excellents amis MM. Say et Anisson étaient à la campagne, l’un à Versailles, l’autre en Normandie. Leurs fils ont pris part à la lutte et en sont sortis avec honneur, mais sans blessure.
+][
+Ce sont les fausses idées ,(emph[socialistes]) qui ont mis les armes à la main à nos frères. Il faut dire aussi que la misère y a beaucoup contribué ; mais cette misère elle-même peut être attribuée à la même cause, car depuis qu’on a voulu faire de la ,(emph[fraternité]) une prescription légale, les capitaux n’osent plus se montrer.
+][
+Voici un moment bien favorable pour prêcher la vérité. Pendant tous ces jours de troubles, il m’est arrivé de parcourir les rangs de la garde nationale, essayant de montrer que chacun devait demander à sa propre énergie les moyens d’existence et n’attendre de l’État que justice et sécurité. Je vous assure que cette doctrine a été pour la première fois bien accueillie, et quelques amis m’ont facilité les moyens de la développer en public, ce que je commencerai lundi.
+][
+Vous me demanderez peut-être pourquoi je ne remplis pas cette mission au sein de l’Assemblée nationale, dont la tribune est si retentissante. C’est que l’enceinte est si vaste et l’auditoire si impatient que toute démonstration y est impossible.
+][
+C’est bien malheureux, car je ne crois pas qu’il y ait jamais eu, en aucun pays, une assemblée mieux intentionnée, plus démocratique, plus sincère amie du bien, plus dévouée. Elle fait honneur au suffrage universel, mais il faut avouer qu’elle partage les préjugés dominants.
+][
+Si vous jetez un coup d’œil sur la carte de Paris, vous vous convaincrez que l’insurrection a été plus forte que vous ne paraissez le croire. Quand elle a éclaté, Paris n’avait pas plus de huit mille hommes de troupes, qu’en bonne tactique il fallait concentrer, puisque c’était insuffisant pour opérer. Aussi l’émeute s’est bientôt rendue maîtresse de tous les faubourgs, et il ne s’en est pas fallu de deux heures qu’elle n’envahît notre rue. D’un autre côté elle attaquait l’Hôtel de ville, et, par le ,(emph[Gros-Caillou]), menaçait l’Assemblée nationale, au point que nous avons été réduits, nous aussi, à la ressource des ,(emph[barricades]). Mais, au bout de deux jours, les renforts nous sont arrivés de province.
+][
+Vous me demandez si cette insurrection sera la dernière. J’ose l’espérer. Nous avons maintenant de la fermeté et de l’unité dans le pouvoir. La chambre est animée d’un esprit d’ordre et de justice, mais non de vengeance. Aujourd’hui notre plus grand ennemi, c’est la misère, le manque de travail. Si le gouvernement rétablit la sécurité, les affaires reprendront, et ce sera notre salut.
+][
+Vous ne devez pas douter, mon cher Monsieur, de l’empressement avec lequel je me rendrais à votre bonne invitation et à celle de madame Schwabe, si je le pouvais. Quinze jours passés auprès de vous, à causer, promener, faire de la musique, caresser vos beaux enfants, ce serait pour moi le bonheur. Mais, selon toute apparence, je serai obligé de me le refuser. Je crains bien que notre session ne dure longtemps. Soyez sûr, du moins, que si je puis m’échapper, je n’y manquerai pas.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII, pp. 420-432. ,(XXX)
+])))

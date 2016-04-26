@@ -1,0 +1,20 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettres à M. et ,(Mme) Schwabe
+	- par Frédéric Bastiat")
+
+(document :title "Lettres à M. et ,(Mme) Schwabe"
+	:author (author-FB)
+(itemize
+  (item (ref :url "lettre_schwabe1848a.html" [17 janvier 1848]))
+  (item (ref :url "lettre_schwabe1848b.html" [27 janvier 1848]))
+  (item (ref :url "lettre_schwabe1848c.html" [16 février 1848]))
+  (item (ref :url "lettre_schwabe1848d.html" [17 mai 1848]))
+  (item (ref :url "lettre_schwabe1848e.html" [,(1er) juillet 1848]))
+  (item (ref :url "lettre_schwabe1848f.html" [7 octobre 1848]))
+  (item (ref :url "lettre_schwabe1848g.html" [25 octobre 1848]))
+  (item (ref :url "lettre_schwabe1848h.html" [14 novembre 1848]))
+  (item (ref :url "lettre_schwabe1848i.html" [28 décembre 1848]))
+  (item (ref :url "lettre_schwabe1849a.html" [11 mars 1849]))
+  (item (ref :url "lettre_schwabe1849b.html" [14 octobre 1849]))
+  ))
