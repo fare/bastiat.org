@@ -1,0 +1,45 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 18 septembre 1849")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Mugron, 18 septembre 1849])
+(p*[
+Il y a un fond de tristesse dans votre lettre, madame, c’est bien naturel. Vous veniez de perdre une amie d’enfance. Dans ces circonstances, le premier sentiment est celui du regret, ensuite on jette un regard troublé sur son entourage, et on finit par faire un retour sur soi-même ; l’esprit interroge le grand inconnu et, ne recevant aucune réponse, il s’épouvante ; c’est qu’il y a là un mystère qui n’est pas accessible à l’esprit, mais au cœur. — ,(emph[Peut-on douter sur un tombeau ?]) ,(footnote*[L’édition Guillaumin publie un court extrait de cette lettre (à partir des mots “Vous veniez de perdre…”), curieusement daté de juillet 1850.])
+][
+Madame, permettez-moi de vous rappeler que vous n’avez pas le droit d’être longtemps triste. Votre âme est un diapason pour tous ceux qui vous chérissent et vous êtes tenue d’être heureuse, sous peine de rendre malheureux votre mère, votre mari et cette délicieuse enfant que vous aimez tant que vous forceriez tout le monde à l’aimer, si elle n’y pourvoyait fort bien elle-même.
+][
+Mes idées ont pris la même direction, car nous avons aussi nos épreuves ; le choléra n’a pas visité ce pays, mais il y a envoyé un fâcheux émissaire : la femme de chambre de ma tante est gravement atteinte ; on espère pourtant la sauver ; du même coup il semble que ma tante a perdu vingt ans, car elle est sur pied nuit et jour. Pour moi, je m’humilie devant de tels dévouements, et je vous soutiendrai toujours, mesdames, que vous ,(emph[valez]) cent fois plus que nous. Il est vrai que je ne suis pas d’accord avec les autres économistes sur le sens du mot ,(emph[valeur]).
+][
+Vouliez-vous me railler, madame, en me reprochant de ne pas écrire ? — Cinq lettres en quatre semaines ! Mais qu’est donc devenue la précieuse missive dont vous me parlez ? Je ne me consolerais pas qu’elle fût définitivement égarée.
+][
+Quel sujet traitait M. Augier pour que vous ayez eu l’aimable attention de m’adresser son œuvre ? J’aime bien les vers du jeune poëte, et je me rappellerai la vive impression que nous avons ressentie à la lecture de son drame ,(footnote*[,(cite-title[Gabrielle]).]). Enfin cette pièce pourra se retrouver ; il en a sans doute conservé la copie, et il voudra bien me la communiquer.
+][
+Mais votre lettre, celle de ,(Mlle) Louise sont-elles perdues pour toujours ? En ce cas serez-vous en état de me les réciter ? Soyez sûre que je vous le demanderai.
+][
+C’est samedi que je pars pour Bayonne ; je n’ai plus que quatre jours à rester ici. Quoique Mugron soit la monotonie réalisée, je regretterai ce séjour de calme, cette parfaite indépendance, cette libre disposition de tout mon temps, ces heures si semblables l’une à l’autre qu’on ne les distingue pas.
+,(verses
+[L’uniforme habitude]
+[Qui lie au jour le jour ;]
+[Point de gloire ou d’étude,]
+[Rien que la solitude,]
+[La prière et. . . .])
+][
+Je n’achève pas le vers, car mon maître de littérature m’a appris qu’il ne fallait jamais sacrifier la raison à la rime.
+][
+Le 19. — Dans deux heures, j’irai moi-même à Tartas pour remettre au courrier les boîtes contenant des ortolans. Ils partiront jeudi matin et arriveront à Paris samedi ; si, par hasard, on ne les portait pas à l’hôtel Saint-Georges, il faudrait que vous prissiez la peine de faire passer à la poste ; car la ponctualité est nécessaire envers ces petites bêtes.
+][
+Je souhaite que mes compatriotes ne se laissent pas ,(emph[corrompre]) en route, et que vous n’ayez pas à répéter le mot de Faucher à propos des incompatibilités : « Que peut-il venir de bon des grandes Landes ? » Notre ami de Labadie est déjà une bonne protestation ; qu’en pensez-vous, mademoiselle Louise ? Puisque je m’adresse à vous, laissez-moi dire que mes pauvres oreilles sont ici comme dans le vide. Elles ont faim et soif de musique. Réservez-moi une jolie romance, tout ce qu’il y a de plus ,(emph[mineur]). Ne voudrez-vous pas aussi perfectionner cette « Nuit des Tropiques » ? Elle finira par vous plaire.
+][
+De la musique aux Harmonies la transition est bien tentante. Mais comme il s’agit d’harmonies économiques, cela refroidit un peu. Aussi je ne vous en parlerai pas ; seulement je vous avouerai que mon livre, à cause des développements auxquels j’ai été entraîné, ne touchera plus que les hommes du métier ; je suis donc à peu près résolu, ainsi que je l’ai dit à M. Cheuvreux, à entreprendre une publication mensuelle. Je m’adresserai à vous pour ,(emph[placer des billets]). En fait de journaux le ,(emph[placement]) importe au moins autant que la ,(emph[confection]). C’est ce que nos confrères oublient trop. Il faudra que vous intéressiez les femmes à cette œuvre.
+][
+Adieu, madame, rappelez-moi au souvenir de M. Cheuvreux. Je ne suis pas surpris qu’il trouve que l’air de la Jonchère vaut mieux que celui de Vichy. Je prie ,(Mlle) Louise de me permettre le mot ,(emph[amitié]). On est toujours embarrassé avec ces charmantes créatures ; hommages, c’est bien respectueux ; affection, c’est bien familier. Il y a de tout cela ; et on ne sait comment l’exprimer. Il faut qu’elles devinent un peu.
+][
+Votre bien dévoué,
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 43, et de l’,(EO1863), tome VII, pp. 432-436. ,(XXX)
+])))

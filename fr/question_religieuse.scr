@@ -1,0 +1,48 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Discours sur la répression des coalitions industrielles, par Frédéric Bastiat")
+
+(document :title "Discours sur la répression des coalitions industrielles"
+	:author (author-FB)
+(p*[
+J’ai toujours pensé que la question religieuse remuerait encore le monde. Les religions positives actuelles retiennent trop d’,(emph[esprit]) et de ,(emph[moyens]) d’exploitation pour se concilier avec l’inévitable progrès des lumières. D’un autre côté, l’abus religieux fera une longue et terrible résistance, parce qu’il est fondu et confondu avec la morale religieuse qui est le plus grand besoin de l’humanité.
+][
+Il semble donc que l’humanité n’en a pas fini avec cette triste oscillation qui a rempli les pages de l’histoire : d’une part, on attaque les abus religieux et, dans l’ardeur de la lutte, on est entraîné à ébranler la religion elle-même. De l’autre, on se pose comme le champion de la religion, et, dans le zèle de la défense, on innocente les abus.
+][
+Ce long déchirement a été décidé le jour où un homme s’est servi de Dieu pour faire d’un autre homme son esclave intellectuel, le jour où un homme a dit à un autre : « Je suis le ministre de Dieu, il m’a donné tout pouvoir sur toi, sur ton esprit, sur ton corps, sur ton cœur. »
+][
+Mais, laissant de côté ces réflexions générales, je veux attirer votre attention sur deux faits dont les journaux d’aujourd’hui font mention, et qui prouvent combien sont loin d’être résolus les problèmes relatifs à l’accord ou la séparation du spirituel et du temporel.
+][
+On dit que c’est cette complète séparation qui résoudra toutes les difficultés. Ceux qui avancent cette assertion devraient commencer par prouver que le spirituel et le temporel peuvent suivre des destinées indépendantes, et que le maître du spirituel n’est pas maître de tout.
+][
+Quoi qu’il en soit, voici les deux faits, ou le fait. 
+][
+Monseigneur l’évêque de Langres, ayant été choisi par les électeurs du département de …… pour les représenter, n’a pas cru devoir tenir cette élection comme suffisante, ni même s’en remettre à sa propre décision. Il a un chef qui n’est ni Français, ni en France, et, il faut bien le dire, qui est en même temps roi étranger. C’est à ce chef que Mgr l’évêque de Langres s’adresse. Il lui dit : « Je vous promets une entière et douce obéissance ; ferai-je bien d’accepter ? » Le chef spirituel (en même temps roi temporel) répond : « L’état de la religion et de l’,(emph[Église est]) si alarmant que vos services peuvent être plus utiles sur la scène politique que parmi votre troupeau. »
+][
+Là-dessus, Mgr de Langres fait savoir à ses électeurs qu’il accepte leur mandat ; comme évêque, il est forcé de les quitter, mais ils recevront en compensation la bénédiction apostolique. Ainsi tout s’arrange.
+][
+Maintenant, je le demande, est-ce pour défendre des dogmes religieux que le Pape confirme l’élection de … ? Mgr de Langres va-t-il à la Chambre pour combattre des hérésies ? Non, il y va pour faire des lois civiles, pour s’y occuper exclusivement d’objets temporels.
+][
+Ce que je veux faire remarquer ici, c’est que nous avons en France cinquante mille personnes, toutes très influentes par leur caractère, qui ont juré une entière et douce obéissance à leur chef spirituel qui est en même temps roi étranger, et que le spirituel et le temporel se mêlent tellement, que ces cinquante mille hommes ne peuvent rien faire, même comme citoyens, sans consulter le souverain étranger, dont les décisions sont indiscutables.
+][
+Nous frémirions, si on nous disait : On va investir un roi, Louis-Philippe, Henri V, Bonaparte, Léopold, de la puissance spirituelle. Nous penserions que c’est fonder un despotisme sans limites. Cependant qu’on ajoute la puissance spirituelle à la temporelle, ou qu’on superpose celle-ci à celle-là, n’est-ce pas la même chose ? Comment se fail-il que nous ne pensions pas sans horreur à l’usurpation du gouvernement des âmes par l’autorité civile, et que nous trouvions si naturelle l’usurpation de la puissance civile par l’autorité sacerdotale ?
+][
+Après tout, S. S. Pie IX n’est pas le seul homme en Europe revêtu de cette double autorité. Nicolas est empereur et pape ; Victoria est reine et papesse.
+][
+Supposons qu’un Français professant la religion anglicane soit nommé représentant. Supposons qu’il écrive et fasse publier dans les journaux une lettre ainsi conçue :
+][
+Gracieuse souveraine,
+][
+Je ne vous dois rien comme reine ; mais, placée à la tête de ma religion, je vous dois mon entière et douce obéissance. Veuillez me faire savoir, après avoir consulté votre gouvernement, s’il est dans les intérêts de l’État et de l’Église d’Angleterre que je sois législateur en France.
+][
+Supposez que Victoria fasse et publie cette réponse :
+][
+« Mon gouvernement est d’avis que vous acceptiez la députation. Par là vous pourrez rendre de grands services directement à ma puissance spirituelle et, par suite, indirectement à ma puissance temporelle ; car il ebt bien clair que chacune d’elles sert à l’autre. »
+][
+Je le demande, cet homme pourrait-il être considéré comme un loyal et sincère représentant de la France ?…
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Discours sur la répression des coalitions industrielles]),
+pp. 355-357.
+])))

@@ -56,6 +56,7 @@
 (define *site-by* "A site by")
 (define (NdT) (emph[(Note du traducteur)]))
 (define (NdEEO) (emph[(Note de l'éditeur de l'édition originale.)]))
+(define (LHL) (emph[Lettres d’un habitant des Landes]))
 
 (define (use-lang lang)
    (case lang
@@ -119,6 +120,7 @@
 (def-n-th)
 (def-n-o)
 (define (Mme) [M,(sup "me")])
+(define (Mlle) [M,(sup "lle")])
 (define (Ier) [I,(sup "er")])
 (define (Iere) [I,(sup "re")])
 (define (eme) (sup "e"))
@@ -147,6 +149,7 @@
 (define (55e) [55,(sup "e")])
 (define (VIIe) [VII,(sup "e")])
 (define (XIe) [XI,(sup "e")])
+(define (XIIIe) [XIII,(sup "e")])
 (define (XVIIIe) [XVIII,(sup "e")])
 (define (XVIIIeme) [XVIII,(sup "e")])
 (define (XIXe) [XIX,(sup "e")])
@@ -427,4 +430,3 @@
     (div :style "font-style: italic;" body)
     (when author
           (div :style "text-align: right;" "— " author))))
-

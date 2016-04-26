@@ -1,9 +1,9 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Lettres à M. et ,(Mme) Schwabe
+(in-bof :title "Lettres à M. et Mme Schwabe
 	- par Frédéric Bastiat")
 
-(document :title "Lettres à M. et ,(Mme) Schwabe"
+(document :title "Lettres à M. et Mme Schwabe"
 	:author (author-FB)
 (itemize
   (item (ref :url "lettre_schwabe1848a.html" [17 janvier 1848]))

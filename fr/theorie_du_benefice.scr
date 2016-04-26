@@ -1,0 +1,83 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Théorie du bénéfice, par Frédéric Bastiat")
+
+(document :title "Théorie du bénéfice"
+	:author (author-FB)
+(date-tag[,(cite-title[Mémorial bordelais]) du 26 février 1846.])
+(p*[
+Lundi, en sortant de l’assemblée, un monsieur m’accoste et me dit : Je vous ai écouté avec attention, vous avez articulé ces paroles : « Il faut savoir enfin de quel côté est la vérité. Si nous nous trompons, qu’on pousse la protection jusqu’au bout. Si nous sommes dans le vrai, réclamons la liberté, etc., etc. » — Or, Monsieur, cela suppose que ,(emph[liberté]) et ,(emph[restriction]) sont incompatibles.
+][
+— Il me semble que cela résulte des termes eux-mêmes.
+][
+— Vous n’avez donc pas lu le ,(cite-title[Moniteur industriel]) ? Il prouve clairement que ,(emph[liberté, protection, prohibition]), tout cela s’accommode fort bien ensemble, en vertu de la théorie du ,(emph[bénéfice]).
+][
+— Quelle est donc cette théorie ?
+][
+— La voici en peu de mots. L’homme aspire à consommer. Pour consommer, il faut produire ; pour produire, il faut travailler ; et pour travailler il faut avoir en perspective un ,(emph[bénéfice]) probable, ou, mieux encore, assuré.
+][
+— Fort bien, et la conclusion ?
+][
+— La conclusion, elle est bien simple : écoutez le ,(cite-title[Moniteur !]) « À quelles mesures doit avoir recours un peuple qui veut tel produit, qui cherche à arriver à la plus grande production possible, afin d’arriver ainsi, par le plus court chemin possible, à une plus grande consommation, à un plus grand bien-être ? Évidemment il doit ,(emph[assurer des bénéfices]) à quiconque entreprend telle industrie. Il doit assurer des bénéfices aux producteurs. »
+][
+— Et le moyen ?
+][
+— Écoutez encore le ,(cite-title[Moniteur :]) « Pour développer le plus possible le travail, tantôt la prohibition est bonne, tantôt c’est la protection, et tantôt c’est la liberté. » Vous voyez que le ,(cite-title[Moniteur industriel]) n’est pas plus pour la prohibition, que pour la protection, que pour la liberté.
+][
+— En d’autres termes : il faut que toute industrie gagne, de manière ou d’autre. À celle qui donne un bénéfice naturel, liberté, concurrence ; à celle qui donne naturellement de la perte, le droit de convertir cette perte en profit par le pillage organisé. Il y aurait bien des choses à dire là-dessus. Mais vous me rappelez une scène dont j’ai été témoin ces jours-ci. Voulez-vous me permettre de la raconter ?
+][
+— J’écoute.
+][
+— J’étais chez M. le maire, lorsqu’est survenu un solliciteur industriel, et voici le dialogue que j’ai entendu.
+][
+,(emph[L’Industriel.]) — Monsieur le Maire, j’ai découvert dans mon jardin une terre rougeâtre qui m’a paru contenir du fer, et j’ai l’intention d’établir chez moi, au milieu de la ville, un haut fourneau.
+][
+,(emph[Le Maire.]) — Vous vous ruinerez.
+][
+,(emph[L’Industriel.]) — Pas du tout, je suis sûr de gagner.
+][
+,(emph[Le Maire.]) — Comment cela ?
+][
+,(emph[L’Industriel.]) — Tout simplement par le bénéfice.
+][
+,(emph[Le Maire.]) — Où sera le bénéfice, si vous êtes forcé de vendre au cours, c’est-à-dire à 12 ou 15 francs, du fer qui vous reviendra peut-être à 100 francs, peut-être à 1 000 francs. ?
+][
+,(emph[L’Industriel.]) — C’est pour cela que je viens vous trouver. Mettez-moi à même de rançonner vos administrés non seulement jusqu’à concurrence de mes pertes, mais encore au delà, et vous aurez assuré à mon industrie des ,(emph[bénéfices]).
+][
+,(emph[Le Maire.]) — Mon autorité ne va pas jusque-là.
+][
+,(emph[L’Industriel.]) — Pardon, monsieur le Maire, n’avez-vous pas un octroi ?
+][
+,(emph[Le Maire.]) — Oui ; et, par parenthèse, je voudrais bien qu’il fût possible d’asseoir les revenus de la ville sur un autre moyen.
+][
+,(emph[L’Industriel.]) — Eh bien ! mettez l’octroi à mon service ; qu’il ne laisse pas une parcelle de fer passer la barrière. Les Bordelais seront bien forcés de venir acheter mon fer, et à mon prix.
+][
+,(emph[Le Maire.]) — Tous les autres travailleurs jetteront de hauts cris.
+][
+,(emph[L’Industriel.]) — Vous leur accorderez à tous les mêmes faveurs.
+][
+,(emph[Le Maire.]) — Fort bien. En sorte que, comme vous aurez bien peu de fer à fournir, nous aurons aussi peu de pain, peu de vêtements, peu de toutes choses. Ce sera le régime de ,(emph[la moindre quantité]).
+][
+,(emph[L’Industriel.]) — Qu’importe, si nous réalisons tous des ,(emph[bénéfices]), en nous pillant les uns les autres légalement et avec ordre ?
+][
+,(emph[Le Maire.]) — Monsieur, votre plan est fort beau ; mais les Bordelais ne s’y soumettront pas.
+][
+,(emph[L’Industriel.]) — Pourquoi pas ? Les Français s’y soumettent bien. Je ne demande à l’octroi que ce que d’autres demandent à la Douane.
+][
+,(emph[Le Maire.]) — Eh bien ! puisqu’elle est si bénévole, adressez-vous à elle et ne me rompez plus la tête. L’octroi est chargé de prélever un impôt, et non de procurer des ,(emph[bénéfices]) aux industriels.
+][
+,(emph[L’Industriel.]) — Monsieur le Maire, encore un mot. Supposez que ma requête ait prévalu il y a vingt ans ; vous auriez aujourd’hui un haut fourneau au milieu de la ville, qui ferait vivre au moins trente ouvriers.
+][
+,(emph[Le Maire.]) — Oui, et Bordeaux serait réduit peut-être à deux mille âmes de population.
+][
+,(emph[L’Industriel.]) — Vous comprenez que si, dans mon hypothèse, on voulait renverser l’octroi, mes trente ouvriers seraient sans ouvrage.
+][
+,(emph[Le Maire.]) — Et Bordeaux tendrait à redevenir ce qu’il est, une splendide cité de cent mille habitants.
+][
+,(emph[L’Industriel]), en s’en allant. — Ce que c’est que d’avoir affaire à un théoricien ! Ne pas comprendre la théorie du ,(emph[bénéfice !]) — Mais j’irai trouver le directeur des Douanes, et ma cause n’est pas perdue.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Théorie du bénéfice]),
+pp. 50-53.
+])))

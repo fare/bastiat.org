@@ -1,0 +1,54 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Qu’est-ce que le commerce ?, par Frédéric Bastiat")
+
+(document :title "Qu’est-ce que le commerce ?"
+	:author (author-FB)
+(date-tag[,(cite-title[Courrier français]) du ,(1er) avril 1846.])
+(p*[
+L’argument qu’il est de mode aujourd’hui d’opposer à la liberté des échanges a été porté à la tribune nationale par M. Corne. C’est celui-ci :
+][
+« Attendons, afin de pouvoir lutter avec l’étranger ,(emph[à armes égales]), que nous ayons autant que lui de capitaux, de fer, de houille, de routes, et alors nous affronterons les périls de la concurrence. »
+][
+Ceci implique que le bon marché auquel l’étranger peut nous livrer certains produits est justement le motif pour lequel on nous défend de les acheter.
+][
+Là-dessus je me demande : ,(emph[Qu’est-ce que le commerce ?]) Une chose est à meilleur marché dans tel pays étranger qu’en France ; est-ce une raison pour nous abstenir de commercer avec ce pays ? ou bien est-ce un motif de commercer avec lui le plus tôt possible ?
+][
+Si les monopoleurs ne s’en mêlaient pas, la question serait bientôt résolue. Non-seulement les négociants décideraient que c’est là un motif suffisant pour déterminer le commerce, mais encore que c’est le motif unique, qu’il n’y en a pas d’autre possible, ni même imaginable.
+][
+Mais ces messieurs raisonnent autrement, en fait de commerce, que les commerçants. Ils disent : Ce qui est plus cher au dehors qu’au dedans, laissons-le entrer librement ; et ce qui est à meilleur marché, repoussons-le ,(emph[de par la loi]).
+][
+Il est possible que le principe absolu de la prohibition ne soit pas dans les actes de ces législateurs, mais il est très certainement dans leur ,(emph[exposé des motifs]).
+]
+(subtitle[LIBERTÉ, ÉGALITÉ.])
+[M. Corne a mis l’,(emph[égalité]) en opposition avec la ,(emph[liberté]).
+][
+Cela seul devrait l’avertir qu’il y a un vice radical dans sa doctrine. En tout cas, une chose m’étonne : comment ose-t-on prendre sur soi d’opter, quand on a le malheur de croire que la liberté et l’égalité sont incompatibles ?
+][
+M. Corne a opté, néanmoins ; et, réduit à sacrifier l’une ou l’autre, c’est la liberté qu’il immole.
+][
+La liberté ! mais c’est la justice !
+][
+Pierre rencontre Paul, et lui dit : « Mon ami, je fais de la toile, et je vous en vendrai, pourvu que vous me permettiez de mettre la main dans votre poche et d’en retirer un prix qui me satisfasse. » — Paul répond : « Ne prenez pas cette peine, je sais quelqu’un qui me donnera de la toile à moitié prix. » — De quel côté est le bon droit ? — La loi tranche la question en mettant au service de Pierre la baïonnette du douanier.
+][
+Qu’y faire ? dites-vous : la justice et la liberté sont d’un côté ; l’égalité et la prospérité, de l’autre ; il faut choisir.
+][
+Triste alternative, ou plutôt dérisoire blasphème. Non, il n’est pas vrai qu’il y ait entre le ,(emph[juste]) et l’,(emph[utile]) un irrémédiable conflit. Cette doctrine contredit les faits autant qu’elle choque la raison.
+][
+Car enfin qui protégez-vous ? Celui qui élève des bestiaux, ,(emph[aux dépens]) de ceux qui mangent de la viande ; celui qui a obtenu des concessions houillères ou qui possède des forêts, ,(emph[au détriment]) de ceux qui ont besoin de faire cuire leurs aliments ou de réchauffer leurs membres engourdis ; le petit nombre, ,(emph[au préjudice]) du grand nombre.
+][
+Vous parlez de la classe ouvrière. Et quel est le langage que tient le monopoleur au charpentier, au maçon, au cordonnier, à cette innombrable famille d’artisans auxquels la douane n’a aucune compensation à donner ? Le voici :
+][
+« Il vous faut du pain, du vin, des vêtements, du feu, du fer. Prenez une bêche, et si vous trouvez un coin de terre inoccupé, labourez-le ; semez-y du blé, du lin et du gland ; plantez-y de la vigne, cherchez-y du minerai, faites-y paître vos troupeaux, et rien ne vous manquera. »
+][
+« Hélas ! dit chaque ouvrier, votre conseil est excellent, mais je ne puis le suivre. Heureusement que j’ai des bras. Je puis tailler la pierre, ou manier la hache et pousser le rabot. On me payera, et avec mon salaire j’achèterai les objets nécessaires au maintien de mon existence. »
+][
+Mais alors, dit à chacun le monopoleur : « Pain, bois, viande, laine, je te forcerai de l’acheter à ma boutique, ainsi que ta truelle, ta hache et ton rabot. J’ai même fait une loi pour que tu n’en obtiennes que le moins possible en échange de ton labeur. »
+][
+Et puis il ajoute : « ,(emph[Tu n’es pas libre, — mais que l’égalité te console !]) »
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Qu’est-ce que le commerce ?]),
+pp. 63-66.
+])))
