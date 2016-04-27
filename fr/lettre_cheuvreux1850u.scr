@@ -1,0 +1,27 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 29 octobre 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Pise, le 29 octobre 1850])
+(p*[
+,(strong[Chère madame Cheuvreux]),
+][
+Que votre voyage de Florence à Rome a dû être pénible ,(footnote*[Les amis de Bastiat, après avoir passé deux jours près de lui à Pise, étaient allés l’attendre à Rome.]) ! Malgré ce fonds de philosophie avec lequel vous savez prendre les contrariétés, malgré la bonne humeur que chacun de vous aura apporté à la communauté, il n’est pas possible que vous n’ayez pas souffert avec un si horrible temps, à travers des routes défoncées et dans un pays sans ressources. Mon imagination ose à peine vous suivre dans cette Odyssée ; toutes les prédictions de M. Sturler se dressent devant elle. Combien je bénis pourtant l’heureuse inspiration qui vous a fait prendre la mer à Marseille le 19 ! Deux jours plus tard la traversée est devenue dangereuse, la Méditerranée s’est soulevée au point de désorganiser tous les services, et le bateau arrivé à Gênes, qui vous a suivis, n’a pu parvenir jusqu’à Livourne. Il a relâché à la Spezzia, où il a abandonné ses passagers. Grâce au ciel, vous avez échappé à ces périls, et cette idée me console un peu de vos privations actuelles, qui heureusement finiront ce soir. La vue de la ville éternelle fait tout oublier. Cette ville éternelle, je compte y entrer samedi 2 novembre. Je partirai de Livourne par le paquebot de l’État (,(initalian[tempo permettendo])), et vous comprenez que je ne m’arrêterai pas à Civita-Vecchia.
+][
+Chère madame, ne parlons pas de ma santé, c’est une sonate dont j’aurai tout le temps de vous étourdir à Rome. Quand je pense que vous êtes venue pour procurer à votre mari, à votre fille surtout, plaisirs et distractions, j’ai quelques remords de me jeter au milieu de vous comme un trouble-fête, car je m’aperçois bien que depuis longtemps je tourne au Victor Hugo, à ses ,(cite-title[Derniers jours d’un condamné]), ce qui devient peu récréatif pour mes amis. Encore je m’avise de trouver le héros de Victor Hugo bien heureux ; car enfin il pouvait penser et parler ; il était dans la même position que Socrate, pourquoi n’a-t-il pas pris les choses comme lui ?
+][
+Ce petit livre que je vous ai demandé nous montre ce philosophe athénien, condamné à mort, dissertant sur son âme et son avenir ; cependant Socrate était païen, il était réduit à se créer, par le raisonnement, des espérances incertaines. Un condamné chrétien n’a pas ce chemin à parcourir ; la révélation le lui épargne, et son point de départ est précisément cette espérance, devenue une certitude, qui pour Socrate était une conclusion. Voilà pourquoi le condamné de Victor Hugo n’est qu’un être pusillanime. Ne vaut-il pas mieux avoir devant soi un mois de force et de santé, un mois de vigueur de corps et d’âme, et la ciguë au bout, qu’un an ou deux de déclin, d’affaiblissement, de dégoût, pendant lesquels tous les liens se rompent, la nature ne semblant plus prendre d’autre soin que de vous détacher de la terrestre existence ? Enfin, à Dieu d’ordonner, à nous de nous résigner.
+][
+Il me paraît bien que je suis un peu mieux ; j’ai pu faire d’assez longues séances chez M. Mure, de plus j’ai reçu un très-grand nombre de visites.
+][
+Paillotet m’a écrit ; c’est toujours le même homme, bon, obligeant, dévoué et de plus naïf, ce qui est assez rare à Paris. Ma famille me donne aussi de ses nouvelles.
+][
+Adieu, chère madame Cheuvreux, à samedi ou dimanche ; d’ici là, veuillez assurer M. Cheuvreux et votre fille de toute mon amitié, n’oubliez pas le capitaine et veuillez présenter mes compliments et mes respects à M. Édouard et à ,(Mme) Bertin.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 127. ,(XXX)
+])))

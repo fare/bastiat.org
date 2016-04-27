@@ -1,0 +1,37 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à M. Cheuvreux
+du 18 septembre 1850")
+(document :title "Lettre à M. Cheuvreux"
+	:author (author-FB)
+(date-tag[Marseille, 18 septembre 1850])
+(p*[
+,(strong[Mon cher monsieur Cheuvreux]),
+][
+Il m’a été pénible de quitter Paris sans vous serrer la main, mais je ne pouvais retarder mon départ sous peine de manquer ici le paquebot-poste. En effet, je suis arrivé hier et n’ai qu’un jour pour tous mes préparatifs, passe-port, etc.
+][
+Il n’est pas même certain que je m’embarque ; j’apprends que les voyageurs qui suivent la voie de mer sont accueillis en Italie par une quarantaine. Trois jours de lazaret, c’est fort peu séduisant !
+][
+En arrivant à Marseille, ma première visite a été pour la poste, j’espérais y trouver une lettre ; savoir que vous jouissiez tous les trois d’une bonne santé à la Jonchère m’aurait rendu si heureux ! cette lettre n’y était pas. La réflexion m’a fait comprendre mon trop d’exigence, car enfin il y a à peine huit jours que j’ai quitté cette chère montagne ; le silence fait paraître le temps si long ; il n’est point étonnant que j’attache tant de prix à la réception d’une lettre.
+][
+Qu’il me tarde d’être à Pise, qu’il me tarde de savoir si ce beau climat raffermira ma tête et mettra à sa disposition deux heures de travail par jour. Deux heures ! ce n’est pas trop demander, et pourtant c’est encore là une vanité.
+][
+Sans doute comme à André Chénier, comme à tous les auteurs, il me semble que j’ai ,(emph[quelque chose là ;]) mais cette bouffée d’orgueil ne dure guère. Que j’envoie à la postérité deux volumes ou un seul, la marche des affaires humaines n’en sera pas changée.
+][
+N’importe, je réclame mes deux heures, sinon pour les ,(emph[générations futures]), du moins dans mon propre intérêt. Car, si l’interdiction du travail doit s’ajouter à tant d’autres, que deviendrai-je dans cette tombe anticipée ! J’ai passé à Valence la nuit du dimanche au lundi. Malgré le désir que j’avais de voir le capitaine et les efforts que j’ai faits pour cela, je n’ai pu réussir.
+][
+. . . . . . . . . . . . . . . . . . . . . . . . .
+][
+Le 19. Décidément je pars demain et par terre. Me voici lancé dans une entreprise dont je n’entrevois pas le terme.
+][
+Ce matin j’espérais encore une lettre, je serais parti plus gaiement ; maintenant le bon Dieu sait où et quand j’entendrai parler de vous tous ; me faudra-t-il attendre quinze jours ?
+][
+Veuillez, cher monsieur Cheuvreux, me rappeler au souvenir de la mère et de la fille, les assurer de ma profonde amitié. Ne m’oubliez pas non plus auprès de M. Édouard et de ,(Mme) Anna, qui me permettront bien d’embrasser tendrement, quoique de bien loin, leur aimable enfant.
+][
+Adieu, cher monsieur Cheuvreux.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 115. ,(XXX)
+])))

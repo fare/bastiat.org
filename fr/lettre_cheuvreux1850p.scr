@@ -1,0 +1,21 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 14 septembre 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Le soir, Lyon, 14 septembre 1850])
+(p*[
+,(strong[Chère madame Cheuvreux]),
+][
+Je pars demain pour Marseille. En prenant le bateau de onze heures, on n’a que l’inconvénient de coucher à Valence, et ce n’en sera pas un pour moi puisque j’aurai le plaisir de porter des nouvelles à votre frère le capitaine.
+][
+Si vous passez à Lyon ne manquez pas de gravir Fourvières ! C’est un horizon admirable où l’on embrasse d’un coup d’œil les Alpes, les Cévennes, les montagnes du Forez et celles de l’Auvergne. Quelle image du monde que ce Fourvières ! En bas, le travail et ses insurrections ; au milieu, des canons et des soldats ; en haut, la religion avec toutes ses tristes excroissances. N’est-ce pas l’histoire de l’humanité ?
+][
+En contemplant le théâtre de tant de luttes sanglantes, je pensais qu’il n’est pas de besoin plus impérieux chez l’homme que celui de la confiance dans un avenir qui offre quelque fixité. Ce qui trouble les ouvriers, ce n’est pas tant la modicité des salaires que leur incertitude ; et si les hommes qui sont arrivés à la fortune voulaient faire un retour sur eux-mêmes, en voyant avec quelle ardeur ils aiment la sécurité, ils seraient peut-être un peu indulgents pour les classes qui ont toujours, pour une cause ou une autre, le chômage en perspective. Une des plus belles harmonies économiques c’est l’accession successive de toutes les classes à une ,(emph[fixité]) de situation de jour en jour plus stable. La société réalise cette fixité à mesure que la civilisation se fait, par le salaire, le traitement, la rente, l’intérêt, enfin par tout ce que repoussent les socialistes. De telle sorte que leurs plans ne font que ramener l’humanité à son point de départ, c’est-à-dire au moment où l’incertitude arrive au plus haut degré pour tout le monde… Il y a là un sujet de recherches nouvelles pour l’économie politique… Mais de quoi vais-je vous entretenir à propos de Fourvières ! Quelle poésie, grand Dieu ! Pour l’oreille délicate d’une femme !… Adieu encore, pardonnez ce torrent de paroles ; je me venge de mon silence, mais est-il juste que vous en soyez victime ?
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 113. ,(XXX)
+])))
