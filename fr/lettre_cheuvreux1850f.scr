@@ -1,0 +1,27 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+de mai 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Bordeaux, mai 1850])
+(p*[
+Me voici à Bordeaux plongé avec délice dans l’atmosphère du midi. Quoique je quitte le tumulte parisien pour aller retrouver le calme du toit paternel, je vous assure que ma pensée, tout le long de la route, s’est retournée bien plus souvent en arrière qu’elle ne s’est portée en avant ; aussi je m’empresse de déployer le secrétaire de voyage que je dois aux soins si délicats de M. Cheuvreux.
+][
+En être réduit à faire de ma santé le premier chapitre de mes lettres, m’humilie un peu, mais votre bonté l’exige ; je le comprends, les maladies dont la toux se mêle ont le tort de trop alarmer nos amis. Elles portent avec elles comme une cloche importune qui ne cesse de poser cette question : qui l’emportera, du rhume ou de l’enrhumé ? Le voyage, au lieu de me fatiguer, m’a soulagé ; il est vrai que j’ai eu à ma disposition, pendant trois jours, un excellent remède, le ,(emph[silence ;]) ce n’est que depuis Ruffec que je me suis un peu écarté à cet égard de vos prescriptions ; mes deux compagnons, montés tour à tour dans le cabriolet du courrier, pour se livrer aux douceurs du cigare, ont eu la curiosité de visiter la feuille de route. — Or il s’est rencontré que c’étaient deux enthousiastes d’économie politique ; en reprenant leur place, ils ont tenu à me montrer qu’ils connaissaient mes opuscules (car le titre même des harmonies ne leur était pas parvenu) et, alors l’occasion, l’herbe tendue, et sans doute quelque diable aussi me poussant, j’ai tondu de ce pré (la causerie) la largeur de ma langue ; je n’en avais nul droit, puisqu’on me l’avait défendu. Mais, j’ai donc succombé et le larynx n’a pas manqué de m’en punir ; ne me grondez pas, madame ; est-ce que le silence n’est pas un régime qui vous conviendrait quelquefois, autant qu’à moi ? et pourtant c’est le dernier auquel vous vous soumettiez.
+][
+Que ,(Mme) Girard, maintenant près de vous, interpose son autorité pour vous mettre sous le séquestre ; que vous sert de rester dans vos appartements si vous en faites ouvrir les portes à deux battants depuis dix heures du matin ? Ne sauriez-vous sacrifier à votre santé quelques moments de conversation ? Mais vous savez que le sacrifice retomberait sur les autres, et c’est pour cela que vous ne voulez pas le faire. Vous voyez que je connais la vieille tactique qui est de gronder le premier afin de n’être pas grondé. Après tout, je vois bien que nous descendons tous de notre mère Ève. Votre fille, elle-même, qui a tant de raison, se laisse souvent prendre au piége de la musique. À propos de musique, on a bien tort de s’imaginer qu’un son s’éteint dans l’étroit espace d’un salon et d’une seconde ; une note, ou plutôt un cri de l’âme que j’ai entendu samedi, a fait avec moi deux cents lieues ; il vibre encore dans mon oreille, pour ne pas dire plus.
+][
+Pauvre chère enfant, je crois bien avoir deviné la pensée dont elle a empreint le triste chant de Pergolèse ; cette voix touchante, dont les derniers accents semblaient se perdre dans une larme, ne disait-elle pas adieu aux illusions du jeune âge, aux beaux rêves d’une félicité idéale ? Oui, il semblait que votre chère Louise se sentait amenée par les circonstances à cette limite fatale et solennelle qui sépare la région des songes du monde de la réalité. Puisse la vie réelle lui apporter au moins un bonheur calme, solide, quoiqu’un peu grave ; pour cela, que faut-il ? Un bon cœur et du bon sens dans celui qui sera chargé de ses destinées ; c’est la première condition ; les hommes dont l’imagination ardente et artistique jette un grand éclat, offrent des chances souvent dangereuses ; mais n’en doutons pas, les nobles aspirations de votre enfant trouveront un jour satisfaction.
+][
+Comment allez-vous passer le mois prochain ? Resterez-vous à Paris ? Irez-vous à Auteuil, à Saint-Germain ou à Londres ? Je voterais assez pour l’Angleterre, c’est là que vous trouveriez une désirable combinaison de tranquillité et de distraction ; à la vérité, mes ,(emph[votes]) ne sont pas en bonne odeur, quoiqu’ils aient consciencieusement pour but d’éloigner les malheurs que vous redoutez ; mais ne glissons pas sur la pente de la politique. Il y a tant d’imprévu dans vos résolutions qu’il me tarde de savoir à quoi vous vous arrêterez. Je crains d’apprendre votre départ pour Moscou ou Constantinople. De grâce, que je vous retrouve confortablement installés aux environs de Paris ; la France est comme la Française, elle peut avoir quelques caprices, mais après tout, c’est la plus aimable, la plus gracieuse, la meilleure femme du monde et aussi la plus aimée.
+][
+Adieu, mesdames ; que ces deux mois d’absence ne m’effacent pas de votre mémoire ; adieu encore, monsieur Cheuvreux et mademoiselle Louise.
+][
+Votre dévoué,
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 65. ,(XXX)
+])))

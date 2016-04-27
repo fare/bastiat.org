@@ -1,0 +1,41 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 2 janvier 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Le 2 janvier 1850.])
+(p*[
+,(strong[Madame]),
+][
+On me tire de mon assoupissement pour me remettre trois volumes, que vous me renvoyez sans les accompagner d’un seul mot ; aurais-je été assez malheureux pour vous déplaire ?
+][
+Hier, vous avez réuni autour de votre table votre famille et quelques amis, pour inaugurer le nouvel an ; ce repas ne devait être que fête, joie et cordialité ; hélas ! la politique s’en est mêlée ; il est bien vrai que, sans moi, la politique n’eût pu y jeter ses sombres reflets, car tout le monde peut-être eût été d’accord.
+][
+Mais suis-je coupable ? N’ai-je pas longtemps gardé le silence, et n’ai-je pas mis sur le compte de ,(emph[généralités]) ce que j’aurais pu prendre pour des ,(emph[personnalités ?]) Des paroles qui ressemblaient à des provocations ?… — Que deviendrais-je, madame, si cette réserve ne suffit pas ?
+][
+Isolé, retenant à peine pour le travail un reste de force qui m’échappe, faudra-t-il perdre encore les douceurs de l’intimité, seul charme qui me rattache à l’existence ?
+][
+Entre M. Cheuvreux et moi, qu’importe une dissidence d’opinion, alors surtout qu’elle ne porte pas sur le but, sur aucun principe essentiel, mais seulement sur les moyens de surmonter les difficultés du moment ?
+][
+C’est par égard pour lui, autant que pour vous, madame, que j’ai dévoré le calice que ces messieurs ont approché de mes lèvres. Et, après tout, ces opinions qu’on me reproche, sont-elles donc si extravagantes ?
+][
+Je souhaiterais bien que l’on consentît à me considérer comme un solitaire, un philosophe, un rêveur, si vous voulez, qui ne veut se livrer à un parti, mais qui les étudie tous, pour voir où est le péril et si l’on peut essayer de le conjurer.
+][
+Je vois, en France, deux grandes classes qui, chacune, se subdivise en deux. Pour me servir de termes consacrés, quoique improprement, je les appellerai le peuple et la bourgeoisie.
+][
+Le peuple, c’est une multitude de millions d’êtres humains, ignorants et souffrants, par conséquent dangereux ; comme je l’ai dit, il se partage en deux, la grande masse assez attachée à l’ordre, à la sécurité, à tous les principes conservateurs ; mais, à cause de son ignorance et de sa souffrance, proie facile des ambitieux et des sophistes ; cette masse est travaillée par quelques fous sincères et par un plus grand nombre d’agitateurs, de révolutionnaires, de gens qui ont un penchant inné pour le désordre, ou qui comptent sur le désordre pour s’élever à la fortune et à la puissance.
+][
+La bourgeoisie, il ne faudrait jamais l’oublier, c’est le très-petit nombre ; cette classe a aussi son ignorance et sa souffrance, quoiqu’à un autre degré ; elle offre aussi des dangers d’une autre nature. Elle se décompose aussi en un grand nombre de gens paisibles, tranquilles, amis de la justice et de la liberté, et un petit nombre de meneurs. La bourgeoisie a gouverné ce pays-ci, comment s’est-elle conduite ? Le petit nombre a fait le mal, le grand nombre l’a laissé faire ; non sans en profiter à l’occasion.
+][
+Voilà la statistique morale et sociale de notre pays.
+][
+Tenant très-peu et croyant encore moins aux formes politiques, irai-je consumer mes efforts et déclamer contre la république ou la monarchie ? Conspirer pour changer des institutions que je regarde comme sans importance ? ,(emph[Non ;]) mais quand j’ai l’occasion de m’adresser au peuple, je lui parle de ses erreurs, de ses fausses aspirations ; je cherche à démasquer à ses yeux les imposteurs qui l’égarent, je lui dis : « Ne demande ,(emph[que justice]), car il n’y a que la justice qui puisse t’être bonne à quelque chose. » — Et quand je parle à la bourgeoisie, je lui dis : « Ce ne sont pas les fureurs ni les déclamations qui te sauveront, il faut en toutes rencontres accorder au peuple ce que la justice exige, afin d’être assez fort pour lui refuser tout ce qui dépasse la justice. »
+][
+Et c’est pourquoi les catholiques me disent que j’ai une doctrine à deux tranchants ; et c’est pourquoi le « Journal des Débats » dit que je dois m’habituer à déplaire aux deux partis. Eh ! mon Dieu, ne serait-il pas plus commode pour moi de me lancer corps et âme dans un des deux camps, d’en épouser les haines et les illusions, de me faire le flagorneur du peuple ou de la bourgeoisie, de m’affilier aux mauvaises fractions des deux armées.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 53. ,(XXX)
+])))

@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+de février 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Février 1850])
+(p*[
+,(strong[Madame]),
+][
+Je vous rends, à regret, le discours prononcé par M. de Boislembert, à l’occasion de l’inauguration du buste de M. Girard, en vous rappelant que vous m’en avez promis un exemplaire. Je l’ai lu avec enthousiasme, et voudrais le relire une fois par mois, pour me retremper. C’est une vie de Plutarque, en harmonie avec notre siècle. Que j’admire cette vie si belle, si digne, si bien remplie ! Quelle magnifique réunion de toutes les qualités qui honorent le plus la nature humaine : génie, talent, activité, courage, persévérance, désintéressement, grandeur, force d’âme dans les revers ! Jusque-là, pourtant, le portrait est bien imposant et ne représente que des lignes pures, mais sévères ; on admire, on n’aime pas encore ; mais bientôt la sympathie est complète quand l’auteur nous peint, avec trop de sobriété peut-être, sa verve étincelante, cette gaieté douce, cette inépuisable bienveillance, que M. Girard rapportait toujours au foyer domestique, dons du ciel les plus précieux de tous, que votre père n’a pas emportés dans la tombe.
+][
+Ces nobles figures, madame, font paraître les hommes bien petits, et l’humanité bien grande.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 58. ,(XXX)
+])))

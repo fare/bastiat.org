@@ -1,0 +1,23 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 7 octobre 1849")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Paris, 7 octobre 1849])
+(p*[
+,(strong[Madame]),
+][
+Il m’arrive ce matin de mes chères Landes une caisse que je suppose contenir des ortolans. Je vous l’envoie sans l’ouvrir. Si c’était des bas de laine ! Oh ! je serais bien confus ; mais en fin j’en serais quitte pour quelques plaisanteries. Hier soir, dans mon empressement et avec le tact qui me caractérise, je suis arrivé chez M. Say au beau milieu du dîner. Pour célébrer la réouverture des lundis, tous les amis se trouvaient là. L’entrain était grand à en juger par les éclats qui me parvenaient au salon. Le vestibule orné de nombreuses pelisses noires, blanches, roses, annonçait qu’il n’y avait pas que des économistes.
+][
+Après le dîner je m’approche de la belle-sœur de M. D… et, sachant qu’elle arrivait de Belgique, je lui demande si ce voyage avait été agréable. Voici sa réponse : « Monsieur, j’ai éprouvé l’indicible bonheur de ne voir la figure d’aucun républicain parce que je les déteste. » La conversation ne pouvait se soutenir longtemps sur ce texte, je m’adresse donc à sa voisine, qui se met à me parler des douces impressions que lui avait fait éprouver le royalisme belge. « Quand le roi passe, disait-elle, tout est fête : cris de joie, devises, banderoles, rubans et lampions. » Je vois bien que pour ne pas trop déplaire aux dames il faut se hâter d’élire un roi. L’embarras est de savoir lequel, car nous en avons trois en perspective ; qui l’emportera (après une guerre civile) ?
+][
+Force m’a été de me réfugier vers les groupes masculins, car vraiment la passion politique grimace sur la figure des femmes. Ces messieurs mettaient leur scepticisme en commun. Fameux propagandistes qui ne croient pas à ce qu’ils prêchent. Ou, plutôt ,(emph[ils ne doutent pas]), seulement ils affectent de douter. Dites-moi ce qu’il y a de pire, l’affectation du doute ou l’affectation de la foi ? Vraiment il faut que les économistes cessent cette comédie. Demain il y aura beaucoup de convives au dîner. J’y poserai la question d’un journal destiné à propager un ,(emph[principe absolu]). Je regrette que M. Cheuvreux ne puisse être des nôtres. Quoiqu’en dissidence avec lui sur des faits particuliers, sur des appréciations d’hommes ou de circonstances, nous sommes d’accord sur les idées et le fond des choses. Il m’appuierait.
+][
+Adieu, madame ; permettez-moi de me dire le plus dévoué comme le plus respectueux de vos amis.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 48. ,(XXX)
+])))

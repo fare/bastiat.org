@@ -1,0 +1,23 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du novembre 1849")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Paris, novembre 1849])
+(p*[
+,(strong[Madame]),
+][
+Voici un document qui vous intéressera. Pour moi, je n’ai pu le lire sans être touché jusqu’aux larmes (nature de montagne n’est pas toujours nature de rocher) ; pour faire partager mes impressions, à qui m’adresser, si ce n’est à vous ?
+][
+Je vais être obligé de discuter l’opinion de mes amis, cela me coûte. Mais je ne sais quel Grec disait : « J’aime Platon, mais j’aime mieux la vérité. » Il me semble à présent indubitable que l’économie politique a ouvert la porte au communisme ; c’est à elle à la fermer.
+][
+Si vous avez cinq minutes à perdre, oserais-je vous prier de me donner des nouvelles du trio ?
+][
+Votre bien dévoué,
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 52. ,(XXX)
+])))

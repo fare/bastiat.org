@@ -1,0 +1,25 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+d’avril 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Paris, avril, vendredi, 1850])
+(p*[
+,(strong[Bien chère madame Cheuvreux]),
+][
+Pardonnez-moi ce mot échappé à un moment d’effusion. Nous autres souffreteux, nous avons, comme les enfants, besoin d’indulgence, car, plus le corps est faible, plus l’âme s’amollit et il semble que la vie, à son dernier comme à son premier crépuscule, souffle au cœur le besoin de chercher partout des attaches. Ces attendrissements involontaires sont l’effet de tous les déclins ; fin du jour, fin de l’année, demi-jour de basiliques, etc., etc., je l’éprouvais hier sous les sombres allées des Tuileries. Ne vous alarmez pas, cependant, de ce diapason élégiaque. Je ne suis point Millevoie, et les feuilles qui s’ouvrent à peine ne sont pas près de tomber. Bref, je ne me trouve pas plus mal, au contraire, mais seulement plus faible, et je ne puis guère reculer devant la demande d’un congé. C’est, en perspective, une solitude encore plus solitaire ; autrefois je l’aimais ; je savais la peupler de lectures, de travaux capricieux, de rêves politiques, avec intermèdes de violoncelle ; momentanément, tous ces vieux amis me délaissent, même cette fidèle compagne de l’isolement, la méditation. Ce n’est pas que ma pensée sommeille, elle n’a jamais été si active ; à chaque instant elle saisit de nouvelles harmonies et il semble que le livre de l’humanité s’ouvre devant elle ; mais c’est un tourment de plus, puisque je ne puis continuer à transcrire les pages de ce livre mystérieux, sur un livre plus palpable édité par ,(emph[Guillaumin ;]) je chasse donc ces chers fantômes, et comme ce tambour-major grognard qui disait : « Je donne ma démission, que le gouvernement s’arrange comme il le pourra ; » moi aussi, je donne ma démission d’économiste et que la postérité s’en tire, si elle peut. ,(footnote*[L’édition Guillaumin donne un extrait qui commence à “Nous autres, souffreteux…” et s’arrête ici.])
+][
+Bon, voilà une jérémiade pour expliquer une maladresse. On dit des malheurs, qu’ils n’arrivent jamais seuls ; cela est encore plus vrai des maladresses ; que de mots pour en justifier ,(emph[un]) que vous auriez pardonné, sans tous ces commentaires, car vous ne m’en voudrez pas si, dans cette indigence d’occupations, ma pensée se réfugie vers l’hôtel Saint-Georges, où l’on est toujours si bon pour moi. Ce cher hôtel ! il est maintenant tout plein d’une préoccupation très-grave. L’avenir de votre Louise s’y décide peut-être, et par conséquent le vôtre et celui de M. Cheuvreux. L’idée que tant de paix, d’union et de bonheur domestique vont être mis à l’épreuve d’une révolution décisive est vraiment effrayante. Mais prenez courage, vous avez tant de bonnes chances !
+][
+Vraiment, mes lettres dépassent de cent coudées celles de M. B… Je vous prie, madame, d’accepter mes excuses. La plus valable, c’est que je n’ose guère paraître chez vous ce soir ; n’est-ce pas bien de l’égoïsme d’aller chercher des distractions là où on ne peut apporter que de ,(emph[quinteuses]) importunités ? Bien entendu, je ne dis pas cela pour mes amis ; ce serait de l’ingratitude. Mais la société est-elle solidaire de votre bienveillance ?
+][
+Adieu, madame ; croyez-moi votre dévoué,
+][
+,(strong[F. Bastiat]).
+][
+,(Mme) Schwabe vient d’arriver sans ses enfants. Je désire vous faire faire sa connaissance.
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 62, et de l’,(EO1863), tome VII, pp. 432-436. ,(XXX)
+])))

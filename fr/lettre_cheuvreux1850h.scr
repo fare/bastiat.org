@@ -1,0 +1,21 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
+du 23 mai 1850")
+(document :title "Lettre à Mme Cheuvreux"
+	:author (author-FB)
+(date-tag[Mugron, 23 mai 1850])
+(p*[
+Chère madame Cheuvreux, ma dernière lettre a à peine atteint l’autre extrémité de la longue ligne qui nous sépare, qu’en voici une seconde prête à se lancer sur la même voie ; n’y a-t-il pas dans cet empressement indiscrétion, ou inconvenance ? Je n’en sais rien, car je ne suis pas encore bien rompu aux usages du monde ; mais soyez indulgente ; bien plus, permettez-moi de vous écrire capricieusement sans trop regarder aux dates, et sous l’empire de l’impulsion, cette loi des natures faibles. Si vous saviez combien Mugron est vide et triste, vous me pardonneriez de tourner toujours mes regards vers Paris. Ma pauvre tante, qui fait à peu près toute ma société, a bien vieilli, la mémoire l’abandonne ; elle n’est plus qu’un cœur ; il semble que ses facultés affectives gagnent tout ce que perdent les autres ; aussi je l’aime plus que jamais, mais, en sa présence même, je ne puis retenir mon imagination voyageuse, et puis ne suis-je pas malade ?
+][
+À quoi donc les maladies seraient-elles bonnes, si elles ne donnaient le privilége de faire tolérer nos fantaisies ? Ainsi, voilà chose convenue, je mets mon indiscrétion sous le patronage de mes prétendues souffrances ; c’est une ruse dont un cœur de femme sera toujours dupe ; pourtant ceci ne doit pas m’induire à vous tromper et à me représenter comme un moribond. Voici le bulletin : la toux est moins fréquente, les forces reviennent ; je puis monter l’escalier sans être hors d’haleine ; je retrouve ma voix, qui peut fredonner dans toute l’étendue d’un octave complet ; la seule chose qui m’importune est une petite douleur au larynx, mais je ne lui en donne pas pour quatre jours ; enfin, quoique je n’en sois pas encore à offrir aux regards dangereux de ,(Mlle) Louise ,(emph[une figure au milieu d’un visage]), il me semble que j’ai meilleure mine.
+][
+Me voilà quitte envers ma conscience et obéissant à vos ordres. À propos de ,(Mlle) Louise et du visage en question, cette chère enfant est toujours destinée à être en proie à un doute douloureux pour une jeune fille : c’est d’ignorer, malgré son tact exquis, si on la recherche pour ,(emph[elle-même])… c’est un des revers de médaille de la fortune ; mais ce qui doit la rassurer, c’est que fût-on d’abord attiré par cette fortune on l’appréciera bien vite pour sa propre valeur ; je vous ai dit que la bonté du cœur pouvait remplacer toutes les autres qualités ; je me trompais, quelque chose peut-être vaut mieux encore : c’est le sentiment du devoir ; une disposition naturelle à se conformer à la règle, disposition que le bon cœur n’implique pas toujours.
+][
+Quels que soient le nombre et le mérite de vos amis, conservez-moi une place dans votre affection ; pour moi, je puis bien vous le dire, à mesure que le temps et la mort brisent des liens autour de moi, à mesure que je perds la faculté de me réfugier dans la vie politique ou studieuse, votre bienveillance, celle de votre famille, me deviennent de plus en plus nécessaires ; c’est la dernière lumière qui brille sur ma vie, c’est pour cela, sans doute, qu’elle est aussi la plus douce, la plus pure, la plus pénétrante ; après elle viendra la nuit, que ce soit au moins la nuit du tombeau.
+][
+,(strong[F. Bastiat]).
+])
+(with-footer (p*[
+Extrait de ,(LHL), p. 73. ,(XXX)
+])))
