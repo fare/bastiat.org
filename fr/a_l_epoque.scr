@@ -1,0 +1,75 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "A M. le rédacteur de L’Époque, par Frédéric Bastiat")
+
+(document :title "A M. le rédacteur de L’Époque"
+	:author (author-FB)
+(date-tag[,(cite-title[Mémorial bordelais]) du 8 mars 1846.])
+(p*[
+,(strong[Monsieur]),
+][
+Permettez-moi de féliciter l’,(emph[Association pour la liberté des échanges]) de l’attention qu’elle obtient de ses adversaires. C’est un premier succès, qui, j’espère, sera suivi de bien d’autres. Le temps n’est plus où le monopole accablait de ses mépris ou étouffait sous la conspiration du silence tout effort dans le sens de la liberté. Tout en nous prêchant la modération, vous nous en donnez l’exemple ; ce n’est pas nous qui refuserons de le suivre.
+][
+Mais, Monsieur, il s’agit ici de modération dans la forme, car, quant au fond, en conscience, nous ne pouvons pas être ,(emph[modérés]). Nous sommes convaincus que ,(emph[deux et deux font quatre]), et nous le soutiendrons opiniâtrement, sauf à le faire avec toute la courtoisie que vous pouvez désirer.
+][
+Il y en a qui professent que deux et deux font tantôt trois, tantôt cinq, et là-dessus ils se vantent de n’avoir pas de ,(emph[principes absolus ;]) ils se donnent pour des hommes sérieux, modérés, prudents, pratiques ; ils nous accusent d’intolérance.
+][
+« Il y a de par le monde, dites-vous, des hommes qui s’arrogent le monopole de la science économique. » Qu’est-ce à dire ? Nous avons foi en la liberté comme vous en la protection. N’avons-nous pas le même droit que vous de faire des prosélytes ? Si nous employions la violence, votre reproche serait fondé. Singuliers monopoleurs, qui se bornent à réclamer la liberté pour les autres comme pour eux-mêmes ! Vous mettons-nous le pistolet sur la gorge pour vous forcer à ,(emph[échanger]), quand cela ne vous convient pas ? Mais c’est bien ,(emph[par la force]) que les protectionistes nous ,(emph[empêchent d’échanger]) lorsque cela nous convient. Pourquoi ne font-ils pas comme nous ? pourquoi, si l’échange est aussi funeste qu’ils le disent, n’en détournent-ils pas leurs concitoyens par la persuasion ? Nous demandons la ,(emph[liberté]), ils imposent la ,(emph[restriction ;]) et ils nous appellent monopoleurs !
+][
+Vous nous reprochez d’être des théoriciens, puis vous dites : « Les restrictions de la douane, qui sont un obstacle au développement des nations peu avancées ou de celles qui sont à la tête de la civilisation, ont été reconnues un puissant moyen d’émulation pour celles qui ont encore quelques degrés à franchir. »
+][
+En économie sociale, je ne connais rien de plus systématique, si ce n’est les quatre âges de la vie des nations imaginés par M. de Girardin ; vous vous rappelez cette bouffonnerie.
+][
+C’est dire, en d’autres termes :
+][
+L’échange a deux natures opposées. Au haut et au bas de l’échelle sociale, il est bon, il faut le laisser libre ; dans les degrés intermédiaires, il est mauvais, il faut le restreindre.
+][
+En d’autres termes encore :
+][
+,(emph[Deux et deux font quelquefois trois, quelquefois cinq, quelque fois quatre.]) Eh bien ! Monsieur, que vous le vouliez ou non, c’est là une ,(emph[théorie]), et, qui plus est, une théorie fort étrange ; si étrange, que vous devriez bien vous donner la peine de la démontrer. Car comment l’échange, utile à un peuple pauvre, devient-il nuisible à un peuple aisé, pour redevenir utile à un peuple riche ? Tracez-nous donc les limites exactes où s’opèrent, dans la nature intime du ,(emph[troc]), ces étonnantes métamorphoses.
+][
+Voici le système de M. de Girardin :
+][
+,(strong[Premier âge.]) — ,(emph[Importation]). — (C’est le temps heureux où les peuples reçoivent sans donner.)
+][
+,(strong[Second âge.]) — ,(emph[Protection]). — (Alors on ne reçoit ni ne donne.)
+][
+,(strong[Troisième âge.]) — ,(emph[Exportation]). — (Devenu plus avisé, le peuple, pour s’enrichir, ,(emph[donne]) toujours, sans ,(emph[recevoir]) jamais.)
+][
+,(strong[Quatrième âge.]) — ,(emph[Liberté]). — (Chacun fait librement ses ventes et ses achats, détestable régime, dont M. de Girardin nous dégoûte, en ayant soin de nous prévenir qu’il ne convient qu’aux nations en décadence et en décrépitude, comme l’Angleterre.)
+][
+Votre système est plus simple, mais il repose sur la même idée, qui est celle-ci :
+][
+« Sous le régime de la liberté, les nations les plus avancées écraseraient les autres de leur supériorité. »
+][
+Mais cette supériorité, à quoi-se réduit-elle ?
+][
+Les Anglais ont de la houille et du fer en abondance, des capitaux inépuisables, auxquels ils ne demandent que 2 1/2 pour 100, des ouvriers habiles, disposés à travailler seize heures par jour. — Fort bien ! à quoi cela aboutit-il ? À fournir à l’ouvrier, pour 50 centimes, le couteau ou le calicot qui, sans cela, lui coûteraient 3 francs. Quel est le vrai gagnant ?
+][
+— Les Polonais ont un sol fertile, qui ne coûte rien d’achat et presque rien de culture. Eux-mêmes se contentent d’une chétive rémunération, en sorte qu’ils peuvent inonder la France de blé à 8 francs l’hectolitre. — Je ne crois pas le fait, mais supposons-le vrai ; que faut-il en conclure ? Que le pain en France sera à bon marché. Or à qui profite le bon marché ? Est-ce au vendeur ou à l’acheteur ? Si c’est à l’acheteur, quelle n’est pas l’inconséquence de la loi française d’interdire à la population française l’achat du blé polonais, sur le fondement qu’il ne coûte presque rien !
+][
+On dit que le travail s’arrêterait, en France, faute d’aliment, si l’étranger était admis à pourvoir à tous nos besoins. — Oui, si les besoins et les désirs de l’homme n’étaient pas illimités. L’éternel cercle vicieux de nos adversaires est celui-ci : ils supposent que la production générale est une quantité invariable, et apercevant que, grâce à l’échange, elle sera obtenue avec une réduction de travail, ils se demandent ce que deviendra cette portion de travail surabondant.
+][
+Ce qu’il deviendra ? — Ce qu’est devenu le travail que la bonne nature a mis en disponibilité quand elle nous a donné gratuitement de l’air, de l’eau, de la lumière.
+][
+Ce qu’est devenu le travail que l’imprimerie a rendu inutile pour un nombre donné d’exemplaires d’un même livre, lorsqu’elle s’est substituée au procédé des copistes.
+][
+Ce que devient mon travail, quand le boulanger avec une heure de peine m’en épargne six ; ce que devient le vôtre, quand le tailleur vous fait, en un jour, l’habit qui vous prendrait un mois, si vous le faisiez vous-même.
+][
+La somme des satisfactions ,(footnote*[Ici le mot ,(emph[satisfactions]), préféré par l’auteur à ,(emph[consommations]), montre que, longtemps avant d’écrire les ,(cite-title[Harmonies]), il jugeait nécessaire d’introduire quelques modifications dans la langue de l’économie politique. ,(NdEEO)]) restant la même, tout travail rendu superflu par l’invention ou par l’échange est une conquête pour le genre humain, un moyen d’étendre le cercle de ses jouissances.
+][
+Vous ne sauriez croire, Monsieur, combien je suis douloureusement affecté quand je viens à songer qu’une nuance presque imperceptible sépare, au moins en doctrine, les amis de la liberté de ceux de la protection. Il suffirait, pour que nous nous accordions, que ces derniers, par une petite évolution, après avoir vu, comme aux Gobelins, le revers de la tapisserie, consentissent à aller contempler sur l’autre face l’effet définitif. — Essayez : placez-vous un moment au point de vue, non du producteur, mais du consommateur ; non du ,(emph[vendeur]), que toute concurrence importune, mais de l’,(emph[acheteur]), à qui elle profite. Demandez-vous si les besoins des uns sont faits pour être exploités par les autres ; si les estomacs ont été créés et mis au monde pour l’avantage des propriétaires fonciers ; si nos membres nous ont été donnés pour que monsieur tel ou tel ait le privilége de les vêtir. Mettez-vous du côté de ceux qui ont faim et froid, qui sont dénués et ignorants, et vous serez bientôt rangé sous la bannière de l’,(emph[abondance]), d’où qu’elle vienne.
+][
+« Quelle que soit la magie du mot ,(emph[liberté]), dites-vous, il y a une autre idée qui exerce plus d’empire sur les populations, c’est celle des droits du travail. »
+][
+Les droits du travail ! Vous voulez dire les droits des travailleurs ? Eh bien ! parmi ces droits, ainsi que l’a dit le digne président de l’Association bordelaise, en est-il un plus naturel, plus respectable, plus sacré, que celui de troquer ce que l’on a produit à la sueur de son front ? Voyez où vous vous jetez : le ,(emph[droit]) mis en opposition avec la liberté ! le ,(emph[droit]) placé dans la ,(emph[restriction !])
+][
+Enfin, vous nous menacez d’une coalition de producteurs.
+][
+Nous ne la craignons pas. Elle n’est pas à naître ; elle agit, elle fonctionne, elle exploite la protection. Cette entente cordiale d’intérêts divergents est un vrai miracle au sein du pays. Après tout, le pis qui puisse nous arriver, c’est qu’elle persévère, et nous avons mille chances pour qu’elle s’évanouisse.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[A M. le rédacteur de L’Époque]),
+pp. 53-58.
+])))

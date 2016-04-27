@@ -1,0 +1,11 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettres au comte Arrivabene
+	- par Frédéric Bastiat")
+
+(document :title "Lettres au comte Arrivabene"
+	:author (author-FB)
+(itemize
+  (item (ref :url "lettre_comte_arrivabene1848.html" [21 décembre 1848]))
+  (item (ref :url "lettre_comte_arrivabene1850.html" [28 octobre 1850]))
+  ))
