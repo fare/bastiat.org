@@ -1,0 +1,53 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Pétition d’un économiste, par Frédéric Bastiat")
+
+(document :title "Pétition d’un économiste"
+	:author (author-FB)
+(date-tag[N° du 2 mars 1848 de la ,(cite-title[République française]).])
+(p*[
+On signe en ce moment une pétition qui demande :
+][
+,(emph[Un ministère du progrès ou de l’organisation du travail.]) À ce sujet la ,(cite-title[Démocratie pacifique]) s’exprime ainsi :
+][
+« Pour organiser le travail dans la société française, il faut savoir l’organiser dans l’atelier alvéolaire de la nation, dans la commune. Toute doctrine sérieuse de transformation sociale doit donc pouvoir se résoudre dans une organisation de l’atelier élémentaire, et s’expérimenter d’abord sur une lieue carrée de terrain. Que la république crée donc un ministère du progrès et de l’organisation du travail, dont la fonction sera d’étudier ,(emph[tous les plans proposés]) par les différentes doctrines socialistes, et d’en favoriser l’expérience locale, libre et volontaire sur l’unité territoriale, la ,(emph[lieue carrée]). »
+][
+Si cette idée se réalise, nous demanderons qu’on nous donne aussi notre lieue carrée pour expérimenter notre système.
+][
+Car enfin pourquoi les différentes écoles socialistes auraient-elles seules le privilége d’avoir à leur disposition des ,(emph[lieues carrées]), des ateliers alvéolaires, des éléments territoriaux, en un mot, des communes ?
+][
+On dit qu’il s’agit d’expériences ,(emph[libres et volontaires]). Entend-on que les habitants de la commune qu’il s’agit de soumettre à l’expérimentation socialiste devront y consentir, et que, d’une autre part, l’État ne devra pas intervenir avec des contributions levées sur les autres communes ? Alors à quoi bon la pétition, et qui empêche les habitants des communes de faire librement, volontairement et à leurs frais, une expérience socialiste sur eux-mêmes ?
+][
+Ou bien veut-on que l’expérience soit forcée, ou tout au moins secondée par des fonds prélevés sur la communauté tout entière ?
+][
+Mais cela même rendra l’expérience fort peu concluante. Il est bien évident qu’avec toutes les ressources de la nation on peut verser une grande somme de bien-être sur une lieue carrée de terrain.
+][
+En tout cas, si chaque inventeur d’organisation sociale est appelé à faire son expérience, nous nous inscrivons et demandons formellement une commune à organiser.
+][
+Notre plan du reste est fort simple.
+][
+Nous percevrons sur chaque famille, et par l’impôt unique, une très-petite part de son revenu, afin d’assurer le respect des personnes et des propriétés, la répression des fraudes, des délits et des crimes. Cela fait, nous observerons avec soin comment les hommes s’organisent d’eux-mêmes.
+][
+Les cultes, l’enseignement, le travail, l’échange y seront parfaitement libres. Nous espérons que sous ce régime de liberté et de sécurité, chaque habitant ayant la faculté, par la liberté des échanges, de créer, sous la forme qui lui conviendra, la plus grande somme de valeur possible, les capitaux se formeront avec une grande rapidité. Tout capital cherchant à s’employer, il y aura une grande concurrence parmi les capitalistes. Donc les salaires s’élèveront ; donc les ouvriers, s’ils sont prévoyants et économes, auront une grande facilité pour devenir capitalistes ; et alors il pourra se faire entre eux des combinaisons, des associations dont l’idée sera conçue et mûrie par eux-mêmes.
+][
+La taxe unique étant excessivement modérée, il y aura peu de fonctions publiques, peu de fonctionnaires, pas de forces perdues, peu d’hommes soustraits à la production.
+][
+L’État n’ayant que des attributions fort restreintes et bien définies, les habitants jouiront de toute liberté dans le choix de leurs travaux ; car il faut bien remarquer que toute fonction publique inutile n’est pas seulement une charge pour la communauté, mais une atteinte à la liberté des citoyens. Dans la fonction publique qui s’impose au public et ne se débat pas, il n’y a pas de milieu : elle est utile ou sinon essentiellement ,(emph[nuisible ;]) elle ne saurait être neutre. Quand un homme exerce ,(emph[avec autorité]) une action, non sur les choses, mais sur ses semblables, s’il ne leur fait pas de bien, il doit nécessairement leur faire du mal.
+][
+Les impôts ainsi réduits au minimum indispensable pour procurer à tous la ,(emph[sécurité]), les solliciteurs, les abus, les priviléges, l’exploitation des lois dans des intérêts particuliers seront aussi réduits au ,(inlatin[minimum]).
+][
+Les habitants de cette commune expérimentale ayant, par la liberté d’échanger, la faculté de produire le maximum de valeur avec le minimum de travail, la lieue carrée fournira autant de bien-être que l’état des connaissances, de l’activité, de l’ordre et de l’économie individuelle le permettra.
+][
+Ce bien-être tendra à se répartir d’une manière toujours plus égale ; car les services les plus rétribués étant les plus recherchés ,(footnote*[En ce sens qu’ils attirent le plus la concurrence. ,(NdEEO)]), il sera impossible d’acquérir d’immenses fortunes ; d’autant que la modicité de l’impôt n’admettra ni grands marchés publics, ni emprunts, ni agiotage, sources des fortunes scandaleuses que nous voyons s’accumuler dans quelques mains.
+][
+Cette petite communauté étant intéressée à n’attaquer personne, et toutes les autres étant intéressées à ne pas l’attaquer, elle jouira de la paix la plus profonde.
+][
+Les citoyens s’attacheront au pays, parce qu’ils ne s’y sentiront jamais froissés et restreints par les agents du pouvoir ; et à ses lois, parce qu’ils reconnaîtront qu’elles sont fondées sur la justice.
+][
+Convaincu que ce système, qui a au moins le mérite d’être simple et de respecter la dignité humaine, est d’autant meilleur qu’il s’applique à un territoire plus étendu et à une population plus nombreuse, parce que c’est là qu’on obtient le plus de sécurité avec le moins d’impôts ; nous en concluons que s’il réussit sur une commune il réussira sur la nation.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII,
+,(cite-title[Pétition d’un économiste]),
+pp. 210-235.
+])))

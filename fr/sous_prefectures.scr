@@ -1,0 +1,25 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Les sous-préfectures, par Frédéric Bastiat")
+
+(document :title "Curée des places"
+	:author (author-FB)
+(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
+(p*[
+Qu’est-ce qu’une sous-préfecture ? Une boîte aux lettres. Le Préfet écrit : Monsieur le Sous-préfet, voici une dépêche pour le maire de … ; vous la lui adresserez sans retard et m’enverrez la réponse avec votre avis.
+][
+Le Sous-préfet répond : Monsieur le Préfet, j’ai reçu la dépêche pour le maire de … ; je vais la lui envoyer sans retard et vous adresserai la réponse avec mon avis.
+][
+Pour ce service, il y a dans chaque arrondissement un sous-préfet à 3 000 francs d’appointements, 3 000 francs de frais de bureau, un secrétaire, un loyer, etc., etc.
+][
+Nous nous trompons : les sous-préfets avaient encore une mission réelle, celle d’influencer et de corrompre les élections.
+][
+Combien de jours les sous-préfectures survivront-elles à la révolution de février ?
+][
+En général, on nous trouvera peu empressés à demander des changements de personnes, mais fort ardents à réclamer la suppression des places inutiles.
+])
+(with-footer (p*[
+Extrait de l',(EO1863), tome VII,
+,(cite-title[Les sous-préfectures]),
+pp. 210-235.
+])))

@@ -1,0 +1,71 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "L’État
+	- par Frédéric Bastiat")
+(document :title "L’État"
+	:author (author-FB)
+(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
+(p*[
+Il y en a qui disent : C’est un homme de finances qui nous tirera de là, Thiers, Fould, Goudchaux, Girardin. Je crois qu’ils se trompent.
+][
+— Qui donc nous en tirera ?
+][
+— Le peuple.
+][
+— Quand ?
+][
+— Quand il aura appris cette leçon : L’État, n’ayant rien qu’il ne l’ait pris au peuple, ne peut pas faire au peuple des largesses.
+][
+— Le peuple sait cela, car il ne cesse de demander des réductions de taxes.
+][
+— C’est vrai ; mais, en même temps, il ne cesse de demander à l’État, sous toutes les formes, des libéralités.
+][
+Il veut que l’État fonde des crèches, des salles d’asile et des écoles gratuites pour la jeunesse ; des ateliers nationaux pour l’âge mûr et des pensions de retraite pour la vieillesse.
+][
+Il veut que l’État aille guerroyer en Italie et en Pologne.
+][
+Il veut que l’État fonde des colonies agricoles.
+][
+Il veut que l’État fasse les chemins de fer.
+][
+Il veut que l’État défriche l’Algérie.
+][
+Il veut que l’État prête dix milliards aux propriétaires.
+][
+Il veut que l’État fournisse le capital aux travailleurs.
+][
+Il veut que l’État reboise les montagnes.
+][
+Il veut que l’État endigue les rivières.
+][
+Il veut que l’État paye des rentes sans en avoir.
+][
+Il veut que l’État fasse la loi à l’Europe.
+][
+Il veut que l’État favorise l’agriculture.
+][
+Il veut que l’État donne des primes à l’industrie.
+][
+Il veut que l’État protège le commerce.
+][
+Il veut que l’État ait une armée redoutable.
+][
+Il veut que l’État ait une marine imposante.
+][
+Il veut que l’État…
+][
+— Avez-vous tout dit ?
+][
+— J’en ai encore pour une bonne heure.
+][
+— Mais enfin, où en voulez-vous venir ?
+][
+— À ceci : tant que le peuple voudra tout cela, il faudra qu’il le paye. Il n’y a pas d’,(emph[homme de finances]) qui fasse quelque chose avec rien.
+][
+,(cite-title[Jacques Bonhomme]) fonde un prix de cinquante mille francs à décerner à celui qui donnera une bonne définition de ce mot, ,(strong[l’État]) ; car celui-là sera le sauveur des finances, de l’industrie, du commerce et du travail ,(footnote*[On reconnaît, dans cet article et le suivant, l’esquisse du pamphlet ,(cite-title[l’État]), publié trois mois après. ,(NdEEO)]).
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome VII, texte 59. ,(XXX :pp.)
+])))

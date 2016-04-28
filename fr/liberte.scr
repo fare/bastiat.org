@@ -1,0 +1,33 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "La liberté
+	- par Frédéric Bastiat")
+(document :title "La liberté"
+	:author (author-FB)
+(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
+(p*[
+J’ai beaucoup vécu, beaucoup vu, observé, comparé, étudié, et je suis arrivé à cette conclusion :
+][
+Nos pères avaient raison de vouloir être ,(strong[libres]), et nous devons le vouloir aussi.
+][
+Ce n’est pas que la liberté n’ait des inconvénients ; tout en a. Arguer contre elle de ces inconvénients, c’est dire à un homme qui est dans le bourbier : N’en sortez pas, car vous ne le pouvez sans quelque effort.
+][
+Ainsi il serait à souhaiter qu’il n’y eût qu’une foi dans le monde, pourvu que ce fût la vraie. Mais où est l’autorité infaillible qui nous l’imposera ? En attendant qu’elle se montre, maintenons la ,(emph[liberté d’examen et de conscience]).
+][
+Il serait heureux que le meilleur mode d’enseignement fût universellement adopté. Mais qui le possède, et où est son titre ? Réclamons donc la ,(emph[liberté d’enseignement]).
+][
+On peut s’affliger de voir des écrivains se complaire à remuer toutes les mauvaises passions. Mais entraver la presse, c’est entraver la vérité aussi bien que le mensonge. Ne laissons donc jamais périr la ,(emph[liberté de la presse]).
+][
+C’est une chose fâcheuse que l’homme soit réduit à gagner son pain à la sueur de son front. Il vaudrait mieux que l’État nourrît tout le monde ; mais c’est impossible. Ayons du moins la ,(emph[liberté du travail]).
+][
+En s’associant, les hommes peuvent tirer un plus grand parti de leurs forces. Mais les formes de l’association sont infinies ; quelle est la meilleure ? Ne courons pas la chance que l’État nous impose la plus mauvaise, cherchons à tâtons la bonne et réclamons la ,(emph[liberté d’association]).
+][
+Un peuple a deux manières de se procurer une chose : la première, c’est de la faire ; la seconde, c’est d’en faire une autre et de la troquer. Il vaut certainement mieux avoir l’option que de ne l’avoir pas. Exigeons donc la ,(emph[liberté de l’échange]).
+][
+Je me mêle aux débats publics, je m’efforce de pénétrer dans la foule pour prêcher toutes les ,(emph[libertés]) dont l’ensemble forme la ,(emph[liberté]).
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome VII, texte 56. ,(XXX :pp.)
+])))

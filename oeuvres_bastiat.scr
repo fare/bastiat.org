@@ -670,7 +670,7 @@
   (P 7 143 152 "a_la_presse"
 	,[32 et 33. - Au rédacteur de la ,(cite-title[Presse])])
   (P 7 152 167 "au_national"
-	,[34 et 35. - Aux rédacteurs du ,(cite-title[National])])
+	,[34 et 35. - Au rédacteur du ,(cite-title[National])])
   (P 7 167 170 "roi_libre_echangiste"
 	"36. - Le Roi libre-échangiste")
   (P 7 170 178 "discours_salle_duphot"
@@ -690,16 +690,20 @@
 	,(bof-ref "sous_la_republique" [Sous la République]),
 	,(bof-ref "rep_fr2" [Article sans titre (sur le gouvernement à bon marché)]),
 	,(bof-ref "rep_fr3" [Article sans titre (deux systèmes)]),
-	,(bof-ref "curee_des_places" [Curée des places]),
+	,(bof-ref "sous_prefectures" [Les sous-préfectures]),
+	,(bof-ref "rep_fr6" [Article sans titre (deux systèmes sociaux)]),
+	,(bof-ref "rep_fr9" [Article sans titre (sur la diplomatie et la curée des places)]),
+	,(bof-ref "petition_economiste" [Pétition d’un économiste]),
+	,(bof-ref "curee_des_places" [Curée des places])
 	])
   (P 7 235 248 "jacques_bonhomme"
 	,[56 à 63 - Courts articles dans le ,(cite-title[Jacques-Bonhomme]),
-	La Liberté,
+	,(bof-ref "liberte" [La Liberté]),
 	,(bof-ref "laissez_faire" [Laissez faire]),
 	L'Assemblée nationale,
-	L'État (n°1 du 11 au 15 juin 1848),(pv)
+	,(bof-ref "letat" [L’État]) (n°1 du 11 au 15 juin 1848),(pv)
 	,(bof-ref "p5r4" [Prendre cinq et rendre quatre ce n'est pas donner]),
-	Une mystification (n°2 du 15 au 18 juin 1848),(pv)
+	,(bof-ref "mystification" [Une mystification]) (n°2 du 15 au 18 juin 1848),(pv)
 	Funeste gradation,
 	Aux citoyens Lamartine et Ledru-Rollin (n°3 du 20 au 23 juin 1848)])
   (P 7 248 255 "le_capital"

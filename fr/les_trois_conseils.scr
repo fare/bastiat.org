@@ -1,0 +1,107 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Les trois conseils, par Frédéric Bastiat")
+
+(document :title "Les trois conseils"
+	:author (author-FB)
+(date-tag[Ébauche publiée par l’,(cite-title[Économiste belge]), n° du 3 juin 1860.])
+(p*[
+« Quand la patrie est en danger, chacun lui doit le ,(emph[tribut]) de ce qu’il peut avoir acquis de lumière et d’expérience. » 
+][
+C’est ainsi que débute tout donneur d’avis. L’impôt du conseil ! En est-il de plus abondant et de plus volontaire ?
+][
+Je veux aussi payer cet impôt, ainsi que tous les autres, afin de n’être en reste, sous aucun rapport, envers mon pays.
+][
+Quoique les millions et les millions de conseils qu’il reçoit diffèrent entre eux, ils ont cependant un point de ressemblance. Tous ont la prétention de sauver la société ; et ceux qui les donnent se bornent à dire : voici mon système, les choses iraient merveilleusement si tout le monde voulait penser comme moi. Cela revient à ceci : si nous étions d’accord, nous nous accorderions.
+][
+Mettons-nous tous en phalanstère, dit l’un, et toutes nos disputes cesseront. — C’est fort bien ; mais les 9 999/10 000 des Français ont horreur du phalanstère. — Organisons, d’un consentement unanime, l’atelier social, dit l’autre, et la société marchera comme sur des roulettes. — Sans doute ; mais ceux à qui on s’adresse aimeraient autant le bagne. — Inclinons-nous tous devant la Constitution, s’écrie un troisième ; fût-elle mauvaise, si chacun l’exécute, elle sera bonne. — Rien n’est plus vrai, et je crois que c’est le plus sage et le plus plausible. Mais comment y amener ceux qui, détestant la Constitution, s’y soumettent quand l’anarchie les menace, et la menacent dès que l’ordre leur donne du cœur ?
+][
+Il y en a qui disent : Le mal provient de ce que toute foi est éteinte. Soyons bons catholiques, et les plaies sociales seront cicatrisées. — Vous parlez ainsi parce que vous êtes catholique vous-même… et encore. Mais comment faire pour que ceux qui ne le sont pas le soient ?
+][
+D’autres, selon leurs prédilections, vous répètent : « Unissons-nous tous à la république ! » — « Rallions-nous tous à la monarchie ! » — « Remontons d’un commun accord vers le passé ! » — « Elançons-nous avec courage vers l’avenir ! »
+][
+Enfin chacun consulte son opinion personnelle, rien de plus naturel, — et proclame que le monde est sauvé si elle prévaut, — rien de plus sûr.
+][
+Mais aucune ne prévaut ni ne peut prévaloir, car tous ces efforts se neutralisent et chacun reste ce qu’il est.
+][
+Parmi ces myriades de doctrines, il en est une seule, — je n’ai pas besoin de dire que c’est la mienne, — qui aurait le droit de réunir l’assentiment commun. Pourquoi aurait-elle seule ce privilége ? Parce que c’est la doctrine de la Liberté, parce qu’elle est tolérante et juste pour toutes les autres. Fondez un phalanstère, si cela vous plaît ; — réunissez-vous en atelier social, si tel est votre bon plaisir ; discutez la Constitution tant qu’il vous plaira ; manifestez ouvertement vos préférences pour la république ou la monarchie ; allez à confesse, si le cœur vous y porte ; en un mot, usez de tous les droits de l’individu : pourvu que vous respectiez ces mêmes droits en autrui, je me tiens pour satisfait ; et, telle est ma conviction, la société, pour être juste, ordonnée et progressive, n’a pas autre chose à vous demander.
+][
+Mais je n’ai pas la prétention aujourd’hui de développer ce système, qui devrait, ce me semble, être aussitôt adopté qu’exposé. Est-il rien de plus raisonnable ? Nous ne pouvons nous accorder sur les doctrines : eh bien ! conservons, propageons chacun la nôtre, et convenons de bannir d’entre nous toute oppression, toute violence.
+][
+Me plaçant au point de vue des faits tels qu’ils sont, de la situation telle que les événements l’ont faite, supposant, comme je le dois, que je m’adresse à des personnes qui, avant tout, veulent le repos et le bonheur de la France, je voudrais donner trois conseils pratiques, — l’un à M. le président de la République, l’autre à la majorité de la Chambre, le troisième à la minorité.])
+(hrule)
+(p*[Je voudrais que M. le président de la République se présentât solennellement devant l’Assemblée nationale et y fît l’allocution suivante :
+][
+Citoyens représentants,
+][
+Le plus grand fléau de ce temps et de notre pays, c’est l’incertitude de l’avenir. En tant que cette incertitude peut se rattacher à mes projets et à mes vues, mon devoir est de la faire cesser ; c’est aussi ma volonté.
+][
+On se demande : Qu’arrivera-t-il dans deux ans ? À la face de mon pays, sous l’œil de Dieu, par le nom que je porte, je jure que le … mai 1852, je descendrai du fauteuil de la présidence.
+][
+J’ai reçu du peuple un mandat en vertu de la Constitution. Je remettrai au peuple ce mandat conformément a la Constitution.
+][
+Il y en a qui disent : Mais si le peuple vous renomme ? À quoi je réponds : Le peuple ne me fera pas l’injure de me renommer malgré moi ; et si quelques citoyens oublient à ce point leurs devoirs, je tiens d’avance pour nuls et non avenus les bulletins qui, aux prochaines élections, porteraient mon nom.
+][
+D’autres, se croyant beaucoup plus sages, pensent qu’on peut prolonger ma présidence en modifiant la Constitution d’après les formes qu’elle a elle-même établies.
+][
+Il ne m’appartient pas d’imposer des limites à l’exercice légal des droits de l’Assemblée. Mais, si elle est maîtresse de ses résolutions régulières, je suis maître des miennes ; et je déclare formellement que, la Constitution fût-elle modifiée, ma première présidence ne sera pas immédiatement suivie d’une seconde.
+][
+J’y ai réfléchi, et voici sur quoi je me fonde :
+][
+Notre règle d’action est contenue dans ces mots : ,(emph[La France avant tout.]) De quoi souffre la France ? De l’incertitude. S’il en est ainsi, citoyens, est-ce le moyen de faire cesser l’incertitude que de remettre tout en question ? Quoi ! la Constitution n’a qu’un an d’existence, et déjà vous jetteriez au milieu de vous cette question brûlante : Faut-il faire une autre Constitution ? Si votre réponse est négative, les passions du dehors en seront-elles calmées ? — Si elle est affirmative, il faudra donc convoquer une nouvelle Constituante, remuer de nouveau tous les fondements de notre existence nationale, nous élancer vers un autre inconnu, et procéder, dans quelques mois, à trois élections générales.
+][
+Ce parti extrême me semble le comble de l’imprudence. Je n’ai pas le droit de m’y opposer autrement qu’en déclarant de la manière la plus expresse qu’il n’avancerait en rien mes partisans ; car, je le répète, je n’accepterai pas la présidence, sous quelque forme et de quelque manière qu’elle m’arrive.
+][
+Telle est ma première résolution. Je l’ai prise par devoir ; je la proclame avec joie, parce qu’elle peut contribuer au repos de notre patrie. Je serai assez récompensé si elle me donne pour successeur un républicain honnête, qui n’apporte à la première fonction de l’État, ni rancune, ni utopie, ni engagement envers les partis.
+][
+J’ai maintenant une seconde résolution à vous communiquer. Par la volonté du peuple, je dois exercer le ,(emph[pouvoir exécutif]) pendant deux ans encore.
+][
+Je comprends le sens de ce mot ,(emph[pouvoir exécutif]) et je suis résolu à m’y renfermer d’une manière absolue.
+][
+La nation a donné deux délégations. À ses représentants, elle a conféré le droit de faire des lois. À moi, elle m’a confié la mission de les faire exécuter.
+][
+Représentants, faites les lois que vous croirez les meilleures, les plus justes, les plus utiles au pays. Quelles qu’elles soient, je les exécuterai à la lettre.
+][
+Si elles sont bonnes, leur exécution le prouvera ; si elles sont mauvaises, l’exécution en révélera les défauts, et vous les réformerez. Je n’ai pas le droit et je n’accepte pas la responsabilité de les juger.
+][
+Tout ceci, sous la réserve de la faculté qui m’est attribuée par l’article ... de la Constitution.
+][
+J’exécuterai donc vos décrets sans distinction. Il en est cependant auxquels je me crois tenu, par le vœu national, de donner une attention toute spéciale. Ce sont ceux qui concernent la répression des délits et des crimes, l’ordre dans les rues, le respect dû aux personnes et aux propriétés, prenant ce mot ,(emph[propriété]) dans l’acception la plus large, qui comprend aussi bien le libre exercice des facultés et des bras que la paisible jouissance de la richesse acquise.
+][
+Ainsi, représentants, faites des lois. Que les citoyens discutent toutes les questions politiques et sociales dans leurs réunions et dans leurs journaux. Mais que nul ne trouble l’ordre de la cité, la paix des familles, la sécurité de l’industrie. Au premier signal de révolte ou d’émeute, je serai là. J’y serai avec tous les bons citoyens, avec les vrais républicains ; j’y serai avec la brave garde nationale, j’y serai avec notre admirable armée.
+][
+Il y en a qui disent : Peut-on compter sur le zèle de la garde nationale, sur la fidélité de l’armée ?
+][
+Oui, dans la ligne que je viens de tracer, on peut y compter. J’y compte comme sur moi-même, et nul n’a le droit de faire à notre force armée l’injure de croire qu’elle prendrait parti pour les perturbateurs du repos public.
+][
+Je veux, — j’ai le droit de vouloir, puisque le peuple m’a donné cette mission expresse, et que ma volonté en ceci c’est la sienne, — je veux que l’ordre et la sécurité soient partout respectés. Je le veux, et cela sera. Je suis entouré de soldats fidèles, d’officiers éprouvés ; j’ai pour moi la force, le droit, le bon sens public ; et si je ne craignais de blesser par l’apparence d’un doute les justes susceptibilités de ceux dont le concours m’est assuré, je dirais que les défections même ne me feraient pas fléchir. L’ordre légal régnera, dussé-je y laisser la présidence et la vie.
+][
+Telle est, citoyens, ma seconde résolution. Voici la troisième.
+][
+Je me demande quelle est la cause de ces luttes incessantes et passionnées entre la Nation et le Gouvernement qu’elle-même s’est donné.
+][
+Il faut peut-être l’attribuer à des habitudes invétérées d’opposition. Combattre le pouvoir, c’est se donner un rôle qu’on croit héroïque, parce qu’en effet cela a pu être glorieux et dangereux autrefois. À cela je ne sais d’autre remède que le temps.
+][
+Mais, comme ces luttes perpétuelles, le langage haineux et exagéré qu’elles suscitent, sont un des grands fléaux de notre République, j’ai dû rechercher si elles n’avaient pas d’autres causes que des traditions irrationnelles, afin de faire cesser celles de ces causes sur lesquelles je puis avoir quelque action.
+][
+Je crois sincèrement que le pouvoir législatif et le pouvoir exécutif mêlent et confondent trop leurs rôles.
+][
+Je suis résolu à me renfermer dans le mien, qui est de faire exécuter les lois quand vous les aurez votées. De la sorte, aux yeux même des plus susceptibles, je n’aurai qu’une responsabilité restreinte. Si la nation est mal gouvernée, pourvu que j’exécute les lois, elle ne pourra pas s’en prendre à moi. Le gouvernement et moi nous serons hors de cause dans les débats de la tribune et de la presse.
+][
+Je prendrai mes ministres hors de l’Assemblée. Par là s’accomplira une séparation logique entre les deux pouvoirs. Par là avorteront au sein de la Chambre les coalitions et les guerres de portefeuilles, si funestes au pays.
+][
+Mes ministres seront mes agents directs. Ils ne se rendront à l’Assemblée que lorsqu’ils y seront appelés, pour répondre à des questions posées d’avance par la voie de messages réguliers.
+][
+Ainsi vous serez parfaitement libres et dans des conditions parfaites d’impartialité pour la confection des lois. Mon gouvernement n’exercera sur vous, à cet égard, aucune influence. De votre côté, vous n’en aurez aucune sur l’exécution. Le contrôle vous appartient sans doute, mais l’exécution proprement dite est à moi.
+][
+Et alors, citoyens, est-il possible de concevoir une collision ? Est-ce que vous n’aurez pas le plus grand intérêt à ce qu’il ne sorte de vos délibérations que de bonnes lois ? Est-ce que je pourrais en avoir un autre que leur bonne exécution ?
+][
+Dans deux ans, la nation sera appelée à nommer un autre président. Son choix, saus doute, se portera sur le plus digne, et nous n’aurons à redouter de lui aucun attentat contre la liberté et les lois. En tout cas, j’aurai la satisfaction de lui léguer des précédents qui l’enchaîneront. Quand la présidence ne se sera pas fixée sur le nom de Napoléon, sur l’élu de sept millions de suffrages, est-il quelqu’un en France qui puisse rêver pour lui-même un coup d’État et aspirer à l’empire ?
+][
+Bannissons donc de vaines terreurs. Nous traverserons, sans danger, une première, une seconde, une troisième présidence…
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Les trois conseils]),
+pp. 361-368.
+])))

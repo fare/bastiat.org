@@ -1,0 +1,39 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Article dans La République française, par Frédéric Bastiat")
+
+(document :title "Article dans La République française"
+	:author (author-FB)
+(date-tag[Paris, 28 février 1848.])
+(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
+(p*[
+Le bien général, la plus grande somme possible de bonheur pour tous, le soulagement immédiat des classes souffrantes, — c’est l’objet de tous les désirs, de tous les vœux, de toutes les préoccupations.
+][
+C’est aussi la plus grande garantie de l’ordre. Les hommes ne sont jamais mieux disposés à s’entr’aider que lorsqu’ils ne souffrent pas, ou du moins quand ils ne peuvent accuser personne, ni surtout le gouvernement, de ces souffrances inséparables de l’imperfection humaine.
+][
+La révolution a commencé au cri de ,(emph[Réforme]). Alors ce mot s’appliquait seulement à une des dispositions de notre constitution. Aujourd’hui c’est encore la ,(emph[réforme]) que l’on veut, mais la réforme dans le fond des choses, dans l’organisation économique du pays.
+][
+Le peuple, rendu à toute sa liberté, va se gouverner lui-même. Est-ce à dire qu’il arrivera de plein saut à la réalisation de toutes ses espérances ? Ce serait une chimère que d’y compter. Le peuple choisira les mesures qui lui paraîtront les mieux coordonnées à son but, choisir implique la possibilité de se tromper. Mais le grand avantage du gouvernement de la nation par la nation, c’est qu’elle ne peut s’en prendre qu’à elle-même du résultat de ses erreurs, et qu’elle est toujours en mesure de mettre à profit son expérience. Sa prudence maintenant doit consister à ne pas permettre que les faiseurs de systèmes fassent trop d’expérience sur elle et à ses dépens.
+][
+Ainsi que nous l’avons dit, deux systèmes longtemps débattus par les polémistes sont en présence.
+][
+L’un aspire à faire le bonheur du peuple par des mesures directes.
+][
+Il dit : « Si quelqu’un souffre de quelque manière que ce soit, l’État se chargera de le soulager. Il donnera du pain, des vêtements, du travail, des soins, de l’instruction à tous ceux qui en auront besoin. » Si ce système était possible, il faudrait être un monstre pour ne pas l’embrasser. Si l’État a quelque part, dans la lune par exemple, une source toujours accessible et inépuisable d’aliments, de vêtements et de remèdes, qui pourrait le blâmer d’y puiser à pleines mains, au profit de ceux qui sont pauvres et dénués ?
+][
+Mais si l’État ne possède par lui-même et ne produit aucune de ces choses ; si elles ne peuvent être créées que par le travail ; si tout ce que peut faire l’État, c’est de les prendre par l’impôt aux travailleurs qui les ont créées, pour les livrer à ceux qui ne les ont pas créées ; si le résultat naturel de cette opération doit être, loin d’augmenter la masse de ces choses, d’en décourager la production ; si, sur cette masse réduite, l’État en garde forcément une partie pour ses agents ; si ces agents chargés de l’opération sont eux-mêmes soustraits au travail utile ; si, en définitive, ce système, tout séduisant qu’il est au premier abord, doit engendrer beaucoup plus de misères qu’il n’en guérit, alors il est bien permis de concevoir des doutes et de rechercher si le bonheur des masses ne peut pas naître d’un autre procédé.
+][
+Celui que nous venons de décrire ne peut évidemment être mis en œuvre que par l’extension indéfinie de l’impôt. À moins de ressembler à ces enfants qui se dépitent de ce qu’on ne leur donne pas la lune à la première réquisition, il faut bien reconnaître que, si nous chargeons l’État de répandre partout l’abondance, il faut lui permettre d’étendre partout l’impôt : il ne peut rien donner qu’il ne l’ait pris.
+][
+Or de grands impôts impliquent toujours de grandes entraves. S’il ne s’agissait de demander à la France que cinq à six cents millions, on peut concevoir, pour les recueillir, un mécanisme financier extrêmement simple. Mais s’il faut lui arracher quinze à dix-huit cents millions, il faut avoir recours à toutes les ruses imaginables de la fiscalité. Il faut l’octroi, — l’impôt du sel, l’impôt des boissons, la taxe exorbitante des sucres ; il faut entraver la circulation, grever l’industrie, restreindre le consommateur ; il faut une armée de percepteurs ; il faut une bureaucratie innombrable ; il faut empiéter sur la liberté des citoyens ; — et tout cela entraîne les abus, la convoitise des fonctions publiques, la corruption, etc., etc.
+][
+On voit que si le système de l’abondance puisée par l’État dans le peuple, pour être par lui répandue sur le peuple, a un côté séduisant, c’est néanmoins aussi une médaille qui a son revers.
+][
+Nous sommes convaincus, nous, que ce système est mauvais et qu’il en est un autre pour faire le bien du peuple, ou plutôt pour que le peuple fasse son propre bien : celui-ci consiste à donner à l’État tout ce qu’il faut pour qu’il remplisse bien sa mission essentielle, qui est de garantir la sécurité extérieure et intérieure, le respect des personnes et des propriétés, le libre exercice des facultés, la répression des crimes, délits et fraudes, — et après avoir libéralement donné cela à l’État, ,(emph[à garder le reste pour soi]).][
+Puisque enfin le peuple est appelé à exercer son droit, qui est de choisir entre ces deux systèmes, nous les comparerons souvent devant lui, sous tous leurs aspects politiques, moraux, financiers — et économiques.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Article dans La République française]),
+pp. 210-235.
+])))
