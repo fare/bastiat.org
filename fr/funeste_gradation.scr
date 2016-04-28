@@ -1,0 +1,61 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Funeste gradation
+	- par Frédéric Bastiat")
+(document :title "Funeste gradation"
+	:author (author-FB)
+(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
+(p*[
+Les dépenses ordinaires de l’État sont fixées, par le budget de 1848, à ,(emph[un milliard sept cents millions]).
+][
+Même avec l’impôt des 45 centimes, on ne peut arracher au peuple plus de ,(emph[un milliard cinq cents millions]).
+][
+Reste un déficit net de ,(emph[deux cents millions]).
+][
+En outre l’État doit ,(emph[deux cent cinquante millions]) de bons du trésor, ,(emph[trois cents millions]) aux caisses d’épargne, sommes actuellement exigibles.
+][
+Comment faire ? L’impôt est arrivé à sa dernière limite. Comment faire ? L’État a une idée : s’emparer des industries lucratives et les exploiter pour son compte. Il va commencer par les chemins de fer et les assurances ; puis viendront les mines, le roulage, les papeteries, les messageries, etc., etc.
+][
+Imposer, emprunter, usurper, funeste gradation !
+][
+L’État, je le crains bien, suit la route qui perdit le père Mathurin. J’allai le voir un jour, le père Mathurin. Eh bien ! lui dis-je, comment vont les affaires ?
+][
+— Mal, répondit-il ; j’ai peine à joindre les deux bouts. Mes dépenses débordent mes recettes.
+][
+— Il faut tâcher de gagner un peu plus.
+][
+— C’est impossible.
+][
+— Alors, il faut se résoudre à dépenser un peu moins.
+][
+— À d’autres ! Jacques Bonhomme, vous aimez à donner des conseils, et moi, je n’aime pas à en recevoir.
+][
+À quelque temps de là, je rencontrai le père Mathurin brillant et reluisant, en gants jaunes et bottes vernies. Il vint à moi sans rancune. Cela va admirablement ! s’écria-t-il. J’ai trouvé des prêteurs d’une complaisance charmante. Grâce à eux, mon budget, chaque année, s’équilibre avec une facilité délicieuse.
+][
+— Et, à part ces emprunts, avez-vous augmenté vos recettes ?
+][
+— Pas d’une obole.
+][
+— Avez-vous diminué vos dépenses ?
+][
+— Le ciel m’en préserve ! bien au contraire. Admirez cet habit, ce gilet, ce gibus ! Ah ! si vous voyiez mon hôtel, mes laquais, mes chevaux !
+][
+— Fort bien ; mais calculons. Si l’an passé vous ne pouviez joindre les deux bouts, comment les joindrez-vous, maintenant que, sans augmenter vos recettes, vous augmentez vos dépenses et avez des arrérages à payer ?
+][
+— Jacques Bonhomme, il n’y a pas de plaisir à causer avec vous. Je n’ai jamais vu un interlocuteur plus maussade.
+][
+Cependant ce qui devait arriver arriva. Mathurin mécontenta ses prêteurs, qui disparurent tous. Cruel embarras !
+][
+Il vint me trouver. Jacques, mon bon Jacques, me dit-il, je suis aux abois ; que faut-il faire ?
+][
+— Vous priver de tout superflu, travailler beaucoup, vivre de peu, payer au moins les intérêts de vos dettes, et intéresser ainsi à votre sort quelque juif charitable qui vous prêtera de quoi passer un an ou deux. Dans l’intervalle, vous renverrez vos commis inutiles, vous vous logerez modestement, vous vendrez vos équipages, et, peu à peu, vous rétablirez vos affaires.
+][
+— Maître Jacques, vous êtes toujours le même ; vous ne savez pas donner un conseil agréable et qui flatte le goût des gens. Adieu. Je ne prendrai conseil que de moi-même. J’ai épuisé mes ressources, j’ai épuisé les emprunts ; maintenant je vais me mettre à…
+][
+— N’achevez pas, je vous devine.
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome VII, texte 62. ,(XXX :pp.)
+])))

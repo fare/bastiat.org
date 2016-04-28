@@ -1,0 +1,38 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Le roi libre-échangiste, par Frédéric Bastiat")
+
+(document :title "Le roi libre-échangiste"
+	:author (author-FB)
+(date-tag[,(cite-title[Libre-Échange]) du 30 mai 1847.])
+(p*[
+Déclamez donc contre les journaux ! Plaignez-vous de ce qu’ils sont aussi peu intéressants qu’instructifs ! quelle calomnie ! Pour nous, nous y trouvons à chaque instant des choses inattendues, surprenantes, merveilleuses.
+][
+Par exemple, l’,(cite-title[Impartial de Rouen]) nous révèle qu’un haut personnage est ,(emph[libre-échangiste]). Ce personnage, l’,(cite-title[Impartial]) ne le nomme pas, car il craint la charte et les lois de septembre. Or, dire de quelqu’un qu’il est libre-échangiste, c’est, aux yeux de la feuille normande, lui faire une mortelle injure.
+][
+Nous qui n’avons pas les mêmes raisons d’interpréter ainsi la charte, et qui pensons qu’on peut, sans se déshonorer, préférer, en fait de trocs, la liberté aux entraves, nous ne craignons pas de dire, à nos périls et risques, que le personnage dont il s’agit n’est autre que Louis-Philippe, roi des Français.
+][
+Le Roi est donc ,(emph[libre-échangiste]). C’est de Rouen qu’en vient la nouvelle. Jusqu’ici rien ne nous l’avait fait soupçonner, et nous devons même confesser, peut-être à notre honte, que nous n’avons pas songé à nous en informer. Quelquefois, il est vrai, quand il a plu au caprice de ces rêves, que l’on nomme ,(emph[châteaux en Espagne]), de placer sur notre tête la couronne de France (car
+,(verses[Au moins quelques instants qui n’est roi dans ses rêves ?),])
+nous nous rappelions ce vers touchant :
+,(verses[Si j’étais roi, je voudrais être juste.])
+][
+Et nous nous disions : « Nos sujets disposeraient librement du fruit de leurs sueurs ; des restrictions ne seraient pas imposées au Midi pour l’avantage du Nord, ni au Nord pour l’avantage du Midi. Nous voudrions que chaque citoyen, pour améliorer son sort, comptât un peu plus sur lui-même et un peu moins sur la caisse publique. Nous voudrions que l’État fût déchargé de l’effrayante responsabilité qu’il assume en entreprenant de pondérer toutes les industries. Nous voudrions que la vie de notre peuple fût douce et facile ; qu’aucun obstacle ne s’interposât entre la source voisine et sa lèvre altérée. S’il ne lui était pas donné d’échapper à toutes les souffrances, nous voudrions du moins qu’il ne lui en fût infligé aucune par notre administration. Nous voudrions que la liberté des transactions fût pour lui le gage le plus assuré de la paix. Alors nous pourrions rendre à la ferme et à l’atelier ces jeunes hommes dont les familles pleurent l’absence. Alors nous pourrions supprimer toutes les taxes qui pèsent sur les malheureux… »
+][
+Ces idées nous venaient trop naturellement, à nous, roi chimérique, pour que nous n’admettions pas qu’elles puissent se présenter aussi à l’esprit des rois ,(emph[sérieux]), comme on dit aujourd’hui. Si donc nous sommes resté dans l’indifférence à l’endroit des opinions économiques de l’auguste personnage, c’est que, selon nous, dans le siècle où nous sommes, le libre-échange, comme toutes les grandes choses, est un fruit qui mûrit dans les régions populaires de l’opinion publique et non dans les palais des rois.
+][
+Mais enfin il n’est pas indifférent d’avoir, même sans s’en douter, des monarques pour alliés. Aussi nous nous réjouirions de la nouvelle qui nous arrive de Rouen, si elle était fondée sur autre chose que sur une conjecture fort hasardée.
+][
+D’où l’,(cite-title[Impartial]) l’a-t-il tirée ? Voici comment lui-même raconte la chose :
+][
+En 1789, Philippe-Égalité fut envoyé en mission à Londres. Selon quelques lambeaux de correspondance arrangés par l’,(cite-title[Impartial]) avec toute l’impartialité que son titre lui impose, il paraîtrait que Pitt s’empressa de faire du prince un ,(emph[libre-échangiste]), et lui montra en perspective la couronne des Pays-Bas, s’il obtenait la liberté absolue du commerce entre la France et l’Angleterre. Le prince écrivit donc à M. de Montémolin : « Je crois la liberté absolue avantageuse aux deux nations, mais je ne crois ni l’une ni l’autre assez éclairées pour adopter ces grands principes. » Cependant il offrait de travailler à un traité qui s’en rapprochait le plus possible.
+][
+Or, vous le savez, en langue protectioniste, rendre à deux nations la liberté de troquer, c’est vendre l’une à l’autre. Il est donc clair que Philippe-Égalité était un traître. Cet homme, dit l’,(cite-title[Impartial]), trahissait la France et méditait de livrer son commerce à l’Angleterre… » et cela pour être fait roi des Pays-Bas.
+][
+Comprenez-vous maintenant ? — Quoi donc ? — Comprenez-vous pourquoi Louis-Philippe ne peut être qu’un libre-échangiste ? — Pas le moins du monde. Est-ce que lord Palmerston a aussi promis au roi des Français la couronne des Pays-Bas contre la liberté absolue du commerce ? — L’,(cite-title[Impartial]) ne le dit pas, mais il le faut bien, car, sans cette identité de motifs, comment la feuille rouennaise pourrait-elle conclure de la politique du père à la politique du fils ? — Morbleu ! parlez-moi de l’art de tirer habilement les conséquences des choses !
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Le roi libre-échangiste]),
+pp. 167-169.
+])))
