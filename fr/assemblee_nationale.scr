@@ -1,0 +1,25 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "L’Assemblée nationale
+	- par Frédéric Bastiat")
+(document :title "L’Assemblée nationale"
+	:author (author-FB)
+(date-tag[N° 1 du ,(cite-title[Jacques Bonhomme]), du 11 au 15 juin 1848.])
+(p*[
+— Maître Jacques, que pensez-vous de l’Assemblée nationale ?
+][
+— Je la crois excellente, bien intentionnée, passionnée pour le bien. Elle est peuple, elle aime le peuple, elle le voudrait heureux et libre. Elle fait honneur au ,(emph[suffrage universel]).
+][
+— Cependant que d’hésitation ! que de lenteurs ! que d’orages sans causes ! que de temps perdu ! Quels biens a-t-elle réalisés ? quels maux a-t-elle empêchés ? Le peuple souffre, l’industrie s’éteint, le travail s’arrête, le trésor se ruine, et l’Assemblée passe son temps à écouter d’ennuyeuses harangues.
+][
+— Que voulez-vous ? L’Assemblée ne peut changer la nature des choses. La nature des choses s’oppose à ce que neuf cents personnes gouvernent avec une volonté ferme, logique et rapide. Aussi voyez comme elle attend un pouvoir qui réfléchisse sa pensée, comme elle est prête à lui donner une majorité compacte de sept cents voix dans le sens des idées démocratiques. Mais ce pouvoir ne surgit pas, et ne peut guère surgir dans le provisoire où nous sommes.
+][
+— Que faut-il donc que fasse l’Assemblée ?
+][
+— Trois choses : pourvoir à l’urgence, faire la Constitution, et s’en aller.
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome VII, texte 58. ,(XXX :pp.)
+])))

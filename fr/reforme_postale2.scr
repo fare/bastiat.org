@@ -1,0 +1,172 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Réforme postale, par Frédéric Bastiat")
+
+(document :title "Réforme postale"
+	:author (author-FB)
+(date-tag[,(cite-title[Mémorial bordelais]), 30 avril 1846.])
+(p*[
+L’uniformité de la taxe a des avantages si nombreux, si incontestables, si éclatants, que, pour ne pas les voir, il faut fermer volontairement les yeux.
+][
+On fait cette objection : « L’uniformité résiste au principe même que vous avez posé, celui du simple remboursement du service reçu, car il est juste de le payer d’autant plus qu’il est plus dispendieux.
+][
+« L’égalité apparente ne serait qu’une réelle inégalité. »
+][
+Mais tous, tant que nous sommes, n’écrivons-nous pas tantôt à de grandes, tantôt à de petites distances ? L’égalité se rétablit donc par là, et rien n’empêche de faire de toutes les distances une moyenne que chaque lettre est censée avoir parcourue ,(footnote*[Recevez dans l’année 4 lettres à 3 décimes, 4 lettres à 2 décimes et 2 lettres à 1 franc ; n’est-ce point comme si vous aviz payé pour chaque lettre le taux fixe de 40 centimes qui est la moyenne du système actuel ? ,(NdA)]).
+][
+Partout où, dans des cas analogues, l’uniformité est établie pour le port des journaux, pour les envois d’argent, il faut qu’on s’en trouve bien, car personne n’y contredit.
+][
+D’ailleurs, il est un point où, dans la pratique, tout est forcé de s’arrêter, même la justice rigoureuse ; c’est quand on arrive à des différences microscopiques, à des infiniment petits, à un fractionnement si minutieux, que l’exécution en devient onéreuse à tout le monde. Est-ce que le système de la Commission a la prétention de réaliser l’égalité mathématique ? Fait-il payer plus la lettre remise à huit heures que la lettre délivrée à neuf ? Observe-t-il la proportionnalité entre le destinataire placé à 39 ou à 40 kilomètres ?
+][
+Lors donc qu’on parle d’égalité, il faut entendre une égalité possible, praticable, qui n’exige pas, par exemple, qu’on prenne de la monnaie d’un centime.
+][
+Et c’est précisément ce qui arriverait dans le système de la taxe graduelle, s’il tenait compte de cette équité infinitésimale dont il se masque.
+][
+Car il est prouvé que les frais de locomotion, les frais qui affectent diversement les lettres, ne font varier la dépense, d’une zone à l’autre, que de 1/2 centime ,(footnote*[Nous renvoyons pour la démonstration à l’excellent rapport de M. Chégaray (Séance du 5 juillet 1844, p. 10 et suiv.) ,(NdA)]).
+][
+Mais puisque c’est au nom de l’égalité et de l’équité que la Commission s’est décidée pour la taxe graduelle, examinons son système à ce point de vue.
+][
+D’abord elle est partie de ce principe, que la poste devait être un instrument fiscal, et que, tandis que l’État épuise ses revenus pour faciliter la circulation des marchandises, il devait se faire une source de revenus de la circulation des sentiments, des affections et des pensées.
+][
+Il suit de là qu’il y a trois choses dans un port de lettre :
+][
+1° Un impôt ;
+][
+2° Le remboursement de frais communs à toutes les lettres ;
+][
+3° Le remboursement de frais variables selon les distances.
+][
+Il est clair que l’uniformité de la taxe devrait exister pour toutes les lettres, en ce qui concerne les deux premiers éléments, et que la gradualité ne peut résulter, avec justice, que du troisième.
+][
+Il est donc nécessaire d’en déterminer l’importance.
+][
+Les frais généraux communs à toutes les lettres, administration, inspection, surveillance, etc., s’élèvent à 12 millions que nous pouvons réduire à 10, parce qu’une partie de ces frais est absorbée par des services étrangers au sujet qui nous occupe, tels que le transport de cinquante mille voyageurs, les envois d’argent, les paquebots, etc.
+][
+Les frais de locomotion sont de 17,800,000 fr. qui se réduisent aussi à 10 millions, ainsi que nous l’avons vu dans l’article précédent, si l’on en déduit, comme on le doit, ceux qui ne concernent pas les dépêches.
+Ces frais doivent se répartir sur :]
+(simple-table '(
+([875,000 kilog. de lettres représentant][116 millions de lettres simp.])
+([1,000,000 — journaux et imprimés][133 —])
+([1,000,000 — dépêches administratives][133 —])
+([Total……][382 millions.])
+([Soit, en nombre rond, 400 millions de lettres simples.][])
+([Ainsi , 10 millions de frais fixes répartis sur 400 millions de lettres donnent pour chacune][2 c. 1/2])
+([10 millions de frais graduels ajoutent en moyenne au prix de revient][2 c. 1/2])
+([Total][5 cent.])
+))
+
+[Enfin, le coût moyen d’une lettre étant aujourd’hui de 42 c. 1/2, il s’ensuit que chacun des trois éléments y entre dans les proportions suivantes :]
+
+(simple-table '(
+([][cent.])
+([Frais fixes][2 1/2])
+([Frais graduels][2 1/2])
+([Impôt][37 1/2])
+([Total][42 c. 1/2])
+))
+
+[Si, comme le demandent les partisans de la réforme radicale, la partie purement fiscale était supprimée, le port serait fixé à 5 centimes, prix de revient. — En ce cas, l’État aurait à subventionner le port des dépêches administratives.
+][
+Ou, si l’on adoptait 10 centimes, les lettres des particuliers paieraient encore un impôt suffisant pour défrayer le service public.
+][
+Dans l’un et l’autre cas, l’uniformité est forcée, car les frais de locomotion, les seuls qui pussent justifier la gradualité, n’étant en moyenne que de 1/2 centime, il en résulte que la plus petite distance coûte 1 c. 1/2 et la plus grande 5 centimes.
+][
+Voici donc quel devrait être le tarif fondé sur ce principe.]
+(simple-table '(
+([][Frais fixes.][Frais graduels.][Total ou tarif.])
+([,(1ere) zone][2 1/2][1 1/4][3 3/4])
+([,(2e) —][2 1/2][1 6/8][4 3/8])
+([,(3e) —][2 1/2][2 1/2][5])
+([,(4e) —][2 1/2][3 3/4][6 1/4])
+([,(5e) —][2 1/2][5][7 1/2])
+))
+
+[Tarif évidemment inexécutable. Il ne le serait pas moins, si l’on y ajoute une taxe fiscale, puisqu’elle devrait être immuable, par exemple 20 centimes. — Et l’on aurait alors ce monstrueux tarif :]
+(simple-table '(
+([,(1ere) zone][23 c. 1/2])
+([— ,(2e)][24 c. 3/8])
+([— ,(3e)][25 c., etc.])
+))
+[Or, qu’a fait la Commission sous le manteau de l’égalité ? Elle a inégalisé l’impôt, et son tarif décomposé donne les résultats suivants :]
+(simple-table '(
+([][Frais généraux.][Frais graduels.][Impôt.][Total de la taxe proposée.])
+([,(1ere) zone][2 1/2][1 1/4][6 1/4][10])
+([,(2e) —][2 1/2][1 5/8][15 5/8][20])
+([,(3e) —][2 1/2][2 1/2][25][30])
+([,(4e) —][2 1/2][5 1/4][33 3/4][40])
+([,(5e) —][2 1/2][5][42 1/2][50])
+))
+
+[N’avais-je pas raison de dire que le système de la Commission établissait un impôt aussi inégal qu’exorbitant, puisqu’il s’élève pour quelques-uns à deux fois, pour d’autres à dix fois le prix du service rendu.
+][
+Il n’y a donc de sérieuse égalité que dans l’uniformité. Mais une taxe uniforme implique une taxe modique, et, pour ainsi dire, réduite au minimum praticable.
+][
+On a beaucoup parlé de 20 centimes. — Mais à ce taux, il vous faut une catégorie de lettres à 10 centimes (celles qui circulent dans le rayon d’un bureau) ; de là la nécessité du tri, de la taxation ; de là, l’impossibilité d’arriver jamais à l’affranchissement obligatoire.
+][
+Je viens de prononcer le mot affranchissement obligatoire. Il n’est possible qu’avec une taxe de 10 ou mieux de 5 centimes, et les avantages en sont si évidents, qu’il y a lieu d’être surpris qu’on recule devant cette objection : la perte du trésor, — comme si le trésor n’était pas le public.
+][
+Qu’on se figure quel est le travail actuel de la poste, ce qu’il sera encore après la réforme telle que la Commission nous l’a faite. Cent lettres sont jetées à la poste. Chacune d’elles peut appartenir, pour la distance, à onze zones et pour le poids à neuf classes, ce qui élève le nombre des combinaisons à quatre-vingt-dix-neuf pour chaque lettre, et voilà M. le directeur, consultant tour à tour son tableau et sa balance, réduit à faire 9,900 recherches en quelques minutes. Après cela il constatera le poids sur un coin et la taxe au beau milieu des adresses.
+][
+Faut-il affranchir ? Il recevra l’argent, donnera la monnaie, inscrira l’adresse sur je ne sais combien de registres, enveloppera la lettre dans un bulletin qui relate, pour la troisième ou la quatrième fois, le nom du destinataire, le lieu du départ, le lieu de l’arrivée, le poids, la taxe, le numéro.
+][
+Puis vient la distribution ; autres comptes interminables entre le directeur et le facteur, le facteur et le destinataire, et toujours contrôle sur contrôle, paperasse sur paperasse.
+][
+Que dirai-je du travail qu’occasionnent les rebuts ; et les trop taxés, et les moins taxés, et cette comptabilité générale, chef-d’œuvre de complication, destinée, et il le faut bien, à s’assurer la fidélité des agents de tous grades ?
+][
+N’est-il pas singulier qu’on prodigue des millions pour faire gagner aux malles une heure de vitesse, et qu’on prodigue d’autres millions pour faire perdre cette heure aux distributeurs ?
+][
+Avec l’affranchissement obligatoire, toutes ces lenteurs, toutes ces complications, toutes ces paperasses, tous ces rebuts, les plus trouvés, les moins trouvés, les tris, les taxes, cette comptabilité prodigieuse en matière et en finances, tout cela disparaît tout à coup. La poste et l’enregistrement vendent des enveloppes et des timbres à 5 ou 10 centimes, et tout est dit.
+][
+On objectera qu’il y aurait de l’arbitraire à priver l’envoyeur de la faculté de faire partir une lettre non affranchie.
+][
+On ne l’en prive pas. Rappelons-nous que, dans ce système, il est maître de faire parvenir ses lettres comme il le juge à propos, il n’a donc pas à se plaindre, si la poste, pour rendre le service aussi prompt et aussi économique que possible, veut rester maîtresse de ses moyens.
+][
+Disons les choses comme elles sont. Sous le rapport moral, au point de vue de la civilisation, des affaires, des affections, quant à la commodité, la simplicité et la célérité du service, enfin dans l’intérêt de la justice et de la vraie égalité, il n’y a pas d’objection possible contre la taxe uniforme et modérée.
+][
+La perte du revenu ! — Voilà le seul et unique obstacle.
+][
+La perte du revenu ! — Voilà pourquoi on frappe d’un impôt énorme et inégal les communications de la pensée, la transmission des nouvelles, les anxiétés du cœur et les tourments de l’absence ! Voilà pourquoi on grossit nos Codes de crimes fictifs et de châtiments réels. Voilà pourquoi on perd à la distribution des lettres le temps qu’on gagne sur la vitesse des malles. Voilà pourquoi on surcharge le service de complications inextricables ! Voilà pourquoi on l’assujettit à une comptabilité qui porte sur 40 millions divisés en somme de 40 centimes, dont chacune donne lieu au moins à une douzaine d’écritures !
+][
+Mais, en définitive, à combien se monte cette perte ?
+][
+Admettons qu’elle soit de 20 millions.
+][
+On accordera sans doute que cette somme, laissée à la disposition des contribuables, achètera du sucre, du tabac, du sel, par quoi la perte du trésor sera atténuée.
+][
+On accordera aussi que la fréquence et la facilité des relations, multipliant les affaires, réagiront favorablement sur tous les canaux des revenus publics.
+][
+Le nombre des lettres ne peut pas manquer non plus de s’accroître d’année en année.
+][
+Enfin le service, simplifié dans une proportion incalculable, permettra certainement de notables économies.
+][
+Toutes ces compensations faites, supposons encore la perte du revenu de 10 millions.
+][
+La question est de savoir si vous pouvez employer 10 millions d’une manière plus utile, et j’ose vous défier de me montrer dans le budget, tout gros qu’il est, une dépense mieux entendue.
+][
+Eh quoi ! c’est au moment où vous prodiguez 1 milliard pour faciliter la circulation des hommes et des choses, que vous hésitez à sacrifier 10 millions pour faciliter la circulation des idées !
+][
+Vous vous demandez s’il est sage de négliger une rentrée de 1 millions, quand il s’agit de conférer au public des avantages inappréciables ?
+][
+Car si le nombre des lettres vient seulement à doubler, qui osera assigner une valeur aux affaires engagées, aux affections satisfaites, aux anxiétés dissipées par ce surcroît de correspondance ?
+][
+Et n’est-ce rien que d’effacer de vos Codes des crimes chimériques, des châtiments arbitraires, et ces transactions immorales entre le caprice administratif et les arrêts de la justice ?
+][
+N’est-ce rien que de remettre à un pauvre manœuvre la lettre de son fils, si longtemps attendue, sans lui arracher, et presque tout pour l’impôt, le fruit de quinze heures de sueur ?
+][
+N’est-ce rien que de ne pas réduire une misérable veuve, afin d’amasser les 24 sous qu’on exige (dont 22 sont une pure contribution) à laisser séjourner quinze jours à la poste la lettre qui doit lui apprendre si sa fille vit encore ?
+][
+Aujourd’hui même je lisais dans le ,(cite-title[Moniteur]) que le chiffre des recettes publiques s’accroît de trimestre en trimestre.
+][
+Comment donc le moment n’arrive-t-il jamais où les réformes les plus urgentes ne sont pas ajournées ou gâtées par cette éternelle considération : la perte du revenu ?
+][
+Mais enfin, vous faut-il absolument 10 millions ? Vous avez un moyen simple de vous les procurer. Rentrez, sous un double rapport, dans la vérité des choses. — En même temps que vous ôterez à la poste, rendez à la douane le caractère fiscal.
+][
+Diminuez seulement d’un quart les droits sur le fer, la houille, les bestiaux et le lin.
+][
+Le trésor et le public s’en trouveront bien. Chacune de ces réformes facilitera l’autre, vous aurez rendu hommage à deux principes d’éternelle justice, et vos prochaines professions de foi se baseront au moins sur quelque chose de plus substantiel que l’ordre avec la liberté et la paix avec l’honneur, lieux communs qui, s’ils n’engagent à rien, ne trompent non plus personne.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Réforme postale]),
+pp. 83-91.
+])))
