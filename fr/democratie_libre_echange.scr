@@ -1,0 +1,65 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Démocratie et libre-échange, par Frédéric Bastiat")
+
+(document :title "Démocratie et libre-échange"
+	:author (author-FB)
+(date-tag[25 avril 1847])
+(p*[
+Un philosophe devant qui on niait le mouvement se prit à marcher.
+][
+C’est un mode d’argumentation que nous mettrons en usage chaque fois que l’on nous en fournira l’occasion.
+][
+Nous l’avons déjà employé à propos du traité de Méthuen. On assurait que ce traité avait ruiné le Portugal, nous en avons donné le texte.
+][
+Maintenant nous sommes en face d’une autre question.
+][
+Les ,(emph[amis du peuple]) font au libre-échange une opposition haineuse.
+][
+Sur quoi nous avons à nous demander :
+][
+Le ,(emph[libre-échange]), quant aux choses les plus essentielles, est-il ou n’est-il pas dans l’intérêt du peuple ?
+][
+Chacun fait, comme il l’entend, parler et agir le peuple. Mais voyons comment le peuple a parlé et agi lui-même quand il en a eu l’occasion.
+][
+Depuis un demi-siècle, nous avons eu des constitutions fort diverses.
+][
+En 1795, aucun Français n’était exclu du suffrage électoral.
+][
+En 1791, il n’y avait d’exclus que ceux qui ne payaient aucun impôt.
+][
+En 1817, étaient exclus ceux qui payaient moins de 300 francs.
+][
+En 1822, l’influence de la grande propriété fut renforcée par le double vote.
+][
+Ces quatre assemblées, émanées de sources diverses, depuis la démocratie la plus extrême jusqu’à l’aristocratie la plus restreinte, ont voté chacune son tarif.
+][
+Il nous est donc aisé de comparer la volonté de tous exprimée par tous, à la volonté de quelques-uns exprimée par quelques-uns. Nous soumettons le tableau suivant aux méditations de nos concitoyens de toutes classes.
+][
+(ajouter tableau)
+][
+Certes, nous ne croyons pas que le peuple de 1795 fût plus avancé en économie politique que le corps électoral de 1847.
+][
+Mais alors on posait cette question : Ceux qui mangent de la viande et du pain ou se servent de fer payeront-ils une taxe à ceux qui produisent ces choses ? Et comme les mangeurs de pain étaient en majorité, la majorité disait : ,(emph[Non]).
+][
+Aujourd’hui on pose la même question. Mais ceux qui font du blé, de la viande ou du fer sont seuls consultés, et ils décident qu’il leur sera payé une gratification, un supplément de prix, une taxe.
+][
+Il n’y a rien là qui doive nous surprendre. La Suisse est le seul pays, en Europe, où tout le monde concourt à faire la loi ; c’est aussi le seul pays, en Europe, où des taxes sur le grand nombre en faveur du petit nombre n’ont pu pénétrer.
+][
+En Angleterre, la loi était faite exclusivement par les propriétaires du sol. Aussi nulle part on n’avait attribué à la production du blé des primes si exorbitantes.
+][
+Aux États-Unis, le parti whig et le parti démocrate se disputent et obtiennent tour à tour l’influence. Aussi le tarif s’élève ou s’abaisse, suivant que le premier l’emporte sur le second ou le second sur le premier.
+][
+En présence de ces faits écrasants, quand nous avons soulevé la question du libre-échange, quand nous avons essayé de réagir contre cette prétention d’une classe de faire des lois à son profit, comment est-il arrivé que nous ayons rencontré une opposition ardente et haineuse, parmi les meneurs du parti démocratique ?
+][
+C’est ce que nous expliquerons sous peu de manière à être compris.
+][
+En attendant, puisse le tableau qui précède, si propre à rendre les hommes du droit commun plus clairvoyants, rendre aussi les hommes du privilége plus circonspects ! Il nous semble difficile qu’ils n’y puisent pas des motifs sérieux de faire tourner au profit de tous, sinon par esprit de justice, au moins par esprit de prudence, cette puissance de faire des lois qui est concentrée en leurs mains.
+][
+Pour aujourd’hui, nous terminons par une question, que nous adressons aux prétendus patriotes, à ceux qui disent que le droit d’échanger est d’,(emph[importation anglaise]). Nous leur demanderons si la Constituante et la Convention étaient soudoyées par l’Angleterre ?
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome II,
+,(cite-title[Démocratie et libre-échange]),
+pp. 100-104.
+])))

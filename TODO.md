@@ -30,3 +30,8 @@ Infrastructure
     Bastiat writings, another one for other text.
 
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)
+
+
+  Trucs de Laura, par Laura et pour Laura
+  ---------------------------------------
+  - Ajouter tableaux dans: De l'avenir du commerce des vins; Démocratie et libre-échange (format image? car gros gros tableau)
