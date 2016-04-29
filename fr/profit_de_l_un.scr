@@ -1,0 +1,23 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Le profit de l’un est le dommage de l’autre, par Frédéric Bastiat")
+
+(document :title "Le profit de l’un est le dommage de l’autre"
+	:author (author-FB)
+(p*[
+,(footnote*[Ébauche de 1847. L’auteur s’en est tenu à ce court préambule du chapitre qu’il promettait dans l’ébauche précédente. Il s’aperçut bien vite que, pour la réfutation projetée, un chapitre ne suffisait pas. C’était un livre qu’il fallait ; et il écrivit les ,(cite-title[Harmonies]). ,(NdEEO)])
+Sophisme type, sophisme souche, d’où sortent des multitudes de sophismes, sophisme polype, qu’on ne peut couper en mille que pour donner naissance à mille sophismes, sophisme anti humain, anti-chrétien, anti-logique ; boîte de Pandore d’où sont sortis tous les maux de l’humanité, haines, défiances, jalousies, guerres, conquêtes, oppressions ; mais d’où ne pouvait sortir l’espérance.
+][
+Hercule ! qui étranglas Cacus, Thésée ! qui assommas le Minotaure, Apollon ! qui tuas le serpent Python, que chacun de vous me prête sa force, sa massue, ses flèches pour détruire le monstre qui, depuis six mille ans, arme les hommes les uns contre les autres.
+][
+Mais, hélas ! il n’est pas de massue qui puisse écraser un sophisme. Il n’est donné à la flèche ni même à la baïonnette de percer une proposition. Tous les canons de l’Europe réunis à Waterloo n’ont pu effacer du cœur des peuples un principe ; et ils n’effaceraient pas davantage une erreur. Cela n’est réservé qu’à la moins matérielle de toutes les armes, à ce symbole de légèreté, la plume.
+][
+Donc ce ne sont ni les dieux ni les demi-dieux de l’antiquité qu’il faut invoquer.
+][
+Si je voulais parler au cœur, je m’inspirerais du fondateur de la religion chrétienne. — Puisque c’est à l’esprit que je m’adresse et qu’il s’agit d’essayer une ,(emph[démonstration]), je me place sous l’invocation d’Euclide et de Bezout, tout en appelant à mon aide les Turgot, les Say, les Tracy, les Ch. Comte. On dira « c’est bien froid ». Qu’importe, pourvu que la démonstration se fasse……
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Le profit de l’un est le dommage de l’autre]),
+pp. 327-328.
+])))

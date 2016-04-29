@@ -1,0 +1,91 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Réforme postale, par Frédéric Bastiat")
+
+(document :title "Réforme postale"
+	:author (author-FB)
+(date-tag[,(cite-title[Mémorial bordelais]) du 23 avril 1848.])
+(p*[
+Que sont devenues cette énergie française, cette audace, cette initiative qui frappaient le monde d’admiration ? Nous sommes-nous rapetissés à la taille des Lilliputiens ? L’intrépide géant s’est-il fait nain timide et trembleur ? Notre orgueil national se contente-t-il qu’on dise encore de nous : « Ce sont les premiers hommes du monde pour donner et recevoir des coups de sabre, » — et sommes-nous décidés à dédaigner la solide gloire de marcher résolument dans la voie des réformes fondées sur la justice et la vérité ?
+][
+On serait tenté de le croire, quand on lit ce rachitique projet émané de la commission de la Chambre, intitulé emphatiquement : ,(emph[Réforme postale]).
+][
+L’État s’est emparé du transport et de la distribution des lettres. Je ne songe pas à lui disputer, au nom des droits de l’activité individuelle, ce délicat service, puisqu’il l’accomplit du consentement de tous.
+][
+Mais de ce que, par des motifs d’ordre et de sûreté, il s’est déterminé à dépouiller les citoyens de la faculté de se transmettre réciproquement leurs dépêches comme ils l’entendent, ne s’ensuit-il pas qu’il ne doit rien leur demander au delà du service rendu ?
+][
+Voyez les routes. Elles servent à la circulation des hommes et des choses, à quoi l’on a attaché tant de prix, que l’État, après avoir consacré des sommes énormes à leur confection, les livre, sans aucune rémunération, à l’usage des citoyens.
+][
+Eh quoi ! la circulation de la pensée, l’échange des sentiments, la transmission des nouvelles, les relations de père à fils, de frère à sœur, de mère à fille, seraient-elles à nos yeux moins précieuses ?
+][
+Cependant, non seulement l’État se fait rembourser, pour le transport des lettres, le prix du service rendu, mais il le surcharge d’un impôt inégal et exorbitant.
+][
+Il faut des revenus au trésor, j’en conviens. Mais on conviendra aussi que les rapports des parents, les épanchements de l’amitié, l’anxiété des familles, devraient être la dernière des ,(emph[matières imposables]).
+][
+Chose singulière ! Par une double inconséquence, on imprime à la poste un caractère fiscal qu’on refuse à la douane, les détournant ainsi l’une et l’autre de leur destination rationnelle.
+][
+Un citoyen a certainement le droit de dire à l’État : Vous ne pouvez, sans porter atteinte à mes plus chers priviléges, me dépouiller de la faculté de faire parvenir comme je l’entends une dépêche dont dépendent peut-être ma fortune, ma vie, mon honneur et le repos de mon existence. Tout ce que vous pouvez avec justice, c’est de me déterminer à avoir ,(emph[volontairement]) recours à vous, en m’offrant les moyens de correspondance les plus prompts, les plus sûrs et les plus économiques.
+][
+Que si on posait en principe (je demande grâce pour cette expression peu parlementaire) que l’État ne doit point bénéficier sur le transport des lettres, on arriverait avec une facilité merveilleuse à la solution de tous les problèmes que soulève la réforme ,(emph[postale]), car je n’ai jamais entendu faire contre la taxe inférieure et uniforme qu’une seule objection : Le trésor perdrait tant de millions (perdre, en style administratif, c’est ne pas gagner).
+][
+Remboursement réel, remboursement uniforme, voilà les deux sujets sur lesquels j’essaierai d’appeler l’attention du lecteur.
+][
+Mais, avant tout, je crois devoir rendre un hommage éclatant à l’administration des postes. On dit qu’en Angleterre, c’est dans le post-office que s’organise la résistance à la réforme. En France, au contraire, elle est née dans les bureaux, s’il est vrai que la première publication qui ait traité ce sujet doive être attribuée à un haut fonctionnaire de la rue Jean-Jacques-Rousseau. Jamais je n’ai lu un ouvrage plus dégagé d’esprit bureaucratique et fiscal, plus empreint d’idées élevées, généreuses, philanthropiques, et qui respire plus, à chaque page, l’amour du progrès et du bien public.
+][
+Remboursement réel des frais. — Fidèle au principe que je posais tout à l’heure, je dois d’abord chercher quelle devrait être la taxe ou plutôt le prix de chaque lettre.
+][
+La circulation fut, en 1844, de 108 millions de lettres, et il est impossible qu’elle ne dépassât pas, avec la taxe réduite, 200 millions.]
+(simple-table '(
+([Les dépenses se sont élevées à][][fr. 30,000,000])
+([À déduire :][][])
+([Paquebots du Levant][fr. 5,200,000][])
+([Produit réalisé des places dans la malle-poste][» 2,300,000][])
+([Envois d’argent][» 1,100,000][])
+([Remboursement par les offices continentaux][» 400,000][])
+([Produit réalisé des journaux][» 2,000,000][» 11,000,000])
+([Reste à la charge des lettres][][fr. 19,000,000])
+))
+
+[Encore les frais administratifs devraient-ils être imputés rigoureusement, dans la proportion d’un tiers, aux services accessoires.
+][
+Reste toujours que 200 millions de lettres à 10 centimes, produisant 20 millions, couvriraient et au delà leurs frais.
+][
+Remarquons qu’à ce prix les lettres payeraient encore un impôt de 5 centimes ou 100 p. 100, puisqu’elles défrayeraient le transport gratuit des dépêches administratives égales à leur propre poids.
+][
+Par cette dernière considération, je le dis ouvertement, si nous ne vivions dans un temps où il semble qu’on a horreur du bien quand il se présente sous une forme un peu absolue et dégagé d’une dose de mal qui le fasse accepter, je dirais que la lettre simple ne doit payer que 5 centimes ; et certes les avantages de la réforme seraient alors si complets, que peut-être ne devrait-on pas hésiter. — Mais admettons 10 centimes, moitié rémunération, moitié impôt.
+][
+Le premier avantage de cette modicité, je n’ai pas besoin de le dire, ce serait la juste satisfaction donnée au plus délicat, au plus respectable des besoins de l’homme, dans l’ordre moral.
+][
+Le second, d’accroître l’ensemble des transactions et des affaires, fort au delà probablement de ce qui serait nécessaire pour restituer par d’autres canaux, au trésor public, la perte du produit net actuel des postes.
+][
+Le troisième, de mettre la correspondance à la portée de tous.
+][
+La commission fixe à 10 centimes le prix des lettres adressées aux soldats. Elle oublie une chose, c’est que, sur 34 ,(emph[millions]) d’habitants, il y en a 8 ,(emph[millions]) qui sont des soldats aussi, les soldats de l’industrie, et qui, après avoir pourvu aux premières nécessités de la vie, n’ont pas toujours le sou de poche.
+][
+Enfin, un quatrième et précieux avantage, ce serait de restituer à tout Français la faculté de transporter des lettres et de ne pas faire arbitrairement une catégorie de délits artificiels.
+][
+Je suis surpris qu’on ne soit pas frappé du grave inconvénient qu’il y a toujours à classer législativement, parmi les délits et les crimes, des actions innocentes en elles-mêmes, et souvent louables. Et ici, voyez dans quelle série d’absurdités et d’immoralités on s’engage nécessairement quand on fonde la poste sur le principe de la fiscalité.
+][
+La taxe est fiscale ; donc elle doit dépasser de beaucoup le prix du service rendu ; donc les particuliers seront excités à faire la concurrence à l’État ; donc il faut leur ôter une liberté innocente, quelquefois précieuse ; donc il faut une sanction pénale.
+][
+Et quelle sanction ! Peut-on lire sans une insurmontable répugnance l’article 7 du projet de la Commission ? Un acte de simple obligeance puni comme un forfait ! Le port d’une lettre entraîner une amende qui peut aller à 6,000 francs ! Combien de crimes contre les propriétés, même contre les personnes, n’exposent point à une telle pénalité !
+][
+Avec la taxe à 10 centimes, — ou mieux à 5 centimes, — vous n’avez pas besoin de créer de délits. La nomenclature en est déjà assez longue. Vous pouvez rendre à chacun la liberté. On ne s’amusera pas à chercher des occasions incertaines, quand on aura sous la main la plus économique, la plus commode, la plus directe, la plus sûre et la plus prompte des occasions.
+][
+Puisque j’ai parlé de châtiments, je dois faire ressortir dans le projet de la Commission, un contraste dont je suis sûr que le sentiment public sera révolté.
+][
+Un homme se charge d’une lettre. En lui-même, l’acte n’est pas coupable. Ce n’est pas la nature des choses, c’est la loi, la loi seule, qui l’a fait tel. Cet homme peut être puni de 6,000 francs d’amende, et, qui plus est, par une autre fiction légale, le châtiment peut tomber sur un tiers qui n’a pas même eu connaissance du fait (art. 8).
+][
+Un fonctionnaire abuse du contre-seing. Il y a fraude aussi, et qui pis est fraude du plus mauvais caractère, fraude préméditée, calculée, intentionnelle. De plus, il y a faux, et faux commis par un homme public en écritures publiques ; il y a abus de confiance ; il y a violation de serments. — L’amende est de 25 francs ! Que dirai-je de l’article 10 : ,(emph[L’administration pourra transiger avant comme après jugement]), etc. ? De telles dispositions portent avec elles-mêmes leur commentaire.
+][
+Ainsi, transactions gênées, sentiments froissés, liens de famille relâchés, affaires gênées, liberté restreinte, taxes inégales, crimes fictifs, châtiments arbitraires ; telles sont les conséquences nécessaires du principe de la fiscalité introduit dans la loi des postes.
+][
+Donc il faut recourir à cet autre principe, que la poste doit rendre le service auquel elle est destinée, au prix le plus bas possible, c’est-à-dire à un prix qui couvre ses frais.
+][
+Il me reste à parler de l’uniformité de la taxe, et aussi des moyens de combler le déficit du trésor. Ce sera l’objet d’un second article.
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Réforme postale]),
+pp. 78-83.
+])))

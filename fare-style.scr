@@ -54,7 +54,8 @@
 (define (thinsp) (make-glyph :txt " " :html "&thinsp;" :tex "\;")) ; &#8201;
 (define *made-with* "Made with")
 (define *site-by* "A site by")
-(define (NdT) (emph[(Note du traducteur)]))
+(define (NdA) (emph[(Note de l’auteur.)]))
+(define (NdT) (emph[(Note du traducteur.)]))
 (define (NdEEO) (emph[(Note de l'éditeur de l'édition originale.)]))
 (define (LHL) (emph[Lettres d’un habitant des Landes]))
 

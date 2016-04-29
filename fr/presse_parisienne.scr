@@ -1,0 +1,30 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "La presse parisienne, par Frédéric Bastiat")
+
+(document :title "La presse parisienne"
+	:author (author-FB)
+(date-tag[Paris, 29 février 1848.])
+(date-tag[N° du ,(1er) mars 1848 de la ,(cite-title[République française]).])
+(p*[
+La presse parisienne n’offre pas un spectacle moins extraordinaire, moins imposant que la population des barricades.
+][
+Qu’est devenue cette ardente et souvent brutale polémique des derniers temps ?
+][
+Les vives discussions reviendront sans doute. Mais n’est-il pas bien consolant de voir qu’au moment du danger, quand la patrie a besoin avant tout de sécurité, d’ordre, de confiance, toutes les rancunes s’oublient, et que même les doctrines les plus excentriques s’efforcent de se présenter sous des formes rassurantes ?
+][
+Ainsi le ,(cite-title[Populaire]), journal des communistes, s’écrie : ,(emph[Respect à la propriété !]) M. Cabet rappelle à ses adhérents qu’ils ne doivent chercher le triomphe de leurs idées que dans la discussion et les convictions publiques.
+][
+La ,(cite-title[Fraternité]), journal des ouvriers, publie un long programme que les économistes pourraient avouer tout entier, sauf peut-être une ou deux maximes plus illusoires que dangereuses.
+][
+L’,(cite-title[Atelier]), autre journal rédigé par des ouvriers, conjure ses frères d’arrêter le mouvement irréfléchi qui les portait, dans le premier moment, à briser les machines.
+][
+Tous les journaux s’efforcent à l’envi de calmer et de flétrir un autre sentiment barbare que malheureusement l’esprit de parti avait travaillé pendant quinze ans à soulever ; nous voulons parler des préventions nationales. Il semble qu’un jour de révolution a fait disparaître, en la rendant inutile, cette machine de guerre de toutes les oppositions.
+][
+Paix extérieure, ordre intérieur, confiance, vigilance, fraternité, voilà les mots d’ordre de toute la presse ,(footnote*[A partir du second numéro de la République française, celui du 27 février, jusqu’au n° 5, du ,(1er) mars 1848, le nom de Bastiat figure à la dernière ligne du journal avec les noms de ses autres rédacteurs. Il n’en est plus ainsi dans les numéros suivants : Bastiat ne signe plus le journal ; il se borne à signer ses propres articles. ,(NdEEO)]).
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[La presse parisienne]),
+pp. 210-235.
+])))

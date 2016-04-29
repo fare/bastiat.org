@@ -1,0 +1,29 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Les rois doivent désarmer, par Frédéric Bastiat")
+
+(document :title "Les rois doivent désarmer"
+	:author (author-FB)
+(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
+(p*[
+Si les rois de l’Europe étaient seulement prudents, que feraient-ils ?
+][
+L’Angleterre renoncerait spontanément au droit de visite ; elle reconnaîtrait spontanément l’Algérie comme française ; elle n’attendrait pas que ces questions brûlantes fussent soulevées, et licencierait la moitié de sa marine ; elle ferait tourner cette économie au profit du peuple, en dégrevant les droits sur le thé et le vin.
+][
+Le roi de Prusse libéraliserait l’informe constitution de son pays, et, donnant congé aux deux tiers de son armée, il s’assurerait l’attachement du peuple en le soulageant du poids des taxes et du service militaire.
+][
+L’empereur d’Autriche évacuerait en toute hâte la Lombardie, et se mettrait en mesure, par la réduction de l’armée, d’accroître la proverbiale puissance des Autrichiens.
+][
+L’empereur de Russie rendrait la Pologne aux Polonais.
+][
+Alors la France, tranquille pour son avenir, s’absorberait dans ses réformes intérieures et laisserait agir l’influence morale seule.
+][
+Mais les rois de l’Europe croiraient se perdre par cette conduite qui seule peut les sauver.
+][
+Ils feront tout le contraire ; ils voudront étouffer le libéralisme. Pour cela ils armeront ; les peuples armeront aussi. La Lombardie, la Pologne, peut-être la Prusse, deviendront le théâtre de la lutte. Cette alternative posée par Napoléon : ,(emph[L’Europe sera républicaine ou cosaque]), devra se résoudre à coups de canon. La France, malgré son ardent amour pour la paix manifesté par l’unanimité des journaux, mais forcée par son intérêt évident, ne pourra s’empêcher de jeter son épée dans la balance, et… ,(emph[les rois périssent ; les peuples ne périssent pas]).
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Les rois doivent désarmer]),
+pp. 210-235.
+])))
