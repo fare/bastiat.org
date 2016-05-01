@@ -6,40 +6,36 @@
 
 (define-markup (in-bo
                 (:title #f) (:lang #f) (:charset *default-charset*))
-  ;(set! *webbug* (nedstatbasic "AB96kQQPKcA9hvtk46jfLrOJROZQ"))
   (apply* with-header :title title :lang lang :charset charset
-	  :icon "http://bastiat.org/pic/favicon.ico"
-	  :css "http://bastiat.org/bastiat.css"
+	  :icon "pic/favicon.ico"
+	  :css "bastiat.css"
 	  '())
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
 
 (define-markup (in-boe (:title #f) (:charset *default-charset*))
-  ;(set! *webbug* (nedstatbasic "AB1t4Q0lGCThWKJZmCMwPijGBuvg"))
   (apply* with-header :title title :lang 'en :charset charset
-	  :icon "http://bastiat.org/pic/favicon.ico"
-	  :css "http://bastiat.org/bastiat.css"
+	  :icon "../pic/favicon.ico"
+	  :css "../bastiat.css"
 	  '())
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
 
 (define-markup (in-bof (:title #f) (:charset *default-charset*))
-  ;(set! *webbug* (nedstatbasic "AB1t5AEToaCwyNzVqItEA1IJ4eCg"))
   (apply* with-header :title title :lang 'fr :charset charset
-	  :icon "http://bastiat.org/pic/favicon.ico"
-	  :css "http://bastiat.org/bastiat.css"
+	  :icon "../pic/favicon.ico"
+	  :css "../bastiat.css"
 	  '())
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
 	       :right [Un site par ,(FRR) ,(webbug)]))
 
 (define-markup (in-boes (:title #f) (:charset *default-charset*))
-  ;(set! *webbug* (nedstatbasic "AB96lAiJYmytD2BwLTX0J8Im4GXg"))
   (apply* with-header :title title :lang 'es :charset charset
-	  :icon "http://bastiat.org/pic/favicon.ico"
-	  :css "http://bastiat.org/bastiat.css"
+	  :icon "../pic/favicon.ico"
+	  :css "../bastiat.css"
 	  '())
   (with-footer :left (boes-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -52,8 +48,11 @@
       (bof-ref file title)
       title))
 (def-ref-maker elb-ref "http://www.econlib.org/library/Bastiat/")
-(def-ref-maker leter-ref "http://aboutleter.chez.tiscali.fr/pages/etexts%20Bastiat/")
-; http://members.tripod.com/michelleter/pages/etextsbastiat/
+
+;; Les éditions Leter ont disparu, et Michel Leter aussi. Paix à son âme.
+;;(def-ref-maker leter-ref "http://aboutleter.chez.tiscali.fr/pages/etexts%20Bastiat/")
+;; http://members.tripod.com/michelleter/pages/etextsbastiat/
+(defun leter-ref (path &rest r) (declare (ignore path)) r)
 
 (define-markup (cite-text (:file #f) . title)
    (let ((title (cite-title (apply* *list title))))
