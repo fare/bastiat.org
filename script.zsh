@@ -81,7 +81,7 @@ oldtouch () {
 
 depend () {
 
-SOURCES=( */*.scr~*-style.scr ) # someday, add index.scr (?)
+SOURCES=(index.scr */*.scr)
 
 rule () {
     local j
