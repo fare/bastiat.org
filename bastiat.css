@@ -1,5 +1,7 @@
 sup {line-height: 0;}
 
+
+
 .bastiat {
 	width: 50%;
 	min-width: 20em;
@@ -7,6 +9,12 @@ sup {line-height: 0;}
 	font-family: "berenis";
 	font-size: 1.15em;
 	line-height: 1.5em;
+}
+@media only screen and (max-width: 25cm) {
+	.bastiat {
+		width: 80%;
+		font-size: 1.2em;
+	}
 }
 
 .bastiat p {
