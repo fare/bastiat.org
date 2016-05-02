@@ -201,7 +201,7 @@ depend_guillaumin
 update_bespin () {
     make dep &&
     make &&
-    rsync -av --delete ./ bastiat@bastiat.org:html/
+    rsync -av --delete --exclude .git ./ bastiat@bastiat.org:html/
 }
 
 txt2scr () {
