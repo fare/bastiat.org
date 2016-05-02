@@ -1,1 +1,58 @@
 sup {line-height: 0;}
+
+.bastiat {
+	width: 50%;
+	min-width: 20em;
+	margin: auto;
+	font-family: "berenis";
+	font-size: 13pt;
+	line-height: 1.5em;
+}
+
+.bastiat p {
+	text-indent: 1.5em;
+}
+
+/*Polices de caractères*/
+
+@font-face{
+    font-family:'berenis';
+    src:url("fonts/BerenisADFNo2-Book.otf");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'berenis';
+    src:url("fonts/BerenisADFNo2-Italic.otf");
+    font-weight:normal;font-style:italic;
+}
+
+/*Style épistolaire*/
+
+.cher {
+	font-variant: small-caps;
+	padding: 2em 0 1em 4em;
+	font-size: large;
+}
+
+.politesse {
+	padding-left: 3em;
+}
+
+/*Mise en forme des liens*/
+
+.np:link, .np:visited {
+	color: #500;
+	text-decoration: none;
+}
+.np:hover {
+	color: #c00;
+}
+
+.tj:link, .tj:visited {
+	color: #005;
+	text-decoration: none;
+}
+
+.tj:hover {
+	color: #05b;
+}

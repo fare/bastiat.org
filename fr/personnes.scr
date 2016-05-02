@@ -1,0 +1,102 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Index des noms de personnes")
+(document :title "Index des noms de personnes"
+
+;Alphabet à répéter sous chaque lettre
+(define (alphabet)
+(p :center *[
+,(a :href :#a [A])
+,(a :href :#b [B])
+,(a :href :#c [C])
+,(a :href :#d [D])
+,(a :href :#e [E])
+,(a :href :#f [F])
+,(a :href :#g [G])
+,(a :href :#h [H])
+,(a :href :#i [I])
+,(a :href :#j [J])
+,(a :href :#k [K])
+,(a :href :#l [L])
+,(a :href :#m [M])
+,(a :href :#n [N])
+,(a :href :#o [O])
+,(a :href :#p [P])
+,(a :href :#q [Q])
+,(a :href :#r [R])
+,(a :href :#s [S])
+,(a :href :#t [T])
+,(a :href :#u [U])
+,(a :href :#v [V])
+,(a :href :#w [W])
+,(a :href :#x [X])
+,(a :href :#y [Y])
+,(a :href :#z [Z])
+]))
+
+(alphabet)
+
+(tag :a :name "a")
+(subtitle[A])
+(alphabet)
+
+(tag :a :name "arago")
+(p*[François Arago, 1786-1853]
+[,(ref :url "2pertes_1profit.html" [Deux pertes contre un profit])])
+
+(tag :a :name "b")
+(subtitle[B])
+(alphabet)
+
+
+(tag :a :name "beranger")
+(p*[Pierre-Jean de Béranger, 1780-1857]
+[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+
+(tag :a :name "j")
+(subtitle[J])
+(alphabet)
+
+(tag :a :name "jobard")
+(p*[Marcellin Jobard, 1792-1861]
+[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(tag :a :name "r")
+(subtitle[R])
+(alphabet)
+
+(tag :a :name "regnard")
+(p*[Jean-François Regnard, 1655-1709]
+[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n'ai pas un sou.”])
+
+(tag :a :name "rousseau")
+(p*[Jean-Jacques Rousseau, 1712-1778]
+[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+
+(tag :a :name "s")
+(subtitle[S])
+(alphabet)
+
+(tag :a :name "sismondi")
+(p*[Jean de Sismondi, 1773-1842]
+[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(tag :a :name "t")
+(subtitle[T])
+(alphabet)
+
+(tag :a :name "thompson_tp")
+(p*[Thomas Perronet Thompson, 1783-1869]
+[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+
+(tag :a :name "triptoleme")
+(p*[Triptolème]
+[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(subtitle[V])
+(alphabet)
+
+(tag :a :name "voltaire")
+(p*[François-Marie Arouet, dit Voltaire, 1694-1778]
+[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+)

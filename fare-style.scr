@@ -8,7 +8,7 @@
 
 (define (subtitle x) (font :size +6 (center x)))
 (define (abstract . x) (apply* p-justify (underline "Abstract")": " x))
-(define (strong x) (bold x))
+(define (strong x) (sc x))
 (define (cite x) (emph x))
 (define (cite-title x) (it x))
 (define-macro (set-q! x) `(fset! q ,x))
@@ -431,4 +431,22 @@
   (div :style "margin-left: 60%; margin-top: 1em; margin-bottom: 1em; padding-left: 1em;"
     (div :style "font-style: italic;" body)
     (when author
-          (div :style "text-align: right;" "— " author))))
+       (div :style "text-align: right;" "— " author))))
+
+
+;;;        *** Les magnifiques fonctions de Laura *** (Car Laura met des commentaires, elle.)
+
+; Liens vers l'index des noms de personnes
+(defun np (x &rest r) (a :href (strcat "personnes.html#" x) :class "np" r))
+
+; Liens vers l'index des titres de journaux
+(defun tj (x &rest r) (a :href (strcat "journaux.html#" x) :class "tj" r))
+;mettre r en italique
+
+;Classe "bastiat" pour enrober le texte de Bastiat
+(defun bastiat (&rest r) (div :class "bastiat" r))
+
+;style épistolaire
+(defun cher (&rest r) (p :class "cher" r))
+(defun politesse (&rest r) (p :class "politesse" r))
+(defun sign (&rest r) (p :class "sign" r))

@@ -1,0 +1,40 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Index des titres de journaux")
+(document :title "Index des titres de journaux"
+
+;Alphabet à répéter sous chaque lettre
+(define (alphabet)
+(p :center *[
+,(a :href :#e [E])
+,(a :href :#j [J])
+,(a :href :#m [M])
+]))
+
+(alphabet)
+
+(tag :a :name "e")
+(subtitle[E])
+(alphabet)
+
+(tag :a :name "economiste_belge")
+(p*[L’Économiste belge]
+[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(tag :a :name "j")
+(subtitle[J])
+(alphabet)
+
+(tag :a :name "je")
+(p*[Journal des Économistes]
+[Simples allusions : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(tag :a :name "m")
+(subtitle[M])
+(alphabet)
+
+(tag :a :name "mi")
+(p*[Moniteur industriel]
+[Simples allusions : ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+
+)
