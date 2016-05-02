@@ -70,9 +70,18 @@ Either:
    1. Fork [the official repository on github](http://github.com/fare/bastiat.org),
       and send a pull request, or
 
-   2. Have me add you to [the official repository on github](http://github.com/fare/bastiat.org),
+   2. Have me add you to
+      [the official repository on github](http://github.com/fare/bastiat.org),
       and to the the bastiat account on bespin
 	  (maybe also get [an account on bespin.org](bespin.org/application.html)).
 	  Then you can `make bespin` to rebuild the website.
 
 Please consult a `git` tutorial for details.
+
+
+What to do?
+-----------
+
+See the [TODO.md](TODO.md) file.
+Take an item, break it down until you reach an actionable items, act on it.
+Or add new items.
