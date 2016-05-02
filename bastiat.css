@@ -3,14 +3,24 @@ sup {line-height: 0;}
 .bastiat {
 	width: 50%;
 	min-width: 20em;
-	margin: auto;
+	margin: 3em auto;
 	font-family: "berenis";
 	font-size: 13pt;
 	line-height: 1.5em;
 }
 
 .bastiat p {
-	text-indent: 1.5em;
+	text-indent: 1.4em;
+	margin: 0.8em 0;
+}
+
+.liste p {
+	margin: 0.4em 0;
+}
+
+span[style="font-variant: small-caps"] {
+	font-size: large;
+	letter-spacing: 1pt;
 }
 
 /*Polices de caractères*/
@@ -38,10 +48,17 @@ sup {line-height: 0;}
 	padding-left: 3em;
 }
 
+/*Poésie*/
+
+.vers {
+	font-size: 80%;
+	padding-left: 3em;
+}
+
 /*Mise en forme des liens*/
 
 .np:link, .np:visited {
-	color: #500;
+	color: #700;
 	text-decoration: none;
 }
 .np:hover {

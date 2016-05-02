@@ -4,12 +4,11 @@
 
 (document :title "A M. le rédacteur en chef de la Presse"
 	:author (author-FB)
-(subtitle[I])
-(date-tag[,(cite-title[Courrier français]) du 22 août 1846.])
-(p*[
-,(strong[Monsieur]),
-][
-Que faut-il penser du nouveau tarif américain ? Les Journaux anglais le vantent comme très libéral, se fondant sur ce qu’il a en vue le revenu public et non la protection. — C’est justement ce dont vous le blâmez, quand vous dites :
+(bastiat [
+,(subtitle[I])
+,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 22 août 1846.])
+,(cher[,(tj "presse" [Monsieur]),])
+,(p*[Que faut-il penser du nouveau tarif américain ? Les Journaux anglais le vantent comme très libéral, se fondant sur ce qu’il a en vue le revenu public et non la protection. — C’est justement ce dont vous le blâmez, quand vous dites :
 ][
 « Il faut qu’il soit bien entendu que les États-Unis, se plaçant ,(emph[sur le terrain étroit et égoïste de la fiscalité]), n’ont pas eu la prétention de se poser en champions ou en adversaires de la liberté commerciale. » — « Difficile problème, ajoutez-vous ailleurs, que l’on ,(emph[cherche]) à agiter en France. »
 ][
@@ -27,9 +26,10 @@ Vous dites :
 ][
 Eh ! ne voyez-vous pas que c’est là ce qui constitue le ,(emph[libéralisme]) du tarif américain ? Il frappe de forts droits les produits qui n’ont pas de similaires au dedans. — Nous faisons le contraire. Pourquoi ? parce qu’ils ont en vue le revenu public, et nous le monopole.
 ][
-Le droit, il est vrai, est très élevé, même dans l’intérêt du trésor, et comme aucun autre intérêt n’a pu déterminer l’adoption d’un chiffre aussi exagéré, il faut qu’on ait eu un autre motif. Nous le trouverons dans l’exposé de M. J. R. Walker, secrétaire du Trésor, à qui l’Amérique doit la réforme.
-][
-« Les améliorations dans nos lois de finances sont fondées sur les principes suivants :
+Le droit, il est vrai, est très élevé, même dans l’intérêt du trésor, et comme aucun autre intérêt n’a pu déterminer l’adoption d’un chiffre aussi exagéré, il faut qu’on ait eu un autre motif. Nous le trouverons dans l’exposé de ,(np "walker" [M. J. R. Walker]), secrétaire du Trésor, à qui l’Amérique doit la réforme.
+])
+,(liste [
+,(p*[« Les améliorations dans nos lois de finances sont fondées sur les principes suivants :
 ][
 « 1° Qu’il ne soit rien prélevé au delà de ce qui est nécessaire pour les besoins du gouvernement économiquement administré ;
 ][
@@ -40,27 +40,25 @@ Le droit, il est vrai, est très élevé, même dans l’intérêt du trésor, e
 « 4° Que le maximum du droit soit prélevé sur les objets de luxe ;
 ][
 « 5° Que tous minimums et droits spécifiques soient abolis pour être remplacés par des droits ,(inlatin[ad valorem]). »
+])])
+,(p*[Voilà, Monsieur, ce qui explique la taxe énorme que l’Union a imposée à l’eau-de-vie. Elle l’a considérée comme un objet de ,(emph[luxe]) et peut-être comme un objet pernicieux.
 ][
-Voilà, Monsieur, ce qui explique la taxe énorme que l’Union a imposée à l’eau-de-vie. Elle l’a considérée comme un objet de ,(emph[luxe]) et peut-être comme un objet pernicieux.
-][
-Vous pouvez alléguer que c’est une faute, financièrement. Je serai de votre avis, car rien ne me semble plus monstrueux qu’une taxe qui égale la valeur de l’objet imposé. Vous pouvez dire que la douane est un mauvais moyen de moralisation. J’en tomberai d’accord, car je suis d’avis que ce n’est point à elle qu’il faut confier la réforme des mœurs ,(footnote[Voir t. VI, p. 415 et suiv. ,(NdEEO)]). Mais vous ne pouvez pas conclure de cette disposition exceptionnelle que le tarif américain ne soit pas combiné, dans son ensemble, selon les vrais principes de la liberté commerciale.
+Vous pouvez alléguer que c’est une faute, financièrement. Je serai de votre avis, car rien ne me semble plus monstrueux qu’une taxe qui égale la valeur de l’objet imposé. Vous pouvez dire que la douane est un mauvais moyen de moralisation. J’en tomberai d’accord, car je suis d’avis que ce n’est point à elle qu’il faut confier la réforme des mœurs ,(footnote*[Voir t. VI, p. 415 et suiv. ,(NdEEO)]). Mais vous ne pouvez pas conclure de cette disposition exceptionnelle que le tarif américain ne soit pas combiné, dans son ensemble, selon les vrais principes de la liberté commerciale.
 ][
 Au reste, avons-nous le droit de nous plaindre de la rigueur d’autrui, à l’égard des boissons, nous qui mettons sur nos alcools une taxe de 82 fr. 50 par hectolitre ?
 ][
-Ce qui est certain, c’est que le tarif américain répudie le principe de la ,(strong[protection]) (nous n’en demandons pas davantage au nôtre), et je n’en veux pour preuve que ce que je trouve dans le ,(cite-title[Boston Atlas]), organe des intérêts privilégiés. Voici ce curieux morceau d’éloquence que j’offre à l’imitation de nos monopoleurs :
+Ce qui est certain, c’est que le tarif américain répudie le principe de la ,(strong[protection]) (nous n’en demandons pas davantage au nôtre), et je n’en veux pour preuve que ce que je trouve dans le ,(tj "boston" [,(cite-title[Boston Atlas])]), organe des intérêts privilégiés. Voici ce curieux morceau d’éloquence que j’offre à l’imitation de nos monopoleurs :
 ][
-« Le peuple, dont les vœux ont été méconnus, dont les pétitions ont été rejetées avec mépris, dont les droits ont été foulés aux pieds, n’a plus qu’une espérance. Renverser les auteurs de ces calamités est pour lui le seul moyen d’effectuer la ,(strong[restauration]) du tarif. Poussons ce cri de ralliement. Qu’il retentisse, sur les ailes du vent, dans les profondeurs de l’Est à l’Ouest. ,(emph[À bas les gouvernants qui nous ont ruinés au dedans et humiliés au dehors !]) ,(strong[restauration du tarif de 1842 !]) Que toute la Nouvelle-Angleterre au moins se lève comme un seul homme ! Tous, tant que nous sommes, quels que soient nos drapeaux, whigs, libéraux ou radicaux, nous tous qui voulons la ,(strong[protection]) en faveur du ,(strong[travail américain]), nous tous qui voulons nous opposer à l’abaissement du salaire des ouvriers, quand le prix des aliments s’accroît ; nous enfin qui voulons rétablir le tarif de 1842, tel qu’il était avant qu’on nous eût frustrés de ses avantages ; — serrons nos rangs, marchons comme un seul homme pour le grand œuvre de la ,(strong[restauration]). Un grand et glorieux objet nous unit. La patrie souffrante nous appelle ; un peuple outragé implore notre secours, etc. »
+« Le peuple, dont les vœux ont été méconnus, dont les pétitions ont été rejetées avec mépris, dont les droits ont été foulés aux pieds, n’a plus qu’une espérance. Renverser les auteurs de ces calamités est pour lui le seul moyen d’effectuer la ,(strong[restauration]) du tarif. Poussons ce cri de ralliement. Qu’il retentisse, sur les ailes du vent, dans les profondeurs de l’Est à l’Ouest. ,(emph[À bas les gouvernants qui nous ont ruinés au dedans et humiliés au dehors !]) ,(strong[restauration]) du ,(strong[tarif]) de ,(bold[1842]) ! Que toute la Nouvelle-Angleterre au moins se lève comme un seul homme ! Tous, tant que nous sommes, quels que soient nos drapeaux, whigs, libéraux ou radicaux, nous tous qui voulons la ,(strong[protection]) en faveur du ,(strong[travail américain]), nous tous qui voulons nous opposer à l’abaissement du salaire des ouvriers, quand le prix des aliments s’accroît ; nous enfin qui voulons rétablir le tarif de 1842, tel qu’il était avant qu’on nous eût frustrés de ses avantages ; — serrons nos rangs, marchons comme un seul homme pour le grand œuvre de la ,(strong[restauration]). Un grand et glorieux objet nous unit. La patrie souffrante nous appelle ; un peuple outragé implore notre secours, etc. »
 Ainsi, Monsieur, ce qui a suivi, comme ce qui a précédé l’adoption du tarif de 1846, montre que le principe de la ,(emph[protection]) y est entièrement abandonné. C’est tout ce que je voulais prouver.
-][
-Agréez, etc.
 ])
-(hrule)
-(subtitle[II])
-(date-tag[,(cite-title[Courrier français]) du 2 septembre 1846])
-(p*[
-,(strong[Monsieur]),
-][
-Dans votre réponse à ma lettre sur le tarif américain, de graves erreurs se mêlent à des observations dont je ne contesterai pas la justesse ; car je ne cherche pas d’autre triomphe que celui de la vérité.
+,(politesse[Agréez, etc.])
+
+,(hrule)
+,(subtitle[II])
+,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 2 septembre 1846.])
+,(cher[,(tj "presse" [Monsieur]),])
+,(p*[Dans votre réponse à ma lettre sur le tarif américain, de graves erreurs se mêlent à des observations dont je ne contesterai pas la justesse ; car je ne cherche pas d’autre triomphe que celui de la vérité.
 ][
 Ainsi, je reconnais que le nouveau tarif est encore fort élevé ; qu’il laisse subsister de grands obstacles aux relations de l’Europe, et, en particulier, de la France avec les États-Unis ; et que le commerce, qui se préoccupe plus de pratique que de théorie, et du présent que de l’avenir, ne sera guère porté à voir une compensation dans la pensée libérale et féconde qui a présidé à cette œuvre.
 ][
@@ -80,7 +78,7 @@ Qu’on dégrève le thé en France, nul ne contredira ; mais qu’on touche au
 ][
 Nous nous attaquons aux droits protecteurs, parce qu’ils décuplent et centuplent le sacrifice du consommateur. Si la douane perçoit un million sur le thé, sans doute c’est un million mis à la charge du consommateur ; mais ce million lui est rendu sous forme de routes et de sécurité, puisqu’il rentre tout entier au trésor. Mais quand la douane prélève un million sur le fer étranger, elle fait hausser de 5 ou 10 fr. par 100 kilos, non seulement le fer importé, mais encore tout celui qui se produit dans le pays, imposant ainsi au public une taxe incalculable qui n’entre pas au Trésor, et par conséquent n’en sort pas.
 ][
-Nous nous attaquons aux ,(emph[droits protecteurs]), parce qu’ils sont ,(emph[injustes]), parce qu’ils violent la propriété ; et, pour mon compte, je suis surpris que l’évidence de cette vérité ne vous ait pas déjà rallié ,(emph[tout à fait]) à notre cause. Il n’y a pas bien longtemps que les monopoleurs anglais demandaient une transaction à sir Robert Peel. Il leur répondit : « Je vous ai accordé un délai de trois ans, et je ne me rétracterai pas. Mais peut-être ai-je été trop loin. Je croyais alors que c’était une question de finances et d’économie politique, et sur de telles questions on peut transiger. Aujourd’hui je suis convaincu que c’est une ,(emph[question de justice ;]) il n’y a pas de transaction possible. »
+Nous nous attaquons aux ,(emph[droits protecteurs]), parce qu’ils sont ,(emph[injustes]), parce qu’ils violent la propriété ; et, pour mon compte, je suis surpris que l’évidence de cette vérité ne vous ait pas déjà rallié ,(emph[tout à fait]) à notre cause. Il n’y a pas bien longtemps que les monopoleurs anglais demandaient une transaction à ,(np "peel" [sir Robert Peel]). Il leur répondit : « Je vous ai accordé un délai de trois ans, et je ne me rétracterai pas. Mais peut-être ai-je été trop loin. Je croyais alors que c’était une question de finances et d’économie politique, et sur de telles questions on peut transiger. Aujourd’hui je suis convaincu que c’est une ,(emph[question de justice ;]) il n’y a pas de transaction possible. »
 ][
 Enfin nous attaquons le ,(emph[régime protecteur]), parce que c’est la racine qui alimente chez les peuples l’esprit de domination et de conquête. Et voyez ce qui se passe. Tant qu’elle a obéi à ce système, l’Angleterre a été un fardeau pour le monde, qu’elle aspirait à envahir. Aujourd’hui elle affranchit commercialement ses colonies, qui lui ont coûté tant de sang et de trésors. Dans cinq ans, un Anglais n’y aura pas plus de priviléges qu’un Russe ou un Français ; et je demande quelle raison elle aura alors de retenir ou d’acquérir des colonies.
 ][
@@ -94,11 +92,12 @@ Vous dites : « Si les manufactures américaines ne peuvent pas demeurer victo
 ][
 Ce germe, c’est la cherté des capitaux et de la main-d’œuvre.
 ][
-En d’autres termes, les Américains ne sont impuissants à filer le coton que parce qu’ils ,(emph[gagnent plus]) à faire autre chose. Les plaindre à ce sujet, c’est comme si l’on disait à M. de Rothschild : « Il est vraiment fâcheux pour vous que votre état de banquier vous donne un million de rente ; cela vous met dans l’,(emph[impuissance incurable]) de soutenir la concurrence avec les cordonniers, s’il vous prenait fantaisie de faire des souliers. »
+En d’autres termes, les Américains ne sont impuissants à filer le coton que parce qu’ils ,(emph[gagnent plus]) à faire autre chose. Les plaindre à ce sujet, c’est comme si l’on disait à ,(np "rothschild" [M. de Rothschild]) : « Il est vraiment fâcheux pour vous que votre état de banquier vous donne un million de rente ; cela vous met dans l’,(emph[impuissance incurable]) de soutenir la concurrence avec les cordonniers, s’il vous prenait fantaisie de faire des souliers. »
 ][
 Si pourtant la loi s’en mêlait, je ne réponds pas qu’au moyen de certains priviléges, elle ne pût rendre le métier de cordonnier fort lucratif.
-][
-Agréez, etc. ,(footnote*[La ,(emph[protection]) s’est relevée, en Amérique, du coup que lui avait porté le tarif de 1846. Il n’y a pas lieu de s’en étonner. Ce n’est pas d’une mesure gouvernementale, c’est de l’opinion publique que dépend le sort définitif d’un système. Or l’opinion publique, aux États-Unis, n’en est pas encore arrivée à reconnaître ce qu’a d’inique et de malfaisant le système protecteur. Bastiat l’avait crue plus avancée. ,(NdEEO)])
+])
+,(politesse[Agréez, etc. ,(footnote*[La ,(emph[protection]) s’est relevée, en Amérique, du coup que lui avait porté le tarif de 1846. Il n’y a pas lieu de s’en étonner. Ce n’est pas d’une mesure gouvernementale, c’est de l’opinion publique que dépend le sort définitif d’un système. Or l’opinion publique, aux États-Unis, n’en est pas encore arrivée à reconnaître ce qu’a d’inique et de malfaisant le système protecteur. Bastiat l’avait crue plus avancée. ,(NdEEO)])
+])
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

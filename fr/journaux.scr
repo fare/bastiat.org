@@ -6,12 +6,35 @@
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
 (p :center *[
+,(a :href :#b [B])
+,(a :href :#c [C])
 ,(a :href :#e [E])
 ,(a :href :#j [J])
 ,(a :href :#m [M])
+,(a :href :#p [P])
 ]))
 
 (alphabet)
+
+(tag :a :name "b")
+(subtitle[B])
+(alphabet)
+
+	(tag :a :name "boston")
+	(p*[Boston Atlas]
+	[Simples allusions : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
+
+(tag :a :name "c")
+(subtitle[C])
+(alphabet)
+
+	(tag :a :name "commerce")
+	(p*[Le Commerce]
+	[Simples allusions : ,(ref :url "abondance_disette.html" [Abondance, disette])])
+
+	(tag :a :name "courrier")
+	(p*[Le Courrier français]
+	[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
 
 (tag :a :name "e")
 (subtitle[E])
@@ -20,6 +43,10 @@
 (tag :a :name "economiste_belge")
 (p*[L’Économiste belge]
 [Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+
+(tag :a :name "epoque")
+(p*[L’Époque]
+[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
 
 (tag :a :name "j")
 (subtitle[J])
@@ -33,8 +60,20 @@
 (subtitle[M])
 (alphabet)
 
+(tag :a :name "mb")
+(p*[Mémorial bordelais]
+[Articles publiés dans le — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque]) ; ,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy-Duchâtel, ministre de l’Intérieur])])
+
 (tag :a :name "mi")
 (p*[Moniteur industriel]
 [Simples allusions : ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
 
+(tag :a :name "p")
+(subtitle[P])
+(alphabet)
+
+(tag :a :name "presse")
+(p*[La Presse]
+[Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])]
+[Simples allusions : ,(ref :url "abondance_disette.html" [Abondance, disette])])
 )

@@ -1,18 +1,18 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "A M. Tanneguy-Duchâtel, ministre de l’Intérieur, par Frédéric Bastiat")
+(in-bof :title "A M. Tanneguy Duchâtel, ministre de l’Intérieur, par Frédéric Bastiat")
 
-(document :title "A M. Tanneguy-Duchâtel, ministre de l’Intérieur"
+(document :title "A M. Tanneguy Duchâtel, ministre de l’Intérieur"
 	:author (author-FB)
-(date-tag[,(cite-title[Mémorial bordelais]) du 30 juin 1846.])
-(p*[
-,(strong[Monsieur le Ministre]),
-][
+(bastiat[
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]) du 30 juin 1846.])
+,(cher[,(np "duchatel" [Monsieur le Ministre]),])
+,(p*[
 ,(verses
 [Un bruit assez étrange est venu jusqu’à moi,]
 [Seigneur ; je l’ai jugé trop peu digne de foi.]
 [On dit, et sans horreur je ne puis le redire,]
-[Que ,(emph[la Ligue]) aujourd’hui par vos ordres expire.])
+[Que ,(emph[la Ligue]) aujourd’hui par vos ordres expire. ,(np "racine" [*])])
 ][
 Serait-il vrai que vous vous efforciez d’anéantir l’Association pour la liberté des échanges, vous qui avez écrit ces lignes :
 ][
@@ -51,8 +51,8 @@ D’un autre côté, les amis de la liberté et de la justice demandent bénévo
 Et vous nous refusez l’autorisation !… Ah ! monsieur le Ministre, prenez garde et voyez sur quel terrain vous transportez le débat. Entre vous et nous, il n’est pas question de liberté commerciale ; c’est une lutte que nous soutiendrons contre les monopoleurs et dont l’opinion sera juge. Ce que nous vous demandons, c’est de tenir la balance égale, de ne pas nous fermer la bouche, de ne pas nous accabler seuls sous les pouvoirs exorbitants que la législation ne vous a pas confiés à cette fin. Si, pour arriver à faire prévaloir nos droits de contribuables, nous sommes réduits à défendre d’abord nos droits de citoyens ; s’il nous faut préalablement discuter et renverser l’article 291 et sa lignée de septembre, nous sommes prêts. Odieuses en elles-mêmes, l’usage que vous faites de ces armes achèvera de les discréditer, et nous les briserons dans vos mains.
 ][
 Mais, en même temps, nous ne méconnaîtrons pas le service que vous rendez à notre cause. Combien d’auxiliaires inattendus ne poussez-vous pas sous notre drapeau ! La presse opposante y accourra toute entière. Elle hésitait ; ses convictions économiques, à ce qu’il semble, sont encore douteuses. Ce combat d’avant-garde la fera arriver dans nos rangs, et elle y restera ; car elle apprendra qu’on y respire l’air de la justice et de la liberté.
-][
-Je suis, monsieur le Ministre, votre serviteur.
+])
+,(politesse[Je suis, monsieur le Ministre, votre serviteur.])
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

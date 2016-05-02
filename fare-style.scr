@@ -80,7 +80,7 @@
       (fset! NdT (lambda () (emph[(Nota del Traductor.)]))))
      (else (use-lang 'en))))
 (define (verses . x)
-  (blockquote (apply* br* x)))
+  (blockquote :class "vers" (apply* br* x)))
 
 (define (XXX . rest) (declare (ignore rest)) '())
 (define (p* . rest) (apply* *list (map* p-justify rest)))
@@ -450,3 +450,6 @@
 (defun cher (&rest r) (p :class "cher" r))
 (defun politesse (&rest r) (p :class "politesse" r))
 (defun sign (&rest r) (p :class "sign" r))
+
+;pour les listes de paragraphes courts
+(defun liste (&rest r) (div :class "liste" r))
