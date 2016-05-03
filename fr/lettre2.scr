@@ -4,7 +4,8 @@
 	- Frédéric Bastiat à La Voix du Peuple")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Deuxième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 		F. Bastiat ,(br)
 	Au rédacteur de ,(cite-title[La Voix du Peuple])
 ,(footnote*[
@@ -46,7 +47,7 @@ au tome V, ,(Gratuite_credit).
 ,(NdEBO)
 ])
 ])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 L'usage d'une propriété est une valeur.
 ,(br)
@@ -59,8 +60,8 @@ Sa coopération n'est pas rémunérée aux dépens du ,(strong[travail]).
 ,(--) Cette rémunération n'est pas exclusivement attachée
 à la circonstance du ,(strong[prêt]).
 ])))
-(date-tag(small[12 novembre 1849.]))
-(p*[
+,(date-tag(small[12 novembre 1849.]))
+,(p*[
 L'ardeur extrême avec laquelle le peuple, en France,
 s'est mis à creuser les problèmes économiques,
 et l'inconcevable indifférence des classes aisées à l'égard de ces problèmes
@@ -488,10 +489,10 @@ Permettez-moi d'ajouter qu'elle n'est pas moins contraire
 	à la réalisation de la fraternité humaine,
 qui est plus que la justice,
 mais ne peut se passer de la justice.
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(2eme) lettre. pp. 111-120.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

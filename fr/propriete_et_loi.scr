@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title "Propriété et Loi"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 La confiance de mes concitoyens m'a revêtu du titre de ,(emph[législateur])
 ,(footnote*[
 Article inséré au n° du 15 mai 1848 du ,(cite-title[Journal des Économistes])
@@ -956,7 +957,7 @@ Ce sera l'objet d'un prochain article
 Voir ,(bof-ref "justice_fraternite"
 	(cite-title[Justice et fraternité])).
 ]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

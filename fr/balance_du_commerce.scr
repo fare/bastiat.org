@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title [Balance du commerce]
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 La balance du commerce est un article de foi.
 ,(footnote*[
 Lors de la discussion du budget général des dépenses pour l'exercice de 1850,
@@ -199,7 +200,7 @@ En Angleterre, on est convaincu qu'il importe à la nation
 De plus, on s'est aperçu que c'est la tendance de tous les négociants,
 	et c'est pourquoi on y a pris le parti de les ,(emph[laisser faire]),
 	et de rendre aux échanges la Liberté.
-])
+])])
 (with-footer(p*[
 Extrait de ,(EO1863),
 tome V, ,(cite-title[Balance du commerce]), pp. 402-406.

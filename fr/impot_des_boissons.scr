@@ -4,7 +4,8 @@
 
 (document :title "Discours sur l'impôt des boissons"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 ,(strong[Citoyens représentants,])
 ,(footnote*[Cette improvisation fut prononcée à l'Assemblée législative
 le 12 décembre 1849. ,(NdEEO)])
@@ -1108,7 +1109,7 @@ il restera suffisamment,
 non-seulement pour aligner les recettes avec les dépenses,
 mais encore pour diminuer la dette publique.
 (Marques nombreuses d'approbation.)
-])
+])])
 (with-footer (p*[
 Extrait de l',(EO1863), tome V,
 ,(cite-title[Discours sur l'impôt des boissons]),

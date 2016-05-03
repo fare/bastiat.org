@@ -4,8 +4,9 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
-(date-tag[Paris, 27 février 1848. ,(footnote*[N° du 28 février 1848 de la ,(cite-title[République française]).])])
-(p*[
+(bastiat[
+,(date-tag[Paris, 27 février 1848. ,(footnote*[N° du 28 février 1848 de la ,(cite-title[République française]).])])
+,(p*[
 Nous partageons cette pensée de la ,(cite-title[Presse :])
 ][
 « Ce qu’il faut demander à un gouvernement provisoire, à des hommes qui se dévouent au salut public au milieu d’incalculables difficultés, ce n’est pas de gouverner exactement selon toutes nos idées, mais de gouverner. Il faut lui prêter assistance, le soutenir, lui faciliter sa rude tâche et renvoyer à un autre temps la discussion des doctrines. Ce ne sera pas un des phénomènes les moins glorieux de notre révolution que l’accord de tous les journaux dans cette voie. »
@@ -23,7 +24,7 @@ Le second veut que l’État prenne peu, donne peu, garantisse la sécurité, la
 Celui de ces deux systèmes auquel nous sommes attachés,(footnote*[Ici et ailleurs, l’emploi du pluriel montre que Bastiat parlait au nom de ses collaborateurs comme au sien. A ce moment, il signait avec eux le journal, et acceptait la solidarité de leurs opinions.]) par une entière conviction a peu d’organes dans la presse ; il ne pouvait avoir beaucoup de représentants au pouvoir.
 ][
 Mais pleins de confiance dans la droiture des citoyens auxquels l’opinion publique a confié la mission de jeter un pont entre la monarchie déchue et la république régulière qui s’avance, nous ajournons volontiers la manifestation de notre doctrine et nous nous bornons à semer des idées d’ordre, de mutuelle confiance et de gratitude envers le gouvernement provisoire.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Article dans La République française]),

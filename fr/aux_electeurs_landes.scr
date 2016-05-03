@@ -4,12 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Aux électeurs du département des Landes"
 	:author (author-FB)
-
-(date-tag[Novembre 1830 ,(footnote*[
+(bastiat[
+,(date-tag[Novembre 1830 ,(footnote*[
 Pour appuyer la candidature de M. Faurie.
 ,(NdEEO)])])
-[
-,(p* [
+,(p*[
 Un peuple n’est pas libre par cela seul qu’il possède des institutions libérales ; il faut encore qu’il sache les mettre en œuvre, et la même législation qui a fait sortir de l’urne électorale des noms tels que ceux de Lafayette et de Chantelauze, de Tracy et de Dudon, peut, selon les lumières des électeurs, devenir le palladium des libertés publiques ou l’instrument de la plus solide de toutes les oppressions, celle qui s’exerce sur une nation par la nation elle-même.
 ][
 Pour qu’une loi d’élection soit pour le public une garantie véritable, une condition est essentielle : c’est que les électeurs connaissent leurs intérêts et veuillent les faire triompher ; c’est qu’ils ne laissent pas capter leurs suffrages par des motifs étrangers à l’élection ; c’est qu’ils ne regardent pas cet acte solennel comme une simple formalité, ou tout au plus comme une affaire entre l’électeur et l’éligible ; c’est qu’ils n’oublient pas complétement les conséquences d’un mauvais choix ; c’est enfin que le public lui-même sache se servir des seuls moyens répressifs qui soient à sa disposition, la haine et le mépris, pour ceux des électeurs qui le sacrifient par ignorance, ou l’immolent à leur cupidité.
@@ -133,7 +132,7 @@ Mais, dira-t-on, ce ne sont que des projets ; il faut encore que nos députés 
 Sans doute ; et c’est pour cela qu’il importe d’être scrupuleux dans nos choix, de ne donner nos suffrages qu’à des hommes indépendants de tous les ministères présents et futurs.
 ][
 Électeurs, Paris nous donne la liberté avec son sang, détruirons-nous son ouvrage avec nos votes ? Allons aux élections uniquement pour le bien général. Fermons l’oreille à toute promesse fallacieuse, fermons nos cœurs à toutes affections personnelles, même à la reconnaissance. Faisons sortir de l’urne le nom d’un homme sage, éclairé, indépendant. Si l’avenir nous apporte un meilleur sort, ayons la gloire d’y avoir contribué ; s’il recèle encore des tempêtes, n’ayons point à nous les reprocher.
-])
-,(with-footer
+])])
+(with-footer
 (p* [Extrait de l',(EO1863), tome I, pp. 217-231.]
-))])
+)))

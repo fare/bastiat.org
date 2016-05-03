@@ -4,11 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "L'État"
 	:author (author-FB)
-(date-tag[
+(bastiat[
+,(date-tag[
 Composition parue au ,(cite-title[Journal des Débats]),
 numéro du 25 septembre 1848.
 ])
-(p*[
+,(p*[
 	Je voudrais qu'on fondât, un prix,
 non de cinq cents francs, mais d'un million,
 avec couronnes, croix et rubans,
@@ -662,7 +663,7 @@ non pour être entre tous les citoyens
 un instrument d'oppression et de spoliation réciproque,
 mais, au contraire,
 pour garantir à chacun le sien, et faire régner la justice et la sécurité.
-])
+])])
 (with-footer(p*[
 Extrait de l',(EO1863), tome IV, pp. 327-341.
 ][

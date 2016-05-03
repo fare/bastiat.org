@@ -4,7 +4,8 @@
 	- pamphlet par Frédéric Bastiat")
 (document :title [Maudit Argent!]
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 ,(--) Maudit argent
 ,(footnote*[
 Publié dans le numéro d'avril 1849 du ,(cite-title[Journal des économistes]).
@@ -1308,7 +1309,7 @@ c'est le monopole de l'enseignement
 Voy., au tome IV, ,(bof-ref "baccalaureat_et_socialisme"
 	(cite-title[Baccalauréat et Socialisme])).
 ,(NdEEO)]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

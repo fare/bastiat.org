@@ -4,8 +4,9 @@
 du 5 mars 1820")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
-(date-tag[Bayonne, 5 mars 1820])
-(p*[
+(bastiat[
+,(date-tag[Bayonne, 5 mars 1820])
+,(p*[
 J'avais lu le ,(cite-title[Traité d'économie politique]) de J. B. Say
 ,(XXX)
 excellent ouvrage très méthodique.
@@ -413,7 +414,7 @@ et d'arriver à celle qui était l'objet de la discussion.
 Ce fut à cette occasion que je sentis tout le mérite de la méthode
 et je voudrais qu'on l'appliquât à tout.
 N'es-tu pas de mon avis là-dessus?
-])
+])])
 (with-footer (p*[
 Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
 ][

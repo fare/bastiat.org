@@ -5,7 +5,8 @@
 (document :title "Richesse"
 	:author (author-FB)
 (subtitle [Chapitre VI des ,(HarmoniesEconomiques)])
-(p*[
+(bastiat[
+,(p*[
 Ainsi, en tout ce qui est propre à satisfaire nos besoins et nos désirs,
 il y a à considérer, à distinguer deux choses,
 ce qu'a fait la nature et ce que fait l'homme,
@@ -919,7 +920,7 @@ Voir notamment
 		      [Rapport de l'économie politique avec la morale])),
 et ,(bof-ref "solidarite" (cite-title[Solidarité])).
 ,(NdEEO)])..........
-])
+])])
 (with-footer
 (p* [Extrait de l',(EO1863), tome VI ,(HarmoniesEconomiques),
  chapitre VI. "Richesse", pp. 207-227.]

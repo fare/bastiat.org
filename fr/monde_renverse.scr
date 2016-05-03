@@ -4,8 +4,9 @@
 
 (document :title "Le monde renversé"
 	:author (author-FB)
-(date-tag[18 avril 1847])
-(p*[
+(bastiat[
+,(date-tag[18 avril 1847])
+,(p*[
 Un navire arriva au Havre, ces jours-ci, après un long voyage.
 ][
 Un jeune officier, quelque peu démocrate, débarque, et rencontrant un de ses amis : Oh ! des nouvelles, des nouvelles ! lui dit-il, j’en suis ,(emph[affamé]).
@@ -35,9 +36,9 @@ Un jeune officier, quelque peu démocrate, débarque, et rencontrant un de ses a
 — Quoi ! c’est ainsi qu’on traite la question des subsistances ?
 ][
 — C’est ainsi que, depuis ton départ, on traite toutes les questions.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome II,
+Extrait de l’,(EO1863), tome II,
 ,(cite-title[Le monde renversé]),
 pp. 110-111.
 ])))

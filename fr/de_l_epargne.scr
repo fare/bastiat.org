@@ -5,7 +5,8 @@
 (document :title "De l'épargne"
 	:author (author-FB)
 (subtitle [Chapitre XV des ,(HarmoniesEconomiques)])
-(p*[
+(bastiat[
+,(p*[
 ,(emph[Épargner]), ce n'est pas accumuler des quartiers de gibier,
 des grains de blé ou des pièces de monnaie.
 Cet entassement matériel d'objets fongibles,
@@ -196,7 +197,7 @@ la valeur de ce service spécial.
 ,(--) L'épargne n'implique donc en aucune façon entassement matériel.
 ][
 Que les moralistes ne soient plus arrêtés par cette considération.
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

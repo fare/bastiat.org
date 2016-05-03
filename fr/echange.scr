@@ -5,7 +5,8 @@
 (document :title "Échange"
 	:author (author-FB)
 (subtitle [Chapitre IV des ,(HarmoniesEconomiques)])
-(p*[
+(bastiat[
+,(p*[
 L'Échange, c'est l'Économie politique,
 c'est la Société toute entière;
 car il est impossible de concevoir la Société sans Échange,
@@ -2043,7 +2044,7 @@ ainsi que les chapitres
 ,(bof-ref "effort_resultat" [III])
 des ,(cite-title[Sophismes économiques]),
 première série, tome IV, page 15 et 19.]).
-])
+])])
 (with-footer
 (p* [
 Extrait de l',(EO1863),

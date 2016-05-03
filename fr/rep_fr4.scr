@@ -4,8 +4,9 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
-(date-tag[Paris, 27 février 1848. ,(footnote*[N° du 28 février 1848 de la ,(cite-title[République française]).])])
-(p*[
+(bastiat[
+,(date-tag[Paris, 27 février 1848. ,(footnote*[N° du 28 février 1848 de la ,(cite-title[République française]).])])
+,(p*[
 Le ,(cite-title[National]) examine aujourd’hui notre situation à l’égard de l’étranger.
 ][
 Il se demande : Serons-nous attaqués ? Et après avoir jetés un coup d’œil sur les difficultés de l’Autriche, de la Prusse et de la Russie, il se prononce pour la négative.
@@ -67,7 +68,7 @@ Car tous les motifs qui pousseront la France au dehors, si on la force à armer,
 Alors la République sera intéressée à supprimer en toute hâte les impôts les plus odieux ; à laisser respirer le peuple ; à laisser se développer le capital et le travail ; à abolir les gênes et les entraves inséparables des lourdes taxes.
 ][
 Elle accueillera avec joie la possibilité de réaliser ce grand principe de ,(emph[fraternité]) qu’elle vient d’inscrire sur son drapeau.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Article dans La République française]),

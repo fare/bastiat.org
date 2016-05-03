@@ -5,7 +5,7 @@
 	- par Frédéric Bastiat")
 (document :title "Réflexions sur l'Amendement de M. Mortimer-Ternaux"
 	:author (author-FB)
-[
+(bastiat[
 ,(subtitle [Aux Démocrates.
 ,(footnote*[
 À l'Assemblée législative, dans la séance du ,(1er) avril 1850,
@@ -201,11 +201,10 @@ Quoi qu'il arrive, j'espère ne me mettre jamais
 dans la triste et ridicule nécessité de tenir
 aux hommes qui m'ont investi de leur confiance
 un semblable langage.
-]
-)
-,(with-footer
+])])
+(with-footer
 (p* [Extrait de l',(EO1863), tome V, pp. 513-517.]
     [Texte numérisé par ,(JML) et mis en hypertexte par ,(FRR)
 	pour ,(Bastiat.org)])
 ; (credits :digitized (JML) :hypertexted (FRR) :bastiatorg #t)
-)])
+))

@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title [Introduction à ,(cite-title[Cobden et la Ligue])]
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 La personne la plus exposée à se faire illusion
 sur le mérite et la portée d'un livre,
 après l'auteur, c'est certainement le traducteur.
@@ -3333,7 +3334,7 @@ et que le temps n'est pas éloigné
 où l'union et le bien-être des peuples seront fondés sur une base immuable:
 ,(emph[La libre et fraternelle communication des hommes
 de toutes les régions, de tous les climats et de toutes les races.])
-]
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1854), tome III, ,(cite-title[Cobden et la Ligue]),
@@ -3347,4 +3348,4 @@ Texte scanné par la ,(BNF),
 	,(ref :url "http://richard-cobden.de/" [richard-cobden.de]))
 	et de ,(ref :url "http://bastiat.net/" [Jacques de Guenin]).
 ])
-)))
+))

@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Recettes protectionnistes"
 	:author (author-FB)
-(date-tag[27 Décembre 1846.])
-(p*[
+(bastiat[
+,(date-tag[27 Décembre 1846.])
+,(p*[
 Depuis que nous avons publié un rapport au Roi
 sur le grand parti qu'on pourrait tirer
 d'une paralysie générale des mains droites ,(footnote*[
@@ -232,7 +233,7 @@ Voilà pourquoi elle se commet.
 ,(--) Que faut-il donc faire?
 ][
 ,(--) Protéger tout le monde, ou ne protéger personne.
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

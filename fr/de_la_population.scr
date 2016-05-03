@@ -5,7 +5,8 @@
 (document :title "De la population"
 	:author (author-FB)
 (subtitle [Chapitre XVI des ,(HarmoniesEconomiques)])
-(p*[
+(bastiat[
+,(p*[
 Il me tardait d'aborder ce chapitre,
 ne fût-ce que pour venger Malthus des violentes attaques dont il a été l'objet.
 C'est une chose à peine croyable que des écrivains
@@ -1473,8 +1474,8 @@ et extension des couches intermédiaires.
 ,(--) Pas plus que le rapprochement éternel de la droite et de l'asymptote
 n'en doivent amener la fusion.
 ])
-(hrule)
-(small
+,(hrule)
+,(small
 (p*[
 Ce chapitre, écrit en grande partie dès 1846,
 ne traduit peut-être pas assez nettement
@@ -1563,6 +1564,7 @@ voir aussi la page idoine de
 ]
 (NdEBO)
 ))
+])
 (hrule)
 (with-footer
 (p*[

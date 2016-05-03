@@ -11,10 +11,10 @@
 (document :title "La protection ou les trois échevins."
 	:author (author-FB)
 (subtitle[Chapitre XIII de la seconde série des ,(SophismesEconomiques)])
+(bastiat[
+,(center(font :size "+2" [Démonstration en quatre tableaux.]))
 
-(center(font :size "+2" [Démonstration en quatre tableaux.]))
-
-(tableau [Premier tableau.]
+,(tableau [Premier tableau.]
 [(La scène se passe dans l'hôtel de l'échevin Pierre.
 La fenêtre donne sur un beau parc;
 trois personnages sont attablés près d'un bon feu.)]
@@ -199,7 +199,7 @@ Il est bon de prévenir les soupçons malveillants.
 ,(bold[Paul et Jean (en sortant)]).
 Par ma foi! voilà un habile homme!
 ])
-(tableau [Deuxième tableau.]
+,(tableau [Deuxième tableau.]
 [Conseil des échevins.]
 [
 ,(bold[Paul]).
@@ -321,7 +321,7 @@ Le déjeuner du peuple en sera un peu plus cher,
 	Aux voix! aux voix!
 	,(emph[(Les trois propositions sont admises.)])
 ])
-(tableau [Troisième tableau]
+,(tableau [Troisième tableau]
 [Vingt ans après]
 [
 ,(bold[Le Fils]).
@@ -491,7 +491,7 @@ Ne pouvant plus vendre du bois et des aliments,
 	Commencez cette ,(oe)uvre d'affranchissement et
 	laissez-moi pour héritage le soin de l'achever.
 ])
-(tableau [Quatrième tableau]
+,(tableau [Quatrième tableau]
 [L'agitation.]
 [
 ,(bold[Jacques Bonhomme]).
@@ -642,7 +642,7 @@ Ne pouvant plus vendre du bois et des aliments,
 ][
 ,(bold[Le Peuple]).
 	Ne pendons personne et affranchissons tout le monde.
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

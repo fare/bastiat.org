@@ -4,9 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Capital et rente"
 	:author (author-FB)
-(subtitle [Introduction
+(bastiat[
+,(subtitle [Introduction
 ,(footnote*[Cet opuscule fut publié en février 1849. ,(NdEEO)])])
-(p*[
+,(p*[
 Dans cet écrit,
 j'essaie de pénétrer la nature intime
 de ce qu'on nomme l',(emph[Intérêt des capitaux]),
@@ -172,9 +173,9 @@ la ,(emph[productivité du capital]),
 et s'est efforcé, de rendre cette vérité accessible à toutes les intelligences.
 ,(NdEEO)]).
 ])
-(hrule)
-(subtitle [Capital et rente])
-(p*[
+,(hrule)
+,(subtitle [Capital et rente])
+,(p*[
 J'adresse cet écrit aux ouvriers de Paris,
 particulièrement à ceux qui se sont rangés
 sous la bannière de la ,(emph[démocratie socialiste]).
@@ -1290,14 +1291,15 @@ et nous aurons atteint le dernier terme du progrès
 Voy. la ,(xbof-ref "lettre10" [10,(eme) lettre])
 du pamphlet ,(Gratuite_credit).
 ,(NdEEO)])
-.])
-][
-Ceci n'est que spécieux, et puisque cette fausse argumentation
+.])]
+[Ceci n'est que spécieux, et puisque cette fausse argumentation
 peut contribuer à populariser le dogme injuste, dangereux, subversif
 de la gratuité du crédit, en le représentant
 comme coïncidant avec la perfection sociale,
 le lecteur me permettra d'examiner en peu de mots
 ce nouveau point de vue de la question.
+
+
 ][
 Qu'est-ce que l',(emph[intérêt])?
 c'est le ,(emph[service]) rendu, après libre débat,
@@ -1609,7 +1611,7 @@ ces trois choses sont:
 ,(strong[paix]),
 ,(strong[liberté]) et
 ,(strong[sécurité]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863), tome V, pp. 23-63.

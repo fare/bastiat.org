@@ -5,8 +5,9 @@
 (document :title "L’utopiste"
 	:author (author-FB)
 (subtitle[Chapitre XI de la seconde série des ,(SophismesEconomiques)])
-(date-tag[,(cite-title[Libre-Échange]), n° du 17 janvier 1847.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Libre-Échange]), n° du 17 janvier 1847.])
+,(p*[
 — Si j’étais ministre de Sa Majesté !…
 ][
 — Eh bien, que feriez-vous ?
@@ -295,7 +296,7 @@ Art. 2. A moins qu’il ne prouve, à 21 ans, savoir parfaitement l’école de 
 — Je vous la retire.
 ][
 — A la bonne heure ! alors je ne suis plus ministre, et mes plans restent ce qu’ils sont, des ,(strong[utopies]).
-])
+])])
 (with-footer (p*[
 Extrait de l',(EO1863), tome IV,
 ,(cite-title[L’utopiste]),

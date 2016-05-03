@@ -5,7 +5,8 @@
 (document :title [Ce qu'on voit ,(br) et ,(br)
 	,(strong[ce qu'on ne voit pas])]
 	:author (author-FB)
-(itemize
+(bastiat[
+,(itemize
 (item(ref :url "#introduction" [Introduction]))
 (item(ref :url "#vitre_cassee" [I. La vitre cassée]))
 (item(ref :url "#le_licenciement" [II. Le licenciement]))
@@ -19,7 +20,7 @@
 (item(ref :url "#l_algerie" [X. L'Algérie]))
 (item(ref :url "#epargne_et_luxe" [XI. Épargne et Luxe]))
 (item(ref :url "#droit_au_travail_droit_au_profit" [XII. Droit au Travail, Droit au Profit])))
-(p*[
+,(p*[
 ,(tag :a :name "introduction")
 Dans la sphère économique,
 	un acte,
@@ -2787,7 +2788,7 @@ quand il n'a point été établi d'abord
 	sur la morale et la justice.]))
 ][
 (,(strong[Chateaubriand]),(pv) ,(cite-title[Mémoires d'outre-tombe]).)
-])
+])])
 (with-footer(p*[
 Extrait de ,(EO1863), tome V,
 ,(cite-title[Ce qu'on voit et ce qu'on ne voit pas]), pp. 336-392.

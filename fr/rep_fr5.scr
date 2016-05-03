@@ -4,9 +4,10 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
-(date-tag[27 février 1848])
-(date-tag[N° du 28 février 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[27 février 1848])
+,(date-tag[N° du 28 février 1848 de la ,(cite-title[République française]).])
+,(p*[
 Tout notre concours, toute notre faible part d’influence sont acquis au gouvernement provisoire.
 ][
 Certains de la pureté de ses intentions, nous n’avons pas à discuter en détail toutes ses mesures. Ce serait être bien exigeants, et nous dirons même bien injustes, que de réclamer la perfection dans des travaux d’urgence dont le poids dépasse presque la limite des forces humaines.
@@ -16,7 +17,7 @@ Nous trouvons tout naturel que, dans ce moment où la municipalité a besoin de 
 Mais nous aurions désiré que le gouvernement provisoire ne se donnât pas l’apparence de préjuger une grande question par ces mots : ,(emph[Cet impôt doit être revisé ; il le sera prochainement ; il doit être modifié de manière à le rendre moins pesant pour les classes ouvrières.])
 ][
 Nous pensons qu’il ne faut pas chercher à modifier l’octroi, mais viser à le supprimer.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Article dans La République française]),

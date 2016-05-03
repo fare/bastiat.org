@@ -5,7 +5,8 @@
 (document :title "Pétition..."
 	:author (author-FB)
 (subtitle[Chapitre VII de la ,(Iere) série des ,(SophismesEconomiques)])
-(p*
+(bastiat[
+,(p*
 (font :size "+3" [Pétition])
 (font :size "+2" [des fabricants de
 chandelles, bougies, lampes,
@@ -212,6 +213,7 @@ en ,(emph[proportion]) de ce que leur prix se rapproche de ,(emph[zéro]),
 quelle inconséquence ne serait-ce pas
 d'admettre la lumière du soleil,
 dont le prix est à ,(emph[zéro]), pendant toute la journée?]))
+])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

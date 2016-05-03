@@ -5,7 +5,8 @@
 (document :title "Réciprocité"
 	:author (author-FB)
 (subtitle[Chapitre X de la ,(Iere) série des ,(SophismesEconomiques)])
-(p*[
+(bastiat[
+,(p*[
 Nous venons de voir que tout ce qui, dans le trajet, rend le transport onéreux,
 agit dans le sens de la protection, ou, si on l'aime mieux,
 que la protection agit dans le sens de tout ce qui rend le transport onéreux.
@@ -41,8 +42,8 @@ que les prohibitionistes ,(XXX :sic) absolus.
 ][
 Je le démontrerai par l'apologue suivant.
 ])
-(subtitle[Stulta et Puera])
-(p*[
+,(subtitle[Stulta et Puera])
+,(p*[
 Il y avait, n'importe où, deux villes,
 ,(emph[Stulta]) et ,(emph[Puera]).
 Elles construisirent à gros frais
@@ -135,7 +136,7 @@ je puis vous conduire en certain pays où vous verrez de vos yeux
 	et aux frais des mêmes contribuables,
 	les uns à déblayer la route
 	et les autres à l'embarrasser.
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

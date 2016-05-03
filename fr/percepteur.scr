@@ -5,11 +5,12 @@
 (document :title "Le Percepteur"
 	:author (author-FB)
 (subtitle[Chapitre X de la seconde série des ,(SophismesEconomiques)])
-(table
+(bastiat[
+,(table
 (tr (td :width "20%" [])
     (td [,(strong[Jacques Bonhomme]), Vigneron; ,(br)
 	 ,(strong[M. Lasouche]), Percepteur.])))
-(p*[
+,(p*[
 L. Vous avez récolté vingt tonneaux de vin?
 ][
 J. Oui, à force de soins et de sueurs.
@@ -308,7 +309,7 @@ J. Oui, à force de soins et de sueurs.
 	les ,(cite-title[Incompatibilités parlementaires]).
 	,(XXX :bof-ref "incompatibilites_parlementaires")
 	,(NdEEO)]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

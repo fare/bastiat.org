@@ -5,11 +5,12 @@
 (document :title [Introduction
 	à la première série des ,(SophismesEconomiques)]
 	:author (author-FB)
-(tag :p :align 'right
-(small[
-En économie politique, il y a beaucoup à apprendre et peu à faire.
-])(br)(small[(Bentham.)]))
-(p*[
+(bastiat[
+,(tag :p :align 'right
+(small[En économie politique, il y a beaucoup à apprendre et peu à faire.])
+(br)
+(small[(Bentham.)]))
+,(p*[
 J'ai cherché, dans ce petit volume
 ,(footnote*[
 Le petit volume,
@@ -167,6 +168,7 @@ dans un ordre d'idées entièrement étrangères
 et je suis loin de les croire aussi utiles
 et aussi justes qu'on le suppose communément.
 Mais ceci n'est plus de mon sujet.
+])
 ])
 (with-footer
 (p*[

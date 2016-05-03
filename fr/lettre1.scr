@@ -3,8 +3,8 @@
 (in-bof :title "Gratuité du crédit - Première lettre
 	- F. C. Chevé à Frédéric Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Première lettre]
-
-(tag :p :align 'center
+(bastiat[
+,(tag :p :align 'center
 (font :size "+3" [
 	,(strong[F. C. Chevé.]) ,(br)
 L'un des rédacteurs de la ,(cite-title[Voix du peuple]),
@@ -32,7 +32,7 @@ et lui donna pour titre:
 ,(Gratuite_credit).
 ,(NdEEO)])])
 ]))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Adhésion à la formule:
 le prêt est un service qui doit s'échanger contre un service.
@@ -42,8 +42,8 @@ ne doit pas être rémunéré par la cession définitive d'une propriété.
 ,(--) Conséquences funestes de l'intérêt pour l'emprunteur,
 pour le prêteur lui-même et pour la société tout entière.
 ])))
-(date-tag[22 octobre 1849.])
-(p*[
+,(date-tag[22 octobre 1849.])
+,(p*[
 Tous les principes d'économie sociale
 que vous avez propagés avec un talent si remarquable
 concluent forcément, inévitablement,
@@ -765,7 +765,7 @@ afin que la ,(emph[fraternité]),
 en les couronnant toutes deux,
 amène sur le monde le règne de la justice,
 de la paix et de la conciliation universelle.
-])
+])])
 (tag :p :align 'right (strong[F. Chevé]))
 (with-footer
 (p*[

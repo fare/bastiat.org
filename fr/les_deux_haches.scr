@@ -5,7 +5,8 @@
 (document :title "Les deux haches"
 	:author (author-FB)
 (subtitle[Chapitre III de la seconde série des ,(SophismesEconomiques)])
-(p*
+(bastiat[
+,(p*
 (font :size "+3" [Pétition de Jacques Bonhomme, Charpentier])
 (font :size "+2" [À M. Cunin-Gridaine, Ministre du Commerce])
 (font :size "+1" (strong[Monsieur le Fabricant Ministre,]))
@@ -170,7 +171,7 @@ Nous les battrons avec,
 car vous y avez admirablement plaidé
 la cause des prohibitions et des haches émoussées,
 ce qui est tout un.
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

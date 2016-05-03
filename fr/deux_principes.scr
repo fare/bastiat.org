@@ -4,8 +4,9 @@
 
 (document :title "Deux principes"
 	:author (author-FB)
-(date-tag[7 février 1847])
-(p*[
+(bastiat[
+,(date-tag[7 février 1847])
+,(p*[
 — Je viens de lire un chef-d’œuvre sur le libre-échange.
 ][
 — Qu’en pensez-vous ?
@@ -168,7 +169,7 @@ Donc, Bayonne est là. Il se soumit à ce gracieux arbitrage, et nous cheminâme
 — À dimanche, soit. Dieu, que les auditeurs sont légers !
 ][
 — Ciel ! que les démonstrateurs sont lourds !
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,
 ,(cite-title[Deux principes]),

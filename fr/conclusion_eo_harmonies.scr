@@ -5,7 +5,8 @@
 (document :title [Conclusion de l'édition originale
 	des ,(HarmoniesEconomiques)]
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 Dans cette première partie de l',(oe)uvre,
 hélas! trop hâtive, que je soumets au public,
 je me suis efforcé de tenir son attention fixe
@@ -398,8 +399,8 @@ sans s'écrier encore:
 Ici se terminaient les ,(Harmonies_economiques),
 à leur première édition. ,(NdEEO)])
 ])
-(hrule)
-(subtitle[Liste des chapitres ,(br)
+,(hrule)
+,(subtitle[Liste des chapitres ,(br)
 destinés à compléter les ,(br)
 Harmonies Économiques ,(footnote*[
 Nous reproduisons ici cette liste écrite de la main de l'auteur.
@@ -412,7 +413,7 @@ sur lesquels nous n'avons trouvé aucun commencement de travail.
 ,(NdEEO)
 ])
 ])
-(p*(table :width "100%" (tr
+,(p*(table :width "100%" (tr
 (td :align 'center (table
 (tr(th :colspan 3 (strong[PHÉNOMÈNES NORMAUX.])))
 (tr(td[1.])	(td)	(td(bof-ref "producteur_consommateur"
@@ -465,6 +466,7 @@ sur lesquels nous n'avons trouvé aucun commencement de travail.
 (tr(td[30.])	(td)	(td(bof-ref "rapports"
 				    [Avec la religion.])))
 )))))
+])
 (with-footer(p*[
 Extrait de l',(EO1863), tome VI, ,(HarmoniesEconomiques),
 ,(cite-title[Conclusion de l'édition originale]),

@@ -5,7 +5,8 @@ du 12 septembre 1819")
 
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
-(date-tag[
+(bastiat[
+,(date-tag[
 Bayonne, 12 septembre 1819
 ,(footnote*[
 Frédéric Bastiat est né à Bayonne,
@@ -89,7 +90,7 @@ Paris, Guillaumin, 1905, p. 13).
 ,(NdML)
 ])
 ])
-(p*[
+,(p*[
 Nous nous trouvons, mon ami ,(footnote*[
 Bastiat se lia d'amitié avec Victor Calmètes à l'école de Sorèze.
 Il se privait des jeux de son âge pour tenir compagnie à Calmètes
@@ -221,7 +222,7 @@ sont l'objet de la praxéologie
 et sans lesquels l'économie se réduit à une mécanique ou à une doctrine.
 ,(NdML)
 ]).
-])
+])])
 (with-footer (p*[
 Extrait de l',(EO1854), tome I, pp. 1-14. ,(XXX)
 ][

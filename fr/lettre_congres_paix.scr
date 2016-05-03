@@ -3,8 +3,9 @@
 (in-bof :title "Lettre de Frédéric Bastiat au président du Congrès de la paix")
 (document :title "Lettre au président du Congrès de la paix, à Francfort"
 	:author (author-FB)
-(date-tag[Paris, 17 août 1850])
-(p*[
+(bastiat[
+,(date-tag[Paris, 17 août 1850])
+,(p*[
 ,(strong[Monsieur le président]),
 ][
 Une maladie de larynx n’aurait pas suffi pour me retenir loin du congrès, d’autant que mon rôle y serait plutôt d’écouter que de parler, si je ne subissais un traitement qui m’oblige à rester à Paris. Veuillez exprimer mes regrets à vos collaborateurs. Pénétré de ce qu’il y a de grand et de nouveau dans ce spectacle d’hommes de toutes les races et de toutes les langues, accourus de tous les points du globe pour travailler en commun au triomphe de la paix universelle, c’est avec zèle, c’est avec enthousiasme que j’aurais joint mes efforts aux vôtres, en faveur d’une si sainte cause.
@@ -38,7 +39,7 @@ Mais nous venons au contraire leur dire : « Consultez non-seulement vos inté
 N’est-il pas permis d’espérer que ce langage sera entendu ? Courage donc, hommes de foi et de dévouement, courage et confiance ! ceux qui ne peuvent aujourd’hui se mêler à vos rangs vous suivent de l’œil et du cœur.
 ][
 Recevez, Monsieur le président, l’assurance de mes sentiments respectueux et dévoués.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1854), tome I, pp. 197-200. ,(XXX)
+Extrait de l’,(EO1854), tome I, pp. 197-200. ,(XXX)
 ])))
