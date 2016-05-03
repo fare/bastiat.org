@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Le petit manuel du consommateur ou de tout le monde"
 	:author (author-FB)
-(date-tag[(Ébauche inédite.)....1841.])
-(p*[
+(bastiat[
+,(date-tag[(Ébauche inédite.)....1841.])
+,(p*[
 Consommer, ,(--) Consommateur, ,(--) Consommation, ,(--)
 vilains mots qui représentent les hommes comme des coureurs d'estaminet,
 sans cesse en face de la demi-tasse et du petit verre.
@@ -268,9 +269,9 @@ si vous consultez l'intéret du producteur, vous pouvez faire fausse route;
 si vous consultez l'intérêt du consommateur, vous ne le pouvez pas.
 Il n'est pas toujours bon d'accroître la généralité des efforts;
 il n'est jamais mauvais d'accroître la généralité des satisfactions...
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome II, ,(cite-title[Libre-Échange]),
+Extrait de l’,(EO1863), tome II, ,(cite-title[Libre-Échange]),
 texte 61, ,(cite-title[Le petit manuel du consommateur]), pp. 409-415.
 ][
 Texte scanné fourni par ,(AlainMadelin),

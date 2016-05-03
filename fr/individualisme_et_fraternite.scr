@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title "Individualisme et Fraternité"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 Une vue systématique de l'histoire et de la destinée de l'homme
 s'est récemment produite qui me semble aussi fausse que dangereuse.
 ][
@@ -627,9 +628,9 @@ Je ne puis pas concevoir d'autres formes aux transactions humaines.
 L'intervention de la monnaie, des négociants, des intermédiaires,
 peut compliquer cette forme élémentaire, et nous en obscurcir la vue.
 Elle n'en est pas moins le type de tous les faits économiques.....
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1864),
+Extrait de l’,(EO1864),
 tome VII, ,(cite-title[Ébauches]),
 texte 76, ,(cite-title[Individualisme et Fraternité]), pp. 328-343.
 ][

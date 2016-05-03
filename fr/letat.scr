@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "L’État"
 	:author (author-FB)
-(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
+,(p*[
 Il y en a qui disent : C’est un homme de finances qui nous tirera de là, Thiers, Fould, Goudchaux, Girardin. Je crois qu’ils se trompent.
 ][
 — Qui donc nous en tirera ?
@@ -63,7 +64,7 @@ Il veut que l’État…
 — À ceci : tant que le peuple voudra tout cela, il faudra qu’il le paye. Il n’y a pas d’,(emph[homme de finances]) qui fasse quelque chose avec rien.
 ][
 ,(cite-title[Jacques Bonhomme]) fonde un prix de cinquante mille francs à décerner à celui qui donnera une bonne définition de ce mot, ,(strong[l’État]) ; car celui-là sera le sauveur des finances, de l’industrie, du commerce et du travail ,(footnote*[On reconnaît, dans cet article et le suivant, l’esquisse du pamphlet ,(cite-title[l’État]), publié trois mois après. ,(NdEEO)]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

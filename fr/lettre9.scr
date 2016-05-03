@@ -4,17 +4,18 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) neuvième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Grave imputation.
 ,(--) Négation de cinq propositions.
 ,(--) Arguments tirés des opérations de la Banque de France.
 ,(--) Méfaits de cette Banque.
 ])))
-(date-tag(small[31 décembre 1849.]))
-(p*[
+,(date-tag(small[31 décembre 1849.]))
+,(p*[
 Vous m'avez trompé.
 ][
 J'attendais de vous une controverse sérieuse:
@@ -1219,10 +1220,11 @@ La morale des marchands de cochons
 est devenue celle des honnêtes gens.
 Malédiction sur mes contemporains!
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(9eme) lettre.
 pp. 205-225.
 ][

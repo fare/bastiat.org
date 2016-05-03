@@ -4,8 +4,9 @@
 
 (document :title "Lettre à un ecclésiastique"
 	:author (author-FB)
-(date-tag[Mugron, 28 mars 1848])
-(p*[
+(bastiat[
+,(date-tag[Mugron, 28 mars 1848])
+,(p*[
 ,(strong[Monsieur et honoré compatriote]), ,(footnote*[,(cite-title[Économiste belge]) du 14 janvier 1860.])
 ][
 En arrivant de Bayonne, j’ai trouvé votre lettre du 22, par laquelle vous me faites savoir que vous subordonnez votre suffrage en ma faveur à une question que vous m’adressez. En même temps, on me met à la même épreuve dans le Maransin.
@@ -31,9 +32,9 @@ C’est sur ce principe que j’ai agi relativement à la liberté commerciale. 
 En attendant, j’espère que mon opinion, qu’on peut considérer comme purement spéculative, et qui, en tout cas, est bien loin d’être hostile à la religion, ne me fera pas perdre l’honneur de votre suffrage. Si cependant vous croyez devoir me le retirer, je ne regretterai pas pour cela de vous avoir répondu sincèrement.
 ][
 Votre dévoué compatriote, etc.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Lettre à un ecclésiastique]),
 pp. 351-354.
 ])))

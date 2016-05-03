@@ -436,6 +436,8 @@
 
 ;;;        *** Les magnifiques fonctions de Laura *** (Car Laura met des commentaires, elle.)
 
+;;Mise en forme des liens
+
 ; Liens vers l'index des noms de personnes
 (defun np (x &rest r) (a :href (strcat "personnes.html#" x) :class "np" r))
 
@@ -453,3 +455,81 @@
 
 ;pour les listes de paragraphes courts
 (defun liste (&rest r) (div :class "liste" r))
+
+;;; FOOTER
+
+;pour le footer inamovible
+(defun footer (&rest r) (div :class "footer" r))
+
+;(Pour les liens retour/préc/suiv)
+(defun
+  arbor
+  (titre adresse prec suiv)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='prec' href='"
+    prec
+    "'>«««</a>
+    <a class='suiv' href='"
+    suiv
+    "'>»»»</a>
+    </div>"
+  ))
+)
+
+(defun
+  premier
+  (titre adresse suiv)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='suiv' href='"
+    suiv
+    "'>»»»</a>
+    </div>"
+  ))
+)
+
+(defun
+  dernier
+  (titre adresse prec)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='prec' href='"
+    prec
+    "'>«««</a>
+    </div>"
+  ))
+)
+
+(defun
+  oeuvres
+  (prec suiv)
+  (arbor "Œuvres" "oeuvres.html" prec suiv)
+)
+
+(defun
+  corresp
+  (prec suiv)
+  (arbor "Correspondance" "correspondance.html" prec suiv)
+)
+
+(defun
+  acobden
+  (prec suiv)
+  (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv)
+)

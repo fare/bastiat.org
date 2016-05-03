@@ -4,8 +4,9 @@
 
 (document :title "Les trois conseils"
 	:author (author-FB)
-(date-tag[Ébauche publiée par l’,(cite-title[Économiste belge]), n° du 3 juin 1860.])
-(p*[
+(bastiat[
+,(date-tag[Ébauche publiée par l’,(cite-title[Économiste belge]), n° du 3 juin 1860.])
+,(p*[
 « Quand la patrie est en danger, chacun lui doit le ,(emph[tribut]) de ce qu’il peut avoir acquis de lumière et d’expérience. » 
 ][
 C’est ainsi que débute tout donneur d’avis. L’impôt du conseil ! En est-il de plus abondant et de plus volontaire ?
@@ -29,8 +30,8 @@ Parmi ces myriades de doctrines, il en est une seule, — je n’ai pas besoin d
 Mais je n’ai pas la prétention aujourd’hui de développer ce système, qui devrait, ce me semble, être aussitôt adopté qu’exposé. Est-il rien de plus raisonnable ? Nous ne pouvons nous accorder sur les doctrines : eh bien ! conservons, propageons chacun la nôtre, et convenons de bannir d’entre nous toute oppression, toute violence.
 ][
 Me plaçant au point de vue des faits tels qu’ils sont, de la situation telle que les événements l’ont faite, supposant, comme je le dois, que je m’adresse à des personnes qui, avant tout, veulent le repos et le bonheur de la France, je voudrais donner trois conseils pratiques, — l’un à M. le président de la République, l’autre à la majorité de la Chambre, le troisième à la minorité.])
-(hrule)
-(p*[Je voudrais que M. le président de la République se présentât solennellement devant l’Assemblée nationale et y fît l’allocution suivante :
+,(hrule)
+,(p*[Je voudrais que M. le président de la République se présentât solennellement devant l’Assemblée nationale et y fît l’allocution suivante :
 ][
 Citoyens représentants,
 ][
@@ -99,7 +100,7 @@ Et alors, citoyens, est-il possible de concevoir une collision ? Est-ce que vou
 Dans deux ans, la nation sera appelée à nommer un autre président. Son choix, saus doute, se portera sur le plus digne, et nous n’aurons à redouter de lui aucun attentat contre la liberté et les lois. En tout cas, j’aurai la satisfaction de lui léguer des précédents qui l’enchaîneront. Quand la présidence ne se sera pas fixée sur le nom de Napoléon, sur l’élu de sept millions de suffrages, est-il quelqu’un en France qui puisse rêver pour lui-même un coup d’État et aspirer à l’empire ?
 ][
 Bannissons donc de vaines terreurs. Nous traverserons, sans danger, une première, une seconde, une troisième présidence…
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Les trois conseils]),

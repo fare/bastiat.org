@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Le sucre antédiluvien"
 	:author (author-FB)
-(date-tag[13 Février 1848.])
-(p*[
+(bastiat[
+,(date-tag[13 Février 1848.])
+,(p*[
 On croit que le sucre est d'invention moderne;
 c'est une erreur.
 L'art de le fabriquer a pu se perdre au déluge;
@@ -238,9 +239,9 @@ Tant il y a que, pendant qu'on cherchait un changement qui ne changeât rien,
 les choses furent toujours en empirant,
 jusqu'à ce que survint la solution suprême, le déluge,
 qui a tranché, en les engloutissant, cette question et bien d'autres.,(nbsp)»
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 66, ,(cite-title[Le sucre antédiluvien]), pp. 446-451.
 ][

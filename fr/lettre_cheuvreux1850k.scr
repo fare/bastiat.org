@@ -4,8 +4,9 @@
 du 15 juin 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[15 juin 1850])
-(p*[
+(bastiat[
+,(date-tag[15 juin 1850])
+,(p*[
 ,(strong[Ma chère madame Cheuvreux]),
 ][
 Arrivé hier soir aux Eaux-Bonnes, je suis allé ce matin à la poste ; la raison me disait : il n’y aura rien, et le pressentiment murmurait : il y aura quelque chose ; en effet, la raison a eu tort, comme il advient souvent malgré son nom.
@@ -33,7 +34,7 @@ En vous disant adieu, je pense, avec une joie bien vive, que ce n’est pas un a
 Votre ami respectueux et dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 85. ,(XXX)
 ])))

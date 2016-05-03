@@ -4,10 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Funestes Illusions"
 	:author (author-FB)
-(center[,(cite-title[Journal des Économistes]), mars 1848.])
-(subtitle[Les citoyens font vivre l'État. ,(br)
+(bastiat[
+,(center[,(cite-title[Journal des Économistes]), mars 1848.])
+,(subtitle[Les citoyens font vivre l'État. ,(br)
 	L'État ne peut faire vivre les citoyens.])
-(p*[
+,(p*[
 Il m'est quelquefois arrivé
 de combattre le Privilége ,(XXX :sic) par la plaisanterie.
 C'était, ce me semble, bien excusable.
@@ -762,10 +763,10 @@ Sous un tel régime d'ordre, de sécurité et de liberté, on verrait
 			par des administrations inutiles ou nuisibles,
 		tourner à l'avantage physique, intellectuel et moral
 			du peuple tout entier.
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 70, ,(cite-title[Funestes illusions]), pp. 466-482.
 ][

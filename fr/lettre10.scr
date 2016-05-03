@@ -5,9 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Dixième lettre]
 ;;; ,(XXX :EO [annoncée septième à l'origine])
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 A qui le droit de se plaindre d'avoir été trompé?
 Dialogue.
@@ -18,8 +19,8 @@ ne prouvent rien dans le débat.
 de la question de gratuité.
 ,(--) Souvenir à l'antinomie.
 ])))
-(date-tag(small[6 janvier 1850.]))
-(p*[
+,(date-tag(small[6 janvier 1850.]))
+,(p*[
 Je vous ai trompé, dites-vous; non, je me suis trompé.
 ][
 Admis sous votre tente, à votre foyer, pour discuter,
@@ -560,9 +561,10 @@ Qu'en résulte-t-il?
 C'est que le capital doit se prêter
 non ,(emph[gratuitement]), mais ,(emph[librement]).
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
 (with-footer(p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(10eme) lettre. pp. 225-237.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

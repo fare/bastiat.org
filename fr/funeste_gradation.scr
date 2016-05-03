@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Funeste gradation"
 	:author (author-FB)
-(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
+,(p*[
 Les dépenses ordinaires de l’État sont fixées, par le budget de 1848, à ,(emph[un milliard sept cents millions]).
 ][
 Même avec l’impôt des 45 centimes, on ne peut arracher au peuple plus de ,(emph[un milliard cinq cents millions]).
@@ -53,7 +54,7 @@ Il vint me trouver. Jacques, mon bon Jacques, me dit-il, je suis aux abois ; qu
 — Maître Jacques, vous êtes toujours le même ; vous ne savez pas donner un conseil agréable et qui flatte le goût des gens. Adieu. Je ne prendrai conseil que de moi-même. J’ai épuisé mes ressources, j’ai épuisé les emprunts ; maintenant je vais me mettre à…
 ][
 — N’achevez pas, je vous devine.
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

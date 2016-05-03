@@ -4,8 +4,9 @@
 du 8 octobre 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[8 octobre 1849])
-(p*[
+(bastiat[
+,(date-tag[8 octobre 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 Le hasard fait que le journal des Landes indique la manière traditionnelle dans mon pays d’accompagner les ortolans ; le ,(emph[seigneur Trompette]) ne se blessera pas, sans doute, si je lui adresse par votre intermédiaire un document aussi précieux.
@@ -19,7 +20,7 @@ Pour vous, mesdames, vous vous êtes préparé, à tout événement, des ressour
 Permettez-moi aussi d’espérer que vous compterez pour quelque chose l’inaltérable dévouement de votre respectueux ami.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 50. ,(XXX)
 ])))

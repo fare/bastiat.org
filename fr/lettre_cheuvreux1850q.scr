@@ -4,8 +4,9 @@
 du 18 septembre 1850")
 (document :title "Lettre à M. Cheuvreux"
 	:author (author-FB)
-(date-tag[Marseille, 18 septembre 1850])
-(p*[
+(bastiat[
+,(date-tag[Marseille, 18 septembre 1850])
+,(p*[
 ,(strong[Mon cher monsieur Cheuvreux]),
 ][
 Il m’a été pénible de quitter Paris sans vous serrer la main, mais je ne pouvais retarder mon départ sous peine de manquer ici le paquebot-poste. En effet, je suis arrivé hier et n’ai qu’un jour pour tous mes préparatifs, passe-port, etc.
@@ -31,7 +32,7 @@ Veuillez, cher monsieur Cheuvreux, me rappeler au souvenir de la mère et de la 
 Adieu, cher monsieur Cheuvreux.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 115. ,(XXX)
 ])))

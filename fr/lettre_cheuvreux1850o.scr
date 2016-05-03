@@ -4,8 +4,9 @@
 du 14 septembre 1850")
 (document :title "Lettre à Louise Cheuvreux"
 	:author (author-FB)
-(date-tag[Lyon, 14 septembre 1850])
-(p*[
+(bastiat[
+,(date-tag[Lyon, 14 septembre 1850])
+,(p*[
 ,(strong[Chère demoiselle Louise]),
 ][
 Me voici à Lyon depuis hier soir ; à la rigueur vous auriez pu avoir cette lettre vingt-quatre heures plus tôt, mais en arrivant j’ai hésité entre le pupitre et le lit. Le cœur me poussait vers l’un et le corps vers l’autre : qui m’eût jamais dit que celui-ci l’emporterait dans une lutte de ce genre ? Cependant à peine couché il a été en proie à une forte fièvre, ce qui explique sa victoire et me justifie à mes propres yeux. Du reste, soyez sans inquiétude sur cette fièvre, elle est tout accidentelle et ce matin il n’y paraît plus.
@@ -33,7 +34,7 @@ Chère demoiselle, permettez-moi de vous rappeler qu’il ne faut pas chanter tr
 Permettez-moi de vous offrir l’expression de toute mon affection.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 107. ,(XXX)
 ])))

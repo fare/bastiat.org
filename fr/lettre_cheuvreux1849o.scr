@@ -4,8 +4,9 @@
 du novembre 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Paris, novembre 1849])
-(p*[
+(bastiat[
+,(date-tag[Paris, novembre 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 Voici un document qui vous intéressera. Pour moi, je n’ai pu le lire sans être touché jusqu’aux larmes (nature de montagne n’est pas toujours nature de rocher) ; pour faire partager mes impressions, à qui m’adresser, si ce n’est à vous ?
@@ -17,7 +18,7 @@ Si vous avez cinq minutes à perdre, oserais-je vous prier de me donner des nouv
 Votre bien dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 52. ,(XXX)
 ])))

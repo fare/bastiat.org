@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Curieux phénomène économique"
 	:author (author-FB)
-(subtitle [21 Février 1847])
-(p* [
+(bastiat[
+,(subtitle [21 Février 1847])
+,(p*[
 Dans la séance du 9,
 M. Léon Faucher a appelé l'attention de la Chambre
 sur les circonstances financières qui ont hâté en Angleterre
@@ -340,7 +341,7 @@ vous en resterez convaincus
 ,(footnote :note [
 V. tome IV, le chap. ,(cite-title [Cherté, bon marché]), page 163.
 ,(NdEEO).]).
-]
+])])
 (with-footer
 (p* [
 Extrait de l',(EO1863), tome II, ,(cite-title[Le Libre Échange]),
@@ -350,4 +351,4 @@ Texte scanné par la ,(BNF),
 	transcrit et mis en hypertexte par ,(FRR)
 	pour ,(Bastiat.org),
 	relu par ,(cvincent).])
-)))
+))

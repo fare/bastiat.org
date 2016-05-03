@@ -5,9 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Huitième lettre]
 ;;; ,(XXX :EO [annoncée septième à l'origine])
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 La preuve de l'impossibilité dispense d'examiner la possibilité.
 ,(--) Protestation contre le fatalisme.
@@ -16,8 +17,8 @@ La preuve de l'impossibilité dispense d'examiner la possibilité.
 ,(--) Apologues retournés contre leur auteur.
 ,(--) Lois des capitaux résumées en cinq propositions.
 ])))
-(date-tag(small[24 décembre 1849.]))
-(p*[
+,(date-tag(small[24 décembre 1849.]))
+,(p*[
 La gratuité du crédit est-elle possible?
 ][
 La gratuité du crédit est-elle impossible?
@@ -809,10 +810,11 @@ et,
 en terminant,
 je vous remercie de m'avoir loyalement fourni l'occasion de la combattre.
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(8eme) lettre. pp. 191-204.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

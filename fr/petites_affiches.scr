@@ -4,8 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title [Petites affiches de ,(cite-title[Jacques Bonhomme])]
 	:author (author-FB)
-
-(subtitle[I ,(br) Soulagement immédiat du peuple
+(bastiat[
+,(subtitle[I ,(br) Soulagement immédiat du peuple
 ,(footnote*[
 Parmi les nombreux journaux que fit éclore le 24 Février 1848,
 	et qui n'eurent qu'une existence éphémère,
@@ -16,7 +16,7 @@ Cette feuille, qui aspirait à éclairer le peuple,
 	et mis ainsi gratuitement sous les yeux des passants.
 ,(NdEEO)])
 ])
-(p*[
+,(p*[
 ,(strong[Peuple]),
 ][
 On te dit:
@@ -82,8 +82,8 @@ et puisque le travail sera plus demandé dans le pays,
 Ce n'est pas si brillant que la prétendue urne de Cana du Luxembourg,
 	mais c'est sûr, solide, praticable, immédiat et juste.
 ])
-(subtitle [II ,(br) Funeste remède])
-(p*[
+,(subtitle [II ,(br) Funeste remède])
+,(p*[
 Quand notre frère souffre, il faut le soulager.
 ][
 Mais ce n'est pas la bonté de l'intention qui fait la bonté de la potion.
@@ -128,10 +128,10 @@ perd de vue celui qu'on lui prend;
 si voyant le petit salaire que la taxe lui procure,
 il ne voit pas le gros salaire qu'elle lui ôte,
 on peut prédire que sa maladie s'aggravera.
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 68, ,(cite-title[Petites affiches]), pp. 459-461.
 ][

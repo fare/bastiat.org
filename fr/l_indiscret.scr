@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "L'indiscret"
 	:author (author-FB)
-(date-tag[12 Décembre 1847.]) ; XXX D ou d?
-(p*[
+(bastiat[
+,(date-tag[12 Décembre 1847.]) ; XXX D ou d?
+,(p*[
 ,(emph[Protection à l'industrie nationale! Protection au travail national!])
 Il faut avoir l'esprit bien de travers et le c,(oe)ur bien pervers
 pour décrier une si belle et bonne chose.
@@ -234,8 +235,8 @@ mais je renoncerai à raisonner sur quoi que ce soit;
 car en quel raisonnement pourrai-je avoir confiance,
 si je n'en puis avoir en celui-là?
 ])
-(date-tag[19 Décembre 1847.]) ; XXX D ou d?
-(p*[
+,(date-tag[19 Décembre 1847.]) ; XXX D ou d?
+,(p*[
 ,(XXX :EO [guillemet ouvrant])
 Vous vous rappelez parfaitement, cher lecteur...
 ][
@@ -527,10 +528,10 @@ le tout pour arriver à la grande guerre?
 ,(--) Ils font à ce sujet des raisonnements admirables.
 ][
 ,(--) En ce cas, je ne suis ici qu'un ,(emph[indiscret]), et je me retire.
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 65, ,(cite-title[L'indiscret]), pp. 435-446.
 ][

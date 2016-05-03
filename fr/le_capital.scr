@@ -4,7 +4,8 @@
 
 (document :title "Le Capital"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 ,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
 [N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])
 Qui ne se rappelle le frisson d’épouvante qui fit tressaillir l’Europe stupéfaite, lorsque des voyageurs, revenant de pays lointains, jetèrent à ses oreilles cette nouvelle : « L’Inde a vomi sur le monde le ,(emph[choléra-morbus !]) Il grandit, il s’étend, il s’avance, décimant les populations sur son passage, et notre civilisation ne l’arrêtera pas. »
@@ -88,9 +89,9 @@ La seconde c’est la ,(emph[liberté]). Quand on ne peut travailler librement, 
 La troisième c’est l’,(emph[économie]). Quand toutes les épargnes annuelles d’une nation sont dissipées par les folies de son gouvernement ou par le luxe des particuliers, le capital ne peut grossir.
 ][
 Français, faut-il le dire ? notre chère patrie brille aux yeux des peuples par des qualités éminentes ; mais ce n’est pas parmi nous qu’il faut chercher ces trois conditions essentielles pour la formation des capitaux : ,(emph[sécurité, liberté, économie.]) C’est là, et là seulement, qu’est la cause du paupérisme.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Le Capital]),
 pp. 248-255.
 ])))

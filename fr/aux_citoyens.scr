@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Aux citoyens Lamartine et Ledru-Rollin"
 	:author (author-FB)
-(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
+,(p*[
 Dissolvez les ateliers nationaux. Dissolvez-les avec tous les ménagements que l’humanité commande, mais ,(emph[dissolvez-les]).
 ][
 Si vous voulez que la confiance renaisse, dissolvez les ateliers nationaux.
@@ -41,7 +42,7 @@ Si vous ne dissolvez pas les ateliers nationaux, vous attirerez sur la patrie to
 Si vous ne dissolvez pas les ateliers nationaux, que deviendront les ouvriers lorsque vous n’aurez plus de pain à leur donner et que l’industrie privée sera morte ?
 ][
 Si vous conservez les ateliers nationaux dans des desseins sinistres, la postérité dira de vous : C’est sans doute par lâcheté qu’ils proclamaient la république, puisqu’ils l’ont tuée par trahison.
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

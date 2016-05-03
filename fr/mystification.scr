@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Une mystification"
 	:author (author-FB)
-(date-tag[,(cite-title[Jacques Bonhomme]) n° 2, du 15 au 18 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Jacques Bonhomme]) n° 2, du 15 au 18 juin 1848.])
+,(p*[
 Ainsi que vous savez, j’ai beaucoup voyagé et j’ai beaucoup à raconter.
 ][
 Parcourant un pays lointain, je fus frappé de la triste condition dans laquelle paraissait être le peuple, malgré son activité et la fertilité du territoire.
@@ -37,7 +38,7 @@ Pour avoir l’explication de ce phénomène, je m’adressai à un grand minist
 — Est-ce qu’ils ne s’aperçoivent pas qu’en ce cas vous ne leur prendriez plus leurs gros sous, et que, les dépensant eux-mêmes, ils se procureraient de l’ouvrage les uns aux autres ?
 ][
 — « Ils ne s’en doutent pas. Ils ne cessent de me crier : ,(emph[Grand homme d’État, fais-nous travailler un peu plus encore.]) Et ce cri me réjouit, car je l’interprète ainsi : ,(emph[Grand homme d’État, sur notre vin, sur notre sel, sur notre tabac, sur notre viande, prends-nous un plus grand nombre de sous encore.]) »
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

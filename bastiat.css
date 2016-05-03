@@ -1,3 +1,7 @@
+body {
+	margin: 0 0 3.5em 0; padding: 0;
+}
+
 sup {line-height: 0;}
 
 
@@ -86,4 +90,59 @@ span[style="font-variant: small-caps"] {
 
 .tj:hover {
 	color: #05b;
+}
+
+/*Footer*/
+
+.footer {
+	position: fixed; bottom: 0; left: 0;
+	width: 100%; height: 3em;
+	background: white;
+	text-align: center;
+	background-color: #777; /*#9c0;*/
+}
+
+.footer a:visited, .footer a:link {
+	text-decoration: none;
+	color: #303;
+	font-weight: bold;
+	padding: 0;
+}
+
+
+.footer a:hover {
+	text-shadow: 0 0 1em #fff;
+	color: #ccf;
+}
+
+.footer .arbor {
+	float:left;
+	height: 100%;
+	position: relative;
+	width: 10em;
+	vertical-align: middle;
+}
+
+.arbor .retour {
+	width:100%; height: 55%;
+	position: absolute; top: 0; left: 0; line-height: 2em;
+	text-align: center;
+}
+
+.prec, .suiv {
+	position: absolute;
+	bottom: 0;
+	width: 45%; height: 40%; line-height: 0.5em;
+}
+
+.prec {
+	float: left;
+	left:0;
+	text-align: right;
+}
+
+.suiv {
+	float: right;
+	right:0;
+	text-align: left;
 }

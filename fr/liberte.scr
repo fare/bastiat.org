@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "La liberté"
 	:author (author-FB)
-(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
+,(p*[
 J’ai beaucoup vécu, beaucoup vu, observé, comparé, étudié, et je suis arrivé à cette conclusion :
 ][
 Nos pères avaient raison de vouloir être ,(strong[libres]), et nous devons le vouloir aussi.
@@ -25,7 +26,7 @@ En s’associant, les hommes peuvent tirer un plus grand parti de leurs forces. 
 Un peuple a deux manières de se procurer une chose : la première, c’est de la faire ; la seconde, c’est d’en faire une autre et de la troquer. Il vaut certainement mieux avoir l’option que de ne l’avoir pas. Exigeons donc la ,(emph[liberté de l’échange]).
 ][
 Je me mêle aux débats publics, je m’efforce de pénétrer dans la foule pour prêcher toutes les ,(emph[libertés]) dont l’ensemble forme la ,(emph[liberté]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

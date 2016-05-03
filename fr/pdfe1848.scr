@@ -1,12 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Aux électeurs des landes.
+(in-bof :title "Aux électeurs des Landes.
 	- par Frédéric Bastiat")
-(document :title "Aux électeurs des landes."
+(document :title "Aux électeurs des Landes."
 	:author (author-FB)
-(strong[Mugron, 22 mars 1848.]) ; (XXX)
-(subtitle[Mes chers concitoyens,]) ; (XXX)
-(p*[
+(bastiat[
+,(date-tag[Mugron, 22 mars 1848.])
+,(subtitle[Mes chers concitoyens,])
+,(p*[
 Vous allez confier à des représentants de votre choix
 les destinées de la France, celles du monde peut-être,
 et je n'ai pas besoin de dire combien je me trouverai honoré
@@ -39,9 +40,9 @@ d'autre devise que celle de notre drapeau:
 Votre dévoué compatriote.....
 Frédéric Bastiat
 ,(XXX)
-])
+])])
 (with-footer(p*[
-Extrait de l',(EO1863), tome I, pp. 506-507.
+Extrait de l’,(EO1863), tome I, pp. 506-507.
 ][
 Texte scanné fourni par ,(AlainMadelin),
 numérisé par ,(FRR) pour ,(Bastiat.org)

@@ -4,8 +4,9 @@
 du 3 mai 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[3 mai 1849])
-(p*[
+(bastiat[
+,(date-tag[3 mai 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 Permettez-moi de vous envoyer une copie de ma lettre aux électeurs. Ce n’est certes pas pour avoir votre avis politique, mais ces documents sont surtout une affaire de tact et de délicatesse. Il y faut parler beaucoup de soi, comment éviter la fausse modestie ou la vanité blessante ? Comment se montrer sensible à l’ingratitude, sans tomber dans la ridicule classe des ,(emph[incompris ?]) Il est bien difficile de concilier à la fois la dignité et la vérité. Il me semble qu’une femme est surtout propre à signaler les fautes de ce genre si elle veut avoir la franchise de les dire. C’est pour cela que je vous envoie ce ,(inlatin[factum]), espérant que vous voudrez bien le lire et m’aider au besoin à éviter des inconvenances. J’ai appris que vous rouvriez vos salons ce soir. Si je puis m’échapper d’une réunion où je serai retenu un peu tard, j’irai recevoir vos conseils. N’est-ce pas une singulière mission que je vous donne, et c’est le cas de dire avec Faucher : « Il faut bien venir des grandes Landes pour être galant de cette manière. »
@@ -23,7 +24,7 @@ Adieu, madame.
 Votre dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 16. ,(XXX)
 ])))

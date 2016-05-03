@@ -4,8 +4,9 @@
 de janvier 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Janvier 1849])
-(p*[
+(bastiat[
+,(date-tag[Janvier 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 On vient de me dire que, demain mardi, à deux heures, on exécutera dans l’église Saint-Louis d’Antin de la musique très-curieuse. Ce sont des chants du ,(XIIIe) siècle, retrouvés aux archives de la sainte chapelle, et empreints de toute la naïveté de l’époque. D’autres assurent que ces chants ne peuvent être anciens, attendu qu’au ,(XIIIe) siècle on ne connaissait pas l’art de noter la musique.
@@ -19,7 +20,7 @@ Au reste, tous les remèdes sont désagréables.
 Que faudrait-il à ma chère mademoiselle Louise ? Un peu plus de mouvement physique, un peu moins d’exercice mental : mais elle ne veut pas. Que faudrait-il à sa mère ? Rechercher un peu moins le martyre du salon : mais elle ne veut pas. Que m’ordonne-t-on ? L’huile de foie de morue ? décidément l’art de se bien porter, c’est l’art de se bien contrarier.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 10. ,(XXX)
 ])))

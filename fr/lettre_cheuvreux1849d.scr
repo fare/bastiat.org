@@ -4,8 +4,9 @@
 de mars 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Lundi, mars 1849])
-(p*[
+(bastiat[
+,(date-tag[Lundi, mars 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 Décidément, j’ai laissé chez vous quelque chose de bien précieux ; quelque chose dont les hommes de mon âge ne devraient plus se séparer ; quelque chose que nous devrions toujours sentir sous la main, quand elle se porte sur le côté gauche de notre poitrine, quelque chose dont la perte nous transforme en étourdis et en aveugles, en un mot, mes lunettes.
@@ -25,7 +26,7 @@ Je n’ai pas été chez Victor Hugo, croyant qu’il demeurait au Marais ; si 
 Adieu, je serre la main affectueusement à ce que vous nommez ,(emph[le Trio]), que j’aime de tout mon cœur.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 13. ,(XXX)
 ])))

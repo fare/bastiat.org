@@ -4,8 +4,9 @@
 de février 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Vendredi, février 1849])
-(p*[
+(bastiat[
+,(date-tag[Vendredi, février 1849])
+,(p*[
 ,(strong[Madame]),
 ][
 Je viens de relancer Faucher au sujet de votre protégé ; il l’avait perdu de vue, hélas ! Combien peut-il contenir de pitié sous un front chargé des destinées de la République ! Cependant, il a promis.
@@ -17,7 +18,7 @@ Voudriez-vous me faire savoir si vous désirez voir dimanche, en passant, le por
 Votre dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 11. ,(XXX)
 ])))

@@ -4,15 +4,16 @@
 	- Frédéric Bastiatà P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatorzième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Droit légitime de la défense.
 ,(--) Origine et résumé d'une discussion, dont le public est le seul juge.
 ])))
-(date-tag(small[7 mars 1850.]))
-(p*[
+,(date-tag(small[7 mars 1850.]))
+,(p*[
 La cause est entendue et le débat est clos,
 dit M. Proudhon,
 de partie se faisant juge.
@@ -34,7 +35,7 @@ vous deviez être bien en colère quand vous avez jeté sur moi ce cruel anathè
 ][
 Il me rappelle la formule de l'excommunication:
 ])
-(blockquote*[
+,(blockquote*[
 ,(inlatin[Maledictus sit vivendo, moriendo, manducando, libendo.])
 ][
 ,(inlatin[Maledictus sit intus et exterius.])
@@ -52,7 +53,7 @@ Il me rappelle la formule de l'excommunication:
  in pedibus,
  et in unguibus.])
 ])
-(p*[
+,(p*[
 Hélas! toutes les Églises se ressemblent,
 quand elles ont tort,
 elles se fâchent.
@@ -1112,10 +1113,11 @@ La liberté du crédit,
 	c'est le respect de l'indépendance et de la dignité humaine,
 	c'est la foi dans le progrès et les destinées de la société.
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(14eme) lettre. pp. 312-335.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

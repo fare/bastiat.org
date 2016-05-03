@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title "Prendre cinq et rendre quatre ce n'est pas donner"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 Là, soyons de bon compte, qu'est-ce que l'État?
 N'est-ce pas la collection de tous les fonctionnaires publics?
 Il y a donc dans le monde deux espèces d'hommes, savoir:
@@ -132,10 +133,10 @@ J'ai peine à croire
 	que tu aies été assez fou pour te soumettre à ce régime,
 		parce qu'il a plu à quelques écrivailleurs de le baptiser:
 			,(emph[Organisation et Fraternité]).
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome VII, texte 60. ,(XXX :pp.)
 ][
 Numérisé et mis en hypertexte par ,(FRR) pour ,(Bastiat.org).

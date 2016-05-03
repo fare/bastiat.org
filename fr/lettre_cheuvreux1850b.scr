@@ -4,8 +4,9 @@
 de janvier 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Janvier 1850. Samedi.])
-(p*[
+(bastiat[
+,(date-tag[Janvier 1850. Samedi.])
+,(p*[
 ,(strong[Madame]),
 ][
 Je viens de rencontrer le commandant Matt, qui prétend qu’on sera souffrant demain à l’hôtel Saint-Georges. Puisse-t-il être aussi mauvais prophète que brave soldat ! Soyez assez bonne pour me faire savoir la vérité. Vous ne permettrez pas que je parle de santé sans dire quelque chose de la mienne. Je suis mieux et ,(emph[Charruau]), comme Sganarelle, assure que je dois être ,(emph[guéri]). Cependant hier soir, une quinte fatigante a déterminé ce symptôme ,(emph[rouge]) aussi effrayant en physiologie qu’en politique. Malgré tout, j’aurais encore bien assez de force pour me charger de ce qu’il peut rester de toux à votre ,(emph[Louisette]), si cela était possible ; mais l’affection ne peut faire ce miracle, c’est une ,(emph[harmonie]) qui manque à ce monde.
@@ -13,7 +14,7 @@ Je viens de rencontrer le commandant Matt, qui prétend qu’on sera souffrant d
 Adieu, madame.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 57. ,(XXX)
 ])))

@@ -4,8 +4,9 @@
 
 (document :title "A M. George Wilson, président de l'Anti-corn-laws League"
 	:author (author-FB)
-(date-tag[Paris, 15 janvier 1849])
-(p*[
+(bastiat[
+,(date-tag[Paris, 15 janvier 1849])
+,(p*[
 ,(strong[Monsieur]),
 ,(footnote*[Voici le texte de l’invitation à laquelle Bastiat répond : ,(NdEEO)]
 [
@@ -53,7 +54,7 @@ C’est ce motif de santé, ainsi que mes devoirs parlementaires, qui me forcent
 Je suis, Monsieur, votre très-dévoué,
 ][
 ,(strong[Frédéric Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863),
 tome III,

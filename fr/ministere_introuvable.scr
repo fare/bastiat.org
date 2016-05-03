@@ -4,11 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Circulaires d'un ministère introuvable"
 	:author (author-FB)
-(date-tag[19 Mars 1848.]) ; XXX mars?
+(bastiat[
+,(date-tag[19 Mars 1848.]) ; XXX mars?
 
-(subtitle[Le ministre de l'intérieur à
+,(subtitle[Le ministre de l'intérieur à
 MM. les commissaires du gouvernement, préfets, maires, ,(emph[etc.])])
-(p*[
+,(p*[
 Les élections approchent;
 vous désirez que je vous indique la ligne de conduite que vous avez à tenir;
 la voici:
@@ -29,8 +30,8 @@ L'expérience nous avertit de ce qu'il en coûte
 de vouloir gouverner avec des majorités factices.
 ])
 
-(subtitle[Le ministre du commerce aux négociants de la République])
-(p*
+,(subtitle[Le ministre du commerce aux négociants de la République])
+,(p*
 (strong[Citoyens,])
 [
 Mes prédécesseurs ont fait ou ont eu l'air
@@ -70,8 +71,8 @@ voudra bien m'admettre comme commis dans ses bureaux,
 afin que j'apprenne le commerce,
 pour lequel mon court passage au ministère m'a donné du goût.
 ])
-(subtitle[Le ministre de l'agriculture aux agriculteurs])
-(p*
+,(subtitle[Le ministre de l'agriculture aux agriculteurs])
+,(p*
 (strong[Citoyens,])
 [
 Un heureux hasard m'a suggéré une pensée
@@ -118,8 +119,8 @@ Désormais, pour faire prospérer l'agriculture,
 comptez sur vos efforts et non sur ceux de mes bureaucrates;
 tournez vos yeux sur vos champs et non sur un hôtel de la rue de Grenelle.
 ])
-(subtitle[Le ministre des cultes aux ministres de la religion])
-(p*
+,(subtitle[Le ministre des cultes aux ministres de la religion])
+,(p*
 (strong[Citoyens,])
 [
 Cette lettre a pour objet de prendre congé de vous.
@@ -144,11 +145,12 @@ En nous retirant,
 nous remplissons donc deux conditions du programme républicain:
 économie, liberté.
 ])
-(tag :p :align 'right [Le Secrétaire du ministère introuvable, ,(br)
+,(tag :p :align 'right [Le Secrétaire du ministère introuvable, ,(br)
 			F. B.])
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 69, ,(cite-title[Circulaires d'un ministère introuvable]), pp. 462-465.
 ][

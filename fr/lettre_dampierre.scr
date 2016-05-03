@@ -4,8 +4,9 @@
 
 (document :title "Lettre à M. Dampierre"
 	:author (author-FB)
-(date-tag[3 juillet 1846])
-(p*[
+(bastiat[
+,(date-tag[3 juillet 1846])
+,(p*[
 ,(strong[Monsieur Dampierre]),
 ][
 Comme vous, je regrette de ne m’être pas trouvé chez moi quand vous m’avez fait l’honneur de venir me voir, et je le regrette encore plus, depuis que j’ai reçu votre bienveillante lettre du 30 juin. Je ne m’arrêterai pas à vous remercier de tout ce qu’elle contient d’obligeant ; je crains bien qu’on ne vous ait fort exagéré les efforts que j’ai pu consacrer quelquefois à ce qui m’a paru le bien du pays. Je me bornerai à répondre à ce que vous me dites, touchant les prochaines élections, et je le ferai avec toute la franchise que je dois au ton de sincérité qui respire dans toute votre lettre.
@@ -25,9 +26,9 @@ Mais il n’en est pas ainsi, je vois dans un secrétaire des commandements, le 
 En résumé, monsieur, comme candidat, je me bornerai à publier une profession de foi, et à assister aux réunions publiques, si j’y suis appelé ; comme électeur, je voterai d’abord pour un homme de la gauche, à défaut, pour un conservateur indépendant, et, à défaut encore, pour un légitimiste franc et loyal, tel que vous, plutôt que pour un secrétaire des commandements de M. le duc de Nemours.
 ][
 Veuillez, etc…
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Lettre à M. Dampierre]),
 pp. 300-303.
 ])))

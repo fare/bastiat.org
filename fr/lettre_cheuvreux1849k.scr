@@ -4,8 +4,9 @@
 du 16 septembre 1849")
 (document :title "Lettre à M. Cheuvreux"
 	:author (author-FB)
-(date-tag[Mugron, 16 septembre 1849])
-(p*[
+(bastiat[
+,(date-tag[Mugron, 16 septembre 1849])
+,(p*[
 Vous êtes probablement de retour des eaux, mon cher monsieur Cheuvreux. Je suis un peu surpris d’en être réduit aux conjectures.
 ][
 Il est de tristes époques où les imaginations ébranlées se frappent aisément ; peut-on s’éloigner de Paris sans songer qu’on y a laissé le choléra ? Le silence de nos amis, pénible en tout temps, devient aujourd’hui difficile à supporter.
@@ -23,7 +24,7 @@ J’espérais avancer ici mon livre ; nouvelle déception. Du reste, je ne suis
 Adieu, mon cher monsieur, si vous avez un moment à perdre, épargnez à ces dames la peine de m’écrire. Veuillez les assurer que le régime de privation où elles me tiennent ne me fait pas oublier leur bienveillance inépuisable.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 39. ,(XXX)
 ])))

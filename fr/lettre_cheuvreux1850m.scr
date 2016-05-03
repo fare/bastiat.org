@@ -4,8 +4,9 @@
 du 4 juillet 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[4 juillet 1850])
-(p*[
+(bastiat[
+,(date-tag[4 juillet 1850])
+,(p*[
 Enfin, j’ai une lettre de la Jonchère, ma chère madame, et je suis maintenant bien sûr que vous êtes quelque part. De plus, vous m’annoncez que vos débuts à la campagne ont été heureux, que vous faites de longues promenades dans les bois, et que vous recevez de fort aimables visites, puisque vous avez aujourd’hui la famille Say.
 ][
 Comme j’ai votre première lettre de la Jonchère, voici, je crois, ma dernière lettre des Eaux-Bonnes. Je les quitterai le 8, à moins que d’ici-là je n’apprenne que l’Assemblée prendra des vacances. Mais, dans le doute, il faut que je parte. Ce n’est pas que je sois radicalement guéri ; si ma santé s’améliore, le larynx s’opiniâtre à souffrir.
@@ -19,8 +20,8 @@ Vous avez vu dans les journaux les succès et les ovations de MM. Scribe et Hal
 Avez-vous lu, dans la ,(cite-title[Revue des Deux Mondes]), l’article de M. de Broglie sur Chateaubriand ? Je n’ai pas été fâché de voir ce châtiment infligé à une vanité poussée jusqu’à l’enfantillage. Avec un si exclusif égoïsme au cœur, on peut être un grand écrivain, mais croyez-vous qu’on puisse être un grand homme ? Pour moi, je déteste ces aveugles orgueilleux qui passent leur vie à poser, à se draper ; qui mettent l’humanité dans le plateau d’une balance, se placent sur l’autre et croient l’emporter. Je regrette que M. de Broglie n’ait pas cherché à apprécier la valeur philosophique de Chateaubriand ; il aurait trouvé qu’elle est bien légère. Dans le onzième volume de ses mémoires, j’ai copié ce paradoxe : « La perception du bien et du mal s’obscurcit à mesure que l’intelligence s’éclaire ; la conscience se rétrécit à mesure que les idées s’élargissent. »
 ][
 S’il en est ainsi, l’humanité est condamnée à une dégradation fatale et irrémédiable : un homme qui a écrit ces lignes est un homme jugé.])
-(date-tag[Le 5 juillet])
-(p*[
+,(date-tag[Le 5 juillet])
+,(p*[
 Voici une autre lettre de la Jonchère, mais qui ne confirme pas la précédente. Dans l’intervalle, j’avais eu des nouvelles par M. Say, et je croyais que vous étiez tous en bonne santé. Je vois que le sommeil vous boude, que ,(Mlle) Louise est fatiguée par la chaleur, et que M. Cheuvreux lui-même est indisposé ! Voilà un ,(initalian[trio]) bien organisé ! Ce qui me contrarie vivement, c’est que je ne saurai rien de vous d’ici au 20 juillet, à moins que vous ne soyez assez bonne pour m’écrire encore une fois, ne fût-ce qu’un billet à Mugron. Décidément je quitte les Eaux-Bonnes en répétant le refrain de notre ballade :
 ,(verses
 [Aigues caoutes, aigues rèdes,]
@@ -37,7 +38,7 @@ La gloire ! Le ciel m’est témoin que je n’y prétendais pas ; et si un de
 Votre dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 95. ,(XXX)
 ])))

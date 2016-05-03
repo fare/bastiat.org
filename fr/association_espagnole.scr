@@ -5,8 +5,9 @@
 	- par Frédéric Bastiat")
 (document :title "Association espagnole pour la défense du travail national"
 	:author (author-FB)
-(date-tag[7 Novembre 1847.]) ; XXX novembre?
-(p*[
+(bastiat[
+,(date-tag[7 Novembre 1847.]) ; XXX novembre?
+,(p*[
 L'Espagne a aussi son association pour la défense du ,(emph[travail national]).
 ][
 L'objet qu'elle a en vue est celui-ci:
@@ -156,8 +157,8 @@ alors surtout qu'il est dupe lui-même de son propre conseil?
 Voici du reste un petit échantillon
 de la propagande protectionniste ,(XXX :sic) au dehors:
 ])
-(subtitle[Le pont de la Bidassoa])
-(p*[
+,(subtitle[Le pont de la Bidassoa])
+,(p*[
 Un homme partit de Paris, rue Hauteville,
 avec la prétention d'enseigner aux nations l'économie politique.
 Il arriva devant la Bidassoa.
@@ -255,9 +256,9 @@ ils échangent selon l'ancienne méthode (qu'on dit nouvelle),
 c'est-à-dire comme échangeaient leurs pères,
 et quand ils ne le peuvent faire par-dessus la Bidassoa,
 ils le font par-dessous, tant ils sont aveugles!
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1854), tome II, ,(cite-title[Libre-Échange]),
+Extrait de l’,(EO1854), tome II, ,(cite-title[Libre-Échange]),
 texte 64, ,(cite-title[Association espagnole
 		pour la défense du travail national]), pp. 429-435.
 ][

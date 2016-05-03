@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Le Maire d'Énios"
 	:author (author-FB)
-(date-tag [6 Février 1848.])
-(p*[
+(bastiat[
+,(date-tag [6 Février 1848.])
+,(p*[
 C'était un singulier Maire que le maire d'Énios. D'un caractère...
 Mais il est bon que le lecteur sache d'abord ce que c'est qu'Énios.
 ][
@@ -466,9 +467,9 @@ ce qu'il leur en coûtait plus de faire au dedans;
 ce qui confirma de plus en plus M. le maire dans cette opinion,
 que les hommes inclinent naturellement vers leur ruine
 quand ils ont le malheur d'être libres.
-])
+])])
 (with-footer
-(p*[Extrait de l',(EO1863),
+(p*[Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
 texte 63, ,(cite-title[Le Maire d'Énios]), pp. 418-429.
 ][

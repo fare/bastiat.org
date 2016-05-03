@@ -4,17 +4,18 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Treizième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Consultation psychologique.
 ,(--) Récapitulation.
 ,(--) La comptabilité est une méthode infaillible.
 ,(--) Clôture de la discussion.
 ])))
-(date-tag(small[11 février 1850.]))
-(p*[
+,(date-tag(small[11 février 1850.]))
+,(p*[
 Monsieur Bastiat,
 ][
 Votre dernière lettre justifie toutes mes prévisions.
@@ -1197,7 +1198,8 @@ Ricardo avait conçu un plan moins radical,
 mais analogue,
 et je trouve dans Say ces lignes remarquables:])
 ])
-(blockquote*(q[
+
+,(blockquote*(q[
 Cette idée ingénieuse ne laisse qu'une question non résolue.
 Qui devra jouir de l'intérêt de cette somme considérable,
 mise dans la circulation?
@@ -1216,7 +1218,8 @@ peut-être ne sont-elles pas insolubles.
 Peut-être y a-t-il des moyens de rendre hautement profitable au public l'économie qui en résulterait;
 mais je ne suis pas appelé à développer ici ce nouvel ordre d'idées.
 ]))
-(p*[
+
+,(p*[
 ,(strong[Moi]).
 Eh!
 Monsieur,
@@ -1357,10 +1360,11 @@ scientifiquement,
 monsieur Bastiat,
 vous être un homme mort.
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(13eme) lettre.
 pp. 290-312.
 ][

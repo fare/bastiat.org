@@ -4,8 +4,9 @@
 du 22 septembre 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Marseille (à bord du ,(emph[Castor])), 22 septembre 1850])
-(p*[
+(bastiat[
+,(date-tag[Marseille (à bord du ,(emph[Castor])), 22 septembre 1850])
+,(p*[
 ,(strong[Chère madame Cheuvreux]),
 ][
 Avant de quitter la France, permettez-moi de vous adresser quelques lignes. La date de cette feuille va vous surprendre, en voici l’explication.
@@ -27,7 +28,7 @@ Adieu, je ne puis plus tenir la plume sous le frémissement de la vapeur.
 Votre dévoué,
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 117. ,(XXX)
 ])))

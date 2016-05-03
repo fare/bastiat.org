@@ -4,9 +4,10 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Onzième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Maintien de l'imputation d'ignorance.
 ,(--) Définition du ,(strong[capital]) substituée aux définitions
@@ -17,8 +18,8 @@ inexactes des économistes.
 ,(--) Concession conciliante sur le risque des capitaux.
 ,(--) Révolution politique, économique et scientifique.
 ])))
-(date-tag(small[21 janvier 1850.]))
-(p*[
+,(date-tag(small[21 janvier 1850.]))
+,(p*[
 Vous ne m'avez pas trompé:
 le ton de bonne foi et d'extrême sincérité,
 qui éclate à chaque ligne de votre dernière lettre,
@@ -817,9 +818,11 @@ Tout raisonnement,
 toute dialectique,
 toute controverse tombe devant cette image intelligible du mouvement économique.
 ])
-(tag :p :align 'center
+
+,(tag :p :align 'center
 (font :size "+2" [I. ,(--) Système de l'intérêt.]))
-(p*[
+
+,(p*[
 Dans ce système,
 la production,
 la circulation et la consommation des richesses s'opèrent par le concours de deux classes de citoyens,
@@ -849,15 +852,20 @@ Je désigne par A la classe entière des propriétaires,
 capitalistes et entrepreneurs que je considère comme une personne unique,
 et par B, C, D, E, F, G, H, I, K, L, la classe des travailleurs salariés.
 ])
-(tag :p :align 'center (strong[COMPTES]))
-(tag :p :align 'center [,(emph[entre]) A,
+
+,(tag :p :align 'center (strong[COMPTES]))
+
+,(tag :p :align 'center [,(emph[entre]) A,
 ,(emph[propriétaire-capitaliste-entrepreneur, et])
 B, C, D, E, F, G, H, I, K, L,
 ,(emph[travailleurs salariés.])])
-(tag :p :align 'center (strong[Chapitre premier.]))
-(tag :p :align 'center [,(emph[Compte et résumé des opérations personnelles à]) A,
+
+,(tag :p :align 'center (strong[Chapitre premier.]))
+
+,(tag :p :align 'center [,(emph[Compte et résumé des opérations personnelles à]) A,
 ,(emph[propriétaire-capitaliste-entrepreneur.])])
-(p*[
+
+,(p*[
 A l'ouverture du compte,
 A commence sa spéculation avec un capital que je suppose de ,(enFr[10,000])
 Cette somme forme sa mise de fonds;
@@ -875,7 +883,8 @@ dont il payera les produits et services avec ses ,(enFr[10,000]);
 c'est-à-dire qu'il convertira ces ,(enFr[10,000]) en marchandises,
 ce que le comptable exprime comme suit:
 ])
-(blockquote*[
+
+,(blockquote*[
 2. ,(emph[Marchandises générales, à Caisse.])
 ][
 Achat au comptant,
@@ -883,7 +892,8 @@ ou par anticipation,
 des produits de l'année courante,
 des travailleurs ci-après dénommés:
 ])
-(blockquote*
+
+,(blockquote*
 (table :border 1
 (tr(tdLT[De B,])(tdLT[x (journées de travail ou produit): ensemble.])(tdCT(enFr[1,000])))
 (tr(tdLT[De C,])(tdCT[,(--)])(tdCT[1,000]))
@@ -897,7 +907,8 @@ des travailleurs ci-après dénommés:
 (tr(tdLT[De L,])(tdCT[,(--)])(tdCT[1,000]))
 (tr(td)(tdRT[Total...])(tdCT(enFr[10,000]))))
 )
-(p*[
+
+,(p*[
 L'argent converti en marchandises,
 il s'agit, pour le propriétaire-capitaliste-entrepreneur A,
 de faire l'opération inverse,
@@ -918,10 +929,12 @@ et de B, C, D, etc., travailleurs salariés,
 hors desquels il n'y a personne.
 Voici comment s'établit le compte:
 ])
-(blockquote*[
+
+,(blockquote*[
 3. ,(emph[Les Suivants, à Marchandises générales:])
 ])
-(blockquote*
+
+,(blockquote*
 (table :border 1
 (tr(tdLT[B,])(tdLT[mes ventes à lui faites dans le courant de l'année,])(tdCT(enFr[1,100])))
 (tr(tdLT[C,])(tdCT[,(--)])(tdCT[1,100]))
@@ -935,16 +948,18 @@ Voici comment s'établit le compte:
 (tr(tdLT[L,])(tdCT[,(--)])(tdCT[1,100]))
 (tr(td)(tdRT[Total...])(tdCT(enFr[11,000]))))
 )
-(p*[
+
+,(p*[
 La vente terminée,
 reste à faire l'encaissement des sommes dues par les acheteurs.
 Nouvelle opération que le comptable sur son livre,
 en la façon ci-après:
 ])
-(blockquote*[
+,(blockquote*[
 4. ,(emph[Doit Caisse aux Suivants:])
 ])
-(blockquote*
+
+,(blockquote*
 (table :border 1
 (tr(tdLT[à B,])(tdLT[son versement en espèces pour solde de son compte au 31 décembre.])(tdCT(enFr[1,100])))
 (tr(tdLT[à C,])(tdCT[,(--)])(tdCT[1,100]))
@@ -958,7 +973,8 @@ en la façon ci-après:
 (tr(tdLT[à L,])(tdCT[,(--)])(tdCT[1,100]))
 (tr(td)(tdRT[Somme égale...])(tdCT(enFr[11,000]))))
 )
-(p*[
+
+,(p*[
 Ainsi, le capital avancé par A,
 ,(--) après conversion de ce capital en produits,
 puis vente de ces produits aux travailleurs-consommateurs B, C, D etc.,
@@ -966,12 +982,14 @@ et, enfin, payement de la vente,
 ,(--) lui rentre augmenté d'un dixième,
 ce qui s'exprime à l'inventaire par la balance ci-dessous:
 ])
-(blockquote*[
+
+,(blockquote*[
 5. Résumé des opérations de A,
 propriétaire-capitaliste-entrepreneur,
 pour son inventaire au 31 décembre.
 ])
-(blockquote*
+
+,(blockquote*
 (table :border 1
 (tr(th :align 'center (emph[Doivent.]))
    (th :colspan 2 (strong[marchandises générales.]))
@@ -989,7 +1007,8 @@ pour son inventaire au 31 décembre.
    (tdRT[Balance...])
    (tdCT(enFr[11,000]))))
 )
-(p*[
+
+,(p*[
 On voit ici, pour le dire en passant,
 comment et à quelle condition les produits deviennent capitaux.
 Ce ne sont pas les marchandises en magasin qui,
@@ -1003,25 +1022,25 @@ en deux mots, c'est le produit fait ,(emph[valeur]).
 Passons à la contre-partie de ce compte,
 au compte des travailleurs.
 ])
-(tag :p :align 'center (strong[Chapitre deuxième.]))
-(tag :p :align 'center (emph[Compte des opérations de B, travailleur,
+,(tag :p :align 'center (strong[Chapitre deuxième.]))
+,(tag :p :align 'center (emph[Compte des opérations de B, travailleur,
 avec A, propriétaire-capitaliste-entrepreneur.]))
-(p*[
+,(p*[
 B, travailleur, sans propriété, sans capital, sans ouvrage,
 est embauché par A,
 qui lui donne de l'occupation et acquiert son produit.
 Première opération, que l'on fait figurer au compte de B, ainsi:
 ])
-(blockquote*[
+,(blockquote*[
 1. Doit Caisse, 1er janvier, à B. ,(--) Compte de Capital.
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(tdLB[Vente au comptant ou par anticipation de tout le produit de son travail de l'année,
 		 à A, propriétaire-capitaliste-entrepreneur, ci...])
      (tdRB[1,000,(nbsp)fr.])))
 )
-(p*[
+,(p*[
 En échange de son produit,
 le travailleur reçoit donc ,(enFr[1,000]),
 somme égale à celle que nous avons vue figurer au chapitre précédent,
@@ -1037,18 +1056,18 @@ chap. ,(1er), art. 3,
 à 10 pour 100 de bénéfice en sus du prix de revient.
 L'opération a donc pour B le résultat que voici:
 ])
-(blockquote*[
+,(blockquote*[
 2. Doit B, compte de Capital, à A, propriétaire-capitaliste-entrepreneur:
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
 (tr(td[Montant des fournitures de toute espèce de ce dernier dans le cours de l'année])
    (td(enFr[1,100]))))
 )
-(blockquote*[
+,(blockquote*[
 3. ,(emph[Résumé des opérations de]) B, ,(emph[pour son inventaire:])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
 (tr(th :align 'center [,(emph[Doivent.])])
    (th :align 'center [,(strong[compte de capital.])])
@@ -1066,7 +1085,8 @@ L'opération a donc pour B le résultat que voici:
    (td)
    (tdCT(enFr[1,100]))))
 )
-(p*[
+
+,(p*[
 Tous les autres travailleurs se trouvant dans les mêmes conditions que B,
 leurs comptes présentent individuellement le même résultat.
 Pour l'intelligence du fait que j'ai voulu faire ressortir, savoir:
@@ -1121,9 +1141,9 @@ de quelque côté qu'il frappe, il tue.
 Je viens de vous montrer comment les choses se passent dans le régime de l'intérêt.
 Voyons maintenant comment elles se passeraient sous le régime de la gratuité.
 ])
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" [II. ,(--) Système de gratuité.]))
-(p*[
+,(p*[
 D'après la théorie du crédit gratuit,
 la qualité de travailleur salarié et celle de propriétaire-capitaliste-entrepreneur sont identiques l'une à l'autre et adéquates:
 elles se confondent sous celle de ,(emph[producteur-consommateur]).
@@ -1146,21 +1166,21 @@ c'est donc avec la Banque que B, C, D, etc.,
 travailleurs, associés, groupés ou libres,
 entrent d'abord, et directement, en compte.
 ])
-(tag :p :align 'center (strong[Chapitre premier.]))
-(blockquote*[
+,(tag :p :align 'center (strong[Chapitre premier.]))
+,(blockquote*[
 1. ,(emph[Compte des opérations de]) B,
 ,(emph[travailleur, avec]) x, ,(emph[Banque nationale.])
 ][
 Doit Caisse, 1er janvier, à ,(emph[x]), Banque nationale,
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(tdLB[Avance de celle-ci sur tous les produits de mon travail de l'année,
 		  à lui rembourser au fur et à mesure de mes ventes, ,(enFr[1,000]);
 		  escompte 1 pour 100 déduit, ci...])
      (tdRB[990,(nbsp)fr.])))
 )
-(p*[
+,(p*[
 Ainsi qu'on l'a vu plus haut,
 B vit exclusivement de son travail:
 c'est-à-dire que, sur la garantie de son produit,
@@ -1178,15 +1198,15 @@ Cet achat,
 fait avec les billets ou espèces de la Banque,
 donne ouverture au compte suivant sur les livres de B:
 ])
-(blockquote*[
+,(blockquote*[
 2. ,(emph[Doivent Marchandises générales à Caisse,])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
 (tr(tdLB[Achat au comptant, chez A, de toute ma consommation de l'année...])
    (tdCB[990,(nbsp)fr.])))
 )
-(p*[
+,(p*[
 Au fur et à mesure de sa fabrication,
 B vend ses produits.
 Mais la production se règle sur la consommation:
@@ -1233,15 +1253,15 @@ par son travail,
 B ait augmenté de 10 pour 100 la valeur qu'il consomme,
 et constatons, par ses écritures, le résultat:
 ])
-(blockquote*[
+,(blockquote*[
 3. ,(emph[Doit Caisse à Marchandises générales]),
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(tdLB[Mes ventes au comptant à divers, courant de l'année...])
      (tdCB[1,089,(nbsp)fr.])))
 )
-(p*[
+,(p*[
 Il appert de ce compte que l'usure est une cause de misère,
 en ce qu'elle empêche la consommation et la reproduction,
 d'abord en élevant le prix de vente des produits d'une quantité plus forte que l'excédent obtenu par le travail reproducteur:
@@ -1258,22 +1278,22 @@ Il faut qu'il se liquide avec x,
 Banque nationale,
 ce qui donne lieu à l'opération que voici:
 ])
-(blockquote*[
+,(blockquote*[
 4. Doit ,(emph[x]), Banque nationale, à Caisse,
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(tdLB[Mon versement pour solde])
      (tdCB[1,000,(nbsp)fr.])))
 )
-(p*[
+,(p*[
 Maintenant B doit se rendre compte:
 il le fait de la manière suivante:
 ])
-(blockquote*[
+,(blockquote*[
 5. ,(emph[Résumé des opérations de]) B ,(emph[pour son inventaire.])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(th :align 'center (emph[Doit.]))
      (th :colspan 2 :align 'center (strong[Compte de marchandises générales.]))
@@ -1290,7 +1310,7 @@ il le fait de la manière suivante:
      (tdCT2[Somme égale.])
      (tdCT(enFr[1,089]))))
 )
-(p*[
+,(p*[
 L'année suivante,
 B, au lieu d'opérer sur un produit de 1,000,
 opérera sur un produit de 1,089,
@@ -1308,8 +1328,8 @@ il est inutile de les reproduire.
 Je passe à la contre-partie des comptes ouverts chez B,
 et tout d'abord à celui de la Banque.
 ])
-(tag :p :align 'center (strong[Chapitre II.]))
-(p*[
+,(tag :p :align 'center (strong[Chapitre II.]))
+,(p*[
 On a vu plus haut que ,(emph[x]),
 Banque nationale,
 a fait à B une avance sur son travail ou produit;
@@ -1321,10 +1341,10 @@ faite à son profit,
 de 1 pour 100 d'escompte.
 Voici comment se traduiraient ces diverses opérations sur les livres de la Banque.
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[Doivent les Suivants à Caisse:])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(td[B,])
      (td[mes avances sur le produit de son travail de l'année,
@@ -1343,14 +1363,14 @@ Voici comment se traduiraient ces diverses opérations sur les livres de la Banq
   (tr(td[L,])(tdCT(--))(tdCT[990]))
   (tr(td)    (td)      (tdCT(enFr[9,900]))))
 )
-(p*[
+,(p*[
 Lors du remboursement par les débiteurs,
 nouvelle opération que le comptable coucherait sur les livres comme suit:
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[Doit Caisse aux Suivants:])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(td[à B,])
      (td[son versement pour solde])
@@ -1370,7 +1390,7 @@ nouvelle opération que le comptable coucherait sur les livres comme suit:
      (tdRT[Total])
      (tdCT(enFr[10,000]))))
 )
-(p*[
+,(p*[
 Le crédit donné par ,(emph[x]),
 Banque nationale,
 ,(--) après conversion de la somme créditée,
@@ -1392,12 +1412,12 @@ elle réduirait proportionnellement le taux de son escompte,
 de manière à ce qu'il lui restât toujours,
 pour intérêt du capital, zéro.
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[Résumé des opérations de]) x,
 ,(emph[Banque nationale,
 pour son inventaire au 31 décembre.])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(th :align 'center (emph[Doit.]))
      (th :colspan 2 :align 'center (strong[profits et pertes.]))
@@ -1407,14 +1427,14 @@ pour son inventaire au 31 décembre.])
      (tdRT[Produit des escomptes de l'année])
      (tdCT(enFr[100]))))
 )
-(p*[
+,(p*[
 En se reportant au compte de Caisse de x,
 Banque nationale,
 on voit tout d'abord que l'excédant du débit de ce compte sur le crédit est de fr. 100,
 somme égale à celle du bénéfice d'escompte constatée par le compte de ,(emph[Profits et pertes]).
 ])
-(tag :p :align 'center (strong[Chapitre III.]))
-(p*[
+,(tag :p :align 'center (strong[Chapitre III.]))
+,(p*[
 Venons enfin au comte de A,
 propriétaire-capitaliste-entrepreneur,
 lequel ne se distingue plus,
@@ -1458,15 +1478,15 @@ A commence donc ses opérations avec son capital,
 que par hypothèse nous fixerons à ,(enFr[10,000])
 Cette ouverture d'opérations de A s'exprime sur ses livres de la manière suivante:
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[1. Doit Marchandises générales à A, compte de Capital:])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(td[Marchandises en magasin, au ,(1er) janvier dernier, suivant inventaire])
      (td(enFr[10,000]))))
 )
-(p*[
+,(p*[
 Que fera A de cette marchandise?
 Il la vend aux travailleurs B, C, D, etc.,
 c'est-à-dire à la société consommatrice et reproductrice qu'ici ils représentent,
@@ -1475,10 +1495,10 @@ représente, pour le moment,
 la société capitaliste et propriétaire.
 C'est ce que le comptable de A constatera comme suit:
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[2. Vente au comptant])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(td[à B])(tdCT[...])(tdCT[990]))
   (tr(td[à C])(tdCT[...])(tdCT[990]))
@@ -1492,7 +1512,7 @@ C'est ce que le comptable de A constatera comme suit:
   (tr(td[à L])(tdCT[...])(tdCT[990]))
   (tr(td)(tdRT[Total...])(tdCT(enFr[9,990]))))
 )
-(p*[
+,(p*[
 Mais si les travailleurs B, C, D, etc.,
 consomment les articles de A,
 à son tour le propriéraire-capitaliste-entrepreneur A consomme les produits des travailleurs B, C, D, etc.,
@@ -1510,13 +1530,14 @@ se transforme en un autre de ,(enFr[1,089]):
 c'est donc d'après ce prix que A fait ses achats auprès de B,
 et en acquitte les factures.
 Ce qui se traduit dans les écritures comme suit:
+
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[3. Doit Marchandise générale à Caisse:])
 ][
 Achat au comptant, aux travailleurs ci-après:
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(tdCT[à B,])
      (td[ses livraisons de divers articles pour ma consommation...])
@@ -1532,15 +1553,15 @@ Achat au comptant, aux travailleurs ci-après:
   (tr(tdCT[L])(tdCT(--))(tdCT[1,089]))
   (tr(td)(tdRT[Total...])(tdCT(enFr[10,890]))))
 )
-(p*[
+,(p*[
 Pour achever la démonstration,
 nous n'avons plus qu'à dresser l'inventaire de A.
 ])
-(blockquote*[
+,(blockquote*[
 ,(emph[Résumé des opérations de A,
 propriétaire-capitaliste-entrepreneur pour son inventaire au 31 décembre.])
 ])
-(blockquote*
+,(blockquote*
 (table :border 1
   (tr(th :align 'center (emph[Doit.]))
      (th :align 'center :colspan 2 (strong[marchandises générales.]))
@@ -1560,7 +1581,7 @@ propriétaire-capitaliste-entrepreneur pour son inventaire au 31 décembre.])
      (tdCT[Somme égale.])
      (tdCT(enFr[10,890]))))
 )
-(p*[
+,(p*[
 Maintenant que nous avons établi notre double comptabilité,
 rapprochons les comptes,
 et notons les différences:
@@ -1817,10 +1838,11 @@ n'entendez rien à l'économie politique.
 ][
 Je suis, etc.
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(11eme) lettre.
 pp. 238-271.
 ][

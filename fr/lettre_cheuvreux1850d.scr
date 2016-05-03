@@ -4,8 +4,9 @@
 de mars 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
-(date-tag[Paris, mars 1850. Lundi.])
-(p*[
+(bastiat[
+,(date-tag[Paris, mars 1850. Lundi.])
+,(p*[
 ,(strong[Madame]),
 ][
 Comment voulez-vous guérir ? Votre rhume est la proie de tous ceux à qui il plaît de le faire jaser, et le nombre en est grand.
@@ -19,7 +20,7 @@ Aux premières phases de l’humanité, la force étant le principe dominant, l�
 Vous voyez combien les lettres des pauvres reclus sont dangereuses et indiscrètes. Pardonnez-moi ce bavardage, pour toute réponse je ne demande qu’à être rassuré sur la santé de votre fille.
 ][
 ,(strong[F. Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de ,(LHL), p. 59. ,(XXX)
 ])))

@@ -4,9 +4,10 @@
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Douzième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Le système de la gratuité du crédit se réduit au papier-monnaie.
 ,(--) Quelles conséquences tirer de la comptabilité établie par M. Proudhon?
@@ -19,8 +20,8 @@ c'est la liberté.
 ,(--) Analyse du crédit et de l'intérêt.
 ,(--) Exhortation à M. Proudhon de changer sa bannière.
 ])))
-(date-tag(small[4 février 1850.]))
-(p*[
+,(date-tag(small[4 février 1850.]))
+,(p*[
 Vous venez de rendre à la société un signalé service.
 Jusqu'ici la ,(emph[gratuité du crédit]) était demeurée enveloppée de nuages philosophiques,
 métaphysiques,
@@ -830,7 +831,8 @@ mais analogue
 ]),
 et je trouve dans Say (,(cite-title[Commentaires sur Storch])) ces lignes remarquables:
 ])
-(blockquote*[
+
+,(blockquote*[
 Cette idée ingénieuse ne laisse qu'une question non résolue.
 Qui devra jouir de l'intérêt de cette somme considérable mise dans la circulation?
 Serait-ce le Gouvernement?
@@ -850,7 +852,8 @@ de rendre hautement ,(emph[profitable au public])
 l'économie qui en résulterait;
 mais je ne suis pas appelé à développer ici ce nouvel ordre d'idées.
 ])
-(p*[
+
+,(p*[
 Puisque c'est le ,(emph[public]) qui paye en détail ces intérêts,
 c'est au ,(emph[public]) d'en profiter.
 Certes,
@@ -1053,8 +1056,9 @@ Apostasie?
 ils ne feront pas celle-là,
 encore qu'elle soit plus digne que toutes les autres
 de flatter l'orgueil d'un noble c,(oe)ur.
-]
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
 (with-footer
 (p*[
 Extrait de l',(EO1863),
@@ -1065,4 +1069,4 @@ Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
 Numérisé par ,(GregB),
 relu et mis en hypertexte par ,(fguerinet)
 pour ,(Bastiat.org).
-]))))
+])))

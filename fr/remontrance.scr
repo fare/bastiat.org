@@ -4,8 +4,9 @@
 
 (document :title "Remontrance"
 	:author (author-FB)
-(date-tag[Auch, le 30 août 1847.])
-(p*[
+(bastiat[
+,(date-tag[Auch, le 30 août 1847.])
+,(p*[
 ,(strong[Mes chers collaborateurs]), 
 ][
 Quand la fatigue ou le défaut de véhicules me retient dans une ville, je fais ce que tout voyageur consciencieux doit faire, je visite les monuments, les églises, les promenades et les musées.
@@ -14,8 +15,8 @@ Aujourd’hui je suis allé voir la statue érigée à M. d’Étigny, intendan
 ][
 M. d’Étigny est représenté tenant un rouleau de papier à la main droite et un autre sous le bras gauche. Il est naturel de penser que l’un de ces rouleaux est le plan du réseau de routes dont il a doté le pays. Mais à quoi peut faire allusion le second rouleau ? À force de frotter mes yeux et mon binocle, j’ai cru y lire le mot ,(strong[Remontrance]). Pensant que le statuaire, dans un esprit de satire, ou plutôt pour donner aux hommes une salutaire leçon, avait voulu perpétuer le souvenir de l’opposition que ce pays avait faite à la création des routes, j’ai couru aux archives de la bibliothèque, et j’y ai découvert le document auquel l’artiste a sans doute voulu faire allusion. Il est en patois du pays ; j’en donne ici la traduction fidèle, pour l’édification du ,(cite-title[Moniteur industriel]) et du comité protectionniste. Hélas ! ils n’ont rien inventé. Leurs doctrines florissaient ici il y a près d’un siècle.])
 
-(subtitle[Remontrance.])
-(p*[« ,(strong[Monseigneur]),]
+,(subtitle[Remontrance.])
+,(p*[« ,(strong[Monseigneur]),]
 [
 « Les bourgeois et manants de la généralité d’Auch ont entendu parler du projet que vous auriez conçu d’ouvrir, dans toutes les directions, des voies de communications. Ils viennent, les yeux remplis de larmes, vous prier de bien examiner la triste position où vous allez les réduire.
 ][
@@ -28,7 +29,7 @@ M. d’Étigny est représenté tenant un rouleau de papier à la main droite e
 « Monseigneur, nous ne sommes point des théoriciens, des hommes à principes ; nous n’avons pas de prétention au génie. Mais nous parlons le langage du bon sens. Si vous ouvrez notre pays à toutes les rivalités extérieures, si vous facilitez ainsi l’,(emph[invasion]) sur nos marchés du blé de la Garonne, du vin de Bordeaux, du lin du Béarn, de la laine des Landes, des bœufs des Pyrénées, nous voyons clair comme le jour comment s’exportera notre numéraire, comment s’éteindra notre travail, comment se tarira la source des salaires, comment se perdra la valeur de nos propriétés. — Et quant aux compensations que vous nous promettez, elles sont, permettez-nous de le dire, fort problématiques ; il faut se creuser la tête pour les apercevoir.
 ][
 « Nous osons donc espérer que vous laisserez la généralité d’Auch dans l’heureux isolement où elle est ; car, si nous succombons dans cette lutte contre des rêveurs, qui veulent fonder la facilité du commerce, nous prévoyons bien que nos fils auront à soutenir une autre lutte contre d’autres rêveurs qui voudront fonder aussi la liberté du commerce. »
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,
 ,(cite-title[Remontrance]),

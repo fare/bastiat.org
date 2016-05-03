@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "L’Assemblée nationale"
 	:author (author-FB)
-(date-tag[N° 1 du ,(cite-title[Jacques Bonhomme]), du 11 au 15 juin 1848.])
-(p*[
+(bastiat[
+,(date-tag[N° 1 du ,(cite-title[Jacques Bonhomme]), du 11 au 15 juin 1848.])
+,(p*[
 — Maître Jacques, que pensez-vous de l’Assemblée nationale ?
 ][
 — Je la crois excellente, bien intentionnée, passionnée pour le bien. Elle est peuple, elle aime le peuple, elle le voudrait heureux et libre. Elle fait honneur au ,(emph[suffrage universel]).
@@ -17,7 +18,7 @@
 — Que faut-il donc que fasse l’Assemblée ?
 ][
 — Trois choses : pourvoir à l’urgence, faire la Constitution, et s’en aller.
-])
+])])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),

@@ -4,12 +4,13 @@
 	- par Frédéric Bastiat")
 (document :title "Propriété et Spoliation"
           :author (author-FB)
-(subtitle[Première Lettre,(footnote*[
+(bastiat[
+,(subtitle[Première Lettre,(footnote*[
 Elle parut dans le ,(cite-title[Journal des Débats]),
 n° du 24 juillet 1848. ,(NdEEO)
 ])])
-(date-tag[Juillet 1848.])
-(p*[
+,(date-tag[Juillet 1848.])
+,(p*[
 L'assemblée nationale est saisie d'une question immense,
 dont la solution intéresse au plus haut degré
 la prospérité et le repos de la France.
@@ -302,8 +303,10 @@ et à apaiser les prétentions de toutes les écoles économistes, socialistes e
 Voy. à la fin de cet opuscule, la réclamation que provoqua cette première lettre
 de la part de M. Considérant, et la réponse de F. Bastiat. ,(NdEEO)
 ])])
-(subtitle [Deuxième lettre.])
-(p*[
+
+
+,(subtitle [Deuxième lettre.])
+,(p*[
 Quelle inflexible puissance que celle de la Logique!
 ][
 De rudes conquérants se partagent une île;
@@ -587,8 +590,10 @@ se décompose ainsi:
 Pourquoi tous les économistes de l',(emph[école anglaise]) croient-ils
 que ce dernier élément s'est furtivement introduit dans la valeur du blé?
 ])
-(subtitle[Troisième lettre.])
-(p*[
+
+
+,(subtitle[Troisième lettre.])
+,(p*[
 ,(emph[Les services s'échangent contre des services]).
 Je suis obligé de me faire violence
 pour résister à la tentation de montrer
@@ -923,8 +928,9 @@ elle n'est, comme toutes les autres, que la ,(emph[propriété d'un travail]).
 ][
 Il me reste à déduire quelques conséquences de cette doctrine.
 ])
-(subtitle[Quatrième lettre.])
-(p*[
+
+,(subtitle[Quatrième lettre.])
+,(p*[
 Les physiocrates disaient:
 La terre seule est productive.
 ][
@@ -1347,8 +1353,9 @@ elles sont imputables au principe de la Spoliation.
 ][
 C'est ce qui me reste à démontrer.
 ])
-(subtitle[Cinquième lettre.])
-(p*[
+
+,(subtitle[Cinquième lettre.])
+,(p*[
 Non, les économistes ne pensent pas, comme on le leur reproche,
 que nous soyons dans le meilleur des mondes.
 Ils ne ferment ni leurs yeux aux plaies de la société,
@@ -1724,10 +1731,11 @@ les priviléges, les monopoles, les restrictions, les emprunts publics,
 les fraudes commerciales, les impôts excessifs, et, en dernier lieu,
 la guerre au capital et l'absurde prétention de chacun de vivre et se développer aux dépens de tous.
 ])
-(subtitle(sc[Réclamation de M. Considérant et réponse de F. Bastiat]))
-(subtitle[Publiées par le ,(cite-title[Journal des Débats]),
+
+,(subtitle(sc[Réclamation de M. Considérant et réponse de F. Bastiat]))
+,(subtitle[Publiées par le ,(cite-title[Journal des Débats]),
                    dans son n° du 28 juillet 1848.])
-(p*[
+,(p*[
 Monsieur,
 ][
 Dans les discussions graves dont la question sociale va être l'objet,
@@ -2084,7 +2092,7 @@ C'est ce que je voudrais m'efforcer de démontrer,
 autant que cela se peut faire dans les colonnes d'un journal.
 ][
 ,(sc[F. Bastiat]).
-])
+])])
 (with-footer
 (p*[
 Extrait de l',(EO1863), tome IV, pp. 394-441.
