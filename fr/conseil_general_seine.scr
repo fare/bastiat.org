@@ -4,8 +4,9 @@
 
 (document :title "A MM. les membres du Conseil général de la Seine"
 	:author (author-FB)
-(date-tag[,(cite-title[Libre-Échange]) du 14 novembre 1847.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Libre-Échange]) du 14 novembre 1847.])
+,(p*[
 ,(strong[Messieurs]),
 ][
 Pour vous décider à persister dans la réserve où vous avez cru devoir vous renfermer l’année dernière, l’Association qui ne veut pas que les échanges soient libres vous a présenté quelques considérations auxquelles nous espérons que vous nous permettrez de répondre.
@@ -57,7 +58,7 @@ Enfin, Messieurs, on vous fait observer que le ,(cite-title[Siècle]), le ,(cite
 Et en prononçant, rappelez-vous que les délibérations du Conseil général de la Seine ne sont pas vouées à l’obscurité et à l’oubli. C’est une grave responsabilité que celle de parler au nom du foyer des lumières, des réformes et du progrès, et nous espérons bien qu’il ne sortira pas du sein de votre assemblée un vœu rétrograde qu’avant longtemps Paris aurait à désavouer.
 ][
 Agréez, Messieurs, etc.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[A MM. les membres du Conseil général de la Seine]),

@@ -4,9 +4,10 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
-(date-tag[Paris, 28 février 1848.])
-(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[Paris, 28 février 1848.])
+,(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
+,(p*[
 Le bien général, la plus grande somme possible de bonheur pour tous, le soulagement immédiat des classes souffrantes, — c’est l’objet de tous les désirs, de tous les vœux, de toutes les préoccupations.
 ][
 C’est aussi la plus grande garantie de l’ordre. Les hommes ne sont jamais mieux disposés à s’entr’aider que lorsqu’ils ne souffrent pas, ou du moins quand ils ne peuvent accuser personne, ni surtout le gouvernement, de ces souffrances inséparables de l’imperfection humaine.
@@ -31,7 +32,7 @@ On voit que si le système de l’abondance puisée par l’État dans le peuple
 ][
 Nous sommes convaincus, nous, que ce système est mauvais et qu’il en est un autre pour faire le bien du peuple, ou plutôt pour que le peuple fasse son propre bien : celui-ci consiste à donner à l’État tout ce qu’il faut pour qu’il remplisse bien sa mission essentielle, qui est de garantir la sécurité extérieure et intérieure, le respect des personnes et des propriétés, le libre exercice des facultés, la répression des crimes, délits et fraudes, — et après avoir libéralement donné cela à l’État, ,(emph[à garder le reste pour soi]).][
 Puisque enfin le peuple est appelé à exercer son droit, qui est de choisir entre ces deux systèmes, nous les comparerons souvent devant lui, sous tous leurs aspects politiques, moraux, financiers — et économiques.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Article dans La République française]),

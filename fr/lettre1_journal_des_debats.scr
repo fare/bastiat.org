@@ -4,8 +4,9 @@
 
 (document :title "Première lettre au rédacteur du Journal des débats"
 	:author (author-FB)
-(date-tag[,(cite-title[Journal des Débats]) du 2 mai 1846.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Journal des Débats]) du 2 mai 1846.])
+,(p*[
 ,(strong[Monsieur]),
 ][
 Me permettrez-vous d’ajouter quelque chose aux judicieuses observations que vous faites, dans votre feuille du 28 avril, au sujet des modifications que l’Angleterre fait subir à ses tarifs ?
@@ -65,9 +66,9 @@ Reste à savoir si cet emploi forcé est plus avantageux que l’autre. Je me ga
 Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un second article.
 ][
 Agréez, etc.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Première lettre au rédacteur du Journal des débats]),
 pp. 96-99.
 ])))

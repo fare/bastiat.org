@@ -4,9 +4,10 @@
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatrième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Circonscription logique du débat.
 ,(--) Dire oui et non n'est pas répondre.
@@ -15,8 +16,8 @@ Circonscription logique du débat.
 démontrée par des exemples.
 ,(--) Considérations sur le loisir.
 ])))
-(date-tag(small[26 novembre 1849.]))
-(p*[
+,(date-tag(small[26 novembre 1849.]))
+,(p*[
 Monsieur, vous me posez sept questions.
 Veuillez vous rappeler qu'entre nous il ne s'agit en ce moment que d'une seule:
 ,(emph[L'intérêt du capital est-il légitime?])
@@ -515,7 +516,7 @@ d'obtenir pour son travail une meilleure récompense.
 Ainsi nous arrivons à ce que la rétribution du charpentier
 se décompose comme il suit:
 ])
-(simple-table
+,(simple-table
 '(([1°] [3] [fr.] [,(--)] [] [c,]
    [salaire brut.])
   ([2°] []  []    [,(--)] [25] []
@@ -527,7 +528,7 @@ se décompose comme il suit:
   ([]   (br) []   []      (br) [] []) ; trait de séparation (?)
   ([  ] [3] [fr.] [,(--)] [75] [c.]
    [(total),(XXX [la mention N'est pas dans l'original])])))
-(p*[
+,(p*[
 Où peut-on voir là injustice, iniquité, spoliation?
 Que signifient toutes ces clameurs
 si absurdement élevées contre notre charpentier devenu capitaliste?
@@ -741,10 +742,11 @@ est légitime;
 ,(--) je me ferai un plaisir et un devoir de discuter loyalement avec vous
 les autres questions que vous me posez.
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(4eme) lettre. pp. 133-145.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

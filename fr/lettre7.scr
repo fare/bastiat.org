@@ -4,9 +4,10 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) septième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Reproches.
 ,(--) Les commissionnaires de roulage et les chemins de fer.
@@ -18,8 +19,8 @@ Reproches.
 ,(--) La force seule maintient l'intérêt.
 ,(--) Deux apologues.
 ])))
-(date-tag(small[17 décembre 1849.]))
-(p*[
+,(date-tag(small[17 décembre 1849.]))
+,(p*[
 Notre discussion n'avance pas, et la faute en est à vous seul.
 Par votre refus systématique de vous placer sur le terrain où je vous appelle,
 et votre obstination à m'attirer sur le vôtre,
@@ -1507,7 +1508,8 @@ et que l'enfer m'engloutisse!
 ][
 Il meurt désespéré.
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

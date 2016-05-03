@@ -6,7 +6,8 @@
 	:author (author-FB)
 (subtitle [À l'occasion de son écrit intitulé: ,(br)
 	     ,(cite-title[Du droit au travail])])
-(p*
+(bastiat[
+,(p*
 (strong[Monsieur
 ,(footnote*[
 Extrait du ,(cite-title[Journal des Économistes]), n° de février 1845
@@ -950,7 +951,8 @@ aura été l'instrument de cette grande et paisible révolution.
 Oh! puisse vous être réservée une semblable destinée,
 dont vous êtes si digne!
 ]
-(blockquote[Mugron (Landes)... janvier 1845]))
+(blockquote[Mugron (Landes)... janvier 1845])
+)])
 (with-footer (p*[
 Extrait de l',(EO1863), tome I, pp. 406-428.
 ][

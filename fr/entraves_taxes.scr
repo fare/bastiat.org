@@ -4,8 +4,9 @@
 
 (document :title "Entraves et taxes"
 	:author (author-FB)
-(date-tag[N° du 6 mars 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[N° du 6 mars 1848 de la ,(cite-title[République française]).])
+,(p*[
 Pendant qu’un mouvement peut-être irrésistible nous emporte vers l’extension indéfinie des attributions de l’État, vers la multiplication des taxes ainsi que des entraves et des vexations qui en sont le cortège inévitable, une évolution en sens contraire, très prononcée, se manifeste en Angleterre et entraînera peut-être la chute du ministère.
 ][
 Là, chaque expérience, chaque effort pour réaliser le bien par l’intervention de l’État, aboutit à une déception. Bientôt on s’aperçoit que le bien ne se réalise pas et que l’expérience ne laisse après elle qu’une chose : ,(emph[la taxe]).
@@ -23,7 +24,7 @@ Ainsi il se trouve que les Anglais payent, non pour recevoir des avantages, mais
 La conclusion que nos voisins paraissent vouloir tirer de ce phénomène est celle-ci : Que le peuple, après avoir payé à l’administration ce qui est nécessaire pour garantir sa sécurité, ,(emph[garde le reste pour lui]).
 ][
 C’est une pensée bien simple, mais elle fera le tour du monde.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Entraves et taxes]),

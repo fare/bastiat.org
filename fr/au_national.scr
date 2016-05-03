@@ -4,9 +4,10 @@
 
 (document :title "A M. le rédacteur en chef du National"
 	:author (author-FB)
-(subtitle[I])
-(date-tag[,(cite-title[Courrier français]) du 10 novembre 1846.])
-(p*[
+(bastiat[
+,(subtitle[I])
+,(date-tag[,(cite-title[Courrier français]) du 10 novembre 1846.])
+,(p*[
 ,(strong[Monsieur]),
 ][
 Si j’ai bien compris la portée des nouvelles attaques que vous dirigez contre le libre-échange (,(cite-title[National]) des 6 et 7 novembre), elles peuvent se résumer ainsi :
@@ -62,10 +63,11 @@ Au milieu de ces grands événements, les plus imposants, après la Révolution 
 Pour moi, j’appartiens de toutes les manières à la démocratie ; mais je ne la comprends qu’autant qu’elle inscrit sincèrement sur sa bannière : ,(emph[Paix et liberté]). Si je voyais les hommes qui se posent comme les meneurs du parti populaire, comme les défenseurs exclusifs des classes laborieuses, si je les voyais, dis-je, repousser systématiquement tout ce qui tend à développer nos libertés et à faire régner la paix parmi les hommes, je ne me croirais pas tenu de les suivre ; mais au contraire de les avertir qu’ils s’égarent et qu’ils ont choisi un terrain qui manquera sous leurs pieds.
 ][
 Il me reste à prouver que la pesanteur et la mauvaise répartition des taxes antérieures ne justifie pas le régime protecteur.])
-(hrule)
-(subtitle[II])
-(date-tag[,(cite-title[Courrier français]) du 11 novembre 1846.])
-(p*[
+
+,(hrule)
+,(subtitle[II])
+,(date-tag[,(cite-title[Courrier français]) du 11 novembre 1846.])
+,(p*[
 ,(strong[Monsieur]),
 ][
 J’ai essayé de combattre les raisons politiques que vous alléguez à l’appui du régime restrictif. Il me semble que ces raisons sont sans valeur, surtout au point de vue démocratique. Rejeter le bien-être des travailleurs de peur qu’il n’éloigne les chances de la guerre, repousser la liberté parce qu’elle est favorable à la paix, c’est un double machiavélisme dont la démocratie française devrait laisser l’odieux à l’aristocratie britannique. Il est étrange de voir deux éléments sociaux si divers fraterniser aujourd’hui au nom d’une si déplorable doctrine. Pour moi, quand je suis les événements du jour, quand je vois deux grandes nations prêtes à se précipiter, ou plutôt à être précipitées l’une sur l’autre par des intrigues de cour, quand je comprends que, dans ce moment même, notre sang et nos trésors dépendent d’une visite de lord Normanby, bien loin de dire : « Arrière la liberté du commerce qui pourrait prévenir la guerre ! » je m’écrie de toutes mes forces : « Hommes de la classe laborieuse, travaillons plus que jamais à réaliser la liberté du commerce, la plus précieuse des libertés, puisqu’il est en sa puissance d’arracher le gouvernement du monde aux dangereuses mains de la diplomatie ! »
@@ -123,7 +125,7 @@ L’illusion à cet égard provient de ce que, comparant sans cesse le peuple ta
 Il y avait, aux environs de Paris, un hospice pour les aveugles. Ils travaillaient les uns pour les autres et ne faisaient des échanges qu’entre eux. Leur pitance était chétive, car ils étaient condamnés à exécuter des travaux bien difficiles et bien longs pour des aveugles. Le directeur de l’établissement leur donna enfin la liberté d’acheter et de vendre au dehors. Leur bien-être s’en augmenta progressivement, non pas jusqu’à égaler celui d’hommes clairvoyants, mais du moins jusqu’à dépasser de beaucoup ce qu’il était du temps de la restriction.
 ][
 ,(inlatin[P. S.]) Le ,(cite-title[National]) dit aujourd’hui qu’il n’a pas trop su démêler à qui et à quoi je réponds. Me serais-je mépris sur le sens et la portée de son opposition au libre-échange ? Veut-il, comme nous, que l’entrelacement des intérêts unisse les classes laborieuses de tous les pays de manière à déjouer les calculs pervers ou imprudents de l’aristocratie ? Oh ! Dieu le veuille ! Je serais heureux de reconnaître mon erreur, et de voir avec nous, au moins sous ce rapport, un journal qui s’adresse à des hommes sincères et convaincus.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[A M. le rédacteur en chef du National]),

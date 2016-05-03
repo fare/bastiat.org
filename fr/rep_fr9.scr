@@ -4,9 +4,10 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
-(date-tag[Paris, 29 février 1848.])
-(date-tag[N° du ,(1er) mars 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[Paris, 29 février 1848.])
+,(date-tag[N° du ,(1er) mars 1848 de la ,(cite-title[République française]).])
+,(p*[
 Un journal n’atteint pas à une immense circulation sans répondre à quelques idées dominantes dans le pays. Nous reconnaissons que la ,(cite-title[Presse]) a toujours su parler aux instincts du moment, et même qu’elle a souvent donné de bons conseils ; c’est ainsi qu’elle a pu semer, sur le sol de la patrie, avec le bon grain, beaucoup d’ivraie qu’il faudra bien du temps pour extirper.
 ][
 Depuis la révolution, il faut le dire, son attitude est franche et décidée.
@@ -42,7 +43,7 @@ D’autant que quelques écoles, fort en faveur aujourd’hui, aspirent à élar
 D’autres disent : Il faut bien que l’État dépense beaucoup pour faire vivre beaucoup de monde.
 ][
 Est-il donc si difficile de voir que, lorsque le gouvernement dépense l’argent des contribuables, les contribuables ne le dépensent pas ?
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Article dans La République française]),

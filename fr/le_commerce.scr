@@ -4,8 +4,9 @@
 
 (document :title "Qu’est-ce que le commerce ?"
 	:author (author-FB)
-(date-tag[,(cite-title[Courrier français]) du ,(1er) avril 1846.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Courrier français]) du ,(1er) avril 1846.])
+,(p*[
 L’argument qu’il est de mode aujourd’hui d’opposer à la liberté des échanges a été porté à la tribune nationale par M. Corne. C’est celui-ci :
 ][
 « Attendons, afin de pouvoir lutter avec l’étranger ,(emph[à armes égales]), que nous ayons autant que lui de capitaux, de fer, de houille, de routes, et alors nous affronterons les périls de la concurrence. »
@@ -46,7 +47,7 @@ Vous parlez de la classe ouvrière. Et quel est le langage que tient le monopole
 Mais alors, dit à chacun le monopoleur : « Pain, bois, viande, laine, je te forcerai de l’acheter à ma boutique, ainsi que ta truelle, ta hache et ton rabot. J’ai même fait une loi pour que tu n’en obtiennes que le moins possible en échange de ton labeur. »
 ][
 Et puis il ajoute : « ,(emph[Tu n’es pas libre, — mais que l’égalité te console !]) »
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Qu’est-ce que le commerce ?]),

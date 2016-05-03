@@ -4,8 +4,9 @@
 
 (document :title "Liberté d’enseignement"
 	:author (author-FB)
-(date-tag[N° du 4 mars 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[N° du 4 mars 1848 de la ,(cite-title[République française]).])
+,(p*[
 Tous les actes du gouvernement provisoire relatifs à l’instruction publique sont conçus, nous sommes fâchés de le dire, dans un esprit qui suppose que la France a renoncé à la liberté de l’enseignement.
 ][
 On a pu s’en convaincre par la circulaire du ministre aux recteurs.
@@ -23,9 +24,9 @@ Il y a en France une école nombreuse qui pense que, sauf répression légale de
 Qu’ils aient été tenus éloignés des fonctions publiques rétribuées, cela n’est pas surprenant. Ils s’en sont tenus éloignés eux-mêmes, et ils le devaient, puisque leur idéal est de réduire les places à ce qui est indispensable pour maintenir l’ordre, la sécurité intérieure et extérieure, le respect des personnes et des propriétés, et, tout au plus, la création de quelques travaux d’utilité nationale.
 ][
 Mais que l’on dédaigne systématiquement leur témoignage dans de simples enquêtes, c’est un symptôme significatif ; il prouve que le torrent nous entraîne vers le développement illimité de l’action gouvernementale, vers la compression indéfinie de la vraie liberté.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Liberté d’enseignement]),
 pp. 210-235.
 ])))

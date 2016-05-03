@@ -4,8 +4,9 @@
 
 (document :title "Curée des places"
 	:author (author-FB)
-(date-tag[N° du 5 mars 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[N° du 5 mars 1848 de la ,(cite-title[République française]).])
+,(p*[
 Tous les journaux, sans exception, s’élèvent contre la curée des places dont l’Hôtel de ville donne le triste spectacle. Cette rapacité effrénée nous indigne et nous dégoûte plus que personne.
 ][
 Mais enfin il faut voir la cause du mal, et il serait puéril d’exiger que le cœur humain fût fait autrement qu’il n’a plu à la nature de le faire.
@@ -33,9 +34,9 @@ Mais, en mettant de côté ces considérations, n’est-il pas évident que la ,
 N’est-il pas évident que faire exercer l’industrie par l’État, c’est soustraire du travail à l’activité honnête pour le livrer à l’intrigue paresseuse et nonchalante ?
 ][
 N’est-il pas évident, enfin, que c’est rendre permanent et progressif ce désordre dont l’Hôtel de ville est témoin et qui attriste les membres du gouvernement provisoire ?
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Curée des places]),
 pp. 210-235.
 ])))

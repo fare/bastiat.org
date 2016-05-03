@@ -4,14 +4,15 @@
 
 (document :title "Aux négociants du Havre"
 	:author (author-FB)
-(p*[
+(bastiat[
+,(p*[
 Trois lettres en faveur du libre-échange,
 écrites et publiées au Havre, pendant le séjour de l’auteur.])
 
-(subtitle[I])
+,(subtitle[I])
 
-(date-tag[,(cite-title[Mémorial bordelais]) du 22 octobre 1846.])
-(p*[
+,(date-tag[,(cite-title[Mémorial bordelais]) du 22 octobre 1846.])
+,(p*[
 À l’aspect de cette ville où se concentre une grande partie du commerce français, où tant de puissantes facultés combinent des opérations lointaines et des entreprises dont la hardiesse nous étonne, je me disais : — Tout ce travail, toute cette activité, tout ce génie n’ont qu’un objet : accomplir les échanges de la nation française avec les autres nations, et je me demandais : — Ces échanges ne seraient-ils pas plus nombreux, s’ils étaient libres ? En d’autres termes, ces quais, ces magasins, ce port, ces bassins, ne seraient-ils pas bientôt trop étroits pour l’activité havraise s’exerçant en liberté ?
 ][
 J’avoue que l’affirmative est si évidente à mes yeux, qu’elle ne me paraît pas susceptible de démonstration. Vous savez que les géomètres n’ont jamais pu prouver cet axiome sur lequel repose toute leur science : ,(emph[Le plus court chemin d’un point à un autre, c’est la ligne droite.]) De même, dire que les échanges seraient plus nombreux s’ils étaient libres, c’est énoncer une proposition plus claire que toutes celles qu’on pourrait faire servir à la démontrer.
@@ -52,10 +53,11 @@ Ainsi l’obstacle qui est devant nous, c’est une théorie, une ,(emph[génér
 Dieu me préserve de repousser pour cela le concours des praticiens, des hommes instruits par l’expérience et le maniement des affaires. C’est leur collaboration surtout que nous recherchons, que nous sollicitons comme la plus précieuse et la plus efficace. Ce sont les négociants qui, ayant non seulement compris mais senti les inconvénients des restrictions douanières, avec lesquelles ils sont perpétuellement en lutte, peuvent les exposer dans ce langage simple, clair et précis, qui force la conviction. Enfin, quand l’opinion sera préparée et qu’il sera temps d’en venir à l’exécution, ce sont encore eux qui fourniront aux hommes d’État les indications les plus sûres.
 ][
 Puisqu’on a pu dire de la vertu même : ,(emph[Pas trop n’en faut]), permettez-moi de ne pas faire trop d’économie politique en un jour et de renvoyer à demain l’examen des deux autres objections.])
-(hrule)
-(subtitle[II])
-(date-tag[,(cite-title[Mémorial bordelais]) du 23 octobre 1846.])
-(p*[
+
+,(hrule)
+,(subtitle[II])
+,(date-tag[,(cite-title[Mémorial bordelais]) du 23 octobre 1846.])
+,(p*[
 On nous reproche de n’avoir pas concentré tous nos efforts contre le monopole du fer. On a la bonté de supposer que, par cette adroite tactique, nous n’aurions pas alarmé l’ensemble des intérêts privilégiés ; et enfin on nous cite l’exemple de l’Angleterre.
 ][
 D’abord nous avons attaqué le monopole du fer et nous l’attaquons tous les jours. Si même la réforme devait frapper isolément un produit (ce qui n’est pas mon avis), une foule de raisons nous justifieraient de réclamer, pour commencer, la libre entrée du fer et, par suite, l’abaissement du prix du combustible.
@@ -84,10 +86,11 @@ Combattons-la dans toutes ses formes, démasquons-la sous tous ses déguisements
 ][
 Mais je m’aperçois que le fer a envahi ces colonnes et votre attention. Que voulez-vous ? Il est un peu enfant gâté, habitué aux préséances et même aux envahissements. Il faut donc que la navigation attende à demain. Elle reste dans son rôle.
 ])
-(hrule)
-(subtitle[III])
-(date-tag[,(cite-title[Mémorial bordelais]) du 25 octobre 1846.])
-(p*[
+
+,(hrule)
+,(subtitle[III])
+,(date-tag[,(cite-title[Mémorial bordelais]) du 25 octobre 1846.])
+,(p*[
 Me voici arrivé à une question difficile et brûlante, dit-on, celle de la situation qui serait faite, sous l’empire de la liberté du commerce, à notre marine marchande.
 ][
 J’ose prédire, disent les uns, que les armateurs n’entreront dans le mouvement antiprotectioniste que sous la réserve des priviléges accordés au pavillon national.
@@ -155,9 +158,9 @@ Mais ce que je voudrais qui fût bien entendu, pour l’honneur des théories (c
 J’aurais bien d’autres considérations à présenter, mais l’espace et le temps m’obligent à me résumer. Armateurs du Havre, de Bordeaux, de Marseille et de Nantes, si vous êtes partisans de la liberté du commerce, votre position particulière ne doit pas vous empêcher d’apporter à notre Association le tribut de vos lumières et de votre influence. Votre rôle vis-à-vis de la nation est tout tracé.
 ][
 Demandez, pour vous comme pour tout le monde, le ,(emph[droit commun]), c’est-à-dire la liberté. Qu’au grand air de la liberté vous puissiez ou non vous soutenir, demandez toujours la liberté, car vous n’avez pas le droit d’exiger que la nation y renonce pour votre avantage, et vous vous placeriez dans une position fausse et indigne de vous, si vous le demandiez. — Que si la nation, pour sa défense et dans l’intérêt commun, a besoin de votre concours, de vos sacrifices, stipulez des conditions dans lesquelles votre patriotisme ait une généreuse part ; mais surtout gardez-vous de laisser donner à l’indemnité qui vous sera offerte le nom de ,(emph[protection]) ou ,(emph[privilége]), car les fausses dénominations font les fausses idées ; que votre cri soit : Liberté !… et compensation pour ceux qu’on en prive. — Nos adversaires ne viendront point alors vous jeter de prétendues contradictions à la face.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Aux négociants du Havre]),
 pp. 131-143.
 ])))

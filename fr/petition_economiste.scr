@@ -4,8 +4,9 @@
 
 (document :title "Pétition d’un économiste"
 	:author (author-FB)
-(date-tag[N° du 2 mars 1848 de la ,(cite-title[République française]).])
-(p*[
+(bastiat[
+,(date-tag[N° du 2 mars 1848 de la ,(cite-title[République française]).])
+,(p*[
 On signe en ce moment une pétition qui demande :
 ][
 ,(emph[Un ministère du progrès ou de l’organisation du travail.]) À ce sujet la ,(cite-title[Démocratie pacifique]) s’exprime ainsi :
@@ -45,9 +46,9 @@ Cette petite communauté étant intéressée à n’attaquer personne, et toutes
 Les citoyens s’attacheront au pays, parce qu’ils ne s’y sentiront jamais froissés et restreints par les agents du pouvoir ; et à ses lois, parce qu’ils reconnaîtront qu’elles sont fondées sur la justice.
 ][
 Convaincu que ce système, qui a au moins le mérite d’être simple et de respecter la dignité humaine, est d’autant meilleur qu’il s’applique à un territoire plus étendu et à une population plus nombreuse, parce que c’est là qu’on obtient le plus de sécurité avec le moins d’impôts ; nous en concluons que s’il réussit sur une commune il réussira sur la nation.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Pétition d’un économiste]),
 pp. 210-235.
 ])))

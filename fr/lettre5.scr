@@ -4,9 +4,10 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Cinquième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Réclamation sur les limites du débat.
 ,(--) L'intérêt a été mais n'est plus légitime.
@@ -15,8 +16,8 @@ Réclamation sur les limites du débat.
 ,(--) Impéritie et mauvais vouloir de la société.
 ,(--) C'est de la circulation du ,(strong[capital]), et non du ,(strong[capital]) même, que naît le progrès de la richesse sociale.
 ])))
-(date-tag(small[3 décembre 1849.]))
-(p*[
+,(date-tag(small[3 décembre 1849.]))
+,(p*[
 Monsieur, votre dernière lettre se termine par ces paroles:
 ][
 ,(XXX [je n'ai pas repris le même système des guillemets])
@@ -563,10 +564,11 @@ hors de là,
 nous ferons retentir plus fort que jamais notre cri de guerre:
 ,(emph[La propriété c'est le vol!])
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1863),
+Extrait de l’,(EO1863),
 tome V, ,(Gratuite_credit), ,(5eme) lettre. pp. 146-156.
 ][
 Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).

@@ -4,8 +4,9 @@
 
 (document :title "Lettre au Moniteur indutriel"
 	:author (author-FB)
-(date-tag [,(cite-title[Courrier français]) du 29 août 1846.])
-(p*[
+(bastiat[
+,(date-tag [,(cite-title[Courrier français]) du 29 août 1846.])
+,(p*[
 ,(strong[Monsieur]),
 ][
 Nous avons toujours dit ceci : « La protection fait supporter au consommateur ,(emph[national]) des pertes hors de toute proportion avec les profits qu’elle procure au producteur ,(emph[national]).
@@ -57,9 +58,9 @@ J’en conviens ; mais convenez aussi que s’il en eût fait un emploi un peu 
 Enfin, et c’est ceci qui importe, si le public n’eût pas perdu ,(emph[un milliard]) dans l’affaire, il se serait donné du bien-être et des satisfactions jusqu’à concurrence de cette somme, et toutes les industries en eussent été encouragées d’autant.
 ][
 Croyez, Monsieur, que ,(emph[deux pertes ne font pas un profit]), et agréez mes civilités.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome VII,
+Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Lettre au Moniteur indutriel]),
 pp. 128-130.
 ])))

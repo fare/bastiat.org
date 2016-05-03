@@ -4,9 +4,10 @@
 
 (document :title "Lettre de Victor Considerant et réponse de Bastiat"
 	:author (author-FB)
-(subtitle[Victor Considerant à M. Frédéric Bastiat, rédacteur en chef du ,(cite-title[Libre-Échange]).])
-(date-tag[Paris, 25 décembre 1847])
-(p*[
+(bastiat[
+,(subtitle[Victor Considerant à M. Frédéric Bastiat, rédacteur en chef du ,(cite-title[Libre-Échange]).])
+,(date-tag[Paris, 25 décembre 1847])
+,(p*[
 ,(strong[Monsieur]),
 ][
 Voulez-vous me permettre de répondre quelques mots à l’,(emph[Avis charitable à la]) ,(strong[Démocratie pacifique]), que vous avez inséré dans votre numéro du 12 de ce mois ?
@@ -45,9 +46,10 @@ Agréez, etc.
 ][
 ,(strong[Victor Considerant]).
 ])
-(hrule)
-(subtitle[Frédéric Bastiat à M. Considerant, directeur de la ,(cite-title[Démocratie pacifique]), membre du Conseil général de la Seine.])
-(p*[
+
+,(hrule)
+,(subtitle[Frédéric Bastiat à M. Considerant, directeur de la ,(cite-title[Démocratie pacifique]), membre du Conseil général de la Seine.])
+,(p*[
 ,(strong[Monsieur]),
 ][
 Il est certainement à désirer que les hommes sincères, qui ont le malheur de différer d’opinions sur un sujet grave, n’altèrent pas la lettre ou l’esprit de ce qu’il leur convient de citer ; sans quoi le public assiste à un tournoi d’esprit au lieu de prendre une part utile à une discussion qui l’intéresse.
@@ -93,7 +95,7 @@ Oui, comme vous, et par d’autres motifs, il me tarde qu’on nous prenne notre
 Veuillez recevoir, monsieur, l’expression de mes sentiments de considération et d’estime.
 ][
 ,(strong[Frédéric Bastiat]).
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,
 ,(cite-title[Lettre de Victor Considerant et réponse de Bastiat]),

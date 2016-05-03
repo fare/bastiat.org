@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title "Discours au cercle de la librairie"
 	:author (author-FB)
-(date-tag[16 septembre 1847.,(footnote*
+(bastiat[
+,(date-tag[16 septembre 1847.,(footnote*
 [Ce discours diffère de ceux qui précèdent
 	en ce qu'il traite plus particulièrement
 		de ,(emph[propriété littéraire]),(pv)
@@ -33,7 +34,7 @@ de ,(q[propriété]) qu'utilisent habilement auteurs et éditeurs
 pour faire valoir ce qui n'est que protectionnisme.
 (,(emph[note de Faré, 2000-07-09]))])
 ])
-(p*[
+,(p*[
 Messieurs,
 ][
 Un de mes amis, qui assistait dernièrement
@@ -629,8 +630,8 @@ je désire que la France conserve et étende de plus en plus
 	le principe de notre Révolution.
 (Applaudissements.)
 ])
-(subtitle[Lettre.])
-(date-tag[
+,(subtitle[Lettre.])
+,(date-tag[
 Mugron, le 9 septembre 1847.,(footnote*
 [Cette lettre est une redite, en condensé,
 	de certains des arguments du discours ci-dessus.
@@ -654,7 +655,7 @@ les dossiers préparés par
 		sont-ils des privilèges ou des droits
 		de la propriété intellectuelle ?])])]) (1999).
 (,(emph[note de Faré, 2001-04-30]))])])
-(apply* p* (map* q (list
+,(apply* p* (map* q (list
 [
 Monsieur,
 ][
@@ -762,13 +763,15 @@ je suis heureux de comprendre
 il coïncide dans ses effets généraux avec la justice
 	et la plus grand bien universel:
 aussi je m'associe de tout c,(oe)ur à votre utile entreprise.
-])))
-(tag :p :align 'left (q[Votre bien dévoué.]))
-(tag :p :align 'right (q[Frédéric Bastiat,]))
-(tag :p :align 'right (q[Rédacteur en chef du ,(cite-title[Libre-Échange]).]))
+])
+))
+,(tag :p :align 'left (q[Votre bien dévoué.]))
+,(tag :p :align 'right (q[Frédéric Bastiat,]))
+,(tag :p :align 'right (q[Rédacteur en chef du ,(cite-title[Libre-Échange]).]))
+])
 (with-footer
 (p*[
-Extrait de l',(EO1854),
+Extrait de l’,(EO1854),
 Volume II, Texte n° 49, pp. 328-342.
 ][
 Numérisé par Véga Rideau,

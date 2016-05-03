@@ -4,8 +4,9 @@
 
 (document :title "Du chemin de fer de Bordeaux à Bayonne"
 	:author (author-FB)
-(date-tag[,(cite-title[Mémorial bordelais]), du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Mémorial bordelais]), du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
+,(p*[
 ,(small[Lettre adressée à une commission de la Chambre des députés.])
 ][
 ,(strong[Messieurs]),
@@ -71,7 +72,7 @@ Oui, la population a diminué dans une partie de la Chalosse, et j’ajouterai, 
 Et maintenant ce sont nos souffrances qu’on invoque contre nous ! Et pour nous refuser des débouchés, on nous parle des douleurs que le défaut des débouchés nous inflige ! — Encore une fois, je ne me prononce pas sur le tracé du chemin de fer. Je sais que les intérêts de la Chalosse pèseront bien peu dans la balance. Mais, si je ne m’attends pas à ce qu’ils soient un argument pour le ,(emph[tracé des vallées]), je ne veux pas qu’on en fasse un argument contre, parce qu’un tel argument est aussi faux que cruel. N’est-ce point, en effet, une impitoyable cruauté que de venir nous dire : « Vous avez un beau ciel, un sol fécond, de fraîches vallées, des coteaux sur lesquels le travail de vos pères avait répandu l’aisance et le bonheur. Grâce à ces dons de la nature et de l’art, votre population était aussi pressée que dans nos plus riches provinces. Les débouchés vous ont fait défaut tout à coup, et la détresse a succédé à l’aisance, les larmes aux chants de joie. Or, pouvant disposer d’un immense débouché, nous ne savions encore si nous en doterions le désert ou si nous le mettrions à votre portée. Vos souffrances nous décident. Elles sont bien avérées ; le pouvoir lui-même les a constatées, par ces expressions laconiques : ,(emph[ce n’est rien, c’est la population qui diminue]). Il n’y a rien à répliquer à cela ; et nous voilà bien décidés à rejeter le chemin dans la grande Lande. Cette détermination, en ruinant toutes vos villes, accélérera la dépopulation qui vous attriste ; mais la ,(emph[chance]) de peupler le désert ne vaut-elle pas bien la ,(emph[certitude]) de dépeupler les vallées ? »
 ][
 Ah ! Messieurs, donnez au chemin la direction que, dans votre sagesse, vous jugerez la plus utile à l’intérêt général ; mais si vous en frustrez notre vallée, ne dites pas dans vos ,(emph[considérants]), comme on vous y engage, que ce sont ses malheurs, ,(emph[et ses malheurs seuls]), qui vous déterminent.
-])
+])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[Du chemin de fer de Bordeaux à Bayonne]),

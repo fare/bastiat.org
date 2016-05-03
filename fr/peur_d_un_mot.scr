@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "La peur d'un mot"
 	:author (author-FB)
-(subtitle [I])
-(p*[
+(bastiat[
+,(subtitle [I])
+,(p*[
 ,(strong[Un Économiste]).
 Il est assez singulier que le Français,
 si plein de courage et même de témérité,
@@ -207,8 +208,8 @@ Me donne sa pratique qui veut, et je donne la mienne à qui il me plaît.
 ][
 ,(--) C'est ce qu'il nous reste à voir.
 ])
-(subtitle [II])
-(p*[
+,(subtitle [II])
+,(p*[
 ,(--) Ah! monsieur l'éconi... l'écona... l'éconé...
 comment diable s'appelle votre métier?
 ][
@@ -404,7 +405,7 @@ V. la fin du
 n° 41, pages 244 et 245, ,(XXX :bof-ref "impot_du_sel")
 et le ,(bof-ref "recettes_protectionnistes" [n° 53]), page 359.
 ,(NdEEO)]).
-])
+])])
 (with-footer (p*[
 Extrait de l',(EO1863), tome II, ,(cite-title[Libre-Échange]),
 texte 59, ,(cite-title[La peur d'un mot]), pp. 392-400.

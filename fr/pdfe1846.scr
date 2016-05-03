@@ -4,10 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Profession de foi électorale de 1846"
 	:author (author-FB)
-(strong[Mugron, le ,(1er) juillet 1846.]) ; (XXX)
-(subtitle[À Messieurs les électeurs
+(bastiat[
+,(date-tag[Mugron, le ,(1er) juillet 1846.])
+,(subtitle[À Messieurs les électeurs
 	de l'arrondissement de Saint-Séver (1846).])
-(p*[
+,(p*[
 Mes chers Compatriotes,
 ][
 Encouragé par quelques-uns d'entre vous
@@ -879,10 +880,10 @@ Si vous les reportez sur un autre,
 	je servirai mon pays
 		dans une sphère moins élevée
 		et plus proportionnée à mes forces.
-])
+])])
 (with-footer
 (p*[
-Extrait de l',(EO1863), tome I, pp. 461-480.
+Extrait de l’,(EO1863), tome I, pp. 461-480.
 ][
 Ce texte a été numérisé par ,(cvincent),
 relu, édité, et annoté par ,(FRR) pour ,(Bastiat.org).

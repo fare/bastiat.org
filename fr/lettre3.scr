@@ -4,9 +4,10 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Troisième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	P. J. Proudhon à F. Bastiat.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Désaveu de la distinction introduite par M. Chevé.
 ,(--) Adhésion à la formule:
@@ -16,8 +17,8 @@ le prêt est un service; un service est un valeur.
 Nécessité d'organiser le crédit gratuit.
 ,(--) Interrogations catégoriques.
 ])))
-(date-tag(small[19 novembre 1849.]))
-(p*[
+,(date-tag(small[19 novembre 1849.]))
+,(p*[
 La révolution de Février a pour but,
 dans l'ordre politique et dans l'ordre économique,
 de fonder la liberté absolue de l'homme et du citoyen.
@@ -585,7 +586,8 @@ permettez-nous de croire qu'après en avoir pris lecture,
 vous reconnaîtrez qu'il y a dans le socialisme du dix-neuvième siècle
 quelque chose qui dépasse la porté de votre vielle économie politique.
 ])
-(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(tag :p :align 'right (strong[P. J. Proudhon.]))
+])
 (with-footer
 (p*[
 Extrait de l',(EO1863),

@@ -4,9 +4,10 @@
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
 	:author (author-FB)
-(tag :p :align 'center (font :size "+3" (strong[
+(bastiat[
+,(tag :p :align 'center (font :size "+3" (strong[
 	F. Bastiat à P. J. Proudhon.])))
-(tag :p :align 'center
+,(tag :p :align 'center
 (font :size "+2" (strong[
 Est-il vrai que prêter n'est plus aujourd'hui rendre un service?
 ,(--) La société est-elle un capitaliste tenu de prêter gratuitement?
@@ -15,8 +16,8 @@ Est-il vrai que prêter n'est plus aujourd'hui rendre un service?
 ,(--) Ce qui est vrai, c'est que l'intérêt dispense
 d'une rémunération plus onéreuse.
 ])))
-(date-tag(small[10 décembre 1849.]))
-(p*[
+,(date-tag(small[10 décembre 1849.]))
+,(p*[
 Je veux rester sur mon terrain;
 vous voulez m'attirer sur le vôtre, et vous me dites:
 Qu'êtes-vous venu faire à la ,(cite-title[Voix du Peuple]),
@@ -664,11 +665,17 @@ votre dialectique invincible,
 je ne puis mesurer le bien qu'il vous eût été donné
 de répandre sur notre chère patrie et sur l'humanité.
 ])
-(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+
+])
+
 ;(p* (nbsp))
 ;(tag :p :align 'right (strong[l'emprunteur.]))
 ;(tag :p :align 'right (strong[le prêteur.]))
 ;XXX
+
+
+
 (with-footer
 (p*[
 Extrait de l',(EO1863),
