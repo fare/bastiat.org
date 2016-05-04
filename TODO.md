@@ -47,3 +47,4 @@ Trucs de Laura, par Laura et pour Laura
   * Trouver une police qui permette les chiffres en bas-de-casse.
     [Faré: j'ai une fonction subscriptize si ça aide, et peux faire d'autres fonctions du genre,
 	si tu as les bons caractères dans unicode.]
+    [Je ne parle pas des chiffres en subscript: cherche "chiffres bas de casse" dans Google Images =P]
