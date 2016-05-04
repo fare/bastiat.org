@@ -1,0 +1,105 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Journal des Économistes")
+(document :title "Journal des Économistes"
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "Novembre 1844" "tarifs_francais_anglais.html" "De l’influence des tarifs français et anglais sur l’avenir des deux peuples"
+	"1° La France évolue vers le protectionnisme. 2° L’Angleterre se dirige vers la liberté du commerce. 3° Conséquences de ces deux faits au point de vue de la prospérité, de la sécurité et de la moralité des deux peuples.")
+
+	,(article "Février 1845" "lettre_lamartine_1.html" "Un économiste à M. de Lamartine, à l’occasion de son écrit intitulé : <em>Du droit au travail</em>"
+	""
+	)
+
+	,(article "Avril 1845" "abondance_disette.html" "Sophismes économiques"
+	"Contient les trois premiers chapitres de la première série des <em>Sophismes</em> : <a href='abondance_disette.html'>Abondance, disette</a>, <a href='obstacle_cause.html'>Obstacle, cause</a> et <a href='effort_resultat.html'>Effort, résultat</a>.")
+
+	,(article "Juin 1845" "introduction_cobden_ligue.html#" "Situation économique de la Grande-Bretagne. — Réformes financières. — Agitation pour la liberté commerciale"
+	"Il s’agit d’un extrait de l’introduction à <em><a href='cobden_ligue.html'>Cobden et la Ligue</a></em>.")
+
+	,(article "Juillet 1845" "egaliser_les_conditions_de_production.html" "Sophismes économiques (suite)"
+	"Contient les chapitres 4 et 5 de la première série des <em>Sophismes</em> : <a href='egaliser_les_conditions_de_production.html'>Égaliser les conditions de production</a> et <a href='greves_de_taxes.html'>Nos produits sont grevés de taxes</a>.")
+
+	,(article "Août 1845" "commerce_vins.html" "De l’avenir du commerce des vins entre la France et la Grande-Bretagne"
+	"")
+
+	,(article "Octobre 1845" "balance_du_commerce_sophisme.html" "Sophismes économiques (suite)"
+	"Contient les chapitres 6 à 11 de la première série des <em>Sophismes</em> : <a href='balance_du_commerce_sophisme.html'>Balance du commerce</a>, <a href='petition.html'>Pétition des fabricants de chandelles <em>etc.</em></a>, <a href='droits_differentiels.html'>Droits différentiels</a>, <a href='immense_decouverte.html'>Immense découverte !!!</a>, <a href='reciprocite.html'>Réciprocité, Stulta et Puera</a> (numérotés séparément dans le <em>JdE</em>), <a href='prix_absolus.html'>Prix absolus</a>.")
+
+	,(article "Décembre 1845" "question_conseils_generaux.html" "Sur les questions soumises aux conseils généraux de l’agriculture, des manufactures et du commerce"
+	"L’article du <em>JdE</em> est divisé en neuf points dont les huit premiers sont traités par Joseph Garnier, et le neuvième par Bastiat.")
+
+	,(article "” ”" "ligues_anglaise_allemande.html" "La ligue anglaise et la ligue allemande"
+	"")
+
+	,(article "Janvier 1846" "le_vol_a_la_prime.html" "Le vol à la prime"
+	"Il s’agit du chapitre 9 de la seconde série des <em>Sophismes</em>.")
+
+	,(article "Février 1846" "metayage.html" "Considérations sur le métayage"
+	"Article absent de l’édition Guillaumin en 7 volumes.")
+
+	,(article "Avril 1846" "traite_belge.html" "La tribune et la presse, à propos du traité belge"
+	"")
+
+	,(article "Mai 1846" "de_la_concurrence.html" "De la concurrence"
+	"Article absent de l’édition Guillaumin en 7 volumes.")
+
+	,(article "” ”" "sel_poste_douane.html" "Le sel, la poste, la douane"
+	"Il s’agit du chapitre 12 de la seconde série des <em>Sophismes</em>.")
+
+	,(article "Juin 1846" "livre_vidal.html" "De la répartition des richesses, par M. Vidal"
+	"")
+
+	,(article "Octobre 1846" "de_la_population.html" "De la population"
+	"")
+
+	,(article "” ”" "lettre_lamartine_2.html" "A M. de Lamartine"
+	"Sur la liberté du commerce des grains.")
+
+	,(article "Décembre 1846" "influence_protection_agriculture.html" "De l’influence du régime protecteur sur la situation de l’agriculture en France"
+	"")
+
+	,(article "Janvier 1847" "organisation_et_liberte.html" "Organisation et liberté"
+	"")
+
+	,(article "Août 1847" "reponse_atelier.html" "Les trois chefs d’accusation du journal l’<em>Atelier</em>"
+	"")
+
+	,(article "Janvier 1848" "organisation.html" "Organisation naturelle. Organisation artificielle"
+	"Il s’agit du premier chapitre des <em>Harmonies économiques</em>.")
+
+	,(article "Mars 1848" "funestes_illusions.html" "Funestes illusions. Les citoyens font vivre l’État. — L’État ne peut faire vivre les citoyens."
+	"")
+
+	,(article "15 mai 1848" "propriete_et_loi.html" "Propriété et loi"
+	"")
+
+	,(article "15 juin 1848" "justice_fraternite.html" "Justice et fraternité"
+	"")
+
+	,(article "1<sup>er</sup> septembre 1848" "besoins_efforts_satisfactions.html" "Harmonies économiques"
+	"Il s’agit du chapitre 2 et d’une partie du chapitre 3 des <em>Harmonies économiques</em>.")
+
+	,(article "15 décembre 1848" "des_besoins_de_l_homme.html" "Harmonies économiques"
+	"Il s’agit de la fin du chapitre 3 des <em>Harmonies économiques</em>.")
+
+	,(article "15 avril 1849" "maudit_argent.html" "Maudit argent !"
+	"")
+
+	,(article "15 mai 1850" "spoliation_et_loi" "A MM. les protectionnistes du Conseil général des manufactures"
+	"Article publié par la suite sous le titre <em>Spoliation et loi</em>.")
+
+	,(article "15 janvier 1851" "lettre_journal_economistes.html" "Lettre (au sujet des <em>Harmonies économiques</em>)"
+	"Lettre datée du 8 décembre 1850, écrite en réponse à une accusation de plagiat par Henry Charles Carey. Le <em>post-scriptum</em>, adressé à la rédaction du <em>JdE</em>, n’a pas été publié.")
+])
+
+])
+
+(footer[
+
+])
+)

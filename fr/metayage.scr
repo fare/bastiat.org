@@ -1,0 +1,36 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Considérations sur le métayage
+	- par Frédéric Bastiat")
+(document :title "Considérations sur le métayage"
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Journal des Économistes]), n° de février 1846.])
+
+,(p*[! Copie inachevée !])
+
+,(p*[
+En soumettant au public le plan d’un établissement agricole susceptible de devenir une pépinière de bons métayers, je dois avouer que, comme tous les faiseurs de projets, j’éprouve pour le mien une sorte de faiblesse paternelle. Il me semble que peu d’institutions analogues se combinent aussi bien avec les circonstances de notre département, et recèlent, à peu de frais, des germes aussi féconds de bien-être, d’instruction et de moralité.
+][
+J’ai autrefois critiqué le ,(emph[métayage]), je suis aujourd’hui persuadé que si mes observations étaient justes, elles étaient incomplètes. J’avais vu le bien qu’il empêche ; je n’avais pas vu le bien qu’il fait ou peut faire. Mon but étant de le perfectionner, d’en bannir les inconvénients qu’il présente, il doit m’être permis de me livrer à quelques considérations générales sur ce ,(emph[mode d’association du travail et du capital]), ce qui me forcera de toucher à quelques-uns des problèmes les plus élevés de l’économie sociale.
+]
+(nbsp)
+[
+Cet ensemble de travaux par lesquels la race humaine pourvoit à sa subsistance, a subi de grandes révolutions. D’abord, l’homme s’est borné à poursuivre les animaux sauvages. — Ensuite, en réduisant à la domesticité certaines espèces, il a pu utiliser et tourner indirectement à son profit les graminées qui naissent spontanément sur le sol. — Plus tard, il a soumis la terre à la charrue, et paraît s’être fixé, depuis les temps les plus reculés jusqu’à nos jours, à ce système agricole qu’on nomme ,(emph[triennal]). — Enfin l’agriculture entre aujourd’hui dans sa quatrième phase : la ,(emph[culture alterne]).
+][
+On conçoit aisément les immenses progrès que chacun de ces pas a fait faire à l’humanité. Il fallait des étendues immenses pour procurer aux peuples chasseurs une chétive subsistance. — Les peuples pasteurs ont pu comparativement croître en nombre et en richesse. — Un progrès analogue a dû suivre la conversion des pâturages en labourages. — Enfin, il n’est pas douteux que la culture alterne ne prépare à l’humanité un nouveau progrès qui la mettra autant au-dessus de sa condition actuelle que le système triennal l’a élevée au-dessus de la vie pastorale, ou celle-ci au-dessus de la vie sauvage.
+][
+Lorsque l’on considère combien chacun de ces systèmes contient naturellement en germe le système suivant, on est surpris du temps qu’il a fallu à l’humanité pour les parcourir. Entre poursuivre le gibier pour le dévorer à mesure qu’on s’en empare, et élever autour de soi les espèces les moins sauvages pour obtenir, à mesure des besoins, leur lait, leur viande, leur laine, leur cuir, il semble qu’il n’y ait qu’un pas, et ce pas paraît encore infranchissable aux tribus américaines. Entre élever des animaux autour d’une tente, au moyen de certaines graminées excrues spontanément sur le sol, et favoriser par la culture la végétation de ces graminées, on croirait la transition facile, et elle n’a jamais été essayée par les peuples nomades de la Tartarie et de l’Arabie. Enfin, le système triennal coïncida sans doute avec les premiers essais de culture. En effet, les hommes durent d’abord ensemencer sur la terre défrichée du blé pour eux et de l’avoine pour le bétail ; mais ne tardant pas à s’apercevoir que la succession de ces récoltes favorisait l’envahissement des plantes parasites, la jachère ne dut pas tarder à s’introduire et à compléter la rotation. De là, à atteindre le même but par la culture successive de plantes de diverses familles, on pourrait croire qu’il n’y a, du moins sous le rapport de la difficulté, qu’un insensible progrès à accomplir, et nous voyons ce progrès paraître au-dessus de la puissance des peuples les plus éclairés, les plus avancés en civilisation, malgré les efforts des savants et les encouragements du pouvoir.
+][
+Quoi qu’il en soit, cette dernière révolution s’accomplit, bien qu’avec lenteur, nous nos yeux. Pour savoir la part que le métayage peut y prendre, il importe de comparer la ,(emph[culture triennale]) à la ,(emph[culture alterne]).
+][
+Dans la ,(emph[culture triennale]), chaque domaine est divisé en deux parties, l’une consacrée aux prairies permanentes et à la dépaissance des bestiaux, l’autre soumise à la charrue. C’est à cette division fondamentale que fait allusion le mot de Sully : « Patur et labur (,(emph[sic])) sont les deux mamelles nourricières de l’État », mot dans lequel on a si mal à propos voulu reconnaître un vague pressentiment de la culture alterne.
+][
+La terre cultivée présente elle-même trois divisions ou trois soles livrées alternativement à la production de deux céréales, et à une année de repos, ou plus exactement de travaux de nettoyage et de préparation.
+][
+Il est aujourd’hui de mode de honnir ce vieux système, comme le triste produit de l’ignorance. De bons esprits en ont porté un jugement bien différent : « On ne me soupçonnera pas, je pense, dit M. de Dombasle, d’être un trop zélé partisan de ce système de culture. Cependant il m’est impossible de dissimuler qu’il me semble parfaitement approprié aux circonstances de l’époque pour laquelle il a été conçu, époque à laquelle l’agriculture ne pouvait s’exercer que sur un petit nombre de plantes, prises dans la famille des céréales. Si l’on considère l’extrême simplicité de ce système, l’harmonie avec laquelle toutes les parties qui le composent se lient entre elles, l’égale répartition qu’il offre, sur toutes les parties de l’année, des travaux qu’il exige ; la facilité avec laquelle il s’applique aux sols de toutes natures, placés sous des climats très-variés, on jugera peut-être qu’il eût été impossible alors d’imaginer une solution plus complète du problème suivant : Trouver le système de culture le plus convenable pour fournir les objets indispensables de consommation à une nation pauvre, peu avancée dans la civilisation et peu peuplée, quoique déjà trop nombreuse pour que le système pastoral puisse suffire à sa subsistance ; le système qui exige le moins de main-d’œuvre possible, qui puisse le plus facilement être mis en pratique par des hommes manquant d’instruction et d’avances pécuniaires.
+])])
+(footer[
+	,(jde "le_vol_a_la_prime.html" "traite_belge.html")
+])
+)

@@ -447,6 +447,7 @@
 
 ;Classe "bastiat" pour enrober le texte de Bastiat
 (defun bastiat (&rest r) (div :class "bastiat" r))
+(defun sommaire (&rest r) (div :class "sommaire" r))
 
 ;style épistolaire
 (defun cher (&rest r) (p :class "cher" r))
@@ -532,4 +533,29 @@
   acobden
   (prec suiv)
   (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv)
+)
+
+(defun
+  jde
+  (prec suiv)
+  (arbor "Journal des Économistes" "journaux_jde.html" prec suiv)
+)
+
+;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
+
+(defun
+  article
+  (date adresse titre about)
+  (%raw (strcat
+    "<li class='article'><div class='date'>"
+    date
+    "</div> <div class='titre'>"
+    "<a href='"
+    adresse
+    "'>"
+    titre
+    "</a></div> <div class='about'>"
+    about
+    "</div></li>"
+  ))
 )

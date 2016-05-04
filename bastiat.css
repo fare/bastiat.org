@@ -2,9 +2,100 @@ body {
 	margin: 0 0 3.5em 0; padding: 0;
 }
 
+a:link, a:visited {text-decoration: none; color: #33f;}
+a:hover {color: #950;}
+
 sup {line-height: 0;}
 
+/*Polices de caractères*/
 
+@font-face{
+    font-family:'berenis';
+    src:url("fonts/BerenisADFNo2-Book.otf");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'berenis';
+    src:url("fonts/BerenisADFNo2-Italic.otf");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'accanthis';
+    src:url("fonts/AccanthisADFStd-Regular.otf");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'accanthis';
+    src:url("fonts/AccanthisADFStd-Italic.otf");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'accanthis';
+    src:url("fonts/AccanthisADFStd-Bold.otf");
+    font-weight:bold;font-style:normal;
+}
+@font-face{
+    font-family:'accanthis';
+    src:url("fonts/AccanthisADFStd-BoldItalic.otf");
+    font-weight:bold;font-style:italic;
+}
+
+
+/*Styles des sommaires*/
+
+.sommaire {
+	margin: 3em auto;
+	width: 90%;
+	font-size: 1.05em;
+	font-family: "accanthis";
+}
+
+.sommaire ul {
+	margin: auto;
+	list-style-type: none;
+	width: 75%;
+}
+
+.sommaire ul li.article {
+	margin: 1em 0;
+}
+
+.sommaire ul .date {
+	font-weight: bold;
+	display: inline-block;
+	min-width: 17%;
+	text-align: right;
+	padding: 0 0em 0 0;
+	height: 1.5em;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.sommaire ul .titre {
+	font-style: italic;
+	text-align: justify;
+	display: inline-block;
+	width: 80%;
+	float: right;
+	margin-top: -0.2em;
+	vertical-align: middle;
+	font-size: large;
+}
+.titre em {font-style: normal;}
+
+.titre a:link, .titre a:visited {color: green;}
+.titre a:hover {color: #c00;}
+
+.sommaire ul .about {
+	display: block;
+	text-align: justify;
+	clear: both;
+	padding: 0.4em 2em 1em 4em;
+}
+
+/*Styles du texte de Bastiat*/
 
 .bastiat {
 	width: 60%;
@@ -30,23 +121,28 @@ sup {line-height: 0;}
 	margin: 0.4em 0;
 }
 
+table.petit {
+	width: 110%; 
+	border-spacing: 1em;
+	position: relative; left: -2.5em;
+}
+
+table.petit p, table.petit blockquote {
+	font-size:1em;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+table.petit td {
+	width: 50%;
+	padding: 0;
+	vertical-align: top;}
+
 span[style="font-variant: small-caps"] {
 	font-size: large;
 	letter-spacing: 1pt;
 }
 
-/*Polices de caractères*/
-
-@font-face{
-    font-family:'berenis';
-    src:url("fonts/BerenisADFNo2-Book.otf");
-    font-weight:normal;font-style:normal;
-}
-@font-face{
-    font-family:'berenis';
-    src:url("fonts/BerenisADFNo2-Italic.otf");
-    font-weight:normal;font-style:italic;
-}
 
 /*Style épistolaire*/
 
@@ -58,6 +154,12 @@ span[style="font-variant: small-caps"] {
 
 .politesse {
 	padding-left: 3em;
+}
+
+.sign {
+	text-align: right;
+	font-variant: small-caps;
+	font-size: large;
 }
 
 /*Poésie*/
@@ -96,30 +198,28 @@ span[style="font-variant: small-caps"] {
 
 .footer {
 	position: fixed; bottom: 0; left: 0;
-	width: 100%; height: 3em;
-	background: white;
+	width: 100%; height: 3em; min-height:1cm;
 	text-align: center;
-	background-color: #777; /*#9c0;*/
+	background-color: rgba(255,255,255,0.8); /*#9c0;*/
 }
 
 .footer a:visited, .footer a:link {
 	text-decoration: none;
-	color: #303;
+	color: #444;
 	font-weight: bold;
 	padding: 0;
 }
 
 
 .footer a:hover {
-	text-shadow: 0 0 1em #fff;
-	color: #ccf;
+	color: #7a0;
 }
 
 .footer .arbor {
-	float:left;
+	float:left; display: block;
 	height: 100%;
 	position: relative;
-	width: 10em;
+	min-width: 12em; width: auto; max-width: 20em; white-space: nowrap;
 	vertical-align: middle;
 }
 

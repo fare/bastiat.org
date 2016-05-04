@@ -4,8 +4,9 @@
 
 (document :title "Organisation et liberté"
 	:author (author-FB)
-(date-tag[,(cite-title[Journal des Économistes]), janvier 1847.])
-(p*[
+(bastiat[
+,(date-tag[,(cite-title[Journal des Économistes]), janvier 1847.])
+,(p*[
 Je n’ai pas l’intention de répondre aux cinq lettres que M. Vidal a insérées dans la ,(cite-title[Presse]), et qui formeraient un volume. J’attendais une conclusion que j’aurais essayé d’apprécier. Malheureusement M. Vidal ne conclut pas.
 ][
 Je me trompe, M. Vidal conclut, et voici comme :
@@ -138,9 +139,14 @@ M. Blanc harangue ainsi son vaste auditoire :
 Ainsi la filiation est bien tracée : Rousseau pour point de départ, le Comité de salut public et les hommes vaincus au 9 thermidor pour modèles.
 ][
 À la bonne heure. Mais, quand on nous accuse, d’un côté, de ne pas descendre de Rousseau, on ne devrait pas nous reprocher, de l’autre, d’être sous l’influence de cet audacieux sophiste.
+])])
+
+(footer[
+	,(jde "influence_protection_agriculture.html" "reponse_atelier.html")
 ])
+
 (with-footer (p*[
-Extrait de l',(EO1863), tome II,
+Extrait de l’,(EO1863), tome II,
 ,(cite-title[Organisation et liberté]),
 pp. 147-158.
 ])))

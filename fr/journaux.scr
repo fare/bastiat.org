@@ -53,7 +53,7 @@
 (alphabet)
 
 (tag :a :name "je")
-(p*[Journal des Économistes]
+(p*[,(ref :url "journaux_jde.html" [Journal des Économistes])]
 [Simples allusions : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
 
 (tag :a :name "m")

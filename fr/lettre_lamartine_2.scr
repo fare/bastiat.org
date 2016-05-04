@@ -1,0 +1,141 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Seconde lettre à M. de Lamartine, par Frédéric Bastiat")
+
+(document :title "Seconde lettre à M. de Lamartine"
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Journal des Économistes]), n° d’octobre 1846.])
+,(cher[Monsieur,])
+,(p*[
+Je viens de lire l’article qui, du ,(cite-title[Bien public]) de Mâcon, a passé dans tous les journaux de Paris ; vous dire combien cette lecture m’a surpris et affligé, cela me serait impossible.
+][
+Il n’est donc que trop vrai ! aucun homme sur la terre n’a le privilége de l’universalité intellectuelle. Il est même des facultés qui s’excluent, et il semble que l’aride domaine de l’économie politique vous soit d’autant plus interdit que vous possédez à un plus haut degré l’art enchanteur, l’art suprême
+,(verses[De penser par image ainsi que la nature.])
+][
+Cet art, ou plutôt ce don divin, pourquoi l’avez-vous dédaigné ? Ah ! vous avez beau dire, vous aviez reçu la plus noble, la plus sainte mission du génie dans ce monde. Qu’est devenu le temps où, esprits froids et méthodiques, natures encore alourdies par le poids de la matérialité, nous nous arrachions avec délices à ce monde positif pour suivre votre vol dans la vague et poétique région de l’idéal ? où vous nous révéliez des pensées, des doutes, des désirs et des espérances qui sommeillaient au fond de nos cœurs, comme ces échos qui dorment dans les grottes de nos Pyrénées tant que la voix du pâtre ne les réveille pas ? Qui nous ouvrira désormais d’autres horizons et d’autres cieux, séjours adorés qu’habitent l’Amour, la Prière et l’Harmonie ? Combien de fois, quand vous me faisiez entrevoir ces vaporeuses demeures, je me suis écrié : « Non, ce monde n’embrasse pas tout ; la science ne révèle pas tout ; il y a l’infini au delà, et l’imagination a aussi son flambeau ! »
+][
+Oh ! qu’elle est grande la puissance du poëte ! — Je ne dis pas du versificateur ; de quelle licence, de quelle tyrannie n’est-il pas le complaisant ? — Mais cette perception du Beau et du Sublime dans la nature, cette forte émotion éveillée dans l’âme à leur aspect, ce don de les revêtir d’un mélodieux langage pour y faire participer le vulgaire, voilà la Poésie. — Et à mesure qu’elle s’élève, elle se détache de tout élément égoïste ou pervers ; car elle ne saurait partager les tristes infirmités d’ici-bas sans perdre le sentiment de ce qui est vrai, aimable et grand, c’est-à-dire sans cesser d’être Poésie. Tant que le rayon divin luit sur son front, ses tendances sont de purifier, spiritualiser, illuminer, élever. Aussi le vrai poëte, qu’il en ait ou non la conscience, est par excellence l’ami de l’humanité, le défenseur de ses droits, de ses priviléges et de ses progrès. Que dis-je ? nul plus que lui ne l’entraîne dans la voie du progrès. N’est-ce pas lui en effet qui, en offrant sans cesse à notre contemplation la perfection idéale, nous la fait aimer, verse dans nos cœurs l’aspiration vers le Beau, et élève ainsi le diapason de notre âme jusqu’à ce qu’elle se sente en consonnance avec les types éternels dont il compose sa céleste harmonie ?
+][
+Cette mission sublime, vous la remplissiez dans toute son étendue, et voilà pourquoi, Lamartine, vous étiez notre poëte de prédilection. Et maintenant, serons-nous condamnés à être les témoins de votre déchéance, à vous voir descendre vivant du haut de votre gloire, et à douter si ces émotions délicieuses, dont vous berciez notre jeunesse, étaient autre chose que de trompeuses illusions ?
+][
+Car voilà qu’ambitionnant la royauté de la science, vous avez abdiqué votre royauté à vous, celle de la poésie. Vous avez voulu faire de la méthode avec l’imagination et de l’analyse avec des figures. Où cela vous a-t-il mené ? à ressusciter l’empirisme économique de la Rome impériale ; à exhumer des théories cent fois condamnées par l’expérience et qu’on croyait ensevelies pour toujours dans les profondeurs de l’oubli. — Au moment de succomber, quand il est naturel, pour me servir d’une expression vulgaire, de se prendre à toutes les branches, le monopole terrien, par l’organe des Bentinck et des Buckingham, n’a pas essayé de demander son salut ou un répit momentané à ces théories vermoulues ; et le monde s’étonnera que ce soit vous, le grand poëte du siècle, qui soyez allé les déterrer on ne sait où, pour les exposer encore une fois, revêtues d’un magnifique langage, à la risée publique.
+][
+Décidément, votre muse s’est faite économiste ; elle ne s’est pas effarouchée de cette bizarre transformation. Un moment j’ai cru que ce caprice allait lui réussir ; c’est quand vous avez dit : « Laissons les capitaux, les industries et les salaires se faire, par la liberté, une justice que nos lois arbitraires ne leur feraient pas. »
+][
+Il me semblait qu’on ne pouvait émettre une pensée si vraie, sous une forme si précise, sans avoir suivi des deux côtés, dans leur long enchaînement, les effets de l’arbitraire et de la liberté. Et je disais à mes graves collègues : Miracle ! triomphe ! le grand poëte est à nous !
+][
+Hélas ! je vois bien que vous deviez à vos puissants et généreux instincts cet éclair de vérité, et je serais tenté de vous demander :
+,(verses[Si, quand vous avez fait ce charmant ,(emph[quoi qu’on die]),]
+[Vous avez bien senti toute son énergie ;])
+car voilà que, d’un trait de plume, vous renversez aujourd’hui vos doctrines économiques de l’an dernier.
+][
+Voyons, avec quelque détail, ce que vous y substituez cette année.])
+
+,(table :class "petit" [
+	,(tr[
+		,(td[,(p*[« La question des blés est une des plus délicates, nous dirons même des plus insolubles qui puissent se présenter aux économistes.])])
+		,(td[
+			,(p*[La question des blés ,(emph[insoluble !]) En ce cas, il ne faut pas plus s’en occuper que de la ,(emph[quadrature du cercle]). Ce mot ne doit donc pas être pris à la rigueur, et vous avez voulu parler :
+			,(verses[D’un problème ,(emph[insolu]), mais non pas ,(emph[insoluble]).])]
+			[Remarquez que dès le début vous vous ôtez à vous-même le droit de raisonner.])
+		])
+	])
+	,(tr[
+		,(td[
+		,(p*[« Elle échappe par sa masse et sa pesanteur aux mains de la science.])
+		])
+		,(td[
+		,(p*[Oui, si 200 et 200 ne font pas 400, aussi bien que 2 et 2 font 4 ; oui, si, par sa masse et sa pesanteur, un quintal échappe aux lois de la gravitation plus qu’une livre.])
+		])
+	])
+	,(tr[
+		,(td[
+		,(p*[« La ,(emph[théorie]) n’y peut évidemment rien. C’est une question ,(emph[expérimentale]).])])
+		,(td[
+		,(p*[Il y a donc incompatibilité entre la théorie et l’expérience ? Je croyais que la théorie n’était que l’expérience méthodiquement exposée.]
+		[Remarquez que c’est déjà la seconde fois que vous vous ôtez le droit de raisonner.])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« La liberté complète du commerce est la vérité générale en matière de produit, de commerce et d’échange.])
+		])
+		,(td[
+			,(p*[Voilà une belle maxime. La tenez-vous de la ,(emph[théorie]) ou de l’expérience ?])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« ,(emph[Laissez faire, laissez passer]), est devenu proverbe chez les écrivains.])
+		])
+		,(td[
+			,(p*[D’après la phrase qui précède, il semble que vous teniez ce proverbe pour vrai. D’après la phrase qui suit, il semble que vous le teniez pour faux.])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« Mais quand il s’agit d’appliquer cette ,(emph[prétendue]) vérité à l’importation, à l’exportation et au commerce des grains, on s’aperçoit ,(emph[à l’instant]) que, si elle n’est pas un ,(emph[mensonge]), elle est du moins un danger suprême, et la théorie recule devant l’application, car le blé c’est la vie du peuple ; or, on ne joue pas avec la vie. Vivre d’abord, voilà la vérité sans réplique. Les théories après le nécessaire, voilà le bon sens.])
+		])
+		,(td[
+			,(p*[
+			Voici, en effet, la ,(emph[vérité générale]) qui n’est plus qu’une ,(emph[prétendue]) vérité. Bientôt elle sera un ,(emph[mensonge]).]
+			[Si la gravitation est la ,(emph[vérité générale]), il importe de s’y conformer toujours, mais surtout quand il s’agit de la vie.]
+			[Je n’aurais pas été surpris que vous n’eussiez pas reconnu la liberté comme la vérité générale du commerce ; mais, cela une fois admis, votre déduction eût dû être, ce me semble, ainsi formulée :]
+			[« Quand il s’agit de l’importation ou de l’exportation de quelque superfluité, on peut reculer devant l’application de la ,(emph[vérité générale]). Mais en fait de blé, il ne faut pas hésiter, car le blé, c’est la vie du peuple. Or, on ne joue pas avec la vie ; vivre d’abord, voilà la vérité sans réplique. Les expériences gouvernementales après le nécessaire, voilà le bon sens. »
+			])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« Or, pourquoi la ,(strong[vérité]) du libre commerce, de la libre exportation et de la libre importation fait-elle trembler et reculer l’économiste ? Le voici, quant à la France, par exemple :])
+		])
+		,(td[
+			,(p*[Ou la liberté est le meilleur moyen d’assurer l’abondance et la bonne distribution des produits, et ce n’est qu’à cette condition qu’elle est la ,(emph[vérité générale]). Dans ce cas, il faut l’appliquer à tout et au blé ,(inlatin[à fortiori]) ; ou il y a des moyens plus sûrs d’accomplir cette œuvre, et alors elle n’est pas la ,(emph[vérité générale]), pas plus pour les joujoux que pour le blé.])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« Premièrement, c’est que le blé étant la vie de tout un peuple, et la passion de vivre étant la plus légitime, et la plus terrible passion des hommes, la moindre faute de commerce, la moindre erreur de calcul dans les importations et les exportations de blé, la moindre inquiétude sérieuse de la population sur la vie, produirait des commotions et des pénuries telles qu’aucun législateur humain et sage ne pourrait y exposer son pays.])
+		])
+		,(td[
+			,(p*[Puisque le blé c’est la vie ; puisque la moindre erreur de calcul dans l’importation ou l’exportation du blé peut produire la pénurie ; puisque aucun législateur sage et humain ne peut prendre sur lui d’y exposer son pays, il faut donc laisser le commerce libre, la liberté étant d’ailleurs la ,(emph[vérité générale]), c’est-à-dire le moyen le moins chanceux d’assurer l’abondance et la bonne distribution. N’est-il pas évident qu’une erreur de calcul, dont les conséquences peuvent être si terribles, est infiniment plus probable de la part d’un ministre, qui n’y a pas un intérêt direct, et qui a bien d’autres choses en tête, que de la part de cent mille négociants qui passent leur vie à faire ces calculs, de l’exactitude desquels dépend leur propre existence ?])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« Secondement, c’est que le blé étant le produit agricole le plus immense, et se comptant par deux ou trois milliards de revenu dans les produits du pays, si l’importation libre des blés étrangers pouvait venir faire en tous temps aux blés français une concurrence sans limites qui serait, quant aux prix, comme ,(emph[dix]) est à ,(emph[trente]), la France cesserait ,(emph[à l’instant]) de produire des blés que nul ne voudrait acheter à leur prix, et trois milliards de revenu national et dix millions de cultivateurs français seraient anéantis du même coup. Que deviendrait le revenu ? que deviendrait l’impôt ? que deviendrait le propriétaire ? que deviendrait le laboureur ? On frémit d’y penser. Ce serait le suicide de la terre française et de la population. Ce remède qu’on nous présente, n’est donc pas un remède, c’est un meurtre.])
+		])
+		,(td[
+			,(p*[Si ce que vous dites de la libre importation est vrai pour le blé, ce doit être vrai, dans une mesure quelconque, pour toute autre chose ; car, monsieur, les négociants font bien venir le blé, quand on le leur permet, de là où il est à meilleur marché qu’en France, mais ils n’ont pas coutume d’agir sur un principe opposé à l’égard des autres produits, et d’aller les acheter cher pour venir les vendre à bas prix. — Donc, la libre importation du fer serait le suicide de nos forges et des ouvriers qu’elles occupent ; la libre importation des tissus serait le suicide de nos fabriques et de la population qu’elles emploient. En un mot, la liberté serait le carnage universel ou, comme vous dites, le meurtre de tous les Français. En ce cas, je ne vois pas bien à quel titre vous l’appelez la ,(emph[vérité générale]). Pour mettre quelque harmonie entre vos prémisses et vos conclusions, il aurait fallu commencer par établir que la liberté est ,(emph[le mensonge général du commerce]). Mais alors vous n’auriez pas eu un pied dans chaque camp, précaution que beaucoup de gens prennent par le temps qui court, mais qui est indigne de vous. J’ose vous le dire, cette tactique pusillanime a fini son temps. Que celui qui ne connaît pas les lois de l’échange les étudie ou se taise, mais qu’il ne croie pas obtenir le double avantage de passer pour un grand esprit et de satisfaire tout le monde, en disant à l’un : « Vous êtes ,(emph[pour]), c’est d’un bon logicien, » et à l’autre : « Vous êtes ,(emph[contre]), c’est d’un bon praticien. » Trop de gens aujourd’hui voient l’inconséquence et la dénoncent.]
+			[Quant à réfuter votre triste tableau de l’agriculture libre, vous vous en êtes chargé vous-même dans le paragraphe suivant.])
+		])
+	])
+	,(tr[
+		,(td[
+			,(p*[« Troisièmement, c’est que le blé étant une des matières les plus encombrantes, il serait ,(emph[physiquement impossible]) au commerce d’importer et de distribuer dans tout l’empire les blés nécessaires à la consommation de la France. Des calculs faits en 1810, année de disette bien plus alarmante que celle-ci, révèlent en chiffres cette triste vérité : que tous les navires marchands de l’Europe, si, par impossible, ils étaient tous consacrés à importer des blés pour la France, ne pourraient en importer que pour une consommation de quinze ou dix-sept jours. Parlez donc de la liberté illimitée du commerce après cela ! »])
+		])
+		,(td[
+			,(p*[Craignez donc la liberté illimitée après cela ! dirai-je à mon tour. Venez donc nous dire que l’étranger vendra son blé sur nos marchés pour une bagatelle, pour presque rien, pour rien peut-être ! Venez donc nous peindre tous les Français mourant de faim, les bras croisés, laissant leurs bœufs ruminer, leurs charrues se rouiller, leurs capitaux oisifs et leur terre en friche, comptant sur des blés étrangers qu’il est ,(emph[physiquement impossible]) d’importer !]
+			[Oh ! bénissons le Ciel de ce que parmi nos 34 millions de compatriotes, il s’en soit trouvé un qui ait prévu tout cela, que ce soit précisément un homme d’État, et qu’il ait su prévenir notre mort à tous, en fixant ce bienheureux ,(inlatin[maximum]) qu’on n’a jamais connu en Suisse et qu’on vient d’abolir en Angleterre.])
+		])
+	])
+])
+
+,(p*[Mais il serait peut-être inconvenant de prolonger cette discussion pied à pied. Je me demande quelquefois comment il est possible que deux esprits arrivent, sur la même question, à des solutions si opposées. Est-ce l’intérêt personnel qui m’aveugle ? non, assurément. Je n’ai d’autres moyens d’existence qu’une terre, et cette terre ne produit que des céréales. Qu’on laisse entrer les céréales étrangères, et je ne crains pas que ma terre perde de sa valeur, je ne crains pas que mes bras restent oisifs. Non, je ne le crains pas, alors même que le blé étranger se vendrait, ainsi que vous le dites, relativement au nôtre, comme ,(emph[dix]) est à ,(emph[trente]), alors même qu’il se donnerait ,(strong[pour rien]) ; car dans cette supposition extrême, ce que le peuple dépense aujourd’hui en pain, il le dépenserait en viande, en beurre, en légumes, en fil, en laine et autres produits agricoles. Ma terre ne serait pas plus sans valeur, parce que chacun aurait gratuitement du pain pour son estomac, qu’elle n’est sans valeur aujourd’hui, parce que chacun a gratuitement de l’air pour ses poumons.
+][
+Et, après tout, quel droit avons-nous, nous propriétaires, sur les estomacs de ceux qui ne le sont pas ? Leur faim est-elle faite pour notre blé, ou notre blé pour leur faim ? Ne renversons pas le monde. ,(emph[Vivre]), c’est le but, cultiver la terre, ce n’est que le moyen ; c’est à nous de subordonner les convenances de notre production à la vie de nos frères, et il ne nous est pas permis de subordonner au contraire leur vie à nos convenances bien ou mal entendues. C’est pour moi une bien douce consolation que la doctrine de la liberté ne me montre qu’harmonie entre ces divers intérêts ; et, avec votre âme, vous devez être bien malheureux, puisque vous ne voyez entre eux qu’une irrémédiable dissonance. Propriétaire, vous invoquez aujourd’hui la ,(emph[générosité]) des possesseurs du sol. Ah ! c’est à leur ,(emph[justice]) qu’il fallait en appeler ! Vous avez écrit sur la charité une page que j’admire comme tout le monde. Mais je l’admirerais bien davantage si je ne la voyais se terminer par cette amère conclusion : Le blé, c’est la vie ; que la loi le maintienne à un ,(emph[maximum]) qui donne de la valeur à nos terres ! — Et quelle est la main qui écrit ces lignes ? C’est la même qui se lèvera à la Chambre pour le ,(emph[maximum]), et qui s’ouvrira ensuite pour recevoir du pauvre l’injuste denier qui en est la conséquence. — Ah ! croyez-moi, ainsi comprise, la charité perd bien de son prestige. Quand on demande l’exclusion du blé étranger pour mieux vendre le sien, on a beau parler de charité, on a beau porter ce mot devant soi comme une bannière, on n’a pas droit à la popularité, au moins à une popularité de bon aloi. Non, on n’y a pas droit, alors même qu’on ferait retentir, devant une population alarmée, de banales déclamations contre les doctrines ,(emph[meurtrières]) des amis de la liberté, contre les ,(emph[fautes]) et les ,(emph[crimes]) du gouvernement et des Chambres, contre la ,(emph[cupidité des spéculaleurs]) et l’,(emph[égoïsme du commerce]). Avant de semer ainsi de dangereuses, et j’ose dire, injustes préventions populaires, il faudrait au moins ne pas venir dire : Que la loi irrite de quelques degrés la faim du peuple par l’exclusion du blé étranger, afin que nous, législateurs-propriétaires, tirions un meilleur parti de notre blé.
+][
+À Dieu ne plaise, monsieur, que je révoque en doute la pureté de vos intentions. Elle éclate dans tous vos écrits. En vous lisant, on sent que vous aimez le peuple. C’est vous, je crois, qui avez le premier employé cette expression : « la vie à bon marché, » qui pourrait être le titre de notre Association du ,(emph[Libre-Échange]) ; car la ,(emph[vie à bon marché]), c’est la vie plus facile, plus douce, moins traversée de fatigues et d’angoisses, plus digne, plus intellectuelle et plus morale. La ,(emph[vie à bon marché]), c’est le résultat que l’échange, et surtout l’échange libre, tend à produire. Assez de monopoleurs cherchent, sur cette question, à égarer le peuple ; chose facile, car tout ,(emph[obstacle]) attirant à lui une portion de travail national, il est aisé de tourner contre le progrès, sous quelque forme qu’il se présente, — Liberté, Inventions, ou Épargnes, — le sentiment des masses. Vous, monsieur, qui savez leur parler, qu’elles écoutent et qu’elles aiment, aidez-nous à les dissuader. Mais ne soyez pas surpris que le zèle contre le monopole nous emporte, quand nous avons à craindre qu’il n’ait trouvé un champion tel que vous.
+])
+,(politesse[Je suis, monsieur, votre dévoué serviteur,])
+,(sign[Frédéric Bastiat.])
+])
+(footer[
+	,(jde "de_la_population.html" "influence_protection_agriculture.html")
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome I,
+,(cite-title[Seconde lettre à M. de Lamartine]),
+pp. 452-460.
+])))

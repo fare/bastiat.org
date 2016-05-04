@@ -659,8 +659,11 @@ pamphlet compris dans le précédent volume.
 ,(NdEEO)
 ]).
 ])])
+(footer[
+	,(jde "maudit_argent.html" "lettre_journal_economistes.html")
+])
 (with-footer
-(p* [Extrait de l',(EO1863), tome V, "Spoliation et loi", pp. 1-15.]
+(p* [Extrait de l’,(EO1863), tome V, "Spoliation et loi", pp. 1-15.]
     [Texte scanné par la ,(BNF),
 	transcrit et relu par ,(krylenko),
 	mis en hypertexte par ,(FRR)
