@@ -31,7 +31,7 @@ Trucs de Laura que Faré a le droit de regarder
   * Dans le même esprit, assigner à chaque fichier une date dans un format standardisé, pour pouvoir faire deux liens "précédent" et "suivant" qui atteignent automatiquement l'article suivant dans l'ordre chronologique, sans avoir à définir la cible des liens à chaque fois.
 
   * Dans personnes.scr, définir une fonction lettre (lettre[b]) qui renvoie: un (hrule) + un (tag :a :name "b") + un (subtitle[B]) + un (alphabet) (en attendant de rendre l'alphabet fixe en haut de page)
-
+ 
 
 Trucs de Laura, par Laura et pour Laura
 ---------------------------------------
@@ -45,3 +45,5 @@ Trucs de Laura, par Laura et pour Laura
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)
 
   * Trouver une police qui permette les chiffres en bas-de-casse.
+    [Faré: j'ai une fonction subscriptize si ça aide, et peux faire d'autres fonctions du genre,
+	si tu as les bons caractères dans unicode.]
