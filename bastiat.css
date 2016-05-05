@@ -102,7 +102,7 @@ sup {line-height: 0;}
 	min-width: 20em;
 	margin: 3em auto;
 	font-family: "berenis";
-	font-size: 1.15em;
+	font-size: 1.2em;
 	line-height: 1.5em;
 }
 @media only screen and (max-width: 25cm) {
@@ -119,6 +119,17 @@ sup {line-height: 0;}
 
 .liste p {
 	margin: 0.4em 0;
+}
+
+.bastiat .noselect {
+	color: #444;
+	text-align: right;
+	user-select: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
 }
 
 table.petit {
