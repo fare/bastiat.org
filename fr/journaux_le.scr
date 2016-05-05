@@ -1,0 +1,28 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Le Libre-Échange")
+(document :title "Le Libre-Échange"
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "6 décembre 1846" "post_hog_ergo_propter_hoc.html" "Post hoc, ergo propter hoc"
+	"Chapitre 8 de la seconde série des <em>Sophismes</em>.")
+
+	,(article "13 décembre 1846" "generalites.html" "Sur les généralités"
+	"")
+	,(article "” ”" "la_main_droite_et_la_main_gauche.html" "La main droite et la main gauche"
+	"Chapitre 16 de la seconde série des <em>Sophismes</em>.")
+
+	,(article "20 décembre 1846" "libre_echange.html" "Libre-échange"
+	"")
+
+])
+])
+
+(footer[
+
+])
+)
