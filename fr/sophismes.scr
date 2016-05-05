@@ -6,9 +6,9 @@
 (document :title [Sophismes Économiques]
 	:author (author-FB)
 
-(p*
-(subtitle [Première Série (1845)])
-(itemize
+(sommaire[
+,(subtitle [Première Série (1845)])
+,(itemize
 (item (xbof-ref "introduction_sophismes" [Introduction]))
 (item (xbof-ref "abondance_disette" [I. Abondance, disette]))
 (item (xbof-ref "obstacle_cause" [II. Obstacle, cause]))
@@ -33,8 +33,10 @@
 (item (xbof-ref "matieres_premieres" [XXI. Matières premières]))
 (item (xbof-ref "metaphores" [XXII. Métaphores]))
 (item (xbof-ref "conclusion_sophismes" [Conclusion])))
-(subtitle [Deuxième Série (1848)])
-(itemize
+
+,(tag :a :name "serie2")
+,(subtitle [Deuxième Série (1848)])
+,(itemize
 (item (xbof-ref "physiologie_de_la_spoliation" [I. Physiologie de la Spoliation]))
 (item (xbof-ref "deux_morales" [II. Deux morales]))
 (item (xbof-ref "les_deux_haches" [III. Les deux haches]))
@@ -51,11 +53,12 @@
 (item (xbof-ref "autre_chose" [XIV. Autre chose]))
 (item (xbof-ref "arsenal" [XV. Le petit arsenal du libre-échangiste]))
 (item (xbof-ref "la_main_droite_et_la_main_gauche" [XVI. La main droite et la main gauche]))
-(item (xbof-ref "domination_par_le_travail" [XVII. Domination par le travail]))))
+(item (xbof-ref "domination_par_le_travail" [XVII. Domination par le travail])))
+])
 (set! =bof.url= "http://bastiat.org/fr/")
 (with-footer
 (p*[
-Extrait de l',(EO1862), tome IV,
+Extrait de l’,(EO1862), tome IV,
 ,(SophismesEconomiques),
 pp. 1-274.
 ][

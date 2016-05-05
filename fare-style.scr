@@ -149,17 +149,17 @@
 (define (12e) [12,(sup "e")])
 (define (20e) [20,(sup "e")])
 (define (55e) [55,(sup "e")])
-(define (VIIe) [VII,(sup "e")])
-(define (XIe) [XI,(sup "e")])
-(define (XIIIe) [XIII,(sup "e")])
-(define (XVIIIe) [XVIII,(sup "e")])
-(define (XVIIIeme) [XVIII,(sup "e")])
-(define (XIXe) [XIX,(sup "e")])
-(define (XIXeme) [XIX,(sup "e")])
+(define (VIIe) [,(sc[vii]),(sup "e")])
+(define (XIe) [,(sc[xi]),(sup "e")])
+(define (XIIIe) [,(sc[xiii]),(sup "e")])
+(define (XVIIIe) [,(sc[xviii]),(sup "e")])
+(define (XVIIIeme) [,(sc[xviii]),(sup "e")])
+(define (XIXe) [,(sc[xix]),(sup "e")])
+(define (XIXeme) [,(sc[xix]),(sup "e")])
 (define (XIXth) (n-th [XIX]))
-(define (XXe) [XX,(sup "e")])
-(define (XXeme) [XX,(eme)])
-(define (XXIe) [XXI,(sup "e")])
+(define (XXe) [,(sc[xx]),(sup "e")])
+(define (XXeme) [,(sc[xx]),(eme)])
+(define (XXIe) [,(sc[xxi]),(sup "e")])
 ;(define (1o) [1°])
 ;(define (2o) [2°])
 ;(define (3o) [3°])
@@ -453,6 +453,8 @@
 (defun cher (&rest r) (p :class "cher" r))
 (defun politesse (&rest r) (p :class "politesse" r))
 (defun sign (&rest r) (p :class "sign" r))
+(defun date (&rest r) (div :class "date" r))
+(define (FredB) [,(sc[Frédéric]) BASTIAT])
 
 ;pour les listes de paragraphes courts
 (defun liste (&rest r) (div :class "liste" r))
@@ -526,14 +528,12 @@
   (arbor "Œuvres" "oeuvres.html" prec suiv)
 )
 
-(defun
-  corresp
-  (prec suiv)
-  (arbor "Correspondance" "correspondance.html" prec suiv)
-)
+(defun corresp (prec suiv) (arbor "Correspondance" "correspondance.html" prec suiv))
+(defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
 
 (defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
 (defun acalmetes (prec suiv) (arbor "Lettres à Calmètes" "lettres_calmetes.html" prec suiv))
+(defun acoudroy (prec suiv) (arbor "Lettres à Coudroy" "lettres_coudroy.html" prec suiv))
 
 (defun
   jde

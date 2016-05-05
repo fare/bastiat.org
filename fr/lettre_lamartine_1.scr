@@ -7,14 +7,9 @@
 (subtitle [À l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])
 (bastiat[
-,(p*
-(strong[Monsieur
-,(footnote*[
-Extrait du ,(cite-title[Journal des Économistes]), n° de février 1845
-]),
-])
-[
-Le talent prodigieux dont vous a doué la nature,
+	,(date-tag[,(tj "je" [,(cite-title[Journal des économistes])]), n° de février 1845.])
+	,(cher[Monsieur,])
+	,(p*[Le talent prodigieux dont vous a doué la nature,
 talent que rehausse une réputation sans tache,
 après avoir fait de vous le point de mire des partis,
 vous a signalé comme l’attente des doctrines.
@@ -77,7 +72,6 @@ l’expérience de l’homme d’État,
 l’éloquence du tribun,
 l’ardente charité du chrétien
 et l’accent délicieux du poëte.])
-
 ][
 Vous vous êtes prononcé enfin.
 Mais, hélas !
@@ -197,9 +191,10 @@ j’appellerai l’une ,(emph[école économiste]) ou ,(emph[libérale]),
 et l’autre ,(emph[école arbitraire]).
 ][
 Voyons maintenant le jugement que vous portez sur ces deux doctrines :
-]
-(blockquote*
-(q[
+])
+
+	,(blockquote*
+(p*[
 Il y a en économie politique deux écoles :
 une école anglaise et matérialiste
 (c’est l’école ,(emph[libérale]) que vous voulez décrire dans ces lignes)
@@ -233,9 +228,8 @@ cette providence de l’égoïsme, a dit aux prolétaires :
 ,(--) Mais nous ne trouvons pas de travail.
 ,(--) Eh bien ! mourez.
 Si vous ne rapportez rien, vous n’avez pas le droit de vivre ;
-la société est un compte bien fait.])])
-
-(q[Il y a une autre école qui est née en France, dans ces a dernières années,
+la société est un compte bien fait.])]
+[Il y a une autre école qui est née en France, dans ces a dernières années,
 des souffrances du prolétaire, des égoïsmes du manufacturier,
 de la dureté du capitaliste, de l’agitation des temps,
 des souvenirs de la Convention,
@@ -267,8 +261,8 @@ Nous faisons entre elles la différence qu’il y a
 entre une cruauté et une illusion,
 et nous empruntons, pour la solution de la question des salaires,
 à l’une la lumière des calculs, à l’autre la chaleur de la charité.]))
-[
-Je ne m’arrêterai pas à relever les expressions vagues et fausses,
+
+	,(p*[Je ne m’arrêterai pas à relever les expressions vagues et fausses,
 les assertions hasardées qui fourmillent dans ce passage,
 où il semble que votre plume vous a maîtrisé
 plus que vous n’avez maîtrisé votre plume.
@@ -371,8 +365,10 @@ dans l’intention de ceux qui se bornent à dire à l’arbitraire :
 n’y touchez pas ?])
 ][
 Pour arriver jusqu’aux intentions des économistes,
-il faudrait prouver trois choses :
-][
+il faudrait prouver trois choses :])
+
+	,(liste[
+,(p*[
 1° Que le libre jeu des forces sociales providentielles
 est funeste à l’humanité ;
 ][
@@ -380,9 +376,10 @@ est funeste à l’humanité ;
 par la substitution de forces arbitraires ;
 ][
 3° Que les économistes repoussent celles-ci
-en parfaite connaissance de leur prétendue supériorité sur celles-là.
-][
-En dehors de ces trois démonstrations,
+en parfaite connaissance de leur prétendue supériorité sur celles-là.])
+	])
+
+	,(p*[En dehors de ces trois démonstrations,
 vos attaques, si vous pensiez à les faire remonter
 jusqu’à l’intention des écrivains dont je parle,
 ne seraient ni justifiées ni justifiables.
@@ -700,9 +697,10 @@ et une ,(emph[créance]) positive du côté du donataire,
 ne fait ni ne peut faire une telle distinction.
 Permettez-moi d’invoquer ici l’autorité
 d’un auteur trop peu connu et trop peu consulté en ces matières :
-]
-(blockquote*
-(q[Il est plusieurs genres de vices, dit M. Charles Comte,
+])
+
+,(blockquote*
+(p*[« Il est plusieurs genres de vices, dit M. Charles Comte,
 dont le principal effet est de produire la misère
 pour celui qui les a contractés.
 Une institution qui a pour objet de mettre à l’abri de la misère
@@ -720,9 +718,9 @@ Rendre ces châtiments vains en donnant ,(emph[droit]) à des secours
 c’est laisser au vice tous les attraits qu’il a ;
 c’est laisser agir, de plus,
 les maux qu’il produit pour les individus auxquels il est étranger,
-et affaiblir ou détruire les seules peines qui peuvent le réprimer.]))
-[
-Ainsi la charité gouvernementale,
+et affaiblir ou détruire les seules peines qui peuvent le réprimer. »]))
+
+,(p*[Ainsi la charité gouvernementale,
 indépendamment de ce qu’elle viole les principes
 de la liberté et de la propriété,
 intervertit encore les lois de la responsabilité ;
@@ -950,11 +948,12 @@ des faux philanthropes et de l’aristocratie.
 et un homme, M. Cobden,
 aura été l’instrument de cette grande et paisible révolution.
 Oh ! puisse vous être réservée une semblable destinée,
-dont vous êtes si digne !
-]
-(blockquote[Mugron (Landes)… janvier 1845])
-)])
+dont vous êtes si digne !])
 
+,(sign[,(FredB).])
+
+,(date[Mugron (Landes)… Janvier 1845.])
+])
 (footer[
 	,(jde "tarifs_francais_anglais.html" "abondance_disette.html")
 ])

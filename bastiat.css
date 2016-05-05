@@ -132,6 +132,11 @@ sup {line-height: 0;}
 	margin: 0.8em 0;
 }
 
+.bastiat > blockquote {
+	font-size: 0.9em;
+	margin-right: 0;
+}
+
 .liste p {
 	margin: 0.4em 0;
 }
@@ -174,7 +179,7 @@ span[style="font-variant: small-caps"] {
 
 .cher {
 	font-variant: small-caps;
-	padding: 2em 0 1em 4em;
+	padding: 2em 0 1.5em 3em;
 	font-size: large;
 }
 
@@ -186,6 +191,10 @@ span[style="font-variant: small-caps"] {
 	text-align: right;
 	font-variant: small-caps;
 	font-size: large;
+}
+
+.date {
+	font-size: small;
 }
 
 .datetag {
