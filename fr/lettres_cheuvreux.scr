@@ -5,7 +5,8 @@
 
 (document :title "Lettres à M. et Mme Cheuvreux"
 	:author (author-FB)
-(itemize
+(sommaire[
+,(itemize
   (item (ref :url "lettre_cheuvreux1848.html" [Novembre 1848]))
   (item (ref :url "lettre_cheuvreux1849a.html" [Janvier 1849]))
   (item (ref :url "lettre_cheuvreux1849b.html" [Février 1849]))
@@ -45,4 +46,5 @@
   (item (ref :url "lettre_cheuvreux1850u.html" [29 octobre 1850]))
   (item (ref :url "lettre_cheuvreux1850v.html" [14-17 décembre 1850]))
   (item (ref :url "lettre_cheuvreux1850w.html" [Paillottet à Cheuvreux, 22 décembre 1850]))
-  ))
+  )
+  ]))

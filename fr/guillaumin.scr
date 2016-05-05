@@ -107,7 +107,9 @@ Cette pagination est celle de l'édition de ,(id date).
 		 sommaire de l'édition Guillaumin]
 	:author (author :name (ref :url =bo.url=
 				   (font :size "+1" (tt =bo.url=))))
-(table :width "100%" :cellpadding 10 (tr
+
+(sommaire[
+,(table :width "100%" :cellpadding 10 (tr
 (tdLT (p*[
 Ceci est le sommaire de l'édition originale de 1862-64 en 7 volumes,
 des ,(q(cite-title[,(bold[,(oe)uvres complètes de Frédéric Bastiat]),
@@ -150,14 +152,17 @@ Rejoignez notre équipe et vous aussi participez à la
 (tdLT
       (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))
 
-(apply* *list (insere-sommaire))
+,(apply* *list (insere-sommaire))
 
-(begin (set! =bof.url= "http://bastiat.org/fr/") #f)
-(with-footer
+,(begin (set! =bof.url= "http://bastiat.org/fr/") #f)
+
+,(with-footer
 (p*[
 ,(leter-ref "Sommaire%20Guillaumin"
 	[Originellement numérisé, copieusement annoté,
 	mis en hypertexte et publié])
 par ,(leter) pour son ,(ELeter),(pv)
 repris, corrigé, adapté et enrichi de liens par ,(FRR) pour ,(Bastiat.org).
-])))
+]))
+])
+)

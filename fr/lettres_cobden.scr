@@ -5,7 +5,8 @@
 
 (document :title "Lettres à Richard Cobden"
 	:author (author-FB)
-(itemize
+(sommaire[
+,(itemize
   (item (ref :url "lettre_cobden1844.html" [24 novembre 1844]))
   (item (ref :url "lettre_cobden1845a.html" [8 avril 1845]))
   (item (ref :url "lettre_cobden1845b.html" [8 juillet 1845]))
@@ -49,4 +50,5 @@
   (item (ref :url "lettre_cobden1850b.html" [17 août 1850]))
   (item (ref :url "lettre_cobden1850c.html" [9 septembre 1850]))
   (item (ref :url "lettre_cobden1850d.html" [18 octobre 1850]))
-  ))
+  )
+  ]))

@@ -8,9 +8,9 @@ sur l’avenir des deux peuples, par Frédéric Bastiat")
 	sur l’avenir des deux peuples]
 	:author (author-FB)
 (bastiat[
-,(p*
-(blockquote[
-,(q[Que si, pour démentir mes assertions,
+,(date-tag[,(tj "je" [,(cite-title[Journal des économistes])]), n° de novembre 1844.])
+,(epigraphe[
+,(p*[« Que si, pour démentir mes assertions,
 on les appelait du nom d’utopies,
 nom merveilleusement propre à faire reculer les esprits timides
 et à les enfoncer dans l’ornière de la routine,
@@ -18,14 +18,12 @@ j’inviterais ceux qui me répondraient ainsi
 à considérer attentivement tout ce qui s’est fait depuis quelques années
 et ce qui se fait encore aujourd’hui en Angleterre,
 et à dire ensuite si, de bonne foi,
-on ne peut aussi bien le réaliser en France.])
-(Prince de Joinville, ,(cite-title[Notes sur l’état des forces navales]), etc.)
+on ne peut aussi bien le réaliser en France. »
+(Prince de Joinville, ,(cite-title[Notes sur l’état des forces navales]), etc.)])
 ])
-[
-La France s’engage chaque année davantage dans le régime protecteur
-,(footnote*[
-Extrait du ,(emph[Journal des Économistes]), n° d’octobre 1844. ,(NdEEO)
-]).
+
+
+,(p*[La France s’engage chaque année davantage dans le régime protecteur.
 ][
 L’Angleterre s’avance, de session en session,
 vers le régime de la liberté du commerce.
@@ -71,7 +69,7 @@ J’aurai ensuite à résoudre cette question :
 sur la ,(emph[prospérité]), la ,(emph[sécurité]) et la ,(emph[moralité])
 des deux peuples, les conséquences de la situation
 dans laquelle ils aspirent à se placer ?
-][
+](nbsp)[
 § I. ,(--) Que la France développe, à chaque session, le régime protecteur,
 c’est ce qui résulte surabondamment des dispositions
 qui viennent périodiquement prendre place dans le vaste Bulletin de ses lois.
@@ -84,7 +82,7 @@ les machines et le sésame.
 ][
 Un mot sur chacune de ces mesures.
 ][
-On a repoussé de l’Algérie les produits étrangers.
+On a repoussé de l’Algérie les produits étrangers :
 ,(q[C’est bien le moins, dit-on,
 que nous exploitions exclusivement une conquête
 qui nous coûte si cher.])
@@ -536,7 +534,7 @@ et je m’explique pourquoi le général Cubière
 demandait que l’armée fût portée à 500,000 hommes ;
 pourquoi l’opinion alarmée réclame une puissante marine ;
 pourquoi la France fortifie la capitale et paye 1 milliard et demi d’impôts.
-][
+](nbsp)[
 § II. ,(--) Pendant que ces choses se passent en France,
 examinons les tendances de l’économie politique anglaise,
 manifestées d’abord par les actes législatifs,
@@ -1658,7 +1656,7 @@ C’est le moment d’examiner la question que je posais en commençant :
 Quelles seront, sur la prospérité, la sécurité et la moralité des deux nations,
 les conséquences logiques de l’état de choses
 dans lequel chacune d’elles aspire à se placer ?
-][
+](nbsp)[
 § III.
 ,(--) Je n’examinerai pas longuement les effets comparés de la liberté et
 du monopole sur la ,(emph[prospérité]) des nations.
@@ -1857,7 +1855,7 @@ Si cela n’est pas vrai, si nous sommes sans rivaux,
 si nous jouissons des conditions de production les plus favorables,
 sur quoi se fonde la protection ?
 qu’a-t-elle à dire pour sa justification ?
-][
+](nbsp)[
 § IV.
 ,(--) ,(emph[Sécurité]).
 ,(--) On peut dire qu’un peuple dont l’existence repose

@@ -4,8 +4,9 @@
 
 (document :title "L’empereur de Russie"
 	:author (author-FB)
-(date-tag[8 mai 1847])
-(p*[
+(bastiat[
+,(date-tag[8 mai 1847])
+,(p*[
 Il est maintenant certain que l’empereur de Russie, renouvelant l’opération faite récemment avec la Banque de France, envoie une somme considérable à Londres pour y acheter des fonds étrangers.
 ][
 Certains journaux voient là un acte de perfidie, d’autres un acte de munificence. Il n’y faut voir qu’une spéculation amenée par la nature des choses et l’empire des circonstances.
@@ -50,9 +51,9 @@ On peut affirmer que le payement s’exécutera par l’une des deux voies suiva
 Un beau jour, S. M. Impériale nous revendra ses fonds. Alors, tout rentrera dans l’ordre actuel. Toutes les phases de l’opération seront révolues, et on peut les résumer ainsi : Dans un moment de détresse, la Russie nous envoie des blés ; nous les payons peu à peu avec des produits envoyés d’année en année ; dans l’intervalle, nous payons, jusqu’à due concurrence, l’intérêt de la valeur des blés.
 ][
 Voilà les trois termes réels de l’opération. La circulation du numéraire et des billets n’est que le moyen d’exécution.
-])
+])])
 (with-footer (p*[
-Extrait de l',(EO1863), tome II,
+Extrait de l’,(EO1863), tome II,
 ,(cite-title[L’empereur de Russie]),
 pp. 164-168.
 ])))

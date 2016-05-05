@@ -4,6 +4,21 @@ body {
 
 a:link, a:visited {text-decoration: none; color: #33f;}
 a:hover {color: #950;}
+a[name] {
+	display: inline-block;
+    position: relative;
+    top: -3em;
+    visibility: hidden;
+}
+/*Rendre insélectionnables les appels de note. Ça ne marche pas encore tout à fait... T_T*/
+a[href*=footnote], a[href*=footnote] sup {
+	user-select: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+ 	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+ 	-khtml-user-select: none;    /* Konqueror */
+  	-moz-user-select: none;      /* Firefox */
+  	-ms-user-select: none;       /* Internet Explorer/Edge */
+}
 
 sup {line-height: 0;}
 
@@ -171,6 +186,20 @@ span[style="font-variant: small-caps"] {
 	text-align: right;
 	font-variant: small-caps;
 	font-size: large;
+}
+
+.datetag {
+	text-align: right;
+	padding-bottom: 2em;
+	font-size: 0.9em;
+}
+
+/*Épigraphes*/
+
+.epigraphe {
+	width: 60%;
+	margin: 2em 0 4em auto;
+	font-size: 0.9em;
 }
 
 /*Poésie*/

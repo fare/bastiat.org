@@ -5,7 +5,8 @@
 
 (document :title "Lettres à Horace Say"
 	:author (author-FB)
-(itemize
+(sommaire[
+,(itemize
   (item (ref :url "lettre_horace_say1844.html" [24 novembre 1844]))
   (item (ref :url "lettre_horace_say1847.html" [Octobre 1847]))
   (item (ref :url "lettre_horace_say1848.html" [12 avril 1848]))
@@ -13,4 +14,5 @@
   (item (ref :url "lettre_horace_say1850a.html" [3 juin 1850]))
   (item (ref :url "lettre_horace_say1850b.html" [4 juillet 1850]))
   (item (ref :url "lettre_horace_say1850c.html" [20 octobre 1850]))
-  ))
+  )
+  ]))

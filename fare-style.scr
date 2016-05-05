@@ -386,7 +386,7 @@
    (tdl (apply* title-item (bold y) (map* lref** l))))
 
 (define (date-tag x)
-  (*p :align 'right x))
+  (*p :class "datetag" x))
 
 (define (url x) (ref :url x (tt x)))
 
@@ -456,6 +456,9 @@
 
 ;pour les listes de paragraphes courts
 (defun liste (&rest r) (div :class "liste" r))
+
+;pour les épigraphes
+(defun epigraphe (&rest r) (div :class "epigraphe" r))
 
 ;;; FOOTER
 
@@ -529,11 +532,8 @@
   (arbor "Correspondance" "correspondance.html" prec suiv)
 )
 
-(defun
-  acobden
-  (prec suiv)
-  (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv)
-)
+(defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
+(defun acalmetes (prec suiv) (arbor "Lettres à Calmètes" "lettres_calmetes.html" prec suiv))
 
 (defun
   jde

@@ -5,7 +5,8 @@
 
 (document :title "Lettres à Bernard Domenger"
 	:author (author-FB)
-(itemize
+(sommaire[
+,(itemize
   (item (ref :url "lettre_domenger1848a.html" [4 mars 1848]))
   (item (ref :url "lettre_domenger1848b.html" [3 septembre 1848]))
   (item (ref :url "lettre_domenger1849a.html" [18 janvier 1849]))
@@ -23,4 +24,5 @@
   (item (ref :url "lettre_domenger1850b.html" [22 mars 1850]))
   (item (ref :url "lettre_domenger1850c.html" [8 octobre 1850]))
   (item (ref :url "lettre_domenger1850d.html" [28 novembre 1850]))
-  ))
+  )
+  ]))

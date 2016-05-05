@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "L'État
+(in-bof :title "L’État
 	- par Frédéric Bastiat")
-(document :title "L'État"
+(document :title "L’État"
 	:author (author-FB)
 (bastiat[
 ,(date-tag[
@@ -10,45 +10,46 @@ Composition parue au ,(cite-title[Journal des Débats]),
 numéro du 25 septembre 1848.
 ])
 ,(p*[
-	Je voudrais qu'on fondât, un prix,
-non de cinq cents francs, mais d'un million,
+	
+Je voudrais qu’on fondât, un prix,
+non de cinq cents francs, mais d’un million,
 avec couronnes, croix et rubans,
 en faveur de celui qui donnerait
-une bonne, simple et intelligible définition de ce mot: l'État.
+une bonne, simple et intelligible définition de ce mot : l’État.
 ][
-	Quel immense service ne rendrait-il pas à la société!
-L'État!
-	Qu'est-ce?
-	où est-il?
-	que fait-il?
-	que devrait-il faire?
+	Quel immense service ne rendrait-il pas à la société !
+L’État !
+	Qu’est-ce ?
+	où est-il ?
+	que fait-il ?
+	que devrait-il faire ?
 ][
 	Tout ce que nous en savons,
-c'est que c'est un personnage mystérieux,
+c’est que c’est un personnage mystérieux,
 et assurément le plus sollicité, le plus tourmenté,
 le plus affairé, le plus conseillé, le plus accusé, le
-plus invoqué et le plus provoqué qu'il y ait au monde.
+plus invoqué et le plus provoqué qu’il y ait au monde.
 ][
-	Car, Monsieur, je n'ai pas l'honneur de vous connaître,
+	Car, Monsieur, je n’ai pas l’honneur de vous connaître,
 mais je gage dix contre un que depuis six mois vous faites
-des utopies; et si vous en faites, je gage dix contre un que
-vous chargez l'État de les réaliser.
+des utopies ; et si vous en faites, je gage dix contre un que
+vous chargez l’État de les réaliser.
 ][
 	Et vous, Madame, je suis sûr que vous désirez du fond du
 c,(oe)ur guérir tous les maux de la triste humanité, et que vous
-n'y seriez nullement embarrassée si l'État voulait seulement
-s'y prêter.
+n’y seriez nullement embarrassée si l’État voulait seulement
+s’y prêter.
 ][
-	Mais, hélas! le malheureux, comme Figaro,
+	Mais, hélas ! le malheureux, comme Figaro,
 ne sait ni qui entendre, ni de quel côté se tourner.
 Les cent mille bouches de la presse et de la tribune
-lui crient à la fois:
+lui crient à la fois :
 ,(br)
 	,(q[Organisez le travail et les travailleurs.
 ,(br)
-	Extirpez l'égoïsme.
+	Extirpez l’égoïsme.
 ,(br)
-	Réprimez l'insolence et la tyrannie du capital.
+	Réprimez l’insolence et la tyrannie du capital.
 ,(br)
 	Faites des expériences sur le fumier et sur les ,(oe)ufs.
 ,(br)
@@ -62,7 +63,7 @@ lui crient à la fois:
 ,(br)
 	Fondez des ateliers harmoniques.
 ,(br)
-	Colonisez l'Algérie.
+	Colonisez l’Algérie.
 ,(br)
 	Allaitez les enfants.
 ,(br)
@@ -74,80 +75,80 @@ lui crient à la fois:
 ,(br)
 	Pondérez les profits de toutes les industries.
 ,(br)
-	Prêtez de l'argent, et sans intérêt, à ceux qui en désirent.
+	Prêtez de l’argent, et sans intérêt, à ceux qui en désirent.
 ,(br)
-	Affranchissez l'Italie, la Pologne et la Hongrie.
+	Affranchissez l’Italie, la Pologne et la Hongrie.
 ,(br)
 	Élevez et perfectionnez le cheval de selle.
 ,(br)
-	Encouragez l'art, formez-nous des musiciens et des danseuses.
+	Encouragez l’art, formez-nous des musiciens et des danseuses.
 ,(br)
 	Prohibez le commerce et, du même coup, créez une marine marchande.
 ,(br)
 	Découvrez la vérité et jetez dans nos têtes un grain de raison.
-L'État a pour mission d'éclairer, de développer, d'agrandir,
-de fortifier, de spiritualiser et de sanctifier l'âme des peuples.])
+L’État a pour mission d’éclairer, de développer, d’agrandir,
+de fortifier, de spiritualiser et de sanctifier l’âme des peuples.])
 
 ][
-	,(--) ,(q[Eh! Messieurs, un peu de patience, répond l'État,
-d'un air piteux.])
+	,(--) ,(q[Eh ! Messieurs, un peu de patience, répond l’État,
+d’un air piteux.])
 ]
-(q[J'essaierai de vous satisfaire,
+(q[J’essaierai de vous satisfaire,
 mais pour cela il me faut quelques ressources.
-J'ai préparé des projets concernant
+J’ai préparé des projets concernant
 cinq ou six impôts tout nouveaux et les plus bénins du monde.
 Vous verrez quel plaisir on a à les payer.])
 [
-	Mais alors un grand cri s'élève: ,(q[Haro! haro!
-le beau mérite de faire quelque chose avec des ressources!
-Il ne vaudrait pas la peine de s'appeler l'État.
+	Mais alors un grand cri s’élève : ,(q[Haro ! haro !
+le beau mérite de faire quelque chose avec des ressources !
+Il ne vaudrait pas la peine de s’appeler l’État.
 Loin de nous frapper de nouvelles taxes,
 nous vous sommons de retirer les anciennes.
-Supprimez:
+Supprimez :
 ,(br)
-	L'impôt du sel;
+	L’impôt du sel ;
 ,(br)
-	L'impôt des boissons;
+	L’impôt des boissons ;
 ,(br)
-	L'impôt des lettres;
+	L’impôt des lettres ;
 ,(br)
-	L'octroi;
+	L’octroi ;
 ,(br)
-	Les patentes;
+	Les patentes ;
 ,(br)
 	Les prestations.])
 ][
 	Au milieu de ce tumulte,
 et après que le pays a changé deux ou trois fois son État
-pour n'avoir pas satisfait à toutes ces demandes,
-j'ai voulu faire observer qu'elles étaient contradictoires.
-De quoi me suis-je avisé, bon Dieu!
-ne pouvais-je garder pour moi cette malencontreuse remarque?
+pour n’avoir pas satisfait à toutes ces demandes,
+j’ai voulu faire observer qu’elles étaient contradictoires.
+De quoi me suis-je avisé, bon Dieu !
+ne pouvais-je garder pour moi cette malencontreuse remarque ?
 ][
-	Me voilà discrédité à tout jamais;
+	Me voilà discrédité à tout jamais ;
 et il est maintenant reçu que je suis
 un homme ,(emph[sans c,(oe)ur et sans entrailles]),
 un philosophe sec, un individualiste, un bourgeois, et,
-pour tout dire en un mot, un économiste de l'école anglaise ou américaine.
+pour tout dire en un mot, un économiste de l’école anglaise ou américaine.
 ][
-	Oh! pardonnez-moi, écrivains sublimes,
-que rien n'arrête, pas même les contradictions.
-J'ai tort, sans doute, et je me rétracte de grand c,(oe)ur.
+	Oh ! pardonnez-moi, écrivains sublimes,
+que rien n’arrête, pas même les contradictions.
+J’ai tort, sans doute, et je me rétracte de grand c,(oe)ur.
 Je ne demande pas mieux, soyez-en sûrs,
 que vous ayez vraiment découvert, en dehors de nous,
 un être bienfaisant et inépuisable,
-s'appelant l'État,
+s’appelant l’État,
 qui ait du pain pour toutes les bouches,
 du travail pour tous les bras,
 des capitaux pour toutes les entreprises,
 du crédit pour tous les projets,
-de l'huile pour toutes les plaies,
+de l’huile pour toutes les plaies,
 du baume pour toutes les souffrances,
 des conseils pour toutes les perplexités,
 des solutions pour tous les doutes,
 des vérités pour toutes les intelligences,
 des distractions pour tous les ennuis,
-du lait pour l'enfance,
+du lait pour l’enfance,
 du vin pour la vieillesse,
 qui pourvoie à tous nos besoins,
 prévienne tous nos désirs,
@@ -159,61 +160,61 @@ de prévoyance,
 de prudence,
 de jugement,
 de sagacité,
-d'expérience,
-d'ordre,
-d'économie,
+d’expérience,
+d’ordre,
+d’économie,
 de tempérance et
-d'activité.
+d’activité.
 ][
-	Et pourquoi ne le désirerais-je pas?
-Dieu me pardonne, plus j'y réfléchis, plus je trouve que la chose est commode,
-et il me tarde d'avoir, moi aussi, à ma portée,
+	Et pourquoi ne le désirerais-je pas ?
+Dieu me pardonne, plus j’y réfléchis, plus je trouve que la chose est commode,
+et il me tarde d’avoir, moi aussi, à ma portée,
 cette source intarissable de richesses et de lumières,
 ce médecin universel,
 ce trésor sans fond,
-ce conseiller infaillible que vous nommez l'État.
+ce conseiller infaillible que vous nommez l’État.
 ][
-	Aussi je demande qu'on me le montre,
-qu'on me le définisse,
-et c'est pourquoi je propose la fondation d'un prix
+	Aussi je demande qu’on me le montre,
+qu’on me le définisse,
+et c’est pourquoi je propose la fondation d’un prix
 pour le premier qui découvrira ce phénix.
-Car enfin, on m'accordera bien que
-cette découverte précieuse n'a pas encore été faite,
-puisque, jusqu'ici, tout ce qui se présente sous le nom d'État,
+Car enfin, on m’accordera bien que
+cette découverte précieuse n’a pas encore été faite,
+puisque, jusqu’ici, tout ce qui se présente sous le nom d’État,
 le peuple le renverse aussitôt, précisément
-parce qu'il ne remplit pas les conditions
+parce qu’il ne remplit pas les conditions
 quelque peu contradictoires du programme.
 ][
-	Faut-il le dire? Je crains que nous ne soyons, à cet égard,
-dupes d'une des plus bizarres illusions qui se soient jamais
-emparées de l'esprit humain.
+	Faut-il le dire ? Je crains que nous ne soyons, à cet égard,
+dupes d’une des plus bizarres illusions qui se soient jamais
+emparées de l’esprit humain.
 ][
-	L'homme répugne à la Peine, à la Souffrance.
+	L’homme répugne à la Peine, à la Souffrance.
 Et cependant il est condamné par la nature
 à la Souffrance de la Privation,
-s'il ne prend pas la Peine du Travail.
-Il n'a donc que le choix entre ces deux maux.
+s’il ne prend pas la Peine du Travail.
+Il n’a donc que le choix entre ces deux maux.
 ][
-	Comment faire pour les éviter tous deux?
-Il n'a jusqu'ici trouvé et ne trouvera jamais qu'un moyen:
-c'est de ,(emph[jouir du travail d'autrui]),(pv)
-c'est de faire en sorte que la Peine et la Satisfaction
-n'incombent pas à chacun selon la proportion naturelle,
+	Comment faire pour les éviter tous deux ?
+Il n’a jusqu’ici trouvé et ne trouvera jamais qu’un moyen :
+c’est de ,(emph[jouir du travail d’autrui]) ,(pv)
+c’est de faire en sorte que la Peine et la Satisfaction
+n’incombent pas à chacun selon la proportion naturelle,
 mais que toute la peine soit pour les uns
 et toutes les satisfactions pour les autres.
-De là l'esclavage,
-de là encore la spoliation, quelque forme qu'elle prenne:
+De là l’esclavage,
+de là encore la spoliation, quelque forme qu’elle prenne :
 guerres, impostures, violences, restrictions, fraudes, etc.,
 abus monstrueux, mais conséquents
 avec la pensée qui leur a donné naissance.
 On doit haïr ,(XXX) et combattre les oppresseurs,
-on ne peut pas dire qu'ils soient absurdes.
+on ne peut pas dire qu’ils soient absurdes.
 ][
-	L'esclavage s'en va, grâce au Ciel, et, d'un autre côté,
+	L’esclavage s’en va, grâce au Ciel, et, d’un autre côté,
 cette disposition où nous sommes à défendre notre bien,
-fait que la Spoliation directe et naïve n'est pas facile.
+fait que la Spoliation directe et naïve n’est pas facile.
 Une chose cependant est restée.
-C'est ce malheureux penchant primitif
+C’est ce malheureux penchant primitif
 que portent en eux tous les hommes
 à faire deux parts du lot complexe de la vie,
 rejetant la Peine sur autrui
@@ -221,136 +222,136 @@ et gardant la Satisfaction pour eux-mêmes.
 Reste à voir sous quelle forme nouvelle
 se manifeste cette triste tendance.
 ][
-	L'oppresseur n'agit plus directement
-par ses propres forces sur l'opprimé.
+	L’oppresseur n’agit plus directement
+par ses propres forces sur l’opprimé.
 Non, notre conscience est devenue trop méticuleuse pour cela.
 Il y a bien encore le tyran et la victime,
-mais entre eux se place un intermédiaire qui est l'État,
-c'est-à-dire la loi elle-même.
+mais entre eux se place un intermédiaire qui est l’État,
+c’est-à-dire la loi elle-même.
 Quoi de plus propre à faire taire nos scrupules et,
-ce qui est peut-être plus apprécié, à vaincre les résistances?
+ce qui est peut-être plus apprécié, à vaincre les résistances ?
 Donc, tous, à un titre quelconque, sous un prétexte ou sous un autre,
-nous nous adressons à l'État.
-Nous lui disons:
-,(q[Je ne trouve pas qu'il y ait,
+nous nous adressons à l’État.
+Nous lui disons :
+,(q[Je ne trouve pas qu’il y ait,
 entre mes jouissances et mon travail,
 une proportion qui me satisfasse.
-Je voudrais bien, pour établir l'équilibre désiré,
-prendre quelque peu sur le bien d'autrui.
-Mais c'est dangereux.
-Ne pourriez-vous me faciliter la chose?
-Ne pourriez-vous me donner une bonne place?
-Ou bien gêner l'industrie de mes concurrents?
+Je voudrais bien, pour établir l’équilibre désiré,
+prendre quelque peu sur le bien d’autrui.
+Mais c’est dangereux.
+Ne pourriez-vous me faciliter la chose ?
+Ne pourriez-vous me donner une bonne place ?
+Ou bien gêner l’industrie de mes concurrents ?
 Ou bien encore me prêter gratuitement des capitaux
-que vous aurez pris à leurs possesseurs?
-Ou élever mes enfants aux frais du public?
-Ou m'accorder des primes d'encouragement?
-Ou m'assurer le bien-être quand j'aurai cinquante ans?
-Par ce moyen, j'arriverai à mon but en toute quiétude de conscience,
+que vous aurez pris à leurs possesseurs ?
+Ou élever mes enfants aux frais du public ?
+Ou m’accorder des primes d’encouragement ?
+Ou m’assurer le bien-être quand j’aurai cinquante ans ?
+Par ce moyen, j’arriverai à mon but en toute quiétude de conscience,
 car la loi elle-même aura agi pour moi,
-et j'aurai tous les avantages de la spoliation
-sans en avoir ni les risques ni l'odieux!])
+et j’aurai tous les avantages de la spoliation
+sans en avoir ni les risques ni l’odieux !])
 ][
 ,(XXX)
-	Comme il est certain, d'un côté,
-que nous adressons tous à l'État quelque requête semblable,
-et que, d'une autre part, il est avéré que l'État
+	Comme il est certain, d’un côté,
+que nous adressons tous à l’État quelque requête semblable,
+et que, d’une autre part, il est avéré que l’État
 ne peut procurer satisfaction aux uns
 sans ajouter au travail des autres,
-en attendant une autre définition de l'État,
+en attendant une autre définition de l’État,
 je me crois autorisé à donner ici la mienne.
-Qui sait si elle ne remportera pas le prix?
-La voici:
+Qui sait si elle ne remportera pas le prix ?
+La voici :
 ][
-	,(strong[L'État]),
-,(emph[c'est la grande fiction à travers laquelle])
+	,(strong[L’État]),
+,(emph[c’est la grande fiction à travers laquelle])
 ,(strong[tout le monde])
-,(emph[s'efforce de vivre aux dépens de])
+,(emph[s’efforce de vivre aux dépens de])
 ,(strong[tout le monde]).
 ][
-	Car, aujourd'hui comme autrefois,
+	Car, aujourd’hui comme autrefois,
 chacun, un peu plus, un peu moins,
-voudrait bien profiter du travail d'autrui.
-Ce sentiment, on n'ose l'afficher, on se le dissimule à soi-même;
-et alors que fait-on?
+voudrait bien profiter du travail d’autrui.
+Ce sentiment, on n’ose l’afficher, on se le dissimule à soi-même ;
+et alors que fait-on ?
 On imagine un intermédiaire,
-on s'adresse à l',(strong[État]),
-et chaque classe tour à tour vient lui dire:
+on s’adresse à l’,(strong[État]),
+et chaque classe tour à tour vient lui dire :
 ,(q[Vous qui pouvez prendre loyalement, honnêtement,
 prenez au public, et nous partagerons.])
-Hélas! l'État n'a que trop de pente à suivre le diabolique conseil;
-car il est composé de ministres, de fonctionnaires, d'hommes enfin,
+Hélas ! l’État n’a que trop de pente à suivre le diabolique conseil ;
+car il est composé de ministres, de fonctionnaires, d’hommes enfin,
 qui, comme tous les hommes, portent au c,(oe)ur le désir et
-saisissent toujours avec empressement l'occasion de voir grandir
+saisissent toujours avec empressement l’occasion de voir grandir
 leurs richesses et leur influence.
-L'État comprend donc bien vite le parti qu'il peut tirer
+L’État comprend donc bien vite le parti qu’il peut tirer
 du rôle que le public lui confie.
-Il sera l'arbitre, le maître de toutes les destinées:
-il prendra beaucoup, donc il lui restera beaucoup à lui-même;
+Il sera l’arbitre, le maître de toutes les destinées :
+il prendra beaucoup, donc il lui restera beaucoup à lui-même ;
 il multipliera le nombre de ses agents,
-il élargira le cercle de ses attributions;
+il élargira le cercle de ses attributions ;
 il finira par acquérir des proportions écrasantes.
 ][
-	Mais ce qu'il faut bien remarquer,
-c'est l'étonnant aveuglement du public en tout ceci.
+	Mais ce qu’il faut bien remarquer,
+c’est l’étonnant aveuglement du public en tout ceci.
 Quand des soldats heureux réduisaient les vaincus en esclavage,
-ils étaient barbares, mais ils n'étaient pas absurdes.
-Leur but, comme le nôtre, était de vivre aux dépens d'autrui;
+ils étaient barbares, mais ils n’étaient pas absurdes.
+Leur but, comme le nôtre, était de vivre aux dépens d’autrui ;
 mais, comme nous, ils ne le manquaient pas.
-Que devons-nous penser d'un peuple
-où l'on ne paraît pas se douter
+Que devons-nous penser d’un peuple
+où l’on ne paraît pas se douter
 que le ,(emph[pillage réciproque])
-n'en est pas moins pillage parce qu'il est réciproque;
-qu'il n'en est pas moins criminel
-parce qu'il s'exécute légalement et avec ordre;
-qu'il n'ajoute rien au bien-être public;
-qu'il le diminue au contraire de tout ce que coûte
-cet intermédiaire dispendieux que nous nommons l'État?
+n’en est pas moins pillage parce qu’il est réciproque ;
+qu’il n’en est pas moins criminel
+parce qu’il s’exécute légalement et avec ordre ;
+qu’il n’ajoute rien au bien-être public ;
+qu’il le diminue au contraire de tout ce que coûte
+cet intermédiaire dispendieux que nous nommons l’État ?
 ][
-	Et cette grande chimère, nous l'avons placée,
-pour l'édification du peuple,
+	Et cette grande chimère, nous l’avons placée,
+pour l’édification du peuple,
 au frontispice de la Constitution.
-Voici les premiers mots du préambule:
-,(q[La France s'est constituée en République pour...
+Voici les premiers mots du préambule :
+,(q[La France s’est constituée en République pour…
 appeler tous les citoyens à un degré toujours plus élevé
 de moralité, de lumière et de bien-être.])
 ][
-	Ainsi, c'est la France ou ,(emph[l'abstraction]),
+	Ainsi, c’est la France ou ,(emph[l’abstraction]),
 qui appelle les Français ou les ,(emph[réalités])
 à la moralité, au bien-être, etc.
-N'est-ce pas abonder dans le sens de cette bizarre illusion
-qui nous porte à tout attendre d'une autre énergie que la nôtre?
-N'est-ce pas donner à entendre qu'il y a,
+N’est-ce pas abonder dans le sens de cette bizarre illusion
+qui nous porte à tout attendre d’une autre énergie que la nôtre ?
+N’est-ce pas donner à entendre qu’il y a,
 à côté et en dehors des Français,
 un être vertueux, éclairé, riche,
-qui peut et doit verser sur eux ses bienfaits?
-N'est-ce pas supposer, et certes bien gratuitement,
-qu'il y a entre la France et les Français,
+qui peut et doit verser sur eux ses bienfaits ?
+N’est-ce pas supposer, et certes bien gratuitement,
+qu’il y a entre la France et les Français,
 entre la simple dénomination abrégée, abstraite,
 de toutes les individualités et ces individualités mêmes,
 des rapports de père à fils, de tuteur à pupille,
-de professeur à écolier?
-Je sais bien qu'on dit quelquefois métaphoriquement:
+de professeur à écolier ?
+Je sais bien qu’on dit quelquefois métaphoriquement :
 La patrie est une mère tendre.
-Mais pour prendre en flagrant délit d'inanité
+Mais pour prendre en flagrant délit d’inanité
 la proposition constitutionnelle,
-il suffit de montrer qu'elle peut être retournée,
+il suffit de montrer qu’elle peut être retournée,
 je ne dirai pas sans inconvénient,
 mais même avec avantage.
-L'exactitude souffrirait-elle si le préambule avait dit:
+L’exactitude souffrirait-elle si le préambule avait dit :
 ][
 	,(q[Les Français se sont constitués en République
 pour appeler la France à un degré toujours plus élevé
-de moralité, de lumière et de bien-être?])
+de moralité, de lumière et de bien-être ?])
 ][
-	Or, quelle est la valeur d'un axiome
-où le sujet et l'attribut peuvent chasser-croiser sans inconvénient?
-Tout le monde comprend qu'on dise: la mère allaitera l'enfant.
-Mais il serait ridicule de dire: l'enfant allaitera la mère.
+	Or, quelle est la valeur d’un axiome
+où le sujet et l’attribut peuvent chasser-croiser sans inconvénient ?
+Tout le monde comprend qu’on dise : la mère allaitera l’enfant.
+Mais il serait ridicule de dire : l’enfant allaitera la mère.
 ][
 	Les Américains se faisaient une autre idée
-des relations des citoyens avec l'État,
-quand ils placèrent en tête de leur Constitution ces simples paroles:
+des relations des citoyens avec l’État,
+quand ils placèrent en tête de leur Constitution ces simples paroles :
 ][
 	,(q[Nous, le peuple des États-Unis,
 pour former une union plus parfaite, établir la justice,
@@ -359,39 +360,39 @@ accroître le bien-être général et assurer les bienfaits de la liberté
 à nous-mêmes et à notre postérité, décrétons, etc.])
 ][
 	Ici point de création chimérique,
-point d'abstraction à laquelle les citoyens demandent tout.
-Ils n'attendent rien que d'eux-mêmes et de leur propre énergie.
+point d’abstraction à laquelle les citoyens demandent tout.
+Ils n’attendent rien que d’eux-mêmes et de leur propre énergie.
 ][
 	Si je me suis permis de critiquer
 les premières paroles de notre Constitution,
-c'est qu'il ne s'agit pas, comme on pourrait le croire,
-d'une pure subtilité métaphysique.
-Je prétends que cette ,(emph[personnification]) de l'État
-a été dans le passé et sera dans l'avenir
+c’est qu’il ne s’agit pas, comme on pourrait le croire,
+d’une pure subtilité métaphysique.
+Je prétends que cette ,(emph[personnification]) de l’État
+a été dans le passé et sera dans l’avenir
 une source féconde de calamités et de révolutions.
 ][
-	Voilà le Public d'un côté, l'État de l'autre,
+	Voilà le Public d’un côté, l’État de l’autre,
 considérés comme deux être distincts,
-celui-ci tenu d'épandre sur celui-là,
+celui-ci tenu d’épandre sur celui-là,
 celui-là ayant droit de réclamer de celui-ci le torrent des félicités humaines.
-Que doit-il arriver?
+Que doit-il arriver ?
 ][
-	Au fait, l'État n'est pas manchot et ne peut l'être.
-Il a deux mains, l'une pour recevoir et l'autre pour donner,
+	Au fait, l’État n’est pas manchot et ne peut l’être.
+Il a deux mains, l’une pour recevoir et l’autre pour donner,
 autrement dit, la main rude et la main douce.
-L'activité de la seconde est nécessairement subordonnée
-à l'activité de la première.
+L’activité de la seconde est nécessairement subordonnée
+à l’activité de la première.
 ][
-	A la rigueur, l'État peut prendre et ne pas rendre.
-Cela s'est vu et s'explique par la nature poreuse
+	A la rigueur, l’État peut prendre et ne pas rendre.
+Cela s’est vu et s’explique par la nature poreuse
 et absorbante de ses mains,
 qui retiennent toujours une partie
-et quelquefois la totalité de ce qu'elles touchent.
-Mais ce qui ne s'est jamais vu,
+et quelquefois la totalité de ce qu’elles touchent.
+Mais ce qui ne s’est jamais vu,
 ce qui ne se verra jamais et ne se peut même concevoir,
-c'est que l'État rende au public plus qu'il ne lui a pris.
-C'est donc bien follement que nous prenons autour de lui
-l'humble attitude de mendiants.
+c’est que l’État rende au public plus qu’il ne lui a pris.
+C’est donc bien follement que nous prenons autour de lui
+l’humble attitude de mendiants.
 Il lui est radicalement impossible de conférer un avantage particulier
 à quelques-unes des individualités qui constituent la communauté,
 sans infliger un dommage supérieur à la communauté entière.
@@ -399,273 +400,275 @@ sans infliger un dommage supérieur à la communauté entière.
 	Il se trouve donc placé, par nos exigences,
 dans un cercle vicieux manifeste.
 ][
-	S'il refuse le bien qu'on exige de lui,
-il est accusé d'impuissance, de mauvais vouloir, d'incapacité.
-S'il essaie de le réaliser,
+	S’il refuse le bien qu’on exige de lui,
+il est accusé d’impuissance, de mauvais vouloir, d’incapacité.
+S’il essaie de le réaliser,
 il est réduit à frapper le peuple de taxes redoublées,
 à faire plus de mal que de bien,
-et à s'attirer, par un autre bout, la désaffection générale.
+et à s’attirer, par un autre bout, la désaffection générale.
 ][
 	Ainsi, dans le public des espérances, dans le gouvernement
-deux promesses:
-,(emph[beaucoup de bienfaits et pas d'impôts]).
+deux promesses :
+,(emph[beaucoup de bienfaits et pas d’impôts]).
 Espérances et promesses qui, étant contradictoires, ne se réalisent jamais.
 ][
-	N'est-ce pas là la cause de toutes nos révolutions?
-Car entre l'État, qui prodigue les promesses impossibles,
+	N’est-ce pas là la cause de toutes nos révolutions ?
+Car entre l’État, qui prodigue les promesses impossibles,
 et le public, qui a conçu des espérances irréalisables,
-viennent s'interposer deux classes d'hommes:
+viennent s’interposer deux classes d’hommes :
 les ambitieux et les utopistes.
 Leur rôle est tout tracé par la situation.
 Il suffit à ces courtisans de popularité
-de crier aux oreilles du peuple:
-,(q[Le pouvoir te trompe; si nous étions à sa place, nous te
-comblerions de bienfaits et t'affranchirions de taxes.])
+de crier aux oreilles du peuple :
+,(q[Le pouvoir te trompe ; si nous étions à sa place, nous te
+comblerions de bienfaits et t’affranchirions de taxes.])
 ][
 	Et le peuple croit, et le peuple espère,
 et le peuple fait une révolution.
 ][
 	Ses amis ne sont pas plus tôt aux affaires,
-qu'ils sont sommés de s'exécuter.
+qu’ils sont sommés de s’exécuter.
 ,(q[Donnez-moi donc du travail, du pain, des secours, du crédit,
-de l'instruction, des colonies, dit le peuple,
+de l’instruction, des colonies, dit le peuple,
 et cependant, selon vos promesses, délivrez-moi des serres du fisc.])
 ][
-	L',(emph[État]) nouveau n'est pas moins embarrassé que l'État ancien,
-car, en fait d'impossible, on peut bien promettre, mais non tenir.
+	L’,(emph[État]) nouveau n’est pas moins embarrassé que l’État ancien,
+car, en fait d’impossible, on peut bien promettre, mais non tenir.
 Il cherche à gagner du temps, il lui en faut pour mûrir ses vastes projets.
-D'abord, il fait quelques timides essais;
-d'un côté, il étend quelque peu l'instruction primaire;
-de l'autre, il modifie quelque peu l'impôt des boissons (1830).
-Mais la contradiction se dresse toujours devant lui:
-s'il veut être philanthrope, il est forcé de rester fiscal;
-et s'il renonce à la fiscalité,
-il faut qu'il renonce aussi à la philanthropie.
+D’abord, il fait quelques timides essais ;
+d’un côté, il étend quelque peu l’instruction primaire ;
+de l’autre, il modifie quelque peu l’impôt des boissons (1830).
+Mais la contradiction se dresse toujours devant lui :
+s’il veut être philanthrope, il est forcé de rester fiscal ;
+et s’il renonce à la fiscalité,
+il faut qu’il renonce aussi à la philanthropie.
 ][
-	Ces deux promesses s'empêchent toujours
-et nécessairement l'une l'autre.
-User du crédit, c'est-à-dire dévorer l'avenir,
-est bien un moyen actuel de les concilier;
+	Ces deux promesses s’empêchent toujours
+et nécessairement l’une l’autre.
+User du crédit, c’est-à-dire dévorer l’avenir,
+est bien un moyen actuel de les concilier ;
 on essaie de faire un peu de bien dans le présent
-aux dépens de beaucoup de mal dans l'avenir.
+aux dépens de beaucoup de mal dans l’avenir.
 Mais ce procédé évoque le spectre de la banqueroute qui chasse le crédit.
-Que faire donc?
-Alors l'État nouveau prend son parti en brave;
+Que faire donc ?
+Alors l’État nouveau prend son parti en brave ;
 il réunit des forces pour se maintenir,
-il étouffe l'opinion,
-il a recours à l'arbitraire,
+il étouffe l’opinion,
+il a recours à l’arbitraire,
 il ridiculise ses anciennes maximes,
-il déclare qu'on ne peut administrer qu'à la condition d'être impopulaire;
+il déclare qu’on ne peut administrer qu’à la condition d’être impopulaire ;
 bref, il se proclame ,(emph[gouvernemental]).
 ][
-	Et c'est là que d'autres courtisans de popularité l'attendent.
+	Et c’est là que d’autres courtisans de popularité l’attendent.
 Ils exploitent la même illusion, passent par la même voie,
-obtiennent le même succès, et vont bientôt s'engloutir dans le même gouffre.
-C'est ainsi que nous sommes arrivés en Février.
-À cette époque, l'illusion qui fait le sujet de cet article
+obtiennent le même succès, et vont bientôt s’engloutir dans le même gouffre.
+C’est ainsi que nous sommes arrivés en Février.
+À cette époque, l’illusion qui fait le sujet de cet article
 avait pénétré plus avant que jamais dans les idées du peuple,
 avec les doctrines socialistes.
-Plus que jamais, il s'attendait à ce que
-l',(emph[État]) sous la forme républicaine,
-ouvrirait toute grande la source des bienfaits et fermerait celle de l'impôt.
-,(q[On m'a souvent trompé, disait le peuple,
-mais je veillerai moi-même à ce qu'on ne me trompe pas encore une fois.])
+Plus que jamais, il s’attendait à ce que
+l’,(emph[État]) sous la forme républicaine,
+ouvrirait toute grande la source des bienfaits et fermerait celle de l’impôt.
+,(q[On m’a souvent trompé, disait le peuple,
+mais je veillerai moi-même à ce qu’on ne me trompe pas encore une fois.])
 ][
-	Que pouvait faire le gouvernement provisoire?
-Hélas! ce qu'on fait toujours en pareille conjoncture:
+	Que pouvait faire le gouvernement provisoire ?
+Hélas ! ce qu’on fait toujours en pareille conjoncture :
 promettre, et gagner du temps.
-Il n'y manque pas,
+Il n’y manque pas,
 et pour donner à ses promesses plus de solennité,
 il les fixa dans des décrets.
 ,(q[Augmentation de bien-être, diminution de travail, secours,
 crédit, instruction gratuite, colonies agricoles, défrichements,
 et en même temps réduction sur la taxe du sel, des boissons,
-des lettres, de la viande, tout sera accordé...
-vienne l'Assemblée nationale]).
+des lettres, de la viande, tout sera accordé…
+vienne l’Assemblée nationale]).
 ][
-	L'Assemblée nationale est venue,
+	L’Assemblée nationale est venue,
 et comme on ne peut réaliser deux contradictions,
-sa tâche, sa triste tâche, s'est bornée à retirer,
-le plus doucement possible, l'un après l'autre,
+sa tâche, sa triste tâche, s’est bornée à retirer,
+le plus doucement possible, l’un après l’autre,
 tous les décrets du gouvernement provisoire.
 ][
 	Cependant, pour ne pas rendre la déception trop cruelle,
 il a bien fallu transiger quelque peu.
 Certains engagements ont été maintenus,
-d'autres ont reçu un tout petit commencement d'exécution.
-Aussi l'administration actuelle s'efforce-t-elle
-d'imaginer de nouvelles taxes.
+d’autres ont reçu un tout petit commencement d’exécution.
+Aussi l’administration actuelle s’efforce-t-elle
+d’imaginer de nouvelles taxes.
 ][
 	Maintenant je me transporte par la pensée
-à quelques mois dans l'avenir,
-et je me demande, la tristesse dans l'âme,
-ce qu'il adviendra quand des agents de nouvelle création
+à quelques mois dans l’avenir,
+et je me demande, la tristesse dans l’âme,
+ce qu’il adviendra quand des agents de nouvelle création
 iront dans nos campagnes prélever les nouveaux impôts sur les successions,
-sur les revenus, sur les profits de l'exploitation agricole.
+sur les revenus, sur les profits de l’exploitation agricole.
 Que le Ciel démente mes pressentiments,
 mais je vois encore là un rôle à jouer pour les courtisans de popularité.
 ][
 	Lisez le dernier Manifeste des Montagnards,
-celui qu'ils ont émis à propos de l'élection présidentielle.
-Il est un peu long, mais, après tout, il se résume en deux mots:
-,(emph[L'État doit beaucoup donner aux citoyens et peu leur prendre]).
-C'est toujours la même tactique, ou, si l'on veut, la même erreur.
+celui qu’ils ont émis à propos de l’élection présidentielle.
+Il est un peu long, mais, après tout, il se résume en deux mots :
+,(emph[L’État doit beaucoup donner aux citoyens et peu leur prendre]).
+C’est toujours la même tactique, ou, si l’on veut, la même erreur.
 ][
-	,(q[L'État doit gratuitement l'instruction et l'éducation
+	,(q[L’État doit gratuitement l’instruction et l’éducation
 à tous les citoyens.]).
 ][
-	Il doit:
+	Il doit :
 ][
 	,(q[Un enseignement général et professionnel
 approprié autant que possible,
 aux besoins, aux vocations et aux capacités de chaque citoyen.])
 ][
-	Il doit:
+	Il doit :
 ][
 ,(q[Lui apprendre ses devoirs envers Dieu,
-envers les hommes et envers lui-même;
+envers les hommes et envers lui-même ;
 développer ses sentiments, ses aptitudes et ses facultés,
 lui donner enfin la science de son travail,
-l'intelligence de ses intérêts et la connaissance de ses droits.])
+l’intelligence de ses intérêts et la connaissance de ses droits.])
 ][
-	Il doit:
+	Il doit :
 ][
 ,(q[Mettre à la portée de tous les lettres et les arts,
-le patrimoine de la pensée, les trésors de l'esprit,
-toutes les jouissances intellectuelles qui élèvent et fortifient l'âme.])
+le patrimoine de la pensée, les trésors de l’esprit,
+toutes les jouissances intellectuelles qui élèvent et fortifient l’âme.])
 ][
-	Il doit:
+	Il doit :
 ][
 ,(q[Réparer tout sinistre, incendie, inondation, etc.
-(cet ,(inlatin[et caetera]) en dit plus qu'il n'est gros)
+(cet ,(inlatin[et caetera]) en dit plus qu’il n’est gros)
 éprouvé par un citoyen.])
 ][
-	Il doit: 
+	Il doit : 
 ][
 ,(q[Intervenir dans les rapports du capital avec le travail
 et se faire le régulateur du crédit.])
 ][
-	Il doit:
+	Il doit :
 ][
-,(q[A l'agriculture
+,(q[A l’agriculture
 	des encouragements sérieux et une protection efficace.])
 ][
-	Il doit:
+	Il doit :
 ][
 ,(q[Racheter les chemins de fer, les canaux, les mines,])
 et sans doute aussi les administrer
 avec cette capacité industrielle qui le caractérise.
 ][
-	Il doit:
+	Il doit :
 ][
 ,(q[provoquer les tentatives généreuses, les encourager
 et les aider par toutes les ressources capables de les faire triompher.
 Régulateur du crédit, il commanditera largement
 les associations industrielles et agricoles,
-afin d'en assurer le succès.])
+afin d’en assurer le succès.])
 ][
-L'État doit tout cela,
-sans préjudice des services auxquels il fait face aujourd'hui;
-et, par exemple, il faudra qu'il soit toujours
-à l'égard des étrangers dans une attitude menaçante;
+L’État doit tout cela,
+sans préjudice des services auxquels il fait face aujourd’hui ;
+et, par exemple, il faudra qu’il soit toujours
+à l’égard des étrangers dans une attitude menaçante ;
 car, disent les signataires du programme,
 ,(q[liés par cette solidarité sainte
 et par les précédents de la France républicaine,
 nous portons nos v,(oe)ux et nos espérances au-delà des barrières
-que le despotisme élève entre les nations:
+que le despotisme élève entre les nations :
 le droit que nous voulons pour nous,
-nous le voulons pour tous ceux qu'opprime le joug des tyrannies;
+nous le voulons pour tous ceux qu’opprime le joug des tyrannies ;
 nous voulons que notre glorieuse armée soit encore,
-s'il le faut, l'armée de la liberté.])
+s’il le faut, l’armée de la liberté.])
 ][
-	Vous voyez que la main douce de l'État,
+	Vous voyez que la main douce de l’État,
 cette bonne main qui donne et qui répand,
 sera fort occupée sous le gouvernement des Montagnards.
-Vous croyez peut-être qu'il en sera de même de la main rude,
-de cette main qui pénètre et puise dans nos poches?
+Vous croyez peut-être qu’il en sera de même de la main rude,
+de cette main qui pénètre et puise dans nos poches ?
 ][
 	Détrompez-vous.
 Les courtisans de popularité ne sauraient pas leur métier,
-s'ils n'avaient l'art, en montrant la main douce, de cacher la main rude.
+s’ils n’avaient l’art, en montrant la main douce, de cacher la main rude.
 ][
 	Leur règne sera assurément le jubilé du contribuable.
 ][
-,(q[C'est le superflu, disent-ils, non le nécessaire
-que l'impôt doit atteindre.])
+,(q[C’est le superflu, disent-ils, non le nécessaire
+que l’impôt doit atteindre.])
 ][
 	Ne sera-ce pas un bon temps que celui où,
 pour nous accabler de bienfaits,
-le fisc se contentera d'écorner notre superflu?
+le fisc se contentera d’écorner notre superflu ?
 ][
-	Ce n'est pas tout. Les Montagnards aspirent à ce que
-,(q[l'impôt perde son caractère oppressif
-et ne soit plus qu'un acte de fraternité.])
+	Ce n’est pas tout. Les Montagnards aspirent à ce que
+,(q[l’impôt perde son caractère oppressif
+et ne soit plus qu’un acte de fraternité.])
 ][
-	Bonté du ciel! je savais bien qu'il est de mode
+	Bonté du ciel ! je savais bien qu’il est de mode
 de fourrer la fraternité partout,
-mais je ne me doutais pas qu'on la pût mettre
+mais je ne me doutais pas qu’on la pût mettre
 dans le bulletin du percepteur.
 ][
-	Arrivant aux détails, les signataires du programme disent:
+	Arrivant aux détails, les signataires du programme disent :
 ]
-(q[Nous voulons l'abolition immédiate des impôts
+(q[Nous voulons l’abolition immédiate des impôts
 qui frappent les objets de première nécessité,
 comme le sel, les boissons, ,(inlatin[et caetera]).])
 
-(q[La réforme de l'impôt foncier, des octrois, des patentes.])
+(q[La réforme de l’impôt foncier, des octrois, des patentes.])
 
-[,(q[La justice gratuite, c'est-à-dire
+[,(q[La justice gratuite, c’est-à-dire
 la simplification des formes et la réduction des frais.])
 (Ceci a sans doute trait au timbre.)
 ][
 	Ainsi, impôt foncier, octrois, patentes, timbre,
 sel, boissons, postes, tout y passe.
 Ces messieurs ont trouvé le secret de donner une activité brûlante
-à la ,(emph[main douce]) de l'État tout en paralysant sa ,(emph[main rude]).
+à la ,(emph[main douce]) de l’État tout en paralysant sa ,(emph[main rude]).
 ][
 	Eh bien, je le demande au lecteur impartial,
-n'est-ce pas là de l'enfantillage,
-et, de plus, de l'enfantillage dangereux?
+n’est-ce pas là de l’enfantillage,
+et, de plus, de l’enfantillage dangereux ?
 Comment le peuple ne ferait-il pas révolution sur révolution,
-s'il est une fois décidé à ne s'arrêter
-que lorsqu'il aura réalisé cette contradiction:
-,(q[Ne rien donner à l'État et en recevoir beaucoup!])
+s’il est une fois décidé à ne s’arrêter
+que lorsqu’il aura réalisé cette contradiction :
+,(q[Ne rien donner à l’État et en recevoir beaucoup !])
 ][
 	Croit-on que si les Montagnards arrivaient au pouvoir,
 ils ne seraient pas les victimes
-des moyens qu'ils emploient pour le saisir?
+des moyens qu’ils emploient pour le saisir ?
 ][
 	Citoyens, dans tous les temps deux systèmes politiques
 ont été en présence,
 et tous les deux peuvent se soutenir par de bonnes raisons.
-Selon l'un, l'État doit beaucoup faire, mais aussi il doit beaucoup prendre.
-D'après l'autre, sa double action doit se faire peu sentir.
+Selon l’un, l’État doit beaucoup faire, mais aussi il doit beaucoup prendre.
+D’après l’autre, sa double action doit se faire peu sentir.
 Entre ces deux systèmes il faut opter.
 Mais quant au troisième système, participant des deux autres,
-et qui consiste à tout exiger de l'État sans lui rien donner,
+et qui consiste à tout exiger de l’État sans lui rien donner,
 il est chimérique, absurde, puéril, contradictoire, dangereux.
 ,(XXX [
-Note de Faré: le quatrième système, un Etat qui prend beaucoup et donne peu,
-est bien sûr le système qui de tout temps a le plus existé; c'est la tyrannie.
-Bastiat omet de présenter ce système en supposant qu'il est évident pour tous
-les lecteurs qu'il n'est pas désirable.
+Note de Faré : le quatrième système, un Etat qui prend beaucoup et donne peu,
+est bien sûr le système qui de tout temps a le plus existé ; c’est la tyrannie.
+Bastiat omet de présenter ce système en supposant qu’il est évident pour tous
+les lecteurs qu’il n’est pas désirable.
 ])
 Ceux qui le mettent en avant, pour se donner le plaisir
-d'accuser tous les gouvernements d'impuissance
+d’accuser tous les gouvernements d’impuissance
 et les exposer ainsi à vos coups,
 ceux-là vous flattent et vous trompent,
 ou du moins ils se trompent eux-mêmes.
 ][
-	Quant à nous, nous pensons que l'État,
-ce n'est ou ce ne devrait être autre chose
+	Quant à nous, nous pensons que l’État,
+ce n’est ou ce ne devrait être autre chose
 que la ,(emph[force commune]) instituée,
 non pour être entre tous les citoyens
-un instrument d'oppression et de spoliation réciproque,
+un instrument d’oppression et de spoliation réciproque,
 mais, au contraire,
 pour garantir à chacun le sien, et faire régner la justice et la sécurité.
-])])
+
+
+	])])
 (with-footer(p*[
-Extrait de l',(EO1863), tome IV, pp. 327-341.
+Extrait de l’,(EO1863), tome IV, pp. 327-341.
 ][
 Numérisé, mis en hypertexte par ,(FRR) pour ,(Bastiat.org).
 ])))

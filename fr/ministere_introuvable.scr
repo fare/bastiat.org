@@ -1,32 +1,31 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Circulaires d'un ministère introuvable
+(in-bof :title "Circulaires d’un ministère introuvable
 	- par Frédéric Bastiat")
-(document :title "Circulaires d'un ministère introuvable"
+(document :title "Circulaires d’un ministère introuvable"
 	:author (author-FB)
 (bastiat[
 ,(date-tag[19 Mars 1848.]) ; XXX mars?
-
-,(subtitle[Le ministre de l'intérieur à
-MM. les commissaires du gouvernement, préfets, maires, ,(emph[etc.])])
+,(subtitle[Le ministre de l’intérieur à
+MM. les commissaires du gouvernement, préfets, maires, ,(emph[etc.])])
 ,(p*[
-Les élections approchent;
-vous désirez que je vous indique la ligne de conduite que vous avez à tenir;
-la voici:
-Comme citoyens, je n'ai rien à vous prescrire,
-si ce n'est de puiser vos inspirations
-dans votre conscience et dans l'amour du bien public.
+Les élections approchent ;
+vous désirez que je vous indique la ligne de conduite que vous avez à tenir ;
+la voici :
+Comme citoyens, je n’ai rien à vous prescrire,
+si ce n’est de puiser vos inspirations
+dans votre conscience et dans l’amour du bien public.
 Comme fonctionnaires, respectez et faites respecter les libertés des citoyens.
 ][
 Nous interrogeons le pays.
-Ce n'est pas pour lui arracher, par l'intimidation ou la ruse,
+Ce n’est pas pour lui arracher, par l’intimidation ou la ruse,
 une réponse mensongère.
-Si l'Assemblée nationale a des vues conformes aux nôtres,
+Si l’Assemblée nationale a des vues conformes aux nôtres,
 nous gouvernerons, grâce à cette union, avec une autorité immense.
 Si elle ne pense pas comme nous,
-il ne nous restera qu'à nous retirer
+il ne nous restera qu’à nous retirer
 et nous efforcer de la ramener à nous par une discussion loyale.
-L'expérience nous avertit de ce qu'il en coûte
+L’expérience nous avertit de ce qu’il en coûte
 de vouloir gouverner avec des majorités factices.
 ])
 
@@ -34,15 +33,15 @@ de vouloir gouverner avec des majorités factices.
 ,(p*
 (strong[Citoyens,])
 [
-Mes prédécesseurs ont fait ou ont eu l'air
+Mes prédécesseurs ont fait ou ont eu l’air
 de faire de grands efforts pour vous procurer des affaires.
-Ils s'y sont pris de toutes façons, sans autre résultat que celui-ci:
+Ils s’y sont pris de toutes façons, sans autre résultat que celui-ci :
 aggraver les charges de la nation et nous créer des obstacles.
 Tantôt ils forçaient les exportations par primes,
 tantôt ils gênaient les importations par des entraves.
-Il leur est arrivé souvent de s'entendre
+Il leur est arrivé souvent de s’entendre
 avec leurs collègues de la marine et de la guerre
-pour s'emparer d'une petite île perdue dans l'Océan,
+pour s’emparer d’une petite île perdue dans l’Océan,
 et quand, après force emprunts et batailles, on avait réussi,
 on vous donnait, comme Français, le privilège exclusif
 de trafiquer avec la petite île,
@@ -51,72 +50,72 @@ de trafiquer avec la petite île,
 Tous ces tâtonnements ont conduit à reconnaître
 la vérité de cette règle, dans laquelle se confondent
 	et votre intérêt propre,
-	et l'intérêt national,
-	et l'intérêt de l'humanité:
-,(emph[acheter et vendre là où on peut le faire avec le plus d'avantage]).
+	et l’intérêt national,
+	et l’intérêt de l’humanité :
+,(emph[acheter et vendre là où on peut le faire avec le plus d’avantage]).
 ][
-Or, comme c'est là ce que vous faites naturellement sans que je m'en mêle,
-je suis réduit à avouer que mes fonctions sont plus qu'inutiles;
+Or, comme c’est là ce que vous faites naturellement sans que je m’en mêle,
+je suis réduit à avouer que mes fonctions sont plus qu’inutiles ;
 ,(emph[je ne suis pas même la mouche du coche]).
 ][
-C'est pourquoi je vous donne avis que mon ministère est supprimé.
+C’est pourquoi je vous donne avis que mon ministère est supprimé.
 La République supprime en même temps toutes les entraves
 dans lesquelles mes prédécesseurs vous ont enlacés,
-et tous les impôts qu'il faut bien faire payer au peuple
+et tous les impôts qu’il faut bien faire payer au peuple
 pour mettre ces entraves en action.
-Je vous prie de me pardonner le tort que je vous ai fait;
-et pour me prouver que vous n'avez pas de rancune,
-j'espère que l'un d'entre vous
-voudra bien m'admettre comme commis dans ses bureaux,
-afin que j'apprenne le commerce,
-pour lequel mon court passage au ministère m'a donné du goût.
+Je vous prie de me pardonner le tort que je vous ai fait ;
+et pour me prouver que vous n’avez pas de rancune,
+j’espère que l’un d’entre vous
+voudra bien m’admettre comme commis dans ses bureaux,
+afin que j’apprenne le commerce,
+pour lequel mon court passage au ministère m’a donné du goût.
 ])
-,(subtitle[Le ministre de l'agriculture aux agriculteurs])
+,(subtitle[Le ministre de l’agriculture aux agriculteurs])
 ,(p*
 (strong[Citoyens,])
 [
-Un heureux hasard m'a suggéré une pensée
-qui ne s'était jamais présentée à l'esprit de mes prédécesseurs;
-c'est que vous appartenez comme moi à l'espèce humaine.
+Un heureux hasard m’a suggéré une pensée
+qui ne s’était jamais présentée à l’esprit de mes prédécesseurs ;
+c’est que vous appartenez comme moi à l’espèce humaine.
 Vous avez une intelligence pour vous en servir, et, de plus,
-cette source véritable de tous progrès, le désir d'améliorer votre condition.
+cette source véritable de tous progrès, le désir d’améliorer votre condition.
 ][
 Partant de là, je me demande à quoi je puis vous servir.
-Vous enseignerai-je l'agriculture?
+Vous enseignerai-je l’agriculture ?
 Mais il est probable que vous la savez mieux que moi.
-Vous inspirerai-je le désir de substituer les bonnes pratiques aux mauvaises?
-Mais ce désir est en vous au moins autant qu'en moi.
+Vous inspirerai-je le désir de substituer les bonnes pratiques aux mauvaises ?
+Mais ce désir est en vous au moins autant qu’en moi.
 Votre intérêt le fait naitre,
 et je ne vois pas comment mes circulaires pourraient parler à vos oreilles
 plus haut que votre propre intérêt.
 ][
 Le prix des choses vous est connu.
 Vous avez donc une règle qui vous indique
-ce qu'il vaut mieux produire ou ne produire pas.
+ce qu’il vaut mieux produire ou ne produire pas.
 Mon prédécesseur voulait vous procurer du travail manufacturier
 pour occuper vos jours de chômage.
 Vous pourriez, disait-il,
 vous livrer à ce travail avec avantage pour vous et pour le consommateur.
-Mais de deux choses l'une:
+Mais de deux choses l’une :
 ou cela est vrai,
-et alors qu'est-il besoin d'un ministère
-pour vous signaler un travail lucratif à votre portée?
+et alors qu’est-il besoin d’un ministère
+pour vous signaler un travail lucratif à votre portée ?
 Vous le découvrirez bien vous-mêmes,
-si vous n'êtes pas d'une race inférieure frappée d'idiotisme;
-hypothèse sur laquelle est basé mon ministère et que je n'admets pas.
-Ou cela n'est pas vrai;
+si vous n’êtes pas d’une race inférieure frappée d’idiotisme ;
+hypothèse sur laquelle est basé mon ministère et que je n’admets pas.
+Ou cela n’est pas vrai ;
 en ce cas, combien ne serait-il pas dommageable
 que le ministre imposât un travail stérile à tous les agriculteurs de France,
-par mesure administrative!
+par mesure administrative !
 ][
-Jusqu'ici, mes collaborateurs et moi
+Jusqu’ici, mes collaborateurs et moi
 nous sommes donné beaucoup de mouvement sans aucun résultat,
-si ce n'est de vous faire payer des taxes,
-car notez bien qu'à chacun de nos mouvements répond une taxe.
-Cette circulaire même n'est pas gratuite.
+si ce n’est de vous faire payer des taxes,
+car notez bien qu’à chacun de nos mouvements répond une taxe.
+Cette circulaire même n’est pas gratuite.
 Ce sera la dernière.
-Désormais, pour faire prospérer l'agriculture,
-comptez sur vos efforts et non sur ceux de mes bureaucrates;
+Désormais, pour faire prospérer l’agriculture,
+comptez sur vos efforts et non sur ceux de mes bureaucrates ;
 tournez vos yeux sur vos champs et non sur un hôtel de la rue de Grenelle.
 ])
 ,(subtitle[Le ministre des cultes aux ministres de la religion])
@@ -125,34 +124,35 @@ tournez vos yeux sur vos champs et non sur un hôtel de la rue de Grenelle.
 [
 Cette lettre a pour objet de prendre congé de vous.
 La liberté des cultes est proclamée.
-Vous n'aurez affaire désormais, comme tous les citoyens,
-qu'au ministre de la justice.
+Vous n’aurez affaire désormais, comme tous les citoyens,
+qu’au ministre de la justice.
 Je veux dire que si, ce que je suis loin de prévoir,
 vous usez de votre liberté de manière à
-blesser la liberté d'autrui, troubler l'ordre, ou choquer l'honnêteté,
+blesser la liberté d’autrui, troubler l’ordre, ou choquer l’honnêteté,
 vous rencontrerez infailliblement la répression légale,
 à laquelle nul ne doit être soustrait.
-Hors de là, vous agirez comme vous l'entendrez, et cela étant,
+Hors de là, vous agirez comme vous l’entendrez, et cela étant,
 je ne vois pas en quoi je puis vous être utile.
-Moi et toute la vaste administration-que je dirige,
+Moi et toute la vaste administration que je dirige,
 nous devenons un fardeau pour le public.
-Ce n'est pas assez dire;
+Ce n’est pas assez dire ;
 car à quoi pourrions-nous occuper notre temps
-sans porter atteinte à la liberté de conscience?
+sans porter atteinte à la liberté de conscience ?
 Évidemment, tout fonctionnaire qui ne fait pas une chose utile,
-en fait une nuisible par cela seul qu'il agit.
+en fait une nuisible par cela seul qu’il agit.
 En nous retirant,
-nous remplissons donc deux conditions du programme républicain:
+nous remplissons donc deux conditions du programme républicain :
 économie, liberté.
 ])
 ,(tag :p :align 'right [Le Secrétaire du ministère introuvable, ,(br)
 			F. B.])
+
 ])
 (with-footer
 (p*[
 Extrait de l’,(EO1863),
 tome II, ,(cite-title[Libre-Échange]),
-texte 69, ,(cite-title[Circulaires d'un ministère introuvable]), pp. 462-465.
+texte 69, ,(cite-title[Circulaires d’un ministère introuvable]), pp. 462-465.
 ][
 Texte numérisé, mis en hypertexte et relu par ,(FRR) pour ,(Bastiat.org).
 ])))

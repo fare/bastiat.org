@@ -5,7 +5,8 @@
 
 (document :title "Lettres à Félix Coudroy"
 	:author (author-FB)
-(itemize
+(sommaire[
+,(itemize
   (item (ref :url "lettre_coudroy1824.html" [15 décembre 1824]))
   (item (ref :url "lettre_coudroy1825.html" [8 janvier 1825]))
   (item (ref :url "lettre_coudroy1827a.html" [9 avril 1827]))
@@ -58,4 +59,5 @@
   (item (ref :url "lettre_coudroy1850a.html" [Janvier 1850]))
   (item (ref :url "lettre_coudroy1850b.html" [9 septembre 1850]))
   (item (ref :url "lettre_coudroy1850c.html" [11 novembre 1850]))
-  ))
+  )
+  ]))
