@@ -118,7 +118,7 @@ sup {line-height: 0;}
 	margin: 3em auto;
 	font-family: "berenis";
 	font-size: 1.2em;
-	line-height: 1.5em;
+	line-height: 1.8em;
 }
 @media only screen and (max-width: 25cm) {
 	.bastiat {
@@ -294,4 +294,31 @@ span[style="font-variant: small-caps"] {
 	float: right;
 	right:0;
 	text-align: left;
+}
+
+
+
+
+/*Index des personnes*/
+.personne {
+	text-align: justify;
+	margin: 2em;
+}
+
+.personne p {
+	position: relative;
+}
+
+.personne p:nth-child(2) {
+	width: 75%;
+}
+
+.personne span.dates {
+	font-weight: bold;
+	position: absolute;
+	right: 0; top: 0;
+}
+
+.personne span.nom {
+	font-variant: small-caps;
 }

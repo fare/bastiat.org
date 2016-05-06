@@ -1,7 +1,6 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Index des noms de personnes")
-(document :title "Index des noms de personnes"
 
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
@@ -34,251 +33,254 @@
 ,(a :href :#z [Z])
 ]))
 
-(alphabet)
-
-(tag :a :name "a")
-(subtitle[A])
-(alphabet)
-	
-	(tag :a :name "anisson")
-	(p*[Anisson-Dupéron, Alexandre-Jacques-Laurent, 1776-1852]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "arago")
-	(p*[François Arago, 1786-1853]
-	[,(ref :url "2pertes_1profit.html" [Deux pertes contre un profit])])
-
-	(tag :a :name "argout")
-	(p*[Argout, Antoine d’, 1782-1858]
-	[,(ref :url "abondance_disette.html" [Abondance, disette])])
-
-(tag :a :name "b")
-(subtitle[B])
-(alphabet)
-
-	(tag :a :name "beaumarchais")
-	(p*[Beaumarchais, Pierre-Augustin Caron de, 1732-1799]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "beranger")
-	(p*[Béranger, Pierre-Jean de, 1780-1857]
-	[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
-
-	(tag :a :name "blaise")
-	(p*[Blaise, Adolphe-Gustave, 1811-1886]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "blanqui")
-	(p*[Blanqui, Adolphe, 1798-1854]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "bugeaud")
-	(p*[Bugeaud, Thomas Robert, 1784-1849]
-	[,(ref :url "abondance_disette.html" [Abondance, disette])])
-
-(tag :a :name "c")
-(subtitle[C])
-(alphabet)
-	
-	(tag :a :name "chevalier")
-	(p*[Chevalier, Michel, 1806-1879]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "cobden")
-	(p*[Cobden, Richard, 1804-1865]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "colbert")
-	(p*[Colbert, Jean-Baptiste, 1619-1683]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "correge")
-	(p*[Antonio Allegri da Correggio, dit le Corrège, 1489-1534]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-(tag :a :name "d")
-(subtitle[D])
-(alphabet)
-
-	(tag :a :name "duchatel")
-	(p*[Tanneguy Duchâtel, 1803-1867]
-	[,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur])])
-
-(tag :a :name "f")
-(subtitle[F])
-(alphabet)
-
-	(tag :a :name "faucher")
-	(p*[Faucher, Léon, 1803-1854]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "g")
-(subtitle[G])
-(alphabet)
-	
-	(tag :a :name "garnier")
-	(p*[Garnier, Joseph, 1813-1881]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "girardin")
-	(p*[Émile de Girardin, 1802-1881]
-	[,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
-
-(tag :a :name "h")
-(subtitle[H])
-(alphabet)
-	
-	(tag :a :name "harcourt")
-	(p*[Harcourt, Eugène, duc d’, 1786-1865]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "j")
-(subtitle[J])
-(alphabet)
-
-	(tag :a :name "jobard")
-	(p*[Marcellin Jobard, 1792-1861]
-	[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
-
-(tag :a :name "l")
-(subtitle[L])
-(alphabet)
-
-	(tag :a :name "leclerc")
-	(p*[Leclerc, Louis, 1786-1873]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "m")
-(subtitle[M])
-(alphabet)
-
-	(tag :a :name "malthus")
-	(p*[Thomas Malthus, 1766-1834]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-	(tag :a :name "mimerel")
-	(p*[Mimerel, Auguste, 1786-1871]
-	[,(ref :url "abondance_disette.html" [Abondance, disette])])
-
-	(tag :a :name "montaigne")
-	(p*[Michel de Montaigne, 1533-1592]
-	[,(ref :url "abondance_disette.html" [Abondance, disette]) ;
-	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "n")
-(subtitle[N])
-(alphabet)
-
-	(tag :a :name "noailles")
-	(p*[Noailles, Paul de, 1802-1885]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "o")
-(subtitle[O])
-(alphabet)
-
-	(tag :a :name "odier")
-	(p*[Odier, Antoine, 1766-1853]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "p")
-(subtitle[P])
-(alphabet)
-
-	(tag :a :name "peel")
-	(p*[Robert Peel, 1788-1850]
-	[,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse]) ;
-	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "r")
-(subtitle[R])
-(alphabet)
-
-	(tag :a :name "racine")
-	(p*[Jean Racine, 1639-1699]
-	[,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur]) : citation d’,(cite-title[Iphigénie en Aulide]), Acte IV sc. 5 : “Un bruit assez étrange est venu jusqu’à moi, / Seigneur ; je l’ai jugé trop peu digne de foi. / On dit, et sans horreur je ne puis le redire, / Qu’aujourd’hui par votre ordre Iphigénie expire…”])
-
-	(tag :a :name "regnard")
-	(p*[Jean-François Regnard, 1655-1709]
-	[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n'ai pas un sou.”])
-
-	(tag :a :name "reybaud")
-	(p*[Reybaud, Louis, 1799-1879]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "ricardo")
-	(p*[David Ricardo, 1772-1823]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-	(tag :a :name "rothschild")
-	(p*[James de Rothschild, 1792-1868]
-	[,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
-
-	(tag :a :name "rousseau")
-	(p*[Jean-Jacques Rousseau, 1712-1778]
-	[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
-
-(tag :a :name "s")
-(subtitle[S])
-(alphabet)
-
-	(tag :a :name "stcricq")
-	(p*[Saint-Cricq, Pierre de, 1772-1854]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-	(tag :a :name "say_h")
-	(p*[Say, Horace, 1794-1860]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-	(tag :a :name "shakespeare")
-	(p*[Shakespeare, William, 1564-1616]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-	(tag :a :name "sismondi")
-	(p*[Sismondi, Jean de, 1773-1842]
-	[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
-
-	(tag :a :name "sully")
-	(p*[Sully, Maximilien de Béthune, duc de, 1559-1641]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "t")
-(subtitle[T])
-(alphabet)
-
-	(tag :a :name "thompson_tp")
-	(p*[Thomas Perronet Thompson, 1783-1869]
-	[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
-
-	(tag :a :name "tocqueville")
-	(p*[Alexis de Tocqueville, 1805-1859]
-	[,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])])
-
-	(tag :a :name "triptoleme")
-	(p*[Triptolème]
-	[,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
-
-	(tag :a :name "turgot")
-	(p*[Turgot, Anne Robert Jacques, 1727-1781]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
-
-(tag :a :name "v")
-(subtitle[V])
-(alphabet)
-
-	(tag :a :name "voltaire")
-	(p*[François-Marie Arouet, dit Voltaire, 1694-1778]
-	[,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
-
-(tag :a :name "w")
-(subtitle[W])
-(alphabet)
-
-	(tag :a :name "walker")
-	(p*[Robert John Walker, 1801-1869]
-	[,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
-
-	(tag :a :name "wolowski")
-	(p*[Wolowski, Louis, 1810-1876]
-	[,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])])
+(defun
+	lettre
+	(x &rest r)
+	(div :class "lettre" [
+		,(tag :a :name x)
+		,(subtitle x)
+		,(alphabet)
+		,(hrule)
+	] r (hrule))
 )
+
+(defun
+	personne
+	(id nom prenom dates &rest details)
+	(div :class "personne" [
+		,(tag :a :name id)
+		,(p (span :class "nom" nom) " " prenom ". " (span :class "dates" dates) )
+	] details)
+)
+
+(defun
+	personne1nom
+	(id nom dates &rest details)
+	(div :class "personne" :id id [
+		,(p (span :class "nom" nom) ". " (span :class "dates" dates) )
+	] details)
+)
+
+
+
+(document :title "Index des noms de personnes"
+(sommaire [
+
+,(lettre "A" [
+
+,(personne "anisson" "Anisson-Dupéron" "Alexandre-Jacques-Laurent" "1776-1852"[
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "arago" "Arago" "François" "1786-1853" [
+,(ref :url "2pertes_1profit.html" [Deux pertes contre un profit])
+])
+
+,(personne "argout" "d’Argout" "Antoine" "1782-1858" [
+,(ref :url "abondance_disette.html" [Abondance, disette])
+])
+
+])
+,(lettre "B" [
+
+,(personne "beaumarchais" "Beaumarchais" "Pierre-Augustin Caron de" "1732-1799" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "beranger" "de Béranger" "Pierre-Jean" "1780-1857" [
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+
+,(personne "blaise" "Blaise" "Adolphe-Gustave" "1811-1886" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "blanqui" "Blanqui" "Adolphe" "1798-1854" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "bugeaud" "Bugeaud" "Thomas Robert" "1784-1849" [
+,(ref :url "abondance_disette.html" [Abondance, disette])
+])
+
+])
+,(lettre "C" [
+
+,(personne "chevalier" "Chevalier" "Michel" "1806-1879" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "cobden" "Cobden" "Richard" "1804-1865" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "colbert" "Colbert" "Jean-Baptiste" "1619-1683" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "correge" "Correggio" "Antonio Allegri da" "1489-1534" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+])
+,(lettre "D" [
+
+,(personne "duchatel" "Duchâtel" "Tanneguy" "1803-1867" [
+,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur])
+])
+	
+])
+,(lettre "F" [
+,(personne "faucher" "Faucher" "Léon" "1803-1854" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "G" [
+,(personne "garnier" "Garnier" "Joseph" "1813-1881" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "girardin" "de Girardin" "Émile" "1802-1881" [
+,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])
+])
+
+])	
+,(lettre "H" [
+,(personne "harcourt" "d’Harcourt" "Eugène, duc" "1786-1865" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "J" [
+,(personne "jobard" "Jobard" "Marcellin" "1792-1861" [
+,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+])
+
+])
+,(lettre "L" [
+
+,(personne "leclerc" "Leclerc" "Louis" "1786-1873" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "M" [
+,(personne "malthus" "Malthus" "Thomas" "1766-1834" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
+,(ref :url "abondance_disette.html" [Abondance, disette])
+])
+
+,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
+,(ref :url "abondance_disette.html" [Abondance, disette]) ;
+	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "N" [
+,(personne "noailles" "de Noailles" "Paul" "1802-1885" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "O" [
+,(personne "odier" "Odier" "Antoine" "1766-1853" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "P" [
+,(personne "peel" "Peel" "Robert" "1788-1850" [
+,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse]) ;
+	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "R" [
+
+,(personne "racine" "Racine" "Jean" "1639-1699" [
+,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur]) : citation d’,(cite-title[Iphigénie en Aulide]), Acte IV sc. 5 : “Un bruit assez étrange est venu jusqu’à moi, / Seigneur ; je l’ai jugé trop peu digne de foi. / On dit, et sans horreur je ne puis le redire, / Qu’aujourd’hui par votre ordre Iphigénie expire…”
+])
+
+,(personne "regnard" "Regnard" "Jean-François" "1655-1709" [
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n'ai pas un sou.”
+])
+
+,(personne "reybaud" "Reybaud" "Louis" "1799-1879" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "ricardo" "Ricardo" "David" "1772-1823" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "rothschild" "de Rothschild" "James" "1792-1868" [
+,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])
+])
+
+,(personne "rousseau" "Rousseau" "Jean-Jacques" "1712-1778" [
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+
+])
+,(lettre "S" [
+,(personne "stcricq" "de Saint-Cricq" "Pierre" "1772-1854" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "say_h" "Say" "Horace" "1794-1860" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "sismondi" "de Sismondi" "Jean" "1773-1842" [
+,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+])
+
+,(personne "sully" "Sully" "Maximilien de Béthune, duc de" "1559-1641" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "T" [
+,(personne "thompson_tp" "Thompson" "Thomas Perronet" "1783-1869" [
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+
+,(personne "tocqueville" "Tocqueville" "Alexis de" "1805-1859" [
+,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne1nom "triptoleme" "Triptolème" "légendaire" [
+,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+])
+
+,(personne "turgot" "Turgot" "Anne Robert Jacques" "1727-1781" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+,(lettre "V" [
+,(personne "voltaire" "Voltaire" "François-Marie Arouet, dit" "1694-1778" [
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+])
+,(lettre "W" [
+,(personne "walker" "Walker" "Robert John" "1801-1869" [
+,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])
+])
+
+,(personne "wolowski" "Wolowski" "Louis" "1810-1876" [
+,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+])
+
+	
+]))
