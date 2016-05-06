@@ -34,14 +34,14 @@
 ]))
 
 (defun
-	lettre
-	(x &rest r)
-	(div :class "lettre" [
-		,(tag :a :name x)
-		,(subtitle x)
-		,(alphabet)
-		,(hrule)
-	] r (hrule))
+  lettre
+  (x &rest r)
+  (div :class "lettre" [
+    ,(tag :a :name x)
+    ,(subtitle x)
+    ,(alphabet)
+    ,(hrule)
+  ] r (hrule))
 )
 
 (defun
@@ -77,7 +77,7 @@
 ])
 
 ,(personne "argout" "d’Argout" "Antoine" "1782-1858" [
-,(ref :url "abondance_disette.html" [Abondance, disette])
+,(ref :url "abondance_disette.html#argout_ref" [Abondance, disette])
 ])
 
 ])
@@ -85,6 +85,10 @@
 
 ,(personne "beaumarchais" "Beaumarchais" "Pierre-Augustin Caron de" "1732-1799" [
 ,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "bentham" "Bentham" "Jeremy" "1748-1832" [
+,(ref :url "introduction_sophismes.html" [Épigraphe de la première série des Sophismes économiques.])
 ])
 
 ,(personne "beranger" "de Béranger" "Pierre-Jean" "1780-1857" [
@@ -99,8 +103,13 @@
 ,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
 ])
 
+,(personne "bonaparte" "Bonaparte" "Napoléon" "1769-1821" [
+,(ref :url "introduction_sophismes.html#bonaparte_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
+])
+
 ,(personne "bugeaud" "Bugeaud" "Thomas Robert" "1784-1849" [
-,(ref :url "abondance_disette.html" [Abondance, disette])
+,(ref :url "abondance_disette.html#bugeaud_ref" [Abondance, disette 1]),
+,(ref :url "abondance_disette.html#bugeaud_ref2" [2])
 ])
 
 ])
@@ -171,11 +180,13 @@
 ])
 
 ,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
-,(ref :url "abondance_disette.html" [Abondance, disette])
-])
+,(p*[
+][Comité Mimerel :
+,(ref :url "abondance_disette.html#mimerel_ref" [Abondance, disette])
+])])
 
 ,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
-,(ref :url "abondance_disette.html" [Abondance, disette]) ;
+,(ref :url "abondance_disette.html#montaigne_ref" [Abondance, disette]) ;
 	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
 ])
 
@@ -206,7 +217,7 @@
 ])
 
 ,(personne "regnard" "Regnard" "Jean-François" "1655-1709" [
-,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n'ai pas un sou.”
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n’ai pas un sou.”
 ])
 
 ,(personne "reybaud" "Reybaud" "Louis" "1799-1879" [
@@ -215,6 +226,10 @@
 
 ,(personne "ricardo" "Ricardo" "David" "1772-1823" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "romanet" "Romanet" "? vicomte de" "?" [
+,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
 ])
 
 ,(personne "rothschild" "de Rothschild" "James" "1792-1868" [
@@ -228,7 +243,7 @@
 ])
 ,(lettre "S" [
 ,(personne "stcricq" "de Saint-Cricq" "Pierre" "1772-1854" [
-,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette])
 ])
 
 ,(personne "say_h" "Say" "Horace" "1794-1860" [

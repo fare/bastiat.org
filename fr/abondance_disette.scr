@@ -3,8 +3,15 @@
 (in-bof :title "Abondance, Disette - par Frédéric Bastiat")
 (document :title "Abondance, Disette"
 	:author (author-FB)
-(subtitle[Chapitre I de la ,(Iere) série des ,(SophismesEconomiques)])
 (bastiat[
+,(date-tag [,(tj "je" [,(cite-title[Journal des économistes])]), n° d’avril 1845.])
+,(p :class "noselect" [Cette courte introduction figure uniquement dans le Journal des Économistes.])
+,(p*[
+S’il est encore des lecteurs qui, dans la plus importante des questions économiques, consentent à prêter une attention sérieuse et soutenue à des dissertations de pure théorie, je dois croire qu’ils se rencontrent surtout parmi les abonnés de ce journal. C’est ce qui m’enhardit, après bien des hésitations, à y publier une réfutation des principaux sophismes sur lesquels s’appuie le régime prohibitif ou protecteur. Je n’ai pas la folle présomption de détruire, en quelques pages, des préjugés invétérés que tant et de si bons écrits ont pu à peine ébranler. Mais j’aspire à faire naître au moins le doute, surtout parmi les jeunes intelligences que n’obstruent pas encore des idées préconçues. Je ne leur offre point des solutions toutes faites, mais des thèmes sur lesquels elles auront à s’exercer. Lorsqu’on n’est pas de force à porter le lecteur jusqu’au but, c’est quelque chose encore que de le mettre sur la voie.
+])
+
+,(h2 [Chapitre I de la I,(re) série des ,(SophismesEconomiques)])
+
 ,(p*[
 Qu’est-ce qui vaut mieux pour l’homme et pour la société,
 l’abondance ou la disette ?
@@ -32,7 +39,7 @@ N’entend-on pas dire tous les jours :
 ,(q[L’étranger va nous inonder de ses produits]) ?
 ,(XXX :EO [ ? dans les guillemets])
 Donc on redoute l’abondance.
-][
+][,(tag :a :name "stcricq_ref")
 ,(np "stcricq" [M. de Saint-Cricq]) n’a-t-il pas dit :
 	,(q[La production surabonde]) ?
 ,(XXX :EO [ ? dans les guillemets])
@@ -40,12 +47,12 @@ Donc il craignait l’abondance.
 ][
 Les ouvriers ne brisent-ils pas les machines ?
 Donc ils s’effraient de l’excès de la production ou de l’abondance.
-][
+][,(tag :a :name "bugeaud_ref")
 ,(np "bugeaud" [M. Bugeaud]) n’a-t-il pas prononcé ces paroles :
 ,(q[Que le pain soit cher, et l’agriculteur sera riche !])
 Or, le pain ne peut être cher que parce qu’il est rare ;
 donc ,(np "bugeaud" [M. Bugeaud]) préconisait la disette.
-][
+][,(tag :a :name "argout_ref")
 ,(np "argout" [M. d’Argout]) ne s’est-il pas fait un argument
 contre l’industrie sucrière de sa fécondité même ?
 Ne disait-il pas : ,(q[La betterave n’a pas d’avenir,
@@ -55,7 +62,7 @@ pour pourvoir à toute la consommation de la France]) ?
 ,(XXX :EO [ ? dans les guillemets])
 Donc, à ses yeux, le bien est dans la stérilité, dans la disette ;
 le mal, dans la fertilité, dans l’abondance.
-][
+][,(tag :a :name "presse_ref")
 La ,(tj "presse" [,(cite-title[Presse])]), le ,(tj "commerce" [,(cite-title[Commerce])])
 et la plupart des journaux quotidiens
 ne publient-ils pas un ou plusieurs articles chaque matin
@@ -144,7 +151,7 @@ s’il consommait directement le fruit de son labeur,
 en un mot, ,(emph[s’il n’échangeait pas]),
 jamais la théorie de la disette n’eût pu s’introduire dans le monde.
 Il est trop évident que l’abondance lui serait avantageuse,
-de quelque part qu’elle lui vint,
+de quelque part qu’elle lui vînt,
 soit qu’elle fût le résultat de son industrie,
 d’ingénieux outils, de puissantes machines qu’il aurait inventées,
 soit qu’il la dût à la fertilité du sol,
@@ -189,7 +196,7 @@ se livrent au même travail que lui ;
 2° que le plus grand nombre possible de personnes
 recherchent le produit de ce même travail ;
 ce que l’économie politique explique plus succinctement en ces termes :
-que l’offre soit très restreinte et la demande très étendue ;
+que l’offre soit très-restreinte et la demande très-étendue ;
 en d’autres termes encore : concurrence limitée, débouchés illimités.
 ][
 Quel est l’intérêt immédiat du consommateur ?
@@ -220,6 +227,7 @@ et précisément pour que ce besoin,
 vivement senti et imparfaitement satisfait,
 détermine à nous en donner un haut prix :
 ,(emph[c’est encore la théorie de la disette]).
+,(tag :a :name "bugeaud_ref2")
 Sommes-nous laboureurs ?
 nous disons, avec ,(np "bugeaud" [M. Bugeaud]) :
 Que le pain soit cher, c’est-à-dire rare,
@@ -261,7 +269,7 @@ par exemple, en excluant les tissus étrangers,
 afin de diminuer la ,(emph[quantité offerte]),
 et de produire ainsi, par l’emploi de la force et à notre profit,
 la ,(emph[rareté]) des vêtements.
-][
+][,(tag :a :name "montaigne_ref")
 Nous passerions ainsi toutes les industries en revue,
 et nous trouverions toujours que les producteurs, en tant que tels,
 ont des vues antisociales.
@@ -286,7 +294,7 @@ celui-ci au mulet, et le mulet au porte-balle.
 La laine exclurait le coton, le coton exclurait la laine, et ainsi de suite,
 jusqu’à ce que la disette de toutes choses
 eût fait disparaître l’homme même de dessus la surface du globe.
-][
+][,(tag :a :name "mimerel_ref")
 Supposez pour un moment que la puissance législative et la force publique
 fussent mises à la disposition du comité ,(np "mimerel" [Mimerel]),
 et que chacun des membres qui composent cette association
@@ -352,16 +360,17 @@ la suppression de toutes les mesures restrictives,
 le renversement de toutes les barrières artificielles,
 en un mot, à réaliser la théorie de l’abondance.
 ][
-Il suit de là :
-][
-Que consulter exclusivement l’intérêt immédiat de la production,
+Il suit de là :])
+
+,(liste[
+	,(p*[Que consulter exclusivement l’intérêt immédiat de la production,
 c’est consulter un intérêt antisocial ;
-][
-Que ,(XXX :sic [majuscule])
-prendre exclusivement pour base l’intérêt immédiat de la consommation,
-ce serait prendre pour base l’intérêt général.
-][
-Qu’il me soit permis d’insister encore sur ce point de vue,
+	][
+	Que prendre exclusivement pour base l’intérêt immédiat de la consommation,
+ce serait prendre pour base l’intérêt général.])
+])
+
+,(p*[Qu’il me soit permis d’insister encore sur ce point de vue,
 au risque de me répéter.
 ][
 Un antagonisme radical existe entre le vendeur et l’acheteur
@@ -371,14 +380,15 @@ Voir ,(Har-ref[Harmonies économiques]),
 ,(bof-ref "producteur_consommateur" [chap. XI]).
 ,(NdEEO)
 ]).
-][
-Celui-là désire que l’objet du marché soit ,(emph[rare]),
+])
+
+,(liste[,(p*[Celui-là désire que l’objet du marché soit ,(emph[rare]),
 peu offert, à un prix élevé.
 ][
 Celui-ci le souhaite ,(emph[abondant]),
-très-offert, à bas prix.
-][
-Les lois, qui devraient être au moins neutres,
+très-offert, à bas prix.])])
+
+,(p*[Les lois, qui devraient être au moins neutres,
 prennent parti pour le vendeur contre l’acheteur,
 pour le producteur contre le consommateur,
 pour la cherté contre le bon marché

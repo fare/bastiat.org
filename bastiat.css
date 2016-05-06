@@ -127,6 +127,14 @@ sup {line-height: 0;}
 	}
 }
 
+.bastiat h2 {
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 2em 0;
+	font-family: accanthis;
+}
+
 .bastiat p {
 	text-indent: 1.4em;
 	margin: 0.8em 0;
@@ -141,9 +149,11 @@ sup {line-height: 0;}
 	margin: 0.4em 0;
 }
 
-.bastiat .noselect {
+.bastiat p.noselect {
 	color: #444;
 	text-align: right;
+	font-style: italic;
+	padding-top: 2em;
 	user-select: none;
 	-webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -199,7 +209,7 @@ span[style="font-variant: small-caps"] {
 
 .datetag {
 	text-align: right;
-	padding-bottom: 2em;
+	margin-bottom: 2em;
 	font-size: 0.9em;
 }
 
@@ -300,7 +310,7 @@ span[style="font-variant: small-caps"] {
 
 
 /*Index des personnes*/
-.personne {
+.personne, .journal {
 	text-align: justify;
 	margin: 2em;
 }
@@ -314,11 +324,16 @@ span[style="font-variant: small-caps"] {
 }
 
 .personne span.dates {
-	font-weight: bold;
+	
 	position: absolute;
 	right: 0; top: 0;
 }
 
 .personne span.nom {
 	font-variant: small-caps;
+	font-size: 1.4em;
+}
+
+.journal .titre {
+	font-style: italic;
 }

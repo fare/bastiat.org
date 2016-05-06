@@ -1,6 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Index des titres de journaux")
+
 (document :title "Index des titres de journaux"
 
 ;Alphabet à répéter sous chaque lettre
@@ -14,29 +15,64 @@
 ,(a :href :#p [P])
 ]))
 
+(defun
+  lettre
+  (x &rest r)
+  (div :class "lettre" [
+    ,(tag :a :name x)
+    ,(subtitle x)
+    ,(alphabet)
+    ,(hrule)
+  ] r (hrule))
+)
+
+(defun
+	journal
+	(id titre &rest r)
+	(div :class "journal" [
+		,(tag :a :name id)
+		,(p :class "titre" titre)
+	] r)
+)
+
+(defun
+	journalpage
+	(id titre adresse &rest r)
+	(div :class "journal" [
+		,(tag :a :name id)
+		,(p :class "titre" [,(ref :url adresse titre)])
+	] r)
+)
+
+
 (sommaire[
 
 ,(alphabet)
 
-,(tag :a :name "b")
-,(subtitle[B])
-,(alphabet)
 
-	,(tag :a :name "boston")
-	,(p*[Boston Atlas]
-	[Simples allusions : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
+,(lettre "B" [
 
-,(tag :a :name "c")
-,(subtitle[C])
-,(alphabet)
+,(journal "boston" "Boston Atlas" [
+Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en chef de la Presse])
+])
 
-	,(tag :a :name "commerce")
-	,(p*[Le Commerce]
-	[Simples allusions : ,(ref :url "abondance_disette.html" [Abondance, disette])])
+])
+
+,(lettre "C" [
+
+,(journal "commerce" "Le Commerce" [
+,(p*[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])])
+])
+	
 
 	,(tag :a :name "courrier")
 	,(p*[Le Courrier français]
 	[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
+
+
+])
+
+	
 
 ,(tag :a :name "e")
 ,(subtitle[E])
@@ -50,33 +86,39 @@
 ,(p*[L’Époque]
 [Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
 
-,(tag :a :name "j")
-,(subtitle[J])
-,(alphabet)
+,(lettre "J" [
 
-,(tag :a :name "je")
-,(p*[,(ref :url "journaux_jde.html" [Journal des Économistes])]
-[Simples allusions : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+,(journalpage "je" "Journal des Économistes" "journaux_jde.html" [
+,(p*[,(ref :url "journaux_jde.html" [Articles publiés dans ce journal.])]
+[Simples allusions : ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+])])
 
-,(tag :a :name "m")
-,(subtitle[M])
-,(alphabet)
+])
 
-,(tag :a :name "mb")
-,(p*[Mémorial bordelais]
-[Articles publiés dans le — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque]) ; ,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy-Duchâtel, ministre de l’Intérieur])])
+,(lettre "M" [
 
-,(tag :a :name "mi")
-,(p*[Moniteur industriel]
-[Simples allusions : ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])])
+,(journalpage "mb" "Mémorial bordelais" "journaux_mb.html" [
+,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])])
+])
 
-,(tag :a :name "p")
-,(subtitle[P])
-,(alphabet)
+,(journal "mi" "Moniteur industriel" [
+,(p*
+[Réponses : ,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
+]
+[Simples allusions : ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])])
 
-,(tag :a :name "presse")
-,(p*[La Presse]
+])
+
+
+,(lettre "P" [
+,(journal "presse" "La Presse" [
+,(p*
 [Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])]
-[Simples allusions : ,(ref :url "abondance_disette.html" [Abondance, disette])])
+[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])
+])])
+
+])
+
 
 ]))
