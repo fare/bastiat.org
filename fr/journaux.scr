@@ -35,16 +35,6 @@
 	] r)
 )
 
-(defun
-	journalpage
-	(id titre adresse &rest r)
-	(div :class "journal" [
-		,(tag :a :name id)
-		,(p :class "titre" [,(ref :url adresse titre)])
-	] r)
-)
-
-
 (sommaire[
 
 ,(alphabet)
@@ -63,41 +53,37 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(journal "commerce" "Le Commerce" [
 ,(p*[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])])
 ])
-	
 
-	,(tag :a :name "courrier")
-	,(p*[Le Courrier français]
-	[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
-
+,(journal "courrier" "Le Courrier français" [
+,(p*[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
+])
 
 ])
 
 	
+,(lettre "E" [
+,(journal "economiste_belge" "L’Économiste belge" [
+,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+])
 
-,(tag :a :name "e")
-,(subtitle[E])
-,(alphabet)
+,(journal "epoque" "L’Époque" [
+,(p*[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
+])
 
-,(tag :a :name "economiste_belge")
-,(p*[L’Économiste belge]
-[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
-
-,(tag :a :name "epoque")
-,(p*[L’Époque]
-[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
+])
 
 ,(lettre "J" [
 
-,(journalpage "je" "Journal des Économistes" "journaux_jde.html" [
+,(journal "je" "Journal des Économistes" [
 ,(p*[,(ref :url "journaux_jde.html" [Articles publiés dans ce journal.])]
-[Simples allusions : ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+[Simples allusions : ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard])
 ])])
 
 ])
 
 ,(lettre "M" [
 
-,(journalpage "mb" "Mémorial bordelais" "journaux_mb.html" [
+,(journal "mb" "Mémorial bordelais" [
 ,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])])
 ])
 
@@ -105,7 +91,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*
 [Réponses : ,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
 ]
-[Simples allusions : ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+[Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes])
 ])])
 
 ])

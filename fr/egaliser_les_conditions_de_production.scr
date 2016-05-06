@@ -4,9 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Égaliser les conditions de production"
 	:author (author-FB)
-(subtitle[Chapitre IV de la ,(Iere) série des ,(SophismesEconomiques)])
 (bastiat[
-,(p*[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juillet 1845.])
+,(h2[Chapitre IV de la I,(re) série des ,(SophismesEconomiques)])
+,(p*[,(tag :a :name "romanet_ref")
 
 On dit… mais, pour n’être pas accusé
 de mettre des sophismes dans la bouche des protectionistes,
@@ -31,12 +32,12 @@ il cesse d’être concurrent et devient monopoleur…
 Supprimez cette protection représentative
 	de la différence dans le prix de revient,
 dès lors l’étranger envahit votre marché et le monopole lui est acquis
-	,(footnote*[M. le vicomte de Romanet.]).])
-(q[Chacun doit vouloir pour lui, comme pour les autres,
+	,(footnote*[,(np "romanet" [M. le vicomte de Romanet]). ,(NdA)]).])
+(q[,(tag :a :name "dombasle_ref")Chacun doit vouloir pour lui, comme pour les autres,
 que la production du pays soit protégée contre la concurrence étrangère,
 ,(emph[toutes les fois que celle-ci pourrait fournir les produits à
 plus bas prix])
-	,(footnote*[Mathieu de Dombasle.]).]))
+	,(footnote*[,(np "dombasle" [Mathieu de Dombasle]). ,(NdA)]).]))
 [
 Cet argument revient sans cesse dans les écrits de l’école protectioniste.
 Je me propose de l’examiner avec soin,
@@ -60,7 +61,7 @@ pourriez-vous, sans inconséquence,
 créer des obstacles à celui qui vous offrirait
 	les meilleures conditions de vitesse ?
 C’est pourtant là ce que vous faites en industrie.
-Vous oubliez son résultat cherché, qui est le ,(emph[bien-être]) ,(pv)
+Vous oubliez son résultat cherché, qui est le ,(emph[bien-être ;])
 vous en faites abstraction, vous le sacrifiez même
 	par une véritable pétition de principes.
 ][
@@ -68,8 +69,8 @@ Mais puisque nous ne pouvons amener nos adversaires à notre point de vue,
 plaçons-nous au leur, et examinons la question
 	sous le rapport de la production.
 ][
-Je chercherai à établir : ,(XXX)
-][
+Je chercherai à établir :])
+,(liste[,(p*[
 1° Que niveler les conditions du travail,
 c’est attaquer l’échange dans son principe ;
 ][
@@ -82,9 +83,8 @@ les droits protecteurs n’égalisent pas les conditions de production ;
 4° Que la liberté nivelle ces conditions autant qu’elles peuvent l’être ;
 ][
 5° Enfin, que ce sont les pays les moins favorisés
-qui gagnent le plus dans les échanges.
-]
-(nbsp)
+qui gagnent le plus dans les échanges.])])
+,(p*(nbsp)
 [
 I. Niveler les conditions du travail,
 ce n’est pas seulement gêner quelques échanges ;
@@ -114,7 +114,7 @@ Il n’est pas vrai, ,(emph[en fait]),
 que l’inégalité des conditions entre deux industries similaires
 entraîne nécessairement la chute de celle qui est la moins bien partagée.
 Au turf, si un des coursiers gagne le prix, l’autre le perd ;
-mais, quand deux chevaux travaillent a produire des utilités,
+mais, quand deux chevaux travaillent à produire des utilités,
 chacun en produit dans la mesure de ses forces,
 et de ce que le plus vigoureux rend plus de services,
 il ne s’ensuit pas que le plus faible n’en rend pas du tout.
@@ -128,7 +128,7 @@ on produirait du froment dans tous les royaumes de l’Europe,
 et s’il en était un qui vînt à renoncer à cette culture,
 c’est que, ,(emph[dans son intérêt]),
 il trouverait à faire un meilleur emploi
-de ses terres, de ses capitaux et de sa main d’,(oe)uvre.
+de ses terres, de ses capitaux et de sa main-d’,(oe)uvre.
 Et pourquoi la fertilité d’un département ne paralyse-t-elle pas
 l’agriculteur du département voisin moins favorisé ?
 Parce que les phénomènes économiques ont
@@ -136,13 +136,13 @@ une souplesse, une élasticité,
 et, pour ainsi dire, des ,(emph[ressources de nivellement])
 qui paraissent échapper entièrement à l’école protectioniste.
 Elle nous accuse d’être systématiques ;
-mais c’est elle qui est systématique au suprême degré
+mais c’est elle qui est systématique au suprême degré,
 si l’esprit de système consiste à échafauder des raisonnements
 sur un fait et non sur l’ensemble des faits.
 ,(--) Dans l’exemple ci-dessus, c’est la différence dans la valeur des terres
 qui compense la différence de leur fertilité. ,(--)
 Votre champ produit trois fois plus que le mien.
-Oui ; mais il vous a coûté dix fois davantage
+Oui ; mais il vous a coûté dix fois davantage,
 et je puis encore lutter avec vous.
 ,(--) Voilà tout le mystère. ,(--)
 Et remarquez que la supériorité, sous quelques rapports,
@@ -238,9 +238,9 @@ je ne fais pas une vaine hypothèse.
 Écoutons ce que disait un manufacturier
 à la chambre de commerce de Manchester
 (je supprime les chiffres dont il appuyait sa démonstration) :
-]
-(blockquote
-(q[Autrefois nous exportions des étoffes ;
+])
+,(blockquote[
+,(p*[Autrefois nous exportions des étoffes ;
 puis cette exportation a fait place à celle des fils,
 qui sont la matière première des étoffes ;
 ensuite à celle des machines,
@@ -254,9 +254,9 @@ là où l’existence est moins chère, la vie plus facile,
 et l’on peut voir aujourd’hui,
 en Prusse, en Autriche, en Saxe, en Suisse, en Italie,
 d’immenses manufactures fondées avec des capitaux anglais,
-servies par des ouvriers anglais et dirigées par des ingénieurs anglais.]))
-[
-Vous voyez bien que la nature, ou plutôt la Providence,
+servies par des ouvriers anglais et dirigées par des ingénieurs anglais.])])
+
+,(p*[Vous voyez bien que la nature, ou plutôt la Providence,
 plus ingénieuse, plus sage, plus prévoyante
 que ne le suppose votre étroite et rigide théorie,
 n’a pas voulu cette concentration de travail,
@@ -285,7 +285,7 @@ Ce que le droit égalise tout au plus,
 ce sont les ,(emph[conditions de la vente]).
 On dira peut-être que je joue sur les mots,
 mais je renvoie l’accusation à mes adversaires.
-C’est à eux de prouver que production et vente sont synonymes,
+C’est à eux de prouver que ,(emph[production]) et ,(emph[vente]) sont synonymes,
 sans quoi je suis fondé à leur reprocher,
 sinon de jouer sur les termes, du moins de les confondre.
 ][
@@ -402,7 +402,7 @@ Je veux parler de la loi de la consommation,
 que l’on pourrait peut-être reprocher à la plupart des économistes
 d’avoir beaucoup trop négligée.
 ][
-La consommation est la ,(emph[fin]),
+La consommation est ,(emph[la fin]),
 la cause finale de tous les phénomènes économiques,
 et c’est en elle par conséquent que se trouve
 leur dernière et définitive solution.
@@ -422,12 +422,12 @@ le droit de dire :
 ][
 Toute circonstance qui favorise l’,(oe)uvre de la production
 est accueillie avec joie par le producteur,
-car ,(emph[l’effet immédiat]) est de le mettre à même
+car l’,(emph[effet immédiat]) est de le mettre à même
 de rendre plus de services à la communauté
 et d’en exiger une plus grande rémunération.
 Toute circonstance qui contrarie la production
 est accueillie avec peine par le producteur,
-car ,(emph[l’effet immédiat]) est de limiter ses services
+car l’,(emph[effet immédiat]) est de limiter ses services
 et par suite sa rémunération.
 Il fallait que les biens et les maux ,(emph[immédiats])
 des circonstances heureuses ou funestes fussent le lot du producteur,
@@ -452,22 +452,22 @@ Je le ferai comprendre par quelques exemples.
 Transportons-nous au treizième siècle.
 Les hommes qui se livrent à l’art de copier reçoivent,
 pour le service qu’ils rendent,
-une ,(emph[rémunération gouvernée par le taux général des profits]).
+,(emph[une rémunération gouvernée par le taux général des profits]).
 ,(--) Parmi eux, il s’en rencontre un qui cherche et trouve le moyen
 de multiplier rapidement les exemplaires d’un même écrit.
 Il invente l’imprimerie.
-][
+][,(tag :a :name "gutenberg_ref")
 D’abord, c’est un homme qui s’enrichit,
 et beaucoup d’autres qui s’appauvrissent.
 À ce premier aperçu, quelque merveilleuse que soit la découverte,
 on hésite à décider si elle n’est pas plus funeste qu’utile.
 Il semble qu’elle introduit dans le monde, ainsi que je l’ai dit,
 un élément d’inégalité indéfinie.
-Gutenberg ,(XXX :EO [Guttenberg]) fait des profits avec son invention
+,(np "gutenberg" [Guttenberg]) fait des profits avec son invention
 et étend son invention avec ses profits, et cela sans terme,
 jusqu’à ce qu’il ait ruiné tous les copistes.
 ,(--) Quant au public, au consommateur, il gagne peu,
-car Guttenberg a soin de ne baisser le prix de ses livres
+car ,(np "gutenberg" [Guttenberg]) a soin de ne baisser le prix de ses livres
 que tout juste ce qu’il faut pour sous-vendre ses rivaux.
 ][
 Mais la pensée qui mit l’harmonie dans le mouvement des corps célestes
@@ -477,7 +477,7 @@ Nous allons voir les avantages économiques de l’invention
 le patrimoine commun des masses.
 ][
 En effet, le procédé finit par être connu.
-Guttenberg n’est plus le seul à imprimer ;
+,(np "gutenberg" [Guttenberg]) n’est plus le seul à imprimer ;
 d’autres personnes l’imitent.
 Leurs profits sont d’abord considérables.
 Elles sont récompensées pour être entrées les premières
@@ -491,7 +491,7 @@ car la ,(emph[concurrence]) vient de commencer son ,(oe)uvre.
 Le prix des livres va toujours baissant.
 Les bénéfices des imitateurs diminuent
 à mesure qu’on s’éloigne du jour de l’invention,
-c’est-à-dire à mesure que l’imitation devient moins méritoire…
+c’est-à-dire à mesure que l’imitation devient moins méritoire.
 Bientôt la nouvelle industrie arrive à son état normal ;
 en d’autres termes,
 la rémunération des imprimeurs n’a plus rien d’exceptionnel,
@@ -543,7 +543,7 @@ et qu’il est dans sa destinée de parcourir.
 je lui paie sa journée à deux francs, et il me fait vingt-cinq planches.
 Si la scie n’eût pas été inventée, il n’en aurait peut-être pas fait une,
 et je ne lui aurais pas moins payé sa journée.
-,(emph[L’utilité]) produite par la scie
+L’,(emph[utilité]) produite par la scie
 est donc pour moi un don gratuit de la nature,
 ou plutôt c’est une portion de l’héritage que j’ai reçu ,(emph[en commun]),
 avec tous mes frères, de l’intelligence de nos ancêtres.
@@ -613,7 +613,7 @@ Il suffit pour cela que la même quantité de travail humain
 en fournisse davantage.
 ][
 Quand le porteur d’eau vient approvisionner ma maison,
-si je le payais à raison de ,(emph[l’utilité absolue]) de l’eau,
+si je le payais à raison de l’,(emph[utilité absolue]) de l’eau,
 ma fortune n’y suffirait pas.
 Mais je le paie à raison de la peine qu’il a prise.
 S’il exigeait davantage, d’autres la prendraient,
@@ -728,9 +728,9 @@ il reçoit par-dessus le marché plus d’utilités naturelles qu’il n’en do
 ][
 Posons la règle générale.
 ][
-Échange, c’est troc de ,(emph[valeurs]) ,(pv)
-la valeur étant réduite, par la concurrence, à représenter du travail,
-échange, c’est troc de travaux égaux.
+Échange, c’est troc de ,(emph[valeurs ;])
+et la valeur étant réduite, par la concurrence, à représenter du travail,
+échange c’est troc de travaux égaux.
 Ce que la nature a fait pour les produits échangés
 est donné de part et d’autre ,(emph[gratuitement et par-dessus le marché]),
 d’où il suit rigoureusement que les échanges accomplis
@@ -749,7 +749,7 @@ et toutes ces écoles qui ont pour objet d’exclure du gouvernement du monde
 la loi de la ,(strong[concurrence]).
 Considérée au point de vue du producteur,
 la concurrence froisse sans doute souvent
-nos intérêts individuels et ,(emph[immédiats]) ,(pv)
+nos intérêts individuels et ,(emph[immédiats ;])
 mais, si l’on se place au point de vue
 du but général de tous les travaux, du bien-être universel,
 en un mot, de la ,(emph[consommation]),

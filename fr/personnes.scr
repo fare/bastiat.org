@@ -49,14 +49,15 @@
 	(id nom prenom dates &rest details)
 	(div :class "personne" [
 		,(tag :a :name id)
-		,(p (span :class "nom" nom) " " prenom ". " (span :class "dates" dates) )
+		,(p (span :class "nom" nom) " " prenom (span :class "dates" dates) )
 	] details)
 )
 
 (defun
 	personne1nom
 	(id nom dates &rest details)
-	(div :class "personne" :id id [
+	(div :class "personne" [
+		,(tag :a :name id)
 		,(p (span :class "nom" nom) ". " (span :class "dates" dates) )
 	] details)
 )
@@ -69,7 +70,7 @@
 ,(lettre "A" [
 
 ,(personne "anisson" "Anisson-Dupéron" "Alexandre-Jacques-Laurent" "1776-1852"[
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "arago" "Arago" "François" "1786-1853" [
@@ -77,7 +78,8 @@
 ])
 
 ,(personne "argout" "d’Argout" "Antoine" "1782-1858" [
-,(ref :url "abondance_disette.html#argout_ref" [Abondance, disette])
+,(ref :url "abondance_disette.html#argout_ref" [Abondance, disette]) ;
+,(ref :url "effort_resultat.html#argout_ref" [Effort, résultat])
 ])
 
 ])
@@ -96,11 +98,11 @@
 ])
 
 ,(personne "blaise" "Blaise" "Adolphe-Gustave" "1811-1886" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "blanqui" "Blanqui" "Adolphe" "1798-1854" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "bonaparte" "Bonaparte" "Napoléon" "1769-1821" [
@@ -109,14 +111,14 @@
 
 ,(personne "bugeaud" "Bugeaud" "Thomas Robert" "1784-1849" [
 ,(ref :url "abondance_disette.html#bugeaud_ref" [Abondance, disette 1]),
-,(ref :url "abondance_disette.html#bugeaud_ref2" [2])
+,(ref :url "abondance_disette.html#bugeaud_ref2" [2]) ; ,(ref :url "effort_resultat.html#bugeaud_ref" [Effort, résultat])
 ])
 
 ])
 ,(lettre "C" [
 
 ,(personne "chevalier" "Chevalier" "Michel" "1806-1879" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "cobden" "Cobden" "Richard" "1804-1865" [
@@ -124,40 +126,60 @@
 ])
 
 ,(personne "colbert" "Colbert" "Jean-Baptiste" "1619-1683" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "correge" "Correggio" "Antonio Allegri da" "1489-1534" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
 ])
 
+,(personne "cunin" "Cunin-Gridaine" "Laurent Cunin, dit" "1778-1859" [
+,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)])
+])
+
 ])
 ,(lettre "D" [
 
+,(personne "dombasle" "Dombasle" "Mathieu de" "1777-1843" [
+,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production])
+])
+
 ,(personne "duchatel" "Duchâtel" "Tanneguy" "1803-1867" [
 ,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur])
+])
+
+,(personne "dupin_ch" "Dupin" "Charles" "1784-1873" [
+,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat])
 ])
 	
 ])
 ,(lettre "F" [
 ,(personne "faucher" "Faucher" "Léon" "1803-1854" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ])
 ,(lettre "G" [
 ,(personne "garnier" "Garnier" "Joseph" "1813-1881" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+])
+
+,(personne "gauthier" "Gaulthier de Rumilly" "Hippolyte" "1792-1884" [
+,(ref :url "balance_du_commerce_sophisme.html#gauthier_ref" [Balance du commerce])
 ])
 
 ,(personne "girardin" "de Girardin" "Émile" "1802-1881" [
 ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])
 ])
 
+,(personne "gutenberg" "Gutenberg" "Johannes" "v. 1400-1468"[
+,(ref :url "egaliser_les_conditions_de_production.html#gutenberg_ref" [Égaliser les conditions de production])
+])
+
 ])	
 ,(lettre "H" [
 ,(personne "harcourt" "d’Harcourt" "Eugène, duc" "1786-1865" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ])
@@ -169,8 +191,20 @@
 ])
 ,(lettre "L" [
 
+,(personne "lacave" "Lacave-Laplagne" "Jean" "1795-1849" [
+,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)])
+])
+
+,(personne "lafontaine" "La Fontaine" "Jean de" "1621-1695" [
+,(ref :url "greves_de_taxes.html#lafontaine_ref" [Nos produits sont grevés de taxes]) : citation de ,(cite-title[La Belette entrée dans un grenier :]) “Mais ne confondons point, par trop approfondir, / Leurs affaires avec les vôtres.”
+])
+
 ,(personne "leclerc" "Leclerc" "Louis" "1786-1873" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+])
+
+,(personne "lestiboudois" "Lestiboudois" "Gaspard Thémistocle" "1797-1876" [
+,(ref :url "balance_du_commerce_sophisme.html#lestiboudois_ref" [Balance du commerce]), tout au long de l’article
 ])
 
 ])
@@ -221,15 +255,16 @@
 ])
 
 ,(personne "reybaud" "Reybaud" "Louis" "1799-1879" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "ricardo" "Ricardo" "David" "1772-1823" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
 ])
 
-,(personne "romanet" "Romanet" "? vicomte de" "?" [
-,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
+,(personne "romanet" "Romanet" "(?) vicomte de" "?" [
+,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ;
+,(ref :url "egaliser_les_conditions_de_production.html#romanet_ref" [Égaliser les conditions de production])
 ])
 
 ,(personne "rothschild" "de Rothschild" "James" "1792-1868" [
@@ -243,11 +278,12 @@
 ])
 ,(lettre "S" [
 ,(personne "stcricq" "de Saint-Cricq" "Pierre" "1772-1854" [
-,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette])
+,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette]) ;
+,(ref :url "effort_resultat.html#stcricq_ref" [Effort, résultat])
 ])
 
 ,(personne "say_h" "Say" "Horace" "1794-1860" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
@@ -258,8 +294,12 @@
 ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
 ])
 
+,(personne1nom "sisyphe" "Sisyphe" "légendaire" [
+,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résultat])
+])
+
 ,(personne "sully" "Sully" "Maximilien de Béthune, duc de" "1559-1641" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ])
@@ -277,7 +317,7 @@
 ])
 
 ,(personne "turgot" "Turgot" "Anne Robert Jacques" "1727-1781" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ])
@@ -292,7 +332,7 @@
 ])
 
 ,(personne "wolowski" "Wolowski" "Louis" "1810-1876" [
-,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
 ])

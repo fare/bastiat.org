@@ -4,10 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Nos produits sont grevés de taxes"
 	:author (author-FB)
-(subtitle[Chapitre V de la ,(Iere) série des ,(SophismesEconomiques)])
-(bastiat[
-,(p*[
 
+(bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juillet 1845.])
+,(h2[Chapitre V de la I,(re) série des ,(SophismesEconomiques)])
+,(p*[
 C’est le même sophisme.
 On demande que le produit étranger soit taxé,
 afin de neutraliser les effets de la taxe qui pèse sur le produit national.
@@ -200,7 +201,7 @@ vous ne pouvez ,(emph[donner de l’argent]) aux uns
 qu’en le prenant aux autres.
 Si vous voulez absolument épuiser le contribuable, à la bonne heure ;
 mais au moins ne le raillez pas, et ne venez pas lui dire :
-,(q[Je te prends pour compenser ce que je t’ai déjà pris.])
+,(q[Je te prends encore pour compenser ce que je t’ai déjà pris. ,(footnote*[Dans les ,(cite-title[Œuvres complètes :]) « Je te prends pour compenser ce que je t’ai déjà pris. » ,(NdL)])])
 ][
 On ne finirait pas si l’on voulait relever
 tout ce qu’il y a de faux dans ce sophisme.
@@ -212,7 +213,7 @@ pour en induire qu’il faut protéger telle ou telle industrie.
 Si donc une industrie se présente et dit :
 ,(q[Je participe au paiement des taxes ;
 cela élève le prix de revient de mes produits,
-et je demande qu’un droit protecteur en élève aussi le prix vénal]),
+et je demande qu’un droit protecteur en élève aussi le prix vénal,])
 ,(XXX :EO [, in q])
 que demande-t-elle autre chose,
 si ce n’est de se décharger de la taxe sur le reste de la communauté ?
@@ -256,7 +257,7 @@ de taxes incorporées dans les produits que nous leur vendrons ;
 tandis que nous n’aurions à leur faire, à cet égard,
 qu’une moindre restitution, puisque, d’après notre hypothèse,
 leurs produits sont moins grevés que les nôtres.
-][
+][,(tag :a :name "lafontaine_ref")
 Enfin, ces lourds impôts dont vous arguez pour justifier le régime prohibitif,
 vous êtes-vous jamais demandé
 si ce n’est pas ce régime qui les occasionne ?
@@ -271,7 +272,7 @@ leurs affaires avec les nôtres
 	,(footnote*[
 	Voir, au tome V, le pamphlet
 	,(bof-ref "paix_et_liberte" (cite-title[Paix et liberté])).
-,(NdEEO)]).
+,(NdEEO)]). ,(np "lafontaine" [*])
 
 ])))
 ])

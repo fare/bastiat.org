@@ -4,8 +4,10 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Balance du commerce"
 	:author (author-FB)
-(subtitle[Chapitre VI de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
+,(h2[Chapitre VI de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 
 Nos adversaires ont adopté une tactique
@@ -22,15 +24,16 @@ règne dans la pratique des affaires.
 Cédez-leur le maniement des tarifs,
 et ils ne vous disputeront pas le domaine de la théorie.
 ][
-,(q[Assurément, disait dernièrement M. Gauthier de Rumilly,
+,(tag :a :name "gauthier_ref")
+,(q[Assurément, disait dernièrement ,(np "gauthier" [M. Gauthier de Rumilly]),
 personne de nous ne veut ressusciter
 les vieilles théories de la balance du commerce.])
-,(--) Fort bien ; mais, monsieur Gauthier,
+,(--) Fort bien ; mais, ,(np "gauthier" [monsieur Gauthier]),
 ce n’est pas tout que de donner en passant un soufflet à l’erreur :
 il faudrait encore ne pas raisonner, immédiatement après,
 et deux heures durant, comme si cette erreur était une vérité.
-][
-Parlez-moi de M. Lestiboudois.
+][,(tag :a :name "lestiboudois_ref")
+Parlez-moi de ,(np "lestiboudois" [M. Lestiboudois]).
 Voilà un raisonneur conséquent, un argumentateur logicien.
 Il n’y a rien dans ses conclusions qui ne soit dans ses prémisses :
 il ne demande rien à la pratique qu’il ne justifie par une théorie.
@@ -68,7 +71,7 @@ qu’on peut s’appauvrir,
 qu’on peut marcher à sa ruine,
 qu’on peut consommer entièrement le capital national.
 ,(emph[C’est précisément ce que nous faisons.
-Tous les ans nous donnons 200 millions à L’étranger.])])
+Tous les ans nous donnons 200 millions à l’étranger.])])
 ][
 Eh bien, voilà un homme avec lequel on peut s’entendre.
 Il n’y a pas d’hypocrisie dans ce langage.
@@ -78,8 +81,8 @@ Donc, la France perd 200 millions par an.
 ,(--) Et le remède ? C’est d’empêcher les importations.
 La conclusion est irréprochable.
 ][
-C’est donc à M. Lestiboudois que nous allons nous attaquer,
-car comment lutter avec M. Gauthier ?
+C’est donc à ,(np "lestiboudois" [M. Lestiboudois]) que nous allons nous attaquer,
+car comment lutter avec ,(np "gauthier" [M. Gauthier]) ?
 Si vous lui dites :
 La balance du commerce est une erreur, il vous répondra :
 C’est ce que j’ai avancé dans mon exorde.
@@ -87,15 +90,15 @@ Si vous lui criez :
 Mais la balance du commerce est une vérité, il vous dira :
 C’est ce que j’ai consigné dans mes conclusions.
 ][
-L’école économiste me blâmera sans doute d’argumenter avec M. Lestiboudois.
+L’école économiste me blâmera sans doute d’argumenter avec ,(np "lestiboudois" [M. Lestiboudois]).
 Combattre la balance du commerce, me dira-t-on,
 c’est combattre un moulin à vent.
 ][
 Mais, prenez-y garde, la balance du commerce
 n’est ni si vieille, ni si malade, ni si morte
-que veut bien le dire M. Gauthier ;
-car toute la Chambre, y compris M. Gauthier lui-même,
-s’est associée par ses votes à la théorie de M. Lestiboudois.
+que veut bien le dire ,(np "gauthier" [M. Gauthier]) ;
+car toute la Chambre, y compris ,(np "gauthier" [M. Gauthier]) lui-même,
+s’est associée par ses votes à la théorie de ,(np "lestiboudois" [M. Lestiboudois]).
 ][
 Cependant, pour ne pas fatiguer le lecteur,
 je n’approfondirai pas cette théorie.
@@ -114,13 +117,13 @@ pour tenir leurs livres de telle façon
 qu’ils leur présentent les bénéfices comme des pertes,
 et les pertes comme des bénéfices.
 En vérité, j’aimerais mieux croire
-que M. Lestiboudois est un mauvais économiste.
+que ,(np "lestiboudois" [M. Lestiboudois]) est un mauvais économiste.
 ][
 Or, un négociant de mes amis,
 ayant fait deux opérations dont les résultats ont été fort différents,
 j’ai été curieux de comparer à ce sujet
 la comptabilité du comptoir à celle de la douane,
-interprétée par M. Lestiboudois
+interprétée par ,(np "lestiboudois" [M. Lestiboudois])
 avec la sanction de nos six cents législateurs.
 ][
 M. T… expédia du Havre un bâtiment pour les Etats-Unis,
@@ -129,25 +132,25 @@ et principalement de celles qu’on nomme ,(emph[articles de Paris]),
 montant à 200,000 fr.
 Ce fut le chiffre déclaré en douane.
 Arrivée à la Nouvelle-Orléans,
-il se trouva que la cargaison avait fait 10 % ,(XXX [EO : p. 0/0]) de frais
-et acquitté 30 % de droits, ce qui la faisait ressortir à 280,000 fr.
-Elle fut vendue avec 20 % de bénéfice, soit 40,000 fr.,
-et produisit au total 320,000 fr., que le consignataire convertit en coton.
+il se trouva que la cargaison avait fait 10 % ,(XXX [EO : p. 0/0]) de frais
+et acquitté 30 % de droits, ce qui la faisait ressortir à 280,000 fr.
+Elle fut vendue avec 20 % de bénéfice, soit 40,000 fr.,
+et produisit au total 320,000 fr., que le consignataire convertit en coton.
 Ces cotons eurent encore à supporter,
-pour le transport, assurances, commission, etc., 10 % de frais :
+pour le transport, assurances, commission, etc., 10 % de frais :
 en sorte qu’au moment où elle entra au Havre,
-la nouvelle cargaison, revenait à 352,000 fr.,
+la nouvelle cargaison, revenait à 352,000 fr.,
 et ce fut le chiffre consigné dans les états de la douane.
 Enfin, M. T… réalisa encore, sur ce retour, 20 % de profit, soit 70,400 fr. ;
 en d’autres termes, les cotons se vendirent 422,400 fr.
 ][
-Si M. Lestiboudois l’exige, je lui enverrai un extrait des livres de M. T…
+Si ,(np "lestiboudois" [M. Lestiboudois]) l’exige, je lui enverrai un extrait des livres de M. T…
 II y verra figurer ,(emph[au crédit]) du compte de ,(emph[profits et pertes]),
 c’est-à-dire comme bénéfices, deux articles,
 l’un de 40,000, l’autre de 70,400 fr.,
 et M. T… est bien persuadé qu’à cet égard sa comptabilité ne le trompe pas.
 ][
-Cependant, que disent à M. Lestiboudois
+Cependant, que disent à ,(np "lestiboudois" [M. Lestiboudois])
 les chiffres que la douane a recueillis sur cette opération ?
 Ils lui apprennent que la France a exporté 200,000 fr.
 et qu’elle a importé 352,000 fr. ;
@@ -156,7 +159,7 @@ d’où l’honorable député conclut
 et dissipé les profits de ses économies antérieures,
 qu’elle s’est appauvrie,
 qu’elle a marché vers sa ruine,
-qu’elle a donné à l’étranger 452,000 fr. de son capital.])])
+qu’elle a donné à l’étranger 152,000 fr. de son capital.])])
 ][
 Quelque temps après, M. T…
 expédia un autre navire également chargé
@@ -164,18 +167,19 @@ de 200,000 fr. de produits de notre travail national.
 Mais le malheureux bâtiment sombra en sortant du port,
 et il ne resta autre chose à faire à M. T…
 que d’inscrire sur ses livres deux petits articles ainsi formulés :
-][
-,(emph[Marchandises diverses doivent à X]) fr. 200,000
+])
+
+,(liste[,(p*[,(emph[Marchandises diverses doivent à X]) fr. 200,000
 pour achats de différents objets expédiés par le navire N.
 ][
 ,(emph[Profits et pertes doivent à marchandises diverses]) fr. 200,000
-,(emph[pour perte définitive et totale]) de la cargaison.
-][
-Pendant ce temps-là, la douane inscrivait de son côté
+,(emph[pour perte définitive et totale]) de la cargaison.])])
+
+,(p*[Pendant ce temps-là, la douane inscrivait de son côté
 fr. 200,000 sur son tableau d’,(emph[exportations]) ;
 et comme elle n’aura jamais rien à faire figurer en regard
 sur le tableau des ,(emph[importations]),
-il s’ensuit que M. Lestiboudois et la Chambre verront dans ce naufrage
+il s’ensuit que ,(np "lestiboudois" [M. Lestiboudois]) et la Chambre verront dans ce naufrage
 ,(emph[un profit clair et net]) de 200,000 fr. pour la France.
 ][
 Il y a encore cette conséquence à tirer de là,
@@ -208,8 +212,7 @@ que l’étranger nous inonde de toutes sortes de marchandises utiles,
 sans nous rien demander ;
 que nos importations sont ,(emph[infinies])
 et nos exportations ,(emph[nulles]),
-je vous défie de me prouver que nous en serons plus pauvres
-,(footnote*[
+je vous défie de me prouver que nous en serons plus pauvres ,(footnote*[
 En mars 1850, l’auteur fut encore obligé de combattre le même sophisme,
 qu’il entendit produire à la tribune nationale.
 Il rectifia la démonstration précédente

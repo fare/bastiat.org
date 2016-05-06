@@ -439,6 +439,9 @@
 
 ;;;        *** Les magnifiques fonctions de Laura *** (Car Laura met des commentaires, elle.)
 
+(define (NdL)
+  (it [(Note de Laura)]))
+
 ;;Mise en forme des liens
 
 ; Liens vers l'index des noms de personnes
@@ -543,11 +546,8 @@
 (defun acheuvreux (prec suiv) (arbor "Lettres aux Cheuvreux" "lettres_cheuvreux.html" prec suiv))
 (defun apaillottet (prec suiv) (arbor "Lettres à Paillottet" "lettres_paillottet.html" prec suiv))
 
-(defun
-  jde
-  (prec suiv)
-  (arbor "Journal des Économistes" "journaux_jde.html" prec suiv)
-)
+(defun jde (prec suiv) (arbor "Journal des Économistes" "journaux_jde.html" prec suiv))
+(defun mb (prec suiv) (arbor "Mémorial bordelais" "journaux_mb.html" prec suiv))
 
 ;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
 
