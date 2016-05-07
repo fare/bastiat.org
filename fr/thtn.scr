@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Travail Humain, Travail National"
 	:author (author-FB)
-(subtitle[Chapitre XX de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre XX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Briser les machines,
 ,(--) repousser les marchandises étrangères, ,(--)
@@ -25,8 +26,7 @@ En un mot, on l’accuse de nuire au ,(emph[travail national]).
 De même, ne devraient-ils pas reprocher aux machines
 	de faire accomplir par des agents naturels
 		ce qui, sans elles, serait l’,(oe)uvre de nos bras,
-	et, par conséquent, de nuire au ,(emph[travail humain]) ?
-,(XXX :EO [ ? in emph])
+	et, par conséquent, de nuire au ,(emph[travail humain ?])
 ][
 L’ouvrier étranger, mieux placé que l’ouvrier français,
 est, à l’égard de celui-ci,
@@ -51,8 +51,8 @@ qui, déclamant contre l’,(emph[invasion]) des marchandises exotiques,
 ont au moins le courage de déclamer aussi
 contre l’,(emph[excès de production])
 	dû à la puissance inventive de l’esprit humain.
-][
-Tel est M. de Saint-Chamans.
+][,(tag :a :name "stchamans_ref")
+Tel est ,(np "stchamans" [M. de Saint-Chamans]).
 ,(q[Un des arguments les plus forts, dit-il,
 contre la liberté du commerce et le trop grand emploi des machines,
 c’est que beaucoup d’ouvriers sont privés d’ouvrage
@@ -61,9 +61,9 @@ ou par les instruments qui prennent
 	la place des hommes dans les ateliers.])
 (,(cite-title[Du système d’impôts]), p. 438.)
 ][
-M. de Saint-Chamans a parfaitement vu l’analogie, disons mieux, l’identité
+,(np "stchamans" [M. de Saint-Chamans]) a parfaitement vu l’analogie, disons mieux, l’identité
 qui existe entre les ,(emph[importations])
-et les ,(emph[machines]),(pv :EO 'in)
+et les ,(emph[machines ;])
 voilà pourquoi il proscrit les unes et les autres ;
 et vraiment il y a plaisir à avoir affaire à des argumentateurs intrépides,
 qui, même dans l’erreur, poussent un raisonnement jusqu’au bout.
@@ -76,7 +76,7 @@ c’est dans les pays où il y a le plus de ,(emph[machines]),
 dans le Lancastre, par exemple,
 qu’on doit rencontrer le moins d’,(emph[ouvriers]).
 Et si, au contraire, on constate ,(emph[en fait])
-que la mécanique et la main d’,(oe)uvre coexistent à un plus haut degré
+que la mécanique et la main-d’,(oe)uvre coexistent à un plus haut degré
 chez les peuples riches que chez les sauvages,
 il faut en conclure nécessairement que ces deux puissances ne s’excluent pas.
 ][
@@ -106,14 +106,14 @@ devait lui donner de la raison ou des bras,
 de la force morale ou de la force brutale,
 mais qu’il s’est joué de lui
 en lui conférant à la fois des facultés qui s’entre-détruisent.
-][
-La difficulté est pressante.
+])
+,(liste(p*[La difficulté est pressante.
 Or, savez-vous comment on en sort ?
-Par ce singulier apophtegme : ,(XXX :EO [apophthegme])
+Par ce singulier apophthegme :
 ][
-,(emph[En économie politique il n’y a pas de principe absolu.])
-][
-En langage intelligible et vulgaire, cela veut dire :
+,(emph[En économie politique il n’y a pas de principe absolu.])]))
+
+,(p*[En langage intelligible et vulgaire, cela veut dire :
 ][
 ,(q[Je ne sais où est le vrai et le faux ;
 j’ignore ce qui constitue le bien ou le mal général.
@@ -122,15 +122,15 @@ L’effet immédiat de chaque mesure sur mon bien-être personnel,
 telle est la seule loi que je consente à reconnaître.])
 ][
 Il n’y a pas de principes !
-mais c’est comme si vous disiez : il n’y a pas de faits ;
+mais c’est comme si vous disiez : Il n’y a pas de faits ;
 car les principes ne sont que des formules
 qui résument tout un ordre de faits bien constatés.
 ][
 Les machines, les importations ont certainement des effets.
 Ces effets sont bons ou mauvais.
-On peut, à cet égard, différer d’avis.
+On peut à cet égard différer d’avis.
 Mais, quel que soit celui que l’on adopte,
-il se formule par un de ces deux ,(emph[principes]) :
+il se formule par un de ces deux ,(emph[principes :])
 Les machines sont un bien ;
 ,(--) ou ,(--) Les machines sont un mal.
 Les importations sont favorables,
@@ -150,7 +150,7 @@ Prouvez que les machines ne nuisent pas au ,(emph[travail humain]),
 ni les importations au ,(emph[travail national]).
 ][
 Dans un ouvrage de la nature de celui-ci,
-de telles démonstrations ne sauraient être très complètes.
+de telles démonstrations ne sauraient être très-complètes.
 J’ai plus pour but de poser les difficultés que de les résoudre,
 et d’exciter la réflexion que de la satisfaire.
 Il n’y a jamais pour l’esprit de conviction bien acquise
@@ -201,9 +201,9 @@ Ces satisfactions sont le produit net
 C’est un don gratuit, un tribut
 	que le génie de l’homme aura imposé à la nature.
 ,(--) Nous ne disconvenons pas que, dans le cours de la transformation,
-une certaine masse de travail aura été ,(emph[déplacée]),(pv :EO 'in)
+une certaine masse de travail aura été ,(emph[déplacée ;])
 mais nous ne pouvons pas accorder qu’elle aura été détruite ou même diminuée.
-][
+](nbsp)[
 De même quant aux importations.
 ,(--) Reprenons l’hypothèse.
 ][

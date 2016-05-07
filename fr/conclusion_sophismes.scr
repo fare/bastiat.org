@@ -5,11 +5,11 @@
 (document :title "Conclusion de la première série des Sophismes"
 	:author (author-FB)
 (bastiat[
-,(p*[
+,(p*[,(tag :a :name "hugo_ref")
 Tous les sophismes que j’ai combattus jusqu’ici
 se rapportent à une seule question : le système restrictif ;
 encore, par pitié pour le lecteur,
-,(q[j’en passe, et des meilleurs]) :
+,(q[j’en passe, et des meilleurs]) ,(np "hugo" [*]) :
 ,(emph[droits acquis]),
 ,(emph[inopportunité]),
 ,(emph[épuisement du numéraire]), etc., etc.
@@ -42,14 +42,14 @@ Attaquer un à un tant de sophismes incohérents,
 qui quelquefois se choquent et plus souvent rentrent les uns dans les autres,
 c’est se condamner à une lutte désordonnée, capricieuse,
 et s’exposer à de perpétuelles redites.
-][
+][,(tag :a :name "laplace_ref")
 Combien je préférerais dire simplement comment les choses ,(emph[sont]),
 sans m’occuper de mille aspects sous lesquels l’ignorance les ,(emph[voit !])...
 Exposer les lois selon lesquelles les sociétés prospèrent ou dépérissent,
 c’est ruiner ,(emph[virtuellement]) tous les sophismes à la fois.
-Quand Laplace eut décrit ce qu’on peut savoir jusqu’ici
+Quand ,(np "laplace" [Laplace]) eut décrit ce qu’on peut savoir jusqu’ici
 du mouvement des corps célestes, il dissipa, sans même les nommer,
-toutes les rêveries astrologiques des Egyptiens, des Grecs et des Hindous,
+toutes les rêveries astrologiques des Égyptiens, des Grecs et des Hindous,
 bien plus sûrement qu’il n’eût pu le faire en les réfutant directement
 dans d’innombrables volumes.
 ,(--) La vérité est une ;
@@ -57,12 +57,12 @@ le livre qui l’expose est un édifice imposant et durable :
 ](verses
 	[Il brave les tyrans avides,]
 	[Plus hardi que les Pyramides]
-	[Et plus durable que l’airain.])
+	[Et plus durable que l’airain. ,(np "lebrun" [*])])
 [
 L’erreur est multiple et de nature éphémère ;
 l’ouvrage qui la combat ne porte pas en lui-même
 un principe de grandeur et de durée.
-][
+][,(tag :a :name "say_jb_ref")
 Mais si la force et peut-être l’occasion
 ,(footnote*[
 Nous avons fait remarquer, à la fin du
@@ -74,7 +74,7 @@ le désir et l’intention d’écrire ce dernier ouvrage,
 à la première occasion favorable.
 ,(NdEEO)
 ])
-m’ont manqué pour procéder à la manière des Laplace et des Say,
+m’ont manqué pour procéder à la manière des ,(np "laplace" [Laplace]) et des ,(np "say_jb" [Say]),
 je ne puis me refuser à croire
 que la forme que j’ai adoptée a aussi sa modeste utilité.
 Elle me semble surtout bien proportionnée aux besoins du siècle,
@@ -98,7 +98,7 @@ que ces combats sans cesse renaissants avec les erreurs populaires
 ont une véritable utilité pratique.
 ][
 On pourrait ranger les sciences en deux catégories.
-][
+][,(tag :a :name "moliere_ref")
 Les unes, à la rigueur, peuvent n’être sues que des savants.
 Ce sont celles dont l’application occupe des professions spéciales.
 Le vulgaire en recueille le fruit malgré l’ignorance ;
@@ -107,8 +107,8 @@ il n’en jouit pas moins de l’utilité d’une montre,
 il n’est pas moins entraîné par la locomotive ou le bateau à vapeur
 sur la foi de l’ingénieur et du pilote.
 Nous marchons selon les lois de l’équilibre sans les connaître,
-comme M. Jourdain faisait de la prose sans le savoir.
-][
+comme ,(np "moliere" [M. Jourdain]) faisait de la prose sans le savoir.
+][,(tag :a :name "bentham_ref")
 Mais il est des sciences qui n’exercent sur le public
 qu’une influence proportionnée aux lumières du public lui-même,
 qui tirent toute leur efficacité
@@ -117,27 +117,27 @@ mais de celles qui sont diffusées dans la raison générale.
 Telles sont la morale, l’hygiène, l’économie sociale,
 et, dans les pays où les hommes s’appartiennent à eux-mêmes,
 la politique.
-C’est de ces sciences que Bentham aurait pu dire surtout :
+C’est de ces sciences que ,(np "bentham" [Bentham]) aurait pu dire surtout :
 ,(q[Ce qui les répand vaut mieux que ce qui les avance.])
 Qu’importe qu’un grand homme, un Dieu même,
 ait promulgué les lois de la morale,
 aussi longtemps que les hommes, imbus de fausses notions,
 prennent les vertus pour des vices et les vices pour des vertus ?
-Qu’importe que Smith, Say, et, selon M. de Saint-Chamans,
-les économistes ,(emph[de toutes les écoles]) aient proclamé,
+Qu’importe que ,(np "smith" [Smith]), ,(np "say_jb" [Say]), et, selon ,(np "stchamans" [M. de Saint-Chamans]),
+,(ref :url "theorie_pratique.html#stchamans_ref" [les économistes ,(emph[de toutes les écoles])]) aient proclamé,
 en fait de transactions commerciales,
 la supériorité de la ,(emph[liberté]) sur la ,(emph[contrainte]),
 si ceux-là sont convaincus du contraire
 qui font les lois et pour qui les lois sont faites ?
-][
-Ces sciences, que l’on a fort bien nommées sociales,
+][,(tag :a :name "thenard_ref")
+Ces sciences, que l’on a fort bien nommées ,(emph[sociales]),
 ont encore ceci de particulier
 que, par cela même qu’elles sont d’une application usuelle,
 nul ne convient qu’il les ignore.
 ,(--) A-t-on besoin de résoudre une question de chimie ou de géométrie ?
 On ne prétend pas avoir la science infuse ;
-on n’a pas honte de consulter M. Thénard ;
-on ne se fait pas difficulté d’ouvrir Legendre ou Bezout.
+on n’a pas honte de consulter ,(np "thenard" [M. Thénard]) ;
+on ne se fait pas difficulté d’ouvrir ,(np "legendre" [Legendre]) ou ,(np "bezout" [Bezout]).
 ,(--) Mais, dans les sciences sociales, on ne reconnaît guère d’autorités.
 Comme chacun fait journellement
 de la morale bonne ou mauvaise,
@@ -204,19 +204,19 @@ qu’il n’y ait quelque chose d’illusoire dans les douceurs de la disette.])
 ,(q[L’,(emph[effort sans résultat]) ne me semble plus aussi désirable
 que le ,(emph[résultat sans effort]).])
 (,(bof-ref "effort_resultat" [Sophisme III]).)
-][
+][,(tag :a :name "moliere_ref2")
 ,(q[Il se pourrait bien que le secret du commerce
 ne consiste pas, comme celui des armes
 (selon la définition qu’en donne
-le spadassin du ,(emph[Bourgeois gentilhomme])),
+le spadassin du ,(np "moliere" [,(cite-title[Bourgeois gentilhomme])])),
 ,(emph[à donner et à ne pas recevoir]).])
 (,(bof-ref "balance_du_commerce_sophisme" [Sophisme VI]).)
-][
+][,(tag :a :name "jacquart_ref")
 ,(q[Je conçois qu’un objet ,(emph[vaut]) d’autant plus
 qu’il a reçu plus de façons ;
 mais, dans l’échange,
 deux valeurs ,(emph[égales]) cessent-elles d’être égales
-parce que l’une vient de la charrue et l’autre de la Jacquart ?])
+parce que l’une vient de la charrue et l’autre de la ,(np "jacquart" [Jacquart]) ?])
 (,(bof-ref "matieres_premieres" [Sophisme XXI]).)
 ][
 ,(q[J’avoue que je commence à trouver singulier que l’humanité
@@ -324,12 +324,9 @@ tant qu’on n’aura pas bien constaté en quoi et comment l’injustice,
 faisant sa part au milieu de nous,
 s’est impatronisée dans nos m,(oe)urs et dans nos lois.])
 ,(NdEEO)
-]).
-][
-Mugron, 2 novembre 1845.
-
-
-])])
+]).])
+,(date[Mugron, 2 novembre 1845.])
+])
 (footer[
 	,(soph "metaphores.html" "sophismes.html#serie2")
 ])

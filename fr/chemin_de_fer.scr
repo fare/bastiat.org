@@ -4,18 +4,19 @@
 	- par Frédéric Bastiat")
 (document :title "Un chemin de fer négatif"
 	:author (author-FB)
-(subtitle[Chapitre XVII de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre XVII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
-J’ai dit que lorsque, malheureusement,
+,(ref :url "abondance_disette.html#interetprod" [J’ai dit]) que lorsque, malheureusement,
 on se plaçait au point de vue de l’intérêt producteur,
 on ne pouvait manquer de heurter l’intérêt général,
 parce que le producteur, en tant que tel,
 ne demande qu’efforts, besoins et obstacles.
 ][
 J’en trouve un exemple remarquable dans un journal de Bordeaux.
-][
-M. Simiot se pose cette question :
+][,(tag :a :name "simiot_ref")
+,(np "simiot" [M. Simiot]) se pose cette question :
 ][
 Le chemin de fer de Paris en Espagne
 doit-il offrir une solution de continuité à Bordeaux ?
@@ -43,9 +44,9 @@ sur tous les points de la ligne.
 Avec ce système, on arrive à un chemin de fer composé de lacunes successives,
 à un ,(emph[chemin de fer négatif]).
 ][
-Que MM. les protectionnistes le veuillent ou non,
+Que MM. les protectionistes le veuillent ou non,
 il n’en est pas moins certain que le ,(emph[principe de la restriction])
-est le même que le ,(emph[principe des lacunes]) :
+est le même que le ,(emph[principe des lacunes :])
 le sacrifice du consommateur au producteur, du but au moyen.
 
 

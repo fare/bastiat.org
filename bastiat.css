@@ -134,8 +134,16 @@ sup {line-height: 0;}
 	font-weight: normal;
 	margin: 2em 0;
 	font-family: accanthis;
+	font-size: 1.3em;
 }
 h2 sup, h2 i {font-variant: normal;}
+
+.bastiat h3 {
+	font-style: italic;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 1em;
+}
 
 .bastiat p {
 	text-indent: 1.4em;
@@ -196,7 +204,7 @@ em span[style="font-variant: small-caps"] {
 .cher {
 	font-variant: small-caps;
 	padding: 2em 0 1.5em 3em;
-	font-size: large;
+	font-size: larger;
 }
 
 .politesse {
@@ -211,6 +219,7 @@ em span[style="font-variant: small-caps"] {
 
 .bastiat > .date {
 	font-size: 0.85em;
+	text-indent: 1.4em;
 }
 
 .datetag {
@@ -229,9 +238,13 @@ em span[style="font-variant: small-caps"] {
 
 /*Poésie*/
 
-.vers {
+.vers, .cvers {
 	font-size: 80%;
 	padding-left: 3em;
+}
+
+.cvers {
+	text-align: center;
 }
 
 /*Tableaux*/
@@ -286,6 +299,7 @@ em span[style="font-variant: small-caps"] {
 	position: relative;
 	min-width: 12em; width: auto; max-width: 20em; white-space: nowrap;
 	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .arbor .retour {

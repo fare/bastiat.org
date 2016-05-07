@@ -4,21 +4,21 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Encore la réciprocité"
 	:author (author-FB)
-(subtitle[Chapitre XV de la ,(Iere) série des ,(SophismesEconomiques)])
 (bastiat[
-,(p*[
+,(h2[Chapitre XV de la I,(re) série des ,(SophismesEconomiques)])
 
-M. de Saint-Cricq disait :
+,(p*[,(tag :a :name "stcricq_ref")
+,(np "stcricq" [M. de Saint-Cricq]) disait :
 ,(q[Sommes-nous sûrs que l’étranger nous fera autant d’achats que de ventes ?])
 ][
-M. de Dombasle :
+,(np "dombasle" [M. de Dombasle]) :
 ,(q[Quel motif avons-nous de croire
 que les producteurs anglais viendront chercher chez nous,
 plutôt que chez toute autre nation du globe,
 les produits dont ils pourront avoir besoin,
 et des produits pour une valeur équivalente à leurs exportations en France ?])
 ][
-J’admire comme les hommes, qui se disent ,(emph[pratiques]) avant tout,
+J’admire comme les hommes qui se disent ,(emph[pratiques]) avant tout
 raisonnent en dehors de toute pratique !
 ][
 Dans la pratique, se fait-il
@@ -35,7 +35,7 @@ Comment se passent les choses ?
 ][
 Supposons un peuple privé de relations extérieures.
 ,(--) Un homme a produit du blé.
-II le verse dans la circulation ,(emph[nationale])
+Il le verse dans la circulation ,(emph[nationale])
 au plus haut cours qu’il peut trouver,
 et il reçoit en échange… quoi ?
 Des écus, c’est-à-dire des mandats, des bons fractionnables à l’infini,

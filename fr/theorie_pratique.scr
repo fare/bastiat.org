@@ -4,23 +4,25 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Théorie, pratique"
 	:author (author-FB)
-(subtitle[Chapitre XIII de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre XIII de la I,(re) série des ,(SophismesEconomiques)])
+
 ,(p*[
 
 Partisans de la liberté des échanges,
 on nous accuse d’être des théoriciens,
 de ne pas tenir assez compte de la pratique.
-][
-,(q[Quel terrible préjugé contre M. Say, dit M. Ferrier
+][,(tag :a :name "say_jb_ref")
+« Quel terrible préjugé contre ,(np "say_jb" [M. Say]), dit ,(np "ferrier" [M. Ferrier])
 ,(footnote*[
 ,(cite-title[De l’Administration commerciale opposée à l’économie politique]),
 page 5.]),
 que cette longue suite d’administrateurs distingués,
 que cette ligue imposante d’écrivains qui tous ont vu autrement que lui,
-et M. Say ne se le dissimule pas !
+et ,(np "say_jb" [M. Say]) ne se le dissimule pas !
 Écoutons-le :
-,(blockquote(q[On a dit, à l’appui des vieilles erreurs,
+,(blockquote(p*[« On a dit, à l’appui des vieilles erreurs,
 qu’il faut bien qu’il y ait quelque fondement
 à des idées si généralement adoptées par toutes les nations.
 Ne doit-on pas se défier d’observations et de raisonnements
@@ -38,11 +40,11 @@ et que tous les hommes, depuis le portefaix jusqu’au philosophe le plus savant
 admettaient quatre éléments.
 Personne n’eût songé à contester cette doctrine, qui pourtant est fausse ;
 tellement qu’aujourd’hui il n’y a pas d’aide-naturaliste qui ne se décriât
-s’il regardait la terre, l’eau et le feu comme des éléments.]))])
+s’il regardait la terre, l’eau et le feu comme des éléments. »]))
 ][
-Sur quoi M. Ferrier fait cette observation :
+Sur quoi ,(np "ferrier" [M. Ferrier]) fait cette observation :
 ][
-,(q[Si M. Say croit répondre ainsi à l’objection très-forte qu’il s’est proposée,
+,(q[Si ,(np "say_jb" [M. Say]) croit répondre ainsi à l’objection très-forte qu’il s’est proposée,
 il s’abuse étrangement.
 Que des hommes, d’ailleurs très-éclairés,
 se soient trompés pendant plusieurs siècles
@@ -64,12 +66,12 @@ pût être suivi, pendant plusieurs siècles et chez plusieurs peuples,
 avec l’assentiment général de tous les hommes instruits ?
 Expliquera-t-on comment un tel système
 pourrait se lier avec la prospérité toujours croissante des nations ?
-M. Say avoue que l’argument qu’il combat
+,(np "say_jb" [M. Say]) avoue que l’argument qu’il combat
 est digne de faire une impression profonde.
 Oui certes, et cette impression reste,
-car M. Say l’a plutôt augmentée que détruite.])
-][
-Écoutons M. de Saint-Chamans :
+car ,(np "say_jb" [M. Say]) l’a plutôt augmentée que détruite.])
+][,(tag :a :name "stchamans_ref")
+Écoutons ,(np "stchamans" [M. de Saint-Chamans]) :
 ][
 ,(q[Ce n’est guère qu’au milieu du dernier siècle,
 de ce dix-huitième siècle
@@ -80,7 +82,7 @@ appliquées à tout sans être applicables à rien,
 commencèrent à écrire sur l’économie politique.
 Il existait auparavant un système d’économie politique
 non écrit, mais ,(emph[pratiqué]) par les gouvernements.
-Colbert, dit-on, en était l’inventeur,
+,(np "colbert" [Colbert]), dit-on, en était l’inventeur,
 et il était la règle de tous les États de l’Europe.
 Ce qu’il y a de plus singulier, c’est qu’il l’est encore,
 malgré les anathèmes et le mépris, malgré les découvertes de l’école moderne.
@@ -92,12 +94,12 @@ Ce système a été déclaré inepte, absurde, propre à appauvrir tout pays,
 par les écrivains économistes de toutes les écoles
 ,(footnote*[
 Ne pourrait-on pas dire :
-C’est un terrible préjugé contre MM. Ferrier et Saint-Chamans
+C’est un terrible préjugé contre MM. ,(np "ferrier" [Ferrier]) et ,(np "stchamans" [Saint-Chamans])
 que les économistes ,(emph[de toutes les écoles]),
 c’est-à-dire tous les hommes qui ont étudié la question,
 soient arrivés à ce résultat ;
 après tout, la liberté vaut mieux que la contrainte,
-et les lois de Dieu sont plus sages que celles de Colbert.]),(pv)
+et les lois de Dieu sont plus sages que celles de ,(np "colbert" [Colbert]).]) ,(pv)
 il a été banni de tous les livres,
 réduit à se réfugier dans la ,(emph[pratique]) de tous les peuples ;
 et on ne conçoit pas que, pour ce qui regarde la richesse des nations,
@@ -112,7 +114,7 @@ qui n’a pour lui ,(emph[que les faits]),
 et qui n’est soutenu par aucun écrivain
 ,(footnote*[
 ,(cite-title[Du Système de l’impôt]), etc.,
-par M. le vicomte de Saint-Chamans, page 11.]) !])
+par ,(np "stchamans" [M. le vicomte de Saint-Chamans]), page 11.]) !])
 ][
 Ne dirait-on pas, à entendre ce langage,
 que les économistes, en réclamant pour chacun
@@ -137,14 +139,14 @@ que nous n’avons de notre côté que des ,(emph[théories]).
 ][
 Vous vous flattez même que cette longue série d’actes publics,
 cette ,(emph[vieille expérience]) de l’Europe que vous invoquez,
-a paru imposante à M. Say ;
+a paru imposante à ,(np "say_jb" [M. Say]) ;
 et je conviens qu’il ne vous a pas réfutés avec sa sagacité habituelle.
 ,(--) Pour moi, je ne vous cède pas le domaine des ,(emph[faits]),
 car vous n’avez pour vous que des faits exceptionnels et contraints,
 et nous avons à leur opposer les faits universels,
 les actes libres et volontaires de tous les hommes.
-][
-Que disons-nous et que dites-vous ?
+])
+,(liste (p*[Que disons-nous et que dites-vous ?
 ][
 ,(--) Nous disons :
 ][
@@ -153,12 +155,12 @@ Que disons-nous et que dites-vous ?
 Et vous, vous dites :
 ][
 ,(q[Il vaut mieux faire les choses soi-même,
-encore qu’il en coûte moins cher de les acheter à autrui.])
-][
-Or, Messieurs, laissant de côté la théorie, la démonstration, le raisonnement,
+encore qu’il en coûte moins cher de les acheter à autrui.])]))
+
+,(p*[Or, Messieurs, laissant de côté la théorie, la démonstration, le raisonnement,
 toutes choses qui paraissent vous donner des nausées,
 quelle est celle de ces deux assertions
-qui a pour elle la sanction de l’,(emph[universelle pratique]) ?
+qui a pour elle la sanction de l’,(emph[universelle pratique ?])
 ][
 Visitez donc les champs, les ateliers, les usines, les magasins ;
 regardez au-dessus, au-dessous et autour de vous ;
@@ -217,7 +219,7 @@ Vous vous élevez contre notre ,(emph[théorie]),
 et même contre la ,(emph[théorie]) en général.
 Mais, quand vous posez un principe antagonique au nôtre,
 vous êtes-vous imaginé, par hasard,
-que vous ne faisiez pas de la ,(emph[théorie]) ?
+que vous ne faisiez pas de la ,(emph[théorie ?])
 Non, non, rayez cela de vos papiers.
 Vous faites de la théorie comme nous,
 mais il y a entre la vôtre et la nôtre cette différence :

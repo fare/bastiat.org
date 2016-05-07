@@ -4,42 +4,44 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Prix absolus"
 	:author (author-FB)
-(subtitle[Chapitre XI de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
+,(h2[Chapitre XI de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Voulez-vous juger entre la liberté et la protection ?
 voulez-vous apprécier la portée d’un phénomène économique ?
 Recherchez ses effets ,(emph[sur l’abondance ou la rareté des choses]),
 et non ,(emph[sur la hausse ou la baisse des prix]).
-Méfiez-vous des ,(emph[prix absolus]) :
+Méfiez-vous des ,(emph[prix absolus :])
 ils vous mèneraient dans un labyrinthe inextricable.
-][
-M. Mathieu de Dombasle,
+][,(tag :a :name "dombasle_ref")
+,(np "dombasle" [M. Mathieu de Dombasle]),
 après avoir établi que la protection renchérit les choses, ajoute :
 ][
 ,(q[L’excédant du prix augmente les dépenses de la vie,
 et ,(emph[par conséquent]) le prix du travail,
 et chacun retrouve dans l’excédant du prix de ses produits
 l’excédant du prix de ses dépenses.
-Ainsi, si tout le monde paie comme consommateur,
+Ainsi, si tout le monde paye comme consommateur,
 tout le monde aussi reçoit comme producteur.])
 ][
 Il est clair qu’on pourrait retourner l’argument et dire :
 ][
 ,(q[Si tout le monde reçoit comme producteur,
-tout le monde paie comme consommateur.])
+tout le monde paye comme consommateur.])
 ][
 Or, qu’est-ce que cela prouve ?
 Rien autre chose si ce n’est
 que la protection ,(emph[déplace]) inutilement et injustement la richesse.
 Autant en fait la spoliation.
-][
+][,(tag :a :name "moreau_ref")
 Encore, pour admettre que ce vaste appareil
 aboutit à de simples compensations,
-faut-il adhérer au ,(emph[par conséquent]) de M. de Dombasle,
+faut-il adhérer au ,(emph[par conséquent]) de ,(np "dombasle" [M. de Dombasle]),
 et s’être assuré que le prix du travail
 s’élève avec le prix des produits protégés.
-C’est une question de fait que je renvoie à M. Moreau de Jonnès ;
+C’est une question de fait que je renvoie à ,(np "moreau" [M. Moreau de Jonnès]) ;
 qu’il veuille bien chercher si le taux des salaires a progressé
 comme les actions des mines d’Anzin.
 Quant à moi, je ne le pense pas,
@@ -60,12 +62,12 @@ Au surplus, cette question du plus haut intérêt sera examinée ailleurs.
 Je reviens aux ,(emph[prix absolus]),
 et je dis qu’il n’est pas d’absurdités
 qu’on ne puisse rendre spécieuses
-par des raisonnements tels que celui de M. de Dombasle.
+par des raisonnements tels que celui de ,(np "dombasle" [M. de Dombasle]).
 ][
 Imaginez qu’une nation isolée,
 possédant une quantité donnée de numéraire,
 s’amuse à brûler, chaque année, la moitié de tout ce qu’elle produit,
-je me charge de prouver, avec la théorie de M. de Dombasle,
+je me charge de prouver, avec la théorie de ,(np "dombasle" [M. de Dombasle]),
 qu’elle n’en sera pas moins riche.
 ][
 En effet, par suite de l’incendie,
@@ -77,7 +79,7 @@ Si Jean achète le drap plus cher, il vend aussi plus cher son blé ;
 et si Pierre perd sur l’achat du blé, il se récupère sur la vente de son drap.
 ,(q[Chacun retrouve dans l’excédant du prix de ses produits (dirai-je)
 l’excédant du montant de ses dépenses ;
-et si tout le monde paie comme consommateur,
+et si tout le monde paye comme consommateur,
 tout le monde aussi reçoit comme producteur.])
 ][
 Tout cela, c’est de l’amphigouri et non de la science.
@@ -118,12 +120,12 @@ ait la même ,(emph[valeur nominale])
 que la plus grande quantité produite sous le régime de la liberté ?
 L’homme ne vit pas de ,(emph[valeurs nominales]), mais de produits réels,
 et plus il a de ces produits, n’importe le prix, plus il est riche.
-][
+][,(tag :a :name "stchamans_ref")
 Je ne m’attendais pas, en écrivant ce qui précède,
 à rencontrer jamais un anti-économiste assez bon logicien
 pour admettre explicitement que la richesse des peuples
 dépend de la valeur des choses, abstraction faite de leur abondance.
-Voici ce que je trouve dans le livre de M. de Saint-Chamans (pag. 210) :
+Voici ce que je trouve dans le livre de ,(np "stchamans" [M. de Saint-Chamans]) (pag. 210) :
 ][
 ,(q[Si 15 millions de marchandises vendues aux étrangers
 sont pris sur le produit ordinaire, estimé 50 millions,
@@ -148,7 +150,7 @@ que de produire l’infinie cherté par la rareté absolue !
 Au reste, voulez-vous juger des deux doctrines ?
 soumettez-les à l’épreuve de l’exagération.
 ][
-Selon celle de M. de Saint-Chamans,
+Selon celle de ,(np "stchamans" [M. de Saint-Chamans]),
 les Français seraient tout aussi riches,
 c’est-à-dire aussi bien pourvus de toutes choses
 avec la millième partie de leurs produits annuels,
@@ -156,14 +158,13 @@ parce qu’ils vaudraient mille fois davantage.
 ][
 Selon la nôtre, les Français seraient infiniment riches
 si leurs produits annuels étaient d’une abondance infinie,
-et par conséquent sans valeur aucune
-,(footnote*[
+et par conséquent sans valeur aucune ,(footnote*[
 V. le ,(bof-ref "cherte_bon_marche"
 		[chapitre V de la seconde série])
    des ,(Soph-ref[sophismes])
 et le ,(bof-ref "richesse" [chapitre VI]) des ,(Harmonies_economiques).
 ,(NdEEO)
-])
+]).
 ])])
 (footer[
 	,(jde "reciprocite.html" "question_conseils_generaux.html")

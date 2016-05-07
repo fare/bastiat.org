@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Les fleuves obstrués plaidant pour les prohibitionistes"
 	:author (author-FB)
-(subtitle[Chapitre XVI de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre XVI de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 
 Il y a quelques années, j’étais à Madrid. J’allai aux cortès.
@@ -23,12 +24,12 @@ Un noble hidalgo dit :
 ,(q[Senhor presidente, le projet est absurde.
 Vous placez des gardes, à gros frais, sur les rives du Duero,
 pour empêcher l’invasion du grain castillan en Portugal,
-et, en même temps, vous voulez, toujours à gros frais faciliter cette invasion.
+et, en même temps, vous voulez, toujours à gros frais, faciliter cette invasion.
 C’est une inconséquence à laquelle je ne puis m’associer.
 Que le Duero passe à nos fils tel que nous l’ont laissé nos pères.])
 ]
 (nbsp)
-[
+[,(tag :a :name "boileau_ref")
 Plus tard, quand il s’est agi d’améliorer la Garonne,
 je me suis rappelé les arguments des orateurs ibériens, et je me disais :
 Si les députés de Toulouse étaient aussi bons économistes
@@ -36,12 +37,12 @@ que celui de Palencia,
 et les représentants de Bordeaux aussi forts logiciens
 que ceux d’Oporto,
 assurément on laisserait la Garonne 
-,(blockquote[
-Dormir au bruit flatteur de son urne penchante,
+,(cverses [
+Dormir au bruit flatteur de son urne penchante, ,(np "boileau" [*])
 ])
 car la canalisation de la Garonne favorisera,
-au préjudice de Bordeaux, ,(emph[l’invasion]) des produits toulousains,
-et, au détriment de Toulouse, ,(emph[l’inondation]) des produits bordelais.
+au préjudice de Bordeaux, l’,(emph[invasion]) des produits toulousains,
+et, au détriment de Toulouse, l’,(emph[inondation]) des produits bordelais.
 
 
 ])])

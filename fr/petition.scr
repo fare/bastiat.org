@@ -4,26 +4,28 @@
 	- par Frédéric Bastiat")
 (document :title "Pétition des fabricants de chandelles"
 	:author (author-FB)
-(subtitle[Chapitre VII de la ,(Iere) série des ,(SophismesEconomiques)])
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
+,(h2[Chapitre VII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*
-(font :size "+3" [Pétition])
-(font :size "+2" [des fabricants de
+(center (sc (font :size "+3" [Pétition])))
+(sc (font :size "+2" [des fabricants de
 chandelles, bougies, lampes,
 chandeliers, réverbères, mouchettes, éteignoirs,
 et des producteurs de suif, huile, résine, alcool,
-et généralement de tout ce qui concerne l’éclairage
-])
-(font :size "+1" [À MM. les Membres de la Chambre des Députés])
-(bold(q[Messieurs,]))
-(q[Vous êtes dans la bonne voie.
+et généralement de tout ce qui concerne l’éclairage.
+]))
+(center (bold (font :size "+1" [À MM. les Membres de la Chambre des Députés.]))))
+
+,(cher[« Messieurs,])
+,(p*[« Vous êtes dans la bonne voie.
 Vous repoussez les théories abstraites ;
 l’abondance, le bon marché vous touchent peu.
 Vous vous préoccupez surtout du sort du producteur.
 Vous le voulez affranchir de la concurrence extérieure,
 en un mot, vous voulez réserver
-le ,(emph[marché national]) au ,(emph[travail national]).])
-(q[Nous venons vous offrir une admirable occasion
+le ,(emph[marché national]) au ,(emph[travail national]).]
+[« Nous venons vous offrir une admirable occasion
 d’appliquer votre… comment dirons-nous ?
 votre théorie ? non, rien n’est plus trompeur que la théorie ;
 votre doctrine ? votre système ? votre principe ?
@@ -32,8 +34,8 @@ vous avez horreur des systèmes, et,
 quant aux principes,
 vous déclarez qu’il n’y en a pas en économie sociale ;
 nous dirons donc votre pratique,
-votre pratique sans théorie et sans principe.])
-(q[Nous subissons l’intolérable concurrence d’un rival étranger
+votre pratique sans théorie et sans principe.]
+[« Nous subissons l’intolérable concurrence d’un rival étranger
 placé, à ce qu’il paraît,
 dans des conditions tellement supérieures aux nôtres,
 pour la production de la lumière,
@@ -49,8 +51,8 @@ nous fait une guerre si acharnée,
 que nous soupçonnons qu’il nous est suscité par la perfide Albion
 (bonne diplomatie par le temps qui court !),
 d’autant qu’il a pour cette île orgueilleuse
-des ménagements dont il se dispense envers nous.])
-(q[Nous demandons qu’il vous plaise de faire une loi
+des ménagements dont il se dispense envers nous.]
+[« Nous demandons qu’il vous plaise de faire une loi
 qui ordonne la fermeture de toutes
 fenêtres, lucarnes, abat-jour, contre-vents,
 volets, rideaux, vasistas, ,(oe)ils-de-b,(oe)uf, stores,
@@ -59,82 +61,82 @@ par lesquelles la lumière du soleil a coutume de pénétrer dans les maisons,
 au préjudice des belles industries
 dont nous nous flattons d’avoir doté le pays,
 qui ne saurait sans ingratitude
-nous abandonner aujourd’hui à une lutte si inégale.])
-(q[Veuillez, Messieurs les députés,
+nous abandonner aujourd’hui à une lutte si inégale.]
+[« Veuillez, Messieurs les députés,
 ne pas prendre notre demande pour une satire,
 et ne la repoussez pas du moins
-sans écouter les raisons que nous avons à faire valoir à l’appui.])
-(q[Et d’abord, si vous fermez, autant que possible,
+sans écouter les raisons que nous avons à faire valoir à l’appui.]
+[« Et d’abord, si vous fermez, autant que possible,
 tout accès à la lumière naturelle,
 si vous créez ainsi le besoin de lumière artificielle,
 quelle est en France l’industrie qui, de proche en proche,
-ne sera pas encouragée ?])
-(q[S’il se consomme plus de suif,
+ne sera pas encouragée ?]
+[« S’il se consomme plus de suif,
 il faudra plus de b,(oe)ufs et de moutons, et, par suite,
 on verra se multiplier les prairies artificielles,
 la viande, la laine, le cuir,
-et surtout les engrais, cette base de toute richesse agricole.])
-(q[S’il se consomme plus d’huile,
+et surtout les engrais, cette base de toute richesse agricole.]
+[« S’il se consomme plus d’huile,
 on verra s’étendre la culture du pavot, de l’olivier, du colza.
 Ces plantes riches et épuisantes viendront à propos
 mettre à profit cette fertilité
-que l’élevage ,(XXX) des bestiaux aura communiquée à notre territoire.])
-(q[Nos landes se couvriront d’arbres résineux.
+que l’élève des bestiaux aura communiquée à notre territoire.]
+[« Nos landes se couvriront d’arbres résineux.
 De nombreux essaims d’abeilles recueilleront sur nos montagnes
 des trésors parfumés qui s’évaporent aujourd’hui sans utilité,
 comme les fleurs d’où ils émanent.
 Il n’est donc pas une branche d’agriculture
-qui ne prenne un grand développement.])
-(q[Il en est de même de la navigation :
+qui ne prenne un grand développement.]
+[« Il en est de même de la navigation :
 des milliers de vaisseaux iront à la pêche de la baleine,
 et dans peu de temps nous aurons une marine
 capable de soutenir l’honneur de la France
 et de répondre à la patriotique susceptibilité des pétitionnaires soussignés,
-marchands de chandelles, etc.])
-(q[Mais que dirons-nous de l’,(emph[article Paris]) ?
+marchands de chandelles, etc.]
+[« Mais que dirons-nous de l’,(emph[article Paris ?])
 Voyez d’ici les dorures, les bronzes, les cristaux en chandeliers,
 en lampes, en lustres, en candélabres,
-briller dans de spacieux magasins,
-auprès desquels ceux d’aujourd’hui ne sont que des boutiques.])
-(q[Il n’est pas jusqu’au pauvre résinier, au sommet de sa dune,
+briller dans de spacieux magasins
+auprès desquels ceux d’aujourd’hui ne sont que des boutiques.]
+[« Il n’est pas jusqu’au pauvre résinier, au sommet de sa dune,
 ou au triste mineur, au fond de sa noire galerie,
-qui ne voie augmenter son salaire et son bien-être.])
-(q[Veuillez y réfléchir, Messieurs ;
+qui ne voie augmenter son salaire et son bien-être.]
+[« Veuillez y réfléchir, Messieurs ;
 et vous resterez convaincus qu’il n’est peut-être pas un Français,
 depuis l’opulent actionnaire d’Anzin
 jusqu’au plus humble débitant d’allumettes,
-dont le succès de notre demande n’améliore la condition.])
-(q[Nous prévoyons vos objections, Messieurs ;
+dont le succès de notre demande n’améliore la condition.]
+[« Nous prévoyons vos objections, Messieurs ;
 mais vous ne nous en opposerez pas une seule
 que vous n’alliez la ramasser dans les livres usés
 des partisans de la liberté commerciale.
 Nous osons vous mettre au défi de prononcer un mot contre nous
 qui ne se retourne à l’instant contre vous-mêmes
-et contre le principe qui dirige toute votre politique.])
-(q[Nous direz-vous que, si nous gagnons à cette protection,
+et contre le principe qui dirige toute votre politique.]
+[« Nous direz-vous que, si nous gagnons à cette protection,
 la France n’y gagnera point,
-parce que le consommateur en fera les frais ?])
-(q[Nous vous répondrons :])
-(q[Vous n’avez plus le droit d’invoquer les intérêts du consommateur.
+parce que le consommateur en fera les frais ?]
+[« Nous vous répondrons :]
+[« Vous n’avez plus le droit d’invoquer les intérêts du consommateur.
 Quand il s’est trouvé aux prises avec le producteur,
 en toutes circonstances vous l’avez sacrifié.
- - Vous l’avez fait pour ,(emph[encourager le travail]),
+— Vous l’avez fait pour ,(emph[encourager le travail]),
 pour ,(emph[accroître le domaine du travail]).
-Par le même motif, vous devez le faire encore.])
-(q[Vous avez été vous-mêmes au-devant de l’objection.
+Par le même motif, vous devez le faire encore.]
+[« Vous avez été vous-mêmes au-devant de l’objection.
 Lorsqu’on vous disait :
 le consommateur est intéressé à la libre introduction
 du fer, de la houille, du sésame, du froment, des tissus.
-- Oui, disiez-vous, mais le producteur est intéressé à leur exclusion. -
+— Oui, disiez-vous, mais le producteur est intéressé à leur exclusion. —
 Eh bien !
 si les consommateurs sont intéressés à l’admission de la lumière naturelle,
-les producteurs le sont à son interdiction.])
-(q[Mais, disiez-vous encore,
+les producteurs le sont à son interdiction.]
+[« Mais, disiez-vous encore,
 le producteur et le consommateur ne font qu’un.
 Si le fabricant gagne par la protection,
 il fera gagner l’agriculteur.
 Si l’agriculture prospère, elle ouvrira des débouchés aux fabriques.
-- Eh bien !
+— Eh bien !
 si vous nous conférez le monopole de l’éclairage pendant le jour,
 d’abord nous achèterons beaucoup
 de suifs, de charbons, d’huiles, de résines, de cire, d’alcool,
@@ -143,55 +145,55 @@ pour alimenter notre industrie,
 et, de plus,
 nous et nos nombreux fournisseurs, devenus riches,
 nous consommerons beaucoup et répandrons l’aisance
-dans toutes les branches du travail national.])
-(q[Direz-vous que la lumière du soleil est un don gratuit,
+dans toutes les branches du travail national.]
+[« Direz-vous que la lumière du soleil est un don gratuit,
 et que repousser des dons gratuits,
 ce serait repousser la richesse même
-sous prétexte d’encourager les moyens de l’acquérir ?])
-(q[Mais prenez garde que vous portez la mort
+sous prétexte d’encourager les moyens de l’acquérir ?]
+[« Mais prenez garde que vous portez la mort
 		dans le c,(oe)ur de votre politique ;
 prenez garde que jusqu’ici vous avez toujours repoussé
 le produit étranger ,(emph[parce qu’il]) se rapproche du don gratuit,
 et ,(emph[d’autant plus]) qu’il se rapproche du don gratuit.
 Pour obtempérer aux exigences des autres monopoleurs,
-vous n’aviez qu’un ,(emph[demi-motif]) ,(pv)
+vous n’aviez qu’un ,(emph[demi-motif ;])
 pour accueillir notre demande, vous avez un ,(emph[motif complet]),
 et nous repousser précisément
 en vous ,(emph[fondant])
 sur ce que nous sommes plus ,(emph[fondés]) que les autres,
-ce serait poser l’équation : ,(tt[+ x + = -]) ,(pv)
+ce serait poser l’équation : ,(tt[+ × + = –]) ,(pv)
 en d’autres termes, ce serait entasser
-,(emph[absurdité]) sur ,(emph[absurdité]).])
-(q[Le travail et la nature concourent en proportions diverses,
+,(emph[absurdité]) sur ,(emph[absurdité]).]
+[« Le travail et la nature concourent en proportions diverses,
 selon les pays et les climats, à la création d’un produit.
 La part qu’y met la nature est toujours gratuite ;
-c’est la part du travail qui en fait la valeur et se paie.])
-(q[Si une orange de Lisbonne se vend à moitié prix d’une orange de Paris,
+c’est la part du travail qui en fait la valeur et se paie.]
+[« Si une orange de Lisbonne se vend à moitié prix d’une orange de Paris,
 c’est qu’une chaleur naturelle et par conséquent gratuite fait pour l’une
-ce que l’autre doit à une chaleur artificielle et partant coûteuse.])
-(q[Donc, quand une orange nous arrive de Portugal,
+ce que l’autre doit à une chaleur artificielle et partant coûteuse.]
+[« Donc, quand une orange nous arrive de Portugal,
 on peut dire qu’elle nous est donnée moitié gratuitement,
 moitié à titre onéreux,
 ou, en d’autres termes,
-à ,(emph[moitié prix]) relativement à celle de Paris.])
-(q[Or, c’est précisément de cette ,(emph[demi-gratuité]) (pardon du mot)
+à ,(emph[moitié prix]) relativement à celle de Paris.]
+[« Or, c’est précisément de cette ,(emph[demi-gratuité]) (pardon du mot)
 que vous arguez pour l’exclure.
 Vous dites : Comment le travail national
 pourrait-il soutenir la concurrence du travail étranger
 quand celui-là a tout à faire,
 et que celui-ci n’a à accomplir que la moitié de la besogne,
 le soleil se chargeant du reste ?
-- Mais si la ,(emph[demi-gratuité])
+— Mais si la ,(emph[demi-gratuité])
 vous détermine à repousser la concurrence,
 comment la ,(emph[gratuité]) entière
 vous porterait-elle à admettre la concurrence ?
 Ou vous n’êtes pas logiciens,
 ou vous devez, repoussant la demi-gratuité
 comme nuisible à notre travail national,
-repousser ,(emph[a fortiori]) ,(XXX [ :EO /à fortiori/ ])
+repousser ,(inlatin[a fortiori]) ,(XXX [ :EO /à fortiori/ ])
 et avec deux fois plus de zèle
-la gratuité entière.])
-(q[Encore une fois, quand un produit, houille, fer, froment ou tissu,
+la gratuité entière.]
+[« Encore une fois, quand un produit, houille, fer, froment ou tissu,
 nous vient du dehors et que nous pouvons l’acquérir
 avec moins de travail que si nous le faisions nous-mêmes,
 la différence est un ,(emph[don gratuit]) qui nous est conféré.
@@ -209,14 +211,11 @@ ou les prétendus avantages de la production onéreuse.
 Choisissez, mais soyez logiques ;
 car, tant que vous repousserez, comme vous le faites,
 la houille, le fer, le froment, les tissus étrangers,
-en ,(emph[proportion]) de ce que leur prix se rapproche de ,(emph[zéro]),
+,(emph[en proportion]) de ce que leur prix se rapproche de ,(emph[zéro]),
 quelle inconséquence ne serait-ce pas
 d’admettre la lumière du soleil,
 dont le prix est à ,(emph[zéro]), pendant toute la journée ?
-
-
-
-]))
+])
 ])
 (footer[
 	,(jde "balance_du_commerce_sophisme.html" "droits_differentiels.html")

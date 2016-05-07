@@ -58,7 +58,7 @@
 	(id nom dates &rest details)
 	(div :class "personne" [
 		,(tag :a :name id)
-		,(p (span :class "nom" nom) ". " (span :class "dates" dates) )
+		,(p (span :class "nom" nom) (span :class "dates" dates) )
 	] details)
 )
 
@@ -79,7 +79,12 @@
 
 ,(personne "argout" "d’Argout" "Antoine" "1782-1858" [
 ,(ref :url "abondance_disette.html#argout_ref" [Abondance, disette]) ;
-,(ref :url "effort_resultat.html#argout_ref" [Effort, résultat])
+,(ref :url "effort_resultat.html#argout_ref" [Effort, résultat]) ;
+,(ref :url "metaphores.html#argout_ref" [Métaphores])
+])
+
+,(personne1nom "aristote" "Aristote" "384-322 av. J.-C." [
+,(ref :url "metaphores.html#aristote_ref" [Métaphores])
 ])
 
 ])
@@ -90,11 +95,16 @@
 ])
 
 ,(personne "bentham" "Bentham" "Jeremy" "1748-1832" [
-,(ref :url "introduction_sophismes.html" [Épigraphe de la première série des Sophismes économiques.])
+,(ref :url "introduction_sophismes.html" [Épigraphe de la première série des Sophismes économiques.]) ;
+,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
 ])
 
 ,(personne "beranger" "de Béranger" "Pierre-Jean" "1780-1857" [
 ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+
+,(personne "bezout" "Bézout" "Étienne" "1730-1783" [
+,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
 ])
 
 ,(personne "blaise" "Blaise" "Adolphe-Gustave" "1811-1886" [
@@ -103,6 +113,10 @@
 
 ,(personne "blanqui" "Blanqui" "Adolphe" "1798-1854" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+])
+
+,(personne "boileau" "Boileau" "Nicolas" "1636-1711" [
+,(ref :url "les_fleuves.html#boileau_ref" [Les fleuves obstrués plaidant pour les prohibitionistes]) : citation de l’,(cite-title[Épître IV]) : “Le Rhin tranquille, et fier du progrès de ses eaux, / Appuyé d'une main sur son urne penchante, / Dormoit au bruit flatteur de son onde naissante…”
 ])
 
 ,(personne "bonaparte" "Bonaparte" "Napoléon" "1769-1821" [
@@ -117,6 +131,10 @@
 ])
 ,(lettre "C" [
 
+,(personne "cartouche" "Cartouche" "Louis-Dominique Garthausen, dit" "1693-1721" [
+,(ref :url "metaphores.html#cartouche_ref" [Métaphores])
+])
+
 ,(personne "chevalier" "Chevalier" "Michel" "1806-1879" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
@@ -126,11 +144,16 @@
 ])
 
 ,(personne "colbert" "Colbert" "Jean-Baptiste" "1619-1683" [
-,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]) ;
+,(ref :url "theorie_pratique.html#stchamans_ref" [Théorie, pratique])
 ])
 
 ,(personne "correge" "Correggio" "Antonio Allegri da" "1489-1534" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "courier" "Courier" "Paul-Louis" "1772-1825" [
+,(ref :url "metaphores.html#courier_ref" [Métaphores])
 ])
 
 ,(personne "cunin" "Cunin-Gridaine" "Laurent Cunin, dit" "1778-1859" [
@@ -141,7 +164,9 @@
 ,(lettre "D" [
 
 ,(personne "dombasle" "Dombasle" "Mathieu de" "1777-1843" [
-,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production])
+,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production]) ;
+,(ref :url "prix_absolus.html#dombasle_ref" [Prix absolus]) ;
+,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité])
 ])
 
 ,(personne "duchatel" "Duchâtel" "Tanneguy" "1803-1867" [
@@ -149,7 +174,8 @@
 ])
 
 ,(personne "dupin_ch" "Dupin" "Charles" "1784-1873" [
-,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat])
+,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
+,(ref :url "metaphores.html#argout_ref" [Métaphores])
 ])
 	
 ])
@@ -158,8 +184,17 @@
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
+,(personne "ferrier" "Ferrier" "François" "1777-1861" [
+,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique])
+])
+
 ])
 ,(lettre "G" [
+
+,(personne "ganneron" "Ganneron" "Hippolyte" "1792-1847" [
+Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La protection élève-t-elle le taux des salaires ?])
+])
+
 ,(personne "garnier" "Garnier" "Joseph" "1813-1881" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
@@ -182,8 +217,17 @@
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
+,(personne "hugo" "Hugo" "Victor" "1802-1885" [
+,(ref :url "conclusion_sophismes.html#hugo_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) : citation d’,(cite-title[Hernani]), acte III sc. 7.
+])
+
 ])
 ,(lettre "J" [
+
+,(personne "jacquart" "Jacquart" "Joseph Marie Charles, dit" "1752-1834" [
+,(ref :url "conclusion_sophismes.html#jacquart_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
 ,(personne "jobard" "Jobard" "Marcellin" "1792-1861" [
 ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
 ])
@@ -197,10 +241,23 @@
 
 ,(personne "lafontaine" "La Fontaine" "Jean de" "1621-1695" [
 ,(ref :url "greves_de_taxes.html#lafontaine_ref" [Nos produits sont grevés de taxes]) : citation de ,(cite-title[La Belette entrée dans un grenier :]) “Mais ne confondons point, par trop approfondir, / Leurs affaires avec les vôtres.”
+,(ref :url "reciprocite.html#lafontaine_ref" [Réciprocité]) : citation du ,(cite-title[Coche et la Mouche :]) “Dans un chemin montant, sablonneux, malaisé…”
+])
+
+,(personne "laplace" "Laplace" "Pierre-Simon de" "1749-1827" [
+,(ref :url "conclusion_sophismes.html#laplace_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
+,(personne "lebrun" "Lebrun" "Ponce-Denis Écouchard" "1729-1807" [
+,(ref :url "conclusion_sophismes.html#laplace_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) : citation d’une ode : “Grâce à la Muse qui m’inspire, / Il est fini ce monument / Que jamais ne pourront détruire / Le fer ni le flot écumant. / Le ciel même, armé de la foudre, / Ne saurait le réduire en poudre : / Les siècles l’essairaient en vain. / Il brave ces tyrans avides, / Plus hardi que les pyramides, / Et plus durable que l’airain.”
 ])
 
 ,(personne "leclerc" "Leclerc" "Louis" "1786-1873" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+])
+
+,(personne "legendre" "Legendre" "Adrien-Marie" "1752-1833" [
+,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
 ])
 
 ,(personne "lestiboudois" "Lestiboudois" "Gaspard Thémistocle" "1797-1876" [
@@ -209,9 +266,19 @@
 
 ])
 ,(lettre "M" [
+
+,(personne "malebranche" "Malebranche" "Nicolas" "1638-1715" [
+,(ref :url "metaphores.html#courier_ref" [Métaphores])
+])
+
 ,(personne "malthus" "Malthus" "Thomas" "1766-1834" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
 ])
+
+,(personne1nom "mehemetali" "Méhémet-Ali" "1769-1849" [
+,(ref :url "metaphores.html#mehemetali_ref" [Métaphores])
+])
+
 
 ,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
 ,(p*[
@@ -219,9 +286,17 @@
 ,(ref :url "abondance_disette.html#mimerel_ref" [Abondance, disette])
 ])])
 
+,(personne "moliere" "Molière" "Jean-Baptiste Poquelin, dit" "1622-1673" [
+,(ref :url "conclusion_sophismes.html#moliere_ref" [Conclusion à la première série des ,(cite-title[Sophismes]) 1]), ,(ref :url "conclusion_sophismes.html#moliere_ref2" [2]) : allusions au ,(cite-title[Bourgeois gentilhomme])
+])
+
 ,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
 ,(ref :url "abondance_disette.html#montaigne_ref" [Abondance, disette]) ;
 	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
+])
+
+,(personne "moreau" "Moreau de Jonnès" "Alexandre" "1778-1870" [
+,(ref :url "prix_absolus.html#moreau_ref" [Prix absolus])
 ])
 
 ])
@@ -277,25 +352,48 @@
 
 ])
 ,(lettre "S" [
-,(personne "stcricq" "de Saint-Cricq" "Pierre" "1772-1854" [
+
+,(personne "stchamans" "Saint-Chamans" "Auguste de" "1777-1860" [
+,(ref :url "prix_absolus.html#stchamans_ref" [Prix absolus]) ;
+,(ref :url "theorie_pratique.html#stchamans_ref" [Théorie, pratique]) ;
+,(ref :url "thtn.html#stchamans_ref" [Travail humain, travail national]) ;
+,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
+,(personne "stcricq" "Saint-Cricq" "Pierre de" "1772-1854" [
 ,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette]) ;
-,(ref :url "effort_resultat.html#stcricq_ref" [Effort, résultat])
+,(ref :url "effort_resultat.html#stcricq_ref" [Effort, résultat]) ;
+,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité]) ;
+,(ref :url "matieres_premieres.html#stcricq_ref" [Matières premières]) (,(inlatin[passim]))
 ])
 
 ,(personne "say_h" "Say" "Horace" "1794-1860" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
 
+,(personne "say_jb" "Say" "Jean-Baptiste" "1767-1832" [
+,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique]) ;
+,(ref :url "conclusion_sophismes.html#say_jb_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
 ,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
 ])
 
-,(personne "sismondi" "de Sismondi" "Jean" "1773-1842" [
+,(personne "simiot" "Simiot" "Alexandre-Étienne" "1807-1879" [
+,(ref :url "chemin_de_fer.html#simiot_ref" [Un chemin de fer négatif])
+])
+
+,(personne "sismondi" "Sismondi" "Jean de" "1773-1842" [
 ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
 ])
 
 ,(personne1nom "sisyphe" "Sisyphe" "légendaire" [
 ,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résultat])
+])
+
+,(personne "smith" "Smith" "Adam" "1723-1790" [
+,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
 ])
 
 ,(personne "sully" "Sully" "Maximilien de Béthune, duc de" "1559-1641" [
@@ -304,6 +402,11 @@
 
 ])
 ,(lettre "T" [
+
+,(personne "thenard" "Thénard" "Louis Jacques" "1777-1857" [
+,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
 ,(personne "thompson_tp" "Thompson" "Thomas Perronet" "1783-1869" [
 ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
 ])
@@ -322,6 +425,11 @@
 
 ])
 ,(lettre "V" [
+
+,(personne "villele" "Villèle" "Joseph de" "1773-1854" [
+,(ref :url "metaphores.html#argout_ref" [Métaphores])
+])
+
 ,(personne "voltaire" "Voltaire" "François-Marie Arouet, dit" "1694-1778" [
 ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
 ])

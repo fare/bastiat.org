@@ -1,11 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Immense découverte!!!
+(in-bof :title "Immense découverte !!!
 	- par Frédéric Bastiat")
-(document :title "Immense découverte!!!"
+(document :title "Immense découverte !!!"
 	:author (author-FB)
-(subtitle[Chapitre IX de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
+,(h2[Chapitre IX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Au moment où tous les esprits sont occupés à chercher
 des économies sur les moyens de transport ;
@@ -29,7 +31,7 @@ avec ardeur et sincérité la solution de ce problème :
 (q(emph[Faire que le prix des choses,
 	au lieu de consommation,
 	se rapproche autant que possible du prix
-	qu’elles ont aux lieux de production.]))
+	qu’elles ont aux lieux de production,]))
 [
 Je me croirais coupable
 	envers mon pays,
@@ -69,10 +71,10 @@ Elle peut être mise en pratique du jour au lendemain !
 ][
 Enfin, et ceci la recommandera sans doute au public,
 elle ne grèvera pas d’un centime le budget ;
-	au contraire.
+	au contraire. —
 Elle n’augmentera pas
 le cadre des fonctionnaires et les exigences de la bureaucratie ;
-	au contraire.
+	au contraire. —
 Elle ne coûtera à personne sa liberté ;
 	au contraire.
 ][
@@ -88,7 +90,7 @@ J’avais donc cette question à résoudre :
 Or, je n’ai pas tardé à m’apercevoir
 que cela provient de ce qu’il existe entre Paris et Bruxelles
 des ,(emph[obstacles]) de plusieurs sortes.
-C’est d’abord la ,(emph[distance]) ,(pv)
+C’est d’abord la ,(emph[distance ;])
 on ne peut la franchir sans peine, sans perte de temps ;
 	et il faut bien s’y soumettre soi-même
 	ou payer pour qu’un autre s’y soumette.
@@ -126,7 +128,6 @@ Ils agissent exactement dans le même sens que la boue et les ornières.
 ][
 Et voilà le problème résolu.
 Diminuez le tarif.
-][
 	— Vous aurez fait le chemin de fer du Nord
 	sans qu’il vous en ait rien coûté.
 Loin de là, vous épargnerez de gros traitements,
@@ -145,43 +146,43 @@ en sorte que, l’obstacle créé et l’obstacle détruit se neutralisant,
 	les choses vont comme devant,
 et le résidu de l’opération est une double dépense.
 ][
-Un produit belge vaut à Bruxelles 20 F, et, rendu à Paris, 30,
+Un produit belge vaut à Bruxelles 20 fr., et, rendu à Paris, 30,
 à cause des frais de transport.
-Le produit similaire d’industrie parisienne vaut 40 F.
+Le produit similaire d’industrie parisienne vaut 40 fr.
 Que faisons-nous ?
 ][
-D’abord nous mettons un droit d’au moins 10 F sur le produit belge,
-afin d’élever son prix de revient à Paris à 40 F,
+D’abord nous mettons un droit d’au moins 10 fr. sur le produit belge,
+afin d’élever son prix de revient à Paris à 40 fr.,
 et nous payons de nombreux surveillants pour qu’il n’échappe pas à ce droit,
 en sorte que dans le trajet
-	il est chargé de 10 F pour le transport
-	et 10 F pour la taxe.
+	il est chargé de 10 fr. pour le transport
+	et 10 fr. pour la taxe.
 ][
 Cela fait, nous raisonnons ainsi :
 ce transport de Bruxelles à Paris,
-	qui coûte 10 F, est bien cher.
+	qui coûte 10 fr., est bien cher.
 Dépensons deux ou trois cents millions en rail-ways,
-et nous le réduirons de moitié.
+et nous le réduirons de moitié. — 
 Évidemment, tout ce que nous aurons obtenu,
-	c’est que le produit belge se vendra à Paris 35 F, savoir :
+	c’est que le produit belge se vendra à Paris 35 fr., savoir :
 ]
 (table
-(tr (tdRT [20 F]) (tdLT [son prix de Bruxelles]))
-(tr (tdRT [10 F]) (tdLT [droit]))
-(tr (tdRT  [5 F]) (tdLT [port réduit par le chemin de fer]))
+(tr (tdRT [20 fr.]) (tdLT [son prix de Bruxelles.]))
+(tr (tdRT [10 —]) (tdLT [droit.]))
+(tr (tdRT  [5 —]) (tdLT [port réduit par le chemin de fer.]))
 (tr (td (hrule)))
-(tr (tdRT [35 F]) (tdLT [total, ou prix de revient à Paris])))
+(tr (tdRT [35 fr.]) (tdLT [total, ou prix de revient à Paris.])))
 [
 Eh ! n’aurions-nous pas atteint le même résultat
-en abaissant le tarif à 5 F ?
+en abaissant le tarif à 5 fr. ?
 Nous aurions alors :
 ]
 (table
-(tr (tdRT [20 F]) (tdLT [son prix de Bruxelles]))
-(tr (tdRT  [5 F]) (tdLT [droit réduit]))
-(tr (tdRT [10 F]) (tdLT [port par les routes ordinaires]))
+(tr (tdRT [20 fr.]) (tdLT [son prix de Bruxelles.]))
+(tr (tdRT  [5 —]) (tdLT [droit réduit.]))
+(tr (tdRT [10 —]) (tdLT [port par les routes ordinaires.]))
 (tr (td (hrule)))
-(tr (tdRT [35 F]) (tdLT [total, ou prix de revient à Paris])))
+(tr (tdRT [35 fr.]) (tdLT [total, ou prix de revient à Paris.])))
 [
 Et ce procédé nous eût épargné 200 millions que coûte le chemin de fer,
 plus les frais de surveillance douanière,
@@ -190,18 +191,18 @@ car ils doivent diminuer
 ][
 Mais, dit-on, le droit est nécessaire
 pour protéger l’industrie parisienne.
-Soit ; mais alors n’en détruisez pas l’effet par votre chemin de fer.
+— Soit ; mais alors n’en détruisez pas l’effet par votre chemin de fer.
 ][
 Car, si vous persistez à vouloir que le produit belge revienne,
-comme celui de Paris, à 40 F,
-il vous faudra porter le droit à 15 F pour avoir :
+comme celui de Paris, à 40 fr.,
+il vous faudra porter le droit à 15 fr. pour avoir :
 ]
 (table
-(tr (tdRT [20 F]) (tdLT [son prix de Bruxelles]))
-(tr (tdRT [15 F]) (tdLT [droit protecteur]))
-(tr (tdRT [ 5 F]) (tdLT [port par le chemin de fer]))
+(tr (tdRT [20 fr.]) (tdLT [son prix de Bruxelles.]))
+(tr (tdRT [15 —]) (tdLT [droit protecteur.]))
+(tr (tdRT [ 5 —]) (tdLT [port par le chemin de fer.]))
 (tr (td (hrule)))
-(tr (tdRT [40 F]) (tdLT [total à prix égalisés])))
+(tr (tdRT [40 fr.]) (tdLT [total à prix égalisés.])))
 [
 Alors je demande quelle est, sous ce rapport,
 l’utilité du chemin de fer.
@@ -211,7 +212,7 @@ pour le dix-neuvième siècle
 d’apprêter aux âges futurs
 le spectacle de pareilles puérilités
 pratiquées avec un sérieux imperturbable ?
-Être dupe d’autrui n’est pas déjà très plaisant ;
+Être dupe d’autrui n’est pas déjà très-plaisant ;
 mais employer le vaste appareil représentatif
 	à se duper soi-même,
 	à se duper doublement,
@@ -228,7 +229,7 @@ voilà qui est bien propre à rabattre un peu
 (p*[
 Extrait de l’,(EO1863),
 tome IV, ,(SophismesEconomiques),
-,(Iere) série, chapitre IX, "Immense découverte", pp. 63-67.
+,(Iere) série, chapitre IX, "Immense découverte !!!", pp. 63-67.
 ][
 Texte scanné, numérisé, mis en hypertexte, relu et édité
 par ,(FRR) pour ,(Bastiat.org).

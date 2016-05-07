@@ -81,6 +81,8 @@
      (else (use-lang 'en))))
 (define (verses . x)
   (blockquote :class "vers" (apply* br* x)))
+(define (cverses . x)
+  (blockquote :class "cvers" (apply* br* x)))
 
 (define (XXX . rest) (declare (ignore rest)) '())
 (define (p* . rest) (apply* *list (map* p-justify rest)))
@@ -148,7 +150,7 @@
 (define (20e) [20,(sup "e")])
 (define (55e) [55,(sup "e")])
 (define (Ier) [,(sc[i]),(sup "er")])
-(define (Iere) [,(sc[i]),(sup "re")])
+(define (Iere) [I,(sup "re")])
 (define (VIIe) [,(sc[vii]),(sup "e")])
 (define (XIe) [,(sc[xi]),(sup "e")])
 (define (XIIIe) [,(sc[xiii]),(sup "e")])
@@ -536,6 +538,8 @@
 
 (defun corresp (prec suiv) (arbor "Correspondance" "correspondance.html" prec suiv))
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
+(defun he (prec suiv) (arbor "Harmonies économiques" "harmonies.html" prec suiv))
+(defun gc (prec suiv) (arbor "Gratuité du crédit" "gratuite_du_credit.html" prec suiv))
 
 (defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
 (defun acalmetes (prec suiv) (arbor "Lettres à Calmètes" "lettres_calmetes.html" prec suiv))

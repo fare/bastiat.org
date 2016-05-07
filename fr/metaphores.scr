@@ -4,15 +4,16 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Métaphores"
 	:author (author-FB)
-(subtitle[Chapitre XXII de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre XXII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Quelquefois le sophisme se dilate,
 pénètre tout le tissu d’une longue et lourde théorie.
 Plus souvent il se comprime, il se resserre, il se fait principe,
 et se cache tout entier dans un mot.
-][
-Dieu nous garde, disait Paul-Louis, du malin et de la métaphore !
+][,(tag :a :name "courier_ref")
+Dieu nous garde, disait ,(np "courier" [Paul-Louis]), du malin et de la métaphore !
 ,(XXX[
 http ://www.econlib.org/library/Bastiat/basSophNotes.html#n81
 Paul-Louis Courier de Méré (1772-1825),
@@ -30,7 +31,7 @@ abus par la résistance de ceux qui en souffrent.
 C’est le ,(emph[sophisme]) qui paralyse cette résistance.
 L’épée que la ,(emph[malice]) met aux mains des assaillants serait impuissante
 si le ,(emph[sophisme]) ne brisait pas le bouclier aux bras des assaillis ;
-et c’est avec raison que Malebranche a inscrit sur le frontispice de son livre
+et c’est avec raison que ,(np "malebranche" [Malebranche]) a inscrit sur le frontispice de son livre
 cette sentence : ,(emph[L’erreur est la cause de la misère des hommes.])
 ][
 Et voyez ce qui se passe.
@@ -46,7 +47,7 @@ nous abaissent dans l’opinion des peuples
 et réduisent les Français qui ont conservé quelque amour de la justice
 à rougir de leur patrie.
 Certes ce sont là de grands maux ;
-et pour que le public se garantit contre les menées
+et pour que le public se garantît contre les menées
 de ceux qui veulent lui faire courir de telles chances,
 il suffirait qu’il en eût la claire vue.
 Comment parvient-on à la lui dérober ?
@@ -77,7 +78,8 @@ entre un vaisseau de guerre qui vient vomir sur nos villes
 le fer, le feu et la dévastation,
 ,(--) et un navire marchand qui vient nous offrir
 de troquer librement, volontairement, des produits contre des produits ?
-][
+]
+[,(tag :a :name "mehemetali_ref")
 J’en dirai autant du mot ,(emph[inondation]).
 Ce mot se prend ordinairement en mauvaise part,
 parce qu’il est assez dans les habitudes des inondations
@@ -91,7 +93,7 @@ avant de déclamer contre les ,(emph[inondations]) des produits étrangers,
 avant de leur opposer de gênants et coûteux obstacles,
 se demande-t-on si ce sont là
 des inondations qui ravagent ou de celles qui fertilisent ?
-,(--) Que penserions-nous de Méhémet-Ali,
+,(--) Que penserions-nous de ,(np "mehemetali" [Méhémet-Ali]),
 si, au lieu d’élever à gros frais des barrages à travers le Nil,
 pour étendre le domaine de ses ,(emph[inondations]),
 il dépensait ses piastres à lui creuser un lit plus profond,
@@ -105,21 +107,22 @@ quand nous voulons, à grand renfort de millions, préserver notre pays...
 Parmi les ,(emph[métaphores]) qui recèlent toute une funeste théorie,
 il n’en est pas de plus usitée
 que celle que présentent les mots ,(emph[tribut]), ,(emph[tributaire]).
-][
+]
+[,(tag :a :name "cartouche_ref")
 Ces mots sont devenus si usuels,
 qu’on en fait les synonymes d’,(emph[achat]), ,(emph[acheteur]),
 et l’on se sert indifféremment des uns ou des autres.
-][
+][,(tag :a :name "cartouche")
 Cependant il y a aussi loin d’un ,(emph[tribut]) à un ,(emph[achat])
 que d’un ,(emph[vol]) à un ,(emph[échange]),
 et j’aimerais autant entendre dire :
-Cartouche a enfoncé mon coffre-fort
+,(np "cartouche" [Cartouche]) a enfoncé mon coffre-fort
 et il y a ,(emph[acheté]) mille écus,
 que d’ouïr répéter à nos honorables députés :
 Nous avons payé à l’Allemagne
 le ,(emph[tribut]) de mille chevaux qu’elle nous a vendus.
 ][
-Car ce qui fait que l’action de Cartouche n’est pas un achat,
+Car ce qui fait que l’action de ,(np "cartouche" [Cartouche]) n’est pas un achat,
 c’est qu’il n’a pas mis, et de mon consentement,
 dans mon coffre-fort, une valeur équivalente à celle qu’il a prise.
 ][
@@ -132,17 +135,18 @@ que nous-mêmes avons jugé valoir nos 500,000 francs.
 Faut-il donc relever sérieusement de tels abus de langage ?
 Pourquoi pas, puisque c’est très sérieusement
 qu’on les étale dans les journaux et dans les livres.
-][
+]
+[,(tag :a :name "argout_ref")
 Et qu’on n’imagine pas qu’ils échappent
 à quelques écrivains ignorant jusqu’à leur langue !
 Pour un qui s’en abstient,
 je vous en citerai dix qui se les permettent, et des plus huppés encore,
-les d’Argout, les Dupin, les Villèle, les pairs, les députés, les ministres,
+les ,(np "argout" [d’Argout]), les ,(np "dupin_ch" [Dupin]), les ,(np "villele" [Villèle]), les pairs, les députés, les ministres,
 c’est-à-dire les hommes dont les paroles sont des lois,
 et dont les sophismes les plus choquants
 servent de base à l’administration du pays.
-][
-Un célèbre philosophe moderne a ajouté aux catégories d’Aristote
+][,(tag :a :name "aristote_ref")
+Un célèbre philosophe moderne a ajouté aux catégories d’,(np "aristote" [Aristote])
 le sophisme qui consiste à renfermer dans un mot une pétition de principe.
 Il en cite plusieurs exemples.
 Il aurait pu joindre le mot ,(emph[tributaire]) à sa nomenclature.

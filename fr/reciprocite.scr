@@ -4,8 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Réciprocité"
 	:author (author-FB)
-(subtitle[Chapitre X de la ,(Iere) série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
+,(h2[Chapitre X de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Nous venons de voir que tout ce qui, dans le trajet, rend le transport onéreux,
 agit dans le sens de la protection, ou, si on l’aime mieux,
@@ -17,14 +19,14 @@ en un mot, un ,(emph[obstacle]) dont l’effet se résout
 à augmenter la différence du prix de consommation au prix de production.
 Il est de même incontestable qu’un marais, une fondrière,
 sont de véritables tarifs protecteurs.
-][
+][,(tag :a :name "lafontaine_ref")
 Il y a des gens (en petit nombre, il est vrai, mais il y en a)
 qui commencent à comprendre que les obstacles, pour être artificiels,
 n’en sont pas moins des obstacles,
 et que notre bien-être a plus à gagner à la liberté qu’à la protection,
 précisément par la même raison qui fait
 qu’un canal lui est plus favorable
-qu’un ,(q[chemin sablonneux, montant et malaisé.])
+qu’un ,(q[chemin sablonneux, montant et malaisé.]) ,(np "lafontaine" [*])
 ][
 Mais, disent-ils, il faut que cette liberté soit réciproque.
 Si nous abaissions nos barrières devant l’Espagne,
@@ -42,15 +44,15 @@ que les prohibitionistes ,(XXX :sic) absolus.
 ][
 Je le démontrerai par l’apologue suivant.
 ])
-,(subtitle[Stulta et Puera])
+,(h3[Stulta et Puera.])
 ,(p*[
 Il y avait, n’importe où, deux villes,
 ,(emph[Stulta]) et ,(emph[Puera]).
 Elles construisirent à gros frais
 une route qui les rattachait l’une à l’autre.
 Quand cela fut fait, ,(emph[Stulta]) se dit :
- ,(q[Voici que ,(emph[Puera]) m’inonde de ses produits,
-il faut y aviser.])
+Voici que ,(emph[Puera]) m’inonde de ses produits,
+il faut y aviser.
 En conséquence, elle créa et paya un corps d’,(emph[Enrayeurs]),
 ainsi nommés parce que leur mission était de mettre
 des obstacles aux convois qui arrivaient de ,(emph[Puera]).
@@ -75,7 +77,7 @@ et nous méprisons autant que vous les principes,
 mais d’atténuer quelque peu ces obstacles,
 en ayant soin de pondérer équitablement à cet égard
 nos ,(emph[sacrifices]) respectifs.])
-Ainsi parla le diplomate.
+— Ainsi parla le diplomate.
 ,(emph[Stulta]) demanda du temps pour réfléchir.
 Elle consulta tour à tour ses fabricants, ses agriculteurs.
 Enfin au bout de quelques années,
@@ -120,7 +122,7 @@ car il y a plus de difficultés
 	plus que celles des sources.)
 ,(--) Ce n’est pas possible.
 ,(--) (La même voix : Mais cela est.)
-,(--) Eh bien, elles ont prospéré contre les règles.])
+,(--) Eh bien, elles ont prospéré ,(emph[contre les règles]).])
 Un raisonnement si concluant ébranla l’assemblée.
 L’orateur acheva de la convaincre en parlant
 	d’indépendance nationale, d’honneur national,
