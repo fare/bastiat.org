@@ -201,3 +201,141 @@
     (*list*
      (join* "; "
 	    (map* (lambda (x) (apply* tradlink x)) x)))))
+
+
+;;;        *** Les magnifiques fonctions de Laura *** (Car Laura met des commentaires, elle.)
+
+(define (NdL)
+  (it [(Note de Laura)]))
+
+;;Mise en forme des liens
+
+; Liens vers l'index des noms de personnes
+(defun np (x &rest r) (a :href (strcat "personnes.html#" x) :class "np" r))
+
+; Liens vers l'index des titres de journaux
+(defun tj (x &rest r) (a :href (strcat "journaux.html#" x) :class "tj" r))
+;mettre r en italique
+
+;Classe "bastiat" pour enrober le texte de Bastiat
+(defun bastiat (&rest r) (div :class "bastiat" r))
+(defun sommaire (&rest r) (div :class "sommaire" r))
+
+;style épistolaire
+(defun cher (&rest r) (p :class "cher" r))
+(defun politesse (&rest r) (p :class "politesse" r))
+(defun sign (&rest r) (p :class "sign" r))
+(defun date (&rest r) (div :class "date" r))
+(define (FredB) [,(sc[Frédéric]) BASTIAT])
+
+;pour les listes de paragraphes courts
+(defun liste (&rest r) (div :class "liste" r))
+
+;pour les épigraphes
+(defun epigraphe (&rest r) (div :class "epigraphe" r))
+
+;;; FOOTER
+
+;pour le footer et le header inamovibles
+(defun footer (&rest r) (div :class "footer" r))
+(defun header (&rest r) (div :class "header" r))
+(defun titre (&rest r) (div :class "titre" r))
+(defun auteur (&rest r) (div :class "auteur" r))
+
+;(Pour les liens retour/préc/suiv)
+(defun
+  arbor
+  (titre adresse prec suiv)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='prec' href='"
+    prec
+    "'>«««</a>
+    <a class='suiv' href='"
+    suiv
+    "'>»»»</a>
+    </div>"
+  ))
+)
+
+(defun
+  premier
+  (titre adresse suiv)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='suiv' href='"
+    suiv
+    "'>»»»</a>
+    </div>"
+  ))
+)
+
+(defun
+  dernier
+  (titre adresse prec)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='prec' href='"
+    prec
+    "'>«««</a>
+    </div>"
+  ))
+)
+
+(defun
+  oeuvres
+  (prec suiv)
+  (arbor "Œuvres" "oeuvres.html" prec suiv)
+)
+
+(defun corresp (prec suiv) (arbor "Correspondance" "correspondance.html" prec suiv))
+(defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
+(defun he (prec suiv) (arbor "Harmonies économiques" "harmonies.html" prec suiv))
+(defun gc (prec suiv) (arbor "Gratuité du crédit" "gratuite_du_credit.html" prec suiv))
+
+(defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
+(defun acalmetes (prec suiv) (arbor "Lettres à Calmètes" "lettres_calmetes.html" prec suiv))
+(defun acoudroy (prec suiv) (arbor "Lettres à Coudroy" "lettres_coudroy.html" prec suiv))
+(defun asay (prec suiv) (arbor "Lettres à H. Say" "lettres_horace_say.html" prec suiv))
+(defun aschwabe (prec suiv) (arbor "Lettres aux Schwabe" "lettres_schwabe.html" prec suiv))
+(defun adomenger (prec suiv) (arbor "Lettres à Domenger" "lettres_domenger.html" prec suiv))
+(defun acheuvreux (prec suiv) (arbor "Lettres aux Cheuvreux" "lettres_cheuvreux.html" prec suiv))
+(defun apaillottet (prec suiv) (arbor "Lettres à Paillottet" "lettres_paillottet.html" prec suiv))
+
+(defun jde (prec suiv) (arbor "Journal des Économistes" "journaux_jde.html" prec suiv))
+(defun mb (prec suiv) (arbor "Mémorial bordelais" "journaux_mb.html" prec suiv))
+(defun rf (prec suiv) (arbor "République française" "journaux_rf.html" prec suiv))
+
+;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
+
+(defun
+  article
+  (date adresse titre about)
+  (%raw (strcat
+    "<li class='article'><div class='date'>"
+    date
+    "</div> <div class='titre'>"
+    "<a href='"
+    adresse
+    "'>"
+    titre
+    "</a></div> <div class='about'>"
+    about
+    "</div></li>"
+  ))
+)

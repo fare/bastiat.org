@@ -4,22 +4,19 @@
 	- par Frédéric Bastiat")
 (document :title "Physiologie de la Spoliation"
 	:author (author-FB)
-(subtitle[Chapitre I de la seconde série des ,(SophismesEconomiques)
+
+(bastiat[
+,(epigraphe [
+,(p[La requête de l’industrie au gouvernement est aussi modeste que celle de Diogène à Alexandre : ,(strong[Ôte-toi de mon soleil.])])
+,(sign[,(np "bentham" [Bentham]).])
+])
+,(h2[Chapitre I de la seconde série des ,(SophismesEconomiques)
 ,(footnote*[
 La seconde série des ,(cite-title[Sophismes économiques]),
 dont plusieurs chapitres avaient figuré
 dans le ,(cite-title[Journal des Économistes])
 et le journal ,(cite-title[le Libre Echange]),
 parut à la fin de janvier 1848. ,(NdEEO)])
-,(footnote*[
-La seconde série des ,(cite-title[Sophismes économiques])
-portait en exergue avant le premier chapitre la citation suivante :
-,(blockquote[
-La requête de l’industrie au gouvernement est aussi modeste
-que celle de Diogène à Alexandre : ,(strong[Ôte-toi de mon soleil]). (Bentham.)
-])
-,(NdEBO)
-])
 ,(footnote*[
 Voir au ,(bof-ref "harmonies" [tome VI]), les chapitres
 ,(bof-ref "causes_perturbatrices" [XVIII]),
@@ -30,11 +27,10 @@ pour les développements projetés et commencés par l’auteur
 sur les ,(emph[Causes perturbatrices]) de l’harmonie des lois naturelles.
 ,(NdEEO)])
 ])
-(bastiat[
 ,(p*[
 
 Pourquoi irais-je m’aheurter à cette science aride,
-l’,(emph[Économie politique]) ?
+l’,(emph[Économie politique ?])
 ][
 Pourquoi ? ,(--) La question est judicieuse.
 Tout travail est assez répugnant de sa nature,
@@ -58,7 +54,7 @@ la ,(strong[Production]) et la ,(strong[Spoliation]).
 Quelques personnes disent :
 La ,(strong[Spoliation]) est un accident, un abus local et passager,
 flétri par la morale, réprouvé par la loi,
-indigne d’occuper l’,(emph[Economie politique]).
+indigne d’occuper l’,(emph[Économie politique]).
 ][
 Cependant, quelque bienveillance, quelque optimisme que l’on porte au c,(oe)ur,
 on est forcé de reconnaître
@@ -97,9 +93,7 @@ C’est ensuite l’,(strong[Esclavage]).
 qu’il est possible de féconder la terre par le travail,
 il fait avec son frère ce partage :
 ,(q[À toi la fatigue, à moi le produit.])
-]
-(nbsp)
-[
+][
 Vient la ,(strong[Théocratie]).
 ,(--) ,(q[Selon ce que tu me donneras ou me refuseras de ce qui t’appartient,
 je t’ouvrirai la porte du ciel ou de l’enfer.])
@@ -131,18 +125,16 @@ Une autre loi providentielle dépose un second germe de mort
 au c,(oe)ur de la Spoliation, c’est celle-ci :
 ][
 La Spoliation ne ,(emph[déplace]) pas seulement la richesse,
-elle en détruit toujours une partie.
-][
-La Guerre anéantit bien des valeurs.
+elle en ,(emph[détruit]) toujours une partie.])
+,(liste(p*[La Guerre anéantit bien des valeurs.
 ][
 L’Esclavage paralyse bien des facultés.
 ][
 La Théocratie détourne bien des efforts vers des objets puérils ou funestes.
 ][
 Le Monopole aussi fait passer la richesse d’une poche à l’autre ;
-mais il s’en perd beaucoup dans le trajet.
-][
-Cette loi est admirable.
+mais il s’en perd beaucoup dans le trajet.]))
+,(p*[Cette loi est admirable.
 ,(--) Sans elle, pourvu qu’il y eût équilibre de force
 entre les oppresseurs et les opprimés,
 la Spoliation n’aurait pas de terme.
@@ -155,9 +147,8 @@ et qu’il est dans la nature de ce qui empire toujours de finir.
 ][
 Il arrive en effet un moment où, dans son accélération progressive,
 la déperdition des richesses est telle que le Spoliateur
-est moins riche qu’il n’eût été en restant honnête.
-][
-Tel est un peuple à qui les frais de guerre coûtent plus que ne vaut le butin.
+est moins riche qu’il n’eût été en restant honnête.])
+,(liste(p*[Tel est un peuple à qui les frais de guerre coûtent plus que ne vaut le butin.
 ][
 Un maître qui paie plus cher le travail esclave que le travail libre.
 ][
@@ -166,9 +157,8 @@ qu’elle n’en peut plus rien tirer.
 ][
 Un Monopole qui agrandit ses efforts d’absorption
 à mesure qu’il y a moins à absorber,
-comme l’effort de traire s’accroît à mesure que le pis est plus desséché.
-][
-Le Monopole, on le voit, est une Espèce du Genre Spoliation.
+comme l’effort de traire s’accroît à mesure que le pis est plus desséché.]))
+,(p*[Le Monopole, on le voit, est une Espèce du Genre Spoliation.
 Il a plusieurs Variétés,
 entre autres la Sinécure, le Privilége, la Restriction.
 ][
@@ -177,7 +167,7 @@ Tels étaient les droits féodaux.
 Sous ce régime la masse est spoliée et le sait.
 Il implique l’abus de la force et tombe avec elle.
 ][
-D’autres sont très compliquées.
+D’autres sont très-compliquées.
 Souvent alors la masse est spoliée et ne le sait pas.
 Il peut même arriver qu’elle croie tout devoir à la Spoliation,
 et ce qu’on lui laisse, et ce qu’on lui prend,
@@ -196,9 +186,9 @@ détruit ce désordre social, la Spoliation.
 Quelqu’un, je crois que c’est une femme, et elle avait bien raison,
 l’a ainsi définie :
 ,(emph[C’est la serrure de sûreté du pécule populaire]).
-][
-,(emph[Commentaire]).
-][
+])
+,(h3[Commentaire.])
+,(p*[
 Si ce petit livre était destiné à traverser trois ou quatre mille ans,
 à être lu, relu, médité, étudié phrase à phrase, mot à mot, lettre à lettre,
 de génération en génération, comme un Koran nouveau ;
@@ -225,15 +215,13 @@ Quand elle se passe d’individu à individu,
 elle se nomme ,(emph[vol]) et mène au bagne ;
 quand c’est de nation à nation,
 elle prend nom conquête et conduit à la gloire.
-]
-(nbsp)
-[
+][,(tag :a :name "rousseau_ref")
 Pourquoi cette différence ?
 Il est bon d’en rechercher la cause.
 Elle nous révélera une puissance irrésistible, l’Opinion,
 qui, comme l’atmosphère, nous enveloppe d’une manière si absolue,
 que nous ne la remarquons plus.
-Car Rousseau n’a jamais dit une vérité plus vraie que celle-ci :
+Car ,(np "rousseau" [Rousseau]) n’a jamais dit une vérité plus vraie que celle-ci :
 ,(q[Il faut beaucoup de philosophie
 pour observer les faits qui sont trop près de nous.])
 ][
@@ -311,7 +299,7 @@ car, on ne peut pas le nier,
 les peuples les plus avancés en civilisation font la guerre,
 et se préoccupent bien peu de justice
 quand ils n’ont pas de représailles à redouter.
-Témoin l’Hymalaya, l’Atlas et le Caucase.
+Témoins l’Hymalaya, l’Atlas et le Caucase.
 ][
 Si la Religion a été impuissante, si la philosophie est impuissante,
 comment donc finira la guerre ?
@@ -390,9 +378,7 @@ si, en Europe, les lois n’eussent élevé artificiellement le prix du sucre.
 Aussi nous voyons les maîtres, leurs créanciers et leurs délégués
 travailler activement à maintenir ces lois,
 qui sont aujourd’hui les colonnes de l’édifice.
-]
-(nbsp)
-[
+][
 Malheureusement, elles ont encore la sympathie
 des populations du sein desquelles l’esclavage a disparu ;
 par où l’on voit qu’encore ici l’Opinion est souveraine.
@@ -436,9 +422,7 @@ et puis, à mon gré, t’ouvrir les portes du ciel ou de l’enfer.])
 Ce genre d’imposture a été pratiqué très en grand depuis l’origine du monde,
 et l’on sait à quel degré de toute-puissance
 étaient arrivés les prêtres égyptiens.
-]
-(nbsp)
-[
+][
 Il est aisé de savoir comment procèdent les imposteurs.
 Il suffit de se demander ce qu’on ferait à leur place.
 ][
@@ -473,6 +457,7 @@ et, pour n’être jamais surpris par aucun danger,
 j’aurais soin d’inventer une institution qui me ferait pénétrer,
 jour par jour, dans le secret de toutes les consciences.
 ][
+
 Il ne serait pas mal non plus
 que je satisfisse à quelques besoins réels de mon peuple,
 surtout si, en le faisant, je pouvais accroître mon influence et mon autorité.
@@ -494,7 +479,7 @@ et je serais parvenu à imprimer, non sur les fronts,
 mais au fond des consciences, le sceau de la servitude.
 ][
 L’Opinion seule peut renverser un tel édifice d’iniquité ;
-mais par où l’entamera-t-elle, si chaque pierre est ,(emph[tabou]) ?
+mais par où l’entamera-t-elle, si chaque pierre est ,(emph[tabou ?])
 ,(--) C’est l’affaire du temps et de l’imprimerie.
 ][
 À Dieu ne plaise que je veuille ébranler ici ces croyances consolantes
@@ -519,13 +504,13 @@ ne voulant pas faire alliance
 avec ce qui a le plus besoin de frein en ce monde ;
 il sera l’homme du peuple,
 l’homme des bons conseils et des douces consolations,
-l’homme de l’Opinion, l’homme de l’Evangile.
+l’homme de l’Opinion, l’homme de l’Évangile.
 ][
 Si, au contraire, ,(emph[la Religion est l’instrument du prêtre]),
 il la traitera comme on traite un instrument
 qu’on altère, qu’on plie, qu’on retourne en toutes façons,
 de manière à en tirer le plus grand avantage pour soi.
-Il multipliera les questions ,(emph[tabou]) ,(pv)
+Il multipliera les questions ,(emph[tabou ;])
 sa morale sera flexible comme les temps, les hommes et les circonstances.
 Il cherchera à en imposer par des gestes et des attitudes étudiés ;
 il marmottera cent fois par jour des mots dont le sens sera évaporé,
@@ -600,7 +585,7 @@ Tel est le besoin de la sécurité.
 On se concerte, on se cotise pour rémunérer en ,(emph[services]) divers
 ceux qui rendent le ,(emph[service]) de veiller à la sécurité commune.
 ][
-Il n’y a rien là qui soit en dehors de l’Economie politique :
+Il n’y a rien là qui soit en dehors de l’Économie politique :
 ,(emph[Fais ceci pour moi, je ferai cela pour toi]).
 L’essence de la transaction est la même,
 le procédé rémunératoire seul est différent ;
@@ -658,7 +643,7 @@ Aussi, voyez sur quelle immense échelle, depuis les temps historiques,
 s’est exercée la Spoliation par abus et excès du gouvernement ?
 Qu’on se demande quels services ont rendus aux populations
 et quels services en ont retirés les pouvoirs publics
-chez les Assyriens, les Babyloniens, les Egyptiens, les Romains, les Persans,
+chez les Assyriens, les Babyloniens, les Égyptiens, les Romains, les Persans,
 les Turcs, les Chinois, les Russes, les Anglais, les Espagnols, les Français ?
 L’imagination s’effraie devant cette énorme disproportion.
 ][
@@ -667,6 +652,7 @@ et, ,(emph[à priori]), on aurait pu croire
 que le désordre allait cesser comme par enchantement.
 ][
 En effet, le principe de ces gouvernements est celui-ci :
+][
 ,(q[La population elle-même, par ses représentants,
 décidera la nature et l’étendue des fonctions
 qu’elle juge à propos de constituer en ,(emph[services publics]),
@@ -711,7 +697,7 @@ Et le peuple s’étonne de travailler autant,
 d’entendre annoncer des inventions merveilleuses
 qui doivent multiplier à l’infini les produits et...
 d’être toujours Gros-Jean comme devant.
-][
+][,(tag :a :name "moliere_ref")
 C’est que, pendant que le gouvernement déploie tant d’habileté,
 le peuple n’en montre guère.
 Ainsi, appelé à choisir ses chargés de pouvoirs,
@@ -720,7 +706,7 @@ de l’action gouvernementale, qui choisit-il ?
 Les agents du gouvernement.
 Il charge le pouvoir exécutif de fixer lui-même
 la limite de son activité et de ses exigences.
-Il fait comme le ,(emph[Bourgeois gentilhomme]),
+Il fait comme le ,(np "moliere" [,(emph[Bourgeois gentilhomme])]),
 qui, pour le choix et le nombre de ses habits,
 s’en remet... à son tailleur ,(footnote*[
 Voy., au tome 1,
@@ -755,7 +741,7 @@ Certaines nations paraissent merveilleusement disposées
 Ce sont celles où les hommes,
 ne tenant aucun compte de leur propre dignité et de leur propre énergie,
 se croiraient perdus
-s’ils n’étaient ,(emph[administrés]) et ,(emph[gouvernés]) en toutes choses.
+s’ils n’étaient ,(emph[administrés et gouvernés]) en toutes choses.
 Sans avoir beaucoup voyagé, j’ai vu des pays
 où l’on pense que l’agriculture ne peut faire aucun progrès
 si l’État n’entretient des fermes expérimentales ;
@@ -778,7 +764,7 @@ Voir au présent tome,
 et au tome VI, le chapitre XVII ,(bof-ref "services"
 	(cite-title[Services privés et services publics])). ,(NdEEO)]).
 ][
-Nous avons vu que la société est ,(emph[échange des services]).
+Nous avons vu que la société est ,(emph[échange de services]).
 Elle ne devrait être qu’échange de bons et loyaux services.
 Mais nous avons constaté aussi
 que les hommes avaient un grand intérêt et, par suite, une pente irrésistible
@@ -841,9 +827,9 @@ puis, au tome II,
 ,(bof-ref "funestes_illusions" (cite-title[Funestes illusions]))
 et, au tome VI, les dernières pages du
 ,(bof-ref "echange" [chapitre 4]). ,(NdEEO)]).
-][
-,(emph[Justification]).
-][
+])
+,(h3[Justification.])
+,(p*[
 On dira :
 ,(q[Pourquoi ce vilain mot : Spoliation ?
 Outre qu’il est grossier, il blesse, il irrite,
@@ -858,8 +844,8 @@ d’une commune erreur dont tout le monde, ou du moins la grande majorité,
 est à la fois victime et complice.
 ,(--) Après cela je ne puis pas empêcher
 que les choses ne soient ce qu’elles sont.
-][
-Qu’on se figure une espèce de Diogène mettant la tête hors de son tonneau,
+][,(tag :a :name "diogene_ref")
+Qu’on se figure une espèce de ,(np "diogene" [Diogène]) mettant la tête hors de son tonneau,
 et disant :
 ,(q[Athéniens, vous vous faites servir par des esclaves.
 N’avez-vous jamais pensé que vous exerciez sur vos frères
@@ -868,17 +854,17 @@ la plus inique des spoliations ?])
 Ou encore, un tribun parlant ainsi dans le Forum :
 ,(q[Romains, vous avez fondé tous vos moyens d’existence
 sur le pillage successif de tous les peuples.])
-][
+][,(tag :a :name "socrate_ref")
 Certes, ils ne feraient qu’exprimer une vérité incontestable.
 Faudrait-il en conclure qu’Athènes et Rome
 n’étaient habitées que par de malhonnêtes gens ?
-que Socrate et Platon, Caton et Cincinnatus
+que ,(np "socrate" [Socrate]) et ,(np "platon" [Platon]), ,(np "caton" [Caton]) et ,(np "cincinnatus" [Cincinnatus])
 étaient des personnages méprisables ?
 ][
 Qui pourrait avoir une telle pensée ?
 Mais ces grands hommes vivaient
 dans un milieu qui leur ôtait la conscience de leur injustice.
-On sait qu’Aristote ne pouvait pas même se faire l’idée
+On sait qu’,(np "aristote" [Aristote]) ne pouvait pas même se faire l’idée
 qu’une société pût exister sans esclavage.
 ][
 Dans les temps modernes, l’esclavage a vécu jusqu’à nos jours
@@ -887,7 +873,7 @@ Des armées ont servi d’instrument à de grandes conquêtes,
 c’est-à-dire à de grandes spoliations.
 Est-ce à dire qu’elles ne fourmillent pas de soldats et d’officiers,
 personnellement aussi délicats, plus délicats peut-être
-qu’on ne l’est généralement dans les carrières industrielles ;
+qu’on ne l’est généralement dans les carrières industrielles ?
 d’hommes à qui la pensée seule d’un vol ferait monter le rouge au front,
 et qui affronteraient mille morts plutôt que de descendre à une bassesse ?
 ][
@@ -895,14 +881,13 @@ Ce qui est blâmable ce ne sont pas les individus,
 mais le mouvement général qui les entraîne et les aveugle,
 mouvement dont la société entière est coupable.
 ][
-II en est ainsi du Monopole.
+Il en est ainsi du Monopole.
 J’accuse le système, et non point les individus ;
 la société en masse, et non tel ou tel de ses membres.
 Si les plus grands philosophes ont pu se faire illusion
 sur l’iniquité de l’esclavage,
 à combien plus forte raison des agriculteurs et des fabricants
 peuvent-ils se tromper sur la nature et les effets du régime restrictif ?
-
 
 ])])
 (footer[

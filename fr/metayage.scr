@@ -2,8 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Considérations sur le métayage
 	- par Frédéric Bastiat")
-(document :title "Considérations sur le métayage"
-	:author (author-FB)
+(document
+(header[
+	,(titre [Considérations sur le métayage])
+
+])
 (bastiat[
 ,(date-tag[,(cite-title[Journal des Économistes]), n° de février 1846.])
 

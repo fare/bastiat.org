@@ -69,6 +69,10 @@
 
 ,(lettre "A" [
 
+,(personne "alfieri" "Alfieri" "Vittorio" "1749-1803" [
+Lettre à V. Calmètes : ,(ref :url "lettre_calmetes1821a.html" [29 avril 1821]), ,(ref :url "lettre_calmetes1822b.html#alfieri_ref" [décembre 1822])
+])
+
 ,(personne "anisson" "Anisson-Dupéron" "Alexandre-Jacques-Laurent" "1776-1852"[
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
@@ -84,7 +88,12 @@
 ])
 
 ,(personne1nom "aristote" "Aristote" "384-322 av. J.-C." [
-,(ref :url "metaphores.html#aristote_ref" [Métaphores])
+,(ref :url "metaphores.html#aristote_ref" [Métaphores]) ;
+,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
+])
+
+,(personne "arnault" "Arnault" "Antoine-Vincent" "1766-1834" [
+,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
 ])
 
 ])
@@ -95,12 +104,17 @@
 ])
 
 ,(personne "bentham" "Bentham" "Jeremy" "1748-1832" [
-,(ref :url "introduction_sophismes.html" [Épigraphe de la première série des Sophismes économiques.]) ;
-,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+,(ref :url "introduction_sophismes.html" [Épigraphe de la première série des ,(cite-title[Sophismes économiques]).]) ;
+,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) ;
+,(ref :url "physiologie_de_la_spoliation.html" [Épigraphe de la seconde série des ,(cite-title[Sophismes économiques]).])
 ])
 
 ,(personne "beranger" "de Béranger" "Pierre-Jean" "1780-1857" [
 ,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+])
+
+,(personne "bernardin" "Bernardin de Saint-Pierre" "Jacques-Henri" "1737-1814" [
+,(ref :url "lettre_coudroy1824.html" [Lettre à Félix Coudroy, 15 décembre 1824])
 ])
 
 ,(personne "bezout" "Bézout" "Étienne" "1730-1783" [
@@ -128,15 +142,40 @@
 ,(ref :url "abondance_disette.html#bugeaud_ref2" [2]) ; ,(ref :url "effort_resultat.html#bugeaud_ref" [Effort, résultat])
 ])
 
+,(personne "byron" "Byron" "George Gordon, lord" "1788-1824" [
+,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829])
+])
+
 ])
 ,(lettre "C" [
+
+,(personne "calmetes" "Calmètes" "Victor" "?" [
+,(ref :url "lettres_calmetes.html" [14 lettres à —])
+])
+
+,(personne "carriere" "Carrière" "?" "?" [
+,(ref :url "lettre_calmetes1822a.html#carriere_ref" [Lettre à V. Calmètes, 20 octobre 1822])
+])
 
 ,(personne "cartouche" "Cartouche" "Louis-Dominique Garthausen, dit" "1693-1721" [
 ,(ref :url "metaphores.html#cartouche_ref" [Métaphores])
 ])
 
+,(personne1nom "caton" "Caton l’Ancien" "v. 234-149 av. J.-C." [
+,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
+])
+
+,(personne "chesterfield" "Chesterfield" "Philip Stanhope, comte de" "1694-1773" [
+,(ref :url "lettre_calmetes1821c.html#chesterfield_ref" [Lettre à V. Calmètes, 8 décembre 1821])
+])
+
 ,(personne "chevalier" "Chevalier" "Michel" "1806-1879" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+])
+
+,(personne "cincinnatus" "Cincinnatus" "Lucius Quinctius" [v. 519-v. 430 av. J.-C.] [
+,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821]) ;
+,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
 ])
 
 ,(personne "cobden" "Cobden" "Richard" "1804-1865" [
@@ -148,8 +187,16 @@
 ,(ref :url "theorie_pratique.html#stchamans_ref" [Théorie, pratique])
 ])
 
+,(personne "collin" "Collin d’Harleville" "Jean-François" "1755-1806" [
+,(ref :url "lettre_calmetes1822a.html#moliere_ref" [Lettre à V. Calmètes, 20 octobre 1822]) : allusion à ,(cite-title[L’Optimiste, ou l’homme toujours content de tout]), Acte III, sc. 10, réplique de M. de Plinville : “Quand j’y songe, je suis bien heureux, je suis homme, / Européen, Français, Tourangeau, gentilhomme : / Je pouvais naître Turc, Limousin, paysan ; / Je ne suis magistrat, guerrier ni courtisan ; / Non : mais je suis seigneur d’une lieue à la ronde. / Le château de Plinville est le plus beau du monde.”
+])
+
 ,(personne "correge" "Correggio" "Antonio Allegri da" "1489-1534" [
 ,(ref :url "a_la_jeunesse_francaise.html" [A la jeunesse française])
+])
+
+,(personne "coudroy" "Coudroy" "Félix" "?" [
+,(ref :url "lettres_coudroy.html" [52 lettres à —])
 ])
 
 ,(personne "courier" "Courier" "Paul-Louis" "1772-1825" [
@@ -160,8 +207,24 @@
 ,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)])
 ])
 
+,(personne1nom "curius" "Marius Curius Dentatus" [† 270 av. J.-C.] [
+,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821])
+])
+
 ])
 ,(lettre "D" [
+
+,(personne "delavigne" "Delavigne" "Casimir" "1793-1843" [
+,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
+])
+
+,(personne "destutt" "Destutt de Tracy" "Antoine" "1754-1836" [
+,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825])
+])
+
+,(personne1nom "diogene" "Diogène de Sinope" "312-423 av. J.-C." [
+,(ref :url "physiologie_de_la_spoliation.html#diogene_ref" [Physiologie de la spoliation])
+])
 
 ,(personne "dombasle" "Dombasle" "Mathieu de" "1777-1843" [
 ,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production]) ;
@@ -177,9 +240,18 @@
 ,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
 ,(ref :url "metaphores.html#argout_ref" [Métaphores])
 ])
+
+,(personne "durrieu" "Durrieu" "Antoine Simon" "1775-1862" [
+,(ref :url "lettre_a_un_candidat.html#durrieu_ref" [Lettre à un candidat])
+])
 	
 ])
 ,(lettre "F" [
+
+,(personne1nom "fabricius" "Gaius Fabricius Luscinus" [III,(sup "e") s. av. J.-C.] [
+,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821])
+])
+
 ,(personne "faucher" "Faucher" "Léon" "1803-1854" [
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])
@@ -232,6 +304,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "a_jobard.html" [Lettre à M. Jobard])
 ])
 
+,(personne "jouy" "Jouy" "Étienne de" "1764-1846" [
+,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
+])
+
 ])
 ,(lettre "L" [
 
@@ -246,6 +322,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "laplace" "Laplace" "Pierre-Simon de" "1749-1827" [
 ,(ref :url "conclusion_sophismes.html#laplace_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
+,(personne "laromiguiere" "Laromiguière" "Pierre" "1756-1837" [
+,(ref :url "lettre_calmetes1820a.html" [Lettre à V. Calmètes, 5 mars 1820])
 ])
 
 ,(personne "lebrun" "Lebrun" "Ponce-Denis Écouchard" "1729-1807" [
@@ -287,7 +367,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])])
 
 ,(personne "moliere" "Molière" "Jean-Baptiste Poquelin, dit" "1622-1673" [
-,(ref :url "conclusion_sophismes.html#moliere_ref" [Conclusion à la première série des ,(cite-title[Sophismes]) 1]), ,(ref :url "conclusion_sophismes.html#moliere_ref2" [2]) : allusions au ,(cite-title[Bourgeois gentilhomme])
+,(ref :url "lettre_calmetes1822a.html#moliere_ref" [Lettre à V. Calmètes, 20 octobre 1822]) : allusion au ,(cite-title[Misanthrope]) ;
+
+,(ref :url "conclusion_sophismes.html#moliere_ref" [Conclusion à la première série des ,(cite-title[Sophismes]) 1]), ,(ref :url "conclusion_sophismes.html#moliere_ref2" [2]) ;
+,(ref :url "physiologie_de_la_spoliation.html#moliere_ref" [Physiologie de la spoliation]) : allusions au ,(cite-title[Bourgeois gentilhomme])
 ])
 
 ,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
@@ -318,11 +401,19 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 	,(ref :url "angleterre_et_libre_echange.html" [L’Angleterre et le libre-échange])
 ])
 
+,(personne1nom "platon" "Platon" "v. 427-348 av. J.-C." [
+,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
+])
+
+,(personne "pope" "Pope" "Alexander" "1688-1744" [
+,(ref :url "lettre_coudroy1824.html" [Lettre à Félix Coudroy, 15 décembre 1824])
+])
+
 ])
 ,(lettre "R" [
 
 ,(personne "racine" "Racine" "Jean" "1639-1699" [
-,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur]) : citation d’,(cite-title[Iphigénie en Aulide]), Acte IV sc. 5 : “Un bruit assez étrange est venu jusqu’à moi, / Seigneur ; je l’ai jugé trop peu digne de foi. / On dit, et sans horreur je ne puis le redire, / Qu’aujourd’hui par votre ordre Iphigénie expire…”
+,(ref :url "a_tanneguy_duchatel.html" [A M. Tanneguy Duchâtel, ministre de l’Intérieur]) : citation d’,(cite-title[Iphigénie en Aulide]), Acte IV sc. 5 : “Un bruit assez étrange est venu jusqu’à moi, / Seigneur ; je l’ai jugé trop peu digne de foi. / On dit, et sans horreur je ne puis le redire, / Qu’aujourd’hui par votre ordre Iphigénie expire…” ; ,(ref :url "lettre_calmetes1822b.html#alfieri_ref" [Lettre à V. Calmètes, décembre 1822])
 ])
 
 ,(personne "regnard" "Regnard" "Jean-François" "1655-1709" [
@@ -347,7 +438,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne "rousseau" "Rousseau" "Jean-Jacques" "1712-1778" [
-,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes])
+,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]) ;
+,(ref :url "physiologie_de_la_spoliation.html#rousseau_ref" [Physiologie de la spoliation])
 ])
 
 ])
@@ -372,8 +464,14 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne "say_jb" "Say" "Jean-Baptiste" "1767-1832" [
+,(ref :url "lettre_calmetes1820a.html" [Lettre à V. Calmètes, 5 mars 1820]) ;
+,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
 ,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique]) ;
 ,(ref :url "conclusion_sophismes.html#say_jb_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
+,(personne "scott" "Scott" "Walter" "1771-1832" [
+,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829])
 ])
 
 ,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
@@ -393,7 +491,12 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne "smith" "Smith" "Adam" "1723-1790" [
+,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
 ,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+])
+
+,(personne1nom "socrate" "Socrate" "v. 470-399 av. J.-C." [
+,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
 ])
 
 ,(personne "sully" "Sully" "Maximilien de Béthune, duc de" "1559-1641" [

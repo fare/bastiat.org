@@ -36,6 +36,11 @@
 
 ,(tag :a :name "serie2")
 ,(subtitle [Deuxième Série (1848)])
+
+,(epigraphe [
+,(p[La requête de l’industrie au gouvernement est aussi modeste que celle de Diogène à Alexandre : ,(strong[Ôte-toi de mon soleil.])])
+,(sign[Bentham.])
+])
 ,(itemize
 (item (xbof-ref "physiologie_de_la_spoliation" [I. Physiologie de la Spoliation]))
 (item (xbof-ref "deux_morales" [II. Deux morales]))

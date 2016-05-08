@@ -1,5 +1,5 @@
 body {
-	margin: 0 0 3.5em 0; padding: 0;
+	margin: 0 0 1.5em 0; padding: 0; /*margin top 6em pour les pages avec header inamovibles...*/
 }
 
 a:link, a:visited {text-decoration: none; color: #33f;}
@@ -7,7 +7,7 @@ a:hover {color: #950;}
 a[name] {
 	display: inline-block;
     position: relative;
-    top: -3em;
+    top: -5em; /*Pour que le header ne cache pas la cible des liens*/
     visibility: hidden;
 }
 /*Rendre insélectionnables les appels de note. Ça ne marche pas encore tout à fait... T_T*/
@@ -234,17 +234,19 @@ em span[style="font-variant: small-caps"] {
 	width: 60%;
 	margin: 2em 0 4em auto;
 	font-size: 0.9em;
+	text-align: justify;
 }
 
 /*Poésie*/
 
-.vers, .cvers {
+.vers {
 	font-size: 80%;
-	padding-left: 3em;
+	padding-left: 4em;
 }
 
 .cvers {
 	text-align: center;
+	font-size: 80%;
 }
 
 /*Tableaux*/
@@ -272,14 +274,46 @@ em span[style="font-variant: small-caps"] {
 	color: #05b;
 }
 
-/*Footer*/
+/*Footer, Header*/
+
+.footer, .header {
+	position: fixed; left: 0;
+	width: 100%;
+	text-align: center;
+	z-index:5;
+}
 
 .footer {
-	position: fixed; bottom: 0; left: 0;
-	width: 100%; height: 3em; min-height:1cm;
-	text-align: center;
-	background-color: rgba(255,255,255,0.8); /*#9c0;*/
+bottom: 0;
+height: 3.5em; min-height:1cm;
+background-color: rgba(255,255,255,0.8); /*#9c0;*/
 }
+
+.header {
+top: 0;
+height: 5em;
+font-family: berenis;
+background-color: #cf0;
+color: #070;
+display: flex;
+justify-content: center;
+}
+
+.header .titre {
+font-size: 1.5em;
+/*position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%,-50%);*/ /*Façon alternative de centrer verticalement,
+ je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
+ align-self: center;
+}
+
+.header .auteur {
+font-style: italic;
+margin: auto;
+}
+
+
 
 .footer a:visited, .footer a:link {
 	text-decoration: none;
