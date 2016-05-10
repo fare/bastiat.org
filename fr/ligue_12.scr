@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Meeting à Londres, 1er février 1844. – Compte rendu.")
+
+(document :title "Meeting à Londres. – Compte rendu."
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(1er) février 1844.])
+,(p*[
+Le second meeting hebdomadaire de la Ligue avait attiré, mardi soir, au théâtre de Covent-Garden, une foule nombreuse et enthousiaste. Le nom de lord Morpeth circule dans toute la salle. On parle d’une entrevue qui eut lieu à Wakefield, hier, entre le noble lord, membre de la dernière administration, et M. Cobden. Cette nouvelle provoque une vive satisfaction, à laquelle succède le désappointement lorsqu’on apprend que Sa Seigneurie n’a pas complètement répondu aux espérances que la Ligue avait fondées sur son noble caractère, son humanité et son patriotisme.
+][
+Le président rend compte des nombreux meetings qui ont été tenus dans les provinces depuis la dernière séance, ainsi que des sommes qui ont été recueillies.
+][
+Au moment où nous sommes parvenus, un grand changement s’est opéré dans l’attitude de l’aristocratie. Jusqu’ici nous l’avons vue dédaigner le réveil de l’opinion publique, et chercher à l’égarer en lui présentant, comme remède aux souffrances du peuple, des plans plus ou moins ,(emph[charitables]), plus ou moins réalisables, tantôt le travail limité par la loi (le bill des dix heures), tantôt l’émigration forcée.
+][
+Aujourd’hui que l’action intellectuelle et morale de la Ligue menace de devenir irrésistible, l’aristocratie sort enfin de sa dédaigneuse apathie. L’apaisement de l’agitation irlandaise et la dissolution du meeting de Clontarf lui donnent l’espérance d’étouffer l’agitation commerciale par l’intervention de la loi. Et en même temps qu’elle dénonce, comme dangereux et illégaux, les meetings de la Ligue, par une contradiction manifeste, elle organise un vaste système d’associations affiliées entre elles, ayant pour but, sous le nom d’anti-Ligue, le maintien des monopoles et delà protection. — La lutte devient donc plus serrée, plus personnelle, plus animée. Chacune de son côté, la Ligue et l’anti-Ligue avaient espéré que leurs efforts, influant sur la marche des affaires, trouveraient quelque écho dans le discours de la reine. Les ,(inenglish[free-traders]) espéraient que Sir Robert Peel donnerait, dans la présente session, quelque développement à son plan de réforme financière et commerciale. Les prohibitionnistes ne doutaient pas, au contraire, que le premier ministre, cédant à la pression de cette majorité qui l’a porté au pouvoir, ne revînt sur quelques-unes des mesures libérales adoptées en 1842. Mais le discours du trône, prononcé dans la journée même, a trompé l’attente des deux partis. Le ministère y garde le silence le plus absolu à l’égard de la détresse publique et des moyens d’y remédier.
+][
+Tels sont les objets qui servent de texte aux discours prononcés, dans le meeting du ,(1er) février, par le docteur Bowring, le col. Thompson et M. Bright. Bien qu’ils doivent avoir pour le public anglais un intérêt plus actuel, plus incisif, que des dissertations purement économiques, fidèles à la loi que nous nous sommes imposée de sacrifier ce qui peut plaire à ce qui doit instruire, nous nous abstenons d’appeler l’attention du public français sur cette nouvelle phase de l’agitation.
+][
+Nous croyons utile, cependant, de donner une relation succincte de l’entrevue de lord Morpeth avec M. Cobden. Lord Morpeth, ayant été un des chefs influents de l’administration whig, renversée en 1841 par les torys, on comprend que son adhésion aux principes absolus de la Ligue devait être considérée comme un fait grave, et de nature à exercer une grande influence sur le mouvement des majorités et des partis. L’attitude de ces deux hommes d’ailleurs, la franchise de leurs explications, leur fidélité aux principes, nous ont semblé une peinture de mœurs constitutionnelles, dignes d’être proposées pour exemple à nos hommes politiques.
+])])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome III,
+,(cite-title[Meeting à Londres, 1er février 1844. – Compte rendu.]),
+pp. 236-238.
+])))

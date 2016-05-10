@@ -242,6 +242,10 @@
 (defun titre (&rest r) (div :class "titre" r))
 (defun auteur (&rest r) (div :class "auteur" r))
 
+(defun gauche (&rest r) (div :class "gauche" r))
+;Notes marginales
+(defun mnote (&rest r) (div :class "mnote" r))
+
 ;(Pour les liens retour/préc/suiv)
 (defun
   arbor

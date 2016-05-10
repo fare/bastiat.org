@@ -26,24 +26,30 @@ sup {line-height: 0;}
 /*Polices de caractères*/
 
 @font-face{
-    font-family:'berenis';
-    src:url("fonts/BerenisADFNo2-Book.otf");
+    font-family:'bastiat';
+    src:url("fonts/FeENrm28C.otf");
     font-weight:normal;font-style:normal;
 }
 @font-face{
-    font-family:'berenis';
-    src:url("fonts/BerenisADFNo2-Italic.otf");
+    font-family:'bastiat';
+    src:url("fonts/FeENit27C.otf");
     font-weight:normal;font-style:italic;
 }
 
 @font-face{
+    font-family:'bastiatsc';
+    src:url("fonts/OLDSSCH_.TTF");
+    font-weight:normal;font-style:normal;
+}
+
+@font-face{
     font-family:'accanthis';
-    src:url("fonts/AccanthisADFStd-Regular.otf");
+    src:url("fonts/Servus_text_display.otf");
     font-weight:normal;font-style:normal;
 }
 @font-face{
     font-family:'accanthis';
-    src:url("fonts/AccanthisADFStd-Italic.otf");
+    src:url("fonts/Servus_text_display_italic.ttf");
     font-weight:normal;font-style:italic;
 }
 
@@ -114,10 +120,10 @@ sup {line-height: 0;}
 /*Styles du texte de Bastiat*/
 
 .bastiat {
-	width: 60%;
+	width: 58%;
 	min-width: 20em;
 	margin: 3em auto;
-	font-family: "berenis";
+	font-family: "bastiat";
 	font-size: 1.2em;
 	line-height: 1.8em;
 }
@@ -136,7 +142,7 @@ sup {line-height: 0;}
 	font-family: accanthis;
 	font-size: 1.3em;
 }
-h2 sup, h2 i {font-variant: normal;}
+h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 
 .bastiat h3 {
 	font-style: italic;
@@ -148,6 +154,7 @@ h2 sup, h2 i {font-variant: normal;}
 .bastiat p {
 	text-indent: 1.4em;
 	margin: 0.8em 0;
+	line-height:1.5em;
 }
 
 .bastiat > blockquote {
@@ -190,7 +197,7 @@ table.petit td {
 	vertical-align: top;}
 
 span[style="font-variant: small-caps"] {
-	font-size: large;
+	font-size: 1.1em;
 	letter-spacing: 0.1em;
 }
 
@@ -292,7 +299,7 @@ background-color: rgba(255,255,255,0.8); /*#9c0;*/
 .header {
 top: 0;
 height: 5em;
-font-family: berenis;
+font-family: bastiat;
 background-color: #cf0;
 color: #070;
 display: flex;
@@ -361,7 +368,34 @@ margin: auto;
 }
 
 
+/*Menu de gauche*/
 
+.gauche {
+	position: fixed;
+	left: 0; top:0;
+	width: 12%; height: 100%;
+	background-color: rgba(255,230,100,1);
+	padding: 10em 1em;
+	font-family: accanthis;
+	text-align: justify;
+	z-index:3;
+	overflow: auto;
+}
+
+/*Notes marginales*/
+
+.mnote {
+	width: 15%;
+	position: absolute;
+	right: 0;
+/*	height: 3em;
+	margin-top: -4em;*/
+	font-size: 0.8em;
+	line-height: 1em;
+	border: red 1px solid;
+	font-family: accanthis;
+
+}
 
 /*Index des personnes*/
 .personne, .journal {
