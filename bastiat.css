@@ -52,7 +52,7 @@ sup {line-height: 0;}
     src:url("fonts/Servus_text_display_italic.ttf");
     font-weight:normal;font-style:italic;
 }
-
+/*
 @font-face{
     font-family:'accanthis';
     src:url("fonts/AccanthisADFStd-Bold.otf");
@@ -63,7 +63,7 @@ sup {line-height: 0;}
     src:url("fonts/AccanthisADFStd-BoldItalic.otf");
     font-weight:bold;font-style:italic;
 }
-
+*/
 
 /*Styles des sommaires*/
 
@@ -201,7 +201,7 @@ span[style="font-variant: small-caps"] {
 	letter-spacing: 0.1em;
 }
 
-em span[style="font-variant: small-caps"] {
+em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-caps"] {
 	font-style: normal;
 }
 
@@ -246,14 +246,17 @@ em span[style="font-variant: small-caps"] {
 
 /*Poésie*/
 
-.vers {
+.vers, .cvers {
 	font-size: 80%;
+	line-height: 1.2em;
+}
+
+.vers {
 	padding-left: 4em;
 }
 
 .cvers {
 	text-align: center;
-	font-size: 80%;
 }
 
 /*Tableaux*/

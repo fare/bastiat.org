@@ -1,14 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "A M. George Wilson, président de l'Anti-corn-laws League, par Frédéric Bastiat")
+(in-bof :title "Lettre de Bastiat à M. G. Wilson, du 15 janvier 1849.")
 
-(document :title "A M. George Wilson, président de l'Anti-corn-laws League"
+(document :title "Lettre de Bastiat à M. G. Wilson"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Paris, 15 janvier 1849])
 ,(p*[
-,(strong[Monsieur]),
-,(footnote*[Voici le texte de l’invitation à laquelle Bastiat répond : ,(NdEEO)]
+À partir de la révolution de Février, des devoirs nouveaux et impérieux réclament tous les instants de Bastiat. Il s’y dévoue avec une ardeur funeste à sa santé et interrompt la tâche qu’il s’était donnée de signaler à la France les bienfaits de la liberté commerciale en Angleterre.
+][
+Une invitation ,(footnote*[Voici le texte de l’invitation à laquelle Bastiat répond : ,(NdEEO)]
 [
 BANQUET TO CELEBRATE THE FINAL REPEAL OF THE CORN LAWS.
 ][
@@ -26,9 +26,15 @@ Believe me, dear Sir,
 ][
 Your faithful and obedient servant,
 ][
-,(strong[George Wilson]), Chairman.])
-][
-Veuillez exprimer à votre Comité toute ma reconnaissance pour l’invitation flatteuse que vous m’adressez en son nom.
+,(strong[George Wilson]), Chairman.]) lui parvint, le 11 janvier 1849, de la part des ,(inenglish[free-traders]), qui avaient résolu de célébrer à Manchester le ,(1er) février, ce jour où, conformément aux prescriptions législatives, toute restriction sur le commerce des grains devait cesser. Nous reproduisons la réponse qu’il fit alors à M. George Wilson, l’ancien président de la Ligue et l’organe du comité chargé des préparatifs de cette fête.])
+
+,(date-tag[15 janvier 1849.])
+
+
+
+,(cher[Monsieur,])
+
+,(p*[Veuillez exprimer à votre Comité toute ma reconnaissance pour l’invitation flatteuse que vous m’adressez en son nom.
 Il m’eût été bien doux de m’y rendre : car, monsieur, je le dis hautement, il ne s’est rien accompli de plus grand dans le monde, à mon avis, que cette réforme que vous vous apprêtez à célébrer. J’éprouve l’admiration la plus profonde pour les hommes que j’eusse rencontrés à ce banquet, pour les George Wilson, les Villiers, les Bright, les Cobden, les Thompson et tant d’autres qui ont réalisé le triomphe de la liberté commerciale, ou plutôt, donné à cette grande cause une première et décisive impulsion. Je ne sais ce que j’admire le plus de la grandeur du but que vous avez poursuivi ou de la moralité des moyens que vous avez mis en œuvre. Mon esprit hésite quand il compare le bien direct que vous avez fait au bien indirect que vous avez préparé ; quand il cherche à apprécier, d’un côté, la réforme même que vous avez opérée, et, de l’autre, l’art de poursuivre légalement et pacifiquement toutes les réformes, art précieux dont vous avez donné la théorie et le modèle.
 ][
 Autant que qui que ce soit au monde, j’apprécie les bienfaits de la liberté commerciale, et cependant je ne puis borner à ce point de vue les espérances que l’humanité doit fonder sur le triomphe de votre ,(emph[agitation]).
@@ -50,18 +56,12 @@ Convaincu de la fécondité de cette grande cause, j’aurais voulu y travailler
 C’est ce motif de santé, ainsi que mes devoirs parlementaires, qui me forcent de m’abstenir de paraître à la démocratique solennité à laquelle vous me conviez. Je le regrette profondément, c’eût été un bel épisode de ma vie et un précieux souvenir pour le reste de mes jours. Veuillez faire agréer mes excuses au Comité, et permettez-moi, en terminant, de m’associer de cœur à votre fête par ce toast :
 ][
 À la liberté commerciale des peuples ! à la libre circulation des hommes, des choses et des idées ! au libre échange universel et à toutes ses conséquences économiques, politiques et morales !
-][
-Je suis, Monsieur, votre très-dévoué,
-][
-,(strong[Frédéric Bastiat]).
-])])
-(footer[
-	
+])
+,(politesse[Je suis, Monsieur, votre très-dévoué,])
+,(sign[,(FredB).])
 ])
 (with-footer (p*[
-Extrait de l’,(EO1863),
-tome III,
-pp. 492-496,
-et tome VII,
-pp. 412-416.
+Extrait de l’,(EO1863), tome III,
+,(cite-title[Lettre de Bastiat à M. G. Wilson, du 15 janvier 1849.]),
+pp. 492-496.
 ])))

@@ -1,0 +1,36 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Les free-traders et les chartistes à Northampton.")
+
+(document :title "Les free-traders et les chartistes à Northampton."
+	:author (author-FB)
+(bastiat[
+,(date-tag[5 juin 1844.])
+,(p*[
+Dans un des passages du discours précédent, M. Fox avait fait allusion à un meeting tenu, deux jours avant, à Northampton. Le but de cette publication étant de jeter quelque jour sur les mœurs politiques de nos voisins, et de montrer, ,(emph[en action]), l’immense liberté d’association dont ils ont le bonheur de jouir, nous croyons devoir dire un mot de ce meeting.])
+,(h2[les free-traders et les chartistes à northampton.])
+,(p*[Lundi 5 juin 1844, un important meeting a eu lieu dans le comté et dans la ville de Northampton.
+][
+Quelques jours d’avance, un grand nombre de manufacturiers, de fermiers, de négociants et d’ouvriers avaient présenté une requête à MM. Cobden et Bright, pour les prier d’assister au meeting et d’y discuter la question de la liberté commerciale. Ces messieurs acceptèrent l’invitation.
+][
+Une autre requête avait été présentée, par les partisans du régime protecteur, à M. O’Brien, représentant du comté, et membre de la Société centrale pour la protection agricole. M. O’Brien déclina l’invitation, se fondant sur ce que les requérants étaient bien en état de se former une opinion par eux-mêmes, sans appeler des étrangers à leur aide.
+][
+Enfin, les chartistes de Northampton avaient, de leur côté, réclamé l’assistance de M. Fergus O’Connor qui, dans leur pensée, devait s’unir à M. O’Brien pour combattre M. Cobden. M. Fergus O’Connor avait promis son concours.
+][
+Le square dans lequel se tenait le meeting contenait plus de 6,000 personnes. Les ,(inenglish[free-traders]) proposèrent pour président lord Fitz Williams, maire, mais les chartistes exigèrent que le fauteuil fût occupé par M. Grandy, ce qui fut accepté.
+][
+M. Cobden soumet à l’assemblée la résolution suivante :
+][
+« Que les lois-céréales et toutes les lois qui restreignent le commerce dans le but de protéger certaines classes sont injustes et doivent être abrogées. »
+][
+M. Fergus O’Connor propose un amendement fort étendu qu’on peut résumer ainsi :
+][
+« Les habitants de Northampton sont d’avis que toutes modifications aux lois-céréales, toutes réformes commerciales, doivent être ajournées jusqu’à ce que la charte du peuple soit devenue la base de la constitution britannique. »
+][
+De nombreux orateurs se sont fait entendre. Le président ayant consulté l’assemblée, la résolution de M. Cobden a été adoptée à une grande majorité.
+])])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome III,
+,(cite-title[Les free-traders et les chartistes à Northampton.]),
+pp. 403-404.
+])))

@@ -234,6 +234,8 @@
 ;pour les épigraphes
 (defun epigraphe (&rest r) (div :class "epigraphe" r))
 
+(define (retrait) [      ])
+
 ;;; FOOTER
 
 ;pour le footer et le header inamovibles
