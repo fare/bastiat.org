@@ -1,0 +1,56 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "A M. le rédacteur en chef de la Presse, par Frédéric Bastiat")
+
+(document :title "A M. le rédacteur en chef de la Presse"
+	:author (author-FB)
+(bastiat [
+,(subtitle[II])
+,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 2 septembre 1846.])
+,(cher[,(tj "presse" [Monsieur]),])
+,(p*[Dans votre réponse à ma lettre sur le tarif américain, de graves erreurs se mêlent à des observations dont je ne contesterai pas la justesse ; car je ne cherche pas d’autre triomphe que celui de la vérité.
+][
+Ainsi, je reconnais que le nouveau tarif est encore fort élevé ; qu’il laisse subsister de grands obstacles aux relations de l’Europe, et, en particulier, de la France avec les États-Unis ; et que le commerce, qui se préoccupe plus de pratique que de théorie, et du présent que de l’avenir, ne sera guère porté à voir une compensation dans la pensée libérale et féconde qui a présidé à cette œuvre.
+][
+Cependant, monsieur, même sous le rapport des droits, le tableau que vous avez donné, dans votre numéro du 20 août, est de nature à induire le public en erreur.
+][
+Vous portez les vins à 12 et 9 pour 100 dans l’ancien tarif, tandis que c’est 12 et 9 ,(inenglish[cents]) le gallon. De même, vous n’attribuez à la soie qu’un droit de 15 et 16 pour 100, quand c’est 15 ou 16 ,(inenglish[cents par livre]) qu’il faudrait dire. En faisant les rectifications sur ces bases, vous verrez que les vins et les soies, surtout dans les qualités ordinaires, ont été plutôt dégrevés que surchargés. Il est fâcheux que ces erreurs concernent précisément nos deux principaux articles d’exportation.
+][
+Vous ne parlez pas non plus du mécanisme d’après lequel on prélevait jusqu’ici le prétendu droit ,(inlatin[ad valorem]) sur tous les tissus de coton. Le tarif faisait figurer, il est vrai, le modeste chiffre de 20 pour 100. Mais, par une ruse digne du génie du monopole, il avait supposé que tous les tissus de coton valaient ,(emph[au moins 30 cents]) le yard carré (,(inenglish[shall be deemed to have cost 30 cents the square yard])), en sorte que sur une étoffe de la valeur réelle de 6 ,(inenglish[cents]), on prélevait ,(emph[cinq fois]) le droit, soit 100 pour 100. — Il en était de même de tous les articles à l’occasion desquels le monopole avait cru devoir se déguiser et faire, comme on dit, ,(emph[patte de velours]).
+][
+Maintenant le droit est fixé à 25 pour 100 de la valeur réelle. Le ,(emph[privilége]) a donc perdu du terrain dans la proportion de 75 pour 100, au moins, à l’égard des étoffes les plus communes, c’est-à-dire les plus consommées.
+][
+Vous êtes surpris que nous nous félicitions de ces résultats, et vous nous demandez pourquoi nous en voulons tant aux ,(emph[droits protecteurs]), puisque les ,(emph[droits fiscaux]) n’opposent pas de moindres obstacles à notre commerce. Je vais vous le dire.
+][
+Nous nous attaquons aux ,(emph[droits protecteurs]), parce qu’une fois que le monopole, détournant les tarifs de leur destination, les a accordés à ses vues cupides, aucune réforme n’est plus possible qu’après une lutte acharnée entre le droit et le privilége. Et maintenant qu’aux États-Unis la protection a été vaincue, vous-même vous montrez avec quelle facilité on pourra désormais faire disparaître du tarif ce qu’il a de défectueux et d’exorbitant. Qu’on veuille diminuer le droit sur le vin, qu’est-ce qui s’y opposera ? Ce ne sera point le fisc, puisqu’il recouvrera plus avec un droit moindre. Ce ne sera pas l’industrie indigène, puisqu’elle ne fait pas de vin.
+][
+Qu’on dégrève le thé en France, nul ne contredira ; mais qu’on touche au fer, et vous verrez un beau tapage.
+][
+Nous nous attaquons aux droits protecteurs, parce qu’ils décuplent et centuplent le sacrifice du consommateur. Si la douane perçoit un million sur le thé, sans doute c’est un million mis à la charge du consommateur ; mais ce million lui est rendu sous forme de routes et de sécurité, puisqu’il rentre tout entier au trésor. Mais quand la douane prélève un million sur le fer étranger, elle fait hausser de 5 ou 10 fr. par 100 kilos, non seulement le fer importé, mais encore tout celui qui se produit dans le pays, imposant ainsi au public une taxe incalculable qui n’entre pas au Trésor, et par conséquent n’en sort pas.
+][,(tag :a :name "peel_ref")
+Nous nous attaquons aux ,(emph[droits protecteurs]), parce qu’ils sont ,(emph[injustes]), parce qu’ils violent la propriété ; et, pour mon compte, je suis surpris que l’évidence de cette vérité ne vous ait pas déjà rallié ,(emph[tout à fait]) à notre cause. Il n’y a pas bien longtemps que les monopoleurs anglais demandaient une transaction à ,(np "peel" [sir Robert Peel]). Il leur répondit : « Je vous ai accordé un délai de trois ans, et je ne me rétracterai pas. Mais peut-être ai-je été trop loin. Je croyais alors que c’était une question de finances et d’économie politique, et sur de telles questions on peut transiger. Aujourd’hui je suis convaincu que c’est une ,(emph[question de justice ;]) il n’y a pas de transaction possible. »
+][
+Enfin nous attaquons le ,(emph[régime protecteur]), parce que c’est la racine qui alimente chez les peuples l’esprit de domination et de conquête. Et voyez ce qui se passe. Tant qu’elle a obéi à ce système, l’Angleterre a été un fardeau pour le monde, qu’elle aspirait à envahir. Aujourd’hui elle affranchit commercialement ses colonies, qui lui ont coûté tant de sang et de trésors. Dans cinq ans, un Anglais n’y aura pas plus de priviléges qu’un Russe ou un Français ; et je demande quelle raison elle aura alors de retenir ou d’acquérir des colonies.
+][
+Voilà pourquoi, Monsieur, nous nous réjouissons de voir le système protecteur succomber sur quelque point du globe que ce soit. Voilà pourquoi nous avons accueilli avec joie le nouveau tarif américain, quoique nous le considérions comme très défectueux au point de vue fiscal.
+][
+À ce sujet, je ne crois pas, comme vous, que les Américains, en maintenant des droits monstrueux de 40 et de 100 pour 100, aient songé à réduire le chiffre total de leurs importations, de crainte qu’il ne surpassât celui des exportations. Ce serait les supposer encore encroûtés dans la ,(emph[balance du commerce]), et ils ne méritent pas cette épigramme. Mais, direz-vous, si ce n’est ni l’intérêt de la protection ni celui du fisc qui les a décidés, comment expliquer ces droits absurdes sur le vin et l’eau-de-vie ? — Je les explique par le ,(emph[sentimentalisme]). En Amérique, comme ailleurs, il est fort à la mode. On veut faire de la moralisation à coups d’impôts et de tarifs. Les sociétés de tempérance, les ,(inenglish[teetotallers]) ont voulu imposer leur doctrine au lieu de la prêcher, voilà tout. C’est un chapitre de plus à ajouter à l’histoire de l’,(emph[intolérance à bonne intention ;]) mais, quel que soit l’intérêt du sujet, ce n’est pas ici le lieu de le traiter.
+][
+Me permettrez-vous, Monsieur, de vous faire remarquer que la dernière phrase de votre article cache le sophisme qui sert de prétexte à tous les priviléges ?
+][
+Vous dites : « Si les manufactures américaines ne peuvent pas demeurer victorieuses sur leur propre marché, c’est qu’il y a en elles ,(emph[un germe incurable d’impuissance])… »
+][
+Ce germe, c’est la cherté des capitaux et de la main-d’œuvre.
+][,(tag :a :name "rothschild_ref")
+En d’autres termes, les Américains ne sont impuissants à filer le coton que parce qu’ils ,(emph[gagnent plus]) à faire autre chose. Les plaindre à ce sujet, c’est comme si l’on disait à ,(np "rothschild" [M. de Rothschild]) : « Il est vraiment fâcheux pour vous que votre état de banquier vous donne un million de rente ; cela vous met dans l’,(emph[impuissance incurable]) de soutenir la concurrence avec les cordonniers, s’il vous prenait fantaisie de faire des souliers. »
+][
+Si pourtant la loi s’en mêlait, je ne réponds pas qu’au moyen de certains priviléges, elle ne pût rendre le métier de cordonnier fort lucratif.
+])
+,(politesse[Agréez, etc. ,(footnote*[La ,(emph[protection]) s’est relevée, en Amérique, du coup que lui avait porté le tarif de 1846. Il n’y a pas lieu de s’en étonner. Ce n’est pas d’une mesure gouvernementale, c’est de l’opinion publique que dépend le sort définitif d’un système. Or l’opinion publique, aux États-Unis, n’en est pas encore arrivée à reconnaître ce qu’a d’inique et de malfaisant le système protecteur. Bastiat l’avait crue plus avancée. ,(NdEEO)])
+])
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[A M. le rédacteur en chef de la Presse]),
+pp. 143-152.
+])))

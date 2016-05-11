@@ -4,13 +4,14 @@
 	- par Frédéric Bastiat")
 (document :title "Conseil inférieur du travail"
 	:author (author-FB)
-(subtitle[Chapitre IV de la seconde série des ,(SophismesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre IV de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 ,(q[Quoi ! vous avez le front de demander pour tout citoyen
 le droit de vendre, acheter, troquer, échanger,
 rendre et recevoir service pour service et juger pour lui-même
-à la seule condition de na pas blesser l’honnêteté
+à la seule condition de ne pas blesser l’honnêteté
 et de satisfaire le trésor public ?
 Vous voulez donc ravir aux ouvriers
 le travail, le salaire et le pain ?])
@@ -21,13 +22,13 @@ mais j’ai voulu savoir ce qu’en pensent les ouvriers eux-mêmes.
 ][
 J’avais sous la main un excellent instrument d’enquête.
 ][
-Ce n’était point ces ,(emph[conseils supérieurs de l’industrie]),
+Ce n’étaient point ces ,(emph[conseils supérieurs de l’industrie]),
 où de gros propriétaires qui se disent laboureurs,
 de puissants armateurs qui se croient marins,
 et de riches actionnaires qui se prétendent travailleurs,
-font de cette philantropie que l’on sait.
+font de cette philanthropie que l’on sait.
 ][
-Non ; c’était des ouvriers pour de bon, des ouvriers ,(emph[sérieux]),
+Non ; c’étaient des ouvriers pour tout de bon, des ouvriers ,(emph[sérieux]),
 comme on dit aujourd’hui, menuisiers, charpentiers, maçons, tailleurs,
 cordonniers, teinturiers, forgerons, aubergistes, épiciers, etc., etc.,
 qui, dans mon village, ont fondé une ,(emph[société de secours mutuels]).
@@ -52,7 +53,7 @@ il mit la question à l’ordre du jour.
 On divisa l’assemblée en autant de commissions
 qu’elle présentait de groupes formant des corps de métiers.
 On délivra à chacune un tableau qu’elle devait remplir
-après quinze jours de discutions. ,(XXX)
+après quinze jours de discussions.
 ][
 Au jour marqué, le vénérable président prit place au fauteuil
 (style officiel, car c’était une chaise),
@@ -63,46 +64,39 @@ une quinzaine de rapports, dont il donna successivement lecture.
 Le premier qui se présenta fut celui des ,(emph[tailleurs]).
 Le voici aussi exact que s’il était autographié.
 ][
-,(strong[Effets de la protection. ,(--) Rapport des tailleurs])
-][
-,(XXX[
-Dans l’édition originale, les paragraphes inconvénients et avantages
-suivants sont rassemblés dans 2 cellules d’un tableau.
-Ne sachant pas comment spécifier celà dans ce format texte, je les ai
-mis en suivant.
+,(center(strong[Effets de la protection. ,(--) Rapport des tailleurs.]))
 ])
-,(strong[Inconvénients.])
-][
-1° ,(emph[À cause du régime protecteur]), nous payons plus cher
+,(table :class "conseil_inf"
+(tr (td [,(h3[Inconvénients.])]) (td [,(h3[Avantages.])]))
+(tr (td [,(p*[
+1° ,(emph[A cause du régime protecteur]), nous payons plus cher
 le pain, la viande, le sucre, le bois, le fil, les aiguilles, etc.,
 ce qui équivaut pour nous à une diminution considérable de salaire ;
 ][
-2° ,(emph[À cause du régime protecteur]),
-nos clients aussi payent cher toutes choses,
+2° ,(emph[A cause du régime protecteur]),
+nos clients aussi payent plus cher toutes choses,
 ce qui fait qu’ils leur reste moins à dépenser en vêtements, ,(XXX)
 d’où il suit que nous avons moins de travail, partant moins de profits ;
 ][
-3° ,(emph[À cause du régime protecteur]),
+3° ,(emph[A cause du régime protecteur]),
 les étoffes sont chères,
 on fait durer plus longtemps les habits ou l’on s’en passe.
 C’est encore une diminution d’ouvrage
-qui nous force à offrir nos services au rabais.
-][
-,(strong[Avantages.])
-][
-,(emph[Néant])
-,(footnote*[
-Nous avons eu beau prendre nos mesures,
+qui nous force à offrir nos services au rabais.])])
+(td [,(p*[,(emph[Néant,(sup "1").])][,(small[,(sup "1") Nous avons eu beau prendre nos mesures,
 il nous a été impossible d’apercevoir un côté quelconque
-par lequel le régime protecteur fût avantageux à notre commerce.
+par lequel le régime protecteur fût avantageux à notre commerce.])])])
+))
+
+
+,(p*[Voici un autre tableau :
+][
+,(center(strong[Effets de la protection. ,(--) Rapport des forgerons.]))
 ])
-][
-Voici un autre tableau :
-][
-,(strong[Effets de la protection. ,(--) Rapport des forgerons])
-][
-,(strong[Inconvénients.])
-][
+
+,(table :class "conseil_inf"
+(tr (td [,(h3[Inconvénients.])]) (td [,(h3[Avantages.])]))
+(tr (td [,(p*[
 1° Le régime protecteur nous frappe d’une taxe,
 qui ne va pas au Trésor,
 chaque fois que nous mangeons, buvons, nous chauffons et nous habillons ;
@@ -122,18 +116,17 @@ nous en laisse manquer à nous-mêmes ;
 ][
 4° Ce que le fisc manque de recouvrer
 à l’occasion des marchandises ,(emph[qui n’entrent pas]),
-est pris sur notre sel et sur nos lettres.
-][
-,(strong[Avantages.])
-][
-,(emph[Néant.])
-][
+est pris sur notre sel et sur nos lettres.])
+])
+(td [,(emph[Néant.])]))
+)
+,(p*[
 Tous les autres tableaux, que j’épargne au lecteur,
-chantait le même refrain.
+chantaient le même refrain.
 Jardiniers, charpentiers, cordonniers, sabotiers, bateliers, meuniers,
 tous exhalaient les mêmes doléances.
 ][
-Je déplorai qu’il n’y eut pas de laboureurs dans notre association.
+Je déplorai qu’il n’y eût pas de laboureurs dans notre association.
 Leur rapport eût été assurément fort instructif.
 ][
 Mais, hélas ! dans notre pays des Landes,
@@ -141,7 +134,7 @@ les pauvres laboureurs, tout ,(emph[protégés]) qu’ils sont,
 n’ont pas le sou, et, après y avoir mis leurs bestiaux,
 ils ne peuvent entrer eux-mêmes dans les ,(emph[sociétés de secours mutuels]).
 Les prétendues faveurs de la protection
-ne les empêchent pas d’être ,(emph[parias]) de notre ordre social.
+ne les empêchent pas d’être les ,(emph[parias]) de notre ordre social.
 Que dirai-je des vignerons ?
 ][
 Ce que je remarquai surtout,
@@ -149,9 +142,9 @@ c’est le bon sens avec lequel nos villageois avaient aperçu
 non-seulement le mal direct que leur fait le régime protecteur,
 mais aussi le mal indirect qui, frappant leur clientèle,
 retombre par ricochet sur eux.
-][
+][,(tag :a :name "mi_ref")
 C’est ce que ne paraissent pas comprendre, me dis-je,
-les économistes du ,(cite-title[Moniteur industriel]).
+les économistes du ,(tj "mi" [,(cite-title[Moniteur industriel])]).
 ][
 Et peut-être les hommes, dont un peu de protection fascine les yeux,
 notamment les agriculteurs, y renonceraient-ils volontier,

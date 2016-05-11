@@ -4,16 +4,15 @@
 	- par Frédéric Bastiat")
 (document :title "Les deux haches"
 	:author (author-FB)
-(subtitle[Chapitre III de la seconde série des ,(SophismesEconomiques)])
-(bastiat[
-,(p*
-(font :size "+3" [Pétition de Jacques Bonhomme, Charpentier])
-(font :size "+2" [À M. Cunin-Gridaine, Ministre du Commerce])
-(font :size "+1" (strong[Monsieur le Fabricant Ministre,]))
-[
 
-Je suis charpentier, comme fut Jésus ;
-je manie la hache et l’herminette pour vous servir.
+(bastiat[
+,(h2[Chapitre III de la seconde série des ,(SophismesEconomiques)])
+,(h3[Pétition de Jacques Bonhomme, charpentier,
+à ,(np "cunin" [M. Cunin-Gridaine]), ministre du Commerce])
+,(cher[Monsieur le fabricant-ministre,])
+
+,(p*[Je suis charpentier, comme fut Jésus ;
+je manie la hache et l’herminette, pour vous servir.
 ][
 Or, hachant et bûchant,
 depuis l’aube jusqu’à la nuit faite,
@@ -33,7 +32,7 @@ Vous l’y avez bien su forcer en l’empêchant de se pourvoir ailleurs,
 tandis que la mienne s’adresse à qui bon lui semble.
 ][
 Quoi d’étonnant ?
-M. Cunin, ministre, s’est rappelé M. Cunin, tisserand ;
+,(np "cunin" [M. Cunin]), ministre, s’est rappelé ,(np "cunin" [M. Cunin]), tisserand ;
 c’est bien naturel.
 Mais, hélas ! mon humble métier n’a pas donné un ministre à la France,
 quoiqu’il ait donné un Dieu au monde.
@@ -92,7 +91,7 @@ Faut-il prohiber l’entrée des maisons par terre et par mer ?])
 ][
 Cela serait passablement dérisoire ;
 mais, à force d’y rêver, j’ai découvert
-un autre moyen de favoriser les enfants de Saint-Joseph ;
+un autre moyen de favoriser les enfants de saint Joseph ;
 et vous l’accueillerez d’autant plus volontiers, je l’espère,
 qu’il ne diffère en rien de celui qui constitue le privilège
 que vous vous votez chaque année à vous-même.
@@ -141,7 +140,7 @@ Vous le niez si peu,
 que c’est justement par la considération de cet ,(emph[excédent de peine])
 (en quoi vous faites consister la richesse)
 que vous recommandez,
-bien plus que vous ,(emph[imposez])
+bien plus, que vous ,(emph[imposez])
 la plus mauvaise des deux haches.
 ][
 Eh bien !
@@ -149,10 +148,10 @@ soyez conséquent, soyez impartial, si vous ne voulez être juste,
 et traitez les pauvres charpentiers comme vous vous traitez vous-même.
 ][
 Faites une loi qui porte :
-]
-(emph(q[Nul ne pourra se servir que de poutres et solives
+][
+,(q(emph[Nul ne pourra se servir que de poutres et solives
 produits de haches obtuses.]))
-[
+][
 À l’instant voici ce qui va arriver.
 ][
 Là où nous donnons cent coups de hache, nous en donnerons trois cents.

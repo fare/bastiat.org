@@ -25,7 +25,7 @@ On me demandera peut-être pourquoi je ne cite pas le nom de l’auteur ?
 Parce que mon maître de philosophie m’a appris
 que cela met quelquefois en péril
 l’effet de la citation
-,(footnote*[
+,(footnote*[,(tag :a :name "thompson_ref")
 Le nom que l’auteur ne cite pas
 est celui d’un membre éminent de la ligue anglaise,
 le colonel ,(np "thompson_tp" [Perronet Thomson]).
@@ -40,7 +40,7 @@ Il s’agit respectivement les morceaux suivants:
 ,(XXX :bof-ref "ligue_1#p89" "ligue_10#p218" "ligue_17#p282")
 ,(NdEBO)
 ]).
-][
+][,(tag :a :name "beranger_ref")
 Il nous dictait un cours parsemé de passages dont quelques-uns
 étaient empruntés à ,(np "voltaire" [Voltaire]) et à ,(np "rousseau" [Rousseau]),
 invariablement précédés de cette formule:
@@ -237,7 +237,7 @@ d’où résultera pour la nation entière une perte sèche de 5 francs.
 ][ 
 ,(--) Et si je la refends proprement, 
 conviendrez-vous que votre prétention est injuste ? 
-][ 
+][,(tag :a :name "regnard_ref")
 ,(--) Je ne te promets pas d’en convenir ; 
 car, vois-tu, en fait de ces choses-là, 
 je suis un peu comme ,(np "regnard" [le Joueur de la comédie]), 

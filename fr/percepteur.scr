@@ -4,12 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Le Percepteur"
 	:author (author-FB)
-(subtitle[Chapitre X de la seconde série des ,(SophismesEconomiques)])
 (bastiat[
-,(table
-(tr (td :width "20%" [])
-    (td [,(strong[Jacques Bonhomme]), Vigneron ; ,(br)
-	 ,(strong[M. Lasouche]), Percepteur.])))
+,(h2[Chapitre X de la seconde série des ,(SophismesEconomiques)])
+,(cverses[
+,(strong[Jacques Bonhomme]), Vigneron ;]
+[,(strong[M. Lasouche]), Percepteur.
+])
 ,(p*[
 
 L. Vous avez récolté vingt tonneaux de vin ?
@@ -55,7 +55,7 @@ J. Oui, à force de soins et de sueurs.
 	les juges qui vous font restituer
 		le sillon que votre voisin veut s’approprier,
 	les gendarmes qui chassent aux larrons pendant que vous dormez,
-	les cantonnier qui entretient le chemin qui vous mène à la ville,
+	le cantonnier qui entretient le chemin qui vous mène à la ville,
 	le curé qui baptise vos enfants,
 	l’instituteur qui les élève,
 	et votre serviteur qui ne travaille pas pour rien.
@@ -153,7 +153,7 @@ J. Oui, à force de soins et de sueurs.
 	vous portez la ,(emph[civilisation]) en Afrique
 	et vous décorez votre patrie d’une gloire immortelle.
 ][
-,(--) Vous êtes poëte, ,(XXX :sic)
+,(--) Vous êtes poëte,
 	monsieur le percepteur ;
 	mais moi je suis vigneron, et je refuse.
 ][
@@ -173,7 +173,7 @@ J. Oui, à force de soins et de sueurs.
 ,(--) Il n’est que trop vrai. Maudite faiblesse !
 	Il me semblait aussi en lui donnant ma procuration
 	que je commettais une imprudence,
-	car qu’y a-t-il de commun entre un général d’armée et un vigneron ?
+	car qu’y a-t-il de commun entre un général d’armée et un pauvre vigneron ?
 ][
 ,(--) Vous voyez bien qu’il y a quelque chose de commun entre vous,
 	ne fût-ce que le vin que vous récoltez et qu’il se vote à lui-même,

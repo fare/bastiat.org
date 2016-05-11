@@ -59,7 +59,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ])
 
 ,(journal "courrier" "Le Courrier français" [
-,(p*[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])])
+,(p*[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
+,(ref :url "a_la_presse2.html" [II])])
 ])
 
 ])
@@ -74,6 +75,11 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque])])
 ])
 
+,(journal "esprit" "L’Esprit public" [
+,(p*[Citation : ,(ref :url "conte_chinois.html#esprit_ref" [Conte chinois])])
+])
+
+
 ])
 
 ,(lettre "J" [
@@ -85,7 +91,13 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ])
 
-,(lettre "M" [
+,(lettre "L" [
+
+,(journal "le" "Le Libre-Échange" [
+,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])])
+])
+
+]),(lettre "M" [
 
 ,(journal "mb" "Mémorial bordelais" [
 ,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])])
@@ -95,8 +107,13 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*
 [Réponses : ,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
 ]
-[Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes])
+[Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes]) ; ,(ref :url "conseil_inferieur_du_travail.html#mi_ref" [Conseil inférieur du travail]) ;
+,(ref :url "conte_chinois.html#mi_ref" [Conte chinois])
 ])])
+
+,(journal "mu" "Moniteur universel" [
+,(ref :url "sel_poste_douane.html#mu_ref" [Le sel, la poste, la douane])
+])
 
 ])
 
@@ -104,7 +121,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(lettre "P" [
 ,(journal "presse" "La Presse" [
 ,(p*
-[Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse])]
+[Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
+,(ref :url "a_la_presse2.html" [II])]
 [Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])
 ])])
 

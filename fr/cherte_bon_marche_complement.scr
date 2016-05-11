@@ -1,0 +1,55 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Cherté, bon marché, par Frédéric Bastiat")
+
+(document :title "Cherté, bon marché"
+	:author (author-FB)
+
+(bastiat[
+
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du ,(1er) août 1847.])
+
+,(h2[Cherté, bon marché.])
+,(p*[Sous ce titre, nous avons publié ,(ref :url "cherte_bon_marche.html" [un article]) qui nous a valu les deux lettres suivantes. Nous les faisons suivre de la réponse.
+][
+,(blockquote*
+[,(retrait),(strong[Monsieur le rédacteur]),]
+[Vous bouleversez toutes mes idées. Je faisais de la propagande au profit du libre-échange et trouvais si commode de mettre en avant le ,(emph[bon marché !]) J’allais partout disant : « Avec la liberté, le pain, la viande, le drap, le linge, le fer, le combustible, vont baisser de prix. » Cela déplaisait à ceux qui en vendent, mais faisait plaisir à ceux qui en achètent. Aujourd’hui vous mettez en doute que le résultat du libre-échange soit le ,(emph[bon marché]). Mais alors à quoi servira-t-il ? Que gagnera le peuple, si la concurrence étrangère, qui peut le froisser dans ses ventes, ne le favorise pas dans ses achats ?])
+][
+,(retrait),(strong[Monsieur le libre-échangiste]),
+][
+Permettez-nous de vous dire que vous n’avez lu qu’à demi l’article qui a provoqué votre lettre. Nous avons dit que le libre-échange agissait exactement comme les routes, les canaux, les chemins de fer, comme tout ce qui facilite les communications, comme tout ce qui détruit des obstacles. Sa première tendance est d’augmenter l’abondance de l’article affranchi, et par conséquent d’en baisser le prix. Mais en augmentant en même temps l’abondance de toutes les choses contre lesquelles cet article s’échange, il en accroît la ,(emph[demande]), et le prix se relève par cet autre côté. Vous nous demandez ce que gagnera le peuple ? Supposez qu’il a une balance à plusieurs plateaux, dans chacun desquels il a, pour son usage, une certaine quantité des objets que vous avez énumérés. Si l’on ajoute un peu de blé dans un plateau, il tendra à s’abaisser ; mais si l’on ajoute un peu de drap, un peu de fer, un peu de combustible aux autres bassins, l’équilibre sera maintenu. A ne regarder que le fléau, il n’y aura rien de changé. A regarder le peuple, on le verra mieux nourri, mieux vêtu et mieux chauffé.
+][
+,(blockquote*
+[,(retrait),(strong[Monsieur le rédacteur]),]
+[Je suis fabricant de drap et protectioniste. J’avoue que votre article sur la ,(emph[cherté]) et le ,(emph[bon marché]) me fait réfléchir. Il y a là quelque chose de spécieux qui n’aurait besoin que d’être bien établi pour opérer une conversion.])
+][
+,(retrait),(strong[Monsieur le protectioniste]),
+][
+Nous disons que vos mesures restrictives ont pour but une chose inique, la ,(emph[cherté artificielle]). Mais nous ne disons pas qu’elles réalisent toujours l’espoir de ceux qui les provoquent. Il est certain qu’elles infligent au consommateur tout le mal de la cherté. Il n’est pas certain qu’elles en confèrent le profit au producteur. Pourquoi ? parce que si elles diminuent l’,(emph[offre]), elles diminuent aussi la ,(emph[demande]).
+][
+Cela prouve qu’il y a dans l’arrangement économique de ce monde une force morale, ,(inlatin[vis medicatrix]), qui fait qu’à la longue l’ambition injuste vient s’aheurter à une déception.
+][
+Veuillez remarquer, monsieur, qu’un des éléments de la prospérité de chaque industrie particulière, c’est la richesse générale. Le ,(emph[prix]) d’une maison est non-seulement en raison de ce qu’elle a coûté, mais encore en raison du nombre et de la fortune des locataires. Deux maisons exactement semblables ont-elles nécessairement le même ,(emph[prix]) ? Non certes, si l’une est située à Paris et l’autre en Basse-Bretagne. Ne parlons jamais de prix sans tenir compte des ,(emph[milieux]), et sachons bien qu’il n’y a pas de tentative plus vaine que celle de vouloir fonder la prospérité des fractions sur la ruine du tout. C’est pourtant là la prétention du régime restrictif.
+][
+La concurrence a toujours été et sera toujours importune à ceux qui la subissent. Aussi voit-on, en tous temps et en tous lieux, les hommes faire effort pour s’en débarrasser. Nous connaissons (et vous aussi peut-être) un conseil municipal où les marchands résidents font aux marchands forains une guerre acharnée. Leurs projectiles sont des droits d’octroi, de plaçage, d’étalage, de péage, etc., etc.
+][
+Or, considérez ce qui serait advenu de Paris, par exemple, si cette guerre s’y était faite avec succès.
+][
+Supposez que le premier cordonnier qui s’y est établi eût réussi à évincer tous les autres ; que le premier tailleur, le premier maçon, le premier imprimeur, le premier horloger, le premier coiffeur, le premier médecin, le premier boulanger, eussent été aussi heureux. Paris serait encore aujourd’hui un village de 12 à 1,500 habitants. — Il n’en a pas été ainsi. Chacun (sauf ceux que vous éloignez encore) est venu exploiter ce marché, et c’est justement ce qui l’a agrandi. Ce n’a été qu’une longue suite de froissements pour les ennemis de la concurrence ; et de froissements en froissements, Paris est devenu une ville d’un million d’habitants. La richesse générale y a gagné, sans doute ; mais la richesse particulière des cordonniers et des tailleurs y a-t-elle perdu ? Pour vous, voilà la question. A mesure que les concurrents arrivaient, vous auriez dit : Le prix des bottes va baisser. En a-t-il été ainsi ? Non ; car si l’,(emph[offre]) a augmenté, la ,(emph[demande]) a augmenté aussi.
+][
+Il en sera ainsi de votre drap, monsieur ; laissez-le entrer. Vous aurez plus de concurrents, c’est vrai ; mais aussi vous aurez plus de clientèle, et surtout une clientèle plus riche. Hé quoi ! n’y avez-vous jamais songé en voyant les neuf dixièmes de vos compatriotes privés pendant l’hiver de ce drap que vous fabriquez si bien ?
+][
+C’est une leçon bien longue à apprendre que celle-ci : Voulez-vous prospérer ? laissez prospérer votre clientèle.
+][
+Mais quand elle sera sue, chacun cherchera son bien dans le bien général. Alors, les jalousies d’individu à individu, de ville à ville, de province à province, de nation à nation, ne troubleront plus le monde.
+
+])])
+(footer[
+	
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome IV,
+,(cite-title[Cherté, bon marché]),
+pp. 163-173.
+])))

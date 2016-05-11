@@ -4,9 +4,10 @@
 
 (document :title "L’utopiste"
 	:author (author-FB)
-(subtitle[Chapitre XI de la seconde série des ,(SophismesEconomiques)])
+
 (bastiat[
-,(date-tag[,(cite-title[Libre-Échange]), n° du 17 janvier 1847.])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 17 janvier 1847.])
+,(h2[Chapitre XI de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 
 — Si j’étais ministre de Sa Majesté !…
@@ -28,15 +29,15 @@
 — Je chercherais s’ils s’accordent ou se gourment entre eux.
 ][
 — Et si vous trouviez qu’ils ne s’accordent pas ?
-][
+][,(tag :a :name "moliere_ref")
 — Je dirais au roi Philippe :
 ][
+Reprenez votre portefeuille.
 ,(verses
-[Reprenez votre portefeuille.]
 [La rime n’est pas riche et le style en est vieux ;]
 [Mais ne voyez-vous pas que cela vaut bien mieux]
 [Que ces ,(emph[transactions]) dont le bon sens murmure,]
-[Et que l’,(emph[honnêteté]) parle là toute pure ?])
+[Et que l’,(emph[honnêteté]) parle là toute pure ? ,(np "moliere" [*])])
 ][
 — Mais si vous reconnaissez que le ,(emph[juste]) et l’,(emph[utile]) c’est tout un ?
 ][
@@ -70,7 +71,7 @@
 ][
 — D’abord, je réduirais la taxe des lettres à 10 centimes.
 ][
-— Je vous avais entendu parler de 5 centimes,(footnote*[L’auteur avait dit en effet 5 centimes, en mai 1846, dans un article du ,(cite-title[Journal des économistes]), qui est devenu le chap. XII de la seconde série des ,(cite-title[Sophismes]).]).
+— Je vous avais ,(ref :url "sel_poste_douane.html#5centimes" [entendu parler]) de 5 centimes.
 ][
 — Oui ; mais comme j’ai d’autres réformes en vue, je dois procéder avec prudence pour éviter le déficit.
 ][
@@ -259,8 +260,8 @@ Art. ,(1er). Toute marchandise importée paiera une taxe de 5 p. 100 de la vale
 — J’appelle tous les citoyens au service.
 ][
 — Il valait bien la peine d’en dispenser quelques-uns pour y appeler tout le monde.
-][
-— Vous ne m’avez pas fait ministre pour laisser les choses comme elles sont. Aussi, à mon avènement au pouvoir, je dirai comme Richelieu : « Les maximes de l’État sont changées. » Et ma première maxime, celle qui servira de base à mon administration, c’est celle-ci : Tout citoyen doit savoir deux choses : pourvoir à son existence et défendre son pays.
+][,(tag :a :name "richelieu_ref")
+— Vous ne m’avez pas fait ministre pour laisser les choses comme elles sont. Aussi, à mon avènement au pouvoir, je dirai comme ,(np "richelieu" [Richelieu]) : « Les maximes de l’État sont changées. » Et ma première maxime, celle qui servira de base à mon administration, c’est celle-ci : Tout citoyen doit savoir deux choses : pourvoir à son existence et défendre son pays.
 ][
 — Il me semble bien, au premier abord, qu’il y a quelque étincelle de bon sens là-dessous.
 ][
@@ -268,7 +269,7 @@ Art. ,(1er). Toute marchandise importée paiera une taxe de 5 p. 100 de la vale
 ][
 Art. ,(1er). Tout citoyen valide, sans exception, restera sous les drapeaux pendant quatre années, de 21 à 25 ans, pour y recevoir l’instruction militaire.
 ][
-— Voilà une belle économie ! vous congédiez 400 000 soldats et vous en faites 10 millions.
+— Voilà une belle économie ! vous congédiez 400,000 soldats et vous en faites 10 millions.
 ][
 — Attendez mon second article.
 ][

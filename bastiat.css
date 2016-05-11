@@ -124,8 +124,8 @@ sup {line-height: 0;}
 	min-width: 20em;
 	margin: 3em auto;
 	font-family: "bastiat";
-	font-size: 1.2em;
-	line-height: 1.8em;
+	font-size: 1.2em; /*1.2*/
+	/*line-height: 1.8em;*/ /*1.8*/
 }
 @media only screen and (max-width: 25cm) {
 	.bastiat {
@@ -153,8 +153,8 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 
 .bastiat p {
 	text-indent: 1.4em;
-	margin: 0.8em 0;
-	line-height:1.5em;
+	margin: 0.5em 0;
+	line-height:1.2em;
 }
 
 .bastiat > blockquote {
@@ -163,7 +163,7 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 }
 
 .liste p {
-	margin: 0.4em 0;
+	margin: 0.3em 0;
 }
 
 .bastiat p.noselect {
@@ -214,6 +214,7 @@ em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-ca
 	font-size: larger;
 }
 
+
 .politesse {
 	padding-left: 3em;
 }
@@ -249,6 +250,8 @@ em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-ca
 .vers, .cvers {
 	font-size: 80%;
 	line-height: 1.2em;
+	text-align: justify;
+	clear:both;
 }
 
 .vers {
@@ -259,10 +262,20 @@ em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-ca
 	text-align: center;
 }
 
+span.dr {float:right;}
+table.vers {
+	font-size: 90%;
+	padding:1em;
+}
+
 /*Tableaux*/
 
 .bastiat table {
 	margin:auto;
+}
+
+.bastiat table.conseil_inf {
+	border-spacing: 1em;
 }
 
 /*Mise en forme des liens*/

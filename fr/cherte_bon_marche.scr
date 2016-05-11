@@ -4,9 +4,12 @@
 
 (document :title "Cherté, bon marché"
 	:author (author-FB)
-(subtitle[Chapitre V de la seconde série des ,(SophismesEconomiques)])
+
 (bastiat[
-,(date-tag[,(cite-title[Libre-Échange]), n° du 25 juillet 1847.])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 juillet 1847.])
+,(h2[Chapitre V de la seconde série des ,(SophismesEconomiques)])
+
+
 ,(p*[
 
 Je crois devoir soumettre aux lecteurs quelques remarques, hélas ! théoriques, sur les illusions qui naissent des mots ,(emph[cherté, bon marché]). Au premier coup d’œil on sera disposé, je le sais, à trouver ces remarques un peu subtiles ; mais, subtiles ou non, la question est de savoir si elles sont vraies. Or, je les crois parfaitement vraies et surtout très-propres à faire réfléchir les hommes, en grand nombre, qui ont une foi sincère en l’efficacité du régime protecteur.
@@ -23,13 +26,13 @@ Pour engendrer la ,(emph[cherté]), les restrictionistes ont obtenu des droits p
 ][
 Pour arriver au bon marché, les libres échangistes ont quelquefois fait prévaloir la liberté, et à leur grand étonnement, c’est l’élévation des prix qui s’en est suivie.
 ][
-Exemple : En France, pour favoriser l’agriculture, on a frappé la laine étrangère d’un droit de 22%, et il est arrivé que la laine nationale s’est vendue à plus vil prix après la mesure qu’avant.
+Exemple : En France, pour favoriser l’agriculture, on a frappé la laine étrangère d’un droit de 22 %, et il est arrivé que la laine nationale s’est vendue à plus vil prix après la mesure qu’avant.
 ][
 En Angleterre, pour soulager le consommateur, on a dégrevé et finalement affranchi la laine étrangère, et il est advenu que celle du pays s’est vendue plus cher que jamais.
 ][
 Et ce n’est pas là un fait isolé, car le prix de la laine n’a pas une nature qui lui soit propre et le dérobe à la loi générale qui gouverne les prix. Ce même fait s’est reproduit dans toutes les circonstances analogues. Contre toute attente, la protection a amené plutôt la baisse, la concurrence plutôt la hausse des produits.
 ][
-Alors la confusion dans le débat a été à son comble, les protectionistes disant à leurs adversaires : « Ce bon marché que vous nous vantez tant, c’est notre système qui le réalise. » Et ceux-ci répondant : « Cette cherté que vous trouviez si utile, c’est la liberté qui la provoque ,(footnote*[Récemment, M. Duchâtel, qui jadis demandait la liberté en vue des bas prix, a dit à la Chambre : « Il ne me serait pas difficile de prouver que la protection amène le bon marché. »]). »
+Alors la confusion dans le débat a été à son comble, les protectionistes disant à leurs adversaires : « Ce bon marché que vous nous vantez tant, c’est notre système qui le réalise. » Et ceux-ci répondant : « Cette cherté que vous trouviez si utile, c’est la liberté qui la provoque ,(footnote*[,(tag :a :name "duchatel_ref")Récemment, ,(np "duchatel" [M. Duchâtel]), qui jadis demandait la liberté en vue des bas prix, a dit à la Chambre : « Il ne me serait pas difficile de prouver que la protection amène le bon marché. »]). »
 ][
 Ne serait-ce pas plaisant de voir ainsi le ,(emph[bon marché]) devenir le mot d’ordre à la rue Hauteville, et la ,(emph[cherté]) à la rue Choiseul ?
 ][
@@ -78,10 +81,10 @@ L’effet de la liberté est justement opposé. Dans son résultat général, il
 En un mot, sous le régime restrictif, et en tant qu’il agit, les hommes reculent vers un état de choses où tout s’affaiblit, Offre et Demande ; sous le régime de la liberté, ils progressent vers un état de choses où elles se développent d’un pas égal, sans que le prix absolu des choses doive être nécessairement affecté. Ce prix n’est pas un bon criterium de la richesse. Il peut fort bien rester le même, soit que la société tombe dans la misère la plus abjecte, soit qu’elle s’avance vers une grande prospérité.
 ][
 Qu’il nous soit permis de faire en peu de mots l’application de cette doctrine.
+][,(tag :a :name "odier_ref")
+Un cultivateur du Midi croit tenir le Pérou parce qu’il est protégé par des droits contre la rivalité extérieure. Il est pauvre comme Job, n’importe ; il n’en suppose pas moins que la protection l’enrichira tôt ou tard. Dans ces circonstances, si on lui pose, comme le fait le comité ,(np "odier" [Odier]), la question en ces termes :
 ][
-Un cultivateur du Midi croit tenir le Pérou parce qu’il est protégé par des droits contre la rivalité extérieure. Il est pauvre comme Job, n’importe ; il n’en suppose pas moins que la protection l’enrichira tôt ou tard. Dans ces circonstances, si on lui pose, comme le fait le comité Odier, la question en ces termes :
-][
-« Voulez-vous, oui ou non, être assujetti à la concurrence étrangère ? » son premier mouvement est de répondre : « ,(emph[Non.]) » — Et le comité Odier donne fièrement un grand éclat à cette réponse.
+« Voulez-vous, oui ou non, être assujetti à la concurrence étrangère ? » son premier mouvement est de répondre : « ,(emph[Non.]) » — Et le comité ,(np "odier" [Odier]) donne fièrement un grand éclat à cette réponse.
 ][
 Cependant il faut aller un peu plus au fond des choses. Sans doute, la concurrence étrangère, et même la concurrence en général, est toujours importune ; et si une profession pouvait s’en affranchir seule, elle ferait pendant quelque temps de bonnes affaires.
 ][
@@ -100,47 +103,9 @@ La question, l’éternelle question, n’est donc pas de savoir si la protectio
 Or, personne n’ose le soutenir. C’est même ce qui explique cet aveu qu’on nous fait sans cesse : « Vous avez raison en principe. »
 ][
 S’il en est ainsi, si la restriction ne fait du bien à chaque industrie spéciale qu’en faisant un plus grand mal à la richesse générale, comprenons donc que le prix lui-même, à ne considérer que lui, exprime un rapport entre chaque industrie spéciale et l’industrie générale, entre l’Offre et la Demande, et que, d’après ces prémisses, ce ,(emph[prix rémunérateur]), objet de la protection, est plus contrarié que favorisé par elle.
-]
-(hrule)
-[
-,(subtitle[Complément. ,(footnote*[Dans le ,(cite-title[Libre-Échange]) du ,(1er) août 1847, l’auteur donna sur ce sujet une explication que nous jugeons utile de reproduire ici. ,(NdEEO)])])
+])
 
-][
-Sous ce titre, cherté et bon marché, nous avons publié un article qui nous a valu les deux lettres suivantes. Nous les faisons suivre de la réponse.
-][
-,(blockquote*
-[,(strong[Monsieur le rédacteur]),]
-[Vous bouleversez toutes mes idées. Je faisais de la propagande au profit du libre-échange et trouvais si commode de mettre en avant le ,(emph[bon marché !]) J’allais partout disant : « Avec la liberté, le pain, la viande, le drap, le linge, le fer, le combustible, vont baisser de prix. » Cela déplaisait à ceux qui en vendent, mais faisait plaisir à ceux qui en achètent. Aujourd’hui vous mettez en doute que le résultat du libre-échange soit le ,(emph[bon marché]). Mais alors à quoi servira-t-il ? Que gagnera le peuple, si la concurrence étrangère, qui peut le froisser dans ses ventes, ne le favorise pas dans ses achats ?])
-][
-,(strong[Monsieur le libre-échangiste]),
-][
-Permettez-nous de vous dire que vous n’avez lu qu’à demi l’article qui a provoqué votre lettre. Nous avons dit que le libre-échange agissait exactement comme les routes, les canaux, les chemins de fer, comme tout ce qui facilite les communications, comme tout ce qui détruit des obstacles. Sa première tendance est d’augmenter l’abondance de l’article affranchi, et par conséquent d’en baisser le prix. Mais en augmentant en même temps l’abondance de toutes les choses contre lesquelles cet article s’échange, il en accroît la ,(emph[demande]), et le prix se relève par cet autre côté. Vous nous demandez ce que gagnera le peuple ? Supposez qu’il a une balance à plusieurs plateaux, dans chacun desquels il a, pour son usage, une certaine quantité des objets que vous avez énumérés. Si l’on ajoute un peu de blé dans un plateau, il tendra à s’abaisser ; mais si l’on ajoute un peu de drap, un peu de fer, un peu de combustible aux autres bassins, l’équilibre sera maintenu. A ne regarder que le fléau, il n’y aura rien de changé. A regarder le peuple, on le verra mieux nourri, mieux vêtu et mieux chauffé.
-][
-,(blockquote*
-[,(strong[Monsieur le rédacteur]),]
-[Je suis fabricant de drap et protectioniste. J’avoue que votre article sur la ,(emph[cherté]) et le ,(emph[bon marché]) me fait réfléchir. Il y a là quelque chose de spécieux qui n’aurait besoin que d’être bien établi pour opérer une conversion.])
-][
-,(strong[Monsieur le protectioniste]),
-][
-Nous disons que vos mesures restrictives ont pour but une chose inique, la ,(emph[cherté artificielle]). Mais nous ne disons pas qu’elles réalisent toujours l’espoir de ceux qui les provoquent. Il est certain qu’elles infligent au consommateur tout le mal de la cherté. Il n’est pas certain qu’elles en confèrent le profit au producteur. Pourquoi ? parce que si elles diminuent l’,(emph[offre]), elles diminuent aussi la ,(emph[demande]).
-][
-Cela prouve qu’il y a dans l’arrangement économique de ce monde une force morale, ,(inlatin[vis medicatrix]), qui fait qu’à la longue l’ambition injuste vient s’aheurter à une déception.
-][
-Veuillez remarquer, monsieur, qu’un des éléments de la prospérité de chaque industrie particulière, c’est la richesse générale. Le ,(emph[prix]) d’une maison est non-seulement en raison de ce qu’elle a coûté, mais encore en raison du nombre et de la fortune des locataires. Deux maisons exactement semblables ont-elles nécessairement le même ,(emph[prix]) ? Non certes, si l’une est située à Paris et l’autre en Basse-Bretagne. Ne parlons jamais de prix sans tenir compte des ,(emph[milieux]), et sachons bien qu’il n’y a pas de tentative plus vaine que celle de vouloir fonder la prospérité des fractions sur la ruine du tout. C’est pourtant là la prétention du régime restrictif.
-][
-La concurrence a toujours été et sera toujours importune à ceux qui la subissent. Aussi voit-on, en tous temps et en tous lieux, les hommes faire effort pour s’en débarrasser. Nous connaissons (et vous aussi peut-être) un conseil municipal où les marchands résidents font aux marchands forains une guerre acharnée. Leurs projectiles sont des droits d’octroi, de plaçage, d’étalage, de péage, etc., etc.
-][
-Or, considérez ce qui serait advenu de Paris, par exemple, si cette guerre s’y était faite avec succès.
-][
-Supposez que le premier cordonnier qui s’y est établi eût réussi à évincer tous les autres ; que le premier tailleur, le premier maçon, le premier imprimeur, le premier horloger, le premier coiffeur, le premier médecin, le premier boulanger, eussent été aussi heureux. Paris serait encore aujourd’hui un village de 12 à 1 500 habitants. — Il n’en a pas été ainsi. Chacun (sauf ceux que vous éloignez encore) est venu exploiter ce marché, et c’est justement ce qui l’a agrandi. Ce n’a été qu’une longue suite de froissements pour les ennemis de la concurrence ; et de froissements en froissements, Paris est devenu une ville d’un million d’habitants. La richesse générale y a gagné, sans doute ; mais la richesse particulière des cordonniers et des tailleurs y a-t-elle perdu ? Pour vous, voilà la question. A mesure que les concurrents arrivaient, vous auriez dit : Le prix des bottes va baisser. Et en a-t-il été ainsi ? Non ; car si l’,(emph[offre]) a augmenté, la ,(emph[demande]) a augmenté aussi.
-][
-Il en sera ainsi du drap, monsieur ; laissez-le entrer. Vous aurez plus de concurrents, c’est vrai ; mais aussi vous aurez plus de clientèle, et surtout une clientèle plus riche. Hé quoi ! n’y avez-vous jamais songé en voyant les neuf dixièmes de vos compatriotes privés pendant l’hiver de ce drap que vous fabriquez si bien ?
-][
-C’est une leçon bien longue à apprendre que celle-ci : Voulez-vous prospérer ? laissez prospérer votre clientèle.
-][
-Mais quand elle sera sue, chacun cherchera son bien dans le bien général. Alors, les jalousies d’individu à individu, de ville à ville, de province à province, de nation à nation, ne troubleront plus le monde.
-
-])])
+])
 (footer[
 	,(soph "conseil_inferieur_du_travail.html" "aux_artisans_et_ouvriers.html")
 ])
