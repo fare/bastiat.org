@@ -4,12 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Autre Chose"
 	:author (author-FB)
-(subtitle[Chapitre XIV de la seconde série des ,(SophismesEconomiques)
-	,(footnote*[
-Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
-,(NdEEO)
-])])
+
 (bastiat[
+,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 21 mars 1847.])
+,(h2[Chapitre XIV de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 ,(--) Qu’est-ce que la restriction ?
 ][
@@ -44,7 +42,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
     ,(emph[pour un moindre travail]),
     cette diminution apparente de travail les effraie.
 ][
-,(--) Pourquoi dites-vous ,(emph[apparente]) ?
+,(--) Pourquoi dites-vous ,(emph[apparente ?])
 ][
 ,(--) Parce que tout travail épargné peut être consacré à ,(emph[autre chose]).
 ][
@@ -71,8 +69,8 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 	il faudrait l’étudier dans le cas le plus simple.
 ][
 ,(--) Prenez le cas le plus simple que vous voudrez.
-][
-,(--) Vous rappelez-vous comment s’y prit Robinson,
+][,(tag :a :name "defoe_ref")
+,(--) Vous rappelez-vous comment s’y prit ,(np "defoe" [Robinson]),
 	n’ayant pas de scie, pour faire une planche ?
 
 ][
@@ -97,15 +95,15 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 ,(--) Fort bien.
 	Mais vous ne savez peut-être pas ceci :
 	au moment de donner le premier coup de hache,
-	Robinson aperçut une planche jetée par le flot sur le rivage.
+	,(np "defoe" [Robinson]) aperçut une planche jetée par le flot sur le rivage.
 ][
 ,(--) Oh ! l’heureux à-propos ! il courut la ramasser ?
 ][
 ,(--) Ce fut son premier mouvement ; mais il s’arrêta, raisonnant ainsi :
 	,(blockquote*
-	(q[Si je vais chercher cette planche,
+	[« Si je vais chercher cette planche,
 	il ne m’en coûtera que la fatigue de la porter,
-	le temps de descendre et de remonter la falaise.])
+	le temps de descendre et de remonter la falaise.]
 
 	(q[Mais si je fais une planche avec ma hache,
 	d’abord je me procurerai du travail pour quinze jours,
@@ -138,9 +136,9 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 	et celui de Robinson un atome de différence.
 ][
 ,(--) Robinson ne voyait-il pas que le temps épargné,
-	il le pouvait consacrer à faire ,(emph[autre chose]) ?
+	il le pouvait consacrer à faire ,(emph[autre chose ?])
 ][
-,(--) Quelle ,(emph[autre chose]) ?
+,(--) Quelle ,(emph[autre chose ?])
 ][
 ,(--) Tant qu’on a devant soi des besoins et du temps,
 	on a toujours ,(emph[quelque chose]) à faire.
@@ -163,14 +161,14 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 ][
 ,(--) Volontiers. ,(--)
 	À quelque temps de là,
-	Robinson ayant rencontré Vendredi,
+	,(np "defoe" [Robinson]) ayant rencontré Vendredi,
 	ils se lièrent et se mirent à travailler en commun.
 	Le matin, ils chassaient pendant six heures et
 	rapportaient quatre paniers de gibier.
 	Le soir, ils jardinaient six heures et
 	obtenaient quatre paniers de légumes.
 	][
-	Un jour une pirogue aborda l’,(emph[Île du désespoir]).
+	Un jour une pirogue aborda l’,(emph[Île du Désespoir]).
 	Un bel étranger en descendit et
 	fut admis à la table de nos deux solitaires.
 	Il goûta et vanta beaucoup les produits du jardin et,
@@ -184,74 +182,74 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 		si vous voulez me céder seulement deux paniers de légumes.])
 	])
 	][
-	À ces mots, Robinson et Vendredi s’éloignèrent pour tenir conseil,
+	À ces mots, ,(np "defoe" [Robinson]) et Vendredi s’éloignèrent pour tenir conseil,
 	et le débat qu’ils eurent est trop intéressant
 		pour que je ne le rapporte pas ici ,(emph[in extenso]).
 	,(blockquote*
 	[
-,(--) ,(bold[Vendredi]). Ami, que t’en semble ?
+,(strong[Vendredi]). ,(--) Ami, que t’en semble ?
 	][
-,(--) ,(bold[Robinson]). Si nous acceptons, nous sommes ruinés.
+,(strong[Robinson]). ,(--) Si nous acceptons, nous sommes ruinés.
 	][
-,(--) ,(bold[V.]). Est-ce bien sûr ? Calculons.
+,(strong[V.]) ,(--) Est-ce bien sûr ? Calculons.
 	][
-,(--) ,(bold[R.]). C’est tout calculé.
+,(strong[R.]) ,(--) C’est tout calculé.
 		Écrasés par la concurrence,
 			la chasse est pour nous une industrie perdue.
 	][
-,(--) ,(bold[V.]). Qu’importe ? si nous avons le gibier.
+,(strong[V.]) ,(--) Qu’importe ? si nous avons le gibier.
 	][
-,(--) ,(bold[R.]). Théorie ! Il ne sera pas le produit de notre travail.
+,(strong[R.]) ,(--) Théorie ! Il ne sera pas le produit de notre travail.
 	][
-,(--) ,(bold[V.]). Si fait, morbleu,
+,(strong[V.]) ,(--) Si fait, morbleu,
 		puisque pour l’avoir il faudra donner des légumes !
 	][
-,(--) ,(bold[R.]). Alors que gagnerons-nous ?
+,(strong[R.]) ,(--) Alors que gagnerons-nous ?
 	][
-,(--) ,(bold[V.]). Les quatre paniers de gibier
+,(strong[V.]) ,(--) Les quatre paniers de gibier
 			nous coûtent six heures de travail.
 		L’étranger nous les donne contre deux paniers de légumes
 			qui ne nous prennent que trois heures.
 		,(--) C’est donc trois heures qui restent à notre disposition.
 ][
-,(--) ,(bold[R.]). Dis donc, qui sont soustraites à notre activité.
+,(strong[R.]) ,(--) Dis donc, qui sont soustraites à notre activité.
 	C’est là précisément notre perte.
 	,(emph[Le travail]), ,(emph[c’est la richesse]),
 	et si nous perdons un quart de notre temps,
 	nous serons d’un quart moins riches.
 ][
-,(--) ,(bold[V.]). Ami, tu fais une méprise énorme.
+,(strong[V.]) ,(--) Ami, tu fais une méprise énorme.
 	Même gibier, mêmes légumes, et, par-dessus le marché,
 	trois heures disponibles, c’est du progrès,
-	ou il n’y en a pas dans ce monde.
+	ou il n’y en a pas en ce monde.
 ][
-,(--) ,(bold[R.]). Généralité ! Que ferons-nous de ces trois heures ?
+,(strong[R.]) ,(--) Généralité ! Que ferons-nous de ces trois heures ?
 ][
-,(--) ,(bold[V.]). Nous ferons ,(emph[autre chose]).
+,(strong[V.]) ,(--) Nous ferons ,(emph[autre chose]).
 ][
-,(--) ,(bold[R.]). Ah ! je t’y prends. Tu ne peux rien préciser.
+,(strong[R.]) ,(--) Ah ! je t’y prends. Tu ne peux rien préciser.
 	,(emph[Autre chose]), ,(emph[autre chose]), c’est bientôt dit.
 ][
-,(--) ,(bold[V.]). Nous pêcherons, nous embellirons notre case,
+,(strong[V.]) ,(--) Nous pêcherons, nous embellirons notre case,
 	nous lirons la ,(emph[Bible]).
 ][
-,(--) ,(bold[R.]). Utopie !
+,(strong[R.]) ,(--) Utopie !
 	Est-il bien certain que nous ferons ceci plutôt que cela ?
 ][
-,(--) ,(bold[V.]). Eh bien, si les besoins nous font défaut, nous nous reposerons.
+,(strong[V.]) ,(--) Eh bien, si les besoins nous font défaut, nous nous reposerons.
 	N’est-ce rien que le repos ?
 ][
-,(--) ,(bold[R.]). Mais quand on se repose, on meurt de faim.
+,(strong[R.]) ,(--) Mais quand on se repose, on meurt de faim.
 ][
-,(--) ,(bold[V.]). Ami, tu es dans un cercle vicieux.
+,(strong[V.]) ,(--) Ami, tu es dans un cercle vicieux.
 	Je te parle d’un repos qui ne retranche rien
 		sur notre gibier ni sur nos légumes.
 	Tu oublies toujours qu’au moyen de notre commerce avec l’étranger,
 		neuf heures de travail nous donneront autant de provisions
 		qu’aujourd’hui douze.
-][
-,(--) ,(bold[R.]). On voit bien que tu n’as pas été élevé en Europe.
-	Tu n’as peut-être jamais lu le ,(emph[Moniteur industriel]) ?
+][,(tag :a :name "mi_ref")
+,(strong[R.]) ,(--) On voit bien que tu n’as pas été élevé en Europe.
+	Tu n’as peut-être jamais lu le ,(cite-title[,(tj "mi" [Moniteur industriel]) ?])
 	Il t’aurait appris ceci :
 	,(q[Tout le temps épargné est une perte sèche.
 	Ce n’est pas de manger qui importe, c’est de travailler.
@@ -259,83 +257,80 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 	si ce n’est pas le produit direct de notre travail, ne compte pas.
 	Veux-tu savoir si tu es riche ?
 	Ne regarde pas à tes satisfactions, mais à ta peine.])
-	Voilà ce que le ,(emph[Moniteur industriel]) t’aurait appris.
+	Voilà ce que le ,(tj "mi" [,(cite-title[Moniteur industriel])]) t’aurait appris.
 	Pour moi, qui ne suis pas un théoricien,
 	je ne vois que la perte de notre chasse.
 ][
-,(--) ,(bold[V.]). Quel étrange renversement d’idées ! Mais…
+,(strong[V.]) ,(--) Quel étrange renversement d’idées ! Mais…
 ][
-,(--) ,(bold[R.]). Pas de ,(emph[mais]).
+,(strong[R.]) ,(--) Pas de ,(emph[mais]).
 	D’ailleurs, il y a des raisons politiques
 	pour repousser les offres intéressées du perfide étranger.
 ][
-,(--) ,(bold[V.]). Des raisons politiques !
+,(strong[V.]) ,(--) Des raisons politiques !
 ][
-,(--) ,(bold[R.]). ,(XXX)
+,(strong[R.]) ,(--) ,(XXX)
 	Oui. D’abord,
 	il ne nous fait ces offres que parce qu’elles lui sont avantageuses.
 ][
-,(--) ,(bold[V.]). Tant mieux, puisqu’elles nous le sont aussi.
+,(strong[V.]) ,(--) Tant mieux, puisqu’elles nous le sont aussi.
 ][
-,(--) ,(bold[R.]). Ensuite, par ces trocs, nous nous mettrons dans sa dépendance.
+,(strong[R.]) ,(--) Ensuite, par ces trocs, nous nous mettrons dans sa dépendance.
 ][
-,(--) ,(bold[V.]). Et lui dans la nôtre.
+,(strong[V.]) ,(--) Et lui dans la nôtre.
     Nous aurons besoin de son gibier, lui de nos légumes,
     et nous vivrons en bonne amitié.
 ][
-,(--) ,(bold[R.]). Système ! Veux-tu que je te ,(XXX) mette sans parole ?
+,(strong[R.]) ,(--) Système ! Veux-tu que je te ,(XXX) mette sans parole ?
 ][
-,(--) ,(bold[V.]). Voyons ; j’attends encore une bonne raison.
+,(strong[V.]) ,(--) Voyons ; j’attends encore une bonne raison.
 ][
-,(--) ,(bold[R.]). Je suppose que l’étranger apprenne à cultiver un jardin et
+,(strong[R.]) ,(--) Je suppose que l’étranger apprenne à cultiver un jardin et
     que son île soit plus fertile que la nôtre.
     Vois-tu la conséquence ?
 ][
-,(--) ,(bold[V.]). Oui. Nos relations avec l’étranger cesseront.
+,(strong[V.]) ,(--) Oui. Nos relations avec l’étranger cesseront.
     Il ne nous prendra plus de légumes,
     puisqu’il en aura chez lui avec moins de peine.
     Il ne nous apportera plus de gibier,
     puisque nous n’aurons rien à lui donner en échange,
     et nous serons justement alors comme tu veux que nous soyons aujourd’hui.
 ][
-,(--) ,(bold[R.]). Sauvage imprévoyant !
-    Tu ne vois pas qu’après avoir tué notre chasse en nous inondant de gibier.
-    il tuera notre jardinage en nous inondant de légumes.
+,(strong[R.]) ,(--) Sauvage imprévoyant !
+    Tu ne vois pas qu’après avoir tué notre chasse en nous inondant de gibier,
+    il tuera notre jardinage en nous inondant de légumes ?
 ][
-,(--) ,(bold[V.]). Mais ce ne sera jamais qu’autant
+,(strong[V.]) ,(--) Mais ce ne sera jamais qu’autant
 	que nous lui donnerons ,(emph[autre chose]), ,(XXX)
 	c’est-à-dire que nous trouverons ,(emph[autre chose])
 		à produire avec économie de travail pour nous.
 ][
-,(--) ,(bold[R.]). ,(emph[autre chose]), ,(emph[autre chose]) !
+,(strong[R.]) ,(--) ,(emph[Autre chose, autre chose !])
 	Tu en viens toujours là.
-	Tu es dans le vague, ami ,(emph[Vendredi]) ,(pv)
+	Tu es dans le vague, ami ,(emph[Vendredi ;])
 	il n’y a rien de pratique dans tes vues.
 ])
 ][
 	La lutte se prolongea longtemps et laissa chacun,
 	ainsi qu’il arrive souvent, dans sa conviction.
-	Cependant, Robinson ayant sur Vendredi un grand ascendant,
+	Cependant, ,(np "defoe" [Robinson]) ayant sur Vendredi un grand ascendant,
 		son avis prévalut,
-	et quand l’étranger vint chercher la réponse, Robinson lui dit :
+	et quand l’étranger vint chercher la réponse, ,(np "defoe" [Robinson]) lui dit :
 ,(blockquote*
-[,(--) ,(q[Étranger, pour que votre proposition soit acceptée,
-	il faudrait que nous fussions bien sûrs de deux choses :
-	])]
-	(q[La première, que votre île n’est pas plus giboyeuse que la nôtre ;
-	car nous ne voulons lutter qu’,(emph[à armes égales]). ,(XXX)])
-
-	(q[La seconde, que vous perdrez au marché.
+[« ,(--) Étranger, pour que votre proposition soit acceptée,
+	il faudrait que nous fussions bien sûrs de deux choses :]
+	[« La première, que votre île n’est pas plus giboyeuse que la nôtre ;
+	car nous ne voulons lutter qu’,(emph[à armes égales]).]
+[« La seconde, que vous perdrez au marché.
 	Car, comme dans tout échange
 		il y a nécessairement un gagnant et un perdant,
 	nous serions dupes si vous ne l’étiez pas.
-	,(--) Qu’avez-vous à dire ?])
-[
-,(--) ,(q[Rien, dit l’étranger.])
+	,(--) Qu’avez-vous à dire ?]
+[,(q[,(--) Rien, dit l’étranger.])
 	Et ayant éclaté de rire, il regagna sa pirogue.
 ])
 ][
-,(--) Le conte ne serait pas mal, si Robinson n’était pas si absurde.
+,(--) Le conte ne serait pas mal, si ,(np "defoe" [Robinson]) n’était pas si absurde.
 ][
 ,(--) Il ne l’est pas plus que le comité de la rue Hauteville.
 ][
@@ -359,7 +354,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 	comme la gravitation qui pousse un atome est de même nature
 		que celle qui entraîne un monde.
 ][
-,(--) Ainsi, selon vous, ces raisonnements si faux dans la bouche de Robinson
+,(--) Ainsi, selon vous, ces raisonnements si faux dans la bouche de ,(np "defoe" [Robinson])
 	ne le sont pas moins dans la bouche de nos protectionnistes ?
 ][
 ,(--) Non ; seulement l’erreur s’y cache mieux
@@ -369,7 +364,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 ][
 ,(--) Soit ; en France, vu les exigences du climat et des habitudes,
 	le drap est une chose utile.
-	L’essentiel est-il ,(emph[d’en faire]) ou ,(emph[d’en avoir]) ?
+	L’essentiel est-il ,(emph[d’en faire]) ou ,(emph[d’en avoir ?])
 ][
 ,(--) Belle question ! pour en avoir, il faut en faire.
 ][
@@ -415,20 +410,20 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 ][
 ,(--) Je ne sais pas trop.
 ][
-,(--) N’est-ce pas celui qui, ,(emph[pour un travail déterminé]),
-	donne ,(emph[une plus grande quantité de drap]) ?
+,(--) N’est-ce pas celui qui, ,(emph[pour un travail déterminé,
+	donne une plus grande quantité de drap ?])
 ][
 ,(--) Il semble bien.
 ][
 ,(--) Et lequel vaut mieux, pour une nation,
-	d’avoir le choix entre ces deux moyens
+	d’avoir le choix entre ces deux moyens,
 	ou que la loi lui en interdise un,
 	au risque de tomber justement sur le meilleur ?
 ][
 ,(--) Il me paraît qu’il vaut mieux pour elle avoir le choix,
 	d’autant qu’en ces matières elle choisit toujours bien.
 ][
-,(--) La loi, qui prohibe le drap étranger,
+,(--) La loi qui prohibe le drap étranger
 	décide donc que si la France veut avoir du drap,
 	il faut qu’elle le fasse ,(emph[en nature]),
 	et qu’il lui est interdit de faire cette ,(emph[autre chose])
@@ -446,7 +441,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 	quand, pour le même travail, elle en aurait eu deux mètres
 	en faisant l’,(emph[autre chose]).
 ][
-,(--) Mais, pour Dieu ! quelle ,(emph[autre chose]) ?
+,(--) Mais, pour Dieu ! quelle autre chose ?
 ][
 ,(--) Eh ! pour Dieu ! qu’importe ?
 	ayant le choix, elle ne fera ,(emph[autre chose])
@@ -469,21 +464,21 @@ Tiré du ,(cite-title[Libre Échange]), n° du 21 mars 1847.
 ][
 ,(--) Oui, mais sans qu’elle soit moins bien vêtue,
 	petite circonstance qui fait toute la méprise.
-	Robinson la perdait de vue ;
+	,(np "defoe" [Robinson]) la perdait de vue ;
 	nos protectionnistes ne la voient pas ou la dissimulent.
 	La planche naufragée frappait aussi d’inertie, pour quinze jours,
-	le travail de Robinson, en tant qu’appliqué à faire une planche,
+	le travail de ,(np "defoe" [Robinson]), en tant qu’appliqué à faire une planche,
 	mais sans l’en priver.
 	Distinguez donc entre ces deux espèces de diminution de travail,
-	celle qui a pour effet ,(emph[la privation])
-	et celle qui a pour cause ,(emph[la satisfaction]).
+	celle qui a pour effet la ,(emph[privation])
+	et celle qui a pour cause la ,(emph[satisfaction]).
 	Ces deux choses sont fort différentes et,
-	si vous les assimilez, vous raisonnez comme Robinson.
+	si vous les assimilez, vous raisonnez comme ,(np "defoe" [Robinson]).
 	Dans les cas les plus compliqués,
 	comme dans les cas les plus simples,
 	le sophisme consiste en ceci :
 	,(emph[Juger de l’utilité du travail par sa durée et son intensité,
-	et non par ses résultats]) ,(pv)
+	et non par ses résultats ;])
 	ce qui conduit à cette police économique :
 	,(emph[Réduire les résultats du travail
 	dans le but d’en augmenter la durée et l’intensité])

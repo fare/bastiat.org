@@ -12,6 +12,7 @@
 ,(a :href :#e [E])
 ,(a :href :#j [J])
 ,(a :href :#m [M])
+,(a :href :#n [M])
 ,(a :href :#p [P])
 ]))
 
@@ -107,13 +108,23 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*
 [Réponses : ,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])])
 ]
+[Citations :
+,(ref :url "la_main_droite_et_la_main_gauche.html#mi_ref" [La main droite et la main gauche])
+]
 [Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes]) ; ,(ref :url "conseil_inferieur_du_travail.html#mi_ref" [Conseil inférieur du travail]) ;
-,(ref :url "conte_chinois.html#mi_ref" [Conte chinois])
+,(ref :url "conte_chinois.html#mi_ref" [Conte chinois]) ;
+,(ref :url "autre_chose.html#mi_ref" [Autre chose])
 ])])
 
 ,(journal "mu" "Moniteur universel" [
 ,(ref :url "sel_poste_douane.html#mu_ref" [Le sel, la poste, la douane])
 ])
+
+]),(lettre "N" [
+,(journal "national" "Le National" [
+,(ref :url "la_main_droite_et_la_main_gauche.html#national_ref" [La main droite et la main gauche])
+])
+
 
 ])
 
@@ -123,7 +134,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*
 [Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
 ,(ref :url "a_la_presse2.html" [II])]
-[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])
+[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
+,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste])
 ])])
 
 ])

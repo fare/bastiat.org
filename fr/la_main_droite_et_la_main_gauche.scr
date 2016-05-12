@@ -4,23 +4,22 @@
 	- par Frédéric Bastiat")
 (document :title "La main droite et la main gauche"
 	:author (author-FB)
-(subtitle[Chapitre XVI de la seconde série des ,(SophismesEconomiques)
-	,(footnote*[
-Tiré du ,(cite-title[Libre Échange]), n° du 13 décembre 1846.
-,(NdEEO)
-])])
+
 (bastiat[
-,(center(font :size "+1" [(Rapport au roi)]))
-,(p*[
-,(strong[Sire]),
-][
+,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 13 décembre 1846.])
+,(h2[Chapitre XVI de la seconde série des ,(SophismesEconomiques)])
+
+,(center(strong(font :size "+1" [(Rapport au roi.)])))
+
+,(cher[Sire,])
+,(p*[,(tag :a :name "billault_ref")
 Quand on voit ces hommes du ,(cite-title[Libre-Échange])
 répandre audacieusement leur doctrine,
 soutenir que le droit d’acheter et de vendre
 est impliqué dans le droit de propriété
-(insolence que M. Billault a relevée en vrai avocat),
+(insolence que ,(np "billault" [M. Billault]) a relevée en vrai avocat),
 il est permis de concevoir de sérieuses alarmes
-sur le sort du ,(emph[travail national]) ,(pv)
+sur le sort du ,(emph[travail national ;])
 car que feront les Français de leurs bras et de leur intelligence
 quand ils seront libres ?
 ][
@@ -35,16 +34,17 @@ Sire, ne nous faites pas l’injure de penser que nous avons adopté
 légèrement une mesure qui, au premier aspect, peut paraître bizarre.
 L’étude approfondie du ,(emph[régime protecteur])
 nous a révélé ce syllogisme, sur lequel il repose tout entier :
-][
-Plus on travaille, plus on est riche ;
+])
+
+,(liste(p*[Plus on travaille, plus on est riche ;
 ][
 Plus on a de difficultés à vaincre, plus on travaille ;
 ][
-,(emph[Ergo]), plus on a de difficultés à vaincre, plus on est riche.
-][
+,(emph[Ergo]), plus on a de difficultés à vaincre, plus on est riche.]))
+,(p*[
 Qu’est-ce, en effet, que la ,(emph[protection]),
 sinon une application ingénieuse de ce raisonnement en forme,
-et si serré qu’il résisterait à la subtilité de M. Billault lui-même ?
+et si serré qu’il résisterait à la subtilité de ,(np "billault" [M. Billault]) lui-même ?
 ][
 Personnifions le pays.
 Considérons-le comme un être collectif aux trente millions de bouches,
@@ -94,7 +94,7 @@ carrières.
 ][
 Autrefois elles avaient la ressource des bureaux de loterie. Ils ont
 été fermés par une philanthropie impitoyable ; et sous
-quel prétexte ? ,(q[Pour épargner disait-elle, le denier
+quel prétexte ? ,(q[Pour épargner, disait-elle, le denier
 du pauvre.]) Hélas ! Le pauvre a-t-il jamais obtenu, d’une pièce
 de monnaie, des jouissances aussi douces et aussi innocentes que celle que
 renfermait pour lui l’urne mystérieuse de la Fortune ? Sevré
@@ -106,9 +106,9 @@ La mansarde se peuplait d’illusions : la femme se promettait d’éclipser
 ses voisines par l’éclat de sa mise, le fils se voyait tambour-major,
 la fille se sentait entraînée vers l’autel au bras de son
 fiancé.
-][
-C’est quelque chose encor que de faire un beau rêve !
-][
+]),(tag :a :name "collin_ref")
+,(verses[C’est quelque chose encor que de faire un beau rêve ! ,(np "collin" [*])])
+,(p*[
 Oh ! La loterie, c’était la poésie du pauvre, et nous l’avons
 laissée échapper !
 ][
@@ -138,7 +138,7 @@ de froids théoriciens, car les robes seront plus chères et
 les chemises aussi. Autant ils en disent du fer, que la France tire de nos
 mines, comparé à celui qu’elle pourrait ,(emph[vendanger]) sur
 nos coteaux. Cet argument n’est donc pas plus recevable
-contre la ,(emph[gaucherie]) que contre la ,(emph[protection]) ,(pv)
+contre la ,(emph[gaucherie]) que contre la ,(emph[protection ;])
 car cette cherté même est le résultat et le signe
 de l’excédant d’efforts et de travaux
 qui est justement la base sur laquelle, dans un cas comme dans l’autre,
@@ -146,7 +146,7 @@ nous prétendons fonder la prospérité de la classe ouvrière.
 ][
 Oui, nous nous faisons un touchant tableau
 de la prospérité de l’industrie couturière.
-Quel mouvement ! Quelle activité ! Quelle vie !
+Quel mouvement ! quelle activité ! quelle vie !
 Chaque robe occupera cent doigts au lieu de dix.
 Il n’y aura plus une jeune fille oisive,
 et nous n’avons pas besoin, Sire,
@@ -187,8 +187,8 @@ qu’un jour il se formera (tant est grande la perversité humaine !)
 une association pour la liberté des mains droites.
 ][
 Il nous semble déjà entendre les libres-dextéristes
-tenir, à la salle Montesquieu, ce langage
-,(blockquote(q[
+tenir, à la salle Montesquieu, ce langage :])
+,(blockquote*[,(q[
   Peuple, tu te crois plus riche parce qu’on t’a ôté l’usage d’une main ;
   tu ne vois que le surcroît de travail qui t’en revient.
   Mais regarde donc aussi la cherté qui en résulte,
@@ -196,25 +196,25 @@ tenir, à la salle Montesquieu, ce langage
   Cette mesure n’a pas rendu plus abondante
   la source des salaires, le capital.
   Les eaux qui coulent de ce grand réservoir
-  sont dirigée vers d’autres canaux,
+  sont dirigées vers d’autres canaux,
   leur volume n’est pas augmenté,
   et le résultat définitif est, pour la nation en masse,
   une déperdition de bien-être égale
   à tout ce que des millions de mains droites peuvent produire de plus
   qu’un égal nombre de mains gauches.
   Donc, liguons-nous, et, au prix de quelques dérangements inévitables,
-  conquérons le droit de travailler de toutes mains.]))
-][
+  conquérons le droit de travailler de toutes mains.])])
+,(p*[,(tag :a :name "mi_ref")
 Heureusement, Sire, il se formera
 une ,(emph[association pour la défense du travail par la main gauche]),
 et les ,(emph[Sinistristes]) n’auront pas de peine
   à réduire à néant toutes ces généralités et idéalités,
   suppositions et abstractions, rêveries et utopies.
-Ils n’auront qu’à exhumer le ,(cite-title[Moniteur industriel]) de 1846 ;
+Ils n’auront qu’à exhumer le ,(tj "mi" [,(cite-title[Moniteur industriel])]) de 1846 ;
 ils y trouveront, contre la ,(emph[liberté des échanges]),
 des arguments tout faits, qui pulvérisent si merveilleusement
 la ,(emph[liberté de la main droite]),
-qu’il leur suffira de substituer un mot à l’autre.
+qu’il leur suffira de substituer un mot à l’autre.])
 ,(blockquote*[
 ,(q[La ligue parisienne pour la ,(emph[liberté du commerce])
   ne doutait pas du concours des ouvriers.
@@ -224,15 +224,15 @@ qu’il leur suffira de substituer un mot à l’autre.
   La ,(emph[liberté du commerce]), ont-ils répondu,
   nous enlèverait notre travail,
   et le travail c’est notre propriété réelle, grande, souveraine :
-  ,(emph[Avec le travail, avec beaucoup de travail,
+  ,(emph[avec le travail, avec beaucoup de travail,
   le prix des marchandises n’est jamais inaccessible]).
-  Mais sans travail le pain ne coûtât-il qu’un sou la livre,
+  Mais sans travail, le pain ne coûtât-il qu’un sou la livre,
   l’ouvrier est forcé de mourir de faim.
   Or, vos doctrines, au lieu d’augmenter
   la somme actuelle du travail en France, la diminueront,
   c’est-à-dire que vous nous réduirez à la misère.])
   (Numéro du 13 octobre 1846.)
-][
+][,(tag :a :name "gauthier_ref")
   ,(q[Quand il y a trop de marchandises à vendre,
   leur prix s’abaisse à la vérité ;
   mais comme le salaire diminue quand la marchandise perd de sa valeur,
@@ -240,45 +240,44 @@ qu’il leur suffira de substituer un mot à l’autre.
   nous ne pouvons plus rien acheter.
   C’est donc quand la marchandise est à vil prix
   que l’ouvrier est le plus malheureux.])
-  (Gauthier de Rumilly, ,(cite-title[Moniteur industriel]) du 17 novembre.)
+  (,(np "gauthier" [Gauthier de Rumilly]), ,(tj "mi" [,(cite-title[Moniteur industriel])]) du 17 novembre.)
 ])
-][
+,(p*[
 Il ne sera pas mal que les ,(emph[Sinistristes])
 entremêlent quelques menaces dans leurs belles théories.
-En voici le modèle :
-,(blockquote(q[
-  Quoi !
+En voici le modèle :])
+,(blockquote*[
+  « Quoi !
   Vouloir substituer le travail de la main droite à celui de la main gauche
   et amener ainsi l’abaissement forcé, sinon l’anéantissement du salaire,
-  seule ressource de presque toute la nation !
-  Et cela au moment où des récoltes incomplètes
+  seule ressource de presque toute la nation !]
+  [« Et cela au moment où des récoltes incomplètes
   imposent déjà de pénibles sacrifices à l’ouvrier,
   l’inquiètent sur son avenir,
   le rendent plus accessible aux mauvais conseils
-  et prêt à sortir de cette conduite si sage qu’il a tenue jusqu’ici !]))
-][
+  et prêt à sortir de cette conduite si sage qu’il a tenue jusqu’ici ! »])
+,(p*[
 Nous avons la confiance, Sire, que, grâce à des raisonnements si savants,
-si la lutte s’engage, la main gauche en sorte victorieuse.
+si la lutte s’engage, la main gauche en sortira victorieuse.
 ][
-Peut-être se formera-t-il aussi une association,
-dans le but de recherche si la main droite et la main gauche
+Peut-être se formera-t-il aussi une association
+dans le but de rechercher si la main droite et la main gauche
 n’ont pas tort toutes deux,
 et s’il n’y a point entre elles une troisième main, afin de tout concilier.
-][
-Après avoir peint les ,(emph[Sinistristes])
+][,(tag :a :name "national_ref")
+Après avoir peint les ,(emph[Dextéristes])
 comme séduits par la ,(emph[libéralité apparente
 d’un principe dont l’expérience n’a pas encore vérifié l’exactitude]),
-et les ,(emph[Dextéristes]) comme se cantonnant dans les positions acquises :
-,(blockquote[,(q[Et l’on nie, dira-t-elle,
-  qu’il y ait un troisième parti à prendre au milieu du conflit !
-  Et l’on ne voit pas que les ouvriers ont à se défendre
+et les ,(emph[Sinistristes]) comme se cantonnant dans les positions acquises :])
+,(blockquote*[,(q[Et l’on nie, dira-t-elle,
+  qu’il y ait un troisième parti à prendre au milieu du conflit ?
+  et l’on ne voit pas que les ouvriers ont à se défendre
   à la fois et contre ceux qui ne veulent rien changer
   à la situation actuelle, parce qu’ils y trouvent avantage,
   et contre ceux qui rêvent un bouleversement économique
-  dont ils n’ont calculé ni l’étendue ni la portée])
-  (,(cite-title[National]) du 18 octobre.)])
-][
-Nous ne voulons pourtant pas dissimuler à Votre Majesté, Sire,
+  dont ils n’ont calculé ni l’étendue ni la portée ?])
+  (,(tj "national" [,(cite-title[National])]) du 16 octobre.)])
+,(p*[Nous ne voulons pourtant pas dissimuler à Votre Majesté, Sire,
 que notre projet a un côté vulnérable.
 On pourra nous dire :
 Dans vingt ans, toutes les mains gauches seront aussi habiles

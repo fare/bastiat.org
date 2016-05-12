@@ -7,22 +7,34 @@
 	(p (center(small description)))
 	(apply* p* para)))
 	    
-
 (document :title "La protection ou les trois échevins."
 	:author (author-FB)
-(subtitle[Chapitre XIII de la seconde série des ,(SophismesEconomiques)])
-(bastiat[
-,(center(font :size "+2" [Démonstration en quatre tableaux.]))
+(defun 
+	titre_tableau
+	(&rest r)
+	(p(center(sc r)))
+)
 
-,(tableau [Premier tableau.]
-[(La scène se passe dans l’hôtel de l’échevin Pierre.
+(defun 
+	stitre_tableau
+	(&rest r)
+	(p(center(font :size "-0.5" r)))
+)
+
+(bastiat[
+,(h2[Chapitre XIII de la seconde série des ,(SophismesEconomiques)])
+
+,(center(bold(font :size "+1" [Démonstration en quatre tableaux.])))
+
+,(titre_tableau[Premier tableau.])
+,(stitre_tableau[(La scène se passe dans l’hôtel de l’échevin Pierre.
 La fenêtre donne sur un beau parc ;
-trois personnages sont attablés près d’un bon feu.)]
-[
-,(bold[Pierre]).
+trois personnages sont attablés près d’un bon feu.)])
+,(p*[,(tag :a :name "beranger_ref")
+,(strong[Pierre]).
 Ma foi ! vive le feu quand Gaster est satisfait.
 Il faut convenir que c’est une douce chose. Mais, hélas !
-que de braves gens, comme le ,(cite-title[Roi d’Yvetot]),
+que de braves gens, comme le ,(np "beranger" [,(cite-title[Roi d’Yvetot])]),
 	,(verses
 		[Soufflent, faute de bois,]
 		[Dans leurs doigts.])
@@ -30,40 +42,40 @@ Malheureuses créatures ! le ciel m’inspire une pensée charitable.
 Vous voyez ces beaux arbres, je les veux abattre et distribuer
 le bois aux pauvres.
 ][
-,(bold[Paul et Jean]).
+,(strong[Paul et Jean]).
 	Quoi ! gratis ?
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Pas précisément.
 C’en serait bientôt fait de mes bonnes ,(oe)uvres,
 si je dissipais ainsi mon bien.
 J’estime que mon parc vaut vingt mille livres ;
 en l’abattant j’en tirerai bien davantage.
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Erreur. Votre bois sur pied a plus de valeur que celui des forêts voisines,
 car il rend des services que celui-ci ne peut pas rendre.
 Abattu, il ne sera bon, comme l’autre, qu’au chauffage,
 et ne vaudra pas un denier de plus la voie.
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Oh ! oh ! Monsieur le théoricien,
 vous oubliez que je suis, moi, un homme de pratique.
 Je croyais ma réputation de spéculateur assez bien établie,
 	pour me mettre à l’abri d’être taxé de niaiserie.
 Pensez-vous que je vais m’amuser à vendre mon bois au prix du bois flotté ?
 ][
-,(bold[Paul]). Il le faudra bien.
+,(strong[Paul]). Il le faudra bien.
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Innocent !
 Et si j’empêche le bois flotté d’arriver à Paris ?
 ][
-,(bold[Paul]). Ceci changerait la question. Mais comment vous y prendrez-vous ?
+,(strong[Paul]). Ceci changerait la question. Mais comment vous y prendrez-vous ?
 ][
-,(bold[Pierre]). Voici tout le secret.
-Vous savez que le bois flotté paie à l’entrée dix sur la voie.
-Demain je décide que les Échevins à porter le droit à 100, 200, 300 livres,
+,(strong[Pierre]). Voici tout le secret.
+Vous savez que le bois flotté paie à l’entrée dix sous la voie.
+Demain je décide les Échevins à porter le droit à 100, 200, 300 livres,
 enfin, assez haut pour qu’il n’entre pas de quoi faire une bûche.
 ,(--) Eh ! saisissez-vous ? ,(--)
 Si le bon peuple ne veut pas crever de froid,
@@ -71,19 +83,19 @@ il faudra bien qu’il vienne à mon chantier.
 On se battra pour avoir mon bois, je le vendrai au poids de l’or,
 et cette charité bien ordonnée me mettra à même d’en faire d’autres.
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Morbleu ! la belle invention ! elle m’en suggère une autre de même force.
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 Voyons, qu’est-ce ? La philanthropie est-elle aussi en jeu ?
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Comment avez-vous trouvé ce beurre de Normandie ?
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 Excellent.
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Eh ! eh ! il me paraissait passable tout à l’heure.
 Mais ne trouvez-vous pas qu’il prend à la gorge ?
 J’en veux faire de meilleurs à Paris.
@@ -91,104 +103,104 @@ J’en veux faire de meilleurs à Paris.
 	je ferai au pauvre peuple une distribution
 	de lait, de beurre et de fromage.
 ][
-,(bold[Pierre et Paul]).
+,(strong[Pierre et Paul]).
 Quoi ! charitablement ?
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Bah ! mettons toujours la charité en avant.
 C’est une si belle figure
 que son masque même est un excellent passe-port.
 Je donnerai mon beurre au peuple, le peuple me donnera son argent.
 Est-ce que cela s’appelle vendre ?
-][
-,(bold[Jean]).
-Non, selon le ,(cite-title[Bourgeois gentilhomme]) ,(pv)
+][,(tag :a :name "moliere_ref")
+,(strong[Jean]).
+Non, selon le ,(cite-title[,(np "moliere" [Bourgeois Gentilhomme]) ;])
 mais appelez-le comme il vous plaira,
 vous vous ruinerez.
 Est-ce que Paris peut lutter
 		avec la Normandie pour l’élève des vaches ?
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 J’aurai pour moi l’économie du transport.
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 Soit. Mais encore,
 en payant le transport,
 les Normands sont à même de ,(emph[battre]) les Parisiens.
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Appelez-vous ,(emph[battre]) quelqu’un,
 lui livrer les choses à bas prix ?
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 C’est le mot consacré.
 Toujours est-il que vous serez battu, vous.
-][
-,(bold[Paul]).
-Oui, comme Don Quichotte.
+][,(tag :a :name "cervantes_ref")
+,(strong[Paul]).
+Oui, comme ,(np "cervantes" [Don Quichotte]).
 Les coups retomberont sur Sancho.
 Jean, mon ami, vous oubliez l’,(emph[octroi]).
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 L’octroi ! qu’a-t-il à démêler avec votre beurre ?
 ][
-,(bold[Paul]).
-Dès demain, je réclame ,(emph[protection]) ,(pv)
+,(strong[Paul]).
+Dès demain, je réclame ,(emph[protection ;])
 je décide la commune à prohiber le beurre de Normandie et de Bretagne.
 Il faudra bien que le peuple s’en passe, ou qu’il achète le mien,
 et à mon prix encore.
-][
-,(bold[Jean]).
-Par la sambleu, Messieurs, votre philanthropie m’entraîne.
-,(blockquote[
-	On apprend à hurler, dit l’autre, avec les loups.
+][,(tag :a :name "racine_ref")
+,(strong[Jean]).
+Par la sambleu, Messieurs, votre philanthropie m’entraîne.])
+,(verses[
+	On apprend à hurler, dit l’autre, avec les loups. ,(np "racine" [*])
 ])
-Mon parti est pris.
+,(p*[Mon parti est pris.
 Il ne sera pas dit que je suis Échevin indigne.
 Pierre, ce feu pétillant a enflammé votre âme ;
 Paul, ce beurre a donné du jeu aux ressorts de votre esprit ;
 eh bien ! je sens aussi que cette pièce de salaison stimule mon intelligence.
 Demain, je vote et fais voter l’exclusion des porcs, morts ou vifs ;
-cela fait, je construis de superbes loges en plein Paris,
-,(blockquote[
-	Pour l’animal immonde aux Hébreux défendu.
+cela fait, je construis de superbes loges en plein Paris,])
+,(verses[
+	Pour l’animal immonde aux Hébreux défendu. ,(np "chenier_mj" [*])
 ])
-Je me fais porcher et charcutier.
+,(p*[Je me fais porcher et charcutier.
 Voyons comment le bon peuple lutécien évitera
 	de venir s’approvisionner à ma boutique.
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Eh, Messieurs, doucement,
 si vous renchérissez ainsi le beurre et le salé,
 vous rognez d’avance le profit que j’attendais de mon bois.
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 Dame ! ma spéculation n’est plus aussi merveilleuse,
 si vous me rançonnez avec vos bûches et vos jambons.
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 Et moi, que gagnerai-je à vous faire surpayer mes saucisses,
 si vous me faites surpayer les tartines et les falourdes ?
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Eh bien ! voilà-t-il que nous allons nous quereller ?
 Unissons-nous plutôt.
 Faisons-nous des concessions réciproques.
 D’ailleurs, il n’est pas bon de n’écouter que le vil intérêt ;
 l’humanité est là, ne faut-il pas assurer le chauffage du peuple ?
 ][
-,(bold[Paul]).
+,(strong[Paul]).
 C’est juste.
 Et il faut que le peuple ait du beurre à étendre sur son pain.
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 Sans doute. Et il faut qu’il puisse mettre du lard dans son pot-au-feu.
 ][
-,(bold[Ensemble]).
+,(strong[Ensemble]).
 En avant la charité ! vive la philanthropie !
 à demain ! à demain ! nous prenons l’octroi d’assaut.
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 Ah ! j’oubliais. Encore un mot : c’est essentiel.
 Mes amis, dans ce siècle d’égoïsme, le monde est méfiant ;
 et les intentions les plus pures sont souvent mal interprétées.
@@ -196,13 +208,13 @@ Paul, plaidez pour le bois ; Jean, défendez le beurre,
 	et moi je me voue au cochon ,(emph[local]).
 Il est bon de prévenir les soupçons malveillants.
 ][
-,(bold[Paul et Jean (en sortant)]).
+,(strong[Paul et Jean]) ,(emph[(en sortant)]).
 Par ma foi ! voilà un habile homme !
 ])
-,(tableau [Deuxième tableau.]
-[Conseil des échevins.]
-[
-,(bold[Paul]).
+,(nbsp)
+,(titre_tableau[Deuxième tableau.])
+,(stitre_tableau[Conseil des échevins.])
+,(p*[,(strong[Paul]).
 Mes chers collègues,
 il entre tous les jours des masses de bois à Paris,
 	ce qui en fait sortir des masses de numéraire.
@@ -210,10 +222,10 @@ De ce train, nous sommes tous ruinés en trois ans,
 	et que deviendra le pauvre peuple ?
 ,(emph[(Bravo !)])
 Prohibons le bois étranger.
-,(--) ce n’est pas pour moi que je parle,
+,(--) Ce n’est pas pour moi que je parle,
 	car, de tout le bois que je possède, on ne ferait pas un cure-dents.
 	Je suis donc parfaitement désintéressé dans la question.
-,(emph[(Bien ; bien !)])
+,(emph[(Bien, bien !)])
 Mais voici Pierre qui a un parc,
 	il assurera le chauffage à nos concitoyens,
 		qui ne seront plus sous la dépendance
@@ -226,15 +238,14 @@ Par là nous préviendrons l’épuisement de notre numéraire,
 	nous créerons l’industrie bûcheronne,
 	et nous ouvrirons à nos ouvriers
 		une nouvelle source de travail et de salaires.
-,(emph[(Applaudissements !)])
+,(emph[(Applaudissements.)])
 ][
-,(bold[Jean]).
+,(strong[Jean]).
 J’appuie la proposition si philanthropique,
-et surtout, si désintéressée, ainsi qu’il le disait lui-même,
+et surtout si désintéressée, ainsi qu’il le disait lui-même,
 	de l’honorable préopinant.
-Il est temps que nous arrêtions cet insolent ,(emph[laissez-passer]),
+Il est temps que nous arrêtions cet insolent ,(emph[laissez passer]),
 qui a amené sur notre marché une concurrence effrénée,
-	,(XXX [ : édition originale : éffrénée ])
 	en sorte qu’il n’est pas une province un peu bien située,
 		pour quelque production que ce soit,
 		qui ne vienne nous ,(emph[inonder]),
@@ -242,7 +253,7 @@ qui a amené sur notre marché une concurrence effrénée,
 		et détruire le travail parisien.
 C’est à l’État
 	à niveler les conditions de production
-		par les droits sagement pondérés,
+		par des droits sagement pondérés,
 	à ne laisser entrer du dehors que ce qui y est plus cher qu’à Paris,
 	et à nous soustraire ainsi à une lutte inégale.
 Comment, par exemple, veut-on
@@ -266,8 +277,8 @@ Le déjeuner du peuple en sera un peu plus cher,
 	Je suis mû par le seul désir d’être utile aux classes laborieuses.
 ,(emph[(Mouvement d’adhésion.)])
 ][
-,(bold[Pierre]).
-	Je suis heureux de voir dans cette assemblée des hommes d’États
+,(strong[Pierre]).
+	Je suis heureux de voir dans cette assemblée des hommes d’État
 	aussi purs, aussi éclairés, aussi dévoués aux intérêts du peuple.
 	,(emph[(Bravos.)])
 	J’admire leur abnégation,
@@ -279,21 +290,17 @@ Le déjeuner du peuple en sera un peu plus cher,
 	Mais n’est-il pas honteux, Messieurs,
 	que nous soyons ,(emph[tributaires]) de ces paysans poitevins,
 	qui ont l’audace de venir, jusque sur notre propre marché,
-	s’emparer d’un travail que nous pourrions faire nous-même ?
+	s’emparer d’un travail que nous pourrions faire nous-mêmes ?
 	qui, après nous avoir inondés de saucisses et de jambons,
 	ne nous prennent peut-être rien en retour ?
 	En tout cas,
 	qui nous dit que la balance du commerce n’est pas en leur faveur
 	et que nous ne sommes pas obligés de leur payer un solde en argent ?
-	N’est-il pas clair que,
+	,(tag :a :name "lestiboudois_ref")N’est-il pas clair que,
 	si l’industrie poitevine s’implantait à Paris,
 	elle ouvrirait des débouchés assurés au travail parisien ?
 ,(--) Et puis, Messieurs, n’est-il pas fort possible,
-	comme le disait si bien M. Lestiboudois
-	,(footnote*[
-	Voir ,(bof-ref "balance_commerce_sophisme"
-	[chapitre VI de la ,(Iere) série des ,(cite-title[Sophismes])]).
-	,(NdEEO).]),
+	,(ref :url "balance_du_commerce_sophisme.html#lestiboudois_ref" [comme le disait]) si bien ,(np "lestiboudois" [M. Lestiboudois]),
 	que nous achetions le salé poitevin,
 	non pas avec nos revenus, mais avec nos capitaux ?
 	Où cela nous mènerait-il ?
@@ -309,47 +316,48 @@ Le déjeuner du peuple en sera un peu plus cher,
 	à ceux des masses comme tout bon échevin doit faire.
 	,(emph[(Tonnerres d’applaudissements.)])
 ][
-,(bold[Une Voix]).
+,(strong[Une Voix]).
 	J’entends qu’on parle beaucoup du pauvre peuple,
 	mais, sous prétexte de lui donner du travail,
 	on commence par lui enlever ce qui vaut mieux que le travail même,
 	le bois, le beurre et la soupe.
 ][
-,(bold[Pierre, Paul et Jean]).
+,(strong[Pierre, Paul et Jean]).
 	Aux voix ! Aux voix !
 	à bas les utopistes, les théoriciens, les généralisateurs.
 	Aux voix ! aux voix !
 	,(emph[(Les trois propositions sont admises.)])
 ])
-,(tableau [Troisième tableau]
-[Vingt ans après]
-[
-,(bold[Le Fils]).
+,(nbsp)
+,(titre_tableau [Troisième tableau])
+,(stitre_tableau[Vingt ans après.])
+,(p*[
+,(strong[Le Fils]).
 Père, décidez-vous, il faut quitter Paris.
 On n’y peut plus vivre.
 L’ouvrage manque et tout y est cher.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 Mon enfant, tu ne sais pas ce qu’il en coûte
-d’abandonner le lieu qui nous a vus naître.
+d’abandonner le lieu qui nous a vu naître.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 Le pire de tout est d’y périr de misère.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 Va, mon fils, cherche une terre plus hospitalière.
 Pour moi je ne m’éloignerai pas de cette fosse,
 	où sont descendus ta mère, tes frères et tes s,(oe)urs.
 Il me tarde d’y trouver enfin, auprès d’eux,
 	le repos qui m’a été refusé dans cette ville de désolation.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 Du courage, bon père, nous trouverons du travail à l’étranger,
 	en Poitou, en Normandie, en Bretagne.
 On dit que toute l’industrie de Paris
 	se transporte peu à peu dans ces contrées lointaines.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 C’est bien naturel.
 Ne pouvant plus vendre du bois et des aliments,
 	elles ont cessé d’en produire au delà de leurs besoins ;
@@ -357,7 +365,7 @@ Ne pouvant plus vendre du bois et des aliments,
 	elles les consacrent à faire elles-mêmes
 		ce que nous leur fournissions autrefois.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	De même qu’à Paris on cesse de faire de beaux meubles et
 	de beaux vêtements, pour planter des arbres,
 	élever des porcs et des vaches.
@@ -366,7 +374,7 @@ Ne pouvant plus vendre du bois et des aliments,
 	des quais animés sur ces bords de la Seine,
 	envahis maintenant par des prés et des taillis.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Pendant que la province se couvre de villes,
 	Paris se fait campagne.
 	Quelle affreuse révolution !
@@ -374,10 +382,10 @@ Ne pouvant plus vendre du bois et des aliments,
 	aidés de l’ignorance publique,
 	pour attirer sur nous cette terrible calamité.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Contez-moi cette histoire, mon père.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Elle est bien simple.
 	Sous prétexte d’implanter à Paris trois industries nouvelles et
 	de donner ainsi de l’aliment au travail des ouvriers,
@@ -393,49 +401,49 @@ Ne pouvant plus vendre du bois et des aliments,
 	aucuns débouchés.
 	La misère, la mort, l’émigration commencèrent à dépeupler Paris.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Et quand cela s’arrêtera-t-il ?
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Quand Paris sera devenue une forêt et une prairie.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Les trois Échevins doivent avoir fait une grande fortune ?
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	D’abord, ils réalisèrent d’énormes profits ;
 	mais à la longue ils ont été enveloppés dans la misère commune.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Comment cela est-il possible ?
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Tu vois cette ruine,
 	c’était un magnifique hôtel entouré d’un beau parc.
 	Si Paris eût continué à progresser,
 	maître Pierre en tirerait plus de rentes qu’il ne vaut
 	aujourd’hui en capital.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Comment cela se peut-il, puisqu’il s’est débarrassé de la concurrence ?
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	La concurrence pour vendre a disparu,
 	mais la concurrence pour acheter disparaît aussi tous les jours et
 	continuera de disparaître,
 	jusqu’à ce que Paris soit rase campagne et
-	que le taillis de maître Pierre n’ait plus de valeur
+	que le taillis de maître Pierre n’ait pas plus de valeur
 	qu’une égale superficie de taillis dans la forêt de Bondy.
 	C’est ainsi que le monopole, comme toute injustice,
 	porte en lui-même son propre châtiment.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Cela ne me semble pas bien clair, mais ce qui est incontestable,
 	c’est la décadence de Paris.
 	N’y a-t-il donc aucun moyen de renverser cette mesure unique
 	que Pierre et ses collègues firent adopter il y vingt ans ?
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Je vais te confier mon secret.
 	Je reste à Paris pour cela ;
 	j’appellerai le peuple à mon aide.
@@ -443,10 +451,10 @@ Ne pouvant plus vendre du bois et des aliments,
 	de le dégager de ce funeste principe qui s’est enté dessus et
 	y a végété comme un fungus parasite.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Vous devez réussir dès le premier jour.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Oh ! l’,(oe)uvre est au contraire difficile et laborieuse.
 	Pierre, Paul et Jean s’entendent à merveille.
 	Ils sont prêts à tout plutôt que laisser entrer le bois,
@@ -457,12 +465,12 @@ Ne pouvant plus vendre du bois et des aliments,
 	qui sait à combien de bûcherons
 	et de vachers elles donnent de l’emploi,
 	mais qui ne peut avoir une idée aussi précise du travail
-	qui se développerait, au grand air de la liberté.
+	qui se développerait au grand air de la liberté.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Si ce n’est que cela, vous l’éclairerez.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Enfant, à ton âge on ne doute de rien.
 	Si j’écris, le peuple ne lira pas ;
 	car, pour soutenir sa malheureuse existence,
@@ -477,34 +485,35 @@ Ne pouvant plus vendre du bois et des aliments,
 	de l’audacieux qui osera s’élever contre une iniquité
 	si enracinée dans le pays.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Vous aurez pour vous la justice et la vérité.
 ][
-,(bold[Le Père]).
+,(strong[Le Père]).
 	Et ils auront pour eux la force et la calomnie.
 	Encore, si j’étais jeune !
 	mais l’âge et la souffrance ont épuisé mes forces.
 ][
-,(bold[Le Fils]).
+,(strong[Le Fils]).
 	Eh bien, père, ce qui vous en reste,
 	consacrez-le au service de la patrie.
 	Commencez cette ,(oe)uvre d’affranchissement et
 	laissez-moi pour héritage le soin de l’achever.
 ])
-,(tableau [Quatrième tableau]
-[L’agitation.]
-[
-,(bold[Jacques Bonhomme]).
-	Parisiens, demandons la réforme de ,(emph[l’octroi]) ,(pv)
+,(nbsp)
+,(titre_tableau [Quatrième tableau])
+,(stitre_tableau[L’agitation.])
+,(p*[
+,(strong[Jacques Bonhomme]).
+	Parisiens, demandons la réforme de ,(emph[l’octroi ;])
 	qu’il soit rendu à sa première destination.
 	Que tout citoyen soit ,(strong[libre]) d’acheter du bois,
 	du beurre et de la viande où bon lui semble.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive la ,(strong[liberté]) !
 ][
-,(bold[Pierre]).
-	Parisiens, ne vous laissez pas séduire à ce mot ;
+,(strong[Pierre]).
+	Parisiens, ne vous laissez pas séduire à ce mot.
 	Que vous importe la liberté d’acheter,
 	si vous n’en avez pas les moyens ?
 	et comment en aurez-vous les moyens,
@@ -512,15 +521,15 @@ Ne pouvant plus vendre du bois et des aliments,
 	Paris peut-il produire du bois
 	à aussi bon marché que la forêt de Bondy ?
 	de la viande à aussi bas prix que le Poitou ?
-	du beurre d’aussi bonnes conditions que la Normandie ?
+	du beurre à d’aussi bonnes conditions que la Normandie ?
 	si vous ouvrez la porte à deux battants à ces produits rivaux,
 	que deviendront les vachers, les bûcherons et les charcutiers ?
 	Ils ne peuvent se passer de protection.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive la ,(strong[protection]) !
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	La protection ! mais vous protège-t-on, vous, ouvriers ?
 	ne vous faites-vous pas concurrence les uns aux autres ?
 	que les marchands de bois souffrent
@@ -529,35 +538,35 @@ Ne pouvant plus vendre du bois et des aliments,
 	à moins qu’il n’élèvent aussi, par la loi, le taux des salaires.
 	N’êtes-vous plus ce peuple amant de l’égalité ?
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive l’,(strong[égalité]) !
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 	N’écoutez pas ce factieux.
 	Nous avons élevé le prix du bois, de la viande et du beurre,
 	c’est vrai,
 	mais c’est pour pouvoir donner de bons salaires aux ouvriers.
 	Nous sommes mus par la charité.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive la ,(strong[charité]) !
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	Faites servir l’octroi, si vous pouvez, à hausser les salaires,
 	ou ne le faites pas servir à renchérir les produits.
 	Les Parisiens ne demandent pas la charité, mais la justice.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive la ,(strong[justice]) !
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 	C’est précisément la cherté des produits
 	qui amènera la cherté des salaires.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive la ,(strong[cherté]) !
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	Si le beurre est cher,
 	ce n’est pas parce que vous payez chèrement les ouvriers ;
 	ce n’est pas même que vous fassiez de grands profits,
@@ -567,13 +576,13 @@ Ne pouvant plus vendre du bois et des aliments,
 	et à la campagne ce qui se faisait à la ville.
 	Le peuple n’a pas plus de travail,
 	seulement il travaille à autre chose.
-	Il n’a plus de salaires,
+	Il n’a pas plus de salaires,
 	seulement il n’achète plus les choses à aussi bon marché.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive le ,(strong[bon marché]) !
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 	Cet homme vous séduit par ses belles phrases.
 	Posons la question dans toute sa simplicité.
 	N’est-il pas vrai que si nous admettons le beurre,
@@ -585,50 +594,50 @@ Ne pouvant plus vendre du bois et des aliments,
 	et pour maintenir le prix des choses,
 	que d’en occasionner artificiellement la rareté.
 ][
-,(bold[Quelques Voix Fort Rares]).
+,(strong[Quelques Voix Fort Rares]).
 	Vive, vive la ,(strong[rareté]) !
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	Posons la question dans toute sa vérité.
 	Entre tous les Parisiens,
 	on ne peut partager que ce qu’il y a dans Paris ;
 	s’il y a moins de bois, de viande, de beurre,
 	la part de chacun sera plus petite.
-	Or il y en aura moins,
-	si nous les repoussons que si nous les laissons entrer.
+	Or il y en aura moins
+	si nous les repoussons, que si nous les laissons entrer.
 	Parisiens, il ne peut y avoir abondance pour chacun,
 	qu’autant qu’il y a abondance générale.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Vive, vive l’,(strong[abondance]) !
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 	Cet homme a beau dire,
 	il ne vous prouvera pas
 	que vous soyez intéressés à subir une concurrence effrénée.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	À bas, à bas la ,(strong[concurrence]) !
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	Cet homme a beau déclamer,
-	il ne vous fera pas goûter à la restriction.
+	il ne vous fera pas goûter les douceurs de la restriction.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	À bas, à bas la ,(strong[restriction]) !
 ][
-,(bold[Pierre]).
+,(strong[Pierre]).
 	Et moi je déclare que si l’on prive les pauvres vachers
 	et les porchers de leur gagne-pain,
 	si on les sacrifie à des théories,
 	je ne réponds plus de l’ordre public.
-	ouvriers, méfiez-vous de cet homme.
+	Ouvriers, méfiez-vous de cet homme.
 	C’est agent de la perfide Normandie,
 	il va chercher ses inspirations à l’étranger.
 	C’est un traître, il faut le pendre.
-	,(emph[(le peuple garde le silence.)])
+	,(emph[(Le peuple garde le silence.)])
 ][
-,(bold[Jacques]).
+,(strong[Jacques]).
 	Parisiens, tout ce que je dis aujourd’hui,
 	je le disais il y a vingt ans,
 	lorsque Pierre s’avisa d’exploiter l’octroi à son profit
@@ -640,7 +649,7 @@ Ne pouvant plus vendre du bois et des aliments,
 	mais la liberté si elle vous fait peur,
 	ou la restriction si elle vous fait mal.
 ][
-,(bold[Le Peuple]).
+,(strong[Le Peuple]).
 	Ne pendons personne et affranchissons tout le monde.
 
 

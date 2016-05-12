@@ -3,12 +3,10 @@
 (in-bof :title "Le petit arsenal du libre-échangiste - par Frédéric Bastiat")
 (document :title "Le petit arsenal du libre-échangiste"
 	:author (author-FB)
-(subtitle[Chapitre XV de la seconde série des ,(SophismesEconomiques)
-	,(footnote*[
-Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
-,(NdEEO)
-])])
+
 (bastiat[
+,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 26 avril 1847.])
+,(h2[Chapitre XV de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 
 ,(--) Si l’on vous dit :
@@ -225,18 +223,18 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	][
 	Répondez :
 	Laissez-la entrer.
-][
-,(--) Si l’on vous dit, comme la ,(cite-title[Presse]) :
+][,(tag :a :name "presse_ref")
+,(--) Si l’on vous dit, comme la ,(cite-title[,(tj "presse" [Presse]) :])
 	Quand on n’a pas de quoi acheter du pain,
 	il faut acheter du b,(oe)uf.
 	][
 	Répondez :
-	Conseil aussi judicieux que celui de M. Vautour à son locataire :
+	Conseil aussi judicieux que celui de ,(np "desaugiers" [M. Vautour]) à son locataire :
 	,(verses
 	[Quand on n’a pas de quoi payer son terme,]
 	[Il faut avoir une maison à soi.])
 ][
-,(--) Si l’on vous dit, comme la ,(cite-title[Presse]) :
+,(--) Si l’on vous dit, comme la ,(cite-title[,(tj "presse" [Presse]) :])
 	L’État doit enseigner au peuple
 	pourquoi et comment il faut manger du b,(oe)uf.
 	][
@@ -245,7 +243,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	et quant à le manger,
 	le peuple le plus civilisé du monde est assez grand garçon
 	pour l’apprendre sans maître.
-][
+][,(tag :a :name "archimede_ref")
 ,(--) Si l’on vous dit :
 	L’État doit tout savoir et tout prévoir pour diriger le peuple,
 	et le peuple n’a qu’à se laisser diriger.
@@ -253,7 +251,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	Répondez :
 	Y a-t-il un État en dehors du peuple
 	et une prévoyance humaine en dehors de l’humanité ?
-	Archimède aurait pu répéter tous les jours de sa vie :
+	,(np "archimede" [Archimède]) aurait pu répéter tous les jours de sa vie :
 	Avec un levier et un point d’appui, je remuerai le monde,
 	qu’il ne l’aurait pas pour cela remué,
 	faute de point d’appui et de levier.
@@ -273,7 +271,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	][
 	Répondez :
 	Mille pardons, mais moi aussi je paie des taxes.
-	Si donc la protection, que vous vous votez à vous-même,
+	Si donc la protection que vous vous votez à vous-même
 	a cet effet de grever pour moi votre blé
 	tout juste de votre quote-part aux taxes,
 	votre doucereuse demande ne tend à rien moins qu’à établir entre nous
@@ -283,7 +281,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	et toi, mon voisin l’acheteur, tu paieras deux parts,
 	savoir : la tienne et la mienne.])
 	Marchand de blé, mon voisin, tu peux avoir pour toi la force ;
-	mais à coup sûr, tu n’as pas pour toi la raison.
+	mais, à coup sûr, tu n’as pas pour toi la raison.
 ][
 ,(--) Si l’on vous dit :
 	Il est pourtant bien dur pour moi,
@@ -317,11 +315,11 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	Imaginez un système qui la rejette sur l’étranger.
 	Mais le tarif fait retomber votre quote-part sur moi,
 	qui ai déjà bien assez de la mienne.
-][
+][,(tag :a :name "thiers_ref")
 ,(--) Si l’on vous dit :
 	Chez les Russes, la liberté du commerce est nécessaire
 	,(emph[pour échanger leurs produits avec avantage]).
-	(Opinion de M. Thiers dans les bureaux, avril 1847.)
+	(Opinion de ,(np "thiers" [M. Thiers]) dans les bureaux, avril 1847.)
 	][
 	Répondez :
 	La liberté est nécessaire partout et par le même motif.
@@ -329,7 +327,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 ,(--) Si l’on vous dit :
 	Chaque pays a ses besoins.
 	C’est d’après cela qu’,(emph[il faut agir]).
-	(M. Thiers.)
+	(,(np "thiers" [M. Thiers]).)
 	][
 	Répondez :
 	C’est d’après cela qu’,(emph[il agit de lui-même])
@@ -338,7 +336,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 ,(--) Si l’on vous dit :
 	Puisque nous n’avons pas de tôles,
 	il faut en permettre l’introduction.
-	(M. Thiers.)
+	(,(np "thiers" [M. Thiers]).)
 	][
 	Répondez :
 	Grand merci.
@@ -347,7 +345,7 @@ Tiré du ,(cite-title[Libre Échange]), n° du 26 avril 1847.
 	Il faut du fret à la marine marchande.
 	Le défaut de chargement au retour fait que notre marine
 	ne peut lutter contre la marine étrangère.
-	(M. Thiers.)
+	(,(np "thiers" [M. Thiers]).)
 	][
 	Répondez :
 	Quand on veut tout faire chez soi,
