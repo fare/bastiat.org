@@ -5,18 +5,13 @@
 (document :title "Justice et fraternité"
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(small[
-Article inséré au n° du 15 juin 1848 du ,(cite-title[Journal des Économistes]).
-])
-][
-
-L’École économiste est en opposition, sur une foule de points,
-avec les nombreuses Écoles socialistes, qui se disent plus ,(emph[avancées]),
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 juin 1848.])
+,(p*[L’École économiste est en opposition sur une foule de points
+avec les nombreuses Écoles socialistes qui se disent plus ,(emph[avancées]),
 et qui sont, j’en conviens volontiers, plus actives et plus populaires.
 Nous avons pour adversaires (je ne veux pas dire pour détracteurs)
-les communistes, les fouriéristes, les owénistes,
-,(XXX) Cabet, L. Blanc, Proudhon, P. Leroux et bien d’autres.
+les communistes, les ,(np "fourier" [fouriéristes]), les ,(np "owen" [owénistes]),
+,(np "cabet" [Cabet]), ,(np "blanc" [L. Blanc]), ,(np "proudhon" [Proudhon]), ,(np "leroux" [P. Leroux]) et bien d’autres.
 ][
 Ce qu’il y a de singulier,
 c’est que ces écoles diffèrent entre elles
@@ -25,8 +20,8 @@ Il faut donc, d’abord, qu’elles admettent un principe commun à toutes,
 que nous n’admettons pas ;
 ensuite, que ce principe se prête
 à l’infinie diversité que nous voyons entre elles.
-][
-Je crois que ce qui nous sépare radicalement, c’est ceci :
+])
+,(liste(p*[Je crois que ce qui nous sépare radicalement, c’est ceci :
 ][
 L’Économie politique conclut à ne demander ,(strong[à la loi])
 que la Justice universelle.
@@ -34,13 +29,13 @@ que la Justice universelle.
 Le Socialisme, dans ses branches diverses,
 et par des applications dont le nombre est naturellement indéfini,
 demande de plus ,(strong[à la loi])
-la réalisation du dogme de la Fraternité.
-][
-Or, qu’est-il arrivé ?
-Le Socialisme admet, avec Rousseau,
+la réalisation du dogme de la Fraternité.]))
+
+,(p*[,(tag :a :name "rousseau_ref")Or, qu’est-il arrivé ?
+Le Socialisme admet, avec ,(np "rousseau" [Rousseau]),
 que l’ordre social tout entier est dans la Loi.
-On sait que Rousseau faisait reposer la société sur un contrat.
-Louis Blanc, dès la première page de son livre sur la Révolution, dit :
+On sait que ,(np "rousseau" [Rousseau]) faisait reposer la société sur un contrat.
+,(np "blanc" [Louis Blanc]), dès la première page de son livre sur la Révolution, dit :
 ,(q[Le principe de la fraternité est celui
 	qui, regardant comme solidaires les membres de la grande famille,
 	tend à organiser un jour les sociétés, ,(emph[,(oe)uvre de l’homme]),
@@ -132,8 +127,8 @@ nous voulons bien les croire, sur leur parole,
 	pleins de désintéressement et de charité ;
 mais enfin, il nous sera permis de dire que sous ce rapport
 	nous ne redoutons pas la comparaison.
-][
-Chacun de ces Décius a un plan qui doit réaliser le bonheur de l’humanité,
+][,(tag :a :name "decius_ref")
+Chacun de ces ,(np "decius" [Décius]) a un plan qui doit réaliser le bonheur de l’humanité,
 et tous ont l’air de dire que si nous les combattons,
 c’est parce que nous craignons
 	ou pour notre fortune,
@@ -141,7 +136,7 @@ c’est parce que nous craignons
 Non ; nous les combattons, parce que nous tenons leurs idées pour fausses,
 leurs projets pour aussi puérils que désastreux.
 Que s’il nous était démontré
-qu’on peut faire descendre à jamais le bonheur sur terre
+qu’on peut faire descendre à jamais le bonheur sur la terre
 par une organisation factice, ou en décrétant la fraternité,
 il en est parmi nous qui, quoique économistes,
 signeraient avec joie ce décret de la dernière goutte de leur sang.
@@ -158,13 +153,12 @@ vainement elle essaierait de le ,(emph[forcer]) à être dévoué.
 Ce n’est pas moi, du reste, qui ai inventé cette distinction.
 Ainsi que je le disais tout à l’heure, il y a dix-huit siècles,
 ces paroles sortirent de la bouche du divin fondateur de notre religion :
-][
-,(q[,(emph[La loi vous dit : Ne faites pas aux autres
-	ce que vous ne voudriez pas qui vous fût fait.
-« Et moi, je vous dis : Faites aux autres
-	ce que vous voudriez que les autres fissent pour vous.])])
-][
-Je crois que ces paroles fixent la limite
+])
+,(liste(p*[« ,(emph[La loi vous dit : Ne faites pas aux autres
+	ce que vous ne voudriez pas qui vous fût fait.])]
+[« ,(emph[Et moi, je vous dis : Faites aux autres
+	ce que vous voudriez que les autres fissent pour vous.])]))
+,(p*[Je crois que ces paroles fixent la limite
 	qui sépare la Justice de la Fraternité.
 Je crois qu’elles tracent en outre une ligne de démarcation,
 je ne dirai pas absolue et infranchissable, mais théorique et rationnelle,
@@ -182,7 +176,7 @@ si ce n’est la protection
 	de toutes les propriétés,
 	de tous les droits,
 	de tous les intérêts ?
-Cela, qu’est-ce autre chose que la Justice universelle ?
+Et cela, qu’est-ce autre chose que la Justice universelle ?
 Évidemment le droit de chacun a pour limite
 	le droit absolument semblable de tous les autres.
 La loi ne peut donc faire autre chose
@@ -258,7 +252,7 @@ Mais quand on pose au sein d’une société ce principe,
 que la Fraternité sera imposée par la loi,
 c’est-à-dire, en bon français,
 que la répartition des fruits du travail sera faite législativement,
-sans égard pour les droits du travail lui-même ;
+sans égard pour les droits du travail lui-même,
 qui peut dire dans quelle mesure ce principe agira,
 de quelle forme un caprice du législateur peut le revêtir,
 dans quelles institutions un décret peut du soir au lendemain l’incarner ?
@@ -266,7 +260,7 @@ Or, je demande si, à ces conditions, une société peut exister ?
 ][
 Remarquez que le Sacrifice, de sa nature,
 n’est pas, comme la Justice, une chose qui ait une limite.
-Il peut s’étendre, depuis le don de l’obole jetée dans la sébile du mendiant
+Il peut s’étendre depuis le don de l’obole jetée dans la sébile du mendiant
 jusqu’au don de la vie, ,(inlatin[usque ad mortem, mortem autem crucis]).
 L’Évangile, qui a enseigné la Fraternité aux hommes,
 	l’a expliquée par ses conseils.
@@ -307,6 +301,7 @@ le système économiste et le système socialiste.
 ][
 Supposons d’abord une nation
 qui adopte pour base de sa législation la Justice, la Justice universelle.
+][
 Supposons que les citoyens disent au gouvernement :
 ,(q[Nous prenons sur nous la responsabilité de notre propre existence ;
 nous nous chargeons
@@ -319,8 +314,8 @@ pour vous, votre seule mission sera de nous contenir tous,
 	et sous tous les rapports, dans les limites de nos droits.])
 ][
 Vraiment, on a essayé tant de choses,
-je voudrais que la fantaisie prit un jour
-	à mon pays, ou à un pays quelconque, sur la surface du globe,
+je voudrais que la fantaisie prît un jour
+	à mon pays, ou à un pays quelconque sur la surface du globe,
 d’essayer au moins celle-là.
 Certes, le mécanisme, on ne le niera pas, est d’une simplicité merveilleuse.
 Chacun exerce tous ses droits comme il l’entend,
@@ -331,9 +326,9 @@ les peuples qui se rapprochent le plus de ce système
 surpassent tous les autres
 	en sécurité, en prospérité, en égalité et en dignité.
 Oui, s’il me reste dix ans de vie,
-j’en donnerais volontiers neuf pour assister, pendant un an,
+j’en donnerais volontiers neuf pour assister pendant un an
 à une telle expérience faite dans ma patrie.
-Car voici, ce me semble, ce dont je serais l’heureux témoin.
+,(--) ­Car voici, ce me semble, ce dont je serais l’heureux témoin.
 ][
 En premier lieu, chacun serait fixé sur son avenir,
 	en tant qu’il peut être affecté par la loi.
@@ -349,7 +344,7 @@ Toutes les carrières seraient ouvertes à tous ;
 chacun pourrait exercer ses facultés librement,
 selon qu’il serait déterminé
 par son intérêt, son penchant, son aptitude, ou les circonstances ;
-il n’y aurait ni privilèges, ni monopoles, ni restrictions d’aucune sorte.
+il n’y aurait ni priviléges, ni monopoles, ni restrictions d’aucune sorte.
 ][
 Ensuite, toutes les forces du gouvernement étant appliquées
 	à prévenir et à réprimer
@@ -378,7 +373,7 @@ Ici, il faut bien que je dise un mot
 	des conséquences qu’engendre la Sécurité.
 Voilà donc la Propriété sous ses formes diverses,
 foncière, mobilière, industrielle, intellectuelle, manuelle,
-complètement garantie.
+complétement garantie.
 La voilà à l’abri des atteintes des malfaiteurs et, qui plus est,
 des atteintes de la Loi.
 Quelle que soit la nature des services
@@ -560,12 +555,12 @@ On dira sans doute :
 	la paix,
 	l’ordre et
 	l’égalité,
-mais nous n’y voyons pas la fraternité.])
-][
+mais nous n’y voyons pas la fraternité !])
+][,(tag :a :name "fenelon_ref")
 Encore une fois, n’y a-t-il dans le c,(oe)ur de l’homme
 que ce que le législateur y a mis ?
 A-t-il fallu, pour que la fraternité fit son apparition sur la terre,
-qu’elle sortit de l’urne d’un scrutin ?
+qu’elle sortît de l’urne d’un scrutin ?
 Est-ce que la loi vous interdit la charité,
 par cela seul qu’elle ne vous impose que la justice ?
 Croit-on que les femmes cesseront d’avoir du dévouement
@@ -577,12 +572,12 @@ la pousse vers ces tristes asiles
 où s’étalent les plaies hideuses du corps
 et les plaies plus hideuses encore de l’intelligence ?
 Quel est l’article du Code qui détermine la vocation du prêtre ?
-À quelle loi écrite, à quelle intervention gouvernementale
+A quelle loi écrite, à quelle intervention gouvernementale
 faut-il rapporter
 	la fondation du christianisme,
 	le zèle des apôtres,
 	le courage des martyrs,
-	la bienfaisance de Fénelon ou de François de Paule,
+	la bienfaisance de ,(np "fenelon" [Fénelon]) ou de ,(np "paule" [François de Paule]),
 	l’abnégation de tant d’hommes qui, de nos jours,
 		ont exposé mille fois leur vie
 		pour le triomphe de la cause populaire
@@ -659,13 +654,14 @@ car la fraternité peut revêtir des milliards de formes inconnues,
 et, par conséquent, des milliards de décrets imprévus.
 D’innombrables projets viendront chaque jour
 	menacer toutes les relations établies.
+	,(--)
 Au nom de la fraternité, l’un demandera ,(emph[l’uniformité des salaires]),
 et voilà les classes laborieuses réduites à l’état de castes indiennes ;
 ni l’habileté, ni le courage, ni l’assiduité, ni l’intelligence
 ne pourront les relever ;
-une loi de plomb pèsera sur elles.
-Ce monde leur sera comme l’enfer du Dante :
-,(initalian[Lasciate ogni Speranza, voi ch’entrate]).
+une loi de plomb pèsera sur elles.,(tag :a :name "dante_ref")
+Ce monde leur sera comme l’enfer du ,(np "dante" [Dante]) :
+,(initalian[Lasciate ogni speranza, voi ch’entrate]).
 Au nom de la fraternité, un autre demandera
 que le travail soit réduit à dix, à huit, à six à quatre heures ;
 et voilà la production arrêtée.
@@ -677,11 +673,11 @@ N’est-ce pas avec des écus que nous achetons ces choses ?
 Multiplier les écus, dira-t-il, c’est multiplier le pain et le drap ;
 multiplier le papier, c’est multiplier les écus.
 Concluez.
-Un quatrième exigera qu’on décrète l’abolition de la concurrence ;
-un cinquième, l’abolition de l’intérêt personnel ;
-celui-ci voudra que l’État fournisse du travail ;
+,(--) Un quatrième exigera qu’on décrète l’abolition de la concurrence ;
+,(--) un cinquième, l’abolition de l’intérêt personnel ;
+,(--) celui-ci voudra que l’État fournisse du travail ;
 celui-là, de l’instruction, et cet autre, des pensions à tous les citoyens.
-En voici un autre qui veut abattre tous les rois sur la surface du globe,
+,(--) En voici un autre qui veut abattre tous les rois sur la surface du globe,
 et décréter, au nom de la fraternité, la guerre universelle.
 Je m’arrête.
 Il est bien évident que, dans cette voie,
@@ -696,6 +692,7 @@ Ils seront rares, chers, concentrés.
 Cela veut dire que les salaires baisseront,
 et que l’inégalité creusera, entre les classes,
 un abîme de plus en plus profond.
+][
 Les finances publiques ne tarderont pas d’arriver à un complet désarroi.
 Comment pourrait-il en être autrement
 	quand l’État est chargé de fournir tout à tous ?
@@ -735,11 +732,11 @@ J’ajoute que je serai heureux, pour mon compte,
 si on me démontre qu’elle ne l’est pas.
 Eh ! mon Dieu, si l’on peut décréter la fraternité universelle,
 et donner efficacement à ce décret la sanction de la force publique ;
-si, comme le veut Louis Blanc, on peut faire disparaître du monde,
+si, comme le veut ,(np "blanc" [Louis Blanc]), on peut faire disparaître du monde,
 	par assis et levé, le ressort de l’intérêt personnel ;
 si l’on peut réaliser législativement
 	cet article du programme de la Démocratie pacifique :
-		,(emph[Plus d’égoïsme]) ,(pv)
+		,(emph[Plus d’égoïsme ;])
 si l’on peut faire que l’État donne tout à tous,
 	sans rien recevoir de personne,
 qu’on le fasse.
@@ -753,7 +750,7 @@ Qu’elles aient éveillé des espérances dans la classe qui travaille,
 qui souffre et n’a pas le temps de réfléchir, cela n’est pas surprenant.
 Mais comment peuvent-elles égarer des publicistes de mérite ?
 ][
-À l’aspect des souffrances qui accablent un grand nombre de nos frères,
+A l’aspect des souffrances qui accablent un grand nombre de nos frères,
 ces publicistes ont pensé qu’elles étaient imputables à la ,(emph[liberté])
 	qui est la justice.
 Ils sont partis de cette idée que le système
@@ -826,7 +823,7 @@ Ne voit-on pas aussi que ceux-ci y laisseront,
 	avec une portion de leur bien-être,
 	une portion de leur liberté ?
 ][
-À quelque point de vue que je considère la loi humaine,
+A quelque point de vue que je considère la loi humaine,
 je ne vois pas qu’on puisse raisonnablement lui demander
 	autre chose que la Justice.
 ][
@@ -834,8 +831,8 @@ Qu’il s’agisse, par exemple, de religion.
 Certes, il serait à désirer qu’il n’y eût
 	qu’une croyance, une foi, un culte dans le monde,
 	à la condition que ce fût la ,(emph[vraie foi]).
-Mais, quelque désirable que soit l’Unité
-,(--) la diversité, c’est-à-dire la recherche et la discussion
+Mais, quelque désirable que soit l’Unité,
+la diversité, c’est-à-dire la recherche et la discussion
 valent mieux encore,
 tant que ne luira pas pour les intelligences le signe infaillible
 auquel cette ,(emph[vraie foi]) se fera reconnaître.
@@ -865,8 +862,8 @@ quant à la matière et quant à la méthode,
 l’enseignement unitaire ou gouvernemental serait préférable,
 puisque, dans l’hypothèse,
 il ne pourrait exclure législativement que l’erreur ?
-Mais, tant que ce critérium n’est pas trouvé,
-tant que le législateur, le ministre de l’Instruction publique,
+Mais tant que ce critérium n’est pas trouvé,
+tant que le législateur, le ministre de l’instruction publique,
 ne porteront pas sur leur front un signe irrécusable d’infaillibilité,
 la meilleure chance
 pour que la vraie méthode se découvre et absorbe les autres,
@@ -884,7 +881,7 @@ Ceux donc qui, poussés par le sentiment de la fraternité,
 demandent que la ,(emph[loi]) dirige et impose l’éducation,
 devraient se dire qu’ils courent la chance
 que la loi ne dirige et n’impose que l’erreur ;
-que l’interdiction légale peut frapper la Vérité,
+que l’interdiction légale peut frapper la Vérité
 en frappant les intelligences qui croient en avoir la possession.
 Or, je le demande, est-ce une fraternité véritable
 que celle qui a recours à la force pour imposer,
@@ -914,7 +911,7 @@ Ou l’État est infaillible,
 		le domaine entier des intelligences ;
 ou il ne l’est pas, et, en ce cas,
 	il n’est pas plus rationnel de lui livrer l’éducation que la presse.
-][
+][,(tag :a :name "cervantes_ref")
 Si je considère nos relations avec les étrangers,
 je ne vois pas non plus d’autre règle prudente, solide, acceptable pour tous,
 telle enfin qu’elle puisse devenir une ,(emph[loi]), que la Justice.
@@ -925,7 +922,7 @@ car c’est mettre obligatoirement
 au service de quiconque les réclamera
 pour servir une cause qui excite la sympathie du législateur.
 Singulière fraternité.
-Il y a longtemps que Cervantes ,(XXX :sic)
+Il y a longtemps que ,(np "cervantes" [Cervantes])
 	en a personnifié la vanité ridicule.
 ][
 Mais c’est surtout en matière de travail
@@ -947,7 +944,7 @@ les hommes n’ont pas besoin d’une loi
 En outre, ce point de vue ravale et ternit beaucoup l’idée de fraternité.
 ][
 Laissons-lui donc son caractère, qui est renfermé dans ces mots :
-,(emph[Sacrifice volontaire déterminé par le Sentiment fraternel]).
+,(emph[Sacrifice volontaire déterminé par le sentiment fraternel]).
 ][
 Si vous faites de la fraternité une prescription légale,
 dont les actes soient prévus et rendus obligatoires par le Code industriel,
@@ -962,17 +959,17 @@ Non, c’est de l’injustice ;
 il faut dire le mot, c’est de la spoliation légale,
 	la pire des spoliations,
 puisqu’elle est systématique, permanente et inévitable.
-][
-Que faisait Barbès quand, dans la séance du 15 mai,
+][,(tag :a :name "barbes_ref")
+Que faisait ,(np "barbes" [Barbès]) quand, dans la séance du 15 mai,
 il décrétait un impôt d’un milliard en faveur des classes souffrantes ?
 Il mettait en pratique votre principe.
-Cela est si vrai, que la proclamation de Sobrier,
-qui conclut comme le discours de Barbès, est précédée de ce préambule :
+Cela est si vrai, que la proclamation de ,(np "sobrier" [Sobrier]),
+qui conclut comme le discours de ,(np "barbes" [Barbès]), est précédée de ce préambule :
 ,(q[Considérant qu’il faut que la fraternité ne soit plus un vain mot,
 mais se manifeste par des actes, décrète :
 	les capitalistes, connus comme tels, verseront, etc.])
 ][
-Vous qui vous récriez, quel droit avez-vous de blâmer Barbès et Sobrier ?
+Vous qui vous récriez, quel droit avez-vous de blâmer ,(np "barbes" [Barbès]) et ,(np "sobrier" [Sobrier]) ?
 Qu’ont-ils fait, si ce n’est être un peu plus conséquents que vous,
 et pousser un peu plus loin votre propre principe ?
 ][
@@ -1003,7 +1000,7 @@ Est-ce le percepteur ?
 	Il obéit à la crainte d’être destitué.
 Est-ce le contribuable ?
 	Il paie à son corps défendant.
-À qui donc rapportera-t-on le mérite que le dévouement implique ?
+A qui donc rapportera-t-on le mérite que le dévouement implique ?
 Où en cherchera-t-on la moralité ?
 ][
 La spoliation extra-légale soulève toutes les répugnances,
@@ -1074,10 +1071,10 @@ c’est sacrifier
 	l’ignorant,
 	le prolétaire,
 	l’athlète qui se présente désarmé au combat.
-][
-,(blockquote[
-,(q[Que pouvait-il résulter, dit M. Considérant,
-de cette liberté industrielle,
+][,(tag :a :name "considerant_ref")
+,(blockquote*[
+,(q[Que pouvait-il résulter, dit ,(np "considerant" [M. Considérant]),
+de cette liberté industrielle
 	sur laquelle on avait tant compté,
 de ce fameux principe de ,(emph[libre concurrence]),
 	que l’on croyait si fortement doué
@@ -1128,14 +1125,14 @@ les socialistes croient à l’antagonisme essentiel des intérêts.
 Les économistes croient à l’harmonie naturelle,
 ou plutôt à l’harmonisation nécessaire et progressive des intérêts.
 Tout est là.
-][
+][,(tag :a :name "montaigne_ref")
 Partant de cette donnée que les intérêts sont naturellement antagoniques,
 les socialistes sont conduits, par la force de la logique,
 à chercher pour les intérêts une organisation ,(emph[artificielle]),
 ou même à étouffer, s’ils le peuvent, dans le c,(oe)ur de l’homme,
 le sentiment de l’intérêt.
 C’est ce qu’ils ont essayé au Luxembourg.
-Mais s’ils sont assez fous, ils ne sont pas assez forts,
+Mais s’ils sont assez fous, ils ne sont pas assez forts ,(np "montaigne" [*]),
 et il va sans dire
 	qu’après avoir déclamé, dans leurs livres, contre l’individualisme,
 	ils vendent leurs livres
@@ -1150,7 +1147,7 @@ il faut fouler aux pieds
 Il faut refaire le monde, ou, comme ils disent,
 ,(emph[reconstituer la société])
 sur un des plans nombreux qu’ils ne cessent d’inventer.
-À l’intérêt, principe désorganisateur,
+A l’intérêt, principe désorganisateur,
 il faut substituer le ,(emph[dévouement]) légal, imposé, involontaire, forcé,
 	en un mot la Spoliation organisée ;
 et comme ce nouveau principe ne peut que soulever
@@ -1158,12 +1155,12 @@ et comme ce nouveau principe ne peut que soulever
 on essaiera d’abord de le faire accepter
 	sous le nom menteur de Fraternité,
 après quoi on invoquera la loi, qui est la force.
-][
+][,(tag :a :name "lamartine_ref")
 Mais si la Providence ne s’est pas trompée,
 si elle a arrangé les choses de telle sorte
 	que les intérêts, sous la loi de justice,
 	arrivent naturellement aux combinaisons les plus harmoniques ;
-si, selon l’expression de M, de Lamartine,
+si, selon l’expression de ,(np "lamartine" [M. de Lamartine]),
 	ils se font par la liberté
 		une justice que l’arbitraire ne peut leur faire ;
 si l’égalité des droits est l’acheminement
@@ -1193,7 +1190,7 @@ Après mûr examen, il faut reconnaître que Dieu a bien fait,
 en sorte que la meilleure condition du progrès,
 	c’est la justice et la liberté.
 ][
-Les socialistes nous croient dans l’erreur ; c’est leur droit.
+Les Socialistes nous croient dans l’erreur ; c’est leur droit.
 Mais ils devraient au moins s’en affliger ;
 car notre erreur, si elle est démontrée,
 implique l’urgence de substituer
@@ -1225,7 +1222,7 @@ Les hommes peuvent continuer à respirer comme la nature l’a voulu.])
 Que dirait-on si le premier professeur accablait le second d’injures,
 en disant :
 ,(q[Vous êtes un chimiste au c,(oe)ur dur, sec et froid ;
-vous prêchez l’horrible ,(emph[laisser-faire]) ,(pv)
+vous prêchez l’horrible ,(emph[laissez faire ;])
 vous n’aimez pas l’humanité,
 puisque vous démontrez l’inutilité de mon appareil respiratoire ?])
 ][
@@ -1246,12 +1243,12 @@ et l’auteur ne devait pas tarder à continuer cet ouvrage.
 ,(NdEEO)
 ]).
 Je dirai seulement ceci :
-,(q[Si l’Économie politique arrive à reconnaître l’harmonie des intérêts,
+Si l’Économie politique arrive à reconnaître l’harmonie des intérêts,
 c’est qu’elle ne s’arrête pas, comme le Socialisme,
 aux conséquences immédiates des phénomènes,
-mais qu’elle va jusqu’aux effets ultérieurs et définitifs.])
+mais qu’elle va jusqu’aux effets ultérieurs et définitifs.
 C’est là tout le secret.
-Les deux écoles différent exactement
+Les deux écoles diffèrent exactement
 comme les deux chimistes dont je viens de parler ;
 l’une voit la partie, et l’autre l’ensemble.
 Par exemple,
@@ -1262,21 +1259,21 @@ ils verront qu’elle est le plus puissant agent égalitaire et progressif,
 qu’elle se fasse à l’intérieur ou qu’elle vienne du dehors.
 Et c’est parce que l’économie politique trouve,
 dans cet effet définitif, ce qui constitue l’harmonie,
-qu’elle dit :
-,(q[Dans mon domaine, ,(emph[il y a beaucoup à apprendre et peu à faire]).
+qu’elle dit :,(tag :a :name "bentham_ref")
+Dans mon domaine, ,(emph[il y a beaucoup à apprendre et peu à faire]) ,(np "bentham" [*]).
 Beaucoup à apprendre,
 	puisque l’enchaînement des effets ne peut être suivi
 		qu’avec une grande application ;
 peu à faire, puisque de l’effet définitif
-	sort l’harmonie du phénomène tout entier.])
-][
+	sort l’harmonie du phénomène tout entier.
+][,(tag :a :name "lamartine_ref2")
 Il m’est arrivé de discuter cette question
-avec l’homme éminent que la Révolution a élevé à une si grande hauteur.
+avec ,(np "lamartine" [l’homme éminent]) que la Révolution a élevé à une si grande hauteur.
 Je lui disais :
 ][
 ,(q[La loi agissant par voie de contrainte,
 on ne peut lui demander que la justice.])
-Il pensait que les peuples peuvent de plus attendre d’elle la Fraternité.
+Il pensait que les peuples peuvent de plus attendre d’elle la fraternité.
 Au mois d’août dernier, il m’écrivait :
 ,(q[Si jamais, dans un temps de crise,
 je parviens au timon des affaires,
@@ -1305,9 +1302,9 @@ En terminant, je dirai aux socialistes :
 ,(q[Si vous croyez que l’économie politique repousse
 	l’association, l’organisation, la fraternité,
 vous êtes dans l’erreur.])
-][
-L’association !
-Et ne savons-nous pas que c’est la société même
+])
+,(liste(p*[L’association !
+Et ne savons-nous pas que c’est la société même,
 	se perfectionnant sans cesse ?
 ][
 L’organisation !
@@ -1319,13 +1316,13 @@ Et ne savons-nous pas qu’elle fait
 La fraternité !
 Et ne savons-nous pas qu’elle est à la justice
 	ce que les élans du c,(oe)ur sont aux froids calculs de l’esprit ?
-][
-Nous sommes d’accord avec vous là-dessus ;
+]))
+,(p*[Nous sommes d’accord avec vous là-dessus ;
 nous applaudissons à vos efforts
 pour répandre sur le champ de l’humanité
 	une semence qui portera ses fruits dans l’avenir.
 ][
-Mais nous nous opposons à vous,
+Mais nous nous opposons à vous
 dès l’instant que vous faites intervenir la loi et la taxe,
 c’est-à-dire la contrainte et la spoliation ;
 car, outre que ce recours à la force

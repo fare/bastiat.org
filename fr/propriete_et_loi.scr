@@ -5,17 +5,15 @@
 (document :title "Propriété et Loi"
 	:author (author-FB)
 (bastiat[
-,(p*[
 
-La confiance de mes concitoyens m’a revêtu du titre de ,(emph[législateur])
-,(footnote*[
-Article inséré au n° du 15 mai 1848 du ,(cite-title[Journal des Économistes])
-,(NdEEO)]).
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 mai 1848.])
+,(p*[
+La confiance de mes concitoyens m’a revêtu du titre de ,(emph[Législateur]).
 ][
 Ce titre, je l’aurais certes décliné,
-si je l’avais compris comme faisait Rousseau.
-][
-,(q[Celui qui ose entreprendre d’instituer un peuple, dit-il,
+si je l’avais compris comme faisait ,(np "rousseau" [Rousseau]).
+])
+,(blockquote*[« Celui qui ose entreprendre d’instituer un peuple, dit-il,
 doit se sentir en état
 	de changer, pour ainsi dire, la nature humaine,
 	de transformer chaque individu
@@ -26,20 +24,19 @@ doit se sentir en état
 	d’altérer la constitution physique de l’homme pour la renforcer,
 	etc., etc…
 S’il est vrai qu’un grand prince est un homme rare,
-que sera-ce d’un grand législateur ?
+que sera-ce d’un grand législateur !
 Le premier n’a qu’à suivre le modèle que l’autre doit proposer.
 Celui-ci est le mécanicien qui invente la machine,
-celui-là n’est que l’ouvrier qui la monte et la fait marcher.])
-][
-Rousseau, étant convaincu que l’état social était d’invention humaine,
-devait placer très haut la loi et le législateur.
+celui-là n’est que l’ouvrier qui la monte et la fait marcher. »])
+,(p*[,(np "rousseau" [Rousseau]), étant convaincu que l’état social était d’invention humaine,
+devait placer très-haut la loi et le législateur.
 Entre le législateur et le reste des hommes,
 il voyait la distance ou plutôt l’abîme
 	qui sépare le mécanicien de la matière inerte
 		dont la machine est composée.
 ][
 Selon lui, la loi devait transformer les personnes,
-créer ou ne créer pas ,(XXX) la propriété.
+créer ou ne créer pas la propriété.
 Selon moi, la société, les personnes et les propriétés
 	existent antérieurement aux lois,
 et, pour me renfermer dans un sujet spécial, je dirai :
@@ -59,7 +56,7 @@ J’entends par ,(emph[propriété]) le droit
 ][
 Cela posé, je me demande si ce droit est de création légale,
 ou s’il n’est pas au contraire antérieur et supérieur à la loi ?
-S’il a fallu que la loi vint donner naissance au droit de propriété,
+S’il a fallu que la loi vînt donner naissance au droit de propriété,
 ou si, au contraire, la propriété était un fait et un droit préexistants
 	qui ont donné naissance à la loi ?
 Dans le premier cas, le législateur a pour mission
@@ -67,29 +64,29 @@ Dans le premier cas, le législateur a pour mission
 	s’il le trouve bon ;
 dans le second, ses attributions se bornent
 	à la garantir, à la faire respecter.
-][
+][,(tag :a :name "lamennais_ref")
 Dans le préambule d’un projet de constitution publié
-par un des plus grands penseurs des temps modernes, M. Lamennais,
+par un des plus grands penseurs des temps modernes, ,(np "lamennais" [M. Lamennais]),
 je lis ces mots :
-][
-,(q[Le peuple français déclare qu’il reconnaît
+])
+,(blockquote*[« Le peuple français déclare qu’il reconnaît
 des droits et des devoirs antérieurs et supérieurs
-	à toutes les lois positives et indépendants d’elles.
-Ces droits et ces devoirs, directement émanés de Dieu,
+	à toutes les lois positives et indépendants d’elles.]
+[« Ces droits et ces devoirs, directement émanés de Dieu,
 se résument dans le triple dogme qu’expriment ces mots sacrés :
-Égalité, Liberté, Fraternité.])
-][
-Je me demande si le droit de Propriété n’est pas un de ceux qui,
+Égalité, Liberté, Fraternité. »])
+
+,(p*[Je me demande si le droit de Propriété n’est pas un de ceux qui,
 bien loin de dériver de la loi positive,
-précédent la loi et sont sa raison d’être ?
+précèdent la loi et sont sa raison d’être.
+][
 Ce n’est pas, comme on pourrait le croire, une question subtile et oiseuse.
 Elle est immense, elle est fondamentale.
-][
 Sa solution intéresse au plus haut degré la société,
 et l’on en sera convaincu, j’espère,
 quand j’aurai comparé, dans leur origine et par leurs effets,
 les deux systèmes en présence.
-][
+](nbsp)[
 Les économistes pensent que la ,(emph[Propriété])
 	est un fait providentiel comme la ,(emph[Personne]).
 Le Code ne donne pas l’existence à l’une plus qu’à l’autre.
@@ -125,7 +122,7 @@ personne ne lui en dispute la possession ou la Propriété.
 Sans doute un autre sauvage plus vigoureux peut l’en chasser,
 mais ce n’est pas sans indigner et alarmer la tribu tout entière.
 C’est même cet abus de la force qui donne naissance
-à l’association à la convention, à la ,(emph[loi]),
+à l’association, à la convention, à la ,(emph[loi ;])
 qui met la force publique au service de la Propriété.
 Donc la Loi naît de la Propriété,
 bien loin que la Propriété naisse de la Loi.
@@ -162,7 +159,7 @@ il a été convenu que la force de tous serait consacrée
 	à prévenir et réprimer la violence.
 La mission de la Loi est donc de faire respecter la Propriété.
 Ce n’est pas la Propriété qui est conventionnelle, mais la Loi.
-][
+](nbsp)[
 Recherchons maintenant l’origine du système opposé.
 ][
 Toutes nos constitutions passées proclament
@@ -198,7 +195,6 @@ Nous pouvons en être affligés, nous ne devons pas en être surpris.
 Où puisons-nous nos idées sur ces matières
 	et jusqu’à la notion du ,(emph[Droit]) ?
 Dans les livres latins, dans le Droit romain.
-][
 Je n’ai pas fait mon Droit,
 	mais il me suffit de savoir que c’est là la source de nos théories,
 	pour affirmer qu’elles sont fausses.
@@ -216,7 +212,7 @@ Comment eux, qui vivaient de rapine,
 dont toutes les propriétés étaient le fruit de la spoliation,
 qui avaient fondé leurs moyens d’existence sur le labeur des esclaves,
 comment auraient-ils pu, sans ébranler les fondements de leur société,
-introduire dans la législation cette pensée
+introduire dans la législation cette pensée,
 que le vrai titre de la propriété, c’est le travail qui l’a produite ?
 Non, ils ne pouvaient ni le dire, ni le penser.
 Ils devaient avoir recours à cette définition empirique de la propriété,
@@ -243,71 +239,70 @@ mais il faut dire que l’éducation universitaire et cléricale
 	dans cette atmosphère de guerre et d’esclavage
 	qui enveloppait et pénétrait la société romaine.
 ][
-Ne soyons donc pas surpris de voir se reproduire,
-	dans le dix-huitième siècle,
+Ne soyons donc pas surpris de voir se reproduire
+	dans le dix-huitième siècle
 cette idée romaine que la propriété
 	est un fait conventionnel et d’institution légale ;
 que, bien loin que la Loi soit un corollaire de la Propriété,
 c’est la Propriété qui est un corollaire de la Loi.
-On sait que, selon Rousseau, non seulement la propriété,
+On sait que, selon ,(np "rousseau" [Rousseau]), non seulement la propriété,
 mais la société toute entière était le résultat
 	d’un contrat, d’une ,(emph[invention]) née dans la tête du Législateur.
 ][
-,(q[L’ordre social est un droit sacré qui sert de base à tous les autres.
+,(blockquote*[« L’ordre social est un droit sacré qui sert de base à tous les autres.
 Cependant ce droit ,(emph[ne vient point de la nature]).
-Il est donc fondé sur les conventions.])
+Il est donc fondé sur les ,(emph[conventions]). »])
 ][
 Ainsi le droit qui sert de base à tous les autres
 	 est purement ,(emph[conventionnel]).
 Donc la ,(emph[propriété]), qui est un droit postérieur,
 	est ,(emph[conventionnelle]) aussi.
 ,(emph[Elle ne vient pas de la nature]).
-][
-Robespierre était imbu des idées de Rousseau.
+][,(tag :a :name "robespierre_ref")
+,(np "robespierre" [Robespierre]) était imbu des idées de ,(np "rousseau" [Rousseau]).
 Dans ce que dit l’élève sur la propriété,
 on reconnaîtra les théories et jusqu’aux formes oratoires du maître.
 ][
-,(q[Citoyens, je vous proposerai d’abord quelques articles nécessaires
+,(blockquote*[« Citoyens, je vous proposerai d’abord quelques articles nécessaires
 pour compléter votre théorie de la ,(emph[propriété]).
 Que ce mot n’alarme personne.
 Âmes de boue, qui n’estimez que l’or,
 je ne veux pas toucher à vos trésors,
 quelque impure qu’en soit la source…
-Pour moi, j’aimerais mieux être né dans la cabane de Fabricius
-que dans le palais de Lucullus, etc., etc.])
+Pour moi, j’aimerais mieux être né dans la cabane de ,(np "fabricius" [Fabricius])
+que dans le palais de ,(np "lucullus" [Lucullus]), etc., etc. »])
 ][
 Je ferai observer ici que, lorsqu’on analyse la notion de propriété,
 il est irrationnel et dangereux de faire de ce mot le synonyme d’opulence,
 et surtout d’opulence mal acquise.
-][
-La chaumière de Fabricius est une propriété
-	aussi bien que le palais de Lucullus.
+La chaumière de ,(np "fabricius" [Fabricius]) est une propriété
+aussi bien que le palais de ,(np "lucullus" [Lucullus]).
 Mais qu’il me soit permis d’appeler l’attention du lecteur
 sur la phrase suivante, qui renferme tout le système :
-][
-,(q[En définissant la liberté, ce premier besoin de l’homme,
+])
+,(blockquote*[« En définissant la liberté, ce premier besoin de l’homme,
 le plus sacré des droits qu’,(emph[il tient de la nature]),
 nous avons dit, avec raison, qu’elle avait pour limite le droit d’autrui.
 Pourquoi n’avez-vous pas appliqué ce principe à la propriété,
-qui est une institution sociale,
+,(emph[qui est une institution sociale,])
 comme si les lois éternelles de la nature étaient moins inviolables
-	que les ,(emph[conventions]) des hommes ?])
-][
-Après ces préambules, Robespierre établit les principes en ces termes :
-][
-,(q[Art, 1er. La propriété est le droit qu’a chaque citoyen
+que les ,(emph[conventions]) des hommes ? »])
+
+,(p*[Après ces préambules, ,(np "robespierre" [Robespierre]) établit les principes en ces termes :])
+
+,(blockquote*[« Art. 1,(er). La propriété est le droit qu’a chaque citoyen
 de jouir et de disposer de la portion de biens
-	qui lui est garantie ,(emph[par la loi]).
-Art. 2. Le droit de propriété est borné, comme tous les autres,
-par l’obligation de respecter les droits d’autrui.])
-][
-Ainsi Robespierre met en opposition
+	qui lui est garantie ,(emph[par la loi]).]
+[« Art. 2. Le droit de propriété est borné, comme tous les autres,
+par l’obligation de respecter les droits d’autrui. »])
+
+,(p*[Ainsi ,(np "robespierre" [Robespierre]) met en opposition
 	la ,(emph[Liberté]) et la ,(emph[Propriété]).
 Ce sont deux droits d’origine différente :
 l’un vient de la nature, l’autre est d’institution sociale.
 Le premier est ,(emph[naturel]), le second ,(emph[conventionnel]).
 ][
-La limite uniforme que Robespierre pose à ces deux droits
+La limite uniforme que ,(np "robespierre" [Robespierre]) pose à ces deux droits
 aurait dû, ce semble, l’induire à penser qu’ils ont la même source.
 Soit qu’il s’agisse de liberté ou de propriété,
 respecter le droit d’autrui, ce n’est pas détruire ou altérer le droit,
@@ -318,28 +313,29 @@ que l’un et l’autre n’existent
 	qu’à la condition de respecter le droit d’autrui,
 et la loi a pour mission de faire respecter cette limite,
 	ce qui est reconnaître et maintenir le principe même.
-][
-Quoi qu’il en soit, il est certain que Robespierre, à l’exemple de Rousseau,
+][,(tag :a :name "blanc_ref")
+Quoi qu’il en soit, il est certain que ,(np "robespierre" [Robespierre]), à l’exemple de ,(np "rousseau" [Rousseau]),
 considérait la propriété comme une institution sociale, comme une convention.
 Il ne la rattachait nullement à son véritable titre, qui est le travail.
 C’est le droit, disait-il, de disposer
 	de la portion de biens ,(emph[garantie par la loi]).
-Je n’ai pas besoin de rappeler ici qu’à travers Rousseau et Robespierre
+][
+Je n’ai pas besoin de rappeler ici qu’à travers ,(np "rousseau" [Rousseau]) et ,(np "robespierre" [Robespierre])
 la notion romaine sur la propriété s’est transmise
 	à toutes nos écoles dites socialistes.
-On sait que le premier volume de Louis Blanc, sur la Révolution,
+On sait que le premier volume de ,(np "blanc" [Louis Blanc]), sur la Révolution,
 est un dithyrambe au philosophe de Genève et au chef de la Convention.
 ][
 Ainsi, cette idée que le droit de propriété est d’institution sociale,
 qu’il est une invention du législateur, une création de la loi,
-en d’autres termes, qu’il est inconnu à l’homme dans l’,(emph[état de nature]),
+en d’autres termes qu’il est inconnu à l’homme dans l’,(emph[état de nature]),
 cette idée, dis-je, s’est transmise des Romains jusqu’à nous,
 	à travers l’enseignement du droit,
 	les études classiques,
 	les publicistes du dix-huitième siècle,
 	les révolutionnaires de 93,
 	et les modernes organisateurs.
-][
+](nbsp)[
 Passons maintenant aux conséquences
 	des deux systèmes que je viens de mettre en opposition,
 et commençons par le système juriste.
@@ -365,9 +361,9 @@ mais tous ont cela de commun qu’ils reposent sur cette pensée :
 La loi crée le droit de propriété ;
 le législateur dispose en maître absolu
 	des travailleurs et des fruits du travail.
-][
+][,(tag :a :name "fourier_ref")
 Parmi ces projets, ceux qui ont les plus attiré l’attention publique sont ceux
-	de Fourier, de Saint-Simon, d’Owen, de Cabet, de Louis Blanc.
+	de ,(np "fourier" [Fourier]), de ,(np "stsimon" [Saint-Simon]), d’,(np "owen" [Owen]), de ,(np "cabet" [Cabet]), de ,(np "blanc" [Louis Blanc]).
 Mais ce serait folie de croire qu’il n’y a
 	que ces cinq modes possibles d’organisation.
 Le nombre en est illimité.
@@ -380,7 +376,7 @@ Elle serait réduite à l’alternative
 	ou de changer tous les matins son mode d’existence,
 	ou de persévérer à tout jamais dans une voie reconnue fausse,
 		par cela seul qu’elle y serait une fois entrée.
-][
+](nbsp)[
 Une seconde conséquence
 	est d’exciter chez tous les rêveurs la soif du pouvoir.
 J’imagine une organisation du travail.
@@ -388,15 +384,15 @@ Exposer mon système et attendre que les hommes l’adoptent s’il est bon,
 ce serait supposer que le principe d’action est en eux.
 Mais dans le système que j’examine,
 	le principe d’action réside dans le Législateur.
-,(q[Le législateur, comme dit Rousseau,
+,(q[Le législateur, comme dit ,(np "rousseau" [Rousseau]),
 doit se sentir de force à transformer la nature humaine.])
 Donc, ce à quoi je dois aspirer, c’est à devenir législateur
 	afin d’imposer l’ordre social de mon invention.
-][
+](nbsp)[
 Il est clair encore que les systèmes qui ont pour base
 	cette idée que le droit de propriété est d’institution sociale,
 aboutissent tous
-	ou au privilège le plus concentré,
+	ou au privilége le plus concentré,
 	ou au communisme le plus intégral,
 selon les mauvaises ou les bonnes intentions de l’inventeur.
 S’il a des desseins sinistres,
@@ -407,7 +403,7 @@ S’il obéit à des sentiments philanthropiques,
 	une participation légale et uniforme aux produits créés.
 Reste à savoir si, dans cette donnée, la création des produits est possible.
 ][
-À cet égard, le Luxembourg nous a présenté récemment
+A cet égard, le Luxembourg nous a présenté récemment
 	un spectacle fort extraordinaire.
 N’a-t-on pas entendu, en plein dix-neuvième siècle,
 	quelques jours après la révolution de Février,
@@ -430,12 +426,12 @@ Question qui revient à celle-ci :
 Un mètre de drap porté sur le marché par un paresseux
 se vendra-t-il pour le même prix
 	que deux mètres offerts par un homme laborieux ?
-Et, chose, qui passe toute croyance,
+Et, chose qui passe toute croyance,
 cet homme a proclamé qu’il préférait l’uniformité des profits,
 	quel que fût le travail offert en vente,
 et il a décidé ainsi, dans sa sagesse, que,
 quoique ,(emph[deux]) soient ,(emph[deux]) par nature,
-	ils ne seraient plus qu’,(emph[un]) de par la loi.
+	ils ne seraient plus ,(emph[qu’un]) de par la ,(emph[loi]).
 ][
 Voilà où l’on arrive quand on part de ce point
 	que la loi est plus forte que la nature.
@@ -453,8 +449,8 @@ que chacun ferait à qui travaillerait moins,
 puisque aussi bien, de par la loi,
 la récompense serait toujours garantie et égale pour tous.
 ][
-Mais le citoyen Blanc avait prévu l’objection,
-et, pour prévenir ce doux ,(emph[farniente]),
+Mais le citoyen ,(np "blanc" [Blanc]) avait prévu l’objection,
+et, pour prévenir ce doux ,(emph[far-niente]),
 	hélas ! si naturel à l’homme,
 	quand le travail n’est pas rémunéré,
 il a imaginé de faire dresser dans chaque commune
@@ -466,11 +462,11 @@ Mais il n’a pas dit s’il y aurait des inquisiteurs
 Il est à remarquer que les utopistes ne se préoccupent jamais
 	de l’immense machine gouvernementale,
 	qui peut seule mettre en mouvement leur mécanique légale.
-][
+][,(tag :a :name "vidal_ref")
 Comme les délégués du Luxembourg se montraient quelque peu incrédules,
-est apparu le citoyen Vidal, secrétaire du citoyen Blanc,
+est apparu le citoyen ,(np "vidal" [Vidal]), secrétaire du citoyen ,(np "blanc" [Blanc]),
 qui a achevé la pensée du maître.
-À l’exemple de Rousseau, le citoyen Vidal ne se propose rien moins
+A l’exemple de ,(np "rousseau" [Rousseau]), le citoyen ,(np "vidal" [Vidal]) ne se propose rien moins
 que de changer la nature de l’homme et les lois de la Providence.
 ][
 Il a plu à la Providence de placer dans l’individu
@@ -479,7 +475,7 @@ Il a plu à la Providence de placer dans l’individu
 créant ainsi l’,(emph[intérêt personnel]), autrement dit,
 l’instinct de la conservation et l’amour du développement
 comme le grand ressort de l’humanité.
-M. Vidal va changer tout cela.
+,(np "vidal" [M. Vidal]) va changer tout cela.
 Il a regardé l’,(oe)uvre de Dieu, et il a vu qu’elle n’était pas bonne.
 En conséquence, partant de ce principe
 	que la loi et le législateur peuvent tout,
@@ -492,14 +488,14 @@ pour éviter le fatal ,(emph[poteau]),
 comme si ce nouveau mobile n’était pas encore
 	de l’,(emph[intérêt personnel]) d’une autre espèce.
 ][
-M. Vidal cite sans cesse
+,(np "vidal" [M. Vidal]) cite sans cesse
 	ce que le point d’honneur fait faire aux armées.
 Mais, hélas ! il faut tout dire,
 	et si l’on veut enrégimenter les travailleurs,
 	qu’on nous dise donc si le Code militaire,
 	avec ses trente cas de peine de mort,
-	deviendra le Code des ouvriers ?
-][
+	deviendra le Code des ouvriers.
+](nbsp)[
 Un effet plus frappant encore
 	du principe funeste que je m’efforce ici de combattre,
 c’est l’incertitude qu’il tient toujours suspendue,
@@ -527,7 +523,7 @@ qui ne voit qu’on tourne contre le progrès industriel
 Quel est en ce moment le hardi spéculateur
 	qui oserait monter une usine ou se livrer à une entreprise ?
 Hier on décrète qu’il ne sera permis de travailler
-	que pendant un nombre d’heure déterminé.
+	que pendant un nombre d’heures déterminé.
 Aujourd’hui on décrète que le salaire de tel genre de travail sera fixé ;
 qui peut prévoir le décret de demain,
 	celui d’après-demain,
@@ -555,7 +551,7 @@ Mais l’effet plus manifeste encore
 	je ne dis pas assez ;
 c’est de faire descendre aux rangs des misérables les familles aisées,
 et de décimer par la maladie et l’inanition les familles pauvres.
-][
+](nbsp)[
 J’avoue que je suis effrayé pour l’avenir de mon pays,
 quand je songe à la gravité des difficultés financières
 	que ce dangereux principe vient aggraver encore.
@@ -565,7 +561,7 @@ Au 24 février, nous avons trouvé un budget
 		auxquelles la France peut raisonnablement atteindre ;
 et, en outre, selon le ministre actuel des finances,
 pour près d’un milliard de dettes immédiatement exigibles.
-À partir de cette situation, déjà si alarmante,
+A partir de cette situation, déjà si alarmante,
 	les dépenses ont été toujours grandissant,
 	et les recettes diminuant sans cesse.
 ][
@@ -629,7 +625,7 @@ Comment acquitterez-vous vos dettes ?
 Avec quel argent prêterez-vous les instruments du travail ?
 Avec quelles ressources soutiendrez-vous
 	ces institutions charitables, si faciles à décréter ?
-][
+](nbsp)[
 Je me hâte d’abandonner ces tristes considérations.
 Il me reste à examiner dans ses conséquences le principe opposé
 	à celui qui prévaut aujourd’hui,
@@ -669,7 +665,7 @@ Seulement, ils auraient dû dire ,(emph[communisme]),
 	et non ,(emph[solidarité]) ,(pv)
 car la solidarité des intérêts, comme la propriété, existe en dehors de la loi.
 ][
-Il implique encore l’unité.
+Il implique encore l’,(emph[unité]).
 Nous l’avons déjà vu.
 Si le législateur crée le droit de propriété,
 	il y a pour la propriété autant de manières d’être
@@ -696,7 +692,7 @@ Elle n’a plus à craindre
 		arrêter ses efforts,
 		déranger ses combinaisons,
 		dérouter sa prévoyance.
-À l’abri de cette sécurité, les capitaux se formeront rapidement.
+A l’abri de cette sécurité, les capitaux se formeront rapidement.
 L’accroissement rapide des capitaux, de son côté,
 est la raison unique de l’accroissement dans la valeur du travail.
 Les classes ouvrières seront donc dans l’aisance ;
@@ -727,8 +723,8 @@ il serait enfin possible d’établir l’impôt direct, unique,
 Mais, pour cela, il faut attendre que des expériences, peut-être cruelles,
 	aient diminué quelque peu notre foi dans l’État
 	et augmenté notre foi dans l’Humanité.
-][
-Je terminerai par quelques mots sur l’,(emph[Association du libre-échange]).
+](nbsp)[
+Je terminerai par quelques mots sur l’Association du ,(emph[libre échange]).
 On lui a beaucoup reproché ce titre.
 Ses adversaires se sont réjouis,
 ses partisans se sont affligés
@@ -736,19 +732,19 @@ de ce que les uns et les autres considéraient comme une faute.
 ][
 ,(q[Pourquoi semer ainsi l’alarme ?
 	disaient ces derniers.
-Pourquoi inscrire sur votre drapeau un ,(emph[principe]) ?
+Pourquoi inscrire sur votre drapeau un ,(emph[principe ?])
 Pourquoi ne pas vous borner à réclamer dans le tarif des douanes
 ces modifications sages et prudentes que le temps a rendues nécessaires,
 et dont l’expérience a constaté l’opportunité ?])
 ][
 Pourquoi ? parce que, à mes yeux du moins,
-jamais le libre-échange n’a été une question de douane et de tarif,
+jamais le libre échange n’a été une question de douane et de tarif,
 mais une question
 	de droit,
 	de justice,
 	d’ordre public,
 	de Propriété.
-Parce que le privilège, sous quelque forme qu’il se manifeste,
+Parce que le privilége, sous quelque forme qu’il se manifeste,
 implique la négation ou le mépris de la propriété ;
 parce que l’intervention de l’État pour niveler les fortunes,
 pour grossir la part des uns aux dépens des autres,
@@ -766,7 +762,7 @@ parce que je n’avais pas quitté ma solitude
 parce que j’étais convaincu
 	que les propriétaires fonciers et les capitalistes
 	avaient eux-mêmes déposé, dans le tarif,
-	le germe de ce ,(emph[communisme]) qui les effraie maintenant,
+	le germe de ce ,(emph[communisme]) qui les effraye maintenant,
 	puisqu’ils demandaient ,(emph[à la loi]) des suppléments de profits,
 	au préjudice des classes ouvrières.
 Je voyais bien que ces classes ne tarderaient pas à réclamer aussi,
@@ -775,12 +771,12 @@ Je voyais bien que ces classes ne tarderaient pas à réclamer aussi,
 	ce qui est le ,(emph[communisme]).
 ][
 Qu’on lise le premier acte émané de notre Association,
-le programme rédigé dans une séance préparatoire, le 10 mai 1846 ;
+le ,(ref :url "association_libre_echange.html" [programme]) rédigé dans une séance préparatoire, le 10 mai 1846 ;
 on se convaincra que ce fut là notre pensée dominante.
 ]
 (blockquote*
-(q[L’échange est un droit naturel comme la Propriété.
-Tout citoyen qui a créé ou acquis un produit,
+[« L’échange est un droit naturel comme la Propriété.
+Tout citoyen qui a créé ou acquis un produit
 doit avoir l’option ou de l’appliquer immédiatement à son usage,
 ou de le céder à quiconque, sur la surface du globe,
 	consent à lui donner en échange l’objet de ses désirs.
@@ -789,29 +785,29 @@ Le priver de cette faculté,
 		à l’ordre public et aux bonnes m,(oe)urs,
 	et uniquement pour satisfaire la convenance d’un autre citoyen,
 c’est légitimer une spoliation,
-c’est blesser la loi de justice.])
+c’est blesser la loi de justice.]
 
-(q[C’est encore violer les conditions de l’ordre ;
+[« C’est encore violer les conditions de l’ordre,
 car quel ordre peut exister au sein d’une société où chaque industrie,
 aidée en cela par la loi et la force publique,
-cherche ses succès dans l’oppression de toutes les autres ?]))
+cherche ses succès dans l’oppression de toutes les autres ? »])
 [
-Nous placions tellement la question au-dessus des tarifs que nous ajoutions :
+Nous placions tellement la question au-dessus des tarifs, que nous ajoutions :
 ]
 (blockquote*
-(q[Les soussignés ne contestent pas à la société le droit d’établir,
+[« Les soussignés ne contestent pas à la société le droit d’établir,
 sur les marchandises qui passent la frontière,
 des taxes destinées aux dépenses communes,
-pourvu qu’elles soient déterminées par les besoins du Trésor.])
+pourvu qu’elles soient déterminées par les besoins du Trésor.]
 
-(q[Mais sitôt que la taxe, perdant son caractère fiscal,
+[« Mais sitôt que la taxe, perdant son caractère fiscal,
 a pour but de repousser le produit étranger,
 	au détriment du fisc lui-même,
 afin d’exhausser artificiellement le prix du produit national similaire,
 et de rançonner ainsi la communauté au profit d’une classe,
 dès ce moment la Protection, ou plutôt la Spoliation se manifeste,
-et c’est là le principe que l’Association aspire
-	à ruiner dans les esprits et à effacer complètement de nos lois.]))
+et ,(strong[c’est là]) le principe que l’Association aspire
+	à ruiner dans les esprits et à effacer complètement de nos lois.])
 [
 Certes, si nous n’avions poursuivi qu’une modification immédiate des tarifs,
 	si nous avions été, comme on l’a prétendu,
@@ -836,7 +832,7 @@ comme la conséquence rigoureuse d’un droit supérieur à la loi.
 Ce que nous voulions au fond, nous ne devions pas le dissimuler dans la forme.
 ][
 Le temps approche où l’on reconnaîtra que nous avons eu raison
-	de ne pas consentir à mettre, dans le titre de notre Association,
+	de ne pas consentir à mettre dans le titre de notre Association
 	un leurre, un piège, une surprise, une équivoque,
 	mais la franche expression d’un principe éternel
 		d’ordre et de justice,
@@ -849,7 +845,7 @@ comme un frisson d’effroi, la France toute entière.
 Au seul mot de ,(emph[communisme]), toutes les existences se sont alarmées.
 En voyant se produire au grand jour et presque officiellement
 	les systèmes les plus étranges,
-en voyant se succéder des décrets subversifs,
+en voyant se succéder des décrets subversifs
 	qui peuvent être suivis de décrets plus subversifs encore,
 chacun s’est demandé dans quelle voie nous marchions.
 Les capitaux se sont effrayés,
@@ -873,7 +869,7 @@ puisqu’ils en ont appelé ,(emph[à la loi])
 pour donner à leurs terres et à leurs produits une valeur factice.
 Ce sont les capitalistes qui ont suggéré l’idée
 du nivellement des fortunes ,(emph[par la loi]).
-Le ,(emph[protectionnisme]) a été l’avant-coureur du ,(emph[communisme]) ,(pv)
+Le ,(emph[protectionnisme]) a été l’avant-coureur du ,(emph[communisme ;])
 je dis plus, il a été sa première manifestation.
 Car, que demandent aujourd’hui les classes souffrantes ?
 Elles ne demandent pas autre chose que ce qu’ont demandé et obtenu
@@ -895,7 +891,7 @@ on voit vers quel abîme nous pousse cette première atteinte portée
 	aux conditions essentielles de toute sécurité sociale.
 N’est-ce pas une terrible leçon,
 	une preuve sensible de cet enchaînement de causes et d’effets,
-	par lequel apparût à la longue la justice
+	par lequel apparaît à la longue la justice
 		des rétributions providentielles,
 que de voir aujourd’hui les riches s’épouvanter
 	devant l’envahissement d’une fausse doctrine,
@@ -905,15 +901,14 @@ que de voir aujourd’hui les riches s’épouvanter
 Oui, prohibitionnistes, vous avez été les promoteurs du communisme.
 Oui, propriétaires, vous avez détruit dans les esprits
 	la vraie notion de la Propriété.
-][
 Cette notion, c’est l’Économie politique qui la donne,
 et vous avez proscrit l’Économie politique,
 parce que, au nom du droit de propriété,
-elle combattait vos injustes privilèges.
+elle combattait vos injustes priviléges.
 ,(--) Et quand elles ont saisi le pouvoir,
 quelle a été aussi la première pensée
-	de ces écoles modernes qui vous effraient ?
-c’est de supprimer l’Économie politique,
+	de ces écoles modernes qui vous effrayent ?
+C’est de supprimer l’Économie politique,
 	car la science économique,
 	c’est une protestation perpétuelle contre ce ,(emph[nivellement légal])
 		que vous avez recherché
@@ -931,33 +926,29 @@ Et maintenant, la folie de vos prétentions
 ,(--) Et si vous voulez conjurer l’orage qui menace de vous engloutir,
 il ne vous reste qu’une ressource.
 Reconnaissez votre erreur ;
-renoncez à vos privilèges ;
+renoncez à vos priviléges ;
 faites rentrer la Loi dans ses attributions ;
 renfermez le Législateur dans son rôle.
 Vous nous avez délaissés, vous nous avez attaqués,
 parce que vous ne nous compreniez pas sans doute.
-À l’aspect de l’abîme que vous avez ouvert de vos propres mains,
+A l’aspect de l’abîme que vous avez ouvert de vos propres mains,
 hâtez-vous de vous rallier à nous,
 dans notre propagande en faveur du droit de propriété,
 en donnant, je le répète, à ce mot sa signification la plus large,
 en y comprenant et les facultés de l’homme
 et tout ce qu’elles parviennent à produire,
-qu’il s’agisse de travail ou d’échange !
+qu’il s’agisse de travail ou d’échanges.
 ][
-La doctrine que nous défendons excite une certaine défiance,
+La doctrine que nous défendons ici excite une certaine défiance,
 à raison de son extrême simplicité ;
-elle se borne à demander à la loi Sécurité pour tous.
+elle se borne à demander à la loi ,(strong[sécurité]) pour tous.
 On a de la peine à croire que le mécanisme gouvernemental
 	puisse être réduit à ces proportions.
 De plus, comme cette doctrine renferme la ,(emph[Loi])
 	dans les limites de la ,(emph[Justice universelle]),
 	on lui reproche d’exclure la Fraternité.
 L’Économie politique n’accepte pas l’accusation.
-Ce sera l’objet d’un prochain article
-	,(footnote*[
-Voir ,(bof-ref "justice_fraternite"
-	(cite-title[Justice et fraternité])).
-]).
+Ce sera l’objet d’un ,(ref :url "justice_fraternite.html" [prochain article]).
 
 
 ])])

@@ -12,7 +12,7 @@
 ,(a :href :#e [E])
 ,(a :href :#j [J])
 ,(a :href :#m [M])
-,(a :href :#n [M])
+,(a :href :#n [N])
 ,(a :href :#p [P])
 ]))
 
@@ -85,14 +85,18 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(lettre "J" [
 
+,(journal "debats" "Journal des Débats" [
+,(ref :url "l_Etat.html" [L’État])
+])
+
+
+
 ,(journal "je" "Journal des Économistes" [
 ,(p*[,(ref :url "journaux_jde.html" [Articles publiés dans ce journal.])]
 [Simples allusions : ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])])
 
-])
-
-,(lettre "L" [
+]),(lettre "L" [
 
 ,(journal "le" "Le Libre-Échange" [
 ,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])])

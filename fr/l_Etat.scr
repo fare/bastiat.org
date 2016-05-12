@@ -5,20 +5,18 @@
 (document :title "L’État"
 	:author (author-FB)
 (bastiat[
-,(date-tag[
-Composition parue au ,(cite-title[Journal des Débats]),
-numéro du 25 septembre 1848.
-])
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 25 septembre 1848.])
 ,(p*[
 	
 Je voudrais qu’on fondât, un prix,
 non de cinq cents francs, mais d’un million,
 avec couronnes, croix et rubans,
 en faveur de celui qui donnerait
-une bonne, simple et intelligible définition de ce mot : l’État.
+une bonne, simple et intelligible définition de ce mot : l’,(strong[État]).
 ][
 	Quel immense service ne rendrait-il pas à la société !
-L’État !
+	][
+L’,(strong[État]) !
 	Qu’est-ce ?
 	où est-il ?
 	que fait-il ?
@@ -33,93 +31,88 @@ plus invoqué et le plus provoqué qu’il y ait au monde.
 	Car, Monsieur, je n’ai pas l’honneur de vous connaître,
 mais je gage dix contre un que depuis six mois vous faites
 des utopies ; et si vous en faites, je gage dix contre un que
-vous chargez l’État de les réaliser.
+vous chargez l’,(strong[État]) de les réaliser.
 ][
 	Et vous, Madame, je suis sûr que vous désirez du fond du
 c,(oe)ur guérir tous les maux de la triste humanité, et que vous
-n’y seriez nullement embarrassée si l’État voulait seulement
+n’y seriez nullement embarrassée si l’,(strong[État]) voulait seulement
 s’y prêter.
 ][
 	Mais, hélas ! le malheureux, comme Figaro,
 ne sait ni qui entendre, ni de quel côté se tourner.
 Les cent mille bouches de la presse et de la tribune
-lui crient à la fois :
-,(br)
-	,(q[Organisez le travail et les travailleurs.
-,(br)
+lui crient à la fois :])
+,(liste(p*[« Organisez le travail et les travailleurs.
+][
 	Extirpez l’égoïsme.
-,(br)
+][
 	Réprimez l’insolence et la tyrannie du capital.
-,(br)
+][
 	Faites des expériences sur le fumier et sur les ,(oe)ufs.
-,(br)
+][
 	Sillonnez le pays de chemins de fer.
-,(br)
+][
 	Irriguez les plaines.
-,(br)
+][
 	Boisez les montagnes.
-,(br)
-	Fondez des fermes-modèles
-,(br)
+][
+	Fondez des fermes-modèles.
+][
 	Fondez des ateliers harmoniques.
-,(br)
+][
 	Colonisez l’Algérie.
-,(br)
+][
 	Allaitez les enfants.
-,(br)
+][
 	Instruisez la jeunesse.
-,(br)
+][
 	Secourez la vieillesse.
-,(br)
+][
 	Envoyez dans les campagnes les habitants des villes.
-,(br)
+][
 	Pondérez les profits de toutes les industries.
-,(br)
+][
 	Prêtez de l’argent, et sans intérêt, à ceux qui en désirent.
-,(br)
+][
 	Affranchissez l’Italie, la Pologne et la Hongrie.
-,(br)
+][
 	Élevez et perfectionnez le cheval de selle.
-,(br)
+][
 	Encouragez l’art, formez-nous des musiciens et des danseuses.
-,(br)
+][
 	Prohibez le commerce et, du même coup, créez une marine marchande.
-,(br)
+][
 	Découvrez la vérité et jetez dans nos têtes un grain de raison.
 L’État a pour mission d’éclairer, de développer, d’agrandir,
-de fortifier, de spiritualiser et de sanctifier l’âme des peuples.])
+de fortifier, de spiritualiser et de sanctifier l’âme des peuples. »]))
 
-][
-	,(--) ,(q[Eh ! Messieurs, un peu de patience, répond l’État,
-d’un air piteux.])
-]
-(q[J’essaierai de vous satisfaire,
+,(p*[,(--) « Eh ! Messieurs, un peu de patience, répond l’,(strong[État]),
+d’un air piteux. ,(footnote*[Ici, la version du ,(cite-title[Journal des débats]) insère ce vers : Uno a la volta, per carità !, cité par ailleurs dans ,(ref :url "sel_poste_douane.html#rossini_ref" [Le sel, la poste, la douane]).])]
+[« J’essaierai de vous satisfaire,
 mais pour cela il me faut quelques ressources.
 J’ai préparé des projets concernant
 cinq ou six impôts tout nouveaux et les plus bénins du monde.
-Vous verrez quel plaisir on a à les payer.])
+Vous verrez quel plaisir on a à les payer. »]
 [
-	Mais alors un grand cri s’élève : ,(q[Haro ! haro !
+	Mais alors un grand cri s’élève : « Haro ! haro !
 le beau mérite de faire quelque chose avec des ressources !
-Il ne vaudrait pas la peine de s’appeler l’État.
+Il ne vaudrait pas la peine de s’appeler l’,(strong[État]).
 Loin de nous frapper de nouvelles taxes,
 nous vous sommons de retirer les anciennes.
-Supprimez :
-,(br)
-	L’impôt du sel ;
-,(br)
-	L’impôt des boissons ;
-,(br)
-	L’impôt des lettres ;
-,(br)
-	L’octroi ;
-,(br)
-	Les patentes ;
-,(br)
-	Les prestations.])
+Supprimez :])
+,(liste(p*[L’impôt du sel ;
 ][
-	Au milieu de ce tumulte,
-et après que le pays a changé deux ou trois fois son État
+	L’impôt des boissons ;
+][
+	L’impôt des lettres ;
+][
+	L’octroi ;
+][
+	Les patentes ;
+][
+	Les prestations. »]))
+,(p*[Au milieu de ce tumulte,
+et après que le pays a changé deux ou trois fois son ,(strong[État])
 pour n’avoir pas satisfait à toutes ces demandes,
 j’ai voulu faire observer qu’elles étaient contradictoires.
 De quoi me suis-je avisé, bon Dieu !
@@ -137,7 +130,7 @@ J’ai tort, sans doute, et je me rétracte de grand c,(oe)ur.
 Je ne demande pas mieux, soyez-en sûrs,
 que vous ayez vraiment découvert, en dehors de nous,
 un être bienfaisant et inépuisable,
-s’appelant l’État,
+s’appelant l’,(strong[État]),
 qui ait du pain pour toutes les bouches,
 du travail pour tous les bras,
 des capitaux pour toutes les entreprises,
@@ -154,7 +147,7 @@ qui pourvoie à tous nos besoins,
 prévienne tous nos désirs,
 satisfasse toutes nos curiosités,
 redresse toutes nos erreurs,
-toutes nos fautes,
+répare toutes nos fautes,
 et nous dispense tous désormais
 de prévoyance,
 de prudence,
@@ -172,7 +165,7 @@ et il me tarde d’avoir, moi aussi, à ma portée,
 cette source intarissable de richesses et de lumières,
 ce médecin universel,
 ce trésor sans fond,
-ce conseiller infaillible que vous nommez l’État.
+ce conseiller infaillible que vous nommez l’,(strong[État]).
 ][
 	Aussi je demande qu’on me le montre,
 qu’on me le définisse,
@@ -180,16 +173,16 @@ et c’est pourquoi je propose la fondation d’un prix
 pour le premier qui découvrira ce phénix.
 Car enfin, on m’accordera bien que
 cette découverte précieuse n’a pas encore été faite,
-puisque, jusqu’ici, tout ce qui se présente sous le nom d’État,
+puisque, jusqu’ici, tout ce qui se présente sous le nom d’,(strong[État]),
 le peuple le renverse aussitôt, précisément
 parce qu’il ne remplit pas les conditions
 quelque peu contradictoires du programme.
 ][
-	Faut-il le dire ? Je crains que nous ne soyons, à cet égard,
+Faut-il le dire ? Je crains que nous ne soyons, à cet égard,
 dupes d’une des plus bizarres illusions qui se soient jamais
 emparées de l’esprit humain.
 ][
-	L’homme répugne à la Peine, à la Souffrance.
+L’homme répugne à la Peine, à la Souffrance.
 Et cependant il est condamné par la nature
 à la Souffrance de la Privation,
 s’il ne prend pas la Peine du Travail.
@@ -197,7 +190,7 @@ Il n’a donc que le choix entre ces deux maux.
 ][
 	Comment faire pour les éviter tous deux ?
 Il n’a jusqu’ici trouvé et ne trouvera jamais qu’un moyen :
-c’est de ,(emph[jouir du travail d’autrui]) ,(pv)
+c’est de ,(emph[jouir du travail d’autrui ;])
 c’est de faire en sorte que la Peine et la Satisfaction
 n’incombent pas à chacun selon la proportion naturelle,
 mais que toute la peine soit pour les uns
@@ -240,13 +233,13 @@ Je voudrais bien, pour établir l’équilibre désiré,
 prendre quelque peu sur le bien d’autrui.
 Mais c’est dangereux.
 Ne pourriez-vous me faciliter la chose ?
-Ne pourriez-vous me donner une bonne place ?
-Ou bien gêner l’industrie de mes concurrents ?
-Ou bien encore me prêter gratuitement des capitaux
+ne pourriez-vous me donner une bonne place ?
+ou bien gêner l’industrie de mes concurrents ?
+ou bien encore me prêter gratuitement des capitaux
 que vous aurez pris à leurs possesseurs ?
-Ou élever mes enfants aux frais du public ?
-Ou m’accorder des primes d’encouragement ?
-Ou m’assurer le bien-être quand j’aurai cinquante ans ?
+ou élever mes enfants aux frais du public ?
+ou m’accorder des primes d’encouragement ?
+ou m’assurer le bien-être quand j’aurai cinquante ans ?
 Par ce moyen, j’arriverai à mon but en toute quiétude de conscience,
 car la loi elle-même aura agi pour moi,
 et j’aurai tous les avantages de la spoliation
@@ -261,7 +254,10 @@ sans ajouter au travail des autres,
 en attendant une autre définition de l’État,
 je me crois autorisé à donner ici la mienne.
 Qui sait si elle ne remportera pas le prix ?
-La voici :
+La voici : ,(footnote*[Le long passage qui commence à “L’homme répugne à la peine…” et s’achève ici se trouve très abrégé dans le ,(cite-title[Journal des débats]). En voici le texte :]
+[« La plupart, la presque totalité des choses qui peuvent nous procurer une satisfaction, ou nous délivrer d’une souffrance, doivent être achetées par un ,(emph[effort]), une ,(emph[peine]). Or à toutes les époques, on a pu remarquer chez les hommes un triste penchant à séparer en deux ce lot complexe de la vie, gardant pour eux la satisfaction et rejetant la peine sur autrui. Ce fut l’objet de l’Esclavage ; c’est encore l’objet de la Spoliation, quelque forme qu’elle prenne, abus monstrueux, mais conséquens, on ne peut le nier, avec le but qui leur a donné naissance.]
+[L’Esclavage a disparu, grâce au ciel, et la Spoliation directe et naïve n’est pas facile. Une seule chose est restée, ce malheureux penchant primitif à faire deux parts des conditions de la vie. Il ne s’agissait plus que de trouver le bouc émissaire sur qui en rejeter la portion fatigante et onéreuse. L’,(strong[État]) s’est présenté fort à propos.]
+[Donc, en attendant une autre définition, voici la mienne :])
 ][
 	,(strong[L’État]),
 ,(emph[c’est la grande fiction à travers laquelle])
@@ -306,17 +302,18 @@ qu’il n’en est pas moins criminel
 parce qu’il s’exécute légalement et avec ordre ;
 qu’il n’ajoute rien au bien-être public ;
 qu’il le diminue au contraire de tout ce que coûte
-cet intermédiaire dispendieux que nous nommons l’État ?
+cet intermédiaire dispendieux que nous nommons l’,(strong[État]) ?
 ][
 	Et cette grande chimère, nous l’avons placée,
 pour l’édification du peuple,
 au frontispice de la Constitution.
 Voici les premiers mots du préambule :
+][
 ,(q[La France s’est constituée en République pour…
 appeler tous les citoyens à un degré toujours plus élevé
 de moralité, de lumière et de bien-être.])
 ][
-	Ainsi, c’est la France ou ,(emph[l’abstraction]),
+Ainsi, c’est la France ou l’,(emph[abstraction])
 qui appelle les Français ou les ,(emph[réalités])
 à la moralité, au bien-être, etc.
 N’est-ce pas abonder dans le sens de cette bizarre illusion
@@ -340,7 +337,7 @@ je ne dirai pas sans inconvénient,
 mais même avec avantage.
 L’exactitude souffrirait-elle si le préambule avait dit :
 ][
-	,(q[Les Français se sont constitués en République
+,(q[Les Français se sont constitués en République
 pour appeler la France à un degré toujours plus élevé
 de moralité, de lumière et de bien-être ?])
 ][
@@ -353,26 +350,26 @@ Mais il serait ridicule de dire : l’enfant allaitera la mère.
 des relations des citoyens avec l’État,
 quand ils placèrent en tête de leur Constitution ces simples paroles :
 ][
-	,(q[Nous, le peuple des États-Unis,
+,(q[Nous, le peuple des États-Unis,
 pour former une union plus parfaite, établir la justice,
 assurer la tranquillité intérieure, pourvoir à la défense commune,
 accroître le bien-être général et assurer les bienfaits de la liberté
 à nous-mêmes et à notre postérité, décrétons, etc.])
 ][
 	Ici point de création chimérique,
-point d’abstraction à laquelle les citoyens demandent tout.
+point d’,(emph[abstraction]) à laquelle les citoyens demandent tout.
 Ils n’attendent rien que d’eux-mêmes et de leur propre énergie.
 ][
 	Si je me suis permis de critiquer
 les premières paroles de notre Constitution,
 c’est qu’il ne s’agit pas, comme on pourrait le croire,
 d’une pure subtilité métaphysique.
-Je prétends que cette ,(emph[personnification]) de l’État
+Je prétends que cette ,(emph[personnification]) de l’,(strong[État])
 a été dans le passé et sera dans l’avenir
 une source féconde de calamités et de révolutions.
 ][
 	Voilà le Public d’un côté, l’État de l’autre,
-considérés comme deux être distincts,
+considérés comme deux êtres distincts,
 celui-ci tenu d’épandre sur celui-là,
 celui-là ayant droit de réclamer de celui-ci le torrent des félicités humaines.
 Que doit-il arriver ?
@@ -402,19 +399,19 @@ dans un cercle vicieux manifeste.
 ][
 	S’il refuse le bien qu’on exige de lui,
 il est accusé d’impuissance, de mauvais vouloir, d’incapacité.
-S’il essaie de le réaliser,
+S’il essaye de le réaliser,
 il est réduit à frapper le peuple de taxes redoublées,
 à faire plus de mal que de bien,
 et à s’attirer, par un autre bout, la désaffection générale.
 ][
-	Ainsi, dans le public des espérances, dans le gouvernement
+	Ainsi, dans le public deux espérances, dans le gouvernement
 deux promesses :
 ,(emph[beaucoup de bienfaits et pas d’impôts]).
 Espérances et promesses qui, étant contradictoires, ne se réalisent jamais.
 ][
 	N’est-ce pas là la cause de toutes nos révolutions ?
-Car entre l’État, qui prodigue les promesses impossibles,
-et le public, qui a conçu des espérances irréalisables,
+Car entre l’État qui prodigue les promesses impossibles,
+et le public qui a conçu des espérances irréalisables,
 viennent s’interposer deux classes d’hommes :
 les ambitieux et les utopistes.
 Leur rôle est tout tracé par la situation.
@@ -462,12 +459,13 @@ bref, il se proclame ,(emph[gouvernemental]).
 	Et c’est là que d’autres courtisans de popularité l’attendent.
 Ils exploitent la même illusion, passent par la même voie,
 obtiennent le même succès, et vont bientôt s’engloutir dans le même gouffre.
+][
 C’est ainsi que nous sommes arrivés en Février.
 À cette époque, l’illusion qui fait le sujet de cet article
 avait pénétré plus avant que jamais dans les idées du peuple,
 avec les doctrines socialistes.
 Plus que jamais, il s’attendait à ce que
-l’,(emph[État]) sous la forme républicaine,
+l’,(emph[État]), sous la forme républicaine,
 ouvrirait toute grande la source des bienfaits et fermerait celle de l’impôt.
 ,(q[On m’a souvent trompé, disait le peuple,
 mais je veillerai moi-même à ce qu’on ne me trompe pas encore une fois.])
@@ -475,14 +473,14 @@ mais je veillerai moi-même à ce qu’on ne me trompe pas encore une fois.])
 	Que pouvait faire le gouvernement provisoire ?
 Hélas ! ce qu’on fait toujours en pareille conjoncture :
 promettre, et gagner du temps.
-Il n’y manque pas,
+Il n’y manqua pas,
 et pour donner à ses promesses plus de solennité,
 il les fixa dans des décrets.
 ,(q[Augmentation de bien-être, diminution de travail, secours,
 crédit, instruction gratuite, colonies agricoles, défrichements,
 et en même temps réduction sur la taxe du sel, des boissons,
 des lettres, de la viande, tout sera accordé…
-vienne l’Assemblée nationale]).
+vienne l’Assemblée nationale.])
 ][
 	L’Assemblée nationale est venue,
 et comme on ne peut réaliser deux contradictions,
@@ -538,7 +536,7 @@ toutes les jouissances intellectuelles qui élèvent et fortifient l’âme.])
 	Il doit :
 ][
 ,(q[Réparer tout sinistre, incendie, inondation, etc.
-(cet ,(inlatin[et caetera]) en dit plus qu’il n’est gros)
+(cet ,(inlatin[et cætera]) en dit plus qu’il n’est gros)
 éprouvé par un citoyen.])
 ][
 	Il doit : 
@@ -559,7 +557,7 @@ avec cette capacité industrielle qui le caractérise.
 ][
 	Il doit :
 ][
-,(q[provoquer les tentatives généreuses, les encourager
+,(q[Provoquer les tentatives généreuses, les encourager
 et les aider par toutes les ressources capables de les faire triompher.
 Régulateur du crédit, il commanditera largement
 les associations industrielles et agricoles,
@@ -569,8 +567,8 @@ L’État doit tout cela,
 sans préjudice des services auxquels il fait face aujourd’hui ;
 et, par exemple, il faudra qu’il soit toujours
 à l’égard des étrangers dans une attitude menaçante ;
-car, disent les signataires du programme,
-,(q[liés par cette solidarité sainte
+car, disent les signataires du programme :
+,(q[Liés par cette solidarité sainte
 et par les précédents de la France républicaine,
 nous portons nos v,(oe)ux et nos espérances au-delà des barrières
 que le despotisme élève entre les nations :
@@ -608,18 +606,14 @@ mais je ne me doutais pas qu’on la pût mettre
 dans le bulletin du percepteur.
 ][
 	Arrivant aux détails, les signataires du programme disent :
-]
-(q[Nous voulons l’abolition immédiate des impôts
+])
+,(liste(p*[« Nous voulons l’abolition immédiate des impôts
 qui frappent les objets de première nécessité,
-comme le sel, les boissons, ,(inlatin[et caetera]).])
-
-(q[La réforme de l’impôt foncier, des octrois, des patentes.])
-
-[,(q[La justice gratuite, c’est-à-dire
-la simplification des formes et la réduction des frais.])
-(Ceci a sans doute trait au timbre.)
-][
-	Ainsi, impôt foncier, octrois, patentes, timbre,
+comme le sel, les boissons, ,(inlatin[et cætera]).]
+[« La réforme de l’impôt foncier, des octrois, des patentes.]
+[« La justice gratuite, c’est-à-dire
+la simplification des formes et la réduction des frais. » (Ceci a sans doute trait au timbre.)]))
+,(p*[Ainsi, impôt foncier, octrois, patentes, timbre,
 sel, boissons, postes, tout y passe.
 Ces messieurs ont trouvé le secret de donner une activité brûlante
 à la ,(emph[main douce]) de l’État tout en paralysant sa ,(emph[main rude]).
