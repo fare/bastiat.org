@@ -732,3 +732,33 @@
 	"Cinq lettres à M. et Mme Cheuvreux")
   (P 7 436 445 "lettres_paillottet"
 	"Huit lettres à M. Paillottet")))))
+
+(define personnes-db `(
+	(bastiat :nom "Bastiat" :prenom "Frédéric")
+	(calmetes :nom "Calmètes" :prenom "Victor")
+))
+
+(define lieux-db `(
+	(bayonne :nom "Bayonne")
+	(mugron :nom "Mugron")
+))
+
+
+(define bastiat-db `(
+	(lettre_calmetes1819 :date "1819-09-12" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1820a :date "1820-03-05" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1820b :date "1820-03-18" :lettre (:de bastiat :a calmetes))
+	(lettre_calmetes1820c :date "1820-09-10" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1820d :date "1820-10" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1821a :date "1821-04-29" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1821b :date "1821-09-10" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1821c :date "1821-12-08" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1822a :date "1822-10-20" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1822b :date "1822-12" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1829a :date "1829-03-12" :lettre (:de bastiat :a calmetes :lieu mugron))
+	(lettre_calmetes1829b :date "1829-07" :lettre (:de bastiat :a calmetes :lieu mugron))
+	(lettre_calmetes1831 :date "1831-04-22" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_calmetes1846 :date "1846-03-04" :lettre (:de bastiat :a calmetes :lieu bayonne))
+	(lettre_fausse :date "1846-03-04" :truc (:de bastiat :a calmetes :lieu bayonne))
+))
+

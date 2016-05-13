@@ -17,6 +17,8 @@ Infrastructure
 
   * Réparer liens vers Gallica.
 
+  * Mettre les notes de bas de page dans une div, pour pouvoir au moins les styler un peu en attendant de les mettre en marge...
+
 Trucs de Laura que Faré a le droit de regarder
 ----------------------------------------------
 
@@ -26,9 +28,7 @@ Trucs de Laura que Faré a le droit de regarder
 
   * Faire un super header élastique avec du javascript <3
 
-  * Trouver comment mettre les notes de bas de page dans une div, pour pouvoir au moins les styler un peu en attendant de les mettre en marge...
-
-  * Responsive design. Menu de gauche avec intro + plan: sur les petits écrans, doit être caché à gauche et s'afficher en glissant à droite quand on clique dessus; les notes, en marge droite sur les grands écrans, devraient être invisibles sur les  petits écrans et s'afficher par clic sur l'appel de note, sous forme de mini-fenêtre fermable, par-dessus le texte.
+  * Responsive design. Menu de gauche avec intro + plan: sur les petits écrans, doit être caché à gauche et s'afficher en glissant à droite quand on clique dessus (?); les notes, en marge droite sur les grands écrans, pourraient être invisibles sur les  petits écrans et s'afficher par clic sur l'appel de note, sous forme de mini-fenêtre fermable, par-dessus le texte.
  
 
 Trucs de Laura, par Laura et pour Laura
