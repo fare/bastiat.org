@@ -34,7 +34,7 @@ Trucs de Laura que Faré a le droit de regarder
 Trucs de Laura, par Laura et pour Laura
 ---------------------------------------
 
-  * Ajouter tableaux dans: De l'avenir du commerce des vins; Démocratie et libre-échange
-    (format image? car gros gros tableau)
+  * Ajouter tableaux dans: De l'avenir du commerce des vins; Démocratie et libre-échange;
+    (format image? car gros gros tableau); Considérations sur le métayage
 
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)

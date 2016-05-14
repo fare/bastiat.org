@@ -2,8 +2,8 @@ body {
 	margin: 0 0 1.5em 0; padding: 0; /*margin top 6em pour les pages avec header inamovibles...*/
 }
 
-a:link, a:visited {text-decoration: none; color: #33f;}
-a:hover {color: #950;}
+a:link, a:visited {text-decoration: none; color: #33f; z-index:5;}
+a:hover {color: #035;}
 a[name] {
 	display: inline-block;
     position: relative;
@@ -37,33 +37,27 @@ sup {line-height: 0;}
 }
 
 @font-face{
-    font-family:'bastiatsc';
-    src:url("fonts/OLDSSCH_.TTF");
+    font-family:'autre';
+    src:url("fonts/Simonetta-Regular.ttf");
     font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'autre';
+    src:url("fonts/Simonetta-Italic.ttf");
+    font-weight:normal;font-style:italic;
 }
 
 @font-face{
-    font-family:'accanthis';
-    src:url("fonts/Servus_text_display.otf");
-    font-weight:normal;font-style:normal;
-}
-@font-face{
-    font-family:'accanthis';
-    src:url("fonts/Servus_text_display_italic.ttf");
-    font-weight:normal;font-style:italic;
-}
-/*
-@font-face{
-    font-family:'accanthis';
-    src:url("fonts/AccanthisADFStd-Bold.otf");
+    font-family:'autre';
+    src:url("fonts/Simonetta-Black.ttf");
     font-weight:bold;font-style:normal;
 }
 @font-face{
-    font-family:'accanthis';
-    src:url("fonts/AccanthisADFStd-BoldItalic.otf");
+    font-family:'autre';
+    src:url("fonts/Simonetta-BlackItalic.ttf");
     font-weight:bold;font-style:italic;
 }
-*/
+
 
 /*Styles des sommaires*/
 
@@ -71,7 +65,14 @@ sup {line-height: 0;}
 	margin: 3em auto;
 	width: 90%;
 	font-size: 1.05em;
-	font-family: "accanthis";
+	font-family: "autre";
+	text-align: justify;
+}
+
+.sommaire .chapeau {
+	width:75%;
+	margin:auto;
+	margin-bottom: 2em;
 }
 
 .sommaire ul {
@@ -89,26 +90,23 @@ sup {line-height: 0;}
 	display: inline-block;
 	min-width: 17%;
 	text-align: right;
-	padding: 0 0em 0 0;
 	height: 1.5em;
 	white-space: nowrap;
 	vertical-align: middle;
 }
 
 .sommaire ul .titre {
-	font-style: italic;
 	text-align: justify;
 	display: inline-block;
 	width: 80%;
 	float: right;
-	margin-top: -0.2em;
 	vertical-align: middle;
 	font-size: large;
 }
-.titre em {font-style: normal;}
+/*.titre em {font-style: normal;}*/
 
-.titre a:link, .titre a:visited {color: green;}
-.titre a:hover {color: #c00;}
+.titre a:link, .titre a:visited {color: #952;}
+.titre a:hover {color: #ca2;}
 
 .sommaire ul .about {
 	display: block;
@@ -139,7 +137,7 @@ sup {line-height: 0;}
 	font-variant: small-caps;
 	font-weight: normal;
 	margin: 2em 0;
-	font-family: accanthis;
+	font-family: autre;
 	font-size: 1.3em;
 }
 h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
@@ -169,6 +167,7 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 .bastiat p.noselect {
 	color: #444;
 	text-align: right;
+	font-family: autre;
 	font-style: italic;
 	padding-top: 2em;
 	user-select: none;
@@ -304,6 +303,7 @@ table.vers {
 	width: 100%;
 	text-align: center;
 	z-index:5;
+	font-family: "autre";
 }
 
 .footer {
@@ -315,7 +315,6 @@ background-color: rgba(255,255,255,0.8); /*#9c0;*/
 .header {
 top: 0;
 height: 5em;
-font-family: bastiat;
 background-color: #cf0;
 color: #070;
 display: flex;
@@ -392,7 +391,7 @@ margin: auto;
 	width: 12%; height: 100%;
 	background-color: rgba(255,230,100,1);
 	padding: 10em 1em;
-	font-family: accanthis;
+	font-family: autre;
 	text-align: justify;
 	z-index:3;
 	overflow: auto;
@@ -409,7 +408,7 @@ margin: auto;
 	font-size: 0.8em;
 	line-height: 1em;
 	border: red 1px solid;
-	font-family: accanthis;
+	font-family: autre;
 
 }
 

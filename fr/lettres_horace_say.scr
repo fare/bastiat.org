@@ -6,6 +6,9 @@
 (document :title "Lettres à Horace Say"
 	:author (author-FB)
 (sommaire[
+
+,(chapeau[Les sept lettres ci-dessous sont issues des volumes 1 et 7 de l’édition orginale des ,(cite-title[Œuvres complètes]) : les cinq premières figurent dans le volume 7, et les deux dernières dans le volume 1.])
+
 ,(itemize
   (item (ref :url "lettre_horace_say1844.html" [24 novembre 1844]))
   (item (ref :url "lettre_horace_say1847.html" [Octobre 1847]))
