@@ -219,6 +219,9 @@
 
 ;Classe "bastiat" pour enrober le texte de Bastiat
 (defun bastiat (&rest r) (div :class "bastiat" r))
+;pour les textes d'autres auteurs
+(defun other (&rest r) (div :class "other" r))
+
 (defun sommaire (&rest r) (div :class "sommaire" r))
 (defun chapeau (&rest r) (div :class "chapeau" r))
 

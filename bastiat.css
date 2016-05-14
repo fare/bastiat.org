@@ -37,23 +37,23 @@ sup {line-height: 0;}
 }
 
 @font-face{
-    font-family:'autre';
+    font-family:'paratexte';
     src:url("fonts/Simonetta-Regular.ttf");
     font-weight:normal;font-style:normal;
 }
 @font-face{
-    font-family:'autre';
+    font-family:'paratexte';
     src:url("fonts/Simonetta-Italic.ttf");
     font-weight:normal;font-style:italic;
 }
 
 @font-face{
-    font-family:'autre';
+    font-family:'paratexte';
     src:url("fonts/Simonetta-Black.ttf");
     font-weight:bold;font-style:normal;
 }
 @font-face{
-    font-family:'autre';
+    font-family:'paratexte';
     src:url("fonts/Simonetta-BlackItalic.ttf");
     font-weight:bold;font-style:italic;
 }
@@ -65,7 +65,7 @@ sup {line-height: 0;}
 	margin: 3em auto;
 	width: 90%;
 	font-size: 1.05em;
-	font-family: "autre";
+	font-family: "paratexte";
 	text-align: justify;
 }
 
@@ -117,19 +117,27 @@ sup {line-height: 0;}
 
 /*Styles du texte de Bastiat*/
 
-.bastiat {
+
+
+.bastiat, .other {
 	width: 58%;
 	min-width: 20em;
 	margin: 3em auto;
-	font-family: "bastiat";
 	font-size: 1.2em; /*1.2*/
 	/*line-height: 1.8em;*/ /*1.8*/
 }
 @media only screen and (max-width: 25cm) {
-	.bastiat {
+	.bastiat, .other {
 		width: 80%;
 		font-size: 1.2em;
 	}
+}
+
+.bastiat {
+	font-family: 'bastiat';
+}
+.other {
+	font-family: 'paratexte';
 }
 
 .bastiat h2 {
@@ -137,7 +145,7 @@ sup {line-height: 0;}
 	font-variant: small-caps;
 	font-weight: normal;
 	margin: 2em 0;
-	font-family: autre;
+	font-family: paratexte;
 	font-size: 1.3em;
 }
 h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
@@ -149,7 +157,7 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 	padding-top: 1em;
 }
 
-.bastiat p {
+.bastiat p, .other p {
 	text-indent: 1.4em;
 	margin: 0.5em 0;
 	line-height:1.2em;
@@ -167,7 +175,7 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 .bastiat p.noselect {
 	color: #444;
 	text-align: right;
-	font-family: autre;
+	font-family: paratexte;
 	font-style: italic;
 	padding-top: 2em;
 	user-select: none;
@@ -303,7 +311,7 @@ table.vers {
 	width: 100%;
 	text-align: center;
 	z-index:5;
-	font-family: "autre";
+	font-family: "paratexte";
 }
 
 .footer {
@@ -391,7 +399,7 @@ margin: auto;
 	width: 12%; height: 100%;
 	background-color: rgba(255,230,100,1);
 	padding: 10em 1em;
-	font-family: autre;
+	font-family: paratexte;
 	text-align: justify;
 	z-index:3;
 	overflow: auto;
@@ -408,7 +416,7 @@ margin: auto;
 	font-size: 0.8em;
 	line-height: 1em;
 	border: red 1px solid;
-	font-family: autre;
+	font-family: paratexte;
 
 }
 

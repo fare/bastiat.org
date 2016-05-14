@@ -5,9 +5,8 @@
 (document :title "Baccalauréat et socialisme"
 	:author (author-FB)
 (bastiat[
+,(cher[Citoyens représentants,])
 ,(p*[
-,(strong[Citoyens représentants,])
-][
 J’ai soumis à l’Assemblée un amendement qui a pour objet
 ,(emph[la suppression des grades universitaires]).
 Ma santé ne me permet pas de le développer à la tribune.
@@ -42,7 +41,7 @@ Comment est-il arrivé que l’enseignement, en France,
 soit demeuré uniforme et stationnaire, à partir des ténèbres du moyen âge ?
 Parce qu’il a été monopolisé et renfermé, par les grades universitaires,
 dans un cercle infranchissable.
-][
+][,(tag :a :name "epicure_ref")
 Il fut un temps où, pour arriver à quelque connaissance que ce soit,
 il était aussi nécessaire d’apprendre le latin et le grec,
 qu’il était indispensable aux Basques et aux Bas-Bretons
@@ -50,7 +49,7 @@ de commencer par apprendre le français.
 Les langues vivantes n’étaient pas fixées ;
 l’imprimerie n’avait pas été découverte ;
 l’esprit humain ne s’était pas appliqué à pénétrer les secrets de la nature.
-Être instruit, c’était savoir ce qu’avaient pensé Epicure et Aristote.
+Être instruit, c’était savoir ce qu’avaient pensé ,(np "epicure" [Épicure]) et ,(np "aristote" [Aristote]).
 Dans les rangs élevés on se vantait de ne savoir pas lire.
 Une seule classe possédait et communiquait l’instruction, celle des Clercs.
 Quelle pouvait être alors cette instruction ?
@@ -81,7 +80,7 @@ que de l’oublier ?
 ,(--) Hélas ! que ne peut-on oublier aussi vite
 les impressions que laisse cette funeste étude !
 ][
-Que lirions-nous si, à Saint-Cyr,
+Que dirions-nous si, à Saint-Cyr,
 pour préparer la jeunesse aux sciences militaires modernes,
 on lui enseignait exclusivement à lancer des pierres avec la fronde ?
 ][
@@ -127,7 +126,7 @@ C’est une grande illusion.
 L’État, ou pour mieux dire le parti, la faction, la secte,
 	l’homme qui s’empare momentanément, et même très légalement,
 	de l’influence gouvernementale,
-peut donner à l’enseignement la direction qui lui plaît,
+peut donner à l’enseignement la direction qu’il lui plaît,
 	et façonner à son gré toutes les intelligences
 	par le seul mécanisme des grades.
 ][
@@ -144,16 +143,16 @@ Nous pouvons penser que celui-là est le mieux instruit
 	qui se fait l’idée la plus exacte des phénomènes
 	et sait le mieux l’enchaînement des effets aux causes.
 Nous voudrions baser l’enseignement sur cette donnée.
-,(--) Mais l’État a une autre idée.
-Il pense qu’être savant c’est être en mesure de scander les vers de Plaute,
-et de citer, sur le feu et sur l’air, les opinions de Thalès et de Pythagore.
+,(tag :a :name "plaute_ref"),(--) Mais l’État a une autre idée.
+Il pense qu’être savant c’est être en mesure de scander les vers de ,(np "plaute" [Plaute]),
+et de citer, sur le feu et sur l’air, les opinions de ,(np "thales" [Thalès]) et de ,(np "pythagore" [Pythagore]).
 ][
 Or que fait l’État ?
 Il nous dit :
 Enseignez ce que vous voudrez à votre élève ;
 mais quand il aura vingt ans,
-je le ferai interroger sur les opinions de Pythagore et de Thalès,
-je lui ferai scander les vers de Plaute,
+je le ferai interroger sur les opinions de ,(np "pythagore" [Pythagore]) et de ,(np "thales" [Thalès]),
+je lui ferai scander les vers de ,(np "plaute" [Plaute]),
 et, s’il n’est assez fort en ces matières
 	pour me prouver qu’il y a consacré toute sa jeunesse,
 il ne pourra être
@@ -179,7 +178,7 @@ Fausser l’esprit humain, c’est le problème
 	que semblent s’être posé et qu’ont résolu
 		les corps auxquels a été livré le monopole de l’enseignement.
 C’est ce que je vais essayer de démontrer.
-][
+](nbsp)[
 Depuis le commencement de ce débat,
 l’Université et le Clergé se renvoient les accusations comme des balles.
 Vous pervertissez la jeunesse avec votre rationalisme philosophique,
@@ -191,12 +190,12 @@ La religion et la philosophie sont s,(oe)urs.
 Fusionnons le libre examen et l’autorité.
 Université, Clergé, vous avez eu tour à tour le monopole ;
 partagez-le, et que ça finisse.
-][
-Nous avons entendu le vénérable évêque de Langres
+][,(tag :a :name "parisis_ref")
+Nous avons entendu le vénérable ,(np "parisis" [évêque de Langres])
 apostropher ainsi l’Université :
 ,(q[C’est vous qui nous avez donné la génération socialiste de 1848.])
 ][
-Et M. Crémieux s’est hâté de rétorquer l’apostrophe en ces termes :
+Et ,(np "cremieux" [M. Crémieux]) s’est hâté de rétorquer l’apostrophe en ces termes :
 ,(q[C’est vous qui avez élevé la génération révolutionnaire de 1793.])
 ][
 S’il y a du vrai dans ces allégations, que faut-il en conclure ?
@@ -220,7 +219,7 @@ mais qui fera comprendre ma pensée.
 ][
 Je suppose donc qu’il existe quelque part, aux antipodes,
 une nation qui, haïssant et méprisant le travail,
-ait fondé tousses moyens d’existence
+ait fondé tous ses moyens d’existence
 sur le pillage successif de tous les peuples voisins et sur l’esclavage.
 Cette nation s’est fait
 une politique, une morale, une religion, une opinion publique
@@ -280,7 +279,7 @@ par le redoutable inconvénient de faire pénétrer dans l’âme de la France,
 avec la langue des Romains,
 leurs idées, leurs sentiments, leurs opinions
 et la caricature de leurs m,(oe)urs ?
-][
+](nbsp)[
 Depuis que Dieu a prononcé sur les hommes cet arrêt :
 ,(it[Vous mangerez votre pain à la sueur de votre front]), ,(XXX)
 ,(--) l’existence est pour eux une si grande, si absorbante affaire
@@ -323,15 +322,15 @@ et à ce point que les mots mêmes destinés à exprimer
 les relations les plus fondamentales, comme les mots
 famille, propriété, liberté, vertu, société, gouvernement, république, peuple,
 ne peuvent représenter, chez l’une et chez l’autre, les mêmes idées.
-][
-Un peuple de guerrier comprend bientôt
+][,(tag :a :name "platon_ref")
+Un peuple de guerriers comprend bientôt
 que la Famille peut affaiblir le dévouement militaire
 (nous le sentons nous-mêmes, puisque nous l’interdisons à nos soldats),(pv)
 cependant, il ne faut pas que la population s’arrête.
 Comment résoudre le problème ?
-Comme firent Platon en théorie et Lycurgue en pratique :
+Comme firent ,(np "platon" [Platon]) en théorie et ,(np "lycurgue" [Lycurgue]) en pratique :
 par la ,(emph[promiscuité]).
-Pluton, Lycurgue,
+,(np "platon" [Platon]), ,(np "lycurgue" [Lycurgue]),
 voilà pourtant des noms qu’on nous habitue à ne prononcer qu’avec idolâtrie.
 ][
 Pour ce qui est de la Propriété,
@@ -379,8 +378,8 @@ l’intervention des tribuns,
 la popularité des conspirateurs ;
 de là cette maxime : ,(inlatin[Malo periculosam libertatem]), etc.,
 passée dans notre langue,
-et dont j’enrichissais, au collége, ,(XXX :sic)
-tous mes livres de classe
+et dont j’enrichissais, au collége,
+tous mes livres de classe :
 ](verses
 	[Ô liberté ! que tes orages]
 	[Ont de charme pour les grands c,(oe)urs !]
@@ -405,13 +404,13 @@ enchaîner des femmes, des enfants, des vieillards aux chars de triomphe,
 c’était là la gloire,
 c’était là la vertu.
 C’est à ces atrocités qu’étaient réservés
-le marbre des statuaires et le chant des poëtes. ,(XXX :sic)
+le marbre des statuaires et le chant des poëtes.
 Combien de fois nos jeunes c,(oe)urs n’ont-ils pas
 palpité d’admiration, hélas ! et d’émulation à ce spectacle !
 C’est ainsi que nos professeurs, prêtres vénérables,
 pleins de jours et de charité,
 nous préparaient à la vie chrétienne et civilisée,
-tant est grande la puissance du ,(emph[conventionalisme]) !
+tant est grande la puissance du ,(emph[conventionalisme !])
 ][
 La leçon n’a pas été perdue ;
 et c’est de Rome sans doute que nous vient
@@ -451,15 +450,15 @@ Cette idée n’était pas aussi erronée autrefois qu’elle l’est de nos jou
 Rome, Sparte, c’était bien des associations d’hommes
 	ayant un but commun et déterminé : le pillage ;
 ce n’était pas précisément des sociétés mais des armées.
-][
+][,(tag :a :name "minos_ref")
 L’autre, corollaire de la précédente :
 Que ,(emph[la loi créé les droits]),
 et que, par suite, le législateur et l’humanité sont entre eux
 dans les mêmes rapports que le potier et l’argile.
-Minos, Lycurgue, Solon, Numa
+,(np "minos" [Minos]), ,(np "lycurgue" [Lycurgue]), ,(np "solon" [Solon]), ,(np "numa" [Numa])
 	avaient fabriqué les sociétés
 		crétoise, macédoniennes, athénienne, romaine.
-Platon était fabriquant de républiques imaginaires
+,(np "platon" [Platon]) était fabriquant de républiques imaginaires
 	devant servir de modèles
 		aux futurs ,(emph[instituteurs des peuples])
 			et ,(emph[pères des nations]).
@@ -468,7 +467,7 @@ Or, remarquez-le bien, ces deux idées forment le caractère spécial,
 	le cachet distinctif du ,(emph[socialisme]),
 en prenant ce mot dans le sens défavorable
 	et comme la commune étiquette de toutes les utopies sociales.
-][
+][,(tag :a :name "rousseau_ref")
 Quiconque, ignorant que le corps social est un ensemble de lois naturelles,
 comme le corps humain, rêve de créer une société artificielle,
 et se prend à manipuler à son gré
@@ -480,14 +479,14 @@ il ne croit pas en Dieu, il croit en lui-même ;
 il n’est pas savant, il est tyran ;
 il ne sert pas les hommes, il en dispose ;
 il n’étudie pas leur nature, il la change,
-	suivant le conseil de Rousseau,(footnote*[
+	suivant le conseil de ,(np "rousseau" [Rousseau]) ,(footnote*[
 ,(q[Celui qui ose entreprendre d’instituer un peuple doit se sentir
 en état de changer, pour ainsi dire, la nature humaine…,
 d’altérer la constitution morale et physique de l’homme, etc.])
 (,(cite-title[Contrat social]), chap. VII)
 ]).
 Il s’inspire de l’antiquité ;
-il procède de Lycurgue et de Platon.
+il procède de ,(np "lycurgue" [Lycurgue]) et de ,(np "platon" [Platon]).
 ,(--) Et pour tout dire, à coup sûr, il est ,(emph[bachelier]).
 ][
 Vous exagérez, me dira-t-on,
