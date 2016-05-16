@@ -5,11 +5,10 @@ du 1er juillet 1848")
 (document :title "Lettre à M. Schwabe"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Paris, ,(1er) juillet 1848])
-,(p*[
-Mon cher Monsieur,
-][
-Je vous remercie de l’intérêt affectueux qui vous a fait penser à moi, à l’occasion des terribles événements qui ont affligé cette capitale. Grâce au ciel, la cause de l’ordre et de la civilisation l’a emporté. Nos excellents amis MM. Say et Anisson étaient à la campagne, l’un à Versailles, l’autre en Normandie. Leurs fils ont pris part à la lutte et en sont sortis avec honneur, mais sans blessure.
+,(date-tag[Paris, ,(1er) juillet 1848.])
+
+,(cher[Mon cher ,(np "schwabe_s" [Monsieur]),])
+,(p*[Je vous remercie de l’intérêt affectueux qui vous a fait penser à moi, à l’occasion des terribles événements qui ont affligé cette capitale. Grâce au ciel, la cause de l’ordre et de la civilisation l’a emporté. Nos excellents amis MM. ,(np "say_h" [Say]) et ,(np "anisson" [Anisson]) étaient à la campagne, l’un à Versailles, l’autre en Normandie. Leurs fils ont pris part à la lutte et en sont sortis avec honneur, mais sans blessure.
 ][
 Ce sont les fausses idées ,(emph[socialistes]) qui ont mis les armes à la main à nos frères. Il faut dire aussi que la misère y a beaucoup contribué ; mais cette misère elle-même peut être attribuée à la même cause, car depuis qu’on a voulu faire de la ,(emph[fraternité]) une prescription légale, les capitaux n’osent plus se montrer.
 ][
@@ -23,7 +22,7 @@ Si vous jetez un coup d’œil sur la carte de Paris, vous vous convaincrez que 
 ][
 Vous me demandez si cette insurrection sera la dernière. J’ose l’espérer. Nous avons maintenant de la fermeté et de l’unité dans le pouvoir. La chambre est animée d’un esprit d’ordre et de justice, mais non de vengeance. Aujourd’hui notre plus grand ennemi, c’est la misère, le manque de travail. Si le gouvernement rétablit la sécurité, les affaires reprendront, et ce sera notre salut.
 ][
-Vous ne devez pas douter, mon cher Monsieur, de l’empressement avec lequel je me rendrais à votre bonne invitation et à celle de madame Schwabe, si je le pouvais. Quinze jours passés auprès de vous, à causer, promener, faire de la musique, caresser vos beaux enfants, ce serait pour moi le bonheur. Mais, selon toute apparence, je serai obligé de me le refuser. Je crains bien que notre session ne dure longtemps. Soyez sûr, du moins, que si je puis m’échapper, je n’y manquerai pas.
+Vous ne devez pas douter, mon cher Monsieur, de l’empressement avec lequel je me rendrais à votre bonne invitation et à celle de ,(np "schwabe_j" [madame Schwabe]), si je le pouvais. Quinze jours passés auprès de vous, à causer, promener, faire de la musique, caresser vos beaux enfants, ce serait pour moi le bonheur. Mais, selon toute apparence, je serai obligé de me le refuser. Je crains bien que notre session ne dure longtemps. Soyez sûr, du moins, que si je puis m’échapper, je n’y manquerai pas.
 ])])
 (footer[
 	,(aschwabe "lettre_schwabe1848d.html" "lettre_schwabe1848f.html")

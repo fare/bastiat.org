@@ -1,0 +1,47 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Aux négociants du Havre, par Frédéric Bastiat")
+
+(document :title "Aux négociants du Havre"
+	:author (author-FB)
+(bastiat[
+,(subtitle[II])
+,(date-tag[,(cite-title[Mémorial bordelais]) du 23 octobre 1846.])
+,(p*[
+On nous reproche de n’avoir pas concentré tous nos efforts contre le monopole du fer. On a la bonté de supposer que, par cette adroite tactique, nous n’aurions pas alarmé l’ensemble des intérêts privilégiés ; et enfin on nous cite l’exemple de l’Angleterre.
+][
+D’abord nous avons attaqué le monopole du fer et nous l’attaquons tous les jours. Si même la réforme devait frapper isolément un produit (ce qui n’est pas mon avis), une foule de raisons nous justifieraient de réclamer, pour commencer, la libre entrée du fer et, par suite, l’abaissement du prix du combustible.
+][
+Mais croire que le camp de la protection en serait moins alarmé, c’est se faire illusion.
+][
+En effet, après avoir traité la question sociale et pratique, après avoir dit que la cherté du fer, et même le manque absolu du fer, paralyse toutes nos entreprises, suspend les travaux des chemins de fer, retarde notre navigation transatlantique, impose une taxe à toutes nos manufactures, à notre industrie agricole, à notre marine marchande, porte atteinte aux moyens, déjà si bornés, qu’a le peuple français de se garantir du froid et de s’assurer des aliments ; après avoir dit tout cela et bien d’autres choses encore, que du reste on crie depuis vingt ans, pouvons-nous nous flatter que les maîtres de forges resteront la bouche close ? Non, ils se défendront, et eux aussi répéteront ce qu’ils disent depuis vingt ans. Ils diront qu’il vaut mieux produire chèrement au dedans que d’acheter à bon marché au dehors, qu’il faut protéger le ,(emph[travail national ;]) que plus il en coûte pour mettre un quintal de fer à la portée du consommateur, plus cela prouve que cette industrie distribue du travail et des salaires. En un mot, ils diront tout ce que pourraient dire les autres industries protégées. — Et ce sera à nous d’aborder aussi ces généralités. Vous voyez bien qu’il y faudra venir sous peine d’être battus. Il faudra soutenir la lutte sur le terrain des théories, et dès lors nous n’aurons pas réussi à mettre les protectionistes sur une fausse quête.
+][
+Il est donc plus simple et plus loyal de poser d’abord le principe de la ,(emph[liberté commerciale]). Ce principe est vrai ou il est faux. S’il est faux, la discussion le montrera. S’il est vrai, il triomphera, j’en ai la certitude. Le nombre des adversaires n’y fait rien, au contraire ; plus ils seront, plus ils se contrediront entre eux. Notre principe triomphera, pourvu que nous y soyons fidèles, que nous le défendions avec une virile énergie, que nous n’abandonnions jamais notre position sur ce roc inébranlable : la vérité et la justice.
+][
+La justice !… À ce mot, je me demande si, alors que la protection est devenue un système, qu’elle s’est étendue à un grand nombre d’industries, alors que les charges qu’elle impose à chacune d’elles absorbent les profits qu’elle lui promettait (et c’est en cela qu’elle est une déception), je me demande s’il est juste de procéder ainsi isolément, et s’il ne serait pas plus juste et plus prudent d’adopter une mesure d’ensemble et une réduction uniforme.
+][
+Si par exemple on disait : En vue du revenu, il n’est pas possible de demander, sur un produit, plus du dixième de sa valeur ; si, partant de cette donnée, on ramenait tout le tarif à ce taux au ,(inlatin[maximum]), et cela en cinq ans, par réduction annuelle d’un cinquième, il me semble que nul n’aurait à se plaindre. Ce qu’on perdrait d’un côté, on le gagnerait de l’autre, et même avec avantage, et la perturbation serait insensible, beaucoup plus insensible qu’on ne se le figure. — Je n’entends pas proposer un plan, nous n’en sommes pas là, je cherche à faire comprendre ma pensée.
+][
+Mais dire aux maîtres de forges : Nous allons réduire le prix du fer, sans réduire pour vos ouvriers le prix des aliments, des vêtements et du combustible, — cela ne me semble pas s’accorder avec notre principe, et j’avoue que j’aurais quelque peine à adopter cette marche, même comme procédé stratégique.
+][
+On nous cite l’exemple de la Ligue anglaise. J’admire autant qu’un autre, et plus qu’un autre, l’habileté des chefs de la Ligue. Mais il ne s’ensuit pas que je croie devoir imiter servilement cette partie de leur tactique, déterminée par des circonstances qui ne nous sont pas applicables.
+][
+En Angleterre, il y avait deux classes : l’une se livrait au travail, l’autre possédait la terre ; celle-ci faisait aussi la loi. Tout en laissant pénétrer dans la loi quelques priviléges industriels, elle s’était servie du pouvoir législatif pour exclure les produits agricoles étrangers et constituer à son profit le plus incommensurable des monopoles, le monopole de l’alimentation du peuple.
+][
+Qu’ont fait les manufacturiers ? Ils ont dit : « Nous commençons par déclarer que nous ne voulons pas de protection, et nous attaquons celle que les législateurs se sont attribuée à eux-mêmes ; bien convaincus que si nous les forçons à lâcher prise, ils n’iront pas, eux qui font la loi, maintenir des priviléges industriels dont ils ne profitent pas, dont ils souffrent eux-mêmes, et qu’ils n’ont accordés que pour faire passer les leurs. » Aussi, quand on demandait à M. Cobden pourquoi il dissolvait la Ligue avant que toute protection fût retirée aux manufacturiers, il a pu répondre, et tout le monde a senti la force de cette réponse : ,(inenglish[The landlords will do that.])
+][
+Je le demande, quelle analogie trouve-t-on entre cette position et la nôtre ? Les maîtres de forges ont-ils le privilége de faire la loi en France, par cela même qu’ils sont maîtres de forges, comme les ,(inenglish[landlords]) font la loi en Angleterre parce qu’ils sont ,(inenglish[landlords ?]) Toutes nos industries se réunissent-elles pour dire aux maîtres de forges législateurs : « Nous abandonnons notre monopole, abandonnez le vôtre ? » Rien de semblable. Ce qui, en Angleterre, soutenait le système, c’était la loi des céréales. Ce qui le soutient, en France, c’est l’erreur, l’erreur renfermée dans ce simple mot : ,(emph[travail national]). Attaquons donc cette erreur. Réunissons contre elle toutes nos forces. C’est elle qui est notre législateur puisqu’elle a fait notre législation.
+][
+Combattons-la dans toutes ses formes, démasquons-la sous tous ses déguisements ; poursuivons-la au sein des Chambres, dans le corps électoral, dans le peuple, au ministère, dans la presse, dans les coteries, et ne nous préoccupons pas tant de pratique et d’exécution ; car, lorsqu’enfin nous l’aurons exposée toute nue aux yeux de l’intelligence nationale, nous serons tout étonnés de voir la grande réforme s’accomplir d’elle-même, aux applaudissements du ,(cite-title[Moniteur industriel]).
+][
+Mais je m’aperçois que le fer a envahi ces colonnes et votre attention. Que voulez-vous ? Il est un peu enfant gâté, habitué aux préséances et même aux envahissements. Il faut donc que la navigation attende à demain. Elle reste dans son rôle.
+])
+])
+(footer[
+	,(mb "negociants_havre.html" "negociants_havre3.html")
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Aux négociants du Havre]),
+pp. 131-143.
+])))

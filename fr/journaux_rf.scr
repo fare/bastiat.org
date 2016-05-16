@@ -1,0 +1,61 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "La République française")
+(document
+(header[
+	,(titre [La République française])
+])
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "27 février 1848" "sous_la_republique.html" "Sous la République"
+	"L’Europe doit désarmer.")
+	
+	,(article "” ”" "rep_fr2.html" "<em>sans titre</em>"
+	"Le gouvernement à bon marché n’est pas une utopie.")
+
+	,(article "28 février 1848" "rep_fr3.html" "<em>sans titre</em>"
+	"Il faut soutenir le gouvernement provisoire et remettre à plus tard les luttes de doctrine.")
+
+	,(article "” ”" "rep_fr4.html" "<em>sans titre</em>"
+	"La prudence commande aux rois européens de réduire leurs forces armées.")
+
+	,(article "” ”" "rep_fr5.html" "<em>sans titre</em>"
+	"Il ne faut pas chercher à modifier l’octroi, mais à le supprimer.")
+
+	,(article "29 février 1848" "rep_fr6.html" "<em>sans titre</em>"
+	"Comparaison du système socialiste et du système économiste.")
+
+	,(article "” ”" "rep_fr7.html" "Les rois doivent désarmer"
+	"")
+
+	,(article "” ”" "sous_prefectures.html" "Les sous-préfectures"
+	"Suppression des échelons administratifs inutiles.")
+
+	,(article "1<sup>er</sup> mars 1848" "rep_fr9.html" "<em>sans titre</em>"
+	"Pas de diplomatie ! Pas de curée des places !")
+
+	,(article "” ”" "presse_parisienne.html" "La presse parisienne"
+	"Comportement admirable des journaux parisiens.")
+
+	,(article "2 mars 1848" "petition_economiste.html" "Pétition d’un économiste"
+	"Si les diverses écoles socialistes demandent chacune une commune pour expérimenter son système, j’en veux une aussi.")
+
+	,(article "4 mars 1848" "liberte_enseignement.html" "Liberté d’enseignement"
+	"L’enseignement est menacé de monopolisation par le gouvernement.")
+
+	,(article "5 mars 1848" "curee_des_places.html" "Curée des places"
+	"Le meilleur moyen de remédier à la curée des places, c’est de supprimer ces places.")
+
+	,(article "6 mars 1848" "entraves_taxes.html" "Entraves et taxes"
+	"Les Anglais commencent à comprendre que chaque effort de l’État pour accomplir le bien par de nouvelles interventions n’aboutit qu’à une déception et une taxe.")
+])
+])
+
+(footer[
+
+])
+)

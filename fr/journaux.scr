@@ -2,18 +2,19 @@
 (style 'bo-style)
 (in-bof :title "Index des titres de journaux")
 
-(document :title "Index des titres de journaux"
+(document
 
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
-(p :center *[
-,(a :href :#b [B])
-,(a :href :#c [C])
-,(a :href :#e [E])
-,(a :href :#j [J])
-,(a :href :#m [M])
-,(a :href :#n [N])
-,(a :href :#p [P])
+(p :class "alphabet" [
+,(a :href :#b [B]) —
+,(a :href :#c [C]) —
+,(a :href :#e [E]) —
+,(a :href :#j [J]) —
+,(a :href :#m [M]) —
+,(a :href :#n [N]) —
+,(a :href :#p [P]) —
+,(a :href :#v [V])
 ]))
 
 (defun
@@ -22,7 +23,6 @@
   (div :class "lettre" [
     ,(tag :a :name x)
     ,(subtitle x)
-    ,(alphabet)
     ,(hrule)
   ] r (hrule))
 )
@@ -35,10 +35,28 @@
 		,(p :class "titre" titre)
 	] r)
 )
+(header [
+  ,(titre [Index des titres de journaux])
+])
 
 (sommaire[
 
 ,(alphabet)
+,(nbsp)
+,(h3[Journaux dans lesquels Bastiat a publié])
+,(itemize :class "journaux" [
+,(itemjournal "truc" "La Chalosse" "")
+,(itemjournal "" "La Sentinelle des Pyrénées" "")
+,(itemjournal "journaux_mb.html" "Le Mémorial bordelais"
+    "21 articles de février à octobre 1846")
+,(itemjournal "journaux_le.html" "Le Libre-Échange" "")
+,(itemjournal "journaux_jde.html" "Le Journal des Économistes"
+    "28 articles de novembre 1844 à mai 1850")
+,(itemjournal "journaux_rf.html" "La République française" "14 articles.</br>Journal éphémère ayant paru du 27 février au 6 mars 1848.")
+,(itemjournal "journaux_jb.html" "Jacques Bonhomme" "")
+,(itemjournal "" "Le Journal des Débats" "")
+,(itemjournal "" "Le Courrier français" "")
+])
 
 
 ,(lettre "B" [
@@ -100,7 +118,8 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ]),(lettre "L" [
 
 ,(journal "le" "Le Libre-Échange" [
-,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])])
+,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])]
+[Simples allusions : ,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])])
 ])
 
 ]),(lettre "M" [
@@ -142,6 +161,16 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 [Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
 ,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste])
 ])])
+
+,(journal "punch" "The Punch" [
+,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])
+])
+
+]),(lettre "V" [
+
+,(journal "vp" "La Voix du Peuple" [
+,(p*[Treize lettres sur les quatorze publiées par la suite sous le titre ,(ref :url "gratuite_du_credit.html" [Gratuité du crédit]).])
+])
 
 ])
 

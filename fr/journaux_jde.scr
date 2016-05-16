@@ -1,7 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Journal des Économistes")
-(document :title "Journal des Économistes"
+(document
+(header[
+	,(titre[Journal des Économistes])
+])
+(nbsp)
 (sommaire[
 ,(p*[
 
@@ -103,6 +107,6 @@
 ])
 
 (footer[
-
+	
 ])
 )

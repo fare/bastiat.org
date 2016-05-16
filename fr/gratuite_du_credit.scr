@@ -6,7 +6,8 @@
 
 (document :title [Gratuité du Crédit]
 	:author (author-FB)
-(p*
+(sommaire[
+,(p*
 (itemize
 (item (xbof-ref "lettre1"
 	[Première lettre.
@@ -40,6 +41,8 @@
 	[Treizième lettre. ,(--) P. J. Proudhon à F. Bastiat]))
 (item (xbof-ref "lettre14"
 	[Quatorzième lettre. ,(--) F. Bastiat à P. J. Proudhon]))))
+
+])
 (set! =bof.url= "http://bastiat.org/fr/")
 (with-footer
 (p*[

@@ -82,10 +82,10 @@ sup {line-height: 0;}
 }
 
 .sommaire ul li.article {
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
-.sommaire ul .date {
+.sommaire ul .article .date {
 	font-weight: bold;
 	display: inline-block;
 	min-width: 17%;
@@ -95,7 +95,7 @@ sup {line-height: 0;}
 	vertical-align: middle;
 }
 
-.sommaire ul .titre {
+.sommaire ul .article .titre {
 	text-align: justify;
 	display: inline-block;
 	width: 80%;
@@ -105,14 +105,14 @@ sup {line-height: 0;}
 }
 /*.titre em {font-style: normal;}*/
 
-.titre a:link, .titre a:visited {color: #952;}
-.titre a:hover {color: #ca2;}
+.titre a:link, .titre a:visited {color: #c50;}
+.titre a:hover {color: orange;}
 
-.sommaire ul .about {
+.sommaire ul .article .about {
 	display: block;
 	text-align: justify;
 	clear: both;
-	padding: 0.4em 2em 1em 4em;
+	padding: 0.3em 2em 0.5em 4em;
 }
 
 /*Styles du texte de Bastiat*/
@@ -148,11 +148,15 @@ sup {line-height: 0;}
 	font-family: paratexte;
 	font-size: 1.3em;
 }
-h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
+h2 sup, h2 i {font-variant: normal;}
+h2 i {font-weight: bold;}
+
+h3 {
+	text-align: center;
+}
 
 .bastiat h3 {
 	font-style: italic;
-	text-align: center;
 	font-weight: normal;
 	padding-top: 1em;
 }
@@ -160,7 +164,14 @@ h2 sup, h2 i {font-variant: normal; font-family: bastiat;}
 .bastiat p, .other p {
 	text-indent: 1.4em;
 	margin: 0.5em 0;
+}
+
+.bastiat p {
 	line-height:1.2em;
+}
+
+.other p {
+	line-height: 1.5em;
 }
 
 .bastiat > blockquote {
@@ -296,12 +307,12 @@ table.vers {
 }
 
 .tj:link, .tj:visited {
-	color: #005;
+	color: #033;
 	text-decoration: none;
 }
 
 .tj:hover {
-	color: #05b;
+	color: #085;
 }
 
 /*Footer, Header*/
@@ -310,7 +321,7 @@ table.vers {
 	position: fixed; left: 0;
 	width: 100%;
 	text-align: center;
-	z-index:5;
+	z-index:20;
 	font-family: "paratexte";
 }
 
@@ -318,15 +329,17 @@ table.vers {
 bottom: 0;
 height: 3.5em; min-height:1cm;
 background-color: rgba(255,255,255,0.8); /*#9c0;*/
+background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));
 }
 
 .header {
 top: 0;
-height: 5em;
+height: 3em;
 background-color: #cf0;
-color: #070;
+color: #aaa;
 display: flex;
 justify-content: center;
+background: linear-gradient(to bottom, rgba(204,255,0,1), rgba(204,255,0,0.8));
 }
 
 .header .titre {
@@ -336,6 +349,8 @@ font-size: 1.5em;
  transform: translate(-50%,-50%);*/ /*Façon alternative de centrer verticalement,
  je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
  align-self: center;
+ font-weight: bold;
+ text-shadow: 1px 1px 0px #444;
 }
 
 .header .auteur {
@@ -355,6 +370,7 @@ margin: auto;
 
 .footer a:hover {
 	color: #7a0;
+
 }
 
 .footer .arbor {
@@ -363,7 +379,9 @@ margin: auto;
 	position: relative;
 	min-width: 12em; width: auto; max-width: 20em; white-space: nowrap;
 	vertical-align: middle;
-	background-color: rgba(255, 255, 255, 0.7);
+/*	background-color: rgba(255, 255, 255, 0.7);
+	background: linear-gradient(to bottom left, rgba(255,255,255,0.0), rgba(255,255,255,1));*/
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .arbor .retour {
@@ -447,4 +465,51 @@ margin: auto;
 
 .journal .titre {
 	font-style: italic;
+}
+
+.sommaire p.alphabet {
+	position: fixed;
+	left:0; top:1.5em;
+	padding: 1em;
+	font-weight: bold;
+	background: rgba(255,255,255,0.8);
+	z-index:15;
+}
+
+/*Index des Journaux*/
+ul.journaux {
+	list-style-type: none;
+	width: 100%;
+	margin: 0; padding: 0;
+	text-align: center;
+}
+
+.itemjournal {
+	width: 12em;
+	display: inline-block;
+	position: relative;
+	min-height: 9em;
+}
+
+.itemjournal .titre {
+	position: absolute; top: 0; left:0;
+	width: 100%;
+	padding: 0.5em 0 1em 0;
+	font-weight: bold;
+}
+
+.itemjournal a.titre:link, .itemjournal a.titre:visited {
+	color: orange;
+}
+
+.itemjournal a.titre:hover {
+	color: #c50;
+}
+
+.itemjournal .about {
+	width: 90%;
+	height:50%;
+	position: absolute; bottom: 0; left: 0;
+	font-size: 0.9em;
+	padding: 0 0.5em 0 0.5em;
 }

@@ -5,14 +5,14 @@ du 18 mars 1820")
 (document :title "Lettre à M. Schwabe"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Douvres, 7 octobre 1848])
+,(date-tag[Douvres, 7 octobre 1848.])
 ,(p*[
-Je ne veux pas quitter le sol d’Angleterre, mon cher Monsieur, sans vous exprimer le sentiment de reconnaissance que j’emporte, et aussi sans vous demander un peu pardon pour tous les embarras que vous a occasionnés mon séjour auprès de vous. Vous serez peut-être surpris de voir la date de cette lettre. Pendant que je cherchais M. Faulkner à Folkestone, le bateau à vapeur m’a fait l’impolitesse de prendre le large, me laissant sur le quai, indécis si je sauterais à bord. Il y a vingt ans je l’aurais essayé. Mais je me suis contenté de le regarder, et ayant appris qu’un autre steamer part ce soir de Douvres, je suis venu ici, et je ne regrette pas l’accident, car Douvres vaut bien la peine de rester un jour de plus en Angleterre. C’est même ce que je ferais, si je n’étais dépourvu de tous mes effets. Enfin j’ai pu faire votre commission à M. Faulkner tout à mon aise.
-][
-…Les deux jours que j’ai passés avec M. Cobden ont été bien agréables. Son impopularité momentanée n’a pas altéré la gaieté et l’égalité de son humeur. Il dit, et je crois avec raison, qu’il est plus près du ,(emph[désarmement]) aujourd’hui qu’il n’était près du ,(inenglish[free-trade]) quand il fonda la ligue. C’est un grand homme ; et je le reconnais à ceci : que son intérêt, sa réputation, sa gloire ne sont jamais mis par lui en balance avec l’intérêt de la justice et de l’humanité.
-][
-Veuillez, etc. 
-])])
+Je ne veux pas quitter le sol d’Angleterre, mon cher ,(np "schwabe_s" [Monsieur]), sans vous exprimer le sentiment de reconnaissance que j’emporte, et aussi sans vous demander un peu pardon pour tous les embarras que vous a occasionnés mon séjour auprès de vous. Vous serez peut-être surpris de voir la date de cette lettre. Pendant que je cherchais ,(np "faulkner" [M. Faulkner]) à Folkestone, le bateau à vapeur m’a fait l’impolitesse de prendre le large, me laissant sur le quai, indécis si je sauterais à bord. Il y a vingt ans je l’aurais essayé. Mais je me suis contenté de le regarder, et ayant appris qu’un autre steamer part ce soir de Douvres, je suis venu ici, et je ne regrette pas l’accident, car Douvres vaut bien la peine de rester un jour de plus en Angleterre. C’est même ce que je ferais, si je n’étais dépourvu de tous mes effets. Enfin j’ai pu faire votre commission à ,(np "faulkner" [M. Faulkner]) tout à mon aise.
+][,(tag :a :name "cobden_ref")
+…Les deux jours que j’ai passés avec ,(np "cobden" [M. Cobden]) ont été bien agréables. Son impopularité momentanée n’a pas altéré la gaieté et l’égalité de son humeur. Il dit, et je crois avec raison, qu’il est plus près du ,(emph[désarmement]) aujourd’hui qu’il n’était près du ,(inenglish[free-trade]) quand il fonda la ligue. C’est un grand homme ; et je le reconnais à ceci : que son intérêt, sa réputation, sa gloire ne sont jamais mis par lui en balance avec l’intérêt de la justice et de l’humanité.
+])
+,(politesse[Veuillez, etc.])
+])
 (footer[
 	,(aschwabe "lettre_schwabe1848e.html" "lettre_schwabe1848g.html")
 ])

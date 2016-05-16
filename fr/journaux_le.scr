@@ -1,7 +1,10 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le Libre-Échange")
-(document :title "Le Libre-Échange"
+(document
+(header [
+	,(titre[Libre-Échange])
+])
 (sommaire[
 ,(p*[
 

@@ -4,10 +4,9 @@
 	- F. C. Chevé à Frédéric Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Première lettre]
 (bastiat[
-,(tag :p :align 'center
-(font :size "+3" [
-	,(strong[F. C. Chevé.]) ,(br)
-L’un des rédacteurs de la ,(cite-title[Voix du peuple]),
+,(p :align 'center [
+	,(np "cheve" [,(strong[F. C. Chevé.])]) ,(br)
+L’un des rédacteurs de la ,(tj "vp" [,(cite-title[Voix du peuple])]),
 ,(br)
 ,(strong[à Fréderic Bastiat.
 ,(footnote*[
@@ -31,9 +30,8 @@ augmentée d’une quatorzième lettre,
 et lui donna pour titre :
 ,(Gratuite_credit).
 ,(NdEEO)])])
-]))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+])
+,(p*(font :size "-1" (strong[
 Adhésion à la formule :
 le prêt est un service qui doit s’échanger contre un service.
 ,(--) Distinction sur la nature des services. ,(XXX)
@@ -56,7 +54,7 @@ j’interrogeai votre pamphlet intitulé :
 et je m’aperçus, avec une surprise mêlée de joie,
 qu’il n’y avait plus entre vous et nous que l’épaisseur d’une simple équivoque.
 ][
-,(--) Cette équivoque porte tout entière
+Cette équivoque porte tout entière
 sur la confusion de deux choses cependant bien distinctes,
 l’,(emph[usage]) et la ,(emph[propriété]). ,(XXX)
 ][
@@ -87,18 +85,16 @@ Les clauses de ce débat vous semblent-elles, ou non, loyales ?
 ][
 Entrons donc en matière.
 ][
-Paul échange avec Pierre dix pièces de 50 centimes contre 100 sous :
+,(ref :url "capital_et_rente.html#pierrepaul" [Paul échange avec Pierre]) dix pièces de 50 centimes contre 100 sous :
 voilà le troc pour troc, l’échange de propriété contre propriété.
-,(--) Mais Pierre dit Paul :
+,(--) Mais Pierre dit à Paul :
 ,(q[Tu me donneras les dix pièces de 10 sous actuellement,
 et moi je te donnerai la pièce de 100 sous dans un an.])
 Voilà ,(q[un service nouveau et d’une autre espèce que Pierre demande à Paul.])
-][
 ,(--) Mais quelle est la nature de ce service ?
 Pierre demande-t-il à Paul de lui céder la propriété
 d’une nouvelle somme quelle qu’elle soit ?
 non,
-,(XXX :EO :sic)
 mais simplement de lui laisser l’,(emph[usage]) de celle-ci pendant un an.
 Or, puisque tout service doit être payé par un service équivalent,
 un service d’,(emph[usage]) doit donc être échangé
@@ -111,7 +107,7 @@ je te devrai donc en retour le même service,
 c’est-à-dire l’,(emph[usage]) de dix pièces de 10 sous pendant un an aussi.
 Est-ce juste, oui ou non ?
 ][
-Un homme échange un navire contre une maison :
+,(ref :url "capital_et_rente.html#naviremaison" [Un homme échange un navire contre une maison]) :
 voilà le troc pour troc,
 l’échange de propriété contre propriété.
 ,(--) Mais l’armateur veut,
@@ -122,13 +118,13 @@ Le propriétaire lui dit :
 ,(q[C’est un service nouveau que vous me demandez,
 j’ai droit de vous refuser ou de vous demander en compensation
 un service équivalent.])
-,(--) Evidemment, répond l’armateur,
+,(--) Évidemment, répond l’armateur,
 vous me donnez, une année durant,
 l’,(emph[usage]) d’une valeur de 20,000 fr.,
 je suppose, je vous devrais donc en échange
 l’,(emph[usage]) d’une égale valeur de 20,000.
 Rien de plus juste.
-Mais comme je paie votre propriété par celle de mon navire,
+Mais comme je paye votre propriété par celle de mon navire,
 ce n’est pas une propriété nouvelle,
 mais un simple ,(emph[usage]) que vous me concédez,
 je ne dois donc vous concéder aussi que l’,(emph[usage]) d’une même valeur,
@@ -136,7 +132,7 @@ et pour un temps égal.
 ,(q[Les services échangés se valent.])
 Exiger plus serait un vol.
 ][
-Mathurin prête un sac de blé
+,(ref :url "capital_et_rente.html#sacdeble" [Mathurin prête un sac de blé])
 ,(q[à Jérôme qui promet de rendre, au bout de l’an,
 un sac de blé de même qualité, de même poids,
 sans qu’il en manque un seul grain.])
@@ -154,14 +150,14 @@ tu as donc droit à l’,(emph[usage]) de la même valeur pendant une année aus
 Rien au-delà ; sinon il n’y aurait plus
 mutualité, réciprocité, équivalence des services.
 ][
-De son côté, Mathurin, qui est quelque peu clerc, fait ce raisonnement :
-,(q[Ce que m’objecte Jérôme est incontestable ;
-et, en effet, si au bout de l’an,
+De son côté, « Mathurin, qui est quelque peu clerc, fait ce raisonnement » :
+Ce que m’objecte Jérôme est incontestable ;
+et, en effet, si « au bout de l’an,
 il me rentre cinq litres de blé en sus des cent litres que je viens de prêter,
-et que dans quelques temps je puisse prêter
+et que dans quelque temps je puisse prêter
 deux sacs de blé, puis trois, puis quatre,
 lorsque j’en aurai placé un assez grand nombre
-pour vivre sur la somme de ces rétributions,])
+pour vivre sur la somme de ces rétributions »,
 je pourrai manger en ne faisant rien,
 et sans jamais dépenser mon avoir.
 Or, ce que je mangerai, ce sera pourtant quelqu’un qui l’aura produit.
@@ -176,35 +172,36 @@ serait un ,(emph[don]) ou la ,(emph[propriété]) d’une chose.
 Il n’y a donc justice, égalité, équivalence de services
 que dans le sens où l’entend Jérôme.
 ][
-Valère veut occuper, un an durant, la maison de Mondor.
+,(ref :url "capital_et_rente.html#maison" [Valère veut occuper]), un an durant, la maison de Mondor.
 ,(q[Il sera tenu de se soumettre à trois conditions.
 La première, de déguerpir au bout de l’an,
 et de rendre la maison en bon état,
 sauf les dégradations inévitables qui résultent de la seule durée.
 La seconde, de rembourser à Mondor les 300 francs
-que celui-ci paie annuellement à l’architecte
+que celui-ci paye annuellement à l’architecte
 pour réparer les outrages du temps ;
 car ces outrages survenant pendant que la maison est au service de Valère,
 il est de toute justice qu’il en supporte les conséquences.
-La troisième c’est de rendre à Mondor
+La troisième, c’est de rendre à Mondor
 un service équivalent à celui qu’il en reçoit.])
 Or, ce service est l’,(emph[usage]) d’une maison pendant un an.
 Valère devra donc à Mondor l’,(emph[usage])
 de la même valeur pendant le même laps de temps.
 Cette valeur devra être librement débattue entre les deux contractants.
 ][
-Jacques vient d’achever la confection d’un rabot.
-Guillaume dit à Jacques :
-,(--) Il faut que tu me rendes un service.
-,(--) Lequel ?
-,(--) Prête-moi ce rabot pour un an.
+,(ref :url "capital_et_rente.html#rabot" [Jacques vient d’achever la confection d’un rabot.])
+Guillaume dit à Jacques :])
+,(liste(p*[
+,(--) Il faut que tu me rendes un service.][
+,(--) Lequel ?][
+,(--) Prête-moi ce rabot pour un an.][
 ,(--) Y penses-tu, Guillaume !
 Et, si je te rends ce service,
-quel service me rendras-tu de ton côté ?
+quel service me rendras-tu de ton côté ?][
 ,(--) Le même, bien entendu ;
 et si tu me ,(emph[prêtes]) une valeur de 20 francs pour un an,
 je devrai te ,(emph[prêter]), à mon tour,
-la même valeur pendant une égale durée.
+la même valeur pendant une égale durée.][
 ,(--) D’abord, dans un an,
 il faudra mettre le rabot au rebut :
 il ne sera plus bon à rien.
@@ -212,23 +209,22 @@ Il est donc juste que tu m’en rendes un autre exactement semblable,
 ou que tu me donnes assez d’argent pour le faire réparer,
 ou que tu me remplaces les deux journées que je devrai consacrer à le refaire.
 De manière ou d’autre,
-il faut que le rabot me revienne en bon état, comme je te le livre.
+il faut que le rabot me revienne en bon état, comme je te le livre.][
 ,(--) C’est trop juste, je me soumets à cette condition ;
-je m’engage à te rendre, ou un rabot semblable, ou la valeur. ,(XXX)
+je m’engage à te rendre, ou un rabot semblable, ou la valeur.][
 ,(--) Indépendamment de la restitution intégrale déjà stipulée,
-il faut que tu me rendes un service que nous allons débattre.
+il faut que tu me rendes un service que nous allons débattre.][
 ,(--) Le service est bien simple.
 De même que pour ton rabot cédé,
 je dois te rendre un rabot pareil,
 ou égale valeur en argent,
 de même pour l’,(emph[usage]) de cette valeur pendant un an,
 je te dois l’,(emph[usage]) de pareille somme pendant un an aussi.
-Dans l’un comme dans l’autre cas ,(q[les services échangés se valent.])
-][
-Cela posé, voici, ce me semble,
+Dans l’un comme dans l’autre cas ,(q[les services échangés se valent.])]))
+,(p*[Cela posé, voici, ce me semble,
 une série de conséquences dont il est impossible de contester la justesse :
 ][
-1° Si l’usage paie l’usage,
+1° Si l’usage paye l’usage,
 et si la cession purement temporaire par l’emprunteur
 de l’,(emph[usage]) d’une valeur égale
 ,(q[est une rétribution naturelle, équitable,
@@ -255,7 +251,7 @@ ce qui détruit l’intérêt du capital par lui-même
 et le réduit à un simple droit d’usage contre l’usage.
 Vouloir échanger l’usage contre la propriété, c’est dépouiller,
 spolier l’un au profit de l’autre,
-,(q[c’est légaliser, organiser, systématiser l’injustice elle-même.])
+,(q[c’est légaliser, organiser, systématiser l’injustice elle-même.]) ,(ref :url "capital_et_rente.html#injustice" [*])
 Posons donc en fait que l’intérêt est illégitime, inique et spoliateur.
 ][
 2° Une seconde conséquence, non moins remarquable que la première,
@@ -286,7 +282,6 @@ par le manque de travail et la misère.
 D’où une perturbation effroyable dans la loi de l’offre et de la demande,
 et dans tous les rapports d’économie sociale ;
 un obstacle
-,(XXX :EO [abstacle])
 infranchissable
 ,(q[à la formation, à la multiplication, à l’abondance des capitaux ;])
 l’autocratie absolue du capital,
@@ -295,7 +290,7 @@ l’oppression partout,
 la liberté nulle part.
 Que la société
 ,(q[comprenne donc le dommage qu’elle s’inflige
-quand elle proclame la légitimité de l’intérêt.])
+quand elle proclame la légitimité de l’intérêt.]) ,(ref :url "capital_et_rente.html#dommage" [*])
 ][
 3° Les anecdotes
 ,(XXX :EO [anedoctes])
@@ -343,10 +338,9 @@ contre un milliard et plus
 de pièces de 5 francs, de sacs de blé, de maisons, de rabots,
 il y a un homme dans le monde qui reçoit un milliard de plus qu’il n’a produit.
 ,(--) Or, ce milliard, c’est la subsistance de cent, de mille autres ;
-et en supposant que le salaire qui reste à ces mille autres ;
 et en supposant que le salaire qui reste à ces mille spoliés
 suffise encore à les nourrir,
-en travaillent jusqu’à leur dernière heure,
+en travaillant jusqu’à leur dernière heure,
 c’est le loisir de mille individus qu’un seul engloutit,
 c’est-à-dire leur vie morale et intellectuelle.
 ,(--) Ces hommes auxquels on enlève ainsi, au profit d’un seul,
@@ -358,13 +352,13 @@ et avançant d’un siècle les progrès de l’humanité.
 ,(q[grâce à la rente et à sa monstrueuse pérennité,])
 le loisir est interdit précisément à tous ceux qui travaillent
 du berceau jusqu’à la tombe,
-et devient le privilège exclusif des quelques oisifs
+et devient le privilége exclusif des quelques oisifs
 qui, par intérêt du capital,
-s’approprient sans rien faire, ,(XXX)
+s’approprient, sans rien faire,
 le fruit du labeur accablant des travailleurs.
 ,(--) La presque totalité de
 ,(q[l’humanité est réduite à croupir
-dans la vie végétative et stationnaire, dans l’ignorance éternelle,])
+dans la vie végétative et stationnaire, dans l’ignorance éternelle,]) ,(ref :url "capital_et_rente.html#croupir" [*])
 par suite de cette spoliation de la rente,
 qui lui enlève la subsistance d’abord et le loisir ensuite.
 ,(--) Sans la rente, au contraire,

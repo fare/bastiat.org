@@ -1,7 +1,10 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Mémorial bordelais")
-(document :title "Mémorial bordelais"
+(document
+(header[
+	,(titre [Mémorial bordelais])
+])
 (sommaire[
 ,(p*[
 
@@ -34,7 +37,37 @@
 
 	,(article "23 avril 1846" "reforme_postale1.html" "Réforme postale"
 	"")
-	,(article "30 avril 1846" "reforme_postale2.html" "2<sup>2</sup> article"
+	,(article "30 avril 1846" "reforme_postale2.html" "2<sup>e</sup> article"
+	"")
+
+	,(article "2 mai 1846" "liberte_commerciale.html" "La liberté commerciale"
+	"")
+
+	,(article "” ”" "lettre1_journal_des_debats.html" "Première lettre au rédacteur du <em>Journal des débats</em>"
+	"")
+
+	,(article "14 mai 1846" "lettre2_journal_des_debats.html" "Deuxième lettre au rédacteur du <em>Journal des débats</em>"
+	"")
+
+	,(article "19 mai 1846" "bordeaux_bayonne.html" "Du chemin de fer de Bordeaux à Bayonne"
+	"")
+
+	,(article "14 juin 1846" "aux_membres_de_l_association.html" "Aux membres de l’Association"
+	"")
+
+	,(article "30 juin 1846" "a_tanneguy_duchatel.html" "A M. Tanneguy Duchâtel, ministre de l’Intérieur"
+	"")
+
+	,(article "1<sup>er</sup> juillet 1846" "la_logique_du_moniteur_industriel.html" "La logique du <em>Moniteur industriel</em>"
+	"")
+
+	,(article "22 octobre 1846" "negociants_havre.html" "Aux négociants du Havre"
+	"")
+
+	,(article "23 octobre 1846" "negociants_havre2.html" "Suite"
+	"")
+
+	,(article "25 octobre 1846" "negociants_havre3.html" "Suite et fin"
 	"")
 ])
 ])

@@ -317,6 +317,7 @@
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
 (defun he (prec suiv) (arbor "Harmonies économiques" "harmonies.html" prec suiv))
 (defun gc (prec suiv) (arbor "Gratuité du crédit" "gratuite_du_credit.html" prec suiv))
+(defun ligue (prec suiv) (arbor "Cobden et la Ligue" "cobden_ligue.html" prec suiv))
 (defun prospo (prec suiv) (arbor "Propriété et spoliation" "propriete_et_spoliation.html" prec suiv))
 
 (defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
@@ -350,3 +351,18 @@
     "</div></li>"
   ))
 )
+
+(defun
+  itemjournal
+  (adresse titre about)
+  (%raw (strcat
+    "<li class='itemjournal'><a class='titre' href='"
+    adresse
+    "'>"
+    titre
+    "</a><div class='about'>"
+    about
+    "</div></li>"
+  ))
+)
+

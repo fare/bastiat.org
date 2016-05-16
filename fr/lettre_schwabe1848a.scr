@@ -5,15 +5,14 @@ du 17 janvier 1848")
 (document :title "Lettre à Mme Schwabe"
 	:author (author-FB)
 (bastiat[
-,(date-tag[17 janvier 1848])
-,(p*[
-,(strong[Madame]),
+,(date-tag[17 janvier 1848.])
+
+,(cher[Madame,])
+,(p*[J’apprends avec bien du plaisir que ,(np "schwabe_s" [M. Schwabe]) a fait un heureux voyage et qu’il a trouvé la situation de l’Angleterre en voie d’amélioration.
 ][
-J’apprends avec bien du plaisir que M. Schwabe a fait un heureux voyage et qu’il a trouvé la situation de l’Angleterre en voie d’amélioration.
+Je vous remercie d’avoir songé à m’envoyer le ,(tj "punch" [,(cite-title[Punch])]). J’y trouverai peut-être quelque chose pour le ,(tj "le" [,(cite-title[Libre-Échange])]), après quoi je le ferai passer à ,(np "anisson" [M. Anisson]), ou vous le reporterai moi-même.
 ][
-Je vous remercie d’avoir songé à m’envoyer le ,(cite-title[Punch]). J’y trouverai peut-être quelque chose pour le ,(cite-title[Libre-Échange]), après quoi je le ferai passer à M. Anisson, ou vous le reporterai moi-même.
-][
-Voici cinq numéros du dernier ,(cite-title[Libre-Échange]). J’ai fait le premier article sur les ,(emph[armements]), dans l’espoir qu’il peut exercer quelque influence en Angleterre. Il m’est donc bien agréable d’apprendre que vous vous chargez de l’y faire parvenir.
+Voici cinq numéros du dernier ,(tj "le" [,(cite-title[Libre-Échange])]). J’ai fait le premier ,(ref :url "armements_en_angleterre_1.html" [article]) sur les ,(emph[armements]), dans l’espoir qu’il peut exercer quelque influence en Angleterre. Il m’est donc bien agréable d’apprendre que vous vous chargez de l’y faire parvenir.
 ])])
 (footer[
 	,(premier "Lettres aux Schwabe" "lettres_schwabe.html" "lettre_schwabe1848b.html")
