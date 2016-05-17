@@ -1,0 +1,43 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Jacques Bonhomme")
+(document
+(header[
+	,(titre [Jacques Bonhomme])
+])
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "11 au 15 juin 1848" "liberte.html" "La liberté"
+	"")
+
+	,(article "” ”" "laissez_faire.html" "Laissez faire"
+	"")
+
+	,(article "” ”" "assemblee_nationale.html" "L’Assemblée nationale"
+	"")
+
+	,(article "” ”" "letat.html" "L’État"
+	"")
+
+	,(article "15 au 18 juin 1848" "p5r4.html" "Prendre cinq et rendre quatre ce n’est pas donner"
+	"")
+
+	,(article "” ”" "mystification.html" "Une mystification"
+	"")
+
+	,(article "20 au 23 juin 1848" "funeste_gradation.html" "Funeste gradation"
+	"")
+
+	,(article "” ”" "aux_citoyens.html" "Aux citoyens Lamartine et Ledru-Rollin"
+	"")
+	])
+])
+
+(footer[
+
+])
+)

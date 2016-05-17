@@ -14,6 +14,7 @@
 ,(a :href :#m [M]) —
 ,(a :href :#n [N]) —
 ,(a :href :#p [P]) —
+,(a :href :#r [R]) —
 ,(a :href :#v [V])
 ]))
 
@@ -70,7 +71,9 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(lettre "C" [
 
 ,(journal "censeur" "Le Censeur européen" [
-,(p*[Simples allusions : ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825])])
+,(p*[Simples allusions : ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
+,(ref :url "lettre_coudroy1827a.html#censeur_ref" [9 avril 1827])
+])
 ])
 
 ,(journal "commerce" "Le Commerce" [
@@ -164,6 +167,12 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ,(journal "punch" "The Punch" [
 ,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])
+])
+
+]),(lettre "R" [
+
+,(journal "encycl" "Revue encyclopédique" [
+,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827])
 ])
 
 ]),(lettre "V" [

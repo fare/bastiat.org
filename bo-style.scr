@@ -332,6 +332,8 @@
 (defun jde (prec suiv) (arbor "Journal des Économistes" "journaux_jde.html" prec suiv))
 (defun mb (prec suiv) (arbor "Mémorial bordelais" "journaux_mb.html" prec suiv))
 (defun rf (prec suiv) (arbor "République française" "journaux_rf.html" prec suiv))
+(defun jb (prec suiv) (arbor "Jacques Bonhomme" "journaux_jb.html" prec suiv))
+(defun le (prec suiv) (arbor "Libre-Échange" "journaux_le.html" prec suiv))
 
 ;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
 
