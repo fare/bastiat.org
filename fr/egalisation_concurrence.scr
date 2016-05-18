@@ -1,0 +1,25 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Fragment
+	- par Frédéric Bastiat")
+(document :title "Fragment"
+          :author (author-FB)
+(bastiat[
+,(p*[Il ne suffit pas que la valeur ne soit pas
+dans la matière ou dans les forces naturelles.
+Il ne suffit pas qu’elle soit exclusivement dans les services.
+Il faut encore que les services eux-mêmes
+ne puissent pas avoir une valeur exagérée.
+Car qu’importe à un malheureux ouvrier de payer le blé cher,
+parce que le propriétaire se fait payer les puissances productives du sol
+ou bien se fait payer démesurément son intervention ?
+][
+C’est l’œuvre de la Concurrence
+d’égaliser les services sur le pied de la justice.
+Elle y travaille sans cesse.
+])])
+(footer[
+
+])
+(with-footer
+(p*[])))

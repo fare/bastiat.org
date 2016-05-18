@@ -1,0 +1,33 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Sur l’admissibilité des députés au pouvoir")
+
+(document :title "Sur l’admissibilité des députés au pouvoir"
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+,(p*[
+La chambre est saisie pour la troisième fois d’une immense question : l’incompatibilité des fonctions publiques avec la députation, ou plutôt l’,(emph[inaccessibilité]) des places aux membres de la chambre des députés. Voudriez-vous, monsieur, ouvrir les colonnes de votre journal à quelques réflexions sur cette grave matière ? Avant tout, je voudrais désigner la classe de lecteurs à laquelle elles s’adressent.
+][
+Deux idées sont inscrites au drapeau de juillet, et il ombragera toujours deux grands partis politiques ; l’un qui se préoccupe avec prédilection du mot ,(emph[liberté,]), l’autre qui se constitue principalement défenseur de l’,(emph[ordre public]).
+][
+La réforme parlementaire entre naturellement dans les vues du parti Progressiste. « Comment, disent-ils, les libertés publiques ne courraient-elles aucun danger quand la garde en est confiée à des hommes dont l’existence est à la merci du pouvoir ? Comment compter sur l’indépendance de députés fonctionnaires qu’un vote indépendant peut entraîner à leur ruine ? Est-il prudent de placer les hommes entre leur intérêt et leurs devoirs ? D’ailleurs, si nous remettons les cordons de la bourse aux mains qui y puisent, devons-nous nous attendre à ce qu’elle soit ménagée ? Si nous confions le droit de créer des fonctions à ceux qui doivent les occuper, n’est-il pas à craindre qu’elles se multiplient outre mesure ? et qu’est-ce qu’étendre le domaine des fonctions publiques, si ce n’est restreindre celui de l’activité privée, c’est-à-dire restreindre la liberté elle-même ? Est-il raisonnable d’attendre que les députés ingénieurs, douaniers, membres de l’Université, nous rendent la ,(emph[liberté]) des grands travaux d’utilité publique, la ,(emph[liberté]) du commerce, la ,(emph[liberté]) d’enseignement ? »
+][
+Au point de vue des Progressistes, ces idées me paraissent trop claires, trop évidentes pour que je croie utile de les développer. Je voudrais onc m’adresser aux ,(emph[Conservateurs]) et recherchcer avec eux si l’,(emph[ordre public]) n’est pas aussi intéressé à la réforme parlementaire que la ,(emph[liberté]) elle-même ; si cette ,(emph[instabilité]) qu’ils déplorent et qui les alarme avec raison n’a pas pour cause principale l’,(emph[accessibilité du pouvoir aux contrôleurs du pouvoir]).
+][
+Qu’est-ce que la chambre telle qu’elle est aujourd’hui constituée ? une arène où les partis ou plutôt les coteries se disputent la puissance publique. Assiéger les portefeuilles et les défendre, voilà toute la tactique parlementaire.
+][
+Un député arrive au Palais-Bourbon. Quelle est cette séduisante image qui se dresse devant lui ? c’est le pouvoir, entouré de son brillant cortége, la fortune, l’autorité, l’influence, la renommée, la considération : je veux que ces biens ne fassent pas fléchir sa stoïque vertu ; mais si cet homme n’a pas d’ambition, il a du moins une idée qu’il veut faire triompher, et il ne tardera pas à rechercher l’élévation, si ce n’est dans l’intérêt de son individualité, du moins dans l’intérêt de sa foi politique. Notre constitution lui rend le pouvoir accessible ; nos usages parlementaires lui montrent deux voies pour y arriver. L’une est facile et unie ; il ne s’agit pour lui que de s’inféoder un ministère ; une bonne place sera le prix de sa complaisance. L’autre est escarpée et raboteuse ; mais elle mène plus haut et convient aux ambitions puissantes ; il faut attaquer le ministère, lui susciter des obstacles, l’empêcher d’administrer, le déconsidérer, le dépopulariser, soulever contre lui la presse et l’opinion, jusqu’à ce qu’enfin, aidé de ceux qu’on a attachés à sa fortune, on obtient une majorité d’un jour et l’on entre vainqueur dans les conseils de la couronne.
+][
+Mais la lutte ne se ralentit pas pour cela, seulement les rôles sont changés. Celui qui se défendait la veille devient assaillant à son tour. Il trouve, en sortant de la place, les machines de guerre qui ont servi à l’en chasser ; il s’en empare : à lui les discours pompeux ; à lui la popularité ; à lui de peindre la France poussée honteusement vers un abîme ; à lui d’aller réveiller et égarer, s’il le faut, au fond des âmes l’antique amour de la liberté et de l’indépendance nationale ; à lui enfin de tourner contre son ennemi vainqueur tous ces puissans projectiles. Car, celui-ci, hier agresseur, est aujourd’hui sur la défensive. Tout ce qu’il peut faire, c’est de lutter péniblement contre des attaques sans cesse renaissantes ; c’est d’abandonner le soin des affaires pour se livrer tout entier aux luttes du parlement. Bientôt sa majorité précaire lui échappe. Pour l’obtenir, il n’a pas marchandé les promesses, pour la conserver il faudrait pouvoir ne pas marchander avec les exigences ; les coteries se détachent fraction à fraction, et vont grossir la coalition assiégeante. Ainsi, le pouvoir, comme ces redoutes célèbres dans nos fastes militaires, est pris et repris jusqu’à vingt fois peut-être dans l’espace de dix années.
+][
+Est-ce là de l’ordre ? est-ce de la stabilité ? et pourtant je défie qu’on m’accuse d’avoir tracé un tableau de fantaisie. Ce sont des faits, c’est de l’histoire, et même notre histoire constitutionnelle n’est autre chose que le récit de ces luttes.
+][
+Et peut-il en être autrement ? Notre constitution peut se résumer ainsi : « Le pouvoir appartient aux députés qui savent s’en emparer. Celui d’entr’eux qui sera assez habile pour arracher la majorité au ministère sera ministre, et il distribuera à ses adhérens toutes les grandes places de l’armée, des finances, du parquet, de la magistrature. »
+][
+N’est-ce point là la guerre, l’anarchie, le désordre organisés ? Dans un autre article, j’examinerai comment la réforme parlementaire pourrait modifier cet ordre de choses.])
+,(politesse[J’ai l’honneur, etc.])
+,(sign[Fr. B.])
+])
+(with-footer (p*[
+])))

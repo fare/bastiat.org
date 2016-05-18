@@ -1,0 +1,40 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Charité, justice et spoliation
+	- par Frédéric Bastiat")
+(document :title "Charité, justice et spoliation"
+	:author (author-FB)
+(bastiat[
+,(date-tag[Cette pensée de l’auteur
+	fut écrite de sa main sur un album d’autographes
+	qu’envoya la Société des gens de lettres, en 1850,
+	à l’exposition de Londres.])
+,(p*[Il y a trois régions pour l’Humanité :
+une inférieure, celle de la Spoliation ;
+une supérieure, celle de la Charité ;
+une intermédiaire, celle de la Justice.
+][
+Les Gouvernements n’exercent jamais qu’une action
+	qui a pour sanction la Force.
+Or, il est permis de forcer quelqu’un d’être juste,
+	non de le forcer d’être charitable.
+La Loi, quand elle veut faire par la force
+ce que la morale fait faire par la persuasion,
+bien loin de s’élever à la région de la Charité,
+tombe dans le domaine de la Spoliation.
+][
+Le propre domaine de la Loi et des Gouvernements,
+	c’est la Justice.
+])])
+
+(footer[
+
+])
+
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome IV, pp. 298-326.
+][
+Numérisé et mis en hypertexte par ,(FRR) pour ,(Bastiat.org).
+])))

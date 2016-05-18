@@ -21,9 +21,48 @@ Cependant, en laissant subsister ce droit fixe d’un schilling, faites-vous ré
 Mais quel droit a un étranger de s’immiscer dans une telle question ? Le droit que je tiens de votre principe : ,(emph[liberté de commerce]) n’implique-t-elle pas entre les nations ,(emph[communauté d’intérêts]) ? En m’occupant de votre pays, je travaille pour le mien, ou, si vous l’aimez mieux, en m’occupant du mien, je travaille pour le vôtre.
 ][
 Qu’un droit uniforme appliqué à des valeurs différentes soit ,(emph[injuste]), c’est ce qui n’a pas besoin de démonstration. Je me bornerai donc, sur ce point, à montrer en chiffres les résultats des trois systèmes, en supposant que les prix maximum et minimum des vins pouvant donner lieu à un commerce important soient de 28 sch. et 3 sch. le gallon.
-][
-(ajouter tableaux)
-][
+])
+
+,(table
+(tr (td :colspan 7 :align "center" [,(sc[Vin du riche.])]))
+(tr (td :colspan 7 [ ]))
+(tr (td :rowspan 2 [Système actuel, ,(br) droit fixe de 5 sch. 6 d.]) (td :rowspan 2 [{])
+			(td[Prix d’achat]) (td[28]) (td[sch.]) (td[]) 		(td[]))
+(tr 		(td[Droit]) 		(td[5]) (td[]) 		(td[6 d.]) (td[ou 20 p. 100.]))
+(tr (td[]) (td[]) (td[]) (td :colspan 3 [,(hrule)]) (td[]))
+(tr (td[]) (td[]) (td[]) (td[33]) (td[]) (td[6]) (td[]))
+(tr (td :colspan 7 [ ]))
+(tr (td :rowspan 3 [Système projeté, ,(br) droit mixte.]) (td :rowspan 3 [{])
+			(td[Prix d’achat])	(td[28]) (td[sch.]) (td[]) (td :rowspan 3 [} ou 23 p. 100.]))
+(tr 		(td[Droit fixe]) 	(td[1]) 	(td[]) (td[]))
+(tr 		(td[Droit graduel à 20 p. 100]) (td[5]) (td[]) (td[6 d.]))
+(tr (td :colspan 7 [ ]))
+(tr (td :rowspan 2 [Système du droit ,(inlatin[ad valorem]).]) (td :rowspan 2 [{]) (td[Prix d’achat]) (td[28]) (td[sch.]) (td[]) (td[]))
+(tr 				(td[Droit à 20 p. 100]) (td[5]) (td[]) (td[6 d.]) (td[ou 20 p. 100.]))
+(tr (td[]) (td[]) (td[]) (td :colspan 3 [,(hrule)]) (td[]))
+(tr (td[]) (td[]) (td[]) (td[33]) (td[]) (td[6]) (td[]))
+)
+,(table
+(tr (td :colspan 5 :align "center" [,(sc[Vin du pauvre.])]))
+(tr (td :colspan 5 [ ]))
+(tr (td[Prix d’achat]) (td[3]) (td[sch.]) (td[]) (td[]))
+(tr (td[Droit]) (td[5]) (td[]) (td[6 d.]) (td[ou 183 p. 100]))
+(tr (td[]) (td :colspan 3 [,(hrule)]) (td[]))
+(tr (td[]) (td[8]) (td[]) (td[6]) (td[]))
+(tr (td :colspan 5 [ ]))
+(tr (td[Prix d’achat]) (td[3]) (td[sch.]) (td[]) (td :rowspan 3 [} 50 p. 100]))
+(tr (td[Droit fixe]) (td[1]) (td[]) (td[]))
+(tr (td[Droit graduel à 20 p. 100]) (td[0]) (td[]) (td[6 d.]))
+(tr (td[]) (td :colspan 3 [,(hrule)]) (td[]))
+(tr (td[]) (td[4]) (td[]) (td[6]) (td[]))
+(tr (td :colspan 5 [ ]))
+(tr (td[Prix d’achat]) (td[3]) (td[sch.]) (td[]) (td[]))
+(tr (td[Droit à 20 p. 100]) (td[0]) (td[]) (td[6 d.]) (td[ou 20 p. 100.]))
+(tr (td[]) (td :colspan 3 [,(hrule)]) (td[]))
+(tr (td[]) (td[3]) (td[]) (td[6]) (td[]))
+)
+
+,(p*[
 Ces chiffres approximatifs n’ont pas besoin de commentaires.
 ][
 Aujourd’hui, ,(emph[pour une dépense égale]), le pauvre paye ,(emph[huit fois]) la taxe du riche.

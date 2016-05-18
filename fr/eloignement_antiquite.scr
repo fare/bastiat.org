@@ -1,0 +1,37 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Ébauche sur l’Antiquité
+	- par Frédéric Bastiat")
+(document :title "Ébauche sur l’Antiquité"
+	:author (author-FB)
+(bastiat[
+,(date-tag[Ébauche inédite un peu antérieure à 1830.])
+,(p*[L’éloignement ne contribue pas peu
+à donner à des figures antiques un caractère de grandeur.
+Si l’on nous parle du citoyen romain,
+nous ne nous représentons pas ordinairement
+un brigand occupé d’acquérir, aux dépens de peuples pacifiques,
+du butin et des esclaves ;
+nous ne le voyons pas circuler, à demi nu, hideux de malpropreté,
+dans des rues bourbeuses ;
+nous ne le surprenons pas fouettant jusqu’au sang ou mettant à mort
+l’esclave qui montre un peu d’énergie et de fierté.
+,(--) Nous préférons nous représenter une belle tête
+supportée par un buste plein de force et de majesté,
+et drapé comme une statue antique.
+Nous aimons à contempler ce personnage
+dans ses méditations sur les hautes destinées de sa patrie.
+Il nous semble voir sa famille entourant le foyer
+qu’honore la présence des dieux ;
+l’épouse préparant le simple repas du guerrier
+et jetant un regard de confiance et d’admiration sur le front de son époux ;
+les jeunes enfants attentifs aux discours d’un vieillard
+qui endort les heures par le récit des exploits et des vertus de leur père…
+][
+Oh ! que d’illusions seraient dissipées
+si nous pouvions évoquer le passé,
+nous promener dans les rues de Rome,
+et voir de près les hommes que, de loin, nous admirons de si bonne foi !…
+])])
+(with-footer
+(p*[])))
