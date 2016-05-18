@@ -1,0 +1,24 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Avertissement")
+
+(document :title "Avertissement"
+	:author "P. Paillottet"
+(bastiat[
+,(p*[
+Au commencement du tome ,(Ier), j’ai expliqué par quel motif je me décidais à réunir dans un volume final toutes les productions de Bastiat que l’édition présente ajoute à l’édition de 1855. Je vais dire maintenant comment je les ai classés dans ce tome VII, qui fait à lui seul toute la différence entre les deux éditions.
+][
+J’ai mis au premier rang les articles de journaux, en les rangeant suivant l’ordre chronologique, quand je n’avais pas de bonnes raisons pour m’en écarter un peu. Ces articles sont le fruit d’un travail rapide, mais définitif.
+][
+Ensuite viennent les ébauches, extraites des cahiers et des papiers de l’auteur. Ce n’est certes pas dans cet état qu’il eût consenti à les livrer au public ; mais, puisqu’il n’est plus là pour les finir, je ne me fais pas scrupule de les donner telles qu’elles sont, et j’espère que peu de lecteurs m’en sauront mauvais gré. Aux ébauches, j’ai joint quelques lettres dont le sujet m’invitait à les y rattacher.
+][
+La correspondance termine le volume. Elle se compose de lettres dont les destinataires, à deux exceptions près, n’ont pas figuré, au tome ,(Ier), parmi les correspondants de Bastiat. La série la plus longue et la plus intéressante m’a été communiquée par M. Domenger.
+][
+Quand on fera plus tard une édition nouvelle, il conviendra de classer les volumes autrement. Les tomes III, IV, V et VI de l’édition actuelle, qui contiennent les œuvres dont Bastiat lui-même a entendu faire des livres, devront, si l’on m’en croit, commencer la série et prendre les numéros I, II, III, IV ; puis la matière des tomes I, II et VII, rapprochée, mise en ordre et formant trois volumes posthumes, achèvera la série, sous les numéros V, VI et VII.])
+,(sign[P. Paillottet.])
+])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+,(cite-title[Avertissement]),
+pp. ,(sc[v-vi]).
+])))
