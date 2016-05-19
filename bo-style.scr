@@ -394,10 +394,15 @@
  (filtering-bastiat-db (not (null lettre)))
 )
 
-(defun precedent-suivant (item list &key (test 'string-equal) (key 'text-id))
-  (loop :for (precedent courant suivant) :on (append '(()) list '(()))
+(defun precedent (item list &key (test 'string-equal) (key 'first))
+  (loop :for precedent = nil :then courant :for courant :in list
     :when (funcall test item (funcall key courant))
-    :return (list precedent suivant)))
+    :return precedent))
+
+(defun suivant (item list &key (test 'string-equal) (key 'first))
+  (loop :for (courant suivant) :on list
+    :when (funcall test item (funcall key courant))
+    :return suivant))
 
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
