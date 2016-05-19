@@ -1,4 +1,4 @@
-;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Scheme -*-
+;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Lisp -*-
 
 (style 'fare-style)
 (style 'oeuvres_bastiat)
@@ -393,6 +393,11 @@
 (defparameter correspondance
  (filtering-bastiat-db (not (null lettre)))
 )
+
+(defun precedent-suivant (item list &key (test 'string-equal) (key 'text-id))
+  (loop :for (precedent courant suivant) :on (append '(()) list '(()))
+    :when (funcall test item (funcall key courant))
+    :return (list precedent suivant)))
 
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
