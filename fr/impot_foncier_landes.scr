@@ -4,6 +4,7 @@
 
 (document :title "De la répartition de la contribution foncière dans le département des Landes"
 	:author (author-FB)
+
 (bastiat[
 ,(date-tag[1844.])
 ,(p*[
@@ -270,76 +271,45 @@ Nous apprenons encore, par le rapport de M. le Directeur des contributions direc
 (tr (td[]) (td :align "right" [4,212]) (td[]) (td :align "center" [—]) (td[pins.]))
 (tr (td[]) (td :align "right" [94]) (td[]) (td :align "center" [—]) (td[landes.]))
 (tr (td[]) (td :align "right" :colspan 2 [,(hrule)]) (td[]) (td[]))
-(tr (td[,(sc[Total.])]) (td :align "right" [5,537]) (td[ fr.,]) (td :colspan 3 [ somme inférieure à celle qu’ont à acquitter les seules landes de Saint-Sever.]))
+(tr (td[,(sc[Total.])]) (td :align "right" [5,537]) (td[ fr.,]) (td :colspan 2 [ somme inférieure à celle qu’ont à acquitter les seules landes de Saint-Sever.]))
 )
 ,(p*[
 Le contingent de Montfort est de 40,771 fr. — Il surpasse celui de Soustons et de Castets, qui sont :
-][
-tableau10
-Soustons . . . .
-22,338
-fr.
-Castets . . . .
-18,108
-
-
-
-
-Total . . . .
-40,446
-fr.
-][
+])
+,(table
+(tr (td[Soustons]) (td :align "right" [22,338]) (td[ fr.]))
+(tr (td[Castets]) (td :align "right" [18,108]) (td[]))
+(tr (td[]) (td :align "right" :colspan 2 [,(hrule)]))
+(tr (td[,(retrait),(sc[Total])]) (td :align "right" [40,446]) (td[ fr.]))
+),(p*[
 Cependant, selon le dernier dénombrement, la population de Montfort n’est que de 13,654 habitants. — Celle des deux cantons du Maransin est de 18,654 habitants.
-][
-tableau11
-Castets . . . .
-9,906
-fr.
-Soustons . . . .
-9,021
-
-][
+])
+,(table
+(tr (td[Castets]) (td :align "right" [9,006]) (td[ fr.]))
+(tr (td[Soustons]) (td :align "right" [9,021]) (td[]))
+)
+,(p*[
 Le contingent du canton de Mugron est de 34,790 fr. — Il surpasse celui de ces trois cantons réunis :
-][
-tableau12
-Sabres . . . .
-13,448
-fr.
-Pissos . . . .
-11,694
-
-Parentis . . . .
-9,103
-
-
-
-
-Total . . . .
-34,245
-fr.
-][
+])
+,(table
+(tr (td[Sabres]) (td :align "right" [13,448]) (td[ fr.]))
+(tr (td[Pissos]) (td :align "right" [11,694]) (td[]))
+(tr (td[Parentis]) (td :align "right" [9,103]) (td[]))
+(tr (td[]) (td :align "right" :colspan 2 [,(hrule)]))
+(tr (td[,(retrait),(sc[Total])]) (td :align "right" [34,245]) (td[ fr.]))
+)
+,(p*[
 et, à 355 fr. près, il égale celui de ces quatre cantons :
-][
-tableau13
-Labrit . . . .
-10,286
-fr.
-Parentis . . . .
-9,103
-
-Sore . . . .
-7,937
-
-Mimizan . . . .
-7,819
-
-
-
-
-Total . . . .
-35,145
-fr.
-][
+])
+,(table
+(tr (td[Labrit]) (td :align "right" [10,286]) (td[ fr.]))
+(tr (td[Parentis]) (td :align "right" [9,103]) (td[]))
+(tr (td[Sore]) (td :align "right" [7,937]) (td[]))
+(tr (td[Mimizan]) (td :align "right" [7,819]) (td[]))
+(tr (td[]) (td :align "right" :colspan 2 [,(hrule)]))
+(tr (td[,(retrait),(sc[Total])]) (td :align "right" [35,145]) (td[ fr.]))
+)
+,(p*[
 Et pourtant, à notre population de 10,038 habitants, ces quatre cantons opposent une population de 20,784 habitants (plus du double). — À nos 4,486 hectares de labourables, ils en opposent 9,584 hectares (plus du double). À nos 1,887 hectares de vigne, ils opposent 43,894 hectares de ,(emph[pignadas]) (23 pour 1). Enfin, à nos 3,250 hectares de landes, ils en opposent 88,719 hectares (27 pour 1).
 ][
 Je ne veux pas dire que les labourables et les landes de ces cantons vaillent les nôtres, ni que leurs pins puissent égaler nos vignes, hectare par hectare. La question est de savoir s’il y a entre eux l’énorme disproportion que nous venons de constater. Si cela est, si les ,(emph[revenus]) de Mugron égalent ceux de Labrit, Parentis, Mimizan et Sore, il restera à expliquer comment il se fait qu’ils ne font vivre que 10,000 habitants en Chalosse, tandis qu’ils suffisent à 20,000 habitants dans la Lande. On ne pourrait expliquer ce phénomène qu’en disant que les premiers nagent dans l’abondance comparativement aux seconds. Mais alors je demanderai comment il se fait qu’ici la population diminue, tandis que là elle augmente sensiblement.
@@ -351,145 +321,38 @@ Je pourrais signaler des anomalies encore plus frappantes si je voulais abandonn
 Il y a dans le deuxième arrondissement telle commune, comme Nerbis, qui paie 1 fr. 31 c. pour chaque hectare de lande. Il y a dans le premier arrondissement des communes, entre autres celles de Mimizan, Ponteux, Aureilhan, Bras, Argelouse, Luxey, qui ne paient que la moitié ou le tiers d’un centime. Calen, du canton de Sore, en est quitte pour 3/10 de centime ; d’où il suit qu’on a estimé un hectare de landes, à Nerbis, comme 300 hectares à Calen. On dit que dans le premier arrondissement chaque hectare de lande nourrit ,(emph[un]) mouton, et la statistique agricole, publiée par M. le ministre de l’agriculture, confirme cette assertion, puisque l’on y voit que cet arrondissement qui a 292,000 hectares de landes, entretient 338,800 animaux de l’espèce ovine. — MM. les administrateurs onl-ils pensé qu’à Nerbis un ,(emph[troupeau de]) 500 ,(emph[têtes]) peut vivre sur un hectare de landes ?
 ][
 La quantité de vin que donne un hectare de vigne est, en réalité, le produit de
-][
-tableau14
-1 hect. de vigne qui paye, ,(emph[dans la commune de Monfort])
-7
-fr.
-34
-c.
-1/2 hectare d’échalassière . . . .
-2
-
-02
-
-1/2 hectare de landes . . . .
-“
-
-30
-
-
-
-Total . . . .
-9
-fr.
-66
-c.
-][
+])
+,(table
+(tr (td[1 hect. de vigne qui paye, ,(emph[dans la commune de Montfort,])]) (td :align "right" [7]) (td[ fr. ]) (td :align "right" [34]) (td[ c.]))
+(tr (td[1/2 hectare d’échalassière]) (td :align "right" [2]) (td[]) (td :align "right" [02]) (td[]))
+(tr (td[1/2 hectare de landes]) (td :align "right" [0]) (td[]) (td :align "right" [30]) (td[]))
+(tr (td[]) (td :colspan 4 [,(hrule)]))
+(tr (td[,(retrait),(sc[Total])]) (td :align "right" [9]) (td[ fr. ]) (td :align "right" [66]) (td[ c.]))
+)
+,(p*[
 Il y a vingt communes dans le premier arrondissement qui ne sont taxées qu’à 27, 26, 24, 20 centimes par hectare de pin ; et il y en a, telle que Laharie (canton d’Arjuzaux) qui ne paient que 17 c. Pour qu’une semblable répartition soit jugée équitable, il faut que le produit net d’un hectare de vigne, agencé à Montfort, soit égal au produit net de ,(emph[cinquante-sept hectares]) de pins à Laharie.
 ][
 Je ne pousserai pas plus loin ces rapprochements. Je crois avoir démontré deux choses, savoir : 1° que les deux bases dont on s’est servi pour estimer le revenu de chacune des cultures de notre département étaient calculées, involontairement sans doute, de manière à préjudicier aux labourables et aux vignes au profit des pins ; 2° que des faits nombreux et irréfragables constatent que tel a été en effet le résultat de l’adoption de ces bases, d’où la conséquence que la répartition de l’impôt a été inégale dès l’origine. Il me reste à prouver que cette ,(emph[inégalité]) s’est accrue depuis et s’accroît tous les jours, par suite des changements qui sont intervenus dans les proportions des forces contributives de ces cultures.])
-,(h2[DEUXIÈME QUESTION.])
+,(p(center(sc[DEUXIÈME QUESTION.])))
 ,(p(center[Les forces contributives des diverses cultures du département ont-elles conservé les proportions qu’elles avaient lorsqu’on fit la répartition de l’impôt ?]))
 ,(p*[Pour constater les revenus des terres en 1821, on n’examina pas les faits relatifs à cette année. Les baux, les actes de vente que l’on consultait, avaient des dates plus ou moins anciennes, et les prix moyens dont on faisait l’application résultaient de mercuriales qui remontaient à quinze années. Ainsi ces divers éléments n’accusaient pas un état de choses ,(emph[actuel]), mais la situation du pays pendant une période dont le point de départ peut être fixé au commencement du siècle.
 ][
 C’est donc à cette période que je dois comparer l’époque présente, et j’ai à rechercher, pendant cette durée d’environ quarante ans, les phénomènes que la science enseigne à considérer comme les manifestations les plus certaines du progrès ou de la décadence des populations.
 ][
 Le premier qui se présente, c’est le mouvement de la population elle-même. S’il est vrai, comme tous les publicistes s’accordent à le reconnaître, que le nombre des hommes croît ou décroît comme leurs revenus, il suffit d’observer le mouvement de la population dans les contrées où se cultivent le pin, les céréales et la vigne, pour connaître ce que chacune d’elles a gagné ou perdu en forces contributives. Livrons-nous donc à cet examen qui me paraît présenter un haut degré d’intérêt, même en dehors de la question de la répartition de l’impôt.
-][
-tableau14
-POPULATION DES TROIS ARRONDISSEMENTS DES LANDES
-À DIVERSES ÉPOQUES.
-
-
-1801
-
-1804
-
-1806
-
-1821
-
-1826
-
-1831
-
-1836
-
-1841
-
-Augmentation p. 100.
-M. de Mar.
-
-71,707
-
-75,115
-
-77,225
-
-82,364
-
-86,859
-
-91,595
-
-93,292
-
-94,145
-
-31
-80
-S. Sever.
-
-77,467
-
-80,384
-
-80,602
-
-83,585
-
-84,486
-
-90,446
-
-90,500
-
-88,587
-
-14
-20
-Dax . . . .
-
-75,098
-
-80,601
-
-82,486
-
-90,362
-
-93,959
-
-90,463
-
-101,126
-
-105,345
-
-40
-“
-
-
-224,272
-
-235,556
-
-240,313
-
-256,311
-
-265,314
-
-272,504
-
-284,918
-
-288,077
-
-28
-50
-][
+])
+,(table
+(tr (td :colspan 10 [,(center(sc[POPULATION DES TROIS ARRONDISSEMENTS DES LANDES,(br)
+À DIVERSES ÉPOQUES.]))]))
+(tr (td[]) (td :align "center" [1801]) (td :align "center" [1804]) (td :align "center" [1806]) (td :align "center" [1821]) (td :align "center" [1826]) (td :align "center" [1831]) (td :align "center" [1836]) (td :align "center" [1841]) (td :align "center" [Augmentation,(br)p. 100.]))
+(tr (td[]) (td :colspan 9 []))
+(tr (td[M. de Mar.]) (td :align "right" [71,707]) (td :align "right" [74,115]) (td :align "right" [77,225]) (td :align "right" [82,364]) (td :align "right" [86,869]) (td :align "right" [91,595]) (td :align "right" [93,292]) (td :align "right" [94,145]) (td :align "right" [31,80]))
+(tr  (td [S. Sever.]) (td :align "right" [77,467]) (td :align "right" [80,834]) (td :align "right" [80,602]) (td :align "right" [83,585]) (td :align "right" [84,486]) (td :align "right" [90,446]) (td :align "right" [90,500]) (td :align "right" [88,587]) (td :align "right" [14,20]))
+(tr (td[Dax]) (td :align "right" [75,098]) (td :align "right" [80,601]) (td :align "right" [82,486]) (td :align "right" [90,362]) (td :align "right" [93,959]) (td :align "right" [90,463]) (td :align "right" [101,126]) (td :align "right" [105,345]) (td :align "right" [40 » ]))
+(tr (td[]) (td :colspan 9 []))
+(tr (td[]) (td :align "right" [224,272]) (td :align "right" [235,550]) (td :align "right" [240,313]) (td :align "right" [256,311]) (td :align "right" [265,314]) (td :align "right" [272,504]) (td :align "right" [284,918]) (td :align "right" [288,077]) (td :align "right" [28,50]))
+)
+,(p*[
 On voit par ce tableau que l’augmentation de la population a été pour le département de 28 1/2 p. 100. Cette moyenne a été dépassée de 11 1/2 p. 100 par le troisième arrondissement ; de 3 p. 100 par le premier : le second est resté de 44 p. 100 au-dessous.
 ][
 L’arrondissement de Saint-Sever était le plus peuplé au commencement du siècle. Il passa au second rand en 1806 ; au troisième en 1831 ; enfin, dans la période de 1832 à 1841, sa population ,(emph[absolue]) a rétrogradé.

@@ -308,11 +308,7 @@
   ))
 )
 
-(defun
-  oeuvres
-  (prec suiv)
-  (arbor "Œuvres" "oeuvres.html" prec suiv)
-)
+
 
 (defun corresp (prec suiv) (arbor "Correspondance" "correspondance.html" prec suiv))
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
@@ -390,9 +386,17 @@
 (defun text-livre (x) (getf (rest x) :livre))
 (defun text-chapter (x) (getf (text-livre x) :ch))
 
-(defparameter correspondance
- (filtering-bastiat-db (not (null lettre)))
+
+(defparameter serie_chronologique
+ (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date)
 )
+(defparameter correspondance
+ (sort (filtering-bastiat-db (not (null lettre))) 'string< :key 'text-date)
+)
+(defparameter articles
+ (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
+)
+
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
   (loop :for precedent = nil :then courant :for courant :in list
@@ -404,13 +408,49 @@
     :when (funcall test item (funcall key courant))
     :return suivant))
 
+(defun precedent (list &key (test 'string-equal) (key 'text-id))
+  (loop :for (precedent courant) :on (append '(()) list '(()))
+    :when (funcall test (pathname-name (current-lisp-file-pathname)) (funcall key courant))
+    :return (string-downcase (text-id precedent))))
+
+(defun suivant (list &key (test 'string-equal) (key 'text-id))
+  (loop :for (courant suivant) :on (append '(()) list '(()))
+    :when (funcall test (pathname-name (current-lisp-file-pathname)) (funcall key courant))
+    :return (string-downcase (text-id suivant))))
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
-
-
 ;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
-
 ;(sort ma-liste 'string< :key 'text-date)
-
 ;(sort ma-liste '< :key text-chapter)
 ;(uiop:current-lisp-file-pathname)
+
+
+;;; Les magnifiques fonctions de Laura, suite
+
+
+(defun
+  precsuiv
+  (titre adresse liste)
+  (%raw (strcat
+    "<div class='arbor'>
+    <a class='retour' href='"
+    adresse
+    "'>"
+    titre
+    "</a>
+    <a class='prec' href='"
+    (precedent liste)
+    ".html'>«««</a>
+    <a class='suiv' href='"
+    (suivant liste)
+    ".html'>»»»</a>
+    </div>"
+  ))
+)
+
+(defun
+  oeuvres ()
+  (precsuiv "Œuvres" "oeuvres.html" serie_chronologique)
+)
+
+
