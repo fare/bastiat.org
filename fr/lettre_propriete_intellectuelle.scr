@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Discours au cercle de la librairie
+(in-bof :title "Lettre sur la propriété intellectuelle
 	- par Frédéric Bastiat")
-(document :title "Discours au cercle de la librairie"
+(document :title "Lettre sur la propriété intellectuelle"
 	:author (author-FB)
 (bastiat[
 ,(date-tag[
@@ -142,13 +142,9 @@ aussi je m’associe de tout c,(oe)ur à votre utile entreprise.
 
 
 ])
+(footer[,(oeuvres)])
 (with-footer
 (p*[
 Extrait de l’,(EO1854),
 Volume II, Texte n° 49, pp. 328-342.
-][
-Numérisé par Véga Rideau,
-	depuis un exemplaire fourni par Jacques de Guenin.
-Relu, mis en hypertexte, édité et commenté
-	par ,(FRR) pour ,(Bastiat.org).
 ])))

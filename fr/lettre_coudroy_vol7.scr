@@ -1,0 +1,17 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Félix Coudroy, par Frédéric Bastiat")
+
+(document :title "Lettre à Félix Coudroy"
+	:author (author-FB)
+(bastiat[
+,(date-tag[1845])
+,(cher[Mon cher Félix,])
+,(p*[À cause de la difficulté de lire, je ne puis bien juger le style ; mais ma conviction sincère (tu sais que là-dessus je mets de côté toute modestie de convenance), c’est que nos styles ont des qualités et des défauts différents. Je crois que les qualités du tien sont celles qui, lorsqu’on s’exerce, amènent le vrai talent : je veux dire un style vif, animé, avec des idées générales et des aperçus lumineux. Copie toujours sur de petits feuillets ; s’il faut en modifier quelqu’un, ce sera peu de chose. En copiant, tu pourras peut-être polir ; mais, pour moi, je remarque que le premier jet est toujours plus rapide et plus à la portée des lecteurs de nos jours, qui n’approfondissent guère.]
+[N’as-tu pas le témoignage de M. Dunoyer ?
+])])
+(footer[,(oeuvres)])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome VII,
+pp. 10-14.
+])))

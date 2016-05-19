@@ -408,15 +408,12 @@
     :when (funcall test item (funcall key courant))
     :return suivant))
 
-(defun precedent (list &key (test 'string-equal) (key 'text-id))
-  (loop :for (precedent courant) :on (append '(()) list '(()))
-    :when (funcall test (pathname-name (current-lisp-file-pathname)) (funcall key courant))
-    :return (string-downcase (text-id precedent))))
 
-(defun suivant (list &key (test 'string-equal) (key 'text-id))
-  (loop :for (courant suivant) :on (append '(()) list '(()))
-    :when (funcall test (pathname-name (current-lisp-file-pathname)) (funcall key courant))
-    :return (string-downcase (text-id suivant))))
+(defun precedent-texte (list)
+     (string-downcase (text-id (precedent (pathname-name (current-lisp-file-pathname)) list))))
+
+(defun suivant-texte (list)
+     (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
 ;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
@@ -439,10 +436,10 @@
     titre
     "</a>
     <a class='prec' href='"
-    (precedent liste)
+    (precedent-texte liste)
     ".html'>«««</a>
     <a class='suiv' href='"
-    (suivant liste)
+    (suivant-texte liste)
     ".html'>»»»</a>
     </div>"
   ))
