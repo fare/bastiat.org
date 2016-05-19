@@ -736,22 +736,30 @@
 
 ;;; Les super bases de données de Laura
 
-(define personnes-db `(
-	(bastiat :nom "Bastiat" :prenom "Frédéric")
-	(calmetes :nom "Calmètes" :prenom "Victor")
-))
+(define personnes-db
+  `((bastiat :nom "Bastiat" :prenom "Frédéric")
+    (calmetes :nom "Calmètes" :prenom "Victor")))
 ;ajouter dates de naissance/mort, nationalités, etc.
 
-(define lieux-db `(
-	(bayonne :nom "Bayonne")
-	(mugron :nom "Mugron")
-))
+(define lieux-db
+  `((bayonne :nom "Bayonne")
+    (mugron :nom "Mugron")))
 ;ajouter département, pays...
 
-;;notes: au lieu de l'attribut ":published", je préfère distinguer entre :journal et :livre
+(define journaux-db
+  `((jde :titre "journal des économistes")
+    (mb :titre "mémorial bordelais")
+    (le :titre "libre-échange")
+    (eb :titre "économiste belge")
+    (cf :titre "courrier français")
+    (jd :titre "journal des débats")
+    (sp :titre "sentinelle des pyrénées")
+    (rf :titre "république française")
+    (jb :titre "jacques bonhomme")))
+
 ;;l'attribut :n signifie "numéro" (de journal), :p "page".
-;;(est-il vraiment utile de noter les numéros de pages de début et de fin pour Guillaumin? je trouve personnellement que le début suffirait.)
-;;noms de journaux: jde = journal des économistes; mb = mémorial bordelais; le = libre-échange; eb = économiste belge; cf = courrier français; jd = journal des débats; sp = sentinelle des pyrénées; rf = république française; jb = jacques bonhomme
+;;(est-il vraiment utile de noter les numéros de pages de début et de fin pour Guillaumin?
+;;je trouve personnellement que le début suffirait.)
 
 (define bastiat-db `(
 	(lettre_calmetes1819 :date "1819-09-12" :lettre (:de bastiat :a calmetes :lieu bayonne) :oc1862 (:tome 1 :p 1))
@@ -1227,7 +1235,7 @@
 	(lettre13 :date "1850-02-11" :journal (:titre vp) :de proudhon :livre (:titre gratuite_du_credit :ch 13) :oc1862 (:tome 5 :p 290))
 	(honnetete_proudhon :post "1850-03" :lettre (:de bastiat) :oc1862 (:tome 5 :p 296))
 	(lettre14 :date "1850-03-07" :journal (:titre vp) :livre (:titre gratuite_du_credit :ch 14) :oc1862 (:tome 5 :p 312))
-	(aux_artisans_et_ouvriers :date "1846-09-18" :journal (:titre cf) "Aux artisans et ouvriers" :livre (:titre sophismes2 :ch 6) :oc1862 (:tome 4 :p 173))
+	(aux_artisans_et_ouvriers :date "1846-09-18" :journal (:titre cf) :titre "Aux artisans et ouvriers" :livre (:titre sophismes2 :ch 6) :oc1862 (:tome 4 :p 173))
 	(le_commerce :date "1846-04-01" :journal (:titre cf) :titre "Qu’est-ce que le commerce ?" :oc1862 (:tome 7 :n 14 :p 63))
 	(courrier_francais :date "1846-04-11" :journal (:titre cf) :titre "A M. le rédacteur du Courrier français" :oc1862 (:tome 7 :n 16 :p 71))
 	(toast :date "1846-08-19" :journal (:titre cf) :titre "Toast au banquet offert à Cobden par les libre-échangistes de Paris" :oc1862 (:tome 7 :n 26 :p 122))
@@ -1272,7 +1280,7 @@
 	(comptabilite_individuelle :date "1843" :titre "" :oc1862 (:tome 5 :p 483))
 	(repression_coalitions :date "1849-11-17" :titre "Discours sur la répression des coalitions industrielles" :oc1862 (:tome 5 :p 494))
 	(aux_democrates :titre :date "1850-04-02" "Réflexions sur l’amendement de M. Mortimer-Ternaux" :oc1862 (:tome 5 :p 513))
-	(incompatibilites_parlementaires "1849-03" :titre "Incompatibilités parlementaires" :oc1862 (:tome 5 :p 518))
+	(incompatibilites_parlementaires :date "1849-03" :titre "Incompatibilités parlementaires" :oc1862 (:tome 5 :p 518))
 	(la_loi :date "1850-06" :titre "La Loi" :oc1862 (:tome 4 :p 342))
 	(experience_prevoyance :titre "" :oc1862 (:tome 4 :p 375))
 	(baccalaureat_et_socialisme :date "" :titre "Baccalauréat et socialisme" :oc1862 (:tome 4 :p 442))
@@ -1301,4 +1309,3 @@
 	(ligue_36 :livre (:titre cobden_ligue :ch 36) :journal (:titre jde) :date "1850-02-15" :titre "Réforme coloniale en Angleterre" :oc1862 (:tome 3 :p 497))
 	(ligue_37 :livre (:titre cobden_ligue :ch 37) :journal (:titre jde) :titre "Plan de lord John Russell" :oc1862 (:tome 3 :p 508))
 ))
-

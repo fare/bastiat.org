@@ -372,17 +372,27 @@
 ;;; Les super fonctions relatives à bastiat-db
 
 (defun filter-bastiat-db (fun)
-  (remove-if-not (lambda (x) (apply fun x)) bastiat-db))
+  (remove-if-not
+   (lambda (x)
+     (handler-case
+	 (apply fun x)
+       (error (c)
+	 (error "Error while filtering bastiat-db entry: ~S.~%Entry: ~S~%"
+		c x))))
+   bastiat-db))
 
 (defmacro filtering-bastiat-db (&body body)
-   `(filter-bastiat-db (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) ,@body)))
+  `(filter-bastiat-db
+    (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) ,@body)))
 
+(defun text-id (x) (first x))
 (defun text-date (x) (getf (rest x) :date))
-(defun text-chapter (x) (getf (getf (rest x) :livre) :ch))
+(defun text-livre (x) (getf (rest x) :livre))
+(defun text-chapter (x) (getf (text-livre x) :ch))
 
-;(defparameter correspondance
-; (filtering-bastiat-db (not (null lettre)))
-;)
+(defparameter correspondance
+ (filtering-bastiat-db (not (null lettre)))
+)
 
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
