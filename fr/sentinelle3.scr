@@ -1,0 +1,45 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Liberté commerciale. État de la question en Angleterre.")
+
+(document :title "Liberté commerciale. État de la question en Angleterre."
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+,(p* (small[Tout le monde a remarqué en province le silence incompréhensible qu’une grande partie de la presse parisienne a gardé sur le scandale de la concession du chemin de fer de Paris à la frontière du Nord. C’est là un des plus fâcheux résultats de la législation actuelle sur les journaux, que l’énormité du cautionnement, des frais de timbre et de poste constituent, pour ainsi dire, en état de monopole, tant sont difficiles et chanceuses les tentatives de concurrence. Notre ami, M. F. B., a été frappé comme nous tantôt du silence, tantôt de la partialité de la ,(emph[grande]) presse parisienne (à l’exception néanmoins du ,(cite-title[National])) sur diverses questions industrielles et commerciales.
+][
+Comme nous partageons les opinions de M. Fr. B. sur la liberté du commerce en général, nous accueillons avec plaisir son travail, en lui laissant toutefois la responsabilité de la vivacité des formes, dans ce qui a trait à la presse de la capitale.]))
+,(p(center(sc[,(1er) article.])))
+,(p*[Un journal disait, il y a quelques jours :
+« Les grands intérêts du Nord ont ,(emph[soudoyé]), depuis quelques années, une grande partie de la presse parisienne. »
+][
+Il ajoutait :
+][
+« Nous ne faisons pas un crime aux journaux parisiens d’avoir accepté une subvention des fabricans ; les médecins, les avocats vivent de leur travail et ,(emph[il n’y a rien d’immoral]) à ce qu’un écrivain soit rémunéré pour publier dans un journal des articles en faveur d’un intérêt, quand tous les jours M. Berryer, M. Barrot sont rémunérés pour avoir rédigé des mémoires en faveur d’intérêts purement individuels. »
+][
+Le sophisme saute aux yeux. M. Berryer donne ses plaidoyers pour des plaidoyers. Mais si, moyennant un salaire secret, il professait à la tribune des opinions autres que les siennes, serait-il justifié en disant : chacun vit de son travail ?
+][
+Quoi ! le gérant de la ,(cite-title[Presse]), fondateur de Coëtbo, se rallie à un système qui ruine l’agriculture ; mentant à leurs abonnés, à leurs antécédens et à ,(emph[leur propre titre,]) le ,(cite-title[Siècle]) ressuscite des théories du temps de Colbert, le ,(cite-title[Constitutionnel]) se fait le champion du privilége ; le ,(cite-title[Commerce]) combat la liberté du commerce, et cela parce qu’ils sont ,(emph[soudoyés]) pour faire prévaloir des doctrines qu’ils savent être anti-sociales, et l’on dit cyniquement : chacun vit de son travail ! C’est de ,(emph[vénalité]) qu’il fallait dire.
+][
+Et voyez les conséquences de cette corruption dans laquelle le ,(cite-title[Globe]) ne voit ,(emph[rien d’immoral]).
+][
+Il ne faut pascroire que la presse n’a aliéné aux monopoleurs que ses convictions économiques.
+][
+Le monopole ne se bornera jamais à se défendre sur le terrain de la science ; il aurait contre lui les Turgot, les Smith, les Say, les Riccardo, les Sismondi, les Mill, les Malthus, les Senior. Son plus sûr moyen d’éloigner la concurrence étrangère, c’est de brouiller la France avec les autres nations, et s’il soudoie la presse il entend bien qu’elle excite les passions haineuses, les défiances politiques, les jalousies nationales. Il faut dire qu’à cet égard le journalisme parisien a consciencieusement travaillé à gagner sa subvention, et l’on a pu lire dans un des journaux que nous nommerons tout à l’heure cette étrange maxime :
+][
+« Nous concevons l’impartialité dans nos discussions intérieures ; mais à l’égard de l’étranger ,(emph[l’impartialité est une trahison.]) »
+][
+La presse parisienne nous donne en ce moment une preuve remarquable de l’esprit qui l’anime.
+][
+On sait qu’en Angleterre, il n’est pas de question si futile ou si grave qu’elle soit, depuis la simple réforme d’un hospice jusqu’aux plus profondes altérations de la grande charte, qui ne donne lieu à des assemblées (meetings) où elles sont librement discutées. Comme toute nation est composée d’hommes d’opinions et de vues fort diverses, il ne faut pas être surpris si parmi ces milliers de meetings il s’en rencontre qui aient pour objet des questions indifférentes ou même hostiles à des intérêts français. Ce qui se dit en ce cas nous est soigneusement rapporté par nos journaux. Ainsi, que quelques missionnaires protestans se réunissent pour déclamer contre l’invasion du catholicisme à Otahiti, la presse voit là une manifestation de l’inextinguible jalousie de la ,(emph[perfide Albion]).
+][
+Mais des meetings pour l’affranchissement du commerce, elle n’en dit pas un mot. Le monopole manufacturier ne le permet pas.
+][
+Et cependant, il ne s’agit plus des vaines doléances de quelques méthodistes désappointés. Il s’agit d’un mouvement immense, profond, qui remue jusque dans ses fondemens le sol de la vieille Angleterre. — Au point de vue britannique, c’est la lutte des masses 
+])
+
+,(sign[Fr. B.])
+
+])
+(with-footer (p*[
+])))

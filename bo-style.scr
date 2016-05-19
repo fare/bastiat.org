@@ -1,6 +1,7 @@
 ;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Scheme -*-
 
 (style 'fare-style)
+(style 'oeuvres_bastiat)
 
 ;;; All that is to define correctly...
 
@@ -368,3 +369,28 @@
   ))
 )
 
+;;; Les super fonctions relatives à bastiat-db
+
+(defun filter-bastiat-db (fun)
+  (remove-if-not (lambda (x) (apply fun x)) bastiat-db))
+
+(defmacro filtering-bastiat-db (&body body)
+   `(filter-bastiat-db (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) ,@body)))
+
+(defun text-date (x) (getf (rest x) :date))
+(defun text-chapter (x) (getf (getf (rest x) :livre) :ch))
+
+;(defparameter correspondance
+; (filtering-bastiat-db (not (null lettre)))
+;)
+
+
+;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
+
+
+;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
+
+;(sort ma-liste 'string< :key 'text-date)
+
+;(sort ma-liste '< :key text-chapter)
+;(uiop:current-lisp-file-pathname)

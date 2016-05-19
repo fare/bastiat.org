@@ -42,13 +42,12 @@ Cette répartition devra équitablement se faire ainsi :
 P pour un revenu de 5,000 fr., 500 fr. d’impôts, ou 1 fr. sur 10.
 ][
 V pour un revenu de 5,000 fr., 500 fr, d’impôts, ou 1 fr, sur 10.
-][
-(tableau1)
-Mais si l’on atténue la force contributive de P d’un cinquième, la réduisant à . . . . .
-4,000 fr.,
-et si l’on exagère celle de V d’un cinquième, la portant à . . . . .
-6,000 fr.,
-][
+])
+,(table
+(tr (td[Mais si l’on atténue la force contributive de P d’un cinquième, la réduisant à ]) (td[4,000 fr.,]))
+(tr (td[et si l’on exagère celle de V d’un cinquième, la portant à ]) (td[6,000 fr.,]))
+)
+,(p*[
 La répartition se fera ainsi :
 ][
 P pour un revenu réel de 5,000 fr, supposé de 4,000 fr., 400 fr. d’impôts, 1 fr. sur 12 fr. 50 c. ;
@@ -67,7 +66,7 @@ V pour un revenu supposé de 6,000 fr., mais en réalité de 4,000 fr., — 60
 ][
 Par où l’on voit qu’une contrée peut insensiblement rejeter sur une autre ,(emph[plus de la moitié]) de son fardeau.
 ])
-,(h2[PREMIÈRE QUESTION.])
+,(p(center(sc[PREMIÈRE QUESTION.])))
 ,(p(center[La répartition se fit-elle d’une manière équitable en 1821 ?]))
 ,(p*[La règle générale est que l’impôt doit frapper le revenu.
 ][
@@ -82,34 +81,14 @@ Malheureusement ce n’est pas le vrai, mais le faux, qui est dans les moyennes,
 Examinons donc l’usage qui a été fait de ces deux bases de la répartition de l’impôt ; le ,(emph[prix moyen des denrées]) et les ,(emph[actes de vente]).
 ][
 § I. — Les prix des denrées, dit M. le Directeur des Contributions directes, ont été fixés, dans les opérations cadastrales, année moyenne, savoir :
-][
-tableau2
-Froment
-18
-fr.
-77
-c.
-l’hect. — Vin rouge 28 à 60 fr.
-Résine
-2
-fr.
-50
-c.
-les 50 kilog.
-Seigle
-12
-fr.
-76
-c.
-l’hect. — Vin blanc 10 à 22.
-Maïs
-11
-fr.
-33
-c.
-
-][
-Je suis convaincu que cette première base d’évaluation présente plusieurs erreurs de fait et de doctrine, toutes au profit des pins et au préjudice des labourables et des vignes.
+])
+,(table
+(tr (td[Froment]) (td :align "right" [18 fr. 77 c.]) (td[l’hect.]) (td[— Vin rouge ]) (td[28 à 60 fr.]))
+(tr (td[Résine]) (td :align "right" [2 fr. 50 c.]) (td[les 50 kilog.]) (td[]) (td[]))
+(tr (td[Seigle]) (td :align "right" [12 fr. 76 c.]) (td[l’hect.]) (td[— Vin blanc ]) (td[10 à 22.]))
+(tr (td[Maïs]) (td :align "right" [11 fr. 33 c.]) (td[]) (td[]) (td[]))
+)
+,(p*[Je suis convaincu que cette première base d’évaluation présente plusieurs erreurs de fait et de doctrine, toutes au profit des pins et au préjudice des labourables et des vignes.
 ][
 Les prix des céréales sont évidemment très-élevés. Je ne veux pas dire qu’on n’a pas suivi exactement les données fournies par les mercuriales ; mais la période de 1806 à 1821, soit parce qu’elle embrasse des temps de troubles et d’invasions, soit par toute autre cause, a donné des éléments d’évaluation peu favorables aux communes agricoles. La preuve en est que, dans les quinze années suivantes, de 1821 à 1836, et d’après M. le Directeur lui-même, ces prix moyens sont tombés à fr. 17,13 pour le froment, 11,27 pour le seigle, et 9,17 pour le maïs.
 ][
@@ -134,97 +113,24 @@ Je suppose que pendant quatre ans une denrée se vend à 10 fr., — la moyenne
 Pour obtenir des moyennes qui représentent la réalité des faits, et dont on puisse induire le revenu, il faut donc combiner les prix obtenus avec les quantités produites, et c’est ce qu’on a négligé de faire. — Si, dans la nouvelle répartition dont on s’occupe, on prenait pour base les prix moyens des vins des trois dernières années, voyez à quels résultats différents mèneraient le procédé administratif et celui que j’indique.
 ][
 L’administration raisonnerait ainsi :
-][
-tableau3
-1840
-—
-10
-b/ques
-à
-25
-fr. donnant un revenu de
-250
-fr.
-1841
-—
-10
-—
-
-25
-
-250
-
-1843
-—
-10
-— (Supposition gratuite).
-
-50
-
-500
-
-
-
-
-
-
-
-
-
-30
-b/ques, prix moyen
-
-33
-fr. 33 c. 1/3 revenu
-1,000
-fr.
-][
-Tandis qu’elle devrait dire :
-][
-tableau4
-1840
-—
-10
-b/ques
-à
-25
-fr.
-250
-fr.
-1841
-—
-10
-—
-
-25
-
-250
-
-1843
-—
-5
-— (réalité).
-
-50
-
-250
-
-
-
-
-
-
-
-
-
-25
-b/ques, prix moyen
-
-30
-
-750
-fr.
-][
+])
+,(table
+(tr (td[1840]) (td[— 10 ]) (td[b/ques]) (td[à]) (td[25 fr.]) (td[donnant un revenu de ]) (td :align "right" [250]) (td[ fr.]))
+(tr (td[1841]) (td[— 10 ]) (td[—]) (td[]) (td[25]) (td[]) (td :align "right" [250]) (td[]))
+(tr (td[1843]) (td[— 10 ]) (td[— (Supposition gratuite).]) (td[]) (td[50]) (td[]) (td :align "right" [500]) (td[]))
+(tr (td[]) (td[,(hrule)]) (td[]) (td[]) (td[,(hrule)]) (td[]) (td :colspan 2 [,(hrule)]))
+(tr (td[]) (td :align "right" [30 ]) (td[b/ques, prix moyen]) (td[]) (td[33 fr. 33 c. 1/3]) (td :align "right" [revenu]) (td :align "right" [1,000]) (td[ fr.]))
+)
+,(p*[
+Tandis qu’elle devrait dire :])
+,(table
+(tr (td[1840]) (td[— 10 ]) (td[b/ques]) (td[à]) (td[25 fr.]) (td[donnant un revenu de ]) (td :align "right" [250]) (td[ fr.]))
+(tr (td[1841]) (td[— 10 ]) (td[—]) (td[]) (td[25]) (td[]) (td :align "right" [250]) (td[]))
+(tr (td[1843]) (td[—  5 ]) (td[— (réalité).]) (td[]) (td[50]) (td[]) (td :align "right" [250]) (td[]))
+(tr (td[]) (td[,(hrule)]) (td[]) (td[]) (td[,(hrule)]) (td[]) (td :colspan 2 [,(hrule)]))
+(tr (td[]) (td :align "right" [25 ]) (td[b/ques, prix moyen]) (td[]) (td[30]) (td :align "right" [revenu]) (td :align "right" [750]) (td[ fr.]))
+)
+,(p*[
 C’est ainsi qu’on arrive à un revenu imaginaire, sur lequel néanmoins on ne laisse pas de prélever l’impôt.
 ][
 On dira, sans doute, que la répartition est une opération déjà assez difficile sans la compliquer par des considérations aussi subtiles. On ajoutera que les mêmes procédés étant employés pour tous les produits, les erreurs se compensent et se neutralisent, puisque tous sont soumis aux mêmes lois économiques.
@@ -286,55 +192,23 @@ Supposons deux domaines vendus chacun 100,000 fr., l’un situé dans la locali
 Le premier donne 4,000 fr. de revenu, le second 3,000 fr. et l’impôt doit équitablement suivre cette proportion, puisqu’il se prélève sur le revenu.
 ][
 Selon le système de l’administration, chaque ,(emph[cent francs]) d’impôts se seraient répartis entre ces deux domaines savoir :
-][
-tableau5
-Quote-part afférente au domaine de la Lande.
-57
-fr.
-15
-c.
-pour 4,000 de revenu.
-Quote-part afférente au domaine de la Chalosse.
-42
-fr.
-85
-c.
-pour 3,000 de revenu.
+])
+,(table
+(tr (td[Quote-part afférente au domaine de la Lande.]) (td :align "right" [57 fr. 15 c.]) (td[pour 4,000 de revenu.]))
+(tr (td[Quote-part afférente au domaine de la Chalosse.]) (td :align "right" [42 fr. 85 c.]) (td[pour 3,000 de revenu.]))
+(tr (td[]) (td[,(hrule)]) (td[]))
+(tr (td :align "right" [,(sc[Total])…]) (td :align "right" [100 fr. 00 c.]) (td[]))
+)
+,(p*[
+Mais, selon le système de la commission, cent francs se sont répartis ainsi :])
 
-
-
-Total . . .
-100
-fr.
-00
-c.
-
-][
-Mais, selon le système de la commission, cent francs se sont répartis ainsi :
-][
-tableau6
-Quote-part
-afférente au domaine
-de la Lande.
-50
-fr.
-00
-c.
-—
-—
-de la Chalosse.
-50
-fr.
-00
-c.
-
-
-Total . . .
-100
-fr.
-00
-c.
-][
+,(table
+(tr (td[Quote-part afférente au domaine de la Lande.]) (td :align "right" [50]) (td[ fr. ]) (td[00 c.]))
+(tr (td :align "right" [— de la Chalosse.]) (td :align "right" [50]) (td[]) (td[00]))
+(tr (td[]) (td :colspan 3 [,(hrule)]))
+(tr (td :align "right" [,(sc[Total])…]) (td :align "right" [100]) (td[ fr. ]) (td[00 c.]))
+)
+,(p*[
 C’est-à-dire que la Lande s’est dégrevée de 14 pour 100 qu’elle a appliqués à la Chalosse ,(footnote*[En admettant que l’intérêt ne variât, d’un pays à l’autre, que dans la proportion de 3 à 4 p. 100. ,(NdA)]). On dira, sans doute, que les actes de vente n’étant qu’un des deux éléments de la répartition, ce résultat a pu être atténué par l’influence de l’autre élément. Cela serait vrai si les cantons agricoles et vinicoles avaient été favorisés par l’application des ,(emph[prix moyens]) des denrées ; mais nous avons vu qu’ils n’ont pas été plus ménagés par la première que par la seconde base d’évaluation. Bien loin donc que les erreurs dont ces deux procédés sont entachés se compensent et se neutralisent, on peut dire qu’elles se multiplient les unes par les autres, et toujours au préjudice des mêmes localités.
 ][
 Ainsi les deux bases de la répartition de l’impôt ont été viciées, dénaturées, et toujours au profit d’une nature de propriété, les ,(emph[pignadas]), au détriment des deux autres, les labourables et les vignes.
@@ -344,212 +218,61 @@ Passons maintenant aux résultats.
 Si l’on demandait à un homme désintéressé : Quels sont les cantons qui paient le plus de contributions relativement aux vignes ? il répondrait, sans doute. Ce sont ceux qui ont le plus de superficie consacrée à cette culture, les cantons de Montfort, Mugron, Saint-Sever, Villeneuve, Gabarret ; et cet homme ne se tromperait pas. À eux seuls, ces cinq cantons paient les trois quarts de l’impôt assigné aux vignobles. — Et si on lui demandait : Quels sont ceux qui paient le plus de contributions pour les landes ? il répondrait sans hésiter : Ceux qui en contiennent d’immenses étendues. Sabres, Arjuzanx, Labrit, etc. Mais ici notre interlocuteur se tromperait grossièrement, et il serait probablement bien surpris d’apprendre que ce sont la Chalosse et l’Armagnac, les pays des vignes, qui paient, non-seulement la plus grande partie, mais la presque totalité de l’impôt afférent aux landes.
 ][
 Voici le tableau de nos vingt-huit cantons, rangés selon l’,(emph[ordre décroissant]) de leur quote-part à la contribution afférente aux landes ,(footnote*[Ces rapprochements sont puisés dans le rapport de M. le Directeur des contributions directes publié en 1836. À cette époque, quatre cantons n’étaient pas encore cadastrés, en sorte que le document officiel ne pouvait donner sur la distribution du contingent de ces cantons, entre leurs diverses cultures, que des renseignements approximatifs. Depuis, M. le Directeur a eu la bonté de m’envoyer des étals de rectification, et je dois à la vérité de dire que les anomalies que je signale dans le texte sont moins choquantes dans ces états définitifs que dans les tableaux provisoires. Le temps me manque pour refaire le travail d’après les nouvelles bases. Mais il ne faut pas perdre de vue que ce que les landes paient ,(emph[en plus]) dans ces quatre cantons, les pins et les labourables le paient ,(emph[en moins]), car le contingent cantonal n’a pas varié.]).
-][
-tableau7
-
-fr.
-
-
-fr.
-Saint-Sever
-6,296
-
-Saint-Esprit
-1,593
-Grenade
-5,599
-
-Sabres
-1,561
-Mugron
-3,904
-
-Geaune
-1,287
-Roquefort
-3,579
-
-Dax
-1,207
-Hagetmau
-3,327
-
-Arjuzanx
-1,168
-Amou
-3,000
-
-Labrit
-1,074
-Montfort
-3,000
-
-Tartas (ouest)
-914
-Pouillon
-2,883
-
-Castets
-600
-Aire
-2,852
-
-Soustons
-522
-Saint-Vincent
-2,663
-
-Tartas (est)
-495
-Mont-de-Marsan
-2,465
-
-Pissos
-166
-Gabarret
-2,272
-
-Parentis
-141
-Peyrehorade
-2,061
-
-Sore
-107
-Villeneuve
-1,817
-
-Mimizan
-94
-][
+])
+,(table
+(tr (td[]) (td :align "center" [fr.]) (td[]) (td :align "center" [fr.]))
+(tr (td[Saint-Sever]) (td :align "right" [6,298]) (td[Saint-Esprit]) (td :align "right" [1,563]))
+(tr (td[Grenade]) (td :align "right" [5,599]) (td[Sabres]) (td :align "right" [1,561]))
+(tr (td[Mugron]) (td :align "right" [3,904]) (td[Geaune]) (td :align "right" [1,287]))
+(tr (td[Roquefort]) (td :align "right" [3,579]) (td[Dax]) (td :align "right" [1,207]))
+(tr (td[Hagetmau]) (td :align "right" [3,327]) (td[Arjuzanx]) (td :align "right" [1,168]))
+(tr (td[Amou]) (td :align "right" [3,000]) (td[Labrit]) (td :align "right" [1,074]))
+(tr (td[Montfort]) (td :align "right" [3,000]) (td[Tartas (ouest)]) (td :align "right" [914]))
+(tr (td[Pouillon]) (td :align "right" [2,883]) (td[Castets]) (td :align "right" [600]))
+(tr (td[Aire]) (td :align "right" [2,852]) (td[Soustons]) (td :align "right" [522]))
+(tr (td[Saint-Vincent]) (td :align "right" [2,663]) (td[Tartas (est)]) (td :align "right" [495]))
+(tr (td[Mont-de-Marsan]) (td :align "right" [2,465]) (td[Pissos]) (td :align "right" [166]))
+(tr (td[Gabarret]) (td :align "right" [2,272]) (td[Parentis]) (td :align "right" [141]))
+(tr (td[Peyrehorade]) (td :align "right" [2,061]) (td[Sore]) (td :align "right" [107]))
+(tr (td[Villeneuve]) (td :align "right" [1,817]) (td[Mimizan]) (td :align "right" [94]))
+)
+,(p*[
 N’est-il pas assez singulier de voir figurer dans la première moitié de cette liste tous les cantons vinicoles, Saint-Sever, Mugron, Amou, Montfort, Villeneuve, etc., ainsi que tous les cantons agricoles, Hagetmau, Aire, Peyrehorade, etc. ; et dans la seconde moitié, tous les cantons qui forment la Lande et le Alaransin ?
 ][
 Voici un autre rapprochement non moins curieux.
 ][
 Le canton de Saint-Sever, ,(emph[à lui tout seul]), paie plus d’impôts pour ses 5,583 hectares de landes que ces ,(emph[neuf cantons réunis :]) Mimizan, Sore, Parentis, Castets, Soustons, Labrit, Arjuzanx et Sabres, qui en présentent ensemble une superficie de 203,760 hectares ; et quand on ajouterait, à ces neuf cantons, neuf autres cantons égaux à celui de Mimizan, on n’arriverait pas encore, par la répartition actuelle, à tirer de ces effrayantes étendues ce qui se prélève sur les landes du seul canton de Saint-Sever, ainsi qu’on peut s’en convaincre par le tableau suivant :
-][
-tableau8
-LANDES
-Impôt en principal.
-
-Impôt en principal.
-
-fr.
-
-
-fr.
-1
-canton ;
-Sabres
-1,561
-
-Saint-Sever
-6,296
-1
-—
-Arjuzanx
-1,168
-
-
-
-1
-—
-Labrit
-1,074
-
-
-
-1
-—
-Castets
-600
-
-
-
-1
-—
-Soustons
-522
-
-
-
-1
-—
-Pissos
-166
-
-
-
-1
-—
-Parentis
-141
-
-
-
-1
-—
-Sore
-107
-
-
-
-1
-—
-Mimizan
-94
-
-
-
-9
-cantons tels que celui de Mimizan, à 94 fr. chaque
-846
-
-
-
-
-
-
-
-
-18
-cantons
-
-6,279
-
-
-6,296
-][
+])
+,(table
+(tr (td :colspan 6 :align "center" [,(sc[Landes])]))
+(tr (td :colspan 4 :align "center" [,(emph[Impôt en principal.])]) (td :colspan 2 :align "center" [,(emph[Impôt en principal.])]))
+(tr (td :align "right" []) (td[]) (td[]) (td :align "center" [fr.]) (td[]) (td :align "center" [fr.]))
+(tr (td :align "right" [1]) (td[ canton ;]) (td[Sabres]) (td :align "right" [1,561]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Arjuzanx]) (td :align "right" [1,168]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Labrit]) (td :align "right" [1,074]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Castets]) (td :align "right" [600]) (td[,(retrait)Saint-Sever]) (td :align "right" [ 6,296]))
+(tr (td :align "right" [1]) (td[ —]) (td[Soustons]) (td :align "right" [522]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Pissos]) (td :align "right" [166]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Parentis]) (td :align "right" [141]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Sore]) (td :align "right" [107]) (td[]) (td :align "right" []))
+(tr (td :align "right" [1]) (td[ —]) (td[Mimizan]) (td :align "right" [94]) (td[]) (td :align "right" []))
+(tr (td :colspan 3 [9 cantons tels que celui de Mimizan, ,(br)à 94 fr. chaque]) (td :align "right" [846]) (td[]) (td :align "right" []))
+(tr (td :align "right" []) (td[]) (td[]) (td[,(hrule)]) (td[]) (td[,(hrule)]))
+(tr (td :align "right" [18]) (td[cantons]) (td[]) (td :align "right" [6,279]) (td[]) (td :align "right" [6,296]))
+)
+,(p*[
 Nous apprenons encore, par le rapport de M. le Directeur des contributions directes que le canton de Mimizan, dont le territoire nourrit près de 5,000 habitants, c’est-à-dire environ un tiers de la population du canton de Saint-Sever, paie de contributions :
-][
-tableau9
+])
 
-1,223
-fr.
-pour les
-labourables.
-
-8
-fr.
-–
-vignes.
-
-4,212
-fr.
-–
-pins.
-
-94
-fr.
-–
-landes.
-
-
-
-Total.
-5,537
-fr., somme inférieure à celle qu’ont à acquitter les seules landes de Saint-Sever
-][
+,(table
+(tr (td[]) (td :align "right" [1,223]) (td :align "center" [ fr. ]) (td :align "center" [pour les ]) (td[labourables.]))
+(tr (td[]) (td :align "right" [8]) (td[]) (td :align "center" [—]) (td[vignes.]))
+(tr (td[]) (td :align "right" [4,212]) (td[]) (td :align "center" [—]) (td[pins.]))
+(tr (td[]) (td :align "right" [94]) (td[]) (td :align "center" [—]) (td[landes.]))
+(tr (td[]) (td :align "right" :colspan 2 [,(hrule)]) (td[]) (td[]))
+(tr (td[,(sc[Total.])]) (td :align "right" [5,537]) (td[ fr.,]) (td :colspan 3 [ somme inférieure à celle qu’ont à acquitter les seules landes de Saint-Sever.]))
+)
+,(p*[
 Le contingent de Montfort est de 40,771 fr. — Il surpasse celui de Soustons et de Castets, qui sont :
 ][
 tableau10
