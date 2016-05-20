@@ -6,13 +6,13 @@
 (document :title "Association espagnole pour la défense du travail national"
 	:author (author-FB)
 (bastiat[
-,(date-tag[7 Novembre 1847.]) ; XXX novembre?
+,(date-tag[7 Novembre 1847.])
 ,(p*[
 L’Espagne a aussi son association pour la défense du ,(emph[travail national]).
 ][
 L’objet qu’elle a en vue est celui-ci :
 ][
-,(q[Étant donné ,(XXX :EO ["«" ouvrant manquant !])
+,(q[Étant donné
 un capital et le travail qu’il peut mettre en ,(oe)uvre,
 les détourner des emplois où ils donneraient du profit,
 pour les lancer dans une direction où ils donneront de la perte,
@@ -259,7 +259,8 @@ ils le font par-dessous, tant ils sont aveugles !
 
 
 ])])
-(footer[,(oeuvres)])
+(footer[,(oeuvres)
+,(art_le)])
 (with-footer (p*[
 Extrait de l’,(EO1854), tome II, ,(cite-title[Libre-Échange]),
 texte 64, ,(cite-title[Association espagnole

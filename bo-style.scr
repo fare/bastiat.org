@@ -383,10 +383,9 @@
 (defun text-id (x) (first x))
 (defun text-date (x) (getf (rest x) :date))
 (defun text-livre (x) (getf (rest x) :livre))
-;(defun text-journal (x) (getf (rest x) :journal))
 (defun text-chapter (x) (getf (text-livre x) :ch))
-;(defun text-journal-titre (x) (getf (text-journal x) :titre))
-
+(defun text-journal (x) (getf (rest x) :journal))
+(defun text-journaltitre (x) (getf (text-journal x) :titre))
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
   (loop :for precedent = nil :then courant :for courant :in list
@@ -423,7 +422,9 @@
 (defparameter articles
  (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
 )
-
+(defparameter articles_le
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-date)
+)
 
 ;;; Les magnifiques fonctions de Laura, suite
 
@@ -471,4 +472,8 @@
 (defun
   corresp ()
   (precsuiv "Correspondance" "correspondance.html" correspondance)
+)
+
+(defun art_le ()
+  (precsuiv "Libre-Échange" "journaux_le.html" articles_le)
 )
