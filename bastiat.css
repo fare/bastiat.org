@@ -69,7 +69,7 @@ sup {line-height: 0;}
 	padding: 3em;
 	width: 90%;
 	font-size: 1.05em;
-	font-family: "paratexte";
+	font-family: "paratexte", sans-serif;
 	text-align: justify;
 	background: white;
 }
@@ -143,10 +143,10 @@ sup {line-height: 0;}
 }
 
 .bastiat {
-	font-family: 'bastiat';
+	font-family: 'bastiat', serif;
 }
 .other {
-	font-family: 'paratexte';
+	font-family: 'paratexte', sans-serif;
 }
 
 .bastiat h2 {
@@ -154,7 +154,7 @@ sup {line-height: 0;}
 	font-variant: small-caps;
 	font-weight: normal;
 	margin: 2em 0;
-	font-family: paratexte;
+	font-family: "paratexte", sans-serif;
 	font-size: 1.3em;
 }
 h2 sup, h2 i {font-variant: normal;}
@@ -195,7 +195,7 @@ h3 {
 .bastiat p.noselect {
 	color: #444;
 	text-align: right;
-	font-family: paratexte;
+	font-family: 'paratexte', sans-serif;
 	font-style: italic;
 	padding-top: 2em;
 	user-select: none;
@@ -331,7 +331,7 @@ table.vers {
 	width: 100%;
 	text-align: center;
 	z-index:20;
-	font-family: "paratexte";
+	font-family: "paratexte", sans-serif;
 }
 
 .footer {
@@ -428,7 +428,7 @@ margin: auto;
 	width: 12%; height: 100%;
 	background-color: rgba(255,230,100,1);
 	padding: 10em 1em;
-	font-family: paratexte;
+	font-family: 'paratexte', sans-serif;
 	text-align: justify;
 	z-index:3;
 	overflow: auto;
@@ -445,7 +445,7 @@ margin: auto;
 	font-size: 0.8em;
 	line-height: 1em;
 	border: red 1px solid;
-	font-family: paratexte;
+	font-family: 'paratexte', sans-serif;
 
 }
 
