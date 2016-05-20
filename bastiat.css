@@ -345,7 +345,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1
 top: 0;
 height: 3em;
 background-color: #cf0;
-color: #aaa;
+color: #333;
 display: flex;
 justify-content: center;
 background: linear-gradient(to bottom, rgba(204,255,0,1), rgba(204,255,0,0.8));
@@ -359,7 +359,7 @@ font-size: 1.5em;
  je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
  align-self: center;
  font-weight: bold;
- text-shadow: 1px 1px 0px #444;
+ text-shadow: 1px 1px 0px #777;
 }
 
 .header .auteur {
