@@ -1,0 +1,14 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Avis charitable à la Démocratie pacifique")
+
+(document :title "Avis charitable à la Démocratie pacifique"
+	:author (author-FB)
+(bastiat[
+,(date-tag[.])
+,(p*[
+
+])])
+(footer[,(oeuvres)])
+(with-footer (p*[
+])))
