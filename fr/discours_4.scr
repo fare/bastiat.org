@@ -1,14 +1,15 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Quatrième discours, par Frédéric Bastiat")
+(in-bof :title "Conséquences comparées du régime protecteur et du libre-échange, par Frédéric Bastiat")
 
-(document :title "Quatrième discours"
+(document :title "Conséquences comparées du régime protecteur et du libre-échange"
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(small[Prononcé à Lyon, au commencement d’août 1847, sur les conséquences comparées du régime protecteur et du libre-échange.])
-][
-Messieurs, il semble qu’en se permettant de convoquer un grand nombre de ses concitoyens autour d’une chaire pour leur adresser ce qu’on appelle un « discours », on s’engage par cela même à remplir toutes les difficiles conditions de l’art oratoire. Je suis pourtant bien éloigné d’une telle prétention, et mon insuffisance me force de réclamer toute votre indulgence. Vous serez peut-être portés à me demander pourquoi, me sentant aussi dépourvu des qualités qu’exige la tribune, j’ai la hardiesse de l’aborder. C’est, Messieurs, qu’en considérant attentivement les souffrances et les misères qui affligent l’humanité, — le travail souvent excessif, la rémunération plus souvent insuffisante, — les entraves qui retardent ses progrès et font particulièrement obstacle à ses tendances vers l’égalité des conditions, j’ai cru très-sincèrement qu’une bonne part de ces maux devait être attribuée à une simple erreur d’économie politique, erreur qui s’est emparée d’assez d’intelligences pour devenir l’opinion, et, par elle, la loi du pays ; — et dès lors j’ai considéré comme un devoir de combattre cette erreur avec les deux seules armes honnêtes qui soient à ma disposition, la plume et la parole. Voilà mon excuse, Messieurs. J’espère que vous voudrez bien l’accueillir, car j’ai remarqué de tout temps que les hommes étaient disposés à beaucoup pardonner en faveur de la sincérité des intentions.
+
+,(date-tag[Discours prononcé à Lyon le 7 août 1847,
+,(br)rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 22 août 1847.])
+
+,(p*[Messieurs, il semble qu’en se permettant de convoquer un grand nombre de ses concitoyens autour d’une chaire pour leur adresser ce qu’on appelle un « discours », on s’engage par cela même à remplir toutes les difficiles conditions de l’art oratoire. Je suis pourtant bien éloigné d’une telle prétention, et mon insuffisance me force de réclamer toute votre indulgence. Vous serez peut-être portés à me demander pourquoi, me sentant aussi dépourvu des qualités qu’exige la tribune, j’ai la hardiesse de l’aborder. C’est, Messieurs, qu’en considérant attentivement les souffrances et les misères qui affligent l’humanité, — le travail souvent excessif, la rémunération plus souvent insuffisante, — les entraves qui retardent ses progrès et font particulièrement obstacle à ses tendances vers l’égalité des conditions, j’ai cru très-sincèrement qu’une bonne part de ces maux devait être attribuée à une simple erreur d’économie politique, erreur qui s’est emparée d’assez d’intelligences pour devenir l’opinion, et, par elle, la loi du pays ; — et dès lors j’ai considéré comme un devoir de combattre cette erreur avec les deux seules armes honnêtes qui soient à ma disposition, la plume et la parole. Voilà mon excuse, Messieurs. J’espère que vous voudrez bien l’accueillir, car j’ai remarqué de tout temps que les hommes étaient disposés à beaucoup pardonner en faveur de la sincérité des intentions.
 ][
 J’ai parlé d’une erreur qui prévaut, non-seulement dans la législation, mais encore et surtout dans les esprits. Vous devinez que j’ai en vue le système restrictif, cette barrière par laquelle les nations s’isolent les unes des autres, dans l’objet, à ce qu’elles croient, d’assurer leur indépendance et d’augmenter leur bien-être.
 ][

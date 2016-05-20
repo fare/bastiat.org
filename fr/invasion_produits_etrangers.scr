@@ -5,7 +5,7 @@
 (document :title "A quoi se réduit l’invasion"
 	:author (author-FB)
 (bastiat[
-,(date-tag[27 décembre 1846])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 décembre 1846.])
 ,(p*[
 Si nous avons une foi entière dans le triomphe de notre cause, malgré la formidable opposition qu’elle rencontre, c’est que nous nous attendons à voir les faits venir l’un après l’autre déposer en sa faveur.
 ][
@@ -50,15 +50,15 @@ Laisserons-nous passer un fait aussi grave sans en retirer quelque enseignement�
 Ce que vous avez fait aujourd’hui sans dommage, évidemment vous pouvez le faire toujours sans danger.
 ][
 Car enfin, de quelle manière peuvent se combiner les récoltes relatives de la France et de l’étranger ? nous n’en connaissons que quatre, savoir :
-][
-Abondance partout ;
+])
+,(liste(p*[Abondance partout ;
 ][
 Déficit partout ;
 ][
 Abondance chez nous, déficit ailleurs ;
 ][
-Abondance ailleurs, déficit chez nous.
-][
+Abondance ailleurs, déficit chez nous.]))
+,(p*[
 Parmi ces quatre combinaisons possibles, il n’y a que la dernière qui puisse rendre l’inondation redoutable.
 ][
 S’il y a abondance partout, il y a bon marché partout. C’est le cas actuel, sauf que le prix serait plus bas en France, et par conséquent l’importation moins lucrative. Le rayon de l’approvisionnement serait plus restreint.

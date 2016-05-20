@@ -1,11 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Association pour la liberté des échanges
+(in-bof :title "
 	- par Frédéric Bastiat")
-(document :title "Association pour la liberté des échanges"
+(document :title ""
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Libre-échange]), n° du 14 novembre 1847.])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 novembre 1847.])
 ,(p*[
 Est-il possible de penser de même sur la liberté commerciale
 	et de différer en politique ?

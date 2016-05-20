@@ -5,7 +5,7 @@
 (document :title "L’indiscret"
 	:author (author-FB)
 (bastiat[
-,(date-tag[12 décembre 1847.])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 décembre 1847.])
 ,(p*[
 ,(emph[Protection à l’industrie nationale ! Protection au travail national !])
 Il faut avoir l’esprit bien de travers et le c,(oe)ur bien pervers
@@ -180,46 +180,44 @@ un fabricant de machines, d’instruments aratoires et d’outils,
 Je rentrai chez moi pour revoir mes notes et les mettre en ordre.
 Je ne puis mieux faire que de les publier ici.
 ][
-,(q[Depuis vingt-sept ans, grâce aux lois imposées au pays
-par la Chambre du double vote, il y a eu en France :
-,(itemize
-(item[
+« Depuis vingt-sept ans, grâce aux lois imposées au pays
+par la Chambre du double vote, il y a eu en France :])
+,(verses(liste(p*[
 Moins de blé ;
-])(item[
-Moins de viande ;
-])(item[
-Moins de laine ;
-])(item[
-Moins de houille ;
-])(item[
-Moins de bougies ;
-])(item[
-Moins de fer ;
-])(item[
-Moins d’acier ;
-])(item[
-Moins de machines ;
-])(item[
-Moins de charrues ;
-])(item[
-Moins d’outils ;
-])(item[
-Moins de draps ;
-])(item[
-Moins de toiles ;
-])(item[
-Moins de fils ;
-])(item[
-Moins de calicot ;
-])(item[
-Moins de sel ;
-])(item[
-Moins de sucre ; ,(XXX [fin enum])
-]))
-Et moins de toutes les choses qui servent à
-nourrir, vêtir, loger, meubler, chauffer, éclairer et fortifier les hommes.])
 ][
-Par le grand Dieu du ciel, m’écriai-je, puisqu’il en est ainsi,
+Moins de viande ;
+][
+Moins de laine ;
+][
+Moins de houille ;
+][
+Moins de bougies ;
+][
+Moins de fer ;
+][
+Moins d’acier ;
+][
+Moins de machines ;
+][
+Moins de charrues ;
+][
+Moins d’outils ;
+][
+Moins de draps ;
+][
+Moins de toiles ;
+][
+Moins de fils ;
+][
+Moins de calicot ;
+][
+Moins de sel ;
+][
+Moins de sucre ;
+][
+Et moins de toutes les choses qui servent à
+nourrir, vêtir, loger, meubler, chauffer, éclairer et fortifier les hommes. »])))
+,(p*[Par le grand Dieu du ciel, m’écriai-je, puisqu’il en est ainsi,
 ,(strong[la France a été moins riche]).
 ][
 En mon âme et conscience, devant Dieu et devant les hommes,

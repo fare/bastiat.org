@@ -1,11 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Bornes que s’impose l’Association pour la liberté des échanges, par Frédéric Bastiat")
+(in-bof :title "Bornes que s’impose l’Association, par Frédéric Bastiat")
 
-(document :title "Bornes que s’impose l’Association pour la liberté des échanges"
+(document :title "Bornes que s’impose l’Association"
 	:author (author-FB)
 (bastiat[
-,(date-tag[8 janvier 1847])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 décembre 1846.
+,(br)Republié dans le n° du 3 janvier 1847 pour cause d’erreur typographique.])
+
 ,(p*[
 Nous appelons l’impartiale et sérieuse attention du lecteur sur les limites que nous déclarons très-hautement imposer à notre action.
 ][

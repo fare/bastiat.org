@@ -5,11 +5,10 @@
 (document :title "Circulaires d’un ministère introuvable"
 	:author (author-FB)
 (bastiat[
-,(date-tag[19 Mars 1848.])
-,(subtitle[Le ministre de l’intérieur à
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 19 mars 1848.])
+,(h2[Le ministre de l’intérieur à
 MM. les commissaires du gouvernement, préfets, maires, ,(emph[etc.])])
-,(p*[
-Les élections approchent ;
+,(p*[Les élections approchent ;
 vous désirez que je vous indique la ligne de conduite que vous avez à tenir ;
 la voici :
 Comme citoyens, je n’ai rien à vous prescrire,
@@ -29,11 +28,10 @@ L’expérience nous avertit de ce qu’il en coûte
 de vouloir gouverner avec des majorités factices.
 ])
 
-,(subtitle[Le ministre du commerce aux négociants de la République])
-,(p*
-(strong[Citoyens,])
-[
-Mes prédécesseurs ont fait ou ont eu l’air
+,(h2[Le ministre du commerce aux négociants de la République])
+
+,(cher[Citoyens,])
+,(p*[Mes prédécesseurs ont fait ou ont eu l’air
 de faire de grands efforts pour vous procurer des affaires.
 Ils s’y sont pris de toutes façons, sans autre résultat que celui-ci :
 aggraver les charges de la nation et nous créer des obstacles.
@@ -70,11 +68,10 @@ voudra bien m’admettre comme commis dans ses bureaux,
 afin que j’apprenne le commerce,
 pour lequel mon court passage au ministère m’a donné du goût.
 ])
-,(subtitle[Le ministre de l’agriculture aux agriculteurs])
-,(p*
-(strong[Citoyens,])
-[
-Un heureux hasard m’a suggéré une pensée
+,(h2[Le ministre de l’agriculture aux agriculteurs])
+
+,(cher[Citoyens,])
+,(p*[Un heureux hasard m’a suggéré une pensée
 qui ne s’était jamais présentée à l’esprit de mes prédécesseurs ;
 c’est que vous appartenez comme moi à l’espèce humaine.
 Vous avez une intelligence pour vous en servir, et, de plus,
@@ -118,11 +115,10 @@ Désormais, pour faire prospérer l’agriculture,
 comptez sur vos efforts et non sur ceux de mes bureaucrates ;
 tournez vos yeux sur vos champs et non sur un hôtel de la rue de Grenelle.
 ])
-,(subtitle[Le ministre des cultes aux ministres de la religion])
-,(p*
-(strong[Citoyens,])
-[
-Cette lettre a pour objet de prendre congé de vous.
+,(h2[Le ministre des cultes aux ministres de la religion])
+
+,(cher[Citoyens,])
+,(p*[Cette lettre a pour objet de prendre congé de vous.
 La liberté des cultes est proclamée.
 Vous n’aurez affaire désormais, comme tous les citoyens,
 qu’au ministre de la justice.
@@ -144,7 +140,7 @@ En nous retirant,
 nous remplissons donc deux conditions du programme républicain :
 économie, liberté.
 ])
-,(tag :p :align 'right [Le Secrétaire du ministère introuvable, ,(br)
+,(p :align 'right [Le secrétaire du ministère introuvable, ,(br)
 			F. B.])
 
 ])

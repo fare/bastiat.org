@@ -5,7 +5,7 @@
 (document :title "Curieux phénomène économique"
 	:author (author-FB)
 (bastiat[
-,(subtitle [21 Février 1847])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 21 février 1847.])
 ,(p*[
 
 Dans la séance du 9,
@@ -205,7 +205,7 @@ C’est ce qu’on verra dans le tableau suivant
 	[PRODUIT PROPORTIONNEL ,(br) des taxes indirectes.] []
 	[PRODUIT RÉEL.])))
  (map* (lambda (x) (apply* tr (map* td x)))
-  `((1836 [26,158,524] [36,392,472 l.s.] () [30,392,472 l. s.])
+ `((1836 [26,158,524] [36,392,472 l.s.] () [30,392,472 l. s.])
     (1837 [26,518,885] [36,938,363] () [33,958,421])
     (1838 [26,879,246] [37,484,254] () [34,478,417])
     (1839 [27,239,607] [38,030,145] () [35,093,633])

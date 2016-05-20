@@ -1,17 +1,17 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Réponse à la Presse sur la nature des échanges, par Frédéric Bastiat")
+(in-bof :title "Réponse à la Presse, par Frédéric Bastiat")
 
-(document :title "Réponse à la Presse sur la nature des échanges"
+(document :title "Réponse à la Presse"
 	:author (author-FB)
 (bastiat[
-,(date-tag[10 juillet 1847])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 11 juillet 1847.])
 ,(p*[
 À propos du tableau des importations et exportations en 1846, récemment publié par le ,(cite-title[Moniteur]), la ,(cite-title[Presse]) a fait quelques remarques que nous ne pouvons laisser passer sans commentaire.
 ][
 Après avoir constaté un accroissement considérable dans l’importation des blés, et une diminution notable dans l’exportation de nos vins et eaux-de-vie, la ,(cite-title[Presse]) dit :
 ][
-,(blockquote[« C’est donc avec nos épargnes que nous avons soldé nos achats de blé, non avec notre travail de l’année. Aussi, qu’est-il arrivé ? L’activité de nos usines et de nos manufactures s’est ralentie et devait se ralentir sous peine d’engorgement. Le prix de l’argent s’est élevé à mesure que le numéraire émigrait, et une crise qui dure encore est venue peser sur toutes les affaires. Ce seul fait, qui est aussi visible que le jour, que personne n’osera contester, renverse toute la théorie de ceux qui soutiennent qu’il est indifférent pour un peuple de payer ses acquisitions au dehors avec de l’argent ou avec des produits. Payer avec de l’argent, c’est diminuer à l’intérieur la masse des ressources disponibles, c’est accroître la difficulté des transactions, paralyser le travail, réduire les salaires, nuire plus ou moins profondément à tous les intérêts. Payer avec des produits, c’est, au contraire, fournir de nouveaux aliments au travail, créer des moyens d’utiliser tous les bras, répandre, avec des salaires durables et abondants, l’aisance et le bien-être dans toutes les classes. Il n’est donc pas vrai que ces deux modes d’échanges se ressemblent, et qu’il n’y ait aucun intérêt pour une nation à suivre celui-ci plutôt que celui-là. Chacun a pu, dans la sphère de ses relations ou de ses affaires, en acquérir la preuve depuis un an. »])
+,(blockquote*[« C’est donc avec nos épargnes que nous avons soldé nos achats de blé, non avec notre travail de l’année. Aussi, qu’est-il arrivé ? L’activité de nos usines et de nos manufactures s’est ralentie et devait se ralentir sous peine d’engorgement. Le prix de l’argent s’est élevé à mesure que le numéraire émigrait, et une crise qui dure encore est venue peser sur toutes les affaires. Ce seul fait, qui est aussi visible que le jour, que personne n’osera contester, renverse toute la théorie de ceux qui soutiennent qu’il est indifférent pour un peuple de payer ses acquisitions au dehors avec de l’argent ou avec des produits. Payer avec de l’argent, c’est diminuer à l’intérieur la masse des ressources disponibles, c’est accroître la difficulté des transactions, paralyser le travail, réduire les salaires, nuire plus ou moins profondément à tous les intérêts. Payer avec des produits, c’est, au contraire, fournir de nouveaux aliments au travail, créer des moyens d’utiliser tous les bras, répandre, avec des salaires durables et abondants, l’aisance et le bien-être dans toutes les classes. Il n’est donc pas vrai que ces deux modes d’échanges se ressemblent, et qu’il n’y ait aucun intérêt pour une nation à suivre celui-ci plutôt que celui-là. Chacun a pu, dans la sphère de ses relations ou de ses affaires, en acquérir la preuve depuis un an. »])
 ][
 Nous sommes d’accord avec la ,(cite-title[Presse]) sur le ,(emph[fait]) que, cette année, « la masse des ressources disponibles à l’intérieur a diminué, que la difficulté des transactions s’est accrue, que le travail a été paralysé, que les salaires ont été réduits, que tous les intérêts ont été plus ou moins profondément lésés. »
 ][

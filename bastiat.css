@@ -237,7 +237,8 @@ em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-ca
 
 .cher {
 	font-variant: small-caps;
-	padding: 2em 0 1.5em 3em;
+	padding: 0 0 1em 2.5em;
+	margin-top: 2em;
 	font-size: larger;
 }
 
@@ -345,10 +346,10 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1
 top: 0;
 height: 3em;
 background-color: #cf0;
-color: #333;
+color: #000;
 display: flex;
 justify-content: center;
-background: linear-gradient(to bottom, rgba(204,255,0,1), rgba(204,255,0,0.8));
+background: linear-gradient(to bottom, rgba(230,200,255,1), rgba(230,200,255,0.8));
 }
 
 .header .titre {
@@ -359,7 +360,7 @@ font-size: 1.5em;
  je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
  align-self: center;
  font-weight: bold;
- text-shadow: 1px 1px 0px #777;
+ text-shadow: 1px 1px 0px #fff;
 }
 
 .header .auteur {

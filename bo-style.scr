@@ -386,6 +386,9 @@
 (defun text-chapter (x) (getf (text-livre x) :ch))
 (defun text-journal (x) (getf (rest x) :journal))
 (defun text-journaltitre (x) (getf (text-journal x) :titre))
+(defun text-journaldate (x) (getf (text-journal x) :date))
+(defun text-lettre (x) (getf (rest x) :lettre))
+(defun text-lettrea (x) (getf (text-lettre x) :a))
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
   (loop :for precedent = nil :then courant :for courant :in list
@@ -419,11 +422,14 @@
 (defparameter correspondance
  (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date)
 )
+(defparameter lettres_a_cheuvreux
+ (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date)
+)
 (defparameter articles
  (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
 )
 (defparameter articles_le
- (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-date)
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate)
 )
 
 ;;; Les magnifiques fonctions de Laura, suite
@@ -464,16 +470,10 @@
   ))
 )
 
-(defun
-  oeuvres ()
-  (precsuiv "Œuvres" "guillaumin.html" serie_chronologique)
-)
+(defun oeuvres () (precsuiv "Œuvres" "guillaumin.html" serie_chronologique))
 
-(defun
-  corresp ()
-  (precsuiv "Correspondance" "correspondance.html" correspondance)
-)
+(defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
+(defun cheuvreux () (precsuiv "Lettres aux Cheuvreux" "lettres_cheuvreux.html" lettres_a_cheuvreux))
 
-(defun art_le ()
-  (precsuiv "Libre-Échange" "journaux_le.html" articles_le)
-)
+(defun art_le () (precsuiv "Libre-Échange" "journaux_le.html" articles_le))
+

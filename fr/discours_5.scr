@@ -1,16 +1,17 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Cinquième discours, par Frédéric Bastiat")
+(in-bof :title "Influence du régime protecteur sur les salaires, par Frédéric Bastiat")
 
-(document :title "Cinquième discours"
+(document :title "Influence du régime protecteur sur les salaires"
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(small[Prononcé dans la seconde réunion publique tenue à Lyon, en août 1847, sur l’influence du régime protecteur à l’égard des salaires.])
-][
-,(strong[Messieurs]), 
-][
-Si dans ces communications, que vous voulez bien me permettre d’avoir avec vous, j’avais en vue un succès personnel, certes, je ne paraîtrais pas aujourd’hui à cette tribune. Ce n’est pas que, sur le vaste sujet qui m’est proposé, les idées ou les convictions me fassent défaut. Au contraire, car, quand j’ai voulu mettre quelque ordre dans les démonstrations que j’avais à vous soumettre, elles se sont présentées en si grand nombre à mon esprit que, malgré mes efforts, il m’a été impossible de faire entrer tous ces matériaux dans le cadre d’un discours ; et j’ai dû prendre le parti de m’en remettre beaucoup à l’inspiration du moment et à votre bienveillance.
+
+,(date-tag[Discours prononcé à Lyon le 10 août 1847,
+,(br)rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 29 août 1847.])
+
+,(cher[Messieurs,])
+
+,(p*[Si dans ces communications, que vous voulez bien me permettre d’avoir avec vous, j’avais en vue un succès personnel, certes, je ne paraîtrais pas aujourd’hui à cette tribune. Ce n’est pas que, sur le vaste sujet qui m’est proposé, les idées ou les convictions me fassent défaut. Au contraire, car, quand j’ai voulu mettre quelque ordre dans les démonstrations que j’avais à vous soumettre, elles se sont présentées en si grand nombre à mon esprit que, malgré mes efforts, il m’a été impossible de faire entrer tous ces matériaux dans le cadre d’un discours ; et j’ai dû prendre le parti de m’en remettre beaucoup à l’inspiration du moment et à votre bienveillance.
 ][
 Et cependant, cette grande question du salariat, je dois la circonscrire à un seul point de vue, car vous n’attendez pas que je la traite ici dans tous ses aspects moraux, sociaux, philosophiques et politiques.
 ][

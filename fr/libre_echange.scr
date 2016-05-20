@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Association pour la liberté des échanges:
-	ce que signifie le libre-échange
+(in-bof :title "Libre-Échange
 	- par Frédéric Bastiat")
-(document :title "Association pour la liberté des échanges"
+(document :title "Libre-Échange"
 	:author (author-FB)
-(subtitle[Libre-Échange])
 (bastiat[
-,(date-tag[19 Décembre 1846])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 20 décembre 1846.])
 ,(p*[
 
 On nous reproche ce titre.

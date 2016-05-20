@@ -5,7 +5,8 @@
 (document :title [Petites affiches de ,(cite-title[Jacques Bonhomme])]
 	:author (author-FB)
 (bastiat[
-,(subtitle[I ,(br) Soulagement immédiat du peuple
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 mars 1848.])
+,(h2[I ,(br) Soulagement immédiat du peuple
 ,(footnote*[
 Parmi les nombreux journaux que fit éclore le 24 Février 1848,
 	et qui n’eurent qu’une existence éphémère,
@@ -82,7 +83,7 @@ et puisque le travail sera plus demandé dans le pays,
 Ce n’est pas si brillant que la prétendue urne de Cana du Luxembourg,
 	mais c’est sûr, solide, praticable, immédiat et juste.
 ])
-,(subtitle [II ,(br) Funeste remède])
+,(h2 [II ,(br) Funeste remède])
 ,(p*[
 Quand notre frère souffre, il faut le soulager.
 ][

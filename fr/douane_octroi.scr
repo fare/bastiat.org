@@ -1,11 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Le National (la Douane et l’Octroi), par Frédéric Bastiat")
+(in-bof :title "Le National, par Frédéric Bastiat")
 
-(document :title "Le National (la Douane et l’Octroi)"
+(document :title "Le National"
 	:author (author-FB)
 (bastiat[
-,(date-tag[18 avril 1847])
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 18 avril 1847.])
 ,(p*[
 Le ,(cite-title[National]) adresse ce défi au ,(cite-title[Journal des Débats :]) « Aidez-nous à renverser l’octroi, nous vous aiderons à renverser le régime protecteur. »
 ][

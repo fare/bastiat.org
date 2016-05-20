@@ -5,11 +5,10 @@
 (document :title "A MM. les membres du Conseil général de la Seine"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Libre-Échange]) du 14 novembre 1847.])
-,(p*[
-,(strong[Messieurs]),
-][
-Pour vous décider à persister dans la réserve où vous avez cru devoir vous renfermer l’année dernière, l’Association qui ne veut pas que les échanges soient libres vous a présenté quelques considérations auxquelles nous espérons que vous nous permettrez de répondre.
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 novembre 1847.])
+
+,(cher[Messieurs,])
+,(p*[Pour vous décider à persister dans la réserve où vous avez cru devoir vous renfermer l’année dernière, l’Association qui ne veut pas que les échanges soient libres vous a présenté quelques considérations auxquelles nous espérons que vous nous permettrez de répondre.
 ][
 Cette Association annonce avoir consulté un grand nombre d’assemblées, et elle a eu, dit-elle, la satisfaction de les voir presque toutes se prononcer en faveur du ,(emph[principe]) de la protection.
 ][
@@ -56,9 +55,9 @@ On vous parle ensuite de l’industrie de Paris comme si elle ne s’occupait qu
 Enfin, Messieurs, on vous fait observer que le ,(cite-title[Siècle]), le ,(cite-title[National]), la ,(cite-title[Revue nationale]), l’,(cite-title[Atelier]), la presse démocratique, en un mot, repousse ce qu’on nomme ,(emph[notre théorie]), c’est-à-dire le droit de disposer du fruit de son travail. Nous ne le nions pas, et c’est pour nous un sujet d’étonnement et d’affliction. Nous sommes profondément surpris et affligés de voir, nous ne dirons pas la démocratie française, mais les meneurs du parti démocratique se ranger, après quelques moments d’hésitation, du côté des restrictions et des priviléges. Quel est leur but ? quel est leur plan ? Nous l’ignorons ; mais ils en ont un, peu susceptible d’être avoué sans doute, puisqu’avant de nous attaquer avec acharnement, ils ont proclamé que nous avions raison ,(emph[en principe]), c’est-à-dire que nous avons pour nous la justice et la vérité. Nous ne savons ce qui les a décidés à se tourner contre la justice et la vérité ; mais ce que nous savons, c’est que les démocrates de tous les pays et de tous les temps se lèvent pour les confondre. Aux États-Unis, le peuple vote, et il a repoussé le principe restrictif. En Suisse le peuple vote, et il a voulu la liberté absolue. La Hollande, aux traditions républicaines, a le tarif le plus modéré. L’Italie révolutionnaire aspire au régime commercial de la Toscane. En Angleterre, le combat contre la protection n’est qu’un effort de la démocratie contre l’aristocratie ; et ce qui parle plus haut encore au cœur des vrais démocrates, c’est l’exemple de nos pères. Aujourd’hui chacun fait à sa guise parler le peuple ; mais le peuple a parlé deux fois par lui-même, et deux fois il a fait de la douane un simple instrument de fiscalité, et non une machine à priviléges. La Chambre du double vote a rendu à nos tarifs le caractère aristocratique. 1791 et 1825, voilà deux dates plus significatives que tout ce que nous pourrions dire. Exhumez de vos archives, Messieurs, les deux tarifs qui s’y réfèrent et prononcez.
 ][
 Et en prononçant, rappelez-vous que les délibérations du Conseil général de la Seine ne sont pas vouées à l’obscurité et à l’oubli. C’est une grave responsabilité que celle de parler au nom du foyer des lumières, des réformes et du progrès, et nous espérons bien qu’il ne sortira pas du sein de votre assemblée un vœu rétrograde qu’avant longtemps Paris aurait à désavouer.
-][
-Agréez, Messieurs, etc.
-])])
+])
+,(politesse[Agréez, Messieurs, etc.])
+])
 (footer[,(oeuvres)
 ,(art_le)])
 (with-footer (p*[
