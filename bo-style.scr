@@ -310,7 +310,6 @@
 
 
 
-(defun corresp (prec suiv) (arbor "Correspondance" "correspondance.html" prec suiv))
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
 (defun he (prec suiv) (arbor "Harmonies économiques" "harmonies.html" prec suiv))
 (defun gc (prec suiv) (arbor "Gratuité du crédit" "gratuite_du_credit.html" prec suiv))
@@ -384,18 +383,9 @@
 (defun text-id (x) (first x))
 (defun text-date (x) (getf (rest x) :date))
 (defun text-livre (x) (getf (rest x) :livre))
+;(defun text-journal (x) (getf (rest x) :journal))
 (defun text-chapter (x) (getf (text-livre x) :ch))
-
-
-(defparameter serie_chronologique
- (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date)
-)
-(defparameter correspondance
- (sort (filtering-bastiat-db (not (null lettre))) 'string< :key 'text-date)
-)
-(defparameter articles
- (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
-)
+;(defun text-journal-titre (x) (getf (text-journal x) :titre))
 
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
@@ -422,8 +412,40 @@
 ;(uiop:current-lisp-file-pathname)
 
 
+; Définition des sous-listes
+
+(defparameter serie_chronologique
+ (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date)
+)
+(defparameter correspondance
+ (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date)
+)
+(defparameter articles
+ (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
+)
+
+
 ;;; Les magnifiques fonctions de Laura, suite
 
+(defun lienprec (liste)
+  (if (not (null (precedent (pathname-name (current-lisp-file-pathname)) liste)))
+     (strcat
+      "<a class='prec' href='"
+    (precedent-texte liste)
+    ".html'>«««</a>"
+      )
+  )
+)
+
+(defun liensuiv (liste)
+  (if (not (null (suivant (pathname-name (current-lisp-file-pathname)) liste)))
+     (strcat
+      "<a class='suiv' href='"
+    (suivant-texte liste)
+    ".html'>»»»</a>"
+      )
+  )
+)
 
 (defun
   precsuiv
@@ -434,14 +456,10 @@
     adresse
     "'>"
     titre
-    "</a>
-    <a class='prec' href='"
-    (precedent-texte liste)
-    ".html'>«««</a>
-    <a class='suiv' href='"
-    (suivant-texte liste)
-    ".html'>»»»</a>
-    </div>"
+    "</a>"
+    (lienprec liste)
+    (liensuiv liste)
+    "</div>"
   ))
 )
 
@@ -450,4 +468,7 @@
   (precsuiv "Œuvres" "guillaumin.html" serie_chronologique)
 )
 
-
+(defun
+  corresp ()
+  (precsuiv "Correspondance" "correspondance.html" correspondance)
+)
