@@ -5,7 +5,7 @@
 (document :title "Du chemin de fer de Bordeaux à Bayonne"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]), du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
 ,(p*[
 ,(small[Lettre adressée à une commission de la Chambre des députés.])
 ][
@@ -75,7 +75,7 @@ Ah ! Messieurs, donnez au chemin la direction que, dans votre sagesse, vous jug
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "lettre2_journal_des_debats.html" "aux_membres_de_l_association.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

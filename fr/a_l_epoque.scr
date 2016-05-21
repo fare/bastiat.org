@@ -5,7 +5,7 @@
 (document :title "A M. le rédacteur de L’Époque"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]) du 8 mars 1846.])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 8 mars 1846.])
 
 ,(cher[,(tj "epoque" [Monsieur]),])
 
@@ -72,7 +72,7 @@ Nous ne la craignons pas. Elle n’est pas à naître ; elle agit, elle fonctio
 ])
 (footer[
 	,(oeuvres)
-	,(mb "theorie_du_benefice.html" "libre_echange_en_action.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

@@ -5,7 +5,7 @@
 (document :title "Théorie du bénéfice"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 26 février 1846.])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 26 février 1846.])
 ,(p*[
 Lundi, en sortant de l’assemblée, un monsieur m’accoste et me dit : Je vous ai écouté avec attention, vous avez articulé ces paroles : « Il faut savoir enfin de quel côté est la vérité. Si nous nous trompons, qu’on pousse la protection jusqu’au bout. Si nous sommes dans le vrai, réclamons la liberté, etc., etc. » — Or, Monsieur, cela suppose que ,(emph[liberté]) et ,(emph[restriction]) sont incompatibles.
 ][
@@ -79,7 +79,7 @@ Lundi, en sortant de l’assemblée, un monsieur m’accoste et me dit : Je vou
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "au_journal_de_lille.html" "a_l_epoque.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

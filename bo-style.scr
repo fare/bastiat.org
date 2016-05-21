@@ -314,7 +314,6 @@
 (defun ligue (prec suiv) (arbor "Cobden et la Ligue" "cobden_ligue.html" prec suiv))
 (defun prospo (prec suiv) (arbor "Propriété et spoliation" "propriete_et_spoliation.html" prec suiv))
 
-(defun mb (prec suiv) (arbor "Mémorial bordelais" "journaux_mb.html" prec suiv))
 (defun rf (prec suiv) (arbor "République française" "journaux_rf.html" prec suiv))
 (defun jb (prec suiv) (arbor "Jacques Bonhomme" "journaux_jb.html" prec suiv))
 
@@ -433,6 +432,8 @@
  (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate))
 (defparameter articles_jde
  (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journaldate))
+(defparameter articles_mb
+ (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journaldate))
 
 (defparameter harmonies_eco
  (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
@@ -487,6 +488,7 @@
 
 (defun art_le () (precsuiv "Libre-Échange" "journaux_le.html" articles_le))
 (defun art_jde () (precsuiv "Journal des Économistes" "journaux_jde.html" articles_jde))
+(defun art_mb () (precsuiv "Mémorial bordelais" "journaux_mb.html" articles_mb))
 
 (defun harmonies () (precsuiv "Harmonies économiques" "harmonies.html" harmonies_eco))
 (defun g_credit () (precsuiv "Gratuité du crédit" "gratuite_du_credit.html" credit))

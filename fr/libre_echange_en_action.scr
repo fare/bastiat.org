@@ -5,11 +5,10 @@
 (document :title "Le libre échange en action"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 12 mars 1846.])
-,(p*[
-Monsieur le Rédacteur,
-][
-Nous avons déjà fait bien de la théorie sur la ,(emph[liberté commerciale]). Nous en ferons encore, je l’espère ; mais voici de la liberté pratique, vivante, en chair et en os. Il ne s’agit plus de livres, d’articles de journaux, de raisonnements ; il s’agit de deux millions d’hommes placés au centre de l’Europe, pratiquant le ,(emph[libre échange]), dans le sens le plus rigoureux du mot, c’est-à-dire se soumettant volontairement à toutes les concurrences, sans se défendre législativement contre aucune. Je crois donc utile que vous admettiez dans vos colonnes des extraits un peu étendus d’un ,(emph[rapport]) fait à la Chambre des Communes, par l’honorable représentant de Kilmarnock, sur l’état du commerce et de l’industrie en Suisse.
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 12 mars 1846.])
+
+,(cher[Monsieur le Rédacteur,])
+,(p*[Nous avons déjà fait bien de la théorie sur la ,(emph[liberté commerciale]). Nous en ferons encore, je l’espère ; mais voici de la liberté pratique, vivante, en chair et en os. Il ne s’agit plus de livres, d’articles de journaux, de raisonnements ; il s’agit de deux millions d’hommes placés au centre de l’Europe, pratiquant le ,(emph[libre échange]), dans le sens le plus rigoureux du mot, c’est-à-dire se soumettant volontairement à toutes les concurrences, sans se défendre législativement contre aucune. Je crois donc utile que vous admettiez dans vos colonnes des extraits un peu étendus d’un ,(emph[rapport]) fait à la Chambre des Communes, par l’honorable représentant de Kilmarnock, sur l’état du commerce et de l’industrie en Suisse.
 ][
 … « C’est une chose bien faite pour exciter l’attention de toute personne réfléchie que les manufactures suisses, presque inaperçues et entièrement privées de ,(emph[protection]), soient graduellement parvenues à écouler leurs produits sur tous les marchés du monde, quelque éloignés et inaccessibles qu’ils parussent. Certes on ne peut attribuer un résultat aussi remarquable à la position géographique de la Suisse ; car, d’une part, elle ne produit pas les matières premières nécessaires à ses fabriques, de l’autre, elle n’a d’autres points d’expédition que ceux que les puissances voisines consentent à lui prêter, aux conditions qu’il leur plaît. Aucune de ses fabriques ne doit sa prospérité à la ,(emph[protection]) ou à l’intervention de la loi. Cependant il n’est pas moins vrai que, sans le concours des douanes pour amortir l’action de la rivalité extérieure, ses progrès sont sans exemple dans l’histoire des pays manufacturiers. Je m’attendais bien à trouver en Suisse un vivant et instructif exemple de la vérité des principes économiques réduits en pratique ; mais je ne pouvais soupçonner qu’ils avaient produit une si grande somme de contentement et de bonheur, et qu’ils eussent élevé une si grande proportion de la classe ouvrière à la dignité et au bien-être.
 ][
@@ -29,7 +28,7 @@ Les réflexions se présentent en foule à la lecture de ce rapport. On pourrait
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "a_l_epoque.html" "ministre_du_commerce.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

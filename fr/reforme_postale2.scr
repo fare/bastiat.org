@@ -5,7 +5,7 @@
 (document :title "Réforme postale"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]), 30 avril 1846.])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 30 avril 1846.])
 ,(p*[
 L’uniformité de la taxe a des avantages si nombreux, si incontestables, si éclatants, que, pour ne pas les voir, il faut fermer volontairement les yeux.
 ][
@@ -168,7 +168,7 @@ Le trésor et le public s’en trouveront bien. Chacune de ces réformes facilit
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "reforme_postale1.html" "liberte_commerciale.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

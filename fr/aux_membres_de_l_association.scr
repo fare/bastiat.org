@@ -5,11 +5,10 @@
 (document :title "Aux membres de l’Association pour la liberté des échanges"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 14 juin 1846.])
-,(p*[
-,(strong[Mes chers Collègues]),
-][
-Quelques esprits ardents s’affligent de ce que l’Association parisienne a fait si peu de progrès. Je voudrais les convaincre qu’ils se pressent trop de désespérer. Paris offre tous les éléments de succès. Sans doute le travail de cohésion et d’organisation est lent ; il peut être souvent interrompu par les circonstances, comme il l’est maintenant par les élections générales, qui absorbent à bon droit l’attention publique ; mais l’œuvre sera reprise en temps opportun, et le triomphe en est assuré.
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 14 juin 1846.])
+
+,(cher[Mes chers Collègues,])
+,(p*[Quelques esprits ardents s’affligent de ce que l’Association parisienne a fait si peu de progrès. Je voudrais les convaincre qu’ils se pressent trop de désespérer. Paris offre tous les éléments de succès. Sans doute le travail de cohésion et d’organisation est lent ; il peut être souvent interrompu par les circonstances, comme il l’est maintenant par les élections générales, qui absorbent à bon droit l’attention publique ; mais l’œuvre sera reprise en temps opportun, et le triomphe en est assuré.
 ][
 Eh quoi ! Une noble et belle cause peut-elle faillir quand elle rallie toutes les fortes intelligences d’une époque, toutes les illustrations, toutes les renommées, tous les titres que le génie élève au-dessus du siècle !
 ][
@@ -67,7 +66,7 @@ Voilà ce qui est impliqué dans cet aveu : ,(emph[La liberté des échanges es
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "bordeaux_bayonne.html" "a_tanneguy_duchatel.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

@@ -5,7 +5,7 @@
 (document :title "Association pour la liberté des échanges"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 18 février 1846.])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 18 février 1846.])
 ,(p*[
 Au moment d’engager contre le monopole une lutte qui pourra être longue et acharnée, il peut se trouver, parmi vos lecteurs, des hommes qui, absorbés par la gestion de leurs affaires, n’ont pas le loisir de mesurer dans toute son étendue la grande question de la liberté commerciale. Ils me pardonneront, j’espère, d’attirer leur attention sur ce vaste sujet.
 ][
@@ -29,7 +29,7 @@ Enfants de Bordeaux, puisqu’il vous a été donné de prendre l’initiative d
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "projet_de_ligue_antiprotectioniste3.html" "au_journal_de_lille.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

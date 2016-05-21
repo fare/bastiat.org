@@ -5,11 +5,10 @@
 (document :title "A M. le ministre de l’Agriculture et du Commerce"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 6 avril 1846.])
-,(p*[
-,(strong[Monsieur le Ministre]),
-][
-Lorsque vous êtes monté à la tribune pour proclamer la politique commerciale du cabinet, nous nous attendions à ce que vous vous prononceriez sur cette question : ,(emph[En matière d’échanges, la restriction vaut-elle mieux que la liberté ?])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 6 avril 1846.])
+
+,(cher[Monsieur le Ministre,])
+,(p*[Lorsque vous êtes monté à la tribune pour proclamer la politique commerciale du cabinet, nous nous attendions à ce que vous vous prononceriez sur cette question : ,(emph[En matière d’échanges, la restriction vaut-elle mieux que la liberté ?])
 ][
 Si, après avoir reconnu que la restriction est un mal, qu’elle implique nécessairement fausse application de travail humain et déperdition de services naturels, qu’elle équivaut, par conséquent, à une limitation de force, de richesse, de bien-être et de puissance, vous eussiez ajouté : « Néanmoins, nous ne proposons pas l’abolition du régime restrictif, parce que l’opinion publique le soutient, et que, sous un gouvernement représentatif, la conviction ministérielle doit céder devant la volonté nationale, » — nous comprendrions ce langage. Il nous ferait entrevoir que le ministère sympathise avec les associations qui se forment pour propager les saines doctrines économiques et pour contre-balancer l’influence, jusqu’ici prépondérante, des coalitions protectionistes.
 ][
@@ -63,7 +62,7 @@ Vous méditez une réforme. Mais personne, assurément, n’est plus en mesure q
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "libre_echange_en_action.html" "reforme_postale1.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

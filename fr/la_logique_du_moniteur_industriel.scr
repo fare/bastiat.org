@@ -5,7 +5,7 @@
 (document :title "La logique du Moniteur industriel"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du ,(1er) juillet 1846])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du ,(1er) juillet 1846.])
 ,(p*[
 Le ,(cite-title[Moniteur industriel]), toujours fidèle au monopole, commente aujourd’hui la déclaration de l’Association du libre-échange. Après avoir dit qu’elle tient compte de quelques ,(emph[idées générales]) dont il ne conteste pas la justesse, il ajoute qu’elle ne tient pas compte de la ,(emph[vie réelle]) ; d’où il suit, selon lui, qu’il y a incompatibilité entre la ,(emph[vie]) et les ,(emph[idées]). Sous l’influence de cette pensée, le ,(cite-title[Moniteur]) affirme que la déclaration est bonne pour l’Académie des sciences morales, mais détestable pour le régime d’un peuple raisonnable ; d’où il suit encore qu’il y a incompatibilité entre l’Académie et la raison.
 ][
@@ -63,7 +63,7 @@ Le ,(cite-title[Moniteur]) termine par un argument qui aspire à soulever contre
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "a_tanneguy_duchatel.html" "negociants_havre.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

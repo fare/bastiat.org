@@ -5,8 +5,8 @@
 (document :title "Aux négociants du Havre"
 	:author (author-FB)
 (bastiat[
-,(subtitle[II])
-,(date-tag[,(cite-title[Mémorial bordelais]) du 23 octobre 1846.])
+,(h2[II])
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 23 octobre 1846.])
 ,(p*[
 On nous reproche de n’avoir pas concentré tous nos efforts contre le monopole du fer. On a la bonté de supposer que, par cette adroite tactique, nous n’aurions pas alarmé l’ensemble des intérêts privilégiés ; et enfin on nous cite l’exemple de l’Angleterre.
 ][
@@ -39,7 +39,7 @@ Mais je m’aperçois que le fer a envahi ces colonnes et votre attention. Que v
 ])
 (footer[
 	,(oeuvres)
-	,(mb "negociants_havre.html" "negociants_havre3.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

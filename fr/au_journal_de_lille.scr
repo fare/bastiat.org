@@ -5,11 +5,10 @@
 (document :title "A M. le rédacteur du Journal de Lille, organe des intérêts du Nord"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Mémorial bordelais]) du 19 février 1846.])
-,(p*[
-,(strong[Monsieur]),
-][
-Vous vous occupez de l’,(emph[Association pour la liberté des échanges]), et cela, il faut le dire, en très bons termes. Cette modération est d’un trop bon augure pour que nous ne nous empressions pas de la reconnaître et de l’imiter.
+,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 19 février 1846.])
+
+,(cher[Monsieur,])
+,(p*[Vous vous occupez de l’,(emph[Association pour la liberté des échanges]), et cela, il faut le dire, en très bons termes. Cette modération est d’un trop bon augure pour que nous ne nous empressions pas de la reconnaître et de l’imiter.
 ][
 Vous prenez acte d’abord de ce que l’association se donne pour mission de propager la vérité économique avec assez de profusion pour changer le cours de la volonté nationale. — Puis, vous vous demandez si une telle mission est opportune ; et, bien entendu, vous résolvez la question négativement. — Et pourquoi n’est-il pas opportun de répandre la vérité ? — C’est, dites-vous, parce que l’opinion n’est pas encore fixée. « N’avons-nous pas, en France, des intérêts d’agriculture qui demandent la protection, et d’autres intérêts d’agriculture qui demandent la liberté des échanges ; des industries qui veulent être protégées, et des industries qui se plaignent du régime restrictif ? Dans nos ports de mer, telle branche de commerce ,(emph[vit de la protection]), et telle autre proteste contre elle. Tout cela ne forme-t-il pas une mêlée confuse ? »
 ][
@@ -37,7 +36,7 @@ Eh ! qui vous dit qu’on veut copier la Ligue ? La Ligue a adopté la tactiqu
 ])])
 (footer[
 	,(oeuvres)
-	,(mb "association_bordeaux.html" "theorie_du_benefice.html")
+	,(art_mb)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,

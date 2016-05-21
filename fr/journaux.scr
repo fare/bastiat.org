@@ -10,6 +10,7 @@
 ,(a :href :#b [B]) —
 ,(a :href :#c [C]) —
 ,(a :href :#e [E]) —
+,(a :href :#i [I]) —
 ,(a :href :#j [J]) —
 ,(a :href :#m [M]) —
 ,(a :href :#n [N]) —
@@ -102,9 +103,13 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ])
 
 
+]),(lettre "I" [
+
+,(journal "indicateur" "L’Indicateur" [
+,(p*[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834])])
 ])
 
-,(lettre "J" [
+]),(lettre "J" [
 
 ,(journal "debats" "Journal des Débats" [
 ,(ref :url "l_Etat.html" [L’État]) ;
@@ -128,7 +133,8 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ]),(lettre "M" [
 
 ,(journal "mb" "Mémorial bordelais" [
-,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])])
+,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])]
+[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834])])
 ])
 
 ,(journal "mi" "Moniteur industriel" [
