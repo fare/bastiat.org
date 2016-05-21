@@ -3,12 +3,10 @@
 	- par Frédéric Bastiat")
 (document :title "Organisation naturelle, organisation artificielle"
 	:author (author-FB)
-(subtitle [Chapitre I des ,(HarmoniesEconomiques)
-,(footnote*[
-Ce chapitre fut publié pour la première fois dans le
-,(cite-title [Journal des Économistes]), numéro de janvier 1848. ,(NdEEO)
-])])
+
 (bastiat[
+,(h2[Chapitre I des ,(HarmoniesEconomiques)])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1848.])
 ,(p*[
 
 Est-il bien certain que le mécanisme social,
@@ -916,8 +914,8 @@ attribut exclusif de l’homme, ,(--) la ,(strong [Liberté]) !
 
 (footer[
 	,(oeuvres)
-	,(he "a_la_jeunesse_francaise.html" "besoins_efforts_satisfactions.html")
-	,(jde "reponse_atelier.html" "funestes_illusions.html")
+	,(harmonies)
+	,(art_jde)
 ])
 
 (with-footer

@@ -311,25 +311,12 @@
 
 
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
-(defun he (prec suiv) (arbor "Harmonies économiques" "harmonies.html" prec suiv))
-(defun gc (prec suiv) (arbor "Gratuité du crédit" "gratuite_du_credit.html" prec suiv))
 (defun ligue (prec suiv) (arbor "Cobden et la Ligue" "cobden_ligue.html" prec suiv))
 (defun prospo (prec suiv) (arbor "Propriété et spoliation" "propriete_et_spoliation.html" prec suiv))
 
-(defun acobden (prec suiv) (arbor "Lettres à Cobden" "lettres_cobden.html" prec suiv))
-(defun acalmetes (prec suiv) (arbor "Lettres à Calmètes" "lettres_calmetes.html" prec suiv))
-(defun acoudroy (prec suiv) (arbor "Lettres à Coudroy" "lettres_coudroy.html" prec suiv))
-(defun asay (prec suiv) (arbor "Lettres à H. Say" "lettres_horace_say.html" prec suiv))
-(defun aschwabe (prec suiv) (arbor "Lettres aux Schwabe" "lettres_schwabe.html" prec suiv))
-(defun adomenger (prec suiv) (arbor "Lettres à Domenger" "lettres_domenger.html" prec suiv))
-(defun acheuvreux (prec suiv) (arbor "Lettres aux Cheuvreux" "lettres_cheuvreux.html" prec suiv))
-(defun apaillottet (prec suiv) (arbor "Lettres à Paillottet" "lettres_paillottet.html" prec suiv))
-
-(defun jde (prec suiv) (arbor "Journal des Économistes" "journaux_jde.html" prec suiv))
 (defun mb (prec suiv) (arbor "Mémorial bordelais" "journaux_mb.html" prec suiv))
 (defun rf (prec suiv) (arbor "République française" "journaux_rf.html" prec suiv))
 (defun jb (prec suiv) (arbor "Jacques Bonhomme" "journaux_jb.html" prec suiv))
-(defun le (prec suiv) (arbor "Libre-Échange" "journaux_le.html" prec suiv))
 
 ;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
 
@@ -410,27 +397,47 @@
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
 ;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
 ;(sort ma-liste 'string< :key 'text-date)
-;(sort ma-liste '< :key text-chapter)
+;(sort ma-liste '< :key 'text-chapter)
 ;(uiop:current-lisp-file-pathname)
 
 
 ; Définition des sous-listes
 
 (defparameter serie_chronologique
- (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date)
-)
+ (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date))
+
 (defparameter correspondance
- (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date)
-)
+ (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date))
+(defparameter lettres_a_arrivabene
+ (sort (filtering-bastiat-db (member 'arrivabene lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_calmetes
+ (sort (filtering-bastiat-db (member 'calmetes lettre)) 'string< :key 'text-date))
 (defparameter lettres_a_cheuvreux
- (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date)
-)
+ (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date))
+(defparameter lettres_a_cobden
+ (sort (filtering-bastiat-db (member 'cobden lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_coudroy
+ (sort (filtering-bastiat-db (member 'coudroy lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_domenger
+ (sort (filtering-bastiat-db (member 'domenger lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_paillottet
+ (sort (filtering-bastiat-db (member 'paillottet lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_say
+ (sort (filtering-bastiat-db (member 'say_h lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_schwabe
+ (sort (filtering-bastiat-db (or (member 'mmeschwabe lettre) (member 'mschwabe lettre))) 'string< :key 'text-date))
+
 (defparameter articles
- (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date)
-)
+ (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date))
 (defparameter articles_le
- (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate)
-)
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate))
+(defparameter articles_jde
+ (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journaldate))
+
+(defparameter harmonies_eco
+ (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
+(defparameter credit
+ (sort (filtering-bastiat-db (member 'gratuite_du_credit livre)) '< :key 'text-chapter))
 
 ;;; Les magnifiques fonctions de Laura, suite
 
@@ -440,9 +447,7 @@
       "<a class='prec' href='"
     (precedent-texte liste)
     ".html'>«««</a>"
-      )
-  )
-)
+)))
 
 (defun liensuiv (liste)
   (if (not (null (suivant (pathname-name (current-lisp-file-pathname)) liste)))
@@ -450,9 +455,7 @@
       "<a class='suiv' href='"
     (suivant-texte liste)
     ".html'>»»»</a>"
-      )
-  )
-)
+)))
 
 (defun
   precsuiv
@@ -467,13 +470,23 @@
     (lienprec liste)
     (liensuiv liste)
     "</div>"
-  ))
-)
+)))
 
 (defun oeuvres () (precsuiv "Œuvres" "guillaumin.html" serie_chronologique))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
+(defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_arrivabene.html" lettres_a_arrivabene))
+(defun calmetes () (precsuiv "Lettres à Calmètes" "lettres_calmetes.html" lettres_a_calmetes))
 (defun cheuvreux () (precsuiv "Lettres aux Cheuvreux" "lettres_cheuvreux.html" lettres_a_cheuvreux))
+(defun cobden () (precsuiv "Lettres à Cobden" "lettres_cobden.html" lettres_a_cobden))
+(defun coudroy () (precsuiv "Lettres à Coudroy" "lettres_coudroy.html" lettres_a_coudroy))
+(defun domenger () (precsuiv "Lettres à Domenger" "lettres_domenger.html" lettres_a_domenger))
+(defun paillottet () (precsuiv "Lettres à Paillottet" "lettres_paillottet.html" lettres_a_paillottet))
+(defun say () (precsuiv "Lettres à H. Say" "lettres_horace_say.html" lettres_a_say))
+(defun schwabe () (precsuiv "Lettres aux Schwabe" "lettres_schwabe.html" lettres_a_schwabe))
 
 (defun art_le () (precsuiv "Libre-Échange" "journaux_le.html" articles_le))
+(defun art_jde () (precsuiv "Journal des Économistes" "journaux_jde.html" articles_jde))
 
+(defun harmonies () (precsuiv "Harmonies économiques" "harmonies.html" harmonies_eco))
+(defun g_credit () (precsuiv "Gratuité du crédit" "gratuite_du_credit.html" credit))

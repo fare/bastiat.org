@@ -4,10 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title [Un économiste à M. Alphonse de Lamartine]
 	:author (author-FB)
-(subtitle [À l’occasion de son écrit intitulé : ,(br)
-	     ,(cite-title[Du droit au travail])])
+
 (bastiat[
-	,(date-tag[,(tj "je" [,(cite-title[Journal des économistes])]), n° de février 1845.])
+,(h3 [À l’occasion de son écrit intitulé : ,(br)
+	     ,(cite-title[Du droit au travail])])
+	,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1845.])
 	,(cher[Monsieur,])
 	,(p*[Le talent prodigieux dont vous a doué la nature,
 talent que rehausse une réputation sans tache,
@@ -956,7 +957,7 @@ dont vous êtes si digne !])
 ])
 (footer[
 	,(oeuvres)
-	,(jde "tarifs_francais_anglais.html" "abondance_disette.html")
+	,(art_jde)
 ])
 
 (with-footer (p*[

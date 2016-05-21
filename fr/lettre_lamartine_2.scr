@@ -5,7 +5,7 @@
 (document :title "Seconde lettre à M. de Lamartine"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Journal des Économistes]), n° d’octobre 1846.])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(cher[Monsieur,])
 ,(p*[
 Je viens de lire l’article qui, du ,(cite-title[Bien public]) de Mâcon, a passé dans tous les journaux de Paris ; vous dire combien cette lecture m’a surpris et affligé, cela me serait impossible.
@@ -133,7 +133,7 @@ Et, après tout, quel droit avons-nous, nous propriétaires, sur les estomacs de
 ])
 (footer[
 	,(oeuvres)
-	,(jde "de_la_population.html" "discours_2.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome I,

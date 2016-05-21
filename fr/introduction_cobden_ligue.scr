@@ -5,6 +5,7 @@
 (document :title [Introduction à ,(cite-title[Cobden et la Ligue])]
 	:author (author-FB)
 (bastiat[
+,(date-tag [Un ,(ref :url "#jde_extrait" [extrait]) a paru dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juin 1845.])
 ,(p*[
 
 La personne la plus exposée à se faire illusion
@@ -227,11 +228,11 @@ sur le régime économique de la Grande-Bretagne,
 sur les causes qui ont donné naissance à la Ligue,
 sur l’esprit et la portée de cette association,
 au point de vue social, moral et politique.
-][
+](nbsp)[,(tag :a :name "jde_extrait")
 On a dit et on répète souvent
 que l’école économiste,
 qui confie à leur naturelle gravitation
-les intérêts des diverses classes de la société.
+les intérêts des diverses classes de la société,
 était née en Angleterre ;
 et on s’est hâté d’en conclure, avec une surprenante légèreté,
 que cet effrayant contraste d’opulence et de misère,
@@ -3343,7 +3344,7 @@ de toutes les régions, de tous les climats et de toutes les races.])
 (footer[
 	,(oeuvres)
 	,(premier "Cobden et la Ligue" "cobden_ligue.html" "ligue_1.html")
-	,(jde "effort_resultat.html" "egaliser_les_conditions_de_production.html")
+	,(art_jde)
 	
 ])
 

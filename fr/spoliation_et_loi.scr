@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Spoliation et loi"
 	:author (author-FB)
-(subtitle[À Messieurs les Protectionistes du Conseil général des Manufactures.
+
+(bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 mai 1850.])
+,(h2[À Messieurs les Protectionistes du Conseil général des Manufactures.
 ,(footnote*[
 Le 27 avril 1850, à la suite d’une discussion très-curieuse,
 que le ,(cite-title[Moniteur]) a reproduite,
@@ -22,7 +25,6 @@ le 15 mai 1850.
 ,(NdEEO)
 ])
 ])
-(bastiat[
 ,(p*[
 
 Messieurs les protectionistes,
@@ -591,7 +593,7 @@ pamphlet compris dans le précédent volume.
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "maudit_argent.html" "lettre_journal_economistes.html")
+	,(art_jde)
 ])
 (with-footer
 (p* [Extrait de l’,(EO1863), tome V, "Spoliation et loi", pp. 1-15.]

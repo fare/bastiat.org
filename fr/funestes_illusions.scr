@@ -5,8 +5,8 @@
 (document :title "Funestes Illusions"
 	:author (author-FB)
 (bastiat[
-,(center[,(cite-title[Journal des Économistes]), mars 1848.])
-,(subtitle[Les citoyens font vivre l’État. ,(br)
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de mars 1848.])
+,(h2[Les citoyens font vivre l’État.,(br)
 	L'État ne peut faire vivre les citoyens.])
 ,(p*[
 
@@ -770,7 +770,7 @@ Sous un tel régime d’ordre, de sécurité et de liberté, on verrait
 
 (footer[
 	 ,(oeuvres)
-	 ,(jde "organisation.html" "propriete_et_loi.html")
+	 ,(art_jde)
 ])
 
 (with-footer

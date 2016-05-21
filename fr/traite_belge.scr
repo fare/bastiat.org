@@ -5,7 +5,7 @@
 (document :title "La Tribune et la Presse, à propos du traité belge"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Journal des Économistes]), avril 1846.])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1846.])
 ,(p*[
 Voici quelque chose de nouveau, — ce que les Anglais appellent ,(inenglish[a free-trade debate]), — une joute entre deux principes, la liberté et la protection. — Pendant bien des années, les chefs de la Ligue ont provoqué, au sein des Communes, de semblables discussions. Sûrs d’être défaits, ils ne regardaient pas comme inutiles ces longues et laborieuses veilles où s’élaborait cette reine du monde, l’opinion ; — l’opinion qui assure enfin leur victoire. Pendant ce temps-là, il ne se fût pas trouvé chez nous un député assez audacieux pour articuler cette impopulaire expression : ,(emph[un principe]). L’inattention, le dédain, la raillerie, peut-être quelque chose de pis, eussent prouvé au téméraire qu’il est des époques où, si l’on n’est pas sceptique, il faut du moins le paraître, et où quiconque croit à quelque chose n’est propre à rien.
 ][
@@ -143,7 +143,7 @@ Encore quelques efforts. Que Paris se réveille ; qu’il fasse une démonstrat
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "metayage.html" "de_la_concurrence.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,

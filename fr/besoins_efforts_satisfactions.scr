@@ -4,12 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Besoins, efforts, satisfactions"
 	:author (author-FB)
-(subtitle [Chapitre II des ,(HarmoniesEconomiques)
-,(footnote :note [
-Ce chapitre et le suivant furent insérés en septembre et décembre 1849
-dans le ,(emph[Journal des Économistes]). ,(NdEEO)
-])])
+
 (bastiat[
+,(h2[Chapitre II des ,(HarmoniesEconomiques)])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du ,(1er) septembre 1848.])
 ,(p* [
 
 Quel spectacle profondément affligeant nous offre la France !
@@ -759,8 +757,8 @@ C’est ainsi que les sciences se vérifient l’une par l’autre.
 ])])
 (footer[
 	,(oeuvres)
-	,(he "organisation.html" "des_besoins_de_l_homme.html")
-	,(jde "justice_fraternite.html" "des_besoins_de_l_homme.html")
+	,(harmonies)
+	,(art_jde)
 ])
 (with-footer
 (p* [Extrait de l’,(EO1863), tome VI ,(HarmoniesEconomiques),

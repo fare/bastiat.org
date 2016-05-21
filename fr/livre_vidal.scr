@@ -5,9 +5,10 @@
 (document :title "Sur un livre de M. Vidal"
 	:author (author-FB)
 
-(subtitle[De la répartition des richesses])
+
 (bastiat[
-,(date-tag[,(cite-title[Journal des Économistes]), n° de juin 1846.])
+,(h2[De la répartition des richesses])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juin 1846.])
 ,(p*[
 Ce livre se présente sous de tristes auspices. Son apparition dans le monde a réveillé, au fond de ces cavernes littéraires,
 ,(verses[Que la haine se creuse au bas des grands journaux,])
@@ -171,7 +172,7 @@ Je ne terminerai pas sans rendre à M. Vidal la justice qui lui est due. S’il
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "sel_poste_douane.html" "de_la_population.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome I,

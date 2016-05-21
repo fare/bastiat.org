@@ -5,12 +5,10 @@
 (document :title [Maudit Argent !]
 	:author (author-FB)
 (bastiat[
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 avril 1849.])
 ,(p*[
 
-,(--) Maudit argent
-,(footnote*[
-Publié dans le numéro d’avril 1849 du ,(cite-title[Journal des économistes]).
-,(NdEEO)]) ! ,(XXX)
+,(--) Maudit argent !
 maudit argent !
 s’écriait d’un air désolé F* l’économiste,
 au sortir du Comité des finances où l’on venait de discuter
@@ -1315,7 +1313,7 @@ Voy., au tome IV, ,(bof-ref "baccalaureat_et_socialisme"
 
 (footer[
 	,(oeuvres)
-	,(jde "des_besoins_de_l_homme.html" "spoliation_et_loi.html")
+	,(art_jde)
 ])
 
 (with-footer

@@ -2,9 +2,10 @@
 (in-bof :title "Responsabilité
 	- par Frédéric Bastiat")
 (document :title "Responsabilité"
-(subtitle[Chapitre XX des ,(HarmoniesEconomiques)])
+
 	:author (author-FB)
 (bastiat[
+,(h2[Chapitre XX des ,(HarmoniesEconomiques)])
 ,(p*[
 
 Il y a dans ce livre une pensée dominante ;
@@ -1338,7 +1339,7 @@ parce qu’elles font les m,(oe)urs…
 
 ])])
 (footer[
-	,(he "guerre.html" "solidarite.html")
+	,(harmonies)
 ])
 (with-footer
 (p* [Extrait de l’,(EO1863), tome VI ,(HarmoniesEconomiques),

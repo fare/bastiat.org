@@ -5,7 +5,6 @@
 
 (document :title "À la jeunesse française"
 	:author (author-FB)
-(subtitle[Introduction aux ,(HarmoniesEconomiques)])
 (bastiat [
 ,(p*[
 Amour de l’étude,
@@ -931,7 +930,7 @@ car il est, quoi qu’on en dise, facile à résoudre.
 ])
 ])
 (footer[
-	,(premier "Harmonies économiques" "harmonies.html" "organisation.html")
+	,(harmonies)
 ])
 (with-footer
 (p*[

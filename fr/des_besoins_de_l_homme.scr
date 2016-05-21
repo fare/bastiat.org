@@ -4,13 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Des besoins de l'homme"
 	:author (author-FB)
-(subtitle [Chapitre III des ,(HarmoniesEconomiques)
-,(footnote :note [
-Ce chapitre fut inséré en décembre 1849
-dans le ,(cite-title[Journal des Économistes]).
-,(NdEBO)
-])])
+
 (bastiat[
+,(h2[Chapitre III des ,(HarmoniesEconomiques)])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 décembre 1848.])
 ,(p* [
 Il est peut-être impossible, et, en tout cas, il ne serait pas fort utile
 de présenter une nomenclature complète et méthodique des besoins de l’homme.
@@ -1294,8 +1291,8 @@ ces apparentes contradictions.
 ])])
 (footer[
 	,(oeuvres)
-	,(he "besoins_efforts_satisfactions.html" "echange.html")
-	,(jde "besoins_efforts_satisfactions.html" "maudit_argent.html")
+	,(harmonies)
+	,(art_jde)
 ])
 (with-footer
 (p* [Extrait de l’,(EO1863), tome VI ,(HarmoniesEconomiques),

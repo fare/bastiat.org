@@ -5,12 +5,11 @@
 (document :title "La ligue anglaise et la ligue allemande"
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(subtitle[Réponse à la ,(cite-title[Presse])])
-][
-,(date-tag[,(cite-title[Journal des Économistes]). Décembre 1845.])
-][
-La Ligue anglaise représente la liberté, la Ligue allemande la restriction. Nous ne devons pas être surpris que toutes les sympathies de la ,(cite-title[Presse]) soient acquises à la Ligue allemande.
+
+
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de décembre 1845.])
+
+,(p*[La Ligue anglaise représente la liberté, la Ligue allemande la restriction. Nous ne devons pas être surpris que toutes les sympathies de la ,(cite-title[Presse]) soient acquises à la Ligue allemande.
 ][
 « Les États, dit-elle, qui composent aujourd’hui l’association allemande, ont-ils à se féliciter du système qu’ils ont adopté en commun ?… Si les résultats sont d’une nature telle que l’Allemagne, encouragée par les succès déjà obtenus, ne puisse que persévérer dans la voie où elle est entrée, alors nécessairement le système de la Ligue anglaise repose sur de grandes illusions…
 ][
@@ -80,7 +79,7 @@ Vous voyez donc bien qu’il y a une vérité, une vérité absolue, et que, com
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "question_conseils_generaux.html" "le_vol_a_la_prime.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,

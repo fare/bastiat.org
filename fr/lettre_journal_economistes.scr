@@ -5,6 +5,7 @@
 (document :title "Lettre au Journal des Économistes"
 	:author (author-FB)
 (bastiat[
+,(date-tag[Publiée à titre posthume, sauf le ,(inlatin[post scriptum]), dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 janvier 1851.])
 ,(p*[
 ,(small[Après la mort de Bastiat, il fut aisé à ses amis d’édifier M. Carey sur sa parfaite loyauté. Cette lettre nous paraît mériter cependant d’être conservée, d’autant plus que le post-scriptum contient les éléments d’une importante démonstration. ,(NdEEO)])
 ][
@@ -57,7 +58,7 @@ Certes, je ne demande pas que qui que ce soit adopte mes idées sans examen ; m
 (footer[
 	,(oeuvres)
 	,(corresp)
-	,(dernier "Journal des Économistes" "journaux_jde.html" "spoliation_et_loi.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome I,

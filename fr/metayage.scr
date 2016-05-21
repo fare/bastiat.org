@@ -10,7 +10,7 @@
 
 (bastiat[
 
-,(date-tag[,(cite-title[Journal des Économistes]), n° de février 1846.])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1846.])
 
 ,(p*[
 En soumettant au public le plan d’un établissement agricole susceptible de devenir une pépinière de bons métayers, je dois avouer que, comme tous les faiseurs de projets, j’éprouve pour le mien une sorte de faiblesse paternelle. Il me semble que peu d’institutions analogues se combinent aussi bien avec les circonstances de notre département, et recèlent, à peu de frais, des germes aussi féconds de bien-être, d’instruction et de moralité.
@@ -188,6 +188,6 @@ La conclusion qui ressort de tout ce qui précède, c’est que le fermage est p
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "le_vol_a_la_prime.html" "traite_belge.html")
+	,(art_jde)
 ])
 )

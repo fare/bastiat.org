@@ -5,11 +5,12 @@
 (document :title "Réponse au journal L’Atelier"
 	:author (author-FB)
 (bastiat[
-,(date-tag[12 septembre 1847])
-,(p*[
-(Écrite en voyage et adressée à l’éditeur du ,(cite-title[Journal des Économistes]).)
-][
-Si j’ai eu quelquefois la prétention de faire de la bonne économie politique pour les autres, je dois au moins renoncer à faire de la bonne économie privée pour moi-même. Comment est-il arrivé que, voulant aller de Paris à Lyon, je me trouve dans un cabaret par delà les Vosges ? Cela pourra vous surprendre, mais ne me surprend pas, moi qui ne vais jamais de la rue Choiseul au Palais-Royal sans me tromper.
+,(date-tag[Gray, le 28 juillet 1847.
+,(br)Publié par le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’août 1847,
+,(br)et par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 septembre 1847.])
+
+,(cher[Mes chers collègues,])
+,(p*[Si j’ai eu quelquefois la prétention de faire de la bonne économie politique pour les autres, je dois au moins renoncer à faire de la bonne économie privée pour moi-même. Comment est-il arrivé que, voulant aller de Paris à Lyon, je me trouve dans un cabaret par delà les Vosges ? Cela pourra vous surprendre, mais ne me surprend pas, moi qui ne vais jamais de la rue Choiseul au Palais-Royal sans me tromper.
 ][
 Enfin me voici arrêté pour quelques heures, et je vais en profiter pour répondre au violent article que l’,(cite-title[Atelier]) a dirigé contre le ,(cite-title[Libre-Échange]) dans son dernier numéro. Si j’y réponds, ce n’est pas parce qu’il est violent, mais parce que cette polémique peut donner lieu à quelques remarques utiles et surtout opportunes.
 ][
@@ -68,7 +69,7 @@ Parce que l’économie politique circonscrit le champ de ses investigations, on
 
 (footer[
 	,(oeuvres)
-	,(jde "organisation_et_liberte.html" "organisation.html")
+	,(art_jde)
 ])
 
 (with-footer (p*[

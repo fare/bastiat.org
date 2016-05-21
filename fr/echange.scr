@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Échange"
 	:author (author-FB)
-(subtitle [Chapitre IV des ,(HarmoniesEconomiques)])
+
 (bastiat[
+,(h2 [Chapitre IV des ,(HarmoniesEconomiques)])
 ,(p*[
 
 L’Échange, c’est l’Économie politique,
@@ -2049,7 +2050,7 @@ première série, tome IV, page 15 et 19.]).
 
 ])])
 (footer[
-	,(he "des_besoins_de_l_homme.html" "de_la_valeur.html")
+	,(harmonies)
 ])
 (with-footer
 (p* [

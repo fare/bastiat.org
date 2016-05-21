@@ -4,8 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "De la population"
 	:author (author-FB)
-(subtitle [Chapitre XVI des ,(HarmoniesEconomiques)])
+
 (bastiat[
+,(date-tag[Un extrait a paru dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
+,(h2[Chapitre XVI des ,(HarmoniesEconomiques)])
 ,(p*[
 Il me tardait d’aborder ce chapitre,
 ne fût-ce que pour venger Malthus des violentes attaques dont il a été l’objet.
@@ -1568,8 +1570,8 @@ voir aussi la page idoine de
 
 (footer[
 	,(oeuvres)
-	,(he "de_l_epargne.html" "services.html")
-	,(jde "livre_vidal.html" "lettre_lamartine_2.html")
+	,(harmonies)
+	,(art_jde)
 ])
 (hrule)
 (with-footer

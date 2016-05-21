@@ -3,8 +3,9 @@
 	- par Frédéric Bastiat")
 (document :title "Propriété foncière"
 	:author (author-FB)
-(subtitle [Chapitre IX des ,(HarmoniesEconomiques)])
+
 (bastiat[
+,(h2 [Chapitre IX des ,(HarmoniesEconomiques)])
 ,(p*[
 
 Si l’idée dominante de cet écrit est vraie,
@@ -2398,7 +2399,7 @@ je ne pourrais que protester,
 dans le titre même de ce livre.
 ])])
 (footer[
-	,(he "propriete_communaute.html" "concurrence.html")
+	,(harmonies)
 ])
 (with-footer
 (p*[

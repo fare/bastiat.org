@@ -5,9 +5,9 @@
 (document :title "Second discours"
 	:author (author-FB)
 (bastiat[
+,(date-tag[Discours prononcé à Paris, salle Montesquieu, le 29 septembre 1846,
+,(br)partiellement reproduit dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(p*[
-,(small[Prononcé à Paris, salle Montesquieu, 29 septembre 1846. ,(footnote*[N’ayant pas le texte entier de ce discours, nous en reproduisons tout ce qu’en a conservé le ,(cite-title[Journal des Économistes]), dans son numéro d’octobre 1846. ,(NdEEO)])])
-][
 ,(small[La première partie de ce discours est à l’adresse de ceux qui accusent les libre-échangistes de ne pas ,(emph[ménager les transitions]).])
 ][
 Dans mon village, il y avait un pauvre menuisier ; il ne travaillait que six heures par jour. Hélas ! mon village et bien d’autres ont été ruinés par le régime protecteur ; on n’y a pas toujours le nécessaire, à plus forte raison on s’y passe de superflu. Bref, notre menuisier ne travaillait que six heures. — Il devint aveugle ; mais comme il ne manquait pas d’énergie, il parvint à expédier le même ouvrage, en y consacrant douze heures de pénible labeur.
@@ -95,7 +95,7 @@ Messieurs, j’ai insisté principalement sur la question de justice, parce qu�
 ])])
 (footer[
 	,(oeuvres)
-	,(jde "lettre_lamartine_2.html" "influence_protection_agriculture.html")
+	,(art_jde)
 ])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome II,

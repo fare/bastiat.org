@@ -5,7 +5,7 @@
 (document :title "Organisation et liberté"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Journal des Économistes]), janvier 1847.])
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1847.])
 ,(p*[
 Je n’ai pas l’intention de répondre aux cinq lettres que M. Vidal a insérées dans la ,(cite-title[Presse]), et qui formeraient un volume. J’attendais une conclusion que j’aurais essayé d’apprécier. Malheureusement M. Vidal ne conclut pas.
 ][
@@ -143,7 +143,7 @@ Ainsi la filiation est bien tracée : Rousseau pour point de départ, le Comit�
 
 (footer[
 	,(oeuvres)
-	,(jde "influence_protection_agriculture.html" "reponse_atelier.html")
+	,(art_jde)
 ])
 
 (with-footer (p*[

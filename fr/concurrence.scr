@@ -4,8 +4,9 @@
 	- par Frédéric Bastiat")
 (document :title "Concurrence"
 	:author (author-FB)
-(subtitle[Chapitre X des ,(HarmoniesEconomiques)])
+
 (bastiat[
+,(h2[Chapitre X des ,(HarmoniesEconomiques)])
 ,(p*[
 L’économie politique n’a pas, dans tout son vocabulaire,
 	un mot qui ait autant excité la fureur des réformateurs modernes
@@ -1679,7 +1680,7 @@ Aux douleurs qu’elle lui réserve encore,
 	et ,(emph[l’association]), qui est la prévoyance organisée.
 ])])
 (footer[
-	,(he "propriete_fonciere.html" "conclusion_eo_harmonies.html")
+	,(harmonies)
 ])
 (with-footer
 (p*[
