@@ -9,7 +9,7 @@
 ,(h3 [À l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])
 	,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1845.])
-	,(cher[Monsieur,])
+	,(cher[,(np "lamartine" [Monsieur]),])
 	,(p*[Le talent prodigieux dont vous a doué la nature,
 talent que rehausse une réputation sans tache,
 après avoir fait de vous le point de mire des partis,
@@ -32,7 +32,7 @@ et vous eussent accepté pour chef.
 ][
 Car il n’en est pas dont vous n’eussiez été le plus puissant interprète.
 Que faut-il à une idée qui porte en elle-même l’élément du triomphe, la vérité ?
-Étre connue, être comprise, être vulgarisée ;
+Être connue, être comprise, être vulgarisée ;
 et, pour cela, il lui faut des expressions saisissantes,
 des formules lumineuses qui, par leur clarté soudaine,
 aillent réveiller dans tous les c,(oe)urs
@@ -64,7 +64,7 @@ s’ils ne m’apportaient pas enfin le secret de vos opinions,
 s’ils ne recélaient point votre vague et mystérieux symbole !
 Car comprenant ou du moins croyant sincèrement comprendre
 le mécanisme des forces sociales, je me disais :
-,(q[Cette lumière n’est rien tant qu’elle.
+,(q[Cette lumière n’est rien tant qu’elle
 est sous le boisseau ;
 et elle n’en sortira qu’à la voix puissante
 de l’homme capable de fondre dans sa parole
@@ -80,14 +80,14 @@ l’attente des écoles économiques a été trompée.
 Vous n’en reconnaissez que deux,
 et vous déclarez n’appartenir ni à l’une ni à l’autre.
 Tel est l’écueil du génie.
-Il dédaigne les voies explorées,
-et le Trésor des connaissances accumulé par les siècles.
+Il dédaigne les voies explorées
+et le trésor des connaissances accumulé par les siècles.
 Il cherche son trésor en lui-même ;
 il veut se frayer sa propre voie.
 ][
 Comme vous le dites,
 il y a deux écoles en économie politique.
-Permettez-morde les caractériser,
+Permettez-moi de les caractériser,
 afin d’apprécier ensuite l’amère critique que,
 par une inexplicable contradiction,
 vous faites de celle dont en définitive vous adoptez le principe,
@@ -97,16 +97,16 @@ par une autre contradiction non moins inexplicable,
 ][
 La première procède d’une manière scientifique.
 Elle constate, étudie, groupe et classe les faits et les phénomènes,
-elle cherche leurs rapports dercause à effet ;
+elle cherche leurs rapports de cause à effet ;
 et de l’ensemble de ses observations,
 elle déduit les ,(emph[lois générales et providentielles])
 selon lesquelles les hommes prospèrent ou dépérissent.
 Elle pense que l’action de la science, en tant que science,
-sur l’espèce humaine, se borne à exposer et, divulguer ces ,(emph[lois]),
+sur l’espèce humaine, se borne à exposer et divulguer ces ,(emph[lois]),
 afin que chacun sache
 la récompense qui est attachée à leur observation
-et la peine dont leur violation est suivie,
-elle s’en rapporte au c,(oe)ur humain pour le reste,
+et la peine dont leur violation est suivie.
+Elle s’en rapporte au c,(oe)ur humain pour le reste,
 sachant bien qu’il aspire invinciblement à l’une
 et a pour l’autre un éloignement inévitable ;
 et parce que ce double mobile, le désir du bien, l’horreur du mal,
@@ -121,9 +121,9 @@ De là ce fameux axiome :
 contre lequel vous manifestez tant d’indignation,
 ,(--) qui n’est cependant que la périphrase servile du mot ,(emph[liberté]),
 que vous inscrivez sur votre bannière comme le principe de votre doctrine.
-][
+][,(tag :a :name "platon_ref")
 L’autre école, ou plutôt l’autre méthode,
-qui a enfanté et-devait enfanter des sectes innombrables,
+qui a enfanté et devait enfanter des sectes innombrables,
 procède par l’,(emph[imagination]).
 La société n’est pas pour elle un sujet d’observations,
 mais une matière à expériences,
@@ -134,31 +134,45 @@ que le législateur soumet à un arrangement artificiel.
 Cette école ne suppose pas
 que le corps social soit assujetti à des lois providentielles ;
 elle prétend lui imposer des lois de son invention.
-,(emph[La République]) de Platon,
-,(emph[l’Utopie]) de Thomas Morus.
-,(emph[l’Oceana]) de Harrington,
-,(emph[le Salente]) de Fénelon,
+,(emph[La République]) de ,(np "platon" [Platon]),
+,(emph[l’Utopie]) de ,(np "more" [Thomas Morus]),
+,(emph[l’Oceana]) de ,(np "harrington" [Harrington]),
+,(emph[le Salente]) de ,(np "fenelon" [Fénelon]),
 le régime protecteur,
 le saint-simonisme,
-lé fouriérisme,
+le fouriérisme,
 l’owenisme
 et mille autres combinaisons bizarres,
 quelquefois appliquées,
 pour le malheur de l’espèce humaine,
 presque toujours à l’état de rêve,
 pour servir de pâture aux enfants à cheveux blancs,
-telles sont quelques unes des manifestations infinies de cette-école.
-][
+telles sont quelques unes des manifestations infinies de cette école.
+][,(tag :a :name "smith_ref")
 La méthode ,(emph[analytique]) devait nécessairement conduire à l’unité de doctrine,
 car il n’y a pas de raison pour que
-les même faits ne présentent les mêmes aspects, à tous les observateurs.
+les même faits ne présentent les mêmes aspects à tous les observateurs.
 Voilà pourquoi, sauf quelques légères nuances
 que des observations rectifiées tendent incessamment à faire disparaître,
-elle a rallié autour de la même foi,
-Smith, Ricardo, Malthus, Mill, Jefferson, Bentham, Senior, Cobden, Thompson.
-Huskisson, Peel, Destutt de Tracy, Say, Comte, Dunoyer, Droz
-et bien d’autres hommes illustres,
-dont la vi s’est passée non point
+elle a rallié autour de la même foi
+,(np "smith" [Smith]), 
+,(np "ricardo" [Ricardo]), 
+,(np "malthus" [Malthus]), 
+,(np "mill" [Mill]), 
+,(np "jefferson" [Jefferson]), 
+,(np "bentham" [Bentham]), 
+,(np "senior" [Senior]), 
+,(np "cobden" [Cobden]), 
+,(np "thompson_tp" [Thompson]),
+,(np "huskisson" [Huskisson]), 
+,(np "peel" [Peel]), 
+,(np "destutt" [Destutt de Tracy]), 
+,(np "say_jb" [Say]), 
+,(np "comte" [Comte]), 
+,(np "dunoyer" [Dunoyer]), 
+,(np "droz" [Droz])
+et bien d’autres hommes illustres
+dont la vie s’est passée non point
 à arranger dans leur tête une société de leur invention
 avec des hommes de leur invention,
 mais à étudier les hommes et les choses et leur action réciproque,
@@ -169,7 +183,7 @@ La méthode ,(emph[inventive]) devait de toute nécessité
 amener l’anarchie des intelligences,
 parce qu’il y a l’infini à parier contre un
 qu’une infinité de rêveurs ne feront pas le même rêve.
-Aussi voyons-nous, que, pour se mettre à l’aise dans leur monde imaginaire,
+Aussi voyons-nous que pour se mettre à l’aise dans leur monde imaginaire,
 l’un en a banni la propriété, l’autre l’hérédité,
 celui-ci la famille, celui-là la liberté ;
 en voici qui ne tiennent aucun compte de la loi de la population,
@@ -178,7 +192,7 @@ car il fallait mettre en ,(oe)uvre des êtres chimériques
 pour faire une société chimérique.
 ][
 Ainsi la première ,(emph[observe l’arrangement]) naturel des choses,
-et sa conclusion est ,(emph[liberté]) ,(footnote*[
+et sa conclusion est ,(emph[liberté]) ,(footnote*[
 En disant que les hommes doivent jouir du libre exercice de leurs facultés,
 il demeure bien entendu que je n’entends point dénier au gouvernement
 le droit et le devoir de réprimer l’abus qu’ils en peuvent faire.
@@ -187,7 +201,7 @@ c’est là sa principale et presque sa seule mission.
 ]).
 La seconde ,(emph[arrange]) une société artificielle,
 et son point de départ est ,(emph[contrainte]).
-C’est’pourquoi, et pour abréger,
+C’est pourquoi, et pour abréger,
 j’appellerai l’une ,(emph[école économiste]) ou ,(emph[libérale]),
 et l’autre ,(emph[école arbitraire]).
 ][
@@ -220,7 +234,7 @@ sauf quelques grandes exceptions ;
 c’est celle qui a proscrit l’aumône,
 incriminé la mendicité sans pourvoir aux mendiants,
 blâmé les hôpitaux, condamné les hospices,
-raillé a la charité, mis la misère hors la loi,
+raillé à la charité, mis la misère hors la loi,
 maudit l’excès de la population, interdit les mariages,
 conseillé la stérilité, fermé les tours des enfants trouvés,
 et qui, livrant tout sans miséricorde et sans entrailles à la concurrence,
@@ -230,7 +244,7 @@ cette providence de l’égoïsme, a dit aux prolétaires :
 ,(--) Eh bien ! mourez.
 Si vous ne rapportez rien, vous n’avez pas le droit de vivre ;
 la société est un compte bien fait.])]
-[Il y a une autre école qui est née en France, dans ces a dernières années,
+[Il y a une autre école qui est née en France, dans ces dernières années,
 des souffrances du prolétaire, des égoïsmes du manufacturier,
 de la dureté du capitaliste, de l’agitation des temps,
 des souvenirs de la Convention,
@@ -246,7 +260,7 @@ croit avoir trouvé le moyen d’organiser le travail
 sans intervertir les rapports libres du producteur et du consommateur,
 de violenter le capital sans l’anéantir,
 de régler les salaires et de les distribuer arbitrairement
-avec l’infaillibilité et la toute justice de Dieu.
+avec l’infaillibilité et la toute-justice de Dieu.
 Cette école, qui compte parmi ses maîtres et ses adeptes
 tant d’hommes de lumière et de foi, porte en soi deux grands trésors :
 un principe, l’association ;

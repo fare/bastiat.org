@@ -10,8 +10,10 @@
 ,(a :href :#b [B]) —
 ,(a :href :#c [C]) —
 ,(a :href :#e [E]) —
+,(a :href :#g [G]) —
 ,(a :href :#i [I]) —
 ,(a :href :#j [J]) —
+,(a :href :#l [L]) —
 ,(a :href :#m [M]) —
 ,(a :href :#n [N]) —
 ,(a :href :#p [P]) —
@@ -73,7 +75,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "censeur" "Le Censeur européen" [
 ,(p*[Simples allusions : ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
-,(ref :url "lettre_coudroy1827a.html#censeur_ref" [9 avril 1827])
+,(ref :url "lettre_coudroy1827a.html#censeur_ref" [9 avril 1827]) ;
+,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [Lettre à H. Say, 24 novembre 1844])
 ])
 ])
 
@@ -102,6 +105,11 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*[Citation : ,(ref :url "conte_chinois.html#esprit_ref" [Conte chinois])])
 ])
 
+]),(lettre "G"[
+
+,(journal "gt" "Globe and Traveller" [
+,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
+])
 
 ]),(lettre "I" [
 
@@ -120,7 +128,12 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ,(journal "je" "Journal des Économistes" [
 ,(p*[,(ref :url "journaux_jde.html" [Articles publiés dans ce journal.])]
-[Simples allusions : ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+[Simples allusions :
+,(ref :url "lettre_coudroy1844a.html#dunoyer_ref" [Lettre à F. Coudroy, 10 juillet 1844]) ;
+,(ref :url "lettre_coudroy1844a.html#je_ref" [26 juillet 1844]) ;
+,(ref :url "lettre_cobden1844.html#je_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
+,(ref :url "lettre_horace_say1844.html#je_ref" [Lettre à H. Say, 24 novembre 1844]) ;
+,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])])
 
 ]),(lettre "L" [
@@ -128,6 +141,10 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(journal "le" "Le Libre-Échange" [
 ,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])]
 [Simples allusions : ,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])])
+])
+
+,(journal "ligue" "La Ligue" [
+,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844])
 ])
 
 ]),(lettre "M" [

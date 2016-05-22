@@ -19,16 +19,16 @@ j’inviterais ceux qui me répondraient ainsi
 et ce qui se fait encore aujourd’hui en Angleterre,
 et à dire ensuite si, de bonne foi,
 on ne peut aussi bien le réaliser en France. »
-(Prince de Joinville, ,(cite-title[Notes sur l’état des forces navales]), etc.)])
+(,( np "joinville" [Prince de Joinville]), ,(cite-title[Notes sur l’état des forces navales]), etc.)])
 ])
 
 
-,(p*[La France s’engage chaque année davantage dans le régime protecteur.
+,(liste(p*[La France s’engage chaque année davantage dans le régime protecteur.
 ][
 L’Angleterre s’avance, de session en session,
-vers le régime de la liberté du commerce.
-][
-Je me pose cette question :
+vers le régime de la liberté du commerce.]))
+
+,(p*[Je me pose cette question :
 ][
 Quelles seront pour ces deux nations
 les conséquences de deux politiques si opposées ?
@@ -39,10 +39,10 @@ On verra, dans la suite de cet écrit,
 que je ne sépare pas le régime protecteur
 du système des ,(emph[colonies à monopole réciproque]).
 Voici pourquoi :
-][
+][,(tag :a :name "stcricq_ref")
 La protection a pour objet d’assurer des consommateurs à l’industrie nationale.
 Or, ,(q[les gouvernements,
-disait M. de Saint-Cricq, alors ministre du commerce,
+disait ,(np "stcricq" [M. de Saint-Cricq]), alors ministre du commerce,
 ne pouvant ,(emph[disposer que des consommateurs soumis à leurs lois]),
 ce sont ceux-là qu’ils s’efforcent
 de réserver au travail de leurs producteurs.])
@@ -55,15 +55,15 @@ toutes deux émanent de la même idée, procèdent de la même théorie,
 et ne sont, si je puis le dire,
 que les deux aspects, intérieur et extérieur, d’une combinaison identique.
 ][
-Cela posé, j’ai à établir deux faits.
-][
-1° La France s’engage de plus en plus
+Cela posé, j’ai à établir deux faits.])
+
+,(liste(p*[1° La France s’engage de plus en plus
 dans la ,(emph[vie artificielle]) de la protection.
 ][
 2° L’Angleterre s’avance graduellement
-vers la ,(emph[vie naturelle]) de la liberté.
-][
-J’aurai ensuite à résoudre cette question :
+vers la ,(emph[vie naturelle]) de la liberté.]))
+
+,(p*[J’aurai ensuite à résoudre cette question :
 ][
 3° Quelles seront,
 sur la ,(emph[prospérité]), la ,(emph[sécurité]) et la ,(emph[moralité])
@@ -103,7 +103,6 @@ et fallait-il leur en fournir d’irrécusables ?
 Le jour n’est pas éloigné où ils nous diront :
 Vous nous forcez à acheter vos tissus ;
 achetez donc nos laines, nos soies, nos cotons.
-,(XXX :EO ",")
 Vous ne voulez pas que vos produits rencontrent chez nous de concurrence ;
 éloignez donc la concurrence qui attend les nôtres sur vos marchés.
 Ne sommes-nous pas Français ?
@@ -129,13 +128,13 @@ vous êtes sans droit pour réclamer de notre part
 l’aliénation d’une semblable liberté.
 ][
 Aujourd’hui de telles paroles ne seraient que mensonge et dérision.
-][
+][,(tag :a :name "cunin_ref")
 Mais qu’ai-je besoin de prévoir l’avenir ?
 Il est si vrai que tout privilége métropolitain
 implique un privilége colonial correspondant,
 que l’ordonnance à laquelle je fais allusion
 nous a déjà engagés dans cette voie.
-Écoutons M. le ministre du commerce
+Écoutons ,(np "cunin" [M. le ministre du commerce])
 (,(cite-title[Exposé des motifs de la loi des douanes]),
 page 37 ; séance du 26 mars 1844).
 ][
@@ -143,8 +142,8 @@ page 37 ; séance du 26 mars 1844).
 est la franchise entière de toute taxe d’importation.
 Pour les marchandises étrangères,
 le tarif était en général du quart du tarif métropolitain,
-il a été élevé, au tiers…..
-En outre, plusieurs produits fabriqués (étrangers)…..
+il a été élevé au tiers…
+En outre, plusieurs produits fabriqués (étrangers)…
 ont reçu des taxes particulières
 propres à donner une impulsion nouvelle à nos exportations.])
 ][
@@ -162,7 +161,6 @@ Nous avons dans ce but, par une autre ordonnance,
 dégrévé de moitié la généralité des produits
 dont la culture et le commerce de l’Algérie
 sont en mesure de pourvoir la métropole.])
-,(XXX :EO "guillemet manquant")
 ][
 Ainsi la première mesure que j’examine,
 quoiqu’en elle-même elle puisse paraître de peu d’importance,
@@ -203,13 +201,13 @@ favorisé la consommation et par suite le placement des sucres rivaux ;
 enfin, et par-dessus tout, on aurait fait justice au public,
 que malheureusement on oublie sans cesse dans ces sortes de questions,
 ou dont on ne se souvient que pour en ,(emph[disposer]),
-selon l’heureuse expression de M. de Saint-Cricq,
+selon l’heureuse expression de ,(np "stcricq" [M. de Saint-Cricq]),
 et ,(emph[le réserver]), comme une proie, ,(emph[aux producteurs]).
 Cette mesure n’aurait pas froissé les fabricants de sucre de betterave
 plus que celle qu’on a adoptée,
 et elle aurait eu l’avantage,
 comme tout ce qui porte un caractère évident de justice et d’utilité générale,
-d’arrêter la plainte sur les lèvres ce ceux-là mêmes qu’elle aurait atteints.
+d’arrêter la plainte sur les lèvres de ceux-là mêmes qu’elle aurait atteints.
 La nouvelle industrie se serait tenue pour avertie
 que le public n’avait pas d’engagement envers elle ;
 et ayant en perspective le régime de la liberté,
@@ -236,7 +234,7 @@ mais, après tout, c’est précisément ce que je veux prouver,
 savoir : ,(XXX :sic [et non pas "à savoir"])
 qu’en France, on fait si bon marché de la liberté du travail et de l’échange,
 qu’on la sacrifie en toute rencontre et à la plus frivole considération.
-][
+][,(tag :a :name "mimerel_ref")
 Voici maintenant qu’on propose d’augmenter les droits sur les machines.
 Sans doute on trouve que notre industrie manufacturière
 n’a pas assez de difficultés à vaincre,
@@ -254,12 +252,12 @@ ils se font petits, malhabiles, inintelligents,
 toute concurrence les importune ;
 et s’il fallait en croire leur modestie,
 il y aurait plus de science dans le petit doigt d’un ouvrier anglais
-que dans toutes les têtes du comité Mimerel.
-][
+que dans toutes les têtes du comité ,(np "mimerel" [Mimerel]).
+][,(tag :a :name "bowring_ref")
 Ce qui s’est passé à l’occasion des machines vaut la peine d’être raconté.
 Il y a trois ans, un membre du Parlement anglais vint à Paris
 pour négocier le traité de commerce.
-À cette époque, l’Angleterre prélevait
+A cette époque, l’Angleterre prélevait
 des droits élevés sur l’exportation des machines.
 Le négociateur français vit là un obstacle au traité.
 On était d’accord sur le reste :
@@ -270,14 +268,14 @@ la France manque de machines, surtout de métiers à filer et à tisser le lin.
 Pour le coton, nous pourrions à la rigueur nous suffire ;
 mais pour le lin, il est indispensable
 que vous nous laissiez arriver vos métiers francs de droits.])
-M. Bowring revint en Angleterre.
+,(np "bowring" [M. Bowring]) revint en Angleterre.
 On réunit les filateurs de lin,
-et on leur demande s’ils renonceraient au monopole des machines anglaises.
+et on leur demanda s’ils renonceraient au monopole des machines anglaises.
 Ils y consentirent, et la difficulté était levée,
 lorsque, comme on le sait, le traité échoua
 devant la résistance des fabricants du Nord
 et par des considérations politiques qu’il est inutile de rappeler.
-][
+][,(tag :a :name "cunin_ref2")
 Qu’est-il arrivé cependant ?
 La réforme commerciale de 1842 a balayé, en Angleterre,
 les droits d’exportation sur les machines.
@@ -286,7 +284,7 @@ en possession de cet avantage que nous réclamions avec tant d’insistance.
 Nos filatures de lin et de coton vont avoir enfin
 des machines excellentes, franches de droit.
 Mais voici bien une autre affaire.
-M. Cunin-Gridaine réclame un droit prohibitif sur ces machines tant désirées,
+,(np "cunin" [M. Cunin-Gridaine]) réclame un droit prohibitif sur ces machines tant désirées,
 et, chose qui passe toute croyance,
 les métiers à filer le coton, dont on pouvait se passer,
 ne payeront que 30 francs par 100 kilogrammes,
@@ -295,8 +293,8 @@ auront à supporter un droit de 50 francs !
 Mais telle est la nature de la protection :
 elle laisse entrer ce dont nous n’avons que faire
 et repousse ce dont nous avons le plus besoin.
-][
-Je ne rappellerai ici la proposition faite par le ministre des finances,
+][,(tag :a :name "lacave_ref")
+Je ne rappellerai ici la proposition faite par ,(np "lacave" [le ministre des finances]),
 d’élever les droits sur le sésame,
 que parce que le génie de la protection, ou plutôt du monopole,
 s’y montre dans toute sa nudité.
@@ -308,7 +306,7 @@ derrière des questions fiscales et coloniales.
 Mais quant au sésame, il n’y a pas moyen d’invoquer
 le patriotisme, l’orgueil national, les besoins de la navigation,
 la haine de l’étranger, etc., etc.
-Il faut bien avouer franchement ,(XXX :EO [franchemen])
+Il faut bien avouer franchement
 qu’on élève le droit uniquement
 ,(emph[parce que le sésame rend plus d’huile que le colza]).
 On avait cru que cette graine rendait 20 pour 100 d’huile,
@@ -331,7 +329,7 @@ c’est un bienfait de la nature qu’il veut partager avec mon pays.
 Mais moi j’ai une plante relativement pauvre, inféconde,
 et je veux forcer mon pays à s’en contenter.
 Le consommateur est une matière inerte
-dont le gouvernement ,(emph[dispose]),(pv)
+dont le gouvernement ,(emph[dispose ;])
 j’entends qu’il ,(emph[le réserve]) à mes produits.
 ,(--) Et le gouvernement d’accéder à l’injonction.
 ][
@@ -346,7 +344,7 @@ dans le régime de la protection]).
 C’est la première proposition que j’avais à établir.
 ][
 Toutefois ce n’est point en vue de ces modifications rétrogrades
-que j’énonce cette proposition, sous une forme aussi générale.
+que j’énonce cette proposition sous une forme aussi générale.
 Je ne suis pas de ceux qui pensent qu’on peut conclure
 de quelques actes du gouvernement à la persistance d’un système.
 Les gouvernements ne sont pas toujours l’expression de l’opinion publique.
@@ -374,7 +372,7 @@ il pèse sur les masses,
 et il porte en lui-même tous les éléments d’une prochaine destruction.])
 Ils ont raison sans doute d’attribuer
 de grandes et générales souffrances à ce système ;
-mais ils me semblent se faire complétement ,(XXX :sic) illusion
+mais ils me semblent se faire complétement illusion
 quand ils s’imaginent que ces souffrances
 sont clairement aperçues par les masses
 et distinctement rattachées à la cause qui les produit.
@@ -382,7 +380,7 @@ Il n’est plus vrai de dire que le monopole
 ne rallie à lui que quelques intérêts isolés ;
 il est devenu malheureusement le patrimoine de toutes les grandes industries,
 et particulièrement de celles qui confèrent l’influence politique.
-,(q[Protéger, disait encore M. de Saint-Cricq,
+,(q[Protéger, disait encore ,(np "stcricq" [M. de Saint-Cricq]),
 dans l’exposé des motifs de la loi
 qui organisa et consolida définitivement le régime prohibitif en France ;
 protéger l’industrie agricole, toute l’industrie agricole,
@@ -403,7 +401,7 @@ Mais il arrive alors que,
 chacun fermant les yeux sur les monopoles qu’il subit
 pour conserver celui qu’il exerce,
 le système entier jette dans tous les esprits des racines profondes.
-][
+][,(tag :a :name "guizot_ref")
 Sur quel fondement alléguerait-on
 que l’opinion publique est favorable en France à la liberté du commerce,
 quand on ne pourrait pas citer ,(emph[une seule parole])
@@ -414,15 +412,15 @@ on réclamait des ,(emph[représailles]) contre le nouveau tarif des États-Unis
 ,(q[Il n’est pas bien certain, dit un député,
 que les représailles ne soient aussi funestes
 à ceux qui s’en servent qu’à ceux contre qui on les dirige.])
-Ce député était sans doute de l’opposition dite ,(emph[avancée]) ?
-Point du tout : c’était M. Guizot.
+Ce député était sans doute de l’opposition dite ,(emph[avancée ?])
+Point du tout : c’était ,(np "guizot" [M. Guizot]).
 ][
 L’amour du monopole, le penchant à exploiter le public
 paraît être enfoncé si avant dans nos m,(oe)urs,
 qu’il se montre là où on s’attendrait le moins à le trouver.
 Les négociants, ne faisant de profits que sur les échanges et les transports,
 devraient, ce semble, être ennemis de tout ce qui tend à les restreindre.
-Eh bien, dans des pétitions émanées de Bordeaux, du Havre, de Nantes,
+Eh bien, dans ,(ref :url "reflexions_petitions_bordeaux.html" [des pétitions]) émanées de Bordeaux, du Havre, de Nantes,
 pétitions dirigées contre les restrictions commerciales,
 après avoir fait parade des doctrines les plus larges,
 ils ont trouvé le moyen de réclamer pour eux un privilége,
@@ -431,7 +429,6 @@ Ils demandaient que, par une combinaison de tarifs,
 les produits lointains fussent astreints à voyager
 ,(emph[à l’état le plus grossier]),
 afin de fournir plus d’aliment à la navigation.
-(V. pages 240 et suiv.)
 ][
 Aux causes générales qui tendent à perpétuer chez nous l’esprit de monopole,
 il faut en ajouter une particulière,
@@ -451,7 +448,7 @@ aux ,(emph[innovations]),
 afin d’être assuré qu’elles sont des ,(emph[améliorations]).
 Or, il est malheureusement entré
 dans les combinaisons des chefs de l’opposition
-de déserter les idées libérales, en matière de relations internationales,
+de déserter les idées libérales en matière de relations internationales,
 en sorte qu’on ne voit plus par quel côté
 pourrait nous arriver la liberté du commerce.
 ][
@@ -496,53 +493,56 @@ Pour repousser les accusations dont il est accablé,
 le gouvernement n’avait qu’une chose à faire, et il l’a faite.
 Il a sacrifié une portion du pays.
 ][
-Qu’on se rappelle le fameux discours de M : Guizot (29 février 1844).
+Qu’on se rappelle le fameux discours de ,(np "guizot" [M. Guizot]) (29 février 1844).
 M. le ministre lui-même oserait-il dire
-qu’il y a injustice à le paraphraser ainsi :
+qu’il y a injustice à le paraphraser ainsi :])
+
+,(liste(p*[« Vous dites que je soumets ma politique à la politique anglaise ;
+mais voyez mes actes.
 ][
-,(q[Vous dites que je soumets ma politique à la politique anglaise ;
-mais voyez mes actes.])
-][
-,(q[Il était juste de rendre aux Français ,(emph[le droit d’échanger])
+« Il était juste de rendre aux Français ,(emph[le droit d’échanger])
 confisqué par quelques privilégiés ;
 j’ai voulu entrer dans cette voie par des traités de commerce.
-Mais on a crié : ,(emph[À la trahison !]) et j’ai rompu les négociations.])
+Mais on a crié : ,(emph[A la trahison !]) et j’ai rompu les négociations.
 ][
-,(q[S’il faut que les Français achètent au dehors des fils et tissus de lin,
+« S’il faut que les Français achètent au dehors des fils et tissus de lin,
 je pensais qu’il valait mieux pour eux en obtenir ,(emph[plus que moins]),
 pour un prix donné.
-Mais on a crié : ,(emph[À la trahison !]) et j’ai livré l’Algérie au monopole.])
+Mais on a crié : ,(emph[A la trahison !]) et j’ai établi des droits différentiels.
 ][
-,(q[L’Espagne aspirait à secouer le joug d’une de ses provinces ;
+« Il était de l’intérêt de notre jeune colonie africaine d’être pourvue à bas prix de toutes choses afin de croître et prospérer.
+Mais on a crié : ,(emph[A la trahison !]) et j’ai livré l’Algérie au monopole.
+][
+« L’Espagne aspirait à secouer le joug d’une de ses provinces ;
 c’était son intérêt, c’était le nôtre, mais c’était aussi celui des Anglais.
-On a crié : ,(emph[À la trahison !]) et pour étouffer ce cri importun,
+On a crié : ,(emph[A la trahison !]) et pour étouffer ce cri importun,
 ,(emph[j’ai maintenu ce que l’Angleterre voulait renverser]),
-à savoir l’exploitation de l’Espagne par la Catalogne.])
-][
-Voilà donc où nous en sommes.
+à savoir l’exploitation de l’Espagne par la Catalogne. »]))
+
+,(p*[Voilà donc où nous en sommes.
 La machine de guerre de tous les partis,
 c’est ,(emph[la haine de l’étranger]).
-À gauche, à droite, on s’en sert pour battre en brèche le ministère ;
+A gauche, à droite, on s’en sert pour battre en brèche le ministère ;
 au centre, on fait pis, on la traduit en actes
 pour faire preuve d’indépendance,
 et le monopole arrive à toutes ses fins avec ce seul mot :
-,(emph[À la trahison !]).
-][
+,(emph[A la trahison !])
+][,(tag :a :name "cubieres_ref")
 Où tout cela nous mènera-t-il ? je l’ignore.
 Mais je crois que ce jeu des partis recèle des dangers,
-et je m’explique pourquoi le général Cubière
+et je m’explique pourquoi le général ,(np "cubieres" [Cubières])
 demandait que l’armée fût portée à 500,000 hommes ;
 pourquoi l’opinion alarmée réclame une puissante marine ;
-pourquoi la France fortifie la capitale et paye 1 milliard et demi d’impôts.
+pourquoi la France fortifie la capitale et paye un milliard et demi d’impôts.
 ](nbsp)[
 § II. ,(--) Pendant que ces choses se passent en France,
 examinons les tendances de l’économie politique anglaise,
 manifestées d’abord par les actes législatifs,
 ensuite par les exigences de l’opinion.
-][
+][,(tag :a :name "charlesquint_ref")
 On sait que, par son fameux acte de navigation,
 l’Angleterre entra dans les voies du monopole
-que lui avaient frayées les républiques italiennes et Charles-Quint.
+que lui avaient frayées les républiques italiennes et ,(np "charlesquint" [Charles-Quint]).
 Mais tandis que cette politique égoïste et imprévoyante
 avait produit en Espagne et en Italie de si déplorables résultats,
 elle n’empêcha pas la Grande-Bretagne de s’élever à cette haute prospérité,
@@ -551,9 +551,9 @@ le système auquel on s’est empressé de l’attribuer.
 Ce n’est que de nos jours, que l’Angleterre commence à comprendre
 qu’elle s’est enrichie non ,(emph[par]) les prohibitions,
 mais ,(emph[malgré]) les prohibitions.
-C’est de l’administration de M. Huskisson
+C’est de l’administration de ,(np "huskisson" [M. Huskisson])
 que date cette halte dans la politique de restriction.
-][
+][,(tag :a :name "cromwell_ref")
 Ce grand ministre, malgré le désavantage
 de lutter contre une opinion publique encore incertaine,
 voulut inaugurer la politique libérale par des résolutions décisives.
@@ -561,14 +561,14 @@ Il s’attaqua aux monopoles
 des fabricants de soieries, des brasseurs, des producteurs de laines,
 et enfin au plus populaire, je dirai même au plus national
 de tous les monopoles, celui de la navigation.
-L’altération qu’il fait subir à l’acte de Cromwell
+L’altération qu’il fit subir à l’acte de ,(np "cromwell" [Cromwell])
 fut si sérieuse et si profonde,
 qu’elle a amené ce fait que je trouve dans un journal anglais du 18 mai 1844 :
 ,(q[Du 10 avril au 9 mai, il est entré à Newcastle
 soixante-quatre bâtiments chargés de grains,
-dont soixante-un ,(XXX :sic) sont étrangers.])
+dont soixante-un sont étrangers.])
 ][
-On conçoit sans peine quelle lutte M. Huskisson eut à soutenir
+On conçoit sans peine quelle lutte ,(np "huskisson" [M. Huskisson]) eut à soutenir
 pour faire passer une réforme si dangereuse pour cette ,(emph[suprématie navale]),
 si chère aux Anglais.
 ,(emph[L’empire des mers !]) tel était le cri de ralliement de ses adversaires,
@@ -576,26 +576,26 @@ auquel il répondit par ces nobles paroles,
 que je ne puis m’empêcher de rappeler ici,
 parce qu’elles signalent l’heureuse incompatibilité qui existe
 entre la liberté commerciale et ces jalousies nationales,
-triste cortége ,(XXX :sic) du régime protecteur :
+triste cortége du régime protecteur :
 ,(q[J’espère bien que je ne ferai plus partie des conseils de l’Angleterre,
 quand il y sera établi en principe
 qu’il y a une règle d’indépendance et de souveraineté pour le fort
 et une autre pour le faible,
 et lorsque l’Angleterre, abusant de sa supériorité navale,
 exigera pour elle soit dans la paix, soit dans la guerre,
-des droits maritimes qu’elle méconnaîtra pour les autres,
+des droits maritimes qu’elle méconnaîtra pour les autres
 dans les mêmes circonstances.
 De pareilles prétentions amèneraient
 la coalition de tous les peuples du monde pour les renverser.])
-][
+][,(tag :a :name "russell_ref")
 On n’a pas oublié la crise industrielle, commerciale et financière
-qui désola l’Angleterre, vers la fin de l’administration de lord John Russell.
+qui désola l’Angleterre, vers la fin de l’administration de ,(np "russell" [lord John Russell]).
 Au milieu d’une détresse générale,
 en face des guerres de la Chine et de l’Afghanistan,
 en présence du déficit,
 il semble que le moment était mal choisi
 pour développer la grande réforme douanière et coloniale
-essayée par Huskisson.
+essayée par ,(np "huskisson" [Huskisson]).
 C’est pourtant dans ces circonstances que le cabinet whig
 présenta un projet qui n’allait à rien moins
 qu’à détruire presque entièrement le régime de la protection
@@ -616,7 +616,7 @@ Par là nous les appellerons à l’indépendance, à la prospérité ;
 et délivrés des dépenses et des dangers qu’elles entraînent,
 nous n’aurons avec elles et avec le monde
 que des relations libres et volontaires.])
-][
+][,(tag :a :name "melbourne_ref")
 Il est vrai de dire que cette foi entière
 dans la solidité des doctrines sociales,
 cette adhésion dans réserve à ce grand principe :
@@ -627,7 +627,7 @@ dans l’aristocratie, les fermiers et les planteurs des Antilles ;
 et l’on doit même avouer
 que cette opposition eut l’assentiment de l’opinion publique,
 puisqu’un appel au corps électoral eut pour résultat
-la chute du ministère Melbourne.
+la chute du ministère ,(np "melbourne" [Melbourne]).
 Mais n’est-ce rien, au moins comme fait symptomatique,
 que cette tentative d’un parti influent,
 d’un parti toujours prêt à s’emparer du timon de l’État,
@@ -640,23 +640,23 @@ sur la terre natale du monopole,
 dans ce pays où les priviléges
 aristocratiques, économiques, politiques, religieux, coloniaux
 sont si puissants et si étroitement unis ?
-][
+][,(tag :a :name "peel_ref")
 Mais enfin, voilà la liberté condamnée ;
-voilà le privilége au pouvoir, dans la personne de sir Robert Peel,
+voilà le privilége au pouvoir, dans la personne de ,(np "peel" [sir Robert Peel]),
 porté et soutenu par une majorité compacte de vieux torys.
 Voyons, étudions les doctrines, les actes de ce nouveau cabinet,
 qui a reçu mission expresse de maintenir intact l’édifice du monopole.
-][
+][,(tag :a :name "graham_ref")
 Son premier empressement est de proclamer
 son adhésion aux doctrines de la liberté commerciale.
-,(q[Il faut arriver, dit sir Robert, à ce que tout Anglais
+,(q[Il faut arriver, dit ,(np "peel" [sir Robert]), à ce que tout Anglais
 puisse librement acheter et vendre
 partout où il pourra le faire avec le plus d’avantage.])
-Son collègue, sir James Graham, en citant ces paroles,
+Son collègue, ,(np "graham" [sir James Graham]), en citant ces paroles,
 devenues proverbiales en Angleterre, les caractérise ainsi :
 ,(q[C’est la politique du sens commun.])
 ][
-Il ne faut pas croire que sir Robert,
+Il ne faut pas croire que ,(np "peel" [sir Robert]),
 en ajournant la réalisation de la doctrine libérale,
 s’abrite, comme on devrait s’y attendre,
 derrière ce prétexte si spécieux et si répandu :
@@ -675,19 +675,19 @@ si l’on ne perd pas de vue que le ministère anglais
 agit au milieu d’immenses difficultés financières
 et sous l’influence du parti qui l’a porté au pouvoir.
 ][
-La première mesure que prit sir Robert Peel,
+La première mesure que prit ,(np "peel" [sir Robert Peel]),
 ce fut de faire un appel aux riches pour combler le déficit.
 Il soumit à une taxe de 3 pour 100
-tout revenu dépassant 150 liv. sterl. (fr. 3,250),
+tout revenu dépassant 150 liv. sterl. (fr. 3,250),
 quelle qu’en fût la source, terres, industries,
 rentes sur l’État, traitements, etc.
 Cette taxe doit durer trois ou cinq ans.
 ][
 Au moyen de cette taxe sur le revenu (,(inenglish[income-tax])),
-sir Robert Peel espérait non-seulement combler le déficit annuel,
+,(np "peel" [sir Robert Peel]) espérait non-seulement combler le déficit annuel,
 mais encore avoir, après chaque exercice, un excédant disponible.
 ][
-À quoi fallait-il consacrer cet excédant ?
+A quoi fallait-il consacrer cet excédant ?
 Évidemment à quelque mesure propre à relever les impôts ordinaires,
 de manière à pouvoir se passer, après trois ou cinq ans, de l’,(inenglish[income-tax]).
 ][
@@ -707,24 +707,24 @@ c’est, il faut l’avouer, un procédé hardi
 et encore inconnu chez un grand nombre de peuples.
 ][
 Au reste, il est peut-être bon de remarquer ici
-que sir Robert Peel n’avait pas le mérite de l’invention.
+que ,(np "peel" [sir Robert Peel]) n’avait pas le mérite de l’invention.
 C’est une politique qui a été constamment suivie, depuis la paix,
 soit par les whigs, soit par les torys,
 que de chercher dans la diminution des taxes des ressources pour le trésor.
 Seulement, ce que les précédents cabinets
 avaient fait pour les taxes intérieures
 (et je citerai entre autres la réforme postale),
-sir Robert l’a appliqué aux droits de douane.
+,(np "peel" [sir Robert]) l’a appliqué aux droits de douane.
 Par là, il a introduit un germe de mort au c,(oe)ur du régime prohibitif.
-][
-M. Dussard a déjà fait connaître dans ce journal
+][,(tag :a :name "dussard_ref")
+,(np "dussard" [M. Dussard]) a déjà fait connaître dans ce journal
 les réductions opérées à cette époque sur les tarifs anglais.
 Je rappellerai ici les principales.
 ][
 ,(XXX [tableau 1, page 19])
 ,(%raw[
-<table border="1" rules="groups">
-<colgroup span="2" align="left">
+<table border="1" rules="groups" style="text-indent:0; padding: 0.5em;">
+<colgroup span="2" align="left" width="1*">
 <colgroup span="3" align="center" width="1*">
 <colgroup span="3" align="center" width="1*">
 <colgroup span="3" align="center" width="1*">
@@ -732,8 +732,8 @@ Je rappellerai ici les principales.
 <thead>
 <tr>
   <td colspan=2 rowspan=2 align="center">dénominations</td>
-  <td colspan=6>droits anciens</td>
-  <td colspan=6>droits nouveaux</td>
+  <td colspan=6 align="center">droits anciens</td>
+  <td colspan=6 align="center">droits nouveaux</td>
 </tr>
 <tr>
   <td colspan=3>d’origine étrangère</td>
@@ -744,7 +744,7 @@ Je rappellerai ici les principales.
 </thead>
 <tbody>
 <tr>
-  <td colspan=2>&nbsp ;</td>
+  <td colspan=2> </td>
   <td>liv.</td>
   <td>sch.</td>
   <td>d.</td>
@@ -1093,18 +1093,13 @@ des droits sur les céréales :
 ][
 ,(XXX [tableau 2, page 20])
 ,(%raw[
-<table border="1" rules="groups">
-<colgroup span="1" align="center"> 
-<colgroup span="1" align="center">
-<colgroup>
-  <col align="right">
-  <col align="left">
-</colgroup>
+<table style="text-indent: 0; text-align: right; border-spacing: 1em 0.3em;">
+
 <thead>
 <tr>
-  <td>prix du froment</td>
-  <td>nouvelle échelle</td>
-  <td colspan="2">ancienne échelle</td>
+  <td>prix du </br>froment</td>
+  <td>nouvelle </br>échelle</td>
+  <td colspan="2">ancienne </br>échelle</td>
 </tr>
 </thead>
 <tbody>
@@ -1146,7 +1141,7 @@ des droits sur les céréales :
 </tr>
 <tr>
   <td>68</td>
-  <td>&nbsp ;</td>
+  <td></td>
   <td>16</td>
   <td>8</td>
 </tr>
@@ -1158,7 +1153,7 @@ des droits sur les céréales :
 </tr>
 <tr>
   <td>66</td>
-  <td>&nbsp ;</td>
+  <td></td>
   <td>20</td>
   <td>8</td>
 </tr>
@@ -1255,9 +1250,9 @@ des droits sur les céréales :
 </table>
 ])
 ][
-Le ministère Peel ne s’est pas arrêté dans cette voie.
+Le ministère ,(np "peel" [Peel]) ne s’est pas arrêté dans cette voie.
 ][
-Dans la séance du 1er mai 1844, le chancelier de l’Échiquier
+Dans la séance du ,(1er) mai 1844, le chancelier de l’Échiquier
 a annoncé que le but immédiat qu’on s’était proposé,
 celui de rétablir l’équilibre des finances,
 avait été atteint.
@@ -1266,9 +1261,9 @@ les dépenses, au contraire, sont demeurées au-dessous,
 en sorte que l’administration peut disposer d’un boni ,(XXX :sic)
 de 2,370,600 liv. sterl.
 ][
-En conséquence il propose :
-][
-1° D’abolir intégralement les droits sur les laines étrangères ;
+En conséquence il propose :])
+
+,(liste(p*[1° D’abolir intégralement les droits sur les laines étrangères ;
 ][
 2° D’abolir intégralement les droits sur les vinaigres ;
 ][
@@ -1287,9 +1282,9 @@ verrerie, raisins de Corinthe,
 et les taxes sur les primes d’assurances maritimes.
 Ces diverses réductions doivent laisser un déficit au trésor
 de 400,000 liv. sterl.,
-et réduire par conséquent le boni de 2,400,000 liv. sterl, à 2 millions.
-][
-Si l’on ajoute à cela la réforme de la Banque et la conversion des rentes,
+et réduire par conséquent le boni de 2,400,000 liv. sterl, à 2 millions.]))
+
+,(p*[Si l’on ajoute à cela la réforme de la Banque et la conversion des rentes,
 on reconnaîtra que la présente session du Parlement
 n’a pas été tout à fait perdue pour l’avenir économique de la Grande-Bretagne,
 même sous l’administration qui n’est arrivée au pouvoir
@@ -1302,22 +1297,22 @@ n’ont stipulé pour eux, dans ces pays,
 aucun avantage commercial qui ne s’étende à toutes les nations du monde,
 il faudra bien convenir que la doctrine de la liberté des échanges
 a dû faire des progrès en Angleterre pour amener de tels résultats.
-][
+][,(tag :a :name "goulburn_ref")
 On est surpris, il est vrai, que le gouvernement anglais
 pouvant disposer d’un excédant de recettes de 2,400,000 liv. sterl.,
 il n’accorde des modérations de droits
 que jusqu’à concurrence de 400,000 liv. sterl.
-Voici comment M. Goulburn s’exprime à ce sujet :
+Voici comment ,(np "goulburn" [M. Goulburn]) s’exprime à ce sujet :
 ][
 ,(q[Je n’hésite pas à dire que, dans le moment actuel,
 je ne suis pas encore fixé sur les résultats
 de la réduction de droits opérée en 1842.
 Il est hors de doute que lorsque l’on considère la liste des articles
-et la consommation croissante, qui s’est manifestée sur presque tous,
+et la consommation croissante qui s’est manifestée sur presque tous,
 on est fondé à concevoir les plus grandes espérances.
 Sur les trente-trois principaux articles qui ont été réduits,
 il n’y en a que cinq dont la consommation a diminué.
-Sur tous les autres, il y a eu une augmentation plus ou moins prononcée.
+Sur tous les autres il y a eu une augmentation plus ou moins prononcée.
 J’espère donc dans l’issue de cette expérience ;
 mais la Chambre ne doit pas perdre de vue
 que la nécessité de donner aux approvisionnements le temps de s’écouler
@@ -1325,31 +1320,31 @@ n’a permis au nouveau tarif d’entrer en plein exercice
 que vers le milieu de l’année dernière.
 L’expérience n’est donc pas complète,
 et je ne saurais prendre sur moi, d’après un essai d’aussi courte durée,
-de préjuger les vues du Parlement dans le cours de la prochaine session,
+de préjuger des vues du Parlement dans le cours de la prochaine session,
 surtout alors que la taxe sur le revenu (,(inenglish[income-tax]))
 devra être prise en considération.
 Dans de telles circonstances, je pense qu’il sera évident pour tous
 que j’aurais agi d’une manière inconsidérée et même déloyale,
-si j’avais engagé la Chambre à voter, dès aujourd’hui,
-de plus fortes réductions, qui n’auraient eu d’autre résultat
-que de l’empêcher d’agir, l’année prochaine,
+si j’avais engagé la Chambre à voter dès aujourd’hui
+de plus fortes réductions qui n’auraient eu d’autre résultat
+que de l’empêcher d’agir l’année prochaine
 en parfaite connaissance de cause.])
 ][
-Ainsi le cabiner réserve 2 millions sterling,
-sur l’excédant de revenu déjà réalisé,
+Ainsi le cabinet réserve 2 millions sterling
+sur l’excédant de revenu déjà réalisé
 pour les réunir à l’excédant prévu du présent exercice,
 afin de pouvoir, dès la prochaine session,
 soit supprimer l’,(inenglish[income-tax]),
-soit marcher résolûment ,(XXX) dans la carrière de la réforme commerciale.
-Je dois ajouter que c’est l’opinion générale, en Angleterre,
+soit marcher résolument dans la carrière de la réforme commerciale.
+Je dois ajouter que c’est l’opinion générale en Angleterre
 que le ministre usera de la faculté qui lui a été accordée
 de prélever l’,(inenglish[income-tax]) pendant cinq ans au lieu de trois,
 et qu’il mettra ce délai à profit pour achever,
 autant du moins que cela entre dans ses vues, l’,(oe)uvre qu’il a entreprise.
 ][
 De l’examen que je viens de faire de la politique suivie en Angleterre,
-depuis Huskisson jusqu’à ce moment,
-et de l’espèce d’engagement contracté le 1er mai dernier
+depuis ,(np "huskisson" [Huskisson]) jusqu’à ce moment,
+et de l’espèce d’engagement contracté le ,(1er) mai dernier
 par le chancelier de l’Échiquier,
 je crois qu’on peut conclure que le Royaume-Uni
 ,(emph[s’avance d’année en année vers le régime de la liberté]).
@@ -1359,14 +1354,14 @@ la libéralité de l’,(oe)uvre des torys,
 non plus qu’à en méconnaître l’importance,
 je crois devoir faire suivre cet exposé de quelques réflexions.
 ][
-Quelle différence caractérise la politique de Peel et celle de Russel ?
+Quelle différence caractérise la politique de ,(np "peel" [Peel]) et celle de ,(np "russell" [Russell]) ?
 Comment le ministère whig est-il tombé pour avoir proposé une réforme
 qu’accomplissent ceux qui l’ont renversé ?
 C’est une question qui se présentera naturellement à l’esprit,
 dans l’état d’ignorance où la presse tient systématiquement le public français
 sur les affaires de l’Angleterre.
 ][
-Le plan adopté par sir R. Peel répond à deux pensées :
+Le plan adopté par ,(np "peel" [sir R. Peel]) répond à deux pensées :
 la première, c’est de relever le revenu public
 par l’accroissement de la consommation ;
 la seconde, de ménager, autant que possible,
@@ -1381,7 +1376,7 @@ que les torys eux-mêmes se soient vus forcés de laisser entamer le monopole.
 ][
 Mais naturellement ils ont exigé du ministère
 qu’il en retînt tout ce qu’il est possible d’en retenir.
-Aussi sir R. Peel n’a pas songé à établir l’,(emph[impôt foncier]),(pv)
+Aussi ,(np "peel" [sir R. Peel]) n’a pas songé à établir l’,(emph[impôt foncier ;])
 et il n’a touché que d’une manière illusoire
 à la protection dont jouissent les céréales,
 c’est-à-dire les seigneurs terriens.
@@ -1392,8 +1387,8 @@ Il est vrai que le ,(emph[nivellement]) tend à s’établir
 pour le sucre, le café et ce qu’on nomme les denrées tropicales ;
 il et vrai encore que les droits ont été abaissés
 sur une foule d’objets de provenance étrangère et dans une forte proportion ;
-mais ils on été abaissés,
-pour les objets similaires provenant des colonies,
+mais ils on été abaissés
+pour les objets similaires provenant des colonies
 dans une proportion encore plus forte,
 en sorte que la protection subsiste toujours en principe et en fait.
 Un exemple fera comprendre ce mécanisme.
@@ -1420,7 +1415,7 @@ Un exemple fera comprendre ce mécanisme.
   <td colspan="9" align="center">bois de construction</td>
 </tr>
 <tr>
-  <td colspan="1">&nbsp ;</td>
+  <td colspan="1"></td>
   <td colspan="2" align="center">Du Canada</td>
   <td colspan="2" align="center">De la Baltique</td>
   <td colspan="3" align="center">Proportion</td>
@@ -1450,14 +1445,14 @@ Un exemple fera comprendre ce mécanisme.
 ])
 ][
 Ainsi, quoique le bois de la Baltique ait subi une réduction plus forte même
-que celle que proposait lord John Russell,
+que celle que proposait ,(np "russell" [lord John Russell]),
 cependant la protection en faveur du Canada n’en est pas altérée ;
-bien au contraire, car sir Robert a en même temps dégrévé le bois colonial,
-tandis que lord Russell voulait l’élever.
+bien au contraire, car ,(np "peel" [sir Robert]) a en même temps dégrévé le bois colonial,
+tandis que ,(np "russell" [lord Russell]) voulait l’élever.
 Cet exemple montre clairement par quel artifice le cabinet tory
 a su concilier l’intérêt du consommateur et celui des colons.
 ][
-Il suit de là que sir Robert Peel
+Il suit de là que ,(np "peel" [sir Robert Peel])
 est en mesure de refuser aux colonies la liberté du commerce.
 ,(q[Nous vous conservons la protection, leur dit-il, par d’autres chiffres,
 mais d’une manière tout aussi efficace.])
@@ -1466,7 +1461,7 @@ Ils disaient aux colonies :
 ,(q[Le Royaume-Uni cesse d’être votre acheteur forcé,
 mais aussi il ne prétend plus être votre vendeur exclusif ;
 que chacun de nous se pourvoie selon ses intérêts et ses convenances.])
-Il est clair que c’était la rupture du contrat social.
+Il est clair que c’était la rupture du contrat colonial.
 La métropole devenait libre de recevoir du bois, du sucre, du café
 d’ailleurs que des colonies ;
 les colonies devenaient libres de recevoir
@@ -1476,12 +1471,12 @@ d’ailleurs que de l’Angleterre.
 Le projet des whigs renfermait donc une pensée grande, féconde, humanitaire,
 qu’on regrette de ne pas retrouver, du moins au même degré,
 dans la réforme exécutée par les torys,
-d’autant que sir Robert Peel avait fait pressentir
-qu’il s’emparait de cette pensée,
+d’autant que ,(np "peel" [sir Robert Peel]) avait fait pressentir
+qu’il s’emparait de cette pensée
 quand il avait placé son système sous le patronage de ces mémorables paroles :
 ,(q[Il faut arriver à ce que tout Anglais
 soit libre d’acheter et de vendre au marché le plus avantageux !])
-,(q[,(inenglish[Every Englishman must be allowed to buy in the cheapest market,
+,(q[,(inenglish[Every Englishman must be allowed to buy in the cheapest market
 and to sell in the dearest]).]) (,(cite-title[Speech on the tariff]), 10 mai 1842.)
 Principe dont il s’écarte, puisqu’il oblige les Anglais et leurs colons
 d’acheter et de vendre dans des marchés ,(emph[forcés]).
@@ -1503,14 +1498,14 @@ est forcée par la puissance de l’opinion.
 Ici, elle réclame des protections,
 et le pouvoir rend des ordonnances restrictives.
 Là, elle demande la liberté, et le pouvoir
-opère les réformes du 26 juin 1842 et du 1er mai 1844 ;
+opère les réformes du 26 juin 1842 et du ,(1er) mai 1844 ;
 mais il s’en faut bien que ces mesures incomplètes satisfassent le v,(oe)u public,
 et comme il y a en France des comités manufacturiers
 qui tiennent les ministres sous leur joug,
 il y a en Angleterre des associations
 qui entraînent l’administration dans la voie de la liberté.
-Les man,(oe)uvres secrètes et corruptrices de comités,
-organisés pour le triomphe d’intérêts particuliers,
+Les man,(oe)uvres secrètes et corruptrices de comités
+organisés pour le triomphe d’intérêts particuliers
 ne peuvent nous donner aucune idée
 de l’action franche et loyale qu’exerce en Angleterre
 l’,(emph[association pour la liberté du commerce])
@@ -1535,9 +1530,9 @@ de l’agriculture, des manufactures, du commerce et de la navigation,
 en un mot, la liberté illimitée des échanges,
 en tant que cela dépend de la législation anglaise
 et sans avoir égard à la législation des autres peuples !])
-,(--) Pour faire connaître l’esprit qui l’anime,
+,(tag :a :name "thompson_ref"),(--) Pour faire connaître l’esprit qui l’anime,
 je traduirai un passage d’un discours prononcé
-à la séance du 20 mai dernier par M. George Thompson.
+à la séance du 20 mai dernier par ,(np "thompson_g" [M. George Thompson]).
 ][
 ,(q[C’est un beau spectacle que de voir une grande nation presque unanime
 poursuivant un but tel que celui que nous avons en vue,
@@ -1589,7 +1584,7 @@ et tous les jours ils exposent les principes les plus abstraits de la science
 sous les formes les plus variées et les plus attrayantes.
 Quel homme, attiré dans ces meetings par la curiosité,
 n’en sort pas meilleur et plus éclairé ?
-Quel immense bienfait pour la pays que cette association !
+Quel immense bienfait pour le pays que cette association !
 Pour moi, je suis le premier à reconnaître tout ce que je lui dois,
 et je suppose qu’il n’est personne qui ne se sente
 sous le poids des mêmes obligations.
@@ -1599,7 +1594,7 @@ l’avais-je considéré sous tous ses aspects ?
 avais-je reconnu aussi distinctement les causes qui ont fait peser la misère,
 répandu le crime, propagé l’immoralité parmi tant de millions de nos frères ?
 Savais-je apprécier, comme je le fais aujourd’hui,
-tout l’influence de la libre communication des peuples
+toute l’influence de la libre communication des peuples
 sur leur union et leur fraternité ?
 Avais-je reconnu le grand obstacle au progrès
 et à la diffusion par toute la terre de ces principes moraux et religieux,
@@ -1649,7 +1644,7 @@ dans les conseils de la Grande-Bretagne, au développement exagéré de forces
 navales que cette politique exige, enfin à la haine et à la méfiance des
 peuples qu’elle ne peut manquer de susciter.
 ][
-Je crois avoir établi que le France et l’Angleterre suivent,
+Je crois avoir établi que la France et l’Angleterre suivent,
 en matière de douanes, une politique opposée.
 C’est le moment d’examiner la question que je posais en commençant :
 ][
@@ -1755,7 +1750,7 @@ que les oranges mûries par la chaleur artificielle de nos serres
 ,(emph[se vendent]) au même prix
 que les oranges mûries par le soleil de Lisbonne.
 Mais il ne peut pas faire que les conditions de production
-soient égales en France et en ,(XXX :sic) Portugal.
+soient égales en France et en Portugal.
 ,(--) Ainsi, ,(emph[cherté]), ,(emph[rareté]), sont les
 conséquences nécessaires de la protection,
 toutes les fois que la protection a des conséquences quelconques.
@@ -1766,7 +1761,7 @@ pendant que l’Angleterre s’avance vers la liberté des échanges.
 ][
 Déjà une foule de produits anglais sont à plus bas prix que les nôtres,
 puisque nous sommes réduits à les exclure.
-À mesure que la liberté produira
+A mesure que la liberté produira
 en Angleterre ses effets naturels,
 le ,(emph[bon marché]) de tous les objets de consommation ;
 à mesure que la restriction produira en France ses conséquences nécessaires,
@@ -1792,7 +1787,7 @@ que dans les divers pays du globe où ces objets sont au moindre prix.
 Nos produits fabriqués,
 chassés de partout par cette concurrence invincible,
 seront donc refoulés dans nos ports et nos magasins ;
-il faudra las laisser pourrir ou les ,(emph[vendre à perte]).
+il faudra les laisser pourrir ou les ,(emph[vendre à perte]).
 Mais vendre à perte ne peut être l’état permanent de l’industrie.
 Il faudra donc opter : ou arrêter la fabrication,
 ou réduire le taux des salaires.
@@ -1823,7 +1818,7 @@ sans que la réaction soit sentie par les classes manufacturières.
 Le nord ruiné demandera moins de vins et de soieries au Midi,
 le Midi appauvri se passera dans une forte proportion
 des draps et des cotonnades du Nord.
-C’est ainsi que le dénûment ,(XXX :sic), la privation,
+C’est ainsi que le dénûment, la privation,
 et sans doute aussi les passions mauvaises et dangereuses,
 s’étendront sur tous les points du territoire
 et sur toutes les classes de la société.
@@ -1835,7 +1830,7 @@ l’écrivain qui se borne à exposer les conséquences nécessaires
 du fait sur lequel il raisonne ?
 ,(--) Et après tout, quelle est ma conclusion ?
 que nous marchons vers le ,(emph[dénûment]).
-or, c’est la non-seulement l’,(emph[effet]),
+or, c’est là non-seulement l’,(emph[effet]),
 mais encore, nous l’avons vu, le ,(emph[but avoué]) de la protection,
 car elle ne prétend pas aspirer à autre chose
 qu’à favoriser le producteur,
@@ -1847,7 +1842,7 @@ et l’opposé d’abondance, c’est le ,(emph[dénûment]).
 Et puis, est-il vrai ou n’est-il pas vrai
 que, même en ce moment où une législation vicieuse
 tient en Angleterre les moyens de subsistance à haut prix,
-notre industrie lutte péniblement contre celle des anglais ?
+notre industrie lutte péniblement contre celle des Anglais ?
 Si cela est vrai, que sera-ce donc
 quand cette législation réformée aura fait disparaître,
 de leur côté, cette cause d’infériorité relative ?
@@ -1857,14 +1852,14 @@ sur quoi se fonde la protection ?
 qu’a-t-elle à dire pour sa justification ?
 ](nbsp)[
 § IV.
-,(--) ,(emph[Sécurité]).
+,(emph[Sécurité]).
 ,(--) On peut dire qu’un peuple dont l’existence repose
 sur le système colonial et sur des possessions lointaines
 n’a qu’une prospérité précaire et toujours menacée,
 comme tout ce qui est fondé sur l’injustice.
 Une conquête excite naturellement contre le vainqueur
 la ,(emph[haine]) du peuple conquis,
-l’,(emph[alarme]) chez ceux qui sont exposés au même sort ;
+l’,(emph[alarme]) chez ceux qui sont exposés au même sort,
 et la ,(emph[jalousie]) parmi les nations indépendantes.
 Lors donc que, pour se créer des débouchés,
 une nation a recours à la violence, elle ne doit point s’aveugler :
@@ -1887,13 +1882,13 @@ la première, qu’il fût favorable à ses vrais intérêts ;
 la seconde, que la suprématie des mers ne pût jamais lui être arrachée.
 Mais, d’une part, les connaissances économiques
 ont fait assez de progrès en Angleterre
-pour que le système colonial y soit jugé,
-au point de vue de la prospérité de la métropole ;
+pour que le système colonial y soit jugé
+au point de vue de la prospérité de la métropole,
 et il est peu d’Anglais qui ne sachent fort bien
 que le commerce avec le États libres
 est plus avantageux que les échanges avec les colonies.
 D’une autre part, être toujours le plus fort est une lourde obligation.
-À mesure que les autres peuples grandissent,
+A mesure que les autres peuples grandissent,
 il faut que l’Angleterre accroisse la masse
 de forces vives, de capitaux, de travail humain
 qu’elle soustrait à l’industrie pour les consacrer à la marine,
@@ -1919,7 +1914,7 @@ Mais derrière les torys, il y a les whigs ;
 derrière les whigs, il y a le peuple qui paye et qui souffre ;
 il y a la ,(emph[Ligue]) qui lui apprend pourquoi il souffre et pourquoi il paye ;
 il y a le c,(oe)ur humain qui, pour faire triompher le ,(emph[juste]),
-n’a besoin que d’apercevoir sa connexité avec l’,(emph[utile]),(pv)
+n’a besoin que d’apercevoir sa connexité avec l’,(emph[utile ;])
 et il est permis d’espérer qu’un faux orgueil national,
 une prospérité factice et inégale
 ne lutteront pas longtemps contre les forces combinées
@@ -1943,7 +1938,7 @@ pour sa sécurité que pour sa prospérité.
 Aux sentiments de haine, d’envie, de méfiance et d’hostilité
 que son ancienne politique avait semés parmi les nations,
 elle substitue l’amitié, la bienveillance
-et cet inextricable réseau des liens commerciaux
+et cet inextricable réseau de liens commerciaux
 qui rend les guerres à la fois inutiles et impossibles.
 Elle se replace dans une situation naturelle, stable,
 qui, en favorisant le développement de ses ressources industrielles,
@@ -1960,7 +1955,7 @@ ce serait dépasser de beaucoup les limites
 dans lesquelles je suis forcé de me renfermer ;
 je me bornerai à quelques aperçus.
 ][
-À mesure que nos débouchés se fermeront au dehors,
+A mesure que nos débouchés se fermeront au dehors,
 par l’effet de notre législation restrictive,
 nous nous attacherons plus fortement aux débouchés coloniaux.
 Nous renforcerons autant que possible notre monopole
@@ -2012,7 +2007,7 @@ quand elle comprend que ce système d’envahissement
 compromet la paix du monde, provoque des réactions,
 force tous les peuples à se tenir toujours prêts
 à prendre part à une conflagration générale,
-et tout cela, non-seulement dans profit pour elle,
+et tout cela, non-seulement sans profit pour elle,
 mais encore au détriment de son industrie et du bien-être de ses citoyens,
 quand enfin elle se dégage
 volontairement, librement, par prudence pure et après mûre réflexion,
@@ -2042,13 +2037,13 @@ c’est l’histoire de l’Angleterre.
 S’il ne réussit pas, il est battu, envahi,
 dépouillé de ses conquêtes, chargé de tributs ;
 heureux s’il n’est pas morcelé et rayé de la liste des nations !
-][
+][,(tag :a :name "montaigne_ref")
 On dira sans doute que j’ai fait intervenir les colonies pour détourner
 sur le régime prohibitif des dangers dont il n’est pas responsable.
 Mais ce régime, considéré en lui-même, en dehors de tout envahissement,
 ne suffit-il pas pour mettre les peuples en état d’hostilité permanente ?
 Quel est le principe sur lequel il repose ?
-le voici : ,(emph[Le proufict de l’un est le doumage de l’autre]) (Montaigne).
+le voici : ,(emph[Le proufict de l’un est le doumage de l’autre]) (,(np "montaigne" [Montaigne])).
 Or, si la prospérité de chaque nation
 est fondée sur la décadence de toutes les autres,
 la guerre n’est-elle pas ,(emph[l’état naturel]) de l’homme ?
@@ -2059,7 +2054,7 @@ un peuple perd nécessairement ce que l’autre gagne ;
 s’ils s’enrichissent aux dépens les uns des autres,
 si le bénéfice de chacun est l’excédant de ses ventes sur ses achats,
 je comprends qu’ils s’efforcent tous à la fois
-de mettre de leur côté la bonne chance, ,(emph[l’exportation]),(pv)
+de mettre de leur côté la bonne chance, ,(emph[l’exportation ;])
 je conçois leur ardente rivalité,
 je m’explique ,(emph[les guerres de débouchés]).
 Prohiber ,(emph[par la force]) le produit étranger,
@@ -2073,7 +2068,7 @@ deux lois discordantes qui se heurtent avec tant de violence ;
 mais on ne saurait raisonnablement reprocher
 au fort d’obéir à ces lois en opprimant le faible,
 puisque l’oppression, dans cette hypothèse, est ,(emph[de droit divin])
-et qu’il est contre nature, impossible, contradictoire
+et qu’il est contre nature, impossible, contradictoire,
 que ce soit le faible qui opprime le fort.
 ][
 Aussi, s’il est quelque chose de vain et de ridicule dans le monde,
@@ -2084,7 +2079,7 @@ Il n’y a que les peuples
 qui reconnaissent le principe de la liberté commerciale
 qui soient en droit de s’élever
 contre tout ce qui porte atteinte à cette liberté.
-][
+][,(tag :a :name "beaumarchais_ref")
 Ce n’est pas la seule contradiction
 où nous entraîne la doctrine restrictive.
 Voyez les journaux parisiens.
@@ -2098,7 +2093,7 @@ prêchant ainsi la prohibition à leurs concitoyens et la liberté
 Comment des écrivains qui se respectent
 peuvent-ils se ravaler à de tels enfantillages ?
 et n’est-ce pas le cas de leur demander avec Basile :
-,(emph[Qui donc est-ce que l’on trompe en tout ceci ?])
+,(emph[Qui donc est-ce que l’on trompe en tout ceci ?]) ,(np "beaumarchais" [*])
 ][
 J’ai nommé le Mexique.
 Cette république est un exemple du danger
@@ -2106,7 +2101,7 @@ auquel la prohibition expose la sécurité et l’indépendance des peuples.
 Pour avoir voulu ,(emph[protéger le travail national]),
 la voilà en ce moment en état d’hostilité ouverte
 avec la France, l’Angleterre et l’Union américaine.
-,(--) Elle a exagéré le principe, dit on.
+,(--) Elle a exagéré le principe, dit-on.
 ,(--) Que signifie cela ? Si le principe est bon,
 on n’en saurait faire une application trop absolue.
 ][
@@ -2114,8 +2109,8 @@ Si je voulais démontrer par les faits la connexité qui existe
 entre l’antagonisme commercial et l’antagonisme militaire,
 il me faudrait rappeler l’histoire moderne tout entière.
 Qu’il me soit permis d’en citer l’exemple contemporain le plus remarquable.
-][
-Écoutons Napoléon. Ses paroles, ses actes,
+][,(tag :a :name "bonaparte_ref")
+Écoutons ,(np "bonaparte" [Napoléon]). Ses paroles, ses actes,
 le souvenir des résultats qu’ils ont amenés
 nous en apprendront plus que bien des volumes.
 ][
@@ -2128,7 +2123,7 @@ un renchérissement, ce qui est toujours à l’avantage du commerce.])
 ][
 Voilà donc un système qui est ,(emph[bon])
 parce qu’il ,(emph[doit ruiner]) nos rivaux ;
-qui fait mal son devoir précisément ,(emph[en cela]),(pv)
+qui fait mal son devoir précisément ,(emph[en cela ;])
 qui est par sa nature tout ,(emph[à l’avantage])
 du commerce qu’il a pour objet de ruiner ;
 qui agit donc contrairement à son but.
@@ -2177,8 +2172,8 @@ la guerre se popularisa…
 La lutte n’est devenue périlleuse que depuis lors.
 J’en reçus l’impression en signant le décret.
 Je soupçonnai qu’,(emph[il n’y aurait plus de repos pour moi])
-et que ma vie se passerait à combattre des résistances ! !…..])
-Bonaparte aurait pu ,(emph[soupçonner]) aussi
+et que ma vie se passerait à combattre des résistances !!……])
+,(np "bonaparte" [Bonaparte]) aurait pu ,(emph[soupçonner]) aussi
 qu’il ,(emph[n’y aurait plus de repos]) pour la France.
 ][
 Non-seulement ce principe conduit à la guerre
@@ -2188,12 +2183,12 @@ qu’on a besoin d’entraîner dans le système pour la faire réussir,
 bien qu’il soit dans sa nature, nous l’avons vu,
 de mal faire son devoir ,(emph[en cela]),
 c’est-à-dire de ne pouvoir réussir.
-Écoutons encore Napoléon.
+Écoutons encore ,(np "bonaparte" [Napoléon]).
 ][
 ,(q[Pour que le système continental fût bon à quelque chose,
 il fallait qu’il fût complet.
 je l’avais établi, à peu de chose près, dans le Nord.
-Le Nord était soumis ,(emph[à mes garnisons]),(pv)
+Le Nord était soumis ,(emph[à mes garnisons ;])
 il fallait le faire respecter dans le Midi.
 Je demandai à l’Espagne un passage pour un corps d’armée
 que je voulais envoyer en Portugal.
@@ -2208,7 +2203,7 @@ Entre ces États, la Russie se trouvait dans une situation embarrassante.
 Sa civilisation n’était pas assez avancée
 ,(emph[pour lui permettre de se passer des produits de l’Angleterre]).
 J’avais ,(emph[exigé]) pourtant qu’ils fussent prohibés.
-C’était une ,(emph[absurdité]),(pv)
+C’était une ,(emph[absurdité ;])
 mais elle était indispensable
 ,(emph[pour compléter le système prohibitif]).
 La contrebande se faisait ;
@@ -2223,7 +2218,7 @@ Et c’est là ce que l’école moderne nous donne pour de la politique profond
 Certes, je n’ai pas la folle présomption de contester le génie de l’Empereur ;
 mais enfin, faut-il abjurer le sens commun et humilier sa raison
 devant ce tissu d’absurdités monstrueuses ?
-Bonaparte imagine que l’industrie manufacturière
+,(np "bonaparte" [Bonaparte]) imagine que l’industrie manufacturière
 doit être la ,(emph[tendance générale]) de l’État ;
 qu’il doit, par ses décrets,
 détourner les capitaux et le travail de leur pente naturelle
@@ -2231,7 +2226,7 @@ pour donner ,(emph[une autre impulsion à l’esprit de trafic]).
 Pour cela, il organise
 un système de ,(emph[primes énormes]) en faveur des fabricants
 et fonde le ,(emph[régime prohibitif]).
-Il reconnaît que ce régime ,(emph[fait mal son devoir]),(pv)
+Il reconnaît que ce régime ,(emph[fait mal son devoir ;])
 qu’il produit un renchérissement
 qui ,(emph[tourne à l’avantage]) du commerce anglais,
 qu’il a pour but de ruiner.
@@ -2241,17 +2236,17 @@ guerre à mort avec l’Angleterre.
 Il veut faire respecter son système dans le Midi ;
 guerre à mort avec l’Espagne.
 Il ,(emph[exige]) que la Russie se passe
-de ce dont ,(emph[elle ne peut se passer]),(pv)
+de ce dont ,(emph[elle ne peut se passer ;])
 guerre à mort avec la Russie.
 Enfin la France est envahie deux fois, humiliée, chargée de tributs ;
-Bonaparte est attaché à un rocher, et il s’écrie :
+,(np "bonaparte" [Bonaparte]) est attaché à un rocher, et il s’écrie :
 ,(q[,(emph[Le fait a prouvé en ma faveur !])])
 Poursuivre un but qu’on déclare ,(emph[impossible])
 par des moyens qu’on reconnaît ,(emph[absurdes]),
 tomber dans l’abîme, y entraîner le pays et s’écrier :
 ,(q[Les faits m’ont donné raison,])
-c’est donner au monde le scandale d’un excès d’impéritie,
-en même temps que d’immoralité,
+c’est donner au monde le scandale d’un excès d’impéritie
+en même temps que d’immoralité
 dont l’histoire des plus affreux tyrans ne fournirait pas un autre exemple
 ,(footnote*[ V. au t. IV, les pages 379 et 380. ,(NdEEO)]).
 ][
@@ -2262,7 +2257,7 @@ celles qui ont pour objet de procurer des esclaves
 et d’imposer des croyances religieuses,
 d’augmenter le patrimoine d’une famille princière,
 ne sont plus de notre siècle.
-Aujourd’hui on se bat pour des ,(emph[débouchés]),
+Aujourd’hui on se bat pour des ,(emph[débouchés,])
 et si ce but n’est pas aussi naïvement odieux,
 il est certes plus puéril que les autres.
 On déteste, mais on comprend l’emploi de la force
@@ -2273,10 +2268,10 @@ et cela est si vrai, que, de l’aveu même des partisans du système exclusif,
 le triomphe absolu d’une nation, s’il était possible,
 n’aurait pour résultat commercial que de lui assimiler toutes les autres
 et par conséquent de réaliser la ,(emph[liberté absolue]) du commerce.
-][
-Un nouveau Cinéas serait bien plus fondé à dire
+][,(tag :a :name "cineas_ref")
+Un nouveau ,(np "cineas" [Cinéas]) serait bien plus fondé à dire
 au peuple qui aspirerait, par la conquête, au monopole universel,
-ce que le Cinéas ancien disait à Pyrrhus :
+ce que le ,(np "cineas" [Cinéas]) ancien disait à ,(np "pyrrhus" [Pyrrhus]) :
 ,(q[Que ferez-vous quand vous aurez vaincu l’Italie ?
 ,(--) Je la forcerai à recevoir mes produits en échange des siens.
 ,(--) Et ensuite ?
@@ -2286,8 +2281,8 @@ ce que le Cinéas ancien disait à Pyrrhus :
 les îles de la mer du Sud.
 ,(--) Mais enfin que ferez-vous quand le monde entier sera votre colonie ?
 ,(--) Oh ! alors j’échangerai librement, et jouirai du repos.
-,(--) Et que n’échangez vous d’ores et déjà,
-et ne jouissez de repos en proclamant la liberté ?])
+,(--) Et que n’échangez-vous d’ores et déjà,
+et ne jouissez du repos en proclamant la liberté ?])
 ][
 Je reviens, un peu tard peut-être, à l’objet de ce paragraphe,
 qui n’est pas tant de montrer la liaison
@@ -2295,18 +2290,18 @@ entre l’état de guerre et le système restrictif,
 que de faire voir combien,
 dans les luttes que l’avenir peut réserver aux nations,
 celles qui seront les dernières à s’affranchir
-de ce régime auront assumé de chances défavorable.
+de ce régime auront assumé de chances défavorables.
 ][
 D’abord j’ai déjà prouvé
 que le peuple qui jouira de la liberté du commerce
 nous écrasera de sa concurrence,
-ce qui ne veut pas dire autre chose, sinon qu’il deviendra ,(emph[plus riche]).
-À moins donc de soutenir
+ce qui ne veut pas dire autre chose sinon qu’il deviendra ,(emph[plus riche]).
+A moins donc de soutenir
 que la richesse est indifférente au succès d’une guerre,
 il faut avouer que, sous ce rapport,
-la nation dont le travail languira dans les étreintes de la ,(emph[protection]),
-sera, vis-à-vis de sa rivale, dans des conditions évidentes d’infériorité.
-][
+la nation dont le travail languira dans les étreintes de la ,(emph[protection])
+sera vis-à-vis de sa rivale dans des conditions évidentes d’infériorité.
+][,(tag :a :name "montesquieu_ref")
 Ensuite, de nos jours,
 une guerre entre deux grands peuples entraîne bientôt tous les autres.
 Sous ce rapport encore, tout l’avantage sera
@@ -2321,15 +2316,15 @@ si de part et d’autre la production
 s’est constituée de longue main selon cette donnée,
 il sera impossible à la France de désunir politiquement
 ce qui sera commercialement uni.
-,(q[Le commerce, dit Montesquieu, tend à unir les nations.
+,(q[Le commerce, dit ,(np "montesquieu" [Montesquieu]), tend à unir les nations.
 Si l’une a besoin de vendre, l’autre a besoin d’acheter,
 et toutes les unions sont fondées sur des besoins mutuels.])
 La France courra donc le risque d’avoir,
 à chaque guerre, toute l’Europe sur les bras,
 par ce double motif que l’Europe ne tiendra à nous
-par aucun lien ,(emph[fondé sur des besoins mutuels]),
+par aucun lien ,(emph[fondé sur des besoins mutuels,])
 et qu’elle tiendra à notre rivale par les liens les plus étroits.
-][
+][,(tag :a :name "rousseau_ref")
 Il est vrai, il faut le dire pour être impartial
 et pour qu’on ne m’accuse pas
 de ne considérer les questions que sous un aspect,
@@ -2343,21 +2338,21 @@ qui, n’ayant rien à perdre,
 peut faire beaucoup plus de mal qu’il n’est possible de lui en rendre.
 L’absence de liens a été souvent prise, en politique comme en morale,
 pour de l’indépendance.
-Sous l’influence de cette idée, Rousseau,
+Sous l’influence de cette idée, ,(np "rousseau" [Rousseau]),
 qui aimait à poursuivre un principe dans toutes ses conséquences,
 avait été amené à proscrire,
 comme autant de liens par lesquels on peut nous atteindre,
-d’abord la ,(emph[richesse]),
-ensuite la ,(emph[science]),
-puis la ,(emph[propriété]),
+d’abord la ,(emph[richesse,])
+ensuite la ,(emph[science,])
+puis la ,(emph[propriété,])
 et enfin la ,(emph[société]) elle-même.
 Logicien inflexible, à ses yeux
 le négociant était le type de la dégradation humaine,
 ,(q[parce que, disait-il,
-,(emph[on peut le faire crier à Paris en le touchant dans l’Inde]),(pv)])
+,(emph[on peut le faire crier à Paris en le touchant dans l’Inde ;])])
 au contraire, le type de la perfection était le sauvage :
 il n’est assujetti qu’à la force brute,
-,(q[et après tout, disait Rousseau,
+,(q[et après tout, disait ,(np "rousseau" [Rousseau]),
 ,(emph[si on le chasse d’un arbre, il peut se réfugier sous un autre]).])
 Le philosophe n’a pas vu que, à ce compte, la perfection est dans le néant.
 ][
@@ -2392,9 +2387,9 @@ de leurs sueurs et leurs moyens d’existence ;
 on a vu des armées passer et repasser, tantôt vaincues, tantôt victorieuses,
 sur le théâtre de ces luttes sanglantes,
 sans que le sort des habitants paisibles
-fût complétement ,(XXX :sic) bouleversé.
-Le même progrès tend à se réaliser sur mer :
-,(q[La France légitime, dit M. de Chateaubriand,
+fût complétement bouleversé.
+,(tag :a :name "chateaubriand_ref")Le même progrès tend à se réaliser sur mer :
+,(q[La France légitime, dit ,(np "chateaubriand" [M. de Chateaubriand]),
 conservera éternellement la gloire
 d’avoir interdit l’armement en course,
 d’avoir la première rétabli, sur mer,
@@ -2406,11 +2401,11 @@ est un reste de la piraterie des temps barbares.])
 ][
 Mais n’est-il pas à craindre qu’une puissance belligérante
 qui n’aurait plus de commerce ne refusât d’accéder à une stipulation
-qui, sans pouvoir lui profiter, amoindrirait ses moyens d’agression !
+qui, sans pouvoir lui profiter, amoindrirait ses moyens d’agression ?
 La guerre à la propriété privée, aux matelots,
 aux passagers de tout âge et de tout sexe,
 semble donc être encore une des déplorables nécessités du régime prohibitif.
-N’avons-nous pas vu dernièrement, dans un brochure célèbre,
+N’avons-nous pas vu dernièrement, dans une brochure célèbre,
 recommander, systématiser cette guerre barbare ?
 ][
 Mais ce n’est pas à l’auteur que le reproche doit s’adresser :
@@ -2423,7 +2418,7 @@ nous montre par où nous pouvons attaquer les peuples commerçants,
 sans avoir à craindre de représailles.
 ][
 En 1823, la France avait interdit l’armement en course.
-À Dieu ne plaise que je veuille atténuer la gloire qui lui en revient !
+A Dieu ne plaise que je veuille atténuer la gloire qui lui en revient !
 Mais elle était alors en guerre
 avec une puissance plus dénuée que nous de propriété navale,
 et qui, par ce motif, n’accepta pas ce nouveau droit maritime.
@@ -2444,7 +2439,7 @@ qu’il y a de peuples dont vous interrompez les transactions.
 Et puis, en admettant un plein succès,
 vous arriverez tout au plus à forcer les produits anglais
 à emprunter des navires neutres.
-Vous serez donc entraînés, comme Bonaparte,
+Vous serez donc entraînés, comme ,(np "bonaparte" [Bonaparte]),
 à imposer votre politique à toute l’Europe civilisée.
 ][
 N’oublions pas ces paroles :
@@ -2503,12 +2498,12 @@ Il a été un temps où une nation pouvait en dépouiller une autre,
 non-seulement sans tomber dans le mépris public,
 mais encore en se conciliant l’admiration du monde.
 L’opinion ne flétrissait pas alors le vol,
-pratiqué sur une grande échelle sous le nom de ,(emph[conquête]),(pv)
+pratiqué sur une grande échelle sous le nom de ,(emph[conquête ;])
 et il est même remarquable que,
 bien loin de considérer l’abus de la force
 comme incompatible avec la vraie gloire,
 c’est précisément pour la force, en ce qu’elle a de plus abusif,
-qu’étaient réservés les lauriers, les chants des poëtes ,(XXX :sic)
+qu’étaient réservés les lauriers, les chants des poëtes
 et les applaudissements de la foule.
 ][
 Depuis que la ,(emph[conquête]) devient plus difficile et plus dangereuse,
@@ -2533,7 +2528,7 @@ qu’une faible partie de ce qu’elle arrache aux exploités.
 Si le régime restrictif place sous la sauvegarde des lois
 des actions criminelles,
 et présente comme légitime une manière de s’enrichir
-qui a, avec la spoliation, la plus parfaite analogie,
+qui a avec la spoliation la plus parfaite analogie,
 par une suite nécessaire, il transforme en crimes fictifs
 les actions les plus innocentes,
 et attache des peines afflictives et infamantes
@@ -2564,9 +2559,9 @@ Obéissons à la loi tant qu’elle existe ;
 nommons même, si on le veut, contravention, délit, crime,
 la violation de la loi ;
 mais sachons bien que ce sont là
-des crimes, des délits, des contraventions ,(emph[fictives]),(pv)
-et faisons nos efforts pour faire rentrer,
-dans la classe des actions innocentes,
+des crimes, des délits, des contraventions ,(emph[fictives ;])
+et faisons nos efforts pour faire rentrer
+dans la classe des actions innocentes
 des transactions de droit naturel,
 qui ne sont point criminelles en elles-mêmes,
 mais seulement parce que la loi l’a arbitrairement voulu ainsi.
@@ -2613,9 +2608,9 @@ que cet effort dépravé, auquel on voit quelquefois un peuple se soumettre,
 pour s’inoculer à lui-même des instincts haineux,
 sous le voile d’un faux patriotisme,
 afin de justifier à ses propres yeux
-des entreprises et des agressions,
+des entreprises et des agressions
 dont au fond il ne peut méconnaître l’injustice ?
-On verra ces nations envahir des tribus paisibles,
+On verra ces nations envahir des tribus paisibles
 sous le prétexte le plus frivole,
 porter le fer et le feu dans les pays dont elles veulent s’emparer,
 brûler les maisons, couper les arbres, ravir les propriétés,

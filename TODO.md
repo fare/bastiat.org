@@ -34,6 +34,6 @@ Trucs de Laura que Faré a le droit de regarder
 Trucs de Laura, par Laura et pour Laura
 ---------------------------------------
 
-  * Ajouter tableaux dans: Démocratie et libre-échange; (format image? car gros gros tableau); Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
+  * Ajouter tableaux dans: Question vinicole; Démocratie et libre-échange; (format image? car gros gros tableau); Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
 
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)

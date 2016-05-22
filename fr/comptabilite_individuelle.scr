@@ -38,12 +38,12 @@ Le Trésor public, son compte courant avec M. N.
 (tr(tdLT[Par contribution directe])(tdRT[500])(tdLT[fr.])(tdRT[0])(tdLT[c.]))
 (tr(tdLT[Enregistrement, timbre, domaine])(tdRT[504])(tdLT[])(tdRT[17]))
 (tr(tdLT[Douanes et sels])(tdRT[158])(tdLT[])(tdRT[0]))
-(tr(tdLT[ Forêts et Pèches])(tdRT[30])(tdLT[])(tdRT[10]))
+(tr(tdLT[ Forêts et Pêches])(tdRT[30])(tdLT[])(tdRT[10]))
 (tr(tdLT[Contributions indirectes])(tdRT[206])(tdLT[])(tdRT[67]))
 (tr(tdLT[Postes])(tdRT[39])(tdLT[])(tdRT[0]))
 (tr(tdLT[Produits universitaires])(tdRT[2])(tdLT[])(tdRT[50]))
 (tr(tdLT[Produits divers])(tdRT[21])(tdLT[])(tdRT[87]))
-(tr(tdLT[total])(tdRT[1,162])(tdLT[fr.])(tdRT[31])(tdLT[c.])))
+(tr(tdLT[,(sc[Total])])(tdRT[1,162])(tdLT[fr.])(tdRT[31])(tdLT[c.])))
 (strong[Avoir.])
 (emph[Sommes acquittées dans l’intérét de M. N. :])
 (table
@@ -60,7 +60,7 @@ Le Trésor public, son compte courant avec M. N.
 (tr(tdLT[Indigents, malades, infirmes])(tdRT[1])(tdLT[])(tdRT[10]))
 (tr(tdLT[Secours aux réfugiés])(tdRT[2])(tdLT[])(tdRT[15]))
 (tr(tdLT[Encouragements à l’agriculture])(tdRT[0])(tdLT[])(tdRT[80]))
-(tr(tdRT[aux pèches maritimes])(tdRT[4])(tdLT[])(tdRT[0]))
+(tr(tdRT[aux pêches maritimes])(tdRT[4])(tdLT[])(tdRT[0]))
 (tr(tdRT[aux manufactures])(tdRT[0])(tdLT[])(tdRT[23]))
 (tr(tdLT[Haras])(tdRT[2])(tdLT[])(tdRT[0]))
 ;;; EO: report de la page 484 à la page 485 de 462fr. 28c.
@@ -75,14 +75,15 @@ Le Trésor public, son compte courant avec M. N.
 (tr(tdLT[Marine])(tdRT[114])(tdLT[])(tdRT[0]))
 (tr(tdLT[Colonies])(tdRT[26])(tdLT[])(tdRT[0]))
 (tr(tdLT[Recouvrement de l’impôt et administration])(tdRT[150])(tdLT[])(tdRT[0]))
-(tr(tdLT[total])(tdRT[1,251])(tdLT[fr.])(tdRT[48])(tdLT[c.])))
+(tr(tdLT[,(sc[Total])])(tdRT[1,251])(tdLT[fr.])(tdRT[48])(tdLT[c.])))
 [
 Entre le ,(emph[doit]) 1,162 fr. 31 c. et l’,(emph[avoir]) 1,251 fr. 48 c.,
 la différence est 89, 17.
 ,(--) Ce solde signifie que le Trésor a dépensé
 pour compte de M. N., 89 fr. 17 c. de plus qu’il n’a reçu de lui.
 Mais que M. N. se rassure.
-MM. Rothschild et consorts ont bien voulu faire l’avance de cette somme,
+,(tag :a :name "rothschild_ref")
+MM. ,(np "rothschild" [Rothschild]) et consorts ont bien voulu faire l’avance de cette somme,
 et il suffira à M. N. d’en servir l’intérêt à perpétuité ;
 c’est-à-dire de payer dorénavant 4 à 5 fr. de plus par an.
 ])])
