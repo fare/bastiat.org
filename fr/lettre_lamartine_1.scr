@@ -6,7 +6,7 @@
 	:author (author-FB)
 
 (bastiat[
-,(h3 [À l’occasion de son écrit intitulé : ,(br)
+,(h3 [A l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])
 	,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1845.])
 	,(cher[,(np "lamartine" [Monsieur]),])
@@ -298,27 +298,31 @@ l’,(emph[égoïsme du manufacturier]), en tant que tels,
 comme si les services industriels et les capitaux pouvaient échapper,
 plus que les salaires, aux lois de l’offre et de la demande qui les gouvernent,
 pour se soumettre aux lois du sentiment et de la philanthropie ?
-][
+][,(tag :a :name "fourier_ref")
 Mais je sens le besoin de protester de toutes mes forces
 contre les imputations odieuses que vous faites peser
 sur la tête de tous ces savants illustres,
 dont je rappelais tout à l’heure les noms vénérés.
 Non, la postérité ne ratifiera pas votre arrêt.
 Elle ne mettra pas, comme vous le faites,
-entre Smith et Fourier, entre Say et Enfantin
+entre
+,(np "smith" [Smith]) et 
+,(np "fourier" [Fourier]), entre 
+,(np "say_jb" [Say]) et 
+,(np "enfantin" [Enfantin])
 l’abîme qui sépare la ,(emph[cruauté]) de la simple ,(emph[illusion]).
-Elle ne conviendra pas que le seul tort de Fourier ait été de pousser
+Elle ne conviendra pas que le seul tort de ,(np "fourier" [Fourier]) ait été de pousser
 ,(q[un grand principe jusqu’à l’excès
 et une grande vertu jusqu’à la chimère.])
 Elle ne verra pas dans la ,(emph[promiscuité]) des sexes
 une ,(emph[sublime exagération de l’espérance]).
 Elle ne croira pas la science sociale redevable au fouriérisme
-de ces trois grandes ,(emph[innovations]) :
-,(q[la foi à ,(XXX :sic) l’amélioration indéfinie de l’espèce humaine,
+de ces trois grandes ,(emph[innovations :])
+,(q[la foi à l’amélioration indéfinie de l’espèce humaine,
 le principe de l’association et la charité des masses ;])
 ,(--) parce que la perfectibilité de l’homme,
 conséquence de son principe intelligent,
-a été reconnue longtemps avant Fourier ;
+a été reconnue longtemps avant ,(np "fourier" [Fourier]) ;
 ,(--) parce que l’association est aussi ancienne que la famille ;
 ,(--) parce que la charité des masses,
 de quelque manière qu’on veuille la considérer,
@@ -350,14 +354,14 @@ a l’inconvénient bien plus grave
 d’égarer souvent le lecteur après avoir égaré l’écrivain.
 Mais ce n’est pas la forme que vous attaquez,
 c’est la pensée et même l’intention.
-][
+][,(tag :a :name "alphonse_ref")
 La pensée !
 mais comment l’accuser ?
 Elle peut bien être fausse ;
 elle ne saurait être blâmable, car elle se résume ainsi :
 ,(q(emph[Il y a plus d’harmonie dans les lois divines
 que dans les combinaisons humaines.]))
-Permis à vous de dire comme Alphonse :
+Permis à vous de dire comme ,(np "alphonse" [Alphonse]) :
 ,(q[Ces lois seraient meilleures
 si j’eusse été appelé dans les conseils de Dieu.])
 Mais non, vous ne tenez point ce langage impie.
@@ -384,13 +388,13 @@ il faudrait prouver trois choses :])
 
 	,(liste[
 ,(p*[
-1° Que le libre jeu des forces sociales providentielles
+1° Que le libre jeu des forces sociales providentielles
 est funeste à l’humanité ;
 ][
-2° Qu’il est possible d’en paralyser l’action
+2° Qu’il est possible d’en paralyser l’action
 par la substitution de forces arbitraires ;
 ][
-3° Que les économistes repoussent celles-ci
+3° Que les économistes repoussent celles-ci
 en parfaite connaissance de leur prétendue supériorité sur celles-là.])
 	])
 
@@ -415,7 +419,7 @@ comme s’il pouvait y avoir une géométrie russe,
 une mécanique hollandaise, une anatomie espagnole
 et une économie française ou anglaise ;
 y a-t-il, dis-je, dans cette école,
-des hommes qui, comme les prohibitionnistes, ,(XXX :sic)
+des hommes qui, comme les ,(emph[prohibitionistes,])
 aient proclamé leurs doctrines pour abuser les esprits
 et bénéficier par l’erreur commune sciemment et volontairement répandue ?
 Non, vous n’en citeriez pas un seul.
@@ -424,7 +428,7 @@ n’a offert le spectacle d’autant de dignité,
 de modération, de dévouement au bien public ;
 et si vous voulez y réfléchir,
 vous comprendrez qu’il devait en être ainsi.
-][
+][,(tag :a :name "laplace_ref")
 Dans le ,(XVIIIe) siècle,
 quand l’astronomie n’était pas parvenue
 au point où elle est arrivée de nos jours,
@@ -435,17 +439,17 @@ et l’on se hâta de conclure
 que les premières s’enfonçaient de plus en plus
 dans les profondeurs glacées de l’espace,
 que les secondes allaient s’engloutir dans la matière incandescente du soleil.
-Laplace vint, il soumit ces prétendues aberrations au calcul,
+,(np "laplace" [Laplace]) vint, il soumit ces prétendues aberrations au calcul,
 il démontra que si les planètes s’écartaient de leur orbite,
 la force qui les y rappelait s’augmentait
 en raison de cet éloignement même :
-,(q[Par la toute-puissance d’une formule, mathématique, dit M. Arago,
+,(q[Par la toute-puissance d’une formule mathématique, dit ,(np "arago" [M. Arago]),
 le monde matériel se trouva raffermi sur ses fondements.])
 Pense-t-on que celui qui découvrit et mesura cette belle harmonie
 eût volontiers consenti, dans un intérêt personnel,
 à troubler ces admirables lois de la gravitation ?
-][
-L’économie des sociétés a eu aussi ses Laplace.
+][,(tag :a :name "bonaparte_ref")
+L’économie des sociétés a eu aussi ses ,(np "laplace" [Laplace]).
 S’il y a des perturbations sociales,
 ils ont aussi constaté l’existence de forces providentielles
 qui ramènent tout à l’équilibre,
@@ -458,7 +462,7 @@ et répugner plus que les autres hommes à tout ce qui peut la troubler.
 Aussi n’a-t-on jamais vu, que je sache,
 les séductions de l’intérêt privé balancer
 dans leur c,(oe)ur cet éternel objet de leur admiration et de leur amour.
-Bonaparte s’en étonna.
+,(np "bonaparte" [Bonaparte]) s’en étonna.
 Peu habitué à de telles résistances,
 il les honora du titre de ,(emph[niais]),
 parce qu’ils refusaient leur concours à sa mission d’arbitraire,
@@ -555,8 +559,8 @@ Vous reprochez à l’école ,(emph[libérale]) d’être cruelle,
 et dès lors vous empruntez à l’école arbitraire
 la ,(q[chaleur de sa charité]).
 ,(--) Voilà la généralité, voici l’application.
-][
-Vous accusez les économistes d’,(emph[interdire le mariage]),
+])
+,(liste(p*[Vous accusez les économistes d’,(emph[interdire le mariage]),
 de ,(emph[conseiller la stérilité]),
 ,(--) et par opposition, vous voulez
 que ,(emph[l’État adopte les enfants orphelins ou trop nombreux]).
@@ -566,12 +570,12 @@ Vous accusez les économistes de ,(emph[proscrire et de railler l’aumône]),
 ,(emph[l’État s’interpose entre les masses et leurs misères]).
 ][
 Vous accusez les économistes de dire aux prolétaires
-,(q(emph[Travaillez ou mourez])),
+,(q(emph[Travaillez ou mourez,]))
 ,(--) et par opposition,
 vous voulez que la société proclame
 le ,(emph[droit au travail]), le ,(emph[droit de vivre]).
-][
-Examinons ces trois antithèses, que j’aurais pu multiplier ;
+]))
+,(p*[Examinons ces trois antithèses, que j’aurais pu multiplier ;
 cela suffira pour reconnaître s’il est possible de ramasser ainsi
 des dogmes dans des écoles opposées
 et d’accomplir entre eux une solide alliance.
@@ -603,7 +607,7 @@ il recueille la récompense ou le châtiment de ses actions,
 selon qu’elles sont ou ne sont pas conformes aux lois de son être ;
 ,(--) parce qu’il est intelligent,
 sa volonté et par suite ses actes se perfectionnent sans cesse,
-ou par la lumière de la prévoyance ou par les leçons fatales de l’expérience.
+ou par la lumière de la prévoyance ou par les leçons fatales de l’expérience.])
 ,(--) C’est un ,(emph[fait])
 que les hommes, comme tous les êtres qui ont vie,
 peuvent se multiplier au-delà de leurs moyens actuels de subsistance.
@@ -611,13 +615,13 @@ C’est un autre ,(emph[fait]) que lorsque l’équilibre est rompu
 entre le nombre des hommes et les ressources qui font vivre,
 il y a malaise et souffrance dans la société.
 ,(--) Donc, il n’y a pas d’autre alternative :
-il faut ,(emph[prévoir]) pour que l’équilibre se maintienne ;
+il faut ,(emph[prévoir]) pour que l’équilibre se maintienne,
 ou ,(emph[souffrir]) pour qu’il se rétablisse.
 Nous concluons qu’il est à désirer que la population,
 prise en masse, ne suive pas une progression trop rapide,
 et pour cela, que les individus qui la composent
 n’entrent dans l’état du mariage
-qu’autant qu’ils ont la chance probable de pouvoir entretenir une famille,
+qu’autant qu’ils ont la chance probable de pouvoir entretenir une famille.
 ,(--) Et comme les hommes sont libres, comme nous n’admettons pas
 de législation coercitive ou restrictive en cette matière,
 nous nous adressons à leur raison, à leurs sentiments, à leur bon sens.
@@ -635,14 +639,13 @@ la société a plus d’enfants qu’elle n’en peut nourrir :
 elle ,(emph[souffre])
  car l’homme n’est pas seulement soumis
 à la loi de la ,(emph[responsabilité]),
-mais encore à celle de la ,(emph[solidarité]) ;
+mais encore à celle de la ,(emph[solidarité ;])
 et c’est pour cela que les économistes s’attachent
 à exposer toutes les conséquences fatales
 de la multiplication désordonnée des êtres humains,
 afin que l’opinion intervienne avec son action toute puissante,
 car ils croient sincèrement que, contre ce terrible phénomène,
-la société n’a que cette alternative, la prévoyance ou la souffrance.])])
-,(XXX :EO [pas de fin de qs])
+la société n’a que cette alternative, la prévoyance ou la souffrance.])
 ][
 Mais vous, monsieur, vous lui apportez un expédient.
 Vous ne pensez pas qu’elle doit prévoir pour ne pas souffrir,
@@ -675,7 +678,7 @@ elle perdra sa moralité,
 il n’y aura plus rien en elle qui l’explique et la justifie,
 et c’est alors que l’homme pourra sans blasphémer
 dire à l’auteur des choses :
-,(q[À quoi sert le mal sur la terre, puisqu’il n’a pas de cause finale ?])
+,(q[A quoi sert le mal sur la terre, puisqu’il n’a pas de cause finale ?])
 ][
 On peut faire sur la charité les mêmes remarques.
 D’abord, jamais la science économique
@@ -715,7 +718,7 @@ d’un auteur trop peu connu et trop peu consulté en ces matières :
 ])
 
 ,(blockquote*
-(p*[« Il est plusieurs genres de vices, dit M. Charles Comte,
+(p*[,(tag :a :name "comte_ref")« Il est plusieurs genres de vices, dit ,(np "comte" [M. Charles Comte]),
 dont le principal effet est de produire la misère
 pour celui qui les a contractés.
 Une institution qui a pour objet de mettre à l’abri de la misère
@@ -785,7 +788,7 @@ puisait par-dessous de quoi verser par-dessus ;
 ou comme un médecin qui, pour donner des forces au malade,
 introduirait dans le bras droit le sang qu’il aurait tiré au bras gauche.
 ][
-À nos yeux, dans l’hypothèse extrême où l’on nous force de raisonner,
+A nos yeux, dans l’hypothèse extrême où l’on nous force de raisonner,
 de tels expédients ne sont pas seulement inefficaces,
 ils sont essentiellement nuisibles.
 L’État ne déplace pas seulement les capitaux,
@@ -834,7 +837,7 @@ ne comptait pas sur les prix factices et variables de la ,(emph[protection]),
 une des formes émanées de la théorie de l’,(emph[arbitraire]).
 ][
 Vous proclamez le ,(emph[droit au travail]),
-vous l’érigez en ,(emph[principe]) ,(pv)
+vous l’érigez en ,(emph[principe ;])
 mais, en même temps, vous montrez peu de foi dans ce principe.
 Voyez en effet dans quelles étroites limites vous circonscrivez son action.
 Ce droit au travail ne pourra être invoqué que
@@ -904,17 +907,17 @@ demander qu’il ne touche ,(q[ni au travail ni à la conscience,])
 et exiger en même temps ,(q[qu’il prodigue l’instruction,
 qu’il colonise, qu’il adopte les enfants trop nombreux,
 qu’il s’interpose entre les masses et leurs misères.])
-Si vous lui contiez ces tâches multipliées et délicates,
+Si vous lui confiez ces tâches multipliées et délicates,
 vous l’agrandissez outre mesure ;
 vous lui conférez une mission qui n’est pas la sienne ;
 vous substituez ses combinaisons à l’économie des lois sociales ;
 vous le transformez en
-,(q[Providence qui ne voit pas seulement mais qui prévoit]) ,(pv)
+,(q[Providence qui ne voit pas seulement mais qui prévoit]) ;
 vous le mettez à même de prélever et de distribuer d’énormes impôts ;
 vous le rendez l’objet de toutes les ambitions, de toutes les espérances,
 de toutes les déceptions, de toutes les intrigues ;
 vous agrandissez démesurément ses cadres,
-vous transformez la nation en employés ;
+vous transformez la nation en employés,
 en un mot vous êtes sur la voie
 d’un fouriérisme bâtard, incomplet et illogique.
 ][
@@ -925,12 +928,12 @@ Embrassez dans votre vaste intelligence
 et ses lois, et son action, et ses phénomènes,
 et les causes qui la troublent, et les forces réparatrices qui sont en elle.
 Inscrivez sur votre bannière :
-,(q(emph[Société libre, gouvernement simple])), ,(XXX :EO 'in)
+,(q(emph[Société libre, gouvernement simple,])) ,(XXX :jde ". Ces idées sont corrélatives…")
 ,(--) idées corrélatives et pour ainsi dire consubstantielles.
 Cette bannière, les partis la repousseront peut-être ;
 mais la nation l’embrassera avec transport.
 Mais effacez-y jusqu’à la dernière trace de cette devise :
-,(q(emph[Société contrainte, gouvernement compliqué])). ,(XXX :EO 'in)
+,(q(emph[Société contrainte, gouvernement compliqué.]))
 ,(--) Des mesures exceptionnelles, applicables dans des circonstances rares,
 dans des cas extrêmes et d’une utilité après tout fort contestable,
 ne sauraient longtemps contrebalancer dans votre esprit
@@ -941,9 +944,9 @@ Proclamez donc la liberté :
 liberté de travail, liberté d’échanges,
 liberté de transactions pour ce pays et pour tous les pays,
 pour cette époque et pour toutes les époques.
-À ce prix, j’ose vous promettre sinon la popularité du jour, du
+A ce prix, j’ose vous promettre sinon la popularité du jour, du
 moins la popularité et les bénédictions des siècles.
-Un grand homme s’est emparé de ce rôle en Angleterre.
+,(tag :a :name "cobden_ref")Un grand homme s’est emparé de ce rôle en Angleterre.
 Il n’y a pas de jour dans l’année,
 il n’y a pas d’heure dans le jour
 où on ne le voie exposer aux yeux des masses
@@ -960,7 +963,7 @@ pour balancer l’influence des écoles arbitraires
 et neutraliser les efforts des prohibitionnistes,
 des faux philanthropes et de l’aristocratie.
 ,(--) la liberté ! ,(--) voilà le principe qui va régner à nos portes ;
-et un homme, M. Cobden,
+et un homme, ,(np "cobden" [M. Cobden]),
 aura été l’instrument de cette grande et paisible révolution.
 Oh ! puisse vous être réservée une semblable destinée,
 dont vous êtes si digne !])

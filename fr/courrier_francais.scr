@@ -5,7 +5,7 @@
 (document :title "A M. le rédacteur du Courrier français"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Courrier français]) du 11 avril 1846.])
+,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 11 avril 1846.])
 ,(p*[
 J’ai toujours trouvé fort hardi, presque impertinent, l’usage d’attribuer le langage d’un journal au personnage qu’on suppose en être le patron, et de se servir de ces locutions : ,(emph[M. Guizot dit ; — M. Thiers affirme ; — M. de Metternich nous répond]), — et cela à propos d’un ,(emph[premier Paris]) dont il est plus que probable que ces illustres patrons n’ont eu aucune connaissance. Ce n’est pas que j’aie la simplicité d’ignorer, tout villageois que je suis, les liens qui attachent certaines feuilles à certains hommes politiques ; mais, je le répète, la formule banale dont je parle me semble renfermer une double insulte ; elle dit au patron qu’on interpelle : Tu n’as pas le courage d’avouer tes paroles ! — et au client supposé : Tu n’es qu’un commis à gages !
 ][
@@ -63,7 +63,9 @@ Mais une taxe n’infirme pas plus le principe de la liberté commerciale, qu’
 ][
 Entre associés, il n’y a qu’un lien possible : ,(emph[la communauté du principe]). — ,(emph[Pas de protection !]) Voilà notre mot de ralliement. — Que le législateur ramène le tarif à sa destination originaire, qui est de prélever sur tous une taxe qui profite à tous. Mais nous ne voulons pas de taxes qui, sans rentrer au trésor, pèsent sur le grand nombre pour profiter au petit nombre. Attachons-nous à ce principe, ne nous en laissons jamais séparer. C’est un rocher inébranlable qui repose sur deux bases éternelles : la justice et la vérité.
 ])])
-(footer[,(oeuvres)])
+(footer[,(oeuvres)
+,(art_cf)
+])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
 ,(cite-title[A M. le rédacteur du Courrier français]),

@@ -76,7 +76,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(journal "censeur" "Le Censeur européen" [
 ,(p*[Simples allusions : ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
 ,(ref :url "lettre_coudroy1827a.html#censeur_ref" [9 avril 1827]) ;
-,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [Lettre à H. Say, 24 novembre 1844])
+,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [Lettre à H. Say, 24 novembre 1844]) ;
+,(ref :url "lettre_dunoyer.html#censeur_ref" [Lettre à Dunoyer, 7 mars 1845])
 ])
 ])
 
@@ -85,8 +86,9 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ])
 
 ,(journal "courrier" "Le Courrier français" [
-,(p*[Articles publiés dans le — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
-,(ref :url "a_la_presse2.html" [II])])
+,(p*[,(ref :url "journaux_cf.html" [Articles publiés dans le — :])
+,(ref :url "lettre_cobden1846g.html#cf_ref" [Lettre à Cobden, 11 avril 1846])
+])
 ])
 
 ])
@@ -133,6 +135,9 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(ref :url "lettre_coudroy1844a.html#je_ref" [26 juillet 1844]) ;
 ,(ref :url "lettre_cobden1844.html#je_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
 ,(ref :url "lettre_horace_say1844.html#je_ref" [Lettre à H. Say, 24 novembre 1844]) ;
+,(ref :url "lettre_dunoyer.html#censeur_ref" [Lettre à Dunoyer, 7 mars 1845]) ;
+,(ref :url "lettre_cobden1845a.html#je_ref" [Lettre à Cobden, 8 avril 1845]) ;
+,(ref :url "lettre_cobden1846f.html" [Lettre à Cobden, 2 avril 1846]) ;
 ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])])
 
@@ -140,18 +145,23 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ,(journal "le" "Le Libre-Échange" [
 ,(p*[,(ref :url "journaux_le.html" [Articles publiés dans ce journal.])]
-[Simples allusions : ,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])])
+[Simples allusions :
+,(ref :url "lettre_cobden1846f.html#le_ref" [Lettre à Cobden, 2 avril 1846]) ;
+,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848])])
 ])
 
 ,(journal "ligue" "La Ligue" [
-,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844])
+,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
+,(ref :url "lettre_cobden1846f.html#ligue_ref" [Lettre à Cobden, 2 avril 1846]) ;
 ])
 
 ]),(lettre "M" [
 
 ,(journal "mb" "Mémorial bordelais" [
 ,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])]
-[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834])])
+[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834]),
+,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846])
+])
 ])
 
 ,(journal "mi" "Moniteur industriel" [
@@ -160,11 +170,14 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ]
 [Citations :
 ,(ref :url "la_main_droite_et_la_main_gauche.html#mi_ref" [La main droite et la main gauche])
+,(ref :url "theorie_du_benefice.html#mi_ref" [Théorie du bénéfice])
 ]
 [Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes]) ; ,(ref :url "conseil_inferieur_du_travail.html#mi_ref" [Conseil inférieur du travail]) ;
 ,(ref :url "conte_chinois.html#mi_ref" [Conte chinois]) ;
 ,(ref :url "autre_chose.html#mi_ref" [Autre chose])
-])])
+])
+,(ref :url "question_conseils_generaux.html#mi_ref" [Une question soumise aux conseils généraux…]) ;
+])
 
 ,(journal "mu" "Moniteur universel" [
 ,(ref :url "sel_poste_douane.html#mu_ref" [Le sel, la poste, la douane])
@@ -184,8 +197,14 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(p*
 [Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
 ,(ref :url "a_la_presse2.html" [II])]
-[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
-,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste])
+[Réponses :
+,(ref :url "ligues_anglaise_allemande.html" [La Ligue anglaise et la Ligue allemande])
+]
+[Simples allusions :
+,(ref :url "question_conseils_generaux.html#presse_ref" [Une question soumise aux conseils généraux…]) ;
+,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
+,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste]) ;
+,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846])
 ])])
 
 ,(journal "punch" "The Punch" [

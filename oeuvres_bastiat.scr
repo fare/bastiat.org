@@ -897,8 +897,8 @@
 	(lettre_dampierre :date "1846-07-03" :lettre (:de bastiat :a dampierre) :oc1862 (:tome 7 :n 72 :p 300))
 	(lettre_ecclesiastique :date "1848-03-28" :titre "Lettre à un ecclésiastique" :lettre (:de bastiat :a x :lieu mugron) :journal (:titre eb :date "1860-01-14") :oc1862 (:tome 7 :n 78 :p 351))
 	(lettre_laurence :date "1844-11-09" :lettre (:de bastiat :a laurence :lieu mugron) :oc1862 (:tome 7 :p 369))
-	(lettre_dunoyer :date "1845-03-07" :lettre (:de bastiat :a dunoyer :lieu mugron) :oc1862 (:tome 7 :p 371))
 	(lettre_lamartine_3 :date "1845-03-07" :lettre (:de bastiat :a lamartine :lieu mugron) :oc1862 (:tome 7 :p 373))
+	(lettre_dunoyer :date "1845-03-07" :lettre (:de bastiat :a dunoyer :lieu mugron) :oc1862 (:tome 7 :p 371))
 	(lettre_paulton :date "1845-07-29" :lettre (:de bastiat :a paulton :lieu paris) :oc1862 (:tome 7 :p 374))
 	(lettre_domenger1848a :date "1848-03-04" :lettre (:de bastiat :a domenger :lieu paris) :oc1862 (:tome 7 :p 385))
 	(lettre_domenger1848b :date "1848-09-03" :lettre (:de bastiat :a domenger :lieu paris) :oc1862 (:tome 7 :p 386))
@@ -1235,20 +1235,20 @@
 	(lettre13 :date "1850-02-11" :journal (:titre vp) :de proudhon :livre (:titre gratuite_du_credit :ch 13) :oc1862 (:tome 5 :p 290))
 	(honnetete_proudhon :post "1850-03" :lettre (:de bastiat) :oc1862 (:tome 5 :p 296))
 	(lettre14 :date "1850-03-07" :journal (:titre vp) :livre (:titre gratuite_du_credit :ch 14) :oc1862 (:tome 5 :p 312))
-	(aux_artisans_et_ouvriers :date "1846-09-18" :journal (:titre cf) :titre "Aux artisans et ouvriers" :livre (:titre sophismes2 :ch 6) :oc1862 (:tome 4 :p 173))
-	(le_commerce :date "1846-04-01" :journal (:titre cf) :titre "Qu’est-ce que le commerce ?" :oc1862 (:tome 7 :n 14 :p 63))
-	(courrier_francais :date "1846-04-11" :journal (:titre cf) :titre "A M. le rédacteur du Courrier français" :oc1862 (:tome 7 :n 16 :p 71))
-	(toast :date "1846-08-19" :journal (:titre cf) :titre "Toast au banquet offert à Cobden par les libre-échangistes de Paris" :oc1862 (:tome 7 :n 26 :p 122))
-	(a_la_presse :date "1846-08-22" :journal (:titre cf) :titre "A M. le rédacteur en chef de la Presse" :oc1862 (:tome 7 :n 32 :p 143))
-	(a_la_presse2 :date "1846-09-02" :journal (:titre cf) :titre "A M. le rédacteur en chef de la Presse" :oc1862 (:tome 7 :n 33 :p 148))
-	(loi_des_cereales_salaire :date "1846-08-24" :journal (:titre cf) :titre "La loi des céréales et le salaire des ouvriers" :oc1862 (:tome 7 :n 27 :p 125))
-	(au_moniteur_industriel :date "1846-08-29" :journal (:titre cf) :titre "Lettre au Moniteur industriel" :oc1862 (:tome 7 :n 28 :p 128))
-	(au_national :date "1846-11-10" :journal (:titre cf) :titre "A M. le rédacteur en chef du National" :oc1862 (:tome 7 :n 34 :p 152))
-	(au_national2 :date "1846-11-11" :journal (:titre cf) :titre "A M. le rédacteur en chef du National" :oc1862 (:tome 7 :n 35 :p 159))
+	(aux_artisans_et_ouvriers :date "1846-09-18" :journal (:titre cf :date "1846-09-18") :titre "Aux artisans et ouvriers" :livre (:titre sophismes2 :ch 6) :oc1862 (:tome 4 :p 173))
+	(le_commerce :date "1846-04-01" :journal (:titre cf :date "1846-04-01") :titre "Qu’est-ce que le commerce ?" :oc1862 (:tome 7 :n 14 :p 63))
+	(courrier_francais :date "1846-04-11" :journal (:titre cf :date "1846-04-11") :titre "A M. le rédacteur du Courrier français" :oc1862 (:tome 7 :n 16 :p 71))
+	(toast :date "1846-08-19" :journal (:titre cf :date "1846-08-19") :titre "Toast au banquet offert à Cobden par les libre-échangistes de Paris" :oc1862 (:tome 7 :n 26 :p 122))
+	(a_la_presse :date "1846-08-22" :journal (:titre cf :date "1846-08-22") :titre "A M. le rédacteur en chef de la Presse" :oc1862 (:tome 7 :n 32 :p 143))
+	(a_la_presse2 :date "1846-09-02" :journal (:titre cf :date "1846-09-02") :titre "A M. le rédacteur en chef de la Presse" :oc1862 (:tome 7 :n 33 :p 148))
+	(loi_des_cereales_salaire :date "1846-08-24" :journal (:titre cf :date "1846-09-02") :titre "La loi des céréales et le salaire des ouvriers" :oc1862 (:tome 7 :n 27 :p 125))
+	(au_moniteur_industriel :date "1846-08-29" :journal (:titre cf :date "1846-08-29") :titre "Lettre au Moniteur industriel" :oc1862 (:tome 7 :n 28 :p 128))
+	(au_national :date "1846-11-10" :journal (:titre cf :date "1846-11-10") :titre "A M. le rédacteur en chef du National" :oc1862 (:tome 7 :n 34 :p 152))
+	(au_national2 :date "1846-11-11" :journal (:titre cf :date "1846-11-11") :titre "A M. le rédacteur en chef du National" :oc1862 (:tome 7 :n 35 :p 159))
 	(refugies_polonais :date "1834-01-30" :titre "D’une pétition en faveur des réfugiés polonais" :oc1862 (:tome 7 :n 1 :p 1))
 	(nouveau_college :date "1834-11-01" :titre "D’un nouveau collége à fonder à Bayonne" :oc1862 (:tome 7 :n 2 :p 4))
 	(duels :date "1838-02-11" :journal (:titre chalosse) :titre "Réflexions sur la question des duels" :oc1862 (:tome 7 :n 3 :p 10))
-	(lettre_coudroy_vol7 :date "1845-06-02" :lettre (:de bastiat :a coudroy) :oc1862 (:tome 7 :p 10))
+	(lettre_coudroy_vol7 :date "1845-06-10" :lettre (:de bastiat :a coudroy) :oc1862 (:tome 7 :p 10))
 	(liberte_du_commerce :date "1844-03-15" :titre "Liberté du commerce" :oc1862 (:tome 7 :n 4 :p 14))
 	(questions_conseils_generaux :date "1845-12-16" :titre "D’autres questions soumises aux conseils généraux" :oc1862 (:tome 7 :n 5 :p 20))
 	(projet_discours_bayonne :post "1847-08" :titre "Projet de discours à prononcer à Bayonne" :oc1862 (:tome 7 :n 38 :p 178))
@@ -1294,7 +1294,7 @@
 	(impot_foncier_landes :date "1844-10-15" :titre "De la répartition de la contribution foncière dans le département des Landes" :oc1862 (:tome 1 :p 283))
 	(livre_dunoyer :date "1845-06-01" :titre "Sur un livre de M. Dunoyer" :oc1862 (:tome 1 :p 428))
 	(pdfe1846 :date "1846-07-01" :titre "A MM. les électeurs de l’arrondissement de Saint-Sever" :oc1862 (:tome 1 :p 461))
-	(lettre_larnac :date "1846" :titre "De la réforme parlementaire" :oc1862 (:tome 1 :p 480))
+	(lettre_larnac :date "1846-07-05" :titre "De la réforme parlementaire" :oc1862 (:tome 1 :p 480))
 	(pdfe1848 :date "1848-03-22" :titre "Aux électeurs des Landes" :oc1862 (:tome 1 :p 506))
 	(pdfe1849 :date "1849-04-29" :titre "A Messieurs Tonnelier, Degos, Bergeron, Camors, Dubroca, Pomède, Fauret, etc." :oc1862 (:tome 1 :p 507))
 	(discours_1 :date "1846-02-23" :titre "Discours à Bordeaux" :oc1862 (:tome 2 :n 42 :p 229))
@@ -1308,4 +1308,106 @@
 	(ligue_34 :livre (:titre cobden_ligue :ch 34 :date "1848-01-25") :titre "Grand meeting à Manchester" :oc1862 (:tome 3 :p 463))
 	(ligue_36 :livre (:titre cobden_ligue :ch 36) :journal (:titre jde :date "1850-02-15") :titre "Réforme coloniale en Angleterre" :oc1862 (:tome 3 :p 497))
 	(ligue_37 :livre (:titre cobden_ligue :ch 37) :journal (:titre jde :date "1850-04-15") :titre "Plan de lord John Russell" :oc1862 (:tome 3 :p 508))
+	(cobden_ligue :date "1845-06-17")
 ))
+
+;;; Les super fonctions relatives à bastiat-db
+
+(defun filter-bastiat-db (fun)
+  (remove-if-not
+   (lambda (x)
+     (handler-case
+   (apply fun x)
+       (error (c)
+   (error "Error while filtering bastiat-db entry: ~S.~%Entry: ~S~%"
+    c x))))
+   bastiat-db))
+
+(defmacro filtering-bastiat-db (&body body)
+  `(filter-bastiat-db
+    (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date id)) ,@body)))
+
+(defun text-id (x) (first x))
+(defun text-date (x) (getf (rest x) :date))
+(defun text-livre (x) (getf (rest x) :livre))
+(defun text-titre (x) (getf (rest x) :titre))
+(defun text-chapter (x) (getf (text-livre x) :ch))
+(defun text-journal (x) (getf (rest x) :journal))
+(defun text-journaltitre (x) (getf (text-journal x) :titre))
+(defun text-journaldate (x) (getf (text-journal x) :date))
+(defun text-lettre (x) (getf (rest x) :lettre))
+(defun text-lettrea (x) (getf (text-lettre x) :a))
+
+(defun precedent (item list &key (test 'string-equal) (key 'first))
+  (loop :for precedent = nil :then courant :for courant :in list
+    :when (funcall test item (funcall key courant))
+    :return precedent))
+
+(defun suivant (item list &key (test 'string-equal) (key 'first))
+  (loop :for (courant suivant) :on list
+    :when (funcall test item (funcall key courant))
+    :return suivant))
+
+
+(defun precedent-texte (list)
+     (string-downcase (text-id (precedent (pathname-name (current-lisp-file-pathname)) list))))
+
+(defun suivant-texte (list)
+     (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
+
+;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
+;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
+;(sort ma-liste 'string< :key 'text-date)
+;(sort ma-liste '< :key 'text-chapter)
+;(uiop:current-lisp-file-pathname)
+
+
+;titre du document courant
+(define (titre-courant)
+(text-titre (first (filtering-bastiat-db (equalp (pathname-name (current-lisp-file-pathname)) (string-downcase id)))))
+)
+
+
+; Définition des sous-listes
+
+(defparameter serie_chronologique
+ (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date))
+
+(defparameter correspondance
+ (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date))
+(defparameter lettres_a_arrivabene
+ (sort (filtering-bastiat-db (member 'arrivabene lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_calmetes
+ (sort (filtering-bastiat-db (member 'calmetes lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_cheuvreux
+ (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date))
+(defparameter lettres_a_cobden
+ (sort (filtering-bastiat-db (member 'cobden lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_coudroy
+ (sort (filtering-bastiat-db (member 'coudroy lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_domenger
+ (sort (filtering-bastiat-db (member 'domenger lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_paillottet
+ (sort (filtering-bastiat-db (member 'paillottet lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_say
+ (sort (filtering-bastiat-db (member 'say_h lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_schwabe
+ (sort (filtering-bastiat-db (or (member 'mmeschwabe lettre) (member 'mschwabe lettre))) 'string< :key 'text-date))
+
+(defparameter articles
+ (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date))
+(defparameter articles_le
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate))
+(defparameter articles_jde
+ (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journaldate))
+(defparameter articles_mb
+ (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journaldate))
+(defparameter articles_cf
+ (sort (filtering-bastiat-db (member 'cf journal)) 'string< :key 'text-journaldate))
+
+(defparameter harmonies_eco
+ (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
+(defparameter credit
+ (sort (filtering-bastiat-db (member 'gratuite_du_credit livre)) '< :key 'text-chapter))
+(defparameter cobdenligue
+ (sort (filtering-bastiat-db (member 'cobden_ligue livre)) '< :key 'text-chapter))

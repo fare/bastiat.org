@@ -128,11 +128,12 @@ sup {line-height: 0;}
 .bastiat, .other {
 	width: 58%;
 	min-width: 20em;
-	margin: auto;
+	margin: 0 auto;
 	font-size: 1.2em; /*1.2*/
 	/*line-height: 1.8em;*/ /*1.8*/
 	background: white;
-	padding: 2em 3em 2em 3em;
+	/*padding: 8em 3em 2em 3em;*/
+	padding: 3em 3em 2em 3em;
 }
 
 @media only screen and (max-width: 25cm) {
@@ -158,6 +159,7 @@ sup {line-height: 0;}
 	font-size: 1.3em;
 }
 h2 sup, h2 i {font-variant: normal;}
+i i, i em, em em, em i {font-style: normal;}
 h2 i {font-weight: bold;}
 
 h3 {
@@ -201,7 +203,8 @@ h3 {
 	text-align: right;
 	font-family: 'paratexte', sans-serif;
 	font-style: italic;
-	padding-top: 2em;
+	padding-top: 1em;
+	margin-top: 2em;
 	user-select: none;
 	-webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -342,50 +345,108 @@ table.vers {
 .footer {
 bottom: 0;
 height: 3.5em; min-height:1cm;
-background-color: rgba(255,255,255,0.8); /*#9c0;*/
-background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));
+background-color: rgba(230,255,50,1); /*#9c0;*/
+/*background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));*/
+opacity: 0.7;
+transition: opacity 200ms;
+}
+@media only screen and (max-width: 25cm) {
+	.footer {
+		opacity: 0.9;
+	}
+}
+
+.footer:hover {opacity: 1;}
+
+.footer:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .3s ease-in-out;
+} 
+
+.footer {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .3s ease-in-out;
+}
+.footer a:visited, .footer a:link {
+	text-decoration: none;
+	color: #925;
+	font-weight: bold;
+	padding: 0;
+
+}
+
+.footer a:hover {
+	color: #7a0;
+	text-shadow: 1px 1px 0 #ff0;
 }
 
 .header {
 top: 0;
-height: 3em;
-background-color: #cf0;
-color: #000;
+background-color: #ad0;
+color: #fff;
 display: flex;
 justify-content: center;
-background: linear-gradient(to bottom, rgba(230,200,255,1), rgba(230,200,255,0.8));
+/*height:8em;*/ height: 5em;
+transition: height 600ms, background-color 500ms;
+
 }
 
+.tiny {
+height:2em;
+background-color: #9c0;
+border-bottom: solid 2px #888;
+}
+.tiny .auteur {display: none;}
+
 .header .titre {
-font-size: 1.5em;
-/*position: absolute;
- top: 50%; left: 50%;
- transform: translate(-50%,-50%);*/ /*Façon alternative de centrer verticalement,
+font-size: 2em;
+position: absolute;
+ top: 25%; left: 50%;
+ transform: translate(-50%,-50%); /*Façon alternative de centrer verticalement,
  je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
- align-self: center;
+ /*align-self: center;*/
+ /*position: relative; top: -1em;*/
  font-weight: bold;
- text-shadow: 1px 1px 0px #fff;
+ text-shadow: 1px 1px 0px #555;
+ transition: font-size 300ms, top 300ms;
+}
+.tiny .titre {
+	font-size: 1.3em;
+top: 50%;
+text-shadow: none;
 }
 
 .header .auteur {
 font-style: italic;
-margin: auto;
+font-size: 1.5em;
+position: absolute;
+ top: 70%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.header .url_bo {
+	display: block;
+	font-family: monospace;
+	position: absolute;
+ height: 1.5em;
+ padding: 0.8em;
+ top: 0; left: 0;
+}
+.url_bo:hover {
+	color: #33f;
+	text-decoration: underline;
 }
 
 
 
-.footer a:visited, .footer a:link {
-	text-decoration: none;
-	color: #444;
-	font-weight: bold;
-	padding: 0;
-}
-
-
-.footer a:hover {
-	color: #7a0;
-
-}
 
 .footer .arbor {
 	float:left; display: block;
@@ -393,11 +454,11 @@ margin: auto;
 	position: relative;
 	min-width: 12em; width: auto; max-width: 20em; white-space: nowrap;
 	vertical-align: middle;
-	background-color: rgba(255, 255, 255, 0.7);
+/*	background-color: rgba(255, 255, 255, 0.7);
 	background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.5));
 	text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 3px 0 #fff, 0 -3px 0 #fff, 
 				2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
-				1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+				1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
 }
 
 .arbor .retour {
@@ -405,6 +466,7 @@ margin: auto;
 	position: absolute; top: 0; left: 0; line-height: 2em;
 	text-align: center;
 }
+
 
 .prec, .suiv {
 	position: absolute;
@@ -485,7 +547,7 @@ margin: auto;
 
 .sommaire p.alphabet {
 	position: fixed;
-	left:0; top:1.5em;
+	left:0; top:1em;
 	padding: 1em;
 	font-weight: bold;
 	background: rgba(255,255,255,0.8);
@@ -528,4 +590,9 @@ ul.journaux {
 	position: absolute; bottom: 0; left: 0;
 	font-size: 0.9em;
 	padding: 0 0.5em 0 0.5em;
+}
+
+.discours {
+font-size: 90%;
+
 }

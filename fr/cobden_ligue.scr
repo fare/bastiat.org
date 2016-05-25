@@ -1,0 +1,72 @@
+(style 'bo-style)
+(in-bof :title "Cobden et la Ligue - par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title "Cobden et la Ligue"
+	:author (author-FB)
+
+(sommaire[
+,(itemize
+(item (xbof-ref "introduction_cobden_ligue" [Introduction]))
+(item (xbof-ref "ligue_1" [Meeting à Manchester]))
+(item (xbof-ref "ligue_2" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_3" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_4" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_5" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_6" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_7" [Septième meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_8" [Meeting hebdomadaire de la Ligue à la salle de l’Opéra]))
+(item (xbof-ref "ligue_9" [Grand meeting à Covent-Garden]))
+(item (xbof-ref "ligue_10" [L’agitation en Écosse]))
+(item (xbof-ref "ligue_11" [Grand meeting au théâtre de Covent-Garden]))
+(item (xbof-ref "ligue_12" [Second meeting au théâtre de Covent-Garden]))
+(item (xbof-ref "ligue_13" [Wakefield]))
+(item (xbof-ref "ligue_14" [Meeting hebdomadaire de la Ligue]))
+(item (xbof-ref "ligue_15" [Meeting hebdomadaire de la Ligue au théâtre de Covent-Garden]))
+(item (xbof-ref "ligue_16" [Séance du 28 février]))
+(item (xbof-ref "ligue_17" [Séance du 17 avril. — Présidence de M. Cobden.]))
+(item (xbof-ref "ligue_18" [Séance du ,(1er) mai 1844]))
+(item (xbof-ref "ligue_19" [Séance du 15 mai 1844]))
+(item (xbof-ref "ligue_20" [Séance du 22 mai 1844. — Présidence du général Briggs.]))
+(item (xbof-ref "ligue_21" [Séance du 5 juin 1844]))
+(item (xbof-ref "ligue_22" [Exposé du dissentiment sur le tarif des sucres]))
+(item (xbof-ref "ligue_23" [Séance du 19 juin 1844]))
+(item (xbof-ref "ligue_24" [Séance du 25 juin 1844]))
+(item (xbof-ref "ligue_25" [Séance du 7 août 1844]))
+(item (xbof-ref "ligue_26" [Les free-traders et les chartistes à Northampton]))
+(item (xbof-ref "ligue_27" [Démonstration en faveur de la liberté commerciale à Walsall]))
+(item (xbof-ref "ligue_28" [Grand meeting de la Ligue au théâtre de Covent-Garden]))
+(item (xbof-ref "ligue_29" [Meeting général de la Ligue à Manchester]))
+(item (xbof-ref "ligue_30" [Interrogatoire de Jacques Deacon Hume, sq.]))
+(h3[Appendice])
+(item (xbof-ref "ligue_31" [Fin de la première campagne de la Ligue anglaise]))
+(item (xbof-ref "ligue_32" [Seconde campagne de la Ligue]))
+(item (xbof-ref "ligue_33" [Deux Angleterre]))
+(item (xbof-ref "ligue_34" [Grand meeting à Manchester]))
+(item (xbof-ref "ligue_35" [Lettre à George Wilson]))
+(item (xbof-ref "ligue_36" [Réforme coloniale en Angleterre]))
+(item (xbof-ref "ligue_37" [Plan de lord John Russell]))
+)
+
+,(itemize
+(item [Discours de ,(np "cobden" [Richard Cobden]) : ,(ref :url "ligue_1.html" [octobre 1842]),
+,(ref :url "ligue_2.html#discours_cobden" [16 mars 1843]),
+,(ref :url "ligue_3.html#discours_cobden" [30 mars 1843])
+])
+(item [Discours de ,(np "fox" [J. W. Fox]) :
+,(ref :url "ligue_3.html#discours_fox" [30 mars 1843])
+])
+(item [Discours de ,(np "wilson" [James Wilson]) :
+,(ref :url "ligue_3.html#discours_wilson" [30 mars 1843])
+])
+)
+
+
+])
+(footer[
+,(oeuvres)
+])
+(set! =bof.url= "http://bastiat.org/fr/")
+(with-footer
+))

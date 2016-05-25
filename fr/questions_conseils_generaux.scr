@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce, par Frédéric Bastiat")
 
-(document :title "D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce"
+(document :title [D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce ,(footnote*[Lorsque Bastiat écrivait un article, une fois sa tâche faite et le manuscrit livré à l’éditeur, il n’y pensait guère et n’en parlait plus. Les lignes que nous allons reproduire devaient faire suite, dans le ,(cite-title[Journal des Économistes]), à l’article intitulé : ,(ref :url "question_conseils_generaux.html" [,(cite-title[Une question soumise aux Conseils généraux])]), etc. (Voir ,(cite-title[Œuvres complètes]), t. ,(Ier), p. 392 et suiv.) Mais, restées inédites par suite d’une omission contre laquelle l’auteur n’a pas réclamé, elles n’ont été remises dans mes mains que postérieurement à 1855. ,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(footnote*[Lorsque Bastiat écrivait un article, une fois sa tâche faite et le manuscrit livré à l’éditeur, il n’y pensait guère et n’en parlait plus. Les lignes que nous allons reproduire devaient faire suite, dans le ,(cite-title[Journal des Économistes]), à l’article intitulé : ,(cite-title[Une question soumise aux Conseils généraux]), etc. (Voir ,(cite-title[Œuvres complètes]), t. ,(Ier), p. 392 et suiv.) Mais, restées inédites par suite d’une omission contre laquelle l’auteur n’a pas réclamé, elles n’ont été remises dans mes mains que postérieurement à 1855. ,(NdEEO)])
-
-Je me suis laissé entraîner par le premier sujet qui est tombé sous ma plume, et il me reste peu d’espace à donner aux autres questions posées par M. le Ministre. Je ne terminerai pas cependant sans en dire quelques mots.
+,(p :class "noselect" [Suite de ,(ref :url "question_conseils_generaux.html" [cet article]), non publiée.])
+,(p*[Je me suis laissé entraîner par le premier sujet qui est tombé sous ma plume, et il me reste peu d’espace à donner aux autres questions posées par M. le Ministre. Je ne terminerai pas cependant sans en dire quelques mots.
 ][
 Certes, je m’attends à ce que le développement illimité qu’on paraît vouloir donner à la Douane soit rétorqué contre l’École Économiste. « Vous repoussez la mesure, dira-t-on, parce qu’elle accroît d’une manière exorbitante l’intervention du Pouvoir dans l’Industrie, et c’est précisément pour cela que nous l’appuyons. Ne fût-elle pas très bonne en elle-même, elle a au moins cette heureuse tendance d’agrandir le rôle de l’État, et vous savez bien que le Progrès, suivant la mode du jour, n’est autre chose que l’absorption successive de toutes les activités individuelles dans la grande activité collective ou gouvernementale. »
 ][
