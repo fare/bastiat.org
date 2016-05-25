@@ -191,7 +191,7 @@
 	et aux scrupules du patriotisme et de la philanthropie)")
   (P 2 311 328 "discours_7"
 	"48 Septième discours, à Paris
-	(le Libre-Échange est un des aspects de la cause 
+	(le Libre-Échange est un des aspects de la cause
 	du peuple, des masses et de la démocratie)")
   (P 2 328 342 "discours_cercle_librairie"
 	,[49 Huitième discours, à Paris
@@ -1327,16 +1327,21 @@
   `(filter-bastiat-db
     (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date id)) ,@body)))
 
+(defun getf-many (key plist)
+  "given a PLIST, extract all the entries starting with the KEY, not just the first one"
+  (loop :for (k v) :on plist :by #'cddr :when (eq k key) :collect v))
+
 (defun text-id (x) (first x))
 (defun text-date (x) (getf (rest x) :date))
 (defun text-livre (x) (getf (rest x) :livre))
 (defun text-titre (x) (getf (rest x) :titre))
 (defun text-chapter (x) (getf (text-livre x) :ch))
 (defun text-journal (x) (getf (rest x) :journal))
-(defun text-journaltitre (x) (getf (text-journal x) :titre))
-(defun text-journaldate (x) (getf (text-journal x) :date))
+(defun text-journaux (x) (getf-many (rest x) :journal))
+(defun text-journal-titre (x) (getf (text-journal x) :titre))
+(defun text-journal-date (x) (getf (text-journal x) :date))
 (defun text-lettre (x) (getf (rest x) :lettre))
-(defun text-lettrea (x) (getf (text-lettre x) :a))
+(defun text-lettre-a (x) (getf (text-lettre x) :a))
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
   (loop :for precedent = nil :then courant :for courant :in list
@@ -1397,13 +1402,13 @@
 (defparameter articles
  (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date))
 (defparameter articles_le
- (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journaldate))
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journal-date))
 (defparameter articles_jde
- (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journaldate))
+ (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journal-date))
 (defparameter articles_mb
- (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journaldate))
+ (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journal-date))
 (defparameter articles_cf
- (sort (filtering-bastiat-db (member 'cf journal)) 'string< :key 'text-journaldate))
+ (sort (filtering-bastiat-db (member 'cf journal)) 'string< :key 'text-journal-date))
 
 (defparameter harmonies_eco
  (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
