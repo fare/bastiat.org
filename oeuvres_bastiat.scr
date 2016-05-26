@@ -1346,12 +1346,19 @@
 (defun text-livre (x) (getf (rest x) :livre))
 (defun text-titre (x) (getf (rest x) :titre))
 (defun text-chapter (x) (getf (text-livre x) :ch))
-(defun text-journal (x) (getf (rest x) :journal))
 (defun text-journaux (x) (getf-many (rest x) :journal))
-(defun text-journal-titre (x) (getf (text-journal x) :titre))
-(defun text-journal-date (x) (getf (text-journal x) :date))
+(defun journal-titre (j) (getf j :titre))
+(defun text-journal (x &optional journal)
+  (if journal
+      (find journal (text-journaux x) :key #'journal-titre)
+      (getf (rest x) :journal)))
+(defun text-journal-titre (x &optional journal) (getf (text-journal x journal) :titre))
+(defun text-journal-date (x &optional journal) (getf (text-journal x journal) :date))
 (defun text-lettre (x) (getf (rest x) :lettre))
 (defun text-lettre-a (x) (getf (text-lettre x) :a))
+
+(defun text-journal-date-fun (journal)
+  (lambda (x) (getf (text-journal x journal) :date)))
 
 (defun precedent (item list &key (test 'string-equal) (key 'first))
   (loop :for precedent = nil :then courant :for courant :in list
@@ -1365,10 +1372,10 @@
 
 
 (defun precedent-texte (list)
-     (string-downcase (text-id (precedent (pathname-name (current-lisp-file-pathname)) list))))
+  (string-downcase (text-id (precedent (pathname-name (current-lisp-file-pathname)) list))))
 
 (defun suivant-texte (list)
-     (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
+  (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
 
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
 ;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
