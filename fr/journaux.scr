@@ -18,6 +18,7 @@
 ,(a :href :#n [N]) —
 ,(a :href :#p [P]) —
 ,(a :href :#r [R]) —
+,(a :href :#s [S]) —
 ,(a :href :#v [V])
 ]))
 
@@ -215,6 +216,12 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ,(journal "encycl" "Revue encyclopédique" [
 ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827])
+])
+
+]),(lettre "S" [
+
+,(journal "sp" "Sentinelle des Pyrénées" [
+,(p*[,(ref :url "journaux_sp.html" [Articles publiés dans ce journal.])])
 ])
 
 ]),(lettre "V" [

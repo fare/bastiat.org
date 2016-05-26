@@ -1,0 +1,40 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Sentinelle des Pyrénées")
+(document
+(header[
+	,(titre [Sentinelle des Pyrénées])
+])
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "21 mars 1843" "sentinelle1.html" "Sur l’admissibilité des députés au ministère"
+	"")
+	,(article "25 mars 1843" "sentinelle2.html" "Sur l’admissibilité des députés au ministère"
+	"")
+	,(article "18 mai 1843" "sentinelle3.html" "Liberté commerciale. État de la question en Angleterre."
+	"")
+	,(article "25 mai 1843" "sentinelle4.html" "Liberté commerciale. État de la question en Angleterre."
+	"")
+	,(article "1<sup>er</sup> juin 1843" "sentinelle5.html" "Liberté commerciale. État de la question en Angleterre."
+	"")
+	,(article "2 décembre 1843" "sentinelle6.html" ""
+	"")
+	,(article "14 décembre 1843" "sentinelle7.html" ""
+	"")
+	,(article "2 juillet 1844" "sentinelle8.html" ""
+	"")
+	,(article "3 août 1844" "sentinelle9.html" ""
+	"")
+	,(article "6 août 1844" "sentinelle10.html" ""
+	"")
+])
+])
+
+(footer[
+	
+])
+)
