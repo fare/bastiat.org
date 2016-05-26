@@ -5,7 +5,9 @@
 (document :title "Propriété et Spoliation"
           :author (author-FB)
 (bastiat[
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 2 septembre 1848.])
 ,(h2[Quatrième lettre.])
+
 ,(p*[
 Les physiocrates disaient :
 La terre seule est productive.
@@ -430,7 +432,8 @@ C’est ce qui me reste à démontrer.
 ])])
 (footer[
 	,(oeuvres)
-	,(prospo "propriete_et_spoliation3.html" "propriete_et_spoliation5.html")
+	,(art_jd)
+	,(prospo)
 ])
 (with-footer
 (p*[

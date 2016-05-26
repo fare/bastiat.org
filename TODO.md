@@ -21,16 +21,21 @@ Infrastructure
 
   * Comprendre pourquoi Exscribe se met aléatoirement à faire des listes de "COMPILING DEFPARAMETER machin" pour chaque fichier compilé, et puis s'arrête quand je déplace les defparameters dans un autre fichier, et puis recommence sur un coup de tête.
 
+  * Faire en sorte que Exscribe comprenne la syntaxe :journal (:titre titre1 :date date1) :journal (:titre titre2 :date date2) et puisse ranger les articles de titre1 (respectivement 2) par leur date1 (respectivement 2).
+
 Trucs de Laura que Faré a le droit de regarder
 ----------------------------------------------
 
   * Faire une fonction qui associe à un nom de fichier le titre d'une oeuvre (je veux obtenir <a href="1profit_2pertes">Un profit contre deux pertes</a> en tapant juste ,(1profit_2pertes), et je ne veux pas avoir à définir une fonction par fichier.)
 
-  * Dans le même esprit, assigner à chaque fichier une date dans un format standardisé, pour pouvoir faire deux liens "précédent" et "suivant" qui atteignent automatiquement l'article suivant dans l'ordre chronologique, sans avoir à définir la cible des liens à chaque fois.
+  * Page d'accueil: lien direct vers les œuvres, au lieu de devoir cliquer 50 fois pour accéder au sommaire.
+  Différents accès:
+    1) œuvres mises en vedette (cqovecqonvp, la loi, sophismes, pamphlets)
+    2) accès par 4 types: livres et brochures / journaux / correspondance / ébauches non publiées
+    3) liens vers accès par thèmes / par ordre chrono
+    4) lien vers sources: principalement sommaire Guillaumin (et Lettres d'un habitant des Landes) + page dédiée aux œuvres ni dans Guillaumin ni dans LHL
 
-  * Faire un super header élastique avec du javascript <3
-
-  * Responsive design. Menu de gauche avec intro + plan: sur les petits écrans, doit être caché à gauche et s'afficher en glissant à droite quand on clique dessus (?); les notes, en marge droite sur les grands écrans, pourraient être invisibles sur les  petits écrans et s'afficher par clic sur l'appel de note, sous forme de mini-fenêtre fermable, par-dessus le texte.
+  * Responsive design. (par ex, Menu de gauche avec intro + plan: sur les petits écrans, doit être caché à gauche et s'afficher en glissant à droite quand on clique dessus (?); les notes, en marge droite sur les grands écrans, pourraient être invisibles sur les  petits écrans et s'afficher par clic sur l'appel de note, sous forme de mini-fenêtre fermable, par-dessus le texte. etc.)
  
 
 Trucs de Laura, par Laura et pour Laura

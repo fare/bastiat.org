@@ -5,7 +5,9 @@
 (document :title "Propriété et Spoliation"
           :author (author-FB)
 (bastiat[
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 31 juillet 1848.])
 ,(h2[Deuxième lettre.])
+
 ,(p*[
 Quelle inflexible puissance que celle de la Logique !
 ][
@@ -273,7 +275,8 @@ que ce dernier élément s’est furtivement introduit dans la valeur du blé ?
 ])])
 (footer[
 	,(oeuvres)
-	,(prospo "propriete_et_spoliation6.html" "propriete_et_spoliation3.html")
+	,(art_jd)
+	,(prospo)
 ])
 (with-footer
 (p*[

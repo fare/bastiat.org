@@ -1,0 +1,40 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Journal des débats")
+(document
+(header[
+	,(titre [Journal des débats])
+])
+(sommaire[
+,(p*[
+
+])
+
+,(itemize[
+	,(article "2 mai 1846" "lettre1_journal_des_debats.html" "Au rédacteur du <em>Journal des débats</em>"
+	"")
+	,(article "11 mai 1846" "lettre2_journal_des_debats.html" "Au rédacteur du <em>Journal des débats</em>"
+	"")
+	,(article "24 juillet 1848" "propriete_et_spoliation.html" "Propriété et spoliation 1"
+	"")
+	,(article "28 juillet 1848" "propriete_et_spoliation6.html" "Réclamation de V. Considerant et réponse de F. Bastiat"
+	"")
+	,(article "31 juillet 1848" "propriete_et_spoliation2.html" "Propriété et spoliation 2"
+	"")
+	,(article "14 août 1848" "propriete_et_spoliation3.html" "Propriété et spoliation 3"
+	"")
+	,(article "2 septembre 1848" "propriete_et_spoliation4.html" "Propriété et spoliation 4"
+	"")
+	,(article "18 septembre 1848" "propriete_et_spoliation5.html" "Propriété et spoliation 5"
+	"")
+	,(article "25 septembre 1848" "l_etat.html" "L’État"
+	"")
+	,(article "1<sup>er</sup> janvier 1849" "reduction_sel.html" "Conséquences de la réduction sur l’impôt du sel"
+	"")
+	])
+])
+
+(footer[
+	
+])
+)

@@ -318,20 +318,15 @@
   ))
 )
 
-
-
 (defun soph (prec suiv) (arbor "Sophismes économiques" "sophismes.html" prec suiv))
-(defun prospo (prec suiv) (arbor "Propriété et spoliation" "propriete_et_spoliation.html" prec suiv))
 
-(defun rf (prec suiv) (arbor "République française" "journaux_rf.html" prec suiv))
-(defun jb (prec suiv) (arbor "Jacques Bonhomme" "journaux_jb.html" prec suiv))
 
 ;; Pour la mise en forme des listes d'articles dans les sommaires de journaux
 
 (defun
   article
   (date adresse titre about)
-  (%raw 
+  (%raw (strcat
     "<li class='article'><div class='date'>"
     date
     "</div> <div class='titre'>"
@@ -342,7 +337,7 @@
     "</a></div> <div class='about'>"
     about
     "</div></li>"
-  )
+  ))
 )
 
 (defun
@@ -411,10 +406,15 @@
 (defun art_jde () (precsuiv "Journal des Économistes" "journaux_jde.html" articles_jde))
 (defun art_mb () (precsuiv "Mémorial bordelais" "journaux_mb.html" articles_mb))
 (defun art_cf () (precsuiv "Courrier français" "journaux_cf.html" articles_cf))
+(defun art_rf () (precsuiv "La République française" "journaux_rf.html" articles_rf))
+(defun art_jb () (precsuiv "Jacques Bonhomme" "journaux_jb.html" articles_jb))
+(defun art_jd () (precsuiv "Journal des débats" "journaux_jd.html" articles_jd))
+(defun art_sp () (precsuiv "Sentinelle des Pyrénées" "journaux_sp.html" articles_sp))
 
 (defun harmonies () (precsuiv "Harmonies économiques" "harmonies.html" harmonies_eco))
 (defun g_credit () (precsuiv "Gratuité du crédit" "gratuite_du_credit.html" credit))
 (defun cobdenligue () (precsuiv "Cobden et la Ligue" "cobden_ligue.html" cobdenligue))
+(defun prospo () (precsuiv "Propriété et spoliation" "propriete_et_spoliation.html" propriete_spoliation))
 
 ;;; jquery
 

@@ -5,7 +5,9 @@
 (document :title "Propriété et Spoliation"
           :author (author-FB)
 (bastiat[
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 14 août 1848.])
 ,(h2[Troisième lettre.])
+
 ,(p*[
 ,(emph[Les services s’échangent contre des services]).
 Je suis obligé de me faire violence
@@ -343,7 +345,8 @@ Il me reste à déduire quelques conséquences de cette doctrine.
 ])])
 (footer[
 	,(oeuvres)
-	,(prospo "propriete_et_spoliation2.html" "propriete_et_spoliation4.html")
+	,(art_jd)
+	,(prospo)
 ])
 (with-footer
 (p*[

@@ -1130,7 +1130,7 @@
 	(reforme_postale1 :date "1846-04-23" :journal (:titre mb :date "1846-04-23") :titre "La réforme postale" :oc1862 (:tome 7 :n 17 :p 78))
 	(reforme_postale2 :date "1846-04-30" :journal (:titre mb :date "1846-04-30") :titre "La réforme postale" :oc1862 (:tome 7 :n 18 :p 83))
 	(liberte_commerciale :date "1846-05-02" :journal (:titre mb :date "1846-05-02") :titre "La liberté commerciale" :oc1862 (:tome 7 :n 19 :p 91))
-	(lettre1_journal_des_debats :date "1846-05-02" :journal (:titre jd) :titre "Première lettre au rédacteur du Journal des débats" :oc1862 (:tome 7 :n 20 :p 96))
+	(lettre1_journal_des_debats :date "1846-05-02" :journal (:titre jd :date "1846-05-02") :titre "Première lettre au rédacteur du Journal des débats" :oc1862 (:tome 7 :n 20 :p 96))
 	(lettre2_journal_des_debats :date "1846-05-11" :journal (:titre jd :date "1846-05-11") :journal (:titre mb :date "1846-05-14") :titre "Deuxième lettre au rédacteur du Journal des débats" :oc1862 (:tome 7 :n 21 :p 99))
 	(bordeaux_bayonne :date "1846-05-19" :journal (:titre mb :date "1846-05-19") :titre "Du chemin de fer de Bordeaux à Bayonne" :oc1862 (:tome 7 :n 22 :p 103))
 	(aux_membres_de_l_association :date "1846-06-14" :journal (:titre mb :date "1846-06-14") :titre "Aux membres de l’Association pour la liberté des échanges" :oc1862 (:tome 7 :n 23 :p 108))
@@ -1181,15 +1181,15 @@
 	(mystification :date "1848-06-15" :journal (:titre jb :n 2) :titre "Une mystification" :oc1862 (:tome 7 :n 61 :p 242))
 	(funeste_gradation :date "1848-06-20" :journal (:titre jb :n 3) :titre "Funeste gradation" :oc1862 (:tome 7 :n 62 :p 244))
 	(aux_citoyens :date "1848-06-20" :journal (:titre jb :n 3) :titre "Aux citoyens Lamartine et Ledru-Rollin" :oc1862 (:tome 7 :n 63 :p 246))
-	(propriete_et_spoliation :date "1848-07-24" :journal (:titre jd) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 394))
-	(propriete_et_spoliation6 :date "1848-07-28" :journal (:titre jd) :titre "Réclamation de V. Considerant et réponse de F. Bastiat" :oc1862 (:tome 4 :p 434))
-	(propriete_et_spoliation2 :date "1848-07-31" :journal (:titre jd) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 401))
+	(propriete_et_spoliation :date "1848-07-24" :journal (:titre jd :date "1848-07-24") :livre (:titre prospo :ch 1) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 394))
+	(propriete_et_spoliation6 :date "1848-07-28" :journal (:titre jd :date "1848-07-28") :titre "Réclamation de V. Considerant et réponse de F. Bastiat" :oc1862 (:tome 4 :p 434))
+	(propriete_et_spoliation2 :date "1848-07-31" :journal (:titre jd :date "1848-07-31") :livre (:titre prospo :ch 2) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 401))
 	(egalisation_concurrence :titre "" :oc1862 (:tome 4 :p 406))
-	(propriete_et_spoliation3 :date "1848-08-14" :journal (:titre jd) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 407))
-	(propriete_et_spoliation4 :date "1848-09-02" :journal (:titre jd) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 415))
-	(propriete_et_spoliation5 :date "1848-09-18" :journal (:titre jd) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 425))
-	(l_etat :date "1848-09-25" :journal (:titre jd) :titre "L’État" :oc1862 (:tome 4 :p 327))
-	(reduction_sel :date "1849-01-01" :journal (:titre jd) :titre "Conséquences de la réduction sur l’impôt du sel" :oc1862 (:tome 5 :p 464))
+	(propriete_et_spoliation3 :date "1848-08-14" :journal (:titre jd :date "1848-08-14") :livre (:titre prospo :ch 3) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 407))
+	(propriete_et_spoliation4 :date "1848-09-02" :journal (:titre jd :date "1848-09-02") :livre (:titre prospo :ch 4) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 415))
+	(propriete_et_spoliation5 :date "1848-09-18" :journal (:titre jd :date "1848-09-18") :livre (:titre prospo :ch 5) :titre "Propriété et spoliation" :oc1862 (:tome 4 :p 425))
+	(l_etat :date "1848-09-25" :journal (:titre jd :date "1848-09-25") :titre "L’État" :oc1862 (:tome 4 :p 327))
+	(reduction_sel :date "1849-01-01" :journal (:titre jd :date "1849-01-01") :titre "Conséquences de la réduction sur l’impôt du sel" :oc1862 (:tome 5 :p 464))
 	(ligue_1 :livre (:titre cobden_ligue :ch 1 :date "1842-10") :titre "Meeting à Manchester" :oc1862 (:tome 3 :p 82))
 	(ligue_2 :livre (:titre cobden_ligue :ch 2 :date "1843-03-16") :titre "Meeting hebdomadaire de la Ligue" :oc1862 (:tome 3 :p 91))
 	(ligue_3 :livre (:titre cobden_ligue :ch 3 :date "1843-03-30") :titre "Meeting hebdomadaire de la Ligue" :oc1862 (:tome 3 :p 96))
@@ -1271,7 +1271,7 @@
 	(capital_et_rente :date "1849-02-15" :titre "Capital et rente" :oc1862 (:tome 5 :p 23))
 	(cqovecqonvp :date "1850-07-10" :titre "Ce qu’on voit et ce qu’on ne voit pas" :oc1862 (:tome 5 :p 336))
 	(dispersion_couts :titre "" :oc1862 (:tome 5 :p 392))
-	(abondance :ante "1850-09-10" :titre "Abondance" :oc1862 (:tome 5 :p 393))
+	(abondance :date "1850-09-01" :titre "Abondance" :oc1862 (:tome 5 :p 393))
 	(balance_du_commerce :date "1850-03-29" :titre "Balance du commerce" :oc1862 (:tome 5 :p 402))
 	(paix_et_liberte :date "1849-02-10" :titre "Paix et liberté ou le budget républicain" :oc1862 (:tome 5 :p 407))
 	(lettre_saulnier :lettre (:de bastiat :a saulnier :lieu mugron) :oc1862 (:tome 5 :p 443))
@@ -1309,6 +1309,16 @@
 	(ligue_36 :livre (:titre cobden_ligue :ch 36) :journal (:titre jde :date "1850-02-15") :titre "Réforme coloniale en Angleterre" :oc1862 (:tome 3 :p 497))
 	(ligue_37 :livre (:titre cobden_ligue :ch 37) :journal (:titre jde :date "1850-04-15") :titre "Plan de lord John Russell" :oc1862 (:tome 3 :p 508))
 	(cobden_ligue :date "1845-06-17")
+	(sentinelle1 :journal (:titre sp :date "1843-03-21") :date "1843-03-21" :titre "Sur l’admissibilité des députés au pouvoir")
+	(sentinelle2 :journal (:titre sp :date "1843-03-25") :date "1843-03-25" :titre "Sur l’admissibilité des députés au pouvoir")
+	(sentinelle3 :journal (:titre sp :date "1843-05-18") :date "1843-05-18" :titre "Liberté commerciale. État de la question en Angleterre.")
+	(sentinelle4 :journal (:titre sp :date "1843-05-25") :date "1843-05-25" :titre "")
+	(sentinelle5 :journal (:titre sp :date "1843-06-01") :date "1843-06-01" :titre "")
+	(sentinelle6 :journal (:titre sp :date "1843-12-02") :date "1843-12-02" :titre "")
+	(sentinelle7 :journal (:titre sp :date "1843-12-14") :date "1843-12-14" :titre "")
+	(sentinelle8 :journal (:titre sp :date "1844-07-02") :date "1844-07-02" :titre "")
+	(sentinelle9 :journal (:titre sp :date "1844-08-03") :date "1844-08-03" :titre "")
+	(sentinelle10 :journal (:titre sp :date "1844-08-06") :date "1844-08-06" :titre "")
 ))
 
 ;;; Les super fonctions relatives à bastiat-db
@@ -1369,7 +1379,7 @@
 
 ;titre du document courant
 (define (titre-courant)
-(text-titre (first (filtering-bastiat-db (equalp (pathname-name (current-lisp-file-pathname)) (string-downcase id)))))
+(text-titre (first (filtering-bastiat-db (equal (pathname-name (current-lisp-file-pathname)) (string-downcase id)))))
 )
 
 
@@ -1409,6 +1419,14 @@
  (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journal-date))
 (defparameter articles_cf
  (sort (filtering-bastiat-db (member 'cf journal)) 'string< :key 'text-journal-date))
+(defparameter articles_rf
+ (sort (filtering-bastiat-db (member 'rf journal)) 'string< :key 'text-journal-date))
+(defparameter articles_jb
+ (sort (filtering-bastiat-db (member 'jb journal)) 'string< :key 'text-journal-date))
+(defparameter articles_jd
+ (sort (filtering-bastiat-db (member 'jd journal)) 'string< :key 'text-journal-date))
+(defparameter articles_sp
+ (sort (filtering-bastiat-db (member 'sp journal)) 'string< :key 'text-journal-date))
 
 (defparameter harmonies_eco
  (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
@@ -1416,3 +1434,5 @@
  (sort (filtering-bastiat-db (member 'gratuite_du_credit livre)) '< :key 'text-chapter))
 (defparameter cobdenligue
  (sort (filtering-bastiat-db (member 'cobden_ligue livre)) '< :key 'text-chapter))
+(defparameter propriete_spoliation
+ (sort (filtering-bastiat-db (member 'prospo livre)) '< :key 'text-chapter))

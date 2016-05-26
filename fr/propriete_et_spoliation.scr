@@ -5,8 +5,9 @@
 (document :title "Propriété et Spoliation"
           :author (author-FB)
 (bastiat[
-,(h2[Première Lettre])
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 24 juillet 1848.])
+,(h2[Première Lettre])
+
 ,(p*[
 L’assemblée nationale est saisie d’une question immense,
 dont la solution intéresse au plus haut degré
@@ -303,7 +304,8 @@ de la part de M. Considérant, et la réponse de F. Bastiat. ,(NdEEO)
 ])])
 (footer [
 ,(oeuvres)
-,(premier "Propriété et spoliation" "" "propriete_et_spoliation6.html")
+,(art_jd)
+,(prospo)
 ])
 (with-footer
 (p*[

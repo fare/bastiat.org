@@ -5,7 +5,9 @@
 (document :title "Propriété et Spoliation"
           :author (author-FB)
 (bastiat[
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 18 septembre 1848.])
 ,(h2[Cinquième lettre.])
+
 ,(p*[
 Non, les économistes ne pensent pas, comme on le leur reproche,
 que nous soyons dans le meilleur des mondes.
@@ -383,7 +385,8 @@ la guerre au capital et l’absurde prétention de chacun de vivre et se dévelo
 ])])
 (footer[
 	,(oeuvres)
-	,(dernier "Propriété et spoliation" "propriete_et_spoliation.html" "propriete_et_spoliation4.html")
+	,(art_jd)
+	,(prospo)
 ])
 (with-footer
 (p*[
