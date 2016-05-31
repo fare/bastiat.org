@@ -1,0 +1,33 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title
+"Fragment")
+
+(document :title "Fragment"
+	:author (author-FB)
+(bastiat[
+,(p*[
+Pourquoi nos finances sont-elles dérangées ?
+,(--) Parce que, pour les Représentants,
+il n’y a rien de plus facile que de voter une Dépense,
+et rien de plus difficile que de voter une Recette.
+][
+Si vous l’aimez mieux,
+][
+Parce que les Traitements sont fort doux et les Impôts fort durs.
+][
+J’en sais encore une raison.
+][
+Tout le monde veut vivre aux dépens de l’État,
+et on oublie que l’État vit aux dépens de tout le monde.])
+])
+(footer[,(oeuvres)])
+(with-footer (p*[
+Extrait de l’,(EO1863), tome V,
+pp. 407-464.
+][
+Texte scanné par la ,(BNF),
+	transcrit et mis en hypertexte par ,(clement.junca),
+	relu et édité par ,(FRR)
+	pour ,(Bastiat.org).
+])))

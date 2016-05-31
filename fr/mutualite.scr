@@ -1,0 +1,39 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Mutualité des services
+	- pamphlet par Frédéric Bastiat")
+(document :title [Mutualité des services]
+	:author (author-FB)
+(bastiat[
+,(date-tag[Ébauche inédite.])
+,(p*[,(emph[Mutualité des services]).
+D’après tout ce qui précède, la société peut être considérée
+comme un immense bazar où chacun va d’abord déposer ses produits,
+en faire reconnaître et fixer la valeur.
+Après cela, il est autorisé à prélever, sur l’ensemble de tous ces dépôts,
+des produits à son choix pour une valeur égale.
+Or, comment s’apprécie cette valeur ?
+par le service reçu et rendu.
+Nous avons donc exactement ce que demandait M. Proudhon.
+Nous avons ce bazar d’échange, dont on a tant ri ;
+et la Société, plus ingénieuse que M. Proudhon,
+nous le donne en nous épargnant le dérangement matériel
+d’y transporter nos marchandises.
+Pour cela, elle a inventé la monnaie, moyennant quoi
+elle réalise l’entrepôt à domicile.])
+])
+
+(footer[
+	,(oeuvres)
+	,(art_jde)
+])
+
+(with-footer
+(p*[
+Extrait de l’,(EO1863),
+tome V, pp. 64-93.
+][
+Texte scanné par ,(FRR),
+numérisé et mis en hypertexte par ,(cbalanca),
+relu, corrigé et édité par ,(FRR) pour ,(Bastiat.org).
+])))

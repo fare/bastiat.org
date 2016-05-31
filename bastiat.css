@@ -235,7 +235,7 @@ span[style="font-variant: small-caps"] {
 	letter-spacing: 0.05em;
 }
 
-em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-caps"] {
+i span[style="font-variant: small-caps"], em span[style="font-variant: small-caps"], h3 span[style="font-variant: small-caps"] {
 	font-style: normal;
 }
 
@@ -346,6 +346,7 @@ table.vers {
 bottom: 0;
 height: 3.5em; min-height:1cm;
 background-color: rgba(230,255,50,1); /*#9c0;*/
+background: linear-gradient (to right, rgba(230,255,50,1), rgba(230,255,50,0.7));
 /*background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));*/
 opacity: 0.7;
 transition: opacity 200ms;
@@ -516,17 +517,41 @@ position: absolute;
 }
 
 /*Index des personnes*/
-.personne, .journal {
+
+
+.journal {
 	text-align: justify;
 	margin: 2em;
 }
 
-.personne p {
-	position: relative;
+.personne {
+	text-align: justify;
 }
 
-.personne p:nth-child(2) {
-	width: 75%;
+.personne p {
+	position: relative;
+	margin: 0.2em 0; text-indent: 1em;
+}
+
+.personne p.bio {
+	font-weight: bold; font-size: 0.9em; color: #555;
+}
+
+/*.personne>p:nth-child(2),*/ .personne {
+	width: 60%;
+	margin: 2em auto;
+}
+
+@media only screen and (max-width: 25cm) {
+	.personne {
+		width: 80%;
+	}
+	.lettre {
+		margin: 0;
+	}
+	.sommaire {
+		margin: 0; .padding:0;
+	}
 }
 
 .personne span.dates {
@@ -536,8 +561,12 @@ position: absolute;
 }
 
 .personne span.nom {
-	font-variant: small-caps;
+	font-variant: small-caps; font-weight: bold;
 	font-size: 1.4em;
+}
+
+.personne ul {
+	margin: 0; width: 100%;
 }
 
 .journal .titre {

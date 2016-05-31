@@ -1,16 +1,7 @@
 (style 'bo-style)
 (in-bof :title "Guerre aux chaires d’économie politique
 	- par Frédéric Bastiat")
-(document :title "Guerre aux chaires d’économie politique"
-	:author (author-FB)
-(bastiat[
-,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 juin 1847.])
-,(p*[
-On sait avec quelle amertume les hommes
-qui, pour leur propre avantage, restreignent les échanges d’autrui,
-se plaignent de ce que l’économie politique s’obstine
-à ne point exalter le mérite de ces restrictions
-,(footnote*[
+(document :title [Guerre aux chaires d’économie politique ,(footnote*[
 Trois ans avant la manifestation qui provoqua le pamphlet précédent,
 ,(XXX)
 la destitution des professeurs,
@@ -23,31 +14,38 @@ en même temps que celle de la Liberté.
 Ce fut avec l’arme de l’ironie que Bastiat,
 dans le n° du 13 juin 1847 du journal ,(cite-title[le Libre-Échange]),
 combattit cette prétention qui se produisait alors pour la première fois.
-](NdEEO)).
+](NdEEO))]
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 juin 1847.])
+,(p*[
+On sait avec quelle amertume les hommes
+qui, pour leur propre avantage, restreignent les échanges d’autrui,
+se plaignent de ce que l’économie politique s’obstine
+à ne point exalter le mérite de ces restrictions.
 S’ils n’espèrent pas obtenir la suppression de la science,
 ils poursuivent du moins la destitution de ceux qui la professent,
 tenant de l’inquisition cette sage maxime :
-,(q[Voulez-vous avoir raison de vos adversaires ?
-fermez-leur la bouche.])
-][
+« Voulez-vous avoir raison de vos adversaires ?
+fermez-leur la bouche. »
+][,(tag :a :name "salvandy_ref")
 Nous n’avons donc point été surpris d’apprendre
 qu’à l’occasion du projet de loi sur l’organisation des facultés
-ils ont adressé à M. le ministre de l’instruction publique
+ils ont adressé à ,(np "salvandy" [M. le ministre de l’instruction publique])
 un mémoire fort étendu, dont nous reproduisons quelques extraits.
 ][
-,(q[Y pensez-vous, monsieur le ministre ?
+« Y pensez-vous, monsieur le ministre ?
 Vous voulez introduire dans les facultés
 l’enseignement de l’économie politique !
-C’est donc un parti pris de déconsidérer nos priviléges ?])
+C’est donc un parti pris de déconsidérer nos priviléges ?
 ][
-,(q[S’il est une maxime vénérable, c’est assurément celle-ci :
+« S’il est une maxime vénérable, c’est assurément celle-ci :
 En tous pays, l’enseignement doit être en harmonie
 avec le principe du gouvernement.
 Croyez-vous qu’à Sparte ou à Rome
 le trésor public aurait payé des professeurs
 pour déclamer contre le butin fait à la guerre ou contre l’esclavage ?
-Et vous voulez qu’en France il soit permis de discréditer la restriction
-,(footnote*[
+Et vous voulez qu’en France il soit permis de discréditer la restriction ,(footnote*[
 Ici se montre le germe de
 ,(cite-title(bof-ref "baccalaureat_et_socialisme"
 	[Baccalauréat et Socialisme])),
@@ -55,38 +53,38 @@ qu’on verra plus apparent encore dans les pages qui suivent.
 Voy. ce pamphlet au
 ,(bof-ref "guillaumin" "4" [tome IV]).
 ,(NdEEO)
-]) !])
+]) !
 ][
-,(q[La nature, monsieur le ministre,
+« La nature, monsieur le ministre,
 a voulu que les sociétés ne puissent exister
 que sur les produits du travail,
 et, en même temps, elle a rendu le travail pénible.
 Voilà pourquoi, à toutes les époques et dans tous les pays,
 on remarque parmi les hommes une incurable disposition à s’entre-dépouiller.
 Il est si doux de mettre la peine à la charge de son voisin
-et de garder la rémunération pour soi !])
+et de garder la rémunération pour soi !
 ][
-,(q[La guerre est le premier moyen dont on se soit avisé.
+« La guerre est le premier moyen dont on se soit avisé.
 Pour s’emparer du bien d’autrui,
-il n’y en a pas de plus court et de plus simple.])
+il n’y en a pas de plus court et de plus simple.
 ][
-,(q[L’esclavage est venu ensuite.
+« L’esclavage est venu ensuite.
 C’est un moyen plus raffiné,
 et il est prouvé que ce fut un grand pas vers la civilisation
-que de réduire le prisonnier en servitude au lieu de le tuer.])
+que de réduire le prisonnier en servitude au lieu de le tuer.
 ][
-,(q[Enfin, à ces deux modes grossiers de Spoliation,
+« Enfin, à ces deux modes grossiers de Spoliation,
 le progrès des temps en a substitué un autre
 beaucoup plus subtil, et qui, par cela même,
 a bien plus de chances de durée,
-d’autant que son nom même, ,(emph[protection]),
+d’autant que son nom même, ,(emph[protection,])
 est admirablement trouvé pour en dissimuler l’odieux.
 Vous n’ignorez pas combien les noms
-font quelquefois prendre le change sur les choses.])
+font quelquefois prendre le change sur les choses.
 ][
-,(q[Vous le voyez, monsieur le ministre,
-prêcher contre la protection, dans les temps modernes,
-ou contre la guerre et l’esclavage, dans l’antiquité,
+« Vous le voyez, monsieur le ministre,
+prêcher contre la protection dans les temps modernes
+ou contre la guerre et l’esclavage dans l’antiquité,
 c’est tout un.
 C’est toujours ébranler l’ordre social
 et troubler la quiétude d’une classe très-respectable de citoyens.
@@ -94,14 +92,14 @@ Et si la Rome païenne montra une grande sagesse,
 un prévoyant esprit de conservation
 en persécutant cette secte nouvelle
 qui venait dans son sein faire retentir les mots dangereux :
-,(emph[paix et fraternité]),(pv)
+,(emph[paix et fraternité ;])
 pourquoi aurions-nous plus de pitié aujourd’hui
 pour les professeurs d’économie politique ?
 Pourtant, nos m,(oe)urs sont si douces, notre modération est si grande,
 que nous n’exigeons pas que vous les livriez aux bêtes.
-Défendez-leur de parler, et nous serons satisfaits.])
+Défendez-leur de parler, et nous serons satisfaits.
 ][
-,(q[Ou du moins, si tant ils ont la rage de discourir,
+« Ou du moins, si tant ils ont la rage de discourir,
 ne peuvent-ils le faire avec quelque impartialité ?
 Ne peuvent-ils accommoder un peu la science à nos souhaits ?
 Par quelle fatalité les professeurs d’économie politique de tous les pays
@@ -112,50 +110,50 @@ certes, il a aussi des avantages,
 puisqu’il nous convient.
 Messieurs les professeurs ne pourraient-ils pas
 mettre un peu plus les inconvénients dans l’ombre
-et les avantages en saillie ?])
-][
-,(q[D’ailleurs, à quoi servent les savants, sinon à faire la science ?
+et les avantages en saillie ?
+][,(tag :a :name "galilee_ref")
+« D’ailleurs, à quoi servent les savants, sinon à faire la science ?
 Qui les empêche d’inventer une économie politique exprès pour nous ?
 Évidemment, il y a de leur part mauvaise volonté.
 Quand la sainte inquisition de Rome trouva mauvais
-que Galilée fit tourner la terre,
+que ,(np "galilee" [Galilée]) fit tourner la terre,
 ce grand homme n’hésita pas à la rendre immobile.
 Il en fit même la déclaration à genoux.
 Il est vrai qu’en se relevant, il murmurait, dit-on :
 ,(initalian[E pur si muove]).
 Que nos professeurs aussi déclarent publiquement, et à genoux,
 que ,(emph[la liberté ne vaut rien]),
-et nous leur pardonnerons, s’ils marmottent, ,(XXX)
+et nous leur pardonnerons, s’ils marmottent,
 pourvu que ce soit entre les dents :
-,(initalian[E pur è buona]).])
+,(initalian[E pur è buona]).
 ][
-,(q[Mais nous voulons subsidiairement pousser la modération plus loin encore.
+« Mais nous voulons subsidiairement pousser la modération plus loin encore.
 Vous ne disconviendrez pas, monsieur le ministre,
 qu’il faut être impartial avant tout.
 Eh bien !
 puisqu’il y a dans le monde deux doctrines qui se heurtent,
-l’une ayant pour devise : ,(emph[laissez échanger]),
-et l’autre : ,(emph[empêchez d’échanger]),
+l’une ayant pour devise : ,(emph[laissez échanger,])
+et l’autre : ,(emph[empêchez d’échanger,])
 de grâce, tenez la balance égale,
 et faites professer l’une comme l’autre.
-Ordonnez que notre économie politique soit aussi enseignée.])
+Ordonnez que notre économie politique soit aussi enseignée.
 ][
-,(q[N’est-il pas bien décourageant
+« N’est-il pas bien décourageant
 de voir la science se mettre toujours du côté de la liberté,
 et ne devrait-elle pas partager un peu ses faveurs ?
 Mais non, une chaire n’est pas plutôt érigée,
 qu’on y voit apparaître, comme une tête de Méduse,
-la figure d’un ,(emph[libre-échangiste]).])
-][
-,(q[C’est ainsi que J. B. Say a donné un exemple
+la figure d’un ,(emph[libre-échangiste]).
+][,(tag :a :name "say_ref")
+« C’est ainsi que ,(np "say_jb" [M. J.-B. Say]) a donné un exemple
 que se sont empressés de suivre
-MM. Blanqui, Rossi, Michel Chevalier, Joseph Garnier.
+MM. ,(np "blanqui" [Blanqui]), ,(np "rossi" [Rossi]), ,(np "chevalier" [Michel Chevalier]), ,(np "garnier" [Joseph Garnier]).
 Que serions-nous devenus si vos prédécesseurs n’avaient eu grand soin
 de borner cet enseignement funeste ?
 Qui sait ?
-Cette année même nous aurions à subir le bon marché du pain.])
-][
-,(q[En Angleterre, Ad. Smith, Senior et mille autres
+Cette année même nous aurions à subir le bon marché du pain.
+][,(tag :a :name "smith_ref")
+« En Angleterre, ,(np "smith" [Ad. Smith]), ,(np "senior" [Senior]) et mille autres ,(XXX :le "Ad. Smith, Stewart, Senior et mille autres")
 ont donné le même scandale.
 Bien plus, l’université d’Oxford crée une chaire d’économie politique
 et y place… qui ?
@@ -164,29 +162,29 @@ M. Whateley, archevêque de Dublin,
 qui a fondé dans cette ville une chaire d’économie politique,
 a exercé le professorat à Oxford.
 ,(NdEEO)
-]),(pv)
-et voilà que M. l’archevêque se met à enseigner
+]) ;
+et voilà que ,(np "whately" [M. l’archevêque]) se met à enseigner
 que la religion s’accorde avec la science
 pour condamner cette partie de nos profits qui sort du régime restrictif.
 Aussi qu’est-il advenu ?
 C’est que peu à peu l’opinion publique s’est laissé séduire,
 et, avant qu’il soit deux ans,
 les Anglais auront le malheur d’être libres dans leurs ventes et leurs achats.
-Puissent-ils être ruinés comme ils le méritent !])
-][
-,(q[Mêmes faits en Italie.
+Puissent-ils être ruinés comme ils le méritent !
+][,(tag :a :name "genovesi_ref")
+« Mêmes faits en Italie.
 Rois, princes et ducs, grands et petits,
 ont eu l’imprudence d’y tolérer l’enseignement économique,
 sans imposer aux professeurs
 l’obligation de faire sortir de la science
 des vues favorables aux restrictions.
 Des professeurs innombrables,
-les Genovesi, les Beccaria, et de nos jours, M. Scialoja,
+les ,(np "genovesi" [Genovesi]), les ,(np "beccaria" [Beccaria]), et de nos jours, ,(np "scialoja" [M. Scialoja]),
 comme il fallait s’y attendre, se sont mis à prêcher la liberté,
 et voilà la Toscane libre dans ses échanges,
-et voilà Naples qui sabre ses tarifs.])
-][
-,(q[Vous savez quels résultats a eu ,(XXX :EO [eus]) en Suisse
+et voilà Naples qui sabre ses tarifs.
+][,(tag :a :name "presse_ref")
+« Vous savez quels résultats a eus en Suisse
 le mouvement intellectuel
 qui y a toujours dirigé les esprits vers les connaissances économiques.
 La Suisse est libre, et semble placée au milieu de l’Europe,
@@ -196,11 +194,11 @@ La liberté a pour conséquence de ruiner
 l’agriculture, le commerce et l’industrie,
 on ne manque pas de nous montrer la Suisse.
 Un moment, nous ne savions que répondre.
-Grâce au ciel, la ,(cite-title[Presse]) nous a tirés de peine
+Grâce au ciel, la ,(tj "presse" [,(cite-title[Presse])]) nous a tirés de peine
 en nous fournissant cet argument précieux :
-,(emph[La Suisse n’est pas inondée parce qu’elle est petite.])])
-][
-,(q[La science, la science maudite,
+,(emph[La Suisse n’est pas inondée parce qu’elle est petite.])
+][,(tag :a :name "lasagra_ref")
+« La science, la science maudite,
 menace de faire déborder sur l’Espagne le même fléau.
 L’Espagne est la terre classique de la protection.
 Aussi voyez-vous comme elle a prospéré !
@@ -209,15 +207,15 @@ dans le Nouveau-Monde, de la richesse de son sol,
 le régime prohibitif suffit bien pour expliquer
 le degré de splendeur auquel elle est parvenue.
 Mais l’Espagne a des professeurs d’économie politique,
-des La Sagra, des Florez Estrada,
-et voici que le ministre des finances, M. Salamanca,
+des ,(np "lasagra" [La Sagra]), des ,(np "florez" [Florez Estrada]),
+et voici que le ministre des finances, ,(np "salamanca" [M. Salamanca]),
 prétend relever le crédit de l’Espagne et gonfler son budget
-par la seule puissance de la liberté commerciale.])
+par la seule puissance de la liberté commerciale.
 ][
-,(q[Enfin, monsieur le ministre, que voulez-vous de plus ?
-En Russie, il n’y a qu’un économiste, et il est pour le libre-échange.])
-][
-,(q[Vous le voyez,
+« Enfin, monsieur le ministre, que voulez-vous de plus ?
+En Russie, il n’y a qu’un économiste, et il est pour le libre-échange.
+][,(tag :a :name "archimede_ref")
+« Vous le voyez,
 la conspiration de tous les savants du monde
 contre les entraves commerciales est flagrante.
 Et quel intérêt les presse ?
@@ -226,20 +224,20 @@ Ils prêcheraient la restriction qu’ils n’en seraient pas plus maigres.
 C’est donc de leur part méchanceté pure.
 Cette unanimité a les plus grands dangers.
 Savez-vous ce qu’on dira ?
-À les voir si bien d’accord,
+A les voir si bien d’accord,
 on finira par croire que ce qui les unit dans la même foi,
 c’est la même cause qui fait que tous les géomètres du monde pensent de même,
-depuis Archimède, sur le carré de l’hypoténuse.])
+depuis ,(np "archimede" [Archimède]), sur le carré de l’hypoténuse.
 ][
-,(q[Lors donc, monsieur le ministre,
+« Lors donc, monsieur le ministre,
 que nous vous supplions de faire enseigner impartialement
 deux doctrines contradictoires,
 ce ne peut être de notre part qu’une demande subsidiaire,
 car nous pressentons ce qui adviendrait ;
 et tel que vous chargeriez de professer la restriction
-pourrait bien, par ses études, être conduit vers la liberté.])
+pourrait bien, par ses études, être conduit vers la liberté.
 ][
-,(q[Le mieux est de proscrire, une bonne fois pour toutes,
+« Le mieux est de proscrire, une bonne fois pour toutes,
 la science et les savants et de revenir aux sages traditions de l’empire.
 Au lieu de créer de nouvelles chaires d’économie politique,
 renversez celles, heureusement en petit nombre, qui sont encore debout.
@@ -247,27 +245,29 @@ Savez-vous comment on a défini l’économie politique ?
 ,(emph[La science qui enseigne aux travailleurs
 à garder ce qui leur appartient.])
 Évidemment un bon quart de l’espèce humaine serait perdu,
-si cette science funeste venait à se répandre.])
-][
-,(q[Tenons-nous-en à la bonne et inoffensive éducation classique.
+si cette science funeste venait à se répandre.
+][,(tag :a :name "virgile_ref")
+« Tenons-nous-en à la bonne et inoffensive éducation classique.
 Bourrons nos jeunes gens de grec et de latin.
 Quand ils scanderaient sur le bout de leurs doigts, du matin au soir,
-les hexamètres des ,(cite-title[Bucoliques]),
+les hexamètres des ,(np "virgile" [,(cite-title[Bucoliques])]),
 quel mal cela peut-il nous faire ?
-Laissons-les vivre avec la société romaine, avec les Gracques et Brutus,
+,(tag :a :name "beranger_ref")
+Laissons-les vivre avec la société romaine, avec les ,(np "gracques" [Gracques]) et ,(np "brutus" [Brutus]),
 au sein d’un sénat où l’on parle toujours de guerre,
 et au Forum où il est toujours question de butin ;
-laissons-les s’imprégner de la douce philosophie d’Horace :])
-](blockquote[
-	 Tra la la la, notre jeunesse, ,(br)
-	 Tra la la la, se forme là.
+laissons-les s’imprégner de la douce philosophie d’,(np "horace" [Horace]) :
+](verses[
+	 Tra la la la, notre jeunesse,][
+	 Tra la la la, se forme là. ,(np "beranger" [*])
 ])[
-,(q[Qu’est-il besoin de leur apprendre les lois du travail et de l’échange ?
+« Qu’est-il besoin de leur apprendre les lois du travail et de l’échange ?
 Rome leur enseigne à mépriser le travail, ,(inlatin[servile opus]),
 et à ne reconnaître comme légitime d’autre échange
-que le ,(inlatin[v,(ae) victis]) du guerrier possesseur d’esclaves..
+que le ,(inlatin[v,(ae) victis]) du guerrier possesseur d’esclaves.
 C’est ainsi que nous aurons une jeunesse bien préparée
 pour la vie de notre moderne société.
+,(tag :a :name "titelive_ref")
 ,(--) Il y a bien quelques petits dangers.
 Elle sera quelque peu républicaine ;
 aura d’étranges idées sur la liberté et la propriété ;
@@ -275,7 +275,7 @@ dans son admiration aveugle pour la force brutale,
 on la trouvera peut-être un peu disposée
 à chercher noise à toute l’Europe
 et à traiter les questions de politique, dans la rue, à coups de pavés.
-C’est inévitable, et, franchement, monsieur le ministre, grâce à Tite-Live,
+C’est inévitable, et, franchement, monsieur le ministre, grâce à ,(np "titelive" [Tite-Live]),
 nous avons tous plus ou moins barboté dans cette ornière.
 Après tout, ce sont là des dangers dont vous aurez facilement raison
 avec quelques bons gendarmes.
@@ -285,17 +285,17 @@ de ces audacieux qui ont écrit, en tête de leur programme,
 cette atroce définition de la propriété :
 Quand, un homme a produit une chose à la sueur de son front,
 puisqu’il a le droit de la consommer,
-il a celui de la troquer,(footnote*[
+il a celui de la troquer ,(footnote*[
 Voy., au tome II,
 ,(bof-ref "association_libre_echange"
 [la déclaration de principes de la société du ,(emph[Libre-Échange])]).
 ,(NdEEO)
-]) ?])
+]) ?
 ][
-,(q[Non, non, avec de telles gens,
-c’est peine perdue que de recourir à la réfutation.])
+« Non, non, avec de telles gens,
+c’est peine perdue que de recourir à la réfutation.
 ][
-,(q[Vite un bâillon, deux bâillons, trois bâillons !])
+« Vite un bâillon, deux bâillons, trois bâillons ! »
 
 ])])
 (footer[,(oeuvres)

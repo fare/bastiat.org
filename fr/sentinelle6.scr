@@ -1,0 +1,68 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "")
+
+(document :title ""
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+,(p(small[Nous avons inséré et nous insérerons toujours avec plaisir tout ce qui sort de la plume de M. Fr. B. ; mais nous accueillons d’autant plus volontiers la lettre suivante de notre ami, que nous partageons entièrement ses idées sur cette erreur économique que l’administration des douanes et les partisans du système dit protecteur appellent si improprement ,(emph[balance du commerce]).]))
+,(cher[Monsieur le Rédacteur,])
+,(p*[
+La presse s’émeut depuis quelques jours de la situation de notre commerce extérieur, car il résulte des tableaux officiels récemment publiés par l’administration que les ,(emph[exportations]) de la France sont demeurées fort au-dessous de ses ,(emph[importations]).
+][
+Il y a déjà quelque deux cents ans que gouvernants et gouvernés tiennent pour incontestable le raisonnement suivant :
+][
+« Si un pays ,(emph[importe cinq]) et ,(emph[exporte quatre,]), il lui reste ,(emph[un]) à solder en numéraire : il perd ,(emph[un ;]) ce qui s’exprime par cette formule : ,(emph[La balance du commerce lui a été défavorable.])
+][
+Cela posé, pour savoir s’il a plu à nos négociants ,(emph[d’échanger à perte]), il suffit de jeter les yeux sur les documents émanés de la douane. La nation a-t-elle plus importé qu’exporté, elle a perdu la différence. Le procédé a du moins le mérite d’être simple et expéditif.
+][
+A la vérité, quelques rêveurs ont révoqué en doute la justesse de cette déduction ; mais leur théorie, dit-on, bonne tout au plus pour les livres, n’a aucune valeur pratique.
+][
+On conviendra peut-être qu’il y a quelque ,(emph[valeur pratique]) dans la comptabilité des négociants. Il n’est pas vraisemblable que toutes les maisons de commerce du monde se fassent illusion au point de prendre leurs profits pour des pertes et leurs pertes pour des bénéfices. Voyons donc si cette comptabilité est d’accord avec la doctrine de la balance du commerce.
+][
+Formons-nous l’idée d’une opération commerciale d’une grande simplicité. Nous examinerons ensuite comment elle figure dans les livres du négociant et dans les tableaux de la douane.
+][
+Une maison de Bayonne achète au cours pour 100,000 fr. de vins. Elle les envoie aux États-Unis. Là elle les vend et en convertit le produit en achat de cotons qu’elle fait venir en France.
+][
+Je suppose que l’opération a parfaitement réussi, que les frais de transport, assurances, droits d’entrée, etc., s’élèvent à 20 p. 0/0 et le bénéfice à 10 p. 0/0, tant à l’aller qu’au retour.
+][
+Dans cette hypothèse, les livres de cette maison présenteront les résultats suivants :])
+
+,(table
+(tr (td[Achat de vins]) (td[]) (td[Fr.]) (td :align "right" [100,000]))
+(tr (td[Transport aux États-Uni, frais, etc.,]) (td[20 p. 0/0]) (td[]) (td :align "right" [20,000]))
+(tr (td[Bénéfice]) (td[10 p. 0/0]) (td[]) (td :align "right" [10,000]))
+(tr (td[]) (td[]) (td :colspan 2 [,(hrule)]))
+(tr (td :align "center" (emph[Produit de la vente des vins])) (td[]) (td[Fr.]) (td :align "right" [130,000]))
+(tr (td[]) (td[]) (td :colspan 2 [,(hrule)]))
+(tr (td[Achat de cotons]) (td[]) (td[]) (td :align "right" [130,000]))
+(tr (td[Transport en France, frais, comm,(sup[s])., etc.,]) (td[20 p. 0/0]) (td[]) (td :align "right" [26,000]))
+(tr (td[Bénéfice]) (td[10 p. 0/0]) (td[]) (td :align "right" [13,000]))
+(tr (td[]) (td[]) (td :colspan 2 [,(hrule)]))
+(tr (td :align "center" (emph[Produit de la vente des cotons])) (td[]) (td[Fr.]) (td :align "right" [169,000]))
+)
+,(p*[Cette opération fera figurer ,(emph[au crédit du compte de profits et pertes,]) c’est-à-dire comme bénéfice, deux articles, l’un de 10,000, l’autre de 13,000 fr.
+][
+Mais, aux tableaux officiels, elle apparaîtra comme ayant occasionné à la France ,(emph[une perte]) considérable.
+][
+En effet, si les déclarations ont été sincères (ce qu’il faut supposer, sans cela il n’y aurait pas de déduction possible), ces tableaux mentionneront une exportation de 100,000 fr. et une importation de 169,000 fr., ou tout au moins de 130,000 fr.
+][
+Supposons maintenant que cette spéculation a laissé une perte évidente ; que, par exemple, le navire chargé de vins a sombré en sortant du port. En ce cas, il ne restera à notre négociant qu’à écrire sur son journal deux petites lignes ainsi formulées :])
+,(liste(p*[,(sc[Vins doivent à X])…… fr. 100,000, pour achat de vins.
+][
+,(sc[Profits et pertes doivent à vins]) fr. 100,000, pour perte définitive et totale de la cargaison.]))
+,(p*[Mais les économistes des journaux, y compris le journal qui s’intitule ,(cite-title[Le Commerce]), verront dans ce naufrage un profit clair et net de 100,000 fr. pour la nation.
+][
+Car les tableaux de la douane auront constaté une ,(emph[exportation]) de pareille somme et n’auront eu aucune ,(emph[importation]) à mettre en regard, d’où la conclusion que la France a 100,000 fr. à recevoir en numéraire.
+][
+Voilà pourtant, Monsieur, les idées qui dominent dans la presse, au parlement, dans les conseils du roi ; voilà le flambeau à la lumière duquel on remanie les tarifs. Cela est dur, cela est même humiliant pour un peuple qui se targue de frayer à tous les autres les voies de la civilisation.])
+,(politesse[Agréez, etc.])
+,(sign[Fr. B.])
+])
+(footer [
+	,(oeuvres)
+	,(art_sp)
+])
+(with-footer (p*[
+])))

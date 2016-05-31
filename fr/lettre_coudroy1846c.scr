@@ -7,21 +7,21 @@ du 18 avril 1846")
 (bastiat[
 ,(date-tag[Paris, le 18 avril 1846.])
 ,(p*[
-Mon cher Félix, je suis entièrement privé de tes lettres, il est vrai que je suis moi-même bien négligent. Tu ne pourras pas croire que le temps me manque, et c’est pourtant la vérité ; quand on est comme campé à Paris, la distribution des heures est si mauvaise qu’on n’arrive à rien.
-][
-Je ne te dirai pas grand’chose de moi, j’ai tant de personnes à voir que je ne vois personne ; cela semble un paradoxe, et c’est la vérité. Je n’ai été qu’une fois chez Dunoyer, une fois chez Comte, une fois chez Mignet, et ainsi du reste. Je puis avoir des relations avec les journaux ; la ,(cite-title[Patrie]), le ,(cite-title[Courrier français]), le ,(cite-title[Siècle]) et le ,(cite-title[National]) m’ont ouvert leurs colonnes. Je n’ai pas encore d’aboutissant aux ,(cite-title[Débats]). M. Michel Chevalier m’a bien offert d’y faire admettre mes articles ; mais je voudrais avoir entrée dans les bureaux pour éviter les coupures et les altérations.
-][
-L’association marche à pas de tortue, ce n’est que de dimanche en huit que je serai fixé, ce jour-là il y aura une réunion. Voici les noms de quelques-uns des membres : d’Harcourt, Pavée de Vendeuvre, amiral Grivel, Anisson-Duperron, Vincens Saint-Laurent, pairs.
-][
-Lamartine, Lafarelle, Bussières, Lherbette, de Corcelles et quelques autres députés ,(footnote*[La coopération de plusieurs de ces personnages ne fut pas obtenue. ,(NdEEO)]).
-][
-Michel Chevalier, Blanqui, Wolowski, Léon Faucher et autres économistes ; d’Eichthal, Cheuvreux, Say et autres banquiers négociants.
-][
-La difficulté est de réunir ces personnages emportés par le tourbillon politique. Derrière, il y a des jeunes gens plus ardents, et qu’il faut contenir, au moins provisoirement, pour ne pas perdre l’avantage de nous appuyer sur ces noms connus et populaires.
+,(np "coudroy" [Mon cher Félix]), je suis entièrement privé de tes lettres, il est vrai que je suis moi-même bien négligent. Tu ne pourras pas croire que le temps me manque, et c’est pourtant la vérité ; quand on est comme campé à Paris, la distribution des heures est si mauvaise qu’on n’arrive à rien.
+][,(tag :a :name "dunoyer_ref")
+Je ne te dirai pas grand’chose de moi, j’ai tant de personnes à voir que je ne vois personne ; cela semble un paradoxe, et c’est la vérité. Je n’ai été qu’une fois chez ,(np "dunoyer" [Dunoyer]), une fois chez ,(np "comte" [Comte]), une fois chez ,(np "mignet" [Mignet]), et ainsi du reste. Je puis avoir des relations avec les journaux ; la ,(tj "patrie" [,(cite-title[Patrie])]), le ,(tj "courrier" [,(cite-title[Courrier français])]), le ,(tj "siecle" [,(cite-title[Siècle])]) et le ,(tj "national" [,(cite-title[National])]) m’ont ouvert leurs colonnes. Je n’ai pas encore d’aboutissant aux ,(tj "debats" [,(cite-title[Débats])]). ,(np "chevalier" [M. Michel Chevalier]) m’a bien offert d’y faire admettre mes articles ; mais je voudrais avoir entrée dans les bureaux pour éviter les coupures et les altérations.])
+,(liste(p*[,(tag :a :name "harcourt_ref")
+L’association marche à pas de tortue, ce n’est que de dimanche en huit que je serai fixé, ce jour-là il y aura une réunion. Voici les noms de quelques-uns des membres : ,(np "harcourt" [d’Harcourt]), ,(np "pavee" [Pavée de Vendeuvre]), ,(np "grivel" [amiral Grivel]), ,(np "anisson" [Anisson-Duperron]), ,(np "vincens" [Vincens Saint-Laurent]), pairs.
+][,(tag :a :name "lamartine_ref")
+,(np "lamartine" [Lamartine]), ,(np "lafarelle" [Lafarelle]), ,(np "broquard" [Bussières]), ,(np "lherbette" [Lherbette]), ,(np "tircuy" [de Corcelles]) et quelques autres députés ,(footnote*[La coopération de plusieurs de ces personnages ne fut pas obtenue. ,(NdEEO)]).
+][,(tag :a :name "chevalier_ref")
+,(np "chevalier" [Michel Chevalier]), ,(np "blanqui" [Blanqui]), ,(np "wolowski" [Wolowski]), ,(np "faucher" [Léon Faucher]) et autres économistes ; ,(np "eichtal" [d’Eichthal]), ,(np "cheuvreux" [Cheuvreux]), ,(np "say_h" [Say]) et autres banquiers négociants.]))
+
+,(p*[La difficulté est de réunir ces personnages emportés par le tourbillon politique. Derrière, il y a des jeunes gens plus ardents, et qu’il faut contenir, au moins provisoirement, pour ne pas perdre l’avantage de nous appuyer sur ces noms connus et populaires.
 ][
 En attendant, nous avons eu un meeting composé de négociants et fabricants de Paris. Notre but était de les préparer, j’étais très-peu ,(emph[préparé]) moi-même et je n’avais pas consacré plus d’une heure à méditer ce que j’aurais à dire. Je me suis fait un plan très-simple dans lequel je ne pouvais m’égarer ; j’ai été heureux de m’assurer que cette méthode n’était pas au-dessus de mes facultés. En débutant très-simplement et sur le ton de la conversation, sans rechercher l’esprit ni l’éloquence, mais seulement la clarté et le ton de la conviction, j’ai pu parler une demi-heure, sans fatigue ni timidité. D’autres ont été plus brillants. Nous aurons un autre meeting plus nombreux dans huit jours, puis j’essayerai d’aller agiter le quartier latin.
-][
-J’ai vu ces jours-ci le ministre des finances ; il a approuvé tout ce que je fais, et ne demande pas mieux que de voir se former une opinion publique.
+][,(tag :a :name "lacave_ref")
+J’ai vu ces jours-ci ,(np "lacave" [le ministre des finances]) ; il a approuvé tout ce que je fais, et ne demande pas mieux que de voir se former une opinion publique.
 ][
 Adieu, l’heure me presse, je crains même d’être en retard.
 ])])

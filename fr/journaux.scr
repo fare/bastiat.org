@@ -9,6 +9,7 @@
 (p :class "alphabet" [
 ,(a :href :#b [B]) —
 ,(a :href :#c [C]) —
+,(a :href :#d [D]) —
 ,(a :href :#e [E]) —
 ,(a :href :#g [G]) —
 ,(a :href :#i [I]) —
@@ -16,6 +17,7 @@
 ,(a :href :#l [L]) —
 ,(a :href :#m [M]) —
 ,(a :href :#n [N]) —
+,(a :href :#o [O]) —
 ,(a :href :#p [P]) —
 ,(a :href :#r [R]) —
 ,(a :href :#s [S]) —
@@ -83,19 +85,35 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ])
 
 ,(journal "commerce" "Le Commerce" [
-,(p*[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette])])
+,(p*[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
+,(ref :url "lettre_cobden1846l.html#commerce_ref" [Lettre à Cobden, 29 septembre 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+])
+
+,(journal "constitutionnel" "Le Constitutionnel" [
+,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+
+,(journal "cm" "Courrier de Marseille" [
+,(ref :url "aux_membres_de_l_association.html#marseille_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
 ,(journal "courrier" "Le Courrier français" [
 ,(p*[,(ref :url "journaux_cf.html" [Articles publiés dans le — :])
-,(ref :url "lettre_cobden1846g.html#cf_ref" [Lettre à Cobden, 11 avril 1846])
-])
+,(ref :url "lettre_cobden1846g.html#cf_ref" [Lettre à Cobden, 11 avril 1846]) ;
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+,(ref :url "lettre_cobden1846m.html#courrier_ref" [Lettre à Cobden, 22 octobre 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#courrier_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])])
+
+]),(lettre "D" [
+
+,(journal "dp" "Démocratie pacifique" [
+,(ref :url "aux_membres_de_l_association.html#dp_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
-])
-
-	
-,(lettre "E" [
+]),(lettre "E" [
 ,(journal "economiste_belge" "L’Économiste belge" [
 ,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
 ])
@@ -124,7 +142,10 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "debats" "Journal des Débats" [
 ,(ref :url "l_Etat.html" [L’État]) ;
-Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 1])
+Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 1]) ;
+Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 mars 1846]) ;
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#debats_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
 
@@ -137,10 +158,15 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(ref :url "lettre_cobden1844.html#je_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
 ,(ref :url "lettre_horace_say1844.html#je_ref" [Lettre à H. Say, 24 novembre 1844]) ;
 ,(ref :url "lettre_dunoyer.html#censeur_ref" [Lettre à Dunoyer, 7 mars 1845]) ;
+,(ref :url "lettre_cobden1846e.html" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "lettre_cobden1845a.html#je_ref" [Lettre à Cobden, 8 avril 1845]) ;
 ,(ref :url "lettre_cobden1846f.html" [Lettre à Cobden, 2 avril 1846]) ;
 ,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
 ])])
+
+,(journal "jhavre" "Journal du Havre" [
+,(ref :url "aux_membres_de_l_association.html#marseille_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
 
 ]),(lettre "L" [
 
@@ -161,7 +187,8 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(journal "mb" "Mémorial bordelais" [
 ,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])]
 [Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834]),
-,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846])
+,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846]) ;
+,(ref :url "lettre_coudroy1846b.html" [Lettre à F. Coudroy, 22 mars 1846]) ;
 ])
 ])
 
@@ -186,14 +213,25 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ]),(lettre "N" [
 ,(journal "national" "Le National" [
-,(ref :url "la_main_droite_et_la_main_gauche.html#national_ref" [La main droite et la main gauche])
+,(ref :url "la_main_droite_et_la_main_gauche.html#national_ref" [La main droite et la main gauche]) ;
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#national_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
 
+]),(lettre "O" [
+
+,(journal "ocean" "L’Océan" [
+,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
 
-,(lettre "P" [
+]),(lettre "P" [
+,(journal "patrie" "La Patrie" [
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+
 ,(journal "presse" "La Presse" [
 ,(p*
 [Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
@@ -205,7 +243,9 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 ,(ref :url "question_conseils_generaux.html#presse_ref" [Une question soumise aux conseils généraux…]) ;
 ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
 ,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste]) ;
-,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846])
+,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#presse_ref" [Guerre aux chaires d’économie politique])
 ])])
 
 ,(journal "punch" "The Punch" [
@@ -214,15 +254,28 @@ Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 
 
 ]),(lettre "R" [
 
+,(journal "reforme" "La Réforme" [
+,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+
 ,(journal "encycl" "Revue encyclopédique" [
 ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827])
 ])
 
 ]),(lettre "S" [
 
+,(journal "semaphore" "Le Sémaphore" [
+,(ref :url "aux_membres_de_l_association.html#marseille_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+
 ,(journal "sp" "Sentinelle des Pyrénées" [
 ,(p*[,(ref :url "journaux_sp.html" [Articles publiés dans ce journal.])])
 ])
+
+,(journal "siecle" "Le Siècle" [
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+])
+
 
 ]),(lettre "V" [
 

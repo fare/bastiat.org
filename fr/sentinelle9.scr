@@ -1,0 +1,100 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Réforme postale")
+
+(document :title "Réforme postale"
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+,(cher[Monsieur,])
+,(p*[Les conseils généraux vont être appelés à donner leur avis sur la tarification uniforme de toutes les lettres à ,(emph[vingt centimes]). Je crois devoir appeler l’attention de ces assemblées sur le rapport de M. Chegaray à ce sujet. L’objection la plus spécieuse que l’on ait faite contre la réforme postale, c’est qu’elle semble s’écarter de l’exacte justice. L’administration blesserait l’équité, a-t-on dit, si elle soumettait à la même taxe des lettres qu’elle porte à des distances qui varient de un à neuf cents kilomètres. Il est impossible après la lecture du rapport vraiment lumineux de M. Chegaray de se laisser arrêter un moment par une semblable objection.
+][
+On sait que chaque bureau de poste est le centre de onze cercles concentriques diversement espacés. Le port d’une lettre simple s’accroît de dix centimes à mesure qu’elle franchit un de ces cercles, en sorte que la moindre taxe étant de vingt centimes, la plus élevée est de 1 fr. 20 c.
+][
+Mais il entre trois éléments dans la taxe d’une lettre :])
+,(liste(p*[1° Les frais de locomotion ;
+][
+2° Les frais généraux d’administration ;
+][
+3° L’impôt.]))
+,(p*[De ces trois éléments, le premier est le seul qui par sa nature soit ,(emph[variable]). L’administration dépense plus pour porter une lettre de Paris à Bayonne que pour la porter à Orléans.
+][
+Les frais généraux d’administration retombent d’une manière égale sur toutes les lettres. Celles qui s’arrêtent à Orléans n’occasionnent pas moins de dépenses de direction, inspection, tri, taxe, distribution, etc., que celles qui arrivent jusqu’à Bayonne.
+][
+Il en est de même de l’,(emph[impôt]). On ne dira pas sans doute que l’,(emph[égalité]) des charges serait violée si toutes les lettres concouraient ,(emph[également]) au revenu public.
+][
+La loi de 1827 n’a tenu aucun compte de ces destinations. Il en est résulté que la taxe qu’elle a établie est certainement l’impôt le plus inégalement réparti de tous ceux qui entrent dans notre système financier.
+][
+M. Chegaray a recherché quel est, pour une lettre donnée, le chiffre qui correspond aux trois natures de charges que nous venons d’énumérer.
+][
+Il a trouvé que les frais de locomotion s’élèvent de 1 c. 3/4 à 6 c. 3/4, selon la distance.
+][
+Les frais généraux coûtent à l’administration 8 c. par lettre.
+][
+La différence entre la somme de ces deux dépenses avancées par l’administration et la taxe qu’elle recouvre, fait connaître l’,(emph[impôt]) payé par le destinataire.
+][
+Cela posé, voici un tableau qui reproduit et décompose exactement le système actuel.])
+,(table
+(tr (td :colspan 6 []) (td :colspan 8 :align "center" [,(sc[Décomposition.,(br)Part afférente aux])]) (td :colspan 2 :rowspan 2 :align "center" [,(sc[Total.])]))
+(tr (td :colspan 6 []) (td :colspan 2 [,(sc[1. Frais généraux])]) (td :colspan 3 [,(sc[2. Frais de locomotion])]) (td :colspan 3 [,(sc[3. Impôts])]))
+(tr (td :colspan 6 []) (td :colspan 2 [,(hrule)]) (td :colspan 3 [,(hrule)]) (td :colspan 3 [,(hrule)]) (td :colspan 2 [,(hrule)]))
+(tr (td :colspan 6 :align "center" [,(sc[Taxe.])]) (td :colspan 2 []) (td :colspan 3 []) (td :colspan 3 []) (td :colspan 2 []))
+(tr (td :colspan 6 []) (td :align "center" [f.]) (td :align "center" [c.]) (td :align "center" [f.]) (td :align "center" [c.]) (td[]) (td :align "center" [f.]) (td :align "center" [c.]) (td []) (td :align "center" [f.]) (td :align "center" [c.]))
+(tr (td[1,(sup[re]) zone]) (td :align "right" [au-dessous de ]) (td :align "right" [ 40]) (td[]) (td :align "right" [20]) (td[ c.]) (td :align "right" [0]) (td :align "right" [08]) (td :align "right" [0]) (td :align "right" [01]) (td[¾]) (td :align "right" [0]) (td :align "right" [10]) (td[¼]) (td :align "right" [0]) (td[20]))
+(tr (td[2,(sup[me]) id.]) (td :align "right" [de  40 à ]) (td :align "right" [ 80]) (td[]) (td :align "right" [30]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [2]) (td[¼]) (td :align "right" []) (td :align "right" [19]) (td[¾]) (td :align "right" []) (td[30]))
+(tr (td[3,(sup[me]) id.]) (td :align "right" [de  80 à ]) (td :align "right" [150]) (td[]) (td :align "right" [40]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [2]) (td[¾]) (td :align "right" []) (td :align "right" [29]) (td[¼]) (td :align "right" []) (td[40]))
+(tr (td[4,(sup[me]) id.]) (td :align "right" [de 150 à ]) (td :align "right" [220]) (td[]) (td :align "right" [50]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [3]) (td[¼]) (td :align "right" []) (td :align "right" [38]) (td[¾]) (td :align "right" []) (td[50]))
+(tr (td[5,(sup[me]) id.]) (td :align "right" [de 220 à ]) (td :align "right" [300]) (td[]) (td :align "right" [60]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [3]) (td[¾]) (td :align "right" []) (td :align "right" [48]) (td[¼]) (td :align "right" []) (td[60]))
+(tr (td[6,(sup[me]) id.]) (td :align "right" [de 300 à ]) (td :align "right" [400]) (td[]) (td :align "right" [70]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [4]) (td[¼]) (td :align "right" []) (td :align "right" [57]) (td[¾]) (td :align "right" []) (td[70]))
+(tr (td[7,(sup[me]) id.]) (td :align "right" [de 400 à ]) (td :align "right" [500]) (td[]) (td :align "right" [80]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [4]) (td[¾]) (td :align "right" []) (td :align "right" [67]) (td[¼]) (td :align "right" []) (td[80]))
+(tr (td[8,(sup[me]) id.]) (td :align "right" [de 500 à ]) (td :align "right" [600 ]) (td[]) (td :align "right" [90]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [5]) (td[¼]) (td :align "right" []) (td :align "right" [76]) (td[¾]) (td :align "right" []) (td[90]))
+(tr (td[9,(sup[me]) id.]) (td :align "right" [de 600 à ]) (td :align "right" [750 ]) (td[]) (td :align "right" [100]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [5]) (td[¾]) (td :align "right" []) (td :align "right" [86]) (td[¼]) (td :align "right" [1]) (td[00]))
+(tr (td[10,(sup[me]) id.]) (td :align "right" [de 750 à ]) (td :align "right" [900]) (td[]) (td :align "right" [110]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [6]) (td[¼]) (td :align "right" []) (td :align "right" [95]) (td[¾]) (td :align "right" [1]) (td[10]))
+(tr (td[11,(sup[me]) id.]) (td :align "right" [au-dessus de ]) (td :align "right" [900]) (td[k.]) (td :align "right" [120]) (td[]) (td[]) (td :align "right" [8]) (td :align "right" []) (td :align "right" [6]) (td[¾]) (td :align "right" [1]) (td :align "right" [05]) (td[¼]) (td :align "right" [1]) (td[20]))
+)
+,(p*[Les personnes qui repoussent la réforme postale par esprit d’équité seront surprises sans doute à l’aspect de l’inégalité vraiment monstrueuse qui se révèle dans le tableau précédent.
+][
+Tandis que cette portion de la taxe qui est la juste rémunération des services rendus par la poste, qui se trouve comprise tout entière dans les colonnes 1 et 2, ne s’élève que de 9 3/4 à 14 3/4 c., c’est-à-dire dans la proportion de 1 à 1 1/2, cette autre part qui doit être considérée comme une pure contribution monte de 10 c. à 1 fr. 05 c., ou dans le rapport de 1 à 11.
+][
+Rechercons maintenant quelle serait l’,(emph[inégalité]) qui résulterait, au point de vue de l’impôt, de la tarification uniforme à 20 centimes.])
+,(table
+(tr (td[]) (td :align "center" :colspan 2 [,(sc[Rémunération]) ,(footnote*[On a additionné les ,(emph[frais généraux]) et les ,(emph[frais de locomotion]).]).]) (td :align "center" :colspan 2 [,(sc[Contribution.])]) (td :align "center" :colspan 2 [,(sc[Total.])]))
+(tr (td[1,(sup[re]) zone]) (td :align "right" [fr. »]) (td[09 ¾ c.]) (td :align "right" [fr. » 10]) (td[¼ c.]) (td :align "right" [fr. » ]) (td[20 c.]))
+(tr (td[2,(sup[me])]) (td :align "right" [»]) (td[10 ¼]) (td :align "right" [» 9]) (td[¾]) (td :align "right" [» ]) (td[20]))
+(tr (td[3,(sup[me])]) (td :align "right" [»]) (td[10 ¾]) (td :align "right" [» 9]) (td[¼]) (td :align "right" [» ]) (td[20]))
+(tr (td[4,(sup[me])]) (td :align "right" [»]) (td[11 ¼]) (td :align "right" [» 8]) (td[¾]) (td :align "right" [» ]) (td[20]))
+(tr (td[5,(sup[me])]) (td :align "right" [»]) (td[11 ¾]) (td :align "right" [» 8]) (td[¼]) (td :align "right" [» ]) (td[20]))
+(tr (td[6,(sup[me])]) (td :align "right" [»]) (td[12 ¼]) (td :align "right" [» 7]) (td[¾]) (td :align "right" [» ]) (td[20]))
+(tr (td[7,(sup[me])]) (td :align "right" [»]) (td[12 ¾]) (td :align "right" [» 7]) (td[¼]) (td :align "right" [» ]) (td[20]))
+(tr (td[8,(sup[me])]) (td :align "right" [»]) (td[13 ¼]) (td :align "right" [» 6]) (td[¾]) (td :align "right" [» ]) (td[20]))
+(tr (td[9,(sup[me])]) (td :align "right" [»]) (td[13 ¾]) (td :align "right" [» 6]) (td[¼]) (td :align "right" [» ]) (td[20]))
+(tr (td[10,(sup[me])]) (td :align "right" [»]) (td[14 ¼]) (td :align "right" [» 5]) (td[¾]) (td :align "right" [» ]) (td[20]))
+(tr (td[11,(sup[me])]) (td :align "right" [»]) (td[14 ¾]) (td :align "right" [» 5]) (td[¼]) (td :align "right" [» ]) (td[20]))
+)
+,(p*[Ici l’inégalité procède en sens inverse. C’est la lettre qui parcourt la plus grande distance qui paie le moindre impôt. Mais cette inégalité n’est qu’,(emph[idéale]), tant elle est minime, puisqu’elle se meut dans les bornes étroites des divisions d’,(emph[un sou]).
+][
+Remarquez en effet que, pour arriver à une égalité parfaite, en partant de 20 c. pour la plus petite distance, il faudrait que les lettres fussent taxées ainsi :])
+,(table
+(tr (td :align "right" [1,(sup[re])]) (td[ zone ]) (td[20 c.]) (td[]))
+(tr (td :align "right" [2,(sup[me])]) (td[]) (td[20]) (td[½]))
+(tr (td :align "right" [3,(sup[me])]) (td[]) (td[21]) (td[]))
+(tr (td :align "right" [4,(sup[me])]) (td[]) (td[21]) (td[½]))
+(tr (td :align "right" [5,(sup[me])]) (td[]) (td[22]) (td[]))
+(tr (td :align "right" [6,(sup[me])]) (td[]) (td[22]) (td[½]))
+(tr (td :align "right" [7,(sup[me])]) (td[]) (td[23]) (td[]))
+(tr (td :align "right" [8,(sup[me])]) (td[]) (td[23]) (td[½]))
+(tr (td :align "right" [9,(sup[me])]) (td[]) (td[24]) (td[]))
+(tr (td :align "right" [10,(sup[me])]) (td[]) (td[24]) (td[½]))
+(tr (td :align "right" [11,(sup[me])]) (td[]) (td[25]) (td[]))
+)
+,(p*[N’avais-je pas raison de qualifier d’,(emph[idéale]) une égalité qui ne saurait passer dans la pratique sans entraîner la création de demi-centimes ?
+][
+La réforme postale peut soulever de graves questions. Je n’ai prétendu en traiter qu’une, celle de l’égalité des charges. J’ai voulu montrer aux personnes qui se font scrupule d’admettre la taxe uniforme, dans la persuasion qu’elle blesse l’équité, qu’elles sont complétement dans l’erreur. Toute taxe graduelle la blesse davantage par la raison très-simple qu’il n’y a pour les frais de locomotion qu’,(emph[un sou]) de différence entre la lettre qui parcourt la moindre distance et celle qui traverse tout le royaume. L’habitude seule a pu produire l’illusion que je cherche à détruire. Pourquoi, par amour de l’égalité, ne demande-t-on pas que les journaux soient soumis à la taxe progressive ? Pourquoi n’exige-t-on pas que le tabac et les poudres se vendent d’autant plus chers que les dépôts sont plus éloignés des lieux de fabrication ? Parce qu’on comprend que les frais de transport entrent pour si peu dans le prix de ces choses qu’il vaut mieux n’en pas tenir compte que d’embarrasser l’administration dans les minuties d’une comptabilité inextricable. — Le même motif milite, et avec plus de force, en faveur du tatif uniforme des lettres.])
+,(sign[,(FredB).])
+])
+(footer [
+	,(oeuvres)
+	,(art_sp)
+])
+(with-footer (p*[
+])))

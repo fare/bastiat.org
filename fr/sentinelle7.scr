@@ -1,0 +1,89 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "")
+
+(document :title ""
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+,(p(small[M. Fr. B. nous a témoigné le désir de rendre publique, par la voie de la ,(cite-title[Sentinelle des Pyrénées,]) la lettre suivante qu’il adresse à M. le Rédacteur en chef de la ,(cite-title[Presse,]) en réponse à trois articles que ce journal a publiés sur l’état de nos relations commerciales et sur le chiffre de nos importations et de nos exportations pendant l’année 1842. Nous nous empressons de remplir les intentions de notre ami.]))
+,(h3[A Monsieur le Rédacteur en chef de la ,(cite-title[Presse]).])
+,(p*[Vous êtes logicien, Monsieur ; quand une fois vous êtes placé dans le courant d’un principe, vous allez partout où il peut mener, et vous en donnez, ce me semble, une preuve remarquable dans votre article du 27 novembre.
+][
+Votre point de départ est que l’art de s’enrichir consiste, pour une nation, ,(emph[à donner et à ne pas recevoir]). Assurément c’est là un axiome irréprochable dans la bouche du maîre d’armes de M. Jourdain ; mais je doute que vous parveniez jamais à le faire entrer dans les convictions des négociants et dans la pratique du commerce.
+][
+Quoi qu’il en soit, vous posez en principe « qu’un peuple qui régulièrement achèterait beaucoup aux autres et leur rendrait peu ne tarderait pas à s’épuiser. » En fait, la France, en 1842, a importé pour 1142 millions et n’a exporté que pour 940 millions : elle a donc perdu 202 millions.
+][
+Viennent ensuite les déductions : donc l’équilibre est rompu entre les importations et les exportations ; donc il n’y a que trop de libéralisme dans nos tarifs ; donc il faut que les hommes qui sont chargés ,(emph[de veiller au développement de nos intérêts]) à l’extérieur se décident ,(emph[à laisser là]) leurs projets de traité de commerce, etc., etc.
+][
+Mais, Monsieur, votre principe est-il fondé ? est-il vrai qu’un peuple s’appauvrit quand, dans ses échanges, il ,(emph[reçoit]) une valeur supérieur à celle qu’il ,(emph[donne ?]) Certes, puisque vous faisiez de cette étrange proposition la base de déductions plus étranges encore, elle valait la peine d’être démontrée et vous n’auriez pas dû vous borner à l’énoncer comme ,(emph[une vérité que l’on ne peut contester]).
+][
+Notre commerce a été assez malavisé pour perdre, en 1842, la somme énorme de 200 millions. Et sur qui, s’il vous plaît, est tombée cette perte ? A-t-elle frappé les négociants, ou les producteurs à qui ils ont acheté et payé les denrées, ou les consommateurs à qui ils ont vendu les produits étrangers ? Ils ont fait perdre 200 millions à la France, et vous concluez cela de ce qu’ils en ont fait sortir 940 millions pour y faire entrer 1140 millions !
+][
+Certes, si les négociants français ont fait preuve d’une telle impéritie, je croirai avec vous qu’il n’y a rien de mieux que de les interdire et de leur donner pour tuteur M. le ministre du commerce.
+][
+Mais permettez-moi de vous dire que pour arriver à cet équilibre que vous souhaitez entre la production et la consommation, entre l’importation et l’exportation, entre l’entrée et la sortie du numéraire, il y a dans le commerce un flambeau et un mobile que ne sauraient remplacer le génie et le zèle des hommes du pouvoir. Ce flambeau, c’est le prix courant des divers pays ; ce mobile, c’est l’intérêt personnel.
+][
+Les prix courants révèlent au commerce l’état exact des besoins et des ressources des peuples, quelle denrée abonde sur un point et manque sur un autre, l’étendue des sacrifices qu’on consent à faire ici pour obtenir une chose, et du remboursement qu’on exige ailleurs pour en livrer une autre. Ils agissent comme une multitude de thermomètres d’une sensibilité exquise, d’une graduation parfaite, plongés dans tous les marchés pour en révéler toutes les variations, lesquelles correspondent exactement aux intérêts généraux et en sont le signe infaillible.
+][
+L’intérêt personnel, d’un autre côté, pousse le négociant à travailler sans cesse à l’équilibre de ses besoins et de ses ressources, de ses offres et de ses demandes. Ne comprendra-t-on jamais que les combinaisons d’un ministre du commerce, quelque capacité qu’on lui suppose, n’approcheront jamais d’une telle précision ? En vérité, quand je considère l’irrésistible tendance qu’ont toutes les valeurs à s’équilibrer par leur propre force, je ne puis m’empêcher de penser que l’action d’un ministre est au moins superflue. Autant vaudrait salarier aussi toute une administration pour maintenir le niveau des eaux dans tous les lacs et les étangs du royaume.
+][
+Mais remarquez, Monsieur, que le commerce, qui se base sur les différences des prix courants, amène forcément ce résultat que vous déplorez : la supériorité des importations sur les exportations.
+][
+Je suppose que les cours de Bordeaux soient comme suit :])
+,(liste(p*[Blé — 15 fr. l’hectolitre ;
+][
+Fer — 30 fr. le quintal.]))
+,(p*[Et qu’au même instant les cotes de Liverpool portent :])
+,(liste(p*[Blé — 30 fr. l’hectolitre ;
+][
+Fer — 15 fr. le quintal.]))
+,(p*[Un échange s’opère sur ces bases. Si la douane fait bien son métier, elle constate les entrées et les sorties, tant en France qu’en Angleterre, selon le cours de chaque pays.
+][
+Cela posé, 1,000 hect. de blé à 15 fr. sortent de France, et la douane française inscrit une exportation de 15,000 fr.
+][
+En retour, 1,000 quintaux de fer à 30 fr. arrivent à Bordeaux, et la douane constate une importation de 30,000 fr.
+][
+Vous concluez de là que la France a perdu 15,000 fr. Qui les a donc gagnés ? l’Angleterre ? pas du tout, car sa douane a également inscrit une importation de 30,000 fr. de blé et une exportation de 15,000 fr. de fer.
+][
+Selon votre doctrine, Monsieur, cette opération devrait exciter les plaintes, les gémissements et les récriminations des deux pays.
+][
+Vous me direz que je raisonne sur un échange fictif et hypothétique. Mais remarquez que cette hypothèse représente la nature même des transactions commerciales. Changez les données, supposez un échange indirect, faites intervenir le numéraire ou les lettres de change, le résultat sera toujours le même.
+][
+Car la marchandise va du marché où elle a le ,(emph[moindre prix]) au marché où elle a le ,(emph[prix le plus élevé ;]) d’où il suit que la somme des ,(emph[entrées]) doit toujours dépasser en valeur la somme des ,(emph[sorties]).
+][
+On peut faire sur la masse des échanges internationaux le même raisonnement que sur une transaction isolée. Par exemple, la douane fiscale a constaté que la masse des produits exportés en 1842 valait, en France et au moment de leur sortie, 940 millions. Vous admettrez sans doute qu’arrivés sur les divers points du globe, ils ont dû se vendre à un prix suffisant pour rembourser leur valeur, plus les frais de transport, le bénéfice du négociant et même le montant des droits établis dans chaque localité. Qu’y a-t-il donc de surprenant que la totalité des retours arrivés en France, chargés aussi de frais de toute sorte, aient valu 1140 millions, ou environ 10 p. 0/0 de plus ?
+][
+Eh ! Monsieur, vous le dites vous-même. Voici vos paroles :
+][
+« Un peuple s’enrichit surtout par ses exportations. De quoi se composent-elles en effet ? de produits récoltés et fabriqués sur le territoire national ; par conséquent de produits qui, ,(emph[à la vente chez l’étranger, doivent rembourser]) le peuple vendeur non-seulement de leur valeur intrinsèque, mais encore etc. »
+][
+Et comment le peuple vendeur peut-il être ,(emph[remboursé]) sans que la douane constate une valeur plus grande à l’entrée qu’à la sortie ?
+][
+Votre principe est donc faux, Monsieur, et dès lors vous me permettrez de tenir pour funestes et erronées toutes les conséquences que vous en tirez, sans qu’il soit nécessaire de les combattre une à une.
+][
+Et elles sont larges vos conséquences. Elles ne vont à rien moins qu’à faire considérer tous nos négociants comme des malavisés ; à substituer, en matière de commerce, l’action du pouvoir à l’activité individuelle ; à gêner le commerce que nous faisons avec l’Angleterre, la Belgique, l’Allemagne, l’Autriche, la Russie, les États Sardes, la Suède, l’Inde, la Turquie et les États-Unis, pour nous livrer en compensation l’Espagne, le Chili et la Bolivie.
+][
+Et quand je songe, Monsieur, que vous provoquez cette immense révolution, ou pour mieux dire cette immense destruction commerciale, sur l’autorité de ce principe :
+][
+« Un peuple pour s’enrichir doit beaucoup donner et peu recevoir, »
+][
+J’avoue que je reste confondu en présence d’une telle aberration,
+,(verses
+[Et je suis étonné quand je songe à cela,]
+[Comment l’esprit humain peut aller jusque-là !]
+)][
+Je ne puis admettre non plus la distinction que vous établissez entre la matière première et les produits fabriqués ; et si je la combats ici, c’est qu’elle vous conduit à provoquer de nouvelles entraves, et à solliciter, selon votre habitude, l’action du pouvoir pour forcer les courants commerciaux à suivre des directions en harmonie non avec les besoins des peuples, mais avec vos combinaisons économiques et politiques.
+][
+Sans doute, si l’on compare les matières premières aux produits fabriqués d’après le poids ou le volume, les matières premières ont généralement une grande infériorité. Il y a plus de travail dans un kilogramme de dentelles que dans un kilogramme de houille. Mais devant la ,(emph[valeur,]) ces différences s’effacent : cent francs de rubans ne représentent pas plus de travail que cent francs de chanvre ou de lin. Or, c’est au point de vue de la valeur que vous examinez et comparez nos importations et nos exportations. Lors donc que vous dites qu’il faut s’appliquer sans relâche, ,(emph[par des modifications de tarif,]) à repousser cette sorte de travail étranger qui s’est fixé dans des produits fabriqués, et à favoriser l’entrée du travail étranger qui s’est incorporé dans les matières premières, vous exprimez en théorie un ,(emph[non-sens]).
+][
+Vous ne me paraissez pas plus heureux dans la classification que vous faites de ces deux ordres de produits. Pourquoi, je vous prie, rangez-vous les graines oléagineuses qui nous viennent de Russie parmi les matières premières, et les houilles belges et les fers anglais parmi les produits fabriqués ; car, certes, si la graine de lin est la matière de quelques couleurs, le fer est aussi la matière première de tous nos instruments, de toutes nos machines. Mais le comité Mimerel, les hauts barons de l’industrie redoutent le fer et la houille, tandis que les graines oléagineuses ne font concurrence qu’à l’agriculture. Si ce n’est pas là l’explication de votre nomenclature, il faut peut-être la chercher dans vos sympathies pour l’autocrate russe et votre aversion profonde pour le peuple anglais.])
+
+,(sign[F. B.])
+])
+(footer [
+	,(oeuvres)
+	,(art_sp)
+])
+(with-footer (p*[
+])))

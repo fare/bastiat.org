@@ -1,0 +1,71 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Question des sucres en Angleterre")
+
+(document :title "Question des sucres en Angleterre"
+	:author (author-FB)
+(bastiat[
+,(date-tag[,(cite-title[Sentinelle des Pyrénées]).])
+
+,(p*[C’est une chose affligeante que la presse parisienne, toute dévouée au privilége industriel, persiste à tenir le public dans l’ignorance de la révolution profonde qui s’opère en ce moment de l’autre côté du détroit, révolution qui ne va à rien moins qu’à détruire tous les monopoles et entr’autres le monopole colonial.
+][
+L’année dernière, dans une série d’articles insérés dans votre journal, j’essayai de constater les progrès obtenus dans cette voie et de retracer le rôle que jouaient dans cette grande lutte tous les partis politiques. Je n’ai pas la présomption de croire que ce que je disais alors est resté dans la mémoire de vos lecteurs. Je dois donc leur rappeler que les tories qui sont au pouvoir veulent une réforme lente, graduelle, qui ménage autant que possible les intérêts de l’aristocratie territoriale et coloniale, — que les whigs sont tombés pour avoir présenté un plan de réforme beaucoup plus accéléré, — enfin que les ,(inenglish[free-traders,]) vaste association qui exerce sur les esprits une influence immense, refusent toute transaction, tout compromis, et réclament la liberté immédiate et illimitée du commerce.
+][
+Il n’est pas un des articles du tarif anglais qui ne suscite de graves discussions au sein du parlement. Mais après les céréales, dont le monopole constitue le privilége aristocratique, le plus important c’est le sucre qui est comme la clé de la voûte du monopole colonial. C’est en effet sur l’exclusion de tous les sucres étrangers que l’Angleterre, comme la France, a fondé la prospérité de ses colonies.
+][
+Je présenterai dans un tableau l’état de choses actuel et les diverses combinaisons qui ont été proposées.])
+,(table
+(tr (td[]) (td :align "center" [,(emph[Sucre étranger.])]) (td :align "center" [,(emph[Sucre colonial.])]))
+(tr (td[Droits actuels]) (td[63 sh.]) (td[24 sh.]))
+(tr (td[Modification proposée en 1841 par l’administration whig]) (td[36]) (td[24]))
+(tr (td[Modification proposée cette année par sir Robert Peel]) (td[34]) (td[24]))
+(tr (td[1,(sup[er]) amendement de M. Miles]) (td[34]) (td[20]))
+(tr (td[2,(sup[me]) amendement de M. Miles, d’abord admis, puis rejeté]) (td[30]) (td[20]))
+)
+,(p*[On comprendra peut-être mieux la portée de chacune de ces combinaisons au point de vue du ,(emph[nivellement]) des deux sucres, si l’on recherche ce que paierait une certaine quantité de sucre étranger, une égale quantité de sucre colonial payant 100 dans chaque système. C’est l’objet du tableau suivant :])
+,(table
+(tr (td[]) (td :align "center" [,(emph[Sucre colonial.])]) (td :align "center" [,(emph[Sucre étranger.])]))
+(tr (td[Système actuel]) (td[100]) (td[262]))
+(tr (td[Système Russell]) (td[100]) (td[150]))
+(tr (td[Système Peel]) (td[100]) (td[140]))
+(tr (td[1,(sup[er]) système Miles (retiré)]) (td[100]) (td[170]))
+(tr (td[2,(sup[me]) système Miles]) (td[100]) (td[150]))
+)
+,(p*[On voit que sous le rapport du nivellement des deux sucres, le système Peel est le plus libéral, et il faut reconnaître que la doctrine de la liberté du commerce doit avoir gagné bien du terrain en Angleterre, pour que le ministère du monopole vienne au bout de trois ans présenter un plan plus réformateur que celui qui fit tomber l’administration whig.
+][
+En mettant sous les yeux du lecteur les tableaux ci-dessus, j’ai eu pour but de lui faire comprendre les incertitudes et les contradictions qui se sont manifestées au sein du parlement à l’occasion des amendements de M. Miles.
+][
+M. Miles représente le parti monopoleur. Il a voulu modérer le coup qui menaçait le monopole colonial. Pour cela, il avait deux partis à prendre. Ou restreindre l’abaissement proposé par le ministère sur le sucre étranger et présenter le chiffre 36, 38 ou 40 au lieu de 34, ou bien demander une réduction sur le sucre colonial. C’est à ce parti qu’il s’est arrêté, et c’est une chose très-significative que le monopole ne puisse plus trouver un champ de combinaisons que sur le terrain des dégrèvements.
+][
+En conséquence, M. Miles admettait que le sucre étranger fût réduit de 63 à 34 sh., c’est-à-dire de 29 sh. ; mais il proposait d’abord que le sucre colonial fût réduit aussi de 24 à 20 sh., soit de 4 sh.
+][
+Cette proposition n’avait aucune chance de succès. Elle favorisait dans une certaine mesure le consommateur, mais cet avantage ne méritait pas qu’on lui sacrifiât le principe bien autrement important du ,(emph[nivellement,]) qui est la seule voie par laquelle l’Angleterre puisse réussir à se débarrasser du lourd fardeau des colonies.
+][
+Qu’a fait alors M. Miles ? Il a amendé son amendement et a proposé une réduction tant sur le sucre étranger que sur le sucre colonial. — Aux chiffres 34 et 24 présentés par le ministère, il a substitué les chiffres 30 et 20.
+][
+Cette nouvelle combinaison était très-habile en ce qu’elle devait rallier tous les monopoleurs et un grand nombre de ,(inenglish[free-traders]).
+][
+M. Miles disait aux monopoleurs :])
+,(liste(p*[La proportion établie par le projet de loi entre les deux sucres est comme 100 à 140.
+][
+La proportion établie par mon amendement est de 100 à 150.
+][
+Il y a donc 7 pour cent au profit du monopole dans ma combinaison.]
+[En outre, les droits que je propose étant plus modérés, la consommation sera plus grande, ce qui aura pour résultat tout à la fois de maintenir les prix et d’augmenter l’écoulement des produits des Antilles.]))
+,(p*[Il disait aux ,(inenglish[free-traders :])
+][
+Je conçois que vous ayez repoussé mon premier amendement. Il ne favorisait pas le consommateur dans une assez forte proportion pour vous déterminer à sacrifier le principe du nivellement auquel il portait une grave atteinte. Mais à présent je concilie ce double intérêt. J’abaisse les deux chiffres du ministère en maintenant entr’eux, à peu de chose près, la même proportion. Cela doit aller à vos vues.
+][
+Là-dessus les ,(inenglish[free-traders]) se sont divisés.
+][
+Les uns se sont laissé entraîner par l’intérêt actuel, évident du consommateur ; par le désir de faire un pas de plus vers la destruction des taxes exagérées. Ils ont voté avec M. Miles.
+][
+Les autres, et principalement les hommes éminents de cette association, les Cobden, les Bouverie, les Gibson n’ont pas voulu mettre une question d’argent au-dessus d’une question de principe. Ce qu’ils attaquent surtout, ce n’est pas la taxe, c’est le monopole, c’est la protection, c’est le ,(emph[droit différentiel,]) non en tant que ,(emph[droit,]) mais en tant que ,(emph[différentiel]). Ce que les droits ont de commun rentre dans les coffres de l’état ; il peut être utile de les abaisser, mais les principes ne sont pas engagés dans la question. — Ce qu’ils ont de ,(emph[différentiel]) va à la poche des monopoleurs, c’est de la spoliation, et là-dessus les vrais ,(inenglish[free-traders]) ne transigent pas. Cette vérité mise au grand jour dans l’intervalle des deux votes, explique l’admission définitive de la proposition ministérielle. C’est donc la liberté, la liberté bien entendue qui a triomphé dans ce débat. C’est l’intérêt humanitaire qui a primé l’intérêt anglais. Malheureusement elle avait commencé par succomber avec les amendements bien autrement importants de lord Russell et de M. Ewart. Je vous demanderai peut-être la permission d’en entretenir vos abonnés.])
+,(sign[Fr. B.])
+])
+(footer [
+	,(oeuvres)
+	,(art_sp)
+])
+(with-footer (p*[
+])))

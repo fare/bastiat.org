@@ -4,8 +4,8 @@
 	- par Frédéric Bastiat")
 (document :title "Moteur social"
 	:author (author-FB)
-(subtitle [Chapitre XXII des ,(HarmoniesEconomiques)])
 (bastiat[
+,(h2[Chapitre XXII des ,(HarmoniesEconomiques)])
 ,(p*[
 
 Il n’appartient à aucune science humaine
@@ -178,7 +178,7 @@ dans les actes les plus ordinaires de la vie.
 Ils ne tarderont pas à reconnaître leur impuissance.
 Comment donc prétendent-ils imposer à tous les hommes sans exception
 une doctrine à laquelle eux-mêmes ne peuvent se soumettre ?
-][
+][,(tag :a :name "bossuet_ref")
 J’avoue qu’il m’est impossible de voir quelque chose de religieux,
 si ce n’est l’apparence et tout au plus l’intention,
 dans ces théories affectées, dans ces maximes inexécutables
@@ -186,7 +186,7 @@ qu’on prêche du bout des lèvres, sans cesser d’agir comme le vulgaire.
 Est-ce donc la vraie religion
 qui inspire à ces économistes catholiques cette pensée orgueilleuse,
 que Dieu a mal fait son ,(oe)uvre, et qu’il leur appartient de la refaire ?
-Bossuet ne pensait pas ainsi quand il disait :
+,(np "bossuet" [Bossuet]) ne pensait pas ainsi quand il disait :
 ,(q[L’homme aspire au bonheur, il ne peut pas ne pas y aspirer.])
 ][
 Les déclamations contre l’intérêt personnel
@@ -239,8 +239,8 @@ les atteintes de la Responsabilité et de la Solidarité ;
 et enfin, que de tous ces phénomènes,
 résulte un ensemble de rapports existants par eux-mêmes,
 que la science n’a pas à créer, comme ils l’imaginent, mais à observer.
-][
-Rousseau est, je crois, le publiciste qui a le plus naïvement
+][,(tag :a :name "rousseau_ref")
+,(np "rousseau" [Rousseau]) est, je crois, le publiciste qui a le plus naïvement
 exhumé de l’antiquité cette omnipotence du législateur renouvelée des Grecs.
 Convaincu que l’ordre social est une invention humaine,
 il le compare à une machine,
@@ -278,7 +278,7 @@ et principalement celui qui naît spontanément
 de l’organisation de l’homme et de la nature des choses.
 Les livres conçus sur ce plan ne sont et ne peuvent être
 qu’une longue déclamation contre la Société.
-][
+][,(tag :a :name "droz_ref")
 Cette fausse science n’étudie pas l’enchaînement des effets aux causes.
 Elle ne recherche pas le bien et le mal que produisent les actes,
 s’en rapportant ensuite, pour le choix de la route à suivre,
@@ -288,13 +288,14 @@ et si elle ne le peut, du moins elle conseille ;
 comme un physicien qui dirait à la pierre :
 ,(q[Tu n’es pas soutenue, je t’ordonne de tomber,
 ou du moins je te le conseille.])
-C’est sur cette donnée que M. Droz a dit :
+C’est sur cette donnée que ,(np "droz" [M. Droz]) a dit :
 ,(q[Le but de l’économie politique est
 de rendre l’aisance aussi générale que possible ;])
 définition qui a été accueillie avec une grande faveur par le Socialisme,
 parce qu’elle ouvre la porte à toutes les utopies
 et conduit à la réglementation.
-Que dirait-on de M. Arago s’il ouvrait ainsi son cours :
+,(tag :a :name "arago_ref")
+Que dirait-on de ,(np "arago" [M. Arago]) s’il ouvrait ainsi son cours :
 ,(q[Le but de l’astronomie est de rendre
 la gravitation aussi générale que possible ?])
 Il est vrai que les hommes sont des êtres animés, doués de volonté,
@@ -324,10 +325,10 @@ Si ce moteur n’est pas bon, il faut le briser, et en choisir un autre.
 et dans ces derniers temps nous avons entendu répéter à satiété :
 ,(q[Toutes les souffrances sociales sont imputables à l’économie politique
 ,(footnote*[
-La misère est le fait de l’économie politique…
+,(tag :a :name "proudhon_ref")La misère est le fait de l’économie politique…
 l’économie politique a besoin que la mort lui vienne en aide…
 c’est la théorie de l’instabilité et du vol.
-(,(strong[Proudhon]),
+(,(np "proudhon" [,(strong[Proudhon])]),
 ,(cite-title[Contradictions économiques]), t. II, p. 214.)
 ][
 Si les subsistances manquent au peuple…
@@ -344,23 +345,22 @@ c’est de tourner un regard sur eux-mêmes,
 et de chercher si la vraie cause de leurs maux
 n’est pas dans leur ignorance et leur injustice ;
 leur ignorance qui les place sous le coup de la Responsabilité,
-leur injustice qui attire sur eux les réactions de la solidarité
-,(XXX :sic [renoncement à la majuscule]).
+leur injustice qui attire sur eux les réactions de la Solidarité.
 Comment l’humanité songerait-elle à chercher dans ses fautes
-la cause de ses maux, quand on lui ,(XXX :sic [datif]) persuade
+la cause de ses maux, quand on lui persuade
 qu’elle est inerte par nature,
 que le principe de toute action, et par conséquent de toute responsabilité,
 est placé en dehors d’elle, dans la volonté du prince et du législateur ?
-][
+][,(tag :a :name "blanc_ref")
 Si j’avais à signaler le trait caractéristique
 qui différencie le Socialisme de la science économique, je le trouverais là.
 Le Socialisme compte une foule innombrable de sectes.
 Chacune d’elles a son utopie, et l’on peut dire
 qu’elles sont si loin de s’entendre,
 qu’elles se font une guerre acharnée.
-Entre l’,(cite-title[atelier social organisé]) de M. Blanc,
-et l’,(cite-title[an-archie]) ,(XXX :sic) de M. Proudhon,
-entre l’association de Fourier et le communisme de M. Cabet,
+Entre l’,(cite-title[atelier social organisé]) de ,(np "blanc" [M. Blanc]),
+et l’,(cite-title[an-archie]) de ,(np "proudhon" [M. Proudhon]),
+entre l’association de ,(np "fourier" [Fourier]) et le communisme de ,(np "cabet" [M. Cabet]),
 il y a certes aussi loin que de la nuit au jour.
 Comment donc des chefs d’école se rangent-ils
 sous la dénomination commune de ,(emph[Socialistes]),
@@ -440,16 +440,16 @@ et, partant, de plus en plus utile,
 rectifiant sans cesse les observations mal faites,
 et ajoutant indéfiniment des observations nouvelles
 aux observations antérieures.
-][
+][,(tag :a :name "say_ref")
 Mais les socialistes,
 ,(--) s’isolant les uns des autres, pour chercher chacun de son côté,
 des combinaisons artificielles dans leur propre imagination, ,(--)
 pourraient s’enquérir ainsi pendant l’éternité sans s’entendre
 et sans que le travail de l’un servit de rien aux travaux de l’autre.
-Say a profité des recherches de Smith,
-Rossi de celles de Say,
-Blanqui et Joseph Garnier de celles de tous leurs devanciers.
-Mais Platon, Morus, Harrington, Fénelon, Fourier
+,(np "say_jb" [Say]) a profité des recherches de ,(np "smith" [Smith]),
+,(np "rossi" [Rossi]) de celles de ,(np "say_jb" [Say]),
+,(np "blanqui" [Blanqui]) et ,(np "garnier" [Joseph Garnier]) de celles de tous leurs devanciers.
+Mais ,(np "platon" [Platon]), ,(np "more" [Morus]), ,(np "harrington" [Harrington]), ,(np "fenelon" [Fénelon]), ,(np "fourier" [Fourier])
 peuvent se complaire à organiser suivant leur fantaisie
 leur République, leur Utopie, leur Océana, leur Salente, leur Phalanstère,
 sans qu’il y ait aucune connexité entre leurs créations chimérique.
