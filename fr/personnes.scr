@@ -81,8 +81,21 @@
 
 ,(lettre "A" [
 
+,(personne "aguado" "Aguado" "Alexandre" "1784-1842" [
+,(bio [Banquier espagnol.])
+,(references(p*[,(ref :url "lettre14.html#cresus_ref" [Gratuité du crédit, Lettre 14]).]))
+])
+
 ,(personne1nom "alexandre" "Alexandre le Grand" "356-323 av. J.-C." [
-,(ref :url "baccalaureat_et_socialisme.html#alexandre_ref" [Baccalauréat et socialisme])
+,(references [,(p*[,(ref :url "baccalaureat_et_socialisme.html#alexandre_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "ligue_16.html#alexandre_ref" [L’agitation en Écosse]) ;
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies]) ;
+,(ref :url "physiologie_de_la_spoliation.html" [Physiologie de la spoliation]) ;
+,(ref :url "propriete_communaute.html#diogene_ref" [Propriété, communauté]).])])
+])
+
+,(personne "mmealexandre" "Alexandre" "Mme (?)" "?" [
+,(references (p*[,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849]).]))
 ])
 
 ,(personne "alfieri" "Alfieri" "Vittorio" "1749-1803" [
@@ -100,12 +113,12 @@
 ])])
 
 ,(personne "ambroise" "Ambroise de Milan" "(saint)" "v. 340-397" [
-,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme])
+,(references(p*[Mentionné dans une citation : ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme]).]))
 ])
  
 ,(personne "andrieux" "Andrieux" "François " "1759-1833" [
 ,(bio [Avocat, poète et auteur dramatique français.])
-,(references [,(p*[Allusion à la fable du ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) : ,(ref :url "propriete_et_spoliation3.html#andrieux_ref" [Propriété et spoliation III]).
+,(references [,(p*[Allusion à la fable du ,(cite-title[,(a :href "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) : ,(ref :url "propriete_et_spoliation3.html#andrieux_ref" [Propriété et spoliation III]).
 ,(verses[Les rois malaisément souffrent qu’on leur résiste.]
 [Frédéric, un moment par l’humeur emporté :]
 [« Parbleu, de ton moulin c’est bien être entêté ;]
@@ -132,7 +145,7 @@
 (item[,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848]) ;])
 (item[,(ref :url "lettre_schwabe1848e.html" [Lettre à M. Schwabe, ,(1er) juillet 1848]).]))
 
-,(p*[Nom mentionné dans des listes de membres de l’association libre-échangiste :
+,(p*[Mentionné dans des listes de membres de l’association libre-échangiste :
 ,(itemize
 (item[,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;])
 (item[,(ref :url "lettre_coudroy1846c.html#harcourt_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;])
@@ -141,7 +154,7 @@
 ])])
 
 ,(personne "antonelle" "Antonelle" "Pierre-Antoine" "1747-1817" [
-,(ref :url "baccalaureat_et_socialisme.html#antonelle_ref" [Baccalauréat et socialisme])
+,(references(p*[,(ref :url "baccalaureat_et_socialisme.html#antonelle_ref" [Baccalauréat et socialisme]).]))
 ])
 
 ,(personne "arago" "Arago" "François" "1786-1853" [
@@ -164,45 +177,60 @@
 ,(bio [Homme politique français, plusieurs fois ministre dans les années 1830 (Marine, Commerce et Travaux publics, Intérieur, Finances) et gouverneur de la Banque de France en 1834-36 et 1836-57.])
 ,(references [,(p*[,(ref :url "abondance_disette.html#argout_ref" [Abondance, disette]) ;
 ,(ref :url "effort_resultat.html#argout_ref" [Effort, résultat]) ;
-,(ref :url "metaphores.html#argout_ref" [Métaphores]).])])
+,(ref :url "metaphores.html#argout_ref" [Métaphores]).]
+[Sous la plume de Proudhon : ,(ref :url "lettre13.html#argout_ref" [Lettre 13]).]
+)])
 ])
 
 ,(personne "aristide" "Aristide" "dit le Juste" "v. 530-467 av. J.-C." [
-,(ref :url "baccalaureat_et_socialisme.html#aristide_ref" [Baccalauréat et socialisme])
+,(bio [Homme d’État athénien renommé pour son intégrité.])
+,(references(p*[Mentionné dans une citation : ,(ref :url "baccalaureat_et_socialisme.html#aristide_ref" [Baccalauréat et socialisme]).]))
 ])
 
 ,(personne1nom "aristote" "Aristote" "384-322 av. J.-C." [
-,(ref :url "metaphores.html#aristote_ref" [Métaphores]) ;
+,(references(p*[,(ref :url "metaphores.html#aristote_ref" [Métaphores]) ;
 ,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation]) ;
+,(ref :url "de_la_population.html#aristote_ref" [De la population]) ;
+,(ref :url "logique_cunin_gridaine.html#aristote_ref" [La logique de M. Cunin-Gridaine]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#epicure_ref" [Baccalauréat et socialisme]) (deux fois) ;
-,(ref :url "de_la_population.html#aristote_ref" [De la population])
+,(ref :url "responsabilite.html#aristote_ref" [Responsabilité]).
+][
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]) (deux fois).]))
 ])
 
 ,(personne "arnault" "Arnault" "Antoine-Vincent" "1766-1834" [
-,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
+,(bio [Homme politique, poète et auteur dramatique français.])
+,(references(p*[,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822]).]))
 ])
 
-,(personne "audry" "Audry de Puyraveau" "Pierre-François" "1773-1852" [
-,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830])
+,(personne1nom "attila" "Attila" "v. 395-453" [
+,(references(p*[,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies]).]))
+])
+
+,(personne "audry" "Audry de Puyravault" "Pierre-François" "1773-1852" [
+,(bio [Député de gauche (1822-1837, puis 1848-1849), protagoniste de la Révolution de Juillet.])
+,(references(p*[,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830]).]))
 ])
 
 ,(personne "augustin" "Augustin d’Hippone" "(saint)" "354-430" [
-,(ref :url "baccalaureat_et_socialisme.html#augustin_ref" [Baccalauréat et socialisme])
+,(references(p*[Mentionné dans une citation : ,(ref :url "baccalaureat_et_socialisme.html#augustin_ref" [Baccalauréat et socialisme]).]))
 ])
 
 ,(personne "azara" "Azara" "Felix de" "1742-1821" [
-,(ref :url "baccalaureat_et_socialisme.html#azara_ref" [Baccalauréat et socialisme])
+,(bio[Militaire, ingénieur et naturaliste espagnol.])
+,(references(p*[,(ref :url "baccalaureat_et_socialisme.html#azara_ref" [Baccalauréat et socialisme]).]))
 ])
 
 ])
 ,(lettre "B" [
 
 ,(personne "babeuf" "Babeuf" "François Noël, dit Gracchus" "1760-1797" [
-,(ref :url "la_loi.html#morelly_ref" [La Loi]) ;
-,(ref :url "baccalaureat_et_socialisme.html#mably_ref" [Baccalauréat et socialisme]) (plusieurs fois)
+,(references(p*[,(ref :url "la_loi.html#morelly_ref" [La Loi]) ;
+,(ref :url "baccalaureat_et_socialisme.html#mably_ref" [Baccalauréat et socialisme]) (plusieurs fois).]))
 ])
 
 ,(personne "bacon" "Bacon" "Francis" "1561-1626" [
+,(ref :url "maudit_argent.html#bacon_ref" [Maudit argent !]) (plusieurs fois) ;
 ,(ref :url "baccalaureat_et_socialisme.html#bacon_ref" [Baccalauréat et socialisme])
 ])
 
@@ -278,6 +306,10 @@
 ,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
 ])
 
+,(personne "bidault" "Bidault" "(?)" "?" [
+,(ref :url "lettre14.html#bidault_ref" [Lettre 14])
+])
+
 ,(personne "billaudvarenne" "Billaud-Varenne" "Jacques-Nicolas" "1756-1819" [
 ,(ref :url "la_loi.html#stjust_ref" [La Loi])
 ])
@@ -297,6 +329,7 @@
 ,(ref :url "propriete_et_loi.html#blanc_ref" [Propriété et loi]) (plusieurs fois) ; ,(ref :url "justice_fraternite.html" [Justice et fraternité]) (plusieurs fois) ;
 ,(ref :url "la_loi.html#morelly_ref" [La Loi]) (plusieurs fois) ;
 ,(ref :url "propriete_et_spoliation.html#blanc_ref" [Propriété et spoliation I]), ,(ref :url "propriete_et_spoliation7.html#blanc_ref" [VII]) ;
+,(ref :url "propriete_communaute.html#say_ref" [Propriété, communauté]) ;
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#blanc_ref" [Baccalauréat et socialisme]) (plusieurs fois)
 ,(p*[Sous la plume de Victor Considerant : ,(ref :url "propriete_et_spoliation6.html#blanc_ref" [Propriété et spoliation VI])])
@@ -326,6 +359,7 @@
 ,(ref :url "tarifs_francais_anglais.html#bonaparte_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "lettre_lamartine_1.html#bonaparte_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "introduction_sophismes.html#bonaparte_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ;
+,(ref :url "bornes_association.html#bonaparte_ref" [Bornes que s’impose l’association]) ;
 ,(ref :url "la_loi.html#bonaparte_ref" [La Loi]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme])
 ])
@@ -372,6 +406,7 @@
 
 ,(personne "brutus" "Brutus" "Marcus Junius" "v. 85-42 av. J.-C." [
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#virgile_ref" [Guerre aux chaires d’économie politique]) ;
+,(ref :url "maudit_argent.html#brutus_ref" [Maudit argent !])
 ,(ref :url "baccalaureat_et_socialisme.html#brutus_ref" [Baccalauréat et socialisme]) (plusieurs fois)
 ])
 
@@ -394,6 +429,7 @@
 ,(personne "cabet" "Cabet" "Étienne" "1788-1856" [
 ,(ref :url "organisation.html#fourier_ref" [Organisation naturelle, organisation artificielle]) ;
 ,(ref :url "propriete_et_loi.html#fourier_ref" [Propriété et loi]) ; ,(ref :url "justice_fraternite.html" [Justice et fraternité]) ;
+,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) ;
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social])
 ])
 
@@ -427,7 +463,8 @@
 
 ,(personne1nom "caton" "Caton l’Ancien" "v. 234-149 av. J.-C." [
 ,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation]) ;
-,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]) (plusieurs fois)
+,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
+,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !])
 ])
 
 ,(personne "cavaignac" "Cavaignac" "Eugène" "1802-1857" [
@@ -442,7 +479,9 @@
 
 ,(personne "cesar" "Cæsar" "Caius Julius" "100-44 av. J.-C." [
 ,(ref :url "deux_morales.html#cesar_ref" [Deux morales]) ;
-,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !]) ;
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ,(personne "chabrol" "Chabrol de Crouzol" "Christophe de" "1771-1836" [
@@ -471,6 +510,11 @@
 
 ,(personne "cheuvreux" "Cheuvreux" "Casimir" "1797-1881" [
 ,(ref :url "lettre_coudroy1846c.html#chevalier_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+,(ref :url "lettre_cheuvreux1849n.html#cheuvreux_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849])
+])
+
+,(personne "cheuvreux_h" "Cheuvreux" "Henriette" "?" [
+,(ref :url "lettres_cheuvreux.html" [Lettres à —])
 ])
 
 ,(personne "cheuvreux_l" "Cheuvreux" "Louise" "?" [
@@ -485,6 +529,7 @@
 
 ,(personne "cheve" "Chevé" "Frédéric" "?" [
 ,(ref :url "lettre1.html" [Lettre à Bastiat]), ,(ref :url "lettre2.html" [Réponse de Bastiat]), publiées par la suite dans ,(ref :url "gratuite_du_credit.html" [Gratuité du crédit]).
+,(ref :url "lettre14.html" [Lettre 14])
 ])
 
 ,(personne "chopin" "Chopin" "Frédéric" "1810-1849" [
@@ -524,6 +569,7 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "lettre_schwabe1848i.html" [Lettre à Mme Schwabe, 28 décembre 1848]) ;
 ,(ref :url "lettre_schwabe1849a.html#cobden_ref" [11 mars 1849]) ;
 ,(ref :url "introduction_cobden_ligue.html#cobden_ref" [Introduction à Cobden et la Ligue]) ;
+,(ref :url "invasion_produits_etrangers.html#cobden_ref" [A quoi se réduit l’invasion]) ;
 ])
 
 ,(personne "colbert" "Colbert" "Jean-Baptiste" "1619-1683" [
@@ -550,7 +596,8 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ])
 
 ,(personne "condillac" "Condillac" "Étienne Bonnot de" "1715-1780" [
-,(ref :url "la_loi.html#condillac_ref" [La Loi])
+,(ref :url "la_loi.html#condillac_ref" [La Loi]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(personne "considerant" "Considerant" "Victor" "1808-1893" [
@@ -558,6 +605,7 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "justice_fraternite.html#considerant_ref" [Justice et fraternité]) ;
 ,(ref :url "la_loi.html#considerant_ref" [La Loi 1]), ,(ref :url "la_loi.html#stcricq_ref" [2]) ;
 ,(ref :url "propriete_et_spoliation.html#blanc_ref" [Propriété et spoliation I]) (,(inlatin[passim])) ;
+,(ref :url "responsabilite.html#considerant_ref" [Responsabilité])
 
 ,(p*[Réponse de — à Bastiat : ,(ref :url "propriete_et_spoliation6.html" [Propriété et spoliation VI]) ; réponse de Bastiat à — : ,(ref :url "propriete_et_spoliation7.html" [Propriété et spoliation VII])])
 ])
@@ -601,6 +649,11 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#parisis_ref" [Baccalauréat et socialisme])
 ])
 
+,(personne1nom "cresus" "Crésus" [,(sc[vi]),(sup[e]) s. av. J.-C.] [
+,(ref :url "lettre14.html#cresus_ref" [Lettre 14]) ;
+,(ref :url "maudit_argent.html#brutus_ref" [Maudit argent !])
+])
+
 ,(personne "cromwell" "Cromwell" "Oliver" "1599-1658" [
 ,(ref :url "tarifs_francais_anglais.html#cromwell_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples])
 ])
@@ -615,6 +668,8 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)]) ;
 ,(ref :url "ministre_du_commerce.html" [A M. le ministre de l’Agriculture et du Commerce]) ;
 ,(ref :url "les_deux_haches.html" [Les deux haches]) ;
+,(ref :url "invasion_produits_etrangers.html#cunin_ref" [A quoi se réduit l’invasion]) ;
+,(ref :url "logique_cunin_gridaine.html" [La logique de M. Cunin-Gridaine]) ;
 ,(ref :url "le_vol_a_la_prime.html#cunin_ref" [Le vol à la prime (note)])
 ])
 
@@ -629,12 +684,17 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(personne "custine" "Custine" "Astolphe de" "1790-1857" [
 ,(ref :url "lettre_coudroy1840b.html#custine_ref" [Lettre à F. Coudroy, 6 juillet 1840]),
 ,(ref :url "lettre_coudroy1840d.html#custine_ref" [17 août 1840]),
-,(ref :url "lettre_coudroy1840e.html#custine_ref" [24 octobre 1840])
+,(ref :url "lettre_coudroy1840e.html#custine_ref" [24 octobre 1840]) ;
+,(ref :url "responsabilite.html#custine_ref" [Responsabilité (note)])
 ])
 
 ,(personne "cuvier" "Cuvier" "Georges" "1769-1832" [
 ,(ref :url "duels.html#cuvier_ref" [Réflexions sur la question des duels]) ;
 ,(ref :url "livre_dunoyer.html#cuvier_ref" [Sur un livre de M. Dunoyer])
+])
+
+,(personne1nom "cyrus" "Cyrus II le Grand" [,(sc[vi]),(sup[e]) s. av. J.-C.] [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ])
@@ -648,6 +708,10 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "justice_fraternite.html#dante_ref" [Justice et fraternité])
 ])
 
+,(personne "decazes" "Decazes" "Élie" "1780-1860" [
+,(ref :url "generalites.html#decazes_ref" [Sur les généralités])
+])
+
 ,(personne "decius" "Decius Mus" "Publius" [IV,(sup "e") s. av. J.-C.] [
 ,(ref :url "conte_chinois.html" [Conte chinois]) ;
 ,(ref :url "justice_fraternite.html#decius_ref" [Justice et fraternité])
@@ -655,7 +719,8 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 
 ,(personne "defoe" "Defoe" "Daniel" "1660-1731" [
 Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre chose]) (tout au long du texte) ;
-,(ref :url "propriete_et_spoliation2.html#defoe_ref" [Propriété et spoliation II])
+,(ref :url "propriete_et_spoliation2.html#defoe_ref" [Propriété et spoliation II]) ;
+,(ref :url "propriete_communaute.html#defoe_ref" [Propriété, communauté]) (plusieurs fois)
 ])
 
 ,(personne "delavigne" "Delavigne" "Casimir" "1793-1843" [
@@ -683,7 +748,9 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 ])
 
 ,(personne1nom "diogene" "Diogène de Sinope" "312-423 av. J.-C." [
-,(ref :url "physiologie_de_la_spoliation.html#diogene_ref" [Physiologie de la spoliation])
+,(ref :url "physiologie_de_la_spoliation.html#diogene_ref" [Physiologie de la spoliation]) ;
+,(ref :url "propriete_communaute.html#diogene_ref" [Propriété, communauté]) ;
+,(ref :url "maudit_argent.html#diogene_ref" [Maudit argent !])
 ])
 
 ,(personne "dombasle" "Dombasle" "Mathieu de" "1777-1843" [
@@ -711,6 +778,10 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 
 ,(personne "dudon" "Dudon" "Jean-François" "1778-1857" [
 ,(ref :url "aux_electeurs_landes.html" [Aux électeurs du département des Landes])
+])
+
+,(personne "dufaure" "Dufaure" "Jules" "1798-1881" [
+,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849])
 ])
 
 ,(personne "duffour" "Duffour-Dubergier" "Lodi-Martin" "1797-1860" [
@@ -744,7 +815,8 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 ,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
 ,(ref :url "metaphores.html#argout_ref" [Métaphores]) ;
 ,(ref :url "le_vol_a_la_prime.html#dupin_ref" [Le vol à la prime]) ;
-,(ref :url "la_loi.html#montalembert_ref" [La Loi])
+,(ref :url "la_loi.html#montalembert_ref" [La Loi]) ;
+,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849])
 ])
 
 ,(personne "dupontdelporte" "Dupont-Delporte" "Henri" "1783-1854" [
@@ -785,6 +857,10 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 
 ,(personne "espartero" "Espartero" "Baldomero" "1793-1879" [
 ,(ref :url "lettre_coudroy1840d.html#espartero_ref" [Lettre à F. Coudroy, 17 août 1840])
+])
+
+,(personne1nom "euclide" "Euclide" "v. 300 av. J.-C." [
+,(ref :url "responsabilite.html#aristote_ref" [Responsabilité])
 ])
 
 ,(personne "euler" "Euler" "Leonhard" "1707-1783" [
@@ -835,6 +911,10 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#lasagra_ref" [Guerre aux chaires d’économie politique])
 ])
 
+,(personne "florian" "Florian" "Jean-Pierre Claris de" "1755-1794" [
+,(ref :url "lettre14.html#florian_ref" [Lettre 14])
+])
+
 ,(personne "fonfrede" "Fonfrède" "Henri" "1788-1841" [
 ,(ref :url "lettre_coudroy1834.html#fonfrede_ref" [Lettre à F. Coudroy, 2 mars 1834]) ;
 ,(ref :url "reflexions_petitions_bordeaux.html#fonfrede_ref" [Réflexions sur les pétitions…])
@@ -850,6 +930,7 @@ Allusions à Robinson Crusoë : ,(ref :url "autre_chose.html#defoe_ref" [Autre 
 ,(ref :url "organisation.html#fourier_ref" [Organisation naturelle, organisation artificielle]) ;
 ,(ref :url "propriete_et_loi.html#fourier_ref" [Propriété et loi]) ; ,(ref :url "justice_fraternite.html" [Justice et fraternité]) ;
 ,(ref :url "la_loi.html#morelly_ref" [La Loi]) ;
+,(ref :url "responsabilite.html#fourier_ref" [Responsabilité]) (plusieurs fois) ;
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#stsimon_ref" [Baccalauréat et socialisme])
 ])
@@ -923,7 +1004,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "gracques" "Gracchus" "Tiberius Sempronius et Caius Sempronius" [,(sc[ii]),(sup[e]) s. av. J.-C.] [
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#virgile_ref" [Guerre aux chaires d’économie politique]) ;
-,(ref :url "baccalaureat_et_socialisme.html#brutus_ref" [Baccalauréat et socialisme]) (plusieurs fois)
+,(ref :url "baccalaureat_et_socialisme.html#brutus_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
+,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !])
 ])
 
 ,(personne "graham" "Graham" "James" "1792-1861" [
@@ -932,6 +1014,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "grivel" "Grivel" "Jean-Baptiste" "1778-1869" [
 ,(ref :url "lettre_coudroy1846c.html#harcourt_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+])
+
+,(personne1nom "guillaume" "Guillaume le Conquérant" "v. 1027-1087" [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ,(personne "guillaumin" "Guillaumin" "Gilbert" "1801-1864" [
@@ -972,6 +1058,18 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "dhaussez" "d’Haussez" "Charles Lemercier de Longpré, baron" "1778-1854" [
 ,(ref :url "aux_electeurs_landes.html#dhaussez_ref" [Aux électeurs du département des Landes])
+])
+
+,(personne "hegel" "Hegel" "Georg Wilhelm Friedrich" "1770-1831" [
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
+])
+
+,(personne "hennequin" "Hennequin" "Victor" "1816-1854" [
+,(ref :url "responsabilite.html#considerant_ref" [Responsabilité])
+])
+
+,(personne1nom "henriiv" "Henri IV" "1553-1610" [
+,(ref :url "propriete_communaute.html#henriiv_ref" [Propriété, communauté])
 ])
 
 ,(personne "heron" "Héron" "(?)" "?" [
@@ -1037,8 +1135,17 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
 ])
 
+,(personne "juvigny" "Juvigny" "(?)" "?" [
+,(ref :url "lettre14.html#cresus_ref" [Lettre 14])
 ])
-,(lettre "L" [
+
+]),(lettre "K" [
+
+,(personne "kant" "Kant" "Emmanuel" "1724-1804" [
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
+])
+
+]),(lettre "L" [
 
 ,(personne "labeyrie" "Labeyrie" "(?)" "?" [
 ,(ref :url "lettre_coudroy1841a.html#domenger_ref" [Lettre à F. Coudroy, 2 janvier 1841])
@@ -1079,7 +1186,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "greves_de_taxes.html#lafontaine_ref" [Nos produits sont grevés de taxes]) : citation de ,(cite-title[La Belette entrée dans un grenier :]) “Mais ne confondons point, par trop approfondir, / Leurs affaires avec les vôtres.”
 ,(ref :url "reciprocite.html#lafontaine_ref" [Réciprocité]) : citation du ,(cite-title[Coche et la Mouche :]) “Dans un chemin montant, sablonneux, malaisé…” ;
 ,(ref :url "fisc_vigne.html#lafontaine_ref" [Le fisc et la vigne]) : citation du ,(cite-title[Chat et un vieux Rat :]) “Ce bloc enfariné ne me dit rien qui vaille…” ; citation du ,(cite-title[petit Poisson et le Pêcheur :]) “Petit poisson deviendra grand, / Pourvu que Dieu lui prête vie.” ;
-,(ref :url "question_conseils_generaux.html#lafontaine_ref" [Une question soumise aux conseils généraux…]) : ,(cite-title[Le Statuaire et la statue de Jupiter])
+,(ref :url "question_conseils_generaux.html#lafontaine_ref" [Une question soumise aux conseils généraux…]) : ,(cite-title[Le Statuaire et la statue de Jupiter]) ;
+,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) ;
 ])
 
 ,(personne "lamarque" "Lamarque" "Jean Maximilien" "1770-1832" [
@@ -1134,6 +1242,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "lavoisier" "Lavoisier" "Antoine" "1743-1794" [
 ,(ref :url "question_vinicole.html#lavoisier_ref" [Mémoire sur la question vinicole (note)])
+])
+
+,(personne "leboeuf" "Lebœuf" "Louis-Martin" "1792-1854" [
+,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)])
 ])
 
 ,(personne "lebrun" "Lebrun" "Ponce-Denis Écouchard" "1729-1807" [
@@ -1227,6 +1339,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "organisation.html#machiavel_ref" [Organisation naturelle, organisation artificielle])
 ])
 
+,(personne1nom "mahomet" "Mahomet" "v. 570-632" [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
+])
+
 ,(personne "malebranche" "Malebranche" "Nicolas" "1638-1715" [
 ,(ref :url "metaphores.html#courier_ref" [Métaphores])
 ])
@@ -1274,7 +1390,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne1nom "midas" "Midas" "légendaire" [
-,(ref :url "le_vol_a_la_prime.html" [Le vol à la prime])
+,(ref :url "le_vol_a_la_prime.html" [Le vol à la prime]) ;
+,(ref :url "maudit_argent.html#midas_ref" [Maudit argent !])
 ])
 
 ,(personne "mignet" "Mignet" "François-Auguste" "1796-1884" [
@@ -1287,7 +1404,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 
 ,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
-,(p*[,(ref :url "la_loi.html#mimerel_ref" [La Loi])
+,(p*[,(ref :url "la_loi.html#mimerel_ref" [La Loi]) ;
+,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)])
 ][Comité Mimerel :
 ,(ref :url "tarifs_francais_anglais.html#mimerel_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "projet_de_ligue_antiprotectioniste1.html#mimerel_ref" [Projet de ligue anti-protectioniste]) ;
@@ -1305,7 +1423,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne1nom "moise" "Moïse" "?" [
-,(ref :url "organisation.html#moise_ref" [Organisation naturelle, organisation artificielle])
+,(ref :url "organisation.html#moise_ref" [Organisation naturelle, organisation artificielle]) ;
+,(ref :url "propriete_communaute.html#moise_ref" [Propriété, communauté])
 ])
 
 ,(personne "mole" "Molé" "Mathieu" "1781-1855" [
@@ -1334,6 +1453,7 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
 ,(ref :url "tarifs_francais_anglais.html#montaigne_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "abondance_disette.html#montaigne_ref" [Abondance, disette]) ;
+,(ref :url "maudit_argent.html#bacon_ref" [Maudit argent !]) (plusieurs fois) ;
 ,(ref :url "angleterre_et_libre_echange.html#montaigne_ref" [L’Angleterre et le libre-échange]) ;
 ,(ref :url "justice_fraternite.html#montaigne_ref" [Justice et fraternité]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#montaigne_ref" [Baccalauréat et socialisme]) ;
@@ -1348,7 +1468,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(personne "montesquieu" "Montesquieu" "Charles de Secondat, baron de" "1689-1755" [
 ,(ref :url "tarifs_francais_anglais.html#montesquieu_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "la_loi.html#montesquieu_ref" [La Loi]) ;
-,(ref :url "baccalaureat_et_socialisme.html#montesquieu_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#montesquieu_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "lettre14.html#montesquieu_ref" [Lettre 14])
 ])
 
 ,(personne "more" "More" "Thomas" "1478-1535" [
@@ -1366,6 +1487,11 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "la_loi.html#morelly_ref" [La Loi]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#morelly_ref" [Baccalauréat et socialisme])
 ])
+
+,(personne "morlot" "Morlot" "Joseph" "1792-1865" [
+,(ref :url "navigation.html#morlot_ref" [Navigation]) (plusieurs fois)
+])
+
 
 ,(personne "mouton" "Mouton" "Geroges, comte de Lobeau" "1770-1838" [
 ,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830])
@@ -1394,6 +1520,7 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(personne "odier" "Odier" "Antoine" "1766-1853" [
 ,(ref :url "angleterre_et_libre_echange.html#odier_ref" [L’Angleterre et le libre-échange]) ; ,(ref :url "cherte_bon_marche.html#odier_ref" [Cherté, bon marché]) ;
 ,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830])
+,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)]) ;
 ])
 
 ,(personne1nom "origene" "Origène" "v. 185-253" [
@@ -1443,7 +1570,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "ministre_du_commerce.html#peel_ref" [A M. le ministre de l’Agriculture et du Commerce]) ;
 ,(ref :url "a_la_presse2.html#peel_ref" [A M. le rédacteur en chef de la Presse]) ;
 ,(ref :url "angleterre_et_libre_echange.html#peel_ref" [L’Angleterre et le libre-échange]) ;
-,(ref :url "sel_poste_douane.html#peel_ref" [Le sel, la poste, la douane])
+,(ref :url "sel_poste_douane.html#peel_ref" [Le sel, la poste, la douane]) ;
+,(ref :url "invasion_produits_etrangers.html#cobden_ref" [A quoi se réduit l’invasion]) ;
 ])
 
 ,(personne "penn" "Penn" "William" "1644-1718" [
@@ -1454,6 +1582,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830])
 ])
 
+,(personne "perier_j" "Perier" "Joseph" "1786-1868" [
+,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)])
+])
+
 ,(personne "persiani" "Persiani" "Fanny" "1812-1867" [
 ,(ref :url "lettre_schwabe1848h.html" [Lettre à Mme Schwabe, 14 novembre 1848])
 ])
@@ -1462,12 +1594,17 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "sel_poste_douane.html#piron_ref" [Le sel, la poste, la douane])
 ])
 
+,(personne "pizarro" "Pizarro" "Francisco" "1475-1541" [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
+])
+
 ,(personne1nom "platon" "Platon" "v. 427-348 av. J.-C." [
 ,(ref :url "lettre_lamartine_1.html#platon_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation]) ;
 ,(ref :url "la_loi.html#platon_ref" [La Loi]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#platon_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
-,(ref :url "moteur_social.html#say_ref" [Moteur social])
+,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(personne1nom "plaute" "Plaute" "v. 254-184 av. J.-C." [
@@ -1485,6 +1622,7 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(personne "proudhon" "Proudhon" "Pierre-Joseph" "1809-1865" [
 ,(ref :url "justice_fraternite.html" [Justice et fraternité]) ;
 ,(ref :url "propriete_et_spoliation.html#blanc_ref" [Propriété et spoliation I]) (plusieurs fois), ,(ref :url "propriete_et_spoliation7.html#blanc_ref" [VII]) ;
+,(ref :url "propriete_communaute.html#proudhon_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "moteur_social.html#proudhon_ref" [Moteur social (note)]), ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#stsimon_ref" [Baccalauréat et socialisme]) (plusieurs fois)
 ,(p*[Sous la plume de Victor Considerant : ,(ref :url "propriete_et_spoliation6.html#blanc_ref" [Propriété et spoliation VI])])
@@ -1502,8 +1640,13 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "baccalaureat_et_socialisme.html#plaute_ref" [Baccalauréat et socialisme])
 ])
 
+]),(lettre "Q" [
+
+,(personne1nom "quintecurce" "Quinte-Curce" [,(sc[i]),(sup[er]) s. ap. J.-C.] [
+,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !])
 ])
-,(lettre "R" [
+
+]),(lettre "R" [
 
 ,(personne "rabaut" "Rabaut Saint-Étienne" "Jean-Paul" "1743-1793" [
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme])
@@ -1540,7 +1683,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "a_la_jeunesse_francaise.html#malthus_ref" [A la jeunesse française 1]),
 ,(ref :url "a_la_jeunesse_francaise.html#ricardo_ref" [2]) ;
-,(ref :url "propriete_et_spoliation.html#ricardo_ref" [Propriété et spoliation I])
+,(ref :url "propriete_et_spoliation.html#ricardo_ref" [Propriété et spoliation I]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ])
 
 ,(personne "richelieu" "Richelieu" "Armand Jean du Plessis de" "1585-1642" [
@@ -1577,6 +1721,7 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "a_la_presse2.html#rothschild_ref" [A M. le rédacteur en chef de la Presse]) ;
 ,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "lettre14.html#cresus_ref" [Lettre 14])
 ])
 
 ,(personne "rousseau" "Rousseau" "Jean-Jacques" "1712-1778" [
@@ -1590,6 +1735,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "la_loi.html#rousseau_ref" [La Loi 1]), ,(ref :url "la_loi.html#rousseau_ref2" [2]) ;
 ,(ref :url "propriete_et_spoliation5.html#rousseau_ref" [Propriété et spoliation V]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#rousseau_ref" [Baccalauréat et socialisme]) (passim) ;
+,(ref :url "propriete_communaute.html#rousseau_ref" [Propriété, communauté]) (plusieurs fois) ;
+,(ref :url "responsabilite.html#rousseau_ref" [Responsabilité]) ;
 ,(ref :url "moteur_social.html#rousseau_ref" [Moteur social])
 ])
 
@@ -1664,10 +1811,12 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "deux_morales.html#say_jb_ref" [Deux morales]) ;
 ,(ref :url "le_vol_a_la_prime.html#smith_ref2" [Le vol à la prime]) ;
 ,(ref :url "propriete_et_spoliation4.html#smith_ref" [Propriété et spoliation IV]) ;
+,(ref :url "propriete_communaute.html#say_ref" [Propriété, communauté]) ;
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "de_la_population.html#say_ref" [De la population]) (plusieurs fois) ;
 ,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois)
 ])
 
 ,(personne "scaevola" "Scævola" "Caius Mucius" [,(sc[vi]),(sup[e]) s. av. J.-C.] [
@@ -1691,7 +1840,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne1nom "scipion" "Scipion l’Africain" "v. 235-183 av. J.-C." [
-,(ref :url "baccalaureat_et_socialisme.html#alexandre_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#alexandre_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ,(personne "scott" "Scott" "Walter" "1771-1832" [
@@ -1706,6 +1856,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_coudroy1830a.html#semelle_ref" [Lettre à F. Coudroy, 4 août 1830])
 ])
 
+,(personne1nom "seneque" "Sénèque" "v. 4 av.-65 ap. J.-C." [
+,(ref :url "maudit_argent.html#diogene_ref" [Maudit argent !])
+])
+
 ,(personne "senior" "Senior" "Nassau William" "1790-1864" [
 ,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "propriete_et_spoliation.html#senior_ref" [Propriété et spoliation I]), ,(ref :url "propriete_et_spoliation2.html#scrope_ref" [II]), ,(ref :url "propriete_et_spoliation7.html#buchanan_ref" [VII]) ;
@@ -1714,6 +1868,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "serres" "Serres" "Olivier de" "1539-1619" [
 ,(ref :url "la_loi.html#serres_ref" [La Loi])
+])
+
+,(personne1nom "sesostris" [Sésostris I,(sup[er])] [,(sc[xx]),(sup[e]) s. av. J.-C.] [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
@@ -1771,6 +1929,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "lettre_coudroy1840c.html#soustra_ref" [16 juillet 1840])
 ])
 
+,(personne1nom "spartacus" "Spartacus" "v. 100-71 av. J.-C." [
+,(ref :url "conclusion_eo_harmonies.html#voltaire_ref" [Conclusion à la première édition des Harmonies])
+])
+
 ,(personne "sterne" "Sterne" "Laurence" "1713-1768" [
 ,(ref :url "question_conseils_generaux.html#baines_ref" [Une question soumise aux conseils généraux…])
 ])
@@ -1789,6 +1951,10 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ])
 ,(lettre "T" [
+
+,(personne1nom "tamerlan" "Tamerlan" "1336-1405" [
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
+])
 
 ,(personne1nom "tertullien" "Tertullien" "v. 150-220" [
 ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme])
@@ -1826,7 +1992,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne1nom "titelive" "Tite-Live" "v. 59 av.-17 ap. J.-C." [
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#titelive_ref" [Guerre aux chaires d’économie politique])
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#titelive_ref" [Guerre aux chaires d’économie politique]) ;
+,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !])
 ])
 
 ,(personne "tocqueville" "Tocqueville" "Alexis de" "1805-1859" [
@@ -1885,7 +2052,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 
 ,(personne "voltaire" "Voltaire" "François-Marie Arouet, dit" "1694-1778" [
 ,(ref :url "1profit_2pertes.html#beranger_ref" [Un profit contre deux pertes]) ;
-,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "conclusion_eo_harmonies.html#voltaire_ref" [Conclusion à la première édition des Harmonies])
 ])
 
 ,(personne "vuitry" "Vuitry" "Julien-Marin-Paul" "1786-1879" [

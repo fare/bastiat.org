@@ -1,0 +1,118 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof)
+
+(document :title ""
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[(,(emph[Note extraite des manuscrits de l’auteur.]))])
+,(p*[C’est parce que, sous l’empire de la liberté,
+les efforts se font concurrence entre eux
+qu’ils obtiennent cette rémunération
+à peu près proportionnelle à leur intensité.
+Mais, je le répète,
+cette proportionnalité n’est pas inhérente à la notion de valeur.
+][
+Et la preuve, c’est que là où la concurrence n’existe pas,
+la proportionnalité n’existe pas davantage.
+On ne remarque, en ce cas,
+aucun rapport entre les travaux de diverse nature et leur rémunération.
+][
+L’absence de concurrence peut provenir
+de la nature des choses ou de la perversité des hommes.
+][
+Si elle vient de la nature des choses,
+on verra un travail comparativement très-faible
+donner lieu à une grande ,(emph[valeur]),
+sans que personne ait raisonnablement à se plaindre.
+C’est le cas de la personne qui trouve un diamant ;
+c’est le cas de Rubini, de Malibran, de Taglioni,
+du tailleur en vogue, du propriétaire du Clos-Vougeot, etc., etc.
+Les circonstances les ont mis en possession
+d’un moyen extraordinaire de rendre service ;
+ils n’ont pas de rivaux et se font payer cher.
+,(emph[Le service lui-même étant d’une rareté excessive]),
+cela prouve qu’il n’est pas essentiel
+au bien-être et au progrès de l’humanité.
+Donc c’est un objet de luxe, d’ostentation :
+que les riches se le procurent.
+N’est-il pas naturel que tout homme attende,
+avant d’aborder ce genre de satisfactions,
+qu’il se soit mis à même de pourvoir
+à des besoins plus impérieux et plus raisonnables ?
+][
+Si la concurrence est absente par suite de quelque violence humaine,
+alors les mêmes effets se produisent,
+mais avec cette différence énorme
+qu’ils se produisent où et quand ils n’auraient pas dû se produire.
+Alors on voit aussi un travail comparativement faible
+donner lieu à une grande valeur ;
+mais comment ?
+En interdisant violemment cette concurrence
+qui a pour mission de proportionner les rémunérations aux services.
+Alors, de même que Rubini peut dire à un dilettante :
+,(q[Je veux une très-grande récompense,
+ou je ne chante pas à votre soirée,])
+se fondant sur ce qu’il s’agit là d’un service que lui seul peut rendre,
+,(--) de même un boulanger, un boucher, un propriétaire, un banquier peut dire :
+,(q[Je veux une récompense extravagante,
+ou vous n’aurez pas mon blé, mon pain, ma viande, mon or ;
+et j’ai pris des précautions, j’ai organisé des baïonnettes
+pour que vous ne puissiez pas vous pourvoir ailleurs,
+pour que nul ne puisse vous rendre des services analogues aux miens.])
+][
+Les personnes qui assimilent le monopole artificiel
+et ce qu’elles appellent le monopole naturel,
+parce que l’un et l’autre ont cela de commun,
+qu’ils accroissent la valeur du travail, ces personnes, dis-je,
+sont bien aveugles et bien superficielles.
+][
+Le monopole artificiel est une spoliation véritable.
+Il produit des maux qui n’existeraient pas sans lui.
+Il inflige des privations à une portion considérable de la société,
+souvent à l’égard des objets les plus nécessaires.
+En outre, il fait naître l’irritation, la haine, les représailles,
+fruits de l’injustice.
+][
+Les avantages naturels ne font aucun mal à l’humanité.
+Tout au plus pourrait-on dire
+qu’ils constatent un mal préexistant et qui ne leur est pas imputable.
+Il est fâcheux, peut-être,
+que le tokay ne soit pas aussi abondant et à aussi bas prix que la piquette.
+Mais ce n’est pas là un fait social ;
+il nous a été imposé par la nature.
+][
+Il y a donc entre l’avantage naturel et le monopole artificiel
+cette différence profonde :
+][
+L’un est la conséquence d’une rareté préexistante, inévitable ;
+][
+L’autre est la cause d’une rareté factice, contre nature.
+][
+Dans le premier cas, ce n’est pas l’absence de concurrence qui fait la rareté,
+c’est la rareté qui explique l’absence de concurrence.
+L’humanité serait puérile, si elle se tourmentait, se révolutionnait,
+parce qu’il n’y a, dans le monde,
+qu’une Jenny Lind, un Clos-Vougeot et un Régent.
+][
+Dans le second cas, c’est tout le contraire.
+Ce n’est pas à cause d’une rareté providentielle
+que la concurrence est impossible,
+mais c’est parce que la force a étouffé la concurrence
+qu’il s’est produit parmi les hommes une rareté qui ne devait pas être.
+
+])])
+(footer[
+	,(harmonies)
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863), tome VI, ,(HarmoniesEconomiques),
+chapitre V, ,(cite-title[De la valeur]), pp. 140-206.
+][
+Texte scanné par la ,(BNF),
+transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org),
+relu par ,(fguerinet).
+])
+))

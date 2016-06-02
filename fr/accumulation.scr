@@ -1,0 +1,48 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof)
+
+(document :title ""
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[(,(emph[Note extraite des manuscrits de l’auteur.]))])
+,(p*[L’,(emph[accumulation]) est une circonstance
+de nulle considération en économie politique.
+][
+Que la satisfaction soit immédiate ou retardée,
+qu’elle puisse être ajournée ou ne se puisse séparer de l’effort,
+en quoi cela change-t-il la nature des choses ?
+][
+Je suis disposé à faire un sacrifice
+pour me donner le plaisir d’entendre une belle voix,
+je vais au théâtre et je paye ;
+la satisfaction est immédiate.
+Si j’avais consacré mon argent à acheter un plat de fraises,
+j’aurais pu renvoyer la satisfaction à demain ;
+voilà tout.
+][
+On dira sans doute que les fraises sont de la richesse,
+parce que je puis les échanger encore.
+Cela est vrai.
+Tant que l’effort ayant eu lieu la satisfaction n’est pas accomplie,
+la richesse subsiste.
+C’est la satisfaction qui la détruit.
+Quand le plat de fraises sera mangé,
+cette satisfaction ira rejoindre celle que m’a procurée la voix d’Alboni.
+][
+Service reçu, service rendu : voilà l’économie politique.
+])])
+(footer[
+	,(harmonies)
+])
+(with-footer
+(p*[
+Extrait de l’,(EO1863), tome VI, ,(HarmoniesEconomiques),
+chapitre V, ,(cite-title[De la valeur]), pp. 140-206.
+][
+Texte scanné par la ,(BNF),
+transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org),
+relu par ,(fguerinet).
+])
+))

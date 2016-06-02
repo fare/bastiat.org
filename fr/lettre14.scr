@@ -5,18 +5,17 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatorzième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(p :align 'center (strong[
+	F. Bastiat à P. J. Proudhon.]))
+,(p (font :size "-1" (strong[
 
 Droit légitime de la défense.
 ,(--) Origine et résumé d’une discussion, dont le public est le seul juge.
 ])))
-,(date-tag(small[7 mars 1850.]))
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 7 mars 1850.])
 ,(p*[
 La cause est entendue et le débat est clos,
-dit M. Proudhon,
+dit ,(np "proudhon" [M. Proudhon]),
 de partie se faisant juge.
 ,(XXX :sic [pas de guillemets])
 M. Bastiat est condamné… à mort.
@@ -31,13 +30,13 @@ par syllogisme,
 par contradiction,
 par identité et par antinomie.
 ][
-Oh ! monsieur Proudhon,
+Oh ! monsieur ,(np "proudhon" [Proudhon]),
 vous deviez être bien en colère quand vous avez jeté sur moi ce cruel anathème !
 ][
 Il me rappelle la formule de l’excommunication :
 ])
 ,(blockquote*[
-,(inlatin[Maledictus sit vivendo, moriendo, manducando, libendo.])
+,(liste(p*[,(inlatin[Maledictus sit vivendo, moriendo, manducando, libendo.])
 ][
 ,(inlatin[Maledictus sit intus et exterius.])
 ][
@@ -46,13 +45,12 @@ Il me rappelle la formule de l’excommunication :
 ,(inlatin[Maledictus sit in vertice,
  in oculis,
  in auriculis,
- in brachiis, etc., etc. ;
- maledictus sit in pectore et in corde,
+ in brachiis, etc., etc. ; maledictus sit in pectore et in corde,
  in renibus,
  in genubus,
  in cruribus,
  in pedibus,
- et in unguibus.])
+ et in unguibus.])]))
 ])
 ,(p*[
 Hélas ! toutes les Églises se ressemblent,
@@ -69,8 +67,8 @@ Je ne reconnais pour juge que le public.
 Je proteste contre la clôture du débat,
 parce que, défendeur,
 je dois avoir le dernier mot.
-M Chevé m’a écrit, j’ai répondu ;
-,(--) M. Proudhon m’a écrit, j’ai répondu ;
+,(np "cheve" [M. Chevé]) m’a écrit, j’ai répondu ;
+,(--) ,(np "proudhon" [M. Proudhon]) m’a écrit, j’ai répondu ;
 ,(--) il m’a écrit de nouveau, j’ai répondu derechef ;
 ,(--) il lui plaît de m’adresser une quatrième,
 une cinquième,
@@ -81,20 +79,20 @@ et il a beau dire,
 je suis dans mon droit.
 ][
 Au reste, je me bornerai à me résumer.
-Outre que je ne puis continuer à discuter avec M. Proudhon,
+Outre que je ne puis continuer à discuter avec ,(np "proudhon" [M. Proudhon]),
 malgré lui,
 et moins encore quand les personnalités commencent à remplacer les arguments,
 je serais aujourd’hui dans une situation trop défavorable.
 ][
-M. Proudhon est persécuté ;
+,(np "proudhon" [M. Proudhon]) est persécuté ;
 partant toutes les préventions,
 toutes les sympathies publiques passeraient de son côté.
 Il avait compromis la cause du crédit gratuit,
 voici que le pouvoir la relève en la plaçant sur le piédestal de la persécution.
 Je n’avais qu’un adversaire,
-j’en aurais trois : M. Proudhon, la police et la popularité.
-][
-M. Proudhon me reproche deux choses :
+j’en aurais trois : ,(np "proudhon" [M. Proudhon]), la police et la popularité.
+](nbsp)[
+,(np "proudhon" [M. Proudhon]) me reproche deux choses :
 d’abord, de m’en tenir toujours à défendre mon assertion,
 la ,(emph[légitimité de l’intérêt]),(pv)
 ensuite, de ne pas discuter son système,
@@ -128,13 +126,13 @@ puisque aussi bien j’atteignais du même coup l’objet précis de notre polé
 En procédant ainsi,
 j’ai fait quelque preuve de patriotisme et d’abnégation.
 Si je n’avais écouté que l’amour-propre de l’écrivain,
-je me serais borné à discuter et réfuter les arguties de M. Proudhon.
+je me serais borné à discuter et réfuter les arguties de ,(np "proudhon" [M. Proudhon]).
 Critiquer est un rôle facile et brillant ;
 exposer une doctrine sans y être obligé,
 c’est abandonner ce beau rôle pour le céder à son adversaire.
 Je l’ai fait, cependant,
 parce que je me préoccupais plus de la polémique que du polémiste,
-et des lecteurs que de moi-même.,(footnote*[
+et des lecteurs que de moi-même. ,(footnote*[
 Quelques personnes ont trouvé excessive la patience de Bastiat pendant le cours de cette discussion.
 Ce paragraphe et le précédent motivent parfaitement son attitude.
 Il attachait un grand prix à faire pénétrer,
@@ -150,28 +148,28 @@ Ces ouvriers venaient le remercier de ses bonnes intentions,
 de ses efforts pour les éclairer sur une question importante.
 Ils n’étaient point convertis à la légitimité et à l’utilité de l’intérêt ;
 mais leur foi dans le principe contraire était fort ébranlée
-et ne tenait plus qu’à leurs vives sympathies pour M. Proudhon.
-,(q[Il nous veut beaucoup de bien, M. Proudhon, disaient-ils,
+et ne tenait plus qu’à leurs vives sympathies pour ,(np "proudhon" [M. Proudhon]).
+,(q[Il nous veut beaucoup de bien, ,(np "proudhon" [M. Proudhon]), disaient-ils,
 et nous lui devons une grande reconnaissance.
 C’est dommage qu’il aille souvent chercher des mots et des phrases si difficiles à comprendre.])
 Finalement, ils émirent le v,(oe)u que MM Bastiat et Proudhon pussent se mettre d’accord,
 et se déclarèrent prêts à accepter les yeux fermés une solution quelconque,
 si elle était proposée de concert par l’un et l’autre. ,(NdEEO)])
 ][
-Est-ce à dire que j’aie ,(XXX :sic [j’ai ?]) négligé les arguments de M. Proudhon ?
+Est-ce à dire que j’aie négligé les arguments de ,(np "proudhon" [M. Proudhon]) ?
 Je montrerai que j’ai répondu à tous,
 et d’une manière si catégorique,
 qu’il les a tous successivement abandonnés.
 Je n’en veux que cette preuve :
-M. Proudhon a fini par où on finit quand on a tort ;
+,(np "proudhon" [M. Proudhon]) a fini par où on finit quand on a tort ;
 il s’est fâché.
 ][
 Je reprends donc la même marche,
 et après avoir de nouveau appelé l’attention du lecteur sur la nature de capital,
-je passerai en revue les arguments de M. Proudhon.
+je passerai en revue les arguments de ,(np "proudhon" [M. Proudhon]).
 ][
 Qu’on me permette de remonter un peu haut, seulement… au Déluge.
-][
+](nbsp)[
 Les eaux s’étant retirées,
 Deucalion jeta derrière lui des pierres,
 et il en naquit des hommes.
@@ -269,7 +267,7 @@ Cependant, et bien que la facilité d’emprunter s’accrût sans cesse,
 		La société ne doit-elle pas nous donner
 		tout ce qui est nécessaire au développement de nos facultés physiques,
 		intellectuelles et morales ?
-		Evidemment, nous serions plus heureux si nous empruntions pour rien.
+		Évidemment, nous serions plus heureux si nous empruntions pour rien.
 		C’est donc l’infâme capital qui cause notre misère.
 ][
 Et Hellen les ayant assemblés leur dit :
@@ -310,7 +308,7 @@ Et Hellen les ayant assemblés leur dit :
                 et que vos fils seront, à cet égard,
                 mieux partagés que vous.
 ][
-Ces hommes primits se mirent à réfléchir sur ce discours,
+Ces hommes primitifs se mirent à réfléchir sur ce discours,
 	et ils le trouvèrent sensé.
 ][
 Depuis, les relations sociales se sont bien compliquées.
@@ -321,14 +319,14 @@ mais à travers toutes ces complications,
 il est deux faits qui sont restés et resteront éternellement vrais,
 savoir :
 ][
-,(1o) Chaque fois qu’un ,(emph[travail antérieur]) et un ,(emph[travail actuel])
+1° Chaque fois qu’un ,(emph[travail antérieur]) et un ,(emph[travail actuel])
 s’associent dans l’,(oe)uvre de la production,
 le produit se partage entre eux, selon certaines proportions.
 ][
-,(2o) Plus le capital est abondant, plus sa part proportionnelle dans le produit est réduite.
+2° Plus le capital est abondant, plus sa part proportionnelle dans le produit est réduite.
 Et comme les capitaux, en augmentant, augmentent la facilité d’en créer d’autres,
 il s’ensuit que la condition de l’emprunteur s’améliore sans cesse.
-][
+](nbsp)[
 J’entends qu’on me dit :
 Qu’avons-nous à faire de vos démonstrations ?
 Qui vous conteste l’utilité du capital ?
@@ -356,7 +354,7 @@ Si donc je n’apercevais pas distinctement
 	comment le capital profite à ceux même qui ne le possèdent pas,
 	comment, sous un régime libre, il s’accroît,
 	s’universalise et se nivelle sans cesse ;
-	si j’avais le malheur de ne voir dans le capital que l’avantage de capitalistes,
+	si j’avais le malheur de ne voir dans le capital que l’avantage des capitalistes,
 	et de ne saisir ainsi qu’un côté, et, assurément,
 	le côté le plus étroit et le moins consolant de la science économique,
 	je me ferais Socialiste ;
@@ -364,7 +362,7 @@ Si donc je n’apercevais pas distinctement
 	il faut que l’inégalité s’efface progressivement,
 	et si la liberté ne renfermait pas cette solution,
 	comme les socialistes je la demanderais à la loi,
-	à l’Etat,
+	à l’État,
 	à la contrainte,
 	à l’art,
 	à l’utopie.
@@ -376,7 +374,7 @@ Mais c’est ma joie de reconnaître que les arrangements artificiels sont super
 	car c’est bien Dieu qui a créé les merveilles du monde social
 	comme celles du monde matériel,
 	et sans doute il n’a pas moins souri à un de ces ouvrages qu’à l’autre :
-		,(inlatin[Et vidit Deus quod esset bonum])
+		,(inlatin[Et vidit Deus quod esset bonum.])
 Il ne s’agit donc pas de changer les lois naturelles,
 mais de les connaître pour nous y conformer.
 ][
@@ -438,7 +436,7 @@ Mais les capitaux de ceux qui possèdent,
 	facilitent à ces derniers les moyens d’en acquérir.
 ][
 Il serait donc plus juste de comparer le capital au langage.
-Quelle folie ne serait-ce pas aux enfants,(footnote*[
+Quelle folie ne serait-ce pas aux enfants, ,(footnote*[
 Enfant, ,(inlatin[in fans]), non parlant.])
 	de jalouser,
 	dans les adultes,
@@ -459,22 +457,22 @@ Laissez le capital libre,
 	et vous aurez la plus grande somme possible de chances d’égalité dans le bien-être.
 ][
 Voilà l’idée que je me suis efforcé de faire sortir de cette polémique.
-M. Proudhon me le reproche.
+,(np "proudhon" [M. Proudhon]) me le reproche.
 Si j’ai un regret,
 	c’est de n’avoir pas donné à cette idée assez de place.
 J’en ai été empêché par la nécessité de répondre aux arguments de mon adversaire
 	qui me reproche maintenant de n’y avoir rien répondu.
 C’est ce qui nous reste à voir.
-][
+](nbsp)[
 La première objection qui m’a été adressée
-	(elle est de M. Chevé)
+	(elle est de ,(np "cheve" [M. Chevé]))
 	consiste à dire que je confonds la ,(emph[propriété]) avec l’,(emph[usage]).
-Celui qui prête, disait-il,
+Celui qui prête, ,(ref :url "lettre1.html#usage" [disait-il]),
 	ne cède que l’,(emph[usage]) d’une propriété et ne peut recevoir,
 	en retour,
 	une ,(emph[propriété définitive]).
 ][
-J’ai répondu que l’échange est légitime
+,(ref :url "lettre2.html" [J’ai répondu]) que l’échange est légitime
 	quand il se fait librement et volontairement entre deux ,(emph[valeurs]) égales,
 	que l’une de ces valeurs fût attachée ou non à un objet matériel.
 Or, l’usage d’une propriété utile a une ,(emph[valeur]).
@@ -483,7 +481,7 @@ Si je prête, pour un an,
 	défriché,
 	desséché ;
 	j’ai droit à une rémunération susceptible d’être ,(emph[évaluée]).
-Pourvu qu’elle soit évaluée
+Pourvu qu’elle soit évaluée librement,
 	encore qu’on me la paie en objets matériels,
 	comme du froment et de la monnaie,
 	qu’avez-vous à dire ?
@@ -492,17 +490,17 @@ Voulez-vous donc prohiber les trois quarts des transactions
 	et probablement parce que cela leur convient ?
 Vous nous parlez toujours de nous affranchir,
 	et ne nous présentez jamais que de nouvelles entraves.
-][
-Ici, M. Proudhon intervenant,
-	a abandonné la théorie de M. Chevé
-	et m’a opposé l’,(emph[antinomie]).
+](nbsp)[
+Ici, ,(np "proudhon" [M. Proudhon]) intervenant,
+	a abandonné la théorie de ,(np "cheve" [M. Chevé])
+	et ,(ref :url "lettre3.html#antinomie" [m’a opposé]) l’,(emph[antinomie]).
 L’intérêt est à la fois légitime et illégitime, a-t-il dit.
 Il implique une contradiction,
 	comme la propriété,
 	comme la liberté,
 	comme tout ;
 	car ,(emph[la contradiction est l’essence même des phénomènes]).
-J’ai répondu que, sur ce principe,
+,(ref :url "lettre4.html#contradiction" [J’ai répondu]) que, sur ce principe,
 	ni lui, ni moi, ni aucun homme,
 	ne pouvait jamais avoir ni tort ni raison,
 	sur ce sujet ;
@@ -514,15 +512,15 @@ Une telle théorie ne discrédite pas seulement tout raisonnement,
 Quel est, dans une discussion,
 	le signe auquel on peut reconnaître qu’un des deux adversaires a tort ?
 C’est d’être forcé d’avouer que ses propres arguments se contredisent.
-Or, c’est justement quand M. Proudhon en est réduit là qu’il triomphe.
+Or, c’est justement quand ,(np "proudhon" [M. Proudhon]) en est réduit là qu’il triomphe.
 Je me contredis, donc je suis dans le vrai,
 	car la contradiction est l’essence des phénomènes.
 Certes, je pouvais refuser le combat,
-	si M. Proudhon eût insisté à m’imposer pour arme une telle logique.
+	si ,(np "proudhon" [M. Proudhon]) eût insisté à m’imposer pour arme une telle logique.
 ][
-J’ai été plus loin, cependant,
+,(ref :url "lettre10.html#antinomies" [J’ai été plus loin]), cependant,
 	et je me suis donné la peine de rechercher
-	comment M. Proudhon avait succombé à la théorie des contradictions.
+	comment ,(np "proudhon" [M. Proudhon]) avait succombé à la théorie des contradictions.
 Je l’attribue à ce qu’il conclut de la perfectibilité à la perfection absolue.
 Or, il est très-vrai que la perfection absolue est
 	pour nous contradictoire et incompréhensible ;
@@ -538,10 +536,10 @@ L’être parfait n’est pas emprisonné dans de tels appareils.
 ][
 Mais il n’y a pas de raisonnement plus vicieux que celui qui consisterait à dire :
 	Puisque l’intérêt atteste une imperfection sociale,
-	pour réaliser la perfection sociale, ,(XXX :EO [point-virgule ?])
+	pour réaliser la perfection sociale,
 	supprimons l’intérêt.
 C’est justement supprimer le remède au mal.
-Autant voudrait dire,
+Autant vaudrait dire,
 	puisque nos nerfs, nos organes, notre cerveau
 	attestent une limite,
 	et par suite une imperfection humaine,
@@ -549,9 +547,9 @@ Autant voudrait dire,
 	et l’homme sera parfait.
 ][
 Voilà ce que j’ai répondu,
-	et M. Proudhon, que je sache, n’a pas répliqué.
-][
-Il n’a pas répliqué, mais il a invoqué la théorie des ,(emph[compensations]).
+	et ,(np "proudhon" [M. Proudhon]), que je sache, n’a pas répliqué.
+](nbsp)[
+Il n’a pas répliqué, mais ,(ref :url "lettre3.html#compensation" [il a invoqué]) la théorie des ,(emph[compensations]).
 ][
 Nous ne demandons pas, dit-il,
 	qu’on prête pour rien,
@@ -562,9 +560,9 @@ Ce à quoi nous aspirons,
 Nous voulons arriver à ce que,
 	dans tout échange,
 	la mise en capital et travail soit la même de toutes parts.
-][
-Chimère et despotisme, ai-je répondu.
-Vous ne ferez jamais qu’un facteur de M. Bidault
+][,(tag :a :name "bidault_ref")
+Chimère et despotisme, ,(ref :url "lettre4.html#compensation" [ai-je répondu]).
+Vous ne ferez jamais qu’un facteur de ,(np "bidault" [M. Bidault])
 	fasse entrer dans ses services du ,(emph[travail accumulé])
 	et du ,(emph[travail actuel])
 	en mêmes proportions que le fabricant de bas.
@@ -579,16 +577,16 @@ Vous voulez la compensation ?
 De quel droit voulez-vous supprimez cette dernière nature d’évaluation ;
 et en quoi les hommes seront-ils plus heureux quand ils seront moins libres ?
 ][
-Voilà ce que j’ai répondu, et M. Proudhon, que je sache, n’a rien répliqué.
-][
+Voilà ce que j’ai répondu, et ,(np "proudhon" [M. Proudhon]), que je sache, n’a rien répliqué.
+](nbsp)[
 Il n’a rien répliqué, mais se fendant à fond contre le capitaliste,
-	il lui a porté cette botte terrible et bien connue :
+	il lui a porté ,(ref :url "lettre3.html#prive" [cette botte terrible]) et bien connue :
 	Le capitaliste n’a pas droit à une rémunération,
 	parce qu’,(emph[il ne se prive pas]).
 Il ne se prive pas de la chose qu’il cède,
 	puisqu’il ne pourrait l’utiliser ,(emph[personnellement]).
 ][
-J’ai répondu que c’était là une misérable équivoque,
+,(ref :url "lettre4.html#prive" [J’ai répondu]) que c’était là une misérable équivoque,
 	qui incrimine la vente aussi bien que le prêt.
 Si l’homme n’était pas un être sociable,
 	il serait obligé de produire directement
@@ -612,7 +610,7 @@ Le chapelier, qui a cent chapeaux dans sa boutique,
 	quand il en vend un,
 	,(emph[ne se prive pas]) personnellement,
 	dans ce sens qu’il ne se réduit pas à aller tête nue.
-L’éditeur des livres de M. Proudhon,
+L’éditeur des livres de ,(np "proudhon" [M. Proudhon]),
 	qui en a mille exemplaires dans ses magasins,
 	,(emph[ne se prive pas personnellement]),
 	à mesure de ses ventes,
@@ -625,15 +623,15 @@ C’est certainement une chose déplorable d’en être réduit,
 	au dix-neuvième siècle,
 	à réfuter sérieusement de telles équivoques,
 	de telles puérilités.
-Voilà ce que j’ai répondu, et M. Proudhon, que je sache, n’a rien répliqué.
-][
+Voilà ce que j’ai répondu, et ,(np "proudhon" [M. Proudhon]), que je sache, n’a rien répliqué.
+](nbsp)[
 Il n’a rien répliqué ;
-	mais il s’est mis à invoquer ce qu’on pourrait appeler la doctrine des métamorphoses :
+	mais il s’est mis à invoquer ce qu’on pourrait appeler ,(ref :url "lettre5.html#monarchie" [la doctrine des métamorphoses]) :
 ][
 L’intérêt était légitime autrefois,
 	du temps où la violence entachait toutes les transactions.
 Il est illégitime aujourd’hui sous le régime du droit.
-Combien n’y a-t-il pas d’instituions qui ont été bonnes,
+Combien n’y a-t-il pas d’institutions qui ont été bonnes,
 	justes,
 	utiles à l’humanité,
 	et seraient maintenant abusives ?
@@ -644,7 +642,7 @@ Tels sont l’esclavage,
 ,(emph[Le progrès, la grande loi de l’humanité,
 	n’est pas autre chose que cette transformation du bien en mal et du mal en bien.])
 ][
-J’ai répondu que c’était là un ,(emph[fatalisme]) aussi pernicieux en morale
+,(ref :url "lettre8.html#fatalisme" [J’ai répondu]) que c’était là un ,(emph[fatalisme]) aussi pernicieux en morale
 	que l’,(emph[antinomie]) est funeste en logique.
 Quoi ! selon le caprice des circonstances,
 	ce qui était respectable devient odieux,
@@ -657,7 +655,7 @@ Les actes sont bons ou mauvais,
 	par les conséquences qu’ils entraînent,
 	et non par des considérations de temps et de lieux.
 Jamais je ne conviendrai que l’esclavage ait été autrefois légitime et bon ;
-	qu’il a été utile que des hommes en réduisent d’autres en servitude.
+	qu’il a été utile que des hommes en réduisissent d’autres en servitude.
 Jamais je ne conviendrai que soumettre un accusé à d’inexprimables tourments,
 	ait été un moyen légitime et bon de lui faire dire la vérité.
 Que l’humanité n’ai pu échapper à ces horreurs, soit.
@@ -678,12 +676,12 @@ De ce qu’il y avait dans l’antiquité des abus qui ont cessé,
 	il ne s’ensuit pas que tous les usages de ces époques
 		étaient des abus et doivent cesser.
 ][
-Voilà ce que j’ai répondu à M. Proudhon, qui n’a pas insisté.
-][
+Voilà ce que j’ai répondu à ,(np "proudhon" [M. Proudhon]), qui n’a pas insisté.
+](nbsp)[
 Il n’a pas insisté ;
 	mais il a fait une nouvelle et non moins étrange fugue dans l’histoire.
 ][
-L’intérêt, a-t-il dit,
+L’intérêt, ,(ref :url "lettre7.html#pacotille" [a-t-il dit]),
 	est né du ,(emph[contrat de pacotille]).
 	Quand, pour une expédition maritime,
 	un homme donnait Navire et Marchandises,
@@ -691,7 +689,7 @@ L’intérêt, a-t-il dit,
 	le profit se partageait entre eux dans des proportions convenues.
 ][
 Rien de plus naturel et de plus juste,
-	ai-je répondu,
+	,(ref :url "lettre8.html#pacotille" [ai-je répondu]),
 	qu’un tel partage.
 Seulement, il n’est pas nécessairement attaché aux opérations qui se font par mer.
 Il embrasse la totalité des transactions humaines.
@@ -713,15 +711,15 @@ Depuis, et quand l’expérience a permis ce progrès,
 	comme le métayage s’est transformé en fermage ;
 	l’intérêt s’est régularisé sans changer de nature.
 ][
-Voilà ce que j’ai répondu, et M. Proudhon n’a pas répliqué.
-][
+Voilà ce que j’ai répondu, et ,(np "proudhon" [M. Proudhon]) n’a pas répliqué.
+](nbsp)[
 Il n’a pas répliqué ;
 	mais il s’est jeté,
 	contre son habitude,
 	dans l’argument ,(emph[sentimentaliste]).
 Il fallait qu’il fût bien à bout de ressources pour recourir à celle-là.
 ][
-Donc, il m’a proposé des cas extrêmes,
+Donc, ,(ref :url "lettre7.html#apologues" [il m’a proposé]) des cas extrêmes,
 	où un homme ne pourrait,
 	sans faire horreur,
 	exiger du prêt une rémunération.
@@ -729,8 +727,8 @@ Par exemple, un riche propriétaire habitant la côte,
 	qui recueillerait un naufragé et lui prêterait des vêtements,
 	pourrait-il pousser ses exigences jusqu’à l’extrême limite ?
 ][
-J’ai répondu à M. Proudhon…
-	ou plutôt M. Proudhon s’était répondu à lui-même par un autre exemple,
+,(ref :url "lettre8.html#apologues" [J’ai répondu]) à ,(np "proudhon" [M. Proudhon])…
+	ou plutôt ,(np "proudhon" [M. Proudhon]) s’était répondu à lui-même par un autre exemple,
 	d’où il résulte que dans certains cas extrêmes,
 	la rémunération de la vente,
 	ou même celle du travail,
@@ -739,26 +737,26 @@ Il en serait ainsi de l’homme qui,
 	pour tendre la main à son frère près d’être englouti dans les flots,
 	exigerait le plus grand prix qu’on puisse obtenir dans ces circonstances.
 ][
-Ainsi cet argument de M. Proudhon n’attaque pas seulement l’intérêt,
+Ainsi cet argument de ,(np "proudhon" [M. Proudhon]) n’attaque pas seulement l’intérêt,
 	mais toute rémunération :
 	moyen certain d’établir la ,(emph[gratuité]) universelle.
 ][
 De plus, il ouvre la porte à toutes ces théories sentimentalistes
-	(que M. Proudhon combat avec tant de force et de raison)
+	(que ,(np "proudhon" [M. Proudhon]) combat avec tant de force et de raison)
 	qui veulent à toute force faire reposer les affaires de ce monde
 		sur le principe de l’abnégation.
-][
-Enfin, comme le Protée de la Fable, dont on disait :
+](nbsp)[,(tag :a :name "florian_ref")
+Enfin, comme le Protée de la ,(np "florian" [Fable]), dont on disait :
 	,(q[Pour le vaincre, il faut l’épuiser]),
-	M. Proudhon, chassé de la ,(emph[contradiction]) à la ,(emph[compensation]),
+	,(np "proudhon" [M. Proudhon]), chassé de la ,(emph[contradiction]) à la ,(emph[compensation]),
 	de la compensation à la ,(emph[privation]),
 	de la privation à la ,(emph[transformation]),
 	de la transformation à l’,(emph[abnégation]),
-	a quitté tout à coup la controverse et est venu à l’,(emph[exécution]).
+	a quitté tout à coup la controverse et est venu à ,(ref :url "lettre11.html" [l’,(emph[exécution])]).
 ][
 Le moyen d’exécution qu’il propose pour réaliser la gratuité du crédit,
 	c’est le ,(emph[papier-monnaie]).
-,(--) Je ne l’ai pas nommé, dit-il. ,(--)
+,(--) Je ne l’ai pas nommé, ,(ref :url "lettre13.html#papier" [dit-il]). ,(--)
 C’est vrai.
 Mais qu’est-ce donc qu’une banque nationale prêtant à qui en désire,
 	et gratuitement,
@@ -766,16 +764,16 @@ Mais qu’est-ce donc qu’une banque nationale prêtant à qui en désire,
 ][
 Évidemment nous retrouvons ici cette erreur funeste et si invétérée
 	qui fait confondre l’instrument de l’échange avec les objets échangés,
-	erreur dont M. Proudhon,
+	erreur dont ,(np "proudhon" [M. Proudhon]),
 	dans ses précédentes lettres,
 	laissait apercevoir le germe,
-	quand il disait :
+	,(ref :url "lettre3.html#circulation" [quand il disait]) :
 	Ce ne sont pas les choses qui font la richesse,
 		mais la circulation.
-	,(--) Et encore, quand il calculait que l’intérêt en France était à 160 pour 100,
+	,(--) Et encore, quand ,(ref :url "lettre9.html#centsoixante" [il calculait]) que l’intérêt en France était à 160 pour 100,
 	parce qu’il comparait toutes les rentes payées au capital en numéraire.
 ][
-J’avais posé à M. Proudhon ce dilemme :
+,(ref :url "lettre12.html#discernement" [J’avais posé]) à ,(np "proudhon" [M. Proudhon]) ce dilemme :
 	ou votre Banque nationale prêtera indistinctement des billets à tous ceux qui se présenteront ;
 		et en ce cas, la circulation en sera tellement saturée,
 		qu’ils seront dépréciés,
@@ -825,8 +823,8 @@ Parce que les Anglais,
 	font beaucoup de compensations,
 	de virements de parties.
 ][
-Dans les idées de M. Proudhon,
-	sa banque a pour objet de réduire les payements ,(XXX :sic)
+Dans les idées de ,(np "proudhon" [M. Proudhon]),
+	sa banque a pour objet de réduire les payements
 	à des virements de parties.
 C’est précisément ce que font les écus,
 	d’une manière, à la vérité, assez dispendieuse.
@@ -845,10 +843,10 @@ Gorger la circulation de billets n’est donc le moyen
 De plus, livrer des billets à tout venant,
 	c’est mettre la banque en faillite avant six mois.
 ][
-Aussi M. Proudhon fuit le premier membre de mon dilemme
+Aussi ,(np "proudhon" [M. Proudhon]) fuit le premier membre de mon dilemme
 	et se réfugie dans le second.
 ][
-,(q[Que la Banque fasse son métier avec prudence et sévérité, dit-il,
+,(q[Que la Banque fasse son métier avec prudence et sévérité, ,(ref :url "lettre13.html#discernement" [dit-il]),
 	comme elle a fait jusqu’à présent :
 	Cela ne me regarde pas.])
 ][
@@ -866,7 +864,7 @@ Mais tout en disant que cela ne vous regarde pas,
 Cela ne signifie rien,
 	ou cela veut dire qu’elle prêtera à ceux qui peuvent répondre du remboursement.
 ][
-Mais alors que devient l’Egalité qui est votre idole ?
+Mais alors que devient l’Égalité qui est votre idole ?
 	et ne voyez-vous pas qu’au lieu de rendre les hommes égaux devant le crédit,
 	vous constituez une inégalité plus choquante que celle que vous prétendez détruire ?
 ][
@@ -898,48 +896,47 @@ On lui dira :
 		pas plus au pauvre qu’au riche.
 		Voilà pourquoi le riche obtient chez nous du crédit gratuit,
 		et pourquoi vous n’en aurez ni en payant ni sans payer.
-][
+](nbsp)[
 Pour nous faire comprendre les merveilles de son invention,
-	M. Proudhon la soumet à une épreuve décisive,
+	,(np "proudhon" [M. Proudhon]) ,(ref :url "lettre11.html#livres" [la soumet]) à une épreuve décisive,
 	celle de la ,(emph[comptabilité]) commerciale.
 ][
-Il compare deux systèmes.
-][
-Dans l’un,
+Il compare deux systèmes.])
+,(liste(p*[Dans l’un,
 	le travailleur emprunte gratis
 	(nous venons de voir comment),
-	puis, en vertu de l’axiome, ,(emph[tout travail laisse un excédant]),
+	puis, en vertu de ,(ref :url "lettre11.html#excedant" [l’axiome]), ,(emph[tout travail laisse un excédant]),
 	il réalise 10 pour cent de profit.
 ][
 Dans l’autre,
 	le travailleur emprunte à 10 pour cent.
 L’axiome économique ne reparaît pas,
-	et il s’ensuit une perte.
-][
-Appliquant la comptabilité à ces hypothèses,
-	M. Proudhon nous prouve,
+	et il s’ensuit une perte.]))
+
+,(p*[Appliquant la comptabilité à ces hypothèses,
+	,(np "proudhon" [M. Proudhon]) nous prouve,
 	par des chiffres,
 	que le travailleur est beaucoup plus heureux dans un cas que dans l’autre.
 ][
 Je n’avais pas besoin de la ,(emph[partie double]) pour en être convaincu.
 ][
-Mais je fais observer à M. Proudhon que,
-	ses comptes décident la question.
+Mais je fais observer à ,(np "proudhon" [M. Proudhon]) que
+	ses comptes décident la question par la question.
 Je n’ai jamais mis en doute qu’il ne fût très-agréable d’avoir,
 	sans rien payer,
 	l’usage de maisons bien meublées,
 	de terres bien préparées,
 	d’outils et de machines bien puissantes.
 Il serait plus agréable encore que les alouettes nous tombassent toutes rôties dans la bouche,
-	et quand M. Proudhon voudra,
+	et quand ,(np "proudhon" [M. Proudhon]) voudra,
 	je le lui prouverai par ,(emph[doit]) et ,(emph[avoir]).
 ,(--) La question est précisément de savoir si tous ces miracles sont possibles.
 ][
-Je me suis donc permis de faire observer à M. Proudhon
+Je me suis donc permis de ,(ref :url "lettre12.html#comptabilite" [faire observer]) à ,(np "proudhon" [M. Proudhon])
 	que je ne contestais pas l’exactitude de sa comptabilité,
 	mais bien la réalité des données sur lesquelles elle repose.
 ][
-Sa réponse est curieuse :
+,(ref :url "lettre13.html#compta" [Sa réponse]) est curieuse :
 ][
 ,(q[Telle est l’essence de la comptabilité
 	qu’elle ne dépend pas de la certitude de ses données.
@@ -949,14 +946,14 @@ Elle est par elle-même, et malgré la volonté du comptable,
 C’est en vertu de cette propriété
 	que les livres du négociant font foi en justice.])
 ][
-J’en demande pardon à M. Proudhon,
+J’en demande pardon à ,(np "proudhon" [M. Proudhon]),
 	mais je suis forcé de lui dire que la justice ne se borne pas,
 	comme la Cour des comptes,
 	à examiner si la tenue des livres est régulière et si les comptes se balancent.
 Elle recherche de plus si l’on n’y a pas introduit des données fausses.
 ][
 Mais, vraiment,
-	M. Proudhon a une imagination sans pareille
+	,(np "proudhon" [M. Proudhon]) a une imagination sans pareille
 	pour inventer des moyens commodes de s’enrichir,
 	et, à sa place,
 	je me hâterais d’abandonner le ,(emph[crédit gratuit]),
@@ -978,19 +975,20 @@ Supposez, par exemple,
 	qu’on vous donne en échange un poids égal
 	en or, argent, dentelles, pierres précieuses, cochenille, vanille, parfums, etc. ;
 	que de retour en France les acheteurs se disputent votre opulente cargaison.
+,(tag :a :name "cresus_ref")
 Mettez à tout cela des chiffres.
 Dressez votre comptabilité en parties doubles.
 Ayez soin qu’elle soit exacte,
-	,(--) et vous voilà à même de dire de Crésus ce que M. Rothschild disait d’Aguado :
+	,(--) et vous voilà à même de dire de ,(np "cresus" [Crésus]) ce que ,(np "rothschild" [M. Rothschild]) disait d’,(np "aguado" [Aguado]) :
 	,(q[Il a laissé trente millions, je le croyais plus à l’aise.]) ,(--)
 Car votre comptabilité,
-	si elle est conforme aux lois de M. Juvigny,
+	si elle est conforme aux lois de ,(np "juvigny" [M. Juvigny]),
 	impliquera la ,(emph[vérité de vos données.])
-][
+][,(tag :a :name "montesquieu_ref")
 Il n’est encore parvenu à ma connaissance
 	aucun moyen de s’enrichir plus commode que celui-là ;
-	si ce n’est pourtant celui du fils d’Éole. ,(XXX :EO [Eole])
-Je le recommande à M. Proudhon.
+	si ce n’est pourtant celui du ,(np "montesquieu" [fils d’Éole]).
+Je le recommande à ,(np "proudhon" [M. Proudhon]).
 ][
 ,(q[Il s’avisa d’aller dans tous les carrefours,
 	où il criait sans cesse,
@@ -1003,9 +1001,9 @@ Je le recommande à M. Proudhon.
 		Levez-vous ensuite,
 			et si vous avez des créanciers,
 			allez les payer avec ce que vous aurez imaginé,
-			et dites-leur d’imaginer à leur tour,(footnote*[CXLIIe lettre persane.])])
-][
-Mais je laisse là M. Proudhon, et,
+			et dites-leur d’imaginer à leur tour ,(footnote*[CXLII,(sup[e]) lettre persane.]).])
+](nbsp)[
+Mais je laisse là ,(np "proudhon" [M. Proudhon]), et,
 	en terminant cette polémique,
 	je m’adresse aux socialistes,
 	et les adjure d’examiner impartialement,
@@ -1023,8 +1021,8 @@ Personne n’osera le soutenir.
 Il y a là deux éléments de rémunération,
 	et qui peut s’en plaindre ?
 Sera-ce l’acheteur du produit ?
-Mais qui n’aime mieux payer 3 fr. par jour à un menuisier pourvu d’une scie,
-	que 2 f. 50 c. au même menuisier,
+Mais qui n’aime mieux payer 3 fr. par jour à un menuisier pourvu d’une scie,
+	que 2 fr. 50 c. au même menuisier,
 	faisant des planches avec ses dix doigts ?
 ][
 Ici les deux éléments de travail et de rémunération sont dans les mêmes mains.
@@ -1037,9 +1035,8 @@ Quand c’est le capitaliste qui fait l’entreprise à ses risques,
 	et se nomme ,(emph[salaire]).
 Quand le travailleur entreprend et court les chances,
 	c’est la rémunération du capital qui se fixe,
-	et elle se nomme ,(emph[intérêt])
-,(footnote*[Voir le chap.
-,(strong(bof-ref "des_salaires" [Salaires])). - ,(Har-ref[Harmonies écon.]), tome VI. ,(NdEEO)])
+	et elle se nomme ,(emph[intérêt]) ,(footnote*[Voir le chap.
+,(strong(bof-ref "des_salaires" [Salaires])). - ,(Har-ref[Harmonies écon.]), tome VI. ,(NdEEO)]).
 ][
 On peut croire à des arrangements plus perfectionnés,
 	à une association de risques et de récompenses plus étroite.
@@ -1075,7 +1072,7 @@ Et s’il en est ainsi,
 ][
 Car, de même que les capitalistes se feraient tort à eux-mêmes si,
 	après avoir proclamé l’illégitimité du salaire,
-	ils réduisent les travailleurs à mourir ou à s’expatrier ;
+	ils réduisaient les travailleurs à mourir ou à s’expatrier ;
 	de même, les travailleurs se suicident quand,
 	après avoir proclamé l’illégitimité de l’intérêt,
 	ils forcent le capital à disparaître.
@@ -1085,7 +1082,7 @@ Si cette doctrine funeste se répand,
 	peut faire supposer qu’elle ne tardera pas à invoquer le secours de la loi,
 	c’est-à-dire de la force organisée,
 	n’est-il pas évident que le capital effrayé,
-	menacé de perdre son endroit à toute récompense,
+	menacé de perdre son droit à toute récompense,
 	sera contraint de fuir, de se cacher, de se dissiper ?
 Il y aura moins d’entreprises de tout genre
 	pour un nombre de travailleurs resté le même.
@@ -1100,9 +1097,8 @@ Il y a des pessimistes qui affirment
 ,(--) S’il existe des êtres assez pervers pour former de tels v,(oe)ux,
 	que la société les flétrisse et que Dieu les juge !
 ][
-Quant à moi, je n’ai pas à me prononcer sur des intentions auxquelles d’ailleurs je ne puis croire.
-][
-Mais je dis : La gratuité du crédit,
+Quant à moi, je n’ai pas à me prononcer sur des intentions auxquelles d’ailleurs je ne puis croire.])
+,(liste(p*[Mais je dis : La gratuité du crédit,
 	c’est l’absurdité scientifique,
 	l’antagonisme des intérêts,
 	la haine des classes,
@@ -1112,10 +1108,8 @@ La liberté du crédit,
 	c’est l’harmonie sociale,
 	c’est le droit,
 	c’est le respect de l’indépendance et de la dignité humaine,
-	c’est la foi dans le progrès et les destinées de la société.
-
-])
-,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+	c’est la foi dans le progrès et les destinées de la société.]))
+,(sign[,(FredB).])
 ])
 
 (footer[

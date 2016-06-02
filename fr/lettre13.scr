@@ -5,25 +5,24 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Treizième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p (font :size "-1" (strong[
 Consultation psychologique.
 ,(--) Récapitulation.
 ,(--) La comptabilité est une méthode infaillible.
 ,(--) Clôture de la discussion.
 ])))
-,(date-tag(small[11 février 1850.]))
-,(p*[
-Monsieur Bastiat,
-][
-Votre dernière lettre justifie toutes mes prévisions.
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 11 février 1850.])
+
+,(cher[Monsieur Bastiat,])
+
+,(p*[Votre dernière lettre justifie toutes mes prévisions.
 J’étais si sûr de ce qui m’arrive,
-qu’avant même d’avoir reçu la ,(cite-title[Voix du Peuple]) du 4 février,
+qu’avant même d’avoir reçu la ,(tj "vp" [,(cite-title[Voix du Peuple])]) du 4 février,
 j’avais écrit les trois quarts de la réponse que vous allez lire,
 et à laquelle je n’ai plus qu’à mettre une fin.
-][
+][,(tag :a :name "aristote_ref")
 Vous êtes de bonne foi,
 monsieur Bastiat,
 vous ne souffrez pas qu’on en doute ;
@@ -39,8 +38,8 @@ commence pour vous cette éducation intellectuelle,
 sans laquelle un homme,
 quelque dignité de caractère qui le distingue,
 quelque talent qu’il déploie,
-n’est et ne sera jamais autre chose qu’un ,(emph[animal parlant]),
-comme dit Aristote.
+n’est et ne sera jamais autre chose qu’un ,(emph[animal parlant,])
+comme dit ,(np "aristote" [Aristote]).
 ][
 Ce qui constitue dans l’homme l’intelligence,
 c’est l’exercice complet,
@@ -51,11 +50,11 @@ des quatre facultés suivantes :
 Comparaison,
 Mémoire,
 Jugement.])
-,(--) Voilà du moins ce qu’on m’a appris au collège,
+,(--) Voilà du moins ce qu’on m’a appris au collége,
 et que vous trouverez dans toutes les philosophies.
 ][
 Deux ou plusieurs jugements enchaînés l’un à l’autre,
-et formant un tout systématique sont une ,(emph[opération]).
+et formant un tout systématique, sont une ,(emph[opération]).
 ,(--) Les opérations de l’entendement sont de plusieurs espèces,
 syllogisme,
 induction,
@@ -64,17 +63,17 @@ dilemme,
 etc.
 On leur donne à toutes le nom commun de ,(emph[raisonnement]).
 ][
-L’art de raisonner s’appelle la ,(emph[logique]) :
+L’art de raisonner s’appelle la ,(emph[logique :])
 c’est,
 à proprement parler,
 la mécanique intellectuelle.
 ,(--) L’ensemble des facultés est la ,(strong[Raison]).
-][
-L’induction de Platon,
-le syllogisme d’Aristote,
+][,(tag :a :name "platon_ref")
+L’induction de ,(np "platon" [Platon]),
+le syllogisme d’,(np "aristote" [Aristote]),
 la contradiction des sophistes,
-l’identité de Condillac,
-l’antinomie de Kant et Hégel,
+l’identité de ,(np "condillac" [Condillac]),
+l’antinomie de ,(np "kant" [Kant]) et ,(np "hegel" [Hégel]),
 ne sont que des formes variées du raisonnement,
 des applications particulières de la logique :
 c’est ainsi que l’emploi de la vapeur comme force motrice a fait inventer des machines de toute espèce,
@@ -104,13 +103,13 @@ c’est en vertu de leurs facultés rationnelles,
 que les hommes deviennent capables de se communiquer leurs pensées et de converser entre eux :
 ôtez-leur l’attention,
 la comparaison,
-la mémoire et le jugement ;
+la mémoire et le jugement,
 ils parlent l’un après l’autre ou tous à la fois,
 ils ne se répondent pas,
 ils ne s’entendent plus.
 ][
 Appliquons ces règles de la raison humaine,
-notre commun criterium.
+notre commun critérium.
 ][
 Dès le commencement de cette dispute,
 répondant catégoriquement à la question que vous m’avez posée,
@@ -142,7 +141,7 @@ Mais j’affirme que cet ordre peut et doit être modifié,
 et qu’inévitablement,
 de gré ou de force,
 il le sera.
-Etait-ce donc une réponse obscure ?
+Était-ce donc une réponse obscure ?
 Et n’avais-je pas le droit d’espérer qu’après avoir répondu si nettement à votre question,
 vous répondriez à votre tour à la mienne ?
 ][
@@ -167,7 +166,7 @@ l’attention.
 ][
 C’est ce qui résulte,
 au surplus,
-de votre seconde lettre,
+de ,(ref :url "lettre4.html" [votre seconde lettre]),
 dont voici le début :
 ,(q[Monsieur,
 vous me posez sept questions.
@@ -193,11 +192,11 @@ Que fais-je alors ?
 ][
 Pour exciter en vous cette attention rebelle,
 je prends divers termes de comparaison.
-Je vous montre,
+,(ref :url "lettre5.html#monarchie" [Je vous montre]),
 par l’exemple de la monarchie,
 de la polygamie,
 du combat judiciaire,
-de corporations industrielles,
+des corporations industrielles,
 qu’une même chose peut très-bien avoir été bonne,
 utile,
 légitime,
@@ -248,7 +247,7 @@ vous ne les saisissez point ;
 le mouvement des institutions et la loi générale qui en ressort,
 vous l’appelez du ,(emph[fatalisme]).
 ,(--) ,(q[,(emph[Je veux]),
-dites-vous dans votre troisième lettre,
+dites-vous dans ,(ref :url "lettre6.html" [votre troisième lettre]),
 ,(emph[rester sur mon terrain !])])
 Et là-dessus,
 faisant tourner votre crécelle,
@@ -272,7 +271,7 @@ j’ose dire,
 Monsieur,
 que c’est un homme désespéré.
 Ni ,(emph[attention]),
-ni ,(emph[comparaison]),(pv)
+ni ,(emph[comparaison ;])
 incapacité absolue d’écouter et de répondre !
 Que puis-je désormais tirer de vous ?
 Vous êtes hors de la philosophe,
@@ -305,7 +304,7 @@ de considérer plusieurs faits consécutifs comme un seul et même fait,
 d’y mettre de la série et de l’unité.
 C’est l’attention appliquée à une suite de choses accomplies dans le temps et généralisées.
 ][
-J’écris donc la monographie de l’usure.
+,(ref :url "lettre7.html#histoire" [J’écris donc la monographie de l’usure.])
 Je vous montre l’usure dans son origine,
 ses causes,
 ses prétextes,
@@ -341,7 +340,7 @@ je vous disais sans cesse :
 Je n’accuse point les capitalistes ;
 je ne me plains pas des propriétaires ;
 je n’ai garde de condamner,
-comme a fait l’Eglise,
+comme a fait l’Église,
 les banquiers et les usuriers :
 je reconnais la bonne foi de tous ceux qui profitent de l’intérêt.
 Je dénonce une erreur exclusivement collective,
@@ -351,7 +350,7 @@ m’avez-vous seulement compris ?
 Car pour ce qui est de me réfuter,
 vous n’y songez seulement pas.
 ][
-J’ai sous les yeux votre quatrième lettre :
+J’ai sous les yeux ,(ref :url "lettre8.html" [votre quatrième lettre]) :
 y a-t-il ombre de cette aperception historique,
 qui est,
 comme je vous le dis,
@@ -412,7 +411,7 @@ A moi l’humble intelligence qu’il a plu à Dieu de me départir ;
 puisqu’il le préfère,
 d’être suspecté dans sa franchise.]) ,(NdEEO)
 ]).
-][C’est sous cette impression pénible qu’a été écrite ma lettre du 31 décembre,
+][C’est sous cette impression pénible qu’a été écrite ,(ref :url "lettre9.html" [ma lettre du 31 décembre]),
 dont il vous est facile à présent d’apprécier la signification.
 ][
 Je me suis dit :
@@ -532,7 +531,7 @@ donc l’intérêt n’est qu’un fait d’ignorance et de barbarie ;
 donc l’usure et la rente,
 dans une démocratie organisée,
 sont illicites.
-][
+][,(tag :a :name "argout_ref")
 ,(emph[Cela n’est pas]),
 c’est-à-dire,
 non,
@@ -542,7 +541,7 @@ qu’elle ait un capital de 90 millions et un encaisse de 460 millions ;
 il n’est pas vrai que cet encaisse énorme vienne de la substitution du papier de banque au numéraire dans la circulation commerciale,
 etc. etc.
 Dans ce cas,
-je vous renvoyais à M. d’Argout,
+je vous renvoyais à ,(np "argout" [M. d’Argout]),
 à qui revenait le débat.
 ][
 L’eût-on jamais cru,
@@ -564,7 +563,7 @@ monument irrécusable d’une intelligence que le Verbe divin n’illumina jamai
 c’est :
 qu’il ne s’agit pas pour vous de la Banque de France,
 mais du capital ;
-que vous ne défendez point le privilège de la Banque,
+que vous ne défendez point le privilége de la Banque,
 mais seulement la légitimité de l’intérêt ;
 que vous êtes pour la liberté des banques,
 comme pour la liberté du prêt ;
@@ -602,7 +601,7 @@ vous ne raisonnez pas,
 vous ne réfléchissez pas.
 Quelle espèce d’homme êtes-vous,
 monsieur Bastiat ?
-Etes-vous seulement un homme ?…
+Êtes-vous seulement un homme ?…
 ][
 Comment !
 après m’avoir abandonné successivement la métaphysique,
@@ -610,7 +609,7 @@ après m’avoir abandonné successivement la métaphysique,
 la philosophie de l’histoire,
 que vous traitez de fatalisme ;
 le progrès économique,
-dont le dernier terme est le réduction à l’absurde de l’intérêt ;
+dont le dernier terme est la réduction à l’absurde de l’intérêt ;
 vous m’abandonnez encore la pratique financière,
 dont le plus magnifique corollaire est précisément la conversion du crédit payé en crédit gratuit ;
 et vous n’en persistez pas moins à soutenir la vérité absolue de votre théorie,
@@ -634,14 +633,14 @@ J’ai voulu aller jusqu’au bout et tenter un dernier effort.
 J’ai cru que cette inertie des facultés intellectuelles pouvait provenir de l’absence de notions,
 et je me suis flatté de l’espérance de faire jaillir enfin l’étincelle dans votre âme.
 Vous-même paraissiez m’indiquer cette marche,
-quand vous me disiez :
-,(emph[Convaincu que tout ce débat repose sur la ,(strong[notion]) du capital]),(pv)
+quand ,(ref :url "lettre10.html#capital" [vous me disiez]) :
+,(emph[Convaincu que tout ce débat repose sur la ,(strong[notion]) du capital ;])
 et, qu’en conséquence,
 vous essayiez de m’expliquer ce que vous entendez par capital ;
 puis donc qu’il est inabordable par la logique,
 me dis-je,
 attaquons-le par les notions.
-Il serait honteux qu’une pareille discussion finit sans que les deux adversaires pussent se rendre le témoignage,
+Il serait honteux qu’une pareille discussion finît sans que les deux adversaires pussent se rendre le témoignage,
 que s’ils n’ont pu s’accorder,
 au moins il se sont compris !
 ][
@@ -660,7 +659,7 @@ d’un côté,
 la théorie du capital d’après vos idées ;
 de l’autre,
 cette même théorie d’après les miennes.
-Je consacre treize colonnes de la ,(cite-title[Voix du Peuple]) à cette exposition,
+Je consacre treize colonnes de la ,(tj "vp" [,(cite-title[Voix du Peuple])]) à cette exposition,
 toute de complaisance,
 mais de laquelle,
 selon moi,
@@ -682,7 +681,7 @@ ce qui ne vous laisse aucune ressource,
 avec la tenue de livres,
 la notion même du capital.
 Pour Dieu,
-soyez donc attentif aux frais que je vous signale ;
+soyez donc attentif aux faits que je vous signale ;
 observez,
 comparez,
 synthétisez,
@@ -696,7 +695,7 @@ vous vous tromperez en connaissance de cause.
 ][
 Comment êtes-vous sorti de cette épreuve ?
 C’est ce que je vais examiner,
-en répondant à votre dernière.
+en répondant à ,(ref :url "lettre12.html" [votre dernière]).
 ][
 Je laisse de côté votre exorde,
 magnifique et pompeux,
@@ -725,7 +724,7 @@ et ne m’attache qu’à l’essentiel.
 ][
 J’avais défini le capital :
 ,(strong[Toute valeur faite]),
-en ,(emph[terres,
+,(emph[en terres,
 instruments de travail,
 marchandises,
 subsistances,
@@ -746,7 +745,7 @@ Il faut voir quel affreux ravage cette terrible définition a fait sur votre esp
 D’abord,
 vous ne l’avez point du tout comprise.
 Malgré la peine que je me suis donnée de vous l’expliquer,
-vous ignorez ce que c’est qu’une ,(emph[valeur faite]) :
+vous ignorez ce que c’est qu’une ,(emph[valeur faite :])
 sans cela,
 eussiez-vous fait tenir,
 à l’un des personnages que vous mettez en scène,
@@ -756,7 +755,7 @@ si vous voulez mes meubles,
 mes souliers,
 mes clous,
 mes habits,
-,(emph[qui sont de valeurs faites]),
+,(emph[qui sont des valeurs faites]),
 donnez-moi une valeur faite,
 c’est-à-dire vingt francs d’argent ?])
 ][
@@ -784,7 +783,7 @@ Telle est la monnaie,
 la mieux faite de toutes les valeurs :
 car,
 outre qu’elle porte son gage en elle-même,
-elle est revêtue de la signature de l’Etat,
+elle est revêtue de la signature de l’État,
 qui la lance dans la circulation comme une lettre de change,
 et assurée de l’acceptation du public.
 Par analogie,
@@ -854,13 +853,13 @@ et de leurs efforts pour arriver à une approximation.
 Car,
 ne l’oublions pas,
 la loi secrète de l’échange,
-la règle absolue de transactions,
+la règle absolue des transactions,
 loi non écrite mais intuitive,
 règle non de convention mais de nature,
 c’est de conformer,
 le plus possible,
 les actes de la vie privées aux formules de la vie sociale.
-][
+][,(tag :a :name "say_ref")
 Or,
 et c’est ce qui fait naître mes doutes,
 cette définition,
@@ -876,10 +875,10 @@ et certes,
 vous ne vous en doutiez pas ?
 Dès lors,
 en effet,
-que la formule de J. B. Say,
+que la formule de ,(np "say_jb" [J. B. Say]),
 ,(emph[les produits s’échangent contre les produits]),
 est synonyme de cette autre,
-,(emph[les capitaux s’échangent contre les capitaux]),(pv)
+,(emph[les capitaux s’échangent contre les capitaux ;])
 que la définition du capital,
 par vous acceptée,
 n’est autre chose que cette synonymie ;
@@ -948,8 +947,8 @@ Monsieur,
 la démonstration,
 c’est la définition :
 où donc en êtes-vous ?
-][
-Je lis dans votre lettre du 3 février :
+][,(tag :a :name "compta")
+Je lis dans ,(ref :url "lettre12.html#comptabilite" [votre lettre]) du 3 février :
 ][
 ,(q[Ayant imaginé ces données,
 vous dressez la comptabilité de A,
@@ -966,7 +965,7 @@ j’ose vous le dire,
 est le renversement de l’arithmétique et du sens commun.
 Mais,
 Monsieur,
-si vous aviez au la plus légère teinture de comptabilité,
+si vous aviez eu la plus légère teinture de comptabilité,
 vous n’eussiez pas écrit de pareilles lignes.
 Vous auriez su que si,
 comme vous êtes forcé de l’avouer,
@@ -980,7 +979,7 @@ qui est le mien,
 nécessairement vraies.
 Telle est l’essence de la comptabilité,
 qu’elle ne dépend pas de la certitude de ses données ;
-elle ne souffre pas de ,(emph[données fausses]),(pv)
+elle ne souffre pas de ,(emph[données fausses ;])
 elle est,
 par elle-même,
 et malgré la volonté du comptable,
@@ -1016,7 +1015,7 @@ vous vous en récriez que ,(emph[les données sont fausses]).
 Je vous demande,
 monsieur Bastiat,
 ce que vous avez voulu dire ?
-][
+][,(tag :a :name "papier")
 Certes,
 je ne m’étonne plus,
 à présent,
@@ -1031,7 +1030,7 @@ bien que,
 selon vous,
 la donnée en soit fausse,
 que le système de crédit que je défends,
-c’est le ,(emph[papier-monnaie]) ?
+c’est le ,(emph[papier-monnaie ?])
 Je vous défie de citer un seul mot de moi,
 dans cette longue controverse,
 qui vous autorise à dire,
@@ -1045,7 +1044,7 @@ Je n’ai pas dit un mot du système que je voudrais voir substitué à celui qu
 et dans lequel je persiste à voir la cause de tous les malheurs de la société.
 Vous n’avez pas voulu qu’il fût mis en discussion,
 ce système ;
-,(emph[vous êtes resté sur votre terrain]),
+,(emph[vous êtes resté sur votre terrain ;])
 tout ce que j’ai pu faire,
 ç’a été de vous prouver,
 sans toutefois me faire comprendre,
@@ -1058,11 +1057,11 @@ J’ai raisonné constamment sur vos données ;
 je me suis tenu,
 avec vous,
 dans les us et coutumes du capital.
-Relisez ma lettre du 31 décembre ;
+Relisez ,(ref :url "lettre11.html" [ma lettre du 31 décembre]) ;
 il ne s’agit point là de la Banque du Peuple,
 mais bien de la ,(strong[Banque de France]),
 de cette Banque privilégiée,
-gouvernée par M. d’Argout,
+gouvernée par ,(np "argout" [M. d’Argout]),
 que vous ne soupçonnez point,
 sans doute,
 d’être partisan du papier-monnaie,
@@ -1110,6 +1109,7 @@ que si elle peut elle doit,
 à peine de concussion et de vol,
 réduire le crédit foncier,
 en même temps que le crédit commercial.
+,(tag :a :name "discernement")
 Que me parlez-vous donc de papier-monnaie,
 d’assignats,
 de cours forcé,
@@ -1125,20 +1125,19 @@ Je dis qu’elle a le pouvoir et le devoir de faire le crédit et l’escompte,
 à ceux à qui elle a coutume de le faire,
 à 1 pour 100 l’an,
 commission comprise.
-M. Bastiat me fera-t-il une fois l’honneur de m’entendre ?
-][
-,(strong[M. Bastiat]).
-,(q[Pour que les billets d’une Banque soient reçus,
-il faut qu’ils inspirent confiance ;
-Pour qu’ils inspirent confiance,
-il faut que la Banque ait des capitaux ;
-Pour que la Banque ait des capitaux,
+M. Bastiat me fera-t-il une fois l’honneur de m’entendre ?])
+,(liste(p*[,(strong[,(ref :url "lettre12.html#confiance" [M. Bastiat])]).
+« Pour que les billets d’une Banque soient reçus,
+il faut qu’ils inspirent confiance ;]
+[« Pour qu’ils inspirent confiance,
+il faut que la Banque ait des capitaux ;]
+[« Pour que la Banque ait des capitaux,
 il faut qu’elles les empruntent,
-et conséquemment qu’elle en paie l’intérêt ;
-Si elle en paie l’intérêt,
-elle ne peut les prêter sans intérêt.])
-][
-,(strong[Moi]).
+et conséquemment qu’elle en paie l’intérêt ;]
+[« Si elle en paie l’intérêt,
+elle ne peut les prêter sans intérêt. »]))
+
+,(p*[,(strong[Moi]).
 Et bien !
 Monsieur,
 la Banque de France a trouvé des capitaux sans intérêts ;
@@ -1148,23 +1147,22 @@ en ce moment,
 elle en aura,
 quand elle voudra,
 le double à pareille condition.
-,(--) Doit-elle faire payer un intérêt ?
-][
-,(strong[M. Bastiat]).
-,(q[Le temps est précieux.
+,(--) Doit-elle faire payer un intérêt ?])
+,(liste(p*[,(strong[,(ref :url "lettre12.html#temps" [M. Bastiat])]).
+« Le temps est précieux.
 Le temps,
 c’est de l’argent,
 disent les Anglais.
 Le temps,
 c’est l’étoffe dont la vie est faite,
-dit le Bonhomme Richard.])
-,(q[Faire crédit,
-c’est accorder du temps.])
-,(q[Sacrifier du temps à autrui,
+dit le Bonhomme Richard.]
+[« Faire crédit,
+c’est accorder du temps.]
+[« Sacrifier du temps à autrui,
 c’est lui sacrifier une chose précieuse ;
-un pareil sacrifice ne peut être gratuit.])
-][
-,(strong[Moi]).
+un pareil sacrifice ne peut être gratuit. »]))
+
+,(p*[,(strong[Moi]).
 Vous n’y arriverez donc jamais !
 Je vous ai dit,
 et je vous répète,
@@ -1179,8 +1177,8 @@ la Banque de France,
 dans les conditions que lui fait le public depuis la révolution de Février,
 peut réduire son intérêt presque à zéro ;
 qui de vous ou de moi tourne dans le cercle ?
-][
-,(strong[M. Bastiat]).
+][,(tag :a :name "ricardo_ref")
+,(strong[,(ref :url "lettre12.html#public" [M. Bastiat])]).
 ,(q[Ah !
 oui…
 il semble…
@@ -1191,16 +1189,15 @@ en faveur de la Banque,
 Vous demandez s’il n’y aurait pas moyen de faire profiter le public de cet intérêt,
 ou,
 ce qui revient au même,
-d’organiser une Banque nationale qui ne perçut pas d’intérêts.
+d’organiser une Banque nationale qui ne perçût pas d’intérêts.
 Si je ne me trompe pas,
 c’est sur l’observation de ce phénomène que se fonde votre invention.
-Ricardo avait conçu un plan moins radical,
+,(np "ricardo" [Ricardo]) avait conçu un plan moins radical,
 mais analogue,
-et je trouve dans Say ces lignes remarquables :])
+et je trouve dans ,(np "say_jb" [Say]) ces lignes remarquables :])
 ])
 
-,(blockquote*(q[
-Cette idée ingénieuse ne laisse qu’une question non résolue.
+,(blockquote*(q[Cette idée ingénieuse ne laisse qu’une question non résolue.
 Qui devra jouir de l’intérêt de cette somme considérable,
 mise dans la circulation ?
 Serait-ce le gouvernement ?
@@ -1223,7 +1220,7 @@ mais je ne suis pas appelé à développer ici ce nouvel ordre d’idées.
 ,(strong[Moi]).
 Eh !
 Monsieur,
-votre J. B. Say,
+votre ,(np "say_jb" [J.-B. Say]),
 avec tout son génie,
 est un imbécile.
 La question est toute résolue ;
@@ -1242,7 +1239,7 @@ Est-il au monde quelque chose de plus simple et de plus juste ?
 ][
 Ainsi,
 vous convenez,
-sur la foi du Ricardo et de J. B. Say,
+sur la foi de ,(np "ricardo" [Ricardo]) et de ,(np "say_jb" [J.-B. Say]),
 qu’il existe ,(emph[un moyen de faire profiter le public]),
 je cite vos propres expressions,
 ,(emph[des intérêts qu’il paie à la Banque]),
@@ -1250,7 +1247,7 @@ et que ce moyen,
 c’est d’organiser une Banque nationale,
 faisant crédit à zéro d’intérêt ?
 ][
-,(strong[M. Bastiat]).
+,(strong[,(ref :url "lettre12.html#liberte" [M. Bastiat])]).
 Non pas cela,
 Dieu m’en préserve !
 Je reconnais,
@@ -1299,11 +1296,11 @@ au risque de ce qui en arriverait.
 Vous répugne-t-il de faire de la Banque de France,
 par le remboursement de ses actionnaires,
 cette Banque nationale que je propose ?
-Alors que la Banque de France restitue les 382 millions d’espèces qui appartiennent au public,
+Alors que la Banque de France restitue les 372 millions d’espèces qui appartiennent au public,
 et dont elle n’est que la détentrice.
-Avec 382 millions on peut très-bien organiser une banque ;
+Avec 372 millions on peut très-bien organiser une banque,
 qu’en pensez-vous ?
-Et la plus grosse de l’univers.
+et la plus grosse de l’univers.
 En quoi donc cette banque,
 formée par la commandite de tout le peuple,
 ne serait-elle pas libre ?
@@ -1323,7 +1320,7 @@ qui,
 membre de l’Institut,
 ne savez pas même où en est la philosophie de votre siècle ;
 qui,
-auteur d’un livre intitulé ,(cite-title[Harmonies économiques]),
+auteur d’un livre intitulé ,(ref :url "harmonies.html" [,(cite-title[Harmonies économiques])]),
 probablement par opposition aux ,(cite-title[Contradictions économiques])
 ,(footnote*[M. Proudhon s’est trompé dans sa conjecture.
 Bastiat n’a pas écrit les ,(cite-title[Harmonies])
@@ -1334,7 +1331,7 @@ c’est-à-dire antérieurement à l’apparition des ,(cite-title[Contradiction
 il communiquait par lettre à un ami le projet d’écrire les ,(cite-title[Harmonies sociales]).
 Rappelons aussi que Bastiat était seulement membre ,(emph[correspondant]) de l’Institut.
 ,(NdEEO)]),
-ne concevez rien aux harmoniques de l’histoire,
+ne concevez rien aux harmonies de l’histoire,
 et ne voyez dans le progrès qu’un désolant fatalisme ;
 qui,
 champion du capital et de l’intérêt,
@@ -1358,11 +1355,11 @@ un véritable ami du peuple :
 mais vos dernières paroles me donnent le droit de vous le dire,
 scientifiquement,
 monsieur Bastiat,
-vous être un homme mort.
+vous êtes un homme mort.
 
 
 ])
-,(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(sign[P. J. Proudhon.])
 ])
 (footer[
 	,(oeuvres)

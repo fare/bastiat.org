@@ -19,22 +19,22 @@ D’où vient ce dégoût subit
 pour la plus encensée des divinités de ce monde ?
 ][
 ,(--) Maudit argent ! maudit argent !
-][
+][,(tag :a :name "brutus_ref")
 ,(--) Vous m’alarmez.
 Il n’est rien qu’une fois ou autre je n’aie entendu blasphémer,
-la paix, la liberté, la vie, et Brutus a été jusqu’à dire :
+la paix, la liberté, la vie, et ,(np "brutus" [Brutus]) a été jusqu’à dire :
 Vertu ! tu n’es qu’un nom !
 Mais si quelque chose a échappé jusqu’ici…
 ][
 ,(--) Maudit argent ! maudit argent !
-][
+][,(tag :a :name "cresus_ref")
 ,(--) Allons, un peu de philosophie.
 Que vous est-il arrivé ?
-Crésus vient-il de vous éclabousser ?
+,(np "cresus" [Crésus]) vient-il de vous éclabousser ?
 Mondor vous a-t-il ravi l’amour de votre mie ?
 ou bien Zoïle a-t-il acheté contre vous une diatribe au gazetier ?
 ][
-,(--) Je n’envie pas le char de Crésus ;
+,(--) Je n’envie pas le char de ,(np "cresus" [Crésus]) ;
 ma renommée, par son néant, échappe à la langue de Zoïle ;
 et quant à ma mie, jamais, jamais l’ombre même de la tâche la plus légère…
 ][
@@ -50,9 +50,9 @@ s’il parvenait à vaincre toutes les résistances,
 et si l’humanité tout entière consentait
 à devenir entre ses doigts cire molle ;
 mais elle s’entête à n’être pas cire molle.
-Elle écoute, applaudit ou dédaigne, et….. va comme devant.
+Elle écoute, applaudit ou dédaigne, et… va comme devant.
 ][
-,(--) Grâce au Ciel, je résiste encore, à cette manie du jour.
+,(--) Grâce au Ciel, je résiste encore à cette manie du jour.
 Au lieu d’inventer des lois sociales,
 j’étudie celles qu’il a plu à Dieu d’inventer,
 ayant d’ailleurs le bonheur de les trouver admirables
@@ -68,10 +68,10 @@ une action de la Banque d’échange.
 ][
 ,(--) Puisque je maudis l’argent,
 jugez si j’en dois maudire le signe trompeur !
-][
+][,(tag :a :name "diogene_ref")
 ,(--) Alors, il ne me reste plus qu’une hypothèse.
-Vous êtes un nouveau Diogène, et vous allez m’affadir
-d’une tirade à la Sénèque, sur le mépris des richesses.
+Vous êtes un nouveau ,(np "diogene" [Diogène]), et vous allez m’affadir
+d’une tirade à la ,(np "seneque" [Sénèque]), sur le mépris des richesses.
 ][
 ,(--) Le Ciel m’en préserve !
 Car la richesse, voyez-vous, ce n’est pas un peu plus ou un peu moins d’argent.
@@ -100,8 +100,7 @@ La richesse, c’est
 c’est le progrès, c’est la civilisation.
 La richesse, c’est l’admirable résultat civilisateur de deux admirables agents,
 plus civilisateurs encore qu’elle-même :
-	le travail et l’échange
-	,(footnote*[
+	le travail et l’échange ,(footnote*[
 Voy. le ,(bof-ref "richesse" [chap. VI du tome VI]).
 ,(NdEEO)]).
 ][
@@ -121,7 +120,7 @@ fait prendre le moyen pour le but, l’obstacle pour la cause,
 alpha pour oméga ;
 parce que sa présence dans le monde, bienfaisante par elle-même,
 y a cependant introduit une notion funeste,
-une pétition de principes, une théorie à rebours,
+une pétition de principes, une théorie à rebours
 qui, dans ses formes multiples, a appauvri les hommes et ensanglanté la terre.
 Je le maudis, parce que je me sens incapable de lutter
 contre l’erreur à laquelle il a donné naissance
@@ -158,7 +157,7 @@ car, voyez-vous, en matière de travail et d’échange,
 quoiqu’il y ait autant d’opinions que de têtes,
 nous agissons tous de la même manière.
 ][
-,(--) À peu près comme nous marchons d’après les mêmes principes,
+,(--) A peu près comme nous marchons d’après les mêmes principes,
 encore que nous ne soyons pas d’accord
 sur la théorie de l’équilibre et de la gravitation.
 ][
@@ -215,11 +214,11 @@ et boit un canon avec l’argent que je lui ai donné.
 ,(--) Et tous les hommes qui sont sur la terre,
 s’ils sont libres, agissent de même ?
 ][
-,(--) Sans aucun doute,
+,(--) Sans aucun doute.
 Voulez-vous qu’ils meurent de faim pour entasser des sous ?
 ][
 ,(--) Loin de là, je trouve qu’ils agissent sagement,
-et je voudrais que la théorie ne fut autre chose
+et je voudrais que la théorie ne fût autre chose
 que la fidèle image de cette universelle pratique.
 Mais supposons maintenant que vous êtes le législateur,
 le roi absolu d’un vaste empire où il n’y a pas de mines d’or.
@@ -238,8 +237,8 @@ que de soutirer le numéraire des autres peuples.
 La première conséquence à laquelle vous arriveriez
 serait donc celle-ci :
 Une nation ne peut gagner que ce qu’une autre perd.
-][
-,(--) Cet axiome a pour lui l’autorité de Bacon et de Montaigne.
+][,(tag :a :name "bacon_ref")
+,(--) Cet axiome a pour lui l’autorité de ,(np "bacon" [Bacon]) et de ,(np "montaigne" [Montaigne]).
 ][
 ,(--) Il n’en est pas moins triste, car enfin il revient à dire :
 Le progrès est impossible.
@@ -249,7 +248,7 @@ Deux peuples, pas plus que deux hommes, ne peuvent prospérer côte à côte.
 ][
 ,(--) Et comme tous les hommes aspirent à s’enrichir,
 il faut dire que tous aspirent, en vertu d’une loi providentielle,
-ruiner leurs semblables.
+à ruiner leurs semblables.
 ][
 ,(--) Ce n’est pas du christianisme, mais c’est de l’économie politique.
 ][
@@ -306,7 +305,7 @@ la masse du numéraire supposé être la seule et vraie richesse.
 Mais c’est que, voyez-vous, on a dit de la musique :
 Pas trop n’en faut ;
 je crois que c’est encore plus vrai de l’économie politique.
-M’y revoilà Mais je ne sais vraiment qu’imaginer…
+M’y revoilà. Mais je ne sais vraiment qu’imaginer…
 ][
 ,(--) Cherchez bien. D’abord, je vous ferai remarquer
 que votre premier décret ne résolvait le problème que négativement.
@@ -318,7 +317,7 @@ ce blé libre d’entrer…
 Il me vient une idée lumineuse…
 Oui, le détour est ingénieux, le moyen infaillible, je touche au but.
 ][
-,(--) À mon tour, je vous demanderai quel but ?
+,(--) A mon tour, je vous demanderai quel but ?
 ][
 ,(--) Eh ! morbleu, d’accroître la masse du numéraire.
 ][
@@ -443,7 +442,7 @@ sans cela, je n’aurais jamais eu le courage de vous suivre jusqu’au bout
 dans votre dissertation économique ;
 car, à vous parler net, cela n’est pas divertissant.
 ][
-,(--) À qui le dites-vous ?
+,(--) A qui le dites-vous ?
 C’est à quoi je pensais quand vous m’entendiez murmurer :
 	Maudit argent !
 Je gémissais de ce que mes compatriotes n’ont pas le courage
@@ -461,9 +460,9 @@ cette confusion entre l’Argent et la Richesse ?
 ,(--) Il me faudra longtemps pour les énumérer.
 C’est une doctrine qui a une nombreuse lignée.
 Son fils aîné, nous venons de faire sa connaissance,
-s’appelle ,(emph[régime prohibitif]) ,(pv)
-le cadet, ,(emph[système colonial]) ,(pv)
-le troisième, ,(emph[haine au capital]) ,(pv)
+s’appelle ,(emph[régime prohibitif ;])
+le cadet, ,(emph[système colonial ;])
+le troisième, ,(emph[haine au capital ;])
 le Benjamin, ,(emph[papier-monnaie]).
 ][
 ,(--) Quoi ! le papier-monnaie procède de la même erreur ?
@@ -499,11 +498,11 @@ s’ils aspirent à apprendre, des livres ;
 s’ils désirent se déplacer, des véhicules, et ainsi de suite.
 La richesse d’un pays se reconnaît
 à l’abondance et à la bonne distribution de toutes ces choses.
-][
+][,(tag :a :name "bacon_ref2")
 Par où vous devez reconnaître avec bonheur
-combien est fausse cette triste maxime de Bacon :
+combien est fausse cette triste maxime de ,(np "bacon" [Bacon]) :
 ,(emph[Ce qu’un peuple gagne, l’autre le perd nécessairement ;])
-maxime exprimée d’une manière plus désolante encore par Montaigne,
+maxime exprimée d’une manière plus désolante encore par ,(np "montaigne" [Montaigne]),
 en ces termes : ,(emph[Le profit de l’un est le dommage de l’autre.])
 Lorsque Sem, Cham et Japhet se partagèrent les vastes solitudes de cette terre,
 assurément chacun d’eux put bâtir, dessécher, semer, récolter,
@@ -516,7 +515,7 @@ Il en est de même de deux peuples.
 ,(--) Sans doute, deux peuples, comme deux hommes, sans relations entre eux,
 peuvent, en travaillant plus, en travaillant mieux,
 prospérer côte à côte sans se nuire.
-Ce n’est pas là ce qui est nié par les axiomes de Montaigne et de Bacon.
+Ce n’est pas là ce qui est nié par les axiomes de ,(np "montaigne" [Montaigne]) et de ,(np "bacon" [Bacon]).
 Ils signifient seulement que,
 dans le commerce qui se fait entre deux peuples ou deux hommes,
 si l’un gagne, il faut que l’autre perde.
@@ -548,7 +547,7 @@ Il s’accomplit, donc il est bon
 Voy. le ,(bof-ref "echange" [chap. IV du tome VI]).
 ,(NdEEO)]).
 ][
-,(--) Mais l’axiome de Bacon est vrai quand il s’agit d’or et d’argent.
+,(--) Mais l’axiome de ,(np "bacon" [Bacon]) est vrai quand il s’agit d’or et d’argent.
 Si l’on admet qu’à un moment déterminé
 il en existe dans le monde une quantité donnée,
 il est bien clair qu’une bourse ne se peut emplir
@@ -717,7 +716,7 @@ car là du moins on se sert des métaux précieux
 pour acheter des choses utiles faites ailleurs.
 Malgré cela, on y court risque de mourir de faim sur des monceaux d’or.
 Que serait-ce, si la loi en défendait l’exportation ?
-][
+][,(tag :a :name "midas_ref")
 Quant à la seconde hypothèse,
 celle de l’or qui nous arrive par le commerce,
 c’est un avantage ou un inconvénient,
@@ -725,12 +724,12 @@ selon que le pays en a plus ou moins besoin,
 comparativement au besoin qu’il a aussi des choses utiles
 dont il faut se défaire pour l’acquérir.
 C’est aux intéressés à en juger, et non à la loi ;
-car si la loi part de ce principe, que l’or est préférable aux choses utiles,
+car si la loi part de ce principe que l’or est préférable aux choses utiles,
 n’importe la valeur,
-et si ,(tag :a :name "p80") elle parvient à agir efficacement dans ce sens,
+et si,(tag :a :name "p80") elle parvient à agir efficacement dans ce sens,
 elle tend à faire de la France une Californie retournée,
 où il y aura beaucoup de numéraire pour acheter, et rien à acheter.
-C’est toujours le système dont Midas est le symbole.
+C’est toujours le système dont ,(np "midas" [Midas]) est le symbole.
 ][
 ,(--) L’or qui entre implique une ,(emph[chose utile]) qui sort, j’en conviens,
 et, sous ce rapport, il y a une satisfaction soustraite au pays.
@@ -787,8 +786,7 @@ vous déchiffrerez distinctement ces mots :
 ,(q[,(emph[Rendez au porteur un service équivalent
 à celui qu’il a rendu à la société,
 valeur reçue constatée, prouvée et mesurée
-par celle qui est en moi-même])
-	,(footnote*[Ici l’éditeur renvoie à ,(ref :url "mutualite.html" [cette ébauche inédite]).])])
+par celle qui est en moi-même]) ,(footnote*[Ici l’éditeur renvoie à ,(ref :url "mutualite.html" [cette ébauche inédite]).]).])
 ][
 Maintenant, vous me cédez votre écu.
 Ou c’est à titre gratuit, ou c’est à titre onéreux.
@@ -851,7 +849,7 @@ et l’industrie en recevrait un puissant encouragement.
 ,(--) Plus d’achats ! Mais acheter quoi ?
 Sans doute des objets utiles, des choses propres
 à procurer des satisfactions efficaces,
-des vivres des étoffes, des maisons, des livres, des tableaux.
+des vivres, des étoffes, des maisons, des livres, des tableaux.
 Vous devriez donc commencer par prouver
 que toutes ces choses s’engendrent d’elles-mêmes,
 par cela seul qu’on fond à l’hôtel des Monnaies
@@ -991,7 +989,7 @@ pour la satisfaction de nos besoins et de nos gouts.
 Ces choses utiles s’échangent les unes contre les autres,
 selon les convenances de ceux à qui elles appartiennent.
 Il y a deux formes à ces transactions :
-l’une s’appelle ,(emph[troc]) ,(pv)
+l’une s’appelle ,(emph[troc ;])
 c’est celle où l’on rend un service
 pour recevoir immédiatement un service équivalent.
 Sous cette forme, les transactions seraient extrêmement limitées.
@@ -1059,10 +1057,10 @@ car c’est là justement que réside l’illusion.
 ][
 Il est passé dans l’usage
 de rapporter la valeur de toutes choses à celle du numéraire.
-On dit : ceci ,(emph[vaut]) 5, 40, 20, fr.,
+On dit : ceci ,(emph[vaut]) 5, 10, 20 fr.,
 comme on dit : ceci ,(emph[pèse]) 5, 10, 20 grammes,
 ceci ,(emph[mesure]) 5, 10, 20 mètres,
-cette terre contient 5, 40, 20 ares, etc.,
+cette terre contient 5, 10, 20 ares, etc.,
 et de là on a conclu que la monnaie était
 la ,(emph[mesure]) des ,(emph[valeurs]).
 ][
@@ -1077,7 +1075,7 @@ et par les mêmes causes, car elle a la même source et subit les mêmes lois.
 L’or est mis à notre portée absolument comme le fer,
 par le travail des mineurs, les avances des capitalistes,
 le concours des marins et des négociants.
-Il vaut plus ou moins selon qu’il coute plus ou moins à produire,
+Il vaut plus ou moins selon qu’il coûte plus ou moins à produire,
 qu’il y en a plus ou moins sur le marché,
 qu’il y est plus ou moins recherché ;
 en un mot, il subit, quant à ses fluctuations,
@@ -1090,7 +1088,7 @@ Ainsi, je suppose
 que toutes les circonstances relatives à l’or restent les mêmes,
 et que la récolte du blé soit emportée.
 Le blé haussera ; on dira :
-L’hectolitre de blé qui valait 20 fr. en vaut 30,
+L’hectolitre de blé qui valait 20 fr. en vaut 30,
 et on aura raison,
 car c’est bien la valeur du blé qui a varié,
 et le langage ici est d’accord avec le fait.
@@ -1156,10 +1154,10 @@ je vous quitte pour aller méditer
 sur la dissertation à laquelle vous venez de vous livrer
 avec tant de complaisance.
 ][
-,(--) Etes-vous déjà à bout de la vôtre ?
+,(--) Êtes-vous déjà à bout de la vôtre ?
 C’est à peine si j’ai commencé.
 Je ne vous ai pas encore parlé de la ,(emph[haine du capital]),
-de la ,(emph[gratuité du crédit]) ,(pv)
+de la ,(emph[gratuité du crédit ;])
 sentiment funeste, erreur déplorable,
 qui s’alimente à la même source !
 ][
@@ -1169,7 +1167,7 @@ provient aussi de ce qu’on confond l’Argent avec la Richesse ?
 ][
 ,(--) Il est le fruit de causes diverses.
 Malheureusement, certains capitalistes se sont arrogé
-des monopoles, des privilèges, qui suffiraient pour expliquer ce sentiment.
+des monopoles, des priviléges, qui suffiraient pour expliquer ce sentiment.
 Mais, lorsque les théoriciens de la démagogie ont voulu le justifier,
 le systématiser, lui donner l’apparence d’une opinion raisonnée,
 et le tourner contre la nature même du capital,
@@ -1184,12 +1182,11 @@ ni aucune fraction de sou. Donc l’argent ne produit pas d’intérêts.])
 Puis, substituant au mot ,(emph[argent])
 son prétendu synonyme, ,(emph[capital]),
 ils ont fait subir à leur ,(inlatin[ergo]) cette modification :
-,(q[Donc le capital ne produit pas d’intérêts
-	,(footnote*[
+,(q[Donc le capital ne produit pas d’intérêts ,(footnote*[
 Voy. l’introduction de
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])), page 25.
-,(NdEEO)])])
-Ensuite est venue la série des conséquences ;
+,(NdEEO)]).])
+Ensuite est venue la série des conséquences :
 ,(q[Donc celui qui prête un capital n’en doit rien retirer ;
 donc celui qui te prête un capital,
 s’il en retire quelque chose, te vole ;
@@ -1204,7 +1201,7 @@ me semble admirablement enchaîné.
 Je voudrais bien éclaircir la question.
 Mais, hélas ! je ne suis plus maître de mon attention.
 Je sens dans ma tête un bourdonnement confus
-des mots ,(emph[numéraire, argent, services, capital, intérêts]) ,(pv)
+des mots ,(emph[numéraire, argent, services, capital, intérêts ;])
 c’est au point que, vraiment, je ne m’y reconnais plus.
 Remettons, s’il vous plaît, l’entretien à un autre jour.
 ][
@@ -1233,7 +1230,7 @@ Serait-ce que l’État ne la fait pas assez enseigner ?
 ][
 ,(--) Pas précisément.
 Cela tient à ce que, sans le savoir,
-il s’applique avec un soin infini à saturer tous les cerveaux de préjuigés
+il s’applique avec un soin infini à saturer tous les cerveaux de préjugés
 et tous les c,(oe)urs de sentiments favorables
 à l’esprit d’anarchie, de guerre et de haine.
 En sorte que, lorsqu’une doctrine d’ordre, de paix et d’union se présente,
@@ -1245,7 +1242,7 @@ au profit des révolutions, des guerres civiles et étrangères ?
 Il y a certainement de l’exagération dans ce que vous dites.
 ][
 ,(--) Jugez-en.
-À l’époque où nos facultés intellectuelles commencent à se développer,
+A l’époque où nos facultés intellectuelles commencent à se développer,
 à l’âge où les impressions sont si vives,
 où les habitudes de l’esprit se contractent avec une si grande facilité ;
 quand nous pourrions jeter un regard sur notre société et la comprendre,
@@ -1266,15 +1263,16 @@ ici, sur l’industrie libre.
 La société romaine s’était organisée en conséquence de son principe.
 Elle devait admirer ce qui la faisait prospérer.
 On y devait appeler vertus ce qu’ici nous appelons vices.
-Ses poêtes, ses historiens devaient exalter ce qu’ici nous devons mépriser.
-Les mots mêmes ,(emph[liberté, ordre, justice, peuple, honneur, influence,])
+Ses poëtes, ses historiens devaient exalter ce qu’ici nous devons mépriser.
+Les mots même : ,(emph[liberté, ordre, justice, peuple, honneur, influence,])
 etc., ne pouvaient avoir la même signification à Rome
 qu’ils ont, ou devraient avoir à Paris.
+,(tag :a :name "titelive_ref")
 Comment voulez-vous que toute cette jeunesse,
 qui sort des écoles universitaires ou monacales,
-qui a eu pour catéchisme Tite-Live et Quinte-Curce,
-ne comprenne pas la liberté comme les Gracques,
-la vertu comme Caton, le patriotisme comme César ?
+qui a eu pour catéchisme ,(np "titelive" [Tite-Live]) et ,(np "quintecurce" [Quinte-Curce]),
+ne comprenne pas la liberté comme les ,(np "gracques" [Gracques]),
+la vertu comme ,(np "caton" [Caton]), le patriotisme comme ,(np "cesar" [César]) ?
 Comment voulez-vous qu’elle ne soit pas factieuse et guerrière ?
 Comment voulez-vous surtout qu’elle prenne le moindre intérêt
 au mécanisme de notre ordre social ?
@@ -1284,11 +1282,10 @@ se défaire de ses impressions pour en recevoir de tout opposées ?
 ][
 ,(--) Que concluez-vous de là ?
 ][
-,(--) Le voici ;
+,(--) Le voici :
 le plus pressé, ce n’est pas que l’État enseigne, mais qu’il laisse enseigner.
 Tous les monopoles sont détestables, mais le pire de tous,
-c’est le monopole de l’enseignement
-	,(footnote*[
+c’est le monopole de l’enseignement ,(footnote*[
 Voy., au tome IV, ,(bof-ref "baccalaureat_et_socialisme"
 	(cite-title[Baccalauréat et Socialisme])).
 ,(NdEEO)]).

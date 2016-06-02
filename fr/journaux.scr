@@ -53,7 +53,7 @@
 ,(h3[Journaux dans lesquels Bastiat a publié])
 ,(itemize :class "journaux" [
 ,(itemjournal "" "La Chalosse" "")
-,(itemjournal "" "La Sentinelle des Pyrénées" "")
+,(itemjournal "journaux_sp.html" "La Sentinelle des Pyrénées" "10 articles en 1843 et 1844")
 ,(itemjournal "journaux_mb.html" "Le Mémorial bordelais"
     "21 articles de février à octobre 1846")
 ,(itemjournal "journaux_cf.html" "Le Courrier français" "10 articles d’avril à novembre 1846")
@@ -93,6 +93,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "constitutionnel" "Le Constitutionnel" [
 ,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "generalites.html#constitutionnel_ref" [Sur les généralités])
 ])
 
 ,(journal "cm" "Courrier de Marseille" [
@@ -202,7 +203,9 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ]
 [Simples allusions : ,(ref :url "1profit_2pertes.html#mi_ref" [Un profit contre deux pertes]) ; ,(ref :url "conseil_inferieur_du_travail.html#mi_ref" [Conseil inférieur du travail]) ;
 ,(ref :url "conte_chinois.html#mi_ref" [Conte chinois]) ;
-,(ref :url "autre_chose.html#mi_ref" [Autre chose])
+,(ref :url "autre_chose.html#mi_ref" [Autre chose]) ;
+,(ref :url "recettes_protectionnistes.html#mi_ref" [Recettes protectionistes]) ;
+,(ref :url "logique_cunin_gridaine.html#mi_ref" [La logique de M. Cunin-Gridaine]) ;
 ])
 ,(ref :url "question_conseils_generaux.html#mi_ref" [Une question soumise aux conseils généraux…]) ;
 ])
