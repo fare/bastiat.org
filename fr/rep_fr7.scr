@@ -5,7 +5,7 @@
 (document :title "Les rois doivent désarmer"
 	:author (author-FB)
 (bastiat[
-,(date-tag[N° du 29 février 1848 de la ,(cite-title[République française]).])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 29 février 1848.])
 ,(p*[
 Si les rois de l’Europe étaient seulement prudents, que feraient-ils ?
 ][
@@ -20,8 +20,8 @@ L’empereur de Russie rendrait la Pologne aux Polonais.
 Alors la France, tranquille pour son avenir, s’absorberait dans ses réformes intérieures et laisserait agir l’influence morale seule.
 ][
 Mais les rois de l’Europe croiraient se perdre par cette conduite qui seule peut les sauver.
-][
-Ils feront tout le contraire ; ils voudront étouffer le libéralisme. Pour cela ils armeront ; les peuples armeront aussi. La Lombardie, la Pologne, peut-être la Prusse, deviendront le théâtre de la lutte. Cette alternative posée par Napoléon : ,(emph[L’Europe sera républicaine ou cosaque]), devra se résoudre à coups de canon. La France, malgré son ardent amour pour la paix manifesté par l’unanimité des journaux, mais forcée par son intérêt évident, ne pourra s’empêcher de jeter son épée dans la balance, et… ,(emph[les rois périssent ; les peuples ne périssent pas]).
+][,(tag :a :name "bonaparte_ref")
+Ils feront tout le contraire ; ils voudront étouffer le libéralisme. Pour cela ils armeront ; les peuples armeront aussi. La Lombardie, la Pologne, peut-être la Prusse, deviendront le théâtre de la lutte. Cette alternative posée par ,(np "bonaparte" [Napoléon]) : ,(emph[L’Europe sera républicaine ou cosaque]), devra se résoudre à coups de canon. La France, malgré son ardent amour pour la paix manifesté par l’unanimité des journaux, mais forcée par son intérêt évident, ne pourra s’empêcher de jeter son épée dans la balance, et… ,(emph[les rois périssent ; les peuples ne périssent pas]).
 ])])
 (footer[
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Sous la République, par Frédéric Bastiat")
 
-(document :title "Sous la République"
+(document :title [Sous la République ,(footnote*[Dans le t. II, p. 459 à 465, figure le contingent fourni par Bastiat aux ,(cite-title[Petites affiches de Jacques Bonhomme]). Grâce à l’obligeance de M. G. de Molinari, nous pouvons reproduire maintenant de courts articles qu’écrivit Bastiat pour deux autres des feuilles publiques, qui eurent une courte existence en 1848, la ,(cite-title[République française]) et ,(cite-title[Jacques Bonhomme]). ,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
-,(date-tag[Paris, 26 février 1848. ,(footnote*[N° du 27 février 1848 de la ,(cite-title[République française]).])])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 27 février 1848.])
 ,(p*[
-,(footnote*[Dans le t. II, p. 459 à 465, figure le contingent fourni par Bastiat aux ,(cite-title[Petites affiches de Jacques Bonhomme]). Grâce à l’obligeance de M. G. de Molinari, nous pouvons reproduire maintenant de courts articles qu’écrivit Bastiat pour deux autres des feuilles publiques, qui eurent une courte existence en 1848, la ,(cite-title[République française]) et ,(cite-title[Jacques Bonhomme]). ,(NdEEO)])
-
 Nul ne peut dire quel sera, en Europe, le contre-coup de la Révolution. Plaise au ciel que tous les peuples sachent se soustraire à la triste nécessité de se précipiter les uns sur les autres, au signal des aristocraties et des rois.
 ][
 Mais supposons que les puissances absolues conservent encore, pendant quelque temps, leurs moyens d’action au dehors.
@@ -17,7 +15,7 @@ Nous posons ici deux faits qui nous paraissent incontestables et dont on va voir
 ][
 1° La France ne peut pas prendre l’initiative du désarmement.
 ][
-2° Sans le désarmement, la Révolution ne peut remplir que très imparfaitement les espérances du peuple.
+2° Sans le désarmement, la Révolution ne peut remplir que très-imparfaitement les espérances du peuple.
 ][
 Ces deux faits, disons-nous, sont incontestables.
 ][

@@ -2,10 +2,10 @@
 (style 'bo-style)
 (in-bof :title "Aux citoyens Lamartine et Ledru-Rollin
 	- par Frédéric Bastiat")
-(document :title "Aux citoyens Lamartine et Ledru-Rollin"
+(document :title [Aux citoyens ,(np "lamartine" [Lamartine]) et ,(np "ledrurollin" [Ledru-Rollin])]
 	:author (author-FB)
 (bastiat[
-,(date-tag[N° 3 du ,(cite-title[Jacques Bonhomme]), du 20 au 23 juin 1848.])
+,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 3, du 20 au 23 juin 1848.])
 ,(p*[
 Dissolvez les ateliers nationaux. Dissolvez-les avec tous les ménagements que l’humanité commande, mais ,(emph[dissolvez-les]).
 ][

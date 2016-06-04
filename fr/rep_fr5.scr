@@ -5,8 +5,7 @@
 (document :title "Article dans La République française"
 	:author (author-FB)
 (bastiat[
-,(date-tag[27 février 1848])
-,(date-tag[N° du 28 février 1848 de la ,(cite-title[République française]).])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 28 février 1848.])
 ,(p*[
 Tout notre concours, toute notre faible part d’influence sont acquis au gouvernement provisoire.
 ][

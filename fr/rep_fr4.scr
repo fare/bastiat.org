@@ -5,11 +5,11 @@
 (document :title "Article dans La République française"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Paris, 27 février 1848. ,(footnote*[N° du 28 février 1848 de la ,(cite-title[République française]).])])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 28 février 1848.])
 ,(p*[
-Le ,(cite-title[National]) examine aujourd’hui notre situation à l’égard de l’étranger.
+Le ,(tj "national" [,(cite-title[National])]) examine aujourd’hui notre situation à l’égard de l’étranger.
 ][
-Il se demande : Serons-nous attaqués ? Et après avoir jetés un coup d’œil sur les difficultés de l’Autriche, de la Prusse et de la Russie, il se prononce pour la négative.
+Il se demande : Serons-nous attaqués ? Et après avoir jeté un coup d’œil sur les difficultés de l’Autriche, de la Prusse et de la Russie, il se prononce pour la négative.
 ][
 Nous partageons entièrement cet avis.
 ][
@@ -21,21 +21,19 @@ Qu’on nous permette une fiction.
 ][
 Supposez une petite île qui a été, pendant longues années, plutôt exploitée que gouvernée ; les impôts, les entraves, les abus y sont innombrables ; le peuple succombe sous le faix, et, en outre, pour se prémunir contre les menaces continuelles du dehors, il arrache au travail, tient sur pied, arme et nourrit une grande partie de sa population valide.
 ][
-Tout à coup il détruit son gouvernement oppresseur ; il aspire à se délivrer du poids des taxes et des abus.
-][
-Mais le gouvernement tombé lui laisse le fardeau d’une dette énorme.
+Tout à coup il détruit son gouvernement oppresseur ; il aspire à se délivrer du poids des taxes et des abus.])
+,(liste(p*[Mais le gouvernement tombé lui laisse le fardeau d’une dette énorme.
 ][
 Mais, au premier moment, toutes les dépenses s’accroissent.
 ][
 Mais, dans les premiers temps, toutes les sources de revenus diminuent.
 ][
-Mais il y a des taxes si odieuses qu’il est moralement et matériellement impossible de les maintenir, même provisoirement.
+Mais il y a des taxes si odieuses qu’il est moralement et matériellement impossible de les maintenir, même provisoirement.]))
+
+,(p*[Dans cette situation, les chefs qui exploitent toutes les îles voisines tiennent à la République naissante ce langage :
 ][
-Dans cette situation, les chefs qui exploitent toutes les îles voisines tiennent à la République naissante ce langage :
-][
-« Nous te détestons, mais nous ne voulons pas t’attaquer, de peur que mal ne nous en arrive. Nous nous contenterons de t’entourer d’une ceinture de soldats et de canons. »
-][
-Dès lors la jeune République est forcée de lever aussi beaucoup de soldats et de canons.
+« Nous te détestons, mais nous ne voulons pas t’attaquer, de peur que mal ne nous en arrive. Nous nous contenterons de t’entourer d’une ceinture de soldats et de canons. »])
+,(liste(p*[Dès lors la jeune République est forcée de lever aussi beaucoup de soldats et de canons.
 ][
 Elle ne peut retrancher aucune taxe, même la plus impopulaire.
 ][
@@ -43,9 +41,9 @@ Elle ne peut tenir envers le peuple aucune de ses promesses.
 ][
 Elle ne peut pas remplir les espérances de ses citoyens.
 ][
-Elle se débat dans les difficultés financières ; elle multiplie les impôts avec leur cortège d’entraves. Elle ravit à la population, à mesure qu’il se forme, le capital qui est la source des salaires.
-][
-Dans cette situation extrême, rien au monde peut-il l’empêcher de répondre : « Votre prétendue modération nous tue. Nous forcer à tenir sur pied de grandes armées, c’est nous pousser vers des convulsions sociales. Nous ne voulons pas périr, et, plutôt, nous irons soulever chez vous tous les éléments de désaffection que vous avez accumulés au sein de vos peuples, puisqu’aussi bien vous ne nous laissez pas d’autre planche de salut. »
+Elle se débat dans les difficultés financières ; elle multiplie les impôts avec leur cortège d’entraves. Elle ravit à la population, à mesure qu’il se forme, le capital qui est la source des salaires.]))
+
+,(p*[Dans cette situation extrême, rien au monde peut-il l’empêcher de répondre : « Votre prétendue modération nous tue. Nous forcer à tenir sur pied de grandes armées, c’est nous pousser vers des convulsions sociales. Nous ne voulons pas périr, et, plutôt, nous irons soulever chez vous tous les éléments de désaffection que vous avez accumulés au sein de vos peuples, puisqu’aussi bien vous ne nous laissez pas d’autre planche de salut. »
 ][
 Voilà bien notre position à l’égard des rois et des aristocraties de l’Europe.
 ][
@@ -53,17 +51,16 @@ Les rois, nous le craignons, ne le comprendront pas. Quand les a-t-on vus se sau
 ][
 Nous ne devons pas moins le leur dire. Il ne leur reste qu’une ressource : être justes envers leurs peuples, les soulager du poids de l’oppression, ,(emph[et prendre-sur-le champ l’initiative du désarmement]).
 ][
-Hors de là, leur couronne est livrée au hasard d’une grande et suprême lutte. Ce n’est pas la fièvre révolutionnaire, ce sont les précédents et la nature même des choses qui l’ordonnent.
+Hors de là, leur couronne est livrée au hasard d’une grande et suprême lutte. Ce n’est pas la fièvre révolutionnaire, ce sont les précédents et la nature même des choses qui l’ordonnent.])
+,(liste(p*[Les rois diront : N’est-ce pas notre droit de rester armés ?
 ][
-Les rois diront : N’est-ce pas notre droit de rester armés ?
+Sans doute, c’est leur droit, à leurs risques et périls.]))
+
+,(liste(p*[Ils diront encore : La simple prudence n’exige-t-elle pas que nous restions armés ?
 ][
-Sans doute, c’est leur droit, à leurs risques et périls.
-][
-Ils diront encore : La simple prudence n’exige-t-elle pas que nous restions armés ?
-][
-La prudence veut qu’ils désarment de suite et plutôt aujourd’hui que demain.
-][
-Car tous les motifs qui pousseront la France au dehors, si on la force à armer, la retiendront au dedans, si on la met à même de réduire ses forces militaires.
+La prudence veut qu’ils désarment de suite et plutôt aujourd’hui que demain.]))
+
+,(p*[Car tous les motifs qui pousseront la France au dehors, si on la force à armer, la retiendront au dedans, si on la met à même de réduire ses forces militaires.
 ][
 Alors la République sera intéressée à supprimer en toute hâte les impôts les plus odieux ; à laisser respirer le peuple ; à laisser se développer le capital et le travail ; à abolir les gênes et les entraves inséparables des lourdes taxes.
 ][

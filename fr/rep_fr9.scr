@@ -5,18 +5,17 @@
 (document :title "Article dans La République française"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Paris, 29 février 1848.])
-,(date-tag[N° du ,(1er) mars 1848 de la ,(cite-title[République française]).])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 1,(sup[er]) mars 1848.])
 ,(p*[
-Un journal n’atteint pas à une immense circulation sans répondre à quelques idées dominantes dans le pays. Nous reconnaissons que la ,(cite-title[Presse]) a toujours su parler aux instincts du moment, et même qu’elle a souvent donné de bons conseils ; c’est ainsi qu’elle a pu semer, sur le sol de la patrie, avec le bon grain, beaucoup d’ivraie qu’il faudra bien du temps pour extirper.
+Un journal n’atteint pas à une immense circulation sans répondre à quelques idées dominantes dans le pays. Nous reconnaissons que la ,(tj "presse" [,(cite-title[Presse])]) a toujours su parler aux instincts du moment, et même qu’elle a souvent donné de bons conseils ; c’est ainsi qu’elle a pu semer, sur le sol de la patrie, avec le bon grain, beaucoup d’ivraie qu’il faudra bien du temps pour extirper.
 ][
 Depuis la révolution, il faut le dire, son attitude est franche et décidée.
 ][
 Nous adhérons complétement, pour notre compte, aux deux cris qu’elle fait entendre aujourd’hui : pas de diplomatie ! pas de curée de places !
 ][
 Pas de diplomatie ! Qu’a affaire la république de cette institution, qui a fait tant de mal et qui n’a peut-être jamais fait de bien ; où la ,(emph[rouerie]) est tellement traditionnelle qu’on en met aux choses les plus simples ; où la sincérité est réputée niaiserie ? C’est par un diplomate et pour la diplomatie qu’a été dit ce mot : La parole a été donnée à l’homme pour déguiser sa pensée.
-][
-Un des plus purs démocrates anglais, M. Cobden, passant à Madrid, y reçut la visite de M. Bulwer. Il lui dit : « Monsieur l’ambassadeur, dans dix ans l’Europe n’aura plus besoin de vous. »
+][,(tag :a :name "cobden_ref")
+Un des plus purs démocrates anglais, ,(np "cobden" [M. Cobden]), passant à Madrid, y reçut la visite de ,(np "bulwer" [M. Bulwer]). Il lui dit : « Monsieur l’ambassadeur, dans dix ans l’Europe n’aura plus besoin de vous. »
 ][
 Quand il est de principe que les nations sont la propriété des rois, on conçoit la diplomatie et même la rouerie diplomatique. Il faut préparer de loin des événements, des alliances, des guerres, qui agrandissent le domaine du maître.
 ][
@@ -30,7 +29,7 @@ En outre, le principe que les peuples s’appartiennent à eux-mêmes garantit q
 ][
 Sans les ambassadeurs et les rois, nous n’aurions pas eu, dans ces derniers temps, la question des mariages espagnols. S’est-on jamais préoccupé du mariage d’un président des États-Unis ?
 ][
-Quant à la ,(emph[curée des places]), notre vœu est celui de la ,(cite-title[Presse]). Nous voudrions bien que la France de février ne donnât pas au monde ce triste et dégoûtant spectacle. Mais nous ne l’espérons guère, car nous ne pouvons nous faire illusion sur les faiblesses du cœur humain. Le moyen de réduire la ,(emph[curée]), c’est de réduire les places elles-mêmes. Il est puéril d’attendre que les solliciteurs se contiennent eux-mêmes ; c’est au public de les contenir.
+Quant à la ,(emph[curée des places]), notre vœu est celui de la ,(tj "presse" [,(cite-title[Presse])]). Nous voudrions bien que la France de février ne donnât pas au monde ce triste et dégoûtant spectacle. Mais nous ne l’espérons guère, car nous ne pouvons nous faire illusion sur les faiblesses du cœur humain. Le moyen de réduire la ,(emph[curée]), c’est de réduire les places elles-mêmes. Il est puéril d’attendre que les solliciteurs se contiennent eux-mêmes ; c’est au public de les contenir.
 ][
 C’est pour cela que nous répéterons sans cesse : Supprimez toutes les fonctions inutiles. On donne pour conseil aux enfants de tourner trois fois la langue dans la bouche avant de dire une chose hasardée. Et nous, nous disons au gouvernement : Brisez trente plumes avant de signer la création d’une place nouvelle.
 ][

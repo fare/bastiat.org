@@ -23,22 +23,56 @@ Le ,(emph[libre-échange]), quant aux choses les plus essentielles, est-il ou n�
 ][
 Chacun fait, comme il l’entend, parler et agir le peuple. Mais voyons comment le peuple a parlé et agi lui-même quand il en a eu l’occasion.
 ][
-Depuis un demi-siècle, nous avons eu des constitutions fort diverses.
-][
-En 1795, aucun Français n’était exclu du suffrage électoral.
+Depuis un demi-siècle, nous avons eu des constitutions fort diverses.])
+,(liste(p*[En 1795, aucun Français n’était exclu du suffrage électoral.
 ][
 En 1791, il n’y avait d’exclus que ceux qui ne payaient aucun impôt.
 ][
 En 1817, étaient exclus ceux qui payaient moins de 300 francs.
 ][
-En 1822, l’influence de la grande propriété fut renforcée par le double vote.
-][
-Ces quatre assemblées, émanées de sources diverses, depuis la démocratie la plus extrême jusqu’à l’aristocratie la plus restreinte, ont voté chacune son tarif.
+En 1822, l’influence de la grande propriété fut renforcée par le double vote.]))
+
+,(p*[Ces quatre assemblées, émanées de sources diverses, depuis la démocratie la plus extrême jusqu’à l’aristocratie la plus restreinte, ont voté chacune son tarif.
 ][
 Il nous est donc aisé de comparer la volonté de tous exprimée par tous, à la volonté de quelques-uns exprimée par quelques-uns. Nous soumettons le tableau suivant aux méditations de nos concitoyens de toutes classes.
-][
-(ajouter tableau)
-][
+])
+,(table :class "small"
+(tr (td[]) (td[]) (td :align "center" [,(bold[1795,])]) (td :align "center" [,(bold[1791,])]) (td :colspan 2 :align "center" [,(bold[1817,])]) (td :align "center" :colspan 2 [,(bold[1822,])]))
+(tr (td[]) (td[]) (td :align "center" [,(sc[Tout,(br)Français]),(br)est,(br)électeur.]) (td :align "center" [,(sc[Tout,(br)contribuable]),(br)est,(br)électeur.]) (td :colspan 2 :align "center" [,(sc[Cens de 300 fr.])]) (td :align "center" :colspan 2 [,(sc[Double,(br)vote.])]))
+(tr (td :colspan 2 :align "center" [,(bold[Aliments.])]) (td :align "center" [,(hrule)]) (td :align "center" [,(hrule)]) (td :colspan 2 :align "center" [,(hrule)]) (td :colspan 2 :align "center" [,(hrule)]))
+(tr (td :colspan 2 [Froment, seigle, maïs, orge, avoine, riz, l’hect.]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [néant.]) (td :align "center" :colspan 2 [25 c. à 15 fr.]))
+(tr (td :colspan 2 [Bœufs]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [3 fr. 30]) (td :align "center" :colspan 2 [55 fr.  »]))
+(tr (td :colspan 2 [Veaux]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [1 fr. 10]) (td :align "center" :colspan 2 [27 fr. 50]))
+(tr (td :colspan 2 [Moutons]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [0 fr. 27 1/2]) (td :align "center" :colspan 2 [5 fr. 50]))
+(tr (td :colspan 2 [Graisse (les 100 kilog.)]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [11 à 30 fr.]) (td :align "center" :colspan 2 [11 fr. à 30 fr.]))
+(tr (td[Huile]) (td[d’olive (les 100 kilog.)]) (td :align "right" [0 fr. 90]) (td :align "right" [9 fr.  »]) (td :colspan 2 :align "center" [27 fr. 50]) (td :align "center" :colspan 2 [38 fr. 50 et 44 fr.  »]))
+(tr (td[—]) (td[de fabrique]) (td :align "right" [0 fr. 90]) (td :align "right" [9 fr.  »]) (td :colspan 2 :align "center" [16 fr. 50]) (td :align "right" [27 fr. 50]) (td :align "right" [33 fr.  »]))
+(tr (td[—]) (td[de graines grasses]) (td :align "right" [0 fr. 90]) (td :align "right" [9 fr.  »]) (td :colspan 2 :align "center" [13 fr. 20]) (td :align "right" [27 fr. 50]) (td :align "right" [33 fr.  »]))
+(tr (td :colspan 2 :align "center" [,(bold[Matières nécessaires à l’industrie.])]) (td :align "right" []) (td :align "right" []) (td :colspan 2 :align "center" []) (td :align "right" []) (td :align "right" []))
+(tr (td[Acier]) (td[fondu (les 100 kilog.)]) (td :align "right" [0 fr. 30]) (td :align "right" [3 fr.  »]) (td :colspan 2 :align "center" [49 fr. 50]) (td :align "right" [110 fr.   ]) (td :align "right" []))
+(tr (td[—]) (td[en barres]) (td :align "right" [0 fr. 30]) (td :align "right" [3 fr.  »]) (td :colspan 2 :align "center" [49 fr. 50]) (td :align "right" [66 fr.   ]) (td :align "right" []))
+(tr (td[—]) (td[en tôle]) (td :align "right" [0 fr. 30]) (td :align "right" [3 fr.  »]) (td :colspan 2 :align "center" [49 fr. 50]) (td :align "right" [66 fr.   ]) (td :align "right" []))
+(tr (td[Fonte]) (td[brute]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [2 fr. 20]) (td :align "right" [4 fr. 40]) (td :align "right" [9 fr. 10]))
+(tr (td[—]) (td[mazée]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [2 fr. 20]) (td :align "right" [0 fr. 16]) (td :align "right" [50 fr.  »]))
+(tr (td[Fer]) (td[en barres, au bois]) (td :align "right" [0 fr. 40]) (td :align "right" [4 fr.  »]) (td :colspan 2 :align "center" [16 fr. 50 et 27 fr. 50]) (td :align "right" [16 fr. 50]) (td :align "right" [27 fr. 50]))
+(tr (td[—]) (td :align "right" [—  à la houille  ]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :align "right" [16 fr. 50]) (td :align "right" [27 fr. 50]) (td :align "right" [27 fr. 50]) (td :align "right" [55 fr.  »]))
+(tr (td[—]) (td[feuillard]) (td :align "right" [0 fr. 60]) (td :align "right" [6 fr.  »]) (td :align "right" [44 fr.  »]) (td :align "right" []) (td :align "right" [44 fr.  »]) (td :align "right" []))
+(tr (td[—]) (td[en tôle]) (td :align "right" [1 fr. 20]) (td :align "right" [6 fr.  »]) (td :align "right" [44 fr.  »]) (td :align "right" []) (td :align "right" [44 fr.  »]) (td :align "right" []))
+(tr (td[Houille,]) (td[par terre (100 kilog.)]) (td :align "right" [0 fr. 04]) (td :align "right" [0 fr. 20]) (td :colspan 2 :align "center" [0 fr. 33 et 0 fr. 66]) (td :align "right" [0 fr. 33]) (td :align "right" [0 fr. 66]))
+(tr (td[—]) (td[par mer]) (td :align "center" [0 fr. 11 et 0 fr. 18]) (td :align "center" [0 fr. 54 et 0 fr. 98]) (td :align "right" [1 fr. 10]) (td :align "right" [1 fr. 65]) (td :align "right" [1 fr. 10]) (td :align "right" [1 fr. 65]))
+(tr (td :rowspan 2 [Laine commune {]) (td[brute]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [néant.]) (td :align "right" [0 fr. 11]) (td :align "right" []))
+(tr (td[lavée]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [néant.]) (td :align "right" [22 fr.  »]) (td :align "right" [33 fr.  »]))
+(tr (td :rowspan 2 [Laine fine {]) (td[brute]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [néant.]) (td :align "right" [0 fr. 22]) (td :align "right" []))
+(tr (td[lavée]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [néant.]) (td :align "right" [44 fr.  »]) (td :align "right" [66 fr.  »]))
+(tr (td[Lin]) (td[teillé]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [3 fr. 30]) (td :align "right" [44 fr.  »]) (td :align "right" []))
+(tr (td[—]) (td[peigné]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :colspan 2 :align "center" [6 fr. 60]) (td :align "right" [33 fr.  »]) (td :align "right" []))
+(tr (td[Sucre,]) (td[colonies françaises]) (td :align "right" [néant.]) (td :align "right" [4 fr. 20]) (td :colspan 2 :align "center" [49 fr. 50]) (td :align "right" [49 fr. 50]) (td :align "right" []))
+(tr (td[—]) (td[étranger]) (td :align "right" [3 fr. 60]) (td :align "right" [18 fr.  »]) (td :colspan 2 :align "center" [104 fr. 50]) (td :align "right" [104 fr. 50]) (td :align "right" []))
+(tr (td[Café,]) (td[colonies françaises]) (td :align "right" [néant.]) (td :align "right" [7 fr. 60]) (td :colspan 2 :align "center" [55 fr. et 66 fr. 50]) (td :align "right" [55 fr.  »]) (td :align "right" [66 fr. 50]))
+(tr (td[—]) (td[étranger]) (td :align "right" [6 fr.  »]) (td :align "right" [60 fr.  »]) (td :align "right" [104 fr.  »]) (td :align "right" [110 fr.  »]) (td :align "right" [104 fr.  »]) (td :align "right" [110 fr.  »]))
+(tr (td :colspan 2 [Suif]) (td :align "right" [néant.]) (td :align "right" [néant.]) (td :align "right" [2 fr. 75]) (td :align "right" [5 fr. 50]) (td :align "right" [16 fr. 50]) (td :align "right" [19 fr. 80]))
+)
+,(p*[
 Certes, nous ne croyons pas que le peuple de 1795 fût plus avancé en économie politique que le corps électoral de 1847.
 ][
 Mais alors on posait cette question : Ceux qui mangent de la viande et du pain ou se servent de fer payeront-ils une taxe à ceux qui produisent ces choses ? Et comme les mangeurs de pain étaient en majorité, la majorité disait : ,(emph[Non]).

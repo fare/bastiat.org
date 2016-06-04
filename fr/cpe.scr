@@ -9,7 +9,7 @@
 ,(p*[
 
 Dans la séance du 9,
-M. Léon Faucher a appelé l’attention de la Chambre
+,(np "faucher" [M. Léon Faucher]) a appelé l’attention de la Chambre
 sur les circonstances financières qui ont hâté en Angleterre
 l’avènement des réformes commerciales.
 Il y a là tout un enchaînement de faits, aussi intéressants qu’instructifs,
@@ -27,7 +27,7 @@ et elles présentèrent un premier déficit de 16 millions de francs.
 L’année suivante, second déficit de 40 millions ;
 1839 laisse un découvert de 37 millions, et 1840 de 40 millions.
 ][
-L’administration songea sérieusementà fermer cette plaie toujours croissante.
+L’administration songea sérieusement à fermer cette plaie toujours croissante.
 Il y avait à choisir entre deux moyens :
 diminuer les dépenses ou accroître les recettes.
 Soit qu’aux yeux du ministère, le cercle des réformes possibles,
@@ -38,8 +38,8 @@ avant de toucher aux droits acquis des fonctionnaires,
 toujours est-il que sa première pensée
 fut celle qui s’offre à tous les ministres :
 ,(emph[demander à l’impôt tout ce qu’il peut rendre.])
-][
-En conséquence, le cabinet Russel provoqua, et le parlement vota
+][,(tag :a :name "russell_ref")
+En conséquence, le cabinet ,(np "russell" [Russell]) provoqua, et le parlement vota
 un bill qui autorisait un prélèvement additionnel
 de 10 pour 100 sur l’impôt foncier,
 5 pour 100 sur la douane et l’accise,
@@ -58,24 +58,23 @@ c’est-à-dire qui retombe, dans une proportion énorme,
 sur les classes laborieuses ;
 les ,(inenglish[assessed taxes]) ou impôt foncier,
 qui atteint directement le riche, surtout en Angleterre ;
-et le ,(emph[timbre]), qui est d’une nature mixte.
+et le ,(emph[timbre]), qui est d’une nature mixte.])
+,(liste(p*[L’impôt du peuple rendait 37 millions ou 9/12 de la totalité ;
 ][
-L’impôt du peuple rendait 37 millions ou 9/12 de la totalité ;
+L’impôt du riche, 4 millions ou 1/12 de la totalité ;
 ][
-L’impôt du riche, 4 millions ou 4/12 de la totalité ;
-][
-L’impôt mixte, 2 millions ou 2/12.
+L’impôt mixte, 2 millions ou 2/12.]))
 ,(footnote :note [
 Il y a visiblement ici une erreur de calcul ;
 Bastiat voulait dire 1/24 et non pas 2/12.
 Mais cela a peu d’incidence sur le reste de la discussion.
 ,(NdEBO)
 ])
-][
-D’où il suit que le commerce, l’industrie, le travail,
+
+,(p*[,(tag :a :name "cobden_ref")D’où il suit que le commerce, l’industrie, le travail,
 les classes moyennes et pauvres de la société
 acquittaient les cinq sixièmes des charges publiques,
-ce qui avait fait dire, sans doute, à M. Cobden :
+ce qui avait fait dire, sans doute, à ,(np "cobden" [M. Cobden]) :
 ,(q [Si notre code financier parvenait sans commentaires dans la lune,
 les habitants de ce satellite n’auraient pas besoin d’autre document
 pour en induire que l’Angleterre est gouvernée
@@ -93,10 +92,10 @@ devait produire :
 ](apply* table
 	(map*
 		(lambda (x) (tr (td :align 'right (car x)) (td (cadr x))))
- 		`(([1,426,040] [liv. st. 5 pour 100 sur la douane et l’accise,
+ 		`(([1,426,040 liv. st.,] [5 pour 100 sur la douane et l’accise,
 	spiritueux non compris ;])
-   		([186,000] [liv. st. 4 pence par gallon, sur les spiritueux ;])
-   		([400,000] [liv. st. 10 pour 100 sur l’impôt foncier.]))))
+   		([186,000 liv. st.,] [4 pence par gallon, sur les spiritueux ;])
+   		([400,000 liv. st.,] [10 pour 100 sur l’impôt foncier.]))))
 [
 Ici encore le peuple était appelé à réparer, dans la proportion des 4/5,
 le déficit amené par les fautes de l’oligarchie.
@@ -104,7 +103,7 @@ le déficit amené par les fautes de l’oligarchie.
 Le bill fut mis à exécution au commencement de 1840.
 Au 5 avril 1841, on procéda avec anxiété à la balance ;
 et ce ne fut pas sans une surprise mélée d’effroi
-qu’on constata, au lieu de l’accroissement attendu de 2,200,000 liv. st.,
+qu’on constata, au lieu de l’accroissement attendu de 2,200,000 liv. st.,
 une diminution sur la recette de l’année précédente
 de quelques centaines de mille livres.
 ][
@@ -130,8 +129,7 @@ Mais, pour les personnes qui, quoique vouées au culte des ,(emph[faits]),
 n’ont pas cependant horreur de la ,(emph[raison des faits]),
 nous devons dire comment ils soutenaient leur opinion.
 ]
-(q [
-Le produit d’un impôt sur un objet de consommation, disaient-ils,
+(q [Le produit d’un impôt sur un objet de consommation, disaient-ils,
 est en raison du taux de la taxe et de la quantité consommée.
 Exemple : si, l’impôt étant ,(emph[un]), il se consomme dix livres de sucre,
 la recette sera ,(emph[dix]).
@@ -145,7 +143,6 @@ Ainsi, quoiqu’on élève la taxe à 2, si la consommation se réduit à 4,
 la recette ne sera que de 8.
 Dans ce dernier cas, la privation pour le peuple sera énorme,
 ,(--) sans profit, bien plus, avec dommage pour le Trésor.])
-(XXX :sic [guillemets non fermés dans l’EO])
 [
 Cela posé, ce multiplicateur et ce multiplicande
 sont-ils indépendants entre eux,
@@ -160,7 +157,6 @@ par cela même qu’à chaque degré d’élévation
 il restreint un peu plus la consommation ou la matière imposable,
 un moment arrive nécessairement où la moindre addition à la taxe
 diminue la recette.])
-,(XXX :sic [guillemets non fermés dans l’EO])
 ][
 Que les protectionnistes sincères, et ils sont nombreux,
 nous permettent de recommander ce phénomène à leur attention.
@@ -230,7 +226,7 @@ Ils disaient au ministère :
 Vous ne pouvez plus grossir utilement
 le multiplicateur (le taux de la taxe)
 sans altérer dans une proportion plus forte
-le multiplicande (la matière imposable) ,(pv)
+le multiplicande (la matière imposable) ;
 essayez, en abaissant l’impôt,
 de laisser s’accroître les ressources du peuple.
 ][
@@ -243,10 +239,10 @@ et, ne l’oublions pas, on avait en face le déficit.
 Il ne s’agissait donc de rien moins que de creuser de plus en plus cet abîme,
 de compromettre le crédit de la vieille Angleterre,
 et d’ouvrir la porte à des catastrophes incalculables.
-][
+][,(tag :a :name "peel_ref")
 La difficulté était pressante.
 Elle accabla le ministère whig.
-Peel entra aux affaires.
+,(np "peel" [Peel]) entra aux affaires.
 ][
 On sait comment il résolut le problème.
 Il commença par mettre un impôt sur les riches.
@@ -263,17 +259,17 @@ Aujourd’hui, malgré la suppression de beaucoup de taxes,
 l’abaissement de toutes les autres,
 l’Échiquier serait florissant,
 sans les calamités imprévues qui sont venues fondre sur la Grande-Bretagne.
-][
-Il faut en convenir, M. Peel a conduit cette révolution financière
+][,(tag :a :name "wilson_ref")
+Il faut en convenir, ,(np "peel" [M. Peel]) a conduit cette révolution financière
 avec une énergie, une audace qui étonnent.
 Ce n’est pas sans raison qu’il caractérisait souvent ces mesures par ces mots :
 ,(q (inenglish[Bold experiment,])) expérience hardie.
 Ce n’est pas nous qui voudrions altérer la renommée de cet homme d’État
 et la recoinnaissance des classes laborieuses d’Angleterre,
 et on peut dire de tous les pays.
-Mais l’exéculion c’est assez pour sa gloire,
+Mais l’exécution c’est assez pour sa gloire,
 et nous devons dire en toute justice que l’invention appartient tout entière
-à un théoricien, à un simple journaliste, M. James Wilson,
+à un théoricien, à un simple journaliste, ,(np "wilson_j" [M. James Wilson]),
 dont les conseils, s’ils étaient suivis,
 sauveraient peut-être l’Irlande de 1847
 comme ils ont sauvé l’Angleterre de 1840.
@@ -308,7 +304,7 @@ ce dernier effet ne prévaut pas sur le premier,
 auquel cas évidemment vous perdriez
 et sur le prix de vente et sur la quantité vendue.
 ][
-À cela vous dites qu’il y a contradiction.
+A cela vous dites qu’il y a contradiction.
 Que, puisque c’est à l’élévation du prix
 qu’est imputable l’impuissance relative des consommateurs,
 on ne peut admettre que, sous le régime de la liberté,

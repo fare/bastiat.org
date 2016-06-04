@@ -5,6 +5,7 @@
 (document :title "Prendre cinq et rendre quatre ce n’est pas donner"
 	:author (author-FB)
 (bastiat[
+,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])
 ,(p*[
 Là, soyons de bon compte, qu’est-ce que l’État ?
 N’est-ce pas la collection de tous les fonctionnaires publics ?
@@ -41,9 +42,9 @@ le voici :
 ][
 Depuis quelques temps,
 je remarque une disposition énorme chez tout le monde
-à demander à l’État des moyens d’existence.
-][
-Les agriculteurs lui disent :
+à demander à l’État des moyens d’existence.])
+
+,(liste(p*[Les agriculteurs lui disent :
 Donnez-nous
 	des primes,
 	de l’instruction,
@@ -60,9 +61,9 @@ Les ouvriers :
 Donnez-nous
 	de l’ouvrage,
 	des salaires et
-	des instruments de travail.
-][
-Je trouve ces demandes bien naturelles,
+	des instruments de travail.]))
+
+,(p*[Je trouve ces demandes bien naturelles,
 et je voudrais bien que l’État pût donner tout ce qu’on exige de lui.
 ][
 Mais, pour le donner, où le prend-il ?
@@ -102,18 +103,19 @@ Tu prélèveras
 	autres cinq bancs sur mon sel
 	et autres cinq francs sur mon tabac ;
 ce qui fera autres vingt francs.
+,(tag :a :name "moliere_ref")
 Sur quoi, tu mettras autres six francs dans ta poche
 et me feras gagner autres quatorze francs.
 Cela fait, je serai encore d’un degré plus misérable.
 J’aurai de nouveau recours à toi, etc.
 ]
-(verses
+(cverses
 (inlatin[Si maladia])
 (inlatin[Opiniatra])
 (inlatin[Non vult se guarire,])
 (inlatin[Quid illi facere ?])
 (inlatin[,(--) Purgare, saignare, clysterisare,])
-(inlatin[Repurgare, resaignare, reclysterisare.,(footnote*[
+(inlatin[Repurgare, resaignare, reclysterisare. ,(np "moliere" [*]) ,(footnote*[
 Vers en latin de pacotille (approximativement) cités
 de la comédie populaire de Molière
 ,(cite-title[Le malade imaginaire]),

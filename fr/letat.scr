@@ -5,9 +5,9 @@
 (document :title "L’État"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Jacques Bonhomme]) n° 1, du 11 au 15 juin 1848.])
+,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
 ,(p*[
-Il y en a qui disent : C’est un homme de finances qui nous tirera de là, Thiers, Fould, Goudchaux, Girardin. Je crois qu’ils se trompent.
+Il y en a qui disent : C’est un homme de finances qui nous tirera de là, ,(np "thiers" [Thiers]), ,(np "fould" [Fould]), ,(np "goudchaux" [Goudchaux]), ,(np "girardin" [Girardin]). Je crois qu’ils se trompent.
 ][
 — Qui donc nous en tirera ?
 ][
@@ -19,9 +19,8 @@ Il y en a qui disent : C’est un homme de finances qui nous tirera de là, Thi
 ][
 — Le peuple sait cela, car il ne cesse de demander des réductions de taxes.
 ][
-— C’est vrai ; mais, en même temps, il ne cesse de demander à l’État, sous toutes les formes, des libéralités.
-][
-Il veut que l’État fonde des crèches, des salles d’asile et des écoles gratuites pour la jeunesse ; des ateliers nationaux pour l’âge mûr et des pensions de retraite pour la vieillesse.
+— C’est vrai ; mais, en même temps, il ne cesse de demander à l’État, sous toutes les formes, des libéralités.])
+,(liste(p*[Il veut que l’État fonde des crèches, des salles d’asile et des écoles gratuites pour la jeunesse ; des ateliers nationaux pour l’âge mûr et des pensions de retraite pour la vieillesse.
 ][
 Il veut que l’État aille guerroyer en Italie et en Pologne.
 ][
@@ -53,9 +52,9 @@ Il veut que l’État ait une armée redoutable.
 ][
 Il veut que l’État ait une marine imposante.
 ][
-Il veut que l’État…
-][
-— Avez-vous tout dit ?
+Il veut que l’État…]))
+
+,(p*[— Avez-vous tout dit ?
 ][
 — J’en ai encore pour une bonne heure.
 ][

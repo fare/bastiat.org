@@ -218,6 +218,10 @@ table.petit {
 	border-spacing: 1em;
 	position: relative; left: -2.5em;
 }
+table.small {
+	font-size: 0.8em;
+	table-layout: fixed;
+}
 
 table.petit p, table.petit blockquote {
 	font-size:1em;

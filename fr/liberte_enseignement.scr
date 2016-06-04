@@ -5,7 +5,7 @@
 (document :title "Liberté d’enseignement"
 	:author (author-FB)
 (bastiat[
-,(date-tag[N° du 4 mars 1848 de la ,(cite-title[République française]).])
+,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 4 mars 1848.])
 ,(p*[
 Tous les actes du gouvernement provisoire relatifs à l’instruction publique sont conçus, nous sommes fâchés de le dire, dans un esprit qui suppose que la France a renoncé à la liberté de l’enseignement.
 ][
@@ -16,8 +16,8 @@ Voici venir un décret qui crée une commission des études scientifiques et lit
 Sur vingt membres qui la composent, il y en a quinze, au moins, si nous ne nous trompons, qui appartiennent à l’Université.
 ][
 En outre, le dernier article de l’arrêté dispose que cette commission s’adjoindra dix membres, choisis par elle, est-il dit, ,(emph[parmi les fonctionnaires de l’instruction primaire et secondaire]).
-][
-Nous ne pouvons nous empêcher de faire remarquer ici que, de toutes les branches de l’activité nationale, celle peut-être qui a fait le moins de progrès, c’est l’enseignement. Il est encore à peu près ce qu’il était dans le moyen âge. Les idylles de Théocrite et les odes d’Horace sont encore la base de l’instruction qu’on donne à la jeunesse du dix-neuvième siècle. Cela semble indiquer qu’il n’y a rien de moins progressif et de plus immuable que ce qui se fait par le monopole gouvernemental.
+][,(tag :a :name "theocrite_ref")
+Nous ne pouvons nous empêcher de faire remarquer ici que, de toutes les branches de l’activité nationale, celle peut-être qui a fait le moins de progrès, c’est l’enseignement. Il est encore à peu près ce qu’il était dans le moyen âge. Les idylles de ,(np "theocrite" [Théocrite]) et les odes d’,(np "horace" [Horace]) sont encore la base de l’instruction qu’on donne à la jeunesse du dix-neuvième siècle. Cela semble indiquer qu’il n’y a rien de moins progressif et de plus immuable que ce qui se fait par le monopole gouvernemental.
 ][
 Il y a en France une école nombreuse qui pense que, sauf répression légale de l’abus, tout citoyen doit être en possession du libre exercice de ses facultés. Non seulement c’est le droit, mais c’est la condition du progrès. C’est ainsi qu’on comprend la liberté aux États-Unis, et cette expérience vaut bien celles qu’on a faites en Europe du monopole. Il est à remarquer qu’aucun des hommes qui appartiennent à cette école, connue sous le nom d’école ,(emph[économiste]), n’a été appelé dans aucune des commissions qu’on vient d’organiser.
 ][

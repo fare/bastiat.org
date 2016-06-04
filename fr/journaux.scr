@@ -7,10 +7,12 @@
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
 (p :class "alphabet" [
+,(a :href :#a [A]) —
 ,(a :href :#b [B]) —
 ,(a :href :#c [C]) —
 ,(a :href :#d [D]) —
 ,(a :href :#e [E]) —
+,(a :href :#f [F]) —
 ,(a :href :#g [G]) —
 ,(a :href :#i [I]) —
 ,(a :href :#j [J]) —
@@ -58,15 +60,20 @@
     "21 articles de février à octobre 1846")
 ,(itemjournal "journaux_cf.html" "Le Courrier français" "10 articles d’avril à novembre 1846")
 ,(itemjournal "journaux_jd.html" "Le Journal des Débats" "10 articles de mai 1846 à janvier 1849")
-,(itemjournal "journaux_le.html" "Le Libre-Échange" "")
+,(itemjournal "journaux_le.html" "Le Libre-Échange" "Rédacteur en chef. Au moins 79 articles, pas toujours signés, de décembre 1846 à mars 1848")
 ,(itemjournal "journaux_jde.html" "Le Journal des Économistes"
     "28 articles de novembre 1844 à mai 1850")
 ,(itemjournal "journaux_rf.html" "La République française" "14 articles.</br>Journal éphémère ayant paru du 27 février au 6 mars 1848.")
 ,(itemjournal "journaux_jb.html" "Jacques Bonhomme" "8 articles.</br>Journal éphémère ayant paru du 11 au 23 juin 1848.")
 ])
 
+,(lettre "A" [
 
-,(lettre "B" [
+,(journal "atelier" "L’Atelier" [
+,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
+])
+
+]),(lettre "B" [
 
 ,(journal "boston" "Boston Atlas" [
 Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en chef de la Presse])
@@ -112,6 +119,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "dp" "Démocratie pacifique" [
 ,(ref :url "aux_membres_de_l_association.html#dp_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "petition_economiste.html" [Pétition d’un économiste]) ;
+,(ref :url "curee_des_places.html#dp_ref" [Curée des places]) ;
 ])
 
 ]),(lettre "E" [
@@ -125,9 +134,13 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "esprit" "L’Esprit public" [
 ,(p*[Citation : ,(ref :url "conte_chinois.html#esprit_ref" [Conte chinois])])
+]),(lettre "F" [
+
+,(journal "fraternite" "Fraternité" [
+,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
 ])
 
-]),(lettre "G"[
+])]),(lettre "G"[
 
 ,(journal "gt" "Globe and Traveller" [
 ,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
@@ -141,15 +154,19 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ]),(lettre "J" [
 
+,(journal "jb" "Jacques Bonhomme" [
+,(ref :url "journaux_jb.html" [Articles publiés dans ce journal.])
+])
+
 ,(journal "debats" "Journal des Débats" [
 ,(ref :url "l_Etat.html" [L’État]) ;
 Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 1]) ;
 Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#debats_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "douane_octroi.html" [Le National]) ;
+,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé])
 ])
-
-
 
 ,(journal "je" "Journal des Économistes" [
 ,(p*[,(ref :url "journaux_jde.html" [Articles publiés dans ce journal.])]
@@ -206,8 +223,9 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "autre_chose.html#mi_ref" [Autre chose]) ;
 ,(ref :url "recettes_protectionnistes.html#mi_ref" [Recettes protectionistes]) ;
 ,(ref :url "logique_cunin_gridaine.html#mi_ref" [La logique de M. Cunin-Gridaine]) ;
-])
 ,(ref :url "question_conseils_generaux.html#mi_ref" [Une question soumise aux conseils généraux…]) ;
+,(ref :url "libre_echange_relations_peuples.html#mi_ref" [Influence du libre-échange sur les relations des peuples]) ;
+])
 ])
 
 ,(journal "mu" "Moniteur universel" [
@@ -219,6 +237,9 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "la_main_droite_et_la_main_gauche.html#national_ref" [La main droite et la main gauche]) ;
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#national_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "rep_fr4.html" [Article dans La République française]) ;
+,(ref :url "douane_octroi.html" [Le National]) ;
+,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé])
 ])
 
 
@@ -235,12 +256,17 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
+,(journal "populaire" "Le Populaire" [
+,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
+])
+
 ,(journal "presse" "La Presse" [
 ,(p*
 [Lettre adressée à l’ — : ,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
 ,(ref :url "a_la_presse2.html" [II])]
 [Réponses :
-,(ref :url "ligues_anglaise_allemande.html" [La Ligue anglaise et la Ligue allemande])
+,(ref :url "ligues_anglaise_allemande.html" [La Ligue anglaise et la Ligue allemande]) ;
+,(ref :url "rep_fr3.html" [Article dans La République française]) ; ,(ref :url "rep_fr9.html" [Article dans La République française])
 ]
 [Simples allusions :
 ,(ref :url "question_conseils_generaux.html#presse_ref" [Une question soumise aux conseils généraux…]) ;
@@ -259,6 +285,10 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 
 ,(journal "reforme" "La Réforme" [
 ,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+])
+
+,(journal "rf" "La République française" [
+,(ref :url "journaux_rf.html" [Articles publiés dans ce journal.])
 ])
 
 ,(journal "encycl" "Revue encyclopédique" [

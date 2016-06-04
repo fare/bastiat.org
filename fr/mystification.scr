@@ -5,17 +5,16 @@
 (document :title "Une mystification"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Jacques Bonhomme]) n° 2, du 15 au 18 juin 1848.])
+,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])
 ,(p*[
 Ainsi que vous savez, j’ai beaucoup voyagé et j’ai beaucoup à raconter.
 ][
 Parcourant un pays lointain, je fus frappé de la triste condition dans laquelle paraissait être le peuple, malgré son activité et la fertilité du territoire.
 ][
-Pour avoir l’explication de ce phénomène, je m’adressai à un grand ministre, qui s’appelait ,(emph[Budget]). Voici ce qu’il me dit :
+Pour avoir l’explication de ce phénomène, je m’adressai à un grand ministre, qui s’appelait ,(emph[Budget]). Voici ce qu’il me dit :])
+,(liste(p*[« J’ai fait faire le dénombrement des ouvriers. Il y en a un million. Ils se plaignent de n’avoir pas assez de salaire, et j’ai dû m’occuper d’améliorer leur sort.
 ][
-« J’ai fait faire le dénombrement des ouvriers. Il y en a un million. Ils se plaignent de n’avoir pas assez de salaire, et j’ai dû m’occuper d’améliorer leur sort.
-][
-« D’abord j’imaginai de prélever deux sous sur le salaire quotidien de chaque travailleur. Cela faisait rentrer 100 000 fr. tous les matins dans mes coffres, soit ,(emph[trente millions]) par an.
+« D’abord j’imaginai de prélever deux sous sur le salaire quotidien de chaque travailleur. Cela faisait rentrer 100,000 fr. tous les matins dans mes coffres, soit ,(emph[trente millions]) par an.
 ][
 « Sur ces ,(emph[trente millions]), j’en retenais dix pour moi et mes agents.
 ][
@@ -23,15 +22,14 @@ Pour avoir l’explication de ce phénomène, je m’adressai à un grand minist
 ][
 « En effet, pendant quelque temps ils furent émerveillés. Ce sont d’honnêtes créatures, qui n’ont pas beaucoup de temps à eux pour réfléchir. Ils étaient bien un peu contrariés de ce qu’on leur subtilisât deux sous par jour ; mais leurs yeux étaient beaucoup plus frappés des millions ostensiblement dépensés par l’État.
 ][
-« Peu à peu, cependant, ils se ravisèrent. Les plus fins d’entre eux disaient : — Il faut avouer que nous sommes de grandes dupes. Le ministre ,(emph[Budget]) commence par prendre à chacun de nous trente francs par an, et ,(emph[gratis ;]) puis il nous rend vingt francs, non pas gratis, mais contre du travail. Tout compte fait, nous perdons dix francs et nos journées à cette manœuvre. »
+« Peu à peu, cependant, ils se ravisèrent. Les plus fins d’entre eux disaient : — Il faut avouer que nous sommes de grandes dupes. Le ministre ,(emph[Budget]) commence par prendre à chacun de nous trente francs par an, et ,(emph[gratis ;]) puis il nous rend vingt francs, non pas gratis, mais contre du travail. Tout compte fait, nous perdons dix francs et nos journées à cette manœuvre. »]))
+,(p*[— Il me semble, seigneur ,(emph[Budget]), que ces ouvriers-là raisonnaient assez bien.])
+
+,(liste(p*[— « J’en jugeai de même, et je vis bien que je ne pouvais continuer à leur soutirer leurs gros sous d’une façon aussi naïve. Avec un peu plus de ruse, me dis-je, au lieu de deux j’en aurai quatre.
 ][
-— Il me semble, seigneur ,(emph[Budget]), que ces ouvriers-là raisonnaient assez bien.
-][
-— « J’en jugeai de même, et je vis bien que je ne pouvais continuer à leur soutirer leurs gros sous d’une façon aussi naïve. Avec un peu plus de ruse, me dis-je, au lieu de deux j’en aurai quatre.
-][
-« C’est alors que j’inventai l’,(emph[impôt indirect]). Maintenant, chaque fois que l’ouvrier achète pour deux sous de vin, il y a un sou pour moi. Je prends sur le tabac, je prends sur le sel, je prends sur la viande, je prends sur le pain, je prends partout et toujours. Je réunis ainsi, aux dépens des travailleurs, non plus trente millions, mais cent. Je fais bombance dans de beaux hôtels, je me prélasse dans de beaux carrosses, je me fais servir par de beaux laquais, le tout jusqu’à concurrence de dix millions. J’en donne vingt à mes agents pour guetter le vin, le sel, le tabac, la viande, etc ; et, avec ce qui me reste de leur propre argent, je fais travailler les ouvriers. »
-][
-— Et ils ne s’aperçoivent pas de la mystification ?
+« C’est alors que j’inventai l’,(emph[impôt indirect]). Maintenant, chaque fois que l’ouvrier achète pour deux sous de vin, il y a un sou pour moi. Je prends sur le tabac, je prends sur le sel, je prends sur la viande, je prends sur le pain, je prends partout et toujours. Je réunis ainsi, aux dépens des travailleurs, non plus trente millions, mais cent. Je fais bombance dans de beaux hôtels, je me prélasse dans de beaux carrosses, je me fais servir par de beaux laquais, le tout jusqu’à concurrence de dix millions. J’en donne vingt à mes agents pour guetter le vin, le sel, le tabac, la viande, etc ; et, avec ce qui me reste de leur propre argent, je fais travailler les ouvriers. »]))
+
+,(p*[— Et ils ne s’aperçoivent pas de la mystification ?
 ][
 — « Pas le moins du monde. La manière dont je les épuise est si subtile qu’elle leur échappe. Mais les grands travaux que je fais exécuter éblouissent leurs regards. Ils se disent entre eux : Morbleu ! voilà un bon moyen d’extirper la misère. Vive le citoyen ,(emph[Budget !]) Que deviendrions-nous, s’il ne nous donnait de l’ouvrage ? »
 ][
