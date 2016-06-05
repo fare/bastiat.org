@@ -5,10 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) septième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 17 décembre 1849.])
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p*(font :size "-1" (strong[
 Reproches.
 ,(--) Les commissionnaires de roulage et les chemins de fer.
 ,(--) Excursion rétrospective chez les Hébreux, les Grecs et les Romains.
@@ -19,7 +19,7 @@ Reproches.
 ,(--) La force seule maintient l’intérêt.
 ,(--) Deux apologues.
 ])))
-,(date-tag(small[17 décembre 1849.]))
+,(nbsp)
 ,(p*[
 Notre discussion n’avance pas, et la faute en est à vous seul.
 Par votre refus systématique de vous placer sur le terrain où je vous appelle,

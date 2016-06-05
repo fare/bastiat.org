@@ -1,0 +1,19 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Mme Marsan")
+
+(document :title "Lettre à Marie-Julienne Badbedat (Mme Marsan)"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[27 février 1848.])
+,(p*[
+Texte français non encore disponible. Traduction anglaise du ,(emph[Liberty Fund]) disponible ,(ref :url "http://oll.libertyfund.org/titles/bastiat-the-collected-works-of-frederic-bastiat-vol-1-the-man-and-the-statesman-the-correspondence-and-articles-on-politics#lf1573-01_head_119" [ici]).
+])])
+(footer [
+	,(oeuvres)
+	,(corresp)
+])
+(with-footer (p*[
+
+])))

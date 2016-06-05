@@ -1251,7 +1251,7 @@
 	(lettre_coudroy_vol7 :date "1845-06-10" :lettre (:de bastiat :a coudroy) :oc1862 (:tome 7 :p 10))
 	(liberte_du_commerce :date "1844-03-15" :titre "Liberté du commerce" :oc1862 (:tome 7 :n 4 :p 14))
 	(questions_conseils_generaux :date "1845-12-16" :titre "D’autres questions soumises aux conseils généraux" :oc1862 (:tome 7 :n 5 :p 20))
-	(projet_discours_bayonne :post "1847-08" :titre "Projet de discours à prononcer à Bayonne" :oc1862 (:tome 7 :n 38 :p 178))
+	(projet_discours_bayonne :date "1847-09-04" :titre "Projet de discours à prononcer à Bayonne" :oc1862 (:tome 7 :n 38 :p 178))
 	(le_capital :date "1849" :livre (:titre "Almanach républicain pour 1849") :titre "Le Capital" :oc1862 (:tome 7 :n 64 :p 248))
 	(profession :date "1849-04" :titre "Profession de foi d’avril 1849" :oc1862 (:tome 7 :n 65 :p 255))
 	(communaux :date "1849" :titre "Rapport présenté au conseil général des Landes sur la question des communaux" :oc1862 (:tome 7 :n 66 :p 263))
@@ -1319,6 +1319,13 @@
 	(sentinelle8 :journal (:titre sp :date "1844-07-02") :date "1844-07-02" :titre "")
 	(sentinelle9 :journal (:titre sp :date "1844-08-03") :date "1844-08-03" :titre "")
 	(sentinelle10 :journal (:titre sp :date "1844-08-06") :date "1844-08-06" :titre "")
+	(lettre_potonie :lettre (:de bastiat :a potonie :lieu mugron) :date "1845-10-24")
+	(lettre_badbedat :lettre (:de bastiat :a badbedat :lieu paris) :date "1848-02-27")
+	(lettre_marsan :lettre (:de bastiat :a marsan :lieu paris) :date "1848-06-29")
+	(langue_basque1 :journal (:titre chalosse :date "1838-04-01") :date "1838-04-01")
+	(langue_basque2 :journal (:titre chalosse :date "1838-04-08") :date "1838-04-08")
+	(ecole_metayage )
+	(election_president :journal (:titre landes :date "1848-08-13") :date "1848-08-13")
 ))
 
 ;;; Les super fonctions relatives à bastiat-db

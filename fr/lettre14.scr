@@ -1,18 +1,19 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Gratuité du crédit - Quatorzième lettre
-	- Frédéric Bastiatà P. J. Proudhon")
+	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatorzième lettre]
 	:author (author-FB)
 (bastiat[
+,(date-tag[7 mars 1850.])
 ,(p :align 'center (strong[
 	F. Bastiat à P. J. Proudhon.]))
-,(p (font :size "-1" (strong[
+,(p*(font :size "-1" (strong[
 
 Droit légitime de la défense.
 ,(--) Origine et résumé d’une discussion, dont le public est le seul juge.
 ])))
-,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 7 mars 1850.])
+,(nbsp)
 ,(p*[
 La cause est entendue et le débat est clos,
 dit ,(np "proudhon" [M. Proudhon]),
@@ -79,7 +80,7 @@ et il a beau dire,
 je suis dans mon droit.
 ][
 Au reste, je me bornerai à me résumer.
-Outre que je ne puis continuer à discuter avec ,(np "proudhon" [M. Proudhon]),
+Outre que je ne puis continuer à discuter avec ,(np "proudhon" [M. Proudhon])
 malgré lui,
 et moins encore quand les personnalités commencent à remplacer les arguments,
 je serais aujourd’hui dans une situation trop défavorable.
@@ -94,7 +95,7 @@ j’en aurais trois : ,(np "proudhon" [M. Proudhon]), la police et la populari
 ](nbsp)[
 ,(np "proudhon" [M. Proudhon]) me reproche deux choses :
 d’abord, de m’en tenir toujours à défendre mon assertion,
-la ,(emph[légitimité de l’intérêt]),(pv)
+la ,(emph[légitimité de l’intérêt ;])
 ensuite, de ne pas discuter son système,
 la ,(emph[gratuité du crédit]).
 ][
@@ -132,7 +133,7 @@ exposer une doctrine sans y être obligé,
 c’est abandonner ce beau rôle pour le céder à son adversaire.
 Je l’ai fait, cependant,
 parce que je me préoccupais plus de la polémique que du polémiste,
-et des lecteurs que de moi-même. ,(footnote*[
+et des lecteurs que de moi-même ,(footnote*[
 Quelques personnes ont trouvé excessive la patience de Bastiat pendant le cours de cette discussion.
 Ce paragraphe et le précédent motivent parfaitement son attitude.
 Il attachait un grand prix à faire pénétrer,
@@ -154,7 +155,7 @@ et nous lui devons une grande reconnaissance.
 C’est dommage qu’il aille souvent chercher des mots et des phrases si difficiles à comprendre.])
 Finalement, ils émirent le v,(oe)u que MM Bastiat et Proudhon pussent se mettre d’accord,
 et se déclarèrent prêts à accepter les yeux fermés une solution quelconque,
-si elle était proposée de concert par l’un et l’autre. ,(NdEEO)])
+si elle était proposée de concert par l’un et l’autre. ,(NdEEO)]).
 ][
 Est-ce à dire que j’aie négligé les arguments de ,(np "proudhon" [M. Proudhon]) ?
 Je montrerai que j’ai répondu à tous,
@@ -436,7 +437,7 @@ Mais les capitaux de ceux qui possèdent,
 	facilitent à ces derniers les moyens d’en acquérir.
 ][
 Il serait donc plus juste de comparer le capital au langage.
-Quelle folie ne serait-ce pas aux enfants, ,(footnote*[
+Quelle folie ne serait-ce pas aux enfants ,(footnote*[
 Enfant, ,(inlatin[in fans]), non parlant.])
 	de jalouser,
 	dans les adultes,

@@ -6,10 +6,10 @@
 ;;; ,(XXX :EO [annoncée septième à l'origine])
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 6 janvier 1850.])
+,(p :align 'center (strong[
+	F. Bastiat à P. J. Proudhon.]))
+,(p*(font :size "-1" (strong[
 A qui le droit de se plaindre d’avoir été trompé ?
 Dialogue.
 ,(--) Les inductions tirées d’un établissement privilégié, la Banque de France,
@@ -19,7 +19,7 @@ ne prouvent rien dans le débat.
 de la question de gratuité.
 ,(--) Souvenir à l’antinomie.
 ])))
-,(date-tag(small[6 janvier 1850.]))
+,(nbsp)
 ,(p*[
 Je vous ai trompé, dites-vous ; non, je me suis trompé.
 ][

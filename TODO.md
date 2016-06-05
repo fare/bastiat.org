@@ -31,7 +31,7 @@ Trucs de Laura que Faré a le droit de regarder
   * Page d'accueil: lien direct vers les œuvres, au lieu de devoir cliquer 50 fois pour accéder au sommaire.
   Différents accès:
     1) œuvres mises en vedette (cqovecqonvp, la loi, sophismes, pamphlets)
-    2) accès par 4 types: livres et brochures / journaux / correspondance / ébauches non publiées
+    2) accès par 4 types: livres et brochures / journaux / correspondance / ébauches non publiées (où classer les documents adressés aux électeurs ou au Conseil général des Landes?)
     3) liens vers accès par thèmes / par ordre chrono
     4) lien vers sources: principalement sommaire Guillaumin (et Lettres d'un habitant des Landes) + page dédiée aux œuvres ni dans Guillaumin ni dans LHL
 
@@ -41,6 +41,6 @@ Trucs de Laura que Faré a le droit de regarder
 Trucs de Laura, par Laura et pour Laura
 ---------------------------------------
 
-  * Ajouter tableaux dans: Question vinicole; Démocratie et libre-échange; (format image? car gros gros tableau); Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
+  * Ajouter tableaux dans: Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
 
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)

@@ -2,13 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Balance du commerce
 	- par Frédéric Bastiat")
-(document :title [Balance du commerce]
-	:author (author-FB)
-(bastiat[
-,(p*[
-
-La balance du commerce est un article de foi.
-,(footnote*[
+(document :title [Balance du commerce ,(footnote*[
 Lors de la discussion du budget général des dépenses pour l’exercice de 1850,
 M. Mauguin exposa naïvement à la tribune
 	la vieille et fausse théorie de la balance du commerce.
@@ -23,7 +17,13 @@ Il est à remarquer qu’il simplifie les calculs hypothétiques,
 	en excluant quelques-uns des éléments qu’il avait employés en 1845.
 	(V. ,(bof-ref "balance_du_commerce_sophisme" [tome IV, page 52]).)
 ,(NdEEO)
-])
+])]
+	:author (author-FB)
+(bastiat[
+,(date-tag[Publié le 29 mars 1850, dans un journal encore indéterminé.])
+,(p*[
+
+La balance du commerce est un article de foi.
 ][
 On sait en quoi elle consiste :
 un pays importe-t-il plus qu’il n’exporte ;
@@ -31,8 +31,8 @@ il perd la différence.
 Réciproquement, ses exportations dépassent-elles ses importations,
 l’excédant forme son bénéfice.
 Cela est tenu pour un axiome et on légifère en conséquence.
-][
-Sur cette donnée, M. Mauguin nous a avertis avant-hier, chiffres en main,
+][,(tag :a :name "mauguin_ref")
+Sur cette donnée, ,(np "mauguin" [M. Mauguin]) nous a avertis avant-hier, chiffres en main,
 que la France fait au dehors un commerce
 dans lequel elle a trouvé le moyen de perdre bénévolement,
 et sans que rien l’y oblige, 200 millions tous les ans.
@@ -42,23 +42,23 @@ dans onze années, 2 milliards, entendez-vous !])
 ][
 Puis, appliquant son infaillible règle aux détails, il nous a dit :
 ][
-,(q[En objets fabriqués, vous avez vendu, en 1847, pour 605 millions,
+« En objets fabriqués, vous avez vendu, en 1847, pour 605 millions,
 et vous n’avez acheté que pour 152 millions.
-Vous avez donc ,(emph[gagné]) 450 millions.])
+Vous avez donc ,(emph[gagné]) 450 millions.
 ][
-,(q[En objets naturels, vous avez acheté pour 804 millions,
+« En objets naturels, vous avez acheté pour 804 millions,
 et vous n’avez vendu que pour 114 millions ;
-vous avez donc ,(emph[perdu]) 690 millions.])
-][
+vous avez donc ,(emph[perdu]) 690 millions. »
+][,(tag :a :name "darblay_ref")
 Ce que c’est que de tirer, avec une naïveté intrépide,
 toutes les conséquences d’un principe absurde !
-M. Mauguin a trouvé le secret de faire rire,
+,(np "mauguin" [M. Mauguin]) a trouvé le secret de faire rire,
 aux dépens de la balance du commerce,
-jusqu’à MM. Darblay et Lebeuf.
+jusqu’à MM. ,(np "darblay" [Darblay]) et ,(np "leboeuf" [Lebeuf]).
 C’est un beau succès, et il m’est permis d’en être jaloux.
-][
+](nbsp)[
 Permettez-moi d’apprécier le mérite de la règle
-selon laquelle M. Mauguin et tous les prohibitionnistes
+selon laquelle ,(np "mauguin" [M. Mauguin]) et tous les prohibitionnistes
 calculent les profits et les pertes.
 Je le ferai en racontant deux opérations commerciales
 que j’ai eu l’occasion de faire.
@@ -77,10 +77,10 @@ La douane se hâta d’enregistrer une ,(strong[importation de 90 francs]).
 Balance du commerce en excédant de l’importation, 40 fr.
 Ces 40 fr., j’ai toujours cru, sur la foi de mes livres,
 que je les avais gagnés.
-M. Mauguin m’apprend que je les ai perdus,
+,(np "mauguin" [M. Mauguin]) m’apprend que je les ai perdus,
 et que la France les a perdus en ma personne.
 ][
-Et pourquoi M. Mauguin voit-il là une perte ?
+Et pourquoi ,(np "mauguin" [M. Mauguin]) voit-il là une perte ?
 Parce qu’il suppose que tout excédant de l’importation sur l’exportation
 implique nécessairement un solde qu’il faut payer en écus.
 Mais où est, dans l’opération que je raconte,
@@ -91,7 +91,7 @@ compare les prix courants des diverses places
 et ne se décide à opérer que lorsqu’il a la certitude,
 ou du moins la chance,
 de voir la valeur exportée lui revenir grossie ?
-Donc ce que M. Mauguin appelle ,(emph[perte]) doit s’appeler ,(emph[profit]).
+Donc ce que ,(np "mauguin" [M. Mauguin]) appelle ,(emph[perte]) doit s’appeler ,(emph[profit]).
 ][
 Peu de jours après mon opération,
 j’eus la bonhomie d’éprouver un regret ;
@@ -101,7 +101,7 @@ de sorte que si je ne m’étais pas autant pressé,
 j’aurais acheté à 40 fr. et vendu à 100 fr.
 En vérité, je croyais que sur ces bases
 mon ,(emph[profit]) eût été plus grand.
-J’apprends par M. Mauguin que
+J’apprends par ,(np "mauguin" [M. Mauguin]) que
 c’est la ,(emph[perte]) qui eût été plus écrasante.
 ][
 Ma seconde opération, monsieur le rédacteur,
@@ -118,7 +118,7 @@ car le navire qui les emportait périt à la sortie du port.
 La douane, qui avait constaté à cette occasion une sortie de 100 fr.,
 n’a jamais eu aucune rentrée à inscrire en regard.
 ][
-Donc, dira M. Mauguin, la France a gagné 100 fr. ;
+Donc, dira ,(np "mauguin" [M. Mauguin]), la France a gagné 100 fr. ;
 car c’est bien de cette somme que, grâce au naufrage,
 l’exportation surpasse l’importation.
 Si l’affaire eût autrement tourné,
@@ -131,12 +131,12 @@ que toutes les entreprises commerciales
 qui laissent de la perte selon les négociants,
 donnent du profit suivant cette classe de théoriciens
 qui déclament toujours contre la théorie.
-][
+](nbsp)[
 Mais au point de vue de la pratique,
 cela est bien plus triste encore,
 car qu’en résulte-t-il ?
 ][
-Supposons que M. Mauguin eût le pouvoir
+Supposons que ,(np "mauguin" [M. Mauguin]) eût le pouvoir
 (et, dans une certaine mesure, il l’a par ses votes)
 de substituer ses calculs et sa volonté
 aux calculs et à la volonté des négociants,
@@ -148,7 +148,7 @@ que fera-t-il ?
 Toutes les opérations qui consisteraient
 à acheter à bon marché au-dedans pour vendre cher au-dehors,
 et à convertir le produit en denrées très recherchées chez nous,
-M. Mauguin les supprimera législativement,
+,(np "mauguin" [M. Mauguin]) les supprimera législativement,
 car ce sont justement celles où la valeur importée
 	surpasse la valeur exportée.
 ][
@@ -178,8 +178,8 @@ il faut que cette erreur devienne
 En France, nous aimons beaucoup la liberté,
 	mais nous ne la comprenons guère.
 Oh ! tâchons de la mieux comprendre, nous ne l’en aimerons pas moins.
-][
-M. Mauguin a affirmé avec un aplomb imperturbable
+](nbsp)[
+,(np "mauguin" [M. Mauguin]) a affirmé avec un aplomb imperturbable
 qu’il n’y a pas en Angleterre un homme d’État
 qui ne professe la doctrine de la balance du commerce.
 Après avoir calculé la perte qui, selon lui,

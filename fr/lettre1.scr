@@ -4,6 +4,7 @@
 	- F. C. Chevé à Frédéric Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Première lettre]
 (bastiat[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 22 octobre 1849.])
 ,(p :align 'center [
 	,(np "cheve" [,(strong[F. C. Chevé.])]) ,(br)
 L’un des rédacteurs de la ,(tj "vp" [,(cite-title[Voix du peuple])]),
@@ -40,7 +41,7 @@ ne doit pas être rémunéré par la cession définitive d’une propriété.
 ,(--) Conséquences funestes de l’intérêt pour l’emprunteur,
 pour le prêteur lui-même et pour la société tout entière.
 ])))
-,(date-tag[22 octobre 1849.])
+,(nbsp)
 ,(p*[
 Tous les principes d’économie sociale
 que vous avez propagés avec un talent si remarquable

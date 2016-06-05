@@ -6,10 +6,10 @@
 ;;; ,(XXX :EO [annoncée septième à l'origine])
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 24 décembre 1849.])
+,(p :align 'center (strong[
+	F. Bastiat à P. J. Proudhon.]))
+,(p*(font :size "-1" (strong[
 
 La preuve de l’impossibilité dispense d’examiner la possibilité.
 ,(--) Protestation contre le fatalisme.
@@ -18,7 +18,7 @@ La preuve de l’impossibilité dispense d’examiner la possibilité.
 ,(--) Apologues retournés contre leur auteur.
 ,(--) Lois des capitaux résumées en cinq propositions.
 ])))
-,(date-tag(small[24 décembre 1849.]))
+,(nbsp)
 ,(p*[
 La gratuité du crédit est-elle possible ?
 ][

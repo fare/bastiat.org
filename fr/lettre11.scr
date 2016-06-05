@@ -5,10 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Onzième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 21 janvier 1850.])
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p*(font :size "-1" (strong[
 
 Maintien de l’imputation d’ignorance.
 ,(--) Définition du ,(strong[capital]) substituée aux définitions
@@ -19,7 +19,7 @@ inexactes des économistes.
 ,(--) Concession conciliante sur le risque des capitaux.
 ,(--) Révolution politique, économique et scientifique.
 ])))
-,(date-tag(small[21 janvier 1850.]))
+,(nbsp)
 ,(p*[
 Vous ne m’avez pas trompé :
 le ton de bonne foi et d’extrême sincérité,

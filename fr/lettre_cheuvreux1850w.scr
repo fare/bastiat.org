@@ -2,17 +2,17 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Prosper Paillottet à Mme Cheuvreux
 du 22 décembre 1850")
-(document :title "Lettre de Prosper Paillottet à Mme Cheuvreux"
+(document :title [Lettre de ,(np "paillottet" [Prosper Paillottet]) à ,(np "cheuvreux_h" [Mme Cheuvreux])]
 	:author (author-FB)
 (bastiat[
 ,(date-tag[Rome, 22 décembre 1850.])
 
-,(cher[Madame,])
+,(cher[,(np "cheuvreux_h" [Madame]),])
 ,(p*[J’acquitte une dette personnelle et remplis les intentions de notre ami en vous donnant de ses nouvelles. Vous vous faisiez peu d’illusion lorsque vous l’avez quitté ; et cependant vous ne pouviez croire que le déclin de ses forces serait aussi rapide. Ce déclin est bien sensible depuis mon arrivée ici. Le pauvre malade s’en aperçoit et s’en réjouit intérieurement comme d’une faveur du ciel qui veut abréger ses souffrances.
+][,(tag :a :name "monclar_ref")
+Il a d’abord protesté en paroles et en gestes contre ce qu’il appelait ma folie. Nous avons eu peine à lui faire entendre raison à ce sujet, ,(np "monclar" [M. de Monclar]) et moi. Toutefois je n’ai pas tardé à reconnaître que ma présence était une consolation et je vous sais un gré infini, madame, de m’avoir mis à même de la lui procurer. « Puisque vous avez accompli ce voyage, je suis bien aise maintenant que vous soyez ici, » m’a-t-il dit le troisième jour. Il ne manque jamais d’ailleurs de me demander lorsque je le quitte : « Et à quelle heure vous verrai-je demain ? »
 ][
-Il a d’abord protesté en paroles et en gestes contre ce qu’il appelait ma folie. Nous avons eu peine à lui faire entendre raison à ce sujet, M. de Monclar et moi. Toutefois je n’ai pas tardé à reconnaître que ma présence était une consolation et je vous sais un gré infini, madame, de m’avoir mis à même de la lui procurer. « Puisque vous avez accompli ce voyage, je suis bien aise maintenant que vous soyez ici, » m’a-t-il dit le troisième jour. Il ne manque jamais d’ailleurs de me demander lorsque je le quitte : « Et à quelle heure vous verrai-je demain ? »
-][
-Voici comment, avec M. de Monclar, dont tout naturellement j’ai consulté les convenances, nous nous sommes partagé ses journées. M. de Monclar lui fait une visite matinale et se retire au moment où j’arrive, c’est-à-dire à onze heures et demie. Moi, je lui tiens compagnie jusqu’à cinq heures après midi, et, dans l’après-dîner, c’est M. de Monclar qui revient.
+Voici comment, avec ,(np "monclar" [M. de Monclar]), dont tout naturellement j’ai consulté les convenances, nous nous sommes partagé ses journées. ,(np "monclar" [M. de Monclar]) lui fait une visite matinale et se retire au moment où j’arrive, c’est-à-dire à onze heures et demie. Moi, je lui tiens compagnie jusqu’à cinq heures après midi, et, dans l’après-dîner, c’est ,(np "monclar" [M. de Monclar]) qui revient.
 ][
 C’est un bien douloureux spectacle que celui auquel j’assiste ; mais je regretterais beaucoup, par affection et par devoir, de n’être pas là. Presque toujours, la mort est en tiers dans nos entretiens. Nous évitons, lui et moi, d’en prononcer le nom ; lui pour ne pas m’affliger, moi pour ne pas lui donner l’exemple de l’attendrissement et des pleurs, lorsqu’il me donne celui du courage. Il meurt, en effet, comme j’ai toujours pensé qu’il devait mourir, en regardant la mort en face et avec une complète résignation.
 ][
@@ -26,7 +26,7 @@ Je me borne à ces quelques détails et peut-être même dois-je m’excuser de 
 ][
 Il s’en est peu fallu que je ne vous rencontrasse à Livourne, où nous étions, à ce qu’il paraît, le même jour, ce que j’ai su depuis. Je me suis d’ailleurs applaudi de ce que cette rencontre n’avait pas eu lieu, car vous aviez encore alors un reste d’espoir qu’il m’eût été difficile de ne pas vous enlever.
 ][
-Veuillez bien offrir, madame, à M. Cheuvreux mes affectueux souvenirs et recevoir, ainsi que ,(Mlle) Cheuvreux, l’hommage de mon respectueux dévouement.
+Veuillez bien offrir, madame, à ,(np "cheuvreux" [M. Cheuvreux]) mes affectueux souvenirs et recevoir, ainsi que ,(np "cheuvreux_l" [,(Mlle) Cheuvreux]), l’hommage de mon respectueux dévouement.
 ])
 ,(sign[P. Paillotet.])
 ])

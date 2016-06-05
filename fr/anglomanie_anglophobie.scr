@@ -2,11 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Anglomanie, anglophobie, par Frédéric Bastiat")
 
-(document :title "Anglomanie, anglophobie"
+(document :title [Anglomanie, anglophobie ,(footnote*[Cette ébauche est de 1847. L’auteur voulait en faire un chapitre pour la seconde série des ,(cite-title[Sophismes économiques]), qui parut à la fin de l’année.])]
 	:author (author-FB)
 (bastiat[
+,(date-tag[1847.])
 ,(p*[
-,(footnote*[Cette ébauche est de 1847. L’auteur voulait en faire un chapitre pour la seconde série des ,(cite-title[Sophismes économiques]), qui parut à la fin de l’année.])
 Ces deux sentiments sont en présence, et il n’est guère possible, chez nous, de juger l’Angleterre avec impartialité, sans être accusé par les anglomanes d’être anglophobe et par les anglophobes d’être anglomane. Il semble que l’opinion publique exagérant, en France, une ancienne loi de Sparte, nous frappe de mort morale si nous ne nous jetons pas dans une de ces deux extrémités.
 ][
 Pourtant ces deux sentiments subsistent, ils ont déjà une date ancienne. Donc ils ont leur raison d’être ; car dans le monde des sympathies et des antipathies, comme dans le monde matériel, il n’est pas d’effet sans cause.

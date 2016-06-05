@@ -5,10 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Cinquième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 3 décembre 1849.])
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p*(font :size "-1" (strong[
 Réclamation sur les limites du débat.
 ,(--) L’intérêt a été mais n’est plus légitime.
 ,(--) Inductions tirées de l’histoire.
@@ -16,7 +16,7 @@ Réclamation sur les limites du débat.
 ,(--) Impéritie et mauvais vouloir de la société.
 ,(--) C’est de la circulation du ,(strong[capital]), et non du ,(strong[capital]) même, que naît le progrès de la richesse sociale.
 ])))
-,(date-tag(small[3 décembre 1849.]))
+,(nbsp)
 ,(p*[
 Monsieur, votre dernière lettre se termine par ces paroles :
 ][

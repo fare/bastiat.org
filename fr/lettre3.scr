@@ -5,10 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Troisième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 19 novembre 1849.])
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p*(font :size "-1" (strong[
 Désaveu de la distinction introduite par M. Chevé.
 ,(--) Adhésion à la formule :
 le prêt est un service ; un service est un valeur.
@@ -17,7 +17,7 @@ le prêt est un service ; un service est un valeur.
 Nécessité d’organiser le crédit gratuit.
 ,(--) Interrogations catégoriques.
 ])))
-,(date-tag(small[19 novembre 1849.]))
+,(nbsp)
 ,(p*[
 La révolution de Février a pour but,
 dans l’ordre politique et dans l’ordre économique,

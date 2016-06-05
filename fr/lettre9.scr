@@ -5,16 +5,16 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) neuvième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	P. J. Proudhon à F. Bastiat.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 31 décembre 1849.])
+,(p :align 'center (strong[
+	P. J. Proudhon à F. Bastiat.]))
+,(p*(font :size "-1" (strong[
 Grave imputation.
 ,(--) Négation de cinq propositions.
 ,(--) Arguments tirés des opérations de la Banque de France.
 ,(--) Méfaits de cette Banque.
 ])))
-,(date-tag(small[31 décembre 1849.]))
+,(nbsp)
 ,(p*[
 Vous m’avez trompé.
 ][

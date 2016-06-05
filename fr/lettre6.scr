@@ -5,15 +5,15 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center (font :size "+2" (strong[Est-il vrai que prêter n’est plus aujourd’hui rendre un service ?
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 10 décembre 1849.])
+,(p :align 'center (strong[F. Bastiat à P. J. Proudhon.]))
+,(p*(font :size "-1" (strong[Est-il vrai que prêter n’est plus aujourd’hui rendre un service ?
 ,(--) La société est-elle un capitaliste tenu de prêter gratuitement ?
 ,(--) Explication sur la circulation des capitaux.
 ,(--) Chimères appelées par leur nom.
 ,(--) Ce qui est vrai, c’est que l’intérêt dispense
 d’une rémunération plus onéreuse.])))
-
-,(date-tag[10 décembre 1849.])
+,(nbsp)
 ,(p*[
 Je veux rester sur mon terrain ;
 vous voulez m’attirer sur le vôtre, et vous me dites :

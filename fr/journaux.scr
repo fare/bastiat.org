@@ -70,7 +70,8 @@
 ,(lettre "A" [
 
 ,(journal "atelier" "L’Atelier" [
-,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
+,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne]) ;
+,(ref :url "du_communisme.html#atelier_ref" [Du communisme])
 ])
 
 ]),(lettre "B" [
@@ -101,6 +102,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(journal "constitutionnel" "Le Constitutionnel" [
 ,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "generalites.html#constitutionnel_ref" [Sur les généralités])
+,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)])
 ])
 
 ,(journal "cm" "Courrier de Marseille" [
@@ -121,6 +123,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "aux_membres_de_l_association.html#dp_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "petition_economiste.html" [Pétition d’un économiste]) ;
 ,(ref :url "curee_des_places.html#dp_ref" [Curée des places]) ;
+,(ref :url "peur_d_un_mot.html#dp_ref" [La peur d’un mot]) ;
 ])
 
 ]),(lettre "E" [
@@ -148,6 +151,10 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ]),(lettre "I" [
 
+,(journal "impartial" "L’Impartial de Rouen" [
+,(ref :url "roi_libre_echangiste.html" [Le roi libre-échangiste])
+])
+
 ,(journal "indicateur" "L’Indicateur" [
 ,(p*[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834])])
 ])
@@ -165,7 +172,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#debats_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "douane_octroi.html" [Le National]) ;
-,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé])
+,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé]) ;
+,(ref :url "libre_entree_subsistances.html#debats_ref" [Subsistances])
 ])
 
 ,(journal "je" "Journal des Économistes" [

@@ -5,7 +5,8 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Deuxième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 12 novembre 1849.])
+,(p :align 'center (strong[
 		F. Bastiat ,(br)
 	Au rédacteur de ,(cite-title[La Voix du Peuple])
 ,(footnote*[
@@ -46,21 +47,16 @@ voyez dans notre ,(bof-ref "guillaumin"
 au tome V, ,(Gratuite_credit).
 ,(NdEBO)
 ])
-])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+]))
+,(p*(font :size "-1" (strong[
 L’usage d’une propriété est une valeur.
-,(br)
 ,(--) Toute valeur peut s’échanger contre une autre.
-,(br)
 ,(--) Fécondité du ,(strong[capital]).
-,(br)
 Sa coopération n’est pas rémunérée aux dépens du ,(strong[travail]).
-,(br)
 ,(--) Cette rémunération n’est pas exclusivement attachée
 à la circonstance du ,(strong[prêt]).
 ])))
-,(date-tag(small[12 novembre 1849.]))
+,(nbsp)
 ,(p*[
 L’ardeur extrême avec laquelle le peuple, en France,
 s’est mis à creuser les problèmes économiques,

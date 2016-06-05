@@ -5,11 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Douzième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
-
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 4 février 1850.])
+,(p :align 'center (strong[
+	F. Bastiat à P. J. Proudhon.]))
+,(p*(font :size "-1" (strong[
 Le système de la gratuité du crédit se réduit au papier-monnaie.
 ,(--) Quelles conséquences tirer de la comptabilité établie par M. Proudhon ?
 ,(--) Des billets de banque.
@@ -21,7 +20,7 @@ c’est la liberté.
 ,(--) Analyse du crédit et de l’intérêt.
 ,(--) Exhortation à M. Proudhon de changer sa bannière.
 ])))
-,(date-tag(small[4 février 1850.]))
+,(nbsp)
 ,(p*[
 Vous venez de rendre à la société un signalé service.
 Jusqu’ici la ,(emph[gratuité du crédit]) était demeurée enveloppée de nuages philosophiques,

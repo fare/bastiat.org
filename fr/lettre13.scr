@@ -5,15 +5,16 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Treizième lettre]
 	:author (author-FB)
 (bastiat[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 11 février 1850.])
 ,(p :align 'center (strong[
 	P. J. Proudhon à F. Bastiat.]))
-,(p (font :size "-1" (strong[
+,(p*(font :size "-1" (strong[
 Consultation psychologique.
 ,(--) Récapitulation.
 ,(--) La comptabilité est une méthode infaillible.
 ,(--) Clôture de la discussion.
 ])))
-,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 11 février 1850.])
+,(nbsp)
 
 ,(cher[Monsieur Bastiat,])
 

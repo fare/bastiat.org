@@ -5,10 +5,10 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatrième lettre]
 	:author (author-FB)
 (bastiat[
-,(tag :p :align 'center (font :size "+3" (strong[
-	F. Bastiat à P. J. Proudhon.])))
-,(tag :p :align 'center
-(font :size "+2" (strong[
+,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 26 novembre 1849.])
+,(p :align 'center (strong[
+	F. Bastiat à P. J. Proudhon.]))
+,(p*(font :size "-1" (strong[
 
 Circonscription logique du débat.
 ,(--) Dire oui et non n’est pas répondre.
@@ -17,7 +17,7 @@ Circonscription logique du débat.
 démontrée par des exemples.
 ,(--) Considérations sur le loisir.
 ])))
-,(date-tag(small[26 novembre 1849.]))
+,(nbsp)
 ,(p*[
 Monsieur, vous me posez sept questions.
 Veuillez vous rappeler qu’entre nous il ne s’agit en ce moment que d’une seule :
