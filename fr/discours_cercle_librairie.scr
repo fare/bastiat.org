@@ -2,10 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Discours au cercle de la librairie
 	- par Frédéric Bastiat")
-(document :title "Discours au cercle de la librairie"
-	:author (author-FB)
-(bastiat[
-,(date-tag[16 septembre 1847.,(footnote*
+(document :title [Discours au cercle de la librairie ,(footnote*
 [Ce discours diffère de ceux qui précèdent
 	en ce qu’il traite plus particulièrement
 		de ,(emph[propriété littéraire]) ,(pv)
@@ -32,12 +29,14 @@ n’a-t-il pas pu réfléchir assez à la question,
 et s’est-il laissé piéger par le ,(emph[nom])
 de ,(q[propriété]) qu’utilisent habilement auteurs et éditeurs
 pour faire valoir ce qui n’est que protectionnisme.
-(,(emph[note de Faré, 2000-07-09]))])
-])
-,(p*[
-Messieurs,
-][
-Un de mes amis, qui assistait dernièrement
+(,(emph[note de Faré, 2000-07-09]))])]
+	:author (author-FB)
+(bastiat[
+,(date-tag[16 septembre 1847.])
+
+,(date-tag[Messieurs,])
+
+,(p*[Un de mes amis, qui assistait dernièrement
 	à une séance de l’Académie des sciences morales et politiques,
 m’a rapporté que la conversation étant tombée sur la ,(emph[propriété]),
 	qui, vous le savez, est fréquemment attaquée de nos jours,

@@ -6,12 +6,12 @@
 (document :title [A M. Saulnier, éditeur de la ,(cite-title[Revue britannique])]
 	:author (author-FB)
 (bastiat[
-
+,(date-tag[Lettre figurant dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "paix_et_liberte.html#saulnier" [note de bas de page]).])
 ,(cher[Monsieur,])
 ,(p*[Vous avez transporté de joie
 tous ceux qui trouvent le mot ,(emph[économie])
 absurde, ridicule, insupportable, bourgeois, mesquin.
-Le ,(cite-title[Journal des Débats]) vous prône,
+Le ,(tj "debats" [,(cite-title[Journal des Débats])]) vous prône,
 le président du conseil vous cite
 et les faveurs du pouvoir vous attendent.
 Qu’avez-vous fait cependant, Monsieur,
@@ -63,7 +63,7 @@ pour payer 33 fr.
 ,(--) Il est vrai que vous dites aussi
 qu’on se rachète des corvées aux États-Unis avec 3 fr.
 et que, par conséquent, le prix de la journée y doit être établi à 3 fr.
-,(--) À cela, deux réponses.
+,(--) A cela, deux réponses.
 On se rachète de la corvée, en France, avec 1 fr.
 (car nous avons aussi nos corvées dont vous ne parlez pas) ,(pv)
 et ensuite, si la journée aux États-Unis ne vaut que 3 fr.,
@@ -112,7 +112,7 @@ des chevaux et du tabac de leur façon.])
 ,(politesse[J’ai l’honneur, etc.])
 ,(sign[Frédéric Bastiat.])
 ])
-(footer[,(oeuvres)])
+(footer[])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome V,
 pp. 407-464.

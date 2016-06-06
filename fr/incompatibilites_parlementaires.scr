@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Incompatibilités parlementaires, par Frédéric Bastiat")
 
-(document :title "Incompatibilités parlementaires"
+(document :title [Incompatibilités parlementaires ,(footnote*[Cet opuscule, publié en mars 1849, fut réimprimé, en 1850, peu de mois avant la mort de l’auteur. L’opinion qu’il y développe avait dans son esprit des racines profondes, ainsi qu’on peut le voir par sa ,(cite-title[Lettre à M. Larnac]), qui date de 1846, et, de plus, par l’écrit de 1830, intitulé : ,(cite-title[Aux Électeurs du département des Landes]). ,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(strong[Citoyens représentants]),
+,(date-tag[Mars 1849.])
+,(cher[Citoyens représentants,])
 
-,(footnote*[Cet opuscule, publié en mars 1849, fut réimprimé, en 1850, peu de mois avant la mort de l’auteur. L’opinion qu’il y développe avait dans son esprit des racines profondes, ainsi qu’on peut le voir par sa ,(cite-title[Lettre à M. Larnac]), qui date de 1846, et, de plus, par l’écrit de 1830, intitulé : ,(cite-title[Aux Électeurs du département des Landes]). ,(NdEEO)])
-][
-Je vous conjure de donner quelque attention à cet écrit.
+,(p*[Je vous conjure de donner quelque attention à cet écrit.
 ][
 — « Est-il bon d’exclure de l’Assemblée nationale des catégories de citoyens ? »
 ][

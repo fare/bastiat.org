@@ -1,0 +1,18 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre sur l’élection présidentielle")
+
+(document :title "Lettre sur l’élection présidentielle"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[,(tj "landes" [,(cite-title[Journal des Landes])]), n° du 13 août 1838.])
+,(p*[
+Texte français non encore disponible. Traduction anglaise du ,(emph[Liberty Fund]) disponible ,(ref :url "http://oll.libertyfund.org/titles/bastiat-the-collected-works-of-frederic-bastiat-vol-1-the-man-and-the-statesman-the-correspondence-and-articles-on-politics#lf1573-01_head_254" [ici]).
+])])
+(footer [
+,(oeuvres)
+])
+(with-footer (p*[
+
+])))

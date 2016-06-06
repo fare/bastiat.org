@@ -3,9 +3,25 @@
 (in-bof :title "Ce qu’on voit et ce qu’on ne voit pas
 	- par Frédéric Bastiat")
 (document :title [Ce qu’on voit ,(br) et ,(br)
-	,(strong[Ce qu’on ne voit pas])]
+	,(strong[Ce qu’on ne voit pas]) ,(footnote*[
+Ce pamphlet, publié en juillet 1850, est le dernier que Bastiat ait écrit.
+Depuis plus d’un an, il était promis au public.
+Voici comment son apparition fut retardée.
+L’auteur en perdit le manuscrit
+	lorsqu’il transporta son domicile
+		de la rue de Choiseul à la rue d’Alger.
+Après de longues et inutiles recherches,
+	il se décida à recommencer entièrement son ,(oe)uvre,
+et choisit pour
+	base principale de ses démonstrations
+	des discours récemment prononcés à l’Assemblée nationale.
+Cette tâche finie, il se reprocha d’avoir été trop sérieux,
+jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
+,(NdEEO)
+])]
 	:author (author-FB)
 (bastiat[
+,(date-tag[Juillet 1850.])
 ,(itemize
 (item(ref :url "#introduction" [Introduction]))
 (item(ref :url "#vitre_cassee" [I. La vitre cassée]))
@@ -30,38 +46,22 @@ Dans la sphère économique,
 	une loi
 n’engendrent pas seulement un effet,
 	mais une série d’effets.
-	,(footnote*[
-Ce pamphlet, publié en juillet 1850, est le dernier que Bastiat ait écrit.
-Depuis plus d’un an, il était promis au public.
-Voici comment son apparition fut retardée.
-L’auteur en perdit le manuscrit
-	lorsqu’il transporta son domicile
-		de la rue de Choiseul à la rue d’Alger.
-Après de longues et inutiles recherches,
-	il se décida à recommencer entièrement son ,(oe)uvre,
-et choisit pour
-	base principale de ses démonstrations
-	des discours récemment prononcés à l’Assemblée nationale.
-Cette tâche finie, il se reprocha d’avoir été trop sérieux,
-jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
-,(NdEEO)
-])
 De ces effets,
 	le premier seul est immédiat ;
 il se manifeste simultanément avec sa cause,
 	,(emph[on le voit]).
 Les autres ne se déroulent que successivement,
-	,(emph[on ne les voit pas]) ,(pv)
+	,(emph[on ne les voit pas ;])
 heureux si on les ,(emph[prévoit]).
 ][
 Entre un mauvais et un bon Économiste, voici toute la différence :
-l’un s’en tient à l’effet ,(emph[visible]) ,(pv)
-l’autre tient compte et de l’effet qu’on voit et de ceux qu’il faut prévoir.
+l’un s’en tient à l’effet ,(emph[visible ;])
+l’autre tient compte et de l’effet qu’on ,(emph[voit]) et de ceux qu’il faut ,(emph[prévoir]).
 ][
 Mais cette différence est énorme,
 car il arrive presque toujours que,
 	lorsque la conséquence immédiate est favorable,
-	les conséquences ultérieures sont funestes, et ,(emph[vice versa]).
+	les conséquences ultérieures sont funestes, ,(emph[et vice versa]).
 ,(--) D’où il suit que le mauvais Économiste
 	poursuit un petit bien actuel qui sera suivi d’un grand mal à venir,
 	tandis que le vrai économiste poursuit un grand bien à venir,
@@ -70,14 +70,14 @@ car il arrive presque toujours que,
 Du reste, il en est ainsi en hygiène, en morale.
 Souvent, plus le premier fruit d’une habitude est doux,
 plus les autres sont amers.
-Témoin : ,(XXX :sic)
+Témoin :
 	la débauche,
 	la paresse,
 	la prodigalité.
-Lors donc qu’un homme, frappé de l’effet qu’,(emph[on voit]),
-	n’a pas encore appris à discerner ceux qu’,(emph[on ne voit pas]),
+Lors donc qu’un homme, frappé de l’effet ,(emph[qu’on voit]),
+	n’a pas encore appris à discerner ceux ,(emph[qu’on ne voit pas]),
 	il s’abandonne à des habitudes funestes,
-	non-seulement ,(XXX :sic)
+	non-seulement
 		par penchant, mais par calcul.
 ][
 Ceci explique l’évolution fatalement douloureuse de l’humanité.
@@ -96,15 +96,15 @@ Elle nous instruit de tous les effets d’un acte
 	en nous les faisant ressentir,
 	et nous ne pouvons manquer de finir par savoir que le feu brûle,
 	à force de nous brûler.
-À ce rude docteur, j’en voudrais, autant que possible,
+A ce rude docteur, j’en voudrais, autant que possible,
 	substituer un plus doux : la Prévoyance.
 C’est pourquoi je rechercherai les conséquences
 	de quelques phénomènes économiques,
-	opposant à celles qu’,(emph[on voit])
-	celles qu’,(emph[on ne voit pas]).
+	opposant à celles ,(emph[qu’on voit])
+	celles ,(emph[qu’on ne voit pas]).
 ][
 ,(tag :a :name "vitre_cassee")
-,(subtitle[I. La Vitre cassée])
+,(h2[I. La Vitre cassée])
 ][
 ,(XXX :ref [
 Voir cet article contenant une version scannée de ce passage :
@@ -116,7 +116,7 @@ Si vous avez assisté à ce spectacle,
 à coup sûr vous aurez aussi constaté que tous les assistants,
 fussent-ils trente, semblent s’être donné le mot
 pour offrir au propriétaire infortuné cette consolation uniforme :
-,(q[À quelque chose malheur est bon.
+,(q[A quelque chose malheur est bon.
 De tels accidents font aller l’industrie.
 Il faut que tout le monde vive.
 Que deviendraient les vitriers,
@@ -129,7 +129,7 @@ attendu que c’est exactement la même
 	que celle qui, par malheur,
 		régit la plupart de nos institutions économiques.
 ][
-À supposer qu’il faille dépenser six francs pour réparer le dommage,
+A supposer qu’il faille dépenser six francs pour réparer le dommage,
 si l’on veut dire
 	que l’accident fait arriver six francs à l’industrie vitrière,
 	qu’il encourage dans la mesure de six francs la susdite industrie,
@@ -160,18 +160,17 @@ il ne pourra plus les dépenser à une autre.
 Bref, il aurait fait de ses six francs
 	un emploi quelconque qu’il ne fera pas.
 ][
-Faisons donc le compte de l’industrie ,(emph[en général]).
-][
-La vitre étant cassée,
+Faisons donc le compte de l’industrie ,(emph[en général]).])
+,(liste(p*[La vitre étant cassée,
 	l’industrie vitrière est encouragée dans la mesure de six francs ;
 ,(emph[c’est ce qu’on voit]).
 ][
 Si la vitre n’eût pas été cassée,
 	l’industrie cordonnière (ou toute autre)
 	eût été encouragée dans la mesure de six francs ;
-,(emph[c’est ce qu’on ne voit pas]).
-][
-Et si l’on prenait en considération
+,(emph[c’est ce qu’on ne voit pas]).]))
+
+,(p*[Et si l’on prenait en considération
 	,(emph[ce qu’on ne voit pas]),
 		parce que c’est un fait négatif,
 	aussi bien que ,(emph[ce que l’on voit]),
@@ -181,18 +180,17 @@ on comprendrait qu’il n’y a aucun intérêt
 	ou pour l’ensemble du ,(emph[travail national]),
 		à ce que des vitres se cassent ou ne se cassent pas.
 ][
-Faisons maintenant le compte de Jacques Bonhomme.
-][
-Dans la première hypothèse, celle de la vitre cassée,
+Faisons maintenant le compte de Jacques Bonhomme.])
+,(liste(p*[Dans la première hypothèse, celle de la vitre cassée,
 	il dépense six francs,
 et a, ni plus ni moins que devant, la jouissance d’une vitre.
 ][
 Dans la seconde, celle où l’accident ne fût pas arrivé,
 	il aurait dépensé six francs en chaussure
 	et aurait eu tout à la fois
-		la jouissance d’une paire de souliers et celle d’une vitre.
-][
-Or, comme Jacques Bonhomme fait partie de la société,
+		la jouissance d’une paire de souliers et celle d’une vitre.]))
+
+,(p*[Or, comme Jacques Bonhomme fait partie de la société,
 	il faut conclure de là que, considérée dans son ensemble,
 	et toute balance faite de ses travaux et de ses jouissances,
 	elle a perdu la valeur de la vitre cassée.
@@ -205,9 +203,9 @@ Par où, en généralisant, nous arrivons à cette conclusion inattendue :
 	ce n’est pas encourager le travail national,])
 ou plus brièvement :
 ,(q[destruction n’est pas profit.])
-][
-Que direz-vous, ,(emph[Moniteur industriel]),
-que direz-vous, adeptes de ce bon M. de Saint-Chamans,
+][,(tag :a :name "mi_ref")
+Que direz-vous, ,(tj "mi" [,(emph[Moniteur industriel])]),
+que direz-vous, adeptes de ce bon ,(np "stchamans" [M. de Saint-Chamans]),
 	qui a calculé avec tant de précision
 		ce que l’industrie gagnerait à l’incendie de Paris,
 			à raison des maisons qu’il faudrait reconstruire ?
@@ -248,7 +246,7 @@ V. au tome IV,
 ])
 ][
 ,(tag :a :name "le_licenciement")
-,(subtitle[II. Le Licenciement])
+,(h2[II. Le Licenciement])
 ][
 Il en est d’un peuple comme d’un homme.
 Quand il veut se donner une satisfaction,
@@ -353,7 +351,7 @@ et des tête gauche :
 	c’est un soldat.
 L’argent et la circulation sont les mêmes dans les deux cas ;
 mais, dans l’un, il y avait trois cents journées de travail productif ;
-dans l’autre, il a trois cents journées de travail improductif,
+dans l’autre, il y a trois cents journées de travail improductif,
 toujours dans la supposition qu’une partie de l’armée
 	n’est pas indispensable à la sécurité publique.
 ][
@@ -372,7 +370,7 @@ Vous ne voyez pas que jeter ainsi cent mille travailleurs sur le marché,
 c’est y jeter, du même coup,
 	les cent millions destinés à payer leur travail ;
 que, par conséquent, la même mesure qui augmente l’,(emph[offre]) des bras
-	en augmente aussi la ,(emph[demande]) ,(pv)
+	en augmente aussi la ,(emph[demande ;])
 d’où il suit que votre baisse des salaires est illusoire.
 Vous ne voyez pas qu’avant, comme après le licenciement,
 	il y a dans le pays cent millions correspondant à cent mille hommes ;
@@ -398,22 +396,22 @@ Si, tout compensé, tous intérêts examinés,
 		toute la population virile du pays ?
 ][
 ,(tag :a :name "l_impot")
-,(subtitle[III. L’impôt])
+,(h2[III. L’impôt])
 ][
 Ne vous est-il jamais arrivé d’entendre dire :
 ][
 ,(q[L’impôt, c’est le meilleur placement ;
-c’est une rosée fécondante ?
+c’est une rosée fécondante.
 Voyez combien de familles il fait vivre,
 et suivez, par la pensée, ses ricochets sur l’industrie :
 c’est l’infini, c’est la vie]).
-][
+][,(tag :a :name "beaumarchais_ref")
 Pour combattre cette doctrine,
 je suis obligé de reproduire la réfutation précédente.
 L’économie politique sait bien
 	que ses arguments ne sont pas assez divertissants
 	pour qu’on en puisse dire : ,(inlatin[Repetita placent]).
-Aussi, comme Basile, elle a arrangé le proverbe à son usage,
+Aussi, comme ,(np "beaumarchais" [Basile]), elle a arrangé le proverbe à son usage,
 	bien convaincue que dans sa bouche, ,(inlatin[Repetita docent]).
 ][
 Les avantages que les fonctionnaires trouvent à émarger,
@@ -449,7 +447,7 @@ que le sol reçoive autant de cette eau précieuse par la pluie
 Ce qu’il y a de très-positif,
 	c’est que, quand Jacques Bonhomme compte cent sous au percepteur,
 il ne reçoit rien en retour.
-Quand, ensuite, un fonctionnaire dépensant ces cent sous,
+Quand, ensuite, un fonctionnaire, dépensant ces cent sous,
 les rend à Jacques Bonhomme,
 	c’est contre une valeur égale en blé ou en travail.
 Le résultat définitif est pour Jacques Bonhomme
@@ -490,13 +488,13 @@ autant en ferait Jacques Bonhomme s’il n’eût rencontré sur son chemin
 Habituons-nous donc à ne pas juger des choses
 	seulement par ,(emph[ce qu’on voit]),
 	mais encore par ,(emph[ce qu’on ne voit pas]).
-][
+][,(tag :a :name "thiers_ref")
 L’an passé, j’étais du Comité des finances,
 car, sous la Constituante,
 	les membres de l’opposition
 	n’étaient pas systématiquement exclus de toutes les Commissions ;
 en cela, la Constituante agissait sagement.
-Nous avons entendu M. Thiers dire :
+Nous avons entendu ,(np "thiers" [M. Thiers]) dire :
 ,(q[J’ai passé ma vie à combattre
 	les hommes du parti légitimiste et du parti prêtre.
 Depuis que le danger commun nous a rapprochés,
@@ -535,8 +533,7 @@ Une certaine représentation dans les salons ministériels et diplomatiques
 Quoique de tels arguments puissent être controversés,
 	ils méritent certainement un sérieux examen.
 Ils sont fondés sur l’intérêt public, bien ou mal apprécié ;
-et, quant à moi, j’en fais plus de cas que beaucoup de nos Catons,
-	,(XXX :sic)
+et, quant à moi, j’en fais plus de cas que beaucoup de nos Catons
 	mus par un esprit étroit de lésinerie ou de jalousie.
 ][
 Mais ce qui révolte ma conscience d’économiste,
@@ -577,7 +574,7 @@ Un traiteur parisien a gagné cent sous, je vous l’accorde ;
 mais accordez-moi qu’un terrassier provincial a manqué de gagner cinq francs.
 Tout ce qu’on peut dire,
 c’est que le plat officiel et le traiteur satisfait,
-,(emph[c’est ce qu’on voit]) ,(pv)
+,(emph[c’est ce qu’on voit ;])
 le champ noyé et le terrassier dés,(oe)uvré,
 ,(emph[c’est ce qu’on ne voit pas]).
 ][
@@ -588,7 +585,7 @@ et, si vous y parvenez, on s’écrie :
 ,(--) Puis on vote comme si vous n’aviez rien prouvé du tout.
 ][
 ,(tag :a :name "theatres_beaux_arts")
-,(subtitle[IV. Théâtres, Beaux-Arts])
+,(h2[IV. Théâtres, Beaux-Arts])
 ][
 L’État doit-il subventionner les arts ?
 ][
@@ -614,13 +611,13 @@ En présence de tels résultats, ne serait-ce pas une haute imprudence
 que de renoncer à cette modique cotisation de tous les citoyens
 qui, en définitive, réalise, au milieu de l’Europe,
 leur supériorité et leur gloire ?
-][
-À ces raisons et bien d’autres, dont je ne conteste pas la force,
+][,(tag :a :name "lamartine_ref")
+A ces raisons et bien d’autres, dont je ne conteste pas la force,
 on peut en opposer de non moins puissantes.
 Il y a d’abord, pourrait-on dire, une question de justice distributive.
 Le droit du législateur va-t-il jusqu’à ébrécher le salaire de l’artisan
 pour constituer un supplément de profits à l’artiste ?
-M. Lamartine disait :
+,(np "lamartine" [M. Lamartine]) disait :
 ,(q[Si vous supprimez la subvention d’un théâtre,
 où vous arrêterez-vous dans cette voie,
 et ne serez-vous pas logiquement entraînés à supprimer
@@ -645,11 +642,9 @@ que les théâtres qui prospèrent sont ceux qui vivent de leur propre vie.
 Enfin, s’élevant à des considérations plus hautes,
 on peut faire observer que les besoins et les désirs
 naissent les uns des autres
-et s’élèvent dans des régions de plus en plus épurées
-,(XXX)
-,(footnote*[
+et s’élèvent dans des régions de plus en plus épurées ,(footnote*[
 V. ,(bof-ref "des_besoins_de_l_homme"
-	[cap. III del tomo VI]).
+	[ch. III du tome VI]).
 ,(NdEEO)
 ]),
 à mesure que la richesse publique permet de les satisfaire ;
@@ -700,7 +695,7 @@ Je proteste ici de toutes mes forces contre ces déductions.
 Loin que nous entretenions l’absurde pensée d’anéantir
 	la religion, l’éducation, la propriété, le travail et les arts
 quand nous demandons que l’État
-protège le libre développement de tous ces ordres d’activité humaine,
+protège le libre développement de tous ces ordres d’activité humaine
 sans les soudoyer aux dépens les uns des autres,
 nous croyons au contraire que toutes ces forces vives de la société
 se développeraient harmonieusement sous l’influence de la liberté,
@@ -713,12 +708,12 @@ Nous croyons le contraire.
 Leur foi est dans le législateur, non dans l’humanité.
 La nôtre est dans l’humanité, non dans le législateur.
 ][
-Ainsi, M. Lamartine disait :
+Ainsi, ,(np "lamartine" [M. Lamartine]) disait :
 ,(q[Au nom de ce principe, il faut ,(emph[abolir]) les expositions publiques
 qui font l’honneur et la richesse de ce pays.])
 ][
-Je réponds à M. Lamartine :
-,(q[À votre point de vue,
+Je réponds à ,(np "lamartine" [M. Lamartine]) :
+,(q[A votre point de vue,
 	,(emph[ne pas subventionner]) c’est ,(emph[abolir]),
 parce que, partant de cette donnée que rien n’existe
 que par la volonté de l’État,
@@ -738,13 +733,13 @@ alléguer pour et contre le système des subventions des raisons puissantes.
 Le lecteur comprend que, d’après l’objet spécial de cet écrit,
 je n’ai ni à exposer ces raisons, ni à décider entre elles.
 ][
-Mais M. Lamartine a mis en avant un argument
+Mais ,(np "lamartine" [M. Lamartine]) a mis en avant un argument
 que je ne puis passer sous silence,
 car il rentre dans le cercle très précis de cette étude économique.
 ][
 Il a dit :
 ][
-,(blockquote[
+,(blockquote*[
 La question économique, en matière de théâtres,
 se résume en un seul mot : c’est du travail.
 Peu importe la nature de ce travail,
@@ -762,7 +757,7 @@ Vos sympathies ! ,(--) traduisez : vos subventions.
 ][
 Et plus loin :
 ][
-,(blockquote[
+,(blockquote*[
 Les plaisirs de Paris sont le travail et la consommation des départements,
 et les luxes du riche sont le salaire et le pain
 de deux cent mille ouvriers de toute espèce,
@@ -770,7 +765,7 @@ vivant de l’industrie si multiple des théâtres
 sur la surface de la République, et recevant de ces plaisirs nobles,
 qui illustrent la France,
 l’aliment de leur vie et le nécessaire de leurs familles et de leurs enfants.
-C’est à eux que vous donnerez ces 60 000 fr.
+C’est à eux que vous donnerez ces 60,000 fr.
 (Très bien ! très bien ! marques nombreuses d’approbation.)
 ])
 ][
@@ -779,9 +774,9 @@ en restreignant, bien entendu, la portée de ce jugement
 à l’argument économique dont il est ici question.
 ][
 Oui, c’est aux ouvriers des théâtres qu’iront, du moins en partie,
-les 60 000 fr. dont il s’agit.
+les 60,000 fr. dont il s’agit.
 Quelques bribes pourront bien s’égarer en chemin.
-Même, si l’on scrutait la chose de près, ,(XXX)
+Même, si l’on scrutait la chose de près,
 peut-être découvrirait-on que le gâteau prendra une autre route ;
 heureux les ouvriers s’il leur reste quelques miettes !
 Mais je veux bien admettre que la subvention entière
@@ -791,7 +786,7 @@ ira aux peintres, décorateurs, costumiers, coiffeurs, etc.
 Mais d’où vient-elle ?
 Voilà le ,(emph[revers]) de la question,
 tout aussi important à examiner que la ,(emph[face]).
-Où est la source de ces 60 000 fr. ?
+Où est la source de ces 60,000 fr. ?
 Et ,(emph[où iraient-ils]),
 si un vote législatif ne les dirigeait d’abord
 vers la rue Rivoli et de là vers la rue Grenelle ?
@@ -824,14 +819,14 @@ Dira-t-on qu’à un genre de satisfaction et à un genre de travail,
 il substitue des satisfactions et des travaux
 plus urgents, plus moraux, plus raisonnables ?
 Je pourrais lutter sur ce terrain. Je pourrais dire :
-En arrachant 60 000 fr. aux contribuables,
+En arrachant 60,000 fr. aux contribuables,
 vous diminuez les salaires des
 laboureurs, terrassiers, charpentiers, forgerons,
 et vous augmentez d’autant les salaires
 des chanteurs, coiffeurs, décorateurs et costumiers.
 Rien ne prouve que cette dernière classe
 soit plus intéressante que l’autre.
-M. Lamartine ne l’allègue pas.
+,(np "lamartine" [M. Lamartine]) ne l’allègue pas.
 Il dit lui-même que le travail des théâtres
 est ,(emph[aussi]) fécond, ,(emph[aussi]) productif
 (et non ,(emph[plus])) que tout autre,
@@ -842,7 +837,7 @@ c’est que celui-ci est appelé à soudoyer celui-là.
 Mais cette comparaison entre la valeur et le mérite intrinsèque
 des diverses natures de travaux n’entre pas dans mon sujet actuel.
 Tout ce que j’ai à faire ici,
-c’est de montrer que si M. Lamartine
+c’est de montrer que si ,(np "lamartine" [M. Lamartine])
 et les personnes qui ont applaudi à son argumentation
 ont vu, de l’,(oe)il gauche,
 les salaires gagnés par les fournisseurs des comédiens,
@@ -852,7 +847,7 @@ faute de quoi, ils se sont exposés au ridicule
 de prendre un ,(emph[déplacement]) pour un ,(emph[gain]).
 S’ils étaient conséquents à leur doctrine,
 ils demanderaient des subventions à l’infini ;
-car ce qui est vrai d’un franc et de 60 000 fr.,
+car ce qui est vrai d’un franc et de 60,000 fr.
 est vrai, dans des circonstances identiques, d’un milliard de francs.
 ][
 Quand il s’agit d’impôts, messieurs, prouvez-en l’utilité
@@ -869,7 +864,7 @@ Votre argumentation est fort de mode,
 mais elle est trop absurde pour que la raison n’en ait pas raison.
 ][
 ,(tag :a :name "travaux_publics")
-,(subtitle[V. Travaux publics])
+,(h2[V. Travaux publics])
 ][
 Qu’une nation, après s’être assurée
 qu’une grande entreprise doit profiter à la communauté,
@@ -882,7 +877,7 @@ cette bévue économique :
 ][
 L’État ouvre un chemin, bâtit un palais, redresse une rue, perce un canal ;
 par là, il donne du travail à certains ouvriers,
-	,(emph[c’est ce qu’on voit]) ,(pv)
+	,(emph[c’est ce qu’on voit ;])
 mais il prive de travail certains autres ouvriers,
 	,(emph[c’est ce qu’on ne voit pas]).
 ][
@@ -895,13 +890,13 @@ Si la route n’eût pas été décrétée,
 si les fonds n’eussent pas été votés,
 ces braves gens n’eussent rencontré là ni ce travail ni ce salaire ;
 cela est certain encore.
-][
+][,(tag :a :name "dupin_ref")
 Mais est-ce tout ?
 L’opération, dans son ensemble, n’embrasse-t-elle pas autre chose ?
-Au moment où M. Dupin prononce les paroles sacramentelles :
+Au moment où ,(np "dupin_ch" [M. Dupin]) prononce les paroles sacramentelles :
 ,(q[L’Assemblée a adopté]),
 les millions descendent-ils miraculeusement sur un rayon de la lune
-dans les coffres de MM. Fould et Bineau ?
+dans les coffres de MM. ,(np "fould" [Fould]) et ,(np "bineau" [Bineau]) ?
 Pour que l’évolution, comme on dit, soit complète,
 ne faut-il pas que l’État organise la recette aussi bien que la dépense ?
 qu’il mette ses percepteurs en campagne
@@ -911,11 +906,11 @@ qu’il mette ses percepteurs en campagne
 Tout en constatant la destination que l’État donne aux millions votés,
 ne négligez pas de constater aussi
 la destination que les contribuables auraient donnée
-,(--) et ne peuvent plus donner ,(--) à ces mêmes millions.
+,(--) et ne peuvent plus donner ,(--) à ces mêmes millions.
 Alors, vous comprendrez qu’une entreprise publique
 est une médaille à deux revers.
 Sur l’une figure un ouvrier occupé, avec cette devise :
-	,(emph[Ce qu’on voit]) ,(pv)
+	,(emph[Ce qu’on voit ;])
 sur l’autre, un ouvrier inoccupé, avec cette devise :
 	,(emph[Ce qu’on ne voit pas]).
 ][
@@ -927,9 +922,9 @@ il suffit d’invoquer cette utilité.
 Mais si on ne le peut, que fait-on ?
 On a recours à cette mystification :
 ,(q[Il faut procurer de l’ouvrage aux ouvriers.])
-][
+][,(tag :a :name "bonaparte_ref")
 Cela dit, on ordonne de faire et de défaire les terrasses du Champ de Mars.
-Le grand Napoléon, on le sait, croyait faire ,(oe)uvre philanthropique
+Le grand ,(np "bonaparte" [Napoléon]), on le sait, croyait faire ,(oe)uvre philanthropique
 en faisant creuser et combler des fossés.
 Il disait aussi :
 ,(q[Qu’importe le résultat ?
@@ -981,7 +976,7 @@ qui montre un peu de travail stimulé qu’,(emph[on voit]),
 et cache beaucoup de travail empêché qu’,(emph[on ne voit pas]).
 ][
 ,(tag :a :name "les_intermediaires")
-,(subtitle[VI. Les Intermédiaires])
+,(h2[VI. Les Intermédiaires])
 ][
 La société est l’ensemble des services
 que les hommes se rendent forcément ou volontairement les uns aux autres,
@@ -1081,9 +1076,9 @@ et que le blé qui peut le satisfaire est à Odessa,
 la souffrance ne peut cesser
 	que le blé ne se rapproche de l’estomac.
 Il y a trois moyens pour que ce rapprochement s’opère :
-1° Les hommes affamés peuvent aller eux-mêmes chercher le blé ;
-2° ils peuvent s’en remettre à ceux qui font ce métier ;
-3° ils peuvent se cotiser et charger des fonctionnaires publics de l’opération.
+1° Les hommes affamés peuvent aller eux-mêmes chercher le blé ;
+2° ils peuvent s’en remettre à ceux qui font ce métier ;
+3° ils peuvent se cotiser et charger des fonctionnaires publics de l’opération.
 ][
 De ces trois moyens, quel est le plus avantageux ?
 ][
@@ -1160,7 +1155,7 @@ Il n’est donc pas possible d’imaginer une organisation mieux calculée
 	dans l’intérêt de ceux qui ont faim,
 	et la beauté de cette organisation, inaperçue des socialistes,
 	résulte précisément de ce qu’elle est libre.
-,(--) À la vérité, le consommateur est obligé de rembourser au commerce ses frais
+,(--) A la vérité, le consommateur est obligé de rembourser au commerce ses frais
 	de transports,
 	de transbordements,
 	de magasinage,
@@ -1169,7 +1164,7 @@ Il n’est donc pas possible d’imaginer une organisation mieux calculée
 mais dans quel système ne faut-il pas
 que celui qui mange le blé rembourse les frais
 	qu’il faut faire pour qu’il soit à sa portée ?
-Il y a de plus à payer la rémunération du ,(emph[service rendu]) ,(pv)
+Il y a de plus à payer la rémunération du ,(emph[service rendu ;])
 mais, quant à sa quotité,
 	elle est réduite au ,(emph[minimum]) possible par la concurrence ;
 et, quant à sa justice,
@@ -1269,7 +1264,7 @@ jusqu’au dernier coup d’aiguille qui le termine.
 ][
 Mais, grâce à la sociabilité qui est le caractère distinctif de notre espèce,
 ces opérations se sont distribuées entre une multitude de travailleurs,
-et elles subdivisent de plus en plus pour le bien commun,
+et elles se subdivisent de plus en plus pour le bien commun,
 à mesure que, la consommation devenant plus active,
 un acte spécial peut alimenter une industrie nouvelle.
 Vient ensuite la répartition du produit,
@@ -1292,11 +1287,11 @@ pourquoi la première serait-elle regardée
 	comme plus parasite que les deux autres ?
 Ne faut-il pas que le transport se fasse ?
 Celui qui le fait n’y consacre-t-il pas du temps et de la peine ?
-n’en épargne-t-il ,(XXX) pas à ses associés ?
+n’en épargne-t-il pas à ses associés ?
 Ceux-ci font-ils plus ou autre chose que lui ?
 Ne sont-ils pas tous également soumis pour la rémunération,
 c’est-à-dire pour le partage du produit,
-à la loi du ,(emph[prix débattu]) ?
+à la loi du ,(emph[prix débattu ?])
 N’est-ce pas, en toute liberté, pour le bien commun,
 que cette séparation de travaux s’opère
 et que ces arrangements sont pris ?
@@ -1309,7 +1304,7 @@ vienne despotiquement détruire nos arrangements volontaires,
 L’association, telle que je la décris ici,
 en est-elle moins association,
 	parce que chacun
-		y entre et sort librement,
+		y entre et en sort librement,
 		y choisit sa place,
 		juge et stipule pour lui-même sous sa responsabilité,
 		et y apporte le ressort et la garantie
@@ -1332,11 +1327,11 @@ Elle n’est peut-être pas inutile au moment où,
 	et menacent sérieusement la liberté du travail et des transactions.
 ][
 ,(tag :a :name "restriction")
-,(subtitle[VII. Restriction])
+,(h2[VII. Restriction])
 ][
 M. Prohibant
-(ce n’est pas moi qui l’ai nommé, c’est M. Charles Dupin,
-qui depuis… mais alors…),
+(ce n’est pas moi qui l’ai nommé, c’est ,(np "dupin_ch" [M. Charles Dupin]),
+qui depuis… mais alors… ,(np "voltaire" [*])),
 M. Prohibant consacrait son temps et ses capitaux
 	à convertir en fer le minerai de ses terres.
 Comme la nature avait été plus prodigue envers les Belges,
@@ -1418,16 +1413,15 @@ Donc, M. Prohibant se rendit à la fabrique de lois.
 ,(--) Une autre fois peut-être je raconterai l’histoire de ses sourdes menées ;
 aujourd’hui je ne veux parler que de ses démarches ostensibles. ,(--)
 Il fit valoir auprès de MM. les législateurs cette considération :
-]
-(q[Le fer belge se vend en France à dix francs,
+][« Le fer belge se vend en France à dix francs,
 ce qui me force de vendre le mien au même prix.
 J’aimerais mieux le vendre à quinze et ne le puis,
 à cause de ce fer belge, que Dieu maudisse.
 Fabriquez une loi qui dise :
 ,(--) Le fer belge n’entrera plus en France. ,(--)
-Aussitôt j’élève mon prix de cinq francs, et voici les conséquences :])
+Aussitôt j’élève mon prix de cinq francs, et voici les conséquences :]
 
-(q[Pour chaque quintal de fer que je livrerai au public,
+[« Pour chaque quintal de fer que je livrerai au public,
 au lieu de recevoir dix francs, j’en toucherai quinze,
 je m’enrichirai plus vite,
 je donnerai plus d’étendue à mon exploitation,
@@ -1439,14 +1433,14 @@ et, de proche en proche, l’activité gagnera tout le pays.
 Cette bienheureuse pièce de cent sous,
 que vous ferez tomber dans mon coffre-fort,
 comme une pierre qu’on jette dans un lac,
-fera rayonner au loin un nombre infini de cercles concentriques.])
+fera rayonner au loin un nombre infini de cercles concentriques. »]
 [
 Charmés de ce discours,
 enchantés d’apprendre qu’il est si aisé
 	d’augmenter législativement la fortune d’un peuple,
 les fabricants de lois votèrent la Restriction.
 Que parle-t-on de travail et d’économie ? disaient-ils.
-À quoi bon ces pénibles moyens d’augmenter la richesse nationale,
+A quoi bon ces pénibles moyens d’augmenter la richesse nationale,
 	puisqu’un Décret y suffit ?
 ][
 Et en effet, la loi eut toutes les conséquences annoncées
@@ -1500,7 +1494,7 @@ J’ai dit qu’on laissait toujours dans l’ombre un troisième personnage.
 Il faut que je le fasse ici paraître
 afin qu’il nous révèle une ,(emph[seconde perte]) de cinq francs.
 Alors nous aurons le résultat de l’évolution tout entière.
-][
+][,(tag :a :name "bossuet_ref")
 Jacques Bonhomme est possesseur de 15 fr.,
 fruit de ses sueurs.
 Nous sommes encore au temps où il est libre.
@@ -1514,23 +1508,22 @@ Il ne les jette pas dans la rivière,
 mais (et c’est ,(emph[ce qu’on ne voit pas]))
 il les donne à un industriel quelconque en échange d’une jouissance quelconque,
 par exemple à un libraire
-	contre le ,(cite-title[discours sur l’Histoire universelle de Bossuet]).
+	contre le ,(cite-title[discours sur l’Histoire universelle]) de ,(np "bossuet" [Bossuet]).
 ][
 Ainsi, en ce qui concerne le ,(emph[travail national]),
-	il est encouragé dans la mesure de 15 fr., savoir :
+	il est encouragé dans la mesure de 15 fr., savoir :])
+,(liste(p*[10 fr. qui vont à l’,(emph[article Paris ;])
 ][
-10 fr. qui vont à l’,(emph[article Paris]) ,(pv)
+5 fr. qui vont à la librairie.]))
+
+,(p*[Et quant à Jacques Bonhomme, il obtient pour ses 15 fr.,
+deux objets de satisfaction, savoir :])
+
+,(liste(p*[1° Un quintal de fer ;
 ][
-5 fr. qui vont à la librairie.
-][
-Et quant à Jacques Bonhomme, il obtient pour ses 15 fr.,
-deux objets de satisfaction, savoir :
-][
-1° Un quintal de fer ;
-][
-2° Un livre.
-][
-Survient le décret.
+2° Un livre.]))
+
+,(p*[Survient le décret.
 ][
 Que devient la condition de Jacques Bonhomme ?
 Que devient celle du travail national ?
@@ -1590,7 +1583,7 @@ Oh ! si violenter c’était produire,
 	notre France serait plus riche qu’elle n’est.
 ][
 ,(tag :a :name "les_machines")
-,(subtitle[VIII. Les Machines])
+,(h2[VIII. Les Machines])
 ][
 ,(q[Malédiction sur les machines !
 chaque année leur puissance progressive
@@ -1636,6 +1629,7 @@ que pour les peuples
 		de combiner,
 		d’inventer,
 		d’obtenir de plus grands résultats avec de moindres moyens.
+,(tag :a :name "rousseau_ref")
 Au contraire,
 	les haillons,
 	les huttes ignobles,
@@ -1651,7 +1645,7 @@ de toute nation qui cherche et trouve dans
 	les lois de la chimie et de la mécanique,
 en un mot dans les forces de la nature,
 un supplément à ses propres forces,
-et c’est bien le cas de dire avec Rousseau :
+et c’est bien le cas de dire avec ,(np "rousseau" [Rousseau]) :
 ,(q[Tout homme qui pense est un animal dépravé.])
 ][
 Ce n’est pas tout :
@@ -1686,7 +1680,7 @@ Je vais essayer de le mettre en lumière.
 Ma démonstration ne pourra être qu’une répétition de la précédente,
 car il s’agit d’un problème identique.
 ][
-C’est un penchant naturel aux hommes, d’aller,
+C’est un penchant naturel aux hommes d’aller,
 s’ils n’en sont empêchés par la violence, vers le ,(emph[bon marché]),
 ,(--) c’est-à-dire vers ce qui, à satisfaction égale, leur épargne du travail,
 ,(--) que ce bon marché leur vienne
@@ -1717,7 +1711,7 @@ Cela ne doit pas nous surprendre.
 Dans une fausse voie on est toujours inconséquent,
 	sans quoi on tuerait l’humanité.
 Jamais on n’a vu ni on ne verra un principe faux poussé jusqu’au bout.
-J’ai dit ailleurs :
+J’ai dit ,(ref :url "reflexions_petitions_bordeaux.html#inconsequence" [ailleurs]) :
 	l’inconséquence est la limite de l’absurdité.
 J’aurais pu ajouter :
 	elle en est en même temps la preuve.
@@ -1839,7 +1833,7 @@ Grâce à son invention, la main-d’,(oe)uvre ne lui coûte plus qu’un franc.
 ][
 Tant qu’il vend le produit au même prix,
 il y a un ouvrier de moins occupé à faire ce produit spécial,
-	,(emph[c’est ce qu’on voit]) ,(pv)
+	,(emph[c’est ce qu’on voit ;])
 mais il y a un ouvrier de plus occupé par le franc que
 Jacques Bonhomme a épargné :
 	,(emph[c’est ce qu’on ne voit pas]).
@@ -1855,7 +1849,7 @@ Quiconque achète le produit le paye un franc de moins, épargne un franc,
 et tient nécessairement cette épargne au service du fonds des salaires :
 	,(emph[c’est encore ce qu’on ne voit pas]).
 ][
-On a donné, de ce problème des machines,
+On a donné de ce problème des machines
 	une autre solution, fondée sur les faits.
 ][
 On a dit :
@@ -1917,7 +1911,7 @@ Ce qui importe, c’est de bien comprendre
 		les économies n’ont lieu aux dépens du travail et des salaires.
 ][
 ,(tag :a :name "credit")
-,(subtitle[IX. Crédit])
+,(h2[IX. Crédit])
 ][
 De tous les temps, mais surtout dans les dernières années,
 on a songé à universaliser la richesse en universalisant le crédit.
@@ -2060,7 +2054,7 @@ En outre, ,(emph[on ne voit pas]) que ce déplacement
 ][
 Injustice envers Jean
 	qui, après avoir mérité et conquis le ,(emph[crédit])
-		par sa probité et son activité
+		par sa probité et son activité,
 	s’en voit dépouillé.
 ][
 Injustice envers les contribuables,
@@ -2103,7 +2097,7 @@ Mais c’est là, avec la liberté,
 tout ce que doivent demander à la Loi des Réformateurs dignes de ce nom.
 ][
 ,(tag :a :name "l_algerie")
-,(subtitle[X. L’Algérie])
+,(h2[X. L’Algérie])
 ][
 Mais voici quatre orateurs qui se disputent la tribune.
 Ils parlent d’abord tous à la fois, puis l’un après l’autre.
@@ -2137,13 +2131,13 @@ et non du mal qu’on a produit,
 non plus que du bien qu’on a empêché, en les y faisant entrer ;
 oui, à ce point de vue borné, tout est profit.
 La maison bâtie en Barbarie,
-,(emph[c’est ce qu’on voit]) ,(pv)
+,(emph[c’est ce qu’on voit ;])
 le port creusé en Barbarie,
-,(emph[c’est ce qu’on voit]) ,(pv)
+,(emph[c’est ce qu’on voit ;])
 le travail provoqué en Barbarie,
-	,(emph[c’est ce qu’on voit]) ,(pv)
+	,(emph[c’est ce qu’on voit ;])
 quelques bras de moins en France,
-	,(emph[c’est ce qu’on voit]) ,(pv)
+	,(emph[c’est ce qu’on voit ;])
 un grand mouvement de marchandises à Marseille,
 	,(emph[c’est toujours ce qu’on voit]).
 ][
@@ -2162,7 +2156,7 @@ Il aurait fait relever la clôture de son jardin et ne le peut plus,
 	,(emph[c’est ce qu’on ne voit pas]).
 Il aurait fait marner son champ et ne le peut plus,
 	,(emph[c’est ce qu’on ne voit pas]).
-Il aurait ajouté un étage à sa chaumière et ne le peut plus
+Il aurait ajouté un étage à sa chaumière et ne le peut plus,
 	,(emph[c’est ce qu’on ne voit pas]).
 Il aurait augmenté son outillage et ne le peut plus,
 	,(emph[c’est ce qu’on ne voit pas]).
@@ -2175,7 +2169,7 @@ Il se serait mis dans l’association des secours mutuels et ne le peut plus,
 D’une part,
 	les jouissances qui lui sont ôtées,
 	et les moyens d’action qu’on a détruits dans ses mains,
-de l’autre ; le travail
+de l’autre, le travail
 	du terrassier,
 	du charpentier,
 	du forgeron,
@@ -2197,11 +2191,11 @@ c’est un soulagement pour la population qui reste dans le pays.])
 Je réponds : Comment cela se peut-il,
 	si en transportant ce colon à Alger,
 	on y a transporté aussi deux ou trois fois
-		le capital qui l’aurait fait vivre en France,(footnote*[M. le ministre de la guerre a affirmé dernièrement
+		le capital qui l’aurait fait vivre en France ,(footnote*[M. le ministre de la guerre a affirmé dernièrement
 que chaque individu transporté en Algérie
-	a coûté à l’État 8 000 fr.
+	a coûté à l’État 8,000 fr.
 Or, il est positif que les malheureux dont il s’agit
-	auraient très-bien vécu en France sur un capital de 4 000 fr.
+	auraient très-bien vécu en France sur un capital de 4,000 fr.
 Je demande en quoi l’on soulage la population française,
 	quand on lui ôte un homme et les moyens d’existence de deux ?]) ?
 ][
@@ -2225,10 +2219,10 @@ Il n’entre pas dans l’objet de cet écrit
 d’apprécier le mérite intrinsèque
 	des dépenses publiques appliquées à l’Algérie.
 ][
-Mais je ne ,(XXX :sic) puis retenir une observation générale.
+Mais je ne puis retenir une observation générale.
 C’est que la présomption est toujours défavorable
 	aux dépenses collectives par voie d’impôt.
-Pourquoi ? La voici :
+Pourquoi ? Le voici :
 ][
 D’abord la justice en souffre toujours quelque peu.
 Puisque Jacques Bonhomme avait sué pour gagner sa pièce de cent sous,
@@ -2266,13 +2260,11 @@ sauf à te prendre cent sous de plus tous les ans pour y entretenir un colon ;
 et autres cent sous pour entretenir un général qui garde le soldat, etc., etc.,
 il me semble entendre le pauvre Jacques s’écrier :
 ,(q[Ce régime légal ressemble fort
-	au régime de la forêt de Bondy
-,(footnote*[
+	au régime de la forêt de Bondy ,(footnote*[
 Forêt réputée pour les brigands qui dévalisaient
 les voyageurs qui la traversaient.
 ,(NdEEF)
-])
- !])
+]) !])
 Et comme l’État prévoit l’objection,
 que fait-il ?
 Il brouille toutes choses ;
@@ -2310,7 +2302,7 @@ un nombre correspondant de travailleurs dépaysés,
 ,(--) Mais il arrive ceci (et je rentre par là dans mon sujet) :
 cette activité fiévreuse, et pour ainsi dire soufflée sur un étroit espace,
 frappe tous les regards,
-	,(emph[c’est ce qu’on voit]) ,(pv)
+	,(emph[c’est ce qu’on voit ;])
 le peuple applaudit,
 	s’émerveille sur la beauté et la facilité du procédé,
 	en réclame le renouvellement et l’extension.
@@ -2320,7 +2312,7 @@ le peuple applaudit,
 	a été frappée d’inertie dans tout le reste de la France.
 ][
 ,(tag :a :name "epargne_et_luxe")
-,(subtitle[XI. Épargne et Luxe])
+,(h2[XI. Épargne et Luxe])
 ][
 Ce n’est pas seulement en matière de dépenses publiques
 que ,(emph[ce qu’on voit]) éclipse ,(emph[ce qu’on ne voit pas]).
@@ -2340,17 +2332,16 @@ d’enseigner à ses enfants
 	la modération dans les dépenses.
 Il n’y a pas de religion qui ne tonne contre le faste et le luxe.
 C’est fort bien ;
-mais, d’un autre côté, quoi de plus populaire que ces sentences :
-][
-,(q[Thésauriser, c’est dessécher les veines du peuple.])
+mais, d’un autre côté, quoi de plus populaire que ces sentences :])
+,(liste(p*[,(q[Thésauriser, c’est dessécher les veines du peuple.])
 ][
 ,(q[Le luxe des grands fait l’aisance des petits.])
 ][
 ,(q[Les prodigues se ruinent, mais ils enrichissent l’État.])
 ][
-,(q[C’est sur le superflu du riche que germe le pain du pauvre.])
-][
-Voilà, certes, entre l’idée morale et l’idée sociale,
+,(q[C’est sur le superflu du riche que germe le pain du pauvre.])]))
+
+,(p*[Voilà, certes, entre l’idée morale et l’idée sociale,
 une flagrante contradiction.
 Que d’esprits éminents, après avoir constaté le conflit,
 	reposent en paix !
@@ -2368,7 +2359,7 @@ Heureusement que les maximes vulgaires
 		de ces conséquences immédiates ,(emph[qu’on voit]),
 et non des effets ultérieurs ,(emph[qu’on ne voit pas]).
 Essayons de rectifier cette vue incomplète.
-][
+][,(tag :a :name "balzac_ref")
 Mondor et son frère Ariste,
 ayant partagé l’héritage paternel,
 ont chacun cinquante mille francs de rente.
@@ -2378,13 +2369,13 @@ Il renouvelle son mobilier plusieurs fois par an,
 change ses équipages tous les mois ;
 on cite les ingénieux procédés auxquels il a recours
 	pour en avoir plus tôt fini :
-bref, il fait pâlir les viveurs de Balzac et d’Alexandre Dumas.
+bref, il fait pâlir les viveurs de ,(np "balzac" [Balzac]) et d’,(np "dumas" [Alexandre Dumas]).
 ][
 Aussi, il faut entendre le concert d’éloges qui toujours l’environne !
 ,(q[Parlez-nous de Mondor ! vive Mondor !
 C’est le bienfaiteur de l’ouvrier ;
 c’est la providence du peuple.
-À la vérité, il se vautre dans l’orgie,
+A la vérité, il se vautre dans l’orgie,
 il éclabousse les passants ;
 sa dignité et la dignité humaine en souffrent quelque peu…
 Mais, bah, s’il ne se rend pas utile par lui-même,
@@ -2402,7 +2393,7 @@ S’il n’est pas un égoïste, il est au moins un ,(emph[individualiste]),
 ][
 Et il faut entendre ce que dit de lui le vulgaire !
 ][
-,(q[À quoi est bon ce mauvais riche, ce fesse-mathieu ?
+,(q[A quoi est bon ce mauvais riche, ce fesse-mathieu ?
 Sans doute, il y a quelque chose d’imposant et de touchant
 	dans la simplicité de sa vie ;
 il est d’ailleurs humain, bienfaisant, généreux,
@@ -2457,7 +2448,7 @@ et l’on se dit :
 ,(--) ,(emph[C’est ce qu’on voit]).
 ][
 Il n’est pas aussi aisé de voir,
-	au point de vue de l’intérêt des travailleurs
+	au point de vue de l’intérêt des travailleurs,
 	ce que deviennent les revenus d’Ariste.
 Suivons-les à la trace, cependant,
 et nous nous assurerons que tous,
@@ -2490,10 +2481,10 @@ il s’impose d’épargner et placer tous les ans dix mille francs.
 Voici donc l’emploi de ses revenus.
 ]
 (table
-(tr(tdRT[1°])(tdLT[Dépenses personnelles])(tdRT[20 000])(tdLT[ fr.]))
-(tr(tdRT[2°])(tdLT[Bienfaisance])(tdRT[10 000])(tdLT[ fr.]))
-(tr(tdRT[3°])(tdLT[Services d’amitié])(tdRT[10 000])(tdLT[ fr.]))
-(tr(tdRT[4°])(tdLT[Épargne])(tdRT[10 000])(tdLT[ fr.])))
+(tr(tdRT[1°])(tdLT[Dépenses personnelles])(tdRT[20,000])(tdLT[ fr.]))
+(tr(tdRT[2°])(tdLT[Bienfaisance])(tdRT[10,000])(tdLT[ fr.]))
+(tr(tdRT[3°])(tdLT[Services d’amitié])(tdRT[10,000])(tdLT[ fr.]))
+(tr(tdRT[4°])(tdLT[Épargne])(tdRT[10,000])(tdLT[ fr.])))
 [
 Reprenons chacun de ces chapitres, et nous verrons
 qu’une seule obole n’échappe pas au travail national.
@@ -2539,7 +2530,7 @@ Les noms propres changent,
 	la dépense reste
 	et l’encouragement à l’industrie aussi.
 ][
-4° Épargne. Restent les dix mille francs ,(emph[épargnés]) ,(pv)
+4° Épargne. Restent les dix mille francs ,(emph[épargnés ;])
 ,(--) et c’est ici qu’au point de vue de l’encouragement
 	aux arts,
 	à l’industrie,
@@ -2556,8 +2547,7 @@ que je vois l’apparence de telles contradictions
 Si l’humanité était réduite à opter entre deux partis,
 	dont l’un blesse ses intérêts et l’autre sa conscience,
 il ne nous resterait qu’à désespérer de son avenir.
-Heureusement il n’en est pas ainsi
-,(footnote*[
+Heureusement il n’en est pas ainsi ,(footnote*[
 V. la note de la page 369.
 ,(NdEEO)
 Il s’agit, plus haut dans ce même document,
@@ -2589,7 +2579,7 @@ ils vont alimenter du travail tout aussi sûrement
 	que si Ariste, à l’exemple de son frère,
 les eût échangés contre des meubles, des bijoux et des chevaux.
 ][
-Car, lorsque Ariste achète pour 10 000 fr.
+Car, lorsque Ariste achète pour 10,000 fr.
 	de terres ou de rente,
 il est déterminé par la considération
 	qu’il n’a pas besoin de dépenser cette somme,
@@ -2609,7 +2599,7 @@ Au point de vue
 il n’y a donc, entre la conduite d’Ariste et celle de Mondor,
 	qu’une différence ;
 la dépense de Mondor étant directement accomplie par lui, et autour de lui,
-	,(emph[on la voit]) ,(pv)
+	,(emph[on la voit]).
 Celle d’Ariste s’exécutant en partie par des intermédiaires et au loin,
 	,(emph[on ne la voit pas]).
 Mais, au fait, et pour qui sait rattacher les effets aux causes,
@@ -2658,15 +2648,15 @@ Il est consolant de penser qu’il en est de même,
 	sait pousser ses investigations jusqu’à leurs effets définitifs.
 ][
 ,(tag :a :name "droit_au_travail_droit_au_profit")
-,(subtitle[XII. Droit au Travail, Droit au Profit])
-][
-,(q[Frères, cotisez-vous pour me fournir de l’ouvrage à votre prix.])
+,(h2[XII. Droit au Travail, Droit au Profit])
+])
+,(liste(p*[,(q[Frères, cotisez-vous pour me fournir de l’ouvrage à votre prix.])
 C’est le Droit au travail, le Socialisme élémentaire ou de premier degré.
 ][
 ,(q[Frères, cotisez-vous pour me fournir de l’ouvrage à mon prix.])
-C’est le Droit au profit, le Socialisme raffiné ou de second degré.
-][
-L’un et l’autre vivent par ceux de leurs effets qu’,(emph[on voit]).
+C’est le Droit au profit, le Socialisme raffiné ou de second degré.]))
+
+,(p*[L’un et l’autre vivent par ceux de leurs effets qu’,(emph[on voit]).
 Ils mourront par ceux de leurs effets qu’,(emph[on ne voit pas]).
 ][
 ,(emph[Ce qu’on voit]), c’est le travail et le profit
@@ -2676,18 +2666,18 @@ Ils mourront par ceux de leurs effets qu’,(emph[on ne voit pas]).
 	si on la laissait aux contribuables.
 ][
 En 1848, le Droit au travail se montra un moment sous deux faces.
-Cela suffit pour le ruiner dans l’opinion publique.
+Cela suffit pour le ruiner dans l’opinion publique.])
+
+,(liste(p*[L’une de ces face s’appelait : ,(emph[Atelier national]).
 ][
-L’une de ces face s’appelait : ,(emph[Atelier national]).
-][
-L’autre : ,(emph[Quarante-cinq centimes]).
-][
-Des millions allaient tous les jours
+L’autre : ,(emph[Quarante-cinq centimes]).]))
+
+,(p*[Des millions allaient tous les jours
 	de la rue de Rivoli aux ateliers nationaux.
 C’est le beau côté de la médaille.
 ][
 Mais en voici le revers.
-Pour que des millions sortent d’une caisse il faut qu’ils y soient entrés.
+Pour que des millions sortent d’une caisse, il faut qu’ils y soient entrés.
 C’est pourquoi les organisateurs du Droit au travail
 	s’adressèrent aux contribuables.
 ][
@@ -2717,7 +2707,7 @@ Et cependant, le droit au profit,
 	vit encore et se porte à merveille.
 ][
 N’y a-t-il pas quelque chose de honteux
-	dans le rôle que le protectioniste ,(XXX :sic)
+	dans le rôle que le protectionniste
 		fait jouer à la société ?
 ][
 Il lui dit :
@@ -2733,25 +2723,24 @@ La société
 	qui écoute ce sophiste,
 	qui se charge d’impôts pour le satisfaire,
 	qui ne s’aperçoit pas que la perte essuyée par une industrie
-		n’en est pas moins une perte,
+		n’en est pas moins une perte
 		parce qu’on force les autres à la combler,
 cette société, dis-je, mérite le fardeau qu’on lui inflige.
-][
+](nbsp)[,(tag :a :name "dispersion")
 Ainsi, on le voit par les nombreux sujets que j’ai parcourus :
 Ne pas savoir l’Économie politique,
 	c’est se laisser éblouir par l’effet immédiat d’un phénomène ;
 la savoir,
 	c’est embrasser dans sa pensée et dans sa prévision
-		l’ensemble des effets,(footnote*[Ici l’éditeur renvoie à ,(ref :url "dispersion_couts.html" [cette ébauche inédite]).]).
-][
+		l’ensemble des effets ,(footnote*[Ici l’éditeur renvoie à ,(ref :url "dispersion_couts.html" [cette ébauche inédite]).]).
+][,(tag :a :name "chateaubriand_ref")
 Je pourrais soumettre ici une foule d’autres questions à la même épreuve.
 Mais je recule devant la monotonie d’une démonstration toujours uniforme,
 et je termine,
 	en appliquant à l’Économie politique
-	ce que Chateaubriand dit de l’Histoire :
-][
-,(blockquote(q
-[Il y a, dit-il, deux conséquences en histoire :
+	ce que ,(np "chateaubriand" [Chateaubriand]) dit de l’Histoire :
+])
+,(blockquote*[« Il y a, dit-il, deux conséquences en histoire :
 l’une immédiate et qui est à l’instant connue,
 l’autre éloignée et qu’on n’aperçoit pas d’abord.
 Ces conséquences souvent se contredisent ;
@@ -2768,12 +2757,9 @@ mais regardez à la fin d’un fait accompli,
 et vous verrez qu’il a toujours produit
 	le contraire de ce qu’on en attendait
 quand il n’a point été établi d’abord
-	sur la morale et la justice.]))
-][
-(,(strong[Chateaubriand]) ,(pv) ,(cite-title[Mémoires d’outre-tombe]).)
-
-
-])])
+	sur la morale et la justice.]
+	[,(p :align "right" [(,(strong[,(np "chateaubriand" [Chateaubriand])]). ,(cite-title[Mémoires d’outre-tombe]).)])])
+])
 (footer[,(oeuvres)])
 (with-footer(p*[
 Extrait de l’,(EO1863), tome V,

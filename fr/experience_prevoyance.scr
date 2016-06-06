@@ -6,7 +6,8 @@
 	:author (author-FB)
 
 (bastiat[
-,(date-tag[,(emph[(Pensée tirée des manuscrits de l’auteur.)])])
+,(date-tag[Pensée tirée des manuscrits de l’auteur,
+,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "la_loi.html#experience" [note de bas de page]).])
 ,(p*[Pour qu’un peuple soit heureux,
 	il est indispensable que les individus qui le composent
 	aient de la prévoyance, de la prudence,
@@ -27,15 +28,14 @@
 	,(q[Que l’État, disent-ils, soit prévoyant et prudent
 	pour tout le monde.])
 	][
-	Sur quoi, je pose ces questions :
-	][
-	1° Cela est-il possible ?
+	Sur quoi, je pose ces questions :])
+	,(liste(p*[1° Cela est-il possible ?
 		Peut-il sortir un État expérimenté
 		d’une nation inexpérimentée ?
 	][
-	2° En tout cas, n’est pas étouffer l’expérience dans son germe ?
-	][
-	Si le pouvoir impose les actes individuels,
+	2° En tout cas, n’est pas étouffer l’expérience dans son germe ?]))
+	
+	,(p*[Si le pouvoir impose les actes individuels,
 	comment l’individu s’instruira-t-il
 	par les conséquences de ses actes ?
 	Il sera donc en tutelle à perpétuité ?
@@ -47,6 +47,7 @@
 	puisqu’elles seront faites par un peuple
 	auquel, en interdisant l’expérience, on a interdit le progrès.
 ])])
+(footer[])
 (with-footer(p*[
 Extrait de l’,(EO1863), tome IV, pp. 342-393.
 ])))

@@ -2,10 +2,11 @@
 (style 'bo-style)
 (in-bof)
 
-(document :title ""
+(document :title "La valeur découle du service"
 	:author (author-FB)
 
 (bastiat[
+,(date-tag [Ébauche insérée dans la seconde édition des ,(cite-title[Harmonies]) à la fin du chapitre ,(ref :url "de_la_valeur.html" [,(cite-title[De la valeur])]).])
 ,(p*[Les anciens avaient bien décrit toutes les combinaisons de l’Échange :
 ][
 ,(inlatin[Do ut des]) (produit contre produit),

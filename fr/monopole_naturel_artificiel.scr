@@ -2,11 +2,12 @@
 (style 'bo-style)
 (in-bof)
 
-(document :title ""
+(document :title "Monopole naturel, monopole artificiel"
 	:author (author-FB)
 
 (bastiat[
-,(date-tag[(,(emph[Note extraite des manuscrits de l’auteur.]))])
+,(date-tag[Note extraite des manuscrits de l’auteur,
+,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "de_la_valeur.html#monopole" [note de bas de page]).])
 ,(p*[C’est parce que, sous l’empire de la liberté,
 les efforts se font concurrence entre eux
 qu’ils obtiennent cette rémunération
@@ -104,7 +105,7 @@ qu’il s’est produit parmi les hommes une rareté qui ne devait pas être.
 
 ])])
 (footer[
-	,(harmonies)
+	
 ])
 (with-footer
 (p*[

@@ -2,11 +2,12 @@
 (style 'bo-style)
 (in-bof)
 
-(document :title ""
+(document :title "Valeur et accumulation"
 	:author (author-FB)
 
 (bastiat[
-,(date-tag[(,(emph[Note extraite des manuscrits de l’auteur.]))])
+,(date-tag[Note extraite des manuscrits de l’auteur,
+,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "de_la_valeur.html#accumulation" [note de bas de page]).])
 ,(p*[L’,(emph[accumulation]) est une circonstance
 de nulle considération en économie politique.
 ][
@@ -21,7 +22,7 @@ la satisfaction est immédiate.
 Si j’avais consacré mon argent à acheter un plat de fraises,
 j’aurais pu renvoyer la satisfaction à demain ;
 voilà tout.
-][
+][,(tag :a :name "alboni_ref")
 On dira sans doute que les fraises sont de la richesse,
 parce que je puis les échanger encore.
 Cela est vrai.
@@ -29,12 +30,12 @@ Tant que l’effort ayant eu lieu la satisfaction n’est pas accomplie,
 la richesse subsiste.
 C’est la satisfaction qui la détruit.
 Quand le plat de fraises sera mangé,
-cette satisfaction ira rejoindre celle que m’a procurée la voix d’Alboni.
+cette satisfaction ira rejoindre celle que m’a procurée la voix d’,(np "alboni" [Alboni]).
 ][
 Service reçu, service rendu : voilà l’économie politique.
 ])])
 (footer[
-	,(harmonies)
+	
 ])
 (with-footer
 (p*[

@@ -2,12 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Le Capital, par Frédéric Bastiat")
 
-(document :title "Le Capital"
+(document :title [Le Capital ,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
+[N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
+,(date-tag[,(cite-title[Almanach républicain]) pour 1849.])
 ,(p*[
-,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
-[N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])
 Qui ne se rappelle le frisson d’épouvante qui fit tressaillir l’Europe stupéfaite, lorsque des voyageurs, revenant de pays lointains, jetèrent à ses oreilles cette nouvelle : « L’Inde a vomi sur le monde le ,(emph[choléra-morbus !]) Il grandit, il s’étend, il s’avance, décimant les populations sur son passage, et notre civilisation ne l’arrêtera pas. »
 ][
 Serait-il vrai que la civilisation à son tour, jalouse de la barbarie, eût enfanté un fléau mille fois plus terrible, un monstre dévorant, un cancer s’attaquant à ce qu’il y a de plus sacré, au ,(emph[travail]), cet aliment de la vie des peuples, un tyran implacable toujours occupé à creuser entre les hommes le gouffre de l’inégalité, à appauvrir le pauvre pour enrichir le riche, à semer sur ses pas la misère, l’exténuation, la faim, l’envie, la rage et l’émeute, à remplir incessamment les bagnes, les prisons, les hospices et les tombeaux, fléau plus funeste dans son action continue et éternelle que le ,(emph[choléra]) et la ,(emph[peste]), le ,(strong[capital]), puisqu’il faut l’appeler par son nom !

@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Discours sur la répression des coalitions industrielles, par Frédéric Bastiat")
+(in-bof :title "La question religieuse, par Frédéric Bastiat")
 
-(document :title "Discours sur la répression des coalitions industrielles"
+(document :title "La question religieuse"
 	:author (author-FB)
 (bastiat[
 ,(p*[
@@ -44,6 +44,6 @@ Je le demande, cet homme pourrait-il être considéré comme un loyal et sincèr
 ])])
 (with-footer (p*[
 Extrait de l’,(EO1863), tome VII,
-,(cite-title[Discours sur la répression des coalitions industrielles]),
+,(cite-title[La question religieuse]),
 pp. 355-357.
 ])))

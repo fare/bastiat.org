@@ -5,11 +5,11 @@
 (document :title "Première lettre au rédacteur du Journal des débats"
 	:author (author-FB)
 (bastiat[
-,(date-tag[,(cite-title[Journal des Débats]) du 2 mai 1846.])
-,(p*[
-,(strong[Monsieur]),
-][
-Me permettrez-vous d’ajouter quelque chose aux judicieuses observations que vous faites, dans votre feuille du 28 avril, au sujet des modifications que l’Angleterre fait subir à ses tarifs ?
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 2 mai 1846.])
+
+,(cher[Monsieur,])
+
+,(p*[Me permettrez-vous d’ajouter quelque chose aux judicieuses observations que vous faites, dans votre feuille du 28 avril, au sujet des modifications que l’Angleterre fait subir à ses tarifs ?
 ][
 Vous envisagez cette réforme au point de vue spécial de l’influence qu’elle pourra exercer sur notre commerce. Vous faites remarquer que nos ventes dans le Royaume-Uni devront nécessairement s’accroître, puisque les droits d’entrée y seront considérablement réduits, quelquefois abolis sur une foule d’articles, tels que céréales, bestiaux, beurre, fromage, eau-de-vie, vinaigre, soieries, tissus de laine et de lin, peaux ouvrées, savons, chapeaux, bottes, horlogerie, carrosserie, ouvrages en métaux, cuivre, bronze, plomb ou étain, papiers de tenture, etc., etc.
 ][
@@ -63,10 +63,9 @@ On me dira sans doute que, d’un autre côté, par cela seul que le navire fran
 ][
 Reste à savoir si cet emploi forcé est plus avantageux que l’autre. Je me garderai bien d’entrer ici dans cette discussion, et je terminerai en faisant observer que le beurre n’a été pris que comme exemple ; ce que j’en ai dit s’applique à l’ensemble de nos transactions.
 ][
-Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un second article.
-][
-Agréez, etc.
-])])
+Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un second article.])
+,(politesse[Agréez, etc.])
+])
 (footer[
 	,(oeuvres)
 	,(art_jd)

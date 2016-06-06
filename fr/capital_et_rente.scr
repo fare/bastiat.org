@@ -5,8 +5,8 @@
 (document :title "Capital et rente"
 	:author (author-FB)
 (bastiat[
-,(subtitle [Introduction
-,(footnote*[Cet opuscule fut publié en février 1849. ,(NdEEO)])])
+,(date-tag[Février 1849.])
+,(h2 [Introduction])
 ,(p*[
 Dans cet écrit,
 j’essaie de pénétrer la nature intime
@@ -174,7 +174,7 @@ et s’est efforcé, de rendre cette vérité accessible à toutes les intellige
 ,(NdEEO)]).
 ])
 ,(hrule)
-,(subtitle [Capital et rente])
+,(h2 [Capital et rente])
 ,(p*[
 J’adresse cet écrit aux ouvriers de Paris,
 particulièrement à ceux qui se sont rangés
@@ -648,7 +648,7 @@ le ,(bof-ref "capital" [chap. VII du tome VI]). ,(NdEEO)]).
 ][
 J’arrive à mes anecdotes.
 ]
-(tag :a :name "sacdeble")(subtitle [Le sac de blé])
+(tag :a :name "sacdeble")(h2 [Le sac de blé])
 [
 Mathurin, d’ailleurs pauvre comme Job,
 et réduit à gagner sa vie au jour le jour,
@@ -746,7 +746,7 @@ C’est une chose merveilleuse que l’homme puisse ainsi
 réaliser un ,(emph[loisir])
 qui ne nuit à personne et ne saurait être jalousé sans injustice.
 ]
-(tag :a :name "maison")(subtitle [La maison])
+(tag :a :name "maison")(h2 [La maison])
 [
 Mondor avait une maison.
 Pour la construire, il n’avait rien extorqué à qui que ce soit.
@@ -783,7 +783,7 @@ La troisième, c’est de rendre à Mondor un service équivalent
 Quant à cette équivalence de services,
 elle devra être librement débattue entre Mondor et Valère.
 ]
-(tag :a :name "rabot")(subtitle [Le rabot])
+(tag :a :name "rabot")(h2 [Le rabot])
 [
 Il y a bien longtemps, bien longtemps
 vivait, dans un pauvre village, un menuisier philosophe,

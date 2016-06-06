@@ -5,11 +5,10 @@
 (document :title "Lettre au Moniteur indutriel"
 	:author (author-FB)
 (bastiat[
-,(date-tag [,(cite-title[Courrier français]) du 29 août 1846.])
-,(p*[
-,(strong[Monsieur]),
-][
-Nous avons toujours dit ceci : « La protection fait supporter au consommateur ,(emph[national]) des pertes hors de toute proportion avec les profits qu’elle procure au producteur ,(emph[national]).
+,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 29 août 1846.])
+
+,(cher[Monsieur,])
+,(p*[Nous avons toujours dit ceci : « La protection fait supporter au consommateur ,(emph[national]) des pertes hors de toute proportion avec les profits qu’elle procure au producteur ,(emph[national]).
 ][
 Dans votre numéro d’hier, vous nous en fournissiez une preuve aussi claire, ce me semble, que la lumière du jour.
 ][

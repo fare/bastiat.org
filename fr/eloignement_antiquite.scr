@@ -5,7 +5,8 @@
 (document :title "Ébauche sur l’Antiquité"
 	:author (author-FB)
 (bastiat[
-,(date-tag[Ébauche inédite un peu antérieure à 1830.])
+,(date-tag[Ébauche inédite un peu antérieure à 1830,
+,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "baccalaureat_et_socialisme.html#eloignement1" [note de bas de page]).])
 ,(p*[L’éloignement ne contribue pas peu
 à donner à des figures antiques un caractère de grandeur.
 Si l’on nous parle du citoyen romain,
@@ -33,8 +34,10 @@ si nous pouvions évoquer le passé,
 nous promener dans les rues de Rome,
 et voir de près les hommes que, de loin, nous admirons de si bonne foi !…])
 
-,(hrule)
+,(nbsp)
 ,(tag :a :name "note2")
+,(date-tag[Ce qui suit fait partie de la même ébauche,
+,(br)et figure dans les ,(cite-title[Œuvres complètes]) dans une autre ,(ref :url "baccalaureat_et_socialisme.html#eloignement2" [note de bas de page]).])
 ,(p*[Lorsque je sacrifie une partie de ma fortune
 à faire construire des murs et un toit,
 qui me préservent des voleurs et de l’intempérie des saisons,
@@ -66,7 +69,7 @@ tombent dans l’exaltation patriotique.
 A plus forte raison les Romains dont l’existence même
 était une guerre permanente.
 Cet orgueil national si exalté,
-joint au courage que donnent les habitudes guerrière,
+joint au courage que donnent les habitudes guerrières,
 au mépris de la mort qu’il inspire,
 à l’amour de la gloire,
 au désir de vivre dans la postérité,
@@ -87,5 +90,6 @@ indignes peut-être du nom de vertu,
 puisqu’elles tournent au détriment de l’humanité.
 
 ])])
+(footer[])
 (with-footer
 (p*[])))

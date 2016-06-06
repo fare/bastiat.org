@@ -2,16 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Discours sur l’impôt des boissons, par Frédéric Bastiat")
 
-(document :title "Discours sur l’impôt des boissons"
+(document :title [Discours sur l’impôt des boissons ,(footnote*[Cette improvisation fut prononcée à l’Assemblée législative
+le 12 décembre 1849. ,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
-,(p*[
-,(strong[Citoyens représentants,])
-,(footnote*[Cette improvisation fut prononcée à l’Assemblée législative
-le 12 décembre 1849. ,(NdEEO)])
-][
-
-Je voulais aborder la question de l’impôt des boissons
+,(date-tag[12 décembre 1849.])
+,(cher[Citoyens représentants,])
+,(p*[Je voulais aborder la question de l’impôt des boissons
 telle qu’elle me paraissait se poser dans toutes vos consciences,
 c’est-à-dire au point de vue de la nécessité financière, et politique.
 Je croyais, en effet, que la nécessité était le seul motif invoqué
