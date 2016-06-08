@@ -8,8 +8,7 @@
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 12 novembre 1849.])
 ,(p :align 'center (strong[
 		F. Bastiat ,(br)
-	Au rédacteur de ,(cite-title[La Voix du Peuple])
-,(footnote*[
+	Au ,(np "cheve" [rédacteur]) de ,(tj "vp" [,(cite-title[La Voix du Peuple])]) ,(footnote*[
 Cette lettre est en réponse
 à une ,(bof-ref "lettre1" [lettre ouverte de F. Chevé à Bastiat])
 parue dans ,(cite-title[La Voix du Peuple]),
@@ -60,7 +59,7 @@ Sa coopération n’est pas rémunérée aux dépens du ,(strong[travail]).
 ,(p*[
 L’ardeur extrême avec laquelle le peuple, en France,
 s’est mis à creuser les problèmes économiques,
-et l’inconcevable indifférence des classes aisées à l’égard de ces problèmes
+et l’inconcevable indifférence des classes aisées à l’égard de ces problèmes,
 forment un des traits les plus caractéristiques de notre époque.
 Pendant que les anciens journaux, organes et miroirs de la bonne société,
 s’en tiennent à la guerroyante et stérile politique de parti,
@@ -74,15 +73,14 @@ Elles ont du moins le mérite de chercher la vérité.
 Tôt ou tard la possession de la vérité sera leur récompense.
 ][
 Puisque vous voulez bien, Monsieur,
-m’ouvrir les colonnes de ,(emph[La Voix du Peuple]),
+m’ouvrir les colonnes de ,(tj "vp" [,(cite-title[La Voix du Peuple])]),
 je poserai devant vos lecteurs,
-et m’efforcerai de résoudre ces deux questions :
+et m’efforcerai de résoudre ces deux questions :])
+,(liste(p*[1° L’intérêt des capitaux est-il légitime ?
 ][
-1° L’intérêt des capitaux est-il légitime ?
-][
-2° Est-il prélevé aux dépens du travail et des travailleurs ?
-][
-Nous différons sur la solution ;
+2° Est-il prélevé aux dépens du travail et des travailleurs ?]))
+
+,(p*[Nous différons sur la solution ;
 mais il est un point sur lequel nous sommes certainement d’accord :
 c’est que l’esprit humain ne peut s’attaquer (sauf les problèmes religieux)
 à des questions plus graves.
@@ -167,10 +165,10 @@ car c’est ce quelque chose que j’appelle ,(strong[intérêt]).
 ][
 Voyons, Monsieur, nous accordons-nous sur ce point de départ ?
 Vous me prêtez, pour toute l’année 1849,
-1000 F en écus,
-,(--) ou un instrument de travail estimé 1000 F
-,(--) ou un approvisionnement valant 1000 F
-,(--) ou une maison valant 1000 F.
+1,000 fr. en écus,
+,(--) ou un instrument de travail estimé 1,000 fr.,
+,(--) ou un approvisionnement valant 1,000 fr.,
+,(--) ou une maison valant 1,000 fr.
 C’est en 1849 que je recueillerai
 tous les avantages que peut procurer cette ,(emph[valeur])
 créée par votre travail et non par le mien.
@@ -187,8 +185,8 @@ Prenez garde, s’il en doit être ainsi,
 je vous avertis que le rôle que je me réserverai toujours,
 dans ces sortes de transactions, sera celui d’emprunteur :
 ce rôle est commode, il est tout profit ;
-il me met à même d’être logé et pourvu toute ma vie aux dépens d’autrui ;
-à la condition toutefois de trouver un préteur,
+il me met à même d’être logé et pourvu toute ma vie aux dépens d’autrui,
+— à la condition toutefois de trouver un préteur,
 ce qui, dans ce système, ne sera pas facile ;
 car qui bâtira des maisons pour les louer ,(emph[gratis])
 et se contenter, de terme en terme, de la pure restitution ?
@@ -202,10 +200,10 @@ ou le simple remboursement à l’échéance.
 Il y a donc, d’après vous comme d’après moi,
 ,(emph[quelque chose]) à stipuler en sus de la restitution.
 Nous pouvons ne pas nous accorder sur la nature et le nom
-	de ce ,(emph[quelque chose]),(pv)
+	de ce ,(emph[quelque chose ;])
 mais ,(emph[quelque chose]) est dû par l’emprunteur.
 Et puisque vous admettez, d’une part, la ,(emph[mutualité des services]),
-puisque, d’autre part, vous avouez que le préteur a rendu ,(emph[service]),
+puisque, d’autre part, vous avouez que le prêteur a rendu ,(emph[service]),
 permettez-moi d’appeler provisoirement
 	,(emph[cette chose]) due par l’emprunteur
 	un ,(emph[service]).
@@ -216,14 +214,13 @@ car voici où nous en sommes :
 ][
 Selon votre théorie, tout aussi bien que selon la mienne,
 entre le prêteur et l’emprunteur,
-cette convention est parfaitement légitime qui stipule :
-][
-1° La restitution intégrale, à l’échéance, de l’objet prêté ;
+cette convention est parfaitement légitime qui stipule :])
+,(liste(p*[1° La restitution intégrale, à l’échéance, de l’objet prêté ;
 ][
 2° Un ,(emph[service]) à rendre par l’emprunteur au prêteur,
-en compensation du service qu’il en a reçu.
-][
-Maintenant, quels seront la nature et le nom
+en compensation du service qu’il en a reçu.]))
+
+,(p*[Maintenant, quels seront la nature et le nom
 	de ce service dû par l’emprunteur ?
 Je n’attache pas à ces questions l’importance scientifique que vous y mettez.
 Elles peuvent être abandonnées aux contractants eux-mêmes,
@@ -240,10 +237,10 @@ L’emprunteur s’acquittera
 	en main-d’,(oe)uvre,
 selon son état.
 Dans la plupart des circonstances,
-et seulement pour plus de commodité, il paiera en argent ;
+et seulement pour plus de commodité, il payera en argent ;
 et comme on ne se procure l’argent qu’avec du travail,
-on pourra dire qu’il paie avec du travail.
-Ce paiement, juste et légitime d’après vous-même,
+on pourra dire qu’il paye avec du travail.
+Ce payement, juste et légitime d’après vous-même,
 pourquoi me défendriez-vous de le baptiser
 	,(emph[loyer]), ,(emph[fermage]), ,(emph[escompte]),
 	,(emph[rente]), ,(emph[prêt]), ,(emph[intérêt]),
@@ -254,7 +251,7 @@ Mais venons-en à l’équivoque qui nous sépare,
 entre l’,(emph[usage]) et la ,(emph[propriété]),
 entre le ,(emph[prêt]) de la chose et une ,(emph[cession]) absolue.
 ][
-Vous dites :
+,(ref :url "lettre1.html#usage" [Vous dites]) :
 Celui qui emprunte une propriété, une valeur,
 étant tenu de la rendre intégralement à l’échéance,
 n’a reçu, au fond, qu’un ,(emph[usage]).
@@ -267,15 +264,15 @@ Pour aller à la racine de l’objection,
 il faudrait remuer tous les fondements de l’économie sociale.
 Vous n’attendez pas de moi un tel travail,
 mais je vous demanderai si, selon vous,
-l’,(emph[usage]) d’une valeur n’a pas lui-même une ,(emph[valeur]) ?
-s’il n’est pas susceptible d’être ,(emph[évalué]) ?
+l’,(emph[usage]) d’une valeur n’a pas lui-même une ,(emph[valeur ?])
+s’il n’est pas susceptible d’être ,(emph[évalué ?])
 D’après quelle règle, sur quel principe,
 empêcherez-vous deux contractants de comparer un ,(emph[usage])
 	à une somme d’argent,
 	à une quantité de main-d’,(oe)uvre,
 et d’échanger sur ces bases, si cela les arrange ?
 ][
-Vous me prêtez une maison de 20000 F ;
+Vous me prêtez une maison de 20,000 fr. ;
 par là vous me rendez un ,(emph[service]).
 Entendez-vous dire que, malgré mon consentement et le vôtre,
 je ne puis m’acquitter, au nom de la science,
@@ -343,13 +340,12 @@ selon la convenance des contractants,
 sous une des formes quelconques que peut affecter la valeur.
 ][
 La conséquence qui s’ensuit, c’est que, à l’échéance,
-le prêteur doit recouvrer :
+le prêteur doit recouvrer :])
+,(liste(p*[1° La valeur intégrale prêtée ;
 ][
-1° La valeur intégrale prêtée ;
-][
-2° La valeur du service rendu par le prêt.
-][
-Je n’ai pas besoin de répéter ici
+2° La valeur du service rendu par le prêt.]))
+
+,(p*[Je n’ai pas besoin de répéter ici
 comment la restitution intégrale de l’objet prêté
 implique nécessairement la pérennité de l’intérêt.
 ][
@@ -374,7 +370,7 @@ il faut bien que nous le subissions ;
 mais c’est un grand malheur,
 car sans cela nous obtiendrions toutes choses à meilleur marché.
 ][
-Ce grief est complètement erroné ;
+Ce grief est complétement erroné ;
 ce qui fait que les jouissances humaines
 se rapprochent de plus en plus
 	de la ,(emph[gratuité]) et de la ,(emph[communauté]),
@@ -416,7 +412,7 @@ il n’y a pas un ouvrier si malheureux
 qu’il ne puisse obtenir une paire de bas de coton
 avec son travail d’une journée ?
 ,(--) C’est justement parce que du capital concourt à la création de ce produit.
-Le gente humain a inventé des instruments
+Le genre humain a inventé des instruments
 qui forcent la nature à une collaboration ,(emph[gratuite]).
 ][
 Il est bien vrai qu’en décomposant le prix de cette paire de bas,
@@ -446,7 +442,7 @@ scrutez-la jusque dans la racine.
 Demandez-lui ce qu’elle contient,
 et vous vous assurez qu’elle ne porte en elle
 que des erreurs et des tempêtes.
-Vous invoquez mon apologue du Rabot,
+,(ref :url "lettre1.html#rabot" [Vous invoquez]) mon apologue du Rabot,
 permettez-moi d’y revenir.
 ][
 Voilà un homme qui veut faire des planches.
@@ -464,8 +460,8 @@ grâce à une scie et à un rabot que j’ai fabriqués à la sueur de mon front
 une production centuple est, pour ainsi dire, sortie du néant,
 la société entre en possession d’une jouissance centuple,
 un ouvrier qui ne pouvait pas faire une planche en a fait cent ;
-et parce qu’il me cède librement et volontairement,
-un vingtième de cet ,(emph[excédent]),
+et parce qu’il me cède, librement et volontairement,
+un vingtième de cet ,(emph[excédant]),
 vous me représentez comme un tyran et un voleur !
 L’ouvrier verra fructifier son travail,
 l’humanité verra s’élargir le cercle de ses jouissances ;

@@ -11,8 +11,8 @@
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
 	  :css "bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
-	  '())
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
+      '())
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
@@ -21,7 +21,7 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
 	  '())
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -31,7 +31,7 @@
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
 	  '())
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
@@ -241,6 +241,7 @@
 (defun sign (&rest r) (p :class "sign" r))
 (defun date (&rest r) (div :class "date" r))
 (define (FredB) [,(sc[Frédéric]) BASTIAT])
+(defun sidenote (&rest r) (div :class "sidenote" r))
 
 ;pour les listes de paragraphes courts
 (defun liste (&rest r) (div :class "liste" r))
@@ -250,6 +251,19 @@
 
 (define (retrait) [      ])
 (defun discours (&rest r) (div :class "discours" r))
+
+
+(defun snote
+    (contenu titre) 
+    (%raw
+      (strcat "<span class='explain' data-title='Title' data-explain='"
+      contenu
+      "'>"
+      titre
+      "</span>"))
+)
+
+(defun sidecontent (&rest r) (div :id "sidecontent" r))
 
 ;;; FOOTER
 
@@ -423,7 +437,17 @@
     $('.header').toggleClass('tiny', $(document).scrollTop() > 75);
 });</script>"
 ))
+
 (define (header-url) (a :href "http://bastiat.org/" :class "url_bo" [http://bastiat.org/]))
 (defun header (&rest r) (div :class "header" [,(titre(titre-courant))
   ,(header-url)
   ,(script_header)] r))
+
+(define (script_notes) 
+  (%raw "<script type='text/javascript'>  $().ready(function() {
+    // target the specific area, if not it creates lagg try to be specific
+    $(document).explainys({
+      // options
+      textFail: 'Write your own failtext'
+    });
+  });</script>"))

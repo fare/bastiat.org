@@ -12,12 +12,12 @@ Textes
 
 Infrastructure
 --------------
+  
+  /!\ PRIORITAIRE /!\ VACHEMENT IMPORTANT /!\ ET TOUT ET TOUT : * Mettre chaque note de bas de page dans une div class="footnote".
 
   * Fix exscribe, so it's obvious where the error is.
 
   * Réparer liens vers Gallica.
-
-  * Mettre les notes de bas de page dans une div, pour pouvoir au moins les styler un peu en attendant de les mettre en marge...
 
   * Comprendre pourquoi Exscribe se met aléatoirement à faire des listes de "COMPILING DEFPARAMETER machin" pour chaque fichier compilé, et puis s'arrête quand je déplace les defparameters dans un autre fichier, et puis recommence sur un coup de tête.
 

@@ -32,7 +32,6 @@
   (div :class "lettre" [
     ,(tag :a :name x)
     ,(subtitle x)
-    ,(hrule)
   ] r (hrule))
 )
 
@@ -137,13 +136,15 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "esprit" "L’Esprit public" [
 ,(p*[Citation : ,(ref :url "conte_chinois.html#esprit_ref" [Conte chinois])])
+])
+
 ]),(lettre "F" [
 
 ,(journal "fraternite" "Fraternité" [
 ,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
 ])
 
-])]),(lettre "G"[
+]),(lettre "G"[
 
 ,(journal "gt" "Globe and Traveller" [
 ,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
@@ -284,7 +285,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "arsenal.html#presse_ref" [Le petit arsenal du libre-échangiste]) ;
 ,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#presse_ref" [Guerre aux chaires d’économie politique])
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#presse_ref" [Guerre aux chaires d’économie politique]) ;
+,(ref :url "paix_et_liberte.html#presse_ref" [Paix et liberté (note)]) ;
 ])])
 
 ,(journal "punch" "The Punch" [

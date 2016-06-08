@@ -7,7 +7,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 17 décembre 1849.])
 ,(p :align 'center (strong[
-	P. J. Proudhon à F. Bastiat.]))
+	,(np "proudhon" [P. J. Proudhon]) à F. Bastiat.]))
 ,(p*(font :size "-1" (strong[
 Reproches.
 ,(--) Les commissionnaires de roulage et les chemins de fer.
@@ -37,13 +37,13 @@ Vous l’avez voulu : que votre désir soit accompli !
 ][
 Permettez-moi d’abord de résumer notre controverse.
 ][
-Dans une première lettre,
+Dans une ,(ref :url "lettre2.html" [première lettre]),
 vous avez essayé de montrer,
 par la théorie et par de nombreux exemples,
 que le ,(emph[prêt]) était un ,(emph[service]),
 et que, tout service ayant une ,(emph[valeur]),
-il avait le droit de se faire ,(emph[payer]) :
-d’où vous déduisez immédiatement,
+il avait le droit de se faire ,(emph[payer ;])
+d’où vous déduisiez immédiatement,
 contre moi,
 cette conclusion,
 que la gratuité du crédit était une chimère,
@@ -51,7 +51,7 @@ partant,
 le socialisme une protestation sans principes comme sans motifs.
 ][
 Ainsi peu importe de savoir
-si c’est vous qui avez sollicité l’entrée de la ,(cite-title[Voix du Peuple]),
+si c’est vous qui avez sollicité l’entrée de la ,(tj "vp" [,(cite-title[Voix du Peuple])]),
 ou si c’est moi qui vous ai offert la publicité de ses colonnes :
 en fait, et chacune de vos lettres en témoigne,
 vous n’avez eu d’autre but que de renverser,
@@ -59,8 +59,8 @@ par une fin de non-recevoir,
 la théorie du crédit gratuit.
 ][
 Je vous ai donc répondu,
-et j’ai du vous répondre,
-sans entrer dans l’examen de votre théorie de l’intérêt ;
+et j’ai dû vous répondre,
+sans entrer dans l’examen de votre théorie de l’intérêt,
 que si vous vouliez combattre utilement et sérieusement le socialisme,
 il fallait l’attaquer en lui-même et dans ses propres doctrines ;
 que le socialisme,
@@ -77,28 +77,25 @@ J’ai dit, enfin,
 que c’était là ce que vous aviez à examiner,
 si vous vouliez que la discussion aboutît.
 ][
-Dans votre seconde lettre,
+Dans votre ,(ref :url "lettre4.html" [seconde lettre]),
 vous avez péremptoirement refusé de suivre cette marche,
 alléguant que pour vous,
 et d’après mon aveu,
 l’intérêt ne constituant dans son principe ni crime, ni délit,
 il était impossible d’admettre que le prêt pût
-,(XXX [accent circonflexe à l’origine])
 s’effectuer sans intérêt ;
 qu’il était inconcevable qu’une chose pût
-,(XXX [accent circonflexe à l’origine])
 être vraie et fausse tout à la fois ;
 bref, que tant que la criminalité de l’intérêt ne vous serait pas démontrée,
 vous tiendriez la théorie du crédit gratuit comme non avenue.
-Tout cela assaisonnée de force plaisanteries sur la loi de contradiction,
+Tout cela assaisonné de force plaisanteries sur la loi de contradiction,
 que vous ne comprenez point,
 et flanqué d’exemples très-propres,
-,(XXX [trait d’union à l’origine])
 je l’avoue,
 à faire comprendre le mécanisme de l’intérêt,
 mais qui ne prouvent absolument rien contre la gratuité.
 ][
-Dans ma réplique,
+Dans ,(ref :url "lettre5.html#monarchie" [ma réplique]),
 je crois vous avoir prouvé,
 en me servant de votre propre méthode,
 que rien n’est moins rare,
@@ -208,7 +205,7 @@ A cette interrogation de ma part :
 possible, facile, pratique,
 n’est-ce pas prouver que l’intérêt du crédit
 est désormais chose nuisible et illégitime ?])])
-,(--) vous répondez,
+,(--) ,(ref :url "lettre6.html#prouver" [vous répondez]),
 en retournant la phrase :
 ,(q[Prouver que l’intérêt est (ou a été)
 légitime, juste, utile, bienfaisant, indestructible,
@@ -226,14 +223,14 @@ Est-ce qu’en transportant vos personnes et vos produits,
 nous ne vous rendons pas un service ?
 Est-ce que ce service n’est pas une valeur ?
 Est-ce que toute valeur ne doit pas être payée ?
-Est-ce qu’en faisant le transport à 25 c. par tonne et kilomètre,
-tandis que la locomotive le fait, il est vrai, à 10 c.,
+Est-ce qu’en faisant le transport à 25 c. par tonne et kilomètre,
+tandis que la locomotive le fait, il est vrai, à 10 c.,
 nous sommes des voleurs ?
 Est-ce que le commerce ne s’est pas développé
 perpétuellement et universellement par le roulage,
 la bête de somme,
 la navigation à voiles ou à rames ?
-Que nous impotent donc et la valeur,
+Que nous importent donc et la valeur,
 et la pression atmosphérique,
 et l’électricité ?
 Prouver la réalité et la légitimité de la voiture à quatre roues,
@@ -259,7 +256,7 @@ de briser là et de vous tourner le dos.
 ][
 Je ne le ferai point : je veux vous donner satisfaction jusqu’à la fin,
 en vous montrant comment,
-pour me servir de vos paroles,
+pour me servir de ,(ref :url "lettre6.html#passe" [vos paroles]),
 la ,(emph[rémunération du capital passe de la légitimé à l’illégitimité]),
 et comment la gratuité du crédit
 est la conclusion finale de la pratique de l’intérêt.
@@ -440,7 +437,7 @@ de ,(strong[prix]).
 La même analogie,
 la même identité,
 que l’économie politique a signalée de tout temps et avec raison,
-entre l’intérêt de l’agent et la rente de la terre,
+entre l’intérêt de l’argent et la rente de la terre,
 existe,
 au début des relations commerciales,
 entre ce même intérêt et le bénéfice du commerce :
@@ -522,7 +519,7 @@ comme dit l’hébreu ?
 L’usure,
 disent les vieux rabbins,
 est appelée serpent,
-,(emph[nescheck]),
+,(emph[neschek]),
 parce que le créancier ,(strong[mord]) le débiteur,
 lorsqu’il lui réclame plus qu’il ne lui a donné.
 Et c’est cet instrument de police,
@@ -535,7 +532,7 @@ pour méconnaître à ce point l’esprit et le but
 de cette invention vraiment diabolique du génie mercantile.
 ][
 Suivons maintenant le progrès de l’institution,
-car nous touchons au moment où le ,(emph[nescheck]),
+car nous touchons au moment où le ,(emph[neschek]),
 le ,(inlatin[tokos]),
 le ,(inlatin[f,(oe)nus]), ,(XXX)
 l’,(emph[usure]),
@@ -550,7 +547,7 @@ de déterminer les causes qui doivent en amener l’abolition.
 ][
 Nous venons de voir que ce fut chez les peuples navigateurs,
 faisant pour les autres le courtage et l’entrepôt,
-et opérant surtout sur les marchandises précieuse et les métaux,
+et opérant surtout sur les marchandises précieuses et les métaux,
 que se développa d’abord la spéculation mercantile ;
 et du même coup la spéculation de l’,(inlatin[interesse]),
 ou contrat à la grosse.
@@ -570,7 +567,7 @@ du ,(inlatin[f,(oe)nus]), ,(XXX)
 aggravation progressive du capital,
 donnait le moyen ;
 la prépondérance acquise par l’or et l’argent sur les autres marchandises,
-le privilège qu’ils reçurent,
+le privilége qu’ils reçurent,
 du consentement universel,
 de représenter la richesse
 et de servir d’évaluateur commun à tous les produits,
@@ -603,7 +600,7 @@ il était réservé à notre siècle de lui fournir des docteurs et des avocats.
 Tant que,
 se confondant avec la prime de l’assurance
 ou la part de bénéfice du contrat à la grosse,
-l’user s’était renfermée dans la spéculation maritime,
+l’usure s’était renfermée dans la spéculation maritime,
 et n’avait eu d’action que sur l’étranger,
 elle avait paru inoffensive aux législateurs.
 Ce n’est que lorsqu’elle commença de s’exercer
