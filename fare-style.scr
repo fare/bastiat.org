@@ -316,7 +316,7 @@
   #f)
 (define-markup (with-header (:title #f) (:lang #f) (:icon #f) (:css #f) (:script #f)
         (:textcolor #f) (:bgcolor #f) (:linkcolor #f)
-	(:charset *default-charset*) . head)
+	(:charset *default-charset*) . header)
   (use-lang lang)
   (set! *scribe-header*
         (format-selector
@@ -329,10 +329,14 @@
                                   (make-string1 "text/html; charset=" charset)) lf
                       (if icon (xtag :link :rel "shortcut icon" :type "image/x-icon"
 				     :href icon)) lf
-                      (if css (xtag :link :rel "stylesheet" :type "text/css"
-				     :href css)) lf
-                      (if script (tag :script :src script)) lf
-		      (*list* head)
+		      (if css
+			  (loop :for ss :in (ensure-list css) :collect
+				(list (xtag :link :rel "stylesheet" :type "text/css"
+					    :href css) lf)))
+                      (if script
+			  (loop :for s :in (ensure-list script) :collect
+				(list (tag :script :src script) lf)))
+		      (*list* header)
 		      (if title (title* title)) lf)
                 (apply* otag :body
                         (append (if bgcolor (list :bgcolor bgcolor) '())
