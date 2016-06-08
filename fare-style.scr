@@ -443,3 +443,5 @@
     (div :style "font-style: italic;" body)
     (when author
        (div :style "text-align: right;" "— " author))))
+
+(defparameter *footnote-style* (lambda (x) (div :class "footnote" x)))
