@@ -11,7 +11,7 @@
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
 	  :css "bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
       '())
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -21,7 +21,7 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
 	  '())
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -31,7 +31,7 @@
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/"
+    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
 	  '())
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
@@ -209,6 +209,128 @@
 
 
 
+
+;;; Les super fonctions relatives à bastiat-db
+
+(defun filter-bastiat-db (fun)
+  (remove-if-not
+   (lambda (x)
+     (handler-case
+   (apply fun x)
+       (error (c)
+   (error "Error while filtering bastiat-db entry: ~S.~%Entry: ~S~%"
+    c x))))
+   bastiat-db))
+
+(defmacro filtering-bastiat-db (&body body)
+  `(filter-bastiat-db
+    (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date id)) ,@body)))
+
+(defun getf-many (key plist)
+  "given a PLIST, extract all the entries starting with the KEY, not just the first one"
+  (loop :for (k v) :on plist :by #'cddr :when (eq k key) :collect v))
+
+(defun text-id (x) (first x))
+(defun text-date (x) (getf (rest x) :date))
+(defun text-livre (x) (getf (rest x) :livre))
+(defun text-titre (x) (getf (rest x) :titre))
+(defun text-chapter (x) (getf (text-livre x) :ch))
+(defun text-journaux (x) (getf-many (rest x) :journal))
+(defun journal-titre (j) (getf j :titre))
+(defun text-journal (x &optional journal)
+  (if journal
+      (find journal (text-journaux x) :key #'journal-titre)
+      (getf (rest x) :journal)))
+(defun text-journal-titre (x &optional journal) (getf (text-journal x journal) :titre))
+(defun text-journal-date (x &optional journal) (getf (text-journal x journal) :date))
+(defun text-lettre (x) (getf (rest x) :lettre))
+(defun text-lettre-a (x) (getf (text-lettre x) :a))
+
+(defun text-journal-date-fun (journal)
+  (lambda (x) (getf (text-journal x journal) :date)))
+
+(defun precedent (item list &key (test 'string-equal) (key 'first))
+  (loop :for precedent = nil :then courant :for courant :in list
+    :when (funcall test item (funcall key courant))
+    :return precedent))
+
+(defun suivant (item list &key (test 'string-equal) (key 'first))
+  (loop :for (courant suivant) :on list
+    :when (funcall test item (funcall key courant))
+    :return suivant))
+
+(defun precedent-texte (list)
+  (string-downcase (text-id (precedent (pathname-name (current-lisp-file-pathname)) list))))
+
+(defun suivant-texte (list)
+  (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
+
+;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
+;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
+;(sort ma-liste 'string< :key 'text-date)
+;(sort ma-liste '< :key 'text-chapter)
+;(uiop:current-lisp-file-pathname)
+
+
+;titre du document courant
+(define (titre-courant)
+(text-titre (first (filtering-bastiat-db (equal (pathname-name (current-lisp-file-pathname)) (string-downcase id)))))
+)
+
+
+; Définition des sous-listes
+
+(defparameter serie_chronologique
+ (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date))
+
+(defparameter correspondance
+ (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date))
+(defparameter lettres_a_arrivabene
+ (sort (filtering-bastiat-db (member 'arrivabene lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_calmetes
+ (sort (filtering-bastiat-db (member 'calmetes lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_cheuvreux
+ (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date))
+(defparameter lettres_a_cobden
+ (sort (filtering-bastiat-db (member 'cobden lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_coudroy
+ (sort (filtering-bastiat-db (member 'coudroy lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_domenger
+ (sort (filtering-bastiat-db (member 'domenger lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_paillottet
+ (sort (filtering-bastiat-db (member 'paillottet lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_say
+ (sort (filtering-bastiat-db (member 'say_h lettre)) 'string< :key 'text-date))
+(defparameter lettres_a_schwabe
+ (sort (filtering-bastiat-db (or (member 'mmeschwabe lettre) (member 'mschwabe lettre))) 'string< :key 'text-date))
+
+(defparameter articles
+ (sort (filtering-bastiat-db (not (null journal))) 'string< :key 'text-date))
+(defparameter articles_le
+ (sort (filtering-bastiat-db (member 'le journal)) 'string< :key 'text-journal-date))
+(defparameter articles_jde
+ (sort (filtering-bastiat-db (member 'jde journal)) 'string< :key 'text-journal-date))
+(defparameter articles_mb
+ (sort (filtering-bastiat-db (member 'mb journal)) 'string< :key 'text-journal-date))
+(defparameter articles_cf
+ (sort (filtering-bastiat-db (member 'cf journal)) 'string< :key 'text-journal-date))
+(defparameter articles_rf
+ (sort (filtering-bastiat-db (member 'rf journal)) 'string< :key 'text-journal-date))
+(defparameter articles_jb
+ (sort (filtering-bastiat-db (member 'jb journal)) 'string< :key 'text-journal-date))
+(defparameter articles_jd
+ (sort (filtering-bastiat-db (member 'jd journal)) 'string< :key 'text-journal-date))
+(defparameter articles_sp
+ (sort (filtering-bastiat-db (member 'sp journal)) 'string< :key 'text-journal-date))
+
+(defparameter harmonies_eco
+ (sort (filtering-bastiat-db (member 'harmonies livre)) '< :key 'text-chapter))
+(defparameter credit
+ (sort (filtering-bastiat-db (member 'gratuite_du_credit livre)) '< :key 'text-chapter))
+(defparameter cobdenligue
+ (sort (filtering-bastiat-db (member 'cobden_ligue livre)) '< :key 'text-chapter))
+(defparameter propriete_spoliation
+ (sort (filtering-bastiat-db (member 'prospo livre)) '< :key 'text-chapter))
 
 
 
@@ -443,11 +565,45 @@
   ,(header-url)
   ,(script_header)] r))
 
-(define (script_notes) 
-  (%raw "<script type='text/javascript'>  $().ready(function() {
-    // target the specific area, if not it creates lagg try to be specific
-    $(document).explainys({
-      // options
-      textFail: 'Write your own failtext'
-    });
-  });</script>"))
+;;; Footnotes
+
+;Fonction copiée-collée qui ne marche pas
+
+;(define (script_resize)
+;  (%raw "<script>(function($) {
+    ;var $window = $(window),
+        ;$footnote = $('.footnote');
+
+    ;function resize() {
+        ;if ($window.width() > 1000) {
+            ;return $footnote.addClass('sidenote');
+        ;}
+
+        ;$footnote.removeClass('sidenote');
+    ;}
+
+    ;$window
+        ;.resize(resize)
+        ;.trigger('resize');
+;})(jQuery);</script>"))
+
+;;Fonction faite maison qui donne à chaque élément sidenote la hauteur du footnoteref correspondant.
+
+; à régler: la hauteur est bonne pour les premières notes, mais se décale de plus en plus quand on descend dans le document
+; ensuite il faudra faire en sorte d'éviter les chevauchements
+; recalculer la hauteur à chaque resize
+; enfin il faudra faire un toggleClass sidenote sur les footnotes, pour les écrans au-dessus d'une certaine largeur (et changer à chaque resize)
+; et rendre invisible le <h4>Notes</h4> et le (hrule) lorsque les notes sont en marge
+
+(define (script_sidenotes) (%raw "<script>
+$(document).ready(function() {
+for (var i=0; i<$('.sidenote').length; i++) {
+  var note = $('.sidenote').eq(i);
+  var number = (i + 1).toString();
+  var refname = 'a[name=footnoteref' + number + ']';
+  var ref = $(refname);
+  var y = ref.offset().top;
+  note.css({top: y});
+};
+});
+</script>"))

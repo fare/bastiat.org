@@ -13,8 +13,6 @@ Textes
 Infrastructure
 --------------
   
-  /!\ PRIORITAIRE /!\ VACHEMENT IMPORTANT /!\ ET TOUT ET TOUT : * Mettre chaque note de bas de page dans une div class="footnote".
-
   * Fix exscribe, so it's obvious where the error is.
 
   * Réparer liens vers Gallica.
@@ -35,7 +33,7 @@ Trucs de Laura que Faré a le droit de regarder
     3) liens vers accès par thèmes / par ordre chrono
     4) lien vers sources: principalement sommaire Guillaumin (et Lettres d'un habitant des Landes) + page dédiée aux œuvres ni dans Guillaumin ni dans LHL
 
-  * Responsive design. (par ex, Menu de gauche avec intro + plan: sur les petits écrans, doit être caché à gauche et s'afficher en glissant à droite quand on clique dessus (?); les notes, en marge droite sur les grands écrans, pourraient être invisibles sur les  petits écrans et s'afficher par clic sur l'appel de note, sous forme de mini-fenêtre fermable, par-dessus le texte. etc.)
+  * Responsive design. (par ex, Menu de gauche avec intro + plan: sur les petits écrans, s'affichera au-dessus du text (éventuellement abrégé, avec un clic pour afficher tout); les notes seront marginales sur les grands écrans et en bas de page sur les petits (work in progress).)
  
 
 Trucs de Laura, par Laura et pour Laura

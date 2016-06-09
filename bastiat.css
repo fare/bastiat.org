@@ -148,6 +148,31 @@ sup {line-height: 0;}
 	}
 }
 
+/*Stylage des footnotes*/
+
+h4 {
+	
+	font-family: 'paratexte';
+	text-align:center;
+}
+
+.footnote {
+	padding: 0.5em 2em;
+	font-family: 'bastiat';
+}
+
+.sidenote {
+	position: absolute;
+	width : 15%;
+	right: 0;
+}
+
+@media only screen and (max-width: 25cm) {
+	.footnote {
+		
+	}
+}
+
 .bastiat {
 	font-family: 'bastiat', serif;
 }
