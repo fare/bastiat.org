@@ -6,39 +6,38 @@
 	:author (author-FB)
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 2 janvier 1848.])
-,(p*[
-La ,(cite-title[Presse])
+,(p*[,(tag :a :name "presse_ref")
+La ,(tj "presse" [,(cite-title[Presse])])
 analyse les documents statistiques émanés du ,(emph[Board of trade])
-et constate ces trois faits :
-][
-1° Récolte très-abondante de blé ;
+et constate ces trois faits :])
+,(liste(p*[1° Récolte très-abondante de blé ;
 ][
 2° Importation de viande et de blé toujours croissante
 et plus considérable aujourd’hui ,(emph[que pendant la disette même]) ;
 ][
-3° Affluence des métaux précieux.
-][
+3° Affluence des métaux précieux.]))
+
 À ces trois faits, nous en ajouterons deux autres non moins certains :
-][
-4° Le prix du blé n’est pas avili au point de faire supposer
+
+,(liste(p*[4° Le prix du blé n’est pas avili au point de faire supposer
 qu’on refuse de l’acheter ;
 ][
 5° Les fermiers sont de toutes les classes laborieuses
-celle qui se plaint le moins.
-][
-Maintenant, des deux premiers faits,
+celle qui se plaint le moins.]))
+
+,(p*[Maintenant, des deux premiers faits,
 il nous semble impossible de ne pas tirer cette conclusion,
 que le peuple d’Angleterre est mieux nourri qu’il ne l’était autrefois.
 ][
 Si la récolte a été abondante,
 s’il arrive du dehors des avalanches de blé,
 et si cependant tout se vend comme l’indique la fermeté des prix,
-la ,(cite-title[Presse]) peut en être contrariée,
+la ,(tj "presse" [,(cite-title[Presse])]) peut en être contrariée,
 mais enfin elle ne peut se refuser à reconnaître
 ,(emph[qu’on mange en Angleterre plus de pain que jamais.
-(V. le n° 20.)]) ,(XXX :bof-ref "monde_renverse")
+(V. le n° 20.)])
 ][
-Et ceci nous montre que le peuple anglais a du bien souffrir
+Et ceci nous montre que le peuple anglais a dû bien souffrir
 avant la réforme des tarifs,
 et qu’il n’avait pas si tort de se plaindre,
 puisque, quand les récoltes étaient moins abondantes,
@@ -51,7 +50,7 @@ celui-ci est du moins certain :
 ,(strong[le peuple est mieux nourri]) ;
 et c’est quelque chose.
 ][
-Protectionnistes, démocrates, socialistes,
+Protectionistes, démocrates, socialistes,
 généreux patrons des classes souffrantes,
 vous qui vous remplissez sans cesse la bouche des mots
 ,(emph[philanthropie, générosité, abnégation, dévouement ;])
@@ -68,7 +67,7 @@ ce n’est pas de la poche des pauvres qu’il sort,
 et si la consommation du blé dépasse tout ce qu’on aurait pu prévoir,
 ce n’est pas dans l’estomac du riche qu’il s’engloutit.
 ][
-Mais, quoi ! il n’est pas même vrai que le numéraire, s’exporte.
+Mais, quoi ! il n’est pas même vrai que le numéraire s’exporte.
 Vous constatez vous-mêmes qu’il rentre à pleins chargements.
 ][
 ,(emph[Moralité.])
