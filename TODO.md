@@ -25,6 +25,8 @@ Textes
 Infrastructure
 --------------
   
+  * Vu que j'utilise de plus en plus de javascript, rajouter peut-être un message d'alerte pour les navigateurs qui bloquent le javascript, ou prévoir une alternative.
+
   * Fix exscribe, so it's obvious where the error is.
 
   * Réparer liens vers Gallica.
