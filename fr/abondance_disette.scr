@@ -372,12 +372,12 @@ ce serait prendre pour base l’intérêt général.])
 
 ,(p*[Qu’il me soit permis d’insister encore sur ce point de vue,
 au risque de me répéter.
-][
+][,(tag :a :name "antagonisme")
 Un antagonisme radical existe entre le vendeur et l’acheteur
 ,(footnote*[
 L’auteur a rectifié les termes de cette proposition dans un ouvrage postérieur.
-Voir ,(Har-ref[Harmonies économiques]), 
-,(bof-ref "producteur_consommateur" [chap. XI]).
+Voir ,(cite-title[Harmonies économiques]), 
+,(ref :url "producteur_consommateur.html#antagonisme" [chap. ,(sc[xi])]).
 ,(NdEEO)
 ]).
 ])
@@ -399,7 +399,7 @@ pour la cherté contre le bon marché
 	exprime cette idée par cette périphrase :
 	marché avantageux, ,(emph[bon marché]).
 	Les prohibitionnistes devraient bien réformer cette locution.
-	Elle implique tout un système économique opposé au leur.]),
+	Elle implique tout un système économique opposé au leur. ,(NdA)]),
 pour la disette contre l’abondance.
 ][
 Elles agissent sinon intentionnellement,
@@ -477,16 +477,15 @@ Vous êtes funestes ou inefficaces. Vous ne pouvez être utiles
 ,(footnote*[
 L’auteur a traité ce sujet avec plus d’étendue dans le
 ,(bof-ref "producteur_consommateur" [,(XIe) chapitre])
-des ,(Har-ref[Harmonies économiques]),
+des ,(cite-title[Harmonies économiques]),
 puis, sous une autre forme,
 dans l’article ,(bof-ref "abondance" (cite-title[Abondance])),
-écrit pour le ,(cite-title[Dictionnaire de l’économie politique]),
-et que nous reproduisons à la fin du ,(5e) volume.
+écrit pour le ,(cite-title[Dictionnaire de l’économie politique]).
 ,(NdEEO)
 ]).
 ])
 ])
-
+(tous_les_scripts)
 (footer[
 	,(oeuvres)
 	,(art_jde)

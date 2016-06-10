@@ -340,6 +340,44 @@
 (define (NdL)
   (it [(Note de Laura LC.)]))
 
+
+;;; Footnotes
+
+(define (script_sidenotes) (%raw "<script>
+var overlap = function(a, b) {
+  return (a.offset().top < b.offset().top + b.height() + 20)
+};
+
+var sidenotes = function() {
+  if ( $(window).width() > 1000) {
+for (var i=0; i<$('.footnote').length; i++) {
+  var note = $('.footnote').eq(i);
+  var number = (i + 1).toString();
+  var refname = 'a[name=footnoteref' + number + ']';
+  var ref = $(refname);
+  var y = ref.offset().top;
+  note.offset({top: y});
+  if (note.offset().top < 200) {note.offset({top: 200});};
+  if (lastnote) {
+      if (overlap(note, lastnote)) 
+          {note.offset({top: lastnote.offset().top + lastnote.height() + 20});
+          };
+      };
+  var lastnote = note;
+
+}; }; };
+
+$(document).ready(function() {
+sidenotes();
+window.onresize = function() {
+    sidenotes();
+};
+});
+</script>"))
+
+
+
+
 ;;Mise en forme des liens
 
 ; Liens vers l'index des noms de personnes
@@ -565,45 +603,6 @@
   ,(header-url)
   ,(script_header)] r))
 
-;;; Footnotes
-
-;Fonction copiée-collée qui ne marche pas
-
-;(define (script_resize)
-;  (%raw "<script>(function($) {
-    ;var $window = $(window),
-        ;$footnote = $('.footnote');
-
-    ;function resize() {
-        ;if ($window.width() > 1000) {
-            ;return $footnote.addClass('sidenote');
-        ;}
-
-        ;$footnote.removeClass('sidenote');
-    ;}
-
-    ;$window
-        ;.resize(resize)
-        ;.trigger('resize');
-;})(jQuery);</script>"))
-
-;;Fonction faite maison qui donne à chaque élément sidenote la hauteur du footnoteref correspondant.
-
-; à régler: la hauteur est bonne pour les premières notes, mais se décale de plus en plus quand on descend dans le document
-; ensuite il faudra faire en sorte d'éviter les chevauchements
-; recalculer la hauteur à chaque resize
-; enfin il faudra faire un toggleClass sidenote sur les footnotes, pour les écrans au-dessus d'une certaine largeur (et changer à chaque resize)
-; et rendre invisible le <h4>Notes</h4> et le (hrule) lorsque les notes sont en marge
-
-(define (script_sidenotes) (%raw "<script>
-$(document).ready(function() {
-for (var i=0; i<$('.sidenote').length; i++) {
-  var note = $('.sidenote').eq(i);
-  var number = (i + 1).toString();
-  var refname = 'a[name=footnoteref' + number + ']';
-  var ref = $(refname);
-  var y = ref.offset().top;
-  note.css({top: y});
-};
-});
-</script>"))
+(define (tous_les_scripts)
+[,(script_sidenotes)]
+)

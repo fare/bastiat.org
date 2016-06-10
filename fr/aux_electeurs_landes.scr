@@ -2,12 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Aux électeurs du département des Landes
 	- par Frédéric Bastiat")
-(document :title "Aux électeurs du département des Landes"
+(document :title [Aux électeurs du département des Landes ,(footnote*[
+Pour appuyer la candidature de ,(np "faurie" [M. Faurie]).
+,(NdEEO)])]
 	:author (author-FB)
 (bastiat[
-,(date-tag[Novembre 1830 ,(footnote*[
-Pour appuyer la candidature de M. Faurie.
-,(NdEEO)]).])
+,(date-tag[Novembre 1830.])
 ,(p*[
 Un peuple n’est pas libre par cela seul qu’il possède des institutions libérales ; il faut encore qu’il sache les mettre en œuvre, et la même législation qui a fait sortir de l’urne électorale des noms tels que ceux de ,(np "lafayette" [Lafayette]) et de ,(np "chantelauze" [Chantelauze]), de ,(np "destutt" [Tracy]) et de ,(np "dudon" [Dudon]), peut, selon les lumières des électeurs, devenir le palladium des libertés publiques ou l’instrument de la plus solide de toutes les oppressions, celle qui s’exerce sur une nation par la nation elle-même.
 ][
@@ -134,6 +134,7 @@ Sans doute ; et c’est pour cela qu’il importe d’être scrupuleux dans nos
 ][
 Électeurs, Paris nous donne la liberté avec son sang, détruirons-nous son ouvrage avec nos votes ? Allons aux élections uniquement pour le bien général. Fermons l’oreille à toute promesse fallacieuse, fermons nos cœurs à toutes affections personnelles, même à la reconnaissance. Faisons sortir de l’urne le nom d’un homme sage, éclairé, indépendant. Si l’avenir nous apporte un meilleur sort, ayons la gloire d’y avoir contribué ; s’il recèle encore des tempêtes, n’ayons point à nous les reprocher.
 ])])
+(tous_les_scripts)
 (footer[,(oeuvres)])
 (with-footer
 (p* [Extrait de l',(EO1863), tome I, pp. 217-231.]

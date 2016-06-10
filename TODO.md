@@ -1,13 +1,25 @@
 TODO
 ====
 
+Les priorités du jour
+---------------------
+
+- envelopper le h4 "Notes" et le hrule qui l'accompagne dans une div class ="footnotes" au pluriel (ou autre nom, peu importe) pour pouvoir les rendre invisibles quand les footnotes se transforment en sidenotes.
+- purement cosmétique, mais tant qu'on y est: supprimer le align="justify" dans les p qui sont dans les footnotes (ça doit se régler par du css)
+- Comment faire pour que les appels de note ne soient pas renvoyés en début de ligne suivante? (qu'ils soient collés au mot précédent ou précédés d'un espace insécable, je n'arrive pas à les faire tenir)
+
 Textes
 ------
 
-  * Importer tous les textes manquant dans Bastiat.org
+  * Se procurer auprès de David Hart les originaux français des quelques textes de la collection Jean-Claude Paul-Dejean.
 
-  * Faire une autre passe de re-lecture en comparant aux éditions originales,
-    et/ou en faisant une comparaison avec des numérisations indépendantes.
+  * Pour information, mes usages de relecture-correction:
+
+    - si différence dans les mots du texte de deux éditions (ex: journal ou œuvre publiée du vivant de Bastiat, vs œuvres complètes posthumes), adopter dernier texte publié du vivant de Bastiat et signaler différence en note.
+    - si coquille évidente ("abstacle"), corriger sans signaler. On ne fait pas une édition critique de manuscrits médiévaux où la moindre faute de copiste a un intérêt pour l'histoire du texte.
+    - si différence d'orthographe ou de ponctuation, adopter la plus actuelle/correcte/élégante, sans signaler. Paillottet rajoute souvent des virgules, on s'en fiche, on ne fait pas paillottet.org.
+    - Pour la même raison, les notes de Paillottet seront conservées, modifiées (les renvois n'ont plus besoin d'avoir une indication de tome et de page: vive les liens hypertexte!) ou supprimées en fonction de leur utilité.
+    - à part ça, fidélité totale à l'orthographe et aux conventions typographiques d'origine.
 
 
 Infrastructure
@@ -21,8 +33,26 @@ Infrastructure
 
   * Faire en sorte que Exscribe comprenne la syntaxe :journal (:titre titre1 :date date1) :journal (:titre titre2 :date date2) et puisse ranger les articles de titre1 (respectivement 2) par leur date1 (respectivement 2).
 
+  * Je ne suis pas convaincue par le footer actuel. Je pense qu'il faudrait répartir les choses ainsi:
+    - la référence au tome et à la page figurerait dans le volet gauche avec intro/plan.
+    - les mentions de copistes et les liens vers "Le libéralisme, le vrai" devraient être renvoyées vers une page "mentions légales" ou "qui sommes-nous" ou "crédits", accessible par un lien placé dans le footer ou le header.
+    - il faudrait aussi supprimer le (hrule) du bas, vu que certaines sidenotes le traversent.
+
 Trucs de Laura que Faré a le droit de regarder
 ----------------------------------------------
+
+  * Ordre des priorités:
+    1) Headers fixes élastiques
+    2) Volet gauche (en haut de page sur les petits écrans) avec intro/résumé (+ éventuellement, plan) pour chaque texte
+    le volet doit scroller au même rythme que la page, et rester fixe une fois arrivé en bas; idem dans l'autre sens.
+    3) Sidenotes/footnotes responsives : prendre en compte la taille d'écran en cm, et pas en pixels.
+    4) Sommaires thématique, chronologique etc., et liens entre eux
+    5) Refonte radicale de la page d'accueil
+
+    En parallèle:
+    1) Relecture/indexation personnes;
+    2) Enrichissement de l'index des personnes (informations biographiques, références des citations);
+    3) Création d'une database des personnes citées, et d'une fonctionnalité "filtre" (par époque, pays, profession…)
 
   * Faire une fonction qui associe à un nom de fichier le titre d'une oeuvre (je veux obtenir <a href="1profit_2pertes">Un profit contre deux pertes</a> en tapant juste ,(1profit_2pertes), et je ne veux pas avoir à définir une fonction par fichier.)
 

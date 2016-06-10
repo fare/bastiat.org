@@ -1,0 +1,683 @@
+lettre_calmetes1819
+
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+du 12 septembre 1819")
+
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(bastiat[
+,(date-tag[Bayonne, 12 septembre 1819.
+,(footnote*[
+Frédéric Bastiat est né à Bayonne,
+le 11 messidor an IX (30 juin 1801).
+Lorsqu’il écrit cette lettre, il a donc dix-huit ans.
+Orphelin à l’âge de dix ans,
+suite aux disparitions de sa mère, le 27 mai 1808,
+et de son père le premier juillet 1810,
+il se voit confié à son grand-père
+mais c’est la dévouée tante Justine qui l’élève.
+][
+Envoyé à l’école de Sorèze,
+Bastiat interrompt ses études à dix-sept ans
+pour entrer dans la maison de commerce de son oncle.
+De ce défaut de lauriers, il s’excusera plaisamment un jour,
+devant ses auditeurs de la salle Montesquieu, à Bordeaux :
+,(q[… Je vous ai prévenus, je ne suis pas orateur.
+Je n’ai pas fait mon cours de rhétorique,
+et je ne puis même pas dire comme Lindor
+,(verses[Je ne suis qu’un simple bachelier])
+])
+(Discours du 29 septembre 1846,
+reproduit partiellement dans le ,(cite-title[Journal des économistes])
+d’octobre 1846 et dans le tome II
+de la deuxième édition des ,(oe)uvres complètes (1862), p.241
+,(--) ce discours sera l’objet du volume 176 de notre
+édition des ,(oe)uvres complètes).
+,(XXX :bof-ref "discours_2")
+][
+Ce passage à Sorèze éclaire pourtant
+les origines littéraires de la vocation de Bastiat.
+Les écrits de Bastiat sont prodigues en parallèles
+entre la création artistique et littéraire et la création entrepreneuriale
+(que le socialisme universitaire a toujours monté l’une contre l’autre
+alors qu’elles répondent à la même métaphysique libérale
+,(--) il n’est pas de création sans liberté,
+il n’est pas de liberté sans propriété
+de ses ,(oe)uvres d’où les textes prémonitoires de Bastiat
+sur les politiques culturelles
+(Cf. les Lettres à Lamartine ,(inbracket[volumes 108 et 110]) ,(pv)
+,(XXX :bof-ref "lettre_lamartine_2" "lettre_lamartine_1")
+le
+,(bof-ref "discours_cercle_librairie"
+[discours du 16 décembre 1847 sur la propriété littéraire]),
+prononcé au cercle de la librairie ,(inbracket[volume 260])
+et le fameux chapitre IV de
+,(bof-ref "cqovecqonvp" (cite-title[Ce qu’on voit et ce qu’on ne voit pas])),
+intitulé
+,(bof-ref "cqovecqonvp" "theatres_beaux_arts"
+	(cite-title[Théâtres. Beaux-arts]))
+,(inbracket[volume 406]).
+][
+Bien que, sous la Restauration, les romantiques aient épousé
+la cause légitimiste alors que les libéraux défendaient,
+paradoxalement l’héritage classique,
+nous concevons aujourd’hui que la défense du libre-échange
+se nourrit de la même axiologie que la liberté dans l’art…
+Les campagnes de Bastiat auraient-elles rencontré l’écho
+que l’on sait sans la vivacité de sa rhétorique ?
+Voici la synthèse que donne Ronce des dispositions littéraires de l’élève :
+,(q[Qu’on ne croie point, toutefois,
+qu’en 1818, lorsqu’il prit congé de ses maîtres,
+ceux-ci pressentaient en lui
+le philosophe, l’économiste, le logicien, le remueur et semeur d’idées
+qu’il devait être.
+Quand il quitta l’école
+sans avoir obtenu, d’ailleurs le diplôme de bachelier,
+il apparaissait plutôt comme un dilettante des lettres,
+comme un fervent de la nature, de la ligne, de la couleur, du beau.
+C’était véritablement une âme d’artiste.
+Il possédait Corneille, Racine et tous nos classiques.
+Pour connaître les richesses des littératures étrangères,
+pour pouvoir lire Dante et Cervantès dans leurs textes,
+il avait appris l’italien et l’espagnol ;
+la langue de Shakespeare lui était également familière.
+Enfin, il s’était essayé, non sans succès, dans la poésie :
+et nul n’excellait comme lui à rendre sur le violoncelle
+une symphonie de Mozart ou une sérénade de Haydn.])
+(P. Ronce, ,(cite-title[Frédéric Bastiat, sa vie, son ,(oe)uvre]),
+Paris, Guillaumin, 1905, p. 13).
+,(NdML)
+])
+])
+,(p*[
+Nous nous trouvons, ,(np "calmetes" [mon ami]) ,(footnote*[
+Bastiat se lia d’amitié avec Victor Calmètes à l’école de Sorèze.
+Il se privait des jeux de son âge pour tenir compagnie à Calmètes
+qu’une santé fragile tenait à l’écart des récréations.
+Ce dévouement suscitait la sympathie
+au point que Bastiat et Calmètes avaient obtenu l’autorisation
+de rendre des copies communes signées de leurs deux noms.
+,(NdML)
+]),
+dans le même cas : tous les deux nous sommes portés par goût
+à une étude autre que celle que le devoir nous ordonne ;
+à la différence que la philosophie, vers laquelle notre penchant nous entraîne,
+tient de plus près à l’état d’avocat qu’à celui de négociant
+,(footnote*[
+Cette inclination ne préfigure-t-elle pas
+le ressourcement juridique du libéralisme entrepris par Hayek et Rothbard ?
+,(NdML)
+]).
+][
+Tu sais que je me destine au commerce.
+En entrant dans un comptoir, je m’imaginais que l’art du négociant était tout
+mécanique et que six mois suffisaient pour faire de moi
+un négociant ,(footnote*[
+P. Ronce nous apprend que la profession de négociant
+était prisée chez les Bastiat depuis le seizième siècle.
+Comme le précise Jean-Claude Paul-Dejean dans sa chronologie
+(in ,(cite-title[Actes du congrès de Bayonne
+sur Frédéric Bastiat et le libéralisme])),
+son grand-père avait fondé une maison de commerce
+à laquelle il associa son fils Pierre et son gendre Henri Monclar.
+P. Ronce précise qu’,(q[Il expédiait des vins en Belgique,
+trafiquait de la laine et du coton avec l’Espagne et le Portugal
+et se livrait à des opérations de banque])
+(P. Ronce, Op. cit., p.3.).
+][
+Sa maison fit faillite en raison notamment
+des difficultés suscitées par la campagne napoléonienne en Espagne
+(ainsi, bien avant d’avoir élaboré sa théorie économique,
+Bastiat a-t-il pu saisir intimement la relation
+entre la paix et le libre-échange
+qu’il développera notamment dans le
+,(bof-ref "guerre" [chapitre XIX]) des ,(Harmonies_economiques)
+,(inbracket[volume 455]) et dans sa Lettre du 17 août 1850 au président
+du congrès de la paix de Francfort ,(inbracket[volume 422]).
+,(XXX :bof-ref "lettre_congres_paix")
+][
+Le 17 septembre 1818 soit, à quelques jours près,
+un an avant cette lettre, Frédéric Bastiat, sortant
+de Sorèze, entrait dans la maison de commerce de l’ancien
+associé de son père, Monsieur Henry de Monclar.
+,(NdML)
+]).
+Dans ces dispositions,
+je ne crus pas nécesssaire de travailler beaucoup,
+et je me livrai particulièrement
+à l’étude de la philosophie et de la politique.
+][
+Depuis je me suis bien désabusé.
+J’ai reconnu que la science du commerce
+n’était pas renfermée dans les bornes de la routine.
+J’ai su que le bon négociant,
+outre la nature des marchandises sur lesquelles il trafique,
+le lieu d’où on les tire, les valeurs qu’il peut échanger,
+la tenue des livres,
+toutes choses que l’expérience et la routine peuvent en partie faire connaître,
+le bon négociant, dis-je,
+doit étudier les lois et approfondir l’économie politique
+,(footnote*[
+À cette époque, Bastiat lit
+,(cite-title[Recherches sur la nature
+et les causes de la richesse des nations]) d’Adam Smith,
+,(cite-title[La Logique])
+de Destutt de Tracy, le
+,(cite-title[Traité d’économie politique])
+de Jean-Baptiste Say
+(voir la note qui est consacrée à
+cette lecture dans le deuxième volume des ,(oe)uvres complètes,
+,(bof-ref "lettre_calmetes_1820" [Lettre à Victor Calmètes du 5 mars 1820]).
+On ignore si Frédéric Bastiat eut entre les mains
+la revue ,(cite-title[Le Censeur]) (1814-1815)
+rebaptisée ,(cite-title[Le Censeur européen]) (1817-1819) après les Cent Jours.
+Cette revue diffusa les idées libérales qui triomphèrent en 1830
+(On y trouvait les signatures de Charles Comte, Dunoyer et Augustin Thierry).
+,(NdML)
+]),
+ce qui sort du domaine de la routine et exige une étude constante.
+][
+Ces réflexions me jetèrent dans une cruelle incertitude.
+Continuerais-je l’étude de la philosophie qui me plaît,
+ou m’enfoncerais-je dans les finances que je redoute ?
+Sacrifierais-je mon devoir à mon goût et, mon goût à mon devoir ?
+][
+Décidé à faire passer mon devoir avant tout,
+j’allais commencer mes études,
+quand je m’avisai de jeter un regard sur l’avenir.
+Je pesai la fortune que je pouvais espérer
+et, la mettant en balance avec mes besoins,
+je m’assurai que, pour peu que je fusse heureux au commerce,
+je pourrais, très jeune encore, me décharger
+du joug d’un travail inutile à mon bonheur.
+Tu connais mes goûts ;
+tu sais si, pouvant vivre heureux et tranquille,
+pour peu que ma fortune excède mes besoins,
+tu sais si, pendant les trois quarts de ma vie,
+j’irai m’imposer le fardeau d’un ennuyeux travail,
+pour posséder, le reste de ma vie, un superflu inutile.
+][
+… Te voilà donc bien convaincu que,
+dès que je pourrai avoir une certaine aisance,
+ce qui, j’espère, sera bientôt, j’abandonne les affaires
+,(footnote*[
+Bien que n’obtenant pas les résultats escomptés,
+Bastiat n’abandonna cette activité commerciale qu’à la fin de 1824.
+À cette date, il songea à se rendre à Paris,
+tel le futur Lucien Chardon (Rubempré)
+des ,(cite-title[Illusions perdues]) de Balzac,
+pour s’adonner à l’étude solitaire
+qui semblait répondre à son ardente vocation.
+Or, la maladie de son grand-père différa ce projet.
+Bastiat vint s’établir à Mugron
+où le décès de son grand-père le plaça à la tête d’un domaine.
+Bastiat était désormais agriculteur
+et il ne quittera définitivement les affaires qu’en 1831
+lorsqu’il sera nommé juge de paix du canton de Mugron.
+Ces expériences auront été déterminantes
+pour sa compréhension intime des ressorts de la liberté créatrice,
+de ces savoirs tacites qui, pour Ludwig von Mises,
+sont l’objet de la praxéologie
+et sans lesquels l’économie se réduit à une mécanique ou à une doctrine.
+,(NdML)
+]).
+
+])])
+(tous_les_scripts)
+(footer[
+	,(oeuvres)
+	,(corresp)
+	,(calmetes)
+])
+
+(with-footer (p*[
+Extrait de l’,(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesa"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 1,
+,(copy) Michel Leter & Presses de l’université libre de Paris, 2000,
+		ISBN 2-914150-00-8.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))
+
+lettre_calmetes1820a
+
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
+du 5 mars 1820")
+(document :title "Lettre à Victor Calmètes"
+	:author (author-FB)
+(bastiat[
+,(date-tag[Bayonne, 5 mars 1820.])
+,(p*[
+J’avais lu le ,(cite-title[Traité d’économie politique]) de ,(np "say_jb" [J. B. Say]),
+,(XXX)
+excellent ouvrage très méthodique.
+Tout découle de ce principe que
+,(emph[les richesses sont les valeurs et que
+les valeurs se mesurent sur l’utilité]) ,(footnote*[
+Bastiat fait sans doute allusion au livre second du
+,(cite-title[Traité d’économie politique]) de Jean-Baptiste Say,
+,(cite-title[De la distribution des richesses]),
+et plus particulièrement au chapitre premier intitulé
+,(cite-title[Des fondements de la valeur des choses]).
+][
+L’impact décisif du ,(cite-title[Traité d’économie politique]) (1803) de Say
+sur le jeune Bastiat est à mettre en relation
+avec la fortune du Landais aux États-Unis
+(son pamphlet ,(bof-ref "la_loi" (cite-title[La Loi])),
+tiré à un million d’exemplaires
+fut le livre de chevet de Ronald Reagan).
+On est en droit, sans manier le paradoxe,
+de rappeler à ceux qui aujourd’hui agitent le spectre
+de l’invasion ,(q[ultra-libérale])
+venue de ,(q[l’hyper-puissance]) américaine
+que la république américaine, dès l’indépendance,
+subit l’influence du libéralisme français !
+Ainsi l’ouvrage de référence des universités américaines en matière d’économie
+ne fut pas
+l’,(cite-title[Inquiry into the Nature and causes of the Wealth of Nations])
+de Smith
+mais le ,(cite-title[Traité d’économie politique])
+de Jean-Baptiste Say
+qui connaîtra vingt-six rééditions outre-Atlantique
+jusqu’à la fin du dix-neuvième siècle.
+Plus récemment Henry Hazlitt redécouvrit Say
+lorsqu’il entreprit sa minutieuse critique de Keynes.
+][
+Say, lui-même, bénéficiait de l’influence décisive
+qu’eut Destutt de Tracy sur le futur président Jefferson.
+Destutt de Tracy fut le chef de file de l’école dite,
+par ses adversaires, des ,(q[idéologues])
+(alors que le terme exact adopté par Destutt de Tracy
+était ,(q[idéologistes]))
+dont la revue la ,(cite-title[Décade philosophique]) ,(XXX)
+domina la période révolutionnaire.
+Par idéologie Destutt de Tracy entendait simplement la
+,(q[science qui a pour objet l’étude des idées
+(au sens général de faits de conscience) de leur caractères,
+de leurs lois, de leur rapport avec les signes
+qui les représentent et surtout de leur origine]).
+Au terme ,(q[idéologie]) ne s’attachait donc pas alors la connotation
+péjorative que lui conférera Marx.
+La notion n’est plus guère évoquée aujourd’hui
+que dans le discours convenu sur ,(q[la mort des idéologies]).
+En deçà de cet usage galvaudé, on oublie que l’idéologie
+a anticipé le renouveau philosophique français des années 1820…
+à telle enseigne que le seul idéologue que nous lisons encore
+n’est autre que Stendhal.
+On comprend que Foucault ait voulu ravaler l’idéologie
+à l’indignité de ,(q[dernière des philosophies classiques])
+(,(cite-title[Les Mots et les choses]), Gallimard, 1966, p.255) :
+reconnaître la position fondatrice du courant de pensée dominé
+par les physiocrates et les idéologues reviendrait à admettre
+l’idée d’une correction de l’institution herméneutique des sciences humaines
+(archéologie allemande : Schleiermacher, Dilthey…)
+par son institution heuristique
+(archéologie franco-allemande :
+Baumgarten, Kant, le Schleiermacher de la ,(cite-title[Dialectique]),
+les économistes Cantillon et Quesnay ,(--) qui ont formé Adam Smith ,(--)
+Condorcet, Destutt de Tracy, Volney, Cabanis et Say.
+][
+Jean Tulard dans son ,(cite-title[Dictionnaire du consulat et de l’empire])
+rejoint singulièrement Michel Foucault en négligeant Destutt de Tracy
+dont l’,(oe)uvre est à ses yeux ,(q[à peine lisible]) (l’a-t-il lu ?).
+Eludant le libéralisme de Destutt de Tracy qui l’opposa à Napoléon,
+il accrédite l’idée que ce dernier n’aurait voté la déchéance
+de l’empereur que parce que ce dernier ,(q[n’aimait pas les idéologues]).
+][
+Tulard omet d’évoquer ce personnage considérable,
+Thomas Jefferson, ,(q[l’homme des deux mondes que je respecte le plus])
+dira Destutt de Tracy (Cf. Avertissement du
+,(cite-title[Commentaire sur L’Esprit des lois de Montesquieu]),
+réimpression de l’édition de Genève de 1819, Slatkine, 1970)
+qui restera comme son maître à penser.
+Destutt de Tracy peut être considéré un des pères français du libéralisme
+baptisé hâtivement anglo-saxon puisqu’il ira jusqu’à écrire deux ouvrages
+pour Jefferson et le public américain, son
+,(cite-title[Commentaire sur L’Esprit de lois de Montesquieu]) (1811)
+et un ,(cite-title[Traité d’économie politique]),
+premier manuel d’économie politique en vigueur dans une université américaine
+(et donc dans le monde), celle de Virginie, fondée par Jefferson en 1824.
+][
+Jefferson était, certes, soucieux de faire en sorte que les étudiants
+de l’université de Virginie puisent ailleurs qu’à la source anglaise,
+pour des raisons évidentes, mais il n’en reste pas moins
+que la tradition américaine partage avec le courant libéral français
+(incarné par Say et Bastiat) deux traits fondamentaux
+qui la démarque de l’école anglaise (Smith, Ricardo, Malthus) :
+l’optimisme et la référence constante
+aux fondements naturels de l’individualisme.
+][
+Lorqu’on évoque la révolution néo-libérale américaine,
+on ne peut donc passer sous silence ses sources françaises
+et ignorer que Jean-Baptiste Say et Destutt de Tracy
+ont eu une influence considérable sur la formation
+de ce que nous appelons aujourd’hui, par abus de langage,
+le libéralisme américain.
+][
+Les grincheux auront beau jeu de m’objecter que
+les ,(Har-ref(cite-title[Harmonies économiques])) de Bastiat s’inspirent de
+l’américain Henry Charles Carey, influence que Bastiat lui-même reconnaîtra.
+Mais Carey n’était-il pas lui-même un disciple de Say et de Destutt de Tracy ?
+][
+,(NdML)
+]).
+De ce principe fécond ,(footnote*[
+Bien qu’ayant toujours témoigné de sa dette envers Jean-Baptiste Say,
+Bastiat nuancera cette adhésion de jeunesse à l’argumentation de Say,
+dans ses ,(Har-ref(cite-title[Harmonies économiques])).
+À l’entrée ,(q[Utilité]) du long chapitre
+que Bastiat y consacre à ,(bof-ref "de_la_valeur" [la Valeur]) (chapitre V).
+Il salue, une fois de plus, le rôle d’éclaireur joué par Say
+,(q[le premier qui ait secoué le joug de la ,(cite-title[matérialité])])
+et qui ,(q[fit très expressément de la valeur une qualité morale,
+expression qui peut-être dépasse le but,
+car la valeur n’est guère ni physique ni morale,
+c’est simplement ,(--) un rapport.])
+Une fois l’hommage rendu, Bastiat formule ainsi ses réserves :
+,(q[L’axiome de M. Say était celui-ci :
+,(cite-title[La valeur a pour fondement l’utilité]).
+S’il était ici question de l’utilité relative des services humains,
+je ne contesterais pas.
+Tout au plus pourrais-je faire observer
+que l’axiome est superflu à force d’être évident.
+Il est bien clair en effet que nul ne consent à rémunérer
+un ,(cite-title[service])
+que, parce ce qu’à tort ou à raison, il le juge utile.
+Le mot ,(cite-title[service]) renferme tellement l’idée d’utilité,
+qu’il n’est autre chose que la traduction en français,
+et même la reproduction littérale du mot latin ,(inlatin[uti]),
+,(emph[servir]).])
+][
+,(q[Mais malheureusement ce n’est pas ainsi ainsi que Say l’entendait.
+Il trouvait le principe de la valeur
+non seulement dans les services humains rendus à l’occasion des choses,
+mais encore dans les qualités ,(emph[utiles]),
+mises par la nature dans les choses elle-mêmes. ,(--)
+Par là il se replaçait sous le joug de la matérialité.
+Par là, il faut bien le dire, il était loin de déchirer le voile funeste
+que les économistes anglais avaient jeté sur la question de propriété
+(,(cite-title[,(OE*)uvres complètes]), huitième édition, tome sixième, Paris,
+Guillaumin et Cie, 1881, p.180-182)]).
+][
+Pour le Bastiat polémiste qui ferraillera
+avec tant d’ardeur contre les socialistes
+dans le maelström d’idées qui accompagnera la révolution de 1848,
+cette erreur de Say est lourde de conséquence
+car l’économie politique prête ici le flanc aux socialistes,
+et notamment à Proudhon, en lui fournissant
+des arguments pour attaquer la propriété.
+À l’instar de Marx qui fit siennes
+les théories de la valeur de Smith et de Ricardo,
+les socialistes utopistes français s’appuyèrent paradoxalement
+sur les analyses de Say ,(--) d’où les réserves
+sur l’héritage de Say développées ainsi par Bastiat :
+][
+,(q[Avant de discuter en lui-même l’axiome de Say,
+j’en dois faire voir la portée logique,
+afin qu’il ne me soit pas reproché
+de me lancer et d’entraîner le lecteur dans d’oiseuses dissertations.])
+][
+,(q[On ne peut pas douter que l’Utilité dont parle Say
+est celle qui est dans les choses.
+Si le blé, le bois, la houille, le drap ont de la valeur,
+c’est que ces produits ont des qualités qui les rendent propres à notre usage,
+à satisfaire le besoin que nous avons
+de nous nourrir, de nous chauffer, de nous vêtir.])
+][
+,(q[,(underline[Dès lors, comme la nature crée de l’,(cite-title[Utilité]),
+elle crée de la ,(cite-title[Valeur]) ,(pv)
+funeste confusion dont les ennemis de la propriété
+se sont fait une arme terrible])
+,(inbracket[note de l’éditeur : c’est nous qui soulignons]).])
+][
+,(q[Voilà un produit, du blé, par exemple.
+Je l’achète à la halle pour seize francs.
+Une grande partie de ces seize francs se distribue,
+par des ramifications infinies,
+par une inextricable complication d’avances et de remboursements,
+entre tous les hommes qui, de près ou de loin,
+ont concouru à mettre ce blé à ma portée.
+Il y a quelque chose pour le laboureur, le semeur, le moissonneur,
+le batteur, le charretier, ainsi que pour le forgeron,
+le charron qui ont préparé les instruments.
+Jusqu’ici il n’y a rien à dire, que l’on soit économiste ou communiste.])
+][
+,(q[Mais j’aperçois que quatre francs sur mes seize francs
+vont au propriétaire du sol, et j’ai bien le droit de demander
+si cet homme, comme tous les autres, m’a rendu un Service pour avoir,
+comme tous les autres, droit incontestable à une rémunération.])
+][
+,(q[D’après la doctrine que cet écrit aspire à faire prévaloir,
+la réponse est catégorique.
+Elle consiste en un ,(emph[oui]) très formel.
+Oui le propriétaire m’a rendu un ,(emph[service]).
+Quel est-il ? Le voici :
+il a, par lui-même ou par son aïeul, défriché et clôturé le champ ;
+il a purgé de mauvaises herbes et d’eaux stagnantes ;
+il a bâti une maison, des étables, des écuries.
+Tout cela suppose un long travail qu’il a exécuté en personne
+ou, ce qui revient au même, qu’il a payé à d’autres.
+Ce sont certainement là des services qui
+en vertu de la juste loi de réciprocité, doivent lui être remboursés.
+Or, ce propriétaire n’a jamais été rémunéré, du moins intégralement.
+Il ne pouvait pas l’être
+par le premier qui est venu lui acheter un hectolitre de blé.
+Quel est donc l’arrangement qui est intervenu ?
+Assurément le plus ingénieux, le plus légitime
+et le plus équitable qu’on pût imaginer.
+Il consiste en ceci :
+quiconque voudra obtenir un sac de blé payera,
+outre les services des différents travailleurs que nous avons énumérés,
+une petite portion des ,(emph[services]) rendus par le propriétaires :
+en d’autres termes, la ,(emph[Valeur des services]) du propriétaire
+se répartira sur tous les sacs de blé qui sortiront de ce champ.])
+][
+,(q[Maintenant on peut demander si cette rémunération,
+supposée être ici de quatre francs, est trop grande ou trop petite.
+Je réponds : cela ne regarde pas l’économie politique.
+Cette science constate que la valeur des services du propriétaire foncier
+se règle absolument par les mêmes lois
+que la valeur de tous les autres services, et cela suffit.])
+][
+,(q[On peut s’étonner aussi que ce système de remboursement morcelé
+n’arrive pas à la longue à un amortissement intégral,
+par conséquent à l’extinction du droit de propriétaire.
+Ceux qui font cette objection ne savent pas
+qu’il est dans la nature des capitaux de produire une rente perpétuelle ;
+c’est ce que nous apprendrons plus tard.])
+][
+,(q[Pour le moment, je ne dois m’écarter plus longtemps de la question,
+et je ferai remarquer (car tout est là)
+qu’il n’y a pas dans mes seize francs une obole qui n’aille rémunérer
+des services humains, pas une qui corresponde à la prétendue
+,(emph[valeur]) que la nature aurait introduite dans le blé en mettant
+l’,(emph[utilité]).])
+][
+,(q[Mais si, vous appuyant sur l’axiome de Say et des économistes anglais,
+vous dites : Sur les seize francs, il y en a douze qui vont
+aux laboureurs, semeurs, moissonneurs, charretiers, etc.,
+deux qui récompensent les services personnels du propriétaire ;
+enfin deux autres francs représentent une valeur
+qui a pour fondement l’utilité créée par Dieu, par des agents naturels,
+et en dehors de toute coopération humaine ;
+,(--) ne voyez-vous pas qu’on vous demandera de suite :
+qui doit profiter de cette portion de ,(cite-title[valeur]) ?
+qui a droit à cette rémunération ?
+Dieu ne se présente pas pour la recevoir.
+Qui osera se présenter à sa place ?])
+][
+,(q[Et plus Say veut expliquer la propriété sur cette donnée,
+plus il prête le flanc à ses adversaires.
+Il compare d’abord, avec raison, la terre à un laboratoire,
+où s’accomplissent des opérations chimiques
+dont le résultat est utile aux hommes.
+,(q[Le sol, ajoute-t-il, est donc ,(emph[producteur d’une utilité]),
+et lorsqu’IL (le sol) la fait payer sous la forme d’un profit ou d’un fermage
+,(emph[pour son propriétaire]), ce n’est pas sans rien donner au consommateur
+en échange de ce que le consommateur LUI (au sol) paye.
+IL (toujours le sol) lui donne une utilité produite,
+et c’est en produisant cette utilité que
+la terre est productive aussi bien que le travail.])])
+][
+,(q[Ainsi, l’assertion est nette.
+Voilà deux prétendants qui se présentent pour se partager
+la rémunération due par le consommateur du blé, savoir :
+la terre et le travail. Il se présentent au même titre,
+car le sol, dit M. Say, est productif comme le travail.
+Le travail demande à être rémunéré d’un service ;
+le sol demande à être rémunéré d’une utilité,
+et cette rémunération, il ne la demande pas pour lui
+(sous quelle forme la lui donnerait-on ?),
+il la réclame pour ,(cite-title[son propriétaire]).])
+][
+,(q[Sur quoi Proudhon somme ce propriétaire,
+qui se dit chargé de pouvoirs du sol, de montrer sa procuration.])
+][
+,(q[On veut que je paye, en d’autres termes, que je rende un service,
+pour recevoir l’utilité produite par les agents naturels,
+indépendamment du concours de l’homme déjà payé séparément.])
+][
+,(q[Mais je demanderai toujours :
+qui profitera de mon service ?])
+][
+,(q[Sera-ce un homme ? mais à quel titre ?
+Si c’est pour m’avoir rendu un service, à la bonne heure.
+Mais alors vous êtes à mon point de vue.
+C’est le service humain qui vaut, et non le service naturel ;
+c’est la conclusion à laquelle je veux vous amener.])
+][
+,(q[Cependant, cela est contraire à votre hypothèse même.
+Vous dites que tous les services humains sont rémunérés par quatorze francs,
+et que les deux francs qui complètent le prix du blé
+répondent à la valeur créée par la nature.
+En ce cas, je répète ma question :
+à quel titre un homme quelconque se présente-t-il pour les recevoir ?
+Et n’est-il pas malheureusement trop clair que,
+si vous appliquez spécialement le nom du ,(emph[propriétaire])
+à l’homme qui revendique le droit de toucher ces deux francs,
+vous justifiez cette trop fameuse maxime :
+,(emph[la propriété, c’est le vol ?])])
+][
+,(q[Et qu’on ne pense pas que cette confusion
+entre l’utilité et la valeur se borne à ébranler la propriété foncière.
+Après avoir conduit à contester la ,(emph[rente de la terre]),
+elle conduit à contester l’,(emph[intérêt du capital])
+,(inbracket[suit un long développement sur ce thème])
+(,(cite-title[,(OE*)uvres complètes]), huitième édition, tome sixième, Paris,
+Guillaumin et Cie, 1881, p.184-185)])
+et Bastiat de conclure ,(q[Habituons-nous donc à distinguer
+l’Utilité de la Valeur. Il n’y a de science économique qu’à ce prix.
+Loin que l’Utilité et la Valeur soient identiques ou même assimilables,
+j’ose affirmer, sans crainte d’aller jusqu’au paradoxe,
+que ce sont des idées opposées (,(cite-title[Op. cit.]) p.187)
+,(inbracket[…])
+J’admettrai avec M. Say que l’Utilité est le fondement de la Valeur,
+pourvu qu’on convienne qu’il ne s’agit nullement
+de l’utilité qui est dans les choses,
+mais de l’utilité relative des services
+,(inbracket[…])
+J’admettrai avec Ricardo que le Travail est le fondement de la valeur,
+pourvu d’abord qu’on prenne le mot travail dans le sens le plus général,
+et ensuite qu’on ne conclue pas à une proportionnalité contraire
+à tous les faits, en d’autres termes pourvu qu’on substitue au mot
+,(emph[travail]) le mot ,(emph[service])
+(,(cite-title[Op. cit.]), p.193)]).
+][
+Say et les économistes anglais seraient donc bien à
+l’origine du mythe socialiste de l’exploitation de l’homme par l’homme
+et de la lutte des ,(q[classes]) qu’elle légitimerait.
+][
+,(NdML)
+]),
+il vous mène naturellement aux conséquences les plus éloignées,
+en sorte qu’en lisant cet ouvrage on est surpris,
+comme en lisant ,(np "laromiguiere" [Laromiguière]) ,(footnote*[
+Pierre Laromiguière (1756-1837).
+Le rapprochement entre Say et le philosophe Laromiguière
+ne surprendra que ceux qui ne voient en Bastiat qu’un économiste.
+Comme Bastiat, il est originaire du Sud-Ouest,
+tout comme Bastiat, il eut son heure de gloire
+dans la première moitié du dix-neuvième siècle avant de tomber dans l’oubli.
+L’,(oe)uvre de Laromiguière jette un pont surprenant
+entre le sensualisme de Condillac, dont il est l’héritier,
+et l’éclectisme de Victor Cousin dont il fut le maître.
+Cousin, dont la philosophie connaît son heure de gloire sous la Restauration,
+émet sur Laromiguière un jugement analogue à celui de Bastiat
+en évoquant le style de ses leçons
+,(q[où dans une clarté suprême s’unissent sans efforts
+les grâces de Montaigne, la sagesse de Locke
+et, quelquefois aussi, la suavité de Fénelon]).
+On notera encore le penchant de Bastiat pour les philosophes et les économistes
+qui savent prendre appui sur le socle de la rhétorique.
+La publication du ,(cite-title[Projet d’éléments de métaphysique]) en 1794,
+à Toulouse, vaudra à Laromiguière l’estime des idéologues,
+au premier rang desquels Destutt de Tracy.
+Lorsque Laromiguière entre à l’Institut,
+c’est comme membre associé à la section de l’analyse des idées
+et des sensations, qui reprend les domaines couverts
+par les travaux de Condillac et de Destutt de Tracy.
+][
+,(NdML)
+]),
+de la facilité avec laquelle on va d’une idée à une idée nouvelle.
+Tout le système passe sous vos yeux avec des formes variées
+et vous procure tout le plaisir qui naît
+du sentiment de l’évidence,(footnote*[
+Voilà déjà Bastiat tout entier dans ce jugement de critique littéraire
+qui, même au c,(oe)ur de sa théorie économique,
+ne boude jamais ,(q[le plaisir du texte]).
+C’est la force de Bastiat d’avoir su mettre
+les inépuisables ressources des humanités au service de l’économie
+et il n’est pas interdit de chercher dans la dissociation universitaire
+de ces deux pôles de la création l’origine de la faiblesse du libéralisme.
+L’abstraction des sphères du droit et de l’économie
+du domaine de la création littéraire et artistique
+semble avoir définitivement livré ce dernier
+aux mains de pseudo-chercheurs qui n’ont que
+la propriété collective pour vulgate.
+][
+,(NdML)
+]).
+][
+Un jour que je me trouvais dans une société assez nombreuse,
+on traita, en manière de conversation, une question d’économie politique ;
+tout le monde déraisonnait.
+Je n’osais pas trop émettre mes opinions,
+tant je les trouvais opposées aux idées reçues ;
+cependant me trouvant, par chaque objection,
+obligé de remonter d’un échelon pour en venir à mes preuves,
+on me poussa bientôt jusqu’au principe.
+Ce fut alors que ,(np "say_jb" [M. Say]) me donna beau jeu.
+Nous partîmes du principe de l’économie politique,
+que mes adversaires reconnaissaient être juste ;
+il nous fut bien facile de descendre aux conséquences
+et d’arriver à celle qui était l’objet de la discussion.
+Ce fut à cette occasion que je sentis tout le mérite de la méthode
+et je voudrais qu’on l’appliquât à tout.
+N’es-tu pas de mon avis là-dessus ?
+
+])])
+(tous_les_scripts)
+(footer[
+	,(oeuvres)
+	,(corresp)
+	,(calmetes)
+])
+(with-footer (p*[
+Extrait de l’,(EO1854), tome I, pp. 1-14. ,(XXX)
+][
+,(leter-ref "calmetesb"
+[Originellement numérisé, copieusement annoté, mis en hypertexte et publié])
+par ,(leter) pour son ,(ELeter),
+		volume 2,
+,(copy) Michel Leter & Presses de l’université libre de Paris, 2000,
+		ISBN 2-914150-01-6.
+Repris par ,(FRR) pour ,(Bastiat.org).
+])))
