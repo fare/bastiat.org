@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Nos produits sont grevés de taxes"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/46/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 46.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juillet 1845.])
 ,(h2[Chapitre V de la I,(re) série des ,(SophismesEconomiques)])
@@ -106,12 +109,9 @@ contre les nations qui sont les plus imposées.
 C’est que les taxes, bien employées, loin de les détériorer,
 ont amélioré les ,(emph[conditions de production]) de ces peuples.
 Ainsi, nous arrivons toujours à cette conclusion,
-que les sophismes protectionistes ,(XXX :sic)
+que les sophismes protectionistes
 ne s’écartent pas seulement du vrai,
-mais sont le contraire, l’antipode de la vérité
-	,(footnote*[
-Voir ,(bof-ref "services" [Harmonies, ch. XVII]).
-,(NdEEO)]).
+mais sont le contraire, l’antipode de la vérité.
 ][
 Quant aux impôts qui sont improductifs,
 supprimez-les, si vous pouvez ;
@@ -270,7 +270,7 @@ Mais ceci regarde les hommes politiques,
 Et ne confondons pas, pour trop approfondir, ,(br)
 leurs affaires avec les nôtres
 	,(footnote*[
-	Voir, au tome V, le pamphlet
+	Voir le pamphlet
 	,(bof-ref "paix_et_liberte" (cite-title[Paix et liberté])).
 ,(NdEEO)]). ,(np "lafontaine" [*])
 

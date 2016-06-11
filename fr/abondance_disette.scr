@@ -3,6 +3,10 @@
 (in-bof :title "Abondance, Disette - par Frédéric Bastiat")
 (document :title "Abondance, Disette"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/4/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 5.])
+])
 (bastiat[
 ,(date-tag [,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1845.])
 ,(p :class "noselect" [Cette courte introduction figure uniquement dans le Journal des Économistes.])

@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Aux artisans et aux ouvriers"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f65.image" [,(cite-title[Sophismes économiques II])]), ch. 6.])
+])
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 18 septembre 1846.])
 ,(h2[Chapitre VI de la seconde série des ,(SophismesEconomiques)
@@ -14,7 +17,7 @@ du ,(cite-title[Courrier français]) (n° du 18 septembre 1846),
 dont les colonnes furent ouvertes à l’auteur
 pour repousser les attaques de l’,(cite-title[Atelier]).
 Ce ne fut que deux mois plus tard que parut
-la feuille du ,(cite-title[Libre-Échange]). ,(NdEEO)
+la feuille du ,(ref :url "journaux_le.html" [,(cite-title[Libre-Échange])]). ,(NdEEO)
 ])])
 
 ,(p*[
@@ -404,9 +407,7 @@ il ne faut que laisser agir ces tendances,
 éloigner les obstructions artificielles qui en suspendent l’effet,
 et laisser les relations des classes diverses s’établir
 sur le principe de la ,(strong[justice]) qui se confond,
-du moins dans mon esprit, avec le principe de la ,(sc[liberté]),(footnote*[
-V. au tome II, la polémique directe contre divers journaux. ,(NdEEO)
-]).
+du moins dans mon esprit, avec le principe de la ,(sc[liberté]).
 
 ])])
 (tous_les_scripts)

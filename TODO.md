@@ -4,6 +4,8 @@ TODO
 Les priorités du jour
 ---------------------
 
+- Fonction magique lien interne / lien externe. (avec, pour les liens externes, target="_blank" et rel="noopener noreferrer", ou un truc comme ça). Et tant qu'à faire, une classe "external" (pas la peine d'avoir une classe pour les liens internes)
+
 - envelopper le h4 "Notes" et le hrule qui l'accompagne dans une div class ="footnotes" au pluriel (ou autre nom, peu importe) pour pouvoir les rendre invisibles quand les footnotes se transforment en sidenotes.
 - purement cosmétique, mais tant qu'on y est: supprimer le align="justify" dans les p qui sont dans les footnotes (ça doit se régler par du css)
 - Comment faire pour que les appels de note ne soient pas renvoyés en début de ligne suivante? (qu'ils soient collés au mot précédent ou précédés d'un espace insécable, je n'arrive pas à les faire tenir)

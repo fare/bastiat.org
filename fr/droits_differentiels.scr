@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Droits différentiels"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/62/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 62.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre VIII de la I,(re) série des ,(SophismesEconomiques)])

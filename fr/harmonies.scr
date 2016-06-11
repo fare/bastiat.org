@@ -5,8 +5,8 @@
 
 (document :title [Harmonies Économiques]
 	:author (author-FB)
-
-(itemize
+(sommaire[
+,(itemize
 (item[Introduction.
 	,(bof-ref "a_la_jeunesse_francaise" [À la jeunesse française])])
 (item[I. ,(bof-ref "organisation" [Organisation naturelle, organisation artificielle])
@@ -75,9 +75,10 @@ tome V, page 94.
 (item[XXV. ,(bof-ref "rapports" [Rapports de l'économie politique avec...])
 ]))
 
-
+])
 (set! =bof.url= "http://bastiat.org/fr/")
 (tous_les_scripts)
+(footer[])
 (with-footer
 (p*[
 Préparé par ,(FRR) pour ,(Bastiat.org)

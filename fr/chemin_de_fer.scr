@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Un chemin de fer négatif"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/93/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 93.])
+])
 (bastiat[
 ,(h2[Chapitre XVII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[

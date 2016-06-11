@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "La main droite et la main gauche"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f178.image" [,(cite-title[Sophismes économiques II])]), ch. 16.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 13 décembre 1846.])
 ,(h2[Chapitre XVI de la seconde série des ,(SophismesEconomiques)])

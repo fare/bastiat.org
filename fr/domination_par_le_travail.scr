@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Domination par le travail"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f188.image" [,(cite-title[Sophismes économiques II])]), ch. 17.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 février 1847.])
 ,(h2[Chapitre XVII de la seconde série des ,(SophismesEconomiques)])

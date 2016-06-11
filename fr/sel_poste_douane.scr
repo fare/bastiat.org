@@ -4,7 +4,10 @@
 
 (document :title "Le sel, la poste, la douane"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f118.image" [,(cite-title[Sophismes économiques II])]), ch. 12.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de mai 1846.])
 ,(h2[Chapitre XII de la seconde série des ,(SophismesEconomiques)])

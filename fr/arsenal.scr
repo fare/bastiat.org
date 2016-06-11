@@ -3,7 +3,10 @@
 (in-bof :title "Le petit arsenal du libre-échangiste - par Frédéric Bastiat")
 (document :title "Le petit arsenal du libre-échangiste"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f169.image" [,(cite-title[Sophismes économiques II])]), ch. 15.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 25 avril 1847.])
 ,(h2[Chapitre XV de la seconde série des ,(SophismesEconomiques)])

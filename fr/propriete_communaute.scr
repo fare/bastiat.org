@@ -1302,7 +1302,7 @@ et notamment le concours de la nature,
 tant qu’un des contractants pourra dire à l’autre :
 Si vous me demandez plus que ne ,(emph[vaut]) votre service,
 je m’adresserai ailleurs ou me le rendrai à moi-même.
-](nbsp)[
+](nbsp)[,(tag :a :name "platon_ref")
 Ce n’est pas assez de justifier la Propriété,
 je voudrais la faire chérir même par les Communistes les plus convaincus.
 Pour cela que faut-il ?
@@ -1312,7 +1312,7 @@ que non-seulement elle ne monopolise pas entre quelques mains les dons de Dieu,
 mais qu’elle a pour mission spéciale d’agrandir sans cesse
 le cercle de la Communauté.
 Sous ce rapport, elle est bien autrement ingénieuse
-que Platon, Morus, Fénelon ou M. Cabet.
+que ,(np "platon" [Platon]), ,(np "more" [Morus]), ,(np "fenelon" [Fénelon]) ou ,(np "cabet" [M. Cabet]).
 ][
 Qu’il y ait des biens dont les hommes jouissent gratuitement et en commun
 sur le pied de la plus parfaite égalité,
@@ -1321,21 +1321,22 @@ une Communauté très-réelle, c’est ce que nul ne conteste.
 Il ne faut d’ailleurs, qu’on soit économiste ou socialiste,
 que des yeux pour le voir.
 Tous les enfants de Dieu sont traités de même à certains égards.
-Tous sont égaux devant la gravitation, qui les attache au sol,
+Tous sont égaux devant la gravitation qui les attache au sol,
 devant l’air respirable, la lumière du jour, l’eau des torrents.
+,(tag :a :name "say_ref2")
 Ce vaste et incommensurable fonds commun,
 qui n’a rien à démêler avec la Valeur ou la Propriété,
-Say le nomme ,(emph[richesse naturelle]),
-par opposition à la ,(emph[richesse sociale]) ,(pv)
-Proudhon, ,(emph[biens naturels]),
-par opposition aux ,(emph[biens acquis]) ,(pv)
-Considérant, ,(emph[Capital naturel]),
-par opposition au ,(emph[Capital créé]) ,(pv)
-Saint-Chamans, ,(emph[richesse de jouissance]),
-par opposition à la ,(emph[richesse de valeur]) ,(pv)
+,(np "say_jb" [Say]) le nomme ,(emph[richesse naturelle]),
+par opposition à la ,(emph[richesse sociale ;])
+,(np "proudhon" [Proudhon]), ,(emph[biens naturels]),
+par opposition aux ,(emph[biens acquis ;])
+,(np "considerant" [Considérant]), ,(emph[Capital naturel]),
+par opposition au ,(emph[Capital créé ;])
+,(np "stchamans" [Saint-Chamans]), ,(emph[richesse de jouissance]),
+par opposition à la ,(emph[richesse de valeur ;])
 nous l’avons nommé ,(emph[utilité gratuite]),
 par opposition à l’,(emph[utilité onéreuse]).
-Qu’on l’appelle comme on voudra, il existe : ,(XXX :sic)
+Qu’on l’appelle comme on voudra, il existe ;
 cela suffit pour dire :
 Il y a parmi les hommes un fonds commun de satisfactions gratuites et égales.
 ][
@@ -1346,7 +1347,7 @@ on ne peut pas dire qu’elle le soit injustement,
 puisqu’elle est pour chacun proportionnelle
 aux ,(emph[services]) d’où elle procède et dont elle n’est que l’évaluation.
 En outre, il est clair que cette inégalité est atténuée
-par l’existence du fonds commun, en vertu de cette règle mathématique ;
+par l’existence du fonds commun, en vertu de cette règle mathématique :
 l’inégalité relative de deux nombres inégaux s’affaiblit
 si l’on ajoute à chacun d’eux des nombres égaux.
 Lors donc que nos inventaires constatent
@@ -1406,7 +1407,7 @@ parce qu’elle correspond toujours à des services,
 tend à transformer l’utilité onéreuse en utilité gratuite.
 Elle est cet aiguillon qui force l’intelligence humaine
 à tirer de l’inertie des forces naturelles latentes.
-Elle lutte à son profit sans doute,
+Elle lutte, à son profit sans doute,
 contre les obstacles qui rendent l’utilité onéreuse.
 Et quand l’obstacle est renversé dans une certaine mesure,
 il se trouve qu’il a disparu dans cette mesure au profit de tous.
@@ -1436,7 +1437,7 @@ Quand un obstacle existe, toute la série se construit.
 Nous voyons apparaître d’abord l’Effort ;
 ,(--) puis l’échange volontaire des efforts et des services ;
 ,(--) puis l’appréciation comparée des services ou la Valeur ;
-enfin, le droit pour chacun de jouir des utilités attachées à ces valeurs
+,(--) enfin, le droit pour chacun de jouir des utilités attachées à ces valeurs
 ou la Propriété.
 ][
 Si, dans cette lutte contre des obstacles toujours égaux,
@@ -1528,9 +1529,8 @@ s’est progressivement ajoutée à nos propres efforts,
 et qu’elle reste gratuite à travers toutes nos transactions ;
 ,(--) car si elle n’était pas gratuite, elle n’expliquerait rien.
 ][
-De ce qui précède, nous devons déduire ces formules :
-][
-,(emph[Toute propriété est une Valeur ;
+De ce qui précède, nous devons déduire ces formules :])
+,(liste(p*[,(emph[Toute propriété est une Valeur ;
 toute Valeur est une Propriété.])
 ][
 ,(emph[Ce qui n’a pas de valeur est gratuit ;
@@ -1539,9 +1539,9 @@ ce qui est gratuit est commun.])
 ,(emph[Baisse de valeur, c’est approximation vers la gratuité.])
 ][
 ,(emph[Approximation vers la gratuité,
-c’est réalisation partielle de Communauté.])
-][
-Il est des temps où l’on ne peut prononcer certains mots
+c’est réalisation partielle de Communauté.])]))
+
+,(p*[Il est des temps où l’on ne peut prononcer certains mots
 sans s’exposer à de fausses interprétations.
 Il ne manquera pas de gens prêts à s’écrier,
 dans une intention laudative ou critique, selon le camp :
@@ -1559,11 +1559,12 @@ non-seulement de la propriété,
 mais encore du droit, de la liberté, de la justice,
 et même de la personnalité humaine.
 ][
-La Communauté s’entend des biens dont nous jouissons en commun,
-par destination providentielle
-sans qu’il y ait aucun effort à faire pour les appliquer à notre usage ;
+La Communauté s’entend des biens dont nous jouissons en commun
+par destination providentielle,
+parce que, n’ayant aucun effort à faire pour les appliquer à notre usage,
+ils ne peuvent donc donner lieu à aucun service, à aucune transaction, à aucune Propriété. ,(XXX :EO "sans qu’il y ait aucun effort à faire pour les appliquer à notre usage ;
 ,(--) ils ne peuvent donc donner lieu
-à aucun service, à aucune transaction, à aucune Propriété.
+à aucun service, à aucune transaction, à aucune Propriété.")
 Celle-ci a pour fondement le droit
 que nous avons de nous rendre des services à nous-mêmes,
 ou d’en rendre aux autres à charge de revanche.
@@ -1603,7 +1604,7 @@ vous ne faites que la transformer.
 On concourt aujourd’hui à qui travaillera plus et mieux.
 On concourra, sous votre régime,
 à qui travaillera plus mal et moins.
-][
+][,(tag :a :name "blanc_ref")
 Le communisme méconnaît la nature même de l’homme.
 L’effort est pénible en lui-même.
 Qu’est-ce qui nous y détermine ?
@@ -1611,14 +1612,14 @@ Ce ne peut être qu’un sentiment plus pénible encore,
 un besoin à satisfaire, une douleur à éloigner, un bien à réaliser.
 Notre mobile est donc l’intérêt personnel.
 Quand on demande au communisme ce qu’il y veut substituer,
-il répond par la bouche de Louis Blanc : ,(emph[Le point d’honneur]),
-,(--) et par celle de M. Cabet : ,(emph[La fraternité]).
+il répond par la bouche de ,(np "blanc" [Louis Blanc]) : ,(emph[Le point d’honneur]),
+,(--) et par celle de ,(np "cabet" [M. Cabet]) : ,(emph[La fraternité]).
 Faites donc que j’éprouve les sensations d’autrui,
 afin que je sache au moins quelle direction je dois imprimer à mon travail.
 ][
 Et puis qu’est-ce qu’un point d’honneur, une fraternité,
 mis en ,(oe)uvre dans l’humanité entière
-par l’incitation et sous l’inspection de MM. Louis Blanc et Cabet ?
+par l’incitation et sous l’inspection de MM. ,(np "blanc" [Louis Blanc]) et ,(np "cabet" [Cabet]) ?
 ][
 Mais je n’ai pas ici à réfuter le communisme.
 Tout ce que je veux faire remarquer,
@@ -1687,7 +1688,7 @@ non point ce qui ne coûte rien à un homme,
 parce qu’on l’a pris à un autre,
 mais ce qui ne coûte rien à personne ?
 ][
-Quand Diogène se chauffait au soleil,
+Quand ,(np "diogene" [Diogène]) se chauffait au soleil,
 on pouvait dire qu’il se chauffait gratuitement,
 car il recueillait de la libéralité divine
 une satisfaction qui n’exigeait aucun travail,

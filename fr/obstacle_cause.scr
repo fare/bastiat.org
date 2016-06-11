@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Obstacle, cause"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/15/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 15.])
+])
 (bastiat[
 ,(date-tag [,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1845.])
 ,(h2 [Chapitre II de la I,(re) série des ,(SophismesEconomiques)])
@@ -154,10 +158,10 @@ et qu’il nous suffirait de prononcer un ,(inlatin[fiat])
 pour que tous nos besoins et tous nos désirs fussent satisfaits
 	,(footnote*[
 Voyez, sur, le même sujet,
-le ,(bof-ref "autre_chose" [chapitre XIV
-	de la seconde Série des ,(cite-title[Sophismes])]),
-et les chapitres ,(bof-ref "des_besoins_de_l_homme" [III])
-et ,(bof-ref "producteur_consommateur" [XI]) des Harmonies économiques.
+le ,(bof-ref "autre_chose" [chapitre ,(sc[xiv])])
+	de la seconde série des ,(cite-title[Sophismes]),
+et les chapitres ,(ref :url "des_besoins_de_l_homme.html#fixe" [,(sc[iii])])
+et ,(ref :url "producteur_consommateur.html" [,(sc[xi])]) des ,(cite-title[Harmonies économiques]).
 ,(NdEEO)]).
 
 ])])

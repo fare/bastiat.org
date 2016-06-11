@@ -4,7 +4,10 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Théorie, pratique"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/79/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 79.])
+])
 (bastiat[
 ,(h2[Chapitre XIII de la I,(re) série des ,(SophismesEconomiques)])
 

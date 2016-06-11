@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Le vol à la prime"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f88.image" [,(cite-title[Sophismes économiques II])]), ch. 9.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1846.])
 ,(h2[Chapitre IX de la seconde série des ,(SophismesEconomiques)])
@@ -50,7 +53,7 @@ Lorsque nos bulletins de contributions se trouvent chargés des 5 fr. pour la p
 ][
 Au reste, que les monopoleurs se rassurent. Les vols ,(emph[à la prime]) ou ,(emph[au tarif]), s’ils blessent l’équité tout aussi bien que le vol à l’américaine, ne violent pas la loi ; ils se commettent, au contraire, de par la loi ; ils n’en sont que pires, mais ils n’ont rien à démêler avec la ,(emph[correctionnelle]).
 ][
-D’ailleurs, bon gré, mal gré, nous sommes tous ,(emph[voleurs]) et ,(emph[volés]) en cette affaire. L’auteur de ce volume a beau crier ,(emph[au voleur]) quand il achète, on peut crier après lui quand il vend ,(footnote*[Possédant un champ qui le fait vivre, il est de la classe des ,(emph[protégés]). Cette circonstance devrait désarmer la critique. Elle montre que, s’il se sert d’expressions dures, c’est contre la chose et non contre les intentions.]) ; s’il diffère de beaucoup de ses compatriotes, c’est seulement en ceci : il sait qu’il perd au jeu plus qu’il n’y gagne, et eux ne le savent pas ; s’ils le savaient, le jeu cesserait bientôt.
+D’ailleurs, bon gré, mal gré, nous sommes tous ,(emph[voleurs]) et ,(emph[volés]) en cette affaire. L’auteur de ce volume a beau crier ,(emph[au voleur]) quand il achète, on peut crier après lui quand il vend ,(footnote*[Possédant un champ qui le fait vivre, il est de la classe des ,(emph[protégés]). Cette circonstance devrait désarmer la critique. Elle montre que, s’il se sert d’expressions dures, c’est contre la chose et non contre les intentions. ,(NdA)]) ; s’il diffère de beaucoup de ses compatriotes, c’est seulement en ceci : il sait qu’il perd au jeu plus qu’il n’y gagne, et eux ne le savent pas ; s’ils le savaient, le jeu cesserait bientôt.
 ][,(tag :a :name "smith_ref")
 Je ne me vante pas, au surplus, d’avoir le premier restitué à la chose son vrai nom. Voici plus de soixante ans que ,(np "smith" [Smith]) disait :
 ][

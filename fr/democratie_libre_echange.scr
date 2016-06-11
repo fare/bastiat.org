@@ -4,6 +4,11 @@
 
 (document :title "Démocratie et libre-échange"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(a :href "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=70" [Fac-similé du ,(cite-title[Libre-Échange])]), vol. 1, p. 174.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/100/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, p. 100.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 avril 1847.])
 ,(p*[

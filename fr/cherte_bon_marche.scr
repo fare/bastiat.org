@@ -4,7 +4,10 @@
 
 (document :title "Cherté, bon marché"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f55.image" [,(cite-title[Sophismes économiques II])]), ch. 5.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 juillet 1847.])
 ,(h2[Chapitre V de la seconde série des ,(SophismesEconomiques)])

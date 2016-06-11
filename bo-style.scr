@@ -11,7 +11,7 @@
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
 	  :css "bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
+    :script '("https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" "jquery.sticky-kit.min.js")
       '())
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -21,7 +21,7 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
+    :script '("https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" "jquery.sticky-kit.min.js")
 	  '())
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -31,7 +31,8 @@
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"
+:script "../jquery-3.0.0.min.js"
+    :script '("https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" "jquery.sticky-kit.min.js")
 	  '())
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
@@ -343,6 +344,9 @@
 
 ;;; Footnotes
 
+;y'a un bug: faire en sorte que les notes restent à la même place on reload.
+; Edit: le bug se produit seulement offline, bizarrement
+
 (define (script_sidenotes) (%raw "<script>
 var overlap = function(a, b) {
   return (a.offset().top < b.offset().top + b.height() + 20)
@@ -434,8 +438,8 @@ window.onresize = function() {
 (defun auteur (&rest r) (div :class "auteur" r))
 
 (defun gauche (&rest r) (div :class "gauche" r))
-;Notes marginales
-(defun mnote (&rest r) (div :class "mnote" r))
+
+(defun sidebar (&rest r) (div :id "sidebar" r))
 
 ;(Pour les liens retour/préc/suiv)
 (defun
@@ -566,7 +570,7 @@ window.onresize = function() {
 (defun oeuvres () (precsuiv "Œuvres" "guillaumin.html" serie_chronologique))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
-(defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_arrivabene.html" lettres_a_arrivabene))
+(defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_comte_arrivabene.html" lettres_a_arrivabene))
 (defun calmetes () (precsuiv "Lettres à Calmètes" "lettres_calmetes.html" lettres_a_calmetes))
 (defun cheuvreux () (precsuiv "Lettres aux Cheuvreux" "lettres_cheuvreux.html" lettres_a_cheuvreux))
 (defun cobden () (precsuiv "Lettres à Cobden" "lettres_cobden.html" lettres_a_cobden))
@@ -603,6 +607,37 @@ window.onresize = function() {
   ,(header-url)
   ,(script_header)] r))
 
-(defun tous_les_scripts () (script_sidenotes))
+
+
 
 (defparameter *trusted-hosts* (list-to-hash-set '("bastiat.org")))
+
+;à corriger pour permettre d'enlever la fonctionnalité sticky
+
+(define (script_sidebar)
+(%raw "<script>
+  var width = $(window).width();
+  var smallScreen = (width < 1000);
+  var sideBar = $('#sidebar');
+  var toggleSticky = function() {
+      if (smallScreen) {
+        noStick = 1;
+        $('#sidebar').trigger('sticky_kit:detach');
+      } else {
+        noStick = 0;
+      };
+  };
+  var stickySidebar = function() {
+    sideBar.stick_in_parent();
+  };
+$(document).ready(function() {
+  toggleSticky();
+  stickySidebar();
+  window.onresize = function() {
+    toggleSticky();
+    stickySidebar();
+  };
+});
+</script>"))
+
+(defun tous_les_scripts () (script_sidenotes))

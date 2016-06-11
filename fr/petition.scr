@@ -4,19 +4,24 @@
 	- par Frédéric Bastiat")
 (document :title "Pétition des fabricants de chandelles"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/57/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 57.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre VII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*
 (center (sc (font :size "+3" [Pétition])))
-(sc (font :size "+2" [des fabricants de
+(sc (font :size "+1" [des fabricants de
 chandelles, bougies, lampes,
 chandeliers, réverbères, mouchettes, éteignoirs,
 et des producteurs de suif, huile, résine, alcool,
 et généralement de tout ce qui concerne l’éclairage.
 ]))
+(nbsp)
 (center (bold (font :size "+1" [A MM. les Membres de la Chambre des Députés.]))))
-
+,(nbsp)
 ,(cher[« Messieurs,])
 ,(p*[« Vous êtes dans la bonne voie.
 Vous repoussez les théories abstraites ;

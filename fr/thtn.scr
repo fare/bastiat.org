@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Travail Humain, Travail National"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/100/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 100.])
+])
 (bastiat[
 ,(h2[Chapitre XX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[

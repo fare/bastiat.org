@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Effort, résultat"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/19/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 19.])
+])
 (bastiat[
 ,(date-tag [,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1845.])
 ,(h2 [Chapitre III de la I,(re) série des ,(SophismesEconomiques)])
@@ -42,7 +45,7 @@ par l’effort à la fois éternel et stérile de ,(np "sisyphe" [Sisyphe])
 ,(footnote*[
 Par ce motif, nous prions le lecteur de nous excuser si, pour abréger,
 nous désignons dans la suite ce système sous le nom de ,(emph[Sisyphisme]).
-]).
+,(NdA)]).
 ][
 Naturellement, le premier accueille tout ce qui tend
 à diminuer la peine et à augmenter le produit :
@@ -264,7 +267,7 @@ dans la bouche des adversaires de la betterave.
 Mais il se l’appropriait formellement,
 et le sanctionnait d’ailleurs
 par la loi même à laquelle il servait de justification.
-]).])
+,(NdA)]).])
 ][
 Il y a deux choses dans cette citation : les faits et la doctrine.
 Les faits tendent à établir qu’il faut peu
@@ -279,14 +282,14 @@ la ,(emph[limite de son utilité]).
 Je n’ai point à me constituer ici le défenseur de la betterave
 ou le juge des faits étranges avancés par ,(np "argout" [M. d’Argout])
 ,(footnote*[
-À supposer que 48,000 à 50,000 hectares
+A supposer que 48,000 à 50,000 hectares
 suffisent à alimenter la consommation actuelle,
 il en faudrait 150,000 pour une consommation triple,
 que M. d’Argout admet comme possible.
 ,(--) De plus, si la betterave entrait dans un assolement de six ans,
 elle occuperait successivement 900,000 hectares, on 1/38 ,(XXX[,(sup[e])])
 du sol cultivable.
-]) ,(pv)
+,(NdA)]) ;
 mais il vaut la peine de scruter la doctrine d’un homme d’État
 à qui la France a confié pendant longtemps
 le sort de son agriculture et de son commerce.
@@ -362,7 +365,7 @@ que parce que l’opinion publique en est saturée.
 Je crois devoir répéter ici que je n’accuse pas des hommes
 tels que MM. ,(np "bugeaud" [Bugeaud]), ,(np "dupin_ch" [Dupin]), ,(np "stcricq" [Saint-Cricq]), ,(np "argout" [d’Argout]),
 d’être absolument, et en toutes circonstances, ,(emph[Sisyphistes]).
-À coup sûr ils ne le sont pas dans leurs transactions privées ;
+A coup sûr ils ne le sont pas dans leurs transactions privées ;
 à coup sûr chacun d’entre eux se procure, ,(emph[par voie d’échange,])
 ce qu’il lui en coûterait plus cher de se procurer
 ,(emph[par voie de production directe]).

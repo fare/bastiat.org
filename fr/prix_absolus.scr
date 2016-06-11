@@ -4,7 +4,10 @@
 	- Sophisme économique démonté par Frédéric Bastiat")
 (document :title "Prix absolus"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/70/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 70.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre XI de la I,(re) série des ,(SophismesEconomiques)])
@@ -162,7 +165,7 @@ et par conséquent sans valeur aucune ,(footnote*[
 V. le ,(bof-ref "cherte_bon_marche"
 		[chapitre V de la seconde série])
    des ,(Soph-ref[sophismes])
-et le ,(bof-ref "richesse" [chapitre VI]) des ,(Harmonies_economiques).
+et le ,(bof-ref "richesse" [chapitre ,(sc[vi])]) des ,(Harmonies_economiques).
 ,(NdEEO)
 ]).
 ])])
