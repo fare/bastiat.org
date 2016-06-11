@@ -138,7 +138,7 @@
   (ref :url "http://fr.wikisource.org/"
 	[WikiSource]))
 (define (numeriseurs)
-  (ref :url [mailto:numeriseurs,(at)bastiat.net]
+  (ref :url "mailto:numeriseurs&#64;bastiat.net"
       [numeriseurs,(at)bastiat.net]))
 (define (bastiat.ftp)
   (ref :url "ftp://numerisons@bastiat.mine.nu"
@@ -598,11 +598,11 @@ window.onresize = function() {
 });</script>"
 ))
 
-(define (header-url) (a :href "http://bastiat.org/" :class "url_bo" [http://bastiat.org/]))
+(defun header-url () (a :href "http://bastiat.org/" :class "url_bo" [http://bastiat.org/]))
 (defun header (&rest r) (div :class "header" [,(titre(titre-courant))
   ,(header-url)
   ,(script_header)] r))
 
-(define (tous_les_scripts)
-[,(script_sidenotes)]
-)
+(defun tous_les_scripts () (script_sidenotes))
+
+(defparameter *trusted-hosts* (list-to-hash-set '("bastiat.org")))
