@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Une mystification"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/242/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 61, p. 242.])
+])
 (bastiat[
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])
 ,(p*[

@@ -4,6 +4,10 @@
 
 (document :title "A M. Larnac, député des Landes. De la réforme parlementaire."
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/480/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 480.])
+])
 (bastiat[
 ,(date-tag[1846.])
 

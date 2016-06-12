@@ -4,6 +4,10 @@
 du 14 septembre 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=57" [,(cite-title[Lettres d’un habitant des Landes])]), p. 113.])
+])
 (bastiat[
 ,(date-tag[Le soir, Lyon, 14 septembre 1850.])
 

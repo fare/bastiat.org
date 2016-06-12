@@ -4,6 +4,10 @@
 du 23 juin 1850")
 (document :title "Lettre à Prosper Paillottet"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/440/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 440.])
+])
 (bastiat[
 ,(date-tag[Eaux-Bonnes, 23 juin 1850.])
 ,(p*[

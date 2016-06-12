@@ -637,11 +637,12 @@ font-size: 90%;
 	font-family: 'paratexte';
 	text-align: justify;
 	position: absolute; left: 0;
-	background-color: #df8;
+	/*background-color: #df8;*/
 	padding: 1em;
 }
 #sidebar p {
 	margin: 0;
+	
 }
 #sidebar h5 {
 	margin: 0 0 0.2em 0;
@@ -669,6 +670,7 @@ font-size: 90%;
 	#sidebar {
 	position: relative;
 	width:90%; margin: auto;
+	background-color: transparent;
 	}
 }
 

@@ -4,6 +4,11 @@
 
 (document :title "Réflexions sur l’année 1846"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=40" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 10, p. 73.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/22/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 6, p. 22.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 31 janvier 1847.])
 ,(p*[

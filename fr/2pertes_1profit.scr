@@ -4,6 +4,14 @@
 	- par Frédéric Bastiat")
 (document :title "Deux pertes contre un profit"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=7" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 27, p. 215.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/384/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 58, p. 384.])
+])
+
+
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 30 mai 1847.])
 ,(h3[À ,(np "arago" [M. Arago]), de l’Académie des sciences

@@ -4,6 +4,10 @@
 
 (document :title "Rapport présenté au Conseil général des Landes, session de 1849, sur la question des communaux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/263/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 66, p. 263.])
+])
 (bastiat[
 ,(date-tag[1849.])
 ,(cher[Messieurs,])

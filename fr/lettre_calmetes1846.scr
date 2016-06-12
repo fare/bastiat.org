@@ -4,6 +4,10 @@
 du 4 mars 1846")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/13/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 13.])
+])
 (bastiat[
 ,(date-tag[Bayonne, 4 mars 1846.])
 ,(p*[

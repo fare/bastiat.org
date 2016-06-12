@@ -4,7 +4,13 @@
 	- par Frédéric Bastiat")
 (document :title "Des besoins de l'homme"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom46parigoog#page/n481/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 22, n° 93, p. 7.]
 
+[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/48/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd., ch. 3.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/55/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 55.])
+])
 (bastiat[
 ,(h2[Chapitre III des ,(HarmoniesEconomiques)])
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du ,(1er) septembre 1848 pour le début, du 15 décembre 1848 pour la ,(ref :url "#decembre" [fin]).])

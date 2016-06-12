@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur du Journal de Lille, organe des intérêts du Nord"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/47/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 10, p. 47.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 19 février 1846.])
 

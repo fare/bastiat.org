@@ -4,6 +4,10 @@
 
 (document :title "Les trois conseils"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/361/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 82, p. 361.])
+])
 (bastiat[
 ,(date-tag[Ébauche publiée par l’,(cite-title[Économiste belge]), n° du 3 juin 1860.])
 ,(p*[

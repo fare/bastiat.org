@@ -4,6 +4,11 @@
 
 (document :title "Les hommes spéciaux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=4" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 1, p. 7.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/373/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 56, p. 373.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 28 novembre 1847.])
 ,(p*[

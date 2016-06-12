@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur en chef du National"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/152/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 34, p. 152.])
+])
 (bastiat[
 ,(h2[I])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 10 novembre 1846.])

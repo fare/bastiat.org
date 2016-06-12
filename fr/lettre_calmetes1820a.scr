@@ -4,6 +4,10 @@
 du 5 mars 1820")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/2/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 2.])
+])
 (bastiat[
 ,(date-tag[Bayonne, 5 mars 1820.])
 ,(p*[

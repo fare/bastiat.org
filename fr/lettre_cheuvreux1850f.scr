@@ -4,6 +4,10 @@
 de mai 1850")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=33" [,(cite-title[Lettres d’un habitant des Landes])]), p. 65.])
+])
 (bastiat[
 ,(date-tag[Bordeaux, mai 1850.])
 ,(p*[

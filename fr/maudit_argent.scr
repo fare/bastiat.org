@@ -4,6 +4,10 @@
 	- pamphlet par Frédéric Bastiat")
 (document :title [Maudit Argent !]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom48parigoog#page/n11/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 23, n° 97, p. 1.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 avril 1849.])
 ,(p*[

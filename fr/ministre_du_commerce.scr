@@ -4,6 +4,10 @@
 
 (document :title "A M. le ministre de l’Agriculture et du Commerce"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/66/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 15, p. 66.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 6 avril 1846.])
 

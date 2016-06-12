@@ -6,7 +6,9 @@
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
-,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f88.image" [,(cite-title[Sophismes économiques II])]), ch. 9.])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n125/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 13, n° 50, p. 115.]
+[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f88.image" [,(cite-title[Sophismes économiques II])]), ch. 9.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/189/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 189.])
 ])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1846.])

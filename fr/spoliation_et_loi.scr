@@ -4,7 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Spoliation et loi"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/s1journaldesco26soci#page/160/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 26, n° 110, p. 160.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 mai 1850.])
 ,(h2[À Messieurs les Protectionistes du Conseil général des Manufactures.

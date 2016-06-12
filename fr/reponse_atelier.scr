@@ -4,6 +4,11 @@
 
 (document :title "Réponse au journal L’Atelier"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom55parigoog#page/n539/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 18, n° 69, p. 68.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/124/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 23, p. 124.])
+])
 (bastiat[
 ,(date-tag[Gray, le 28 juillet 1847.
 ,(br)Publié par le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’août 1847,

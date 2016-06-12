@@ -4,6 +4,10 @@
 
 (document :title "Aux négociants du Havre"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/130/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 29, p. 130.])
+])
 (bastiat[
 ,(p*[
 Trois lettres en faveur du libre-échange,

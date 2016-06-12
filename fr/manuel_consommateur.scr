@@ -4,6 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Le petit manuel du consommateur ou de tout le monde"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/409/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 61, p. 409.])
+])
+
 (bastiat[
 ,(date-tag[Ébauche inédite, 1847.])
 ,(p*[

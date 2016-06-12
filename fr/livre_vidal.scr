@@ -5,7 +5,11 @@
 (document :title "Sur un livre de M. Vidal"
 	:author (author-FB)
 
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n711/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 55, p. 243.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/440/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 440.])
+])
 (bastiat[
 ,(h2[De la répartition des richesses])
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juin 1846.])

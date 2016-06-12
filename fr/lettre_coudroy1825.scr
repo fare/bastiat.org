@@ -4,6 +4,10 @@
 du 8 janvier 1825")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/16/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 16.])
+])
 (bastiat[
 ,(date-tag[8 janvier 1825.])
 ,(p*[

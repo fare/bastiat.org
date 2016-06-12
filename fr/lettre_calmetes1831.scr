@@ -4,6 +4,10 @@
 du 22 avril 1831")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/12/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 12.])
+])
 (bastiat[
 ,(date-tag[Bayonne, 22 avril 1831.])
 ,(p*[

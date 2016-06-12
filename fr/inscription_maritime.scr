@@ -4,6 +4,13 @@
 
 (document :title "Sur l’inscription maritime"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=28" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 9, p. 49.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/205/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 36, p. 205.])
+])
+
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 23 janvier 1848.])
 ,(p*[

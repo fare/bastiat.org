@@ -4,6 +4,10 @@
 du 14 juillet 1849")
 (document :title "Lettre à Prosper Paillottet"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/436/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 436.])
+])
 (bastiat[
 ,(date-tag[Paris, 14 juillet 1849.])
 ,(p*[

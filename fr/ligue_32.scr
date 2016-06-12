@@ -4,6 +4,11 @@
 
 (document :title "Seconde campagne de la Ligue"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=89" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 50, p. 401.]
+)
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 7 novembre 1847.])
 ,(p*[

@@ -4,6 +4,13 @@
 
 (document :title "Conséquences comparées du régime protecteur et du libre-échange"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=101" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 39, p. 309.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/260/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 45, p. 260.])
+])
+
 (bastiat[
 
 ,(date-tag[Discours prononcé à Lyon le 7 août 1847,

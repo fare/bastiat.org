@@ -4,6 +4,10 @@
 
 (document :title "Qu’est-ce que le commerce ?"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/63/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 14, p. 63.])
+])
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du ,(1er) avril 1846.])
 ,(p*[

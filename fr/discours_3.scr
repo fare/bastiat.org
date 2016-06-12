@@ -4,6 +4,14 @@
 
 (document :title "Troisième discours"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=44" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 32, p. 252.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/246/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 44, p. 246.])
+])
+
+
 (bastiat[
 ,(date-tag[Prononcé le 3 juillet 1847, à la salle Taranne, devant une réunion de jeunes gens appartenant presque tous à l’école de droit.])
 ,(date-tag[Rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 4 juillet 1847.])

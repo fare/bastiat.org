@@ -4,6 +4,10 @@
 du 16 septembre 1849")
 (document :title "Lettre à M. Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=20" [,(cite-title[Lettres d’un habitant des Landes])]), p. 39.])
+])
 (bastiat[
 ,(date-tag[Mugron, 16 septembre 1849.])
 

@@ -4,6 +4,10 @@
 du 26 novembre 1850")
 (document :title "Lettre à Prosper Paillottet"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/206/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 206.])
+])
 (bastiat[
 ,(date-tag[Rome, 26 novembre 1850.])
 ,(p*[

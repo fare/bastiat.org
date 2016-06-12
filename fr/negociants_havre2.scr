@@ -4,6 +4,10 @@
 
 (document :title "Aux négociants du Havre"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/134/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 30, p. 134.])
+])
 (bastiat[
 ,(h2[II])
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 23 octobre 1846.])

@@ -4,6 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Propriété et Spoliation"
           :author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448138b/f2.item.zoom" [,(cite-title[Journal des Débats])]), 18 septembre 1848, p. 2, col. 4.]
+
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/425/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 425.])
+])
 (bastiat[
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 18 septembre 1848.])
 ,(h2[Cinquième lettre.])

@@ -4,6 +4,10 @@
 
 (document :title "Du chemin de fer de Bordeaux à Bayonne"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/103/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 22, p. 103.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
 

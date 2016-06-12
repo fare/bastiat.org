@@ -4,6 +4,10 @@
 du 4 juillet 1850")
 (document :title "Lettre à Horace Say"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/200/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 200.])
+])
 (bastiat[
 ,(date-tag[Eaux-Bonnes, 4 juillet 1850.])
 

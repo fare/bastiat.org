@@ -4,6 +4,10 @@
 
 (document :title "Liberté d’enseignement"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/231/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 53, p. 231.])
+])
 (bastiat[
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 4 mars 1848.])
 ,(p*[

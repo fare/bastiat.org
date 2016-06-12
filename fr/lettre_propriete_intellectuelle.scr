@@ -4,6 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Lettre sur la propriété intellectuelle"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k202316g/f343.item.zoom" [,(cite-title[Œuvres complètes])]), vol. 2, p. 340.])
+])
+
 (bastiat[
 ,(date-tag[Mugron, le 9 septembre 1847. ,(footnote*
 [Cette lettre est une redite, en condensé,

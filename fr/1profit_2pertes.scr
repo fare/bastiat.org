@@ -5,14 +5,17 @@
 (document :title "Un profit contre deux pertes"
 	:author (author-FB)
 
-
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=88" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 24, p. 192.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/377/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 57, p. 377.])
+])
 	
 (bastiat[
 
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 9 mai 1847.])
 ,(p*[
-Il y a maintenant dix-sept ans qu’un publiciste, que je ne nommerai pas,
+Il y a maintenant dix-sept ans qu’un publiciste que je ne nommerai pas
 dirigea contre la protection douanière un argument,
 sous forme algébrique,
 qu’il nommait la ,(emph[double incidence de la perte]).

@@ -4,6 +4,10 @@
 du 20 octobre 1822")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/8/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 8.])
+])
 (bastiat[
 ,(date-tag[Bayonne, 20 octobre 1822.])
 ,(p*[

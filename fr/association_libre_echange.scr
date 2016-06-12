@@ -4,13 +4,18 @@
 	- par Frédéric Bastiat")
 (document :title "Déclaration de principes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=65" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 22, p. 169.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 1, p. 1.])
+])
 (bastiat[
 ,(date-tag[10 mai 1846.
 ,(br)Republié dans le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 avril 1847.])
 ,(p*[
 
 Au moment de s’unir pour la défense d’une grande cause,
-les soussignés sentent le besoin d’exposer leur ,(emph[croyance]) ,(pv)
+les soussignés sentent le besoin d’exposer leur ,(emph[croyance ;])
 de proclamer
 	le ,(emph[but]),
 	la ,(emph[limite]),

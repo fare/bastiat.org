@@ -4,6 +4,10 @@
 du 19 février 1846")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/65/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 65.])
+])
 (bastiat[
 ,(date-tag[Bordeaux, le 19 février 1846])
 ,(p*[

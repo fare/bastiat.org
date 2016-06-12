@@ -4,6 +4,10 @@
 
 (document :title "Réflexions sur la question des duels"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/10/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 3, p. 10.])
+])
 (bastiat[
 ,(date-tag[,(tj "chalosse" [,(cite-title[La Chalosse])]), n° du 11 février 1838.])
 ,(h2[Compte rendu

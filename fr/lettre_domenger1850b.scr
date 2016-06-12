@@ -4,6 +4,10 @@
 du 22 mars 1850")
 (document :title "Lettre à Bernard Domenger"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/407/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 407.])
+])
 (bastiat[
 ,(date-tag[Paris, le 22 mars 1850.])
 ,(p*[

@@ -3,6 +3,10 @@
 (in-bof :title "Lettre de Frédéric Bastiat au président du Congrès de la paix")
 (document :title "Lettre au président du Congrès de la paix, à Francfort"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/197/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 197.])
+])
 (bastiat[
 ,(date-tag[Paris, 17 août 1850.])
 

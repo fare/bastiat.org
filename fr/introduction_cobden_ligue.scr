@@ -4,6 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title [Introduction à ,(cite-title[Cobden et la Ligue])]
 	:author (author-FB)
+
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/s1journaldesco11soci#page/233/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 11, n° 43, p. 233.])
+])
+
 (bastiat[
 ,(date-tag [Un ,(ref :url "#jde_extrait" [extrait]) a paru dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juin 1845.])
 ,(p*[

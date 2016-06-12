@@ -4,6 +4,10 @@
 
 (document :title [Projet de préface pour les Harmonies ,(footnote*[Ce projet, en forme de lettre adressée à l’auteur, fut ébauché par lui vers la fin de 1847.])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/303/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 73, p. 303.])
+])
 (bastiat[
 ,(date-tag[Fin 1847.])
 ,(cher[Mon cher Frédéric,])

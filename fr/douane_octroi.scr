@@ -4,6 +4,11 @@
 
 (document :title "Le National"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=57" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 21, p. 161.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/104/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 19, p. 104.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 18 avril 1847.])
 ,(p*[

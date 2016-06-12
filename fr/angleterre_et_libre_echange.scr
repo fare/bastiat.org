@@ -3,6 +3,11 @@
 (in-bof :title "L’Angleterre et le libre-échange - par Frédéric Bastiat")
 (document :title "L’Angleterre et le libre-échange"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=44" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 11, p. 81.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/177/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 32, p. 177.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 7 février 1847.])
 ,(p*[

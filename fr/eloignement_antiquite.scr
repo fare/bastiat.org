@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Ébauche sur l’Antiquité"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/454/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, ,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/454/mode/2up" [p. 454]) et ,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/490/mode/2up" [p. 490]), en note de bas de page.])
+])
 (bastiat[
 ,(date-tag[Ébauche inédite un peu antérieure à 1830,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "baccalaureat_et_socialisme.html#eloignement1" [note de bas de page]).])

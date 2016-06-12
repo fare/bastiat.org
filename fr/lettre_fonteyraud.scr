@@ -4,6 +4,10 @@
 du 18 mars 1820")
 (document :title "Lettre à M. Alcide Fonteyraud"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/194/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 194.])
+])
 (bastiat[
 ,(date-tag[Mugron, le 20 décembre 1845.])
 ,(p*[

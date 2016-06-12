@@ -4,6 +4,11 @@
 
 (document :title "M. de Noailles à la chambre des pairs"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=37" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 9, p. 66.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/216/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 38, p. 216.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 24 janvier 1847.])
 ,(p*[

@@ -4,6 +4,10 @@
 du 14 novembre 1848")
 (document :title "Lettre à Mme Schwabe"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/427/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 427.])
+])
 (bastiat[
 ,(date-tag[14 novembre 1848.])
 ,(cher[,(np "schwabe_j"[Madame]),])

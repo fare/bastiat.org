@@ -4,7 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title [Un économiste à M. Alphonse de Lamartine]
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom65parigoog#page/n253/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 10, p. 211.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/406/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 406.])
+])
 (bastiat[
 ,(h3 [A l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])

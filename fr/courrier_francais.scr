@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur du Courrier français"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/71/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 16, p. 71.])
+])
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 11 avril 1846.])
 ,(p*[

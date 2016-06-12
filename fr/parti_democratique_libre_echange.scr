@@ -4,6 +4,11 @@
 
 (document :title "Le parti démocratique et le libre-échange"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=17" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 16, p. 121.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/93/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 17, p. 93.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 mars 1847.])
 ,(p*[

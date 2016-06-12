@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur de L’Époque"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/53/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 12, p. 53.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 8 mars 1846.])
 

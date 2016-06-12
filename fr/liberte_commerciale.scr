@@ -4,6 +4,10 @@
 
 (document :title "Liberté commerciale"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/91/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 19, p. 91.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 2 mai 1846.])
 ,(p*[

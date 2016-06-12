@@ -4,6 +4,11 @@
 
 (document :title "La Tribune et la Presse, à propos du traité belge"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n469/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 53, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 16, p. 81.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1846.])
 ,(p*[

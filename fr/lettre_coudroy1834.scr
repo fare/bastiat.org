@@ -4,6 +4,10 @@
 du 2 mars 1834")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/27/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 27.])
+])
 (bastiat[
 ,(date-tag[Bordeaux, le 2 mars 1834.])
 ,(p*[

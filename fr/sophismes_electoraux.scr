@@ -4,6 +4,10 @@
 
 (document :title "Sophismes électoraux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/271/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 67, p. 271.])
+])
 (bastiat[
 ,(p*[
 Je suis engagé.

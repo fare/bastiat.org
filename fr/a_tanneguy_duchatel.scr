@@ -4,6 +4,10 @@
 
 (document :title "A M. Tanneguy Duchâtel, ministre de l’Intérieur"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/114/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 24, p. 114.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 30 juin 1846.])
 ,(cher[,(np "duchatel" [Monsieur le Ministre]),])

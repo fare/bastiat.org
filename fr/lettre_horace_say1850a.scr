@@ -4,6 +4,10 @@
 du 3 juin 1850")
 (document :title "Lettre à Horace Say"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/384/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 384.])
+])
 (bastiat[
 ,(date-tag[Mugron, 3 juin 1850.])
 

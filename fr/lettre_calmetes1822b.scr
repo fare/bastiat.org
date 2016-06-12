@@ -4,6 +4,10 @@
 de décembre 1822")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/9/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 9.])
+])
 (bastiat[
 ,(date-tag[Bayonne, décembre 1822.])
 ,(p*[

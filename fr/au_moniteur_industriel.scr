@@ -4,6 +4,10 @@
 
 (document :title "Lettre au Moniteur indutriel"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/128/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 28, p. 128.])
+])
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 29 août 1846.])
 

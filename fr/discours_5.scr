@@ -4,6 +4,13 @@
 
 (document :title "Influence du régime protecteur sur les salaires"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=4" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 40, p. 316.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/273/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 46, p. 273.])
+])
+
 (bastiat[
 
 ,(date-tag[Discours prononcé à Lyon le 10 août 1847,

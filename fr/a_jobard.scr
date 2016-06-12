@@ -4,6 +4,10 @@
 du 18 mars 1820")
 (document :title "Lettre à M. Jobard"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 41, p. 207.])
+])
 (bastiat [
 ,(date-tag[Paris, 22 janvier 1848.])
 ,(date-tag[Lettre publiée par l’,(tj "economiste_belge" [,(cite-title[Économiste belge])]), n° du ,(1er) septembre 1860.])

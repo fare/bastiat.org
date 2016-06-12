@@ -4,6 +4,10 @@
 du 2 juin 1850")
 (document :title "Lettre à Prosper Paillottet"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/439/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 439.])
+])
 (bastiat[
 ,(date-tag[Mugron, 2 juin 1850.])
 

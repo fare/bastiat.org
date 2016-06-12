@@ -4,6 +4,10 @@
 
 (document :title [Réforme parlementaire ,(footnote*[Cette esquisse, c’est ainsi que l’auteur la désigne en marge, restée à l’état de fragment, est postérieure à 1840. ,(NdEEO)])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/289/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 70, p. 289.])
+])
 (bastiat[
 ,(p*[
 

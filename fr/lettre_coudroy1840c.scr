@@ -4,6 +4,10 @@
 du 16 juillet 1840")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/32/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 32.])
+])
 (bastiat[
 ,(date-tag[Madrid, le 16 juillet 1840.])
 ,(p*[

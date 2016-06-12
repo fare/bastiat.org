@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur en chef de la Presse"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/148/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 33, p. 148.])
+])
 (bastiat [
 ,(h2[II])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 2 septembre 1846.])

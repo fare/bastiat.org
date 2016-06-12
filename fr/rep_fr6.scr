@@ -4,6 +4,10 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/218/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 47, p. 218.])
+])
 (bastiat[
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 29 février 1848.])
 ,(p*[

@@ -3,6 +3,10 @@
 (in-bof :title "Lettre de Frédéric Bastiat à M. de Fontenay")
 (document :title "Lettre à M. de Fontenay"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/204/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 204.])
+])
 (bastiat[
 ,(date-tag[Paris, 3 juillet 1850.])
 ,(p*[

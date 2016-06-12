@@ -4,6 +4,11 @@
 
 (document :title "Seconde lettre à M. de Lamartine"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n273/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 15, n° 59, p. 265.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/452/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 452.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(cher[Monsieur,])

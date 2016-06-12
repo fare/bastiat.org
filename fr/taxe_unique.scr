@@ -4,6 +4,13 @@
 
 (document :title "La taxe unique en Angleterre"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=37" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 31, p. 245.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/209/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 37, p. 209.])
+])
+
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 juin 1847.])
 ,(p*[

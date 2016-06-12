@@ -4,6 +4,10 @@
 du 1er juillet 1848")
 (document :title "Lettre à M. Schwabe"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/423/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 423.])
+])
 (bastiat[
 ,(date-tag[Paris, ,(1er) juillet 1848.])
 

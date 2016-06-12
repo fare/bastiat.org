@@ -3,6 +3,10 @@
 (in-bof :title "Lettre de Frédéric Bastiat à M. Charles Dunoyer")
 (document :title "Lettre à M. Charles Dunoyer, membre de l’Institut"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/371/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 371.])
+])
 (bastiat[
 ,(date-tag[Mugron, le 7 mars 1845.])
 

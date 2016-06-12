@@ -4,6 +4,10 @@
 
 (document :title "La loi des céréales et le salaire des ouvriers"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/125/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 27, p. 125.])
+])
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 24 août 1846.])
 ,(p*[

@@ -1,7 +1,7 @@
 (style 'bo-style)
-(in-bof :title "Guerre aux chaires d’économie politique
+(in-bof :title "La guerre aux chaires d’économie politique
 	- par Frédéric Bastiat")
-(document :title [Guerre aux chaires d’économie politique ,(footnote*[
+(document :title [La guerre aux chaires d’économie politique ,(footnote*[
 Trois ans avant la manifestation qui provoqua le pamphlet précédent,
 ,(XXX)
 la destitution des professeurs,
@@ -16,6 +16,12 @@ dans le n° du 13 juin 1847 du journal ,(cite-title[le Libre-Échange]),
 combattit cette prétention qui se produisait alors pour la première fois.
 ](NdEEO))]
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=24" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 29, p. 232.])
+])
+
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 juin 1847.])
 ,(p*[

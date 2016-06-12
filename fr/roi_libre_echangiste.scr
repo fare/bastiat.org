@@ -4,7 +4,11 @@
 
 (document :title "Le roi libre-échangiste"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/166/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 36, p. 166.]
+[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=2" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 27, p. 210.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 30 mai 1847.])
 ,(p*[

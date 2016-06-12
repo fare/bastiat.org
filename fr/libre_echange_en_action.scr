@@ -4,6 +4,10 @@
 
 (document :title "Le libre échange en action"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/58/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 13, p. 58.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 12 mars 1846.])
 

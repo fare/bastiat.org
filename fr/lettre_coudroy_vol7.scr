@@ -4,6 +4,10 @@
 
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/10/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 10, en note de bas de page.])
+])
 (bastiat[
 ,(date-tag[1845.])
 ,(p :class "noselect" [Extrait cité en note de bas de page par l’éditeur des ,(cite-title[Œuvres complètes]), avant les ,(cite-title[,(ref :url "duels.html" [Réflexions sur la question des duels])]).])

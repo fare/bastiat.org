@@ -4,6 +4,10 @@
 du 18 septembre 1850")
 (document :title "Lettre à M. Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=58" [,(cite-title[Lettres d’un habitant des Landes])]), p. 115.])
+])
 (bastiat[
 ,(date-tag[Marseille, 18 septembre 1850.])
 

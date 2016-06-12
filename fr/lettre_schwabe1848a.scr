@@ -4,6 +4,10 @@
 du 17 janvier 1848")
 (document :title "Lettre à Mme Schwabe"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/420/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 420.])
+])
 (bastiat[
 ,(date-tag[17 janvier 1848.])
 

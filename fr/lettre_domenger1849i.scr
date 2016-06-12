@@ -3,6 +3,10 @@
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger, été 1849")
 (document :title "Lettre à Bernard Domenger"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/403/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 403.])
+])
 (bastiat[
 ,(date-tag[Mardi, 13. (Été de 1849.)])
 ,(p*[

@@ -4,6 +4,10 @@
 du 12 mars 1829")
 (document :title "Lettre à Victor Calmètes"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/10/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 10.])
+])
 (bastiat[
 ,(date-tag[Mugron, 12 mars 1829.])
 ,(p*[

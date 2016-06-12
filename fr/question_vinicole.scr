@@ -4,6 +4,10 @@
 
 (document :title "Mémoire sur la question vinicole"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/261/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 261.])
+])
 (bastiat[
 ,(date-tag[22 janvier 1843.])
 ,(cher[Messieurs,])

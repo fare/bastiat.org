@@ -4,6 +4,10 @@
 
 (document :title "Discours à Bordeaux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/229/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 42, p. 229.])
+])
 (bastiat[
 ,(date-tag[23 février 1846.])
 

@@ -4,6 +4,10 @@
 
 (document :title "Pensée"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/361/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 81, p. 361.])
+])
 (bastiat[
 ,(p*[
 N’en est-il pas en religion comme en économie politique ? et n’a-t-on point le tort de chercher la solution dans une ,(emph[unité]) factice, imposée, intolérante, persécutrice, socialiste, incapable d’ailleurs de fournir ses titres à la domination et ses preuves de vérité ?

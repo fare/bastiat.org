@@ -4,6 +4,10 @@
 
 (document :title "Profession de foi d’avril 1849"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/255/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 65, p. 255.])
+])
 (bastiat[
 ,(date-tag[Avril 1849.])
 ,(cher[Mes chers Compatriotes,])

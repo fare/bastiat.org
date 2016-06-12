@@ -4,6 +4,11 @@
 
 (document :title "Second discours"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n297/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 15, n° 59, p. 288.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 43, p. 238.])
+])
 (bastiat[
 ,(date-tag[Discours prononcé à Paris, salle Montesquieu, le 29 septembre 1846,
 ,(br)partiellement reproduit dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])

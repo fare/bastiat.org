@@ -640,4 +640,4 @@ $(document).ready(function() {
 });
 </script>"))
 
-(defun tous_les_scripts () (script_sidenotes))
+(defun tous_les_scripts () [,(script_sidenotes)])

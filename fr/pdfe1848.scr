@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Aux électeurs des Landes."
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/506/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 506.])
+])
 (bastiat[
 ,(date-tag[Mugron, 22 mars 1848.])
 ,(cher[Mes chers concitoyens,])

@@ -4,6 +4,10 @@
 
 (document :title "Lettre à M. Dampierre"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/300/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 72, p. 300.])
+])
 (bastiat[
 ,(date-tag[3 juillet 1846.])
 

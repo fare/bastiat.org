@@ -4,6 +4,10 @@
 
 (document :title "Association pour la liberté des échanges"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/43/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 9, p. 43.])
+])
 (bastiat[
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 18 février 1846.])
 ,(p*[

@@ -4,6 +4,11 @@
 du 18 septembre 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=22" [,(cite-title[Lettres d’un habitant des Landes])]), p. 43.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/435/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 435.])
+])
 (bastiat[
 ,(date-tag[Mugron, 18 septembre 1849.])
 

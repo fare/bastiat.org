@@ -4,6 +4,10 @@
 
 (document :title "La question religieuse"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/355/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 79, p. 355.])
+])
 (bastiat[
 ,(p*[
 J’ai toujours pensé que la question religieuse remuerait encore le monde. Les religions positives actuelles retiennent trop d’,(emph[esprit]) et de ,(emph[moyens]) d’exploitation pour se concilier avec l’inévitable progrès des lumières. D’un autre côté, l’abus religieux fera une longue et terrible résistance, parce qu’il est fondu et confondu avec la morale religieuse qui est le plus grand besoin de l’humanité.

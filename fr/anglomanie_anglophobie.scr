@@ -4,6 +4,10 @@
 
 (document :title [Anglomanie, anglophobie ,(footnote*[Cette ébauche est de 1847. L’auteur voulait en faire un chapitre pour la seconde série des ,(cite-title[Sophismes économiques]), qui parut à la fin de l’année.])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/309/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 74, p. 309.])
+])
 (bastiat[
 ,(date-tag[1847.])
 ,(p*[

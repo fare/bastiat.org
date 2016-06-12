@@ -4,7 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "La Loi"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/342/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 342.])
+])
 (bastiat[
 ,(date-tag[Juin 1850.])
 ,(p*[

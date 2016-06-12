@@ -4,6 +4,10 @@
 
 (document :title "Article dans La République française"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/223/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 50, p. 223.])
+])
 (bastiat[
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 1,(sup[er]) mars 1848.])
 ,(p*[

@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Prendre cinq et rendre quatre ce n’est pas donner"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/240/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 60, p. 240.])
+])
 (bastiat[
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])
 ,(p*[

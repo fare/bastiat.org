@@ -4,6 +4,10 @@
 d’octobre 1847")
 (document :title "Lettre à Horace Say"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/380/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 380.])
+])
 (bastiat[
 ,(date-tag[Mugron, lundi, octobre 1847.])
 ,(p*[

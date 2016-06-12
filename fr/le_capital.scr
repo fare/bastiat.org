@@ -5,6 +5,10 @@
 (document :title [Le Capital ,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
 [N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/248/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 64, p. 248.])
+])
 (bastiat[
 ,(date-tag[,(cite-title[Almanach républicain]) pour 1849.])
 ,(p*[

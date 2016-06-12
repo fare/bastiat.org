@@ -4,6 +4,10 @@
 du 18 mars 1820")
 (document :title "Lettre à M. Schwabe"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/425/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 425.])
+])
 (bastiat[
 ,(date-tag[Douvres, 7 octobre 1848.])
 ,(p*[

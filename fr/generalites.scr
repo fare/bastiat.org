@@ -4,6 +4,11 @@
 
 (document :title "Sur les généralités"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=12" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 3, p. 18.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/12/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 4, p. 12.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 décembre 1846.])
 

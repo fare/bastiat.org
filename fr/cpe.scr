@@ -4,6 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Curieux phénomène économique"
 	:author (author-FB)
+
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/186/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 33, p. 186.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 21 février 1847.])
 ,(p*[

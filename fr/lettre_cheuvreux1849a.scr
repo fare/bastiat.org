@@ -4,6 +4,11 @@
 de janvier 1849")
 (document :title "Lettre à Mme Cheuvreux"
 	:author (author-FB)
+
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=6" [,(cite-title[Lettres d’un habitant des Landes])]), p. 10.])
+])
 (bastiat[
 ,(date-tag[Janvier 1849.])
 

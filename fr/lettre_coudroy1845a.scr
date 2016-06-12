@@ -4,6 +4,10 @@
 de mai 1845")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/50/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 50.])
+])
 (bastiat[
 ,(date-tag[Paris, mai 1845.])
 ,(p*[

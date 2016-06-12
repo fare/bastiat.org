@@ -13,6 +13,11 @@ qui rentre dans l’idée de ,(ref :url "baccalaureat_et_socialisme.html" [l’o
 ,(NdEEO)
 ])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/501/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 501.])
+])
 (bastiat[
 ,(date-tag[Ébauche datant des premiers mois de 1850,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) comme complément à la brochure ,(ref :url "baccalaureat_et_socialisme.html" [,(cite-title[Baccalauréat et socialisme])]).])

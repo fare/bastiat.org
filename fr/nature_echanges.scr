@@ -4,6 +4,11 @@
 
 (document :title "Réponse à la Presse"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=49" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 33, p. 257.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/158/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 28, p. 158.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 11 juillet 1847.])
 ,(p*[

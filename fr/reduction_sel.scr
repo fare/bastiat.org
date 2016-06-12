@@ -5,6 +5,11 @@
 
 (document :title "Conséquences de la réduction sur l’impôt du sel"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448242q/f3.item.zoom" [,(cite-title[Journal des Débats])]), ,(1er) janvier 1849, p. 3, col. 5.]
+)
+])
 (bastiat[
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du ,(1er) janvier 1849.])
 ,(p*[

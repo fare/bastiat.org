@@ -4,6 +4,10 @@
 du 8 avril 1849")
 (document :title "Lettre à Bernard Domenger"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/396/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 396.])
+])
 (bastiat[
 ,(date-tag[8 avril 1849.])
 ,(p*[

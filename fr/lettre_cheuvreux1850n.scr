@@ -4,6 +4,11 @@
 du 14 juillet 1850")
 (document :title "Lettre à M. Cheuvreux"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=51" [,(cite-title[Lettres d’un habitant des Landes])]), p. 100.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/435/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 435.])
+])
 (bastiat[
 ,(date-tag[Mugron, 14 juillet 1850.])
 ,(p*[

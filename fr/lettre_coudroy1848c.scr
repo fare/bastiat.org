@@ -4,6 +4,10 @@
 du 13 février 1848")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/79/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 79.])
+])
 (bastiat[
 ,(date-tag[Mugron, 13 février 1848.])
 ,(p*[

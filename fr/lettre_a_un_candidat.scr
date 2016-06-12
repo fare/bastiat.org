@@ -4,7 +4,10 @@
 
 (document :title "Lettre à un candidat"
 	:author (author-FB)
-
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/298/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 71, p. 298.])
+])
 (bastiat[
 
 ,(h2[Lettre à M. ***, en réponse à la sienne du 12 janvier

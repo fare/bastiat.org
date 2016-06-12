@@ -4,6 +4,10 @@
 
 (document :title [Liberté du commerce ,(footnote*[Article inédit paraissant avoir été destiné à un journal du midi de la France. Il est de 1844. ,(NdEEO)])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/14/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 4, p. 14.])
+])
 (bastiat[
 ,(date-tag[1844.])
 ,(liste(p*[

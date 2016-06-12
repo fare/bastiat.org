@@ -4,8 +4,14 @@
 
 (document :title "Deuxième lettre au Journal des Débats"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k447281f/f1.item.zoom" [,(cite-title[Journal des Débats])]), 11 mai 1846, p. 1, col. 4.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/99/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 21, p. 99.])
+])
 (bastiat[
-,(date-tag[Reproduite par le ,(tj "mb" [,(cite-title[Mémorial bordelais])]) du 14 mai 1846.])
+,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 11 mai 1846.
+,(br)Reproduit par le ,(tj "mb" [,(cite-title[Mémorial bordelais])]) du 14 mai 1846.])
 
 ,(cher[Monsieur le Rédacteur,])
 ,(p*[J’ai essayé de montrer par un exemple, et en évitant la dissertation, comment l’immense débouché qui va s’ouvrir dans la Grande-Bretagne aux produits européens ne profiterait guère qu’aux nations qui, les premières, modifieront leurs tarifs. Il est aisé de comprendre que les autres, réduites par la difficulté des ,(emph[retours]) à mettre au compte d’,(emph[une demi-opération]) les frais d’une opération, seront hors d’état de soutenir la lutte.

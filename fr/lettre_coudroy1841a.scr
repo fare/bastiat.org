@@ -4,6 +4,10 @@
 du 2 janvier 1841")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/43/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 43.])
+])
 (bastiat[
 ,(date-tag[Paris, 2 janvier 1841.])
 ,(p*[

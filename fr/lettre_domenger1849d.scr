@@ -3,6 +3,10 @@
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
 (document :title "Lettre à Bernard Domenger"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/392/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 392.])
+])
 (bastiat[
 ,(date-tag[Sans date.])
 ,(p*[

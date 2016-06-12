@@ -4,12 +4,14 @@
 
 (document :title "Lettre au Journal des Économistes"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/209/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 209.]
+[,(ref :url "https://archive.org/stream/bub_gb_ICRZAAAAcAAJ#page/n55/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 28, n° 117, p. 50.])
+])
 (bastiat[
-,(date-tag[Publiée à titre posthume, sauf le ,(inlatin[post scriptum]), dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 janvier 1851.])
-,(p*[
-,(small[Après la mort de Bastiat, il fut aisé à ses amis d’édifier M. Carey sur sa parfaite loyauté. Cette lettre nous paraît mériter cependant d’être conservée, d’autant plus que le post-scriptum contient les éléments d’une importante démonstration. ,(NdEEO)])
-][
-Mon livre est entre les mains du public. Je ne crains pas qu’il se rencontre une seule personne qui, après l’avoir lu, dise : « Ceci est l’ouvrage d’un plagiaire. » Une lente assimilation, fruit des méditations de toute ma vie, s’y laisse trop voir, surtout si on le rapproche de mes autres écrits.
+,(date-tag[Publiée à titre posthume, sauf le ,(inlatin[post scriptum]), dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 janvier 1851. ,(footnote*[Après la mort de Bastiat, il fut aisé à ses amis d’édifier M. Carey sur sa parfaite loyauté. Cette lettre nous paraît mériter cependant d’être conservée, d’autant plus que le post-scriptum contient les éléments d’une importante démonstration. ,(NdEEO)])])
+,(p*[Mon livre est entre les mains du public. Je ne crains pas qu’il se rencontre une seule personne qui, après l’avoir lu, dise : « Ceci est l’ouvrage d’un plagiaire. » Une lente assimilation, fruit des méditations de toute ma vie, s’y laisse trop voir, surtout si on le rapproche de mes autres écrits.
 ][
 Mais qui dit ,(emph[assimilation]), avoue qu’il n’a pas tout tiré de sa propre substance.
 ][
@@ -28,7 +30,7 @@ M. Carey se plaint de ce que je ne l’ai pas cité ; c’est peut-être un to
 En terminant, je ne puis m’empêcher de faire observer à M. Carey qu’un Français ne peut guère lui rendre justice, sans un grand effort d’impartialité ; et comme je suis Français, j’étais loin de m’attendre à ce qu’il daignât s’occuper de moi et de mon livre. M. Carey professe pour la France et les Français le mépris le plus profond et une haine qui va jusqu’au délire. Il a déversé ces sentiments dans un bon tiers de ses volumineux écrits ; et il s’est donné la peine de réunir, sans aucun discernement, il est vrai, de nombreux documents statistiques, pour prouver que c’est à peine si, dans l’échelle de l’humanité, nous sommes au-dessus des Indous. À la vérité, M. Carey, dans son livre, nie cette haine. Mais, en la niant, il la prouve ; car comment expliquer un tel déni ? qui l’a provoqué ? C’est la conscience même de M. Carey, qui, surpris lui-même, sans doute, de toutes les preuves de haine contre la France qu’il a accumulées dans son livre, a cru devoir proclamer qu’il ne haïssait pas la France. Combien de fois n’ai-je pas dit à M. Guillaumin : Il y a d’excellentes choses dans les ouvrages de M. Carey, et il serait bien de les faire traduire ; ils contribueraient à faire avancer l’économie politique dans notre pays. Mais aussitôt j’étais forcé d’ajouter : Pouvons-nous jeter dans le public français de pareilles diatribes contre la France, et ne risquons-nous pas de manquer notre but ? Le public ne repoussera-t-il pas ce qu’il y a de bon dans ces livres, à cause de ce qu’il y a de blessant et d’injuste ?
 ][
 Qu’il me soit permis de finir par une réflexion sur le mot plagiat, dont je me suis servi au début de cette lettre. Les personnes auxquelles je puis avoir emprunté un aperçu ou un argument pensent que je leur suis très-redevable ; je suis convaincu du contraire. Si je ne m’étais laissé entraîner à aucune controverse, si je n’avais examiné aucun système, si je n’avais cité aucun nom propre, si je m’étais borné à établir ces deux propositions : ,(emph[Les services s’échangent contre des services ; La valeur est le rapport des services échangés ;]) — si ensuite j’eusse expliqué, par ces principes, toutes les classes si compliquées des transactions humaines, je crois que le monument que j’ai cherché à élever eût beaucoup gagné (trop, peut-être, pour cette époque) en clarté, en grandeur et en simplicité.
-][
+](nbsp)[
 ,(inlatin[P. S.]) Je laisse M. Carey, et je m’adresse, peut-être pour la dernière fois, c’est-à-dire dans les sentiments de la plus intime bienveillance, à nos collègues de la rédaction du ,(cite-title[Journal des Économistes]). Dans la note de ce journal qui a provoqué la réclamation de M. Carey, la direction annonce qu’elle se prononce, sur la propriété foncière, pour la théorie de Ricardo. La raison qu’elle en donne, c’est que cette théorie a pour elle l’autorité de Ricardo d’abord, puis Malthus, Say et tous les économistes, « MM. Bastiat et Carey exceptés. » L’épigramme est aiguë, et il est certain que l’économiste américain et moi faisons bien humble figure dans l’antithèse.
 ][
 Quoiqu’il en soit, je répète que la direction du journal prend une résolution décisive pour son autorité scientifique.

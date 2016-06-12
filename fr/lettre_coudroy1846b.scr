@@ -4,6 +4,10 @@
 du 22 mars 1846")
 (document :title "Lettre à Félix Coudroy"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/66/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 66.])
+])
 (bastiat[
 ,(date-tag[Paris, le 22 mars 1846.])
 ,(p*[

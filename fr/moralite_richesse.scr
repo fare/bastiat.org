@@ -4,7 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Moralité de la richesse"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/184/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd., p. 184.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/199/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 199.])
+])
 (bastiat[
 ,(date-tag [Ébauche insérée dans la seconde édition des ,(cite-title[Harmonies]) à la fin du chapitre ,(ref :url "richesse.html" [,(cite-title[Richesse])]).])
 ,(p*[Nous venons d’étudier la richesse au point de vue économique :

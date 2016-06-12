@@ -4,6 +4,10 @@
 	- par Frédéric Bastiat")
 (document :title "Profession de foi électorale de 1846"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/461/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 461.])
+])
 (bastiat[
 ,(date-tag[Mugron, le ,(1er) juillet 1846.])
 ,(h2[À Messieurs les électeurs

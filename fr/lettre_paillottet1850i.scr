@@ -4,6 +4,12 @@
 du 8 décembre 1850")
 (document :title "Lettre à Prosper Paillottet"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 207.]
+[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=66" [,(cite-title[Lettres d’un habitant des Landes])]), p. 130.])
+])
+
 (bastiat[
 ,(date-tag[Rome, 8 décembre 1850.])
 ,(p*[

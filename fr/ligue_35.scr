@@ -4,6 +4,11 @@
 
 (document :title "Lettre de Bastiat à M. G. Wilson"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/412/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 412.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/141/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 26, p. 141.])
+])
 (bastiat[
 ,(p*[
 À partir de la révolution de Février, des devoirs nouveaux et impérieux réclament tous les instants de Bastiat. Il s’y dévoue avec une ardeur funeste à sa santé et interrompt la tâche qu’il s’était donnée de signaler à la France les bienfaits de la liberté commerciale en Angleterre.

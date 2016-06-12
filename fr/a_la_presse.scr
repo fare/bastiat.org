@@ -4,6 +4,10 @@
 
 (document :title "A M. le rédacteur en chef de la Presse"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/142/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 32, p. 142.])
+])
 (bastiat [
 ,(h2[I])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 22 août 1846.])

@@ -4,6 +4,12 @@
 	- par Frédéric Bastiat")
 (document :title "Justice et fraternité"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom24parigoog#page/n745/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 20, n° 82, p. 310.]
+
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/298/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 298.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 juin 1848.])
 ,(p*[L’École économiste est en opposition sur une foule de points

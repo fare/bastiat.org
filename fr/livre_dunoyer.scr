@@ -4,6 +4,10 @@
 
 (document :title "Sur l’ouvrage de M. Dunoyer : De la liberté du travail"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/428/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 428.])
+])
 (bastiat[
 ,(date-tag[Ébauche inédite (1845)])
 ,(p*[

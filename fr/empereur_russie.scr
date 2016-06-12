@@ -4,6 +4,11 @@
 
 (document :title "L’empereur de Russie"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=81" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 24, p. 185.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/164/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 29, p. 164.])
+])
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 9 mai 1847.])
 ,(p*[

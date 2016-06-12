@@ -4,6 +4,10 @@
 
 (document :title [Projet de discours libre-échangiste à prononcer à Bayonne ,(footnote*[C’est au sortir de Marseille (voir t. II, p. 203 et suiv.) que l’auteur eut l’idée de visiter sa ville natale, et d’y prendre la parole en faveur de la liberté d’échanger. J’ignore pourquoi ce projet ne fut pas exécuté. ,(NdEEO)])]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/178/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 38, p. 178.])
+])
 (bastiat[
 ,(date-tag[(Rédigé sans doute fin août ou début septembre 1847.)])
 ,(cher[Messieurs,])

@@ -4,6 +4,10 @@
 
 (document :title "Lettre à un ecclésiastique"
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/351/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 78, p. 351.])
+])
 (bastiat[
 ,(date-tag[Mugron, 28 mars 1848.])
 

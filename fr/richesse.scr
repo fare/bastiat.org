@@ -4,7 +4,11 @@
 	- par Frédéric Bastiat")
 (document :title "Richesse"
 	:author (author-FB)
-
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/170/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd., ch. 6.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/185/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 185.])
+])
 (bastiat[
 ,(h2 [Chapitre VI des ,(HarmoniesEconomiques)])
 ,(p*[
