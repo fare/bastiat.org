@@ -1,37 +1,43 @@
 (style 'bo-style)
 (in-bof :title "Baccalauréat et socialisme (extrait)
 	- par Frédéric Bastiat")
+(defun elision () "[...]")
+
 (document :title "Baccalauréat et socialisme (extrait)"
 	:author (author-FB)
-@%raw{
-<small>
-Extrait du discours<A
-	NAME="MARK1" HREF="#FOOTNOTE1"><SUP>[1]</SUP></A>
+
+(small[
+Extrait du discours,(footnote*[
+Frédéric Bastiat, ,(bof-ref "baccalaureat_et_socialisme" [Baccalauréat et Socialisme]),
+,(OE*)uvres complètes, tome IV : Sophismes économiques,
+petits pamphlets I, Paris : Guillaumin, 2ème éd. 1863,
+pp. 442 à 503.
+])
 que Frédéric Bastiat, député des Landes,
 aurait aimé prononcer à la chambre,
 s'il n'en avait été empêché par la tuberculose,
 lors des débats sur la liberté de l'enseignement,
 qui devaient aboutir au vote de la loi Falloux du 15 mars 1850.
-</small>
-<p>
+])
+
+(p*[
 J'ai soumis à l'assemblée un amendement
 qui a pour objet la suppression des grades universitaires.
 Ma santé ne me permet pas de le développer à la tribune.
 Permettez-moi d'avoir recours à la plume.
-[...]
+,(elision)
 Les grades universitaires ont le triple inconvénient
 	d'uniformiser l'enseignement (l'uniformité n'est pas l'unité)
 et de l'immobiliser après lui avoir imprimé la direction la plus funeste.
-[...]
+,(elision)
 La liberté peut être considérée au point de vue des personnes
 	et relativement aux matières -
-	<I>ratione personae</I> et <I>ratione materiae</I>, <!-- XXX -->
+	,(inlatin[ratione personae]) et ,(inlatin[ratione materiae]), ,(XXX)
 	comme disent les légistes ;
 car supprimer la concurrence des méthodes,
 	ce n'est pas un moindre attentat à la liberté
 	que de supprimer la concurrence des hommes.
-
-<P>
+][
 Il y en a qui disent :
 "La carrière de l'enseignement va être libre, car chacun y pourra entrer."
 C'est une grande illusion.
@@ -41,8 +47,7 @@ L'État, ou pour mieux dire le parti, la faction, la secte,
 peut donner à l'enseignement la direction qui lui plaît,
 	et façonner à son gré toutes les intelligences
 	par le seul mécanisme des grades...
-
-<P>
+][
 Moi, père de famille,
 et le professeur avec lequel je me concerte pour l'éducation de mon fils,
 nous pouvons croire que la véritable instruction consiste
@@ -55,8 +60,7 @@ Nous voudrions baser l'enseignement sur cette donnée.
 - Mais l'État a une autre idée.
 Il pense qu'être savant c'est être en mesure de scander les vers de Plaute,
 et de citer, sur le feu et sur l'air, les opinions de Thalès et de Pythagore.
-
-<P>
+][
 Or que fait l'État ? Il nous dit :
 Enseignez ce que vous voudrez à votre élève ;
 mais quand il aura vingt ans,
@@ -67,8 +71,7 @@ s'il n'est assez fort en ces matières
 il ne pourra être
 	ni médecin, ni avocat, ni magistrat,
 	ni consul, ni diplomate, ni professeur.
-
-<P>
+][
 Dès lors je suis bien forcé de me soumettre,
 car je ne prendrai pas sur moi la responsabilité de fermer à mon fils
 	tant de si belles carrières.
@@ -77,9 +80,8 @@ j'affirme que je ne le suis pas,
 	puisque vous me réduisez à faire de mon fils,
 	du moins à mon point de vue, un pédant,
 	- peut être un affreux petit rhéteur, -
-	et à coup sûr un turbulent factieux. <!-- XXX -->
-
-<P>
+	et à coup sûr un turbulent factieux. ,(XXX)
+][
 Car si encore les connaissances exigées par le Baccalauréat
 	avaient quelques rapports
 		avec les besoins et les intérêts de notre époque !
@@ -88,25 +90,22 @@ mais elles sont déplorablement funestes.
 Fausser l'esprit humain, c'est le problème
 	que semblent s'être posé et qu'ont résolu
 		les corps auxquels a été livré le monopole de l'enseignement.
-[...]
-
-<P>
+,(elision)
+][
 Les doctrines subversives
 	auxquelles on a donné le nom de socialisme ou communisme
 sont le fruit de l'enseignement classique,
 qu'il soit distribué par le clergé ou par l'Université.
-[...]
+,(elision)
 Relativement à la société, le monde ancien a légué au nouveau
 	deux fausses notions qui l'ébranlent et l'ébranleront longtemps encore.
-
-<P>
+][
 L'une : que la société est un état hors de nature, né d'un contrat.
 Cette idée n'était pas aussi erronée autrefois qu'elle l'est de nos jours.
 Rome, Sparte, c'était bien des associations d'hommes
 	ayant un but commun et déterminer : le pillage ;
 ce n'était pas précisément des sociétés mais des armées.
-
-<P>
+][
 L'autre, corollaire de la précédente :
 Que la loi créé les droits,
 et que, par suite, le législateur et l'humanité
@@ -117,14 +116,12 @@ Minos, Lycurgue, Solon, Numa
 Platon était fabriquant de républiques imaginaires
 	devant servir de modèles
 		aux futurs instituteurs des peuples et pères des nations.
-
-<P>
+][
 Or, remarquez-le bien, ces deux idées forment le caractère spécial,
 	le cachet distinctif du socialisme,
 en prenant ce mot dans le sens défavorable
 	et comme la commune étiquette de toutes les utopies sociales.
-
-<P>
+][
 Quiconque, ignorant que le corps social est un ensemble de lois naturelles,
 comme le corps humain, rêve de créer une société artificielle,
 et se prend à manipuler à son gré
@@ -136,17 +133,18 @@ il ne croit pas en Dieu, il croit en lui-même ;
 il n'est pas savant, il est tyran ;
 il ne sert pas les hommes, il en dispose ;
 il n'étudie pas leur nature, il la change,
-	suivant le conseil de Rousseau<A
-		NAME="MARK2" HREF="#FOOTNOTE2"><SUP>[2]</SUP></A>.
+	suivant le conseil de Rousseau,(footnote*[
+"Celui qui ose entreprendre d'instituer un peuple doit se sentir en
+état de changer, pour ainsi dire, la nature humaine...,
+d'altérer la constitution morale et physique de
+l'humanité..." (Contrat social, chap. VII)])
 Il s'inspire de l'antiquité ;
 il procède de Lycurgue et de Platon.
 - Et pour tout dire, à coup sûr, il est bachelier.
-
-<P>
-Voyons donc à quoi se réduit [...]
+][
+Voyons donc à quoi se réduit ,(elision)
 cette Liberté que vous dites si entière.
-
-<P>
+][
 En vertu de votre loi, je fonde un collège.
 Avec le prix de la pension,
 	il me faut acheter ou louer le local,
@@ -157,8 +155,7 @@ Les contribuables, moi compris, en font les frais.
 Il peut donc baisser le prix de la pension
 	de manière à rendre mon entreprise impossible.
 Est-ce là de la liberté ?
-
-<P>
+][
 Maintenant je me suppose père de famille ;
 je mets mes fils dans une institution libre :
 quelle est la position qui m'est faite ?
@@ -175,8 +172,7 @@ Mais le suis-je quant à l'impôt ?
 Non, non, dites que vous faites de la Solidarité,
 	au sens socialiste,
 mais n'ayez pas la prétention de faire de la Liberté.
-
-<P>
+][
 Et ce n'est là que le très-petit coté de la question.
 Voici qui est plus grave.
 Je donne la préférence à l'enseignement libre,
@@ -198,9 +194,8 @@ et que je dois courber ma conscience à vos vues
 - Vous m'avez dit quatre fois que j'étais libre.
 	Vous me le diriez cent fois,
 	que cent fois je vous répondrais :
-		je ne le suis pas. [...]
-
-<P>
+		je ne le suis pas. ,(elision)
+][
 Enfin, examinons la question au point de vue de la Société,
 	et remarquons d'abord qu'il serait étrange
 	que la société fut libre en matière d'enseignement
@@ -210,8 +205,7 @@ La première phrase du rapport de M. Thiers sur l'instruction secondaire,
 	"L'éducation publique est l'intérêt le plus grand
 		d'une nation civilisée,
 	et, par ce motif, le plus grand objet de l'ambition des partis."
-
-<P>
+][
 Il semble que la conclusion à tirer de là,
 	c'est qu'une nation qui ne veut pas être la proie des partis
 	doit se hâter de supprimer l'éducation publique,
@@ -226,8 +220,7 @@ La soif de gouverner n'inspire-t'elle pas assez de convoitise ?
 	ne provoque-t'elle pas assez de luttes,
 	de révolutions et de désordres ?
 et est-il sage de l'irriter encore par l'appât d'une si haute influence ?
-
-<P>
+][
 Et pourquoi les partis ambitionnent-ils la direction des études ?
 Parce qu'ils connaissent ce mot de Leibniz :
 	"Faites-moi maître de l'enseignement,
@@ -253,13 +246,11 @@ Eh quoi ! ne verra-t-on jamais le danger de fournir aux partis,
 	que dis-je ? leurs erreurs par la force ?
 Car c'est bien employer la force que d'interdire législativement
 	toute autre idée que celle dont on est soit même infatué...
-
-<P>
+][
 Maintenant, je répète ma question :
 Au point de vue social, la loi que nous discutons réalise-t-elle la liberté ?
-
-<P>
-Autrefois il y avait une Université.
+][
+  Autrefois il y avait une Université.
 Pour enseigner il fallait sa permission.
 Elle imposait ses idées et ses méthodes,
 et force était d'en passer par là.
@@ -267,34 +258,28 @@ Elle était donc, selon la pensée de Leibniz,
 maîtresse des générations,
 et c'est pour cela sans doute
 	que son chef prenait le titre significatif de grand maître.
-
-<P>
+][
 Maintenant tout cela est renversé.
 Il ne restera à l'Université que deux attributions :
-
-<P>
+][
 1° le droit de dire ce qu'il faudra savoir
 pour obtenir les grades ;
-
-<P>
+][
 2° le droit de fermer d'innombrables
 carrières à ceux qui ne se seront pas
 soumis.
-
-<P>
+][
 Ce n'est presque rien, dit-on.
 Et moi je dis : ce rien est tout.
-
-<P>
+][
 Ceci m'entraîne à dire quelque chose
 d'un mot qui a été souvent prononcé dans ce débat :
-c'est le mot <EM>unité</EM> ;
+c'est le mot ,[:emph unité] ;
 car beaucoup de personnes voient dans le Baccalauréat
 le moyen d'imprimer à toutes les intelligences
 une direction, sinon raisonnable et utile,
 du moins uniforme, et bonne en cela...
-
-<P>
+][
 Il y a deux sortes d'unités.
 L'une est un point de départ.
 Elle est imposée par la force,
@@ -302,21 +287,19 @@ Elle est imposée par la force,
 L'autre est un résultat,
 	la grande consommation de la perfectibilité humaine.
 Elle résulte de la naturelle gravitation des intelligences vers la vérité.
-
-<P>
+][
 La première unité a pour principe le mépris de l'espèce humaine,
 	et pour instrument le despotisme.
 Robespierre était unitaire quand il disait :
 	"J'ai fait la République,
-	je vais me mettre à faire des républicains." [...]
+	je vais me mettre à faire des républicains." ,(elision)
 Procuste était Unitaire quand il disait :
 	"Voilà un lit : je raccourcirai ou j'allongerai
 	quiconque en dépassera ou n'en atteindra pas les dimensions."
 Le Baccalauréat est Unitaire quand il dit :
 	La vie sociale sera interdite
-		à quiconque ne subit pas mon programme." [...]
-
-<P>
+		à quiconque ne subit pas mon programme." ,(elision)
+][
 La liberté c'est le terrain où germe la véritable unité
 et l'atmosphère qui la féconde.
 La concurrence a pour effet
@@ -344,8 +327,7 @@ la concurrence, en un mot, la Liberté
 - font graviter les hommes vers cette unité,
 qui est l'expression des lois de leur nature,
 	et la réalisation du bien général...
-
-<P>
+][
 Peut-on douter que l'enseignement,
 	dégagé des entraves universitaires,
 	soustrait, par la suppression des grades,
@@ -361,7 +343,7 @@ Les institutions libres,
 "L'antiquité des temps est l'enfance du monde, dit Bacon,
 	et, à proprement parler, c'est notre temps qui est l'antiquité,
 	le monde ayant acquis du savoir et de l'expérience en vieillissant."
-L'étude des &oelig;uvres de Dieu et de la nature
+L'étude des ,(oe)uvres de Dieu et de la nature
 	dans l'ordre moral et dans l'ordre matériel,
 voilà la véritable instruction,
 voilà celle qui dominera dans les institutions libres.
@@ -379,9 +361,8 @@ En présence de ces résultats
 	la tendance des pères de famille sera de préférer les écoles libres,
 	pleines de sève et de vie,
 	à ces autres écoles succombant sous l'esclavage de la routine...
-
-<P>
-L'effroyable désordre moral [de notre époque]
+][
+L'effroyable désordre moral \[de notre époque\]
 ne naît pas d'une perversion
 	des volontés individuelles abandonnées à leur libre arbitre.
 Non, il est législativement imposé par le mécanisme des grades universitaires.
@@ -403,63 +384,19 @@ et n'est-il pas de notoriété publique
 		tous supérieurs à ce qu'exigent les programmes ?
 Que le législateur compte donc
 	la raison publique et l'esprit des temps pour quelque chose...
-
-<P>
-<ADDRESS><A HREF="http://bastiat.org/">Frédéric Bastiat</A> (1801-1850),
-		1850&nbsp;(?)</ADDRESS>
-
-<P>
-
-<STRONG>Notes</STRONG>:
-<P>
-
-<A NAME="FOOTNOTE1" HREF="#MARK1"><SUP>[1]</SUP></A>
-
-Frédéric Bastiat, "Baccalauréat et Socialisme",
-&OElig;uvres complètes, tome IV : Sophismes économiques,
-petits pamphlets I, Paris : Guillaumin, 2ème éd. 1863,
-pp. 442 à 503.
-	<BR>
-	<A HREF="#MARK1"><KBD>[&lt;-]</KBD></A>
-<P>
-
-<A NAME="FOOTNOTE2" HREF="#MARK2"><SUP>[2]</SUP></A>
-"Celui qui ose entreprendre d'instituer un peuple doit se sentir en
-état de changer, pour ainsi dire, la nature humaine...,
-d'altérer la constitution morale et physique de
-l'humanité..." (Contrat social, chap. VII)
-	<BR>
-	<A HREF="#MARK2"><KBD>[&lt;-]</KBD></A>
-<P>
-
-
-<P>
-
-<h6>
-<p align="justify">
-Extrait de l'édition originale en 7 volumes (1862)
-des <a href="guillaumin.html">&oelig;uvres complètes</a> de Frédéric Bastiat,
-volume IV, pp. 442-503.
-</p>
-<p align="justify">
-<a href="http://membres.tripod.fr/Alex22/f-bastiat.htm"
-	>Originellement mis</a> sur le ouèbe par
-<a href="http://membres.tripod.fr/Alex22/index.html"
-	>le site libertarien et non conformiste</a>,
+])
+(tous_les_scripts)
+(footer[,(oeuvres)])
+(with-footer
+(p*[
+Extrait de l’,(EO1863), tome IV,
+,(bof-ref "baccalaureat_et_socialisme" [Baccalauréat et socialisme]),
+pp. 442-503.
+][
+,(ref :url "http://membres.tripod.fr/Alex22/f-bastiat.htm" [Originellement mis])
+sur le ouèbe par
+,(ref :url "http://membres.tripod.fr/Alex22/index.html"
+	[le site libertarien et non conformiste]),
 	en remerciant M. Pellissier-Tanon.
-Édité par
-	<a href="http://fare.tunes.org/">Faré Rideau</a>
-	pour <a href="http://bastiat.org/">Bastiat.org</a>.
-</p>
-<p align="justify">
-<a href="http://bastiat.org/fr/baccalaureat_et_socialisme.html"
-	>L'integralité de ce texte</a> est maintenant disponible.
-</p>
-<p align="justify">
-Pour ceux que ce texte aurait convaincu ou intrigué,
-voir le projet de
-<a href="http://leter.net/"
-	>Michel Leter</a> de fonder une
-<a href="http://www.freeuniversityofparis.com/"
-	>Université Libre de Paris</a>.
-})
+Édité par ,(FRR) pour ,(Bastiat.org).
+])))
