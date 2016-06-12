@@ -392,7 +392,7 @@ for (var i=0; i<$('.footnote').length; i++) {
   note.offset({top: y});
 
 //Ça c'est pour régler le problème des notes trop hautes, appelées depuis le titre et donc cachées par le header.
-  var haut = $('.bastiat').offset().top + scrollTop;
+  var haut = $('.bastiat').offset().top;
   if (note.offset().top - haut < 0) {note.offset({top: haut});};
 
 //Ça c'est pour vérifier un éventuel overlap avec la note précédente, et positionner la nouvelle note sous la précédente le cas échéant.
