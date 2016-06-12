@@ -363,7 +363,7 @@ for (var i=0; i<$('.footnote').length; i++) {
   note.offset({top: y});
   if (note.offset().top < 200) {note.offset({top: 200});};
   if (lastnote) {
-      if (overlap(note, lastnote)) 
+      if (overlap(note, lastnote))
           {note.offset({top: lastnote.offset().top + lastnote.height() + 20});
           };
       };
@@ -418,7 +418,7 @@ window.onresize = function() {
 
 
 (defun snote
-    (contenu titre) 
+    (contenu titre)
     (%raw
       (strcat "<span class='explain' data-title='Title' data-explain='"
       contenu
@@ -606,9 +606,6 @@ window.onresize = function() {
 (defun header (&rest r) (div :class "header" [,(titre(titre-courant))
   ,(header-url)
   ,(script_header)] r))
-
-
-
 
 (defparameter *trusted-hosts* (list-to-hash-set '("bastiat.org")))
 
