@@ -675,10 +675,13 @@ font-size: 90%;
 }
 
 @media only screen and (min-width: 1000px) {
-	.footnote {
+	.margin {
 	position: absolute;
 	width : 15%;
 	right: 0;
+	}
+	.margin .vers, .margin .cvers {
+		margin: 1em 0;
 	}
 
 	h4 {display: none;}

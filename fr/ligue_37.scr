@@ -3,6 +3,11 @@
 (in-bof :title "Discours de John Russell au Parlement.")
 
 (document :title "Discours de John Russell au Parlement."
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/s1journaldesco26soci#page/8/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 26, n° 109, p. 8.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/508/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 508.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 avril 1850,
 ,(br)inséré par l’éditeur de Bastiat dans l’appendice de ,(cite-title[Cobden et la Ligue]).])

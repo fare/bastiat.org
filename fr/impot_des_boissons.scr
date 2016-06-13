@@ -5,6 +5,11 @@
 (document :title [Discours sur l’impôt des boissons ,(footnote*[Cette improvisation fut prononcée à l’Assemblée législative
 le 12 décembre 1849. ,(NdEEO)])]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56775698/f117.image" [,(cite-title[Incompatibilités parlementaires])]), p. 115.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/468/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 468.])
+])
 (bastiat[
 ,(date-tag[12 décembre 1849.])
 ,(cher[Citoyens représentants,])

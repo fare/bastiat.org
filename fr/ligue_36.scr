@@ -3,6 +3,11 @@
 (in-bof :title "La réforme coloniale en Angleterre. – Discours de M. Cobden à Bradford. – Discours de John Russell au Parlement.")
 
 (document :title "La réforme coloniale en Angleterre. – Discours de M. Cobden à Bradford. – Discours de John Russell au Parlement."
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/s1journaldesco25soci#page/264/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 25, n° 107, p. 264.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/497/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 497.])
+])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 février 1850,
 ,(br)inséré par l’éditeur de Bastiat dans l’appendice de ,(cite-title[Cobden et la Ligue]).])

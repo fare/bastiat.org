@@ -4,6 +4,11 @@
 
 (document :title [Incompatibilités parlementaires ,(footnote*[Cet opuscule, publié en mars 1849, fut réimprimé, en 1850, peu de mois avant la mort de l’auteur. L’opinion qu’il y développe avait dans son esprit des racines profondes, ainsi qu’on peut le voir par sa ,(cite-title[Lettre à M. Larnac]), qui date de 1846, et, de plus, par l’écrit de 1830, intitulé : ,(cite-title[Aux Électeurs du département des Landes]). ,(NdEEO)])]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56775698/f9.image" [,(cite-title[Incompatibilités parlementaires])]).]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/518/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 518.])
+])
 (bastiat[
 ,(date-tag[Mars 1849.])
 ,(cher[Citoyens représentants,])

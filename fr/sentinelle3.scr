@@ -4,6 +4,10 @@
 
 (document :title "Liberté commerciale. État de la question en Angleterre."
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=5" [Sentinelle des Pyrénées]).])
+])
 (bastiat[
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 18 mai 1843.])
 ,(p* (small[Tout le monde a remarqué en province le silence incompréhensible qu’une grande partie de la presse parisienne a gardé sur le scandale de la concession du chemin de fer de Paris à la frontière du Nord. C’est là un des plus fâcheux résultats de la législation actuelle sur les journaux, que l’énormité du cautionnement, des frais de timbre et de poste constituent, pour ainsi dire, en état de monopole, tant sont difficiles et chanceuses les tentatives de concurrence. Notre ami, M. F. B., a été frappé comme nous tantôt du silence, tantôt de la partialité de la ,(emph[grande]) presse parisienne (à l’exception néanmoins du ,(cite-title[National])) sur diverses questions industrielles et commerciales.

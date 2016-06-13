@@ -4,6 +4,11 @@
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Douzième lettre]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n225/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 212.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/272/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 272.])
+])
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 4 février 1850.])
 ,(p :align 'center (strong[

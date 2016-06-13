@@ -4,6 +4,10 @@
 	- pamphlet par Frédéric Bastiat")
 (document :title [Mutualité des services]
 	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 81, en note de bas de page.])
+])
 (bastiat[
 ,(date-tag[Ébauche inédite,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "maudit_argent.html#mutualite" [note de bas de page]).])

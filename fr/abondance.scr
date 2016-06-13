@@ -4,6 +4,11 @@
 
 (document :title "Abondance"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k22411m/f30.item.zoom" [,(cite-title[Dictionnaire de l’Économie politique])]), vol. 1, p. 2.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/393/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 393.])
+])
 (bastiat[
 ,(p*[
 C’est une vaste et noble science

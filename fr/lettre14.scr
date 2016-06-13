@@ -4,6 +4,11 @@
 	- Frédéric Bastiat à P. J. Proudhon")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatorzième lettre]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n273/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 260.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/312/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 312.])
+])
 (bastiat[
 ,(date-tag[7 mars 1850.])
 ,(p :align 'center (strong[

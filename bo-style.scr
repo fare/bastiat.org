@@ -345,8 +345,8 @@
 ;;; Footnotes
 
 ;y'a un bug: faire en sorte que les notes restent à la même place on reload.
-
-;bon, je vais commenter à mort, c'est parti...
+; bug réglé par un scrollTop. Reste un léger décalage dû au temps de chargement de la police.
+; voir s'il y a un moyen de le régler, et si ça vaut le coup.
 
 (define (script_sidenotes) (%raw "<script>
 
@@ -358,28 +358,17 @@ var overlap = function(a, b) {
 
 var sidenotes = function() {
 
-//Si la largeur de fenêtre dépasse un certain seuil...
-
-  if ( $(window).width() > 1000) {
+if ( $(window).width() > 1000) {
 var scrollTop = $(window).scrollTop();
+
 //Répéter autant de fois qu'il y a de footnotes...
 
 for (var i=0; i<$('.footnote').length; i++) {
 
-//Soit 'note' la footnote en cours.
-
   var note = $('.footnote').eq(i);
-
-//Soit 'number' son numéro. (i+1, donc)
-
+  var positioninitiale = note.offset().top;
   var number = (i + 1).toString();
-
-//Soit refname le nom de la footnoteref correspondante.
-
   var refname = 'a[name=footnoteref' + number + ']';
-
-//Soit ref la footnoteref correspondante.
-
   var ref = $(refname);
 
 //Soit y sa distance par rapport au haut du document. (C'est là qu'il y a un problème: quand je scrolle jusqu'en bas, j'obtiens des valeurs négatives alors que normalement offset est indépendant du scroll.)
@@ -389,7 +378,16 @@ for (var i=0; i<$('.footnote').length; i++) {
 
 //Fixer le y de 'note' de égal au y de la footnoteref.
 
+  note.addClass('margin');
   note.offset({top: y});
+
+//Problème des notes trèèès longues, qui sont plus à leur place en bas de la page.
+var longueur = note.text().length;
+var longuenote = (longueur>=700);
+if (longuenote) {
+  note.removeClass('margin');
+  note.offset({top: positioninitiale});
+}
 
 //Ça c'est pour régler le problème des notes trop hautes, appelées depuis le titre et donc cachées par le header.
   var haut = $('.bastiat').offset().top;
@@ -397,10 +395,13 @@ for (var i=0; i<$('.footnote').length; i++) {
 
 //Ça c'est pour vérifier un éventuel overlap avec la note précédente, et positionner la nouvelle note sous la précédente le cas échéant.
   if (lastnote) {
-      if (overlap(note, lastnote)) {
+      if (overlap(note, lastnote) && lastnote.hasClass('margin')) {
           note.offset({top: lastnote.offset().top + lastnote.height() + 10});
           };
       };
+
+//TO-DO: vérifier overlap entre dernière note marginale et première note de bas de page.
+
 //Et ça c'est pour réinitialiser lastnote à chaque cycle.
   var lastnote = note;
 
@@ -412,7 +413,8 @@ for (var i=0; i<$('.footnote').length; i++) {
 //Fin de la fonction
 
 $(document).ready(function() {
-sidenotes();
+    sidenotes();
+
 window.onresize = function() {
     sidenotes();
 };

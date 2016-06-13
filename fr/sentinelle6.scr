@@ -4,6 +4,10 @@
 
 (document :title ""
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=9" [Sentinelle des Pyrénées]).])
+])
 (bastiat[
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 2 décembre 1843.])
 ,(p(small[Nous avons inséré et nous insérerons toujours avec plaisir tout ce qui sort de la plume de M. Fr. B. ; mais nous accueillons d’autant plus volontiers la lettre suivante de notre ami, que nous partageons entièrement ses idées sur cette erreur économique que l’administration des douanes et les partisans du système dit protecteur appellent si improprement ,(emph[balance du commerce]).]))

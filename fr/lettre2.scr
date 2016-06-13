@@ -4,6 +4,11 @@
 	- Frédéric Bastiat à La Voix du Peuple")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Deuxième lettre]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n34/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 21.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/111/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 111.])
+])
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 12 novembre 1849.])
 ,(p :align 'center (strong[

@@ -4,6 +4,11 @@
 	- P. J. Proudhon à F. Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) neuvième lettre]
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n146/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 133.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/205/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 205.])
+])
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 31 décembre 1849.])
 ,(p :align 'center (strong[

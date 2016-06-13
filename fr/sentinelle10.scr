@@ -4,6 +4,10 @@
 
 (document :title "Réforme postale"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=16" [Sentinelle des Pyrénées]).])
+])
 (bastiat[
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 6 août 1844.])
 

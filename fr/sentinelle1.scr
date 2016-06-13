@@ -4,6 +4,10 @@
 
 (document :title "Sur l’admissibilité des députés au ministère"
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=1" [Sentinelle des Pyrénées]).])
+])
 (bastiat[
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 21 mars 1843.])
 ,(p*[

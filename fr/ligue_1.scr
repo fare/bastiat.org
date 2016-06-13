@@ -4,6 +4,12 @@
 
 (document :title "Meeting à Manchester."
 	:author (author-FB)
+
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n106/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 81.])
+])
 (bastiat[
 ,(date-tag[Octobre 1842.])
 ,(p*[

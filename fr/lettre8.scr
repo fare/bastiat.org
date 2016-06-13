@@ -5,6 +5,11 @@
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Huitième lettre]
 ;;; ,(XXX :EO [annoncée septième à l'origine])
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n130/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 117.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/191/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 191.])
+])
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 24 décembre 1849.])
 ,(p :align 'center (strong[

@@ -3,6 +3,12 @@
 (in-bof :title "Gratuité du crédit - Première lettre
 	- F. C. Chevé à Frédéric Bastiat")
 (document :title [,(cite-title[Gratuité du crédit]) ,(--) Première lettre]
+
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n14/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/94/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 94.])
+])
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 22 octobre 1849.])
 ,(p :align 'center [

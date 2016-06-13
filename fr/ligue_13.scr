@@ -4,6 +4,11 @@
 
 (document :title "Banquet à Wakefield.."
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n294/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 189.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 238.])
+])
 (bastiat[
 ,(date-tag[Extrait du ,(cite-title[Morning-Chronicle]), 31 janvier 1844.])
 ,(p*[

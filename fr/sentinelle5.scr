@@ -4,8 +4,14 @@
 
 (document :title "Liberté commerciale. État de la question en Angleterre."
 	:author (author-FB)
+
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=7" [Sentinelle des Pyrénées]).])
+])
 (bastiat[
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 1,(sup[er]) juin 1843.])
+,(p(center(sc[3,(e) article.])))
 ,(p*[
 Je ne doute pas que le lecteur, si je suis assez heureux pour en rencontrer qui prenne intérêt au sujet que je traite, ne soit disposé à me dire : mais selon votre propre exposé, l’affranchissement du commerce a moins de chances en Angleterre qu’en France ; ici, il n’est repoussé que par une fausse doctrine et par les intérêts industriels qu’elle protége ; là, outre ces obstacles, il a à lutter contre la puissance des lords, l’influence du clergé, un immense développement colonial et la plus forte des passions populaires, l’orgueil national jaloux d’une suprématie maritime incompatible avec la libre communication des peuples. Pour vaincre de telles forces, qu’est-ce que ces Meetings, cette propagande de quakers et de non-conformistes, ces parodies de l’agitation irlandaise, ces pétitions, ces motions radicales toujours brisées par une majorité compacte ?
 ][

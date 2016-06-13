@@ -4,6 +4,11 @@
 
 (document :title "Meeting hebdomadaire de la Ligue."
 	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n181/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 76.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/144/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 144.])
+])
 (bastiat[
 ,(date-tag[13 avril 1843.])
 ,(p*[

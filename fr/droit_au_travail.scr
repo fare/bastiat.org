@@ -1,0 +1,34 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Opinion sur le droit au travail")
+
+(document :title "Opinion sur le droit au travail"
+	:author (author-FB)
+(sidebar[
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/ledroitautravai00unkngoog#page/n402/mode/2up" [Le droit au travail à l’Assemblée nationale]), p. 373.])
+])
+(bastiat[
+,(date-tag[1848.])
+,(cher[Mon cher Garnier,])
+,(p*[Vous me demandez mon opinion sur le ,(emph[droit au travail]) et vous paraissez surpris que je ne l’aie pas manifestée à la tribune de l’Assemblée nationale. Mon silence a tenu uniquement à ce que, quand j’ai demandé la parole, trente de mes collègues l’avaient retenue avant moi.
+][
+Si l’on entendait par ,(emph[droit au travail]) le ,(emph[droit de travailler]) (qui implique le droit de jouir du fruit de son travail), il ne saurait y avoir de doute. Quant à moi, je ne crois pas avoir jamais écrit deux lignes qui n’aient eu pour but de le défendre.
+][
+Mais par droit au travail on entend le droit qu’aurait l’individu d’exiger de l’État, et par force, au besoin, de l’ouvrage et un salaire. Sous aucun rapport cette thèse bizarre ne me semble pouvoir supporter l’examen.
+][
+D’abord, l’État a-t-il des droits et des devoirs autres que ceux qui préexistent déjà dans les citoyens ? J’ai toujours pensé que sa mission était de protéger les droits existants. Par exemple, même abstraction faite de l’État, j’ai le droit de travailler, de disposer du fruit de mon travail. Mes compatriotes ont des droits égaux, et nous avons, en outre, celui de les défendre même par la force. Voilà pourquoi la ,(emph[communauté,]) la ,(emph[force commune,]) l’État peut et doit nous protéger dans l’exercice de ces droits. C’est l’action collective et régulière substituée à l’action individuelle et désordonnée, et celle-ci est la raison d’être de celle-là.
+][
+Mais ai-je le droit d’exiger par force d’un de mes concitoyens qu’il me fournisse de l’ouvrage et des salaires ? Ce droit serait évidemment distinct de son droit de propriété. Et si je ne l’ai pas ; si aucun des citoyens qui composent la communauté ne l’a pas davantage, comment lui donnerons-nous naissance en l’exerçant les uns à l’égard des autres par l’intermédiaire de l’État ? Quoi ! Pierre n’a pas le droit d’exiger par force que Paul lui fournisse du travail et des salaires ; mais si tous deux, à frais communs, instituent une force commune, Pierre a le droit d’invoquer cette force, de la tourner contre Paul, afin que celui-ci soit forcé de lui fournir de l’ouvrage ? Par la création de cette force ,(emph[commune,]) le droit au travail est né pour Pierre et le droit de propriété est mort pour Paul ! Quelle confusion ! quelle logomachie !
+][
+Ensuite, il faut qu’on soit parvenu à pervertir singulièrement l’esprit des ouvriers pour leur faire croire que ce prétendu droit leur offre quelque ressource et quelques garanties. On leur montre toujours l’État comme un père de famille, un tuteur qui a des trésors inépuisables et à qui il ne manque qu’un peu de générosité ! N’est-il pas bien évident cependant que si l’État, afin de faire travailler Pierre, prend cent francs à Paul, Paul aura cent francs de moins pour faire travailler Jacques ? Les choses se passeront exactement comme si Pierre eût exercé directement à l’égard de Paul ce prétendu droit, ou plutôt cette oppression. L’intervention de l’État aura pu être commode pour vaincre les résistances ; elle peut même rendre le droit d’oppression spéciaux et faire taire la conscience ; mais elle ne change pas la nature des choses. La propriété de Paul n’en a pas moins été violée, et s’il y a quelque chose de clair au monde, c’est que la classe ouvrière prise dans son ensemble n’aura pas plus d’ouvrage pour la valeur d’une obole. C’est vraiment une chose triste que les hommes d’intelligence en soient réduits, au ,(sc[xix]),(sup[e]) siècle, à combattre cette puérilité qui nous fait tenir les yeux toujours ouverts à l’ouvrage que l’État distribue avec l’argent des contribuables, et toujours fermés à l’ouvrage que les contribuables distribueraient eux-mêmes si l’État ne leur eût pas pris cet argent !
+][
+Enfin, quand les ouvriers voudront y réfléchir, ils s’apercevront que le ,(emph[droit au travail]) serait pour eux l’inauguration de la misère. L’existence de ce droit a pour collectif nécessaire la non-existence du droit de propriété. Pour s’en convaincre, il suffit de faire abstraction un instant de l’intervention de l’État, et de se demander ce qui arriverait si nous exercions directement ce prétendu droit les uns envers les autres : il est bien clair que la notion même de propriété serait anéantie. Or, sans propriété il n’y a pas de formation possible de capital, et sans formation de capital il n’y a pas d’ouvrage possible pour les ouvriers. Le droit au travail, c’est donc en résumé la misère universelle poussée jusqu’à la destruction. Le jour où on l’a seulement mis en discussion, le travail a diminué pour les ouvriers dans une proportion énorme ; le jour où il serait promulgué, il n’y aurait plus de travail que pendant le court espace de temps nécessaire pour que l’État pût consommer la destruction de tous les capitaux.])
+])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(corresp)
+])
+(with-footer (p*[
+])))
