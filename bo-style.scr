@@ -11,7 +11,7 @@
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
 	  :css "bastiat.css"
-    :script '("jquery-3.0.0.min.js" "jquery.sticky-kit.min.js")
+    :script '("jquery-3.0.0.min.js")
       '())
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -21,7 +21,7 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script '("../jquery-3.0.0.min.js" "jquery.sticky-kit.min.js")
+    :script '("../jquery-3.0.0.min.js")
 	  '())
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -32,7 +32,7 @@
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
 :script "../jquery-3.0.0.min.js"
-    :script '("../jquery-3.0.0.min.js" "jquery.sticky-kit.min.js")
+    :script '("../jquery-3.0.0.min.js")
 	  '())
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
@@ -371,7 +371,8 @@ for (var i=0; i<$('.footnote').length; i++) {
   var refname = 'a[name=footnoteref' + number + ']';
   var ref = $(refname);
 
-//Soit y sa distance par rapport au haut du document. (C'est là qu'il y a un problème: quand je scrolle jusqu'en bas, j'obtiens des valeurs négatives alors que normalement offset est indépendant du scroll.)
+//Soit y sa distance par rapport au haut du document. (C'est là qu'il y a un problème: quand je scrolle jusqu'en bas,
+//j'obtiens des valeurs négatives alors que normalement offset est indépendant du scroll.)
 //Bon, je rajoute scrollTop.
 
   var y = ref.offset().top + scrollTop;
@@ -393,7 +394,8 @@ if (longuenote) {
   var haut = $('.bastiat').offset().top;
   if (note.offset().top - haut < 0) {note.offset({top: haut});};
 
-//Ça c'est pour vérifier un éventuel overlap avec la note précédente, et positionner la nouvelle note sous la précédente le cas échéant.
+//Ça c'est pour vérifier un éventuel overlap avec la note précédente, et positionner la nouvelle note
+//sous la précédente le cas échéant.
   if (lastnote) {
       if (overlap(note, lastnote) && lastnote.hasClass('margin')) {
           note.offset({top: lastnote.offset().top + lastnote.height() + 10});
@@ -482,6 +484,8 @@ window.onresize = function() {
 (defun gauche (&rest r) (div :class "gauche" r))
 
 (defun sidebar (&rest r) (div :id "sidebar" r))
+(defun sources (&rest r) (div :id "sources" [,(h5[Sources]),(apply 'p* r)]))
+(defun voiraussi (&rest r) (div :id "voiraussi" [,(h5[Voir aussi]),(apply 'p* r)]))
 
 ;(Pour les liens retour/préc/suiv)
 (defun
@@ -655,28 +659,18 @@ window.onresize = function() {
 
 (define (script_sidebar)
 (%raw "<script>
-  var width = $(window).width();
-  var smallScreen = (width < 1000);
-  var sideBar = $('#sidebar');
-  var toggleSticky = function() {
-      if (smallScreen) {
-        noStick = 1;
-        $('#sidebar').trigger('sticky_kit:detach');
-      } else {
-        noStick = 0;
-      };
-  };
-  var stickySidebar = function() {
-    sideBar.stick_in_parent();
-  };
-$(document).ready(function() {
-  toggleSticky();
-  stickySidebar();
-  window.onresize = function() {
-    toggleSticky();
-    stickySidebar();
-  };
-});
+
+};
 </script>"))
 
-(defun tous_les_scripts () [,(script_sidenotes)])
+(defun tous_les_scripts () [,(script_sidenotes) ,(script_sidebar)])
+
+
+; La fonction make-title redéfinie ici pour vous en exclusivité...
+
+(defun make-title (&key title author)
+  (when title
+    (div :class "header"
+       [,(titre title)
+       ,(when author (auteur author))]
+    )))

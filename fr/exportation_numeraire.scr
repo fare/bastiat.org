@@ -6,23 +6,24 @@
 	:author (author-FB)
 
 (sidebar [
-,(h5[Sources])
-,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=7" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 3, p. 13.]
+,(sources[
+,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=7" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 3, p. 13.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/112/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 21, p. 112.])
+,(voiraussi[,(ref :url "nature_echanges.html" [Réponse à la ,(cite-title[Presse])]).])
 ])
 
 (bastiat[
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 décembre 1847.])
 ,(p*[
-À l’occasion de la situation financière et commerciale de la Grande-Bretagne, le ,(cite-title[National]) s’exprime ainsi :
+A l’occasion de la situation financière et commerciale de la Grande-Bretagne, le ,(tj "national" [,(cite-title[National])]) s’exprime ainsi :
 ][
 ,(blockquote*[« La crise a dû être d’autant plus violente, que les produits étrangers, les céréales, ne s’échangeaient pas contre des produits anglais. La balance entre les importations et les exportations était toute au désavantage de la Grande-Bretagne, et la différence se soldait en or. Il y aurait lieu, à cette occasion, d’examiner la part de responsabilité qui revient au libre-échange dans ce résultat ; mais nous nous réservons de le faire plus tard. Contentons-nous de constater aujourd’hui que cette ,(emph[vieillerie]) qu’on appelle la balance du commerce, si dédaignée, si méprisée, du reste, par ,(emph[certaine école]) économiste, mérite cependant qu’on y prenne garde ; et la Grande-Bretagne, en comparant ce qu’elle a reçu à ce qu’elle a envoyé depuis un an, doit s’apercevoir que les plus belles théories ne peuvent rien contre ce fait très-simple : quand on achète du blé en Russie, et que la Russie ne prend pas en échange du calicot anglais, il faut payer bel et bien ce blé en argent. Or, le blé consommé, l’argent exporté, que reste-t-il à l’acheteur ? Son calicot, peut-être, c’est-à-dire une valeur dont il ne sait que faire et qui dépérit entre ses mains. »])
 ][
-Nous serions curieux de savoir si le ,(cite-title[National]) regarde en effet la balance du commerce comme une ,(emph[vieillerie]), ou si cette expression, prise dans un sens ironique, a pour objet de railler une ,(emph[certaine école]) qui se permet de regarder, en effet, la ,(emph[balance du commerce]) comme une ,(emph[vieillerie]). « La question vaut la peine qu’on y prenne garde, » dit le ,(cite-title[National]). Oui, certes, elle en vaut la peine, et c’est pour cela que nous aurions voulu que cette feuille fût un peu plus explicite.
+Nous serions curieux de savoir si le ,(tj "national" [,(cite-title[National])]) regarde en effet la balance du commerce comme une ,(emph[vieillerie]), ou si cette expression, prise dans un sens ironique, a pour objet de railler une ,(emph[certaine école]) qui se permet de regarder, en effet, la ,(emph[balance du commerce]) comme une ,(emph[vieillerie]). « La question vaut la peine qu’on y prenne garde, » dit le ,(tj "national" [,(cite-title[National])]). Oui, certes, elle en vaut la peine, et c’est pour cela que nous aurions voulu que cette feuille fût un peu plus explicite.
 ][
 Il est de fait que chaque négociant, pris isolément, fort attentif à sa propre ,(emph[balance]), ne se préoccupe pas le moins du monde de la ,(emph[balance générale du commerce]). Or, il est à remarquer que ces deux ,(emph[balances]) apprécient les choses d’une manière si opposée, que ce que l’une nomme ,(emph[perte]), l’autre l’appelle ,(emph[profit]), et ,(inlatin[vice versâ]).
 ][
-Ainsi, le négociant qui a acheté en France pour 10 000 fr. de vin, et l’a vendu pour le double de cette somme aux États-Unis, recevant en payement et faisant entrer en France 20 000 fr. de coton, croit avoir fait une bonne affaire. — Et la ,(emph[balance du commerce]) enseigne qu’il a perdu son capital ,(emph[tout entier]).
+Ainsi, le négociant qui a acheté en France pour 10,000 fr. de vin, et l’a vendu pour le double de cette somme aux États-Unis, recevant en payement et faisant entrer en France 20,000 fr. de coton, croit avoir fait une bonne affaire. — Et la ,(emph[balance du commerce]) enseigne qu’il a perdu son capital ,(emph[tout entier]).
 ][
 On conçoit combien il importe de savoir à quoi s’en tenir sur cette doctrine ; car, si elle est juste, les négociants tendent invinciblement à se ruiner, à ruiner le pays, et l’État doit s’empresser de les mettre tous en tutelle, — ce qu’il fait.
 ][
@@ -41,14 +42,14 @@ Il en est ainsi pour les peuples.
 Quand il n’y a pas de mines d’or et d’argent dans un pays, comme c’est le cas pour la France et l’Angleterre, il faut nécessairement rendre des ,(emph[services effectifs]) aux étrangers pour recevoir leur numéraire. On les nourrit, on les abreuve, on les meuble, etc. ; mais tant qu’on n’a que leur numéraire, on n’a pas encore reçu d’eux les ,(emph[services effectifs]) auxquels on a droit. Il faut bien en arriver à la satisfaction des besoins réels, en vue de laquelle on a travaillé. La présence même de cet or prouve que la nation a satisfait au dehors des besoins réels et qu’elle est créancière de services équivalant à ceux qu’elle a rendus. Ce n’est donc qu’en exportant cet or contre des produits consommables qu’elle est ,(emph[efficacement]) payée de ses travaux.
 ][
 En définitive, les nations entre elles, comme les individus entre eux, se rendent des ,(emph[services réciproques]). Le numéraire n’est qu’un moyen ingénieux de faciliter ces ,(emph[trocs de services]). Entraver directement ou indirectement l’exportation de l’or, c’est traiter le peuple comme on traiterait ce chapelier à qui l’on défendrait de jamais retirer de la société, en dépensant son argent, des services aussi efficaces que ceux qu’il lui a rendus.
-][
-Le ,(cite-title[National]) nous oppose la crise actuelle de l’Angleterre ; mais le ,(cite-title[National]) tombe dans la même erreur que la ,(cite-title[Presse]), en parlant de l’exportation du numéraire, sans tenir compte de la perte des récoltes, sans même la mentionner.
+][,(tag :a :name "presse_ref")
+Le ,(tj "national" [,(cite-title[National])]) nous oppose la crise actuelle de l’Angleterre ; mais le ,(tj "national" [,(cite-title[National])]) tombe dans la ,(ref :url "nature_echanges.html" [même erreur]) que la ,(tj "presse" [,(cite-title[Presse])]), en parlant de l’exportation du numéraire, sans tenir compte de la perte des récoltes, sans même la mentionner.
 ][
 Le jour où les Anglais, après avoir labouré, hersé, ensemencé leurs champs, ont vu leurs blés détruits et leurs pommes de terre pourries, ce jour-là, il a été décidé qu’ils devaient souffrir d’une manière ou d’une autre. La forme sous laquelle cette souffrance devait naturellement se présenter, vu la nature du phénomène, c’était l’,(emph[inanition]). Heureusement pour eux, ils avaient autrefois rendu des services aux peuples contre ces ,(emph[bons]), qu’on appelle monnaies, et qui donnent droit à recevoir, en temps opportun, l’équivalent de ces services. Ils en ont profité dans cette circonstance. Ils ont rendu l’or et reçu du blé ; et la souffrance, au lieu de se manifester sous forme d’,(emph[inanition]), s’est manifestée sous forme d’,(emph[appauvrissement]), ce qui est moins dur. Mais cet appauvrissement, ce n’est pas l’exportation du numéraire qui en est ,(emph[cause]), c’est la perte des récoltes.
 ][
 C’est absolument comme le chapelier dont nous parlions tout à l’heure. Il vendait beaucoup de chapeaux, et, se soumettant à des privations, il réussit à accumuler de l’or. Sa maison brûla. Il fut bien obligé de se défaire de son or pour la reconstruire. Il en resta plus pauvre. Fut-ce parce qu’il s’était défait de son or ? Non, mais parce que sa maison avait brûlé. — Un fléau est un fléau. Il ne le serait pas si l’on était aussi riche après qu’avant.
 ][
-« Le blé consommé, l’argent exporté, que reste-t-il à l’acheteur ? » demande le ,(cite-title[National]). — Il lui reste de n’être pas mort de faim, ce qui est quelque chose.
+« Le blé consommé, l’argent exporté, que reste-t-il à l’acheteur ? » demande le ,(tj "national" [,(cite-title[National])]). — Il lui reste de n’être pas mort de faim, ce qui est quelque chose.
 ][
 Nous demanderons à notre tour : Si l’Angleterre n’eût consommé ce blé et exporté cet argent, que lui resterait-il ? des cadavres.
 ])])
