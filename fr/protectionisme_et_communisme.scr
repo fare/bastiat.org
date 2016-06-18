@@ -11,9 +11,9 @@
 ])
 (bastiat[
 ,(date-tag[Janvier 1849.])
-,(h2[À Monsieur Thiers.])
+,(h2[A ,(np "thiers" [Monsieur Thiers]).])
 ,(cher[Monsieur,])
-,(p*[Ne soyez point ingrat envers la révolution de Février.
+,(p*[,(tag :a :name "presse_ref")Ne soyez point ingrat envers la révolution de Février.
 Elle vous a surpris, froissé peut-être ;
 mais aussi elle vous a préparé,
 comme auteur, comme orateur, comme conseiller intime ,(footnote*[
@@ -22,19 +22,19 @@ M. Thiers était fort en crédit à l’Élysée.
 ,(NdEEO)]),
 des triomphes inattendus.
 Parmi ces succès, il en est un assurément fort extraordinaire.
-Ces jours derniers on lisait dans ,(cite-title[la Presse]) :
-][
+Ces jours derniers on lisait dans ,(cite-title[,(tj "presse" [la Presse]) :])
+][,(tag :a :name "mimerel_ref")
 ,(q[L’association pour la défense du travail national
-	(l’ancien comité Mimerel)
+	(l’ancien comité ,(np "mimerel" [Mimerel]))
 vient d’adresser à tous ses correspondants une circulaire,
 pour leur annoncer qu’une souscription est ouverte
 à l’effet de concourir à la propagation dans les ateliers
-du livre de M. Thiers sur la Propriété.
+du livre de ,(np "thiers" [M. Thiers]) sur la Propriété.
 L’association souscrit elle-même pour 5,000 exemplaires.])
 ][
 J’aurais voulu être présent quand cette flatteuse annonce
 est tombée sous vos yeux.
-Elle a du y faire briller un éclair de joie railleuse.
+Elle a dû y faire briller un éclair de joie railleuse.
 ][
 On a bien raison de le dire :
 les voies de Dieu sont aussi infaillibles qu’impénétrables.
@@ -62,7 +62,7 @@ des doctrines subversives, effrayés de leurs succès,
 Ceci suppose, il est vrai,
 	l’identité du principe Communiste et du principe Prohibitioniste,
 et peut-être n’admettez vous pas cette identité,
-quoique, à vrai dire, il ne me parait pas possible
+quoique, à vrai dire, il ne me paraît pas possible
 	que vous ayez pu, sans en être frappé,
 	écrire quatre cents pages sur la Propriété.
 Peut-être pensez-vous que
@@ -74,9 +74,10 @@ Peut-être pensez-vous que
 m’ont fait voir,
 comme cela ne nous arrive que trop souvent à nous autres polémistes,
 	les erreurs de mes adversaires à travers un verre grossissant.
+,(tag :a :name "mi_ref")
 Sans doute, c’est mon imagination, afin d’en avoir plus facilement raison,
-qui gonfle la théorie du ,(cite-title[Moniteur industriel])
-aux proportions de celle du ,(cite-title[Populaire]).
+qui gonfle la théorie du ,(tj "mi" [,(cite-title[Moniteur industriel])])
+aux proportions de celle du ,(tj "populaire" [,(cite-title[Populaire])]).
 Quelle apparence que de grands manufacturiers, d’honnêtes propriétaires,
 de riches banquiers, d’habiles hommes d’État se soient faits,
 sans le savoir et sans le vouloir,
@@ -87,14 +88,15 @@ Il y a bien des ouvriers,
 pleins d’une foi sincère dans le ,(emph[droit au travail]),
 par conséquent communistes sans le savoir, sans le vouloir,
 qui ne souffriraient pas qu’on les considérât comme tels.
+,(tag :a :name "pascal_ref")
 La raison en est que, dans toutes les classes, l’intérêt incline la volonté,
-et la volonté, comme dit Pascal, est le principal organe de la créance.
+et la volonté, comme dit ,(np "pascal" [Pascal]), est le principal organe de la créance.
 Sous un autre nom, beaucoup d’industriels, fort honnêtes gens d’ailleurs,
 font du Communisme comme on en fait toujours,
 c’est-à-dire à la condition que le bien d’autrui sera seul mis en partage.
-Mais sitôt que, te principe gagnant du terrain,
+Mais sitôt que, le principe gagnant du terrain,
 il s’agit de livrer aussi au partage leur propre bien,
-oh ! alors Le Communisme leur fait horreur.
+oh ! alors le Communisme leur fait horreur.
 Ils répandaient le ,(cite-title[Moniteur industriel]),
 maintenant ils propagent le livre de la Propriété.
 Pour s’en étonner il faudrait ignorer le c,(oe)ur humain,
@@ -103,16 +105,8 @@ ses ressorts secrets, et combien il a de pente à se faire habile casuiste.
 Non, Monsieur, ce n’est pas la chaleur de la lutte
 qui m’a fait voir sous ce jour la doctrine prohibitioniste,
 car c’est au contraire parce que je la voyais sous ce jour,
-avant la lutte, que je me suis engagé
-	,(footnote*[
-Voy., au tome I,(sup[er]),
-les lettres adressées à M. de Lamartine
-en ,(bof-ref "lettre_lamartine_1" [janvier 1845])
-et ,(XXX :bof-ref "lettre_lamartine_2") octobre 1846,
-et, au tome II, l’article ,(cite-title[Communisme]), du 27 juin 1847.
-,(XXX :bof-ref "du_communisme")
-,(NdEEO)]).
-Veuillez me croire ; étendre quelque peu notre commerce extérieur,
+avant la lutte, que je me suis engagé.
+Veuillez me croire, étendre quelque peu notre commerce extérieur,
 résultat accessoire qui n’est certes pas à dédaigner,
 ce ne fut jamais mon motif déterminant.
 J’ai cru et crois encore que la Propriété est engagée dans la question.
@@ -120,7 +114,7 @@ J’ai cru et je crois encore que notre tarif douanier,
 à cause de l’esprit qui lui a donné naissance
 et des arguments par lesquels on le défend,
 a fait au principe même de la Propriété
-une brèche par la quelle tout le reste de notre législation menace de passer.
+une brèche par laquelle tout le reste de notre législation menace de passer.
 ][
 En considérant l’état des esprits,
 il m’a semblé qu’un Communisme
@@ -128,11 +122,11 @@ qui, je dois le dire pour être juste,
 n’a pas la conscience de lui-même et de sa portée,
 était sur le point de nous déborder.
 Il m’a semblé que ce Communisme-là (car il y en a de plusieurs espèces)
-se prévalait très logiquement ,(XXX [ EO : très-logiquement ])
+se prévalait très-logiquement
 de l’argumentation prohibitioniste
-et se bornait à eu presser les déductions.
+et se bornait à en presser les déductions.
 C’est donc sur ce terrain qu’il m’a paru utile de le combattre ;
-car puisqu’il s’armait de sophismes propagés par le comité Mimerel,
+car puisqu’il s’armait de sophismes propagés par le comité ,(np "mimerel" [Mimerel]),
 il n’y avait pas espoir de le vaincre tant que ces sophismes
 resteraient debout et triomphants dans la conscience publique.
 C’est à ce point de vue que nous nous sommes placés à Bordeaux,
@@ -149,9 +143,7 @@ Mais le mot ,(emph[Libre-Échange]) implique
 en d’autres termes ,(emph[Propriété]),
 et c’est pour cela que nous l’avons préféré
 	,(footnote*[
-Voy., au tome II,
-l’article ,(cite-title[Libre-Échange]), du 20 décembre 1846.
-,(XXX :bof-ref "libre_echange ? ? ?")
+Voyez l’article ,(ref :url "libre_echange.html" [,(cite-title[Libre-Échange])]), du 20 décembre 1846.
 ,(NdEEO)]).
 Certes, nous savions que ce mot nous susciterait bien des difficultés.
 Il affirmait un principe, et, dès lors,
@@ -172,7 +164,7 @@ mais je tirais de l’effroi même causé par ce mot
 mon plus fort argument pour son adoption.
 Plus il épouvante, disais-je, plus cela prouve
 que la notion de Propriété s’efface des esprits.
-La doctrine Prohibitioniste à faussé les idées,
+La doctrine Prohibitioniste a faussé les idées,
 et les fausses idées ont produit la Protection.
 Obtenir par surprise ou par le bon vouloir du ministre
 une amélioration accidentelle du tarif,
@@ -182,12 +174,11 @@ non en dépit, mais en raison des obstacles qu’il devait nous créer ;
 obstacles qui, révélant la maladie des esprits,
 étaient la preuve certaine
 que les bases mêmes de l’ordre social étaient menacées.])
-,(XXX)
 ][
 Il ne suffisait pas de signaler notre but par un mot ;
 il fallait encore le définir.
-C’est ce que nous fimes et je transcris ici, comme pièce à l’appui,
-le premier acte ou le manifeste de cette association.
+C’est ce que nous fîmes et je transcris ici, comme pièce à l’appui,
+le premier acte ou ,(ref :url "association_libre_echange.html" [le manifeste]) de cette association.
 ,(blockquote*
 [
 Au moment de s’unir pour la défense d’une grande cause,
@@ -226,7 +217,8 @@ ne l’est pas de choisir son travail,
 et se voit contraint de donner une fausse direction
 à ses efforts, à ses facultés, à ses capitaux,
 et aux agents que la nature avait mis à sa disposition.
-Enfin, c’est compromettre in paix entre les peuples ;
+][
+Enfin, c’est compromettre la paix entre les peuples ;
 car c’est briser les relations qui les unissent
 et qui rendent les guerres impossibles,
 à force de les rendre onéreuses.
@@ -298,7 +290,7 @@ Nous savions bien qu’entre Prohibitionistes et Libres-Échangistes
 la polémique ne peut se prolonger sans remuer et, à la fin,
 résoudre toutes les questions, morales, politiques, philosophiques,
 économiques, qui se rattachent à la Propriété ;
-et puisque le comité Mimerel, en ne s’occupant que d’un but spécial,
+et puisque le comité ,(np "mimerel" [Mimerel]), en ne s’occupant que d’un but spécial,
 avait compromis ce principe, nous devions espérer relever ce principe
 en poursuivant, nous aussi, le but spécial opposé.
 ][
@@ -307,13 +299,13 @@ Qu’importe que j’aie aperçu ou cru apercevoir une certaine connexité
 entre le Protectionisme et le Communisme ?
 L’essentiel est de savoir si cette connexité existe.
 C’est ce que je vais examiner.
-][
+](nbsp)[,(tag :a :name "proudhon_ref")
 Vous vous rappelez sans doute le jour où, avec votre habileté ordinaire,
-vous fites arriver sur les lèvres de M. Proudhon
+vous fîtes arriver sur les lèvres de ,(np "proudhon" [M. Proudhon])
 cet aveu devenu célèbre :
-,(q[Donnez-moi Le Droit au travail,
+,(q[Donnez-moi le Droit au travail
 et je vous abandonne le Droit de propriété.])
-M. Proudhon ne cachait pas qu’à ses yeux
+,(np "proudhon" [M. Proudhon]) ne cachait pas qu’à ses yeux
 ces deux Droits sont incompatibles.
 ][
 Si la Propriété est incompatible avec le Droit au travail,
@@ -322,43 +314,43 @@ qu’en devrons-nous conclure,
 sinon que la Protection est elle-même incompatible avec la Propriété ?
 En géométrie on regarde comme une vérité incontestable
 que deux choses égales à une troisième sont égales entre elles.
-][
-Or, il est arrivé qu’un orateur éminent, M. Billault,
+][,(tag :a :name "billault_ref")
+Or, il est arrivé qu’un orateur éminent, ,(np "billault" [M. Billault]),
 a cru devoir soutenir à la tribune le Droit au travail.
-Cela n’était pas facile en présence de l’aveu échappé à M. Proudhon.
-M. Billault comprenait fort bien que faire intervenir l’État
+Cela n’était pas facile en présence de l’aveu échappé à ,(np "proudhon" [M. Proudhon]).
+,(np "billault" [M. Billault]) comprenait fort bien que faire intervenir l’État
 pour pondérer les fortunes et niveler les situations,
 c’est se mettre sur la pente du Communisme ;
 et qu’a-t-il dit pour déterminer l’Assemblée nationale
 à violer la propriété et son principe ?
 Il vous a dit tout simplement que ce qu’il vous demandait de faire
 vous le faisiez déjà par vos tarifs.
-Sa prétention ne va pas au delà d’une application un peu plus large
+Sa prétention ne va pas au-delà d’une application un peu plus large
 de doctrines par vous admises et appliquées.
 Voici ses paroles :
 ,(blockquote*[
-Portez vos regards sur nos tarifs de douane ;
+Portez vos regards sur nos tarifs de douanes ;
 par leurs prohibitions, leurs taxes différentielles,
 leurs primes, leurs combinaisons de tous genres,
 c’est la société qui aide, qui soutient, qui retarde ou avance
-toutes les combinaisons du travail national (très-bien),(pv)
+toutes les combinaisons du travail national (très-bien) ;
 elle ne tient pas seulement la balance
 entre le travail français, qu’elle protège, et le travail étranger,
-mais, sur le sol de la patrie, les diverses Industries la voient encore,
+mais, sur le sol de la patrie, les diverses industries la voient encore,
 et sans cesse, Intervenir entre elles.
 Entendez devant son tribunal les réclamations perpétuelles
 des unes contre les autres ;
 voyez, par exemple, les industries qui emploient le fer se plaignant
 de la protection accordée au fer français contre le fer étranger ;
-celles qui emploient le Lin ou le coton filés protestant
-contre la protection accordée au lit français,
+celles qui emploient le lin ou le coton filés protestant
+contre la protection accordée au fil français,
 contre l’exclusion du fil étranger, et ainsi des autres.
 La société ,(emph[(il fallait dire le gouvernement)])
 se trouve donc forcément mêlée à toutes les luttes,
 à tous les embarras du travail ;
 elle y intervient activement tous les jours,
 directement, indirectement,
-et la première fois que vous aurez des questions de douane,
+et la première fois que vous aurez des questions de douanes,
 vous le verrez, vous serez, bon gré mal gré,
 forcés de prendre fait et cause,
 et de faire par vous-mêmes la part de tous les intérêts.
@@ -367,30 +359,28 @@ Ce ne saurait donc ètre une objection
 contre la dette de la société envers le travailleur dénué,
 que cette nécessité qu’elle créerait au gouvernement
 d’intervenir dans la question du travail.
-,(XXX)
 ])
 ][
-Et veuillez bien remarquer que M. Billault, dans son argumentation,
+Et veuillez bien remarquer que ,(np "billault" [M. Billault]), dans son argumentation,
 n’a nullement eu la pensée de vous infliger une sanglante ironie.
 Ce n’est pas un Libre-Échangiste déguisé
 se complaisant à rendre palpable l’inconséquence des Protectionistes.
-Non, M. Billault est lui-même protectioniste ,(cite-title[bona fide]).
-,(XXX :EO [bonâ fide])
+Non, ,(np "billault" [M. Billault]) est lui-même protectioniste ,(cite-title[bonâ fide]).
 Il aspire au nivellement des fortunes par la Loi.
 Dans cette voie, il juge l’action des tarifs utile ;
 et rencontrant comme obstacle le Droit de propriété,
-il saute par-dessus, comme vous faites,
+il saute par-dessus, comme vous faites.
 On lui montre ensuite le Droit au travail
 qui est un second pas dans la même voie.
 Il rencontre encore comme obstacle le Droit de propriété ;
 il saute encore par-dessus.
-Mais, se retournant, il est tout surpris de voir que vous ne le suiviez plus,
-il vous en demande le motif.
+Mais, se retournant, il est tout surpris de voir que vous ne le suiviez plus.
+Il vous en demande le motif.
 Si vous lui répondiez :
 J’admets en principe que la loi peut violer la propriété,
 mais je trouve inopportun qu’elle le fasse sous la forme du Droit au travail,
-M. Billault vous comprendrait,
-et discuterait avec vous cette question secondaire d’opportunité,
+,(np "billault" [M. Billault]) vous comprendrait,
+et discuterait avec vous cette question secondaire d’opportunité.
 Mais vous lui opposez le Principe même de la Propriété.
 Cela l’étonne, et il se croit en droit de vous dire :
 Ne faites pas aujourd’hui le bon apôtre,
@@ -410,22 +400,21 @@ un autre protectioniste devait l’adopter bientôt.
 Elle fut développée par M. Mimerel,
 dans un discours prononcé, le 27 avril 1850,
 devant le conseil général de l’agriculture, des manufactures et du commerce.
-Voy. le passage de ce discours cité au tome V,
-dans l’opuscule ,(bof-ref "spoliation_et_loi" (cite-title[Spoliation et Loi])).
+Voy. le passage de ce discours cité dans l’opuscule ,(ref :url "spoliation_et_loi.html#mimerel_ref" (cite-title[Spoliation et Loi])).
 ,(NdEEO)
 ]) ?
 ][
-Entre M. Billault et vous il n’y a donc qu’une différence.
+Entre ,(np "billault" [M. Billault]) et vous il n’y a donc qu’une différence.
 Tous deux vous cheminez dans la même voie, celle du Communisme.
 Seulement, vous n’y avez fait qu’un pas, et il en a fait deux.
 Sous ce rapport, l’avantage, à mes yeux du moins, est de votre côté.
 Mais vous le perdez du côté de la logique.
 Car, puisque vous marchez comme lui, le dos tourné à la Propriété,
-il est au moins fort plaisant que vous vous posiez comme son chevalier,
-C’est une inconséquence que M. Billault a su éviter.
+il est au moins fort plaisant que vous vous posiez comme son chevalier.
+C’est une inconséquence que ,(np "billault" [M. Billault]) a su éviter.
 Mais, hélas !
-c’est pour tomber, lui aussi, dans une triste logomachie&nsbp ; !
-M. Billault est trop éclairé pour ne pas sentir, au moins confusément,
+c’est pour tomber, lui aussi, dans une triste logomachie !
+,(np "billault" [M. Billault]) est trop éclairé pour ne pas sentir, au moins confusément,
 le danger de chacun de ses pas dans une voie qui aboutit au Communisme.
 Il ne se donne pas le ridicule de se poser en champion de la Propriété
 au moment où il la viole ;
@@ -433,35 +422,18 @@ mais qu’imagine-t-il pour se justifier ?
 Il invoque l’axiome favori de quiconque veut concilier
 deux choses inconciliables : ,(emph[Il n’y a pas de principes]).
 Propriété, Communisme, prenons un peu partout, selon la circonstance.
-,(blockquote[
-,(q[À mon sens, le pendule de la civilisation,
+,(blockquote*[,(q[A mon sens, le pendule de la civilisation,
 qui oscille de l’un à l’autre principe, selon les besoins du moment,
-mais qui s’en va toujours marinant un progrès de plus,
+mais qui s’en va toujours marquant un progrès de plus,
 après avoir fortement incliné vers la liberté absolue de l’individualisme,
 revient vers la nécessité de l’action gouvernementale.])
 ])
 ][
-II n’y a donc rien de vrai dans le monde, il n’y a pas de principes,
+Il n’y a donc rien de vrai dans le monde, il n’y a pas de principes,
 puisque le pendule doit osciller d’un principe à l’autre
 selon les besoins du moment.
-Ô métaphore, où nous conduirais-tu, si l’on te laissait faire
-	,(footnote*[
-Voy., au présent volume, page 94,
-,(ref :url "principes_absolus.html"
-	[le chap. XVIII des ,(cite-title[Sophismes])]).
-Voy. aussi les p. 101 et 102, ,(XXX)
-,(XXX[Verifier les ref dans les autres notes])
-,(NdEEO)
-][
-Cette dernière remarque se rapporte dans
-,(bof-ref "thtn" (cite-title[Travail Humain, Travail National]))
-aux neufs paragraphes
-,(bof-ref "thtn" "p101" [de ,(q[Je ne puis pas m’expliquer…]) à
-,(q[… en parfaite ignorance de cause.])])
-][
-,(emph[(Note de Faré 2001-03-21.)])
-]) !
-][
+Ô métaphore, où nous conduirais-tu, si l’on te laissait faire !
+](nbsp)[
 Ainsi que vous le disiez fort judicieusement à la tribune,
 on ne peut pas dire ,(--) encore moins écrire ,(--) tout à la fois.
 Il doit être bien entendu que je n’examine pas ici
@@ -470,13 +442,13 @@ je ne recherche pas encore si, au point de vue de la richesse nationale,
 il fait plus de bien que de mal ou plus de mal que de bien.
 Le seul point que je veux prouver,
 c’est qu’il n’est autre chose qu’une manifestation du Communisme.
-MM. Billault et Proudhon ont commencé la démonstration.
+MM. ,(np "billault" [Billault]) et ,(np "proudhon" [Proudhon]) ont commencé la démonstration.
 Je vais essayer de la compléter.
-][
+][,(tag :a :name "lamartine_ref")
 Et d’abord que faut-il entendre par ,(emph[Communisme]) ?
 Il y a plusieurs manières, sinon de réaliser la communauté des biens,
 du moins de le tenter.
-M. de Lamartine en comptait quatre.
+,(np "lamartine" [M. de Lamartine]) en comptait quatre.
 Vous pensez qu’il y en a mille, et je suis de votre avis.
 Cependant je crois que toutes peuvent rentrer
 dans trois catégories générales,
@@ -551,8 +523,8 @@ systématiquement et par l’action de la loi.
 J’ajoute que c’est là, à notre époque, le Communisme vraiment dangereux.
 Pourquoi ? Parce que, sous cette forme,
 nous le voyons incessamment prêt à tout envahir.
-Et voyez l’un demande que l’État fournisse gratuitement
-aux artisans, aux laboureurs des ,(emph[instruments de travail]),(pv)
+Et voyez ! l’un demande que l’État fournisse gratuitement
+aux artisans, aux laboureurs des ,(emph[instruments de travail ;])
 c’est l’inviter à les ravir à d’autres artisans et laboureurs.
 L’autre veut que l’État prête sans intérêt ;
 il ne le peut faire sans violer la propriété.
@@ -568,13 +540,14 @@ pour l’avantage de celui qui le vend ;
 mais c’est au détriment de celui qui l’achète.
 Oui, sous cette forme, il est bien peu de personnes
 qui, une fois ou autre, ne soient communistes.
-Vous l’êtes, M. Billault l’est,
+Vous l’êtes, ,(np "billault" [M. Billault]) l’est,
 et je crains qu’en France nous ne le soyons tous à quelque degré.
 Il semble que l’intervention de l’État nous réconcilie avec la spoliation,
 en en rejetant la responsabilité sur tout le monde,
 c’est-à-dire sur personne, ce qui fait qu’on jouit du bien d’autrui
 en parfaite tranquillité de conscience.
-Cet honnête M. Tourret, un des hommes les plus probes
+,(tag :a :name "tourret_ref")
+Cet honnête ,(np "tourret" [M. Tourret]), un des hommes les plus probes
 qui se soient jamais assis sur les bancs ministériels,
 ne commençait-il pas ainsi son exposé des motifs
 du projet de loi sur les avances à l’agriculture ?
@@ -582,8 +555,7 @@ du projet de loi sur les avances à l’agriculture ?
 il faut encore fournir les instruments de travail.])
 Après ce préambule, il soumet à l’Assemblée nationale
 un projet de loi dont le premier article est ainsi conçu :
-,(blockquote[
-Art. 1er.
+,(blockquote*[Art. 1,(sup[er]).
 Il est ouvert, sur le budget de 1849,
 au ministre de l’agriculture et du commerce,
 un crédit de 10 millions destiné à faire des avances
@@ -592,8 +564,7 @@ aux propriétaires et associations de propriétaires de fonds ruraux.
 ][
 Avouez que si la langue législative se piquait d’exactitude,
 l’article devrait être ainsi rédigé :
-,(blockquote[
-Le ministre de l’agriculture et du commerce est autorisé,
+,(blockquote*[Le ministre de l’agriculture et du commerce est autorisé,
 pendant l’année 1849, à prendre 10 millions
 dans la poche des laboureurs qui en ont grand besoin
 et ,(emph[à qui ils appartiennent]),
@@ -612,9 +583,9 @@ et me mette à même de rançonner mes acheteurs.
 Comme le motif sur lequel il se fonde est qu’il n’est pas content de son gain
 tel que le fait l’échange libre ou le libre-échange
 (ce que je déclare être la même chose, quoi qu’on en dise),
-comme, d’un autre côté, nous sommes tous mécontents de notre gain
+comme d’un autre côté, nous sommes tous mécontents de notre gain
 et disposés à invoquer la législature, il est clair,
-du moins à mes yeux, que si elle ne se hate de répondre :
+du moins à mes yeux, que si elle ne se hâte de répondre :
 « Cela ne me regarde pas,
 je ne suis pas chargée de violer les propriétés, mais de les garantir ;])
 il est clair, dis-je, que nous sommes en plein Communisme.
@@ -653,7 +624,7 @@ Et si l’on me dit :
 L’État n’agit point ainsi en faveur de tout le monde,
 mais seulement en faveur de quelques classes, je répondrai :
 Alors il a trouvé le moyen d’empirer le Communisme lui-même.
-][
+](nbsp)[
 Je sens, Monsieur, qu’on peut jeter du doute sur ces déductions,
 à l’aide d’une confusion fort facile.
 On me citera des faits administratifs très-légitimes,
@@ -664,7 +635,7 @@ on me mettra dans mon tort, on me dira :
 Ou vous ne devez pas voir le Communisme dans la Protection,
 ou vous devez le voir dans toute action gouvernementale.
 ][
-C’est un piège ,(XXX :EO [piége]) dans lequel je ne veux pas tomber.
+C’est un piége dans lequel je ne veux pas tomber.
 C’est pourquoi je suis obligé de rechercher
 quelle est la circonstance précise
 qui imprime à l’intervention de l’État le caractère communiste.
@@ -673,14 +644,14 @@ Quelle est la mission de l’État ?
 Quelles sont les choses que les citoyens
 doivent confier à la force commune ?
 quelles sont celles qu’ils doivent réserver à l’activité privée ?
-Répondre à ces questions, ce serait taire un cours de politique.
+Répondre à ces questions, ce serait faire un cours de politique.
 Heureusement je n’en ai pas besoin pour résoudre le problème qui nous occupe.
 ][
 Quand les citoyens, au lieu de se rendre à eux-mêmes un Service,
 le transforment en Service public,
 c’est-à-dire quand ils jugent à propos de se cotiser
 pour faire exécuter un travail
-ou se procurer une satisfaction ,(emph[en commun])
+ou se procurer une satisfaction ,(emph[en commun]),
 je n’appelle pas cela du ,(emph[Communisme]),
 parce que je n’y vois pas ce qui fait son cachet spécial :
 ,(emph[le nivellement par voie de spoliation]).
@@ -749,7 +720,7 @@ je n’aurai aucune objection de ,(emph[principe])
 Le calcul des avantages et des inconvénients pour tous
 sera le seul élément de la décision.
 On pourra se tromper dans ce calcul,
-mais l’erreur même qui entrainera une perte de propriété,
+mais l’erreur même qui entraînera une perte de propriété
 ne constituera pas une violation systématique de la propriété.
 ][
 Mais que M. le maire propose
@@ -774,27 +745,27 @@ je vois sombrer jusqu’à la notion même de Propriété,
 il me sera bien permis de penser
 que, pour la sauver du naufrage, la première chose à faire
 est de signaler ce qu’il y a d’inique dans la mesure
-qui a été le premier anneau de cette chaine déplorable.
-][
+qui a été le premier anneau de cette chaîne déplorable.
+](nbsp)[
 Il ne me serait pas difficile, Monsieur,
 de trouver dans votre ouvrage des passages
 qui vont à mon sujet et corroborent mes vues.
-À vrai dire, il me suffirait de l’ouvrir au hasard.
+A vrai dire, il me suffirait de l’ouvrir au hasard.
 Oui, si, renouvelant un jeu d’enfant,
 j’enfonçais une épingle dans ce livre,
 je trouverais, à la page indiquée par le sort,
-la condamnation, implicite où explicite, du Régime Protecteur,
+la condamnation, implicite ou explicite, du Régime Protecteur,
 la preuve de l’identité de ce régime, en principe, avec le Communisme.
 Et pourquoi ne ferais-je pas cette épreuve ? Bon, m’y voilà.
 L’épingle a désigné la page 283 ; j’y lis :
-,(blockquote[
+,(blockquote*[
 ,(q[C’est donc une grave erreur que de s’en prendre à la concurrence,
 et de n’avoir pas aperçu que si le peuple est producteur,
 il est consommateur aussi, et que recevant moins d’un côté
 (ce que je nie, et vous le niez vous-même quelques lignes plus bas),
 payant moins de l’autre, reste alors, au profit de tous,
 la différence d’un système qui retient l’activité humaine,
-un système qui la lance à l’infini dans la carrière
+à un système qui la lance à l’infini dans la carrière
 en lui disant de ne s’arrêter jamais.])
 ])
 ][
@@ -803,7 +774,7 @@ Je vous défie de dire que ceci ne s’applique pas aussi bien
 qu’à celle qui se fait par-dessus la Loire. ,(--)
 Donnons encore un coup d’épingle.
 C’est fait ; nous voici à la page 325.
-,(blockquote[
+,(blockquote*[
 ,(q[Les droits sont on ne sont pas :
 s’ils sont, ils entrainent des conséquences absolues…
 il y a plus, si le droit est, il est de tous les instants :
@@ -812,7 +783,7 @@ non pas quand il vous plaira de le déclarer en vigueur,
 mais quand il plaira à l’ouvrier de l’invoquer !])
 ])
 ][
-Soutiendrez-vous qu’un maître de forges ,(XXX)
+Soutiendrez-vous qu’un maître de forges
 a le droit indéfini, perpétuel,
 de m’empêcher de produire indirectement deux quintaux de fer
 dans mon usine, qui est une vigne,
@@ -823,9 +794,9 @@ S’il est, il est entier aujourd’hui, hier, demain, après demain,
 en été comme en hiver, non pas quand il vous plaira de le déclarer en vigueur,
 mais quand il plaira au ,(emph[maître de forges]) de l’invoquer !
 ][
-Tentons encore le sort. Il nous désigne la page 63 ; ,(XXX :EO "&nsbp ; :")
+Tentons encore le sort. Il nous désigne la page 63 ;
 j’y lis cet aphorisme :
-,(blockquote[
+,(blockquote*[
 ,(q[La Propriété n’est pas,
 si je ne puis la ,(emph[donner]) aussi bien que la ,(emph[consommer]).])
 ])
@@ -843,8 +814,7 @@ qui n’est guère en péril, et pas une ligne à l’Échange,
 si impudemment violé sous l’autorité même des lois du pays.
 ][
 Encore un coup d’épingles. Ah ! il nous met à la page 47.
-,(blockquote[
-,(q[L’homme a une première propriété dans sa personne et ses facultés.
+,(blockquote*[,(q[L’homme a une première propriété dans sa personne et ses facultés.
 Il en a une seconde, moins adhérente à son être, mais non moins sacrée,
 dans le produit de ces facultés
 qui embrasse tout ce qu’on appelle les biens de ce monde,
@@ -863,7 +833,7 @@ ensuite des facultés, enfin du produit des facultés,
 ce qui prouve, pour le dire en passant,
 qu’à un certain point de vue, Liberté et Propriété se confondent.
 ][
-À peine oserais-je dire, comme vous,
+A peine oserais-je dire, comme vous,
 que la Propriété du produit de nos facultés
 est moins adhérente à notre être que celle de ces facultés elles-mêmes.
 Matériellement, cela est incontestable ;
@@ -876,10 +846,10 @@ Il l’est encore si, le laissant travailler librement,
 je trouve le moyen, par force ou par ruse,
 de m’emparer du fruit de son travail.
 Le premier genre d’oppression est plus odieux,
-Le second. est plus habile.
+le second est plus habile.
 Comme on a remarqué que le travail libre
 est plus intelligent et plus productif,
-les maitres se sont dit :
+les maîtres se sont dit :
 N’usurpons pas directement les facultés de nos esclaves,
 mais accaparons le produit plus riche de leurs facultés libres,
 et donnons à cette forme nouvelle de servitude
@@ -890,11 +860,11 @@ Vous dites encore que la société est intéressée
 Nous sommes d’accord ; seulement je vais plus loin que vous,
 et si par la ,(emph[société]) vous entendez le ,(emph[gouvernement]),
 je dis que sa seule mission, en ce qui concerne la propriété,
-est de la ,(emph[garantir]),(pv)
+est de la ,(emph[garantir ;])
 que s’il essaie de la ,(emph[pondérer]), par cela même,
 au lieu de la garantir, il la viole.
 Ceci mérite d’être examiné.
-][
+](nbsp)[
 Quand un certain nombre d’hommes,
 qui ne peuvent vivre sans travail et sans propriétés,
 se cotisent pour solder une ,(emph[force commune]),
@@ -919,7 +889,7 @@ il faut se demander si ce droit réside dans l’individu
 en vertu de son organisation et en l’absence de tout gouvernement.
 C’est sur cette idée que je repoussais, il y a quelques jours,
 le droit au travail.
-Je disais : Puisque Pierre n’a pas le droit d’exiger directement de Paul
+,(ref :url "droit_au_travail.html#pierrepaul" [Je disais]) : Puisque Pierre n’a pas le droit d’exiger directement de Paul
 que celui-ci lui donne du travail, il n’est pas davantage fondé
 à exercer ce prétendu droit par l’intermédiaire de l’État,
 car l’État n’est que la ,(emph[force commune]) créée par Pierre et par Paul,
@@ -968,10 +938,10 @@ mais sur sa violation permanente et systématique !
 Non, l’auteur du livre que j’ai sous les yeux
 ne peut soutenir une semblable thèse.
 Mais ce n’est pas tout qu’il ne la soutienne pas,
-il eût peut être dû la combattre.
+il eût peut-être dû la combattre.
 Ce n’est pas tout d’attaquer ce Communisme grossier et absurde
 que quelques sectaires posent dans des feuilles décriées.
-Il eût peut-ètre été bon de dévoiler et de flétrir
+Il eût peut-être été bon de dévoiler et de flétrir
 cet autre Communisme audacieux et subtil
 qui, par la simple perversion de la juste idée des droits de l’État,
 s’est insinué dans quelques branches de notre législation
@@ -987,13 +957,13 @@ droit qui ne résidant antérieurement en personne
 ne peut résider davantage dans la communauté.
 ][
 Mais à quoi bon insister sur ces idées générales ?
-À quoi bon démontrer ici l’absurdité du Communisme,
+A quoi bon démontrer ici l’absurdité du Communisme,
 puisque vous l’avez fait vous-même
 (sauf quant à une de ses manifestations,
 et selon moi la plus pratiquement menaçante),
 beaucoup mieux que je ne saurais le faire ?
 ][
-Peut-être me dites-vous que le principe du Régime Protecteur
+Peut-être me direz-vous que le principe du Régime Protecteur
 n’est pas en opposition avec le principe de la Propriété.
 Voyons donc les procédés de ce régime.
 ][
@@ -1010,8 +980,8 @@ entreprend une tâche toute nouvelle, toute différente, et, selon moi,
 non-seulement exclusive, mais destructive de la première.
 Il lui plaît de se faire juge des profits,
 de décider que tel travail n’est pas assez rémunéré, que tel autre l’est trop ;
-il lui plait de se poser en ,(emph[pondérateur]) et de faire,
-comme dit M. Billault, osciller le pendule de la civilisation
+il lui plaît de se poser en ,(emph[pondérateur]) et de faire,
+comme dit ,(np "billault" [M. Billault]), osciller le pendule de la civilisation
 du côté opposé à la ,(emph[liberté de l’individualisme]).
 En conséquence, il frappe sur la communauté tout entière
 une contribution pour faire un cadeau, sous le nom de primes,
@@ -1039,7 +1009,7 @@ je les montrerais sous le jour le plus ridicule,
 car elles ne sont qu’un don gratuit fait par la France à l’étranger.
 Ce n’est pas le vendeur qui la reçoit, mais l’acheteur,
 en vertu de cette loi que vous avez vous-même constatée
-à propos de l’impôt le consommateur, en définitive,
+à propos de l’impôt : le consommateur, en définitive,
 supporte toutes les charges, comme il recueille
 tous les avantages de la production.
 Aussi, il nous est arrivé au sujet de ces primes
@@ -1048,8 +1018,8 @@ Quelques gouvernements étrangers ont fait ce raisonnement :
 ,(q[Si nous élevons nos droits d’entrée d’un chiffre égal à la prime payée
 par les contribuables français, il est clair que rien ne sera changé pour
 nos consommateurs, car le prix de revient sera pour eux le même.
-La marchandise dégrévée de 5 fr. à la frontière française
-paiera 5 fr. de plus à la frontière allemande ;
+La marchandise dégrevée de 5 fr. à la frontière française
+paiera 5 fr. de plus à la frontière allemande ;
 c’est un moyen infaillible de mettre nos dépenses publiques
 à la charge du Trésor français.])
 Mais d’autres gouvernements, m’assure-t-on, ont été plus ingénieux encore.
@@ -1083,9 +1053,9 @@ Mon intérêt est d’en recevoir honnêtement
 la plus grande quantité possible contre chaque quantité donnée de mon travail.
 Je dis honnêtement, car je ne désire violer
 la propriété et la liberté de personne.
-Mais Je voudrais bien qu’on ne violât pas non plus ma propriété ni ma liberté.
+Mais je voudrais bien qu’on ne violât pas non plus ma propriété ni ma liberté.
 Les autres travailleurs et moi, d’accord sur ce point,
-nous nous imposons des sacrifices
+nous nous imposons des sacrifices,
 nous cédons une partie de notre travail
 à des hommes appelés ,(emph[fonctionnaires]),
 parce que nous leur donnons la ,(emph[fonction]) spéciale
@@ -1118,7 +1088,7 @@ et se sont donné une autre mission.
 Ils se sont mis en tête qu’ils devaient ,(emph[pondérer])
 mon travail et celui du mineur.
 En conséquence, ils m’ont défendu de me chauffer avec du combustible belge,
-et quand je vais à, la frontière avec mon meuble pour recevoir la houille,
+et quand je vais à la frontière avec mon meuble pour recevoir la houille,
 je trouve que ces fonctionnaires empêchent la houille d’entrer,
 ce qui revient au même que s’ils empêchaient mon meuble de sortir.
 Je me dis alors :
@@ -1146,13 +1116,13 @@ Ce n’est plus un simple mortel investi
 de droits à lui délégués par d’autres hommes
 qui, par conséquent, les possédaient.
 Non. Il est un être supérieur à l’humanité, puisant ses droits en lui même,
-et parmi ses droits, il s’arroge celui de pondérer les profits,
+et, parmi ces droits, il s’arroge celui de pondérer les profits,
 de tenir l’équilibre entre toutes les positions et conditions.
 C’est fort bien, dis-je, en ce cas,
 je vais l’accabler de réclamations et de requêtes,
 tant que je verrai un homme plus riche que moi sur la surface du pays.
 Il ne vous écoutera pas, m’est-il répondu,
-car s’il vous écoutait il serait Communiste,
+car s’il vous écoutait il serait Communiste
 et il se garde bien d’oublier que sa mission
 est de ,(emph[garantir]) les propriétés, non de les niveler.
 ][
@@ -1166,7 +1136,7 @@ C’est un serpent qui, avec votre approbation, par vos soins,
 a glissé sa tête dans nos lois et dans nos m,(oe)urs,
 et maintenant vous vous indignez
 de ce que la queue s’y montre à son tour !
-][
+](nbsp)[
 Il est possible, Monsieur, que vous me fassiez une concession ;
 vous me direz, peut-être :
 Le régime protecteur repose sur le principe communiste.
@@ -1174,7 +1144,7 @@ Il est contraire au droit, à la propriété, à la liberté ;
 il jette le gouvernement hors de sa voie
 et l’investit d’attributions arbitraires qui n’ont pas d’origine rationnelle.
 Tout cela n’est que trop vrai ;
-mais le régime protecteur est ,(emph[utile]),(pv)
+mais le régime protecteur est ,(emph[utile ;])
 sans lui le pays, succombant sous la concurrence étrangère, serait ruiné.
 ][
 Ceci nous conduirait à examiner la restriction au point du vue économique.
@@ -1187,12 +1157,12 @@ Prenez garde d’ailleurs qu’en vous prévalant de l’utilité
 pour justifier le mépris du droit, c’est comme si vous disiez :
 ,(q[Le Communisme, ou la spoliation, condamné par la justice,
 peut néanmoins être admis tomme expédient.])
-Et convenez qu’un tel aveu est plein le dangers.
+Et convenez qu’un tel aveu est plein de dangers.
 ][
 Sans chercher à résoudre ici le problème économique,
 permettez-moi une assertion.
 J’affirme que j’ai soumis au calcul arithmétique
-les avantages et les inconvénients dc a protection
+les avantages et les inconvénients de a protection
 au point de vue de la seule richesse,
 et toute considération d’un ordre supérieur mise de côté.
 J’affirme, en outre, que je suis arrivé à ce résultat :
@@ -1209,7 +1179,7 @@ mais on peut l’appuyer de preuves mathématiques.
 ][
 Ce qui fait que l’opinion publique s’égare sur ce point,
 c’est que le Profit de la protection est visible à l’,(oe)il nu,
-tandis que des deux Pertes égales qu’elle entraine,
+tandis que des deux Pertes égales qu’elle entraîne,
 l’une se divise à l’infini entre tous les citoyens,
 et l’autre ne se montre qu’à l’,(oe)il investigateur de l’esprit.
 ][
@@ -1223,23 +1193,18 @@ elle aura la jouissance de A et de B
 en détournant de l’ensemble de ses efforts une quantité égale à 90,
 car elle sera réduite à produire A directement.
 Si elle est libre, cette somme d’efforts, égale à 90, fera face :
-1° à la production de B qu’elle livrera à la Belgique pour en obtenir A ;
-2° la production d’un autre B pour elle-même ;
-3° à la production de C.
+1° à la production de B qu’elle livrera à la Belgique pour en obtenir A ;
+2° la production d’un autre B pour elle-même ;
+3° à la production de C.
 ][
 C’est cette portion de travail disponible appliqué à la production de C
 dans le second cas, c’est-à-dire créant une nouvelle richesse égale à 10,
-sans que pour cela la Franco soit privée ni de A ni de B,
-qui fait toute ta difficulté.
-À la place de A, mettez du fer ;
+sans que pour cela la France soit privée ni de A ni de B,
+qui fait toute la difficulté.
+A la place de A, mettez du fer ;
 à la place de B, du vin, de la soie, des articles Paris ;
 à la place de C, mettez de la richesse absente,
-vous trouverez toujours que la Restriction restreint le bien-être national
-	,(footnote*[
-Voy., au tome II, les articles
-,(ref :url "1profit_2pertes.html" [Un profit contre deux pertes]),
-,(ref :url "2pertes_1profit.html" [Deux pertes contre un profit]).
-,(NdEEO)]).
+vous trouverez toujours que la Restriction restreint le bien-être national.
 ][
 Voulez-vous que nous sortions de cette pesante algèbre ?
 je le veux bien.
@@ -1254,17 +1219,17 @@ en d’autres termes, qu’il ne représente une ,(emph[perte]).
 Peut-on dire que les producteurs de houille,
 outre l’intérêt de leurs capitaux et les profits ordinaires de l’industrie,
 ont recueilli, par le fait de la restriction,
-un extra ,(emph[bénéfice]) équivalent à cette perte ?
+un ,(emph[extra-bénéfice]) équivalent à cette perte ?
 Il le faudrait pour que la protection,
 sans cesser d’être injuste, odieuse, spoliatrice et communiste,
 fût au moins ,(emph[neutre]) au point de vue purement économique.
 Il le faudrait pour qu’elle méritat d’être assimilée
 la simple Spoliation qui déplace la richesse sans la détruire.
 Mais vous affirmez vous-même, page 236,
-,(q[que les mines de l’Aveyron, d’Alais, de Saint-Etienne,
+,(q[que les mines de l’Aveyron, d’Alais, de Saint-Étienne,
 du Creuzot, d’Anzin, les plus célèbres de toutes,
-n’ont pas produit un revenu de 4 p. 100 du capital engagé !])
-Pour qu’un capital en France donne 4 p. 100, il n’a pas besoin de protection.
+n’ont pas produit un revenu de 4 p. 100 du capital engagé !])
+Pour qu’un capital en France donne 4 p. 100, il n’a pas besoin de protection.
 Où est donc ici le profit à opposer à la perte signalée ?
 ][
 Ce n’est pas tout. Il y a là une autre perte nationale.
@@ -1287,13 +1252,10 @@ Imaginons dans les mers du Sud une île
 dont le sol soit devenu la propriété privée d’un certain nombre d’habitants.
 ][
 Imaginons, sur ce territoire approprié et borné, une population prolétaire
-toujours croissante ou tendant à s’accroitre
+toujours croissante ou tendant à s’accroître
 	,(footnote*[
-Voy., au présent tome,
-la ,(3e) lettre de l’opuscule
-,(cite-title[Propriété et Spoliation]),
-p. 407 et suiv.
-,(XXX :bof-ref "propriete_et_spoliation" "lettre3")
+Voyez la ,(ref :url "propriete_et_spoliation3.html#ile" [,(3e) lettre]) de l’opuscule
+,(cite-title[Propriété et Spoliation]).
 ,(NdEEO)]).
 ][
 Cette dernière classe ne pourra rien produire ,(emph[directement])
@@ -1304,7 +1266,7 @@ et même des matériaux de travail ;
 des céréales, des fruits, des légumes, de la viande,
 de la laine, du lin, du cuir, du bois, etc.
 ][
-Son intérèt évident est que le marché où se vendent ces choses
+Son intérêt évident est que le marché où se vendent ces choses
 soit le plus étendu possible. Plus elle se trouvera en présence
 d’une plus grande abondance de ces produits agricoles,
 plus elle en recevra pour chaque quantité donnée de son propre travail.
@@ -1312,7 +1274,7 @@ plus elle en recevra pour chaque quantité donnée de son propre travail.
 Sous un régime libre, on verra une foule d’embarcations
 aller chercher des aliments et des matériaux
 dans les îles et les continents voisins,
-et y porter en paiement des produits façonnés.
+et y porter en payement des produits façonnés.
 Les propriétaires jouiront de toute la prospérité
 à laquelle ils ont droit de prétendre ;
 un juste équilibre sera maintenu entre la valeur du travail industriel
@@ -1323,7 +1285,7 @@ les propriétaires de l’île font ce calcul ;
 Si nous empêchions les prolétaires de travailler pour les étrangers
 et d’en recevoir en échange des subsistances et des matières premières,
 ils seraient bien forcés de s’adresser à nous.
-Comme leur nombre croit sans cesse,
+Comme leur nombre croît sans cesse,
 et que la concurrence qu’ils se font entre eux est toujours plus active,
 ils se presseraient sur cette portion d’aliments et de matériaux
 qu’il nous resterait à exposer en vente,
@@ -1357,7 +1319,7 @@ et de matériaux de travail venus du dehors,
 vos barques seraient toujours à la mer ;
 quelle calamité nationale !
 L’abondance, il est vrai, régnerait autour de vous,
-mais y prendriez-vous-part ?
+mais y prendriez-vous part ?
 Ne dites pas que vos salaires se maintiendraient et s’élèveraient
 parce que les étrangers ne feraient qu’augmenter le nombre
 de ceux qui vous commandent du travail.
@@ -1367,8 +1329,8 @@ En ce cas, n’ayant plus ni travail ni salaire,
 vous périrez d’inanition au milieu de l’abondance.
 Croyez-nous, acceptez notre loi avec reconnaissance.
 Croissez et multipliez ;
-ce qu’il restera de vivres dans l’île
-au delà de notre consommation, vous sera livré contre votre travail,
+ce qu’il restera de vivres dans l’île,
+au-delà de notre consommation, vous sera livré contre votre travail,
 qui, par ce moyen, vous sera toujours assuré.
 Surtout gardez-vous de croire qu’il s’agit ici d’un débat entre vous et nous,
 dans lequel votre liberté et votre propriété sont en jeu.
@@ -1376,14 +1338,14 @@ N’écoutez jamais ceux qui vous le disent.
 Tenez pour certain que le débat est entre vous et l’étranger,
 ce barbare étranger, que Dieu maudisse,
 et qui veut évidemment vous exploiter
-en vous offrant des transactions perfides,
+en vous offrant des transactions perfides
 que vous êtes libres d’accepter ou de repousser.])
 ][
 Il n’est pas invraisemblable qu’un pareil discours,
 convenablement assaisonné de sophismes sur
 le numéraire, la balance du commerce, le travail national,
 l’agriculture nourricière de l’État, la perspective d’une guerre, etc., etc.,
-n’obtint le plus grand succès,
+n’obtînt le plus grand succès,
 et ne fit sanctionner le décret oppresseur par les opprimés eux-mêmes,
 s’ils étaient consultés. Cela s’est vu et se verra.
 ][
@@ -1400,7 +1362,7 @@ c’est que le châtiment remontera bientôt aux propriétaires eux-mêmes,
 qui auront préparé leur propre ruine par la ruine du public consommateur ;
 car, dans cette île, on verra la population,
 de plus en plus abaissée, se jeter sur les aliments les plus inférieurs.
-Ici elle se nourrira de châtaignes, là de mats,
+Ici elle se nourrira de châtaignes, là de maïs,
 plus loin de millet, de sarrasin, d’avoine, de pommes de terre.
 Elle ne connaîtra plus le goût du blé et de la viande.
 Les propriétaires seront tout étonnés de voir l’agriculture décliner.
@@ -1415,14 +1377,14 @@ ils se briseront toujours contre cet obstacle :
 une population misérable hors d’état de payer la viande,
 et, par conséquent, de donner le premier mouvement à cette triviale rotation.
 Ils finiront par apprendre, à leurs dépens,
-que mieux vaut subir la concurrence, en face d’une clientèle riche,
+que mieux vaut subir la concurrence en face d’une clientèle riche,
 que d’être investi d’un monopole en présence d’une clientèle ruinée.
 ][
 Voilà pourquoi je dis :
 non-seulement la prohibition c’est du Communisme,
 mais c’est du Communisme de la pire espèce.
 Il commence par mettre les facultés et le travail du pauvre,
-sa seule Propriété, à la discrétion du riche :
+sa seule Propriété, à la discrétion du riche ;
 il entraîne une perte sèche pour la masse,
 et finit par envelopper le riche lui-même dans la ruine commune.
 Il investit l’État du singulier droit
@@ -1433,7 +1395,7 @@ pour opérer un nivellement en sens inverse,
 je ne sais vraiment pas ce qu’il y aura à ,(XXX) leur répondre.
 En tout cas, la première réponse, et la meilleure,
 serait de renoncer à l’oppression.
-][
+](nbsp)[
 Mais j’ai hâte d’en finir avec ces calculs.
 Après tout, quelle est la position du débat ?
 Que disons-nous et que dites-vous ?
@@ -1461,7 +1423,7 @@ Si vous me répondez :
 ,(q[J’agis ainsi parce que le Communisme réalisé par les tarifs,
 quoique opposé à la Liberté, à la Propriété, à la Justice,
 est néanmoins d’accord avec l’Utilité générale,
-et cette considération me fait passer pardessus toutes les autres ;])
+et cette considération me fait passer par dessus toutes les autres ;])
 si vous me répondez cela, ne sentez-vous pas
 que vous ruinez d’avance tout le succès de votre livre,
 que vous en détruisez la portée,
@@ -1515,17 +1477,12 @@ au bien-être du peuple, on l’a adopté,
 en dépit de toute considération de justice ;
 mais alors les conséquences sont arrivées.
 La foi dans la propriété s’est effacée.
-On a dit comme M. Billault :
+On a dit comme ,(np "billault" [M. Billault]) :
 Puisque la propriété a été violée par la Protection,
 pourquoi ne le serait-elle pas par le droit au travail ?
-D’autres, derrière M. Billault, feront un troisième pas,
+D’autres, derrière ,(np "billault" [M. Billault]), feront un troisième pas,
 et d’autres, derrière ceux là, un quatrième,
-jusqu’à ce que le Communisme ait prévalu
-	,(footnote*[
-Voy., au tome V,
-les dernières pages du pamphlet intitulé
- ,(bof-ref "spoliation_et_loi" (cite-title[Spoliation et Loi])).
-,(NdEEO)]).
+jusqu’à ce que le Communisme ait prévalu.
 ][
 De bons et solides esprits, comme le vôtre,
 s’épouvantent devant la rapidité de cette pente.
@@ -1550,7 +1507,7 @@ et pour cela il est indispensable de commencer
 par résoudre le problème économique ;
 il faut bien être fixé sur la prétendue Utilité de ce régime.
 Car, à supposer même que j’obtinsse de vous son arrêt de condamnation,
-au point de, vue de la Justice, cela ne suffirait pas pour le tuer.
+au point de vue de la Justice, cela ne suffirait pas pour le tuer.
 Je le répète, les hommes sont ainsi faits que,
 lorsqu’ils se croient placés
 entre le ,(emph[bien réel]) et le ,(emph[juste abstrait]),
@@ -1572,20 +1529,11 @@ comme chose sinon méprisable, du moins secondaire ;
 jusque-là que, parce que nous en tenons grand compte,
 on nous y traite, nous,
 	de froids économistes,
-	d’égoistes,
+	d’égoïstes,
 	d’individualistes,
 	de bourgeois,
 	d’hommes sans entrailles,
-	ne reconnaissant pour Dieu que le vil intérêt
-		,(footnote*[
-Voy. au tome II,
-la plupart des articles compris sous cette rubrique :
-,(cite-title[Polémique contre les journaux]),
-,(XXX :bof-ref " ? ? ?")
-et notamment l’article intitulé :
-,(cite-title[Le Parti démocratique et le Libre-Échange]).
-,(XXX :bof-ref "parti_democratique_libre_echange")
-,(NdEEO)]).
+	ne reconnaissant pour Dieu que le vil intérêt.
 Bon ! me dis-je, voilà de nobles c,(oe)urs
 	avec lesquels je n’ai pas besoin de discuter
 	le point de vue économique, qui est fort subtil
@@ -1604,7 +1552,7 @@ En conséquence, je leur adressai mon appel.
 Le voici :
 ][
 Votre Libre-Échange est une belle utopie.
-II est fondé en droit et en justice ;
+Il est fondé en droit et en justice ;
 il réalise la liberté ;
 il consacre la propriété ;
 il aurait pour conséquence
@@ -1632,7 +1580,7 @@ Cette expérience m’avertit qu’il fallait avant tout
 résoudre cet effrayant problème :
 Y a-t-il harmonie ou antagonisme entre la Justice et l’Utilité ?
 et, par conséquent, scruter le côté économique du régime restrictif ;
-car, puisque les Fraternitaires eux-mêmes lachaient pied
+car, puisque les Fraternitaires eux-mêmes lâchaient pied
 devant une prétendue ,(emph[perte d’argent]),
 il devenait clair que ce n’est pas tout
 de mettre à l’abri du doute la cause de la Justice Universelle,
@@ -1664,8 +1612,8 @@ Voyez ce qui se passe en Angleterre.
 Il semble que si le Communisme avait dû trouver quelque part
 une terre qui lui fût favorable, ce devait être le sol britannique.
 Là les institutions féodales plaçant partout,
-en face l’une de l’autre, l’extrème misère et l’extrême opulence,
-avaient du préparer les esprits à l’infection des fausses doctrines.
+en face l’une de l’autre, l’extrême misère et l’extrême opulence,
+avaient dû préparer les esprits à l’infection des fausses doctrines.
 Et pourtant que voyons-nous ?
 Pendant qu’elles bouleversent le continent,
 elles n’ont pas seulement troublé la surface de la société anglaise.
@@ -1674,11 +1622,7 @@ Savez-vous pourquoi ?
 Parce que l’association qui, pendant dix ans,
 a discuté le régime protecteur n’en a triomphé
 qu’en jetant de vives lumières sur le principe de la Propriété
-et sur les fonctions rationnelles de l’État
-	,(footnote*[
-Voy. au tome II, l’introduction.
-,(XXX :bof-ref " ? ? ?")
-,(NdEEO)]).
+et sur les fonctions rationnelles de l’État.
 ][
 Sans doute, si démasquer le Prohibitionisme c’est atteindre le Communisme,
 par la même raison, et à cause de leur étroite connexité,
@@ -1691,7 +1635,7 @@ c’est de voir l’association pour la défense des monopoles
 consacrer ses ressources à propager votre livre.
 C’est un spectacle des plus piquants,
 et il me console de l’inutilité de mes efforts passés.
-Cette résolution du comité Mimerel
+Cette résolution du comité ,(np "mimerel" [Mimerel])
 vous obligera sans doute à multiplier les éditions de votre ouvrage.
 En ce cas, permettez-moi de vous faire observer que,
 tel qu’il est, il présente une grave lacune.
@@ -1719,7 +1663,7 @@ et la libre disposition de ses biens.
 On le verrait se décharger à la fois
 et de ses colossales attributions illégitimes
 et de l’effrayante responsabilité qui s’y attache.
-II se bornerait à réprimer les abus de la liberté,
+Il se bornerait à réprimer les abus de la liberté,
 ce qui est réaliser la liberté même.
 Il assurerait la justice à tous,
 et ne promettrait plus la fortune à personne.

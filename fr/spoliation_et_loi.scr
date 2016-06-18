@@ -12,7 +12,7 @@
 ])
 (bastiat[
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 mai 1850.])
-,(h2[À Messieurs les Protectionistes du Conseil général des Manufactures.
+,(h2[A Messieurs les Protectionistes du Conseil général des Manufactures.
 ,(footnote*[
 Le 27 avril 1850, à la suite d’une discussion très-curieuse,
 que le ,(cite-title[Moniteur]) a reproduite,
@@ -44,15 +44,12 @@ Nous ne reconnaissons que deux principes, l’Oppression et la Spoliation.])
 ][
 Vous est-il possible de concevoir l’économie politique sans société ?
 la société sans échanges ?
-L’échange sans un rapport d’appréciation
+l’échange sans un rapport d’appréciation
 entre les deux objets ou les deux services échangés ?
 Vous est-il possible de concevoir ce rapport, nommé ,(emph[valeur]),
 autrement que comme résultant du ,(emph[libre]) consentement des échangistes ?
 Pouvez-vous concevoir qu’un produit en ,(emph[vaut]) un autre
-si, dans le troc, une des parties n’est pas ,(emph[libre])
-,(footnote*[Voir la théorie de la valeur,
-au ,(bof-ref "de_la_valeur" [chap. V du tome VI]).
-,(NdEEO).]) ?
+si, dans le troc, une des parties n’est pas ,(emph[libre]) ?
 Vous est-il possible de concevoir
 le libre consentement des deux parties sans liberté ?
 Vous est-il possible de concevoir
@@ -78,7 +75,7 @@ ce qui vous gêne, c’est la propriété,
 non la vôtre, bien entendu, mais celle d’autrui.
 Vous souffrez difficilement
 que les autres disposent librement de leur propriété
-(seule manière d’être propriétaire) ,(pv)
+(seule manière d’être propriétaire) ;
 vous entendez disposer de la vôtre… et de la leur.
 ][,(tag :a :name "moralite")
 Et puis vous demandez aux économistes
@@ -91,8 +88,8 @@ et si elle revêt une forme plus particulièrement odieuse,
 c’est surtout la forme légale ,(footnote*[
 L’auteur avait exprimé cette opinion, trois ans auparavant,
 dans ,(ref :url "legalite_moralite.html" [cet article]) du numéro du 28 novembre 1847 du journal ,(cite-title[le Libre-Échange]).]).
-][
-Ici, monsieur Benoît d’Azy, je vous prends à partie.
+][,(tag :a :name "benoist_ref")
+Ici, ,(np "benoist" [monsieur Benoît d’Azy]), je vous prends à partie.
 Vous êtes un homme modéré, impartial, généreux.
 Vous ne tenez ni à vos intérêts, ni à votre fortune ;
 c’est ce que vous proclamez sans cesse.
@@ -106,9 +103,9 @@ Et hier, à l’Assemblée nationale :
 de donner à tous les ouvriers le travail dont ils ont besoin,
 je donnerais tout ce que je possède pour réaliser ce bienfait…,
 malheureusement impossible.])
-][
+][,(tag :a :name "beaumarchais_ref")
 Encore que l’inutilité du sacrifice vous donne
-le vif chagrin de ne le point faire, et de dire, comme Basile :
+le vif chagrin de ne le point faire, et de dire, comme ,(np "beaumarchais" [Basile]) :
 ,(q[L’argent ! l’argent ! je le méprise…, mais je le garde,])
 assurément, nul ne doutera d’une générosité si retentissante,
 quoique si stérile.
@@ -147,7 +144,7 @@ mais ils ne font qu’exécuter la Loi.
 Les choses étant ainsi, vous êtes maître de forges et je suis chapelier.
 J’ai besoin de fer, pour mon usage ou pour mon industrie.
 Naturellement, je me pose ce problème :
-,(q[Quel est pour moi le moyen de me procurer le fer, qui m’est nécessaire,
+,(q[Quel est pour moi le moyen de me procurer le fer qui m’est nécessaire,
 avec la moindre somme possible de travail ?])
 En tenant compte de ma situation, de mes connaissances,
 je découvre que le mieux pour moi est de faire des chapeaux
@@ -170,7 +167,6 @@ et là, au moment où je vais exécuter mon troc, vous me criez :
 ,(--) Mais, seigneur, j’ai mes raisons aussi pour préférer le fer à bon marché.
 ,(--) Eh bien ! entre tes raisons et les miennes, voici qui va décider.
 Valets, en joue !
-,(XXX)
 ][
 Bref, vous empêchez le fer belge d’entrer,
 et, du même coup, vous empêchez mes chapeaux de sortir.
@@ -199,24 +195,24 @@ si je leur faisais faire, sur la frontière,
 cet acte odieux que j’y allais faire moi-même !
 ][
 Échauffé par cette séduisante perspective,
-vous vous faites nommer législateur et votez un décret conçu en ces termes :
-ART. 1er.
+vous vous faites nommer législateur et votez un décret conçu en ces termes :])
+,(blockquote(p*[,(strong[Art.]) ,(1er).
 Il sera prélevé une taxe sur tout le monde
 (et notamment sur mon maudit chapelier).
 ][
-ART. 2.
-Avec le produit de cette taxe on paiera des hommes
+,(strong[Art.]) 2.
+Avec le produit de cette taxe on payera des hommes
 qui feront bonne garde à la frontière, dans l’intérêt des maîtres de forges.
 ][
-ART. 3.
+,(strong[Art.]) 3.
 Ils veilleront à ce que nul ne puisse échanger avec des Belges
 les chapeaux ou autres marchandises contre du fer.
 ][
-ART. 4.
+,(strong[Art.]) 4.
 Les ministres, procureurs de la République, douaniers, percepteurs et geôliers
-sont chargés, chacun en ce qui le concerne, de l’exécution de la présente loi.
-][
-Je conviens, Monsieur, que, sous cette forme,
+sont chargés, chacun en ce qui le concerne, de l’exécution de la présente loi.]))
+
+,(p*[Je conviens, Monsieur, que, sous cette forme,
 la Spoliation vous serait infiniment
 plus douce, plus lucrative, moins périlleuse
 que sous celle dont vous vous étiez d’abord avisé.
@@ -230,8 +226,7 @@ de ruine, d’immoralité, de désordre, de haines et de révolutions incessante
 que vous auriez ouvert la porte à tous les essais
 du socialisme et du communisme
 ,(footnote*[
-Voy., au tome IV,
-,(bof-ref "protectionisme_et_communisme"
+Voyez ,(bof-ref "protectionisme_et_communisme"
 	(cite-title[Protectionisme et Communisme])). ,(NdEEO)]).
 ][
 Vous trouvez, sans doute, mon hypothèse très-hardie.
@@ -260,14 +255,14 @@ En conséquence, comme vous vous êtes fait protectioniste,
 je me fais socialiste.
 Comme vous vous êtes arrogé le ,(strong[droit au profit]),
 j’invoque le ,(strong[droit au travail]) ou aux instruments de travail.
-][
-D’ailleurs, en prison, j’ai lu mon Louis Blanc,
+][,(tag :a :name "blanc_ref")
+D’ailleurs, en prison, j’ai lu mon ,(np "blanc" [Louis Blanc]),
 et je sais par c,(oe)ur cette doctrine :
 ,(q[Ce qui manque aux prolétaires pour s’affranchir,
 ce sont les instruments de travail ;
 la fonction du gouvernement est de les leur fournir.])
 Et encore :
-,(q[Dès qui on admet qu’il faut à l’homme, pour être vraiment libre,
+,(q[Dès qu’on admet qu’il faut à l’homme, pour être vraiment libre,
 le ,(emph[pouvoir]) d’exercer et de développer ses facultés,
 il en résulte que la société doit à chacun de ses membres,
 et l’instruction, sans laquelle l’esprit humain ne peut se déployer,
@@ -278,7 +273,7 @@ donnera-t-elle à chacun de ses membres
 l’instruction convenable et les instruments de travail nécessaires,
 si ce n’est par l’intervention de l’État
 ,(footnote*[ ,(cite-title[Organisation du travail]),
-pages 17 et 24 de l’introduction.]) ?])
+pages 17 et 24 de l’introduction. ,(NdA)]) ?])
 ][
 Donc, moi aussi, fallût-il pour cela révolutionner mon pays,
 je force les portes du Palais législatif.
@@ -286,24 +281,23 @@ Je pervertis la Loi et lui fais accomplir,
 à mon profit et à vos dépens,
 l’acte même pour lequel elle m’avait jusqu’ici châtié.
 ][
-Mon décret est calqué sur le vôtre.
-][
-ART. 1er.
+Mon décret est calqué sur le vôtre.])
+,(blockquote(p*[,(strong[Art.]) ,(1er).
 Il sera prélevé une taxe sur tous les citoyens,
 et spécialement sur les maîtres de forges.
 ][
-ART. 2.
+,(strong[Art.]) 2.
 Avec le produit de cette taxe,
 l’État soldera un corps armé,
 lequel prendra le titre de ,(emph[gendarmerie fraternelle]).
 ][
-ART. 3.
+,(strong[Art.]) 3.
 Les gendarmes fraternels entreront
 dans les magasins de haches, scies, etc.,
 s’empareront de ces instruments
-et les distribueront aux ouvriers qui en désirent.
-][
-Grâce à cette combinaison habile,
+et les distribueront aux ouvriers qui en désirent.]))
+
+,(p*[Grâce à cette combinaison habile,
 vous voyez bien, Monsieur, que je n’aurai plus
 les risques, ni les frais, ni l’odieux, ni les scrupules de la Spoliation.
 L’État volera pour moi, comme il fait pour vous.
@@ -314,7 +308,7 @@ Reste à savoir comment se trouverait la société française
 de la réalisation de ma seconde hypothèse,
 ou, tout au moins, comment elle se trouve
 de la réalisation à peu près complète de la première.
-][
+](nbsp)[
 Je ne veux pas traiter ici le point de vue économique de la question.
 On croit que, lorsque nous réclamons le libre-échange,
 nous sommes mus uniquement par le désir
@@ -325,7 +319,7 @@ ce qui nous blesse,
 ce qui nous afflige,
 ce qui nous épouvante dans le régime protecteur,
 c’est qu’il est la négation du droit, de la justice, de la propriété ;
-c’est qu’il tourne, contre la propriété et la justice, la Loi
+c’est qu’il tourne contre la propriété et la justice la Loi
 qui devait les garantir ;
 c’est qu’il bouleverse ainsi et pervertit
 les conditions d’existence de la société.
@@ -351,7 +345,7 @@ Vous déplorez les symptômes que présente la société moderne ;
 vous gémissez sur le désordre qui règne
 dans les institutions et dans les idées.
 Mais n’est-ce pas votre principe
-qui a tout-perverti, idées et institutions ?
+qui a tout perverti, idées et institutions ?
 ][
 Quoi !
 la Loi n’est plus le refuge de l’opprimé, mais l’arme de l’oppresseur !
@@ -366,7 +360,7 @@ peut y obtenir sa part de Spoliation légale.
 ][
 Et qu’est-il arrivé ?
 Toutes les classes se sont ruées sur les portes de ce palais, criant :
-À moi, à moi une part de Spoliation !
+A moi, à moi une part de Spoliation !
 ][
 Après la révolution de Février,
 quand le suffrage universel a été proclamé,
@@ -390,7 +384,6 @@ Sous l’autorité de vos précédents.
 Quels sophismes a-t-on invoqués ?
 Ceux que vous propagez depuis des siècles.
 Ainsi que vous, on a parlé de ,(emph[niveler les conditions du travail]).
-][
 Ainsi que vous, on a déclamé contre la ,(emph[concurrence anarchique]).
 Ainsi que vous, on a bafoué le ,(emph[laissez faire]),
 c’est-à dire la ,(emph[liberté]).
@@ -399,34 +392,34 @@ que la Loi ne devait pas se borner à être juste,
 mais qu’elle devait venir en aide aux industries chancelantes,
 protéger le faible contre le fort,
 assurer des profits aux individus aux dépens de la communauté, etc., etc.
+,(tag :a :name "dupin_ref")
 Bref, le socialisme est venu faire,
-selon l’expression de M. Ch. Dupin, ,(XXX)
+selon l’expression de ,(np "dupin_ch" [M. Ch. Dupin]),
 la théorie de la Spoliation.
 Il a fait ce que vous faites,
 ce que vous voulez que fassent avec vous et pour vous
 les professeurs d’économie politique.
 ][
 Vous avez beau être habiles, messieurs les restrictionistes,
-vous avez beau radoucir le ton, vanter votre générosité latente, ,(XXX)
+vous avez beau radoucir le ton, vanter votre générosité latente,
 prendre vos adversaires par les sentiments,
 vous n’empêcherez pas la logique d’être la logique.
-][
-Vous n’empêcherez pas M. Billault de dire au législateur :
+][,(tag :a :name "billault_ref")
+Vous n’empêcherez pas ,(np "billault" [M. Billault]) de dire au législateur :
 Vous accordez des faveurs aux uns, il faut en accorder à tous.
-][
-Vous n’empêcherez pas M. Crémieux de dire au législaleur :
+][,(tag :a :name "cremieux_ref")
+Vous n’empêcherez pas ,(np "cremieux" [M. Crémieux]) de dire au législaleur :
 Vous enrichissez les manufacturiers, il faut enrichir les prolétaires.
-][
-Vous n’empêcherez pas M. Nadeau de dire au législateur :
+][,(tag :a :name "nadeau_ref")
+Vous n’empêcherez pas ,(np "nadaud" [M. Nadaud]) de dire au législateur :
 Vous ne pouvez refuser de faire pour les classes souffrantes
 ce que vous faites pour les classes privilégiées.
-][
-Vous n’empêcherez pas même votre coryphée, M. Mimerel, de dire au législateur :
-,(q[Je demande 25, 000 primes pour les caisses de retraite d’ouvriers,])
-et de développer ainsi sa motion :
-][
-,(XXX [police + petite ici])
-,(q[Est-ce le premier exemple de cette nature qu’offre notre législation ?
+][,(tag :a :name "mimerel_ref")
+Vous n’empêcherez pas même votre coryphée, ,(np "mimerel" [M. Mimerel]), de dire au législateur :
+,(q[Je demande 25,000 primes pour les caisses de retraite d’ouvriers,])
+et de développer ainsi sa motion :])
+
+,(blockquote(p*[« Est-ce le premier exemple de cette nature qu’offre notre législation ?
 Établirez-vous en système que l’État peut tout encourager,
 ouvrir à ses frais des cours de sciences,
 subventionner les beaux-arts,
@@ -437,8 +430,8 @@ les jouissances des arts,
 le repos de la vieillesse,
 donner tout cela à ceux qui ne connaissent pas de privations,
 faire payer leur part de ces sacrifices à ceux qui n’ont rien,
-et leur refuser tout, même pour les indispensabilités de la vie ?…])….
-,(q[Messieurs, notre société française, nos m,(oe)urs,
+et leur refuser tout, même pour les indispensabilités de la vie ?…]
+[… « Messieurs, notre société française, nos m,(oe)urs,
 nos lois sont ainsi faites,
 que l’intervention de l’État, si regrettable qu’on la suppose,
 se rencontre partout,
@@ -468,18 +461,19 @@ en proscrivant nos expositions ?
 assurément non : mais
 ,(emph[en faisant la part directe du pauvre
 dans cette distribution de bienfaits])
-,(footnote*[,(cite-title[Moniteur]) du 28 avril 1850]).
-])][
-Dans cette longue énumération de faveurs accordées
+,(footnote*[,(tag :a :name "mu_ref"),(tj "mu" [,(cite-title[Moniteur])]) du 28 avril 1850. ,(NdA)]). »
+]))
+
+,(p*[Dans cette longue énumération de faveurs accordées
 à quelques-uns aux dépens de tous,
 on remarque l’extrême prudence
-avec laquelle M. Mimerel a laissé dans l’ombre les faveurs douanières,
+avec laquelle ,(np "mimerel" [M. Mimerel]) a laissé dans l’ombre les faveurs douanières,
 encore qu’elles soient la manifestation la plus explicite
 de la spoliation légale.
 Tous les orateurs qui l’ont appuyé ou contredit se sont imposé la même réserve.
 C’est fort habile !
 Peut-être espèrent-ils,
-,(emph[en faisant la part du pauvre, dans cette distribution de bienfaits]),
+,(emph[en faisant la part du pauvre dans cette distribution de bienfaits]),
 sauver la grande iniquité dont ils profitent, mais dont ils ne parlent pas.
 ][
 Ils se font illusion.
@@ -494,10 +488,8 @@ vous dites :
 ne s’adressent pas à l’industriel, mais à l’industrie.
 Les profits qu’elle nous permet de préveler, aux dépens des consommateurs,
 ne sont qu’un dépôt entre nos mains
-,(XXX :EO [interversion entre les numéros d’annotations 1 et 2])
-,(footnote*[
-,(cite-title[Moniteur]) du 28 avril.
-Voir l’opinion de M. Devinck.]).])
+,(footnote*[,(tag :a :name "devinck_ref"),(tj "mu" [,(cite-title[Moniteur])]) du 28 avril.
+Voir l’opinion de ,(np "devinck" [M. Devinck]). ,(NdA)]).])
 ][
 ,(q[Ils nous enrichissent, c’est vrai,
 mais notre richesse, nous mettant à même
@@ -521,15 +513,7 @@ Mais, je l’ai déjà dit,
 je ne discute pas aujourd’hui
 les conséquences économiques de la Spoliation légale.
 Quand MM. les protectionistes le voudront,
-ils me trouveront prêt à examiner le ,(emph[sophisme des ricochets])
-,(footnote*[
-Il se trouve implicitement réfuté
-aux chap. ,(XXX :bof-ref "protection_taux_salaires") XII de la première série,
-,(XXX :bof-ref "conseil_inferieur_du_travail") IV et
-,(bof-ref "les_trois_echevins" [XIII])
-de la seconde série des ,(cite-title[Sophismes]).
-Voy., tome IV, pages 74, 160 et 229.
-,(NdEEO)]),
+ils me trouveront prêt à examiner le ,(emph[sophisme des ricochets]),
 qui du reste peut être invoqué pour tous les genres de vols et de fraudes.
 ][
 Bornons-nous aux effets politiques et moraux de l’échange
@@ -606,5 +590,5 @@ pamphlet compris dans le précédent volume.
 	transcrit et relu par ,(krylenko),
 	mis en hypertexte par ,(FRR)
 	pour ,(Bastiat.org).
-	À relire.
+	A relire.
 ])))
