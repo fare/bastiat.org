@@ -22,12 +22,12 @@ d’une rémunération plus onéreuse.])))
 ,(p*[
 Je veux rester sur mon terrain ;
 vous voulez m’attirer sur le vôtre, et vous me dites :
-Qu’êtes-vous venu faire à la ,(cite-title[Voix du Peuple]),
+Qu’êtes-vous venu faire à la ,(tj "vp" [,(cite-title[Voix du Peuple])]),
 si ce n’est réfuter la théorie du crédit gratuit, etc. ?
 ][
 Il y a là un malentendu.
-Je n’ai point été à la ,(cite-title[Voix du Peuple]),(pv)
-la ,(cite-title[Voix du Peuple]) est venue à moi.
+Je n’ai point été à la ,(cite-title[,(tj "vp" [Voix du Peuple]) ;])
+la ,(tj "vp" [,(cite-title[Voix du Peuple])]) est venue à moi.
 De tous côtés, on parlait du crédit gratuit,
 et chaque jour voyait éclore un plan nouveau pour la réalisation de cette idée.
 ][
@@ -39,7 +39,7 @@ c’est les ruiner tous à la fois, c’est renverser leur base commune.
 Et je publiai la brochure
 ,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])).
 ][
-La ,(cite-title[Voix du Peuple]),
+La ,(tj "vp" [,(cite-title[Voix du Peuple])]),
 ne trouvant pas ma démonstration concluante, l’a réfutée.
 J’ai demandé à la maintenir, vous y avez consenti loyalement :
 c’est donc sur mon terrain que doit se continuer la discussion.
@@ -57,10 +57,10 @@ n’est-ce pas prouver que la gratuité du crédit est une chimère ?
 ][
 Permettez-moi donc, Monsieur, de m’en tenir à cette question dominante :
 ,(emph[L’intérêt est-il légitime et utile ?])
-][
+](nbsp)[,(tag :a :name "kant_ref")
 Par pitié pour l’ignorance où vous me voyez
 (ainsi que bon nombre de nos lecteurs) de la philosophie germanique,
-vous voulez bien, métamorphosant Kant en Diafoirus,
+vous voulez bien, métamorphosant ,(np "kant" [Kant]) en Diafoirus,
 substituer à la ,(emph[loi de la contradiction])
 celle de la ,(emph[distinction]).
 ][
@@ -69,21 +69,22 @@ Elle me met à l’aise.
 Mon esprit se refuse invinciblement, je l’avoue,
 à admettre que deux assertions contradictoires
 puissent être vraies en même temps.
-Je respecte, comme je le dois, quoique de confiance, Kant, Fichte et Hegel.
+,(tag :a :name "fichte_ref")
+Je respecte, comme je le dois, quoique de confiance, ,(np "kant" [Kant]), ,(np "fichte" [Fichte]) et ,(np "hegel" [Hegel]).
 Mais si leurs livres entraînent l’esprit du lecteur
 à admettre des propositions comme celles-ci :
 ,(emph[Le Vol, c’est la propriété ;
 la Propriété, c’est le vol ;
-le jour, c’est la nuit]),(pv)
+le jour, c’est la nuit ;])
 je bénirai le Ciel, tous les jours de ma vie,
 de n’avoir pas fait tomber ces livres sous mes yeux.
-À ces sublimes subtilités, votre intelligence s’est aiguisée ;
-la mienne y eut infailliblement succombé,
+A ces sublimes subtilités, votre intelligence s’est aiguisée ;
+la mienne y eût infailliblement succombé,
 et, bien loin de me faire comprendre des autres,
 je ne pourrais plus me comprendre moi-même.
 ][
 Enfin, à cette question : L’intérêt est-il légitime ?
-vous répondez, non plus en allemand :
+,(ref :url "lettre5.html#distinguo" [vous répondez]), non plus en allemand :
 ,(emph[Oui et non]), mais en latin : ,(inlatin[Distinguo]).
 ,(q[Distingons ;
 oui, l’intérêt du capital a pu être considéré comme légitime dans un temps ;
@@ -103,13 +104,13 @@ et c’est à celui qui veut bouleverser la pratique universelle
 sur la foi d’une affirmation si ,(emph[étrange]),
 à la prouver.
 ][
-J’avais fait résultat la légitimité de l’intérêt
+J’avais fait résulter la légitimité de l’intérêt
 de ce que le prêt est un ,(emph[service]),
 lequel est susceptible d’être ,(emph[évalué]),
 a, par conséquent, une ,(emph[valeur])
 et peut s’échanger contre toute autre valeur égale.
 Je croyais même que vous étiez convenu de la vérité de cette doctrine,
-en ces termes :
+,(ref :url "lettre3.html#oui1" [en ces termes]) :
 ][
 ,(q[Il est très-vrai,
 comme vous l’établissez vous-même péremptoirement,
@@ -124,7 +125,7 @@ qu’il doit ,(emph[porter intérêt]).])
 Voilà ce que vous disiez,
 il y a quinze jours.
 Aujourd’hui vous dites :
-Distinguons, ,(XXX)
+Distinguons,
 prêter c’était rendre service autrefois,
 ce n’est plus rendre service maintenant.
 ][
@@ -143,7 +144,7 @@ veuillez me les prêter.
 ][
 ,(strong[le prêteur.])
 Volontiers,
-nous allons débattre les condition.
+nous allons débattre les conditions.
 ][
 ,(strong[l’emprunteur.])
 Monsieur,
@@ -158,7 +159,6 @@ dans le remboursement du prêt,
 est donné en sus de prêt,
 est usure,
 spoliation]).
-,(XXX)
 ][
 ,(strong[le prêteur.])
 Mais puisque vous venez me demander un ,(emph[service]),
@@ -174,11 +174,11 @@ je garderai mon capital,
 dussé-je le manger.
 ][
 ,(strong[l’emprunteur.])
-,(q[Monsieur, ,(XXX)
+,(q[Monsieur,
 je suis socialiste,
 et le socialisme,
 redoublant d’énergie,
-proteste et vous dit par ma bouche :
+proteste et ,(ref :url "lettre5.html#spoliation" [vous dit]) par ma bouche :
 je n’ai que faire de votre service,
 service pour vous et spoliation pour moi,
 tandis qu’il est loisible à la société
@@ -190,7 +190,7 @@ en refusant d’organiser la circulation des capitaux,
 c’est me faire supporter un prélèvement injuste,
 c’est me voler.])
 ][,(tag :a :name "imposerien")
-,(strong[Le prêteur.])
+,(strong[le prêteur.])
 Je ne vous impose rien malgré vous.
 Dès que vous ne voyez pas,
 dans le prêt,
@@ -213,21 +213,21 @@ qui m’ont fait vous refuser le prêt direct et gratuit.
 La Société !
 J’ai été surpris,
 je l’avoue,
-de voir apparaître dans un écrit émané de vous,
+de voir apparaître, dans un écrit émané de vous,
 ce personnage nouveau,
 ce capitaliste accommodant.
-][
+][,(tag :a :name "blanc_ref")
 Eh quoi ! Monsieur,
 vous qui, dans la même feuille où vous m’adressez votre lettre,
 avez combattu avec une si rude énergie
-les systèmes de Louis Blanc et de Pierre Leroux,
+les systèmes de ,(np "blanc" [Louis Blanc]) et de ,(np "leroux" [Pierre Leroux]),
 n’avez-vous dissipé la fiction de l’,(emph[État])
-que pour y substituer la fiction de la ,(emph[Société]) ?
+que pour y substituer la fiction de la ,(emph[Société ?])
 ][
 Qu’est-ce donc que la Société,
 en dehors de quiconque prête ou emprunte,
-perçoit ou paie l’intérêt inhérent au prix de toutes choses ?
-Quel est ce ,(inlatin[Deus ex machina])
+perçoit ou paye l’intérêt inhérent au prix de toutes choses ?
+Quel est ce ,(inlatin[Deus ex machinâ])
 que vous faites intervenir d’une manière si inattendue
 pour donner le mot du problème ?
 Y a-t-il, d’un côté,
@@ -236,7 +236,7 @@ et, de l’autre, la Société,
 personnalité distincte,
 possédant des capitaux en telle abondance
 qu’elle en peut prêter à chacun sans compte ni mesure,
-et cela sans ,(emph[rétribution]) ?
+et cela sans ,(emph[rétribution ?])
 ][
 Ce n’est pas ainsi que vous l’entendez ;
 je n’en veux pour preuve que votre article sur l’État.
@@ -253,7 +253,7 @@ cette limite s’efface sans cesse,
 qui sépare,
 aux yeux de la conscience publique,
 la propriété du vol.
-][
+](nbsp)[
 En cherchant à pénétrer jusqu’à la racine de l’erreur que je combats ici,
 je crois la trouver dans la confusion que vous faites
 entre les ,(emph[frais de circulation des capitaux])
@@ -263,8 +263,9 @@ et vous en concluez que le prêt sera gratuit.
 C’est comme si l’on disait que
 lorsque les frais de transport de Bordeaux à Paris seront anéantis,
 les vins de Bordeaux se donneront pour rien à Paris.
+,(tag :a :name "law_ref")
 Vous n’êtes pas le premier qui se soit fait cette illusion.
-Law disait :
+,(np "law" [Law]) disait :
 ,(q[La loi de la circulation est la seule qui puisse sauver les empires.])
 Il agit sur ce principe,
 et,
@@ -303,14 +304,14 @@ de la Banque nationale,
 des banques libres.
 ][
 C’est une circonstance heureuse pour les consommateurs des capitaux,
-comme il est heureux pour les consommateurs de vin,
+comme il est heureux pour les consommateurs de vin
 que les moyens de transport se perfectionnent.
 Mais,
 d’une part,
 jamais les frais de circulation ne peuvent descendre à zéro,
-puisqu’il y a toujours là un intermédiaire qui rend ,(emph[service]),(pv) et,
+puisqu’il y a toujours là un intermédiaire qui rend ,(emph[service ;]) et,
 d’autre part,
-ces frais fussent-ils complètement anéantis,
+ces frais fussent-ils complétement anéantis,
 l’Intérêt subsisterait encore,
 et n’en serait même pas sensiblement affecté.
 Il y a des banques libres aux Etat-Unis ;
@@ -329,9 +330,8 @@ que les capitaux ne produisent pas d’intérêt à ceux qui prêtent,
 et n’en coûtent pas à ceux qui empruntent ?
 Non,
 cela signifie seulement que prêteurs et emprunteurs
-s’y rencontrent plus facilement qu’ailleurs.
-][
-Ainsi,
+s’y rencontrent plus facilement qu’ailleurs.])
+,(liste(p*[Ainsi,
 gratuité absolue de la circulation,
 ,(--) chimère.
 ][
@@ -341,32 +341,31 @@ Gratuité du crédit,
 Imaginer que la première de ces gratuités,
 si elle était possible,
 impliquerait la seconde,
-,(--) troisième chimère.
-][
-Vous voyez que je me suis laissé entraîner sur votre terrain,
+,(--) troisième chimère.]))
+
+,(p*[Vous voyez que je me suis laissé entraîner sur votre terrain,
 et,
 puisque j’y ai fait trois pas,
 j’en ferais deux autres.
 ][
 Vous voulez ,(emph[organiser la circulation])
-de telle sorte que chacun perçoive autant d’intérêt qu’il en paie,
+de telle sorte que chacun perçoive autant d’intérêt qu’il en paye,
 et c’est là ce qui réalisera,
 dites-vous,
 l’égalité des fortunes.
 ][
-Or, je dis :
-][
-Compensation universelle des intérêts,
+Or, je dis :])
+,(liste(p*[Compensation universelle des intérêts,
 ,(--) chimère.
 ][
-Egalité absolue des fortunes,
+Égalité absolue des fortunes,
 comme conséquence de cette chimère,
-,(--) autre chimère.
-][
-Toute valeur se compose de deux éléments :
+,(--) autre chimère.]))
+
+,(p*[Toute valeur se compose de deux éléments :
 la rémunération du travail et la rémunération du capital.
-Pour que ces deux éléments entrassent,
-en proportion identique,
+Pour que ces deux éléments entrassent
+en proportion identique
 dans toutes valeurs égales,
 il faudrait que toute ,(oe)uvre humaine admît le même emploi de machines,
 la même consommation d’approvisionnements,
@@ -402,9 +401,8 @@ sur quel fondement le ,(emph[travail ancien]) serait-il,
 plus que le ,(emph[travail actuel]),
 exclu de toute rétribution ?
 ][
-Le travail se divise en deux catégories bien distinctes :
-][
-Ou il est exclusivement consacré à la production d’un objet,
+Le travail se divise en deux catégories bien distinctes :])
+,(liste(p*[Ou il est exclusivement consacré à la production d’un objet,
 comme lorsque l’agriculteur sème,
 sarcle,
 moissonne et égrène son blé,
@@ -415,9 +413,8 @@ Ou il sert à la production d’une série indéterminée d’objets semblables,
 comme quand l’agriculteur clôt,
 amende,
 dessèche son champ,
-ou que le tailleur meuble son atelier.
-][
-Dans le premier cas,
+ou que le tailleur meuble son atelier.]))
+,(p*[Dans le premier cas,
 tout le travail doit être payé par l’acquéreur de la récolte ou de l’habit ;
 dans le second,
 il doit être payé sur un nombre indéterminé de récoltes ou d’habits.
@@ -466,7 +463,7 @@ et d’autres plus préoccupés de la vie future ?
 Il est clair que l’égalité absolue des fortunes
 ne pourrait être que la résultante
 de toutes ces égalités impossibles et de bien d’autres.
-][
+](nbsp)[
 Mais si l’égalité absolue des fortunes est chimérique,
 ce qui ne l’est pas,
 c’est l’approximation constante de tous les hommes
@@ -490,7 +487,7 @@ Les travailleurs seront peut-être étonnés de m’entendre affirmer ceci :
 De tous les éléments qui entrent dans le prix des choses,
 celui qu’ils doivent payer avec le plus de joie,
 c’est précisément l’intérêt ou la rémunération du capital,
-parce que ce paiement leur en épargne toujours un plus grand.
+parce que ce payement leur en épargne toujours un plus grand.
 ][
 Pierre est un artisan parisien.
 Il a besoin qu’un fardeau soit transporté à Lille ;
@@ -498,15 +495,15 @@ c’est un présent qu’il veut faire à sa mère.
 S’il n’y avait pas de capital au monde
 (et il n’y en aurait pas si toute rémunération lui était déniée),
 ce transport coûterait à Pierre au moins deux mois de fatigues,
-soit qu’il le fit lui-même,
-soit qu’il se fit rendre ce service par un autre ;
+soit qu’il le fît lui-même,
+soit qu’il se fît rendre ce service par un autre ;
 car il ne pourrait l’exécuter lui-même
 qu’en charriant le fardeau par monts et par vaux, sur ses épaules,
 et nul ne pourrait l’exécuter pour lui que de la même manière.
 ][
 Pourquoi se rencontre-t-il
 des entrepreneurs qui ne demandent à Pierre
-qu’une journée de sont travail pour lui en épargner soixante ?
+qu’une journée de son travail pour lui en épargner soixante ?
 Parce que le capital est intervenu sous forme
 de char,
 de chevaux,
@@ -559,7 +556,7 @@ que je le suis moi-même.])
 ][
 Jacques achète tous les matins,
 pour un sou,
-la ,(cite-title[Voix du Peuple]).
+la ,(tj "vp" [,(cite-title[Voix du Peuple])]).
 Comme il gagne 100 sous par jour,
 ou 50 centimes par heure,
 c’est six minutes de travail qu’il échange contre le prix d’un numéro,
@@ -567,9 +564,8 @@ prix dans lequel se trouvent comprises deux rémunérations,
 celle du travail et celle du capital.
 Comment Jacques ne se dit-il pas quelquefois :
 ,(q[Si aucun capital n’intervenait
-dans l’impression de la ,(cite-title[Voix du Peuple]),
+dans l’impression de la ,(tj "vp" [,(cite-title[Voix du Peuple])]),
 je ne l’obtiendrais ni à un sou ni à 100 francs ?])
-,(XXX [on dirait qu’il y a une fin de croché à cet endroit])
 ][
 Je pourrais passer en revue tous les objets
 qui satisfont les besoins des travailleurs,
@@ -654,13 +650,13 @@ Mais j’ai l’espoir que,
 sous ce rapport,
 elle a perdu quelque chose de sa puissance.
 Il y a dans l’esprit des masses
-un fond de bon sens
+un fonds de bon sens
 qui ne perd pas ses droits,
 et se révolte enfin contre ces paradoxes étranges
 donnés pour de sublimes découvertes.
 Oh ! que n’avez-vous établi votre active propagande sur cet autre axiome,
 assurément plus impérissable que le vôtre :
-,(emph[Le vol, c’est le contraire de la propriété !]) ,(XXX)
+,(emph[Le vol, c’est le contraire de la propriété !])
 Alors,
 avec votre indomptable énergie,
 votre style populaire,
@@ -669,12 +665,8 @@ je ne puis mesurer le bien qu’il vous eût été donné
 de répandre sur notre chère patrie et sur l’humanité.
 
 ])
-,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(sign[,(FredB).])
 ])
-;(p* (nbsp))
-;(tag :p :align 'right (strong[l'emprunteur.]))
-;(tag :p :align 'right (strong[le prêteur.]))
-;XXX
 
 (tous_les_scripts)
 (footer[

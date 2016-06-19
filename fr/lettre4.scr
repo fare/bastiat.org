@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 26 novembre 1849.])
 ,(p :align 'center (strong[
-	F. Bastiat à P. J. Proudhon.]))
+	F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
 ,(p*(font :size "-1" (strong[
 
 Circonscription logique du débat.
@@ -67,15 +67,15 @@ entre toutes les classes ;
 se mettant de plus en plus à la portée de tous,
 par la modicité croissante de sa rémunération ;
 rachetant l’humanité enfin du poids de la fatigue et du joug des loisirs.
-][,(tag :a :name "contradiction")
+](nbsp)[,(tag :a :name "contradiction")
 Mais comment nous élever à d’autres vues du problème social,
 lorsque, à cette première question :
 L’intérêt du capital est-il légitime ?
-vous ,(XXX [pas majuscule à ,(q[vous])]) répondez :
+vous répondez :
 ,(strong[Oui]) et ,(strong[Non]).
 ][
-,(strong[Oui]) :
-car ,(--) ,(q[il est très-vrai ,(XXX [trait d’union])
+,(strong[,(ref :url "lettre3.html#oui1" [Oui])]) :
+car ,(--) ,(q[il est très-vrai
 que le prêt est un ,(emph[service]),
 et comme tout service est une ,(emph[valeur]),
 conséquemment,
@@ -83,7 +83,7 @@ comme il est de sa nature d’être rémunéré,
 il s’ensuit que le prêt doit avoir son prix,
 ,(emph[qu’il doit porter intérêt]).])
 ][
-,(strong[Non]) :
+,(strong[,(ref :url "lettre3.html#non1" [Non])]) :
 car ,(--) ,(q[le prêt,
 par l’intérêt qui en résulte,
 produit un bénéfice qui permet au capitaliste de vivre sans travailler.
@@ -94,7 +94,7 @@ en économie politique aussi bien qu’en morale,
 une proposition contradictoire,
 une chose impossible.])
 ][
-,(strong[Oui]) :
+,(strong[,(ref :url "lettre3.html#oui2" [Oui])]) :
 car ,(--) ,(q[la négation fondamentale de l’intérêt
 ne détruit pas à nos yeux le principe,
 le ,(emph[droit]) qui donne naissance à l’intérêt.
@@ -105,23 +105,23 @@ nous sommes,
 sous ce rapport,
 de l’opinion des économistes.])
 ][
-,(strong[Non]) :
+,(strong[,(ref :url "lettre3.html#antinomie" [Non])]) :
 car ,(--) ,(q[nous nions,
-avec le christianisme et l’Evangile,
+avec le christianisme et l’Évangile,
 la légitimité en soi du prêt à intérêt.])
 ][
-,(strong[Oui]) :
+,(strong[,(ref :url "lettre3.html#oui3" [Oui])]) :
 car ,(--) ,(q[l’usure n’a été,
 dans son institution providentielle,
 qu’un instrument d’utilité et de progrès.])
 ][
-,(strong[Non]) :
+,(strong[,(ref :url "lettre3.html#non3" [Non])]) :
 car ,(--) ,(q[tout ce qui,
 en remboursement du prêt,
 est donné en sus du prêt est usure,
 spoliation.])
 ][
-,(strong[Oui]) et ,(strong[Non]),
+,(ref :url "lettre3.html#ouinon" [,(strong[Oui]) et ,(strong[Non])]),
 enfin :
 car ,(--) ,(q[le socialisme n’a la prétention de convertir personne,
 ni l’Église,
@@ -132,13 +132,13 @@ d’autant moins qu’il est convaincu qu’elles ont raison toutes deux.])
 ][
 Il y en a qui disent :
 ces solutions contradictoires
-sont un amusement que M. Proudhon donne à son esprit.
+sont un amusement que ,(np "proudhon" [M. Proudhon]) donne à son esprit.
 D’autres :
-ll ,(XXX [il avec majuscule]) ne faut voir là
-que des coups de pistolet que M. Proudhon tire dans la rue,
+Il ne faut voir là
+que des coups de pistolet que ,(np "proudhon" [M. Proudhon]) tire dans la rue,
 pour faire mettre le public aux fenêtres.
 Pour moi,
-qui sais que vous les appliquez à tous les sujets ;
+qui sais que vous les appliquez à tous les sujets :
 liberté,
 propriété,
 concurrence,
@@ -153,7 +153,7 @@ Son génie ne s’est pas façonné sur les bancs vermoulus de la Sorbonne.
 Les fameux :
 ,(inlatin[Quidquid dixeris, argumentabor,
 ,(--) Ego vero contra]) ,(footnote*[
-Formule latine, ,(it[Quoi que tu diras, j’argumenterai le contraire.])
+Formule latine, ,(it[Quelle que soit ta position, je la soutiendrai — Et moi \[je soutiendrai\] le contraire.])
 ,(XXX[oui, mais à l’époque était-ce courant ? d’où vient ce mème ?])
 ,(NdEBO)
 ])
@@ -174,7 +174,7 @@ soyez-en sûr,
 est ce qu’il y a de plus difficile à faire accepter,
 même aux esprits subtils,
 à plus forte raison au peuple.
-][
+](nbsp)[
 Si je m’arrête à la première moitié,
 j’ose dire à la bonne moitié de votre ,(emph[thèse]),
 en quoi différez-vous des économistes ?
@@ -186,7 +186,7 @@ lequel est susceptible d’évaluation et s’appelle ,(emph[intérêt]).
 ][
 Vous convenez que le seul moyen de dégager l’équivalence de ces deux services,
 c’est de les laisser s’échanger librement,
-puisque vous repoussez l’intervention de l’Etat,
+puisque vous repoussez l’intervention de l’État,
 et proclamez,
 dès le début de votre article,
 la liberté de l’homme et du citoyen.
@@ -197,17 +197,17 @@ un instrument d’égalité et de progrès.
 ][
 Vous convenez que,
 par l’accumulation des capitaux
-(qui certes ne s’accumuleraient pas ,(XXX)
+(qui certes ne s’accumuleraient pas
 si toute rémunération leur était déniée),
 l’Intérêt tend à baisser,
 à mettre l’instrument du travail,
 la matière première et l’approvisionnement,
-toujours à la porté plus facile de classes plus nombreuses.
+toujours à la portée plus facile de classes plus nombreuses.
 ][
-Vous convenez que les obstacles,
-qui arrêtent cette désirable diffusion du capital,
+Vous convenez que les obstacles
+qui arrêtent cette désirable diffusion du capital
 sont artificiels et se nomment
-privilèges, restrictions, monopoles ;
+priviléges, restrictions, monopoles ;
 qu’ils ne peuvent être la conséquence fatale de la liberté,
 puisque vous invoquez la liberté.
 ][
@@ -234,7 +234,7 @@ Oui,
 elle a lutté contre le communisme ;
 vous avez fait plus,
 vous l’avez écrasé.
-][
+](nbsp)[
 D’accord avec l’économie politique sur le capital,
 son origine,
 sa mission,
@@ -243,7 +243,7 @@ ses tendances ;
 d’accord avec elle sur le principe à promouvoir,
 la liberté ;
 ,(--) d’accord avec elle sur l’ennemi à combattre,
-l’intervention abusive de l’Etat dans les transactions honnêtes ;
+l’intervention abusive de l’État dans les transactions honnêtes ;
 ,(--) d’accord avec elle dans ses luttes
 contre les manifestations passées du socialisme ;
 ,(--) d’où vient que vous vous retournez contre elle ?
@@ -286,21 +286,22 @@ vous vous frotterez les mains encore,
 disant :
 Voici du secours qui arrive à mon ,(emph[anti-thèse]).
 O antinomie !
-tu ,(XXX [sans majuscule]) es vraiment une citadelle imprenable ;
+tu es vraiment une citadelle imprenable ;
 tu ressembles,
 trait pour trait,
 au ,(emph[scepticisme]).
-Comment convaincre Pyrrhon,
+,(tag :a :name "pyrrhon_ref")
+Comment convaincre ,(np "pyrrhon" [Pyrrhon]),
 qui vous dit :
 Je doute si tu me parles ou si je te parle ;
 je doute si tu es et si je suis ;
 je doute si tu affirmes ;
 je doute si je doute ?
-][
+](nbsp)[
 Voyons néanmoins sur quelle base
 vous faites reposer la seconde moitié de l’antinomie.
 ][
-Vous invoquez d’abord les Pères de l’Église,
+,(ref :url "lettre3.html#antinomie" [Vous invoquez]) d’abord les Pères de l’Église,
 le judaïsme et le paganisme.
 Permettez-moi de les récuser en matière économique.
 Vous l’avouez vous-même,
@@ -309,7 +310,7 @@ Quand il s’agit d’étudier les lois générales auxquelles obéit la sociét
 la manière dont les hommes agissent universellement
 a plus de poids que quelques sentences.
 ][,(tag :a :name "prive")
-Vous dites :
+,(ref :url "lettre3.html#prive" [Vous dites]) :
 ,(q[Celui qui prête ne se ,(emph[prive]) pas du capital qu’il prête.
 Il le prête, au contraire,
 parce que ce prêt ne constitue pas pour lui une privation ;
@@ -322,7 +323,7 @@ Il le prête,
 enfin,
 parce qu’il n’est ni dans son intention ni dans sa puissance
 de le faire personnellement valoir
-,(footnote*[ 1 L’argument tiré de ce que le capitaliste ,(emph[ne se prive pas]),
+,(footnote*[L’argument tiré de ce que le capitaliste ,(emph[ne se prive pas]),
 n’est pas exclusivement à l’usage des socialistes.
 Considérer comme un élément important de la légitimité de l’intérêt
 la ,(emph[privation]) éprouvée par le prêteur,
@@ -354,7 +355,7 @@ Il le vend enfin parce qu’il n’est ni dans son intention,
 ni dans sa puissance de le faire personnellement servir.])
 ][,(tag :a :name "compensation")
 En faveur de votre ,(emph[antithèse]),
-vous alléguez encore la compensation.
+,(ref :url "lettre3.html#rabot" [vous alléguez]) encore la compensation.
 ][
 ,(q[Vous me prêtez,
 moyennant intérêt,
@@ -408,7 +409,7 @@ se cote à demi pour cent ou à cinquante pour cent.
 Vous nous reprochez de méconnaître la signification du socialisme,
 parce que nous ne fondons pas de grandes espérances
 sur ses rêves de ,(emph[crédit gratuit]).
-Vous nous dites
+,(ref :url "lettre3.html#circulation" [Vous nous dites]) :
 ,(q[Vous attribuez au capital le mérite et le progrès
 opéré dans le domaine de l’industrie et de la richesse,
 tandis que le progrès a pour cause non le ,(emph[capital]),
@@ -424,10 +425,10 @@ par la perspective des récompenses attachées aux vertus qui l’engendrent.
 Ce n’est pas parce qu’il circule que le capital est utile ;
 c’est parce qu’il est utile qu’il circule.
 Son utilité intrinsèque fait que les uns les ,(emph[demandent]),
-que les autres l’,(emph[offrent]),(pv)
+que les autres l’,(emph[offrent ;])
 de là la circulation qui n’a besoin que d’une chose :
 ,(strong[être libre]).
-][
+](nbsp)[
 Mais ce que je déplore surtout,
 c’est de voir séparer en deux classes antagoniques
 les capitalistes et les travailleurs,
@@ -453,11 +454,11 @@ L’un n’a que ses bras ;
 l’autre a une hache,
 une scie,
 une herminette.
-Je paie au premier 3 fr.
+Je paye au premier 3 fr.
 par jour,
-au second 3 fr.
-75 c.
-Il semble que le salaire soit inégale :
+au second 3 fr.
+75 c.
+Il semble que le salaire soit inégal :
 creusons la matière,
 et nous nous convaincrons que
 cette inégalité apparente est de l’égalité réelle.
@@ -482,7 +483,7 @@ ce qui est tout un.
 Supposons qu’il les ait faits en consacrant à cette création
 tout le premier mois de l’année.
 Le man,(oe)uvre,
-qui n’a pas pris cette peine
+qui n’a pas pris cette peine,
 pourra me louer ses services pendant 300 jours,
 tandis que le charpentier-capitaliste
 n’aura plus que 270 journées disponibles ou rémunérables.
@@ -490,7 +491,7 @@ Il faut donc que 270 journées,
 avec outils,
 lui produisent autant que 300 journées sans outils ;
 en d’autres termes,
-que les premiers se paient 5 sous de plus.
+que les premières se payent 5 sous de plus.
 ][
 Ce n’est pas tout encore.
 Quand le charpentier s’est décidé à faire ses outils,
@@ -523,17 +524,16 @@ Ainsi nous arrivons à ce que la rétribution du charpentier
 se décompose comme il suit :
 ])
 ,(simple-table
-'(([1°] [3] [fr.] [,(--)] [] [c,]
+'(([1°] [3] [fr.] [,(--)] [»] [c.,]
    [salaire brut.])
-  ([2°] []  []    [,(--)] [25] []
+  ([2°] [»]  []    [,(--)] [25] []
    [usure des outils.])
-  ([3°] []  []    [,(--)] [25] []
+  ([3°] [»]  []    [,(--)] [25] []
    [compensation du temps consacré à faire les outils.])
-  ([4°] []  []    [,(--)] [25] []
+  ([4°] [»]  []    [,(--)] [25] []
    [juste rémunération de l’habileté, de la prévoyance, de la privation.])
-  ([]   (br) []   []      (br) [] []) ; trait de séparation ( ?)
-  ([  ] [3] [fr.] [,(--)] [75] [c.]
-   [(total),(XXX [la mention N’est pas dans l’original])])))
+  
+  ([  ] [3] [fr.] [,(--)] [75] [c.])))
 ,(p*[
 Où peut-on voir là injustice, iniquité, spoliation ?
 Que signifient toutes ces clameurs
@@ -541,14 +541,14 @@ si absurdement élevées contre notre charpentier devenu capitaliste ?
 ][
 Et remarquez bien que l’excédant de salaire qu’il reçoit
 n’est obtenu ,(emph[aux dépens]) de personne ;
-moi qui le paie,
+moi, qui le paye,
 j’ai moins que personne à m’en plaindre.
 Grâce aux outils,
 une production supplémentaire a été pour ainsi dire tirée du néant.
 Cet excédant d’utilité se partage entre le capitaliste
 et moi qui, comme consommateur, représente ici la communauté,
 l’humanité tout entière.
-][
+](nbsp)[
 Autre exemple,
 ,(--) car il me semble que ces analyses directes des faits
 instruisent plus que la controverse.
@@ -559,16 +559,16 @@ En homme primitif,
 il prend un vase et va puiser l’eau qui noie ses sillons.
 Voilà un travail excessif ;
 qui doit le payer ?
-évidemment ,(XXX [pas de majuscule]) l’acquéreur de la récolte.
+évidemment l’acquéreur de la récolte.
 Si l’homme n’avait jamais imaginé d’autre procédé de desséchement,
-le blé serait si cher, ,(XXX)
+le blé serait si cher,
 ,(emph[quoiqu])’il n’y eut pas de capital à rémunérer
 (ou plutôt ,(emph[parce que])),
 que l’on n’en produirait pas ;
 et tel a été le sort de l’humanité pendant des siècles.
 ][
 Mais notre laboureur s’avise de faire une rigole.
-Voilà le capital qui parait.
+Voilà le capital qui paraît.
 Qui doit payer les frais de cet ouvrage ?
 Ce n’est pas l’acquéreur de la première récolte.
 Cela serait injuste,
@@ -585,24 +585,24 @@ encore que le prix du blé se trouve ici grevé d’un intérêt,
 ce serait tomber dans un hérésie économique que de dire :
 cet intérêt est une perte pour le consommateur.
 Bien au contraire ;
-c’est parce que le consommateur paie l’intérêt de ce capital,
+c’est parce que le consommateur paye l’intérêt de ce capital,
 sous forme de rigole,
-qu’il ne paie pas l’épuisement,
+qu’il ne paye pas l’épuisement,
 beaucoup plus dispendieux,
 à force de bras.
 ,(--) Et, si vous observez la chose de près,
-vous verrez que c’est toujours du ,(emph[travail]) qu’il paie ;
+vous verrez que c’est toujours du ,(emph[travail]) qu’il paye ;
 seulement,
 dans le second cas,
 il intervient une coopération de la nature,
 très-utile,
 très-productive,
-mais qui ne se paie pas.
-][
+mais qui ne se paye pas.
+](nbsp)[
 Votre plus grand grief contre l’intérêt
 est qu’il permet aux capitalistes de vivre sans travailler.
 ,(q[Or,
-dites-vous,
+,(ref :url "lettre3.html#non1" [dites-vous]),
 vivre sans travailler,
 c’est,
 en économie politique comme en morale,
@@ -636,11 +636,11 @@ ou, pour mieux dire, à s’initier à des travaux d’un ordre plus élevé ?
 Pour que ce loisir provoquât avec justice,
 chez ceux qui n’y sont pas encore parvenus,
 l’irritation et l’envie,
-il faudrait qu’il fut acquis aux dépens d’autrui,
+il faudrait qu’il fût acquis aux dépens d’autrui,
 et j’ai prouvé qu’il n’en était pas ainsi.
 Il faudrait, de plus,
 qu’il ne fût pas l’éternelle aspiration de tous les hommes.
-][
+](nbsp)[
 Je terminerai cette lettre,
 déjà trop longue,
 par une considération sur le loisir.
@@ -672,7 +672,7 @@ tous les trésors de beauté et d’harmonie
 que la nature et l’art ont répandus autour de lui ?
 D’où vient que des larmes mouillent ses yeux
 au moindre trait de dévouement qu’il entend raconter ?
-D’où viennent ces flux et des reflux d’affection
+D’où viennent ces flux et ces reflux d’affection
 que son c,(oe)ur élabore comme il élabore le sang et la vie ?
 D’où lui viennent son amour de l’humanité et ses élans vers l’infini ?
 ,(tag :a :name "nobledestination")
@@ -693,10 +693,7 @@ ce qu’il y a de plus pur et de plus élevé dans sa nature ;
 ce qui est en germe chez tous les hommes,
 mais latent et inerte,
 faute de loisir,
-chez un trop grand nombre d’entre eux
-,(footnote*[ Voy., au ,(bof-ref "harmonies" [tome VI]),
-la fin du ,(bof-ref "richesse" [chap. VI]).
-,(NdEEO)])
+chez un trop grand nombre d’entre eux.
 ][
 Quelle est la puissance qui allégera pour tous,
 dans une certaine mesure,
@@ -728,7 +725,7 @@ et particulièrement des classes souffrantes.
 Ce qu’elles doivent désirer,
 c’est qu’il s’accumule,
 se multiplie,
-se répande sans compte ni mesure,
+se répande sans compte ni mesure.
 ,(--) Et s’il y a un triste spectacle au monde,
 ,(--) spectacle qu’on ne pourrait définir que par ces mots :
 suicide matériel,
@@ -740,9 +737,9 @@ faire au capital une guerre acharnée.
 ni plus triste,
 si nous voyions tous les capitalistes du monde
 se concerter pour paralyser les bras et tuer le travail.
-][
-En me résumant, monsieur Proudhon, je vous dira ceci :
-Le jour où nous serons d’accord sur cette première donnée,
+](nbsp)[,(tag :a :name "fin")
+En me résumant, ,(np "proudhon" [monsieur Proudhon]), je vous dirai ceci :
+Le jour où nous serons d’accord sur cette première donnée :
 l’intérêt du capital,
 déterminé par le libre débat,
 est légitime ;
@@ -750,7 +747,7 @@ est légitime ;
 les autres questions que vous me posez.
 
 ])
-,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(sign[,(FredB).])
 ])
 (tous_les_scripts)
 (footer[

@@ -78,6 +78,7 @@
 
 (document :title "Index des noms de personnes"
 (sommaire [
+,(p*[En travaux : 56% de textes indexés.])
 
 ,(lettre "A" [
 
@@ -380,7 +381,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(ref :url "propriete_communaute.html#say_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#blanc_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
-,(ref :url "spoliation_et_loi.html#blanc_ref" [Spoliation et loi])
+,(ref :url "spoliation_et_loi.html#blanc_ref" [Spoliation et loi]) ;
+,(ref :url "lettre6.html#blanc_ref" [Lettre 6])
 ,(p*[Sous la plume de Victor Considerant : ,(ref :url "propriete_et_spoliation6.html#blanc_ref" [Propriété et spoliation VI])])
 ])
 
@@ -391,7 +393,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]) ;
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique])
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique]) ;
+Sous la plume de Proudhon: ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]) ;
 ])
 
 ,(personne "boileau" "Boileau" "Nicolas" "1636-1711" [
@@ -870,7 +873,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#defoe_ref" [Lettre 7])
 ])
 
 ,(personne "descartes" "Descartes" "René" "1596-1650" [
-,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle])
+,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ])
 
 ,(personne "despouys" "Despouys" "(?)" "?" [
@@ -903,7 +907,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#defoe_ref" [Lettre 7])
 ,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production]) ;
 ,(ref :url "prix_absolus.html#dombasle_ref" [Prix absolus]) ;
 ,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité]) ;
-,(ref :url "parti_democratique_libre_echange.html#ferrier_ref" [Le parti démocratique et le libre-échange])
+,(ref :url "parti_democratique_libre_echange.html#ferrier_ref" [Le parti démocratique et le libre-échange]) ;
+,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
 ,(personne "domenger" "Domenger" "Bernard" "?" [
@@ -1083,6 +1088,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#defoe_ref" [Lettre 7])
 ,(ref :url "discours_4.html#ferrier_ref" [Conséquences comparées du régime protecteur et du libre-échange])
 ])
 
+,(personne "fichte" "Fichte" "Johann Gottlieb" "1762-1814" [
+,(ref :url "lettre6.html#fichte_ref" [Lettre 6])
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
+])
+
 ,(personne "fix" "Fix" "Théodore" "1800-1846" [
 ,(ref :url "lettre_horace_say1844.html#dussard_ref" [Lettre à H. Say, 24 novembre 1844])
 ])
@@ -1193,7 +1203,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne "girardin" "de Girardin" "Émile" "1802-1881" [
-,(ref :url "a_l_epoque.html#girardin_ref" [A M. le rédacteur de L’Époque])
+,(ref :url "a_l_epoque.html#girardin_ref" [A M. le rédacteur de L’Époque]) ;
+Sous la plume de Proudhon: ,(ref :url "lettre3.html#girardin_ref" [Lettre 3]) ;
 ])
 
 ,(personne "godwin" "Godwin" "William" "1756-1836" [
@@ -1292,7 +1303,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ])
 
 ,(personne "hegel" "Hegel" "Georg Wilhelm Friedrich" "1770-1831" [
-Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
+,(ref :url "lettre6.html#fichte_ref" [Lettre 6])
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(personne "hennequin" "Hennequin" "Victor" "1816-1854" [
@@ -1388,7 +1400,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ]),(lettre "K" [
 
 ,(personne "kant" "Kant" "Emmanuel" "1724-1804" [
-Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
+,(ref :url "lettre6.html#kant_ref" [Lettre 6])
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(personne "kepler" "Kepler" "Johannes" "1571-1630" [
@@ -1514,6 +1527,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "question_vinicole.html#lavoisier_ref" [Mémoire sur la question vinicole (note)])
 ])
 
+,(personne "law" "Law" "John" "1671-1729" [
+,(ref :url "lettre6.html#law_ref" [Lettre 6])
+])
+
 ,(personne "leboeuf" "Lebœuf" "Louis-Martin" "1792-1854" [
 ,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)]) ;
 ,(ref :url "balance_du_commerce.html#darblay_ref" [Balance du commerce]) ;
@@ -1552,7 +1569,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(personne "leroux" "Leroux" "Pierre" "1797-1871" [
 ,(ref :url "justice_fraternite.html" [Justice et fraternité]) ;
 ,(ref :url "de_la_population.html#leroux_ref" [De la population]) ;
-,(ref :url "baccalaureat_et_socialisme.html#leroux_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#leroux_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "lettre6.html#blanc_ref" [Lettre 6])
 ])
 
 ,(personne "lestiboudois" "Lestiboudois" "Gaspard Thémistocle" "1797-1876" [
@@ -1756,6 +1774,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "discours_2.html#moliere_ref" [Second discours]) : allusion aux ,(cite-title[Femmes savantes]), Acte II sc. 7. ;
 ,(ref :url "baccalaureat_et_socialisme.html#moliere_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "p5r4.html#moliere" [Prendre cinq et rendre quatre, ce n’est pas donner]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ])
 
 ,(personne "monclar" "Monclar" "Eugène de" "?" [
@@ -1974,6 +1993,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "roi_libre_echangiste.html#philippeegalite_ref" [Le roi libre-échangiste])
 ])
 
+,(personne "pictet" "Pictet de Rochemont" "Charles" "1755-1824" [
+,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
+])
+
 ,(personne1nom "pieix" "Pie IX" "1792-1878" [
 ,(ref :url "lettre_cobden1847c.html#pieix_ref" [Lettre à Cobden, 20 avril 1847]) ;
 ,(ref :url "lettre_cheuvreux1850r.html#cheuvreux_ref" [Lettre à Mme Cheuvreux, 22 septembre 1850])
@@ -2037,6 +2060,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 
 ,(personne "publicola" "Publicola" "Publius Valerius" [,(sc[vi]),(sup[e]) s. av. J.-C.] [
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme])
+])
+
+,(personne1nom "pyrrhon" "Pyrrhon d’Élis" "v. 360-275 av. J.-C." [
+,(ref :url "lettre4.html#pyrrhon_ref" [Lettre 4]).
 ])
 
 ,(personne1nom "pyrrhus" "Pyrrhus" [v. 318-272 av. J.-C.] [
@@ -2128,7 +2155,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(personne "rossi" "Rossi" "Pellegrino" "1787-1848" [
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
-,(ref :url "de_la_population.html#rossi_ref" [De la population (note)])
+,(ref :url "de_la_population.html#rossi_ref" [De la population (note)]) ;
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5])
 ])
 
 ,(personne "rossini" "Rossini" "Gioachino" "1792-1868" [
@@ -2168,6 +2196,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(ref :url "valeur_service.html#rousseau_ref" [La valeur découle du service]) ;
 ,(ref :url "eloge_comte.html#rousseau_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
 ,(ref :url "paresse_et_restriction.html#rousseau_ref" [Paresse et restriction]) ;
+,(ref :url "influence_protection_agriculture.html#rousseau_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
 ,(personne "russell" "Russell" "John" "1792-1878" [
@@ -2279,7 +2308,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(ref :url "valeur_service.html#say_ref" [La valeur découle du service]) (plusieurs fois) ;
 ,(ref :url "discours_6.html#say_ref" [Discours à Marseille]) ;
 ,(ref :url "capital_et_rente.html#say_ref" [Capital et rente])
-Sous la plume de Proudhon : ,(ref :url "lettre7.html#say_ref" [Lettre 7]), ,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois)
+Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), ,(ref :url "lettre5.html#say_ref" [Lettre 5]), ,(ref :url "lettre7.html#say_ref" [Lettre 7]), ,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois)
 ])
 
 ,(personne "say_l" "Say" "Léon" "1826-1896" [
@@ -2351,6 +2380,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#say_ref" [Lettre 7]), ,(re
 
 ,(personne "simiot" "Simiot" "Alexandre-Étienne" "1807-1879" [
 ,(ref :url "chemin_de_fer.html#simiot_ref" [Un chemin de fer négatif])
+])
+
+,(personne "sinclair" "Sinclair" "John" "1754-1835" [
+,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
 ,(personne "sismondi" "Sismondi" "Jean de" "1773-1842" [
@@ -2450,6 +2483,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ,(personne1nom "tertullien" "Tertullien" "v. 150-220" [
 ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme])
+])
+
+,(personne "thaer" "Thaër" "Albrecht" "1752-1828" [
+,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
 ,(personne1nom "thales" "Thalès" "v. 625-546 av. J.-C." [
@@ -2616,6 +2653,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ,(personne1nom "xerxes" "Xerxès" "v. 519-465 av. J.-C." [
 ,(references(p*[,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle]).]))
+])
+
+]),(lettre "Y" [
+
+,(personne "young" "Young" "Arthur" "1741-1820" [
+,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
 ])

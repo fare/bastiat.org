@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 19 novembre 1849.])
 ,(p :align 'center (strong[
-	P. J. Proudhon à F. Bastiat.]))
+	,(np "proudhon" [P.-J. Proudhon]) à F. Bastiat.]))
 ,(p*(font :size "-1" (strong[
 Désaveu de la distinction introduite par M. Chevé.
 ,(--) Adhésion à la formule :
@@ -69,9 +69,9 @@ est une atteinte à la liberté ;
 se traduit-elle en loi d’exil, de déportation, de transportation, etc.,
 elle est alors un crime contre la souveraineté du peuple.
 L’ostracisme est le suicide des républiques.
-][
-En rendant compte, dans la ,(cite-title[Voix du Peuple]),
-du projet d’impôt sur le capital présenté par M. de Girardin,
+][,(tag :a :name "girardin_ref")
+En rendant compte, dans la ,(tj "vp" [,(cite-title[Voix du Peuple])]),
+du projet d’impôt sur le capital présenté par ,(np "girardin" [M. de Girardin]),
 nous n’avons point hésité à y reconnaître
 l’une des manifestations les plus hardies de l’idée révolutionnaire ;
 et bien que l’auteur de ce projet ait été,
@@ -82,23 +82,23 @@ bien qu’enfin il se soit constamment rangé
 dans le parti de la Conservation contre celui de la Révolution,
 nous n’en pensons pas moins que son idée appartient au mouvement ;
 à ce titre, nous l’avons revendiquée comme nôtre ;
-et si M. de Girardin était capable de renier sa propre pensée,
+et si ,(np "girardin" [M. de Girardin]) était capable de renier sa propre pensée,
 nous le reprendrions en sous-,(oe)uvre,
 et nous nous en ferions un argument de plus
 contre les adversaires de la Révolution.
-][
+](nbsp)[
 C’est d’après cette règle de critique élevée,
 et pour ainsi dire ,(emph[impersonnelle]),
 que nous allons répondre à M. Bastiat.
-][
-M. Bastiat, au rebours de M. de Girardin,
+][,(tag :a :name "blanqui_ref")
+M. Bastiat, au rebours de ,(np "girardin" [M. de Girardin]),
 est un écrivain toute pénétré de l’esprit démocratique :
 si l’on ne peut encore dire de lui qu’il est socialiste,
 à coup sûr c’est déjà plus qu’un philanthrope.
 La manière dont il entend et expose l’économie politique le place,
-ainsi que M. Blanqui, sinon fort au-dessus,
+ainsi que ,(np "blanqui" [M. Blanqui]), sinon fort au-dessus,
 du moins fort en avant des autres économistes,
-fidèles et immuables disciples de J. B. Say.
+fidèles et immuables disciples de ,(np "say_jb" [J.-B. Say]).
 M. Bastiat, en un mot, est dévoué corps et âme
 à la République, à la liberté, à l’égalité, au progrès :
 il l’a prouvé mainte fois avec éclat par ses votes à l’Assemblée nationale.
@@ -109,33 +109,31 @@ diamétralement opposée aux tendances les plus authentiques,
 aux besoins les plus irrésistibles de la Révolution,
 nous en fait une loi.
 Puissent nos lecteurs, à notre exemple, séparer toujours ainsi
-les questions de personnes d’avec les questions de principes :
-,(XXX [je ne suis pas sûr de la ponctuation])
+les questions de personnes d’avec les questions de principes !
 la discussion et la charité y gagneront.
-][
-M. Bastiat commence sa réponse par une observation d’une justesse frappante,
+](nbsp)[
+M. Bastiat commence ,(ref :url "lettre2.html" [sa réponse]) par une observation d’une justesse frappante,
 que nous croyons d’autant plus utile de rappeler,
 qu’elle tombe d’aplomb sur lui :
 ][
-,(XXX [je n’ai pas repris l’utilisation curieuse des guillemets])
 ,(q[L’ardeur extrême, dit M. Bastiat,
 avec laquelle le peuple, en France,
 s’est mis à creuser les problèmes économiques,
 et l’inconcevable indifférence des classes aisées à l’égard de ces problèmes,
 forment un des traits les plus caractéristiques de notre époque.
 Pendant que les anciens journaux, organes et miroirs de la bonne société,
-s’en tienne à la guerroyante et stérile politique de parti,
+s’en tiennent à la guerroyante et stérile politique de parti,
 les feuilles destinées aux classes ouvrières agitent incessamment
 ce qu’on peut appeler les questions de fond, les questions sociales.])
 ][
-Et bien ! ,(XXX [il y a peut être un point d’exclamation])
+Et bien !
 nous dirons à M. Bastiat :
 ][
 Vous êtes vous-même, sans vous en douter,
 un exemple de cette ,(emph[indifférence inconcevable])
 avec laquelle les hommes de la classe aisée étudient les problèmes sociaux ;
 et tout économiste de premier ordre que vous puissiez vous dire,
-vous ignorez complètement où en est cette question du capital et de l’intérêt,
+vous ignorez complétement où en est cette question du capital et de l’intérêt,
 que vous vous êtes chargé de défendre.
 Aussi en arrière des idées que des faits,
 vous nous parlez exactement comme ferait un rentier d’avant 89.
@@ -143,7 +141,7 @@ Le socialisme, qui, depuis dix ans,
 proteste contre le capital et l’intérêt est totalement inconnu de vous,
 vous n’en avez pas lu les mémoires ;
 car si vous les avez lus,
-comment se fait il que, vous préparant à le réfuter,
+comment se fait-il que, vous préparant à le réfuter,
 vous passiez sous silence toutes ses preuves ?
 ][
 Vraiment, à vous voir raisonner contre le socialisme de notre âge,
@@ -167,28 +165,26 @@ lorsque vous parlez de capital et d’intérêt,
 vous n’êtes plus à la question !
 C’est pourtant ce que nous nous chargeons, pour aujourd’hui, de vous prouver.
 Après, nous reprendrons la question elle-même, si vous en avez le désir.
-][,(tag :a :name "antinomie")
-,(XXX)
-
+](nbsp)[,(tag :a :name "antinomie")
 Nous nions d’abord, ceci vous le savez de reste,
-nous nions avec le christianisme et l’Evangile,
-la légitimité en soi du prêt à l’intérêt ;
-nous la nions avec le judaïsme et le paganisme ;
+nous nions avec le christianisme et l’Évangile,
+la légitimité en soi du prêt à intérêt ;
+nous la nions avec le judaïsme et le paganisme,
 avec tous les philosophes et législateurs de l’antiquité.
 Car vous remarquerez ce premier fait,
 qui a bien aussi sa valeur ;
 l’usure n’a pas plutôt paru dans le monde, qu’elle a été niée.
 Les législateurs et les moralistes n’ont cessé de la combattre,
-et s’ils ne sont parvenus à l’étreindre,
-du moins ont-ils réussi jusqu’à certain à lui rogner les ongles,
+et s’ils ne sont parvenus à l’éteindre,
+du moins ont-ils réussi jusqu’à certain point à lui rogner les ongles,
 en fixant une ,(emph[limite]), un taux légal à l’intérêt.
-][
+][,(tag :a :name "non3")
 Telle est donc notre première proposition,
 la seule dont, à ce qu’il semble, vous ayez entendu parler :
-Tout ce qui, dans le remboursement de prêt, est donné en sus du prêt,
+Tout ce qui, dans le remboursement du prêt, est donné en sus du prêt,
 est usure, spoliation :
 ,(inlatin[Quodcumque sorti accedit, usura est.])
-][
+][,(tag :a :name "oui2")
 Mais ce que vous ne savez point, et qui vous émerveillera peut-être,
 c’est que cette négation fondamentale de l’intérêt
 ne détruit point, à nos yeux,
@@ -206,7 +202,7 @@ Le problème est de savoir comment on parviendra
 comment, en un mot, on sortira de cette contradiction.
 ][
 Expliquons mieux cela, s’il est possible.
-][
+](nbsp)[,(tag :a :name "oui1")
 D’un côté, il est très-vrai,
 ainsi que vous l’établissez vous-même péremptoirement,
 que le prêt est un ,(emph[service]).
@@ -215,7 +211,7 @@ conséquemment comme il est de la nature de tout service d’être rémunéré,
 il s’ensuit que le prêt doit avoir son ,(emph[prix]),
 ou, pour employer le mot technique,
 qu’il doit ,(emph[porter intérêt.])
-][
+][,(tag :a :name "prive")
 Mais il est vrai aussi,
 et cette vérité subsisté à côté de la précédente,
 que celui qui prête,
@@ -225,23 +221,24 @@ comme vous le dites,
 du capital qu’il prête.
 Il le prête, au contraire,
 précisément parce que ce prêt ne constitue pas pour lui une privation ;
-il le prête, ,(XXX)
+il le prête,
 parce qu’il n’en a que faire pour lui-même,
 étant suffisamment d’ailleurs pourvu de capitaux ;
 il le prête,
-enfin parce qu’il n’est ni dans son intention,
+enfin, parce qu’il n’est ni dans son intention,
 ni dans sa puissance de le faire personnellement valoir ;
 parce qu’en le gardant entre ses mains,
 ce capital,
 stérile de sa nature,
 resterait stérile,
+,(tag :a :name "non1")
 tandis que par le prêt et par l’intérêt qui en résulte,
 il produit un bénéfice qui permet au capitaliste de vivre sans travailler.
 Or, vivre sans travailler,
-c’est en économie politique aussi bien qu’en morale,
+c’est, en économie politique aussi bien qu’en morale,
 une proposition contradictoire,
 une chose impossible.
-][,(tag :a :name "prive")
+][
 Le propriétaire qui possède deux domaines,
 l’un à Tours, l’autre à Orléans,
 et qui est forcé de fixer sa résidence dans l’un qu’il exploite,
@@ -265,7 +262,7 @@ ne peuvent s’entre-détruire,
 quel parti prendre ?
 Vous persistez dans votre affirmation, et vous dites :
 Vous ne voulez pas me payer d’intérêt ?
-Soit ! je ,(XXX :sic) ne veux pas vous prêter mon capital.
+Soit ! je ne veux pas vous prêter mon capital.
 Tachez de travailler sans capitaux !
 De notre côté, nous persistons dans notre négation,
 et nous disons :
@@ -275,7 +272,7 @@ est le prix de l’oisiveté,
 la cause première de l’inégalité des fortunes et de la misère.
 Aucun de nous ne voulant céder,
 nous arrivons à l’immobilisme.
-][
+][,(tag :a :name "ouinon")
 Tel est donc le point auquel le socialisme saisit la question.
 D’un côté, la justice commutative de l’intérêt ;
 de l’autre, l’impossibilité organique, l’immoralité de ce même intérêt.
@@ -309,20 +306,21 @@ Aussi bien, faut-il que cette idée réponde à quelque chose de réel,
 qu’elle indique un besoin quelconque de l’esprit mercantile,
 pour que les peuples n’aient jamais hésité à lui faire
 le sacrifice de leurs croyances les plus vives et les plus sacrées.
-][
+](nbsp)[
 Voici donc comment le socialisme,
 parfaitement convaincu de l’insuffisance de la théorie économique,
 aussi bien que de la doctrine ecclésiastique,
-traite à son tour la question de l’usure. ,(XXX)
+traite à son tour la question de l’usure.
 ][
 D’abord il observe que le principe de la productivité du capital
 ne fait aucune acception de personnes,
-ce constitue pas un privilège :
+ce constitue pas un privilége :
 ce principe est vrai de tout capitaliste,
 sans distinction de titre ou de dignité.
 Ce qui est légitime pour Pierre est légitime pour Paul :
 tous deux ont le même droit à l’usure,
 ainsi qu’au travail.
+,(tag :a :name "rabot")
 Lors donc,
 ,(--) je reprends ici l’exemple dont vous vous êtes servi,
 ,(--) que vous me prêtez, moyennant intérêt,
@@ -376,9 +374,8 @@ l’histoire de l’économie politique ?
 C’est que la prestation mutuelle de capitaux, matériels et immatériels,
 tend à s’équilibrer de plus en plus,
 et cela par diverses causes que nous allons énumérer,
-et que les économistes les plus rétrogrades ne peuvent méconnaître :
-][
-1° La division du travail, ou séparation des industries, qui,
+et que les économistes les plus rétrogrades ne peuvent méconnaître :])
+,(liste(p*[1° La division du travail, ou séparation des industries, qui,
 multipliant à l’infini les instruments de travail et les matières premières,
 multiplie dans la même proportion le prêt des capitaux ;
 ][
@@ -392,9 +389,9 @@ et la réduction du taux de l’intérêt ;
 3° La faculté toujours plus grande de circulation qu’acquièrent les capitaux,
 par le numéraire et la lettre de change ;
 ][
-4° Enfin, la sécurité publique.
-][
-Telles sont les causes générales qui, depuis des siècles,
+4° Enfin, la sécurité publique.]))
+
+,(p*[Telles sont les causes générales qui, depuis des siècles,
 ont amené entre les producteurs
 une réciprocité de prestation de plus en plus équilibrée,
 par suite,
@@ -413,7 +410,7 @@ mais la ,(strong[circulation]) du capital.
 Les faits étant de la sorte analysés et classés,
 le socialisme se demande si,
 pour provoquer cet équilibre du crédit et du revenu,
-il ne serait pas possible d’agit directement,
+il ne serait pas possible d’agir directement,
 non sur les capitaux,
 remarquez-le bien,
 mais sur la circulation ;
@@ -449,7 +446,7 @@ que l’escompte des valeurs de commerce se faisant à 1/2 pour 100,
 le prêt sur hypothèque à 1/2 pour 100, la commandite, etc., à 1/2 pour 100,
 le capital monnaie serait immédiatement frappé,
 entre les mains de tous les usuriers
-et prêteurs d’argent d’improductivité absolue ;
+et prêteurs d’argent, d’improductivité absolue ;
 l’intérêt serait nul, le crédit gratuit.
 ][
 Si le crédit commercial et hypothécaire,
@@ -460,9 +457,9 @@ le capital maison le deviendrait lui-même bientôt ;
 les maisons ne seraient plus en réalité capital,
 elles seraient marchandise,
 cotée à la Bourse comme les eaux-de-vie et les fromages,
-et louée ou vendues,
+et louée ou vendue,
 deux termes devenus alors synonymes,
-à ,(strong[prix de revient]). ,(XXX)
+à ,(strong[prix de revient]).
 ][
 Si le capital maison,
 de même que le capital argent,
@@ -480,10 +477,10 @@ il n’y aurait plus, en réalité,
 ni fermiers, ni propriétaires,
 il y aurait seulement des laboureurs et des vignerons,
 comme il y a des menuisiers et des mécaniciens.
-][
+](nbsp)[
 Voulez-vous une autre preuve de la possibilité de ramener,
 par le développement des institutions économiques,
-tous les capitaux à la gratuité.
+tous les capitaux à la gratuité ?
 ][
 Supposons qu’au lieu de ce système d’impôts,
 si compliqué, si onéreux, si vexatoire,
@@ -499,11 +496,11 @@ ou de vendre :
 l’équilibre économique,
 par cette intervention si simple, et d’ailleurs inévitable, du fisc,
 se rétablirait encore.
-][
+](nbsp)[
 Telle est, en somme,
 la théorie du socialisme sur le capital et l’intérêt.
 ][
-Non-seulement ,(XXX :sic) nous affirmons,
+Non-seulement nous affirmons,
 d’après cette théorie qui, d’ailleurs, nous est commune avec les économistes,
 et sur la foi du développement industriel,
 que telles sont la tendance et la portée du prêt à intérêt ;
@@ -530,7 +527,7 @@ dans le genre de celles que les mathématiciens appellent réduction à l’absu
 de l’impossibilité organique du prêt à intérêt,
 a été reproduite cent fois dans le socialisme :
 pourquoi les économistes n’en parlent-ils pas ?
-][
+](nbsp)[
 Voulez-vous donc sérieusement réfuter
 les idées socialistes sur le prêt à intérêt ?
 Voici les questions auxquelles vous avez à répondre :
@@ -538,12 +535,12 @@ Voici les questions auxquelles vous avez à répondre :
 1° Est-il vrai que si,
 au for extérieur,
 la prestation du capital est un ,(emph[service]) qui a sa valeur,
-qui par conséquent doit être payé :
+qui par conséquent doit être payé ;
 ,(--) au for intérieur,
 cette prestation n’entraîne point pour le capitaliste une privation réelle ;
 conséquemment qu’elle ne suppose pas le droit de rien exiger pour prix du prêt ?
 ][
-2° Est-il vrai que l’usure, pour être irréprochable, doit être égale :
+2° Est-il vrai que l’usure, pour être irréprochable, doit être égale ;
 que la tendance de la société conduit à cette égalisation,
 en sorte que l’usure n’est irréprochable
 que lorsqu’elle est devenue égale pour tous,
@@ -566,21 +563,21 @@ après avoir, sur la question de l’usure,
 contredit pendant plusieurs milliers d’années
 la théologie, la philosophie, la législation,
 arrive, par sa propre théorie, au même résultat ?
-][
+][,(tag :a :name "oui3")
 7° Est-il vrai, enfin,
 que l’usure n’a été,
 dans son institution providentielle,
-qu’un instrument d’égalité et de progrès,
-absolument comme,
+qu’un instrument d’égalité et de progrès ;
+absolument comme
 dans l’ordre politique,
 la monarchie absolue a été un instrument de liberté et de progrès ;
-comme,
-dans l’ordre judiciaire,
+comme
+dans l’ordre judiciaire
 l’épreuve de l’eau bouillante,
-le duel et la question ont été,
-à leur tour,
+le duel et la question ont été
+à leur tour
 des instruments de conviction et de progrès ?
-][
+](nbsp)[
 Voilà ce que nos adversaires sont tenus d’examiner,
 avant de nous accuser d’infirmité scientifique et intellectuelle ;
 voilà, monsieur Bastiat,
@@ -589,10 +586,10 @@ si vous voulez qu’elle aboutisse.
 La question est clairement et catégoriquement posée :
 permettez-nous de croire qu’après en avoir pris lecture,
 vous reconnaîtrez qu’il y a dans le socialisme du dix-neuvième siècle
-quelque chose qui dépasse la portée de votre vielle économie politique.
+quelque chose qui dépasse la portée de votre vieille économie politique.
 
 ])
-,(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(sign[,(np "proudhon" [P.-J. Proudhon]).])
 ])
 (tous_les_scripts)
 (footer[

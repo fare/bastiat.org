@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 3 décembre 1849.])
 ,(p :align 'center (strong[
-	P. J. Proudhon à F. Bastiat.]))
+	,(np "proudhon" [P.-J. Proudhon]) à F. Bastiat.]))
 ,(p*(font :size "-1" (strong[
 Réclamation sur les limites du débat.
 ,(--) L’intérêt a été mais n’est plus légitime.
@@ -23,28 +23,27 @@ Réclamation sur les limites du débat.
 ])))
 ,(nbsp)
 ,(p*[
-Monsieur, votre dernière lettre se termine par ces paroles :
+Monsieur, votre dernière lettre ,(ref :url "lettre4.html#fin" [se termine]) par ces paroles :
 ][
-,(XXX [je n’ai pas repris le même système des guillemets])
 ,(q[Le jour où nous serons d’accord sur cette première donnée :
 l’intérêt du capital est légitime ;
 ,(--) je me ferai un plaisir et un devoir de discuter loyalement avec vous
 les autres questions que vous me posez.])
 ][
 Je vais, Monsieur, tâcher de vous donner satisfaction.
-][
+](nbsp)[
 Mais permettez-moi d’abord de vous adresser cette question,
 que je voudrais pouvoir rendre moins brusque :
-Qu’êtes-vous venu faire à la ,(cite-title[Voix du peuple]) ?
+Qu’êtes-vous venu faire à la ,(tj "vp" [,(cite-title[Voix du peuple])]) ?
 ,(--) Réfuter la théorie du crédit gratuit,
 la théorie de l’abolition de tout intérêt des capitaux,
 de toute rente de la propriété.
 ][
 Pourquoi donc refusez-vous de vous placer tout de suite
 sur le terrain de cette théorie ?
-de ,(XXX :sic) la suivre
+de la suivre
 dans son principe, sa méthode, son développement ?
-d’examiner ,(XXX :sic) ce qui la constitue,
+d’examiner ce qui la constitue,
 les preuves de vérité qu’elle apporte,
 le sens des faits qu’elle cite,
 et qui contredisent, abrogent, d’une manière éclatante,
@@ -73,14 +72,14 @@ et beaucoup plus pratique ?
 Au lieu de discuter, comme nous l’avions espéré,
 nous en serons quittes pour médire l’un de l’autre,
 et nous décrier réciproquement.
-A l’avantage ! ,(XXX [pas certain de la ponctuation])
+A l’avantage !…
 ][
 Voilà, Monsieur, comment se terminerait la discussion,
 si, par malheur pour votre théorie,
 elle n’était forcée, afin de se maintenir, de renverser la mienne.
 C’est ce que je vais avoir l’honneur de vous démontrer,
 en suivant votre lettre de point en point.
-][
+](nbsp)[
 Vous commencez par plaisanter, fort spirituellement sans doute,
 sur la loi de ,(emph[contradiction])
 dont je me suis servi pour tracer la marche de la théorie socialiste.
@@ -89,28 +88,29 @@ pour un homme d’intelligence,
 à rire des choses qu’il n’entend pas,
 surtout quand elles reposent sur des autorités aussi respectables
 que la loi de contradiction.
-La dialectique, fondée par Kant et ses successeurs,
+,(tag :a :name "kant_ref")
+La dialectique, fondée par ,(np "kant" [Kant]) et ses successeurs,
 est aujourd’hui comprise et employée par une moitié de l’Europe,
 et ce n’est pas un titre d’honneur pour notre pays assurément,
 quand nos voisins ont porté si loin la spéculation philosophique,
 d’en être resté à Proclus et à saint Thomas.
 A force d’éclectisme et de matérialisme,
 nous avons perdu jusqu’à l’intelligence de nos traditions ;
-nous n’entendons pas même Descartes ;
-car, si nous entendions Descartes,
-il nous conduirait à Kant, Fichte, Hegel, et au-delà.
+nous n’entendons pas même ,(np "descartes" [Descartes]) ;
+car, si nous entendions ,(np "descartes" [Descartes]),
+il nous conduirait à ,(np "kant" [Kant]), ,(np "fichte" [Fichte]), ,(np "hegel" [Hegel]), et au-delà.
 ][
 Quittons, toutefois, la contradiction, puisqu’elle vous est importune,
 et revenons à l’ancienne méthode.
 Vous savez ce que l’on entend, dans la logique ordinaire, par distinction.
 A défaut de professeur de philosophie, Diafoirus le jeune vous l’aurait appris.
-C’est le procédé qui vous est de plus familier,
+C’est le procédé qui vous est le plus familier,
 et qui témoigne le mieux de la subtilité de votre esprit.
 Je vais donc, pour répondre à votre question,
-faire usage du ,(emph[distinguo]) :
+faire usage du ,(emph[distinguo :])
 peut-être alors ne vous sera-t-il plus possible de dire
 que vous ne me comprenez pas.
-][
+][,(tag :a :name "distinguo")
 Vous demandez : l’intérêt du capital est-il légitime,
 ,(emph[oui]) ou ,(emph[non]) ?
 Répondez à cela, sans antinomie et sans antithèse.
@@ -119,7 +119,6 @@ Je réponds : ,(strong[Distinguons]), s’il vous plaît.
 Oui, l’intérêt du capital a pu être considéré comme légitime dans un temps ;
 non, il ne peut plus l’être dans un autre.
 Cela vous offre-t-il quelque ambage,
-,(XXX [ambage au singulier non reconnu par mon dictionnaire])
 quelque équivoque ?
 Je vais tâcher de dissiper toutes les ombres.
 ][,(tag :a :name "monarchie")
@@ -136,20 +135,20 @@ La polygamie a été légitime à une époque :
 c’était le premier pas fait hors de la promiscuité communautaire.
 Elle est condamnée de nos jours comme contraire à la dignité de la femme :
 nous la punissons des galères.
-][
+][,(tag :a :name "rossi_ref")
 Le combat judiciaire, l’épreuve de l’eau bouillante, la torture elle-même,
-lisez M. Rossi, eurent également leur légitimité. ,(XXX)
+lisez ,(np "rossi" [M. Rossi]), eurent également leur légitimité.
 C’était la première forme donnée à la justice.
 Nous y répugnons maintenant,
 et tout magistrat qui y aurait recours se rendrait coupable d’un attentat.
 ][
 Sous saint Louis, les arts et métiers étaient féodalisés,
-organisés corporativement et hérissés de privilèges.
+organisés corporativement et hérissés de priviléges.
 Cette réglementation était alors utile et légitime ;
 elle avait pour but de faire surgir,
 en face de la féodalité terrienne et nobiliaire, la féodalité du travail.
 Elle a été abandonnée depuis, et avec raison :
-depuis 89, l’industrie est libre.
+depuis 89 l’industrie est libre.
 ][
 Je vous répète donc, et, en conscience, je crois parler clair :
 Oui, le prêt à intérêt a été, dans un temps, légitime,
@@ -162,13 +161,13 @@ un droit du citoyen.
 C’est pour cela que je m’élève contre l’usure ;
 je dis que la société me doit le crédit et l’escompte sans intérêt ;
 l’intérêt je l’appelle ,(strong[vol]).
-][
+][,(tag :a :name "moliere_ref2")
 Bon gré, mal gré,
 il faut donc que vous descendiez sur le terrain où je vous appelle :
 car, si vous refusez de le faire,
 si vous vous renfermiez dans la bonne foi de votre ancienne possession,
 alors j’accuserai votre mauvais vouloir ;
-je crierai partout, comme le Mascarille de Molière :
+je crierai partout, comme le Mascarille de ,(np "moliere" [Molière]) :
 ,(emph[Au voleur ! au voleur ! au voleur !])
 ][
 Pour en finir tout à fait avec l’antinomie,
@@ -219,8 +218,8 @@ d’un autre côté,
 tout salaire suppose produit ou privation,
 ce qui n’a pas lieu dans le prêt.
 La révolution qui s’opère dans la légitimité du prêt vient de là.
-Voici comment le socialisme,
-pose la question :
+Voici comment le socialisme
+pose la question ;
 voilà aussi sur quel terrain les défenseurs de l’ancien régime
 doivent se placer.
 ][
@@ -230,6 +229,7 @@ Le prêt est un service rendu,
 donc il doit être payé ;
 sans vouloir entrer dans les considérations qui tendent à abroger l’intérêt,
 ce n’est pas répondre.
+,(tag :a :name "spoliation")
 Le socialisme,
 redoublant d’énergie,
 proteste et vous dit :
@@ -256,7 +256,7 @@ au contraire,
 je les distingue soigneusement.
 C’est ce que vais achever de vous rendre intelligible
 par l’analyse de votre lettre.
-][
+](nbsp)[
 Je prends un à un tous vos arguments.
 ][
 Dans ma première réponse,
@@ -379,7 +379,7 @@ Voilà la profession de foi du socialisme !
 J’éprouve le plus vif regret à vous le dire :
 mais vous connaissez si peu le socialisme,
 que vous vous heurtez contre lui sans le voir.
-][
+](nbsp)[
 Vous persistez à attribuer au capital
 tous les progrès de la richesse sociale,
 que j’attribue,
@@ -388,13 +388,13 @@ moi,
 et vous me dites,
 à ce propos,
 que je prends l’effet pour la cause.
-][
+][,(tag :a :name "say_ref")
 Mais,
 en soutenant une pareille proposition,
 vous ruinez,
 sans vous en apercevoir,
 votre propre thèse.
-J. B. Say a démontré,
+,(np "say_jb" [J.-B. Say]) a démontré,
 et vous ne l’ignorez pas,
 que le ,(emph[transport]) d’une valeur,
 que cette valeur s’appelle argent ou marchandise,
@@ -440,7 +440,7 @@ que si elle ne le fait pas,
 il y a fraude et spoliation.
 ,(--) Comprenez-vous maintenant
 où est le véritable point de la question sociale ?
-][
+](nbsp)[
 Après avoir déploré de voir les capitalistes et les travailleurs
 séparés en deux classes antagoniques,
 ce qui n’est pas la faute du socialisme assurément,
@@ -461,23 +461,24 @@ chez l’ouvrier ?
 ][
 Oui,
 nous savons que le prix de toute marchandise et service
-se décompose actuellement de la manière suivante :
+se décompose actuellement de la manière suivante :])
+,(liste(p*[1° Matière première ;
 ][
-1° Matière première ;
 2° Amortissement des instruments de travail et frais ;
-3° Salaire du travail ;
-4° Intérêt du capital.
 ][
-Il en est ainsi dans toutes les professions,
+3° Salaire du travail ;
+][
+4° Intérêt du capital.]))
+,(p*[Il en est ainsi dans toutes les professions,
 agriculture,
 industrie,
 commerce,
 transports.
-Ce sont les Fourches Caudines de tout ce qui n’est point parasite,
+Ce sont les fourches caudines de tout ce qui n’est point parasite,
 capitaliste ou man,(oe)uvre.
 Vous n’avez que faire de nous donner à ce sujet de longs détails,
 très-intéressants du reste,
-et où l’on voit que se complait votre imagination.
+et où l’on voit que se complaît votre imagination.
 ][
 Je vous le répète :
 la question, pour le socialisme,
@@ -538,7 +539,7 @@ au lieu de se soutenir mutuellement,
 s’accuseront l’une l’autre ;
 elles périront toutes deux.
 ][
-Commerçons par faire justice,
+Commençons par faire justice,
 et nous aurons de surcroît la liberté,
 la fraternité,
 la richesse ;
@@ -564,14 +565,14 @@ et assis sur le capital.
 ][
 Qu’on vérifie cette solution ;
 qu’on essaie de l’appliquer.
-C’est la seul manière de réfuter le socialisme ;
+C’est la seule manière de réfuter le socialisme ;
 hors de là,
 nous ferons retentir plus fort que jamais notre cri de guerre :
-,(emph[La propriété c’est le vol !])
+,(emph[La propriété, c’est le vol !])
 
 
 ])
-,(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(sign[,(np "proudhon" [P.-J. Proudhon]).])
 ])
 (tous_les_scripts)
 (footer[
