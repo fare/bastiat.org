@@ -13,7 +13,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 24 décembre 1849.])
 ,(p :align 'center (strong[
-	F. Bastiat à P. J. Proudhon.]))
+	F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
 ,(p*(font :size "-1" (strong[
 
 La preuve de l’impossibilité dispense d’examiner la possibilité.
@@ -24,12 +24,12 @@ La preuve de l’impossibilité dispense d’examiner la possibilité.
 ,(--) Lois des capitaux résumées en cinq propositions.
 ])))
 ,(nbsp)
-,(p*[
+,(liste(p*[
 La gratuité du crédit est-elle possible ?
 ][
-La gratuité du crédit est-elle impossible ?
-][
-Il est clair que, résoudre une de ces questions, c’est résoudre l’autre.
+La gratuité du crédit est-elle impossible ?]))
+
+,(p*[Il est clair que, résoudre une de ces questions, c’est résoudre l’autre.
 ][
 Vous me reprochez de manquer à la charité
 parce que je maintiens le débat sur la seconde.
@@ -47,8 +47,8 @@ par lesquels chaque école prétend réaliser cette gratuité.
 Tandis que, pour s’assurer qu’elle est ,(emph[impossible]),
 il suffisait d’analyser la nature intime du capital ;
 ce qui atteint mon but, et, à ce qu’il me semble, le vôtre.
-][
-On pose à Galilée cinquante arguments contre la rotation de la terre.
+][,(tag :a :name "galilee_ref")
+On pose à ,(np "galilee" [Galilée]) cinquante arguments contre la rotation de la terre.
 Faut-il qu’il les réfute tous ?
 Non ; il prouve qu’elle tourne, et tout est dit :
 ,(inlatin[E pur si muove]).
@@ -71,7 +71,7 @@ puisqu’il suppose l’accusation fondée,
 ce qu’ils nient.
 ][
 Cette marche est tellement logique,
-que vous y acquiescez en ces termes :
+que vous y acquiescez ,(ref :url "lettre7.html#vraiefausse" [en ces termes]) :
 ][
 ,(q[Vrai ou fausse,
 légitime ou illégitime,
@@ -92,7 +92,7 @@ que fais-je autre chose ?
 C’est bien là mon terrain :
 prouver que le capital porte en lui-même
 l’indestructible principe de la rémunérabilité.
-][,(tag :a :name "fatalisme")
+](nbsp)[,(tag :a :name "fatalisme")
 Cette doctrine,
 vous l’avez d’abord combattue par la théorie des ,(emph[contradictions]),
 ensuite par celle des ,(emph[distinctions]).
@@ -177,15 +177,14 @@ qu’ils seront toujours un service plus ou moins grand,
 et que dès lors ils portent en eux-mêmes,
 ainsi que les transports,
 le principe de la rémunérabilité.
-][
+](nbsp)[
 Ainsi,
 Monsieur,
 je ne vois aucun motif de déplacer ce débat au moment de le clore ;
 et il me semble qu’il n’est pas un de nos lecteurs
 qui ne considérât ma tâche comme remplie,
-si je prouvais ces propositions :
-][
-Tout capital
+si je prouvais ces propositions :])
+,(liste(p*[Tout capital
 (quelle que soit sa forme,
 moissons,
 outils,
@@ -199,9 +198,9 @@ Parce qu’il résulte d’un travail antérieur,
 celui qui le cède reçoit une rémunération.
 ][
 Parce qu’il féconde un travail ultérieur,
-celui qui l’emprunte doit une rémunération.
-][
-Et vous le dites vous-même :
+celui qui l’emprunte doit une rémunération.]))
+
+,(p*[Et ,(ref :url "lettre7.html#peine" [vous le dites]) vous-même :
 ,(q[Si la peine du créancier est zéro,
 l’intérêt doit devenir zéro.])
 ][
@@ -223,7 +222,7 @@ la question se réduit à ces termes :
 Le temps est-il arrivé,
 arrivera-t-il jamais où les capitaux écloront spontanément
 sans la participation d’aucun effort humain ?
-][
+](nbsp)[
 Mais,
 dans une revue rétrospective pleine de verve,
 vous élançant
@@ -239,7 +238,7 @@ j’essaierai,
 sinon de vous suivre,
 du moins de faire quelques pas avec vous.
 ][
-Vous débuter ainsi :
+,(ref :url "lettre7.html#excusable" [Vous débutez]) ainsi :
 ][
 ,(q[Ce qui fait que l’intérêt du capital,
 excusable, juste même
@@ -281,7 +280,7 @@ n’est-ce pas le contraire qui se déduit de vos prémisses ?
 Et certes, le fait confirmerait cette déduction ;
 car l’usure a pu être odieuse quand on devenait capitaliste par la rapine,
 et l’intérêt est justifié depuis qu’on le devient par le travail.
-][,(tag :a :name "pacotille")
+](nbsp)[,(tag :a :name "pacotille")
 ,(q[C’est dans le commerce de mer qu’il faut chercher l’origine de l’intérêt.
 Le contrat à la grosse,
 variété ou plutôt démembrement du contrat de pacotille,
@@ -313,15 +312,15 @@ Elles seraient nées du ,(emph[Contrat de pacotille !])
 ][
 Ensuite,
 à propos du contrat à la grosse,
-vous faites une théorie du bénéfice qu’en vérité je crois inadmissible.
+,(ref :url "lettre7.html#theoriedubenefice" [vous faites]) une théorie du bénéfice qu’en vérité je crois inadmissible.
 ,(--) Mais la discuter ici,
 ce serait nous écarter du sujet.
-][
-Enfin vous arrivez à cette tige de toutes les erreurs économiques, à savoir :
+](nbsp)[,(tag :a :name "blanc_ref")
+Enfin ,(ref :url "lettre7.html#argent" [vous arrivez]) à cette tige de toutes les erreurs économiques, à savoir :
 la confusion entre les capitaux et le numéraire ;
 confusion à l’aide de laquelle il est aisé d’embrouiller la question.
 Mais vous n’y croyez pas vous-même,
-et je n’en veux pour preuve que ce que vous disiez naguère à M. Louis Blanc :
+et je n’en veux pour preuve que ce que vous disiez naguère à ,(np "blanc" [M. Louis Blanc]) :
 ,(q[L’argent n’est pas une richesse pour la société :
 c’est tout simplement un moyen de circulation
 qui pourrait très-avantageusement être remplacé par du papier,
@@ -331,18 +330,18 @@ Veuillez donc croire que lorsque je parle
 de la productivité du capital (outils, instruments, etc.)
 mis en ,(oe)uvre par le travail,
 je n’entends pas attribuer une merveilleuse vertu prolifique à l’argent.
-][
+](nbsp)[,(tag :a :name "moise_ref")
 Vous suivrai-je, Monsieur,
 en Palestine, à Athènes et Lacédémone ?
 Vraiment, cela n’est pas nécessaire.
-Un mot seulement sur le ,(inlatin[Non f,(oe)nerabis]) de Moïse.
+Un mot seulement sur le ,(inlatin[Non f,(oe)nerabis]) de ,(np "moise" [Moïse]).
 ][
 J’admire la dévotion qui a saisi certains socialistes
 (avec lesquels je ne vous confonds pas),
 depuis qu’ils ont découvert,
 à l’appui de leur thèse,
-quelques textes dans l’Ancien et le Nouveau Testament,
-les conciles et les Pères de l’Eglise.
+quelques textes dans l’ancien et le nouveau Testament,
+les conciles et les Pères de l’Église.
 Je me permettrai de leur adresser cette question :
 Entendent-ils nous donner ces autorités
 comme infaillibles en matière de sciences et d’économie sociale ?
@@ -351,41 +350,40 @@ Certes, ils n’iront pas jusqu’à me répondre :
 Nous tenons pour infaillibles les textes qui nous conviennent,
 et pour faillibles ceux qui ne nous conviennent pas.
 ,(--) Quand on invoque les livres sacrés,
-à ce titre et comme dépositaires de la volonté indiscutable de Dieu,
+à ce titre, et comme dépositaires de la volonté indiscutable de Dieu,
 il faut tout prendre,
 sous peine de jouer une puérile comédie.
-Eh bien ! sans parler d’une multitude de sentences de l’Ancien Testament,
+Eh bien ! sans parler d’une multitude de sentences de l’ancien Testament,
 qui ne peuvent, sans danger, être prises au pied de la lettre,
-il y a, dans l’Evangile,
+il y a, dans l’Évangile,
 d’autres textes que le fameux ,(inlatin[Mutuum date]),
 dont ils veulent déduire la gratuité du crédit,
-entre autres ceux-ci :
+entre autres ceux-ci :])
+,(liste(p*[« Heureux ceux qui pleurent.
 ][
-,(q[Heureux ceux qui pleurent.])
+« Heureux ceux qui souffrent.
 ][
-,(q[Heureux ceux qui souffrent.])
+« Il y aura toujours des pauvres parmi vous.
 ][
-,(q[Il y aura toujours des pauvres parmi vous.])
+« Rendez à César ce qui appartient à César.
 ][
-,(q[Rendez à César ce qui appartient à César.])
+« Obéissez aux puissances.
 ][
-,(q[Obéissez aux puissances.])
+« Ne vous préoccupez pas du lendemain.
 ][
-,(q[Ne vous préoccupez pas du lendemain.])
+« Faites comme le lis,
+qui ne file ni ne tisse.
 ][
-,(q[Faites comme le lis,
-qui ne file ni ne tisse.])
+« Faites comme l’oiseau,
+qui ne laboure ni ne sème.
 ][
-,(q[Faites comme l’oiseau,
-qui ne laboure ni ne sème.])
+« Si on vous frappe sur la joue gauche,
+tendez encore la joue droite.
 ][
-,(q[Si on vous frappe sur la joue gauche,
-tendez encore la joue droite.])
-][
-,(q[Si on vous vole votre manteau,
-donnez encore votre robe.])
-][
-Que diraient messieurs les socialistes,
+« Si on vous vole votre manteau,
+donnez encore votre robe. »]))
+
+,(p*[Que diraient messieurs les socialistes,
 si nous fondions sur un de ces textes la politique et l’économie sociale ?
 ][
 Il est permis de croire que lorsque le fondateur du christianisme
@@ -394,7 +392,7 @@ il a entendu leur donner un conseil de charité
 et non faire un cours d’économie politique.
 Jésus était charpentier,
 il travaillait pour vivre.
-Dès lors, ,(XXX)
+Dès lors,
 il ne pouvait faire du ,(emph[don]) une prescription absolue.
 Je crois pouvoir ajouter,
 sans irrévérence,
@@ -402,9 +400,9 @@ qu’il se faisait payer très-légitimement,
 non-seulement pour le travail consacré à faire des planches,
 mais aussi pour le travail consacré à faire des scies et des rabots,
 c’est-à-dire pour le capital.
-][,(tag :a :name "apologues")
+](nbsp)[,(tag :a :name "apologues")
 Enfin,
-je ne dois pas laisser passer les deux apologues
+je ne dois pas laisser passer ,(ref :url "lettre7.html#apologues" [les deux apologues])
 par lesquels vous terminez votre lettre,
 sans vous faire observer que,
 loin d’infirmer ma doctrine,
@@ -434,7 +432,7 @@ de pousser ses exigences jusqu’aux dernières limites,
 de demander mille pour cent de ses capitaux,
 et même de les louer au prix de l’honneur.
 ][
-Je vois le piège.
+Je vois le piége.
 Si je réponds :
 Oh ! dans ce cas,
 il faut voler,
@@ -481,7 +479,7 @@ doit être sacrifié.
 Est-ce que vous déduirez de là,
 comme règle normale des transactions humaines,
 comme loi de l’économie politique,
-la ,(emph[gratuité du travail]) ?
+la ,(emph[gratuité du travail ?])
 Et parce que,
 dans un cas extrême,
 le service doit être gratuit,
@@ -514,7 +512,7 @@ Et recourir à de tels exemples pour faire prévaloir la gratuité du crédit,
 ou la gratuité du travail,
 n’est-ce pas avouer son impuissance
 à faire résulter cette gratuité de la marche ordinaire des choses ?
-][
+](nbsp)[
 Vous recherchez,
 Monsieur,
 quelles sont,
@@ -624,7 +622,7 @@ dans le premier cas,
 on aurait 5 francs de rente,
 et dans le second on n’aurait que 4 francs.
 Le moyen serait trop simple et trop commode :
-on mangerait la moitié du capital pour faire reparaître le revenu.
+on mangerait la moitié du capital pour faire reparaître le revenu ,(footnote*[Ici, l’analyse de Bastiat laisse à désirer : elle est tout à fait juste si on suppose l’existence d’un unique capitaliste. Mais dans le monde réel, où de nombreux capitalistes sont en concurrence pour le placement de leurs capitaux, ils ne sont pas libres d’augmenter leur revenu individuel en détruisant leur capital. Il n’est donc même pas vrai que “le revenu total du capitaliste \[ou ,(emph[de l’ensemble des capitalistes])\] augmente de toute nécessité.” ,(NdL)]).
 ][
 Ainsi,
 quand l’intérêt baisse de 5 à 4,
@@ -641,7 +639,7 @@ car il n’avait à sa disposition qu’une force égale à 100,
 puis il a eu une force égale à 200,
 et enfin une force égale à 800,
 avec cette circonstance
-qu’il paie de moins en moins cher une quantité donnée de cette force.
+qu’il paye de moins en moins cher une quantité donnée de cette force.
 ][
 Il suit de là que ces calculateurs sont bien malhabiles qui vont disant :
 ,(q[L’intérêt baisse, donc il doit cesser.])
@@ -650,7 +648,7 @@ mais c’est justement parce que le nombre de 100 fr.
 augmente que l’intérêt baisse.
 Oui, le multiplicateur s’amoindrit,
 mais ce n’est que par la raison même qui fait grossir le multiplicande,
-et je défile le dieu de l’arithmétique lui-même
+et je défie le dieu de l’arithmétique lui-même
 d’en conclure que le produit arrivera ainsi à zéro
 ,(footnote*[
 Cette loi,
@@ -676,7 +674,7 @@ le quatrième à Paris.
 ][
 Nous pourrons avoir le tableau suivant :
 ,(table
-(tr(th[Nombre des couteaux vendus])
+(tr(th[])(th[Nombre des couteaux vendus])
 (th[Bénéfice par couteau])
 (th[Bénéfice total]))
 (tr(tdLT[Village]) (tdRT[  100])(tdRT[ 1 fr.])(tdRT[100 fr.]))
@@ -710,8 +708,8 @@ et leur progrès simultané.
 ]).
 ][
 4° ,(emph[A mesure que les capitaux augmentent]) (et avec eux les produits),
-la ,(emph[,(strong[part absolue])]) qui revient au capital augmente,
-et sa ,(emph[,(strong[part proportionnelle])]) diminue.
+,(emph[la ,(strong[part absolue]) qui revient au capital augmente,
+et sa ,(strong[part proportionnelle]) diminue.])
 ][
 Cela n’a plus besoin de démonstration.
 Le capital retire successivement 5, 4, 3 pour chaque 100 fr.
@@ -742,11 +740,11 @@ par les chiffres suivantes,
 qui n’ont pas la prétention d’être précis,
 mais que je produis pour élucider ma pensée.
 ,(table
-(tr(th[Produit total])(th[Part du capital])(th[Part du travail]))
+(tr(th[])(th[Produit total])(th[Part du capital])(th[Part du travail]))
 (tr(tdLT[,(1ere) période.])(tdRT[1000])(tdRT[1/2 ou 500])(tdRT[1/2 ou  500]))
-(tr(tdLT[,(2eme) période.])(tdRT[1800])(tdRT[1/3 ou 600])(tdRT[1/2 ou 1200]))
-(tr(tdLT[,(3eme) période.])(tdRT[2800])(tdRT[1/4 ou 700])(tdRT[1/2 ou 2100]))
-(tr(tdLT[,(4eme) période.])(tdRT[4000])(tdRT[1/5 ou 800])(tdRT[1/2 ou 3200])))
+(tr(tdLT[,(2eme) —])(tdRT[1800])(tdRT[1/3 ou 600])(tdRT[1/2 ou 1200]))
+(tr(tdLT[,(3eme) —])(tdRT[2800])(tdRT[1/4 ou 700])(tdRT[1/2 ou 2100]))
+(tr(tdLT[,(4eme) —])(tdRT[4000])(tdRT[1/5 ou 800])(tdRT[1/2 ou 3200])))
 ][
 On voit par là comment l’accroissement successif des produits,
 correspondant à l’accumulation progressive des capitaux,
@@ -757,9 +755,8 @@ encore que sa part proportionnelle diminue,
 tandis que la part du travail augmente à la fois dans les deux sens.
 ][
 De tout ce qui précède,
-il résulte ceci :
-][
-Pour que le sort des masses s’améliore,
+il résulte ceci :])
+,(liste(p*[Pour que le sort des masses s’améliore,
 il faut que le loyer des capitaux baisse.
 ][
 Pour que l’intérêt baisse,
@@ -771,19 +768,19 @@ il faut cinq choses :
 ,(emph[économie]),
 ,(emph[liberté]),
 ,(emph[paix]) et
-,(emph[sécurité]).
-][
-Et ces biens,
+,(emph[sécurité]).]))
+
+,(p*[Et ces biens,
 qui importent à tout le monde,
 importent encore plus à la classe ouvrière.
 ][
 Ce n’est pas que je nie les souffrances des travailleurs,
 mais je dis qu’ils sont sur une fausse piste
 quand ils les attribuent à l’,(emph[infâme]) capital.
-][
+](nbsp)[
 Telle est ma doctrine.
 Je la livre avec confiance à la bonne foi des lecteurs.
-On a dit que je m’étais constitué l’avocat du ,(emph[privilège capitaliste]).
+On a dit que je m’étais constitué l’avocat du ,(emph[privilége capitaliste]).
 Ce n’est pas à moi,
 c’est à elle de répondre.
 ][
@@ -792,7 +789,7 @@ j’ose le dire,
 est consolante et concordante.
 Elle tend à l’union des classes ;
 elle montre l’accord des principes ;
-elle détruit l’antagonisme des personnes et des idées,
+elle détruit l’antagonisme des personnes et des idées ;
 elle satisfait l’intelligence et le c,(oe)ur.
 ][
 En est-il de même de celle qui sert de nouveau pivot au socialisme ?
@@ -808,16 +805,16 @@ est coupable et victime ?
 Que si néanmoins le principe de la gratuité du crédit est vrai,
 il faut bien l’admettre :
 ,(inlatin[Fiat justitia, ruat c,(oe)lum]).
-Mais s’il est faux ! ! ,(XXX)
+Mais s’il est faux !!
 ][
 Quant à moi,
 je le tiens pour faux,
 et,
 en terminant,
-je vous remercie de m’avoir loyalement fourni l’occasion de la combattre.
+je vous remercie de m’avoir loyalement fourni l’occasion de le combattre.
 
 ])
-,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(sign[,(FredB).])
 ])
 (tous_les_scripts)
 (footer[

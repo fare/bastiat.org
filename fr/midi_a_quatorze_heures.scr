@@ -129,12 +129,13 @@ il hausse les épaules, en disant :
 ,(q[Ce n’est que cela !
 C’est là l’économie des sociétés !
 La plus humble des ménagères se gouverne d’après ces principes.
+,(tag :a :name "fourier_ref")
 Il n’est pas possible que de telles trivialités
 soient la base d’une science ;
 et je vais la chercher ailleurs.
-Parlez-moi de Fourier.
-,(blockquote[
-	On cherche ce qu’il dit après qu’il a parlé ;
+Parlez-moi de ,(np "fourier" [Fourier]).
+,(verses[
+	On cherche ce qu’il dit après qu’il a parlé ; ,(np "moliere" [*])
 ])
 mais il y a dans ses pivots, ses arômes,
 ses gammes, ses passions en ton majeur et mineur,
@@ -144,11 +145,10 @@ quelque chose qui ressemble au moins à un appareil scientifique.])
 Cependant, à beaucoup d’égards,
 les besoins, le travail, la prévoyance collective,
 ressemblent aux besoins, au travail, à la prévoyance individuels.
-][
+][,(tag :a :name "defoe_ref")
 Donc-une question économique nous embarrasse-t-elle,
-allons observer Robinson dans son île, et nous obtiendrons la solution.
-][
-S’agit-il de comparer la liberté à la restriction ?
+allons observer ,(np "defoe" [Robinson]) dans son île, et nous obtiendrons la solution.])
+,(liste(p*[S’agit-il de comparer la liberté à la restriction ?
 ][
 De savoir ce que c’est que travail et capital ?
 ][
@@ -160,9 +160,8 @@ De décider entre le luxe et l’épargne ?
 ][
 De juger s’il vaut mieux exporter qu’importer ?
 ][
-Si la production peut surabonder et la consommation lui faire défaut ?
-][
-Courons à l’île du pauvre naufragé.
+Si la production peut surabonder et la consommation lui faire défaut ?]))
+,(p*[Courons à l’île du pauvre naufragé.
 ][
 Regardons-le agir.
 ][
@@ -190,7 +189,6 @@ pas un moment ne lui reste pour réparer ses vêtements et se bâtir une cabane.
 ,(--) Mais que fait-il maintenant ?
 Il rassemble des bouts de ficelle et en fait un filet
 qu’il place au travers d’un large ruisseau.
-][
 Le poisson s’y prend de lui-même,
 et Robinson n’a plus qu’à donner quelques heures par jour
 à la tâche de se pourvoir d’aliments.
@@ -237,12 +235,7 @@ chacun, excepté lui, aura pour s’en procurer
 à faire le même travail qu’auparavant.
 S’il le vend à meilleur marché,
 tous les acheteurs réaliseront une épargne
-qui ira provoquer et rémunérer du travail ,(footnote*[
-V. au tome V, page 368, le
-,(bof-ref "cqvoecqonvp" "les_machines" [chap. VIII
-de ,(cite-title[Ce qu’on voit et ce qu’on ne voit pas])]).
-,(NdEEO)
-]).
+qui ira provoquer et rémunérer du travail.
 ]
 (nbsp)
 [
@@ -255,7 +248,7 @@ Nous y voici ;
 que voyez-vous ?
 ][
 ,(--) Je vois que Robinson est devenu Sybarite.
-Il ne mange plus pour satisfâire sa faim ;
+Il ne mange plus pour satisfaire sa faim ;
 il tient à la variété des mets,
 donne à son appétit une excitation factice,
 et, de plus, il s’occupe à changer tous les jours
@@ -317,8 +310,8 @@ L’étranger qui en descend montre à Robinson des habits bien chauds
 et propose de les céder contre quelques légumes,
 en offrant de continuer à l’avenir ce marché.
 Robinson regarde d’abord si l’étranger est armé.
-Le voyant sans flèches ni tomahawk, il se dit : ,(XXX)
-Après-tout, il ne peut prétendre ,(XXX) à rien que je n’y consente ;
+Le voyant sans flèches ni tomahawk, il se dit :
+Après tout, il ne peut prétendre à rien que je n’y consente ;
 examinons.
 ,(--) Il examine les habits,
 suppute le nombre d’heures qu’il mettrait à les faire lui-même,
@@ -335,7 +328,7 @@ Il sait se l’interdire lui-même.
 Revenant au traité de Méthuen, je dis :
 La nation portugaise ne prend aux Anglais du drap contre du vin
 que parce qu’une quantité donnée de travail lui donne en définitive,
-par ce procédé, plus-de vin à la fois et plus de drap.
+par ce procédé, plus de vin à la fois et plus de drap.
 Après tout, elle échange parce qu’elle ,(emph[veut]) échanger.
 Il n’était pas besoin d’un traité pour l’y décider.
 Remarquez même qu’un traité, dans le sens de l’échange,
@@ -348,8 +341,8 @@ Il se borne à laisser les parties stipuler pour elles-mêmes.
 Les Portugais seront forcés de donner du vin pour du drap.
 Il dit :
 Les Portugais prendront du drap contre du vin, ,(emph[s’ils veulent]).
-][
-,(--)….. Ah ! ah ! ah !
+](nbsp)[
+,(--) …… Ah ! ah ! ah !
 Vous ne savez pas ?
 ][
 ,(--) Pas encore.
@@ -378,7 +371,7 @@ il est si habile à les préparer et à les coudre, en un mot,
 il donne ,(emph[tant]) d’habits pour ,(emph[si peu]) de légumes,
 que Robinson ne résiste pas à la tentation.
 Il est bien malheureux de n’avoir pas au-dessus de lui
-un état qui dirigerait sa conduite. ,(XXX)
+un ,(emph[état]) qui dirigerait sa conduite.
 ][
 ,(--) Que pourrait faire l’État en cette occurrence ?
 ][
@@ -386,7 +379,7 @@ un état qui dirigerait sa conduite. ,(XXX)
 ][
 ,(--) En ce cas, Robinson ferait ses vêtements comme autrefois.
 Qui l’en empêche, si c’est son avantage ?
-][
+][,(tag :a :name "mi_ref")
 ,(--) Il a essayé ;
 mais il ne peut les faire aussi vite
 qu’il fait les légumes qu’on lui demande en retour.
@@ -395,7 +388,7 @@ Vraiment, à défaut d’un ,(emph[État]),
 qui n’a pas besoin de raisonner lui,
 et procède par voie d’injonctions,
 ne pourrions-nous pas envoyer au pauvre Robinson
-un numéro du ,(cite-title[Moniteur industriel]) pour lui ouvrir les yeux ?
+un numéro du ,(tj "mi" [,(cite-title[Moniteur industriel])]) pour lui ouvrir les yeux ?
 ][
 ,(--) Mais d’après ce que vous me dites, il doit être plus riche qu’avant.
 ][
@@ -446,14 +439,10 @@ et c’est la terre des abus.
 ][
 ,(--) C’est trop simple.
 Je ne puis pas me contenter de cela.
-Le ,(cite-title[Moniteur industriel]) vous accommode les choses bien autrement.
+Le ,(tj "mi" [,(cite-title[Moniteur industriel])]) vous accommode les choses bien autrement.
 Ce n’est pas lui qui expliquerait la misère par le désordre et la paresse.
 Prenez donc la peine d’étudier la science économique
-pour en venir là ,(footnote*[
-V. ci-dessus, le n° 39, page 219.
-,(XXX :bof-ref "paresse_et_restriction")
-,(NdEEO) ,(XXX :EO [oubli du NdEEO])
-]) !…
+pour en venir là !…
 
 
 ])])

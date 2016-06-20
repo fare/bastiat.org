@@ -78,7 +78,7 @@
 
 (document :title "Index des noms de personnes"
 (sommaire [
-,(p*[En travaux : 56% de textes indexés.])
+,(p*[En travaux : 58% de textes indexés.])
 
 ,(lettre "A" [
 
@@ -258,6 +258,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 
 ,(personne "balzac" "Balzac" "Honoré de" "1799-1850" [
 ,(ref :url "cqovecqonvp.html#balzac_ref" [Ce qu’on voit et ce qu’on ne voit pas, 11 : Épargne et luxe]) ;
+,(ref :url "le_maire_d_enios.html#balzac_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "barbes" "Barbès" "Armand" "1809-1870" [
@@ -382,7 +383,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#blanc_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
 ,(ref :url "spoliation_et_loi.html#blanc_ref" [Spoliation et loi]) ;
-,(ref :url "lettre6.html#blanc_ref" [Lettre 6])
+,(ref :url "lettre6.html#blanc_ref" [Lettre 6]), ,(ref :url "lettre8.html#blanc_ref" [Lettre 8]) ;
+,(ref :url "le_maire_d_enios.html#blanc_ref" [Le maire d’Énios]) ;
 ,(p*[Sous la plume de Victor Considerant : ,(ref :url "propriete_et_spoliation6.html#blanc_ref" [Propriété et spoliation VI])])
 ])
 
@@ -423,7 +425,8 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "cqovecqonvp.html#dupin_ref" [Ce qu’on voit et ce qu’on ne voit pas, 5 : Travaux publics]) ;
 ,(ref :url "paix_et_liberte.html#bonaparte_ref" [Paix et liberté]) (plusieurs fois) ;
-,(ref :url "impot_des_boissons.html#bonaparte_ref" [Discours sur l’impôt des boissons])
+,(ref :url "impot_des_boissons.html#bonaparte_ref" [Discours sur l’impôt des boissons]) ;
+,(ref :url "le_maire_d_enios.html#bonaparte_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "bordogni" "Bordogni" "Marco" "1789-1856" [
@@ -586,6 +589,10 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]) ;
 
 ,(personne1nom "charlesquint" "Charles Quint" "1500-1558" [
 ,(ref :url "tarifs_francais_anglais.html#charlesquint_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples])
+])
+
+,(personne "chasseloup" "Chasseloup-Laubat" "Prosper de" "1805-1873" [
+,(ref :url "le_maire_d_enios.html#chasseloup_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "chateaubriand" "Chateaubriand" "François-René de" "1768-1848" [
@@ -944,6 +951,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 
 ,(personne "dumas" "Dumas" "Alexandre" "1802-1870" [
 ,(ref :url "cqovecqonvp.html#balzac_ref" [Ce qu’on voit et ce qu’on ne voit pas, 11 : Épargne et luxe]) ;
+,(ref :url "le_maire_d_enios.html#balzac_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "dunoyer" "Dunoyer" "Charles" "1786-1862" [
@@ -961,6 +969,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "livre_dunoyer.html" [Sur un livre de M. Dunoyer]) ;
 ,(ref :url "lettre_coudroy_vol7.html" [Lettre à Coudroy, 1845]) ;
 ,(ref :url "projet_preface_harmonies.html#dunoyer_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+,(ref :url "des_besoins_de_l_homme.html#dunoyer_ref" [Des besoins de l’homme]) ;
 ])
 
 ,(personne "duperier" "Dupérier" "(?)" "?" [
@@ -1131,6 +1140,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "solidarite.html#fourier_ref" [Solidarité]) ;
 ,(ref :url "moteur_social.html#blanc_ref" [Moteur social]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#stsimon_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "midi_a_quatorze_heures.html#fourier_ref" [Midi à quatorze heures]) ;
 ,(ref :url "avis_charitable.html#fourier_ref" [Avis charitable à la ,(cite-title[Démocratie pacifique])]) ;
 ])
 
@@ -1170,7 +1180,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(lettre "G" [
 
 ,(personne1nom "galilee" "Galilée" "1564-1642" [
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#galilee_ref" [Guerre aux chaires d’économie politique])
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#galilee_ref" [Guerre aux chaires d’économie politique]) ;
+,(ref :url "lettre8.html#galilee_ref" [Lettre 8])
 ])
 
 ,(personne "ganneron" "Ganneron" "Hippolyte" "1792-1847" [
@@ -1263,7 +1274,8 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#girardin_ref" [Lettre 3]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#frayssinous_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "introduction_cobden_ligue.html#thiers_ref" [Introduction à Cobden et la Ligue]) ;
 ,(ref :url "projet_discours_bayonne.html#guizot_ref" [Projet de discours à prononcer à Bayonne]) ;
-,(ref :url "impot_des_boissons.html#guizot_ref" [Discours sur l’impôt des boissons])
+,(ref :url "impot_des_boissons.html#guizot_ref" [Discours sur l’impôt des boissons]) ;
+,(ref :url "funestes_illusions.html#guizot_ref" [Funestes illusions])
 ])
 
 ,(personne "gutenberg" "Gutenberg" "Johannes" "v. 1400-1468"[
@@ -1704,6 +1716,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ,(ref :url "deux_principes.html#proudhon_ref" [Deux principes]) ;
 ])
 
+,(personne "mezzofanti" "Mezzofanti" "Giuseppe" "1774-1849" [
+,(ref :url "sucre_antediluvien.html#mezzofanti_ref" [Le sucre antédiluvien])
+])
+
 ,(personne1nom "midas" "Midas" "légendaire" [
 ,(ref :url "le_vol_a_la_prime.html" [Le vol à la prime]) ;
 ,(ref :url "maudit_argent.html#midas_ref" [Maudit argent !])
@@ -1746,6 +1762,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ,(personne1nom "moise" "Moïse" "?" [
 ,(ref :url "organisation.html#moise_ref" [Organisation naturelle, organisation artificielle]) ;
 ,(ref :url "propriete_communaute.html#moise_ref" [Propriété, communauté]) ;
+,(ref :url "lettre8.html#moise_ref" [Lettre 8])
 Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (plusieurs fois)
 ])
 
@@ -1771,6 +1788,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "nouveau_college.html#moliere_ref" [D’un nouveau collége à fonder à Bayonne]) ;
 ,(ref :url "propriete_et_spoliation5.html#moliere_ref" [Propriété et spoliation V]) ;
 ,(ref :url "des_besoins_de_l_homme.html#moliere_ref" [Des besoins de l’homme]) ;
+,(ref :url "midi_a_quatorze_heures.html#fourier_ref" [Midi à quatorze heures]) ;
 ,(ref :url "discours_2.html#moliere_ref" [Second discours]) : allusion aux ,(cite-title[Femmes savantes]), Acte II sc. 7. ;
 ,(ref :url "baccalaureat_et_socialisme.html#moliere_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "p5r4.html#moliere" [Prendre cinq et rendre quatre, ce n’est pas donner]) ;
@@ -2199,6 +2217,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5])
 ,(ref :url "influence_protection_agriculture.html#rousseau_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
+,(personne "roustan" "Roustan" "Roustam Raza, ou" "1781-1845" [
+,(ref :url "le_maire_d_enios.html#bonaparte_ref" [Le maire d’Énios]) ;
+])
+
 ,(personne "russell" "Russell" "John" "1792-1878" [
 ,(ref :url "tarifs_francais_anglais.html#russell_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "sel_poste_douane.html#peel_ref" [Le sel, la poste, la douane]) ;
@@ -2299,6 +2321,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5])
 ,(ref :url "projet_preface_harmonies.html#say_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
 ,(ref :url "propriete_et_spoliation4.html#smith_ref" [Propriété et spoliation IV]) ;
 ,(ref :url "besoins_efforts_satisfactions.html#say_ref" [Besoins, efforts, satisfactions (note)]) ;
+,(ref :url "des_besoins_de_l_homme.html#say_ref" [Des besoins de l’homme]) ;
 ,(ref :url "propriete_communaute.html#say_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "services.html#say_ref" [Services privés, services publics (note)]) ;
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
@@ -2410,6 +2433,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#smith_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "introduction_cobden_ligue.html#cobden_ref" [Introduction à Cobden et la Ligue]) ;
 ,(ref :url "besoins_efforts_satisfactions.html#smith_ref" [Besoins, efforts, satisfactions (note)]) ;
+,(ref :url "des_besoins_de_l_homme.html#smith_ref" [Des besoins de l’homme]) (plusieurs fois) ;
 ,(ref :url "valeur_service.html#smith_ref" [La valeur découle du service]) (plusieurs fois) ;
 ,(ref :url "des_salaires.html#smith_ref" [Des salaires]) ;
 ,(ref :url "impot_des_boissons.html#smith_ref" [Discours sur l’impôt des boissons])
@@ -2463,7 +2487,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ,(personne "sue" "Sue" "Eugène" "1804-1857" [
-,(ref :url "propriete_et_spoliation.html#sue_ref" [Propriété et spoliation I (note)])
+,(ref :url "propriete_et_spoliation.html#sue_ref" [Propriété et spoliation I (note)]) ;
+,(ref :url "le_maire_d_enios.html#balzac_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "sully" "Sully" "Maximilien de Béthune, duc de" "1559-1641" [
@@ -2514,7 +2539,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "letat.html" [L’État]) ;
 ,(ref :url "cqovecqonvp.html#thiers_ref" [Ce qu’on voit et ce qu’on ne voit pas, 3 : L’impôt]) ;
 ,(ref :url "protectionisme_et_communisme.html" [Protectionisme et communisme]) (adressé à M. Thiers) ;
-,(ref :url "impot_des_boissons.html#proudhon_ref" [Discours sur l’impôt des boissons])
+,(ref :url "impot_des_boissons.html#proudhon_ref" [Discours sur l’impôt des boissons]) ;
+,(ref :url "le_maire_d_enios.html#bonaparte_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "thompson_g" "Thompson" "George" "1804-1878" [
@@ -2578,6 +2604,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ,(personne "vidal" "Vidal" "François" "1812-1872" [
 ,(ref :url "propriete_et_loi.html#vidal_ref" [Propriété et loi])
+])
+
+,(personne "viennet" "Viennet" "Jean Pons Guillaume" "1777-1868" [
+,(ref :url "le_maire_d_enios.html#viennet_ref" [Le maire d’Énios]) ;
 ])
 
 ,(personne "villele" "Villèle" "Joseph de" "1773-1854" [

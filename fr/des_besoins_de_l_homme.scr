@@ -6,7 +6,8 @@
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/journaldeseonom46parigoog#page/n481/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 22, n° 93, p. 7.]
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom46parigoog#page/n124/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 21, n° 87, p. 114.]
+[,(ref :url "https://archive.org/stream/journaldeseonom46parigoog#page/n481/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 22, n° 93, p. 7.]
 [,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n67/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/48/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/55/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 55.])
@@ -513,7 +514,7 @@ C’est ce que nous allons examiner.,(XXX :jde "C’est ce que nous examinerons 
 
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 décembre 1848.])
 ,(p*[J’ai dit, en commençant cet écrit,
-que l’économie politique avait pour l’objet l’,(emph[homme])
+que l’économie politique avait pour l’objet l’,(emph[homme,])
 considéré au point de vue de ses besoins
 et des moyens par lesquels il lui est donné d’y pourvoir.
 ][
@@ -539,7 +540,7 @@ et se montrent dans tout l’éclat de l’évidence,
 chacun en trouvant la preuve en soi-même.
 C’est au point que l’écrivain ne sait trop
 comment s’y prendre pour soumettre au public
-des vérités si palpables et si vulgaires,
+des vérités si palpables et si vulgaires :
 il craint de provoquer le sourire du dédain.
 Il lui semble, avec quelque raison,
 que le lecteur courroucé va jeter le livre, en s’écriant :
@@ -552,11 +553,10 @@ ne passent plus que pour des erreurs ridicules, des théories absurdes
 aussitôt qu’on observe l’homme dans le milieu social.
 Qui jamais, en considérant l’homme isolé, s’aviserait de dire :
 ,(emph[La production surabonde ;
-la faculté de consommer ne ,(XXX :sic "fe") peut suivre la faculté de produire ;
-le luxe et les goûts factices ,(XXX :sic "nactice -
-échange de lettres en début de lignes consécutives")
+la faculté de consommer ne peut suivre la faculté de produire ;
+le luxe et les goûts factices
 sont la source de la richesse ;
-l’invention des machines anéantit le travail]) ,(pv)
+l’invention des machines anéantit le travail ;])
 et autres apophthegmes de la même force
 qui, appliqués à des agglomérations humaines,
 passent cependant pour des axiomes si bien établis,
@@ -581,8 +581,8 @@ qui, je l’espère, sera mieux justifiée par la suite,
 avant de continuer ces études sur l’homme.
 Sans cela, j’aurais craint que le lecteur ne rejetât, comme superflus,
 les développements, les véritables ,(emph[truismes]) qui vont suivre.
-][
-Je viens de parler des ,(emph[besoins]) de l’homme,
+](nbsp)[
+Je viens de parler des ,(emph[besoins]) de l’homme, ,(XXX :jde "Dans le dernier article, j’ai parlé…")
 et, après en avoir présenté une énumération approximative,
 j’ai fait observer qu’ils n’étaient pas
 d’une nature stationnaire, mais progressive ;
@@ -621,18 +621,18 @@ C’est ainsi qu’il eût été déraisonnable, il y a deux siècles,
 et qu’il ne l’est pas aujourd’hui, d’aspirer à faire dix lieues à l’heure.
 Prétendre que les besoins et les désirs de l’homme
 sont des quantités fixes et stationnaires,
-c’est méconnaitre la nature de l’âme,
+c’est méconnaître la nature de l’âme,
 c’est nier les faits,
 c’est rendre la civilisation inexplicable.
 ][
-Elle serait inexplicable encore,
+Elle serait inexplicable encore
 si, côté du développement indéfini des besoins,
 ne venait se placer, comme possible,
 le développement indéfini des moyens d’y pourvoir.
 Qu’importerait, pour la réalisation du progrès,
 la nature expansible des besoins,
 si, à une certaine limite,
-nos facultés ne pouvait plus avancer,
+nos facultés ne pouvaient plus avancer,
 si elles rencontreraient une borne immmuable ?
 ][
 Ainsi, à moins que la nature, la Providence,
@@ -651,7 +651,7 @@ On peut citer une multitude de points,
 au-dessus de l’humanité, auxquels elle ne parviendra jamais,
 sans qu’on puisse dire pour cela qu’il arrivera un instant
 où elle cessera de s’en approcher
-,(footnote :note [ Loi mathématique très-fréquente et très-méconnue en économie politique.]).
+,(footnote*[Loi mathématique très-fréquente et très-méconnue en économie politique. ,(NdA)]).
 ][
 Je ne voudrais pas dire non plus que le ,(emph[désir]) et le ,(emph[moyen])
 marchent parallèlement et d’un pas égal.
@@ -675,16 +675,16 @@ que lorsqu’il a été fait tel
 par l’,(emph[habitude]) d’une satisfaction permanente,
 en d’autres termes, quand le ,(emph[moyen]) a été trouvé
 et mis irrévocablement à notre portée
-,(footnote :note [ Un des objets indirects de ce livre est
+,(footnote*[Un des objets indirects de ce livre est
 de combattre des écoles sentimentalistes modernes
 qui, malgré les faits, n’admettent pas
 que la souffrance, à un degré quelconque, ait un but providentiel.
-Comme ses écoles disent procéder de Rousseau,
+Comme ces écoles disent procéder de ,(np "rousseau" [Rousseau]),
 je dois leur citer ce passage du maître :
 ,(q[Le mal que nous voyons n’est pas un mal absolu ;
 et, loin de combattre directement le bien,
 il concourt avec lui à l’harmonie universelle.])]).
-][
+](nbsp)[
 Nous avons aujourd’hui à examiner cette question :
 Quels sont les moyens que nous avons de pourvoir à nos besoins ?
 ][
@@ -706,11 +706,11 @@ Leur axiome est :
 ][
 Je ne puis m’empêcher de prévenir ici que ces formules,
 prises au pied de la lettre,
-ont conduit à des erreurs de doctrines énormes
+ont conduit à des erreurs de doctrine énormes
 et, par suite, à des mesures législatives déplorables.
 J’en parlerai ailleurs.
 ][
-Ici je me borne à établir, en fait,
+Ici, je me borne à établir, en fait,
 que la ,(emph[nature]) et le ,(emph[travail]) coopèrent
 à la satisfaction de nos besoins et de nos désirs.
 ][
@@ -726,17 +726,17 @@ comme, par exemple, quand il est nécessaire de purifier l’air.
 Le besoin de nous ,(emph[désaltérer])
 est plus ou moins satisfait par la Nature,
 selon qu’elle nous fournit une eau plus ou moins
-rapprochée, limpide, abondante ;
-et le Travail à concourir d’autant plus,
+rapprochée, limpide, abondante,
+et le Travail a à concourir d’autant plus,
 qu’il faut aller chercher l’eau plus loin, la clarifier,
 suppléer à sa rareté par des puits et des citernes.
 ][
 La nature n’est pas non plus uniformément libérale envers nous
-quant à l’,(emph[alimentation]) ,(pv)
+quant à l’,(emph[alimentation,])
 car qui dira que le travail qui reste à notre charge
 soit toujours le même,
 si le terrain est fertile ou s’il est ingrat,
-si la forét est giboyeuse,
+si la forêt est giboyeuse,
 si la rivière est poissonneuse,
 ou dans les hypothèses contraires ?
 ][
@@ -770,18 +770,19 @@ Dans beaucoup de cas, dans presque tous les cas,
 il reste quelque chose à faire au travail
 pour rendre cette ,(emph[utilité]) complète ;
 et l’on comprend que cette action du travail
-est susceptible de plus ou moins, dans chaque circonstance donnée,
+est susceptible de plus ou de moins, dans chaque circonstance donnée,
 selon que la nature a elle-même plus ou moins avancé l’opération.
 ][
-On peut donc poser ces deux formules :
-][
-1° ,(emph[L’utilité est communiquée, quelquefois par la nature seule,
+On peut donc poser ces deux formules :])
+
+,(liste(p*[1° ,(emph[L’Utilité est communiquée, quelquefois par la nature seule,
 quelquefois par le travail seul,
-presque toujours par la coopération de la Nature et du Travail]).
+presque toujours par la coopération de la Nature et du Travail.])
 ][
-2° ,(emph[Pour amener une chose à son état complet d’,(strong[Utilité]),
-l’action du Travail est en raison inverse de l’action de la Nature]).
-De ces deux propositions combinées avec
+2° ,(emph[Pour amener une chose à son état complet d’,(strong[utilité]),
+l’action du Travail est en raison inverse de l’action de la Nature.])]))
+
+,(p*[De ces deux propositions combinées avec
 ce que nous avons dit de l’expansibilité indéfinie des besoins,
 qu’il me soit permis de tirer une déduction
 dont la suite démontrera l’importance.
@@ -797,7 +798,7 @@ et que cet homme, à cause de la libéralité de la nature,
 sera réduit à une oisiveté forcée ?
 Non ; ce qui s’ensuit, c’est qu’il pourra, s’il le veut,
 disposer de ces forces pour agrandir le cercle de ses jouissances ;
-qu’à travail égal il se procurera deux satisfactions au lieu d’une ;
+qu’à travail égal, il se procurera deux satisfactions au lieu d’une ;
 en un mot, que le progrès lui sera plus facile.
 ][
 Je ne sais si je me fais illusion,
@@ -818,7 +819,6 @@ que le scepticisme absolu.
 Aussi j’éprouve une véritable confusion
 à insister sur des vérités primordiales
 si claires qu’elles en semblent puériles.
-][
 Cependant, il faut bien le dire,
 à travers les complications des transactions humaines,
 ces simples vérités ont été méconnues ;
@@ -829,23 +829,22 @@ auquel d’excellents esprits se sont laissé entraîner.
 Mettant de côté, négligeant entièrement la ,(emph[coopération de la nature]),
 relativement à la satisfaction de nos besoins,
 ils ont posé ce principe absolu : ,(emph[Toute richesse vient du travail]).
-Sur cette prémisse ils ont bâti le syllogisme suivant :
+Sur cette prémisse ils ont bâti le syllogisme suivant :])
+,(liste(p*[« Toute richesse vient du travail :
 ][
-,(q[Toute richesse vient du travail ;])
+« Donc la richesse est proportionnelle au travail.
 ][
-,(q[Donc la richesse est proportionnelle au travail.])
+« Or, le travail est en raison inverse de la libéralité de la nature.
 ][
-,(q[Or le travail est en raison inverse de la libéralité de la nature ;])
-][
-,(q[Donc la richesse est en raison inverse de la libéralité de la nature !])
-][
-Et, qu’on le veuille ou non, beaucoup de nos lois économiques
+« Donc la richesse est en raison inverse de la libéralité de la nature ! »]))
+
+,(p*[Et, qu’on le veuille ou non, beaucoup de nos lois économiques
 ont été inspirées par ce singulier raisonnement.
 Ces lois ne peuvent qu’être funestes
 au développement et à la distribution des richesses.
 C’est là ce qui me justifie de préparer d’avance,
 par l’exposition de vérités fort triviales en apparence,
-la réfutation d’erreurs et de préjugés déplorables,
+la réfutation d’erreurs et de préjugés déplorables
 sous lesquels se débat la société actuelle.
 ][
 Décomposons maintenant ce concours de la nature.
@@ -881,23 +880,23 @@ qu’avant qu’aucun travail, aucun effort de sa part soit intervenu,
 les matériaux qu’il trouve à sa portée
 sont des dons ,(emph[gratuits]) de la nature.
 Après le premier effort, quelque léger qu’il soit,
-ils cessent d’être ,(emph[gratuits]) ,(pv)
-et, si le langage de l’économie politique eût toujours été exact,
+ils cessent d’être ,(emph[gratuits,])
+et si le langage de l’économie politique eût toujours été exact,
 c’est à cet état des objets matériels, antérieurement à toute action humaine,
 qu’eût été réservé le nom de ,(emph[matières premières]).
 ][
 Je répète ici que cette gratuité des dons de la nature,
 avant l’intervention du travail, est de la plus haute importance.
-En effet j’ai dit dans le second chapitre
+En effet ,(ref :url "besoins_efforts_satisfactions.html#theorievaleur" [j’ai dit]) dans le second chapitre ,(XXX :jde "dans le premier article")
 que l’économie politique était ,(emph[la théorie de la valeur]).
 J’ajoute maintenant, et par anticipation,
 que les choses ne commencent à avoir de la ,(emph[valeur])
 que lorsque le travail leur en donne.
-Je prétends démontrer plus tard,
+Je prétends démontrer, plus tard,
 que tout ce qui est ,(emph[gratuit]) pour l’homme isolé
 reste gratuit pour l’homme social,
 et que les dons gratuits de la nature,
-,(emph[quelle qu’en soit l’]),(strong[Utilité]), n’ont pas de valeur.
+,(emph[quelle que soit leur ]),(strong[utilité]), n’ont pas de valeur. ,(XXX :EO "quelle qu’en soit l’utilité")
 Je dis qu’un homme qui recueille directement et sans aucun effort
 un bienfait de la nature,
 ne peut être considéré comme se rendant à lui-même un ,(emph[service onéreux]),
@@ -918,7 +917,7 @@ car nous ne pouvons être tenus de consacrer gratuitement nos efforts
 Mais ces forces naturelles, considérées en elles-mêmes,
 et abstraction faite de tout travail intellectuel ou musculaire,
 sont des dons ,(emph[gratuits]) de la Providence ;
-et à ce titre, elles restent sans ,(emph[valeur])
+et, à ce titre, elles restent sans ,(emph[valeur])
 à travers toutes les complications des transactions humaines.
 C’est la pensée dominante de cet écrit.
 ][
@@ -942,12 +941,12 @@ La tendance invincible de l’intelligence humaine,
 en cela stimulée par l’intérêt et secondée par la série des découvertes,
 est de substituer le concours naturel et gratuit
 au concours humain et onéreux,
-de telle sorte qu’une utilité donné,
+de telle sorte qu’une utilité donnée,
 quoique restant la même quand à son résultat,
 quant à la satisfaction qu’elle procure,
 répond cependant à un travail de plus en plus réduit.
 Certes il est impossible de ne pas apercevoir
-l’immense influence de ce merveilleux phènomène sur la notion de la Valeur.
+l’immense influence de ce merveilleux phénomène sur la notion de la Valeur.
 Car qu’en résulte-t-il ?
 C’est qu’en tout produit la partie ,(emph[gratuite])
 tend à remplacer la partie ,(emph[onéreuse]).
@@ -966,7 +965,7 @@ Or, la plupart des auteurs ayant
 il en est résulté une théorie non-seulement fausse,
 mais en sens inverse de la vérité.
 Je crois sincèrement qu’une description plus exacte
-de cette combinaison des forces naturelles et des forces humaines,
+de cette combinaison des forces naturelles et des forces humaines
 dans l’,(oe)uvre de la production,
 autrement dit une définition plus juste de la ,(emph[Valeur]),
 fera cesser des confusions théoriques inextricables
@@ -976,11 +975,11 @@ exposition, c’est pour me justifier auprès du
 lecteur de m’arrêter sur des notions dont il
 lui serait difficile sans cela de s’expliquer
 l’importance.
-][
-Après cette digression je reprends mon étude
+](nbsp)[
+Après cette digression, je reprends mon étude
 sur l’homme considéré uniquement au point de vue économique.
-][
-Une autre observation due à J. B. Say,
+][,(tag :a :name "say_ref")
+Une autre observation due à ,(np "say_jb" [J.-B. Say]),
 et qui saute aux yeux par son évidence,
 quoique trop souvent négligée par beaucoup d’auteurs,
 c’est que l’homme ne ,(emph[crée])
@@ -993,13 +992,13 @@ Si c’est pour son avantage,
 ,(emph[il se rend service à lui-même]).
 Si c’est pour l’avantage d’autrui,
 ,(emph[il rend service à son semblable]),
-et est en droit d’en exiger un service ,(emph[équivalent]) ,(pv)
+et est en droit d’en exiger un service ,(emph[équivalent ;])
 d’où il suit encore
 que la ,(emph[valeur]) est proportionnelle au service rendu,
 et non point du tout à l’,(emph[utilité]) absolue de la chose.
 Car cette ,(emph[utilité]) peut être, en très-grande partie,
 le résultat de l’action ,(emph[gratuite]) de la nature,
-auquel cas le service humain, le service onéreux et rémunérable ;
+auquel cas le service humain, le service onéreux et rémunérable
 est de peu de valeur.
 Cela résulte de l’axiome établi ci-dessus :
 ,(emph[Pour amener une chose à l’état complet d’utilité,
@@ -1011,20 +1010,21 @@ C’est le contraire qui est vrai,
 La matérialité est une qualité donnée par la nature,
 et par conséquent ,(emph[gratuite]), dépourvue de ,(emph[valeur]),
 quoique d’une utilité incontestable.
+,(tag :a :name "smith_ref")
 L’action humaine,
 laquelle ne peut jamais arriver à ,(emph[créer]) de la matière,
 constitue seule le service que l’homme isolé se rend à lui-même
 ou que les hommes en société se rendent les uns aux autres,
 et c’est la libre appréciation de ces ,(emph[services])
-qui est le fondement de la ,(emph[valeur]) ,(pv)
-bien loin donc que, comme le voulait Smith,
-la ,(emph[Valeur]) ne se puisse concevoir qu’incorporée dans la Matière,
+qui est le fondement de la ,(emph[valeur ;])
+bien loin donc que, comme le voulait ,(np "smith" [Smith]),
+la Valeur ne se puisse concevoir qu’incorporée dans la Matière,
 entre matière et valeur il n’y a pas de rapports possibles.
 ][
 La doctrine erronée à laquelle je fais allusion
 avait rigoureusement déduit de son principe
 que ces classes seules sont ,(emph[productives]) qui opèrent sur la matière.
-Smith avait ainsi préparé l’erreur des ,(emph[socialistes]) modernes
+,(np "smith" [Smith]) avait ainsi préparé l’erreur des ,(emph[socialistes]) modernes
 qui ne cessent des représenter comme des parasites improductifs
 ce qu’ils appellent les ,(emph[intermédiaires])
 entre le producteur et le consommateur,
@@ -1045,7 +1045,7 @@ Elle met à notre disposition, dans une mesure fort diverse
 selon les climats, les saisons et l’avancement de nos connaissances,
 mais ,(emph[toujours gratuitement]),
 des matériaux et des forces.
-Donc ces matériaux et ces forces n’ont pas de ,(emph[valeur]) ,(pv)
+Donc ces matériaux et ces forces n’ont pas de ,(emph[valeur ;])
 il serait bien étrange qu’ils en eussent.
 D’après quelle règle l’estimerions-nous ?
 Comment comprendre que la nature se fasse payer, rétribuer, rémunérer ?
@@ -1088,14 +1088,14 @@ toutes ou presque toutes nos facultés
 peuvent concourir et concourent en effet à la production.
 L’attention, la sagacité, l’intelligence, l’imagination,
 y ont certainement leur part.
-][
-M. Dunoyer, dans son beau livre sur la ,(emph[Liberté du travail]),
+][,(tag :a :name "dunoyer_ref")
+,(np "dunoyer" [M. Dunoyer]), dans son beau livre sur la ,(emph[Liberté du travail]),
 a fait entrer, et cela avec toute la rigueur scientifique,
 nos facultés morales parmi les éléments auxquels nous devons nos richesses ;
 c’est une idée neuve et féconde autant que juste ;
 elle est destinée à agrandir et ennoblir le champ de l’économie politique.
 ][
-Je n’insistera ici sur cette idée
+Je n’insisterai ici sur cette idée
 qu’autant qu’elle me fournit l’occasion
 de jeter une première lueur
 sur l’origine d’un puissant agent de production,
@@ -1134,7 +1134,7 @@ concourent très-directement à l’amélioration de notre condition,
 même au point de vue exclusif des richesses,
 et, entre autres, l’ordre, la prévoyance, l’empire sur soi-même, l’économie.
 ][
-,(emph[Prévoir]) est un des beaux privilèges de l’homme,
+,(emph[Prévoir]) est un des beaux priviléges de l’homme,
 et il est à peine nécessaire de dire
 que, dans presque toutes les circonstances de la vie,
 celui-là a des chances plus favorables
@@ -1173,19 +1173,19 @@ L’ignorance et l’erreur lui donnent une fausse direction ;
 l’imprévoyance nous prépare des déceptions ;
 l’abandon aux appétits du moment empêche
 l’accumulation ou la formation du capital ;
-la vanité nous conduit à consacrer nos efforts à des satisfactions factices,
+la vanité nous conduit à consacrer nos efforts à des satisfactions factices
 aux dépens de satisfactions réelles ;
 la violence, la ruse, provoquant des représailles,
 nous forcent à nous environner de précautions onéreuses,
-et entrainent ainsi une plus grande déperdition de forces.
-][
+et entraînent ainsi une grande déperdition de forces.
+](nbsp)[
 Je terminerai cette étude préliminaire de l’homme
 par une observation que j’ai déjà faite à l’occasion des besoins.
 C’est que les éléments signalés dans ce chapitre,
-qui entrent, ,(XXX :sic) dans la science économique et la constituent,
+qui entrent dans la science économique et la constituent,
 sont essentiellement mobiles et divers.
 Besoins, désirs, matériaux et puissances fournis par la nature,
-forces musculaires, organes, facultés intellectuelles, qualités morales ;
+forces musculaires, organes, facultés intellectuelles, qualités morales,
 tout cela est variable selon l’individu, le temps et le lieu.
 Il n’y a pas deux hommes qui se ressemblent sous chacun de ces rapports,
 ni, à plus forte raison, sur tous ;
@@ -1202,7 +1202,7 @@ une ligne graduée, un mètre qui lui serve à mesurer
 l’intensité des désirs, des efforts et des satisfactions.
 Si nous étions voués au travail solitaire, comme certains animaux,
 nous serions tous placés dans des circonstances différant par quelques points ;
-et, ces circonstances extérieures fussent-elles semblabes,
+et, ces circonstances extérieures fussent-elles semblables,
 le milieu dans lequel nous agirions fût-il identique pour tous,
 nous différerions encore par
 nos désirs, nos besoins, nos idées, notre sagacité, notre énergie,
@@ -1211,10 +1211,10 @@ notre prévoyance, notre activité ;
 en sorte qu’une grande et inévitable inégalité
 se manifesterait parmi les hommes.
 Certes l’isolement absolu, l’absence de toutes relations entre les hommes,
-ce n’est qu’une vision chimérique née dans l’imagination de Rousseau.
+ce n’est qu’une vision chimérique née dans l’imagination de ,(np "rousseau" [Rousseau]).
 Mais à supposer que cet état antisocial dit ,(emph[état de nature])
 ait jamais existé,
-je me demande par quelle série d’idées Rousseau et ses adeptes
+je me demande par quelle série d’idées ,(np "rousseau" [Rousseau]) et ses adeptes
 sont arrivés à y placer l’égalité ?
 Nous verrons plus tard qu’elle est,
 comme la richesse, comme la liberté, comme la fraternité, comme l’unité,
@@ -1222,7 +1222,7 @@ une fin et non un point de départ.
 Elle surgit du développement naturel et régulier des sociétés.
 L’humanité ne s’en éloigne pas, elle y tend.
 C’est plus consolant et plus vrai.
-][
+](nbsp)[
 Après avoir parlé de nos ,(emph[besoins])
 et des ,(emph[moyens]) que nous avons d’y pourvoir,
 il me reste à dire un mot de nos ,(emph[satisfactions]).
@@ -1240,19 +1240,19 @@ mais qui cesse de l’être à l’égard des besoins d’un ordre plus élevé.
 La culture du blé, le tissage de la laine,
 se terminent par une ,(emph[consommation]).
 En est-il de même des travaux de l’artiste,
-des chants du poëte, ,(XXX :sic)
+des chants du poëte,
 des méditations du jurisconsulte,
 des enseignements du professeur,
 des prédications du prêtre ?
 Ici encore nous retrouvons les inconvénients de cette erreur fondamentale
-qui détermina A. Smith à circonscrire l’économie politique
+qui détermina ,(np "smith" [A. Smith]) à circonscrire l’économie politique
 dans un cercle de matérialité ;
 et le lecteur me pardonnera de me servir souvent du mot ,(emph[satisfaction]),
 comme s’appliquant à tous nos besoins et à tous nos désirs,
 comme répondant mieux au cadre élargi que j’ai cru pouvoir donner à la science.
 ][
 On a souvent reproché aux économistes de se préoccuper exclusivement
-des ,(emph[intérêts du consommateur]) :
+,(emph[des intérêts du consommateur :])
 ,(q[Vous oubliez le producteur,]) ajoutait-on.
 Mais la satisfaction étant le but,
 la fin de tous les efforts,
@@ -1260,16 +1260,16 @@ et comme la grande ,(emph[consommation]) des phénomènes économiques,
 n’est-il pas évident que c’est en elle
 qu’est la pierre de touche du progrès ?
 Le bien-être d’un homme ne se mesure pas à ses ,(emph[efforts]),
-mais à ses ,(emph[satisfactions]) ,(pv)
+mais à ses ,(emph[satisfactions ;])
 cela est vrai aussi pour les agglomérations d’hommes.
 C’est encore là une de ces vérités que nul ne conteste
 quand il s’agit de l’homme isolé,
 et contre laquelle on dispute sans cesse
 dès qu’elle est appliquée à la société.
 La phrase incriminée n’a pas un autre sens que celui-ci :
-toute mesure économique s’apprécie, non par le travail qu’elle provoque,
+toute mesure économique s’apprécie, non par le travail qu’elle provoque, ,(XXX :jde "par la peine qu’elle occasionne")
 mais par l’effet définitif qui en résulte,
-lequel se résout en accroissement ou diminution du bien-être général.
+lequel se résout en un accroissement ou une diminution du bien-être général. ,(XXX :EO "en accroissement ou diminution")
 ][
 Nous avons dit, à propos des besoins et des désirs,
 qu’il n’y a pas deux hommes qui se ressemblent.
