@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 31 décembre 1849.])
 ,(p :align 'center (strong[
-	P. J. Proudhon à F. Bastiat.]))
+	,(np "proudhon" [P.-J. Proudhon]) à F. Bastiat.]))
 ,(p*(font :size "-1" (strong[
 Grave imputation.
 ,(--) Négation de cinq propositions.
@@ -32,7 +32,7 @@ de hors-d’,(oe)uvre,
 de vétilles et de chicanes,
 vous n’eussiez pu vous y prendre autrement.
 ][
-De quoi s’agit-il entre nous, s’il vous plait ?
+De quoi s’agit-il entre nous, s’il vous plaît ?
 de savoir si l’intérêt de l’argent doit ou non être aboli.
 Je vous l’ai dit moi-même :
 c’est là le pivot du socialisme,
@@ -49,7 +49,7 @@ ce que la plus simple notion d’équité prescrit.
 Vous, au contraire,
 vous repoussez cet examen.
 Depuis deux mois que nous avons ouvert,
-dans la ,(emph[Voix du Peuple]),
+dans ,(tj "vp" [,(cite-title[la Voix du Peuple])]),
 cette assise solennelle où le capital devait être jugé,
 et l’usure condamnée ou absoute,
 vous ne cessez de me répéter sur tous les tons cette ritournelle :
@@ -85,7 +85,7 @@ car il appert dès le commencement de cette polémique
 que le raisonnement en vous se réduit
 à affirmer et confirmer toujours votre proposition,
 sans infirmer celle de votre adversaire,
-mais à discuter ?
+,(--) mais à discuter ?
 Le dernier clerc de procureur vous dirait qu’en tout débat,
 il faut examiner successivement et contradictoirement
 le dire de chaque partie ; et,
@@ -96,7 +96,7 @@ il faut aborder le mien.
 Avec vous les choses ne se passent point ainsi.
 Satisfait de la concession que je vous ai faite,
 à savoir,
-que dans l’était actuel des choses
+que dans l’état actuel des choses
 le prêt à intérêt ne peut être considéré comme un acte illicite,
 vous tenez la nécessité de l’intérêt pour démontrée,
 et là-dessus,
@@ -105,7 +105,7 @@ me fermant la bouche,
 vous faites défaut au débat.
 Est-ce discuter,
 je vous le demande ?
-][
+](nbsp)[
 Forcé par une conduite si étrange,
 je fais alors un pas vers vous.
 Ma méthode de démonstration avait paru vous faire quelque peine :
@@ -119,7 +119,7 @@ qu’ainsi,
 en faisant abstraction du temps,
 la même idée,
 le même fait,
-change complètement de caractère,
+change complétement de caractère,
 selon l’aspect sous lequel on le considère ;
 que rien n’empêche de croire que l’intérêt soit précisément dans ce cas ;
 qu’en conséquence votre fin de non-recevoir ne peut être admise,
@@ -175,23 +175,23 @@ dans un concours de circonstances politiques et économiques,
 indépendant de la volonté des contractants,
 et inévitable à l’origine des sociétés,
 savoir :
-1° L’incommensurabilité des valeurs,
+1° L’incommensurabilité des valeurs,
 résultant de la non-séparation des industries,
 et de l’absence des termes de ma comparaison ;
-2° les risques du commerce ;
-3° l’habitude,
+2° les risques du commerce ;
+3° l’habitude,
 introduite de bonne heure parmi les négociants
 et devenue peu à peu constante et générale,
 de compter un excédant proportionnel
 à titre d’amende ou indemnité (,(emph[dommage-intérêt])),
 à tout débiteur retardataire ;
-4° la prépondérance des métaux précieux et monnayés
+4° la prépondérance des métaux précieux et monnayés
 sur les autres marchandises ;
-5° la pratique combinée des contrats de ,(emph[pacotille]),
+5° la pratique combinée des contrats de ,(emph[pacotille]),
 d’,(emph[assurance]),
-et ,(emph[à la grosse]),(pv)
-6° enfin, l’établissement de la rente foncière ;
-imité de l’intérêt de l’argent,
+et ,(emph[à la grosse ;])
+6° enfin, l’établissement de la rente foncière,
+imitée de l’intérêt de l’argent,
 et qui,
 admise sans contestation par les casuistes,
 devait servir plus tard à la justification de ce même intérêt.
@@ -206,7 +206,7 @@ et où il s’est ensuite développé,
 devient absurde et spoliateur,
 dès qu’on prétend le généraliser et en faire
 une ,(strong[règle]) d’économie publique ;
-qu’il est en contradiction formelle ave le principe économique,
+qu’il est en contradiction formelle avec le principe économique,
 que dans la société le produit ,(emph[net])
 est identique au produit ,(emph[brut]),
 en sorte que tout prélèvement exercé par le capital sur le travail constitue,
@@ -237,11 +237,12 @@ contre l’intérêt,
 à la fraternité,
 à la philanthropie,
 à l’autorité de l’Évangile et des Pères de l’Église.
+,(tag :a :name "pieix_ref")
 J’ai peu de foi à la philanthropie ;
 quant à l’Église,
 elle n’a jamais rien entendu à cette matière,
 et sa casuistique,
-depuis le Christ jusqu’à Pie IX,
+depuis le Christ jusqu’à ,(np "pieix" [Pie IX]),
 est tout simplement absurde.
 Absurde,
 dis-je,
@@ -257,7 +258,6 @@ A cette exposition,
 dont vous avez vous-même apprécié l’intérêt,
 que répondez-vous,
 dans votre quatrième lettre ?
-][
 ,(--) Rien.
 ][
 Niez-vous l’histoire ? ,(--) Point.
@@ -268,7 +268,7 @@ Que dites-vous donc ?
 ,(--) Vous rebattez votre éternel refrain :
 Celui qui prête rend service ;
 dès lors il est prouvé que
-le ,(emph[capital porte en soi l’indestructible principe de la rémunération]).
+,(emph[le capital porte en soi l’indestructible principe de la rémunération]).
 Sur quoi,
 vous me donnez,
 comme expression de la sagesse des siècles,
@@ -292,7 +292,7 @@ et,
 ce qui vaut mieux que tout cela,
 honnête homme et homme d’esprit.
 Eh bien ! je suis forcé,
-pour mettre à couvert votre intelligence et votre loyauté ;
+pour mettre à couvert votre intelligence et votre loyauté,
 de vous prouver,
 par A plus B,
 que vous savez pas le premier mot
@@ -305,7 +305,7 @@ ni de la circulation,
 ni de la finance,
 ni de toute l’économie politique,
 pas plus que de la métaphysique allemande.
-][
+][,(tag :a :name "argout_ref")
 Avez-vous,
 dans votre vie,
 entendu parler de la Banque de France ?
@@ -313,15 +313,15 @@ Faites-moi le plaisir,
 quelque jour,
 d’y jeter le pied ;
 ce n’est pas loin de l’Institut.
-Vous trouverez là M. d’Argout, ,(XXX [ou d’Argont ?])
+Vous trouverez là ,(np "argout" [M. d’Argout]),
 qui,
 en fait de capital et d’intérêt,
-en sait plus que vous et que tous les économistes de Guillaumin.
+en sait plus que vous et que tous les économistes de ,(np "guillaumin" [Guillaumin]).
 La Banque de France est une compagnie de capitalistes,
 formée,
 il y a une cinquantaine d’années,
 à la sollicitation de l’État,
-et par privilège de l’État,
+et par privilége de l’État,
 pour exercer l’usure sur tout le territoire de France.
 Depuis sa fondation,
 elle n’a cessé de prendre de continuels accroissements :
@@ -357,15 +357,15 @@ c’est le thème qui revient dans chacune de vos lettres.
 ][
 Or, savez-vous où ce beau raisonnement a conduit les actionnaires,
 que je tiens tous,
-ainsi que M. d’Argout,
+ainsi que ,(np "argout" [M. d’Argout]),
 pour très-honnêtes gens,
 de la Banque de France ?
-,(--) Au vol,
-oui ;
+,(--) Au vol ;
+oui,
 monsieur,
 au vol le plus manifeste,
 le plus éhonté,
-le plus détestable ;
+le plus détestable :
 car c’est ce vol qui,
 lui seul,
 depuis Février,
@@ -393,22 +393,22 @@ D’après le dernier inventaire,
 ][
 Quel est le taux légal,
 convenu entre la Banque et l’État,
-pour les escomptes ? ,(--) 4 p. 100 l’an.
+pour les escomptes ? ,(--) 4 p. 100 l’an.
 ][
 Donc le produit annuel, légal et légitime de la Banque de France,
 le juste prix de ses services,
 c’est,
-pour un capital de 90 millions à 4 p. 100 l’an,
+pour un capital de 90 millions à 4 p. 100 l’an,
 3 millions 600 mille francs de revenu.
 ][
 3,600,000 francs,
-voilà suivant la fiction de la productivité du capital,
+voilà, suivant la fiction de la productivité du capital,
 ce que le commerce français doit chaque année à la Banque de France
-en rémunération de son capital qui est de 90 millions.
+en rémunération de son capital, qui est de 90 millions.
 ][
 Dans ces conditions,
 les actions de la Banque de France
-sont comme des immeubles qui rendraient régulièrement 40 Francs de revenu :
+sont comme des immeubles qui rendraient régulièrement 40 francs de revenu :
 émises à 1,000 francs,
 elles valent 1,000 francs.
 ][
@@ -423,8 +423,8 @@ le sont à 2,400.
 la semaine dernière,
 à 2,445 ;
 et,
-pour peu que le portefeuille se remplit,
-elle monteraient à 2,500 et 3,000 fr.
+pour peu que le portefeuille se remplît,
+elle monteraient à 2,500 et 3,000 fr.
 ,(--) Ce qui veut dire que le capital de la Banque,
 au lieu de lui rapporter 4 pour 100,
 taux légal et convenu,
@@ -445,7 +445,7 @@ Le capital de la Banque est resté le même,
 90 millions.
 Seulement,
 la Compagnie,
-en vertu de son privilège,
+en vertu de son privilége,
 et à l’aide de son mécanisme financier,
 a trouvé moyen d’opérer avec le commerce comme si son capital était,
 non plus seulement de 90 millions,
@@ -542,17 +542,17 @@ L’acceptation de ce papier, sans gage métallique,
 ne repose-t-elle pas exclusivement sur leur confiance mutuelle ?
 N’est-ce pas cette confiance qui crée seule toute la probabilité du signe ?
 En quoi le capital de la Banque y est-il intervenu ?
-En quoi la garantie y parait-elle ?
+En quoi la garantie y paraît-elle ?
 ][
 Vous pouvez déjà,
 par ce simple aperçu,
-juger combien est fausse votre proposition n°3,
+juger combien est fausse votre proposition n° 3,
 suivant laquelle :
 baisse d’intérêt suppose augmentation corrélative de capitaux.
 Rien n’est plus faux que cette proposition :
 il est démontré,
 au contraire,
-par la théorie et par la pratique de toutes les banques ;
+par la théorie et par la pratique de toutes les banques,
 qu’une banque peut très-bien tirer un intérêt de 4 pour 100 de ses capitaux
 en mettant à 3 pour 100 le taux de ses escomptes :
 nous verrons tout à l’heure qu’elle peut descendre beaucoup plus bas.
@@ -562,7 +562,7 @@ qui,
 avec 90 millions de capital,
 émet,
 par hypothèse,
-pour 112 millions de billets :
+pour 112 millions de billets ;
 qui,
 par conséquent,
 opère,
@@ -574,15 +574,13 @@ ne réduit-elle pas ses escomptes dans la même proportion ?
 Pourquoi cet intérêt de 4 pour 100,
 encaissé par la Banque,
 pour loyer d’un capital qui n’est pas le sien ?
+,(tag :a :name "boileau_ref")
 Me donnerez-vous une raison qui justifie
-ce trop perçu de 1 pour 100 sur 112 millions ?
+ce trop-perçu de 1 pour 100 sur 112 millions ?
 Quant à moi, monsieur,
-,(XXX)
-][
-J’appelle un chat un chat,
-et Rollet un fripon.
-,(XXX [style d’écriture différent])
-][
+
+,(verses[J’appelle un chat un chat,
+et Rollet un fripon. ,(np "boileau" [*])])
 Et je dis tout uniment que la Banque ,(strong[vole]).
 ][
 Mais ceci n’est rien.
@@ -632,7 +630,7 @@ C’est par cette conversion que l’encaisse de la Banque
 est arrivé à la somme énorme de 431 millions.
 De ce fait,
 il résulte que la compagnie de la Banque,
-malgré le renouvellement de son privilège,
+malgré le renouvellement de son privilége,
 n’est plus seule en titre :
 elle a acquis,
 par le fait de l’augmentation de son encaisse,
@@ -656,7 +654,7 @@ qui,
 en acceptant le papier de la Banque,
 de préférence aux écus,
 l’a véritablement gagée,
-et fondée,
+et fondé,
 à la place de l’ancienne Banque de France,
 au capital de 90 millions,
 une Banque nationale au capital de 431.
@@ -668,11 +666,10 @@ commanditée par tous les citoyens français,
 ne serait qu’une déclaration de ce fait,
 maintenant accompli,
 de l’absorption de la compagnie dans la nation.
-][
+](nbsp)[
 Ceci posé,
-je reprends mon raisonnement de tout à l’heure.
-][
-L’intérêt,
+je reprends mon raisonnement de tout à l’heure.])
+,(liste(p*[L’intérêt,
 convenu entre la Compagnie et l’État,
 est 4 pour 100 l’an de son capital.
 ][
@@ -680,22 +677,22 @@ Ce capital est de 90 millions.
 ][
 L’encaisse est aujourd’hui,
 31 décembre 1849,
-de 431 millions ;
+431 millions.
 ][
 Le montant des billets émis,
-de 436 millions.
-][
-Le capital,
+436 millions.]))
+
+,(p*[Le capital,
 réel ou fictif,
 sur lequel la Banque opère,
 ayant presque quintuplé,
 le taux de l’escompte devrait être réduit
 au cinquième de l’intérêt stipulé dans le contrat d’institution de la Banque,
 quelque chose comme 3/4 pour 100.
-][
+][,(tag :a :name "euclide_ref")
 Vous devez vous apercevoir,
 monsieur,
-qu’il s’en faut que vos propositions soient aussi sûres que celles d’Euclide.
+qu’il s’en faut que vos propositions soient aussi sûres que celles d’,(np "euclide" [Euclide]).
 Il n’est pas vrai,
 et les faits que je viens de vous citer le prouvent sans réplique,
 que l’intérêt ne baisse qu’au fur et à mesure de l’augmentation des capitaux.
@@ -720,18 +717,18 @@ compagnie d’honnêtes gens,
 de philanthropes,
 d’hommes craignant Dieu,
 incapables de transiger avec leur conscience,
-continue à prendre 4 p. 100 sur tous ses escomptes,
+continue à prendre 4 p. 100 sur tous ses escomptes,
 sans faire jouir le public de la plus légère bonification ?
-Croiriez-vous que c’est sur ce pied de 4 p. 100 sur un capital de 431 millions,
+Croiriez-vous que c’est sur ce pied de 4 p. 100, sur un capital de 431 millions,
 dont elle n’est pas propriétaire,
 qu’elle règle les dividendes de ses actionnaires,
 et qu’elle fait coter ses actions à la Bourse ?
 Est-ce du vol, cela, oui ou non ?
-][
+](nbsp)[,(tag :a :name "bonaparte_ref")
 Nous ne sommes pas au bout.
 Je ne vous ai dit que la moindre partie des méfaits
 de cette société d’agioteurs,
-instituée par Napoléon tout exprès dans le but
+instituée par ,(np "bonaparte" [Napoléon]) tout exprès dans le but
 de faire fleurir le parasitisme gouvernemental et propriétaire,
 et de sucer le sang du peuple.
 Ce ne sont pas quelques millions de plus ou de moins
@@ -758,7 +755,7 @@ Un livre ne suffirait pas à les énumérer :
 je me bornerai à vous en signaler quelques-unes.
 ][
 Si donc le crédit de la Banque de France, devenue Banque nationale,
-était de 3/4 p. 100 au lieu de 4,
+était de 3/4 p. 100 au lieu de 4,
 les banquiers ordinaires,
 les notaires,
 les capitalistes,
@@ -766,7 +763,7 @@ et jusqu’aux actionnaires de la Banque même,
 seraient bientôt forcés,
 par la concurrence,
 de réduire leurs intérêts,
-escomptes et dividendes au maximum de 1 p. 100,
+escomptes et dividendes au maximum de 1 p. 100,
 frais d’acte et commission compris.
 Quel mal,
 pensez-vous,
@@ -780,20 +777,20 @@ Si la circulation financière s’opérait
 à un taux d’escompte représentant seulement
 les frais d’administration et de rédaction,
 enregistrement, etc.,
-l’intérêt compté ,(XXX [ compte ? ? ? ])
+l’intérêt compté
 dans les achats et ventes qui se font à terme,
-tomberait à son tour de 6 p. 100 à zéro,
+tomberait à son tour de 6 p. 100 à zéro,
 ce qui veut dire qu’alors les affaires se feraient au comptant :
 il n’y aurait plus de dettes.
 De combien pensez-vous encore que s’en trouverait diminué
 le chiffre honteux des suspensions de payements,
 faillites et banqueroutes ?
-][
+][,(tag :a :name "produitcapital")
 Mais,
 de même que dans la société le produit ,(emph[net])
-ne se distingue pas du produit ,(emph[brut]),(pv) de même,
-dans l’ensemble des faits ,(XXX :EO [sans s]) économiques,
-le capital ne se distingue pas du produit.
+ne se distingue pas du produit ,(emph[brut ;]) de même,
+dans l’ensemble des faits économiques,
+le ,(strong[capital]) ne se distingue pas du ,(strong[produit]).
 Ces deux termes ne désignent point en réalité deux choses distinctes ;
 ils ne désignent que des relations.
 Produit,
@@ -808,7 +805,7 @@ pour le numéraire,
 à 3/4 p. 100,
 c’est-à-dire à zéro,
 puisque 3/4 p. 100 ne représentent plus que le service de la Banque,
-tombait encore à zéro pour les marchandises ;
+tombait encore à zéro pour les marchandises :
 par l’analogie des principes et des faits,
 il tomberait encore à zéro pour les immeubles :
 le fermage et le loyer finiraient par se confondre dans l’amortissement.
@@ -819,7 +816,7 @@ que cela empêchât d’habiter les maisons et de cultiver la terre ?…
 Si, grâce à cette réforme essentielle de l’appareil circulatoire,
 le travail n’avait plus à payer au capital
 qu’un intérêt représentant le juste prix
-du service que rend le ,(XXX) capitaliste,
+du service que rend le capitaliste,
 l’argent et les immeubles n’ayant plus aucune valeur reproductive,
 n’étant plus estimés que comme ,(emph[produits]),
 comme choses consommables et fongibles,
@@ -832,7 +829,7 @@ Tandis qu’aujourd’hui,
 grâce à l’interdiction mise sur les objets de consommation par l’intérêt,
 le débouché reste toujours,
 et de beaucoup,
-insuffisant ;
+insuffisant,
 ce serait la production,
 qui, à son tour, ne suffirait pas :
 le travail serait donc de fait,
@@ -840,9 +837,9 @@ comme de droit,
 garanti.
 ][
 La classe travailleuse gagnant d’un seul coup
-3 milliards environ d’intérêt,
+5 milliards environ d’intérêt,
 qu’on lui prend sur les 10 qu’elle produit,
-plus de 5 milliards que le même intérêt lui fait perdre en chômage,
+plus 5 milliards que le même intérêt lui fait perdre en chômage,
 plus 5 milliards que la classe parasite,
 coupée aux vivres,
 serait alors forcée de produire :
@@ -857,15 +854,15 @@ que ce n’est pas la multiplication des capitaux qui fait baisser l’intérêt
 mais bien, au contraire,
 la baisse de l’intérêt qui multiplie les capitaux ?
 ][
-Mais tout cela déplait à MM. les capitalistes, ,(XXX)
+Mais tout cela déplaît à MM. les capitalistes,
 et n’est point du goût de la Banque.
-La Banque tient à la main la corne d’abondance que lui a confié le peuple :
+La Banque tient à la main la corne d’abondance que lui a confiée le peuple :
 ce sont ces 341 millions de numéraire accumulé dans ses caves,
 et qui témoignent si haut de la puissance du crédit public.
 Pour ranimer le travail et répandre partout la richesse,
 la Banque n’aurait à faire qu’une chose :
 ce serait de réduire le taux de ses escomptes
-au chiffre voulu pour la production d’un intérêt à 4 p. 100 sur 90 millions.
+au chiffre voulu pour la production d’un intérêt à 4 p. 100 sur 90 millions.
 Elle ne le veut pas.
 Pour quelques millions de plus à distribuer à ses actionnaires,
 et qu’elle vole,
@@ -890,7 +887,7 @@ est-ce du vol, cela ?
 Est-ce de la rapine,
 du brigandage,
 de l’assassinat avec préméditation et guet-apens ?
-][,(tag :a :name "centsoixante")
+](nbsp)[,(tag :a :name "centsoixante")
 Ai-je tout dit ?
 ,(--) Non ;
 j’en aurais pour dix volumes ;
@@ -899,7 +896,7 @@ Je terminerai par un trait qui me paraît, à moi,
 le chef-d’,(oe)uvre du genre,
 et sur lequel j’appelle toute votre attention.
 Avocat du capital,
-vous ne connaissez pas toutes les roueries du capital.
+vous ne connaissez pas les roueries du capital. ,(XXX :EO "toutes les roueries?")
 ][
 La somme de numéraire,
 je ne dirai pas existant,
@@ -923,7 +920,6 @@ nous payons 1,600 millions,
 ,(--) le louage dudit capital ?
 ][
 1,600 millions, 160 pour 100 ! dites-vous : Impossible !…
-][
 ,(--) Quand je vous dis, monsieur,
 que vous n’entendez rien à l’économie politique.
 Voici le fait qui,
@@ -934,22 +930,17 @@ est encore une énigme.
 La somme des créances hypothécaires,
 d’après les auteurs les mieux informés,
 est de 12 milliards,
-quelques-uns la portent à 16 milliards,
-ci :
-,(XXX [mise en page à reprendre]) 12 milliards.
-][
-Celle des créances chirographaires,
-au moins 6
-][
-La commandite,
-environ 2
-][
-A quoi il convient d’ajouter la dette publique,
-8
-][
-Total.
-28 milliards,
-que l’agriculture,
+quelques-uns la portent à 16 milliards,])
+,(table
+(tr(td[ci :]) (tdRT[12]) (td[ milliards.]))
+(tr(td[Celle des créances chirographaires, au moins]) (tdRT[6]) (td[]))
+(tr(td[La commandite, environ]) (tdRT[2]) (td[]))
+(tr(td[A quoi il convient d’ajouter la dette publique,]) (tdRT[8]) (td[]))
+(tr(td[]) (td :colspan 2 [,(hrule)]))
+(tr(tdRT[Total.]) (tdRT[28]) (td[ milliards,]))
+)
+
+,(p :class "noindent" *[que l’agriculture,
 l’industrie,
 le commerce,
 en un mot,
@@ -958,11 +949,11 @@ qui produit tout,
 et l’État,
 qui ne produit rien,
 et pour qui le travail paye,
-doivent au capital.
-][
-Toutes ces dettes,
+doivent au capital.])
+
+,(p*[Toutes ces dettes,
 notez ce point,
-proviennent d’argent prêté, ,(XXX)
+proviennent d’argent prêté,
 ou censé l’avoir été,
 qui à 4 pour 100,
 qui à 5,
@@ -980,7 +971,7 @@ sur 20 milliards,
 environ 400 millions :  en tout 1,600 millions d’intérêt annuel,
 pour un capital de 1 milliard.
 ][
-Or ça,
+Or çà,
 dites-moi,
 est-ce aussi la rareté de l’argent
 qui est cause de la multiplication exorbitante de ces usures ?
@@ -1000,7 +991,7 @@ qu’elle ne s’exerce d’habitude que sous deux espèces,
 l’espèce dite immeubles (terre et maison),
 quand on en trouve le placement,
 ce qui n’est ni toujours facile,
-ni toujours sûr :
+ni toujours sûr ;
 et l’espèce argent.
 L’argent, l’argent surtout !
 Voilà le capital par excellence,
@@ -1051,7 +1042,7 @@ de donner lieu à une nouvelle location.
 C’est aussi ce qui a lieu ;
 et comme,
 par l’accumulation des intérêts,
-le capital argent,
+le capital-argent,
 d’échange en échange,
 revient toujours à sa source,
 il s’ensuit que la relocation,
@@ -1064,15 +1055,14 @@ l’intérêt qu’on lui paye s’adresse moins à lui qu’aux capitaux échan
 et qu’ainsi 1,600 millions d’intérêts payés pour 1 milliard de numéraire,
 représentent en réalité le loyer de 25 à 30 milliards de capitaux ?
 Cela a été dit ou écrit quelque part par un économiste de votre école
-,(footnote*[
-Que M. Proudhon se soit fait illusion sur la valeur très-douteuse
+,(footnote*[Que M. Proudhon se soit fait illusion sur la valeur très-douteuse
 des chiffres et des arguments employés dans cette lettre,
 cela se conçoit à la rigueur.
 Mais il est bien difficile de regarder comme une erreur involontaire
 l’incroyable confusion qu’il fait ici
 entre ,(emph[le numéraire]) et ,(emph[le capital]) de la nation.
 ,(NdEEO)]).
-][,(XXX)
+][
 Une pareille allégation ne peut se soutenir un instant.
 D’où vient,
 je vous prie,
@@ -1101,13 +1091,13 @@ puisque d’un autre côté nous avons vu,
 d’après l’exposé du mécanisme de la Banque de France
 et les conséquences de l’accumulation de son encaisse,
 qu’un capital de 90 millions espèces,
-devant produire un intérêt de 4 p. 100 l’an,
+devant produire un intérêt de 4 p. 100 l’an,
 ne comporte,
 selon la masse d’affaires traités par la Banque,
 qu’un escompte de 3,
 de 2,
 de 1,
-de 3/4 p. 100,
+de 3/4 p. 100,
 il est bien évident que les 1,600 millions d’intérêts
 que le peuple paye
 à ses usuriers, banquiers, rentiers, notaires et commanditaires
@@ -1147,13 +1137,12 @@ Alors,
 j’essaye d’élever et d’ennoblir,
 par la sublimité de la dialectique,
 les misères de mon sujet :
-votre impitoyable routine me ramène sans cesse à la hideuse réalité.
+votre impitoyable routine me ramène sans cesse à la hideuse réalité.])
+,(liste(p*[La production à doubler,
 ][
-La production à doubler,
-][
-Le bien-être du travailleur à quadrupler :
-][
-Voilà ce qu’en vingt-quatre heures,
+Le bien-être du travailleur à quadrupler :]))
+
+,(p*[Voilà ce qu’en vingt-quatre heures,
 par une simple réforme de banque,
 nous pourrions,
 si nous le voulions,
@@ -1170,10 +1159,9 @@ que la Banque de France,
 par l’augmentation de son numéraire,
 est devenue Banque nationale ;
 qu’en conséquence elle doit fonctionner au nom et pour le compte de la nation,
-et le taux des escomptes être réduit à 3/4 p. 100,
-,(--) et la Révolution est aux trois quarts faite.
-][
-Mais c’est ce que nous ne voulons pas,
+et le taux des escomptes être réduit à 3/4 p. 100,
+,(--) et la Révolution est aux trois quarts faite.])
+,(liste(p*[Mais c’est ce que nous ne voulons pas,
 ce que nous refusons de comprendre,
 tant nos bavardages politiques et nos hâbleries parlementaires
 ont étouffé en nous à la fois le sens moral et le sens pratique ;
@@ -1206,9 +1194,9 @@ et renoncer à l’espoir du gouvernement ;
 ][
 Ce que ne sait pas demander le prolétariat,
 ahuri de théories sociales,
-de toasts à l’amour et d’homélies fraternelles.
-][
-Va donc,
+de toasts à l’amour et d’homélies fraternelles.]))
+
+,(p*[Va donc,
 capital,
 va,
 continue d’exploiter ce misérable peuple !
@@ -1227,7 +1215,7 @@ Malédiction sur mes contemporains !
 
 
 ])
-,(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(sign[P.-J. Proudhon.])
 ])
 (tous_les_scripts)
 (footer[

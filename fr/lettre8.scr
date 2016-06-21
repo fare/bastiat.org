@@ -672,8 +672,9 @@ l’autre à Bayonne,
 le troisième à Bordeaux,
 le quatrième à Paris.
 ][
-Nous pourrons avoir le tableau suivant :
-,(table
+Nous pourrons avoir le tableau suivant :]
+
+(table
 (tr(th[])(th[Nombre des couteaux vendus])
 (th[Bénéfice par couteau])
 (th[Bénéfice total]))
@@ -681,7 +682,7 @@ Nous pourrons avoir le tableau suivant :
 (tr(tdLT[Bayonne]) (tdRT[  200])(tdRT[ 75 c.])(tdRT[150 fr.]))
 (tr(tdLT[Bordeaux])(tdRT[  400])(tdRT[ 50 c.])(tdRT[200 fr.]))
 (tr(tdLT[Paris])   (tdRT[1,000])(tdRT[ 25 c.])(tdRT[250 fr.])))
-][
+[
 On voit ici un multiplicateur (deuxième colonne) décroître sans cesse,
 parce que le multiplicande (première colonne) s’accroît toujours ;
 la progression constante du produit total (troisième colonne)

@@ -145,7 +145,15 @@ sup {line-height: 0;}
 }
 
 
-
+.bastiat p, .other p {
+	text-indent: 1.4em;
+	margin: 0.5em 0;
+	text-align: justify;
+}
+p.noindent {text-indent: 0;}
+p[align="center"] {
+	text-align: center;
+}
 /*Stylage des footnotes*/
 
 h4 {
@@ -190,9 +198,9 @@ h3 {
 	padding-top: 1em;
 }
 
-.bastiat p, .other p {
-	text-indent: 1.4em;
-	margin: 0.5em 0;
+
+p table {
+	margin: auto;
 }
 
 .bastiat p {
@@ -281,7 +289,7 @@ i span[style="font-variant: small-caps"], em span[style="font-variant: small-cap
 	padding-left: 3em; padding-top: 0.3em;
 }
 
-.sign {
+p.sign {
 	text-align: right;
 	font-variant: small-caps;
 	font-size: large;

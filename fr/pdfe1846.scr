@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Profession de foi électorale de 1846
+(in-bof :title "A MM. les électeurs de l’arrondissement de Saint-Sever
 	- par Frédéric Bastiat")
-(document :title "Profession de foi électorale de 1846"
+(document :title "A MM. les électeurs de l’arrondissement de Saint-Sever"
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -10,10 +10,6 @@
 ])
 (bastiat[
 ,(date-tag[Mugron, le ,(1er) juillet 1846.])
-,(h2[À Messieurs les électeurs
-	de l’arrondissement de Saint-Séver (1846).])
-
-
 ,(cher[Mes chers Compatriotes,])
 ,(p*[Encouragé par quelques-uns d’entre vous
 	à me présenter aux prochaines élections,
@@ -42,23 +38,19 @@ Veuillez m’excuser
 	si le besoin d’épancher des convictions qui me pressent
 	me fait dépasser les limites que l’usage assigne
 	aux ,(emph[professions de foi]).
-][
+](nbsp)[
 J’ai vu beaucoup de conservateurs,
 je me suis entretenu avec beaucoup d’hommes de l’opposition,
 et je crois pouvoir affirmer que ni l’un ni l’autre de ces deux grands partis
-qui divisent le parlement n’est satisfait de lui-même.
-,(blockquote[
-    ,(strong[On combat à la chambre avec des boules molles])
-	,(footnote*[
-À cette époque, le vote à la chambre se faisait au moyen de boules.
+qui divisent le parlement n’est satisfait de lui-même.])
+,(verses[On combat à la Chambre avec des boules molles. ,(footnote*[
+A cette époque, le vote à la chambre se faisait au moyen de boules.
 Une boule blanche signifiait oui, une boule noire signifiait non.
 Par cette phrase, Bastiat voulait dire que
 les députés n’étaient pas très fixés sur ce qu’ils devaient faire.
-(,(emph[note de Jacques de Guenin, 2001-03-09]))
-]).
-])
-][
-Les conservateurs ont la majorité officielle ;
+(,(emph[note de Jacques de Guenin, 2001-03-09.]))
+])])
+,(p*[Les conservateurs ont la majorité officielle ;
 ils règnent, ils gouvernent.
 Mais ils sentent confusément qu’ils perdent le pays
 	et qu’ils se perdent eux-mêmes.
@@ -88,18 +80,18 @@ alors que la faveur et la docilité électorale
 et que les plus longs et les plus dévoués services
 	sont comptés absolument pour rien.
 Oui, l’avenir de la France trouble les conservateurs ;
-et combien n’y en a-t-il ,(XXX) pas parmi eux
+et combien n’y en a-t-il pas parmi eux
 	qui passeraient à l’opposition,
-	s’ils y trouvaient quelques garanties ,(XXX)
+	s’ils y trouvaient quelques garanties
 	pour cette paix intérieure et extérieure
 		qui est l’objet de leur prédilection !
 ][
 D’un autre côté, l’opposition, comme parti,
-a-t-elle ,(XXX) confiance dans la solidité du terrain
+a-t-elle confiance dans la solidité du terrain
 	où elle s’est placée ?
-Que demande t-elle ? Que veut-elle ?
-Quel est son principe ? Son programme ?
-Nul ne le saît.
+Que demande t-elle ? que veut-elle ?
+quel est son principe ? son programme ?
+Nul ne le sait.
 Son rôle naturel serait de veiller
 au dépôt sacré de ces trois grandes conquêtes de la civilisation :
 ,(emph[paix, liberté, justice]).
@@ -110,40 +102,40 @@ Et, dans son ardeur conquérante, à l’occasion de l’Afrique et de l’Océa
 il est sans exemple que le mot justice se soit jamais présenté sur ses lèvres.
 Elle sent qu’elle travaille pour des ambitieux et non pour le public ;
 que la multitude ne gagnera rien au succès de ses man,(oe)uvres.
-Nous avons vu autrefois une opposition de quinze membres
+Nous avons vu une opposition de quinze membres
 soutenue autrefois par l’enthousiaste assentiment d’un grand peuple.
 Mais l’opposition de nos jours n’a point enfoncé ses racines
 dans les sympathies populaires ;
 elle se sent séparée de ce principe de force et de vie,
 et, sauf l’ardeur que des vues personnelles inspirent à ses chefs,
-elle est pâle, confuse découragée,
+elle est pâle, confuse, découragée,
 et la plupart de ses membres sincères passeraient au parti conservateur,
 s’ils ne répugnaient pas à s’associer à la direction perverse
-qu’il a donné aux affaires.
+qu’il a imprimée aux affaires.
 ][
 Étrange spectacle !
-D’où vient qu’au centre comme aux extrémités de la chambre,
+D’où vient qu’au centre comme aux extrémités de la Chambre,
 les c,(oe)urs honnêtes se sentent mal à l’aise ?
 Ne serait-ce pas que la conquête des portefeuilles,
 but plus ou moins avoué de la lutte où ils sont engagés,
 n’intéresse que quelques individualités
-et reste complètement étranger aux masses ?
+et reste complétement étranger aux masses ?
 Ne serait-ce point qu’un principe de ralliement leur manque ?
-Peut-être suffiraît-il de jeter au sein de cette assemblée une idée simple,
+Peut-être suffirait-il de jeter au sein de cette assemblée une idée simple,
 vraie, féconde, pratique,
 pour y voir surgir ce qu’on y cherche en vain,
 un parti représentant exclusivement,
 dans toute leur étendue et dans tout leur ensemble,
-les intérêts des ,(emph[administrés]) et des ,(emph[contribuables]).
+les intérêts des ,(emph[administrés,]) des ,(emph[contribuables]).
 ][
 Cette féconde idée,
 je la vois dans le symbole politique d’illustres publicistes
 dont la voix n’a malheureusement pas été écoutée.
 J’essayerai de le résumer devant vous.
-][
+](nbsp)[
 Il est des choses qui ne peuvent être faites
 	que par la force collective ou le ,(emph[pouvoir]),
-et d’autres qui doivent être abandonnée à l’activité privée.
+et d’autres qui doivent être abandonnées à l’activité privée.
 ][
 Le problème fondamental de la science politique
 est de faire la part de ces deux modes d’action.
@@ -153,11 +145,11 @@ La fonction publique, la fonction privée
 Mais leurs services diffèrent en ceci,
 	que nous subissons forcément les uns
 	et agréons volontairement les autres ;
-d’où il suit qu’il n’est raisonnable de ne confier à la première
+d’où il suit qu’il est raisonnable de ne confier à la première
 	que ce que la seconde ne peut absolument pas accomplir.
 ][
 Pour moi, je pense que lorsque le pouvoir a
-	garanti ,(XXX) à chacun
+	garanti à chacun
 		le libre exercice et le produit de ses facultés,
 	réprimé l’abus qu’on en peut faire,
 	maintenu l’ordre,
@@ -174,14 +166,17 @@ En dehors de cercle, religion, éducation, association, travail, échanges,
 Si cette grande et fondamentale ligne de démarcation était ainsi établie,
 	le pouvoir serai ,(emph[fort]),
 	il serait aimé,
-puisqu’il ne ferai jamais sentir qu’une action tutélaire.
-Il serait ,(emph[peu couteux]),
+puisqu’il ne ferait jamais sentir qu’une action tutélaire.
+][
+Il serait ,(emph[peu coûteux]),
 puisqu’il serait renfermé dans les plus étroites limites.
+][
 Il serait ,(emph[libéral]),
 car, sous la seule condition de ne pas froisser la liberté d’autrui,
 chaque citoyen jouirait, dans toute sa plénitude,
 	du franc exercice de ses facultés
 		industrielles, intellectuelles et morales.
+][
 J’ajoute que la puissance de perfectibilité qui est en elle
 	étant dégagée de toute compression réglementaire,
 la société serait dans les meilleures conditions pour le développement
@@ -194,7 +189,7 @@ Le pouvoir, vaste corps organisé et vivant,
 	tend naturellement à s’agrandir.
 Il se trouve à l’étroit dans sa mission de surveillance.
 Or, il n’y a pas pour lui d’agrandissement possibles
-	en dehors d’empiètements successifs
+	en dehors d’empiétements successifs
 	sur le domaine des facultés individuelles.
 Extension du pouvoir, cela signifie
 	usurpation de quelque mode d’activité privée,
@@ -204,7 +199,7 @@ Le pouvoir sort de sa mission quand, par exemple, il impose
 	 une forme de culte à nos consciences,
 	une méthode d’enseignement à notre esprit,
 	une direction à notre travail ou à nos capitaux,
-	une impulsion envahissantes à nos relations internationales,
+	une impulsion envahissante à nos relations internationales,
 	etc.
 ][
 Et veuillez remarquer, messieurs,
@@ -222,41 +217,47 @@ il arrêtera la puissance publique dès qu’elle essayera de sortir de sa sphè
 et il a pour cela un moyen infaillible,
 c’est de lui refuser les fonds à l’aide desquels
 	elle pourrait réaliser ses usurpations.
-][
+](nbsp)[
 Ces principes posés, le rôle de l’opposition, et j’ose dire
-de la chambre toute entière, est simple et bien défini.
+de la Chambre toute entière, est simple et bien défini.
 ][
-Il ne consiste pas à embarasser le pouvoir dans son action essentielle,
+Il ne consiste pas à embarrasser le pouvoir dans son action essentielle,
 à lui refuser les moyens de rendre la justice,
 	de réprimer les crimes,
 	de paver les routes,
 	de repousser l’agression étrangère.
+][
 Il ne consiste pas à le décréditer,
 	à l’avilir dans l’opinion,
-	à le priver des forces dont il a ,(XXX) besoin.
+	à le priver des forces dont il a besoin.
+][
 Il ne consiste pas à le faire passer de main en main,
 	par des changements de ministères,
 	et, encore moins, de dynasties.
-Il ne consiste même pas à déclamer puérilement contre sa tendance envahissante ;
+][
+Il ne consiste pas même à déclamer puérilement contre sa tendance envahissante ;
 car cette tendance est fatale, irrémédiable,
 	et se manifesterait sous un président comme sous un roi,
 	dans une république comme dans une monarchie.
 ][
-Il consiste uniquement à le contenir dans ses limites ;
+Il consiste uniquement ,(emph[à le contenir dans ses limites ;])
 à maintenir, dans toute son intégrité et aussi vaste que possible,
 le domaine de la liberté et de l’activité privée.
 ][
 Si donc vous me demandiez :
-Que feriez-vous donc comme député ?
+Que feriez-vous comme député ?
 Je répondrais :
-Eh ! mon Dieu, ce que vous feriez vous même
+Eh ! mon Dieu, ce que vous feriez vous-mêmes
 	en tant que contribuables et administrés.
+][
 Je dirais au pouvoir :
 	Manquez-vous de force pour maintenir l’ordre au dedans
 	et l’indépendance au dehors ?
 Voilà de l’argent et des hommes,
 	car c’est au public et non au pouvoir que l’ordre et
-l’indépendance profitent. Mais prétendez-vous nous imposer un
+l’indépendance profitent.
+][
+Mais prétendez-vous nous imposer un
 symbole religieux, une théorie philosophique, un système
 d’enseignement, une méthode agricole, un courant commercial, une
 conquête militaire ? Point d’argent ni d’agents ; car ici, il
@@ -269,20 +270,20 @@ Dans leur intérêt, bonne adminitration publique
 	en ce qui, par malheur, ne se peut exécuter autrement.
 Dans leur intérêt encore, liberté pleine et entière pour tout le reste,
 	sous la surveillance de l’autorité sociale.
-][
+](nbsp)[
 Une chose vous frappera, messieurs, comme elle me frappe,
 	et c’est celle-ci ;
 pour qu’un député puisse tenir ce langage,
 	il faut qu’il fasse partie de ce public
-	pour qui l’adminitration est faite et qui le paye.
+	pour qui l’administration est faite et qui la paye.
 ][
 Il faut bien admettre qu’il appartient exclusivement au public de décider
-	,(emph[comment]), ,(emph[dans quelle mesure]), ,(emph[à quel prix])
+	,(emph[comment, dans quelle mesure, à quel prix])
 	il entend être administré,
 	sans quoi le gouvernement représentatif ne serait qu’une déception,
 	et la souveraineté nationale un non-sens.
 Or, la tendance du gouvernement à un accroissement indéfini étant admise,
-si, quand il vous interroge par l’élection, sur ses propres limites,
+si, quand il vous interroge par l’élection sur ses propres limites,
 	vous lui laissez le soin de se faire lui-même la réponse,
 	en chargeant ses propres agents de la formuler,
 autant vaudrait mettre vos fortunes et vos libertés à sa discrétion.
@@ -290,18 +291,18 @@ Attendre qu’il puise en lui-même la résistance à sa naturelle expansion,
 c’est attendre de la pierre qui tombe une énergie qui suspende sa chute.
 ][
 Si la loi d’élection portait :
-,(q[Les contribuables se feront représenter par les fonctionnaires])
+,(q[Les contribuables se feront représenter par les fonctionnaires,])
 vous trouveriez cela absurde
 et comprendriez qu’il n’y aurait plus aucune borne
 	à l’extension du pouvoir, si ce n’est l’émeute,
-	et à l’accroissement du budget si ce n’est la banqueroute ;
+	et à l’accroissement du budget, si ce n’est la banqueroute ;
 mais les résultats changent-ils parce que
 	les électeurs suppléent bénévolement à une telle prescription ?
-][
+][,(tag :a :name "larnac_ref")
 Ici, messieurs, je dois aborder la grande question
 	des ,(emph[incompatibilités parlementaires]).
 J’en dirai peu de chose,
-	me réservant d’adresser des observations plus étendues à M. Larnac.
+	me réservant d’adresser des observations plus étendues à ,(np "larnac" [M. Larnac]).
 Mais je ne puis la passer entièrement sous silence,
 	puisqu’il a jugé à propos de faire circuler parmi vous une lettre,
 	dont je n’ai pas gardé la copie,
@@ -317,17 +318,16 @@ Je n’ai jamais cru
 	que l’assemblée où s’élaborent les lois pût se passer de magistrats ;
 	qu’on y pût traiter avec avantage des questions maritimes
 		en l’absence de marins ;
-	des questions militaires en l’absence de militaires ;
+	des questions militaires, en l’absence de militaires ;
 	des questions de finances, en l’absence de financiers.
 ][
 J’ai dit ceci et je le maintiens.
 Tant que la loi n’aura pas réglé la position des fonctionnaires à la Chambre,
 	,(emph[tant que leurs intérêts de fonctionnaires ne seront pas,
-	pour ainsi dire, effacés par leurs intérêts de contribuables]),
+	pour ainsi dire, effacés par leurs intérêts de contribuables,])
 ce que nous avons de mieux à faire, nous électeurs,
 	c’est de n’en pas nommer ;
 et j’aimerais mieux, je l’avoue, qu’il n’y en eût pas un seul au Palais-Bourbon
-	,(XXX)
 	que de les y voir en majorité,
 	sans que des mesures de prudence, réclamées par le bon sens public,
 	,(emph[les]) aient mis et ,(emph[nous]) aient mis
@@ -336,16 +336,16 @@ et j’aimerais mieux, je l’avoue, qu’il n’y en eût pas un seul au Palais
 ][
 On a voulu voir là une jalousie mesquine,
 	une défiance presque haineuse contre les fonctionnaires.
-][
+][,(tag :a :name "say_ref")
 Il n’en est rien.
 Je connais beaucoup de fonctionnaires,
-presque tous mes amis le sont (car qui ne l’est pas aujourd’hui ?),
+presque tous mes amis le sont (car qui ne l’est aujourd’hui ?),
 je le suis moi-même ;
 et, dans mes essais d’économie politique,
-j’ai soutenu, contre l’opinion de mon maître, M. Say,
+j’ai soutenu, contre l’opinion de mon maître, ,(np "say_jb" [M. Say]),
 que leurs services étaient productifs au même titre que les services privés.
 Mais il n’en est pas moins vrai qu’ils en diffèrent en ce que
-	nous prenons de ceux-ci que ce que nous voulons,
+	nous ne prenons de ceux-ci que ce que nous voulons,
 		et à prix débattu,
 	tandis que ceux-là nous sont imposés
 		ainsi que la rémunération qui y est afférente.
@@ -361,7 +361,7 @@ que j’en dois prendre et le prix que je dois y mettre.
 Ce n’est pas des fonctionnaires que je me défie, c’est du c,(oe)ur humain ;
 et je puis estimer les hommes qui vivent sur les impôts
 	tout en les croyant peu propres à les voter,
-tout comme M. Larnac estime probablement les juges,
+tout comme ,(np "larnac" [M. Larnac]) estime probablement les juges,
 tout en regardant leurs fonctions comme incompatibles
 	avec le service de la garde nationale.
 ][
@@ -372,7 +372,7 @@ J’avais cependant eu soin de préciser que, dans ma pensée,
 elle est plus nécessaire encore à la stabilité du pouvoir
 	qu’à la sauvegarde de nos libertés.
 Les hommes les plus dangereux à la Chambre, disais-je,
-	ne sont pas les fonctionnaires mais ceux qui aspirent à le devenir.
+	ne sont pas les fonctionnaires, mais ceux qui aspirent à le devenir.
 Ceux-là sont entraînés à faire au cabinet, quel qu’il soit,
 	une guerre incessante, tracassière, factieuse,
 	sans aucune utilité pour le pays ;
@@ -385,13 +385,13 @@ Pour nier cette vérité,
 		sur les annales de la Grande-Bretagne,
 	il faudrait repousser volontairement les enseignements
 		de notre histoire constitutionnelle tout entière.
-][
+](nbsp)[
 Ceci me ramène à la pensée fondamentale de cette adresse,
-	car vous voyez que l’opposition peut-être conçue
+	car vous voyez que l’,(emph[opposition]) peut être conçue
 	sous deux aspects très-différents.
 ][
 L’opposition, telle qu’elle est,
-,(emph[résultat infaillible de l’admissibilité des députés au pouvoir]),
+,(emph[résultat infaillible de l’admissibilité des députés au pouvoir,])
 c’est l’effort désordonné des ambitions.
 Elle attaque violemment les hommes et mollement les abus ;
 c’est tout simple,
@@ -404,8 +404,8 @@ Au reste, nous l’avons vue à l’,(oe)uvre.
 Son chef a été premier ministre ; le premier ministre a été son chef.
 Elle a gouverné sous l’une et l’autre bannière.
 Qu’y avons nous gagné ?
-À travers ces évolutions, jamais le mouvement ascentionnel du budget
-	a-t-il ,(XXX) été suspendu une minute ?
+A travers ces évolutions, jamais le mouvement ascentionnel du budget
+	a-t-il été suspendu une minute ?
 ][
 L’opposition, telle que je la conçois, c’est la vigilance organisée du public.
 Elle est calme, impartiale, mais permanente
@@ -415,7 +415,7 @@ Pour que l’équilibre ne soit pas rompu,
 	soit égale à la force expansive des administrateurs ?
 Elle n’en veut point aux hommes, elle n’a que faire de les déplacer,
 	elle les aide même dans le cercle de leurs légitimes fonctions ;
-mais elle les y enferme sans pitié.
+mais elle les y renferme sans pitié.
 ][
 Vous croyez peut-être que cette opposition naturelle,
 	qui n’a rien de dangereux ni de subversif,
@@ -430,7 +430,7 @@ C’est celle là surtout
 	qu’on craint,
 	qu’on hait,
 	qu’on fait avorter par la dérision,
-	qu’on empêche de se produire au sein des collèges électoraux,
+	qu’on empêche de se produire au sein des colléges électoraux,
 parce qu’on voit bien qu’elle va au fond des choses
 	et poursuit le mal dans sa racine.
 L’autre opposition, l’opposition personnelle, n’est pas aussi redoutable.
@@ -445,7 +445,7 @@ seulement, ayons soin que l’enjeu reste sur le bureau,
 	sous forme d’un budget de quinze cents millions.])
 Mais le jour où un député,
 	parlant au nom des contribuables et comme contribuable,
-	ayant donné des garanties ,(XXX)
+	ayant donné des garanties
 qu’il ne veut et ne peut pas être autre chose,
 	se lèvera à la Chambre pour dire soit aux ministres en titre,
 soit aux ministres en expectative :
@@ -464,7 +464,7 @@ ils l’accableront de leur mépris ;
 ils tourneront contre lui la presse vénale.
 Mais si les contribuables l’abandonnent,
 	tôt ou tard ils apprendront qu’ils se sont abandonnés eux-mêmes.
-][
+](nbsp)[
 Voilà ma pensée toute entière, messieurs ;
 	je l’ai exposé sans déguisement, sans détour,
 	tout en regrettant de ne pouvoir la corroborer
@@ -476,7 +476,7 @@ et il est à peine nécessaire d’ajouter
 	que mon premier soin serait de me placer,
 	à l’égard du pouvoir et de l’opposition ambitieuse,
 dans cette position d’indépendance
-	qui seule peut donner des garanties, ,(XXX)
+	qui seule peut donner des garanties,
 	et qu’il faut bien s’imposer, puisque la loi n’y a pas pourvu.
 ][
 Après avoir établi le principe qui doit, selon moi,
@@ -484,7 +484,7 @@ Après avoir établi le principe qui doit, selon moi,
 permettez-moi de dire quelque chose
 	des objets principaux auxquels ce principe
 		me semble devoir être appliqué.
-][
+](nbsp)[
 Vous avez peut-être entendu dire
 	que j’avais consacré quelques efforts
 		à la cause de la liberté commerciale,
@@ -497,13 +497,13 @@ Selon moi, celui qui a créé un produit
 L’échange est donc partie intégrante du droit de propriété.
 Or, nous n’avons pas institué et nous ne payons pas une force publique
 	pour nous priver de ce droit,
-	mais au contraire pour nous le guarantir dans toute son intégrité.
-Aucune usurpation du gouvernement,
+	mais au contraire pour nous le garantir dans toute son intégrité.
+Aucune usurpation du gouvernement
 	sur l’exercice de nos facultés
-	et sur la libre disposition de leurs produits,
+	et sur la libre disposition de leurs produits
 	n’a eu des conséquences plus fatales.
 ][
-D’abord ce régime prétendu protecteur, examiné de près,
+D’abord, ce régime prétendu protecteur, examiné de près,
 	est fondé sur la spoliation la plus flagrante.
 Lorsque, il y a deux ans,
 	on a pris des mesures
@@ -515,16 +515,16 @@ Mais il est de toute évidence que ces excédants de profit
 puisqu’ils ont été pris gratuitement et artificieusement
 	dans la poche d’autres citoyens,
 	de tous ceux qui ne cultivent ni le colza ni l’olivier.
-Il n’y a donc pas eu de création, mais translation injuste de richesses.
+Il n’y a donc pas eu création, mais translation injuste de richesses.
 Dire que par là on a soutenu une branche d’agriculture,
-	ce n’est rien dire, relativement au bien général,
+	ce n’est rien dire relativement au bien général,
 	puisqu’on ne lui a donné qu’une sève
 	qu’on enlevait aux autres branches.
 Et quelle est la folle industrie
 	qu’on ne pourrait rendre lucrative à ce prix ?
 Un cordonnier s’avisât-il de tailler de souliers dans des bottes,
 	quelque mauvaise que fût l’opération,
-	donnez-lui ,(XXX) un privilège,
+	donnez-lui un privilége
 	et elle deviendra excellente.
 Si la culture du colza est bonne en elle-même,
 	il n’est pas nécessaire que nous fassions un supplément de gain
@@ -543,7 +543,7 @@ Or, si, relativement à l’huile,
 	les profits des producteurs et les pertes des consommateurs
 		se balancent,
 	les souffrances des vignerons
-		sont un mal gratuit et sans compensations.
+		sont un mal gratuit et sans compensation.
 ][
 Il y a sans doute, parmi vous, beaucoup de personnes qui ne sont pas fixées
 	sur les effets du régime protecteur.
@@ -558,28 +558,29 @@ mais que les maîtres de forges aient assez de domestiques
 	et nous forcer ainsi à nous pourvoir chez eux et à leur prix.
 Ne crierions-nous pas à l’oppression, à l’iniquité ?
 L’iniquité, en effet, serait plus apparente ;
-mais quand aux effets économiques,
+mais quant aux effets économiques,
 	on ne peut pas dire qu’ils seraient changés.
 Eh quoi ! en sommes-nous beaucoup plus gras,
 	parce que ces messieurs ont été assez habiles
-		pour faire faire, par des douaniers, et ,(emph[à nos frais]),
+		pour faire faire par des douaniers, et ,(emph[à nos frais,])
 		cette police des frontières que nous ne tolérerions pas
 			si elle se faisait à leurs propres dépens ?
 ][
 Le régime protecteur atteste cette vérité,
 	qu’un gouvernement qui sort de ses attributions
 		ne puise dans ses usurpations
-			qu’une force dangereuse même pour lui.
+			qu’une force dangereuse, même pour lui.
 Quand l’État se fait le distributeur et le régulateur des profits,
-	toutes les industries le tiraillent en tout sens
+	toutes les industries le tiraillent en tous sens
 		pour lui arracher un lambeau de monopole.
+,(tag :a :name "peel_ref")
 A-t-on jamais vu le commerce intérieur et libre
 	placer un cabinet dans la situation
 	que le commerce extérieur et réglementé
-	a faite à sir Robert Peel ?
+	a faite à ,(np "peel" [sir Robert Peel]) ?
 Et si nous regardons chez nous,
 	n’est ce pas un gouvernement bien fort
-		que celui que nous voyons trembler devant M. Darblay ?
+		que celui que nous voyons trembler devant ,(np "darblay" [M. Darblay]) ?
 Vous voyez donc bien que contenir le pouvoir,
 	c’est le consolider et non le compromettre.
 ][
@@ -595,11 +596,11 @@ Je suis heureux de penser que cette cause,
 	éminemment chrétienne et sociale,
 est en même temps celle de notre malheureuse contrée,
 	qui languit et périt sous les étreintes des restrictions commerciales.
-][,(tag :a :name "enseignement")
+](nbsp)[,(tag :a :name "enseignement")
 L’enseignement se rattache aussi à cette question fondamentale
 	qui, en politique, précède toute les autres.
 Est-il dans les attributions de l’État ?
-Est-il du domaine de l’activité privée ?
+est-il du domaine de l’activité privée ?
 Vous devinez ma réponse.
 Le gouvernement n’est pas institué pour asservir nos intelligences,
 	pour absorber les droits de la famille.
@@ -612,24 +613,26 @@ Assurément, messieurs,
 	vous en êtes les maîtres ;
 mais ce n’est pas moi qui signerai en votre nom
 	cette honteuse abdication de vous-mêmes.
+,(tag :a :name "leibniz_ref")
 Ne vous en dissimulez pas d’ailleurs les conséquences.
-Leibnitz disait :
+,(np "leibniz" [Leibnitz]) disait :
 	,(q[J’ai toujours pensé que si l’on était maître de l’éducation,
 	on le serait de l’humanité])
-C’est peut-être pour cela que le chef de l’enseignement par l’État,
+C’est peut-être pour cela que le chef de l’enseignement par l’État
 	s’appelle ,(emph[Grand Maître]).
 Le monopole de l’instruction ne saurait être raisonnablement confié
 	qu’à une autorité reconnue infaillible.
 Hors de là, il y a des chances infinies
-	pour l’erreur soit uniformément enseignée à tout un peuple.
-,(q[Nous avons fait la république, disait Robespierre,
+	pour que l’erreur soit uniformément enseignée à tout un peuple.
+,(tag :a :name "robespierre_ref")
+,(q[Nous avons fait la république, disait ,(np "robespierre" [Robespierre]),
 il nous reste à faire des républicains])
-Bonaparte ne voulait faire que des soldats,
-Frayssinous que des dévots ; ,(XXX)
-M. Cousin ferait des philosophes,
-Fourier des harmoniens,
+,(np "bonaparte" [Bonaparte]) ne voulait faire que des soldats,
+,(np "frayssinous" [Frayssinous]) que des dévôts ;
+,(np "cousin" [M. Cousin]) ferait des philosophes,
+,(np "fourier" [Fourier]) des harmoniens,
 et moi sans doute des économistes.
-L’unité est une belle chose mais à condition d’être dans le vrai.
+L’unité est une belle chose, mais à la condition d’être dans le vrai.
 Ce qui revient toujours à dire que le monopole universitaire
 	n’est compatible qu’avec l’infaillibilité.
 Laissons donc l’enseignement libre.
@@ -654,9 +657,9 @@ J’admets qu’elle l’accomplisse dans toute son étendue,
 	qu’elle veille à la santé des élèves.
 J’admets tout cela,
 	quoiqu’en restant convaincu que sa sollicitude la plus minutieuse
-	n’est qu’une guarantie imperceptible auprès de celle que la nature
+	n’est qu’une garantie imperceptible auprès de celle que la nature
 	a mise dans le c,(oe)ur des pères et dans l’intérêt des professeurs.
-][
+](nbsp)[
 Je dois m’expliquer sur une question immense,
 	d’autant que mes vues diffèrent probablement
 	de celles de beaucoup d’entre vous :
@@ -680,11 +683,11 @@ Celui d’entre vous qui paye trois cents francs d’impôts,
 		se dissiper dans les nuages de l’Atlas et
 		s’engloutir dans les sables du Sahara.
 ][
-On nous dit que c’est là un avance que nous recouvrerons,
-	dans quelques siècles au centuple.
+On nous dit que c’est là une avance que nous recouvrerons,
+	dans quelques siècles, au centuple.
 Mais qui dit cela ?
-	Les riz-pain-sel qui exploitent notre argent.
-Tenez messieurs, en fait d’espèces, il n’y a qu’une chose qui serve :
+	Les ,(emph[riz-pain-sel]) qui exploitent notre argent.
+Tenez, messieurs, en fait d’espèces, il n’y a qu’une chose qui serve :
 	c’est que chacun veille sur sa bourse…
 	et sur ceux à qui il en remet les cordons.
 ][
@@ -705,10 +708,10 @@ Tous les ans, dix mille de nos jeunes concitoyens,
 	sans autre utilité jusqu’ici
 		que d’élargir, à nos dépens,
 		le cadre de l’administration qui ne demande pas mieux.
-À cela, on oppose le prétendu avantage
+A cela, on oppose le prétendu avantage
 	de débarasser le pays de son ,(emph[trop-plein]).
 Horrible prétexte, qui révolte tous les sentiments humains
-	et n’a même pas le mérite de l’exactitude matérielle ;
+	et n’a pas même le mérite de l’exactitude matérielle ;
 car, à supposer que la population soit surabondante,
 	lui enlever, avec chaque homme,
 		deux ou trois fois le capital qui l’aurait fait vivre ici,
@@ -721,9 +724,9 @@ Malgré sa sympathie pour tout ce qui accroît ses dimensions,
 La France l’a voulu ;
 elle en portera longtemps la peine.
 ][
-Ce qui l’entraina, outre le mirage
-	d’un ,(emph[grand empire]),
-	d’une ,(emph[nouvelle civilisation]), etc.,
+Ce qui l’entraîna, outre le mirage
+	d’un ,(emph[grand empire,])
+	d’une ,(emph[nouvelle civilisation,]) etc.,
 ce fut une énergique réaction du sentiment national
 	contre les blessantes prétentions de l’oligarchie britannique.
 Il suffisait que l’Angleterre fît une sourde opposition à nos desseins
@@ -736,10 +739,10 @@ Donnez-moi un homme docile et un homme contrariant,
 Si je les veux faire marcher, je dirai à l’un : Marche !
 à l’autre : Ne marche pas ! et tous deux obéiront à ma volonté.
 Si le sentiment de notre dignité prenait cette forme,
-	il suffirait à la ,(emph[perfide Albion]),
+	il suffirait à la ,(emph[perfide Albion,])
 	pour nous faire faire les plus grands sottises,
 	de paraître s’y opposer.
-Supposez, ce qui est certainement peu admissible,
+Supposez, ce qui est certainement bien admissible ,(footnote*[L’édition des ,(cite-title[Œuvres complètes]) de 1854 dit “bien admissible” ; celle de 1862 dit “peu admissible”, ce qui est étrange : car on attendrait alors un “certes” au lieu d’un “certainement”, et on ne voit d’ailleurs pas l’intérêt d’une concession qui détruit l’argument. Je m’en tiens donc à l’édition originale. ,(NdL)]),
 	qu’elle voie dans l’Algérie le boulet qui nous enchaîne,
 	l’abîme de notre puissance ;
 elle n’aura donc qu’à froncer le sourcil,
@@ -754,17 +757,17 @@ Les précédents nous lient ;
 		dont il est impossible de ne pas tenir compte.
 Restons cependant maîtres de nos résolutions ultérieures ;
 	pesons les avantages et les inconvénients ;
-ne dédaignons pas de mettre aussi quelque peu la justice,
+ne dédaignons pas de mettre aussi quelque peu la ,(emph[justice,])
 	même envers les Kabyles, dans la balance.
 Si nous ne regrettons pas l’argent,
-si nous ne ,(emph[marchandons pas la gloire]),
+si nous ne ,(emph[marchandons pas la gloire,])
 comptons pour quelque chose la douleur des familles,
 	les souffrances de nos frères,
 	le sort de ceux qui succombent
 	et les funestes habitudes de ceux qui survivent.
-][
+](nbsp)[
 Il est un autre sujet qui mérite toute l’attention de votre mandataire.
-Je veux parler des contributions indirectes.
+Je veux parler des ,(emph[contributions indirectes]).
 Ici la distinction entre ce qui est ou n’est pas du ressort de l’État
 	est sans application.
 Il appartient évidemment à l’État de recouvrer l’impôt.
@@ -787,18 +790,18 @@ Le peuple français veut-il être perpétuellement en tutelle
 alors qu’il ne se plaigne plus du fardeau qui l’accable,
 	et qu’il s’attende même à le voir s’aggraver.
 ][
-Mais en supposant même que l’impôt sur les boissons ne pût être supprimé
+Mais, en supposant même que l’impôt sur les boissons ne pût pas être supprimé
 	(ce que je suis loin d’accorder),
 il me paraît certain qu’il peut être profondément modifié,
 et qu’il est facile d’en élaguer les accessoires les plus odieux.
 Il ne faudrait pour cela qu’obtenir des propriétaires de vignes
 	la renonciation à certaines idées exagérées
-	sur l’étendue du droit de propriété et l’inviolabilité du domicile.
-][
+	sur l’étendue du droit de propriété et l’inviolabilité du domicile ,(footnote*[L’explication de cette phrase se trouve dans le ,(ref :url "impot_des_boissons.html#inventaire" [,(cite-title[Discours sur l’impôt des boissons])]).]).
+](nbsp)[
 Permettez-moi, messieurs, de terminer par quelques considérations personnelles.
 Il faut bien me les passer.
-Je n’ai pas, moi, un agent actif et dévoué à 3000 fr. d’appointements
-	et 4000 fr. de frais de bureau,
+Je n’ai pas, moi, un agent actif et dévoué à 3,000 fr. d’appointements
+	et 4,000 fr. de frais de bureau,
 	pour s’occuper de faire valoir ma candidature
 	d’une frontière à l’autre de l’arrondissement,
 	d’un bout à l’autre de l’année.
@@ -815,11 +818,11 @@ Et moi, quand je considère ma persistance
 	dans un principe qui ne fait en France aucun progrès,
 	je me demande quelquefois
 	si je ne suis pas un maniaque en proie à une idée fixe.
-][
+][,(tag :a :name "lamarque_ref")
 Pour vous mettre à même de juger si j’ai changé,
 	laissez moi placer sous vos yeux
 	un extrait de la profession de foi que je publiai, en 1832,
-	alors qu’un mot bienveillant du général Lamarque
+	alors qu’un mot bienveillant du général ,(np "lamarque" [Lamarque])
 		attira sur moi l’attention de quelques électeurs.
 ])
 ,(blockquote*[« Dans ma pensée, les institutions que nous possédons
@@ -832,7 +835,6 @@ en donnant aux citoyens la faculté d’étendre ou de restreindre à leur gré
 	l’action du pouvoir,
 n’est-il pas l’administration
 	par le ,(emph[public]) de la ,(emph[chose publique]) ?
-,(XXX)
 Où ne pouvons-nous pas arriver par l’usage judicieux de ce droit ?]
 [« Pensons-nous que l’ambition des places est la source
 	de beaucoup de luttes, de brigues et de factions ?
