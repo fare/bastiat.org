@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Première lettre au rédacteur du Journal des débats, par Frédéric Bastiat")
 
-(document :title "Première lettre au rédacteur du Journal des débats"
+(document :title [Première lettre au rédacteur du ,(tj "debats" [,(cite-title[Journal des débats])])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 2 mai 1846.])
 
-,(cher[Monsieur,])
+,(cher[,(tj "debats" [Monsieur]),])
 
 ,(p*[Me permettrez-vous d’ajouter quelque chose aux judicieuses observations que vous faites, dans votre feuille du 28 avril, au sujet des modifications que l’Angleterre fait subir à ses tarifs ?
 ][
@@ -25,7 +25,7 @@ Assurément, il n’est pas possible de douter que la réforme anglaise n’ouvr
 Mais qui s’emparera de ces débouchés nouveaux ? Il me semble évident que ce sont les nations qui les premières réformeront leurs propres tarifs.
 ][
 Tout négociant sait que ce qui favorise ou entrave les exportations, c’est le plus ou moins de facilité à opérer les retours. Vendre pour de l’argent, c’est une demi-opération qui supporte les frais d’une opération entière, et qui, par ce motif, sourit beaucoup moins aux négociants qu’aux théoriciens de cabinet.
-][
+](nbsp)[
 Je me ferai comprendre par un exemple.
 ][
 Vous avez cité le beurre parmi les articles dont notre exportation pourra s’accroître.
@@ -37,28 +37,28 @@ Ici on pourra m’arrêter et me dire que de telles suppositions ne se réalisen
 Ainsi admettons qu’en entrant en rivière le beurre normand et le beurre hollandais reviennent à 100 fr. les 100 kilogr. ; admettons encore que le fret ajoutera 5 fr. à ce prix, et que les spéculateurs veulent faire un bénéfice de 10 p. 100.
 ][
 Voici le compte du négociant français :
-]
-(simple-table '(
-([Prix de revient du beurre] [100 fr.])
-([Fret] [5])
-([Retour à vide du navire] [5])
-([Bénéfice] [10])
-([Total] [120 fr.])
-))
-[
-Au-dessous de ce cours, il y aurait perte, tout au moins absence de bénéfice, et ce genre de commerce ne pourrait continuer.
+])
+,(table 
+(tr (td[Prix de revient du beurre]) (tdRT[100]) (td[ fr.]))
+(tr (td[Fret]) (tdRT[5]))
+(tr (td[Retour à vide du navire]) (tdRT[5]))
+(tr (td[Bénéfice]) (tdRT[10]))
+(tr (td[]) (tdRT :colspan 2 [,(hrule)]))
+(tr (tdRT[Total,(retrait)]) (tdRT[120]) (td[ fr.]))
+)
+,(p*[Au-dessous de ce cours, il y aurait perte, tout au moins absence de bénéfice, et ce genre de commerce ne pourrait continuer.
 ][
 Voici maintenant le compte du négociant hollandais :
-]
-(simple-table '(
-([Prix de revient du beurre] [100 fr.])
-([Fret] [5])
-([Retour du navire : ,(emph[néant]), puisque les frais en seront supportés par la cargaison de retour.] [0])
-([Bénéfice, comme ci-dessus] [10])
-([Total] [115 fr.])
-))
-[
-Par où l’on voit que le Hollandais pourra établir le cours à 115 fr., gagner encore et chasser le Français du marché.
+])
+,(table
+(tr (td[Prix de revient du beurre]) (tdRT[100]) (td[ fr.]))
+(tr (td[Fret]) (tdRT[5]))
+(tr (td[Retour du navire : ,(emph[néant]), puisque les frais en seront supportés par la cargaison de retour.]) (tdRT[0]))
+(tr (td[Bénéfice, comme ci-dessus]) (tdRT[10]))
+(tr (td[]) (tdRT :colspan 2 [,(hrule)]))
+(tr (tdRT[Total,(retrait)]) (tdRT[115]) (td[ fr.]))
+)
+,(p*[Par où l’on voit que le Hollandais pourra établir le cours à 115 fr., gagner encore et chasser le Français du marché.
 ][
 Et il le fera même nécessairement sous l’aiguillon de la concurrence que lui feront ses compatriotes.
 ][
@@ -68,8 +68,9 @@ On me dira sans doute que, d’un autre côté, par cela seul que le navire fran
 ][
 Reste à savoir si cet emploi forcé est plus avantageux que l’autre. Je me garderai bien d’entrer ici dans cette discussion, et je terminerai en faisant observer que le beurre n’a été pris que comme exemple ; ce que j’en ai dit s’applique à l’ensemble de nos transactions.
 ][
-Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un second article.])
+Après avoir montré l’influence de la réforme anglaise sur celles de nos industries nationales qu’elle semble d’abord devoir développer, il serait utile de rechercher la condition qu’elle prépare à nos productions les plus protégées. Ce sera peut-être l’objet d’un ,(ref :url "lettre2_journal_des_debats.html" [second article]).])
 ,(politesse[Agréez, etc.])
+,(sign[,(FredB).])
 ])
 (tous_les_scripts)
 (footer[

@@ -11,20 +11,20 @@
 (bastiat[
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 29 août 1846.])
 
-,(cher[Monsieur,])
+,(cher[,(tj "mi" [Monsieur]),])
 ,(p*[Nous avons toujours dit ceci : « La protection fait supporter au consommateur ,(emph[national]) des pertes hors de toute proportion avec les profits qu’elle procure au producteur ,(emph[national]).
 ][
 Dans votre numéro d’hier, vous nous en fournissiez une preuve aussi claire, ce me semble, que la lumière du jour.
 ][
-Voici ce que vous dites :
-][
-« Le capital primitif de Decazeville était de 7 200 000 fr. — Or, depuis 1826 jusqu’en 1840, ,(emph[pendant quatorze années]), il ne produisit aux actionnaires ni un décime de dividende ni un centime d’intérêt ! En tenant compte des intérêts, le capital s’élevait, en 1842, à 12 621 807 francs, soit 5 260 fr. par action. Alors il fut fait un emprunt d’un million, ce qui porta le capital engagé à 13 621 807 fr. Ce capital a été encore augmenté depuis par de nouveaux emprunts.
+Voici ce que vous dites :])
+
+,(blockquote*[« Le capital primitif de Decazeville était de 7,200,000 fr. — Or, depuis 1826 jusqu’en 1840, ,(emph[pendant quatorze années]), il ne produisit aux actionnaires ni un décime de dividende ni un centime d’intérêt ! En tenant compte des intérêts, le capital s’élevait, en 1842, à 12,621,807 francs, soit 5,260 fr. par action. Alors il fut fait un emprunt d’un million, ce qui porta le capital engagé à 13,621,807 fr. Ce capital a été encore augmenté depuis par de nouveaux emprunts.
 ][
 « Quoi qu’il en soit, voilà les chiffres du capital. Voici maintenant les immenses dividendes distribués aux actionnaires depuis les premiers jours de l’entreprise.
 ][
 « De 1826 à 1840, pendant quatorze années, ni dividendes ni intérêts.
 ][
-« Pour l’exercice de 1840-41, il a été distribué 90 francs par action au capital de 5 260 francs, soit 1 et 7/10 pour 100 d’intérêt, et pas un centime de dividende.
+« Pour l’exercice de 1840-41, il a été distribué 90 francs par action au capital de 5,260 francs, soit 1 et 7/10 pour 100 d’intérêt, et pas un centime de dividende.
 ][
 « Pour l’exercice de 1841-42, il a été distribué 270 francs par action, soit 5 pour 100 d’intérêt et 10 centimes de dividende pour 100 francs de capital.
 ][
@@ -32,31 +32,30 @@ Voici ce que vous dites :
 ][
 « Idem pour les exercices de 1843-44 et 1844-45.
 ][
-« Pour l’exercice de 1845-46, il a été distribué 360 francs par action, soit 5 pour 100 d’intérêt et 1 fr. 84 de dividende pour 100 francs de capital. »
+« Pour l’exercice de 1845-46, il a été distribué 360 francs par action, soit 5 pour 100 d’intérêt et 1 fr. 84 de dividende pour 100 francs de capital. »])
+,(p*[Il résulte de là que les producteurs ,(emph[privilégiés]) de Decazeville ont placé leurs capitaux, pendant vingt ans, à 1 1/2 pour 100 en moyenne.
 ][
-Il résulte de là que les producteurs ,(emph[privilégiés]) de Decazeville ont placé leurs capitaux, pendant vingt ans, à 1/2 pour 100 en moyenne.
+Tout autre placement leur eût donné 4 1/2 pour 100 ; ils ont donc perdu 3 pour 100 chaque année, ou en tout ,(emph[seize millions]).
+](nbsp)[,(tag :a :name "decazes_ref")
+Recherchons maintenant combien le pays a ,(emph[perdu]) pour aider ,(np "decazes" [M. Decaze]) et ses associés à ,(emph[perdre]) 16 millions.
 ][
-Tout autre placement leur eût donné 4 1/2 pour 100 ; ils ont donc perdu 3 pour 100 chaque année, ou en tout ,(emph[seize millions]).
+Voici ce que je lis dans un rapport de M. le ministre du commerce (1841) :])
+
+,(blockquote*[« Le prix moyen de la fonte française était de 18 fr. 64, et celui de la fonte anglaise de même nature ne revenait, ,(emph[dans nos entrepôts]), qu’à 13 fr. 75. ,(emph[Il en résultait une surcharge]) de 4 fr. 89.
 ][
-Recherchons maintenant combien le pays a ,(emph[perdu]) pour aider M. Decaze et ses associés à ,(emph[perdre]) 16 millions.
+« De même le prix du fer était en France de 48 fr. 15, et le fer anglais, ,(emph[rendu dans nos ports]), ne revenait qu’à 22 fr. 88. ,(emph[Il en résultait une surcharge]) de 25 fr. 30. »])
+
+,(p*[Dans un tableau n° 4 A, annexé à ce rapport, nous voyons que la consommation de la fonte en France, pendant vingt ans, a été de 42 millions de quintaux métriques. La surcharge de 4 fr. 89 équivaut donc à 205 millions de francs.
 ][
-Voici ce que je lis dans un rapport de M. le ministre du commerce (1841) :
-][
-« Le prix moyen de la fonte française était de 18 fr. 64, et celui de la fonte anglaise de même nature ne revenait, ,(emph[dans nos entrepôts]), qu’à 13 fr. 75. ,(emph[Il en résultait une surcharge]) de 4 fr. 89.
-][
-« De même le prix du fer était en France de 48 fr. 15, et le fer anglais, ,(emph[rendu dans nos ports]), ne revenait qu’à 22 fr. 88. ,(emph[Il en résultait une surcharge]) de 25 fr. 30. »
-][
-Dans un tableau n° 4 A, annexé à ce rapport, nous voyons que la consommation de la fonte en France, pendant vingt ans, a été de 42 millions de quintaux métriques. La surcharge de 4 fr. 89 équivaut donc à 205 millions de francs.
-][
-Dans le tableau n° 4 B, on voit que la consommation du fer, durant le même espace de temps, a été de 34 millions de quintaux. La surcharge de 25 fr. 30 a donc infligé au consommateur une perte de 860 millions.
+Dans le tableau n° 4 B, on voit que la consommation du fer, durant le même espace de temps, a été de 34 millions de quintaux. La surcharge de 25 fr. 30 a donc infligé au consommateur une perte de 860 millions.
 ][
 Ces deux pertes réunies s’élèvent à plus d’,(emph[un milliard !])
 ][
 Et cela pour décider les pauvres maîtres de forges, — que le bon Dieu les assiste ! — à placer à perte des capitaux que, sans la protection, ils eussent placés à profit.
+](nbsp)[
+Vous me direz sans doute, — je m’y attends, — que l’argent de ,(np "decazes" [M. Decaze]), en allant s’engouffrer dans les mines, ,(emph[a fait vivre des ouvriers]).
 ][
-Vous me direz sans doute, — je m’y attends, — que l’argent de M. Decaze, en allant s’engouffrer dans les mines, ,(emph[a fait vivre des ouvriers]).
-][
-J’en conviens ; mais convenez aussi que s’il en eût fait un emploi un peu moins malencontreux, s’il en eût retiré, par exemple, 4 1/2 pour 100, comme font les simples paysans, ses treize millions, qui s’élèveraient aujourd’hui à trente, ,(emph[auraient fait vivre plus d’ouvriers encore]).
+J’en conviens ; mais convenez aussi que s’il en eût fait un emploi un peu moins malencontreux, s’il en eût retiré, par exemple, 4 1/2 pour 100, comme font les simples paysans, ses treize millions, qui s’élèveraient aujourd’hui à trente, ,(emph[auraient fait vivre plus d’ouvriers encore]).
 ][
 Enfin, et c’est ceci qui importe, si le public n’eût pas perdu ,(emph[un milliard]) dans l’affaire, il se serait donné du bien-être et des satisfactions jusqu’à concurrence de cette somme, et toutes les industries en eussent été encouragées d’autant.
 ][

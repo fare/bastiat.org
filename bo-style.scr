@@ -127,7 +127,7 @@
   (ref :url "http://www.fdn.fr/~brouchou/toutenvrac/" [Bruno Rouchouse]))
 (define (JdG) [Jacques de Guenin])
 (define (andre) [André de Guenin])
-(define (laura) [Laura Le Coz])
+(define (laura) [Laura LC])
 (define (loic) [Loïc Étienne])
 (define (fguerinet) [Franck Guérinet])
 (define (krylenko)
@@ -353,8 +353,19 @@
 //détecte les recouvrements (nouvelle/ancienne note)
 
 var overlap = function(a, b) {
-  return (a.offset().top < b.offset().top + b.height() + 10)
+  return (a.offset().top < b.offset().top + b.height() + 5)
 };
+
+var placerderriere = function (a, b) {
+  b.offset({top: a.offset().top + a.height() + 5});
+};
+
+var placerdevant = function (a, b) {
+   a.offset({top: b.offset().top - a.height() - 5});
+};
+
+var bastiat = $('.bastiat').eq(0);
+var bottom = bastiat.offset().top + bastiat.height();
 
 var sidenotes = function() {
 
@@ -384,7 +395,7 @@ for (var i=0; i<$('.footnote').length; i++) {
 
 //Problème des notes trèèès longues, qui sont plus à leur place en bas de la page.
 var longueur = note.text().length;
-var longuenote = (longueur>=700);
+var longuenote = (longueur>=750);
 if (longuenote) {
   note.removeClass('margin');
   note.offset({top: positioninitiale});
@@ -398,17 +409,36 @@ if (longuenote) {
 //sous la précédente le cas échéant.
   if (lastnote) {
       if (overlap(note, lastnote) && lastnote.hasClass('margin')) {
-          note.offset({top: lastnote.offset().top + lastnote.height() + 10});
+          placerderriere(lastnote, note);
           };
       };
-
-//TO-DO: vérifier overlap entre dernière note marginale et première note de bas de page.
 
 //Et ça c'est pour réinitialiser lastnote à chaque cycle.
   var lastnote = note;
 
 };
 //Fin du loop
+
+var marginnotes = $('.margin');
+
+var lastoverlap = function() {
+  var i = marginnotes.length - 1;
+  while (i >= 1 && overlap(z, y)) {
+    var z = marginnotes.eq(i);
+    var y = marginnotes.eq(i-1);
+    placerdevant(y, z);
+    i = i-1;
+  };
+};
+var last = marginnotes.eq(marginnotes.length - 1);
+
+if (last.offset().top + last.height() > bastiat.offset().top + bastiat.height()) {
+  last.offset({top: bottom - last.height()});
+};
+
+//Dernière chose à faire: détecter overlap des dernières notes; régler avec placerdevant().
+lastoverlap();
+
 };
 //Fin du if window machin
 };

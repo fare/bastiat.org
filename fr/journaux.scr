@@ -79,6 +79,10 @@
 
 ]),(lettre "B" [
 
+,(journal "bienpublic" "Le Bien public" [
+,(ref :url "lettre_lamartine_2.html#bienpublic_ref" [A M. de Lamartine])
+])
+
 ,(journal "boston" "Boston Atlas" [
 Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en chef de la Presse])
 ])
@@ -139,7 +143,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ]),(lettre "E" [
 ,(journal "economiste_belge" "L’Économiste belge" [
-,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])])
+,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])]) ;
+,(ref :url "lettre_ecclesiastique.html" [Lettre à un ecclésiastique])
 ])
 
 ,(journal "epoque" "L’Époque" [
@@ -181,6 +186,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(journal "debats" "Journal des Débats" [
 ,(ref :url "l_Etat.html" [L’État]) ;
 Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 1]) ;
+Lettres : ,(ref :url "lettre1_journal_des_debats.html" [Première lettre au rédacteur du ,(cite-title[Journal des Débats])]) ;
+,(ref :url "lettre2_journal_des_debats.html" [Deuxième lettre au rédacteur du ,(cite-title[Journal des Débats])]) ;
 Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#debats_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
@@ -202,7 +209,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_cobden1846e.html" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "lettre_cobden1845a.html#je_ref" [Lettre à Cobden, 8 avril 1845]) ;
 ,(ref :url "lettre_cobden1846f.html" [Lettre à Cobden, 2 avril 1846]) ;
-,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+,(ref :url "introduction_sophismes.html#je_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ; ,(ref :url "a_jobard.html#je_ref" [Lettre à M. Jobard]) ; ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]) ;
+,(ref :url "lettre2_journal_des_debats.html#je_ref" [Deuxième lettre au rédacteur du ,(cite-title[Journal des Débats])]) ;
 ])])
 
 ,(journal "jhavre" "Journal du Havre" [
@@ -230,6 +238,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 [Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834]),
 ,(ref :url "lettre_calmetes1846.html" [Lettre à V. Calmètes, 4 mars 1846]) ;
 ,(ref :url "lettre_coudroy1846b.html" [Lettre à F. Coudroy, 22 mars 1846]) ;
+,(ref :url "la_logique_du_moniteur_industriel.html#coudroy_ref" [La logique du ,(cite-title[Moniteur industriel])])
 ])
 ])
 
@@ -237,6 +246,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(p*
 [Réponses : ,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ;
 ,(ref :url "legalite_moralite.html" [Légalité, moralité]) ;
+,(ref :url "au_moniteur_industriel.html" [Lettre au ,(cite-title[Moniteur industriel])])
+,(ref :url "la_logique_du_moniteur_industriel.html" [La logique du ,(cite-title[Moniteur industriel])])
 ]
 [Citations :
 ,(ref :url "la_main_droite_et_la_main_gauche.html#mi_ref" [La main droite et la main gauche])

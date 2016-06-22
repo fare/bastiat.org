@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "Profession de foi électorale de 1849
+(in-bof :title "Lettre à quelques électeurs
 	- par Frédéric Bastiat")
-(document :title "Profession de foi électorale de 1849"
+(document :title "Lettre à quelques électeurs"
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -12,43 +12,38 @@
 
 ,(date-tag[29 avril 1849.])
 
-,(h2[À Messieurs Tonnelier, Degos, Bergeron, Camors,
+,(h2[A Messieurs Tonnelier, Degos, Bergeron, Camors,
 Dubroca, Pomède, Fauret, etc.])
-
-
 
 ,(cher[Mes amis,])
 
 ,(p*[Merci pour votre bonne lettre.
 Le pays peut disposer de moi comme il l’entendra ;
 votre persévérante confiance me sera un encouragement… ou une consolation.
-][
+][,(tag :a :name "blanc_ref")
 Vous me dites qu’on me fait passer pour ,(emph[socialiste]).
 Que puis-je répondre ? Mes écrits sont là.
-À la doctrine Louis Blanc n’ai-je pas opposé
-	,(bof-ref "propriete_et_loi" (cite-title[Propriété et Loi])) ,(pv)
-à la doctrine Considérant,
-	,(XXX :bof-ref "propriete_et_spoliation")
-	,(cite-title[Propriété et Spoliation]) ,(pv)
-à la doctrine Leroux,
-	,(bof-ref "justice_fraternite"
-		(cite-title[Justice et Fraternité])) ,(pv)
-à la doctrine Proudhon,
-	,(bof-ref "capital_et_rente" (cite-title[Capital et Rente])) ,(pv)
-au comité Mimerel,
-	,(bof-ref "protectionisme_et_communisme"
-		  (cite-title[Protectionnisme et Communisme])) ,(pv) ,(XXX)
+A la doctrine ,(np "blanc" [Louis Blanc]) n’ai-je pas opposé
+	,(cite-title[,(ref :url "propriete_et_loi.html" [Propriété et Loi]) ;])
+à la doctrine ,(np "considerant" [Considérant]),
+	,(cite-title[,(ref :url "propriete_et_spoliation.html" [Propriété et Spoliation]) ;])
+à la doctrine ,(np "leroux" [Leroux]),
+		,(cite-title[,(ref :url "justice_fraternite.html" [Justice et Fraternité]) ;])
+à la doctrine ,(np "proudhon" [Proudhon]),
+	,(cite-title[,(ref :url "capital_et_rente.html" [Capital et Rente]) ;])
+au comité ,(np "mimerel" [Mimerel]),
+		  ,(cite-title[,(ref :url "protectionisme_et_communisme.html" [Protectionisme et Communisme]) ;])
 au papier-monnaie,
-	,(bof-ref "maudit_argent" (cite-title[Maudit Argent])) ,(pv)
-au manifeste Montagnard,
-	,(bof-ref "l_Etat" (cite-title[L’État]))
+	,(cite-title[,(ref :url "maudit_argent.html" [Maudit Argent]) ;])
+au Manifeste Montagnard,
+	,(cite-title[,(ref :url "l_etat.html" [L’État]) ?])
 ,(--) Je passe ma vie à combattre le socialisme.
 Il serait bien douloureux pour moi qu’on me rendît cette justice partout,
 	excepté dans le département des Landes.
 ][
-On a rapproché mes votes de ceux de ,(emph[l’extrême gauche]).
-Pourquoi n’a-t-on pas signalé aussi les occasions ,(XXX)
-	où j’ai voté avec ,(emph[la droite]) ?
+On a rapproché mes votes de ceux de l’,(emph[extrême gauche]).
+Pourquoi n’a-t-on pas signalé aussi les occasions
+	où j’ai voté avec ,(emph[la droite ?])
 ][
 Mais me direz-vous,
 comment avez-vous pu vous trouver alternativement dans deux camps si opposés ?
@@ -71,21 +66,19 @@ Après février, le peuple a mis en avant
 	une foule de prétentions iniques et absurdes,
 	mêlées à des réclamations fondées.
 Que fallait-il pour conjurer la guerre sociale ?
-Deux choses :
-,(XXX)
-][
-1° Réfuter comme écrivain,
+Deux choses :])
+,(liste(p*[1° Réfuter comme écrivain,
 	repousser comme législateur
 	les prétentions iniques ;
 ][
-2° Appuyer comme écrivain,
+2° Appuyer comme écrivain,
 	admettre comme législateur
-	les réclamations fondées.
-][
-C’est la clef de ma conduite.
+	les réclamations fondées.]))
+
+,(p*[C’est la clef de ma conduite.
 ][
 Au premier moment de la révolution,
-	les espérances populaires étaient très éxaltées
+	les espérances populaires étaient très-exaltées
 	et ne connaissaient pas de limites,
 	même dans notre département ;
 et rappelez-vous qu’on ne me trouva pas assez ,(emph[rouge]).
@@ -100,11 +93,11 @@ Résister aux exigences folles et subversives,
 repousser
 	l’impôt progressif,
 	le papier-monnaie,
-	l’accaparement de l’industrie privée ,(XXX) par l’État,
+	l’accaparement de l’industrie privée par l’État,
 	la suspension des dettes nationales,
 telle fut sa laborieuse tâche.
 J’y ai pris ma part ;
-et je vous le demande, Citoyens, ,(XXX)
+et je vous le demande, Citoyens,
 si j’avais été ,(emph[socialiste]),
 ce comité m’aurait-il appelé huit fois de suite à la vice-présidence ?
 ][
@@ -112,13 +105,13 @@ Une fois l’,(oe)uvre de ,(emph[résistance]) accomplie,
 restait à réaliser l’,(oe)uvre de ,(emph[réforme]),
 à l’occasion du budget de 1849.
 Que de taxes mal réparties à modifier !
-Que d’entraves à supprimer !
+que d’entraves à supprimer !
 Car enfin, cette ,(emph[conscription]) (appelée depuis recrutement),
-impôt de sept ans de vie, ,(emph[tiré au sort]) !
-,(emph[Ces droits réunis]) (appelés aujourd’hui contributions indirectes),
+impôt de sept ans de vie, ,(emph[tiré au sort !])
+ces ,(emph[droits réunis]) (appelés aujourd’hui contributions indirectes),
 	impôt ,(emph[progressif à rebours]),
 	puisqu’il frappe en proportion de la misère ;
-ne sont-ce pas là ,(emph[des griefs fondés]) de la part du peuple ?
+ne sont-ce pas là des ,(emph[griefs fondés]) de la part du peuple ?
 Après les journées de juin, quand l’anarchie a été vaincue,
 l’Assemblée nationale a pensé que le temps était venu
 	d’entrer résolument, spontanément,
@@ -136,14 +129,14 @@ C’est pourquoi l’Assemblée confia à une commission de trentes membres
 	le soin de préparer le budget.
 Elle chargea une autre commission de mettre l’impôt des boissons
 	en harmonie avec les principes
-		avec les principes de liberté et d’égalité
+		de liberté et d’égalité
 			inscrits dans la Constitution.
 J’ai fait partie des deux ;
 	et autant j’avais été ardent à repousser les exigences utopiques,
 	autant je l’ai été à réaliser de justes réformes.
 ][
 Il serait trop long de dire
-	comment les bonnes intentions de l’assemblée ont été paralysées.
+	comment les bonnes intentions de l’Assemblée ont été paralysées.
 L’histoire le dira.
 Mais vous pouvez comprendre ma ligne de conduite.
 Ce qu’on me reproche, c’est précisément ce dont me j’honore.
@@ -165,7 +158,6 @@ en me rappelant que je l’ai obtenue une fois ;
 et ce n’est pas un léger froissement d’amour-propre
 	qui effacera la profonde reconnaissance que je lui dois.])
 ,(politesse[Je suis, mes chers Compatriotes, votre dévoué.])
-,(sign[Frédéric Bastiat.])
 
 ])
 (tous_les_scripts)
