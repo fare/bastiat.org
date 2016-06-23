@@ -19,7 +19,7 @@ Textes
     - si coquille évidente (exemple "abstacle"), corriger sans signaler. On ne fait pas une édition critique de manuscrits médiévaux où la moindre faute de copiste a un intérêt pour l'histoire du texte.
     - si différence d'orthographe ou de ponctuation, adopter la plus actuelle/correcte/élégante, sans signaler. Paillottet rajoute souvent des virgules, on s'en fiche, on ne fait pas paillottet.org.
     - Pour la même raison, les notes de Paillottet seront, selon leur utilité, conservées, supprimées ou modifiées (les renvois n'ont plus besoin d'avoir une indication de tome et de page: vive les liens hypertexte!).
-    - à part ça, fidélité totale à l'orthographe et aux conventions typographiques d'origine.
+    - à part ça, fidélité totale à l'orthographe et aux conventions typographiques d'origine (et mort aux "sic").
 
 
 Infrastructure
@@ -34,8 +34,8 @@ Infrastructure
   * Faire en sorte que Exscribe comprenne la syntaxe :journal (:titre titre1 :date date1) :journal (:titre titre2 :date date2) et puisse ranger les articles de titre1 (respectivement 2) par leur date1 (respectivement 2).
 
   * Je ne suis pas convaincue par le footer actuel. Je pense qu'il faudrait répartir les choses ainsi:
-    - la référence au tome et à la page figurerait dans le volet gauche avec intro/plan. (c'est fait)
-    - les mentions de copistes et les liens vers "Le libéralisme, le vrai" devraient être renvoyées vers une page "mentions légales" ou "qui sommes-nous" ou "crédits", accessible par un lien placé dans le footer ou le header.
+    - la référence au tome et à la page figurerait dans le volet gauche avec intro/plan. (c'est fait, reste à supprimer celles de bas de page)
+    - les mentions de copistes et les liens vers "Le libéralisme, le vrai" devraient être renvoyées vers une page "mentions légales" ou "qui sommes-nous" ou "crédits" ou "à propos", accessible par un lien placé dans le footer ou le header.
     - il faudrait aussi supprimer le (hrule) du bas, vu que certaines sidenotes le traversent.
 
 Trucs de Laura que Faré a le droit de regarder
@@ -50,7 +50,7 @@ Trucs de Laura que Faré a le droit de regarder
     5) Refonte radicale de la page d'accueil
 
     En parallèle:
-    1) Relecture/indexation personnes; (en cours: 58%)
+    1) Relecture/indexation personnes; (en cours: 61%)
     2) Enrichissement de l'index des personnes (informations biographiques, références des citations); même chose pour l'index des titres de journaux
     3) Création d'une database des personnes citées, et d'une fonctionnalité "filtre" (par époque, pays, profession…)
     4) Re-relecture avec:
