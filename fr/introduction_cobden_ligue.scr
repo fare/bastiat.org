@@ -115,9 +115,9 @@ sous forme d’huile égyptienne ou de viande sarde ?
 et ne serait-il pas bien fâcheux que nous reportassions un moment
 sur la libre communication des peuples
 une attention si utilement absorbée par Noukahiva, Papeïti et Mascate ?
-][
+][,(tag :a :name "guise_ref")
 La ,(emph[Ligue]) ! De quelle Ligue s’agit-il ?
-L’Angleterre a-telle enfanté quelque Guise ou quelque Mayenne ?
+L’Angleterre a-telle enfanté quelque ,(np "guise" [Guise]) ou quelque ,(np "mayenne" [Mayenne]) ?
 Les catholiques et les anglicans vont-ils avoir leur bataille d’Ivry ?
 ][
 L’agitation que vous annoncez se rattache-t-elle à l’agitation irlandaise ?
@@ -152,22 +152,22 @@ il y aurait de belles phrases à faire.
 Et n’est-il pas bien doux de persévérer dans l’injustice,
 quand en même temps on est aussi prompt que nous le sommes
 à faire montre de charité et de philanthropie ?
-][
-,(q[Le sort en est jeté, s’écriait Kepler, j’écris mon livre ;
+](nbsp)[,(tag :a :name "kepler_ref")
+,(q[Le sort en est jeté, s’écriait ,(np "kepler" [Kepler]), j’écris mon livre ;
 on le lira dans l’âge présent ou dans la postérité ;
 que m’importe ? il pourra attendre son lecteur.])
-,(--) Je ne suis pas Kepler,
+,(--) Je ne suis pas ,(np "kepler" [Kepler]),
 je n’ai arraché à la nature aucun de ses secrets ;
 et je ne suis qu’un simple et très-médiocre traducteur.
 Et cependant j’ose dire comme le grand homme :
 Ce livre peut attendre ;
 le lecteur lui arrivera tôt ou tard.
 Car enfin, pour peu que mon pays s’endorme quelque temps encore
-dans l’ignorance volontaire où il semble se complaire,
+dans l’ignorance volontaire où il semble se complaire
 à l’égard de la révolution immense
 qui fait bouillonner tout le sol britannique,
 un jour il sera frappé de stupeur
-à l’aspect de ce feu volcanique…..
+à l’aspect de ce feu volcanique…
 non, de cette lumière bienfaisante
 qu’il verra luire au septentrion.
 Un jour, et ce jour n’est pas éloigné,
@@ -180,7 +180,7 @@ elle avait cinquante colonies, elle n’en a plus qu’une et c’est l’univer
 elle échange avec quiconque veut échanger ;
 elle achète sans demander à vendre ;
 elle accepte toutes les relations sans en exiger aucune ;
-elle appelle sur elle l’invasion de vos produits ;
+elle appelle sur elle l’,(emph[invasion]) de vos produits ;
 l’Angleterre a affranchi le travail et l’échange.
 ,(--) Alors, peut-être, on voudra savoir
 comment, par qui, depuis combien de temps cette révolution a été préparée ;
@@ -214,7 +214,7 @@ elles finiraient par s’entendre, par s’unir, par s’aimer,
 et peut-être, chose horrible à penser !
 par ,(emph[échanger]) entre elles les fruits de leur industrie.
 Le second a dit :
-J’ai besoin des inimitiés nationales, parce que j’aspire au pouvoir ;
+J’ai besoin des inimitiés nationales, parce que j’aspire au pouvoir,
 et j’y arriverai, si je parviens à m’entourer
 d’autant de popularité que j’en arracherai à mes adversaires,
 si je les montre vendus à un étranger prêt à nous envahir,
@@ -240,22 +240,24 @@ sur l’esprit et la portée de cette association,
 au point de vue social, moral et politique.
 ](nbsp)[,(tag :a :name "jde_extrait")
 On a dit et on répète souvent
-que l’école économiste,
+que l’école économiste
 qui confie à leur naturelle gravitation
 les intérêts des diverses classes de la société,
 était née en Angleterre ;
 et on s’est hâté d’en conclure, avec une surprenante légèreté,
-que cet effrayant contraste d’opulence et de misère,
-qui caractérise la Grande-Bretagne,
+que cet effrayant contraste d’opulence et de misère
+qui caractérise la Grande-Bretagne
 était le résultat de la doctrine
-proclamée avec tant d’autorité par Ad. Smith,
-exposée avec tant de méthode par J. B. Say.
+proclamée avec tant d’autorité par ,(np "smith" [Ad. Smith]),
+exposée avec tant de méthode par ,(np "say_jb" [J.-B. Say]).
 On semble croire que la liberté
 règne souverainement de l’autre côté de la Manche
 et qu’elle préside à la manière inégale dont s’y distribue la richesse.
-,(q[Il avait assisté,]) disait, ces jours derniers, M. Mignet,
-en parlant de M. Sismondi,
-,(q[il avait assisté à la grande révolution économique opérée de nos jours.
+])
+,(blockquote*[,(tag :a :name "mignet_ref")
+« Il avait assisté, » disait, ces jours derniers, ,(np "mignet" [M. Mignet]),
+en parlant de ,(np "sismondi" [M. Sismondi]),
+« il avait assisté à la grande révolution économique opérée de nos jours.
 Il avait suivi et admiré les brillants effets
 des doctrines qui avaient affranchi le travail,
 renversé les barrières que
@@ -263,57 +265,57 @@ les jurandes, les maîtrises, les douanes intérieures
 et les monopoles multipliés
 opposaient à ses produits et à ses échanges ;
 qui avaient provoqué l’abondante production
-et la ,(emph[libre circulation]) des valeurs, etc.])
+et la ,(emph[libre circulation]) des valeurs, etc.
 ][
-,(q[Mais bientôt il avait pénétré plus avant,
+« Mais bientôt il avait pénétré plus avant,
 et des spectacles moins propres
 à l’enorgueillir des progrès de l’homme et à le rassurer sur son bonheur
 s’étaient montrès à lui,
 ,(emph[dans le pays même]) où les théories nouvelles
-s’étaient le plus vite et le plus. complètement développées,
+s’étaient le plus vite et le plus complètement développées,
 ,(emph[en Angleterre où elles régnaient avec empire]).
-Qu’y a avait-il vu ?
+Qu’y avait-il vu ?
 Toute la grandeur, mais aussi tous les excès
 de la production illimitée…,
 chaque marché fermé réduisant des populations entières à mourir de faim,
-les déréglements de la concurrence,
+les dérèglements de la concurrence,
 cet état de nature des intérêts,
 souvent plus meurtrier que les ravages de la guerre ;
-« il y avait vu l’homme réduit
+il y avait vu l’homme réduit
 à être un ressort d’une machine plus intelligente que lui,
 entassé dans des lieux malsains
 où la vie n’atteignait pas la moitié de sa durée,
 où les liens de famille se brisaient et les idées de morale se perdaient…
 En un mot, il y avait vu l’extrême misère
 et une effrayante dégradation racheter tristement et menacer sourdement
-la prospérité et les splendeurs d’un grand peuple.])
+la prospérité et les splendeurs d’un grand peuple.
 ][
-,(q[Surpris et troublé, il se demanda si
+« Surpris et troublé, il se demanda si
 ,(emph[une science qui sacrifiait])
 le bonheur de l’homme à la production de la richesse…
 était la vraie science…
 Depuis ce moment, il prétendit que l’économie politique
 devait avoir beaucoup moins pour objet
-la production abstraite de la richesse que son équitable distribution.])
-][
-Disons en passant que l’économie politique
-n’a pas plus pour objet la production (encore moins la production abstraite),
+la production abstraite de la richesse que son équitable distribution. »])
+
+,(p*[Disons en passant que l’économie politique
+n’a pas plus pour objet la production (encore moins la production ,(emph[abstraite])),
 que la distribution de la richesse.
 C’est le travail, c’est l’échange
 qui ont ces choses-là pour objet.
 L’économie politique n’est pas un art, mais une science.
 Elle n’impose rien, elle ne conseille même rien,
-et par conséquent elle ne ,(emph[sacrifie rien]) ,(pv)
+et par conséquent elle ne ,(emph[sacrifie rien ;])
 elle décrit comment la richesse se produit et se distribue,
 de même que la physiologie décrit le jeu de nos organes ;
 et il est aussi injuste d’imputer à l’une les maux de la société
 qu’il le serait d’attribuer à l’autre
 les maladies qui affligent le corps humain.
 ][
-Quoi qu’il en soit, les idées très-répandues,
-dont M. Mignet s’est rendu le trop éloquent interprète,
+Quoi qu’il en soit, les idées très-répandues
+dont ,(np "mignet" [M. Mignet]) s’est rendu le trop éloquent interprète
 conduisent naturellement à l’arbitraire.
-À l’aspect de cette révoltante inégalité
+A l’aspect de cette révoltante inégalité
 que la théorie économique, tranchons le mot,
 que la liberté est censée avoir engendrée,
 ,(emph[là où elle règne avec le plus d’empire]),
@@ -331,16 +333,16 @@ Il n’entre pas dans notre sujet d’exposer la doctrine du libre-échange
 ni de combattre les nombreuses manifestations de ces écoles
 qui, de nos jours, ont usurpé le nom de socialisme
 et qui n’ont entre elles de commun que cette usurpation.
-][
+][,(tag :a :name "lamartine_ref")
 Mais il importe d’établir ici
 que, bien loin que le régime économique de la Grande-Bretagne
 soit fondé sur le principe de la liberté,
 bien loin que la richesse s’y distribue d’une manière naturelle,
-bien loin enfin que, selon l’heureuse expression de M. de Lamartine,
+bien loin enfin que, selon l’heureuse expression de ,(np "lamartine" [M. de Lamartine]),
 chaque industrie s’y fasse par la liberté
 une justice qu’aucun système arbitraire ne saurait lui faire,
 il n’y a pas de pays au monde, sauf ceux qu’afflige encore l’esclavage,
-où la théorie de Smith,
+où la théorie de ,(np "smith" [Smith]),
 ,(--) la doctrine du laissez-faire, laissez-passer, ,(--)
 soit moins pratiquée qu’en Angleterre,
 et où l’homme soit devenu pour l’homme
@@ -365,15 +367,15 @@ et s’y sont livré, sur la forme civile, politique, religieuse,
 tant de luttes sanglantes,
 il est à propos de rappeler leur situation respective
 au point de vue économique.
-][
+](nbsp)[
 L’aristocratie anglaise, on le sait,
 est propriétaire de toute la surface du pays.
 De plus elle tient en ses mains la puissance législative.
 Il ne s’agit que de savoir si elle a usé de cette puissance
 dans l’intérêt de la communauté on dans son propre intérêt.
 ][
-,(q[Si notre Code financier,]) disait M. Cobden,
-en s’adressant à l’aristocratie elle-même, dans le Parlement,
+,(q[Si notre Code financier,]) disait ,(np "cobden" [M. Cobden]),
+en s’adressant à l’aristocratie elle-même dans le Parlement,
 ,(q[si le ,(inenglish[statute-book]) pouvait parvenir dans la lune,
 seul et sans aucun commentaire historique,
 il n’en faudrait pas davantage pour apprendre à ses habitants
@@ -397,30 +399,21 @@ qu’on offre sans cesse à notre admiration,
 ni par les seigneurs féodaux du moyen âge,
 ni par les planteurs des Antilles,
 et il est même fort douteux que ces oppresseurs de l’humanité
-aient jamais considéré leur puissance comme injuste et illégitime
-,(footnote*[
-Deux pensées, que l’auteur devait développer plus lard,
-en écrivant la seconde série des ,(cite-title(Soph-ref[Sophismes])),
-apparaissent dans ce paragraphe et ceux qui suivent.
-De l’une procède le chapitre
-,(bof-ref "deux_morales" (cite-title[les Deux morales])) ,(pv)
-de l’autre, le chapitre
-,(bof-ref "physiologie_de_la_spoliation"
-	(cite-title[Physiologie de la spoliation])).
-,(NdEEO)
-]).
+aient jamais considéré leur puissance comme injuste et illégitime.
+][
 Si l’on pénètre quelque peu
 dans les nécessités, on peut dire fatales,
 des races aristocratiques,
 on s’aperçoit bientôt qu’elles sont considérablement modifiées et aggravées
 par ce qu’on a nommé le principe de la population.
+][
 Si les classes aristocratiques étaient stationnaires de leur nature ;
 si elles n’étaient pas comme toutes les autres
 douées de la faculté de multiplier,
 un certain degré de bonheur et même d’égalité
 serait peut-être compatible avec le régime de la conquête.
 Une fois les terres partagées entre les familles nobles,
-chacune transmettrait ses domaines,
+chacune transmettrait ses domaines
 de génération en génération à son unique représentant,
 et l’on conçoit que, dans cet ordre de choses,
 il ne serait pas impossible à une classe industrieuse
@@ -432,7 +425,7 @@ tandis que le nombre des domaines seigneuriaux reste le même,
 parce que, pour ne pas affaiblir sa puissance,
 l’aristocratie prend soin de ne les pas diviser
 et de les transmettre intégralement, de mâle en mâle,
-dans l’ordre de primogéniture ;
+dans l’ordre de primogéniture,
 de nombreuses familles de ,(emph[cadets])
 se forment et multiplient à leur tour.
 Elles ne peuvent se soutenir par le travail,
@@ -453,24 +446,21 @@ les générations aristocratiques des branches cadettes ?
 Ce qu’elles deviennent ?
 On les étouffe ;
 car il est dans la nature des aristocraties
-de préférer au travail la mort même.
-][
-,(q[Dans les archipels du grand Océan,
+de préférer au travail la mort même.])
+,(blockquote*[,(tag :a :name "anderson_ref")
+« Dans les archipels du grand Océan,
 les cadets de famille n’ont aucune part dans la succession de leurs pères.
 Ils ne peuvent donc vivre
-que des aliments que leur donnent leurs aînés, s’ils restent en famille ;
+que des aliments que leur donnent leurs aînés, s’ils restent en famille,
 ou de ce que peut leur donner la population asservie,
-s’ils entrent dans l’association militaire des ,(inenglish[arreoys]).
-Mais quel que soit ’celui des deux partis qu’ils prennent,
-ils ne peuvent espérer de perpétuer leur race :
+s’ils entrent dans l’association militaire des ,(emph[arreoys]).
+Mais quel que soit celui des deux partis qu’ils prennent,
+ils ne peuvent espérer de perpétuer leur race.
 L’impuissance de transmettre à leurs enfants aucune propriété
 et de les maintenir dans le rang où ils naissent,
-est sans doute ce qui leur a fait une loi de les étouffer
-,(footnote*[
-Anderson, ,(cite-title[,(3e) Voyage de Cook]).
-]).])
-][
-L’aristocratie anglaise,
+est sans doute ce qui leur a fait une loi de les étouffer ,(footnote*[,(np "anderson" [Anderson]), ,(cite-title[3,(sup[e]) Voyage de Cook]). ,(NdA)]). »])
+
+,(p*[L’aristocratie anglaise,
 quoique sous l’influence des mêmes instincts
 qui inspirent l’aristocratie malaie
 (car les circonstances varient, mais la nature humaine est partout la même),
@@ -495,7 +485,7 @@ de lourds impôts, de grandes armées, une puissante marine militaire.
 ][
 Il faut rendre justice à l’oligarchie anglaise.
 Elle a déployé, dans sa double politique
-de spoliation intérieurs et extérieure, une habileté merveilleuse.
+de spoliation intérieure et extérieure, une habileté merveilleuse.
 Deux mots, qui impliquent deux préjugés,
 lui ont suffi pour y associer
 les classes mêmes qui en supportent tout le fardeau :
@@ -509,15 +499,16 @@ c’est encore un danger permanent pour l’Europe.
 ][
 Et s’il en est ainsi,
 comment est-il possible que la France
-ne prête aucune attention à cette lutte gigantesque,
+ne prête aucune attention à cette lutte gigantesque
 que se livrent sous ses yeux
 l’esprit de la civilisation et l’esprit de la féodalité ?
+,(tag :a :name "bright_ref")
 Comment est-il possible qu’elle ne sache pas même
 les noms de ces hommes dignes de toutes les bénédictions de l’humanité,
-les Cobden, les Bright, les Moore, les Villiers,
-les Thompson, les Fox, les Wilson
+les ,(np "cobden" [Cobden]), les ,(np "bright" [Bright]), les ,(np "moore" [Moore]), les ,(np "villiers" [Villiers]),
+les ,(np "thompson_g" [Thompson]), les ,(np "fox" [Fox]), les ,(np "wilson_j" [Wilson])
 et mille autres qui ont osé engager le combat,
-qui le soutiennent avec un talent. un courage, un dévouement,
+qui le soutiennent avec un talent, un courage, un dévouement,
 une énergie admirables ?
 C’est une pure question de liberté commerciale, dit-on.
 Et ne voit-on pas que la liberté du commerce doit ravir à l’oligarchie
@@ -546,7 +537,7 @@ et qui se résume dans cet axiome :
 ,(q[Que les hommes soient libres d’échanger entre eux,
 quand cela leur convient, les fruits de leurs travaux.])
 Si cette croisade contre la liberté n’était soutenue
-que par les hommes d’imagination,
+que par les hommes d’imagination
 qui veulent formuler la science sans s’être préparés par l’étude,
 le mal ne serait pas grand.
 Mais n’est-il pas douloureux de voir de vrais économistes,
@@ -558,7 +549,7 @@ les souffrances des dernières classes sociales
 doivent être attribués à ce qu’on nomme concurrence exagérée, sur-production ?
 ][
 Ne serait-ce pas, au premier coup d’,(oe)il, une chose bien surprenante
-que la misère, le dénûment, la privation des produits
+que la misère, le dénuement, la privation des produits
 eussent pour cause… quoi ?
 précisément la surabondance des produits.
 N’est-il pas singulier qu’on vienne nous dire
@@ -569,33 +560,34 @@ c’est que les machines jettent trop de vêtements sur le marché ?
 Assurément le paupérisme en Angleterre est un fait incontestable ;
 l’inégalité des richesses y est frappante.
 Mais pourquoi aller chercher à ces phénomènes
-une cause si bizarre,
+une cause si bizarre
 quand ils s’expliquent par une cause si naturelle :
 la spoliation systématique des travailleurs par les oisifs ?
-][
+](nbsp)[
 C’est ici le lieu de décrire le régime économique de la Grande-Bretagne,
 tel qu’il était dans les dernières années
 qui ont précédé les réformes partielles, et à certains égards trompeuses,
 dont, depuis 1842, le Parlement est saisi par le cabinet actuel.
-][
+](nbsp)[
 La première chose qui frappe dans la législation financière de nos voisins,
 et qui est faite pour étonner les propriétaires du continent,
-c’est l’absence presque totale d’,(emph[impôt foncier]),
+c’est l’absence presque totale d’,(emph[impôt foncier])
 dans un pays grevé d’une si lourde dette et d’une si vaste administration.
 ]
-(small[
-En 1706 (époque de l’Union, sous la reine Anne),
-,(simple-table '(
-([l’impôt foncier entrait dans le revenu publie pour] [1,997,379 liv. st.])
-([L’accise, pour] [1,792,763])
-([La douane, pour] [1,549,351])))])
 [
-En 1841, sous la reine Victoria :
+En 1706 (époque de l’Union, sous la reine Anne),]
+[
+,(table 
+(tr (td[l’impôt foncier entrait dans le revenu public pour]) (tdRT[1,997,379]) (td[liv. st.]))
+(tr (td[L’accise, pour]) (tdRT[1,792,763]))
+(tr (td[La douane, pour]) (tdRT[1,549,351])))]
+[,(tag :a :name "victoria_ref")
+En 1841, sous la reine ,(np "victoria" [Victoria]) :
 ]
-(simple-table '(
-([Part contributive de l’impôt foncier (land tax)] [2,037,627])
-([Part contributive de l’accise] [12,858,014])
-([Part contributive de la douane] [19,485,217])))
+(table
+(tr (td[Part contributive de l’impôt foncier (land tax)]) (tdRT[2,037,627]) (td[liv. st.]))
+(tr (td[Part contributive de l’accise]) (tdRT[12,858,014]))
+(tr (td[Part contributive de la douane]) (tdRT[19,485,217])))
 [
 Ainsi l’impôt direct est resté le même
 pendant que les impôts de consommation ont décuplé.
@@ -606,11 +598,11 @@ a augmenté dans la proportion de 1 à 7,
 en sorte que le même domaine
 qui, sous la reine Anne,
 acquittait 20 pour 100 de contributions sur le revenu,
-ne paie pas aujourd’hui 3 pour 100.
+ne paye pas aujourd’hui 3 pour 100.
 ][
 On remarquera aussi que l’impôt foncier
-n’entre que pour, un vingt-cinquième dans le revenu public
-(2 millions sur 50 dont se composènt les recettes générales).
+n’entre que pour un vingt-cinquième dans le revenu public
+(2 millions sur 50 dont se composent les recettes générales).
 En France, et dans toute l’Europe continentale,
 il en constitue la portion la plus considérable,
 si l’on ajoute à la taxe annuelle
@@ -619,7 +611,7 @@ droits dont, de l’autre côté de la Manche,
 la propriété immobilière est affranchie,
 quoique la propriété personnelle et industrielle
 y soit rigoureusement assujettie.
-][
+](nbsp)[
 La même partialité se montre dans les axes indirectes.
 Comme elles sont uniformes
 au lieu d’être graduées selon les qualités des objets qu’elles frappent,
@@ -641,7 +633,7 @@ Le vin du riche en est quitte pour 28 pour 100.
 Le vin du pauvre acquitte 254 pour 100.
 ][
 Et ainsi du reste.
-][
+](nbsp)[
 Vient ensuite la loi sur les céréales et les comestibles
 (,(inenglish[corn and provisions law])),
 dont il est nécessaire de se rendre compte.
@@ -660,14 +652,14 @@ maintenir le froment à 80 shellings le quarter ;
 par celle de 1828,
 il voulait assurer au producteur 70 shellings.
 La loi de 1842
-(postérieure aux réformes de M. Peel,
+(postérieure aux réformes de ,(np "peel" [M. Peel]),
 et dont par conséquent nous n’avons pas à nous occuper ici)
 a été calculée pour empêcher
 que le prix ne descendît au-dessous de 56 shellings
 qui est, dit-on, strictement rémunérateur.
 Il est vrai que ces lois ont souvent failli
 dans l’objet qu’elles avaient en vue ;
-et, en ce moment même, les fermiers,
+et en ce moment même, les fermiers,
 qui avaient compté sur ce prix législatif de 56 shellings
 et fait leurs baux en conséquence, sont forcés de vendre à 45 shellings.
 C’est qu’il y a, dans les lois naturelles
@@ -675,7 +667,7 @@ qui tendent à ramener tous les profits à un commun niveau,
 une force que le despotisme ne parvient pas facilement à vaincre.
 ][
 D’un autre côté,
-que la prétendue protection à l’agriculturc soit un prétexte,
+que la prétendue protection à l’agriculture soit un prétexte,
 c’est ce qui n’est pas moins évident.
 Le nombre des fermes à louer est limité ;
 le nombre des fermiers ou des personnes qui peuvent le devenir ne l’est pas.
@@ -716,16 +708,16 @@ est sans doute celle des officiers du bureau du commerce
 appelés à donner solennellement leur avis
 devant la Chambre des communes réunie en comité d’enquête.
 ][
-Sir Robert Peel, en présentant, en 1849,
+,(np "peel" [Sir Robert Peel]), en présentant, en 1842,
 la première partie de son plan financier, disait :
 ,(q[Je crois que toute confiance est due au gouvernement de S. M.
 et aux propositions qu’il vous soumet,
 d’autant que l’attention du Parlement
 a été sérieusement appelée sur ces matières
 dans l’enquête solennelle de 1839.])
-][
+][,(tag :a :name "hume_ref")
 Dans le même discours, le premier ministre disait encore
-,(q[M. Deacon Hume, cet homme dont je suis sûr
+,(q[,(np "hume_jd" [M. Deacon Hume]), cet homme dont je suis sûr
 qu’il n’est aucun de nous qui ne déplore la perte,
 établit que la consommation du pays est d’un quarter de blé par habitant.])
 ][
@@ -736,16 +728,14 @@ dans lesquelles il a été appelé à l’exprimer,
 ni même la sanction du premier ministre d’Angleterre.
 ][
 Voici sur la question qui nous occupe,
-l’extrait de cet interrogatoire remarquable
-,(footnote*[
-V. ,(ref :url "ligue_30.html" [la traduction de ce document]), avant l’appendice.
-]).
-][
-Le Président :
+l’extrait de cet interrogatoire remarquable ,(footnote*[
+V. ,(ref :url "ligue_30.html" [la traduction de ce document]), avant l’appendice.]).])
+
+,(blockquote*[Le Président :
 Pendant combien d’années avez-vous occupé des fonctions
 à la douane et au bureau du commerce ?
 ][
-M. Deacon Hume :
+,(np "hume_jd" [M. Deacon Hume]) :
 J’ai servi trente-huit ans dans la douane
 et ensuite onze ans au bureau du commerce.
 ][
@@ -759,10 +749,10 @@ que de la manière suivante :
 une portion est le prix naturel ;
 l’autre portion est le droit ou la taxe,
 encore que ce droit passe de ma poche
-dans celle d’un particulier au lieu d’entrer dans le trésor public….
+dans celle d’un particulier au lieu d’entrer dans le trésor public…
 ][
 D. Avez-vous jamais calculé
-quel est le montant de la taxe que paie la communauté
+quel est le montant de la taxe que paye la communauté
 par suite de l’élévation de prix
 que le monopole fait éprouver au froment et à la viande de boucherie ?
 ][
@@ -773,9 +763,9 @@ On peut porter à 10 shellings ce que la protection ajoute au prix naturel.
 Vous ne pouvez porter à moins du double
 ce qu’elle ajoute, en masse, au prix
 de la viande, orge, avoine, foin, beurre et fromage.
-Cela monte à 36 millions sterling par an (900 millions de francs) ,(pv)
-et, au fait, le peuple paie cette somme de sa poche
-tout aussi infailliblement que si elle allait au trésor,
+Cela monte à 36 millions sterling par an (900 millions de francs),
+et au fait le peuple paye cette somme de sa poche
+tout aussi infailliblement que si elle allait au trésor
 sous la forme de taxes.
 ][
 D. Par conséquent, il a plus de peine à payer les contributions
@@ -799,27 +789,26 @@ D. Ainsi, d’après vous, le poids du système protecteur
 excède celui des contributions ?
 ][
 R. Je le crois, en tenant compte de ses effets directs
-et de ses conséquences indirectes plus difficiles à apprécier.
-][
+et de ses conséquences indirectes plus difficiles à apprécier.])
+
+,(p*[,(tag :a :name "macgregor_ref")
 Un autre officier du ,(inenglish[Board of trade]),
-M. Mac-Grégor, répondait :
+,(np "macgregor" [M. Mac-Grégor]), répondait :
 ][
-,(q[Je considère que les taxes prélevées, dans ce pays,
+,(q[Je considère que les taxes prélevées dans ce pays
 sur la production de la richesse due au travail et au génie des habitants,
 par les droits restrictifs et prohibitifs,
 dépassent de beaucoup, et probablement de plus du double,
 le montant des taxes payées au trésor.])
-][
-M. Porter, autre membre distingué du ,(inenglish[Board of trade]),
+][,(tag :a :name "porter_ref")
+,(np "porter" [M. Porter]), autre membre distingué du ,(inenglish[Board of trade]),
 et bien connu en France par ses travaux statistiques,
-déposa dans le même sens
-,(footnote*[
-M. G. R. Porter, qui n’a pas survécu longtemps à Bastiat,
+déposa dans le même sens ,(footnote*[M. G. R. Porter, qui n’a pas survécu longtemps à Bastiat,
 a publié une traduction anglaise
-de la première série des ,(Soph-ref(cite-title[Sophismes])).
+de la première série des ,(ref :url "sophismes.html" (cite-title[Sophismes])).
 ,(NdEEO)]).
 ][
-Nous pouvons-donc tenir pour certain que l’aristocratie anglaise
+Nous pouvons donc tenir pour certain que l’aristocratie anglaise
 ravit au peuple,
 par l’opération de cette seule loi (,(inenglish[corn and provisions law])),
 une part du produit de son travail,
@@ -828,10 +817,10 @@ des satisfactions légitimement acquises qu’il pourrait s’accorder,
 part qui s’élève à 1 ,(emph[milliard]) par an,
 et peut-être 2 ,(emph[milliards]),
 si l’on tient compte des effets indirects de cette loi.
-C’est là, à proprement parler, le lot que les aristocrates-légishieurs,
+C’est là, à proprement parler, le lot que les aristocrates-législateurs,
 les ,(emph[aînés]) de famille se sont fait à eux-mêmes.
-][
-Restait à pourvoir les ,(emph[cadets]) ,(pv)
+](nbsp)[
+Restait à pourvoir les ,(emph[cadets ;])
 car, ainsi que nous l’avons vu,
 les races aristocratiques ne sont pas plus que les autres
 privées de la faculté de multiplier,
@@ -843,15 +832,15 @@ en d’autres termes, par la spoliation, ,(--)
 puisqu’il n’y a et ne peut y avoir que deux manières d’acquérir :
 Produire ou ravir.
 ][
-Deux sources fécondes de revenus ont été ouvertes aux ,(emph[cadets]) :
+Deux sources fécondes de revenus ont été ouvertes aux ,(emph[cadets :])
 le trésor public et le système colonial.
-À vrai dire, ces deux conceptions n’en font qu’une.
+A vrai dire, ces deux conceptions n’en font qu’une.
 On lève des armées, une marine, en un mot des taxes
 pour conquérir des colonies,
 et l’on conserve les colonies pour rendre permanentes
 la marine, les armées ou les taxes.
 ][
-Tant qu’on a pu croire que les échanges,
+Tant qu’on a pu croire que les échanges
 qui s’opèrent, en vertu d’un contrat de monopole réciproque,
 entre la métropole et ses colonies,
 étaient d’une nature différente et plus avantageuse
@@ -878,19 +867,19 @@ que lui importe de demander ces choses
 à la Jamaïque, à l’Inde et au Canada,
 ou bien au Brésil, aux États-Unis, à la Baltique ?
 Il faut bien que le travail manufacturier anglais
-paie le travail agricole des Antilles,
-comme il paierait le travail agricole des nations du Nord.
+paye le travail agricole des Antilles,
+comme il payerait le travail agricole des nations du Nord.
 C’est donc une folie que de faire entrer dans le calcul
 les prétendus ,(emph[débouchés]) ouverts à l’Angleterre par ses colonies.
 Ces débouchés, elle les aurait
 alors même que les colonies seraient affranchies,
 et par cela seul qu’elle y exécuterait des achats.
-Elle aurait de plus les débouchés étrangers,
+Elle aurait de plus les débouchés étrangers
 dont elle se prive
 en restreignant ses approvisionnements à ses possessions,
 en leur en conférant le monopole.
 ][
-Lorsque les Etats-Unis proclamèrent leur indépendance,
+Lorsque les États-Unis proclamèrent leur indépendance,
 les préjugés coloniaux étaient dans toute leur force,
 et tout le monde sait que l’Angleterre crut son commerce ruiné.
 Elle le crut si bien,
@@ -906,12 +895,12 @@ et elles montent aujourd’hui à 12,400,000 liv. sterl.,
 somme qui égale presque celle
 de toutes les exportations que fait l’Angleterre à ses quarante-cinq colonies,
 puisque celles-ci n’ont pas dépassé, en 1842, 13,200,000 liv. sterl.
-,(--) Et, en effet, on ne voit pas pourquoi des échanges
+,(--) Et en effet on ne voit pas pourquoi des échanges
 de fer contre du coton, ou d’étoffes contre des farines,
 ne s’accompliraient plus entre les deux peuples.
 Serait-ce parce que les citoyens des États-Unis
 sont gouvernés par un président de leur choix
-au lieu de l’être par un lord-lieutenant payé au frais de l’Echiquier ?
+au lieu de l’être par un lord-lieutenant payé au frais de l’Échiquier ?
 Mais quel rapport y a-t-il entre cette circonstance et le commerce ?
 Et si jamais nous nommions nos maires et nos préfets,
 cela empêcherait-il les vins de Bordeaux d’aller à Elbeuf,
@@ -943,9 +932,9 @@ et l’on ne voit pas comment le lien colonial
 les eût rendues plus clairvoyantes.
 ][
 Remarquez en outre que les exportations de 1776
-s’élevant à 1,300,000 liv. sterl.,
+s’élevant à 1,300,000 liv. sterl.
 ne peuvent pas être supposées avoir donné à l’Angleterre
-plus de vingt pour 100, ou 260,000 liv. sterl. de bénéfice ;
+plus de vingt pour 100, ou 260,000 liv. sterl., de bénéfice ;
 et pense-t-on que l’administration d’un aussi vaste continent
 n’absorbait pas dix fois cette somme ?
 ][
@@ -1003,7 +992,7 @@ que nous avons vu peser principalement sur le peuple,
 sont destinées à salarier tous ces instruments de conquête,
 qui ne sont autres que les puînés de l’aristocratie anglaise.
 ][
-C’est un fait connu d’ailleurs,
+C’est un fait connu d’ailleurs
 que ces nobles aventuriers ont acquis de vastes domaines dans les colonies.
 La protection leur a été accordée ;
 il est bon de calculer ce qu’elle coûte aux classes laborieuses.
@@ -1020,49 +1009,49 @@ furent placées avec les Antilles sur le pied de l’égalité.
 ][
 La législation simplifiée ne reconnut plus que deux sucres :
 le sucre colonial et le sucre étranger.
-Le premier avait à acquitter un droit de 24 sh.,
-le second de 63 sh. par quintal.
+Le premier avait à acquitter un droit de 24 sh.,
+le second de 63 sh. par quintal.
 ][
 Si l’on admet, pour un instant,
 que le ,(emph[prix de revient]) soit le même aux colonies et à l’étranger,
-par exemple, 20 sh.,
+par exemple, 20 sh.,
 on comprendra aisément les résultats d’une telle législation,
 soit pour les producteurs, soit à l’égard des consommateurs.
 ][
 L’étranger ne pourra livrer ses produits sur le marché anglais
-au-dessous de 83 sh., savoir : 20 sh. pour couvrir les frais de production,
-et 63 sh., pour acquitter la taxe.
+au-dessous de 83 sh., savoir : 20 sh. pour couvrir les frais de production,
+et 63 sh. pour acquitter la taxe.
 ,(--) Pour peu que la production coloniale
 soit insuffisante à alimenter ce marché ;
 pour peu que le sucre étranger s’y présente,
 le prix vénal (car il ne peut y avoir qu’un prix vénal)
 sera donc de 83 shell.,
 et ce prix, pour le sucre colonial, se décomposera ainsi :
-](simple-table '(
-([20 sh.] [Remboursement des frais de production.])
-([24] [Part du trésor public ou taxe.])
-([39] [Montant de la spoliation ou monopole.])
-([------][])
-([83] [Prix payé par le consommateur.])))
+](table
+(tr (td[20 sh.]) (td[Remboursement des frais de production.]))
+(tr (td[24]) (td[Part du trésor public ou taxe.]))
+(tr (td[39]) (td[Montant de la spoliation ou monopole.]))
+(tr (td[,(hrule)]) (td[]))
+(tr (td[83]) (td[Prix payé par le consommateur.])))
 [
 On voit que la loi anglaise avait pour but
-de faire payer au peuple 83 sh. ce qui n’en vaut que 20,
-et de partager l’excédant, ou 63 sh.,
+de faire payer au peuple 83 sh. ce qui n’en vaut que 20,
+et de partager l’excédant, ou 63 sh.,
 de manière à ce que la part du trésor fût de 24,
-et celle du monopole de 39 sh.
+et celle du monopole de 39 sh.
 ][
 Si les choses se fussent passées ainsi,
 si le but de la loi avait été atteint,
 pour connaître le montant de la spoliation
 exercée par les monopoleurs au préjudice du peuple,
-il suffirait de multiplier par 39 sh.
-le nombre de quintaux du sucre consommé en Angleterre.
+il suffirait de multiplier par 39 sh.
+le nombre de quintaux de sucre consommé en Angleterre.
 ][
 Mais, pour le sucre comme pour les céréales,
 la loi a failli dans une certaine mesure.
 La consommation limitée par la cherté
 n’a pas eu recours au sucre étranger,
-et le prix de 83 sh. n’a pas été atteint.
+et le prix de 83 sh. n’a pas été atteint.
 Sortons du cercle des hypothèses et consultons les faits.
 Les voici soigneusement relevés sur les documents officiels.
 
@@ -1071,7 +1060,7 @@ Les voici soigneusement relevés sur les documents officiels.
  [Prix du Sucre colonial à l’entrepôt.]
  [Prix du Sucre étranger à l’entrepôt.])
 ;					sh. d.		sh. d.
- (1837	[3,954,810]	[16 12/13]	[34 sh. 7 d.]		[21 sh. 3 d.])
+ (1837	[3,954,810]	[16 12/13]	[34 sh. 7 d.]		[21 sh. 3 d.])
  (1838	[3,909,365]	[16 8/13]		[33 8]		[21 3])
  (1839  [3,825,599]	[15 12/13]	[39 2]		[22 2])
  (1840	[3,594,834]	[14 7/9]	[49 1]		[21 6])
@@ -1085,15 +1074,15 @@ soit à l’Échiquier, soit au consommateur anglais.
 Calculons en monnaies françaises et en nombres ronds
 pour la plus facile intelligence du lecteur.
 ][
-À raison de 49 fr. 20 c. (39 sh. 5 d.),
-plus 30 fr. de droits (24 sh.),
+A raison de 49 fr. 20 c. (39 sh. 5 d.),
+plus 30 fr. de droits (24 sh.),
 il en a coûté au peuple anglais,
 pour consommer annuellement 3,868,000 quintaux de sucre,
 la somme de 306 millions et demi,
 qui se décompose ainsi :
 ](simple-table '(
 ([103 1/2] [millions qu’aurait coûtés une égale quantité de sucre étranger
-	au prix de 29 fr. 75 (21 sh. 5 d.).])
+	au prix de 29 fr. 75 (21 sh. 5 d.).])
 ([116]	[millions impôt pour le revenu à 30 fr. (24 ch.).])
 ([86 1/2]	[millions part du monopole résultant de la différence
 	du prix colonial au prix étranger.])
@@ -1388,7 +1377,7 @@ au lieu d’être gouvernées
 par un président mexicain ou un lord-commissaire anglais,
 pourvu que chacun y puisse vendre, acheter, acquérir, travailler ;
 pourvu que toute transaction honnête y soit libre ?
-À ces conditions, ils abandonneraient encore volontiers aux États-Unis
+A ces conditions, ils abandonneraient encore volontiers aux États-Unis
 et les deux Canada et la Nouvelle-Écosse, et les Antilles par-dessus le marché ;
 ils les donneraient même sans cette condition,
 bien assurés que la liberté des échanges
@@ -1583,7 +1572,7 @@ on ne sait ce qu’il faut le plus admirer, dans cet homme éminent,
 à la fois économiste, tribun, homme d’État, tacticien, théoricien,
 et auquel-je crois qu’on peut faire une juste application
 de ce qu’on a dit de Destutt de Tracy :
-,(q[À force de bon sens, il atteint au génie.])
+,(q[A force de bon sens, il atteint au génie.])
 S’es efforts obtiennent la récompense qu’ils méritent,
 et l’aristocratie a la douleur de voir le principe de la liberté
 gagner rapidement au sein de la population vouée à l’agriculture.
@@ -1688,7 +1677,7 @@ qui peut guérir les maux de l’injustice.
 L’aumône n’a et ne peut avoir
 qu’une action insuffisante, fugitive, incertaine et souvent dégradante.])
 ][
-À bout de ses sophismes, de ses faux-fuyants, de ses prétextes dilatoires,
+A bout de ses sophismes, de ses faux-fuyants, de ses prétextes dilatoires,
 il restait une ressource à l’aristocratie la majorité parlementaire,
 la majorité qui dispense d’avoir raison.
 Le dernier acte de l’agitation devait donc se passer
@@ -1702,7 +1691,7 @@ attirer sur la corruption les châtiments de la loi et de l’opinion ;
 telle est la nouvelle phase dans laquelle est entrée ,(emph[l’agitation]),
 avec une énergie que les progrès semblent accroître.
 ,(inlatin[Vires acquirit eundo.])
-À la voix de Cobden, de Bright et de leurs amis,
+A la voix de Cobden, de Bright et de leurs amis,
 des milliers de ,(inenglish[free-traders])
 se font inscrire sur les listes électorales,
 des milliers de monopoleurs en sont rayés,
@@ -2069,27 +2058,27 @@ et le grand monopole colonial, le sucre.
 ][
 Nous avons vu que la loi-céréale,
 qui avait pour but avoué d’assurer au producteur national
-64 sh. par quarter de froment
+64 sh. par quarter de froment
 avait failli dans son objet.
 L’échelle mobile (,(inenglish[sliding scale]))
 était bien calculée pour atteindre ce but,
 car elle ajoutait au prix du blé étranger à l’entrepôt
-un droit graduel qui devait faire ressortir le prix vénal à 70 sh. et plus.
+un droit graduel qui devait faire ressortir le prix vénal à 70 sh. et plus.
 Mais la concurrence des producteurs nationaux, d’une part,
 et de l’autre, la diminution de consommation qui suit la cherté,
 ont concouru à retenir le blé
-à un taux moyen moins élevé et qui n’a pas dépassé 56 sh.
+à un taux moyen moins élevé et qui n’a pas dépassé 56 sh.
 Qu’a fait alors sir Robert Peel ?
 il a tranché dans cette portion de droit qui était radicalement inefficace,
 et il a baissé l’échelle mobile de manière, à ce qu’il pensait,
-à fixer le froment à 56 sh.,
+à fixer le froment à 56 sh.,
 c’est-à-dire au prix le plus élevé
 que la concurrence intérieure lui permette d’atteindre,
 dans les temps ordinaires ;
 en sorte qu’en réalité il n’a rien arraché à l’aristocratie
 ni rien conféré au peuple.
 ][
-À cet égard, sir, Robert n’a pas caché cette politique de prestidigitateur,
+A cet égard, sir, Robert n’a pas caché cette politique de prestidigitateur,
 car à toute demande de droits plus élevés, il répondait :
 ,(q[Je crois que vous avez eu des preuves concluantes que vous êtes arrivés
 à l’extrême limite de la taxe utile (,(inenglish[profitable taxation])),
@@ -2111,20 +2100,20 @@ La même pensée a présidé aux diverses modifications introduites
 dans la loi des sucres.
 Nous avons vu que la prime accordée aux planteurs,
 ou le droit différentiel entre le sucre colonial et le sucre étranger,
-était de 39 sh. par quintal.
+était de 39 sh. par quintal.
 C’est là la marge que la spoliation avait devant elle ;
 mais à cause de la concurrence que se font entre elles les colonies,
 elles n’ont pu extorquer au consommateur,
-en excédant du prix naturel et du droit fiscal, que 18 sh.
+en excédant du prix naturel et du droit fiscal, que 18 sh.
 (Voir ci-dessus, pages 24 et suiv.).
-Sir Robert pouvait donc abaisser le droit différentiel de 39 sh. à 18
+Sir Robert pouvait donc abaisser le droit différentiel de 39 sh. à 18
 sans rien changer, si ce n’est une lettre morte,
 dans le ,(inenglish[statute-book]).
 ][
 Or, qu’a-t-il fait ?
 Il a établi le tarif suivant :
 ](simple-table '(
-([Sucre colonial,]	[brut]		[14 sh.])
+([Sucre colonial,]	[brut]		[14 sh.])
 ([]			[terré]		[16])
 ([Sucre étranger (libre),] [brut]	[23])
 ([]			[terré]		[28])
@@ -2132,7 +2121,7 @@ Il a établi le tarif suivant :
 [
 Il estime qu’il entrera en Angleterre, sous l’empire de ce nouveau tarif,
 230,000 tonnes de sucre colonial ;
-et la protection étant de 10 sh. par quintal ou 10 liv. st. par tonne,
+et la protection étant de 10 sh. par quintal ou 10 liv. st. par tonne,
 la somme extorquée au consommateur,
 pour être livrée sans compensation aux planteurs,
 sera de 2,300,000 liv. st., ou fr. 57,000,000,
@@ -2469,7 +2458,7 @@ M. Gibson :
 ou s’emparer des fruits de leur travail, c’est toujours de l’esclavage ;
 il n’y a de différence que dans le degré.])
 ][
-À l’aspect de cette révolution
+A l’aspect de cette révolution
 qui, je ne dirai pas se prépare,
 mais s’accomplit dans un pays voisin,
 dont les destinées, on n’en disconvient pas, intéressent le monde entier ;

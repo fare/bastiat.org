@@ -42,6 +42,9 @@ Trucs de Laura que Faré a le droit de regarder
 ----------------------------------------------
 
   * Ordre des priorités:
+
+Structure
+
     1) Headers fixes élastiques
     2) Volet gauche (en haut de page sur les petits écrans) avec intro/résumé (+ éventuellement, plan) pour chaque texte
     le volet doit scroller au même rythme que la page, et rester fixe une fois arrivé en bas; idem dans l'autre sens.
@@ -49,7 +52,8 @@ Trucs de Laura que Faré a le droit de regarder
     4) Sommaires thématique, chronologique etc., et liens entre eux
     5) Refonte radicale de la page d'accueil
 
-    En parallèle:
+Contenu
+
     1) Relecture/indexation personnes; (en cours: 61%)
     2) Enrichissement de l'index des personnes (informations biographiques, références des citations); même chose pour l'index des titres de journaux
     3) Création d'une database des personnes citées, et d'une fonctionnalité "filtre" (par époque, pays, profession…)
@@ -58,9 +62,7 @@ Trucs de Laura que Faré a le droit de regarder
       b) repérage des événements historiques cités, pour en faire un index chronologique;
       c) repérage de phrases bien tournées, susceptibles d'être affichées aléatoirement en page d'accueil;
       d) constitution du plan des textes les plus longs, pour l'afficher en sidebar gauche, + chapeaux introductifs;
-      e) inventaire complet de tous les thèmes, tropes, figures, types d'arguments, leitmotivs (dans un tableur à part, dans un premier temps), pour servir à la constitution d'un index thématique et de pages thématiques (ou de simples renvois).
-
-  * Faire une fonction qui associe à un nom de fichier le titre d'une oeuvre (je veux obtenir <a href="1profit_2pertes">Un profit contre deux pertes</a> en tapant juste ,(1profit_2pertes), et je ne veux pas avoir à définir une fonction par fichier.)
+      e) inventaire complet de tous les thèmes, tropes, figures, types d'arguments, leitmotivs (dans un tableur à part, dans un premier temps), pour servir à la constitution d'un index thématique et de pages thématiques (ou de simples renvois), et d'une sorte d'arborescence logique des arguments.
 
   * Page d'accueil: lien direct vers les œuvres, au lieu de devoir cliquer 50 fois pour accéder au sommaire.
   Différents accès:

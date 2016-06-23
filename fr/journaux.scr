@@ -111,7 +111,9 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(journal "constitutionnel" "Le Constitutionnel" [
 ,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "generalites.html#constitutionnel_ref" [Sur les généralités])
-,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)])
+,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)]) ;
+,(ref :url "liberte_commerciale.html#constitutionnel_ref" [Liberté commerciale]) ;
+,(ref :url "courrier_francais.html#constitutionnel_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ])
 
 ,(journal "cm" "Courrier de Marseille" [
@@ -128,7 +130,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "lettre_cobden1846m.html#courrier_ref" [Lettre à Cobden, 22 octobre 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#courrier_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange])
+,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
+,(ref :url "courrier_francais.html" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ])])
 
 ]),(lettre "D" [
@@ -139,12 +142,14 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "curee_des_places.html#dp_ref" [Curée des places]) ;
 ,(ref :url "peur_d_un_mot.html#dp_ref" [La peur d’un mot]) ;
 ,(ref :url "avis_charitable.html" [Avis charitable à la ,(cite-title[Démocratie pacifique])]) ;
+,(ref :url "douane_fiscale.html" [Lettre de V. Considerant et réponse de Bastiat])
 ])
 
 ]),(lettre "E" [
 ,(journal "economiste_belge" "L’Économiste belge" [
 ,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])]) ;
-,(ref :url "lettre_ecclesiastique.html" [Lettre à un ecclésiastique])
+,(ref :url "lettre_ecclesiastique.html" [Lettre à un ecclésiastique]) ;
+,(ref :url "les_trois_conseils.html" [Les trois conseils])
 ])
 
 ,(journal "epoque" "L’Époque" [
@@ -183,6 +188,10 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "journaux_jb.html" [Articles publiés dans ce journal.])
 ])
 
+,(journal "elbeuf" "Journal d’Elbeuf" [
+,(ref :url "armements_en_angleterre_2.html#elbeuf_ref" [Encore les armements en Angleterre]) ;
+])
+
 ,(journal "debats" "Journal des Débats" [
 ,(ref :url "l_Etat.html" [L’État]) ;
 Propriété et spoliation : ,(ref :url "propriete_et_spoliation.html" [Lettre 1]) ;
@@ -195,7 +204,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé]) ;
 ,(ref :url "lettre_saulnier.html" [Lettre à M. Saulnier]) ;
 ,(ref :url "libre_entree_subsistances.html#debats_ref" [Subsistances]) ;
-,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange])
+,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
+,(ref :url "courrier_francais.html#constitutionnel_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ])
 
 ,(journal "je" "Journal des Économistes" [
@@ -278,6 +288,10 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "sel_poste_douane.html#mu_ref" [Le sel, la poste, la douane]) ;
 ,(ref :url "nature_echanges.html#mu_ref" [Réponse à la Presse]) ;
 ,(ref :url "spoliation_et_loi.html#mu_ref" [Spoliation et loi])
+])
+
+,(journal "morning" "Morning Post" [
+,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
 ])
 
 ]),(lettre "N" [
