@@ -578,14 +578,14 @@ dans un pays grevé d’une si lourde dette et d’une si vaste administration.
 En 1706 (époque de l’Union, sous la reine Anne),]
 [
 ,(table 
-(tr (td[l’impôt foncier entrait dans le revenu public pour]) (tdRT[1,997,379]) (td[liv. st.]))
+(tr (td[l’impôt foncier entrait dans le revenu public pour]) (tdRT[1,997,379]) (td[liv. st.]))
 (tr (td[L’accise, pour]) (tdRT[1,792,763]))
 (tr (td[La douane, pour]) (tdRT[1,549,351])))]
 [,(tag :a :name "victoria_ref")
 En 1841, sous la reine ,(np "victoria" [Victoria]) :
 ]
 (table
-(tr (td[Part contributive de l’impôt foncier (land tax)]) (tdRT[2,037,627]) (td[liv. st.]))
+(tr (td[Part contributive de l’impôt foncier (land tax)]) (tdRT[2,037,627]) (td[liv. st.]))
 (tr (td[Part contributive de l’accise]) (tdRT[12,858,014]))
 (tr (td[Part contributive de la douane]) (tdRT[19,485,217])))
 [
@@ -954,7 +954,7 @@ comme le constate le tableau suivant :
 ]
 (simple-table
   '(([] [Exportations aux colonies] [Exportations à l’étranger] [Total])
-    ([1831] [10,254,940 l. st.] [26,900,432 l. st.] [37,164,372 l. st.])
+    ([1831] [10,254,940 l. st.] [26,900,432 l. st.] [37,164,372 l. st.])
     ([1842] [13,261,436] [34,119,587] [47,381,023])))
 [
 Aux deux époques, le commerce colonial n’entre
@@ -1055,18 +1055,19 @@ et le prix de 83 sh. n’a pas été atteint.
 Sortons du cercle des hypothèses et consultons les faits.
 Les voici soigneusement relevés sur les documents officiels.
 
-](simple-table '(
+])
+,(simple-table '(
 ([Années.] [Consommation totale.] [Consommation par habitant]
  [Prix du Sucre colonial à l’entrepôt.]
  [Prix du Sucre étranger à l’entrepôt.])
-;					sh. d.		sh. d.
- (1837	[3,954,810]	[16 12/13]	[34 sh. 7 d.]		[21 sh. 3 d.])
+;					sh. d.		sh. d.
+ (1837	[3,954,810]	[16 12/13]	[34 sh. 7 d.]		[21 sh. 3 d.])
  (1838	[3,909,365]	[16 8/13]		[33 8]		[21 3])
  (1839  [3,825,599]	[15 12/13]	[39 2]		[22 2])
  (1840	[3,594,834]	[14 7/9]	[49 1]		[21 6])
  (1841	[4,058,435]	[16 1/2]	[39 8]		[20 6])
  (Moyennes. [3,868,668]	[16 1/6]	[39 5]		[21 5])))
-[
+,(p*[
 De ce tableau, il est fort aisé de déduire
 les pertes énormes que le monopole a infligées,
 soit à l’Échiquier, soit au consommateur anglais.
@@ -1074,26 +1075,26 @@ soit à l’Échiquier, soit au consommateur anglais.
 Calculons en monnaies françaises et en nombres ronds
 pour la plus facile intelligence du lecteur.
 ][
-A raison de 49 fr. 20 c. (39 sh. 5 d.),
-plus 30 fr. de droits (24 sh.),
+A raison de 49 fr. 20 c. (39 sh. 5 d.),
+plus 30 fr. de droits (24 sh.),
 il en a coûté au peuple anglais,
 pour consommer annuellement 3,868,000 quintaux de sucre,
 la somme de 306 millions et demi,
 qui se décompose ainsi :
 ](simple-table '(
 ([103 1/2] [millions qu’aurait coûtés une égale quantité de sucre étranger
-	au prix de 29 fr. 75 (21 sh. 5 d.).])
-([116]	[millions impôt pour le revenu à 30 fr. (24 ch.).])
+	au prix de 29 fr. 75 (21 sh. 5 d.).])
+([116]	[millions impôt pour le revenu à 30 fr. (24 ch.).])
 ([86 1/2]	[millions part du monopole résultant de la différence
 	du prix colonial au prix étranger.])
 ([------] [])
 ([306]	[millions.])))
 [
 Il est clair que, sous le régime de l’égalité
-et avec un impôt uniforme de 30 fr. par quintal,
+et avec un impôt uniforme de 30 fr. par quintal,
 si le peuple anglais eût voulu dépenser
 306 millions de francs en ce genre de consommation,
-il en aurait eu, au prix de 26 fr, 75, plus 30 francs de taxe,
+il en aurait eu, au prix de 26 fr. 75, plus 30 francs de taxe,
 5,400,000 quintaux ou 22 kil. par habitant au lieu de 16.
 ,(--) Le trésor, dans cette hypothèse,
 aurait recouvré 162 millions au lieu de 116.
@@ -1108,7 +1109,7 @@ prouvent que le monopole accordé aux propriétaires de bois du Canada
 coûte aux classes laborieuses de la Grande-Bretagne,
 ,(emph[indépendamment de la taxe fiscale]), un excédant de 30 millions.
 ][
-Le monopole du café leur impose une surcharge de 6,500,000 fr.
+Le monopole du café leur impose une surcharge de 6,500,000 fr.
 ][
 Voilà donc, sur trois articles coloniaux seulement,
 une somme de 123 millions enlevée purement et simplement
@@ -1117,13 +1118,13 @@ en excédant du prix naturel des denrées ainsi que des taxes fiscales,
 pour être versée, sans aucune compensation, dans la poche des colons.
 ][
 Je terminerai cette dissertation, déjà trop longue,
-par une citation que j’emprunte à M. Porter,
+par une citation que j’emprunte à ,(np "porter" [M. Porter]),
 membre du ,(inenglish[Board of trade]).
 ][
 ,(q[Nous avons payé en 1840, et sans parler des droits d’entrée,
 5 millions de livres de plus
 que n’aurait fait pour une égale quantité de sucre toute autre nation.
-Dans la même année, nous avons exporté pour 4,000,000 l. st.
+Dans la même année, nous avons exporté pour 4,000,000 l. st.
 aux colonies à sucre ;
 en sorte que nous aurions gagné un million
 à suivre le vrai principe,
@@ -1131,16 +1132,16 @@ qui est d’acheter au marché le plus avantageux,
 alors même que nous aurions fait cadeau aux planteurs
 de toutes les marchandises qu’ils nous ont prises.])
 ][
-M. Ch. Comte avait entrevu, dès 1827, ce que M. Porter établit en chiffres.
+,(np "comte" [M. Ch. Comte]) avait entrevu, dès 1827, ce que ,(np "porter" [M. Porter]) établit en chiffres.
 ,(q[Si les Anglais, disait-il,
 calculaient quelle est la quantité de marchandises
-qu’ils doivent vendre aux possesseurs d’hommes,
+qu’ils doivent vendre aux possesseurs d’hommes
 pour recouvrer les dépenses qu’ils font
 dans la vue de s’assurer leur pratique,
 ils se convaincraient que ce qu’ils ont de mieux à faire,
 c’est de leur livrer leurs marchandises pour rien
 et d’acheter, à ce prix, la liberté du commerce.])
-][
+](nbsp)[
 Nous sommes maintenant en mesure, ce me semble,
 d’apprécier le degré de liberté
 dont jouissent en Angleterre le travail et l’échange,
@@ -1162,8 +1163,8 @@ Il n’entre que pour un vingt-cinquième dans les recettes publiques.
 quoique la propriété personnelle y soit assujettie.
 ][
 4° Les taxes indirectes pèsent beaucoup moins
-sur les objets de qualités supérieures, à l’usage des riches,
-que sur les mêmes objets de basses qualités, à l’usage du peuple.
+sur les objets de qualités supérieures à l’usage des riches,
+que sur les mêmes objets de basses qualités à l’usage du peuple.
 ][
 5° Au moyen de la loi-céréale, les mêmes branches aînées
 prélèvent, sur la nourriture du peuple,
@@ -1175,7 +1176,7 @@ et ces impôts, payés presque en totalité par les classes laborieuses,
 sont, presque en totalité aussi,
 le patrimoine des branches cadettes des classes oisives.
 ][
-7° Les taxes locales, comme les dîmes (tithes),
+7° Les taxes locales, comme les dîmes (,(inenglish[tithes])),
 arrivent aussi à ces branches cadettes par l’intermédiaire de l’Église établie.
 ][
 8° Si le système colonial exige un grand développement de forces,
@@ -1183,7 +1184,7 @@ le maintien de ces forces a besoin, à son tour, du régime colonial,
 et ce régime entraîne celui des monopoles.
 On a vu que, sur trois articles seulement,
 ils occasionnent au peuple anglais une perte sèche de 124 millions.
-][
+](nbsp)[
 J’ai cru devoir donner quelque étendue à l’exposé de ces faits
 parce qu’ils me paraissent de nature à dissiper
 bien des erreurs, bien des préjugés, bien des préventions aveugles.
@@ -1227,7 +1228,7 @@ Ce qui coexiste en Angleterre,
 c’est un petit nombre de spoliateurs et un grand nombre de spoliés ;
 et il ne faut pas être un grand économiste
 pour en conclure l’opulence des uns et la misère des autres.
-][
+](nbsp)[
 Ensuite, pour peu qu’on ait embrassé dans son ensemble
 la situation de la Grande-Bretagne,
 telle que nous venons de la montrer,
@@ -1252,23 +1253,21 @@ Tel est le glorieux triomphe auquel aspire la ,(strong[Ligue])
 lorsqu’elle réclame
 ,(q[l’abolition totale, immédiate et sans condition
 de tous les monopoles,
-de tous les droits proteçteurs quelconques en faveur
+de tous les droits protecteurs quelconques en faveur
 de l’agriculture, des manufactures, du commerce et de la navigation,
-en un mot la liberté absolue des échanges
-,(footnote*[Résolution du conseil de la Ligue, mai 1845.]).])
-][
+en un mot la liberté absolue des échanges ,(footnote*[Résolution du conseil de la Ligue, mai 1845.]). ,(NdA)])
+](nbsp)[
 Je ne dirai que peu de choses ici de cette puissante association.
 L’esprit qui l’anime, ses commencements, ses progrès, ses travaux, ses luttes,
 ses revers, ses succès, ses vues, ses moyens d’action,
-tout cela se manifestera plein d’action et de vie dans la suite de cet ouvrage.
+tout cela se manifestera, plein d’action et de vie, dans la suite de cet ouvrage.
 Je n’ai pas besoin de décrire minutieusement ce grand corps,
 puisque je l’expose respirant et agissant devant le public français,
 aux yeux de qui, par un miracle incompréhensible d’habileté,
-la presse subventionnée du monopole l’a si longtemps tenu caché
-,(footnote*[
+la presse subventionnée du monopole l’a si longtemps tenu caché ,(footnote*[
 Bon nombre des publicistes enrôlés dans la presse quotidienne eussent pu,
 mais seulement en s’avouant coupables de légèreté et d’ignorance,
-se laver de l’accusation de vénalité que l’auteur portait contre eux, en 1845.
+se laver de l’accusation de vénalité que l’auteur portait contre eux en 1845.
 ,(NdEEO)
 ]).
 ][
@@ -1281,8 +1280,7 @@ ils résolurent de renverser tous les monopoles par les voies légales,
 et d’accomplir, sans troubles, sans effusion de sang,
 par la seule puissance de l’opinion,
 une révolution aussi profonde, plus profonde peut-être
-que celle qu’ont opérée nos pères en 1789
-,(footnote*[
+que celle qu’ont opérée nos pères en 1789 ,(footnote*[
 Voici les noms de ces hommes bien dignes de notre sympathique estime :
 Edward Baxter,
 W. A. Cunningham,
@@ -1297,6 +1295,7 @@ mais qui s’associa de tout c,(oe)ur à la résolution
 que ses amis venaient de prendre en son absence.
 ,(NdEEO)
 ]).
+][
 Certes, il fallait un courage peu ordinaire
 pour affronter une telle entreprise.
 Les adversaires qu’il s’agissait de combattre avaient pour eux
@@ -1328,7 +1327,7 @@ ils se crurent de force à les vaincre.
 L’,(emph[agitation]) fut décidée.
 ][
 Manchester fut le berceau de ce grand mouvement.
-Il était naturel qu’il naquit dans le nord de l’Angleterre,
+Il était naturel qu’il naquît dans le nord de l’Angleterre,
 parmi les populations manufacturières,
 comme il est naturel qu’il naisse un jour
 au sein des populations agricoles du midi de la France.
@@ -1339,13 +1338,12 @@ et il est évident que s’ils étaient libres,
 les Anglais nous enverraient
 du fer, de la houille, des machines, des étoffes,
 en un mot des produits de leurs mines et de leurs fabriques,
-que nous leur paierions en grains, soies, vins, huiles, fruits,
+que nous leur payerions en grains, soies, vins, huiles, fruits,
 c’est-à-dire en produits de notre agriculture.
 ][
 Cela explique jusqu’à un certain point
 le titre bizarre en apparence que prit l’association :
-,(strong[Anti-corn-law-league])
-,(footnote*[Association contre la loi-céréale.]).
+,(strong[anti-corn-law-league]) ,(footnote*[Association contre la loi-céréale. ,(NdA)]).
 Cette dénomination restreinte n’ayant pas peu contribué sans doute
 à détourner l’attention de l’Europe sur la portée de l’,(emph[agitation]),
 nous croyons indispensable de rapporter ici les motifs qui l’ont fait adopter.
@@ -1360,7 +1358,7 @@ les conditions de l’importation des grains.
 ][
 Mais tel n’est pas seulement l’objet de la Ligue.
 Elle aspire à l’entière et radicale destruction
-de tous les privilèges et de tous les monopoles,
+de tous les priviléges et de tous les monopoles,
 à la liberté absolue du commerce, à la concurrence illimitée,
 ce qui implique
 la chute de la prépondérance aristocratique en ce qu’elle a d’injuste,
@@ -1368,9 +1366,9 @@ la dissolution des liens coloniaux en ce qu’ils ont d’exclusif,
 c’est-à-dire une révolution complète
 dans la politique intérieure et extérieure de la Grande-Bretagne.
 ][
-Et, pour n’en citer qu’un exemple,
+Et pour n’en citer qu’un exemple,
 nous voyons aujourd’hui les ,(inenglish[free-traders])
-prendre parti pour les États-Unis dans la question de l’Orégon et du Texas.
+prendre parti pour les États-Unis dans la question de l’Oregon et du Texas.
 Que leur importe, en effet,
 que ces contrées s’administrent elles-mêmes sous la tutelle de l’Union,
 au lieu d’être gouvernées
@@ -1381,11 +1379,10 @@ A ces conditions, ils abandonneraient encore volontiers aux États-Unis
 et les deux Canada et la Nouvelle-Écosse, et les Antilles par-dessus le marché ;
 ils les donneraient même sans cette condition,
 bien assurés que la liberté des échanges
-sera tôt ou tard la loi des transactions internationales
-,(footnote*[
-On se rappelle les discours de lord Aberdeen et de sir Robert Peel
+sera tôt ou tard la loi des transactions internationales ,(footnote*[,(tag :a :name "peel_ref")
+On se rappelle les discours de lord Aberdeen et de ,(np "peel" [sir Robert Peel])
 à l’occasion du message du nouveau président des États-Unis.
-Voici comment s’exprimait à ce sujet M. Fox,
+Voici comment s’exprimait à ce sujet ,(np "fox" [M. Fox]),
 dans un meeting de la Ligue, et aux applaudissements de six mille auditeurs :
 ,(q[Quel est donc ce territoire qu’on se dispute ?
 300,000 milles carrés dont nous revendiquons le tiers ;
@@ -1395,11 +1392,11 @@ empire des buffles,
 et tout au plus de quelques Indiens fiers de s’appeler
 Têtes-Plates, Nez-Fendus, etc.
 Voilà l’objet de la querelle !
-Autant vaudrait que Peel et Polk nous poussassent
+Autant vaudrait que ,(np "peel" [Peel]) et ,(np "polk" [Polk]) nous poussassent
 à nous disputer les montagnes de la Lune !
 Mais que la race humaine s’établisse sur ce territoire,
 que les hommes qui n’ont pas de patrie plus hospitalière
-en soumettent à la culture les parties les moins infertiles ;
+en soumettent à la culture les parties les moins infertiles,
 et lorsque l’industrie aura promené autour de ses frontières
 le char de son paisible triomphe,
 lorsque de jeunes cités verront fourmiller dans leurs murs
@@ -1407,20 +1404,20 @@ d’innombrables multitudes,
 quand les montagnes Rocheuses seront sillonnées de chemins de fer,
 que des canaux uniront l’Atlantique et la mer Pacifique,
 et que le Colombia verra flotter sur ses eaux la voile et la vapeur,
-alors il sera temps de parler de l’Orégon.
+alors il sera temps de parler de l’Oregon.
 Mais alors aussi, sans, bataillons, sans vaisseaux de ligne,
 sans bombarder des villes ni verser le sang des hommes,
-le ,(emph[libre commerce]) fera pour nous la conquête de l’Orégon
+le ,(emph[libre commerce]) fera pour nous la conquête de l’Oregon
 et même des États-Unis,
 si l’on peut appeler conquête ce qui constitue le bien de tous.
 Ils nous enverront leurs produits ;
-nous les paierons avec les nôtres.
+nous les payerons avec les nôtres.
 Il n’y aura pas un pionnier qui ne porte dans ses vêtements
 la livrée de Manchester ;
 la marque de Sheffield sera imprimée sur l’arme qui atteindra le gibier ;
 et le lin de Spitalfield sera la bannière
 que nous ferons flotter sur les rives du Missouri.
-L’Orégon sera conquis en effet, car il travaillera volontairement pour nous ;
+L’Oregon sera conquis en effet, car il travaillera volontairement pour nous ;
 et que peut-on demander de plus à un peuple conquis ?
 C’est pour nous qu’il fera croître le blé,
 et il nous le livrera sans nous demander en retour
@@ -1441,8 +1438,8 @@ ont commencé par réunir toutes leurs forces contre un seul monopole,
 celui des céréales :
 c’est qu’il est la clef de voûte du système tout entier.
 C’est la part de l’aristocratie,
-c’est le lot spécial que se sont adjugé les législitteurs.
-Qu’on leur arrache ce monopole, et ils feront bon marché detous les autres.
+c’est le lot spécial que se sont adjugé les législateurs.
+Qu’on leur arrache ce monopole, et ils feront bon marché de tous les autres.
 ][
 C’est d’ailleurs celui dont le poids est le plus lourd au peuple,
 celui dont l’iniquité est la plus facile à démontrer.
@@ -1465,7 +1462,7 @@ qui seules peuvent les affranchir du joug qui les écrase.
 ][
 Mais ce spectacle devient bien plus imposant encore,
 quand on voit l’immensité du champ de bataille
-s’agrandir chaque jour par lee nombre des questions et des intérêts
+s’agrandir chaque jour par le nombre des questions et des intérêts
 qui viennent, les uns après les autres, s’engager dans la lutte.
 ][
 D’abord l’aristocratie dédaigne de descendre dans la lice.
@@ -1481,7 +1478,7 @@ quand elle contemple la hauteur, l’épaisseur et la cohésion
 des fortifcations dans lesquelles elle s’est retranchée ;
 quand elle compare ses forces avec celles
 que quelques hommes isolés dirigent contre elle,
-,(--) elle croit pouvoir se renfermer dans le silence et le dédain.
+elle croit pouvoir se renfermer dans le silence et le dédain.
 ][
 Cependant la Ligue fait des progrès.
 Si l’aristocratie a pour elle l’Église établie,
@@ -1506,7 +1503,7 @@ la Ligue s’appuie sur la propriété des bras, des facultés et de l’intelli
 Rien n’égale le zèle avec lequel
 les classes manufacturières s’empressent de concourir à la grande ,(oe)uvre.
 Les souscriptions spontanées versent au fonds de la Ligue
-200,000 fr. en 1841,
+200,000 fr. en 1841,
 600,000 en 1842,
 un million en 1843,
 2 millions en 1844 ;
@@ -1536,11 +1533,12 @@ une correspondance qui comprend annuellement plus de 300,000 dépêches ;
 les chemins de fer impriment à ses mouvements un caractère d’ubiquité,
 et l’on voit les mêmes hommes qui ont ,(emph[agité]) le matin à Liverpool
 agiter le soir à Edimbourg ou à Glasgow ;
+,(tag :a :name "gibson_ref")
 enfin la ,(emph[réforme électorale]) a ouvert à la classe moyenne
 les portes du Parlement,
 et les fondateurs de la Ligue,
-les Cobden, les Bright, les Gibson, les Villiers,
-sont admis à combattre le monopole,
+les ,(np "cobden" [Cobden]), les ,(np "bright" [Bright]), les ,(np "gibson" [Gibson]), les ,(np "villiers" [Villiers]),
+sont admis à combattre le monopole
 en face des monopoleurs et dans l’enceinte même où il fut décrété.
 Ils entrent dans la Chambre des communes,
 et ils y forment, en dehors des Whigs et des Torys,
@@ -1555,7 +1553,7 @@ sur qui pèse directement le monopole ;
 il fallait encore dessiller les yeux
 de celles qui croient sincèrement leur bien-être et même leur existence
 attachés au système de la protection.
-M. Cobden entreprend cette rude et périlleuse tâche.
+,(np "cobden" [M. Cobden]) entreprend cette rude et périlleuse tâche.
 Dans l’espace de deux mois,
 il provoque quarante meetings au sein même des populations agricoles.
 Là, entouré souvent de milliers de laboureurs et de fermiers,
@@ -1568,20 +1566,20 @@ de ses plus ardents adversaires.
 Placé dans une position analogue à celle d’un Français
 qui irait prêcher la doctrine de la liberté commerciale
 dans les forges de Decazeville ou parmi les mineurs d’Anzin,
-on ne sait ce qu’il faut le plus admirer, dans cet homme éminent,
+on ne sait ce qu’il faut le plus admirer dans cet homme éminent,
 à la fois économiste, tribun, homme d’État, tacticien, théoricien,
-et auquel-je crois qu’on peut faire une juste application
-de ce qu’on a dit de Destutt de Tracy :
+et auquel je crois qu’on peut faire une juste application
+de ce qu’on a dit de ,(np "destutt" [Destutt de Tracy]) :
 ,(q[A force de bon sens, il atteint au génie.])
-S’es efforts obtiennent la récompense qu’ils méritent,
+Ses efforts obtiennent la récompense qu’ils méritent,
 et l’aristocratie a la douleur de voir le principe de la liberté
 gagner rapidement au sein de la population vouée à l’agriculture.
 ][
-Aussi le temps’ n’est plus où elle s’enveloppait dans sa morgue méprisante ;
+Aussi le temps n’est plus où elle s’enveloppait dans sa morgue méprisante ;
 elle est enfin sortie de son inertie.
-Elle essaie de reprendre l’offensive,
+Elle essaye de reprendre l’offensive,
 et sa première opération est de calomnier la Ligue et ses fondateurs.
-Elle scrute leur vie publique et privée,
+Elle scrute leur vie publique et privée ;
 mais forcée bientôt d’abandonner le champ de bataille des personnalités,
 où elle pourrait bien laisser plus de morts et de blessés que la Ligue,
 elle appelle à son secours l’armée de sophismes
@@ -1602,21 +1600,22 @@ Cependant il se rencontre que les Ligueurs
 ne sont pas seulement des agitateurs courageux ;
 ils sont aussi de profonds économistes.
 Pas un de ces nombreux sophismes ne résiste au choc de la discussion ;
-et, au besoin, des enquêtes parlementaires, provoquées par la Ligue,
+et au besoin, des enquêtes parlementaires, provoquées par la Ligue,
 viennent en démontrer l’inanité.
 ][
 L’aristocratie adopte alors une autre marche.
-La misère est immense, profonde, horrible, et la cause en est patente ;
+La misère est immense, profonde, horrible, et la cause en est patente,
 c’est qu’une odieuse inégalité préside
 à la distribution de la richesse sociale.
 Mais au drapeau de la Ligue qui porte inscrit le mot ,(strong[justice]),
 l’aristocratie oppose une bannière où on lit le mot ,(strong[charité]).
 Elle ne conteste plus les souffrances populaires ;
 mais elle compte sur un puissant moyèn de diversion, l’aumône.
+,(tag :a :name "butler_ref")
 ,(q[Tu souffres, dit-elle au peuple ;
 c’est que tu as trop multiplié,
 et je vais te préparer un vaste système d’émigration.
-(Motion de M. Butler.)
+(Motion de ,(np "butler" [M. Butler]).)
 ,(--) Tu meurs d’inanition ;
 je donnerai à chaque famille un jardin et une vache.
 (Allotments.)
@@ -1644,11 +1643,11 @@ même impuissante, même hypocrite,
 à exciter la reconnaissance irréfléchie de ceux qui souffrent.
 ][
 Je ne reproduirai pas les objections
-que la Ligue oppose à tous ces projets d’institutions prétendues charitables,
-on enverra quelques-unes dans le cours de l’ouvrage.
+que la Ligue oppose à tous ces projets d’institutions prétendues charitables ;
+on en verra quelques-unes dans le cours de l’ouvrage.
 Il me suffira de dire qu’elle s’est associée à celles de ces ,(oe)uvres
 qui ont un caractère incontestable d’utilité.
-C’est ainsi que, parmi les ,(inenglish[free-traders]) de Manchester,
+C’est ainsi que parmi les ,(inenglish[free-traders]) de Manchester,
 il a été recueilli près d’un million
 pour donner de l’espace, de l’air et du jour
 aux quartiers habités par les classes ouvrières.
@@ -1660,7 +1659,7 @@ de montrer le piège caché sous ce fastueux étalage de philanthropie :
 il ne suffit pas de leur dire :
 Nous vous transporterons en Amérique où les aliments abondent ;
 il faut laisser ces aliments entrer en Angleterre.
-Il ne suffit pas de donner aux familles ouvrières
+,(--) Il ne suffit pas de donner aux familles ouvrières
 un jardin pour y faire croître des pommes de terre ;
 il faut surtout ne pas leur ravir une partie des profits
 qui leur procureraient une nourriture plus substantielle.
@@ -1678,27 +1677,27 @@ L’aumône n’a et ne peut avoir
 qu’une action insuffisante, fugitive, incertaine et souvent dégradante.])
 ][
 A bout de ses sophismes, de ses faux-fuyants, de ses prétextes dilatoires,
-il restait une ressource à l’aristocratie la majorité parlementaire,
+il restait une ressource à l’aristocratie : la majorité parlementaire,
 la majorité qui dispense d’avoir raison.
 Le dernier acte de l’agitation devait donc se passer
-au sein des colléges ,(XXX :sic) électoraux.
+au sein des colléges électoraux.
 Après avoir popularisé les saines doctrines économiques,
 la Ligue avait à donner une direction pratique
 aux efforts individuels de ses innombrables prosélytes.
 Modifier profondément les constituants (,(inenglish[constituencies]))
-le corps électoral du royaume, saper l’influence aristocratique,
-attirer sur la corruption les châtiments de la loi et de l’opinion ;
-telle est la nouvelle phase dans laquelle est entrée ,(emph[l’agitation]),
+du royaume, saper l’influence aristocratique,
+attirer sur la corruption les châtiments de la loi et de l’opinion,
+telle est la nouvelle phase dans laquelle est entrée ,(emph[l’agitation])
 avec une énergie que les progrès semblent accroître.
 ,(inlatin[Vires acquirit eundo.])
-A la voix de Cobden, de Bright et de leurs amis,
+A la voix de ,(np "cobden" [Cobden]), de ,(np "bright" [Bright]) et de leurs amis,
 des milliers de ,(inenglish[free-traders])
 se font inscrire sur les listes électorales,
 des milliers de monopoleurs en sont rayés,
-et, d’après la rapidité de ce mouvement,
+et d’après la rapidité de ce mouvement,
 on peut prévoir le jour où le sénat ne représentera plus une classe,
 mais la communauté.
-][
+](nbsp)[
 On demandera peut-être si tant de travaux, tant de zèle, tant de dévouement,
 sont demeurés jusqu’ici sans influence sur la marche des affaires publiques,
 et si le progrès des doctrines libérales dans le pays
@@ -1878,7 +1877,7 @@ que cherchent à réaliser les nations
 qui veulent mettre à profit les bienfaits de la paix.
 ][
 Il est bon de faire observer ici
-que tous les revenus au-dessous de 150 liv. sterl. (3,700 fr.)
+que tous les revenus au-dessous de 150 liv. sterl. (3,700 fr.)
 sont affranchis de la taxe,
 en sorte qu’elle frappe exclusivement la classe riche.
 On a beaucoup répété, de ce côté comme de l’autre côté du détroit,
@@ -1917,7 +1916,7 @@ Toutes les prohibitions ont été abolies.
 Les b,(oe)ufs, les veaux, les moutons, la viande fraîche et salée,
 qui étaient repoussés d’une manière absolue,
 furent admis à des droits modérés ;
-les b,(oe)ufs, par exemple, à 25 fr. par tête
+les b,(oe)ufs, par exemple, à 25 fr. par tête
 (le droit est presque double en France)
 ce qui n’a pas empêché M. Gauthier de Rumilly
 de dire en pleine Chambre, en 1845,
@@ -1980,7 +1979,7 @@ le retour de la prospérité se montre
 par tous les signes qui servent à la révéler,
 et entre autres par les recettes des douanes.
 ](simple-table '(
-([Recettes de l’année]	[1841 (sous le système ancien)]		[19,900,000 l. st.])
+([Recettes de l’année]	[1841 (sous le système ancien)]		[19,900,000 l. st.])
 ([	,(--)	][1842]					[18,700,000])
 ([	,(--)	][1843 première année de la réforme]	[21,400,000])
 ([	,(--)	][1844]					[23,500,000])))
@@ -2038,17 +2037,17 @@ Ce qu’on ajouterait à ce droit serait purement nominal,
 et ce qu’on en retrancherait, dans les limites de cet excédant,
 serait évidemment inefficace.
 Supposez qu’un produit français,
-soumis à la rivalité étrangère, se vende à 15 fr.,
+soumis à la rivalité étrangère, se vende à 15 fr.,
 et qu’affranchi de cette rivalité,
 il ne puisse, à cause de la concurrence intérieure,
-s’élever au-dessus de 20 fr.
-En ce cas, un droit de 5 ou 6 fr.
+s’élever au-dessus de 20 fr.
+En ce cas, un droit de 5 ou 6 fr.
 sur le produit étranger donnera au similaire national
 toute la protection qu’il soit au pouvoir du tarif de conférer.
-Le droit, fût-il porté à 100 fr.,
+Le droit, fût-il porté à 100 fr.,
 n’élèverait pas d’un centime le prix du produit, d’après l’hypothèse même,
 et par conséquent toute réduction,
-qui ne descendrait pas au-dessous de 5 ou 6 fr.,
+qui ne descendrait pas au-dessous de 5 ou 6 fr.,
 serait de nul effet pour le producteur et pour le consommateur.
 ][
 Il semble que l’observation de ce phénomène
@@ -2121,18 +2120,18 @@ Il a établi le tarif suivant :
 [
 Il estime qu’il entrera en Angleterre, sous l’empire de ce nouveau tarif,
 230,000 tonnes de sucre colonial ;
-et la protection étant de 10 sh. par quintal ou 10 liv. st. par tonne,
+et la protection étant de 10 sh. par quintal ou 10 liv. st. par tonne,
 la somme extorquée au consommateur,
 pour être livrée sans compensation aux planteurs,
-sera de 2,300,000 liv. st., ou fr. 57,000,000,
+sera de 2,300,000 liv. st., ou fr. 57,000,000,
 au lieu de 86 millions (Voir page 25).
 ][
 Mais d’un autre côté, il dit :
 ,(q[La conséquence sera que le Trésor recevra du droit sur le sucre,
-par suite de la réduction, liv. st. 3,960,000.
+par suite de la réduction, liv. st. 3,960,000.
 Le revenu obtenu de cette denrée, l’année dernière, a été de 5,216,000 liv.,
 il y, aura donc pour l’année prochaine
-une perte de revenu de 1,300,000 liv. sterl.,]) soit fr. 32,500,000,
+une perte de revenu de 1,300,000 liv. sterl.,]) soit fr. 32,500,000,
 et c’est l’,(inenglish[income-tax]), c’est-à-dire un nouvel impôt,
 qui est chargé de remplir le vide laissé à l’Échiquier ;
 en sorte que si le peuple est soulagé,
@@ -2251,7 +2250,7 @@ et moins encore contre la volonté du premier ministre.
 ][
 Voici le plan du secrétaire du ,(inenglish[Board of trade]).
 ][
-Il suppose que les dépenses s’élèveront, comme aujourd’hui, à 50 millions st.
+Il suppose que les dépenses s’élèveront, comme aujourd’hui, à 50 millions st.
 Elles devront subir sans doute une grande diminution,
 car ce plan entraîne une forte réduction
 dans l’armée, la marine, l’administration des colonies
@@ -2279,8 +2278,8 @@ Il n’y aurait que huit articles soumis aux droits d’entrée, savoir :
 7° fruits secs ;
 8° épiceries.
 ])))
-(trLT [Produit] [21,500,000 l. st.] "\\" [])
-(trLT [Esprits distillés à l’intérieur] [5,000,000] [}] [31,500,000 l. st.])
+(trLT [Produit] [21,500,000 l. st.] "\\" [])
+(trLT [Esprits distillés à l’intérieur] [5,000,000] [}] [31,500,000 l. st.])
 (trLT [Drèche tant indigène qu’importée.] [5,000,000] [/])
 (tr (td :colspan 4
 	[Ces deux derniers impôts réunis à l’administration des douanes.]))
@@ -2302,7 +2301,7 @@ de l’,(inenglish[income-tax]) et du ,(inenglish[land-tax])])
     (tdLB [9,800,000]))
 (tr)
 (tr (tdLT :colspan 3 [Total égal de la dépense])
-    (tdLB [50,000,000 l. st.])))
+    (tdLB [50,000,000 l. st.])))
 [
 Quant à la poste, M. Mac-Grégor pense qu’elle ne doit pas être
 une source de revenus.
@@ -3058,7 +3057,7 @@ la Ligue a étendu maintenant son influence sur tout le pays,
 et est arrivée à un degré d’importance vraiment extraordinaire.
 Ses festivals, ses expositions, ses banquets, ses meetings
 apparaissent comme de grandes solennités publiques….
-Tout membre qui contribue pour 50 l. (1,250 fr.)
+Tout membre qui contribue pour 50 l. (1,250 fr.)
 a un siège et une voix au conseil…
 Elle a des comités d’ouvriers,
 pour favoriser la propagation de ses doctrines

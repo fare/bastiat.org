@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Incompatibilités parlementaires, par Frédéric Bastiat")
 
-(document :title [Incompatibilités parlementaires ,(footnote*[Cet opuscule, publié en mars 1849, fut réimprimé, en 1850, peu de mois avant la mort de l’auteur. L’opinion qu’il y développe avait dans son esprit des racines profondes, ainsi qu’on peut le voir par sa ,(cite-title[Lettre à M. Larnac]), qui date de 1846, et, de plus, par l’écrit de 1830, intitulé : ,(cite-title[Aux Électeurs du département des Landes]). ,(NdEEO)])]
+(document :title [Incompatibilités parlementaires ,(footnote*[Cet opuscule, publié en mars 1849, fut réimprimé, en 1850, peu de mois avant la mort de l’auteur. L’opinion qu’il y développe avait dans son esprit des racines profondes, ainsi qu’on peut le voir par sa ,(ref :url "lettre_larnac.html" [,(cite-title[Lettre à M. Larnac])]), qui date de 1846, et, de plus, par l’écrit de 1830 intitulé : ,(ref :url "aux_electeurs_landes.html" [,(cite-title[Aux Électeurs du département des Landes])]). ,(NdEEO)])]
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
@@ -13,17 +13,17 @@
 ,(date-tag[Mars 1849.])
 ,(cher[Citoyens représentants,])
 
-,(p*[Je vous conjure de donner quelque attention à cet écrit.
+,(p*[Je vous conjure de donner quelque attention à cet écrit.])
+
+,(liste(p*[— « Est-il bon d’exclure de l’Assemblée nationale des catégories de citoyens ? »
 ][
-— « Est-il bon d’exclure de l’Assemblée nationale des catégories de citoyens ? »
+— « Est-il bon de faire briller aux yeux des représentants les hautes situations politiques ? »]))
+
+,(p*[Voilà les deux questions que j’y traite. La constitution elle-même n’en a pas soulevé de plus importantes.
 ][
-— « Est-il bon de faire briller aux yeux des représentants les hautes situations politiques ? »
+Cependant, chose étrange, l’une d’elles, la seconde, a été décidée sans discussion.
 ][
-Voilà les deux questions que j’y traite. La constitution elle-même n’en a pas soulevé de plus importantes.
-][
-Cependant, chose étrange, l’une d’elles, la seconde, — a été décidée sans discussion.
-][
-Le ministère doit-il se recruter dans la Chambre ? — L’Angleterre dit : ,(emph[Oui]), et s’en trouve mal. L’Amérique dit : ,(emph[Non]), et s’en trouve bien. — 89 adopta la pensée américaine ; 1814 préféra l’idée anglaise. — Entre de telles autorités, il y a, ce semble, de quoi balancer. Cependant l’Assemblée nationale s’est prononcée pour le système de la Restauration, importé d’Angleterre ; et cela, sans débat.
+Le ministère doit-il se recruter dans la Chambre ? — L’Angleterre dit : ,(emph[Oui]), et s’en trouve mal. L’Amérique dit : ,(emph[Non]), et s’en trouve bien. — 89 adopta la pensée américaine ; 1814 préféra l’idée anglaise. — Entre de telles autorités, il y a, ce semble, de quoi balancer. Cependant l’Assemblée nationale s’est prononcée pour le système de la Restauration, importé d’Angleterre, et cela, sans débat.
 ][
 L’auteur de cet écrit avait proposé un amendement. Pendant qu’il montait les degrés de la tribune… la question était tranchée. Je propose, dit-il… — La Chambre a voté, s’écrie M. le président. — Quoi ! sans m’admettre à… — La Chambre a voté. — Mais personne ne s’en est aperçu ! — Consultez le bureau, la Chambre a voté.
 ][
@@ -33,26 +33,24 @@ Que faire ? saisir l’Assemblée avant le vote définitif. Je le fais par écr
 ][
 D’ailleurs, pour l’épreuve d’une discussion orale, il faut des poumons de Stentor s’adressant à des oreilles attentives. Décidément, le plus sûr est d’écrire.
 ][
-Citoyens représentants, en mon âme et conscience, je crois que le titre IV de la Loi électorale est à refaire. Tel qu’il est, il organise l’anarchie. Il en est temps encore, ne léguons pas ce fléau au pays.
+Citoyens représentants, en mon âme et conscience, je crois que le titre IV de la Loi électorale est à refaire. Tel qu’il est, il organise l’anarchie. Il en est temps encore, ne léguons pas ce fléau au pays.
 ][
-Les Incompatibilités parlementaires soulèvent deux questions profondément distinctes, quoiqu’on les ait souvent confondues.
+Les Incompatibilités parlementaires soulèvent deux questions profondément distinctes, quoiqu’on les ait souvent confondues.])
+,(liste(p*[— La représentation nationale sera-t-elle ouverte ou fermée à ceux qui suivent la carrière des fonctions publiques ?
 ][
-— La représentation nationale sera-t-elle ouverte ou fermée à ceux qui suivent la carrière des fonctions publiques ?
-][
-— La carrière des fonctions publiques sera-t-elle ouverte ou fermée aux représentants ?
-][
-Ce sont là certainement deux questions différentes et qui n’ont même entre elles aucun rapport, si bien que la solution de l’une ne préjuge rien quant à la solution de l’autre. La députation peut être accessible aux fonctionnaires, sans que les fonctions soient accessibles aux députés, et réciproquement.
+— La carrière des fonctions publiques sera-t-elle ouverte ou fermée aux représentants ?]))
+
+,(p*[Ce sont là certainement deux questions différentes et qui n’ont même entre elles aucun rapport, si bien que la solution de l’une ne préjuge rien quant à la solution de l’autre. La députation peut être accessible aux fonctionnaires, sans que les fonctions soient accessibles aux députés, et réciproquement.
 ][
 La loi que nous discutons est très-sévère quant à l’admission des fonctionnaires à la Chambre, très-tolérante en ce qui concerne l’admission des représentants aux hautes situations politiques. Dans le premier cas, elle me semble s’être laissée entraîner à un radicalisme de mauvais aloi. En revanche, dans le second, elle n’est pas même prudente.
 ][
-Je ne dissimule pas que j’arrive, dans cet écrit, à des conclusions tout opposées.
+Je ne dissimule pas que j’arrive, dans cet écrit, à des conclusions tout opposées.])
+,(liste(p*[Pour passer des places à la Chambre, pas d’exclusion, mais précautions suffisantes.
 ][
-Pour passer des places à la Chambre, pas d’exclusion, mais précautions suffisantes.
-][
-Pour passer de la Chambre aux places, exclusion absolue.
-][
-Respect au suffrage universel ! Ceux qu’il fait représentants doivent ,(emph[être]) représentants, et ,(emph[rester]) représentants. Pas d’exclusion à l’entrée, exclusion absolue à la sortie. Voilà le principe. Nous allons voir qu’il est d’accord avec l’utilité générale.
-][
+Pour passer de la Chambre aux places, exclusion absolue.]))
+
+,(p*[Respect au suffrage universel ! Ceux qu’il fait représentants doivent ,(emph[être]) représentants, et ,(emph[rester]) représentants. Pas d’exclusion à l’entrée, exclusion absolue à la sortie. Voilà le principe. Nous allons voir qu’il est d’accord avec l’utilité générale.
+](nbsp)[
 ,(strong[§ I. Les électeurs peuvent-ils se faire représenter par des fonctionnaires ?])
 ][
 Je réponds : Oui, sauf à la société à s’entourer de précautions suffisantes.
@@ -63,11 +61,11 @@ Je demande s’il y a excès de subtilité à se prévaloir du mot ,(emph[foncti
 ][
 L’Assemblée nationale a interprété ainsi l’article 28 de la constitution, à l’occasion de l’armée, et comme je n’arrive à autre chose qu’à étendre cette interprétation à tous les fonctionnaires, j’ai lieu de croire qu’il me sera permis de ne pas m’arrêter à la fin de non-recevoir que le rapport met sur mon chemin.
 ][
-Ce que je demande en effet, c’est ceci : Que tout électeur soit éligible. Que les colléges électoraux puissent se faire représenter par quiconque a mérité leur confiance. Mais si le choix des électeurs tombe sur un fonctionnaire public, c’est l’homme et non la fonction qui entre à la Chambre. Le fonctionnaire ne perdra pas pour cela ses droits antérieurs et ses titres. On n’exigera pas de lui le sacrifice d’une véritable propriété acquise, par de longs et utiles travaux. La société n’a que faire d’exigences superflues et doit se contenter de précautions suffisantes. Ainsi, le fonctionnaire sera soustrait à l’influence du pouvoir exécutif ; il ne pourra être promu ou destitué. Il sera mis à l’abri des suggestions de l’espérance et de la crainte. Il ne pourra exercer ses fonctions ou en percevoir les émoluments. En un mot, il sera représentant, ne sera que représentant, pendant toute la durée de son mandat. Sa vie administrative sera, pour ainsi dire, suspendue et comme absorbée par sa vie parlementaire. C’est bien là ce qu’on a fait pour les militaires, grâce à la distinction entre le grade et l’emploi. Par quel motif ne le ferait-on pas pour les magistrats ?
+Ce que je demande en effet, c’est ceci : Que tout électeur soit éligible. Que les colléges électoraux puissent se faire représenter par quiconque a mérité leur confiance. Mais si le choix des électeurs tombe sur un fonctionnaire public, c’est l’homme et non la fonction qui entre à la Chambre. Le fonctionnaire ne perdra pas pour cela ses droits antérieurs et ses titres. On n’exigera pas de lui le sacrifice d’une véritable propriété acquise par de longs et utiles travaux. La société n’a que faire d’exigences superflues, et doit se contenter de précautions suffisantes. Ainsi, le fonctionnaire sera soustrait à l’influence du pouvoir exécutif ; il ne pourra être promu ou destitué. Il sera mis à l’abri des suggestions de l’espérance et de la crainte. Il ne pourra exercer ses fonctions ou en percevoir les émoluments. En un mot, il sera représentant, ne sera que représentant, pendant toute la durée de son mandat. Sa vie administrative sera, pour ainsi dire, suspendue et comme absorbée par sa vie parlementaire. C’est bien là ce qu’on a fait pour les militaires, grâce à la distinction entre le grade et l’emploi. Par quel motif ne le ferait-on pas pour les magistrats ?
 ][
 Qu’on veuille bien le remarquer : l’,(emph[incompatibilité]), prise dans le sens de l’,(emph[exclusion]), est une idée qui dut naturellement se présenter et se populariser sous le régime déchu.
 ][
-À cette époque, aucune indemnité n’était accordée aux députés non fonctionnaires, mais ils pouvaient se faire de la députation un marchepied vers les places lucratives. Au contraire, les fonctionnaires publics nommés députés continuaient à recevoir leurs traitements. À vrai dire, ils étaient payés, non comme fonctionnaires, mais comme députés, puisqu’ils ne remplissaient pas leurs fonctions, et que, si le ministre était mécontent de leurs votes, il pouvait, en les destituant, leur retirer tout salaire.
+A cette époque, aucune indemnité n’était accordée aux députés non fonctionnaires, mais ils pouvaient se faire de la députation un marchepied vers les places lucratives. Au contraire, les fonctionnaires publics nommés députés continuaient à recevoir leurs traitements. A vrai dire, ils étaient payés, non comme fonctionnaires, mais comme députés, puisqu’ils ne remplissaient pas leurs fonctions, et que, si le ministre était mécontent de leurs votes, il pouvait, en les destituant, leur retirer tout salaire.
 ][
 Les résultats d’une telle combinaison devaient être et furent, en effet, déplorables. D’un côté, les candidats non fonctionnaires étaient fort rares dans la plupart des arrondissements. Les électeurs étaient ,(emph[libres]) de choisir ; oui, mais le cercle du choix ne s’étendait pas au delà de cinq à six personnes. La première condition de l’éligibilité était une fortune considérable. Que si un homme, seulement dans l’aisance, se présentait, il était repoussé avec quelque raison, car on le soupçonnait d’avoir de ces vues ultérieures que la charte n’interdisait pas.
 ][
@@ -93,14 +91,14 @@ Des changements aussi profonds dans la situation respective des deux classes son
 ][
 L’Incompatibilité, en tant que synonyme d’Exclusion, présente trois grands inconvénients :
 ][
-1° C’en est un énorme que de restreindre les choix du ,(emph[suffrage universel]). Le suffrage universel est un principe aussi jaloux qu’absolu. Quand une population tout entière aura environné d’estime, de respect, de confiance, d’admiration, un conseiller de Cour d’appel, par exemple, quand elle aura foi dans ses lumières et ses vertus ; croyez-vous qu’il sera facile de lui faire comprendre qu’elle peut confier à qui bon lui semble le soin de corriger sa législation, excepté à ce digne magistrat ?
+1° C’en est un énorme que de restreindre les choix du ,(emph[suffrage universel]). Le suffrage universel est un principe aussi jaloux qu’absolu. Quand une population tout entière aura environné d’estime, de respect, de confiance, d’admiration, un conseiller de Cour d’appel, par exemple, quand elle aura foi dans ses lumières et ses vertus, croyez-vous qu’il sera facile de lui faire comprendre qu’elle peut confier à qui bon lui semble le soin de corriger sa législation, excepté à ce digne magistrat ?
 ][
 2° Ce n’est pas une tentative moins exorbitante que celle de dépouiller du plus beau droit politique, de la plus noble récompense de longs et loyaux services, récompense décernée par le libre choix des électeurs, toute une catégorie de citoyens. On pourrait presque se demander jusqu’à quel point l’Assemblée nationale a ce droit.
 ][
-3° Au point de vue de l’utilité pratique, il saute aux yeux que le niveau de l’expérience et des lumières doit se trouver bien abaissé dans une Chambre, renouvelable tous les trois ans, et d’où sont exclus tous les hommes rompus aux affaires publiques. Quoi ! voilà une assemblée qui doit s’occuper de marine, et il n’y aura pas un marin ! d’armée, et il n’y aura pas de militaire ! de législation civile et criminelle, et il n’y aura pas de magistrat !
+3° Au point de vue de l’utilité pratique, il saute aux yeux que le niveau de l’expérience et des lumières doit se trouver bien abaissé dans une Chambre, renouvelable tous les trois ans, et d’où sont exclus tous les hommes rompus aux affaires publiques. Quoi ! voilà une assemblée qui doit s’occuper de marine, et il n’y aura pas un marin ? d’armée, et il n’y aura pas de militaire ? de législation civile et criminelle, et il n’y aura pas de magistrat ?
 ][
-Il est vrai que les militaires et les marins sont admis, grâce à une loi étrangère à la matière et par des motifs qui ne sont pas pris du fond de la question. Mais cela même est un quatrième et grave inconvénient ajouté aux trois autres. Le peuple ne comprendra pas que, dans l’enceinte où se font les lois, l’épée soit présente et la robe absente, parce qu’en 1832 ou 1834 une organisation particulière fut introduite dans l’armée. Une inégalité si choquante, dira-t-il, ne devait pas résulter d’une loi ancienne et tout à fait contingente. Vous étiez chargés de faire une loi électorale complète, il en valait bien la peine, et vous ne deviez pas y introduire une inconséquence monstrueuse, à la faveur d’un article perdu du Code militaire. Mieux eût valu l’Incompatibilité absolue. Elle eût eu au moins le prestige d’un principe.
-][
+Il est vrai que les militaires et les marins sont admis, grâce à une loi étrangère à la matière et par des motifs qui ne sont pas pris du fond de la question. Mais cela même est un quatrième et grave inconvénient ajouté aux trois autres. Le peuple ne comprendra pas que dans l’enceinte où se font les lois, l’épée soit présente et la robe absente, parce qu’en 1832 ou 1834 une organisation particulière fut introduite dans l’armée. Une inégalité si choquante, dira-t-il, ne devait pas résulter d’une loi ancienne et tout à fait contingente. Vous étiez chargés de faire une loi électorale complète, il en valait bien la peine, et vous ne deviez pas y introduire une inconséquence monstrueuse, à la faveur d’un article perdu du Code militaire. Mieux eût valu l’Incompatibilité absolue. Elle eût eu au moins le prestige d’un principe.
+](nbsp)[
 Quelques mots maintenant sur les précautions que la société me semble avoir le droit de prendre à l’égard des fonctionnaires nommés représentants.
 ][
 On pourra essayer de me faire tomber dans l’inconséquence et me dire : Puisque vous n’admettez pas de limites au choix du suffrage universel, puisque vous ne croyez pas qu’on puisse priver une catégorie de citoyens de leurs droits politiques, comment admettez-vous que l’on prenne, à l’égard des uns, des précautions plus ou moins restrictives, dont les autres sont affranchis ?
@@ -113,11 +111,11 @@ Entre les fonctions publiques et les industries privées, il y a quelque chose d
 ][
 Mais voici ce qu’il y a de différent. Chacun est libre d’accepter ou de refuser les services privés, de les recevoir dans la mesure qui lui convient et d’en débattre le prix. Je ne puis forcer qui que ce soit à acheter mes pamphlets, à les lire, à les payer au taux auquel l’éditeur les mettrait, s’il en avait la puissance.
 ][
-Mais tout ce qui concerne les services publics est réglé d’avance par la loi. Ce n’est pas moi qui juge ce que j’achèterai de ,(emph[sécurité]) et combien je la paierai. Le fonctionnaire m’en donne tout autant que la loi lui prescrit de m’en donner, et je le paie pour cela tout autant que la loi me prescrit de le payer. Mon libre arbitre n’y est pour rien.
+Mais tout ce qui concerne les services publics est réglé d’avance par la loi. Ce n’est pas moi qui juge ce que j’achèterai de ,(emph[sécurité]) et combien je la payerai. Le fonctionnaire m’en donne tout autant que la loi lui prescrit de m’en donner, et je le paye pour cela tout autant que la loi me prescrit de le payer. Mon libre arbitre n’y est pour rien.
 ][
 Il est donc bien essentiel de savoir qui fera cette loi.
 ][
-Comme il est dans la nature de l’homme de vendre le plus possible, la plus mauvaise marchandise possible, au plus haut prix possible, il est à croire que nous serions horriblement et chèrement administrés, si ceux qui ont le privilége de vendre les produits gouvernementaux avaient aussi celui d’en déterminer la quantité, la qualité et le prix. ,(footnote*[V. au tome IV, les pages 10 et 11 ; au tome VI, le chap. XVII ; et, au présent tome, la page 443 et suiv. ,(NdEEO)])
+Comme il est dans la nature de l’homme de vendre le plus possible, la plus mauvaise marchandise possible, au plus haut prix possible, il est à croire que nous serions horriblement et chèrement administrés, si ceux qui ont le privilége de vendre les produits gouvernementaux avaient aussi celui d’en déterminer la quantité, la qualité et le prix.
 ][
 C’est pourquoi, en présence de cette vaste organisation qu’on appelle le gouvernement, et qui, comme tous les corps organisés, aspire incessamment à s’accroître, la nation, représentée par ses députés, décide elle-même sur quels points, dans quelle mesure, à quel prix elle entend être gouvernée et administrée.
 ][
@@ -131,9 +129,9 @@ Mais ce que nous avons le droit de faire, comme chargés de formuler une loi él
 ][
 C’est le but de la première partie de mon amendement.
 ][
-Il me semble tout concilier.
-][
-Il respecte le droit des électeurs.
+Il me semble tout concilier.])
+
+,(liste(p*[Il respecte le droit des électeurs.
 ][
 Il respecte, dans le fonctionnaire, le droit du citoyen.
 ][
@@ -145,15 +143,15 @@ Il assure l’indépendance de ceux par qui elle sera obtenue.
 ][
 Il laisse entier le droit tout en anéantissant l’abus.
 ][
-Il élève le niveau de l’expérience et des lumières dans la Chambre.
-][
-En un mot, il concilie les principes avec l’utilité.
-][
+Il élève le niveau de l’expérience et des lumières dans la Chambre.]))
+
+,(p*[En un mot, il concilie les principes avec l’utilité.
+](nbsp)[
 Mais, si ce n’est pas ,(emph[avant]) l’élection qu’il faut placer l’incompatibilité, il faut certainement la placer ,(emph[après]). Les deux parties de mon amendement se tiennent, et j’aimerais mieux cent fois le voir repoussé tout entier qu’accueilli à moitié.
-][
+](nbsp)[
 ,(strong[§ II. Les représentants peuvent-ils devenir fonctionnaires ?])
 ][
-À toutes les époques, lorsqu’il a été question de ,(emph[réforme parlementaire]), on a senti la nécessité de fermer aux députés la carrière des fonctions publiques.
+A toutes les époques, lorsqu’il a été question de ,(emph[réforme parlementaire]), on a senti la nécessité de fermer aux députés la carrière des fonctions publiques.
 ][
 On se fondait sur ce raisonnement, qui est en effet très-concluant : Les gouvernés nomment des mandataires pour surveiller, contrôler, limiter et, au besoin, accuser les gouvernants. Pour remplir cette mission, il faut qu’ils conservent, à l’égard du pouvoir, toute leur indépendance. Que si celui-ci enrôle les représentants dans ses cadres, le but de l’institution est manqué. — Voilà l’objection constitutionnelle.
 ][
@@ -167,7 +165,7 @@ Mais, à toutes les époques aussi, l’opinion publique a pensé que l’,(emph
 ][
 Aussi, dans tous les plans de ,(emph[réforme parlementaire]) qui se sont produits avant Février, dans celui de M. Gauguier, comme dans celui de M. de Rumilly, comme dans celui de M. Thiers, si l’article ,(1er) posait toujours hardiment le principe, l’article 2 reproduisait invariablement l’exception.
 ][
-À vrai dire, je crois qu’il ne venait à la pensée de personne qu’il en pût être autrement.
+A vrai dire, je crois qu’il ne venait à la pensée de personne qu’il en pût être autrement.
 ][
 Et comme l’opinion publique, qu’elle ait tort ou raison, finit toujours par l’emporter, l’art. 79 du projet de la Loi électorale n’est encore qu’une seconde manifestation de son triomphe.
 ][
@@ -313,7 +311,7 @@ Mais voici M. Molé au pouvoir. Deux hommes de talent sont entrés à la Chambr
 ][
 Quel terrain vont-ils choisir ? Ce sera celui des questions extérieures. C’est à peu près le seul où deux hommes d’opinions politiques opposées puissent momentanément se rencontrer. D’ailleurs, il est merveilleusement propre au but qu’on a en vue. « Le ministère est lâche, traître, il humilie le drapeau français ; nous sommes, nous, les vrais patriotes, les défenseurs de l’honneur national. » Quoi de mieux calculé pour abaisser son adversaire et s’élever soi-même aux yeux d’une opinion publique, qu’on sait être si chatouilleuse en fait de point d’honneur ? Il est vrai que si on pousse trop loin, dans les masses, cette exaltation de patriotisme, il en pourra résulter d’abord une échauffourée, ensuite une conflagration universelle. Mais ce n’est là qu’une éventualité secondaire aux yeux d’une coalition, l’essentiel est de saisir le pouvoir.
 ][
-À l’époque dont nous parlons, M. Molé avait trouvé la France engagée par un traité qui portait textuellement, si je ne me trompe, cette clause : « Quand les Autrichiens quitteront les Légations, les Français quitteront Ancône. » Or, les Autrichiens ayant évacué les Légations, les Français évacuèrent Ancône. Rien au monde de plus naturel et de plus juste. À moins de prétendre que la gloire de la France consiste à violer les traités et que la parole lui a été donnée pour tromper ceux avec qui elle traite, M. Molé avait mille fois raison.
+A l’époque dont nous parlons, M. Molé avait trouvé la France engagée par un traité qui portait textuellement, si je ne me trompe, cette clause : « Quand les Autrichiens quitteront les Légations, les Français quitteront Ancône. » Or, les Autrichiens ayant évacué les Légations, les Français évacuèrent Ancône. Rien au monde de plus naturel et de plus juste. A moins de prétendre que la gloire de la France consiste à violer les traités et que la parole lui a été donnée pour tromper ceux avec qui elle traite, M. Molé avait mille fois raison.
 ][
 C’est pourtant sur cette question que MM. Thiers et Guizot, secondés par l’opinion égarée, parvinrent à le renverser. Et ce fut à cette occasion que M. Thiers professa, sur la valeur des engagements internationaux, cette fameuse doctrine qui en a fait un homme impossible, car elle ne tendait à rien moins qu’à faire de la France elle-même une nation impossible, au moins parmi les peuples civilisés. Mais le propre des coalitions est de créer à ceux qui y entrent des embarras et des obstacles futurs. La raison en est simple. Pendant qu’on est de l’opposition systématique, on affiche des principes sublimes, on étale un patriotisme farouche, on se revêt d’un rigorisme outré. Quand vient l’heure du succès, on entre au ministère ; mais on est bien forcé de laisser tout ce bagage déclamatoire à la porte, et l’on suit humblement la politique de son prédécesseur. C’est ainsi que toute foi s’éteint dans la conscience publique. Le peuple voit se perpétuer une politique qu’on lui a enseigné à trouver pitoyable. Il se dit tristement : Les hommes qui avaient gagné ma confiance par leurs beaux discours d’opposition, ne manquent jamais de la trahir quand ils sont ministres. — Heureux s’il n’ajoute pas : Je m’adresserai dorénavant, non à des discoureurs, mais à des hommes d’action.
 ][
@@ -345,7 +343,7 @@ Quant à la question extérieure, tout le monde comprend le danger de ce travail
 ][
 Malheureusement l’éducation universitaire est en contradiction flagrante avec ces besoins de notre temps. En nous faisant vivre pendant toute notre jeunesse de la vie des Spartiates et des Romains, elle entretient dans nos âmes ce sentiment commun aux enfants et aux barbares : l’admiration de la force brutale. La vue d’un beau régiment, le bruit des fanfares, l’aspect de ces machines que les hommes ont inventées pour se casser réciproquement les bras et les jambes, les poses d’un tambour-major, tout cela nous met en extase. Comme les barbares, nous croyons que ,(emph[patriotisme]) signifie ,(emph[haine de l’étranger]). Dès que notre intelligence commence à poindre, on ne l’entretient que des vertus militaires, de la grande politique des Romains, de leur profonde diplomatie, de la force de leurs légions. Nous apprenons la morale dans Tite-Live. Notre catéchisme, c’est Quinte-Curce, et on offre à notre enthousiasme, comme l’idéal de la civilisation, un peuple qui avait fondé ses moyens d’existence sur le pillage méthodique du monde entier. Il est aisé de comprendre combien les efforts des coalitions parlementaires, toujours dirigés dans le sens de la guerre, nous trouvent bien disposés à les seconder. Elles ne sauraient semer sur un champ mieux préparé. Aussi il a tenu à bien peu de chose que, dans l’espace de quelques années, elles ne nous aient mis aux prises avec l’Espagne, avec le Maroc, avec la Turquie, avec la Russie, avec l’Autriche, et trois fois avec l’Angleterre. Où en serait la France si de telles calamités n’eussent pas été détournées, à grand’peine et presque malgré elle ? Louis-Philippe est tombé, mais rien ne m’empêchera de dire qu’il a rendu au monde l’immense service de maintenir la paix. Que de sueurs lui a coûtées ce succès digne des bénédictions des peuples ! Et pourquoi ? (c’est ici le cœur de ma thèse) parce qu’à un moment donné la paix n’avait plus pour elle l’opinion publique. Et pourquoi n’avait-elle pas pour elle l’opinion ? Parce qu’elle ne convenait pas aux journaux. Et pourquoi ne convenait-elle pas aux journaux ? Parce qu’elle était importune à tel député, candidat-ministre. Et pourquoi enfin était-elle importune à ce député ? Parce que les accusations de faiblesse, de trahison, ont été, sont et seront toujours l’arme favorite des députés qui, aspirant aux portefeuilles, ont besoin de renverser ceux qui les tiennent.
 ][
-L’autre point sur lequel les coalitions attaquent ordinairement le ministère, c’est la corruption. À cet égard, pendant le dernier régime, elles avaient beau jeu. Mais cette corruption même, les coalitions n’en font-elles pas, pour ainsi dire, une fatalité ? Le pouvoir qu’on attaque sur un sujet où il a raison, comme, par exemple, quand on veut le pousser à une guerre injuste, se défend d’abord par la raison. Mais bientôt il s’aperçoit qu’elle est impuissante et qu’elle vient se briser contre une opposition systématique. Alors, quelle ressource lui reste ? C’est de se créer à tout prix une majorité compacte et d’opposer ,(emph[parti pris]) à ,(emph[parti pris]). Ce fut l’arme défensive de Walpole, ç’a été celle de M. Guizot. On ne m’accusera pas, j’espère, de présenter ici l’apologie ou la justification de la corruption. Mais je dis ceci : le cœur humain étant donné, les coalitions la rendent fatale. Le contraire implique contradiction, car si le ministère était honnête, il tomberait. Il existe, donc il corrompt. Il n’y a jamais eu de cabinets un peu stables que ceux qui se sont créé ainsi une majorité quand même : Walpole, North, Villèle, Guizot.
+L’autre point sur lequel les coalitions attaquent ordinairement le ministère, c’est la corruption. A cet égard, pendant le dernier régime, elles avaient beau jeu. Mais cette corruption même, les coalitions n’en font-elles pas, pour ainsi dire, une fatalité ? Le pouvoir qu’on attaque sur un sujet où il a raison, comme, par exemple, quand on veut le pousser à une guerre injuste, se défend d’abord par la raison. Mais bientôt il s’aperçoit qu’elle est impuissante et qu’elle vient se briser contre une opposition systématique. Alors, quelle ressource lui reste ? C’est de se créer à tout prix une majorité compacte et d’opposer ,(emph[parti pris]) à ,(emph[parti pris]). Ce fut l’arme défensive de Walpole, ç’a été celle de M. Guizot. On ne m’accusera pas, j’espère, de présenter ici l’apologie ou la justification de la corruption. Mais je dis ceci : le cœur humain étant donné, les coalitions la rendent fatale. Le contraire implique contradiction, car si le ministère était honnête, il tomberait. Il existe, donc il corrompt. Il n’y a jamais eu de cabinets un peu stables que ceux qui se sont créé ainsi une majorité quand même : Walpole, North, Villèle, Guizot.
 ][
 Et maintenant que le lecteur veuille bien se représenter un pays où les grandes réunions politiques, les Chambres, les corps électoraux sont incessamment travaillés, d’un côté, par les manœuvres de l’opposition systématique, aidée du journalisme, semant la haine, le mensonge et les idées belliqueuses ; de l’autre, par les manœuvres ministérielles infiltrant la vénalité et la corruption jusqu’aux dernières fibres du corps social ! Et cela dure des siècles. Et cela devient l’état permanent du régime représentatif. Faut-il s’étonner si les honnêtes gens finissent par en désespérer ? Il est vrai que l’on voit de temps en temps les meneurs changer de rôle. Mais cette circonstance ne fait que substituer aux derniers vestiges de la foi un scepticisme universel et indélébile.
 ][
@@ -369,7 +367,7 @@ Or, je le demande, en m’appuyant sur les leçons du passé, déclarer que les 
 ][
 Maintenant j’aborde deux objections.
 ][
-On dit : Vous voyez bien des choses dans l’admissibilité des députés au ministère. À vous entendre, il semble que, sans elle, la république serait un paradis. En leur fermant la porte du pouvoir, croyez-vous donc éteindre toutes les passions ? N’avez-vous pas déclaré vous-même qu’en Angleterre les coalitions deviennent impossibles à force d’être impopulaires, et n’a-t-on pas vu Peel et Russell se prêter réciproquement un loyal concours ?
+On dit : Vous voyez bien des choses dans l’admissibilité des députés au ministère. A vous entendre, il semble que, sans elle, la république serait un paradis. En leur fermant la porte du pouvoir, croyez-vous donc éteindre toutes les passions ? N’avez-vous pas déclaré vous-même qu’en Angleterre les coalitions deviennent impossibles à force d’être impopulaires, et n’a-t-on pas vu Peel et Russell se prêter réciproquement un loyal concours ?
 ][
 Cet argument revient à ceci : De ce qu’il y aura toujours de mauvaises passions, concluons qu’il faut mettre dans la loi un aliment à la plus mauvaise de toutes. — Qu’avec le temps et à force de faire du mal les coalitions s’usent, je le crois. Il n’y a pas de fléau dont on n’en puisse dire autant, et c’est un singulier motif pour en mettre le germe dans nos lois. Des guerres inutiles, des impôts accablants, fruit des coalitions, ont appris à l’Angleterre à les mépriser. Je ne dis pas qu’au bout de deux ou trois siècles, au prix des mêmes calamités, nous ne puissions apprendre la même leçon. La question est de savoir s’il vaut mieux repousser une mauvaise loi, ou l’adopter sur ce fondement que l’excès du mal qui en sortira provoquera, dans cent ans, une réaction vers le bien.
 ][
