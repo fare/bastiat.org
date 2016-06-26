@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 21 janvier 1850.])
 ,(p :align 'center (strong[
-	P. J. Proudhon à F. Bastiat.]))
+	,(np "proudhon" [P.-J. Proudhon]) à F. Bastiat.]))
 ,(p*(font :size "-1" (strong[
 
 Maintien de l’imputation d’ignorance.
@@ -35,7 +35,7 @@ Aussi est-ce avec une joie bien franche que je rétracte mes paroles.
 Je ne vous ai pas trompé non plus ;
 je n’ai pas manqué, comme vous dites, au devoir de l’hospitalité.
 Toutes vos lettres ont été, comme je l’avais promis,
-religieusement insérées dans ,(cite-title[la Voix du Peuple]),
+religieusement insérées dans ,(tj "vp" [,(cite-title[la Voix du Peuple])]),
 sans réserves, sans réflexions, sans commentaires.
 De mon côté, j’ai fait les plus grands efforts
 pour donner à la discussion une marche régulière,
@@ -96,18 +96,18 @@ Peut-être, cette fois, mon esprit parviendra-t-il à saisir le vôtre :
 mais qui me garantit que vous n’allez pas me reprocher encore de changer,
 pour la quatrième fois, de méthode ?
 ][
-Qu’est-ce que le ,(emph[capital]) ?
+Qu’est-ce que le ,(emph[capital ?])
 ][
 Les auteurs ne sont point d’accord de la définition :
 à peine s’ils s’entendent même sur la chose.
-][
-J. B. Say définit le capital :
+][,(tag :a :name "say_ref")
+,(np "say_jb" [J.-B. Say]) définit le capital :
 La ,(emph[simple accumulation des produits]).
 ][
-Rossi : ,(emph[Un produit épargné, et destiné à la reproduction]).
+,(np "rossi" [Rossi]) : ,(emph[Un produit épargné, et destiné à la reproduction]).
 ][
-J. Garnier, qui les cite : ,(emph[Du travail accumulé]),(pv)
-ce qui rentre dans la définition de J. B. Say,
+,(np "garnier" [J. Garnier]), qui les cite : ,(emph[Du travail accumulé ;])
+ce qui rentre dans la définition de ,(np "say_jb" [J.-B. Say]),
 ,(emph[accumulation des produits]).
 ][
 Ce dernier, toutefois, s’exprime ailleurs d’une façon plus explicite :
@@ -116,8 +116,8 @@ On entend, dit-il, par capital,
 ][
 Suivant vous enfin, le capital est un ,(emph[excédant]) ou
 ,(emph[reste de produit non consommé, et destiné à la reproduction]).
-,(--) C’est ce qui résulte de votre apologue de l’ouvrier qui gagne ,(enFr[1,500]) par an,
-en consomme 1,200, et réserve les ,(enFr[300]) restants,
+,(--) C’est ce qui résulte de votre apologue de l’ouvrier qui gagne 1,500 fr. par an,
+en consomme 1,200, et réserve les 300 fr. restants,
 soit pour les mettre dans son fonds d’exploitation, soit,
 ce qui revient, selon vous, au même, pour les prêter à intérêt.
 ][
@@ -129,7 +129,7 @@ suivant ceux qui font profession de l’enseigner,
 et vous êtes du nombre,
 positive, réelle, exacte, en est encore à trouver ses définitions !
 ][
-J. Garnier désespérant, par la parole, de donner l’idée de la chose,
+,(np "garnier" [J. Garnier]) désespérant, par la parole, de donner l’idée de la chose,
 essaye, comme vous, de la montrer :
 ,(q[Ce sont produits, dit-il, tels que marchandises, outils,
 bâtiments, bestiaux, sommes de monnaie, etc.,
@@ -137,10 +137,10 @@ fruits d’une industrie antérieure, et qui servent à la reproduction.])
 ][
 Plus loin il fait observer, tant il y a d’hésitation en son esprit,
 que dans la notion de ,(emph[capital]) entre celle d’,(emph[avance]).
-,(q[Or, qu’est-ce qu’une ,(emph[avance ?])
-,(--) Une avance est une valeur employée de telle sorte
-qu’elle se trouvera rétablie plus tard.])
-Ainsi dit M. Granier ;
+Or, qu’est-ce qu’une ,(emph[avance ?])
+,(--) « Une avance est une valeur employée de telle sorte
+qu’elle se trouvera rétablie plus tard. »
+Ainsi dit ,(np "garnier" [M. Garnier]) ;
 et je pense que le lecteur,
 après cette explication,
 n’en sera lui-même guère plus avancé.
@@ -149,7 +149,7 @@ Essayons de venir au secours des économistes.
 ][
 Ce qui résulte jusqu’ici des définitions des auteurs,
 c’est qu’ils ont tous le ,(emph[sentiment]) d’un quelque chose
-qui a nom ,(strong[capital]),(pv)
+qui a nom ,(strong[capital]) ;
 mais ce quelque chose,
 ils sont impuissants à le déterminer, il ne le ,(emph[savent]) pas.
 A travers le fatras de leurs explications,
@@ -172,7 +172,7 @@ nous viendrons peut-être à bout de leur faire nommer
 ce que tous ont dans la conscience,
 mais que l’esprit d’aucun d’eux ne perçoit.
 ][
-Ce qui fait le capital, suivant J. B. Say, c’est
+Ce qui fait le capital, suivant ,(np "say_jb" [J.-B. Say]), c’est
 ,(emph[la simple]) ,(strong[accumulation]) ,(emph[des produits.])
 ][
 L’idée d’accumulation, comme celle de produit,
@@ -180,7 +180,7 @@ entre donc dans la notion de capital.
 Voilà un second pas.
 Or, tous les produits sont susceptibles d’accumulation ;
 donc tous les produits peuvent devenir capitaux ;
-donc l’énumération que M. Joseph Garnier a faite
+donc l’énumération que ,(np "garnier" [M. Joseph Garnier]) a faite
 des différentes formes que prend le capital,
 est incomplète, partant inexacte,
 en ce qu’elle exclut de la notion les produits servant
@@ -191,12 +191,12 @@ aussi bien que les bâtiments, les outils, les bestiaux,
 l’argent,
 et tout ce que l’on considère comme instrument ou matière première.
 ][
-Rossi : Le capital est ,(emph[un produit épargné, destiné à la]) ,(strong[reproduction]).
+,(np "rossi" [Rossi]) : Le capital est ,(emph[un produit épargné, destiné à la]) ,(strong[reproduction]).
 ][
 La ,(emph[reproduction]),
 c’est-à-dire la destination du produit,
 voilà une troisième idée contenue dans la notion de capital.
-,(emph[Produit, accumulation, reproduction]) :
+,(emph[Produit, accumulation, reproduction :])
 trois idées qui entrent déjà dans la notion de capital.
 ][
 Or, de même que tous les produits peuvent être accumulés,
@@ -209,7 +209,7 @@ aussi bien que la terre, les chariots et les machines,
 tout cela sert à la reproduction,
 tout cela, au moment où il se consomme, est du capital.
 Tout ce qui se consomme, en effet, se consomme,
-du moins est censé se consommer reproductivement.
+du moins est censé se consommer reproductivement. ,(footnote*[En admettant cette définition globalisante du capital (définition discutable car elle fait abstraction des droits de propriété, et du fait qu’un ,(emph[capital]) est toujours relatif à une personne), on comprend l’idée d’y inclure la consommation des ouvriers, dans la mesure où elle est nécessaire à les maintenir en état de travailler. Mais Proudhon généralise abusivement à toute consommation. Or, quoi qu’on pense de sa définition, on ne peut sérieusement qualifier de “consommation reproductive” l’achat de fard à paupières, d’une robe de soirée ou d’un billet pour assister à un match de foot : que les ouvriers en achètent ou non, cela ne change rien à leur capacité de produire. La déduction de Proudhon est donc fausse. ,(NdL)])
 Ce qui sert à entretenir ou à faire mouvoir l’instrument,
 aussi bien que l’instrument même ;
 ce qui nourrit le travailleur,
@@ -250,9 +250,9 @@ que l’industrie regorge de produits,
 tandis qu’elle manque de capitaux ?
 Or, c’est ce qui n’aurait pas lieu
 si la simple accumulation de produits,
-comme dit Say,
+comme dit ,(np "say_jb" [Say]),
 ou la destination reproductive de ces produits,
-comme le veut Rossi,
+comme le veut ,(np "rossi" [Rossi]),
 suffisait à les faire réputer capitaux.
 Chaque producteur n’aurait alors qu’à reprendre son propre produit,
 et à se créditer lui-même de ce que ce produit lui coûte,
@@ -271,15 +271,15 @@ tombée à Paris ces jours derniers,
 est passée à l’état de liquide :
 cette idée est l’idée de ,(strong[valeur]).
 ][
-Voilà ce qu’entrevoyait Garnier,
+Voilà ce qu’entrevoyait ,(np "garnier" [Garnier]),
 quand il définissait le capital
 ,(emph[une somme de]) ,(strong[valeurs])
-,(emph[consacrées à faire des avances à la production]),(pv)
+,(emph[consacrées à faire des avances à la production ;])
 ,(--) ce que vous sentiez vous-même,
 quand vous cherchiez la notion de capital,
-non pas simplement, avec J. B. Say,
+non pas simplement, avec ,(np "say_jb" [J.-B. Say]),
 dans l’,(emph[accumulation des produits]),
-ni, avec Rossi,
+ni, avec ,(np "rossi" [Rossi]),
 dans l’,(emph[épargne destinée à la reproduction]),
 mais dans la partie non consommée du salaire de l’ouvrier,
 c’est-à-dire, évidemment, dans la valeur de son travail ou produit.
@@ -298,7 +298,7 @@ est le produit du boucher :
 quand vous en empliriez une halle,
 ce ne serait jamais que du cuir,
 ce ne serait point une valeur,
-je veux dire une valeur ,(emph[faite]),(pv)
+je veux dire une valeur ,(emph[faite ;])
 ce ne serait point capital,
 ce serait toujours produit.
 ,(--) Ce cuir est-il acheté par le tanneur,
@@ -332,10 +332,10 @@ il suffit, pour cela, que le consommateur travaille.
 Ce mouvement, une fois commencé, se perpétue à l’infini.
 ][
 Tel est le capital.
-Ce n’est pas simplement une accumulation de produits, comme dit Say :
+Ce n’est pas simplement une accumulation de produits, comme dit ,(np "say_jb" [Say]) :
 ,(--) ce n’est pas même encore une accumulation de produits
 faite en vue d’une reproduction ultérieure,
-comme le veut Rossi :
+comme le veut ,(np "rossi" [Rossi]) :
 tout cela ne répond point à la notion du capital.
 Pour que le capital existe,
 il faut que le produit ait été, si j’ose ainsi dire,
@@ -394,15 +394,15 @@ de même qu’entre le produit net et le produit brut.
 ][
 J’ai donc eu raison de dire,
 et je m’étonne qu’après l’exégèse que vous avez faite vous-même du capital,
-vous n’ayez su comprendre mes paroles :
+vous n’ayez su comprendre ,(ref :url "lettre9.html#produitcapital" [mes paroles]) :
 ][
 ,(q[Le capital ne se distingue pas du produit.
 Ces deux termes ne désignent point, en réalité, deux choses distinctes ;
 ils ne désignent que des relations.
-Produit, c’est capital : capital, c’est produit.])
-][
-Et mon ami Duchêne,
-soutenant la même thèse comme Louis Blanc,
+Produit, c’est capital ; capital, c’est produit.])
+][,(tag :a :name "duchene_ref")
+Et mon ami ,(np "duchene" [Duchêne]),
+soutenant la même thèse comme ,(np "blanc" [Louis Blanc]),
 a eu bien plus raison encore de dire :
 ][
 ,(q[Les distinctions de ,(emph[capital]) et de ,(emph[produit]),
@@ -486,7 +486,7 @@ et cette estimation pour ainsi dire unilatérale,
 ,(emph[constitue son capital]),
 ou sa mise de fonds :
 c’est la première chose dont il soit passé écriture.
-][
+](nbsp)[
 Nous savons ce qu’est le capital :
 il s’agit maintenant de tirer les conséquences de cette notion,
 en ce qui concerne l’intérêt.
@@ -495,20 +495,20 @@ quant à l’exposé graphique,
 mais très-simple de raisonnement.
 ][
 Les produits s’échangent contre les produits,
-a dit J. B. Say ;
+a dit ,(np "say_jb" [J.-B. Say]) ;
 ou bien,
 les capitaux s’échangent contre des capitaux ;
 ou bien encore,
 les capitaux s’échangent contre des produits,
-et ,(emph[vice versa]) :
+et ,(inlatin[vice versa :])
 voilà le fait brut.
 ][
 La condition absolue,
-,(emph[sine qua non]),
+,(inlatin[sine qua non]),
 de cet échange ;
 ce qui en fait l’essence et la règle,
 est l’évaluation contradictoire et réciproque des produits.
-Otez de l’échange l’idée de prix,
+Ôtez de l’échange l’idée de prix,
 et l’échange disparaît.
 Il y a transposition ;
 il n’y a pas transaction,
@@ -524,7 +524,7 @@ il est nul.
 Voilà le fait intelligible.
 ][
 Chacun donne et reçoit,
-d’après la formule de J. B. Say,
+d’après la formule de ,(np "say_jb" [J.-B. Say]),
 énonciative du fait matériel ;
 ,(--) mais,
 d’après la notion du capital,
@@ -574,7 +574,7 @@ de là, dans les sociétés modernes,
 l’inégalité des fortunes et toutes les agitations révolutionnaires.
 Je vais, Monsieur, vous en donner,
 par écriture de commerce,
-la preuve et la contrepreuve.
+la preuve et la contre-preuve.
 ][
 Constatons d’abord les faits.
 ][
@@ -585,7 +585,7 @@ telle est la loi.
 ][
 Mais cet échange ne se fait pas toujours,
 comme l’on dit,
-,(emph[donnant donnant]),(pv)
+,(emph[donnant donnant ;])
 la tradition des objets échangés n’a pas toujours lieu simultanément de part et d’autre ;
 souvent, et c’est le cas le plus ordinaire,
 il y a entre les deux livraisons,
@@ -605,7 +605,7 @@ pour le moment du moins,
 rien accepter en échange.
 Dans l’un et l’autre cas,
 les échangistes ont recours à une marchandise intermédiaire,
-faisant, dans le commerce l’office de proxénète,
+faisant dans le commerce l’office de proxénète,
 toujours acceptable et toujours acceptée :
 c’est la monnaie.
 Et comme la monnaie,
@@ -626,13 +626,13 @@ Tantôt l’acheteur n’a ni produit,
 ni argent à donner en échange du produit ou du capital dont il a besoin,
 mais il offre de payer dans un certain laps de temps,
 en un ou plusieurs termes.
-Dans les deux cas sus-mentionnés la vente était faite ,(emph[au comptant]),(pv)
+Dans les deux cas sus-mentionnés la vente était faite ,(emph[au comptant ;])
 dans celui-ci,
 elle a lieu ,(emph[à crédit]).
 ][
-Ici donc, la condition du vendeur était moins avantageuse que celle de l’acheteur,
+Ici donc, la condition du vendeur étant moins avantageuse que celle de l’acheteur,
 on compense l’inégalité en faisant porter au produit vendu,
-et jusqu’à parfait paiement,
+et jusqu’à parfait payement,
 un intérêt.
 C’est cet intérêt compensatoire,
 origine première de l’usure,
@@ -675,7 +675,7 @@ authentique,
 consacrée par toutes les jurisprudences,
 toutes les législations,
 toutes les religions,
-le demandeur s’engage envers le bailleur à lui payer
+le demandeur s’engage envers le bailleur à lui payer,
 ,(--) à ,(emph[perpétuité]),
 l’intérêt de son capital,
 terre,
@@ -720,11 +720,11 @@ Dans l’emplytéose et la constitution de rente,
 dont je parlais tout à l’heure,
 si la rente était perpétuelle,
 la cession du capital l’était aussi :
-entre le paiement et la jouissance,
+entre le payement et la jouissance,
 il y avait encore une sorte de parité.
 Ici, le capital ne cesse jamais d’appartenir à celui qui le loue et qui peut en exiger,
 à volonté,
-la restituions.
+la restitution.
 En sorte que le capitaliste n’échange point capital contre capital,
 produit contre produit :
 il ne donne rien,
@@ -745,10 +745,10 @@ de plus durable que le temps.
 Il n’y a pas d’infini qui égale l’infini de l’usure locative,
 de cette usure qui dépasse autant la perpétuité de la rente,
 que la perpétuité de la rente elle-même dépasse le remboursement à terme et au comptant.
-L’emprunteur à intérêt et courte échéance paie,
-paie encore,
-paie toujours ;
-et il ne jouit point de ce qu’il paie ;
+L’emprunteur à intérêt et courte échéance paye,
+paye encore,
+paye toujours ;
+et il ne jouit point de ce qu’il paye ;
 il n’en a que la vue,
 il n’en possède que l’ombre.
 N’est-ce pas à cette image de l’usurier,
@@ -756,9 +756,9 @@ que le théologien a imaginé son Dieu,
 ce Dieu atroce,
 qui fait éternellement payer le pécheur,
 et qui jamais ne lui fait remise de sa dette !
-Toujours !
+Toujours,
 Jamais !
-Voilà le Dieu du catholicisme,
+Voilà le dieu du catholicisme,
 voilà l’usurier !…
 ][
 Eh bien, je dis que tout échange de produits et de capitaux peut s’effectuer au comptant ;
@@ -785,7 +785,7 @@ qu’un cas particulier de monopole,
 étranger à la théorie de l’intérêt.
 Que me fait,
 répondez-vous avec nonchalance,
-la Banque de France et son privilège ?
+la Banque de France et son privilége ?
 Je vous parle de l’intérêt des capitaux.
 ,(--) Comme si le crédit foncier et commercial étant organisé partout sur le pied de 1/2 pour 100,
 il pouvait exister quelque part encore un intérêt !…
@@ -800,7 +800,7 @@ et des valeurs en capitaux,
 cet intérêt,
 enfin,
 ou pour l’appeler par son nom,
-cet entremetteur (,(emph[interesse])) du commerce,
+cet entremetteur (,(inlatin[inter-esse])) du commerce,
 dont vous vous obstinez à prendre la défense,
 est précisément le grand faussaire qui,
 pour s’approprier,
@@ -826,8 +826,7 @@ toute dialectique,
 toute controverse tombe devant cette image intelligible du mouvement économique.
 ])
 
-,(tag :p :align 'center
-(font :size "+2" [I. ,(--) Système de l’intérêt.]))
+,(h2[I. ,(--) Système de l’intérêt.])
 
 ,(p*[
 Dans ce système,
@@ -860,28 +859,28 @@ capitalistes et entrepreneurs que je considère comme une personne unique,
 et par B, C, D, E, F, G, H, I, K, L, la classe des travailleurs salariés.
 ])
 
-,(tag :p :align 'center (strong[COMPTES]))
+,(p :align 'center (strong[COMPTES.]))
 
-,(tag :p :align 'center [,(emph[entre]) A,
+,(p :align 'center [,(emph[D’entre]) A,
 ,(emph[propriétaire-capitaliste-entrepreneur, et])
 B, C, D, E, F, G, H, I, K, L,
 ,(emph[travailleurs salariés.])])
 
-,(tag :p :align 'center (strong[Chapitre premier.]))
+,(p :align 'center (strong[Chapitre premier.]))
 
-,(tag :p :align 'center [,(emph[Compte et résumé des opérations personnelles à]) A,
+,(p :align 'center [,(emph[Compte et résumé des opérations personnelles à]) A,
 ,(emph[propriétaire-capitaliste-entrepreneur.])])
 
 ,(p*[
 A l’ouverture du compte,
-A commence sa spéculation avec un capital que je suppose de ,(enFr[10,000])
+A commence sa spéculation avec un capital que je suppose de 10,000 fr.
 Cette somme forme sa mise de fonds ;
 c’est avec cela qu’il va travailler et entamer des opérations de commerce.
 Cet acte d’installation de A s’exprime de la manière suivante :
 ,(blockquote*[
 1. ,(emph[Caisse doit à A.])
 ][
-1er janvier, compte de capital… ,(enFr[10,000])])
+1,(sup[er]) janvier, compte de capital… ,(enFr[10,000])])
 ][
 Le capital formé,
 que va faire A ?
@@ -929,7 +928,7 @@ Admettons, suivant les règles ordinaires du commerce,
 que le bénéfice soit 10 pour 100.
 ][
 A qui se fera la vente des produits de A ?
-Nécessairement à B, C, D, etc., travailleurs :
+Nécessairement à B, C, D, etc., travailleurs : ,(footnote*[Comme si les propriétaires, capitalistes, entrepreneurs, ne consommaient rien. Il est bien évident que le travailleur qui reçoit 1,000 dépense 1,000, et n’a pas besoin de s’endetter comme Proudhon l’affirme plus bas. ,(NdL)])
 puisque la société tout entière se compose de A,
 propriétaire-capitaliste-entrepreneur,
 et de B, C, D, etc., travailleurs salariés,
@@ -968,7 +967,7 @@ en la façon ci-après :
 
 ,(blockquote*
 (table :border 1
-(tr(tdLT[à B,])(tdLT[son versement en espèces pour solde de son compte au 31 décembre.])(tdCT(enFr[1,100])))
+(tr(tdLT[à B,])(tdLT[son versement en espèces pour solde de son compte au 31 décembre,])(tdCT(enFr[1,100])))
 (tr(tdLT[à C,])(tdCT[,(--)])(tdCT[1,100]))
 (tr(tdLT[à D,])(tdCT[,(--)])(tdCT[1,100]))
 (tr(tdLT[à E,])(tdCT[,(--)])(tdCT[1,100]))
@@ -1029,8 +1028,8 @@ en deux mots, c’est le produit fait ,(emph[valeur]).
 Passons à la contre-partie de ce compte,
 au compte des travailleurs.
 ])
-,(tag :p :align 'center (strong[Chapitre deuxième.]))
-,(tag :p :align 'center (emph[Compte des opérations de B, travailleur,
+,(p :align 'center (strong[Chapitre deuxième.]))
+,(p :align 'center (emph[Compte des opérations de B, travailleur,
 avec A, propriétaire-capitaliste-entrepreneur.]))
 ,(p*[
 B, travailleur, sans propriété, sans capital, sans ouvrage,
@@ -1039,7 +1038,7 @@ qui lui donne de l’occupation et acquiert son produit.
 Première opération, que l’on fait figurer au compte de B, ainsi :
 ])
 ,(blockquote*[
-1. Doit Caisse, 1er janvier, à B. ,(--) Compte de Capital.
+1. Doit Caisse, 1,(sup[er]) janvier, à B. ,(--) Compte de Capital.
 ])
 ,(blockquote*
 (table :border 1
@@ -1059,7 +1058,7 @@ propriétaire-capitaliste-entrepreneur,
 il se pourvoit chez ledit A de tous les objets nécessaires à la consommation de lui B,
 objets qui lui sont facturés,
 comme nous l’avons vu plus haut,
-chap. ,(1er), art. 3,
+chap. 1,(sup[er]), art. 3,
 à 10 pour 100 de bénéfice en sus du prix de revient.
 L’opération a donc pour B le résultat que voici :
 ])
@@ -1076,7 +1075,7 @@ L’opération a donc pour B le résultat que voici :
 ])
 ,(blockquote*
 (table :border 1
-(tr(th :align 'center [,(emph[Doivent.])])
+(tr(th :align 'center [,(emph[Doit.])])
    (th :align 'center [,(strong[compte de capital.])])
    (th :align 'center [,(emph[Avoir.])]))
 (tr(tdCT(enFr[1,100]))
@@ -1100,9 +1099,9 @@ Pour l’intelligence du fait que j’ai voulu faire ressortir, savoir :
 le défaut d’équilibre dans la circulation générale,
 par suite des prélèvements du capital,
 il est donc inutile de reproduire chacun de ces comptes.
-][
+][,(tag :a :name "quesnay_ref")
 Le tableau qui précède,
-bien autrement instructif et démonstratif que celui de Quesnay,
+bien autrement instructif et démonstratif que celui de ,(np "quesnay" [Quesnay]),
 est l’image fidèle,
 présentée algébriquement,
 de l’économie actuelle de la société.
@@ -1112,10 +1111,10 @@ telles qu’inondation, guerre, épidémie ;
 mais qu’ils résultent aussi d’une cause organique,
 inhérente à la constitution de la société.
 ][
-Par la fiction de la productivité du capital et par les prérogatives sans nombre que s’arroge le monopoleur,
+Par la fiction de la productivité du capital, et par les prérogatives sans nombre que s’arroge le monopoleur,
 il arrive toujours et nécessairement l’une de ces deux choses :
 ][
-Ou bien c’est le monopoleur qui enlève au salarié partie de son capital social.
+Ou bien c’est le monopoleur qui enlève au salarié partie de son capital social ,(footnote*[Ceci suppose que l’intérêt est une spoliation, ce qui est précisément ce qu’il s’agirait de prouver. ,(NdL)]).
 B, C, D, E, F, G, H, I, K, L, ont produit dans l’année comme 10,
 et ils n’ont consommé que comme 9.
 En autres termes, le capitaliste a mangé un travailleur.
@@ -1128,7 +1127,7 @@ on arrive, vers la septième année, à trouver que tout l’apport primitif des
 entre les mains du propriétaire-capitaliste-entrepreneur,
 ce qui signifie que les travailleurs salariés,
 s’ils voulaient payer leurs dettes,
-devraient travailler chaque septième année pour rien.
+devraient travailler chaque septième année pour rien ,(footnote*[Proudhon nous offre ici une précieuse occasion de mettre sa théorie à l’épreuve des faits. ,(NdL)]).
 ][
 Ou bien, c’est le travailleur qui,
 ne pouvant donner de son produit que le prix qu’il en a lui-même reçu,
@@ -1148,8 +1147,7 @@ de quelque côté qu’il frappe, il tue.
 Je viens de vous montrer comment les choses se passent dans le régime de l’intérêt.
 Voyons maintenant comment elles se passeraient sous le régime de la gratuité.
 ])
-,(tag :p :align 'center
-(font :size "+2" [II. ,(--) Système de gratuité.]))
+,(h2[II. ,(--) Système de gratuité.])
 ,(p*[
 D’après la théorie du crédit gratuit,
 la qualité de travailleur salarié et celle de propriétaire-capitaliste-entrepreneur sont identiques l’une à l’autre et adéquates :
@@ -1173,12 +1171,12 @@ c’est donc avec la Banque que B, C, D, etc.,
 travailleurs, associés, groupés ou libres,
 entrent d’abord, et directement, en compte.
 ])
-,(tag :p :align 'center (strong[Chapitre premier.]))
+,(p :align 'center (strong[Chapitre premier.]))
 ,(blockquote*[
 1. ,(emph[Compte des opérations de]) B,
 ,(emph[travailleur, avec]) x, ,(emph[Banque nationale.])
 ][
-Doit Caisse, 1er janvier, à ,(emph[x]), Banque nationale,
+Doit Caisse, 1,(sup[er]) janvier, à ,(emph[x]), Banque nationale,
 ])
 ,(blockquote*
 (table :border 1
@@ -1226,7 +1224,7 @@ devenue improductive, et même inutile ;
 il s’ensuit que B,
 comme tous les autres travailleurs,
 peut non-seulement racheter,
-à une fraction minime près,
+à une fraction minime près ,(footnote*[On ne voit pas pourquoi ce prélèvement “minime” n’entraînerait pas les mêmes déséquilibres comptables que l’autre, seulement sur une échelle un peu moindre. ,(NdL)]),
 son propre produit,
 mais donner carrière à son énergie,
 à sa puissance productive,
@@ -1244,14 +1242,15 @@ cet aphorisme est un des premiers de l’économie politique.
 Il est fondé sur ce principe que,
 dans l’ordre économique,
 quel que soit le capital mis en ,(oe)uvre,
-,(emph[toute valeur est créée, par le travail, de rien ;])
+,(emph[toute valeur est créée, par le travail, de rien ,(footnote*[L’énormité du sophisme laisse sans voix. Il revient à dire : puisque tous ceux qui gagnent au loto ont acheté un billet, tous ceux qui achètent un billet doivent gagner. Curieusement, Bastiat ne le relève pas, sinon pour ,(ref :url "lettre14.html#axiome" [constater]) que Proudhon ne l’invoque que dans son analyse du second système. ,(NdL)]) ;])
 de même que,
-selon le théologie chrétienne,
+selon la théologie chrétienne,
 toutes choses dans la nature ont été créées de Dieu,
 également de rien.
+,(tag :a :name "say_ref")
 En effet, le produit étant défini :
 ,(emph[l’utilité ajoutée par le travail aux objets que fournit la nature])
-(J. B. Say et tous les économistes),
+(,(np "say_jb" [J.-B. Say]) et tous les économistes),
 il est clair que le produit tout entier est le fait des travailleurs ;
 et si l’objet auquel s’ajoute l’utilité nouvelle est déjà lui-même un produit,
 la valeur reproduite est nécessairement plus grande que la valeur consommée.
@@ -1266,7 +1265,7 @@ et constatons, par ses écritures, le résultat :
 ,(blockquote*
 (table :border 1
   (tr(tdLB[Mes ventes au comptant à divers, courant de l’année…])
-     (tdCB[1,089,(nbsp)fr.])))
+     (tdCB[1,089 fr.])))
 )
 ,(p*[
 Il appert de ce compte que l’usure est une cause de misère,
@@ -1275,13 +1274,13 @@ d’abord en élevant le prix de vente des produits d’une quantité plus forte
 la somme des usures,
 en France, sur un produit total de 10 milliards,
 est de 6 milliards, 60 pour 100 :
-,(--) puis,
+,(--) puis
 en entravant la circulation par toutes les formalités de l’escompte,
 de l’intérêt, du loyer, du fermage, etc. :
 ,(--) toutes difficultés qui disparaissent sous le régime du crédit gratuit.
 ][
 Nous voici au moment où B a réalisé tout le produit de son travail de l’année.
-Il faut qu’il se liquide avec x,
+Il faut qu’il se liquide avec ,(emph[x]),
 Banque nationale,
 ce qui donne lieu à l’opération que voici :
 ])
@@ -1322,7 +1321,7 @@ L’année suivante,
 B, au lieu d’opérer sur un produit de 1,000,
 opérera sur un produit de 1,089,
 ce qui lui donnera un nouveau surcroît de bénéfice ;
-puis le même mouvement se renouvelant la 3e, la 4e, la 5e, etc., année,
+puis le même mouvement se renouvelant la 3,(sup[e]), la 4,(sup[e]), la 5,(sup[e]), etc., année,
 le progrès de sa richesse suivra le progrès de son industrie ;
 il ira à l’infini.
 ][
@@ -1335,7 +1334,7 @@ il est inutile de les reproduire.
 Je passe à la contre-partie des comptes ouverts chez B,
 et tout d’abord à celui de la Banque.
 ])
-,(tag :p :align 'center (strong[Chapitre II.]))
+,(p :align 'center (strong[Chapitre II.]))
 ,(p*[
 On a vu plus haut que ,(emph[x]),
 Banque nationale,
@@ -1356,7 +1355,7 @@ Voici comment se traduiraient ces diverses opérations sur les livres de la Banq
   (tr(td[B,])
      (td[mes avances sur le produit de son travail de l’année,
 	     contre son engagement de ,(enFr[1,000]) ;
-	     escompte déduit])
+	     escompte déduit,])
      (tdCT(enFr[990])))
   (tr(td[C,])(tdCT(--))(tdCT[990]))
   (tr(td[D,])(tdCT(--))(tdCT[990]))
@@ -1420,7 +1419,7 @@ de manière à ce qu’il lui restât toujours,
 pour intérêt du capital, zéro.
 ])
 ,(blockquote*[
-,(emph[Résumé des opérations de]) x,
+,(emph[Résumé des opérations de]) X,
 ,(emph[Banque nationale,
 pour son inventaire au 31 décembre.])
 ])
@@ -1435,12 +1434,12 @@ pour son inventaire au 31 décembre.])
      (tdCT(enFr[100]))))
 )
 ,(p*[
-En se reportant au compte de Caisse de x,
+En se reportant au compte de ,(emph[caisse]) de ,(emph[x]),
 Banque nationale,
-on voit tout d’abord que l’excédant du débit de ce compte sur le crédit est de fr. 100,
+on voit tout d’abord que l’excédant du débit de ce compte sur le crédit est de fr. 100,
 somme égale à celle du bénéfice d’escompte constatée par le compte de ,(emph[Profits et pertes]).
 ])
-,(tag :p :align 'center (strong[Chapitre III.]))
+,(p :align 'center (strong[Chapitre III.]))
 ,(p*[
 Venons enfin au comte de A,
 propriétaire-capitaliste-entrepreneur,
@@ -1481,7 +1480,7 @@ ce sont les matières premières,
 instruments de travail et subsistances dont A est détenteur.
 ][
 A commence donc ses opérations avec son capital,
-,(emph[marchandises]),
+,(emph[Marchandises]),
 que par hypothèse nous fixerons à ,(enFr[10,000])
 Cette ouverture d’opérations de A s’exprime sur ses livres de la manière suivante :
 ])
@@ -1490,7 +1489,7 @@ Cette ouverture d’opérations de A s’exprime sur ses livres de la manière s
 ])
 ,(blockquote*
 (table :border 1
-  (tr(td[Marchandises en magasin, au ,(1er) janvier dernier, suivant inventaire])
+  (tr(td[Marchandises en magasin, au 1,(sup[er]) janvier dernier, suivant inventaire])
      (td(enFr[10,000]))))
 )
 ,(p*[
@@ -1525,7 +1524,7 @@ consomment les articles de A,
 à son tour le propriéraire-capitaliste-entrepreneur A consomme les produits des travailleurs B, C, D, etc.,
 de qui il doit les acheter,
 comme ils achètent eux-mêmes les siens.
-Or, nous avons vu, chapitre 1er, article 3,
+Or, nous avons vu, chapitre 1,(sup[er]), article 3,
 que la mieux-value donnée aux valeurs consommées par B, C, D, etc.,
 étant, par hypothèse, dans un régime exempt de tout chômage,
 stagnation,
@@ -1566,7 +1565,7 @@ nous n’avons plus qu’à dresser l’inventaire de A.
 ])
 ,(blockquote*[
 ,(emph[Résumé des opérations de A,
-propriétaire-capitaliste-entrepreneur pour son inventaire au 31 décembre.])
+propriétaire-capitaliste-entrepreneur, pour son inventaire au 31 décembre.])
 ])
 ,(blockquote*
 (table :border 1
@@ -1578,7 +1577,7 @@ propriétaire-capitaliste-entrepreneur pour son inventaire au 31 décembre.])
      (tdRT[Crédit de ce compte au 31 décembre.])
      (tdCT(enFr[9,900])))
   (tr(td)(td)
-     (tdRT[Restant en magasin des marchandises inventoriées au ,(1er) janvier dernier])
+     (tdRT[Restant en magasin des marchandises inventoriées au 1,(sup[er]) janvier dernier])
      (tdCT[100]))
   (tr(td)(td)
      (tdRT[Perte sur ce compte])
@@ -1592,31 +1591,33 @@ propriétaire-capitaliste-entrepreneur pour son inventaire au 31 décembre.])
 Maintenant que nous avons établi notre double comptabilité,
 rapprochons les comptes,
 et notons les différences :
-1° Sous le régime de l’,(emph[usure]),
+][
+1° Sous le régime de l’,(emph[usure]),
 le compte de chaque travailleur se solde par une perte de ,(enFr[100]),
-soit pour les 10 : ,(enFr[1,000])
+soit pour les 10 : ,(enFr[1,000]).
 ][
 En même temps,
 celui de A, propriétaire-capitaliste-entrepreneur,
-se solde par un bénéfice de ,(enFr[1,000]),(pv)
+se solde par un bénéfice de ,(enFr[1,000]) ;
 ce qui prouve que dans la société capitaliste le déficit,
-soit la misère, est en raison de l’agio.
+soit la misère, est en raison de l’agio ,(footnote*[En effet, si on part de l’hypothèse que l’intérêt touché par le capitaliste provient de la spoliation des employés, on aboutit à la conclusion que la perte des employés est égale au gain du capitaliste. C’est une pétition de principe. ,(NdL)]).
 ][
-2° Sous le régime du ,(emph[crédit gratuit]),
+2° Sous le régime du ,(emph[crédit gratuit]),
 au contraire,
 le compte de chaque travailleur se solde par un boni de ,(enFr[99]),
-soit pour les dix, ,(enFr[990]),(pv)
+soit pour les dix, ,(enFr[990]) ;
 et celui de A,
 propriétaire-capitaliste,
 par un déficit de ,(enFr[890]),
 qui, avec les ,(enFr[100]) de marchandises restant en magasin et venant en couverture du déficit de l’année,
 font bien les ,(enFr[990]) dont la fortune des dix travailleurs s’est augmentée.
+,(tag :a :name "leroux_ref")
 Ce qui prouve que,
 dans la société mutuelliste,
 c’est-à-dire de l’égal échange,
 la fortune de l’ouvrier augmente en raison directe de son travail,
 tandis que celle du capitaliste diminue aussi en raison directe de sa consommation improductive,
-et qui détruit le reproche que m’adressait Pierre Leroux,
+et qui détruit le reproche que m’adressait ,(np "leroux" [Pierre Leroux]),
 qu’il n’a cessé depuis deux mois de reproduire dans sa polémique,
 savoir, que le crédit gratuit,
 la Banque du peuple,
@@ -1630,14 +1631,14 @@ la fortune de l’ouvrier augmente en raison directe de son travail,
 tandis que celle du propriétaire-capitaliste diminue en raison directe de sa consommation improductive]) :
 ,(--) cette proposition,
 mathématiquement démontrée,
-répond à toutes les divagations de Pierre Leroux et de Louis Blanc,
+répond à toutes les divagations de ,(np "leroux" [Pierre Leroux]) et de ,(np "blanc" [Louis Blanc]),
 sur la communauté, la fraternité et la solidarité.
 ][
 Renversons maintenant la formule :
 ][
 ,(emph[Sous le régime de l’usure,
 la fortune de l’ouvrier décroît en raison directe de son travail,
-tandis que celle du propriétaire-capitaliste augmente en raison directe de sa consommation improductive]) :
+tandis que celle du propriétaire-capitaliste augmente en raison directe de sa consommation improductive :])
 ,(--) cette proposition,
 démontrée comme la précédente,
 mathématiquement,
@@ -1652,7 +1653,7 @@ nous disons encore :
 ][
 Dans la société capitaliste,
 l’ouvrier ne pouvant jamais racheter son produit pour le prix qu’il l’a vendu,
-est constamment en déficit.
+est constamment en déficit. ,(footnote*[Bastiat a ,(ref :url "lettre2.html#tyranvoleur" [déjà répondu]) cet argument. ,(NdL)])
 D’où, nécessité pour lui de réduire indéfiniment sa consommation,
 et, par suite, nécessité pour la société entière de réduire indéfiniment sa consommation,
 et, par suite, nécessité pour la société entière de réduire indéfiniment la production ;
@@ -1674,7 +1675,7 @@ D’où, faculté pour lui de produire indéfiniment,
 et, pour la société,
 accroissement indéfini de la vie et de la richesse.
 ][
-Diriez-vous qu’une pareille révolution dans les rapports économiques ne ferait,
+Direz-vous qu’une pareille révolution dans les rapports économiques ne ferait,
 après tout, que déplacer la misère ;
 qu’au lieu de la misère du travailleur salarié,
 qui ne peut racheter son propre produit,
@@ -1700,10 +1701,10 @@ la somme des ,(emph[produits]) du travail s’accroît indéfiniment ;
 de l’autre,
 par les facilités de la circulation,
 ces produits se convertissent incessamment en ,(strong[valeur]),
-et les valeurs en ,(strong[CAPITAUX]) ?
+et les valeurs en ,(strong[capitaux]) ?
 ][
 Que chacun,
-au lieu de crier à la spoliation contre le ,(XXX) socialisme,
+au lieu de crier à la spoliation contre le socialisme,
 fasse donc son propre compte ;
 que chacun dresse l’inventaire de sa fortune et de son industrie,
 de ce qu’il gagne comme capitaliste-propriétaire,
@@ -1724,13 +1725,14 @@ est directement et surabondamment intéressé
 celui-là, dis-je,
 qu’il le sache ou qu’il l’ignore,
 est, au premier chef,
-partisan de la ,(emph[République démocratique et sociale]),(pv)
+partisan de la ,(emph[République démocratique et sociale ;])
 il est,
 dans l’acception la plus large,
 la plus conservatrice, ,(strong[révolutionnaire]).
+,(tag :a :name "malthus_ref")
 Quoi donc !
 Serait-il vrai,
-parce qu’ainsi l’a dit Malthus et qu’ainsi le veut,
+parce qu’ainsi l’a dit ,(np "malthus" [Malthus]) et qu’ainsi le veut,
 à sa suite,
 une poignée de pédants,
 que 10 millions de travailleurs,
@@ -1739,12 +1741,12 @@ doivent servir éternellement de pâture à 200,000 parasites,
 et que c’est afin de protéger cette exploitation de l’homme par l’homme,
 que l’État existe,
 qu’il dispose d’une force armée de 500,000 soldats,
-d’un million de fonctionnaires et que nous lui payons deux milliards d’impôts ?…
-][
+d’un million de fonctionnaires, et que nous lui payons deux milliards d’impôts ?…
+](nbsp)[
 Mais qu’ai-je besoin,
 après tout ce qui a été dit le cours de cette polémique,
 d’entretenir plus longtemps l’opposition purement factice
-de ,(emph[travailleurs-salariés]) et ,(emph[capitalistes-propriétaires]) ?
+de ,(emph[travailleurs-salariés]) et ,(emph[capitalistes-propriétaires ?])
 Le moment est venu de faire cesser tout antagonisme entre les classes,
 et d’intéresser à l’abolition de la rente et de l’intérêt,
 jusqu’aux propriétaires et aux capitalistes eux-mêmes.
@@ -1758,7 +1760,7 @@ N’avons-nous pas vu que l’intérêt est né
 des risques de l’industrie et du commerce,
 qu’il s’est manifesté d’abord
 dans les contrats plus ou moins aléatoires
-de ,(emph[pacotille]) et ,(emph[à la grosse]) ?
+de ,(emph[pacotille]) et ,(emph[à la grosse ?])
 Or,
 ce qui fut au commencement l’effet inévitable de l’état de guerre,
 ce qui devait,
@@ -1770,7 +1772,7 @@ Le progrès,
 dans l’industrie comme dans la science,
 est sans fin ;
 le travail ne connaît pas de bornes à ses aventureuses entreprises.
-Mais qui dit entreprise,
+Mais qui dit entreprise
 dit toujours chose plus ou moins aléatoire,
 par conséquent,
 risque plus ou moins grand du capital engagé,
@@ -1817,18 +1819,18 @@ Fallait-il donc m’entraîner à cette dissertation épineuse,
 quand il était si facile,
 si simple de nous renfermer dans cette question péremptoire autant que positive :
 ,(emph[Le crédit peut-il ou ne peut-il pas être gratuit ?])
-Au risque de rebuter les lecteurs de la ,(cite-title[Voix du Peuple]),
+Au risque de rebuter les lecteurs de ,(tj "vp" [,(cite-title[la Voix du Peuple])]),
 j’ai voulu satisfaire votre désir :
 vous me direz,
 si vous le jugez convenable,
 ce que vous trouvez à reprendre,
-d’abord à l’analyse que j’ai faite de la notion de ,(emph[capital]),(pv)
+d’abord à l’analyse que j’ai faite de la notion de ,(emph[capital ;])
 puis à la définition que j’en ai fait sortir ;
 enfin aux théorèmes et aux corollaires qui en ont fait le développement.
 ][
 Dans ce que vous venez de lire il y a,
 vous ne le nierez pas,
-toute une révolution non-seulement politique et économique,
+toute une révolution non-seulement, politique et économique,
 mais encore,
 ce qui doit vous être,
 ainsi qu’à moi-même,
@@ -1844,10 +1846,8 @@ ni personne de votre école,
 n’entendez rien à l’économie politique.
 ][
 Je suis, etc.
-
-
 ])
-,(tag :p :align 'right (strong[P. J. Proudhon.]))
+,(sign[P. J. Proudhon.])
 ])
 (tous_les_scripts)
 (footer[

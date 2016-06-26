@@ -1,14 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "À la jeunesse française
+(in-bof :title "A la jeunesse française
 - Introduction aux Harmonies Économiques, par Frédéric Bastiat")
 
-(document :title "À la jeunesse française"
+(document :title "A la jeunesse française"
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n7/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
-[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/1/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
+[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/n15/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 1.])
 ])
 (bastiat [
@@ -31,12 +31,11 @@ si elle ne germe pas sur le sol généreux auquel je la confie.
 J’aurais voulu vous offrir un tableau,
 je ne vous livre qu’une ébauche ;
 pardonnez-moi :
-qui peut achever une ,(oe)uvre de quelque ,(XXX :M)
+qui peut achever une ,(oe)uvre de quelque
 importance en ce temps-ci ?
 Voici l’esquisse.
 En la voyant, puisse l’un d’entre vous s’écrier comme ,(np "correge" [le grand artiste]) :
-,(initalian[Anch’ io son pittore !]) ,(XXX :M)
-,(footnote*[
+,(initalian[Anch’ io son pittore !]) ,(footnote*[
 ,(q[Moi aussi je suis un peintre]),
 paroles que le jeune ,(np "correge" [Corrège]) prononça, dit-on,
 quand il vit pour la première fois
@@ -46,7 +45,7 @@ la peinture par Raphaël de Sainte-Cécile.
 [l’édition en anglais de la FEE]), 1964)])
 ])
 et, saisissant le pinceau, jeter sur cette toile informe
-la couleur et la chair, ,(XXX :M)
+la couleur et la chair,
 l’ombre et la lumière, le sentiment et la vie.
 ][
 Jeunes gens, vous trouverez le titre de ce livre bien ambitieux.
@@ -59,7 +58,6 @@ pour la réalisation du progrès ?
 Non, certes ;
 mais je voudrais vous mettre sur la voie de cette vérité :
 ,(emph[Tous les intérêts légitimes sont harmoniques.])
-,(XXX :EO [coquille : légilimes])
 C’est l’idée dominante de cet écrit,
 et il est impossible d’en méconnaître l’importance.
 ][,(tag :a :name "shakespeare_ref")
@@ -70,50 +68,50 @@ ne justifiaient que trop cette hilarité railleuse.
 Mais, quant au problème lui-même, il n’a certes rien de risible ;
 c’est l’ombre de Banquo au banquet de ,(np "shakespeare" [Macbeth]),
 seulement ce n’est pas une ombre muette,
-et, ,(XXX :M) d’une voix formidable, elle crie à la société épouvantée :
+et, d’une voix formidable, elle crie à la société épouvantée :
 Une solution ou la mort !
 ][
 Or, cette solution, vous le comprendrez aisément,
 doit être toute différente selon que les intérêts
 sont naturellement harmoniques ou antagoniques.
 ][
-Dans le premier cas, il faut la demander à la Liberté ;
-	dans le second, à la Contrainte.
+Dans le premier cas, il faut la demander à la liberté ;
+	dans le second, à la contrainte.
 Dans l’un, il suffit de ne pas contrarier ;
 	dans l’autre, il faut nécessairement contrarier.
 ][
-Mais la Liberté n’a qu’une forme.
+Mais la liberté n’a qu’une forme.
 Quand on est bien convaincu
 que chacune des molécules qui composent un liquide porte en elle-même
 la force d’où résulte le niveau général,
 on en conclut qu’il n’y a pas de moyen plus simple et plus sûr
 pour obtenir ce niveau que de ne pas s’en mêler.
-Tous ceux ,(XXX :M) donc qui adopteront ce point de départ :
+Tous ceux donc qui adopteront ce point de départ :
 ,(emph[Les intérêts sont harmoniques]),
 seront aussi d’accord sur la solution pratique du problème social :
 s’abstenir de contrarier et de déplacer les intérêts.
 ][
-La Contrainte peut se manifester, au contraire,
+La contrainte peut se manifester, au contraire,
 par des formes et selon des vues en nombre infini.
 Les écoles qui partent de cette donnée :
 ,(emph[Les intérêts sont antagoniques]),
 n’ont donc encore rien fait pour la solution du problème,
-si ce n’est qu’elles ont exclu la Liberté.
-Il leur reste encore à chercher, parmi les formes infinies de la Contrainte,
+si ce n’est qu’elles ont exclu la liberté.
+Il leur reste encore à chercher, parmi les formes infinies de la contrainte,
 quelle est la bonne, si tant est qu’une le soit.
 Et puis, pour dernière difficulté,
 il leur restera à faire accepter universellement par des hommes,
-par des agents libres, cette forme préférée de la Contrainte.
+par des agents libres, cette forme préférée de la contrainte.
 ][
 Mais, dans cette hypothèse, si les intérêts humains sont
 poussés par leur nature vers un choc fatal,
-si ce choc ,(XXX :M)
-ne peut être évité que par l’invention contingente ,(XXX :M)
+si ce choc
+ne peut être évité que par l’invention contingente
 d’un ordre social artificiel,
-le sort de l’humanité est bien chanceux, et l’on se demande avec effroi :
-][
-1° Se rencontrera-t-il un homme
-qui trouve une forme satisfaisante de la Contrainte ?
+le sort de l’humanité est bien chanceux, et l’on se demande avec effroi :])
+
+,(liste(p*[1° Se rencontrera-t-il un homme
+qui trouve une forme satisfaisante de la contrainte ?
 ][
 2° Cet homme ramènera-t-il à son idée les écoles innombrables
 qui auront conçu des formes différentes ?
@@ -122,7 +120,7 @@ qui auront conçu des formes différentes ?
 laquelle, selon l’hypothèse, contrariera tous les intérêts individuels ?
 ][
 4° En admettant que l’humanité se laisse affubler de ce vêtement,
-qu’arrivera-t-il, si un nouvel inventeur se présente ,(XXX)
+qu’arrivera-t-il, si un nouvel inventeur se présente
 avec un vêtement plus perfectionné ?
 Devra-t-elle persévérer dans une mauvaise organisation,
 la sachant mauvaise ;
@@ -135,13 +133,13 @@ avec d’autant plus de chances de troubler la société que ce plan,
 par sa nature et son but, froisse tous les intérêts ?
 ][
 6° Et, en définitive, y a-t-il une force humaine capable de vaincre
-un antagonisme qu’on suppose être l’essence même des forces humaines ?
-][
-Je pourrais multiplier indéfiniment ces questions
+un antagonisme qu’on suppose être l’essence même des forces humaines ?]))
+
+,(p*[Je pourrais multiplier indéfiniment ces questions
 et proposer, par exemple, cette difficulté :
 ][
 Si l’intérêt individuel est opposé à l’intérêt général,
-où placerez-vous le principe d’action de la Contrainte ?
+où placerez-vous le principe d’action de la contrainte ?
 Où sera le point d’appui ?
 Sera-ce en dehors de l’humanité ?
 Il le faudrait pour échapper aux conséquences de votre loi.
@@ -154,7 +152,7 @@ leurs mains de rapacité et leur c,(oe)ur de convoitise.
 ][
 Ce qui sépare radicalement les diverses écoles socialistes
 (j’entends ici celles qui cherchent dans une organisation artificielle
-la solution du problème social) de l’école Économiste,
+la solution du problème social) de l’école économiste,
 ,(XXX :NTEA [réadapté au fr par frr
 Comme le montre le reste de ce livre,
 Bastiat utilise les expressions ,(q[économie politique]) et ,(q[économiste])
@@ -187,7 +185,7 @@ ce n’est pas telle ou telle vue de détail,
 telle ou telle combinaison gouvernementale ;
 c’est le point de départ, c’est cette question préliminaire et dominante :
 Les intérêts humains, laissés à eux-mêmes,
-sont-ils harmoniques ou antagoniques ? ,(XXX :M)
+sont-ils harmoniques ou antagoniques ?
 ][
 Il est clair que les socialistes n’ont pu se mettre
 en quête d’une organisation artificielle
@@ -195,8 +193,8 @@ que parce qu’ils ont jugé l’organisation naturelle
 mauvaise ou insuffisante ;
 et ils n’ont jugé celle-ci insuffisante et mauvaise
 que parce qu’ils ont cru voir dans les intérêts
-un antagonisme radical, ,(XXX :M)
-car sans cela ils n’auraient pas eu recours à la Contrainte.
+un antagonisme radical,
+car sans cela ils n’auraient pas eu recours à la contrainte.
 Il n’est pas nécessaire de contraindre à l’harmonie
 ce qui est harmonique de soi.
 ])
@@ -214,7 +212,7 @@ Entre l’agriculture et la fabrique,
 ][
 Entre le campagnard et le citadin,
 ][
-Entre le regnicole et l’étranger, ,(XXX :M)
+Entre le regnicole et l’étranger,
 ][
 Entre le producteur et le consommateur,
 ][
@@ -222,7 +220,7 @@ Entre la civilisation et l’organisation,
 ][
 Et, pour tout dire en un mot :
 ][
-Entre la Liberté et l’Harmonie.
+Entre la liberté et l’harmonie.
 ])])
 ,(p*[
 Et ceci explique comment il se fait qu’encore qu’une sorte
@@ -232,13 +230,12 @@ Chacun d’eux réserve tout son amour pour la société qu’il a rêvée ;
 mais quant à celle où il nous a été donné de vivre,
 elle ne saurait s’écrouler trop tôt à leur gré,
 afin que sur ses débris s’élève la Jérusalem nouvelle.
-][
-J’ai dit que l’,(emph[école Économiste]),
-partant de la naturelle harmonie des intérêts, concluait à la Liberté.
-,(XXX :M)
+](nbsp)[
+J’ai dit que l’,(emph[école économiste]),
+partant de la naturelle harmonie des intérêts, concluait à la liberté.
 ][
 Cependant, je dois en convenir, si les économistes, en général,
-concluent à la Liberté, il n’est malheureusement pas aussi vrai
+concluent à la liberté, il n’est malheureusement pas aussi vrai
 que leurs principes établissent solidement le point de départ :
 l’harmonie des intérêts.
 ][
@@ -246,15 +243,15 @@ Avant d’aller plus loin,
 et afin de vous prémunir contre les inductions
 qu’on ne manquera pas de tirer de cet aveu,
 je dois dire un mot de la situation respective
-du Socialisme et de l’Économie politique.
+du socialisme et de l’économie politique.
 ][
 Il serait insensé à moi de dire
-que le Socialisme n’a jamais rencontré une vérité,
-que l’Économie politique n’est jamais tombée dans une erreur.
+que le socialisme n’a jamais rencontré une vérité,
+que l’économie politique n’est jamais tombée dans une erreur.
 ][
 Ce qui sépare profondément les deux écoles, c’est la différence des méthodes.
-L’une, comme l’astrologie et l’alchimie, procède par l’Imagination ;
-l’autre, comme l’astronomie et la chimie, procède par l’Observation.
+L’une, comme l’astrologie et l’alchimie, procède par l’imagination ;
+l’autre, comme l’astronomie et la chimie, procède par l’observation.
 ][
 Deux astronomes, observant le même fait,
 peuvent ne pas arriver au même résultat.
@@ -265,40 +262,30 @@ Ils se reconnaissent de la même communion.
 Mais entre l’astronome qui observe et l’astrologue qui imagine,
 l’abîme est infranchissable,
 encore que, par hasard, ils se puissent quelquefois rencontrer.
-Il en est ainsi de l’Économie politique et du Socialisme.
+Il en est ainsi de l’économie politique et du socialisme.
 ][
-Les Économistes observent l’homme,
+Les économistes observent l’homme,
 les lois de son organisation et les rapports sociaux
-,(XXX :M)
 qui résultent de ces lois.
-Les Socialistes imaginent une société de fantaisie
+Les socialistes imaginent une société de fantaisie
 et ensuite un c,(oe)ur humain assorti à cette société.
 ][
 Or, si la science ne se trompe pas, les savants se trompent.
-Je ne nie donc pas que les Économistes
+Je ne nie donc pas que les économistes
 ne puissent faire de fausses observations,
-et j’ajoute même qu’ils ont nécessairement dû commencer par là. ,(XXX :M)
+et j’ajoute même qu’ils ont nécessairement dû commencer par là.
 ][,(tag :a :name "malthus_ref")
 Mais voici ce qui arrive.
 Si les intérêts sont harmoniques, il s’ensuit
 que toute observation mal faite conduit logiquement à l’antagonisme.
-Quelle est donc la tactique des Socialistes ?
-C’est de ramasser dans les écrits des Économistes
+Quelle est donc la tactique des socialistes ?
+C’est de ramasser dans les écrits des économistes
 quelques observations mal faites,
 d’en exprimer toutes les conséquences
 et de montrer qu’elles sont désastreuses.
 Jusque-là ils sont dans leur droit.
 Ensuite ils s’élèvent contre l’observateur
 qui s’appellera, je suppose, ,(np "malthus" [Malthus]) ou ,(np "ricardo" [Ricardo]).
-,(XXX :NTEA [
-1-
-Thomas Robert Malthus (1766-1854), économiste anglais
-,(XXX :fr [,(--) écossais ?]).
-Cf. Chapitre 16 pour une discussion par Bastiat de son
-,(cite-title[Essai sur le Principe de Population])
-2-
-David Ricardo (1772-1823), économiste anglais de l’école classique.
-])
 Ils sont dans leur droit encore.
 Mais ils ne s’en tiennent pas là.
 Ils se tournent contre la science,
@@ -328,21 +315,20 @@ dont les allures doivent être franches et libres.
 L’atmosphère de la coterie la tue.
 ][
 Je l’ai déjà dit :
-il n’est pas possible, en économie politique,
+il n’est pas possible en économie politique
 que l’antagonisme ne soit au bout de toute proposition erronée.
-,(XXX :EO [coquille : s/toute/oute/])
 D’un autre côté, il n’est pas possible
 que les nombreux écrits des économistes,
-même les plus éminents ,(XXX :M) ne renferment quelque proposition fausse.
-,(--) C’est à nous à les signaler,
+même les plus éminents, ne renferment quelque proposition fausse.
+C’est à nous à les signaler
 et à les rectifier dans l’intérêt de la science et de la société.
 Nous obstiner à les soutenir, pour l’honneur du corps,
 ce serait non-seulement nous exposer, ce qui est peu de chose,
 mais exposer la vérité même, ce qui est plus grave,
 aux coups du socialisme.
-][
-Je reprends ,(XXX :M) donc et je dis :
-La conclusion des économistes est la Liberté.
+](nbsp)[
+Je reprends donc et je dis :
+La conclusion des économistes est la liberté.
 Mais, pour que cette conclusion obtienne l’assentiment des intelligences
 et attire à elle les c,(oe)urs,
 il faut qu’elle soit solidement fondée sur cette prémisse :
@@ -372,7 +358,7 @@ Vient ensuite la célèbre théorie de ,(np "ricardo" [Ricardo]).
 Elle se résume ainsi :
 Le prix des subsistances s’établit sur le travail que demande pour les produire
 le plus pauvre des sols cultivés.
-Or ,(XXX :M) l’accroissement de la population oblige de recourir
+Or l’accroissement de la population oblige de recourir
 à des sols de plus en plus ingrats.
 Donc l’humanité tout entière (moins les propriétaires)
 est forcée de donner une somme de travail toujours croissante
@@ -392,7 +378,7 @@ et cela, à chaque moment donné de la vie de l’humanité.
 Or, les hommes ne peuvent être heureux et vivre en paix
 s’ils n’ont pas de quoi se nourrir.
 Il n’y a que deux obstacles
-à cet excédent ,(XXX :EO "excédant") toujours menaçant de population :
+à cet excédant toujours menaçant de population :
 la diminution des naissances, ou l’accroissement de la mortalité,
 dans toutes les horribles formes qui l’accompagnent et la réalisent.
 La contrainte morale, pour être efficace, devrait être universelle,
@@ -404,18 +390,14 @@ le vice, la misère, la guerre, la peste, la famine et la mortalité,
 Je ne mentionnerai pas d’autres systèmes d’une portée moins générale
 et qui aboutissent aussi à une désespérante impasse.
 Par exemple, ,(np "tocqueville" [M. de Tocqueville]) et beaucoup d’autres comme lui disent :
-,(XXX :NTEA [
-Alexis Charles Henri Clérel de Tocqueville (1805-1859),
-homme d’état et auteur de nombreux ouvrages importants (EN :significant).
-])
-Si l’on ,(XXX :M) admet le droit de primogéniture,
+Si l’on admet le droit de primogéniture,
 on arrive à l’aristocratie la plus concentrée ;
 si on ne l’admet pas, on arrive à la pulvérisation
 et à l’improductivité du territoire.
 ][
 Et ce qu’il y a de remarquable,
 c’est que ces quatre désolants systèmes ne se heurtent nullement.
-S’ils se heurtaient, ,(XXX :M)
+S’ils se heurtaient,
 nous pourrions nous consoler en pensant qu’ils sont tous faux,
 puisqu’ils se détruisent l’un par l’autre.
 Mais non, ils concordent, ils font partie d’une même théorie générale,
@@ -425,26 +407,26 @@ et forte de l’assentiment de plusieurs maîtres de la science,
 se présente à l’esprit découragé et confondu, avec une autorité effrayante.
 ][
 Il reste à comprendre comment les révélateurs de cette triste théorie
-ont pu poser comme principe ,(emph[l’harmonie des intérêts]),
-et comme conclusion la Liberté.
+ont pu poser comme principe l’,(emph[harmonie des intérêts]),
+et comme conclusion la liberté.
 ][
 Car, certes, si l’humanité est fatalement poussée
-par les lois de la Valeur vers l’Injustice,
-,(--) par les lois de la Rente vers l’Inégalité,
-,(--) par les lois de la Population vers la Misère,
-,(--) et par les lois de l’Hérédité vers la Stérilisation,
+par les lois de la valeur vers l’injustice,
+,(--) par les lois de la rente vers l’inégalité,
+,(--) par les lois de la population vers la misère,
+,(--) et par les lois de l’hérédité vers la stérilisation,
 il ne faut pas dire que Dieu a fait du monde social, comme du monde matériel,
 une ,(oe)uvre harmonique ;
 il faut avouer, en courbant la tête,
 qu’il s’est plu à le fonder sur une dissonance révoltante
-et irrémédiable. ,(XXX :M)
+et irrémédiable.
 ][
 Il ne faut pas croire, jeunes gens,
 que les socialistes aient réfuté et rejeté
 ce que j’appellerai, pour ne blesser personne, la théorie des dissonances.
 Non, quoi qu’ils en disent, ils l’ont tenue pour vraie ;
 et c’est justement parce qu’ils la tiennent pour vraie
-qu’ils proposent de substituer la Contrainte à la Liberté,
+qu’ils proposent de substituer la contrainte à la liberté,
 l’organisation artificielle à l’organisation naturelle,
 l’,(oe)uvre de leur invention à l’,(oe)uvre de Dieu.
 Ils disent à leurs adversaires
@@ -452,38 +434,38 @@ Ils disent à leurs adversaires
 Si, comme vous l’aviez annoncé, les intérêts humains laissés à eux-mêmes
 tendaient à se combiner harmonieusement,
 nous n’aurions rien de mieux à faire qu’à accueillir et glorifier,
-comme vous, la Liberté.
+comme vous, la liberté.
 Mais vous avez démontré d’une manière invincible
 que les intérêts, si on les laisse se développer librement,
 poussent l’humanité vers l’injustice, l’inégalité,
 le paupérisme et la stérilité.
-Eh bien, ,(XXX :M) nous réagissons contre votre théorie
+Eh bien, nous réagissons contre votre théorie
 précisément parce qu’elle est vraie ;
-nous ,(XXX :M) voulons briser la société actuelle
+nous voulons briser la société actuelle
 précisément parce qu’elle obéit aux lois fatales que vous avez décrites ;
 nous voulons essayer de notre puissance, puisque la puissance de Dieu a échoué.
 ][
 Ainsi, on s’accorde sur le point de départ,
 on ne se sépare que sur la conclusion.
 ][
-Les Économistes auxquels j’ai fait allusion disent :
+Les économistes auxquels j’ai fait allusion disent :
 ,(emph[Les grandes lois providentielles
-précipitent la société vers le mal ;])
+précipitent la société vers le mal,])
 mais il faut se garder de troubler leur action,
 parce qu’elle est heureusement contrariée par d’autres lois secondaires
 qui retardent la catastrophe finale,
 et toute intervention arbitraire ne ferait qu’affaiblir la digue
 sans arrêter l’élévation fatale du flot.
 ][
-Les Socialistes disent :
+Les socialistes disent :
 ,(emph[Les grandes lois providentielles
 précipitent la société vers le mal ;])
 il faut les abolir et en choisir d’autres dans notre inépuisable arsenal.
 ][
-Les Catholiques disent :
+Les catholiques disent :
 ,(emph[Les grandes lois providentielles
-précipitent la société vers le mal]) ,(XXX :M)
-,(--) il faut leur échapper en renonçant aux intérêts humains,
+précipitent la société vers le mal ;])
+il faut leur échapper en renonçant aux intérêts humains,
 en se réfugiant dans l’abnégation, le sacrifice, l’ascétisme et la résignation.
 ][
 Et, au milieu de ce tumulte, de ces cris d’angoisse et de détresse,
@@ -518,7 +500,7 @@ car elle nous dit que ce n’est pas seulement la mécanique céleste, mais
 aussi la mécanique sociale qui révèle la sagesse de Dieu et raconte sa
 gloire.
 ][
-Elle ,(XXX :M) est ,(emph[pratique]),
+Elle est ,(emph[pratique]),
 et l’on ne peut certes rien concevoir de plus aisément pratique que ceci :
 Laissons les hommes travailler, échanger, apprendre, s’associer,
 agir et réagir les uns sur les autres,
@@ -527,7 +509,7 @@ il ne peut jaillir de leur spontanéité intelligente
 qu’ordre, harmonie, progrès, le bien, le mieux, le mieux encore,
 le mieux à l’infini.
 ][
-,(--) Voilà bien, direz-vous, l’optimisme ,(XXX :M) des économistes !
+,(--) Voilà bien, direz-vous, l’optimisme des économistes !
 Ils sont tellement esclaves de leurs propres systèmes,
 qu’ils ferment les yeux aux faits de peur de les voir.
 En face de toutes les misères, de toutes les injustices,
@@ -541,19 +523,18 @@ et la société s’écroulera qu’ils répéteront encore :
 Non certes, nous ne pensons pas que tout soit pour le mieux.
 ][
 J’ai une foi entière dans la sagesse des lois providentielles,
-,(XXX :EO1854 [coquille : fo  entière])
-et, par ce motif, j’ai foi dans la Liberté.
+et, par ce motif, j’ai foi dans la liberté.
 ][
-La question est de savoir si nous avons la Liberté.
+La question est de savoir si nous avons la liberté.
 ][
 La question est de savoir si ces lois agissent dans leur plénitude,
 si leur action n’est pas profondément troublée
 par l’action opposée des institutions humaines.
 ][
-Nier le Mal ! nier la douleur ! qui le pourrait ?
+Nier le mal ! nier la douleur ! qui le pourrait ?
 Il faudrait oublier qu’on parle de l’homme.
 Il faudrait oublier qu’on est homme soi-même.
-Pour que les lois providentielles soient tenues ,(XXX :M)
+Pour que les lois providentielles soient tenues
 pour ,(emph[harmoniques]),
 il n’est pas nécessaire qu’elles excluent le mal.
 Il suffit qu’il ait son explication et sa mission,
@@ -564,35 +545,35 @@ en réprimant sa propre cause.
 ][
 La société a pour élément l’homme qui est une force ,(emph[libre]).
 Puisque l’homme est libre, il peut choisir ;
-puisqu’il peut choisir, il peut se tromper ; ,(XXX :M)
+puisqu’il peut choisir, il peut se tromper ;
 puisqu’il peut se tromper, il peut souffrir.
 ][
 Je dis plus : il doit se tromper et souffrir ;
-car son ,(XXX :M) point de départ est l’ignorance,
+car son point de départ est l’ignorance,
 et devant l’ignorance s’ouvrent des routes infinies et inconnues
 qui toutes, hors une, mènent à l’erreur.
 ][
-Or, toute Erreur engendre souffrance.
+Or, toute erreur engendre souffrance.
 Ou la souffrance retombe sur celui qui s’est égaré,
-et alors elle met en ,(oe)uvre la Responsabilité.
+et alors elle met en ,(oe)uvre la responsabilité.
 Ou elle va frapper des êtres innocents de la faute, et,
-en ce cas, ,(XXX :M)
-elle fait vibrer le merveilleux appareil réactif de la Solidarité.
+en ce cas,
+elle fait vibrer le merveilleux appareil réactif de la solidarité.
 ][
 L’action de ces lois,
 combinée avec le don qui nous a été fait de lier les effets aux causes,
 doit nous ramener, par la douleur même, dans la voie du bien et de la vérité.
 ][
-Ainsi, non-seulement nous ne nions pas le Mal,
+Ainsi, non-seulement nous ne nions pas le mal,
 mais nous lui reconnaissons une mission,
 dans l’ordre social comme dans l’ordre matériel.
 ][
-Mais pour qu’il la remplisse, cette mission, ,(XXX)
-il ne faut pas étendre artificiellement la Solidarité
-de manière à détruire la Responsabilité ;
-en d’autres termes, il faut respecter la Liberté.
+Mais pour qu’il la remplisse, cette mission,
+il ne faut pas étendre artificiellement la solidarité
+de manière à détruire la responsabilité ;
+en d’autres termes, il faut respecter la liberté.
 Que si les institutions humaines viennent contrarier en cela les lois divines,
-le Mal n’en suit pas moins l’erreur, seulement il se déplace.
+le mal n’en suit pas moins l’erreur, seulement il se déplace.
 Il frappe qui il ne devait pas frapper ;
 il n’avertit plus ;
 il n’est plus un enseignement ;
@@ -608,8 +589,8 @@ de la plupart de nos institutions gouvernementales,
 mais encore et surtout de celles qu’on cherche à faire prévaloir
 comme remèdes aux maux qui nous affligent.
 Sous le philanthropique prétexte
-de développer entre les hommes une Solidarité factice,
-on rend la Responsabilité de plus en plus inerte et inefficace.
+de développer entre les hommes une solidarité factice,
+on rend la responsabilité de plus en plus inerte et inefficace.
 On altère, par une intervention abusive de la force publique,
 le rapport du travail à sa récompense,
 on trouble les lois de l’industrie et de l’échange,
@@ -625,12 +606,12 @@ bref on donne à tous les intérêts des bases factices,
 on les met aux prises,
 et puis l’on s’écrie :
 Voyez, les intérêts sont antagoniques.
-C’est la Liberté qui fait tout le mal.
-Maudissons et étouffons la Liberté.
+C’est la liberté qui fait tout le mal.
+Maudissons et étouffons la liberté.
 ][
 Et cependant, comme ce mot sacré a encore la puissance
 de faire palpiter les c,(oe)urs,
-on dépouille la Liberté de son prestige
+on dépouille la liberté de son prestige
 en lui arrachant son nom ;
 et c’est sous le nom de ,(emph[concurrence])
 que la triste victime est conduite à l’autel,
@@ -657,13 +638,13 @@ aux hommes de toutes les écoles
 qui mettent la justice, le bien général et la vérité
 au-dessus de leurs systèmes.
 ][
-Économistes, comme vous je conclus ,(XXX :M) à la ,(strong[Liberté]) ,(pv)
+Économistes, comme vous je conclus à la liberté,
 et si j’ébranle quelques-unes de ces prémisses
 qui attristent vos c,(oe)urs généreux,
 peut-être y verrez-vous un motif de plus
 pour aimer et servir notre sainte cause.
 ][
-Socialistes, vous avez foi dans l’,(strong[Association]).
+Socialistes, vous avez foi dans l’association.
 ,(XXX :NTEA [
 ,(q[Socialistes]), ,(q[égalitairstes]), ,(q[communistes]) :
 En France, avant l’époque de Karl Marx, bien sûr,
@@ -689,13 +670,12 @@ sur Proudhon, chapitre 5.)
 ])
 Je vous adjure de dire, après avoir lu cet écrit,
 si la société actuelle, moins ses abus et ses entraves,
-c’est-à-dire sous la condition de la Liberté,
+c’est-à-dire sous la condition de la liberté,
 n’est pas la plus belle, la plus complète, la plus durable,
 la plus universelle, la plus équitable de toutes les Associations.
 ][
 Égalitaires, vous n’admettez qu’un principe,
-,(XXX :NTEA [voir note précédente])
-la ,(strong[Mutualité des services]).
+la mutualité des services.
 Que les transactions humaines soient libres,
 et je dis qu’elles ne sont et ne peuvent être autre chose
 qu’un échange réciproque de ,(emph[services])
@@ -735,7 +715,7 @@ que si on vous donnait ce champ à son état primitif
 et tel qu’il était avant d’avoir été préparé, par le travail, à la production.
 ][
 Capitalistes et ouvriers, je me crois en mesure d’établir cette loi :
-,(q[À mesure que les capitaux s’accumulent,
+,(q[A mesure que les capitaux s’accumulent,
 le prélèvement ,(emph[absolu]) du capital
 dans le résultat total de la production augmente,
 et son prélèvement ,(emph[proportionnel]) diminue ;
@@ -754,7 +734,7 @@ Le partage se fera ainsi :
 (tr(td[Troisième époque])(tdRT 55)(tdRT 65)(tdRT 120)))
 ][
 Bien entendu, ces proportions n’ont d’autre but
-que d’élucider la pensée. ,(NdA)])])
+que d’élucider la pensée. ,(NdA)]).])
 ,(--) Si cette loi est établie, il en résulte clairement
 l’harmonie des intérêts entre les travailleurs et ceux qui les emploient.
 ][,(tag :a :name "malthus_ref3")
@@ -766,7 +746,7 @@ j’aurai à vous soumettre une autre loi plus consolante :
 la densité croissante de population équivaut
 à une facilité croissante de production.])
 ,(--) Et s’il en est ainsi, certes, ce ne sera pas vous
-qui vous affligerez de voir ,(XXX :M) tomber du front de notre science chérie
+qui vous affligerez de voir tomber du front de notre science chérie
 sa couronne d’épines.
 ][
 Hommes de spoliation,
@@ -791,7 +771,7 @@ car ce livre a pour but de vous sacrifier,
 ou plutôt de sacrifier vos prétentions injustes.
 On a beau aimer la conciliation,
 il est deux principes qu’on ne saurait concilier :
-la Liberté et la Contrainte.
+la liberté et la contrainte.
 Si les lois providentielles sont harmoniques,
 c’est quand elles agissent librement,
 sans quoi elles ne seraient pas harmoniques par elles-mêmes.
@@ -801,7 +781,7 @@ Oppresseurs, spoliateurs, contempteurs de la justice,
 vous ne pouvez donc entrer dans l’harmonie universelle,
 puisque c’est vous qui la troublez.
 ][
-Est-ce à dire que ce livre pourra avoir pour effet d’affaiblir le Pouvoir,
+Est-ce à dire que ce livre pourra avoir pour effet d’affaiblir le pouvoir,
 d’ébranler sa stabilité, de diminuer son autorité ?
 J’ai en vue le but directement contraire.
 Mais entendons-nous.
@@ -811,7 +791,7 @@ ce qui doit être ou ce qui ne doit pas être
 dans les attributions de l’État ;
 et, pour faire ce grand départ,
 il ne faut pas perdre de vue
-que l’État agit toujours par l’intermédiaire de la Force.
+que l’État agit toujours par l’intermédiaire de la force.
 Il impose tout à la fois et les services qu’il rend
 et les services qu’il se fait payer en retour sous le nom de contributions.
 ][
@@ -821,30 +801,30 @@ de s’imposer les uns aux autres ,(emph[par la force]) ?
 Or, je n’en sais qu’une dans ce cas, c’est la ,(emph[justice]).
 Je n’ai pas le droit de ,(emph[forcer]) qui que ce soit à être
 religieux, charitable, instruit, laborieux ;
-mais j’ai le droit de le ,(emph[forcer]) à être ,(emph[Juste]) ,(pv)
+mais j’ai le droit de le ,(emph[forcer]) à être ,(emph[juste :])
 c’est le cas de légitime défense.
 ][
-Or, il ne peut exister, dans la collection des individus, ,(XXX :M)
+Or, il ne peut exister, dans la collection des individus,
 aucun droit qui ne préexiste dans les individus eux-mêmes.
 Si donc l’emploi de la force individuelle
 n’est justifié que par la légitime défense,
 il suffit de reconnaître
-que l’action gouvernementale se manifeste toujours par la Force
+que l’action gouvernementale se manifeste toujours par la force
 pour en conclure qu’elle est essentiellement bornée
-à faire régner ,(XXX :M) l’ordre, la sécurité, la justice.
+à faire régner l’ordre, la sécurité, la justice.
 ][
 Toute action gouvernementale en dehors de cette limite
 est une usurpation de la conscience, de l’intelligence, du travail,
-en un mot de la Liberté humaine.
+en un mot de la liberté humaine.
 ][
 Cela posé, nous devons nous appliquer sans relâche et sans pitié
 à dégager des empiétements du pouvoir
-le domaine entier de l’activité privée ;
-c’est à cette condition seulement
-que nous aurons conquis la Liberté ou le libre jeu des lois harmoniques,
+le domaine entier de l’activité privée.
+C’est à cette condition seulement
+que nous aurons conquis la liberté ou le libre jeu des lois harmoniques
 que Dieu a préparées pour le développement et le progrès de l’humanité.
 ][
-Le Pouvoir sera-t-il pour cela affaibli ?
+Le pouvoir sera-t-il pour cela affaibli ?
 Perdra-t-il de sa stabilité
 	parce qu’il aura perdu de son étendue ?
 Aura-t-il moins d’autorité
@@ -862,7 +842,7 @@ Il me semble évident, au contraire,
 que renfermer la force publique dans sa mission unique,
 mais essentielle, incontestée, bienfaisante, désirée, acceptée de tous,
 c’est lui concilier le respect et le concours universels.
-Je ne vois plus ,(XXX :M) alors
+Je ne vois plus alors
 d’où pourraient venir les oppositions systématiques,
 les luttes parlementaires, les insurrections des rues,
 les révolutions, les péripéties, les factions, les illusions,
@@ -881,10 +861,10 @@ Toutes ces causes et mille autres
 	de troubles, d’irritation, de désaffection,
 	de convoitise et de désordre
 n’auraient plus de raison d’être ;
-et les dépositaires du pouvoir, ,(XXX :M) au lieu de la troubler,
+et les dépositaires du pouvoir, au lieu de la troubler,
 concourraient à l’universelle harmonie.
 Harmonie qui n’exclut pas le mal,
-mais ,(XXX :M) ne lui laisse que la place de plus en plus restreinte
+mais ne lui laisse que la place de plus en plus restreinte
 que lui font l’ignorance et la perversité
 de notre faible nature, que sa mission est de prévenir ou de châtier.
 ][
@@ -911,7 +891,7 @@ dans les lois auxquelles il a soumis les intérêts et les volontés
 que dans celles qu’il a imposées aux pesanteurs et aux vitesses.
 ,(--) Je crois que tout dans la société est cause
 de perfectionnement et de progrès, même ce qui la blesse.
-,(--) Je crois que le Mal aboutit au Bien et le provoque,
+,(--) Je crois que le mal aboutit au Bien et le provoque,
 tandis que le Bien ne peut aboutir au Mal,
 d’où il suit que le Bien doit finir par dominer.
 ,(--) Je crois que l’invincible tendance sociale

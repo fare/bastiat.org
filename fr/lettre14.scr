@@ -12,7 +12,7 @@
 (bastiat[
 ,(date-tag[7 mars 1850.])
 ,(p :align 'center (strong[
-	F. Bastiat à P. J. Proudhon.]))
+	F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
 ,(p*(font :size "-1" (strong[
 
 Droit légitime de la défense.
@@ -906,7 +906,7 @@ On lui dira :
 Pour nous faire comprendre les merveilles de son invention,
 	,(np "proudhon" [M. Proudhon]) ,(ref :url "lettre11.html#livres" [la soumet]) à une épreuve décisive,
 	celle de la ,(emph[comptabilité]) commerciale.
-][
+][,(tag :a :name "axiome")
 Il compare deux systèmes.])
 ,(liste(p*[Dans l’un,
 	le travailleur emprunte gratis
