@@ -12,13 +12,13 @@
 (bastiat[
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 4 février 1850.])
 ,(p :align 'center (strong[
-	F. Bastiat à P. J. Proudhon.]))
+	F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
 ,(p*(font :size "-1" (strong[
 Le système de la gratuité du crédit se réduit au papier-monnaie.
 ,(--) Quelles conséquences tirer de la comptabilité établie par M. Proudhon ?
 ,(--) Des billets de banque.
 ,(--) Des profits qu’ils procurent.
-,(--) Pénétration de J. B. Say.
+,(--) Pénétration de J.-B. Say.
 ,(--) Le vrai moyen de faire profiter du crédit le public,
 qui lui-même l’accorde,
 c’est la liberté.
@@ -52,10 +52,10 @@ Vous l’avez dit cent fois avec raison.
 D’autres,
 il est vrai,
 donnent à ce mot un autre sens.
-Est socialiste,
+,(tag :a :name "dp_ref")Est socialiste,
 disait,
 ces jours-ci,
-la ,(emph[Démocratie pacifique]),
+la ,(tj "dp" [,(emph[Démocratie pacifique])]),
 quiconque aspire à réaliser un peu de bien.
 ,(--) Certes,
 si la définition est vague,
@@ -64,12 +64,12 @@ Ainsi défini,
 le socialisme est impérissable.
 ][
 Mais un désir,
-non plus que vingt aspirations qui s’entredétruisent,
+non plus que vingt aspirations qui s’entre-détruisent,
 ne constituent pas une science.
-Qu’est devenue l’,(emph[Icarie]) ?
+Qu’est devenue l’,(emph[Icarie ?])
 Où en sont le ,(emph[phalanstère]),
 l’,(emph[atelier national]),
-la ,(emph[triade]) ?
+la ,(emph[triade ?])
 Ces formules sont mortes,
 et vous n’avez pas peu contribué à les tuer.
 Si quelques autres ont fait récemment leur entrée dans le monde,
@@ -80,7 +80,7 @@ Une seule survivait encore :
 Il m’a semblé qu’elle puisait sa vie dans le mystère.
 Vous l’exposez au grand jour :
 survivra-t-elle longtemps ?
-][
+](nbsp)[
 L’altération des monnaies,
 pouvant aller jusqu’à la monnaie fictive,
 c’est une invention qui n’est ni neuve,
@@ -89,7 +89,7 @@ Jusqu’ici cependant,
 on avait pris la peine de donner ou de supposer au ,(emph[papier-monnaie]) quelques garanties,
 les futures richesses du Mississipi,
 le sol national,
-les forêts de l’Etat,
+les forêts de l’État,
 les biens des émigrés,
 etc.
 On comprenait bien que le papier n’a pas de valeur intrinsèque,
@@ -140,15 +140,13 @@ mais il n’a rien à donner en échange et ne doit pas les emprunter sous peine
 Il se présente à la Banque et lui dit :
 Livrez-moi pour mille francs de billets,
 je vous rembourserai sur le produit de mon travail futur au fur et à mesure de mes ventes.
-La banque s’exécute et donne des billets pour 990 fr.
-,(footnote*[ Cette retenue de 10 fr.,
+La banque s’exécute et donne des billets pour 990 fr. ,(footnote*[ Cette retenue de 10 fr.,
 n’ayant pour objet que les frais de bureau,
 cet improprement nommée ,(emph[escompte]).
 Elle pourrait être réduite à quelques centimes.
 Peut-être même eût-il mieux valu,
 dans la théorie et la comptabilité,
-ne point s’en préoccuper.])
-][
+ne point s’en préoccuper. ,(NdA)])
 Muni de ces précieux talismans,
 B se présente à A et lui dit :
 ,(q[Vous espériez peut-être me ,(emph[prêter]) vos capitaux,
@@ -161,9 +159,9 @@ B entreprend son travail.
 En vertu de l’aphorisme :
 ,(emph[Tout travail doit laisser un excédant]),
 il ajoute 10 pour 100 à la valeur qu’il vient d’acheter,
-court à la Banque payer (en billets sans doute) les 990 fr.
+court à la Banque payer (en billets sans doute) les 990 fr.
 qu’il lui doit,
-et se trouve avoir réalisé 99 fr.
+et se trouve avoir réalisé 99 fr.
 de profits.
 Ainsi de C, D, E, F, etc.,
 en un mot de tous les hommes.
@@ -186,7 +184,7 @@ inspireront-ils ou non de la confiance ?
 En d’autres termes encore,
 la Banque aura-t-elle ou n’aura-t-elle pas un capital primitif et des ,(emph[valeurs faites suffisantes]) pour répondre de toutes ses émissions ?
 ][
-Comment réunira-t-elle le capital en ,(emph[valeurs faites]) ?
+Comment réunira-t-elle le capital en ,(emph[valeurs faites ?])
 Si elle a des actionnaires,
 dans l’ordre de choses actuel,
 qui est notre point de départ,
@@ -203,7 +201,7 @@ L’intérêt ne sera pas anéanti,
 mais mis sur le dos du contribuable.
 ][
 Mais enfin,
-admettons que ce capital de 10,000 fr.,
+admettons que ce capital de 10,000 fr.,
 sur lequel vous opérez fictivement,
 soit réuni,
 et mettons de côté ce cercle vicieux qui consiste à ,(emph[supposer]) la gratuité pour la ,(emph[réaliser]).
@@ -213,7 +211,7 @@ vous jugez sans doute indispensable qu’il se conserve.
 Pour cela vous raisonnez sur cette hypothèse que B, C, D, E, etc.,
 rembourseront chaque année à la Banque les billets qu’ils lui auront pris.
 Mais si cette hypothèse fait défaut ?
-Si B est un débauché qui va dépenser ses 1,000 fr.
+Si B est un débauché qui va dépenser ses 1,000 fr.
 au cabaret ?
 Si C les donne à sa maîtresse ?
 Si D les jette dans une entreprise ridicule ?
@@ -233,7 +231,7 @@ aux entreprises folles,
 aux opérations hasardeuses,
 aux spéculations téméraires,
 aux dépenses immorales ou inconsidérées.
-C’est une chose ,(XXX) grave que de placer tous les hommes
+C’est une chose grave que de placer tous les hommes
 en situation de se dire :
 Tentons la fortune avec le bien d’autrui ;
 si je réussis,
@@ -268,9 +266,8 @@ elle ne prête qu’en toute sécurité,
 que fera-t-elle de plus que ne font aux États-Unis les Banques libres ?
 Et celui qui est pauvre diable aujourd’hui ne sera-t-il pas pauvre diable sous votre régime ?
 ][
-Je ne crois pas que vous puissiez sortir de ces alternatives :
-][
-Ou la Banque aura un capital dont elle payera l’intérêt,
+Je ne crois pas que vous puissiez sortir de ces alternatives :])
+,(liste(p*[Ou la Banque aura un capital dont elle payera l’intérêt,
 et alors elle ne pourra,
 sans se ruiner,
 prêter sans intérêt ;
@@ -280,14 +277,14 @@ et,
 en ce cas,
 expliquez-nous d’où elle le tirera,
 en dehors de A, B, C, D, etc.,
-qui forment toute la nation ?
-][
-Dans l’une et l’autre hypothèse,
+qui forment toute la nation ?]))
+
+,(p*[Dans l’une et l’autre hypothèse,
 ou elle prêtera avec mesure et discernement,
 et alors vous n’aurez pas le crédit universel ;
 ou elle prêtera sans garantie,
 et en ce cas elle fera faillite avant deux mois.
-][
+](nbsp)[
 Mais passons sur ces premières difficultés.
 ][
 A,
@@ -340,9 +337,9 @@ mes clous,
 mes habits,
 qui sont des ,(emph[valeurs faites]),
 donnez-moi une ,(emph[valeur faite]),
-c’est-à-dire 20 fr.
+c’est-à-dire 20 fr.
 en argent.
-,(--) Voilà 20 fr.
+,(--) Voilà 20 fr.
 en billets,
 répond B.
 ,(--) Ce n’est qu’une promesse,
@@ -352,13 +349,13 @@ et je n’y ai pas confiance.
 réplique B :
 ,(--) Soit,
 riposte A,
-mais je veux 100 fr.
+mais je veux 100 fr.
 de ma marchandise.
 ][
 Comment arrêtez-vous cette hausse de prix,
 évidemment destructive de tous les bienfaits que vous attendez de la Banque ?
 Que ferez-vous ?
-Décréterez-vous le ,(emph[maximum]) ?
+Décréterez-vous le ,(emph[maximum ?])
 ][
 L’universelle cherté se manifestera encore par une autre cause.
 Certes,
@@ -366,8 +363,8 @@ vous ne doutez pas que la Banque,
 dès qu’elle aura fait battre le rappel par tous les organes de la publicité,
 dès qu’elle aura annoncé qu’elle prête pour rien,
 n’attire à elle de nombreux clients.
-Tous ceux qui ont des dettes,
-dont ils payent l’intérêt,
+Tous ceux qui ont des dettes
+dont ils payent l’intérêt
 voudront profiter de cette belle occasion de se libérer.
 En voilà pour une vingtaine de milliards.
 L’État voudra s’acquitter aussi des 5 milliards qu’il doit.
@@ -381,7 +378,7 @@ ou apprenti qui veut devenir maître.
 Je ne crains pas de trop m’avancer en disant que l’émission des billets,
 si elle a la prétention de satisfaire tous les appétits,
 toutes les cupidités,
-toutes rêveries,
+toutes les rêveries,
 dépassera 50 milliards dès les six premiers mois.
 Voilà de quel poids la demande des capitaux pèsera sur le marché.
 Mais où en sera l’offre ?
@@ -423,7 +420,7 @@ banqueroute et désorganisation,
 dont les plus pauvres et les moins roués seront les premières victimes ;
 voilà les conséquences logiques du papier-monnaie.
 Ce n’est pas tout.
-][
+](nbsp)[
 Vous pourriez me dire :
 Votre critique porte sur les moyens d’exécution.
 On y avisera.
@@ -439,7 +436,7 @@ Non,
 si les moyens d’exécution ne le sont pas.
 Mais je vais droit au fond,
 et je dis :
-Votre invention n’eût-elle pas tous les dangers que j’ai signalés,
+Votre invention, n’eût-elle pas tous les dangers que j’ai signalés,
 n’atteint pas votre but.
 Elle ne réalise pas la ,(emph[gratuité du crédit]).
 ][
@@ -468,7 +465,7 @@ que celui qui travaille sur son propre capital
 ne gagne pas plus que celui qui travaille
 sur le capital d’autrui emprunté pour rien !
 Vous poursuivez une impossibilité et une injustice.
-][
+](nbsp)[
 Je vais plus loin,
 et je dis qu’eussiez-vous raison sur tout le reste,
 vous auriez encore tort de prendre pour devise ces mots :
@@ -508,7 +505,7 @@ Mettre la main sur le bien d’autrui,
 et cela sans injustice,
 quelle attrayante perspective !
 Aussi vous avez eu et vous deviez avoir d’abord beaucoup d’adeptes.
-][
+][,(tag :a :name "pascal_ref")
 Mais si votre mot d’ordre eut été ,(emph[anéantissement du crédit]),
 qui exprime votre pensée réelle,
 on aurait compris que,
@@ -516,7 +513,7 @@ sous votre régime,
 on n’aura rien pour rien.
 La cupidité,
 ce grand organe de la créance,
-comme dit Pascal,
+comme dit ,(np "pascal" [Pascal]),
 eût été neutre.
 On se serait borné à examiner froidement,
 d’abord,
@@ -526,7 +523,7 @@ s’il est praticable.
 Le mot ,(emph[gratuité]) est toujours fort séduisant ;
 mais je ne crains pas de dire que,
 s’il a été un leurre pour beaucoup de vos adeptes,
-il a été un piège pour votre esprit.
+il a été un piége pour votre esprit.
 ][
 Il explique les hésitations
 qu’on a pu remarquer dans votre polémique.
@@ -553,7 +550,7 @@ Vous invoquiez l’,(emph[antinomie]),
 vous alliez jusqu’à dire que le ,(emph[oui]) et le ,(emph[non])
 peuvent être vrais de la même chose et en même temps.
 Après la dialectique,
-venait le rhétorique.
+venait la rhétorique.
 Vous apostrophiez l’intérêt,
 le qualifiant de vol,
 etc., etc.
@@ -579,9 +576,8 @@ J’ai prouvé que ces moyens d’exécution se résument en un mot :
 ,(emph[papier-monnaie]).
 ][,(tag :a :name "confiance")
 J’ai prouvé,
-en outre :
-][
-Que,
+en outre :])
+,(liste(p*[Que,
 pour que les billets d’une Banque soient reçus,
 il faut qu’ils inspirent confiance ;
 ][
@@ -609,9 +605,9 @@ Et enfin que,
 dans aucune hypothèse,
 même en réduisant toutes les transactions à des ventes,
 vous ne détruisez pas cette rémunération du capital,
-toujours confondue avec le prix de vente.
-][
-Il résulte de là,
+toujours confondue avec le prix de vente.]))
+
+,(p*[Il résulte de là,
 que si votre Banque n’est qu’une fabrique de papier-monnaie,
 elle amènera la désorganisation sociale.
 ][
@@ -631,7 +627,7 @@ je vais faire un mouvement vers vous.
 Puisse-t-il vous déterminer à en faire un vers moi,
 ou plutôt vers la vraie solution :
 la liberté des Banques !
-][,(tag :a :name "temps")
+](nbsp)[,(tag :a :name "temps")
 Mais,
 pour être compris,
 j’ai besoin,
@@ -687,17 +683,17 @@ les transactions ne sont pas aussi simples que celle que je viens de décrire,
 mais elles sont identiques par leur essence.
 ][
 Ainsi,
-il est possible que A vende les souliers à un tiers pour 10 fr.
+il est possible que A vende les souliers à un tiers pour 10 fr.
 et remette cette somme à B en lui disant :
 Donnez-moi le chapeau immédiatement,
 ou,
 si vous voulez un délai d’un an,
 vous me restituerez une semaine de travail,
 plus deux heures,
-ou bien 10 fr.,
+ou bien 10 fr.,
 plus un vingtième en sus.
 Nous rentrons tout à fait dans l’hypothèse précédente.
-][
+](nbsp)[
 D’accord,
 je l’espère du moins,
 sur la légitimité du crédit,
@@ -707,12 +703,12 @@ B peut n’avoir pris qu’un engagement verbal,
 et cependant,
 il n’est pas impossible que A ne le transmette et ne l’escompte.
 Il peut dire à C :
-Je vous dois 10 fr.
-B m’a donné sa parole qu’il me donnerait 10 fr.
+Je vous dois 10 fr.
+B m’a donné sa parole qu’il me donnerait 10 fr.
 et 10 sous dans un an.
 Voulez-vous accepter en payement mes droits sur B ?
 ,(--) Si C a confiance,
-s’il croit,
+s’il ,(emph[croit]),
 l’opération pourra se faire.
 Mais qui oserait dire que,
 pour multiplier les souliers et les chapeaux,
@@ -758,16 +754,16 @@ Ceux qui ont fait ce sacrifice.
 Ainsi,
 si B a emprunté,
 pour un an,
-1,000 fr. à A,
-et lui a souscrit un billet de 1,040 fr.,
-c’est A qui profite des 40 fr.
+1,000 fr. à A,
+et lui a souscrit un billet de 1,040 fr.,
+c’est A qui profite des 40 fr.
 S’il négocie immédiatement ce billet,
 à 4 pour 100 d’escompte,
 c’est le preneur qui gagne l’intérêt,
 comme il est juste,
 puisque c’est lui qui fait l’,(emph[avance]) ou le sacrifice du temps.
 Si A négocie son billet au bout de six mois à C,
-celui-ci ne lui en donne que 1,020 fr.,
+celui-ci ne lui en donne que 1,020 fr.,
 et l’intérêt se partage entre A et C,
 parce que chacun a sacrifié six mois.
 ][
@@ -787,9 +783,9 @@ S’il le gardait,
 il toucherait toujours l’intérêt
 pour tout le temps où il aurait été privé de son capital.
 Mais il le porte à la Banque.
-Il remet à celle-ci un titre de 1,040 fr.,
-et elle lui donne en échange un billet de 1,000 fr.
-C’est donc elle qui gagne les 40 fr.
+Il remet à celle-ci un titre de 1,040 fr.,
+et elle lui donne en échange un billet de 1,000 fr.
+C’est donc elle qui gagne les 40 fr.
 ][
 Quelle est la raison de ce phénomène ?
 Il s’explique par la disposition où sont les hommes de faire des sacrifices à la commodité.
@@ -798,10 +794,10 @@ Quand on le prend,
 on ne se propose pas de le garder.
 On se dit :
 Il ne restera pas en mes mains plus de huit à dix jours,
-et je puis bien sacrifier l’intérêt de 1,000 fr.
+et je puis bien sacrifier l’intérêt de 1,000 fr.
 pendant une semaine en vue des avantages que le billet me procure.
 Au reste,
-les billets ont cela de commun avec l’argent ;
+les billets ont cela de commun avec l’argent :
 celui qu’on a dans sa bourse ou dans sa caisse ne rapporte pas d’intérêt,
 ce qui montre,
 pour le dire en passant,
@@ -814,33 +810,32 @@ et passe par quarante mains,
 séjournant neuf jours dans chacune,
 c’est quarante personnes qui ont renoncé,
 en faveur de la Banque,
-aux droits qu’elles avaient sur les 40 fr.
+aux droits qu’elles avaient sur les 40 fr.
 d’intérêts dus et payés par B.
-Chacune d’elles a fait un sacrifice de 1 fr.
+Chacune d’elles a fait un sacrifice de 1 fr.
 ][
 Dès lors on a pu se demander si cet arrangement était juste,
 s’il n’y aurait pas moyen d’organiser une Banque nationale,
 commune,
 qui fît profiter le public du sacrifice supporté par le public,
 en un mot,
-qui ne perçut pas d’intérêts.
-][
+qui ne perçût pas d’intérêts.
+][,(tag :a :name "ricardo_ref")
 Si je ne me trompe,
 Monsieur,
 c’est sur l’observation de ce phénomène que se fonde votre invention.
 Elle n’est pas nouvelle.
-Ricardo avait conçu un plan moins radical,
-mais analogue
-,(footnote*[
+,(np "ricardo" [Ricardo]) avait conçu un plan moins radical,
+mais analogue ,(footnote*[
 ,(cite-title[Proposals for an economical and secure currency.])
 ]),
-et je trouve dans Say (,(cite-title[Commentaires sur Storch])) ces lignes remarquables :
+et je trouve dans ,(np "say_jb" [Say]) (,(cite-title[Commentaires sur ,(np "storch" [Storch])])) ces lignes remarquables :
 ])
 
 ,(blockquote*[
 Cette idée ingénieuse ne laisse qu’une question non résolue.
 Qui devra jouir de l’intérêt de cette somme considérable mise dans la circulation ?
-Serait-ce le Gouvernement ?
+Serait-ce le gouvernement ?
 Ce ne serait pour lui qu’un moyen d’augmenter les abus,
 tels que les sinécures,
 la corruption parlementaire,
@@ -877,7 +872,7 @@ une somme d’argent improductive.
 ][
 Les billets d’une banque,
 on ne saurait trop le répéter,
-sont les titres de confiance.
+sont des titres de confiance.
 Le jour où elle les émet,
 la Banque proclame hautement
 qu’elle est prête à les rembourser à bureau ouvert et à toute heure.
@@ -889,10 +884,10 @@ et alors l’intérêt payé par B serait perdu pour tout le monde.
 Mais l’expérience ayant appris à la Banque
 que ses billets courent le monde pendant un temps déterminé,
 elle ne prend ses précautions qu’en conséquence.
-Au lieu de garder 1,000 fr.
+Au lieu de garder 1,000 fr.
 elle n’en garde que 400 (par hypothèse),
-et fait valoir 600 fr.
-C’est l’intérêt de ces 600 fr.
+et fait valoir 600 fr.
+C’est l’intérêt de ces 600 fr.
 qui est supporté par le public,
 par les détenteurs successifs du billet,
 et gagné par la Banque.
@@ -900,7 +895,7 @@ et gagné par la Banque.
 Or,
 cela ne devrait pas être.
 Elle ne devrait gagner que ses frais,
-l’intérêt de tout capital de fondation,
+l’intérêt de son capital de fondation,
 et les justes profits de tout travail,
 de toute spéculation.
 C’est ce qui arriverait avec la liberté des banques ;
@@ -913,10 +908,10 @@ les banques rivales seraient forcées de réduire le taux des escomptes
 à ce qui est nécessaire pour placer leurs capitaux dans la condition commune,
 et ce phénomène étrange que j’ai signalé,
 je veux dire l’abandon volontaire des intérêts,
-auxquels se soumettent les détenteurs successifs de ces billets,
+auxquels se soumettent les détenteurs successifs de billets,
 profiterait au ,(emph[public]) sous forme de réduction dans le taux des escomptes.
 Pour être plus précis,
-je dirai que l’intérêt d’un billet de 1,000 fr.
+je dirai que l’intérêt d’un billet de 1,000 fr.,
 mis en circulation,
 se partagerait.
 Une partie irait à la Banque
@@ -932,36 +927,34 @@ prenez-y garde,
 ne veut pas dire que l’intérêt tendra à devenir gratuit ou à s’anéantir.
 Cela veut dire seulement qu’il tendrait à être perçu par celui qui y a droit.
 ][
-Mais le privilège est intervenu qui en a disposé autrement,
+Mais le privilége est intervenu qui en a disposé autrement,
 et la Banque de France,
 n’ayant pas de concurrents,
 au lieu de retenir la partie,
 empoche le tout.
-][
+](nbsp)[
 Je voudrais,
 Monsieur,
 montrer la liberté des banques sous un autre aspect ;
 mais cette lettre est déjà trop longue.
 Je me bornerai à indiquer ma pensée.
 ][
-Ce qu’on nomme vulgairement l’intérêt
-,(footnote*[Quant à la rémunération du capital
+Ce qu’on nomme vulgairement l’intérêt ,(footnote*[Quant à la rémunération du capital
 indépendante de la circonstance du prêt,
 voyez,
 à ,(bof-ref "lettre4" [la quatrième lettre]),
 les pages 140 et suiv.
 ,(NdEEO)])
-comprend trois éléments qu’on a trop l’habitude de confondre :
-][
-1° L’intérêt proprement dit,
+comprend trois éléments qu’on a trop l’habitude de confondre :])
+,(liste(p*[1° L’intérêt proprement dit,
 qui est la rémunération du délai,
 le prix du temps ;
 ][
-2° Les frais de circulation ;
+2° Les frais de circulation ;
 ][
-3° La prime d’assurance.
-][
-La liberté des banques agirait à la fois d’une manière favorable,
+3° La prime d’assurance.]))
+
+,(p*[La liberté des banques agirait à la fois d’une manière favorable,
 et dans le sens de la réduction,
 sur ces trois éléments.
 Elle maintiendrait au taux le plus bas,
@@ -975,17 +968,17 @@ Enfin elle tendrait à diminuer et surtout à égaliser la prime d’assurance,
 qui est de beaucoup l’élément le plus onéreux,
 ,(--) principalement pour les classes laborieuses, ,(--)
 dont se compose l’intérêt total.
-][
+][,(tag :a :name "mallet_ref")
 Si,
 en effet,
 les hommes qui jouissent de la plénitude du crédit en France,
-comme les Mallet,
-les Hottinger,
-les Rothschild,
+comme les ,(np "mallet" [Mallet]),
+les ,(np "hottinger" [Hottinger]),
+les ,(np "rothschild" [Rothschild]),
 trouvent des capitaux à 3 pour 100,
 on peut dire que c’est là l’élément ,(emph[intérêt]),
 et que tout ce que les autres payent en sus représente l’élément ,(emph[frais]),
-et surtout l’élément ,(emph[prime d’assurance]),(pv)
+et surtout l’élément ,(emph[prime d’assurance ;])
 ce n’est plus le ,(emph[prix du temps]),
 c’est le prix du ,(emph[risque]),
 ou de la difficulté et de l’incertitude du recouvrement.
@@ -1000,7 +993,7 @@ comme en toutes,
 la véritable solution est donc la liberté.
 La liberté fera surgir des banques partout où il y a un centre d’activité,
 et associera ces banques entre elles ;
-elle mettra à porté de chaque marchand,
+elle mettra à portée de chaque marchand,
 de chaque artisan,
 ces deux grands leviers du progrès,
 l’épargne et le crédit.
@@ -1015,7 +1008,7 @@ Liberté des banques !
 Liberté du crédit !
 Oh !
 pourquoi,
-monsieur Proudhon,
+,(np "proudhon" [monsieur Proudhon]),
 votre brûlante propagande n’a-t-elle pas pris cette direction ?
 Est-ce qu’à tous autres égards,
 vous ne réclamez pas ce qui est pour tous les hommes un droit,
@@ -1026,7 +1019,7 @@ Est-ce que vous ne demandez pas la liberté des achats et des ventes ?
 Et qu’est-ce,
 après tout,
 que le prêt,
-si ce n’est la vente d’un usage ;
+si ce n’est la vente d’un usage,
 la vente du temps ?
 Pourquoi faut-il que cette transaction seule soit réglementée par l’État
 ou renfermée dans le cercle de vos conceptions ?
@@ -1064,7 +1057,7 @@ de flatter l’orgueil d’un noble c,(oe)ur.
 
 
 ])
-,(tag :p :align 'right (strong[Frédéric Bastiat.]))
+,(sign[,(FredB).])
 ])
 (tous_les_scripts)
 (footer[

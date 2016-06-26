@@ -78,7 +78,7 @@
 
 (document :title "Index des noms de personnes"
 (sommaire [
-,(p*[En travaux : 58% de textes indexés.])
+,(p*[En travaux : 64% de textes indexés.])
 
 ,(lettre "A" [
 
@@ -812,7 +812,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "avis_charitable.html" [Avis charitable à la ,(cite-title[Démocratie pacifique])]) ;
 ,(ref :url "impot_des_boissons.html#proudhon_ref" [Discours sur l’impôt des boissons]) ;
 ,(ref :url "pdfe1849.html#blanc_ref" [Lettre à quelques électeurs]) ;
-,(ref :url "douane_fiscale.html" [Lettre de V. Considerant et réponse de Bastiat])
+,(ref :url "douane_fiscale.html" [Lettre de V. Considerant et réponse de Bastiat]) ;
+,(ref :url "producteur_consommateur.html#considerant_ref" [Producteur, consommateur])
 
 ,(p*[Réponse de — à Bastiat : ,(ref :url "propriete_et_spoliation6.html" [Propriété et spoliation VI]) ; réponse de Bastiat à — : ,(ref :url "propriete_et_spoliation7.html" [Propriété et spoliation VII])])
 ])
@@ -1514,6 +1515,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "paix_et_liberte.html#horace_ref" [Paix et liberté])
 ])
 
+,(personne "hottinger" "Hottinger" "" "" [
+,(ref :url "lettre12.html#mallet_ref" [Lettre 12])
+])
+
 ,(personne "hugo" "Hugo" "Victor" "1802-1885" [
 ,(ref :url "conclusion_sophismes.html#hugo_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) : citation d’,(cite-title[Hernani]), acte III sc. 7. ;
 ,(ref :url "projet_preface_harmonies.html#hugo_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
@@ -1790,7 +1795,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#leroux_ref" [Lettre 11])
 ])
 
 ,(personne "lind" "Lind" "Jenny" "1820-1887" [
-,(ref :url "lettre_schwabe1848i.html" [Lettre à Mme Schwabe, 28 décembre 1848])
+,(ref :url "lettre_schwabe1848i.html" [Lettre à Mme Schwabe, 28 décembre 1848]) ;
+,(ref :url "producteur_consommateur.html#lind_ref" [Producteur, consommateur])
 ])
 
 ,(personne "lomenie" "Loménie" "Louis de" "1815-1878" [
@@ -1855,6 +1861,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ,(ref :url "metaphores.html#courier_ref" [Métaphores]) ;
 ,(ref :url "discours_5.html#malebranche_ref" [Influence du régime protecteur sur les salaires]) ;
 ,(ref :url "lettre10.html#hegel_ref" [Lettre 10]) ;
+])
+
+,(personne "mallet" "Mallet" "" "" [
+,(ref :url "lettre12.html#mallet_ref" [Lettre 12])
 ])
 
 ,(personne "malibran" "Malibran" "Maria" "1808-1836" [
@@ -2072,6 +2082,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "baccalaureat_et_socialisme.html#morelly_ref" [Baccalauréat et socialisme])
 ])
 
+,(personne "morin" "Morin" "Théodore" "1814-1890" [
+,(ref :url "repression_coalitions.html" [Discours sur la répession des coalitions industrielles])
+])
+
 ,(personne "morlot" "Morlot" "Joseph" "1792-1865" [
 ,(ref :url "navigation.html#morlot_ref" [Navigation]) (plusieurs fois)
 ])
@@ -2185,7 +2199,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "projet_discours_bayonne.html#pascal_ref" [Projet de discours à prononcer à Bayonne]) ;
 ,(ref :url "protectionisme_et_communisme.html#pascal_ref" [Protectionisme et communisme]) ;
 ,(ref :url "capital_et_rente.html#newton_ref" [Capital et rente]) ;
-,(ref :url "lettre_ecclesiastique.html#pascal_ref" [Lettre à un ecclésiastique])
+,(ref :url "lettre_ecclesiastique.html#pascal_ref" [Lettre à un ecclésiastique]) ;
+,(ref :url "lettre12.html#pascal_ref" [Lettre 12])
 ])
 
 ,(personne "passy" "Passy" "Hippolyte" "1793-1880" [
@@ -2440,7 +2455,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(ref :url "valeur_service.html#ricardo_ref" [La valeur découle du service]) ;
 ,(ref :url "richesse.html#ricardo_ref" [Richesse]) ;
 ,(ref :url "capital.html#ricardo_ref" [Capital]) ;
-,(ref :url "propriete_fonciere.html#ricardo_ref" [Propriété foncière])
+,(ref :url "propriete_fonciere.html#ricardo_ref" [Propriété foncière]) ;
+,(ref :url "lettre12.html#ricardo_ref" [Lettre 12])
 ])
 
 ,(personne "richelieu" "Richelieu" "Armand Jean du Plessis de" "1585-1642" [
@@ -2488,6 +2504,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 ,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "a_la_presse2.html#rothschild_ref" [A M. le rédacteur en chef de la Presse]) ;
 ,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(ref :url "lettre12.html#mallet_ref" [Lettre 12]) ;
 ,(ref :url "lettre14.html#cresus_ref" [Lettre 14])
 ])
 
@@ -2644,7 +2661,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 ,(ref :url "discours_6.html#say_ref" [Discours à Marseille]) ;
 ,(ref :url "capital_et_rente.html#say_ref" [Capital et rente]) ;
 ,(ref :url "pdfe1846.html#say_ref" [A MM. les électeurs de l’arrondissement de Saint-Sever]) ;
-,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre])
+,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
+,(ref :url "lettre12.html#ricardo_ref" [Lettre 12])
 Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), ,(ref :url "lettre5.html#say_ref" [Lettre 5]), ,(ref :url "lettre7.html#say_ref" [Lettre 7]), ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (plusieurs fois), ,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois) ;
 ,(ref :url "projet_de_ligue_antiprotectioniste2.html#say_ref" [Projet de ligue anti-protectioniste]) ;
 ])
@@ -2819,7 +2837,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ,(personne "storch" "Storch" "Henri" "1766-1835" [
 ,(ref :url "de_la_valeur.html#smith_ref" [De la valeur]) (plusieurs fois) ;
-,(ref :url "richesse.html#storch_ref" [Richesse])
+,(ref :url "richesse.html#storch_ref" [Richesse]) ;
+,(ref :url "lettre12.html#ricardo_ref" [Lettre 12])
 ])
 
 ,(personne "sturler" "Sturler" "(?)" "?" [
@@ -2943,6 +2962,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ])
 ,(lettre "V" [
+
+,(personne "vatimesnil" "Vatimesnil" "Antoine Lefebvre de" "1789-1860" [
+,(ref :url "repression_coalitions.html#vatimesnil_ref" [Discours sur la répession des coalitions industrielles])
+])
 
 ,(personne "vattel" "Vattel" "Emer de" "1714-1767" [
 ,(ref :url "baccalaureat_et_socialisme.html#vattel_ref" [Baccalauréat et socialisme])
