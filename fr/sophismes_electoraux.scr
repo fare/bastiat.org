@@ -9,7 +9,7 @@
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/271/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 67, p. 271.])
 ])
 (bastiat[
-,(p*[
+,(liste(p*[
 Je suis engagé.
 ][
 Je ne nomme pas M. tel, parce qu’il ne m’a pas demandé mon suffrage.
@@ -30,9 +30,9 @@ Je vote pour M. tel, parce qu’il n’est pas du Pays.
 ][
 Je vote pour M. tel, parce qu’il ,(emph[parlera]).
 ][
-Je vote pour M. tel, parce que s’il n’est pas nommé, notre préfet ou notre sous-préfet seront destitués.
-][
-Chacun de ces sophismes a son caractère spécial, mais il y a aussi au fond de chacun d’eux quelque chose qui leur est commun et qu’il s’agit de démêler.
+Je vote pour M. tel, parce que s’il n’est pas nommé, notre préfet ou notre sous-préfet seront destitués.]))
+
+,(p*[Chacun de ces sophismes a son caractère spécial, mais il y a aussi au fond de chacun d’eux quelque chose qui leur est commun et qu’il s’agit de démêler.
 ][
 Tous reposent sur cette double donnée :
 ][
@@ -41,7 +41,7 @@ Tous reposent sur cette double donnée :
 ,(emph[L’électeur est propriétaire exclusif d’une chose, à savoir : son suffrage, dont il peut disposer à sa guise et en faveur de qui il l’entend.])
 ][
 La fausseté de cette doctrine et l’application qui en est faite journellement ressortiront de l’examen auquel nous allons nous livrer.
-][
+](nbsp)[
 ,(strong[I. — Je ne vote pas pour M. A., parce qu’il ne m’a pas réclamé mon suffrage.])
 ][
 Ce sophisme, comme tous les autres, repose sur un sentiment qui, en lui-même, n’est pas répréhensible, sur le sentiment de la dignité personnelle.
@@ -52,13 +52,12 @@ Celui que nous examinons revient à ceci :
 ][
 « M. A. aspire à la députation. La députation est le chemin des honneurs et de la fortune. Il sait que mon suffrage peut concourir à sa nomination. C’est bien la moindre chose qu’il me le demande. S’il fait le fier, je ferai le fier à mon tour ; et quand je consens à disposer en faveur de quelqu’un d’une chose aussi précieuse que mon vote, j’entends qu’on m’en sache gré, qu’on ne dédaigne pas de venir chez moi, d’entrer en relation avec moi, de me serrer la main, etc., etc. »
 ][
-Il est bien clair que l’Électeur qui raisonne ainsi tombe dans la double erreur que nous avons signalée.
+Il est bien clair que l’Électeur qui raisonne ainsi tombe dans la double erreur que nous avons signalée.])
+,(liste(p*[1° Il croit que son vote est donné pour l’utilité du candidat.
 ][
-1° Il croit que son vote est donné pour l’utilité du candidat.
-][
-2° Il pense, qu’en fait de services, il est le maître d’en rendre à qui il lui plaît.
-][
-En un mot, il fait abstraction des biens et des maux publics qui peuvent résulter de son choix.
+2° Il pense qu’en fait de services, il est le maître d’en rendre à qui il lui plaît.]))
+
+,(p*[En un mot, il fait abstraction des biens et des maux publics qui peuvent résulter de son choix.
 ][
 Car s’il avait présent à l’esprit que le but de tout le mécanisme électoral est de faire arriver à la Chambre des Députés consciencieux et dévoués, il ferait probablement le raisonnement contraire et dirait :
 ][
@@ -87,7 +86,7 @@ Il s’agissait d’une importante tutelle. Un nombreux conseil de famille étai
 Je le demande, le conseil de famille agirait-il d’une manière raisonnable en confiant à ce solliciteur empressé les fonctions qu’il demande ?
 ][
 N’agirait-il pas plus sagement d’en investir un parent connu par sa probité, son exactitude, surtout s’il se rencontrait que ce parent eût avec les mineurs des intérêts identiques, en sorte qu’il ne pût leur faire ni bien ni mal sans en recueillir sa part ? ……
-][
+](nbsp)[
 ,(strong[II — Je vote pour M. A., parce qu’il m’a rendu un service.])
 ][
 « La reconnaissance, a-t-on dit, est la seule vertu dont on ne puisse pas abuser. » — C’est une erreur. Il y a un moyen fort usité d’en abuser, c’est d’acquitter, ,(emph[aux dépens d’autrui]), la dette qu’elle nous impose.
@@ -102,15 +101,14 @@ Mais supposons que la question posée devant les électeurs soit moins vague, et
 ][
 En Angleterre, par exemple, une longue expérience du gouvernement représentatif a appris aux électeurs qu’il ne fallait pas poursuivre toutes les réformes à la fois, mais ne passer à la seconde que lorsqu’on aurait emporté la première, et ainsi de suite.
 ][
-Il en résulte qu’il y a toujours devant le public une question principale, sur laquelle se concentrent tous les efforts de la Presse, des associations, et des électeurs.
-][
-Êtes-vous pour ou contre la réforme électorale ?
+Il en résulte qu’il y a toujours devant le public une question principale, sur laquelle se concentrent tous les efforts de la Presse, des associations, et des électeurs.])
+,(liste(p*[Êtes-vous pour ou contre la réforme électorale ?
 ][
 Êtes-vous pour ou contre l’émancipation catholique ?
 ][
-Êtes-vous pour ou contre l’affranchissement des esclaves ?
-][
-En ce moment, la question est uniquement celle-ci :
+Êtes-vous pour ou contre l’affranchissement des esclaves ?]))
+
+,(p*[En ce moment, la question est uniquement celle-ci :
 ][
 Êtes-vous pour ou contre la liberté des échanges ?
 ][
@@ -128,29 +126,29 @@ Et, par conséquent, c’est sur cela seul que les électeurs ont à se prononce
 ][
 Or il est aisé de comprendre qu’une question posée en des termes aussi simples, ne laisse s’insinuer au sein des partis aucun des sophismes que ce livre a pour objet de combattre, et notamment le sophisme de la reconnaissance.
 ][
-J’aurai rendu dans la vie privée de grands services à un électeur. Mais je sais qu’il est pour la liberté commerciale, tandis que je me présente comme le candidat des partisans du régime protecteur. L’idée même ne me viendra pas d’exiger de lui, par reconnaissance, le sacrifice d’une cause à laquelle je sais qu’il a voué tous ses efforts, pour laquelle il a souscrit, en faveur de laquelle il s’est affilié à des associations puissantes. Que si je le faisais, la réponse serait claire et logique, et elle obtiendrait l’assentiment du public, non seulement dans son parti, mais encore dans le mien. Il me dirait : Je vous ai des obligations personnelles. Je suis prêt à m’acquitter personnellement. Je n’attendrai pas que vous me le demandiez et je saisirai toutes les occasions de vous prouver que je ne suis pas un ingrat. Il est pourtant un sacrifice que je ne puis vous faire, c’est celui de ma conscience. Vous savez que je suis engagé dans la cause de la liberté commerciale, que je crois conforme à l’intérêt public. Vous, au contraire, vous soutenez le principe opposé. Nous sommes ici réunis pour savoir lequel de ces deux principes a l’assentiment de la majorité. De mon vote, peut dépendre le triomphe ou la défaite du principe que je soutiens. En conscience, je ne puis pas lever la main pour vous.
+J’aurai rendu dans la vie privée de grands services à un électeur. Mais je sais qu’il est pour la liberté commerciale, tandis que je me présente comme le candidat des partisans du régime protecteur. L’idée même ne me viendra pas d’exiger de lui, par reconnaissance, le sacrifice d’une cause à laquelle je sais qu’il a voué tous ses efforts, pour laquelle il a souscrit, en faveur de laquelle il s’est affilié à des associations puissantes. Que si je le faisais, la réponse serait claire et logique, et elle obtiendrait l’assentiment du public, non-seulement dans son parti, mais encore dans le mien. Il me dirait : Je vous ai des obligations personnelles. Je suis prêt à m’acquitter personnellement. Je n’attendrai pas que vous me le demandiez et je saisirai toutes les occasions de vous prouver que je ne suis pas un ingrat. Il est pourtant un sacrifice que je ne puis vous faire, c’est celui de ma conscience. Vous savez que je suis engagé dans la cause de la liberté commerciale, que je crois conforme à l’intérêt public. Vous, au contraire, vous soutenez le principe opposé. Nous sommes ici réunis pour savoir lequel de ces deux principes a l’assentiment de la majorité. De mon vote, peut dépendre le triomphe ou la défaite du principe que je soutiens. En conscience, je ne puis pas lever la main pour vous.
 ][
 Il est évident qu’à moins d’être un malhonnête homme le candidat ne pourrait pas insister pour prouver que l’électeur est lié par un bienfait reçu.
 ][
 La même doctrine doit prévaloir parmi nous. Seulement les questions étant beaucoup plus compliquées, elles donnent ouverture à une contestation pénible entre le bienfaiteur et l’obligé. Le bienfaiteur dira : Mais pourquoi me refusez-vous votre suffrage ? est-ce parce que nous sommes séparés par quelques nuances d’opinions ? Mais pensez-vous exactement comme mon compétiteur ? Ne savez-vous pas que mes intentions sont pures ? Ne veux-je pas, ainsi que vous, l’ordre, la liberté, le bien public ? Vous craignez que je ne vote telle ou telle mesure que vous désapprouvez ; et qui sait si elle sera présentée aux Chambres dans cette session ? Vous voyez bien que vous n’avez pas de motifs suffisants pour oublier ce que j’ai fait pour vous. Vous ne cherchez qu’un prétexte pour vous dégager de toute reconnaissance.
 ][
-Il me semble que la méthode anglaise, celle de ne poursuivre qu’une réforme à la fois, indépendamment de ses avantages propres, a encore l’avantage très grand de classer invariablement les électeurs, de les mettre à l’abri des mauvaises influences, de ne laisser pas prise aux sophismes, en un mot de former de franches et fermes mœurs politiques. Aussi je voudrais qu’on l’adoptât en France. En ce cas il est quatre réformes qui se disputeraient la priorité.
-][
-1° La réforme électorale ;
+Il me semble que la méthode anglaise, celle de ne poursuivre qu’une réforme à la fois, indépendamment de ses avantages propres, a encore l’avantage très-grand de classer invariablement les électeurs, de les mettre à l’abri des mauvaises influences, de ne laisser pas prise aux sophismes, en un mot de former de franches et fermes mœurs politiques. Aussi je voudrais qu’on l’adoptât en France. En ce cas il est quatre réformes qui se disputeraient la priorité.])
+
+,(liste(p*[1° La réforme électorale ;
 ][
 2° La réforme parlementaire ;
 ][
 3° La liberté d’enseignement ;
 ][
-4° La réforme commerciale.
-][
-Je ne sais à laquelle de ces questions mon pays donnerait le pas. — Si j’avais voix au chapitre à cet égard, je désignerais la ,(emph[réforme parlementaire]), comme la plus importante, la plus urgente, celle à laquelle l’opinion est le mieux préparée, celle qui est la plus propre à favoriser le triomphe des trois autres.
+4° La réforme commerciale.]))
+
+,(p*[Je ne sais à laquelle de ces questions mon pays donnerait le pas. — Si j’avais voix au chapitre à cet égard, je désignerais la ,(emph[réforme parlementaire]), comme la plus importante, la plus urgente, celle à laquelle l’opinion est le mieux préparée, celle qui est la plus propre à favoriser le triomphe des trois autres.
 ][
 C’est par ce motif que j’en dirai quelques mots à la fin de ce livre……
-][
+](nbsp)[
 ,(strong[III. — Je vote pour M. A., parce qu’il a rendu de grands services au pays.])
 ][
-À une certaine époque, on sollicitait la voix d’un électeur pour un général de mérite. — Qui donc, dans le pays, disait-on, a rendu plus de services à la patrie. Il a versé son sang sur de nombreux champs de bataille. Il doit tous ses grades à son courage et à ses talents militaires. — Il s’est fait lui-même et qui plus est il a élevé à des postes importants ses frères, ses neveux, ses cousins. — Notre arrondissement est-il menacé ? disait l’électeur, fait-on une levée en masse ? Est-il question de choisir un chef militaire ? Ma voix est acquise à l’honorable général, tout ce que vous m’en dites et ce que j’en sais lui donnent des titres irrécusables à ma confiance.
+A une certaine époque, on sollicitait la voix d’un électeur pour un général de mérite. — Qui donc, dans le pays, disait-on, a rendu plus de services à la patrie ? Il a versé son sang sur de nombreux champs de bataille. Il doit tous ses grades à son courage et à ses talents militaires. — Il s’est fait lui-même et qui plus est il a élevé à des postes importants ses frères, ses neveux, ses cousins. — Notre arrondissement est-il menacé ? disait l’électeur, fait-on une levée en masse ? Est-il question de choisir un chef militaire ? Ma voix est acquise à l’honorable général, tout ce que vous m’en dites et ce que j’en sais lui donnent des titres irrécusables à ma confiance.
 ][
 Non, dit le solliciteur, il s’agit de nommer un député, un législateur. — Quelles seront les fonctions ? — Faire des lois, réviser le code civil, le code de procédure, le code pénal, rétablir l’ordre dans les finances, surveiller, contenir, réprimer et au besoin accuser les ministres. — Et qu’ont de commun les grands coups d’épée qu’a distribués le général aux ennemis avec les fonctions législatives ? — Il ne s’agit pas de cela ; il est question de lui décerner, dans la députation, une récompense digne de ses services. — Mais si, par ignorance, il fait de mauvaises lois, s’il vote pour des plans financiers désastreux, qui devra en subir les conséquences ?
 ][

@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "A M. le rédacteur en chef du National, par Frédéric Bastiat")
 
-(document :title "A M. le rédacteur en chef du National"
+(document :title [A M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -12,9 +12,10 @@
 ,(h2[II])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 11 novembre 1846.])
 
-,(cher[Monsieur,])
+,(cher[,(tj "national" [Monsieur]),])
 
-,(p*[J’ai essayé de combattre les raisons politiques que vous alléguez à l’appui du régime restrictif. Il me semble que ces raisons sont sans valeur, surtout au point de vue démocratique. Rejeter le bien-être des travailleurs de peur qu’il n’éloigne les chances de la guerre, repousser la liberté parce qu’elle est favorable à la paix, c’est un double machiavélisme dont la démocratie française devrait laisser l’odieux à l’aristocratie britannique. Il est étrange de voir deux éléments sociaux si divers fraterniser aujourd’hui au nom d’une si déplorable doctrine. Pour moi, quand je suis les événements du jour, quand je vois deux grandes nations prêtes à se précipiter, ou plutôt à être précipitées l’une sur l’autre par des intrigues de cour, quand je comprends que, dans ce moment même, notre sang et nos trésors dépendent d’une visite de lord Normanby, bien loin de dire : « Arrière la liberté du commerce qui pourrait prévenir la guerre ! » je m’écrie de toutes mes forces : « Hommes de la classe laborieuse, travaillons plus que jamais à réaliser la liberté du commerce, la plus précieuse des libertés, puisqu’il est en sa puissance d’arracher le gouvernement du monde aux dangereuses mains de la diplomatie ! »
+,(p*[J’ai essayé de combattre les raisons politiques que vous alléguez à l’appui du régime restrictif. Il me semble que ces raisons sont sans valeur, surtout au point de vue démocratique. Rejeter le bien-être des travailleurs de peur qu’il n’éloigne les chances de la guerre, repousser la liberté parce qu’elle est favorable à la paix, c’est un double machiavélisme dont la démocratie française devrait laisser l’odieux à l’aristocratie britannique. Il est étrange de voir deux éléments sociaux si divers fraterniser aujourd’hui au nom d’une si déplorable doctrine. Pour moi, quand je suis les événements du jour, quand je vois deux grandes nations prêtes à se précipiter, ou plutôt à être précipitées l’une sur l’autre par des intrigues de cour,
+,(tag :a :name "normanby_ref")quand je comprends que, dans ce moment même, notre sang et nos trésors dépendent d’une visite de ,(np "normanby" [lord Normanby]), bien loin de dire : « Arrière la liberté du commerce qui pourrait prévenir la guerre ! » je m’écrie de toutes mes forces : « Hommes de la classe laborieuse, travaillons plus que jamais à réaliser la liberté du commerce, la plus précieuse des libertés, puisqu’il est en sa puissance d’arracher le gouvernement du monde aux dangereuses mains de la diplomatie ! »
 ][
 Mais pour être dévoué de cœur à la liberté des transactions internationales, il faut croire à son utilité économique, et ceci me conduit à examiner votre seconde objection, beaucoup plus spécieuse que la première. Je la reproduis textuellement :
 ][
@@ -56,19 +57,19 @@ Mais, en supposant qu’ils veuillent rester sur la défensive, si ces braves la
 ][
 Supposons maintenant que la Chambre passe outre et décrète la protection. Les impôts dont vous vous plaignez avec raison n’en seraient pas moins lourds ; seulement ils seraient autrement répartis ; une iniquité évidente serait consommée dans le pays, et le mal ne s’arrêterait pas là.
 ][
-Ce vote désastreux changerait les conditions des deux industries métallurgique et agricole. L’une deviendrait lucrative relativement à l’autre. Le travail et les capitaux auraient une forte tendance à déserter celle-ci pour se porter vers celle-là. On ferait plus de fer et moins de blé ; et, veuillez remarquer ceci, les nouvelles usines s’établiraient dans des situations défavorables jusqu’à ce que le moment arrivât où, vendant le fer à 25 francs, elles ne gagneraient pas plus que les anciennes ne faisaient avec le prix de 20 francs. — C’est un très vaste point de vue, il va au cœur de la question et je le livre à votre sagacité.
-][
+Ce vote désastreux changerait les conditions des deux industries métallurgique et agricole. L’une deviendrait lucrative relativement à l’autre. Le travail et les capitaux auraient une forte tendance à déserter celle-ci pour se porter vers celle-là. On ferait plus de fer et moins de blé ; et, veuillez remarquer ceci, les nouvelles usines s’établiraient dans des situations défavorables jusqu’à ce que le moment arrivât où, vendant le fer à 25 francs, elles ne gagneraient pas plus que les anciennes ne faisaient avec le prix de 20 francs. — C’est un très-vaste point de vue, il va au cœur de la question et je le livre à votre sagacité.
+](nbsp)[
 Ne nous méprenons donc pas sur la nature et les effets de la ,(emph[protection]). Les impôts directs et indirects étant répartis tant bien que mal, à quelque nombre de millions ou de milliards qu’ils s’élèvent, quel que soit l’emploi bon ou mauvais qu’on en fasse, la population n’est pas soulagée d’une obole par cela seul que les diverses industries se les repassent les unes aux autres. N’oublions pas d’ailleurs qu’il y a un nombre considérable de professions, et les plus ,(emph[démocratiques]), qui sont par leur nature dans l’impossibilité radicale de prendre part à ce jeu, si ce n’est pour y perdre. Tel est, en première ligne, le travail manuel dont la rémunération est ,(emph[le salaire]).
 ][
 Si les taxes sont mal réparties, qu’on en change la répartition ; rien de mieux. Si elles sont mal employées, qu’on les supprime ; d’accord. Mais tant qu’elles existent, tant qu’elles versent au trésor quinze cents millions, n’allons pas nous imaginer que c’est un prétexte raisonnable, encore moins une raison légitime, de diminuer la part de Jean en augmentant celle de Pierre ; et c’est là tout ce que fait et peut faire ,(emph[la protection]). Que si Pierre obtient le même privilége, la taxe va toujours s’accumulant sur d’autres professions et particulièrement sur celles qui ne peuvent recevoir la protection douanière.
-][
+](nbsp)[
 Un peuple surchargé d’impôt perd, j’en conviens, une partie de ses forces. Mais, sous l’empire du libre-échange, il a du moins la ressource de tirer le meilleur parti possible de celles qui lui restent. Ses taxes agissent comme tout autre obstacle naturel. Le pays F est faible relativement au pays A, comme si sa terre était moins féconde ou sa population moins vigoureuse. C’est un malheur, je le sais, mais un malheur sur lequel le régime restrictif agit comme aggravation, non comme compensation.
 ][
 L’illusion à cet égard provient de ce que, comparant sans cesse le peuple taxé au peuple non taxé, on reconnaît à celui-ci des éléments de supériorité ; — et qui en doute ? Ce qu’il faut comparer, c’est le peuple taxé à lui-même sous les deux régimes, celui de la restriction et celui de la liberté.
 ][
 Il y avait, aux environs de Paris, un hospice pour les aveugles. Ils travaillaient les uns pour les autres et ne faisaient des échanges qu’entre eux. Leur pitance était chétive, car ils étaient condamnés à exécuter des travaux bien difficiles et bien longs pour des aveugles. Le directeur de l’établissement leur donna enfin la liberté d’acheter et de vendre au dehors. Leur bien-être s’en augmenta progressivement, non pas jusqu’à égaler celui d’hommes clairvoyants, mais du moins jusqu’à dépasser de beaucoup ce qu’il était du temps de la restriction.
-][
-,(inlatin[P. S.]) Le ,(cite-title[National]) dit aujourd’hui qu’il n’a pas trop su démêler à qui et à quoi je réponds. Me serais-je mépris sur le sens et la portée de son opposition au libre-échange ? Veut-il, comme nous, que l’entrelacement des intérêts unisse les classes laborieuses de tous les pays de manière à déjouer les calculs pervers ou imprudents de l’aristocratie ? Oh ! Dieu le veuille ! Je serais heureux de reconnaître mon erreur, et de voir avec nous, au moins sous ce rapport, un journal qui s’adresse à des hommes sincères et convaincus.
+](nbsp)[
+,(inlatin[P. S.]) Le ,(tj "national" [,(cite-title[National])]) dit aujourd’hui qu’il n’a pas trop su démêler à qui et à quoi je réponds. Me serais-je mépris sur le sens et la portée de son opposition au libre-échange ? Veut-il, comme nous, que l’entrelacement des intérêts unisse les classes laborieuses de tous les pays de manière à déjouer les calculs pervers ou imprudents de l’aristocratie ? Oh ! Dieu le veuille ! Je serais heureux de reconnaître mon erreur, et de voir avec nous, au moins sous ce rapport, un journal qui s’adresse à des hommes sincères et convaincus.
 ])])
 (tous_les_scripts)
 (footer[,(oeuvres)

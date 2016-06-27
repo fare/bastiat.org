@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Sur un livre de M. Vidal, par Frédéric Bastiat")
 
-(document :title "Sur un livre de M. Vidal"
+(document :title [Sur un livre de ,(np "vidal" [M. Vidal])]
 	:author (author-FB)
 
 (sidebar[
@@ -17,22 +17,22 @@
 Ce livre se présente sous de tristes auspices. Son apparition dans le monde a réveillé, au fond de ces cavernes littéraires,
 ,(verses[Que la haine se creuse au bas des grands journaux,])
 un écho d’injures plus fait pour attrister que pour irriter ceux à qui elles s’adressent, et qui placent sous des préventions défavorables non-seulement le feuilletoniste, mais encore l’auteur qui a inspiré le feuilleton.
+][,(tag :a :name "dp_ref")
+Par une coïncidence singulière, le jour même où je lisais dans la ,(tj "dp" [,(cite-title[Démocratie pacifique])]) ces épithètes accumulées sur la tête de nos plus illustres économistes : ,(emph[ignorants, orgueilleux, hérétiques maudits, sots, impies, fatalistes, plagiaires, marionnettes, traîtres]), etc., etc., ce jour même, le hasard mettait sous mes yeux une galerie de lettres autographes, où l’on voit les plus grands hommes du siècle, les plus ardents amis de l’humanité, ,(np "jefferson" [Jefferson]), ,(np "maddison" [Maddison]), ,(np "bentham" [Bentham]), ,(np "bernadotte" [Bernadotte]), ,(np "chateaubriand" [Chateaubriand]), ,(np "constant" [B. Constant]), et même ,(np "stsimon" [Saint-Simon]), venir rendre l’hommage le plus sincère et le plus spontané à la science et à la philanthropie de ,(np "say_jb" [J.-B. Say]).
 ][
-Par une coïncidence singulière, le jour même où je lisais dans la ,(cite-title[Démocratie pacifique]) ces épithètes accumulées sur la tête de nos plus illustres économistes : ,(emph[ignorants, orgueilleux, hérétiques maudits, sots, impies, fatalistes, plagiaires, marionnettes, traîtres]), etc., etc., ce jour même, le hasard mettait sous mes yeux une galerie de lettres autographes, où l’on voit les plus grands hommes du siècle, les plus ardents amis de l’humanité, Jefferson, Maddison, Bentham, Bernadotte, Chateaubriand, B. Constant, et même Saint-Simon, venir rendre l’hommage le plus sincère et le plus spontané à la science et à la philanthropie de J. B. Say.
-][
-Mais ne cherchons pas une pénible solidarité entre M. Vidal et son compromettant commentateur, qui, je l’espère, rougira un jour de son injustice et de ses emportements.
-][
-Il me semble que c’est faire preuve d’un orgueil bien indomptable, quand on aborde une science, que de débuter ainsi : « Mes devanciers n’ont rien su ni rien vu. Vainement des hommes tels que Smith, Malthus, Say, ont consacré toute leur vie et de puissantes facultés à l’étude d’un sujet ; ils ne l’ont pas même entrevu. Moi, j’arrive, j’ai vingt ans, et j’ai fait la science. »
+Mais ne cherchons pas une pénible solidarité entre ,(np "vidal" [M. Vidal]) et son compromettant commentateur, qui, je l’espère, rougira un jour de son injustice et de ses emportements.
+][,(tag :a :name "smith_ref")
+Il me semble que c’est faire preuve d’un orgueil bien indomptable, quand on aborde une science, que de débuter ainsi : « Mes devanciers n’ont rien su ni rien vu. Vainement des hommes tels que ,(np "smith" [Smith]), ,(np "malthus" [Malthus]), ,(np "say_jb" [Say]), ont consacré toute leur vie et de puissantes facultés à l’étude d’un sujet ; ils ne l’ont pas même entrevu. Moi, j’arrive, j’ai vingt ans, et j’ai fait la science. »
 ][
 N’inspirerait-on pas plus de confiance au public, si l’on disait : La science est de sa nature progressive. Mes prédécesseurs l’ont avancée ; mais, aidé de leurs travaux, j’aspire à l’avancer encore. Forcés de creuser les idées élémentaires, d’analyser les notions de ,(emph[travail, utilité, valeur, capital, production]), etc., ils me semblent n’avoir pas assez approfondi le phénomène de la répartition des richesses ; je viens après eux, et mettant à profit les connaissances qu’ils nous ont transmises, prenant la science où ils l’ont laissée, j’essaye de lui faire faire un pas de plus.
 ][
-Mais, pour que M. Vidal pût tenir un tel langage, il aurait fallu qu’il s’astreignît à la méthode de ses devanciers, à l’observation de la manière dont les faits se passent et s’enchaînent. Cette méthode, il la repousse. Selon lui, la science, ainsi limitée, n’est qu’un objet de pure curiosité. Il pense que sa mission est de donner des conseils, d’enseigner, peut-être même d’,(emph[imposer]) des règles de conduite. — « La belle science, s’écrie-t-il, qui se résume en une négation : ,(emph[ne rien faire !]) »
+Mais, pour que ,(np "vidal" [M. Vidal]) pût tenir un tel langage, il aurait fallu qu’il s’astreignît à la méthode de ses devanciers, à l’observation de la manière dont les faits se passent et s’enchaînent. Cette méthode, il la repousse. Selon lui, la science, ainsi limitée, n’est qu’un objet de pure curiosité. Il pense que sa mission est de donner des conseils, d’enseigner, peut-être même d’,(emph[imposer]) des règles de conduite. — « La belle science, s’écrie-t-il, qui se résume en une négation : ,(emph[ne rien faire !]) »
 ][
-M. Vidal se méprend. La science ne fait à personne un devoir de l’inertie, ou, comme on dirait aujourd’hui, de l’immobilisme. Elle éclaire toutes les routes, celle qui conduit au bien, comme celle qui mène au mal, et croit que c’est à cela que se borne sa tâche, parce que le principe d’action n’est pas en elle, mais dans les hommes. Si le penchant naturel de l’homme le pousse vers ce qui nuit, il est certain que jeter la lumière sur les conséquences des habitudes, c’est seconder cette triste direction. Mais si l’homme est porté au bien, il suffit que la science le montre, et il n’est pas nécessaire, pour l’y déterminer, qu’elle invoque la contrainte ni même le devoir.
+,(np "vidal" [M. Vidal]) se méprend. La science ne fait à personne un devoir de l’inertie, ou, comme on dirait aujourd’hui, de l’immobilisme. Elle éclaire toutes les routes, celle qui conduit au bien, comme celle qui mène au mal, et croit que c’est à cela que se borne sa tâche, parce que le principe d’action n’est pas en elle, mais dans les hommes. Si le penchant naturel de l’homme le pousse vers ce qui nuit, il est certain que jeter la lumière sur les conséquences des habitudes, c’est seconder cette triste direction. Mais si l’homme est porté au bien, il suffit que la science le montre, et il n’est pas nécessaire, pour l’y déterminer, qu’elle invoque la contrainte ni même le devoir.
 ][
 Ce qui nous sépare complétement des écoles dites socialistes, fouriéristes, communistes, saint-simoniennes, etc., c’est précisément cela. Elles placent le principe d’action dans l’observateur, et nous le laissons là où il est, dans le sujet observé, l’homme.
 ][
-Ce qu’il y a de singulier, c’est qu’ils nous accusent de ne voir dans les hommes que des chiffres, des quantités abstraites. « Qu’ils cessent, dit M. Vidal, de faire abstraction de l’homme, dans une science qui a pour but le bonheur de l’homme. »
+Ce qu’il y a de singulier, c’est qu’ils nous accusent de ne voir dans les hommes que des chiffres, des quantités abstraites. « Qu’ils cessent, dit ,(np "vidal" [M. Vidal]), de faire abstraction de l’homme, dans une science qui a pour but le bonheur de l’homme. »
 ][
 Mais c’est vous qui faites abstraction de l’homme, de ce qu’il y a en lui d’intelligence, de moralité, de vie, d’initiative, de perfectibilité ; car, pour vous, qu’est-ce que l’humanité, si ce n’est une matière inerte, une argile, que le savant, sous le nom de ,(emph[réformateur]), ,(emph[organisateur]), peut et doit pétrir à son gré ?
 ][
@@ -44,7 +44,7 @@ Voilà pourquoi, comme celui qui place des écriteaux à l’entrée de chaque r
 ][
 Mais vous, vous ne voyez dans les hommes que de la matière expérimentale, des machines qui produisent et consomment ; et désirant, il faut vous rendre cette justice, que la richesse soit équitablement répartie entre eux, vous vous attribuez cette fonction, persuadé que vous êtes que la Providence n’y a pas pourvu.
 ][
-« Suffira-t-il au mécanicien, dit M. Vidal, pour ,(emph[inventer la machine]), d’observer, de recueillir des faits, puis de laisser faire les forces naturelles ? Eh ! non, sans doute, il faut encore qu’il trouve le moyen d’utiliser ces forces, qu’il ,(emph[invente sa machine])… »
+« Suffira-t-il au mécanicien, dit ,(np "vidal" [M. Vidal]), pour ,(emph[inventer la machine]), d’observer, de recueillir des faits, puis de laisser faire les forces naturelles ? Eh ! non, sans doute, il faut encore qu’il trouve le moyen d’utiliser ces forces, qu’il ,(emph[invente sa machine])…
 ][
 « De même, en économie…, on peut ,(emph[inventer]) un mode particulier de production et de consommation, un système économique. »
 ][
@@ -69,7 +69,7 @@ Mais où est-il ce chef d’orchestre social en mesure de faire reconnaître son
 En son absence, j’aime mieux laisser les musiciens eux-mêmes s’organiser entre eux, car, comme vous le dites, ils sont trop intelligents pour ne pas comprendre que sans cela l’harmonie serait impossible !
 ][
 Vous voyez donc bien que nous commençons à nous entendre, et que vous êtes amené, comme nous, à laisser, bon gré mal gré, le principe d’action là où Dieu l’a placé, dans l’humanité et non dans celui qui l’étudie.
-][
+](nbsp)[
 Quand nous exposons les phénomènes, leurs causes et leurs conséquences ; quand nous nous contentons de montrer comment telle action vicieuse conduit inévitablement à telle conséquence funeste ; quand, par exemple, nous disons : La paresse conduit à la misère, l’excès de population à une diminution et à une mauvaise répartition du bien-être, vous vous écriez que nous sommes ,(emph[fatalistes]).
 ][
 Entendons-nous. Oui, nous sommes fatalistes à la manière des physiciens, quand ils disent : « Si une pierre n’est pas soutenue, il est ,(emph[fatal]) qu’elle tombe. »
@@ -78,15 +78,15 @@ Nous sommes fatalistes à la manière des médecins, quand ils disent : « Si 
 ][
 Mais reconnaître l’existence d’une loi fatale, est-ce bien du fatalisme ? Après tout, avons-nous fait ces lois, comme vous nous en accusez, quand vous reprochez aux économistes tous les maux de la société, faisant abstraction des mauvaises habitudes, des préjugés, des erreurs et des vices par lesquels elle a pu se les attirer ?
 ][
-Le vrai ,(emph[fatalisme]), ce me semble, est au fond de tous vos systèmes, qui, quelque opposés qu’ils soient entre eux, s’accordent seulement en ceci : le bonheur ou le malheur des hommes, indépendant de leurs vices et de leurs vertus, et sur lequel, par conséquent, ils ne peuvent rien, dépend exclusivement d’une invention contingente, d’une organisation imaginée, en l’an de grâce 1846, par M. Vidal.
+Le vrai ,(emph[fatalisme]), ce me semble, est au fond de tous vos systèmes, qui, quelque opposés qu’ils soient entre eux, s’accordent seulement en ceci : le bonheur ou le malheur des hommes, indépendant de leurs vices et de leurs vertus, et sur lequel, par conséquent, ils ne peuvent rien, dépend exclusivement d’une invention contingente, d’une organisation imaginée, en l’an de grâce 1846, par ,(np "vidal" [M. Vidal]).
+][,(tag :a :name "blanc_ref")
+Il est bien vrai qu’en l’an 1845 ,(np "blanc" [M. Blanc]) en avait imaginé une autre. Mais, heureusement, les trois milliards d’hommes qui couvrent la terre ne l’ont pas acceptée ; sans cela ils ne seraient plus à temps d’essayer celle de ,(np "vidal" [M. Vidal]).
+][,(tag :a :name "fourier_ref")
+Que serait-ce si l’humanité s’était pliée à l’organisation inventée par ,(np "fourier" [Fourier]), qui offrait au capital 24 pour 100 de dividende au lieu des 5 pour 100 qu’assure la nouvelle invention ?
 ][
-Il est bien vrai qu’en l’an 1845 M. Blanc en avait imaginé une autre. Mais, heureusement, les trois milliards d’hommes qui couvrent la terre ne l’ont pas acceptée ; sans cela ils ne seraient plus à temps d’essayer celle de M. Vidal.
-][
-Que serait-ce si l’humanité s’était pliée à l’organisation inventée par Fourier, qui offrait au capital 24 pour 100 de dividende au lieu des 5 pour 100 qu’assure la nouvelle invention ?
-][
-Pour se faire une idée de l’esprit de despotisme qui fait la base de toutes ces rêveries, il suffit de voir combien on y est prodigue de formules comme celles-ci :
-][
-« ,(emph[Il faudra]) proportionner la production aux moyens de consommation.
+Pour se faire une idée de l’esprit de despotisme qui fait la base de toutes ces rêveries, il suffit de voir combien on y est prodigue de formules comme celles-ci :])
+
+,(liste(p*[« ,(emph[Il faudra]) proportionner la production aux moyens de consommation.
 ][
 « ,(emph[Il faudra]) organiser puissamment le travail.
 ][
@@ -104,15 +104,15 @@ Pour se faire une idée de l’esprit de despotisme qui fait la base de toutes c
 ][
 « ,(emph[On peut]) inventer un mode particulier de production et de consommation.
 ][
-« ,(emph[Il faut]) constituer avant tout la solidarité effective. »
+« ,(emph[Il faut]) constituer avant tout la solidarité effective. »]))
+
+,(p*[Tout cela est bientôt dit. Mais quand on demande aux socialistes : Qui donc fera toutes ces choses ? qui donc, si l’humanité est passive, l’animera du souffle de vie ? chacun d’eux se pose et répond : ,(emph[Moi]).
 ][
-Tout cela est bientôt dit. Mais quand on demande aux socialistes : Qui donc fera toutes ces choses ? qui donc, si l’humanité est passive, l’animera du souffle de vie ? chacun d’eux se pose et répond : ,(emph[Moi]).
-][
-Il faut être juste envers M. Vidal. Il ne dit pas ,(emph[moi]) ; il dit : ,(emph[le pouvoir, l’autorité]).
+Il faut être juste envers ,(np "vidal" [M. Vidal]). Il ne dit pas ,(emph[moi ;]) il dit : ,(emph[le pouvoir, l’autorité]).
 ][
 Mais ce n’est là que reculer la difficulté ; car si tous les hommes sont des ressorts, des soldats, de la matière inerte ; si toute pensée d’ordre et d’organisation émane d’une autorité, à quel signe pouvons-nous la reconnaître ?
 ][
-La difficulté est grande, et il fallait bien que M. Vidal se donnât la peine de la résoudre.
+La difficulté est grande, et il fallait bien que ,(np "vidal" [M. Vidal]) se donnât la peine de la résoudre.
 ][
 Voici comment il s’exprime :
 ][
@@ -122,23 +122,23 @@ Si vous supposez ,(inlatin[à priori]) un pouvoir normal et infaillible, nous so
 ][
 Mais si, dans l’embarras de trouver ce phénix, vous admettez une autorité quelconque, telle que chacun ,(emph[la préfère, la désire, la conçoit ou la rêve]), je crains bien que nous n’ayons autant d’autorités qu’il y a d’hommes, ce qui nous replace justement au point de départ.
 ][
-Ici, M. Vidal a recours à la grande ressource des socialistes, l’,(emph[organisation]). Il ne s’agit que d’organiser le pouvoir.
+Ici, ,(np "vidal" [M. Vidal]) a recours à la grande ressource des socialistes, l’,(emph[organisation]). Il ne s’agit que d’organiser le pouvoir.
 ][
 « Un mauvais gouvernement, dit-il, peut abuser de la force ; cela est vrai. Mais un bon gouvernement, loin de gêner en rien la liberté véritable, peut en favoriser le développement… ; il ne s’agit donc pas d’amoindrir ou de supprimer le pouvoir, mais de lui donner ,(emph[une bonne organisation]). »
 ][
-C’est fort bien. Mais qui est-ce qui organisera le pouvoir ? La société sans doute. — Point du tout, puisque c’est le pouvoir qui doit organiser la société. — J’entends ; M. Vidal, ou tout autre socialiste qui ,(emph[préfère, désire, conçoit ou rêve]), organisera le pouvoir, lequel organisera la société. Reste toujours à savoir comment est organisé le premier organisateur.
+C’est fort bien. Mais qui est-ce qui organisera le pouvoir ? La société sans doute. — Point du tout, puisque c’est le pouvoir qui doit organiser la société. — J’entends ; ,(np "vidal" [M. Vidal]), ou tout autre socialiste qui ,(emph[préfère, désire, conçoit ou rêve]), organisera le pouvoir, lequel organisera la société. Reste toujours à savoir comment est organisé le premier organisateur.
+](nbsp)[
+Il y a, dans le livre de ,(np "vidal" [M. Vidal]), un chapitre vers lequel on se sent attiré par la séduction du titre : ,(cite-title[Conclusion pratique]). Il y a si longtemps que nous désirons voir les socialistes formuler une ,(emph[conclusion !]) Enfin, me disais-je, la nouvelle invention sociale va nous être déroulée dans tous ses détails, avec les moyens d’exécution propres à faire fonctionner l’appareil.
 ][
-Il y a, dans le livre de M. Vidal, un chapitre vers lequel on se sent attiré par la séduction du titre : ,(cite-title[Conclusion pratique]). Il y a si longtemps que nous désirons voir les socialistes formuler une ,(emph[conclusion !]) Enfin, me disais-je, la nouvelle invention sociale va nous être déroulée dans tous ses détails, avec les moyens d’exécution propres à faire fonctionner l’appareil.
-][
-Malheureusement M. Vidal, se fondant sur ce que nous ne sommes pas en état de le comprendre, ne nous dit rien.
+Malheureusement ,(np "vidal" [M. Vidal]), se fondant sur ce que nous ne sommes pas en état de le comprendre, ne nous dit rien.
 ][
 La société actuelle est ,(emph[une masure que nous refusons obstinément d’abandonner]). Il a bien dans sa poche le plan de ,(emph[constructions nouvelles ;]) mais à quoi bon nous les montrer, puisque ,(emph[nous ne voulons pas en entendre parler, et que nous nous obstinons à maintenir la maison délabrée, l’édifice vermoulu ? Il n’y a donc pas pour aujourd’hui de restauration possible. Reste tout au plus à placer des arcs-boutants au dehors et à gâcher du plâtre dans les crevasses.])
 ][
-Notre obstination nous prive donc de l’avantage de connaître le nouvel appareil social imaginé par M. Vidal. Tout ce qu’il nous laissera voir, ce sont quelques élançons et un peu de plâtre, qu’il veut bien appliquer à retarder la chute du vieil édifice.
+Notre obstination nous prive donc de l’avantage de connaître le nouvel appareil social imaginé par ,(np "vidal" [M. Vidal]). Tout ce qu’il nous laissera voir, ce sont quelques étançons et un peu de plâtre qu’il veut bien appliquer à retarder la chute du vieil édifice.
 ][
-Le problème ainsi circonscrit, M. Vidal en revient à ses formules favorites :
-][
-« ,(emph[Il faut organiser]), sur tous les points du royaume, dans chaque département, des ateliers où tout homme de bonne volonté puisse toujours trouver à gagner sa vie en travaillant ; où tout ouvrier inoccupé, déplacé par la mécanique, puisse utiliser ses bras ; des ateliers qui ne fassent point concurrence aux ateliers existants, car autrement on créerait autant de pauvres d’un côté qu’on en soulagerait de l’autre.
+Le problème ainsi circonscrit, ,(np "vidal" [M. Vidal]) en revient à ses formules favorites :])
+
+,(blockquote*[« ,(emph[Il faut organiser]), sur tous les points du royaume, dans chaque département, des ateliers où tout homme de bonne volonté puisse toujours trouver à gagner sa vie en travaillant ; où tout ouvrier inoccupé, déplacé par la mécanique, puisse utiliser ses bras ; des ateliers qui ne fassent point concurrence aux ateliers existants, car autrement on créerait autant de pauvres d’un côté qu’on en soulagerait de l’autre.
 ][
 « Des ateliers ,(emph[permanents]), qui soient à l’abri du chômage et des mortes-saisons, à l’abri des crises commerciales, industrielles et politiques.
 ][
@@ -146,24 +146,24 @@ Le problème ainsi circonscrit, M. Vidal en revient à ses formules favorites 
 ][
 « Des ateliers où l’on ,(emph[puisse]) établir un équilibre constant entre la production et les besoins de la consommation ; des ateliers où la population surabondante des villes puisse se déverser.
 ][
-« Des ateliers où le travailleur trouve le bien-être, l’indépendance et la sécurité ; une occupation permanente, une rétribution convenable et toujours assurée. »
+« Des ateliers où le travailleur trouve le bien-être, l’indépendance et la sécurité ; une occupation permanente, une rétribution convenable et toujours assurée. »])
+
+,(p*[Certes, nous rendons justice aux bonnes intentions de ,(np "vidal" [M. Vidal]), et nous désirons que ses vues philanthropiques se réalisent. Comme lui, nous voudrions qu’il n’y eût pas un homme sur la terre qui ne trouvât toujours du travail assuré, du bien-être, de la sécurité, de l’indépendance ; qui ne fût à l’abri de toute crise commerciale, industrielle, politique et même atmosphérique ; qu’il y eût parfait équilibre entre la production, la consommation et la population.
 ][
-Certes, nous rendons justice aux bonnes intentions de M. Vidal, et nous désirons que ses vues philanthropiques se réalisent. Comme lui, nous voudrions qu’il n’y eût pas un homme sur la terre qui ne trouvât toujours du travail assuré, du bien-être, de la sécurité, de l’indépendance ; qui ne fût à l’abri de toute crise commerciale, industrielle, politique et même atmosphérique ; qu’il y eût parfait équilibre entre la production, la consommation et la population.
-][
-Mais au lieu de penser, comme M. Vidal, qu’il y a un être abstrait qu’on appelle ,(emph[l’État]), qui a les moyens de réaliser ces beaux rêves ; au lieu de faire dériver exclusivement le bonheur individuel d’une ,(emph[organisation]) inventée par un journaliste et imposée du dehors aux travailleurs, nous croyons qu’il dépend surtout des habitudes et des vertus des travailleurs eux-mêmes. Si les uns sont actifs et les autres paresseux ; s’il y a parmi eux des prodigues, des économes, des avares, des gens ordonnés et des gens débauchés ; si les uns se marient à seize ans, et sont chargés de famille à l’âge où les autres s’établissent, — nous ne voyons pas d’,(emph[organisation]) qui puisse empêcher l’inégalité de s’introduire dans votre colonie.
+Mais au lieu de penser, comme ,(np "vidal" [M. Vidal]), qu’il y a un être abstrait qu’on appelle l’,(emph[État]), qui a les moyens de réaliser ces beaux rêves ; au lieu de faire dériver exclusivement le bonheur individuel d’une ,(emph[organisation]) inventée par un journaliste et imposée du dehors aux travailleurs, nous croyons qu’il dépend surtout des habitudes et des vertus des travailleurs eux-mêmes. Si les uns sont actifs et les autres paresseux ; s’il y a parmi eux des prodigues, des économes, des avares, des gens ordonnés et des gens débauchés ; si les uns se marient à seize ans, et sont chargés de famille à l’âge où les autres s’établissent, — nous ne voyons pas d’,(emph[organisation]) qui puisse empêcher l’inégalité de s’introduire dans votre colonie.
 ][
 S’il y a des hommes qui se livrent à des entreprises hasardeuses, des gens qui empruntent sans savoir comment ils pourront rendre, et d’autres qui prêtent sans savoir comment ils seront payés ; si la colonie est saisie, par exemple, de passions guerrières qui la mettent en hostilité avec le genre humain, — nous ne croyons pas que votre organisation la mette à l’abri de toute crise commerciale et politique.
 ][
 Vous aurez beau nous dire que nous sommes ,(emph[fatalistes]) parce que nous croyons que le ,(emph[mal]) lui-même a sa mission, celle de réprimer le vice dont il est le produit ; oui, nous devons l’avouer, nous croyons à l’existence du ,(emph[mal]). Nous n’y croyons pas seulement, nous le voyons ; et, au physique comme au moral, nous n’avons pas d’autre alternative à proposer à l’humanité que de l’éviter par la prévoyance ou de le subir par la douleur.
 ][
-À moins donc que vous ne chargiez votre ,(emph[organisateur]) d’avoir de la prudence pour tout le monde, de l’ordre, de l’économie, de l’activité, des lumières et des vertus pour tout le monde, vous nous permettrez de continuer à croire que l’humanité ne peut être heureuse qu’autant que ces causes de bonheur soient en elle-même.
+A moins donc que vous ne chargiez votre ,(emph[organisateur]) d’avoir de la prudence pour tout le monde, de l’ordre, de l’économie, de l’activité, des lumières et des vertus pour tout le monde, vous nous permettrez de continuer à croire que l’humanité ne peut être heureuse qu’autant que ces causes de bonheur soient en elle-même.
 ][
 Et certes, si vous me permettez de supposer seulement l’existence d’un vice dans la colonie dont vous tracez le plan ; si vous raisonnez dans l’hypothèse qu’elle est affectée de paresse, ou de débauche, ou de faste, ou d’ambition, ou d’humeur conquérante, vous arriverez à voir qu’elle suivra bientôt la destinée commune et qu’il n’est pas au pouvoir de l’organisation la plus ingénieuse d’empêcher l’effet de sortir de la cause.
 ][
-Ainsi les ordres sociaux, que chacun de vous invente chaque jour, supposent la perfection dans l’inventeur d’abord, et ensuite dans l’humanité, cette même matière inerte dont s’amuse votre féconde imagination.
+Ainsi, les ordres sociaux que chacun de vous invente chaque jour supposent la perfection dans l’inventeur d’abord, et ensuite dans l’humanité, cette même matière inerte dont s’amuse votre féconde imagination.
 ][
 Eh ! monsieur, accordez-nous seulement la perfection de l’humanité, et croyez que les économistes feront des plans sociaux tout aussi séduisants que les vôtres.
-][
+](nbsp)[
 Les socialistes nous reprochent de repousser l’,(emph[association]). Et nous, nous leur demandons : De quelle association voulez-vous parler ? est-ce de l’,(emph[association volontaire]) ou de l’,(emph[association forcée ?])
 ][
 Si c’est de l’association volontaire, comment peut-on nous reprocher de la repousser, nous qui croyons que la société est une grande association, et que c’est pour cela qu’elle s’appelle ,(emph[société ?])
@@ -171,8 +171,8 @@ Si c’est de l’association volontaire, comment peut-on nous reprocher de la r
 Veut-on parler seulement de quelques arrangements particuliers, que peuvent faire entre eux les ouvriers d’une même industrie ? Eh ! mon Dieu, nous ne nous opposons à aucune de ces combinaisons : société simple, en commandite, anonyme, par actions et même en phalanstère. Associez-vous comme vous l’entendrez, qui vous en empêche ? Nous savons fort bien qu’il y a des conventions plus ou moins favorables au progrès de l’humanité et à la bonne répartition des richesses. Pour l’exploitation des terres, par exemple, avons-nous jamais dit que le fermage et le métayage, par cela seul qu’ils existent, exercent pour toutes les classes agricoles des effets identiques ? Mais nous pensons que la science a rempli sa tâche quand elle a exposé ces effets ; parce que, encore une fois, nous pensons que le principe d’action, l’aspiration vers le mieux n’est pas dans la science, mais dans l’humanité.
 ][
 Mais vous, vous qui ne voyez dans l’espèce humaine qu’une cire molle aux mains d’un organisateur, c’est l’association forcée que vous proposez ; l’association qui ôte à tous les individus, hors un, toute moralité et toute initiative ; c’est-à-dire le despotisme le plus absolu qui ait jamais existé, je ne dis pas dans les annales, mais même dans l’imagination des hommes.
-][
-Je ne terminerai pas sans rendre à M. Vidal la justice qui lui est due. S’il a épousé les théories des ,(emph[socialistes]), il n’a pas emprunté leur style. Son livre est écrit en français, et même en bon français. Le néologisme s’y montre, mais il n’y déborde pas. M. Vidal nous fait grâce du vocabulaire fouriériste, et des gammes et des pivots, et des amitiés en quinte superflue, et des amours en tierce diminuée. S’il voit la science sous un autre aspect que ses devanciers, il la prend du moins au sérieux, il ne méprise pas son public au point de vouloir lui en imposer par des phrases d’Apocalypse. C’est d’un bon augure, et si jamais il fait une seconde édition de son livre, je ne doute pas qu’il n’en retranche, sinon ce qu’il y a d’erroné dans la partie systématique, du moins ce que la partie critique offre d’exagéré et même d’injuste.
+](nbsp)[
+Je ne terminerai pas sans rendre à ,(np "vidal" [M. Vidal]) la justice qui lui est due. S’il a épousé les théories des ,(emph[socialistes]), il n’a pas emprunté leur style. Son livre est écrit en français, et même en bon français. Le néologisme s’y montre, mais il n’y déborde pas. ,(np "vidal" [M. Vidal]) nous fait grâce du vocabulaire fouriériste, et des gammes et des pivots, et des amitiés en quinte superflue, et des amours en tierce diminuée. S’il voit la science sous un autre aspect que ses devanciers, il la prend du moins au sérieux, il ne méprise pas son public au point de vouloir lui en imposer par des phrases d’Apocalypse. C’est d’un bon augure, et si jamais il fait une seconde édition de son livre, je ne doute pas qu’il n’en retranche, sinon ce qu’il y a d’erroné dans la partie systématique, du moins ce que la partie critique offre d’exagéré et même d’injuste.
 ])])
 (tous_les_scripts)
 (footer[

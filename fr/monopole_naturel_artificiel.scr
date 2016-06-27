@@ -6,7 +6,7 @@
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/160/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 160.])
+,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/160/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 160, note de bas de page.])
 ])
 (bastiat[
 ,(date-tag[Note extraite des manuscrits de l’auteur,
@@ -25,13 +25,13 @@ aucun rapport entre les travaux de diverse nature et leur rémunération.
 ][
 L’absence de concurrence peut provenir
 de la nature des choses ou de la perversité des hommes.
-][
+][,(tag :a :name "rubini_ref")
 Si elle vient de la nature des choses,
 on verra un travail comparativement très-faible
 donner lieu à une grande ,(emph[valeur]),
 sans que personne ait raisonnablement à se plaindre.
 C’est le cas de la personne qui trouve un diamant ;
-c’est le cas de Rubini, de Malibran, de Taglioni,
+c’est le cas de ,(np "rubini" [Rubini]), de ,(np "malibran" [Malibran]), de ,(np "taglioni" [Taglioni]),
 du tailleur en vogue, du propriétaire du Clos-Vougeot, etc., etc.
 Les circonstances les ont mis en possession
 d’un moyen extraordinaire de rendre service ;
@@ -55,7 +55,7 @@ donner lieu à une grande valeur ;
 mais comment ?
 En interdisant violemment cette concurrence
 qui a pour mission de proportionner les rémunérations aux services.
-Alors, de même que Rubini peut dire à un dilettante :
+Alors, de même que ,(np "rubini" [Rubini]) peut dire à un dilettante :
 ,(q[Je veux une très-grande récompense,
 ou je ne chante pas à votre soirée,])
 se fondant sur ce qu’il s’agit là d’un service que lui seul peut rendre,
@@ -88,17 +88,16 @@ Mais ce n’est pas là un fait social ;
 il nous a été imposé par la nature.
 ][
 Il y a donc entre l’avantage naturel et le monopole artificiel
-cette différence profonde :
+cette différence profonde :])
+,(liste(p*[L’un est la conséquence d’une rareté préexistante, inévitable ;
 ][
-L’un est la conséquence d’une rareté préexistante, inévitable ;
-][
-L’autre est la cause d’une rareté factice, contre nature.
-][
-Dans le premier cas, ce n’est pas l’absence de concurrence qui fait la rareté,
+L’autre est la cause d’une rareté factice, contre nature.]))
+
+,(p*[Dans le premier cas, ce n’est pas l’absence de concurrence qui fait la rareté,
 c’est la rareté qui explique l’absence de concurrence.
-L’humanité serait puérile, si elle se tourmentait, se révolutionnait,
+,(tag :a :name "lind_ref")L’humanité serait puérile, si elle se tourmentait, se révolutionnait,
 parce qu’il n’y a, dans le monde,
-qu’une Jenny Lind, un Clos-Vougeot et un Régent.
+qu’une ,(np "lind" [Jenny Lind]), un Clos-Vougeot et un Régent.
 ][
 Dans le second cas, c’est tout le contraire.
 Ce n’est pas à cause d’une rareté providentielle
