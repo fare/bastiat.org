@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "")
 
-(document :title ""
+(document :title "Balance du commerce"
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
@@ -56,7 +56,7 @@ Supposons maintenant que cette spéculation a laissé une perte évidente ; que
 ,(liste(p*[,(sc[Vins doivent à X])…… fr. 100,000, pour achat de vins.
 ][
 ,(sc[Profits et pertes doivent à vins]) fr. 100,000, pour perte définitive et totale de la cargaison.]))
-,(p*[Mais les économistes des journaux, y compris le journal qui s’intitule ,(cite-title[Le Commerce]), verront dans ce naufrage un profit clair et net de 100,000 fr. pour la nation.
+,(p*[,(tag :a :name "commerce_ref")Mais les économistes des journaux, y compris le journal qui s’intitule ,(tj "commerce" [,(cite-title[Le Commerce])]), verront dans ce naufrage un profit clair et net de 100,000 fr. pour la nation.
 ][
 Car les tableaux de la douane auront constaté une ,(emph[exportation]) de pareille somme et n’auront eu aucune ,(emph[importation]) à mettre en regard, d’où la conclusion que la France a 100,000 fr. à recevoir en numéraire.
 ][

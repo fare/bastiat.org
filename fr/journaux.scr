@@ -108,7 +108,10 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(p*[Simples allusions : ,(ref :url "abondance_disette.html#presse_ref" [Abondance, disette]) ;
 ,(ref :url "lettre_cobden1846l.html#commerce_ref" [Lettre à Cobden, 29 septembre 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
+,(ref :url "sentinelle5.html#commerce_ref" [Liberté commerciale, état de la question en Angleterre 3])
+,(ref :url "sentinelle6.html#commerce_ref" [Balance du commerce])
 ])
 ])
 
@@ -118,7 +121,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)]) ;
 ,(ref :url "liberte_commerciale.html#constitutionnel_ref" [Liberté commerciale]) ;
 ,(ref :url "courrier_francais.html#constitutionnel_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
-,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
 ])
 
 ,(journal "cm" "Courrier de Marseille" [
@@ -137,7 +141,8 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "aux_membres_de_l_association.html#courrier_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
 ,(ref :url "courrier_francais.html" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
-,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "lettre_cobden1846a.html#mg_ref" [Lettre à Cobden, 13 janvier 1846]) ;
 ])])
 
 ]),(lettre "D" [
@@ -180,6 +185,10 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ]),(lettre "G"[
 
+,(journal "globe" "Le Globe" [
+,(ref :url "sentinelle3.html#globe_ref" [Liberté commerciale, état de la question en Angleterre 1])
+])
+
 ,(journal "gt" "Globe and Traveller" [
 ,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
 ,(ref :url "anglomanie_anglophobie.html#gt_ref" [Anglomanie, anglophobie]) ;
@@ -204,6 +213,11 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 
 ,(journal "elbeuf" "Journal d’Elbeuf" [
 ,(ref :url "armements_en_angleterre_2.html#elbeuf_ref" [Encore les armements en Angleterre]) ;
+,(ref :url "ligue_33.html#mi_ref" [Deux Angleterre])
+])
+
+,(journal "lille" "Journal de Lille" [
+,(ref :url "au_journal_de_lille.html" [Au ,(cite-title[Journal de Lille])])
 ])
 
 ,(journal "debats" "Journal des Débats" [
@@ -255,9 +269,18 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(journal "ligue" "La Ligue" [
 ,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
 ,(ref :url "lettre_cobden1846f.html#ligue_ref" [Lettre à Cobden, 2 avril 1846]) ;
+,(ref :url "lettre_cobden1845c.html#ligue_ref" [Lettre à Cobden, 2 octobre 1845]) ;
 ])
 
 ]),(lettre "M" [
+
+,(journal "mg" "Manchester Guardian" [
+,(ref :url "lettre_cobden1846a.html#mg_ref" [Lettre à Cobden, 13 janvier 1846]) ;
+])
+
+,(journal "manchester" "Manchester Times" [
+,(ref :url "loi_des_cereales_salaire.html#manchester_ref" [La loi des céréales et le salaire des ouvriers]) ;
+])
 
 ,(journal "mb" "Mémorial bordelais" [
 ,(p*[,(ref :url "journaux_mb.html" [Articles publiés dans ce journal.])]
@@ -296,7 +319,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "protectionisme_et_communisme.html#mi_ref" [Protectionisme et communisme]) ;
 ,(ref :url "le_maire_d_enios.html#mi_ref" [Le maire d’Énios]) (plusieurs fois) ;
 ,(ref :url "midi_a_quatorze_heures.html#mi_ref" [Midi à quatorze heures]) ;
-,(ref :url "negociants_havre2.html#mi_ref" [Aux négociants du Havre, 2])
+,(ref :url "negociants_havre2.html#mi_ref" [Aux négociants du Havre, 2]) ;
+,(ref :url "ligue_33.html#mi_ref" [Deux Angleterre])
 ])
 ])
 
@@ -306,6 +330,11 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "nature_echanges.html#mu_ref" [Réponse à la Presse]) ;
 ,(ref :url "spoliation_et_loi.html#mu_ref" [Spoliation et loi]) ;
 ,(ref :url "discours_7.html#polk_ref" [Septième discours]) ;
+,(ref :url "reforme_postale2.html#mu_ref" [Réforme postale 2])
+])
+
+,(journal "mh" "Morning Herald" [
+,(ref :url "loi_des_cereales_salaire.html#mh_ref" [La loi des céréales et le salaire des ouvriers]) ;
 ])
 
 ,(journal "morning" "Morning Post" [
@@ -384,7 +413,9 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_larnac.html#presse_ref" [De la réforme parlementaire]) ;
 ,(ref :url "anglomanie_anglophobie.html#presse_ref" [Anglomanie, anglophobie]) ;
 ,(ref :url "discours_7.html#national_ref" [Septième discours]) ;
-,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
+,(ref :url "sentinelle5.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 3])
 ])])
 
 ,(journal "punch" "The Punch" [
@@ -407,6 +438,14 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(journal "rf" "La République française" [
 ,(ref :url "journaux_rf.html" [Articles publiés dans ce journal.]) ;
 ,(ref :url "profession.html#rf_ref" [Profession de foi d’avril 1849])
+])
+
+,(journal "rb" "Revue britannique" [
+,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
+])
+
+,(journal "rdm" "Revue des deux mondes" [
+,(ref :url "lettre_cobden1846a.html#buloz_ref" [Lettre à Cobden, 13 janvier 1846]) ;
 ])
 
 ,(journal "encycl" "Revue encyclopédique" [
@@ -441,7 +480,12 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
 ,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine]) ;
-,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
+])
+
+,(journal "standard" "Standard" [
+,(ref :url "loi_des_cereales_salaire.html#mh_ref" [La loi des céréales et le salaire des ouvriers]) ;
 ])
 
 ]),(lettre "T" [
