@@ -86,7 +86,7 @@
 
 (document :title "Index des noms de personnes"
 (sommaire [
-,(p*[En travaux : 64% de textes indexés.])
+,(p*[En travaux : 77% de textes indexés. Fonctions filtre/tri à venir.])
 
 ,(lettre "A" [
 ,(person "abdelkader" [,(autolk "lettre_cheuvreux1849f" "abdelkader_ref").])
@@ -147,41 +147,38 @@ Dans ,(autolk "propriete_et_spoliation3" "andrieux_ref"), allusion à la fable d
 [Charmé que sous son règne on crût à la justice…])
 ])
 
-,(personne "anisson" "Anisson-Dupéron" "Alexandre-Jacques-Laurent" "1776-1852"[
-,(bio [Haut fonctionnaire et homme politique, membre du mouvement libre-échangiste.])
-,(references [
-,(itemize
-(item[,(ref :url "lettre_coudroy1846b.html#harcourt_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;])
-(item[,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;])
-(item[,(ref :url "lettre_cobden1846h.html#anisson_ref" [Lettre à Cobden, 25 mai 1846]) ;])
-(item[,(ref :url "lettre_cobden1846k.html#anisson_ref" [Lettre à Cobden, 23 septembre 1846]) ;])
-(item[,(ref :url "lettre_cobden1846l.html#anisson_ref" [Lettre à Cobden, 29 septembre 1846]) ;])
-(item[,(ref :url "lettre_coudroy1846h.html#anisson_ref" [Lettre à F. Coudroy, 1,(sup[er]) octobre 1846]) ;])
-(item[,(ref :url "lettre_cobden1846m.html#anisson_ref" [Lettre à Cobden, 22 octobre 1846]) : “le plus zélé et le plus éclairé de mes collègues” ;])
-(item[,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848]) ;])
-(item[,(ref :url "lettre_schwabe1848e.html" [Lettre à M. Schwabe, ,(1er) juillet 1848]).]))
-
-,(p*[Mentionné dans des listes de membres de l’association libre-échangiste :
-,(itemize
-(item[,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;])
-(item[,(ref :url "lettre_coudroy1846c.html#harcourt_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;])
-(item[,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]).])
-)])
-])])
-
-,(personne "antonelle" "Antonelle" "Pierre-Antoine" "1747-1817" [
-,(references(p*[,(ref :url "baccalaureat_et_socialisme.html#antonelle_ref" [Baccalauréat et socialisme]).]))
+,(person "anisson" [
+Lettres à F. Coudroy :
+,(link "lettre_coudroy1846b" "22 mars" "harcourt_ref"),
+,(link "lettre_coudroy1846c" "18 avril" "harcourt_ref"),
+,(link "lettre_coudroy1846e" "4 mai") et
+,(link "lettre_coudroy1846h" [1,(sup[er]) octobre 1846] "anisson_ref").
+][
+Lettres à Cobden :
+,(link "lettre_cobden1846e" "25 mars" "harcourt_ref"),
+,(link "lettre_cobden1846h" "25 mai" "anisson_ref"),
+,(link "lettre_cobden1846k" "23 septembre" "anisson_ref"),
+,(link "lettre_cobden1846l" "29 septembre" "anisson_ref") et
+,(link "lettre_cobden1846m" "22 octobre 1846" "anisson_ref") : “le plus zélé et le plus éclairé de mes collègues”.
+][
+,(autolk "angleterre_et_libre_echange" "harcourt_ref").
+][
+,(autolk "lettre_schwabe1848a") et ,(autolk "lettre_schwabe1848e").
 ])
 
-,(personne "arago" "Arago" "François" "1786-1853" [
-,(bio [Astronome, physicien et homme politique. Président de la Commission exécutive du 9 mai au 28 juin 1848.])
-,(references [
-,(p*[Lettre ouverte à — : ,(ref :url "2pertes_1profit.html" [Deux pertes contre un profit]) ;]
-[Citation : ,(ref :url "lettre_lamartine_1.html#laplace_ref" [Un économiste à M. de Lamartine]) : “Par la toute-puissance d’une formule mathématique, le monde matériel se trouva raffermi sur ses fondements.” (,(ref :url "https://books.google.fr/books?id=EDswAAAAYAAJ&pg=PA316&lpg=PA316&dq=%22le+monde+mat%C3%A9riel+se+trouva+raffermi+sur+ses+fondements%22&source=bl&ots=3bT5ptFr3e&sig=aDHEA3_zwtVht_TPnC7bAR4_O3I&hl=fr&sa=X&ved=0ahUKEwjVqKO1pYTNAhUEuhoKHaKHAcEQ6AEIHzAB#v=onepage&q=%22le%20monde%20mat%C3%A9riel%20se%20trouva%20raffermi%20sur%20ses%20fondements%22&f=false" [Source]))]
-[Mentionné comme un possible soutien de l’Association du libre-échange : ,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ; ,(ref :url "aux_membres_de_l_association.html#savant" [Aux membres de l’Association pour la liberté des échanges]).]
-[Autres allusions, dans le contexte d’un parallèle entre la science économique et les sciences physiques : ,(ref :url "lettre_paillottet1849.html#arago_ref" [Lettre à Paillottet, 14 juillet 1849]) ;
-,(ref :url "moteur_social.html#arago_ref" [Moteur social]).])
-])])
+,(person "antonelle" [
+,(autolk "baccalaureat_et_socialisme" "antonelle_ref").
+])
+
+,(person "arago" [
+Lettre ouverte à — : ,(autolk "2pertes_1profit").
+][
+Citation : ,(autolk "lettre_lamartine_1" "laplace_ref") : “Par la toute-puissance d’une formule mathématique, le monde matériel se trouva raffermi sur ses fondements.” (,(ref :url "https://books.google.fr/books?id=EDswAAAAYAAJ&pg=PA316&lpg=PA316&dq=%22le+monde+mat%C3%A9riel+se+trouva+raffermi+sur+ses+fondements%22&source=bl&ots=3bT5ptFr3e&sig=aDHEA3_zwtVht_TPnC7bAR4_O3I&hl=fr&sa=X&ved=0ahUKEwjVqKO1pYTNAhUEuhoKHaKHAcEQ6AEIHzAB#v=onepage&q=%22le%20monde%20mat%C3%A9riel%20se%20trouva%20raffermi%20sur%20ses%20fondements%22&f=false" [Source]))
+][
+Mentionné comme un possible soutien de l’Association du libre-échange : ,(autolk "lettre_coudroy1846b" "daguerre_ref") ; ,(autolk "aux_membres_de_l_association" "savant").
+][
+Autres allusions, dans le contexte d’un parallèle entre la science économique et les sciences physiques : ,(autolk "lettre_paillottet1849" "arago_ref") ; ,(autolk "moteur_social" "arago_ref").
+])
 
 ,(personne1nom "archimede" "Archimède" "287-212 av. J.-C." [
 ,(bio [Physicien, mathématicien et ingénieur de Syracuse.])
@@ -554,6 +551,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
 ,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+,(autolk "lettre_cheuvreux1850m" "rdm_ref")
 ])
 
 ,(personne "broquard" "Broquard de Bussières" "Charles" "1791-1853" [
@@ -739,10 +737,15 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal]) ;
 ,(ref :url "lettre_cobden1850c.html#chateaubriand_ref" [Lettre à Cobden, 9 septembre 1850]) ;
 ,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
+,(autolk "lettre_cheuvreux1850m" "rdm_ref")
 ])
 
 ,(personne "chatel" "Châtel" "François-Ferdinand, abbé" "1795-1857" [
 ,(ref :url "lettre_ecclesiastique.html#chatel_ref" [Lettre à un ecclésiastique])
+])
+
+,(personne "chaumel" "Chaumel" "" "" [
+,(autolk "lettre_cheuvreux1850l" "chaumel_ref")
 ])
 
 ,(personne "chegaray" "Chégaray" "(?)" "?" [
@@ -857,6 +860,7 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "lettre_cheuvreux1849i.html#cobden_ref" [Lettre à Mme Cheuvreux, 30 août 1849]) ;
 ,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre]) ;
 ,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
+,(autolk "lettre_cheuvreux1850m" "cobden_ref")
 ])
 
 ,(personne "cobourg" "Cobourg" "Frédéric Josias de Saxe-Cobourg-Saalfeld, dit" "1737-1815" [
@@ -1471,6 +1475,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "pdfe1846.html#robespierre_ref" [A MM. les électeurs de l’arrondissement de Saint-Sever])
 ])
 
+,(personne "freppa" "Freppa" "" "" [
+,(autolk "lettre_cheuvreux1850l" "renouard_ref")
+])
+
 ,(personne "fulchiron" "Fulchiron" "Jean-Claude" "1774-1859" [
 ,(ref :url "question_vinicole.html#fulchiron_ref" [Mémoire sur la question vinicole])
 ])
@@ -1644,6 +1652,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#argout_ref" [Lettre 9])
 
 ])	
 ,(lettre "H" [
+,(personne "halevy" "Halévy" "" "" [
+,(autolk "lettre_cheuvreux1850m" "scribe_ref")
+])
+
 ,(personne "hall" "Hall" "Basil" "1788-1844" [
 ,(ref :url "defense_exporter_cereales.html#hall_ref" [Sur la défense d’exporter les céréales étrangères])
 ])
@@ -1712,7 +1724,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#virgile_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#horace_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "liberte_enseignement.html#theocrite_ref" [Liberté d’enseignement]) ;
-,(ref :url "paix_et_liberte.html#horace_ref" [Paix et liberté])
+,(ref :url "paix_et_liberte.html#horace_ref" [Paix et liberté]) ;
 ])
 
 ,(personne "hottinger" "Hottinger" "" "" [
@@ -1911,6 +1923,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "lettre_cheuvreux1849k.html#lamartine_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
 ,(ref :url "lettre_cheuvreux1849l.html#lamartine_ref" [Lettre à Mme Cheuvreux, 18 septembre 1849]) ;
 ,(ref :url "lettre_cheuvreux1849l.html#lamartine_ref2" [2]) ;
+,(autolk "lettre_cheuvreux1850k" "lamartine_ref")
 ])
 
 ,(personne "lamennais" "Lamennais" "Félicité Robert de" "1782-1854" [
@@ -2471,6 +2484,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(ref :url "lettre_cheuvreux1850v.html#paillottet_ref" [Lettre à Mme Cheuvreux, 14 et 17 décembre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850w.html" [lettre de Paillottet à Mme Cheuvreux, 22 décembre 1850]) ;
 ,(autolk "lettre_cheuvreux1850i" "paillottet_ref") ;
+,(autolk "lettre_cheuvreux1850k" "paillottet_ref")
 ])
 
 ,(personne "palmerston" "Palmerston" "Henry John Temple, lord" "1784-1865" [
@@ -2606,6 +2620,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#pieix_ref" [Lettre 9])
 ,(ref :url "sel_poste_douane.html#piron_ref" [Le sel, la poste, la douane]) ;
 ,(ref :url "besoins_efforts_satisfactions.html#piron_ref" [Besoins, efforts, satisfactions (note)]) ;
 ,(ref :url "projet_preface_harmonies.html#constant_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+])
+
+,(personne "piscatore" "Piscatore" "" "" [
+,(autolk "lettre_cheuvreux1850k" "piscatore_ref")
 ])
 
 ,(personne "pitt1" "Pitt" "William, l’Ancien" "1708-1778" [
@@ -2775,6 +2793,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#quesnay_ref" [Lettre 11])
 ,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
 ,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;
 ,(ref :url "lettre_cheuvreux1849k.html#say_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
+,(autolk "lettre_cheuvreux1850l" "renouard_ref")
 ])
 
 ,(personne "reybaud" "Reybaud" "Louis" "1799-1879" [
@@ -3006,13 +3025,15 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(ref :url "lettre_schwabe1848g.html" [25 octobre 1848]) ;
 ,(ref :url "lettre_cheuvreux1849b.html#say_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
 ,(ref :url "lettre_arrivabene1850.html#monclar_ref" [Lettre à Arrivabene, 28 octobre 1850]) ;
-,(ref :url "lettre_cheuvreux1850m.html#say_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) ;
+,(ref :url "lettre_cheuvreux1850m.html#say_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) (plusieurs fois) ;
 ,(ref :url "lettre_cheuvreux1849g.html#say_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
 ,(ref :url "lettre_coudroy1845b.html#dunoyer_ref" [Lettre à Coudroy, 23 mai 1845]) ;
 ,(ref :url "lettre_coudroy1845c.html#dunoyer_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ,(ref :url "lettre_cheuvreux1849k.html#say_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
 ,(ref :url "lettre_cheuvreux1849m.html#say_ref" [Lettre à Mme Cheuvreux, 7 octobre 1849]) ;
 ,(ref :url "lettre_cheuvreux1850d.html#say_ref" [Lettre à Mme Cheuvreux, mars 1850]) ;
+,(autolk "lettre_cheuvreux1850j" "say_ref") ;
+,(autolk "lettre_cheuvreux1850l" "renouard_ref")
 ])
 
 ,(personne "say_jb" "Say" "Jean-Baptiste" "1767-1832" [
@@ -3094,6 +3115,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 
 ,(personne "scott" "Scott" "Walter" "1771-1832" [
 ,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829])
+])
+
+,(personne "scribe" "Scribe" "" "" [
+,(autolk "lettre_cheuvreux1850m" "scribe_ref")
 ])
 
 ,(personne "scrope" "Scrope" "George" "1797-1876" [
