@@ -3,6 +3,10 @@
 ;pays: codes ISO 3166 alpha-2; créer tableau
 ;catégories de personnes: pol = politique; mil = militaire; ban = banquier; ope = opéra; mus = musique; sci = scientifique; the = théâtre; poe = poésie; rom = roman; eco = économiste; ecc = ecclésiastique; ind = industriel; inv = inventeur; art = artiste; phi = philosophe; soc = socialiste, lib = libéral; lig = membre de la ligue anglaise
 
+
+
+
+
 (defparameter personnesdb `(
 (abdelkader :nom "Abd el-Kader" :dn 1808 :dm 1883 :pays DZ :categorie (pol mil) :bio "" :references (lettre_cheuvreux1849f))
 (aguado :nom "Aguado" :prenom "Alexandre" :dn 1784 :dm 1842 :pays ES :categorie (ban) :bio "Banquier espagnol." :references (lettre14))
@@ -17,23 +21,25 @@
 (anisson :nom "Anisson-Dupéron" :prenom "Alexandre-Jacques-Laurent" :dn 1776 :dm 1852 :pays FR :categorie (pol lib) :bio "Haut fonctionnaire et homme politique, membre du mouvement libre-échangiste." :references (lettre_coudroy1846b lettre_coudroy1846e lettre_cobden1846h lettre_cobden1846k lettre_cobden1846l lettre_coudroy1846h lettre_cobden1846m lettre_schwabe1848a lettre_schwabe1848e lettre_cobden1846e lettre_coudroy1846c angleterre_et_libre_echange))
 (antonelle :nom "Antonelle" :prenom "Pierre-Antoine" :dn 1747 :dm 1817 :pays FR :categorie (pol) :bio "" :references (baccalaureat_et_socialisme))
 (arago :nom "Arago" :prenom "François" :dn 1786 :dm 1853 :pays FR :categorie (sci pol) :bio "Astronome, physicien et homme politique. Président de la Commission exécutive du 9 mai au 28 juin 1848." :references (2pertes_1profit lettre_lamartine_1 lettre_coudroy1846b aux_membres_de_l_association lettre_paillottet1849 moteur_social))
-;(archimede :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(argout :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(aristide :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(aristote :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(arkwright :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(arnault :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(attila :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(arrivabene :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(audry :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(augustin :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(azara :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(babeuf :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(bacon :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(baillie :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(baines :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(balzac :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(barbes :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
+(archimede :nom "Archimède" :prenom "" :dn -287 :dm -212 :dv "287–212 av. J.-C." :pays GR :categorie (sci inv) :bio "Physicien, mathématicien et ingénieur de Syracuse." :references (arsenal guerre_aux_chaires_d_economie_politique))
+(argout :nom "d’Argout" :prenom "Antoine" :dn 1782 :dm 1858 :pays FR :categorie (pol) :bio "Homme politique français, plusieurs fois ministre dans les années 1830 (Marine, Commerce et Travaux publics, Intérieur, Finances) et gouverneur de la Banque de France en 1834-36 et 1836-57." :references (abondance_disette effort_resultat metaphores lettre9 lettre13))
+(aristide :nom "Aristide" :prenom "dit le Juste" :dn -530 :dm -467 :dv "v. 530–467 av. J.-C." :pays GR :categorie (pol) :bio "Homme d’État athénien renommé pour son intégrité." :references (baccalaureat_et_socialisme))
+(aristote :nom "Aristote" :prenom "" :dn -384 :dm -322 :dv "384–322 av. J.-C." :pays GR :categorie (phi) :bio "" :references (metaphores physiologie_de_la_spoliation de_la_population logique_cunin_gridaine baccalaureat_et_socialisme responsabilite lettre13))
+(arkwright :nom "Arkwright" :prenom "Richard" :dn 1732 :dm 1792 :pays GB :categorie (inv ind) :bio "" :references (concurrence de_la_concurrence))
+(arnault :nom "Arnault" :prenom "Antoine-Vincent" :dn 1766 :dm 1834 :pays FR :categorie (poe the) :bio "Homme politique, poète et auteur dramatique français." :references (lettre_calmetes1822b))
+(ashworth :nom "Ashworth" :prenom "Henry" :dn 1794 :dm 1880 :pays GB :categorie (ind lig) :bio [Membre fondateur de l’Anti-corn-law League.] :references (ligue_16))
+(attila :nom "Attila" :prenom "" :dn 395 :dm 453 :dv "v. 395–453" :pays nil :categorie (mil) :bio "" :references (conclusion_eo_harmonies))
+(arrivabene :nom "Arrivabene" :prenom "Giovanni" :dn 1787 :dm 1881 :pays IT :categorie (pol eco lib) :bio "Économiste italien." :references (lettre_comte_arrivabene1848 lettre_comte_arrivabene1850))
+(audry :nom "Audry de Puyravault" :prenom "Pierre-François" :dn 1773 :dm 1852 :pays FR :categorie (pol) :bio "Député de gauche (1822-1837, puis 1848-1849), protagoniste de la Révolution de Juillet." :references (lettre_coudroy1830a))
+(augier :nom "Augier" :prenom "Émile" :dn 1820 :dm 1889 :pays FR :categorie (poe the) :bio "Poète et dramaturge français." :references (lettre_cheuvreux1849l))
+(augustin :nom "Augustin d’Hippone" :prenom "(saint)" :dn 354 :dm 430 :pays LA :categorie (ecc) :bio "" :references (baccalaureat_et_socialisme))
+(azara :nom "Azara" :prenom "Felix de" :dn 1742 :dm 1821 :pays ES :categorie (mil sci) :bio "Militaire, ingénieur et naturaliste espagnol." :references (baccalaureat_et_socialisme))
+(babeuf :nom "Babeuf" :prenom "François Noël, dit Gracchus" :dn 1760 :dm 1797 :pays FR :categorie (pol soc) :bio "" :references (la_loi baccalaureat_et_socialisme))
+(bacon :nom "Bacon" :prenom "Francis" :dn 1561 :dm 1626 :pays GB :categorie (phi) :bio "" :references (maudit_argent baccalaureat_et_socialisme projet_preface_harmonies))
+(baillie :nom "Baillie" :prenom "(?)" :dn ? :dm ? :pays GB :categorie () :bio "" :references (defense_exporter_cereales))
+(baines :nom "Baines" :prenom "(?)" :dn ? :dm ? :pays GB :categorie () :bio "" :references (question_conseils_generaux lettre_cobden1848e))
+(balzac :nom "Balzac" :prenom "Honoré de" :dn 1799 :dm 1850 :pays FR :categorie (rom) :bio "" :references (cqovecqonvp le_maire_d_enios))
+(barbes :nom "Barbès" :prenom "Armand" :dn 1809 :dm 1870 :pays FR :categorie (pol soc) :bio "" :references (justice_fraternite))
 ;(barbeyrac :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(baring :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(barrot :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
