@@ -11,15 +11,15 @@ de février 1849")
 (bastiat[
 ,(date-tag[Mercredi, février 1849.])
 
-,(cher[Madame,])
+,(cher[,(np "cheuvreux_h" [Madame]),])
 
-,(p*[C’est avec un peu de confusion que je vous communique l’issue ressemblant à un ,(initalian[fiasco]), de ma démarche auprès de Faucher ; mais que voulez-vous, je suis le plus mauvais solliciteur du monde. C’est peut-être heureux. En fait de sollicitations, si j’avais l’habitude du succès, qui sait où je m’arrêterais, puisqu’il est bien reconnu que je n’ai pas d’empire sur moi-même.
+,(p*[,(tag :a :name "faucher_ref")C’est avec un peu de confusion que je vous communique l’issue ressemblant à un ,(initalian[fiasco]), de ma démarche auprès de ,(np "faucher" [Faucher]) ; mais que voulez-vous, je suis le plus mauvais solliciteur du monde. C’est peut-être heureux. En fait de sollicitations, si j’avais l’habitude du succès, qui sait où je m’arrêterais, puisqu’il est bien reconnu que je n’ai pas d’empire sur moi-même.
+][,(tag :a :name "ramel_ref")
+,(np "ramel" [M. Ramel]) peut faire toucher au ministère de l’intérieur, 150 francs ; les formes administratives obligent de donner à cela le nom de secours et non de pension !
+][,(tag :a :name "rossini_ref")
+J’ai eu toute la nuit la musique d’hier soir dans la tête : ,(initalian[Io vorrei saper perche]) ,(np "rossini" [*]) et autres chants délicieux.
 ][
-M. Ramel peut faire toucher au ministère de l’intérieur, 150 francs ; les formes administratives obligent de donner à cela le nom de secours et non de pension !
-][
-J’ai eu toute la nuit la musique d’hier soir dans la tête : ,(initalian[Io vorrei saper perche]) et autres chants délicieux.
-][
-Adieu, Madame, je suis votre dévoué et celui de ,(Mlle) Louise.
+Adieu, ,(np "cheuvreux_h" [Madame]), je suis votre dévoué et celui de ,(np "cheuvreux_l" [,(Mlle) Louise]).
 ])
 ,(sign[F. Bastiat.])
 ])

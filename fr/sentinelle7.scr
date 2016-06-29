@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre à la Presse")
 
-(document :title [A M. le rédacteur en chef de ,(cite-title[la Presse])]
+(document :title [A M. le rédacteur en chef de ,(tj "presse" [,(cite-title[la Presse])])]
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
@@ -13,8 +13,8 @@
 ,(p(small[M. Fr. B. nous a témoigné le désir de rendre publique, par la voie de la ,(cite-title[Sentinelle des Pyrénées,]) la lettre suivante qu’il adresse à M. le Rédacteur en chef de la ,(cite-title[Presse,]) en réponse à trois articles que ce journal a publiés sur l’état de nos relations commerciales et sur le chiffre de nos importations et de nos exportations pendant l’année 1842. Nous nous empressons de remplir les intentions de notre ami.]))
 
 ,(p*[Vous êtes logicien, Monsieur ; quand une fois vous êtes placé dans le courant d’un principe, vous allez partout où il peut mener, et vous en donnez, ce me semble, une preuve remarquable dans votre article du 27 novembre.
-][
-Votre point de départ est que l’art de s’enrichir consiste, pour une nation, ,(emph[à donner et à ne pas recevoir]). Assurément c’est là un axiome irréprochable dans la bouche du maîre d’armes de M. Jourdain ; mais je doute que vous parveniez jamais à le faire entrer dans les convictions des négociants et dans la pratique du commerce.
+][,(tag :a :name "moliere_ref")
+Votre point de départ est que l’art de s’enrichir consiste, pour une nation, ,(emph[à donner et à ne pas recevoir]). Assurément c’est là un axiome irréprochable dans la bouche du maîre d’armes de ,(np "moliere" [M. Jourdain]) ; mais je doute que vous parveniez jamais à le faire entrer dans les convictions des négociants et dans la pratique du commerce.
 ][
 Quoi qu’il en soit, vous posez en principe « qu’un peuple qui régulièrement achèterait beaucoup aux autres et leur rendrait peu ne tarderait pas à s’épuiser. » En fait, la France, en 1842, a importé pour 1142 millions et n’a exporté que pour 940 millions : elle a donc perdu 202 millions.
 ][
@@ -71,17 +71,17 @@ Et elles sont larges vos conséquences. Elles ne vont à rien moins qu’à fair
 Et quand je songe, Monsieur, que vous provoquez cette immense révolution, ou pour mieux dire cette immense destruction commerciale, sur l’autorité de ce principe :
 ][
 « Un peuple pour s’enrichir doit beaucoup donner et peu recevoir, »
-][
+][,(tag :a :name "boursault_ref")
 J’avoue que je reste confondu en présence d’une telle aberration,
 ,(verses
 [Et je suis étonné quand je songe à cela,]
-[Comment l’esprit humain peut aller jusque-là !]
+[Comment l’esprit humain peut aller jusque-là ! ,(np "moliere" [*])]
 )][
 Je ne puis admettre non plus la distinction que vous établissez entre la matière première et les produits fabriqués ; et si je la combats ici, c’est qu’elle vous conduit à provoquer de nouvelles entraves, et à solliciter, selon votre habitude, l’action du pouvoir pour forcer les courants commerciaux à suivre des directions en harmonie non avec les besoins des peuples, mais avec vos combinaisons économiques et politiques.
 ][
 Sans doute, si l’on compare les matières premières aux produits fabriqués d’après le poids ou le volume, les matières premières ont généralement une grande infériorité. Il y a plus de travail dans un kilogramme de dentelles que dans un kilogramme de houille. Mais devant la ,(emph[valeur,]) ces différences s’effacent : cent francs de rubans ne représentent pas plus de travail que cent francs de chanvre ou de lin. Or, c’est au point de vue de la valeur que vous examinez et comparez nos importations et nos exportations. Lors donc que vous dites qu’il faut s’appliquer sans relâche, ,(emph[par des modifications de tarif,]) à repousser cette sorte de travail étranger qui s’est fixé dans des produits fabriqués, et à favoriser l’entrée du travail étranger qui s’est incorporé dans les matières premières, vous exprimez en théorie un ,(emph[non-sens]).
-][
-Vous ne me paraissez pas plus heureux dans la classification que vous faites de ces deux ordres de produits. Pourquoi, je vous prie, rangez-vous les graines oléagineuses qui nous viennent de Russie parmi les matières premières, et les houilles belges et les fers anglais parmi les produits fabriqués ; car, certes, si la graine de lin est la matière de quelques couleurs, le fer est aussi la matière première de tous nos instruments, de toutes nos machines. Mais le comité Mimerel, les hauts barons de l’industrie redoutent le fer et la houille, tandis que les graines oléagineuses ne font concurrence qu’à l’agriculture. Si ce n’est pas là l’explication de votre nomenclature, il faut peut-être la chercher dans vos sympathies pour l’autocrate russe et votre aversion profonde pour le peuple anglais.])
+][,(tag :a :name "mimerel_ref")
+Vous ne me paraissez pas plus heureux dans la classification que vous faites de ces deux ordres de produits. Pourquoi, je vous prie, rangez-vous les graines oléagineuses qui nous viennent de Russie parmi les matières premières, et les houilles belges et les fers anglais parmi les produits fabriqués ; car, certes, si la graine de lin est la matière de quelques couleurs, le fer est aussi la matière première de tous nos instruments, de toutes nos machines. Mais le comité ,(np "mimerel" [Mimerel]), les hauts barons de l’industrie redoutent le fer et la houille, tandis que les graines oléagineuses ne font concurrence qu’à l’agriculture. Si ce n’est pas là l’explication de votre nomenclature, il faut peut-être la chercher dans vos sympathies pour l’autocrate russe et votre aversion profonde pour le peuple anglais.])
 
 ,(sign[F. B.])
 ])

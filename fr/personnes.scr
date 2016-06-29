@@ -1,5 +1,6 @@
 ; -*- Scheme -*-
 (style 'bo-style)
+(style 'personnes_db)
 (in-bof :title "Index des noms de personnes")
 
 ;Alphabet à répéter sous chaque lettre
@@ -56,23 +57,30 @@
 (defun
 	personne1nom
 	(id nom dates &rest details)
-	(div :class "personne" [
+	(personne id nom "" dates details)
+)
+
+(defun 
+  bio
+  (&rest x)
+  (p :class "bio" x)
+)
+
+(defun 
+  references
+  (&rest x)
+  (div :class "references" [,(apply 'p* x)])
+)
+(defun
+	person
+	(id &rest details)
+	(div :class "personne" :id id [
 		,(tag :a :name id)
-		,(p (span :class "nom" nom) (span :class "dates" dates) )
-	] details)
-)
-
-(defun 
-	bio
-	(&rest x)
-	(p :class "bio" x)
-)
-
-(defun 
-	references
-	(&rest x)
-	(div :class "references" x)
-)
+		,(p (span :class "nom" (nom (element id))) " " (prenom (element id)) (span :class "dates" (dates (element id))) )
+		,(p :class "bio" (biog (element id)))
+	]
+	(div :class "references" (apply 'p* details))
+))
 
 
 
@@ -81,60 +89,53 @@
 ,(p*[En travaux : 64% de textes indexés.])
 
 ,(lettre "A" [
+,(person "abdelkader" [,(autolk "lettre_cheuvreux1849f" "abdelkader_ref").])
 
-,(personne1nom "abdelkader" "Abd-el-Kader" "" [
-,(ref :url "lettre_cheuvreux1849f.html#abdelkader_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(person "aguado" [,(autolk "lettre14" "cresus_ref").])
+
+,(person "alboni"
+[,(autolk "lettre_cheuvreux1849b" "say_ref"),
+,(autolk "accumulation" "alboni_ref").])
+
+,(person "alexandre" [
+,(autolk "propriete_communaute" "diogene_ref") ;
+,(autolk "conclusion_eo_harmonies" "cyrus_ref") aux ,(cite-title[Harmonies économiques]) ;
+,(autolk "baccalaureat_et_socialisme" "alexandre_ref").
+][
+Dans un passage de ,(np "bentham" [Bentham]), en épigraphe à la seconde série des ,(cite-title[Sophismes :]) ,(autolk "physiologie_de_la_spoliation").
+][Dans un discours de ,(np "ashworth" [H. Ashworth]) : ,(cite-title[Cobden et la Ligue,]) ,(autolk "ligue_16" "alexandre_ref").
 ])
 
-,(personne "aguado" "Aguado" "Alexandre" "1784-1842" [
-,(bio [Banquier espagnol.])
-,(references(p*[,(ref :url "lettre14.html#cresus_ref" [Gratuité du crédit, Lettre 14]).]))
+,(person "mmealexandre" [
+,(autolk "lettre_cheuvreux1849n" "dupin_ref").
 ])
 
-,(personne "alboni" "Alboni" "Marietta" "1826-1894" [
-,(bio[Cantatrice italienne.])
-,(references(p*[,(ref :url "lettre_cheuvreux1849b.html#say_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
-,(ref :url "accumulation.html#alboni_ref" [Valeur et accumulation]).]))
+,(person "alfieri" [
+Lettres à V. Calmètes :
+,(link "lettre_calmetes1821a" "29 avril 1821"),
+,(link "lettre_calmetes1822b" "décembre 1822" "alfieri_ref").
 ])
 
-,(personne1nom "alexandre" "Alexandre le Grand" "356-323 av. J.-C." [
-,(references [,(p*[,(ref :url "baccalaureat_et_socialisme.html#alexandre_ref" [Baccalauréat et socialisme]) ;
-,(ref :url "ligue_16.html#alexandre_ref" [L’agitation en Écosse]) ;
-,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies]) ;
-,(ref :url "physiologie_de_la_spoliation.html" [Physiologie de la spoliation]) ;
-,(ref :url "propriete_communaute.html#diogene_ref" [Propriété, communauté]).])])
+,(person "alphonse" [
+Quatre allusions à une même anecdote, selon laquelle ce roi aurait dit : “Le monde céleste serait mieux arrangé, si j’eusse été appelé dans les conseils de Dieu.”][
+,(autolk "lettre_lamartine_1" "alphonse_ref") ;
+,(autolk "deux_morales" "alphonse_ref") ;
+,(cite-title[Harmonies économiques,]) ch. 1 :
+,(autolk "organisation" "alphonse_ref") ;
+ch. 7 : ,(autolk "capital" "alphonse_ref").
 ])
 
-,(personne "mmealexandre" "Alexandre" "Mme (?)" "?" [
-,(references (p*[,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849]).]))
+,(person "ambroise" [
+Mentionné dans une citation :
+,(autolk "baccalaureat_et_socialisme" "clement_ref").
 ])
 
-,(personne "alfieri" "Alfieri" "Vittorio" "1749-1803" [
-,(bio [Dramaturge et poète piémontais.])
-,(references[,(p*[Lettres à V. Calmètes : ,(ref :url "lettre_calmetes1821a.html" [29 avril 1821]), ,(ref :url "lettre_calmetes1822b.html#alfieri_ref" [décembre 1822])])])
+,(person "anderson" [
+Citation du ,(cite-title[Troisième voyage de Cook]) dans l’,(autolk "introduction_cobden_ligue" "anderson_ref") à ,(cite-title[Cobden et la Ligue]).
 ])
 
-,(personne1nom "alphonse" "Alphonse X le Sage" "1221-1284" [
-,(bio [Roi de Castille et León (1252-1284).])
-,(references[
-,(p*[Quatre allusions à une même anecdote, selon laquelle ce roi aurait dit : “Le monde céleste serait mieux arrangé, si j’eusse été appelé dans les conseils de Dieu.”
-(,(ref :url "lettre_lamartine_1.html#alphonse_ref" [Un économiste à M. de Lamartine]) ;
-,(ref :url "deux_morales.html#alphonse_ref" [Deux morales]) ;
-,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle]) ;
-,(ref :url "capital.html#alphonse_ref" [Capital]).)])
-])])
-
-,(personne "ambroise" "Ambroise de Milan" "(saint)" "v. 340-397" [
-,(references(p*[Mentionné dans une citation : ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme]).]))
-])
-
-,(personne "anderson" "Anderson" "William" "1750-1778" [
-,(ref :url "introduction_cobden_ligue.html#anderson_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
-])
-
-,(personne "andrieux" "Andrieux" "François " "1759-1833" [
-,(bio [Avocat, poète et auteur dramatique français.])
-,(references [,(p*[Allusion à la fable du ,(cite-title[,(a :href "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) : ,(ref :url "propriete_et_spoliation3.html#andrieux_ref" [Propriété et spoliation III]).
+,(person "andrieux" [
+Dans ,(autolk "propriete_et_spoliation3" "andrieux_ref"), allusion à la fable du ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) : 
 ,(verses[Les rois malaisément souffrent qu’on leur résiste.]
 [Frédéric, un moment par l’humeur emporté :]
 [« Parbleu, de ton moulin c’est bien être entêté ;]
@@ -144,7 +145,6 @@
 [,(bold[Oui, si nous n’avions pas des juges à Berlin.]) »]
 [Le monarque, à ce mot, revient de son caprice.]
 [Charmé que sous son règne on crût à la justice…])
-])])
 ])
 
 ,(personne "anisson" "Anisson-Dupéron" "Alexandre-Jacques-Laurent" "1776-1852"[
@@ -224,6 +224,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(references(p*[,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822]).]))
 ])
 
+,(personne "ashworth" "Ashworth" "Henry" "1794-1880" [
+,(autolk "ligue_16")
+])
+
 ,(personne1nom "attila" "Attila" "v. 395-453" [
 ,(references(p*[,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies]).]))
 ])
@@ -235,6 +239,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(personne "audry" "Audry de Puyravault" "Pierre-François" "1773-1852" [
 ,(bio [Député de gauche (1822-1837, puis 1848-1849), protagoniste de la Révolution de Juillet.])
 ,(references(p*[,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830]).]))
+])
+
+,(personne "augier" "Augier" "Émile" "1820-1889" [
+,(ref :url "lettre_cheuvreux1849l.html#augier_ref" [Lettre à Mme Cheuvreux, 18 septembre 1849]) ;
 ])
 
 ,(personne "augustin" "Augustin d’Hippone" "(saint)" "354-430" [
@@ -352,7 +360,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(ref :url "questions_conseils_generaux.html#salluste_ref" [D’autres questions aux Conseils généraux]) ;
 ,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#beranger_ref" [Guerre aux chaires d’économie politique]) : allusion à ,(cite-title[L’éducation des demoiselles]) ;
-,(ref :url "discours_salle_duphot.html#beranger_ref" [Discours à la salle Duphot])
+,(ref :url "discours_salle_duphot.html#beranger_ref" [Discours à la salle Duphot]) ;
+,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "congres_paix.html#beranger_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "berard" "Bérard" "Jean" "1818-1893" [
@@ -428,7 +438,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#aristote_ref" [Lettre 13]
 ,(ref :url "discours_cercle_librairie.html#blanc_ref" [Discours au cercle de la librairie]) ;
 ,(ref :url "livre_vidal.html#blanc_ref" [Sur un livre de M. Vidal]) ;
 ,(ref :url "organisation_et_liberte.html#fourier_ref" [Organisation et liberté]) ;
-,(ref :url "profession.html#blanc_ref" [Profession de foi d’avril 1849])
+,(ref :url "profession.html#blanc_ref" [Profession de foi d’avril 1849]) ;
+,(ref :url "lettre_cheuvreux1849k.html#lamartine_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
 Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11]) ;
 ])
 
@@ -445,11 +456,19 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 Sous la plume de Proudhon: ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]) ;
 ])
 
+,(personne "blondel" "Blondel" "(?)" "?" [
+,(ref :url "lettre_cheuvreux1849e.html#blondel_ref" [Lettre à Mme Cheuvreux, 3 mai 1849]) ;
+])
+
 ,(personne "boileau" "Boileau" "Nicolas" "1636-1711" [
 ,(ref :url "les_fleuves.html#boileau_ref" [Les fleuves obstrués plaidant pour les prohibitionistes]) : citation de l’,(cite-title[Épître IV]) : “Le Rhin tranquille, et fier du progrès de ses eaux, / Appuyé d'une main sur son urne penchante, / Dormoit au bruit flatteur de son onde naissante…” ;
 ,(ref :url "fragment.html#boileau_ref" [Fragment]) ;
 ,(ref :url "introduction_cobden_ligue.html#boileau_ref" [Introduction à Cobden et la Ligue])
 Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
+])
+
+,(personne "boislembert" "Boislembert" "" "" [
+,(ref :url "lettre_cheuvreux1850c.html" [Lettre à Mme Cheuvreux, février 1850]) ;
 ])
 
 ,(personne "bonald" "Bonald" "Louis de" "1754-1840" [
@@ -461,7 +480,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
 ,(ref :url "lettre_domenger1849b.html#cavaignac_ref" [Lettre à Domenger, 3 février 1849]) ;
 ,(ref :url "paix_et_liberte.html#louisnapoleon_ref" [Paix et liberté]) ;
 ,(ref :url "les_trois_conseils.html#bonaparte_ref" [Les trois conseils]) ;
-,(ref :url "profession.html#bonaparte_ref" [Profession de foi d’avril 1849])
+,(ref :url "profession.html#bonaparte_ref" [Profession de foi d’avril 1849]) ;
+,(ref :url "lettre_cheuvreux1849e.html#bonaparte_ref" [Lettre à Mme Cheuvreux, 3 mai 1849]) ;
 ])
 
 ,(personne "bonaparte" "Bonaparte" "Napoléon" "1769-1821" [
@@ -495,6 +515,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "baccalaureat_et_socialisme.html#rollin_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
 ,(ref :url "cqovecqonvp.html#bossuet_ref" [Ce qu’on voit et ce qu’on ne voit pas, 7 : Restriction]) ;
 ,(ref :url "discours_6.html#bossuet_ref" [Discours à Marseille]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "bougainville" "Bougainville" "Louis-Antoine de" "1729-1811" [
@@ -502,7 +523,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ])
 
 ,(personne "boursault" "Boursault" "Edme" "1638-1701" [
-,(ref :url "lettre_cobden1846l.html#boursault_ref" [Lettre à Cobden, 29 septembre 1846]) : citation du ,(cite-title[Mercure galant, ou la Comédie sans titre])
+,(ref :url "lettre_cobden1846l.html#boursault_ref" [Lettre à Cobden, 29 septembre 1846]),
+,(ref :url "sentinelle7.html#boursault_ref" [A M. le rédacteur en chef de ,(cite-title[la Presse])]) : citation du ,(cite-title[Mercure galant, ou la Comédie sans titre])
+])
+
+,(personne "bouverie" "Bouverie" "" "" [
+,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre])
 ])
 
 ,(personne "bowring" "Bowring" "John" "1792-1872" [
@@ -676,7 +702,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "deux_morales.html#cesar_ref" [Deux morales]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !]) ;
-,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
+,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies]) ;
+,(ref :url "congres_paix.html#cesar_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "chabrol" "Chabrol de Crouzol" "Christophe de" "1771-1836" [
@@ -695,6 +722,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "tarifs_francais_anglais.html#charlesquint_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples])
 ])
 
+,(personne "charruau" "Charruau" "" "" [
+,(ref :url "lettre_cheuvreux1850b.html#matt_ref" [Lettre à Mme Cheuvreux, janvier 1850]) ;
+])
+
 ,(personne "chasseloup" "Chasseloup-Laubat" "Prosper de" "1805-1873" [
 ,(ref :url "le_maire_d_enios.html#chasseloup_ref" [Le maire d’Énios]) ;
 ])
@@ -707,6 +738,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "perfectibilite.html#chateaubriand_ref" [Perfectibilité]) (plusieurs fois) ;
 ,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal]) ;
 ,(ref :url "lettre_cobden1850c.html#chateaubriand_ref" [Lettre à Cobden, 9 septembre 1850]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "chatel" "Châtel" "François-Ferdinand, abbé" "1795-1857" [
@@ -714,6 +746,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ])
 
 ,(personne "chegaray" "Chégaray" "(?)" "?" [
+,(ref :url "sentinelle9.html#chegaray_ref" [Réforme postale]) ;
+,(ref :url "sentinelle10.html#chegaray_ref" [Réforme postale]) ;
 ,(ref :url "bordeaux_bayonne.html#chegaray_ref" [Du chemin de fer de Bordeaux à Bayonne]) ;
 ,(ref :url "reforme_postale2.html#chegaray_ref" [Réforme postale 2 (note)])
 ])
@@ -817,7 +851,12 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "discours_7.html#cobden_ref" [Septième discours]) ;
 ,(ref :url "negociants_havre2.html#cobden_ref" [Aux négociants du Havre, 2]) ;
 ,(ref :url "discours_1.html#cobden_ref" [Discours à Bordeaux]) ;
-,(ref :url "au_journal_de_lille.html#cobden_ref" [Au ,(cite-title[Journal de Lille])])
+,(ref :url "au_journal_de_lille.html#cobden_ref" [Au ,(cite-title[Journal de Lille])]) ;
+,(ref :url "lettre_fonteyraud.html#ligue_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
+,(ref :url "lettre_cheuvreux1849g.html#cobden_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(ref :url "lettre_cheuvreux1849i.html#cobden_ref" [Lettre à Mme Cheuvreux, 30 août 1849]) ;
+,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre]) ;
+,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 
 ,(personne "cobourg" "Cobourg" "Frédéric Josias de Saxe-Cobourg-Saalfeld, dit" "1737-1815" [
@@ -896,6 +935,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "discours_7.html#coquelin_ref" [Septième discours]) ;
 ])
 
+,(personne "coquerel" "Coquerel" "" "" [
+,(ref :url "congres_paix.html#coquerel_ref" [Discours au Congrès de la Paix]) ;
+])
+
 ,(personne "cormenin" "Cormenin" "Louis Marie de Lahaye de" "1788-1868" [
 ,(ref :url "services.html#cormenin_ref" [Services privés, services publics]) ;
 ])
@@ -921,7 +964,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "duels.html#dupin_ref" [Réflexions sur la question des duels]) ;
 ,(ref :url "lettre_horace_say1844.html#ps" [Lettre à H. Say, 24 novembre 1844]) ;
 ,(ref :url "la_logique_du_moniteur_industriel.html#coudroy_ref" [La logique du ,(cite-title[Moniteur industriel])]) ;
-,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])])
+,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
+,(ref :url "lettre_cheuvreux1849i.html#coudroy_ref" [Lettre à Mme Cheuvreux, 30 août 1849]) ;
+,(autolk "lettre_cheuvreux1850i" "coudroy_ref") ;
 ])
 
 ,(personne "courier" "Courier" "Paul-Louis" "1772-1825" [
@@ -1003,6 +1048,14 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
 ])
 
+,(personne "daire" "Daire" "Eugène" "1798-1847" [
+,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;
+])
+
+,(personne "dampierre" "Dampierre" "Élie de" "1813-1896" [
+,(ref :url "lettre_dampierre.html" [Lettre à M. Dampierre])
+])
+
 ,(personne1nom "dante" "Dante Alighieri" "1265-1321" [
 ,(ref :url "justice_fraternite.html#dante_ref" [Justice et fraternité])
 ])
@@ -1051,6 +1104,7 @@ Sous la plume de Vidal : ,(ref :url "organisation_et_liberte.html#defoe_ref" [O
 
 ,(personne "descartes" "Descartes" "René" "1596-1650" [
 ,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ])
 
@@ -1155,7 +1209,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(ref :url "des_besoins_de_l_homme.html#dunoyer_ref" [Des besoins de l’homme]) ;
 ,(ref :url "introduction_cobden_ligue.html#dunoyer_ref" [Introduction à Cobden et la Ligue]) ;
 ,(ref :url "organisation_et_liberte.html#comte_ref" [Organisation et liberté]) ;
-,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])])
+,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
+,(ref :url "lettre_coudroy1845b.html#dunoyer_ref" [Lettre à Coudroy, 23 mai 1845]) ;
+,(ref :url "lettre_coudroy1845c.html#dunoyer_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 
 ,(personne "duperier" "Dupérier" "(?)" "?" [
@@ -1180,7 +1236,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(ref :url "conseil_general_nievre.html#dupin_ref" [Conseil général de la Nièvre]) ;
 ,(ref :url "spoliation_et_loi.html#dupin_ref" [Spoliation et loi]) ;
 ,(ref :url "projet_de_ligue_antiprotectioniste2.html#dupin_ref" [Projet de ligue anti-protectioniste]) ;
-,(ref :url "traite_belge.html#guizot_ref" [La tribune et la presse à propos du traité belge])
+,(ref :url "traite_belge.html#guizot_ref" [La tribune et la presse à propos du traité belge]) ;
+,(ref :url "lettre_coudroy1845a.html#ps" [Lettre à Coudroy, mai 1845]) ;
 ])
 
 ,(personne "dupontdelporte" "Dupont-Delporte" "Henri" "1783-1854" [
@@ -1195,7 +1252,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 
 ,(personne "dussard" "Dussard" "Hippolyte" "1798-1876" [
 ,(ref :url "tarifs_francais_anglais.html#dussard_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
-,(ref :url "lettre_horace_say1844.html#dussard_ref" [Lettre à H. Say, 24 novembre 1844])
+,(ref :url "lettre_horace_say1844.html#dussard_ref" [Lettre à H. Say, 24 novembre 1844]) ;
+,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
+])
+
+,(personne "duval" "Duval" "Raoul" "" [
+,(ref :url "lettre_coudroy1845c.html#duval_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 	
 ]),(lettre "E" [
@@ -1246,6 +1308,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#euclide_ref" [Lettre 9])
 
 ,(personne "ewart" "Ewart" "William" "?" [
 ,(ref :url "taxe_unique.html#ewart_ref" [La taxe unique en Angleterre]) ;
+,(ref :url "sentinelle8.html#ewart_ref" [Question des sucres en Angleterre])
 ])
 
 ]),(lettre "F" [
@@ -1258,6 +1321,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#euclide_ref" [Lettre 9])
 
 ,(personne "falloux" "Falloux" "" "" [
 ,(ref :url "lettre_cheuvreux1849f.html#falloux_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(ref :url "lettre_cheuvreux1849k.html#falloux_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
 ])
 
 ,(personne "faucher" "Faucher" "Léon" "1803-1854" [
@@ -1265,7 +1329,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#euclide_ref" [Lettre 9])
 ,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
 ,(ref :url "lettre_coudroy1849b.html" [Lettre à Mme Cheuvreux, février 1849]) ;
 ,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]) ;
-,(ref :url "cpe.html" [Curieux phénomène économique])
+,(ref :url "cpe.html" [Curieux phénomène économique]) ;
+,(ref :url "lettre_cheuvreux1849c.html#faucher_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
+,(ref :url "lettre_cheuvreux1849e.html#faucher_ref" [Lettre à Mme Cheuvreux, 3 mai 1849]) ;
+,(ref :url "lettre_cheuvreux1849l.html#faucher_ref" [Lettre à Mme Cheuvreux, 18 septembre 1849]) ;
 ])
 
 ,(personne "faulkner" "Faulkner" "(?)" "?" [
@@ -1325,6 +1392,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ])
 
 ,(personne "fonteyraud" "Fonteyraud" "Alcide" "1822-1849" [
+,(ref :url "lettre_fonteyraud.html" [Lettre à Fonteyraud, 20 décembre 1845]) ;
 ,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
 ,(ref :url "lettre_cobden1845d.html#fonteyraud_ref" [Lettre à Cobden, 13 décembre 1845]) ;
 ,(ref :url "lettre_cobden1846l.html" [Lettre à Cobden, 29 septembre 1846]) ;
@@ -1372,7 +1440,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "projet_preface_harmonies.html#bacon_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
 ,(ref :url "introduction_cobden_ligue.html#peel_ref" [Introduction à Cobden et la Ligue]) (note) ;
-,(ref :url "anglomanie_anglophobie.html#sp_ref" [Anglomanie, anglophobie])
+,(ref :url "anglomanie_anglophobie.html#sp_ref" [Anglomanie, anglophobie]) ;
+,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 
 ,(personne "foy" "Foy" "Maximilien Sébastien" "1775-1825" [
@@ -1384,7 +1453,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ])
 
 ,(personne "joinville" "François d’Orléans," "prince de Joinville" "1818-1900" [
-,(ref :url "tarifs_francais_anglais.html" [Influence des tarifs français et anglais sur l’avenir des deux peuples])
+,(ref :url "tarifs_francais_anglais.html" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
+,(ref :url "lettre_cheuvreux1849e.html#bonaparte_ref" [Lettre à Mme Cheuvreux, 3 mai 1849]) ;
 ])
 
 ,(personne1nom "paule" "François de Paule" "1416-1507" [
@@ -1425,6 +1495,8 @@ Comptoir Ganneron : ,(ref :url "protection_taux_salaires.html#ganneron_ref" [La
 ,(ref :url "propriete_fonciere.html#garnier_ref" [Propriété foncière]) (plusieurs fois) ;
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
 ,(ref :url "lettre_cobden1847c.html#bursotti_ref" [Lettre à Cobden, 20 avril 1847]) ;
+,(ref :url "lettre_cheuvreux1849g.html#say_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;
 Sous la plume de Proudhon : ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (plusieurs fois)
 ])
 
@@ -1459,11 +1531,20 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (pl
 
 ,(personne "gibson" "Gibson" "Thomas Milner" "1806-1884" [
 ,(ref :url "introduction_cobden_ligue.html#gibson_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
-,(ref :url "ligue_33.html#gibson_ref" [Deux Angleterre])
+,(ref :url "ligue_33.html#gibson_ref" [Deux Angleterre]) ;
+,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre])
 ])
 
 ,(personne "gioberti" "Gioberti" "Vincenzo" "1801-1852" [
 ,(ref :url "lettre_arrivabene1850.html#gioberti_ref" [Lettre à Arrivabene, 28 octobre 1850]) ;
+])
+
+,(personne "girard" "Girard" "" "" [
+,(ref :url "lettre_cheuvreux1850c.html" [Lettre à Mme Cheuvreux, février 1850]) ;
+])
+
+,(personne "mmegirard" "Girard" "" "" [
+,(autolk "lettre_cheuvreux1850f" "girard_ref")
 ])
 
 ,(personne "girardin" "de Girardin" "Émile" "1802-1881" [
@@ -1516,7 +1597,12 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#girardin_ref" [Lettre 3]) ;
 ,(personne "guillaumin" "Guillaumin" "Gilbert" "1801-1864" [
 ,(ref :url "lettre_cobden1845a.html" [Lettre à Cobden, 8 avril 1845]) ;
 ,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
-,(ref :url "lettre_journal_economistes.html#guillaumin_ref" [Lettre au ,(cite-title[Journal des économistes])])
+,(ref :url "lettre_journal_economistes.html#guillaumin_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
+,(ref :url "lettre_fonteyraud.html#ligue_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
+,(ref :url "lettre_cheuvreux1849g.html#say_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(ref :url "lettre_coudroy1845c.html#guillaumin_ref" [Lettre à Coudroy, 5 juin 1845]) ;
+,(ref :url "lettre_cheuvreux1850d.html#guillaumin_ref" [Lettre à Mme Cheuvreux, mars 1850]) ;
+,(autolk "lettre_cheuvreux1850e" "guillaumin_ref")
 Sous la plume de Proudhon : ,(ref :url "lettre9.html#argout_ref" [Lettre 9])
 ])
 
@@ -1544,7 +1630,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#argout_ref" [Lettre 9])
 ,(ref :url "anglomanie_anglophobie.html#decazes_ref" [Anglomanie, anglophobie]) ;
 ,(ref :url "discours_7.html#guizot_ref" [Septième discours]) ;
 ,(ref :url "traite_belge.html#guizot_ref" [La tribune et la presse à propos du traité belge]) ;
-,(ref :url "reforme_parlementaire.html#guizot_ref" [Réforme parlementaire])
+,(ref :url "reforme_parlementaire.html#guizot_ref" [Réforme parlementaire]) ;
+,(ref :url "lettre_dampierre.html#thiers_ref" [Lettre à M. Dampierre]) ;
+,(ref :url "lettre_coudroy1845b.html#guizot_ref" [Lettre à Coudroy, 23 mai 1845]) ;
+,(ref :url "lettre_coudroy1845c.html#dunoyer_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 
 ,(personne "gutenberg" "Gutenberg" "Johannes" "v. 1400-1468"[
@@ -1634,6 +1723,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "conclusion_sophismes.html#hugo_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) : citation d’,(cite-title[Hernani]), acte III sc. 7. ;
 ,(ref :url "projet_preface_harmonies.html#hugo_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
 ,(ref :url "lettre_cheuvreux1850u.html#hugo_ref" [Lettre à Mme Cheuvreux, 29 octobre 1850]) ;
+,(ref :url "lettre_cheuvreux1849d.html#hugo_ref" [Lettre à Mme Cheuvreux, mars 1849]) ;
+,(ref :url "congres_paix.html#hugo_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "humann" "Humann" "Georges" "1780-1842" [
@@ -1689,7 +1780,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 
 ,(personne "jobard" "Jobard" "Marcellin" "1792-1861" [
 ,(ref :url "livre_dunoyer.html#jobard_ref" [Sur un livre de M. Dunoyer]) ;
-,(ref :url "a_jobard.html" [Lettre à M. Jobard])
+,(ref :url "a_jobard.html" [Lettre à M. Jobard]) ;
+,(ref :url "lettre_coudroy1845a.html#jobard_ref" [Lettre à Coudroy, mai 1845]) ;
 ])
 
 ,(personne "jomini" "Jomini" "Antoine de" "1779-1869" [
@@ -1776,7 +1868,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "question_conseils_generaux.html#lafontaine_ref" [Une question soumise aux conseils généraux…]) : ,(cite-title[Le Statuaire et la statue de Jupiter]) ;
 ,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) ;
 ,(ref :url "discours_2.html#lafontaine_ref" [Second discours]) ;
-,(ref :url "liberte_commerciale.html#lafontaine_ref" [Liberté commerciale])
+,(ref :url "liberte_commerciale.html#lafontaine_ref" [Liberté commerciale]) ;
+,(autolk "lettre_cheuvreux1850i" "lafontaine_ref") ;
 ])
 
 ,(personne "lakanal" "Lakanal" "Joseph" "1762-1845" [
@@ -1811,7 +1904,13 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "protectionisme_et_communisme.html#lamartine_ref" [Protectionisme et communisme]) ;
 ,(ref :url "introduction_cobden_ligue.html#lamartine_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "reforme_parlementaire.html#lamartine_ref" [Réforme parlementaire]) ;
-,(ref :url "profession.html#lamartine_ref" [Profession de foi d’avril 1849])
+,(ref :url "profession.html#lamartine_ref" [Profession de foi d’avril 1849]) ;
+,(ref :url "lettre_coudroy1845a.html#lamartine_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "lettre_coudroy1845b.html#lamartine_ref" [Lettre à Coudroy, 23 mai 1845]) ;
+,(ref :url "congres_paix.html#lamartine_ref" [Discours au Congrès de la Paix]) ;
+,(ref :url "lettre_cheuvreux1849k.html#lamartine_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
+,(ref :url "lettre_cheuvreux1849l.html#lamartine_ref" [Lettre à Mme Cheuvreux, 18 septembre 1849]) ;
+,(ref :url "lettre_cheuvreux1849l.html#lamartine_ref2" [2]) ;
 ])
 
 ,(personne "lamennais" "Lamennais" "Félicité Robert de" "1782-1854" [
@@ -1843,7 +1942,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "lettre_coudroy1844a.html" [Lettre à F. Coudroy, 10 juillet 1844]) ;
 ,(ref :url "lettre_coudroy1844a.html#larnac_ref" [26 juillet 1844]) ;
 ,(ref :url "pdfe1846.html#larnac_ref" [A MM. les électeurs de l’arrondissement de Saint-Sever]) ;
-,(ref :url "lettre_larnac.html" [De la réforme parlementaire])
+,(ref :url "lettre_larnac.html" [De la réforme parlementaire]) ;
+,(ref :url "lettre_dampierre.html#larnac_ref" [Lettre à M. Dampierre])
 ])
 
 ,(personne "laromiguiere" "Laromiguière" "Pierre" "1756-1837" [
@@ -1957,7 +2057,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#leroux_ref" [Lettre 11])
 ])
 
 ,(personne "nemours" "Louis d’Orléans," "seizième duc de Nemours" "1814-1896" [
-,(ref :url "lettre_coudroy1844a.html" [Lettre à F. Coudroy, 10 juillet 1844])
+,(ref :url "lettre_coudroy1844a.html" [Lettre à F. Coudroy, 10 juillet 1844]) ;
+,(ref :url "lettre_dampierre.html#nemours_ref" [Lettre à M. Dampierre])
 ])
 
 ,(personne "lucullus" "Lucullus" "Lucius Licinius" "v. 115-57 av. J.-C." [
@@ -2048,6 +2149,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#proudhon_ref" [Lettre 11]
 ,(ref :url "aux_electeurs_landes.html#martignac_ref" [Aux électeurs du département des Landes]) ;
 ])
 
+,(personne "matt" "Matt" "" "" [
+,(ref :url "lettre_cheuvreux1850b.html#matt_ref" [Lettre à Mme Cheuvreux, janvier 1850]) ;
+])
+
 ,(personne "mauguin" "Mauguin" "François" "1785-1854" [
 ,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830]) ;
 ,(ref :url "balance_du_commerce.html#mauguin_ref" [Balance du commerce])
@@ -2105,6 +2210,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#proudhon_ref" [Lettre 11]
 ,(ref :url "introduction_cobden_ligue.html#mignet_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ])
 
+,(personne "miles" "Miles" "" "" [
+,(ref :url "sentinelle8.html#peel_ref" [Question des sucres en Angleterre])
+])
+
 ,(personne "mill" "Mill" "John Stuart" "1806-1873" [
 ,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "propriete_fonciere.html#mill_ref" [Propriété foncière]) ;
@@ -2127,7 +2236,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#proudhon_ref" [Lettre 11]
 ,(ref :url "la_loi.html#mimerel_ref" [La Loi]) ;
 ,(ref :url "protectionisme_et_communisme.html#mimerel_ref" [Protectionisme et communisme]) ;
 ,(ref :url "spoliation_et_loi.html#mimerel_ref" [Spoliation et loi]) ;
-,(ref :url "pdfe1849.html#blanc_ref" [Lettre à quelques électeurs])
+,(ref :url "pdfe1849.html#blanc_ref" [Lettre à quelques électeurs]) ;
+,(ref :url "sentinelle7.html#mimerel_ref" [A M. le rédacteur en chef de ,(cite-title[la Presse])])
 ])])
 
 ,(personne1nom "minos" "Minos" "légendaire" [
@@ -2159,7 +2269,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "conclusion_sophismes.html#moliere_ref" [Conclusion à la première série des ,(cite-title[Sophismes]) 1]), ,(ref :url "conclusion_sophismes.html#moliere_ref2" [2]) ;
 ,(ref :url "physiologie_de_la_spoliation.html#moliere_ref" [Physiologie de la spoliation]) ;
 ,(ref :url "les_trois_echevins.html#moliere_ref" [La protection ou les trois échevins]) ;
-,(ref :url "deux_principes.html#moliere_ref" [Deux principes]) : allusions au ,(cite-title[Bourgeois gentilhomme]) ;
+,(ref :url "deux_principes.html#moliere_ref" [Deux principes]),
+,(ref :url "sentinelle7.html#moliere_ref" [A M. le rédacteur en chef de ,(cite-title[la Presse])]) : allusions au ,(cite-title[Bourgeois gentilhomme]) ;
 
 ,(ref :url "echange.html#moliere_ref" [Échange]),
 ,(ref :url "organisation_et_liberte.html#moliere_ref" [Organisation et liberté]) : allusion au ,(cite-title[Malade imaginaire]) ;
@@ -2185,13 +2296,18 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "baccalaureat_et_socialisme.html#moliere_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "p5r4.html#moliere" [Prendre cinq et rendre quatre, ce n’est pas donner]) ;
 ,(ref :url "lettre_cheuvreux1850m.html#moliere_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) ;
-Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
+Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5]) ;
+,(ref :url "lettre_cheuvreux1850b.html#matt_ref" [Lettre à Mme Cheuvreux, janvier 1850]) ;
 ])
 
 ,(personne "monclar" "Monclar" "Eugène de" "?" [
 ,(ref :url "lettre_arrivabene1850.html#monclar_ref" [Lettre à Arrivabene, 28 octobre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850v.html#monclar_ref" [Lettre à Mme Cheuvreux, 15 décembre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850w.html#monclar_ref" [lettre de Paillottet à Mme Cheuvreux, 22 décembre 1850])
+])
+
+,(personne "monjean" "Monjean" "Maurice" "" [
+,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;
 ])
 
 ,(personne "montaigne" "Montaigne" "Michel de" "1533-1592" [
@@ -2203,7 +2319,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "baccalaureat_et_socialisme.html#montaigne_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "de_la_population.html#montaigne_ref" [De la population]) ;
 ,(ref :url "projet_discours_bayonne.html#montaigne_ref" [Projet de discours à prononcer à Bayonne]) ;
-,(ref :url "echange.html#montaigne_ref" [Échange])
+,(ref :url "echange.html#montaigne_ref" [Échange]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "montalembert" "Montalembert" "Charles de" "1810-1870" [
@@ -2218,7 +2335,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "lettre14.html#montesquieu_ref" [Lettre 14]) ;
 ,(ref :url "paix_et_liberte.html#montesquieu_ref" [Paix et liberté]) ;
 ,(ref :url "eloge_comte.html#rousseau_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
-,(ref :url "individualisme_et_fraternite.html#voltaire_ref" [Individualisme et fraternité])
+,(ref :url "individualisme_et_fraternite.html#voltaire_ref" [Individualisme et fraternité]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "moore" "Moore" "" "" [
@@ -2351,7 +2469,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "lettre_cheuvreux1850s.html" [Lettre à Mme Cheuvreux, 2 octobre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850u.html#paillottet_ref" [Lettre à Mme Cheuvreux, 29 octobre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850v.html#paillottet_ref" [Lettre à Mme Cheuvreux, 14 et 17 décembre 1850]) ;
-,(ref :url "lettre_cheuvreux1850w.html" [lettre de Paillottet à Mme Cheuvreux, 22 décembre 1850])
+,(ref :url "lettre_cheuvreux1850w.html" [lettre de Paillottet à Mme Cheuvreux, 22 décembre 1850]) ;
+,(autolk "lettre_cheuvreux1850i" "paillottet_ref") ;
 ])
 
 ,(personne "palmerston" "Palmerston" "Henry John Temple, lord" "1784-1865" [
@@ -2375,7 +2494,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "protectionisme_et_communisme.html#pascal_ref" [Protectionisme et communisme]) ;
 ,(ref :url "capital_et_rente.html#newton_ref" [Capital et rente]) ;
 ,(ref :url "lettre_ecclesiastique.html#pascal_ref" [Lettre à un ecclésiastique]) ;
-,(ref :url "lettre12.html#pascal_ref" [Lettre 12])
+,(ref :url "lettre12.html#pascal_ref" [Lettre 12]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "passy" "Passy" "Hippolyte" "1793-1880" [
@@ -2422,7 +2542,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 ,(ref :url "ligue_33.html#mi_ref" [Deux Angleterre]) ;
 ,(ref :url "lettre_cobden1845d.html#peel_ref" [Lettre à Cobden, 13 décembre 1845]) ;
 ,(ref :url "sentinelle4.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
-,(ref :url "sentinelle5.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 3])
+,(ref :url "sentinelle5.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
+,(ref :url "sentinelle8.html#peel_ref" [Question des sucres en Angleterre])
 ])
 
 ,(personne "pelham" "Pelham" "Henry" "1694-1754" [
@@ -2435,6 +2556,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])
 
 ,(personne "penn" "Penn" "William" "1644-1718" [
 ,(ref :url "la_loi.html#penn_ref" [La Loi])
+])
+
+,(personne "pergolese" "Pergolèse" "" "" [
+,(autolk "lettre_cheuvreux1850f" "pergolese_ref")
 ])
 
 ,(personne "perier" "Perier" "Casimir" "1777-1832" [
@@ -2499,6 +2624,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#pieix_ref" [Lettre 9])
 ,(ref :url "conclusion_eo_harmonies.html#cyrus_ref" [Conclusion à la première édition des Harmonies])
 ])
 
+,(personne "planat" "Planat" "Mme de" "" [
+,(ref :url "lettre_cheuvreux1849d.html#planat_ref" [Lettre à Mme Cheuvreux, mars 1849]) ;
+])
+
 ,(personne1nom "platon" "Platon" "v. 427-348 av. J.-C." [
 ,(ref :url "nouveau_college.html#platon_ref" [D’un nouveau collége à fonder à Bayonne]) ;
 ,(ref :url "lettre_lamartine_1.html#platon_ref" [Un économiste à M. de Lamartine]) ;
@@ -2508,7 +2637,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#pieix_ref" [Lettre 9])
 ,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
 ,(ref :url "projet_preface_harmonies.html#platon_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
 ,(ref :url "propriete_communaute.html#platon_ref" [Propriété, communauté]) ;
-,(ref :url "barataria.html#minos_ref" [Barataria])
+,(ref :url "barataria.html#minos_ref" [Barataria]) ;
+,(ref :url "lettre_cheuvreux1849o.html#platon_ref" [Lettre à Mme Cheuvreux, novembre 1849]) ;
 Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
@@ -2518,7 +2648,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 
 ,(personne1nom "plutarque" "Plutarque" "45-120 ap. J.-C." [
 ,(ref :url "eloge_comte.html#plutarque_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
-,(ref :url "baccalaureat_et_socialisme.html#plutarque_ref" [Baccalauréat et socialisme])
+,(ref :url "baccalaureat_et_socialisme.html#plutarque_ref" [Baccalauréat et socialisme]) ;
+,(ref :url "lettre_cheuvreux1850c.html" [Lettre à Mme Cheuvreux, février 1850]) ;
 ])
 
 ,(personne "polignac" "Polignac" "" "" [
@@ -2533,7 +2664,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(personne "pope" "Pope" "Alexander" "1688-1744" [
-,(ref :url "lettre_coudroy1824.html" [Lettre à Félix Coudroy, 15 décembre 1824])
+,(ref :url "lettre_coudroy1824.html" [Lettre à Félix Coudroy, 15 décembre 1824]) ;
+,(autolk "lettre_cheuvreux1850i" "lafontaine_ref") ;
 ])
 
 ,(personne "porter" "Porter" "George Richardson" "1792-1852" [
@@ -2616,6 +2748,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#quesnay_ref" [Lettre 11])
 ,(ref :url "discours_cercle_librairie.html#corneille_ref" [Discours au cercle de la librairie])
 ])
 
+,(personne "ramel" "Ramel" "(?)" "?" [
+,(ref :url "lettre_cheuvreux1849c.html#ramel_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
+])
+
 ,(personne1nom "raphael" "Raphaël" "1483-1520" [
 ,(ref :url "de_la_valeur.html#raphael_ref" [De la valeur]) ;
 ,(ref :url "des_salaires.html#stradivarius_ref" [Des salaires]) ;
@@ -2635,12 +2771,16 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#quesnay_ref" [Lettre 11])
 ,(ref :url "1profit_2pertes.html#regnard_ref" [Un profit contre deux pertes]) : allusion à la comédie ,(cite-title[Le Joueur]), Acte I sc. 4 : “Tu peux me faire perdre, ô fortune ennemie ! / Mais me faire payer, parbleu, je t’en défie : / Car je n’ai pas un sou.”
 ])
 
-,(personne "renouard" "Renouard" "(?)" "?" [
+,(personne "renouard" "Renouard" "Charles" "1794-1878" [
 ,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
+,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "lettre_cheuvreux1849k.html#say_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
 ])
 
 ,(personne "reybaud" "Reybaud" "Louis" "1799-1879" [
-,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange])
+,(ref :url "angleterre_et_libre_echange.html#harcourt_ref" [L’Angleterre et le libre-échange]) ;
+,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "lettre_coudroy1845b.html#reybaud_ref" [Lettre à Coudroy, 23 mai 1845]) ;
 ])
 
 ,(personne "riancey" "Riancey" "Henri-Léon Camusat de" "1816-1879" [
@@ -2712,7 +2852,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 
 ,(personne "rossini" "Rossini" "Gioachino" "1792-1868" [
 ,(ref :url "sel_poste_douane.html#rossini_ref" [Le sel, la poste, la douane]) : allusion au ,(cite-title[Barbier de Séville]) : “Oimè che furia, / Oimè che folla / Uno alla volta, / Per carità !” ;
-,(ref :url "de_la_valeur.html#rossini_ref" [De la valeur])
+,(ref :url "de_la_valeur.html#rossini_ref" [De la valeur]) ;
+citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.html#rossini_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
 ])
 
 ,(personne "rothschild" "de Rothschild" "James" "1792-1868" [
@@ -2755,11 +2896,17 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 ,(ref :url "individualisme_et_fraternite.html#hus_ref" [Individualisme et fraternité]) ;
 ,(ref :url "organisation_et_liberte.html#rousseau_ref" [Organisation et liberté]) ;
 ,(ref :url "barataria.html#rousseau_ref" [Barataria]) ;
-,(ref :url "moralite_richesse.html#rousseau_ref" [Moralité de la richesse])
+,(ref :url "moralite_richesse.html#rousseau_ref" [Moralité de la richesse]) ;
+,(ref :url "sentinelle10.html#rousseau_ref" [Réforme postale]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "roustan" "Roustan" "Roustam Raza, ou" "1781-1845" [
 ,(ref :url "le_maire_d_enios.html#bonaparte_ref" [Le maire d’Énios]) ;
+])
+
+,(personne "rubens" "Rubens" "" "" [
+,(ref :url "lettre_cheuvreux1849h.html#rubens_ref" [Notes prises d’Anvers, juin 1849]) ;
 ])
 
 ,(personne "rubini" "Rubini" "" "" [
@@ -2775,7 +2922,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 ,(ref :url "incompatibilites_parlementaires.html#russell_ref" [Incompatibilités parlementaires]) ;
 ,(ref :url "lettre_cobden1845d.html#peel_ref" [Lettre à Cobden, 13 décembre 1845]) ;
 ,(ref :url "sentinelle4.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
-,(ref :url "sentinelle5.html#russell_ref" [Liberté commerciale, état de la question en Angleterre 3])
+,(ref :url "sentinelle5.html#russell_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
+,(ref :url "sentinelle8.html#russell_ref" [Question des sucres en Angleterre])
 ])
 
 ])
@@ -2859,6 +3007,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#rossi_ref" [Lettre 5]), ,(
 ,(ref :url "lettre_cheuvreux1849b.html#say_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
 ,(ref :url "lettre_arrivabene1850.html#monclar_ref" [Lettre à Arrivabene, 28 octobre 1850]) ;
 ,(ref :url "lettre_cheuvreux1850m.html#say_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) ;
+,(ref :url "lettre_cheuvreux1849g.html#say_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
+,(ref :url "lettre_coudroy1845b.html#dunoyer_ref" [Lettre à Coudroy, 23 mai 1845]) ;
+,(ref :url "lettre_coudroy1845c.html#dunoyer_ref" [Lettre à Coudroy, 5 juin 1845]) ;
+,(ref :url "lettre_cheuvreux1849k.html#say_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
+,(ref :url "lettre_cheuvreux1849m.html#say_ref" [Lettre à Mme Cheuvreux, 7 octobre 1849]) ;
+,(ref :url "lettre_cheuvreux1850d.html#say_ref" [Lettre à Mme Cheuvreux, mars 1850]) ;
 ])
 
 ,(personne "say_jb" "Say" "Jean-Baptiste" "1767-1832" [
@@ -2918,6 +3072,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(ref :url "lettres_schwabe.html" [Huit lettres à —]) ;
 ,(ref :url "lettre_cobden1848e.html#schwabe_ref" [Lettre à Cobden, 27 mai 1848]) ;
 ,(ref :url "lettre_cobden1850c.html#schwabe_ref" [Lettre à Cobden, 9 septembre 1850]) ;
+,(autolk "lettre_cheuvreux1850e" "schwabe_ref")
 ])
 
 ,(personne "schwabe_s" "Schwabe" "Salis" "1800-1853" [
@@ -3159,12 +3314,14 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "le_maire_d_enios.html#bonaparte_ref" [Le maire d’Énios]) ;
 ,(ref :url "courrier_francais.html#guizot_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) (plusieurs fois) ;
 ,(ref :url "incompatibilites_parlementaires.html#gauguier_ref" [Incompatibilités parlementaires]) (plusieurs fois) ;
-,(ref :url "lettre_larnac.html#fourier_ref" [De la réforme parlementaire]) (plusieurs fois)
+,(ref :url "lettre_larnac.html#fourier_ref" [De la réforme parlementaire]) (plusieurs fois) ;
+,(ref :url "lettre_dampierre.html#thiers_ref" [Lettre à M. Dampierre])
 ])
 
 ,(personne "thompson_g" "Thompson" "George" "1804-1878" [
 ,(ref :url "tarifs_francais_anglais.html#thompson_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
+,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
 
 ,(personne "thompson_tp" "Thompson" "Thomas Perronet" "1783-1869" [
@@ -3230,6 +3387,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "la_loi.html#vaucanson_ref" [La Loi])
 ])
 
+,(personne "vefour" "Véfour" "" "" [
+,(ref :url "lettre_coudroy1845a.html#vefour_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "lettre_coudroy1845c.html#vefour_ref" [Lettre à Coudroy, 5 juin 1845]) ;
+])
+
 ,(personne "vernes" "Vernes" "(?)" "?" [
 ,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ])
@@ -3293,7 +3455,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "roi_libre_echangiste.html#voltaire_ref" [Le roi libre-échangiste]) : ,(cite-title[La Pucelle d’Orléans,]) chant IV : “Si j’étais roi, je voudrais être juste, / Dans le repos maintenir mes sujets, / Et tous les jours de mon empire auguste / Seraient marqués par de nouveaux bienfaits.” ;
 ,(ref :url "conseil_general_nievre.html#dupin_ref" [Conseil général de la Nièvre]) ; ,(ref :url "cqovecqonvp.html#restriction" [Ce qu’on voit et ce qu’on ne voit pas, 7 : Restriction]) : allusion à la Henriade ;
 ,(ref :url "solidarite.html#voltaire_ref" [Solidarité]) ;
-,(ref :url "individualisme_et_fraternite.html#voltaire_ref" [Individualisme et fraternité])
+,(ref :url "individualisme_et_fraternite.html#voltaire_ref" [Individualisme et fraternité]) ;
+,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
 ,(personne "vuitry" "Vuitry" "Julien-Marin-Paul" "1786-1879" [

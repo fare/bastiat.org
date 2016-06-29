@@ -11,21 +11,21 @@ de mars 1849")
 (bastiat[
 ,(date-tag[Lundi, mars 1849.])
 
-,(cher[Madame,])
+,(cher[,(np "cheuvreux_h" [Madame]),])
 
 ,(p*[Décidément, j’ai laissé chez vous quelque chose de bien précieux ; quelque chose dont les hommes de mon âge ne devraient plus se séparer ; quelque chose que nous devrions toujours sentir sous la main, quand elle se porte sur le côté gauche de notre poitrine, quelque chose dont la perte nous transforme en étourdis et en aveugles, en un mot, mes lunettes.
 ][
 Si par hasard on les a retrouvées dans votre salon, je vous serai obligé de les faire remettre à ma messagère.
 ][
-Je profite de cette occasion, pour avoir des nouvelles de la santé de votre Louisette, puisque c’est le nom que vous aimez à lui donner ; je serai heureux d’apprendre qu’elle pourra nous faire entendre demain sa douce voix ; avouez donc que vous en êtes orgueilleuse ?
+Je profite de cette occasion, pour avoir des nouvelles de la santé de votre ,(np "cheuvreux_l" [Louisette]), puisque c’est le nom que vous aimez à lui donner ; je serai heureux d’apprendre qu’elle pourra nous faire entendre demain sa douce voix ; avouez donc que vous en êtes orgueilleuse ?
 ][
 Oh ! vous avez bien raison ; je n’ose pas trop le répéter ; mais j’aime mieux une romance chantée par elle, qu’un concert tout entier renforcé de vocalises et de tours de force ; après tout, n’est-ce pas la bonne règle de juger des choses et surtout des arts, par l’impression que nous en recevons ? Quand votre enfant chante, tous les cœurs sont attentifs, toutes les haleines suspendues, d’où je conclus que c’est la vraie musique.
 ][
 Je défends intrépidement ma santé ; j’y tiens beaucoup, ayant la faiblesse de croire qu’elle pourrait encore être bonne à quelque chose.
-][
-Hier, je fus voir ,(Mme) de Planat. À travers quelques brouillards germaniques, son intelligence laisse distinguer un grand fonds de bon sens, des appréciations neuves ; tout juste assez d’érudition pour qu’il n’y en ait pas trop ; et une parfaite impartialité : nos malheureuses discordes civiles ne troublent pas la sûreté de ses jugements ; c’est une femme qui pense par elle-même ; je voudrais que vous la connussiez. Mais elle m’a fait parler un peu trop.
-][
-Je n’ai pas été chez Victor Hugo, croyant qu’il demeurait au Marais ; si j’avais su qu’il habitât vos quartiers, j’aurais fait mon entrée dans son salon, qui doit être curieux, car la pente vers cette région de Paris est facile.
+][,(tag :a :name "planat_ref")
+Hier, je fus voir ,(np "planat" [,(Mme) de Planat]). A travers quelques brouillards germaniques, son intelligence laisse distinguer un grand fonds de bon sens, des appréciations neuves ; tout juste assez d’érudition pour qu’il n’y en ait pas trop ; et une parfaite impartialité : nos malheureuses discordes civiles ne troublent pas la sûreté de ses jugements ; c’est une femme qui pense par elle-même ; je voudrais que vous la connussiez. Mais elle m’a fait parler un peu trop.
+][,(tag :a :name "hugo_ref")
+Je n’ai pas été chez ,(np "hugo" [Victor Hugo]), croyant qu’il demeurait au Marais ; si j’avais su qu’il habitât vos quartiers, j’aurais fait mon entrée dans son salon, qui doit être curieux, car la pente vers cette région de Paris est facile.
 ][
 Adieu, je serre la main affectueusement à ce que vous nommez ,(emph[le Trio]), que j’aime de tout mon cœur.])
 ,(sign[F. Bastiat.])

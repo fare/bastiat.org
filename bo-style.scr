@@ -266,6 +266,17 @@
 (defun suivant-texte (list)
   (string-downcase (text-id (suivant (pathname-name (current-lisp-file-pathname)) list))))
 
+(defun id-to-titre (x)
+(text-titre (first (filtering-bastiat-db (equal (string-downcase x) (string-downcase id)))))
+)
+
+;Une petite fonction pour créer un lien vers un texte
+(defun link (target title &optional anchor)
+  (ref :url (strcat (string-downcase target) ".html#" (string-downcase anchor))
+    title))
+(defun autolk (target &optional anchor)
+(link target (id-to-titre target) anchor))
+
 ;(sort ma-liste #'< :key (lambda (x) (destructuring-bind (id &key livre &allow-other-keys) (getf livre :ch))))
 ;(sort ma-liste #'string< :key (lambda (x) (getf (rest x) :date)))
 ;(sort ma-liste 'string< :key 'text-date)
