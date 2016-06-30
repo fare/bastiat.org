@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Horace Say
 du 4 juillet 1850")
-(document :title "Lettre à Horace Say"
+(document :title [Lettre à ,(np "say_h" [Horace Say])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -11,10 +11,10 @@ du 4 juillet 1850")
 (bastiat[
 ,(date-tag[Eaux-Bonnes, 4 juillet 1850.])
 
-,(cher[Mon cher ami,])
-,(p*[J’ai lu l’article de M. Clément sur les ,(cite-title[Harmonies]). Si je croyais une controverse utile, je l’accepterais ; mais qui la lirait ? M. Clément a l’air de penser que c’est manquer de respect à nos maîtres que d’approfondir des problèmes qu’ils ont à peine effleurés, — parce qu’au temps où ils écrivaient, ces problèmes n’étaient pas posés. Selon lui, ils ont tout dit, tout vu, ne nous ont rien laissé à faire. — Ce n’est pas mon opinion et ce n’était certainement pas la leur. Entre les premières et les dernières pages de votre père, il y a un progrès trop sensible pour qu’il ne vît pas lui-même qu’il n’avait pas touché l’horizon et que nul ne le touchera jamais. Pour moi, les ,(cite-title[Harmonies]) fussent-elles finies à ma satisfaction (ce qui ne sera pas), que je ne les regarderais encore que comme un point d’où nos successeurs tireront un monde. Comment pourrions-nous aller bien avant, quand nous sommes obligés de consacrer les trois quarts de notre temps à élucider, pour un public égaré, les questions les plus simples ?
-][
-… Si vous faites dans le Dictionnaire de Guillaumin l’article ,(cite-title[Assurance]), faites bien remarquer que ce ne sont pas seulement les compagnies qui ,(emph[s’associent]), mais encore et surtout les ,(emph[assurés]). Ce sont eux qui forment, sans s’en douter, une ,(emph[association]) qui n’en est pas moins réelle pour être volontaire et parce qu’on y entre et en sort quand on veut.
+,(cher[,(np "say_h" [Mon cher ami]),])
+,(p*[,(tag :a :name "clement_ref")J’ai lu l’article de ,(np "clement_a" [M. Clément]) sur les ,(ref :url "harmonies.html" [,(cite-title[Harmonies])]). Si je croyais une controverse utile, je l’accepterais ; mais qui la lirait ? ,(np "clement_a" [M. Clément]) a l’air de penser que c’est manquer de respect à nos maîtres que d’approfondir des problèmes qu’ils ont à peine effleurés, — parce qu’au temps où ils écrivaient, ces problèmes n’étaient pas posés. Selon lui, ils ont tout dit, tout vu, ne nous ont rien laissé à faire. — Ce n’est pas mon opinion et ce n’était certainement pas la leur. Entre les premières et les dernières pages de votre père, il y a un progrès trop sensible pour qu’il ne vît pas lui-même qu’il n’avait pas touché l’horizon et que nul ne le touchera jamais. Pour moi, les ,(ref :url "harmonies.html" [,(cite-title[Harmonies])]) fussent-elles finies à ma satisfaction (ce qui ne sera pas), que je ne les regarderais encore que comme un point d’où nos successeurs tireront un monde. Comment pourrions-nous aller bien avant, quand nous sommes obligés de consacrer les trois quarts de notre temps à élucider, pour un public égaré, les questions les plus simples ?
+](nbsp)[,(tag :a :name "guillaumin_ref")
+… Si vous faites dans le Dictionnaire de ,(np "guillaumin" [Guillaumin]) l’article ,(cite-title[Assurance]), faites bien remarquer que ce ne sont pas seulement les compagnies qui ,(emph[s’associent]), mais encore et surtout les ,(emph[assurés]). Ce sont eux qui forment, sans s’en douter, une ,(emph[association]) qui n’en est pas moins réelle pour être volontaire et parce qu’on y entre et en sort quand on veut.
 ])])
 (tous_les_scripts)
 (footer[

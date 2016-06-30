@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 24 janvier 1848")
-(document :title "Lettre à Félix Coudroy"
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -12,10 +12,10 @@ du 24 janvier 1848")
 ,(date-tag[24 janvier 1848.])
 ,(p*[
 Je ne puis t’écrire que peu de mots, car je me trouve atteint de la même maladie que j’ai eue à Mugron, et qui, entre autres désagréments, a celui de me priver de toutes forces. Il m’est impossible de penser, encore plus d’écrire.
-][
-Mon ami, je voudrais bien te parler de notre agitation, mais je ne le puis pas. Je ne suis pas du tout content de notre journal, il est faible et pâle comme tout ce qui émane d’une association. Je vais demander le pouvoir absolu, mais hélas ! avec le pouvoir on ne me donnera pas la santé.
-][
-Je ne reçois pas le ,(cite-title[Mémorial]), et par conséquent je n’ai pas vu ton article ,(cite-title[Anglophobie]) ; je le regrette. J’y aurais peut-être puisé quelques idées, ou nous l’aurions reproduit.
+][,(tag :a :name "le_ref")
+Mon ami, je voudrais bien te parler de notre agitation, mais je ne le puis pas. Je ne suis pas du tout content de ,(tj "le" [notre journal]), il est faible et pâle comme tout ce qui émane d’une association. Je vais demander le pouvoir absolu, mais hélas ! avec le pouvoir on ne me donnera pas la santé.
+][,(tag :a :name "mb_ref")
+Je ne reçois pas le ,(tj "mb" [,(cite-title[Mémorial])]), et par conséquent je n’ai pas vu ton article ,(cite-title[Anglophobie ;]) je le regrette. J’y aurais peut-être puisé quelques idées, ou nous l’aurions reproduit.
 ])])
 (tous_les_scripts)
 (footer[

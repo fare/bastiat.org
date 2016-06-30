@@ -1,7 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
-(document :title "Lettre à Bernard Domenger"
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -9,18 +9,18 @@
 ])
 (bastiat[
 ,(date-tag[Sans date.])
-,(p*[
-Votre lettre m’arrive accolée à celle de M. Dup… M. le ministre du commerce m’avait d’abord fait des promesses. Plus tard j’ai su que Duv… insistait avec l’acharnement que vous lui connaissez. Hier soir, je me suis rendu chez Buffet, emmenant avec moi Turpin. Comme celui-ci a assisté au Conseil général, il pouvait attester ce qui s’y est passé, et il l’a fait en termes très formels. Nous y avons rencontré Dampierre, qui nous a aidés. Malgré tout cela, j’ai vu que le ministre était mal à l’aise ; il faut que les obsessions de Duv… lui fassent peur. Il nous a dit : Si je refuse à Duv… sa ferme, il en mourra.
-][
-J’avais déjà écrit à Buffet une lettre très motivée, j’en vais faire une autre que je terminerai ainsi : La France désire la ,(emph[décentralisation]) administrative. Si M. le ministre, quand il s’agit de savoir où sera établie une ferme, croit pouvoir dédaigner les vœux de tous les organes réguliers du département pour ne faire que sa propre volonté, il peut certes supprimer l’institution des Conseils généraux, ils ne sont qu’une mystification.
+,(p*[,(tag :a :name "turpin_ref")
+Votre lettre m’arrive accolée à celle de M. Dup… M. le ministre du commerce m’avait d’abord fait des promesses. Plus tard j’ai su que Duv… insistait avec l’acharnement que vous lui connaissez. Hier soir, je me suis rendu chez Buffet, emmenant avec moi ,(np "turpin" [Turpin]). Comme celui-ci a assisté au Conseil général, il pouvait attester ce qui s’y est passé, et il l’a fait en termes très formels. Nous y avons rencontré ,(np "dampierre" [Dampierre]), qui nous a aidés. Malgré tout cela, j’ai vu que le ministre était mal à l’aise ; il faut que les obsessions de Duv… lui fassent peur. Il nous a dit : Si je refuse à Duv… sa ferme, il en mourra.
+][,(tag :a :name "buffet_ref")
+J’avais déjà écrit à ,(np "buffet" [Buffet]) une lettre très-motivée, j’en vais faire une autre que je terminerai ainsi : La France désire la ,(emph[décentralisation]) administrative. Si M. le ministre, quand il s’agit de savoir où sera établie une ferme, croit pouvoir dédaigner les vœux de tous les organes réguliers du département pour ne faire que sa propre volonté, il peut certes supprimer l’institution des Conseils généraux, ils ne sont qu’une mystification.
 ][
 Je vous prie, mon cher D., de vouloir m’excuser auprès de M. Dup., si je ne lui réponds pas aujourd’hui. Je le ferai quand je saurai quelque chose. Vous voyez combien la loi des clubs agite Paris. Le ministre a été bien imprudent de soulever cette question. Mais sa malheureuse tactique est de déconsidérer l’Assemblée ; et je crois qu’il voulait se faire refuser la loi pour jeter sur elle toute la responsabilité de l’avenir.
 ][
 Jamais vote ne m’a plus coûté que celui que j’ai émis hier. Vous savez que j’ai été toujours pour la ,(emph[liberté sauf la répression des abus]). J’avoue qu’en face des clubs ce principe m’a paru devoir fléchir. Quand je considère la frayeur qu’ils inspirent à tous les gens tranquilles, les souvenirs qu’ils réveillent, etc., etc., je me dis que ceux qui aiment sincèrement la République devraient comprendre qu’il faut la faire aimer. C’est la compromettre que de vouloir imposer forcément au pays une institution ou même une liberté qui l’épouvante. — J’ai donc voté pour la suppression des clubs.
 ][
 En agissant ainsi je ne me suis pas dissimulé les inconvénients personnels d’une telle conduite. Pour réussir en politique, il faut s’attacher à un parti, et si l’on peut, au parti le plus fort. — Voter consciencieusement tantôt avec la droite, tantôt avec la gauche, c’est s’exposer à être abandonné de tous deux. — Mais avant d’arriver ici j’avais pris la résolution de ne consulter jamais que mon jugement et ma conscience et de ne pas émettre un ,(emph[vote de parti]). Cela se rattache à la proposition que j’ai faite. Ces majorités et minorités systématiques sont la mort du gouvernement représentatif.
-][
-Je crois que notre gouvernement fera de grands efforts pour éviter la guerre. Autrefois on aurait pu craindre qu’il ne fût entraîné par les sympathies populaires en faveur de l’Italie ; mais les choses sont bien changées. Les désordres de la Péninsule ont calmé ces sympathies. Il est probable que Ch. Albert sera battu, sans qu’on ait le temps de délibérer sur l’opportunité de ce qu’il y a à faire. Mais une fois les Autrichiens à Turin, tout ne sera pas fini, il s’en faut. Je ne sais même si ce n’est pas alors que les difficultés sérieuses commenceront. Oh ! comme les hommes ont de la peine à s’entendre, quand ce serait si facile !
+][,(tag :a :name "chalbert_ref")
+Je crois que notre gouvernement fera de grands efforts pour éviter la guerre. Autrefois on aurait pu craindre qu’il ne fût entraîné par les sympathies populaires en faveur de l’Italie ; mais les choses sont bien changées. Les désordres de la Péninsule ont calmé ces sympathies. Il est probable que ,(np "chalbert" [Ch. Albert]) sera battu, sans qu’on ait le temps de délibérer sur l’opportunité de ce qu’il y a à faire. Mais une fois les Autrichiens à Turin, tout ne sera pas fini, il s’en faut. Je ne sais même si ce n’est pas alors que les difficultés sérieuses commenceront. Oh ! comme les hommes ont de la peine à s’entendre, quand ce serait si facile !
 ])])
 (tous_les_scripts)
 (footer[

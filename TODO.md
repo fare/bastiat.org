@@ -1,6 +1,10 @@
 TODO
 ====
 
+- Pour les "verses", remplacer les blockquote par des span class="vers"
+
+- mettre une classe "externe" aux liens pointant vers une url extérieure
+
 Les priorités du jour
 ---------------------
 

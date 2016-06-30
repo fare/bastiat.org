@@ -11,7 +11,7 @@ du 9 juin 1848")
 (bastiat[
 ,(date-tag[Paris, 9 juin 1848.])
 ,(p*[
-Mon cher Félix, j’ai été en effet bien longtemps sans t’écrire, et il faut me le pardonner, car je ne sais plus où donner de la tête. Voici ma vie : je me lève à six heures ; s’habiller, se raser, déjeuner, parcourir les journaux, cela tient jusqu’à sept heures et sept heures et demie. Vers neuf heures, il faut que je parte, car à dix heures commence la séance du comité des finances auquel j’appartiens ; il dure jusqu’à une heure, et alors c’est la séance publique qui commence et se prolonge jusqu’à sept. Je rentre pour dîner, et il est bien rare qu’après dîner il n’y ait pas réunion des sous-commissions chargées de questions spéciales.
+,(np "coudroy" [Mon cher Félix]), j’ai été en effet bien longtemps sans t’écrire, et il faut me le pardonner, car je ne sais plus où donner de la tête. Voici ma vie : je me lève à six heures ; s’habiller, se raser, déjeuner, parcourir les journaux, cela tient jusqu’à sept heures et sept heures et demie. Vers neuf heures, il faut que je parte, car à dix heures commence la séance du comité des finances auquel j’appartiens ; il dure jusqu’à une heure, et alors c’est la séance publique qui commence et se prolonge jusqu’à sept. Je rentre pour dîner, et il est bien rare qu’après dîner il n’y ait pas réunion des sous-commissions chargées de questions spéciales.
 ][
 La seule heure à ma disposition, c’est donc de huit à neuf heures du matin, c’est aussi celle où les visites m’arrivent ; de tout cela il résulte que non-seulement je ne puis faire face à ma correspondance, mais que je ne puis rien étudier, quand, mis enfin en contact avec la pratique des affaires, je m’aperçois que j’ai tout à apprendre.
 ][
@@ -20,9 +20,9 @@ Aussi je suis profondément dégoûté de ce métier, et ce qui se passe n’est
 Mais d’autres symptômes sont bien plus effrayants ; l’idée dominante, celle qui a envahi toutes les classes de la société, c’est que l’État est chargé de faire vivre tout le monde. C’est une curée générale à laquelle les ouvriers sont enfin appelés ; on les blâme, on les craint, que font-ils ? Ce qu’ont fait jusqu’ici toutes les classes. Les ouvriers sont mieux fondés ; ils disent : « Du pain contre du travail. » Les monopoleurs étaient et sont encore plus exigeants. Mais enfin où cela nous mènera-t-il ? je tremble d’y penser.
 ][
 Le comité des finances résiste naturellement, sa mission le rend économe et économiste ; aussi il est déjà tombé dans l’impopularité. « Vous défendez le capital ! » avec ce mot on nous tue, car il faut savoir que le capital passe ici pour un monstre dévorant.
-][
-Duprat, loin d’être mort, n’est pas malade.
-,(verses[« Les gens que vous tuez se portent assez bien. »])
+][,(tag :a :name "duprat_ref")
+,(np "duprat" [Duprat]), loin d’être mort, n’est pas malade.
+,(verses[« Les gens que vous tuez se portent assez bien. » ,(np "corneille" [*])])
 ][
 Dans l’émeute du 15, je n’ai été ni frappé ni menacé ; j’ajouterai même que je n’ai pas éprouvé la plus légère émotion, si ce n’est quand j’ai cru qu’une tribune publique allait s’écrouler sous les pieds des factieux. Le sang aurait ruisselé dans la salle, et alors…
 ])

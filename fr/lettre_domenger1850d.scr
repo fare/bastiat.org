@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 28 novembre 1850")
-(document :title "Lettre à Bernard Domenger"
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

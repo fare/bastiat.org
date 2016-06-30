@@ -364,15 +364,15 @@
 //détecte les recouvrements (nouvelle/ancienne note)
 
 var overlap = function(a, b) {
-  return (a.offset().top < b.offset().top + b.height() + 5)
+  return (a.offset().top < b.offset().top + b.height() + 10)
 };
 
 var placerderriere = function (a, b) {
-  b.offset({top: a.offset().top + a.height() + 5});
+  b.offset({top: a.offset().top + a.height() + 10});
 };
 
 var placerdevant = function (a, b) {
-   a.offset({top: b.offset().top - a.height() - 5});
+   a.offset({top: b.offset().top - a.height() - 10});
 };
 
 var bastiat = $('.bastiat').eq(0);

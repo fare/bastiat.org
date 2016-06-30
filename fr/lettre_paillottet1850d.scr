@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 28 juin 1850")
-(document :title "Lettre à Prosper Paillottet"
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -11,11 +11,11 @@ du 28 juin 1850")
 (bastiat[
 ,(date-tag[Eaux-Bonnes, 28 juin 1850.])
 ,(p*[
-…Voici la première partie de l’article ,(cite-title[Loi]) ,(footnote*[Non plus en manuscrit, mais en épreuve imprimée. ,(NdEEO)]). Je n’ai rien ajouté. Je suppose l’autre partie en route. — C’est bien sérieux pour un pamphlet. Mais l’expérience m’a appris que ce sur quoi l’on compte le moins réussit quelquefois le mieux, et que l’,(emph[esprit]) est nuisible à l’,(emph[idée]).
+…Voici la première partie de l’article ,(ref :url "la_loi.html" [,(cite-title[Loi])]) ,(footnote*[Non plus en manuscrit, mais en épreuve imprimée. ,(NdEEO)]). Je n’ai rien ajouté. Je suppose l’autre partie en route. — C’est bien sérieux pour un pamphlet. Mais l’expérience m’a appris que ce sur quoi l’on compte le moins réussit quelquefois le mieux, et que l’,(emph[esprit]) est nuisible à l’,(emph[idée]).
 ][
-Je voulais vous envoyer ,(emph[Ce qu’on voit ;]) mais je ne le trouve pas ,(emph[réussi]). Là j’aurais dû reprendre la plaisanterie, au lieu de tourner au sérieux, et qui pis est au genre géométrique.
-][
-C’est avec plaisir que je recevrai l’ouvrage de Michel Chevalier. S’il me fait l’honneur de m’emprunter quelques points de vue, en revanche il me donne beaucoup de faits et d’exemples : c’est du libre Échange. Notre propagande a bon besoin de sa plume.
+Je voulais vous envoyer ,(emph[,(ref :url "cqovecqonvp.html" [Ce qu’on voit]) ;]) mais je ne le trouve pas ,(emph[réussi]). Là j’aurais dû reprendre la plaisanterie, au lieu de tourner au sérieux, et qui pis est au genre géométrique.
+][,(tag :a :name "chevalier_ref")
+C’est avec plaisir que je recevrai l’ouvrage de ,(np "chevalier" [Michel Chevalier]). S’il me fait l’honneur de m’emprunter quelques points de vue, en revanche il me donne beaucoup de faits et d’exemples : c’est du libre Échange. Notre propagande a bon besoin de sa plume.
 ])])
 (tous_les_scripts)
 (footer[

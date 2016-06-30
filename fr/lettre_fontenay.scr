@@ -1,7 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. de Fontenay")
-(document :title "Lettre à M. de Fontenay"
+(document :title [Lettre à ,(np "fontenay" [M. de Fontenay])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -9,12 +9,12 @@
 ])
 (bastiat[
 ,(date-tag[Paris, 3 juillet 1850.])
-,(p*[
-… Peut-être prenez-vous avec un peu trop de feu parti pour les ,(cite-title[Harmonies]) contre l’opposition du ,(cite-title[Journal des Économistes]). Des hommes d’un certain âge ne renoncent pas facilement à des idées faites et longtemps caressées. Aussi ce n’est pas à eux, mais aux jeunes gens, que j’ai adressé et soumis mon livre. On finira par reconnaître que la ,(emph[valeur]) ne peut jamais être dans la matière et les forces naturelles. De là résulte la gratuité absolue des dons de Dieu, sous toutes les formes et à travers toutes les transactions humaines : ceci conduit à la mutualité des services, à l’absence de tout motif pour que les hommes se jalousent et se haïssent. Cette théorie doit ramener toutes les écoles sur un terrain commun. Vivant avec cette foi, j’attends patiemment ; car plus je vieillis, plus je m’aperçois de la lenteur des évolutions humaines.
+,(p*[,(tag :a :name "je_ref")
+… Peut-être prenez-vous avec un peu trop de feu parti pour les ,(ref :url "harmonies.html" [,(cite-title[Harmonies])]) contre l’opposition du ,(tj "je" [,(cite-title[Journal des Économistes])]). Des hommes d’un certain âge ne renoncent pas facilement à des idées faites et longtemps caressées. Aussi ce n’est pas à eux, mais aux jeunes gens, que j’ai adressé et soumis mon livre. On finira par reconnaître que la ,(emph[valeur]) ne peut jamais être dans la matière et les forces naturelles. De là résulte la gratuité absolue des dons de Dieu, sous toutes les formes et à travers toutes les transactions humaines : ceci conduit à la mutualité des services, à l’absence de tout motif pour que les hommes se jalousent et se haïssent. Cette théorie doit ramener toutes les écoles sur un terrain commun. Vivant avec cette foi, j’attends patiemment ; car plus je vieillis, plus je m’aperçois de la lenteur des évolutions humaines.
 ][,(tag :a :name "horizons")
 Je ne dissimule pas cependant un vœu personnel. Oui, je désire que cette théorie rencontre, de mon vivant, assez d’adeptes (ne fût-ce que deux ou trois) pour être assuré, avant de mourir, qu’elle ne tombera pas si elle est vraie. Que mon livre en suscite seulement un autre, et je serai satisfait. Voilà pourquoi je ne saurais trop vous engager à concentrer vos méditations sur le capital, sujet immense et qui peut bien être le pivot d’une économie politique. Je ne l’ai qu’effleuré : vous irez plus loin que moi, vous me rectifierez au besoin. Ne craignez pas que je m’en formalise. Les horizons économiques n’ont pas de limites : en apercevoir de nouveaux, c’est mon bonheur, que je les découvre ou qu’un autre me les montre.
-][
-… Oui, vous avez raison. Il y a toute une science à élever sur le vilain mot ,(emph[consommation]) : c’est ce que j’établirai au commencement de mon second volume. Quant à la ,(emph[population]), il est incompréhensible que M. Clément m’attaque sur un sujet que je n’ai pas encore abordé ! Et au fond, nier cet axiome : ,(emph[La densité de la population est une facilité de production]), c’est nier toute la puissance de l’échange et de la division du travail. De plus c’est nier des faits qui crèvent les yeux. — Sans doute la population s’arrange naturellement de manière à produire le plus possible ; et pour cela, selon l’occurrence, elle diverge ou converge, elle obéit à une double tendance de dissémination et de concentration ; mais plus elle augmente, ,(inlatin[cæteris paribus]), — c’est-à-dire à égalité de vertus, de prévoyance, de dignité, — plus les services se divisent, se rendent facilement, plus chacun tire parti de ses moindres qualités spéciales, etc…
+](nbsp)[,(tag :a :name "clement_ref")
+… Oui, vous avez raison. Il y a toute une science à élever sur le vilain mot ,(emph[consommation]) : c’est ce que j’établirai au commencement de mon second volume. Quant à la ,(emph[population]), il est incompréhensible que ,(np "clement_a" [M. Clément]) m’attaque sur un sujet que je n’ai pas encore abordé ! Et au fond, nier cet axiome : ,(emph[La densité de la population est une facilité de production]), c’est nier toute la puissance de l’échange et de la division du travail. De plus c’est nier des faits qui crèvent les yeux. — Sans doute la population s’arrange naturellement de manière à produire le plus possible ; et pour cela, selon l’occurrence, elle diverge ou converge, elle obéit à une double tendance de dissémination et de concentration ; mais plus elle augmente, ,(inlatin[cæteris paribus]), — c’est-à-dire à égalité de vertus, de prévoyance, de dignité, — plus les services se divisent, se rendent facilement, plus chacun tire parti de ses moindres qualités spéciales, etc…
 ])])
 (tous_les_scripts)
 (footer[

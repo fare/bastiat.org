@@ -1,7 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
-(document :title "Lettre à Bernard Domenger"
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])
@@ -11,8 +11,8 @@
 ,(date-tag[Sans date.])
 ,(p*[
 Mon élection, que j’appris il y a deux jours, va me donner plus d’affaires après qu’avant : car, si j’ai pu la négliger un peu, je ne dois pas au moins oublier d’exprimer à mes amis toute ma reconnaissance, non pas du service qu’ils m’ont rendu, mais de l’attachement et de la confiance qu’ils m’ont témoignés. Vous êtes en première ligne, et je suis profondément touché du zèle que vous y avez mis, d’autant que cela a dû beaucoup vous coûter. Je sais que vous répugnez à cette agitation électorale et que depuis longtemps vous aspirez à n’y prendre qu’une part toute personnelle. D’un autre côté, vous avez dû vous mettre en opposition avec beaucoup de vos amis. Croyez que toutes ces circonstances me font d’autant plus apprécier votre dévouement.
-][
-Quelle sera la destinée de la nouvelle assemblée ? On fonde sur elle de grandes espérances. Dieu veuille que ce ne soient pas de grandes illusions. Elle ne sera certainement pas mieux intentionnée que celle qui vient de mourir. Mais que font les intentions ? Je pense comme la ,(cite-title[Presse]) ; la meilleure assemblée ne vaut rien que pour empêcher le mal. Pour faire le bien, il faut l’initiative d’un pouvoir plus concentré ; nous en avons la preuve depuis cinq mois. Le ministère a borné son rôle à susciter et soutenir un conflit, et la chambre avec ses bonnes intentions n’a pu rien faire.
+][,(tag :a :name "presse_ref")
+Quelle sera la destinée de la nouvelle assemblée ? On fonde sur elle de grandes espérances. Dieu veuille que ce ne soient pas de grandes illusions. Elle ne sera certainement pas mieux intentionnée que celle qui vient de mourir. Mais que font les intentions ? Je pense comme la ,(cite-title[,(tj "presse" [Presse]) ;]) la meilleure assemblée ne vaut rien que pour empêcher le mal. Pour faire le bien, il faut l’initiative d’un pouvoir plus concentré ; nous en avons la preuve depuis cinq mois. Le ministère a borné son rôle à susciter et soutenir un conflit, et la chambre avec ses bonnes intentions n’a pu rien faire.
 ][
 Ce qui rend l’avenir redoutable, c’est l’ignorance. La classe pauvre s’enrégimente et marche comme un seul homme à une guerre insensée, sans se douter qu’elle se suicide elle-même, car quand elle aura détruit le capital et le mobile même qui le forme, quel sera son sort ?
 ][
