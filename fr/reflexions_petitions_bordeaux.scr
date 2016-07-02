@@ -7,6 +7,10 @@
 (sidebar [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/231/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 231.])
+
+,(voiraussi[
+,(autolk "matieres_premieres"), ch. 21 de la première série des ,(cite-title[Sophismes,]) qui est une version remaniée de ce texte.
+])
 ])
 (bastiat[
 ,(date-tag[Avril 1834.])

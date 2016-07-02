@@ -38,8 +38,8 @@ Voici ce que vous dites :])
 Tout autre placement leur eût donné 4 1/2 pour 100 ; ils ont donc perdu 3 pour 100 chaque année, ou en tout ,(emph[seize millions]).
 ](nbsp)[,(tag :a :name "decazes_ref")
 Recherchons maintenant combien le pays a ,(emph[perdu]) pour aider ,(np "decazes" [M. Decaze]) et ses associés à ,(emph[perdre]) 16 millions.
-][
-Voici ce que je lis dans un rapport de M. le ministre du commerce (1841) :])
+][,(tag :a :name "cunin_ref")
+Voici ce que je lis dans un rapport de ,(np "cunin" [M. le ministre du commerce]) (1841) :])
 
 ,(blockquote*[« Le prix moyen de la fonte française était de 18 fr. 64, et celui de la fonte anglaise de même nature ne revenait, ,(emph[dans nos entrepôts]), qu’à 13 fr. 75. ,(emph[Il en résultait une surcharge]) de 4 fr. 89.
 ][
@@ -64,9 +64,4 @@ Croyez, Monsieur, que ,(emph[deux pertes ne font pas un profit]), et agréez mes
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)
-])
-(with-footer (p*[
-Extrait de l’,(EO1863), tome VII,
-,(cite-title[Lettre au Moniteur indutriel]),
-pp. 128-130.
-])))
+]))

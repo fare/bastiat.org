@@ -449,588 +449,70 @@ D’où il résulte clairement que, dans le canton de Mont-de-Marsan, la culture
 ][
 Il nous reste à étudier le canton de Montfort. Ce canton présente, dans son ensemble, une augmentation de population de 11 p. 100. C’est bien peu relativement à la région des pins ; mais c’est encore plus qu’on ne devait attendre d’un canton vinicole, d’après ce qui se passe à Villeneuve, Gabarret, Saint-Sever et Mugron. Mais si le canton de Montfort renferme quelques communes vinicoles, il en contient aussi beaucoup d’agricoles.
 ][
-Quelles sont celles qui ont fait atteindre à l’ensemble du canton le chiffre de 11 p. 100 ? C’est ce que nous allons reconnaître en observant séparément ces deux catégories.
-][
-tableau19
-COMMUNES
-
-agricoles.
-
-CULTURES.
-
-POPULATION.
-
-
-Labourables.
-
-Vignes.
-
-1804.
-
-1841.
-
-
-hect.
-
-hect.
-
-hab.
-
-hab.
-Clermont
-
-450
-
-20
-
-825
-
-913
-Garrey
-
-140
-
-15
-
-219
-
-228
-Gousse
-
-110
-
-6
-
-151
-
-216
-Hinx
-
-500
-
-50
-
-656
-
-776
-Louer
-
-120
-
-4
-
-112
-
-149
-Ouard
-
-330
-
-1
-
-321
-
-370
-Ozourt
-
-240
-
-22
-
-287
-
-350
-Lier
-
-420
-
-1
-
-371
-
-509
-Sort
-
-480
-
-30
-
-826
-
-943
-Vicq
-
-250
-
-“
-
-290
-
-344
-Cassen
-
-170
-
-43
-
-348
-
-466
-Gibrel
-
-110
-
-76
-
-237
-
-292
-Goos
-
-310
-
-60
-
-487
-
-566
-Préchacq
-
-410
-
-60
-
-491
-
-584
-Totaux…
-
-4,040
-
-388
-
-5,621
-
-6,706
-Proportion des vignes aux labourables, 1/10.
-Augmentation de populationt, 19 p. 100.
-
-COMMUNES
-
-vinicoles.
-
-CULTURES.
-
-POPULATION.
-
-
-Labourables.
-
-Vignes.
-
-1804.
-
-1841.
-
-
-hect.
-
-hect.
-
-hab.
-
-hab.
-Montfort
-
-190
-
-350
-
-1,574
-
-1,644
-Gamarde
-
-480
-
-310
-
-1,194
-
-1,336
-Laurède
-
-100
-
-195
-
-844
-
-769
-Lourqueu
-
-180
-
-120
-
-380
-
-416
-Nousse
-
-80
-
-110
-
-390
-
-393
-Poyanne
-
-100
-
-140
-
-563
-
-558
-Poyartin
-
-590
-
-170
-
-970
-
-983
-Saint-Geours
-
-240
-
-310
-
-773
-
-849
-Totaux…
-
-1,960
-
-1,700
-
-
-
-
-Proportion des vignes aux labourables, 1/2.
-Augmentation de populationt, 4 p. 100.
-][
-Ainsi, comme, en décomposant le canton de Mont-de-Marsan, nous nous sommes assuré que s’il n’occupe pas un rang plus élevé dans l’échelle de la prospérité départementale, ce n’est pas la culture des pins qui l’a arrêté ; de même, en analysant le canton de Montfort, nous acquérons la certitude qu’il ne s’est maintenu au vingtième rang que grâce à ses nombreuses communes agricoles. Si l’on en détachait ces communes, il descendrait à un des rangs les plus inférieurs, et ne serait dépassé en misère et en dépopulation que par les cantons de Saint-Sever et de Mugron.
+Quelles sont celles qui ont fait atteindre à l’ensemble du canton le chiffre de 11 p. 100 ? C’est ce que nous allons reconnaître en observant séparément ces deux catégories.])
+
+,(table
+(tr (td :rowspan 2 (sc[Communes agricoles.])) (td :align "center" :colspan 2 [,(sc[Cultures.])]) (td :align "center" :colspan 2 [,(sc[Population.])]))
+(tr (td :align "center" [,(small[Labourables])]) (td :align "center" [,(small[Pins])]) (td :align "center" [1804]) (td :align "center" [1841]))
+(tr (td[]) (td :align "center" :colspan 4 [,(hrule)]))
+(tr (td[]) (td :align "right" [hect.]) (td :align "right" [hect.]) (td :align "right" [hab.]) (td :align "right" [hab.]))
+(tr (td[Clermont]) (tdRT[450]) (tdRT[20]) (tdRT[825]) (tdRT[913]))
+(tr (td[Garrey]) (tdRT[140]) (tdRT[15]) (tdRT[219]) (tdRT[228]))
+(tr (td[Gousse]) (tdRT[110]) (tdRT[6]) (tdRT[151]) (tdRT[216]))
+(tr (td[Hinx]) (tdRT[500]) (tdRT[50]) (tdRT[656]) (tdRT[776]))
+(tr (td[Louer]) (tdRT[120]) (tdRT[4]) (tdRT[112]) (tdRT[149]))
+(tr (td[Ouard]) (tdRT[330]) (tdRT[1]) (tdRT[321]) (tdRT[370]))
+(tr (td[Ozourt]) (tdRT[240]) (tdRT[22]) (tdRT[287]) (tdRT[350]))
+(tr (td[Lier]) (tdRT[420]) (tdRT[1]) (tdRT[371]) (tdRT[509]))
+(tr (td[Sort]) (tdRT[480]) (tdRT[30]) (tdRT[826]) (tdRT[943]))
+(tr (td[Vicq]) (tdRT[250]) (tdRT[“]) (tdRT[290]) (tdRT[344]))
+(tr (td[Cassen]) (tdRT[170]) (tdRT[43]) (tdRT[348]) (tdRT[466]))
+(tr (td[Gibret]) (tdRT[110]) (tdRT[76]) (tdRT[237]) (tdRT[292]))
+(tr (td[Goos]) (tdRT[310]) (tdRT[60]) (tdRT[487]) (tdRT[566]))
+(tr (td[Préchacq]) (tdRT[410]) (tdRT[60]) (tdRT[491]) (tdRT[584]))
+(tr (td[]) (td :align "center" :colspan 4 [,(hrule)]))
+(tr (td[,(sc[Totaux])]) (tdRT[4,040]) (tdRT[388]) (tdRT[5,621]) (tdRT[6,706]))
+(tr (td :colspan 5 [Proportion des vignes aux labourables, 1/10.]))
+(tr (td :colspan 5 [Augmentation de population, 19 p. 100.]))
+)
+,(br)
+,(table
+(tr (td :rowspan 2 (sc[Communes vinicoles.])) (td :align "center" :colspan 2 [,(sc[Cultures.])]) (td :align "center" :colspan 2 [,(sc[Population.])]))
+(tr (td :align "center" [,(small[Labourables])]) (td :align "center" [,(small[Pins])]) (td :align "center" [1804]) (td :align "center" [1841]))
+(tr (td[]) (td :align "center" :colspan 4 [,(hrule)]))
+(tr (td[]) (td :align "right" [hect.]) (td :align "right" [hect.]) (td :align "right" [hab.]) (td :align "right" [hab.]))
+(tr (td[Montfort]) (tdRT[190]) (tdRT[350]) (tdRT[1,574]) (tdRT[1,644]))
+(tr (td[Gamarde]) (tdRT[480]) (tdRT[310]) (tdRT[1,194]) (tdRT[1,336]))
+(tr (td[Laurède]) (tdRT[100]) (tdRT[195]) (tdRT[844]) (tdRT[769]))
+(tr (td[Lourqueu]) (tdRT[180]) (tdRT[120]) (tdRT[380]) (tdRT[416]))
+(tr (td[Nousse]) (tdRT[80]) (tdRT[110]) (tdRT[390]) (tdRT[393]))
+(tr (td[Poyanne]) (tdRT[100]) (tdRT[140]) (tdRT[563]) (tdRT[558]))
+(tr (td[Poyartin]) (tdRT[590]) (tdRT[170]) (tdRT[970]) (tdRT[983]))
+(tr (td[Saint-Geours]) (tdRT[2420]) (tdRT[310]) (tdRT[773]) (tdRT[849]))
+(tr (td[]) (td :align "center" :colspan 4 [,(hrule)]))
+(tr (td[,(sc[Totaux])]) (tdRT[1,960]) (tdRT[1,700]) (tdRT[6,688]) (tdRT[6,948]))
+(tr (td :colspan 5 [Proportion des vignes aux labourables, 1/2.]))
+(tr (td :colspan 5 [Augmentation de population, 4 p. 100.]))
+)
+,(p*[Ainsi, comme, en décomposant le canton de Mont-de-Marsan, nous nous sommes assuré que s’il n’occupe pas un rang plus élevé dans l’échelle de la prospérité départementale, ce n’est pas la culture des pins qui l’a arrêté ; de même, en analysant le canton de Montfort, nous acquérons la certitude qu’il ne s’est maintenu au vingtième rang que grâce à ses nombreuses communes agricoles. Si l’on en détachait ces communes, il descendrait à un des rangs les plus inférieurs, et ne serait dépassé en misère et en dépopulation que par les cantons de Saint-Sever et de Mugron.
 ][
 Ces deux exemples nous avertissent que la circonscription cantonale est encore trop étendue, qu’elle admet une trop grande variété de cultures pour nous révéler d’une manière satisfaisante l’influence de chacune d’elles sur la population, puisque ces influences ne nous apparaissent que confondues. Il faut les séparer autant que possible ; il faut poursuivre la vérité jusque dans la circonscription communale. C’est l’objet des cinq tableaux qui terminent cet écrit.
 ][
-J’ai pris, dans le rapport de M. le Directeur des contributions directes, les vingt-deux communes qui offrent la plus forte proportion de pins, et les vingt-deux communes qui présentent la plus grande proportion de vignes, sans distinction de cantons et d’arrondissements. Ces deux classes de communes forment le premier et le dernier des cinq tableaux. Entre ces deux classes , il y en a une qui ne contient que des labourables. Enfin, deux autres classes marquent la transition, l’une entre le pin et les labourables, l’autre entre les labourables et la vigne. A côté de chaque commune, j’ai mis le chiffre de la population en 1804 et 
-][
-tableau20
-COMMUNES
-
-agricoles.
-
-CULTURES.
-
-POPULATION.
-
-
-Labourables.
-
-Vignes.
-
-1804.
-
-1841.
-
-
-hect.
-
-hect.
-
-hab.
-
-hab.
-Clermont
-
-450
-
-20
-
-825
-
-913
-Garrey
-
-140
-
-15
-
-219
-
-228
-Gousse
-
-110
-
-6
-
-151
-
-216
-Hinx
-
-500
-
-50
-
-656
-
-776
-Louer
-
-120
-
-4
-
-112
-
-149
-Ouard
-
-330
-
-1
-
-321
-
-370
-Ozourt
-
-240
-
-22
-
-287
-
-350
-Lier
-
-420
-
-1
-
-371
-
-509
-Sort
-
-480
-
-30
-
-826
-
-943
-Vicq
-
-250
-
-“
-
-290
-
-344
-Cassen
-
-170
-
-43
-
-348
-
-466
-Gibrel
-
-110
-
-76
-
-237
-
-292
-Goos
-
-310
-
-60
-
-487
-
-566
-Préchacq
-
-410
-
-60
-
-491
-
-584
-Totaux…
-
-4,040
-
-388
-
-5,621
-
-6,706
-Proportion des vignes aux labourables, 1/10.
-Augmentation de populationt, 19 p. 100.
-
-COMMUNES
-
-vinicoles.
-
-CULTURES.
-
-POPULATION.
-
-
-Labourables.
-
-Vignes.
-
-1804.
-
-1841.
-
-
-hect.
-
-hect.
-
-hab.
-
-hab.
-Montfort
-
-190
-
-350
-
-1,574
-
-1,644
-Gamarde
-
-480
-
-310
-
-1,194
-
-1,336
-Laurède
-
-100
-
-195
-
-844
-
-769
-Lourqueu
-
-180
-
-120
-
-380
-
-416
-Nousse
-
-80
-
-110
-
-390
-
-393
-Poyanne
-
-100
-
-140
-
-563
-
-558
-Poyartin
-
-590
-
-170
-
-970
-
-983
-Saint-Geours
-
-240
-
-310
-
-773
-
-849
-Totaux…
-
-1,960
-
-1,700
-
-
-
-
-Proportion des vignes aux labourables, 1/2.
-Augmentation de populationt, 4 p. 100.
-en 1841. Par là nous découvrirons comment la population a été affectée, non-seulement par chacune des trois grandes cultures du pays, mais encore par la combinaison de deux de ces cultures.
+J’ai pris, dans le rapport de M. le Directeur des contributions directes, les vingt-deux communes qui offrent la plus forte proportion de pins, et les vingt-deux communes qui présentent la plus grande proportion de vignes, sans distinction de cantons et d’arrondissements. Ces deux classes de communes forment le premier et le dernier des cinq tableaux. Entre ces deux classes , il y en a une qui ne contient que des labourables. Enfin, deux autres classes marquent la transition, l’une entre le pin et les labourables, l’autre entre les labourables et la vigne. A côté de chaque commune, j’ai mis le chiffre de la population en 1804 et en 1841. Par là nous découvrirons comment la population a été affectée, non-seulement par chacune des trois grandes cultures du pays, mais encore par la combinaison de deux de ces cultures.
 ][
 Comment n’être pas frappé des remarquables résultats que révèlent ces tableaux ?
 ][
-Ils nous font voir que dans notre département le mouvement de la population s’est fait de la manière suivante :
-][
-tableau21
-Augment. :
-60
-p.100,
-dans la région des pins.
-—
-34
-—
-dans la région intermédiaire entre les pins et les labourables.
-—
-16
-—
-dans la région des labourabes.
-—
-2
-—
-dans la région intermédiaire entre les labourables et la vigne.
-Diminut. :
-4
-—
-dans la région de la vigne.
-][
-Et il ne faut pas croire que ces deux chiffres : 60 pour 100 d’augmentation, 4 p. 100 de diminution expriment les effets extrêmes produits sur la population par les deux cultures que nous comparons. Pour qu’il en fût ainsi, il faudrait que nous fussions parvenus à les étudier isolément. Mais il n’est pas de commune où il n’entre un élément, les labourables, qui par son action, lentement progressive, ne soit venu atténuer soit l’accroissement qui s’est manifesté dans la région des pins, soit la dépopulation qui a décimé la région de la vigne. Si l’on voulait dégager l’influence propre de ces deux cultures, exclusivement à celle des labourables, il faudrait avoir recours à une règle de proportion. Je crois qu’on arriverait à un résultat très-approximatif par un raisonnement, rigoureux en lui-même, et qu’on ne saurait ébranler qu’en révoquant en doute les données officielles sur lesquelles il repose.
+Ils nous font voir que dans notre département le mouvement de la population s’est fait de la manière suivante :])
+
+,(table
+(tr (td[Augment. :]) (tdRT[60]) (tdCT[p.100,]) (td[dans la région des pins.]))
+(tr (tdCT[—]) (tdRT[34]) (tdCT[—]) (td[dans la région intermédiaire entre les pins et les labourables.]))
+(tr (tdCT[—]) (tdRT[16]) (tdCT[—]) (td[dans la région des labourables.]))
+(tr (tdCT[—]) (tdRT[2]) (tdCT[—]) (td[dans la région intermédiaire entre les labourables et la vigne.]))
+(tr (td[Diminut. :]) (tdRT[4]) (tdCT[—]) (td[dans la région de la vigne.]))
+)
+
+,(p*[Et il ne faut pas croire que ces deux chiffres : 60 pour 100 d’augmentation, 4 p. 100 de diminution expriment les effets extrêmes produits sur la population par les deux cultures que nous comparons. Pour qu’il en fût ainsi, il faudrait que nous fussions parvenus à les étudier isolément. Mais il n’est pas de commune où il n’entre un élément, les labourables, qui par son action, lentement progressive, ne soit venu atténuer soit l’accroissement qui s’est manifesté dans la région des pins, soit la dépopulation qui a décimé la région de la vigne. Si l’on voulait dégager l’influence propre de ces deux cultures, exclusivement à celle des labourables, il faudrait avoir recours à une règle de proportion. Je crois qu’on arriverait à un résultat très-approximatif par un raisonnement, rigoureux en lui-même, et qu’on ne saurait ébranler qu’en révoquant en doute les données officielles sur lesquelles il repose.
 ][
 Voici le problème à résoudre :
 ][
@@ -1042,490 +524,109 @@ En admettant que, dans ces communes, comme dans le reste du département, les la
 ][
 La population est en raison des moyens d’existence, les moyens d’existence ne sont autres que les revenus, et les revenus proportionnels de chaque culture nous sont connus par le contingent de leur contribution. De ces données, il est facile de déduire la population qui correspond à chaque culture.
 ][
-Les contingents des vingt-deux communes de la première catégorie sont :
-][
-tableau21
-de 27,483 fr. pour les pins,
-de 7,043 fr. pour les labourables.
-][
-Les revenus sont proportionnels à ces contingents.
+Les contingents des vingt-deux communes de la première catégorie sont :])
+
+,(table
+(tr (td[de]) (tdRT[27,483 fr.]) (td[pour les pins,]))
+(tr (td[de]) (tdRT[7,043 fr.]) (td[pour les labourables.]))
+)
+
+,(p*[Les revenus sont proportionnels à ces contingents.
 ][
 La population est proportionnelle aux revenus.
 ][
-Donc les 13,573 habitants, population de 1804, correspondaient, savoir :][
-tableau22
-Aux pins . . . .
-10,815
-hab.
-Aux labourables . . . .
-2,758
+Donc les 13,573 habitants, population de 1804, correspondaient, savoir :])
 
-Faisant abstraction de l’augmentation cherchée, produite par les pins, il faut ajouter celle qui est due aux labourables, 16 p. 100 sur 2,758, soit . . . .
-441
+,(table
+(tr (td[Aux pins]) (tdRT[10,815]) (td[hab.]))
+(tr (td[Aux labourables]) (tdRT[2,758]) (td[]))
+(tr (td[Faisant abstraction de l’augmentation cherchée, produite par les pins, il faut ajouter celle qui est due aux labourables, 16 p. 100 sur 2,758, soit]) (tdRT[441]) (td[]))
+(tr (td[]) (tdRT[,(hrule)]) (td[]))
+(tr (td[En sorte que si les pins n’avaient exercé aucune influence, la population de ces vingt-deux communes serait aujourd’hui de]) (tdRT[14,014]) (td[hab.]))
+(tr (td[Mais elle est de]) (tdRT[21,771]) (td[]))
+(tr (td[]) (tdRT[,(hrule)]) (td[]))
+(tr (td[,(retrait)Différence due exclusivement aux pins]) (tdRT[7,757]) (td[]))
+)
+,(p*[Or une augmentation de 7,757 sur 10,815 équivaut à 71 p. 100.])
 
+,(table
+(tr (td[Les contingent des vingt-deux communes vinicoles sont de 22,880 fr. afférents aux vignes, ce qui correspond à]) (tdRT[11,709]) (td[hab.]))
+(tr (td[16,742 fr. afférents aux vignes, ce qui correspond à]) (tdRT[8,515]) (td[]))
+(tr (td[]) (tdRT[,(hrule)]) (td[]))
+(tr (td[Population de 1804]) (tdRT[20,224]) (td[]))
+(tr (td[Par l’action des labourables, qui implique un accroissement de 16 p. 100 sur 8,515 habitants, cette population se serait élevée de]) (tdRT[1,373]) (td[]))
+(tr (td[]) (tdRT[,(hrule)]) (td[]))
+(tr (td[En sorte que, sans l’influence de la vigne, la population de 1841 serait de]) (tdRT[21,597]) (td[hab.]))
+(tr (td[Mais elle n’est que de]) (tdRT[19,325]) (td[]))
+(tr (td[]) (tdRT[,(hrule)]) (td[]))
+(tr (td[,(retrait)Déficit dû exclusivement à la vigne]) (tdRT[2,272]) (td[]))
+)
 
-
-
-En sorte que si les pins n’avaient exercé aucune influence, la population de ces vingt-deux communes serait aujourd’hui de . . . .
-14,014
-hab.
-Mais elle est de . . . .
-21,771
-
-
-
-
-Différence due exclusivement aux pins . . . .
-7,757
-
-][
-Or une augmentation de 7,757 sur 10,815 équivaut à 71 p. 100. 
-][
-tableau23
-Les contingent des vingt-deux communes vinicoles sont de 22,880 fr. afférents aux vignes, ce qui correspond à . . . .
-11,709
-hab.
-16,742 fr. afférents aux vignes, ce qui correspond à . . . .
-8,515
-
-
-
-
-Population de 1804 . . . .
-20,224
-
-Par l’action des labourables, qui implique un accroissement de 16 p. 100 sur 8,515 habitants, cette population se serait élevée de . . . .
-1,373
-
-
-
-
-En sorte que, sans l’influence de la vigne, la population de 1841 serait de . . . .
-21,597
-hab.
-Mais elle n’est que de . . . .
-19,325
-
-
-
-
-Déficit dû exclusivement à la vigne . . . .
-2,272
-
-
-
-
-
-
-
-][
-Un déficit de 2,272 sur 11,709 équivaut à 19 p. 100.
+,(p*[Un déficit de 2,272 sur 11,709 équivaut à 19 p. 100.
 ][
 Ce qui ne veut pas dire autre chose, si ce n’est que, dans une commune où il n’y aurait que des pins, la population aurait augmenté de 71 p. 100 ; qu’elle aurait diminué de 19 p. 100 dans une commune où il n’y aurait que des vignes, et qu’en ,(emph[réalité]) les mouvements progressifs et rétrogrades se sont accomplis, entre ces deux limites, dans chaque circonscription, selon les proportions de ces cultures combinées avec un troisième élément, les labourables.
 ][
-Voici donc en définitive la loi qui a présidé au mouvement de la population dans le déparTement des Landes :
-][
-tableau24
-Pin . . . .
-augment.
-71
-p. 100
-7/8 pin et 1/8 labourables.
-(tableau
-page
-329)
-—
-60
-—
-4/5 pin et 1/5 labourables.
-—
-—
-330)
-—
-34
-—
-Labourables . . . .
-—
-—
-331)
-—
-16
-—
-2/3 labourables et 1/3 vign.
-—
-—
-332)
-—
-2
-—
-1/2 labourables et 1/2 vign.
-—
-—
-333)
-diminut.
-4
-—
-Vignes . . . .
-—
-19
-—
-][
-Il résulte de là que, si une étendue de pins et une étendue de vignes faisant vivre chacune cent personnes avaient été frappées à l’origine d’un contingent égal, aujourd’hui ce contingent subsisterait encore, quoique les mêmes pins offrent des moyens d’existence à 171 personnes, et que les mêmes vignes ne puissent plus faire vivre que 81 individus ou moins de moitié.
+Voici donc en définitive la loi qui a présidé au mouvement de la population dans le département des Landes :])
+
+,(table
+(tr (td :colspan 3 [Pin]) (tdCT[augment.]) (tdRT[71]) (tdCT[p. 100]))
+(tr (td[7/8 pin et 1/8 labourables.]) (td[(tableau]) (tdRT[page 329)]) (tdCT[—]) (tdRT[60]) (tdCT[—]))
+(tr (td[4/5 pin et 1/5 labourables.]) (td[( —]) (tdRT[— 330)]) (tdCT[—]) (tdRT[34]) (tdCT[—]))
+(tr (td[Labourables]) (td[( —]) (tdRT[— 331)]) (tdCT[—]) (tdRT[16]) (tdCT[—]))
+(tr (td[2/3 labourables et 1/3 vign.]) (td[( —]) (tdRT[— 332)]) (tdCT[—]) (tdRT[2]) (tdCT[—]))
+(tr (td[1/2 labourables et 1/2 vign.]) (td[( —]) (tdRT[— 333)]) (tdCT[diminut.]) (tdRT[4]) (tdCT[—]))
+(tr (td :colspan 3 [Vignes]) (tdCT[—]) (tdRT[19]) (tdCT[—]))
+)
+
+,(p*[Il résulte de là que, si une étendue de pins et une étendue de vignes faisant vivre chacune cent personnes avaient été frappées à l’origine d’un contingent égal, aujourd’hui ce contingent subsisterait encore, quoique les mêmes pins offrent des moyens d’existence à 171 personnes, et que les mêmes vignes ne puissent plus faire vivre que 81 individus ou moins de moitié.
 ][
 Cela est bien injuste. Mais combien l’injustice est plus criante, si dès l’origine le contingent fut mal réparti, comme je crois l’avoir démontré dans la première partie de ce travail !
 ][
 Il m’en coûte beaucoup de fatiguer l’attention du lecteur sous le poids de chiffres arides. Je ne puis cependant pas quitter la question que je traite, sans le faire pénétrer dans les détails de ce phénomène de dépopulation qui a frappé non-seulement la région de la vigne, mais encore un rayon assez étendu autour de cette région, comme pour mettre le nombre des hommes en rapport avec les ,(emph[revenus réduits]), tels que les a faits la législation des douanes et des contributions indirectes. Le cœur se serre à l’aspect de la détresse profonde que cette dépopulation implique.
 ][
-Forcé de me restreindre, je me borne à donner le relevé des naissances et des décès, pendant une période de trente ans (de 1814 à 1843), dans les quinze communes vinicoles inscrites les premières au tableau ,(emph[page]) 333. Quant aux sept autres communes, j’ai demandé à MM. les Maires des états qui ne me sont pas parvenus. Le laps de trente années a été divisé en deux périodes de quinze années chacune, afin de faciliter la comparaison de l’état des choses actuel avec la situation du pays à des époques antérieures.
-][
-tableau25
-DÉSIGNATION
-des
-communes.
-
-PREMIÈRE PÉRIODE.
-
-
-DEUXIÈME PÉRIODE.
-
-
-Naissances
-
-Décès
-
-excédants
-
-
-Naissances
-
-Décès
-
-excédants
-
-
-
-
-
-
-de naissances.
-
-de décès.
-
-
-
-
-
-
-de naissances.
-
-de décès.
-Mugron
-
-1,173
-
-959
-
-216
-
-“
-
-
-949
-
-1284
-
-“
-
-335
-Nerbis
-
-283
-
-229
-
-54
-
-“
-
-
-179
-
-267
-
-“
-
-88
-Laurède
-
-414
-
-287
-
-127
-
-“
-
-
-304
-
-333
-
-“
-
-29
-Gamarde
-
-611
-
-433
-
-178
-
-“
-
-
-545
-
-655
-
-“
-
-110
-Donzacq
-
-669
-
-362
-
-307
-
-“
-
-
-541
-
-531
-
-10
-
-“
-St-Geours
-
-492
-
-401
-
-85
-
-“
-
-
-404
-
-498
-
-“
-
-94
-Ranos
-
-202
-
-175
-
-27
-
-“
-
-
-180
-
-155
-
-25
-
-“
-Baigts
-
-469
-
-303
-
-166
-
-“
-
-
-400
-
-367
-
-33
-
-“
-Lourquen
-
-172
-
-127
-
-45
-
-“
-
-
-176
-
-162
-
-14
-
-“
-Montaut
-
-548
-
-424
-
-124
-
-“
-
-
-464
-
-490
-
-“
-
-26
-Poyanne
-
-250
-
-225
-
-25
-
-“
-
-
-269
-
-273
-
-“
-
-4
-Hauriet
-
-291
-
-187
-
-104
-
-“
-
-
-224
-
-234
-
-“
-
-10
-Montfort
-
-702
-
-462
-
-240
-
-“
-
-
-137
-
-138
-
-“
-
-1
-Nousse
-
-159
-
-103
-
-56
-
-“
-
-
-404
-
-470
-
-“
-
-66
-St-Aubin
-
-432
-
-343
-
-89
-
-“
-
-
-404
-
-470
-
-“
-
-66
-Totaux . . .
-
-6,869
-
-5,026
-
-1,843
-
-“
-
-
-5,814
-
-6,445
-
-132
-
-753
-][
-Je supplie le lecteur de donner à ces chiffres l’attention la plus sérieuse. De 1814 à 1828, il y eut 6,869 naissances et 5,026 décès. La population était progressive, chaque 1,000 habitants donnant 33 naissances contre 24 décès.
+Forcé de me restreindre, je me borne à donner le relevé des naissances et des décès, pendant une période de trente ans (de 1814 à 1843), dans les quinze communes vinicoles inscrites les premières au tableau ,(emph[page]) 333. Quant aux sept autres communes, j’ai demandé à MM. les Maires des états qui ne me sont pas parvenus. Le laps de trente années a été divisé en deux périodes de quinze années chacune, afin de faciliter la comparaison de l’état des choses actuel avec la situation du pays à des époques antérieures.])
+
+,(table
+(tr (tdCT :rowspan 3 [Désignation des communes.]) (tdCT :colspan 4 [Première période]) (tdCT :colspan 4 [Deuxième période]))
+(tr (tdCT :rowspan 2 [Naissances]) (tdCT :rowspan 2 [Décès]) (tdCT :colspan 2 [Excédants]) (tdCT :rowspan 2 [Naissances]) (tdCT :rowspan 2 [Décès]) (tdCT :colspan 2 [Excédants]))
+(tr (tdCT[de naissances.]) (tdCT[de décès.]) (tdCT[de naissances.]) (tdCT[de décès.]))
+(tr (td[,(hrule)]) (tdRT :colspan 4 [,(hrule)]) (tdRT :colspan 4 [,(hrule)]))
+(tr (td[Mugron]) (tdRT[1,175]) (tdRT[959]) (tdRT[216]) (tdRT[»]) (tdRT[949]) (tdRT[1,284]) (tdRT[»]) (tdRT[335]))
+(tr (td[Nerbis]) (tdRT[283]) (tdRT[229]) (tdRT[54]) (tdRT[»]) (tdRT[179]) (tdRT[267]) (tdRT[»]) (tdRT[88]))
+(tr (td[Laurède]) (tdRT[414]) (tdRT[287]) (tdRT[127]) (tdRT[»]) (tdRT[304]) (tdRT[333]) (tdRT[»]) (tdRT[29]))
+(tr (td[Gamarde]) (tdRT[611]) (tdRT[433]) (tdRT[178]) (tdRT[»]) (tdRT[545]) (tdRT[635]) (tdRT[»]) (tdRT[110]))
+(tr (td[Donzacq]) (tdRT[669]) (tdRT[362]) (tdRT[307]) (tdRT[»]) (tdRT[541]) (tdRT[531]) (tdRT[10]) (tdRT[»]))
+(tr (td[St-Geours]) (tdRT[492]) (tdRT[407]) (tdRT[85]) (tdRT[»]) (tdRT[404]) (tdRT[498]) (tdRT[»]) (tdRT[94]))
+(tr (td[Banos]) (tdRT[202]) (tdRT[175]) (tdRT[27]) (tdRT[»]) (tdRT[180]) (tdRT[155]) (tdRT[25]) (tdRT[»]))
+(tr (td[Baigts]) (tdRT[469]) (tdRT[303]) (tdRT[166]) (tdRT[»]) (tdRT[400]) (tdRT[367]) (tdRT[33]) (tdRT[»]))
+(tr (td[Lourquen]) (tdRT[172]) (tdRT[127]) (tdRT[45]) (tdRT[»]) (tdRT[176]) (tdRT[162]) (tdRT[14]) (tdRT[»]))
+(tr (td[Montaut]) (tdRT[548]) (tdRT[424]) (tdRT[124]) (tdRT[»]) (tdRT[464]) (tdRT[490]) (tdRT[»]) (tdRT[26]))
+(tr (td[Poyanne]) (tdRT[250]) (tdRT[225]) (tdRT[25]) (tdRT[»]) (tdRT[269]) (tdRT[273]) (tdRT[»]) (tdRT[4]))
+(tr (td[Hauriet]) (tdRT[291]) (tdRT[187]) (tdRT[104]) (tdRT[»]) (tdRT[224]) (tdRT[234]) (tdRT[»]) (tdRT[10]))
+(tr (td[Montfort]) (tdRT[702]) (tdRT[462]) (tdRT[240]) (tdRT[»]) (tdRT[638]) (tdRT[588]) (tdRT[50]) (tdRT[»]))
+(tr (td[Nousse]) (tdRT[159]) (tdRT[103]) (tdRT[56]) (tdRT[»]) (tdRT[137]) (tdRT[138]) (tdRT[»]) (tdRT[1]))
+(tr (td[St-Aubin]) (tdRT[432]) (tdRT[343]) (tdRT[89]) (tdRT[»]) (tdRT[404]) (tdRT[470]) (tdRT[»]) (tdRT[66]))
+(tr (td[]) (tdRT :colspan 4 [,(hrule)]) (tdRT :colspan 4 [,(hrule)]))
+(tr (td[,(sc[Totaux])]) (tdRT[6,869]) (tdRT[5,026]) (tdRT[1,843]) (tdRT[»]) (tdRT[5,814]) (tdRT[6,445]) (tdRT[132]) (tdRT[763]))
+)
+,(p*[Je supplie le lecteur de donner à ces chiffres l’attention la plus sérieuse. De 1814 à 1828, il y eut 6,869 naissances et 5,026 décès. La population était progressive, chaque 1,000 habitants donnant 33 naissances contre 24 décès.
 ][
 Mais de 1829 à 1843, les naissances sont tombées à 5,814 ou 27 1/2 par 1,000 habitants, et les décès se sont élevés à 6,445 ou 30 1/2, par 1,000 habitants.
 ][
 En sorte, et cela mérite attention, que cet état rétrograde de la population vinicole, que j’avais d’ailleurs constaté par les recensements, n’est pas l’œuvre de quarante ans, comme on aurait pu le croire, mais bien celle des quinze dernières années. Bien plus, pour que sa densité absolue ait diminué, il a fallu qu’elle perdît, par la mortalité ou l’émigration, non-seulement la différence accusée par les dénombrements de 1801 et 1843, mais encore tout ce qu’elle avait gagné pendant les vingt-cinq premières années de celle période. (Voir, au tome V, les pages 471 à 475.)
 ][
 C’est ainsi que les faits les mieux constatés viennent donner aux lois de la population, révélées par la science, leur lugubre consécration.
+][,(tag :a :name "malthus_ref")
+« Les obstacles à la population qui maintiennent le nombre des habitants au niveau de leurs moyens de subsistance, dit ,(np "malthus" [Malthus]), peuvent être rangés sous deux chefs : les uns agissent en ,(emph[prévenant]) l’accroissement de la population, et les autres en la ,(emph[détruisant]) à mesure qu’elle se forme. »
+][,(tag :a :name "senior_ref")
+Sur quoi ,(np "senior" [M. Senior]) fait cette réflexion :][
+« ,(np "malthus" [Malthus]) a divisé les obstacles à la population en ,(emph[préventifs]) et ,(emph[destructifs]). Les premiers diminuent le nombre des naissances, les seconds augmentent celui des décès ; et comme son calcul ne se compose que de deux éléments, la fécondité et la longévité, il n’y a pas de doute que sa division ne soit complète. »
 ][
-« Les obstacles à la population qui maintiennent le nombre des habitants au niveau de leurs moyens de subsistance, dit Malthus, peuvent être rangés sous deux chefs : les uns agissent en ,(emph[prévenant]) l’accroissement de la population, et les autres en la ,(emph[détruisant]) à mesure qu’elle se forme. »
-][
-Sur quoi M. Senior fait cette réflexion :][
-« Malthus a divisé les obstacles à la population en ,(emph[préventifs]) et ,(emph[destructifs]). Les premiers diminuent le nombre des naissances, les seconds augmentent celui des décès ; et comme son calcul ne se compose que de deux éléments, la fécondité et la longévité, il n’y a pas de doute que sa division ne soit complète. »
-][
-On s’est élevé dans ces derniers temps contre cette doctrine. On lui a reproché d’être triste, découragante. Il serait heureux, sans doute, que les moyens d’existence pussent diminuer, s’anéantir, sans que pour cela les hommes en fussent moins bien nourris, vêtus, logés, soignés dans l’enfance, la vieillesse et la maladie. Mais cela n’est ni vrai ni possible ; cela est même contradictoire. Je ne puis vraiment pas concevoir les clameurs dont Malthus a été l’objet. Qu’a donc révélé ce célèbre économiste ? Après tout, son système n’est que le méthodique commentaire de cette vérité bien ancienne et bien claire : quand les hommes ne peuvent plus se procurer, en suffisante quantité, les choses qui alimentent et soutiennent la vie, il faut nécessairement qu’ils diminuent en nombre ; et s’ils n’y pourvoient par la prudence, la souffrance s’en chargera.
+On s’est élevé dans ces derniers temps contre cette doctrine. On lui a reproché d’être triste, découragante. Il serait heureux, sans doute, que les moyens d’existence pussent diminuer, s’anéantir, sans que pour cela les hommes en fussent moins bien nourris, vêtus, logés, soignés dans l’enfance, la vieillesse et la maladie. Mais cela n’est ni vrai ni possible ; cela est même contradictoire. Je ne puis vraiment pas concevoir les clameurs dont ,(np "malthus" [Malthus]) a été l’objet. Qu’a donc révélé ce célèbre économiste ? Après tout, son système n’est que le méthodique commentaire de cette vérité bien ancienne et bien claire : quand les hommes ne peuvent plus se procurer, en suffisante quantité, les choses qui alimentent et soutiennent la vie, il faut nécessairement qu’ils diminuent en nombre ; et s’ils n’y pourvoient par la prudence, la souffrance s’en chargera.
 ][
 Nous voyons clairement agir cette loi dans notre Chalosse. Les métairies ne donnent plus les mêmes revenus, ou, en d’autres termes, les mêmes moyens d’existence ; aussitôt une prévoyance instinctive diminue le nombre des naissances. On réfléchit avant de se marier. Le père de famille comprend que le domaine ne peut plus faire vivre qu’un moindre nombre de personnes, et il recule le moment d’établir ses enfants ; ou bien ses exigences s’accroissent et rendent les unions plus difficiles, c’est-à-dire plus rares, et le nombre des célibataires s’augmente. C’est ainsi qu’une contrée qui présentait 33 naissances par 1,000 habitants n’en donne plus que 27.
 ][
-Cependant la prudence, ou ce que Malthus appelle l’obstacle préventif, ne suffit pas pour faire baisser la population aussi rapidement que les revenus ; il faut que l’obstacle répressif ou la mortalité vienne concourir à rétablir l’équilibre. Puisque l’abondance des choses a diminué, il faut qu’il y ait privation : la privation entraine la souffrance et la souffrance amène la mort. Les métairies sont moins productives ; par conséquent leur étendue, qui avait été calculée pour un autre ordre de choses, tend à augmenter ; de deux métairies on en fait une, ou de trois deux. Dans la seule commune de Mugron, vingt-neuf métairies ont été ainsi supprimées de nos jours ; ce sont autant de familles infailliblement vouées à une lente destruction. Enfin, ce qui reste a moins de moyens de se garantir contre la faim, le froid, l’humidité, la maladie ; la vie moyenne s’abrège, et en définitive, là où 1,000 habitants ne donnaient que 24 décès, ils en présentent 30 1/2.
+Cependant la prudence, ou ce que ,(np "malthus" [Malthus]) appelle l’obstacle préventif, ne suffit pas pour faire baisser la population aussi rapidement que les revenus ; il faut que l’obstacle répressif ou la mortalité vienne concourir à rétablir l’équilibre. Puisque l’abondance des choses a diminué, il faut qu’il y ait privation : la privation entraîne la souffrance et la souffrance amène la mort. Les métairies sont moins productives ; par conséquent leur étendue, qui avait été calculée pour un autre ordre de choses, tend à augmenter ; de deux métairies on en fait une, ou de trois deux. Dans la seule commune de Mugron, vingt-neuf métairies ont été ainsi supprimées de nos jours ; ce sont autant de familles infailliblement vouées à une lente destruction. Enfin, ce qui reste a moins de moyens de se garantir contre la faim, le froid, l’humidité, la maladie ; la vie moyenne s’abrège, et en définitive, là où 1,000 habitants ne donnaient que 24 décès, ils en présentent 30 1/2.
 ][
 Mais cette dépopulation, qui est bien l’,(emph[effet]) et le ,(emph[signe]) de la misère, en est-elle aussi la ,(emph[mesure ?]) Écoutons là-dessus les judicieuses observations de M. de Chastellux. — « Les subsistances sont la mesure de la population, dit-on ; si les subsistances diminuent, le nombre des hommes doit diminuer en même proportion. Il doit diminuer sans doute ; ,(emph[en même proportion,]) c’est une autre affaire, ou du moins ce n’est qu’au bout d’un très-long temps que cette proportion se trouve juste. Avant que la vie des hommes s’abrège, que les sources de la vie s’altèrent, il faut que la misère ait abattu les forces et multiplié les maladies. Lorsqu’elle s’empare d’une contrée, lorsque les subsistances diminuent d’une certaine quantité, d’un sixième, par exemple, il n’arrive pas qu’un sixième des habitants meure de faim ou s’exile ; mais ces infortunés consomment en général un sixième de moins. Malheureusement pour eux, la destruction ne suit pas toujours la misère, et la nature, plus économe que les tyrans, sait encore mieux à combien peu de frais les hommes peuvent subsister. Ils pourront encore être nombreux, mais ils seront faibles et malheureux… C’est alors qu’en prenant peu on enlève beaucoup. »
 ][
@@ -1533,35 +634,35 @@ Oui, l’idée qu’on se ferait de la détresse de la rive gauche de l’Adour 
 ][
 C’est alors, dit Chastellux, qu’en prenant peu on enlève beaucoup. C’est alors, dirai-je, qu’une répartition vicieuse et injuste, même pour des temps meilleurs, devient intolérable et monstrueuse.
 ][
-Les faits que j’ai établis sont incontestables. Mais je ne doute pas qu’on n’essaie d’ébranler la conclusion en niant ce principe, que la population varie comme les moyens d’existence. « Nous n’acquiesçons pas, pourra-t-on dire, à cette doctrine de Malthus. Dans la région des pins, nous sommes plus nombreux qu’autrefois, sans doute ; mais il ne s’ensuit pas que le revenu de nos forêts ait augmenté. Seulement il se partage entre un plus grand nombre de personnes. »
+Les faits que j’ai établis sont incontestables. Mais je ne doute pas qu’on n’essaie d’ébranler la conclusion en niant ce principe, que la population varie comme les moyens d’existence. « Nous n’acquiesçons pas, pourra-t-on dire, à cette doctrine de ,(np "malthus" [Malthus]). Dans la région des pins, nous sommes plus nombreux qu’autrefois, sans doute ; mais il ne s’ensuit pas que le revenu de nos forêts ait augmenté. Seulement il se partage entre un plus grand nombre de personnes. »
 ][
-Je me garderai bien de me livrer ici à de longues dissertations sur le principe de la population. Je sais qu’il soulève des questions qui sont encore controversées. Mais quant au principe lui-même, quant à cet axiome que l’augmentation de la population est l’effet, la preuve et le signe d’un accroissement correspondant de moyens d’existence ou ,(emph[de revenus]), je n’ai pas connaissance qu’il ait jamais été mis en doute par aucun publicisle de quelque valeur ; et je crois ne pouvoir mieux faire que de placer ma démonstration sous l’autorité d’un grand nombre d’écrivains, qui s’accordent tous sur ce point, quelle que soit d’ailleurs la divergence de leurs opinions et de leurs systèmes.
-][
-« Quel est le signe le plus certain que les hommes se conservent et prospèrent ? C’est leur nombre et leur population. » (Rousseau, ,(cite-title[Contrat social]), chap. ix.)
-][
-« Partout où il se trouve une place où deux personnes peuvent vivre commodément, il se fait un mariage. La nature y porte assez quand elle n’est pas arrêtée par ,(emph[la diffculté de la subsistance]). » (Montesquieu, ,(cite-title[Esprit des Lois]), liv. XXIII, chap. x.)
-][
-« A côté d’un pain il naît un homme. » (Buffon, ,(cite-title[Histoire naturelle]).) 
-][
-« Au bout d’un certain nombre d’années, la population d’un pays industrieux et commerçant se rapproche de la mesure des subsistances. » (Necker, ,(cite-title[de l’Administration des Finances]), chap. ix.)
+Je me garderai bien de me livrer ici à de longues dissertations sur le principe de la population. Je sais qu’il soulève des questions qui sont encore controversées. Mais quant au principe lui-même, quant à cet axiome que l’augmentation de la population est l’effet, la preuve et le signe d’un accroissement correspondant de moyens d’existence ou ,(emph[de revenus]), je n’ai pas connaissance qu’il ait jamais été mis en doute par aucun publiciste de quelque valeur ; et je crois ne pouvoir mieux faire que de placer ma démonstration sous l’autorité d’un grand nombre d’écrivains, qui s’accordent tous sur ce point, quelle que soit d’ailleurs la divergence de leurs opinions et de leurs systèmes.
+][,(tag :a :name "rousseau_ref")
+« Quel est le signe le plus certain que les hommes se conservent et prospèrent ? C’est leur nombre et leur population. » (,(np "rousseau" [Rousseau]), ,(cite-title[Contrat social]), chap. ,(sc[ix]).)
+][,(tag :a :name "montesquieu_ref")
+« Partout où il se trouve une place où deux personnes peuvent vivre commodément, il se fait un mariage. La nature y porte assez quand elle n’est pas arrêtée par ,(emph[la diffculté de la subsistance]). » (,(np "montesquieu" [Montesquieu]), ,(cite-title[Esprit des Lois]), liv. XXIII, chap. ,(sc[x]).)
+][,(tag :a :name "buffon_ref")
+« A côté d’un pain il naît un homme. » (,(np "buffon" [Buffon]), ,(cite-title[Histoire naturelle]).) 
+][,(tag :a :name "necker_ref")
+« Au bout d’un certain nombre d’années, la population d’un pays industrieux et commerçant se rapproche de la mesure des subsistances. » (,(np "necker" [Necker]), ,(cite-title[de l’Administration des Finances]), chap. ,(sc[ix]).)
 ][
 « Pour vivre il faut se nourrir, et comme tout accroissement a un terme, c’est là que la population s’arrête. » (Stewart, t. VI, p. 208.)
+][,(tag :a :name "bentham_ref")
+« La population est en raison des moyens de subsistance et des besoins. D’après ce principe, il y a un moyen d’augmenter la population, mais il n’y en a qu’un : c’est d’accroître la richesse nationale, ou, pour mieux dire, de la laisser s’accroître. » (,(np "bentham" [J. Bentham]), ,(cite-title[Théorie des peines et des récompenses]), liv. IV, chap. ,(sc[ix]).) ,(footnote*[Il est peut-être bon de faire observer que tous les auteurs cités jusqu’ici, y compris Chastellux et Bentham, avaient écrit avant l’apparition du livre de Malthus. ,(NdA)])
 ][
-« La population est en raison des moyens de subsistance et des besoins. D’après ce principe, il y a un moyen d’augmenter la population, mais il n’y en a qu’un : c’est d’accroître la richesse nationale, ou, pour mieux dire, de la laisser s’accroître. » (J. Bentham, ,(cite-title[Théorie des peines et des récompenses]), liv. IV, chap.ix.) ,(footnote*[Il est peut-être bon de faire observer que tous les auteurs cités jusqu’ici, y compris Chastellux et Bentham, avaient écrit avant l’apparition du livre de Malthus.])
-][
-« Le seul signe certain d’un accroissement réel et permanent de population est l’accroissement des moyens de subsistance. » (Malthus, liv. II, chap. xiii.)
+« Le seul signe certain d’un accroissement réel et permanent de population est l’accroissement des moyens de subsistance. » (,(np "malthus" [Malthus]), liv. II, chap. ,(sc[xiii]).)
 ][
 « La détresse influe prodigieusement sur les tables de la mortalité. En thèse générale, on peut dire que, dans notre espèce, il existe toujours des hommes autant et en proportion qu’ils savent et qu’ils peuvent se procurer des moyens de subsistance. »
-][
-Il est certain que l’augmentation du nombre des individus est une conséquence de leur bien-être. » (Destutt de Tracy, ,(cite-title[Commentaire de l’Esprit des Lois]), chap. xxii, liv. XXIII.)
-][
-« La population d’un pays n’est jamais bornée que par ses produits ; la production est la mesure de la population. » (J. B. Say, ,(cite-title[Cours d’économie politique]), 6e partie, chap. II.)
-][
-« Le revenu est la mesure de la subsistance et de l’aisance. Le revenu est la mesure de l’accroissement de la population pour la société comme pour la famille. » (Simonde de Sismondi, ,(cite-title[Études sur l’économie politique]), vol. II, p. 128.)
-][
-« La population croît naturellement à mesure que les ressources pour exister augmentent. » (Droz, ,(cite-title[Économie politique]), liv. III, chap. vi.)
-][
-« Tant que les moyens de vivre s’accroissent, la population se multiplie ; quand ils restent stationnaires, la population reste stationnaire ; aussitôt qu’ils diminuent, la population diminue dans la même proportion. » (Ch. Comte, vol. VII, pag. 6.)
+][,(tag :a :name "destutt_ref")
+« Il est certain que l’augmentation du nombre des individus est une conséquence de leur bien-être. » (,(np "destutt" [Destutt de Tracy]), ,(cite-title[Commentaire de l’Esprit des Lois]), chap. ,(sc[xxii]), liv. XXIII.)
+][,(tag :a :name "say_ref")
+« La population d’un pays n’est jamais bornée que par ses produits ; la production est la mesure de la population. » (,(np "say_jb" [J.-B. Say]), ,(cite-title[Cours d’économie politique]), 6,(sup[e]) partie, chap. ,(sc[ii]).)
+][,(tag :a :name "sismondi_ref")
+« Le revenu est la mesure de la subsistance et de l’aisance. Le revenu est la mesure de l’accroissement de la population pour la société comme pour la famille. » (,(np "sismondi" [Simonde de Sismondi]), ,(cite-title[Études sur l’économie politique]), vol. II, p. 128.)
+][,(tag :a :name "droz_ref")
+« La population croît naturellement à mesure que les ressources pour exister augmentent. » (,(np "droz" [Droz]), ,(cite-title[Économie politique]), liv. III, chap. ,(sc[vi]).)
+][,(tag :a :name "comte_ref")
+« Tant que les moyens de vivre s’accroissent, la population se multiplie ; quand ils restent stationnaires, la population reste stationnaire ; aussitôt qu’ils diminuent, la population diminue dans la même proportion. » (,(np "comte" [Ch. Comte]), vol. VII, pag. 6.)
 ][
 Qu’on me pardonne ce nombre inusité de citations ; j’ai cru ne pouvoir trop solidement établir un principe qui sert de base aux plaintes et aux réclamations de mon pays.
 ][
@@ -1570,7 +671,7 @@ Mais après tout, et science à part, soutiendrait-on sérieusement qu’il n’
 M. le Ministre de l’agriculture et du commerce a fait publier une statistique de la France. J’y ai relevé avec soin l’état de la consommation, dans chacun de nos trois arrondissements. Il est à regretter, sans doute, que nous ne puissions pas faire de semblables relevés pour chaque canton, et même pour chaque commune ; car plus nous arriverions à une circonscription qui présentât d’une manière tranchée une culture dominante, plus l’effet se rapprocherait de la cause. Quoi qu’il en soit, le tableau suivant suffit pour éclairer la question qui nous occupe. 
 ][
 encore un tableau
-CONSOMMATION PAR HABITANT ,(footnote*[Il va sans dire que je n’assume pas sur moi la responsabilité des faits statistiques consignés dans le document officiel.]).
+CONSOMMATION PAR HABITANT ,(footnote*[Il va sans dire que je n’assume pas sur moi la responsabilité des faits statistiques consignés dans le document officiel. ,(NdA)]).
 
 
 
@@ -2131,7 +1232,7 @@ Lorsque, par suite de la dépréciation des produits, cette part est devenue ins
 ][
 Dès ce moment, l’aliment du métayer a été pesé, mesuré, restreint au strict nécessaire. De plus, une tendance prononcée s’est manifestée vers l’agrandissement des métairies, ici des réunions se sont opérées ; là on a arraché des vignes pour agrandir les labourables. Tous ces expédients ont un résultat et même un but commun : ,(emph[diminuer le nombre d’hommes]), rétablir l’équilibre entre la population et les subsistances.
 ][
-Si cette évolution, avec les conséquences qu’elle entraine, avait pour cause quelque cataclysme physique, il faudrait gémir et baisser la tête. Mais il n’en est pas ainsi ; la Providence ne nous a pas retiré ses dons, le ciel de la Chalosse n’est pas devenu d’airain, le soleil et la rosée n’ont pas cessé de la féconder. Pourquoi donc ne peut-elle plus nourrir ses habitants ?
+Si cette évolution, avec les conséquences qu’elle entraîne, avait pour cause quelque cataclysme physique, il faudrait gémir et baisser la tête. Mais il n’en est pas ainsi ; la Providence ne nous a pas retiré ses dons, le ciel de la Chalosse n’est pas devenu d’airain, le soleil et la rosée n’ont pas cessé de la féconder. Pourquoi donc ne peut-elle plus nourrir ses habitants ?
 ][
 Il ne faut pas aller bien loin pour en trouver la raison. C’est qu’ils ont été dépouillés de la ,(emph[liberté d’échanger]), la plus immédiatement utile à l’homme après la ,(emph[liberté de travailler]).
 ][

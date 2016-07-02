@@ -7,6 +7,9 @@
 (sidebar [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/14/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 4, p. 14.])
+,(voiraussi[
+,(autolk "tarifs_francais_anglais" "liberte_du_commerce"), où Bastiat reproduit un extrait de cet article.
+])
 ])
 (bastiat[
 ,(date-tag[1844.])
@@ -41,7 +44,7 @@ L’Espagne même semblait comprendre que ses quinze provinces agricoles étaien
 ][
 Enfin la France se préparait à entrer dans le régime de la liberté par la transition des traités de commerce et de l’union douanière avec la Belgique.]))
 
-,(p*[Ainsi le travail humain allait être affranchi. Sur quelque point du globe que le sort les eût fait naître, les hommes allaient reconquérir le droit naturel d’échanger entre eux le fruit de leurs sueurs, et nous touchions au moment de voir se réaliser la sainte alliance des peuples.
+,(p*[,(tag :a :name "beranger_ref")Ainsi le travail humain allait être affranchi. Sur quelque point du globe que le sort les eût fait naître, les hommes allaient reconquérir le droit naturel d’échanger entre eux le fruit de leurs sueurs, et nous touchions au moment de voir se réaliser la sainte alliance des peuples ,(np "beranger" [*]).
 ][
 Comment la France s’est-elle laissé détourner de cette voie ? comment est-il arrivé que ses enfants, qui s’enorgueillissaient d’être les premiers de la civilisation, saisis tout à coup d’idées Napoléoniennes, aient embrassé la cause de l’isolement, de l’antagonisme des nations, de la spoliation des citoyens les uns par les autres, de la restriction au droit de propriété, en un mot de tout ce qu’il y a de barbarie au fond du Régime prohibitif ?
 ][
@@ -59,8 +62,8 @@ Nous devons donc admettre que notre mécanisme représentatif est organisé de t
 ][,(tag :a :name "mole_ref")
 Or le plus sûr moyen, en France, d’avilir le Pouvoir, c’est de le représenter comme traître, comme lâche, comme dévoué à l’étranger, comme oublieux de l’honneur national. Ce fut, contre ,(np "mole" [M. Molé]), la tactique de ,(np "guizot" [M. Guizot]) coalisé avec les légitimistes et les Républicains ; c’est, contre ,(np "guizot" [M. Guizot]), la tactique de ,(np "thiers" [M. Thiers]), coalisé avec les Républicains et les légitimistes. L’un se servait d’Ancône comme l’autre se sert de Taïti.
 ][
-Mais les oppositions ne se bornent pas à agir au sein des Chambres. Elles ont encore besoin d’entraîner à leurs vues l’opinion publique et le corps électoral. Les journaux de toutes les oppositions sont donc forcément amenés à travailler de concert, à exalter, à irriter, à égarer le sentiment national, à représenter la Patrie comme descendue, par l’œuvre du Ministère, au dernier degré d’avilissement et d’opprobre, et il faut avouer que notre susceptibilité nationale, les souvenirs de l’Empire, et l’Éducation ,(emph[toute Romaine]) qui a prévalu parmi nous, donnent à cette tactique parlementaire de grandes chances de succès.
-](nbsp)[
+Mais les oppositions ne se bornent pas à agir au sein des Chambres. Elles ont encore besoin d’entraîner à leurs vues l’opinion publique et le corps électoral. Les journaux de toutes les oppositions sont donc forcément amenés à travailler de concert, à exalter, à irriter, à égarer le sentiment national, à représenter la Patrie comme descendue, par l’œuvre du Ministère, au dernier degré d’avilissement et d’opprobre, et il faut avouer que notre susceptibilité nationale, les souvenirs de l’Empire, et l’Éducation ,(emph[toute Romaine]) qui a prévalu parmi nous, donnent à cette tactique parlementaire de grandes chances de succès. ,(footnote*[L’extrait reproduit dans ,(link "tarifs_francais_anglais" "De l’influence des tarifs français et anglais…" "liberte_du_commerce") commence ici.])
+](nbsp)[,(tag :a :name "etatdechoses")
 Cet état de choses étant donné, il est aisé de prévoir tout le parti qu’ont dû en tirer les Industries Privilégiées.
 ][
 Au moment où le Monopole allait être renversé et la libre communication des peuples graduellement fondée, que pouvait faire le privilége ? Perdre son temps à ériger le système de la Protection en corps de doctrine et opposer la ,(emph[théorie de la Restriction]) à la ,(emph[théorie du libre échange ?]) C’eût été une vaine entreprise ; sur le terrain d’une libre et loyale discussion l’Erreur a peu de chances contre la Vérité.

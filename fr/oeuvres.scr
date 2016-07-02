@@ -1,0 +1,42 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Œuvres de Bastiat")
+
+(document :title "Œuvres"
+	:author (author-FB)
+(other[
+
+,(p*[
+En travaux.
+])
+
+
+,(h5[Œuvres mises en vedette])
+,(itemize
+(item[,(cite-title(autolk "cqovecqonvp"))])
+(item[,(cite-title(ref :url "sophismes.html" [Sophismes économiques]))])
+(item[,(cite-title(ref :url "harmonies.html" [Harmonies économiques]))])
+(item[Pamphlets : ,(cite-title(autolk "propriete_et_loi")), ,(cite-title(autolk "justice_fraternite")), ,(cite-title(autolk "protectionisme_et_communisme")), ,(cite-title(autolk "maudit_argent"))])
+(item[,(cite-title(autolk "la_loi"))])
+)
+,(h5[Accès chronologique (à venir)])
+,(h5[Accès thématique (à venir)])
+
+,(h5[Accès par type d’œuvre])
+,(itemize
+(item(ref :url "correspondance.html" [Correspondance]))
+(item(ref :url "journaux.html" [Articles]))
+(item[Livres et brochures publiés de son vivant])
+(item[Documents liés à ses divers mandats])
+(item[Ébauches non publiées])
+)
+
+,(h5[Accès par source])
+,(itemize
+(item[Voir toutes les sources])
+(item(ref :url "guillaumin.html" [Sommaire des ,(cite-title[Œuvres complètes]) en 7 volumes, 1862]))
+)
+
+
+])
+(footer[]))

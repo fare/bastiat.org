@@ -11,7 +11,7 @@ du 3 juin 1850")
 (bastiat[
 ,(date-tag[Mugron, 3 juin 1850.])
 
-,(cher[,(say_h" [Mon cher ami]),])
+,(cher[,(np "say_h" [Mon cher ami]),])
 
 ,(p*[. . . . . . . . . . . . . . . . . . . . . . . . . . . . .]
 [,(tag :a :name "je_ref")Pourquoi avez-vous renfermé dans des limites si étroites l’excellente lettre que vous avez envoyée au dernier numéro du ,(cite-title[,(tj "je" [Journal des économistes]) ?]) En ce qui concerne les faits et les causes, elle est pleine de sagacité et décèle une expérience des affaires dont on nous reproche souvent, et avec quelque raison, de manquer. De tels articles satisfont toujours les lecteurs, et avancent les principes sans en parler. Vous devriez développer la pensée que vous ne faites qu’indiquer à la fin de votre lettre. Oui, par l’absence de spéculation, les céréales sont à un prix plus bas qu’elles ne devraient être, et il est infaillible qu’elles ne dépassent bientôt le taux normal. C’est la loi générale de l’action et de la réaction. La spéculation aurait rapproché les deux extrêmes d’une moyenne. Bien plus, elle aurait abaissé la moyenne elle-même, car elle aurait prévenu des gaspillages et des exportations imprudentes. Un travail de vous sur ce sujet serait fort utile tant au point de vue pratique qu’au point de vue scientifique. Sous ce dernier rapport, il dissiperait le funeste préjugé contre les ,(emph[intermédiaires]) et l’,(emph[accaparement]). Mettez-vous donc à l’œuvre.
@@ -23,7 +23,4 @@ Quoique je m’occupe peu de politique, j’ai pu me convaincre, avec douleur, q
 	,(oeuvres)
 	,(corresp)
 	,(say)
-])
-(with-footer (p*[
-Extrait de l’,(EO1854), tome VII, pp. 377-385. ,(XXX)
-])))
+]))

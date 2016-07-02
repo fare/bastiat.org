@@ -1,0 +1,91 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Préface
+	- par Prosper Paillottet")
+(document :title [Préface]
+	:author (author :name [Roger de Fontenay]
+			:url (ref :url =bo.url= =bo.url=))
+
+(bastiat[
+,(p*[
+J’ai exercé le droit de propriété sur les œuvres de Frédéric
+Bastiat, pour le compte d’une société de ses amis, formée peu de
+jours après sa mort, et, conformément à l’intention des sociétaires,
+dont je faisais partie, je l’ai exercé dans le but unique de
+favoriser la propagation de ses écrits. En 1851, parut la seconde
+édition des ,(cite-title[Harmonies,]) comprenant le complément que j’avais
+rapporté de Rome. En 1855, furent imprimées les œuvres complètes,
+en six volumes, dont les deux premiers ne sont qu’une réunion
+d’articles de journaux, d’opuscules et de lettres. Rien de ceci
+n’eût peut-être figuré dans un volume, du vivant de l’auteur, avec
+son consentement. Mais on comprend que des amis qui lui survivent ne
+se soient pas fait une loi d’être aussi modestes ou sévères pour lui
+qu’il l’eût été lui-même, et qu’au contraire sa disparition de ce
+monde leur ait imposé le devoir d’utiliser autant que possible ce
+qu’il y a laissé.
+][
+Quoi qu’il en soit, l’événement nous a donné raison : l’édition de
+1855 est épuisée, il faut une édition nouvelle.
+][
+Dans celle-ci, les amis de Bastiat n’ont plus à intervenir,
+puisqu’aux termes de la loi, depuis le 24 décembre 1860, leur
+propriété est tombée dans le domaine public. Cependant comme ils
+n’avaient vu, dans l’acquisition qu’ils avaient faite, qu’un moyen
+d’honorer la mémoire de leur ami et s’étaient interdit toute
+prétention à des avantages matériels, il arrive, en considération du
+désintéressement de leur zèle, qu’on veut bien admettre encore
+aujourd’hui leur représentant à se mêler de l’édition nouvelle, à la
+surveiller et à l’augmenter un peu.
+][
+Ma surveillance portera sur tous les volumes, à l’exception du
+second, qui se trouve déjà réimprimé au moment où j’entre en
+possession du droit de corriger les épreuves.
+][
+Avant de songer à augmenter, je m’étais demandé s’il n’était pas
+plus prudent de faire quelques retranchements. Je consultai à ce
+sujet un homme éminent, qui n’était pas de notre petite
+société — formée à la hâte, elle ne se composait que de
+compatriotes, — mais qui était, qui est resté un ami de Bastiat dans
+toute la force du terme. Voici ce que répondit M. Cobden.
+][
+« En vue de mon habitation, sur une hauteur qui l’avoisine, se trouve
+une plantation d’arbres qui ont besoin d’être éclaircis. Je
+m’entretins de cette nécessité, il y a quelques semaines, avec un
+voisin qui me dit à la fin de notre conversation : — Quand vous serez
+décidé à l’éclaircie, donnez plein pouvoir à un étranger de la
+faire, car, dans les dispositions où je vous vois, vous trouveriez
+de bonnes raisons pour sauver de la hache chacun de vos arbres. — Eh
+bien ! je suis dans les mêmes dispositions à l’égard des écrits de
+Bastiat, et je ne me résignerais pas aisément à en sacrifier une
+seule ligne. »
+][
+M. Cobden a raison et il m’ouvre les yeux, me dis-je ; le temps des
+étrangers n’est pas encore venu. Nous qui avons connu, aimé et
+admiré Bastiat, donnons-le tout entier ; la postérité choisira, s’il
+y a choix à faire. Et puisque j’ai recueilli, depuis 1855, d’autres
+fragments, d’autres articles de journaux, d’autres lettres, il faut
+que la nouvelle édition contienne, non pas un volume de moins, mais
+un volume de plus.
+][
+Ceci résolu, venait la question du classement des pièces inédites.
+Les distribuer, d’après leur nature, dans les divers volumes fut ma
+première idée. Je l’abandonnai, dans l’intérêt des acheteurs de
+l’édition de 1855, et me décidai à comprendre tout ce que j’avais
+d’inédit dans un volume supplémentaire. En se procurant ce volume,
+le septième, qui se vendra séparément, tout possesseur de la
+précédente édition aura Bastiat complet.
+][
+J’aurais voulu remercier ici quelques personnes pour l’assistance,
+les bons conseils et les encouragements qu’elles m’ont prodigués
+pendant le cours de ma tâche ; mais elles ne me le permettent pas, et
+toutes, M. de Fontenay en tête, me tiennent à peu près ce langage :
+Nous avons autant que vous le droit d’aimer Bastiat, nous en usons,
+et vous n’avez pas pour cela de remercîments à nous faire.
+][
+Puisqu’il en est ainsi, il ne me reste plus qu’à remercier Bastiat
+des excellents amis qu’il m’a donnés.])
+,(sign[P. Paillottet.])
+])
+(tous_les_scripts)
+(footer[])
+)

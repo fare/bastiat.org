@@ -103,15 +103,26 @@ Cette pagination est celle de l'édition de ,(id date).
 	    (error "foo"))))
      (map* C sommaire-db))))
 
-(document :title [,(OE*)uvres complètes de Frédéric Bastiat ,(br) ,(--)
-		 sommaire de l'édition Guillaumin]
-	:author (author :name (ref :url =bo.url=
-				   (font :size "+1" (tt =bo.url=))))
-
+(document
+(header[,(titre[Sommaire des ,(cite-title[Œuvres complètes])])
+,(auteur [Frédéric Bastiat])])
+(nbsp)
+(br)
+(nbsp)
 (sommaire[
+,(p :class "alphabet" [
+Tomes :
+,(ref :url "#1" [1]) —
+,(ref :url "#2" [2]) —
+,(ref :url "#3" [3]) —
+,(ref :url "#4" [4]) —
+,(ref :url "#5" [5]) —
+,(ref :url "#6" [6]) —
+,(ref :url "#7" [7]).
+])
 ,(table :width "100%" :cellpadding 10 (tr
 (tdLT (p*[
-Ceci est le sommaire de l'édition originale de 1862-64 en 7 volumes,
+Ceci est le sommaire de l'édition de 1862-64 en 7 volumes
 des ,(q(cite-title[,(bold[,(oe)uvres complètes de Frédéric Bastiat]),
 	mises en ordre,
 	revues et annotées d'après les manuscrits de l'auteur]))
@@ -140,14 +151,17 @@ sont de l'édition de 1862-1863,
 sauf pour le troisième tome qui est de l'édition de 1854,
 mais ce n'est pas grave, car pour ce tome,
 l'édition de 1863 a la même pagination.])
-Voir aussi le ,(leter-ref "Fr%8Ed%8Eric%20Bastiat%20sommaire"
-	[sommaire de l'édition Leter]),
-pour l'ordre chronologique, et
-pour quelques textes numérisés non encore disponibles sur ce site.
-][
-Rejoignez notre équipe et vous aussi participez à la
-	,(bof-ref "numerisation"
-	[numérisation des ,(oe)uvres complètes de Frédéric Bastiat])!
+]
+[
+,(itemize
+(item(ref :url "#1" [Tome I : Correspondance et mélanges]))
+(item(ref :url "#2" [Tome II : articles relatifs au Libre-Échange]))
+(item(ref :url "#3" [Tome III : Cobden et la Ligue]))
+(item(ref :url "#4" [Tome IV : Sophismes économiques — Petits pamphlets]))
+(item(ref :url "#5" [Tome V : Petits pamphlets]))
+(item(ref :url "#6" [Tome VI : Harmonies économiques]))
+(item(ref :url "#7" [Tome VII : Essais, ébauches, correspondance]))
+)
 ]))
 (tdLT
       (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))

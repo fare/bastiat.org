@@ -2710,12 +2710,4 @@ la condition de l’ordre.
 ,(p :class "noselect" [Ici, l’éditeur insère en complément l’ébauche intitulée ,(ref :url "liberte_egalite.html" [,(cite-title[Liberté, égalité])]).])
 ])
 (tous_les_scripts)
-(footer[,(oeuvres)])
-(with-footer
-(p*[
-Extrait de l’,(EO1863), tome IV, "Baccalauréat et socialisme", pp. 442-503.
-][
-Texte scanné par la ,(BNF),
-transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org).
-Relu par ,(fguerinet).
-])))
+(footer[,(oeuvres)]))

@@ -54,8 +54,8 @@ En vérité, j’ai été fort surpris que cela ait été contesté, car enfin�
 (Interruption.)
 ][
 ,(emph[Un membre à droite.]) Parlez un peu plus haut !
-][
-,(strong[M. le Président.]) J’invite l’Assemblée au silence.
+][,(tag :a :name "dupin_a_ref")
+,(strong[,(np "dupin_a" [M. le Président]).]) J’invite l’Assemblée au silence.
 ][
 ,(strong[M. F. Bastiat.])
 Je veux même abandonner cet argument pour aller plus vite.
@@ -103,7 +103,7 @@ Entre 11 et 41 fr :, la différence est de 30 fr.
 Ce n’est pas l’impôt qui fait cette différence ;
 il en est de même pour toutes les marchandises.
 ][,(tag :a :name "charencey_ref")
-,(strong[M. Le Président.])
+,(strong[,(np "dupin_a" [M. le Président]).])
 ,(np "charencey" [M. de Charencey]) a fait ses calculs, laissez l’orateur faire les siens.
 ][
 ,(strong[M. F. Bastiat])
@@ -488,7 +488,7 @@ de l’impôt en général.
 ,(emph[Voix nombreuses.])
 Parlez ! parlez !
 ][
-,(strong[M. le Président])
+,(strong[,(np "dupin_a" [M. le Président]).])
 Vous êtes dans la question.
 ][
 ,(strong[M. Bastiat.])
@@ -877,7 +877,7 @@ qui rendent des services très-réels.
 Je retire donc l’expression.
 (Rumeurs au pied de la tribune.).
 ][
-,(strong[M. le Président])
+,(strong[,(np "dupin_a" [M. le Président]).])
 Messieurs, gardez donc le silence ;
 vous n’êtes là qu’à la condition de garder le silence plus que tous les autres.
 ][

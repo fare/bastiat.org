@@ -232,15 +232,4 @@ Voir ,(bof-ref "balance_du_commerce" [la fin du tome V]).
 	,(oeuvres)
 	,(art_jde)
 	,(soph "greves_de_taxes.html" "petition.html")
-])
-(with-footer
-(p*[
-	Extrait de l’,(EO1862),
-	tome IV, ,(cite-title[Sophismes Économiques]),
-	,(Iere) série, chapitre VI, ,(cite-title[Balance du commerce]),
-	pp. 52-57.
-][
-Texte original scanné par la ,(BNF),
-mis en hypertexte par ,(krylenko),
-relu et édité par ,(FRR) pour ,(Bastiat.org).
-])))
+]))

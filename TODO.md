@@ -5,11 +5,13 @@ TODO
 
 - mettre une classe "externe" aux liens pointant vers une url extérieure
 
-Les priorités du jour
----------------------
+- supprimer le (hrule) avant les footnotes.
 
-- envelopper le h4 "Notes" et le hrule qui l'accompagne dans une div class ="footnotes" au pluriel (ou autre nom, peu importe) pour pouvoir les rendre invisibles quand les footnotes se transforment en sidenotes.
+Quand tu auras fait ce qui précède
+----------------------------------
+
 - purement cosmétique, mais tant qu'on y est: supprimer le align="justify" dans les p qui sont dans les footnotes (ça doit se régler par du css)
+
 - Comment faire pour que les appels de note ne soient pas renvoyés en début de ligne suivante? (qu'ils soient collés au mot précédent ou précédés d'un espace insécable, je n'arrive pas à les faire tenir)
 
 Textes
@@ -82,5 +84,6 @@ Trucs de Laura, par Laura et pour Laura
 ---------------------------------------
 
   * Ajouter tableaux dans: Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
+  impot_foncier_landes: liens vers "page truc", à faire
 
   * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)

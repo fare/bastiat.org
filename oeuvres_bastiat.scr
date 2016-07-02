@@ -1308,25 +1308,3 @@
 ))
 
 
-;;; Les super bases de données de Laura, déplacées parce que Exscribe les recompilait 600 fois...
-
-(define personnes-db
-  `((bastiat :nom "Bastiat" :prenom "Frédéric")
-    (calmetes :nom "Calmètes" :prenom "Victor")))
-;ajouter dates de naissance/mort, nationalités, etc.
-
-(define lieux-db
-  `((bayonne :nom "Bayonne")
-    (mugron :nom "Mugron")))
-;ajouter département, pays...
-
-(define journaux-db
-  `((jde :titre "Journal des Économistes")
-    (mb :titre "Mémorial bordelais")
-    (le :titre "Libre-Échange")
-    (eb :titre "L’Économiste belge")
-    (cf :titre "Courrier français")
-    (jd :titre "Journal des débats")
-    (sp :titre "Sentinelle des Pyrénées")
-    (rf :titre "La République française")
-    (jb :titre "Jacques Bonhomme")))
