@@ -44,13 +44,13 @@ que la science commençât par trébucher à ces écueils,
 plus, sans doute, on sera porté à ne voir dans cette délicate discussion
 que de stériles et oiseuses subtilités,
 bonnes tout au plus à satisfaire la curiosité des hommes du métier.
-][
+][,(tag :a :name "moliere_ref")
 Vous recherchez laborieusement, me dira-t-on,
 si la richesse est dans l’utilité des choses,
 ou dans leur valeur, ou dans leur rareté.
 N’est-ce pas une question, comme celle de l’école :
 la forme est-elle dans la substance ou dans l’accident ?
-Et ne craignez-vous pas qu’un Molière de carrefour
+Et ne craignez-vous pas qu’un ,(np "moliere" [Molière]) de carrefour
 ne vous expose aux risées du public des ,(emph[Variétés ?])
 ][
 Et cependant, je dois le dire :
@@ -2413,14 +2413,4 @@ mais en satisfaction réelle, s’accroît sans cesse ,(footnote*[
 (tous_les_scripts)
 (footer[
 	,(harmonies)
-])
-(with-footer
-(p*[
-Extrait de l’,(EO1863), tome VI, ,(HarmoniesEconomiques),
-chapitre V, ,(cite-title[De la valeur]), pp. 140-206.
-][
-Texte scanné par la ,(BNF),
-transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org),
-relu par ,(fguerinet).
-])
-))
+]))

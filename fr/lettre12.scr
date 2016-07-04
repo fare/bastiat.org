@@ -1063,15 +1063,4 @@ de flatter l’orgueil d’un noble c,(oe)ur.
 (footer[
 	,(oeuvres)
 	,(g_credit)
-])
-(with-footer
-(p*[
-Extrait de l’,(EO1863),
-tome V, ,(Gratuite_credit), ,(12eme) lettre. pp. 272-289.
-][
-Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
-][
-Numérisé par ,(GregB),
-relu et mis en hypertexte par ,(fguerinet)
-pour ,(Bastiat.org).
-])))
+]))

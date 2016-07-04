@@ -167,6 +167,10 @@ Lettres à Cobden :
 ,(autolk "lettre_schwabe1848a") et ,(autolk "lettre_schwabe1848e").
 ])
 
+,(person "anne" [
+,(autolk "introduction_cobden_ligue" "anne_ref").
+])
+
 ,(person "antonelle" [
 ,(autolk "baccalaureat_et_socialisme" "antonelle_ref").
 ])
@@ -214,6 +218,8 @@ Sous la plume de Proudhon : ,(cite-title[Gratuité du crédit,]) ,(link "lettre
 Article ,(autolk "de_la_concurrence" "cadmus_ref"),
 remanié et republié comme ch. 10 des ,(cite-title[Harmonies économiques :])
 ,(autolk "concurrence" "cadmus_ref").
+][
+Dans un discours de ,(np "bright" [John Bright]) : ,(autolk "ligue_19" "watt_ref").
 ])
 
 ,(person "arnault" [
@@ -224,15 +230,17 @@ remanié et republié comme ch. 10 des ,(cite-title[Harmonies économiques :])
 Discours de — : ,(cite-title[Cobden et la Ligue :]) ,(autolk "ligue_16").
 ][
 Allusions : ,(autolk "lettre_coudroy1845g" "ashworth_ref") ; ,(autolk "lettre_cobden1845d" "ashworth_ref").
+][
+,(autolk "ligue_11" "cobden_ref") ;
+,(autolk "ligue_31" "ashworth_ref").
+])
+
+,(person "arrivabene" [
+,(ref :url "lettres_comte_arrivabene.html" [Deux lettres à —])
 ])
 
 ,(person "attila" [
 ,(autolk "conclusion_eo_harmonies" "cyrus_ref") aux ,(cite-title[Harmonies économiques]).
-])
-
-
-,(person "arrivabene" [
-,(ref :url "lettres_comte_arrivabene.html" [Deux lettres à —])
 ])
 
 ,(person "audry" [
@@ -605,7 +613,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
 ,(ref :url "courrier_francais.html#bonaparte_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ,(ref :url "reforme_parlementaire.html#bonaparte_ref" [Réforme parlementaire]) ;
 ,(autolk "lettre_paillottet1850e" "bonaparte_ref") ;
-Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
+,(autolk "ligue_1" "bonaparte_ref") ;
+,(autolk "ligue_3" "bonaparte_ref") ;
+,(autolk "ligue_23" "bonaparte_ref") ;
+Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9]) ;
 ])
 
 ,(personne "bordogni" "Bordogni" "Marco" "1789-1856" [
@@ -640,7 +651,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "tarifs_francais_anglais.html#bowring_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "au_journal_de_lille.html#huskisson_ref" [Au ,(cite-title[Journal de Lille])]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
+,(autolk "ligue_23" "cobden_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ])
 
@@ -653,14 +666,28 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
 ,(ref :url "ligue_33.html#gibson_ref" [Deux Angleterre]) ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref"),
+,(autolk "lettre_coudroy1845d" "ashworth_ref"),
 ,(autolk "lettre_coudroy1846c" "bright_ref") ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_4" "bright_ref") ;
+,(autolk "ligue_7" "bright_ref") ;
+,(autolk "ligue_9" "bright_ref") ;
+,(autolk "ligue_10" "cobden_ref") ;
+,(autolk "ligue_11" "cobden_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
+,(autolk "ligue_19" "bright_ref") ;
 ,(autolk "ligue_22" "bright_ref") ;
 ,(autolk "ligue_24" "bright_ref") ;
 ,(autolk "ligue_26" "cobden_ref") ;
+,(autolk "ligue_28" "bright_ref") ;
+,(autolk "ligue_29" "bright_ref") ;
+,(autolk "ligue_31" "cobden_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ,(autolk "ligue_35" "villiers_ref") ;
+])
+
+,(personne "bright_t" "Bright" "Thomas" "" [
+,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
 ])
 
 ,(personne "brissot" "Brissot" "Jacques Pierre" "1754-1793" [
@@ -697,6 +724,16 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 
 ,(personne "buckingham" "Buckingham" "Richard Plantagenet etc., duc de" "1797-1861" [
 ,(ref :url "lettre_lamartine_2.html#bentinck_ref" [A M. de Lamartine]) ;
+,(autolk "ligue_1" "buckingham_ref") ;
+,(autolk "ligue_3" "buckingham_ref") ;
+,(autolk "ligue_4" "knatchbull_ref") ;
+,(autolk "ligue_7" "buckingham_ref") ;
+,(autolk "ligue_9" "buckingham_ref") ;
+,(autolk "ligue_11" "buckingham_ref") ;
+,(autolk "ligue_15" "buckingham_ref") ;
+,(autolk "ligue_18" "knatchbull_ref") ;
+,(autolk "ligue_20" "buckingham_ref") ;
+,(autolk "ligue_28" "buckingham_ref") ;
 ])
 
 ,(personne "buffet" "Buffet" "" "" [
@@ -732,7 +769,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ])
 
 ,(personne "burke" "Burke" "Edmund" "" [
-,(ref :url "incompatibilites_parlementaires.html#north_ref" [Incompatibilités parlementaires])
+,(ref :url "incompatibilites_parlementaires.html#north_ref" [Incompatibilités parlementaires]) ;
+,(autolk "ligue_9" "burke_ref") ;
+,(autolk "ligue_18" "smith_ref") ;
 ])
 
 ,(personne "bursotti" "Bursotti" "Giovanni" "?" [
@@ -746,7 +785,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(personne "byron" "Byron" "George Gordon, lord" "1788-1824" [
 ,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829]) ;
 ,(ref :url "nouveau_college.html#byron_ref" [D’un nouveau collége à fonder à Bayonne]) ;
-,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie])
+,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]) ;
+,(autolk "ligue_28" "byron_ref") ;
 ])
 
 ])
@@ -1035,14 +1075,30 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(autolk "lettre_cheuvreux1850m" "cobden_ref") ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref") ;
 ,(autolk "lettre_paulton" "cobden_ref") ;
+,(autolk "ligue_1" "cobden_ref") ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_3" "villiers_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_7" "cobden_ref") ;
+,(autolk "ligue_8" "fox_ref") ;
+,(autolk "ligue_9" "cobden_ref") ;
+,(autolk "ligue_10" "cobden_ref") ;
+,(autolk "ligue_11" "cobden_ref") ;
 ,(autolk "ligue_12" "cobden_ref") ;
+,(autolk "ligue_14" "cobden_ref") ;
+,(autolk "ligue_20" "cobden_ref") ;
 ,(autolk "ligue_22" "bright_ref") ;
+,(autolk "ligue_23" "cobden_ref") ;
 ,(autolk "ligue_24" "cobden_ref") ;
+,(autolk "ligue_25" "gibson_ref") ;
 ,(autolk "ligue_26" "cobden_ref") ;
 ,(autolk "ligue_27" "cobden_ref") ;
+,(autolk "ligue_28" "villiers_ref") ;
+,(autolk "ligue_31" "cobden_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ,(autolk "ligue_35" "villiers_ref") ;
+,(autolk "ligue_36" "cobden_ref") ;
+,(autolk "ligue_37" "cobden_ref") ;
 ])
 
 ,(personne "cobourg" "Cobourg" "Frédéric Josias de Saxe-Cobourg-Saalfeld, dit" "1737-1815" [
@@ -1203,6 +1259,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(ref :url "tarifs_francais_anglais.html#cubieres_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples])
 ])
 
+,(personne "cujas" "Cujas" "Jacques" "1522-1590" [
+,(autolk "capital" "cujas_ref")
+])
+
 ,(personne "cunin" "Cunin-Gridaine" "Laurent Cunin, dit" "1778-1859" [
 ,(ref :url "fisc_vigne.html#cunin_ref" [Le fisc et la vigne]) ;
 ,(ref :url "tarifs_francais_anglais.html#cunin_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples 1]), ,(ref :url "tarifs_francais_anglais.html#cunin_ref2" [2]) ;
@@ -1218,6 +1278,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(autolk "au_moniteur_industriel" "cunin_ref") ;
 ,(autolk "funestes_illusions" "cunin_ref") ;
 ,(autolk "sentinelle5" "cunin_ref") ;
+,(autolk "question_vinicole" "cunin_ref") ;
+,(autolk "question_conseils_generaux" "cunin_ref")
 ])
 
 ,(personne1nom "curius" "Marius Curius Dentatus" [† 270 av. J.-C.] [
@@ -1526,6 +1588,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(personne "duval" "Duval" "Raoul" "" [
 ,(ref :url "lettre_coudroy1845c.html#duval_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ])
+
+,(personne "dyer" "Dyer" "" "" [
+,(autolk "lettre_coudroy1845d" "dyer_ref") ;
+])
 	
 ]),(lettre "E" [
 
@@ -1570,16 +1636,22 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(personne1nom "euclide" "Euclide" "v. 300 av. J.-C." [
 ,(ref :url "responsabilite.html#aristote_ref" [Responsabilité]) ;
 ,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre])
-Sous la plume de Proudhon : ,(ref :url "lettre9.html#euclide_ref" [Lettre 9])
+Sous la plume de Proudhon : ,(ref :url "lettre9.html#euclide_ref" [Lettre 9]) ;
+Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ])
 
 ,(personne "euler" "Euler" "Leonhard" "1707-1783" [
 ,(ref :url "de_la_population.html#euler_ref" [De la population])
 ])
 
+,(personne "evans" "Evans" "" "" [
+,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
+])
+
 ,(personne "ewart" "Ewart" "William" "?" [
 ,(ref :url "taxe_unique.html#ewart_ref" [La taxe unique en Angleterre]) ;
 ,(ref :url "sentinelle8.html#ewart_ref" [Question des sucres en Angleterre]) ;
+,(autolk "ligue_3" "ewart_ref") ;
 ,(autolk "ligue_22" "ewart_ref") ;
 ])
 
@@ -1722,10 +1794,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 
 ,(personne "fox_cj" "Fox" "Charles James" "1749-1806" [
 ,(ref :url "incompatibilites_parlementaires.html#pitt_ref2" [Incompatibilités parlementaires])
-])
+]) ;
+,(autolk "ligue_25" "pitt_ref") ;
 
 ,(personne "fox_h" "Fox" "Henry" "1705-1774" [
-,(ref :url "incompatibilites_parlementaires.html#fox_ref" [Incompatibilités parlementaires])
+,(ref :url "incompatibilites_parlementaires.html#fox_ref" [Incompatibilités parlementaires]) ;
+,(autolk "ligue_23" "north_ref") ;
 ])
 
 ,(personne "fox" "Fox" "William Johnson" "1786-1864" [
@@ -1736,8 +1810,16 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref") ;
 ,(autolk "lettre_cobden1847a" "fox_ref") ;
+,(autolk "ligue_3" "fox_ref") ;
+,(autolk "ligue_8" "fox_ref") ;
+,(autolk "ligue_9" "fox_ref") ;
+,(autolk "ligue_11" "fox_ref") ;
+,(autolk "ligue_14" "hume_ref") ;
+,(autolk "ligue_23" "fox_ref") ;
 ,(autolk "ligue_24" "fox_ref") ;
+,(autolk "ligue_25" "gibson_ref") ;
 ,(autolk "ligue_26" "fox_ref") ;
+,(autolk "ligue_28" "bright_ref") ;
 ])
 
 ,(personne "foy" "Foy" "Maximilien Sébastien" "1775-1825" [
@@ -1760,7 +1842,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(personne "franklin" "Franklin" "Benjamin" "1706-1790" [
 ,(ref :url "lettre_coudroy1827a.html#franklin_ref" [Lettre à F. Coudroy, 9 avril 1827]) ;
 ,(ref :url "incompatibilites_parlementaires.html#washington_ref" [Incompatibilités parlementaires]) ;
-,(autolk "lettre12" "franklin_ref")
+,(autolk "lettre12" "franklin_ref") ;
+,(autolk "ligue_18" "smith_ref") ;
 ])
 
 ,(personne "frayssinous" "Frayssinous" "Denis" "1765-1841" [
@@ -1826,7 +1909,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (pl
 ])
 
 ,(personne1nom "georgesiii" "Georges III" "1738-1820" [
-,(ref :url "incompatibilites_parlementaires.html#georgesiii_ref" [Incompatibilités parlementaires])
+,(ref :url "incompatibilites_parlementaires.html#georgesiii_ref" [Incompatibilités parlementaires]) ;
+,(autolk "ligue_4" "georgesiii_ref") ;
 ])
 
 ,(personne "gerard" "Gérard" "Étienne Maurice" "1773-1852" [
@@ -1838,7 +1922,13 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (pl
 ,(ref :url "ligue_33.html#gibson_ref" [Deux Angleterre]) ;
 ,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_3" "fox_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_11" "gibson_ref") ;
+,(autolk "ligue_23" "gibson_ref") ;
 ,(autolk "ligue_24" "cobden_ref") ;
+,(autolk "ligue_25" "gibson_ref") ;
+,(autolk "ligue_31" "gibson_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ])
 
@@ -1891,7 +1981,10 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#girardin_ref" [Lettre 3]) ;
 
 ,(personne "graham" "Graham" "James" "1792-1861" [
 ,(ref :url "tarifs_francais_anglais.html#graham_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
-,(ref :url "introduction_cobden_ligue.html#graham_ref" [Introduction à Cobden et la Ligue])
+,(ref :url "introduction_cobden_ligue.html#graham_ref" [Introduction à Cobden et la Ligue]) ;
+,(autolk "ligue_4" "graham_ref") (note) ;
+,(autolk "ligue_14" "graham_ref") (note) ;
+,(autolk "ligue_31" "graham_ref") ;
 ])
 
 ,(personne "grandin" "Grandin" "Pierre" "1797-1849" [
@@ -1902,6 +1995,10 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#girardin_ref" [Lettre 3]) ;
 
 ,(personne "greppo" "Greppo" "Louis" "1810-1888" [
 ,(autolk "repression_coalitions" "hume_ref")
+])
+
+,(personne "gresset" "Gresset" "Jean-Baptiste" "1709-1777" [
+,(autolk "lettre_coudroy1845a" "gresset_ref")
 ])
 
 ,(personne "grivel" "Grivel" "Jean-Baptiste" "1778-1869" [
@@ -2036,7 +2133,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ])
 
 ,(personne "hickin" "Hickin" "Joseph" "?" [
-,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844])
+,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
+,(autolk "ligue_29" "hickin_ref") ;
 ])
 
 ,(personne "hill" "Hill" "Rowland" "1795-1879" [
@@ -2073,13 +2171,22 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "question_conseils_generaux.html#humann_ref" [Une question soumise aux conseils généraux… (note)])
 ])
 
+,(personne "hume_d" "Hume" "David" "1711-1776" [
+,(autolk "ligue_18" "smith_ref") ;
+])
+
 ,(personne "hume_jd" "Hume" "James Deacon" "1774-1842" [
 ,(ref :url "introduction_cobden_ligue.html#hume_ref" [Introduction à Cobden et la Ligue]) ;
+,(autolk "ligue_4" "porter_ref") (note) ;
+,(autolk "ligue_14" "hume_ref") ;
+,(autolk "ligue_29" "hume_jd_ref") ;
 ])
 
 ,(personne "hume" "Hume" "Joseph" "1777-1855" [
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
-,(autolk "repression_coalitions" "hume_ref")
+,(autolk "repression_coalitions" "hume_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_36" "hume_ref") ;
 ])
 
 ,(personne "hus" "Hus" "Jan" "1369-1415" [
@@ -2095,7 +2202,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "incompatibilites_parlementaires.html#huskisson_ref" [Incompatibilités parlementaires]) ;
 ,(ref :url "lettre_larnac.html#smith_ref" [De la réforme parlementaire]) ;
 ,(ref :url "discours_1.html#huskisson_ref" [Discours à Bordeaux]) ;
-,(ref :url "au_journal_de_lille.html#huskisson_ref" [Au ,(cite-title[Journal de Lille])])
+,(ref :url "au_journal_de_lille.html#huskisson_ref" [Au ,(cite-title[Journal de Lille])]) ;
+,(autolk "ligue_18" "knatchbull_ref") ;
+,(autolk "ligue_19" "huskisson_ref") ;
+,(autolk "ligue_37" "huskisson_ref") ;
 ])
 
 ]),(lettre "I" [
@@ -2159,6 +2269,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 
 ,(personne "knatchbull" "Knatchbull" "" "" [
 ,(autolk "lettre_cobden1846b" "knatchbull_ref") ;
+,(autolk "ligue_4" "knatchbull_ref") ;
+,(autolk "ligue_11" "buckingham_ref") ;
+,(autolk "ligue_18" "knatchbull_ref") ;
 ,(autolk "ligue_24" "peel_ref") ;
 ])
 
@@ -2182,7 +2295,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "lettre_coudroy1846c.html#lacave_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "douane_octroi.html#lacave_ref" [Le National]) ;
 ,(ref :url "lettre_larnac.html#lacave_ref" [De la réforme parlementaire]) ;
-,(autolk "lettre_coudroy1845f" "guizot_ref")
+,(autolk "lettre_coudroy1845f" "guizot_ref") ;
+,(autolk "question_conseils_generaux" "lacave_ref")
 ])
 
 ,(personne "lacaze" "Lacaze" "Joseph, Jacques, Margueritte, Bernard" "1798-1874" [
@@ -2228,6 +2342,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(autolk "lettre_cheuvreux1850f" "lafontaine_ref") ;
 ,(autolk "responsabilite" "lafontaine_ref") ;
 ,(autolk "lettre_cobden1846a" "lafontaine_ref") ;
+])
+
+,(personne "lajonkaire" "Lajonkaire" "Adolphe de" "" [
+,(autolk "communaux" "lajonkaire_ref")
 ])
 
 ,(personne "lakanal" "Lakanal" "Joseph" "1762-1845" [
@@ -2361,8 +2479,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(autolk "lettre_paillottet1850g" "molinari_ref")
 ])
 
-,(personne "lefranc" "Lefranc" "(?)" "?" [
-,(ref :url "lettre_domenger1848a.html" [Lettre à Domenger, 4 mars 1848])
+,(personne "lefranc" "Lefranc" "Victor" "?" [
+,(ref :url "lettre_domenger1848a.html" [Lettre à Domenger, 4 mars 1848]) ;
+,(autolk "communaux" "lefranc_ref")
 ])
 
 ,(personne "legendre" "Legendre" "Adrien-Marie" "1752-1833" [
@@ -2428,12 +2547,14 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#leroux_ref" [Lettre 11])
 ,(ref :url "separation_temporel_spirituel.html#louisphilippe_ref" [De la séparation du temporel et du spirituel]) ;
 ,(ref :url "incompatibilites_parlementaires.html#louisphilippe_ref" [Incompatibilités parlementaires]) ;
 ,(ref :url "organisation_et_liberte.html#louisphilippe_ref" [Organisation et liberté]) ;
-,(autolk "question_vinicole.html" "louisphilippe_ref")
+,(autolk "question_vinicole.html" "louisphilippe_ref") ;
+,(autolk "impot_foncier_landes" "nemours_ref")
 ])
 
 ,(personne "nemours" "Louis d’Orléans," "seizième duc de Nemours" "1814-1896" [
 ,(ref :url "lettre_coudroy1844a.html" [Lettre à F. Coudroy, 10 juillet 1844]) ;
-,(ref :url "lettre_dampierre.html#nemours_ref" [Lettre à M. Dampierre])
+,(ref :url "lettre_dampierre.html#nemours_ref" [Lettre à M. Dampierre]) ;
+,(autolk "impot_foncier_landes" "nemours_ref")
 ])
 
 ,(personne "lucullus" "Lucullus" "Lucius Licinius" "v. 115-57 av. J.-C." [
@@ -2465,6 +2586,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ,(personne "macgregor" "MacGregor" "John" "1797-1857" [
 ,(ref :url "sel_poste_douane.html#macgregor_ref" [Le sel, la poste, la douane]) ;
 ,(ref :url "introduction_cobden_ligue.html#macgregor_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
+,(autolk "ligue_4" "porter_ref") (note) ;
+,(autolk "ligue_9" "macgregor_ref") ;
 ])
 
 ,(personne "machiavel" "Machiavel" "Nicolas" "1469-1527" [
@@ -2556,10 +2679,15 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#proudhon_ref" [Lettre 11]
 ,(personne1nom "mehemetali" "Méhémet-Ali" "1769-1849" [
 ,(ref :url "metaphores.html#mehemetali_ref" [Métaphores]) ;
 Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
+,(autolk "ligue_20" "mehemetali_ref") ;
 ])
 
 ,(personne "melbourne" "Melbourne" "William Lamb, vicomte de" "1779-1848" [
 ,(ref :url "tarifs_francais_anglais.html#melbourne_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
+])
+
+,(personne "melon" "Melon" "Jean-François" "1675-1738" [
+,(autolk "richesse" "melon_ref")
 ])
 
 ,(personne "melun" "Melun" "Armand de" "1807-1877" [
@@ -2600,6 +2728,7 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ,(personne "miles" "Miles" "" "" [
 ,(ref :url "sentinelle8.html#peel_ref" [Question des sucres en Angleterre]) ;
 ,(autolk "ligue_22" "miles_ref") ;
+,(autolk "ligue_23" "miles_ref") ;
 ])
 
 ,(personne "mill" "Mill" "John Stuart" "1806-1873" [
@@ -2614,7 +2743,8 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ])
 
 ,(personne "milton" "Milton" "John" "" [
-,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie])
+,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]) ;
+,(autolk "ligue_3" "milton_ref") ;
 ])
 
 ,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
@@ -2630,7 +2760,8 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ,(ref :url "protectionisme_et_communisme.html#mimerel_ref" [Protectionisme et communisme]) ;
 ,(ref :url "spoliation_et_loi.html#mimerel_ref" [Spoliation et loi]) ;
 ,(ref :url "pdfe1849.html#blanc_ref" [Lettre à quelques électeurs]) ;
-,(ref :url "sentinelle7.html#mimerel_ref" [A M. le rédacteur en chef de ,(cite-title[la Presse])])
+,(ref :url "sentinelle7.html#mimerel_ref" [A M. le rédacteur en chef de ,(cite-title[la Presse])]) ;
+,(autolk "ligue_23" "presse_ref") ;
 ])])
 
 ,(personne1nom "minos" "Minos" "légendaire" [
@@ -2697,6 +2828,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "lettre_cheuvreux1850m.html#moliere_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) ;
 Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5]) ;
 ,(ref :url "lettre_cheuvreux1850b.html#matt_ref" [Lettre à Mme Cheuvreux, janvier 1850]) ;
+,(autolk "de_la_valeur" "moliere_ref") ;
 ])
 
 ,(personne "molinari" "Molinari" "Gustave de" "" [
@@ -2754,7 +2886,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 
 ,(personne "moore" "Moore" "" "" [
 ,(ref :url "introduction_cobden_ligue.html#moore_ref" [Introduction à Cobden et la Ligue]) ;
-,(autolk "lettre_coudroy1845g" "moore_ref")
+,(autolk "lettre_coudroy1845g" "moore_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_7" "moore_ref") ;
+,(autolk "ligue_10" "thompson_ref") ;
+,(autolk "ligue_11" "cobden_ref") ;
 ])
 
 ,(personne "more" "More" "Thomas" "1478-1535" [
@@ -2814,7 +2950,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(ref :url "capital.html#alphonse_ref" [Capital]) ;
 ,(ref :url "capital_et_rente.html#newton_ref" [Capital et rente]) ;
 ,(ref :url "metayage.html#malthus_ref" [Considérations sur le métayage]) ;
-,(autolk "lettre1" "newton_ref")
+,(autolk "lettre1" "newton_ref") ;
+Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ])
 
 ,(personne1nom "nicolas" [Nicolas I,(sup[er])] "1796-1855" [
@@ -2835,7 +2972,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ])
 
 ,(personne "north" "North" "Frederick" "1732-1792" [
-,(ref :url "incompatibilites_parlementaires.html#north_ref" [Incompatibilités parlementaires])
+,(ref :url "incompatibilites_parlementaires.html#north_ref" [Incompatibilités parlementaires]) ;
+,(autolk "ligue_23" "north_ref") ;
 ])
 
 ,(personne1nom "numa" "Numa Pompilius" "légendaire" [
@@ -2848,6 +2986,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 
 ,(personne "oconnell" "O’Connell" "Daniel" "1775-1847" [
 ,(ref :url "lettre_cobden1845d.html#oconnell_ref" [Lettre à Cobden, 13 décembre 1845]) ;
+,(autolk "ligue_14" "oconnell_ref") (note) ;
+,(autolk "ligue_15" "oconnell_ref") ;
+,(autolk "ligue_17" "oconnell_ref") ;
+,(autolk "ligue_20" "oconnell_ref") ;
 ])
 
 ,(personne "odier" "Odier" "Antoine" "1766-1853" [
@@ -2925,7 +3067,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(ref :url "lettre12.html#pascal_ref" [Lettre 12]) ;
 ,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ,(autolk "lettre1" "newton_ref") ;
-,(autolk "duels" "pascal_ref")
+,(autolk "duels" "pascal_ref") ;
+,(autolk "lettre_fonteyraud" "pascal_ref")
 ])
 
 ,(personne "passy" "Passy" "Hippolyte" "1793-1880" [
@@ -2941,7 +3084,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(link "lettre_paulton" "Lettre à —")
 ,(ref :url "lettre_cobden1846e.html#peel_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "lettre_cobden1846h.html#bright_ref" [Lettre à Cobden, 25 mai 1846]) ;
-,(autolk "lettre_cobden1846b" "paulton_ref")
+,(autolk "lettre_cobden1846b" "paulton_ref") ;
+,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
 ])
 
 ,(personne "pavee" "Pavée de Vendeuvre" "Guillaume Gabriel" "1779-1870" [
@@ -2985,9 +3129,26 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(autolk "lettre_paulton" "peel_ref") ;
 ,(autolk "lettre_coudroy1846c" "peel_ref") ;
 ,(autolk "lettre_cobden1846q" "peel_ref") ;
+,(autolk "ligue_1" "cobden_ref") ;
+,(autolk "ligue_3" "peel_ref") ;
+,(autolk "ligue_4" "peel_ref") ;
+,(autolk "ligue_7" "peel_ref") ;
+,(autolk "ligue_8" "peel_ref") ;
+,(autolk "ligue_9" "peel_ref") ;
+,(autolk "ligue_10" "peel_ref") ;
+,(autolk "ligue_11" "peel_ref") ;
 ,(autolk "ligue_12" "peel_ref") ;
+,(autolk "ligue_14" "peel_ref") ;
+,(autolk "ligue_15" "peel_ref") ;
+,(autolk "ligue_17" "peel_ref") ;
+,(autolk "ligue_18" "peel_ref") ;
+,(autolk "ligue_19" "peel_ref") ;
+,(autolk "ligue_20" "peel_ref") ;
 ,(autolk "ligue_22" "peel_ref") ;
+,(autolk "ligue_23" "peel_ref") ;
 ,(autolk "ligue_24" "peel_ref") ;
+,(autolk "ligue_25" "peel_ref") ;
+,(autolk "ligue_31" "peel_ref") ;
 ,(autolk "ligue_34" "peel_ref") ;
 ])
 
@@ -3025,6 +3186,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 
 ,(personne "petitti" "Petitti" "Carlo Ilarione" "1790-1850" [
 ,(ref :url "lettre_cobden1847c.html#bursotti_ref" [Lettre à Cobden, 20 avril 1847]) ;
+])
+
+,(personne "petty" "Petty" "William" "1623-1687" [
+,(autolk "richesse" "melon_ref")
 ])
 
 ,(personne1nom "peupin" "Peupin" "" [
@@ -3074,7 +3239,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#pieix_ref" [Lettre 9])
 ,(ref :url "incompatibilites_parlementaires.html#pitt_ref2" [Incompatibilités parlementaires]) ;
 ,(ref :url "anglomanie_anglophobie.html#walpole_ref" [Anglomanie, anglophobie]) ;
 ,(ref :url "ligue_33.html#pitt_ref" [Deux Angleterre]) ;
-,(autolk "lettre_cobden1846p" "pitt_ref")
+,(autolk "lettre_cobden1846p" "pitt_ref") ;
+,(autolk "ligue_25" "pitt_ref") ;
 ])
 
 ,(personne "pizarro" "Pizarro" "Francisco" "1475-1541" [
@@ -3129,7 +3295,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 
 ,(personne "porter" "Porter" "George Richardson" "1792-1852" [
 ,(ref :url "introduction_cobden_ligue.html#porter_ref" [Introduction à Cobden et la Ligue]) ;
-,(autolk "lettre_cobden1849c" "porter_ref")
+,(autolk "lettre_cobden1849c" "porter_ref") ;
+,(autolk "ligue_4" "porter_ref") (note) ;
 ])
 
 ,(personne "prince" "Prince-Smith" "John" "" [
@@ -3279,12 +3446,16 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(ref :url "lettre12.html#ricardo_ref" [Lettre 12]) ;
 ,(ref :url "lettre_journal_economistes.html#ricardo_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
 ,(ref :url "sentinelle3.html#turgot_ref" [Liberté commerciale, état de la question en Angleterre 1]),
-,(autolk "lettre_paillottet1850i" "fontenay_ref")
+,(autolk "lettre_paillottet1850i" "fontenay_ref") ;
+,(autolk "ligue_4" "smith_ref") ;
 ])
 
 ,(personne "ricardo_jl" "Ricardo" "John Lewis" "1812-1862" [
 ,(ref :url "sentinelle5.html#ricardo_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_3" "villiers_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_18" "ricardo_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ])
 
@@ -3306,6 +3477,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 
 ,(personne "roebuck" "Roebuck" "John Arthur" "1802-1879" [
 ,(ref :url "des_salaires.html#roebuck_ref" [Des salaires]) ;
+,(autolk "ligue_15" "peel_ref") ;
 ,(autolk "ligue_22" "bright_ref") ;
 ])
 
@@ -3370,6 +3542,7 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(ref :url "propriete_communaute.html#rousseau_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "questions_conseils_generaux.html#salluste_ref" [D’autres questions aux Conseils généraux]) ;
 ,(ref :url "services.html#rousseau_ref" [Services privés, services publics]) ;
+,(autolk "services" "rousseau_ref2")
 ,(ref :url "guerre.html#stmarc_ref" [Guerre]) (plusieurs fois) ;
 ,(ref :url "responsabilite.html#rousseau_ref" [Responsabilité]) ;
 ,(ref :url "solidarite.html#rousseau_ref" [Solidarité]) ;
@@ -3390,6 +3563,7 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ,(autolk "lettre_cheuvreux1849j" "rousseau_ref") ;
 ,(autolk "de_la_concurrence" "rousseau_ref") ;
+,(autolk "concurrence" "rousseau_ref") ;
 ,(autolk "impot_foncier_landes" "rousseau_ref") ;
 ])
 
@@ -3416,9 +3590,16 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(ref :url "sentinelle4.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
 ,(ref :url "sentinelle5.html#russell_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
 ,(ref :url "sentinelle8.html#russell_ref" [Question des sucres en Angleterre]) ;
+,(autolk "ligue_11" "peel_ref") ;
+,(autolk "ligue_14" "russell_ref") ;
+,(autolk "ligue_19" "russell_ref") (note) ;
 ,(autolk "ligue_22" "russell_ref") ;
+,(autolk "ligue_23" "russell_ref") ;
 ,(autolk "ligue_24" "russell_ref") ;
+,(autolk "ligue_31" "peel_ref") ;
 ,(autolk "ligue_34" "russell_ref") ;
+,(autolk "ligue_36" "hume_ref") ;
+,(autolk "ligue_37" "cobden_ref") ;
 ])
 
 ])
@@ -3562,6 +3743,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(autolk "lettre_coudroy1845f" "comte_ref") ;
 ,(autolk "lettre_paillottet1850i" "fontenay_ref") ;
 ,(autolk "impot_foncier_landes" "say_ref") ;
+,(autolk "ligue_20" "say_ref") ;
 ])
 
 ,(personne "say_l" "Say" "Léon" "1826-1896" [
@@ -3663,6 +3845,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 
 ,(personne "sibthorp" "Sibthorp" "Charles" "1783-1855" [
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
+,(autolk "ligue_11" "buckingham_ref") ;
 ])
 
 ,(personne "simiot" "Simiot" "Alexandre-Étienne" "1807-1879" [
@@ -3719,10 +3902,17 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
 ,(ref :url "sentinelle3.html#turgot_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(autolk "lettre_cobden1847b" "donato_ref") ;
-,(autolk "lettre_paillottet1850i" "fontenay_ref")
+,(autolk "lettre_paillottet1850i" "fontenay_ref") ;
+,(autolk "ligue_4" "smith_ref") ;
+,(autolk "ligue_9" "smith_ref") ;
+,(autolk "ligue_10" "smith_ref") ;
+,(autolk "ligue_18" "smith_ref") ;
+,(autolk "ligue_25" "smith_ref") ;
+,(autolk "ligue_28" "smith_ref") ;
 ])
 
 ,(personne "smith_jb" "Smith" "John Benjamin" "1794-1879" [
+,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
 ,(autolk "lettre_cobden1849a" "smith_jb_ref") ;
 ,(autolk "lettre_cobden1849b" "smith_jb_ref") ;
 ,(autolk "ligue_27") ;
@@ -3880,6 +4070,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "lettre_coudroy1845c.html#cobden_ref" [Lettre à Coudroy, 5 juin 1845]) ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref") ;
 ,(autolk "lettre_cobden1847a" "fox_ref") ;
+,(autolk "ligue_10" "cobden_ref") ;
+,(autolk "ligue_15" "oconnell_ref") ;
+,(autolk "ligue_17" "thompson_ref2") ;
+,(autolk "ligue_20" "thompson_ref") ;
+,(autolk "ligue_25" "gibson_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ,(autolk "ligue_35" "villiers_ref") ;
 ])
@@ -3888,8 +4083,14 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "1profit_2pertes.html#thompson_ref" [Un profit contre deux pertes]) ;
 ,(ref :url "introduction_cobden_ligue.html#moore_ref" [Introduction à Cobden et la Ligue]) ;
+,(autolk "ligue_1" "thompson_ref") ;
+,(autolk "ligue_4" "wilson_ref") ;
+,(autolk "ligue_10" "thompson_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
+,(autolk "ligue_17" "thompson_ref") ;
+,(autolk "ligue_31" "thompson_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
+,(autolk "ligue_36" "thompson_ref") ;
 ])
 
 ,(personne "thore" "Thoré" "Théophile" "1807-1869" [
@@ -3971,6 +4172,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "lettre_ecclesiastique.html#victoria_ref" [Lettre à un ecclésiastique]) ;
 ,(ref :url "question_religieuse.html#nicolas_ref" [La question religieuse]) ;
 ,(ref :url "introduction_cobden_ligue.html#victoria_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
+,(autolk "ligue_23" "victoria_ref") ;
 ])
 
 ,(personne "vidal" "Vidal" "François" "1812-1872" [
@@ -4007,7 +4209,19 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "sentinelle4.html#villiers_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
 ,(autolk "lettre_coudroy1845g" "villiers_ref"),
 ,(autolk "lettre_coudroy1846c" "bright_ref") ;
+,(autolk "ligue_1" "villiers_ref") ;
+,(autolk "ligue_3" "villiers_ref") ;
+,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_7" "villiers_ref") ;
+,(autolk "ligue_9" "villiers_ref") ;
+,(autolk "ligue_10" "thompson_ref") ;
+,(autolk "ligue_14" "wilson_ref") ;
+,(autolk "ligue_18" "villiers_ref") ;
+,(autolk "ligue_23" "fox_ref") ;
 ,(autolk "ligue_24" "villiers_ref") ;
+,(autolk "ligue_28" "villiers_ref") ;
+,(autolk "ligue_29" "villiers_ref") ;
+,(autolk "ligue_31" "villiers_ref") ;
 ,(autolk "ligue_35" "villiers_ref") ;
 ])
 
@@ -4021,11 +4235,17 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "organisation.html#virgile_ref" [Organisation naturelle, organisation artificielle]) : Mens agitat molem ;
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#virgile_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme]) ;
-,(ref :url "des_salaires.html#virgile_ref" [Des salaires])
+,(ref :url "des_salaires.html#virgile_ref" [Des salaires]) ;
+,(autolk "capital" "virgile_ref") ;
+,(autolk "introduction_cobden_ligue" "virgile_ref") ;
 ])
 
 ,(personne "vivien" "Vivien" "Alexandre-François" "1799-1854" [
 ,(ref :url "lettre_coudroy1848i.html#vivien_ref" [Lettre à F. Coudroy, 26 novembre 1848])
+])
+
+,(personne "volta" "Volta" "Alessandro" "1745-1827" [
+,(autolk "capital" "volta_ref")
 ])
 
 ,(personne "voltaire" "Voltaire" "François-Marie Arouet, dit" "1694-1778" [
@@ -4069,11 +4289,15 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ,(personne "watt" "Watt" "James" "1736-1819" [
 ,(ref :url "concurrence.html#cadmus_ref" [Concurrence]) ;
-,(ref :url "de_la_concurrence.html#cadmus_ref" [De la concurrence])
+,(ref :url "de_la_concurrence.html#cadmus_ref" [De la concurrence]) ;
+,(autolk "ligue_19" "watt_ref") ;
 ])
 
 ,(personne "wellington" "Wellington" "Arthur Wellesley, duc de" "1769-1852" [
 ,(autolk "traite_belge" "guizot_ref") ;
+,(autolk "ligue_8" "wellington_ref") ;
+,(autolk "ligue_14" "wellington_ref") ;
+,(autolk "ligue_23" "wellington_ref") ;
 ,(autolk "ligue_34" "wellington_ref") ;
 ])
 
@@ -4082,7 +4306,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ,(personne "wilberforce" "Wilberforce" "William" "1759-1833" [
-,(ref :url "anglomanie_anglophobie.html#clarkson_ref" [Anglomanie, anglophobie])
+,(ref :url "anglomanie_anglophobie.html#clarkson_ref" [Anglomanie, anglophobie]) ;
+,(autolk "ligue_20" "oconnell_ref") ;
 ])
 
 ,(personne "wilson_g" "Wilson" "George" "" [
@@ -4090,10 +4315,19 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref") ;
 ,(autolk "lettre_cobden1847b" "wilson_ref") ;
-Discours :
+,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
+,(autolk "ligue_1" "wilson_ref") ;
 ,(autolk "ligue_2" "cobden_ref") ;
+,(autolk "ligue_3" "villiers_ref") ;
+,(autolk "ligue_4" "wilson_ref") ;
+,(autolk "ligue_11" "wilson_ref") ;
+,(autolk "ligue_14" "wilson_ref") ;
+,(autolk "ligue_19" "wilson_ref") ;
+,(autolk "ligue_25" "wilson_ref") ;
+,(autolk "ligue_28" "wilson_ref") ;
+,(autolk "ligue_29" "wilson_ref") ;
+,(autolk "ligue_31" "wilson_ref") ;
 ,(autolk "ligue_34" "wilson_ref") ;
-Autres mentions dans la Ligue :
 ,(autolk "ligue_35") ;
 ])
 
@@ -4101,6 +4335,10 @@ Autres mentions dans la Ligue :
 ,(ref :url "lettre_cobden1846e.html#peel_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "cpe.html#wilson_ref" [Curieux phénomène économique]) ;
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
+,(autolk "ligue_3" "villiers_ref") ;
+,(autolk "ligue_15" "wilson_ref") ;
+,(autolk "ligue_19" "wilson_ref2") ;
+,(autolk "ligue_20" "wilson_ref") ;
 ])
 
 ,(personne "windham" "Windham" "" "" [
@@ -4139,6 +4377,10 @@ Autres mentions dans la Ligue :
 
 ,(personne "young" "Young" "Arthur" "1741-1820" [
 ,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
+])
+
+,(personne "young" "Young" "Edward" "1683-1765" [
+,(autolk "anglomanie_anglophobie" "milton_ref")
 ])
 
 ])

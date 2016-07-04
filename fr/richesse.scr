@@ -355,12 +355,12 @@ Mais pour pousser à la création de la ,(emph[richesse de valeur]),
 tous ces moyens, impôts, luxe, guerre, etc.,
 sont forcés de baisser pavillon devant une ressource beaucoup plus efficace :
 c’est l’incendie.
-][
+][,(tag :a :name "melon_ref")
 ,(q[C’est une grande source de richesses que de bâtir,
 parce que cela fournit des revenus aux propriétaires
 qui vendent des matériaux, aux ouvriers,
 et à diverses classes d’artisans et d’artistes.
-Melon cite le chevalier Petty,
+,(np "melon" [Melon]) cite ,(np "petty" [le chevalier Petty]),
 qui regarde comme ,(emph[profit de la nation])
 le travail pour le rétablissement des édifices de Londres
 après le fameux incendie qui consuma les deux tiers de la ville,
@@ -728,13 +728,4 @@ trouvé dans les papiers de l’auteur. ,(NdEEO)]).]))
 (tous_les_scripts)
 (footer[
 	,(harmonies)
-])
-(with-footer
-(p* [Extrait de l’,(EO1863), tome VI ,(HarmoniesEconomiques),
- chapitre VI. "Richesse", pp. 207-227.]
-    [Texte scanné par la ,(BNF),
-	transcrit par ,(frk.paris),
-	relu et mis en hypertexte par ,(FRR)
-	pour ,(Bastiat.org),
-	relu par ,(fguerinet).
-])))
+]))

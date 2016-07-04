@@ -39,9 +39,4 @@ Enfin, monsieur, depuis quelques jours que les électeurs se communiquent récip
 (footer [
 	,(oeuvres)
 	,(corresp)
-])
-(with-footer (p*[
-Extrait de l’,(EO1863), tome VII,
-,(cite-title[Lettre à un candidat]),
-pp. 298-299.
-])))
+]))

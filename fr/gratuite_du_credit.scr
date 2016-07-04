@@ -45,12 +45,4 @@
 ])
 (set! =bof.url= "http://bastiat.org/fr/")
 (tous_les_scripts)
-(footer[])
-(with-footer
-(p*[
-Extrait de l',(EO1863), tome V, ,(GratuiteCredit), pp. 94-335.
-][
-Préparé par ,(FRR) pour ,(Bastiat.org)
-avec l'aide de ,(XXX [ nombreux autres ,(bof-ref "numerisation" [numériseurs]): ])
-,(GregB).
-])))
+(footer[]))

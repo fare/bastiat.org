@@ -115,7 +115,9 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(ref :url "sentinelle5.html#commerce_ref" [Liberté commerciale, état de la question en Angleterre 3])
-,(ref :url "sentinelle6.html#commerce_ref" [Balance du commerce])
+,(ref :url "sentinelle6.html#commerce_ref" [Balance du commerce]) ;
+,(autolk "ligue_23" "presse_ref") ;
+,(autolk "ligue_25" "presse_ref") ;
 ])
 ])
 
@@ -309,6 +311,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_fonteyraud.html#ligue_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
 ,(autolk "lettre_coudroy1845g" "cobden_ref"),
 ,(autolk "lettre_coudroy1846c" "bright_ref")
+,(autolk "ligue_28" "ligue_ref") ;
 ])
 
 ]),(lettre "M" [
@@ -384,7 +387,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ])
 
 ,(journal "mc" "Morning Chronicle" [
-,(autolk "lettre_paulton")
+,(autolk "lettre_paulton") ;
+,(autolk "ligue_23" "mc_ref") ;
 ])
 
 ,(journal "mh" "Morning Herald" [
@@ -393,6 +397,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 
 ,(journal "morning" "Morning Post" [
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
+,(autolk "ligue_7" "stanhope_ref") ;
+,(autolk "ligue_25" "morning_ref") ;
 ])
 
 ]),(lettre "N" [
@@ -409,7 +415,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine]) ;
 ,(ref :url "exportation_numeraire.html" [Sur l’exportation du numéraire]) ;
 ,(ref :url "discours_7.html#national_ref" [Septième discours]) ;
-,(autolk "lettre_paillottet1850g" "molinari_ref")
+,(autolk "lettre_paillottet1850g" "molinari_ref") ;
+,(autolk "ligue_20" "national_ref") ;
 ])
 
 
@@ -480,7 +487,9 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(ref :url "sentinelle5.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
 ,(autolk "lettre_domenger1849h" "presse_ref") ;
-,(autolk "lettre_cobden1848h" "presse_ref")
+,(autolk "lettre_cobden1848h" "presse_ref") ;
+,(autolk "ligue_23" "presse_ref") ;
+,(autolk "ligue_25" "presse_ref") ;
 ])])
 
 ,(journal "punch" "The Punch" [
@@ -557,13 +566,17 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 
 ,(journal "standard" "Standard" [
 ,(ref :url "loi_des_cereales_salaire.html#mh_ref" [La loi des céréales et le salaire des ouvriers]) ;
+,(autolk "ligue_29" "standard_ref") ;
+,(autolk "ligue_31" "times_ref")
 ])
 
 ]),(lettre "T" [
 
 ,(journal "times" "Times" [
 ,(ref :url "armements_en_angleterre_1.html#times_ref" [Les armements en Angleterre]) ;
-,(autolk "lettre_paulton")
+,(autolk "lettre_paulton") ;
+,(autolk "ligue_29" "times_ref") ;
+,(autolk "ligue_31" "times_ref")
 ])
 
 ]),(lettre "V" [

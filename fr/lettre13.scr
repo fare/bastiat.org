@@ -1371,16 +1371,4 @@ vous êtes un homme mort.
 (footer[
 	,(oeuvres)
 	,(g_credit)
-])
-(with-footer
-(p*[
-Extrait de l’,(EO1863),
-tome V, ,(Gratuite_credit), ,(13eme) lettre.
-pp. 290-312.
-][
-Lire ,(bof-ref "gratuite_du_credit" [le reste de cette correspondance]).
-][
-Numérisé par ,(GregB),
-relu et mis en hypertexte par ,(fguerinet)
-pour ,(Bastiat.org).
-])))
+]))

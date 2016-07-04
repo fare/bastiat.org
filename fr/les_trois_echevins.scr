@@ -661,15 +661,4 @@ Ne pouvant plus vendre du bois et des aliments,
 (tous_les_scripts)
 (footer[
   ,(soph "sel_poste_douane.html" "autre_chose.html")
-])
-(with-footer
-(p*[
-Extrait de l’,(EO1863),
-tome IV, ,(SophismesEconomiques),
-seconde série, chapitre XIII,
-"Les trois échevins", pp. 229-241.
-][
-Numérisé, relu et édité par ,(FRR) pour ,(Bastiat.org),
-	grâce à la précieuse collaboration des webmestres de
-	,(ref :url "http://bastiat.de/" [Bastiat.de]) et de sa s,(oe)ur Véga.
-])))
+]))

@@ -574,8 +574,8 @@ et qui est faite pour étonner les propriétaires du continent,
 c’est l’absence presque totale d’,(emph[impôt foncier])
 dans un pays grevé d’une si lourde dette et d’une si vaste administration.
 ]
-[
-En 1706 (époque de l’Union, sous la reine Anne),]
+[,(tag :a :name "anne_ref")
+En 1706 (époque de l’Union, sous la ,(np "anne" [reine Anne])),]
 [
 ,(table 
 (tr (td[l’impôt foncier entrait dans le revenu public pour]) (tdRT[1,997,379]) (td[liv. st.]))
@@ -596,7 +596,7 @@ Et il faut considérer que, dans ce laps de temps,
 la rente des terres ou le revenu du propriétaire
 a augmenté dans la proportion de 1 à 7,
 en sorte que le même domaine
-qui, sous la reine Anne,
+qui, sous la ,(np "anne" [reine Anne]),
 acquittait 20 pour 100 de contributions sur le revenu,
 ne paye pas aujourd’hui 3 pour 100.
 ][
@@ -1689,7 +1689,7 @@ du royaume, saper l’influence aristocratique,
 attirer sur la corruption les châtiments de la loi et de l’opinion,
 telle est la nouvelle phase dans laquelle est entrée ,(emph[l’agitation])
 avec une énergie que les progrès semblent accroître.
-,(inlatin[Vires acquirit eundo.])
+,(tag :a :name "virgile_ref"),(inlatin[Vires acquirit eundo. ,(np "virgile" [*])])
 A la voix de ,(np "cobden" [Cobden]), de ,(np "bright" [Bright]) et de leurs amis,
 des milliers de ,(inenglish[free-traders])
 se font inscrire sur les listes électorales,
@@ -3336,19 +3336,4 @@ de toutes les régions, de tous les climats et de toutes les races.])
 	,(cobdenligue)
 	,(art_jde)
 	
-])
-
-(with-footer
-(p*[
-Extrait de l’,(EO1854), tome III, ,(cite-title[Cobden et la Ligue]),
-Introduction, pp. 1-80.
-][
-Texte scanné par la ,(BNF),
-	transcrit et mis en hypertexte par ,(FRR) pour ,(Bastiat.org),
-	sous les encouragements
-	de ,(ref :url "http://bastiat.de/" [Claus et Marianne Diem])
-	(voir aussi leur site
-	,(ref :url "http://richard-cobden.de/" [richard-cobden.de]))
-	et de ,(ref :url "http://bastiat.net/" [Jacques de Guenin]).
-])
-))
+]))
