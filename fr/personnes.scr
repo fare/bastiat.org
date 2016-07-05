@@ -232,6 +232,7 @@ Discours de — : ,(cite-title[Cobden et la Ligue :]) ,(autolk "ligue_16").
 Allusions : ,(autolk "lettre_coudroy1845g" "ashworth_ref") ; ,(autolk "lettre_cobden1845d" "ashworth_ref").
 ][
 ,(autolk "ligue_11" "cobden_ref") ;
+,(autolk "ligue_16" "ashworth_ref") ;
 ,(autolk "ligue_31" "ashworth_ref").
 ])
 
@@ -297,7 +298,9 @@ Simple allusion : ,(autolk "projet_preface_harmonies" "bacon_ref").
 ])
 
 ,(person "baring" [
-,(autolk "discours_1" "huskisson_ref").
+,(autolk "discours_1" "huskisson_ref") ;
+,(autolk "ligue_8" "baring_ref") ;
+,(autolk "ligue_9" "baring_ref") ;
 ])
 
 ,(person "barrot" [
@@ -652,9 +655,14 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "au_journal_de_lille.html#huskisson_ref" [Au ,(cite-title[Journal de Lille])]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
 ,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_5" "bowring_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
 ,(autolk "ligue_23" "cobden_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
+])
+
+,(personne "briggs" "Briggs" "John" "1785-1875" [
+,(autolk "ligue_20").
 ])
 
 ,(personne "bright" "Bright" "John" "1811-1889" [
@@ -670,12 +678,16 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "lettre_coudroy1846c" "bright_ref") ;
 ,(autolk "ligue_2" "cobden_ref") ;
 ,(autolk "ligue_4" "bright_ref") ;
+,(autolk "ligue_5" "cobden_ref") ;
+,(autolk "ligue_6" "bright_ref") ;
 ,(autolk "ligue_7" "bright_ref") ;
 ,(autolk "ligue_9" "bright_ref") ;
 ,(autolk "ligue_10" "cobden_ref") ;
 ,(autolk "ligue_11" "cobden_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
+,(autolk "ligue_13" "bright_ref") ;
 ,(autolk "ligue_19" "bright_ref") ;
+,(autolk "ligue_21" "cobden_ref") ;
 ,(autolk "ligue_22" "bright_ref") ;
 ,(autolk "ligue_24" "bright_ref") ;
 ,(autolk "ligue_26" "cobden_ref") ;
@@ -809,6 +821,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 
 ,(personne "calmetes" "Calmètes" "Adrien Victor" "1800-1871" [
 ,(ref :url "lettres_calmetes.html" [14 lettres à —])
+])
+
+,(personne "camden" "Camden" "William" "1551-1623" [
+,(autolk "ligue_19" "camden_ref")
 ])
 
 ,(personne "canning" "Canning" "" "" [
@@ -1079,14 +1095,19 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
 ,(autolk "ligue_3" "villiers_ref") ;
 ,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_5" "cobden_ref") ;
+,(autolk "ligue_6" "cobden_ref") ;
 ,(autolk "ligue_7" "cobden_ref") ;
 ,(autolk "ligue_8" "fox_ref") ;
 ,(autolk "ligue_9" "cobden_ref") ;
 ,(autolk "ligue_10" "cobden_ref") ;
 ,(autolk "ligue_11" "cobden_ref") ;
 ,(autolk "ligue_12" "cobden_ref") ;
+,(autolk "ligue_13" "cobden_ref") ;
 ,(autolk "ligue_14" "cobden_ref") ;
+,(autolk "ligue_16" "cobden_ref") ;
 ,(autolk "ligue_20" "cobden_ref") ;
+,(autolk "ligue_21" "cobden_ref") ;
 ,(autolk "ligue_22" "bright_ref") ;
 ,(autolk "ligue_23" "cobden_ref") ;
 ,(autolk "ligue_24" "cobden_ref") ;
@@ -1652,6 +1673,7 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ,(ref :url "taxe_unique.html#ewart_ref" [La taxe unique en Angleterre]) ;
 ,(ref :url "sentinelle8.html#ewart_ref" [Question des sucres en Angleterre]) ;
 ,(autolk "ligue_3" "ewart_ref") ;
+,(autolk "ligue_6" "ewart_ref") ;
 ,(autolk "ligue_22" "ewart_ref") ;
 ])
 
@@ -1925,6 +1947,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (pl
 ,(autolk "ligue_3" "fox_ref") ;
 ,(autolk "ligue_4" "villiers_ref") ;
 ,(autolk "ligue_11" "gibson_ref") ;
+,(autolk "ligue_21" "gibson_ref") ;
 ,(autolk "ligue_23" "gibson_ref") ;
 ,(autolk "ligue_24" "cobden_ref") ;
 ,(autolk "ligue_25" "gibson_ref") ;
@@ -2180,6 +2203,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(autolk "ligue_4" "porter_ref") (note) ;
 ,(autolk "ligue_14" "hume_ref") ;
 ,(autolk "ligue_29" "hume_jd_ref") ;
+,(autolk "ligue_30") ;
 ])
 
 ,(personne "hume" "Hume" "Joseph" "1777-1855" [
@@ -2271,6 +2295,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(autolk "lettre_cobden1846b" "knatchbull_ref") ;
 ,(autolk "ligue_4" "knatchbull_ref") ;
 ,(autolk "ligue_11" "buckingham_ref") ;
+,(autolk "ligue_16" "knatchbull_ref") ;
 ,(autolk "ligue_18" "knatchbull_ref") ;
 ,(autolk "ligue_24" "peel_ref") ;
 ])
@@ -2745,6 +2770,7 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ,(personne "milton" "Milton" "John" "" [
 ,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]) ;
 ,(autolk "ligue_3" "milton_ref") ;
+,(autolk "ligue_5" "shakespeare_ref") ;
 ])
 
 ,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
@@ -2884,13 +2910,15 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(ref :url "congres_paix.html#montaigne_ref" [Discours au Congrès de la Paix]) ;
 ])
 
-,(personne "moore" "Moore" "" "" [
+,(personne "moore" "Moore" "Robert" "" [
 ,(ref :url "introduction_cobden_ligue.html#moore_ref" [Introduction à Cobden et la Ligue]) ;
 ,(autolk "lettre_coudroy1845g" "moore_ref") ;
 ,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_5" "cobden_ref") ;
 ,(autolk "ligue_7" "moore_ref") ;
 ,(autolk "ligue_10" "thompson_ref") ;
 ,(autolk "ligue_11" "cobden_ref") ;
+,(autolk "ligue_21" "moore_ref") ;
 ])
 
 ,(personne "more" "More" "Thomas" "1478-1535" [
@@ -3132,6 +3160,7 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ,(autolk "ligue_1" "cobden_ref") ;
 ,(autolk "ligue_3" "peel_ref") ;
 ,(autolk "ligue_4" "peel_ref") ;
+,(autolk "ligue_5" "peel_ref") ;
 ,(autolk "ligue_7" "peel_ref") ;
 ,(autolk "ligue_8" "peel_ref") ;
 ,(autolk "ligue_9" "peel_ref") ;
@@ -3144,10 +3173,12 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ,(autolk "ligue_18" "peel_ref") ;
 ,(autolk "ligue_19" "peel_ref") ;
 ,(autolk "ligue_20" "peel_ref") ;
+,(autolk "ligue_21" "peel_ref") ;
 ,(autolk "ligue_22" "peel_ref") ;
 ,(autolk "ligue_23" "peel_ref") ;
 ,(autolk "ligue_24" "peel_ref") ;
 ,(autolk "ligue_25" "peel_ref") ;
+,(autolk "ligue_30" "peel_ref") ;
 ,(autolk "ligue_31" "peel_ref") ;
 ,(autolk "ligue_34" "peel_ref") ;
 ])
@@ -3836,7 +3867,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(personne "shakespeare" "Shakespeare" "William" "1564-1616" [
 ,(ref :url "a_la_jeunesse_francaise.html#shakespeare_ref" [A la jeunesse française]) ;
 ,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]) ;
-,(autolk "lettre_cheuvreux1849j" "shakespeare_ref")
+,(autolk "lettre_cheuvreux1849j" "shakespeare_ref") ;
+,(autolk "ligue_5" "shakespeare_ref") ;
 ])
 
 ,(personne "sheridan" "Sheridan" "" "" [
@@ -3869,6 +3901,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), 
 ,(ref :url "introduction_cobden_ligue.html#mignet_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "sentinelle3.html#turgot_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(autolk "impot_foncier_landes" "sismondi_ref") ;
+,(autolk "ligue_16" "sismondi_ref") (note) ;
 ])
 
 ,(personne1nom "sisyphe" "Sisyphe" "légendaire" [
@@ -4088,6 +4121,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(autolk "ligue_10" "thompson_ref") ;
 ,(autolk "ligue_12" "bowring_ref") ;
 ,(autolk "ligue_17" "thompson_ref") ;
+,(autolk "ligue_21" "cobden_ref") ;
 ,(autolk "ligue_31" "thompson_ref") ;
 ,(autolk "ligue_34" "cobden_ref") ;
 ,(autolk "ligue_36" "thompson_ref") ;
@@ -4212,6 +4246,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(autolk "ligue_1" "villiers_ref") ;
 ,(autolk "ligue_3" "villiers_ref") ;
 ,(autolk "ligue_4" "villiers_ref") ;
+,(autolk "ligue_6" "villiers_ref") ;
 ,(autolk "ligue_7" "villiers_ref") ;
 ,(autolk "ligue_9" "villiers_ref") ;
 ,(autolk "ligue_10" "thompson_ref") ;
@@ -4221,6 +4256,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(autolk "ligue_24" "villiers_ref") ;
 ,(autolk "ligue_28" "villiers_ref") ;
 ,(autolk "ligue_29" "villiers_ref") ;
+,(autolk "ligue_30" "villiers_ref") ;
 ,(autolk "ligue_31" "villiers_ref") ;
 ,(autolk "ligue_35" "villiers_ref") ;
 ])
@@ -4320,9 +4356,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(autolk "ligue_2" "cobden_ref") ;
 ,(autolk "ligue_3" "villiers_ref") ;
 ,(autolk "ligue_4" "wilson_ref") ;
+,(autolk "ligue_6" "wilson_ref") ;
 ,(autolk "ligue_11" "wilson_ref") ;
 ,(autolk "ligue_14" "wilson_ref") ;
 ,(autolk "ligue_19" "wilson_ref") ;
+,(autolk "ligue_21" "wilson_ref") ;
 ,(autolk "ligue_25" "wilson_ref") ;
 ,(autolk "ligue_28" "wilson_ref") ;
 ,(autolk "ligue_29" "wilson_ref") ;

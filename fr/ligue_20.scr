@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Séance du 22 mai 1844. — Présidence du général Briggs.")
 
-(document :title "Séance du 22 mai 1844. — Présidence du général Briggs."
+(document :title [Séance du 22 mai 1844. — Présidence du général ,(np "briggs" [Briggs]).]
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])

@@ -10,15 +10,15 @@
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/430/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 430.])
 ])
 (bastiat[
-,(h2[Interrogatoire de Jacques Deacon Hume, esq., ancien secrétaire du Board of trade, sur la loi des céréales, devant le comité de la Chambre des communes chargé de préparer le projet de loi relatif aux droits d'importation pour 1839.])
-,(epigraphe (p*[« Je trouve que M. Deacon Hume, cet homme éminent dont nous déplorons tous la perte, établit que la consommation de ce pays est d’un quarter de froment par personne. »]
-[Sir ,(strong[Robert Peel]) (séance du 9 février 1842).]))
+,(h2[Interrogatoire de ,(np "hume_jd" [Jacques Deacon Hume]), esq., ancien secrétaire du Board of trade, sur la loi des céréales, devant le comité de la Chambre des communes chargé de préparer le projet de loi relatif aux droits d'importation pour 1839.])
+,(epigraphe (p*[« Je trouve que ,(np "hume_jd" [M. Deacon Hume]), cet homme éminent dont nous déplorons tous la perte, établit que la consommation de ce pays est d’un quarter de froment par personne. »]
+[,(tag :a :name "peel_ref"),(np "peel" [Sir ,(strong[Robert Peel])]) (séance du 9 février 1842).]))
 ,(p*[
 ,(strong[Le Président]) : Pendant combien d’années avez-vous occupé des fonctions à la douane et au bureau du commerce ? — J’ai demeuré trente-huit ans dans la douane et ensuite onze ans au bureau du commerce.
 ][
 Vous vous êtes retiré l’année dernière ? — Il n’y a que quelques mois.
-][
-,(strong[M. Villiers]) : Qu’entendez-vous par le principe de la ,(emph[protection ?]) est-ce de soutenir un intérêt existant qui ne saurait se soutenir de lui-même ? — Oui ; elle ne peut servir de rien qu’à des industries qui sont naturellement en perte.
+][,(tag :a :name "villiers_ref")
+,(np "villiers" [,(strong[M. Villiers])]) : Qu’entendez-vous par le principe de la ,(emph[protection ?]) est-ce de soutenir un intérêt existant qui ne saurait se soutenir de lui-même ? — Oui ; elle ne peut servir de rien qu’à des industries qui sont naturellement en perte.
 ][
 Et ces industries peuvent-elles se soutenir si la communauté peut se pourvoir ailleurs à meilleur marché ? — Non, certainement, si la protection leur était nécessaire.
 ][
@@ -28,13 +28,13 @@ Avez-vous toujours pensé ainsi ? — J’ai toujours cru que l’augmentation 
 ][
 ,(strong[Le Président]) : Ainsi, vous pensez que tout droit protecteur opère comme une taxe sur la communauté ? — Oui, très-décidément.
 ][
-,(strong[M. Villiers]) : Pensez-vous qu’il imprime aussi une fausse direction au travail et aux capitaux ? — Oui, il les attire dans une industrie par un appui factice, qui à la fin peut être trompeur. Je me suis souvent étonné que des hommes d’État aient osé assumer sur eux la responsabilité d’une telle politique.
+,(np "villiers" [,(strong[M. Villiers])]) : Pensez-vous qu’il imprime aussi une fausse direction au travail et aux capitaux ? — Oui, il les attire dans une industrie par un appui factice, qui à la fin peut être trompeur. Je me suis souvent étonné que des hommes d’État aient osé assumer sur eux la responsabilité d’une telle politique.
 ][
 ,(strong[Le Président]) : Les droits protecteurs et les monopoles soumettent-ils les industries privilégiées à des fluctuations ? — Je pense qu’une industrie qui est arrachée par la protection à son cours naturel est plus exposée qu’une autre à de grandes fluctuations.
 ][
 ,(strong[M. Tufnell]) : Ainsi, vous croyez que, dans aucune circonstance, il n’est au pouvoir des droits protecteurs de conférer à la communauté un avantage général et permanent ? — Je ne le crois pas ; s’ils opèrent en faveur de l’industrie qu’on veut favoriser, ils pèsent toujours sur la communauté ; cette industrie reste en face du danger de ne pouvoir se soutenir par sa propre force, et la protection peut un jour être impuissante à la maintenir. La question est de savoir si l’on veut servir la nation ou un intérêt individuel.
 ][
-,(strong[M. Villiers]) : Avez-vous reconnu par expérience qu’une protection sert de prétexte pour en établir d’autres ? — Je crois que cela a toujours été l’argument des propriétaires fonciers. Ils ont, dans un grand nombre d’occasions, considéré la protection accordée aux manufactures comme une raison d’en accorder aux produits du sol...
+,(np "villiers" [,(strong[M. Villiers])]) : Avez-vous reconnu par expérience qu’une protection sert de prétexte pour en établir d’autres ? — Je crois que cela a toujours été l’argument des propriétaires fonciers. Ils ont, dans un grand nombre d’occasions, considéré la protection accordée aux manufactures comme une raison d’en accorder aux produits du sol…
 ][
 Plusieurs intérêts ne se font-ils pas un argument, pour réclamer la protection, de ce que la pesanteur des taxes et la cherté des moyens d’existence les empêchent de soutenir la concurrence étrangère ? — J’ai entendu faire ce raisonnement ; et non-seulement je le regarde comme mal fondé, mais je crois, de plus, que la vérité est dans la proposition contraire. Un peuple chargé d’impôts ne peut suffire à donner des protections ; un individu obligé à de grandes dépenses ne saurait faire des largesses.
 ][
@@ -46,7 +46,7 @@ Lorsque vous parlez de donner l’exemple à l’Europe, pensez-vous que, si l�
 ][
 Voulez-vous dire que nous devions abandonner la protection sans que l’étranger en fasse autant ? — Très-certainement, et sans même le lui demander. J’ai la plus entière confiance que, si nous renversions le régime protecteur, chacun des autres pays voudrait être le premier, ou du moins ne pas être le dernier, à venir profiter des avantages du commerce que nous leur aurions ouvert.
 ][
-,(strong[M. Villiers]) : Regardez-vous les représailles comme un dommage ajouté à celui que nous font les restrictions adoptées par les étrangers ? — Je les ai toujours considérées ainsi. Je répugne à tous traités en cette matière ; je voudrais acheter ce dont j’ai besoin, et laisser aux autres le soin d’apprécier la valeur de notre clientèle.
+,(np "villiers" [,(strong[M. Villiers])]) : Regardez-vous les représailles comme un dommage ajouté à celui que nous font les restrictions adoptées par les étrangers ? — Je les ai toujours considérées ainsi. Je répugne à tous traités en cette matière ; je voudrais acheter ce dont j’ai besoin, et laisser aux autres le soin d’apprécier la valeur de notre clientèle.
 ][
 ,(strong[Le Président]) : Ainsi, vous voudriez appliquer ce principe à l’ensemble des relations commerciales de ce pays ? — Oui, d’une manière absolue ; je voudrais que nos lois fussent faites en considération de nos intérêts, qui sont certainement de laisser la plus grande liberté à l’introduction des marchandises étrangères, abandonnant aux autres le soin de profiter ou de ne pas profiter de cet avantage, selon qu’ils le jugeraient convenable. Il ne peut pas y avoir de doute que si nous retirions une quantité notable de marchandises d’un pays qui protégerait ses fabriques, les producteurs de ces marchandises éprouveraient bientôt la difficulté d’en opérer les retours ; et, au lieu de solliciter nous-mêmes ces gouvernements d’admettre nos produits, nos avocats, pour cette admission, seraient dans leur propre pays. Il surgirait là des industries qui donneraient lieu, chez nous, à des exportations.
 ][
@@ -60,7 +60,7 @@ Vous pensez que les droits protecteurs agissent comme une taxe directe sur la co
 ][
 Vous avez souvent entendu établir que le peuple d’Angleterre, plus surchargé d’impôts que tout autre, ne pourrait soutenir la concurrence, en ce qui concerne le prix de la nourriture, si les droits protecteurs étaient abolis ? — J’ai entendu faire cet argument ; et il m’a toujours étonné, car il me semble que c’est précisément parce que le revenu public nous impose de lourdes taxes que nous ne devrions pas nous taxer encore les uns les autres.
 ][
-Vous pensez que c’est là une déception? — La plus grande déception qu’on puisse concevoir, c’est l’antipode même d’une proposition vraie.
+Vous pensez que c’est là une déception ? — La plus grande déception qu’on puisse concevoir, c’est l’antipode même d’une proposition vraie.
 ][
 (Le reste de cette enquête roule sur des effets particuliers de la loi des céréales et a moins d’intérêt pour un lecteur français. Je me bornerai à en extraire encore quelques passages d’une portée plus générale.)
 ][
@@ -86,7 +86,7 @@ Par conséquent, il a plus de peine à payer les contributions qu’exige le rev
 ][
 N’en résulte-t-il pas encore la souffrance, la restriction de l’industrie de notre pays ? — Je crois même que vous touchez là à l’effet le plus pernicieux. Il est moins accessible au calcul, mais si la nation jouissait du commerce que lui procurerait, selon moi, l’abolition de toutes ces protections, je crois qu’elle pourrait supporter aisément un accroissement d’impôts de 30 sh. par habitant.
 ][
-Ainsi, d’après vous, le poids du système protecteur excède celui des contributions ? — Je le crois, en tenant compte de ses effets directs et de ses conséquences indirectes, plus difficiles, à apprécier.
+Ainsi, d’après vous, le poids du système protecteur excède celui des contributions ? — Je le crois, en tenant compte de ses effets directs et de ses conséquences indirectes, plus difficiles à apprécier.
 ])])
 (tous_les_scripts)
 (footer[
