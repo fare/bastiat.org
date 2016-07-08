@@ -25,7 +25,8 @@
 ,(a :href :#r [R]) —
 ,(a :href :#s [S]) —
 ,(a :href :#t [T]) —
-,(a :href :#v [V])
+,(a :href :#v [V]) —
+,(a :href :#w [W])
 ]))
 
 (defun
@@ -75,7 +76,7 @@
 ,(journal "atelier" "L’Atelier" [
 ,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne]) ;
 ,(ref :url "du_communisme.html#atelier_ref" [Du communisme]) ;
-,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine]) ;
+,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine]) ;
 ,(ref :url "au_national.html#atelier_ref" [Au rédacteur en chef du ,(cite-title[National])]) ;
 ,(ref :url "reponse_atelier.html" [Réponse au journal l’,(cite-title[Atelier])])
 ])
@@ -83,11 +84,11 @@
 ]),(lettre "B" [
 
 ,(journal "bienpublic" "Le Bien public" [
-,(ref :url "lettre_lamartine_2.html#bienpublic_ref" [A M. de Lamartine])
+,(ref :url "lettre_lamartine_2.html#bienpublic_ref" [À M. de Lamartine])
 ])
 
 ,(journal "boston" "Boston Atlas" [
-Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en chef de la Presse])
+Citation : ,(ref :url "a_la_presse.html#boston_ref" [À M. le rédacteur en chef de la Presse])
 ])
 
 ,(journal "lion" "British Lion" [
@@ -118,6 +119,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "sentinelle6.html#commerce_ref" [Balance du commerce]) ;
 ,(autolk "ligue_23" "presse_ref") ;
 ,(autolk "ligue_25" "presse_ref") ;
+,(autolk "lettre_coudroy1825" "commerce_ref")
 ])
 ])
 
@@ -126,7 +128,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "generalites.html#constitutionnel_ref" [Sur les généralités])
 ,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)]) ;
 ,(ref :url "liberte_commerciale.html#constitutionnel_ref" [Liberté commerciale]) ;
-,(ref :url "courrier_francais.html#constitutionnel_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
+,(ref :url "courrier_francais.html#constitutionnel_ref" [À M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
 ])
@@ -146,7 +148,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ,(ref :url "lettre_cobden1846m.html#courrier_ref" [Lettre à Cobden, 22 octobre 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#courrier_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "courrier_francais.html" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
+,(ref :url "courrier_francais.html" [À M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "lettre_cobden1846a.html#mg_ref" [Lettre à Cobden, 13 janvier 1846]) ;
 ])])
@@ -174,7 +176,7 @@ Citation : ,(ref :url "a_la_presse.html#boston_ref" [A M. le rédacteur en che
 ])
 
 ,(journal "epoque" "L’Époque" [
-,(p*[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [A M. le rédacteur de L’Époque]) ;
+,(p*[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [À M. le rédacteur de L’Époque]) ;
 ,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge])])
 ])
 
@@ -239,7 +241,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "lettre_saulnier.html" [Lettre à M. Saulnier]) ;
 ,(ref :url "libre_entree_subsistances.html#debats_ref" [Subsistances]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "courrier_francais.html#constitutionnel_ref" [A M. le rédacteur du ,(cite-title[Courrier français])]) ;
+,(ref :url "courrier_francais.html#constitutionnel_ref" [À M. le rédacteur du ,(cite-title[Courrier français])]) ;
 ,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "lettre_coudroy1845a.html#debats_ref" [Lettre à Coudroy, mai 1845]) ;
 ,(ref :url "lettre_cheuvreux1850a.html#debats_ref" [Lettre à Mme Cheuvreux, 2 janvier 1850]) ;
@@ -412,7 +414,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(ref :url "douane_octroi.html" [Le National]) ;
 ,(ref :url "monde_renverse.html#debats_ref" [Le monde renversé]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine]) ;
+,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine]) ;
 ,(ref :url "exportation_numeraire.html" [Sur l’exportation du numéraire]) ;
 ,(ref :url "discours_7.html#national_ref" [Septième discours]) ;
 ,(autolk "lettre_paillottet1850g" "molinari_ref") ;
@@ -454,8 +456,8 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(journal "presse" "La Presse" [
 ,(p*
 [Lettre adressée à l’ — :
-,(ref :url "sentinelle7.html" [A M. le rédacteur en chef de ,(cite-title[la Presse])])
-,(ref :url "a_la_presse.html" [A M. le rédacteur en chef de la Presse I]),
+,(ref :url "sentinelle7.html" [À M. le rédacteur en chef de ,(cite-title[la Presse])])
+,(ref :url "a_la_presse.html" [À M. le rédacteur en chef de la Presse I]),
 ,(ref :url "a_la_presse2.html" [II])]
 [Réponses :
 ,(ref :url "ligues_anglaise_allemande.html" [La Ligue anglaise et la Ligue allemande]) ;
@@ -535,7 +537,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ])
 
 ,(journal "revuenat" "Revue nationale" [
-,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine])
+,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine])
 ])
 
 ,(journal "ruche" "La Ruche populaire" [
@@ -559,7 +561,7 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(journal "siecle" "Le Siècle" [
 ,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "conseil_general_seine.html#siecle_ref" [A MM. les membres du Conseil général de la Seine]) ;
+,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine]) ;
 ,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
 ])
@@ -586,6 +588,12 @@ Allusions : ,(ref :url "lettre_cobden1846e.html#jd_ref" [Lettre à Cobden, 25 m
 ,(autolk "lettre_coudroy1849e" "vp_ref") ;
 ,(autolk "lettre_paillottet1850a" "je_ref") ;
 ,(autolk "lettre_domenger1849k" "proudhon_ref") ;])
+])
+
+]),(lettre "W" [
+
+,(journal "wr" "Westminster Review" [
+,(autolk "ligue_1" "wr_ref").
 ])
 
 ])

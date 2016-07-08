@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "A M. le rédacteur en chef du National, par Frédéric Bastiat")
+(in-bof :title "À M. le rédacteur en chef du National, par Frédéric Bastiat")
 
-(document :title [A M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
+(document :title [À M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

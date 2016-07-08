@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre à la Presse")
 
-(document :title [A M. le rédacteur en chef de ,(tj "presse" [,(cite-title[la Presse])])]
+(document :title [À M. le rédacteur en chef de ,(tj "presse" [,(cite-title[la Presse])])]
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])

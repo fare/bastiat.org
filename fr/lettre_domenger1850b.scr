@@ -10,8 +10,8 @@ du 22 mars 1850")
 ])
 (bastiat[
 ,(date-tag[Paris, le 22 mars 1850.])
-,(p*[
-J’ai lieu de croire que le décret qui autorise l’échange d’immeubles de l’hospice de Mugron arrivera à la préfecture des Landes le jour où cette lettre vous parviendra. Je me suis assuré que le Président de la République l’a signé ; que le secrétariat du ministère de l’Intérieur en a fait donner l’ampliation, et que le bureau des hospices se tient prêt. — Le reste vous regarde.
+,(p*[,(tag :a :name "bonaparte_ref")
+J’ai lieu de croire que le décret qui autorise l’échange d’immeubles de l’hospice de Mugron arrivera à la préfecture des Landes le jour où cette lettre vous parviendra. Je me suis assuré que ,(np "bonaparte_ln" [le Président de la République]) l’a signé ; que le secrétariat du ministère de l’Intérieur en a fait donner l’ampliation, et que le bureau des hospices se tient prêt. — Le reste vous regarde.
 ][,(tag :a :name "proudhon_ref")
 Il y a déjà deux ou trois jours que j’ai donné l’ordre à mon éditeur de vous expédier trois exemplaires de ,(ref :url "gratuite_du_credit.html" [ma discussion]) avec ,(np "proudhon" [Proudhon]), et trois de mon discours sur l’enseignement, dégénéré en brochure ; car mon rhume est devenu extinction de voix. — Ce n’est certes pas que je veuille vous faire avaler ,(emph[trois fois]) ces élucubrations ; mais je vous prie de donner de ma part un exemplaire de chaque à ,(np "coudroy" [Félix]) et à Justin.
 ][

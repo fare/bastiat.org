@@ -6,11 +6,11 @@
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/journaldeseonom65parigoog#page/n253/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 10, p. 211.]
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom65parigoog#page/n655/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 10, p. 211.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/406/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 406.])
 ])
 (bastiat[
-,(h3 [A l’occasion de son écrit intitulé : ,(br)
+,(h3 [À l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])
 	,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1845.])
 	,(cher[,(np "lamartine" [Monsieur]),])
@@ -167,7 +167,7 @@ elle a rallié autour de la même foi
 ,(np "bentham" [Bentham]), 
 ,(np "senior" [Senior]), 
 ,(np "cobden" [Cobden]), 
-,(np "thompson_tp" [Thompson]),
+,(np "thompson_g" [Thompson]),
 ,(np "huskisson" [Huskisson]), 
 ,(np "peel" [Peel]), 
 ,(np "destutt" [Destutt de Tracy]), 
@@ -255,7 +255,7 @@ des souvenirs de la Convention,
 des entrailles de la philanthropie
 et des rêves anticipés d’une époque entièrement idéale.
 C’est celle qui,
-prophétisant aux masses l’avènement du Christ industriel (Fourier),
+prophétisant aux masses l’avènement du Christ industriel (,(np "fourier" [Fourier])),
 les appelle à la religion de l’association,
 substitue ce principe de l’association par le travail
 à tous les autres principes, à tous les autres instincts,
@@ -561,7 +561,7 @@ Je me ferai mieux comprendre en abordant quelques détails.
 ][
 Vous reprochez à l’école ,(emph[libérale]) d’être cruelle,
 et dès lors vous empruntez à l’école arbitraire
-la ,(q[chaleur de sa charité]).
+la ,(q[chaleur de sa charité.])
 ,(--) Voilà la généralité, voici l’application.
 ])
 ,(liste(p*[Vous accusez les économistes d’,(emph[interdire le mariage]),
@@ -647,7 +647,7 @@ mais encore à celle de la ,(emph[solidarité ;])
 et c’est pour cela que les économistes s’attachent
 à exposer toutes les conséquences fatales
 de la multiplication désordonnée des êtres humains,
-afin que l’opinion intervienne avec son action toute puissante,
+afin que l’opinion intervienne avec son action toute-puissante,
 car ils croient sincèrement que, contre ce terrible phénomène,
 la société n’a que cette alternative, la prévoyance ou la souffrance.])
 ][
@@ -682,7 +682,7 @@ elle perdra sa moralité,
 il n’y aura plus rien en elle qui l’explique et la justifie,
 et c’est alors que l’homme pourra sans blasphémer
 dire à l’auteur des choses :
-,(q[A quoi sert le mal sur la terre, puisqu’il n’a pas de cause finale ?])
+,(q[À quoi sert le mal sur la terre, puisqu’il n’a pas de cause finale ?])
 ][
 On peut faire sur la charité les mêmes remarques.
 D’abord, jamais la science économique
@@ -792,7 +792,7 @@ puisait par-dessous de quoi verser par-dessus ;
 ou comme un médecin qui, pour donner des forces au malade,
 introduirait dans le bras droit le sang qu’il aurait tiré au bras gauche.
 ][
-A nos yeux, dans l’hypothèse extrême où l’on nous force de raisonner,
+À nos yeux, dans l’hypothèse extrême où l’on nous force de raisonner,
 de tels expédients ne sont pas seulement inefficaces,
 ils sont essentiellement nuisibles.
 L’État ne déplace pas seulement les capitaux,
@@ -893,8 +893,8 @@ Oh ! si vous adhériez fortement à la liberté !
 Si vous la montriez faisant progresser le monde social
 par l’action de ses deux grandes lois corollaires :
 responsabilité, solidarité !
-Si vous ralliiez les esprits autour de cette vérité :
-,(q[En économie politique, il y a beaucoup à apprendre et peu à faire !])
+,(tag :a :name "bentham_ref")Si vous ralliiez les esprits autour de cette vérité :
+,(q[En économie politique, il y a beaucoup à apprendre et peu à faire ! ,(np "bentham" [*])])
 On comprendrait alors que la liberté porte en elle-même
 la solution de tous les grands problèmes sociaux que notre époque agite,
 et ,(q[qu’elle fait aux hommes une justice
@@ -948,7 +948,7 @@ Proclamez donc la liberté :
 liberté de travail, liberté d’échanges,
 liberté de transactions pour ce pays et pour tous les pays,
 pour cette époque et pour toutes les époques.
-A ce prix, j’ose vous promettre sinon la popularité du jour, du
+À ce prix, j’ose vous promettre sinon la popularité du jour, du
 moins la popularité et les bénédictions des siècles.
 ,(tag :a :name "cobden_ref")Un grand homme s’est emparé de ce rôle en Angleterre.
 Il n’y a pas de jour dans l’année,

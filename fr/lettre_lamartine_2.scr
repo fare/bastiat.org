@@ -1,8 +1,8 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "A M. de Lamartine, par Frédéric Bastiat")
+(in-bof :title "À M. de Lamartine, par Frédéric Bastiat")
 
-(document :title [A ,(np "lamartine" [M. de Lamartine])]
+(document :title [À ,(np "lamartine" [M. de Lamartine])]
 	:author (author-FB)
 (sidebar[
 ,(h5[Sources])
