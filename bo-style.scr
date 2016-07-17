@@ -727,7 +727,7 @@ window.onresize = function() {
 };
 </script>"))
 
-(defun tous_les_scripts () [,(script_sidenotes) ,(script_sidebar)])
+(defun tous_les_scripts () [,(script_sidenotes) ])
 
 (defparameter *make-title-hook*
   (lambda (&key title author)
@@ -738,7 +738,7 @@ window.onresize = function() {
 
 (defparameter *make-author-hook*
   (lambda (&key name email affiliation url)
-    (declare (ignore email url))
+    (declare (ignore email))
     (center
      (br*
       (when name (font :size "+3" (it name)))
