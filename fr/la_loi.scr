@@ -3,7 +3,7 @@
 (in-bof :title "La Loi
 	- par Frédéric Bastiat")
 (document :title "La Loi"
-	:author (author-FB)
+	  :author (author-FB)
 (sidebar [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k65068550/f7.image" [,(cite-title[La Loi])]).]

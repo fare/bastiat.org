@@ -1,11 +1,8 @@
 TODO
 ====
 
-- Pour les "verses", remplacer les blockquote par des span class="vers"
-
 - mettre une classe "externe" aux liens pointant vers une url extérieure
 
-- supprimer le (hrule) avant les footnotes.
 
 Quand tu auras fait ce qui précède
 ----------------------------------
@@ -30,7 +27,7 @@ Textes
 
 Infrastructure
 --------------
-  
+
   * Vu que j'utilise de plus en plus de javascript, rajouter peut-être un message d'alerte pour les navigateurs qui bloquent le javascript, ou prévoir une alternative.
 
   * Fix exscribe, so it's obvious where the error is.
@@ -78,7 +75,7 @@ Contenu
     4) lien vers sources: principalement sommaire Guillaumin (et Lettres d'un habitant des Landes) + page dédiée aux œuvres ni dans Guillaumin ni dans LHL
 
   * Responsive design. (par ex, Menu de gauche avec intro + plan: sur les petits écrans, s'affichera au-dessus du text (éventuellement abrégé, avec un clic pour afficher tout); les notes seront marginales sur les grands écrans et en bas de page sur les petits (work in progress).)
- 
+
 
 Trucs de Laura, par Laura et pour Laura
 ---------------------------------------

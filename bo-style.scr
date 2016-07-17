@@ -11,8 +11,9 @@
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
 	  :css "bastiat.css"
-    :script '("jquery-3.0.0.min.js")
+	  :script '("jquery-3.0.0.min.js")
       '())
+  (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
@@ -21,8 +22,9 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-    :script '("../jquery-3.0.0.min.js")
+	  :script '("../jquery-3.0.0.min.js")
 	  '())
+  (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
@@ -31,9 +33,9 @@
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
-:script "../jquery-3.0.0.min.js"
-    :script '("../jquery-3.0.0.min.js")
+	  :script '("../jquery-3.0.0.min.js")
 	  '())
+  (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
 	       :right [Un site par ,(FRR) ,(webbug)]))
@@ -43,6 +45,7 @@
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
 	  '())
+  (set! *footnotes-header* (lambda () (h4 "Notas")))
   (with-footer :left (boes-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [Un sitio por ,(FRR) ,(webbug)]))
@@ -726,12 +729,20 @@ window.onresize = function() {
 
 (defun tous_les_scripts () [,(script_sidenotes) ,(script_sidebar)])
 
+(defparameter *make-title-hook*
+  (lambda (&key title author)
+    (when (or title author)
+      (div :class "header"
+	   [,(when title (titre title))
+	   ,(when author (auteur author))]))))
 
-; La fonction make-title redéfinie ici pour vous en exclusivité...
-
-(defun make-title (&key title author)
-  (when title
-    (div :class "header"
-       [,(titre title)
-       ,(when author (auteur author))]
-    )))
+(defparameter *make-author-hook*
+  (lambda (&key name email affiliation url)
+    (declare (ignore email url))
+    (center
+     (br*
+      (when name (font :size "+3" (it name)))
+      (when affiliation (font :size "+1" affiliation))
+      (when url (font :size "+1"
+		      (tt (if (stringp url) (a :href url url) url))))
+      ))))

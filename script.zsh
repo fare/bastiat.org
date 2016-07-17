@@ -104,7 +104,7 @@ scribe_rule () {
       subdir="$(dirname $i)"
       base="$(basename $i .scr)"
       file="${base}.scr"
-      style="bo-style.scr"
+      style="fare-style.scr bo-style.scr"
       other=
       id_rule $i
       hdir="${HOST_DIR}$subdir"
