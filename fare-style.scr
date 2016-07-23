@@ -57,7 +57,6 @@
 (define (NdA) (emph[(Note de l’auteur.)]))
 (define (NdT) (emph[(Note du traducteur.)]))
 (define (NdEEO) (emph[(Note de l'éditeur de l'édition originale.)]))
-(define (LHL) (emph[Lettres d’un habitant des Landes]))
 
 (define (use-lang lang)
    (case lang

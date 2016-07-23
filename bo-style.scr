@@ -179,6 +179,7 @@
 (define (EO1862) (EO18xx 7 62))
 (define (EO1863) (EO18xx 7 63))
 (define (EO1864) (EO18xx 7 64))
+(define (LHL) (emph[Lettres d’un habitant des Landes]))
 
 (set! *scribe-background* "white")
 (set! *scribe-foreground* "black")
