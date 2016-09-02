@@ -30,7 +30,7 @@ Installing the toolchain
 
         sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/executable)'
 
-  6. Symlink exscribe into a place in your `$PATH`, e.g.:
+  6. Symlink `exscribe` into a place in your `$PATH`, e.g.:
 
         sudo ln -sf ~/common-lisp/exscribe/exscribe /usr/local/bin/
 
