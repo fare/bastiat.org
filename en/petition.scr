@@ -5,6 +5,26 @@
 (document :title "Bastiat's famous Candlestick makers' Petition"
 	:author (author-FB)
 
+;; TODO: make it work with English works???
+(sidebar
+(h5[Sources])
+(p*[
+,(ref :url "http://web.archive.org/web/19980527014524/http://www.newaus.com.au/econ12.html" [Originally published])
+on the web by ,(ref :url "http://web.archive.org/web/19980527014524/http://www.newaus.com.au/" [The New Australian]).
+Unknown translator (maybe someone from the ,(ref :url "http://www.fee.org/" [FEE])).
+Slightly edited by ,(FRR) for ,(Bastiat.org).
+][
+On ,(Bastiat.org), you may also find
+,(bof-ref "petition" [the original text in French "Pétition des marchands de chandelles..."]),
+and other works of Bastiat, either in French or translated into English.
+])(XXX[
+,(p*[,(ref :url "https://archive.org/stream/s1journaldesco12soci#page/204/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 12, n° 47, p. 204.]
+[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f85.image" [,(cite-title[Sophismes économiques])]), ch. 7.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/57/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 57.])])
+)
+
+(bastiat
+
 (h1 [A PETITION])
 (h2 [From the Manufacturers of
 Candles, Tapers, Lanterns, sticks, Street Lamps, Snuffers, and Extinguishers,
@@ -222,17 +242,8 @@ foreign coal, iron, wheat, and textiles,
 ,(emph[in proportion]) as their price approaches zero,
 how inconsistent it would be to admit the light of the sun,
 whose price is ,(emph[zero]) all day long!
-])
-(with-footer :lang 'en
-(p*[
-,(ref :url "http://web.archive.org/web/19980527014524/http://www.newaus.com.au/econ12.html" [Originally published])
-on the web by ,(ref :url "http://web.archive.org/web/19980527014524/http://www.newaus.com.au/" [The New Australian]).
-Unknown translator (maybe someone from the ,(ref :url "http://www.fee.org/" [FEE])).
-Slightly edited by ,(FRR) for ,(Bastiat.org).
-][
-On ,(Bastiat.org), you may also find
-,(bof-ref "petition" [the original text in French "Pétition des marchands de chandelles..."]),
-and other works of Bastiat, either in French or translated into English.
 ]))
-;;(tous_les_scripts)(footer[,(oeuvres),(art_le)])
-)
+(tous_les_scripts)
+(footer[
+,(XXX[,(oeuvres),(art_le)])
+]))
