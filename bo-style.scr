@@ -25,6 +25,7 @@
 	  :script '("../jquery-3.0.0.min.js")
 	  '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
+  (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))

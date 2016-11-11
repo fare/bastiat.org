@@ -4,11 +4,32 @@
 
 (document :title "The Law"
 	:author (author-FB)
+
+(sidebar
+(h5[Table of Contents])
 (table-of-contents)
+(br)
+(h5[Sources])
+(p*[
+,(ref :url "http://se1.com/ush/important/bastiat/law.htm" [Found])
+on the site ,(ref :url "http://se1.com/ush/" [US History resources])
+in the translation by Dean Russell for the
+,(ref :url "http://www.fee.org/" [Foundation for Economic Education]).
+Reformatted by ,(FRR) for ,(Bastiat.org).
+][
+On ,(Bastiat.org), you may also find
+,(bof-ref "la_loi" [the original text in French "La loi"]),
+and other works of Bastiat, either in French or translated into English.
+][
+Note that the headlines were introduced by the FEE translation,
+and were not present in the original French text.
+,(XXX[Also the translation at times is less than faithful.])
+]))
+(bastiat
 (section :number #f :title [The Book and Author]
 (p*[
 When a reviewer wishes to give special recognition to a book,
-he predicts that it will still be read "a hundred years from now."
+he predicts that it will still be read ,(q[a hundred years from now.])
 ,(cite-title[The Law]), first published as a pamphlet in June, 1850,
 is already more than a hundred years old.
 And because its truths are eternal,
@@ -365,7 +386,7 @@ There is in all of us a strong disposition
 to believe that anything lawful is also legitimate.
 This belief is so widespread
 that many persons have erroneously held
-that things are "just" because law makes them so.
+that things are ,(q[just]) because law makes them so.
 Thus, in order to make plunder appear just and sacred to many consciences,
 it is only necessary for the law to decree and sanction it.
 Slavery, restrictions, and monopoly
@@ -377,12 +398,12 @@ but also among those who suffer from them.
 (p*[
 If you suggest a doubt as to the morality of these institutions,
 it is boldly said that
-"You are a dangerous innovator, a utopian, a theorist, a subversive;
-you would shatter the foundation upon which society rests."
+,(q[You are a dangerous innovator, a utopian, a theorist, a subversive;
+you would shatter the foundation upon which society rests.])
 If you lecture upon morality or upon political science,
 there will be found official organizations
 petitioning the government in this vein of thought:
-"That science no longer be taught exclusively
+,(q[That science no longer be taught exclusively
 from the point of view of free trade
 (of liberty, of property, and of justice)
 as has been the case until now,
@@ -393,7 +414,7 @@ that regulate French industry
 That, in government-endowed teaching positions,
 the professor rigorously refrain
 from endangering in the slightest degree the respect
-due to the laws now in force."
+due to the laws now in force.])
 ,(footnote :note [
 General Council of Manufacturers, Agriculture, and Commerce,
 May 6, 1850])
@@ -2706,16 +2727,8 @@ have so futilely inflicted so many systems upon society,
 may they finally end where they should have begun:
 May they reject all systems, and try liberty;
 for liberty is an acknowledgment of faith in God and His works.
-]))
-(with-footer :lang 'en
-(p*[
-,(ref :url "http://se1.com/ush/important/bastiat/law.htm" [Found])
-on the site ,(ref :url "http://se1.com/ush/" [US History resources])
-in the translation by Dean Russell for the
-,(ref :url "http://www.fee.org/" [Foundation for Economic Education]).
-Reformatted by ,(FRR) for ,(Bastiat.org).
-][
-On ,(Bastiat.org), you may also find
-,(bof-ref "la_loi" [the original text in French "La loi"]),
-and other works of Bastiat, either in French or translated into English.
 ])))
+(tous_les_scripts)
+(footer[
+,(XXX[,(oeuvres),(art_le)])
+]))
