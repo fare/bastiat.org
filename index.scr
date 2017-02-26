@@ -12,6 +12,17 @@
 (h2 (font :color "#660033" [Économiste français]))
 (h3 (font :color "#996600" [Auteur]))
 (bof-ref #f [Tout sur Frédéric Bastiat])
+
+(p[
+,(a :href "fr/guillaumin.html" [Sommaire des œuvres complètes en 7 volumes])
+])
+(p[
+,(a :href "fr/correspondance.html" [Correspondance])
+])
+(p[
+,(a :href "fr/journaux.html" [Articles publiés, par journal])
+])
+
 (p[,(OE*)uvres les plus célèbres:])
 (table :cellspacing 0 :border 0 :cellpadding 0
 (tr

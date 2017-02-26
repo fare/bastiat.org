@@ -679,7 +679,7 @@ window.onresize = function() {
     "</div>"
 )))
 
-(defun oeuvres () (precsuiv "Œuvres" "guillaumin.html" serie_chronologique))
+(defun oeuvres () (precsuiv "Œuvres" "../index.html" serie_chronologique))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
 (defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_comte_arrivabene.html" lettres_a_arrivabene))
@@ -691,6 +691,8 @@ window.onresize = function() {
 (defun paillottet () (precsuiv "Lettres à Paillottet" "lettres_paillottet.html" lettres_a_paillottet))
 (defun say () (precsuiv "Lettres à H. Say" "lettres_horace_say.html" lettres_a_say))
 (defun schwabe () (precsuiv "Lettres aux Schwabe" "lettres_schwabe.html" lettres_a_schwabe))
+
+(defun journaux () (precsuiv "Journaux" "journaux.html" serie_chronologique))
 
 (defun art_le () (precsuiv "Libre-Échange" "journaux_le.html" articles_le))
 (defun art_jde () (precsuiv "Journal des Économistes" "journaux_jde.html" articles_jde))
