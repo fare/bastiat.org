@@ -856,9 +856,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "de_la_concurrence.html#cadmus_ref" [De la concurrence])
 ])
 
-,(personne "calmetes" "Calmètes" "Adrien Victor" "1800-1871" [
-,(ref :url "lettres_calmetes.html" [14 lettres à —])
-])
+,(person "calmetes" 
+[(Voir sa ,(ref :url "http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/9545" [fiche biographique]) sur le site de l’Assemblée nationale.)]
+[,(ref :url "lettres_calmetes.html" [14 lettres à —.])]
+)
 
 ,(personne "camden" "Camden" "William" "1551-1623" [
 ,(autolk "ligue_19" "camden_ref")
@@ -2532,8 +2533,8 @@ remplacé le 11 mai 1850 par Émile Jaubert.
 ,(autolk "lettre_cobden1845c" "larnac_ref") ;
 ])
 
-,(personne "laromiguiere" "Laromiguière" "Pierre" "1756-1837" [
-,(ref :url "lettre_calmetes1820a.html" [Lettre à V. Calmètes, 5 mars 1820])
+,(person "laromiguiere" [
+Bastiat y fait une rapide allusion dans une ,(ref :url "lettre_calmetes1820a.html" [lettre à Calmètes]) du 5 mars 1820, en comparant le ,(cite-title[Traité d’économie politique]) de ,(np "say_jb" [Jean-Baptiste Say]) aux œuvres de Laromiguière, au point de vue de la clarté de l’écriture. Laromiguière est l’auteur, entre autres, de ,(ref :url "https://archive.org/details/leonsdephilosop06larogoog" [,(cite-title[Leçons de philosophie, ou Essai sur les facultés de l’âme])]), qui sont peut-être l’ouvrage auquel Bastiat fait référence. On ,(ref :url "lettre_calmetes1819.html" [sait]) que dans sa jeunesse, Bastiat était amateur de philosophie plutôt que d’économie politique.
 ])
 
 ,(personne "lasagra" "La Sagra" "?" "" [
@@ -3852,20 +3853,14 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(autolk "lettre_cobden1849b" "say_ref")
 ])
 
-,(personne "say_jb" "Say" "Jean-Baptiste" "1767-1832" [
-,(ref :url "lettre_calmetes1820a.html" [Lettre à V. Calmètes, 5 mars 1820]) ;
-,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
+,(person "say_jb" [
+Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il reconnaît Jean-Baptiste Say pour son ,(ref :url "lettre_horace_say1844.html" [père intellectuel]). Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père.
+	][
+Citations précises.
+
 ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [9 avril 1827]) ;
-,(ref :url "lettre_coudroy1834.html#fonfrede_ref" [2 mars 1834]) ;
-,(ref :url "lettre_cobden1844.html" [Lettre à R. Cobden, 24 novembre 1844]) ;
-,(ref :url "lettre_horace_say1844.html" [Lettre à H. Say, 24 novembre 1844]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique]) ;
-,(ref :url "conclusion_sophismes.html#say_jb_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) ;
 ,(ref :url "deux_morales.html#say_jb_ref" [Deux morales]) ;
-,(ref :url "le_vol_a_la_prime.html#smith_ref2" [Le vol à la prime]) ;
-,(ref :url "projet_preface_harmonies.html#say_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
-,(ref :url "propriete_et_spoliation4.html#smith_ref" [Propriété et spoliation IV]) ;
 ,(ref :url "besoins_efforts_satisfactions.html#say_ref" [Besoins, efforts, satisfactions (note)]) ;
 ,(ref :url "des_besoins_de_l_homme.html#say_ref" [Des besoins de l’homme]) ;
 ,(ref :url "echange.html#say_ref" [Échange]) (plusieurs fois) ;
@@ -3874,28 +3869,45 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(ref :url "propriete_communaute.html#say_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "propriete_fonciere.html#say_ref" [Propriété foncière]) (plusieurs fois) ;
 ,(ref :url "services.html#say_ref" [Services privés, services publics (note)]) ;
-,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "de_la_population.html#say_ref" [De la population]) (plusieurs fois) ;
-,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "valeur_service.html#say_ref" [La valeur découle du service]) (plusieurs fois) ;
 ,(ref :url "discours_6.html#say_ref" [Discours à Marseille]) ;
 ,(ref :url "capital_et_rente.html#say_ref" [Capital et rente]) ;
 ,(ref :url "pdfe1846.html#say_ref" [À MM. les électeurs de l’arrondissement de Saint-Sever]) ;
-,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
-,(ref :url "lettre12.html#ricardo_ref" [Lettre 12])
-Sous la plume de Proudhon : ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]), ,(ref :url "lettre5.html#say_ref" [Lettre 5]), ,(ref :url "lettre7.html#say_ref" [Lettre 7]), ,(ref :url "lettre11.html#say_ref" [Lettre 11]) (plusieurs fois), ,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois) ;
-,(ref :url "projet_de_ligue_antiprotectioniste2.html#say_ref" [Projet de ligue anti-protectioniste]) ;
-,(ref :url "traite_belge.html#smith_ref" [La tribune et la presse à propos du traité belge]) ;
-,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal]) ;
+,(ref :url "lettre12.html#ricardo_ref" [Lettre 12]) ;
 ,(ref :url "organisation_et_liberte.html#say_ref" [Organisation et liberté]) ;
+,(autolk "impot_foncier_landes" "say_ref") ;
+
+][
+Simples allusions:
+,(ref :url "lettre_coudroy1834.html#fonfrede_ref" [2 mars 1834]) ;
+,(ref :url "conclusion_sophismes.html#say_jb_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) ;
+,(ref :url "projet_preface_harmonies.html#say_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+,(ref :url "projet_de_ligue_antiprotectioniste2.html#say_ref" [Projet de ligue anti-protectioniste]) ;
+,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal]) ;
+,(autolk "ligue_20" "say_ref") ;
+Mentionné parmi d'autres économistes, généralement en compagnie de Smith:
+,(ref :url "lettre_cobden1844.html" [Lettre à R. Cobden, 24 novembre 1844]) ;
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
+,(ref :url "le_vol_a_la_prime.html#smith_ref2" [Le vol à la prime]) ;
+,(ref :url "propriete_et_spoliation4.html#smith_ref" [Propriété et spoliation IV]) ;
+,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#say_ref" [Guerre aux chaires d’économie politique]) ;
+,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
+,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
+,(ref :url "traite_belge.html#smith_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
 ,(ref :url "sentinelle3.html#turgot_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(autolk "lettre_coudroy1849c" "quesnay_ref"),
-,(autolk "lettre_coudroy1845f" "comte_ref") ;
 ,(autolk "lettre_paillottet1850i" "fontenay_ref") ;
-,(autolk "impot_foncier_landes" "say_ref") ;
-,(autolk "ligue_20" "say_ref") ;
+][
+
+Sous la plume de Proudhon :
+,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]),
+,(ref :url "lettre5.html#say_ref" [Lettre 5]),
+,(ref :url "lettre7.html#say_ref" [Lettre 7]),
+,(ref :url "lettre11.html#say_ref" [Lettre 11]) (plusieurs fois),
+,(ref :url "lettre13.html#say_ref" [Lettre 13]) (plusieurs fois) ;
 ])
 
 ,(personne "say_l" "Say" "Léon" "1826-1896" [
