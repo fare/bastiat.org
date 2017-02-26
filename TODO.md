@@ -82,5 +82,3 @@ Trucs de Laura, par Laura et pour Laura
 
   * Ajouter tableaux dans: Répartition de l'impôt foncier dans les Landes (au moins 40 tableaux... T_T)
   impot_foncier_landes: liens vers "page truc", à faire
-
-  * Faire une maquette du site futur idéal (page d'accueil, sommaires, page de texte)

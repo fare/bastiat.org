@@ -1,3 +1,38 @@
+/*Polices de caractères*/
+
+@font-face {
+    font-family:"bastiat";
+    src:	url("fonts/FeENrm28C.otf") format("otf"), url("fonts/FeENrm28C.woff") format("woff");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'bastiat';
+    src:url("fonts/FeENit27C.otf") format("otf"), url("fonts/FeENit27C.woff") format("woff");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'paratexte';
+    src:url("fonts/Simonetta-Regular.ttf") format("truetype"), url("fonts/Simonetta-Regular.woff") format("woff");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'paratexte';
+    src:url("fonts/Simonetta-Italic.ttf") format("truetype"), url("fonts/Simonetta-Italic.woff") format("woff");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'paratexte';
+    src:url("fonts/Simonetta-Black.ttf") format("truetype"), url("fonts/Simonetta-Black.woff") format("woff");
+    font-weight:bold;font-style:normal;
+}
+@font-face{
+    font-family:'paratexte';
+    src:url("fonts/Simonetta-BlackItalic.ttf") format("truetype"), url("fonts/Simonetta-BlackItalic.woff") format("woff");
+    font-weight:bold;font-style:italic;
+}
+
 div#sidebar {
 	width:17%;
 	font-family: 'paratexte';
@@ -8,6 +43,9 @@ div#sidebar {
 
 }
 
+.bastiat {
+	font-family: 'bastiat';
+}
 
 .footer .arbor {
 	float:left; display: block;
@@ -145,40 +183,7 @@ a[href*=footnote], a[href*=footnote] sup {
 sup {line-height: 0; font-variant: normal;}
 
 
-/*Polices de caractères*/
 
-@font-face{
-    font-family:'bastiat';
-    src:url("fonts/FeENrm28C.otf");
-    font-weight:normal;font-style:normal;
-}
-@font-face{
-    font-family:'bastiat';
-    src:url("fonts/FeENit27C.otf");
-    font-weight:normal;font-style:italic;
-}
-
-@font-face{
-    font-family:'paratexte';
-    src:url("fonts/Simonetta-Regular.ttf");
-    font-weight:normal;font-style:normal;
-}
-@font-face{
-    font-family:'paratexte';
-    src:url("fonts/Simonetta-Italic.ttf");
-    font-weight:normal;font-style:italic;
-}
-
-@font-face{
-    font-family:'paratexte';
-    src:url("fonts/Simonetta-Black.ttf");
-    font-weight:bold;font-style:normal;
-}
-@font-face{
-    font-family:'paratexte';
-    src:url("fonts/Simonetta-BlackItalic.ttf");
-    font-weight:bold;font-style:italic;
-}
 
 
 /*Styles des sommaires*/
@@ -187,7 +192,7 @@ sup {line-height: 0; font-variant: normal;}
 	margin: auto;
 	padding: 3em;
 	width: 90%;
-	font-size: 1.05em;
+	font-size: 1.1em;
 	font-family: "paratexte", sans-serif;
 	text-align: justify;
 	background: white;
@@ -293,9 +298,6 @@ h4 {
 
 
 
-.bastiat {
-	font-family: 'bastiat', serif;
-}
 .other {
 	font-family: 'paratexte', sans-serif;
 }
@@ -449,6 +451,10 @@ p.datetag {
 
 /*Poésie*/
 
+span.vers, span.cvers {
+	display: block;
+}
+
 .vers, .cvers {
 	font-size: 80%;
 	line-height: 1.2em;
@@ -513,7 +519,7 @@ position: fixed;
 bottom: 0;
 height: 3.5em; min-height:1cm;
 background-color: rgba(230,255,50,1); /*#9c0;*/
-background: linear-gradient (to right, rgba(230,255,50,1), rgba(230,255,50,0.7));
+background: linear-gradient(to right, rgba(230,255,50,1), rgba(230,255,50,0.7));
 /*background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));*/
 opacity: 0.7;
 transition: opacity 200ms;
@@ -709,7 +715,8 @@ font-size: 90%;
 		margin: 0;
 	}
 	.sommaire {
-		margin: 0; .padding:0;
+		margin: 0;
+		padding:0;
 	}
 	.footer {
 		opacity: 0.9;
