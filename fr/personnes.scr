@@ -76,7 +76,7 @@
 	(id &rest details)
 	(div :class "personne" :id id [
 		,(tag :a :name id)
-		,(p (span :class "nom" (nom (element id))) " " (prenom (element id)) (span :class "dates" (dates (element id))) )
+		,(p (span :class "nom" (nom (element id))) "  " (prenom (element id)) (span :class "dates" (dates (element id))) )
 		,(p :class "bio" (biog (element id)))
 	]
 	(div :class "references" (apply 'p* details))
@@ -888,8 +888,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme])
 ])
 
-,(personne "carriere" "Carrière" "?" "?" [
-,(ref :url "lettre_calmetes1822a.html#carriere_ref" [Lettre à V. Calmètes, 20 octobre 1822])
+,(person "carriere" [
+,(ref :url "lettre_calmetes1822a.html#carriere_ref" [Lettre]) à ,(np "calmetes" [Calmètes]) du 20 octobre 1822.
 ])
 
 ,(personne "carteret" "Carteret" "John" "1690-1763" [
@@ -1019,8 +1019,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "projet_preface_harmonies" "chenier_ref")
 ])
 
-,(personne "chesterfield" "Chesterfield" "Philip Stanhope, comte de" "1694-1773" [
-,(ref :url "lettre_calmetes1821c.html#chesterfield_ref" [Lettre à V. Calmètes, 8 décembre 1821])
+,(person "chesterfield" [
+Dans une ,(ref :url "lettre_calmetes1821c.html#chesterfield_ref" [lettre]) du 8 décembre 1821, Bastiat conseille à ,(np "calmetes" [Victor Calmètes]) la lecture de ses ,(cite-title[,(ref :url "https://archive.org/details/bub_gb_SJAsgg1TVroC" [Lettres à son fils])]).
 ])
 
 ,(personne "cheuvreux" "Cheuvreux" "Casimir" "1797-1881" [,(XXX :note "Souvent cité dans les lettres à Mme Cheuvreux, Louise idem; voir si ça vaut la peine de donner le détail")
@@ -1069,9 +1069,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme]) (plusieurs fois)
 ])
 
-,(personne "cincinnatus" "Cincinnatus" "Lucius Quinctius" [v. 519-v. 430 av. J.-C.] [
-,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821]) ;
-,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation])
+,(person "cincinnatus" [
+Mentionné comme exemple de vertu dans une ,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [lettre]) à ,(np "calmetes" [Calmètes]) du 8 décembre 1821 et dans ,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation]).
 ])
 
 ,(personne1nom "cineas" "Cinéas" [† v. 272 av. J.-C.] [
@@ -1182,8 +1181,15 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
 ])
 
-,(personne "collin" "Collin d’Harleville" "Jean-François" "1755-1806" [
-,(ref :url "lettre_calmetes1822a.html#moliere_ref" [Lettre à V. Calmètes, 20 octobre 1822]) : allusion à ,(cite-title[L’Optimiste, ou l’homme toujours content de tout]), Acte III, sc. 10, réplique de M. de Plinville : “Quand j’y songe, je suis bien heureux, je suis homme, / Européen, Français, Tourangeau, gentilhomme : / Je pouvais naître Turc, Limousin, paysan ; / Je ne suis magistrat, guerrier ni courtisan ; / Non : mais je suis seigneur d’une lieue à la ronde. / Le château de Plinville est le plus beau du monde.” ;
+,(person "collin" [
+,(ref :url "lettre_calmetes1822a.html#moliere_ref" [Lettre]) à ,(np "calmetes" [Calmètes]) du 20 octobre 1822 : allusion à ,(cite-title[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5542535v/f21" [L’Optimiste, ou l’homme toujours content]),]) Acte I, sc. 10, réplique de M. de Plinville :][
+,(verses[Quand j’y songe, je suis bien heureux ! je suis homme,
+][Européen, Français, Tourangeau, gentilhomme :
+][Je pouvais naître Turc, Limousin, paysan.
+][Je ne suis magistrat, guerrier ni courtisan ;
+][Non : mais je suis seigneur d’une lieue à la ronde.
+][Le château de Plinville est le plus beau du monde.])
+][
 ,(ref :url "la_main_droite_et_la_main_gauche.html#collin_ref" [La main droite et la main gauche]) : citation des ,(cite-title[Châteaux en Espagne]), Acte III sc. 7 : “C’est quelque chose encor que de faire un beau rêve ; / À nos chagrins réels, c’est une utile trêve…”
 ])
 
@@ -1355,8 +1361,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(autolk "impot_foncier_landes" "cunin_ref")
 ])
 
-,(personne1nom "curius" "Marius Curius Dentatus" [† 270 av. J.-C.] [
-,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821])
+,(person "curius" [
+Mentionné dans une ,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [lettre]) à ,(np "calmetes" [Calmètes]) du 8 décembre 1821 comme exemple de renonciation aux richesses, en compagnie de ,(np "fabricius" [Fabricius]) et ,(np "cincinnatus" [Cincinnatus]).
 ])
 
 ,(personne "curzay" "Curzay" "François Duval de Chassenon de" "1780-1842" [
@@ -1440,8 +1446,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#defoe_ref" [Lettre 7]) ;
 Sous la plume de Vidal : ,(ref :url "organisation_et_liberte.html#defoe_ref" [Organisation et liberté])
 ])
 
-,(personne "delavigne" "Delavigne" "Casimir" "1793-1843" [
-,(ref :url "lettre_calmetes1822b.html" [Lettre à V. Calmètes, décembre 1822])
+,(person "delavigne" [
+Critique de sa tragédie ,(cite-title[,(ref :url "https://archive.org/stream/lepariatragdie00delauoft#page/n3/mode/2up" [Le Paria])]) (1821) dans une ,(ref :url "lettre_calmetes1822b.html" [lettre]) à ,(np "calmetes" [Calmètes]) de décembre 1822.
 ])
 
 ,(personne "demesmay" "Demesmay" "Philippe Auguste" "1805-1853" [
@@ -1740,11 +1746,9 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 
 ]),(lettre "F" [
 
-,(personne1nom "fabricius" "Gaius Fabricius Luscinus" [III,(sup "e") s. av. J.-C.] [
-,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [Lettre à V. Calmètes, 8 décembre 1821]) ;
-,(ref :url "propriete_et_loi.html#robespierre_ref" [Propriété et loi]) ;
-,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]) (plusieurs fois)
-])
+,(person "fabricius" [
+Mentionné comme exemple de renoncement aux richesses dans une ,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [lettre]) à ,(np "calmetes" [Calmètes]) du 8 décembre 1821 et dans ,(ref :url "propriete_et_loi.html#robespierre_ref" [Propriété et loi]).]
+	[Cité parmi d’autres figures de l’Antiquité romaine dans ,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]).])
 
 ,(personne "falloux" "Falloux" "" "" [
 ,(ref :url "lettre_cheuvreux1849f.html#falloux_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
@@ -2905,28 +2909,32 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(autolk "lettre_cobden1848h" "molesworth_ref")
 ])
 
-,(personne "moliere" "Molière" "Jean-Baptiste Poquelin, dit" "1622-1673" [
+,(person "moliere" [
 ,(ref :url "conclusion_sophismes.html#moliere_ref" [Conclusion à la première série des ,(cite-title[Sophismes]) 1]), ,(ref :url "conclusion_sophismes.html#moliere_ref2" [2]) ;
 ,(ref :url "physiologie_de_la_spoliation.html#moliere_ref" [Physiologie de la spoliation]) ;
 ,(ref :url "les_trois_echevins.html#moliere_ref" [La protection ou les trois échevins]) ;
 ,(ref :url "deux_principes.html#moliere_ref" [Deux principes]),
 ,(ref :url "sentinelle7.html#moliere_ref" [À M. le rédacteur en chef de ,(cite-title[la Presse])]) : allusions au ,(cite-title[Bourgeois gentilhomme]) ;
-
+][
 ,(ref :url "echange.html#moliere_ref" [Échange]),
 ,(autolk "lettre_paillottet1850h" "moliere_ref")
 ,(ref :url "organisation_et_liberte.html#moliere_ref" [Organisation et liberté]) ;
 ,(autolk "lettre5" "moliere_ref") ;
 ,(autolk "lettre6" "kant_ref") : allusion au ,(cite-title[Malade imaginaire]) ;
+](nbsp)[
+Allusions au ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Tartuffe_ou_l%E2%80%99Imposteur/%C3%89dition_Louandre,_1910/Texte_entier" [Tartuffe]),]) dans une ,(ref :url "lettre_calmetes1822a.html#moliere_ref" [lettre]) à ,(np "calmetes" [Calmètes]) du 20 octobre 1822 et dans ,(ref :url "deux_morales.html#say_jb_ref" [Deux morales]).
+][
+Citation de l’Acte I, ,(ref :url "https://fr.wikisource.org/wiki/Tartuffe_ou_l%E2%80%99Imposteur/%C3%89dition_Louandre,_1910/Acte_I#Sc.C3.A8ne_6" [sc. 6]), v. 315, dans ,(autolk "baccalaureat_et_socialisme" "moliere_ref2") :
+,(verses[Vous en êtes un peu dans votre âme entiché.])
 
-,(ref :url "lettre_calmetes1822a.html#moliere_ref" [Lettre à V. Calmètes, 20 octobre 1822]), ,(ref :url "deux_morales.html#say_jb_ref" [Deux morales]), ,(ref :url "baccalaureat_et_socialisme.html#moliere_ref" [Baccalauréat et socialisme]) : allusions au ,(cite-title[Tartuffe]) ;
-
+](nbsp)[
 ,(ref :url "le_vol_a_la_prime.html#moliere_ref" [Le vol à la prime]) ;
 ,(ref :url "l_utopiste.html#moliere_ref" [L’utopiste]) ;
 ,(ref :url "la_logique_du_moniteur_industriel.html#moliere_ref" [La logique du ,(cite-title[Moniteur industriel])]) ;
 ,(ref :url "deux_principes.html#moliere_ref2" [Deux principes]) ;
 ,(ref :url "projet_de_ligue_antiprotectioniste3.html#moliere_ref" [Projet de ligue anti-protectioniste]) ;
 ,(ref :url "la_loi.html#moliere_ref" [La Loi]) : allusions au ,(cite-title[Misanthrope]) ;
-
+][
 ,(ref :url "le_vol_a_la_prime.html#moliere_ref2" [Le vol à la prime]) : allusion à ,(cite-title[L’Avare]) ;
 ,(ref :url "nouveau_college.html#moliere_ref" [D’un nouveau collége à fonder à Bayonne]) ;
 ,(ref :url "propriete_et_spoliation5.html#moliere_ref" [Propriété et spoliation V]) ;
@@ -2935,9 +2943,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#moise_ref" [Lettre 7]) (pl
 ,(ref :url "discours_2.html#moliere_ref" [Second discours]) ;
 ,(ref :url "introduction_cobden_ligue.html#moliere_ref" [Introduction à Cobden et la Ligue]) ;
 ,(ref :url "lettre_lamartine_2.html#moliere_ref" [À M. de Lamartine]) : allusion aux ,(cite-title[Femmes savantes]), Acte II sc. 7. ;
+][
 ,(ref :url "baccalaureat_et_socialisme.html#moliere_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "p5r4.html#moliere" [Prendre cinq et rendre quatre, ce n’est pas donner]) ;
 ,(ref :url "lettre_cheuvreux1850m.html#moliere_ref" [Lettre à Mme Cheuvreux, 4 juillet 1850]) ;
+][
 Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5]) ;
 ,(ref :url "lettre_cheuvreux1850b.html#matt_ref" [Lettre à Mme Cheuvreux, janvier 1850]) ;
 ,(autolk "de_la_valeur" "moliere_ref") ;
