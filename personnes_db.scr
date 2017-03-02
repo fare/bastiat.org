@@ -3,10 +3,6 @@
 ;pays: codes ISO 3166 alpha-2; créer tableau
 ;catégories de personnes: pol = politique; mil = militaire; ban = banquier; ope = opéra; mus = musique; sci = scientifique; the = théâtre; poe = poésie; rom = roman; eco = économiste; ecc = ecclésiastique; ind = industriel; inv = inventeur; art = artiste; phi = philosophe; soc = socialiste, lib = libéral; lig = membre de la ligue anglaise; jur = droit (juriste, juge, avocat); jou = journaliste
 
-
-
-
-
 (defparameter personnesdb `(
 (abdelkader :nom "Abd el-Kader" :dn 1808 :dm 1883 :pays DZ :categorie (pol mil) :bio "" :references (lettre_cheuvreux1849f))
 (aguado :nom "Aguado" :prenom "Alexandre" :dn 1784 :dm 1842 :pays ES :categorie (ban) :bio "Banquier espagnol." :references (lettre14))
@@ -93,7 +89,7 @@
 ;(brutus :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(buchanan :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(buckingham :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;(bugeaud :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
+(bugeaud :nom "Bugeaud" :prenom "Thomas Robert" :dn 1784 :dm 1849 :pays FR :categorie (mil pol) :bio "" :references (abondance_disette effort_resultat hausse_aliments_baisse_salaires discours_4 lettre_domenger1849i))
 ;(buloz :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(bulwer :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;(buret :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
@@ -260,6 +256,7 @@
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
+(pope :nom "Pope" :prenom "Alexander" :dn 1688 :dm 1744 :pays GB :categorie (poe) :bio "" :references (lettre_coudroy1824 lettre_cheuvreux1850i))
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
@@ -296,6 +293,7 @@
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
+(romanet :nom "Romanet" :prenom "Auguste, vicomte de" :dn ? :dm ? :pays FR :categorie (pol) :bio [Membre du Conseil général de l’agriculture, des manufactures et du commerce.] :references (introduction_sophismes egaliser_les_conditions_de_production))
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
@@ -307,9 +305,7 @@
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
-;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
+(stcricq :nom "Saint-Cricq" :prenom "Pierre de" :dn 1772 :dm 1854 :pays FR :categorie (pol) :bio "Directeur des douanes et homme politique français, notamment ministre du Commerce et des Colonies entre 1828 et 1829." :references (reflexions_petitions_bordeaux liberte_du_commerce discours_2 tarifs_francais_anglais abondance_disette effort_resultat encore_reciprocite matieres_premieres la_loi lettre2_journal_des_debats discours_4 remontrance au_national))
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())
 ;( :nom "" :prenom "" :dn  :dm  :pays  :categorie () :bio "" :references ())

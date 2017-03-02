@@ -6,32 +6,32 @@
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
 (p :center *[
-,(a :href :#a [A])
-,(a :href :#b [B])
-,(a :href :#c [C])
-,(a :href :#d [D])
-,(a :href :#e [E])
-,(a :href :#f [F])
-,(a :href :#g [G])
-,(a :href :#h [H])
-,(a :href :#i [I])
-,(a :href :#j [J])
-,(a :href :#k [K])
-,(a :href :#l [L])
-,(a :href :#m [M])
-,(a :href :#n [N])
-,(a :href :#o [O])
-,(a :href :#p [P])
-,(a :href :#q [Q])
-,(a :href :#r [R])
-,(a :href :#s [S])
-,(a :href :#t [T])
-,(a :href :#u [U])
-,(a :href :#v [V])
-,(a :href :#w [W])
-,(a :href :#x [X])
-,(a :href :#y [Y])
-,(a :href :#z [Z])
+,(a :href :#A [A])
+,(a :href :#B [B])
+,(a :href :#C [C])
+,(a :href :#D [D])
+,(a :href :#E [E])
+,(a :href :#F [F])
+,(a :href :#G [G])
+,(a :href :#H [H])
+,(a :href :#I [I])
+,(a :href :#J [J])
+,(a :href :#K [K])
+,(a :href :#L [L])
+,(a :href :#M [M])
+,(a :href :#N [N])
+,(a :href :#O [O])
+,(a :href :#P [P])
+,(a :href :#Q [Q])
+,(a :href :#R [R])
+,(a :href :#S [S])
+,(a :href :#T [T])
+,(a :href :#U [U])
+,(a :href :#V [V])
+,(a :href :#W [W])
+,(a :href :#X [X])
+,(a :href :#Y [Y])
+,(a :href :#Z [Z])
 ]))
 
 (defun
@@ -60,13 +60,13 @@
 	(personne id nom "" dates details)
 )
 
-(defun 
+(defun
   bio
   (&rest x)
   (p :class "bio" x)
 )
 
-(defun 
+(defun
   references
   (&rest x)
   (div :class "references" [,(apply 'p* x)])
@@ -140,7 +140,7 @@ Citation du ,(cite-title[Troisième voyage de Cook]) dans l’,(autolk "introduc
 ])
 
 ,(person "andrieux" [
-Dans ,(autolk "propriete_et_spoliation3" "andrieux_ref"), allusion à la fable du ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) : 
+Dans ,(autolk "propriete_et_spoliation3" "andrieux_ref"), allusion à la fable du ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Le_Meunier_Sans-Souci" [Meunier Sans-Souci])]) :
 ,(verses[Les rois malaisément souffrent qu’on leur résiste.]
 [Frédéric, un moment par l’humeur emporté :]
 [« Parbleu, de ton moulin c’est bien être entêté ;]
@@ -195,11 +195,11 @@ Autres allusions, dans le contexte d’un parallèle entre la science économiqu
 ])
 
 ,(person "argout" [
-,(autolk "abondance_disette" "argout_ref") ;
-,(autolk "effort_resultat" "argout_ref") ;
-,(autolk "metaphores" "argout_ref").
+Dans ,(autolk "abondance_disette" "argout_ref") et ,(autolk "effort_resultat" "argout_ref"), Bastiat cite ses propos hostiles à la culture de la betterave sucrière.
 ][
-Sous la plume de ,(np "proudhon" [Proudhon]) : ,(cite-title[Gratuité du crédit,]) lettres ,(link "lettre9" "9" "argout_ref") et ,(link "lettre13" "13" "argout_ref").
+Simple mention : ,(autolk "metaphores" "argout_ref").
+][
+Sous la plume de ,(np "proudhon" [Proudhon]), qui fait allusion à ses fonctions de gouverneur de la Banque de France : ,(cite-title[Gratuité du crédit,]) lettres ,(link "lettre9" "9" "argout_ref") et ,(link "lettre13" "13" "argout_ref").
 ])
 
 ,(person "aristide" [
@@ -494,7 +494,7 @@ Intervient à deux reprises au cours du ,(autolk "impot_des_boissons" "berard_re
 ])
 
 ,(person "bernardin" [
-,(autolk "lettre_coudroy1824" "bernardin_ref").
+Une allusion à ,(cite-title[Paul et Virginie]) dans une ,(link "lettre_coudroy1824" "lettre" "bernardin_ref") à ,(np "coudroy" [Félix Coudroy]) du 15 décembre 1824.
 ])
 
 ,(person "berryer" [
@@ -535,8 +535,8 @@ Lettres à Mme Cheuvreux,
 ,(autolk "lettre_coudroy1849b" "billault_ref").
 ])
 
-,(personne "bineau" "Bineau" "Jean-Martial" "1805-1855" [
-,(ref :url "cqovecqonvp.html#dupin_ref" [Ce qu’on voit et ce qu’on ne voit pas, 5 : Travaux publics])
+,(person "bineau" [
+Une allusion à ses fonctions de ministre des Travaux publics dans ,(cite-title[Ce qu’on voit et ce qu’on ne voit pas]), chapitre 5 : ,(ref :url "cqovecqonvp.html#dupin_ref" [Travaux publics]).
 ])
 
 ,(personne "blaise" "Blaise" "Adolphe-Gustave" "1811-1886" [
@@ -790,12 +790,17 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "impot_foncier_landes" "buffon_ref") ;
 ])
 
-,(personne "bugeaud" "Bugeaud" "Thomas Robert" "1784-1849" [
-,(ref :url "abondance_disette.html#bugeaud_ref" [Abondance, disette 1]),
-,(ref :url "abondance_disette.html#bugeaud_ref2" [2]) ; ,(ref :url "effort_resultat.html#bugeaud_ref" [Effort, résultat]) ;
-,(ref :url "hausse_aliments_baisse_salaires.html#bugeaud_ref" [Hausse des aliments, baisse des salaires]) ;
-,(autolk "lettre_domenger1849i" "bugeaud_ref") ;
+,(person "bugeaud" [
+Bastiat le prend parfois pour cible à propos de son protectionnisme agricole.
+][
+« Que le pain soit cher, et l’agriculteur sera riche ! » : parole citée dans Dans ,(ref :url "abondance_disette.html#bugeaud_ref" [Abondance, disette]). Puis dans ,(ref :url "effort_resultat.html#bugeaud_ref" [Effort, résultat]), Bastiat montre la contradiction entre la doctrine de “Bugeaud, législateur” et la conduite de “Bugeaud, agriculteur”.
+][
+Une parole similaire est rapportée dans ,(ref :url "hausse_aliments_baisse_salaires.html#bugeaud_ref" [Hausse des aliments, baisse des salaires]).
+][
+« J’aimerais mieux une invasion de Cosaques qu’une invasion de bestiaux étrangers. » :
 ,(autolk "discours_4" "bugeaud_ref").
+][
+Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849i" "lettre" "bugeaud_ref") à ,(np "domenger" [Domenger]) de juin 1849.
 ])
 
 ,(personne "buloz" "Buloz" "François" "1803-1877" [
@@ -3438,9 +3443,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(autolk "armements_en_angleterre_2" "polk_ref")
 ])
 
-,(personne "pope" "Pope" "Alexander" "1688-1744" [
-,(ref :url "lettre_coudroy1824.html" [Lettre à Félix Coudroy, 15 décembre 1824]) ;
-,(autolk "lettre_cheuvreux1850i" "lafontaine_ref") ;
+,(person "pope" [
+Citation de l’,(cite-title(ref :url "https://archive.org/stream/popesessayonmani00pope#page/n5/mode/2up" [Essay on Man])) dans une ,(link "lettre_coudroy1824" "lettre")  à ,(np "coudroy" [Félix Coudroy]) du 15 décembre 1824 :]
+(verses[Let us (since life can little more supply]
+	[Than just to look about us, and to die)]
+	[Expatiate free o’er all this scene of man.])
+[Allusion dans une ,(link "lettre_cheuvreux1850i" "lettre" "lafontaine_ref") à ,(np "cheuvreux_h" [Mme Cheuvreux]) du 27 mai 1850.
 ])
 
 ,(personne "porter" "Porter" "George Richardson" "1792-1852" [
@@ -3639,9 +3647,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 ,(ref :url "baccalaureat_et_socialisme.html#rollin_ref" [Baccalauréat et socialisme])
 ])
 
-,(personne "romanet" "Romanet" "(?) vicomte de" "?" [
-,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) ;
-,(ref :url "egaliser_les_conditions_de_production.html#romanet_ref" [Égaliser les conditions de production])
+,(person "romanet" [
+Deux allusions : dans l’,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) et dans ,(ref :url "egaliser_les_conditions_de_production.html#romanet_ref" [Égaliser les conditions de production]).]
+[Le vicomte de Romanet est l’auteur de nombreux mémoires et rapports, dont ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5787451r/f13.image" [quelques-uns]) défendent des vues protectionnistes.
 ])
 
 ,(personne "ronconi" "Ronconi" "Giorgio" "1810-1890" [
@@ -3784,19 +3792,38 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ,(autolk "lettre_paillottet1850g" "stchamans_ref")
 ])
 
-,(personne "stcricq" "Saint-Cricq" "Pierre de" "1772-1854" [
-,(ref :url "reflexions_petitions_bordeaux.html#stcricq_ref" [Réflexions sur les pétitions…]) (plusieurs fois) ;
-,(ref :url "liberte_du_commerce.html#stcricq_ref" [Liberté du commerce]) ;
-,(ref :url "discours_2.html#stcricq_ref" [Second discours]) ;
-,(ref :url "tarifs_francais_anglais.html#stcricq_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) (plusieurs fois) ;
-,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette]) ;
+,(person "stcricq" [
+Ce ministre protectionniste est une des têtes de Turc de Bastiat, qui cite, à travers son œuvre, plusieurs de ses paroles :
+][
+« Le travail constitue la richesse d’un peuple… » : ,(ref :url "reflexions_petitions_bordeaux.html#stcricq_ref" [Réflexions sur les pétitions…]) ;
 ,(ref :url "effort_resultat.html#stcricq_ref" [Effort, résultat]) ;
-,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité]) ;
-,(ref :url "matieres_premieres.html#stcricq_ref" [Matières premières]) (,(inlatin[passim])) ;
-,(ref :url "la_loi.html#stcricq_ref" [La Loi]) ;
+,(ref :url "matieres_premieres.html#stcricq_ref" [Matières premières]) (ce texte comporte un dialogue fictif entre M. de Saint-Cricq et des pétitionnaires réclamant la libre importation des matières premières) ;
+,(ref :url "discours_2.html#stcricq_ref" [Second discours]) ;
+,(ref :url "remontrance.html#stcricq_ref" [Remontrance (note)]).
+][
+« Protéger l’industrie agricole, ,(emph[toute]) l’industrie agricole ; l’industrie manufacturière, ,(emph[toute]) l’industrie manufacturière… » :
+,(ref :url "reflexions_petitions_bordeaux.html#stcricq_ref2" [Réflexions sur les pétitions…]) ;
+,(ref :url "tarifs_francais_anglais.html#stcricq_ref2" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
+,(ref :url "matieres_premieres.html#stcricq_ref2" [Matières premières]).
+][
+« Les gouvernements ne pouvant disposer que des consommateurs soumis à leurs lois, ce sont ceux-là qu’ils s’efforcent de réserver au travail de leurs producteurs. » :
+,(ref :url "tarifs_francais_anglais.html#stcricq_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "lettre2_journal_des_debats.html#stcricq_ref" [Deuxième lettre au rédacteur du ,(cite-title[Journal des Débats])]) ;
-,(ref :url "discours_4.html#ferrier_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "remontrance.html#stcricq_ref" [Remontrance (note)]) ;
+,(ref :url "la_loi.html#stcricq_ref" [La Loi]).
+][
+« La production surabonde » : ,(ref :url "abondance_disette.html#stcricq_ref" [Abondance, disette]) ;
+,(ref :url "effort_resultat.html#stcricq_ref2" [Effort, résultat]).
+][
+« Sommes-nous sûrs que l’étranger nous fera autant d’achats que de ventes ? » :
+,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité]).
+][
+« Il n’est pas étonnant que la douane rende peu, puisque son objet est précisément d’éloigner les occasions de perception ! » :
+,(ref :url "discours_4.html#ferrier_ref" [Conséquences comparées du régime protecteur et du libre-échange]).
+][
+Admission du caractère transitoire de la politique protectionniste :
+,(ref :url "liberte_du_commerce.html#stcricq_ref" [Liberté du commerce]).
+][
+Simple mention :
 ,(ref :url "au_national.html#darblay_ref" [Au rédacteur en chef du ,(cite-title[National])])
 ])
 
@@ -3864,7 +3891,7 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ])
 
 ,(person "say_jb" [
-Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il reconnaît Jean-Baptiste Say pour son ,(ref :url "lettre_horace_say1844.html" [père intellectuel]). Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père.
+Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il ,(ref :url "lettre_horace_say1844.html" [reconnaît]) Jean-Baptiste Say pour son père intellectuel. Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père.
 	][
 Citations précises.
 
