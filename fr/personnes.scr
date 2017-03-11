@@ -836,11 +836,11 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 ,(ref :url "introduction_cobden_ligue.html#butler_ref" [Introduction à Cobden et la Ligue])
 ])
 
-,(personne "byron" "Byron" "George Gordon, lord" "1788-1824" [
-,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829]) ;
+,(person "byron" [
+,(ref :url "lettre_calmetes1829a.html" [Lettre]) à ,(np "calmetes" [V. Calmètes]) du 12 mars 1829 ;
 ,(ref :url "nouveau_college.html#byron_ref" [D’un nouveau collége à fonder à Bayonne]) ;
-,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]) ;
-,(autolk "ligue_28" "byron_ref") ;
+,(ref :url "anglomanie_anglophobie.html#milton_ref" [Anglomanie, anglophobie]).]
+[Dans un discours de ,(np "cobden" [Cobden]) : ,(autolk "ligue_28" "byron_ref").
 ])
 
 ])
@@ -1203,29 +1203,39 @@ Cobden et la Ligue : ,(ref :url "ligue_1.html" [ch 1]) ;
 ,(ref :url "projet_discours_bayonne.html#colomb_ref" [Projet de discours à prononcer à Bayonne])
 ])
 
-,(personne "comte" "Comte" "Charles" "1782-1837" [
-,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827]) ;
+,(person "comte" [
+Dette intellectuelle:
 ,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [Lettre à H. Say, 24 novembre 1844]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine 1]), ,(ref :url "lettre_lamartine_1.html#comte_ref" [2]) ;
-,(ref :url "lettre_dunoyer.html" [Lettre à Dunoyer, 7 mars 1845]) ;
-,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
-,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "projet_preface_harmonies.html#dunoyer_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
-,(ref :url "guerre.html#comte_ref" [Guerre]) ;
-,(ref :url "eloge_comte.html#dunoyer_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
-,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
-,(ref :url "organisation_et_liberte.html#comte_ref" [Organisation et liberté]) ;
 ,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
+][
+Allusions à des ouvrages, citations :
+,(itemize
+	(item [— Dans une  ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [lettre]) du 9 avril 1827 à ,(np "coudroy" [F. Coudroy]), allusion à un article de la ,(tj "encycl" [,(cite-title[Revue encyclopédique])]) contenant un bref ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k106043b/f555.item" [examen]) de son ,(cite-title[Traité de législation]).])
+	(item [,(autolk "impot_foncier_landes" "comte_ref") ;
+ ,(ref :url "lettre_lamartine_1.html#comte_ref" [Un économiste à M. de Lamartine 2]) ;
+ ,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) ;
+ ,(ref :url "guerre.html#comte_ref" [Guerre]) ;
+ ,(ref :url "eloge_comte.html#dunoyer_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
+ ,(ref :url "organisation_et_liberte.html#comte_ref" [Organisation et liberté]) ;
+ ,(autolk "lettre_coudroy1845e" "say_ref").])
+	)
+][
+Mention parmi d’autres économistes:
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine 1])
+,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) ;
+,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
+][
+Simples mentions:
 ,(autolk "lettre_coudroy1845g" "comte_ref") ;
 ,(autolk "lettre_coudroy1845f" "comte_ref") ;
-,(autolk "lettre_coudroy1845e" "say_ref") ;
-,(autolk "impot_foncier_landes" "comte_ref") ;
 ])
 
 ,(personne "comte_h" "Comte" "Hippolyte" "" [
 ,(autolk "lettre_coudroy1845g" "comte_ref") ;
 ,(autolk "lettre_coudroy1845f" "comte_ref") ;
 ,(autolk "lettre_coudroy1845c" "dunoyer_ref") ;
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ])
 
 ,(personne "condillac" "Condillac" "Étienne Bonnot de" "1715-1780" [
@@ -1253,10 +1263,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(p*[Réponse de — à Bastiat : ,(ref :url "propriete_et_spoliation6.html" [Propriété et spoliation VI]) ; réponse de Bastiat à — : ,(ref :url "propriete_et_spoliation7.html" [Propriété et spoliation VII])])
 ])
 
-,(personne "constant" "Constant" "Benjamin" "1767-1830" [
-,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827]) ;
-,(ref :url "projet_preface_harmonies.html#constant_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
-,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal])
+,(person "constant" [
+Dans une ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827, Bastiat lui reproche de s’être surtout intéressé aux formes du gouvernement plutôt qu’à l’étude de la société.
+][
+Autres mentions :
+,(ref :url "livre_vidal.html#dp_ref" [Sur un livre de M. Vidal]) ;
+,(ref :url "projet_preface_harmonies.html#constant_ref" [Projet de préface pour les ,(cite-title[Harmonies])]).
 ])
 
 ,(personne "conte" "Conte" "Antoine Joseph Xavier" "1773-1850" [
@@ -1482,14 +1494,20 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "lettre_coudroy1841a.html#domenger_ref" [Lettre à F. Coudroy, 2 janvier 1841])
 ])
 
-,(personne "destutt" "Destutt de Tracy" "Antoine" "1754-1836" [
-,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
+,(person "destutt" [
+Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, Destutt de Tracy est mentionné parmi les auteurs auxquels Bastiat doit son éducation économique, avec ,(np "smith" [Smith]), ,(np "say_jb" [J.-B. Say]) et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]).
+][
+Citations ou allusions à des passages précis:
 ,(ref :url "aux_electeurs_landes.html" [Aux électeurs du département des Landes]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "livre_dunoyer.html#destutt_ref" [Sur un livre de M. Dunoyer]) ;
+,(ref :url "echange.html#destutt_ref" [Échange]) ;
+][
+Mentionné parmi d'autres économistes:
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "introduction_cobden_ligue.html#destutt_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "profit_de_l_un.html#euclide_ref" [Le profit de l’un est le dommage de l’autre]) ;
-,(ref :url "echange.html#destutt_ref" [Échange]) ;
+][
+Simples mentions:
 ,(autolk "impot_foncier_landes" "destutt_ref") ;
 ])
 
@@ -1601,30 +1619,47 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(autolk "bordeaux_bayonne" "dumon_ref").
 ])
 
-,(personne "dunoyer" "Dunoyer" "Charles" "1786-1862" [
-,(ref :url "lettre_coudroy1827a.html" [Lettre à F. Coudroy, 9 avril 1827]) ;
-,(ref :url "lettre_coudroy1844a.html#dunoyer_ref" [10 juillet 1844]) ;
-,(ref :url "lettre_coudroy1844a.html#je_ref" [26 juillet 1844]) ;
-,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [Lettre à H. Say, 24 novembre 1844]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
-,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
-,(ref :url "lettre_coudroy1846b.html#harcourt_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
-,(ref :url "lettre_cobden1846e.html" [Lettre à Cobden, 25 mars 1846]) ;
-,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
-,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
-,(ref :url "eloge_comte.html#dunoyer_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
-,(ref :url "livre_dunoyer.html" [Sur un livre de M. Dunoyer]) ;
-,(ref :url "lettre_coudroy_vol7.html" [Lettre à Coudroy, 1845]) ;
-,(ref :url "projet_preface_harmonies.html#dunoyer_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+,(person "dunoyer" [
+Dans une ,(ref :url "lettre_horace_say1844.html#dunoyer_ref" [lettre]) à ,(np "say_h" [Horace Say]) du 24 novembre 1844, Bastiat souligne sa dette intellectuelle envers Dunoyer.
+Il l’évoque également en passant dans son ,(ref :url "projet_preface_harmonies.html#dunoyer_ref" [projet de préface]) pour les ,(cite-title[Harmonies économiques]) et dans une ,(ref :url "lettre_journal_economistes.html#carey_ref" [lettre]) au ,(tj "je" [,(cite-title[Journal des économistes])]) à la fin de sa vie.
+][
+Citations et allusions précises:
+,(itemize
+(item [— Dans une ,(ref :url "lettre_coudroy1827a.html" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827, Bastiat indique que Dunoyer en est toujours à son premier ouvrage (à savoir : ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k109897w" [,(cite-title[L’industrie et la morale considérées dans leurs rapports avec la liberté])]), paru en 1825). Il fait également une allusion à un ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k106043b/f371.image" [article]) de Dunoyer récemment paru dans la ,(tj "encycl" [,(cite-title[Revue encyclopédique])]), intitulé ,(cite-title[Esquisse historique des doctrines auxquelles on a donné le nom d’Industrialisme]).])
+(item [,(ref :url "livre_dunoyer.html" [Sur un livre de M. Dunoyer]) ;
 ,(ref :url "des_besoins_de_l_homme.html#dunoyer_ref" [Des besoins de l’homme]) ;
 ,(ref :url "introduction_cobden_ligue.html#dunoyer_ref" [Introduction à Cobden et la Ligue]) ;
-,(ref :url "organisation_et_liberte.html#comte_ref" [Organisation et liberté]) ;
-,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
+,(ref :url "organisation_et_liberte.html#comte_ref" [Organisation et liberté]) ;])
+	)
+
+][
+Correspondance avec:
+,(autolk "lettre_dunoyer") ;
+,(ref :url "lettre_coudroy1844a.html#dunoyer_ref" [10 juillet 1844]) ;
+,(ref :url "lettre_coudroy1844b.html#je_ref" [26 juillet 1844]) ;
+,(ref :url "lettre_coudroy_vol7.html" [Lettre à Coudroy, 1845]) ;
 ,(ref :url "lettre_coudroy1845b.html#dunoyer_ref" [Lettre à Coudroy, 23 mai 1845]) ;
+][
+Allusions à des rencontres avec:
+,(ref :url "lettre_coudroy1845a.html#guillaumin_ref" [Lettre à Coudroy, mai 1845]) ;
+,(ref :url "lettre_cobden1846e.html" [Lettre à Cobden, 25 mars 1846]) ;
+,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ,(ref :url "lettre_coudroy1845c.html#dunoyer_ref" [Lettre à Coudroy, 5 juin 1845]) ;
-,(autolk "lettre_coudroy1845f" "say_ref") ;
 ,(autolk "lettre_coudroy1845e" "dunoyer_ref") ;
 ,(autolk "lettre_coudroy1845d" "dunoyer_ref") ;
+][
+Président de l’Académie des sciences morales et politiques:
+,(ref :url "eloge_comte.html#dunoyer_ref" [Sur l’éloge de Charles Comte par M. Mignet]) ;
+][
+Membre de l’Association pour la liberté des échanges:
+,(ref :url "lettre_coudroy1846b.html#harcourt_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
+,(ref :url "lettre_coudroy1846e.html" [Lettre à F. Coudroy, 4 mai 1846]) ;
+][
+Mentionné parmi d'autres économistes:
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
+][
+Autres allusions:
+,(autolk "lettre_coudroy1845f" "say_ref") ;
 ,(autolk "lettre_coudroy1846f" "mb_ref")
 ])
 
@@ -1640,25 +1675,25 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ])
 
 ,(person "dupin_ch" [
-	Allusion à un discours sur l’influence de l’éducation populaire :
-,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827.
+	— Dans une  ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [lettre]) du 9 avril 1827 à ,(np "coudroy" [F. Coudroy]), allusion à un ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k106043b/f43.image" [discours]) sur les effets de l’éducation populaire paru dans la ,(tj "encycl" [,(cite-title[Revue encyclopédique])]).
 ][
-Allusion à un réquisitoire contre le duel :
+— Allusions à un réquisitoire contre le duel :
 ,(ref :url "duels.html#dupin_ref" [Réflexions sur la question des duels]) ;
 ,(ref :url "lettre_coudroy1845a.html#ps" [Lettre à Coudroy, mai 1845]).
 ][
-Ancien libre-échangiste :
+— Ancien libre-échangiste :
 ,(ref :url "projet_de_ligue_antiprotectioniste2.html#dupin_ref" [Projet de ligue anti-protectioniste]) ;
 ,(ref :url "cqovecqonvp.html#restriction" [Ce qu’on voit et ce qu’on ne voit pas, 7 : Restriction]).
-Allusion à son ouvrage sur les forces commerciales de la France :
+][
+— Allusion à son ouvrage sur les forces commerciales de la France :
 ,(ref :url "conseil_general_nievre.html#dupin_ref" [Conseil général de la Nièvre]) ;
 ][
-Antisocialiste :
+— Antisocialiste :
 ,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849]) ;
 ,(ref :url "spoliation_et_loi.html#dupin_ref" [Spoliation et loi]) ;
 ,(ref :url "la_loi.html#montalembert_ref" [La Loi]) ;
 ][
-Converti au protectionnisme,
+— Converti au protectionnisme,
 accuse les chemins de fer de nuire à la navigation :
 ,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
 soutient les primes à l’exportation :
@@ -1666,10 +1701,10 @@ soutient les primes à l’exportation :
 reproche aux libre-échangistes d’être trop absolus :
 ,(ref :url "de_la_moderation.html" [De la modération]).
 ][
-« Mettre les pratiques en maximes » :
+— « Mettre les pratiques en maximes » :
 ,(ref :url "traite_belge.html#guizot_ref" [La tribune et la presse à propos du traité belge]) ;
 ][
-Simples mentions :
+— Simples mentions :
 ,(ref :url "metaphores.html#argout_ref" [Métaphores]) ;
 ,(ref :url "cqovecqonvp.html#dupin_ref" [Ce qu’on voit et ce qu’on ne voit pas, 5 : Travaux publics]).
 ])
@@ -1953,9 +1988,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5])
 ,(ref :url "justice_fraternite.html#fenelon_ref" [Justice et fraternité])
 ])
 
-,(personne "franklin" "Franklin" "Benjamin" "1706-1790" [
-,(ref :url "lettre_coudroy1827a.html#franklin_ref" [Lettre à F. Coudroy, 9 avril 1827]) ;
-,(ref :url "incompatibilites_parlementaires.html#washington_ref" [Incompatibilités parlementaires]) ;
+,(person "franklin" [
+Allusion aux ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k27972d" (cite-title[Mélanges de morale, d’économie et de politique])) dans une ,(ref :url "lettre_coudroy1827a.html#franklin_ref" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827.
+][
+Autres allusions : ,(ref :url "incompatibilites_parlementaires.html#washington_ref" [Incompatibilités parlementaires]) ;
 ,(autolk "lettre12" "franklin_ref") ;
 ,(autolk "ligue_18" "smith_ref") ;
 ])
@@ -2530,15 +2566,18 @@ remplacé le 11 mai 1850 par Émile Jaubert.
 ,(autolk "ligue_34" "lamartine_ref") ;
 ])
 
-,(personne "lamennais" "Lamennais" "Félicité Robert de" "1782-1854" [
-,(ref :url "lettre_coudroy1827a.html" [Lettre à F. Coudroy, 9 avril 1827]) ;
-,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
-,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
-,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "projet_preface_harmonies.html#bacon_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+,(person "lamennais" [
+Fait partie des auteurs lus par Bastiat, comme en témoignent une ,(ref :url "lettre_coudroy1827a.html" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827 et son ,(ref :url "projet_preface_harmonies.html#bacon_ref" [projet de préface]) pour les ,(cite-title[Harmonies économiques]).
+][
+Citations:
 ,(ref :url "propriete_et_loi.html#lamennais_ref" [Propriété et loi]) ;
 ,(ref :url "de_la_population.html#lamennais_ref" [De la population]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#lamennais_ref" [Baccalauréat et socialisme])
+][
+Parut envisager un moment de rejoindre l’Association pour la liberté des échanges:
+,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
+,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
+,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
 ])
 
 ,(personne "lamoriciere" "Lamoricière" "Christophe Louis Léon Juchault de" "1806-1865" [
@@ -3921,7 +3960,7 @@ Simple mention :
 ])
 
 ,(person "say_jb" [
-Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il ,(ref :url "lettre_horace_say1844.html" [reconnaît]) Jean-Baptiste Say pour son père intellectuel. Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père.
+Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il ,(ref :url "lettre_horace_say1844.html" [reconnaît]) Jean-Baptiste Say pour son père intellectuel. Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père, aujourd’hui conservés à la ,(ref :url "http://archivesetmanuscrits.bnf.fr/ark:/12148/cc12596p" [Bibliothèque nationale de France]).
 	][
 Citations précises.
 
@@ -4028,8 +4067,8 @@ Sous la plume de Proudhon :
 ,(autolk "ligue_27" "scott_ref") ;
 ])
 
-,(personne "scott" "Scott" "Walter" "1771-1832" [
-,(ref :url "lettre_calmetes1829a.html" [Lettre à V. Calmètes, 12 mars 1829])
+,(person "scott" [
+Une allusion dans une ,(ref :url "lettre_calmetes1829a.html" [lettre]) à ,(np "calmetes" [V. Calmètes]) du 12 mars 1829.
 ])
 
 ,(personne "scribe" "Scribe" "" "" [
@@ -4114,18 +4153,14 @@ Sous la plume de Proudhon :
 Une allusion dans ,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résultat]), où Bastiat forge le terme “sisyphisme” pour se gausser de la politique protectionniste, qui diminue les résultats du travail sous prétexte d’accroître le travail.
 ])
 
-,(personne "smith" "Smith" "Adam" "1723-1790" [
-,(ref :url "lettre_coudroy1825.html#say_jb_ref" [Lettre à Félix Coudroy, 8 janvier 1825]) ;
-,(ref :url "question_vinicole.html#duchatel_ref" [Mémoire sur la question vinicole (note)]) ;
-,(ref :url "lettre_cobden1844.html" [Lettre à R. Cobden, 24 novembre 1844]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
-,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) ;
-,(ref :url "le_vol_a_la_prime.html#smith_ref" [Le vol à la prime 1]), ,(ref :url "le_vol_a_la_prime.html#smith_ref2" [2]) ;
-,(ref :url "projet_preface_harmonies.html#smith_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
-,(ref :url "propriete_et_spoliation.html#smith_ref" [Propriété et spoliation I]), ,(ref :url "propriete_et_spoliation4.html#smith_ref" [IV]) ;
-,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#smith_ref" [Guerre aux chaires d’économie politique]) ;
-,(ref :url "introduction_cobden_ligue.html#cobden_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
+,(person "smith" [
+Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, Smith est mentionné parmi les auteurs auxquels Bastiat doit son éducation économique, avec ,(np "say_jb" [J.-B. Say]), ,(np "destutt" [Destutt de Tracy]) et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]).
+Bastiat évoque également sa dette intellectuelle envers Adam Smith dans une ,(ref :url "lettre_cobden1844.html" [lettre]) à ,(np "cobden" [R. Cobden]) du 24 novembre 1844 et dans une ,(ref :url "lettre_journal_economistes.html#carey_ref" [lettre]) au ,(tj "je" [,(cite-title[Journal des économistes])]) à la fin de sa vie.
+][
+
+Citations ou allusions à des passages précis:
+,(ref :url "le_vol_a_la_prime.html#smith_ref" [Le vol à la prime 1])
+,(ref :url "propriete_et_spoliation.html#smith_ref" [Propriété et spoliation I])
 ,(ref :url "besoins_efforts_satisfactions.html#smith_ref" [Besoins, efforts, satisfactions (note)]) ;
 ,(ref :url "des_besoins_de_l_homme.html#smith_ref" [Des besoins de l’homme]) (plusieurs fois) ;
 ,(ref :url "valeur_service.html#smith_ref" [La valeur découle du service]) (plusieurs fois) ;
@@ -4135,13 +4170,28 @@ Une allusion dans ,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résult
 ,(ref :url "echange.html#smith_ref" [Échange]) ;
 ,(ref :url "de_la_valeur.html#smith_ref" [De la valeur]) (plusieurs fois) ;
 ,(ref :url "propriete_fonciere.html#smith_ref" [Propriété foncière]) (plusieurs fois) ;
+][
+
+Mentionné comme figure archétypale du laisser-faire:
+,(ref :url "question_vinicole.html#duchatel_ref" [Mémoire sur la question vinicole (note)]) ;
+,(ref :url "introduction_cobden_ligue.html#cobden_ref" [Introduction à Cobden et la Ligue]) (plusieurs fois) ;
 ,(ref :url "lettre_larnac.html#smith_ref" [De la réforme parlementaire]) ;
+][
+Mentionné parmi d'autres économistes, généralement en compagnie de Say:
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
+,(ref :url "conclusion_sophismes.html#bentham_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]) ;
+,(ref :url "le_vol_a_la_prime.html#smith_ref2" [2]) ;
+,(ref :url "projet_preface_harmonies.html#smith_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
+,(ref :url "propriete_et_spoliation4.html#smith_ref" [Propriété et spoliation IV]) ;
+,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
+,(ref :url "guerre_aux_chaires_d_economie_politique.html#smith_ref" [Guerre aux chaires d’économie politique]) ;
 ,(ref :url "traite_belge.html#smith_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "livre_vidal.html#smith_ref" [Sur un livre de M. Vidal]) ;
-,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
 ,(ref :url "sentinelle3.html#turgot_ref" [Liberté commerciale, état de la question en Angleterre 1]) ;
 ,(autolk "lettre_cobden1847b" "donato_ref") ;
 ,(autolk "lettre_paillottet1850i" "fontenay_ref") ;
+][
+Dans des discours de ligueurs anglais traduits par Bastiat:
 ,(autolk "ligue_4" "smith_ref") ;
 ,(autolk "ligue_9" "smith_ref") ;
 ,(autolk "ligue_10" "smith_ref") ;
@@ -4630,13 +4680,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
 ])
 
-,(personne "young" "Young" "Edward" "1683-1765" [
+,(personne "young_e" "Young" "Edward" "1683-1765" [
 ,(autolk "anglomanie_anglophobie" "milton_ref")
 ])
 
 ])
 
-	
 ])
 (tous_les_scripts)
 )
