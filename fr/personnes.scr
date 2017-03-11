@@ -1346,24 +1346,29 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ,(autolk "capital" "cujas_ref")
 ])
 
-,(personne "cunin" "Cunin-Gridaine" "Laurent Cunin, dit" "1778-1859" [
-,(ref :url "fisc_vigne.html#cunin_ref" [Le fisc et la vigne]) ;
-,(ref :url "tarifs_francais_anglais.html#cunin_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples 1]), ,(ref :url "tarifs_francais_anglais.html#cunin_ref2" [2]) ;
-,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)]) ;
-,(ref :url "ministre_du_commerce.html" [À M. le ministre de l’Agriculture et du Commerce]) ;
+,(person "cunin" [
+Lettres ouvertes à — :
 ,(ref :url "les_deux_haches.html" [Les deux haches]) ;
-,(ref :url "invasion_produits_etrangers.html#cunin_ref" [À quoi se réduit l’invasion]) ;
-,(ref :url "logique_cunin_gridaine.html" [La logique de M. Cunin-Gridaine]) ;
+,(ref :url "ministre_du_commerce.html" [À M. le ministre de l’Agriculture et du Commerce]).
+][
+Allusions à diverses déclarations ou publications :
+,(ref :url "fisc_vigne.html#cunin_ref" [Le fisc et la vigne]) ;
+,(autolk "question_vinicole" "cunin_ref") ;
+,(autolk "impot_foncier_landes" "cunin_ref") ;
+,(ref :url "tarifs_francais_anglais.html#cunin_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
+,(autolk "question_conseils_generaux") ;
 ,(ref :url "questions_conseils_generaux.html" [D’autres questions aux Conseils généraux]) ;
 ,(ref :url "le_vol_a_la_prime.html#cunin_ref" [Le vol à la prime (note)]) ;
-,(ref :url "de_la_moderation.html" [De la modération]) ;
 ,(ref :url "traite_belge.html#cunin_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(autolk "au_moniteur_industriel" "cunin_ref") ;
-,(autolk "funestes_illusions" "cunin_ref") ;
+,(ref :url "invasion_produits_etrangers.html#cunin_ref" [À quoi se réduit l’invasion]) ;
+,(ref :url "logique_cunin_gridaine.html" [La logique de M. Cunin-Gridaine]) ;
+,(ref :url "de_la_moderation.html" [De la modération]) ;
+,(autolk "funestes_illusions" "cunin_ref").
+][
+Simples mentions :
 ,(autolk "sentinelle5" "cunin_ref") ;
-,(autolk "question_vinicole" "cunin_ref") ;
-,(autolk "question_conseils_generaux" "cunin_ref") ;
-,(autolk "impot_foncier_landes" "cunin_ref")
+,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)]).
 ])
 
 ,(person "curius" [
@@ -1634,22 +1639,39 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#duchene_ref" [Lettre 11])
 ,(autolk "conseil_general_nievre" "dupin_ref")
 ])
 
-,(personne "dupin_ch" "Dupin" "Charles" "1784-1873" [
-,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre à F. Coudroy, 9 avril 1827]) ;
+,(person "dupin_ch" [
+	Allusion à un discours sur l’influence de l’éducation populaire :
+,(ref :url "lettre_coudroy1827a.html#encycl_ref" [Lettre]) à ,(np "coudroy" [F. Coudroy]) du 9 avril 1827.
+][
+Allusion à un réquisitoire contre le duel :
 ,(ref :url "duels.html#dupin_ref" [Réflexions sur la question des duels]) ;
-,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
-,(ref :url "metaphores.html#argout_ref" [Métaphores]) ;
-,(ref :url "le_vol_a_la_prime.html#dupin_ref" [Le vol à la prime]) ;
-,(ref :url "la_loi.html#montalembert_ref" [La Loi]) ;
-,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849]) ;
-,(ref :url "de_la_moderation.html" [De la modération]) ;
-,(ref :url "cqovecqonvp.html#dupin_ref" [Ce qu’on voit et ce qu’on ne voit pas, 5 : Travaux publics]) ;
-,(ref :url "cqovecqonvp.html#restriction" [Ce qu’on voit et ce qu’on ne voit pas, 7 : Restriction]) ;
-,(ref :url "conseil_general_nievre.html#dupin_ref" [Conseil général de la Nièvre]) ;
-,(ref :url "spoliation_et_loi.html#dupin_ref" [Spoliation et loi]) ;
+,(ref :url "lettre_coudroy1845a.html#ps" [Lettre à Coudroy, mai 1845]).
+][
+Ancien libre-échangiste :
 ,(ref :url "projet_de_ligue_antiprotectioniste2.html#dupin_ref" [Projet de ligue anti-protectioniste]) ;
+,(ref :url "cqovecqonvp.html#restriction" [Ce qu’on voit et ce qu’on ne voit pas, 7 : Restriction]).
+Allusion à son ouvrage sur les forces commerciales de la France :
+,(ref :url "conseil_general_nievre.html#dupin_ref" [Conseil général de la Nièvre]) ;
+][
+Antisocialiste :
+,(ref :url "lettre_cheuvreux1849n.html#dupin_ref" [Lettre à Mme Cheuvreux, 8 octobre 1849]) ;
+,(ref :url "spoliation_et_loi.html#dupin_ref" [Spoliation et loi]) ;
+,(ref :url "la_loi.html#montalembert_ref" [La Loi]) ;
+][
+Converti au protectionnisme,
+accuse les chemins de fer de nuire à la navigation :
+,(ref :url "effort_resultat.html#dupin_ref" [Effort, résultat]) ;
+soutient les primes à l’exportation :
+,(ref :url "le_vol_a_la_prime.html#dupin_ref" [Le vol à la prime]) ;
+reproche aux libre-échangistes d’être trop absolus :
+,(ref :url "de_la_moderation.html" [De la modération]).
+][
+« Mettre les pratiques en maximes » :
 ,(ref :url "traite_belge.html#guizot_ref" [La tribune et la presse à propos du traité belge]) ;
-,(ref :url "lettre_coudroy1845a.html#ps" [Lettre à Coudroy, mai 1845]) ;
+][
+Simples mentions :
+,(ref :url "metaphores.html#argout_ref" [Métaphores]) ;
+,(ref :url "cqovecqonvp.html#dupin_ref" [Ce qu’on voit et ce qu’on ne voit pas, 5 : Travaux publics]).
 ])
 
 ,(personne "dupontdelporte" "Dupont-Delporte" "Henri" "1783-1854" [
@@ -2390,14 +2412,19 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "lettre_coudroy1841a.html#domenger_ref" [Lettre à F. Coudroy, 2 janvier 1841])
 ])
 
-,(personne "lacave" "Lacave-Laplagne" "Jean" "1795-1849" [
+,(person "lacave" [
+Allusions à diverses déclarations :
 ,(ref :url "tarifs_francais_anglais.html#lacave_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
+,(ref :url "douane_octroi.html#lacave_ref" [Le National]).
+][
+Dans une ,(link "lettre_coudroy1845f" "lettre" "guizot_ref") à ,(np "coudroy" [F. Coudroy]) du 3 juillet 1845, Bastiat mentionne que Lacave-Laplagne lui a fait demander un exemplaire de ,(cite-title(ref :url "cobden_ligue.html" [Cobden et la Ligue])).
+Il évoque ensuite sa rencontre avec lui, à l’occasion de la création de l’Association pour la liberté des échanges, dans une
+,(ref :url "lettre_coudroy1846c.html#lacave_ref" [lettre]) du 18 avril 1846.
+][
+Simples mentions :
 ,(ref :url "effort_resultat.html#lacave_ref" [Effort, résultat (note)]) ;
-,(ref :url "lettre_coudroy1846c.html#lacave_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
-,(ref :url "douane_octroi.html#lacave_ref" [Le National]) ;
 ,(ref :url "lettre_larnac.html#lacave_ref" [De la réforme parlementaire]) ;
-,(autolk "lettre_coudroy1845f" "guizot_ref") ;
-,(autolk "question_conseils_generaux" "lacave_ref")
+,(autolk "question_conseils_generaux" "lacave_ref").
 ])
 
 ,(personne "lacaze" "Lacaze" "Joseph, Jacques, Margueritte, Bernard" "1798-1874" [
@@ -2867,22 +2894,25 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ,(autolk "ligue_5" "shakespeare_ref") ;
 ])
 
-,(personne "mimerel" "Mimerel" "Auguste" "1786-1871" [
-,(p*[,(ref :url "la_loi.html#mimerel_ref" [La Loi]) ;
-,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)])
-][Comité Mimerel :
+,(person "mimerel" [
+Allusions à sa proposition de création d’aides sociales :
+,(ref :url "spoliation_et_loi.html#mimerel_ref" [Spoliation et loi]) ;
+,(ref :url "la_loi.html#mimerel_ref" [La Loi]).
+][
+Citation d’une lettre adressée au gouvernement par le comité Odier-Mimerel :
+,(ref :url "generalites.html#odier_ref" [Sur les généralités (note)]).
+][
+Autres allusions au comité Mimerel :
+,(ref :url "sentinelle7.html#mimerel_ref" [À M. le rédacteur en chef de ,(cite-title[la Presse])]) ;
 ,(ref :url "tarifs_francais_anglais.html#mimerel_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
-,(ref :url "projet_de_ligue_antiprotectioniste1.html#mimerel_ref" [Projet de ligue anti-protectioniste]) ;
 ,(ref :url "abondance_disette.html#mimerel_ref" [Abondance, disette]) ;
+,(link "ligue_23" "Cobden et la Ligue" "presse_ref") ;
+,(ref :url "projet_de_ligue_antiprotectioniste1.html#mimerel_ref" [Projet de ligue anti-protectioniste]) ;
 ,(ref :url "plan_de_campagne.html#odier_ref" [D’un plan de campagne proposé à l’Association]) ;
 ,(ref :url "legalite_moralite.html#odier_ref" [Légalité, moralité]) ;
-,(ref :url "la_loi.html#mimerel_ref" [La Loi]) ;
-,(ref :url "protectionisme_et_communisme.html#mimerel_ref" [Protectionisme et communisme]) ;
-,(ref :url "spoliation_et_loi.html#mimerel_ref" [Spoliation et loi]) ;
 ,(ref :url "pdfe1849.html#blanc_ref" [Lettre à quelques électeurs]) ;
-,(ref :url "sentinelle7.html#mimerel_ref" [À M. le rédacteur en chef de ,(cite-title[la Presse])]) ;
-,(autolk "ligue_23" "presse_ref") ;
-])])
+,(ref :url "protectionisme_et_communisme.html#mimerel_ref" [Protectionisme et communisme]).
+])
 
 ,(personne1nom "minos" "Minos" "légendaire" [
 ,(ref :url "baccalaureat_et_socialisme.html#minos_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
@@ -4080,8 +4110,8 @@ Sous la plume de Proudhon :
 ,(autolk "ligue_16" "sismondi_ref") (note) ;
 ])
 
-,(personne1nom "sisyphe" "Sisyphe" "légendaire" [
-,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résultat])
+,(person "sisyphe" [
+Une allusion dans ,(ref :url "effort_resultat.html#sisyphe_ref" [Effort, résultat]), où Bastiat forge le terme “sisyphisme” pour se gausser de la politique protectionniste, qui diminue les résultats du travail sous prétexte d’accroître le travail.
 ])
 
 ,(personne "smith" "Smith" "Adam" "1723-1790" [
