@@ -6,32 +6,32 @@
 ;Alphabet à répéter sous chaque lettre
 (define (alphabet)
 (p :center *[
-,(a :href :#A [A])
-,(a :href :#B [B])
-,(a :href :#C [C])
-,(a :href :#D [D])
-,(a :href :#E [E])
-,(a :href :#F [F])
-,(a :href :#G [G])
-,(a :href :#H [H])
-,(a :href :#I [I])
-,(a :href :#J [J])
-,(a :href :#K [K])
-,(a :href :#L [L])
-,(a :href :#M [M])
-,(a :href :#N [N])
-,(a :href :#O [O])
-,(a :href :#P [P])
-,(a :href :#Q [Q])
-,(a :href :#R [R])
-,(a :href :#S [S])
-,(a :href :#T [T])
-,(a :href :#U [U])
-,(a :href :#V [V])
-,(a :href :#W [W])
-,(a :href :#X [X])
-,(a :href :#Y [Y])
-,(a :href :#Z [Z])
+,(a :href :#a [A])
+,(a :href :#b [B])
+,(a :href :#c [C])
+,(a :href :#d [D])
+,(a :href :#e [E])
+,(a :href :#f [F])
+,(a :href :#g [G])
+,(a :href :#h [H])
+,(a :href :#i [I])
+,(a :href :#j [J])
+,(a :href :#k [K])
+,(a :href :#l [L])
+,(a :href :#m [M])
+,(a :href :#n [N])
+,(a :href :#o [O])
+,(a :href :#p [P])
+,(a :href :#q [Q])
+,(a :href :#r [R])
+,(a :href :#s [S])
+,(a :href :#t [T])
+,(a :href :#u [U])
+,(a :href :#v [V])
+,(a :href :#w [W])
+,(a :href :#x [X])
+,(a :href :#y [Y])
+,(a :href :#z [Z])
 ]))
 
 (defun
@@ -39,7 +39,7 @@
   (x &rest r)
   (div :class "lettre" [
     ,(tag :a :name x)
-    ,(subtitle x)
+    ,(subtitle (string-upcase x))
     ,(alphabet)
     ,(hrule)
   ] r (hrule))
@@ -88,7 +88,7 @@
 (sommaire [
 ,(p*[En travaux. Fonctions filtre/tri à venir. ,(print nbpers)])
 
-,(lettre "A" [
+,(lettre "a" [
 
 ,(person "abdelkader" [,(autolk "lettre_cheuvreux1849f" "abdelkader_ref").])
 
@@ -274,7 +274,7 @@ Mentionné dans une citation : ,(autolk "baccalaureat_et_socialisme" "augustin_
 ])
 
 
-]),(lettre "B" [
+]),(lettre "b" [
 
 ,(person "babeuf" [
 ,(autolk "baccalaureat_et_socialisme" "mably_ref") (plusieurs fois) ;
@@ -612,7 +612,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
 ,(ref :url "de_la_valeur.html#bonald_ref" [De la valeur])
 ])
 
-,(personne "bonaparte_ln" "Bonaparte" "Louis-Napoléon" "1808-1873" [
+,(person "bonaparte_ln" [
 ,(ref :url "lettre_domenger1849b.html#cavaignac_ref" [Lettre à Domenger, 3 février 1849]) ;
 ,(ref :url "paix_et_liberte.html#louisnapoleon_ref" [Paix et liberté]) ;
 ,(ref :url "les_trois_conseils.html#bonaparte_ref" [Les trois conseils]) ;
@@ -626,7 +626,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
 ,(autolk "question_religieuse" "louisphilippe_ref")
 ])
 
-,(personne "bonaparte" "Bonaparte" "Napoléon" "1769-1821" [
+,(person "bonaparte" [
 ,(ref :url "aux_electeurs_landes.html#bonaparte_ref" [Aux électeurs du département des Landes]) ;
 ,(ref :url "fisc_vigne.html#humann_ref" [Le fisc et la vigne]) ;
 ,(ref :url "tarifs_francais_anglais.html#bonaparte_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
@@ -650,11 +650,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#boileau_ref" [Lettre 9])
 Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9]) ;
 ])
 
-,(personne "bordogni" "Bordogni" "Marco" "1789-1856" [
+,(person "bordogni" [
 ,(ref :url "lettre_cheuvreux1849b.html#say_ref" [Lettre à Mme Cheuvreux, février 1849]) ;
 ])
 
-,(personne "bossuet" "Bossuet" "Jacques-Bénigne" "1627-1704" [
+,(person "bossuet" [
 ,(ref :url "la_loi.html#bossuet_ref" [La Loi]) ;
 ,(ref :url "moteur_social.html#bossuet_ref" [Moteur social]) ;
 ,(ref :url "projet_preface_harmonies.html#bacon_ref" [Projet de préface pour les ,(cite-title[Harmonies])]) ;
@@ -665,20 +665,20 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "lettre_coudroy1845f" "simon_ref") ;
 ])
 
-,(personne "bougainville" "Bougainville" "Louis-Antoine de" "1729-1811" [
+,(person "bougainville" [
 ,(ref :url "baccalaureat_et_socialisme.html#azara_ref" [Baccalauréat et socialisme])
 ])
 
-,(personne "boursault" "Boursault" "Edme" "1638-1701" [
+,(person "boursault" [
 ,(ref :url "lettre_cobden1846l.html#boursault_ref" [Lettre à Cobden, 29 septembre 1846]),
 ,(ref :url "sentinelle7.html#boursault_ref" [À M. le rédacteur en chef de ,(cite-title[la Presse])]) : citation du ,(cite-title[Mercure galant, ou la Comédie sans titre])
 ])
 
-,(personne "bouverie" "Bouverie" "" "" [
+,(person "bouverie" [
 ,(ref :url "sentinelle8.html#cobden_ref" [Question des sucres en Angleterre])
 ])
 
-,(personne "bowring" "Bowring" "John" "1792-1872" [
+,(person "bowring" [
 ,(ref :url "tarifs_francais_anglais.html#bowring_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) ;
 ,(ref :url "au_journal_de_lille.html#huskisson_ref" [Au ,(cite-title[Journal de Lille])]) ;
 ,(autolk "ligue_2" "cobden_ref") ;
@@ -689,11 +689,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "ligue_34" "cobden_ref") ;
 ])
 
-,(personne "briggs" "Briggs" "John" "1785-1875" [
+,(person "briggs" [
 ,(autolk "ligue_20").
 ])
 
-,(personne "bright" "Bright" "John" "1811-1889" [
+,(person "bright" [
 ,(ref :url "lettre_cobden1846h.html#bright_ref" [Lettre à Cobden, 25 mai 1846]) ;
 ,(ref :url "projet_de_ligue_antiprotectioniste3.html#bright_ref" [Projet de ligue anti-protectioniste]) ;
 ,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
@@ -726,15 +726,15 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "ligue_35" "villiers_ref") ;
 ])
 
-,(personne "bright_t" "Bright" "Thomas" "" [
+,(person "bright_t" [
 ,(autolk "lettre_coudroy1845d" "ashworth_ref") ;
 ])
 
-,(personne "brissot" "Brissot" "Jacques Pierre" "1754-1793" [
+,(person "brissot" [
 ,(ref :url "baccalaureat_et_socialisme.html#morelly_ref" [Baccalauréat et socialisme])
 ])
 
-,(personne "broglie" "Broglie" "Victor de" "1785-1870" [
+,(person "broglie" [
 ,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
 ,(ref :url "lettre_cobden1846e.html#harcourt_ref" [Lettre à Cobden, 25 mars 1846]) ;
 ,(ref :url "aux_membres_de_l_association.html#broglie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
@@ -742,11 +742,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "lettre_coudroy1846f" "guizot_ref")
 ])
 
-,(personne "broquard" "Broquard de Bussières" "Charles" "1791-1853" [
+,(person "broquard" [
 ,(ref :url "lettre_coudroy1846c.html#lamartine_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
 ])
 
-,(personne "brougham" "Brougham" "Henry" "1778-1868" [
+,(person "brougham" [
 ,(autolk "ligue_2" "brougham_ref") ;
 ,(autolk "ligue_11" "peel_ref") ;
 ])
@@ -762,12 +762,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(ref :url "baccalaureat_et_socialisme.html#brutus_ref" [Baccalauréat et socialisme]) (plusieurs fois)
 ])
 
-,(personne "buchanan" "Buchanan" "David" "1779-1848" [
+,(person "buchanan" [
 ,(ref :url "propriete_et_spoliation.html#buchanan_ref" [Propriété et spoliation I]), ,(ref :url "propriete_et_spoliation7.html#buchanan_ref" [VII]) ;
 ,(ref :url "propriete_fonciere.html#buchanan_ref" [Propriété foncière])
 ])
 
-,(personne "buckingham" "Buckingham" "Richard Plantagenet etc., duc de" "1797-1861" [
+,(person "buckingham" [
 ,(ref :url "lettre_lamartine_2.html#bentinck_ref" [À M. de Lamartine]) ;
 ,(autolk "ligue_1" "buckingham_ref") ;
 ,(autolk "ligue_3" "buckingham_ref") ;
@@ -781,12 +781,12 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ,(autolk "ligue_28" "buckingham_ref") ;
 ])
 
-,(personne "buffet" "Buffet" "" "" [
+,(person "buffet" [
 ,(autolk "lettre_domenger1849d" "buffet_ref") ;
 ,(autolk "lettre_domenger1849f" "buffet_ref")
 ])
 
-,(personne "buffon" "Buffon" "" "" [
+,(person "buffon" [
 ,(autolk "impot_foncier_landes" "buffon_ref") ;
 ])
 
@@ -803,36 +803,36 @@ Une parole similaire est rapportée dans ,(ref :url "hausse_aliments_baisse_sala
 Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849i" "lettre" "bugeaud_ref") à ,(np "domenger" [Domenger]) de juin 1849.
 ])
 
-,(personne "buloz" "Buloz" "François" "1803-1877" [
+,(person "buloz" [
 ,(ref :url "lettre_cobden1846a.html#buloz_ref" [Lettre à Cobden, 13 janvier 1846]) ;
 ,(autolk "lettre_paillottet1850a" "fontenay_ref") ;
 ])
 
-,(personne "bulwer" "Bulwer" "Henry" "1801-1872" [
+,(person "bulwer" [
 ,(ref :url "rep_fr9.html#cobden" [Article dans La République française]) ;
 ,(ref :url "lettre_cobden1847e.html#palmerston_ref" [Lettre à Cobden, 15 octobre 1847])
 ])
 
-,(personne "buret" "Buret" "Eugène" "1810-1842" [
+,(person "buret" [
 ,(ref :url "des_salaires.html#sismondi_ref" [Des salaires]) ;
 ,(ref :url "le_mal.html#sismondi_ref" [Le mal])
 ])
 
-,(personne "burke" "Burke" "Edmund" "" [
+,(person "burke" [
 ,(ref :url "incompatibilites_parlementaires.html#north_ref" [Incompatibilités parlementaires]) ;
 ,(autolk "ligue_9" "burke_ref") ;
 ,(autolk "ligue_18" "smith_ref") ;
 ])
 
-,(personne "burns" "Burns" "Robert" "1759-1796" [
+,(person "burns" [
 ,(autolk "anglomanie_anglophobie" "milton_ref")
 ])
 
-,(personne "bursotti" "Bursotti" "Giovanni" "?" [
+,(person "bursotti" [
 ,(ref :url "lettre_cobden1847c.html#bursotti_ref" [Lettre à Cobden, 20 avril 1847]) ;
 ])
 
-,(personne "butler" "Butler" "" "" [
+,(person "butler" [
 ,(ref :url "introduction_cobden_ligue.html#butler_ref" [Introduction à Cobden et la Ligue])
 ])
 
@@ -844,9 +844,9 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 ])
 
 ])
-,(lettre "C" [
+,(lettre "c" [
 
-,(personne "cabet" "Cabet" "Étienne" "1788-1856" [
+,(person "cabet" [
 ,(ref :url "organisation.html#fourier_ref" [Organisation naturelle, organisation artificielle]) ;
 ,(ref :url "propriete_et_loi.html#fourier_ref" [Propriété et loi]) ; ,(ref :url "justice_fraternite.html" [Justice et fraternité]) ;
 ,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) (plusieurs fois) ;
@@ -856,7 +856,7 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 ,(ref :url "organisation_et_liberte.html#fourier_ref" [Organisation et liberté])
 ])
 
-,(personne1nom "cadmus" "Cadmos" "légendaire" [
+,(person "cadmus" [
 ,(ref :url "concurrence.html#cadmus_ref" [Concurrence]) ;
 ,(ref :url "de_la_concurrence.html#cadmus_ref" [De la concurrence])
 ])
@@ -866,30 +866,30 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 [,(ref :url "lettres_calmetes.html" [14 lettres à —.])]
 )
 
-,(personne "camden" "Camden" "William" "1551-1623" [
+,(person "camden" [
 ,(autolk "ligue_19" "camden_ref")
 ])
 
-,(personne "campbell" "Campbell" "Thomas" "1777-1844" [
+,(person "campbell" [
 ,(autolk "anglomanie_anglophobie" "milton_ref")
 ])
 
-,(personne "canning" "Canning" "" "" [
+,(person "canning" [
 ,(ref :url "lettre_larnac.html#smith_ref" [De la réforme parlementaire])
 ])
 
-,(personne "carey" "Carey" "Henry Charles" "1793-1879" [
+,(person "carey" [
 ,(ref :url "propriete_fonciere.html#carey_ref" [Propriété foncière]) ;
 ,(ref :url "lettre_journal_economistes.html#carey_ref" [Lettre au ,(cite-title[Journal des économistes])]) ;
 ,(autolk "lettre_paillottet1850i" "carey_ref") ;
 ,(autolk "lettre_paillottet1850h" "carey_ref")
 ])
 
-,(personne "carlier" "Carlier" "Pierre" "1794-1858" [
+,(person "carlier" [
 ,(ref :url "la_loi.html#montalembert_ref" [La Loi])
 ])
 
-,(personne "carrier" "Carrier" "Jean-Baptiste" "1756-1794" [
+,(person "carrier" [
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme])
 ])
 
@@ -897,33 +897,33 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 ,(ref :url "lettre_calmetes1822a.html#carriere_ref" [Lettre]) à ,(np "calmetes" [Calmètes]) du 20 octobre 1822.
 ])
 
-,(personne "carteret" "Carteret" "John" "1690-1763" [
+,(person "carteret" [
 ,(ref :url "incompatibilites_parlementaires.html#walpole_ref" [Incompatibilités parlementaires])
 ])
 
-,(personne "cartouche" "Cartouche" "Louis-Dominique Garthausen, dit" "1693-1721" [
+,(person "cartouche" [
 ,(ref :url "metaphores.html#cartouche_ref" [Métaphores])
 ])
 
-,(personne "castaignede" "Castaignède" "Jean" "?" [
+,(person "castaignede" [
 ,(ref :url "lettre_laurence.html#castaignede_ref" [Lettre à J. Laurence, 9 novembre 1844])
 ])
 
-,(personne "catilina" "Catilina" "Lucius Sergius" "v. 108-62 av. J.-C." [
+,(person "catilina" [
 ,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme])
 ])
 
-,(personne1nom "caton" "Caton l’Ancien" "v. 234-149 av. J.-C." [
+,(person "caton" [
 ,(ref :url "physiologie_de_la_spoliation.html#socrate_ref" [Physiologie de la spoliation]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]) (plusieurs fois) ;
 ,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !])
 ])
 
-,(personne "caussidiere" "Caussidière" "" "" [
+,(person "caussidiere" [
 ,(autolk "lettre_coudroy1848g" "blanc_ref")
 ])
 
-,(personne "cavaignac" "Cavaignac" "Eugène" "1802-1857" [
+,(person "cavaignac" [
 ,(ref :url "lettre_domenger1848b.html" [Lettre à Domenger, 3 septembre 1848]) ;
 ,(ref :url "lettre_domenger1849b.html#cavaignac_ref" [3 février 1849]) ;
 ,(ref :url "paix_et_liberte.html#lamartine_ref" [Paix et liberté]) (plusieurs fois) ;
@@ -935,14 +935,14 @@ Bastiat fait allusion à la mort de Bugeaud dans une ,(link "lettre_domenger1849
 ,(autolk "lettre_cobden1848h" "cavaignac_ref")
 ])
 
-,(personne "cervantes" "Cervantes" "Miguel de" "1547-1616" [
+,(person "cervantes" [
 ,(ref :url "les_trois_echevins.html#cervantes_ref" [La protection ou les trois échevins]) ;
 ,(ref :url "justice_fraternite.html#cervantes_ref" [Justice et fraternité]) ;
 ,(ref :url "l_indiscret.html#proudhon_ref" [L’indiscret]) ;
 ,(ref :url "barataria.html" [Barataria])
 ])
 
-,(personne "cesar" "Cæsar" "Caius Julius" "100-44 av. J.-C." [
+,(person "cesar" [
 ,(ref :url "deux_morales.html#cesar_ref" [Deux morales]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#cesar_ref" [Baccalauréat et socialisme]) ;
 ,(ref :url "maudit_argent.html#titelive_ref" [Maudit argent !]) ;
@@ -1409,7 +1409,7 @@ Mentionné dans une ,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [lettre
 ])
 
 ])
-,(lettre "D" [
+,(lettre "d" [
 
 ,(personne "daguerre" "Daguerre" "Louis" "1787-1851" [
 ,(ref :url "lettre_coudroy1846b.html#daguerre_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
@@ -1515,25 +1515,25 @@ Simples mentions:
 ,(autolk "lettre_coudroy1845e" "dunoyer_ref")
 ])
 
-,(personne "devinck" "Devinck" "François Jules" "1802-1878" [
+,(person "devinck" [
 ,(ref :url "spoliation_et_loi.html#devinck_ref" [Spoliation et loi])
 ])
 
-,(personne "dezeimeris" "Dezeimeris" "Jean-Eugène" "1799-1852" [
+,(person "dezeimeris" [
 ,(ref :url "parti_democratique_libre_echange.html#ferrier_ref" [Le parti démocratique et le libre-échange])
 ])
 
-,(personne1nom "diodore" "Diodore de Sicile" [,(sc[i]),(sup[er]) s. av. J.-C.] [
+,(person "diodore" [
 ,(autolk "la_loi" "diodore_ref")
 ])
 
-,(personne1nom "diogene" "Diogène de Sinope" "312-423 av. J.-C." [
+,(person "diogene" [
 ,(ref :url "physiologie_de_la_spoliation.html#diogene_ref" [Physiologie de la spoliation]) ;
 ,(ref :url "propriete_communaute.html#diogene_ref" [Propriété, communauté]) (plusieurs fois) ;
 ,(ref :url "maudit_argent.html#diogene_ref" [Maudit argent !])
 ])
 
-,(personne "dombasle" "Dombasle" "Mathieu de" "1777-1843" [
+,(person "dombasle" [
 ,(ref :url "egaliser_les_conditions_de_production.html#dombasle_ref" [Égaliser les conditions de production]) ;
 ,(ref :url "prix_absolus.html#dombasle_ref" [Prix absolus]) ;
 ,(ref :url "encore_reciprocite.html#stcricq_ref" [Encore la réciprocité]) ;
@@ -1543,7 +1543,7 @@ Simples mentions:
 ,(autolk "lettre_coudroy1845e" "dombasle_ref")
 ])
 
-,(personne "domenger" "Domenger" "Bernard" "?" [
+,(person "domenger" [
 ,(ref :url "lettres_domenger.html" [Dix-sept lettres à —]) ;
 ,(ref :url "lettre_coudroy1840b.html#domenger_ref" [Lettre à F. Coudroy, 6 juillet 1840]),
 ,(ref :url "lettre_coudroy1841a.html#domenger_ref" [2 janvier 1841]) ;
@@ -1551,22 +1551,22 @@ Simples mentions:
 ,(autolk "lettre_coudroy1848a" "domenger_ref")
 ])
 
-,(personne "donato" "Donato" "" "" [
+,(person "donato" [
 ,(autolk "lettre_cobden1847b" "donato_ref") ;
 ])
 
-,(personne "doutre" "Doutre" "Esprit" "1811-1874" [
+,(person "doutre" [
 ,(autolk "repression_coalitions" "hume_ref")
 ])
 
-,(personne "droz" "Droz" "Joseph" "1773-1850" [
+,(person "droz" [
 ,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
 ,(ref :url "moteur_social.html#droz_ref" [Moteur social]) ;
 ,(autolk "lettre_paillottet1850i" "chevalier_ref") ;
 ,(autolk "impot_foncier_landes" "droz_ref") ;
 ])
 
-,(personne "duchatel" "Duchâtel" "Tanneguy" "1803-1867" [
+,(person "duchatel" [
 ,(ref :url "question_vinicole.html#duchatel_ref" [Mémoire sur la question vinicole]) ;
 ,(ref :url "a_tanneguy_duchatel.html" [À M. Tanneguy Duchâtel, ministre de l’Intérieur]) ; ,(ref :url "cherte_bon_marche.html#duchatel_ref" [Cherté, bon marché (note)]) ;
 ,(ref :url "lettre_cobden1846h.html#anisson_ref" [Lettre à Cobden, 25 mai 1846]) ;
@@ -1743,7 +1743,7 @@ reproche aux libre-échangistes d’être trop absolus :
 ,(autolk "lettre_coudroy1845d" "dyer_ref") ;
 ])
 	
-]),(lettre "E" [
+]),(lettre "e" [
 
 ,(personne "eichtal" "d’Eichtal" "Adolphe" "1805-1895" [
 ,(ref :url "lettre_coudroy1846b.html#harcourt_ref" [Lettre à F. Coudroy, 22 mars 1846]) ;
@@ -1806,7 +1806,7 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ,(autolk "ligue_22" "ewart_ref") ;
 ])
 
-]),(lettre "F" [
+]),(lettre "f" [
 
 ,(person "fabricius" [
 Mentionné comme exemple de renoncement aux richesses dans une ,(ref :url "lettre_calmetes1821c.html#fabricius_ref" [lettre]) à ,(np "calmetes" [Calmètes]) du 8 décembre 1821 et dans ,(ref :url "propriete_et_loi.html#robespierre_ref" [Propriété et loi]).]
@@ -2010,7 +2010,7 @@ Autres allusions : ,(ref :url "incompatibilites_parlementaires.html#washington_
 ])
 
 ])
-,(lettre "G" [
+,(lettre "g" [
 
 ,(personne1nom "galilee" "Galilée" "1564-1642" [
 ,(ref :url "guerre_aux_chaires_d_economie_politique.html#galilee_ref" [Guerre aux chaires d’économie politique]) ;
@@ -2226,7 +2226,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#argout_ref" [Lettre 9])
 ])
 
 ])	
-,(lettre "H" [
+,(lettre "h" [
 ,(personne "halevy" "Halévy" "" "" [
 ,(autolk "lettre_cheuvreux1850m" "scribe_ref")
 ])
@@ -2366,13 +2366,13 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(autolk "ligue_37" "huskisson_ref") ;
 ])
 
-]),(lettre "I" [
+]),(lettre "i" [
 
 ,(personne "irenee" "Irénée de Lyon" "(saint)" "v. 120-202" [
 ,(ref :url "baccalaureat_et_socialisme.html#clement_ref" [Baccalauréat et socialisme])
 ])
 
-]),(lettre "J" [
+]),(lettre "j" [
 
 ,(personne "jacquart" "Jacquart" "Joseph Marie Charles, dit" "1752-1834" [
 ,(ref :url "conclusion_sophismes.html#jacquart_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
@@ -2413,7 +2413,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "lettre14.html#cresus_ref" [Lettre 14])
 ])
 
-]),(lettre "K" [
+]),(lettre "k²" [
 
 ,(personne "kant" "Kant" "Emmanuel" "1724-1804" [
 ,(ref :url "lettre6.html#kant_ref" [Lettre 6]), ,(ref :url "lettre10.html#kant_ref" [Lettre 10]) (plusieurs fois) ;
@@ -2442,7 +2442,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ,(ref :url "introduction_cobden_ligue.html#kohl_ref" [Introduction à Cobden et la Ligue])
 ])
 
-]),(lettre "L" [
+]),(lettre "l" [
 
 ,(personne "labeyrie" "Labeyrie" "(?)" "?" [
 ,(ref :url "lettre_coudroy1841a.html#domenger_ref" [Lettre à F. Coudroy, 2 janvier 1841])
@@ -2759,7 +2759,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ])
 
 ])
-,(lettre "M" [
+,(lettre "m" [
 
 ,(personne "mably" "Mably" "Gabriel Bonnot de" "1709-1785" [
 ,(ref :url "la_loi.html#mably_ref" [La Loi]) ;
@@ -3134,7 +3134,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(autolk "ligue_1" "murray_ref").
 ])
 
-]),(lettre "N" [
+]),(lettre "n" [
 
 ,(personne "nadaud" "Nadaud" "Martin" "1815-1898" [
 ,(ref :url "spoliation_et_loi.html#nadaud_ref" [Spoliation et loi])
@@ -3188,7 +3188,7 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ])
 
 ])
-,(lettre "O" [
+,(lettre "o" [
 
 ,(personne "oconnell" "O’Connell" "Daniel" "1775-1847" [
 ,(ref :url "lettre_cobden1845d.html#oconnell_ref" [Lettre à Cobden, 13 décembre 1845]) ;
@@ -3234,7 +3234,7 @@ Dans un discours de l’évêque Butler : ,(autolk "ligue_23" "euclide_ref") ;
 ,(ref :url "de_la_concurrence.html#owen_ref" [De la concurrence])
 ])
 
-]),(lettre "P" [
+]),(lettre "p" [
 
 ,(personne "paillottet" "Paillottet" "Prosper" "1804-1878" [
 ,(ref :url "lettres_paillottet.html" [lettres à —]) ;
@@ -3584,7 +3584,7 @@ Citation de l’,(cite-title(ref :url "https://archive.org/stream/popesessayonma
 ,(ref :url "baccalaureat_et_socialisme.html#plaute_ref" [Baccalauréat et socialisme])
 ])
 
-]),(lettre "Q" [
+]),(lettre "q" [
 
 ,(personne "quesnay" "Quesnay" "François" "1694-1774" [
 ,(ref :url "propriete_fonciere.html#quesnay_ref" [Propriété foncière]) ;
@@ -3601,7 +3601,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre11.html#quesnay_ref" [Lettre 11])
 ,(ref :url "incompatibilites_parlementaires.html#titelive_ref" [Incompatibilités parlementaires])
 ])
 
-]),(lettre "R" [
+]),(lettre "r" [
 
 ,(personne "rabaut" "Rabaut Saint-Étienne" "Jean-Paul" "1743-1793" [
 ,(ref :url "baccalaureat_et_socialisme.html#carrier_ref" [Baccalauréat et socialisme])
@@ -3718,7 +3718,8 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#ricardo_ref" [Lettre 13])
 
 ,(person "romanet" [
 Deux allusions : dans l’,(ref :url "introduction_sophismes.html#romanet_ref" [Introduction aux ,(cite-title[Sophismes économiques])]) et dans ,(ref :url "egaliser_les_conditions_de_production.html#romanet_ref" [Égaliser les conditions de production]).]
-[Le vicomte de Romanet est l’auteur de nombreux mémoires et rapports, dont ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5787451r/f13.image" [quelques-uns]) défendent des vues protectionnistes.
+[Le vicomte de Romanet est l’auteur de nombreux mémoires et rapports, dont ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5787451r/f13.image" [quelques-uns]) défendent des vues protectionnistes.]
+[Voir ,(ref :url "journaux_mi_18450515.html" [ici]) la réponse aux ,(cite-title[Sophismes économiques]) qu’il publia dans le ,(cite-title(tj "mi" [Moniteur industriel])) des 15 et 18 mai 1845.
 ])
 
 ,(personne "ronconi" "Ronconi" "Giorgio" "1810-1890" [
@@ -3843,7 +3844,7 @@ citation de ,(cite-title[La Cenerentola :]) ,(ref :url "lettre_cheuvreux1849c.h
 ])
 
 ])
-,(lettre "S" [
+,(lettre "s" [
 
 ,(personne "sade" "Sade" "Xavier de" "1777-1846" [
 ,(ref :url "sentinelle2.html#sade_ref" [Sur l’admissibilité des députés au ministère]) ;
@@ -3962,10 +3963,13 @@ Simple mention :
 ,(person "say_jb" [
 Bastiat ne manque pas de souligner sa dette intellectuelle à l’égard de Jean-Baptiste Say. Dans une ,(ref :url "lettre_calmetes1820a.html" [lettre]) du 5 mars 1820, il recommande à ,(np "calmetes" [Victor Calmètes]) le ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k96928464?rk=64378;0" [,(cite-title[Traité d’économie politique])]). Dans une ,(ref :url "lettre_coudroy1825.html#say_jb_ref" [lettre]) à ,(np "coudroy" [Félix Coudroy]) du 8 janvier 1825, il mentionne ce traité parmi les quatre ouvrages auxquels il doit son éducation économique, avec ceux de ,(np "smith" [Smith]), ,(np "destutt" [Destutt de Tracy]), et le ,(tj "censeur" [,(cite-title[Censeur])]) de ,(np "comte" [Charles Comte]) et ,(np "dunoyer" [Charles Dunoyer]). Entré en correspondance avec le fils de Jean-Baptiste, ,(np "say_h" [Horace Say]), en 1844, il ,(ref :url "lettre_horace_say1844.html" [reconnaît]) Jean-Baptiste Say pour son père intellectuel. Il semble d’ailleurs, d’après une ,(link "lettre_coudroy1845f" "lettre à Coudroy" "comte_ref") de juillet 1845, qu’Horace ait confié à Bastiat les papiers de son père, aujourd’hui conservés à la ,(ref :url "http://archivesetmanuscrits.bnf.fr/ark:/12148/cc12596p" [Bibliothèque nationale de France]).
 	][
-Citations précises.
+Citations précises :,(%raw "</p>")
+,(itemize
+(item [— ,(cite-title[Traité d’économie politique :]) ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56720/f55.item" [Discours préliminaire]), cité par ,(np "ferrier" [François Ferrier]) dans ,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique]).])
+
+(item [
 
 ,(ref :url "lettre_coudroy1827a.html#encycl_ref" [9 avril 1827]) ;
-,(ref :url "theorie_pratique.html#say_jb_ref" [Théorie, pratique]) ;
 ,(ref :url "deux_morales.html#say_jb_ref" [Deux morales]) ;
 ,(ref :url "besoins_efforts_satisfactions.html#say_ref" [Besoins, efforts, satisfactions (note)]) ;
 ,(ref :url "des_besoins_de_l_homme.html#say_ref" [Des besoins de l’homme]) ;
@@ -3982,7 +3986,8 @@ Citations précises.
 ,(ref :url "pdfe1846.html#say_ref" [À MM. les électeurs de l’arrondissement de Saint-Sever]) ;
 ,(ref :url "lettre12.html#ricardo_ref" [Lettre 12]) ;
 ,(ref :url "organisation_et_liberte.html#say_ref" [Organisation et liberté]) ;
-,(autolk "impot_foncier_landes" "say_ref") ;
+,(autolk "impot_foncier_landes" "say_ref") ;])
+)
 
 ][
 Simples allusions:
@@ -4289,7 +4294,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ])
-,(lettre "T" [
+,(lettre "t" [
 
 ,(personne "taglioni" "Taglioni" "" "" [
 ,(ref :url "monopole_naturel_artificiel.html#rubini_ref" [Monopole naturel, monopole artificiel])
@@ -4440,7 +4445,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ])
-,(lettre "V" [
+,(lettre "v" [
 
 ,(personne "vatimesnil" "Vatimesnil" "Antoine Lefebvre de" "1789-1860" [
 ,(ref :url "repression_coalitions.html#vatimesnil_ref" [Discours sur la répession des coalitions industrielles])
@@ -4565,7 +4570,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "sel_poste_douane.html#vuitry_ref" [Le sel, la poste, la douane])
 ])
 
-]),(lettre "W" [
+]),(lettre "w" [
 ,(personne "walker" "Walker" "Robert John" "1801-1869" [
 ,(ref :url "a_la_presse.html#walker_ref" [À M. le rédacteur en chef de la Presse]) ;
 ,(ref :url "discours_1.html#polk_ref" [Discours à Bordeaux]) ;
@@ -4646,7 +4651,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "incompatibilites_parlementaires.html#walpole_ref" [Incompatibilités parlementaires])
 ])
 
-,(personne "wolowski" "Wolowski" "Louis" "1810-1876" [
+,(person "wolowski" [
 ,(bio[Juriste et économiste français.])
 ,(references(p*[,(ref :url "lettre_coudroy1845e.html#wolowski_ref" [Lettre à F. Coudroy, 18 juin 1845]),
 ,(ref :url "lettre_coudroy1846c.html#chevalier_ref" [18 avril 1846]) ;
@@ -4658,23 +4663,23 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ,(ref :url "traite_belge.html#wustemberg_ref" [La tribune et la presse à propos du traité belge])
 ])
 
-]),(lettre "X" [
+]),(lettre "x" [
 
-,(personne1nom "xenocrate" "Xénocrate" "v. 396-314 av. J.-C." [
+,(person "xenocrate" [
 ,(bio[Philosophe platonicien.])
 ,(references(p*[Mentionné dans une citation : ,(ref :url "baccalaureat_et_socialisme.html#xenocrate_ref" [Baccalauréat et socialisme]).]))
 ])
 
-,(personne1nom "xenophon" "Xénophon" "v. 430-355 av. J.-C." [
+,(person "xenophon" [
 ,(references(p*[,(ref :url "nouveau_college.html#horace_ref" [D’un nouveau collége à fonder à Bayonne]) ;
 ,(ref :url "baccalaureat_et_socialisme.html#xenophon_ref" [Baccalauréat et socialisme]).]))
 ])
 
-,(personne1nom "xerxes" "Xerxès" "v. 519-465 av. J.-C." [
+,(person "xerxes" [
 ,(references(p*[,(ref :url "organisation.html#alphonse_ref" [Organisation naturelle, organisation artificielle]).]))
 ])
 
-]),(lettre "Y" [
+]),(lettre "y" [
 
 ,(personne "young" "Young" "Arthur" "1741-1820" [
 ,(ref :url "influence_protection_agriculture.html#young_ref" [Influence du régime protecteur sur la situation de l’agriculture en France])
@@ -4688,4 +4693,5 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 
 ])
 (tous_les_scripts)
+(footer (oeuvres))
 )
