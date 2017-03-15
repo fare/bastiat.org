@@ -1,0 +1,31 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Profession de foi électorale de 1842
+	- par Frédéric Bastiat")
+(document :title "Profession de foi électorale de 1842."
+	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb31771602r" [4-LE54-1499]).])
+])
+(bastiat[
+,(cher[Messieurs les électeurs,])
+,(p*[
+En me présentant à vos suffrages, j’obéis à ce besoin si naturel qui nous presse à tous d’arracher enfin notre pensée politique au domaine de l’étude pour l’initier à celui des affaires publiques.
+][
+Mais un autre espoir m’anime, celui de concourir à la réhabilitation des intérêts Chalossais. La Chalosse fut autrefois riche et prospère ; de nombreux vaisseaux transportaient ses produits dans le nord de l’Europe. Ces temps de prospérité ont disparu… ; mais ne peuvent-ils renaître ? Ces vastes royaumes où se déversaient nos vins n’ont pas disparu de la surface du globe. Cent millions de consommateurs nous y attendent ; ils veulent acheter nos vins, nous ne demandons pas mieux que de les leur vendre ; ne nous sera-t-il jamais permis de nous entendre ?
+][
+Des barrières artificielles séparent tous les peuples. Fondées sur des systèmes erronés, étayées par de puissans intérêts, elles ne sauraient s’abaisser que devant la propagation des saines doctrines et l’,(emph[association]), l’,(emph[organisation]) de tous les intérêts en souffrance.
+][
+Un jour j’osai aborder cette œuvre, que les circonstances me forcèrent d’interrompre. Malgré mon obscurité et ma faiblesse, l’initiative que je pris alors a laissé ailleurs quelques traces. Quelque chose me dit, Messieurs, qu’honoré de vos suffrages, entouré de votre bienveillance, secondé par votre concours, mes efforts ne seraient pas inutiles à la grande cause de l’affranchissement commercial des nations, qui embrasse l’avenir de notre Chalosse.
+][
+J’ai l’honneur d’être,
+][
+,(retrait),(retrait)Messieurs,
+][
+,(retrait),(retrait),(retrait),(retrait)Votre serviteur,
+])
+,(sign[,(FredB).])
+])
+(tous_les_scripts)
+(footer[,(oeuvres)]))

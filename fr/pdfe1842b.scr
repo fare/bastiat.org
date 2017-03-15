@@ -1,0 +1,48 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "À MM. les électeurs de l’arrondissement de Saint-Sever
+	- par Frédéric Bastiat")
+(document :title "À MM. les électeurs de l’arrondissement de Saint-Sever."
+	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb317715970" [4-LE54-1501]).])
+])
+(bastiat[
+,(date-tag[Mugron, le 27 juin 1842.])
+,(cher[Messieurs,])
+,(p*[
+Plusieurs d’entre vous m’ont demandé, à l’occasion des élections prochaines, la manifestation de ma foi politique. La voici, autant que je puis la restreindre dans les bornes que l’usage me prescrit :
+](nbsp)[
+,(strong[Indépendance nationale]), premier des biens auquel un peuple énergique sacrifie, s’il le faut, tous les autres.
+][
+,(strong[Liberté]), ou à chacun le libre exercice de ses facultés, sauf répression légale de l’abus. Ainsi, liberté d’imprimer et de s’associer, ou abrogation des lois de septembre ; liberté d’apprendre et d’enseigner, ou abolition du monopole universitaire ; liberté d’échanger, ou amélioration graduelle des lois restrictives du commerce et de l’industrie.
+][
+,(strong[Ordre]), ou autorité publique assez forte pour assurer à chacun sa liberté, sa sûreté et sa propriété.
+][
+,(strong[Économie]), sans laquelle il n’y a pour les nations ni ,(emph[indépendance]), car le désordre des finances leur met au cœur le sentiment de leur faiblesse, — ni ,(emph[liberté]), car la liberté, qui n’est que l’absence de tous monopoles, implique la suppression des fonctions par lesquelles ils s’exercent et des salaires qui y sont attachés, — ni ,(emph[ordre]), parce qu’il est sans cesse menacé chez un peuple plutôt exploité que gouverné.
+][
+,(strong[Égalité des charges]), ou profonde réforme dans le système des contributions indirectes. Il y a beaucoup à dire en faveur des impôts de consommation, mais on ne saurait justifier le caractère vexatoire et exceptionnel du système tel qu’il existe aujourd’hui.
+](nbsp)[
+Circonspection et méfiance à l’égard des peuples qui cherchent à s’élever par la domination.
+][
+Alliance avec ceux qui fondent leur prospérité sur le travail et l’industrie ; affranchissement graduel du commerce international ; réhabilitation des intérêts méridionaux de la France.
+](nbsp)[
+Sincérité du mandat législatif, ou adoption de toute réforme qui tende à substituer, dans le corps électoral, aux influences de l’égoïsme celles de l’esprit public.
+][
+Enfin, contrôle sévère, mais consciencieux, des actes de l’administration, ou ,(emph[réforme parlementaire]) qui maintienne l’identité qui doit rationnellement exister entre les intérêts des représentants et ceux des représentés.
+](nbsp)[
+Tels sont, Messieurs, les objets qui doivent être toujours présents à la pensée de votre mandataire, surtout le dernier ; car il est impossible de n’être pas effrayé, pour l’avenir de notre chère patrie, des crises fréquentes, du désordre, de l’accroissement des charges, des usurpations de la puissance publique, de l’instabilité des hommes et des résolutions, tristes conséquences de la lutte des mandataires du peuple pour la possession d’un pouvoir que leur seule mission était de surveiller, de contenir et de contrôler.
+][
+Aussi, Messieurs, si j’avais l’honneur de siéger à la chambre, je voudrais y entrer et en sortir contribuable comme vous, ayant les mêmes intérêts, supportant les mêmes charges, souffrant des mêmes abus, prenant enfin, comme administré, ma part des biens et des maux qui pourraient résulter de mes votes.
+][
+J’ai l’honneur d’être,
+][
+,(retrait),(retrait)Messieurs,
+][
+,(retrait),(retrait),(retrait),(retrait)Votre serviteur,
+])
+,(sign[,(FredB).])
+])
+(tous_les_scripts)
+(footer[,(oeuvres)]))
