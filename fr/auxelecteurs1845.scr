@@ -1,0 +1,91 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "A Messieurs les électeurs de l’arrondissement de Saint-Sever
+	- par Frédéric Bastiat")
+(document :title "A Messieurs les électeurs de l’arrondissement de Saint-Sever."
+	:author (author-FB)
+(sidebar [
+,(h5[Sources])
+,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb36363466q" [4-LE54-1755]).])
+])
+(bastiat[
+,(date-tag[Mugron, le 12 septembre 1845.])
+,(cher[Messieurs,])
+,(p*[
+En même temps que quelques journaux de Paris me signalent comme candidat aux prochaines élections de St. Sever, plusieurs de mes concitoyens se plaignent de la réserve que j’ai cru devoir m’imposer à cet égard.
+][
+Je remercie les journaux de leur bienveillante initiative, et quant à ma réserve, personne, que je sache, n’a le droit de me la reprocher. Est-il un seul Électeur qui puisse dire que j’ai accepté ou décliné la candidature ? Le fait est qu’elle ne m’a pas été offerte. — Vous deviez faire les premières démarches, me dit-on. — Entendons-nous. Il en est pour qui la députation est une grosse et bonne affaire ; qu’ils la soignent comme telle, rien de plus naturel. — Pour d’autres elle est une charge, et ceux-ci ont bien le droit d’attendre qu’elle leur soit imposée.
+][
+Ce n’est pas que je veuille faire entendre que je dédaigne le mandat électif. Être investi de la confiance de ses concitoyens, c’est le plus grand honneur auquel un homme de cœur puisse aspirer. J’ai d’ailleurs sur les intérêts, selon moi parfaitement identiques, de l’humanité, de la France et de notre arrondissement, des convictions qui me pressent et au triomphe desquelles mon bonheur serait de travailler avec l’efficacité et l’autorité qu’on puise dans les libres et volontaires suffrages du corps Électoral. Mais enfin, cette confiance, aucun signe n’est venu m’avertir que je l’avais méritée, et quelque précieuse qu’elle soit, l’expérience des élections passées m’a appris qu’il me convenait mieux de l’attendre que de la demander.
+][
+Quoiqu’en disent les journaux, je suis donc hors de cause et je recouvre avec joie la liberté de dire ouvertement ma pensée sur les deux candidatures qui nous arrivent de Paris, circonstance bien propre à relever nos espérances, car elle nous prouve que nos intérêts Chalossais excitent au loin des sympathies touchantes dont nous ne nous doutions nullement.
+][
+Quels sont les titres de M. Larnac ?
+][
+Il y a deux ans, personne dans le département ne le connaissait même de nom ; tout-à-coup sa candidature fut posée, poussée, travaillée sans que nous ayons jamais pu savoir autre chose de lui si ce n’est :
+][
+Qu’il est le protégé de Mgr. le Duc de Nemours.
+][
+Qu’il est le protecteur de M. le Sous-Préfet.
+][
+On en conclut qu’un torrent de grâces va tomber de cascade en cascade sur le pays et principalement sur les Électeurs.
+][
+Mais est-on assuré, d’une part, que M. Larnac ait sur le prince l’influence qu’on lui attribue ? Est-on certain, d’un autre côté, que le prince soit disposé à descendre à cette politique de bas étage qui le ferait s’immiscer dans le favoritisme Électoral, à assumer sur lui la responsabilité de toutes les injustices qui pourront se commettre, à présenter sa poitrine aux coups de tous les mécontentements, de toutes les plaintes, de toutes les exigences, de tous les mécomptes, de toutes les rancunes qu’un tel système ne peut manquer de provoquer ? Sans ces deux conditions, toutes vos espérances sont des chimères ; et si elles se rencontrent, à quoi aboutiront ces faveurs dont on est si prodigue en promesses ? Le prince et son secrétaire feront-ils nommer à St. Sever deux sous-préfets, deux juges de paix ? Vous voyez donc bien que tout se réduira à obtenir pour l’un ce qui revenait à l’autre.
+][
+Ceux qui proposent M. Larnac vont partout répétant : « Nous faisons abstraction de toute opinion, de toute considération de bien public ; nous ne cherchons qu’un patron haut placé ou du moins bien placé. »
+][
+Et vous, où vous placez-vous ? M. Larnac sera le client du prince ; M. le Sous-Préfet sera le client de M. Larnac, et vous serez les clients de M. le Sous-Préfet. Je voudrais bien savoir s’il n’y a pas encore un degré d’abjection au-dessous de celui-là ? M. le Sous-Préfet n’a-t-il pas un valet qui s’interpose entre lui et notre avidité, et qui nous tienne à distance plus respectueuse ?
+][
+Et puis, ces messieurs y ont-ils bien réfléchi quand ils nous adjurent de mettre de côté toute considération de bien public ? Nous sommes trois ou quatre cents Électeurs ; il y a derrière nous cent mille de nos compatriotes qui n’ont pas droit de stipuler pour eux-mêmes, dont nous sommes les tuteurs légaux ; et l’on veut que nous oubliions les intérêts qui sont communs à tous, pour ne songer qu’à ceux qui nous sont personnels ?
+][
+Conservateurs, vous redoutez les révolutions, et vous n’avez pas tort. Mais ne les provoquez-vous pas autant qu’il est en vous ? Si le peuple, accablé sous le fardeau des taxes que ce système de favoritisme multiplie d’une manière si effrayante, et dont il n’a pas la faculté, lui, de se racheter en vendant son suffrage, si le peuple, dis-je, ne peut se défendre légalement et compter sur ses défenseurs légaux, à quoi voulez-vous qu’il ait recours si ce n’est à la force ?
+][
+Vous vous croyez les amis du pouvoir, vous l’êtes peut-être, mais, à coup sûr, vous n’êtes pas des amis éclairés. Interrogez les hommes qui ont pris, par conviction, leur siége au centre de l’enceinte législative. Ils vous diront que les hommes de la cour sont pour eux des auxiliaires beaucoup plus compromettans qu’utiles.
+][
+Vous ne pouvez disconvenir d’une chose : si nous faisons bien de choisir, pour faire des lois, un familier du château, tous les colléges feront bien de choisir de même. Mais, alors, laissez le Roi nommer lui-même les Députés comme il nomme les Pairs. Son pouvoir n’en sera ni plus ni moins absolu, et il sera du moins moralement responsable.
+][
+« L’intérêt public ! s’écrient nos crésus, à quoi bon y songer ? Que fera une boule noire de plus dans l’urne du scrutin ? » Ce qu’elle fera ? Elle changera peut-être l’état du pays. — Plusieurs mesures importantes ont été décidées, cette année même, à quelques voix de majorité ; et sur la réforme postale, les suffrages se sont exactement balancés, en sorte que si aux dernières Élections, l’arrondissement de St. Sever eut envoyé à la Chambre un homme du progrès, à l’heure qu’il est, il serait affranchi d’une des taxes les plus inégales et les plus pénibles, la taxe sur les affections du cœur et sur les relations qui consolent de l’absence.
+][
+Beaucoup d’Électeurs, j’en suis convaincu, sentent au fond de leur conscience que leur choix s’est égaré. Mais tous leurs scrupules et tous les raisonnements du monde viendront se briser contre le mot : ,(emph[je me suis engagé]).
+][
+Vous vous êtes engagé ? Et à quoi, s’il vous plaît ? A nuire à vos voisins, à vos amis, à vos compatriotes, à votre pays, à lui imposer de mauvaises lois et de lourdes taxes, à le pousser dans la voie des émeutes et des révolutions ? Oh ! hâtez-vous de rompre un engagement si funeste.
+][
+A Dieu ne plaise que je veuille, par de vaines subtilités, affaiblir le principe sacré de la fidélité à la parole donnée. Je respecte, à cet égard, les scrupules même exagérés ; mais il n’y a pas de subtilité à dire que certains prétendus engagemens n’engagent pas, et de ce nombre sont ceux qu’on contracte ,(emph[aux dépens d’autrui]). Un Député est-il tenu de voter une loi de proscription, un tuteur de livrer à un fourbe la fortune de son pupille, parce qu’ils s’y sont légèrement engagés ? Quand notre intérêt est seul en jeu, tenons notre parole, quoiqu’il en coûte ; mais en fait d’Élection, sachons bien que nous n’avons d’engagemens qu’envers notre pays et notre conscience. Si quelqu’un reconnaît loyalement en M. Larnac le vrai défenseur des intérêts généraux et des libertés publiques, qu’il le nomme ; sa conscience ne le condamnera pas, et nul n’a le droit de le condamner ; mais n’oublions pas que le droit de voter n’est pas inhérent à notre personne. C’est un dépôt que la loi nous confie pour en user dans l’intérêt de tous et spécialement de ceux qu’elle a déshérités d’un semblable privilége. En abuser, le faire tourner à notre profit individuel, ce serait mériter d’être honteusemeent rayés de la liste des Électeurs.
+][
+On parle de défections, de paroles rompues, et l’on a essayé de livrer au mépris public des citoyens qui ont retiré un engagement qui leur avait été surpris. Ils sont certainement méprisables s’ils ont obéi à un calcul, et substitué à une spéculation avortée une spéculation plus viable ; mais, s’ils ont été mus, comme nous devons le croire, et comme cela est certain pour beaucoup d’entr’eux, par des motifs honnêtes, sachons reconnaître leur résolution et honorer leur courage.
+][
+Passons à M. Dupérier.
+][
+Avant la publication de sa profession de foi, on pouvait élever contre M. Dupérier une grave objection : il est chef d’une fabrique qui vit et prospère à l’abri de la protection ; et la protection, outre qu’elle blesse la justice, écrase notre Chalosse. Nous payons bien assez de taxes à l’État sans en payer encore au monopole. Plusieurs personnes m’ont reproché d’attacher trop d’importance à une question spéciale ; mais je les prie de considérer qu’en tout temps et en tout pays, ce dont les masses ont eu à se défendre, ,(emph[c’est la spoliation]) sous une forme ou sous une autre : conquête, esclavage, servage, prépondérance aristocratique, théocratique, monopole, &c. — Or, de nos jours, la spoliation s’exerce sous la forme de protection. Ce n’est donc pas une question subalterne, mais une question vitale, la question des questions.
+][
+En outre, la protection est un obstacle invincible à toute réforme financière. M. Dupérier parle d’économie. Mais quelle économie est-il possible de réaliser avec le régime protecteur ? Ce régime est la source des difficultés diplomatiques et le grand foyer des jalousies nationales. Celles-ci nécessitent des armées, des marines, des fortifications, des arsenaux, c’est-à-dire de lours impôts, c’est-à-dire toutes les souffrances physiques et tous les désordres sociaux que les lourds impôts traînent à leur suite.
+][
+Enfin, ainsi que je l’ai dit, ce régime a ruiné notre Chalosse, qui ne peut vivre qu’à l’air de la liberté.
+][
+Mais voici que M. Dupérier se proclame le défenseur du libre échange. Il admet que nous devons être rétablis dans notre droit naturel de fabriquer, avec nos marnes et notre soleil, et sous forme de vin, si cela nous convient, du fer, de la toile, de la houille, et que la loi ne peut pas, avec justice, nous forcer à aller nous pouvoir de draps dans son magasin et à son prix.
+][
+Ce n’est pas tout. M. Dupérier admet encore la ,(emph[liberté]) d’enseignement, ou ce qu’il aurait pu appeler, d’après la définition qu’il en donne : l’,(emph[égalité]) dans les obstacles à la liberté d’enseignement.
+][
+Il est vrai qu’il n’admet le développement de ces libertés que dans la mesure de la prudence et de la justice.
+][
+J’admire comme les hommes sont larges et résolus quand il s’agit de la propagation des abus, et combien ils deviennent timorés quand il est question d’y mettre un terme. Faut-il faire invasion de la bourse du peuple ? Les ,(emph[droits acquis]) ne sont rien, on n’en parle même pas ; mais faut-il supprimer une extorsion, on est d’une circonspection vraiment désespérante.
+][
+M. Dupérier s’engage encore à admettre les capacités dans le corps électoral, à voter certaines incompatibilités parlementaires, à n’accepter aucune fonction salariée.
+][
+En un mot, M. Dupérier se porte comme candidat du centre gauche.
+][
+Eh bien ! les hommes de la gauche ne peuvent s’empêcher de concevoir quelques doutes.
+][
+Avant l’apparition de M. Larnac sur la scène, M. Dupérier n’avait-il pas mis sa candidature sous le patronage du ministère ? Or, nous serions curieux de savoir si, à cette époque, M. Duchâtel avait promis de faire mouvoir ses cohortes en faveur d’un homme qui repousse la dotation, qui veut la liberté d’échanger et d’enseigner, la réforme parlementaire et la réforme électorale ? ou bien si le candidat a deux langages : l’un pour satisfaire le pouvoir quand il croit avoir son appui ; l’autre pour contenter l’opposition quand il n’a plus d’espoir que dans ses suffrages. Jusqu’à ce que ce problème soit résolu, les amis sincères de la liberté et des intérêts populaires sont placés dans une dure alternative.
+][
+Il faut voter, pourtant, puisqu’il n’y a pas un troisième parti à prendre ; et je crois que vous devez voter pour M. Dupérier :
+][
+Parce qu’il s’engage à ne pas accepter de fonctions publiques ;
+][
+Parce que nous ne pouvons pas, quelles qu’aient été ses vues antérieures, ne pas tenir compte de ses promesses écrites, de ses engagemens formels ; et nous devons croire qu’il transportera dans sa vie publique la probité que nul ne lui conteste dans sa vie privée.
+][
+Agréez, Messieurs les Électeurs, l’expression de mes sentimens respectueux et dévoués.])
+,(sign[,(FredB).])
+])
+(tous_les_scripts)
+(footer[,(oeuvres)]))
