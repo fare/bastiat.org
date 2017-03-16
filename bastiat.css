@@ -2,12 +2,12 @@
 
 @font-face {
     font-family:"bastiat";
-    src:	url("fonts/FeENrm28C.otf") format("otf"), url("fonts/FeENrm28C.woff") format("woff");
+    src:	url("fonts/Fanwood.otf") format("otf"), url("fonts/Fanwood.woff") format("woff");
     font-weight:normal;font-style:normal;
 }
 @font-face{
     font-family:'bastiat';
-    src:url("fonts/FeENit27C.otf") format("otf"), url("fonts/FeENit27C.woff") format("woff");
+    src:url("fonts/Fanwood-Italic.otf") format("otf"), url("fonts/Fanwood-Italic.woff") format("woff");
     font-weight:normal;font-style:italic;
 }
 
@@ -36,10 +36,13 @@
 div#sidebar {
 	width:17%;
 	font-family: 'paratexte';
-	text-align: justify;
+	text-align: left;
 	position: absolute; left: 0; top: 6em;
 	/*background-color: #df8;*/
 	padding: 1em;
+	font-size: 1.15em;
+	line-height: 1.4em;
+	z-index: 20;
 
 }
 
@@ -266,7 +269,7 @@ sup {line-height: 0; font-variant: normal;}
 	width: 58%;
 	min-width: 20em;
 	margin: 0 auto;
-	font-size: 1.2em; /*1.2*/
+	font-size: 1.4em; /*1.2*/
 	/*line-height: 1.8em;*/ /*1.8*/
 	background: white;
 	/*padding: 8em 3em 2em 3em;*/
@@ -297,6 +300,7 @@ h4 {
 .footnote {
 	padding: 0.1em 2em;
 	font-family: 'bastiat';
+	font-size: 1.05em;
 }
 
 
@@ -461,7 +465,7 @@ span.vers, span.cvers {
 }
 
 .vers, .cvers {
-	font-size: 80%;
+	font-size: 90%;
 	line-height: 1.2em;
 	text-align: justify;
 	clear:both;
@@ -607,6 +611,7 @@ transition: opacity 200ms;
 
 .personne {
 	text-align: justify;
+	font-size: 1.1em;
 }
 
 .personne p {
@@ -643,6 +648,9 @@ transition: opacity 200ms;
 
 }
 
+.personne div.references, .personne span.dates {
+	font-family: "bastiat";
+}
 
 
 
@@ -705,10 +713,13 @@ font-size: 90%;
 
 #sidebar p {
 	margin: 0;
+	text-align: left;
+	font-family: "bastiat";
 
 }
 #sidebar h5 {
 	margin: 1em 0 0.2em 0;
+	font-size: 1.1em;
 }
 
 @media only screen and (max-width: 1000px) {
