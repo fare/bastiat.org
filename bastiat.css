@@ -47,7 +47,7 @@ div#sidebar {
 }
 
 .bastiat {
-	font-family: 'bastiat';
+	font-family: 'bastiat', serif;
 }
 
 .footer .arbor {
@@ -538,6 +538,8 @@ transition: opacity 200ms;
 .footer:hover {opacity: 1;}
 
 .footer:hover {
+	filter: grayscale(0%);
+	transition: .3s ease-in-out;
   -webkit-filter: grayscale(0%);
   -webkit-transition: .3s ease-in-out;
   -moz-filter: grayscale(0%);
@@ -547,6 +549,8 @@ transition: opacity 200ms;
 }
 
 .footer {
+	filter: grayscale(100%);
+  transition: .3s ease-in-out;
   -webkit-filter: grayscale(100%);
   -webkit-transition: .3s ease-in-out;
   -moz-filter: grayscale(100%);
