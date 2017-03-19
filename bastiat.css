@@ -170,7 +170,7 @@ a:hover {color: #035;}
 a[name] {
 	display: inline-block;
     position: relative;
-    top: -5em; /*Pour que le header ne cache pas la cible des liens*/
+    top: -4em; /*Pour que le header ne cache pas la cible des liens*/
     visibility: hidden;
 }
 /*Rendre insélectionnables les appels de note. Ça ne marche pas encore tout à fait... T_T*/
@@ -195,8 +195,8 @@ sup {line-height: 0; font-variant: normal;}
 	margin: auto;
 	padding: 3em;
 	width: 90%;
-	font-size: 1.1em;
-	font-family: "paratexte", sans-serif;
+	font-size: 1.2em;
+	font-family: "bastiat", sans-serif;
 	text-align: justify;
 	background: white;
 }
@@ -607,6 +607,17 @@ transition: opacity 200ms;
 
 /*Index des personnes*/
 
+.lettre {
+	background-color: #ccc;
+	padding: 0;
+	width: 70%;
+	margin: auto;
+	font-family: "paratexte";
+}
+
+.lettre font p {
+	font-weight: bold;
+}
 
 .journal {
 	text-align: justify;
@@ -616,7 +627,22 @@ transition: opacity 200ms;
 .personne {
 	text-align: justify;
 	font-size: 1.1em;
+	background-color: #ddd;
+	width: 90%;
+	padding: 1em;
+	margin: -1em auto 0 auto;
 }
+
+.personne > a:first-child {
+	display: block;
+	position: relative; margin-top: 1em;
+}
+
+/*.personne>p:nth-child(2), .personne {
+	width: 60%;
+	
+}*/
+
 
 .personne p {
 	position: relative;
@@ -624,13 +650,9 @@ transition: opacity 200ms;
 }
 
 .personne p.bio {
-	font-weight: bold; font-size: 0.9em; color: #558;
+	font-weight: bold; font-size: 0.9em; color: #888;
 }
 
-/*.personne>p:nth-child(2),*/ .personne {
-	width: 60%;
-	margin: 2em auto;
-}
 
 
 
@@ -642,8 +664,12 @@ transition: opacity 200ms;
 
 .personne span.nom {
 	font-variant: small-caps; font-weight: bold;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	margin-left: -1em ;
+}
+
+.personne span.prenom {
+	font-weight: bold;
 }
 
 .personne ul {
@@ -664,11 +690,15 @@ transition: opacity 200ms;
 
 .sommaire p.alphabet {
 	position: fixed;
-	left:0; top:0; margin-top: 0;
+	left: 0; right: 0; top:0; margin-top: 0;
 	padding: 1em;
 	font-weight: bold;
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,0.9);
 	z-index:15;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	font-size: 1.2em; height: 0.8em; line-height: 0.8em;
+	font-family: "paratexte";
 }
 
 /*Index des Journaux*/
@@ -730,15 +760,21 @@ font-size: 90%;
 	.bastiat, .other {
 		width: 80%;
 		font-size: 1.2em;
+		position: relative; top: 2em;
+		clear: both;
 	}
 	.sommaire table {width: 100%;}
 
-	.personne {
-		width: 80%;
-	}
 	.lettre {
-		margin: 0;
+		margin: auto;
+		width: 100%;
 	}
+
+	.personne {
+		width: 100%;
+		margin-left: auto; margin-right: auto;
+	}
+
 	.sommaire {
 		margin: 0;
 		padding:0;
@@ -746,11 +782,15 @@ font-size: 90%;
 	.footer {
 		opacity: 0.9;
 	}
-	#sidebar {
+	div#sidebar {
 	position: relative;
-	width:90%; margin: auto;
+	width:100%; margin: auto;
 	background-color: transparent;
 	}
 }
 
 
+/*se débarrasser du footer moche*/
+font table {
+	display: none;
+}

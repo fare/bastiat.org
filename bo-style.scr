@@ -378,7 +378,7 @@
   (it [(Note de Laura.)]))
 
 
-;;; Footnotes
+;;; Footnotes (javascript)
 
 ;y'a un bug: faire en sorte que les notes restent à la même place on reload.
 ; bug réglé par un scrollTop. Reste un léger décalage dû au temps de chargement de la police.
@@ -424,7 +424,7 @@ for (var i=0; i<$('.footnote').length; i++) {
 
   var y = ref.offset().top + scrollTop;
 
-//Fixer le y de 'note' de égal au y de la footnoteref.
+//Fixer le y de 'note' égal au y de la footnoteref.
 
   note.addClass('margin');
   note.offset({top: y});
