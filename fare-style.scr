@@ -331,10 +331,10 @@
 		      (if css
 			  (loop :for ss :in (ensure-list css) :collect
 				(list (xtag :link :rel "stylesheet" :type "text/css"
-					    :href css) lf)))
+					    :href ss) lf)))
                       (if script
 			  (loop :for s :in (ensure-list script) :collect
-				(list (tag :script :src script) lf)))
+				(list (tag :script :src s) lf)))
 		      (*list* header)
 		      (if title (title* title)) lf)
                 (apply* otag :body
