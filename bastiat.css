@@ -776,7 +776,6 @@ font-size: 90%;
 	}
 
 	.sommaire {
-		margin: 0;
 		padding:0;
 	}
 	.footer {
@@ -793,4 +792,59 @@ font-size: 90%;
 /*se débarrasser du footer moche*/
 font table {
 	display: none;
+}
+
+/* Page d'accueil */
+#container {
+	width: 95%;
+	margin: auto;
+	font-family: "bastiat";
+	font-size: 1.2em;
+}
+
+img#portrait {
+	float: left;
+	width: 30%;
+	margin: auto;
+}
+
+
+#tabs {
+	border: none;
+		float: right; width: 50%;
+}
+
+div#tabs ul:first-child {
+	position: absolute;
+	right: 0; top: -5em;
+	border: none;
+	background: none;
+	z-index:1000;
+}
+
+div#tabs ul:first-child li {
+	border-radius: 0;
+	border: none;
+}
+
+
+#tabs div.tabs {
+
+}
+
+
+/*Sommaire Guillaumin*/
+#vignette {
+	float: right;
+	margin: 0 10% 2em 0;
+	position: relative; left: -10%;
+}
+#listetomes {
+	width: 50%;
+	float: left;
+	margin: 1em 0 0 10%;
+}
+
+hr {
+	clear: both;
 }

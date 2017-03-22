@@ -1,3 +1,4 @@
+
 ;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Lisp -*-
 
 (style 'fare-style)
@@ -10,8 +11,8 @@
                 (:title #f) (:lang #f) (:charset *default-charset*))
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
-	  :css "bastiat.css"
-	  :script '("jquery-3.0.0.min.js")
+	  :css '("bastiat.css" "jquery-ui-1.12.1.custom/jquery-ui.css")
+	  :script '("jquery-3.0.0.min.js" "jquery-ui-1.12.1.custom/jquery-ui.js")
       '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
@@ -21,8 +22,8 @@
 (define-markup (in-boe (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
-	  :css "../bastiat.css"
-	  :script '("../jquery-3.0.0.min.js")
+    :css '("../bastiat.css" "../jquery-ui-1.12.1.custom/jquery-ui.css")
+    :script '("../jquery-3.0.0.min.js" "../jquery-ui-1.12.1.custom/jquery-ui.js")
 	  '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
@@ -33,8 +34,8 @@
 (define-markup (in-bof (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
-	  :css "../bastiat.css"
-	  :script '("../jquery-3.0.0.min.js")
+    :css '("../bastiat.css" "../jquery-ui-1.12.1.custom/jquery-ui.css")
+    :script '("../jquery-3.0.0.min.js" "../jquery-ui-1.12.1.custom/jquery-ui.js")
 	  '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
@@ -230,7 +231,7 @@
 
 (defmacro filtering-bastiat-db (&body body)
   `(filter-bastiat-db
-    (lambda (id &key titre date livre journal lettre oc1862 &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date id)) ,@body)))
+    (lambda (id &key titre date livre journal lettre oc1862 lhl &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date lhl id)) ,@body)))
 
 (defun getf-many (key plist)
   "given a PLIST, extract all the entries starting with the KEY, not just the first one"
@@ -319,6 +320,14 @@
 
 (defparameter serie_chronologique
  (sort (filtering-bastiat-db (not (null date))) 'string< :key 'text-date))
+
+(defparameter guillaumin
+ (sort (filtering-bastiat-db (not (null oc1862))) 'string< :key 'text-date))
+
+
+
+(defparameter lesinedits
+ (sort (filtering-bastiat-db (and (null oc1862) (null lhl))) 'string< :key 'text-date))
 
 (defparameter correspondance
  (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date))
@@ -680,6 +689,8 @@ window.onresize = function() {
 )))
 
 (defun oeuvres () (precsuiv "Œuvres" "../index.html" serie_chronologique))
+
+(defun inedits () (precsuiv "Inédits" "../inedits.html" lesinedits))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
 (defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_comte_arrivabene.html" lettres_a_arrivabene))

@@ -1,112 +1,105 @@
 (style 'bo-style)
-(in-bo :title "Frédéric Bastiat (1801-1850)")
+(in-bo :title "Frédéric Bastiat")
 
-(document :title "Frédéric Bastiat (1801-1850)"
+(document :title "Frédéric Bastiat"
 
-(table :cellspacing "0" :border "0" :cellpadding "4"
-(tr
-(td (bo-ref #f (img :src "pic/bastiat2b.jpg" :alt "Frédéric Bastiat (1801-1850)"
-:vspace 4 :align "left" :hspace 10)))
 
-(tdLT
-(h2 (font :color "#660033" [Économiste français]))
-(h3 (font :color "#996600" [Auteur]))
-(bof-ref #f [Tout sur Frédéric Bastiat])
+(div :id "container"
+(img :id "portrait" :src "pic/bastiat2b.jpg" :alt "Frédéric Bastiat)")
 
-(p[
+
+(div :id "tabs"
+
+(itemize
+(item(ref :url "#tabs-1" [FR]))
+(item(ref :url "#tabs-2" [EN]))
+(item(ref :url "#tabs-3" [ES]))
+)
+
+
+(div :id "tabs-1" :class "tabs" [
+,(h2 (font :color "#660033" [Économiste français (1801-1850)]))
+,(bof-ref #f [Tout sur Frédéric Bastiat])
+
+,(p[
 ,(a :href "fr/guillaumin.html" [Sommaire des œuvres complètes en 7 volumes])
 ])
-(p[
+,(p[
 ,(a :href "fr/correspondance.html" [Correspondance])
 ])
-(p[
+,(p[
 ,(a :href "fr/journaux.html" [Articles publiés, par journal])
 ])
 
-(p[,(OE*)uvres les plus célèbres:])
-(table :cellspacing 0 :border 0 :cellpadding 0
+,(p[,(OE*)uvres les plus célèbres:])
+,(table :cellspacing 0 :border 0 :cellpadding 0
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (bof-ref "petition" [Pétition des marchands de chandelles]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (bof-ref "l_etat" [L'État]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (bof-ref "la_loi" [La loi]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (bof-ref "cqovecqonvp" [Ce qu'on voit et ce qu'on ne voit pas]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (bof-ref "harmonies" [Harmonies Économiques])))))
-(p :align "center" ;; TODO: does it still exist???
-(ref :url "http://bastiat.net/archive_bastiat-fr.html" [liste de diffusion bastiat-fr])))
+])
 
+(div :id "tabs-2" :class "tabs" [
 
-(tdLT
-(h2 (font :color "#660033" [French Economist]))
-(h3 (font :color "#996600" [Author]))
-(boe-ref #f [All about Frederic Bastiat])
-(p[Most well-known works:])
-(table :cellspacing 0 :border 0 :cellpadding 0
+,(h2 (font :color "#660033" [French Economist (1801-1850)]))
+,(boe-ref #f [All about Frederic Bastiat])
+,(p[Most well-known works:])
+,(table :cellspacing 0 :border 0 :cellpadding 0
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boe-ref "petition" [Petition of candlestickmakers]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boe-ref "government" [Government]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boe-ref "the_law" [The Law]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boe-ref "twisatwins" [What is Seen and What is Not Seen]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong
-       (ref :url "http://www.econlib.org/library/Bastiat/basHar.html" [Economics Harmonies])))))
-(p :align "center"
-(ref :url "http://lists.tunes.org/mailman/listinfo/bastiat-fans" [bastiat-fans mailing-list])))
+       (ref :url "http://www.econlib.org/library/Bastiat/basHar.html" [Economic Harmonies])))))
+])
+
+(div :id "tabs-3" :class "tabs" [
 
 
-(tdLT
-(h2 (font :color "#660033" [Economista francés]))
-(h3 (font :color "#996600" [Escritor]))
-(boes-ref #f [Todo sobre Frederic Bastiat])
-(p[Obras más conocidas:])
-(table :cellspacing 0 :border 0 :cellpadding 0
+,(h2 (font :color "#660033" [Economista francés (1801-1850)]))
+,(boes-ref #f [Todo sobre Frederic Bastiat])
+,(p[Obras más conocidas:])
+,(table :cellspacing 0 :border 0 :cellpadding 0
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boes-ref "peticion" [Petición de los fabricantes de candelas]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boes-ref "El_Estado" [El Estado]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (ref :url "http://www.elcato.org/bastiat_laley.htm" [La Ley]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong (boes-ref "lqsvylqnsv" [Lo que se ve y lo que no se ve]))))
 (tr
-(td :valign "baseline" (img :src "pic/expbul1d.png" :width 20 :height 20 :hspace 11 :alt "*"))
+(td :valign "baseline" )
 (tdLT (strong[Armonías Económicas]))))
-(p :align "center"
-(boes-ref "listas-de-correo" [lista de correo bastiat-es]))))
 
-(tr (td :colspan 4 :align "center"
-[Rechercher | Search | Buscar :] (br)
-(form :method "get" :action "http://bastiat.org/search.php"
-(input :type "text" :name "q" :size 31 :maxlength 255 :value "")
-(input :type "submit" :name "btnG" :value "Bastiat @ Google"))))
+])
 
-(tr (td :colspan 4 :align "center"
-[Voir aussi | See also | Ver también :
-,(ref :url "http://bastiat.net/" [Bastiat.net]),
-,(ref :url "http://bastiat.de/" [Bastiat.de])])))
+))
 
-(br)
-(address
- (p :align "right"
-  (ref :url "mailto:webmaster&#64;bastiat.org"
-       [Committee to Preserve the Works of Frédéric Bastiat]))))
+
+)

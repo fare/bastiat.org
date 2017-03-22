@@ -1,6 +1,6 @@
 (style 'bo-style)
-(in-bof :title "OEuvres complètes de Frédéric Bastiat
-- sommaire de l'édition Guillaumin")
+(in-bof :title "Œuvres complètes de Frédéric Bastiat
+- sommaire de l’édition Guillaumin")
 
 (set! =bof.url= "")
 (style 'oeuvres_bastiat)
@@ -120,40 +120,38 @@ Tomes :
 ,(ref :url "#6" [6]) —
 ,(ref :url "#7" [7]).
 ])
-,(table :width "100%" :cellpadding 10 (tr
-(tdLT (p*[
-Ceci est le sommaire de l'édition de 1862-64 en 7 volumes
-des ,(q(cite-title[,(bold[,(oe)uvres complètes de Frédéric Bastiat]),
+,(p*[
+Ceci est le sommaire de l’édition de 1862-64 en 7 volumes
+des ,(q(cite-title[Œuvres complètes de Frédéric Bastiat,
 	mises en ordre,
-	revues et annotées d'après les manuscrits de l'auteur]))
+	revues et annotées d’après les manuscrits de l'auteur]))
 chez Guillaumin et C,(sup[ie]), libraires,
 éditeurs du Journal des économistes,
 de la Collection des principaux Économistes,
-du Dictionnaire de l'Économie politique,
+du Dictionnaire de l’Économie politique,
 du Dictionnaire universel du Commerce et de la Navigation, etc.,
 Paris, Rue Richelieu, 14.
 ][
-La ,(BNF-ref #f [Bibliothèque Nationale de France])
-a photo-numérisé en octobre 2002 l'ensemble des
+La ,(BNF-ref #f [Bibliothèque nationale de France])
+a numérisé en octobre 2002 l’ensemble des
 ,(BNF-ref
  "scripts/catalog.php?Mod=i&FondsTout=on&FondsTxt=on&FondsImp=on&Auteur=bastiat"
 	[six premiers volumes des ,(oe)uvres complètes de Frédéric Bastiat]).
-J'ai consécutivement repris pour chacun de ces tomes
-la pagination de l'édition photo-numérisée par la BNF.
-En 2004, l',(ref :url "http://oll.libertyfund.org/" [Online Library of Liberty])
-a à son tour photo-numérisé les mêmes
+J’ai consécutivement repris pour chacun de ces tomes
+la pagination de l’édition numérisée par la BNF.
+En 2004, l’,(ref :url "http://oll.libertyfund.org/" [Online Library of Liberty])
+a à son tour numérisé les mêmes
 ,(ref :url "http://oll.libertyfund.org/Home3/Author.php?recordID=0319"
 [,(oe)uvres complètes]),
 sans omettre cette fois le tome 7, publié en 1864,
-et composé de textes jusqu'alors inédits.
-,(XXX[Notez que les exemplaires scannés par la BNF
-sont de l'édition de 1862-1863,
-sauf pour le troisième tome qui est de l'édition de 1854,
+et composé de textes jusqu’alors inédits.
+,(XXX[Notez que les exemplaires scannés par la BnF
+sont de l’édition de 1862-1863,
+sauf pour le troisième tome qui est de l’édition de 1854,
 mais ce n'est pas grave, car pour ce tome,
-l'édition de 1863 a la même pagination.])
-]
-[
-,(itemize
+l’édition de 1863 a la même pagination.])
+])
+,(itemize :id "listetomes"
 (item(ref :url "#1" [Tome I : Correspondance et mélanges]))
 (item(ref :url "#2" [Tome II : articles relatifs au Libre-Échange]))
 (item(ref :url "#3" [Tome III : Cobden et la Ligue]))
@@ -162,22 +160,14 @@ l'édition de 1863 a la même pagination.])
 (item(ref :url "#6" [Tome VI : Harmonies économiques]))
 (item(ref :url "#7" [Tome VII : Essais, ébauches, correspondance]))
 )
-]))
-(tdLT
-      (tag :img :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat"))))
+
+,(img :id "vignette" :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat")
 
 ,(apply* *list (insere-sommaire))
 
 ,(begin (set! =bof.url= "http://bastiat.org/fr/") #f)
 
-,(with-footer
-(p*[
-,(leter-ref "Sommaire%20Guillaumin"
-	[Originellement numérisé, copieusement annoté,
-	mis en hypertexte et publié])
-par ,(leter) pour son ,(ELeter),(pv)
-repris, corrigé, adapté et enrichi de liens par ,(FRR) pour ,(Bastiat.org).
-]))
+
 ])
 (tous_les_scripts)
 (footer[,(oeuvres)])
