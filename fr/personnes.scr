@@ -2456,21 +2456,64 @@ Simples mentions :
 ])
 
 ,(person "lafontaine" [
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=129" [Les Animaux malades de la peste]),])
+cités dans une ,(link "lettre_cheuvreux1850f" "lettre" "lafontaine_ref") à ,(np "cheuvreux_h" [Mme Cheuvreux]) de mai 1850 :
+,(verses[La faim, l’occasion, l’herbe tendre, et, je pense,]
+[Quelque diable aussi me poussant,]
+[Je tondis de ce pré la largeur de ma langue.])
+  ][
 ,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=61" [La Belette entrée dans un grenier]),]) citée dans ,(ref :url "greves_de_taxes.html#lafontaine_ref" [Nos produits sont grevés de taxes]) :
 ,(verses[Mais ne confondons point, par trop approfondir,][,(retrait)Leurs affaires avec les vôtres.])
-
 ][
-,(ref :url "reciprocite.html#lafontaine_ref" [Réciprocité]) : citation du ,(cite-title[Coche et la Mouche :]) “Dans un chemin montant, sablonneux, malaisé…” ;
-,(ref :url "fisc_vigne.html#lafontaine_ref" [Le fisc et la vigne]) : citation du ,(cite-title[Chat et un vieux Rat :]) “Ce bloc enfariné ne me dit rien qui vaille…” ; citation du ,(cite-title[petit Poisson et le Pêcheur :]) “Petit poisson deviendra grand, / Pourvu que Dieu lui prête vie.” ;
-,(ref :url "question_conseils_generaux.html#lafontaine_ref" [Une question soumise aux conseils généraux…]) : ,(cite-title[Le Statuaire et la statue de Jupiter]) ;
-,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) ;
-,(ref :url "discours_2.html#lafontaine_ref" [Second discours]) ;
-,(ref :url "liberte_commerciale.html#lafontaine_ref" [Liberté commerciale]) ;
-,(autolk "lettre_cheuvreux1850i" "lafontaine_ref") ;
-,(autolk "lettre_cheuvreux1850f" "lafontaine_ref") ;
-,(autolk "responsabilite" "lafontaine_ref") ;
-,(autolk "lettre_cobden1846a" "lafontaine_ref") ;
-,(autolk "le_maire_d_enios" "lafontaine_ref")
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=62" [Le Chat et un vieux Rat]),])
+cité dans
+,(ref :url "fisc_vigne.html#lafontaine_ref" [Le fisc et la vigne]) :
+,(verses[Ce bloc enfariné ne me dit rien qui vaille…])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=28" [La Chauve-souris et les deux Belettes]),])
+citées dans ,(autolk "responsabilite" "lafontaine_ref") et dans une ,(link "lettre_cobden1846a" "lettre" "lafontaine_ref") à ,(np "cobden" [Cobden]) du 13 janvier 1846 :
+,(verses[Le sage dit, selon les gens,]
+  [« Vive le Roi ! vive la Ligue ! »])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=137" [Le Coche et la Mouche]),])
+cité dans
+,(ref :url "reciprocite.html#lafontaine_ref" [Réciprocité]) :
+,(verses[Dans un chemin montant, sablonneux, malaisé…])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=152" [Les Femmes et le secret]),])
+citées dans
+une ,(link "lettre_cheuvreux1850i" "lettre" "lafontaine_ref") à ,(np "cheuvreux_h" [Mme Cheuvreux]) du 27 mai 1850 :
+,(verses[Rien ne pèse tant qu’un secret :]
+[Le porter loin est difficile aux dames ;]
+[Et je sais même sur ce fait]
+[Bon nombre d’hommes qui sont femmes.])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=10" [Le Loup et l’Agneau]),])
+cité dans
+,(ref :url "propriete_communaute.html#cabet_ref" [Propriété, communauté]) :
+,(verses[Un agneau se désaltérait]
+[Dans le courant d'une onde pure.])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=87" [Le petit Poisson et le Pêcheur]),])
+cité dans
+,(ref :url "fisc_vigne.html#lafontaine_ref2" [Le fisc et la vigne]),
+et peut-être dans
+,(autolk "protectionisme_et_communisme" "lafontaine_ref") :
+,(verses[Petit poisson deviendra grand,]
+[Pourvu que Dieu lui prête vie.])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=150" [Le Pouvoir des Fables]),])
+cité dans
+,(ref :url "liberte_commerciale.html#lafontaine_ref" [Liberté commerciale]) :
+,(verses[Nous sommes tous d’Athènes en ce point, et moi-même…])
+ainsi que dans un ,(ref :url "discours_2.html#lafontaine_ref" [discours]) prononcé à Paris en septembre 1846, avec une allusion au même passage dans ,(autolk "le_maire_d_enios" "lafontaine_ref") :
+,(verses[Si Peau d’Âne m’était conté,]
+  [J’y prendrais un plaisir extrême.])
+][
+,(cite-title[,(ref :url "http://www.lafontaine.net/lesFables/afficheFable.php?id=179" [Le Statuaire et la statue de Jupiter]),])
+cité dans
+,(ref :url "question_conseils_generaux.html#lafontaine_ref" [Une question soumise aux conseils généraux…]) :
+,(verses[Sera-t-il dieu, table ou cuvette ?])
 ])
 
 ,(person "lajonkaire" [
@@ -4327,11 +4370,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ,(person "thenard" [
-,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])])
+Mentionné dans la ,(ref :url "conclusion_sophismes.html#thenard_ref" [Conclusion à la première série des ,(cite-title[Sophismes])]).
 ])
 
 ,(person "theocrite" [
-,(ref :url "liberte_enseignement.html#theocrite_ref" [Liberté d’enseignement])
+Mention des ,(cite-title[Idylles]) de Théocrite dans ,(ref :url "liberte_enseignement.html#theocrite_ref" [Liberté d’enseignement]).
 ])
 
 ,(person "thiers" [
@@ -4357,7 +4400,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ,(person "thomas" [
-,(autolk "lettre5" "kant_ref")
+,(cite-title(link "lettre5" "Gratuité du crédit" "kant_ref")), mentionné en passant dans la deuxième lettre de ,(np "proudhon" [Proudhon]).
 ])
 
 ,(person "thompson_g" [
@@ -4391,11 +4434,11 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#solon_ref" [Lettre 7])
 ])
 
 ,(person "thore" [
-,(ref :url "capital_et_rente.html#thore_ref" [Capital et rente])
+Sa condamnation de l’intérêt est citée dans ,(ref :url "capital_et_rente.html#thore_ref" [Capital et rente]).
 ])
 
 ,(person "tircuy" [
-,(ref :url "lettre_coudroy1846c.html#lamartine_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
+Mentionné parmi d’autres membres de l’Association du libre-échange dans une ,(ref :url "lettre_coudroy1846c.html#lamartine_ref" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 18 avril 1846.
 ])
 
 ,(person "titelive" [
