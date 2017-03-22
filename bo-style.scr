@@ -11,8 +11,8 @@
                 (:title #f) (:lang #f) (:charset *default-charset*))
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
-	  :css '("bastiat.css" "jquery-ui-1.12.1.custom/jquery-ui.css")
-	  :script '("jquery-3.0.0.min.js" "jquery-ui-1.12.1.custom/jquery-ui.js")
+	  :css '("bastiat.css" "jquery-ui.css")
+	  :script '("jquery-3.0.0.min.js" "jquery-ui.js")
       '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
@@ -22,8 +22,8 @@
 (define-markup (in-boe (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
-    :css '("../bastiat.css" "../jquery-ui-1.12.1.custom/jquery-ui.css")
-    :script '("../jquery-3.0.0.min.js" "../jquery-ui-1.12.1.custom/jquery-ui.js")
+    :css '("../bastiat.css" "../jquery-ui.css")
+    :script '("../jquery-3.0.0.min.js" "../jquery-ui.js")
 	  '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
@@ -34,8 +34,8 @@
 (define-markup (in-bof (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
-    :css '("../bastiat.css" "../jquery-ui-1.12.1.custom/jquery-ui.css")
-    :script '("../jquery-3.0.0.min.js" "../jquery-ui-1.12.1.custom/jquery-ui.js")
+    :css '("../bastiat.css" "../jquery-ui.css")
+    :script '("../jquery-3.0.0.min.js" "../jquery-ui.js")
 	  '())
   (set! *footnotes-header* (lambda () (h4 "Notes")))
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
