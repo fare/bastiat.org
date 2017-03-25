@@ -1,15 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Abondance, Disette - par Frédéric Bastiat")
-(document :title "Abondance, Disette"
-	:author (author-FB)
-(sidebar[
+
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco11soci#page/n5/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 11, n° 41, p. 1.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f12.image" [,(cite-title[Sophismes économiques])]), ch. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/4/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 5.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag [,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1845.])
 ,(p :class "noselect" [Cette courte introduction figure uniquement dans le Journal des Économistes.])
 ,(p*[
@@ -488,6 +487,16 @@ dans l’article ,(bof-ref "abondance" (cite-title[Abondance])),
 ]).
 ])
 ])
+
+
+(document :title "Abondance, Disette"
+	:author (author-FB)
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

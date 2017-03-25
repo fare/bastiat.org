@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "À M. le rédacteur de L’Époque, par Frédéric Bastiat")
 
-(document :title "À M. le rédacteur de L’Époque"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/53/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 12, p. 53.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 8 mars 1846.])
 
 ,(cher[,(tj "epoque" [Monsieur]),])
@@ -74,6 +72,17 @@ Enfin, vous nous menacez d’une coalition de producteurs.
 Nous ne la craignons pas. Elle n’est pas à naître ; elle agit, elle fonctionne, elle exploite la protection. Cette entente cordiale d’intérêts divergents est un vrai miracle au sein du pays. Après tout, le pis qui puisse nous arriver, c’est qu’elle persévère, et nous avons mille chances pour qu’elle s’évanouisse.
 ])
 ])
+
+(document :title "À M. le rédacteur de L’Époque"
+	:author (author-FB)
+
+
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

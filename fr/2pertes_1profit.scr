@@ -2,17 +2,15 @@
 (style 'bo-style)
 (in-bof :title "Deux pertes contre un profit
 	- par Frédéric Bastiat")
-(document :title "Deux pertes contre un profit"
-	:author (author-FB)
 
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=7" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 27, p. 215.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/384/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 58, p. 384.])
 ])
 
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 30 mai 1847.])
 ,(h3[À ,(np "arago" [M. Arago]), de l’Académie des sciences
 ,(footnote*[
@@ -73,7 +71,7 @@ est accompagné d’abord d’une ,(emph[perte égale]),
 	ce qui fait compensation,
 puis d’une ,(emph[seconde perte encore égale]),
 	laquelle constitue une duperie bien caractérisée ;
-comme dans, le c,(oe)ur humain l’horreur des pertes
+comme dans le c,(oe)ur humain l’horreur des pertes
 	est aussi fortement enracinée que l’amour des profits,
 il faut croire que le régime protecteur
 	et toutes ses conséquences directes et indirectes
@@ -163,7 +161,7 @@ Si, par exemple, vous étiez cet acheteur,
 	contre laquelle paire de gants vous auriez obtenu le couteau anglais.
 ,(--) Et, en outre, il vous serait resté 1 fr.,
 	avec lequel vous auriez acheté, selon votre bon plaisir,
-	des petits patés ou un petit volume in-12.
+	des petits pâtés ou un petit volume in-12.
 ][
 Si donc nous faisons le compte du ,(emph[travail national]),
 nous trouvons de suite à opposer au gain du coutelier une perte équivalente,
@@ -240,22 +238,7 @@ il le fait gagner à des travailleurs.
 	laquelle, dans l’une et dans l’autre hypothèse,
 	suit des parallèles infinies,
 	et ne peut jamais affecter
-	notre calcul
-,(footnote*[
-	Sur le ,(cite-title[Sophisme des ricochets]),
-V. au présent volume, n° 48, p. 320,(pv)
-,(XXX :bof-ref "discours_7")
-au tome IV, les pages
-74, ,(XXX :bof-ref "protection_taux_salaires")
-160, ,(XXX :bof-ref "conseil_inferieur_du_travail")
-,(bof-ref "les_trois_echevins" [229])
-et au tome V, indépendamment des pages
-	,(bof-ref "maudit_argent" "p80" [80 à 83]),
-les pages ,(bof-ref "cqovecqonvp" [336 et suivantes]),
-contenant le pamphlet :
-	,(bof-ref "cqovecqonvp"
-		(cite-title[Ce qu’on voit et ce qu’on ne voit pas])).
-,(NdEEO)]).
+	notre calcul.
 ][
 Il me semble qu’il faudrait être de bien mauvaise foi
 	pour venir argumenter de l’importance relative
@@ -280,7 +263,7 @@ pour faire tomber les couteaux français à 2 fr. 50, peut-être à 2 fr. 25.
 Je conviens que cela pourra arriver.
 Alors il faudra changer mes chiffres.
 Les ,(emph[deux pertes]) seront moindres,
-et le ,(emph[gain aussi]),(pv)
+et le ,(emph[gain aussi ;])
 mais il n’y aura pas moins deux pertes
 	pour un gain tant que la protection protégera.
 ][
@@ -326,15 +309,18 @@ nous le nourrissons au milieu de nous ?
 D’autres points de vue aussi neufs qu’exacts
 	sortiront de cette équation que j’ose attendre,
 Monsieur, de vos lumières
-	et de votre patriotisme
-,(footnote*[
-Sur la ,(emph[Concurrence]), voir
-,(bof-ref "greves_de_taxes" [au tome IV, page 45]),
-et ,(bof-ref "concurrence" [au tome VI, le chapitre X]).
-,(NdEEO)
-]).
+	et de votre patriotisme.
 ])
 ])
+
+(document :title "Deux pertes contre un profit"
+	:author (author-FB)
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

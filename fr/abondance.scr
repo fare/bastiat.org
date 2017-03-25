@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Abondance, par Frédéric Bastiat")
 
-(document :title "Abondance"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent[
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k22411m/f30.item.zoom" [,(cite-title[Dictionnaire de l’Économie politique])]), vol. 1, p. 2.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/393/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 393.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 C’est une vaste et noble science
 ,(footnote*[
@@ -371,6 +369,16 @@ les chap. ,(bof-ref "abondance_disette" (cite-title[Abondance, Disette])),
 ,(NdEEO)]).
 ])
 ])
+
+(document :title "Abondance"
+	:author (author-FB)
+
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[
 ,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof)
 
-(document :title "Valeur et accumulation"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/172/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 172.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Note extraite des manuscrits de l’auteur,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "de_la_valeur.html#accumulation" [note de bas de page]).])
 ,(p*[L’,(emph[accumulation]) est une circonstance
@@ -37,6 +35,17 @@ cette satisfaction ira rejoindre celle que m’a procurée la voix d’,(np "alb
 ][
 Service reçu, service rendu : voilà l’économie politique.
 ])])
+
+
+
+(document :title "Valeur et accumulation"
+	:author (author-FB)
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[
 	

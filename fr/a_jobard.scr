@@ -2,13 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Jobard
 du 18 mars 1820")
-(document :title "Lettre à M. Jobard"
-	:author (author-FB)
-(sidebar [
+
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 41, p. 207.])
 ])
-(bastiat [
+(define bastiatcontent [
 ,(date-tag[Paris, 22 janvier 1848.
 ,(br)Publiée dans l’,(tj "economiste_belge" [,(cite-title[Économiste belge])]), n° du ,(1er) septembre 1860.])
 ,(cher[,(np "jobard" [Monsieur Jobard]),])
@@ -47,6 +46,16 @@ Voilà mes doutes, Monsieur ; vous me direz que ce n’est pas un doute, mais u
 ])
 ,(politesse[Je suis, etc.])
 ])
+
+(document :title "Lettre à M. Jobard"
+	:author (author-FB)
+
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

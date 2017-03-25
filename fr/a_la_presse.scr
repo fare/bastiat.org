@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "À M. le rédacteur en chef de la Presse, par Frédéric Bastiat")
 
-(document :title "À M. le rédacteur en chef de la Presse"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/142/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 32, p. 142.])
 ])
-(bastiat [
+(define bastiatcontent [
 ,(h2[I])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 22 août 1846.])
 ,(cher[,(tj "presse" [Monsieur]),])
@@ -58,6 +56,17 @@ Ainsi, Monsieur, ce qui a suivi, comme ce qui a précédé l’adoption du tarif
 ])
 ,(politesse[Agréez, etc.])
 ])
+
+
+(document :title "À M. le rédacteur en chef de la Presse"
+	:author (author-FB)
+
+
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+])
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)
