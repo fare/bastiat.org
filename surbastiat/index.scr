@@ -1,0 +1,22 @@
+(style 'bo-style)
+(in-bof :title "Ouvrages sur Frédéric Bastiat")
+
+(set! =bof.url= "")
+(style 'oeuvres_bastiat)
+
+(document
+(header[,(titre[Ouvrages sur Frédéric Bastiat])])
+
+(sommaire[
+
+,(itemize :id "listetomes"
+(item[P. Ronce : ,(ref :url "ronce.html" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), Paris : Guillaumin, 1905])
+
+)
+
+,(img :id "vignette" :src "../pic/bastiat1.jpg" :alt "Frédéric Bastiat")
+
+])
+(tous_les_scripts)
+(footer[,(oeuvres)])
+)

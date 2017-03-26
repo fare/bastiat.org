@@ -1,0 +1,21 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Fragment sur l’agriculture")
+
+(document :title "Fragment sur l’agriculture"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[6 février 1832.])
+,(p*[L’agriculture a ce malheur, comme la médecine et l’économie politique, que tout le monde croit la savoir sans l’avoir jamais étudiée…][
+Dans l’Académie agricole de Mont-de-Marsan, on trouve de tout, depuis des maréchaux de France jusqu’à des gendarmes ; on y trouve des juges, des financiers, des employés des droits réunis, des ,(emph[Excellences]) et des ,(emph[Seigneuries]), de tout enfin, hors des agriculteurs. Nous nous vantons sans cesse d’être le peuple le plus éclairé de la terre. Je suis trop poli pour le contester. Mais, je le demande, que dirions-nous des Turcs, si on nous apprenait qu’ils ont, dans chaque province, une société philarmonique exclusivement composée de sourds ?]
+[La Société d’agriculture des Landes distribue des primes à ceux qui introduisent un beau taureau suisse ou qui plantent mille mûriers ou qui cultivent le ,(inlatin[papaverum somniferum]), etc., etc.]
+[Si les cultivateurs landais étaient assez fous pour se laisser séduire par l’appât de ces primes, les uns changeraient les dimensions de leurs roues, quoique les routes soient dans le même état, et ne pourraient faire aucun transport ; les autres banniraient le froment et le maïs, pour faire place aux pavots ; ceux-ci arracheraient des vignes pour planter des mûriers ; ceux-là feraient venir à grands frais des taureaux dont la race ne pourrait que s’éteindre. Tout serait bouleversé.][
+Heureusement, la Société prêche un désert, grâce à l’esprit de routine dont on nous accuse ; et notre intérêt est là qui nous avertit de ne pas nous laisser entraîner à des folies.][
+L’espèce humaine est douée de deux facultés qui semblent se contredire et qui cependant se prêtent un secours mutuel, l’esprit d’imitation et la puissance de l’habitude.
+])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(inedits)
+]))

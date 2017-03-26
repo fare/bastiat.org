@@ -1,4 +1,3 @@
-
 ;;;;; bo-style.scr -- Scribe style file for bastiat.org -*- Lisp -*-
 
 (style 'fare-style)
@@ -278,7 +277,7 @@
 
 ;Une petite fonction pour créer un lien vers un texte
 (defun link (target title &optional anchor)
-  (ref :url (strcat (string-downcase target) ".html#" (string-downcase anchor))
+  (ref :url (strcat "../fr/" (string-downcase target) ".html#" (string-downcase anchor))
     title))
 (defun autolk (target &optional anchor)
 (link target (id-to-titre target) anchor))

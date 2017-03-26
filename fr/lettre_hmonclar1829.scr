@@ -1,0 +1,17 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Henry de Monclar")
+
+(document :title "Lettre à Henry de Monclar"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[1829.])
+,(p*[Mon cher oncle,… je persiste à penser, et je crois que tu partages mon avis, que du train dont vont les choses, l’avenir est diablement obscur, car si, d’un côté, ceux qui ont la force en main sont résolus à courir les chances d’une lutte, et que, de l’autre, ceux qui ont l’argent en poche veuillent courir celles d’une résistance, qui peut prévoir les résultats ? Que cet état de choses est affligeant, surtout quand on pense que tout pourrait bien aller, si nous nous rattachions tous franchement à nos institutions !…
+])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(corresp)
+	,(inedits)
+]))

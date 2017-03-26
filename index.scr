@@ -4,8 +4,12 @@
 (document :title "Frédéric Bastiat"
 
 
-(div :id "container"
+(div :class "container"
+
+
+(h3[Page en construction])
 (img :id "portrait" :src "pic/bastiat2b.jpg" :alt "Frédéric Bastiat)")
+
 
 
 (div :id "tabs"
@@ -19,8 +23,10 @@
 
 (div :id "tabs-1" :class "tabs" [
 ,(h2 (font :color "#660033" [Économiste français (1801-1850)]))
-,(bof-ref #f [Tout sur Frédéric Bastiat])
-
+,(p*[,(bof-ref #f [Ancienne page d’accueil.])
+][
+,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat.])
+])
 ,(p[
 ,(a :href "fr/guillaumin.html" [Sommaire des œuvres complètes en 7 volumes])
 ])

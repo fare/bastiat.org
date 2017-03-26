@@ -1,0 +1,17 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Henry de Monclar")
+
+(document :title "Lettre à Henry de Monclar"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[Fin de 1830.])
+,(p*[J’avais toujours oublié de te dire que j’étais surpris que tu n’essayasses pas de savoir si les circonstances ne seraient pas favorables à une liquidation avec le Portugal. Voilà M. Laffitte président du Conseil. Il me semble qu’une pétition à la Chambre, qu’on n’adresserait qu’après avoir consulté M. Laffitte, pourrait avoir du succès. Si j’avais de l’argent de reste, je t’offrirais bien d’aller le voir et de lui exposer l’affaire. Je suis convaincu que le général Lamarque et le général Cardenan m’appuieraient aussi. Il ne s’agirait que d’imprimer un exposé bien clair et d’en remettre un exemplaire à chaque pair et à chaque député. Si la pétition était bien accueillie, peut-être s’offrirait-il des acheteurs. Du reste, j’ai la presque certitude d’un bon accueil de la part de M. Laffitte ; du moins, dans mon dernier voyage, il me traitait fort bien et depuis il a répondu affectueusement à deux lettres que j’ai eu occasion de lui écrire…
+])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(corresp)
+	,(inedits)
+]))

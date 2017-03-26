@@ -46,6 +46,13 @@ div#sidebar {
 
 }
 
+div#sidebar ul {
+	list-style-type: none;
+	margin: 0; padding: 0;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
 .bastiat {
 	font-family: 'bastiat', serif;
 }
@@ -795,23 +802,24 @@ font table {
 }
 
 /* Page d'accueil */
-#container {
+.container {
 	width: 95%;
 	margin: auto;
 	font-family: "bastiat";
 	font-size: 1.2em;
+	overflow: visible;
 }
 
 img#portrait {
 	float: left;
 	width: 30%;
-	margin: auto;
+	margin: auto auto auto 10%;
 }
 
 
 #tabs {
 	border: none;
-		float: right; width: 50%;
+	float: right; width: 50%;
 }
 
 div#tabs ul:first-child {
@@ -820,6 +828,8 @@ div#tabs ul:first-child {
 	border: none;
 	background: none;
 	z-index:1000;
+	font-family: sans-serif;
+	font-size: 0.8em;
 }
 
 div#tabs ul:first-child li {

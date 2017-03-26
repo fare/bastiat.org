@@ -1,0 +1,18 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Henry de Monclar")
+
+(document :title "Lettre à Henry de Monclar"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[20 mars 1830.])
+,(p*[J’ai eu aussi mes petits reliquats de l’hiver : une sciatique bien et dûment conditionnée. J’ai été obligé de me faire frictionner avec des orties. Le remède est amer ; mais il est topique. J’ai été guéri presque sur-le-champ…][
+Nous nous occupons ici de politique et nous attendons avec anxiété le dénouement du désaccord qui paraît toujours croissant entre les Chambres et le ministère. Il faut espérer que tout s’évanouira constitutionnellement par un changement de ministres ou une dissolution…
+])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(corresp)
+	,(inedits)
+]))

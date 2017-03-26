@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Projet de lettre à M. Mathieu de Dombasle")
+
+(document :title "Projet de lettre à M. Mathieu de Dombasle"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[1832.])
+,(p*[Monsieur, ayant depuis longtemps le projet de me livrer à l’agriculture, j’ai longtemps dévoré les livres concernant cet art qui me tombaient sous la main. Dans les premiers temps, j’en fus enchanté, car ils me montraient dans l’agriculture des ,(emph[harmonies]) faites pour séduire. Ils m’apprirent à jargonner passablement sur les assolements et les prairies artificielles ; je m’aperçus que mes théories enchantaient quelquefois mes auditeurs et je me crus, un instant, un profond agriculteur. Mais quand je voulus commencer mes entreprises, je vis bien qu’il fallait savoir autre chose que ce que j’avais puisé dans mes brochures et mes journaux ; je fus assez sage pour m’arrêter jusqu’à plus ample instruction.][
+Ayant fait un voyage dans une des grandes villes de nos provinces ,(footnote*[Bastiat veut parler ici de Bordeaux.]), j’eus occasion de connaître la cause du vide qui existe dans les livres dont je parle, car ayant cherché à faire connaissance avec quelques-uns de leurs auteurs, on me présenta, à ma grande surprise, à des douaniers, à des avocats, à quelques demi-savants, tous membres de sociétés agricoles, horticoles, philomatiques, polytechniques, etc., etc., tous glissant rapidement sur les labours, les hersages, les semis, choses qu’il m’intéressait fort de savoir, et dissertant longuement sur le ,(inlatin[pinus laricio]) ou sur ,(footnote*[Ici un blanc, Bastiat n’ayant pas trouvé immédiatement le nom d’arbre ou de plante bizarre qu’il voulait placer à côté du ,(emph[pinus laricio]).])…, dont pour le moment je ne me souciais guère. Je me convainquis alors que ces sociétés sont bien peu utiles aux progrès réels de l’art, plus propres peut-être à égarer qu’à guider les amateurs de réformes (seuls lecteurs de ces ouvrages).])
+,(verses[On y sait comme vont lune, étoile polaire,]
+[Vénus, Saturne et Mars, dont je n’ai point affaire ;]
+[Et dans ce vain savoir, qu’on va chercher si loin,]
+[On ne sait comme va mon pot, dont j’ai besoin.])
+,(p*[Un de vos ouvrages me tomba sous les mains. Je vis d’abord qu’en le comparant aux pratiques de mon pays, je pouvais y puiser ce que je désirais tant, une instruction pratique et capable non seulement d’inculquer quelques théories, mais de me guider dans l’exécution.][
+Mais comme vos pratiques sont principalement applicables aux climats septentrionaux, j’espère, Monsieur, que vous ne me trouverez pas indiscret en vous demandant quelques conseils propres à me guider dans la culture que je veux entreprendre sous une température un peu différente.][
+Avant tout, permettez-moi de vous exposer l’état actuel de la culture de mon pays.][
+Je ne pourrais vous donner une description scientifique de la nature de notre terre, car j’ai reçu une brillante éducation et, par conséquent, on a évité de m’enseigner rien de ce qui aurait pu m’être… utile.])
+,(verses[Et l’on sait tout chez moi, hors ce qu’il faut savoir. »])
+])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(inedits)
+]))

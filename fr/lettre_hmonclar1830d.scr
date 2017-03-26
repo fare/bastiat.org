@@ -1,0 +1,18 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre à Henry de Monclar")
+
+(document :title "Lettre à Henry de Monclar"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[Fin de 1830.])
+,(p*[Mon cher oncle… L’idée m’est venue que peut-être le moment serait favorable pour faire réussir ou au moins pour faire admettre notre réclamation sur le Portugal. Il me semble que nous aurions bien tort de laisser échapper des circonstances qui, sans doute, ne se reproduiront jamais. La conclusion du procès des ministres donne au gouvernement une grande force. Un homme que nous connaissons et qu’il est facile d’aborder est Président du Conseil ; le ministre des Relations extérieures est son ami intime et nous sera aussi accessible. Voilà des circonstances bien avantageuses. Ce n’est pas tout. Notre gouvernement est intéressé à prendre un langage hautain envers le gouvernement portugais, et peut-être sera-t-il bien aise d’avoir des réclamations à lui faire ou à lui opposer. Nous ne sommes plus au temps où notre Cabinet sympathisait si complètement avec Don Miguel. Une guerre peut même avoir lieu et lorsqu’ensuite viendront les négociations de paix, de quel avantage ne serait-il pas pour nous que nos réclamations fussent adoptées par notre gouvernement pour les faire entrer au nombre des conditions. En un mot, plus je pèse les motifs, plus il me semble, qu’à une époque où les Cabinets se succèdent avec tant de rapidité, nous ferions une faute énorme de ne pas nous occuper de notre affaire pendant que le ministère est occupé par un Bayonnais que nous connaissons tous les deux.][
+Malgré que je sois bien nul pour les affaires, je viens te proposer, ainsi qu’à M. Chegaray, d’aller passer deux mois à Paris pour essayer au moins de faire admettre cette réclamation. Si vous m’envoyez des notes circonstanciées ou mieux encore un petit mémoire, j’en ferai plusieurs copies et je vous promets que MM. Laffitte, Sébastiani, Lamarque en auront, avec des explications verbales. Quant à moi, s’il n’y avait pas de raisons qui s’y opposassent, je serais même d’avis d’employer l’arme la plus puissante et la plus loyale des temps modernes : la ,(emph[Publicité]). Je voudrais qu’une pétition aux deux Chambres fît connaître notre position aux députés et aux journaux ; je ne doute pas qu’elle inspirerait de l’intérêt et la politique s’en emparerait pour lui donner de l’importance. J’ai vu Émile Dutroyat occuper, à Paris, toute la législature d’une affaire de laines moins importante. Il est vrai qu’il fut lui-même visiter chacun des 430 députés et tous les pairs de France. Je me sentirais de force à user du même moyen, si cela m’était conseillé, ou, du moins, à remettre moi-même la pétition, en la recommandant, aux orateurs les plus influents. Si, comme je n’en doute pas, elle était renvoyée au ministre des Affaires étrangères, ce serait, pour l’avenir, un pas décisif de fait. Pèse donc ces motifs, les chances de succès, l’opportunité de ces démarches et, si tu penses comme moi, envoie-moi les notes, la pétition, des lettres de recommandation pour M. d’Argout et pour quelque bon jurisconsulte. Je me mettrai en route sur-le- champ…
+])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(corresp)
+	,(inedits)
+]))
