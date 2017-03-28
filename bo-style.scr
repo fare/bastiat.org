@@ -503,10 +503,10 @@ window.onresize = function() {
 ;;Mise en forme des liens
 
 ; Liens vers l'index des noms de personnes
-(defun np (x &rest r) (a :href (strcat "personnes.html#" x) :class "np" r))
+(defun np (x &rest r) (a :href (strcat "../fr/personnes.html#" x) :class "np" r))
 
 ; Liens vers l'index des titres de journaux
-(defun tj (x &rest r) (a :href (strcat "journaux.html#" x) :class "tj" r))
+(defun tj (x &rest r) (a :href (strcat "../fr/journaux.html#" x) :class "tj" r))
 ;mettre r en italique
 
 ;Classe "bastiat" pour enrober le texte de Bastiat
