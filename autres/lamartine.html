@@ -1,0 +1,180 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="../pic/favicon.ico"
+/>
+<link rel="stylesheet" type="text/css" href="../bastiat.css"
+/>
+<link rel="stylesheet" type="text/css" href="../jquery-ui.css"
+/>
+<script src="../jquery-3.0.0.min.js"></script
+>
+<script src="../jquery-ui.js"></script
+>
+<script src="../jquery.sticky-kit.min.js"></script
+>
+<title>Lettre de Lamartine à Bastiat</title
+>
+</head
+><body>
+<div class="header"><div class="titre">Lettre de Lamartine à Bastiat</div
+>
+	   </div
+><div id="sidebar">
+<h5>Sources</h5
+>
+<p align="justify"></p
+>
+</div
+><div class="bastiat">
+<p class="datetag">Paris, 20 février 1845.</p
+>
+<p class="cher">Monsieur,</p
+>
+<p align="justify">Je viens de lire la lettre que vous m’avez fait l’honneur de m’adresser par le <i>Journal des Économistes</i
+>. Je me félicite de ce que vous avez pris le public pour intermédiaire de cette correspondance ; il y gagnera de connaître de grandes vérités et un grand talent de plus. Je ne répondrai pas aujourd’hui aux objections pressantes que vous présentez contre les conclusions de mon dernier travail ; j’attendrai plus de liberté de temps et d’esprit. On ne peut pas combattre un écrivain tel que vous avec la moitié de ses forces. Cette lettre n’est qu’un remerciement, elle n’est point une polémique.</p
+><p align="justify">
+Cependant permettez-moi de vous dire que vous interprétez mal ma pensée en faisant de moi un adversaire de l’école expérimentale des Économistes. Ils ont fait le corps de la science ; je ne leur reproche qu’une chose, c’est de ne pas lui avoir donné une âme. L’idéal leur manque, l’idéal c’est la charité. L’arithmétique n’est pas une vertu, c’est une lumière. En voulant réduire à la portée d’un simple calcul toute l’économie politique, on la matérialise et on la ravale. J’ai une plus haute idée de cette science de la richesse publique, c’est tout mon tort.</p
+><p align="justify">
+Quant au principe d’association, quant à l’idée de l’amélioration indéfinie de l’organisation sociale que j’ai attribuée d’une manière un peu trop exclusive à l’école de Fourier, ce n’est qu’une politesse pour sa mémoire, ce n’est pas une injustice pour la science. Je n’ai jamais prétendu donner à cette école le monopole des intentions généreuses ; l’association, le progrès, l’amour des masses sont la propriété de toutes les doctrines et de tous les temps ; en les attribuant à un système, on ne les enlève pas à un autre.</p
+><p align="justify">
+Je suis bien loin, Monsieur, de prétendre au titre d’<em>inventeur d’un principe</em
+>, soit en politique, soit en économie. C’est Dieu qui fait les principes, c’est l’expérience qui les révèle ; les hommes ne font que les formuler. La Révolution française, cette seconde révélation du christianisme social, en a formulé trois : la liberté, l’égalité, la fraternité. L’école des économistes, à laquelle vous appartenez et que vous êtes destiné, je n’en doute pas, à illustrer d’un éclat de plus, s’est arrêtée, comme vous jusqu’à présent, au premier de ces principes, c’est-à-dire à la liberté des industries. Marchez un peu plus, vous arriverez à l’égalité des conditions légales de ces industries. Marchez encore, vous arriverez à la loi complète, la fraternité. Le jour où vous en serez là, l’économie politique aura ses philosophes ; elle n’a eu jusqu’ici que ses théoriciens. Ce jour-là, Monsieur, nous serons ensemble ; et je m’en féliciterai pour ma philosophie comme vous voulez bien vous en féliciter pour votre science. Agréez, etc…</p
+>
+<p class="sign">A. de Lamartine</p
+>
+</div
+><script>
+
+//détecte les recouvrements (nouvelle/ancienne note)
+
+var overlap = function(a, b) {
+  return (a.offset().top < b.offset().top + b.height() + 10)
+};
+
+var placerderriere = function (a, b) {
+  b.offset({top: a.offset().top + a.height() + 10});
+};
+
+var placerdevant = function (a, b) {
+   a.offset({top: b.offset().top - a.height() - 10});
+};
+
+var bastiat = $('.bastiat').eq(0);
+var bottom = bastiat.offset().top + bastiat.height();
+
+var sidenotes = function() {
+
+if ( $(window).width() > 1000) {
+var scrollTop = $(window).scrollTop();
+
+//Répéter autant de fois qu'il y a de footnotes...
+
+for (var i=0; i<$('.footnote').length; i++) {
+
+  var note = $('.footnote').eq(i);
+  var positioninitiale = note.offset().top;
+  var number = (i + 1).toString();
+  var refname = 'a[name=footnoteref' + number + ']';
+  var ref = $(refname);
+
+//Soit y sa distance par rapport au haut du document. (C'est là qu'il y a un problème: quand je scrolle jusqu'en bas,
+//j'obtiens des valeurs négatives alors que normalement offset est indépendant du scroll.)
+//Bon, je rajoute scrollTop.
+
+  var y = ref.offset().top + scrollTop;
+
+//Fixer le y de 'note' égal au y de la footnoteref.
+
+  note.addClass('margin');
+  note.offset({top: y});
+
+//Problème des notes trèèès longues, qui sont plus à leur place en bas de la page.
+var longueur = note.text().length;
+var longuenote = (longueur>=750);
+if (longuenote) {
+  note.removeClass('margin');
+  note.offset({top: positioninitiale});
+}
+
+//Ça c'est pour régler le problème des notes trop hautes, appelées depuis le titre et donc cachées par le header.
+  var haut = $('.bastiat').offset().top;
+  if (note.offset().top - haut < 0) {note.offset({top: haut});};
+
+//Ça c'est pour vérifier un éventuel overlap avec la note précédente, et positionner la nouvelle note
+//sous la précédente le cas échéant.
+  if (lastnote) {
+      if (overlap(note, lastnote) && lastnote.hasClass('margin')) {
+          placerderriere(lastnote, note);
+          };
+      };
+
+//Et ça c'est pour réinitialiser lastnote à chaque cycle.
+  var lastnote = note;
+
+};
+//Fin du loop
+
+var marginnotes = $('.margin');
+
+var lastoverlap = function() {
+  var i = marginnotes.length - 1;
+  while (i >= 1 && overlap(z, y)) {
+    var z = marginnotes.eq(i);
+    var y = marginnotes.eq(i-1);
+    placerdevant(y, z);
+    i = i-1;
+  };
+};
+var last = marginnotes.eq(marginnotes.length - 1);
+
+if (last.offset().top + last.height() > bastiat.offset().top + bastiat.height()) {
+  last.offset({top: bottom - last.height()});
+};
+
+//Dernière chose à faire: détecter overlap des dernières notes; régler avec placerdevant().
+lastoverlap();
+
+};
+//Fin du if window machin
+};
+//Fin de la fonction
+
+$(document).ready(function() {
+    sidenotes();
+
+window.onresize = function() {
+    sidenotes();
+};
+});
+</script><script>
+var stickit = function () {
+if ( $(window).width() > 1000) {
+$('#sidebar').stick_in_parent();
+} else {
+  $('#sidebar').trigger('sticky_kit:detach');
+};
+};
+
+$(document).ready(function() {
+    stickit();
+window.onresize = function() {
+    stickit();
+};
+});
+</script> <div class="footer"><div class='arbor'>
+    <a class='retour' href='../index.html'>Œuvres</a></div></div
+><font size="-1"><table width="100%"><tr><td align="left" width="25%"><a href="http://bastiat.org/fr/"><tt>Bastiat.org</tt
+></a
+></td
+><td align="center" width="50%"><span style="font-variant: small-caps"><a href="http://fare.tunes.org/liberalisme/" target="_blank" rel="noopener noreferrer">Le Libéralisme, le vrai</a
+></span
+></td
+><td align="right" width="25%">Un site par <a href="http://fare.tunes.org/" target="_blank" rel="noopener noreferrer">François-René Rideau</a
+> </td
+></tr
+></table
+></font
+></body></html>

@@ -13,7 +13,7 @@
 	  :css '("bastiat.css" "jquery-ui.css")
 	  :script '("jquery-3.0.0.min.js" "jquery-ui.js" "jquery.sticky-kit.min.js")
       '())
-  (set! *footnotes-header* (lambda () (h4 "Notes")))
+  (set! *footnotes-header* (lambda ()))
   (with-footer :left (bo-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [A site by ,(FRR) ,(webbug)]))
@@ -24,7 +24,7 @@
     :css '("../bastiat.css" "../jquery-ui.css")
     :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
 	  '())
-  (set! *footnotes-header* (lambda () (h4 "Notes")))
+  (set! *footnotes-header* (lambda ()))
   (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
   (with-footer :left (boe-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
@@ -36,7 +36,7 @@
     :css '("../bastiat.css" "../jquery-ui.css")
     :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
 	  '())
-  (set! *footnotes-header* (lambda () (h4 "Notes")))
+  (set! *footnotes-header* (lambda ()))
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Lib.ref))
 	       :right [Un site par ,(FRR) ,(webbug)]))
@@ -46,7 +46,7 @@
 	  :icon "../pic/favicon.ico"
 	  :css "../bastiat.css"
 	  '())
-  (set! *footnotes-header* (lambda () (h4 "Notas")))
+  (set! *footnotes-header* (lambda ()))
   (with-footer :left (boes-ref #f (tt[Bastiat.org]))
 	       :middle (strong(Liben.ref))
 	       :right [Un sitio por ,(FRR) ,(webbug)]))
@@ -100,12 +100,16 @@
 (define (Har-ref x) (bof-ref "harmonies" (cite-title x)))
 (define (Soph-ref x) (bof-ref "sophismes" (cite-title x)))
 (define (Grat-ref x) (bof-ref "gratuite_du_credit" (cite-title x)))
+(define (Cobden-ref x) (bof-ref "cobden_ligue" (cite-title x)))
 (define (HarmoniesEconomiques) (Har-ref [Harmonies Économiques]))
 (define (Harmonies_economiques) (Har-ref [Harmonies économiques]))
+(define (Harm) (Har-ref [Harmonies]))
 (define (SophismesEconomiques) (Soph-ref [Sophismes Économiques]))
 (define (Sophismes_economiques) (Soph-ref [Sophismes économiques]))
+(define (Sophismes) (Soph-ref [Sophismes]))
 (define (GratuiteCredit) (Grat-ref [Gratuité du Crédit]))
 (define (Gratuite_credit) (Grat-ref [Gratuité du crédit]))
+(define (Cobdenetlaligue) (Cobden-ref [Cobden et la Ligue]))
 
 (define (AlainMadelin)
   (ref :url "http://www.alainmadelin.com/"
@@ -277,7 +281,7 @@
 
 ;Une petite fonction pour créer un lien vers un texte
 (defun link (target title &optional anchor)
-  (ref :url (strcat "../fr/" (string-downcase target) ".html#" (string-downcase anchor))
+  (ref :url (strcat "../fr/" (string-downcase target) ".html#" (if anchor (string-downcase anchor)))
     title))
 (defun autolk (target &optional anchor)
 (link target (id-to-titre target) anchor))
@@ -561,6 +565,7 @@ window.onresize = function() {
 (defun sources (&rest r) (div :id "sources" [,(h5[Sources]),(apply 'p* r)]))
 (defun voiraussi (&rest r) (div :id "voiraussi" [,(h5[Voir aussi]),(apply 'p* r)]))
 
+
 ;(Pour les liens retour/préc/suiv)
 (defun
   arbor
@@ -753,7 +758,24 @@ window.onresize = function() {
 });
 </script>"))
 
+
+;élément à ajouter à chaque document pour charger tous les scripts d'un coup
+
 (defun tous_les_scripts () [,(script_sidenotes),(script_sidebar) ])
+
+;Fonctions pour charger le contenu, qui sera désormais défini en dehors de la fonction "document" (en attendant de tout mettre dans un fichier unique et d'appeler le contenu à partir de ce fichier)
+; La div container contient le texte mais pas les notes de bas de page. Elle permet que la sticky sidebar s'arrête juste au-dessus des notes de bas de page au lieu de les recouvrir.
+
+(define sidebarcontent [])
+(define bastiatcontent [])
+
+(defun container ()
+(div :class "container" [
+,(sidebar sidebarcontent)
+,(bastiat bastiatcontent)
+]))
+
+
 
 (defparameter *make-title-hook*
   (lambda (&key title author)
@@ -772,3 +794,4 @@ window.onresize = function() {
       (when url (font :size "+1"
 		      (tt (if (stringp url) (a :href url url) url))))
       ))))
+

@@ -1,0 +1,20 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettre de Lamartine à Bastiat")
+(document :title "Lettre de Lamartine à Bastiat"
+
+(sidebar [
+,(h5[Sources])
+,(p*[])
+])
+(bastiat[
+,(date-tag[Paris, 20 février 1845.])
+,(cher[Monsieur,])
+,(p*[Je viens de lire la lettre que vous m’avez fait l’honneur de m’adresser par le ,(cite-title[Journal des Économistes]). Je me félicite de ce que vous avez pris le public pour intermédiaire de cette correspondance ; il y gagnera de connaître de grandes vérités et un grand talent de plus. Je ne répondrai pas aujourd’hui aux objections pressantes que vous présentez contre les conclusions de mon dernier travail ; j’attendrai plus de liberté de temps et d’esprit. On ne peut pas combattre un écrivain tel que vous avec la moitié de ses forces. Cette lettre n’est qu’un remerciement, elle n’est point une polémique.][
+Cependant permettez-moi de vous dire que vous interprétez mal ma pensée en faisant de moi un adversaire de l’école expérimentale des Économistes. Ils ont fait le corps de la science ; je ne leur reproche qu’une chose, c’est de ne pas lui avoir donné une âme. L’idéal leur manque, l’idéal c’est la charité. L’arithmétique n’est pas une vertu, c’est une lumière. En voulant réduire à la portée d’un simple calcul toute l’économie politique, on la matérialise et on la ravale. J’ai une plus haute idée de cette science de la richesse publique, c’est tout mon tort.][
+Quant au principe d’association, quant à l’idée de l’amélioration indéfinie de l’organisation sociale que j’ai attribuée d’une manière un peu trop exclusive à l’école de Fourier, ce n’est qu’une politesse pour sa mémoire, ce n’est pas une injustice pour la science. Je n’ai jamais prétendu donner à cette école le monopole des intentions généreuses ; l’association, le progrès, l’amour des masses sont la propriété de toutes les doctrines et de tous les temps ; en les attribuant à un système, on ne les enlève pas à un autre.][
+Je suis bien loin, Monsieur, de prétendre au titre d’,(emph[inventeur d’un principe]), soit en politique, soit en économie. C’est Dieu qui fait les principes, c’est l’expérience qui les révèle ; les hommes ne font que les formuler. La Révolution française, cette seconde révélation du christianisme social, en a formulé trois : la liberté, l’égalité, la fraternité. L’école des économistes, à laquelle vous appartenez et que vous êtes destiné, je n’en doute pas, à illustrer d’un éclat de plus, s’est arrêtée, comme vous jusqu’à présent, au premier de ces principes, c’est-à-dire à la liberté des industries. Marchez un peu plus, vous arriverez à l’égalité des conditions légales de ces industries. Marchez encore, vous arriverez à la loi complète, la fraternité. Le jour où vous en serez là, l’économie politique aura ses philosophes ; elle n’a eu jusqu’ici que ses théoriciens. Ce jour-là, Monsieur, nous serons ensemble ; et je m’en féliciterai pour ma philosophie comme vous voulez bien vous en féliciter pour votre science. Agréez, etc…])
+,(sign[A. de Lamartine])
+])
+(tous_les_scripts)
+(footer[,(oeuvres)]))

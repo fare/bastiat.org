@@ -1,0 +1,41 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "De la certitude")
+
+(document :title "De la certitude"
+	:author (author-FB)
+
+(bastiat[
+,(date-tag[1833.])
+,(p*[En morale, le ,(emph[fait]) est l’asymptote du ,(emph[droit]), comme, en physique, le sensible est l’asymptote du rationnel.][
+Le fait tend à se rapprocher sans cesse du droit ; c’est le résultat de notre nature humaine qui est perfectible et non parfaite.][
+Le sensible tend à se rapprocher du rationnel, parce que nos sens sont aussi perfectibles, mais imparfaits.][
+On conçoit qu’un nouvel exercice rende un organe plus exercé et qu’une force nouvelle ajoute à sa force.][
+Mais ces exercices nouveaux, ces forces nouvelles n’ajoutent jamais qu’un fini à un fini, et le rationnel est infini.][
+Je vous défie, et je défie tous les savants et tous les artistes de me dire quel est le poids rationnel, le poids mathématique de cette pièce de monnaie.][
+Et d’abord ont-ils un poids type et mathématiquement connu auquel ils puissent le comparer ?][
+Si vous me dites que le gramme a théoriquement une valeur exacte, je voùs dirai que non, puisqu’il ne saurait l’avoir qu’autant que l’arc du méridien terrestre eût été exactement mesuré. Or, n’y eût-il dans cette opération qu’une erreur d’une ligne, le mètre aurait une erreur d’un dix-millionième de ligne. C’est bien peu, mais cela suffit pour que votre type, qui est très raisonnable, ne soit pourtant pas rationnel.][
+J’admets pourtant qu’il le soit. Il reste à savoir si ce petit morceau de cuivre, que vous me donnez pour un gramme, a pu être exécuté avec une perfection infinie.][
+Vous l’avez comparé à un volume d’eau distillée, mais l’eau pèse plus ou moins selon qu’elle est plus ou moins dilatée, etc.][
+J’admets encore que votre morceau de cuivre est un gramme mathématique.][
+Il vous reste à mettre les deux objets de comparaison dans les deux bassins d’une balance. Mais qui me dit que ces bassins ont des poids égaux. Vous les avez pesés, dites-vous ; mais dans d’autres balances, sans doute, et l’objection remonte ainsi à l’infini.][
+J’admets cependant la justesse mathématique de votre balance, mais les objets que nous comparons, quand ils se font équilibre, n’ont pas pour cela un poids égal. Ils déplacent plus ou moins d’air selon leur volume. Il faut donc les peser dans le vide et nous ne savons pas s’il y a du vide.][
+Ainsi, vous ne m’indiquez jamais qu’un poids ,(emph[approximatif]).][
+Faites l’opération mille fois et prenez la moyenne, vous me donnerez un résultat plus probable ; mais une série de probabilités ne sont pas une certitude.][
+Il est donc bien vrai qu’en physique une certitude complète ne peut nous être acquise par des sens incomplets ; et dire : je suis sûr, c’est dire : je suis infini.][
+Pour être sûr d’une chose, il faut l’être de tout.][
+Ainsi, pour connaître le poids de cette pièce d’argent, il faudrait avoir mesuré exactement le quart du méridien terrestre, il faudrait avoir exécuté un mètre parfait, avoir eu des instruments parfaits pour opérer cette exécution et encore des instruments parfaits pour faire un instrument ; il faudrait avoir eu un cube d’eau parfait, avoir distillé l’eau parfaitement et n’y avoir pas laissé, par exemple, un de ces atomes organisés dont mille tiendraient sur la pointe d’une aiguille ; il faudrait avoir fait le vide parfait, il faudrait avoir un baromètre parfait, c’est-à-dire connaître parfaitement le point de congélation ; il faudrait faire exactement la différence du déplacement de l’air, ne pas toucher les objets comparés parce que la chaleur des mains et les vapeurs déposées sur les objets par cet attouchement en changent le poids ; il faudrait avoir des balances parfaites, et après tout cela, vous n’auriez encore que le type de la pesanteur.][
+Partout le sensible est l’asymptote du rationnel.][
+Le fait, c’est l’asymptote du droit.][
+Le droit, c’est la perfection. La perfection est incompatible avec la nature humaine ; donc l’homme ne peut atteindre le droit ni par sa pensée, ni par ses actes. Mais il s’en rapproche sans cesse.][
+En effet, il est de toute nécessité que l’erreur et le vice perdent incessamment de leur influence.][
+Le vice est fils de l’erreur, non pas toujours de l’erreur de celui qui s’y livre, mais de l’erreur de ceux qui le subissent ou de celle de l’opinion qui le tolère.][
+Il y a d’autant moins de corrupteurs qu’il y a moins de gens corruptibles. Il y a moins des uns et des autres, à mesure qu’il y a moins de gens disposés à subir les effets de la corruption.][
+Dans une société où on ne saurait pas que tous les corps qui ne sont pas soutenus tombent, il arriverait beaucoup de malheurs.][
+Il en est de même pour les choses morales. Là où on connaît moins les effets de l’intempérance, il y plus d’intempérants.][
+Cela est encore vrai pour la morale de relation ou société, et d’autant plus vrai, en ce cas, que la correction a une double source, savoir dans l’intelligence de l’homme vicieux et dans celle de la société qui se défend du vice…])])
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(inedits)
+]))
