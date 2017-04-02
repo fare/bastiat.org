@@ -1,0 +1,31 @@
+(style 'bo-style)
+(in-bof :title "Pamphlets — par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title [Pamphlets]
+	:author (author-FB)
+
+(sommaire[
+
+
+,(table
+  (tr (tdRT :width "20%" [15 mai 1848]) (td(autolk "propriete_et_loi")))
+  (tr (tdRT :width "20%" [15 juin 1848]) (td(autolk "justice_fraternite")))
+  (tr (tdRT :width "20%" [Juillet-Septembre 1848]) (td(link "propriete_et_spoliation" [Propriété et spoliation])))
+  (tr (tdRT :width "20%" [25 septembre 1848]) (td(autolk "l_etat")))
+  (tr (tdRT :width "20%" [Janvier 1849]) (td(autolk "protectionisme_et_communisme")))
+  (tr (tdRT :width "20%" [Février 1849]) (td(autolk "capital_et_rente")))
+  (tr (tdRT :width "20%" [Février 1849]) (td(autolk "paix_et_liberte")))
+  (tr (tdRT :width "20%" [Mars 1849]) (td(autolk "incompatibilites_parlementaires")))
+  (tr (tdRT :width "20%" [15 avril 1849]) (td(autolk "maudit_argent")))
+  (tr (tdRT :width "20%" [Mars 1850]) (td(ref :url "gratuite_du_credit.html" [Gratuité du crédit])))
+  (tr (tdRT :width "20%" [Mars 1850]) (td(autolk "baccalaureat_et_socialisme")))
+  (tr (tdRT :width "20%" [15 mai 1850]) (td(autolk "spoliation_et_loi")))
+  (tr (tdRT :width "20%" [Juin 1850]) (td(autolk "la_loi")))
+  (tr (tdRT :width "20%" [Juillet 1850]) (td(autolk "cqovecqonvp")))
+
+  )
+])
+(tous_les_scripts)
+(footer(oeuvres)))

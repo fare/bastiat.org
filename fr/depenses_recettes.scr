@@ -3,13 +3,11 @@
 (in-bof :title
 "Fragment")
 
-(document :title "Raisons du déficit public"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/447/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 447.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche inédite,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "paix_et_liberte.html#depenses_recettes" [note de bas de page]).])
 ,(p*[
@@ -27,5 +25,11 @@ J’en sais encore une raison.
 Tout le monde veut vivre aux dépens de l’État,
 et on oublie que l’État vit aux dépens de tout le monde.])
 ])
+
+(document :title "Raisons du déficit public"
+	:author (author-FB)
+
+	(container)
+
 (tous_les_scripts)
 (footer[]))

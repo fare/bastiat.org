@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 17 janvier 1848")
-(document :title "Lettre à Mme Schwabe"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/420/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 420.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[17 janvier 1848.])
 
 ,(cher[Madame,])
@@ -18,6 +16,10 @@ Je vous remercie d’avoir songé à m’envoyer le ,(tj "punch" [,(cite-title[P
 ][
 Voici cinq numéros du dernier ,(tj "le" [,(cite-title[Libre-Échange])]). J’ai fait le premier ,(ref :url "armements_en_angleterre_1.html" [article]) sur les ,(emph[armements]), dans l’espoir qu’il peut exercer quelque influence en Angleterre. Il m’est donc bien agréable d’apprendre que vous vous chargez de l’y faire parvenir.
 ])])
+
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

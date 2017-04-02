@@ -1,0 +1,22 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Lettres à Henry et Ulysse de Monclar
+	— par Frédéric Bastiat")
+
+(document
+(header[,(titre[Lettres à Henry et Ulysse de Monclar])])
+(nbsp)
+(sommaire[
+,(chapeau[Toutes ces lettres adressées à Henry et Ulysse de Monclar, respectivement l’oncle et le cousin de Bastiat, se trouvent dans l’ouvrage de Pierre Ronce, ,(cite-title(ref :url "../surbastiat/ronce.html" [Frédéric Bastiat : sa vie, son œuvre])) (1905).])
+,(table
+  (tr (tdRT :width "20%" (ref :url "lettre_umonclar1829.html" [1829])) (td[Lettre à Ulysse de Monclar.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1829.html" [1829])) (td[Lettre à Henry de Monclar.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1830.html" [20 mars 1830])) (td[Lettre à Henry de Monclar, sur sa santé et sur le contexte politique.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1830b.html" [3 novembre 1830])) (td[Lettre à Henry de Monclar.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1830c.html" [Fin de 1830])) (td[Lettre à Henry de Monclar.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1830d.html" [Fin de 1830])) (td[Lettre à Henry de Monclar.]))
+  (tr (tdRT (ref :url "lettre_hmonclar1831.html" [Mars 1831])) (td[Lettre à Henry de Monclar.]))
+  )
+])
+(tous_les_scripts)
+(footer[,(oeuvres),(corresp)]))

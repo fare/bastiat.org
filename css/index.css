@@ -1,0 +1,131 @@
+.lettre {
+	background-color: #ccc;
+	padding: 0;
+	width: 70%;
+	margin: auto;
+	font-family: "paratexte";
+}
+
+.lettre font p {
+	font-weight: bold;
+}
+
+.journal {
+	text-align: justify;
+	margin: 2em;
+}
+
+.personne {
+	text-align: justify;
+	font-size: 1.1em;
+	background-color: #f0f0f0;
+	width: 90%;
+	padding: 1em;
+	margin: -1em auto 0 auto;
+}
+
+.personne > a:first-child {
+	display: block;
+	position: relative; margin-top: 1em;
+}
+
+/*.personne>p:nth-child(2), .personne {
+	width: 60%;
+	
+}*/
+
+
+.personne p {
+	position: relative;
+	margin: 0.2em 0; text-indent: 1em;
+}
+
+.personne p.bio {
+	font-weight: bold; font-size: 0.9em; color: #888;
+}
+
+
+
+
+.personne span.dates {
+
+	position: absolute;
+	right: 0; top: 0;
+}
+
+.personne span.nom {
+	font-variant: small-caps; font-weight: bold;
+	font-size: 1.2em;
+	margin-left: -1em ;
+}
+
+.personne span.prenom {
+	font-weight: bold;
+}
+
+.personne ul {
+	margin-right: 0; width: 95%; padding: 0;
+	margin-top: 0; margin-bottom: 0;
+
+}
+
+.personne div.references, .personne span.dates {
+	font-family: "bastiat";
+}
+
+
+
+.journal .titre {
+	font-weight: bold;
+}
+
+.sommaire p.alphabet {
+	position: fixed;
+	left: 0; right: 0; top:0; margin-top: 0;
+	padding: 1em;
+	font-weight: bold;
+	background: rgba(255,255,255,0.9);
+	z-index:15;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	font-size: 1.2em; height: 0.8em; line-height: 0.8em;
+	font-family: "paratexte";
+}
+
+/*Index des Journaux*/
+ul.journaux {
+	list-style-type: none;
+	width: 100%;
+	margin: 0; padding: 0;
+	text-align: center;
+}
+
+.itemjournal {
+	width: 12em;
+	display: inline-block;
+	position: relative;
+	min-height: 9em;
+}
+
+.itemjournal .titre {
+	position: absolute; top: 0; left:0;
+	width: 100%;
+	padding: 0.5em 0 1em 0;
+	font-weight: bold;
+}
+
+.itemjournal a.titre:link, .itemjournal a.titre:visited {
+	color: #FFA500;
+}
+
+.itemjournal a.titre:hover {
+	color: #c50;
+}
+
+.itemjournal .about {
+	width: 90%;
+	height:50%;
+	position: absolute; bottom: 0; left: 0;
+	font-size: 0.9em;
+	padding: 0 0.5em 0 0.5em;
+}

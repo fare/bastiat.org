@@ -4,7 +4,7 @@
 (document :title "Frédéric Bastiat"
 
 
-(div :class "container"
+(div :id "container"
 
 
 (h3[Page en construction])
@@ -23,37 +23,19 @@
 
 (div :id "tabs-1" :class "tabs" [
 ,(h2 (font :color "#660033" [Économiste français (1801-1850)]))
-,(p*[,(bof-ref #f [Ancienne page d’accueil.])
+,(p*[,(bof-ref #f [Ancienne page d’accueil]). — ,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat]). — ,(a :href "fr/guillaumin.html" [Sommaire des œuvres complètes en 7 volumes]).
 ][
-,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat.])
-])
-,(p[
-,(a :href "fr/guillaumin.html" [Sommaire des œuvres complètes en 7 volumes])
-])
-,(p[
-,(a :href "fr/correspondance.html" [Correspondance])
-])
-,(p[
-,(a :href "fr/journaux.html" [Articles publiés, par journal])
+,(Cobdenetlaligue). — ,(Sophismes_economiques). — ,(Harmonies_economiques).
+][
+,(a :href "fr/pamphlets.html" [Pamphlets]). — ,(a :href "fr/journaux.html" [Articles]). — ,(a :href "fr/correspondance.html" [Correspondance]).
 ])
 
 ,(p[,(OE*)uvres les plus célèbres:])
-,(table :cellspacing 0 :border 0 :cellpadding 0
-(tr
-(td :valign "baseline" )
-(tdLT (strong (bof-ref "petition" [Pétition des marchands de chandelles]))))
-(tr
-(td :valign "baseline" )
-(tdLT (strong (bof-ref "l_etat" [L'État]))))
-(tr
-(td :valign "baseline" )
-(tdLT (strong (bof-ref "la_loi" [La loi]))))
-(tr
-(td :valign "baseline" )
-(tdLT (strong (bof-ref "cqovecqonvp" [Ce qu'on voit et ce qu'on ne voit pas]))))
-(tr
-(td :valign "baseline" )
-(tdLT (strong (bof-ref "harmonies" [Harmonies Économiques])))))
+,(verses[,(bof-ref "cqovecqonvp" [Ce qu’on voit et ce qu’on ne voit pas]).]
+[,(bof-ref "l_etat" [L’État]).]
+[,(bof-ref "la_loi" [La Loi]).]
+[,(bof-ref "petition" [Pétition des fabricants de chandelles]).]
+	)
 ])
 
 (div :id "tabs-2" :class "tabs" [

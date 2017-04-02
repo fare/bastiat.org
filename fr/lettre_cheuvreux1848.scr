@@ -2,16 +2,14 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de novembre 1848")
-(document :title "Lettre à Mme Cheuvreux"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=5" [,(cite-title[Lettres d’un habitant des Landes])]), p. 9.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Novembre 1848.])
 
-,(cher[Madame,])
+,(cher[,(np "cheuvreux_h" [Madame]),])
 ,(p*[Il y a, à l’hôtel Saint-Georges, trois santés tellement sympathiques entre elles que si l’une décline, les autres sont menacées. Permettez-moi de faire demander comment vous vous portez. À Mugron, dès neuf heures du matin, nous savions des nouvelles de tous nos amis. Ah ! croyez que la monotonie provinciale a ses compensations.
 ][
 Si vous avez sous la main l’adresse du savant pharmacien qui a trouvé l’art de rendre supportable l’huile de foie de morue, veuillez me l’envoyer. Je voudrais bien que ce précieux alchimiste pût m’enseigner le secret de faire aussi de l’économie politique ,(emph[épurée ;]) c’est un remède dont notre société malade a bon besoin, mais elle refuse d’en prendre la moindre cuillerée tant il est répugnant.
@@ -19,6 +17,9 @@ Si vous avez sous la main l’adresse du savant pharmacien qui a trouvé l’art
 ,(politesse[Votre dévoué,])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

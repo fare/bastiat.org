@@ -6,11 +6,14 @@
 
 ;;; All that is to define correctly...
 
+(define csslist
+'("../css/fonts.css" "../css/footer.css" "../css/bastiat.css" "../css/index.css" "../css/jquery-ui.css"))
+
 (define-markup (in-bo
                 (:title #f) (:lang #f) (:charset *default-charset*))
   (apply* with-header :title title :lang lang :charset charset
 	  :icon "pic/favicon.ico"
-	  :css '("bastiat.css" "jquery-ui.css")
+	  :css '("css/fonts.css" "css/footer.css" "css/bastiat.css" "css/index.css" "css/jquery-ui.css")
 	  :script '("jquery-3.0.0.min.js" "jquery-ui.js" "jquery.sticky-kit.min.js")
       '())
   (set! *footnotes-header* (lambda ()))
@@ -21,7 +24,7 @@
 (define-markup (in-boe (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
-    :css '("../bastiat.css" "../jquery-ui.css")
+    :css csslist
     :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
 	  '())
   (set! *footnotes-header* (lambda ()))
@@ -33,7 +36,7 @@
 (define-markup (in-bof (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
-    :css '("../bastiat.css" "../jquery-ui.css")
+    :css csslist
     :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
 	  '())
   (set! *footnotes-header* (lambda ()))
@@ -44,7 +47,7 @@
 (define-markup (in-boes (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'es :charset charset
 	  :icon "../pic/favicon.ico"
-	  :css "../bastiat.css"
+	  :css "../css/bastiat.css"
 	  '())
   (set! *footnotes-header* (lambda ()))
   (with-footer :left (boes-ref #f (tt[Bastiat.org]))
@@ -173,7 +176,7 @@
 (define (NdEBO)
   (it [(Note de l'éditeur de ,(Bastiat.org).)]))
 (define (NdEEF)
-  (it [(Note de l'éditeur de l'édition de la ,(FEE).)]))
+  (it [(Note de l'éditeur de l’édition de la ,(FEE).)]))
 (define (NdML)
   (it [(Note de ,(leter))]))
 (define (EO18xx v a)
@@ -234,7 +237,7 @@
 
 (defmacro filtering-bastiat-db (&body body)
   `(filter-bastiat-db
-    (lambda (id &key titre date livre journal lettre oc1862 lhl &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date lhl id)) ,@body)))
+    (lambda (id &key titre date livre journal lettre oc1862 lhl pamphlets &allow-other-keys) (declare (ignorable oc1862 livre journal titre lettre date lhl pamphlets id)) ,@body)))
 
 (defun getf-many (key plist)
   "given a PLIST, extract all the entries starting with the KEY, not just the first one"
@@ -332,6 +335,10 @@
 (defparameter lesinedits
  (sort (filtering-bastiat-db (and (null oc1862) (null lhl))) 'string< :key 'text-date))
 
+
+(defparameter pamphlets
+ (sort (filtering-bastiat-db (not (null pamphlets))) 'string< :key 'text-date))
+
 (defparameter correspondance
  (sort (filtering-bastiat-db (and (not (null lettre)) (not (null date)))) 'string< :key 'text-date))
 (defparameter lettres_a_arrivabene
@@ -340,6 +347,8 @@
  (sort (filtering-bastiat-db (member 'calmetes lettre)) 'string< :key 'text-date))
 (defparameter lettres_a_cheuvreux
  (sort (filtering-bastiat-db (or (member 'mmecheuvreux lettre) (member 'mcheuvreux lettre) (member 'lcheuvreux lettre))) 'string< :key 'text-date))
+(defparameter lettres_a_monclar
+ (sort (filtering-bastiat-db (or (member 'hmonclar lettre) (member 'umonclar lettre))) 'string< :key 'text-date))
 (defparameter lettres_a_cobden
  (sort (filtering-bastiat-db (member 'cobden lettre)) 'string< :key 'text-date))
 (defparameter lettres_a_coudroy
@@ -693,7 +702,7 @@ window.onresize = function() {
 )))
 
 (defun oeuvres () (precsuiv "Œuvres" "../index.html" serie_chronologique))
-
+(defun surbastiat () (precsuiv "Sur Bastiat" "index.html" ()))
 (defun inedits () (precsuiv "Inédits" "../inedits.html" lesinedits))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
@@ -703,6 +712,7 @@ window.onresize = function() {
 (defun cobden () (precsuiv "Lettres à Cobden" "lettres_cobden.html" lettres_a_cobden))
 (defun coudroy () (precsuiv "Lettres à Coudroy" "lettres_coudroy.html" lettres_a_coudroy))
 (defun domenger () (precsuiv "Lettres à Domenger" "lettres_domenger.html" lettres_a_domenger))
+(defun monclar () (precsuiv "Lettres aux Monclar" "lettres_monclar.html" lettres_a_monclar))
 (defun paillottet () (precsuiv "Lettres à Paillottet" "lettres_paillottet.html" lettres_a_paillottet))
 (defun say () (precsuiv "Lettres à H. Say" "lettres_horace_say.html" lettres_a_say))
 (defun schwabe () (precsuiv "Lettres aux Schwabe" "lettres_schwabe.html" lettres_a_schwabe))
@@ -722,6 +732,7 @@ window.onresize = function() {
 (defun g_credit () (precsuiv "Gratuité du crédit" "gratuite_du_credit.html" credit))
 (defun cobdenligue () (precsuiv "Cobden et la Ligue" "cobden_ligue.html" cobdenligue))
 (defun prospo () (precsuiv "Propriété et spoliation" "propriete_et_spoliation.html" propriete_spoliation))
+(defun pamphlets () (precsuiv "Pamphlets" "pamphlets.html" pamphlets))
 
 ;;; jquery
 

@@ -56,7 +56,7 @@
 (define *site-by* "A site by")
 (define (NdA) (emph[(Note de l’auteur.)]))
 (define (NdT) (emph[(Note du traducteur.)]))
-(define (NdEEO) (emph[(Note de l'éditeur de l'édition originale.)]))
+(define (NdEEO) (emph[(Note de l’éditeur des ,(emph[Œuvres complètes]).)]))
 
 (define (use-lang lang)
    (case lang

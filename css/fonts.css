@@ -1,0 +1,34 @@
+/*Polices de caractères*/
+
+@font-face {
+    font-family:"bastiat";
+    src:	url("../fonts/Fanwood.otf") format("otf"), url("../fonts/Fanwood.woff") format("woff");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'bastiat';
+    src:url("../fonts/Fanwood-Italic.otf") format("otf"), url("../fonts/Fanwood-Italic.woff") format("woff");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'paratexte';
+    src:url("../fonts/Simonetta-Regular.ttf") format("truetype"), url("../fonts/Simonetta-Regular.woff") format("woff");
+    font-weight:normal;font-style:normal;
+}
+@font-face{
+    font-family:'paratexte';
+    src:url("../fonts/Simonetta-Italic.ttf") format("truetype"), url("../fonts/Simonetta-Italic.woff") format("woff");
+    font-weight:normal;font-style:italic;
+}
+
+@font-face{
+    font-family:'paratexte';
+    src:url("../fonts/Simonetta-Black.ttf") format("truetype"), url("../fonts/Simonetta-Black.woff") format("woff");
+    font-weight:bold;font-style:normal;
+}
+@font-face{
+    font-family:'paratexte';
+    src:url("../fonts/Simonetta-BlackItalic.ttf") format("truetype"), url("../fonts/Simonetta-BlackItalic.woff") format("woff");
+    font-weight:bold;font-style:italic;
+}

@@ -2,19 +2,20 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 29 avril 1821")
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/5/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 5.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[Bayonne, 29 avril 1821.])
 ,(p*[
 … Pour moi, je crois que je vais me fixer irrévocablement à la religion. Je suis las de recherches qui n’aboutissent et ne peuvent aboutir à rien. Là, je suis sûr de la paix, et je ne serai pas tourmenté de craintes, même quand je me tromperais. D’ailleurs, c’est une religion si belle, que je conçois qu’on la puisse aimer au point d’en recevoir le bonheur dès cette vie.
 ][
 Si je parviens à me déterminer, je reprendrai mes anciens goûts. La littérature, l’anglais, l’italien, m’occuperont comme autrefois ; mon esprit s’était engourdi sur les livres de controverse, de théologie et de philosophie. J’ai déjà relu quelques tragédies d’,(np "alfieri" [Alfieri])…
 ])])
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

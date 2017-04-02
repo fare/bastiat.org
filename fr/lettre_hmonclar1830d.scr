@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre à Henry de Monclar")
 
-(document :title "Lettre à Henry de Monclar"
+(document :title [Lettre à ,(np "monclar_h" [Henry de Monclar])]
 	:author (author-FB)
 
 (bastiat[
@@ -14,5 +14,6 @@ Malgré que je sois bien nul pour les affaires, je viens te proposer, ainsi qu�
 (footer [
 	,(oeuvres)
 	,(corresp)
+	,(monclar)
 	,(inedits)
 ]))

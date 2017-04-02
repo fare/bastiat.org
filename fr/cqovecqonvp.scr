@@ -24,9 +24,7 @@ jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Books/Bastiat_1850Ce_qu_on_voit.pdf" [,(cite-title[Ce qu’on voit et ce qu’on ne voit pas])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/336/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 336.])
-])
-(bastiat[
-,(date-tag[Juillet 1850.])
+,(h5[Sommaire])
 ,(itemize
 (item(ref :url "#introduction" [Introduction]))
 (item(ref :url "#vitre_cassee" [I. La vitre cassée]))
@@ -41,6 +39,10 @@ jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
 (item(ref :url "#l_algerie" [X. L’Algérie]))
 (item(ref :url "#epargne_et_luxe" [XI. Épargne et Luxe]))
 (item(ref :url "#droit_au_travail_droit_au_profit" [XII. Droit au Travail, Droit au Profit])))
+])
+(bastiat[
+,(date-tag[Juillet 1850.])
+
 ,(p*[
 ,(tag :a :name "introduction")
 
@@ -2766,4 +2768,4 @@ quand il n’a point été établi d’abord
 	[,(p :align "right" [(,(strong[,(np "chateaubriand" [Chateaubriand])]). ,(cite-title[Mémoires d’outre-tombe]).)])])
 ])
 (tous_les_scripts)
-(footer[,(oeuvres)]))
+(footer[,(oeuvres),(pamphlets)]))

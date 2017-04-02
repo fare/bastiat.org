@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 11 mars 1849")
-(document :title "Lettre à Mme Schwabe"
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Mutualité des services
 	- pamphlet par Frédéric Bastiat")
-(document :title [Mutualité des services]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 81, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[Ébauche inédite,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "maudit_argent.html#mutualite" [note de bas de page]).])
 ,(p*[,(emph[Mutualité des services]).
@@ -27,6 +25,9 @@ d’y transporter nos marchandises.
 Pour cela, elle a inventé la monnaie, moyennant quoi
 elle réalise l’entrepôt à domicile.])
 ])
+(document :title [Mutualité des services]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 

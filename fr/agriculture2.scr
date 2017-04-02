@@ -1,14 +1,19 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Fragment sur un projet d’amélioration agricole")
-
-(document :title "Fragment sur un projet d’amélioration agricole"
-	:author (author-FB)
-
-(bastiat[
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f71.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 57. Voir ,(ref :url "../surbastiat/ronce.html#agriculture2" [version texte]).])
+])
+(define bastiatcontent [
 ,(date-tag[Février 1843.])
 ,(p*[Indépendamment de l’énorme difficulté de cette entreprise, de l’éternel état de lutte où elle me placerait à l’égard des colons, lutte dans laquelle j’étais à peu près sûr d’être vaincu par la résistance ouverte et plus encore par la force d’inertie, je me serais fait un scrupule de forcer ces laboureurs à renoncer à leur mode de culture. Quelle que soit ma foi entière dans la supériorité du système de culture alterne, alors qu’il est bien conduit, je ne me dissimulais pas que dans des essais qui auraient pour directeur une volonté inexpérimentée et pour exécuteurs des volontés malveillantes, les résultats immédiats pourraient bien être désastreux, et je ne me croyais pas le droit d’associer à mes pertes une classe d’hommes hors d’état de les supporter. Je me félicite aujourd’hui d’avoir reculé devant toutes ces combinaisons. C’est faire preuve de force que de vaincre les obstacles ; mais c’est aussi faire preuve de sagesse que d’éviter une lutte dans laquelle les chances de succès sont fort douteuses.
 ])])
+
+(document :title "Fragment sur un projet d’amélioration agricole"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

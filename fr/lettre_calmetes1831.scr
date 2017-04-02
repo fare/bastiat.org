@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 22 avril 1831")
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/12/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 12.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[Bayonne, 22 avril 1831.])
 ,(p*[
 … Je suis fâché que le cens d’éligibilité soit un obstacle à ton élection ou du moins à ta candidature. J’ai toujours pensé que c’était assez d’exiger des garanties des électeurs, et que celle qu’on demande aux éligibles est une funeste redondance. Il est vrai qu’il faudrait indemniser les députés ; mais cela est trop juste ; et il est ridicule que la France, qui paye tout le monde, n’indemnise pas
@@ -18,6 +16,9 @@ Dans l’arrondissement que j’habite, le général ,(np "lamarque" [Lamarque])
 ])
 ,(politesse[Ton bien dévoué.])
 ])
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

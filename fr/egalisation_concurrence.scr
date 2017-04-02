@@ -2,13 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Fragment
 	- par Frédéric Bastiat")
-(document :title "Fragment"
-          :author (author-FB)
-(sidebar [
+
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/406/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 406, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Fragment inédit,
 ,(br)inséré dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "propriete_et_spoliation2.html#egalisation" [note de bas de page]).])
 ,(p*[Il ne suffit pas que la valeur ne soit pas
@@ -24,6 +23,11 @@ C’est l’œuvre de la Concurrence
 d’égaliser les services sur le pied de la justice.
 Elle y travaille sans cesse.
 ])])
+
+
+(document :title "Fragment"
+          :author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 

@@ -3,13 +3,11 @@
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 12 septembre 1819")
 
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 1.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bayonne, 12 septembre 1819.])
 ,(p*[
 Nous nous trouvons, ,(np "calmetes" [mon ami]),
@@ -64,6 +62,10 @@ dès que je pourrai avoir une certaine aisance,
 ce qui, j’espère, sera bientôt, j’abandonne les affaires.
 
 ])])
+
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

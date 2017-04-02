@@ -78,16 +78,5 @@ tome V, page 94.
 ])
 (set! =bof.url= "http://bastiat.org/fr/")
 (tous_les_scripts)
-(footer[])
-(with-footer
-(p*[
-Préparé par ,(FRR) pour ,(Bastiat.org)
-avec l'aide de nombreux autres ,(bof-ref "numerisation" [numériseurs]):
-,(cbalanca), ,(krylenko), ,(loic), ,(JML), ,(frk.paris), ,(cvincent).
-,(XXX[
-Notez que l'édition en anglais par la FEE
-contient de nombreuses notes de bas de page
-pour éclaircir les références culturelles aujourd'hui désuettes
-dont regorge le texte.
-])
-])))
+(footer[,(oeuvres)])
+)

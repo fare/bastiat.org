@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre à Ulysse de Monclar")
 
-(document :title "Lettre à Ulysse de Monclar"
+(document :title [Lettre à ,(np "monclar_u" [Ulysse de Monclar])]
 	:author (author-FB)
 
 (bastiat[
@@ -13,5 +13,6 @@
 (footer [
 	,(oeuvres)
 	,(corresp)
+	,(monclar)
 	,(inedits)
 ]))

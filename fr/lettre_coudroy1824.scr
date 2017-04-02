@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 15 décembre 1824")
-(document :title "Lettre à Félix Coudroy"
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

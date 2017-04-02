@@ -1,0 +1,97 @@
+
+.footer {
+        left: 0;
+	width: 100%;
+	text-align: center;
+	z-index:20;
+	font-family: "paratexte", sans-serif;
+position: fixed;
+bottom: 0;
+height: 3.5em; min-height:1cm;
+background-color: rgba(200,220,50,1); /*#9c0;*/
+background: linear-gradient(to right, rgba(200,220,50,1), rgba(200,220,50,0.7));
+/*background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1));*/
+opacity: 0.7;
+transition: opacity 200ms;
+}
+
+
+.footer:hover {opacity: 1;}
+
+.footer:hover {
+	filter: grayscale(0%);
+	transition: .3s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .3s ease-in-out;
+}
+
+.footer {
+	filter: grayscale(100%);
+  transition: .3s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .3s ease-in-out;
+}
+.footer a:visited, .footer a:link {
+	text-decoration: none;
+	color: #925;
+	font-weight: bold;
+	padding: 0;
+
+}
+
+.footer a:hover {
+	color: #490;
+	text-shadow: 1px 1px 0 #ee3;
+}
+
+
+.footer .arbor {
+  float:left; display: block;
+  height: 100%;
+  position: relative;
+  min-width: 12em; width: auto; max-width: 20em; white-space: nowrap;
+  vertical-align: middle;
+/*  background-color: rgba(255, 255, 255, 0.7);
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.5));
+  text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 3px 0 #fff, 0 -3px 0 #fff,
+        2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+        1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
+}
+
+.arbor .retour {
+  width:100%; height: 55%;
+  position: absolute; top: 0; left: 0; line-height: 2em;
+  text-align: center;
+}
+
+
+.prec, .suiv {
+  position: absolute;
+  bottom: 0;
+  width: 45%; height: 40%; line-height: 0.5em;
+}
+
+.prec {
+  float: left;
+  left:0;
+  text-align: right;
+}
+
+.suiv {
+  float: right;
+  right:0;
+  text-align: left;
+}
+
+/*se débarrasser du footer moche*/
+font table {
+  display: none;
+}

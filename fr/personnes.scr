@@ -2463,7 +2463,8 @@ Simples mentions :
 
 ,(person "laffitte" [
 ,(ref :url "lettre_coudroy1830a.html#laffitte_ref" [Lettre à F. Coudroy, 4 août 1830]) ;
-,(ref :url "incompatibilites_parlementaires.html#laffitte_ref" [Incompatibilités parlementaires])
+,(ref :url "incompatibilites_parlementaires.html#laffitte_ref" [Incompatibilités parlementaires]) ;
+,(link "lettre_hmonclar1830c" [Lettre à Henry de Monclar])
 ])
 
 ,(person "lafontaine" [
@@ -2540,7 +2541,8 @@ remplacé le 11 mai 1850 par Émile Jaubert.
 ,(person "lamarque" [
 ,(ref :url "lettre_coudroy1830b.html#lamarque_ref" [Lettre à F. Coudroy, 5 août 1830]) ;
 ,(ref :url "lettre_calmetes1831.html#lamarque_ref" [Lettre à V. Calmètes, 22 avril 1831]) ;
-,(ref :url "pdfe1846.html#lamarque_ref" [À MM. les électeurs de l’arrondissement de Saint-Sever])
+,(ref :url "pdfe1846.html#lamarque_ref" [À MM. les électeurs de l’arrondissement de Saint-Sever]) ;
+,(link "lettre_hmonclar1830c" [Lettre à Henry de Monclar])
 ])
 
 ,(person "lamartine" [
@@ -3071,6 +3073,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#moliere_ref2" [Lettre 5])�
 ,(autolk "lettre_coudroy1850c" "monclar_ref") ;
 ,(autolk "lettre_coudroy1846a" "eugene_ref")
 ])
+
+,(person "monclar_h" [,(ref :url "lettres_monclar.html" [Six lettres à —])])
+
+,(person "monclar_u" [,(ref :url "lettre_umonclar1829.html" [Une lettre à —])])
 
 ,(person "monjean" [
 ,(ref :url "lettre_coudroy1845a.html#garnier_ref" [Lettre à Coudroy, mai 1845]) ;

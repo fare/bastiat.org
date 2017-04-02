@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre à Félix Coudroy, par Frédéric Bastiat")
 
-(document :title "Lettre à Félix Coudroy"
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

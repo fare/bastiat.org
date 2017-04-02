@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 12 mars 1829")
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/10/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 10.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 12 mars 1829.])
 ,(p*[
 À propos, sais-tu que je suis dans l’intention de me faire imprimer tout vif ? — Quoi ! vas-tu dire, Bastiat auteur ? que va-t-il nous donner ? sera-ce un recueil de dix à douze tragédies ? ou bien une épopée ? ou bien des madrigaux ? Suit-il les traces de ,(np "scott" [Walter Scott]) ou de ,(np "byron" [lord Byron]) ? Rien de tout cela, mon ami ; je me suis borné à accumuler les plus lourds raisonnements sur la plus lourde des questions. En un mot, je traite du
@@ -17,6 +15,9 @@ du 12 mars 1829")
 ,(footnote*[Cet écrit ne fut pas imprimé.
 ,(NdEEO)])
 ])])
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

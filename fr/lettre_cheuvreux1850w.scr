@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Prosper Paillottet à Mme Cheuvreux
 du 22 décembre 1850")
-(document :title [Lettre de ,(np "paillottet" [Prosper Paillottet]) à ,(np "cheuvreux_h" [Mme Cheuvreux])]
+(document :title [Lettre de ,(np "paillottet" [Prosper Paillottet]) à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

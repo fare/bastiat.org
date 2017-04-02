@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du 23 juin 1850")
-(document :title "Lettre à Mme Cheuvreux"
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

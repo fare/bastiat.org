@@ -2,19 +2,20 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 9 septembre 1850")
-(document :title "Lettre à Félix Coudroy"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/104/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 104.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[Paris, le 9 septembre 1850.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je t’écris au moment de me lancer dans un grand voyage. La maladie, que j’avais quand je t’ai vu, s’est fixée au larynx et à la gorge. Par la continuité de la douleur, et l’affaiblissement qu’elle occasionne, elle devient un véritable supplice. J’espère pourtant que la résignation ne me fera pas défaut. Les médecins m’ont ordonné de passer l’hiver à Pise ; j’obéis, encore que ces messieurs ne m’aient pas habitué à avoir foi en eux.
 ][
 Adieu, je te quitte parce que ma tête ne me permet plus guère d’écrire. J’espère être plus vigoureux en route.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

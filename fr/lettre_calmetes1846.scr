@@ -2,13 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 4 mars 1846")
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/13/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 13.])
 ])
-(bastiat[
+(define bastiatcontent[
 ,(date-tag[Bayonne, 4 mars 1846.])
 ,(p*[
 ,(np "calmetes" [Mon bon et vieil ami]), ta lettre m’a réjoui le cœur, et il me semblait en la lisant que vingt-cinq ans de moins pesaient sur ma tête. Je me reportais à ces jours heureux où nos bras toujours entrelacés étaient l’image de notre cordiale union. Vingt-cinq ans ! hélas ! ils sont bien vite revenus faire sentir leur poids.
@@ -28,6 +27,10 @@ J’oubliais de te parler d’élections. Les électeurs de mon pays songent à 
 ])
 ,(politesse[Adieu, cher ,(np "calmetes" [Calmètes]) : ton ami dévoué.])
 ])
+
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,18 +2,19 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Victor Calmètes
 du 10 septembre 1820")
-(document :title "Lettre à Victor Calmètes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/4/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 4.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bayonne, 10 septembre 1820.])
 ,(p*[
 Une chose qui m’occupe plus sérieusement, c’est la philosophie et la religion. Mon âme est pleine d’incertitude et je ne puis plus supporter cet état. Mon esprit se refuse à
 ,(emph[la foi]) et mon cœur soupire après elle. En effet, comment mon esprit saurait-il allier les grandes idées de la Divinité avec la puérilité de certains dogmes, et, d’un autre côté, comment mon cœur pourrait-il ne pas désirer de trouver dans la sublime morale du christianisme des règles de conduite ? Oui, si le paganisme est la mythologie de l’imagination, le catholicisme est la mythologie du sentiment. — Quoi de plus propre à intéresser un cœur sensible que cette vie de Jésus, que cette morale évangélique, que cette médiation de Marie ! que tout cela est touchant…
 ])])
+(document :title [Lettre à ,(np "calmetes" [Victor Calmètes])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)
