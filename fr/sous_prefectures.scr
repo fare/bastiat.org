@@ -1,14 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Les sous-préfectures, par Frédéric Bastiat")
-
-(document :title "Les sous-préfectures"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/223/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 49, p. 223.])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/RepubliqueFrancaise1848/PDF/RepubliqueFrancaise1848-no-04.pdf#page=1" [,(cite-title[La République française])]), n° 4, 29 février 1848, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/223/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 49, p. 223.]
+)
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 29 février 1848.])
 ,(p*[
 Qu’est-ce qu’une sous-préfecture ? Une boîte aux lettres. Le Préfet écrit : Monsieur le Sous-préfet, voici une dépêche pour le maire de … ; vous la lui adresserez sans retard et m’enverrez la réponse avec votre avis.
@@ -23,6 +22,9 @@ Combien de jours les sous-préfectures survivront-elles à la révolution de fé
 ][
 En général, on nous trouvera peu empressés à demander des changements de personnes, mais fort ardents à réclamer la suppression des places inutiles.
 ])])
+(document :title "Les sous-préfectures"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

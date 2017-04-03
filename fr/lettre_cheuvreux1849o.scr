@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du novembre 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=27" [,(cite-title[Lettres d’un habitant des Landes])]), p. 52.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, novembre 1849.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -21,6 +19,9 @@ Si vous avez cinq minutes à perdre, oserais-je vous prier de me donner des nouv
 ,(politesse[Votre bien dévoué,])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

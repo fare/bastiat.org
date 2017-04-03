@@ -2,21 +2,22 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de janvier 1850")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=29" [,(cite-title[Lettres d’un habitant des Landes])]), p. 57.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Janvier 1850. Samedi.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
-,(p*[,(tag :a :name "matt_ref")Je viens de rencontrer le commandant ,(np "matt" [Matt]), qui prétend qu’on sera souffrant demain à l’hôtel Saint-Georges. Puisse-t-il être aussi mauvais prophète que brave soldat ! Soyez assez bonne pour me faire savoir la vérité. Vous ne permettrez pas que je parle de santé sans dire quelque chose de la mienne. Je suis mieux et ,(np "charruau" [,(emph[Charruau])]), comme ,(np "moliere" [Sganarelle]), assure que je dois être ,(emph[guéri]). Cependant hier soir, une quinte fatigante a déterminé ce symptôme ,(emph[rouge]) aussi effrayant en physiologie qu’en politique. Malgré tout, j’aurais encore bien assez de force pour me charger de ce qu’il peut rester de toux à votre ,(np "cheuvreux_l" [,(emph[Louisette])]), si cela était possible ; mais l’affection ne peut faire ce miracle, c’est une ,(emph[harmonie]) qui manque à ce monde.
+,(p*[,(tag :a :name "matta_ref")Je viens de rencontrer le commandant ,(np "matta" [Matta]), qui prétend qu’on sera souffrant demain à l’hôtel Saint-Georges. Puisse-t-il être aussi mauvais prophète que brave soldat ! Soyez assez bonne pour me faire savoir la vérité. Vous ne permettrez pas que je parle de santé sans dire quelque chose de la mienne. Je suis mieux et ,(np "charruau" [,(emph[Charruau])]), comme ,(np "moliere" [Sganarelle]), assure que je dois être ,(emph[guéri]). Cependant hier soir, une quinte fatigante a déterminé ce symptôme ,(emph[rouge]) aussi effrayant en physiologie qu’en politique. Malgré tout, j’aurais encore bien assez de force pour me charger de ce qu’il peut rester de toux à votre ,(np "cheuvreux_l" [,(emph[Louisette])]), si cela était possible ; mais l’affection ne peut faire ce miracle, c’est une ,(emph[harmonie]) qui manque à ce monde.
 ])
 ,(politesse[Adieu, madame.])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

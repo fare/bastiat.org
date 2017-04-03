@@ -2,14 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Dispersion des coûts, concentration des bénéfices
 	- par Frédéric Bastiat")
-(document :title "Dispersion des coûts, concentration des bénéfices"
-	:author (author-FB)
-(sidebar[
+
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*
-[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/23/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 392, en note de bas de page.])
+[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/392/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 392, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche inédite
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "cqovecqonvp.html#dispersion" [note de bas de page]).])
 ,(p*[Si toutes les conséquences d’une action retombaient sur son auteur,
@@ -20,7 +19,7 @@ et les mauvaises conséquences invisibles sont pour autrui,
 	ce qui nous les rend plus invisibles encore.
 Il faut alors attendre que la réaction vienne
 	de ceux qui ont à supporter les mauvaises conséquences de l’acte.
-C’est quelquefois fort long, et voici ce qui prolonge le règne de l’erreur.
+C’est quelquefois fort long, et voici ce qui prolonge le règne de l’erreur.][
 Un homme fait un acte qui produit
 	de bonnes conséquences égales à 10, à son profit,
 	et de mauvaises conséquences égales à 15,
@@ -31,5 +30,8 @@ On conçoit cependant qu’elle se fasse d’autant plus attendre
 	que le mal sera plus disséminé dans la masse
 	et le bien plus concentré sur un point.
 ])])
+(document :title "Dispersion des coûts, concentration des bénéfices"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[]))

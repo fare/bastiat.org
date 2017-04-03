@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 24 janvier 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/79/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 79.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[24 janvier 1848.])
 ,(p*[
 Je ne puis t’écrire que peu de mots, car je me trouve atteint de la même maladie que j’ai eue à Mugron, et qui, entre autres désagréments, a celui de me priver de toutes forces. Il m’est impossible de penser, encore plus d’écrire.
@@ -17,6 +15,9 @@ Mon ami, je voudrais bien te parler de notre agitation, mais je ne le puis pas. 
 ][,(tag :a :name "mb_ref")
 Je ne reçois pas le ,(tj "mb" [,(cite-title[Mémorial])]), et par conséquent je n’ai pas vu ton article ,(cite-title[Anglophobie ;]) je le regrette. J’y aurais peut-être puisé quelques idées, ou nous l’aurions reproduit.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

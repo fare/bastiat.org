@@ -1,14 +1,19 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre à Ulysse de Monclar")
-
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f58.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 44. Voir ,(ref :url "../surbastiat/ronce.html#lettre_umonclar1829" [version texte]).])
+])
+(define bastiatcontent [
+,(date-tag[1829.])
+,(cher[Mon cher ,(np "monclar_u" [Ulysse]),])
+,(p*[… Les changements dans notre ministère m’affligent sans me surprendre. Le pouvoir est, en France, un mât de cocagne si énormément rétribué, qu’il ne faut pas s’étonner qu’un grand nombre d’hommes se poussent, s’évertuent, se culbutent, se déchirent pour y arriver. Aussi, pour ce qui me regarde, je suis bien convaincu que les révolutions viennent moins des peuples que des factions ambitieuses qui aspirent au pouvoir et que ce qui entretient les factions, c’est la proie énorme qui excite la cupidité dans toutes les classes. Travailler devient, tous les jours, un métier plus pénible. Gouverner est plus lucratif et infiniment plus commode ; aussi il est naturel que tout le monde gouverne ou veuille gouverner. De là, des luttes interminables dont nous faisons les frais et dont nous sommes victimes. Aujourd’hui, toute ma politique se réduit à cet axiome bien matériel : diminuez l’appât que vous offrez à toutes les ambitions, et tous les maux qui nous accablent s’évanouiront avec ,(emph[la matière qui les alimente]).
+])])
 (document :title [Lettre à ,(np "monclar_u" [Ulysse de Monclar])]
 	:author (author-FB)
+(container)
 
-(bastiat[
-,(date-tag[1829.])
-,(p*[Mon cher Ulysse,… Les changements dans notre ministère m’affligent sans me surprendre. Le pouvoir est, en France, un mât de cocagne si énormément rétribué, qu’il ne faut pas s’étonner qu’un grand nombre d’hommes se poussent, s’évertuent, se culbutent, se déchirent pour y arriver. Aussi, pour ce qui me regarde, je suis bien convaincu que les révolutions viennent moins des peuples que des factions ambitieuses qui aspirent au pouvoir et que ce qui entretient les factions, c’est la proie énorme qui excite la cupidité dans toutes les classes. Travailler devient, tous les jours, un métier plus pénible. Gouverner est plus lucratif et infiniment plus commode ; aussi il est naturel que tout le monde gouverne ou veuille gouverner. De là, des luttes interminables dont nous faisons les frais et dont nous sommes victimes. Aujourd’hui, toute ma politique se réduit à cet axiome bien matériel : diminuez l’appât que vous offrez à toutes les ambitions, et tous les maux qui nous accablent s’évanouiront avec ,(emph[la matière qui les alimente]).
-])])
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

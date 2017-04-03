@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Charité, justice et spoliation
 	- par Frédéric Bastiat")
-(document :title "Charité, justice et spoliation"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/326/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 326, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Cette pensée de l’auteur
 	fut écrite de sa main sur un album d’autographes
 	qu’envoya la Société des gens de lettres, en 1850,
@@ -31,6 +29,9 @@ tombe dans le domaine de la Spoliation.
 Le propre domaine de la Loi et des Gouvernements,
 	c’est la Justice.
 ])])
+(document :title "Charité, justice et spoliation"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 ,(oeuvres)

@@ -60,21 +60,6 @@
 (item (xbof-ref "la_main_droite_et_la_main_gauche" [XVI. La main droite et la main gauche]))
 (item (xbof-ref "domination_par_le_travail" [XVII. Domination par le travail])))
 ])
-(set! =bof.url= "http://bastiat.org/fr/")
-(with-footer
-(p*[
-Extrait de l’,(EO1862), tome IV,
-,(SophismesEconomiques),
-pp. 1-274.
-][
-Préparé par ,(FRR) pour ,(Bastiat.org)
-avec l'aide de nombreux autres ,(bof-ref "numerisation" [numériseurs]):
-,(cbalanca), ,(krylenko), ,(loic), ,(JML), ,(frk.paris), ,(cvincent).
-,(XXX[
-Notez que l'édition en anglais par la FEE
-contient de nombreuses notes de bas de page
-pour éclaircir les références culturelles aujourd'hui désuettes
-dont regorge le texte.
-])
-]))
-(tous_les_scripts))
+
+(tous_les_scripts)
+(footer[,(oeuvres)]))

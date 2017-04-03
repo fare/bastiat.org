@@ -1,0 +1,84 @@
+(style 'bo-style)
+(in-bof :title "Textes inédits — par Frédéric Bastiat")
+
+(set! =bof.url= "")
+
+(document :title [Textes inédits]
+	:author (author-FB)
+
+(sommaire[
+
+,(p*[Textes redécouverts par nous-mêmes à la Bibliothèque nationale de France :])
+,(itemize
+(item (link "pdfe1842" [Profession de foi électorale de 1842]))
+(item (link "pdfe1842b" [Aux électeurs de l’arrondissement de Saint-Sever, 1842]))
+(item (link "auxelecteurs1845" [Aux électeurs de l’arrondissement de Saint-Sever, 1845]))
+)
+
+
+,(p*[Textes publiés entre 1843 et 1844 dans la ,(cite-title[Sentinelle des Pyrénées]), mis au jour en 2016 par l’institut Coppet :])
+,(itemize
+(item (autolk "sentinelle1"))
+(item (autolk "sentinelle2"))
+(item (autolk "sentinelle3"))
+(item (autolk "sentinelle4"))
+(item (autolk "sentinelle5"))
+(item (autolk "sentinelle6"))
+(item (autolk "sentinelle7"))
+(item (autolk "sentinelle8"))
+(item (autolk "sentinelle9"))
+(item (autolk "sentinelle10"))
+)
+
+,(p*[Textes parus seulement dans le ,(cite-title[Journal des économistes]) :])
+,(itemize
+(item(autolk "metayage"))
+(item(autolk "de_la_concurrence"))
+)
+
+,(p*[Textes parus seulement dans le ,(cite-title[Libre-Échange]) :])
+,(itemize
+(item(autolk "navigation"))
+(item(autolk "avis_charitable"))
+)
+
+
+,(p*[Opinion sur le droit au travail, publiée dans Joseph Garnier, ,(cite-title[Le droit au travail à l’Assemblée nationale]), 1848 :])
+,(itemize(item(autolk "droit_au_travail")))
+
+,(p*[Discours publié dans le compte rendu par Joseph Garnier du ,(cite-title[Congrès des amis de la paix universelle]), 1850 :])
+,(itemize(item(autolk "congres_paix")))
+
+
+,(p*[Textes publiés pour la première fois par Pierre Ronce, ,(ref :url "../surbastiat/ronce.html" (cite-title[Frédéric Bastiat : sa vie, son œuvre])) (1905), soit dans le corps de l’ouvrage, soit dans l’appendice :])
+,(itemize
+(item (link "lettre_umonclar1829" [Lettre à Ulysse de Monclar, 1829]))
+(item (link "lettre_hmonclar1829" [Lettre à Henry de Monclar, 1829]))
+(item (link "lettre_hmonclar1830" [Lettre à Henry de Monclar, 20 mars 1830]))
+(item (link "lettre_hmonclar1830b" [Lettre à Henry de Monclar, 3 novembre 1830]))
+(item (link "lettre_hmonclar1830c" [Lettre à Henry de Monclar, fin 1830]))
+(item (link "lettre_hmonclar1830d" [Lettre à Henry de Monclar, fin 1830]))
+(item (link "lettre_hmonclar1831" [Lettre à Henry de Monclar, mars 1831]))
+(item (autolk "certitude" []))
+(item (autolk "agriculture" []))
+(item (autolk "lettre_dombasle" []))
+(item (autolk "association_vinicole" []))
+(item (autolk "agriculture2" []))
+(item (autolk "lettre_muiron" []))
+
+)
+
+
+,(p*[Sept textes de la collection Jean-Claude Paul-Dejean, traduits et publiés par le ,(inenglish[Liberty Fund]), et disponibles en ligne seulement en traduction anglaise pour le moment :])
+,(itemize
+(item (autolk "langue_basque1"))
+(item (autolk "langue_basque2"))
+(item (autolk "ecole_metayage"))
+(item (autolk "lettre_potonie"))
+(item (autolk "lettre_badbedat"))
+(item (autolk "lettre_marsan"))
+(item (autolk "election_president"))
+)
+])
+(tous_les_scripts)
+(footer(oeuvres)))

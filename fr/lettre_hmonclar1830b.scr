@@ -2,14 +2,19 @@
 (style 'bo-style)
 (in-bof :title "Lettre à Henry de Monclar")
 
-(document :title [Lettre à ,(np "monclar_h" [Henry de Monclar])]
-	:author (author-FB)
-
-(bastiat[
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f65.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 51. Voir ,(ref :url "../surbastiat/ronce.html#lettre_hmonclar1830b" [version texte]).])
+])
+(define bastiatcontent [
 ,(date-tag[3 novembre 1830.])
-,(p*[Année moyenne, la propriété donne 18 mesures de grain qui, à 75 francs, font 1.350 francs, plus les redevances. Il est vrai qu’il y a l’impôt à payer. Mais quand on considère que ces métairies sont coupées de rigoles qui n’ont pas été nettoyées depuis plus de cinquante ans, qu’elles sont dépourvues de l’,(emph[âme]) des propriétés de parc, c’est-à-dire de fumier, on ne peut s’empêcher d’espérer qu’en faisant seulement ces deux dépenses, le curage des rigoles et les parcs, on ne leur fasse produire beaucoup plus.][
+,(p*[Année moyenne, la propriété donne 18 mesures de grain qui, à 75 francs, font 1,350 francs, plus les redevances. Il est vrai qu’il y a l’impôt à payer. Mais quand on considère que ces métairies sont coupées de rigoles qui n’ont pas été nettoyées depuis plus de cinquante ans, qu’elles sont dépourvues de l’,(emph[âme]) des propriétés de parc, c’est-à-dire de fumier, on ne peut s’empêcher d’espérer qu’en faisant seulement ces deux dépenses, le curage des rigoles et les parcs, on ne leur fasse produire beaucoup plus.][
 Cette acquisition m’attache pour toujours à Sengresse. Dorénavant je ne veux songer qu’à deux choses que j’ai jusqu’ici négligées : ,(emph[améliorer]) et ,(emph[économiser])… Je sais, d’autre part, qu’il dépend de moi d’être nommé juge de paix de Mugron ; mais il ne me convient pas de faire pour cela d’autres démarches que celles que j’ai déjà faites, c’est-à-dire d’annoncer ma candidature pour le cas où on jugerait à propos de changer le titulaire de l’emploi.
 ])])
+(document :title [Lettre à ,(np "monclar_h" [Henry de Monclar])]
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

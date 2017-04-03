@@ -703,7 +703,7 @@ window.onresize = function() {
 
 (defun oeuvres () (precsuiv "Œuvres" "../index.html" serie_chronologique))
 (defun surbastiat () (precsuiv "Sur Bastiat" "index.html" ()))
-(defun inedits () (precsuiv "Inédits" "../inedits.html" lesinedits))
+(defun inedits () (precsuiv "Inédits" "../fr/inedits.html" lesinedits))
 
 (defun corresp () (precsuiv "Correspondance" "correspondance.html" correspondance))
 (defun arrivabene () (precsuiv "Lettres à Arrivabene" "lettres_comte_arrivabene.html" lettres_a_arrivabene))
