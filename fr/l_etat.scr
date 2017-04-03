@@ -2,19 +2,15 @@
 (style 'bo-style)
 (in-bof :title "L’État
 	- par Frédéric Bastiat")
-(document :title "L’État"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448145j/f1.item.zoom" [,(cite-title[Journal des Débats])]), 25 septembre 1848, p. 1, col. 5.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56881118/f8.image" [,(cite-title[L’État — Maudit argent])]), p. 5.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/327/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 327.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 25 septembre 1848.])
-,(p*[
-	
-Je voudrais qu’on fondât un prix,
+,(p*[Je voudrais qu’on fondât un prix,
 non de cinq cents francs, mais d’un million,
 avec couronnes, croix et rubans,
 en faveur de celui qui donnerait
@@ -699,6 +695,9 @@ pour garantir à chacun le sien, et faire régner la justice et la sécurité.
 
 
 	])])
+(document :title "L’État"
+	:author (author-FB)
+(container)
 	(tous_les_scripts)
 	(footer[,(oeuvres)
 ,(art_jd)
