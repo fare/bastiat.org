@@ -2,11 +2,8 @@
 (style 'bo-style)
 (in-bof :title "Notice sur la vie et les écrits de Frédéric Bastiat
 	- par Roger de Fontenay")
-(document :title [Notice sur la vie et les écrits,(br) de Frédéric Bastiat]
-	:author (author :name [Roger de Fontenay]
-			:url (ref :url =bo.url= =bo.url=))
 
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 Frédéric Bastiat est né à Bayonne, le 19 juin 1801 ,(footnote*[
 	Cette date est celle donnée
@@ -1421,5 +1418,11 @@ Voilà pourquoi nous souhaitons à notre pays
 			,(--) ,(inlatin[mente cordis sui]).])
 ,(sign[R. de Fontenay.])
 ])
+
+(document :title [Notice sur la vie et les écrits,(br) de Frédéric Bastiat]
+	:author (author :name [Roger de Fontenay]
+			:url (ref :url =bo.url= =bo.url=))
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)]))

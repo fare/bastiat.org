@@ -1,11 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la certitude")
-
-(document :title "De la certitude"
-	:author (author-FB)
-
-(bastiat[
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f298.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 284. Voir ,(ref :url "../surbastiat/ronce.html#appendice2" [version texte]).])
+])
+(define bastiatcontent [
 ,(date-tag[1833.])
 ,(p*[En morale, le ,(emph[fait]) est l’asymptote du ,(emph[droit]), comme, en physique, le sensible est l’asymptote du rationnel.][
 Le fait tend à se rapprocher sans cesse du droit ; c’est le résultat de notre nature humaine qui est perfectible et non parfaite.][
@@ -34,6 +34,11 @@ Il y a d’autant moins de corrupteurs qu’il y a moins de gens corruptibles. I
 Dans une société où on ne saurait pas que tous les corps qui ne sont pas soutenus tombent, il arriverait beaucoup de malheurs.][
 Il en est de même pour les choses morales. Là où on connaît moins les effets de l’intempérance, il y plus d’intempérants.][
 Cela est encore vrai pour la morale de relation ou société, et d’autant plus vrai, en ce cas, que la correction a une double source, savoir dans l’intelligence de l’homme vicieux et dans celle de la société qui se défend du vice…])])
+
+(document :title "De la certitude"
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

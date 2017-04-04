@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Anglomanie, anglophobie, par Frédéric Bastiat")
-
-(document :title [Anglomanie, anglophobie ,(footnote*[Cette ébauche est de 1847. L’auteur voulait en faire un chapitre pour la seconde série des ,(cite-title[Sophismes économiques]), qui parut à la fin de l’année.])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/309/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 74, p. 309.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1847.])
 ,(p*[
 Ces deux sentiments sont en présence, et il n’est guère possible, chez nous, de juger l’Angleterre avec impartialité, sans être accusé par les anglomanes d’être anglophobe et par les anglophobes d’être anglomane. Il semble que l’opinion publique exagérant, en France, une ancienne loi de Sparte, nous frappe de mort morale si nous ne nous jetons pas dans une de ces deux extrémités.
@@ -160,5 +157,8 @@ Naturellement je me doutai qu’il y avait quelque corrélation entre ce silence
 Pensant naïvement qu’il suffisait que ce silence fût rompu une fois pour qu’on n’y pût persister plus longtemps, je me décidai, en tremblant, à me faire écrivain ; et j’envoyai, sur la Ligue, ,(ref :url "journaux_sp.html" [quelques articles]) à la ,(tj "sp" [,(cite-title[Sentinelle])]) de Bayonne. Mais les journaux de Paris n’y firent aucune attention. — Je me mis à traduire quelques discours de ,(np "cobden" [Cobden]), de ,(np "bright" [Bright]) et de ,(np "fox" [Fox]), et les envoyai aux journaux de Paris eux-mêmes ; ils ne les insérèrent pas. — Il n’est pas possible, me dis-je, que le jour où la liberté commerciale sera proclamée en Angleterre nous surprenne dans cette ignorance. Je n’ai qu’une ressource, c’est de faire un livre……
 ])
 ])
+(document :title [Anglomanie, anglophobie ,(footnote*[Cette ébauche est de 1847. L’auteur voulait en faire un chapitre pour la seconde série des ,(cite-title[Sophismes économiques]), qui parut à la fin de l’année.])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

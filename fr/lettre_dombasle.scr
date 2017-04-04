@@ -1,11 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Projet de lettre à M. Mathieu de Dombasle")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f68.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 54. Voir ,(ref :url "../surbastiat/ronce.html#lettre_dombasle" [version texte]).])
+])
 
-(document :title "Projet de lettre à M. Mathieu de Dombasle"
-	:author (author-FB)
-
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1832.])
 ,(p*[Monsieur, ayant depuis longtemps le projet de me livrer à l’agriculture, j’ai longtemps dévoré les livres concernant cet art qui me tombaient sous la main. Dans les premiers temps, j’en fus enchanté, car ils me montraient dans l’agriculture des ,(emph[harmonies]) faites pour séduire. Ils m’apprirent à jargonner passablement sur les assolements et les prairies artificielles ; je m’aperçus que mes théories enchantaient quelquefois mes auditeurs et je me crus, un instant, un profond agriculteur. Mais quand je voulus commencer mes entreprises, je vis bien qu’il fallait savoir autre chose que ce que j’avais puisé dans mes brochures et mes journaux ; je fus assez sage pour m’arrêter jusqu’à plus ample instruction.][
 Ayant fait un voyage dans une des grandes villes de nos provinces ,(footnote*[Bastiat veut parler ici de Bordeaux.]), j’eus occasion de connaître la cause du vide qui existe dans les livres dont je parle, car ayant cherché à faire connaissance avec quelques-uns de leurs auteurs, on me présenta, à ma grande surprise, à des douaniers, à des avocats, à quelques demi-savants, tous membres de sociétés agricoles, horticoles, philomatiques, polytechniques, etc., etc., tous glissant rapidement sur les labours, les hersages, les semis, choses qu’il m’intéressait fort de savoir, et dissertant longuement sur le ,(inlatin[pinus laricio]) ou sur ,(footnote*[Ici un blanc, Bastiat n’ayant pas trouvé immédiatement le nom d’arbre ou de plante bizarre qu’il voulait placer à côté du ,(emph[pinus laricio]).])…, dont pour le moment je ne me souciais guère. Je me convainquis alors que ces sociétés sont bien peu utiles aux progrès réels de l’art, plus propres peut-être à égarer qu’à guider les amateurs de réformes (seuls lecteurs de ces ouvrages).])
@@ -19,6 +20,10 @@ Avant tout, permettez-moi de vous exposer l’état actuel de la culture de mon 
 Je ne pourrais vous donner une description scientifique de la nature de notre terre, car j’ai reçu une brillante éducation et, par conséquent, on a évité de m’enseigner rien de ce qui aurait pu m’être… utile.])
 ,(verses[Et l’on sait tout chez moi, hors ce qu’il faut savoir.])
 ])
+(document :title "Projet de lettre à M. Mathieu de Dombasle"
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À M. le rédacteur en chef du National, par Frédéric Bastiat")
-
-(document :title [À M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/159/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 35, p. 159.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[II])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 11 novembre 1846.])
 
@@ -71,6 +68,9 @@ Il y avait, aux environs de Paris, un hospice pour les aveugles. Ils travaillaie
 ](nbsp)[
 ,(inlatin[P. S.]) Le ,(tj "national" [,(cite-title[National])]) dit aujourd’hui qu’il n’a pas trop su démêler à qui et à quoi je réponds. Me serais-je mépris sur le sens et la portée de son opposition au libre-échange ? Veut-il, comme nous, que l’entrelacement des intérêts unisse les classes laborieuses de tous les pays de manière à déjouer les calculs pervers ou imprudents de l’aristocratie ? Oh ! Dieu le veuille ! Je serais heureux de reconnaître mon erreur, et de voir avec nous, au moins sous ce rapport, un journal qui s’adresse à des hommes sincères et convaincus.
 ])])
+(document :title [À M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)

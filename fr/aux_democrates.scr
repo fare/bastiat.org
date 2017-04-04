@@ -3,14 +3,12 @@
 (in-bof :title "Réflexions sur l’amendement de M. Mortimer-Ternaux
 	- Aux Démocrates
 	- par Frédéric Bastiat")
-(document :title "Réflexions sur l’amendement de M. Mortimer-Ternaux"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://books.google.fr/books?id=k__Hhn2M5sgC&hl=fr&pg=PA7#v=onepage&q&f=false" [,(cite-title[Spoliation et loi])]), p. 7.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/513/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 513.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Publié début avril 1850, dans un journal encore indéterminé.])
 ,(h2 [Aux Démocrates.
 ,(footnote*[
@@ -210,5 +208,8 @@ un semblable langage.
 
 
 ])])
+(document :title "Réflexions sur l’amendement de M. Mortimer-Ternaux"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

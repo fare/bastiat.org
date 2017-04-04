@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Déclaration de principes
 	- par Frédéric Bastiat")
-(document :title "Déclaration de principes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=65" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 22, p. 169.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 1, p. 1.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[10 mai 1846.
 ,(br)Republié dans le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 avril 1847.])
 ,(p*[
@@ -112,6 +110,9 @@ la cause de l’intérêt général, qui se confond,
 
 
 ])])
+(document :title "Déclaration de principes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 	,(art_le)

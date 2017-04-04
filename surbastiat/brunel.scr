@@ -1,0 +1,50 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Bastiat et la réaction contre le pessimisme économique")
+(define sidebarcontent[
+,(h5[Sources])
+
+
+])
+
+(define bastiatcontent [
+,(h3[Introduction])
+,(p*[Dans la deuxième moitié du ,(xviiie) siècle, apparaît en France une doctrine sociale qui, pour la première fois, présente le caractère d’un système complet logiquement déduit d’un principe fondamental.][
+Jusque-là, au point de vue économique, des procédés empiriques avaient été appliqués dans tous les États  ; procédés dont on avait, après coup, édifié la théorie qui ne pouvait par conséquent pas avoir l’ampleur d’un système d’ensemble.][
+Cette grande nouveauté, cette conception nouvelle d’une science sociale, s’explique par le caractère du père de la doctrine, le docteur Quesnay, médecin de Louis XV, qui, par sa profession, habitué à étudier les phénomènes naturels pour y conformer ses actes, avait porté la même méthode à l’étude des phénomènes sociaux.][
+L’observation attentive de la vie sociale avait persuadé Quesnay qu’il existe un ordre naturel et essentiel des sociétés politiques ; ordre que la constitution physique de l’homme rend nécessaire.][
+La croyance à cet ordre naturel est le trait caractéristique de ce système très heureusement appelé par Dupont (de Nemours), disciple de Quesnay, Physiocratie, c’esl-à-dire, gouvernement de la nature.][
+Pour les physiocrates, les effets les plus heureux au point de vue social doivent résulter de l’adaptation de la société à cet ordre naturel. Dupont de Nemours donne comme titre à son livre : ,(cite-title[La Physiocratie ou Constitution naturelle du gouvernement ,(strong[le plus avantageux]) au genre humain]), et Quesnay écrit toujours : « L’ordre naturel, ,(emph[évidemment le. plus avantageux aux hommes réunis en société]) ,(footnote*[Quesnay, ,(cite-title[L’Ordre naturel]), chap. V.]). »][
+Or, rien n’est plus facile que de se soumettre à cet ordre ; il suffit de laisser agir l’homme librement, car il y a en lui quelque chose de stable et d’immuable, qui est de l’essence des lois physiques : l’intérêt personnel, qui le pousse naturellement à rechercher cet ordre.][
+La liberté donc mène à l’ordre naturel ; mais cet ordre est-il bien sûrement le régime le plus avantageux à la société ? En d’autres termes, est-il vrai que l’intérêt privé doive conduire fatalement à l’intérêt général, que l’harmonie sociale soit une réalité ?][
+Il faut en avoir l’assurance, car s’il en était autrement, il importerait peut-être d’entraver la liberté ! Les physiocrates tiennent pour ,(emph[évident]) l’avantage de cet ordre ; cependant, si nous cherchons à nous rendre compte de ce qui peut leur communiquer une assurance si optimiste, nous voyons que c’est une considération fort peu scientifique.][
+L’ordre naturel, disent-ils, est le produit des lois naturelles ; or, comme celles-ci émanent de l’auteur de toutes choses, et comme l’Être suprême est bon et n’a pu vouloir le malheur de ses créatures, l’ordre naturel doit être nécessairement le plus avantageux au genre humain ,(footnote*[Dupont de Nemours, ,(cite-title[Origine et progrès d’une science nouvelle]). Édit. Guillaumin, p. 36.]).][
+Voilà une raison à laquelle Malebranche eût sans doute trouvé une valeur ; mais, au point de vue économique, il nous est permis de ne pas nous en contenter.][
+Il ne nous paraît pas évident que l’intérêt personnel doive mener nécessairement à l’intérêt général ; ce n’est pas un axiome ; nous demandons des preuves.][
+Or, précisément, dès la fin du ,(xviiie) et la première moitié du ,(xixe), les premiers d’entre les économistes de l’école libérale étaient eux-mêmes arrivés, par l’élude du fonctionnement des lois naturelles, à faire un tableau des plus sombres, de ce que les physiocrates appelaient l’ordre naturel.][
+La liberté économique se trouvait de ce fait singulièrement déconsidérée, et l’idée d’harmonie sociale tout au moins ne paraissait plus soutenable.][
+C’est à ce moment que, dans le monde des économistes, on vit apparaître une figure intéressante : Bastiat, dont l’amour de la liberté et la foi en l’harmonie sociale était aussi ardente que celle des physiocrates, mais qui entreprit avec résolution la tâche difficile de ,(emph[prouver]) l’harmonie et de réhabiliter la liberté, en l’asseyant sur une base solide et plus scientifique.](nbsp)[
+Frédéric Bastiat, dont on vient de fêter le centenaire, est né à Bayonne le 19 juin 1801 ,(footnote*[Les biographes diffèrent sur la date de la naissance de Bastiat, mais l’état-civil permet de déterminer qu’il est né le 30 juin. ,(NdL)]).][
+Il fit de très bonnes études à Sorrèze et, selon le désir de sa famille, se fixa à Mugron sur l’Adour, où il passa tonte sa vie, sauf les cinq dernières années, dans une retraite studieuse.][
+Un article qu’il envoya en 1844 au ,(cite-title[Journal des Économistes]) le fil connaître à Paris ; il fut bientôt en relation avec le célèbre polémiste anglais Cobden et entra délibérément dans la lutte, ardente à cette époque, pour la liberté économitpie.][
+Le département des Landes l’envoya comme député à l’Assemblée constituante, puis à la Législative.][
+Mais il ressentit bientôt les atteintes de la maladie qui devait le faire mourir, et c’est alors que se voyant obligé d’abandonner la lutte, il songea à fixer dans un ouvrage les principes fondamentaux qui l’avaient guidé. Il n’eut pas le temps d’achever et mourut à Rome le 24 décembre 1850 ,(footnote*[On trouvera la biographie détaillée et merveilleusement écrite de Bastiat par un de ses disciples, R. de Fontenay, dans le premier volume de l’édition des ,(cite-title[Œuvres complètes de Frédéric Bastiat]), Guillaumin, 1851, dernière réimpression, 1893.]).][
+Aujourd’hui encore, la popularité de Bastiat est grande ; c’est le plus connu de nom des économistes ; mais cette popularité, surtout en France, est plutôt celle qui s’attache à la mémoire d’un brillant polémiste qu’à celle d’un savant théoricien.][
+C’est un esprit pénétrant, empreint d’une bonhomie un peu moqueuse ; sa logique enveloppante est si serrée qu’elle déconcerte, et cependant elle est si aisée qu’elle ne nous paraît plus que du gros bon sens. C’est qu’il a le don de se jouer dles plus graves questions et d’escamoter en quelque sorte les difficultés.][
+Son style net et précis, plein d’images vives et saisissantes, est d’une clarté et d’une limpidité telles, que pour s’apercevoir de toutes ces qualités, il faut penser à le critiquer et se distraire de l’entraînement de l’idée qui s’y déroule si facilement. Peut-être même est-il trop clair et trop précis pour paraître à quelques-uns vraiment scientifique ,(footnote*[V. Lassalle, ,(cite-title[Capital et travail]), p. 63. — « En votre qualité d’allemand (adressé à Schulze) , vous devez savoir qu’il est d’usage chez nous non pas de traiter un sujet avec esprit et légèreté.]).][
+Orateur, écrivain toujours pétillant d’esprit ou plutôt d’une verve gasconne qui n’exclut pas la finesse, conférencier élégant et enjoué, il contait volontiers Peau d’âne à son auditoire charmé et tout surpris de voir à la conclusion un des problèmes les plus ardus de la science économique résolu si simplement.][
+Un des disciples de Bastiat l’a comparé à La Fontaine ,(footnote*[V. R. de Fontenay, ,(cite-title[Biographie de Bastiat]).]) ; cela nous rappelle qu’il n’y eut guère de comparable à la distraction de l’un que celle de l’autre ; mais nous acceptons volontiers le rapprochement entre les auteurs comme entre les hommes. Ne croirait-on pas écrite par le fabuliste, cette histoire de Puera et Stulta, ces deux villes, qui pour communiquer tracent à grands frais une route et s’imposent ensuite de lourdes charges pour y empêcher la circulation, et ces pamphlets, ces sophismes économiques où se révèle un art merveilleux dans la conduite logique d’une proposition absurde. Cairnes y trouve une raillerie délicate et polie, une sorte de naïveté spirituelle qui les lui font comparer aux lettres Provinciales ,(footnote*[Cairnes, ,(cite-title[Essay in political economy]), p. 314.]).][
+
+
+])
+])
+(document :title "Bastiat et la réaction contre le pessimisme économique"
+:author "Charles Brunel"
+
+(container)
+
+(tous_les_scripts)
+(footer[
+	,(oeuvres)
+	,(surbastiat)
+]))

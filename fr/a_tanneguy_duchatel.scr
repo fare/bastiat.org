@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À M. Tanneguy Duchâtel, ministre de l’Intérieur, par Frédéric Bastiat")
-
-(document :title "À M. Tanneguy Duchâtel, ministre de l’Intérieur"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/114/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 24, p. 114.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 30 juin 1846.])
 ,(cher[,(np "duchatel" [Monsieur le Ministre]),])
 ,(p*[
@@ -58,6 +55,9 @@ Mais, en même temps, nous ne méconnaîtrons pas le service que vous rendez à 
 ])
 ,(politesse[Je suis, monsieur le Ministre, votre serviteur.])
 ])
+(document :title "À M. Tanneguy Duchâtel, ministre de l’Intérieur"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

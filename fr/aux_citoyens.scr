@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Aux citoyens Lamartine et Ledru-Rollin
 	- par Frédéric Bastiat")
-(document :title [Aux citoyens ,(np "lamartine" [Lamartine]) et ,(np "ledrurollin" [Ledru-Rollin])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/246/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 63, p. 246.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 3, du 20 au 23 juin 1848.])
 ,(p*[
 Dissolvez les ateliers nationaux. Dissolvez-les avec tous les ménagements que l’humanité commande, mais ,(emph[dissolvez-les]).
@@ -47,6 +45,9 @@ Si vous ne dissolvez pas les ateliers nationaux, que deviendront les ouvriers lo
 ][
 Si vous conservez les ateliers nationaux dans des desseins sinistres, la postérité dira de vous : C’est sans doute par lâcheté qu’ils proclamaient la république, puisqu’ils l’ont tuée par trahison.
 ])])
+(document :title [Aux citoyens ,(np "lamartine" [Lamartine]) et ,(np "ledrurollin" [Ledru-Rollin])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

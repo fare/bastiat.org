@@ -1,15 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettres d’un habitant des Landes")
-
-(document :title "Lettres d’un habitant des Landes"
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf" [,(cite-title[Lettres d’un habitant des Landes])]), 1877.])
 ,(h5[Voir aussi])
 ,(p*[Cet ouvrage contient ,(ref :url "lettres_cheuvreux.html" [ces 38 lettres]) de Frédéric Bastiat à la famille Cheuvreux, dont seulement 5 avaient paru dans les ,(ref :url "guillaumin.html#7"(cite-title[Œuvres complètes])).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(epigraphe[
 ,(p*[Toucher à la liberté de l’homme, ce n’est pas seulement lui nuire, l’amoindrir, c’est changer sa nature ; c’est le rendre, dans la mesure où l’oppression s’exerce, imperfectible ; c’est le dépouiller de sa ressemblance avec le créateur, c’est ternir, sur sa noble figure, le souffle de vie qui y resplendit depuis l’origine. ,(ref :url "perfectibilite.html#liberte" [*])]
 [Les horizons économiques n’ont pas de limites. En apercevoir de nouveaux, c’est mon bonheur, que je les découvre ou qu’un autre me les montre. ,(ref :url "lettre_fontenay.html#horizons" [*])])
@@ -46,5 +44,7 @@ L’histoire de la vie de Bastiat est une bien simple histoire. Elle se concentr
 ][
 Bastiat, qui avait abandonné son village à l’âge de quarante-cinq ans, ne put jamais s’accoutumer aux rapports sociaux purement mondains, c’est-à-dire à l’indifférence aimable cachée sous les formes banales d’une extrême politesse.
 ])])
+(document :title "Lettres d’un habitant des Landes"
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(corresp),(cheuvreux)]))

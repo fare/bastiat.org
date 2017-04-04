@@ -5,7 +5,8 @@
 (document :title "Frédéric Bastiat, un économiste politique et social"
 	:author (author :name "Claude Bordes"
 			:url (ref :url =bo.url= =bo.url=))
-(blockquote*
+(bastiat[
+,(blockquote*
 (small[
 Il a été mieux qu'un économiste.
 Il a été un économiste politique et social.
@@ -20,7 +21,7 @@ et les problèmes de la société.
 (small[
 Valéry Giscard d'Estaing, colloque de Sorrèze, 19 février 1987.
 ]))
-(section :title [La vie de Frédéric Bastiat]
+,(section :title [La vie de Frédéric Bastiat]
 (p*[
 Claude Frédéric Bastiat naît en 1801 à Bayonne,
 où son père tenait une maison de commerce.
@@ -190,7 +191,7 @@ l'État français a logé là sa Perception!
 Au lieu d'un musée du libéralisme... le mausolée du contribuable!
 La France a oublié Frédéric Bastiat.
 ]))
-(section :title[La pensée de Frédéric Bastiat]
+,(section :title[La pensée de Frédéric Bastiat]
 (subsection :title [le libéralisme comme humanisme]
 (p*[
 L'histoire de la pensée distingue
@@ -472,9 +473,9 @@ des bienfaits du libre échange,
 des méfaits de l'interventionnisme et des dangers du socialisme.
 Avec Bastiat, l'économie politique ressemble à la science du bonheur.
 ])))
-(tag :p :align 'right [
+,(tag :p :align 'right [
 Claude Bordes, professeur de SES au Lycée Galilée, Guérande
-])
+])])
 (tous_les_scripts)
 (footer[])
 (with-footer

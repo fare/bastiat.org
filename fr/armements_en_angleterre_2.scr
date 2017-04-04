@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Encore les armements en Angleterre, par Frédéric Bastiat")
-
-(document :title "Encore les armements en Angleterre"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=30" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 10, p. 53.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/200/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 35, p. 200.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 30 janvier 1848.])
 ,(p*[
 Il est assez ordinaire de voir les hommes qui ont épousé une cause ou un parti arranger les faits, les tourmenter, les supposer même dans l’intérêt de l’opinion qu’ils défendent.
@@ -96,6 +92,10 @@ Ce patriotisme, qu’en faisiez-vous quand il fut question d’une union douani�
 ][
 Nous voyons par les journaux anglais qu’une vraie panique a été habilement semée de l’autre côté du détroit parmi le peuple. Le ministère whig veut augmenter ses armements. Le résultat sera que la France augmentera les siens. Ce spectacle nous attriste, nous ne le cachons pas. — Il vous réjouit, vous, c’est tout aussi naturel. Votre joie éclate dans les colonnes du ,(tj "mi" [,(cite-title[Moniteur industriel])]). Vous ne pouvez pas la contenir. Vous nous raillez, vous triomphez ; car cela retarde le jour où vous serez bien forcés de rentrer dans le droit commun. Ce ,(emph[patriotisme])-là, nous vous en laissons le triste monopole.
 ])])
+(document :title "Encore les armements en Angleterre"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

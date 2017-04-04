@@ -1,15 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le petit arsenal du libre-échangiste - par Frédéric Bastiat")
-(document :title "Le petit arsenal du libre-échangiste"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=71" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 22, p. 175.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f169.image" [,(cite-title[Sophismes économiques II])]), ch. 15.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/251/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 251.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 25 avril 1847.])
 ,(h2[Chapitre XV de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
@@ -374,6 +372,9 @@
 	par cela seul qu’elle a existé un moment, doit être éternelle.
 
 ])])
+(document :title "Le petit arsenal du libre-échangiste"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

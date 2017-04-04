@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "A Messieurs les électeurs de l’arrondissement de Saint-Sever
 	- par Frédéric Bastiat")
-(document :title "A Messieurs les électeurs de l’arrondissement de Saint-Sever."
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb36363466q" [4-LE54-1755]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 12 septembre 1845.])
 ,(cher[Messieurs,])
 ,(p*[
@@ -87,5 +85,8 @@ Parce que nous ne pouvons pas, quelles qu’aient été ses vues antérieures, n
 Agréez, Messieurs les Électeurs, l’expression de mes sentimens respectueux et dévoués.])
 ,(sign[,(FredB).])
 ])
+(document :title "A Messieurs les électeurs de l’arrondissement de Saint-Sever."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(inedits)]))

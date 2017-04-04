@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "L’Assemblée nationale
 	- par Frédéric Bastiat")
-(document :title "L’Assemblée nationale"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 58, p. 237.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
 ,(p*[
 — Maître Jacques, que pensez-vous de l’Assemblée nationale ?
@@ -23,6 +21,9 @@
 ][
 — Trois choses : pourvoir à l’urgence, faire la Constitution, et s’en aller.
 ])])
+(document :title "L’Assemblée nationale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

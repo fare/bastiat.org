@@ -1,11 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Fragment sur l’agriculture")
-
-(document :title "Fragment sur l’agriculture"
-	:author (author-FB)
-
-(bastiat[
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f66.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 52. Voir ,(ref :url "../surbastiat/ronce.html#agriculture" [version texte]).])
+])
+(define bastiatcontent [
 ,(date-tag[6 février 1832.])
 ,(p*[L’agriculture a ce malheur, comme la médecine et l’économie politique, que tout le monde croit la savoir sans l’avoir jamais étudiée…][
 Dans l’Académie agricole de Mont-de-Marsan, on trouve de tout, depuis des maréchaux de France jusqu’à des gendarmes ; on y trouve des juges, des financiers, des employés des droits réunis, des ,(emph[Excellences]) et des ,(emph[Seigneuries]), de tout enfin, hors des agriculteurs. Nous nous vantons sans cesse d’être le peuple le plus éclairé de la terre. Je suis trop poli pour le contester. Mais, je le demande, que dirions-nous des Turcs, si on nous apprenait qu’ils ont, dans chaque province, une société philarmonique exclusivement composée de sourds ?]
@@ -14,6 +14,10 @@ Dans l’Académie agricole de Mont-de-Marsan, on trouve de tout, depuis des mar
 Heureusement, la Société prêche un désert, grâce à l’esprit de routine dont on nous accuse ; et notre intérêt est là qui nous avertit de ne pas nous laisser entraîner à des folies.][
 L’espèce humaine est douée de deux facultés qui semblent se contredire et qui cependant se prêtent un secours mutuel, l’esprit d’imitation et la puissance de l’habitude.
 ])])
+(document :title "Fragment sur l’agriculture"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

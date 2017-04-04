@@ -3,14 +3,12 @@
 (in-bof :title "Association espagnole pour la défense du travail national
 	- le pont de la Bidassoa
 	- par Frédéric Bastiat")
-(document :title "Association espagnole pour la défense du travail national"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=92" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 50, p. 404.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/429/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 64, p. 429.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 7 novembre 1847.])
 ,(p*[
 L’Espagne a aussi son association pour la défense du ,(emph[travail national]).
@@ -266,6 +264,9 @@ ils le font par-dessous, tant ils sont aveugles !
 
 
 ])])
+(document :title "Association espagnole pour la défense du travail national"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

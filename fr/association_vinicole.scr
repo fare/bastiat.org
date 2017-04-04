@@ -1,11 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Association pour la défense des intérêts vinicoles")
-
-(document :title "Association pour la défense des intérêts vinicoles"
-	:author (author-FB)
-
-(bastiat[
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f301.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 287. Voir ,(ref :url "../surbastiat/ronce.html#appendice3" [version texte]).])
+])
+(define bastiatcontent [
 ,(date-tag[15 janvier 1841.])
 ,(subtitle[1° Une Association.])
 ,(p*[Il y a en France ,(emph[deux millions]) d’hectares de terre plantés en vigne.][
@@ -108,6 +108,10 @@ Mais nous nous croyons de force à résister à ce double entraînement, car nou
 ,(p*[Membre du Conseil Général du département des Landes.][
 Le prix de l’abonnement au Journal est de 6 fr. par an pour Paris, 7 fr. 50 pour les départements.][
 Le bureau provisoire est établi à l’imprimerie de ,(emph[Guiraudet et Jouaust]), rue Saint-Honoré, 315.])])
+(document :title "Association pour la défense des intérêts vinicoles"
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

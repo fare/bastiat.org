@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre au Moniteur indutriel, par Frédéric Bastiat")
-
-(document :title "Lettre au Moniteur indutriel"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/128/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 28, p. 128.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 29 août 1846.])
 
 ,(cher[,(tj "mi" [Monsieur]),])
@@ -61,6 +58,9 @@ Enfin, et c’est ceci qui importe, si le public n’eût pas perdu ,(emph[un mi
 ][
 Croyez, Monsieur, que ,(emph[deux pertes ne font pas un profit]), et agréez mes civilités.
 ])])
+(document :title "Lettre au Moniteur indutriel"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)

@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Avis charitable à la Démocratie pacifique")
-
-(document :title [Avis charitable à la ,(tj "dp" [,(cite-title[Démocratie pacifique])])]
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=8" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 3, p. 14.])
 ])
 
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 décembre 1847.])
 ,(p*[,(tag :a :name "fourier_ref")
 Parmi les membres de la coalition qui s’est momentanément formée en France contre la liberté du commerce, nous avons toujours été surpris de rencontrer les disciples de ,(np "fourier" [Fourier]), parce qu’ils font profession d’être les amis ardents de l’harmonie parmi les nations, les promoteurs de l’association des efforts entre les États, les défenseurs de l’unité du monde, et qu’à ce titre la liberté des échanges doit leur plaire. Comment se fait-il qu’ils ne manquent pas une occasion de la dénigrer, précisément depuis que c’est une question posée par les événements, depuis que la plupart des gouvernements s’en occupent d’une manière sérieuse, au moins pour l’étudier. Nous leur mettons sous les yeux aujourd’hui un extrait d’une brochure de l’homme qu’ils avouent comme leur chef, ,(np "considerant" [M. Considérant]). On a rarement écrit des choses plus fortes, plus pressantes contre le système actuel des douanes. Comment ne sentent-ils pas que leur honneur et leur devoir est de soutenir ce qu’ils ont si bien recommandé eux-mêmes ? Doit-on rougir pour avoir exprimé d’aussi bons sentiments que ceux dont cette brochure est remplie ? Cette brochure fut publiée en 1840 par ,(np "considerant" [M. Considérant]), sous le titre : ,(cite-title[De la Politique générale et du rôle de la France en Europe]).
@@ -83,6 +79,10 @@ Nous ignorons quels peuvent être nos torts envers les phalanstériens. C’est 
 ][
 Le remarquable écrit de ,(np "considerant" [M. Considérant]) à la main, nous demandons à la ,(tj "dp" [,(cite-title[Démocratie pacifique])]) de s’expliquer sur une réforme du tarif des douanes qui lèverait les prohibitions absolues, laisserait entrer en franchise les subsistances, la houille et diverses matières du même ordre, et réduirait tous les droits de manière à ce qu’aucun ne dépassât 20 p. %, taux auquel il n’est pas un filateur intelligent, pas un maître de forges industrieux qui ne fût assuré de vivre ? Que serait-ce, pour reprendre leurs expressions, que l’application ,(strong[mesurée, sage]) et ,(strong[progressive]) d’un principe par eux proclamé avec enthousiasme ? Que la ,(tj "dp" [,(cite-title[Démocratie pacifique])]) s’explique sans ambages. Mais si elle combat cette proposition, qu’elle y prenne garde. Que répondrait-elle si on lui disait alors qu’elle est une coterie intolérante et exclusive, qu’elle a peur de ses propres pensées dès qu’elle les aperçoit sous la plume d’autrui ?
 ])])
+(document :title [Avis charitable à la ,(tj "dp" [,(cite-title[Démocratie pacifique])])]
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le),(inedits)]))

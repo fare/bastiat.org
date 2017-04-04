@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Les élections, par Frédéric Bastiat")
-
-(document :title "Les élections"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/280/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 68, p. 280.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Dialogue entre un profond Publiciste et un Campagnard.])
 ,(p*[,(center(strong[Le Publiciste.]))
 ][
@@ -175,5 +172,8 @@ Je ne crains pas d’arriver trop tard pour vous demander votre voix, Monsieur, 
 ][
 J’y suis bien résolu. Vos opinions sont les miennes, vos intérêts me garantissent que vous agirez selon vos opinions ; vous pouvez compter sur mon suffrage.
 ])])
+(document :title "Les élections"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

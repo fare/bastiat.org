@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À M. le rédacteur en chef du National, par Frédéric Bastiat")
-
-(document :title [À M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/152/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 34, p. 152.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[I])
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 10 novembre 1846.])
 
@@ -67,6 +64,9 @@ Pour moi, j’appartiens de toutes les manières à la démocratie ; mais je ne
 ][
 Il me reste à prouver que la pesanteur et la mauvaise répartition des taxes antérieures ne justifie pas le régime protecteur.])
 ])
+(document :title [À M. le rédacteur en chef du ,(tj "national" [,(cite-title[National])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)

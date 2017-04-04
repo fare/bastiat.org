@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Les armements en Angleterre, par Frédéric Bastiat")
-
-(document :title "Les armements en Angleterre"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=25" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 8, p. 45.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/194/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 34, p. 194.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 16 janvier 1848.])
 ,(p*[
 S’il n’y avait pas, quoi qu’on en dise, dans un principe, dans la vérité, plus de force que dans un fait contingent et éphémère, rien ne serait plus affligeant, plus décourageant pour les défenseurs de la liberté commerciale sur toute la surface du globe, que cette perversion étonnante et momentanée de l’esprit public dont l’Angleterre nous donne en ce moment le spectacle. Elle se prépare à augmenter son armée et sa marine.
@@ -72,6 +68,10 @@ Enfin les gouvernements, s’il en est qui cherchent à exploiter le public, à 
 ][,(tag :a :name "times_ref")
 Nous avons la ferme confiance que cette ridicule panique, qui a agité un moment l’Angleterre, est un mouvement factice dont il n’est pas bien difficile de deviner l’origine. Nous ne doutons pas qu’elle ne se dissipe devant le bon sens public, et nous en avons pour garants les organes les plus accrédités de l’opinion, entre autres le ,(tj "times" [,(cite-title[Times])]), et surtout le ,(tj "punch" [,(cite-title[Punch])]), car c’est une affaire de sa compétence ,(footnote*[V. au tome ,(sc[iii]) la relation d’un ,(ref :url "ligue_34.html#invasion" [,(cite-title[Meeting à Manchester])]). ,(NdEEO)]).
 ])])
+(document :title "Les armements en Angleterre"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

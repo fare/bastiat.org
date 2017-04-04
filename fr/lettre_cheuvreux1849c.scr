@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de février 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=7" [,(cite-title[Lettres d’un habitant des Landes])]), p. 12.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mercredi, février 1849.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -17,12 +15,15 @@ de février 1849")
 ][,(tag :a :name "ramel_ref")
 ,(np "ramel" [M. Ramel]) peut faire toucher au ministère de l’intérieur, 150 francs ; les formes administratives obligent de donner à cela le nom de secours et non de pension !
 ][,(tag :a :name "rossini_ref")
-J’ai eu toute la nuit la musique d’hier soir dans la tête : ,(initalian[Io vorrei saper perche]) ,(np "rossini" [*]) et autres chants délicieux.
+J’ai eu toute la nuit la musique d’hier soir dans la tête : ,(initalian[Io vorrei saper perche]) ,(footnote*[,(np "rossini" [Rossini]), ,(cite-title[La Cenerentola]), acte ,(strong[i]) ,(ref :url "https://www.youtube.com/watch?v=QaLhcc6Bh5k&t=1790" [sc. 4]).]) et autres chants délicieux.
 ][
 Adieu, ,(np "cheuvreux_h" [Madame]), je suis votre dévoué et celui de ,(np "cheuvreux_l" [,(Mlle) Louise]).
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

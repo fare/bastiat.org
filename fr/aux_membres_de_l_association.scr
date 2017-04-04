@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Aux membres de l’Association pour la liberté des échanges, par Frédéric Bastiat")
-
-(document :title "Aux membres de l’Association pour la liberté des échanges"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/108/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 23, p. 108.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 14 juin 1846.])
 
 ,(cher[Mes chers Collègues,])
@@ -68,6 +65,9 @@ Tel est, dans la presse française, le dénombrement de nos forces. Quels sont n
 ][
 Voilà ce qui est impliqué dans cet aveu : ,(emph[La liberté des échanges est vraie en principe ;]) car elle serait fausse en théorie comme en pratique, s’il était au pouvoir de la restriction de faire plus de bien que la liberté. Aussi les journaux auxquels je fais allusion ne pourront pas tenir longtemps la position qu’ils ont prise. Les principes ont d’autres exigences, et les abonnés aussi. Ce n’est pas impunément qu’on peut dire longtemps à un principe (c’est-à-dire à la vérité) : « Je te respecte et te salue, mais je te tourne le dos. » Il vient un moment où le lecteur voit une insulte dans ce langage.
 ])])
+(document :title "Aux membres de l’Association pour la liberté des échanges"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)
