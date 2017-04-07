@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Profession de foi électorale de 1842
 	- par Frédéric Bastiat")
-(document :title "Profession de foi électorale de 1842."
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb31771602r" [4-LE54-1499]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(cher[Messieurs les électeurs,])
 ,(p*[
 En me présentant à vos suffrages, j’obéis à ce besoin si naturel qui nous presse à tous d’arracher enfin notre pensée politique au domaine de l’étude pour l’initier à celui des affaires publiques.
@@ -27,5 +25,8 @@ J’ai l’honneur d’être,
 ])
 ,(sign[,(FredB).])
 ])
+(document :title "Profession de foi électorale de 1842."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(inedits)]))

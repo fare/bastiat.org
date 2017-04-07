@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Concurrence
 	- par Frédéric Bastiat")
-(document :title "Concurrence"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n345/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
 [,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/293/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/314/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 314.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre X des ,(HarmoniesEconomiques)])
 ,(p*[
 L’économie politique n’a pas, dans tout son vocabulaire,
@@ -1675,6 +1673,9 @@ Aux douleurs qu’elle lui réserve encore,
 	la ,(emph[prévoyance]), fruit de l’expérience et des lumières,
 	et ,(emph[l’association]), qui est la prévoyance organisée.
 ])])
+(document :title "Concurrence"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

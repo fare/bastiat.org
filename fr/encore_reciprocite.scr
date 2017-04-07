@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Encore la réciprocité
 	- Sophisme économique démonté par Frédéric Bastiat")
-(document :title "Encore la réciprocité"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f135.image" [,(cite-title[Sophismes économiques])]), ch. 15.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/90/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 90.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XV de la I,(re) série des ,(SophismesEconomiques)])
 
 ,(p*[,(tag :a :name "stcricq_ref")
@@ -93,6 +91,9 @@ N’est-il pas plaisant que vous lui infligiez d’ores et déjà ce régime,
 dans la crainte qu’il ne coure la chance d’y arriver un jour sans vous ?
 
 ])])
+(document :title "Encore la réciprocité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "conflit_de_principes.html" "les_fleuves.html")

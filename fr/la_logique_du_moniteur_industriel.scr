@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La logique du Moniteur industriel, par Frédéric Bastiat")
-
-(document :title [La logique du ,(tj "mi" [,(cite-title[Moniteur industriel])])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/118/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 25, p. 118.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du ,(1er) juillet 1846.])
 ,(p*[
 Le ,(cite-title[,(tj "mi" [Moniteur industriel]),]) toujours fidèle au monopole, commente aujourd’hui la déclaration de l’Association du libre-échange. Après avoir dit qu’elle tient compte de quelques ,(emph[idées générales]) dont il ne conteste pas la justesse, il ajoute qu’elle ne tient pas compte de la ,(emph[vie réelle ;]) d’où il suit, selon lui, qu’il y a incompatibilité entre la ,(emph[vie]) et les ,(emph[idées]). Sous l’influence de cette pensée, le ,(tj "mi" [,(cite-title[Moniteur])]) affirme que la déclaration est bonne pour l’Académie des sciences morales, mais détestable pour le régime d’un peuple raisonnable ; d’où il suit encore qu’il y a incompatibilité entre l’Académie et la raison.
@@ -71,6 +68,9 @@ Le ,(tj "mi" [,(cite-title[Moniteur])]) termine par un argument qui aspire à so
 ,(tag :a :name "coudroy_ref")
 — La thèse du ,(tj "mi" [,(cite-title[Moniteur])]) donne de l’à-propos à un article de ,(np "coudroy" [M. Coudroy]), inséré dans le ,(tj "mb" [,(cite-title[Mémorial])]) du 12 juin. Nous le recommandons à MM. les manufacturiers. Qu’ils sachent bien une chose : l’échange et les machines, pour le bien et pour le mal, opèrent exactement de même. Relativement aux ouvriers, l’étranger est une machine économique, comme la machine est un concurrent étranger. En soulevant contre nous la classe ouvrière, les fabricants la soulèvent donc, et plus immédiatement, contre eux-mêmes ; car elle est plus près des ateliers où fonctionnent les machines que du cabinet où s’élabore la pensée de l’économiste.
 ])])
+(document :title [La logique du ,(tj "mi" [,(cite-title[Moniteur industriel])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

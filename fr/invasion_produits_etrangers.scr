@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À quoi se réduit l’invasion, par Frédéric Bastiat")
-
-(document :title "À quoi se réduit l’invasion"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=22" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 5, p. 38.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/58/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 11, p. 58.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 décembre 1846.])
 ,(p*[
 Si nous avons une foi entière dans le triomphe de notre cause, malgré la formidable opposition qu’elle rencontre, c’est que nous nous attendons à voir les faits venir l’un après l’autre déposer en sa faveur.
@@ -80,6 +77,9 @@ De fait, notre loi céréale est abolie, ,(strong[gardons-nous de la rétablir])
 ][
 Que toutes les associations du libre-échange s’unissent donc pour empêcher que la loi céréale ne soit jamais ressuscitée. Sur ce terrain elles auront une force immense. Il est plus facile d’obtenir le maintien d’une réforme déjà réalisée que le renversement d’un abus. Dans la prévision d’une liberté prochaine et inévitable, les manufacturiers, qui ont l’intelligence de la situation, seront avec nous. Le peuple ne saurait nous combattre sans déserter, non-seulement son intérêt le plus évident, mais encore son droit le plus sacré, celui d’échanger son salaire contre la plus grande somme possible d’aliments, celui d’acheter le blé au prix réduit par la concurrence, quand il vend son travail au prix réduit par la concurrence. Et quant au propriétaire (car l’agriculteur est hors de cause), croyons qu’il est assez juste envers le peuple pour renoncer à une taxe sur le pain, qui n’a d’autre effet que d’élever artificiellement le capital de la terre. Que si, d’abord, il se tourne contre nous, il nous reviendra quand nous demanderons que les classes manufacturières fassent à leur tour, en toute justice envers lui, l’abandon de leurs injustes et inefficaces priviléges.
 ])])
+(document :title "À quoi se réduit l’invasion"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

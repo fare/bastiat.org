@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Indépendance nationale
 	- par Frédéric Bastiat")
-(document :title "Indépendance nationale"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f147.image" [,(cite-title[Sophismes économiques])]), ch. 19.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/97/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 97.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XIX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Parmi les arguments qu’on fait valoir en faveur du régime restrictif,
@@ -120,6 +118,9 @@ au tome II.
 
 
 ])])
+(document :title "Indépendance nationale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "principes_absolus.html" "thtn.html")

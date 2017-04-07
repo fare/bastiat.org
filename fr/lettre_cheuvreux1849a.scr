@@ -2,17 +2,14 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de janvier 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=6" [,(cite-title[Lettres d’un habitant des Landes])]), p. 10.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Janvier 1849.])
 
-,(cher[Madame,])
+,(cher[,(np "cheuvreux_h" [Madame]),])
 ,(p*[On vient de me dire que, demain mardi, à deux heures, on exécutera dans l’église Saint-Louis d’Antin de la musique très-curieuse. Ce sont des chants du ,(XIIIe) siècle, retrouvés aux archives de la sainte chapelle, et empreints de toute la naïveté de l’époque. D’autres assurent que ces chants ne peuvent être anciens, attendu qu’au ,(XIIIe) siècle on ne connaissait pas l’art de noter la musique.
 ][
 Quoi qu’il en soit, la solennité offrira un vif intérêt ; il y a là une question moins difficile à juger par impression que par érudition.
@@ -25,6 +22,10 @@ Que faudrait-il à ma chère ,(np "cheuvreux_l" [mademoiselle Louise]) ? Un peu
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur la défense d’exporter les céréales, par Frédéric Bastiat")
-
-(document :title "Sur la défense d’exporter les céréales"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=25" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 17, p. 129.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/72/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 14, p. 72.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 21 mars 1847.])
 ,(p*[
 Proposer à un peuple de laisser exporter les aliments en temps de disette, c’est certainement soumettre sa foi dans le libre-échange à la plus rude de toutes les épreuves. Quoi de plus naturel, quand on est forcé d’aller chercher du blé au dehors, que de commencer par retenir celui qu’on possède ? Au milieu des efforts que font simultanément plusieurs nations pour assurer leurs approvisionnements, pourquoi nous exposerions-nous à ce que la plus riche vînt, à prix d’or, diminuer les nôtres ? — Il ne faut donc pas être surpris de voir les gouvernements les plus éclairés faillir aux principes dans les conjonctures difficiles ; alors même qu’ils seraient convaincus de l’inefficacité de semblables restrictions, ils ne seraient pas assez forts pour les refuser aux alarmes populaires ; ce qui nous ramène toujours à ceci : l’opinion fait la loi ; c’est l’opinion qu’il faut éclairer.
@@ -52,6 +49,9 @@ Les villes annoncent qu’elles revendront ce blé (acheté pendant le paroxysme
 ][
 On dira que nous sommes très-décourageants, et que, dans notre foi au ,(emph[laissez faire]), nous conseillons de se croiser les bras. À entendre ce langage, il semblerait qu’en dehors de l’État et des municipalités, il n’y a pas d’action dans le monde ; que ceux qui désirent vendre et ceux qui ont besoin d’acheter sont des êtres inertes et privés de tout mobile. Si nous conseillons le ,(emph[laissez faire]), ce n’est point parce qu’on ne ,(emph[fera pas]), mais parce qu’on ,(emph[fera plus et mieux]). Nous persisterons dans cette croyance jusqu’à ce qu’on nous prouve une de ces deux choses : ou que les lois restrictives ajoutent un grain de plus aux récoltes, ou qu’elles rendent la distribution des subsistances plus uniforme et plus équitable.
 ])])
+(document :title "Sur la défense d’exporter les céréales"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

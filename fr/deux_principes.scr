@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Deux principes, par Frédéric Bastiat")
-
-(document :title "Deux principes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=48" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 11, p. 88.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k202316g/f366.item" [,(cite-title[Œuvres complètes])]), vol. 2, n° 54, p. 363.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 7 février 1847.])
 ,(p*[
 — Je viens de lire un chef-d’œuvre sur le libre-échange.
@@ -174,6 +171,9 @@ Orient et Occident, Zénith et Nadir, tout se confond dans ma tête, et je n’a
 ][
 — Ciel ! que les démonstrateurs sont lourds !
 ])])
+(document :title "Deux principes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

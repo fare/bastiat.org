@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "L’État
 	- par Frédéric Bastiat")
-(document :title "L’État"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 59, p. 238.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
 ,(p*[
 Il y en a qui disent : C’est un homme de finances qui nous tirera de là, ,(np "thiers" [Thiers]), ,(np "fould" [Fould]), ,(np "goudchaux" [Goudchaux]), ,(np "stmarc" [Girardin]). Je crois qu’ils se trompent.
@@ -68,6 +66,9 @@ Il veut que l’État…]))
 ][
 ,(cite-title[Jacques Bonhomme]) fonde un prix de cinquante mille francs à décerner à celui qui donnera une bonne définition de ce mot, ,(strong[l’État]) ; car celui-là sera le sauveur des finances, de l’industrie, du commerce et du travail ,(footnote*[On reconnaît, dans cet article et le suivant, l’esquisse du pamphlet ,(cite-title[l’État]), publié trois mois après. ,(NdEEO)]).
 ])])
+(document :title "L’État"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

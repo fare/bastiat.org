@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Justice et fraternité
 	- par Frédéric Bastiat")
-(document :title "Justice et fraternité"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom24parigoog#page/n745/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 20, n° 82, p. 310.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5696376z/f40.image" [,(cite-title[Propriété et loi — Justice et fraternité])]), p. 33.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/298/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 298.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 juin 1848.])
 ,(p*[L’École économiste est en opposition sur une foule de points
 avec les nombreuses Écoles socialistes qui se disent plus ,(emph[avancées]),
@@ -565,7 +563,7 @@ mais nous n’y voyons pas la fraternité !])
 ][,(tag :a :name "fenelon_ref")
 Encore une fois, n’y a-t-il dans le c,(oe)ur de l’homme
 que ce que le législateur y a mis ?
-A-t-il fallu, pour que la fraternité fit son apparition sur la terre,
+A-t-il fallu, pour que la fraternité fît son apparition sur la terre,
 qu’elle sortît de l’urne d’un scrutin ?
 Est-ce que la loi vous interdit la charité,
 par cela seul qu’elle ne vous impose que la justice ?
@@ -1296,6 +1294,9 @@ il suffit, selon nous, pour altérer la nature même et l’essence de ce dogme
 
 
 ])])
+(document :title "Justice et fraternité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

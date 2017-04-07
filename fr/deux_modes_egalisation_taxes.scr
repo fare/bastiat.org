@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Deux modes d’égalisation de taxes, par Frédéric Bastiat")
-
-(document :title "Deux modes d’égalisation de taxes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=48" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 19, p. 152.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/222/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 40, p. 222.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 4 avril 1847.])
 ,(p*[
 Les partisans du libre-échange se font un argument de ce qui est advenu au sucre de betterave, pour prouver que la crainte de la concurrence est souvent chimérique.
@@ -59,6 +56,9 @@ Et, quand cela est arrivé, le public perd toute la consommation empêchée par 
 ][
 Celui-ci joue alors le rôle ridicule dans lequel ,(ref :url "cpe.html" [nous avons fait paraître]) le fisc anglais. On se rappelle que la taxe s’élevant sans cesse, et la consommation diminuant à mesure, il arriva un moment où, en ajoutant 5 p. % au taux de l’impôt, on eut 5 p. % de moins de recette.
 ])])
+(document :title "Deux modes d’égalisation de taxes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

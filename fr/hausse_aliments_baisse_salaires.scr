@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Hausse des aliments, baisse des salaires, par Frédéric Bastiat")
-
-(document :title "Hausse des aliments, baisse des salaires"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=26" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 17, p. 130.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/77/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 15, p. 77.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 21 mars 1847.])
 ,(p*[
 ,(emph[Quelle est l’influence du prix des aliments sur le taux des salaires ?])
@@ -48,6 +45,9 @@ Disent-ils ou ne disent-ils pas que le bon marché des subsistances entraîne le
 ][
 Nous désirons et nous demandons instamment qu’une enquête soit ouverte sur les fluctuations du salaire et sur le sort des classes laborieuses, dans le cours de cette année. C’est le moyen de vider, une fois pour toutes et par les faits, la grande question qui divise les partisans de la restriction et ceux de la liberté.
 ])])
+(document :title "Hausse des aliments, baisse des salaires"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

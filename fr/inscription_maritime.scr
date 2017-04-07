@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur l’inscription maritime, par Frédéric Bastiat")
-
-(document :title "Sur l’inscription maritime"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=28" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 9, p. 49.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/205/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 36, p. 205.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 23 janvier 1848.])
 ,(p*[
 Un journal annonce que le gouvernement anglais, sentant que la ,(emph[presse des matelots]) serait inexécutable, est sur le point de constituer quelque chose de semblable à notre ,(emph[inscription maritime]).
@@ -40,6 +36,10 @@ Revenant à l’Angleterre, nous serions fâchés, par les motifs que nous venon
 ][
 C’est une circonstance heureuse, pour l’avenir de l’humanité, que les meilleurs moyens d’agression soient pour ainsi dire exclusifs de bons moyens de défense. Les premiers exigent qu’une multitude immense d’êtres humains soient sous la dépendance absolue d’un seul homme. Le despotisme en est l’âme ; c’est l’inscription maritime pour la mer et l’armée permanente pour la terre. Les seconds ne demandent qu’une bonne organisation des citoyens paisibles et l’amour de la patrie : la garde nationale pour la défense des frontières et le service volontaire pour la défense des côtes. Aucun peuple impartial et raisonnable ne peut se formaliser de ce qu’une autre nation pourvoie à sa défense par des mesures qui excluent le danger de l’agression ; mais, sous prétexte de défense, accroître les moyens agressifs, même aux dépens des vrais moyens défensifs, c’est répandre au loin des craintes, c’est provoquer des mesures analogues, c’est créer partout le danger, c’est agglomérer des forces qui ne demandent pas mieux que d’être utilisées. C’est, en un mot, retarder le progrès de la civilisation.
 ])])
+(document :title "Sur l’inscription maritime"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

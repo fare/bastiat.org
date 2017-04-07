@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Second discours, par Frédéric Bastiat")
-
-(document :title "Second discours"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n297/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 15, n° 59, p. 288.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 43, p. 238.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Discours prononcé à Paris, salle Montesquieu, le 29 septembre 1846,
 ,(br)partiellement reproduit dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(blockquote :class "small" *[
@@ -98,6 +95,9 @@ Toutes ces classes, Messieurs, payent tribut au monopole, et n’en peuvent jama
 ][
 Messieurs, j’ai insisté principalement sur la question de justice, parce qu’elle me semble de beaucoup la plus importante. Le monopole a deux faces comme Janus. Le côté économique a des traits incertains ; il faut être du métier pour en discerner la laideur. Mais du côté moral on ne peut pas s’y tromper, et il suffit d’y jeter les yeux pour le prendre en horreur. Il y en a qui me disent : Voulez-vous faire de la propagande ? Parlez aux hommes de leurs intérêts, montrez-leur comment le monopole les ruine. — Et moi je dis que c’est surtout la question de ,(emph[justice]) qui passionne les masses. J’ai du moins cette foi dans mon siècle et dans mon pays. — Et voilà pourquoi, tant que ma main pourra tenir une plume ou mes lèvres proférer un son, je ne cesserai de crier : Justice pour tous ! liberté pour tous ! égalité devant la loi pour tous ! »
 ])])
+(document :title "Second discours"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

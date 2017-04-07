@@ -1,15 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le Capital, par Frédéric Bastiat")
-
-(document :title [Le Capital ,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
-[N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/248/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 64, p. 248.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(cite-title[Almanach républicain]) pour 1849.])
 ,(p*[
 Qui ne se rappelle le frisson d’épouvante qui fit tressaillir l’Europe stupéfaite, lorsque des voyageurs, revenant de pays lointains, jetèrent à ses oreilles cette nouvelle : « L’Inde a vomi sur le monde le ,(emph[choléra-morbus !]) Il grandit, il s’étend, il s’avance, décimant les populations sur son passage, et notre civilisation ne l’arrêtera pas. »
@@ -94,5 +90,9 @@ La troisième c’est l’,(emph[économie]). Quand toutes les épargnes annuell
 ][
 Français, faut-il le dire ? notre chère patrie brille aux yeux des peuples par des qualités éminentes ; mais ce n’est pas parmi nous qu’il faut chercher ces trois conditions essentielles pour la formation des capitaux : ,(emph[sécurité, liberté, économie.]) C’est là, et là seulement, qu’est la cause du paupérisme.
 ])])
+(document :title [Le Capital ,(footnote*[,(cite-title[Almanach républicain]) pour 1849, 1 vol. in-32. Paris, Pagnerre.]
+[N’oublions pas qu’à cette époque des voix retentissantes prodiguaient au capital les épithètes d’,(emph[infâme]) et d’,(emph[infernal]). ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

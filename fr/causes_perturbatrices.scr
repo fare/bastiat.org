@@ -1,14 +1,12 @@
 (style 'bo-style)
 (in-bof :title "Causes perturbatrices
 	- par Frédéric Bastiat")
-(document :title "Causes perturbatrices"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/489/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/508/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 508.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2 [Chapitre XVIII des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -442,6 +440,9 @@ intitulé
 ,(NdEEO)
 ])……
 ])])
+(document :title "Causes perturbatrices"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

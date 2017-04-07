@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Cherté, bon marché, par Frédéric Bastiat")
-
-(document :title "Cherté, bon marché"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=74" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 36, p. 282.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/170/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 170.])
 ])
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du ,(1er) août 1847.])
 
@@ -49,6 +46,9 @@ C’est une leçon bien longue à apprendre que celle-ci : Voulez-vous prospér
 Mais quand elle sera sue, chacun cherchera son bien dans le bien général. Alors, les jalousies d’individu à individu, de ville à ville, de province à province, de nation à nation, ne troubleront plus le monde.
 
 ])])
+(document :title "Cherté, bon marché"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

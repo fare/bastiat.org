@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sixième discours, à Marseille, par Frédéric Bastiat")
-
-(document :title "Sixième discours, à Marseille"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=13" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 41, p. 325.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/293/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 47, p. 293.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Discours prononcé à Marseille, fin août 1847,
 ,(br)rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 5 septembre 1847.])
 
@@ -150,6 +146,10 @@ Je n’ai pas parlé de la France. Mais, Messieurs, qui donc ose dire qu’une g
 ][,(tag :a :name "lamartine_ref")
 Et puis, Messieurs, remarquez que, dans ce grand combat entre la liberté et la restriction, toutes les hautes intelligences dont le pays s’honore, pourvu qu’elles soient affranchies des mauvaises inspirations de l’esprit de parti, sont du côté de la liberté. Sans doute, tout le monde ne peut pas avoir l’expérience du négociant ; tout le monde n’est pas obligé non plus de pénétrer dans toutes les subtilités de la théorie économique. Mais s’il est un homme, au regard d’aigle, qui n’ait pas besoin, comme nous, des lourdes béquilles de la pratique et de l’analyse, et qui ait reçu du ciel, avec le don du génie, l’heureux privilége d’arriver d’un bond et dans toutes les directions jusqu’aux bornes et par delà les bornes des connaissances du siècle, cet homme est avec nous. Tel est, j’ose le dire, l’inimitable poëte, l’illustre orateur, le grand historien, dont l’entrée dans cette enceinte a attiré vos avides regards. Vous n’avez pas oublié que ,(np "lamartine" [M. de Lamartine]) a défendu la cause de la liberté, dans une circonstance où elle se confondait intimement avec l’intérêt marseillais. Je n’ai pas oublié non plus que ,(np "lamartine" [M. de Lamartine]), avec cette précision, ce bonheur d’expression qui n’appartiennent qu’à lui, a résumé toute notre pensée en ces termes : « La liberté fera aux hommes une justice que l’arbitraire ne saurait leur faire. » (Bruyants applaudissements.) J’espère donc, et j’ai la ferme confiance que ,(np "lamartine" [M. de Lamartine]) ne me démentira pas, si je dis que sa présence dans cette assemblée est un témoignage de bienveillance envers des hommes qui essayent leurs premiers pas dans cette carrière du bien public, qu’il parcourt avec tant de gloire, mais qu’elle révèle aussi sa profonde sympathie pour la sainte cause de l’union des peuples et de la libre communication des hommes, des choses et des idées.
 ])])
+(document :title "Sixième discours, à Marseille"
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

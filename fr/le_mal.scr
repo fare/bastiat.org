@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Le mal
 	- par Frédéric Bastiat")
-(document :title "Le mal"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/554/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/578/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 578.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2 [Chapitre XXIII des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -168,6 +166,9 @@ L’homme et l’humanité ont leur rédemption.
 
 
 ])])
+(document :title "Le mal"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

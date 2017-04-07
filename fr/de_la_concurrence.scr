@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "De la concurrence
 	- par Frédéric Bastiat")
-(document :title "De la concurrence"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n577/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 54, p. 106.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de mai 1846. ,(footnote*[Cet article a été fait pour l’,(cite-title[Encyclopédie du dix-neuvième siècle]). (,(emph[Note du Journal des Économistes.]))])])
 
 ,(p*[J’ai à exposer les effets d’une loi auxquelles la Providence a confié le progrès de la société humaine ; de cette loi qui a pour mission d’égaliser le bien-être et les conditions parmi les membres de la grande famille, de faire tomber dans le domaine de la ,(emph[communauté]) la jouissance des biens que la nature semblait avoir réservés à certaines contrées, et les conquêtes dont le génie de chaque siècle accroît le trésor des générations qui le suivent ; loi féconde en harmonies sociales, immense dans ses résultats généraux, mais souvent brutale dans ses procédés ; loi méconnue de notre époque, et qui, plus que toute autre, atteste l’incommensurable supériorité des desseins de Dieu sur les vaines et impuissantes combinaisons des hommes.
@@ -837,6 +835,9 @@ Aux douleurs qu’elle lui réserve encore,
 	la ,(emph[prévoyance]), fruit de l’expérience et des lumières,
 	et ,(emph[l’association]), qui est la prévoyance organisée.
 ])])
+(document :title "De la concurrence"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

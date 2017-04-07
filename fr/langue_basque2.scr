@@ -1,15 +1,15 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur la langue basque")
-
-(document :title "Sur la langue basque"
-	:author (author-FB)
-
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "chalosse" [,(cite-title[La Chalosse])]), n° du 8 avril 1838.])
 ,(p*[
 Texte français non encore disponible. Traduction anglaise du ,(emph[Liberty Fund]) disponible ,(ref :url "http://oll.libertyfund.org/titles/bastiat-the-collected-works-of-frederic-bastiat-vol-1-the-man-and-the-statesman-the-correspondence-and-articles-on-politics#lf1573-01_label_683" [ici]).
 ])])
+(document :title "Sur la langue basque"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 ,(oeuvres)

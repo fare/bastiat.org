@@ -2,17 +2,18 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 14 novembre 1848")
-(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/427/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 427.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[14 novembre 1848.])
 ,(cher[,(np "schwabe_j"[Madame]),])
-,(p*[,(tag :a :name "bellini_ref")Si ma pensée, guidée par le souvenir d’une bonne et cordiale hospitalité, prend souvent la direction de ,(inenglish[Crumpsall-house]) et de Manchester, elle y a été portée avec plus de force encore hier au soir : car on jouait la ,(np "bellini" [,(cite-title[Sonnambula])]) aux Italiens, et je n’ai pu m’empêcher de violer l’ordonnance des médecins pour aller revoir cette pièce. Chaque morceau, chaque motif me transportait en Angleterre ; et soit attendrissement soit faiblesse de constitution, je sentais toujours mes yeux prêts à déborder. Qui pourrait expliquer ce qu’il y a d’intime dans la musique ! Pendant que j’entendais le duo si touchant et le beau finale du premier acte, il me semblait que plusieurs mois s’étaient anéantis, et que, les deux représentations se confondant ensemble, je n’éprouvais qu’une même sensation. Cependant, je dois le dire, sans vouloir critiquer vos chanteurs, la pièce est infiniment mieux exécutée ici, et si votre premier ténor égale le nôtre, il est certain que ,(np "persiani" [madame Persiani]) surpasse infiniment votre prima donna. — Et puis cette langue italienne a été inventée et faite exprès pour la musique. Quand j’ai entendu, dans le récitatif, ,(np "persiani" [madame Persiani]) s’écrier : ,(initalian[Sono innocente]), je n’ai pu m’empêcher de me rappeler le singulier effet que produit cette traduction rhythmée de la même manière : ,(inenglish[I am not guilty.]) — Que voulez-vous ? La langue des affaires, de la mer et de l’économie politique ne peut pas être celle de la musique.
+,(p*[,(tag :a :name "bellini_ref")Si ma pensée, guidée par le souvenir d’une bonne et cordiale hospitalité, prend souvent la direction de ,(inenglish[Crumpsall-house]) et de Manchester, elle y a été portée avec plus de force encore hier au soir : car on jouait la ,(np "bellini" [,(cite-title[Sonnambula])]) aux Italiens, et je n’ai pu m’empêcher de violer l’ordonnance des médecins pour aller revoir cette pièce. Chaque morceau, chaque motif me transportait en Angleterre ; et soit attendrissement soit faiblesse de constitution, je sentais toujours mes yeux prêts à déborder. Qui pourrait expliquer ce qu’il y a d’intime dans la musique ! Pendant que j’entendais le duo si touchant et le beau finale du premier acte ,(footnote*[Voir la ,(ref :url "https://youtu.be/9FfWZJFMT_E?t=4421" [vidéo]).]), il me semblait que plusieurs mois s’étaient anéantis, et que, les deux représentations se confondant ensemble, je n’éprouvais qu’une même sensation. Cependant, je dois le dire, sans vouloir critiquer vos chanteurs, la pièce est infiniment mieux exécutée ici, et si votre premier ténor égale le nôtre, il est certain que ,(np "persiani" [madame Persiani]) surpasse infiniment votre prima donna. — Et puis cette langue italienne a été inventée et faite exprès pour la musique. Quand j’ai entendu, dans le récitatif, ,(np "persiani" [madame Persiani]) s’écrier : ,(initalian[Sono innocente]) ,(footnote*[Acte II, ,(ref :url "https://youtu.be/9FfWZJFMT_E?t=5557" [sc. 3]).]), je n’ai pu m’empêcher de me rappeler le singulier effet que produit cette traduction rhythmée de la même manière : ,(inenglish[I am not guilty.]) — Que voulez-vous ? La langue des affaires, de la mer et de l’économie politique ne peut pas être celle de la musique.
 ])])
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

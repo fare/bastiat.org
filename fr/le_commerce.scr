@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Qu’est-ce que le commerce ?, par Frédéric Bastiat")
-
-(document :title "Qu’est-ce que le commerce ?"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/63/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 14, p. 63.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du ,(1er) avril 1846.])
 ,(p*[
 L’argument qu’il est de mode aujourd’hui d’opposer à la liberté des échanges a été porté à la tribune nationale par ,(np "corne" [M. Corne]). C’est celui-ci :
@@ -53,6 +50,9 @@ Mais alors, dit à chacun le monopoleur : « Pain, bois, viande, laine, je te 
 ][
 Et puis il ajoute : « ,(emph[Tu n’es pas libre, — mais que l’égalité te console !]) »
 ])])
+(document :title "Qu’est-ce que le commerce ?"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)

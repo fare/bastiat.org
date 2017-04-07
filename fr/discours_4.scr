@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Conséquences comparées du régime protecteur et du libre-échange, par Frédéric Bastiat")
-
-(document :title "Conséquences comparées du régime protecteur et du libre-échange"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=101" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 39, p. 309.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/260/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 45, p. 260.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[Discours prononcé à Lyon le 7 août 1847,
 ,(br)rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 22 août 1847.])
@@ -108,6 +104,10 @@ Messieurs, je livre ces remarques à vos méditations. Examinez-les en toute sin
 ,(tag :a :name "debats_ref")
 On l’a vue soutenue par le journal des ,(tj "debats" [,(cite-title[Débats])]), par le ,(tj "siecle" [,(cite-title[Siècle])]), par le ,(cite-title[,(tj "courrier" [Courrier])]), et le ,(tj "national" [,(cite-title[National])]) a déclaré que la liberté du travail et de l’échange était la fille de ses œuvres. En voulez-vous un autre exemple ? Voyez-la régner de temps immémorial sur le pays le plus démocratique de la terre, la Suisse, et s’établir au sein de la nation la plus aristocratique du monde, l’Angleterre. Hommes de toutes les opinions politiques, unissons-nous pour éclairer l’opinion. Ne disons pas qu’il ne se présentera point un grand ministre pour réaliser nos vœux. L’opinion publique est le foyer où se forment les grands hommes. Quand nous avons eu à défendre ou notre territoire, ou le principe de la révolution française, ce ne sont ni les généraux habiles, ni les soldats dévoués qui nous ont manqué. De même, quand l’opinion voudra la liberté commerciale, ce n’est pas un homme d’État qui nous fera défaut, un homme sincère et dévoué se présentant devant la chambre avec le plan de réforme que je viens d’esquisser, et osant dire : Voilà un programme de justice et de paix ; il triomphera avec moi, ou je tomberai avec lui !
 ])])
+(document :title "Conséquences comparées du régime protecteur et du libre-échange"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)])

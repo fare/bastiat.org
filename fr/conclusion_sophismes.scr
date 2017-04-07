@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Conclusion de la première série des Sophismes
 	- par Frédéric Bastiat")
-(document :title "Conclusion de la première série des Sophismes"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f179.image" [,(cite-title[Sophismes économiques])]), Conclusion.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/119/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 119.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[,(tag :a :name "hugo_ref")
 Tous les sophismes que j’ai combattus jusqu’ici
 se rapportent à une seule question : le système restrictif ;
@@ -332,6 +330,9 @@ s’est impatronisée dans nos m,(oe)urs et dans nos lois.])
 ]).])
 ,(date[Mugron, 2 novembre 1845.])
 ])
+(document :title "Conclusion de la première série des Sophismes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "metaphores.html" "sophismes.html#serie2")

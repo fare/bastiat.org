@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Funeste gradation
 	- par Frédéric Bastiat")
-(document :title "Funeste gradation"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/244/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 62, p. 244.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 3, du 20 au 23 juin 1848.])
 ,(p*[
 Les dépenses ordinaires de l’État sont fixées, par le budget de 1848, à ,(emph[un milliard sept cents millions]).
@@ -59,6 +57,9 @@ Il vint me trouver. Jacques, mon bon Jacques, me dit-il, je suis aux abois ; qu
 ][
 — N’achevez pas, je vous devine.
 ])])
+(document :title "Funeste gradation"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

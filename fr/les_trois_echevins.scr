@@ -6,9 +6,6 @@
   (*list (center(font :size "+1" title))
 	(p (center(small description)))
 	(apply* p* para)))
-	    
-(document :title "La protection ou les trois échevins."
-	:author (author-FB)
 (defun 
 	titre_tableau
 	(&rest r)
@@ -20,12 +17,12 @@
 	(&rest r)
 	(p(center(font :size "-0.5" r)))
 )
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f140.image" [,(cite-title[Sophismes économiques II])]), ch. 13.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/229/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 229.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XIII de la seconde série des ,(SophismesEconomiques)])
 
 ,(center(bold(font :size "+1" [Démonstration en quatre tableaux.])))
@@ -658,6 +655,9 @@ Ne pouvant plus vendre du bois et des aliments,
 
 
 ])])
+(document :title "La protection ou les trois échevins."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
   ,(soph "sel_poste_douane.html" "autre_chose.html")

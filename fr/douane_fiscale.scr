@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Victor Considerant et réponse de Bastiat")
-
-(document :title "Lettre de Victor Considerant et réponse de Bastiat"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=18" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 6, p. 33.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/134/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 25, p. 134.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 2 janvier 1848.])
 ,(h3[,(np "considerant" [Victor Considerant]) à M. Frédéric Bastiat, rédacteur en chef du ,(cite-title[Libre-Échange]).])
 ,(date-tag[Paris, 25 décembre 1847.])
@@ -99,6 +95,10 @@ Veuillez recevoir, monsieur, l’expression de mes sentiments de considération 
 
 ,(sign[,(FredB).])
 ])
+(document :title "Lettre de Victor Considerant et réponse de Bastiat"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

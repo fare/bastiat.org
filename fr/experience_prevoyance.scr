@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Ébauche sur la prévoyance
 	- par Frédéric Bastiat")
-(document :title "Ébauche sur la prévoyance"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/375/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 375, note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Pensée tirée des manuscrits de l’auteur,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "la_loi.html#experience" [note de bas de page]).])
 ,(p*[Pour qu’un peuple soit heureux,
@@ -37,7 +35,7 @@
 		d’une nation inexpérimentée ?
 	][
 	2° En tout cas, n’est pas étouffer l’expérience dans son germe ?]))
-	
+
 	,(p*[Si le pouvoir impose les actes individuels,
 	comment l’individu s’instruira-t-il
 	par les conséquences de ses actes ?
@@ -50,5 +48,8 @@
 	puisqu’elles seront faites par un peuple
 	auquel, en interdisant l’expérience, on a interdit le progrès.
 ])])
+(document :title "Ébauche sur la prévoyance"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[]))

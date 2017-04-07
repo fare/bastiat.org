@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "La main droite et la main gauche
 	- par Frédéric Bastiat")
-(document :title "La main droite et la main gauche"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=15" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 3, p. 24.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f178.image" [,(cite-title[Sophismes économiques II])]), ch. 16.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/258/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 258.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre Échange])]), n° du 13 décembre 1846.])
 ,(h2[Chapitre XVI de la seconde série des ,(SophismesEconomiques)])
 
@@ -315,6 +313,9 @@ nous appellerions votre attention sur la grande influence
 Mais c’est une matière que nous nous réservons de traiter en conseil privé.
 
 ])])
+(document :title "La main droite et la main gauche"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
   ,(oeuvres)

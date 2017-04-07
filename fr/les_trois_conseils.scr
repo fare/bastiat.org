@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Les trois conseils, par Frédéric Bastiat")
-
-(document :title "Les trois conseils"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/361/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 82, p. 361.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche publiée par l’,(cite-title[,(tj "economiste_belge" [Économiste belge])]), n° du 3 juin 1860.])
 ,(p*[
 « Quand la patrie est en danger, chacun lui doit le ,(emph[tribut]) de ce qu’il peut avoir acquis de lumière et d’expérience. » 
@@ -105,6 +102,9 @@ Dans deux ans, la nation sera appelée à nommer un autre président. Son choix,
 ][
 Bannissons donc de vaines terreurs. Nous traverserons, sans danger, une première, une seconde, une troisième présidence…
 ])])
+(document :title "Les trois conseils"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

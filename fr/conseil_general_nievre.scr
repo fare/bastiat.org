@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Conseil général de la Nièvre, par Frédéric Bastiat")
-
-(document :title "Conseil général de la Nièvre"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=102" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 52, p. 414.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/199/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 40, p. 199.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 21 novembre 1847.])
 ,(p*[
 Voici d’abord le vote du conseil général de la Nièvre :
@@ -86,6 +83,9 @@ Le conseil général de la Nièvre ne manque pas de donner à nos efforts le nom
 ][
 Enfin, le conseil général de la Nièvre, après s’être prononcé contre la concurrence étrangère qui ruine les nations, finit par s’élever contre la concurrence intérieure qui ruine les individus. C’est logique, mais ça mène loin. Le conseil aurait dû ajouter son plan ,(emph[communiste]) à tous ceux qui paraissent chaque jour. Nous disons ,(emph[communiste ;]) car sans concurrence, il n’y a pas libre disposition de sa propriété, il n’y a pas ,(emph[propriété]). Nous recommandons au conseil général de la Nièvre de réparer cet oubli l’année prochaine.
 ])])
+(document :title "Conseil général de la Nièvre"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

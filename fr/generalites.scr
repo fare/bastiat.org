@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur les généralités, par Frédéric Bastiat")
-
-(document :title "Sur les généralités"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=12" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 3, p. 18.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/12/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 4, p. 12.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 décembre 1846.])
 
 ,(p*[
@@ -59,6 +56,9 @@ Le ,(emph[fait]) est que le salaire de vos ouvriers n’a pas haussé d’une ob
 ][
 Or, ces faits, d’ailleurs incontestables, sont-ils conformes à la justice ? Vous aurez bien de la peine à le prouver sans raisonner… et même en déraisonnant.
 ])])
+(document :title "Sur les généralités"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

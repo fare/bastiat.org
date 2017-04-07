@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Aux électeurs des Landes.
 	- par Frédéric Bastiat")
-(document :title "Aux électeurs des Landes."
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/506/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 506.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 22 mars 1848.])
 ,(cher[Mes chers concitoyens,])
 ,(p*[
@@ -43,5 +41,8 @@ d’autre devise que celle de notre drapeau :
 ,(politesse[Votre dévoué compatriote…])
 ,(sign[,(FredB).])
 ])
+(document :title "Aux électeurs des Landes."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

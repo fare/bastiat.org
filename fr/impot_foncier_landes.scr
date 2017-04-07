@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la répartition de la contribution foncière dans le département des Landes")
-
-(document :title "De la répartition de la contribution foncière dans le département des Landes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/283/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 283.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1844.])
 ,(p*[
 Je me propose d’établir quelques ,(emph[faits]) qui me paraissent propres à jeter du jour sur ces deux questions :])
@@ -1258,5 +1255,8 @@ Mais, je le demande, ces grâces, ces faveurs, quelque multipliées qu’on les 
 ][
 Vous vous proclamez conservateurs. Vous vous opposez à ce que le droit électoral pénètre jusqu’aux dernières couches sociales. Mais alors soyez donc les tuteurs intègres de ces hommes frappés d’interdiction. Vous ne voulez ni stipuler loyalement pour eux, ni qu’ils stipulent légalement pour eux-mêmes, ni qu’ils s’insurgent contre ce qui les blesse. Que voulez-vous donc ?… Il n’y a qu’un terme possible à leurs souffrances, — et ce terme, les tables de la mortalité le laissent assez entrevoir.
 ])])
+(document :title "De la répartition de la contribution foncière dans le département des Landes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

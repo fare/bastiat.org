@@ -2,25 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Ce qu’on voit et ce qu’on ne voit pas
 	- par Frédéric Bastiat")
-(document :title [Ce qu’on voit ,(br) et ,(br)
-	,(strong[Ce qu’on ne voit pas]) ,(footnote*[
-Ce pamphlet, publié en juillet 1850, est le dernier que Bastiat ait écrit.
-Depuis plus d’un an, il était promis au public.
-Voici comment son apparition fut retardée.
-L’auteur en perdit le manuscrit
-	lorsqu’il transporta son domicile
-		de la rue de Choiseul à la rue d’Alger.
-Après de longues et inutiles recherches,
-	il se décida à recommencer entièrement son ,(oe)uvre,
-et choisit pour
-	base principale de ses démonstrations
-	des discours récemment prononcés à l’Assemblée nationale.
-Cette tâche finie, il se reprocha d’avoir été trop sérieux,
-jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
-,(NdEEO)
-])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Books/Bastiat_1850Ce_qu_on_voit.pdf" [,(cite-title[Ce qu’on voit et ce qu’on ne voit pas])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/336/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 336.])
@@ -40,7 +22,7 @@ jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
 (item(ref :url "#epargne_et_luxe" [XI. Épargne et Luxe]))
 (item(ref :url "#droit_au_travail_droit_au_profit" [XII. Droit au Travail, Droit au Profit])))
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Juillet 1850.])
 
 ,(p*[
@@ -2767,5 +2749,24 @@ quand il n’a point été établi d’abord
 	sur la morale et la justice. »]
 	[,(p :align "right" [(,(strong[,(np "chateaubriand" [Chateaubriand])]). ,(cite-title[Mémoires d’outre-tombe]).)])])
 ])
+(document :title [Ce qu’on voit ,(br) et ,(br)
+	,(strong[Ce qu’on ne voit pas]) ,(footnote*[
+Ce pamphlet, publié en juillet 1850, est le dernier que Bastiat ait écrit.
+Depuis plus d’un an, il était promis au public.
+Voici comment son apparition fut retardée.
+L’auteur en perdit le manuscrit
+	lorsqu’il transporta son domicile
+		de la rue de Choiseul à la rue d’Alger.
+Après de longues et inutiles recherches,
+	il se décida à recommencer entièrement son ,(oe)uvre,
+et choisit pour
+	base principale de ses démonstrations
+	des discours récemment prononcés à l’Assemblée nationale.
+Cette tâche finie, il se reprocha d’avoir été trop sérieux,
+jeta au feu le second manuscrit et écrivit celui que nous réimprimons.
+,(NdEEO)
+])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(pamphlets)]))

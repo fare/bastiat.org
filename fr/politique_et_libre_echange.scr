@@ -1,16 +1,15 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "
+(in-bof :title "Politique et libre-échange
 	- par Frédéric Bastiat")
-(document :title ""
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=95" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 51, p. 407.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/3/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, p. 3, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 novembre 1847.])
+,(date-tag[Article inséré dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "association_libre_echange.html#politique" [note de bas de page]).])
 ,(p*[
 Est-il possible de penser de même sur la liberté commerciale
 	et de différer en politique ?
@@ -48,6 +47,9 @@ n’agite pas les questions purement politiques,
 quoique aucun de ses membres n’entende aliéner à cet égard
 l’indépendance de ses opinions, de ses votes et de ses actes.
 ])])
+(document :title "Politique et libre-échange"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

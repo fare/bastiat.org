@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 58, p. 237.])
+,(p*[,(cite-title[Jacques Bonhomme]), n° 1, ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Molinari/JB/PDF/JB1-p1.pdf" [fin de la p. 1]), ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Molinari/JB/PDF/JB1-p2.pdf" [début de la p. 2]).]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 58, p. 237.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])

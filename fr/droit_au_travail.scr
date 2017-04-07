@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Opinion sur le droit au travail")
-
-(document :title "Opinion sur le droit au travail"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/ledroitautravai00unkngoog#page/n402/mode/2up" [Le droit au travail à l’Assemblée nationale]), p. 373.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1848.])
 ,(cher[,(np "garnier" [Mon cher Garnier]),])
 ,(p*[Vous me demandez mon opinion sur le ,(emph[droit au travail]) et vous paraissez surpris que je ne l’aie pas manifestée à la tribune de l’Assemblée nationale. Mon silence a tenu uniquement à ce que, quand j’ai demandé la parole, trente de mes collègues l’avaient retenue avant moi.
@@ -25,6 +22,9 @@ Ensuite, il faut qu’on soit parvenu à pervertir singulièrement l’esprit de
 ][
 Enfin, quand les ouvriers voudront y réfléchir, ils s’apercevront que le ,(emph[droit au travail]) serait pour eux l’inauguration de la misère. L’existence de ce droit a pour collectif ,(emph[(sic)]) nécessaire la non-existence du droit de propriété. Pour s’en convaincre, il suffit de faire abstraction un instant de l’intervention de l’État, et de se demander ce qui arriverait si nous exercions directement ce prétendu droit les uns envers les autres : il est bien clair que la notion même de propriété serait anéantie. Or, sans propriété il n’y a pas de formation possible de capital, et sans formation de capital il n’y a pas d’ouvrage possible pour les ouvriers. Le droit au travail, c’est donc en résumé la misère universelle poussée jusqu’à la destruction. Le jour où on l’a seulement mis en discussion, le travail a diminué pour les ouvriers dans une proportion énorme ; le jour où il serait promulgué, il n’y aurait plus de travail que pendant le court espace de temps nécessaire pour que l’État pût consommer la destruction de tous les capitaux.])
 ])
+(document :title "Opinion sur le droit au travail"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

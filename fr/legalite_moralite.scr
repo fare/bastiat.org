@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Légalité, moralité
 	- par Frédéric Bastiat")
-(document :title "Légalité, moralité"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=1" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 1, p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/3/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 3, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 28 novembre 1847.])
 ,(p*[,(tag :a :name "odier_ref")L’organe du comité ,(np "odier" [Odier])-,(np "mimerel" [Mimerel]), ,(np "leboeuf" [Lebœuf]) et C,(sup[ie]) nous somme de signer l’article sur la contrebande qui a paru dans le dernier numéro du ,(tj "le" [,(cite-title[Libre-Échange])]). Cet article n’est d’aucun professeur d’économie politique, ni du directeur du journal ; mais M. Bastiat en assume sur lui toute la responsabilité.
 ][
@@ -96,6 +94,9 @@ que, selon nous, elle se trompe. Après tout, il faut bien que nous trouvions la
 ][
 Nous ne terminerons pas sans remercier notre confrère du soin qu’il met à nous fournir l’occasion d’éclaircir des questions encore douteuses pour la majorité. Sans lui nous ne saurions pas toujours à quelles objections il faut répondre, et il rend assurément de précieux services à notre cause.
 ])])
+(document :title "Légalité, moralité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

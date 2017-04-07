@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Gratuité du crédit - Quatrième lettre
 	- Frédéric Bastiat à P. J. Proudhon")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatrième lettre]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n60/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 47.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/133/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 133.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 26 novembre 1849.])
 ,(p :align 'center (strong[
 	F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
@@ -749,6 +747,9 @@ les autres questions que vous me posez.
 ])
 ,(sign[,(FredB).])
 ])
+(document :title [,(cite-title[Gratuité du crédit]) ,(--) Quatrième lettre]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

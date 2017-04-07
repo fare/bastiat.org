@@ -156,11 +156,12 @@ window.onresize = function() {
 };
 });
 </script><script>
+
 var stickit = function () {
 if ( $(window).width() > 1000) {
 $('#sidebar').stick_in_parent();
 } else {
-  $('#sidebar').trigger('sticky_kit:detach');
+$('#sidebar').trigger('sticky_kit:detach');
 };
 };
 

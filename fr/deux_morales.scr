@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Deux morales
 	- par Frédéric Bastiat")
-(document :title "Deux morales"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f34.image" [,(cite-title[Sophismes économiques II])]), ch. 2.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/148/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 148.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre II de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 
@@ -351,6 +349,9 @@ où elle n’aura plus besoin de ce mobile.
 
 
 ])])
+(document :title "Deux morales"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "physiologie_de_la_spoliation.html" "les_deux_haches.html")

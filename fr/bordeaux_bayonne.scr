@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Du chemin de fer de Bordeaux à Bayonne, par Frédéric Bastiat")
-
-(document :title "Du chemin de fer de Bordeaux à Bayonne"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/103/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 22, p. 103.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 19 mai 1846, reproduisant ,(cite-title[la Patrie]).])
 
 ,(h3[Lettre adressée à une commission de la Chambre des députés.])
@@ -74,6 +71,9 @@ Et maintenant ce sont nos souffrances qu’on invoque contre nous ! Et pour nou
 ][
 Ah ! Messieurs, donnez au chemin la direction que, dans votre sagesse, vous jugerez la plus utile à l’intérêt général ; mais si vous en frustrez notre vallée, ne dites pas dans vos ,(emph[considérants]), comme on vous y engage, que ce sont ses malheurs, ,(emph[et ses malheurs seuls]), qui vous déterminent.
 ])])
+(document :title "Du chemin de fer de Bordeaux à Bayonne"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Rapport présenté au Conseil général des Landes sur la question des communaux, par Frédéric Bastiat")
-
-(document :title "Rapport présenté au Conseil général des Landes, session de 1849, sur la question des communaux"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/263/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 66, p. 263.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1849.])
 ,(cher[Messieurs,])
 
@@ -100,5 +97,8 @@ Il estime que le Conseil municipal doit être naturellement chargé de cette adm
 ][
 Il est d’avis que, dans le cas où le Conseil municipal aurait voté une aliénation, le Conseil général doit avoir le droit de suspendre, s’il le juge utile, l’effet de ce vote, jusqu’à ce qu’il soit confirmé par le Conseil municipal de l’élection suivante.
 ])])
+(document :title "Rapport présenté au Conseil général des Landes, session de 1849, sur la question des communaux"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

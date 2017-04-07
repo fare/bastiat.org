@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Du communisme, par Frédéric Bastiat")
-
-(document :title "Du communisme"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=36" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 31, p. 244.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/116/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 22, p. 116.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 juin 1847.])
 ,(p*[
 Les préjugés économiques ne sont peut-être pas le plus grand obstacle que rencontrera la liberté commerciale. Entre hommes qui diffèrent d’opinion sur un point, à la vérité fort important, d’économie politique, la discussion est possible, et la vérité finit toujours par jaillir de la discussion.
@@ -92,6 +89,9 @@ La bourgeoisie pourrait-elle aujourd’hui tenir ce langage ? Ne l’a-t-on pas
 ][
 La bourgeoisie persévère dans cette voie, parce qu’elle voit le peuple, impatient de beaucoup d’injustices chimériques, méconnaître la véritable injustice qui lui est faite. Pour le moment, les journaux démocratiques, abandonnant la cause sacrée de la liberté, sont parvenus à égarer ses sympathies et à les concilier à des restrictions dont il n’est victime qu’à son insu. Mais la vérité ne perd pas ses droits ; l’erreur est de nature essentiellement éphémère ; et le jour où le peuple ouvrira les yeux n’est peut-être pas éloigné. Pour le repos de notre pays, puisse-t-il n’apercevoir alors qu’une législation équitable ! ,(footnote*[V. tome VI, chap. IV. ,(NdEEO)])
 ])])
+(document :title "Du communisme"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

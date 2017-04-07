@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Démocratie et libre-échange, par Frédéric Bastiat")
-
-(document :title "Démocratie et libre-échange"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=70" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 22, p. 174.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/100/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 18, p. 100.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 25 avril 1847.])
 ,(p*[
 Un philosophe devant qui on niait le mouvement se prit à marcher.
@@ -98,6 +95,9 @@ En attendant, puisse le tableau qui précède, si propre à rendre les hommes du
 ][
 Pour aujourd’hui, nous terminons par une question, que nous adressons aux prétendus patriotes, à ceux qui disent que le droit d’échanger est d’,(emph[importation anglaise]). Nous leur demanderons si la Constituante et la Convention étaient soudoyées par l’Angleterre ?
 ])])
+(document :title "Démocratie et libre-échange"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

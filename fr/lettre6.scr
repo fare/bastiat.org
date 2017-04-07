@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Gratuité du crédit - Sixième lettre
 	- Frédéric Bastiat à P. J. Proudhon")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n88/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 75.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/156/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 156.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 10 décembre 1849.])
 ,(p :align 'center (strong[F. Bastiat à ,(np "proudhon" [P.-J. Proudhon]).]))
 ,(p*(font :size "-1" (strong[Est-il vrai que prêter n’est plus aujourd’hui rendre un service ?
@@ -668,6 +666,9 @@ de répandre sur notre chère patrie et sur l’humanité.
 ,(sign[,(FredB).])
 ])
 
+(document :title [,(cite-title[Gratuité du crédit]) ,(--) Sixième lettre]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

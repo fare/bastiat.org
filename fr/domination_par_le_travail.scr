@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Domination par le travail
 	- par Frédéric Bastiat")
-(document :title "Domination par le travail"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=49" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 12, p. 90.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f188.image" [,(cite-title[Sophismes économiques II])]), ch. 17.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/265/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 265.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 février 1847.])
 ,(h2[Chapitre XVII de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
@@ -269,7 +267,7 @@ Ce sont ces mots qui arrêtent la fusion des peuples,
 leur pacifique, universelle, indissoluble alliance,
 et le progrès de l’humanité
 	,(footnote*[
-Si l’auteur eut vécu, ,(XXX)
+Si l’auteur eût vécu,
 il eut probablement publié une troisième série de ,(cite-title[Sophismes]).
 Les principaux éléments de cette publication
 nous ont semblé préparés dans les colonnes du ,(cite-title[Libre-Échange]),
@@ -279,6 +277,9 @@ nous les présentons réunis.
 
 
 ])])
+(document :title "Domination par le travail"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
   ,(oeuvres)

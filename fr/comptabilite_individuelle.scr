@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Ébauche, par Frédéric Bastiat")
-
-(document :title "Ébauche sur le détail des dépenses publiques"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/483/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 483, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[(,(emph[Ébauche inédite datée de 1843.]))])
 ,(p*[
 On peut dire que c’est instinctivement
@@ -91,5 +88,8 @@ MM. ,(np "rothschild" [Rothschild]) et consorts ont bien voulu faire l’avance
 et il suffira à M. N. d’en servir l’intérêt à perpétuité ;
 c’est-à-dire de payer dorénavant 4 à 5 fr. de plus par an.
 ])])
+(document :title "Ébauche sur le détail des dépenses publiques"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Discours au Congrès des amis de la paix universelle")
-
-(document :title "Discours au Congrès des amis de la paix universelle"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k62737z/f36.item.zoom" [Congrès des amis de la paix universelle]), p. 25.]
 [,(ref :url "https://archive.org/stream/reportproceedin02goog#page/n60/mode/2up" [Report of the Proceedings of the Second General Peace Congress…]), p. 49.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 23 août 1849.])
 ,(p*[,(strong[M. Bastiat]), représentant du peuple. (L’orateur est accueilli avec des applaudissements réitérés.)
 ][,(tag :a :name "coquerel_ref")
@@ -29,6 +26,9 @@ C’est par de tels exemples, j’ose le dire, que l’Angleterre exercera ce ge
 ][
 Ne comptons-nous pas dans nos rangs cet infatigable et courageux publiciste qui n’a pas attendu votre présence ici pour mettre au service de la non-intervention absolue l’immense publicité qu’il a su créer et la grande influence dont il dispose ? Et n’avons-nous pas, parmi nous, des ministres de la religion chrétienne ? ,(footnote*[Ici la version anglaise porte : “ministers of nearly all Christian religions”. ,(NdL)]) (Applaudissements.) Au sein de cette illustre galerie, permettez-moi de réclamer une humble place pour mes frères en économie politique ; car, messieurs, je crois sincèrement qu’aucune science n’apportera à la cause de la paix un contingent plus précieux. La religion et la morale ne cherchent pas si les intérêts humains sont entre eux harmonies ou antagoniques. Elles disent aux hommes : « Vivez en paix, que cela vous soit profitable ou nuisible, car c’est votre devoir. » L’économie politique intervient et ajoute : « Vivez en paix, car vos intérêts sont harmoniques, et l’antagonisme apparent qui vous met souvent les armes à la main est une grossière erreur. » Sans doute, ce serait un noble spectacle de voir les hommes réaliser la paix aux dépens de leurs intérêts. Mais, pour qui connaît la faiblesse de notre nature, il est consolant de penser que l’Intérêt et le Devoir ne sont pas des forces hostiles, et le cœur se repose avec confiance dans cette maxime : Cherchez d’abord la justice, le reste vous sera donné par surcroît. (Applaudissements.)])
 ])
+(document :title "Discours au Congrès des amis de la paix universelle"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

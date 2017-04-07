@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’empereur de Russie, par Frédéric Bastiat")
-
-(document :title "L’empereur de Russie"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=81" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 24, p. 185.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/164/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 29, p. 164.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 9 mai 1847.])
 ,(p*[
 Il est maintenant certain que ,(np "nicolas" [l’empereur de Russie]), renouvelant l’opération faite récemment avec la Banque de France, envoie une somme considérable à Londres pour y acheter des fonds étrangers.
@@ -57,6 +54,9 @@ Un beau jour, ,(np "nicolas" [S. M. Impériale]) nous revendra ses fonds. Alors
 ][
 Voilà les trois termes réels de l’opération. La circulation du numéraire et des billets n’est que le moyen d’exécution.
 ])])
+(document :title "L’empereur de Russie"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

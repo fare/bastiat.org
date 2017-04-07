@@ -2,17 +2,14 @@
 (style 'bo-style)
 (in-bof :title "Le Maire d’Énios
 	- par Frédéric Bastiat")
-(document :title "Le Maire d’Énios"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=35" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 11, p. 63.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/418/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 63, p. 418.])
 ])
 
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 6 février 1848.])
 ,(p*[
 C’était un singulier Maire que le maire d’Énios. D’un caractère…
@@ -471,6 +468,10 @@ quand ils ont le malheur d’être libres.
 
 
 ])])
+(document :title "Le Maire d’Énios"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

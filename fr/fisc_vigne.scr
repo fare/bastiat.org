@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le fisc et la vigne")
-
-(document :title "Le fisc et la vigne"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/243/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 243.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Janvier 1841.])
 ,(p*[
 La production et le commerce des boissons fermentées ou distillées doivent être nécessairement affectés par les traités et lois de finances actuellement soumis aux délibérations des Chambres.
@@ -258,5 +255,8 @@ Mais c’est encore là circonscrire la question. L’organisation d’un comit�
 ][
 Il ne faut pas croire, du reste, que tout soit dit sur la question principale. Il ne nous appartient pas de formuler une opinion sur l’impôt de consommation, il a pour lui et contre lui de grandes autorités et de grands exemples ; il est la règle en Angleterre, en France il est l’exception. Eh bien ! il faut résoudre ce problème. Si le système est mauvais en principe, il faut le détruire ; si on le juge bon, il faut le perfectionner, lui ôter son caractère exceptionnel, et le rendre à la fois moins lourd et plus productif en le ,(emph[généralisant]). Là peut-être est la solution du grand débat pendant entre le fisc et le contribuable. Et qui peut dire que le mouvement des esprits, qui naîtra de l’institution des comités industriels, les communications régulières qui s’établiront, soit entre eux, soit par leur intermédiaire, entre le public et le pouvoir, ne hâteront pas cette solution ?
 ])])
+(document :title "Le fisc et la vigne"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

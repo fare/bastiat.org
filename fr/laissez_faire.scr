@@ -2,13 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Laissez Faire
 	- par Frédéric Bastiat")
-(document :title "Laissez Faire"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 57, p. 237.])
+,(p*[,(cite-title[Jacques Bonhomme]), n° 1, ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Molinari/JB/PDF/JB1-p1.pdf" [p. 1]).]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 57, p. 237.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
 ,(p*[
 ,(emph[Laissez faire !])
@@ -26,7 +25,7 @@ S’il ,(emph[laisse faire]), nous serons libres et économiquement administrés
 rien ne coûtant moins que de ,(emph[laisser faire]).
 ][
 S’il ,(emph[empêche de faire]), malheur à notre liberté et à notre bourse.
-À notre liberté, puisqu’,(emph[empêcher]) c’est lier les bras :
+À notre liberté, puisqu’,(emph[empêcher]) c’est lier les bras ;
 à notre bourse, car pour ,(emph[empêcher]), il faut des agents,
 et pour avoir des agents, il faut de l’argent.
 ][
@@ -47,6 +46,9 @@ vous les proclamez inaptes à se gouverner eux-mêmes !
 
 
 ])])
+(document :title "Laissez Faire"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

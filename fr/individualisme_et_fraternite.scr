@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Individualisme et Fraternité
 	- par Frédéric Bastiat")
-(document :title "Individualisme et Fraternité"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/328/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 76, p. 328.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 
 Une vue systématique de l’histoire et de la destinée de l’homme
@@ -629,5 +627,8 @@ L’intervention de la monnaie, des négociants, des intermédiaires,
 peut compliquer cette forme élémentaire, et nous en obscurcir la vue.
 Elle n’en est pas moins le type de tous les faits économiques……
 ])])
+(document :title "Individualisme et Fraternité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[]))

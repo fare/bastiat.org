@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Influence du régime protecteur sur les salaires, par Frédéric Bastiat")
-
-(document :title "Influence du régime protecteur sur les salaires"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=4" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 40, p. 316.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/273/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 46, p. 273.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[Discours prononcé à Lyon le 10 août 1847,
 ,(br)rapporté par le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 29 août 1847.])
@@ -158,6 +154,10 @@ Mais, à moins que de pareilles expériences ne se renouvellent, je persiste à 
 ][
 Qui donc a le droit de reprocher à la législature d’avoir élevé le prix de la vie ? Est-ce les ouvriers ? ne font-ils pas en cela cause commune avec elle ? ne partagent-ils pas les mêmes erreurs, les mêmes craintes, les mêmes illusions ? ne voteraient-ils pas les mêmes restrictions, s’ils y étaient appelés ? Qu’ils commencent donc par étudier la question, par découvrir la fraude, par la dénoncer, par mettre la législature en demeure, par réclamer justice ; et si justice leur est refusée, ils auront acquis le droit de pousser un peu plus loin leurs investigations. Alors, le moment sera venu où ils pourront raisonnablement se poser cette terrible question que m’adressait ces jours-ci un homme illustre, un des plus ardents amis de l’humanité : Quel moyen y a-t-il de renverser une loi que le législateur vote dans son propre intérêt ? — Puisse la législature rendre inutile la solution de ce problème !
 ])])
+(document :title "Influence du régime protecteur sur les salaires"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

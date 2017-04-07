@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Curée des places, par Frédéric Bastiat")
-
-(document :title "Curée des places"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/232/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 54, p. 232.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 5 mars 1848.])
 ,(p*[
 Tous les journaux, sans exception, s’élèvent contre la curée des places dont l’Hôtel de ville donne le triste spectacle. Cette rapacité effrénée nous indigne et nous dégoûte plus que personne.
@@ -39,6 +36,9 @@ N’est-il pas évident que faire exercer l’industrie par l’État, c’est s
 ][
 N’est-il pas évident, enfin, que c’est rendre permanent et progressif ce désordre dont l’Hôtel de ville est témoin et qui attriste les membres du gouvernement provisoire ?
 ])])
+(document :title "Curée des places"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

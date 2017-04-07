@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À MM. les membres du Conseil général de la Seine, par Frédéric Bastiat")
-
-(document :title "À MM. les membres du Conseil général de la Seine"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=97" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 51, p. 409.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/193/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 39, p. 193.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 novembre 1847.])
 
 ,(cher[Messieurs,])
@@ -63,6 +60,9 @@ Et en prononçant, rappelez-vous que les délibérations du Conseil général de
 ])
 ,(politesse[Agréez, Messieurs, etc.])
 ])
+(document :title "À MM. les membres du Conseil général de la Seine"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

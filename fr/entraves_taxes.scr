@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Entraves et taxes, par Frédéric Bastiat")
-
-(document :title "Entraves et taxes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/234/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 55, p. 234.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 6 mars 1848.])
 ,(p*[
 Pendant qu’un mouvement peut-être irrésistible nous emporte vers l’extension indéfinie des attributions de l’État, vers la multiplication des taxes ainsi que des entraves et des vexations qui en sont le cortège inévitable, une évolution en sens contraire, très prononcée, se manifeste en Angleterre et entraînera peut-être la chute du ministère.
@@ -29,6 +26,9 @@ La conclusion que nos voisins paraissent vouloir tirer de ce phénomène est cel
 ][
 C’est une pensée bien simple, mais elle fera le tour du monde.
 ])])
+(document :title "Entraves et taxes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

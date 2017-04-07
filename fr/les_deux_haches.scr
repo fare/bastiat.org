@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Les deux haches
 	- par Frédéric Bastiat")
-(document :title "Les deux haches"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f45.image" [,(cite-title[Sophismes économiques II])]), ch. 3.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/156/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 156.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre III de la seconde série des ,(SophismesEconomiques)])
 ,(h3[Pétition de Jacques Bonhomme, charpentier,
 à ,(np "cunin" [M. Cunin-Gridaine]), ministre du Commerce])
@@ -177,6 +175,9 @@ la cause des prohibitions et des haches émoussées,
 ce qui est tout un.
 
 ])])
+(document :title "Les deux haches"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "deux_morales.html" "conseil_inferieur_du_travail.html")

@@ -1,16 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Bornes que s’impose l’Association, par Frédéric Bastiat")
-
-(document :title "Bornes que s’impose l’Association"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=19" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 5, p. 33.]
 [,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=24" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 6, p. 43.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/7/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 3, p. 7.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 décembre 1846.
 ,(br)Republié dans le n° du 3 janvier 1847 pour cause d’erreur typographique.])
 
@@ -74,6 +71,9 @@ Quand le droit est tel que, s’il était diminué, il donnerait autant de reven
 ][
 Eh ! mon Dieu, c’est bien simple, avec de la bonne volonté. Que l’opinion soit amenée à comprendre, c’est-à-dire à repousser la protection, et le problème sera bientôt résolu. Il n’y a pas de ministre des finances qui n’y donne la main. La difficulté, la seule difficulté est de faire qu’il soit soutenu par l’opinion publique.
 ]))])
+(document :title "Bornes que s’impose l’Association"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

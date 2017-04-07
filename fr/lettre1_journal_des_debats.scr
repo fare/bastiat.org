@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Première lettre au rédacteur du Journal des débats, par Frédéric Bastiat")
-
-(document :title [Première lettre au rédacteur du ,(tj "debats" [,(cite-title[Journal des débats])])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k447272g/f2.zoom" [,(cite-title[Journal des Débats])]), 2 mai 1846, p. 2, col. 3.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/96/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 20, p. 96.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 2 mai 1846.])
 
 ,(cher[,(tj "debats" [Monsieur]),])
@@ -72,6 +69,9 @@ Après avoir montré l’influence de la réforme anglaise sur celles de nos ind
 ,(politesse[Agréez, etc.])
 ,(sign[,(FredB).])
 ])
+(document :title [Première lettre au rédacteur du ,(tj "debats" [,(cite-title[Journal des débats])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

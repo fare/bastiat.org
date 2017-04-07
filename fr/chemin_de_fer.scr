@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Un chemin de fer négatif
 	- par Frédéric Bastiat")
-(document :title "Un chemin de fer négatif"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f140.image" [,(cite-title[Sophismes économiques])]), ch. 17.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/93/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 93.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XVII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 ,(ref :url "abondance_disette.html#interetprod" [J’ai dit]) que lorsque, malheureusement,
@@ -55,6 +53,9 @@ le sacrifice du consommateur au producteur, du but au moyen.
 
 
 ])])
+(document :title "Un chemin de fer négatif"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "les_fleuves.html" "principes_absolus.html")

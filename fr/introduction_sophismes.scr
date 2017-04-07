@@ -2,15 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Introduction à la première série des Sophismes Économiques
 	- par Frédéric Bastiat")
-(document :title [Introduction
-	à la première série des ,(SophismesEconomiques)]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f7.image" [,(cite-title[Sophismes économiques])]), Introduction.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/n7/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 1.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(epigraphe [,(p*[En économie politique, il y a beaucoup à apprendre et peu à faire.]) ,(sign[(,(np "bentham" [Bentham]).)])])
 ,(p*[
 J’ai cherché, dans ce petit volume
@@ -172,6 +169,10 @@ Mais ceci n’est plus de mon sujet.
 
 ])
 ])
+(document :title [Introduction
+	à la première série des ,(SophismesEconomiques)]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(premier "Sophismes économiques" "sophismes.html" "abondance_disette.html")

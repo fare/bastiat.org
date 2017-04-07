@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Nos produits sont grevés de taxes
 	- par Frédéric Bastiat")
-(document :title "Nos produits sont grevés de taxes"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco11soci#page/356/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 11, n° 44, p. 356.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f69.image" [,(cite-title[Sophismes économiques])]), ch. 5.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/46/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 46.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juillet 1845.])
 ,(h2[Chapitre V de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
@@ -273,6 +271,9 @@ leurs affaires avec les nôtres ,(footnote*[
 
 ])))
 ])
+(document :title "Nos produits sont grevés de taxes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

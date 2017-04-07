@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Discours à la salle Duphot, par Frédéric Bastiat")
-
-(document :title "Discours à la salle Duphot"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=19" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 29, p. 227.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/170/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 37, p. 170.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Assemblée générale des souscripteurs, 10 juin 1847.
 ,(br)Rapportée dans le ,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 juin 1847.])
 
@@ -93,6 +90,9 @@ Mais ne l’oublions pas, l’œuvre spéciale de la prochaine campagne, et peut
 ][
 Associez-vous énergiquement à cette tâche, Messieurs, et soyons bien convaincus d’une chose, c’est que, s’il est un pays, une ville, appelés plus que tous autres à recueillir en bien-être, en influence morale et politique, les fruits de la libre circulation des produits et des idées, cette ville c’est Paris, ce pays c’est la France. (Applaudissements.)
 ])])
+(document :title "Discours à la salle Duphot"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

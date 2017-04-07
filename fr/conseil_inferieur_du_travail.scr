@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Conseil inférieur du travail
 	- par Frédéric Bastiat")
-(document :title "Conseil inférieur du travail"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f50.image" [,(cite-title[Sophismes économiques II])]), ch. 4.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/160/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 160.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre IV de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 ,(q[Quoi ! vous avez le front de demander pour tout citoyen
@@ -165,6 +163,9 @@ que d’entreprendre de sauter par-dessus son ombre.
 
 
 ])])
+(document :title "Conseil inférieur du travail"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "les_deux_haches.html" "cherte_bon_marche.html")

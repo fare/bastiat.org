@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Baccalauréat et socialisme
 	- par Frédéric Bastiat")
-(document :title "Baccalauréat et socialisme"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5687580k" [,(cite-title[Baccalauréat et socialisme])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/442/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 442.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(cher[Citoyens représentants,])
 ,(p*[
 J’ai soumis à l’Assemblée un amendement qui a pour objet
@@ -2709,5 +2707,8 @@ la condition de l’ordre.
 ])
 ,(p :class "noselect" [Ici, l’éditeur insère en complément l’ébauche intitulée ,(ref :url "liberte_egalite.html" [,(cite-title[Liberté, égalité])]).])
 ])
+(document :title "Baccalauréat et socialisme"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(pamphlets)]))

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’échelle mobile, par Frédéric Bastiat")
-
-(document :title "L’échelle mobile"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=36" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 9, p. 65.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/44/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 9, p. 44.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 24 janvier 1847.])
 ,(p*[
 Le gouvernement a demandé que le jeu de l’échelle mobile fût suspendu pendant les huit mois qui sont devant nous. Hélas ! que n’a-t-il la puissance de donner à cette mesure un effet rétroactif et de faire que l’échelle mobile ait été suspendue pendant les huit mois qui viennent de s’écouler ! Nous n’en serions pas où nous en sommes ; la ,(emph[crise des subsistances]) et la ,(emph[crise financière]) auraient probablement passé inaperçues.
@@ -44,6 +41,9 @@ Ce n’est pas tout encore ; sous un régime de liberté commerciale établi de
 ][
 La loi actuelle n’a donc rien fait pour diminuer les souffrances du peuple, les embarras commerciaux et financiers de notre situation. Elle a, au contraire, beaucoup fait pour aggraver tous les effets de cette crise. — Or, et il faut bien remarquer ceci, cette loi dont les malheurs publics révèlent le vice, ,(emph[puisqu’on la met de côté]), n’a pourtant agi que dans le sens de ses propres tendances. Donc ces tendances sont mauvaises. Elles le sont en temps d’abondance comme en temps de disette. Seulement ce n’est que lorsque le malheur arrive que nous ouvrons les yeux, et nous nous figurons alors qu’il suffit de suspendre momentanément la loi. Comme ce malade à qui l’on dit : Ce qui aggrave vos souffrances, c’est que vous suivez un mauvais régime hygiénique. — Eh bien ! répondit-il, je vais le suspendre… ,(emph[tant que je souffrirai]).
 ])])
+(document :title "L’échelle mobile"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

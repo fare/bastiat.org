@@ -8,6 +8,8 @@
 
 (define csslist
 '("../css/fonts.css" "../css/footer.css" "../css/bastiat.css" "../css/index.css" "../css/jquery-ui.css"))
+(define scriptlist
+'("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js"))
 
 (define-markup (in-bo
                 (:title #f) (:lang #f) (:charset *default-charset*))
@@ -25,7 +27,7 @@
   (apply* with-header :title title :lang 'en :charset charset
 	  :icon "../pic/favicon.ico"
     :css csslist
-    :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
+    :script scriptlist
 	  '())
   (set! *footnotes-header* (lambda ()))
   (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
@@ -37,7 +39,7 @@
   (apply* with-header :title title :lang 'fr :charset charset
 	  :icon "../pic/favicon.ico"
     :css csslist
-    :script '("../jquery-3.0.0.min.js" "../jquery-ui.js" "../jquery.sticky-kit.min.js")
+    :script scriptlist
 	  '())
   (set! *footnotes-header* (lambda ()))
   (with-footer :left (bof-ref #f (tt[Bastiat.org]))
@@ -47,7 +49,8 @@
 (define-markup (in-boes (:title #f) (:charset *default-charset*))
   (apply* with-header :title title :lang 'es :charset charset
 	  :icon "../pic/favicon.ico"
-	  :css "../css/bastiat.css"
+	  :css csslist
+    :script scriptlist
 	  '())
   (set! *footnotes-header* (lambda ()))
   (with-footer :left (boes-ref #f (tt[Bastiat.org]))
@@ -753,11 +756,12 @@ window.onresize = function() {
 
 (define (script_sidebar)
 (%raw "<script>
+
 var stickit = function () {
 if ( $(window).width() > 1000) {
 $('#sidebar').stick_in_parent();
 } else {
-  $('#sidebar').trigger('sticky_kit:detach');
+$('#sidebar').trigger('sticky_kit:detach');
 };
 };
 

@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Capital et rente
 	- par Frédéric Bastiat")
-(document :title "Capital et rente"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://books.google.fr/books?id=l6BVAAAAcAAJ&hl=fr&pg=PP2#v=onepage&q&f=false" [,(cite-title[Capital et rente])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/23/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 23.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Février 1849.])
 ,(h2 [Introduction])
 ,(p*[
@@ -1576,6 +1574,9 @@ ces trois choses sont :
 ,(strong[Sécurité]).
 
 ])])
+(document :title "Capital et rente"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(pamphlets)]))

@@ -1,30 +1,14 @@
 (style 'bo-style)
 (in-bof :title "La guerre aux chaires d’économie politique
 	- par Frédéric Bastiat")
-(document :title [La guerre aux chaires d’économie politique ,(footnote*[
-Trois ans avant la manifestation qui provoqua le pamphlet précédent,
-,(XXX)
-la destitution des professeurs,
-la suppression des chaires d’économie politique
-avaient été formellement demandées par les membres du comité Mimerel,
-qui bientôt se radoucirent et se bornèrent à prétendre
-que la théorie de la Protection devait être enseignée
-en même temps que celle de la Liberté.
-][
-Ce fut avec l’arme de l’ironie que Bastiat,
-dans le n° du 13 juin 1847 du journal ,(cite-title[le Libre-Échange]),
-combattit cette prétention qui se produisait alors pour la première fois.
-](NdEEO))]
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=24" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 29, p. 232.]
 [,(ref :url "https://books.google.fr/books?id=k__Hhn2M5sgC&hl=fr&pg=PT5#v=onepage&q&f=false" [,(cite-title[Spoliation et loi])]), p. 41.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/16/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 16.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 13 juin 1847.])
 ,(p*[
 On sait avec quelle amertume les hommes
@@ -306,6 +290,23 @@ c’est peine perdue que de recourir à la réfutation.
 « Vite un bâillon, deux bâillons, trois bâillons ! »
 
 ])])
+(document :title [La guerre aux chaires d’économie politique ,(footnote*[
+Trois ans avant la manifestation qui provoqua le pamphlet précédent,
+,(XXX)
+la destitution des professeurs,
+la suppression des chaires d’économie politique
+avaient été formellement demandées par les membres du comité Mimerel,
+qui bientôt se radoucirent et se bornèrent à prétendre
+que la théorie de la Protection devait être enseignée
+en même temps que celle de la Liberté.
+][
+Ce fut avec l’arme de l’ironie que Bastiat,
+dans le n° du 13 juin 1847 du journal ,(cite-title[le Libre-Échange]),
+combattit cette prétention qui se produisait alors pour la première fois.
+](NdEEO))]
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

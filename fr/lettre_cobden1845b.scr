@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 8 juillet 1845")
-(document :title "Lettre à Richard Cobden"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/110/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 110.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Londres, 8 juillet 1845.])
 
 ,(cher[,(np "cobden" [Monsieur]),])
@@ -18,6 +16,9 @@ J’espère, Monsieur, que vous voudrez bien m’admettre à l’honneur de m’
 ])
 ,(politesse[Votre très-humble serviteur.])
 ])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

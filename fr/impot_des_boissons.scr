@@ -1,16 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Discours sur l’impôt des boissons, par Frédéric Bastiat")
-
-(document :title [Discours sur l’impôt des boissons ,(footnote*[Cette improvisation fut prononcée à l’Assemblée législative
-le 12 décembre 1849. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56775698/f117.image" [,(cite-title[Incompatibilités parlementaires])]), p. 115.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/468/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 468.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[12 décembre 1849.])
 ,(cher[Citoyens représentants,])
 ,(p*[Je voulais aborder la question de l’impôt des boissons
@@ -1032,5 +1028,9 @@ mais encore pour diminuer la dette publique.
 
 
 ])])
+(document :title [Discours sur l’impôt des boissons ,(footnote*[Cette improvisation fut prononcée à l’Assemblée législative
+le 12 décembre 1849. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

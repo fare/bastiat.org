@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’économie politique des généraux, par Frédéric Bastiat")
-
-(document :title "L’économie politique des généraux"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=26" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 30, p. 234.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/338/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 52, p. 355.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 20 juin 1847.])
 ,(p*[
 Lorsque, au sein du Parlement, il arrive à un financier, s’aventurant dans la science de ,(np "jomini" [Jomini]), de faire manœuvrer des escadrons, il se peut qu’il attire le sourire sur les lèvres de MM. les généraux. Il n’est pas surprenant non plus que MM. les généraux fassent quelquefois de l’économie politique peu intelligible pour les hommes qui se sont occupés de cette branche des connaissances humaines.
@@ -41,6 +37,10 @@ Ce qui domine dans ce passage, c’est l’idée que la France perd intégraleme
 ][
 D’un autre côté, on nous présente comme un gain national le blé, l’huile, la soie, le tabac que nous fournira, dans vingt-cinq ans, la terre d’Afrique. — Cela dépend de ce que ces choses coûteront, y compris, outre les frais de production, ceux de conquête et de défense. Il est évident que si, avec ces mêmes sommes, nous pouvions produire ces mêmes choses en France, ou, ce qui revient au même, de quoi les acheter à l’étranger, et réaliser encore une économie, ce serait une mauvaise spéculation que d’aller les produire en Barbarie. Ceci soit dit en dehors de tous les autres points de vue de l’immense question algérienne. Quelle que soit l’importance, et, si l’on veut, la supériorité des considérations tirées d’un ordre plus élevé, ce n’est pas une raison pour se tromper sous le rapport de l’économie politique ,(emph[pure]).
 ])])
+(document :title "L’économie politique des généraux"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

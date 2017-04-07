@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 2 juillet 1850")
-(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/441/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 441.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Eaux-Bonnes, 2 juillet 1850.])
 ,(p*[
 …Votre observation sur ,(ref :url "la_loi.html" [,(cite-title[la Loi])]) est juste. Je n’ai pas prouvé comment l’égoïsme qui pervertit la loi est ,(emph[inintelligent]). Mais maintenant il n’est plus temps. Cette preuve, d’ailleurs, résulte de l’ensemble des brochures précédentes et résultera mieux encore des suivantes. On verra que la main sévère de la justice providentielle s’appesantit tôt ou tard cruellement sur ces égoïsmes. Je crains bien que la classe moyenne de notre époque n’en fasse l’expérience. ,(tag :a :name "bonaparte_ref")C’est une leçon qui n’a pas manqué aux rois, aux prêtres, aux aristocraties, aux Romains, aux Conventionnels, à ,(np "bonaparte" [Napoléon]).
@@ -17,6 +15,9 @@ J’écrirais à ,(np "fontenay" [M. de Fontenay]) pour le remercier de sa bonn
 ][
 Mon intention est de partir d’ici le 8 et d’arriver à Paris vers le 20. Je mettrai ma santé sous votre direction.
 ])])
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

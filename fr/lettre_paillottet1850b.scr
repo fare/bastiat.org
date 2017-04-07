@@ -2,18 +2,19 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 2 juin 1850")
-(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/439/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 439.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 2 juin 1850.])
 
 ,(p*[
 …Mon cousin est parti avant-hier pour Paris. Il y arrivera à peu près en même temps que cette lettre et vous remettra une bonne moitié de ,(ref :url "la_loi.html" [l’article]) que je fais pour compléter ,(ref :url "spoliation_et_loi.html" [la brochure]) ,(footnote*[Ce travail, au lieu de servir de complément au pamphlet ,(ref :url "spoliation_et_loi.html" [,(cite-title[Spoliation et loi])]), devint un pamphlet séparé, sous ce titre : ,(ref :url "la_loi.html" [,(cite-title[La Loi])]). ,(NdEEO)]). Mais cet article a pris un tel développement que nous ne pouvons lui faire suivre cette destination. Il y aura près de cinquante pages de mon écriture, c’est-à-dire de quoi faire un nouveau pamphlet, s’il en vaut la peine. C’est un essai. Vous savez que j’ai toujours eu l’idée de savoir ce qu’il adviendrait si je m’abstenais de refaire. Ceci a été écrit à peu près par improvisation. Aussi je crains que cela ne manque de la précision nécessaire au genre pamphlet. Dans quelques jours, je vous enverrai la suite. Quand vous aurez l’ensemble, vous déciderez.
 ])])
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

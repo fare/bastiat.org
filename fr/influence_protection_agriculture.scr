@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De l’influence du régime protecteur sur la situation de l’agriculture en France, par Frédéric Bastiat")
-
-(document :title "De l’influence du régime protecteur sur la situation de l’agriculture en France"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n445/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 16, n° 61, p. 6.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/25/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 7, p. 25.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de décembre 1846.])
 ,(p*[
 Il n’est certainement aucun peuple qui se brûle à lui-même autant d’encens que le peuple français quand il se considère en masse, et pour ainsi dire en nation abstraite. « Notre terre est la terre des braves ; notre pays, le pays de l’honneur et de la loyauté par excellence ; nous sommes généreux et magnifiques ; nous marchons à la tête de la civilisation, et ce qu’ont de mieux à faire tous les habitants de cette planète, c’est de recevoir nos idées, d’imiter nos mœurs et de copier notre organisation sociale. »
@@ -126,6 +123,9 @@ On objectera peut-être que, dans ce cas, la nation française eût été pureme
 ][
 Mais ces manufactures, nées à l’air de la liberté, auraient le pied sur un terrain solide, inébranlable, et elles ne seraient pas à la merci d’un article d’un des cent tarifs de l’Europe.
 ])])
+(document :title "De l’influence du régime protecteur sur la situation de l’agriculture en France"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

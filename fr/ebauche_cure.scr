@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Ébauche sur la fraternité
 	- par Frédéric Bastiat")
-(document :title "Ébauche sur la fraternité"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/311/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 311, note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche inédite écrite vers la fin de 1847,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "justice_fraternite.html#cure" [note de bas de page]).])
 ,(p*[
@@ -56,6 +54,9 @@ Dépouillons donc ce mot ,(emph[Fraternité])
 de tout ce que, dans ces derniers temps,
 on y a joint de faux, de puéril et de déclamatoire.
 ])])
+(document :title "Ébauche sur la fraternité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 ,(oeuvres)

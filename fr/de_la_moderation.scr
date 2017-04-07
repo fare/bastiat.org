@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la modération, par Frédéric Bastiat")
-
-(document :title "De la modération"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=97" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 26, p. 201.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k202316g/f346.item" [,(cite-title[Œuvres complètes])]), vol. 2, n° 50, p. 343.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 23 mai 1847.])
 ,(p*[
 On nous reproche d’être absolus, exagérés, et cette imputation, soigneusement propagée par nos adversaires, a été reproduite par des hommes auxquels leurs talents et leur haute position donnent de l’autorité, par ,(np "dupin_ch" [M. Charles Dupin]), pair de France, et ,(np "cunin" [M. Cunin-Gridaine]), ministre.
@@ -56,6 +53,9 @@ La modération ne consiste pas à dire qu’on a une demi-conviction, quand on a
 ][
 N’est-ce pas ainsi que nous la pratiquons ? ,(footnote*[Dans l’article original, on trouve cette phrase à la place : “Avons-nous rien fait de semblable ?”])
 ])])
+(document :title "De la modération"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

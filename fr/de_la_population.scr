@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "De la population
 	- par Frédéric Bastiat")
-(document :title "De la population"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n225/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 15, n° 59, p. 217.]
 [,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/422/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/448/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 448.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Un extrait a paru dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(h2[Chapitre XVI des ,(HarmoniesEconomiques)])
 ,(p*[
@@ -1518,6 +1516,9 @@ voir aussi la page idoine de
 (NdEBO)
 ))
 ])
+(document :title "De la population"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

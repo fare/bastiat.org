@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Questions économiques et industrielles, par le vicomte de Romanet")
-
-(document :title "Questions économiques et industrielles"
-	:author "Vicomte de Romanet"
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(cite-title[Moniteur industriel]), BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32819460c" [MICR D-256]), bobine n°6, numéros des 15 et 18 mai 1845.])
 ])
-(bastiat [
+(define bastiatcontent [
 ,(date-tag[,(tj "mi" [,(cite-title[Moniteur industriel])]) du 15 mai 1845.])
 
 ,(p*[,(np "romanet" [M. le vicomte de Romanet]), membre du conseil général de l’agriculture, nous adresse la lettre suivante que nous nous empressons de publier :])
@@ -43,6 +40,9 @@ Il ne faut pas cependant trop dédaigner cette maxime, que ,(emph[la richesse c�
 ,(politesse[J’ai l’honneur, etc.,])
 ,(p :align 'right [Vicomte ,(strong[de Romanet]),(br),(small[Membre du Conseil général de l’Agriculture.])])
 ])
+(document :title "Questions économiques et industrielles"
+	:author "Vicomte de Romanet"
+(container)
 (tous_les_scripts)
 (footer[,(journaux)
 

@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’impôt du sel, par Frédéric Bastiat")
-
-(document :title "L’impôt du sel"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=29" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 30, p. 237.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/225/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 41, p. 225.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 20 juin 1847.])
 ,(p*[
 Pour la seconde fois, la réduction de l’impôt sur le sel a été votée par la Chambre des députés à la presque unanimité ; ce qui n’aura d’autre conséquence, à ce qu’il paraît, que de déterminer le ministère à mettre la question à l’étude pour l’année prochaine.
@@ -47,6 +43,10 @@ Il est vrai que les besoins du Trésor sont toujours là, comme une ,(emph[fin d
 ][,(tag :a :name "dupin_ref")
 Modérez l’excès des ,(emph[travaux]) publics, s’est écrié ,(np "dupin_a" [M. Dupin]) aîné qui, du reste, nous semble avoir donné à tout ce débat sa véritable direction. Nous répéterons ce mot avec une légère variante. Modérez l’excès des ,(emph[services]) publics ; ne laissez à l’État que ses attributions véritables, alors il sera facile de diminuer les dépenses et par conséquent les impôts ,(footnote*[V. au tome V, page 407, le ,(cite-title[Budget républicain ;]) et page 468, le ,(cite-title[Discours sur l’impôt des boissons]). ,(NdEEO)]).
 ])])
+(document :title "L’impôt du sel"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

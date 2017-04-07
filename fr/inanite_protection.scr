@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Inanité de la protection de l’agriculture, par Frédéric Bastiat")
-
-(document :title "Inanité de la protection de l’agriculture"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=40" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 10, p. 73.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/39/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 8, p. 39.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 31 janvier 1847.])
 ,(p*[
 Si les agriculteurs, que le passé a si peu instruits, ne commencent pas à ouvrir les yeux sur l’avenir, il faut qu’ils soient étrangement séduits par ce que semble renfermer de promesses ce mot même, ,(emph[protection]). — ,(emph[Être protégé !]) — Et pourquoi pas, quand on le peut ? Pourquoi refuserions-nous des faveurs, des mesures qui améliorent nos prix de vente, écartent des rivaux redoutables, et, si elles ne nous enrichissent guère, retardent au moins notre ruine ? — Voilà ce qu’ils disent ; mais ne nous laissons pas tromper par un mot, et allons au fond des choses.
@@ -47,6 +44,9 @@ Et quand les agriculteurs auront livré leurs produits aux manufacturiers au pri
 ][
 Certainement, nous ne chercherons pas à nous concilier la classe agricole par de trompeuses promesses. Nous lui disons tout net qu’elle ne doit pas être, qu’elle ne peut pas être et qu’elle n’est pas protégée ; que la protection dont elle croit jouir, quant aux céréales, est illusoire ; que celle qu’elle retient encore sur les ,(emph[matières premières]) va lui échapper. Mais nous ajoutons : si l’on ne peut pas donner aux agriculteurs des ,(emph[suppléments de prix]), au moyen de taxes (qu’ils payent eux-mêmes pour les deux tiers), il ne faut pas du moins les forcer, au moyen d’autres taxes, de donner des ,(emph[suppléments de prix]) aux maîtres de forges, aux manufacturiers, aux armateurs, aux actionnaires de mines. Liberté, justice, égalité pour tout le monde.
 ])])
+(document :title "Inanité de la protection de l’agriculture"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

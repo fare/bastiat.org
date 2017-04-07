@@ -2,29 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Balance du commerce
 	- par Frédéric Bastiat")
-(document :title [Balance du commerce ,(footnote*[
-Lors de la discussion du budget général des dépenses pour l’exercice de 1850,
-M. Mauguin exposa naïvement à la tribune
-	la vieille et fausse théorie de la balance du commerce.
-	(,(cite-title[Moniteur]) du 27 mars.)
-Bastiat, qui l’avait déjà réfutée dans ses ,(cite-title[Sophismes]),
-	crut devoir l’attaquer de nouveau ;
-et comme sa santé ne lui permettait plus de monter à la tribune,
-	il adressa, le 29 mars 1850, à une feuille quotidienne,
-	les réflexions que nous reproduisons.
-Il est à remarquer qu’il simplifie les calculs hypothétiques,
-	au moyen desquels il élucide sa thèse,
-	en excluant quelques-uns des éléments qu’il avait employés en 1845.
-	(V. ,(bof-ref "balance_du_commerce_sophisme" [tome IV, page 52]).)
-,(NdEEO)
-])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://books.google.fr/books?id=k__Hhn2M5sgC&hl=fr&pg=PT17#v=onepage&q&f=false" [,(cite-title[Spoliation et loi])]), p. 53.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/402/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 402.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Publié le 29 mars 1850, dans un journal encore indéterminé.])
 ,(p*[
 
@@ -209,5 +192,23 @@ De plus, on s’est aperçu que c’est la tendance de tous les négociants,
 
 
 ])])
+(document :title [Balance du commerce ,(footnote*[
+Lors de la discussion du budget général des dépenses pour l’exercice de 1850,
+M. Mauguin exposa naïvement à la tribune
+	la vieille et fausse théorie de la balance du commerce.
+	(,(cite-title[Moniteur]) du 27 mars.)
+Bastiat, qui l’avait déjà réfutée dans ses ,(cite-title[Sophismes]),
+	crut devoir l’attaquer de nouveau ;
+et comme sa santé ne lui permettait plus de monter à la tribune,
+	il adressa, le 29 mars 1850, à une feuille quotidienne,
+	les réflexions que nous reproduisons.
+Il est à remarquer qu’il simplifie les calculs hypothétiques,
+	au moyen desquels il élucide sa thèse,
+	en excluant quelques-uns des éléments qu’il avait employés en 1845.
+	(V. ,(bof-ref "balance_du_commerce_sophisme" [tome IV, page 52]).)
+,(NdEEO)
+])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

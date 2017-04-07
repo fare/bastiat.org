@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Gratuité du crédit - Cinquième lettre
 	- P. J. Proudhon à F. Bastiat")
-(document :title [,(cite-title[Gratuité du crédit]) ,(--) Cinquième lettre]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/gratuitducrditd00bastgoog#page/n75/mode/2up" [,(cite-title[Gratuité du crédit])]), p. 62.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/146/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 146.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "vp" [,(cite-title[La Voix du Peuple])]), n° du 3 décembre 1849.])
 ,(p :align 'center (strong[
 	,(np "proudhon" [P.-J. Proudhon]) à F. Bastiat.]))
@@ -574,6 +572,9 @@ nous ferons retentir plus fort que jamais notre cri de guerre :
 ])
 ,(sign[,(np "proudhon" [P.-J. Proudhon]).])
 ])
+(document :title [,(cite-title[Gratuité du crédit]) ,(--) Cinquième lettre]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

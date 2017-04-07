@@ -2,7 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 5 avril 1848")
-(document :title "Lettre à Richard Cobden"
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
 	:author (author-FB)
 (sidebar [
 ,(h5[Sources])

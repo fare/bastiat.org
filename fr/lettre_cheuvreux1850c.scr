@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de février 1850")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=30" [,(cite-title[Lettres d’un habitant des Landes])]), p. 58.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Février 1850.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -18,6 +16,9 @@ Ces nobles figures, madame, font paraître les hommes bien petits, et l’humani
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

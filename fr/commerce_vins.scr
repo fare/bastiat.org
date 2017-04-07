@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De l’avenir du commerce des vins entre la France et la Grande-Bretagne, par Frédéric Bastiat")
-
-(document :title "De l’avenir du commerce des vins entre la France et la Grande-Bretagne"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco12soci#page/72/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 12, n° 45, p. 72.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/387/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 387.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’août 1845.])
 ,(p*[
 ,(h2[Àux membres de la ,(emph[Ligue]), aux officiers du ,(emph[Board of trade]), aux ministres du gouvernement anglais.])
@@ -99,6 +96,9 @@ Avec le droit uniforme, vous continuerez, comme aujourd’hui, à recevoir quelq
 ][
 Paix au dehors, justice au dedans, prospérité partout, — de tels résultats pourraient-ils être balancés dans votre esprit par une simple difficulté d’exécution, qui ne vous a pas arrêtés pour le thé, et que d’ailleurs vous n’évitez pas par le système mixte ?
 ])])
+(document :title "De l’avenir du commerce des vins entre la France et la Grande-Bretagne"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

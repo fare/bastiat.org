@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Conte chinois
 	- par Frédéric Bastiat")
-(document :title "Conte chinois"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f78.image" [,(cite-title[Sophismes économiques II])]), ch. 7.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/182/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 182.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre VII de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
 On crie à la cupidité, à l’égoïsme du siècle !
@@ -251,6 +249,9 @@ puisque nous n’aurons plus besoin de rien faire.
 
 
 ])])
+(document :title "Conte chinois"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "aux_artisans_et_ouvriers.html" "post_hoc_propter_hoc.html")

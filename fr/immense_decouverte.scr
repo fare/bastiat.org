@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Immense découverte !!!
 	- par Frédéric Bastiat")
-(document :title "Immense découverte !!!"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco12soci#page/208/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 12, n° 47, p. 208.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f95.image" [,(cite-title[Sophismes économiques])]), ch. 9.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/63/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 63.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre IX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
@@ -226,6 +224,9 @@ voilà qui est bien propre à rabattre un peu
 	l’orgueil du ,(emph[siècle des lumières]).
 ])
 ])
+(document :title "Immense découverte !!!"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

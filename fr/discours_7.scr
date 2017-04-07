@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Septième discours, à Paris, salle Montesquieu, par Frédéric Bastiat")
-
-(document :title "Septième discours, à Paris, salle Montesquieu"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/311/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 48, p. 311.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[7 janvier 1848.])
 ,(p*[
 Messieurs, je me propose de démontrer que le libre-échange est la cause, ou du moins un des aspects de la grande cause du peuple, des masses, de la démocratie.
@@ -167,5 +164,8 @@ Messieurs, la propagande n’a que deux instruments efficaces et légitimes, la 
 ][
 Et c’est parce que la libre communication des peuples nous paraît un des moyens les plus efficaces d’atteindre ces résultats, que nous en appelons à vous pour nous aider à tenir haut et ferme le drapeau du ,(emph[Libre-Échange]).
 ])])
+(document :title "Septième discours, à Paris, salle Montesquieu"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

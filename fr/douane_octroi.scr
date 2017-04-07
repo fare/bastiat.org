@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le National, par Frédéric Bastiat")
-
-(document :title "Le National"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=57" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 21, p. 161.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/104/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 19, p. 104.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 18 avril 1847.])
 ,(p*[
 Le ,(tj "national" [,(cite-title[National])]) adresse ce défi au ,(cite-title[,(tj "debats" [Journal des Débats]) :]) « Aidez-nous à renverser l’octroi, nous vous aiderons à renverser le régime protecteur. »
@@ -75,6 +72,9 @@ Il nous semble qu’ils pourraient fort bien, et sans inconséquence, formuler a
 ][
 « Mais voici que quelques propriétaires de jardins veulent systématiquement empêcher l’entrée des légumes afin de mieux vendre les leurs ; voici que, pour justifier cette prétention, ils émettent une bizarre théorie de l’échange, qui représente ce fondement de toute société comme funeste en soi ; voici que cette théorie envahit les convictions de nos concitoyens et que nous sommes menacés de la voir appliquée successivement à tous les articles du tarif de l’octroi ; voici que, grâce à cette théorie qui décrédite les importations, les arrivages vont diminuer, jusqu’à affaiblir les recettes de l’octroi, en sorte que nous verrons accroître dans la même proportion les autres impôts : nous nous associons pour combattre cette théorie, pour la ruiner dans les intelligences, afin que la force de l’opinion fasse cesser l’influence qu’elle a exercée et qu’elle menace d’exercer encore sur nos tarifs. »
 ]))])
+(document :title "Le National"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

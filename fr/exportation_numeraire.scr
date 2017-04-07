@@ -1,18 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur l’exportation du numéraire, par Frédéric Bastiat")
-
-(document :title "Sur l’exportation du numéraire"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(sources[
 ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=7" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 3, p. 13.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/112/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 21, p. 112.])
 ,(voiraussi[,(ref :url "nature_echanges.html" [Réponse à la ,(cite-title[Presse])]).])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 décembre 1847.])
 ,(p*[
 À l’occasion de la situation financière et commerciale de la Grande-Bretagne, le ,(tj "national" [,(cite-title[National])]) s’exprime ainsi :
@@ -53,6 +49,10 @@ C’est absolument comme le chapelier dont nous parlions tout à l’heure. Il v
 ][
 Nous demanderons à notre tour : Si l’Angleterre n’eût consommé ce blé et exporté cet argent, que lui resterait-il ? des cadavres.
 ])])
+(document :title "Sur l’exportation du numéraire"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

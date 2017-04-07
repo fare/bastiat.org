@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Funestes Illusions
 	- par Frédéric Bastiat")
-(document :title "Funestes Illusions"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom24parigoog#page/n333/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 19, n° 76, p. 323.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/466/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 70, p. 466.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de mars 1848.])
 ,(h2[Les citoyens font vivre l’État.,(br)
 	L'État ne peut faire vivre les citoyens.])
@@ -772,6 +770,9 @@ Sous un tel régime d’ordre, de sécurité et de liberté, on verrait
 
 
 ])])
+(document :title "Funestes Illusions"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	 ,(oeuvres)

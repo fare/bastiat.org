@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Deuxième lettre au Journal des Débats, insérés dans le numéro du 11, par Frédéric Bastiat")
-
-(document :title [Deuxième lettre au ,(tj "debats" [,(cite-title[Journal des Débats])])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k447281f/f1.item.zoom" [,(cite-title[Journal des Débats])]), 11 mai 1846, p. 1, col. 4.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/99/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 21, p. 99.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 11 mai 1846.
 ,(br)Reproduit par le ,(tj "mb" [,(cite-title[Mémorial bordelais])]) du 14 mai 1846.])
 
@@ -69,6 +66,9 @@ Sans vouloir faire ici ,(emph[du prospectus]), me sera-t-il permis de dire qu’
 ,(politesse[Agréez, etc.])
 ,(sign[,(FredB).])
 ])
+(document :title [Deuxième lettre au ,(tj "debats" [,(cite-title[Journal des Débats])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Effort, résultat
 	- par Frédéric Bastiat")
-(document :title "Effort, résultat"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco11soci#page/10/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 11, n° 41, p. 10.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f32.image" [,(cite-title[Sophismes économiques])]), ch. 3.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/19/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 19.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag [,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1845.])
 ,(h2 [Chapitre III de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
@@ -388,6 +386,9 @@ et le
 ,(p*[,(inlatin[P. S.]) La discussion qui vient d’avoir lieu à la Chambre des députés au sujet de la loi des douanes offre un ample aliment à cette revue de ,(emph[sophismes économiques]). Je vous demanderai la permission de la continuer dans un prochain numéro.])
 
 ])
+(document :title "Effort, résultat"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)
