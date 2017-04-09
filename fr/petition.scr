@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Pétition des fabricants de chandelles, bougies, lampes, chandeliers, réverbères, mouchettes, éteignoirs, et des producteurs de suif, huile, résine, alcool, et généralement de tout ce qui concerne l’éclairage, à MM. les Membres de la Chambre des Députés
 	- par Frédéric Bastiat")
-(document :title "Pétition des fabricants de chandelles"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco12soci#page/204/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 12, n° 47, p. 204.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f85.image" [,(cite-title[Sophismes économiques])]), ch. 7.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/57/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 57.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre VII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*
@@ -224,6 +222,9 @@ d’admettre la lumière du soleil,
 dont le prix est à ,(emph[zéro]), pendant toute la journée ? »
 ])
 ])
+(document :title "Pétition des fabricants de chandelles"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

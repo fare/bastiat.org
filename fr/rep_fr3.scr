@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
-
-(document :title "Article dans La République française"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/213/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 44, p. 213.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 28 février 1848.])
 ,(p*[
 Nous partageons cette pensée de la ,(cite-title[,(tj "presse" [Presse]) :])
@@ -25,10 +22,13 @@ Le premier, plus séduisant, plus populaire, consiste à prendre beaucoup au peu
 ][
 Le second veut que l’État prenne peu, donne peu, garantisse la sécurité, laisse un libre champ à l’exercice honnête de toutes les facultés : l’un consiste à étendre indéfiniment, l’autre à restreindre le plus possible les attributions du pouvoir.
 ][
-Celui de ces deux systèmes auquel nous sommes attachés ,(footnote*[Ici et ailleurs, l’emploi du pluriel montre que Bastiat parlait au nom de ses collaborateurs comme au sien. À ce moment, il signait avec eux le journal, et acceptait la solidarité de leurs opinions.]) par une entière conviction a peu d’organes dans la presse ; il ne pouvait avoir beaucoup de représentants au pouvoir.
+Celui de ces deux systèmes auquel nous sommes attachés par une entière conviction a peu d’organes dans la presse ; il ne pouvait avoir beaucoup de représentants au pouvoir.
 ][
 Mais pleins de confiance dans la droiture des citoyens auxquels l’opinion publique a confié la mission de jeter un pont entre la monarchie déchue et la république régulière qui s’avance, nous ajournons volontiers la manifestation de notre doctrine et nous nous bornons à semer des idées d’ordre, de mutuelle confiance et de gratitude envers le gouvernement provisoire.
 ])])
+(document :title "Article dans La République française"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 7 août 1844.")
-
-(document :title "Séance du 7 août 1844."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n477/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 374.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/391/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 391.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[7 août 1844.])
 ,(p*[,(tag :a :name "peel_ref")
 Nous voici arrivés à l’époque où les relations entre la France et l’Angleterre, et par suite la paix du monde, paraissaient gravement compromises. La presse, des deux côtés du détroit, et malheureusement dans des vues peu honorables, s’efforçait de réveiller tous les vieux instincts de haine nationale. On dit que, dans la salle d’Exeter-Hall, des missionnaires fanatiques faisaient entendre des paroles irritantes peu en harmonie avec le caractère dont ils sont revêtus. ,(np "peel" [Sir Robert Peel]) enfin, peut-être dominé par le déchaînement des passions ardentes du dehors, venait de prononcer devant le Parlement les paroles impolitiques et imprudentes qui rendaient si difficile l’arrangement des affaires de Taïti.
@@ -51,6 +48,9 @@ Il est une autre chose que la Ligue a accomplie, et c’était un objet bien dig
 ,(discours(p*[Si notre cause s’élève contre le monopole, elle est encore plus opposée à une guerre qui prendrait pour prétexte l’intérêt national. J’espère que les sages avertissements qui sont sortis de la bouche de l’honorable représentant de Manchester (,(np "gibson" [M. Gibson])) pénétreront dans vos esprits et dans vos cœurs ; car, quand nous voyons à quels moyens le monopole a recours, il n’y a rien de chimérique à redouter que, par un machiavélisme monstrueux, il ne s’efforce, dans un sordide intérêt, de plonger la nation dans toutes les calamités de la guerre. Si nous étions menacés d’une telle éventualité, j’ai la confiance que le peuple de ce pays se lèverait comme un seul homme pour protester contre tout appel à ces moyens sanguinaires qui devront être relégués à jamais dans les annales des temps barbares. Cette agitation doit se maintenir et progresser, parce qu’elle se fonde sur une vue complète des vrais intérêts nationaux et sur les principes de la morale. Oui, nous soulevons une question morale. Laissons à nos adversaires les avantages dont ils s’enorgueillissent. Ils possèdent de vastes domaines, une influence incontestable ; ils sont maîtres de la Chambre des lords, de la Chambre des communes, d’une grande partie de la presse périodique et du secret des lettres (applaudissements) ; à eux encore le patronage de l’armée et de la marine, et la prépondérance de l’Église. Voilà leurs priviléges, et la longue énumération ne nous en effraye pas, car nous avons contre eux ce qui est plus fort que toutes ces choses réunies : le sentiment du juste gravé au cœur de l’homme. (Acclamations.) C’est une puissance dont ils ne savent pas se servir, mais qui nous fera triompher d’eux ; c’est une puissance plus ancienne que leurs races les plus antiques, que leurs châteaux et leurs cathédrales, que l’Église et que l’État ; aussi ancienne, que dis-je ? plus ancienne que la création même, car elle existait avant que les montagnes fussent nées, avant que la terre reposât sur ses fondements ; elle habitait avec la sagesse dans l’esprit de l’Éternel. Elle fut soufflée sur la face de l’homme avec le premier souffle de vie, et elle ne périra pas en lui tant que sa race n’aura pas compté tous ses jours sur cette terre. Il est aussi vain de lutter contre elle que contre les étoiles du firmament. Elle verra, bien plus, elle opérera la destruction de tout ce qu’il y a d’injustice au fond de foutes les institutions politiques et sociales. Oh ! puisse la Providence consommer bientôt sur le genre humain cette sainte bénédiction ! (Applaudissements prolongés.)]))
 ,(p*[Après une courte allocution dans laquelle le président, au nom de la Ligue, adresse aux habitants de la métropole des remercîments et des adieux, la session de 1844 est close et l’assemblée se sépare.
 ])])
+(document :title "Séance du 7 août 1844."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

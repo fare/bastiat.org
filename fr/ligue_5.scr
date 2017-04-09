@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue.")
-
-(document :title "Meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n181/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 76.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/144/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 144.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[13 avril 1843.])
 ,(p*[
 Il devient maintenant inutile de parler de l’immense concours qu’attirent ces réunions. Quelque vaste que soit le théâtre de Drury-Lane, il est à notre connaissance qu’un grand nombre de personnes n’ont pu être admises. Le bruit s’étant répandu qu’il n’y aurait pas d’autres meetings jusqu’après les fêtes de Pâques, une foule considérable affluait dans les rues adjacentes. Il nous a semblé que les dames étaient plus nombreuses que dans les occasions précédentes, et l’assemblée présentait un air de distinction bien propre à soutenir le caractère de ces meetings, qui est de représenter la classe moyenne. Nous avons remarqué sur la plate-forme un grand nombre de membres du Parlement.
@@ -25,6 +22,9 @@ Le docteur ,(np "bowring" [,(strong[Bowring])]) se lève au bruit des applaudiss
 En fait, que faut-il entendre par l’émancipation du commerce ? Pourquoi combattons-nous ? pourquoi sommes-nous réunis ? Nous voulons donner à tout homme, à tout ouvrier, à toute entreprise, les plus grandes raisons possibles de marcher de perfectionnement en perfectionnement. Nous désirons que les Anglais disent au monde : « Nous n’appréhendons rien dans la carrière où nous entrons. Nous ne demandons qu’à être délivrés des liens qui pèsent sur nos membres. ,(tag :a :name "shakespeare_ref")Brisez ces chaînes ; et nous, race de Saxons, nous qui avons porté notre langue, la langue de ,(np "shakespeare" [Shakespeare]) et de ,(np "milton" [Milton]) aux quatre coins de la terre ; nous qui avons enseigné le grand droit de représentation au monde altéré de liberté ; nous qui avons semé des nations destinées à nous surpasser nous-mêmes en nombre, en puissance, en gloire et en durée, nous ne craignons aucune rivalité (bruyants applaudissements), pourvu, car il faut toujours en venir à cette simple proposition, que nous soyons libres de ,(emph[vendre aussi cher et d’acheter à aussi bon marché]) que nous pourrons le faire. (Applaudissements.) Et quelle est, mes amis, la signification de ces magnifiques meetings, tels que celui auquel je m’adresse ? Ils signifient que vous avez compris ce langage du premier ministre de la Grande-Bretagne ; que vous ne souffrirez pas que ce langage se dissipe aux vents comme une oiseuse théorie qui ne doit être l’héritage de personne ; que vous l’avez relevé ; que vous avez conquis ,(np "peel" [sir Robert Peel]) ; que vous lui ferez de sa déclaration un cercle de fer (applaudissements) ; que vous réclamerez du Parlement d’Angleterre, au dedans de l’enceinte législative, la même vigueur, la même énergie que le peuple déploie au dehors. (Applaudissements.) Mes amis, on dit que, dans cette Chambre des communes, nous ne sommes qu’une minorité désespérante. Mais, là aussi, il y en a plusieurs qui ont rendu d’admirables services à la cause populaire, dont l’énergie n’a jamais fait défaut, dont les voix n’ont jamais été étouffées, dont les votes ne se sont jamais égarés, et qui en appellent toujours à vous pour marcher, sans cesse et sans relâche, vers le noble but placé au bout de la carrière. (Applaudissements.) Mais après tout, mes amis, nous ne sommes, nous, que le petit nombre, et vous, vous êtes le grand nombre, et c’est à vous de décider s’il appartient aux intérêts, à la voix, à la volonté du grand nombre, de prédominer, ou si la Chambre continuera à rester aveugle, sourde, insoucieuse et indifférente à la détresse qui l’entoure de toutes parts. En ce qui me concerne, je nourris dans mon cœur des espérances plus hautes et plus consolantes, car je crois fermement que l’énergique volonté de l’Angleterre n’a qu’à se déclarer, comme elle le fait en ce moment, pour que toute résistance s’évanouisse. (L’orateur reprend son siège au bruit des applaudissements enthousiastes.)]))
 ,(p*[,(strong[MM. Elphinstone, Burnet]) et ,(strong[Heyworth]) se font entendre ; une proclamation au peuple est votée à l’unanimité, et la séance est levée à 10 heures.
 ])])
+(document :title "Meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

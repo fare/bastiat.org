@@ -1,16 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting à Manchester, octobre 1842.")
-
-(document :title "Meeting à Manchester."
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n106/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 81.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Octobre 1842.])
 ,(p*[,(tag :a :nam "cobden_ref")
 La Ligue fut fondée à Manchester en 1838. Ce ne fut qu’en 1843 qu’elle commença ses opérations dans la métropole, et nous n’avons pas cru devoir remonter plus haut dans le compte rendu de ses travaux. C’eût été, sans doute, réclamer du lecteur plus d’attention qu’il n’est disposé à nous en accorder. — Cependant, avant de suivre la Ligue à Londres, nous avons jugé utile de traduire le discours prononcé à Manchester, par ,(np "cobden" [M. Cobden]), en octobre 1842, parce qu’il résume les progrès accomplis jusque-là et les plans ultérieurs de cette puissante association.])
@@ -25,6 +21,10 @@ Dans le cours des opérations qui ont eu lieu au commencement de la séance, j�
 ][,(tag :a :name "buckingham_ref")
 Tout nous encourage donc à faire, pendant cette session, un effort herculéen. — Je m’entretenais aujourd’hui avec un gentleman de cette ville qui arrive de Paris. Il a traversé la Manche avec un honorable membre, créature du ,(np "buckingham" [duc de Buckingham]). « Dans mon opinion, disait l’honorable député, le droit actuel sur les céréales sera converti en un droit fixe, dans une très-prochaine session, et j’espère que ce droit sera assez modéré pour être permanent. » — Mais quant à nous, veillons à ce qu’il n’y ait pas de droit du tout. (Applaudissements.) Si nous avons pu amener une créature du ,(np "buckingham" [duc de Buckingham]) à désirer une taxe assez modérée pour que ces messieurs soient sûrs de la conserver, quelques efforts de plus suffiront pour convaincre les fermiers qu’ils n’ont à attendre ni stabilité, ni loyale stipulation de rentes, ni apaisement de l’agitation actuelle, jusqu’à ce que tous droits protecteurs soient entièrement abrogés. C’est pourquoi je vous dis : Attachez-vous à ce principe : ,(emph[abrogation totale et immédiate.]) (Applaudissements.) N’abandonnez jamais ce cri de ralliement : ,(emph[abrogation totale et immédiate !]) ,(tag :a :name "villiers_ref")Il y en a qui pensent qu’il vaudrait mieux transiger ; c’est une grande erreur. Rappelez-vous ce que nous disait ,(np "peel" [sir Robert Peel]), à ,(np "villiers" [M. Villiers]) et à moi : « Je conviens, disait-il, que, comme avocats du rappel ,(footnote*[Le mot anglais ,(inenglish[repeal]) a été mal traduit en français par le mot ,(emph[rappel]). ,(inenglish[Repeal]) signifie : abrogation, révocation, cessation. L’usage ayant maintenant donné le même sens au mot ,(emph[rappel]), j’ai cru pouvoir le maintenir. ,(NdT)]) total et immédiat, vous avez sur moi un grand avantage dans la discussion. » Nous séparer de ce principe absolu, ce serait donc renoncer à toute la puissance qu’il nous donne. — etc.
 ])])])
+(document :title "Meeting à Manchester."
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

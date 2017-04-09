@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 27 juin 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/176/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 176.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[27 juin 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), vous avez appris l’immense catastrophe qui vient d’affliger la France et qui afflige le monde. Je crois que vous serez bien aise d’avoir de mes nouvelles, mais je n’entrerai pas dans beaucoup de détails. C’est vraiment une chose trop pénible, pour un Français, même pour un Français cosmopolite, d’avoir à raconter ces scènes lugubres à un Anglais.
@@ -19,6 +17,9 @@ Il me semble, ,(np "cobden" [mon cher Cobden]), que je suis le seul à l’assem
 ][
 Je regrette aujourd’hui très-profondément d’avoir accepté le mandat qui m’a été confié. — Je n’y suis bon à rien, tandis que, comme simple publiciste, j’aurais pu être utile à mon pays.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

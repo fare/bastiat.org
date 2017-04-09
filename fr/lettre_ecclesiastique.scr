@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre à un ecclésiastique")
-
-(document :title "Lettre à un ecclésiastique"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/351/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 78, p. 351.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 28 mars 1848.
 ,(br)Publiée dans l’,(cite-title[,(tj "economiste_belge" [Économiste belge]),]) n° du 14 janvier 1860.])
 
@@ -43,6 +40,9 @@ En attendant, j’espère que mon opinion, qu’on peut considérer comme pureme
 ])
 ,(politesse[Votre dévoué compatriote, etc.])
 ])
+(document :title "Lettre à un ecclésiastique"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

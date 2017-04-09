@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réforme parlementaire, par Frédéric Bastiat")
-
-(document :title [Réforme parlementaire ,(footnote*[Cette esquisse, c’est ainsi que l’auteur la désigne en marge, restée à l’état de fragment, est postérieure à 1840. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/289/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 70, p. 289.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 
 La Révolution de Juillet a placé le sol de la patrie sous un drapeau où sont inscrits ces deux mots : ,(emph[Liberté, Ordre]).
@@ -84,5 +81,8 @@ Maintenant, je le demande, une fois que la majorité sera acquise au pouvoir, no
 ][
 Voilà une loi. Elle froisse les intérêts et les idées de ceux qu’elle est destinée à régir. — Ils sont appelés à déclarer par l’organe de leurs représentants s’ils l’admettent ou la repoussent. — Évidemment, ils la rejetteront si ces représentants représentent en effet ,(emph[ceux que la loi est destinée à régir]). — Mais s’ils représentent ceux qui la proposent, la soutiennent et sont appelés à l’exécuter, elle sera admise sans difficulté. Est-ce là le gouvernement représentatif ?…
 ])])
+(document :title [Réforme parlementaire ,(footnote*[Cette esquisse, c’est ainsi que l’auteur la désigne en marge, restée à l’état de fragment, est postérieure à 1840. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[]))

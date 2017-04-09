@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 14 juillet 1849")
-(document :title "Lettre à Prosper Paillottet"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/436/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 436.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 14 juillet 1849.])
 ,(p*[
 ,(np "paillottet" [Mon cher Paillottet]), je vous suis bien reconnaissant de vous être souvenu de moi dans nos Pyrénées, et en même temps je suis fier de l’impression qu’elles ont faite sur vous. Que j’aurais été heureux de vous suivre dans vos courses ! Nous aurions peut-être refroidi et vulgarisé ces beaux paysages, en y mêlant de l’économie politique. Mais non ; les lois sociales ont leurs ,(emph[harmonies]) comme les lois du monde physique. C’est ce que je m’efforce de démontrer dans le livre que j’ai en ce moment sur le métier. — Je dois avouer que je ne suis pas content de ce qu’il est. J’avais un magnifique sujet, je l’ai manqué et ne suis plus à temps de refaire, parce que les premières feuilles sont sous presse. Peut-être ce ,(initalian[fiasco]) n’est-il pas de ma faute. C’est une chose difficile sinon impossible de parler dignement des harmonies sociales à un public qui ignore ou conteste les notions les plus élémentaires. Il faut tout prouver jusqu’à la légitimité de l’intérêt, etc.
@@ -23,6 +21,9 @@ L’économie politique vous doit beaucoup et moi aussi pour votre zèle à ,(em
 ])
 ,(politesse[Adieu ! Votre bien dévoué.])
 ])
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

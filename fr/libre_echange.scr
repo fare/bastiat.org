@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Libre-Échange
 	- par Frédéric Bastiat")
-(document :title "Libre-Échange"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=15" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 4, p. 25.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/4/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 2, p. 4.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 20 décembre 1846.])
 ,(p*[
 
@@ -161,6 +159,9 @@ le 3 juillet 1847.
 
 
 ])])
+(document :title "Libre-Échange"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Maudit Argent !
 	- pamphlet par Frédéric Bastiat")
-(document :title [Maudit Argent !]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom48parigoog#page/n11/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 23, n° 97, p. 1.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56881118/f28.image" [,(cite-title[L’État — Maudit argent])]), p. 25.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/64/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 64.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 avril 1849.])
 ,(p*[
 
@@ -1298,6 +1296,9 @@ Voy., au tome IV, ,(bof-ref "baccalaureat_et_socialisme"
 ,(NdEEO)]).
 
 ])])
+(document :title [Maudit Argent !]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

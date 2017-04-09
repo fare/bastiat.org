@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La logique de M. Cunin-Gridaine, par Frédéric Bastiat")
-
-(document :title "La logique de M. Cunin-Gridaine"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=80" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 23, p. 184.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/370/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 55, p. 370.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 2 mai 1847.])
 ,(p*[
 ,(np "cunin" [M. Cunin-Gridaine]), parlant des deux associations qui se sont formées, l’une pour demander à rançonner le public, l’autre pour demander que le public ne fût pas rançonné, s’exprime ainsi :
@@ -56,6 +53,9 @@ La ,(emph[vérité]), qui ne se sépare jamais de la ,(emph[modération]), est e
 ][,(tag :a :name "mi_ref")
 Mais le plus beau de l’histoire, c’est que Pierre sort de l’audience furieux de ce que le juge a osé, en paroles, comparer son exagération à celle de Jean. (,(emph[Voir le ,(tj "mi" [Moniteur industriel])]).)
 ])])
+(document :title "La logique de M. Cunin-Gridaine"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Deux Angleterre, par Frédéric Bastiat")
-
-(document :title "Deux Angleterre"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=32" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 11, p. 57.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/459/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 459.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 6 février 1848.])
 ,(p*[
 Quand nous avons entrepris d’appeler l’attention de nos concitoyens sur la question de la liberté commerciale, nous n’avons pas pensé ni pu penser que nous nous faisions les organes d’une opinion en majorité dans le pays, et qu’il ne s’agit pour nous que d’enfoncer une porte ouverte.
@@ -42,6 +38,10 @@ Le ,(tj "mi" [,(cite-title[Moniteur industriel])]) et le ,(tj "elbeuf" [,(cite-t
 ][
 Et nous, nous disons que s’il y a une ridicule comédie au monde, c’est ce langage des protectionistes. Certes, il faut prendre en considération les longues, et nous ajouterons les justes préventions de notre pays ; mais ne faudrait-il pas rougir enfin de sa crédulité, si cette comédie pouvait être plus longtemps représentée devant lui au bruit de ses applaudissements ?
 ])])
+(document :title "Deux Angleterre"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)

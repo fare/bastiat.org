@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de mai 1850")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=33" [,(cite-title[Lettres d’un habitant des Landes])]), p. 65.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, mai 1850.])
 ,(p*[
 Me voici à Bordeaux plongé avec délice dans l’atmosphère du midi. Quoique je quitte le tumulte parisien pour aller retrouver le calme du toit paternel, je vous assure que ma pensée, tout le long de la route, s’est retournée bien plus souvent en arrière qu’elle ne s’est portée en avant ; aussi je m’empresse de déployer le secrétaire de voyage que je dois aux soins si délicats de ,(np "cheuvreux" [M. Cheuvreux]).
@@ -26,6 +24,9 @@ Adieu, mesdames ; que ces deux mois d’absence ne m’effacent pas de votre m�
 ,(politesse[Votre dévoué,])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 19 février 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/65/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 65.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, le 19 février 1846])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je t’avais promis de t’écrire les événements de Bordeaux. Je suis si interrompu par les visites, les assemblées et autres incidents fâcheux, que l’heure du courrier arrive toujours avant que j’aie pu réaliser ma promesse ; d’ailleurs je n’ai pas grand’chose à te dire. Les choses se passent fort doucement. On a beaucoup pataugé dans les préliminaires d’une ,(emph[constitution]). Enfin elle est sortie telle quelle de la discussion, et aujourd’hui elle est offerte à la sanction de soixante-dix à quatre-vingts membres fondateurs ; ,(tag :a :name "duffour_ref")le bureau définitif va être installé, avec ,(np "duffour" [le maire]) en tête pour président, et, dans deux ou trois jours, aura lieu une grande réunion pour ouvrir la souscription. On croit que Bordeaux ira à 100,000 fr. Il me tarde de le voir. Tu comprends que ce n’est qu’à partir d’aujourd’hui, de l’installation du bureau, qu’on peut s’occuper d’un plan, puisque c’est lui qui doit avoir l’initiative. Quel sera ce plan ? Je l’ignore.
@@ -21,6 +19,9 @@ Il est à peu près résolu que, lorsque cette organisation sera en train, je me
 ][
 Quand tu m’écriras (que ce soit le plus tôt possible), dis-moi quelque chose de tes affaires.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

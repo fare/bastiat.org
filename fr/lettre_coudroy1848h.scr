@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 7 septembre 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/87/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 87.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[7 septembre 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), ta lettre ne me laissait pas le choix du parti que j’avais à prendre. Je viens d’envoyer ma démission de membre du conseil général ; je ne donne pas celle de représentant, et tu en comprends les motifs. En définitive, ce n’est pas quelques Mugronnais qui m’ont conféré ce titre.
@@ -25,6 +23,9 @@ Bref, en conscience, je crois que ,(np "blanc" [L. Blanc]) a fait beaucoup de m
 ][,(tag :a :name "domenger_ref")
 Je te remercie de m’avoir tenu au courant de l’état des esprits. Je connais trop le cœur humain pour en vouloir à personne. À leur point de vue, ceux qui me blâment ont raison. Puissent-ils se préserver longtemps de cette peste du socialisme ! Je me sens soulagé d’un grand poids depuis que ma lettre au préfet est à la poste. Le pays verra que j’entends qu’il se fasse représenter à son gré. Quand viendra la réélection, prie instamment ,(np "domenger" [M. Domenger]) de ne point appuyer ma candidature. En l’acceptant, je m’étais laissé entraîner par le désir de revoir mon pays ; c’était un sentiment tout personnel ; j’en ai été puni. Maintenant je ne désire autre chose que de me débarrasser d’un mandat plus pénible.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

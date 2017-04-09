@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Horace Say
 du 3 juin 1850")
-(document :title "Lettre à Horace Say"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/384/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 384.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 3 juin 1850.])
 
 ,(cher[,(np "say_h" [Mon cher ami]),])
@@ -18,6 +16,9 @@ du 3 juin 1850")
 ][
 Quoique je m’occupe peu de politique, j’ai pu me convaincre, avec douleur, que nos grands hommes d’État n’ont que trop bien réussi dans la première partie de leur plan de campagne qui est de semer l’alarme pour l’exploiter. Partout où j’ai passé, j’ai vu régner une terreur vraiment maladive. Il semble que la loi agraire nous menace. On croit Paris sur un volcan. On va jusqu’à invoquer la lutte immédiate ou l’invasion étrangère, non par des sentiments pervers, mais par peur de pis. On maudit la République, les républicains et même les résignés ; on blesse les classes inférieures par un luxe d’épithètes outrageantes. Bref, il me semble qu’on oublie tout, même la prudence. Dieu veuille que ce paroxysme passe vite ! où nous mènerait-il ?…
 ])])
+(document :title "Lettre à Horace Say"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

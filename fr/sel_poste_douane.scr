@@ -1,16 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le sel, la poste, la douane, par Frédéric Bastiat")
-
-(document :title "Le sel, la poste, la douane"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n613/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 54, p. 142.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f118.image" [,(cite-title[Sophismes économiques II])]), ch. 12.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/213/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 213.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de mai 1846.])
 ,(h2[Chapitre XII de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
@@ -372,6 +369,9 @@ Ici, je cessai d’entendre les deux interlocuteurs. Il paraît cependant que Ja
 ,(p*[
 Mais vous êtes fou, dis-je à Jacques Bonhomme, qui me communiquait sa lettre ; vous n’avez jamais rien su prendre avec modération. L’autre jour vous vous récriiez contre l’,(emph[ouragan des réformes]), et voilà que vous en réclamez trois, faisant de l’une la condition des deux autres. Vous vous ruinerez. — Soyez tranquille, dit-il, j’ai fait tous mes calculs. Plaise à Dieu qu’ils acceptent ! Mais ils n’accepteront pas. — Là-dessus, nous nous quittâmes la tête pleine, lui de chiffres, moi de réflexions, que j’épargne au lecteur.
 ])])
+(document :title "Le sel, la poste, la douane"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

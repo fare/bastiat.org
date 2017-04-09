@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Question des sucres en Angleterre")
-
-(document :title "Question des sucres en Angleterre"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=12" [Sentinelle des Pyrénées]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 2 juillet 1844.])
 
 ,(p*[C’est une chose affligeante que la presse parisienne, toute dévouée au privilége industriel, persiste à tenir le public dans l’ignorance de la révolution profonde qui s’opère en ce moment de l’autre côté du détroit, révolution qui ne va à rien moins qu’à détruire tous les monopoles et entr’autres le monopole colonial.
@@ -67,6 +64,9 @@ Les uns se sont laissé entraîner par l’intérêt actuel, évident du consomm
 Les autres, et principalement les hommes éminents de cette association, les ,(np "cobden" [Cobden]), les ,(np "bouverie" [Bouverie]), les ,(np "gibson" [Gibson]) n’ont pas voulu mettre une question d’argent au-dessus d’une question de principe. Ce qu’ils attaquent surtout, ce n’est pas la taxe, c’est le monopole, c’est la protection, c’est le ,(emph[droit différentiel,]) non en tant que ,(emph[droit,]) mais en tant que ,(emph[différentiel]). Ce que les droits ont de commun rentre dans les coffres de l’état ; il peut être utile de les abaisser, mais les principes ne sont pas engagés dans la question. — Ce qu’ils ont de ,(emph[différentiel]) va à la poche des monopoleurs, c’est de la spoliation, et là-dessus les vrais ,(inenglish[free-traders]) ne transigent pas. Cette vérité mise au grand jour dans l’intervalle des deux votes, explique l’admission définitive de la proposition ministérielle. C’est donc la liberté, la liberté bien entendue qui a triomphé dans ce débat. C’est l’intérêt humanitaire qui a primé l’intérêt anglais. ,(tag :a :name "ewart_ref")Malheureusement elle avait commencé par succomber avec les amendements bien autrement importants de ,(np "russell" [lord Russell]) et de ,(np "ewart" [M. Ewart]). Je vous demanderai peut-être la permission d’en entretenir vos abonnés.])
 ,(sign[Fr. B.])
 ])
+(document :title "Question des sucres en Angleterre"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

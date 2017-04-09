@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réforme postale, par Frédéric Bastiat")
-
-(document :title "Réforme postale"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/83/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 18, p. 83.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 30 avril 1846.])
 ,(p*[
 L’uniformité de la taxe a des avantages si nombreux, si incontestables, si éclatants, que, pour ne pas les voir, il faut fermer volontairement les yeux.
@@ -169,6 +166,9 @@ Diminuez seulement d’un quart les droits sur le fer, la houille, les bestiaux 
 ][
 Le trésor et le public s’en trouveront bien. Chacune de ces réformes facilitera l’autre, vous aurez rendu hommage à deux principes d’éternelle justice, et vos prochaines professions de foi se baseront au moins sur quelque chose de plus substantiel que l’ordre avec la liberté et la paix avec l’honneur, lieux communs qui, s’ils n’engagent à rien, ne trompent non plus personne.
 ])])
+(document :title "Réforme postale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

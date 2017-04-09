@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 9 septembre 1850")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/188/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 188.]
 [,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=53" [,(cite-title[Lettres d’un habitant des Landes])]), p. 104.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[9 septembre 1850.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), je suis sensible à l’intérêt que vous voulez bien prendre à ma santé. Elle est toujours chancelante. En ce moment j’ai une grande inflammation, et probablement des ulcérations à ces deux tubes qui conduisent l’air au poumon et les aliments à l’estomac. La question est de savoir si ce mal s’arrêtera ou fera des progrès. Dans ce dernier cas, il n’y aurait plus moyen de respirer ni de manger, ,(inenglish[a very awkward situation indeed]). J’espère n’être pas soumis à cette épreuve, à laquelle cependant je ne néglige pas de me préparer, en m’exerçant à la patience et à la résignation. Est-ce qu’il n’y a pas une source inépuisable de consolation et de force dans ces mots : ,(inlatin[Non sicut ego volo, sed sicut tu]).
@@ -35,6 +33,9 @@ Si encore tout se bornait aux doctrines et aux actes de ,(np "palmerston" [lord 
 ][,(tag :a :name "schwabe_ref")
 Mais tout en politiquant, j’oublie de vous dire que, pour me conformer aux ordonnances des médecins, sans y avoir grand’foi, je pars pour l’Italie. Ils m’ont condamné à passer cet hiver à Pise, en Toscane. De là, j’irai sans doute visiter Florence et Rome. Si vous avez là quelques amis assez intimes pour que je puisse me présenter à eux, veuillez me les signaler, sans vous donner la peine de faire des lettres de recommandation. Si je savais où trouver ,(np "schwabe_s" [monsieur]) et ,(np "schwabe_j" [madame Schwabe]), je les préviendrais de cette excursion afin de prendre leurs ordres. Quand vous aurez occasion de leur écrire, veuillez leur faire part de ce voyage.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

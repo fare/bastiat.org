@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 26 juillet 1844")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/46/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 46.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Eaux-Bonnes, le 26 juillet 1844.])
 ,(p*[
 Ta lettre m’a fait une pénible impression, ,(np "coudroy" [mon cher Félix]), non point par les nouvelles que tu me donnes des perspectives électorales, mais à cause de ce que tu me dis de toi, de ta santé, et de la lutte terrible que se livrent ton âme et ton corps. J’espère pourtant que tu as voulu parler de l’état habituel de ta santé, et non pas d’une recrudescence qui se serait manifestée depuis mon départ. Je comprends bien tes peines, d’autant plus qu’à un moindre degré je les éprouve aussi. Ces misérables obstacles, que la santé, la fortune, la timidité élèvent comme un mur d’airain entre nos désirs et le théâtre où ils pourraient se satisfaire, est un tourment inexprimable. Quelquefois je regrette d’avoir bu à la coupe de la science, ou du moins de ne pas m’en être tenu à la philosophie synthétique et mieux encore à la philosophie religieuse. On y puise au moins des consolations pour toutes les situations de la vie, et nous pourrions encore arranger tolérablement ce qui nous reste de temps à passer ici-bas. Mais l’existence retirée, solitaire, est incompatible avec nos doctrines (qui pourtant agissent sur nous avec toute la force de vérités mathématiques) ; car nous savons que la vérité n’a de puissance que par sa diffusion. De là l’irrésistible besoin de la communiquer, de la répandre, de la proclamer. De plus, tout est tellement lié, dans notre système, que l’occasion et la facilité d’en montrer un chaînon ne peuvent nous contenter ; et pour en exposer l’ensemble il faut des conditions de talent, de santé et de position qui nous feront toujours défaut. Que faire, mon ami ? attendre que quelques années encore aient passé sur nos têtes. ,(tag :a :name "virgile_ref")Je les compte souvent, et je prends une sorte de plaisir à remarquer que plus elles s’accumulent, plus leur marche paraît rapide :
@@ -26,6 +24,9 @@ J’ai profité d’une occasion pour envoyer au ,(tj "je" [,(cite-title[Journal
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), si tu apprends quelque chose de nouveau, fais-m’en part ; mais de toutes les nouvelles la plus agréable que tu puisses me donner, c’est que le découragement dont ta lettre est empreinte n’était dû qu’à une souffrance passagère. Après tout, mon ami, et au milieu des épaisses ténèbres qui nous environnent, attachons-nous à cette idée qu’une cause première, intelligente et miséricordieuse, nous a soumis, par des raisons que nous ne pouvons comprendre, aux dures épreuves de la vie : que ce soit là notre foi. Attendons le jour où elle jugera à propos de nous en délivrer, et de nous admettre à une vie meilleure : que ce soit là notre espérance. Avec ces sentiments au cœur, nous supporterons nos afflictions et nos douleurs…
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

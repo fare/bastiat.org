@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 22 juillet 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/73/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 73.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, le 22 juillet 1846.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je t’écrivais avant-hier, et je ne serais pas surpris que ma lettre se fût égarée ; car depuis un mois je marche de malentendu en malentendu. Il faudrait une rame de papier pour te raconter tout ce qui m’arrive ; ce ne sont pas choses aimables, mais elles ont ce bon côté, qu’elles me font faire de grands progrès dans la connaissance du cœur humain. Hélas ! il vaudrait mieux peut-être conserver le peu d’illusions qu’on peut avoir à notre âge.
@@ -25,6 +23,9 @@ Adieu, ,(np "coudroy" [mon cher Félix]), je ne fermerai ma lettre que ce soir, 
 ](nbsp)[,(tag :a :name "blanqui_ref")
 ,(inlatin[P. S.]) Je viens d’avoir une entrevue importante, je te conterai cela. Mais le résultat est que Bordeaux ne me portera pas, on veut un ,(emph[Économiste]) qui soit du juste milieu. Le ministère a recommandé ,(np "blanqui" [,(emph[Blanqui])]).
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

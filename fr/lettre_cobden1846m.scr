@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 22 octobre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/142/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 142.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 22 octobre 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), je commençais à m’inquiéter de votre silence. Enfin je reçois votre lettre du … et me réjouis d’apprendre que vous et ,(np "cobden_c" [madame Cobden]) vous trouvez au mieux de l’Espagne. Que sera-ce quand vous verrez l’Andalousie ! Autant que j’ai pu le remarquer, il y a dans les manières, à Séville et à Cadix, un air d’égalité entre les classes, qui réjouit l’âme. Je suis enchanté d’apprendre qu’il y a de bons ,(inenglish[free-traders]) au delà des Pyrénées. Ils nous feront peut-être honte. Cher ami, je crois que nous avons cela de commun, que nous sommes exempts de jalousie personnelle. Mais avez-vous de la jalousie nationale ? Pour moi, je ne m’en sens guère. Je voudrais bien que mon pays donnât de bons exemples, mais à défaut, j’aime encore mieux qu’il en reçoive que s’il fallait attendre un siècle pour qu’il prît la tête. — Et puis…. je ne puis retenir ici une réflexion philosophique. — Les nations s’enorgueillissent beaucoup d’avoir produit un grand musicien, un bon peintre, un habile capitaine, comme si cela ajoutait quelque chose à notre propre mérite. L’on dit : « Le Français invente, l’Anglais encourage. » Morbleu ! ne voyez-vous pas que l’invention est un ,(emph[fait personnel]) et l’encouragement un ,(emph[fait national ?])
@@ -27,6 +25,9 @@ Je ne sais si c’est à ma honte ou à ma gloire, mais je n’ai rien lu ,(inen
 ][
 Adieu, mon frère d’armes, soignez bien votre santé et celle de ,(np "cobden_c" [madame Cobden]), à qui je présente mes civilités. Méfiez-vous de l’air de l’Espagne qui est fort traître et détruit les poumons sans avoir l’air d’y toucher.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

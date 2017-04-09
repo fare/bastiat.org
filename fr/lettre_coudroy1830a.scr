@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 4 août 1830")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/21/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 21.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bayonne, 4 août 1830.])
 ,(p*[
 ,(np "felix" [Mon cher Félix]), l’ivresse de la joie m’empêche de tenir la plume. Ce n’est pas ici une révolution d’esclaves, se livrant à plus d’excès, s’il est possible, que leurs oppresseurs ; ce sont des hommes éclairés, riches, prudents, qui sacrifient leurs intérêts et leur vie pour acquérir l’ordre et sa compagne inséparable, la liberté. Qu’on vienne nous dire après cela que les richesses énervent le courage, que les lumières mènent à la désorganisation, etc., etc. Je voudrais que tu visses Bayonne. Des jeunes gens font tous les services dans l’ordre le plus parfait, ils reçoivent et expédient les courriers, montent la garde, sont à la fois autorités communales, administratives et militaires. Tous se mêlent, bourgeois, magistrats, avocats, militaires. C’est un spectacle admirable pour qui sait le voir ; et je n’eusse été qu’à demi de la secte écossaise ,(footnote*[Dans la pensée de Bastiat, l’économie politique et la politique étaient inséparables. Il rattache ici les idées libérales aux enseignements de l’illustre professeur à l’université de Glasgow, ,(np "smith" [Adam Smith]). ,(NdEEO)]), j’en serais doublement aujourd’hui.
@@ -47,6 +45,9 @@ Adieu, je suis fatigué d’écrire, je dois oublier bien des choses ; il est m
 ])
 ,(politesse[Adieu.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

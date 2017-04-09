@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Projet de discours libre-échangiste à prononcer à Bayonne, par Frédéric Bastiat")
-
-(document :title [Projet de discours libre-échangiste à prononcer à Bayonne ,(footnote*[C’est au sortir de Marseille (voir t. II, p. 203 et suiv.) que l’auteur eut l’idée de visiter sa ville natale, et d’y prendre la parole en faveur de la liberté d’échanger. J’ignore pourquoi ce projet ne fut pas exécuté. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/178/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 38, p. 178.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[(Rédigé sans doute fin août ou début septembre 1847.)])
 ,(cher[Messieurs,])
 ,(p*[
@@ -130,5 +127,8 @@ Vous le savez, la Ligue s’efforçait d’étendre dans les trois royaumes l’
 ][
 Aussi qu’est-il arrivé ? Une chose à laquelle on devait s’attendre : c’est que l’esprit du monopole qui, au Parlement, a cédé sur un point et sans conviction à l’empire de la nécessité, n’en dirige pas moins la politique de la Grande-Bretagne ,(footnote*[Ici s’arrête le manuscrit du discours projeté. Quelques notes qui y sont jointes indiquent comment l’auteur entendait le terminer. Il devait exposer que l’esprit de liberté et l’esprit d’oppression se livreraient encore plus d’un combat au Parlement ; que le parti libéral y était devenu plus fort depuis les dernières élections ; que ce parti, d’après ses actes anciens et récents, méritait la confiance et la sympathie de la France. En d’autres termes, il devait développer devant le public de Bayonne la même idée qu’on trouve dans quelques-uns de ses écrits, notamment t. III, p. 459, et au présent volume, dans l’ébauche intitulée ,(cite-title[Anglomanie, anglophobie]). ,(NdEEO)]).
 ])])
+(document :title [Projet de discours libre-échangiste à prononcer à Bayonne ,(footnote*[C’est au sortir de Marseille (voir t. II, p. 203 et suiv.) que l’auteur eut l’idée de visiter sa ville natale, et d’y prendre la parole en faveur de la liberté d’échanger. J’ignore pourquoi ce projet ne fut pas exécuté. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

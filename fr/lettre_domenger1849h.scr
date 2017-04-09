@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
-(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/401/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 401.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Sans date.])
 ,(p*[
 Mon élection, que j’appris il y a deux jours, va me donner plus d’affaires après qu’avant : car, si j’ai pu la négliger un peu, je ne dois pas au moins oublier d’exprimer à mes amis toute ma reconnaissance, non pas du service qu’ils m’ont rendu, mais de l’attachement et de la confiance qu’ils m’ont témoignés. Vous êtes en première ligne, et je suis profondément touché du zèle que vous y avez mis, d’autant que cela a dû beaucoup vous coûter. Je sais que vous répugnez à cette agitation électorale et que depuis longtemps vous aspirez à n’y prendre qu’une part toute personnelle. D’un autre côté, vous avez dû vous mettre en opposition avec beaucoup de vos amis. Croyez que toutes ces circonstances me font d’autant plus apprécier votre dévouement.
@@ -20,6 +18,9 @@ Au fond, il ne devrait y avoir entre les deux classes qu’une question d’imp�
 ][
 Je vous dirai que j’ai dans la tête une pensée qui m’absorbe, me détourne de mes devoirs et me fait négliger mes amis. C’est une explication nouvelle de ces deux mots : ,(emph[Propriété, Communauté]). Je crois pouvoir démontrer de la manière la plus évidente que l’ordre naturel des sociétés fonde, sur la propriété même, la plus belle, la plus large et la plus progressive communauté. Cela vous paraîtra paradoxal, mais j’ai dans l’esprit ,(emph[certitude complète]). Il me tarde de pouvoir jeter cette pensée dans le public, car il me semble qu’elle réconciliera les hommes sincères de toutes les écoles. Elle ne ramènera pas sans doute les chefs de sectes. Mais elle empêchera la jeunesse des écoles d’aller s’enrôler sous les drapeaux du communisme. Suis-je sous l’empire d’une illusion ? — C’est possible, mais le fait est que je sèche du désir de publier mon idée. Je crains toujours de n’avoir pas le temps, et lorsque le choléra décimait l’Assemblée, je disais à Dieu : Ne me retirez pas de ce monde avant que je n’aie accompli ma mission.
 ])])
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

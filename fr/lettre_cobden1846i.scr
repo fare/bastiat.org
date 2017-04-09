@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 25 juin 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/134/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 134.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 25 juin 1846.])
 ,(p*[
 Ce n’est point à vous de vous excuser, ,(np "cobden" [mon cher Monsieur]), mais à moi ; car vous faites un grand et noble usage de votre temps, et moi, qui gaspille le mien, je n’aurais pas dû rester si longtemps sans vous écrire. Vous voilà au terme de vos travaux. L’heure du triomphe a sonné pour vous. Vous pouvez vous rendre le témoignage que vous aurez laissé sur cette terre une profonde empreinte de votre passage ; et l’humanité bénira votre nom. Vous avez conduit votre immense agitation avec une vigueur, un ensemble, une prudence, une modération qui seront un éternel exemple pour tous les réformateurs futurs ; et, je le dis sincèrement, le perfectionnement que vous avez apporté à l’,(emph[art d’agiter]) sera pour le genre humain un plus grand bien que l’objet spécial de vos efforts, quelle qu’en soit la grandeur. Vous avez appris au monde que la vraie force est dans l’opinion, et vous lui avez enseigné comment on met cette force en œuvre. De ma propre autorité, ,(np "cobden" [mon cher Cobden]), je vous décerne la palme de l’immortalité et je vous marque au front du signe des grands hommes.
@@ -23,6 +21,9 @@ Vous ne me parlez pas de votre santé. J’espère qu’elle s’est un peu rét
 ][,(tag :a :name "sylla_ref")
 Vous allez donc dissoudre la Ligue ! Quel instructif et imposant spectacle ! Qu’est-ce auprès d’un tel acte d’abnégation que l’abdication de ,(np "sylla" [Sylla]) ? — Voici pour moi le moment de refaire et de compléter ,(ref :url "cobden_ligue.html" [mon ,(cite-title[Histoire de la Ligue])]). Mais en aurai-je le temps ? Le courant des affaires absorbe toutes mes heures. Il faut aussi que je fasse une seconde édition de mes ,(ref :url "sophismes.html" [,(cite-title[Sophismes])]), et je voudrais beaucoup faire encore un petit livre intitulé : ,(ref :url "harmonies.html" [,(cite-title[Harmonies économiques])]). Il ferait le pendant de l’autre ; le premier démolit, le second édifierait.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

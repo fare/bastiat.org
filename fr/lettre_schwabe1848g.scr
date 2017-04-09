@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Schwabe
 du 25 octobre 1848")
-(document :title [Lettre à ,(np "schwabe_s" [M. Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/426/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 426.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 25 octobre 1848.])
 ,(p*[… Je vous remercie de vos offres obligeantes. On ne quitte jamais d’aussi bons amis sans projeter de les revoir. Il serait trop cruel de ne pas nourrir cette espérance. Mais hélas ! elle n’est souvent qu’une illusion, car la vie est bien courte et Manchester est bien loin. Peut-être me sera-t-il donné de vous faire les honneurs de mes chères Pyrénées. Je rêve souvent que votre famille, celle de ,(np "cobden" [Cobden]), celle de ,(np "say_h" [Say]) et moi, nous nous trouverons un jour tous réunis dans une de mes fraîches vallées. Ce sont là des plans que les hommes exécuteraient certainement s’ils savaient vivre.
 ][
@@ -18,6 +16,9 @@ Je conçois que le choléra vous effraye, vous qui êtes entouré d’une aussi 
 ])
 ,(politesse[Adieu, etc.])
 ])
+(document :title [Lettre à ,(np "schwabe_s" [M. Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

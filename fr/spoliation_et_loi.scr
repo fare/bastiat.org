@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Spoliation et loi
 	- par Frédéric Bastiat")
-(document :title "Spoliation et loi"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco26soci#page/160/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 26, n° 110, p. 160.]
 [,(ref :url "https://books.google.fr/books?id=k__Hhn2M5sgC&hl=fr&pg=PA16#v=onepage&q&f=false" [,(cite-title[Spoliation et loi])]), p. 16.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 1.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 mai 1850.])
 ,(h2[À Messieurs les Protectionistes du Conseil général des Manufactures.
 ,(footnote*[
@@ -579,6 +577,9 @@ pamphlet compris dans le précédent volume.
 
 
 ])])
+(document :title "Spoliation et loi"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

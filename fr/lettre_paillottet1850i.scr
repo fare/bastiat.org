@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 8 décembre 1850")
-(document :title "Lettre à Prosper Paillottet"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 207.]
 [,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=66" [,(cite-title[Lettres d’un habitant des Landes])]), p. 130.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Rome, 8 décembre 1850.])
 ,(p*[
 ,(np "paillottet" [Cher Paillottet]), suis-je mieux ? Je ne puis le dire ; je me sens toujours plus faible. Mes amis croient que les forces me reviennent. Qui a raison ?
@@ -31,6 +29,9 @@ Pressentant que je ne pourrais accepter le combat, j’ai ajouté à ,(ref :url 
 ][,(tag :a :name "chevalier_ref")
 Je vous prie d’écrire à ,(np "chevalier" [Michel Chevalier]), de lui dire combien je suis reconnaissant de son excellent article sur ,(ref :url "harmonies.html" [mon livre]). Il n’a d’autre défaut que d’être trop bienveillant et de laisser trop peu de place à la critique. Dites à ,(np "chevalier" [Chevalier]) que je n’attends qu’un peu de force pour lui adresser moi-même l’expression de mes vifs sentiments de gratitude. Je fais des vœux sincères pour qu’il hérite du fauteuil de ,(np "droz" [M. Droz]) ; ce ne sera que tardive justice.
 ])])
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

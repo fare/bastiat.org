@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 11 novembre 1850")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/104/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 104.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Rome, le 11 novembre 1850.])
 ,(p*[
 Si je renvoie de jour en jour à t’écrire, ,(np "coudroy" [mon cher Félix]), c’est qu’il me semble toujours que sous peu j’aurai la force de me livrer à une longue causerie. Au lieu de cela, je suis forcé de restreindre toujours davantage mes lettres, soit que ma faiblesse augmente, soit que je me déshabitue de la plume. — Me voici dans la ville éternelle, mon ami, malheureusement fort peu disposé à en visiter les merveilles. J’y suis infiniment mieux qu’à Pise, entouré d’excellents amis qui m’enveloppent de la sollicitude la plus affectueuse. ,(tag :a :name "monclar_ref")De plus, j’y ai retrouvé ,(np "monclar" [Eugène]), qui vient passer avec moi une partie de la journée. Enfin, si je sors, je puis toujours donner à mes promenades un but intéressant. Je ne demanderais qu’une chose, être soulagé de ce que mon mal au larynx a d’aigu ; cette continuité de souffrance me désole. Les repas sont pour moi de vrais supplices. Parler, boire, manger, avaler la salive, tousser, tout cela sont des opérations douloureuses. Une promenade à pied me fatigue, la promenade en voiture m’irrite la gorge, je ne puis pas travailler ni même lire sérieusement. Tu vois où j’en suis réduit. Vraiment, je ne serai bientôt plus qu’un cadavre qui a retenu la faculté de souffrir : j’espère que les soins que je suis décidé à prendre, les remèdes qu’on me fait, et la douceur du climat, adouciront bientôt un peu ma situation si déplorable.
@@ -23,6 +21,9 @@ Adieu, ,(np "coudroy" [mon cher Félix]), à moins d’être tout à fait hors d
 ][,(tag :a :name "bastiat_j_ref")
 Mes souvenirs à tous les amis ; donne de mes nouvelles à ,(np "bastiat_j" [ma tante]) ; présente mes amitiés à ta sœur.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

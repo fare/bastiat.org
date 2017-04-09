@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Mémoire sur la question vinicole")
-
-(document :title "Mémoire sur la question vinicole"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/261/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 261.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[22 janvier 1843.])
 ,(cher[Messieurs,])
 ,(p*[
@@ -182,5 +179,8 @@ En conséquence, et en l’absence de comités spéciaux, dont elle regrette de 
 ][,(tag :a :name "cunin_ref")
 Copies de la présente délibération seront transmises, par les soins de M. le Secrétaire de la Société, à ,(np "cunin" [M. le Ministre du commerce]), aux Commissions des Chambres qu’elles concernent et au secrétariat des Comités vinicoles.
 ])])
+(document :title "Mémoire sur la question vinicole"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

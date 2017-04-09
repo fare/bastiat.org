@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Projet de ligue anti-protectioniste, par Frédéric Bastiat")
-
-(document :title "Projet de ligue anti-protectioniste"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/30/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 6, p. 30.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 8 février 1846.])
 ,(p*[
 On assure que Bordeaux est en travail d’une association pour la liberté commerciale. Sera-t-il permis à l’auteur de cet article, quelque besoin qu’il ait d’avis en toute autre matière, d’exprimer le sien en celle-ci ? Il a étudié les travaux, l’esprit et les procédés de la Ligue anglaise ; il en connaît les chefs ; il sait quels obstacles ils ont eu à vaincre, quels pièges à déjouer, quels écueils à éviter, quelles objections à résoudre ; à quelles qualités de l’esprit et du cœur ils doivent leurs glorieux succès ; il a vu, entendu, observé, approfondi. Il ne fallait pas moins pour qu’il eût la présomption d’élever la voix dans une ville où il y a tant de citoyens capables de mener à bien une grande entreprise, pour qu’il osât tracer une sorte de programme de la ligue française anti-protectioniste.
@@ -27,6 +24,9 @@ Au reste, il n’est pas question ici de prouver la doctrine. Il faut admettre q
 ][
 3° Une troisième condition de succès, non moins essentielle que les deux autres, c’est l’abjuration de tout ,(emph[esprit de parti])…… Mais voilà assez de sujets de méditation pour un jour.
 ])])
+(document :title "Projet de ligue anti-protectioniste"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

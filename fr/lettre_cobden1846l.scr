@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 29 septembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/140/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 140.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 29 septembre 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), je suis allé chez ,(np "lomenie" [M. de Loménie]), il est venu chez moi, et nous ne nous sommes pas encore rencontrés. Mais je le verrai demain et je mettrai à sa disposition tous mes documents et ceux de ,(np "fonteyraud" [Fonteyraud]). En outre, je lui offrirai ma coopération, soit pour traduire, soit pour donner à son article, au besoin, la couleur d’orthodoxie économique. J’ai très-présent à la mémoire le passage de votre discours de clôture, où vous faites une excursion dans l’avenir, et, de là, montrez à vos auditeurs un horizon plus vaste et plus beau que celui que le Pic du midi a étalé à vos yeux. — Ce discours sera traduit et communiqué à ,(np "lomenie" [M. de Loménie]). Il pourrait bien se servir aussi de votre morceau sur l’émigration, qui est vraiment éloquent. Bref, rapportez-vous-en à moi. — Seulement, je dois vous dire que l’on ne parle guère ici de cette ,(emph[galerie des hommes illustres]). On assure que ce genre d’ouvrage est une spéculation sur l’amour-propre des prétendants à l’illustration. Mais peut-être cette insinuation a-t-elle sa source dans des jalousies d’auteurs et d’éditeurs, ,(inlatin[irritabile genus]), la plus vaine espèce d’hommes que je connaisse, après les maîtres d’escrime.
@@ -41,6 +39,9 @@ Chose drôle, je n’éprouvais d’émotion qu’au ,(emph[mollet]). Je compren
 ,(p*[
 Je n’ai vu qu’un journal, ,(tj "commerce" [,(cite-title[le Commerce])]). Voici comment il s’exprime : « M. Bastiat a fait accepter des paraboles économiques, grâce à un débit sans prétention et à une verve toute méridionale. » Ce maigre éloge me suffit, et je n’en voudrais pas davantage ; car Dieu me préserve d’exciter jamais l’envie parmi mes collaborateurs !
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

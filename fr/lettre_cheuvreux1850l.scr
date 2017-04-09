@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du 23 juin 1850")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=45" [,(cite-title[Lettres d’un habitant des Landes])]), p. 89.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Eaux-Bonnes, 23 juin 1850.])
 ,(p*[
 Vous vous êtes donc concertée avec ,(np "cheuvreux_l" [,(Mlle) Louise]), ,(np "cheuvreux_h" [madame]), pour me faire supporter l’éloignement. Au milieu des soucis d’une installation, vous avez trouvé le temps de m’écrire et, qui plus est, vous me faites pressentir que les absents ne perdront rien à vos loisirs de la Jonchère. Oh ! qu’il y a de bonté dans les cœurs de femmes ! ,(tag :a :name "bastiat_j_ref")Je sais bien que je dois beaucoup à ma chétive santé ; rappelez-vous que je disais un jour que les moments dont je me souvenais avec le plus de plaisir étaient ceux de la souffrance, à cause des soins touchants qu’elle m’avait valus de la part de ,(np "bastiat_j" [ma bonne tante]) ; vraiment, mesdames, vous donneriez envie d’être malade ; pourtant il ne faut pas que je fasse ici l’hypocrite ; et, dût votre prochaine lettre en être retardée de vingt-quatre heures, je dois bien avouer que je suis mieux ; je prends les eaux avec précaution, quoique sans l’assistance d’un médecin ; à quoi bon ? Les médecins des eaux sont comme les confesseurs, ils ont toujours le même remède.
@@ -40,6 +38,9 @@ Obtenez mon pardon de ,(np "cheuvreux_l" [,(Mlle) Louise]) ; et ce que d’autr
 ,(politesse[Adieu, votre dévoué,])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

@@ -2,15 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Midi à quatorze heures
 	- par Frédéric Bastiat")
-(document :title "Midi à quatorze heures"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/400/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 60, p. 400.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche inédite, 1847.])
 ,(p*[
 On a fait de l’économie politique
@@ -446,5 +443,9 @@ pour en venir là !…
 
 
 ])])
+(document :title "Midi à quatorze heures"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)]))

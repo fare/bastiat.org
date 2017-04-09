@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "D’un nouveau collége à fonder à Bayonne, par Frédéric Bastiat")
-
-(document :title [D’un nouveau collége à fonder à Bayonne ,(footnote*[Il est probable, mais je n’en suis pas sûr, que cet article, extrait d’un cahier de Bastiat et écrit de sa main, a été inséré dans un journal de Bayonne, en 1834. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/4/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 2, p. 4.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1834.])
 ,(p*[
 Il a été question au conseil municipal de doter Bayonne d’un collége. Mais que voulez-vous ? on ne saurait tout faire à la fois ; il fallait courir au plus pressé, et la ville s’est ruinée pour se donner un ,(emph[théâtre :]) le plaisir d’abord ; l’instruction attendra. D’ailleurs, le théâtre, n’est-ce point aussi une école, et une école de mœurs encore ? Demandez au vaudeville et au mélodrame.
@@ -59,5 +56,8 @@ Voilà donc pour quel résultat vous fatiguez l’enfance, vous la saturez de sy
 ][
 Donc si Bayonne instituait un collége où le latin occupât une heure par jour, ainsi que doit faire un utile accessoire, où le reste du temps fût consacré aux mathématiques, à la physique, à la chimie, à l’histoire, aux langues vivantes, etc., je crois que Bayonne répondrait à un besoin social bien senti et que l’administration actuelle mériterait les bénédictions de la génération qui nous presse.
 ])])
+(document :title [D’un nouveau collége à fonder à Bayonne ,(footnote*[Il est probable, mais je n’en suis pas sûr, que cet article, extrait d’un cahier de Bastiat et écrit de sa main, a été inséré dans un journal de Bayonne, en 1834. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

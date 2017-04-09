@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Pétition d’un économiste, par Frédéric Bastiat")
-
-(document :title "Pétition d’un économiste"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/227/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 52, p. 227.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 2 mars 1848.])
 ,(p*[
 On signe en ce moment une pétition qui demande :
@@ -51,6 +48,9 @@ Les citoyens s’attacheront au pays, parce qu’ils ne s’y sentiront jamais f
 ][
 Convaincu que ce système, qui a au moins le mérite d’être simple et de respecter la dignité humaine, est d’autant meilleur qu’il s’applique à un territoire plus étendu et à une population plus nombreuse, parce que c’est là qu’on obtient le plus de sécurité avec le moins d’impôts ; nous en concluons que s’il réussit sur une commune il réussira sur la nation. ,(footnote*[À partir du second numéro de la République française, celui du 27 février, jusqu’au n° 5, du ,(1er) mars 1848, le nom de Bastiat figure à la dernière ligne du journal avec les noms de ses autres rédacteurs. Il n’en est plus ainsi dans les numéros suivants : Bastiat ne signe plus le journal ; il se borne à signer ses propres articles. ,(NdEEO)])
 ])])
+(document :title "Pétition d’un économiste"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

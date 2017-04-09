@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Recettes protectionnistes
 	- par Frédéric Bastiat")
-(document :title "Recettes protectionnistes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=23" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 5, p. 40.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/342/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 53, p. 358.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 décembre 1846.])
 ,(p*[
 
@@ -240,6 +238,9 @@ Voilà pourquoi elle se commet.
 
 
 ])])
+(document :title "Recettes protectionnistes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

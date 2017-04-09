@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du 8 octobre 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=26" [,(cite-title[Lettres d’un habitant des Landes])]), p. 50.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[8 octobre 1849.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -21,10 +19,13 @@ La discussion sur le socialisme a été très-belle ; ,(np "dupin_ch" [Ch. Dupi
 ][
 Pour vous, mesdames, vous vous êtes préparé, à tout événement, des ressources de bonheur dans l’affection de ceux qui vous approchent, et la mère et la fille ne seront-elles pas toujours l’une pour l’autre des anges de consolation ?
 ][
-Permettez-moi aussi d’espérer que vous compterez pour quelque chose l’inaltérable dévouement de votre respectueux ami.
+Permettez-moi aussi d’espérer que vous compterez pour quelque chose l’inaltérable dévouement de votre respectueux ami,
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

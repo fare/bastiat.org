@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la réforme parlementaire, par Frédéric Bastiat")
-
-(document :title "À M. Larnac, député des Landes. De la réforme parlementaire."
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/480/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 480.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1846.])
 
 ,(cher[,(np "larnac" [Monsieur]),])
@@ -173,5 +170,8 @@ Mais l’article 46 de la Charte, dites-vous. ,(--) À cela je n’ai rien à r�
 En terminant cette trop longue lettre, je devrais répondre à ce que vous me dites de votre position personnelle. Je m’en abstiendrai. Vous pensez que la réforme, si elle a lieu, ne pourra vous atteindre, parce que vous ne dépendez pas du pouvoir responsable, mais bien du pouvoir irresponsable. À la bonne heure. La législature a décidé que cette position n’entraîne pas une incapacité légale. Il appartient aux électeurs de décider si elle ne constitue pas l’incapacité morale la plus évidente que se puisse imaginer.])
 ,(politesse[Je suis, monsieur, votre serviteur.])
 ])
+(document :title "À M. Larnac, député des Landes. De la réforme parlementaire."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

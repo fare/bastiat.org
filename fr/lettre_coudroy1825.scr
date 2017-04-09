@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 8 janvier 1825")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/16/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 16.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[8 janvier 1825.])
 ,(p*[
 Je t’envoie ce qui précède, ,(np "coudroy" [mon cher Félix]) ; ça te sera toujours une preuve que je ne néglige pas de te répondre, mais seulement de plier ma lettre. J’ai ce malheureux défaut, qui tient à mes habitudes désordonnées, de me croire quitte envers mes amis quand j’ai écrit, sans songer qu’il faut encore que la lettre parte.
@@ -22,6 +20,9 @@ Tu me parles de l’économie politique, comme si j’en savais là-dessus plus 
 ][
 Je crois que si j’avais eu plus de papier, j’aurais continué cet obscur bavardage. Adieu, je t’aime bien tendrement.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

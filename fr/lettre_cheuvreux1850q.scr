@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Cheuvreux
 du 18 septembre 1850")
-(document :title [Lettre à ,(np "cheuvreux" [M. Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=58" [,(cite-title[Lettres d’un habitant des Landes])]), p. 115.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Marseille, 18 septembre 1850.])
 
 ,(cher[,(np "cheuvreux" [Mon cher monsieur Cheuvreux]),])
@@ -35,6 +33,9 @@ Veuillez, ,(np "cheuvreux" [cher monsieur Cheuvreux]), me rappeler au souvenir d
 ,(politesse[Adieu, ,(np "cheuvreux" [cher monsieur Cheuvreux]).])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux" [M. Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting du 25 janvier 1848, à Manchester. – Discours de MM. Milner, Gibson, Cobden et J. Bright.")
-
-(document :title "Meeting à Manchester. – Discours de MM. Milner, Gibson, Cobden et J. Bright."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/463/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 463.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[25 janvier 1848.])
 ,(p*[
 Jeudi soir, 25 janvier 1848, un grand meeting de ligueurs a été tenu à Manchester pour célébrer l’entrée au Parlement des principaux apôtres de la liberté commerciale.
@@ -93,6 +90,9 @@ Messieurs, le pouvoir du peuple s’étend chaque jour ; efforçons-nous bien d
 
 ,(p*[Des remercîments sont ensuite votés aux membres du Parlement qui ont honoré le banquet de leur présence ; puis l’assemblée se sépare.
 ])])
+(document :title "Meeting à Manchester. – Discours de MM. Milner, Gibson, Cobden et J. Bright."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 ,(cobdenligue)

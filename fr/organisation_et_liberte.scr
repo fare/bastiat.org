@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Organisation et liberté, par Frédéric Bastiat")
-
-(document :title "Organisation et liberté"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n545/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 16, n° 62, p. 106.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/147/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 27, p. 147.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1847.])
 ,(p*[
 Je n’ai pas l’intention de répondre aux cinq lettres que ,(np "vidal" [M. Vidal]) a insérées dans la ,(tj "presse" [,(cite-title[Presse])]), et qui formeraient un volume. J’attendais une conclusion que j’aurais essayé d’apprécier. Malheureusement ,(np "vidal" [M. Vidal]) ne conclut pas.
@@ -144,6 +141,9 @@ Après avoir fait de l’,(emph[école libérale]) le même portrait qu’en don
 ][
 À la bonne heure. Mais, quand on nous accuse, d’un côté, de ne pas descendre de ,(np "rousseau" [Rousseau]), on ne devrait pas nous reprocher, de l’autre, d’être sous l’influence de cet audacieux sophiste.
 ])])
+(document :title "Organisation et liberté"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

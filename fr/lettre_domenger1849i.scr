@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger, été 1849")
-(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/403/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 403.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mardi, 13. (Été de 1849.)])
 ,(p*[
 Vous me demandez de vous donner des nouvelles. Savez-vous que je pourrais en demander ? Depuis quelques jours je me suis fait ermite, et ce qui m’arrive tient du rêve. J’étais fatigué, indisposé ; bref je me décidai à demander un congé, et je le passe au pavillon du Butard. Qu’est-ce que le Butard ? Le voici :
@@ -22,6 +20,9 @@ Je suis venu à Paris. J’y trouve les affaires dans un bien triste état. La s
 ][
 Dans de telles circonstances, je vais être forcé de quitter mon Butard, ou, du moins, de passer une partie des journées sur les grands chemins. Je devrai aussi interrompre ,(ref :url "harmonies.html" [l’ouvrage]) que j’avais commencé à ébaucher, et que j’étais décidé à faire paraître même à l’état informe.
 ])])
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

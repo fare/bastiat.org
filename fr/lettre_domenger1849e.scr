@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 25 mars 1849")
-(document :title "Lettre à Bernard Domenger"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/394/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 394.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[25 mars 1849.])
 ,(p*[
 La dernière fois que je vous ai écrit, je l’ai fait fort à la hâte et ai oublié, je crois, de vous parler élections. Le moment approche, et puisque vous êtes déterminé à me placer sur votre liste, je vous serai bien obligé de me faire savoir de temps en temps ce qui se dit et ce qui se fait. Je me doute qu’il y a dans le pays beaucoup de préventions contre moi, et qu’elles sont entretenues, peut-être envenimées par les aspirants ou quelqu’un d’entre eux. Je sens combien une explication avec mes commettants serait utile, et cependant je ne puis quitter l’Assemblée nationale qu’au moment où elle prononcera sa dissolution. C’est pourquoi j’enverrai bientôt un compte rendu.
@@ -23,6 +21,9 @@ Dans notre département on ne peut guère adresser ce reproche aux représentant
 ][
 Ce sera, l’expérience me le prouve, une chose bien petite que la lutte des arrondissements, si elle éclate. Je puis vous assurer que l’arrondissement de Saint-Sever est celui qui me donne le moins d’affaires. Je ne me rappelle pas d’avoir reçu une seule lettre des chefs-lieux, de Hagermau, d’Amon, de Geaune, d’Aire. Mugron même m’en a envoyé seulement trois pour des choses qui ne sont pas incompatibles avec le mandat de député. Dax et le Saint-Esprit m’en ont fourni davantage. Au total, je suis édifié de voir combien l’esprit de sollicitation s’est épuisé.
 ])])
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

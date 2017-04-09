@@ -2,15 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Le petit manuel du consommateur ou de tout le monde
 	- par Frédéric Bastiat")
-(document :title "Le petit manuel du consommateur ou de tout le monde"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/409/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 61, p. 409.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche inédite, 1847.])
 ,(p*[
 
@@ -263,5 +260,9 @@ Il n’est pas toujours bon d’accroître la généralité des efforts ;
 il n’est jamais mauvais d’accroître la généralité des satisfactions…
 
 ])])
+(document :title "Le petit manuel du consommateur ou de tout le monde"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)]))

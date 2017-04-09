@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Subsistances, par Frédéric Bastiat")
-
-(document :title "Subsistances"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=81" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 24, p. 185.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/63/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 12, p. 63.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 9 mai 1847.])
 ,(p*[
 Quand nous avons entrepris de renverser le régime protecteur, nous nous attendions à rencontrer de grands obstacles.
@@ -60,6 +57,9 @@ En second lieu et surtout, vous n’avez pas le droit de faire ce que vous faite
 ][
 Non, cette terreur pusillanime ne peut durer. Il est par trop absurde et insultant de dire aux Français : « Nous voyons le mal qui vous menace, c’est la cherté du pain. Il n’y a qu’un remède possible, c’est la libre entrée du blé étranger. Mais, pour réclamer cette liberté, il faut parler du danger, et vous n’avez pas assez de courage pour qu’on parle, devant vous, même de dangers éventuels. Donc nous n’en parlerons pas ; nous ne souffrirons pas qu’on en parle. Que les autres peuples aillent faire leurs approvisionnements, le commerce français doit rester dans l’oisiveté, parce que le seul fait d’aller chercher du blé pour apaiser votre faim, troublerait votre quiétude. »
 ])])
+(document :title "Subsistances"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

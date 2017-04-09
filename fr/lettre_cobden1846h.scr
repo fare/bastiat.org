@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 25 mai 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/133/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 133.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 25 mai 1846.])
 ,(p*[
 Voilà bien des jours que je ne vous ai pas écrit, ,(np "cobden" [mon cher monsieur Cobden]), mais enfin je ne pouvais trouver une occasion plus favorable pour réparer ma négligence, puisque j’ai le plaisir d’introduire auprès de vous le Maire de Bordeaux, le digne, le chaleureux président de notre association, ,(np "duffour" [M. Duffour Dubergié]). Je ne pense pas avoir rien à ajouter pour lui assurer de votre part le plus cordial accueil.
@@ -25,6 +23,9 @@ J’avoue que je renoncerai à regret à de ,(emph[beaux noms propres]). C’est
 ][
 Il paraît que les protectionnistes préparent en Angleterre une défense désespérée. Si vous aviez un moment, je vous serais bien obligé de me faire part de votre avis sur l’issue de la lutte. ,(np "duffour" [M. Duffour]) assistera à ce grand combat. J’envie cette bonne fortune.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

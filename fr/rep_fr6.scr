@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
-
-(document :title "Article dans La République française"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/218/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 47, p. 218.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 29 février 1848.])
 ,(p*[
 Le bien général, la plus grande somme possible de bonheur pour tous, le soulagement immédiat des classes souffrantes, — c’est l’objet de tous les désirs, de tous les vœux, de toutes les préoccupations.
@@ -36,6 +33,9 @@ On voit que si le système de l’abondance puisée par l’État dans le peuple
 Nous sommes convaincus, nous, que ce système est mauvais et qu’il en est un autre pour faire le bien du peuple, ou plutôt pour que le peuple fasse son propre bien : celui-ci consiste à donner à l’État tout ce qu’il faut pour qu’il remplisse bien sa mission essentielle, qui est de garantir la sécurité extérieure et intérieure, le respect des personnes et des propriétés, le libre exercice des facultés, la répression des crimes, délits et fraudes, — et après avoir libéralement donné cela à l’État, ,(emph[à garder le reste pour soi]).][
 Puisque enfin le peuple est appelé à exercer son droit, qui est de choisir entre ces deux systèmes, nous les comparerons souvent devant lui, sous tous leurs aspects politiques, moraux, financiers — et économiques.
 ])])
+(document :title "Article dans La République française"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

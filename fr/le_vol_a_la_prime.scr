@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Le vol à la prime
 	- par Frédéric Bastiat")
-(document :title "Le vol à la prime"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n125/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 13, n° 50, p. 115.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f88.image" [,(cite-title[Sophismes économiques II])]), ch. 9.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/189/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 189.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1846.])
 ,(h2[Chapitre IX de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
@@ -150,6 +148,9 @@ Ceux qui parlaient ainsi s’acquirent un grand renom de modération, de prudenc
 ][
 Quant à ceux qui disaient : Réprimons les injustices et les fractions d’injustice ; ne souffrons ni ,(emph[vol]), ni ,(emph[demi-vol]), ni ,(emph[quart de vol]), ceux-là passaient pour des idéologues, des rêveurs ennuyeux qui répétaient toujours la même chose. Le peuple, d’ailleurs, trouvait leurs raisonnements trop à sa portée. Le moyen de croire vrai ce qui est si simple !
 ])])
+(document :title "Le vol à la prime"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

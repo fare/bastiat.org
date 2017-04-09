@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "La protection élève-t-elle le taux des salaires ?
 	- Sophisme économique démonté par Frédéric Bastiat")
-(document :title "La protection élève-t-elle le taux des salaires ?"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f111.image" [,(cite-title[Sophismes économiques])]), ch. 12.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/74/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 74.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XII de la I,(re) série des ,(SophismesEconomiques)])
 
 ,(p*[
@@ -243,6 +241,9 @@ des ,(Har-ref[Harmonies]). ,(NdEEO)
 
 
 ])])
+(document :title "La protection élève-t-elle le taux des salaires ?"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "prix_absolus.html" "theorie_pratique.html")

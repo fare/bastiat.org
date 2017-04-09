@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 5 avril 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/171/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 171.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 5 avril 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), me voici dans ma solitude. Que ne puis-je m’y ensevelir pour toujours, et y travailler paisiblement à celle synthèse économique, que j’ai dans la tête et qui n’en sortira jamais ! — Car, à moins d’un revirement subit dans l’opinion du pays, je vais être envoyé à Paris chargé du terrible mandat de Représentant du Peuple. Si j’avais de la force et de la santé, j’accepterais cette mission avec enthousiasme. Mais que pourront ma faible voix, mon organisation maladive et nerveuse au milieu des tempêtes révolutionnaires ? Combien il eût été plus sage de consacrer mes derniers jours à creuser, dans le silence, le grand problème de la destinée sociale ; d’autant que quelque chose me dit que je serais arrivé à la solution. Pauvre village, humble toit de mes pères, je vais vous dire un éternel adieu ; je vais vous quitter avec le pressentiment que mon nom et ma vie, perdus au sein des orages, n’auront pas même cette modeste utilité pour laquelle vous m’aviez préparé !…
@@ -21,6 +19,9 @@ Quoi donc ! la justice est-elle si difficile à pratiquer, la prudence si diffi
 ][,(tag :a :name "milton_ref")
 Depuis que je suis ici, je ne vois pas de journaux anglais. Je ne sais rien de ce qui se passe dans votre parlement. J’aurais espéré que l’Angleterre prendrait l’initiative de la politique rationnelle, et qu’elle la prendrait avec cette hardiesse vigoureuse dont elle a donné tant d’exemples. J’aurais espéré qu’elle eût voulu ,(inenglish[to teach mankind how to live :]) ,(np "milton" [*]) désarmer, désarmer, abandonner les colonies onéreuses, cesser d’être menaçante, se mettre dans l’impossibilité d’être menacée, supprimer les taxes impopulaires et présenter au monde un beau spectacle d’union, de force, de sagesse, de justice et de sécurité. Mais hélas ! l’Économie politique n’a pas encore assez pénétré les masses, même chez vous.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

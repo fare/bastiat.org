@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réflexions sur l’année 1846, par Frédéric Bastiat")
-
-(document :title "Réflexions sur l’année 1846"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=40" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 10, p. 73.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/22/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 6, p. 22.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 31 janvier 1847.])
 ,(p*[
 L’année 1846 sera pour l’économiste et l’homme d’État un précieux sujet d’étude. En France et en Angleterre, dans les deux pays les plus éclairés, toutes les lois restrictives, qui devaient amener l’abondance, tombent devant la disette. Chose étonnante ! on a recours, pour nourrir le peuple, à cette même liberté qui, disait-on, est un principe de souffrance et de ruine. Il y a là une contradiction flagrante, et s’il est dans la nature de la restriction d’assurer des ,(emph[prix de revient]) aux industries agricole et manufacturière, et, par suite, des salaires aux ouvriers, c’était le cas plus que jamais de renforcer le système restrictif, alors que les prix de revient échappaient aux agriculteurs, et, par suite, les salaires aux ouvriers ; ,(tag :a :name "montaigne_ref")mais si on eût été assez fou, on n’eût pas été assez fort ,(np "montaigne" [*]).
@@ -26,6 +23,9 @@ Nous comprenons que, lorsqu’un obstacle se présente, la première pensée qui
 ][,(tag :a :name "bentinck_ref")
 Un autre trait fort remarquable, c’est l’accès inattendu de philanthropie qui a saisi tout à coup les monopoleurs. Eux, qui pendant tant d’années ont opéré systématiquement la cherté du blé à leur profit, ils se révoltent maintenant avec une sainte ardeur contre tout ce qui tend à renchérir le blé, notamment contre les profits du commerce et de la marine. À la Chambre des lords, le fameux protectioniste ,(np "bentinck" [lord Bentinck]) a fait une violente sortie contre les ,(emph[spéculateurs ;]) et rappelant que ,(np "nadir" [Nadir Shah]) avait fait pendre un Arménien pour avoir accumulé du blé et créé ainsi une hausse artificielle : « Je suivrais volontiers cette politique, a-t-il ajouté, seulement en modifiant la forme du châtiment. » Hélas ! si depuis 1815 on avait pendu tous ceux qui ont causé artificiellement une hausse du prix des produits, toute l’Angleterre y aurait passé, à commencer par l’aristocratie, et ,(np "bentinck" [lord Bentinck]) en tête. En France, il faudrait pendre les trois quarts de la nation, et notamment tous les pairs et tous les députés, puisqu’ils viennent de voter qu’au mois d’août prochain la ,(emph[cherté artificielle]) recommencerait par la résurrection de l’échelle mobile.
 ])])
+(document :title "Réflexions sur l’année 1846"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

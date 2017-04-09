@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 23 septembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/138/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 138.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 23 septembre 1846.])
 ,(p*[
 Bien que je n’aie pas grand’chose à vous apprendre, mon cher ami, je ne veux pas laisser plus de temps sans vous écrire.
@@ -27,6 +25,9 @@ Je suis impatient d’apprendre si vous avez visité nos délicieuses Pyrénées
 ][
 Je reviens aux associations. Il s’en forme une de ,(emph[protectionnistes]). C’est ce qui pouvait nous arriver de plus heureux, car nous avons bien besoin de ,(emph[stimulant]). — On dit qu’il s’en forme une autre pour le Libre-échange en ,(emph[matières premières]) et la ,(emph[protection des manufactures]). Celle-là du moins n’a pas la prétention de s’établir sur un ,(emph[principe]) et de compter la justice pour quelque chose. Aussi elle s’imagine être éminemment ,(emph[pratique]). Il est clair qu’elle ne pourra pas tenir sur pied, et qu’elle sera absorbée par nous.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

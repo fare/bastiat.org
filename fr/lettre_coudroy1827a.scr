@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 9 avril 1827")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/18/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 18.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, 9 avril 1827.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), n’étant pas encore fixé sur l’époque de mon retour à Mugron, je veux rompre la monotonie de mon éloignement par le plaisir de t’écrire, et je commence par te donner quelques nouvelles littéraires.
@@ -25,6 +23,9 @@ Pour la somme de 3 francs par mois, j’assiste à un cours de botanique qui se 
 ][
 Voilà du babil ; s’il ne t’en coûtait pas autant d’écrire, je te prierais de me ,(emph[payer de retour]).
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

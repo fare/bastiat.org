@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre à M. Dampierre")
-
-(document :title "Lettre à M. Dampierre"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/300/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 72, p. 300.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[3 juillet 1846.])
 
 ,(cher[,(np "dampierre" [Monsieur Dampierre]),])
@@ -30,6 +27,9 @@ En résumé, monsieur, comme candidat, je me bornerai à publier une profession 
 ])
 ,(politesse[Veuillez, etc…])
 ])
+(document :title "Lettre à M. Dampierre"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 ,(oeuvres)

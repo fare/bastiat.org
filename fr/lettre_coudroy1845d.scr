@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 16 juin 1845")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/57/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 57.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[16 juin 1845.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je t’annonce que ma ,(ref :url "cobden_ligue.html" [,(cite-title[Ligue])]) est imprimée ; on est maintenant après l’introduction, et cela ne peut durer plus de huit jours. Il y a donc apparence qu’à la fin du mois, je serai libre de partir pour Londres, et que, le 15 juillet, j’aurai le plaisir de t’embrasser. ,(tag :a :name "dunoyer")Demain, je dîne chez ,(np "dunoyer" [Dunoyer]) avec toute notre secte, ,(np "dussard" [Dussard]), ,(np "reybaud" [Reybaud]), ,(np "fix" [Fix]), ,(np "rossi" [Rossi]), ,(np "say_h" [Say]). Je ne fermerai ma lettre qu’après, au cas que j’aie quelque chose à te conter. ,(tag :a :name "je_ref")Dimanche, on me fit une ouverture ; peut-être en sera-t-il question demain. Il y a tant de pour et de contre que je ne saurai jamais me décider sans toi. C’est d’être le directeur du ,(tj "je" [,(cite-title[Journal des Économistes])]). Au point de vue pécuniaire, c’est une misérable affaire ; il s’agit de cent louis par an, rédaction comprise. Mais tu comprendras facilement combien cette position doit aller à mes goûts. D’abord ce journal, bien dirigé, peut exercer sur la chambre, et par contre-coup sur la presse, une grande influence. Si l’économiste qui sera là établit sa réputation de supériorité dans sa spécialité, il est impossible qu’il ne se fasse pas quelque peu redouter des protectionistes, des réformateurs, en un mot, des ignorants de toute espèce. Par la parole, je n’irai jamais bien loin, parce que je manque de confiance, de mémoire et de présence d’esprit ; mais ma plume a assez de dialectique pour faire honte à certains de nos hommes d’État.
@@ -21,6 +19,9 @@ Quant au travail, il n’est pas de nature, comme le journalisme quotidien, à m
 ][,(tag :a :name "bastiat_j_ref")
 Voilà le pour. — Mais il faut quitter Mugron. Il faut me séparer de ceux que j’aime, il faut que je laisse ,(np "bastiat_j" [ma pauvre tante]) s’acheminer vers la vieillesse dans la solitude, il faut que je mène ici une vie sévère, que je voie s’agiter les passions sans les partager ; que j’aie sans cesse sous les yeux le spectacle des ambitions satisfaites sans permettre à ce sentiment de s’approcher de mon cœur ; car toute notre force est dans nos principes, et dans la confiance que nous savons inspirer. Aussi ce n’est pas ce que je redoute. La simplicité des habitudes est loin de m’effrayer.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

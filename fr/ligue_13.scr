@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Banquet à Wakefield.")
-
-(document :title "Banquet à Wakefield.."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n294/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 189.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 238.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Extrait du ,(cite-title[Morning-Chronicle]), 31 janvier 1844.])
 ,(p*[
 
@@ -34,6 +31,9 @@ Après les toasts d’usage, le président se lève et dit :])
 
 ,(p*[Quelle que soit l’éloquence déployée par les orateurs qui se sont succédé, l’assemblée demeure longtemps encore sous l’impression de cette conférence qui laisse indécis un événement d’une haute importance. — Elle se sépare à minuit, des trains spéciaux ayant été retenus sur tous les chemins de fer, pour ramener chacun des assistants à son domicile.
 ])])
+(document :title "Banquet à Wakefield.."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

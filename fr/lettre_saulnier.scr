@@ -2,14 +2,11 @@
 (style 'bo-style)
 (in-bof :title
 "À M. Saulnier")
-
-(document :title [À M. Saulnier, éditeur de la ,(cite-title[Revue britannique])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/443/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 443, en note de bas de page.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Lettre figurant dans les ,(cite-title[Œuvres complètes]) en ,(ref :url "paix_et_liberte.html#saulnier" [note de bas de page]).])
 ,(cher[Monsieur,])
 ,(p*[Vous avez transporté de joie
@@ -116,5 +113,8 @@ des chevaux et du tabac de leur façon.])
 ,(politesse[J’ai l’honneur, etc.])
 ,(sign[Frédéric Bastiat.])
 ])
+(document :title [À M. Saulnier, éditeur de la ,(cite-title[Revue britannique])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[]))

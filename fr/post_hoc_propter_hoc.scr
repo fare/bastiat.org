@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Post hoc, ergo propter hoc
 	- par Frédéric Bastiat")
-(document :title "Post hoc, ergo propter hoc"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=8" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 2, p. 11.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f85.image" [,(cite-title[Sophismes économiques II])]), ch. 8.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/187/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 187.])
 ])
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 6 décembre 1846.])
 ,(h2[Chapitre VIII de la seconde série des ,(SophismesEconomiques)])
@@ -100,6 +98,9 @@ s’il était manchot et lépreux par dessus le marché.])
 
 
 ])])
+(document :title "Post hoc, ergo propter hoc"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

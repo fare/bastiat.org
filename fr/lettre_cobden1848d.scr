@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 11 mai 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/173/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 173.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 11 mai 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), il ne m’est pas possible de vous écrire longuement. D’ailleurs, que vous dirais-je ? Comment prévoir ce qui sortira du sein d’une assemblée de 900 personnes, qui ne sont contenues par aucune règle, par aucun précédent ; qui ne se connaissent pas entre elles ; qui sont sous l’empire de tant d’erreurs ; qui ont à satisfaire tant d’espérances justes ou chimériques, et qui pourtant peuvent à peine s’entendre et délibérer, à cause de leur nombre et de l’immensité de la salle ? Ce que je puis dire, c’est que l’assemblée nationale a de bonnes intentions. L’esprit démocratique y domine. Je voudrais pouvoir en dire autant de l’esprit de paix et de non-intervention. Nous le saurons lundi. C’est ce jour-là qu’on a fixé pour la conversation sur la Pologne et l’Italie.
@@ -25,6 +23,9 @@ Maintenant, je voudrais faire servir cette enquête à faire jaillir la vérité
 ][
 Les préventions antibritanniques sont encore loin d’être éteintes ici. On pense que les Anglais s’appliquent à contrarier, sur le continent, la politique franco-républicaine ; et cela ne m’étonnerait pas de la part de votre aristocratie. Aussi je suivrai avec un vif intérêt votre nouvelle agitation, en faveur des réformes politiques et économiques qui peuvent diminuer l’influence au dehors de la ,(inenglish[Squirarchy]).
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

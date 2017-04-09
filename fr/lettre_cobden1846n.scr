@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 22 novembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/144/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 144.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 22 novembre 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), je vous remercie de m’avoir mis à même de vous suivre dans votre voyage, par les journaux de Madrid, de Séville et de Cadix. Les témoignages de sympathie que vous recevez partout arrivent, ,(inenglish[through you]), à notre belle cause. Cela me réjouit l’âme de voir que les hommages des peuples vont enfin à la bonne adresse, au lieu de s’égarer, selon l’usage, vers les actions, quels qu’en soient les motifs, qui infligent les maux les plus évidents à la pauvre humanité. ,(tag :a :name "cobden_c_ref")En même temps, il m’est bien agréable d’apprendre que vous jouissez d’une bonne santé et que celle de ,(np "cobden_c" [madame Cobden]) n’a pas eu à souffrir d’un si long voyage.
@@ -29,6 +27,9 @@ Je reçois à l’instant une lettre de Bordeaux. Elle me donne l’espérance q
 ][
 Une autre bonne fortune m’arrive en ce moment. Les ,(emph[ouvriers]) m’engagent à aller les trouver et à m’entendre avec eux. Si je les avais, ils entraîneraient le parti démocratique. J’y ferai tous mes efforts.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

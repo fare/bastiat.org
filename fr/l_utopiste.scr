@@ -1,16 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’utopiste, par Frédéric Bastiat")
-
-(document :title "L’utopiste"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=35" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 8, p. 63.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k11671618/f107.image" [,(cite-title[Sophismes économiques II])]), ch. 11.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/204/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 204.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 17 janvier 1847.])
 ,(h2[Chapitre XI de la seconde série des ,(SophismesEconomiques)])
 ,(p*[
@@ -305,6 +302,9 @@ Art. 2. À moins qu’il ne prouve, à 21 ans, savoir parfaitement l’école de
 — À la bonne heure ! alors je ne suis plus ministre, et mes plans restent ce qu’ils sont, des ,(strong[utopies]).
 
 ])])
+(document :title "L’utopiste"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

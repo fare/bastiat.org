@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 13 décembre 1849")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/100/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 100.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 13 décembre 1849.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), c’est une chose triste que notre correspondance se soit ainsi ralentie. Ne va pas en conclure, je t’en prie, que ma vieille amitié pour toi se soit refroidie ; au contraire, il semble que le temps et la distance, ces deux grands poëtes, prêtent un charme au souvenir de nos promenades et de nos conversations. Bien souvent je regrette Mugron, et son calme philosophique, et ses loisirs féconds. Ici, la vie s’use à ne rien faire, ou du moins à ne rien produire.
@@ -23,6 +21,9 @@ Mardi, je commence mon cours à la jeunesse des écoles. Tu vois que la besogne 
 ][
 Je ne te parle que de moi, ,(np "coudroy" [mon cher Félix]), imite cet exemple, et parle-moi beaucoup de toi. Si tu voulais suivre mon conseil, je t’engagerais fortement à faire quelque chose d’utile ; par exemple, une série de petits pamphlets. Ils sont longs à pénétrer dans les masses, mais ils finissent par faire leur œuvre.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

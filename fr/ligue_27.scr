@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Démonstration en faveur de la liberté commerciale à Walsall.")
-
-(document :title "Démonstration en faveur de la liberté commerciale à Walsall."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n493/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 390.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/404/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 404.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[11 septembre 1844.])
 ,(p*[
 Un autre trait caractéristique des mœurs politiques que la liberté paraît avoir pour tendance de développer, c’est l’affranchissement de la femme, et son intervention, du moins comme juge, dans les grandes questions sociales. Nous croyons que la femme a su prendre le rôle le mieux approprié à la nature de ses facultés, dans une réunion dont, par ce motif, nous croyons devoir analyser succinctement le procès-verbal.])
@@ -42,6 +39,9 @@ Mais, à la fin de 1844, ,(np "cobden" [M. Cobden]) conçut l’idée de porter
 ][
 Aussitôt le plan arrêté, la Ligue le mit à exécution avec celte activité prodigieuse qui ne lui a jamais fait défaut, et que nous avons peine à croire, tant elle est loin de nos idées et de nos mœurs politiques. Dans l’espace de dix semaines, ,(np "cobden" [M. Cobden]) a assisté à ,(emph[trente-cinq]) grands meetings publics, tenus dans les divers comtés du nord de l’Angleterre dans le seul but de propager cette nouvelle croisade électorale. — Nous nous bornerons à donner ici la relation d’un de ces meetings, celui de Londres, qui ouvre d’ailleurs la troisième année de l’agitation dans la métropole.
 ])])
+(document :title "Démonstration en faveur de la liberté commerciale à Walsall."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

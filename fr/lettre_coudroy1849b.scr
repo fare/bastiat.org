@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 15 mars 1849")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/94/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 94.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[15 mars 1849.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), tes lettres sont en effet bien rares, mais elles me sont douces comme cette sensation qu’on éprouve quand on revoit après longtemps le clocher de son village.
@@ -39,6 +37,9 @@ Quant aux élections, j’ignore si je pourrai y assister, je n’irai qu’auta
 ])
 ,(politesse[Adieu.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

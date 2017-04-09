@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue.")
-
-(document :title "Meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n124/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 19.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/96/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 96.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[30 mars 1843.])
 ,(p*[
 Le troisième meeting de la Ligue contre les lois-céréales s’est tenu hier au théâtre de Drury-Lane. La vaste enceinte avait été envahie de bonne heure par une société des plus distinguées.
@@ -62,6 +59,9 @@ Mais la question a encore des aspects moraux qu’il est de notre devoir d’exa
 ])])
 ,(p*[,(np "wilson_g" [Le président]), en proposant un vote de remercîment envers les orateurs, saisit cette occasion pour engager les assistants à propager dans tout le pays les journaux qui contiendront le compte rendu le plus fidèle du présent meeting.
 ])])
+(document :title "Meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

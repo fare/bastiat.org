@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue, 16 mars 1843.")
-
-(document :title "Meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n118/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 13.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/91/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 91.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[16 mars 1843.])
 ,(p*[
 Une brillante démonstration a eu lieu hier soir au théâtre de Drury-Lane. À peine le bruit s’est-il répandu que la Ligue devait tenir dans cette vaste enceinte sa première séance hebdomadaire, que les cartes d’entrées ont été enlevées. La foule encombrait les avenues et les couloirs de l’édifice longtemps après que la salle, les galeries et le parterre étaient occupés par la réunion la plus distinguée et la mieux choisie dont il nous ait jamais été donné d’être les témoins. — Les dames assistaient en grand nombre à la séance et paraissaient en suivre les travaux avec le plus vif intérêt.
@@ -32,6 +29,9 @@ Mais sous quel prétexte maintient-on ces lois ? On nous dit : Pour que le sol
 ]))
 ,(p*[L’orateur continue pendant longtemps. — ,(np "bright" [M. Bright]) lui succède. — À 10 heures le président ferme la séance.
 ])])
+(document :title "Meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

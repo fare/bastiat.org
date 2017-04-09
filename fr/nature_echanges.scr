@@ -1,17 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réponse à la Presse, par Frédéric Bastiat")
-
-(document :title "Réponse à la Presse"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(sources[
 ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=49" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 33, p. 257.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/158/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 28, p. 158.])
 
 ,(voiraussi[,(ref :url "exportation_numeraire.html" [Sur l’exportation du numéraire]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 11 juillet 1847.])
 ,(p*[,(tag :a :name "mu_ref")
 À propos du tableau des importations et exportations en 1846, récemment publié par le ,(tj "mu" [,(cite-title[Moniteur])]), la ,(tj "presse" [,(cite-title[Presse])]) a fait quelques remarques que nous ne pouvons laisser passer sans commentaire.
@@ -66,6 +63,9 @@ Veut-elle insinuer qu’on a eu tort d’ouvrir nos frontières ? il le semble 
 ][
 Approuve-t-elle l’ouverture des ports ? C’est dire qu’il valait mieux exporter des écus et importer du blé que mourir de faim ; mais en ce cas, et quand, grâce à la liberté, nous avons pu entre ces deux maux choisir le moindre, quelle inconséquence n’est-ce pas de lui attribuer le ,(emph[moindre mal]) qu’elle nous a permis de choisir, sans lui tenir compte du ,(emph[mal plus grand]) qu’elle nous a permis d’éviter ?
 ])])
+(document :title "Réponse à la Presse"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

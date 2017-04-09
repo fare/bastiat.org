@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 25 novembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/147/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 147.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 25 novembre 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), hier soir, nous avons tenu notre troisième séance publique. La salle Montesquieu était pleine et beaucoup de personnes n’ont pas pu entrer, ce qui est, à Paris, la circonstance la plus favorable pour attirer du monde. De nouvelles classes ont paru dans l’assemblée. J’avais envoyé des billets aux ouvriers et aux élèves des écoles de droit. Le public a été admirable ; et quoique les orateurs oublient quelquefois ce conseil de la sagesse, de la prudence et même de leur intérêt bien entendu, ,(emph[arrêtez-vous donc !]) l’auditoire a écouté avec une attention religieuse, quand il n’était pas entraîné par l’enthousiasme. ,(tag :a :name "faucher_ref")Nos orateurs ont été MM. ,(np "faucher" [Faucher]), qui a commenté avec beaucoup de force et d’à-propos une lettre officielle des protectionistes au conseil des ministres ; ,(np "peupin" [Peupin]), ouvrier, qui aurait été parfait de verve et de simplicité, s’il avait su se renfermer dans son rôle, d’où il a un peu trop voulu sortir ; ,(np "ortolan" [Ortolan]), qui a fait un discours éloquent, et a considéré la question à un point de vue tout à fait neuf. Ce discours a enflammé l’auditoire et remué la fibre française. Enfin, ,(np "blanqui" [Blanqui]), qui a été aussi énergique que spirituel. — Notre digne président avait ouvert la séance par quelques paroles pleines de grâce et empreintes du bon ton que conserve encore notre aristocratie nominale. Je vous enverrai tout cela.
@@ -19,6 +17,9 @@ Particulièrement, je tiens à approfondir la question des ,(emph[salaires]), c�
 ][
 Adieu, mon cher ami, écrivez-moi de Barcelone. Je crois avoir un peu de fièvre et je me suis imposé la loi de ne rien faire aujourd’hui. C’est pourquoi je m’arrête, en vous renouvelant l’expression de mon amitié.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

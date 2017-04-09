@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 11 avril 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/131/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 131.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 11 avril 1846.])
 ,(p*[,(tag :a :name "je_ref")
 ,(np "cobden" [Mon cher Monsieur]), je m’empresse de vous annoncer que votre réponse à l’adresse des économistes paraîtra dans le ,(tj "je" [journal]) de ce mois qui se publie du 15 au 20. — La traduction en est un peu faible, celui à qui elle est principalement adressée ayant cru convenable d’adoucir quelques expressions, afin de ménager la susceptibilité de notre public. Cette susceptibilité est réelle, et de plus elle est habilement exploitée. — Ces jours-ci, lisant quelques épreuves dans une imprimerie, il me tomba sous la main un livre où on nous accusait positivement d’être soudoyés par l’Angleterre ou plutôt par la Ligue. Connaissant l’auteur, je l’ai décidé à retirer cette absurde assertion, mais elle m’a fait sentir de plus en plus le danger d’avoir aucune relation financière avec votre société. Il m’est impossible de voir dans quelques abonnements que vous prendriez à nos écrits, pour les répandre en Europe, rien de répréhensible, et cependant je m’abstiendrai dorénavant d’en appeler à votre sympathie ; et indépendamment des raisons que vous me donnez, celle-là suffit pour me décider à me conformer sur cette matière au préjugé national.
@@ -17,6 +15,9 @@ Le mouvement Bordelais, quoiqu’il ait été assez imposant et précisément à
 ][
 Quoi qu’il en soit, un progrès dans ce pays est incontestable. Il y a six mois, nous n’avions pas un journal pour nous. Aujourd’hui, nous en avons cinq à Paris, trois à Bordeaux, deux à Marseille, un au Havre et deux à Bayonne. J’espère qu’une douzaine de pairs et autant de députés entreront dans notre ligue et y puiseront, sinon des lumières, au moins du courage.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

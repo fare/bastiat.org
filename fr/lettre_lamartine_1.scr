@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Un économiste à M. Alphonse de Lamartine
 	- par Frédéric Bastiat")
-(document :title [Un économiste à M. Alphonse de Lamartine]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom65parigoog#page/n655/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 10, p. 211.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/406/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 406.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h3 [À l’occasion de son écrit intitulé : ,(br)
 	     ,(cite-title[Du droit au travail])])
 	,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de février 1845.])
@@ -976,6 +974,9 @@ dont vous êtes si digne !])
 
 ,(date[Mugron (Landes)… Janvier 1845.])
 ])
+(document :title [Un économiste à M. Alphonse de Lamartine]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

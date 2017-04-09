@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 18 avril 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/68/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 68.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 18 avril 1846.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je suis entièrement privé de tes lettres, il est vrai que je suis moi-même bien négligent. Tu ne pourras pas croire que le temps me manque, et c’est pourtant la vérité ; quand on est comme campé à Paris, la distribution des heures est si mauvaise qu’on n’arrive à rien.
@@ -29,6 +27,9 @@ J’ai vu ces jours-ci ,(np "lacave" [le ministre des finances]) ; il a approuv
 ][
 Adieu, l’heure me presse, je crains même d’être en retard.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

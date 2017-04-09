@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce, par Frédéric Bastiat")
-
-(document :title [D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce ,(footnote*[Lorsque Bastiat écrivait un article, une fois sa tâche faite et le manuscrit livré à l’éditeur, il n’y pensait guère et n’en parlait plus. Les lignes que nous allons reproduire devaient faire suite, dans le ,(cite-title[Journal des Économistes]), à l’article intitulé : ,(ref :url "question_conseils_generaux.html" [,(cite-title[Une question soumise aux Conseils généraux])]), etc.) Mais, restées inédites par suite d’une omission contre laquelle l’auteur n’a pas réclamé, elles n’ont été remises dans mes mains que postérieurement à 1855. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/20/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 5, p. 20.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p :class "noselect" [Suite de ,(ref :url "question_conseils_generaux.html" [cet article]), non publiée.])
 ,(p*[Je me suis laissé entraîner par le premier sujet qui est tombé sous ma plume, et il me reste peu d’espace à donner aux autres questions posées par ,(np "cunin" [M. le Ministre]). Je ne terminerai pas cependant sans en dire quelques mots.
 ][
@@ -73,5 +70,8 @@ Seulement, nous croyons que c’est dans des institutions propres à développer
 ][
 Nous n’attachons pas plus d’importance qu’il ne faut à quelques expressions hétérodoxes, échappées sans doute à l’auteur de la circulaire, et qui très-probablement ne répondent pas à sa pensée. Si cependant nous avons cru devoir les relever, c’est que, comme on a pu en juger par l’accueil qu’elles ont reçu de certains journaux, elles ont paru donner une sorte de consécration à cette voie déplorable où l’opinion n’a que trop de pente à s’engager.
 ])])
+(document :title [D’autres questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce ,(footnote*[Lorsque Bastiat écrivait un article, une fois sa tâche faite et le manuscrit livré à l’éditeur, il n’y pensait guère et n’en parlait plus. Les lignes que nous allons reproduire devaient faire suite, dans le ,(cite-title[Journal des Économistes]), à l’article intitulé : ,(ref :url "question_conseils_generaux.html" [,(cite-title[Une question soumise aux Conseils généraux])]), etc.) Mais, restées inédites par suite d’une omission contre laquelle l’auteur n’a pas réclamé, elles n’ont été remises dans mes mains que postérieurement à 1855. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

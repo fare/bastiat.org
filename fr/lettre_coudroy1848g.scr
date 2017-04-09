@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 26 août 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/85/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 85.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[26 août 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’éprouve une bien vive peine de voir, malgré mon désir, notre correspondance aussi languissante. Il me serait bien doux de continuer par lettres cet échange de sentiments et d’idées qui, pendant tant d’années, a suffi à notre bonheur. Tes lettres d’ailleurs me seraient bien nécessaires. Ici, au milieu des faits, dans le tumulte des passions, je sens que la netteté des principes s’efface, parce que la vie se passe à transiger. Je demeure aujourd’hui convaincu que la pratique des affaires exclut la possibilité de produire une œuvre vraiment scientifique ; et pourtant, je ne te le cache pas, je conserve toujours cette ancienne chimère de mes ,(cite-title[Harmonies sociales]), et je ne puis me défendre de l’idée que, si j’étais resté auprès de toi, je serais parvenu à jeter une idée utile dans le monde. Aussi il me tarde bien de prendre ma retraite.
@@ -23,6 +21,9 @@ La majorité a pensé autrement. Puisse-t-elle ne s’être pas trompée ! puis
 ][
 Si tu le juges à propos, je t’autorise à envoyer un extrait de cette lettre au journal du pays.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,16 +2,13 @@
 (style 'bo-style)
 (in-bof :title "L’indiscret
 	- par Frédéric Bastiat")
-(document :title "L’indiscret"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=11" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 3, p. 20.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/435/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 65, p. 435.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 décembre 1847.])
 ,(p*[
 ,(emph[Protection à l’industrie nationale ! Protection au travail national !])
@@ -240,6 +237,10 @@ mais je renoncerai à raisonner sur quoi que ce soit ;
 car en quel raisonnement pourrai-je avoir confiance,
 si je n’en puis avoir en celui-là ?
 ])])
+(document :title "L’indiscret"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Louise Cheuvreux
 du 11 juin 1850")
-(document :title [Lettre à ,(np "cheuvreux_l" [Louise Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=41" [,(cite-title[Lettres d’un habitant des Landes])]), p. 80.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/434/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 434.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 11 juin 1850.])
 
 ,(cher[,(np "cheuvreux_l" [Chère demoiselle]),])
@@ -37,6 +35,9 @@ Croyez, chère demoiselle, au tendre attachement de votre dévoué,
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_l" [Louise Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

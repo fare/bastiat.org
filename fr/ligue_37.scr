@@ -1,14 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Discours de John Russell au Parlement.")
-
-(document :title "Discours de John Russell au Parlement."
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco26soci#page/8/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 26, n° 109, p. 8.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/508/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 508.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 avril 1850,
 ,(br)inséré par l’éditeur de Bastiat dans l’appendice de ,(cite-title[Cobden et la Ligue]).])
 ,(p*[
@@ -94,6 +92,8 @@ Non-seulement je crois que ces principes sont ceux qui doivent vous diriger, san
 La reproduction que nous venons de faire a dû suffire pour démontrer que si la Ligue n’agit plus en corps, son esprit est une des forces vives de la démocratie anglaise, et qu’il anime des hommes dont la foi ardente, les lumières et les talents peuvent surmonter bien des obstacles. Bastiat, qui attendait beaucoup de ces hommes, vécut assez pour assister à la réalisation d’une partie de ses espérances. Il vit l’Angleterre abolir ses droits de navigation et réformer profondément son régime colonial. Depuis sa mort, de tristes événements, en modifiant la situation de l’Europe, ont rendu bien difficile la seconde partie de la tâche qu’il assignait aux ligueurs ; nous voulons dire l’,(emph[application du principe de non-intervention et la réduction des forces militaires]). Mais quelque éloigné que puisse être le jour où s’accompliront de tels vœux, — où la civilisation obtiendra des succès décisifs dans sa lutte contre le fléau de la guerre, — on peut affirmer dès aujourd’hui que les apôtres du libre-échange auront leur part dans les actions de grâces et les bénédictions qui accueilleront cette incomparable victoire.
 ,(NdEEO)
 ])])
+(document :title "Discours de John Russell au Parlement."
+(container)
 (tous_les_scripts)
 (footer[
 ,(art_jde)

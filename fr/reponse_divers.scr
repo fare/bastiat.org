@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réponse à divers, par Frédéric Bastiat")
-
-(document :title "Réponse à divers"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=18" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 6, p. 33.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/131/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 24, p. 131.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 2 janvier 1848.])
 ,(p*[,(tag :a :name "ruche_ref")
 Un journal émané de la classe laborieuse, ,(tj "ruche" [,(cite-title[la Ruche populaire])]), fait remonter au travail l’origine de la ,(emph[propriété]). ,(emph[On est propriétaire de son œuvre.]) Nous pensons absolument comme ce journal.
@@ -30,6 +26,10 @@ Ce qu’il y a de pire dans ces assertions, c’est que ceux qui se les permette
 ][
 Quant à l’accusation, ou ,(emph[conjecture]) du ,(tj "vasconie" [,(cite-title[Courrier de Vasconie])]), nous lui déclarons qu’elle est fausse. Le signataire du ,(cite-title[Libre-Échange]) affirme sur l’honneur qu’il n’a jamais été en ,(emph[haut lieu]), qu’il ne connaît aucun ministre, même de vue, qu’il n’a eu avec aucun d’entre eux la moindre relation directe ou indirecte, que ses impulsions ne partent que de ses convictions et de sa conscience.
 ])])
+(document :title "Réponse à divers"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 1er janvier 1849")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/92/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 92.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(1er) janvier 1849.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je veux me donner le plaisir de profiter de la reforme postale, puisque aussi bien j’y ai contribué. Je la voulais radicale, nous n’en avons que la préface ; telle qu’elle est, elle permettra au moins les épanchements de l’amitié.
@@ -23,6 +21,9 @@ Ce projet, je le pousse partout. J’en ai parlé aux ministres qui sont mes ami
 ][
 Adieu, mon ami, reçois mes vœux de nouvelle année.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

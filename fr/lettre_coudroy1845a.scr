@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 de mai 1845")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/50/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 50.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, mai 1845.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je suis persuadé qu’il te tarde de recevoir de mes nouvelles. J’aurais aussi bien des choses à te dire, mais je serai forcé d’être court. Quoique à la fin de chaque jour il se rencontre que je n’ai rien fait, je suis toujours affairé. Dans ce Paris, jusqu’à ce qu’on soit au courant, il faut perdre un demi-jour pour utiliser un quart d’heure.
@@ -29,6 +27,9 @@ Dans notre dîner, ou pour mieux dire après, on a agité une grande question :
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), à une autre fois. Écris-moi de temps en temps et occupe-toi de ton écrit sur le duel. Puisque la cour est revenue à sa singulière jurisprudence, la chose en vaut la peine.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

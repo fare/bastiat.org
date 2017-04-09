@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 29 avril 1849")
-(document :title "Lettre à Bernard Domenger"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/399/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 399.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[29 avril 1849.])
 ,(p*[
 J’ai bien tardé de répondre à votre lettre du 14, que voulez-vous ? La nature m’a pétri de bizarrerie ; et il semble que je deviens plus inerte au moment où j’aurais besoin de plus d’activité. Ainsi depuis qu’il est question d’élections, je me suis mis en tête un travail de pure théorie qui m’attache, m’absorbe et me prend tous les moments dont je puis disposer.
@@ -27,6 +25,9 @@ Je reçois, 30 avril, votre lettre du 27. Je vais aller tout à l’heure à l�
 ][
 Tout le monde veut ,(emph[l’économie]) en général. Mais tout le monde combat chaque ,(emph[économie]) en particulier.
 ])])
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue au théâtre de Covent-Garden.")
-
-(document :title "Meeting hebdomadaire de la Ligue au théâtre de Covent-Garden."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n320/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 215.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/259/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 259.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[21 février 1844.])
 ,(p*[
 Le meeting métropolitain de la Ligue, tenu mercredi dernier au théâtre de Covent-Garden, formera certainement un des traits les plus remarquables dans l’histoire de l’,(emph[agitation]) commerciale.
@@ -36,6 +33,9 @@ Il y a deux ans, on admettait ouvertement, aux deux côtés de la Chambre, que j
 ][
 … Gentlemen, la législation de ce pays a beaucoup pris sur elle. On parle de désaffection, d’insubordination, de conspiration ! Je demande où sont les causes de ces maux. Je cherche le coupable ; je m’adresse à celui qui tient en ses mains le châtiment, et je lui dis : c’est toi ! (Écoutez !) Une loi injuste, c’est un germe révolutionnaire. Suivez-la dans son action jusqu’à ce qu’elle commence à flétrir, appauvrir, fouler et provoquer l’humanité. Puis vient le temps de l’appel des patriotes ; puis celui de l’écho populaire ; puis l’attitude de la détermination et du défi, et puis enfin les persécutions, la prison, l’échafaud, les martyres. (Acclamations.) Mais je remonte aux criminels originaires, aux hommes qui ont conçu la funeste loi, et je leur dis : Vous avez fomenté la désaffection, vous avez popularisé la résistance patriotique ; vous avez provoqué les plaintes du peuple ; vous avez organisé la persécution; c’est vous qui commettez le crime, c’est vous qui devez subir le châtiment. Gentlemen, telle est mon opinion ; si les gouvernements étaient justes, l’esprit de sédition mourrait faute d’aliment (écoutez), et si les lois étaient équitables, les chaînes seraient livrées à la rouille. C’est pourquoi je m’en prends aux mauvaises lois, et j’en vois beaucoup dans cette île et plus encore dans une île voisine. Elles nous avertissent que si nous voulons rétablir la paix et l’amitié, maintenir l’union et la loyauté, si nous voulons que la Grande-Bretagne soit ce qu’elle a toujours été, « maîtresse des mers, invincible dans les combats, » nous devons faire justice au peuple, et non-seulement rendre la liberté aux noirs des Antilles, mais encore affranchir le pain de l’ouvrier anglais. (Applaudissements.)
 ]))])
+(document :title "Meeting hebdomadaire de la Ligue au théâtre de Covent-Garden."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

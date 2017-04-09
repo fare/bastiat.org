@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 13 novembre 1849")
-(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/404/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 404.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[13 novembre 1849.])
 ,(p*[,(tag :a :name "guinard_ref")
 La Haute-Cour de Versailles vient de prononcer son verdict. On ne le connaît pas encore dans tous ses détails, on sait seulement que onze prévenus, dont un représentant, ont été acquittés. Tous les autres représentants sont condamnés à la déportation, ainsi que ,(np "guinard" [Guinard]). Je n’ai pas assez suivi les débats pour avoir une opinion. Je m’incline devant la justice et regrette seulement que la défense ait été circonscrite dans ses moyens. C’est toujours un fâcheux précédent. — L’autorité de la cause jugée n’y gagne pas.
@@ -19,6 +17,9 @@ En arrivant, j’ai reçu une sorte de cartel fort courtois des socialistes. Il 
 ][
 À ce propos, je vous dirai, mon cher ,(np "domenger" [Domenger]), que les électeurs landais pourront bien se lasser de mon inaction apparente. Il est vrai que j’ai le travail capricieux ; il faut me prendre avec mes défauts. Mais je crois sincèrement que le danger actuel n’est ni au pouvoir ni à l’Assemblée ; il est dans les égarements de l’opinion populaire. C’est aussi de ce côté que je porte mes faibles efforts. Je souhaite que le bon sens de nos compatriotes leur fasse comprendre que chacun a sa mission en ce monde et que je remplis la mienne.
 ])])
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 24 octobre 1840")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/39/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 39.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Lisbonne, le 24 octobre 1840.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), voilà bien longtemps que je ne t’ai écrit. C’est que nous sommes si éloignés et qu’il faut si longtemps pour avoir une réponse de Mugron, que je ne suis jamais sûr de la recevoir ici. Enfin me voilà à peu près décidé, et sauf circonstances imprévues, à dire adieu à la Péninsule de lundi en huit. ,(tag :a :name "bastiat_j_ref")Mon intention est d’aller à Londres ; je ne puis, selon le conseil que tu me transmets, de la part de ,(np "bastiat_j" [ma tante]), aller d’abord à Plymouth. Le steamboat va directement à Londres. J’avais d’abord pensé à m’embarquer pour Liverpool. Je satisferais ainsi à l’économie et à mon goût pour la marine, parce que la navigation à voiles est moins chère et plus fertile en émotions que la monotone vapeur. Mais la saison est si avancée que ce serait imprudence, et je courrais le risque de passer un mois en mer.
@@ -25,6 +23,9 @@ Ce voyage aura aussi produit un effet auquel je ne me serais pas attendu. Il n�
 ][
 Adressez-moi vos lettres à Londres, sous couvert de MM. A. A. Gower neveux et compagnie.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

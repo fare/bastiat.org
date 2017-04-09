@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 10 janvier 1847")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/152/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 152.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 10 janvier 1847.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), j’ai reçu presque en même temps vos deux lettres écrites de Marseille. Je vous approuve de n’avoir fait que passer dans cette ville ; car Dieu sait comment on aurait interprété un plus long séjour. Mon ami, l’obstacle qui nous viendra des préventions nationales est beaucoup plus grave et durera plus que vous ne paraissez le croire. Si les monopoleurs avaient excité l’anglophobie ,(emph[pour le besoin de la cause]), cette manœuvre stratégique pourrait être aisément déjouée. En tout cas, la France, en bien peu de temps, découvrirait le piége. Mais ils exploitent un sentiment préexistant, qui a de profondes racines dans les cœurs, — et vous le dirai-je ? qui, quoique égaré et exagéré, a son explication et sa justification. Il n’est pas douteux que l’oligarchie anglaise a pesé douloureusement sur l’Europe ; que sa politique de bascule, tantôt soutenant les despotes du Nord, pour comprimer la liberté au Midi, tantôt excitant le libéralisme au Midi pour contenir le despotisme du Nord, n’ait dû éveiller partout une infaillible réaction. Vous me direz qu’il ne faut jamais confondre les peuples avec leurs gouvernements. C’est bon pour les penseurs. Mais les nations se jugent entre elles par l’action extérieure qu’elles exercent les unes sur les autres. Et puis, je vous l’avoue, cette distinction est un peu subtile. Les peuples sont solidaires jusqu’à un certain point de leurs gouvernements, qu’ils laissent faire quand ils ne les aident pas. La politique constante de l’oligarchie britannique a été de compromettre la nation dans ses intrigues et ses entreprises, afin de la mettre en état d’hostilité avec le genre humain et la tenir ainsi sous sa dépendance. Maintenant cette hostilité générale se manifeste ; c’est un juste châtiment de fautes passées, et il survivra longtemps à ces fautes mêmes.
@@ -21,6 +19,9 @@ Ensuite, par des traductions de vous, de ,(np "fox" [Fox]), de ,(np "thompson_g"
 ][,(tag :a :name "horace_ref")
 Que vous êtes heureux d’être sous le ciel d’Italie ! quand verrai-je aussi les champs, la mer, les montagnes ! ,(inlatin[ô rus ! quando ego te aspiciam ! ,(np "horace" [*])]) et surtout quand serai-je au milieu de ceux qui m’aiment ! Vous avez fait des sacrifices, vous ; mais c’était pour fonder l’édifice de la civilisation. En conscience, mon ami, est-on tenu à la même abnégation quand on ne peut que porter un grain de sable au monument ? Mais il fallait faire ces réflexions avant ; maintenant, l’épée est sortie du fourreau. Elle n’y rentrera plus. Le monopole ou votre ami iront avant au ,(emph[Père Lachaise]).
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 20 décembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/148/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 148.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 20 décembre 1846])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), j’avais perdu votre trace depuis quelque temps et je suis bien aise de vous savoir en France, dans ce pays le plus délicieux qu’il y ait au monde, s’il avait le sens commun. Ah ! mon ami, je m’attendais que nos adversaires exploiteraient contre nous les aveugles passions populaires, et entre autres la haine de l’étranger. Mais je ne croyais pas qu’ils réussiraient aussi bien. ,(tag :a :name "pitt_ref")Ils ont soudoyé de nouveau la presse, et le mot d’ordre est de nous représenter comme des traîtres, des agents de ,(emph[,(np "pitt" [Pitt]) et ,(np "cobourg" [Cobourg])]). Croiriez-vous que, dans mon pays même, cette calomnie a fait son chemin ! On m’écrit de Mugron, qu’on n’ose plus y parler de moi ,(emph[qu’en famille]), tant l’esprit public y est monté contre notre entreprise. Je sais bien que cela passera, mais la question pour nous est de savoir combien de temps il faut à la raison pour avoir raison. Le 29 de ce mois, je dois parler à la salle Montesquieu, et mon projet est de toucher ce sujet délicat et de développer cette idée : « L’oligarchie anglaise a pesé sur le monde, et c’est ce qui explique l’universelle défiance avec laquelle on accueille ce qui se fait de l’autre côté du détroit. Mais il y a un pays sur lequel elle a pesé plus que sur tout autre, et c’est l’Angleterre elle-même. Voilà pourquoi il y a en Angleterre, une classe qui résiste à l’oligarchie et la dépouille peu à peu de ses dangereux priviléges. C’est cette classe qui a conquis successivement l’émancipation catholique, la réforme électorale, l’abolition de l’esclavage et la liberté commerciale, et qui est sur le point de conquérir l’affranchissement des colonies. Elle travaille donc dans notre sens, et il est absurde de l’envelopper dans la même haine que nous devons réserver aux classes dominatrices de tous les pays. »
@@ -24,6 +22,9 @@ Maintenant, je crois que nos efforts doivent tendre à la diffusion de notre jou
 ][
 J’ai vraiment honte de vous envoyer cette lettre faite à bâtons rompus et sans trop savoir ce que je dis. Je me réserve de vous écrire plus à l’aise, cette nuit et la suivante.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

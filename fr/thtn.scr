@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Travail Humain, Travail National
 	- par Frédéric Bastiat")
-(document :title "Travail Humain, Travail National"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f151.image" [,(cite-title[Sophismes économiques])]), ch. 20.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/100/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 100.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XX de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Briser les machines,
@@ -254,6 +252,9 @@ le ,(bof-ref "richesse" [chap. VI]).
 
 
 ])])
+(document :title "Travail Humain, Travail National"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "independance_nationale.html" "matieres_premieres.html")

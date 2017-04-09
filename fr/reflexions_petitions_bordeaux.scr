@@ -1,10 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réflexions sur les pétitions de Bordeaux, Le Havre et Lyon, concernant les douanes, par Frédéric Bastiat")
-
-(document :title "Réflexions sur les pétitions de Bordeaux, Le Havre et Lyon, concernant les douanes"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/231/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 231.])
 
@@ -12,7 +9,7 @@
 ,(autolk "matieres_premieres"), ch. 21 de la première série des ,(cite-title[Sophismes,]) qui est une version remaniée de ce texte.
 ])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Avril 1834.])
 ,(p*[
 La liberté commerciale aura probablement le sort de toutes les libertés, elle ne s’introduira dans nos lois qu’après avoir pris possession de nos esprits. Aussi devons-nous applaudir aux efforts des négociants de Bordeaux, du Havre et de Lyon, dussent ces efforts n’avoir immédiatement d’autres résultats que d’éveiller l’attention publique.
@@ -179,5 +176,8 @@ On n’en viendra pas là, dira-t-on. Ce serait pourtant rationnel ; mais l’i
 ][
 Un grand nombre de personnes, j’en suis convaincu, ont adopté de bonne foi les doctrines du régime prohibitif (et certes ce qui se passe n’est guère propre à changer leur conviction). Je n’en suis point surpris ; mais ce qui me surprend, c’est que, quand on les a adoptées sur un point, on ne les adopte pas sur tous, car l’erreur a aussi sa logique ; et quant à moi, malgré tous mes efforts, je n’ai pu découvrir une objection quelconque que l’on puisse opposer au régime de l’exclusion absolue, qui ne s’oppose avec autant de justesse au système ,(emph[pratique]) des pétitionnaires.
 ])])
+(document :title "Réflexions sur les pétitions de Bordeaux, Le Havre et Lyon, concernant les douanes"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Grand meeting de la Ligue au théâtre de Covent-Garden.")
-
-(document :title "Grand meeting de la Ligue au théâtre de Covent-Garden."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n498/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 395.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/409/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 409.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[11 décembre 1844.])
 ,(p*[,(tag :a :name "wilson_ref")
 Six mille personnes assistent à la réunion. Le président de la Ligue, ,(np "wilson_g" [M. George Wilson]), occupe le fauteuil.
@@ -40,6 +37,9 @@ Il y a quelque chose de sophistique et d’erroné à représenter, comme on le 
 
 ,(p*[,(tag :a :name "bright_ref")Nous terminerons ce choix ou plutôt ce recueil de discours (car nous pouvons dire avec vérité que le hasard nous a plus souvent guidé que le choix), par le compte rendu du meeting tenu à Manchester le 22 janvier 1845, meeting où ont été rendus les comptes de l’exercice 1844, et qui clôt, par conséquent, la cinquième année de l’agitation. Encore, dans cette séance, nous nous bornerons à traduire le discours de ,(np "bright" [M. Bright]) qui résume les travaux et la situation de la Ligue. ,(np "bright" [M. Bright]) est certainement un des membres de la Ligue les plus zélés, les plus infatigables et en même temps les plus éloquents. La verve et la chaleur de ,(np "fox" [Fox]), le profond bon sens et le génie pratique de ,(np "cobden" [Cobden]) semblent tour à tour tributaires du genre d’éloquence de ,(np "bright" [M. Bright]). Ainsi que nous venons de le dire, au milieu des richesses oratoires qui étaient à notre disposition, nous avons dû nous fier au hasard et nous nous apercevons un peu tard qu’il nous a mal servi en ceci que notre recueil ne renferme presque aucun discours de ,(np "bright" [M. Bright]). Nous saisissons donc cette occasion de réparer envers nos lecteurs un oubli involontaire.
 ])])
+(document :title "Grand meeting de la Ligue au théâtre de Covent-Garden."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

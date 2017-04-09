@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Petites affiches de Jacques Bonhomme
 	- par Frédéric Bastiat")
-(document :title [Petites affiches de ,(cite-title[Jacques Bonhomme])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=46" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 15, p. 84.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/459/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 68, p. 459.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 12 mars 1848.])
 ,(h2[I ,(br) Soulagement immédiat du peuple
 ,(footnote*[
@@ -136,6 +134,9 @@ on peut prédire que sa maladie s’aggravera.
 
 
 ])])
+(document :title [Petites affiches de ,(cite-title[Jacques Bonhomme])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

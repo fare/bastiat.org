@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 17 mai 1848")
-(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/421/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 421.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 17 mai 1848.])
 ,(p*[
 Vous devez me trouver bien peu Français de tarder autant à vous remercier, ainsi que votre mari, de tant de témoignages d’affection que vous m’avez prodigués tous les deux pendant votre séjour à Paris. Ce n’est certainement pas que je les oublie, le souvenir ne s’en effacera jamais de mon cœur ; mais vous savez que je suis allé dans mes chères Pyrénées. D’un autre côté, je ne savais où adresser mes lettres ; celle-ci va suivre l’impulsion du hasard.
@@ -23,6 +21,9 @@ Adieu, ,(np "schwabe_j" [Madame]), ne me donnerez-vous pas quelque espoir que no
 ][
 Je serre bien affectueusement la main à ,(np "schwabe_s" [M. Schwabe]).
 ])])
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

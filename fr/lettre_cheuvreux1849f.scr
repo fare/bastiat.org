@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 de juin 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=10" [,(cite-title[Lettres d’un habitant des Landes])]), p. 9.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/432/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 432.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bruxelles, hôtel de Bellevue, juin 1849.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -34,6 +32,9 @@ Adieu, je présente mes hommages à la mère et à la fille.
 ,(politesse[Votre dévoué,])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

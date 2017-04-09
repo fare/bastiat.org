@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Projet de ligue anti-protectioniste, suite et fin, par Frédéric Bastiat")
-
-(document :title "Projet de ligue anti-protectioniste, suite et fin"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/38/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 8, p. 38.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 10 février 1846.])
 ,(p*[,(tag :a :name "conte_ref")
 Il suffit de dire le but de la Ligue, ou plutôt le moyen d’atteindre ce but, pour établir qu’il lui faut, — lâchons le grand mot, — de l’argent, et beaucoup d’argent. Répandre la vérité économique, et la répandre avec assez de profusion pour changer le cours de la volonté nationale, voilà sa mission. Or les communications intellectuelles ont besoin de véhicules matériels. Les livres, les brochures, les journaux, ne naîtront pas au souffle de la Ligue, ,(emph[comme les fleurs au souffle du zéphir]). ,(np "conte" [M. Conte]) (directeur des postes) ne lui a pas encore donné la ,(emph[franchise]), ni même la taxe modérée ; et si l’usage des Quinconces est gratuit, elle ne saurait y établir sa comptabilité, ses bureaux, ses archives et ses séances. L’argent, ce n’est pas pour les ligueurs des dîners, des orgies, des habits somptueux, de brillants équipages : c’est du travail, de la locomotion, des lumières, de l’organisation, de l’ordre, de la persévérance, de l’énergie.
@@ -33,6 +30,9 @@ Mais, pour que l’esprit d’association prévale, une condition est essentiell
 ][
 Donc, si la Ligue française veut voir affluer dans ses caisses d’abondantes recettes, son premier soin doit être de forcer dans toutes les convictions une confiance absolue. Elle y parviendra par deux moyens : le choix le plus scrupuleux des membres du comité, et la publicité la plus explicite de ses comptes. Je voudrais que, de son premier argent, elle s’assurât du plus méticuleux teneur de livres de Bordeaux, et que le bureau de la comptabilité fût placé, si c’était possible, dans un édifice de verre. Je voudrais que les livres de la Ligue fussent constamment ouverts à l’œil des amis, et surtout des ennemis.
 ])])
+(document :title "Projet de ligue anti-protectioniste, suite et fin"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

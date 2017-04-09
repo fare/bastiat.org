@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 11 mars 1849")
-(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/429/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 429.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[11 mars 1849.])
 ,(p*[
 Je suis en effet d’une négligence horrible ; horrible, c’est le mot, car elle approche de l’ingratitude. Comment pourrais-je l’excuser, après toutes les bontés dont j’ai été comblé à ,(inenglish[Crumpsall-house ?])
@@ -21,6 +19,9 @@ Comme vous pensez bien, je suis avec le plus vif intérêt les efforts de notre 
 ][
 … Adieu, Madame, je me propose de vous écrire plus régulièrement bientôt. Aujourd’hui je suis absorbé par un débat important que j’ai soulevé dans l’Assemblée et qui me force à quelques recherches.
 ])])
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

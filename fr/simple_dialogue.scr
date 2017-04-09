@@ -1,0 +1,38 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Simple dialogue")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f315.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 301. Voir ,(ref :url "../surbastiat/ronce.html#simple_dialogue" [version texte]).])
+])
+(define bastiatcontent [
+
+,(p*[,(emph[Un protectionniste.]) — Que faites-vous quand on vous foule ?][
+,(emph[Un libre-échangiste.]) — Je crie.][
+,(emph[P.]) — Anglais ! Et si on ne vous écoute pas ?][
+,(emph[L.]) — Je crie plus fort.][
+,(emph[P.]) — Anglais ! Anglais ! Mais enfin si on ne prend pas garde à vous ?][
+,(emph[L.]) — J’engage ceux qui partagent mon sort, s’ils le comprennent, à crier avec moi.][
+,(emph[P.]) — Anglophile ! Et s’ils ne le comprennent pas ?][
+,(emph[L.]) — Je tâche de le leur faire comprendre.][
+,(emph[P.]) — Anglomane ! Et comment vous y prenez-vous ?][
+,(emph[L.]) — Je parle, j’écris, j’invite ceux qui ont bonne langue et bonne plume à parler et à écrire. En un mot, nous nous associons.][
+,(emph[P.]) — John Bull ! Goddam ! Je ne vous reconnais pas ; vous n’êtes plus Français.][
+,(emph[L.]) — Il me semble pourtant que ce que je fais est tout ce qu’il y a de plus naturel, et je ne vois pas que je puisse faire autrement.][
+,(emph[P.]) — Sans doute ; mais les Anglais font comme cela.][
+,(emph[L.]) — Or çà, Monsieur, et vous, que faites-vous quand vous avez faim ?][
+,(emph[P.]) — Je mange.][
+,(emph[L.]) — Anglais ! Plagiat ! Et quand vous avez soif ?][
+,(emph[P.]) — Je bois.][
+,(emph[L.]) — Anglais ! Pur Cobden ! Et quand vous vous sentez morveux ?][
+,(emph[P.]) — Je me mouche.][
+,(emph[L.]) — Imitation ! Parodie ! Singerie !])])
+(document :title "Simple dialogue"
+	:author (author-FB)
+(container)
+
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+	,(inedits)
+]))

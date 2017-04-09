@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Propriété et Spoliation
 	- par Frédéric Bastiat")
-(document :title "Propriété et Spoliation"
-          :author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448122q/f1.item.zoom" [,(cite-title[Journal des Débats])]), 2 septembre 1848, p. 1, col. 3.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5684596h/f38.image" [,(cite-title[Propriété et spoliation])]), p. 36.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/415/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 415.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 2 septembre 1848.])
 ,(h2[Quatrième lettre.])
 
@@ -436,6 +434,9 @@ elles sont imputables au principe de la Spoliation.
 ][
 C’est ce qui me reste à démontrer.
 ])])
+(document :title "Propriété et Spoliation"
+          :author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

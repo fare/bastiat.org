@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Propriété et Spoliation
 	- par Frédéric Bastiat")
-(document :title "Propriété et Spoliation"
-          :author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448138b/f2.item.zoom" [,(cite-title[Journal des Débats])]), 18 septembre 1848, p. 2, col. 4.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k5684596h/f52.image" [,(cite-title[Propriété et spoliation])]), p. 50.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/425/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 425.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 18 septembre 1848.])
 ,(h2[Cinquième lettre.])
 
@@ -389,6 +387,9 @@ les priviléges, les monopoles, les restrictions, les emprunts publics,
 les fraudes commerciales, les impôts excessifs, et, en dernier lieu,
 la guerre au capital et l’absurde prétention de chacun de vivre et se développer aux dépens de tous.
 ])])
+(document :title "Propriété et Spoliation"
+          :author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,15 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Lettre sur la propriété intellectuelle
 	- par Frédéric Bastiat")
-(document :title "Lettre sur la propriété intellectuelle"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k202316g/f343.item.zoom" [,(cite-title[Œuvres complètes])]), vol. 2, p. 340.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 9 septembre 1847. ,(footnote*
 [Cette lettre est une redite, en condensé,
 	de certains des arguments du ,(ref :url "discours_cercle_librairie.html" [discours ci-dessus]).
@@ -147,6 +144,10 @@ aussi je m’associe de tout c,(oe)ur à votre utile entreprise.
 
 
 ])
+(document :title "Lettre sur la propriété intellectuelle"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 		,(corresp)

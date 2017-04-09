@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur l’admissibilité des députés au ministère")
-
-(document :title "Sur l’admissibilité des députés au ministère"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=3" [Sentinelle des Pyrénées]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 25 mars 1843.])
 ,(cher[Monsieur le Rédacteur,])
 ,(p*[Dans une précédente lettre, j’ai essayé de signaler le vice qui déprave notre représentation nationale. Au point de vue de la liberté, livrer les places à ceux qui les dotent ; au point de vue de l’ordre, livrer les ministères à ceux qui les renversent, c’est là, ai-je dit, une conception dont le double danger saute aux yeux. J’ajoutais que l’expérience appuyait à cet égard le raisonnement.
@@ -61,6 +58,9 @@ Il admet donc que les hautes positions politiques doivent continuer à enflammer
 ,(sign[Fr. B.])
 
 ])
+(document :title "Sur l’admissibilité des députés au ministère"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

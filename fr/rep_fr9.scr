@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
-
-(document :title "Article dans La République française"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/223/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 50, p. 223.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 1,(sup[er]) mars 1848.])
 ,(p*[
 Un journal n’atteint pas à une immense circulation sans répondre à quelques idées dominantes dans le pays. Nous reconnaissons que la ,(tj "presse" [,(cite-title[Presse])]) a toujours su parler aux instincts du moment, et même qu’elle a souvent donné de bons conseils ; c’est ainsi qu’elle a pu semer, sur le sol de la patrie, avec le bon grain, beaucoup d’ivraie qu’il faudra bien du temps pour extirper.
@@ -47,6 +44,9 @@ D’autres disent : Il faut bien que l’État dépense beaucoup pour faire viv
 ][
 Est-il donc si difficile de voir que, lorsque le gouvernement dépense l’argent des contribuables, les contribuables ne le dépensent pas ?
 ])])
+(document :title "Article dans La République française"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

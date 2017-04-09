@@ -1,16 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 25 juin 1844.")
-
-(document :title "Séance du 25 juin 1844."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n468/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 365.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/384/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 384.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[25 juin 1844.])
 ,(p*[,(tag :a :name "villiers_ref")
 Le 25 juin 1844, l’ordre du jour de la Chambre des communes amena enfin la discussion sur la motion annuelle de ,(np "villiers" [M. Ch. Pelham Villiers]), pour l’abrogation de la loi-céréale.
@@ -86,6 +83,9 @@ Dans l’espace de quarante jours, ,(np "cobden" [M. Cobden]) s’est présent�
 ][
 On n’attend pas de nous que nous suivions pas à pas la Ligue dans cette nouvelle phase de l’agitation. Nous nous bornerons dorénavant à recueillir, dans les innombrables documents que nous avons sous les yeux, les arguments qui pourront nous paraître nouveaux et les circonstances propres à jeter quelque jour sur l’esprit de la Ligue et les mœurs anglaises.
 ])])
+(document :title "Séance du 25 juin 1844."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Paulton
 du 18 mars 1820")
-(document :title [Lettre à M. Paulton ,(footnote*[L’un des ,(inenglish[lecturers]) de l’,(inenglish[Anti-corn-law League]).])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/374/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 374.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 29 juillet 1845.])
 ,(p*[
 ,(np "paulton" [Mon cher Monsieur]), ainsi que je vous l’ai annoncé, je vous envoie quatre exemplaires de ,(ref :url "cobden_ligue.html" [ma traduction]), que je vous prie de remettre aux éditeurs du ,(tj "times" [,(cite-title[Times])]), du ,(tj "mc" [,(cite-title[Morning-Chronicle])]), etc., etc. Je m’estimerais heureux que la presse anglaise accueillît avec faveur un travail que je crois utile. Cela me dédommagerait de l’indifférence avec laquelle il a été reçu en France. Tous ceux à qui je l’ai donné ne cessent de manifester leur surprise à l’égard des faits graves qui y sont révélés ; mais personne ne l’achète, et cela n’est pas surprenant, puisqu’on ne sait pas de quoi il traite. Nos journaux d’ailleurs paraissent décidés à ensevelir la question dans le silence. Il m’en coûtera cher pour avoir tenté d’ouvrir les yeux à mon pays ; mais le pis est de n’avoir pas réussi. ,(footnote*[Voyez la fin de l’ébauche intitulée : ,(ref :url "anglomanie_anglophobie.html#silence" [,(cite-title[Anglomanie, Anglophobie])]). ,(NdEEO)])
@@ -35,6 +33,9 @@ J’oubliais de vous dire que, la lettre de ,(np "langsdorf" [M. de Langsdorf]) 
 ][
 Agréez, mon cher Monsieur, l’assurance de ma sincère amitié, et veuillez me rappeler au souvenir de tous nos frères en travaux et en espérances.
 ])])
+(document :title [Lettre à M. Paulton ,(footnote*[L’un des ,(inenglish[lecturers]) de l’,(inenglish[Anti-corn-law League]).])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

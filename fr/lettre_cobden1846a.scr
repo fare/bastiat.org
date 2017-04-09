@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 13 janvier 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/118/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 118.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 13 janvier 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher Monsieur]), quelle reconnaissance ne vous dois-je pas pour vouloir bien songer à moi, au milieu d’occupations si pressantes et si propres à exciter au plus haut point votre intérêt ! C’est le 23 que vous m’avez écrit, le jour même de cet étonnant meeting de Manchester, qui n’a certes pas de précédent dans l’histoire. Honneur aux hommes du Lancastre ! Ce n’est pas seulement la ,(emph[liberté du commerce]) que le monde leur devra, mais encore l’art éclairé, moral et dévoué de l’agitation. L’humanité connaît enfin l’,(emph[instrument]) de toutes les réformes. — ,(tag :a :name "mg_ref")En même temps que votre lettre, m’est parvenu le numéro du ,(tj "mg" [,(cite-title[Manchester Guardian])]) où se trouve la relation de cette séance. Comme j’avais vu, quelques jours avant, le compte rendu de votre première réunion à Manchester, dans le ,(tj "courrier" [,(cite-title[Courrier français])]), j’ai pensé que l’opinion publique était maintenant éveillée en France, et je n’ai pas cru nécessaire de traduire ,(emph[the report of your proceeding]). J’en suis fâché maintenant, car je vois que ce ,(emph[grand fait]) n’a pas produit ici une impression proportionnée à son importance.
@@ -25,6 +23,9 @@ La chambre de commerce de Bordeaux vient d’élever la bannière de la liberté
 ][
 Connaissant vos engagements si étendus, j’ose à peine vous demander de m’écrire. Cependant, veuillez vous rappeler, de temps en temps, que vos lettres sont le baume le plus efficace pour calmer les ennuis de ma solitude et les tourments qui naissent du sentiment de mon inutilité.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

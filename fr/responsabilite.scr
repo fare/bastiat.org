@@ -1,15 +1,12 @@
 (style 'bo-style)
 (in-bof :title "Responsabilité
 	- par Frédéric Bastiat")
-(document :title "Responsabilité"
-
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/510/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/531/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 531.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XX des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -150,7 +147,7 @@ et qui demanderaient à être vues dans leur ensemble, dans leur action commune,
 si la science aux yeux faibles, à la marche incertaine,
 n’était réduite à la méthode,
 ,(--) cette triste béquille qui fait sa force tout en révélant sa faiblesse.
-](nbsp)(hrule)(nbsp)[
+](nbsp)[
 ,(inlatin[Nosce te ipsum]).
 Connais-toi toi-même ;
 c’est, dit l’oracle, le commencement,
@@ -333,7 +330,7 @@ alors je ne me contente pas de m’incliner
 sous cette main aussi généreuse que puissante,
 je la bénis, je l’admire et je l’adore.
 ]
-(nbsp)(hrule)(nbsp)
+(nbsp)
 [
 Nous avons vu surgir des écoles
 qui ont profité de l’insolubilité (humainement parlant) de cette question
@@ -550,7 +547,7 @@ Ils prouvent très-subtilement qu’ils n’ont pas de volonté ;
 ,(--) mais puisqu’ils agissent comme s’ils en avaient une,
 ne disputons pas avec eux.
 ]
-(nbsp)(hrule)(nbsp)
+(nbsp)
 [
 Nous voici donc placés au sein de la nature, au milieu de nos frères ;
 ,(--) pressés par des impulsions, des besoins, des appétits, des désirs,
@@ -1199,7 +1196,7 @@ négation des harmonies de la liberté dans le principe,
 ,(--) despotisme et esclavage en résultat,
 ,(--) immoralité dans les moyens.
 ]
-(nbsp)(hrule)(nbsp)
+(nbsp)
 [
 Toute tentative pour détourner le cours naturel de la responsabilité
 est une atteinte à la justice, à la liberté, à l’ordre,
@@ -1339,6 +1336,9 @@ parce qu’elles font les m,(oe)urs…
 
 
 ])])
+(document :title "Responsabilité"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

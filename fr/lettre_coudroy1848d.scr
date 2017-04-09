@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 29 février 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/80/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 80.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[29 février 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), malgré les conditions mesquines et ridicules qui te sont faites, je te féliciterai de bon cœur si tu arrives à un arrangement. Nous nous faisons vieux ; un peu de paix et de calme, dans l’arrière-saison, voilà le bien auquel il faut prétendre.
@@ -33,6 +31,9 @@ Il y a plus, l’ordre et la confiance étant l’intérêt suprême du moment, 
 ][
 Adieu, les élections sont prochaines, nous nous verrons alors ; en attendant, dis-moi si tu remarques quelques bonnes dispositions en ma faveur.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

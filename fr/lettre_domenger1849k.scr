@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 25 décembre 1849")
-(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/405/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 405.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[25 décembre 1849.])
 ,(p*[
 Je ne puis vous écrire que quelques mots, car mon rhume m’a mis sur le flanc. Je vous assure qu’il me rend l’existence pénible.
@@ -21,6 +19,9 @@ Et n’est-ce pas une chose bien ridicule que Mugron et ,(np "lafaurie" [M. Laf
 ][,(tag :a :name "proudhon_ref")
 Il m’est impossible de vous envoyer ,(ref :url "gratuite_du_credit.html" [ma polémique]) avec ,(np "proudhon" [Proudhon]), car je n’ai pas conservé les numéros de la ,(tj "vp" [,(cite-title[Voix du Peuple])]) où sont nos lettres ; mais on m’assure qu’elles vont être recueillies en un volume que je vous ferai adresser. C’est du reste assez ennuyeux.
 ])])
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

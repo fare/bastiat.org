@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le libre échange en action, par Frédéric Bastiat")
-
-(document :title "Le libre échange en action"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/58/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 13, p. 58.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 12 mars 1846.])
 
 ,(cher[Monsieur le Rédacteur,])
@@ -30,6 +27,9 @@
 ][
 Les réflexions se présentent en foule à la lecture de ce rapport. On pourrait demander aux protectionistes : Où sont donc les invasions, les inondations de produits étrangers qui eussent dû tuer le travail national en Suisse ? On pourrait faire bien d’autres questions encore. J’aime mieux laisser à ce précieux document toute la force qu’il porte en lui-même.
 ])])
+(document :title "Le libre échange en action"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

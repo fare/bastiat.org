@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 2 janvier 1841")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/43/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 43.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 2 janvier 1841.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je m’occupais d’un ,(emph[plan d’association pour la défense des intérêts vinicoles]). Mais, selon mon habitude, j’hésitais à en faire part à quelques amis, parce que je ne voyais guère de milieu entre le succès et le ridicule, quand ,(np "humann" [M. Humann]) est venu présenter aux chambres le budget des dépenses et recettes pour 1842. Ainsi que tu l’auras vu, le ministre ne trouve rien de mieux, pour combler le déficit qu’a occasionné notre politique, que de frapper les boissons de quatre nouvelles contributions. Cela m’a donné de l’audace, et j’ai couru chez plusieurs députés pour leur communiquer mon projet. Ils ne peuvent pas s’en mêler directement, parce que ce serait aliéner d’avance l’indépendance de leur vote. C’est une raison pour les uns, un prétexte pour les autres ; mais ce n’est pas un motif pour que les propriétaires de vignes se croisent les bras, en présence du danger qui les menace.
@@ -25,6 +23,9 @@ Je n’ai pas besoin, ,(np "coudroy" [mon cher Félix]), de te dérouler la puis
 ])
 ,(politesse[Adieu, ton dévoué.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

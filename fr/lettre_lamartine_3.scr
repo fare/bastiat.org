@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Alphonse de Lamartine
 du 18 mars 1820")
-(document :title "Lettre à M. Alphonse de Lamartine"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/373/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 373.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 7 mars 1845.])
 
 ,(cher[,(np "lamartine" [Monsieur]),])
@@ -20,6 +18,9 @@ Vous voulez bien reconnaître, Monsieur, que j’ai parcouru le domaine de la Li
 ][
 Permettez-moi de vous dire en terminant, Monsieur, que quelques dissidences accidentelles ne m’empêchent pas d’être le plus sincère et le plus passionné de vos admirateurs, comme j’espère être un jour le plus fervent de vos disciples.
 ])])
+(document :title "Lettre à M. Alphonse de Lamartine"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

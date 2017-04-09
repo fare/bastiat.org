@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Fin de la première campagne de la Ligue anglaise.")
-
-(document :title "Fin de la première campagne de la Ligue anglaise."
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/437/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 437.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 Le triomphe que Bastiat prédisait aux ligueurs, dans les pages qui précèdent, ne se fit pas longtemps attendre ; mais tout ne fut pas consommé, pour lui, le jour où il vit les lois céréales abolies et la Ligue dissoute. Du principe qui venait enfin de prévaloir dans la législation anglaise devaient découler bien d’autres légitimes conséquences. Et si dorénavant les souscriptions, les prédications, les immenses meetings devenaient des armes inutiles, s’il n’était plus besoin de la force du nombre, c’est que la puissance morale du principe allait agir d’elle-même, c’est que les chefs de la Ligue siégeant au Parlement ne manqueraient pas d’y réclamer le complément naturel de leur victoire. Ces chefs avaient donc encore une tâche, une grande tâche, à remplir. ,(tag :a :name "cobden_ref")Bastiat les suivait de l’œil et du cœur au milieu de leurs efforts, et, pour lui, là où se signalaient ,(np "cobden" [Cobden]) et ,(np "bright" [Bright]), là était la Ligue. En se plaçant à ce point de vue, il avait projeté, sous le titre de ,(cite-title[Seconde Campagne de la Ligue anglaise]), un écrit qu’il n’eut pas le temps de composer. Divers matériaux destinés à cette œuvre sont dans nos mains et méritent de passer sous les yeux du public. Qu’il nous soit cependant permis, avant de donner ces fragments sur ,(cite-title[une seconde Campagne de la Ligue]), d’exposer en peu de mots comment se termina ,(emph[la première]) ,(footnote*[Nous empruntons les détails qui suivent à l’excellent ouvrage de M. Archibald Prentice : ,(cite-title[History of the Anti-corn-law League]). ,(NdEEO)]). 
 ](nbsp)[
@@ -53,5 +51,7 @@ Un autre témoignage de gratitude suivit de près la clôture des opérations de
 ][
 Quand on connaît le but des ligueurs et les moyens employés pour l’atteindre, on ne saurait hésiter à voir, dans l’œuvre qu’ils ont accomplie, une des plus belles manifestations du progrès social dont puisse s’honorer notre siècle. Puisse cette œuvre, appréciée à sa juste valeur, leur assurer la reconnaissance de toutes les nations et particulièrement celle de la France, où leur exemple a suscité Bastiat !
 ])])
+(document :title "Fin de la première campagne de la Ligue anglaise."
+(container)
 (tous_les_scripts)
 (footer[,(cobdenligue)]))

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "À MM. les électeurs de l’arrondissement de Saint-Sever
 	- par Frédéric Bastiat")
-(document :title "À MM. les électeurs de l’arrondissement de Saint-Sever."
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[BnF, ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb317715970" [4-LE54-1501]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 27 juin 1842.])
 ,(cher[Messieurs,])
 ,(p*[
@@ -44,5 +42,8 @@ J’ai l’honneur d’être,
 ])
 ,(sign[,(FredB).])
 ])
+(document :title "À MM. les électeurs de l’arrondissement de Saint-Sever."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres),(inedits)]))

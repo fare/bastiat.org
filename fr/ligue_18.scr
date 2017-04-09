@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 1er mai 1844.")
-
-(document :title [Séance du 1,(sup[er]) mai 1844.]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n365/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 262.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/298/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 298.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(1er) mai 1844.])
 ,(p*[
 Le fauteuil est occupé par un membre de l’aristocratie, lord Kinnaird, un des plus grands propriétaires et des plus savants agronomes de la Grande-Bretagne. Cette circonstance répand un nouvel intérêt sur cette séance. Je n’ai pourtant pas cru devoir traduire le discours du noble lord, tant parce que l’espace et le temps me font défaut, qu’à cause du caractère agricole et pratique de ce discours, qui, quoique très-adapté au but de la Ligue, n’offrirait que peu d’intérêt au public français.])
@@ -29,6 +26,9 @@ La parole est ensuite à ,(np "cobden" [M. Cobden]). À peine le président a p
 ][
 On remarquera les efforts auxquels sont obligés de se livrer les ,(inenglish[free-traders]) pour prémunir le peuple contre l’exploitation par les monopoleurs du sentiment public à l’égard de l’esclavage ; ce qui prouve au moins l’existence, la sincérité et même la force aveugle de ce sentiment.
 ])])
+(document :title [Séance du 1,(sup[er]) mai 1844.]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

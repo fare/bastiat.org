@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 8 avril 1845")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/109/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 109.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 8 avril 1845.])
 
 ,(cher[,(np "cobden" [Monsieur]),])
@@ -22,6 +20,9 @@ Permettez-moi de vous recommander, si vous en avez l’occasion, ,(emph[the peru
 ])
 ,(politesse[Je suis, Monsieur, votre respectueux serviteur.])
 ])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

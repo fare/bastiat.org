@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 15 octobre 1847")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/162/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 162.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 15 octobre 1847.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), j’apprends avec bien du plaisir, par les journaux de ce matin, votre retour à Londres. Il y a si longtemps que je n’ai eu de vos nouvelles ! J’espère que vous ne négligerez pas de m’écrire dès que vous serez un peu reposé de vos fatigues, et que vous me parlerez des dispositions que vous avez rencontrées dans le nord de l’Europe, sur notre question.
@@ -25,6 +23,9 @@ Je vous l’avoue, mon cher ami, quoique ennemi de tout charlatanisme, si vous �
 ][
 Je ne vous parle pas des ,(emph[vins]). Je vois que votre situation financière ne vous permet pas de grandes réformes fiscales. Mais une modération de droits qui ne nuise pas à vos revenus, est-ce trop demander ? Je désirerais que ce fût vous ,(emph[personnellement]) qui fissiez cette proposition ; et je vous dirai pourquoi une autre fois. Je n’ai plus de place que pour vous assurer de mon amitié.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

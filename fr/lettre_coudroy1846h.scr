@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du ,(1er) octobre 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/74/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 74.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le ,(1er) octobre 1846.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je n’ai pas de tes nouvelles et ne sais par conséquent où tu en es de ton procès. Puisses-tu être près de l’issue et du succès ! Donne-moi des nouvelles de ta bonne sœur ; les bains de Biarritz lui ont-ils été favorables ? Je regrette que tu n’aies pas été l’accompagner ; il me semble que Mugron doit devenir tous les jours plus triste et plus monotone pour toi.
@@ -23,6 +21,9 @@ On assure qu’hier soir, il y eut un grand meeting protectioniste à Rouen. Si 
 ][
 Adieu, mon cher Félix, écris-moi de temps en temps, mets ta solitude à profit, et fais quelque chose de sérieux. Je regrette bien de ne pouvoir plus rien entreprendre pour la vraie gloire. S’il te vient en tête quelque bonne démonstration, fournis-la-moi. Je me suis assuré que la parabole et la plaisanterie ont plus de succès et opèrent plus que les meilleurs traités.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

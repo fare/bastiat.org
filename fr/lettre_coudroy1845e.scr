@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 18 juin 1845")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/59/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 59.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Le 18…])
 ,(p*[,(tag :a :name "dunoyer_ref")
 Je me suis retiré ce matin à une heure de chez ,(np "dunoyer" [Dunoyer]) ; les convives étaient ceux que je t’ai nommés, plus ,(np "tracy" [M. de Tracy]). À peine a-t-on effleuré l’économie politique ; ces messieurs en font en amateurs. Pendant le dîner cependant, on a parlé quelque peu liberté de commerce. M. X… a dit que les Anglais ,(emph[jouaient la comédie]). Il ne me convenait pas de relever ce mot ; mais j’étais bien tenté de lui demander s’il croyait ou non au principe de la liberté. Car enfin, s’il y croit, pourquoi ne veut-il pas que les Anglais y croient ? Parce qu’ils y ont intérêt ? Je me rappelais ton argument : Si l’on formait une société de tempérance, faudrait-il la déprécier, parce que les hommes ont intérêt à être tempérants ? Si je fais un ,(emph[sophisme]) sur ce sujet, j’y glisserai cette réfutation.
@@ -25,6 +23,9 @@ Comme je ne pourrai pas épuiser tous les sophismes en un petit volume, s’il s
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), écris-moi.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

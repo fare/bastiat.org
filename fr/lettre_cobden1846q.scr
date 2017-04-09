@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 25 décembre 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/151/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 151.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 25 décembre 1846.])
 ,(p*[,(tag :a :name "faucher_ref")
 ,(np "cobden" [Mon cher ami]), j’ai communiqué votre lettre à ,(np "faucher" [Léon Faucher]). Il dit que « vous ne connaissez pas la France. » Pour moi, je suis convaincu que nous ne pouvons réussir qu’en éveillant le sentiment de la justice, et que nous ne pourrions pas même prononcer le mot ,(emph[justice]) si nous admettions l’ombre de ,(emph[la protection]). Nous en avons fait l’expérience ; et la seule fois que nous avons voulu faire des avances à une ville, elle nous a ri au nez. — ,(tag :a :name "le_ref")C’est cette conviction et la certitude où je suis qu’elle n’est pas assez partagée qui m’a principalement engagé à accepter la direction du ,(tj "le" [journal]). — Non que ce soit une direction bien réelle : il y a un comité de rédaction qui a la haute main ; mais je puis espérer néanmoins de donner à l’esprit de cette feuille une couleur un peu tranchée. Quel sacrifice, mon ami, que d’accepter le métier de journaliste et de mettre mon nom au bas d’une bigarrure ! mais je ne vous écris pas pour vous faire mes doléances.
@@ -19,6 +17,9 @@ Marseille ne paraît, pas plus que Bordeaux, comprendre la nécessité de concen
 ][,(tag :a :name "peel_ref")
 D’ailleurs, il faut avouer que les événements ne nous favorisent pas. Le jour même où ,(np "peel" [sir Robert Peel]) a consommé le ,(inenglish[free-trade]), il a demandé un crédit de 25 millions pour l’armée, comme pour proclamer qu’il n’avait pas foi dans son œuvre, et comme pour refouler dans notre bouche nos meilleurs arguments. Depuis, la politique de votre gouvernement est toujours empreinte d’un esprit de taquinerie qui irrite le peuple français et lui fait oublier ce qui pouvait lui rester d’impartialité. Ah ! si j’avais été ministre d’Angleterre ! à l’occasion de Cracovie, j’aurais dit : « Les traités de 1815 sont rompus. La France est libre ! l’Angleterre combattit le principe de la révolution française jusqu’à Waterloo. Aujourd’hui, elle a une autre politique, celle de la non-intervention dans toute son étendue. Que la France rentre dans ses droits, comme l’Angleterre dans une éternelle neutralité. » — Et joignant l’acte aux paroles, j’aurais licencié la moitié de l’armée et les trois quarts des marins. Mais je ne suis pas ministre.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

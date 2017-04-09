@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 26 février 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/170/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 170.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 26 février 1848.])
 ,(p*[,(tag :a :name "lamartine_ref")
 ,(np "cobden" [Mon cher Cobden]), je donnerais beaucoup d’argent (si j’en avais), pour voir un moment ,(np "lamartine" [M. de Lamartine]), notre ministre des Affaires étrangères. Mais je ne puis arriver à lui.
@@ -27,6 +25,9 @@ Au nom de la paix et de l’humanité, provoquez ces grandes mesures ! Faisons 
 ][
 Écrivez-moi ; dites-moi franchement si un voyage à Londres, entrepris dans ces vues, sous les auspices de ,(np "lamartine" [M. de Lamartine]), aurait quelques chances d’amener un résultat. Je lui montrerai votre lettre.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

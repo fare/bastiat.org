@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre au Journal des Économistes, par Frédéric Bastiat")
-
-(document :title [Lettre au ,(tj "je" [,(cite-title[Journal des Économistes])])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/209/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 209.]
 [,(ref :url "https://archive.org/stream/bub_gb_ICRZAAAAcAAJ#page/n55/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 28, n° 117, p. 50.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Publiée à titre posthume, sauf le ,(inlatin[post scriptum]), dans le ,(tj "je" [,(cite-title[Journal des Économistes])]), n° du 15 janvier 1851. ,(footnote*[Après la mort de Bastiat, il fut aisé à ses amis d’édifier M. Carey sur sa parfaite loyauté. Cette lettre nous paraît mériter cependant d’être conservée, d’autant plus que le post-scriptum contient les éléments d’une importante démonstration. ,(NdEEO)])])
 ,(p*[,(ref :url "harmonies.html" [Mon livre]) est entre les mains du public. Je ne crains pas qu’il se rencontre une seule personne qui, après l’avoir lu, dise : « Ceci est l’ouvrage d’un plagiaire. » Une lente assimilation, fruit des méditations de toute ma vie, s’y laisse trop voir, surtout si on le rapproche de mes autres écrits.
 ][
@@ -57,6 +54,9 @@ Et puis, quelle mission donnerez-vous au journal ? Ira-t-il dire aux propriéta
 ][,(tag :a :name "rossi_ref")
 Certes, je ne demande pas que qui que ce soit adopte mes idées sans examen ; mais je crois que le ,(tj "je" [,(cite-title[Journal des Économistes])]) ferait mieux de mettre la question à l’étude que de se prononcer d’ores et déjà. Oh ! ne croyons pas facilement que ,(np "ricardo" [Ricardo]), ,(np "say_jb" [Say]), ,(np "malthus" [Malthus]), ,(np "rossi" [Rossi]), que de si grands et solides esprits se sont trompés. Mais n’admettons pas non plus légèrement une théorie qui aboutit à de telles monstruosités.
 ])])
+(document :title [Lettre au ,(tj "je" [,(cite-title[Journal des Économistes])])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

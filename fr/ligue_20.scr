@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 22 mai 1844. — Présidence du général Briggs.")
-
-(document :title [Séance du 22 mai 1844. — Présidence du général ,(np "briggs" [Briggs]).]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n399/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 296.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/327/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 327.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[22 mai 1844.])
 ,(p*[,(tag :a :name "thompson_ref")
 Le meeting entend d’abord le Rév. ,(strong[Sam. Greene]) ; ensuite ,(strong[M. Richard Taylor]), common-councilman de Faringdon. Le président donne la parole à ,(np "thompson_g" [M. George Thompson]).
@@ -41,6 +38,9 @@ Un mot encore, et je finis. Je voudrais conseiller à nos amis de bien réfléch
 ][
 Ma force est dans mes arguments, et je n’en appelle qu’à la raison. Si je puis éveiller votre conscience et convaincre votre jugement, vous m’appartenez. Si je ne le puis, que Dieu vous juge, quant à moi, je ne vous jugerai pas. Je m’efforcerai de vous persuader de bien faire, et vous plaindrai si vous faites mal. Je poursuivrai le bien moi-même, et n’emploierai d’autres efforts pour conquérir mes frères que la raison, la tolérance et l’amour. (À la fin de ce discours, l’assemblée se lève en masse, les chapeaux et les mouchoirs s’agitent, et les applaudissements retentissent pendant plusieurs minutes.)
 ])])
+(document :title [Séance du 22 mai 1844. — Présidence du général ,(np "briggs" [Briggs]).]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

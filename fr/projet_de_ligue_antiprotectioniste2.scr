@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Projet de ligue anti-protectioniste, suite, par Frédéric Bastiat")
-
-(document :title "Projet de ligue anti-protectioniste, suite"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/34/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 7, p. 34.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 9 février 1846.])
 ,(p*[
 J’en suis resté à l’,(emph[esprit de parti]). Il semble assez inutile de s’en occuper déjà. Hélas ! notre Ligue est à naître ; à quoi sert de prévoir le temps où l’on recherchera son alliance ? Mais c’est avant d’élever l’édifice qu’il faut s’assurer de la qualité des matériaux. Les destinées de la Ligue se ressentiront toujours de l’esprit de ses fondateurs. Faible et chancelante, s’ils flottent au gré de toutes les doctrines économiques ; factieuse, isolée, n’ayant de puissance que pour le mal, s’ils rêvent d’avance autre chose que son principe avoué. — Ligue, triomphe, principe, liberté, vous n’êtes peut-être que les fantômes adorés d’une imagination trop facile à se laisser séduire à tout ce qui offre l’image du bien public ! Mais il n’est pas impossible, puisque cela s’est vu ailleurs, que ces fantômes se revêtent de réalité. Ce qui est impossible, tout à fait impossible, c’est que la Ligue puisse avoir force, vie, influence utile, si elle se laisse entamer par ,(emph[l’esprit de parti]).
@@ -33,6 +30,9 @@ Croyez-vous que ce soit une petite entreprise que de renouveler les convictions 
 [Del coraggio in tuo cuor la flamma accese…]
 [Il tuo dover compisce e nostra speme ,(footnote*[Ce reproche discret et poétique, que Bastiat adressait à l’un de ses anciens condisciples de Sorrèze, resta sans effet. ,(NdEEO)]).])
 ])])
+(document :title "Projet de ligue anti-protectioniste, suite"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Il n’y a pas de principes absolus
 	- par Frédéric Bastiat")
-(document :title "Il n’y a pas de principes absolus"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f142.image" [,(cite-title[Sophismes économiques])]), ch. 18.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/94/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 94.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XVIII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 
@@ -146,6 +144,9 @@ et, au tome VI ,
 ,(NdEEO)]) ?
 
 ])])
+(document :title "Il n’y a pas de principes absolus"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "chemin_de_fer.html" "independance_nationale.html")

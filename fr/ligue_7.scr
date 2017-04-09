@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Septième meeting hebdomadaire de la Ligue.")
-
-(document :title "Septième meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n201/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 96.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/160/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 160.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[5 mai 1843.])
 ,(p*[
 Longtemps avant l’ouverture de la séance, toutes les places sont envahies et l’entrée a dû être refusée à plus de trois mille personnes.
@@ -48,6 +45,9 @@ J’ai eu un attachement si passionné pour la liberté du commerce, que je n’
 
 ,(p*[,(tag :a :name "moore_ref"),(strong[MM. Latimore]) et ,(np "moore" [,(strong[Moore])]) prennent successivement la parole.
 ])])
+(document :title "Septième meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

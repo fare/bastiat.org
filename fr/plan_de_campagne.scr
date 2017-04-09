@@ -1,16 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "D’un plan de campagne proposé à l’Association du Libre-Échange, par Frédéric Bastiat")
-
-(document :title "D’un plan de campagne proposé à l’Association du Libre-Échange"
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/15/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 5, p. 15.]
 [,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part4.pdf#page=93" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 51, p. 405.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 novembre 1847.])
 ,(p*[
 Quelques-uns de nos amis, dans un but louable, nous avertissent que, selon eux, nous manquons de tactique et de savoir-faire.
@@ -80,6 +76,10 @@ Et quand nous disons à nos amis qu’il ne nous appartient pas d’isoler un mo
 ][,(tag :a :name "odier_ref")
 Nous avons appris sans étonnement l’accueil que la chambre de commerce du Havre a fait aux avances du comité ,(np "odier" [Odier])-,(np "mimerel" [Mimerel]) ,(footnote*[Naturellement, la chambre de commerce avait repoussé de telles avances. ,(NdEEO)]). En fait de liberté commerciale, elle avait fait ses preuves longtemps avant la naissance de notre Association. Nous ne renions certes pas nos parrains ; si nous allons plus loin qu’eux, dans le sens des mêmes principes, sur ,(emph[la question des sucres]) ou sur celle ,(emph[des lois de navigation]), nous n’en resterons pas moins unis de vues générales ainsi que de cœur avec nos honorables devanciers.
 ])])
+(document :title "D’un plan de campagne proposé à l’Association du Libre-Échange"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

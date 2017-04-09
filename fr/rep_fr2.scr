@@ -1,14 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
-
-(document :title "Article dans La République française"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/212/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 43, p. 212.])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/RepubliqueFrancaise1848/PDF/RepubliqueFrancaise1848-no-02.pdf#page=1" [,(cite-title[La République française])]), n° 2, 27 février 1848, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/212/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 43, p. 212.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 27 février 1848.])
 ,(p*[
 Lorsqu’on parcourt les rues de Paris, à peine assez spacieuses pour contenir les flots de la population, et qu’on vient à se rappeler qu’il n’y a dans cette immense métropole, en ce moment, ni roi, ni cour, ni gardes municipaux, ni troupes, ni police autre que celle que les citoyens exercent eux-mêmes ; quand on songe que quelques hommes, sortis hier de nos rangs, s’occupent seuls des affaires publiques ; — à l’aspect de la joie, de la sécurité, de la confiance qui respire dans toutes les physionomies, le premier sentiment est celui de l’admiration et de la fierté.
@@ -19,6 +17,9 @@ Il ne faut pas se le dissimuler : en France on nous a habitués à être gouver
 ][
 Voici une grande expérience qui démontre qu’il y a dans le cœur des hommes d’indestructibles principes d’ordre. L’ordre est un besoin et le premier des besoins, sinon pour tous, du moins pour l’immense majorité. Ayons donc confiance et tirons de là cette leçon que le grand et dispendieux appareil gouvernemental, que les ,(emph[intéressés]) nous représentaient comme indispensable, peut et doit être simplifié.
 ])])
+(document :title "Article dans La République française"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

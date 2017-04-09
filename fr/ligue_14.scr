@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue.")
-
-(document :title "Meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n304/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 199.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/246/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 246.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[15 février 1844.])
 ,(p*[,(tag :a :name "wilson_ref")
 Le meeting hebdomadaire de la Ligue a eu lieu jeudi soir au théâtre de Covent-Garden. — En l’absence du président, ,(np "wilson_g" [M. George Wilson]), ,(np "villiers" [M. Villiers]), membre du Parlement, occupe le fauteuil. Nous avons extrait de son discours les passages suivants :])
@@ -36,6 +33,9 @@ Et que dirons-nous de la prétention des propriétaires au titre d’agriculteur
 ][
 Le meeting se sépare après avoir poussé trois hurrahs en faveur de ,(np "oconnell" [M. O’Connell]).
 ])])
+(document :title "Meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

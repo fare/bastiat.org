@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 15 mai 1844.")
-
-(document :title "Séance du 15 mai 1844."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n378/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 275.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/309/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 309.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[15 mai 1844.])
 ,(p*[,(tag :a :name "bright_ref")
 Le fauteuil est occupé par ,(np "bright" [M. John Bright]), m. P., qui ouvre la séance par l’allocution suivante, dont nous donnons ici des extraits, quoiqu’elle n’ait qu’un rapport indirect avec la question de la liberté commerciale, mais parce qu’elle nous paraît propre à initier le lecteur français dans les mœurs anglaises, sous le rapport électoral.])
@@ -46,6 +43,9 @@ La parole est prise successivement par ,(strong[M. Turner]), fermier dans le So
 ][
 La séance est levée.
 ])])
+(document :title "Séance du 15 mai 1844."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

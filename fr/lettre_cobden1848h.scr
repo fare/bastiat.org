@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 18 août 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/179/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 179.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[18 août 1848.])
 ,(p*[,(tag :a :name "molesworth_ref")
 ,(np "cobden" [Mon cher Cobden]), j’ai reçu votre lettre et le beau discours de ,(np "molesworth" [M. Molesworth]). Si j’avais eu du temps à ma disposition, je l’aurais traduit pour le ,(tj "je" [,(cite-title[Journal des Économistes])]). Mais le temps me manque et plus encore la force. Elle m’échappe, et je vous avoue que me voilà saisi de la manie de tous les écrivains. Je voudrais consacrer le peu de santé qui me reste, d’abord à établir les vrais principes d’économie politique tels que je les conçois, et ensuite à montrer leurs relations avec toutes les autres sciences morales. C’est toujours ma chimère des ,(ref :url "harmonies.html" [,(cite-title[Harmonies économiques])]). Si cet ouvrage était fait, il me semble qu’il rallierait à nous une foule de belles intelligences, que le cœur entraîne vers le socialisme. Malheureusement, pour qu’un livre surnage et soit lu, il doit être à la fois court, clair, précis et empreint de sentiments autant que d’idées. C’est vous dire qu’il ne doit pas contenir un mot qui ne soit pesé. Il doit se former goutte à goutte comme le cristal, et, comme lui encore, dans le silence et l’obscurité. Aussi je pousse bien des soupirs vers mes chères Landes et Pyrénées.
@@ -25,6 +23,9 @@ Il est impossible de se proposer un plus noble but. J’ai vu avec plaisir que l
 ][
 Adieu, je suis forcé de vous quitter.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

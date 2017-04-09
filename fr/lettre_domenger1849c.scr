@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger")
-(document :title "Lettre à Bernard Domenger"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/390/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 390.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Lettre sans date.])
 ,(p*[
 Mon malencontreux rhume m’ôtant la possibilité de me servir de la tribune, j’ai quelquefois recours à la plume. Je vous envoie deux brochures. L’une n’a guère d’intérêt pour la province. Elle est intitulée ,(ref :url "capital_et_rente.html" [,(cite-title[Capital et rente])]). Mon but est de combattre un préjugé qui a fait de grands ravages parmi les ouvriers et même parmi les jeunes gens des écoles. Ce préjugé consiste à penser que l’intérêt d’un capital est un vol. J’ai donc cherché à exposer la nature intime et la raison d’être de l’intérêt. J’aurais pu rendre cette brochure piquante, le sujet y prêtait. J’ai cru devoir m’en abstenir pour ne pas irriter ceux que je voulais convaincre. Il en est résulté que je suis tombé dans la pesanteur et la monotonie. Si jamais je fais une seconde édition, je refondrai tout cela.
@@ -20,6 +18,9 @@ Les élections approchent : j’ignore ce que l’Assemblée décidera relative
 ][
 Quant à mon sort personnel, j’ignore ce qu’il sera. Le pays pourra me reprocher d’avoir peu travaillé ! En vérité, ma santé a été un obstacle invincible. Elle a paralysé mes forces physiques et morales. J’ai ainsi trompé l’attente de mes amis. Mais est-ce ma faute ? Quoi qu’il en soit, si le mandat m’est retiré, je reprendrai, sans trop d’amertume, mes chères habitudes solitaires. Adieu.
 ])])
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting général de la Ligue à Manchester.")
-
-(document :title "Meeting général de la Ligue à Manchester."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n512/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 409.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/420/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 420.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[22 janvier 1845.])
 ,(p*[
 Une première séance a lieu le matin. Elle a pour objet la reddition des comptes, au nom du conseil de la Ligue, aux membres de l’association. Les opérations de cette séance ne pourraient avoir qu’un faible intérêt pour le public français.
@@ -49,6 +46,9 @@ Ainsi s’est close la sixième année de l’agitation. Nous devons ajouter que
 ](nbsp)[,(tag :a :name "hume_jd_ref")
 Je termine en appelant l’attention du lecteur sur l’extrait suivant de l’interrogatoire de ,(np "hume_jd" [M. Deacon Hume]), secrétaire du ,(inenglish[Board of trade]).
 ])])
+(document :title "Meeting général de la Ligue à Manchester."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

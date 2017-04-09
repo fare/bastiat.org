@@ -1,15 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Liberté commerciale. État de la question en Angleterre.")
-
-(document :title "Liberté commerciale. État de la question en Angleterre."
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=7" [Sentinelle des Pyrénées]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 1,(sup[er]) juin 1843.])
 ,(p(center(sc[3,(e) article.])))
 ,(p*[
@@ -91,6 +87,10 @@ Il est évident, d’après ce qui précède, qu’il y a eu un moment où il e�
 
 ,(sign[Fr. B.])
 ])
+(document :title "Liberté commerciale. État de la question en Angleterre."
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

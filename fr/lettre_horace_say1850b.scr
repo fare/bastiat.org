@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Horace Say
 du 4 juillet 1850")
-(document :title [Lettre à ,(np "say_h" [Horace Say])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/200/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 200.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Eaux-Bonnes, 4 juillet 1850.])
 
 ,(cher[,(np "say_h" [Mon cher ami]),])
@@ -16,6 +14,9 @@ du 4 juillet 1850")
 ](nbsp)[,(tag :a :name "guillaumin_ref")
 … Si vous faites dans le Dictionnaire de ,(np "guillaumin" [Guillaumin]) l’article ,(cite-title[Assurance]), faites bien remarquer que ce ne sont pas seulement les compagnies qui ,(emph[s’associent]), mais encore et surtout les ,(emph[assurés]). Ce sont eux qui forment, sans s’en douter, une ,(emph[association]) qui n’en est pas moins réelle pour être volontaire et parce qu’on y entre et en sort quand on veut.
 ])])
+(document :title [Lettre à ,(np "say_h" [Horace Say])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 16 juillet 1840")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/32/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 32.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Madrid, le 16 juillet 1840.])
 ,(p*[,(tag :a :name "bastiat_j_ref")
 ,(np "coudroy" [Mon cher Félix]), je te remercie de tes bonnes lettres des ,(1er) et 6 juillet ; ,(np "bastiat_j" [ma tante]) aussi a eu soin de m’écrire, en sorte que jusqu’à présent j’ai souvent des nouvelles, et elles me sont bien nécessaires. Je ne puis pas dire que je m’ennuie, mais j’ai si peu l’habitude de vivre loin de chez moi que je ne suis heureux que les jours où je reçois des lettres.
@@ -21,6 +19,9 @@ Donne-moi de temps en temps des nouvelles de Mugron, ,(np "coudroy" [mon cher F�
 ])
 ,(politesse[Adieu, ,(np "coudroy" [mon cher Félix]), mes souvenirs à ta sœur.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

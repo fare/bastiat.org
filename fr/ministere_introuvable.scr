@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Circulaires d’un ministère introuvable
 	- par Frédéric Bastiat")
-(document :title "Circulaires d’un ministère introuvable"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=48" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 16, p. 88.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/462/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 69, p. 462.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 19 mars 1848.])
 ,(h2[Le ministre de l’intérieur à
 MM. les commissaires du gouvernement, préfets, maires, ,(emph[etc.])])
@@ -149,6 +147,9 @@ nous remplissons donc deux conditions du programme républicain :
 			F. B.])
 
 ])
+(document :title "Circulaires d’un ministère introuvable"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

@@ -1,16 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La ligue anglaise et la ligue allemande, par Frédéric Bastiat")
-
-(document :title "La ligue anglaise et la ligue allemande"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n93/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 13, n° 49, p. 83.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/140/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 26, p. 140.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de décembre 1845.])
 ,(p*(center(emph[Réponse à ,(tj "presse" [,(cite-title[la Presse])]) du 17 octobre 1845 ,(footnote*[Nous devons expliquer comment il se fait que notre savant collaborateur répond si tard aux théories de ,(cite-title[la Presse :]) M. F. Bastiat, qui habite le département des Landes, n’a eu connaissance de l’article de ce journal, que longtemps après sa publication. En outre, cette réponse, qu’il nous avait envoyée pour le numéro de novembre, ne nous est point parvenue à temps. ,(emph[(Note de la rédaction du Journal des Économistes.)])]).])))
 ,(p*[La Ligue anglaise représente la liberté, la Ligue allemande la restriction. Nous ne devons pas être surpris que toutes les sympathies de ,(tj "presse" [,(cite-title[la Presse])]) soient acquises à la Ligue allemande.
@@ -79,6 +76,9 @@ Je vous répondrai que si les Brésiliens vendent du sucre aux Allemands, il n�
 
 ,(p*[,(tag :a :name "pascal_ref")Vous voyez donc bien qu’il y a une vérité, une vérité absolue, et que, comme dirait ,(np "pascal" [Pascal]), ce qui est vrai au delà ne saurait être faux en deçà du Rhin.
 ])])
+(document :title "La ligue anglaise et la ligue allemande"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

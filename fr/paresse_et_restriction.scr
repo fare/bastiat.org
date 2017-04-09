@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Paresse et restriction, par Frédéric Bastiat")
-
-(document :title "Paresse et restriction"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=26" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 8, p. 46.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/219/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 39, p. 219.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 16 janvier 1848.])
 ,(p*[
 Un de nos abonnés, homme de beaucoup de lumières et d’expérience, placé dans une haute position sociale, nous soumet l’objection suivante, à laquelle nous nous empressons de répondre, parce qu’elle préoccupe beaucoup d’esprits sincères.
@@ -32,6 +28,10 @@ Beaucoup de publicistes ont eu le tort de ne pas donner assez d’importance aux
 ][
 Nous contestons au législateur une telle ,(emph[autocratie]), et plus encore quand elle se manifeste par des mesures qui, après tout, n’encouragent l’un dans une certaine proportion qu’en décourageant l’autre dans une proportion plus grande encore, comme c’est le propre du système protecteur, selon notre honorable correspondant lui-même.
 ])])
+(document :title "Paresse et restriction"
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 de février 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/124/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 124.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, février 1846.])
 ,(p*[,(tag :a :name "duffour_ref")
 ,(np "cobden" [Mon cher Monsieur]), vous apprendrez sans doute avec intérêt qu’une démonstration se fait à Bordeaux dans le sens du ,(inenglish[free-trade]). Aujourd’hui l’association s’est constituée. ,(np "duffour" [Le maire de Bordeaux]) a été nommé président. Avant peu la souscription va s’ouvrir et on espère qu’elle produira une centaine de mille francs. Voilà un beau résultat. Je n’ose concevoir de grandes espérances, et je crains que nos commencements un peu timides ne nous suscitent plus tard des obstacles. On n’a pas osé poser hardiment le principe. On se borne à dire que l’association réclame l’abolition, ,(emph[le plus promptement possible]), des droits protecteurs. Ainsi la question de gradation est réservée, et votre ,(inenglish[total, immediate]) n’a pu passer. Vu l’état peu avancé des esprits en cette matière, il eût été inutile d’insister, et il faut espérer que l’association, qui a pour but d’éclairer les autres, aura pour effet de s’éclairer elle-même.
@@ -19,6 +17,9 @@ Depuis un mois, ,(np "cobden_ligue" [mon volume]) a un succès extraordinaire à
 ][,(tag :a :name "peel_ref")
 Je ne puis m’empêcher de déplorer que ,(np "peel" [votre Premier]) ait manqué l’occasion de frapper l’Europe d’étonnement. Si, au lieu de dire : « J’ai besoin de nouveaux subsides pour augmenter nos forces de terre et de mer, » il avait dit : « Puisque nous adoptons le principe de la liberté commerciale, il ne peut plus être question de ,(emph[débouchés]) et de colonies. Nous renonçons à l’Oregon, peut-être même au Canada. Nos différends avec les États-Unis disparaissent, et je propose une réduction de nos forces de terre et de mer. » — S’il eût tenu ce langage, il y aurait eu, pour l’effet, autant de différence entre ce discours et les traités d’économie politique que nous sommes encore réduits à faire, qu’il y en a entre le soleil et des traités sur la lumière. L’Europe aurait été convertie en un an, et l’Angleterre y aurait gagné de trois côtés. Je me dispense de les énumérer, car je suis accablé de fatigue.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

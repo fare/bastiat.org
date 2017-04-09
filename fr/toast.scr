@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Toast porté au banquet offert à Cobden par les libre-échangistes de Paris, par Frédéric Bastiat")
-
-(document :title "Toast porté au banquet offert à Cobden par les libre-échangistes de Paris"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/122/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 26, p. 122.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]), n° du 19 août 1846.])
 ,(p :align "center" *[
 Frédéric Bastiat : ,(emph[Aux défenseurs de la liberté commerciale dans les deux Chambres !])
@@ -22,6 +19,9 @@ Messieurs, je désire que ce toast soit aussi un témoignage de sympathie pour l
 ][
 Aux anciens et aux nouveaux défenseurs du libre-échange, à la Chambre des pairs et à la Chambre des députés !
 ])])
+(document :title "Toast porté au banquet offert à Cobden par les libre-échangistes de Paris"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_cf)

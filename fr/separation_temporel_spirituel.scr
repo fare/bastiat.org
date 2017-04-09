@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la séparation du temporel et du spirituel, par Frédéric Bastiat")
-
-(document :title "De la séparation du temporel et du spirituel"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/357/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 80, p. 357.])
 ])
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[Ébauche inédite probablement écrite en 1849.])
 
@@ -88,5 +85,8 @@ La religion a donc pour base la morale. De plus elle a des dogmes, des faits, un
 ][
 Au sein d’un peuple, les ministres de la religion sont des hommes très-influents. Indépendamment du respect qu’ils s’attirent comme interprètes de la volonté de Dieu, ils sont encore les distributeurs d’une des choses dont les hommes ont le plus besoin, la morale……
 ])])
+(document :title "De la séparation du temporel et du spirituel"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

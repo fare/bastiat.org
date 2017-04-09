@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 de juillet 1845")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/62/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 62.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Londres, juillet 1845.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’arrivai ici hier soir. Sachant combien tu t’intéresses à notre cause, et au rôle que le hasard m’y a donné, je te raconterai tout ce qui se passe, d’autant que je n’ai pas le temps de prendre des notes, et dès lors mes lettres me serviront plus tard à rappeler mes souvenirs, afin que de vive voix je puisse te donner plus de détails.
@@ -21,6 +19,9 @@ N’oublions pas Paris. Avant de le quitter, j’ai passé une heure avec ,(np "
 ][
 Adieu, je te quitte. J’ai encore trois lettres à écrire à Paris, et nous sommes déjà à demain, car il est plus de minuit.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

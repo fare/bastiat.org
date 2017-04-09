@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La Tribune et la Presse, à propos du traité belge, par Frédéric Bastiat")
-
-(document :title "La Tribune et la Presse, à propos du traité belge"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n469/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 53, p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/81/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 16, p. 81.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’avril 1846.])
 ,(p*[
 Voici quelque chose de nouveau, — ce que les Anglais appellent ,(inenglish[a free-trade debate]), — une joute entre deux principes, la liberté et la protection. — Pendant bien des années, les chefs de la Ligue ont provoqué, au sein des Communes, de semblables discussions. Sûrs d’être défaits, ils ne regardaient pas comme inutiles ces longues et laborieuses veilles où s’élaborait cette reine du monde, l’opinion ; — l’opinion qui assure enfin leur victoire. Pendant ce temps-là, il ne se fût pas trouvé chez nous un député assez audacieux pour articuler cette impopulaire expression : ,(emph[un principe]). L’inattention, le dédain, la raillerie, peut-être quelque chose de pis, eussent prouvé au téméraire qu’il est des époques où, si l’on n’est pas sceptique, il faut du moins le paraître, et où quiconque croit à quelque chose n’est propre à rien.
@@ -160,6 +157,9 @@ Il est vrai que nous avons contre nous
 ][
 Encore quelques efforts. Que Paris se réveille ; qu’il fasse une démonstration digne de lui ; que les six mois qui sont devant nous soient aussi féconds que ceux qui viennent de s’écouler, et la question de principe sera emportée.
 ])])
+(document :title "La Tribune et la Presse, à propos du traité belge"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

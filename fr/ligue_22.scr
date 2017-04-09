@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Exposé du dissentiment sur le tarif des sucres.")
-
-(document :title "Exposé du dissentiment sur le tarif des sucres."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n428/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 325.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/351/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 351.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 Les deux grandes questions sur lesquelles se portent les efforts opposés des ,(inenglish[free-traders]) et des prohibitionnistes, savoir : la loi-céréale et la loi des sucres, approchent enfin, sinon de leur dénoûment définitif, du moins de la solution provisoire qu’elles doivent recevoir cette année par un vote du Parlement. Nous terminerons donc, du moins pour cette campagne, l’œuvre que nous avons entreprise, par l’analyse succincte des débats et des péripéties parlementaires auxquels auront donné lieu ces votes mémorables. Commençons par la loi des sucres.
 ][
@@ -73,6 +70,9 @@ On a beaucoup reproché aux ligueurs cette conduite. On a dit qu’ils avaient s
 ][
 Le remarquable discours prononcé par ,(np "cobden" [M. Cobden]) au meeting de la Ligue du 19 juin, fera connaître les motifs de l’Association, et initiera le lecteur à cet esprit nouveau qui surgit en Angleterre, et qui étouffera jusqu’aux derniers restes du fléau destructeur qu’on nomme : Esprit de parti.
 ])])
+(document :title "Exposé du dissentiment sur le tarif des sucres."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

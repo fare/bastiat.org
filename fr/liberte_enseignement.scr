@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Liberté d’enseignement, par Frédéric Bastiat")
-
-(document :title "Liberté d’enseignement"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/231/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 53, p. 231.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 4 mars 1848.])
 ,(p*[
 Tous les actes du gouvernement provisoire relatifs à l’instruction publique sont conçus, nous sommes fâchés de le dire, dans un esprit qui suppose que la France a renoncé à la liberté de l’enseignement.
@@ -29,6 +26,9 @@ Qu’ils aient été tenus éloignés des fonctions publiques rétribuées, cela
 ][
 Mais que l’on dédaigne systématiquement leur témoignage dans de simples enquêtes, c’est un symptôme significatif ; il prouve que le torrent nous entraîne vers le développement illimité de l’action gouvernementale, vers la compression indéfinie de la vraie liberté.
 ])])
+(document :title "Liberté d’enseignement"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

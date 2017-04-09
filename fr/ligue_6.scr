@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue.")
-
-(document :title "Meeting hebdomadaire de la Ligue."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n192/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 87.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/153/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 153.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[26 avril 1843.])
 ,(p*[
 L’affluence est aussi considérable que dans les précédentes occasions. On remarque dans l’assemblée plusieurs des membres les plus respectables de la société des wesleyens.
@@ -30,6 +27,9 @@ Je sais qu’il est de mode de railler les manufacturiers et leur prétendu égo
 ][,(tag :a :name "ewart_ref")
 ,(np "ewart" [,(strong[M. Ewart])]) et ,(np "bright" [,(strong[M. Bright])]) prennent successivement la parole. Ce dernier rend compte des nombreux meetings auxquels il a assisté dans les districts agricoles.
 ])])
+(document :title "Meeting hebdomadaire de la Ligue."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Laurence
 du 18 mars 1820")
-(document :title "Lettre à M. Laurence"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/369/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 369.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 9 novembre 1844.])
 
 ,(cher[,(np "laurence" [Monsieur]) et cher collègue,])
@@ -20,6 +18,9 @@ Enfin, Monsieur et cher collègue, vous me renvoyez aux tables de recrutement. E
 ][
 Vous voyez que, comme tous les auteurs possibles, je ne conviens pas facilement d’avoir tort. Je dois pourtant dire que je n’ai pas suffisamment expliqué la portée du passage où j’ai résumé en chiffres (6,32) les considérations diverses disséminées dans mon écrit. Je sais bien que le mouvement de la population ne peut pas être une bonne base de répartition ; mon seul but a été de rendre mes conclusions sensibles par des chiffres, et je crois sincèrement que les recherches ,(emph[directes]) de l’administration donneront des résultats qui ne s’éloigneront pas de beaucoup de ceux auxquels je suis arrivé, parce qu’il y a selon moi un rapport sinon rigoureux, du moins très-approximatif entre le progrès de la population et celui du revenu.
 ])])
+(document :title "Lettre à M. Laurence"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

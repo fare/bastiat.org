@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 9 février 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/122/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 122.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 9 février 1846.])
 ,(p*[
 ,(np "cobden" [Mon cher Monsieur]), au moment où vous recevrez cette lettre vous serez dans le ,(emph[coup de feu]) de la discussion. J’espère pourtant que vous trouverez un moment pour notre France ; car, malgré ce que vous me dites d’intéressant sur l’état des choses chez vous, je ne vous en parlerai pas. Je n’aurais rien à vous dire, et il me faudrait perdre un temps précieux à exprimer des sentiments d’admiration et de bonheur dont vous ne doutez pas. Parlons donc de la France. ,(tag :a :name "peel_ref")Mais avant je veux en finir avec la question anglaise. Je n’ai rien vu, dans votre ,(inenglish[,(np "peel" [Peel])’s measure]), concernant les vins. C’est certainement une grande faute contre l’économie politique et contre la politique. — Un dernier vestige ,(emph[of the Policy of reciprocal treaties]) se montre dans cette omission, ainsi que dans celle du ,(inenglish[timber]). C’est une tache dans le projet de ,(np "peel" [M. Peel]) ; et elle détruira, dans une proportion énorme, l’effet moral de l’ensemble, précisément sur les classes, en France et dans le Nord, qui étaient les mieux disposées à recevoir ce haut enseignement. Cette lacune et cette phrase : ,(inenglish[We shall beat all other nations]), ce sont deux grands aliments jetés à nos préjugés ; ils vivront longtemps là-dessus. Ils verront là la pensée secrète, la pensée machiavélique de la ,(emph[perfide Albion]). De grâce, proposez un amendement. Quel que soit l’absolutisme de ,(np "peel" [M. Peel]), il ne résistera pas à vos arguments.
@@ -25,6 +23,9 @@ Une fois que l’affaire bordelaise sera réglée, je me rendrai à Paris. L’e
 ][
 Je vais dresser un plan pour la distribution de 50 exemplaires de ma traduction.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

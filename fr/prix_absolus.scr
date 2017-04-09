@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Prix absolus
 	- Sophisme économique démonté par Frédéric Bastiat")
-(document :title "Prix absolus"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/s1journaldesco12soci#page/213/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 12, n° 47, p. 213.]
 [,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f106.image" [,(cite-title[Sophismes économiques])]), ch. 11.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/70/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 70.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1845.])
 ,(h2[Chapitre XI de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
@@ -171,6 +169,9 @@ et le ,(bof-ref "richesse" [chapitre ,(sc[vi])]) des ,(Harmonies_economiques).
 ,(NdEEO)
 ]).
 ])])
+(document :title "Prix absolus"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

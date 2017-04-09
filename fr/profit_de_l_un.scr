@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Le profit de l’un est le dommage de l’autre, par Frédéric Bastiat")
-
-(document :title [Le profit de l’un est le dommage de l’autre ,(footnote*[Ébauche de 1847. L’auteur s’en est tenu à ce court préambule du chapitre qu’il promettait dans l’ébauche précédente. Il s’aperçut bien vite que, pour la réfutation projetée, un chapitre ne suffisait pas. C’était un livre qu’il fallait ; et il écrivit les ,(ref :url "harmonies.html" [,(cite-title[Harmonies])]). ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/327/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 75, p. 327.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1847.])
 ,(p*[Sophisme type, sophisme souche, d’où sortent des multitudes de sophismes, sophisme polype, qu’on ne peut couper en mille que pour donner naissance à mille sophismes, sophisme anti-humain, anti-chrétien, anti-logique ; boîte de Pandore d’où sont sortis tous les maux de l’humanité, haines, défiances, jalousies, guerres, conquêtes, oppressions ; mais d’où ne pouvait sortir l’espérance.
 ][
@@ -20,5 +17,8 @@ Donc ce ne sont ni les dieux ni les demi-dieux de l’antiquité qu’il faut in
 ][,(tag :a :name "euclide_ref")
 Si je voulais parler au cœur, je m’inspirerais du fondateur de la religion chrétienne. — Puisque c’est à l’esprit que je m’adresse et qu’il s’agit d’essayer une ,(emph[démonstration]), je me place sous l’invocation d’,(np "euclide" [Euclide]) et de ,(np "bezout" [Bezout]), tout en appelant à mon aide les ,(np "turgot" [Turgot]), les ,(np "say_jb" [Say]), les ,(np "destutt" [Tracy]), les ,(np "comte" [Ch. Comte]). On dira « c’est bien froid ». Qu’importe, pourvu que la démonstration se fasse……
 ])])
+(document :title [Le profit de l’un est le dommage de l’autre ,(footnote*[Ébauche de 1847. L’auteur s’en est tenu à ce court préambule du chapitre qu’il promettait dans l’ébauche précédente. Il s’aperçut bien vite que, pour la réfutation projetée, un chapitre ne suffisait pas. C’était un livre qu’il fallait ; et il écrivit les ,(ref :url "harmonies.html" [,(cite-title[Harmonies])]). ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

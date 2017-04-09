@@ -1,13 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat au président du Congrès de la paix")
-(document :title "Lettre au président du Congrès de la paix, à Francfort"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/197/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 197.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 17 août 1850.])
 
 ,(cher[,(np "jaup" [Monsieur le président]),])
@@ -42,6 +40,9 @@ Mais nous venons au contraire leur dire : « Consultez non-seulement vos inté
 N’est-il pas permis d’espérer que ce langage sera entendu ? Courage donc, hommes de foi et de dévouement, courage et confiance ! ceux qui ne peuvent aujourd’hui se mêler à vos rangs vous suivent de l’œil et du cœur.
 ][Recevez, Monsieur le président, l’assurance de mes sentiments respectueux et dévoués.])
 ])
+(document :title "Lettre au président du Congrès de la paix, à Francfort"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 ,(oeuvres)

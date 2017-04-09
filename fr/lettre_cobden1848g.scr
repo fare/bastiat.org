@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 7 août 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/178/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 178.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[7 août 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), je quitte l’assemblée pour répondre quelques lignes à votre lettre du 5. J’espérais voir nos ministres pour conférer avec eux sur la communication que vous me faites, mais ils ne sont pas venus. En attendant d’autres détails, voici ce que je sais.
@@ -23,6 +21,9 @@ En ce moment, il circule, à l’occasion de l’Italie, des bruits qui sont de 
 ][
 Adieu, ,(np "cobden" [mon cher Cobden]). Je vous écrirai prochainement.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

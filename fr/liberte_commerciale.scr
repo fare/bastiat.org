@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Liberté commerciale, par Frédéric Bastiat")
-
-(document :title "Liberté commerciale"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/91/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 19, p. 91.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 2 mai 1846.])
 ,(p*[
 Comment trouvez-vous Philis ? — Belle, admirable, adorable. — N’est-ce pas qu’elle a de beaux yeux ? — Oui, mais ils louchent. — Et son teint ? — Il est un peu couperosé. — Et que dites-vous de son nez ? — Il fait honte à celui de la Sulamite que l’époux compare à la tour du mont Liban. — Oui dà ! mais en quoi donc trouvez-vous que Philis soit si belle ? — Elle est incomparable dans l’ensemble, mais elle ne supporte pas le détail.
@@ -92,6 +89,9 @@ Vous n’examinez pas !… Mais précisément c’est ce qu’il faut examiner.
 ][
 Quand le choléra régnait à Paris, il y favorisait certaines industries ; les médecins, les pharmaciens, les droguistes, les entrepreneurs de pompes funèbres, tendaient à se multiplier sous son influence. Si l’État eût trouvé un moyen de chasser ce fléau, qu’aurait-on pensé d’un publiciste qui serait venu dire : Je n’examine pas si le choléra est un bien ou un mal ; il suffit qu’il existe et qu’il ait créé de nombreux intérêts pour qu’on n’y touche qu’avec prudence ?
 ])])
+(document :title "Liberté commerciale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

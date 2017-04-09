@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "M. de Noailles à la chambre des pairs, par Frédéric Bastiat")
-
-(document :title "M. de Noailles à la chambre des pairs"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=37" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 9, p. 66.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/216/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 38, p. 216.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 24 janvier 1847.])
 ,(p*[
 Notre mission est de combattre cette fausse et dangereuse économie politique qui fait considérer la prospérité d’un peuple comme incompatible avec la prospérité d’un autre peuple, qui assimile le commerce à la conquête, le travail à la domination. Tant que ces idées subsisteront, jamais le monde ne pourra compter sur vingt-quatre heures de paix. Nous dirons plus, la paix serait une absurdité et une inconséquence.
@@ -36,6 +33,9 @@ Les Anglais désirent jouir d’une foule de choses qui ne viennent pas dans leu
 ][
 Que de peine il faut pour faire comprendre une vérité si simple ! — Et pourtant il faut qu’elle soit comprise. La paix du monde est à ce prix.
 ])])
+(document :title "M. de Noailles à la chambre des pairs"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

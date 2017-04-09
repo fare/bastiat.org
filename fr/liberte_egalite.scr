@@ -2,22 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Liberté, égalité
 	- par Frédéric Bastiat")
-(document :title [Liberté, égalité ,(footnote*[
-Dans les premiers mois de 1850, l’auteur,
-qui travaillait au second volume des
-,(Har-ref[Harmonies]),
-commençait pour ce volume un chapitre intitulé Liberté, Égalité.
-Il renonça bientôt à lui donner cette destination et ne l’acheva point.
-Nous reproduisons ici ce fragment
-qui rentre dans l’idée de ,(ref :url "baccalaureat_et_socialisme.html" [l’opuscule]) qu’on vient de lire.
-,(NdEEO)
-])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/501/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 501.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Ébauche datant des premiers mois de 1850,
 ,(br)insérée dans les ,(cite-title[Œuvres complètes]) comme complément à la brochure ,(ref :url "baccalaureat_et_socialisme.html" [,(cite-title[Baccalauréat et socialisme])]).])
 ,(p*[
@@ -150,5 +139,17 @@ par des courtiers, des fabricants, des armateurs,
 et même par les propriétaires par excellence, les propriétaires fonciers…
 
 ])])
+(document :title [Liberté, égalité ,(footnote*[
+Dans les premiers mois de 1850, l’auteur,
+qui travaillait au second volume des
+,(Har-ref[Harmonies]),
+commençait pour ce volume un chapitre intitulé Liberté, Égalité.
+Il renonça bientôt à lui donner cette destination et ne l’acheva point.
+Nous reproduisons ici ce fragment
+qui rentre dans l’idée de ,(ref :url "baccalaureat_et_socialisme.html" [l’opuscule]) qu’on vient de lire.
+,(NdEEO)
+])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer []))

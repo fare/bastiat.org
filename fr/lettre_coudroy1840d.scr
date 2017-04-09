@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 17 août 1840")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/34/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 34.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Madrid, le 17 août 1840.])
 ,(p*[
 … Tu me fais une question à laquelle je ne puis répondre : Comment le peuple espagnol a-t-il pu laisser chasser et tuer les moines ? Moi-même je me le demande souvent ; mais je ne connais pas assez le pays pour m’expliquer ce phénomène. Ce qu’il y a de probable, c’est que le temps des moines est fini partout. Leur inutilité, à tort ou à raison, est une croyance généralement établie. À supposer qu’il y eût en Espagne 40,000 moines, intéressant autant de familles composées de 5 personnes, cela ne ferait que 200,000 habitants contre 10 millions. Leurs immenses richesses ont pu tenter beaucoup de gens de la classe aisée ; l’affranchissement d’une foule de redevances a pu tenter beaucoup de gens de la classe du peuple. Le fait est qu’on en a fini avec cette puissance ; mais, à coup sûr, jamais mesure, à la supposer nécessaire, n’a été conduite avec autant de barbarie, d’imprévoyance et d’impolitique.
@@ -53,6 +51,9 @@ On m’a assuré que les exaltés n’étaient pas d’accord entre eux ; les p
 ][
 Et malgré cette terrible logique, l’,(emph[ayuntamiento]) n’a pas reculé devant la première provocation ! Du reste, je te parle là de bruits publics, car, quant à moi, j’étais à la Bibliothèque royale, et je ne me suis aperçu de rien.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

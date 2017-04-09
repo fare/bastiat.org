@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 9 juin 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/82/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 82.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 9 juin 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’ai été en effet bien longtemps sans t’écrire, et il faut me le pardonner, car je ne sais plus où donner de la tête. Voici ma vie : je me lève à six heures ; s’habiller, se raser, déjeuner, parcourir les journaux, cela tient jusqu’à sept heures et sept heures et demie. Vers neuf heures, il faut que je parte, car à dix heures commence la séance du comité des finances auquel j’appartiens ; il dure jusqu’à une heure, et alors c’est la séance publique qui commence et se prolonge jusqu’à sept. Je rentre pour dîner, et il est bien rare qu’après dîner il n’y ait pas réunion des sous-commissions chargées de questions spéciales.
@@ -28,6 +26,9 @@ Dans l’émeute du 15, je n’ai été ni frappé ni menacé ; j’ajouterai m
 ])
 ,(politesse[Adieu, mon cher Félix.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

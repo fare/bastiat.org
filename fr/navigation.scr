@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Navigation")
-
-(document :title "Navigation"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part1.pdf#page=27" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 7, p. 49.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 10 janvier 1847.])
 ,(p*[
 Quand une grande cause agite le pays, les questions personnelles ont peu d’importance. Aussi je ne me suis pas attaché à relever la bizarre interprétation au moyen de laquelle on défigure tous les jours ,(ref :url "negociants_havre3.html" [la lettre]) que j’adressai, il y a deux mois, aux armateurs du Havre. Je pensais que les écrits doivent se défendre eux-mêmes.
@@ -114,6 +111,9 @@ Enfin qu’il me soit permis de rappeler que ,(ref :url "negociants_havre3.html#
 ])
 ,(sign[,(FredB).])
 ])
+(document :title "Navigation"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

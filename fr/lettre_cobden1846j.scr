@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 21 juillet 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/136/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 136.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, 21 juillet 1846.])
 ,(p*[,(tag :a :name "duffour_ref")
 ,(np "cobden" [Mon cher et excellent ami]), votre lettre est venue me trouver à Bordeaux, où je me suis rendu pour assister à un meeting occasionné par le retour de notre président ,(np "duffour" [M. Duffour-Dubergié]). Ce meeting aura lieu dans quelques heures ; je dois y parler, et cette circonstance me préoccupe à tel point que vous excuserez le désordre et le décousu de ma lettre. Je ne veux cependant pas remettre de vous écrire à un autre moment, puisque vous me demandez de vous répondre par retour du courrier.
@@ -21,6 +19,9 @@ J’irai à Paris au commencement d’août. Il n’est pas probable que j’y a
 ](nbsp)[
 Je sors du meeting où je n’ai pas parlé ,(footnote*[L’explication de cette circonstance se trouve dans ,(ref :url "lettre_coudroy1846g.html" [une lettre]) adressée à M. Coudroy. ,(NdEEO)]). Mais il m’est arrivé, à propos de députation, une chose bien extraordinaire. Je vous la conterai à Paris. Oh ! mon ami, il est des pays où il faut avoir vraiment l’âme grande pour s’occuper du bien public, tant on s’y applique à vous décourager.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

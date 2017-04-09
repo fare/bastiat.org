@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Grand meeting au théâtre de Covent-Garden.")
-
-(document :title "Grand meeting au théâtre de Covent-Garden."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n276/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 171.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/223/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 223.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[25 janvier 1844.])
 ,(p*[
 Après une interruption de deux mois, la Ligue a repris ses meetings au théâtre de Covent-Garden. Jeudi soir, la foule avait envahi le vaste édifice. Dans aucune des précédentes occasions elle n’avait montré plus de sympathie et d’enthousiasme.
@@ -91,6 +88,9 @@ M. Bouverie prononce un discours instructif sur la situation financière de l�
 ][,(tag :a :name "gibson_ref")
 MM. ,(np "gibson" [Milner Gibson]) et le Rév. J. Burnett parlent après ,(np "fox" [M. Fox]). La séance est levée à 11 heures.
 ])])
+(document :title "Grand meeting au théâtre de Covent-Garden."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

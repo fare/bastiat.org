@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Moteur social
 	- par Frédéric Bastiat")
-(document :title "Moteur social"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/544/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/567/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 567.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XXII des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -462,6 +460,9 @@ puis un c,(oe)ur humain pour aller avec leur ordre social.
 
 
 ])])
+(document :title "Moteur social"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

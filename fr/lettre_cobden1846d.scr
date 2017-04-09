@@ -2,21 +2,22 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 16 mars 1846")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/126/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 126.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 16 mars 1846.])
 ,(p*[
-,(np "cobden" [Mon cher Monsieur]), j’ai tardé quelques jours à répondre à votre bonne et instructive lettre. Ce n’est pas que je n’eusse bien des choses à vous dire, mais le temps me manquait ; aujourd’hui même, je ne vous écris que pour vous annoncer mon arrivée à Paris. Si j’avais pu hésiter à y venir, l’espoir que vous me donnez de vous y voir bientôt aurait suffi pour m’y décider.
+Mon cher ,(np "cobden" [Monsieur]), j’ai tardé quelques jours à répondre à votre bonne et instructive lettre. Ce n’est pas que je n’eusse bien des choses à vous dire, mais le temps me manquait ; aujourd’hui même, je ne vous écris que pour vous annoncer mon arrivée à Paris. Si j’avais pu hésiter à y venir, l’espoir que vous me donnez de vous y voir bientôt aurait suffi pour m’y décider.
 ][
 Bordeaux est vraiment en ,(emph[agitation]). Il a été ,(emph[de mode]) de s’associer à cette œuvre, il m’a été impossible de suivre mon plan, qui était de borner l’association aux personnes ,(emph[convaincues]). La ,(initalian[furia francese]) m’a débordé. Je prévois que ce sera un grand obstacle pour l’avenir ; car déjà, quand on a voulu faire une pétition aux chambres pour fixer nos prétentions, des dissidences profondes se sont révélées. — Quoi qu’il en soit, on lit, on étudie, et c’est beaucoup. Je compte sur l’agitation elle-même pour éclairer ceux qui la font. Ils ont pour but d’instruire les autres et ils s’instruiront eux-mêmes.
 ][
 Arrivé hier soir, je ne puis vous rien dire par ce courrier. J’aimerais mieux mille fois réussir à former un noyau d’hommes bien convaincus que de provoquer une manifestation bruyante comme celle de Bordeaux. — Je sais que l’on parle déjà de ,(emph[modération]), de ,(emph[réformes progressives]), d’,(inenglish[experiments]). Si je le puis, je conseillerai à ces gens-là de former entre eux une association sur ces bases et de nous laisser en former une autre sur le terrain du principe abstrait et absolu : ,(inenglish[no protection]), bien convaincu que la nôtre absorbera la leur.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

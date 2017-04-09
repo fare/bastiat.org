@@ -1,14 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Théorie, pratique")
-(document :title "Théorie, pratique"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f119.image" [,(cite-title[Sophismes économiques])]), ch. 13.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/79/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 79.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XIII de la I,(re) série des ,(SophismesEconomiques)])
 
 ,(p*[
@@ -293,6 +291,9 @@ V. ci-après le ,(bof-ref "encore_repriprocite" [chapitre XV]). ,(NdEEO)
 ]).
 
 ])])
+(document :title "Théorie, pratique"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "protection_taux_salaires.html" "conflit_de_principes.html")

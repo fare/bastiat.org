@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 26 novembre 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/88/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 88.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 26 novembre 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), vous avez dû m’attendre à Mugron. Mon projet était d’abord d’y aller ; quand j’ai accepté d’être du conseil général, je dois avouer, à ma honte, que j’ai un peu été déterminé par la perspective de ce voyage. L’air natal a toujours tant d’attraits ! et puis j’aurais été heureux de te serrer la main. À cette époque, c’était une chose comme arrêtée que l’assemblée se prorogerait pendant la session du conseil. Depuis les choses ont changé ; on a vu un danger à dissoudre la seule autorité debout dans notre pays, et, partageant ce sentiment, j’ai dû rester à mon poste. Il est vrai que j’ai été malade et retenu souvent dans ma chambre, quelquefois dans mon lit, mais enfin j’étais à Paris, prêt à faire, dans la mesure de mes forces, ce que les circonstances auraient exigé.
@@ -31,6 +29,9 @@ Les rouges, qui ont au moins le mérite d’être conséquents et sincères, por
 ][
 Sauf aux journées de juin, où, comme tous mes collègues, j’allais, en revenant des barricades, dire au chef du pouvoir exécutif ce que j’avais vu, je n’ai jamais parlé à ,(np "cavaignac" [Cavaignac]), je n’ai jamais été dans ses salons, et très-probablement il ne sait pas si j’existe. Mais j’ai écouté ses paroles, j’ai observé ses actes, et si je ne les ai pas tous approuvés, si j’ai souvent voté contre lui, notamment chaque fois qu’il m’a paru que les mesures exceptionnelles, nées des nécessités de juin, se prolongeaient trop longtemps, je puis le dire, du moins en mon âme et conscience, je crois ,(np "cavaignac" [Cavaignac]) honnête…
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

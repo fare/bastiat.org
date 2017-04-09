@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 5 juin 1845")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/54/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 54.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 5 juin 1845.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), une occasion se présente pour Bordeaux, et je ne veux pas la laisser partir sans répondre quelques mots à ta lettre. Pardonne-moi si j’abrège beaucoup, j’ai honte de dire que je suis occupé, car les jours se passent sans que je les utilise. C’est une chose qu’on ne peut s’expliquer qu’ici. D’ailleurs nous causerons bientôt de tout ce qui nous intéresse tant, et qui n’intéresse guère que nous.
@@ -31,6 +29,9 @@ J’emporterai quelques ouvrages d’ici. Mon voyage aura du moins servi à nous
 ][,(tag :a :name "bastiat_j_ref")
 Adieu, ,(np "coudroy" [mon cher Félix]). Je n’ai pas écrit aujourd’hui à ,(np "bastiat_j" [ma tante]), dis-lui que j’ai reçu sa lettre qui m’a fait bien plaisir, en ayant été privé longtemps.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,15 +2,13 @@
 (style 'bo-style)
 (in-bof :title "Richesse
 	- par Frédéric Bastiat")
-(document :title "Richesse"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n201/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
 [,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/170/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/185/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 185.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2 [Chapitre VI des ,(HarmoniesEconomiques)])
 ,(p*[
 Ainsi, en tout ce qui est propre à satisfaire nos besoins et nos désirs,
@@ -725,6 +723,9 @@ c’est-à-dire aux services qu’il rend,
 ,(ref :url "moralite_richesse.html" [Ce qui suit]) est un commencement de note complémentaire
 trouvé dans les papiers de l’auteur. ,(NdEEO)]).]))
 ])
+(document :title "Richesse"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

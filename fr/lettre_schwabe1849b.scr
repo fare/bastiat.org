@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 14 octobre 1849")
-(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/430/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 430.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[14 octobre 1849.])
 ,(p*[
 Ne craignez pas, ,(np "schwabe_j" [Madame]), que vos conseils m’importunent. Est-ce qu’ils ne prennent pas leur source dans l’amitié ? Est-ce qu’ils n’en sont pas le plus sûr témoignage ?…
@@ -27,6 +25,9 @@ Je voudrais envoyer à vos chers enfants un petit ouvrage français plein d’â
 ][
 Adieu, chère dame, je suis forcé de vous quitter. Quoique souffrant, il faut que j’aille défendre la cause des Noirs dans un de nos comités, sauf à regagner ensuite mon seul ami, l’,(emph[oreiller]).
 ])])
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

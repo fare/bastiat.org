@@ -1,15 +1,15 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof :title "
+(in-bof :title "Fragment contre Malthus
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/480/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 480.])
 ])
 (define bastiatcontent [
-,(date-tag [Ébauche insérée dans les ,(cite-title[Œuvres complètes]) à la fin du chapitre ,(ref :url "de_la_population.html" [,(cite-title[De la population])]).])
+,(date-tag [Ébauche insérée dans les ,(cite-title[Œuvres complètes]) à la fin du chapitre ,(ref :url "de_la_population.html#fin" [,(cite-title[De la population])]).])
 ,(p*[
-Au chapitre sur l’échange,
+Au chapitre ,(link "echange" [sur l’échange]),
 on a démontré que, dans l’isolement,
 les besoins étaient supérieurs aux facultés ;
 que, dans l’état social, les facultés étaient supérieures aux besoins.
@@ -56,10 +56,10 @@ l’élévation dans les besoins,
 qui n’est autre chose que le sentiment de la dignité,
 est une limite naturelle…..])
 ])
-(document :title ""
+(document :title "Fragment contre Malthus"
 	:author (author-FB)
 (container)
 (tous_les_scripts)
 (footer[
-	
+
 ]))

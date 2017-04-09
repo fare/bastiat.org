@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "La liberté a donné du pain au peuple anglais
 	- par Frédéric Bastiat")
-(document :title "La liberté a donné du pain au peuple anglais"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A2_1-20.pdf#page=18" [,(cite-title[Libre-Échange])]), 2,(sup[e]) année, n° 6, p. 33.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/168/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 30, p. 168.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 2 janvier 1848.])
 ,(p*[,(tag :a :name "presse_ref")
 La ,(tj "presse" [,(cite-title[Presse])])
@@ -87,6 +85,9 @@ que c’est là un affreux malheur.
 
 
 ])])
+(document :title "La liberté a donné du pain au peuple anglais"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

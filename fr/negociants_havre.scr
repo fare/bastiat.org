@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Aux négociants du Havre, par Frédéric Bastiat")
-
-(document :title "Aux négociants du Havre"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/130/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 29, p. 130.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 Trois lettres en faveur du libre-échange,
 écrites et publiées au Havre, pendant le séjour de l’auteur.])
@@ -58,6 +55,9 @@ Dieu me préserve de repousser pour cela le concours des praticiens, des hommes 
 ](nbsp)[
 Puisqu’on a pu dire de la vertu même : ,(emph[Pas trop n’en faut]), permettez-moi de ne pas faire trop d’économie politique en un jour et de renvoyer à demain l’examen des deux autres objections.])
 ])
+(document :title "Aux négociants du Havre"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

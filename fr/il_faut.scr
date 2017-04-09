@@ -1,0 +1,26 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Il faut le voir pour le croire")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[Pierre Ronce, ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k97541185/f311.item" [,(cite-title[Frédéric Bastiat, sa vie, son œuvre])]), p. 297. Voir ,(ref :url "../surbastiat/ronce.html#il_faut" [version texte]).])
+])
+(define bastiatcontent [
+
+,(p*[Des journaux qui se posent comme les défenseurs exclusifs de la liberté, comme les farouches organes de la démocratie, et qui, néanmoins, soutiennent de toutes leurs forces les privilèges et les monopoles, — il faut le voir pour le croire.][
+Un public qui, fermant les yeux sur cette étourdissante inconséquence, n’en cherche pas la cause secrète, — il faut le voir pour le croire.][
+Un homme a obtenu la concession d’une mine ; chaque sou qu’il y met lui vaut des sacs d’or, car il fait lui-même la loi qui contrarie l’entrée des houilles étrangères. Cependant le peuple grelotte de froid. Quelqu’un vient dire au peuple : « La loi est mauvaise. » Le concessionnaire de la mine crie que la loi est excellente. Le peuple grelottant répète : la loi est excellente, — il faut le voir pour le croire.][
+Je sais un produit dont il n’y a qu’une seule fabrique en France ; le fabricant met à ses produits le prix qu’il veut et devient millionnaire, car il est parvenu à exclure les produits similaires du dehors. J’ai voulu dire aux travailleurs que cette mesure, d’ailleurs injuste, leur fait du tort. Mais le millionnaire s’en va tous les jours parmi ces travailleurs et leur dit : vous voyez cet homme ; c’est un utopiste et un factieux qui veut votre ruine. Et les travailleurs répètent en chœur : c’est un factieux ; il veut notre ruine. La loi est maintenue et l’homme au million, voyant qu’il sera sous peu l’homme aux deux millions, rit dans sa barbe. — Il faut le voir pour le croire.][
+On disait en pleine Chambre à un ministre : Vous avez malversé, vous avez trafiqué des fonctions publiques ; vous avez donné l’exemple de l’,(emph[immoralité]). Le ministre se lève et répond : Je me réjouis de voir la Chambre indignée contre mon immoralité. C’est bien, très bien. Députés, je suis content de vous. Flétrissez l’immoralité ; entrez dans cette excellente voie ; je vous soutiendrai. C’est ainsi que nous fonderons un bon gouvernement. — Il faut le voir pour le croire.][
+Les ,(cite-title[Débats]) pour la liberté et le ,(cite-title[National]) pour le privilège, — il faut le voir pour le croire.][
+La presse disait : Ouvriers, vous ne mangez pas assez de viande. C’est sans doute que vous ne savez pas et c’est la faute du gouvernement qui devrait vous l’apprendre. Les ouvriers répondirent : nous savons bien manger de la viande, mais le gouvernement l’empêche d’entrer ; c’est pour cela que nous sommes si maigres. La presse répliqua : vous vous trompez. Si vous ne mangez pas plus de viande, c’est pure ignorance ; et quant à la laisser entrer, il faut vous y opposer de toutes vos forces. Et les ouvriers firent ce que leur conseillait la presse. — Il faut le voir pour le croire.][
+II y a des écrivains qui se sont acquis une grande renommée et beaucoup d’influence en répétant, tous les jours, en style d’Apocalypse, que ce qu’il faut à notre pays c’est la propriété sans propriété et la liberté sans liberté. C’est surprenant comme cette découverte a fait fortune ; — il faut le voir pour le croire.][
+D’autres arrivent à la popularité en demandant la suppression de tous les impôts et l’accroissement de toutes les dépenses. Délivrez-nous, disent-ils aux ministres, de l’impôt du sel, de celui de la poste, de l’octroi, de la douane, etc., et augmentez l’armée, faites des vaisseaux et des marins, fortifiez nos villes, exercez sur toute l’Europe la prépondérance qui appartient à la France ; faites l’aumône à tous les malheureux, donnez du travail et du pain à tout le monde, élevez gratuitement tous les enfants. Cela s’appelle du génie organisateur, — il faut le voir pour le croire.])])
+(document :title "Il faut le voir pour le croire"
+	:author (author-FB)
+(container)
+
+(tous_les_scripts)
+(footer [
+	,(oeuvres)
+]))

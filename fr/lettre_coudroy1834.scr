@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 2 mars 1834")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/27/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 27.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bordeaux, le 2 mars 1834.])
 ,(p*[
 … Je me suis un peu occupé de faire quelques connaissances, j’y réussirai, j’espère. Mais ici vous voyez écrit sur chaque visage auquel vous faites politesse : ,(emph[Qu’y a-t-il à gagner avec toi ?]) Cela décourage. — On fonde, il est vrai, un nouveau journal. Le prospectus n’apprend pas grand’chose, et le rédacteur encore moins ; car l’un est rédigé avec le pathos à la mode, et l’autre, me supposant un homme de parti, s’est borné à me faire sentir combien le ,(tj "mb" [,(cite-title[Mémorial])]) et l’,(tj "indicateur" [,(cite-title[Indicateur])]) étaient insuffisants pour les patriotes. Tout ce que j’ai pu en obtenir, c’est beaucoup d’insistance pour que je prenne un abonnement.
@@ -23,6 +21,9 @@ Je te quitte ; trente tambours s’exercent sous mes fenêtres, je ne sais plus
 ])
 ,(politesse[Adieu.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

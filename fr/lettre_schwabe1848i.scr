@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Schwabe
 du 28 décembre 1848")
-(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/428/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 428.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[28 décembre 1848.])
 ,(p*[
 Je reconnais votre bonté et celle de ,(np "schwabe_s" [M. Schwabe]) à l’insistance que vous mettez à m’attirer une seconde fois sous le toit hospitalier de ,(inenglish[Crumpsall-house]). Croyez que je n’ai pas besoin d’autres excitations que celles de mon cœur, alors même que vous ne m’offririez pas en perspective le bonheur de serrer la main à ,(np "cobden" [Cobden]) et d’entendre la grande artiste ,(np "lind" [Jenny Lind]). Mais vraiment Manchester est trop loin. Ceci n’est peut-être pas très-galant pour un Français ; mais à mon âge on peut bien parler raison. Acceptez au moins l’expression de ma vive reconnaissance.
@@ -17,6 +15,9 @@ Est-ce que mademoiselle ,(np "lind" [Jenny Lind]) a conçu de la ,(emph[haine]) 
 ][
 Nous touchons à une nouvelle année. Je fais des vœux pour qu’elle répande la joie et la prospérité sur vous et sur tout ce qui vous entoure.
 ])])
+(document :title [Lettre à ,(np "schwabe_j" [,(Mme) Schwabe])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

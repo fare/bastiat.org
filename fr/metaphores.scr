@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Métaphores
 	- Sophisme économique démonté par Frédéric Bastiat")
-(document :title "Métaphores"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f173.image" [,(cite-title[Sophismes économiques])]), ch. 22.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/115/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 115.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XXII de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 Quelquefois le sophisme se dilate,
@@ -188,6 +186,9 @@ par leur ressemblance et en faisant abstraction de leur différence.
 
 
 ])])
+(document :title "Métaphores"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "matieres_premieres.html" "conclusion_sophismes.html")

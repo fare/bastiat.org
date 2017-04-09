@@ -1,15 +1,13 @@
 (style 'bo-style)
 (in-bof :title "Propriété, communauté
 	- par Frédéric Bastiat")
-(document :title "Propriété, communauté"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n248/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
 [,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/212/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/229/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 229.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2 [Chapitre VIII des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -1765,6 +1763,9 @@ Ces inconséquences sont plus surprenantes que rares.
 
 
 ])])
+(document :title "Propriété, communauté"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

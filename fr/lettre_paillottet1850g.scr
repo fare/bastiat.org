@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 11 octobre 1850")
-(document :title "Lettre à Prosper Paillottet"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/205/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 205.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/443/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 443.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Pise, 11 octobre 1850.])
 ,(p*[
 Je me sens envie de vivre, ,(np "paillottet" [mon cher Paillottet]), quand je lis la relation de vos anxiétés à la nouvelle de ma mort. — Grâce au ciel, je ne suis pas mort, ni même guère plus malade. J’ai vu ce matin un médecin qui va essayer de me débarrasser au moins quelques instants de cette douleur à la gorge, dont la continuité est si importune. — Mais enfin, si la nouvelle eût été vraie, il aurait bien fallu l’accepter et se résigner. — Je voudrais que tous mes amis pussent acquérir, à cet égard, la philosophie que j’ai acquise moi-même. Je vous assure que je rendrais le dernier souffle sans peine, presque avec joie, si je pouvais être sûr de laisser, après moi, à ceux qui m’aiment, non de cuisants regrets, mais un souvenir doux, affectueux, un peu mélancolique. Quand je serai plus malade, c’est à quoi je les préparerai…
@@ -32,6 +30,9 @@ Et c’est pour avoir fait ces découvertes que le ,(tj "national" [,(cite-title
 ])
 ,(politesse[Adieu, je suis fatigué.])
 ])
+(document :title "Lettre à Prosper Paillottet"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 24 novembre 1844")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/106/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 106.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 24 novembre 1844.])
 
 ,(cher[,(np "cobden" [Monsieur]),])
@@ -47,6 +45,9 @@ Je voudrais aussi que vous me disiez quels sont ceux de vos discours, soit aux m
 ][
 Je m’estimerai heureux si j’obtiens une lettre de l’homme de notre époque à qui j’ai voué la plus vive et la plus sincère admiration.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

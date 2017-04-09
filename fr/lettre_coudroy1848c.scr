@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 13 février 1848")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/79/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 79.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 13 février 1848.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), je n’ai aucune de tes nouvelles, je ne sais où tu en es de ton procès ; je présume que l’arrêt n’est pas rendu, car tu me l’aurais fait savoir. Dieu veuille que la cour soit bien inspirée ! Plus je pense à cette affaire, plus il me semble que les juges ne peuvent ,(emph[conjecturer]) contre le droit commun ; dans le doute, l’éternelle loi de la justice (et même le Code) doit prévaloir.
@@ -21,6 +19,9 @@ Je fais mon cours aux élèves de droit. Les auditeurs ne sont pas très-nombreu
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), écris-moi, dis-moi où tu en es de tes affaires et de ta santé, il n’est pas impossible que j’aille vous voir avant longtemps ; mes souvenirs affectueux à ta bonne sœur.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réforme postale, par Frédéric Bastiat")
-
-(document :title "Réforme postale"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/78/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 17, p. 78.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 23 avril 1846.])
 ,(p*[
 Que sont devenues cette énergie française, cette audace, cette initiative qui frappaient le monde d’admiration ? Nous sommes-nous rapetissés à la taille des Lilliputiens ? L’intrépide géant s’est-il fait nain timide et trembleur ? Notre orgueil national se contente-t-il qu’on dise encore de nous : « Ce sont les premiers hommes du monde pour donner et recevoir des coups de sabre, » — et sommes-nous décidés à dédaigner la solide gloire de marcher résolument dans la voie des réformes fondées sur la justice et la vérité ?
@@ -89,6 +86,9 @@ Donc il faut recourir à cet autre principe, que la poste doit rendre le service
 ][
 Il me reste à parler de l’uniformité de la taxe, et aussi des moyens de combler le déficit du trésor. Ce sera l’objet d’un second article.
 ])])
+(document :title "Réforme postale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

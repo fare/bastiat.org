@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 20 avril 1847")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/157/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 157.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 20 avril 1847.])
 ,(p*[,(tag :a :name "bastiat_j_ref")
 ,(np "cobden" [Mon cher ami]), votre lettre du 7, écrite de Rome, m’a retrouvé à mon poste. Je suis allé passer vingt jours auprès d’,(np "bastiat_j" [une parente]) malade. J’espérais que ce voyage me rendrait aussi la santé, mais il n’en est pas ainsi. La grippe a dégénéré en rhume obstiné, et dans ce moment je crache le sang. Ce qui m’étonne et m’épouvante, c’est de voir combien quelques gouttes de sang sorties du poumon peuvent affaiblir notre pauvre machine et surtout la tête. Le travail m’est impossible et très-probablement je vais demander au conseil l’autorisation de faire une autre absence. J’en profiterai pour aller à Lyon et à Marseille, afin de resserrer les liens de nos diverses associations, qui ne marchent pas aussi d’accord que je le voudrais.
@@ -25,6 +23,9 @@ Me permettez-vous, mon cher ami, de n’admettre que sous réserve l’exactitud
 ][,(tag :a :name "pieix_ref")
 Il serait à désirer que ,(np "pieix" [le Pape]) fît connaître ses vues économiques, alors même qu’il ne pourrait pas les exécuter. Cela disposerait en notre faveur une partie du clergé français, qui n’a pas de grandes lumières sur notre cause, mais qui n’a pas non plus de répugnances contraires.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

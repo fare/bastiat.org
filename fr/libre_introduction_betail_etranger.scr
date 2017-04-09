@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "De la libre introduction du bétail étranger, par Frédéric Bastiat")
-
-(document :title "De la libre introduction du bétail étranger"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part2.pdf#page=18" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 16, p. 122.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/68/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 13, p. 68.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 14 mars 1847.])
 ,(p*[
 La Belgique vient de suspendre le droit d’entrée sur le bétail.
@@ -60,6 +57,9 @@ On parle toujours de l’intérêt agricole ; mais en a-t-on une vue complète�
 ][
 Après tout, si l’agriculture a cette grande importance que personne ne conteste, c’est uniquement par le motif qu’elle fournit à la nation des aliments. Il est absurde, contradictoire et cruel, sous prétexte de favoriser l’agriculture, de diminuer l’alimentation du peuple.
 ])])
+(document :title "De la libre introduction du bétail étranger"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

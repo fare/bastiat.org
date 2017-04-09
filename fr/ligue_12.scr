@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Second meeting au théâtre de Covent-Garden.")
-
-(document :title "Second meeting au théâtre de Covent-Garden."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n291/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 186.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/236/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 236.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(1er) février 1844.])
 ,(p*[,(tag :a :name "cobden_ref")
 Le second meeting hebdomadaire de la Ligue avait attiré, mardi soir, au théâtre de Covent-Garden, une foule nombreuse et enthousiaste. Le nom de lord Morpeth circule dans toute la salle. On parle d’une entrevue qui eut lieu à Wakefield, hier, entre le noble lord, membre de la dernière administration, et ,(np "cobden" [M. Cobden]). Cette nouvelle provoque une vive satisfaction, à laquelle succède le désappointement lorsqu’on apprend que Sa Seigneurie n’a pas complétement répondu aux espérances que la Ligue avait fondées sur son noble caractère, son humanité et son patriotisme.
@@ -24,6 +21,9 @@ Tels sont les objets qui servent de texte aux discours prononcés, dans le meeti
 ][
 Nous croyons utile, cependant, de donner une relation succincte de l’entrevue de lord Morpeth avec ,(np "cobden" [M. Cobden]). Lord Morpeth, ayant été un des chefs influents de l’administration whig, renversée en 1841 par les torys, on comprend que son adhésion aux principes absolus de la Ligue devait être considérée comme un fait grave, et de nature à exercer une grande influence sur le mouvement des majorités et des partis. L’attitude de ces deux hommes d’ailleurs, la franchise de leurs explications, leur fidélité aux principes, nous ont semblé une peinture de mœurs constitutionnelles, dignes d’être proposées pour exemple à nos hommes politiques.
 ])])
+(document :title "Second meeting au théâtre de Covent-Garden."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

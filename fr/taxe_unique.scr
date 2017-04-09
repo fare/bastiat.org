@@ -1,17 +1,13 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La taxe unique en Angleterre, par Frédéric Bastiat")
-
-(document :title "La taxe unique en Angleterre"
-	:author (author-FB)
-
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=37" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 31, p. 245.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/209/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 37, p. 209.])
 ])
 
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "le" [,(cite-title[Libre-Échange])]), n° du 27 juin 1847.])
 ,(p*[,(tag :a :name "mi_ref")
 Quelques journaux, intéressés à tourner contre nous les préventions nationales, font remarquer que nous allons souvent chercher des faits et des enseignements de l’autre côté du détroit. Le ,(tj "mi" [,(cite-title[Moniteur industriel])]) va même jusqu’à nous appeler ,(emph[un journal anglais]), insulte dont le bon sens public fera justice.
@@ -74,6 +70,10 @@ Il me semble impossible de n’être pas frappé de l’effet probable de cette 
 ][
 Si d’une part le système colonial s’écroule, comme il doit nécessairement s’écrouler devant la liberté des échanges ; si d’un autre côté le gouvernement est réduit à l’impuissance de rien prélever sur le public au delà de ce qui est strictement nécessaire pour l’administration du pays, le résultat infaillible doit être de couper jusque dans sa racine cette politique traditionnelle de nos voisins qui, sous les noms d’intervention, influence, prépondérance, prépotence, a jeté dans le monde tant de ferments de guerres et de discordes, a soumis toutes les nations et la nation anglaise plus que toute autre à un si écrasant fardeau de dettes et de contributions.
 ])])
+(document :title "La taxe unique en Angleterre"
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_le)]))

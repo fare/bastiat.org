@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Producteur, consommateur
 	- par Frédéric Bastiat")
-(document :title "Producteur, consommateur"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/336/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/358/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 358.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XI des ,(HarmoniesEconomiques)])
 ,(p*[
 
@@ -849,6 +847,9 @@ les harmonies et les discordances,
 tout vient se résoudre dans le consommateur, car il représente l’humanité.
 ])
 ])
+(document :title "Producteur, consommateur"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

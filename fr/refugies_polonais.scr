@@ -2,20 +2,11 @@
 (style 'bo-style)
 (in-bof :title "D'une pétition en faveur des réfugiés polonais
 	- par Frédéric Bastiat")
-(document :title [D'une pétition en faveur des réfugiés polonais
-	,(footnote*[
-
-Il est probable, mais je n’en suis pas sûr,
-que cet article, extrait d’un cahier de Bastiat
-et écrit de sa main,
-a été inséré dans un journal de Bayonne, en 1834.
-,(NdEEO)])]
-	 :author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/1/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 1, p. 1.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1834.])
 ,(p*[
 On signe en ce moment à Bayonne une pétition à la Chambre des députés
@@ -146,5 +137,15 @@ pourvu qu’ils aient dans l’âme quelque étincelle d’humanité et de justi
 
 
 ])])
+(document :title [D'une pétition en faveur des réfugiés polonais
+	,(footnote*[
+
+Il est probable, mais je n’en suis pas sûr,
+que cet article, extrait d’un cahier de Bastiat
+et écrit de sa main,
+a été inséré dans un journal de Bayonne, en 1834.
+,(NdEEO)])]
+	 :author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

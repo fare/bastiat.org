@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du 23 mai 1850")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=37" [,(cite-title[Lettres d’un habitant des Landes])]), p. 73.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 23 mai 1850.])
 ,(p*[
 ,(np "cheuvreux_h" [Chère madame Cheuvreux]), ma dernière lettre a à peine atteint l’autre extrémité de la longue ligne qui nous sépare, qu’en voici une seconde prête à se lancer sur la même voie ; n’y a-t-il pas dans cet empressement indiscrétion, ou inconvenance ? Je n’en sais rien, car je ne suis pas encore bien rompu aux usages du monde ; mais soyez indulgente ; bien plus, permettez-moi de vous écrire capricieusement sans trop regarder aux dates, et sous l’empire de l’impulsion, cette loi des natures faibles. Si vous saviez combien Mugron est vide et triste, vous me pardonneriez de tourner toujours mes regards vers Paris. ,(tag :a :name "bastiat_j_ref"),(np "justine_h" [Ma pauvre tante]), qui fait à peu près toute ma société, a bien vieilli, la mémoire l’abandonne ; elle n’est plus qu’un cœur ; il semble que ses facultés affectives gagnent tout ce que perdent les autres ; aussi je l’aime plus que jamais, mais, en sa présence même, je ne puis retenir mon imagination voyageuse, et puis ne suis-je pas malade ?
@@ -21,6 +19,9 @@ Quels que soient le nombre et le mérite de vos amis, conservez-moi une place da
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

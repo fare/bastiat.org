@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 3 août 1850")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/185/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 185.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[3 août 1850.])
 ,(p*[,(tag :a :name "schwabe_ref")
 ,(np "cobden" [Mon cher Cobden]), depuis le départ de nos bons amis les ,(np "schwabe_s" [Schwabe]), je n’ai plus l’occasion de m’entretenir de vous. Cependant, je ne vous ai pas tout à fait perdu de vue, et, dans une occasion récente, j’ai remarqué avec joie, mais sans étonnement, que vous vous étiez séparé de nos amis pour rester fidèle à vos convictions. Je veux parler du vote sur ,(np "palmerston" [Palmerston]). Cette bouffée d’orgueil britannique qui a caractérisé cet épisode, n’est pas d’accord avec la marche naturelle des événements et le progrès de la raison publique en Angleterre. Vous avez bien fait de résister. C’est cette parfaite concordance de toutes vos actions et de tous vos votes qui donnera plus tard à votre nom et à votre exemple une autorité irrésistible.
@@ -23,6 +21,9 @@ J’ai fait quelques démarches ici afin d’intéresser notre diplomatie. (Que 
 ][
 Irez-vous à Francfort ? Pour moi, il est inutile que j’assiste au congrès, puisque je suis devenu muet ; mais il me serait bien agréable de vous voir à votre passage à Paris, et mon appartement, rue d’Alger, n°3, est à votre disposition.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

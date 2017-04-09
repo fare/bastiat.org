@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 14 septembre 1850")
-(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/442/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 442.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Lyon, 14 septembre 1850.])
 ,(p*[
 Je ne veux pas me lancer dans la seconde moitié de mon voyage, sans vous dire que tout s’est assez bien passé jusqu’ici. Je n’ai été un peu éprouvé que dans le trajet de Tonnerre à Dijon ; mais cela était presque inévitable. Je crois que le mieux eût été de sacrifier une nuit et de prendre le courrier. C’est toujours le meilleur système. Coucher en route vous assujettit à prendre des pataches, des coucous, à être jeté sur l’impériale au milieu d’hommes ivres, etc. ; et vous arrivez dans un mauvais cabaret pour recommencer le lendemain.
@@ -17,6 +15,9 @@ Je ne vous ai pas dit, mon ami, combien j’ai été sensible à l’idée qui v
 ][,(tag :a :name "fontenay_ref")
 Rappelez à ,(np "fontenay" [de Fontenay]) mon conseil, je dis plus, ma pressante invitation de faire imprimer son ,(cite-title[Capital]).
 ])])
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

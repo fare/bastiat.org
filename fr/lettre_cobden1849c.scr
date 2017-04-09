@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 31 décembre 1849")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/182/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 182.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[31 décembre 1849.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), je suis enchanté du meeting de Bradford, et je vous félicite sincèrement d’avoir abordé enfin la question coloniale. Je sais que ce sujet vous a toujours paru délicat ; il touche aux fibres les plus irritables des cœurs patriotiques. Renoncer à l’empire du quart du globe ! Oh ! jamais une telle preuve de bon sens et de foi dans la science n’a été donnée par aucun peuple ! Il est surprenant qu’on vous ait laissé aller jusqu’au bout. Aussi ce que j’admire le plus dans ce meeting, ce n’est pas l’orateur (permettez-moi de le dire), c’est l’auditoire. Que ne ferez-vous pas avec un peuple qui analyse froidement ses plus chères illusions et qui souffre qu’on recherche devant lui ce qu’il y a de fumée dans la gloire !
@@ -29,6 +27,9 @@ Vous aurez été surpris, sans doute, de me voir publier en ce moment ,(ref :url
 ][,(tag :a :name "porter_ref")
 J’ai envoyé un exemplaire de ce livre à ,(np "porter" [M. Porter]). Mon ami, nos renommées sont comme nos vins ; les uns comme les autres ont besoin de traverser la mer pour acquérir toute leur saveur. Je voudrais donc que vous me fissiez connaître quelques personnes à qui je pourrais adresser mon volume, afin que, par votre bonne influence, elles en rendissent compte dans les journaux. Il est bien entendu que je ne quête pas des éloges, mais la consciencieuse opinion de mes juges.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

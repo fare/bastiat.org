@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Lettre de Bastiat à M. G. Wilson, du 15 janvier 1849.")
-
-(document :title "Lettre de Bastiat à M. G. Wilson"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/492/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 492.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/412/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 412.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 À partir de la révolution de Février, des devoirs nouveaux et impérieux réclament tous les instants de Bastiat. Il s’y dévoue avec une ardeur funeste à sa santé et interrompt la tâche qu’il s’était donnée de signaler à la France les bienfaits de la liberté commerciale en Angleterre.
 ][
@@ -65,6 +62,9 @@ C’est ce motif de santé, ainsi que mes devoirs parlementaires, qui me forcent
 ,(politesse[Je suis, Monsieur, votre très-dévoué,])
 ,(sign[,(FredB).])
 ])
+(document :title "Lettre de Bastiat à M. G. Wilson"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(corresp)

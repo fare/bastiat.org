@@ -2,9 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Matières premières
 	- par Frédéric Bastiat")
-(document :title "Matières premières"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f159.image" [,(cite-title[Sophismes économiques])]), ch. 21.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/105/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 105.])
@@ -13,7 +11,7 @@
 ,(autolk "reflexions_petitions_bordeaux"), qui est la première version de ce texte.
 ])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre XXI de la I,(re) série des ,(SophismesEconomiques)])
 ,(p*[
 On dit : Le plus avantageux de tous les commerces
@@ -462,6 +460,9 @@ Voy., au premier volume, l’opuscule de 1834, intitulé :
 ,(NdEEO)]).
 
 ])])
+(document :title "Matières premières"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(soph "thtn.html" "metaphores.html")

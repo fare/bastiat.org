@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Moralité de la richesse
 	- par Frédéric Bastiat")
-(document :title "Moralité de la richesse"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/184/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/199/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 199.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag [Ébauche insérée dans la seconde édition des ,(cite-title[Harmonies]) à la fin du chapitre ,(ref :url "richesse.html" [,(cite-title[Richesse])]).])
 ,(p*[Nous venons d’étudier la richesse au point de vue économique :
 il n’est peut-être pas inutile de dire quelque chose de ses effets moraux.
@@ -203,6 +201,9 @@ et ,(bof-ref "solidarite" (cite-title[Solidarité])).
 ,(NdEEO)])………
 
 ])])
+(document :title "Moralité de la richesse"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(harmonies)

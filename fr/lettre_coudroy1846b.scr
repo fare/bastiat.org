@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 22 mars 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/66/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 66.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 22 mars 1846.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’espère que tu ne tarderas pas à me donner de tes nouvelles. Dieu veuille qu’un arrangement soit intervenu : je ne l’espère guère et le désire beaucoup. — Une fois délivré de cette pénible préoccupation, tu pourrais consacrer ton temps à des choses utiles, comme par exemple ton article du ,(tj "mb" [,(cite-title[Mémorial])]), que je n’ai eu le temps que de lire très-rapidement, mais que je relirai demain chez mon oncle, il est plein de vivacité et offre, sous des formes saisissantes, d’excellentes démonstrations. Lundi je le lirai à l’assemblée, qui sera assez nombreuse. Quand je me serai un peu mieux posé, je t’indiquerai le journal de Paris auquel il faudra t’adresser ; mais alors il faudra, autant que possible, t’abstenir de parler de vins. Je viens de dire que nous avions une assemblée lundi.
@@ -23,6 +21,9 @@ Tâche de faire de temps en temps des articles pour entretenir à Bordeaux le fe
 ][,(tag :a :name "daguerre_ref")
 J’attends notre ami ,(np "daguerre" [Daguerre]) pour être présenté à ,(np "lamennais" [M. de Lamennais]) ; j’espère le convertir au ,(emph[free-trade]). ,(np "lamartine" [M. de Lamartine]) a annoncé son adhésion, ainsi que le bon ,(np "beranger" [Béranger]) ; on fera arriver aussi ,(np "berryer" [M. Berryer]) dès que l’association sera assez fortement constituée pour ne pouvoir pas être détournée par les passions politiques. De même pour ,(np "arago" [Arago]) ; tu vois que toutes les fortes intelligences de l’époque seront pour nous. On m’a assuré que ,(np "broglie" [M. de Broglie]) accepterait la présidence. J’avoue que je redoute un peu les allures diplomatiques qui doivent être dans ses habitudes. Sa présence ferait sans doute, dès l’abord, un effet prodigieux ; mais il faut voir l’avenir et ne pas se laisser séduire par un éclat momentané.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

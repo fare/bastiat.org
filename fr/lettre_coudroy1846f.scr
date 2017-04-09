@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 24 mai 1846")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/72/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 72.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 24 mai 1846.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’ai tant couru ce matin que je ne puis tenir la plume, et mon écriture est toute tremblante. Ce que tu me dis de l’utilité de ma présence à Mugron me préoccupe tous les jours. Mais, mon ami, j’ai presque la certitude que, si je quitte Paris, notre association tombera dans l’eau et tout sera à recommencer. Tu en jugeras ; voici où nous en sommes : je crois t’avoir dit qu’une commission avait été nommée, réunissant pleins pouvoirs ; au moment de lancer notre ,(emph[manifeste]), plusieurs des commissaires ont voulu que nous fussions pourvus de ,(emph[l’autorisation préalable]). ,(tag :a :name "duchatel_ref")Elle a été demandée, ,(np "duchatel" [le ministre]) l’a promise ; mais les jours se passent et je ne vois rien arriver. En attendant, le manifeste est dans nos cartons. C’est certainement une faute d’exiger ,(emph[l’autorisation]), nous devions nous borner à une simple ,(emph[déclaration]). Les peureux ont cru être agréables au ministre, et je crois qu’ils l’embarrassent, parce que, surtout à l’approche des élections, il craindra de se mettre à dos les manufacturiers.
@@ -21,6 +19,9 @@ Ton article du ,(tj "mb" [,(cite-title[Mémorial])]) était excellent, peu de pe
 ][
 Je te quitte ; je viens d’apprendre qu’une occasion se présente pour Bordeaux, et je veux en profiter.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

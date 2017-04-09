@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à M. Alcide Fonteyraud
 du 18 mars 1820")
-(document :title "Lettre à M. Alcide Fonteyraud"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/194/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 194.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le 20 décembre 1845.])
 ,(p*[
 ,(np "fonteyraud" [Mon cher monsieur Fonteyraud]), je ne répondrai pas aujourd’hui à votre lettre si aimable, si bonne, si intéressante par les sujets dont elle m’entretient et par la manière dont elle en parle. Ceci n’est qu’un simple accusé de réception dont je charge une personne qui part dans quelques heures pour Paris.
@@ -35,6 +33,9 @@ J’allais finir ma lettre sans vous remercier d’avance de ce que vous direz d
 ])
 ,(politesse[Adieu ; votre affectionné.])
 ])
+(document :title "Lettre à M. Alcide Fonteyraud"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

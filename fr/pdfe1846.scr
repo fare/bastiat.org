@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "À MM. les électeurs de l’arrondissement de Saint-Sever
 	- par Frédéric Bastiat")
-(document :title "À MM. les électeurs de l’arrondissement de Saint-Sever"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/461/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 461.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, le ,(1er) juillet 1846.])
 ,(cher[Mes chers Compatriotes,])
 ,(p*[Encouragé par quelques-uns d’entre vous
@@ -882,5 +880,8 @@ Si vous les reportez sur un autre,
 
 
 ])])
+(document :title "À MM. les électeurs de l’arrondissement de Saint-Sever"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

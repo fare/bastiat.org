@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Réforme postale")
-
-(document :title "Réforme postale"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/Bastiat_Sentinelle_des_Pyrenees.pdf#page=14" [Sentinelle des Pyrénées]).])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "sp" [,(cite-title[Sentinelle des Pyrénées])]), n° du 3 août 1844.])
 ,(cher[Monsieur,])
 ,(p*[,(tag :a :name "chegaray_ref")Les conseils généraux vont être appelés à donner leur avis sur la tarification uniforme de toutes les lettres à ,(emph[vingt centimes]). Je crois devoir appeler l’attention de ces assemblées sur le rapport de ,(np "chegaray" [M. Chegaray]) à ce sujet. L’objection la plus spécieuse que l’on ait faite contre la réforme postale, c’est qu’elle semble s’écarter de l’exacte justice. L’administration blesserait l’équité, a-t-on dit, si elle soumettait à la même taxe des lettres qu’elle porte à des distances qui varient de un à neuf cents kilomètres. Il est impossible après la lecture du rapport vraiment lumineux de ,(np "chegaray" [M. Chegaray]) de se laisser arrêter un moment par une semblable objection.
@@ -96,6 +93,9 @@ Remarquez en effet que, pour arriver à une égalité parfaite, en partant de 20
 La réforme postale peut soulever de graves questions. Je n’ai prétendu en traiter qu’une, celle de l’égalité des charges. J’ai voulu montrer aux personnes qui se font scrupule d’admettre la taxe uniforme, dans la persuasion qu’elle blesse l’équité, qu’elles sont complétement dans l’erreur. Toute taxe graduelle la blesse davantage par la raison très-simple qu’il n’y a pour les frais de locomotion qu’,(emph[un sou]) de différence entre la lettre qui parcourt la moindre distance et celle qui traverse tout le royaume. L’habitude seule a pu produire l’illusion que je cherche à détruire. Pourquoi, par amour de l’égalité, ne demande-t-on pas que les journaux soient soumis à la taxe progressive ? Pourquoi n’exige-t-on pas que le tabac et les poudres se vendent d’autant plus chers que les dépôts sont plus éloignés des lieux de fabrication ? Parce qu’on comprend que les frais de transport entrent pour si peu dans le prix de ces choses qu’il vaut mieux n’en pas tenir compte que d’embarrasser l’administration dans les minuties d’une comptabilité inextricable. — Le même motif milite, et avec plus de force, en faveur du tatif uniforme des lettres.])
 ,(sign[,(FredB).])
 ])
+(document :title "Réforme postale"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

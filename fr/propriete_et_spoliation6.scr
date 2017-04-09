@@ -2,13 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Propriété et Spoliation
 	- par Frédéric Bastiat")
-(document :title "Propriété et Spoliation"
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k4480860/f2.item.zoom" [,(cite-title[Journal des Débats])]), 28 juillet 1848, p. 2, col. 5.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/434/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 434.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du 28 juillet 1848.])
 ,(h2[Réclamation de ,(np "considerant" [M. Considérant])])
 
@@ -361,6 +360,8 @@ autant que cela se peut faire dans les colonnes d’un journal.
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title "Propriété et Spoliation"
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -2,14 +2,12 @@
 (style 'bo-style)
 (in-bof :title "Protectionisme et communisme
 	- par Frédéric Bastiat (Protectionnisme et communisme)")
-(document :title "Protectionnisme et communisme"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56730180" [,(cite-title[Protectionisme et communisme])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/504/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 504.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Janvier 1849.])
 ,(h2[À ,(np "thiers" [Monsieur Thiers]).])
 ,(cher[Monsieur,])
@@ -1688,6 +1686,9 @@ et nous aurions enfin résolu ce grand problème :
 ,(emph[Fermer à jamais l’abîme des révolutions.])
 
 ])])
+(document :title "Protectionnisme et communisme"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(pamphlets)]))

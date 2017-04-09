@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 5 juillet 1847")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/159/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 159.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 5 juillet 1847.])
 ,(p*[
 ,(np "cobden" [Mon bien cher ami]), les détails que vous me donnez sur l’Italie et l’état des connaissances économiques dans ce pays m’ont vivement intéressé. J’ai reçu la précieuse collection ,(footnote*[Les cinquante volumes de la collection Custodi : ,(cite-title[Economisti classici italiani]). ,(NdEEO)]) que vous avez eu la bonté de m’envoyer. Hélas ! quand pourrai-je seulement y jeter les yeux ! Du moins, je la tiendrai à la disposition de tous mes amis, afin que, d’une manière ou d’une autre, vos généreuses intentions ne soient pas sans résultat.
@@ -27,6 +25,9 @@ Vous comprenez à présent, mon ami, combien je tiens à ma santé ! oh ! que 
 ][,(tag :a :name "cobden_c_ref")
 Adieu, mon ami, veuillez remercier ,(np "cobden_c" [madame Cobden]) de son bon souvenir et recevez tous deux les vœux que je forme pour votre bonheur.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

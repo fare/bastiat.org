@@ -1,17 +1,14 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Liberté du commerce, par Frédéric Bastiat")
-
-(document :title [Liberté du commerce ,(footnote*[Article inédit paraissant avoir été destiné à un journal du midi de la France. Il est de 1844. ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/14/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 4, p. 14.])
 ,(voiraussi[
 ,(autolk "tarifs_francais_anglais" "liberte_du_commerce"), où Bastiat reproduit un extrait de cet article.
 ])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[1844.])
 ,(liste(p*[
 Dans la séance du 29 février dernier, ,(np "guizot" [M. Guizot]) a dit : « On parle sans cesse de la faiblesse du Gouvernement du Roi vis-à-vis de l’Angleterre. Je ne peux pas laisser passer cette calomnie.
@@ -90,5 +87,8 @@ Les paroles de ,(np "guizot" [M. Guizot]), que j’ai citées en commençant, n
 ][
 Où tout cela nous conduira-t-il ? Je l’ignore, mais je crois que ce jeu des partis recèle des dangers ; et je m’explique pourquoi, en pleine paix, la France entretient quatre cent mille hommes sous les armes, augmente sa marine militaire, fortifie sa capitale, et paye un milliard et demi d’impôts.
 ])])
+(document :title [Liberté du commerce ,(footnote*[Article inédit paraissant avoir été destiné à un journal du midi de la France. Il est de 1844. ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

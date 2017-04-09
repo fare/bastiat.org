@@ -1,16 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sur un livre de M. Vidal, par Frédéric Bastiat")
-
-(document :title [Sur un livre de ,(np "vidal" [M. Vidal])]
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n711/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 14, n° 55, p. 243.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/440/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 440.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[De la répartition des richesses])
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de juin 1846.])
 ,(p*[,(tag :a :name "hugo_ref")
@@ -174,6 +170,10 @@ Mais vous, vous qui ne voyez dans l’espèce humaine qu’une cire molle aux ma
 ](nbsp)[
 Je ne terminerai pas sans rendre à ,(np "vidal" [M. Vidal]) la justice qui lui est due. S’il a épousé les théories des ,(emph[socialistes]), il n’a pas emprunté leur style. Son livre est écrit en français, et même en bon français. Le néologisme s’y montre, mais il n’y déborde pas. ,(np "vidal" [M. Vidal]) nous fait grâce du vocabulaire fouriériste, et des gammes et des pivots, et des amitiés en quinte superflue, et des amours en tierce diminuée. S’il voit la science sous un autre aspect que ses devanciers, il la prend du moins au sérieux, il ne méprise pas son public au point de vouloir lui en imposer par des phrases d’Apocalypse. C’est d’un bon augure, et si jamais il fait une seconde édition de son livre, je ne doute pas qu’il n’en retranche, sinon ce qu’il y a d’erroné dans la partie systématique, du moins ce que la partie critique offre d’exagéré et même d’injuste.
 ])])
+(document :title [Sur un livre de ,(np "vidal" [M. Vidal])]
+	:author (author-FB)
+(container)
+
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

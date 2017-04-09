@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 10 juillet 1844")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/45/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 45.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Bagnères, le 10 juillet 1844.])
 ,(p*[
 ,(np "coudroy" [Mon cher Félix]), j’ai reçu, il y a quelques jours, une lettre de ,(np "laffitte_f" [M. Laffitte]), d’Aire, membre du conseil général, qui m’embarrasse beaucoup. Il m’annonce que le général ,(np "durrieu" [Durrieu]) va être élevé à la pairie ; que le gouvernement veut le faire remplacer, à la chambre, par ,(np "larnac" [un secrétaire des commandements]) de ,(np "nemours" [M. le duc de Nemours]). Il ajoute que les électeurs d’Aire ne sont pas disposés à subir cette candidature ; et enfin il me demande si je me présenterai, auquel cas il pense que j’aurai beaucoup de voix dans ce canton, où je n’eus que la sienne aux élections dernières.
@@ -19,6 +17,9 @@ Mais cela n’est pas un motif pour que je me mette en avant en étourdi : je s
 ][,(tag :a :name "dunoyer_ref")
 Je voulais envoyer ,(ref :url "tarifs_francais_anglais.html" [mon article]) au ,(tj "je" [,(cite-title[Journal des Économistes])]), mais je n’ai pas d’occasion ; je profiterai de la première qui se présentera. Il a le défaut, comme toute œuvre de commençant, de vouloir trop dire ; tel qu’il est, il me paraît offrir quelque intérêt. Je profiterai de l’occasion pour essayer d’engager une correspondance avec ,(np "dunoyer" [Dunoyer]).
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

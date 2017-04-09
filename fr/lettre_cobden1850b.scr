@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 17 août 1850")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/187/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 187.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[17 août 1850.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), connaissant ma misérable santé, vous n’aurez pas été surpris de mon absence au congrès de Francfort ; surtout vous n’aurez pas songé à l’attribuer à un défaut de zèle. Indépendamment du plaisir d’être un de vos collaborateurs dans cette noble entreprise, il m’eût été bien agréable de rencontrer à Francfort des amis que j’ai rarement l’occasion de voir, et d’y faire connaissance avec une foule d’hommes distingués de ces deux excellentes races : la race anglo-saxonne et la race germanique. Enfin, je suis privé de cette consolation comme de bien d’autres. Depuis longtemps la bonne nature m’accoutume peu à peu à toutes sortes de privations, comme pour me familiariser avec la dernière qui les comprend toutes.
@@ -21,6 +19,9 @@ Il me semble qu’un petit séjour à Paris doit avoir de l’intérêt pour des
 ][
 On a beau dire, l’esprit humain progresse, les intérêts bien entendus acquièrent de la prépondérance, les discordances sont moins profondes et moins durables, l’,(emph[harmonie]) se fait.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

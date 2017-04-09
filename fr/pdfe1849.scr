@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre à quelques électeurs
 	- par Frédéric Bastiat")
-(document :title "Lettre à quelques électeurs"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/507/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 507.])
 ])
-(bastiat[
+(define bastiatcontent [
 
 ,(date-tag[29 avril 1849.])
 
@@ -160,5 +158,8 @@ et ce n’est pas un léger froissement d’amour-propre
 ,(politesse[Je suis, mes chers Compatriotes, votre dévoué.])
 
 ])
+(document :title "Lettre à quelques électeurs"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)]))

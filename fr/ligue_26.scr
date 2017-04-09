@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Les free-traders et les chartistes à Northampton.")
-
-(document :title "Les free-traders et les chartistes à Northampton."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n490/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 387.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/403/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 403.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[5 juin 1844.])
 ,(p*[,(tag :a :name "fox_ref")
 Dans un des passages du discours précédent, ,(np "fox" [M. Fox]) avait fait allusion à un meeting tenu, deux jours avant, à Northampton. Le but de cette publication étant de jeter quelque jour sur les mœurs politiques de nos voisins, et de montrer, ,(emph[en action]), l’immense liberté d’association dont ils ont le bonheur de jouir, nous croyons devoir dire un mot de ce meeting.])
@@ -34,6 +31,9 @@ M. Fergus O’Connor propose un amendement fort étendu qu’on peut résumer a
 ][
 De nombreux orateurs se sont fait entendre. Le président ayant consulté l’assemblée, la résolution de ,(np "cobden" [M. Cobden]) a été adoptée à une grande majorité.
 ])])
+(document :title "Les free-traders et les chartistes à Northampton."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

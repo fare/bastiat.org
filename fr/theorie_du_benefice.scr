@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Théorie du bénéfice, par Frédéric Bastiat")
-
-(document :title "Théorie du bénéfice"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/50/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 11, p. 50.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "mb" [,(cite-title[Mémorial bordelais])]), n° du 26 février 1846.])
 ,(p*[
 Lundi, en sortant de l’assemblée, un monsieur m’accoste et me dit : Je vous ai écouté avec attention, vous avez articulé ,(ref :url "discours_1.html#verite" [ces paroles]) : « Il faut savoir enfin de quel côté est la vérité. Si nous nous trompons, qu’on pousse la protection jusqu’au bout. Si nous sommes dans le vrai, réclamons la liberté, etc., etc. » — Or, Monsieur, cela suppose que ,(emph[liberté]) et ,(emph[restriction]) sont incompatibles.
@@ -81,6 +78,9 @@ Lundi, en sortant de l’assemblée, un monsieur m’accoste et me dit : Je vou
 ][
 ,(emph[L’Industriel]), en s’en allant. — Ce que c’est que d’avoir affaire à un théoricien ! Ne pas comprendre la théorie du ,(emph[bénéfice !]) — Mais j’irai trouver le directeur des Douanes, et ma cause n’est pas perdue.
 ])])
+(document :title "Théorie du bénéfice"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

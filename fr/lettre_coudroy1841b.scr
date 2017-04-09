@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 11 janvier 1841")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/44/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 44.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 11 janvier 1841.])
 ,(p*[
 Que n’es-tu auprès de moi, ,(np "coudroy" [mon cher Félix]) ! cela ferait cesser bien des incertitudes. Je t’ai entretenu du nouveau projet que j’ai conçu ; mais seul, abandonné à moi-même, les difficultés de l’exécution m’effrayent. Je sens que le succès est à peu près infaillible ; mais il exige une force morale que ta présence me donnerait, et des ressources matérielles que je ne sais pas prendre sur moi de demander. J’ai tâté le pouls à plusieurs députés, et je les ai trouvés froids. Ils ont presque tous des ,(emph[ménagements]) à garder ; tu sais que nos hommes du Midi sont presque tous quêteurs de places. — Quant à l’opposition, il serait dangereux de lui donner la haute main dans l’association, elle s’en ferait un instrument, ce qu’il faut éviter. Ainsi, tout bien pesé, il faut renoncer à fonder l’association par le ,(emph[haut]), ce qui eût été plus prompt et plus facile. C’est la base qu’il faut fonder. — Si elle se constitue fortement, elle entraînera tout. Que les vignerons ne se fassent pas illusion, s’ils demeurent dans l’inertie, ils seront ici faiblement défendus. Je tâcherai de partir d’ici dimanche prochain ; j’aurai dans une poche le projet des statuts de l’association, dans l’autre le prospectus d’un petit journal destiné à être d’abord le propagateur et plus tard l’organe de l’association. Avec cela je m’assurerai si ce projet rencontre de la sympathie dans Orléans, la Charente et le bassin de la Garonne. La suite dépendra de mes observations. Une brusque initiative eût été plus de mon goût. Il y a quelques années que je l’aurais peut-être tentée ; maintenant une avance de six à huit mille francs me fait reculer, et j’en ai vraiment honte, car quelques centaines d’abonnés m’eussent relevé de tous risques. Le courage m’a manqué, n’en parlons plus.
@@ -19,6 +17,9 @@ Adieu, ,(np "coudroy" [mon cher Félix]), il me tarde bien de causer avec toi ;
 ])
 ,(politesse[Adieu, ton ami.])
 ])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

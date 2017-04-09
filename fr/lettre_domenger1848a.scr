@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 18 mars 1820")
-(document :title "Lettre à Bernard Domenger"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/385/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 385.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 4 mars 1848.])
 
 ,(cher[Mon cher Domenger,])
@@ -18,6 +16,9 @@ Le côté politique de l’avenir occupe peu les esprits. Il semble que le suffr
 ][,(tag :a :name "lefranc_ref")
 Ne parlons plus du propos attribué à F…. C’est bien loin derrière nous. Franchement, ce système factice ne pouvait se soutenir. J’espère qu’on sera satisfait des choix faits dans notre département. ,(np "lefranc" [Lefranc]) est un brave et honnête républicain, incapable de tourmenter qui que ce soit, à moins de graves et justes motifs.
 ])])
+(document :title "Lettre à Bernard Domenger"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

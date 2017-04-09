@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "L’agitation en Écosse.")
-
-(document :title "L’agitation en Écosse."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n255/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 151.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 207.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Du 8 au 18 janvier 1844.])
 ,(p*[
 Nous croyons devoir donner ici un compte rendu succinct des travaux de la Ligue en Écosse, du 8 au 18 janvier 1844.
@@ -199,6 +196,9 @@ Le prévôt Nicol occupait le fauteuil.])
 ](nbsp)[
 Si nous avons donné au lecteur cette nomenclature aride des nombreux meetings que la députation de la Ligue a provoqués en Écosse, pendant un séjour de si courte durée, c’est que nous sommes nous-même convaincu qu’en France, comme en Angleterre, comme dans tous les pays constitutionnels, le seul moyen d’emporter une grande question, c’est d’éclairer et de passionner le public. Notre but a été d’appeler l’attention sur l’activité et l’énergie que déploie la Ligue, et dont les premiers résultats se montrent aujourd’hui aux yeux de l’Europe étonnée dans le ,(emph[plan financier]) de ,(np "peel" [sir Robert Peel]).
 ])])
+(document :title "L’agitation en Écosse."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

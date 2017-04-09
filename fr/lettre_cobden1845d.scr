@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 13 décembre 1845")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/115/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 115.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Mugron, 13 décembre 1845.])
 ,(p*[
 ,(np "cobden" [Mon cher Monsieur]), me voilà bien redevable envers vous, car vous avez bien voulu, au milieu de vos nobles et rudes travaux, vous relâcher de cette convention que j’avais acceptée avec reconnaissance, « une lettre pour deux ; » mais je n’ai malheureusement que trop d’excuses à invoquer, et pendant que tous vos moments sont si utilement consacrés au bien public, les miens ont été absorbés par la plus grande et la plus intime douleur qui pût me frapper ici-bas ,(footnote*[La mort d’une parente. ,(NdEEO)]).
@@ -29,6 +27,9 @@ Adieu, mon cher Monsieur, permettez-moi, à travers la distance qui nous sépare
 ][
 ,(emph[P. S.]) J’ai des relations fréquentes avec Madrid, et il me sera facile d’y envoyer un exemplaire de ma traduction.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

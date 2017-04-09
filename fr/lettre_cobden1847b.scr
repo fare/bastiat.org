@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 20 mars 1847")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/155/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 155.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 20 mars 1847.])
 ,(p*[
 ,(np "cobden" [Mon cher ami]), j’étais bien en peine et même bien surpris de ne pas recevoir de vos nouvelles. Je me disais : La ,(inenglish[free-trade]) atmosphère de l’Italie lui aurait-elle fait oublier notre région prohibitioniste ? chaque jour je pensais à vous écrire ; mais où vous trouver, à qui adresser mes lettres ? Enfin, je reçois la vôtre du 7. — ,(tag :a :name "cobden_c_ref")Après m’être réjoui d’apprendre que vous jouissez, ainsi que ,(np "cobden_c" [madame Cobden]), d’une bonne santé, j’éprouve une autre satisfaction, celle de voir l’Italie si avancée dans la bonne doctrine. Ainsi ma pauvre France, si en avant des autres nations sous tant de rapports, se laisse distancer en économie politique. Mon orgueil national devrait en souffrir, mais je vous le dis, mon ami, bien bas et à l’oreille, j’ai peu de ce patriotisme, et si ce n’est pas mon pays qui projette la lumière, je désire au moins qu’elle brille dans d’autres cieux. ,(inlatin[Amica patria, sed magis amica veritas]) ; ,(tag :a :name "lamartine_ref")et je dis à la paix, au bonheur de l’humanité, à la fraternité des peuples, comme ,(np "lamartine" [Lamartine]) à l’enthousiasme :
@@ -24,6 +22,9 @@ Il paraît que notre ministère n’osera pas présenter cette année une loi de
 ][
 Vous me parlez de Naples, de Rome, de la Sardaigne et du Piémont. Mais vous ne me dites rien de la Toscane. Cependant ce pays doit être très-curieux à observer. Si vous rencontrez quelque bon ouvrage sur l’état de ce pays, tâchez de me l’envoyer. ,(tag :a :name "donato_ref")Je ne serais pas fâché d’avoir aussi dans mon humble bibliothèque quelques-uns des plus anciens économistes italiens, par exemple : ,(np "donato" [,(initalian[Nicolo Donato])]). Je me figure que si la renommée n’était pas quelque peu capricieuse, ,(np "turgot" [Turgot]) et ,(np "smith" [Ad. Smith]), tout en conservant la gloire de grands hommes, perdraient celle d’inventeurs.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,14 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "La presse parisienne, par Frédéric Bastiat")
-
-(document :title "La presse parisienne"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/226/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 51, p. 226.])
+,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/RepubliqueFrancaise1848/PDF/RepubliqueFrancaise1848-no-05.pdf#page=1" [,(cite-title[La République française])]), n° 5, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/226/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 51, p. 226.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 1,(sup[er]) mars 1848.])
 ,(p*[
 La presse parisienne n’offre pas un spectacle moins extraordinaire, moins imposant que la population des barricades.
@@ -27,6 +25,9 @@ Tous les journaux s’efforcent à l’envi de calmer et de flétrir un autre se
 ][
 Paix extérieure, ordre intérieur, confiance, vigilance, fraternité, voilà les mots d’ordre de toute la presse.
 ])])
+(document :title "La presse parisienne"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

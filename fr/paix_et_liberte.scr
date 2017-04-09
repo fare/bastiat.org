@@ -2,28 +2,12 @@
 (style 'bo-style)
 (in-bof :title
 "Paix et liberté ou le budget républicain, par Frédéric Bastiat")
-
-(document :title
-	[,(font :size "6" [Paix et liberté])
-	      ,(br) ,(font :size "5" [ou le]) ,(br)
-	,(font :size "7" [Budget républicain])
-,(footnote*[
-
-Pamphlet publié en février 1849.
-,(--) L’auteur avait écrit, un mois avant,
-dans le ,(cite-title[Journal des Débats]),
-,(ref :url "reduction_sel.html" [un article]) qu’à raison de l’identité du sujet nous reproduisons
-à la fin de ,(cite-title[Paix et Liberté]).
-,(NdEEO)
-])]
-	:author (author-FB)
-
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k56744460/f8.image" [,(cite-title[Paix et liberté])]).]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/407/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 407.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Février 1849.])
 ,(p*[
 Un programme ! un programme !
@@ -2337,6 +2321,22 @@ où deux fleurons brillent par leur absence :
 ,(strong[Paix et Liberté !])
 ])
 ])
+(document :title
+	[,(font :size "6" [Paix et liberté])
+	      ,(br) ,(font :size "5" [ou le]) ,(br)
+	,(font :size "7" [Budget républicain])
+,(footnote*[
+
+Pamphlet publié en février 1849.
+,(--) L’auteur avait écrit, un mois avant,
+dans le ,(cite-title[Journal des Débats]),
+,(ref :url "reduction_sel.html" [un article]) qu’à raison de l’identité du sujet nous reproduisons
+à la fin de ,(cite-title[Paix et Liberté]).
+,(NdEEO)
+])]
+	:author (author-FB)
+
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(pamphlets)]))

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "À M. de Lamartine, par Frédéric Bastiat")
-
-(document :title [À ,(np "lamartine" [M. de Lamartine])]
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom52parigoog#page/n273/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 15, n° 59, p. 265.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/452/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 452.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° d’octobre 1846.])
 ,(cher[Monsieur,])
 ,(p*[,(tag :a :name "bienpublic_ref")
@@ -137,6 +134,9 @@ Et, après tout, quel droit avons-nous, nous propriétaires, sur les estomacs de
 ,(politesse[Je suis, monsieur, votre dévoué serviteur,])
 ,(sign[,(FredB).])
 ])
+(document :title [À ,(np "lamartine" [M. de Lamartine])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

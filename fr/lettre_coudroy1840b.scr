@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 du 6 juillet 1840")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/29/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 29.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Madrid, le 6 juillet 1840.])
 ,(p*[,(tag :a :name "bastiat_j_ref")
 Mon cher Félix, je reçois ta lettre du 6. D’après ce que tu me dis de ,(np "bastiat_j" [ma chère tante]), je vois que pour le moment sa santé est bonne, mais qu’elle avait été un peu souffrante ; c’est là pour moi le revers de la médaille. Madrid est aujourd’hui un théâtre peut-être unique au monde, que la paresse et le désintéressement espagnols livrent aux étrangers qui, comme moi, connaissent un peu les mœurs et la langue du pays. J’ai la certitude que je pourrais y faire d’excellentes affaires ; mais l’idée de l’isolement de ,(np "bastiat_j" [ma tante]), à un âge où la santé commence à devenir précaire, m’empêche de songer à proclamer mon exil.
@@ -25,6 +23,9 @@ Mon ami, je crains bien que le catholicisme ne subisse ici le même sort qu’en
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), fais une visite à ,(np "bastiat_j" [ma tante]), donne-lui de mes nouvelles, et reçois l’assurance de ma tendre amitié.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

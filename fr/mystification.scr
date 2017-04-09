@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Une mystification
 	- par Frédéric Bastiat")
-(document :title "Une mystification"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/242/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 61, p. 242.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])
 ,(p*[
 Ainsi que vous savez, j’ai beaucoup voyagé et j’ai beaucoup à raconter.
@@ -41,6 +39,9 @@ Pour avoir l’explication de ce phénomène, je m’adressai à un grand minist
 ][
 — « Ils ne s’en doutent pas. Ils ne cessent de me crier : ,(emph[Grand homme d’État, fais-nous travailler un peu plus encore.]) Et ce cri me réjouit, car je l’interprète ainsi : ,(emph[Grand homme d’État, sur notre vin, sur notre sel, sur notre tabac, sur notre viande, prends-nous un plus grand nombre de sous encore.]) »
 ])])
+(document :title "Une mystification"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

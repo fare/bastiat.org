@@ -1,16 +1,14 @@
 (style 'bo-style)
 (in-bof :title "Organisation naturelle, organisation artificielle
 	- par Frédéric Bastiat")
-(document :title "Organisation naturelle, organisation artificielle"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom24parigoog#page/n123/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 19, n° 74, p. 113.]
 [,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n27/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
 [,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/15/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/21/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 21.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(h2[Chapitre I des ,(HarmoniesEconomiques)])
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1848.])
 ,(p*[
@@ -915,6 +913,9 @@ attribut exclusif de l’homme, ,(--) la ,(strong [liberté]) !
 
 
 ])])
+(document :title "Organisation naturelle, organisation artificielle"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

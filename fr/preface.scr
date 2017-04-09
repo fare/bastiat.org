@@ -2,11 +2,7 @@
 (style 'bo-style)
 (in-bof :title "Préface
 	- par Prosper Paillottet")
-(document :title [Préface]
-	:author (author :name [Roger de Fontenay]
-			:url (ref :url =bo.url= =bo.url=))
-
-(bastiat[
+(define bastiatcontent [
 ,(p*[
 J’ai exercé le droit de propriété sur les œuvres de Frédéric
 Bastiat, pour le compte d’une société de ses amis, formée peu de
@@ -86,6 +82,11 @@ Puisqu’il en est ainsi, il ne me reste plus qu’à remercier Bastiat
 des excellents amis qu’il m’a donnés.])
 ,(sign[P. Paillottet.])
 ])
+(document :title [Préface]
+	:author (author :name [Roger de Fontenay]
+			:url (ref :url =bo.url= =bo.url=))
+(container)
+
 (tous_les_scripts)
 (footer[])
 )

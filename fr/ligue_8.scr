@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Meeting hebdomadaire de la Ligue à la salle de l’Opéra.")
-
-(document :title "Meeting hebdomadaire de la Ligue à la salle de l’Opéra."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n224/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 119.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/179/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 179.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[13 mai 1843.])
 ,(p*[,(tag :a :name "fox_ref")
 À l’occasion de la discussion sur les lois-céréales, discussion qui a occupé cinq séances entières de la Chambre des communes et qui n’est pas encore terminée, la Ligue s’est réunie, samedi 13 mai, à la salle de l’Opéra. Après un discours éloquent de ,(np "fox" [M. Fox]), la parole est à ,(np "cobden" [M. Cobden]).])
@@ -26,6 +23,9 @@ Quelques personnes parlent d’un changement dans la valeur des espèces métall
 ][
 Dès que cette résolution fut prise, la Ligue commença à ,(emph[agiter]), comme elle a coutume de le faire dans toutes les circonstances importantes. Il n’entre pas dans notre sujet de consigner ici tous les épisodes de cette lutte. Les principaux traits s’en sont reproduits dans la séance tenue à Covent-Garden le 10 octobre, séance dont nous donnons un extrait. On sait d’ailleurs que la Ligue remporta un signalé triomphe par la nomination de ,(np "pattison" [M. Pattison]).
 ])])
+(document :title "Meeting hebdomadaire de la Ligue à la salle de l’Opéra."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

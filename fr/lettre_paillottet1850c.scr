@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Prosper Paillottet
 du 23 juin 1850")
-(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/440/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 440.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Eaux-Bonnes, 23 juin 1850.])
 ,(p*[
 …Me voici à la prétendue source de la santé. Je fais les choses en conscience ; c’est vous dire que je travaille très peu. N’ayant pas envie de me mettre à continuer les ,(cite-title[,(ref :url "harmonies.html" [Harmonies]),]) j’achève le pamphlet ,(cite-title[,(ref :url "cqovecqonvp.html" [Ce qu’on voit et ce qu’on ne voit pas]),]) et je serai probablement en mesure de vous l’envoyer d’ici à quelques jours.
@@ -21,6 +19,9 @@ La critique qu’il fait du chapitre ,(ref :url "propriete_fonciere.html" [,(cit
 ][,(tag :a :name "quijano_ref")
 Ne m’oubliez pas auprès de MM. ,(np "quijano" [Quijano]) et de ,(np "fontenay" [Fontenay]).
 ])])
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

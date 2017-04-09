@@ -2,15 +2,12 @@
 (style 'bo-style)
 (in-bof :title
 "Conséquences de la réduction sur l’impôt du sel")
-
-(document :title "Conséquences de la réduction sur l’impôt du sel"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k448242q/f3.item.zoom" [,(cite-title[Journal des Débats])]), ,(1er) janvier 1849, p. 3, col. 5.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt05bast/#page/464/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 5, p. 464.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "debats" [,(cite-title[Journal des Débats])]), n° du ,(1er) janvier 1849.])
 ,(p*[
 La réduction immédiate de l’impôt du sel
@@ -196,6 +193,9 @@ de l’Assemblée, de la France et de l’Europe.
 
 
 ])])
+(document :title "Conséquences de la réduction sur l’impôt du sel"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[,(oeuvres)
 ,(art_jd)

@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "La liberté
 	- par Frédéric Bastiat")
-(document :title "La liberté"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/235/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 56, p. 235.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
 ,(p*[
 J’ai beaucoup vécu, beaucoup vu, observé, comparé, étudié, et je suis arrivé à cette conclusion :
@@ -31,6 +29,9 @@ Un peuple a deux manières de se procurer une chose : la première, c’est de 
 ][
 Je me mêle aux débats publics, je m’efforce de pénétrer dans la foule pour prêcher toutes les ,(emph[libertés]) dont l’ensemble forme la ,(emph[liberté]).
 ])])
+(document :title "La liberté"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

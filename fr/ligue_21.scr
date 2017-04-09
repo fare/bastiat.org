@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Séance du 5 juin 1844.")
-
-(document :title "Séance du 5 juin 1844."
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/cobdenetlaligue00bastgoog#page/n419/mode/2up" [,(cite-title[Cobden et la Ligue])]), p. 316.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt03bast/#page/343/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 3, p. 343.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[5 juin 1844.])
 ,(p*[,(tag :a :name "cobden_ref")
 La séance du 29 mai fut présidée par le comte Ducie, qui a traité longuement la question de la liberté commerciale au point de vue de l’agriculture pratique. Le meeting a entendu MM. ,(np "cobden" [Cobden]), ,(np "thompson_tp" [Perronet Thompson]), Holland, propriétaire dans le Worcestershire, et ,(np "bright" [M. Bright]), m. P.])
@@ -46,6 +43,9 @@ La question, dans ses rapports avec la liberté civile, me paraît donc aussi si
 
 ,(p*[,(tag :a :name "moore_ref"),(np "moore" [,(strong[M. Robert Moore])]) lui succède.
 ])])
+(document :title "Séance du 5 juin 1844."
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(cobdenligue)

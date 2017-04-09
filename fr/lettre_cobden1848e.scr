@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 27 mai 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/175/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 175.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, le 27 mai 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), je vous remercie de m’avoir procuré l’occasion de faire la connaissance de ,(np "baines" [M. Baines]). Je regrette seulement de n’avoir pu m’entretenir qu’un instant avec un homme aussi distingué.
@@ -21,6 +19,9 @@ Cependant je dois dire que j’ai été agréablement surpris de trouver dans no
 ][,(tag :a :name "schwabe_ref")
 Je crois qu’en ce moment vous avez près de vous ,(np "cobden_c" [madame Cobden]), ainsi que ,(np "schwabe_s" [M.]) et ,(np "schwabe_j" [madame Schwabe]) — je vous prie de leur présenter mes civilités affectueuses. Depuis le départ de ,(np "schwabe_s" [M. Schwabe]), les Champs-Élysées me semblent un désert ; avant je les trouvais bien nommés.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

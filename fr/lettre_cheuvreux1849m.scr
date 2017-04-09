@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Mme Cheuvreux
 du 7 octobre 1849")
-(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://lf-oll.s3.amazonaws.com/titles/2300/Bastiat_Lettres1543_Bk.pdf#page=25" [,(cite-title[Lettres d’un habitant des Landes])]), p. 48.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 7 octobre 1849.])
 
 ,(cher[,(np "cheuvreux_h" [Madame]),])
@@ -23,6 +21,9 @@ Adieu, madame ; permettez-moi de me dire le plus dévoué comme le plus respect
 ])
 ,(sign[F. Bastiat.])
 ])
+(document :title [Lettre à ,(np "cheuvreux_h" [,(Mme) Cheuvreux])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer [
 	,(oeuvres)

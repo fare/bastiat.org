@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Félix Coudroy
 de janvier (?) 1850")
-(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/102/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 102.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Commencement de 1850.])
 ,(p*[
 Il n’y a pas de jour, ,(np "coudroy" [mon cher Félix]), où je ne pense à te répondre. Toujours par la même cause, j’ai la tête si faible que le moindre travail m’assomme. Pour peu que je sois engagé dans quelques-unes de ces affaires qui commandent, le peu de temps que je puis consacrer à tenir une plume est absorbé ; et me voilà forcé de renvoyer de jour en jour ma correspondance. Mais enfin, si je dois trouver de l’indulgence quelque part, c’est bien dans mes amis.
@@ -23,6 +21,9 @@ Le socialisme se propage d’une manière effrayante ; mais, comme toutes les c
 ][
 Adieu, ,(np "coudroy" [mon cher Félix]), fais dire à ma tante que je me porte bien.
 ])])
+(document :title [Lettre à ,(np "coudroy" [Félix Coudroy])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

@@ -1,15 +1,12 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Une des questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce, par Frédéric Bastiat")
-
-(document :title "Une des questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce"
-	:author (author-FB)
-(sidebar[
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n27/mode/2up" [,(cite-title[Journal des Économistes])]), vol. 13, n° 49, p. 16.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/392/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 392.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de décembre 1845. ,(footnote*[Par une circulaire de 1845, M. Cunin-Gridaine, ministre du commerce, interrogeait les Conseils généraux sur diverses modifications à introduire dans nos lois. L’une des questions posées était relative à l’importation du fer. C’est à l’occasion de celle-ci que F. Bastiat publia les réflexions suivantes dans le n° de décembre 1845 du ,(cite-title[Journal des Économistes]). ,(NdEEO)])])
 ,(p*[« Faut-il, dans l’intérêt de notre marine, admettre en franchise de droits les fers destinés à la construction des navires engagés dans la navigation internationale ,(footnote*[Un amendement de M. Berryer à la loi de douanes était ainsi conçu : « Les tôles et fers français employés à la construction des navires en fer destinés exclusivement à la navigation internationale, donneront droit à une prime de 15 francs les 100 kilogrammes. » — « Les tôles et fers pris à l’entrepôt et employés à la construction des navires en fer destinés exclusivement à la navigation internationale, seront exempts de tous droits de douanes. » La prime demandée par M. Berryer ne tarderait pas à dépasser un million. ,(emph[(Note de la rédaction du Journal des Économistes.)])]) ? »
 ][
@@ -135,6 +132,9 @@ Je conclus, 1° que ce qu’il y aurait de mieux à faire, sans se préoccuper 
 ])
 ,(p :class "noselect" [Voir la ,(ref :url "questions_conseils_generaux.html" [suite]) non publiée au ,(cite-title[Journal des Économistes]).])
 ])
+(document :title "Une des questions soumises aux Conseils généraux de l’agriculture, des manufactures et du commerce"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

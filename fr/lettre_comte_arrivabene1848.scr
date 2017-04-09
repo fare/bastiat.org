@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat au comte Arrivabene
 du 18 mars 1820")
-(document :title "Lettre au comte Arrivabene"
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/416/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 416.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 21 décembre 1848.])
 
 ,(cher[,(np "arrivabene" [Mon cher Monsieur]) ,(footnote*[La lettre de M. le comte Arrivabene, à laquelle Bastiat répond, était relative à un passage du chapitre III des ,(cite-title[Harmonies]), publié en décembre 1848 dans le ,(cite-title[Journal des Économistes]).,(NdEEO)]),])
@@ -27,6 +25,9 @@ Je ne puis dire ici les conséquences, selon moi très-importantes, qui découle
 ][
 Veuillez recevoir, mon cher Monsieur, l’assurance de mon respectueux attachement.])
 ])
+(document :title "Lettre au comte Arrivabene"
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

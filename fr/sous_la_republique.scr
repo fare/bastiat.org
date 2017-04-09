@@ -1,14 +1,11 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Sous la République, par Frédéric Bastiat")
-
-(document :title [Sous la République ,(footnote*[Dans le t. II, p. 459 à 465, figure le contingent fourni par Bastiat aux ,(cite-title[Petites affiches de Jacques Bonhomme]). Grâce à l’obligeance de M. G. de Molinari, nous pouvons reproduire maintenant de courts articles qu’écrivit Bastiat pour deux autres des feuilles publiques, qui eurent une courte existence en 1848, la ,(cite-title[République française]) et ,(cite-title[Jacques Bonhomme]). ,(NdEEO)])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/210/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 42, p. 210.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 27 février 1848.])
 ,(p*[
 Nul ne peut dire quel sera, en Europe, le contre-coup de la Révolution. Plaise au ciel que tous les peuples sachent se soustraire à la triste nécessité de se précipiter les uns sur les autres, au signal des aristocraties et des rois.
@@ -45,6 +42,9 @@ Que les étrangers le comprennent. Ils ne peuvent échapper au danger qu’en pr
 ][
 C’est ce que nous nous chargerons de démontrer.
 ])])
+(document :title [Sous la République ,(footnote*[Dans le t. II, p. 459 à 465, figure le contingent fourni par Bastiat aux ,(cite-title[Petites affiches de Jacques Bonhomme]). Grâce à l’obligeance de M. G. de Molinari, nous pouvons reproduire maintenant de courts articles qu’écrivit Bastiat pour deux autres des feuilles publiques, qui eurent une courte existence en 1848, la ,(cite-title[République française]) et ,(cite-title[Jacques Bonhomme]). ,(NdEEO)])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

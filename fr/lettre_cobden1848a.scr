@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Richard Cobden
 du 25 février 1848")
-(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt01bast/#page/168/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 1, p. 168.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[Paris, 25 février 1848.])
 ,(p*[
 ,(np "cobden" [Mon cher Cobden]), vous savez déjà nos événements. Hier nous étions une monarchie, aujourd’hui nous sommes une république.
@@ -37,6 +35,9 @@ Si vous restez armés, nous restons armés sans mauvaise intention. Mais restant
 ][
 Si vous désarmez dans une forte proportion, si vous vous unissez fortement à nous pour conseiller à la Prusse la même politique, à cette condition, une ère nouvelle peut surgir et surgira du 24 février.
 ])])
+(document :title [Lettre à ,(np "cobden" [Richard Cobden])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)

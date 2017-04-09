@@ -2,13 +2,11 @@
 (style 'bo-style)
 (in-bof :title "Lettre de Frédéric Bastiat à Bernard Domenger
 du 8 avril 1849")
-(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
-	:author (author-FB)
-(sidebar [
+(define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/396/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, p. 396.])
 ])
-(bastiat[
+(define bastiatcontent [
 ,(date-tag[8 avril 1849.])
 ,(p*[
 Vos lettres me sont toujours précieuses, c’est une consolation pour moi de penser que des amis impartiaux et éclairés ne se laissent pas entamer par les préventions dont je suis l’objet.
@@ -31,6 +29,9 @@ Depuis j’ai voté trois fois, et toujours à regret, contre le Ministère. On 
 ][
 Quant aux élections, elles seront ce que le bon Dieu voudra. Si je dois succomber, j’en ai pris mon parti d’avance ; car j’ai bien des travaux à faire en dehors du Parlement. J’ai ,(ref :url "harmonies.html" [un ouvrage]) dans la tête dont je crains de ne pouvoir accoucher. Si les électeurs me font des loisirs, je m’en consolerai en travaillant à ce livre, qui est ma chimère. Je désire seulement qu’ils ne me remplacent pas d’une manière trop indigne. Il est tel nom qui, mis à ma place, ne ferait pas honneur au département.
 ])])
+(document :title [Lettre à ,(np "domenger" [Bernard Domenger])]
+	:author (author-FB)
+(container)
 (tous_les_scripts)
 (footer[
 	,(oeuvres)
