@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/242/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 61, p. 242.])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k8933589/f2.item" [,(cite-title[Jacques Bonhomme])]), n° 2, p. 2.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/242/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 61, p. 242.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 2, du 15 au 18 juin 1848.])

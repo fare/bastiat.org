@@ -5,17 +5,17 @@
 	margin: auto;
 	font-family: "paratexte";
 }
-
+@media only screen and (max-width: 1000px) {
+	.lettre {
+		width: 100%;
+	}
+}
 .lettre font p {
 	font-weight: bold;
 }
 
-.journal {
-	text-align: justify;
-	margin: 2em;
-}
 
-.personne {
+.personne, .journal {
 	text-align: justify;
 	font-size: 1.1em;
 	background-color: #f0f0f0;
@@ -24,7 +24,7 @@
 	margin: -1em auto 0 auto;
 }
 
-.personne > a:first-child {
+.personne > a:first-child, .journal > a:first-child {
 	display: block;
 	position: relative; margin-top: 1em;
 }
@@ -73,10 +73,21 @@
 	font-family: "bastiat";
 }
 
+.journal .bio, .journal .references {
+	font-family: "bastiat";
+}
 
 
 .journal .titre {
 	font-weight: bold;
+}
+
+.journal ul {
+	list-style-type: square;
+	margin-left: 2em;
+}
+.journal ul li {
+	margin: auto;
 }
 
 .sommaire p.alphabet {
@@ -96,36 +107,37 @@
 ul.journaux {
 	list-style-type: none;
 	width: 100%;
-	margin: 0; padding: 0;
-	text-align: center;
+	margin: auto; padding: 0;
+	text-align: left;
+	position: relative;
+}
+
+.sommaire #sidebar h5 {
+	font-size: 0.9em;
 }
 
 .itemjournal {
-	width: 12em;
-	display: inline-block;
-	position: relative;
-	min-height: 9em;
+	display: block;
+
 }
 
 .itemjournal .titre {
-	position: absolute; top: 0; left:0;
-	width: 100%;
-	padding: 0.5em 0 1em 0;
 	font-weight: bold;
 }
 
 .itemjournal a.titre:link, .itemjournal a.titre:visited {
-	color: #FFA500;
+	color: #88A500;
 }
 
 .itemjournal a.titre:hover {
-	color: #c50;
+	color: #558500;
 }
 
+/*code pour afficher les div.about on hover*/
+/*.itemjournal a.titre:hover + div.about {
+display: block;
+}*/
+
 .itemjournal .about {
-	width: 90%;
-	height:50%;
-	position: absolute; bottom: 0; left: 0;
-	font-size: 0.9em;
-	padding: 0 0.5em 0 0.5em;
+	display: none;
 }

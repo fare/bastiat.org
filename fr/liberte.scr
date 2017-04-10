@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/235/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 56, p. 235.])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k893357x/f3.item" [,(cite-title[Jacques Bonhomme])]), n° 1, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/235/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 56, p. 235.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
@@ -23,7 +24,7 @@ On peut s’affliger de voir des écrivains se complaire à remuer toutes les ma
 ][
 C’est une chose fâcheuse que l’homme soit réduit à gagner son pain à la sueur de son front. Il vaudrait mieux que l’État nourrît tout le monde ; mais c’est impossible. Ayons du moins la ,(emph[liberté du travail]).
 ][
-En s’associant, les hommes peuvent tirer un plus grand parti de leurs forces. Mais les formes de l’association sont infinies ; quelle est la meilleure ? Ne courons pas la chance que l’État nous impose la plus mauvaise, cherchons à tâtons la bonne et réclamons la ,(emph[liberté d’association]).
+En s’associant, les hommes peuvent tirer un plus grand parti de leurs forces. Mais les formes de l’association sont infinies ; quelle est la meilleure ? Ne courons pas la chance que l’État nous impose la plus mauvaise, cherchons la bonne à tâtons et réclamons la ,(emph[liberté d’association]).
 ][
 Un peuple a deux manières de se procurer une chose : la première, c’est de la faire ; la seconde, c’est d’en faire une autre et de la troquer. Il vaut certainement mieux avoir l’option que de ne l’avoir pas. Exigeons donc la ,(emph[liberté de l’échange]).
 ][

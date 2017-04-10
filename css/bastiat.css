@@ -108,7 +108,7 @@ a:hover {color: #035;}
 a[name] {
 	display: inline-block;
     position: relative;
-    top: -4em; /*Pour que le header ne cache pas la cible des liens*/
+    top: -5em; /*Pour que le header ne cache pas la cible des liens*/
     visibility: hidden;
 }
 /*Rendre insélectionnables les appels de note. Ça ne marche pas encore tout à fait... T_T*/

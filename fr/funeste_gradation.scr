@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/244/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 62, p. 244.])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k893359p.item" [,(cite-title[Jacques Bonhomme])]), n° 3, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/244/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 62, p. 244.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 3, du 20 au 23 juin 1848.])

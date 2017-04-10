@@ -1,0 +1,28 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "La Chalosse")
+(document
+(header[
+	,(titre [La Chalosse])
+])
+(sommaire[
+,(sidebarjournaux)
+,(p*[
+
+])
+
+,(itemize[
+	,(article "11 février 1838" "duels.html" "Réflexions sur la question des duels (compte rendu)"
+	"")
+	,(article "1<sup>er</sup> avril 1838" "langue_basque1.html" "Sur la langue basque (1/2)"
+	"")
+	,(article "8 avril 1838" "langue_basque2.html" "Sur la langue basque (2/2)"
+	"")
+])
+])
+(tous_les_scripts)
+(footer[
+,(oeuvres)
+,(journaux)
+])
+)

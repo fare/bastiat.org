@@ -4,7 +4,8 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 59, p. 238.])
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k893357x/f4.item" [,(cite-title[Jacques Bonhomme])]), n° 1, p. 2.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/238/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 59, p. 238.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "jb" [,(cite-title[Jacques Bonhomme])]) n° 1, du 11 au 15 juin 1848.])
@@ -48,13 +49,13 @@ Il veut que l’État favorise l’agriculture.
 ][
 Il veut que l’État donne des primes à l’industrie.
 ][
-Il veut que l’État protège le commerce.
+Il veut que l’État protége le commerce.
 ][
 Il veut que l’État ait une armée redoutable.
 ][
 Il veut que l’État ait une marine imposante.
 ][
-Il veut que l’État…]))
+Il veut que l’État……]))
 
 ,(p*[— Avez-vous tout dit ?
 ][
@@ -64,7 +65,7 @@ Il veut que l’État…]))
 ][
 — À ceci : tant que le peuple voudra tout cela, il faudra qu’il le paye. Il n’y a pas d’,(emph[homme de finances]) qui fasse quelque chose avec rien.
 ][
-,(cite-title[Jacques Bonhomme]) fonde un prix de cinquante mille francs à décerner à celui qui donnera une bonne définition de ce mot, ,(strong[l’État]) ; car celui-là sera le sauveur des finances, de l’industrie, du commerce et du travail ,(footnote*[On reconnaît, dans cet article et ,(link "p5r4" [le suivant]), l’esquisse du pamphlet ,(cite-title(link "l_etat" [l’État])), publié trois mois après. ,(NdEEO)]).
+,(cite-title[Jacques Bonhomme]) fonde un prix de cinquante mille francs à décerner à celui qui donnera une bonne définition de ce mot, l’,(strong[État]) ; car celui-là sera le sauveur des finances, de l’industrie, du commerce et du travail ,(footnote*[On reconnaît, dans cet article et ,(link "p5r4" [le suivant]), l’esquisse du pamphlet ,(cite-title(link "l_etat" [l’État])), publié trois mois après. ,(NdEEO)]).
 ])])
 (document :title "L’État"
 	:author (author-FB)

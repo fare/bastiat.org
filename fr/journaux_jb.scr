@@ -6,6 +6,7 @@
 	,(titre [Jacques Bonhomme])
 ])
 (sommaire[
+,(sidebarjournaux)
 ,(p*[
 
 ])
@@ -29,10 +30,10 @@
 	,(article "” ”" "mystification.html" "Une mystification"
 	"")
 
-	,(article "20 au 23 juin 1848" "funeste_gradation.html" "Funeste gradation"
-	"")
-
 	,(article "” ”" "aux_citoyens.html" "Aux citoyens Lamartine et Ledru-Rollin"
+	"")
+	
+	,(article "20 au 23 juin 1848" "funeste_gradation.html" "Funeste gradation"
 	"")
 	])
 ])

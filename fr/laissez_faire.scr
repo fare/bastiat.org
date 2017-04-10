@@ -4,7 +4,7 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(cite-title[Jacques Bonhomme]), n° 1, ,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Molinari/JB/PDF/JB1-p1.pdf" [p. 1]).]
+,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k893357x/f3.item" [,(cite-title[Jacques Bonhomme])]), n° 1, p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/237/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 57, p. 237.])
 ])
 (define bastiatcontent [
