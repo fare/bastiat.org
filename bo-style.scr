@@ -774,9 +774,16 @@ window.onresize = function() {
 </script>"))
 
 
+(define (nojavascript)
+(%raw "<noscript>
+<div class='nojavascript'>
+Pour un affichage optimal, veuillez activer Javascript dans votre navigateur.
+</div>
+</noscript>"))
+
 ;élément à ajouter à chaque document pour charger tous les scripts d'un coup
 
-(defun tous_les_scripts () [,(script_sidenotes),(script_sidebar) ])
+(defun tous_les_scripts () [,(nojavascript),(script_sidenotes),(script_sidebar) ])
 
 ;Fonctions pour charger le contenu, qui sera désormais défini en dehors de la fonction "document" (en attendant de tout mettre dans un fichier unique et d'appeler le contenu à partir de ce fichier)
 ; La div container contient le texte mais pas les notes de bas de page. Elle permet que la sticky sidebar s'arrête juste au-dessus des notes de bas de page au lieu de les recouvrir.
