@@ -1,7 +1,7 @@
 ; -*- Scheme -*-
 (style 'bo-style)
 (in-bof :title "Métaphores
-	- Sophisme économique démonté par Frédéric Bastiat")
+	- Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k1167160v/f173.image" [,(cite-title[Sophismes économiques])]), ch. 22.]
