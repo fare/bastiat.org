@@ -9,7 +9,7 @@ du 19 mai 1850")
 (define bastiatcontent [
 ,(date-tag[Mugron, 19 mai 1850.])
 ,(p*[
-,(np "paillottet" [Mon cher Paillottet]), je vous remercie de l’intérêt que vous prenez à ma santé et à mon voyage. Celui-ci s’est fait très heureusement et plus régulièrement que vous ne l’aviez prévu. Il n’y a pas eu de malentendu entre ma place et moi. En route, de Tours à Bordeaux, j’ai rencontré de fervents adeptes de l’économie politique, ce qui m’a fait plaisir, mais m’a forcé de parler un peu trop. À Bordeaux, je n’ai pu éviter quelque chose de pis que la simple causerie, car la réaction y est arrivée à un tel excès qu’il faudrait être de marbre pour écouter froidement ses blasphèmes. — Tout cela fait que mon larynx est arrivé ici un peu fatigué, et les épanchements de l’amitié, quelque délicieux qu’ils soient, ne sont pas propres à le délasser. Pourtant, considérant les choses en gros, je me trouve un peu mieux ; j’ai plus de force de corps et de tête. Voilà certes un long bulletin de ma santé ; votre amitié me l’a demandé, prenez-vous-en à elle.
+Mon cher ,(np "paillottet" [Paillottet]), je vous remercie de l’intérêt que vous prenez à ma santé et à mon voyage. Celui-ci s’est fait très heureusement et plus régulièrement que vous ne l’aviez prévu. Il n’y a pas eu de malentendu entre ma place et moi. En route, de Tours à Bordeaux, j’ai rencontré de fervents adeptes de l’économie politique, ce qui m’a fait plaisir, mais m’a forcé de parler un peu trop. À Bordeaux, je n’ai pu éviter quelque chose de pis que la simple causerie, car la réaction y est arrivée à un tel excès qu’il faudrait être de marbre pour écouter froidement ses blasphèmes. — Tout cela fait que mon larynx est arrivé ici un peu fatigué, et les épanchements de l’amitié, quelque délicieux qu’ils soient, ne sont pas propres à le délasser. Pourtant, considérant les choses en gros, je me trouve un peu mieux ; j’ai plus de force de corps et de tête. Voilà certes un long bulletin de ma santé ; votre amitié me l’a demandé, prenez-vous-en à elle.
 ][,(tag :a :name "je_ref")
 Je reçus hier le ,(tj "je" [,(cite-title[Journal des économistes])]), en même temps que votre lettre ; j’ai lu ,(ref :url "spoliation_et_loi.html" [mon article]). Je ne sais comment vous vous y êtes pris, mais il m’a été impossible d’y reconnaître les ,(emph[reprises]), tant elles se confondent avec le tissu. L’idée dominante de cet article n’y est peut-être pas mise assez en saillie. Malgré cela, elle devrait frapper les bons esprits ; et si j’avais été à Paris, j’aurais fait tirer à part 500 copies pour les distribuer à l’Assemblée. L’article n’étant pas long, il me semble que la ,(tj "vp" [,(cite-title[Voix du peuple])]) devrait le reproduire dans un de ses ,(emph[lundis]). Si vous en entendez parler, faites-moi savoir ce qu’on en dit.
 ](nbsp)[
@@ -17,7 +17,7 @@ Je reçus hier le ,(tj "je" [,(cite-title[Journal des économistes])]), en même
 ][
 J’oublie probablement bien des choses, mais cela se retrouvera ; car j’espère que vous voudrez bien m’écrire le plus souvent possible, et quant à moi, je vous donnerai souvent de mon écriture à débrouiller.
 ])])
-(document :title "Lettre à Prosper Paillottet"
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
 	:author (author-FB)
 (container)
 (tous_les_scripts)

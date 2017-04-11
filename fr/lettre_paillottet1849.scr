@@ -9,7 +9,7 @@ du 14 juillet 1849")
 (define bastiatcontent [
 ,(date-tag[Paris, 14 juillet 1849.])
 ,(p*[
-,(np "paillottet" [Mon cher Paillottet]), je vous suis bien reconnaissant de vous être souvenu de moi dans nos Pyrénées, et en même temps je suis fier de l’impression qu’elles ont faite sur vous. Que j’aurais été heureux de vous suivre dans vos courses ! Nous aurions peut-être refroidi et vulgarisé ces beaux paysages, en y mêlant de l’économie politique. Mais non ; les lois sociales ont leurs ,(emph[harmonies]) comme les lois du monde physique. C’est ce que je m’efforce de démontrer dans le livre que j’ai en ce moment sur le métier. — Je dois avouer que je ne suis pas content de ce qu’il est. J’avais un magnifique sujet, je l’ai manqué et ne suis plus à temps de refaire, parce que les premières feuilles sont sous presse. Peut-être ce ,(initalian[fiasco]) n’est-il pas de ma faute. C’est une chose difficile sinon impossible de parler dignement des harmonies sociales à un public qui ignore ou conteste les notions les plus élémentaires. Il faut tout prouver jusqu’à la légitimité de l’intérêt, etc.
+Mon cher ,(np "paillottet" [Paillottet]), je vous suis bien reconnaissant de vous être souvenu de moi dans nos Pyrénées, et en même temps je suis fier de l’impression qu’elles ont faite sur vous. Que j’aurais été heureux de vous suivre dans vos courses ! Nous aurions peut-être refroidi et vulgarisé ces beaux paysages, en y mêlant de l’économie politique. Mais non ; les lois sociales ont leurs ,(emph[harmonies]) comme les lois du monde physique. C’est ce que je m’efforce de démontrer dans ,(ref :url "harmonies.html" [le livre]) que j’ai en ce moment sur le métier. — Je dois avouer que je ne suis pas content de ce qu’il est. J’avais un magnifique sujet, je l’ai manqué et ne suis plus à temps de refaire, parce que les premières feuilles sont sous presse. Peut-être ce ,(initalian[fiasco]) n’est-il pas de ma faute. C’est une chose difficile sinon impossible de parler dignement des harmonies sociales à un public qui ignore ou conteste les notions les plus élémentaires. Il faut tout prouver jusqu’à la légitimité de l’intérêt, etc.
 ,(tag :a :name "arago_ref")
 — C’est comme si ,(np "arago" [Arago]) voulait montrer l’harmonie des mouvements planétaires à des gens qui ne sauraient pas la numération.
 ][
@@ -21,7 +21,7 @@ L’économie politique vous doit beaucoup et moi aussi pour votre zèle à ,(em
 ])
 ,(politesse[Adieu ! Votre bien dévoué.])
 ])
-(document :title "Lettre à Prosper Paillottet"
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
 	:author (author-FB)
 (container)
 (tous_les_scripts)

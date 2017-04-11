@@ -9,7 +9,7 @@ du 26 novembre 1850")
 (define bastiatcontent [
 ,(date-tag[Rome, 26 novembre 1850.])
 ,(p*[,(tag :a :name "moliere_ref")
-,(np "paillottet" [Mon cher Paillottet]), chaque fois que je reçois une lettre de Paris, il me semble que mes correspondants sont des ,(emph[Toinette]), et que je suis un ,(emph[Argan]).
+Mon cher ,(np "paillottet" [Paillottet]), chaque fois que je reçois une lettre de Paris, il me semble que mes correspondants sont des ,(emph[Toinette]), et que je suis un ,(emph[Argan]).
 ][
 « La coquine a soutenu pendant une heure durant que je n’étais pas malade ! vous savez, m’amour, ce qui en est. » ,(np "moliere" [*])
 ][
@@ -21,7 +21,7 @@ J’ai beau écrire à Florence, je suis sans aucune nouvelle des épreuves de ,
 ][,(tag :a :name "planat_ref")
 Adieu ! je finis brusquement. J’aurais mille choses à vous dire pour M. et ,(Mme) ,(np "planat" [Planat]), pour ,(np "fontenay" [M. de Fontenay]), pour ,(np "manin" [M. Manin]). Bientôt, quand je serai mieux, je causerai plus longtemps avec vous. Maintenant c’est tout ce que j’ai pu faire que d’arriver à cette page.
 ])])
-(document :title "Lettre à Prosper Paillottet"
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
 	:author (author-FB)
 (container)
 (tous_les_scripts)

@@ -11,13 +11,13 @@ du 8 décembre 1850")
 (define bastiatcontent [
 ,(date-tag[Rome, 8 décembre 1850.])
 ,(p*[
-,(np "paillottet" [Cher Paillottet]), suis-je mieux ? Je ne puis le dire ; je me sens toujours plus faible. Mes amis croient que les forces me reviennent. Qui a raison ?
+Cher ,(np "paillottet" [Paillottet]), suis-je mieux ? Je ne puis le dire ; je me sens toujours plus faible. Mes amis croient que les forces me reviennent. Qui a raison ?
 ][,(tag :a :name "cheuvreux_ref")
 La famille ,(np "cheuvreux" [Cheuvreux]) quitte Rome immédiatement, par suite de la maladie de ,(np "mmegirard" [madame Girard]). Jugez de ma douleur. J’aime à croire qu’elle vient surtout de celle de ces bons amis ; mais assurément des motifs plus égoïstes y ont une grande part.
 ][
 Par un hasard providentiel, hier j’écrivis à ma famille pour qu’on m’expédiât une espèce de Michel Morin ,(footnote*[Homme à tout faire. (,(ref :url "https://fr.wikipedia.org/wiki/Michel_Morin_(homme_%C3%A0_tout_faire)" [Source]).) ,(NdL)]), homme plein de gaieté et de ressources, cocher, cuisinier, etc., etc., qui m’a souvent servi et qui m’est entièrement dévoué. Dès qu’il sera ici, je serai maître de partir quand je voudrai pour la France. Car il faut que vous sachiez que le médecin et mes amis ont pris à ce sujet une délibération solennelle. Ils ont pensé que la nature de ma maladie me crée des difficultés si nombreuses, que tous les avantages du climat ne compensent pas les soins domestiques.
 ][
-D’après ces dispositions, ,(np "paillottet" [mon cher Paillottet]), vous ne viendrez pas à Rome, gagner auprès de moi les œuvres de miséricorde. L’affection que vous m’avez vouée est telle que vous en serez contrarié, j’en suis sûr. Mais consolez-vous en pensant qu’à raison de la nature de ma maladie, vous auriez pu faire bien peu pour moi, si ce n’est de venir me tenir compagnie deux heures par jour, chose encore plus agréable que raisonnable. Je voudrais pouvoir vous donner à ce sujet des explications. Mais, bon Dieu ! des explications ! il faudrait beaucoup écrire, et je ne puis. Mon ami, sous des milliers de rapports j’éprouve le supplice de Tantale. En voici un nouvel exemple : je voudrais vous dire toute ma pensée, et je n’en ai pas la force…
+D’après ces dispositions, mon cher ,(np "paillottet" [Paillottet]), vous ne viendrez pas à Rome, gagner auprès de moi les œuvres de miséricorde. L’affection que vous m’avez vouée est telle que vous en serez contrarié, j’en suis sûr. Mais consolez-vous en pensant qu’à raison de la nature de ma maladie, vous auriez pu faire bien peu pour moi, si ce n’est de venir me tenir compagnie deux heures par jour, chose encore plus agréable que raisonnable. Je voudrais pouvoir vous donner à ce sujet des explications. Mais, bon Dieu ! des explications ! il faudrait beaucoup écrire, et je ne puis. Mon ami, sous des milliers de rapports j’éprouve le supplice de Tantale. En voici un nouvel exemple : je voudrais vous dire toute ma pensée, et je n’en ai pas la force…
 ][,(tag :a :name "guillaumin_ref")
 Ce que vous et ,(np "guillaumin" [Guillaumin]) aurez fait pour les ,(ref :url "incompatibilites_parlementaires.html" [,(cite-title[Incompatibilités])]) sera bien fait.
 ][,(tag :a :name "carey_ref")
@@ -29,7 +29,7 @@ Pressentant que je ne pourrais accepter le combat, j’ai ajouté à ,(ref :url 
 ][,(tag :a :name "chevalier_ref")
 Je vous prie d’écrire à ,(np "chevalier" [Michel Chevalier]), de lui dire combien je suis reconnaissant de son excellent article sur ,(ref :url "harmonies.html" [mon livre]). Il n’a d’autre défaut que d’être trop bienveillant et de laisser trop peu de place à la critique. Dites à ,(np "chevalier" [Chevalier]) que je n’attends qu’un peu de force pour lui adresser moi-même l’expression de mes vifs sentiments de gratitude. Je fais des vœux sincères pour qu’il hérite du fauteuil de ,(np "droz" [M. Droz]) ; ce ne sera que tardive justice.
 ])])
-(document :title "Lettre à Prosper Paillottet"
+(document :title [Lettre à ,(np "paillottet" [Prosper Paillottet])]
 	:author (author-FB)
 (container)
 (tous_les_scripts)
