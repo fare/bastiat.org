@@ -3,7 +3,8 @@
 (in-bof :title "Lettre à un ecclésiastique")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/351/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 78, p. 351.])
+,(p*[,(ref :url "https://books.google.fr/books?id=ELJNAAAAcAAJ&hl=fr&pg=PA19#v=onepage&q&f=false" [,(cite-title[Économiste belge])]), 6,(sup[e]) année, n° 2, p. 19.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/351/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 78, p. 351.])
 ])
 (define bastiatcontent [
 ,(date-tag[Mugron, 28 mars 1848.

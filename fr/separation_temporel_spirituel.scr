@@ -3,11 +3,13 @@
 (in-bof :title "De la séparation du temporel et du spirituel, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/357/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 80, p. 357.])
+,(p*[,(ref :url "https://books.google.fr/books?id=TJVbAAAAQAAJ&hl=fr&pg=PA438#v=onepage&q&f=false" [,(cite-title[Économiste belge])]), 5,(sup[e]) année, n° 40, p. 438.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/357/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 80, p. 357.])
 ])
 (define bastiatcontent [
 
-,(date-tag[Ébauche inédite probablement écrite en 1849.])
+,(date-tag[Ébauche inédite probablement écrite en 1849,
+,(br)Publiée dans l’,(cite-title[,(tj "economiste_belge" [Économiste belge]),]) n° du 22 octobre 1859.])
 
 ,(p*[Les affaires de Rome ont-elles une solution possible ? — Oui. — Laquelle? — Qu’il se rencontre un pape qui dise : « Mon royaume n’est pas de ce monde. » — Vous croyez que ce serait la solution de la question romaine ? — Oui, et de la question catholique et de la question religieuse.
 ][,(tag :a :name "louisphilippe_ref")

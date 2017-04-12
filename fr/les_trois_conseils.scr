@@ -3,10 +3,12 @@
 (in-bof :title "Les trois conseils, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/361/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 82, p. 361.])
+,(p*[,(ref :url "https://books.google.fr/books?id=ELJNAAAAcAAJ&hl=fr&pg=PA411#v=onepage&q&f=false" [,(cite-title[Économiste belge])]), 6,(sup[e]) année, n° 26, p. 411.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/361/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 82, p. 361.])
 ])
 (define bastiatcontent [
-,(date-tag[Ébauche publiée par l’,(cite-title[,(tj "economiste_belge" [Économiste belge])]), n° du 3 juin 1860.])
+,(date-tag[Ébauche écrite en 1849,
+,(br)publiée par l’,(cite-title[,(tj "economiste_belge" [Économiste belge])]), n° du 3 juin 1860.])
 ,(p*[
 « Quand la patrie est en danger, chacun lui doit le ,(emph[tribut]) de ce qu’il peut avoir acquis de lumière et d’expérience. » 
 ][

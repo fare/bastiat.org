@@ -5,7 +5,8 @@ du 18 mars 1820")
 
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 41, p. 207.])
+,(p*[,(ref :url "https://books.google.fr/books?id=ELJNAAAAcAAJ&hl=fr&pg=PA544#v=onepage&q&f=false" [,(cite-title[Économiste belge])]), 6,(sup[e]) année, n° 35, p. 544.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/207/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 41, p. 207.])
 ])
 (define bastiatcontent [
 ,(date-tag[Paris, 22 janvier 1848.

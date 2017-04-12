@@ -77,8 +77,7 @@
 
 ,(journ "bienpublic" "Le Bien public"
 [,(cite-title[Le Bien public : journal de Mâcon]). — Mâcon, 1843-1848. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32712467x" [notice BnF]).]
-[
-,(ref :url "lettre_lamartine_2.html#bienpublic_ref" [À M. de Lamartine])
+[,(p*[La seconde lettre ouverte ,(autolk "lettre_lamartine_2" "bienpublic_ref") est une réponse à un article de ,(np "lamartine" [Lamartine]) paru dans ce journal.])
 ])
 
 ,(journ "boston" "Boston Atlas"
@@ -147,8 +146,7 @@ Enfin la ,(link "lettre_cobden1846l" [lettre] "commerce_ref") à ,(np "cobden" [
 
 ,(journ "cm" "Courrier de Marseille"
 [,(cite-title[Courrier de Marseille : commercial et politique]). — Marseille, 1845-1871. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32750667t" [notice BnF]).]
-[
-,(ref :url "aux_membres_de_l_association.html#marseille_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+[,(p*[Journal mentionné pour son soutien au libre-échange dans ,(autolk "aux_membres_de_l_association" "marseille_ref").])
 ])
 
 ,(journ "vasconie" "Courrier de Vasconie"
@@ -197,40 +195,44 @@ La ,(link "lettre_cobden1846a" [lettre] "mg_ref") à ,(np "cobden" [Cobden]) du 
 ])
 
 ]),(lettre "e" [] [
-,(journ "economiste_belge" "L’Économiste belge" [
-,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard])]) ;
+,(journ "economiste_belge" "L’Économiste belge"
+[,(cite-title[L’Économiste Belge, journal des réformes économiques et administratives]) / publié par ,(np "molinari" [G. de Molinari]). — Bruxelles, 1855-1868. — Consulter en ligne les années
+,(ref :url "https://books.google.fr/books?id=IpVbAAAAQAAJ&hl=fr&pg=PP7#v=onepage&q&f=false" [1855]),
+,(ref :url "https://books.google.fr/books?id=J5VbAAAAQAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1856]),
+,(ref :url "https://books.google.fr/books?id=TJVbAAAAQAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1859]),
+,(ref :url "https://books.google.fr/books?id=ELJNAAAAcAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1860]),
+,(ref :url "https://books.google.fr/books?id=SCNTAAAAcAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1867]).]
+[
+,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard]) ;
 ,(ref :url "lettre_ecclesiastique.html" [Lettre à un ecclésiastique]) ;
-,(ref :url "les_trois_conseils.html" [Les trois conseils])
+,(ref :url "separation_temporel_spirituel.html" [Lettre à un ecclésiastique]) ;
+,(ref :url "les_trois_conseils.html" [Les trois conseils])])
 ])
 
 ,(journ "epoque" "L’Époque"
 [,(cite-title[L’Époque : journal complet et universel]). — Paris, 1845-1847. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32768294r" [notice BnF]).]
 [
-,(p*[Lettre adressée à l’ — : ,(ref :url "a_l_epoque.html" [À M. le rédacteur de L’Époque]) ;
-,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge])])
+,(p*[Bastiat répond à un article de ce journal dans ,(autolk "a_l_epoque").]
+[Un changement de ligne éditoriale est mentionné dans ,(autolk "traite_belge" "courrier_ref").])
 ])
 
 ,(journ "esprit" "L’Esprit public"
 [,(cite-title[L’Esprit public : journal quotidien de la politique, de l’industrie, de l’agriculture, des lettres et des arts]) / rédacteur en chef : M. Charles Lesseps. — Paris, 1845-1847. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb327691534" [notice BnF]).]
-[
-,(p*[Citation : ,(ref :url "conte_chinois.html#esprit_ref" [Conte chinois])]) ;
-,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge])
+[,(p*[Journal cité dans ,(autolk "conte_chinois" "esprit_ref") et mentionné pour son opposition au libre-échange dans ,(autolk "traite_belge" "presse_ref").])
 ])
 
 ]),(lettre "f" [
 
 ,(journ "fraternite" "Fraternité"
 [,(cite-title[La Fraternité de 1845. Organe des intérêts du peuple. Journal de réorganisation sociale]) puis ,(cite-title[Organe du communisme…]) — Paris, 1845-1848. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32778530j" [notice BnF]).]
-[
-,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne])
+[,(p*[Ce journal est mentionné dans ,(autolk "presse_parisienne" "populaire_ref").])
 ])
 
 ]),(lettre "g"[
 
 ,(journ "globe" "Le Globe"
 [,(cite-title[Le Globe : gazette des deux mondes]) / rédacteur en chef : Théod. Lechevalier. — Paris, 1837-1845. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32782829x" [notice BnF]).]
-[
-,(ref :url "sentinelle3.html#globe_ref" [Liberté commerciale, état de la question en Angleterre 1])
+[,(p*[On trouve une citation de ce journal dans ,(autolk "sentinelle3").])
 ])
 
 ,(journ "gt" "Globe and Traveller"
@@ -244,14 +246,13 @@ La ,(link "lettre_cobden1846a" [lettre] "mg_ref") à ,(np "cobden" [Cobden]) du 
 
 ,(journ "impartial" "L’Impartial de Rouen"
 [,(cite-title[L’Impartial de Rouen, de la Seine-Inférieure et de l’Eure]). — Rouen, 1847-1852. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb327889614" [notice BnF]).]
-[
-,(ref :url "roi_libre_echangiste.html" [Le roi libre-échangiste])
+[,(p*[L’article ,(autolk "roi_libre_echangiste") est une réponse à un article de ce journal.])
 ])
 
 ,(journ "indicateur" "L’Indicateur"
 [,(cite-title[L’Indicateur : ou journal du commerce, de nouvelles, de littérature et d’annonces]). — Bordeaux, 1804-1862. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb327902170" [notice BnF]).]
 [
-,(p*[Simples allusions : ,(ref :url "lettre_coudroy1834.html" [Lettre à F. Coudroy, 2 mars 1834])])
+,(p*[Journal mentionné dans une ,(link "lettre_coudroy1834" [lettre]) à ,(np "coudroy" [F. Coudroy]) du 2 mars 1834.])
 ])
 
 ]),(lettre "j" [
@@ -336,8 +337,7 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 
 ,(journ "jhavre" "Journal du Havre"
 [,(cite-title[Journal du Havre : commercial, maritime et littéraire]). — Le Havre, 1826-1939. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32800933g" [notice BnF]).]
-[
-,(ref :url "aux_membres_de_l_association.html#marseille_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+[,(p*[Journal mentionné pour son soutien au libre-échange dans ,(autolk "aux_membres_de_l_association" "marseille_ref").])
 ])
 
 ]),(lettre "l" [
@@ -452,9 +452,7 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 
 ,(journ "mc" "Morning Chronicle"
 [,(cite-title[The Morning chronicle and London advertiser]). — London, 1769-1865. ­— Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32820152z" [notice BnF]).]
-[
-,(autolk "lettre_paulton") ;
-,(autolk "ligue_23" "mc_ref") ;
+[,(p*[Journal mentionné dans ,(link "ligue_23" (cite-title[Cobden et la Ligue]) "mc_ref") et dans une ,(link "lettre_paulton" [lettre]) à ,(np "paulton" [M. Paulton]) du 29 juillet 1845.])
 ])
 
 ,(journ "mh" "Morning Herald"
@@ -509,8 +507,7 @@ Autres allusions :]
 
 ,(journ "ocean" "L’Océan"
 [,(cite-title[L’Océan : journal des intérêts maritimes et constitutionnels]). — Brest, 1846-1891. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb328280309" [notice BnF]).]
-[
-,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
+[,(p*[Journal mentionné pour son soutien au libre-échange dans ,(autolk "aux_membres_de_l_association" "patrie_ref").])
 ])
 
 ,(journ "ordre" "L’Ordre"
@@ -540,7 +537,7 @@ La collaboration de ,(np "molinari" "Gustave de Molinari") et ,(np "garnier" [Jo
 ,(journ "peuple" "Le Peuple"
 [,(cite-title[Le Peuple]) / ,(np "proudhon" [P.-J. Proudhon]). — Paris, nov. 1848-juin 1849. ­— Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb41949221p" [notice BnF]). — Devient ,(tj "vp" [La Voix du peuple]).]
 [
-,(ref :url "capital_et_rente.html#proudhon_ref" [Capital et rente])
+On trouve une citation de ce journal dans ,(autolk "capital_et_rente" "proudhon_ref").
 ])
 
 ,(journ "populaire" "Le Populaire"
@@ -596,25 +593,26 @@ La collaboration de ,(np "molinari" "Gustave de Molinari") et ,(np "garnier" [Jo
 
 ,(journ "punch" "The Punch"
 [,(cite-title[Punch or the London charivari]). — London, 1841-2002. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb328461388" [notice BnF]).]
-[
-,(ref :url "lettre_schwabe1848a.html" [Lettre à Mme Schwabe, 17 janvier 1848]) ;
-,(ref :url "armements_en_angleterre_1.html#times_ref" [Les armements en Angleterre])
+[,(p*[Journal mentionné dans ,(autolk "armements_en_angleterre_1" "times_ref"). Dans une ,(link "lettre_schwabe1848a" [lettre]) à ,(np "schwabe_j" [,(Mme) Schwabe]) du 17 janvier 1848, Bastiat la remercie de lui avoir envoyé ce journal.])
 ])
 ]),(lettre "q" [
 
 ,(journ "quotidienne" "La Quotidienne"
 [,(cite-title[La Quotidienne]). — Paris, 1815-1847. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32846953c" [notice BnF]).]
 [
-,(ref :url "anglomanie_anglophobie.html#quotidienne_ref" [Anglomanie, anglophobie]) ;
+Journal mentionné dans ,(autolk "anglomanie_anglophobie" "quotidienne_ref").
 ])
 
 ]),(lettre "r" [
 
 ,(journ "reforme" "La Réforme"
 [,(cite-title[La Réforme]). — Paris, 1843-1850. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32850005s" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/ark:/12148/cb32850005s/date" [Consulter en ligne]).]
-[
-,(ref :url "aux_membres_de_l_association.html#patrie_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge])
+[,(p*[Il est question dans deux articles d’un revirement de ce journal en faveur du libre-échange :])
+,(itemize
+(item[,(autolk "traite_belge" "courrier_ref") ;])
+(item[,(autolk "aux_membres_de_l_association" "patrie_ref").])
+)
+
 ])
 
 ,(journ "rf" "La République française"
@@ -630,6 +628,7 @@ La collaboration de ,(np "molinari" "Gustave de Molinari") et ,(np "garnier" [Jo
 [
 ,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
 ,(ref :url "lettre_fonteyraud.html#rb_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
+,(autolk "lettre_saulnier").
 ])
 
 ,(journ "rdm" "Revue des deux mondes"
@@ -657,9 +656,7 @@ La collaboration de ,(np "molinari" "Gustave de Molinari") et ,(np "garnier" [Jo
 
 ,(journ "ruche" "La Ruche populaire"
 [,(cite-title[La Ruche populaire : journal des ouvriers rédigé et publié par eux-mêmes]). — Paris, 1839-1849. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32863320f" [notice BnF]).]
-[
-,(ref :url "reponse_divers.html#ruche_ref" [Réponse à divers]) ;
-,(ref :url "capital_et_rente.html#ruche_ref" [Capital et rente])
+[,(p*[Ce journal est cité dans l’article ,(autolk "reponse_divers" "ruche_ref") et dans la brochure ,(autolk "capital_et_rente" "ruche_ref").])
 ])
 
 ]),(lettre "s" [
@@ -722,8 +719,7 @@ La collaboration de ,(np "molinari" "Gustave de Molinari") et ,(np "garnier" [Jo
 
 ,(journ "wr" "Westminster Review"
 [,(cite-title[The Westminster Review]). — London, 1824-1914. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32893358r" [notice BnF]).]
-[
-,(autolk "ligue_1" "wr_ref").
+[,(p*[Journal mentionné dans un discours de ,(np "cobden" [Cobden]) : ,(autolk "ligue_1" "wr_ref").])
 ])
 
 ])

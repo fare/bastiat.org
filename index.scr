@@ -22,26 +22,25 @@
 
 
 (div :id "tabs-1" :class "tabs" [
-,(p*[,(bof-ref #f [Ancienne page d’accueil]). — ,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat]).
-][
-Sources :])
-,(verses
-[,(a :href "fr/guillaumin.html" [,(cite-title[Œuvres complètes]) (1862-1864) en 7 volumes]).]
-[,(a :href "fr/intro_lhl.html" [,(cite-title[Lettres d’un habitant des Landes])]).]
-[,(a :href "fr/inedits.html" [Textes inédits]).]
-	)
-,(p*[,(Cobdenetlaligue). — ,(Sophismes_economiques). — ,(Harmonies_economiques).
-][
-,(a :href "fr/pamphlets.html" [Pamphlets]). — ,(a :href "fr/journaux.html" [Articles]). — ,(a :href "fr/correspondance.html" [Correspondance]).
-])
-
-,(p[,(OE*)uvres les plus célèbres:])
+,(p*[,(OE*)uvres les plus célèbres:])
 ,(verses[,(bof-ref "cqovecqonvp" [Ce qu’on voit et ce qu’on ne voit pas]).]
 [,(bof-ref "petition" [Pétition des fabricants de chandelles]).]
 [,(bof-ref "l_etat" [L’État]).]
 [,(bof-ref "la_loi" [La Loi]).]
 	)
-,(p[,(ref :url "fr/personnes.html" [Index des noms de personnes]). — ,(ref :url "fr/journaux.html" [Index des titres de journaux]).])
+,(p*[,(Cobdenetlaligue). — ,(Sophismes_economiques). — ,(Harmonies_economiques).
+][
+,(a :href "fr/pamphlets.html" [Pamphlets]). — ,(a :href "fr/journaux.html" [Articles]). — ,(a :href "fr/correspondance.html" [Correspondance]).
+])
+,(p*[Sources :])
+,(verses
+[,(a :href "fr/guillaumin.html" [,(cite-title[Œuvres complètes]) (1862-1864) en 7 volumes]).]
+[,(a :href "fr/intro_lhl.html" [,(cite-title[Lettres d’un habitant des Landes])]).]
+[,(a :href "fr/inedits.html" [Textes inédits]).]
+	)
+
+,(p*[,(ref :url "fr/personnes.html" [Index des noms de personnes]). — ,(ref :url "fr/journaux.html" [Index des titres de journaux]).]
+[,(bof-ref #f [Ancienne page d’accueil]). — ,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat]).])
 ])
 
 (div :id "tabs-2" :class "tabs" [
