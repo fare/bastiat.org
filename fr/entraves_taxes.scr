@@ -3,18 +3,19 @@
 (in-bof :title "Entraves et taxes, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/234/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 55, p. 234.])
+,(p*[,(ref :url "https://archive.org/stream/republique_francaise_n9/RF9#page/n0/mode/2up" [,(cite-title[La République française])]), n° 9, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/234/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 55, p. 234.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 6 mars 1848.])
 ,(p*[
-Pendant qu’un mouvement peut-être irrésistible nous emporte vers l’extension indéfinie des attributions de l’État, vers la multiplication des taxes ainsi que des entraves et des vexations qui en sont le cortège inévitable, une évolution en sens contraire, très prononcée, se manifeste en Angleterre et entraînera peut-être la chute du ministère.
+Pendant qu’un mouvement peut-être irrésistible nous emporte vers l’extension indéfinie des attributions de l’État, vers la multiplication des taxes ainsi que des entraves et des vexations qui en sont le cortége inévitable, une évolution en sens contraire, très prononcée, se manifeste en Angleterre et entraînera peut-être la chute du ministère.
 ][
 Là, chaque expérience, chaque effort pour réaliser le bien par l’intervention de l’État, aboutit à une déception. Bientôt on s’aperçoit que le bien ne se réalise pas et que l’expérience ne laisse après elle qu’une chose : ,(emph[la taxe]).
 ][
-Ainsi, l’année dernière, on a fait une loi pour régler le travail des manufactures, et l’exécution de cette loi a exigé la création d’un corps de fonctionnaires. Aujourd’hui, entrepreneurs, ouvriers, inspecteurs et magistrats s’accordent pour reconnaître que la loi a lésé tous les intérêts dont elle s’est mêlée. Il n’en reste que deux choses : le désordre et la ,(emph[taxe]).
+Ainsi, l’année dernière, on a fait une loi pour régler le travail des manufactures, et l’exécution de cette loi a exigé la création d’un corps de fonctionnaires. Aujourd’hui, entrepreneurs, ouvriers, inspecteurs et magistrats s’accordent pour reconnaître que la loi a lésé tous les intérêts dont elle s’est mêlée. Il n’en reste que deux choses : le désordre et ,(emph[la taxe]).
 ][
-Il y a deux ans, la législature bâcla une constitution pour la Nouvelle-Zélande, et vota de grandes dépenses pour la mettre en vigueur. Or ladite constitution a fait une lourde chute. Mais il y a une chose qui n’est pas tombée, c’est la ,(emph[taxe]).
+Il y a deux ans, la législature bâcla une constitution pour la Nouvelle-Zélande, et vota de grandes dépenses pour la mettre en vigueur. Or ladite constitution a fait une lourde chute. Mais il y a une chose qui n’est pas tombée, c’est ,(emph[la taxe]).
 ][,(tag :a :name "palmerston_ref")
 ,(np "palmerston" [Lord Palmerston]) a cru devoir intervenir dans les affaires du Portugal. Il a ainsi attiré sur le nom anglais la haine d’une nation alliée, et cela au prix de quinze millions de francs ou d’une forte ,(emph[taxe]).
 ][

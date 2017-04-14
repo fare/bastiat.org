@@ -3,7 +3,7 @@
 (in-bof :title "Les rois doivent désarmer, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/RepubliqueFrancaise1848/PDF/RepubliqueFrancaise1848-no-04.pdf#page=1" [,(cite-title[La République française])]), n° 4, p. 1.]
+,(p*[,(ref :url "https://archive.org/stream/republique_francaise_n4/RF4#page/n0/mode/2up" [,(cite-title[La République française])]), n° 4, p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/221/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 48, p. 221.])
 ])
 (define bastiatcontent [

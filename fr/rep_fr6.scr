@@ -3,7 +3,8 @@
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/218/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 47, p. 218.])
+,(p*[,(ref :url "https://archive.org/stream/republique_francaise_n4/RF4#page/n0/mode/2up" [,(cite-title[La République française])]), n° 4, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/218/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 47, p. 218.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 29 février 1848.])

@@ -65,12 +65,10 @@
 ,(journ "atelier" "L’Atelier"
 [,(p*[,(cite-title[L’Atelier : organe des intérêts moraux et matériels des ouvriers]). — Paris, 1840-1850. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb344042751" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&collapsing=disabled&query=dc.relation%20all%20%22cb36257016n%22" [Consulter en ligne]).])
 ]
-[
-,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne]) ;
-,(ref :url "du_communisme.html#atelier_ref" [Du communisme]) ;
-,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine]) ;
-,(ref :url "au_national.html#atelier_ref" [Au rédacteur en chef du ,(cite-title[National])]) ;
-,(ref :url "reponse_atelier.html" [Réponse au journal l’,(cite-title[Atelier])])
+[,(p*[L’article ,(autolk "reponse_atelier") est une réponse à un article de ce journal.
+][
+On trouve des citations de ce journal dans ,(autolk "au_national" "atelier_ref") et dans ,(autolk "du_communisme" "atelier_ref") ; et des allusions dans ,(autolk "conseil_general_seine" "siecle_ref") et dans ,(autolk "presse_parisienne" "populaire_ref").
+])
 ])
 
 ]),(lettre "b" [
@@ -134,14 +132,19 @@ Enfin la ,(link "lettre_cobden1846l" [lettre] "commerce_ref") à ,(np "cobden" [
 
 ,(journ "constitutionnel" "Le Constitutionnel"
 [,(cite-title[Le Constitutionnel : journal du commerce, politique et littéraire.]) — Paris, 1815-1914. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32747578p" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/ark:/12148/cb32747578p/date" [Consulter en ligne]).]
-[
-,(ref :url "aux_membres_de_l_association.html#presse_ref" [Aux membres de l’Association pour la liberté des échanges]) ;
-,(ref :url "generalites.html#constitutionnel_ref" [Sur les généralités])
-,(ref :url "libre_entree_subsistances.html#constitutionnel_ref" [Subsistances (note)]) ;
-,(ref :url "liberte_commerciale.html#constitutionnel_ref" [Liberté commerciale]) ;
-,(ref :url "courrier_francais.html#constitutionnel_ref" [À M. le rédacteur du ,(cite-title[Courrier français])]) ;
-,(ref :url "traite_belge.html#presse_ref" [La tribune et la presse à propos du traité belge]) ;
-,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
+[,(p*[Citations :])
+,(itemize
+(item[,(autolk "courrier_francais" "constitutionnel_ref") ;])
+(item[,(autolk "traite_belge" "presse_ref") ;])
+(item[,(autolk "liberte_commerciale" "constitutionnel_ref") ;])
+(item[,(autolk "libre_entree_subsistances" "constitutionnel_ref") (note).])
+)
+,(p*[Allusions :])
+,(itemize
+(item[,(autolk "sentinelle3" "presse_ref") ;])
+(item[,(autolk "aux_membres_de_l_association" "presse_ref") ;])
+(item[,(autolk "generalites" "constitutionnel_ref").])
+)
 ])
 
 ,(journ "cm" "Courrier de Marseille"
@@ -203,10 +206,13 @@ La ,(link "lettre_cobden1846a" [lettre] "mg_ref") à ,(np "cobden" [Cobden]) du 
 ,(ref :url "https://books.google.fr/books?id=ELJNAAAAcAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1860]),
 ,(ref :url "https://books.google.fr/books?id=SCNTAAAAcAAJ&hl=fr&pg=PP5#v=onepage&q&f=false" [1867]).]
 [
-,(p*[Articles parus à titre posthume dans l’ — : ,(ref :url "a_jobard.html" [Lettre à M. Jobard]) ;
-,(ref :url "lettre_ecclesiastique.html" [Lettre à un ecclésiastique]) ;
-,(ref :url "separation_temporel_spirituel.html" [Lettre à un ecclésiastique]) ;
-,(ref :url "les_trois_conseils.html" [Les trois conseils])])
+,(p*[Quatre textes de Bastiat y ont été publiés à titre posthume :])
+,(itemize
+(item[,(autolk "separation_temporel_spirituel") ;])
+(item[,(autolk "lettre_ecclesiastique") ;])
+(item[,(autolk "les_trois_conseils") ;])
+(item[,(autolk "a_jobard").])
+)
 ])
 
 ,(journ "epoque" "L’Époque"
@@ -237,9 +243,11 @@ La ,(link "lettre_cobden1846a" [lettre] "mg_ref") à ,(np "cobden" [Cobden]) du 
 
 ,(journ "gt" "Globe and Traveller"
 [,(cite-title[The Globe]), puis ,(cite-title[The Globe and Traveller]). — London, 1804-1921. ­— Voir ,(ref :url "https://www.britishnewspaperarchive.co.uk/titles/globe" [fiche du British Newspaper Archive]). — ,(ref :url "http://www.britishnewspaperarchive.co.uk/search/results?newspapertitle=Globe" [Consulter en ligne]).]
-[
-,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
-,(ref :url "anglomanie_anglophobie.html#gt_ref" [Anglomanie, anglophobie]) ;
+[,(p*[C’est ce journal qui apprit à Bastiat l’existence de la Ligue anglaise contre les ,(inenglish[Corn Laws]). Il en parle dans :])
+,(itemize
+(item[la ,(link "lettre_cobden1844" [lettre] "gt_ref") à ,(np "cobden" [Cobden]) du 24 novembre 1844 ;])
+(item[l’ébauche ,(autolk "anglomanie_anglophobie" "gt_ref").])
+)
 ])
 
 ]),(lettre "i" [
@@ -342,6 +350,19 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 
 ]),(lettre "l" [
 
+,(journ "ligue" "The League" []
+[,(p*[Mentionné dans plusieurs lettres :])
+,(itemize
+(item[,(link "lettre_cobden1844" [lettre] "gt_ref") à ,(np "cobden" [Cobden]) du 24 novembre 1844 ;])
+(item[,(link "lettre_coudroy1845g" [lettre] "cobden_ref") à ,(np "coudroy" [F. Coudroy]) de juillet 1845 ;])
+(item[,(link "lettre_cobden1845c" [lettre] "ligue_ref") à ,(np "cobden" [Cobden]) du 2 octobre 1845 ;])
+(item[,(link "lettre_fonteyraud" [lettre] "ligue_ref") à ,(np "fonteyraud" [Alcide Fonteyraud]) du 20 décembre 1845 ;])
+(item[,(link "lettre_cobden1846c" [lettre] "bright_ref") à ,(np "cobden" [Cobden]) de février 1846 ;])
+(item[,(link "lettre_cobden1846f" [lettre] "ligue_ref") à ,(np "cobden" [Cobden]) du 2 avril 1846.])
+)
+,(p*[et dans un ,(link "ligue_28" [discours] "ligue_ref") de ,(np "cobden" [Cobden]).])
+])
+
 ,(journ "le" "Le Libre-Échange"
 [,(cite-title[Le Libre-échange. Journal du travail agricole, industriel et commercial]). — Paris, nov. 1846-avr. 1848. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32807029f" [notice BnF]).]
 [
@@ -361,15 +382,6 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 ,(autolk "ligue_34" "le_ref") ;
 ])
 
-,(journ "ligue" "La Ligue" [] [
-,(ref :url "lettre_cobden1844.html#gt_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
-,(ref :url "lettre_cobden1846f.html#ligue_ref" [Lettre à Cobden, 2 avril 1846]) ;
-,(ref :url "lettre_cobden1845c.html#ligue_ref" [Lettre à Cobden, 2 octobre 1845]) ;
-,(ref :url "lettre_fonteyraud.html#ligue_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
-,(autolk "lettre_coudroy1845g" "cobden_ref"),
-,(autolk "lettre_coudroy1846c" "bright_ref")
-,(autolk "ligue_28" "ligue_ref") ;
-])
 
 ]),(lettre "m" [
 
@@ -438,16 +450,24 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 
 ,(journ "mu" "Moniteur universel"
 [,(cite-title[Le Moniteur universel]). — Paris, 1811-1901. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb344523379" [notice BnF]).]
-[
-,(ref :url "sentinelle2.html#mu_ref" [Sur l’admissibilité des députés au ministère]) ;
-,(ref :url "sel_poste_douane.html#mu_ref" [Le sel, la poste, la douane]) ;
-,(ref :url "nature_echanges.html#mu_ref" [Réponse à la Presse]) ;
-,(ref :url "spoliation_et_loi.html#mu_ref" [Spoliation et loi]) ;
-,(ref :url "discours_7.html#polk_ref" [Septième discours]) ;
-,(ref :url "reforme_postale2.html#mu_ref" [Réforme postale 2]) ;
-,(ref :url "lettre_coudroy1845a.html#ps" [Lettre à Coudroy, mai 1845]) ;
-,(autolk "lettre_coudroy1849e" "mu_ref") ;
-,(autolk "lettre_coudroy1848h" "mu_ref")
+[,(p*[Citations :])
+,(itemize
+(item[,(autolk "spoliation_et_loi" "mu_ref").])
+)
+,(p*[Allusions à des articles précis :])
+,(itemize
+(item[,(link "lettre_coudroy1845a" [Lettre] "ps") à ,(np "coudroy" [F. Coudroy]) de mai 1845 ;])
+(item[,(autolk "reforme_postale2" "mu_ref") ;])
+(item[,(autolk "nature_echanges" "mu_ref") ;])
+(item[,(autolk "discours_7" "polk_ref") ;])
+(item[,(link "lettre_coudroy1848h" [Lettre] "mu_ref") à ,(np "coudroy" [F. Coudroy]) du 7 septembre 1848 ;])
+(item[,(link "lettre_coudroy1849e" [Lettre] "mu_ref") à ,(np "coudroy" [F. Coudroy]) du 13 décembre 1849.])
+)
+,(p*[Autres allusions à ce journal :])
+,(itemize
+(item[,(autolk "sentinelle2" "mu_ref") ;])
+(item[,(autolk "sel_poste_douane" "mu_ref").])
+)
 ])
 
 ,(journ "mc" "Morning Chronicle"
@@ -462,10 +482,7 @@ Il y fait allusion dans sa ,(autolk "profession" "jb_ref").
 
 ,(journ "morning" "Morning Post"
 [,(cite-title[The Morning post, and daily advertising pamphlet]). — London, 1772-1937. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb328201581" [notice BnF]).]
-[
-,(ref :url "armements_en_angleterre_2.html#bentinck_ref" [Encore les armements en Angleterre]) ;
-,(autolk "ligue_7" "stanhope_ref") ;
-,(autolk "ligue_25" "morning_ref") ;
+[,(p*[Journal protectionniste anglais mentionné dans ,(autolk "armements_en_angleterre_2" "bentinck_ref") et deux fois dans ,(Cobdenetlaligue) : dans un ,(link "ligue_7" [discours] "stanhope_ref") de ,(np "cobden" [Cobden]) et dans un ,(link "ligue_25" [discours] "morning_ref") de ,(np "gibson" [Thomas Milner Gibson]).])
 ])
 
 ]),(lettre "n" [
@@ -542,10 +559,12 @@ On trouve une citation de ce journal dans ,(autolk "capital_et_rente" "proudhon_
 
 ,(journ "populaire" "Le Populaire"
 [,(cite-title[Le Populaire de 1841 : journal de réorganisation sociale et politique]) / dirigé par ,(np "cabet" [M. Cabet]), ancien député. — Paris, 1841-1851. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb40167944p" [notice BnF]). — ,(ref :url "https://www.retronews.fr/search#sort=score&tfPublications%255B0%255D=Le%2520Populaire&documentType=page&page=1" [Consulter en ligne]).]
-[
-,(ref :url "presse_parisienne.html#populaire_ref" [La presse parisienne]) ;
-,(ref :url "protectionisme_et_communisme.html#mi_ref" [Protectionisme et communisme]) ;
-,(ref :url "reponse_atelier.html#populaire_ref" [Réponse au journal l’,(cite-title[Atelier])])
+[,(p*[Trois allusions dans :])
+,(itemize
+(item[,(autolk "reponse_atelier" "populaire_ref") ;])
+(item[,(autolk "presse_parisienne" "populaire_ref") ;])
+(item[,(autolk "protectionisme_et_communisme" "mi_ref").])
+)
 ])
 
 ,(journ "presse" "La Presse"
@@ -625,18 +644,17 @@ Journal mentionné dans ,(autolk "anglomanie_anglophobie" "quotidienne_ref").
 
 ,(journ "rb" "Revue britannique"
 [,(cite-title[Revue britannique, ou Choix d'articles traduits des meilleurs écrits périodiques de la Grande-Bretagne, sur la littérature, les beaux-arts, les arts industriels, l’agriculture, le commerce, l’économie politique, les finances, la législation, etc., etc.]). — Paris, 1825-1901. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32856514k" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/ark:/12148/cb32856514k/date" [Consulter en ligne]).]
-[
-,(ref :url "lettre_cobden1845c.html#fonteyraud_ref" [Lettre à Cobden, 2 octobre 1845]) ;
-,(ref :url "lettre_fonteyraud.html#rb_ref" [Lettre à Fonteyraud, 20 décembre 1845]) ;
-,(autolk "lettre_saulnier").
+[,(p*[Deux allusions dans une ,(link "lettre_cobden1845c" [lettre] "fonteyraud_ref") à ,(np "cobden" [Cobden]) du 2 octobre 1845 et dans une ,(link "lettre_fonteyraud" [lettre] "rb_ref") à ,(np "fonteyraud" [Alcide Fonteyraud]) du 20 décembre 1845.][
+Une ,(link "lettre_saulnier" [lettre ouverte]) à ,(np "saulnier" [M. Saulnier]), éditeur de la ,(cite-title[Revue britannique]).])
 ])
 
 ,(journ "rdm" "Revue des deux mondes"
 [,(cite-title[Revue des deux mondes : recueil de la politique, de l’administration et des mœurs]). — Paris, 1829-1971. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32858360p" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/ark:/12148/cb32858360p/date" [Consulter en ligne]).]
-[
-,(ref :url "lettre_cobden1846a.html#buloz_ref" [Lettre à Cobden, 13 janvier 1846]) ;
-,(autolk "lettre_cheuvreux1850m" "rdm_ref") ;
-,(autolk "lettre_paillottet1850a" "fontenay_ref") ;
+[,(itemize
+(item[Une allusion à ce journal dans une ,(link "lettre_cobden1846a" [lettre] "buloz_ref") à ,(np "cobden" [Cobden]) du 13 janvier 1846 ;])
+(item[Dans une ,(link "lettre_paillottet1850a" [lettre] "fontenay_ref") à ,(np "paillottet" [Paillottet]) du 19 mai 1850, Bastiat espère que ,(np "fontenay" [R. de Fontenay]) obtiendra d’y insérer un compte rendu des ,(Harmonies_economiques) ;])
+(item[Dans une ,(link "lettre_cheuvreux1850m" [lettre] "rdm_ref") à ,(np "cheuvreux_h" [,(Mme) Cheuvreux]) du 4 juillet 1850, allusion à un article de ,(np "broglie" [M. de Broglie]) sur ,(np "chateaubriand" [Chateaubriand]).])
+)
 ])
 
 ,(journ "encycl" "Revue encyclopédique"
@@ -677,31 +695,32 @@ Journal mentionné dans ,(autolk "anglomanie_anglophobie" "quotidienne_ref").
 
 ,(journ "siecle" "Le Siècle"
 [,(cite-title[Le Siècle : journal politique, littéraire et d’économie sociale]). — Paris, 1836-1932. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32868136g" [notice BnF]). — ,(ref :url "http://gallica.bnf.fr/ark:/12148/cb32868136g/date" [Consulter en ligne]).]
-[
-,(ref :url "lettre_coudroy1846c.html#dunoyer_ref" [Lettre à F. Coudroy, 18 avril 1846]) ;
-,(ref :url "discours_4.html#debats_ref" [Conséquences comparées du régime protecteur et du libre-échange]) ;
-,(ref :url "conseil_general_seine.html#siecle_ref" [À MM. les membres du Conseil général de la Seine]) ;
-,(ref :url "traite_belge.html#courrier_ref" [La tribune et la presse à propos du traité belge]) ;
-,(ref :url "sentinelle3.html#presse_ref" [Liberté commerciale, état de la question en Angleterre 1])
+[,(p*[Les cinq allusions à ce journal révèlent son attitude indécise vis-à-vis du libre-échange :])
+,(itemize
+(item[,(autolk "sentinelle3" "presse_ref") ;])
+(item[,(autolk "traite_belge" "courrier_ref") ;])
+(item[,(link "lettre_coudroy1846c" [Lettre] "dunoyer_ref") à ,(np "coudroy" [F. Coudroy]) du 18 avril 1846 ;])
+(item[,(autolk "discours_4" "debats_ref") ;])
+(item[,(autolk "conseil_general_seine" "siecle_ref").])
+)
 ])
 
 ,(journ "standard" "Standard"
 [,(cite-title[The Standard]). — London, 1827-1916. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb32872428f" [notice BnF]).]
-[
-,(ref :url "loi_des_cereales_salaire.html#mh_ref" [La loi des céréales et le salaire des ouvriers]) ;
-,(autolk "ligue_29" "standard_ref") ;
-,(autolk "ligue_31" "times_ref")
+[,(p*[Journal protectionniste anglais mentionné par Bastiat dans ,(autolk "loi_des_cereales_salaire" "mh_ref") ; cité par ,(np "bright" [John Bright]) dans un ,(link "ligue_29" [discours] "standard_ref") figurant dans ,(Cobdenetlaligue) ; et mentionné par l’éditeur des ,(cite-title[Œuvres complètes]) de Bastiat dans le texte intitulé ,(autolk "ligue_31" "times_ref").])
 ])
 
 ]),(lettre "t" [
 
 ,(journ "times" "Times"
 [,(cite-title[The Times]). — London, 1788-. — Voir ,(ref :url "http://catalogue.bnf.fr/ark:/12148/cb34471503q" [notice BnF]).]
-[
-,(ref :url "armements_en_angleterre_1.html#times_ref" [Les armements en Angleterre]) ;
-,(autolk "lettre_paulton") ;
-,(autolk "ligue_29" "times_ref") ;
-,(autolk "ligue_31" "times_ref")
+[,(p*[Quatre allusions à ce journal :])
+,(itemize
+(item[dans une ,(link "lettre_paulton" [lettre]) à ,(np "paulton" [M. Paulton]) du 29 juillet 1845 ;])
+(item[dans l’article ,(autolk "armements_en_angleterre_1" "times_ref") ;])
+(item[dans un ,(link "ligue_29" [discours] "times_ref") de ,(np "bright" [John Bright]) ;])
+(item[dans le texte de l’éditeur des ,(cite-title[Œuvres complètes]) intitulé ,(autolk "ligue_31" "times_ref").])
+)
 ])
 
 ]),(lettre "v" [

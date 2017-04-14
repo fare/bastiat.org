@@ -3,69 +3,29 @@
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/215/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 45, p. 215.])
+,(p*[,(ref :url "https://archive.org/stream/republique_francaise_n3/RF3#page/n0/mode/2up" [,(cite-title[La République française])]), n° 3, p. 1.]
+[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/213/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 44, p. 213.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "rf" [,(cite-title[La République française])]), n° du 28 février 1848.])
 ,(p*[
-Le ,(tj "national" [,(cite-title[National])]) examine aujourd’hui notre situation à l’égard de l’étranger.
+Nous partageons cette pensée de la ,(cite-title[,(tj "presse" [Presse]) :])
 ][
-Il se demande : Serons-nous attaqués ? Et après avoir jeté un coup d’œil sur les difficultés de l’Autriche, de la Prusse et de la Russie, il se prononce pour la négative.
+« Ce qu’il faut demander à un gouvernement provisoire, à des hommes qui se dévouent au salut public au milieu d’incalculables difficultés, ce n’est pas de gouverner exactement selon toutes nos idées, mais de gouverner. Il faut lui prêter assistance, le soutenir, lui faciliter sa rude tâche et renvoyer à un autre temps la discussion des doctrines. Ce ne sera pas un des phénomènes les moins glorieux de notre révolution que l’accord de tous les journaux dans cette voie. »
 ][
-Nous partageons entièrement cet avis.
+Nous pouvons nous rendre le témoignage que nous payons autant qu’il est en nous ce tribut d’abnégation au salut de la cause commune.
 ][
-Ce que nous redoutons, ce n’est pas d’être attaqués, c’est que les puissances absolues, avec ou sans préméditation, ,(emph[et par le seul maintien du statu quo militaire]), ne nous réduisent à chercher dans la propagande armée le salut de la révolution.
+Dans quelques-uns des décrets qui se succèdent, nous voyons poindre l’application d’une doctrine qui n’est pas la nôtre. Nous l’avons combattue, nous la combattrons encore en temps opportun.
 ][
-Nous n’hésitons pas à nous répéter afin d’être compris ici et ailleurs. Ce que nous disons avec une entière conviction, c’est ceci : nous ne pouvons pas prendre l’initiative du désarmement, et néanmoins le simple ,(inlatin[statu quo]) militaire nous met dans l’alternative de périr ou de nous battre ; c’est aux rois de l’Europe à calculer la portée de cette alternative fatale. Ils n’ont qu’un moyen de se sauver, ,(emph[c’est de désarmer les premiers et immédiatement]).
+Deux systèmes sont en présence : tous deux émanent de convictions sincères, tous deux ont pour but le bien général. Mais, il faut le dire, ils procèdent de deux idées différentes, et, qui plus est, opposées.
 ][
-Qu’on nous permette une fiction.
+Le premier, plus séduisant, plus populaire, consiste à prendre beaucoup au peuple, sous forme d’impôts, pour beaucoup répandre sur le peuple, sous forme d’institutions philanthropiques.
 ][
-Supposez une petite île qui a été, pendant longues années, plutôt exploitée que gouvernée ; les impôts, les entraves, les abus y sont innombrables ; le peuple succombe sous le faix, et, en outre, pour se prémunir contre les menaces continuelles du dehors, il arrache au travail, tient sur pied, arme et nourrit une grande partie de sa population valide.
+Le second veut que l’État prenne peu, donne peu, garantisse la sécurité, laisse un libre champ à l’exercice honnête de toutes les facultés : l’un consiste à étendre indéfiniment, l’autre à restreindre le plus possible les attributions du pouvoir.
 ][
-Tout à coup il détruit son gouvernement oppresseur ; il aspire à se délivrer du poids des taxes et des abus.])
-,(liste(p*[Mais le gouvernement tombé lui laisse le fardeau d’une dette énorme.
+Celui de ces deux systèmes auquel nous sommes attachés par une entière conviction a peu d’organes dans la presse ; il ne pouvait avoir beaucoup de représentants au pouvoir.
 ][
-Mais, au premier moment, toutes les dépenses s’accroissent.
-][
-Mais, dans les premiers temps, toutes les sources de revenus diminuent.
-][
-Mais il y a des taxes si odieuses qu’il est moralement et matériellement impossible de les maintenir, même provisoirement.]))
-
-,(p*[Dans cette situation, les chefs qui exploitent toutes les îles voisines tiennent à la République naissante ce langage :
-][
-« Nous te détestons, mais nous ne voulons pas t’attaquer, de peur que mal ne nous en arrive. Nous nous contenterons de t’entourer d’une ceinture de soldats et de canons. »])
-,(liste(p*[Dès lors la jeune République est forcée de lever aussi beaucoup de soldats et de canons.
-][
-Elle ne peut retrancher aucune taxe, même la plus impopulaire.
-][
-Elle ne peut tenir envers le peuple aucune de ses promesses.
-][
-Elle ne peut pas remplir les espérances de ses citoyens.
-][
-Elle se débat dans les difficultés financières ; elle multiplie les impôts avec leur cortège d’entraves. Elle ravit à la population, à mesure qu’il se forme, le capital qui est la source des salaires.]))
-
-,(p*[Dans cette situation extrême, rien au monde peut-il l’empêcher de répondre : « Votre prétendue modération nous tue. Nous forcer à tenir sur pied de grandes armées, c’est nous pousser vers des convulsions sociales. Nous ne voulons pas périr, et, plutôt, nous irons soulever chez vous tous les éléments de désaffection que vous avez accumulés au sein de vos peuples, puisqu’aussi bien vous ne nous laissez pas d’autre planche de salut. »
-][
-Voilà bien notre position à l’égard des rois et des aristocraties de l’Europe.
-][
-Les rois, nous le craignons, ne le comprendront pas. Quand les a-t-on vus se sauver par la prudence et la justice ?
-][
-Nous ne devons pas moins le leur dire. Il ne leur reste qu’une ressource : être justes envers leurs peuples, les soulager du poids de l’oppression, ,(emph[et prendre-sur-le champ l’initiative du désarmement]).
-][
-Hors de là, leur couronne est livrée au hasard d’une grande et suprême lutte. Ce n’est pas la fièvre révolutionnaire, ce sont les précédents et la nature même des choses qui l’ordonnent.])
-,(liste(p*[Les rois diront : N’est-ce pas notre droit de rester armés ?
-][
-Sans doute, c’est leur droit, à leurs risques et périls.]))
-
-,(liste(p*[Ils diront encore : La simple prudence n’exige-t-elle pas que nous restions armés ?
-][
-La prudence veut qu’ils désarment de suite et plutôt aujourd’hui que demain.]))
-
-,(p*[Car tous les motifs qui pousseront la France au dehors, si on la force à armer, la retiendront au dedans, si on la met à même de réduire ses forces militaires.
-][
-Alors la République sera intéressée à supprimer en toute hâte les impôts les plus odieux ; à laisser respirer le peuple ; à laisser se développer le capital et le travail ; à abolir les gênes et les entraves inséparables des lourdes taxes.
-][
-Elle accueillera avec joie la possibilité de réaliser ce grand principe de ,(emph[fraternité]) qu’elle vient d’inscrire sur son drapeau.
+Mais pleins de confiance dans la droiture des citoyens auxquels l’opinion publique a confié la mission de jeter un pont entre la monarchie déchue et la république régulière qui s’avance, nous ajournons volontiers la manifestation de notre doctrine et nous nous bornons à semer des idées d’ordre, de mutuelle confiance et de gratitude envers le gouvernement provisoire.
 ])])
 (document :title "Article dans La République française"
 	:author (author-FB)

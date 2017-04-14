@@ -417,7 +417,7 @@ Vous n’empêcherez pas même votre coryphée, ,(np "mimerel" [M. Mimerel]), d
 ,(q[Je demande 25,000 primes pour les caisses de retraite d’ouvriers,])
 et de développer ainsi sa motion :])
 
-,(blockquote(p*[« Est-ce le premier exemple de cette nature qu’offre notre législation ?
+,(blockquote(p*[,(tag :a :name "mu_ref")« Est-ce le premier exemple de cette nature qu’offre notre législation ?
 Établirez-vous en système que l’État peut tout encourager,
 ouvrir à ses frais des cours de sciences,
 subventionner les beaux-arts,
@@ -459,7 +459,7 @@ en proscrivant nos expositions ?
 assurément non : mais
 ,(emph[en faisant la part directe du pauvre
 dans cette distribution de bienfaits])
-,(footnote*[,(tag :a :name "mu_ref"),(tj "mu" [,(cite-title[Moniteur])]) du 28 avril 1850. ,(NdA)]). »
+,(footnote*[,(tj "mu" [,(cite-title[Moniteur])]) du 28 avril 1850. ,(NdA)]). »
 ]))
 
 ,(p*[Dans cette longue énumération de faveurs accordées

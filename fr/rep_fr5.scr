@@ -3,7 +3,7 @@
 (in-bof :title "Article dans La République française, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/RepubliqueFrancaise1848/PDF/RepubliqueFrancaise1848-no-03.pdf#page=1" [,(cite-title[La République française])]), n° 3, 28 février 1848, p. 1.]
+,(p*[,(ref :url "https://archive.org/stream/republique_francaise_n3/RF3#page/n0/mode/2up" [,(cite-title[La République française])]), n° 3, p. 1.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/218/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 46, p. 218.])
 ])
 (define bastiatcontent [

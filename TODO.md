@@ -1,15 +1,10 @@
 TODO
 ====
 
-- mettre une classe "externe" aux liens pointant vers une url extérieure
-
-
-Quand tu auras fait ce qui précède
-----------------------------------
 
 - purement cosmétique, mais tant qu'on y est: supprimer le align="justify" dans les p qui sont dans les footnotes (ça doit se régler par du css)
 
-- Comment faire pour que les appels de note ne soient pas renvoyés en début de ligne suivante? (qu'ils soient collés au mot précédent ou précédés d'un espace insécable, je n'arrive pas à les faire tenir)
+- Comment faire pour que les appels de note ne soient jamais renvoyés en début de ligne suivante? (qu'ils soient collés au mot précédent ou précédés d'un espace insécable, je n'arrive pas à les faire tenir)
 
 Textes
 ------

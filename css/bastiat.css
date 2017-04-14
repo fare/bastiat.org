@@ -465,12 +465,12 @@ table.vers {
 	color: #c33;
 }
 
-.tj:link, .tj:visited {
+.header .titre .tj:visited, .tj:visited, .header .titre .tj:link, .tj:link {
 	color: #034;
 	text-decoration: none;
 }
 
-.tj:hover {
+.tj:hover, .header .titre .tj:hover {
 	color: #068;
 }
 

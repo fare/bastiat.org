@@ -8,20 +8,13 @@
 [,(ref :url "https://archive.org/stream/oeuvrescomplt04bast/#page/442/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 4, p. 442.])
 ])
 (define bastiatcontent [
+,(date-tag[Mars 1850.])
 ,(cher[Citoyens représentants,])
 ,(p*[
 J’ai soumis à l’Assemblée un amendement qui a pour objet
 ,(emph[la suppression des grades universitaires]).
 Ma santé ne me permet pas de le développer à la tribune.
-Permettez-moi d’avoir recours à la plume ,(footnote*[
-Vingt ans auparavant, l’auteur, dans son premier écrit,
-signalait déjà la liberté de l’enseignement
-comme l’une des réformes que la nation devait s’efforcer d’obtenir.
-Voy., au tome ,(Ier), l’opuscule intitulé :
-,(cite-title[Aux électeurs du département des Landes]).
-,(XXX :bof-ref "aux_electeurs_landes")
-,(NdEEO)
-]).
+Permettez-moi d’avoir recours à la plume.
 ][
 La question est extrêmement grave.
 Quelque défectueuse que soit la loi qui a été élaborée par votre commission,
@@ -37,7 +30,7 @@ après lui avoir imprimé la ,(emph[direction la plus funeste]).
 S’il y a quelque chose au monde qui soit progressif par nature,
 c’est l’enseignement.
 Qu’est-ce, en effet, sinon la transmission, de génération en génération,
-des connaissances acquises par la société ;
+des connaissances acquises par la société,
 c’est-à-dire d’un trésor qui s’épure et s’accroît tous les jours ?
 ][
 Comment est-il arrivé que l’enseignement, en France,
@@ -284,9 +277,9 @@ leurs idées, leurs sentiments, leurs opinions
 et la caricature de leurs m,(oe)urs ?
 ](nbsp)[
 Depuis que Dieu a prononcé sur les hommes cet arrêt :
-,(it[Vous mangerez votre pain à la sueur de votre front]), ,(XXX)
+,(it[Vous mangerez votre pain à la sueur de votre front]) ,(footnote*[,(ref :url "http://saintebible.com/genesis/3-19.htm" [Genèse ,(sc[iii]), 19]).]),
 ,(--) l’existence est pour eux une si grande, si absorbante affaire
-que, selon les moyens qu’ils prennent pour y pourvoir,
+que selon les moyens qu’ils prennent pour y pourvoir,
 leurs m,(oe)urs, leurs habitudes, leurs opinions,
 leur morale, leurs arrangements sociaux
 doivent présenter de grandes différences.
@@ -384,10 +377,10 @@ de là cette maxime : ,(inlatin[Malo periculosam libertatem]), etc.,
 passée dans notre langue,
 et dont j’enrichissais, au collége,
 tous mes livres de classe :
-](verses
+,(verses
 	[Ô liberté ! que tes orages]
-	[Ont de charme pour les grands c,(oe)urs ! ,(np "lebrun" [*])]
-)[
+	[Ont de charme pour les grands c,(oe)urs ! ,(footnote*[,(np "lebrun" [Ponce-Denis Écouchard-Lebrun]), ,(cite-title(ref :url "https://archive.org/stream/oeuvresdeponced05brungoog/#page/n143/mode/2up" [Ode à l’enthouiasme])).])]
+)
 Beaux exemples, sublimes préceptes,
 précieuses semences à déposer dans l’âme de la jeunesse française !
 ][
@@ -427,7 +420,6 @@ imaginons, au milieu de Paris,
 une association d’hommes haïssant le travail,
 décidés à se procurer des jouissances par la ruse et la force,
 par conséquent en guerre avec la société.
-][
 Il ne faut pas douter qu’il ne se formât bientôt au sein de cette association
 une certaine morale et même de fortes vertus.
 Courage, persévérance, dissimulation, prudence, discipline,
@@ -451,7 +443,7 @@ deux fausses notions qui l’ébranlent et l’ébranleront longtemps encore.
 L’une :
 Que ,(emph[la société est un état hors de nature, né d’un contrat.])
 Cette idée n’était pas aussi erronée autrefois qu’elle l’est de nos jours.
-Rome, Sparte, c’était bien des associations d’hommes
+Rome, Sparte, c’était bien deux associations d’hommes
 	ayant un but commun et déterminé : le pillage ;
 ce n’était pas précisément des sociétés mais des armées.
 ][,(tag :a :name "minos_ref")
@@ -487,7 +479,7 @@ il n’étudie pas leur nature, il la change,
 ,(q[Celui qui ose entreprendre d’instituer un peuple doit se sentir
 en état de changer, pour ainsi dire, la nature humaine…,
 d’altérer la constitution morale et physique de l’homme, etc.])
-(,(cite-title[Contrat social]), chap. VII)
+,(cite-title[Contrat social]), chap. ,(sc[vii]). ,(NdA)
 ]).
 Il s’inspire de l’antiquité ;
 il procède de ,(np "lycurgue" [Lycurgue]) et de ,(np "platon" [Platon]).
@@ -503,7 +495,7 @@ Faites un effort de mémoire
 et rappelez-vous dans quelle disposition d’esprit,
 au sortir du collége, vous êtes entré dans le monde.
 Est-ce que vous ne brûliez pas du désir d’imiter
-les ravageurs de la terre et les agitateurs du Forum ?
+les ravageurs de la terre et les agitateurs du forum ?
 Pour moi, quand je vois la société actuelle
 jeter les jeunes gens, par dizaines de mille,
 dans le moule des ,(np "brutus" [Brutus]) et des ,(np "gracques" [Gracques]),
@@ -517,17 +509,7 @@ Il nous y plonge en nous habituant à nous passionner pour elle,
 à la considérer comme le beau idéal de l’humanité,
 type sublime, trop haut placé pour les âmes modernes,
 mais que nous devons nous efforcer d’imiter
-sans jamais prétendre à l’atteindre ,(footnote*[
-Voy. les pages 365 à 380 du présent volume.
-,(NdEEO)
-][
-Il s’agit dans ,(bof-ref "la_loi" (cite-title[La Loi])),
-des paragraphes allant de
-,(q[cette idée, fruit de l’éducation classique…])
-jusqu’à la citation de Louis Blanc commençant par
-,(q[Dans notre projet, l’État…])
-,(NdEBO)
-]).
+sans jamais prétendre à l’atteindre.
 ][
 Objectera-t-on que le Socialisme a envahi les classes
 qui n’aspirent pas au Baccalauréat ?
@@ -550,7 +532,7 @@ Leurs vices, leurs qualités, leurs penchants bons et mauvais
 sont bientôt ceux de la nation tout entière,
 elles font le peuple lui-même
 par la contagion de leurs idées et de leurs sentiments ,(footnote*[
-Rapport de ,(np "thiers" [M. Thiers]) sur la loi de l’instruction secondaire. 1844.
+Rapport de ,(np "thiers" [M. Thiers]) sur la loi de l’instruction secondaire. 1844. ,(NdA)
 ]).]) (Très-bien.)
 ])[
 Rien-n’est plus vrai, et rien n’explique mieux
@@ -558,15 +540,15 @@ les déviations funestes et factices de nos révolutions.
 ](blockquote*[
 ,(q[L’antiquité, ajoutait ,(np "thiers" [M. Thiers]),
 osons le dire à un siècle orgueilleux de lui-même,
-l’antignité est ,(emph[ce qu’il y a de plus beau au monde]).
+l’antiquité est ,(emph[ce qu’il y a de plus beau au monde]).
 Laissons, Messieurs, laissons l’enfance dans l’antiquité,
 comme dans un asile ,(emph[calme]), ,(emph[paisible]) et ,(emph[sain]),
-destiné à la conserver. fraîche et pure.])
+destiné à la conserver fraîche et pure.])
 ])[,(tag :a :name "eloignement1")
 Le calme de Rome ! la paix de Rome ! la pureté de Rome !
 oh ! si la longue expérience et le remarquable bon sens de ,(np "thiers" [M. Thiers])
 n’ont pu le préserver d’un engouement si étrange,
-comment voulez-vous que notre ardente jeunesse s’en défende ,(footnote*[Ici, l’éditeur renvoie à ,(ref :url "eloignement_antiquite.html" [cette ébauche inédite]).]) ?
+comment voulez-vous que notre ardente jeunesse s’en défende ,(footnote*[Ici, l’éditeur des ,(cite-title[Œuvres complètes]) renvoie à ,(ref :url "eloignement_antiquite.html" [cette ébauche inédite]).]) ?
 ][,(tag :a :name "moliere_ref")
 Ces jours-ci l’Assemblée nationale a assisté à un dialogue comique,
 digne assurément du pinceau de ,(np "moliere" [Molière]).
@@ -617,7 +599,7 @@ en revêtant de beaux vers, en donnant un cachet de grandeur sublime
 	[Une telle vertu n’appartenait qu’à nous…]
 	[Rome a choisi mon bras, je n’examine rien,]
 	[Avec une allégresse aussi pleine et sincère]
-	[Que j’épousai la s,(oe)ur, je combattrai le frère.]
+	[Que j’épousai la s,(oe)ur, je combattrai le frère. ,(footnote*[,(cite-title(ref :url "https://fr.wikisource.org/wiki/Horace_(Corneille)" [Horace])), acte ,(sc[ii]), sc. 3.])]
 )[
 Et j’avoue que je me sens disposé à partager le sentiment de Curiace,
 en en faisant l’application non à un fait particulier,
@@ -632,7 +614,7 @@ mais la longue fréquentation des anciens
 n’avait-elle pas fait un communiste de ,(np "fenelon" [Fénelon]),
 de cet homme que l’Europe moderne regarde avec raison
 comme le plus beau type de la perfection morale ?
-Lisez son ,(cite-title[Télémaque]),
+Lisez son ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque" [Télémaque])),
 ce livre qu’on se hâte de mettre dans les mains de l’enfance ;
 vous y verrez ,(np "fenelon" [Fénelon]) empruntant les traits de la Sagesse elle-même
 pour instruire les législateurs.
@@ -697,7 +679,7 @@ aux ,(emph[combats de lutteurs et à ceux du ceste]).
 « La peinture et la sculpture parurent à Mentor
 des arts qu’il n’est pas permis d’abandonner ;
 mais il voulut qu’on souffrît dans Salente
-peu d’hommes attachés à ces arts. »
+peu d’hommes attachés à ces arts. » ,(footnote*[,(cite-title[Les Aventures de Télémaque]), ,(ref :url "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque/Dixi%C3%A8me_livre" [livre ,(sc[x])]).])
 ])[
 Ne reconnaît-on pas là une imagination enflammée
 par la lecture de ,(np "platon" [Platon]) et l’exemple de ,(np "lycurgue" [Lycurgue])
@@ -776,12 +758,12 @@ Avant, dit-il, ils broutaient l’herbe comme les bêtes.
 ][
 Ailleurs, il dit :
 ](blockquote*[
-,(q[Dieu devait l’empire du monde aux Romains
+« Dieu devait l’empire du monde aux Romains
 en récompense de leurs grandes vertus,
 qui ne sont qu’apparentes.
 Il n’aurait pas fait justice s’il avait accordé à ces vertus,
-qui n’ont rien de réel, un moindre prix.])
-])[
+qui n’ont rien de réel, un moindre prix. ,(XXX [voir https://books.google.fr/books?id=4ANPx8dNrDwC&lpg=RA1-PA569&ots=9FKHDDQGpo&hl=fr&pg=RA1-PA569#v=onepage&q&f=false"]).])
+[
 Ne voit-on pas clairement ici
 le conventionalisme et le christianisme se disputer,
 dans la personne de ,(np "rollin" [Rollin]), une pauvre âme en peine ?
@@ -801,7 +783,7 @@ et se rattache assez à mon sujet pour mériter d’être rapporté.
 ,(np "rollin" [Rollin]) commence par poser en principe
 que ,(strong[la loi crée la propriété]),
 ,(--) principe funeste, commun à tous les organisateurs,
-et que nous retrouverons, bientôt dans la bouche
+et que nous retrouverons bientôt dans la bouche
 de ,(np "rousseau" [Rousseau]), de ,(np "mably" [Mably]), de ,(np "mirabeau" [Mirabeau]), de ,(np "robespierre" [Robespierre]) et de ,(np "babeuf" [Babeuf]).
 Or, puisque la loi est la raison d’être de la propriété,
 ne peut-elle pas être aussi bien la raison d’être du vol ?
@@ -835,7 +817,7 @@ et que les Israélites n’en jouissaient qu’à cette condition onéreuse.])
 On dira, sans doute, que c’est là une doctrine personnelle à ,(np "rollin" [Rollin]).
 C’est justement ce que je dis.
 Je cherche à montrer à quel état d’infirmité morale
-la fréquentation habituelle de l’effroyable Société antique
+la fréquentation habituelle de l’effroyable société antique
 peut réduire les plus belles et les plus honnêtes intelligences.
 ][,(tag :a :name "montesquieu_ref")
 ,(emph[,(np "montesquieu" [Montesquieu])]).
@@ -875,8 +857,7 @@ C’est par ces chemins que Sparte est menée
 mais avec une telle infaillibilité de ses institutions,
 qu’on n’obtenait rien contre elle en gagnant des batailles,
 si on ne parvenait à lui ôter sa police.
-][
-(,(cite-title[Esprit des Lois]), livre IV, chap. VIII.)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/De_l%E2%80%99esprit_des_lois_(%C3%A9d._Nourse)/Texte_entier#CHAPITRE_VI._De_quelques_institutions_des_Grecs." [Esprit des Lois])), livre IV, chap. ,(sc[vi]).)
 ][
 ,(emph[Ceux qui voudront]) faire des institutions pareilles
 établiront la communauté des biens de la république de ,(np "platon" [Platon]) ;
@@ -934,8 +915,7 @@ avaient besoin d’être tempérés par d’autres
 qui pussent adoucir les m,(oe)urs.
 La musique, qui tient à l’esprit par les organes du corps,
 était très-propre à cela.
-][
-(,(cite-title[Esprit des Lois]), livre V.)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/De_l%E2%80%99esprit_des_lois_(%C3%A9d._Nourse)/Texte_entier#CHAPITRE_VIII._Explication_d.E2.80.99un_paradoxe_des_anciens.2C_par_rapport_aux_m.C5.93urs." [Esprit des Lois])), livre IV, chap. ,(sc[viii]).)
 ])[
 Voilà l’idée que l’enseignement classique nous donne de la Liberté.
 Voici maintenant comment il nous enseigne à comprendre
@@ -950,8 +930,7 @@ après quoi c’est à des lois particulières
 à égaliser pour ainsi dire les inégalités,
 par les charges qu’elles imposent aux riches
 et le soulagement qu’elles accordent aux pauvres.
-][
-(,(cite-title[Esprit des Lois]), livre V, chap. V.)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/De_l%E2%80%99esprit_des_lois_(%C3%A9d._Nourse)/Texte_entier#CHAPITRE_V._Comment_les_loix_.C3.A9tablissent_l.E2.80.99.C3.A9galit.C3.A9.2C_dans_la_d.C3.A9mocratie." [Esprit des Lois])), livre V, chap. ,(sc[v]).)
 ])[
 Il ne suffit pas dans une bonne démocratie
 que les portions de terre soient égales ;
@@ -961,8 +940,7 @@ Comme l’égalité des fortunes entretient la frugalité,
 la frugalité maintient l’égalité des fortunes.
 Ces choses, quoique différentes,
 sont telles qu’elles ne peuvent subsister l’une sans l’autre.
-][
-(,(cite-title[Esprit des Lois]), chap. VI.)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/De_l%E2%80%99esprit_des_lois_(%C3%A9d._Nourse)/Texte_entier#CHAPITRE_VI._Comment_les_loix_doivent_entretenir_la_frugalit.C3.A9_dans_la_d.C3.A9mocratie." [Esprit des Lois])), livre V, chap. ,(sc[vi]).)
 ][
 Les Samnites avaient une coutume
 qui, dans une petite république,
@@ -979,11 +957,10 @@ moins à charge à un petit État,
 plus capable d’agir sur l’un et l’autre sexe.
 ][
 Les Samnites descendaient des Lacédémoniens ;
-et, ,(np "platon" [Platon]), dont les institutions ne sont
+et ,(np "platon" [Platon]), dont les institutions ne sont
 que la ,(emph[perfection]) des lois de ,(np "lycurgue" [Lycurgue]),
 donna à peu près une pareille loi.
-][
-(,(cite-title[Esprit des Lois]), livre VII, chap. XVI.)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/De_l%E2%80%99esprit_des_lois_(%C3%A9d._Nourse)/Texte_entier#CHAPITRE_XVI._Belle_coutume_des_Samnites." [Esprit des Lois])), livre VII, chap. ,(sc[xvi]).)
 ])[,(tag :a :name "blanc_ref")
 ,(emph[,(np "rousseau" [Rousseau])]).
 Aucun homme n’à exercé sur la révolution française
@@ -1022,11 +999,10 @@ tandis qu’un tyran y rassemblait avec tant de soin
 les ouvrages du prince des poëtes,
 tu chassais de tes murs les arts et les artistes,
 les sciences et les savants !
-][
-(,(cite-title[Discours sur le rétablissement des sciences et des arts]).)
+(,(cite-title(ref :url "https://fr.wikisource.org/wiki/Discours_sur_les_sciences_et_les_arts" [Discours sur le rétablissement des sciences et des arts])).)
 ])[
 Dans son second ouvrage,
-le ,(cite-title[Discours sur l’inégalité des conditions]),
+le ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Discours_sur_l%E2%80%99origine_et_les_fondements_de_l%E2%80%99in%C3%A9galit%C3%A9_parmi_les_hommes/Premi%C3%A8re_partie" [Discours sur l’inégalité des conditions])),
 il s’emporta avec plus de véhémence encore
 contre toutes les bases de la société et de la civilisation.
 C’est pourquoi il se croyait l’interprète de la sagesse antique :
@@ -1081,7 +1057,7 @@ qui ont civilisé les hommes et ,(emph[perdu le genre humain]). »
 Il fallut donc sortir de l’,(emph[état de nature])
 pour entrer dans la ,(emph[société]).
 Ceci est l’occasion du troisième ouvrage de ,(np "rousseau" [Rousseau]),
-,(cite-title[le Contrat social]).
+,(cite-title(ref :url "https://fr.wikisource.org/wiki/Du_contrat_social/%C3%89dition_1762/Texte_entier" [le Contrat social])).
 ][
 Il n’entre pas dans mon sujet d’analyser ici cette ,(oe)uvre ;
 je me bornerai à faire remarquer que les idées gréco-romaines
@@ -1114,7 +1090,7 @@ qui doit, en un mot,
 ][
 ,(np "rousseau" [Rousseau]) prouve fort bien ici
 que le législateur ne peut compter ni sur la force, ni sur la persuasion.
-Comment sortir de ce pas ?
+Comment donc sortir de ce pas ?
 Par l’imposture.
 ](blockquote*[
 ,(q[Voilà ce qui força de tout temps
@@ -1122,7 +1098,7 @@ les pères des nations à recourir à l’intervention du ciel
 et d’honorer les dieux de leur propre sagesse…
 Cette raison sublime, qui s’élève au-dessus des âmes vulgaires,
 est celle dont le législateur met les décisions dans la bouche des immortels,
-pour entrainer, par l’autorité divine,
+pour entraîner par l’autorité divine
 ceux que ne pourrait ébranler la prudence humaine.
 Mais il n’appartient pas à tout le monde
 de faire parler les ,(emph[dieux]).])
@@ -1216,7 +1192,7 @@ j’aurai le double plaisir de satisfaire mes penchants
 et de me croire un héros.])
 ][
 Faut-il rappeler ici cette triste et douloureuse page
-des ,(cite-title[Confessions ?])
+des ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_VIII" [Confessions]) ?])
 ](blockquote*[
 « Mon troisième enfant fut donc mis aux Enfants-Trouvés,
 ainsi que les deux premiers.
@@ -1244,7 +1220,7 @@ Ensuite, il offrit aux Anglo-Américains le brouet noir des Spartiates,
 à quoi il ne put les décider.
 Outré de cet aveuglement, il prédit la chute de l’Union
 et ne lui donna pas pour cinq ans d’existence.
-][
+](nbsp)[
 Qu’il me soit permis de faire ici une réserve.
 En citant les doctrines absurdes et subversives d’hommes tels que
 ,(np "fenelon" [Fénelon]), ,(np "rollin" [Rollin]), ,(np "montesquieu" [Montesquieu]), ,(np "rousseau" [Rousseau]),
@@ -1277,7 +1253,7 @@ Je défie bien qu’on trouve dans aucun de nos légistes
 quelque chose qui approche d’une notion raisonnable sur le droit de propriété.
 Et que peut être une législation d’où cette notion est absente ?
 Ces jours-ci, j’ai eu l’occasion d’ouvrir
-le ,(cite-title[Traité du droit des gens]), par ,(np "vattel" [Vattel]).
+le ,(cite-title(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k865729/f394.image" [Traité du droit des gens])), par ,(np "vattel" [Vattel]).
 J’y vois que l’auteur a consacré un chapitre à l’examen de cette question :
 ,(emph[Est-il permis d’enlever des femmes ?])
 Il est clair que la légende des Romains et des Sabines
@@ -1290,7 +1266,7 @@ Est-ce que les Romains ont eu jamais tort ?
 Il y a un ,(emph[conventionalisme]) qui nous défend de le penser ;
 ils sont Romains, cela suffit.
 Incendie, pillage, rapt,
-tout ce qui vient d’eux est ,(emph[calme, paisible et pur]).
+tout ce qui vient d’eux est ,(emph[calme, paisible et pur]). ,(footnote*[On verra en lisant ,(ref :url "http://gallica.bnf.fr/ark:/12148/bpt6k865729/f394.image" [le passage en question]) que l’interprétation de Bastiat est assez injuste. ,(NdL)])
 ][
 Alléguera-t-on que ce ne sont là que des appréciations personnelles ?
 Il faudrait que notre société jouât de bonheur
@@ -1343,12 +1319,11 @@ ils prêchèrent ouvertement la communauté des biens et des femmes,
 et cela, remarquons-le bien,
 en invoquant sans cesse les exemples et les préceptes
 de cette belle antiquité que tout le monde est convenu d’admirer.
-][
-Tel était, sur la Famille, la Propriété, la Liberté, la Société,
+](nbsp)[
+,(tag :a :name "fabricius_ref")Tel était, sur la Famille, la Propriété, la Liberté, la Société,
 l’état où l’éducation donnée par le clergé
 avait réduit l’opinion publique en France,
 quand éclata la Révolution.
-][,(tag :a :name "fabricius_ref")
 Elle s’explique, sans doute,
 par des causes étrangères
 à l’enseignement classique.
@@ -1459,24 +1434,24 @@ selon l’étendue de leur fortune. »
 adoptait ainsi toutes les mesures
 qui, dans l’esprit de leurs inventeurs, comme dans la réalité,
 constituent la transition de la propriété au communisme.
-Par l’application du ,(cite-title[Traité des lois]) de ,(np "platon" [Platon]),
+Par l’application du ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Les_Lois_(trad._Cousin)" [Traité des lois])) de ,(np "platon" [Platon]),
 il s’acheminait, sans le savoir,
 vers la réalisation de l’état social
-décrit dans le livre de la ,(cite-title[République]).
+décrit dans le livre de la ,(cite-title(ref :url "https://fr.wikisource.org/wiki/La_R%C3%A9publique_(trad._Cousin)" [République])).
 ][
 (On sait que ,(np "platon" [Platon]) a fait deux livres :
 l’un pour signaler la perfection idéale
 ,(--) communauté des biens et des femmes ,(--)
-c’est le livre de la ,(cite-title[République ;])
+c’est le livre de la ,(cite-title[,(ref :url "https://fr.wikisource.org/wiki/La_R%C3%A9publique_(trad._Cousin)" [République]) ;])
 l’autre pour enseigner les moyens de transition,
-c’est le ,(cite-title[Traité des lois]).)
+c’est le ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Les_Lois_(trad._Cousin)" [Traité des lois])).)
 ][,(tag :a :name "aristide_ref")
 ,(np "robespierre" [Robespierre]) peut être considéré, d’ailleurs,
 comme un enthousiaste de la ,(emph[calme, paisible et pure]) antiquité.
-Son discours même sur la Propriété
+Son ,(ref :url "https://fr.wikisource.org/wiki/%C5%92uvres_de_Robespierre/Sur_la_propri%C3%A9t%C3%A9._Projet_de_d%C3%A9claration_des_droits_de_l%E2%80%99homme_et_du_citoyen" [discours]) même sur la Propriété
 abonde en déclamations du goût de celles-ci :
-,(q[,(np "aristide" [Aristide]) n’aurait pas envié les trésors de ,(np "crassus" [Crassus]) !
-La chaumière de ,(np "fabricius" [Fabricius]) n’a rien à envier au palais de ,(np "crassus" [Crassus]) !])
+,(np "aristide" [Aristide]) n’aurait pas envié les trésors de ,(np "crassus" [Crassus]) !
+La chaumière de ,(np "fabricius" [Fabricius]) n’a rien à envier au palais de ,(np "crassus" [Crassus]) !
 etc.
 ][
 Une fois que ,(np "mirabeau" [Mirabeau]) et ,(np "robespierre" [Robespierre])
@@ -1527,7 +1502,7 @@ C’est pourquoi ,(np "stjust" [Saint-Just]) écrivait :
 ,(q[Un gouvernement républicain a la Vertu pour principe,
 sinon la Terreur.])
 ])[
-C’est encore un opinion dominante dans l’antiquité
+C’est encore une opinion dominante dans l’antiquité
 que le travail est infâme.
 Aussi ,(np "stjust" [Saint-Just]) le condamnait en ces termes :
 ](blockquote*[
@@ -1671,9 +1646,9 @@ avons un moment voulu être Spartiates sous la Convention,
 nous nous fîmes soldats de ,(np "cesar" [César]) sous ,(np "bonaparte" [Napoléon]).])
 Peut-on méconnaître l’empreinte
 que notre engouement pour Rome a laissée sur cette époque ?
-Eh ! mon Dieu, cette enpreinte est partout.
+Eh ! mon Dieu, cette empreinte est partout.
 Elle est dans les édifices, dans les monuments, dans la littérature,
-dans les modes même de la France impériale :
+dans les modes même de la France impériale ;
 elle est dans les noms ridicules imposés à toutes nos institutions.
 Ce n’est pas par hasard, sans doute,
 que nous vîmes surgir de toute part
@@ -1689,8 +1664,8 @@ des ,(emph[Légions]),
 des ,(emph[Champs de Mars]),
 des ,(emph[Prytanées]),
 des ,(emph[Lycées]).
-][
-La lutte entre les principes révolutionnaires et contrerévolutionnaires
+](nbsp)[
+La lutte entre les principes révolutionnaires et contre-révolutionnaires
 semblait devoir se terminer aux journées de Juillet 1830.
 Depuis cette époque,
 les forces intellectuelles de ce pays se sont tournées
@@ -1733,7 +1708,7 @@ fera donc tous ses efforts pour chasser du gouvernement
 l’école ou la secte dominante,
 en sorte que, sous l’influence de l’enseignement classique,
 la vie sociale ne peut être qu’une interminable série
-de luttes et de révolutions,
+de luttes et de révolutions
 ayant pour objet la question de savoir à quel utopiste restera
 la faculté de faire sur le peuple, comme sur une vile matière,
 des expériences !
@@ -1742,7 +1717,7 @@ Oui, j’accuse le Baccalauréat de préparer, comme à plaisir,
 toute la jeunesse française aux utopies socialistes,
 aux expérimentations sociales.
 Et c’est là sans doute la raison d’un phénomène fort étrange,
-je veux parier de l’impuissance
+je veux parler de l’impuissance
 que manifestent à réfuter le socialisme
 ceux-là mêmes qui s’en croient menacés.
 Hommes de la bourgeoisie, propriétaires, capitalistes,
@@ -1750,15 +1725,14 @@ les systèmes de ,(np "stsimon" [Saint-Simon]), de ,(np "fourier" [Fourier]),
 de ,(np "blanc" [Louis Blanc]), de ,(np "leroux" [Leroux]), de ,(np "proudhon" [Proudhon])
 ne sont, après tout, que des doctrines.
 Elles sont fausses, dites-vous.
-,(tag :a :name "moliere_ref2")
-Pourquoi ne les réfutez-vous pas ?
+,(tag :a :name "moliere_ref2")Pourquoi ne les réfutez-vous pas ?
 Parce que vous avez bu à la même coupe :
 parce que la fréquentation des anciens,
 parce que votre engouement de convention
 pour tout ce qui est Grec ou Romain
 vous ont inoculé le socialisme.
 ](verses[
-	Vous en êtes un peu dans votre âme entiché. ,(np "moliere" [*])
+	Vous en êtes un peu dans votre âme entiché ,(footnote*[,(np "moliere" [Molière]), ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Tartuffe_ou_l%E2%80%99Imposteur/%C3%89dition_Louandre,_1910/Acte_I#Sc.C3.A8ne_6" [Le Tartuffe])), acte ,(sc[i]), sc. 6.]).
 ])[
 Votre nivellement des fortunes par l’action des tarifs,
 votre loi d’assistance,
@@ -1782,7 +1756,7 @@ et vous dites piteusement :
 ,(emph[La France s’en va !])
 ][
 Non, la France ne s’en va pas.
-Car voici ce qui arrive
+Car voici ce qui arrive :
 pendant que vous vous livrez à vos stériles lamentations,
 les socialistes se réfutent eux-mêmes.
 Ses docteurs sont en guerre ouverte.
@@ -1798,7 +1772,7 @@ Vous l’avez prêché pendant mille ans.
 Quand vous n’avez pu étouffer l’Intérêt, vous l’avez réglementé.
 Vous l’avez soumis au ,(emph[maximum]),
 donnant ainsi à penser
-que la ,(emph[propriété est une création de la Loi]),
+que ,(emph[la propriété est une création de la Loi]),
 ce qui est justement l’idée
 de ,(np "platon" [Platon]), de ,(np "lycurgue" [Lycurgue]), de ,(np "fenelon" [Fénelon]), de ,(np "rollin" [Rollin]), de ,(np "robespierre" [Robespierre]) ;
 ce qui est, je ne crains pas de l’affirmer,
@@ -1830,7 +1804,7 @@ votre enseignement monopolisé.
 ][
 Et c’est pourquoi je dis :
 Non, la France ne s’en va pas.
-Elle sortira de la lutte,
+Elle sortira de la lutte
 plus heureuse, plus éclairée, mieux ordonnée,
 plus grande, plus libre, plus morale, plus religieuse
 que vous ne l’avez faite.
@@ -1973,7 +1947,6 @@ mais n’ayez pas la prétention de faire de la Liberté.
 ][
 Et ce n’est là que le très-petit côté de la question.
 Voici qui est plus grave.
-][
 Je donne la préférence à l’enseignement libre,
 parce que votre enseignement officiel
 (auquel vous me forcez à concourir, sans en profiter)
@@ -2019,9 +1992,9 @@ permettez-leur d’essayer, à leurs périls et risques,
 les voies chrétiennes et scientifiques.
 L’expérience vaut la peine d’être faite.
 Qui sait ?
-Peut-être, sera-t-elle un progrès.
+Peut-être sera-t-elle un progrès.
 Et vous voulez l’étouffer dans son germe !
-][
+](nbsp)[
 Enfin, examinons la question au point de vue de la Société,
 et remarquons d’abord qu’il serait étrange que la société fût libre,
 en matière d’enseignement,
@@ -2120,14 +2093,14 @@ de ,(emph[grand maître]).
 ][
 Maintenant tout cela est renversé.
 Il ne restera à l’Université que deux attributions :
-1° le droit de dire ce qu’il faudra savoir pour obtenir les grades :
+1° le droit de dire ce qu’il faudra savoir pour obtenir les grades ;
 2° le droit de fermer d’innombrables carrières
 à ceux qui ne se seront pas soumis.
 ][
 Ce n’est presque rien, dit-on.
 Et moi je dis :
 Ce rien est tout.
-][
+](nbsp)[
 Ceci m’entraîne à dire quelque chose
 d’un mot qui a été souvent prononcé dans ce débat :
 c’est le mot ,(strong[unité]) ;
@@ -2191,7 +2164,7 @@ quand il n’est pas satisfait de la forme qu’il lui a donnée ?
 ][
 Dans son rapport de 1844,
 ,(np "thiers" [M. Thiers]) se montrait admirateur très-ardent de cette nature d’Unité,
-tout en regrettant qu’elle fut peu conforme au génie des nations modernes.
+tout en regrettant qu’elle fût peu conforme au génie des nations modernes.
 ][
 ](blockquote*[
 « Le pays où ne règne pas la liberté d’enseignement, disait-il,
@@ -2200,7 +2173,7 @@ voulant jeter la jeunesse dans le même moule,
 la frapper, comme une monnaie, à son effigie,
 ne souffrirait aucune diversité dans le régime d’éducation,
 et, pendant plusieurs années,
-ferait vivre tous lus enfants sous le même habit,
+ferait vivre tous les enfants sous le même habit,
 les nourrirait des mêmes aliments,
 les appliquerait aux mêmes études,
 les soumettrait aux mêmes exercices,
@@ -2210,22 +2183,22 @@ les plierait, etc…
 de calomnier cette prétention de l’État
 d’imposer l’unité de caractère à la nation,
 et de la regarder comme une inspiration de la tyrannie.
-On pourrait presque dire, an contraire,
-que cette volonté forte de l’État d’amener tous les citoyens à un type commun,
+On pourrait presque dire, au contraire,
+que cette volonté forte de l’État d’amener tous les citoyens à un type commun
 s’est proportionnée au patriotisme de chaque pays.
 C’est dans les républiques anciennes,
 où la patrie était le plus adorée, le mieux servie,
-qu’elle montrait des exigences les plus grandes
+qu’elle montrait les exigences les plus grandes
 à l’égard des m,(oe)urs et de l’esprit des citoyens…
 Et nous qui, dans le siècle écoulé,
-avons présenté toutes les faces de la société-humaine,
+avons présenté toutes les faces de la société humaine,
 nous qui, après avoir été Athéniens avec ,(np "voltaire" [Voltaire]),
 avons un moment voulu être
 Spartiates sous la Convention, soldats de ,(np "cesar" [César]) sous ,(np "bonaparte" [Napoléon]),
 si nous avons un moment songé à imposer d’une manière absolue
 le joug de l’État sur l’éducation,
 c’est sous la Convention nationale,
-au moment de la plus grande exaltation patriotique.
+au moment de la plus grande exaltation patriotique. »
 ])[
 Rendons justice à ,(np "thiers" [M. Thiers]).
 Il ne proposait pas de suivre de tels exemples.
@@ -2256,7 +2229,7 @@ La communauté devait s’attacher
 à développer uniformément chez tous les citoyens les qualités militaires,
 et les citoyens se soumettaient à cette unité
 qui était la garantie de leur existence ,(footnote*[
-Dans l’ébauche à laquelle nous avons emprunté la note précédente (page 454),
+Dans ,(link "eloignement_antiquite" [l’ébauche]) à laquelle nous avons emprunté ,(ref :url "#eloignement1" [la note précédente]),
 l’auteur examine ces deux questions :
 ][
 1° Si le renoncement à soi-même est
@@ -2267,7 +2240,7 @@ ont mieux pratiqué ce renoncement que les modernes.
 ][
 Il se prononce, on le pense bien,
 pour la négative sur la première comme sur la seconde.
-,(ref :url "eloignement_antiquite.html#note2" [Voici]) l’un de ses motifs à l’égard de celle-ci.]).
+,(ref :url "eloignement_antiquite.html#note2" [Voici]) l’un de ses motifs à l’égard de celle-ci. ,(NdEEO)]).
 ][
 Mais qu’y a-t-il de commun entre ces temps de barbarie et les temps modernes ?
 ][
@@ -2303,16 +2276,16 @@ vers une dégradation inévitable et progressive.
 Il faudrait dire, avec ,(np "thiers" [M. Thiers]) :
 ,(emph[L’antiquité est ce qu’il y a de plus beau au monde]),
 ce qui n’est pas seulement une erreur, mais un blasphème.
-,(--) Les intérêts des hommes, bien compris, sont harmoniques,
+Les intérêts des hommes, bien compris, sont harmoniques,
 et la lumière qui les leur fait comprendre
 brille d’un éclat toujours plus vif.
 Donc les efforts individuels et collectifs,
 l’expérience, les tâtonnements, les déceptions même, la concurrence,
-en un mot, la Liberté
-,(--) font graviter les hommes vers cette Unité,
+en un mot la Liberté
+font graviter les hommes vers cette Unité,
 qui est l’expression des lois de leur nature,
 et la réalisation du bien général.
-][
+](nbsp)[
 Comment est-il arrivé que le parti ,(emph[libéral])
 soit tombé dans cette étrange contradiction
 de méconnaître la liberté, la dignité, la perfectibilité de l’homme,
@@ -2374,7 +2347,7 @@ dans des voies nouvelles et fécondes ?
 Les institutions libres,
 qui surgiront laborieusement entre les lycées et les séminaires,
 sentiront la nécessité de donner à l’intelligence humaine
-sa véritable nourriture, à savoir :
+sa véritable nourriture, à savoir
 la science de ce que les choses sont
 et non la science de ce qu’on en disait il y a deux mille ans.
 ,(tag :a :name "bacon_ref")
@@ -2407,7 +2380,7 @@ l’enseignement des choses à l’enseignement des mots,
 l’étude des vérités positives à celle des doctrines de convention,
 et la substance à l’apparence.
 ][
-Mais, pour enseigner, il faut savoir, et, pour savoir, il faut apprendre.
+Mais pour enseigner, il faut savoir, et pour savoir, il faut apprendre.
 Le clergé sera donc forcé de changer la direction de ses propres études,
 et la rénovation s’introduira jusque dans les séminaires.
 Or, pense-t-on qu’une autre nourriture ne fasse pas d’autres tempéraments ?
@@ -2431,7 +2404,7 @@ jusqu’aux habitudes intellectuelles.
 Et c’est là, j’en ai la conviction,
 l’aurore d’une grande et désirable révolution,
 celle qui réalisera l’Unité religieuse.
-][
+](nbsp)[
 Je disais tout à l’heure que le ,(emph[conventionalisme]) classique
 faisait de nous tous des contradictions vivantes,
 Français par nécessité et Romains par l’éducation.
@@ -2458,7 +2431,7 @@ chez les autres.
 ,(q[Soumets ta raison, disent-ils au peuple, sans quoi tout est perdu.
 C’est bon à moi de m’en rapporter à la mienne,
 car elle est d’une trempe particulière,
-et, pour observer le Décalogue,
+et pour observer le Décalogue,
 je n’ai pas besoin de le croire révélé.
 Même quand je m’en écarterais quelque peu, le mal n’est pas grand ;
 mais toi, c’est différent,
@@ -2501,16 +2474,7 @@ Quoi qu’il en soit, la liberté de l’enseignement,
 en faisant pénétrer d’autres habitudes intellectuelles dans le clergé,
 sera sans doute un des plus puissants instruments
 de la grande rénovation religieuse
-qui seule peut désormais satisfaire les consciences et sauver la société
-,(footnote*[
-Voir, dans ,(bof-ref "justice_fraternite" (cite-title[Justice et Fraternité])),
-les pages 316 et 317.
-,(NdEEO)
-][
-Il s’agit du paragraphe commençant par "De même pour l’enseignement…"
-et éventuellement des paragraphes précédent et suivant.
-,(NdEBO)
-]).
+qui seule peut désormais satisfaire les consciences et sauver la société.
 ][
 Les sociétés ont un tel besoin de morale,
 que le corps qui s’en fait, au nom de Dieu, le gardien et le distributeur,
@@ -2550,7 +2514,7 @@ pour le fond qui intéresse l’humanité.
 Alors ce ne sera pas assez de dire
 que la religion et la philosophie sont s,(oe)urs,
 il faudra dire qu’elles se confondent dans l’Unité.
-][
+](nbsp)[
 Mais je descends de ces régions élevées, et,
 revenant aux grades universitaires,
 je me demande si le clergé éprouvera une grande répugnance
@@ -2610,11 +2574,11 @@ je trouvais moi-même la mort dans ces lectures funestes…
 Ce sont pourtant ces folies qu’on appelle
 ,(emph[les belles et honnêtes lettres :])
 ,(inlatin[Tales dementi,(ae) honestiores et uberiores litter,(ae) putantur])…
-Qu’ils crient contre moi ces marchands de ,(emph[belles-lettres]),
+Qu’ils crient contre moi, ces marchands de ,(emph[belles-lettres]),
 je ne les crains pas,
 et je m’applique à sortir des mauvaises voies que j’ai suivies…
 Il est vrai que, de ces études,
-j’ai retenti beaucoup d’expressions qu’il est utile de savoir,
+j’ai retenu beaucoup d’expressions qu’il est utile de savoir,
 mais ,(emph[tout cela peut s’apprendre ailleurs
 que dans des lectures si frivoles,])
 et on devrait conduire les enfants dans une voie moins dangereuse.
@@ -2646,16 +2610,13 @@ cette critique si amère, ces reproches si durs,
 ces regrets si touchants, ces conseils si judicieux,
 ne s’adressent-ils pas aussi bien à notre siècle
 qu’à celui pour lequel écrivait ,(np "augustin" [saint Augustin]) ?
-][
 Ne conserve-t-on pas, sous le nom d’enseignement classique,
 le même système d’études
 contre lequel ,(np "augustin" [saint Augustin]) s’élève avec tant de force ?
-][
 Ce torrent du paganisme n’a-t-il pas inondé le monde ?
-][
-Ne précipite-t-on pas chaque année, dans ses flots,
+Ne précipite-t-on pas chaque année dans ses flots
 des milliers d’enfants qui y perdent la foi, les m,(oe)urs,
-le sentiment et la dignité humaine, l’amour de la liberté,
+le sentiment de la dignité humaine, l’amour de la liberté,
 la connaissance de leurs droits et de leurs devoirs,
 qui en sortent tout imprégnés des fausses idées du paganisme,
 de sa fausse morale, de ses fausses vertus,
@@ -2699,7 +2660,7 @@ et se délivrer de ce ,(emph[conventionalisme]) classique
 qui est la plaie funeste des sociétés modernes.
 Sous l’influence de la liberté,
 les sciences naturelles et les lettres profanes,
-le christianisme et le paganisme, sauront bien se faire, dans l’éducation,
+le christianisme et le paganisme, sauront bien se faire dans l’éducation
 la juste part qui leur revient,
 et c’est ainsi que se rétablira entre les idées, les m,(oe)urs et les intérêts,
 l’Harmonie qui est, pour les consciences comme pour les sociétés,

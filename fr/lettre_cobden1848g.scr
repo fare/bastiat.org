@@ -9,7 +9,7 @@ du 7 août 1848")
 (define bastiatcontent [
 ,(date-tag[7 août 1848.])
 ,(p*[
-,(np "cobden" [Mon cher Cobden]), je quitte l’assemblée pour répondre quelques lignes à votre lettre du 5. J’espérais voir nos ministres pour conférer avec eux sur la communication que vous me faites, mais ils ne sont pas venus. En attendant d’autres détails, voici ce que je sais.
+Mon cher ,(np "cobden" [Cobden]), je quitte l’assemblée pour répondre quelques lignes à votre lettre du 5. J’espérais voir nos ministres pour conférer avec eux sur la communication que vous me faites, mais ils ne sont pas venus. En attendant d’autres détails, voici ce que je sais.
 ][,(tag :a :name "goudchaux_ref")
 Nous nous sommes trouvés, pour 1848, en face d’un déficit impossible à combler par l’impôt. ,(np "goudchaux" [Le ministre des finances]) a pris la résolution d’y pourvoir par l’emprunt et d’organiser son budget de 1849 de manière à équilibrer les recettes et les dépenses, sans en appeler de nouveau au crédit. L’intention est bonne, le tout est d’y être fidèle.
 ][
@@ -19,7 +19,7 @@ Cette résolution n’est pas immuable. Elle ne part pas d’un parti pris de di
 ][
 En ce moment, il circule, à l’occasion de l’Italie, des bruits qui sont de nature à faire échouer les bonnes dispositions du ,(np "goudchaux" [ministre des finances]). Je crains bien que la paix de l’Europe ne puisse pas être maintenue. Dieu veuille au moins que nos deux pays marchent d’accord !
 ][
-Adieu, ,(np "cobden" [mon cher Cobden]). Je vous écrirai prochainement.
+Adieu, mon cher ,(np "cobden" [Cobden]). Je vous écrirai prochainement.
 ])])
 (document :title [Lettre à ,(np "cobden" [Richard Cobden])]
 	:author (author-FB)

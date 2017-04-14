@@ -1,6 +1,6 @@
 ; -*- Scheme -*-
 (style 'bo-style)
-(in-bof)
+(in-bof :title "De la valeur — Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
 ,(p*[,(ref :url "https://archive.org/stream/bub_gb_FGbo0D-p-okC#page/n144/mode/2up" [,(cite-title[Harmonies économiques])]), 1,(sup[re]) éd.]
@@ -9,9 +9,7 @@
 ])
 (define bastiatcontent [
 ,(h2 [Chapitre V des ,(HarmoniesEconomiques)])
-,(p*[
-
-Dissertation, ennui.
+,(p*[Dissertation, ennui.
 ,(--) Dissertation sur la valeur, ennui sur ennui.
 ][
 Aussi quel novice écrivain, placé en face d’un problème économique,
@@ -21,16 +19,16 @@ abstraction faite de toute définition de la valeur ?
 Mais il n’aura pas tardé à reconnaître combien ce procédé est insuffisant.
 La théorie de la valeur est à l’économie politique
 ce que la numération est à l’arithmétique.
-Dans quels inextricables embarras ne se serait pas jeté ,(np "bezout" [Bezout]),
+Dans quels inextricables embarras ne se serait pas jeté ,(np "bezout" [Bezout])
 si, pour épargner quelque fatigue à ses élèves,
-il eût entrepris de leur enseigner les quatre règles et les proportions,
+il eût entrepris de leur enseigner les quatre règles et les proportions
 sans leur avoir préalablement expliqué
 la valeur que les chiffres empruntent à leur figure ou à leur position ?
 ][
 Si encore le lecteur pouvait pressentir
 les belles conséquences qui se déduisent de la théorie de la valeur !
 Il accepterait l’ennui de ces premières notions,
-comme on se résigne à étudier péniblement les éléments de la géométrie,
+comme on se résigne à étudier péniblement les éléments de la géométrie
 en vue du magnifique champ qu’ils ouvrent à notre intelligence.
 ][
 Mais cette sorte de prévision intuitive n’est pas possible.
@@ -48,7 +46,7 @@ ou dans leur valeur, ou dans leur rareté.
 N’est-ce pas une question, comme celle de l’école :
 la forme est-elle dans la substance ou dans l’accident ?
 Et ne craignez-vous pas qu’un ,(np "moliere" [Molière]) de carrefour
-ne vous expose aux risées du public des ,(emph[Variétés ?])
+ne vous expose aux risées du public des Variétés ?
 ][
 Et cependant, je dois le dire :
 au point de vue économique, société c’est échange.
@@ -64,7 +62,7 @@ c’est que tous les principes, tous les mobiles, tous les ressorts,
 tous les intérêts concourent vers un grand résultat final,
 que l’humanité n’atteindra jamais
 à cause de son ,(emph[imperfection]) native,
-mais dont elle approchera toujours,
+mais dont elle approchera toujours
 en vertu de sa ,(emph[perfectibilité]) indomptable ;
 et ce résultat est :
 le rapprochement indéfini de toutes les classes
@@ -108,7 +106,7 @@ Pour les mettre d’accord,
 il ne faut que les décider à faire le tour de l’édifice.
 ][
 Mais cet édifice social, comment le pourrais-je reconstruire
-aux yeux du public, dans toute sa belle harmonie,
+aux yeux du public dans toute sa belle harmonie,
 si je rejette ses deux pierres angulaires :
 utilité, valeur ?
 Comment pourrais-je amener la désirable conciliation de toutes les écoles
@@ -130,10 +128,10 @@ jamais son c,(oe)ur n’eût battu d’admiration
 à l’aspect des harmonies de la mécanique céleste ;
 et je soutiens qu’il suffit
 de traverser virilement quelques notions élémentaires,
-pour reconnaître que Dieu n’a pas déployé, dans la mécanique sociale,
+pour reconnaître que Dieu n’a pas déployé dans la mécanique sociale
 moins de bonté touchante, d’admirable simplicité et de magnifique splendeur.
 ](nbsp)[
-Dans le premier chapitre nous avons vu
+Dans le ,(link "besoins_efforts_satisfactions" [premier chapitre] "troistermes"), nous avons vu
 que l’homme est ,(emph[passif]) et ,(emph[actif ;])
 que le ,(emph[besoin]) et la ,(emph[satisfaction]),
 n’affectant que la ,(emph[sensibilité,])
@@ -153,8 +151,8 @@ nous ne pouvons ,(emph[sentir]) les satisfactions des autres ;
 mais nous pouvons nous ,(emph[rendre service]) les uns aux autres.
 ][
 C’est cette transmission d’efforts,
-cet échange de services qui fait la matière de l’économie politique,
-et, puisque, d’un autre côté,
+cet échange de services qui fait la matière de l’économie politique ;
+et puisque, d’un autre côté,
 la science économique se résume dans le mot ,(emph[valeur]),
 dont elle n’est que la longue explication,
 il s’ensuit que la notion de ,(emph[valeur])
@@ -164,7 +162,7 @@ qui s’accomplissent dans notre sensibilité :
 ,(emph[besoins]) et ,(emph[satisfactions]),
 phénomènes intimes, intransmissibles,
 ,(emph[incommensurables]) d’un individu à l’autre,
-au lieu de la fonder sur les manifestations de notre ,(emph[activité]),
+— au lieu de la fonder sur les manifestations de notre ,(emph[activité]),
 sur les ,(emph[efforts]),
 sur les ,(emph[services]) réciproques qui s’échangent,
 parce qu’ils sont susceptibles d’être comparés, appréciés, ,(emph[évalués]),
@@ -224,10 +222,8 @@ plus ou moins d’à-propos, d’opportunité.
 Dans l’état social, ce que l’on compare
 (et c’est de cette comparaison que naît l’idée de valeur),
 c’est l’effort d’un homme à l’effort d’un autre homme,
-deux phénomènes de même nature et par conséquent ,(emph[commensurables]) ,(footnote*[Ici Bastiat s’égare : un homme peut comparer justement
-l’,(emph[opportunité]) de deux siens efforts différents, et choisir
-l’un plutôt que l’autre. ,(NdEBO)]
-[On pense ici à la notion d’“échange autistique” développée par les économistes autrichiens. Ludwig ,(sc[von Mises]), ,(cite-title[,(ref :url "https://mises.org/library/human-action-0/html/pp/718" [L’Action humaine]) :]) « Toute action consiste fondamentalement à échanger un état de choses contre un autre. Si l’action est accomplie par un individu indépendamment de la coopération d’autres individus, on peut la qualifier d’,(emph[échange autistique]). Par exemple : le chasseur solitaire, quand il tue un animal pour sa propre consommation, échange du temps de loisir et une cartouche contre de la nourriture. » (,(emph[Note et traduction de ,(laura).]))]).
+deux phénomènes de même nature et par conséquent ,(emph[commensurables]) ,(footnote*[Discutable : dans l’état social, celui qui acquiert un produit ou un service se pose rarement la question des ,(emph[efforts]) qui ont abouti à sa création, pour les comparer à l’,(emph[effort]) financier qu’on lui demande. Ce que chacun compare, c’est l’effort et son résultat.]
+[De même, dans l’état d’isolement, un homme peut comparer l’,(emph[opportunité]) de deux efforts potentiels, et choisir l’un plutôt que l’autre. On pense ici à la notion d’“échange autistique” développée par les économistes autrichiens. Ludwig ,(sc[von Mises]), ,(cite-title[,(ref :url "https://mises.org/library/human-action-0/html/pp/718" [L’Action humaine]) :]) « Toute action consiste fondamentalement à échanger une situation contre une autre. Si l’action est accomplie par un individu indépendamment de la coopération d’autres individus, on peut la qualifier d’,(emph[échange autistique]). Par exemple : le chasseur solitaire, quand il tue un animal pour sa propre consommation, échange du temps de loisir et une cartouche contre de la nourriture. » (,(emph[Note et traduction de ,(laura).]))]).
 ][
 Ainsi la définition du mot valeur, pour être juste,
 doit avoir trait non-seulement aux efforts humains,
@@ -238,7 +234,7 @@ Je ne veux pas dire qu’il donne l’existence
 aux actes et aux choses qui s’échangent,
 mais il la donne à la notion de ,(emph[valeur]).
 ][
-Or quand deux hommes se cèdent mutuellement leur effort actuel,
+Or, quand deux hommes se cèdent mutuellement leur effort actuel,
 ou les résultats de leurs efforts antérieurs,
 ils se ,(emph[servent]) l’un l’autre,
 ils se rendent réciproquement ,(emph[service]).
