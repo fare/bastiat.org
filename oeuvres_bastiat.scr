@@ -854,7 +854,7 @@
   (lettre_horace_say1847 :date "1847-10" :lettre (:de bastiat :a say_h :lieu mugron) :oc1862 (:tome 7 :p 380))
   (lettre_horace_say1848 :date "1848-04-12" :lettre (:de bastiat :a say_h :lieu mugron) :oc1862 (:tome 7 :p 381))
   (lettre_horace_say1849 :date "1849-09-16" :lettre (:de bastiat :a say_h :lieu mugron) :oc1862 (:tome 7 :p 382))
-  (lettre_horace_say1850a :date "1850-06-03" :lettre (:de bastiat :a say_h :lieu mugron) :oc1862 (:tome 7 :p ) :oc1862 (:tome 7 :p 384))
+  (lettre_horace_say1850a :date "1850-06-03" :lettre (:de bastiat :a say_h :lieu mugron) :oc1862 (:tome 7 :p 384))
   (lettre_horace_say1850b :date "1850-07-04" :lettre (:de bastiat :a say_h :lieu eaux-bonnes) :oc1862 (:tome 1 :p 200))
   (lettre_horace_say1850c :date "1850-10-20" :lettre (:de bastiat :a say_h :lieu pise) :oc1862 (:tome 1 :p 201))
   (lettre_fontenay :date "1850-07-03" :lettre (:de bastiat :a fontenay :lieu paris) :oc1862 (:tome 1 :p 204))
@@ -1326,4 +1326,20 @@
   (il_faut :titre "Il faut le voir pour le croire")
   (encore_monde_renverse :titre "Encore le monde renversé")
   (simple_dialogue :titre "Simple dialogue")
-))
+  ))
+
+
+(defparameter *titres-des-journaux*
+  (alexandria:alist-hash-table
+   '((jde "Journal des Économistes")
+     (eb "L’Économiste belge")
+     (le "Le Libre-Échange")
+     (mb "Mémorial bordelais")
+     (rf "La République française")
+     (jb "Jacques Bonhomme")
+     (jd "Journal des Débats")
+     (vp "La Voix du Peuple")
+     (cf "Le Courrier français")
+     (sp "La Sentinelle des Pyrénées")
+     (chalosse "La Chalosse")
+     (landes "Le Journal des Landes"))))

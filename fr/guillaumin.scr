@@ -103,12 +103,7 @@ Cette pagination est celle de l'édition de ,(id date).
 	    (error "foo"))))
      (map* C sommaire-db))))
 
-(document
-(header[,(titre[Sommaire des ,(cite-title[Œuvres complètes])])
-,(auteur [Frédéric Bastiat])])
-(nbsp)
-(br)
-(nbsp)
+(document :title [Sommaire des ,(cite-title[Œuvres complètes])]
 (sommaire[
 ,(p :class "alphabet" [
 Tomes :
