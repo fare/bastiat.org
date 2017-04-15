@@ -1,0 +1,30 @@
+(style 'bo-style)
+(in-bof :title "Œuvres complètes de Frédéric Bastiat")
+
+(set! =bof.url= "")
+(style 'oeuvres_bastiat)
+
+(defun entree-avec-journal ()
+  (find-if (lambda (x) (getf (cdr x) :journal)) bastiat-db))
+
+(defun entree-journal->titre-journal (x)
+  (destructuring-bind (&key titre &allow-other-keys) x
+    (gethash titre *titres-des-journaux*)))
+
+(defun ligne-bastiat-db (entree)
+  (destructuring-bind (&key date oc1862 titre journal &allow-other-keys) (cdr entree)
+    (destructuring-bind (&key tome p &allow-other-keys) oc1862
+      (tr
+       (td titre)
+       (td date)
+       (td tome)
+       (td p)
+       (td (entree-journal->titre-journal journal))))))
+
+(document :title "Œuvres complètes de Frédéric Bastiat"
+(sommaire[
+,(table :width "100%" :cellpadding 10
+  (apply 'table (mapcar 'ligne-bastiat-db bastiat-db)))])
+(tous_les_scripts)
+(footer[,(oeuvres)])
+)

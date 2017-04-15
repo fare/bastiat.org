@@ -745,10 +745,12 @@ window.onresize = function() {
 });</script>"
 ))
 
+;; A supprimer et/ou refaire mieux. Note: 2/20
 (defun header-url () (a :href "http://bastiat.org/" :class "url_bo" [http://bastiat.org/]))
-(defun header (&rest r) (div :class "header" [,(titre(titre-courant))
-  ,(header-url)
-  ,(script_header)] r))
+(defun header (&rest r)
+  (div :class "header" [,(titre(titre-courant))
+       ,(header-url)
+       ,(script_header)] r))
 
 (defparameter *trusted-hosts* (list-to-hash-set '("bastiat.org")))
 
