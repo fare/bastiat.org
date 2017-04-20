@@ -6,9 +6,7 @@
 	:author (author-FB)
 
 (sidebar
-(h5[Table of Contents])
-(table-of-contents)
-(br)
+;;(h5[Table of Contents])(table-of-contents)(br)
 (h5[Sources])
 (p*[
 ,(ref :url "http://se1.com/ush/important/bastiat/law.htm" [Found])
@@ -16,16 +14,13 @@ on the site ,(ref :url "http://se1.com/ush/" [US History resources])
 in the translation by Dean Russell for the
 ,(ref :url "http://www.fee.org/" [Foundation for Economic Education]).
 Reformatted by ,(FRR) for ,(Bastiat.org).
-][
-On ,(Bastiat.org), you may also find
-,(bof-ref "la_loi" [the original text in French "La loi"]),
-and other works of Bastiat, either in French or translated into English.
-][
 Note that the headlines were introduced by the FEE translation,
-and were not present in the original French text.
+and were not present in
+,(bof-ref "la_loi" [the original text in French "La loi"])
 ,(XXX[Also the translation at times is less than faithful.])
 ]))
 (bastiat
+(br)(br)(br)
 (section :number #f :title [The Book and Author]
 (p*[
 When a reviewer wishes to give special recognition to a book,
@@ -2729,6 +2724,5 @@ May they reject all systems, and try liberty;
 for liberty is an acknowledgment of faith in God and His works.
 ])))
 (tous_les_scripts)
-(footer[
-,(XXX[,(oeuvres),(art_le)])
-]))
+;;(footer[,(XXX[,(oeuvres),(art_le)])])
+)
