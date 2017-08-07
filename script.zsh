@@ -3,9 +3,9 @@
 # must be updated manually when this file is modified:
 : /usr/bin/install -m 755 -o bastiat -g bastiat \
     /serv/bastiat/org/script.zsh /serv/bastiat/bin/script.zsh
-# Also, /serv/bastiat/bin/updateweb is but
+# Also, /serv/bastiat/bin/update_bespin is but
 # #!/bin/sh
-# exec /serv/bastiat/bin/script.zsh LOG updateweb
+# exec /serv/bastiat/bin/script.zsh LOG update_bespin
 
 ###
 ### Variables
