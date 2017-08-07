@@ -20,19 +20,25 @@ Installing the toolchain
 
         sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)'
 
-  4. Download [Exscribe](http://cliki.net/Exscribe):
+  4. Download and compile [Exscribe](http://cliki.net/Exscribe):
 
         mkdir -p ~/common-lisp/
-		cd ~/common-lisp/
-		git clone https://gitlab.common-lisp.net/frideau/exscribe.git
-
-  5. Compile Exscribe:
-
+        cd ~/common-lisp/
+        git clone https://github.com/fare/fare-scripts.git
+        git clone https://gitlab.common-lisp.net/frideau/exscribe.git
         sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/executable)'
 
-  6. Symlink `exscribe` into a place in your `$PATH`, e.g.:
+  6. Make sure that your system can find the `exscribe` program:
 
+        # One option is to create a symlink at a well-known location:
         sudo ln -sf ~/common-lisp/exscribe/exscribe /usr/local/bin/
+
+        # Alternatively, just extend your `$PATH` variable:
+        PATH=$PATH:~/common-lisp/exscribe
+
+  7. Install [Zsh](http://www.zsh.org/). On Ubuntu and other debian-based distributions, use:
+
+        sudo apt-get install zsh
 
 
 Building the website
