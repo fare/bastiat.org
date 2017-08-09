@@ -1,8 +1,14 @@
 #!/bin/zsh -f
+
+# The following environment variables may be set:
+#
+#   SOURCE_DIR (usually the empty string)
+#   HOST_DIR   (perhaps set to ~bastiat/html)
+#
 # For security reasons, the actual executable on bespin
 # must be updated manually when this file is modified:
-: /usr/bin/install -m 755 -o bastiat -g bastiat \
-    /serv/bastiat/org/script.zsh /serv/bastiat/bin/script.zsh
+# /usr/bin/install -m 755 -o bastiat -g bastiat \
+#   /serv/bastiat/org/script.zsh /serv/bastiat/bin/script.zsh
 # Also, /serv/bastiat/bin/update_bespin is but
 # #!/bin/sh
 # exec /serv/bastiat/bin/script.zsh LOG update_bespin
@@ -11,28 +17,15 @@
 ### Variables
 ###
 
-setopt EXTENDED_GLOB
-#export PATH=/usr/local/bin:/usr/bin:/bin
-
 LOG_FILE=/serv/bastiat/tmp/x.log
 MAX_LOG_SIZE=$[2**18]
-
-#: ${SOURCE_DIR:=}
-#: ${HOST_DIR:=~bastiat/html}
-#: ${TARGET_DIR:=http://bastiat.org/}
-
-: ${BACKUPDIR:=/tmp}
-
-SCRIBE=exscribe
-
-UTSL="UTSL!"
 
 ### Helper function library
 DBG () { print -r "$*" >&2 }
 abort () { DBG "$2" ; exit $1 }
 DO () { DBG "$*" ; $@ }
 call_if_func () { if function_p "$1" ; then $@ ; else no_func_abort $1 ; fi }
-no_func_abort () { abort 102 "Unknown function $1 -- Valid functions: $UTSL" }
+no_func_abort () { abort 102 "Unknown function $1" }
 push () { LIST=$1 ; shift ; eval "${LIST}=(\$${LIST} \$@)" }
 
 ### Generic batch functions
@@ -49,8 +42,8 @@ LOG () {
    } >>& $LOG_FILE
 }
 check_identity () {
-  if [[ "x${USERNAME}" != "xbastiat" ]] ; then # @${HOST} @Samaris
-     abort 10 "Must be user bastiat. Aborting." # @Samaris
+  if [[ "x${USERNAME}" != "xbastiat" ]] ; then
+     abort 10 "Must be user bastiat. Aborting."
   fi
 }
 keep_log_small () {
@@ -61,7 +54,6 @@ keep_log_small () {
 sizeof () {
   if [ -f "$1" ] ; then
     du -sb $1 2> /dev/null | { read A B ; echo $A }
-    # on non-GNU systems, try wc -c instead. Or rather, install GNU!
   else
     echo 0 ; return 1
   fi
@@ -89,24 +81,12 @@ rule () {
     for j ; do echo "	$j" ; done
     echo
 }
-id_rule () {
-    local S="${SOURCE_DIR}$1" H="${HOST_DIR}$1"
-    #rule "$H" "$S" "\$(CP) $S $H"
-}
-dir_rule () {
-    #local S="${SOURCE_DIR}$1" H="${HOST_DIR}$1"
-    #rule "$H" "$S" "\$(CP) -av $S $H"
-    #rule "$H" "force" "rsync -av $S/ $H/"
-    #rule "$S" "$H" ""
-    #rule ".PHONY" "$H $S force"
-}
 scribe_rule () {
       subdir="$(dirname $i)"
       base="$(basename $i .scr)"
       file="${base}.scr"
       style="fare-style.scr bo-style.scr"
       other=
-      id_rule $i
       hdir="${HOST_DIR}$subdir"
       if [ -n "$hdir" ] ; then
         CD="cd $hdir"
@@ -117,7 +97,7 @@ scribe_rule () {
 	other="oeuvres_bastiat.scr"
       fi
       rule "$b.html" "$i $style $other" \
-	"$CD ; $SCRIBE -I ${top} $file -o $base.html"
+	"$CD ; exscribe -I ${top} $file -o $base.html"
       FILES="$b.html"
       HFILES="$b.html"
       CFILES="$b.html"
@@ -156,7 +136,7 @@ stuff () {
   h=${HOST_DIR}$i
   s=${SOURCE_DIR}$i
   hb=${HOST_DIR}$b
-  top="$(echo $i | sed -e 's/[^\/]*\/[^\/]*/..\//g')" ; : ${top:=.}
+  top=$(echo $i | sed -e 's/[^\/]*\/[^\/]*/..\//g')
   FILES=""
   HFILES=""
   CFILES=""
@@ -165,12 +145,9 @@ stuff () {
 init
 for i in $SOURCES ; do
   stuff
-  if [ -d $i ] ; then
-    dir_rule $i
-  else
+  if [ ! -d $i ] ; then
   case $i in
     *.html)
-      id_rule $i
       FILES="$h"
       HFILES="$h"
       ;;
@@ -178,7 +155,6 @@ for i in $SOURCES ; do
       scribe_rule
       ;;
     *.txt|*.png|*.jpg)
-      id_rule $i
       FILES="$h"
       ;;
     *)
@@ -194,7 +170,6 @@ done
 
 rule allfiles: "$ALLFILES"
 rule html: "$ALLHFILES"
-#rule clean: "" "-rm -fv $ALLCFILES"
 depend_guillaumin
 }
 
@@ -253,11 +228,9 @@ perl -e '
 }
 
 default_behavior () {
-  : default_behavior $@
   no_func_abort $@
 }
 clean () {
-  setopt LOCAL_OPTIONS EXTENDED_GLOB
   FILES=
   for i in **/*.scr ; do
     FILES=($FILES ${i%%.scr}.html) ;
@@ -265,7 +238,6 @@ clean () {
   command rm -fv $FILES
 }
 main () {
-  : main $@
   if function_p "$1" ; then
     $@
   else
