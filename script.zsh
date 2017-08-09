@@ -18,15 +18,15 @@
 ###
 
 LOG_FILE=/serv/bastiat/tmp/x.log
-MAX_LOG_SIZE=$[2**18]
+((MAX_LOG_SIZE = 2**18))
 
 ### Helper function library
 DBG () { print -r "$*" >&2 }
-abort () { DBG "$2" ; exit $1 }
-DO () { DBG "$*" ; $@ }
-call_if_func () { if function_p "$1" ; then $@ ; else no_func_abort $1 ; fi }
+abort () { DBG "$2" ; exit "$1" }
+DO () { DBG "$@" ; "$@" }
+call_if_func () { if function_p "$1" ; then "$@" ; else no_func_abort "$1" ; fi }
 no_func_abort () { abort 102 "Unknown function $1" }
-push () { LIST=$1 ; shift ; eval "${LIST}=(\$${LIST} \$@)" }
+push () { LIST=$1 ; shift ; eval "$LIST+=(\"\$@\")" }
 
 ### Generic batch functions
 LOG () {
@@ -37,30 +37,29 @@ LOG () {
    echo "$USERNAME@$HOST ($UID) $(date)"
    echo "$PROG $ARGS"
    echo "==> $0 $*"
-   call_if_func $@
+   call_if_func "$@"
    echo "<== END $(date)"
-   } >>& $LOG_FILE
+   } >>& "$LOG_FILE"
 }
 check_identity () {
-  if [[ "x${USERNAME}" != "xbastiat" ]] ; then
-     abort 10 "Must be user bastiat. Aborting."
+  if [[ $USERNAME != bastiat ]] ; then
+     abort 10 'Must be user bastiat. Aborting.'
   fi
 }
 keep_log_small () {
-   if [ "$(sizeof $LOG_FILE)" -gt "$MAX_LOG_SIZE" ] ; then
-      mv -f $LOG_FILE ${LOG_FILE}.old
+   if (( $(sizeof "$LOG_FILE") > MAX_LOG_SIZE )) ; then
+      mv -f "$LOG_FILE" "$LOG_FILE".old
    fi
 }
 sizeof () {
-  if [ -f "$1" ] ; then
-    du -sb $1 2> /dev/null | { read A B ; echo $A }
+  if [[ -f $1 ]] ; then
+    du -sb "$1" 2> /dev/null | { read A B ; echo "$A" }
   else
     echo 0 ; return 1
   fi
 }
 function_p () {
-  local WHENCE="$(whence -v $1)"
-  case "$WHENCE" in
+  case $(whence -v "$1") in
     "$1 is a shell function"*)
 	return 0 ;;
     *)
@@ -68,7 +67,7 @@ function_p () {
   esac
 }
 oldtouch () {
-  touch -d "00:00:00GMT 01 Jan 1970" $@
+  touch -d '00:00:00GMT 01 Jan 1970' "$@"
 }
 
 depend () {
@@ -82,25 +81,19 @@ rule () {
     echo
 }
 scribe_rule () {
-      subdir="$(dirname $i)"
-      base="$(basename $i .scr)"
-      file="${base}.scr"
-      style="fare-style.scr bo-style.scr"
+      subdir=$(dirname "$i")
+      base=$(basename "$i" .scr)
+      file=$base.scr
+      style='fare-style.scr bo-style.scr'
       other=
-      hdir="${HOST_DIR}$subdir"
-      if [ -n "$hdir" ] ; then
-        CD="cd $hdir"
-      else
-        CD=":"
-      fi
-      if [ "$base" = "guillaumin" ] ; then
-	other="oeuvres_bastiat.scr"
-      fi
+      hdir=$HOST_DIR$subdir
+      [[ -n $hdir ]] && CD="cd $hdir" || CD=:
+      [[ $base != guillaumin ]] || other=oeuvres_bastiat.scr
       rule "$b.html" "$i $style $other" \
-	"$CD ; exscribe -I ${top} $file -o $base.html"
-      FILES="$b.html"
-      HFILES="$b.html"
-      CFILES="$b.html"
+	"$CD ; exscribe -I $top $file -o $base.html"
+      FILES=$b.html
+      HFILES=$b.html
+      CFILES=$b.html
 }
 do_depend_guillaumin () {
   print -l fr/*.scr > fr/.depend.guillaumin
@@ -132,30 +125,30 @@ init () {
 }
 
 stuff () {
-  b="${i%.*}"
-  h=${HOST_DIR}$i
-  s=${SOURCE_DIR}$i
-  hb=${HOST_DIR}$b
-  top=$(echo $i | sed -e 's/[^\/]*\/[^\/]*/..\//g')
-  FILES=""
-  HFILES=""
-  CFILES=""
+  b=${i%.*}
+  h=$HOST_DIR$i
+  s=$SOURCE_DIR$i
+  hb=$HOST_DIR$b
+  top=$(echo "$i" | sed -e 's/[^\/]*\/[^\/]*/..\//g')
+  FILES=
+  HFILES=
+  CFILES=
 }
 
 init
-for i in $SOURCES ; do
+for i in "${SOURCES[@]}" ; do
   stuff
-  if [ ! -d $i ] ; then
+  if [[ ! -d $i ]] ; then
   case $i in
     *.html)
-      FILES="$h"
-      HFILES="$h"
+      FILES=$h
+      HFILES=$h
       ;;
     *.scr)
       scribe_rule
       ;;
     *.txt|*.png|*.jpg)
-      FILES="$h"
+      FILES=$h
       ;;
     *)
       echo "# Warning: can't handle source file $i"
@@ -224,26 +217,26 @@ perl -e '
    s/\xFF//gm ;
    s/\x85/.../gm ; # \&hellip\;
    print;
-' -- $@
+' -- "$@"
 }
 
 default_behavior () {
-  no_func_abort $@
+  no_func_abort "$@"
 }
 clean () {
-  FILES=
+  FILES=()
   for i in **/*.scr ; do
-    FILES=($FILES ${i%%.scr}.html) ;
+    FILES+=(${i%%.scr}.html) ;
   done
-  command rm -fv $FILES
+  command rm -fv "${FILES[@]}"
 }
 main () {
   if function_p "$1" ; then
-    $@
+    "$@"
   else
-    default_behavior $@
+    default_behavior "$@"
   fi
 }
 PROG=$0
-ARGS=($@)
-main $@
+ARGS=("$@")
+main "$@"
