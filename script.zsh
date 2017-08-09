@@ -24,10 +24,28 @@ LOG_FILE=/serv/bastiat/tmp/x.log
 
 DBG() { print -r "$*" >&2; }
 abort() { DBG "$2"; exit "$1"; }
-DO() { DBG "$@"; "$@"; }
-call_if_func() { if function_p "$1"; then "$@"; else no_func_abort "$1"; fi; }
 no_func_abort() { abort 102 "Unknown function $1"; }
+DO() { DBG "$@"; "$@"; }
 push() { LIST=$1; shift; eval "$LIST+=(\"\$@\")"; }
+
+function_p() {
+  case $(whence -v "$1") in
+    "$1 is a shell function"*)
+	return 0
+	;;
+    *)
+        return 1
+        ;;
+  esac
+}
+
+call_if_func() {
+  if function_p "$1"; then
+    "$@"
+  else
+    no_func_abort "$1"
+  fi
+}
 
 ### Generic batch functions
 
@@ -62,17 +80,6 @@ sizeof() {
   else
     echo 0; return 1
   fi
-}
-
-function_p() {
-  case $(whence -v "$1") in
-    "$1 is a shell function"*)
-	return 0
-	;;
-    *)
-        return 1
-        ;;
-  esac
 }
 
 oldtouch() {
