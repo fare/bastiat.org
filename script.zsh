@@ -21,6 +21,7 @@ LOG_FILE=/serv/bastiat/tmp/x.log
 ((MAX_LOG_SIZE = 2**18))
 
 ### Helper function library
+
 DBG() { print -r "$*" >&2; }
 abort() { DBG "$2"; exit "$1"; }
 DO() { DBG "$@"; "$@"; }
@@ -29,6 +30,7 @@ no_func_abort() { abort 102 "Unknown function $1"; }
 push() { LIST=$1; shift; eval "$LIST+=(\"\$@\")"; }
 
 ### Generic batch functions
+
 LOG() {
    check_identity
    keep_log_small
@@ -41,16 +43,19 @@ LOG() {
    echo "<== END $(date)"
    } >>& "$LOG_FILE"
 }
+
 check_identity() {
   if [[ $USERNAME != bastiat ]]; then
      abort 10 'Must be user bastiat. Aborting.'
   fi
 }
+
 keep_log_small() {
    if (( $(sizeof "$LOG_FILE") > MAX_LOG_SIZE )); then
       mv -f "$LOG_FILE" "$LOG_FILE".old
    fi
 }
+
 sizeof() {
   if [[ -f $1 ]]; then
     du -sb "$1" 2> /dev/null | { read A B; echo "$A"; }
@@ -58,6 +63,7 @@ sizeof() {
     echo 0; return 1
   fi
 }
+
 function_p() {
   case $(whence -v "$1") in
     "$1 is a shell function"*)
@@ -68,6 +74,7 @@ function_p() {
         ;;
   esac
 }
+
 oldtouch() {
   touch -d '00:00:00GMT 01 Jan 1970' "$@"
 }
@@ -82,6 +89,7 @@ rule() {
     for j; do echo "	$j"; done
     echo
 }
+
 scribe_rule() {
       subdir=$(dirname "$i")
       base=$(basename "$i" .scr)
@@ -97,9 +105,11 @@ scribe_rule() {
       HFILES=$b.html
       CFILES=$b.html
 }
+
 do_depend_guillaumin() {
   print -l fr/*.scr > fr/.depend.guillaumin
 }
+
 depend_guillaumin() {
   if [ -f fr/.depend.guillaumin ]; then
     mv fr/.depend.guillaumin fr/.depend.guillaumin.bak
@@ -225,6 +235,7 @@ perl -e '
 default_behavior() {
   no_func_abort "$@"
 }
+
 clean() {
   FILES=()
   for i in **/*.scr; do
@@ -232,6 +243,7 @@ clean() {
   done
   command rm -fv "${FILES[@]}"
 }
+
 main() {
   if function_p "$1"; then
     "$@"
@@ -239,6 +251,7 @@ main() {
     default_behavior "$@"
   fi
 }
+
 PROG=$0
 ARGS=("$@")
 main "$@"
