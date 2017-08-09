@@ -104,10 +104,10 @@ scribe_rule() {
       style='fare-style.scr bo-style.scr'
       other=
       hdir=$HOST_DIR$subdir
-      [[ -n $hdir ]] && CD="cd $hdir" || CD=:
+      [[ -n $hdir ]] && CD="cd $hdir; " || CD=
       [[ $base != guillaumin ]] || other=oeuvres_bastiat.scr
       rule "$b.html" "$i $style $other" \
-	"$CD; exscribe -I $top $file -o $base.html"
+	"${CD}exscribe -I $top $file -o $base.html"
       FILES=$b.html
       HFILES=$b.html
       CFILES=$b.html
