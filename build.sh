@@ -15,7 +15,7 @@ depend() {
   local all_files target
   all_files=()
 
-  for i in index.scr */*.scr; do
+  for i in index.scr */**/*.scr; do
     [[ ! -d $i ]] || continue
     scribe_rule
     all_files+=($target)
