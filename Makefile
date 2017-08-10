@@ -6,7 +6,7 @@ all: allfiles
 dependencies_file=.depend
 
 $(dependencies_file):
-	./script.zsh depend > $(dependencies_file)
+	./build.sh depend > $(dependencies_file)
 
 # The following file defines the `allfiles' target.
 ifeq ($(filter dep $(dependencies_file) clean,$(MAKECMDGOALS)),)
@@ -22,7 +22,7 @@ dep:
 
 .PHONY: clean
 clean:
-	./script.zsh clean
+	./build.sh clean
 
 BA := $(shell pwd)
 
