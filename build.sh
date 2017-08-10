@@ -4,7 +4,7 @@ newline='
 '
 
 clean() {
-  local IFS
+  #local IFS
 
   IFS=$newline
   set -- $(find . -type f -name \*.scr | cut -c 3-)
@@ -18,7 +18,7 @@ clean() {
 depend() {
   printf '%s\n\n' '.PHONY: allfiles'
 
-  local IFS all_files target
+  #local IFS all_files target
 
   IFS=$newline
   set -- index.scr $(find_sources)
@@ -42,13 +42,13 @@ find_sources() {
 
 rule() {
   printf '%s\n' "$1: $2"; shift 2
-  local j
+  #local j
   for j; do printf '\t%s\n' "$j"; done
   echo
 }
 
 scribe_rule() {
-  local CD top base prereqs
+  #local CD top base prereqs
   handle_directory
   set_up_target
   set_up_prereqs
@@ -56,7 +56,8 @@ scribe_rule() {
 }
 
 handle_directory() {
-  local hdir="$(dirname "$i")"
+  #local hdir
+  hdir=$(dirname "$i")
   if [ "$hdir" = . ]; then
     CD=
     top=.
@@ -67,7 +68,8 @@ handle_directory() {
 }
 
 set_up_target() {
-  local i_without_extension="${i%.*}"
+  #local i_without_extension
+  local i_without_extension=${i%.*}
   target=$(escape_for_make "$i_without_extension").html
   base=$(printf %q "$(basename "$i_without_extension")")
 }
