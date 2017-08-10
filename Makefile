@@ -1,36 +1,36 @@
-export LISP=cmucl
-export BA=$(shell pwd)
-export FARE=${HOME}
+all: allfiles
+.PHONY: all
 
-all: ALL
+.DELETE_ON_ERROR:
 
-.depend:
-	zsh -f script.zsh depend > .depend
+dependencies_file=.depend
 
-include .depend
+$(dependencies_file):
+	./script.zsh depend > $(dependencies_file)
 
-.PHONY: dep depend tdepend allscr all ALL allfiles alldirs bespin clean
-
-dep:
-	zsh -f script.zsh depend > .depend
-
-depend: dep
-
-tdepend:
-	zsh -f script.zsh tdepend
-
-clean::
-	zsh -f script.zsh clean
-
-alldirs:
+# The following file defines the `allfiles' target.
+ifeq ($(filter dep $(dependencies_file) clean,$(MAKECMDGOALS)),)
+  include $(dependencies_file)
+endif
 
 fr/gratuite_du_credit.html: $(wildcard fr/lettre[1-9]*.scr)
 
-ALL:	allfiles alldirs
+.PHONY: dep
+dep:
+	@rm -f $(dependencies_file); \
+	$(MAKE) $(dependencies_file)
+
+.PHONY: clean
+clean:
+	./script.zsh clean
+
+BA := $(shell pwd)
 
 # works best with clisp...
+.PHONY: allscr
 allscr:
-	exscribe --include ${BA} --include ${FARE}/fare/www --many ${BA} ${BA}/html */*.scr
+	exscribe --include $(BA) --include $(HOME)/fare/www --many $(BA) $(BA)/html */*.scr
 
+.PHONY: bespin
 bespin:
-	zsh -f script.zsh update_bespin
+	./script.zsh update_bespin
