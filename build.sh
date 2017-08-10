@@ -27,7 +27,7 @@ depend() {
   all_files=
 
   for i; do
-    [[ ! -d $i ]] || continue
+    [ ! -d "$i" ] || continue
     scribe_rule
     all_files=${all_files:+$all_files }$target
   done
@@ -57,7 +57,7 @@ scribe_rule() {
 
 handle_directory() {
   local hdir="$(dirname "$i")"
-  if [[ $hdir = . ]]; then
+  if [ "$hdir" = . ]; then
     CD=
     top=.
   else
@@ -74,7 +74,7 @@ set_up_target() {
 
 set_up_prereqs() {
   prereqs="$(escape_for_make "$i") fare-style.scr bo-style.scr"
-  [[ $base != guillaumin ]] || prereqs=$prereqs' oeuvres_bastiat.scr'
+  [ "$base" != guillaumin ] || prereqs=$prereqs' oeuvres_bastiat.scr'
 }
 
 escape_for_make () {
@@ -107,7 +107,7 @@ abort() { DBG "$2"; exit "$1"; }
 no_func_abort() { abort 102 "Unknown function $1"; }
 
 function_p() {
-  c=$(command -v "$1") && [[ $c = $1 ]] && [[ $c != */* ]]
+  c=$(command -v "$1") && [ "$c" = "$1" ] && [ "${c##*/*}" != '' ]
 }
 
 main() {
