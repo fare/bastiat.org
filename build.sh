@@ -92,14 +92,7 @@ abort() { DBG "$2"; exit "$1"; }
 no_func_abort() { abort 102 "Unknown function $1"; }
 
 function_p() {
-  case $(whence -v "$1") in
-    "$1 is a shell function"*)
-	return 0
-	;;
-    *)
-        return 1
-        ;;
-  esac
+  c=$(command -v "$1") && [[ $c = $1 ]] && [[ $c != */* ]]
 }
 
 main() {
