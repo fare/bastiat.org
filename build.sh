@@ -26,7 +26,7 @@ depend() {
   for i; do
     [[ ! -d $i ]] || continue
     scribe_rule
-    all_files+=${all_files:+ }$target
+    all_files=${all_files:+$all_files }$target
   done
 
   rule allfiles "$all_files"
@@ -71,7 +71,7 @@ set_up_target() {
 
 set_up_prereqs() {
   prereqs="$(escape_for_make "$i") fare-style.scr bo-style.scr"
-  [[ $base != guillaumin ]] || prereqs+=' oeuvres_bastiat.scr'
+  [[ $base != guillaumin ]] || prereqs=$prereqs' oeuvres_bastiat.scr'
 }
 
 escape_for_make () {
