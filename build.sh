@@ -46,20 +46,24 @@ handle_directory() {
     CD=
     top=.
   else
-    CD="cd $hdir; "
+    CD="cd $(printf %q "$hdir"); "
     top=$(echo "$hdir" | sed -e 's_[^/]*_.._g')
   fi
 }
 
 set_up_target() {
   local i_without_extension="${i%.*}"
-  target=$i_without_extension.html
-  base=$(basename "$i_without_extension")
+  target=$(escape_for_make "$i_without_extension").html
+  base=$(printf %q "$(basename "$i_without_extension")")
 }
 
 set_up_prereqs() {
-  prereqs="$i fare-style.scr bo-style.scr"
+  prereqs="$(escape_for_make "$i") fare-style.scr bo-style.scr"
   [[ $base != guillaumin ]] || prereqs+=' oeuvres_bastiat.scr'
+}
+
+escape_for_make () {
+  printf '%s\n' "$1" | sed 's_[\[:space:]*%#$]_\\&_g'
 }
 
 do_depend_guillaumin() {
