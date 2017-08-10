@@ -36,9 +36,10 @@ Installing the toolchain
         # Alternatively, just extend your `$PATH` variable:
         PATH=$PATH:~/common-lisp/exscribe
 
-  7. Install [Zsh](http://www.zsh.org/). On Ubuntu and other debian-based distributions, use:
+  7. Install [Bash](https://www.gnu.org/software/bash/); this is probably already installed.
+     On Ubuntu and other debian-based distributions, use:
 
-        sudo apt-get install zsh
+        sudo apt-get install bash
 
 
 Building the website

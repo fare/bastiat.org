@@ -1,4 +1,6 @@
-#!/bin/zsh -f
+#!/bin/bash
+
+shopt -s globstar
 
 clean() {
   local files
