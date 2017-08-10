@@ -62,7 +62,7 @@ handle_directory() {
     CD=
     top=.
   else
-    CD="cd $(printf %q "$hdir"); "
+    CD="cd $(escape_for_shell "$hdir"); "
     top=$(printf '%s\n' "$hdir" | sed -e 's_[^/]*_.._g')
   fi
 }
@@ -71,7 +71,7 @@ set_up_target() {
   #local i_without_extension
   local i_without_extension=${i%.*}
   target=$(escape_for_make "$i_without_extension").html
-  base=$(printf %q "$(basename "$i_without_extension")")
+  base=$(escape_for_shell "$(basename "$i_without_extension")")
 }
 
 set_up_prereqs() {
@@ -81,6 +81,11 @@ set_up_prereqs() {
 
 escape_for_make () {
   printf '%s\n' "$1" | sed 's_[\[:space:]*%#$]_\\&_g'
+}
+
+escape_for_shell () {
+  s=$(printf '%s\n' "$1" | sed "s_'_'\\\\''_g")
+  printf '%s\n' "'$s'"
 }
 
 do_depend_guillaumin() {
