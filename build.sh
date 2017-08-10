@@ -26,7 +26,7 @@ depend() {
 }
 
 rule() {
-  echo "$1: $2"; shift 2
+  printf '%s\n' "$1: $2"; shift 2
   local j
   for j; do printf '\t%s\n' "$j"; done
   echo
@@ -47,7 +47,7 @@ handle_directory() {
     top=.
   else
     CD="cd $(printf %q "$hdir"); "
-    top=$(echo "$hdir" | sed -e 's_[^/]*_.._g')
+    top=$(printf '%s\n' "$hdir" | sed -e 's_[^/]*_.._g')
   fi
 }
 
@@ -67,7 +67,7 @@ escape_for_make () {
 }
 
 do_depend_guillaumin() {
-  print -l fr/*.scr > fr/.depend.guillaumin
+  for f in fr/*.scr; do printf '%s\n' "$f"; done > fr/.depend.guillaumin
 }
 
 oldtouch() {
@@ -87,7 +87,7 @@ depend_guillaumin() {
   fi
 }
 
-DBG() { print -r "$*" >&2; }
+DBG() { printf '%s\n' "$*" >&2; }
 abort() { DBG "$2"; exit "$1"; }
 no_func_abort() { abort 102 "Unknown function $1"; }
 
