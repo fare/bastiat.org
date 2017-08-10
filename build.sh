@@ -1,11 +1,14 @@
 #!/bin/bash
 
-shopt -s globstar
-
 clean() {
-  local files
+  local files IFS
   files=()
-  for i in **/*.scr; do
+
+  IFS=$'\n'
+  set -- $(find . -type f -name \*.scr | cut -c 3-)
+  unset IFS
+
+  for i; do
     files+=(${i%%.scr}.html)
   done
   command rm -fv "${files[@]}"
@@ -14,10 +17,15 @@ clean() {
 depend() {
   printf '%s\n\n' '.PHONY: allfiles'
 
-  local all_files target
+  local IFS all_files target
+
+  IFS=$'\n'
+  set -- index.scr $(find_sources)
+  unset IFS
+
   all_files=()
 
-  for i in index.scr */**/*.scr; do
+  for i; do
     [[ ! -d $i ]] || continue
     scribe_rule
     all_files+=($target)
@@ -25,6 +33,10 @@ depend() {
 
   rule allfiles "${all_files[*]}"
   depend_guillaumin
+}
+
+find_sources() {
+  find . -type d \! -name . -exec find {} -type f -name \*.scr \; | cut -c 3-
 }
 
 rule() {
