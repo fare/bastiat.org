@@ -1,17 +1,15 @@
 #!/bin/bash
 
 clean() {
-  local files IFS
-  files=()
+  local IFS
 
   IFS=$'\n'
   set -- $(find . -type f -name \*.scr | cut -c 3-)
   unset IFS
 
   for i; do
-    files+=(${i%%.scr}.html)
+    command rm -fv "${i%%.scr}".html
   done
-  command rm -fv "${files[@]}"
 }
 
 depend() {
@@ -23,15 +21,15 @@ depend() {
   set -- index.scr $(find_sources)
   unset IFS
 
-  all_files=()
+  all_files=
 
   for i; do
     [[ ! -d $i ]] || continue
     scribe_rule
-    all_files+=($target)
+    all_files+=${all_files:+ }$target
   done
 
-  rule allfiles "${all_files[*]}"
+  rule allfiles "$all_files"
   depend_guillaumin
 }
 
