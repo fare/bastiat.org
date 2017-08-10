@@ -10,29 +10,64 @@ clean() {
 
 depend() {
 
-SOURCES=(index.scr */*.scr)
+  SOURCES=(index.scr */*.scr)
+
+  printf '%s\n\n%s\n\n' \
+    '.PHONY: allfiles html' \
+    CP=cp
+
+  init
+  for i in "${SOURCES[@]}"; do
+    stuff
+    if [[ ! -d $i ]]; then
+      case $i in
+        *.html)
+          FILES=$h
+          HFILES=$h
+          ;;
+        *.scr)
+          scribe_rule
+          ;;
+        *.txt|*.png|*.jpg)
+          FILES=$h
+          ;;
+        *)
+          echo "# Warning: can't handle source file $i"
+          echo "# Warning: can't handle source file $i" >&2
+          ;;
+      esac
+    fi
+    ALLFILES="$ALLFILES $FILES"
+    ALLHFILES="$ALLHFILES $HFILES"
+    ALLCFILES="$ALLCFILES $CFILES"
+  done
+
+  rule allfiles: "$ALLFILES"
+  rule html: "$ALLHFILES"
+  depend_guillaumin
+}
 
 rule() {
-    local j
-    echo "$1:	$2"; shift 2
-    for j; do echo "	$j"; done
-    echo
+  local j
+  echo "$1: $2"; shift 2
+  for j; do echo "	$j"; done
+  echo
 }
 
 scribe_rule() {
-      subdir=$(dirname "$i")
-      base=$(basename "$i" .scr)
-      file=$base.scr
-      style='fare-style.scr bo-style.scr'
-      other=
-      hdir=$HOST_DIR$subdir
-      [[ -n $hdir ]] && CD="cd $hdir; " || CD=
-      [[ $base != guillaumin ]] || other=oeuvres_bastiat.scr
-      rule "$b.html" "$i $style $other" \
-	"${CD}exscribe -I $top $file -o $base.html"
-      FILES=$b.html
-      HFILES=$b.html
-      CFILES=$b.html
+  subdir=$(dirname "$i")
+  base=$(basename "$i" .scr)
+  file=$base.scr
+  style='fare-style.scr bo-style.scr'
+  prereqs="$i $style"
+  hdir=$HOST_DIR$subdir
+  [[ -n $hdir ]] && CD="cd $hdir; " || CD=
+  [[ $base != guillaumin ]] || prereqs+=' oeuvres_bastiat.scr'
+  rule "$b.html" "$prereqs" \
+    "${CD}exscribe -I $top $file -o $base.html"
+  FILES=$b.html
+  HFILES=$b.html
+  CFILES=$b.html
 }
 
 do_depend_guillaumin() {
@@ -56,13 +91,6 @@ depend_guillaumin() {
   fi
 }
 
-cat <<EOF
-.PHONY:	allfiles html
-
-CP=cp
-
-EOF
-
 init() {
   ALLFILES=
   ALLHFILES=
@@ -78,37 +106,6 @@ stuff() {
   FILES=
   HFILES=
   CFILES=
-}
-
-init
-for i in "${SOURCES[@]}"; do
-  stuff
-  if [[ ! -d $i ]]; then
-  case $i in
-    *.html)
-      FILES=$h
-      HFILES=$h
-      ;;
-    *.scr)
-      scribe_rule
-      ;;
-    *.txt|*.png|*.jpg)
-      FILES=$h
-      ;;
-    *)
-      echo "# Warning: can't handle source file $i"
-      echo "# Warning: can't handle source file $i" >&2
-      ;;
-  esac
-  fi
-  ALLFILES="$ALLFILES $FILES"
-  ALLHFILES="$ALLHFILES $HFILES"
-  ALLCFILES="$ALLCFILES $CFILES"
-done
-
-rule allfiles: "$ALLFILES"
-rule html: "$ALLHFILES"
-depend_guillaumin
 }
 
 . ./script.zsh
