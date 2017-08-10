@@ -50,7 +50,7 @@ depend() {
 rule() {
   local j
   echo "$1: $2"; shift 2
-  for j; do echo "	$j"; done
+  for j; do printf '\t%s\n' "$j"; done
   echo
 }
 
