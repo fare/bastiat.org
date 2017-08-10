@@ -1,73 +1,65 @@
 #!/bin/zsh -f
 
 clean() {
-  FILES=()
+  local files
+  files=()
   for i in **/*.scr; do
-    FILES+=(${i%%.scr}.html)
+    files+=(${i%%.scr}.html)
   done
-  command rm -fv "${FILES[@]}"
+  command rm -fv "${files[@]}"
 }
 
 depend() {
+  printf '%s\n\n' '.PHONY: allfiles'
 
-  SOURCES=(index.scr */*.scr)
+  local all_files target
+  all_files=()
 
-  printf '%s\n\n%s\n\n' \
-    '.PHONY: allfiles html' \
-    CP=cp
-
-  init
-  for i in "${SOURCES[@]}"; do
-    stuff
-    if [[ ! -d $i ]]; then
-      case $i in
-        *.html)
-          FILES=$h
-          HFILES=$h
-          ;;
-        *.scr)
-          scribe_rule
-          ;;
-        *.txt|*.png|*.jpg)
-          FILES=$h
-          ;;
-        *)
-          echo "# Warning: can't handle source file $i"
-          echo "# Warning: can't handle source file $i" >&2
-          ;;
-      esac
-    fi
-    ALLFILES="$ALLFILES $FILES"
-    ALLHFILES="$ALLHFILES $HFILES"
-    ALLCFILES="$ALLCFILES $CFILES"
+  for i in index.scr */*.scr; do
+    [[ ! -d $i ]] || continue
+    scribe_rule
+    all_files+=($target)
   done
 
-  rule allfiles: "$ALLFILES"
-  rule html: "$ALLHFILES"
+  rule allfiles "${all_files[*]}"
   depend_guillaumin
 }
 
 rule() {
-  local j
   echo "$1: $2"; shift 2
+  local j
   for j; do printf '\t%s\n' "$j"; done
   echo
 }
 
 scribe_rule() {
-  subdir=$(dirname "$i")
-  base=$(basename "$i" .scr)
-  file=$base.scr
-  style='fare-style.scr bo-style.scr'
-  prereqs="$i $style"
-  hdir=$HOST_DIR$subdir
-  [[ -n $hdir ]] && CD="cd $hdir; " || CD=
+  local CD top base prereqs
+  handle_directory
+  set_up_target
+  set_up_prereqs
+  rule "$target" "$prereqs" "${CD}exscribe -I $top $base.scr -o $base.html"
+}
+
+handle_directory() {
+  local hdir="$(dirname "$i")"
+  if [[ $hdir = . ]]; then
+    CD=
+    top=.
+  else
+    CD="cd $hdir; "
+    top=$(echo "$hdir" | sed -e 's_[^/]*_.._g')
+  fi
+}
+
+set_up_target() {
+  local i_without_extension="${i%.*}"
+  target=$i_without_extension.html
+  base=$(basename "$i_without_extension")
+}
+
+set_up_prereqs() {
+  prereqs="$i fare-style.scr bo-style.scr"
   [[ $base != guillaumin ]] || prereqs+=' oeuvres_bastiat.scr'
-  rule "$b.html" "$prereqs" \
-    "${CD}exscribe -I $top $file -o $base.html"
-  FILES=$b.html
-  HFILES=$b.html
-  CFILES=$b.html
 }
 
 do_depend_guillaumin() {
@@ -89,23 +81,6 @@ depend_guillaumin() {
     do_depend_guillaumin
     oldtouch fr/guillaumin.html
   fi
-}
-
-init() {
-  ALLFILES=
-  ALLHFILES=
-  ALLCFILES=
-}
-
-stuff() {
-  b=${i%.*}
-  h=$HOST_DIR$i
-  s=$SOURCE_DIR$i
-  hb=$HOST_DIR$b
-  top=$(echo "$i" | sed -e 's/[^\/]*\/[^\/]*/..\//g')
-  FILES=
-  HFILES=
-  CFILES=
 }
 
 DBG() { print -r "$*" >&2; }

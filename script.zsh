@@ -1,10 +1,5 @@
 #!/bin/zsh -f
 
-# The following environment variables may be set:
-#
-#   SOURCE_DIR (usually the empty string)
-#   HOST_DIR   (perhaps set to ~bastiat/html)
-#
 # For security reasons, the actual executable on bespin
 # must be updated manually when this file is modified:
 # /usr/bin/install -m 755 -o bastiat -g bastiat \
