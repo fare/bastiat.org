@@ -1,9 +1,12 @@
 #!/bin/bash
 
+newline='
+'
+
 clean() {
   local IFS
 
-  IFS=$'\n'
+  IFS=$newline
   set -- $(find . -type f -name \*.scr | cut -c 3-)
   unset IFS
 
@@ -17,7 +20,7 @@ depend() {
 
   local IFS all_files target
 
-  IFS=$'\n'
+  IFS=$newline
   set -- index.scr $(find_sources)
   unset IFS
 
