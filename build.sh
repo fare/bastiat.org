@@ -108,4 +108,27 @@ stuff() {
   CFILES=
 }
 
-. ./script.zsh
+DBG() { print -r "$*" >&2; }
+abort() { DBG "$2"; exit "$1"; }
+no_func_abort() { abort 102 "Unknown function $1"; }
+
+function_p() {
+  case $(whence -v "$1") in
+    "$1 is a shell function"*)
+	return 0
+	;;
+    *)
+        return 1
+        ;;
+  esac
+}
+
+main() {
+  if function_p "$1"; then
+    "$@"
+  else
+    no_func_abort "$@"
+  fi
+}
+
+main "$@"

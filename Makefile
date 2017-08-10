@@ -31,6 +31,4 @@ BA := $(shell pwd)
 allscr:
 	exscribe --include $(BA) --include $(HOME)/fare/www --many $(BA) $(BA)/html */*.scr
 
-.PHONY: bespin
-bespin:
-	./script.zsh update_bespin
+include bespin.mk
