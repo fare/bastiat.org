@@ -789,6 +789,7 @@ Pour un affichage optimal, veuillez activer Javascript dans votre navigateur.
 
 ;Fonctions pour charger le contenu, qui sera désormais défini en dehors de la fonction "document" (en attendant de tout mettre dans un fichier unique et d'appeler le contenu à partir de ce fichier)
 ; La div container contient le texte mais pas les notes de bas de page. Elle permet que la sticky sidebar s'arrête juste au-dessus des notes de bas de page au lieu de les recouvrir.
+; Ceci est un commentaire qui sert à tester un push. A supprimer.
 
 (define sidebarcontent [])
 (define bastiatcontent [])
