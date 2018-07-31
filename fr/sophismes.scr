@@ -5,9 +5,13 @@
 
 (document :title [Sophismes Économiques]
 	:author (author-FB)
-
+(nbsp)
 (sommaire[
 ,(subtitle [Première Série (1845)])
+,(epigraphe [
+,(p[En économie politique, il y a beaucoup à apprendre et peu à faire.])
+,(sign[Bentham.])
+])
 ,(itemize
 (item (xbof-ref "introduction_sophismes" [Introduction]))
 (item (xbof-ref "abondance_disette" [I. Abondance, disette]))

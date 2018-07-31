@@ -4,7 +4,7 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/184/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd.]
+,(p*[,(ref :url "https://archive.org/stream/harmonieseconomi00bastuoft#page/184/mode/2up" [,(cite-title[Harmonies économiques])]), 2,(sup[e]) éd., p. 184.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt06bast/#page/199/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 6, p. 199.])
 ])
 (define bastiatcontent [
@@ -117,7 +117,7 @@ mais par l’immoralité des moyens d’acquisition,
 elle révélait l’immoralité des hommes qui en étaient pourvus.
 Une réaction même exagérée contre les riches et la richesse
 était bien naturelle.
-,(tag :a :name "seneque")Les philosophes modernes qui déclament contre la richesse,
+,(tag :a :name "seneque_ref")Les philosophes modernes qui déclament contre la richesse,
 sans tenir compte de la différence des moyens d’acquisition,
 se croient des ,(np "seneque" [Sénèque]), des Christ.
 Ils ne sont que des perroquets répétant ce qu’ils ne comprennent pas.
@@ -151,7 +151,9 @@ pour rester dans une éternelle léthargie ?
 L’homme se dégrade-t-il à mesure
 qu’il s’éloigne, pour ainsi dire, de l’état le plus inorganique,
 pour s’élever vers l’état le plus spiritualiste dont il puisse approcher ?
+][
 Poser ainsi le problème, c’est le résoudre.
+][
 Je conviendrai volontiers
 que lorsque la richesse se développe par des moyens immoraux,
 elle a une influence immorale, comme chez les Romains.

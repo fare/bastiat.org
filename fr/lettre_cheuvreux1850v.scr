@@ -9,7 +9,7 @@ du 14 au 17 décembre 1850")
 (define bastiatcontent [
 ,(date-tag[Rome, samedi 14 décembre 1850.])
 
-,(cher[,(np "cheuvreux_h" [Bien chère madame Cheuvreux]),])
+,(cher[Bien chère ,(np "cheuvreux_h" [madame Cheuvreux]),])
 ,(p*[J’espère m’asseoir quelquefois à ce pupitre, ajouter une ligne à une ligne pour vous envoyer un souvenir.
 ][
 Je n’ai jamais été si près du néant et je voudrais être tout-puissant pour rendre la mer calme comme un lac.
@@ -30,8 +30,8 @@ Je me réjouis à l’idée que ,(np "cheuvreux" [M. Cheuvreux]) verra bientôt
 ][
 Nouvelle découverte ! Un mouvement précipité m’a ôté toute respiration. Une haleine ne pouvant joindre l’autre, c’est une souffrance des plus pénibles. J’en ai conclu que je devais agir en tout lentement comme un automate.])
 ,(nbsp)
-,(date-tag[Mardi, 17 décembre. ,(footnote*[Cette lettre, la dernière qu’il ait écrite, n’a précédé sa mort que de huit jours.])])
-,(p*[,(np "paillottet" [Paillotet]) est arrivé. Il m’annonce l’affreux événement. Oh ! pauvre femme ! pauvre enfant ! vous avez reçu le coup le plus terrible, le plus inattendu. Comment l’aurez-vous supporté avec une âme si peu faite pour souffrir ? ,(np "cheuvreux_l" [Louise]) saura se posséder davantage dans la douleur. Jetez-vous dans les bras de cette force divine, la seule force qui puisse soutenir en de telles épreuves. Que cette force ne vous abandonne jamais. Chers amis, je n’ai pas le courage de continuer ces mots sans suite, ces propos interrompus.
+,(date-tag[Mardi, 17 décembre,(footnote*[Cette lettre, la dernière qu’il ait écrite, n’a précédé sa mort que de huit jours. ,(emph[(Note de M,(sup[me]) Cheuvreux.)])]).])
+,(p*[,(np "paillottet" [Paillotet]) est arrivé. Il m’annonce l’affreux événement. Oh ! pauvre femme ! pauvre enfant ! vous avez reçu le coup le plus terrible, le plus inattendu,(footnote*[La mort de sa mère. ,(NdEBO)]). Comment l’aurez-vous supporté avec une âme si peu faite pour souffrir ? ,(np "cheuvreux_l" [Louise]) saura se posséder davantage dans la douleur. Jetez-vous dans les bras de cette force divine, la seule force qui puisse soutenir en de telles épreuves. Que cette force ne vous abandonne jamais. Chers amis, je n’ai pas le courage de continuer ces mots sans suite, ces propos interrompus.
 ][
 Adieu, malgré mon état d’anéantissement je retrouve encore de vives étincelles de sympathie pour le malheur qui est venu vous visiter.
 ])

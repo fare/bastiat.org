@@ -4,7 +4,7 @@
 	- par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "http://davidmhart.com/liberty/FrenchClassicalLiberals/Bastiat/LibreEchange/LE_A1_1-52-Part3.pdf#page=31" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 30, p. 239.]
+,(p*[,(ref :url "https://archive.org/stream/libre_echange_1_30/n30#page/n6/mode/1up" [,(cite-title[Libre-Échange])]), 1,(sup[re]) année, n° 30, p. 239.]
 [,(ref :url "https://archive.org/stream/oeuvrescomplt02bast/#page/392/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 2, n° 59, p. 392.])
 ])
 (define bastiatcontent [
@@ -82,13 +82,7 @@ Il se trouva que c’était une loi qu’il avait prise pour une ogresse.
 ][
 ,(--) Cela prouve que le peuple a encore bien des choses à apprendre,
 et qu’en attendant qu’il les sache il ne manque pas de personnes,
-comme votre gros monsieur, disposées à abuser de sa crédulité
-,(footnote*[
-V. tome IV, pages 121 à 123.
-,(XXX :bof-ref "conclusion_sophismes" [Conclusion des sophismes ?]
-[Ou peut-etre sur l’autre edition…])
-,(NdEEO)
-]).
+comme votre gros monsieur, disposées à abuser de sa crédulité.
 ][
 ,(--) En sorte donc que tout se réduit à savoir
 si chacun a le droit de faire ses affaires,
@@ -96,7 +90,7 @@ ou si ce droit est subordonné aux convenances du gros monsieur ?
 ][
 ,(--) Oui ; la question est de savoir si,
 subissant la concurrente dans vos ventes,
-vous ne devez pas en profiter, dans vos achats.
+vous ne devez pas en profiter dans vos achats.
 ][
 ,(--) Voudriez-vous m’éclaircir un peu plus la chose ?
 ][
@@ -114,11 +108,7 @@ vous ne devez pas en profiter, dans vos achats.
 qu’à cause de ce que je puis me procurer avec :
 du pain, du vin, un logis, une blouse, un paroissien,
 une école pour mon fils, un trousseau pour ma fille,
-et de belles robes pour ma femme
-,(footnote*[
-V. le pamphlet ,(bof-ref "maudit_argent" (cite-title[Maudit argent])),
-tome V, page 64.
-,(NdEEO)]).
+et de belles robes pour ma femme.
 ][
 ,(--) Fort bien.
 Négligeons donc les écus pour un instant,
@@ -133,11 +123,7 @@ ma vie entière ne suffirait pas.
 ][
 ,(--) Ainsi, quoique votre état soit bien modeste,
 il met en votre pouvoir mille fois plus de choses
-que vous n’en pourriez faire vous-même
-,(footnote*[
-V. les chap. ,(bof-ref "organisation" (strong[i]))
-et ,(bof-ref "besoins_efforts_satisfactions" (strong[iv])) du tome VI.
-,(NdEEO)]).
+que vous n’en pourriez faire vous-même.
 ][
 ,(--) C’est assez plaisant,
 surtout quand je songe qu’il en est ainsi de tous les états.
@@ -207,7 +193,7 @@ doit être la loi de tous ou de personne ?
 ][
 ,(--) En ce cas, vous pouvez déguerpir
 et me laisser tranquille avec votre ,(emph[libre-échange]).
-Nous en jouissons complétement. ,(XXX :sic)
+Nous en jouissons complétement.
 Me donne sa pratique qui veut, et je donne la mienne à qui il me plaît.
 ][
 ,(--) C’est ce qu’il nous reste à voir.
@@ -269,13 +255,7 @@ J’ai eu de mauvaise marchandise, ou elle ne me convenait pas,
 ou l’on m’en faisait prendre trop à la fois, ou je ne pouvais choisir ;
 j’en étais pour beaucoup de frais, de ports de lettres, de temps perdu ;
 et ma femme, qui a bonne tête, celle-là, et qui veut ce qu’elle veut,
-m’a dit : Jacques, fais des souliers
-,(footnote*[
-V. le ,(bof-ref "cqovecqonvp" "les_intermediaires" [chap. ,(strong[vi])])
-du pamphlet ,(bof-ref "cqovecqonvp"
-	(cite-title[Ce qu’on voit et ce qu’on ne voit pas])),
-tome V, page 356.
-,(NdEEO)]).
+m’a dit : Jacques, fais des souliers.
 ][
 ,(--) Et elle a eu raison.
 En sorte que vos échanges se faisant
@@ -403,12 +383,7 @@ un avocat, un médecin, un artiste, un pauvre ouvrier ?
 ][
 ,(--) C’est parce qu’elle ne le peut pas qu’elle ne doit protéger personne ;
 car favoriser les ventes de l’un,
-c’est nécessairement grever les achats de l’autre
-,(footnote*[
-V. la fin du
-n° 41, pages 244 et 245, ,(XXX :bof-ref "impot_du_sel")
-et le ,(bof-ref "recettes_protectionnistes" [n° 53]), page 359.
-,(NdEEO)]).
+c’est nécessairement grever les achats de l’autre.
 ])])
 (document :title "La peur d’un mot"
 	:author (author-FB)
