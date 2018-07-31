@@ -21,6 +21,6 @@ SHELL=/bin/sh
 MAILTO=fare
 #
 # Every night at 0:18, update the web site
-0 18 * * *	/serv/bastiat/bin/script.zsh LOG updateweb
+0 18 * * *	/serv/bastiat/bin/script.zsh LOG update_bespin
 #
 ## EOF ##
