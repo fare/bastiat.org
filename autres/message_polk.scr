@@ -1,0 +1,337 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Fragments du message du président des États-Unis")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[,(ref :url "https://archive.org/stream/journaldeseonom105parigoog#page/n211/search/polk" [,(cite-title[Journal des Économistes])]), vol. 13, n° 50, p.201.])
+])
+(define bastiatcontent [
+,(date-tag[,(tj "je" [,(cite-title[Journal des Économistes])]), n° de janvier 1846.])
+,(p*[
+,(sc[Fragments du message du président des États-Unis. — Finances. — Banques. — 
+Tarif. — Postes.]) —,(emph[Finances]). Le secrétaire du Trésor, dans son rapport annuel au 
+congrès, donnera un compte exact de l’état de nos finances. Les importations de 
+l’année fiscale expirée le 30 juin dernier se sont élevées à 117,254,564 dollars ; les 
+réexportations, étant de 15,346,830 dollars, laissent, pour la consommation intérieure, 
+101,908,734 dollars. Les exportations, durant la même période, se sont élevées à 
+114,646,606 dollars, sur lesquels 99,299,776 dollars applicables aux produits américains. 
+][
+Les recettes du Trésor de la même année se montent à 29,769,133 dollars et 56 cents, 
+desquels 27,528,112 dollars provenant de l’impôt des douanes, 2,077,220 dollars de la 
+vente des terres appartenant à l’État, et 163,998 dollars et 56 cents de diverses 
+sources extraordinaires. Les dépenses, durant la même période, s’élèvent à 29,968,206 
+dollars et 98 cents, sur lesquels 8,588,157 dollars et 62 cents ont été appliqués à l’extinction de la dette publique. La balance du Trésor, au 1,(sup[er]) juillet dernier, était de 
+7,658,306 dollars et 22 cents. 
+][
+Le montant de la dette publique, au 1,(sup[er]) juillet dernier, était de 17,075,445 dollars et 
+52 cents. Si l’état incertain de nos relations avec la république du Mexique ne nous 
+eût tenus dans l’appréhension d’une guerre avec cette puissance, de nouveaux à-comptes sur la dette publique eussent été payés par anticipation, conformément à 
+l’autorisation qui en a été donnée au secrétaire du Trésor par les actes en date des 21 
+juillet 1841, 15 avril 1842 et 3 mars 1843. 
+][
+Il y a quelques années que nous éteignîmes la dette que notre nation avait contractée 
+pendant la révolution et durant la guerre de 1812 contre les Anglais, et que nous 
+offrîmes au monde le noble et rare spectacle d’un grand peuple naissant qui avait 
+rempli toutes ses obligations. C’est depuis cette époque quela dette actuelle a été 
+contractée, et, toute faible qu’elle est si on la compare aux fardeaux du même genre 
+existant chez les autres peuples, il est nécessaire qu’elle soit éteinte le plus tôt possible. 
+Si la situation du pays le permet, et surtout si nos relations extérieures n’y apportent 
+aucun obstacle, on se propose d’employer à la liquidation de cette dette tout l’argent 
+dont le Trésor pourra disposer, après avoir satisfait aux ordonnances du congrès. 
+J’entretiens l’heureux espoir de pouvoir bientôt féliciter le pays de se retrouver encore 
+une fois dans la haute position qu’il occupait si récemment. 
+](nbsp)[
+,(tag :a :name "tarif"),(emph[Tarif]). J’appelle l’attention du congrès sur l’importance des changements et réductions à faire aux droits fixés par le présent tarif. Le but qu’on se propose en levant 
+des impôts sur les articles importés, doit être de se créer un revenu qui couvre les 
+dépenses ordinaires du gouvernement. Il est, sans aucun doute, permis au congrès, 
+dans l’exercice prudent et raisonné de ses droits, d’établir des distinctions en déterminant l’impôt sur chaque article, mais ces distinctions doivent se renfermer dans les 
+limites du revenu et tendre toujours à créer des ressources pour l’entretien du gouvernement. 
+][
+Il devient important de comprendre distinctement ce que l’on entend par un tarif 
+de revenu (,(emph[revenue standard])) dont les maximum ne doivent pas excéder le taux 
+des droits imposés. Il est accordé, et l’expérience prouve qu’il peut être établi des 
+droits si élevés qu’ils diminuent ou prohibent entièrement l’importation d’un article 
+donné, et par là diminuent ou détruisent le revenu qui, à un taux plus bas, proviendrait de son importation. De pareils droits excèdent le taux de revenu, et ne sont 
+point imposés pour prélever de l’argent pour le soutien du gouvernement. Si le congrès prélève un droit, pour le revenu, de 1 p. 100 sur un article donné, il produira 
+un montant donné d’argent pour le Trésor, et accordera incidemment et nécessairement protection ou avantage, pour le montant de 1 p. 100, au manufacturier national d’un semblable article, contre l’importateur. Si le droit est élevé à 10 p. 100, il 
+produira un plus fort montant d’argent, et donnera une plus grande protection. S’il 
+est porté à 20, à 35 ou à 30 p. 100, et si, à mesure qu’il s’élève, on trouve que le 
+revenu qui en dérive augmente aussi, la protection ou avantage sera également augmentée ; mais s’il est porté à 51 p. 100, et que l’on trouve que le revenu produit à ce 
+taux est moindre qu’à 50 p. 100, il cesse de devenir un droit de revenu. Le point 
+précis, dans l’échelle ascendante des droits, auquel il est reconnu, par l’expérience, 
+que le revenu est plus grand, est le taux maximum des droits qui doivent être prélevés ,(emph[bona fide]) dans le but de collecter de l’argent pour le soutien du gouvernement. 
+Élever les droits au delà de ce point, et, par là, diminuer le montant collecté, c’est 
+imposer des droits pour la protection seulement, et non pour le revenu. 
+][
+Il ne s’ensuit pas que le congrès doive établir, sur tous les articles d’importation, 
+les droits les plus élevés, dans les limites du tarif de revenu ; parce que de tels droits 
+produiraient probablement un plus grand montant qu’il n’est exigé pour l’administration économique du gouvernement. Il ne s’ensuit pas, non plus, que les droits sur 
+tous les articles doivent être au même taux, ou taux horizontal. Certains articles supporteront un droit de revenu beaucoup plus élevé que d’autres. Au-dessous du maximum du tarif de revenu, le congrès peut et doit différencier les droits imposés, prenant soin de les ajuster sur les divers articles de manière qu’ils produisent, dans 
+l’ensemble, un montant qui, ajouté au produit des ventes de terres publiques, puisse 
+être nécessaire pour payer les dépenses économiques du gouvernement. 
+][
+En établissant un tarif de droits, le congrès exerce le pouvoir de taxation, et, dans 
+un but de revenu, peut choisir les objets de taxation. Il peut exempter entièrement 
+certains articles, et permettre leur importation franche de droits. Il peut mettre des 
+droits minimes sur d’autres. Dans ces classes doivent être embrassés les articles de 
+nécessité qui sont d’usage général, et spécialement ceux qui sont consommés par le 
+travailleur et par le pauvre, aussi bien que par le riche. Il doit être pris soin que tous 
+les grands intérêts du pays, y compris les manufactures, l’agriculture, le commerce, 
+la navigation et les arts mécaniques, retirent, autant que possible, un égal avantage 
+de la protection incidente qui peut résulter d’un juste système de revenu. La taxation, 
+directe ou indirecte, est un fardeau, et elle doit être imposée de manière à agir aussi 
+également que possible sur toutes les classes, suivant la puissance qu’elles ont de la 
+supporter. Faire du pouvoir de taxation un bienfait exceptionnel pour une classe, 
+c’est nécessairement augmenter le fardeau des autres au delà des proportions ; c’est 
+manifestement injuste. Les termes « protection à l’industrie nationale » ont une 
+signification populaire ; mais, dans un juste système, ils doivent s’appliquer aux diverses branches de l’industrie de notre pays. Le fermier ou le planteur qui cultive 
+toute l’année ses champs, est engagé dans « l’industrie nationale » et a autant de 
+droit à avoir son travail « protégé » que le manufacturier, l’homme de commerce, le 
+navigateur ou l’artisan, qui sont également engagés dans « l’industrie nationale, » 
+dans leurs différentes carrières. Le travail combiné de toutes ces classes constitue 
+l’ensemble de « l’industrie nationale », et toutes ont des droits égaux à la « protection » de la nation. Aucune d’elles ne peut justement demander d’être seule l’objet d’une 
+« protection » qui ne peut être accordée qu’en augmentant le fardeau sur « l’industrie 
+nationale » des autres. 
+][
+Si ces vues sont justes, il reste à rechercher jusqu’à quel point le tarif de 1842 leur 
+est conforme. Que quelques-uns des articles de cet acte soient une violation des principes fondamentaux qui viennent d’être posés, tout le monde doit l’avouer. Les taux 
+de droits imposés par lui sur certains articles sont prohibitifs, et sur certains autres 
+ils sont élevés de manière à diminuer grandement les importations et à produire un 
+revenu moindre que celui qui serait obtenu de taux plus bas. Ils opèrent comme 
+« protection simplement » sur une branche de l’industrie domestique, en taxant les 
+autres branches. 
+][
+Par l’introduction de minimum, ou de valeurs fausses et imaginaires, et par l’imposition de droits spécifiques, l’injustice et l’inégalité de l’acte de 1842, dans son 
+opération pratique sur différentes classes et industries, est vue et sentie. Beaucoup 
+des droits oppresseurs par lui imposés sous l’action de ces principes, varient depuis 
+1 p. 100 jusqu’à plus de 200 p. 100. Ils sont prohibitifs sur certains articles, et le 
+sont en partie sur d’autres, et pèsent le plus légèrement sur les articles de luxe. Ce 
+tarif est établi de manière que le plus lourd fardeau qu’il impose frappe sur les 
+classes laborieuses et pauvres qui sont le moins capables de le supporter, pendant 
+qu’il protège le capital, et exempte les riches de payer leur juste proportion des taxes 
+requises pour le soutien du gouvernement. Tandis qu’il protège le capital du manufacturier, et augmente ses profits, il ne favorise aucunement, dans ses travaux, l’ouvrier ou le laboureur dont il n’a pas augmenté le salaire. Les articles de première 
+nécessité ou de qualité grossière et de bas prix, consommés par la masse du peuple, 
+sont, dans beaucoup de cas, soumis à de lourdes taxes, pendant que les articles de 
+luxe, qui ne peuvent être consommés que par l’opulent, sont légèrement taxés. Il impose de pesants et injustes fardeaux sur le planteur, le fermier, le commerçant, et 
+ceux de toutes les autres carrières, excepté le capitaliste qui a fait ses placements de 
+fonds dans les manufactures. Tous les grands intérêts du pays ne sont pas, aussi approximativement qu’il est possible, également protégés par lui. 
+](nbsp)[
+C’est un fait bien connu que l’acte de tarif de 1842 passa à une majorité d’une voix 
+dans le sénat, de deux, dans la Chambre des représentants, et que quelques-uns de 
+ceux qui se trouvèrent contraints, dans les circonstances particulières qui existaient 
+alors, de voter en sa faveur, ont proclamé ses défauts et exprimé leur détermination 
+d’aider à sa modification, dès la première opportunité. C’est là une preuve forte et 
+concluante qu’on n’entendait pas le rendre permanent, et qu’il y a nécessité de le réviser complétement. 
+][
+En recommandant au congrès une réduction des droits actuels, une révision et une 
+modification de l’acte de 1842, je suis loin d’avoir des opinions hostiles à l’égard des 
+manufactures. Au contraire, je désire les voir prospérer, autant qu’elles peuvent le 
+faire, sans imposer des fardeaux inégaux aux autres intérêts. L’avantage, dans tout 
+système de taxation, même dans les limites du tarif de revenu, doit être en faveur de 
+l’intérêt manufacturier, et, de cela, aucun autre intérêt ne se plaindra. 
+][
+Je recommande au congrès l’abolition du principe de minimum, ou de valeur imaginaire, arbitraire, fausse, celle des droits spécifiques, et la substitution, à leur place, 
+des droits ,(emph[ad valorem]), comme la plus loyale et la plus équitable taxe indirecte qui 
+puisse être imposée. Par le principe ,(emph[ad valorem]), tous les articles sont taxés proportionnellement à leur coût et à leur valeur, et ceux qui sont de qualité inférieure ou de 
+bas prix ne supportent qu’une juste proportion de taxe avec ceux qui sont supérieurs 
+en qualité et de plus grande valeur. Les articles consommés par tous sont taxés au 
+même taux. Un système de droits ,(emph[ad valorem]) pour revenu, avec un convenable échelonnement et de convenables garanties contre la fraude dans leur collection, apportera, 
+il n’en faut pas douter, d’amples avantages pour les manufactures, et les mettra 
+à même de retirer d’aussi grands profits que l’on puisse en obtenir des autres occupations régulières. Il y a lieu de penser qu’un pareil système, strictement dans les 
+limites d’un tarif de revenu, placera les mtérêts manufacturiers sur un pied stable et 
+leur assurera des avantages permanents, en même temps qu’il étendra, autant que 
+possible, à tous les grands intérêts du pays, la protection incidente qui peut leur être 
+donnée par nos lois de revenu. Un pareil système, une fois fermement établi, serait 
+permanent, et ne serait plus le sujet de plaintes incessantes, d’agitations et de changements, qui doivent toujours arriver lorsque les droits ne sont pas imposés pour le 
+revenu, mais « simplement pour la protection » d’un intérêt favorisé. 
+][
+Dans les délibérations du congrès sur ce sujet, il faut espérer qu’un esprit de mutuelle concession et de compromis, entre les intérêts opposés, pourra prévaloir, et 
+que le résultat de son travail sera suivi des plus heureuses conséquences. 
+](nbsp)[
+,(emph[Banques]). La constitution des États-Unis pourvoit à ce « qu’aucun argent ne sorte 
+du Trésor qu’en vertu d’appropriation légale. » On avait sans doute en vue et l’on se 
+proposait de créer un Trésor public, dans lequel l’argent de la nation resterait déposé 
+depuis l’époque de recette jusqu’à ce qu’on en eût besoin pour les dépenses publiques. 
+Pour opérer les recettes et solder les dépenses du Trésor, la loi n’a jamais reconnu 
+d’autres agents que ceux désignés par le gouvernement, responsable, et qui les contrôle. La garde des richesses nationales doit être confiée à un Trésor public, créé par 
+la loi, sous une responsabilité et un contrôle de ce genre. On ne doit pas s’imaginer 
+que les auteurs de la constitution aient pu vouloir créer un Trésor public, lieu de 
+dépôt et de conservation de l’argent du pays, qui ne fût pas responsable envers le 
+gouvernement. Le premier congrès créé par la constitution voulut, par un acte en date 
+du 2 septembre 1789, établissant un Trésor public, qu’il fût nommé un trésorier, et le 
+chargea de recevoir et de conserver l’argent du pays, lui enjoignant en même temps 
+de soumettre à l’examen du secrétaire du Trésor et du contrôleur, l’argent dont il serait 
+dépositaire. 
+][
+Que les banques, soit nationales, soit d’État, n’aient jamais pu être considérées 
+comme pouvant tenir lieu du Trésor dont parle la constitution, pour la garde des 
+ressources du pays, cela est évident par le fait qu’à cette époque il n’existait pas de 
+banque nationale, et qu’il n’y avait aux États-Unis que trois ou quatre banques d’États, 
+d’un capital borné. On eut d’abord recours à ces banques comme dépositaires, jusqu’à 
+un certain degré, mais nullement avec l’intention déclarée de les employer d’une façon 
+permanente, et de les substituer à la trésorerie créée par la constitution. Lorsque, 
+par la suite, on y eut encore recours de temps en temps, on y fut porté par des motifs 
+présumés de convenance. 
+][
+Notre expérience nous a démontré que lorsque des associations de banquiers sont 
+devenues dépositaires du Trésor public et devenaient par là même la trésorerie, le 
+gouvernement ne pouvait plus disposer à son gré de l’argent de l’État pour les dépenses 
+publiques. La dernière banque des États-Unis a fait faillite. Les banques d’États, dont 
+on se servit ensuite, ont également manqué à leurs engagements. Mais il y a quelques 
+années, et lorsqu’elles avaient en caisse des millions appartenant au pays, le gouvernement fut presque entraîné à une banqueroute, et le crédit public sérieusement exposé, 
+parce qu’elles ne voulaient ou ne pouvaient pas satisfaire à leurs engagements, dans 
+la seule monnaie reconnue par la constitution. Leur faillite eut lieu en temps de paix, 
+et occasionna parmi le peuple beaucoup de gêne et de pertes. Si le pays eût alors été 
+engagé dans une guerre avec l’étranger, cette gêne et ces pertes auraient été beaucoup plus considérables et eussent occasionné les plus grands malheurs. L’argent du 
+Trésor ne doit pas être confondu avec les fonds appartenant aux banques et aux individus, ni être employé à des dépenses privées. Lorsqu’on le dépose dans les banques 
+pour y être gardé, on le leur prête, de fait, sans intérêt, et elles le prêtent avec intérêt 
+à ceux qui le leur empruntent. De la sorte, l’argent du Trésor est converti en capital 
+de banque, est mis en circulation et emprunté du dehors, au bénéfice particulier des 
+banquiers ; puis, lorsqu’il est réclamé (comme on le vit en 1837), il est peut-être dans 
+la poche de l’emprunteur, au lieu d’être dans le Trésor public que la constitution avait 
+en vue. Les auteurs de la constitution n’ont jamais pu vouloir que l’argent du pays fût 
+ainsi consacré à l’usage des particuliers et placé en dehors du contrôle du gouvernement.
+][
+Les banques, dépositaires du Trésor public, sont souvent tentées, par l’appât du 
+gain, d’accroître leurs prêts, d’augmenter leur circulation, et d’exagérer ainsi, sinon 
+de faire naître un esprit de spéculation extravagante qui, tôt ou tard, doit entraîner la 
+ruine de milliers d’individus. Si, au contraire, on ne permet pas un tel usage des fonds 
+publics, mais qu’on les conserve à la trésorerie, d’où ils soient comptés aux créanciers 
+de l’État en espèces d’or ou d’argent, les banques ne seront plus tentées, par un tel 
+dépôt, de donner à leurs spéculations une extension inconvenante, la monnaie cou- 
+rante constitutionnelle circulera en plus grande quantité, par suite des recettes et des 
+dépenses publiques effectuées en cette monnaie, et les banques elles-mêmes se trou- 
+veront ainsi dans une position meilleure et plus assurée. 
+][
+Actuellement, les banques d’États sont employées comme dépositaires, mais sans 
+qu’il existe de règlements convenables qui garantissent les fonds de l’État contre les 
+éventualités, les excès, les révulsions, suspensions et défalcations auxquels elles sont 
+constamment exposées, par suite d’excès d’émission de valeurs, d’excès de spécula- 
+tion, d’un désir immodéré de gain ou d’autres causes. Dans toutes les circonstances, 
+et toutes les fois que cela était praticable, le secrétaire du Trésor s’est fait délivrer 
+caution solidaire des dépôts effectués, à l’aide de stocks des État-Unis, ou de ceux des 
+États dont le crédit était bon. Quelques-unes des banques de dépôt ont donné ce genre 
+de garanties et d’autres l’ont refusé. 
+][
+Pensant qu’il est nécessaire, pour la sûreté des fonds du Trésor et des intérêts publics, que ces fonds ne soient pas mêlés à ceux des banques, je recommande au congrès de créer une loi qui en ordonne le retrait et qui crée un Trésor public constitutionnel où les fonds de l’État seraient déposés. Le Trésor public constitutionnel que je recommande deviendrait un lieu de dépôt sûr pour les fonds publics, et ne pourrait 
+ni emprunter, ni escompter ; il ne pourrait non plus mettre aucun papier en circulation. Nul doute qu’un Trésor public, tel que la constitution le voulait créer, ne dût 
+être indépendant de toute association financière. L’argent du peuple doit être conservé 
+dans le Trésor du peuple institué par la loi, et rester sous la garde d’agents du peuple 
+choisis par la nation dans les formes voulues par la constitution, d’agents directement 
+responsables envers le gouvernement, qui aient fourni les cautionnements et prêté 
+les serments convenables, qui soient, enfin, passibles de peines sévères pour toute 
+malversation, usage à leur bénéfice, ou dilapidation des fonds publics, ou pour toute 
+autre négligence dans l’accomplissement de leurs devoirs. Dire que le peuple ou le 
+gouvernement est incapable de se livrer à la garde de ses propres fonds dans un 
+Trésor créé par lui-même, ou qu’on ne peut lui en confier la garde, mais qu’on doit, 
+pour cet objet, compter sur les présidents, caissiers et actionnaires des associations 
+de banque, qui n’ont point été nommés par eux et ne sont point responsables envers 
+eux, ce serait affirmer que le peuple est incapable de se gouverner lui-même. 
+][
+En recommandant rétablissement d’un Trésor public constitutionnel pour y déposer 
+les fonds publics, je désire que la loi pourvoie en même temps à sa sûreté, et qu’on 
+ne laisse subsister de formalités discrétionnaires et de contrôle dans cette institution, 
+que ce qui peut être nécessaire pour en diriger les versements résultant d’appropriations déterminées par la loi. 
+](nbsp)[
+,(emph[Terres]). Sous le pouvoir de notre système territorial actuel qui fixe à 1 dollar 25 
+cents par acre le minimum du prix d’achat des terres appartenant à l’État, une 
+grande quantité de terres de qualité inférieure reste à vendre, parce qu’on n’en 
+veut pas donner ce prix. Il résulte des registres de l’Administration générale des 
+terres que, parmi les terres publiques restant à vendre dans les différents États où 
+elles sont situées, 39,105,577 acres ont été mis en vente pendant plus de 20 ans ; 
+49,638,644 acres Font été plus de 15 ans ; 73,074,600 acres, plus de 10 ans ; et 
+106,176,961 acres, plus de 5 ans. La plus grande partie de ces terres restera non 
+vendue, au prix minimum déterminé, aussi longtemps que de larges portions de territoire, dont les meilleurs lots n’ont pas été achetés, seront annuellement mis en 
+vente par le gouvernement. Afin de parvenir à vendre et exploiter ces terres inférieures, je recommande d’en abaisser proportionnellement le prix au-dessous du 
+minimum actuel, bornant la vente au taux réduit, aux cultivateurs et colons, et à une 
+quantité d’acres déterminée. Si ces terres étaient réduites proportionnellement, pour 
+une quantité donnée, à un dollar par acre, et, cette série épuisée, réduite à un taux 
+encore plus bas pour une seconde et une troisième série, une grande quantité de ces 
+terres seraient vendues, et plus d’un bon citoyen, qui ne peut acquérir au taux actuel, 
+achèterait alors un asile pour sa famille et pour lui-même. En adoptant ces mesures 
+de réduction proportionnelle du prix, ces terres seront vendues à leur valeur réelle, 
+et les États où elles se trouvent n’auront plus à souffrir du désagrément, sinon de 
+l’injustice auxquels ils sont exposés en voyant sur leurs frontières de grandes quantités de terres appartenant à la République, et qui ne peuvent être taxées pour subvenir à l’entretien de leur gouvernement local. 
+][
+Je recommande de continuer à accorder des ,(emph[préemptions]), dans l’acception la plus 
+étendue et la plus libérale du mot, à tous ceux qui se sont établis ou qui pourront 
+plus tard s’établir sur les terres de la République, arpentées ou non, dont le titre 
+indien serait éteint à l’époque de la prise de possession. 
+][
+L’expérience a prouvé que, par suite des combinaisons des acheteurs et d’autres 
+causes, une très-petite quantité des terres de l’État, lorsqu’on les vendait à l’encan, 
+était achetée à un taux plus élevé que le minimum établi par la loi. Malgré cela, les 
+colons ne peuvent que rarement acquérir des terres ou s’agrandir à ce prix, dans les 
+encans, parce que les spéculateurs, plus habiles, et à l’aide du capital qu’ils possè- 
+dent, leur rendent la concurrence impossible. En détruisant ainsi toute concurrence, 
+ces capitalistes spéculateurs achètent d’ordinaire ces terrains, ainsi que les annexes 
+des cultivateurs, au prix minimum du gouvernement, et expulsent ces derniers de 
+leur domicile ou exigent d’eux, pour ces mêmes terrains, et suivant qu’ils sont plus 
+ou moins capables de payer, une somme double ou quadruple de celle qu’ils ont 
+payée au gouvernement. C’est à l’esprit entreprenant et à la persévérance des braves 
+pionniers de l’ouest, qui s’enfoncent dans le désert avec leurs familles, supportent les 
+fatigues et les privations, bravent les dangers inséparables de ces sortes de colonisations, et frayent une route aux troupes d’émigrants qui ne tardent pas à les suivre, 
+que nous devons, en grande partie, l’extension rapide et l’agrandissement de notre 
+patrie. 
+][
+L’expérience a prouvé qu’aucune portion de notre population n’est plus dévouée 
+au pays que ces braves et infatigables habitants de la frontière, plus prompte à obéir 
+à l’appel de la République et à défendre ses droits et son honneur, quel que soit l’ennemi et de quelque côté qu’il vienne. On doit les protéger contre les spéculations avides, et leur assurer, au minimum légal, l’humble domicile que leurs travaux ont amélioré. Dans ce but, toutes les restrictions vexatoires et inutiles que leur imposent les 
+lois de ,(emph[préemption]) actuelles, doivent être rejetées ou modifiées. La véritable politique du gourernement doit être de faciliter aux citoyens le moyen de devenir possesseurs, à un prix bas ou modéré, de petites portions de notre vaste domaine public. 
+][
+Le système d’après lequel sont actuellement administrées les terres à mines dans 
+les États-Unis, est jugé essentiellement vicieux. Plus d’un million d’acres des terres 
+de l’État qui sont supposées contenir du minerai de plomb et autres métaux, ont été 
+exclues de la vente, et beaucoup d’individus les ont prises à ferme pour une rente 
+déterminée. La méthode des baux a ferme est devenue non-seulement peu lucrative 
+pour le gouvernement, mais désavantageuse même pour les fermiers, et deviendrait, 
+si on la continuait, la source d’un grand nombre de difficultés entre le gouvernement 
+et les tenanciers. Il résulte d’enregistrements officiels que le montant des rentes perçues par le gouvernement pendant les années 1841, 1842, 1843 et 1844, s’est élevé à 
+6,354 dollars 74  c., et que les dépenses occasionnées par ce système, pendant la même 
+période, y compris les salaires de surintendants, d’agents, de commis et dépenses 
+imprévues, se sont élevées à 26,111 doll. 11 c ., le revenu ne s’élevant pas au quart des 
+dépenses. A ce déficit pécuniaire, il faut ajouter le tort fait au public par la destruction des bois, ainsi que le peu de soin et d’ordre avec lequel les mines sont exploitées. 
+Ce système a fait naître bien des contestations entre le gouvernement et des particuliers, a occasionné de l’irritation et de l’agitation dans les districts où se trouvent les 
+mines, et a entraîné l’État en de lourdes dépenses additionnelles. On pense que tant 
+que durera le système actuel des baux à ferme, pour ces sortes de terres, l’État sera 
+exposé à des pertes de ce genre et à de semblables embarras. Ces terres sont maintenant administrées par le département de la guerre, dont les devoirs n’ont avec elles 
+aucune relation propre ou naturelle. Je recommande l’extinction du système actuel 
+et la transmission de la gérance de ces terres à l’administration générale des terres de 
+la République, par assimilation avec les autres propriétés nationales, pour être mises 
+en vente et achetées aux conditions que le congrès, dans sa sagesse, aura cru devoir 
+prescrire, réservant, en faveur du gouvernement, un tant pour cent équitable sur le 
+produit brut du minéral exploité ; désirant, en outre, que le principe de ,(emph[préemption]) 
+s’étende aux mineurs et cultivateurs résidents, au minimum qui sera fixé par le congrès. 
+](nbsp)[
+,(emph[Postes.]) Le rapport du directeur général des postes, que je vous communique avec 
+le présent, contient le détail de toutes les opérations de ce département pendant le 
+cours de la dernière année. Il résulte de ce rapport que les dépenses des postes pour 
+cette année ont dépassé les revenus d’une somme qui peut être évaluée 1 ou 2 millions 
+de dollars. Ce déficit a été occasionné par la réduction du tarif des postes, conséquence 
+de l’acte du 3 mars dernier. Tout le monde est d’accord que ce département doit se 
+soutenir par lui-même, en payant ses dépenses par son revenu. Le congrès n’a jamais 
+songé à faire de ce département une source de revenu général, excepté pendant la 
+courte période de la dernière guerre avec la Grande-Bretagne ; mais ce département ne 
+peut en aucun cas devenir une charge pour le Trésor public de l’Union. Si le congrès, 
+comme je le pense, adhère à ce principe, il devient nécessaire, ou de diminuer le présent service des postes, de manière à en réduire les dépenses, ou de modifier l’acte 
+du 3 mars dernier, de manière à en augmenter les revenus. L’extension du service 
+des postes, et les facilités additionnelles nécessitées par la rapide augmentation de la 
+population des États de l’ouest, paraissent empêcher une diminution dans le service, 
+qui aurait pour résultat de limiter les dépenses actuelles. L’intérêt bien entendu de 
+tous exige que, dans le service des postes, le tarif le plus bas soit adopté, mais aussi 
+de manière à ce que les dépenses puissent balancer les recettes. J’appelle l’attention 
+du congrès sur les observations faites à ce sujet par le directeur général des postes, 
+espérant qu’avec quelques modifications dans la loi actuellement en vigueur, et avec 
+une petite augmentation dans les prix actuels, les recettes et les dépenses se trouveront balancées, sans charges ultérieures pour le Trésor public. 
+][
+Des mesures convenables ont été prises, en conséquence de l’acte du 3 mars dernier, 
+pour l’établissement de steamers de correspondance entre ce pays et les pays étrangers. 
+L’importance de ce service se recommande d’elle-même à une grande considération.
+])])
+(document :title "Fragments du message du président des États-Unis"
+	:author "James Knox Polk"
+(container)
+(tous_les_scripts)
+(footer[
+	,(oeuvres)
+]))

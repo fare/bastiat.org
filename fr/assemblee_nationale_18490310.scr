@@ -1,0 +1,121 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Intervention à l’Assemblée nationale sur les incompatibilités, par Frédéric Bastiat")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[,(ref :url "https://gallica.bnf.fr/ark:/12148/bpt6k31547v/f513.item" [,(cite-title[Compte rendu des séances de l’Assemblée nationale])]), t. 8, p. 507.])
+])
+(define bastiatcontent [
+,(date-tag[10 mars 1849.])
+
+,(p*[
+,(sc[Le citoyen Bastiat.]) Je demande la parole contre la clôture.
+][
+Citoyens représentants, je ne concevrais pas que l’Assemblée voulût clore la discussion sur une question aussi importante. Il est impossible que l’Assemblée ne soit pas frappée de la gravité de la question qui lui est soumise, et alors il me semble impossible de clore la discussion pour ainsi dire avant qu’elle soit commencée.
+][
+De quoi s’agit-il, en effet ? Il s’agit de savoir si, parmi tous les fonctionnaires, il y a une catégorie qu’on placera tout à fait à part et pour ainsi dire dans une exception.
+][
+Il est bien vrai que la constitution déclare qu’il y a incompatibilité entre la fonction et le mandat législatif ; mais ce que l’Assemblée a voulu exclure, c’est la fonction et non pas l’homme. Lorsqu’il a été question des militaires, des marins, des ingénieurs, qu’a fait l’Assemblée ? Elle a profité de ce qu’une législation antérieure, qui certainement n’avait pas été faite pour le besoin de la cause, permettait de séparer le grade de l’emploi, elle a profité, dis-je, de cette séparation 
+pour décider que le grade serait conservé au fonctionnaire, et je crois qu’elle a été conséquente. Ce que doit faire l’Assemblée, ce n’est pas d’exclure des hommes, mais d’exclure le danger de la dépendance. Du moment que la fonction reste à la porte, du moment qne le fonctionnaire qui est appelé ici est soustrait aux suggestions de la crainte et de l’espérance, il n’y a plus de danger.
+][
+Eh bien, ce qu’on a fait en vertu d’une législation antérieure, ce qu’on a fait pour les militaires, ce qu’on a fait pour les marins, je demande qu’on le fasse aussi pour la magistrature, pour les fonctionnaires inamovibles. Nous sommes chargés de faire la loi électorale ; nous pouvons donc ici, par un article spécial, faire ce que la législation antérieure nous a donné l’idée de faire ; c’est à nous de trouver le moyen.
+][
+Eh bien, je voudrais que l’on séparât l’homme de la fonction, que la vie judiciaire du magistrat fût suspendue du moment qu’il accepte le mandat législatif. Mais je ne voudrais pas, pour cela, qu’il perdît ses services antérieurs, pas plus que ne les perd le militaire ; le militaire ne perd pas son grade, ses fonctions sont suspendues. Eh bien, que les fonctions des magistrats soient aussi suspendues. Il me semble que l’amendement de M. Degousée répond à ce but, qu’il satisfait à toutes les garanties que l’Assemblée a droit d’exiger.
+][
+Je soumettrai à l’Assemblée une autre observation, c’est celle-ci : Je ne crois pas qu’il y ait dans cette Assemblée ce qu’on appelle un parti pris contre les fonctionnaires eux-mêmes. Ce qu’on redoute, c’est le danger qu’ils peuvent apporter dans l’enceinte législative. Ce danger est de deux natures : c’est que le nombre des fonctionnaires soit trop grand, comme il l’a été à une autre époque ; ou que les fonctionnaires soient assujettis aux caprices du pouvoir exécutif.
+][
+Aujourd’hui, avec le suffrage universel, avec la suspension de la vie administrative, dont on fait une condition aux fonctionnaires, vous n’avez pas à craindre qu’il en vienne un très-grand nombre dans cette enceinte. D’un autre côté, ceux qui y viendront seront dans une condition parfaitement indépendante, dans une condition de parfaite égalité avec leurs collègues ; et s’ils y sont, c’est que leurs concitoyens ont jugé qu’ils avaient les vertus nécessaires pour y être envoyés. Je 
+ne vois donc pas de motifs pour les exclure.
+][
+Mais j’irai plus loin. ,(emph[(Non ! non ! — Aux voix !)]) Le suffrage universel est un principe éminemment absolu et jaloux ; vous ne pouvez pas le limiter d’une manière arbitraire, vous ne pouvez le limiter que lorsque la société a besoin de prendre des garanties. Je conçois parfaitement qu’on dise aux fonctionnaires : Vous êtes fonctionnaires, vous ne pouvez pas être en même temps législateurs. Mais si le fonctionnaire renonce à sa fonction, et qu’il se place ainsi dans une position indépendante, toutes les garanties de la société sont satisfaites, et le reste ne serait qu’une guerre peu digne de l’Assemblée contre les fonctionnaires publics.
+][
+,(sc[Le citoyen président.]) Je vais relire la proposition faite par M. Degousée, qui prendrait place, comme article additionnel, à la suite de l’art. 80 :
+][
+«  À la cessation de leur mandat de représentant du peuple, les fonctionnaires non révocables démissionnaires auront droit aux premières vacances des fonctions qu’ils exerçaient avant d’être représentants ; mais ils ne pourront obtenir d’avancement avant qu’il se soit écoulé six mois depuis la cessation de leur mandat législatif. »
+][
+Je consulte l’Assemblée.
+][
+(La proposition de M. Degousée est mise aux voix et n’est point adoptée.)
+][
+,(sc[Le citoyen Charras.]) Messieurs, je vous propose, afin d’assimiler comptétement tous les fonctionnaires qui, à leur entrée dans l’assemblée législative, auront donné la démission de leurs fonctions, de leur assurer la moitié des vacances.
+,(emph[(Exclamations.)])
+][
+C’est ce qui a lieu pour l’armée.
+][
+,(sc[Le citoyen de Rancé.]) N’insistez pas !
+][
+,(sc[Le citoyen président.]) L’amendement proposé par M. Charras est-il appuyé ? ,(emph[(Non ! non !)])
+][
+Je n’ai pas alors à le mettre aux voix.
+][
+Je mets aux voix l’art. 80.
+][
+,(sc[Le citoyen de Kerdrel.]) Pardon ; j’ai a proposer un changement de rédaction, d’accord avec la commission.
+][
+,(sc[Le citoyen président.]) Vous avez la parole.
+][
+,(sc[Le citoyen de Kerdrel.]) C’est un simple changement de rédaction que j’ai l’honneur de soumettre à l’Assemblée, d’accord avec M. le rapporteur de la commission :
+][
+« Tout fonctionnaire rétribué élu représentant du peuple, et non compris dans les exceptions admises par les art. 77 et 78, sera réputé démissionnaire de sa fonction par le seul fait de son admission comme membre de rassemblée législative, s’il n’a pas opté, avant la vérification de ses pouvoirs, entre la fonction et le mandat législatif. »
+][
+Voulez-vous que je vous dise la raison de ce changement ? ,(emph[(Oui ! oui !)])
+][
+La voici en deux mots : c’est que, d’après l’article de la commission, on serait tenu de faire une chose que, par le fait, on ne ferait pas. En laissant le fonctionnaire dans cette position, bien évidemment il n’opterait jamais avant la vérification de ses pouvoirs.
+][
+,(sc[Le citoyen président.]) L’Assemblée a entendu la rédaction que M. de Kerdrel propose d’accord avec la commission ; je la mets aux voix, en faisant observer que l’on devra substituer, dans cette rédaction, les art. 81, 82 et 83 aux art. 77 et 78.
+][
+(La nouvelle rédaction de l’art. 80 est mise aux voix et adoptée.)
+][
+,(sc[Le citoyen président.]) « Art. 81. Sont, en vertu de l’art. 28 de la constitution, exceptés de l’incompatibilité prononcée par cet article contre toute fonction publique rétribuée et le mandat de représentant du peuple :
+][
+« 1° Les ministres. »
+][
+,(sc[M. Bastiat]) propose la suppression de ce premier paragraphe. ,(emph[(Bruyantes exclamations.)])
+][
+,(sc[Le citoyen Baraguey d’Hilliers.]) L’Assemblée a déjà écarté cette proposition par la question préalable.
+][
+,(emph[Voix diverses.]) On peut changer d’avis ! ,(emph[(Vive agitation.)])
+][
+,(sc[Le citoyen président.]) La parole est à M. Bastiat.
+][
+(Le citoyen président adresse à voix basse quelques mots au citoyen Bastiat, qui est monté à la tribune.)
+][
+,(sc[Le citoyen Bastiat.]) Citoyens, M. le président me fait observer que sur cette question, lors de la seconde lecture, l’Assemblée a voté la question préalable.
+][
+,(emph[Plusieurs voix.]) C’est une erreur !
+][
+,(sc[Le citoyen Bastiat.]) Je n’étais pas présent dans ce moment-là, mais cela m’étonne beaucoup ; car je ne crois pas que, dans aucune législature, il puisse s’élever une question plus grave. ,(emph[(C’est vrai !)]) Elle a occupé nos pères pendant longtemps ; ils l’ont décidée dans le sens que je dis. Elle a occupe tous les gouvernements démocratiques, et tous l’ont décidée dans le même sens. Il n’y a qu’en Angleterre, pays aristocratique par excellence, où l’on a décidé le contraire, et en France, depuis la restauration, on a suivi cet exemple. Je crois donc que ma proposition n’est pas aussi intempestive que pourrait le faire croire la question préalable qu’on m’oppose. ,(emph[(Non ! non ! — Parlez !)])
+][
+Je ne connais pas une compatibilité aussi fausse en principe et aussi funeste dans son application, que celle d’un représentant pouvant devenir et aspirant à devenir ministre.
+][
+Notre gouvernement représentatif est d’un mécanisme extrêmement simple. D’un côté, il y a le pouvoir exécutif, qui nomme ses agents et qui met à leur tête les ministres ; de l’autre côté, une assemblée de représentants du peuple, qui contrôle les actes du pouvoir exécutif et de ses agents, qui apprécie la conduite politique du ministère, qui l’approuve s’ils la trouvent conforme aux intérêts du pays, qui lui refuse son concours, dans le cas contraire.
+][
+Il semble donc qu’il y ait une incompatibilité radicale entre ces deux choses ; car il est évident que si, pendant que les électeurs disent à leurs représentants : Allez à l’Assemblée ; et là, quand le ministère vous proposera de bonnes mesures, adoptez-les, n’importe les hommes ; et s’il vous propose de mauvaises lois, repoussez-les ; il est évident, dis-je, que si, pendant que les électeurs tiennent ce langage, la loi en tient un autre, et dit aux représentants : Vous pouvez être ministres vous-mêmes, il suffit pour cela que vous mettiez les ministres dans leur tort ; ne voyez-vous pas de suite quels inconvénients, quelles intrigues un pareil langage peut faire naître dans une assemblée législative ? ,(emph[(Très-bien ! très-bien !)]) Quant à moi, j’en suis frappé ; j’en suis frappé peut-être parce que, ainsi que cela arrive toujours malheureusement à tout le monde, lorsqu’on s’occupe beaucoup d’une question, on est peut-être trop préoccupé de son importance, on l’exagère ; mais soit que je procède par le raisonnement, soit que je consulte les faits, je crois qu’il n’y a pas de plus grand danger que cette confusion de pouvoirs dans la personne des représentants. Si l’on voulait chercher les causes de presque toutes les grandes calamités politiques, de toutes les guerres inutiles, des profusions, des dilapidations, des corruptions, on les trouverait presque toujours dans les luttes, dans les intrigues, dans les coalitions que suscite au sein des assemblées électives précisément l’admissibilité des députés dans les ministères. ,(emph[(Très-bien ! très bien !)])
+][
+Je crois, messieurs, qu’il faudrait n’avoir jamais jeté les yeux sur l’histoire parlementaire de la Grande-Bretagne, et, de plus, je crois qu’il faudrait avoir dormi depuis 1814 jusqu’à nos jours pour n’être pas frappé de ces dangers.
+][
+Ainsi que je l’ai dit dans une ,(link "incompatibilites_parlementaires" [petite brochure]) que je vous ai fait distribuer… ,(emph[(Ah ! ah ! — Très-bien ! — Parlez !)]) ainsi que je l’ai dit, je défie aucun des représentants d’oser voter une pareille organisation pour les conseils généraux ; je les défie de dire que dans les conseils généraux, lorsque se formera une opposition systématique qui parviendra à mettre le préfet dans l’impossibitité de marcher, que ce sera le chef de cette opposition qui devra devenir préfet. Aucun de vous ne voudrait faire ce présent à son département ; et cependant vous allez l’introduire dans l’enceinte législative elle-même où les questions sont plus brûlantes.
+][
+En effet, ces coalitions dont je parle, qui sont composées généralement de partis hétérogènes, qui ne peuvent s’entendre et qui préparent de grandes difficultés pour l’avenir quant elles arrivent au pouvoir, ces coalitions, avec quoi battent-elles en brèche le ministère ? Avec les questions les plus brûlantes, avec les questions de paix ou de guerre, et en faussant très souvent l’esprit public. Quel parti peut prendre un ministère ayant en face de lui une coalition qui est parvenue à réunir quatre, cinq, six partis hétérogènes, il est vrai, mais qui suffisent pour faire une majorité contre lui ? Il n’en a pas d’autre, je ne l’approuve pas, mais il n’en a pas d’autre que de se créer, de son côté, une majorité à parti pris. C’est ce qu’on a toujours vu, et je défie qu’on cite des ministères qui aient eu quelques années de durée, si ce ne sont ceux qui ont trouvé moyen de se créer une majorité compacte, décidée, qui va jusqu’au bout, et souvent amène des révolutions. ,(emph[(Mouvement très-marqué d’assentiment.)])
+][
+Je termine par une observation importante ; c’est celle-ci : À toutes les époques, sous toutes les formes du régime représentatif, j’aurais demandé l’exclusion des députés des ministères, mais je crois remplir un devoir impérieux en la demandant sous la constitution actuelle, parce que, d’après notre constitution, il est impossible qu’une crise ministérielle ne devienne pas, à l’instant même, une question beaucoup plus grave, un conflit de pouvoir. ,(emph[(Murmures divers.)])
+][
+Je dois exprimer librement ma pensée. ,(emph[(Parlez ! parlez !)])
+][
+Sous le régime déchu, les crises ministérielles ont fait un mal immense ; vous pouvez invoquer l’expérience de ceux qui les ont suivies, je suis convaincu qu’ils viendront confirmer ce que j’ai dit à cette tribune ; mais enfin, il y avait une solution légale lorsqu’une coalition était formée, lorsque le ministère avait combattu, le pays avait pu entendre et se faire une opinion souvent fausse, il est vrai, mais il avait pu se faire une opinion sur la valeur relative de la coalition contre le ministère ; alors le roi pouvait dissoudre l’assemblée et en appeler aux électeurs ; les électeurs se prononçaient par la majorité ; c’est le pays qui décidait entre ces deux pouvoirs. Aujourd’hui, nous n’avons plus cette ressource. S’il y a une crise ministérielle, si les coalitions, si les partis parviennent à créer une opposition systématique, et qu’il y ait une crise ministérielle, voilà un conflit de pouvoir, conflit sans solution possible, ou du moins il ne peut y avoir qu’une solution que tous nous devons redouter.
+][
+Si on a pu passer là-dessus sous d’autres régimes, parce qu’avec des rouages compliqués, on était arrivé à éviter, jusqu’à un certain point, les inconvénients ; aujourd’hui que la constitution n’admet pas ces rouages modérateurs ou pondérateurs, comme on voudra les appeler, aujourd’hui, nous sommes toujours en présence d’un conflit de pouvoirs à chaque crise ministérielle, et la question se résume à savoir si l’admissibitité des députés aux ministères n’est pas une cause de crise ministérielle et de conflit de pouvoirs. Cela ne peut pas faire l’objet d’un doute. Il suffit qu’une question politique surgisse pour que les grandes passions politiques s’échauffent, pour que les partis se coalisent. Je ne dis pas que dans mon système il n’y ait des coalitions. Elles se formeront au moins sur le terrain des principes, puisque les ambitions personnelles seront hors de cause. ,(emph[(Très-bien ! — Agitation.)]) Mais en sera-t-il ainsi quand la loi dira aux représentants : Un portefeuille est le prix de la victoire !
+][
+Et remarquez que ce dangereux langage s’adresse justement au représentant qui a le plus de valeur, le plus de mérite, le plus de génie, le plus de force de caractère ; à celui qui se sent la force de porter le poids des affaires publiques : ce sont ces hommes qui, malheureusement, tourneront leur génie contre le bien public ,(emph[(Bruit et chuchottements)]), parce qu’il y aura un intérêt personnel qui les poussera malgré eux. Il ne faut pas connaître le cœur humain pour dire le contraire. ,(emph[(Sensations diverses.)])
+][
+Je m’arrête, messieurs ; je me borne à ces courtes observations. Je terminerai cependant en disant une chose : je ne serais pas éloigné, je ne m’opposerais même pas du tout à ce que l’exception que je propose ne fût pas immédiatement appliquée au premier cabinet qui suivra notre dissolution, parce que ce serait sans cause.
+][
+Ce que vous voulez éviter, ce sont les coalitions, et elles ne pourront pas se faire au début même de la législative. J’ai tant à cœur de faire accepter l’incompatibilité que je propose, que si, par ce moyen, je pouvais lui rallier quelques voix, je n’insisterais pas sur ce point, parce que je n’y vois pas d’inconvénient ; à part cela, je persiste dans l’amendement que j’ai proposé. ,(emph[(Agitation bruyante et prolongée. — La séance est interrompue pendant quelques minutes.)])
+	])
+
+])
+(document :title [Intervention à l’Assemblée nationale sur les incompatibilités]
+	:author (author-FB)
+(container)
+(tous_les_scripts)
+(footer[,(oeuvres),(inedits)]))

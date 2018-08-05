@@ -3,7 +3,8 @@
 (in-bof :title "À M. le rédacteur du Courrier français, par Frédéric Bastiat")
 (define sidebarcontent [
 ,(h5[Sources])
-,(p*[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/71/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 16, p. 71.])
+,(p*[,(ref :url "https://gallica.bnf.fr/ark:/12148/bpt6k4706265c.item" [,(cite-title[Le Courrier français])]) du samedi 11 avril 1846, p. 1, col. 3.]
+	[,(ref :url "https://archive.org/stream/oeuvrescomplt07bast/#page/71/mode/2up" [,(cite-title[Œuvres complètes])]), vol. 7, n° 16, p. 71.])
 ])
 (define bastiatcontent [
 ,(date-tag[,(tj "courrier" [,(cite-title[Courrier français])]) du 11 avril 1846.])

@@ -1,0 +1,52 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bof :title "Intervention à l’Assemblée nationale sur les primes à l’exportation, par Frédéric Bastiat")
+(define sidebarcontent [
+,(h5[Sources])
+,(p*[,(ref :url "https://babel.hathitrust.org/cgi/pt?q1=bastiat;id=uva.x030578940;view=image;start=1;sz=10;page=root;size=100;seq=757;num=749;orient=0" [,(cite-title[Compte rendu des séances de l’Assemblée nationale])]), t. 1, p. 749.])
+])
+(define bastiatcontent [
+,(date-tag[9 juin 1848.])
+
+,(p*[
+,(sc[Le citoyen Bastiat.]) Je suis obligé de répéter que je ne conteste pas les souffrances d’une industrie particulière, ni celle des ouvriers attachés à cette industrie. Malheureusement, à notre époque, il n’y a pas d’industrie dont on puisse contester les souffrances. Je viens seulement appeler votre attention sur l’illusion qui est renfermée dans le remède qu’on vous propose.
+De quoi s’agit-il, et que vous demande-t-on ? On vous dit : Voilà une industrie qui ne vend pas ses produits ; si elle les exportait, elle se dégagerait de ce qu’elle a de trop dans les magasins, et ce serait un grand bienfait, soit pour cette industrie, soit pour les ouvriers qu’elle emploie.
+][
+La chose est incontestable, assurément ; mais comment faire pour atteindre ce but ? Accroître les contributions et augmenter les primes à la sortie. Il me semble que c’est exactement comme si l’on donnait l’argent des contribuables à l’étranger, pour le déterminer à acheter au rabais des draps français. Avec ce système, il n’y a aucune industrie qu’on ne puisse soulager, par exemple, le blé, le vin, les toiles, les articles Paris, qui ne peuvent pas se vendre ; presque toutes nos industries sont dans le même cas, et cela n’affecte pas seulement le propriétaire, mais les ouvriers de l’agriculture et de tous les genres de travaux.
+][
+Eh bien, est-il possible de remédier au mal en se repassant des uns aux autres le fardeau des taxes ? Je ne le crois pas. Si ce moyen était efficace, rien ne serait si facile que de relever toutes les industries. Il suffirait de frapper de nouvelles contributions et de les partager en primes de sortie à tous ceux qui éprouvent de la difficulté dans leurs
+ventes. Ils baisseraient d’autant leurs prix ; et qui réaliserait le profit ? L’acheteur, l’étranger.
+][
+Ces primes sont à peu près comme l’argent pour les fortifications de Langres, dont on parlait tout à l’heure.
+][
+Quand le Gouvernement fait des dépenses à Langres, il fait du bien aux ouvriers de cette ville, et c’est un bien que tout le monde voit ; mais il faut voir aussi d’où vient cet argent. Il sort de la poche des contribuables ; s’ils le donnent à l’Etat, ils ne peuvent plus alors le dépenser autour d’eux, et il y a autant de travail éteint d’un côté qu’il y en a de ravivé de l’autre.
+][
+Il est vrai que l’on dit, au point de vue des classes ouvrières, que le système est bon parce que la contribution retombe sur les riches et est dépensée au profit des classes laborieuses  ; mais je crois que, si la classe laborieuse pense ainsi, elle se fait profondément illusion ; car, en prenant successivement tous les articles du budget des recettes,
+on voit bien que c’est précisément sur les classes laborieuses que retombent les impôts. Malheureusement, les impôts, lorsqu’ils sont portés au point où nous les voyons, doivent porter fatalement sur la masse entière, parce que, autrement, ils ne seraient pas productifs ; et, lorsqu’ils portent ainsi sur la masse entière, alors c’est surtout la classe pauvre et souffrante qui est la plus frappée, et cela est pour ainsi dire fatal, parce qu’on ne pourrait pas faire de distinction sur les divers objets atteints par l’impôt ; ce serait interminable, il faudrait des administrations colossales.
+][
+Qu’en résulte-t-il ? C’est que ce sont les qualités inférieures qui supportent la plus grande partie de l’impôt. Les vins de dernière qualité, les sucres de dernière qualité, les cafés de dernière qualité, toutes ces choses supportent de très-lourds impôts, en sorte que la proportion est beaucoup plus forte pour le peuple, pour les hommes qui sont plus pauvres que pour ceux qui sont plus riches.
+][
+Le projet qu’on vous propose et les plans analogues ont tous le même inconvénient.
+][
+Si le Gouvernement pouvait donner ces primes avec de l’argent qu’il ferait venir du Mexique ou de quelque Eldorado, j’y souscrirais avec empressement ; mais il le prend dans la poche même de ceux qu’il s’agit de soulager ; ce sont ceux mêmes qui voient augmenter d’année en année l’impôt sur le tabac, sur le sel, sur le vin, sur la viande ;
+et ils sont dans une funeste illusion, s’ils ne croient pas que
+c’est avec cet argent, en définitive, qu’on donne des primes
+à l’exportation, qui n’ont d’autre effet que de mettre nos
+produits aux mains des étrangers à un prix moindre que
+celui que nous payons nous-mêmes.
+][
+Est-ce là un remède efficace ?
+][
+Pour s’en assurer, il suffirait de présenter successivement cette coupe des primes aux lèvres de toutes les industries, et l’on serait bien forcé de reconnaître qu’on n’aurait fait autre chose qu’un immense cadeau aux étrangers.
+Je ne m’oppose pas à la prise en considération, parce que je crois qu’il est toujours utile d’examiner et de discuter de telles questions ; mais j’ai voulu prémunir l’Assemblée contre cette illusion qui fait qu’en voyant le bien accumulé sur un point, on néglige de voir le mal distribué
+sur la masse, car je crois précisément que les largesses de
+l’État qu’on nous offre comme un remède sont précisément
+la cause de nos souffrances. ,(emph[(Très-bien ! très-bien !)])
+	])
+
+])
+(document :title [Intervention à l’Assemblée nationale sur les primes à l’exportation]
+	:author (author-FB)
+(container)
+(tous_les_scripts)
+(footer[,(oeuvres),(inedits)]))

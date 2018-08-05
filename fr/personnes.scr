@@ -218,6 +218,10 @@ Dans un discours de ,(np "bright" [John Bright]) : ,(autolk "ligue_19" "watt_re
 ,(autolk "la_logique_du_moniteur_industriel" "aroux_ref").
 ])
 
+,(person "arrivabene" [
+,(ref :url "lettres_comte_arrivabene.html" [Deux lettres à —])
+])
+
 ,(person "ashburton"  [
 ,(autolk "ligue_8" "baring_ref") ;
 ,(autolk "ligue_9" "baring_ref").
@@ -231,10 +235,6 @@ Allusions : ,(autolk "lettre_coudroy1845g" "ashworth_ref") ; ,(autolk "lettre_
 ,(autolk "ligue_11" "cobden_ref") ;
 ,(autolk "ligue_16" "ashworth_ref") ;
 ,(autolk "ligue_31" "ashworth_ref").
-])
-
-,(person "arrivabene" [
-,(ref :url "lettres_comte_arrivabene.html" [Deux lettres à —])
 ])
 
 ,(person "attila" [
@@ -576,7 +576,7 @@ Sous la plume de Proudhon: ,(ref :url "lettre3.html#blanqui_ref" [Lettre 3]) ;
 ])
 
 ,(person "blondel" [
-,(ref :url "lettre_cheuvreux1849e.html#blondel_ref" [Lettre à Mme Cheuvreux, 3 mai 1849]) ;
+Inconnu mentionné dans une ,(ref :url "lettre_cheuvreux1849e.html#blondel_ref" [lettre à M,(sup[me]) Cheuvreux du 3 mai 1849]).
 ])
 
 ,(person "boileau" [
@@ -737,7 +737,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ])
 
 ,(person "brutus1" [
-,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme])
+Mentionné dans une énumération de figures antiques, dans ,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]).
 ])
 
 ,(person "brutus" [
@@ -748,8 +748,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre9.html#bonaparte_ref" [Lettre 9])
 ])
 
 ,(person "buchanan" [
-,(ref :url "propriete_et_spoliation.html#buchanan_ref" [Propriété et spoliation I]), ,(ref :url "propriete_et_spoliation7.html#buchanan_ref" [VII]) ;
-,(ref :url "propriete_fonciere.html#buchanan_ref" [Propriété foncière])
+Cité dans ,(ref :url "propriete_et_spoliation1.html#buchanan_ref" [Propriété et spoliation I]) et dans le chapitre ,(ref :url "propriete_fonciere.html#buchanan_ref" [Propriété foncière]) des ,(cite-title(ref :url "harmonies.html" [Harmonies économiques])), à propos de la rente foncière.
+][
+Mentionné parmi d’autres économistes dans une ,(ref :url "propriete_et_spoliation6.html#buchanan_ref" [réponse]) de Bastiat à ,(np "considerant" [Victor Considerant]).
+
 ])
 
 ,(person "buckingham" [
@@ -1030,7 +1032,7 @@ Dans une ,(ref :url "lettre_calmetes1821c.html#chesterfield_ref" [lettre]) du 8 
 ])
 
 ,(person "cheuvreux_h" [
-,(ref :url "lettres_cheuvreux.html" [Lettres à —])
+Il nous est resté ,(ref :url "lettres_cheuvreux.html" [33 lettres]) de Bastiat à M,(sup[me]) Cheuvreux. Il est parfois question d’elle également dans les lettres adressées à ,(np "cheuvreux" [M. Cheuvreux]) ou leur fille ,(np "cheuvreux_l" [Louise]). Nous avons également ,(link "lettre_cheuvreux1850w" [une lettre]) de ,(np "paillottet" [P. Paillottet]) qui lui est adressée.
 ])
 
 ,(person "cheuvreux_l" [
@@ -1788,8 +1790,7 @@ Mentionné comme exemple de renoncement aux richesses dans une ,(ref :url "lettr
 	[Cité parmi d’autres figures de l’Antiquité romaine dans ,(ref :url "baccalaureat_et_socialisme.html#fabricius_ref" [Baccalauréat et socialisme]).])
 
 ,(person "falloux" [
-,(ref :url "lettre_cheuvreux1849f.html#falloux_ref" [Lettre à Mme Cheuvreux, juin 1849]) ;
-,(ref :url "lettre_cheuvreux1849k.html#falloux_ref" [Lettre à M. Cheuvreux, 16 septembre 1849]) ;
+Mentionné dans deux lettres à ,(np "cheuvreux_h" [M,(sup[me]) Cheuvreux]) de ,(ref :url "lettre_cheuvreux1849f.html#falloux_ref" [juin 1849]) et du ,(ref :url "lettre_cheuvreux1849k.html#falloux_ref" [16 septembre 1849]).
 ])
 
 ,(person "faucher" [
@@ -1815,16 +1816,22 @@ Mentionné comme exemple de renoncement aux richesses dans une ,(ref :url "lettr
 ])
 
 ,(person "fenelon" [
-,(ref :url "lettre_lamartine_1.html#platon_ref" [Un économiste à M. de Lamartine]) ;
+  Bastiat cite longuement les ,(cite-title(ref :url "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque" [Aventures de Télémaque])) dans ses pamphlets
+  ,(ref :url "baccalaureat_et_socialisme.html#fenelon_ref" [Baccalauréat et socialisme]) et
+,(ref :url "la_loi.html#fenelon_ref" [La Loi]), pour faire de Fénelon un précurseur du communisme.
+  ][
+  Il le mentionne fréquemment parmi d’autres faiseurs d’utopies :
+  ](itemize
+(item [,(ref :url "lettre_lamartine_1.html#platon_ref" [Un économiste à M. de Lamartine]) ;])
+(item [,(ref :url "propriete_et_spoliation4.html#more_ref" [Propriété et spoliation IV]) ;])
+(item [,(ref :url "baccalaureat_et_socialisme.html#fenelon_ref2" [Baccalauréat et socialisme]) (,(inlatin[passim]))])
+(item [et dans les chapitres ,(ref :url "propriete_communaute.html#platon_ref" [Propriété, communauté]) et ,(ref :url "moteur_social.html#say_ref" [Moteur social]) des ,(cite-title(ref :url "harmonies.html" [Harmonies économiques])).])
+    )[
+Citation du ,(cite-title[Traité de l’éducation des filles]), ,(ref :url "https://fr.wikisource.org/wiki/Trait%C3%A9_de_l%E2%80%99%C3%A9ducation_des_filles#110" [chapitre ,(sc[xi])]) : « Après tout, la solidité de l’esprit consiste à vouloir s’instruire exactement de la manière dont se font les choses qui sont les fondements de la vie humaine ; toutes les plus grandes affaires roulent là-dessus. » (Chapitre ,(ref :url "des_besoins_de_l_homme.html#rousseau_ref" [Des besoins de l’homme]) des ,(cite-title(ref :url "harmonies.html" [Harmonies économiques])).)
+][
+Diverses mentions laudatives : 
 ,(ref :url "justice_fraternite.html#fenelon_ref" [Justice et fraternité]) ;
-,(ref :url "la_loi.html#fenelon_ref" [La Loi]) ;
-,(ref :url "propriete_et_spoliation4.html#more_ref" [Propriété et spoliation IV]) ;
-,(ref :url "des_besoins_de_l_homme.html#rousseau_ref" [Des besoins de l’homme]) ;
-,(ref :url "propriete_communaute.html#platon_ref" [Propriété, communauté]) ;
-,(ref :url "moteur_social.html#say_ref" [Moteur social]) ;
-,(ref :url "baccalaureat_et_socialisme.html#platon_ref" [Baccalauréat et socialisme 1]), ,(ref :url "baccalaureat_et_socialisme.html#fenelon_ref" [2]) ;
-,(ref :url "capital_et_rente.html#newton_ref" [Capital et rente]) ;
-,(autolk "lettre1" "newton_ref")
+,(ref :url "capital_et_rente.html#newton_ref" [Capital et rente]) (Cette dernière mention est reprise dans une ,(link "lettre1" [lettre ouverte] "newton_ref") du rédacteur de la ,(cite-title(tj "vp" [Voix du Peuple])) à Bastiat.)
 ])
 
 ,(person "ferrier" [
@@ -2260,7 +2267,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ])
 
 ,(person "heron" [
-,(ref :url "lettre_schwabe1849b.html#heron_ref" [Lettre à Mme Schwabe, 14 octobre 1849])
+  Inconnu mentionné dans une ,(ref :url "lettre_schwabe1849b.html#heron_ref" [lettre]) à ,(np "schwabe_j" [M,(sup[me]) Schwabe]) du 14 octobre 1849.
 ])
 
 ,(person "hiard" [
@@ -2380,7 +2387,7 @@ Sous la plume de Proudhon : ,(ref :url "lettre5.html#kant_ref" [Lettre 5]), ,(r
 ])
 
 ,(person "jomini" [
-,(ref :url "economie_politique_generaux.html" [L’économie politique des généraux])
+,(emph[La science de Jomini]), paraphrase pour la stratégie militaire (,(ref :url "economie_politique_generaux.html" [L’économie politique des généraux])).
 ])
 
 ,(person "jouy" [
@@ -2700,7 +2707,7 @@ Bastiat y fait une rapide allusion dans une ,(ref :url "lettre_calmetes1820a.htm
 ])
 
 ,(person "lepeletier" [
-,(ref :url "la_loi.html#stjust_ref" [La Loi])
+Dans ,(ref :url "la_loi.html#stjust_ref" [La Loi]), on trouve une citation de son ,(ref :url "https://gallica.bnf.fr/ark:/12148/bpt6k288909/f65.image" [plan d’éducation nationale]) présenté à la Convention par ,(np "robespierre" [Robespierre]) le 13 juillet 1793 : « … considérant à quel point l’espèce humaine est dégradée par le vice de notre ancien système social, je me suis convaincu de la nécessité d’opérer une entière régénération, et, si je peux m’exprimer ainsi, de créer un nouveau peuple. »
 ])
 
 ,(person "leroux" [
@@ -2790,9 +2797,10 @@ Sous la plume de Proudhon : ,(ref :url "lettre7.html#lycurgue_ref" [Lettre 7])
 ,(lettre "m" [
 
 ,(person "mably" [
-,(ref :url "la_loi.html#mably_ref" [La Loi]) ;
-,(ref :url "baccalaureat_et_socialisme.html#mably_ref" [Baccalauréat et socialisme]) ;
-,(ref :url "individualisme_et_fraternite.html#hus_ref" [Individualisme et fraternité])
+,(ref :url "la_loi.html#mably_ref" [La Loi]) : citation des ,(cite-title(ref :url "https://gallica.bnf.fr/ark:/12148/bpt6k5698063x/f240.item" [Droits et devoirs du citoyen])).
+][
+Allusions dans ,(ref :url "baccalaureat_et_socialisme.html#mably_ref" [Baccalauréat et socialisme]) et
+,(ref :url "individualisme_et_fraternite.html#hus_ref" [Individualisme et fraternité]).
 ])
 
 ,(person "macgregor" [
@@ -2966,7 +2974,7 @@ Dans un discours de Cobden : ,(autolk "ligue_2" "mehemetali_ref") ;
 ])
 
 ,(person "millevoye" [
-,(autolk "lettre_cheuvreux1850e" "millevoye_ref")
+Allusion au poème ,(cite-title(ref :url "https://fr.wikisource.org/wiki/La_Chute_des_feuilles" [La chute des feuilles])) dans une ,(link "lettre_cheuvreux1850e" [lettre] "millevoye_ref") à ,(np "cheuvreux_h" [M,(sup[me]) Cheuvreux]) d’avril 1850.
 ])
 
 ,(person "milton" [
@@ -3377,41 +3385,62 @@ Simples mentions :
 ])
 
 ,(person "peel" [
-,(ref :url "tarifs_francais_anglais.html#peel_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) (plusieurs fois) ;
-,(ref :url "lettre_cobden1844.html#peel_ref" [Lettre à R. Cobden, 24 novembre 1844]) ;
-,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
+Mentionné de très nombreuses fois à propos de sa réforme des tarifs douaniers.
+][
+Citations de son ,(ref :url "https://api.parliament.uk/historic-hansard/commons/1842/may/10/customs-acts-the-tariff#S3V0063P0_18420510_HOC_57" [discours du 10 mai 1842]) à la Chambre des communes sur les tarifs douaniers :]
+(itemize
+(item [« I believe that on the general principle of free-trade there is now no great difference of opinion, and that all agree in the general rule that we should purchase in the cheapest market and sell in the dearest. » : ,(ref :url "lettre_cobden1844.html#peel_ref" [Lettre à R. Cobden, 24 novembre 1844]) ; ])
+
+  )
+[,(ref :url "tarifs_francais_anglais.html#peel_ref" [Influence des tarifs français et anglais sur l’avenir des deux peuples]) (plusieurs fois) ;
+
 ,(ref :url "commerce_vins.html#peel_ref" [De l’avenir du commerce des vins… (note)]) ;
-,(ref :url "lettre_cobden1846e.html#peel_ref" [Lettre à Cobden, 25 mars 1846]) ;
-,(ref :url "ministre_du_commerce.html#peel_ref" [À M. le ministre de l’Agriculture et du Commerce]) ;
 ,(ref :url "a_la_presse2.html#peel_ref" [À M. le rédacteur en chef de la Presse]) ;
-,(ref :url "angleterre_et_libre_echange.html#peel_ref" [L’Angleterre et le libre-échange]) ;
-,(ref :url "sel_poste_douane.html#peel_ref" [Le sel, la poste, la douane]) ;
 ,(ref :url "cpe.html#peel_ref" [Curieux phénomène économique]) ;
+,(ref :url "paix_et_liberte.html#peel_ref" [Paix et liberté]) ;
+,(ref :url "anglomanie_anglophobie.html#peel_ref" [Anglomanie, anglophobie]) ;
+,(ref :url "sentinelle4.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
+,(ref :url "sentinelle5.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
+,(autolk "lettre_cobden1846b" "peel_ref") ;
+,(autolk "lettre_paulton" "peel_ref") ;
+][
+Accusation d’insincérité :
+,(ref :url "incompatibilites_parlementaires.html#peel" [Incompatibilités parlementaires]) ;
+,(ref :url "lettre_larnac.html#smith_ref" [De la réforme parlementaire]) ;
+,(ref :url "traite_belge.html#peel_ref" [La tribune et la presse à propos du traité belge]) ;
+][
+Simples allusions :
+,(ref :url "ministre_du_commerce.html#peel_ref" [À M. le ministre de l’Agriculture et du Commerce]) ;
+,(ref :url "angleterre_et_libre_echange.html#peel_ref" [L’Angleterre et le libre-échange]) ;
 ,(ref :url "invasion_produits_etrangers.html#cobden_ref" [À quoi se réduit l’invasion]) ;
 ,(ref :url "de_la_moderation.html#peel_ref" [De la modération]) ;
-,(ref :url "paix_et_liberte.html#peel_ref" [Paix et liberté]) ;
 ,(ref :url "des_salaires.html#cobden_ref" [Des salaires]) ;
 ,(ref :url "discours_4.html#peel_ref" [Conséquences comparées du régime protecteur et du libre-échange]) (plusieurs fois) ;
 ,(ref :url "pdfe1846.html#peel_ref" [À MM. les électeurs de l’arrondissement de Saint-Sever]) ;
 ,(ref :url "liberte_commerciale.html#peel_ref" [Liberté commerciale]) ;
 ,(ref :url "courrier_francais.html#peel_ref" [À M. le rédacteur du ,(cite-title[Courrier français])]) ;
-,(ref :url "introduction_cobden_ligue.html#peel_ref" [Introduction à Cobden et la Ligue]) (note) ;
-,(ref :url "incompatibilites_parlementaires.html#peel" [Incompatibilités parlementaires]) ;
-,(ref :url "lettre_larnac.html#smith_ref" [De la réforme parlementaire]) ;
-,(ref :url "anglomanie_anglophobie.html#peel_ref" [Anglomanie, anglophobie]) ;
 ,(ref :url "discours_7.html#peel_ref" [Septième discours]) ;
-,(ref :url "traite_belge.html#peel_ref" [La tribune et la presse à propos du traité belge]) ;
 ,(ref :url "discours_1.html#cobden_ref" [Discours à Bordeaux]) ;
 ,(ref :url "au_journal_de_lille.html#peel_ref" [Au ,(cite-title[Journal de Lille])]) ;
-,(ref :url "ligue_33.html#mi_ref" [Deux Angleterre]) ;
 ,(ref :url "lettre_cobden1845d.html#peel_ref" [Lettre à Cobden, 13 décembre 1845]) ;
-,(ref :url "sentinelle4.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 2]) ;
-,(ref :url "sentinelle5.html#peel_ref" [Liberté commerciale, état de la question en Angleterre 3]) ;
 ,(ref :url "sentinelle8.html#peel_ref" [Question des sucres en Angleterre]) ;
-,(autolk "lettre_cobden1846b" "peel_ref") ;
-,(autolk "lettre_paulton" "peel_ref") ;
-,(autolk "lettre_coudroy1846c" "peel_ref") ;
 ,(autolk "lettre_cobden1846q" "peel_ref") ;
+][
+Allusion à un discours :
+,(ref :url "introduction_cobden_ligue.html#peel_ref" [Introduction à Cobden et la Ligue]) (note) ;
+][
+À propos de l’acte de navigation :
+,(ref :url "lettre_cobden1846e.html#peel_ref" [Lettre à Cobden, 25 mars 1846]) ;
+
+][
+À propos de la réforme postale :
+,(ref :url "sel_poste_douane.html#peel_ref" [Le sel, la poste, la douane]) ;
+][
+Mentionné parmi d’autres noms :
+,(ref :url "lettre_lamartine_1.html#smith_ref" [Un économiste à M. de Lamartine]) ;
+,(ref :url "ligue_33.html#mi_ref" [Deux Angleterre]) ;
+][
+Fréquemment mentionné dans les discours des ligueurs anglais :
 ,(autolk "ligue_1" "cobden_ref") ;
 ,(autolk "ligue_3" "peel_ref") ;
 ,(autolk "ligue_4" "peel_ref") ;
@@ -3568,10 +3597,9 @@ Sous la plume de Proudhon : ,(ref :url "lettre13.html#platon_ref" [Lettre 13])
 ])
 
 ,(person "polk" [
-,(ref :url "introduction_cobden_ligue.html#peel_ref" [Introduction à Cobden et la Ligue]) (note) ;
-,(ref :url "discours_7.html#polk_ref" [Septième discours]) ;
-,(ref :url "discours_1.html#polk_ref" [Discours à Bordeaux]) ;
-,(autolk "armements_en_angleterre_2" "polk_ref")
+Son ,(ref :url "../autres/message_polk.html" [message]) préconisant l’abaissement des tarifs douaniers en 1846 est mentionné trois fois : dans le ,(ref :url "discours_1.html#polk_ref" [Discours à Bordeaux]) en février 1846, dans le ,(ref :url "discours_7.html#polk_ref" [Discours à Paris]) en janvier 1848, et, le même mois, dans l’article ,(autolk "armements_en_angleterre_2" "polk_ref").
+][
+Polk est également mentionné à propos de la querelle anglo-américaine au sujet de l’Oregon et du Texas, dans un discours de ,(np "fox" [William Johnson Fox]) cité en note de l’,(ref :url "introduction_cobden_ligue.html#peel_ref" [Introduction]) à ,(cite-title(ref :url "cobden_ligue.html" [Cobden et la Ligue])).
 ])
 
 ,(person "pope" [
@@ -3587,6 +3615,10 @@ Citation de l’,(cite-title(ref :url "https://archive.org/stream/popesessayonma
 ,(autolk "lettre_cobden1849c" "porter_ref") ;
 ,(autolk "ligue_4" "porter_ref") (note) ;
 ])
+
+,(person "potonie" [
+,(autolk "lettre_potonie")
+  ])
 
 ,(person "prince" [
 ,(autolk "lettre_cobden1850b" "prince_ref")
@@ -3975,15 +4007,15 @@ Simple mention :
 ])
 
 ,(person "sakoski" [
-,(ref :url "peur_d_un_mot.html#sakoski_ref" [La peur d’un mot])
+Mentionné dans ,(ref :url "peur_d_un_mot.html#sakoski_ref" [La peur d’un mot]).
 ])
 
 ,(person "salamanca" [
-,(ref :url "guerre_aux_chaires_d_economie_politique.html#lasagra_ref" [Guerre aux chaires d’économie politique])
+Ministre des finances espagnol en 1847, mentionné à ce titre dans ,(ref :url "guerre_aux_chaires_d_economie_politique.html#lasagra_ref" [Guerre aux chaires d’économie politique]).
 ])
 
 ,(person "salluste" [
-,(ref :url "questions_conseils_generaux.html#salluste_ref" [D’autres questions aux Conseils généraux]) ;
+Mentionné avec ,(np "titelive" [Tite-Live]) dans ,(ref :url "questions_conseils_generaux.html#salluste_ref" [D’autres questions aux Conseils généraux]).
 ])
 
 ,(person "salvandy" [
@@ -4124,10 +4156,10 @@ Sous la plume de Proudhon :
 ])
 
 ,(person "schwabe_s" [
-,(ref :url "lettres_schwabe.html" [Trois lettres à —]) ;
-,(ref :url "lettre_cobden1848e.html#schwabe_ref" [Lettre à Cobden, 27 mai 1848]) ;
-,(ref :url "lettre_cobden1850c.html#schwabe_ref" [Lettre à Cobden, 9 septembre 1850]) ;
-,(autolk "lettre_cobden1850a" "schwabe_ref")
+,(ref :url "lettres_schwabe.html" [Trois lettres]) de Bastiat lui sont adressées.
+][
+Mentionné dans trois lettres à ,(np "cobden" [Cobden]) : ,(ref :url "lettre_cobden1848e.html#schwabe_ref" [27 mai 1848]), ,(link "lettre_cobden1850a" [3 août 1850] "schwabe_ref") et
+,(ref :url "lettre_cobden1850c.html#schwabe_ref" [9 septembre 1850]).
 ])
 
 ,(person "scialoja" [
