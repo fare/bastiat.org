@@ -1,0 +1,30 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-boe :title "Frédéric Bastiat - Bastiat.org") ;; - We debunk economic fallacies since 1845
+(set! =boe.url= "")
+(set! =bof.url= "../fr/")
+(document :title "Frédéric Bastiat"
+(center(font :size "+2" (strong[
+,(Bastiat.org)
+]))) ;; ,(--) We debunk economic fallacies since 1845.
+(br)
+
+;;(subtitle[All About Frédéric Bastiat])
+(table :width "100%"
+(tr (tdLT(itemize)))
+(tdRT
+(tag :img :src "../pic/bastiat1.jpg"
+     :alt "Portrait de Frédéric Bastiat")))
+(tr (td :colspan 2 :align 'center
+(tag :form :method 'get :action "http://bastiat.org/search.php"
+(tag :input :type 'text :name "q" :size 31 :maxlength 255 :value "")
+(tag :input :type 'hidden :name "hl" :value "fr")
+(tag :input :type 'submit :name "Bastiat.org" :value "Bastiat @ Google")))))
+
+(itemize
+(item[,(ref :url "http://sachvui.com/sachvui-686868666888/ebooks/2018/pdf/Sachvui.Com-luat-phap-claude-frederic-bastiat.pdf"
+	[The Bastiat-Proudhon Debate on Interest (1849-1850)])]))
+;;(tag :address
+;;(tag :p :align 'right
+;;     (ref :url [mailto:webmaster,(at)bastiat.org]
+;;	  [Committee to Preserve the Works of Frédéric Bastiat]))))
