@@ -10,31 +10,31 @@ Installing the toolchain
 
   1. Install [sbcl](http://sbcl.org/). On Ubuntu and other debian-based distributions, use:
 
-        sudo apt-get install sbcl
+	sudo apt-get install sbcl
 
   2. Download [Quicklisp](https://www.quicklisp.org/beta/):
 
-        wget https://beta.quicklisp.org/quicklisp.lisp
+	wget https://beta.quicklisp.org/quicklisp.lisp
 
   3. Install Quicklisp:
 
-        sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)'
+	sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)'
 
   4. Download and compile [Exscribe](http://cliki.net/Exscribe):
 
-        mkdir -p ~/common-lisp/
-        cd ~/common-lisp/
-        git clone https://github.com/fare/fare-scripts.git
-        git clone https://gitlab.common-lisp.net/frideau/exscribe.git
-        sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/executable)'
+	mkdir -p ~/common-lisp/
+	cd ~/common-lisp/
+	git clone https://github.com/fare/fare-scripts.git
+	git clone https://gitlab.common-lisp.net/frideau/exscribe.git
+	sbcl --eval '(load "~/quicklisp/setup")' --eval '(ql:quickload :exscribe/executable)'
 
   6. Make sure that your system can find the `exscribe` program:
 
-        # One option is to create a symlink at a well-known location:
-        sudo ln -sf ~/common-lisp/exscribe/exscribe /usr/local/bin/
+	# One option is to create a symlink at a well-known location:
+	sudo ln -sf ~/common-lisp/exscribe/exscribe /usr/local/bin/
 
-        # Alternatively, just extend your `$PATH` variable:
-        PATH=$PATH:~/common-lisp/exscribe
+	# Alternatively, just extend your `$PATH` variable:
+	PATH=$PATH:~/common-lisp/exscribe
 
 
 Building the website
@@ -44,13 +44,14 @@ Once you've properly installed your toolchain, you can build the website with:
 
 	make
 
-Then point your browser to the index file and browse, like:
+Repetitive output will follow that lasts a couple of minutes; be patient
+it's not an error! Then point your browser to the index file and browse:
 
-    chrome file://$PWD/fr/index.html
+	chrome file://$PWD/index.html
 
 or:
 
-    firefox file://$PWD/en/index.html
+	firefox file://$PWD/en/index.html
 
 
 Adding a new file
@@ -74,7 +75,7 @@ Either:
 
    2. Have me add you to
       [the official repository on github](http://github.com/fare/bastiat.org),
-      and to the the bastiat account on bespin
+      and to the bastiat account on bespin
 	  (maybe also get [an account on bespin.org](bespin.org/application.html)).
 	  Then you can `make bespin` to rebuild the website.
 
