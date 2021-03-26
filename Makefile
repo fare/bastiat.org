@@ -1,4 +1,4 @@
-all: allfiles
+all: allfiles $(dependencies_file)
 .PHONY: all
 
 .DELETE_ON_ERROR:
@@ -23,6 +23,10 @@ dep:
 .PHONY: clean
 clean:
 	./build.sh clean
+
+.PHONY: distclean
+distclean:
+	./build.sh distclean
 
 BA := $(shell pwd)
 

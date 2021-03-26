@@ -15,6 +15,11 @@ clean() {
   done
 }
 
+distclean() {
+  clean
+  rm -f .depend
+}
+
 depend() {
   printf '%s\n\n' '.PHONY: allfiles'
 
