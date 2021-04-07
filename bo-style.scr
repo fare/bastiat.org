@@ -57,6 +57,17 @@
 	       :middle (strong(Liben.ref))
 	       :right [Un sitio por ,(FRR) ,(webbug)]))
 
+(define-markup (in-bohu (:title #f) (:charset *default-charset*))
+  (apply* with-header :title title :lang 'hu :charset charset
+	  :icon "../pic/favicon.ico"
+    :css csslist
+    :script scriptlist
+	  '())
+  (set! *footnotes-header* (lambda ()))
+  (setf (fdefinition 'q) (lambda (&rest x) (list "“" x "”")))
+  (with-footer :left (bohu-ref #f (tt[Bastiat.org]))
+	       :middle (strong(Liben.ref))
+	       :right [A site by ,(FRR) ,(webbug)]))
 
 (define (hist-note x) (*list "[" x "]"))
 (define (xbof-ref file title)

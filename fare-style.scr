@@ -228,6 +228,8 @@
 (def-ref-maker bo-ref =bo.url= [Bastiat.org])
 (define =boe.url= "http://bastiat.org/en/")
 (def-ref-maker boe-ref =boe.url=)
+(define =bohu.url= "http://bastiat.org/hu/")
+(def-ref-maker bohu-ref =bohu.url=)
 (define =boes.url= "http://bastiat.org/es/")
 (def-ref-maker boes-ref =boes.url= [Bastiat.org])
 (def-ref-maker blog-ref *url-blog-fare/* [Cybernéthique])
