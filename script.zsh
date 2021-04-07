@@ -76,9 +76,13 @@ sizeof() {
 }
 
 update_bespin() {
+    local RSYNC_ARGS="--itemize-changes --recursive --links --checksum --delete --exclude .git ./ bastiat.org:~bastiat/html/"
     make dep &&
     make &&
-    rsync -av --delete --exclude .git ./ bastiat@bastiat.org:html/
+    rsync --dry-run ${=RSYNC_ARGS} &&
+    echo "\nPress [ENTER] to run the above rsync without --dry-run" &&
+    read &&
+    rsync ${=RSYNC_ARGS}
 }
 
 txt2scr() {

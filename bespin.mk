@@ -5,4 +5,4 @@
 
 .PHONY: bespin
 bespin:
-	./script.zsh update_bespin
+	zsh ./script.zsh update_bespin
