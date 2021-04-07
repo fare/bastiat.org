@@ -115,8 +115,32 @@ body {
 	/*background: #f5f5f5;*/
 }
 
-a:link, a:visited {text-decoration: none; color: #33f; z-index:5;}
-a:hover {color: #035;}
+a:link, a:visited {
+  text-decoration: none;
+  color: #006;
+  z-index:5;
+}
+
+a:hover {
+  color: #068;
+  border-bottom: dotted #ccc 1px;
+}
+
+/*
+.footnote a:hover {
+  border: none;
+}
+*/
+
+/* i.e. external links */
+a[target="_blank"] {
+	color: #006;
+}
+
+a[target="_blank"]:hover {
+	color: #068;
+}
+
 a[name] {
 	display: inline-block;
     position: relative;
@@ -605,8 +629,11 @@ div#tabs ul:first-child li {
 }
 
 
+a.ui-tabs-anchor {
+  border: none;
+}
 #tabs a:link, #tabs a:visited {
-
+  color: #006;
 }
 #tabs a:hover {
 	color: #068;
@@ -627,16 +654,6 @@ div#tabs ul:first-child li {
 
 hr {
 	clear: both;
-}
-
-
-
-a[target="_blank"] {
-	color: #008;
-}
-
-a[target="_blank"]:hover {
-	border-bottom: dotted #ccc 1px;
 }
 
 blockquote.small {
