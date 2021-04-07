@@ -18,6 +18,7 @@
 (item(ref :url "#tabs-1" [FR]))
 (item(ref :url "#tabs-2" [EN]))
 (item(ref :url "#tabs-3" [ES]))
+(item(ref :url "#tabs-4" [HU]))
 )
 
 
@@ -90,7 +91,18 @@
 
 ])
 
-))
+(div :id "tabs-4" :class "tabs" [
+
+,(bohu-ref #f [Minden Frédéric Bastiat-ról])
+,(p[Magyarul elérhető művei:])
+,(table :cellspacing 0 :border 0 :cellpadding 0
+(tr
+(td :valign "baseline" )
+(tdLT (strong (bohu-ref "gazdasagi_harmoniak" [Gazdasági harmóniák, XXII fejezet: A társadalom mozgatórugója]))))
+)
+])
+)
+)
 
 (tous_les_scripts)
 )

@@ -1,0 +1,528 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bohu :title "Gazdasági harmóniák")
+
+(document
+ :title "Gazdasági harmóniák"
+ :author (author-FB)
+
+;; https://www.facebook.com/mengerhun/posts/1354781274883483
+(sidebar
+(h5[Forrás])
+(p*[
+Ez a ,(bold [részleges fordítás]) a
+,(bof-ref "harmonies" (cite-title [Les Harmonies Économiques]))
+című mű
+,(bof-ref "moteur_social" (cite-title [XXII-ik fejezete])).
+A magyar fordítás
+,(ref :url "https://oll.libertyfund.org/page/cw5#driving" [az angol fordítás])
+alapján készült, és eredetileg a
+,(ref :url "https://mengerblog.com/" [Carl Menger Intézet])
+,(ref :url "https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" [publikálta]).]
+[Fordította: ,(ref :url "https://www.facebook.com/madlovba3" [Madlovics Bálint]).]
+[A francia eredeti alapján lektorálta: ,(ref :url "https://www.facebook.com/gabor.bertalan" [Gábor Bertalan]).]
+))
+
+;; TODO
+;; nevek es cimek italic-ban
+
+;; a hányatott sorsuk oka saját tudatlanságuk vagy igazságtalanságuk-e:
+;; egyszóra senki nem gondol majd saját egyéniségére azon túl
+
+;; oxford comma
+;;önfenntartás ösztöne, önérdek vagy egyéni érdek
+;;láncolatba tenni az okot és az okozatot, emlékezni és előre látni
+;;Fejlődik, növekszik és kijavítja önmagát.
+;; elengedhetetlen termék, hatás és pótlék
+;; élő, érző, akaró és cselekvő lény
+;; utasít, kényszerít és kivet,
+;; mint például a járadéknak, a cserének vagy a versenynek
+
+;;"A társadalmi ellentétek és fejlődés forrása" -- a fejlodes?
+;;"emberi faj fő ösztönzője, az önérdek nem egy olyan vak erő" -- en ide is raknek egy vesszot az onerdek utan
+;;"Így a döntéseink s velük együtt a cselekvéseink kijavítása" -- ide is vesszo
+;;"feltételezi s kéz a kézben jár" -- en raknek egy vesszot
+;; tevékenységünk mögött álló mozgatót [rakeresni a tobbire is]
+
+
+
+(bastiat
+
+(h1 [XXII. A társadalom mozgatórugója])
+(h2 [Az emberi természet])
+
+(p*[
+
+Nem dolga semmilyen emberi tudománynak, hogy megadja a dolgok végső
+értelmét.
+
+][
+
+Az ember szenved, akár a társadalom. Azt kérdezik, miért. Ez ugyanaz a
+kérdés, mint hogy Isten miért ruházta fel az embert érzésekkel és
+szabad akarattal. E tekintetben senki nem tud többet, mint a saját
+hite szerinti kinyilatkoztatást tanítani.
+
+][
+
+De bármi is volt Isten célja, a konkrét tény, amit az emberi tudomány
+kezdőpontjául választhat, az, hogy az embereket ,(emph[szabadnak és
+érzőnek]) teremtették.
+
+][
+
+Ez annyira igaz, hogy akit meglep, arra kérem: próbáljon elképzelni
+egy élő, gondolkodó, akaró, szerető és cselekvő lényt – tehát valami
+olyasmit, mint egy ember –, de aminek nincsenek érzései vagy szabad
+akarata.
+
+][
+
+Teremthette volna Isten másképp? Az eszünk azt válaszolja, igen, de a
+képzelőerő mindörökké nemmel válaszol majd, olyan alapvetően
+lehetetlen elválasztani gondolatilag az emberi fajt e kettős
+tulajdonságtól. Nos, ,(emph[érzőnek]) lenni annyit tesz, hogy képesek
+vagyunk felfogni egymástól megkülönböztethető érzéseket, vagyis
+olyanokat, amelyek kellemesek vagy fájdalmasak. Ebből fakad a jóllét
+vagy a rosszul-lét. Így, ahogy Isten megteremtette az érzéseket, a
+rossznak vagy a rossz lehetőségének is utat engedett.
+
+][
+
+Azzal, hogy szabad akaratot adott, Isten felruházott minket –
+legalábbis egy bizonyos mértékig – azzal a képességgel, hogy
+elkerüljük a rosszat, és keressük a jót. A szabad akarat feltételezi s
+kéz a kézben jár az értelemmel. Mi haszna volna a választás
+képességének, ha nem lennénk képesek megvizsgálni, összevetni és
+elbírálni? Ilyenformán mindenki, aki e világra lép, magával hoz
+valamilyen ,(emph[mozgatórugó])t és ,(emph[megvilágító])t.
+
+][
+
+A mozgatórugó az a mélyen személyes és ellenállhatatlan impulzus,
+minden erőfeszítésünk lényege, ami a Rossz elkerülésére és a Jó
+keresésére hajt. Úgy is hívják, hogy az önfenntartás ösztöne, önérdek
+vagy egyéni érdek.
+
+][
+
+Sokan elítélték vagy figyelmen kívül hagyták ezt az érzést, de a
+létezése tagadhatatlan. Képtelenek vagyunk rá, hogy ne azt keressük,
+amiről azt gondoljuk, hogy javítani fog a sorsunkon, és elkerüljünk
+mindent, ami ronthat rajta. Ez legalább annyira biztos, mint hogy
+minden molekulában egyszerre van centripetális és centrifugális
+erő. És ahogy a vonzás és taszítás ikermozgása a fizikai világ fő
+mozgatója, elmondhatjuk, hogy az ember vonzalma a boldogsághoz és
+irtózása a fájdalomtól a társadalmi Gépezet fő mozgatórugója.
+
+][
+
+Nem elég azonban, hogy az ember ellenállhatatlanul a jót preferálja a
+rosszal szemben; képesnek kell lennie megkülönböztetni a kettőt. És
+erre adott lehetőséget Isten, amikor megadta az embernek azt a komplex
+és csodálatos képességet, amit értelemként ismerünk. Hogy képesek
+vagyunk a figyelmünket koncentrálni, összevetni, elbírálni, érvelni,
+láncolatba tenni az okot és az okozatot, emlékezni és előre látni –
+ezek a képességek, ha mondhatom így, a fogaskerekei ennek a csodálatra
+méltó eszköznek.
+
+])
+
+(h2 [A társadalmi ellentétek és fejlődés forrása])
+
+(p*[
+
+A mindannyiunkban ott lakozó impulzust az értelmünk irányítja. Az
+értelmünk azonban hibás. Képes tévedni. Összevetünk, elbírálunk, és
+ezek alapján cselekszünk, de lehet, hogy tévedünk, rossz döntést
+hozunk, és a rossz felé fordulunk, mert jónak véljük, vagy elfordulunk
+a jótól, mert azt hisszük, hogy rossz. Ez a társadalmi
+,(emph[diszharmónia]) fő forrása, amely elkerülhetetlen, éppen azért,
+mert az emberi faj fő ösztönzője, az önérdek nem egy olyan vak erő,
+mint a fizikai vonzás, hanem egy olyan erő, amit egy tökéletlen
+értelem vezérel. Legyünk hát tisztában vele, hogy Harmóniát kizárólag
+ezzel a megkötéssel láthatunk. Isten nem látta jónak, ha a társadalmi
+rendet vagy Harmóniát a tökéletességre alapoznánk – sokkal inkább az
+emberiség tökéletesedésére. Igen, az értelmünk lehet hibás, de
+tökéletesíthető. Fejlődik, növekszik és kijavítja önmagát. Újra
+belevág valamibe, majd ellenőrzi; a tapasztalat minden alkalommal
+javít rajta, és a Felelősség ott lebeg mindannyiunk feje fölött
+büntetések és jutalmak rendszere formájában. Minden lépés, amit a
+tévedés útján teszünk, mélyebbre taszít, növekvő fájdalomba, úgyhogy
+nem hagyhatjuk figyelmen kívül a jelzést. Így a döntéseink s velük
+együtt a cselekvéseink kijavítása előbb vagy utóbb elkerülhetetlen
+lesz.
+
+][
+
+Az őt mozgató impulzus hatására, szenvedélyesen keresve a mihamarabbi
+boldogságot, megeshet, hogy az ember mások kárára próbálja majd
+elérni azt, ami számára jó. Ez a társadalmi diszharmónia második,
+bőséges forrása. Az itt említendő kifejezés, a Szolidaritás, melynek
+törvénye ezek végzetes sírja. Az ilyenformán félrevitt egyéni
+erőfeszítések ellenállást váltanak ki minden más hasonló
+erőfeszítésből, amelyek – természetüknél fogva ellenezve a rosszat –
+elvetik az igazságtalanságot, és megbüntetik azt.
+
+][
+
+Így valósul meg a fejlődés, és nem kevésbé fejlődés ez azért, mert
+nagy árat fizetünk érte. Ez egy természetes, általános impulzusból
+következik, valamiből, ami inherens része a természetünknek, és amit
+egy gyakran téves elme irányít egy megromlásra hajlamos akaratnak
+alávetve. A fejlődés a Tévedés és az Igazságtalanság falaiba ütközve
+találkozik mindenható segítséggel a Felelősség és a Szolidaritás
+képében, hogy leküzdje e akadályokat; és nem mulaszthatja el ezt a
+találkozást, mert az épp az említett akadályokból fakad.
+
+][
+
+Ez a belső, elpusztíthatatlan és univerzális hatóerő, ami ott van
+minden egyénben, és ami cselekvő lénnyé teszi; ez a hajlam, hogy
+mindenki a boldogság elérésére és a szerencsétlenség elkerülésére
+törekedjen; ez az érzés képességéhez elengedhetetlen termék, hatás és
+pótlék, ami nélkül nem lenne más, mint egy megmagyarázhatatlan csapás;
+ez a ősi jelenség az eredője minden emberi cselekvésnek. Ez a vonzó-
+és taszítóerő, amit korábban a társadalmi Gépezet fő mozgatórugójának
+neveztünk, kivívta magának a politikai gondolkodók többségének
+ellenszenvét – és ez kétségkívül az egyik legfurcsább rendellenesség,
+amit a tudomány történetében találhatunk.
+
+])
+
+(h2 [Az önfeláldozás téves doktrínája])
+
+(p*[
+
+Igaz, hogy az önérdek az okozója az embernek tulajdonítható minden
+rossznak és minden jónak. Nem is lehet másként, hisz valamennyi
+cselekvésünket az határozza meg. Voltak politikai gondolkodók, akik
+ezt látván, s mivel gyökerestül akarták elpusztítani a rosszat, nem
+tudtak mást javasolni, mint hogy fojtsuk el az ,(emph[önérdek])et. De
+mivel ezáltal magát a tevékenységünk mögött álló mozgatót pusztították
+volna el, úgy gondolták, adhat hát egy másfajta mozgatót: jelesül a
+mások iránt érzett ,(emph[odaadás])t és ,(emph[(ön)feláldozás])t. Azt
+remélték, hogy innentől minden csere és társadalmi megállapodás –
+varázsszóra – az önmagunkról való lemondás elvére helyeződik át. Az
+emberek többé nem saját boldogságukat keresik, hanem mások
+boldogságát. Az érzéseik által közvetített jelzések többé nem
+számítanak, ahogy a felelősségből fakadó terhek és jutalmak sem. A
+természet minden törvényét a feje tetejére állítják; egyszóra senki
+nem gondol majd saját egyéniségére azon túl, hogy hogyan tudja
+szolgálni a közjót. Egyes, magukat mélyen vallásosnak tartó politikai
+gondolkodók az emberi szív eme általános átalakulásától várták a
+tökéletes társadalmi harmónia eljövetelét. Azt elfelejtik közölni,
+hogy mégis hogyan akarják véghezvinni a lényegi első lépést, ami az
+emberi szív átalakulása.
+
+][
+
+Ha elég ostobák is volnának, hogy belevágjanak, aligha lesznek elég
+erősek. Szeretnék ezt bizonyítva látni? Kezdjék a kísérletet magukon;
+próbálják meg elfojtani az önérdeket a saját szívükben, hogy az ne
+legyen felfedezhető a legátlagosabb, mindennapi cselekvéseiken. Hamar
+rájönnek majd, hogy képtelenek. Hogyan mondhatják akkor, hogy kivétel
+nélkül mindenkit rászorítanak egy olyan doktrínára, amire saját
+magukat sem tudják rávenni?
+
+][
+
+Bevallom, képtelen vagyok bármi vallásosat látni – hacsak nem egyes
+külsőségekben, vagy esetleg a szándékaikban – e nagyravágyó
+elméletekben és lehetetlen maximákban, melyek úgy áradnak az
+ajkaikról, mintha szentek lennének, miközben ők sem cselekednek egy
+percre sem másként, mint az átlagember. Valóban igaz vallásosság
+inspirálta volna ezt a rátarti gondolatot egyes katolikus
+közgazdászok,(footnote*[Bastiat itt a közgazdaságtan „szentimentalista
+iskolájára” utal, különösen Alban Villeneuve-Bargemont 1834-es,
+Economie politique chrétienne (Keresztény közgazdaságtan)
+c. munkájára. (A szerk.)]) körében, hogy Isten rosszul végezte a
+dolgát, és hogy a mi dolgunk, hogy helyrehozzuk? Bossuet nem így
+látta, amikor azt mondta: „Az ember boldogságra vágyik, és nem tud nem
+vágyakozni rá.”,(footnote*[Jacques-Bénigne Bossuet (1672-1704) francia
+püspök és udvari pap volt XIV. Lajos idején. (A szerk.)])
+
+][
+
+Sohasem lesz komoly tudományos hatása az önérdek ellen intézett
+kirohanásoknak, az ugyanis a természeténél fogva elpusztíthatatlan,
+vagy legalábbis nem lehet az emberből kiirtani anélkül, hogy vele
+magát az embert is el ne pusztítanák. A vallás, az erkölcs vagy a
+közgazdaságtan csak annyit tehet, hogy megvilágítja ezt a
+mozgatórugót, és megmutatja nemcsak a kiinduló, hanem a végső
+következményeit is mindannak, amire ösztönöz bennünket. A múló
+fájdalmat követően azt meghaladó és folyamatosan növekvő kielégülés,
+és a múló élvezetet követően azt meghaladó és folyamatosan romló
+fájdalom: ezek jelentik röviden a jót és a rosszat erkölcsi
+szempontból. Akár emelkedett és felvilágosult érdek lesz is az, ami
+meghatározza az ember erényes választását, az alapjában önérdek lesz.
+
+])
+
+(h2 [Az emberiség önjelölt gondviselői])
+
+(p*[
+
+Ha furcsa, hogy elítélik az önérdeket, nem erkölcstelen túlkapásként,
+hanem a minden emberi tevékenység mögött álló hajtóerőként, akkor még
+furcsább, hogy semmibe veszik, s azt hiszik, lehet úgy
+társadalomtudományt művelni, hogy közben nem számolnak vele.
+
+][
+
+A politikai gondolkodók általában – a büszkeség megmagyarázhatatlan
+őrületében – úgy tekintik magukat, mintha letéteményesei és
+választottbírái lennének ennek a mozgatórugónak. Mindannyiuk
+kezdőmondata mindig ez: „Tegyük fel, hogy az emberi faj egy birkanyáj,
+és hogy én vagyok a pásztor; mit kell tennem, hogy az emberi fajt
+boldoggá tegyem?” Vagy inkább: „Feltéve, hogy adott valamennyi agyag
+egyfelől és egy fazekas másfelől, mit kell tennie a fazekasnak, hogy a
+legtöbbet hozza ki az agyagból?”
+
+][
+
+Politikai gondolkodóink talán eltérően látják, hogy hogyan válasszuk
+ki a legjobb fazekast, vagy hogy ki tudja a leghatékonyabban
+megformázni az agyagot; de abban mind egyetértenek, hogy az ő dolguk
+az emberi agyag megformázása, ahogy az agyag dolga is az, hogy hagyja
+nekik, hogy megformázzák. Úgy gondolják, hogy saját maguk – mint
+törvényhozók – és az emberiség viszonya egy gyám és a gyámsága alatt
+álló gyermek viszonyának felel meg. Véletlenül sem jut eszükbe, hogy
+az ember egy élő, érző, akaró és cselekvő lény, mely olyan
+törvényeknek engedelmeskedik, amiket nem kell kitalálni (mert mindig
+is léteztek), még kevésbé másokra kényszeríteni, hanem inkább csak
+tanulmányozni. Nem látják, hogy az emberi fajt hozzájuk minden
+szempontból hasonló emberek alkotják, akik semmiképp sem alábbvalóak
+vagy alsóbbrendűek náluk; hogy embertársaikat felruházták impulzussal,
+hogy cselekedjenek, és értelemmel, hogy választani tudjanak; hogy
+mindenben, amit az emberek tesznek, hatnak rájuk a Felelősség és a
+Szolidaritás jelzései; és végül, hogy mindezen jelenségek mentén
+kialakulnak saját jogon létező társadalmi kapcsolatok, amiket a
+társadalomtudósok dolga nem kitalálni – ahogy gondolkodóink képzelik
+–, hanem csupán megfigyelni.
+
+][
+
+Azt hiszem, Rousseau volt az a gondolkodó, aki a görögöket megújítva
+az antikvitásból a legnaivabb módon exhumálta a törvényhozói
+mindenhatóságot. Meg volt győződve, hogy a társadalmi rend emberi
+találmány: olyan géphez hasonlította, amiben az emberek fogaskerekek,
+és a fejedelem az, aki mozgásba hozza. A társadalmi rendet
+törvényhozók alkotják meg a politikai gondolkodók hatására, akik –
+visszatérve a metaforához – az emberi faj és gépezet motorjai. Ezért
+fordulnak mindig a politikai szerzők a törvényhozókhoz, szigorúan
+felszólító módban; utasítják őket, hogy utasítsanak. „Helyezd nemzetet
+erre vagy arra az alapra; adj nekik tisztes hagyományokat, vesd őket a
+vallás igájába, hajtsd őket a hadseregbe, vagy a kereskedelembe, a
+mezőgazdaságba, az erények felé, és így tovább.” A szerényebb szerzők
+általános alannyal anonimizálnak: „A naplopók nem maradnak a
+köztársaságban büntetlenül; a népességet megfelelően elosztjuk majd a
+város és a vidék között; azt tanácsoljuk, hogy ne legyen többé sem
+gazdag, sem pedig szegény, stb. stb.”
+
+][
+
+Ez a szóhasználat mérhetetlen önteltségről ad tanúbizonyságot. A
+doktrína, mely benne foglaltatik, nem hagy az emberiségnek egy
+jottányi méltóságot sem.
+
+])
+
+(h2 [A társadalomtervezés valójában társadalomellenesség])
+
+(p*[
+
+Nem ismerek olyat, aki az említetteknél nagyobbat tévedne elméletben,
+és pusztítóbb lenne a gyakorlatban. Bárhonnan is nézzük, a hatásuk
+siralmas.
+
+][
+
+Elhitetik az emberekkel, hogy a társadalmi gazdaság egy mesterséges
+képződmény, mely egy feltaláló fejéből pattant ki. S mint ilyen, a
+politikai gondolkodó válik feltalálóvá. A leghőbb vágya, hogy
+bevezessék az általa kitalált mechanizmust, s mindent megtesz, hogy az
+alternatív mechanizmusok megutáltassa – különösen azt, amelyet az
+emberi szerveződés és a dolgok természete alakított ki. Az erről az
+alapállásról írt könyvek nem mások, s nem is lehetnek mások, mint
+hosszas szónoklatok a Társadalom ellen.
+
+][
+
+E hamis tudomány nem tanulmányozza az okok és okozatok láncolatát. Nem
+megfigyeli a jót és a rosszat, ami az emberi cselekvésből fakad, s
+amit aztán összefüggésbe hozna a Társadalom mozgatórugójával, hogy
+eldönthesse, melyik utat érdemes leginkább követni. Nem: utasít,
+kényszerít és kivet, vagy ha erre nem képes, legalábbis tanácsot ad,
+ahogy egy fizikus mondaná egy kőnek: „Mostantól nincs alattad semmi,
+utasítalak, hogy ess le, vagy legalábbis ezt tanácsolom számodra.” Ezt
+a szellemet követi Droz úr, amikor azt mondja: „A közgazdaságtan
+célja, hogy olyan széles körben elterjessze a jólétet, amennyire csak
+lehetséges”,(footnote*[Joseph Droz (1773-1850) morálfilozófus és
+közgazdász. Az idézet az 1829-es Économie politique, ou, Principes de
+la science des richesses (Közgazdaságtan, avagy a gazdagság
+tudományának alapvonalai) c. könyvének kezdőmondata. (A szerk.)])
+amely definíciót szívesen vett a Szocializmus, mert kaput nyit
+mindenféle utópiának, s a társadalom szabályozásához vezet. Hová tenné
+a közvélemény Arago urat,(footnote*[François Arago (1786-1853) a
+Párizsi Obszervatórium híres csillagásza és fizikusa volt. (A
+szerk.)]), ha azzal kezdené az előadásait, hogy „az asztronómia célja,
+hogy olyan széles körben elterjessze a gravitációt, amennyire csak
+lehetséges”? Igaz, az emberek cselekvő lények, megáldva az akarat
+erejével, és a szabad akarat hatása alatt cselekednek. Ugyanakkor van
+bennük egy belső erő is, ha tetszik, egyfajta gravitáció, a kérdés
+pedig, hogy megállapítsuk, milyen cél felé gravitálnak. Ha végzetesen
+a rossz felé, akkor nincs mit tenni, és biztosak lehetünk benne, hogy
+a megoldás nem egy politikai gondolkodótól fog jönni, aki – ember
+lévén – ugyanazon hajlamok foglya, mint mi mindannyian. Ha viszont a
+jó felé, akkor sikerült rátalálni a hajtóerőre, és a tudománynak nem
+kell helyettesítenie sem kényszerrel, sem pedig tanáccsal. A tudomány
+feladata, hogy megvilágítsa a szabad akarat mibenlétét, rámutatva az
+okok okozatára, annak teljes reményében, hogy az igazság hatása alatt
+„elterjed a jólét, amennyire csak lehetséges”.
+
+][
+
+Gyakorlati értelemben azon doktrínának, amely a Társadalom mozgató
+erejét nem az emberiség egészében, illetve annak természetében, hanem
+a törvényhozókban és a kormányokban találja meg, még rémesebb
+következményei vannak. Ez a doktrína olyan súlyos felelősséget ró a
+kormányzatra, amit az nem érdemel meg. Ha szenvedés van, a kormányzat
+hibája. Ha vannak szegények, a kormányzat hiába. Hát nem a kormányzat
+az általános mozgatórugó? És ha ez a mozgatórugó nem jó, akkor nyilván
+elromlott, és le kell cserélni azt egy másikra. Vagy vannak, akik magát a
+tudományt hibáztatják, és legújabban a következőt szokás mantrázni:
+„Valamennyi társadalmi szenvedést a közgazdaságtan számlájára
+írhatunk.” Miért is ne, ha végül is azt mondják róla, hogy a célja
+elérni az emberek boldogságát, azok bárminemű hozzájárulása nélkül?
+Amikor eluralkodnak az ehhez hasonló gondolatok, akkor az embereknek a
+legutolsó gondolata lesz az, hogy a figyelmüket saját magukra irányítsák, és
+megvizsgálják, hogy a hányatott sorsuk oka vajon a saját tudatlanságuk-e,
+vagy valami külső igazságtalanság; tudatlanságuk esetén megkapják a
+Felelősség terhét, míg igazságtalanság esetén Szolidaritást
+érdemelnek. Miért is keresné az emberiség a hányattatásainak
+okát a saját hibáiban, amikor meggyőzték már arról, hogy
+természetéből adódóan tétlen, és hogy minden tettének a
+forrása – s ezáltal minden felelősségé is – a fejedelem és a
+törvényhozó akarata?
+
+][
+
+Ha meg kéne határoznom, hogy mi különbözteti meg a Szocializmust a
+közgazdaságtan tudományától, a következőt tudnám mondani. A
+Szocializmusnak rengeteg iskolája van. Mindegyiknek megvan a maga
+utópiája, és elmondhatjuk, hogy olyan messze vannak attól, hogy
+egymással egyetértsenek, hogy leginkább keserű viszonyt ápolnak
+egymással. A különbség Blanc úr,(footnote*[Louis Blanc (1811-1882)
+újságíró volt, aki 1839-ben egy nagy hatású pamfletet írt
+L’Organisation du travail (A munka megszervezése) címmel. (A szerk.)])
+„termelőszövetkezetei” és Proudhon úr,(footnote*[Pierre-Joseph
+Proudhon (1809-65) politikai gondolkodó, akit az anarchizmus atyjának
+tekintenek. (A szerk.)])  anarchiája között, vagy
+Fourier,(footnote*[Charles Fourier (1772-1837) szocialista és az
+ún. falanszteri iskola vagy „fourierizmus” alapítója, amely a
+társadalmat egy utópikus, kommunista rendszer alapján szervezte volna
+újra. (A szerk.)])  egyesületei és Cabet úr,(footnote*[Étienne Cabet
+(1788-1856) ügyvéd és utópikus szocialista volt, a „kommunizmus”
+kifejezés megalkotója. (A szerk.)])  kommunizmusa között ég és
+föld. Ennek tudatában mégis hogyan helyezhetők ezen iskolák vezetői a
+„Szocializmus” közös platformjára, és mi az a kapocs, ami összeköti
+őket a természetes társadalommal szemben? Nem lehet más, mint ez:
+,(emph[Nem akarják a társadalom természetes formáját]). Amit akarnak,
+az egyfajta mesterséges társadalom, ami egy az egyben a feltaláló
+agyából pattan ki. Igaz, hogy mind maguk lennének e Minerva
+Jupitere,(footnote*[Minerva a bölcsesség és háború római istennője
+volt, akit az istenek királya, Jupiter és Metis, a titán
+nemzettek. Miután Jupiter lenyelte Metist, a saját testében született
+meg Minerva, aki felnőttként és teljes harci díszben jött a világra
+Jupiter fejéből kipattanva. (A szerk.)]), hogy mindnek megvan a saját
+találmánya és álma arról, hogy hogyan is nézne ki a saját társadalmi
+rendje. De van egy dolog, ami közös bennük: hogy nem ismerik el, hogy
+az emberi fajnak lenne akár egy hajtóereje, amely a jó felé viszi, sem
+pedig egy ,(emph[gyógyhatású]) ereje, ami eltávolítja a
+rossztól. Veszekednek, hogy ki legyen az, aki megformázza az emberi
+agyagot, de egyetértenek, hogy van anyag, amit meg kell formázni. A
+szemükben az emberi faj nem egy élő, harmonikus lény, akinek maga
+Isten biztosított haladó és megtartó erőt; csak élettelen anyag, ami
+rájuk vár, hogy érzést és életet leheljenek belé. Nem vizsgálat
+tárgya, hanem anyag, amin kísérletezni kell.
+
+])
+
+(h2 [A közgazdaságtan természete és feladata])
+
+(p*[
+
+Másrészt a közgazdaságtan rámutathat a vonzás és taszítás erejére
+minden emberben, amelyek együtt a társadalom hajtóerejét adják és
+amint megbizonyosodott róla, hogy ez a hajtóerő a jó felé irányul, már
+nem kell az eltörlését akarnia, hogy valami más, általa kreált
+dologgal helyettesítse. Inkább tanulmányozza azokat a társadalmi
+jelenségeket – a maguk végtelen változatosságában és komplexitásában
+–, amiket ez a hajtóerő létrehoz.
+
+][
+
+Akkor tehát a közgazdaságtan oly távolról figyelheti csak a társadalom
+mozgását, mint egy csillagász az égitesteket? Természetesen nem. A
+közgazdaságtan olyan lényekkel foglalkozik, akik értelmesek és
+szabadok, s mint ilyenek – ezt sose feledjük el – képesek tévedni. A
+jó felé igyekszenek, de hibázhatnak. A tudomány beavatkozás így
+hasznos lehet: nem mint az okok és okozatok létrehozója, vagy az
+emberi hajlamok megváltoztatója (egy – mesterséges – szerveződés vagy
+rend alá vetve őket), de még csak nem is mint tanácsadó, hanem mint
+aki megmutatja a jót és a rosszat, ami az általuk hozott döntésekből
+fakad.
+
+][
+
+Így a közgazdaságtan feladata kizárólag a megfigyelés és a
+feltárás. Nem mondja az embernek, hogy: „Arra ösztökéllek, és azt
+tanácsolom neked, hogy ne menj túl közel a tűzhöz.” Vagy inkább:
+„Megálmodtam egy társadalmi rendet, és isteni látomás alapján
+létrehozom az intézményeket, amik elég távol tartanak majd a tűztől.”
+Nem. Felismeri, hogy a tűz éget, és erre figyelmeztet; bebizonyítja
+ezt a tényt, és ugyanígy jár el a gazdasági vagy erkölcsi rend
+valamennyi jelenségével kapcsolatban, abban a hitben, hogy ennyi
+elég. A tűz általi haláltól való irtózást egy ősi, eleve létező
+ténynek tekinti, amit nem ő hozott létre, és nem is változtathat meg.
+
+][
+
+Lehetséges, hogy a közgazdászok ne mindig értsenek egyet, de könnyen
+belátható, hogy a vitáik teljesen más természetűek, mint amik a
+szocialistákat megosztják. Két ember, akik minden figyelmüket
+ugyanazon jelenség és hatásai megfigyelésének szentelik (mint például
+a járadéknak, a cserének vagy a versenynek), lehet, hogy nem ugyanarra
+a következtetésre jutnak, ami semmi többet nem bizonyít, mint hogy
+legalább az egyikük rosszul figyelte meg azt. Újra meg kell vizsgálni;
+más kutatók segítségével valószínű, hogy végül fény derül az
+igazságra. Ebből az okból – feltéve, hogy minden egyes közgazdász
+(akár a csillagászok) a szemük előtt tartják az elődeik eredményeit –
+a tudomány csak haladó lehet, s ha így van, akkor egyre hasznosabb is,
+korrigálva a pontatlan megfigyeléseket és megszámlálhatatlan új
+megfigyeléssel gazdagítva a korábbiakat.
+
+][
+
+Ezzel szemben a szocialisták, akik elszigetelik magukat egymástól,
+hogy mind külön-külön tervezzék a mesterséges, saját képzeletük szülte
+társadalmi modelljeiket, könnyen lehet, hogy ezzel a módszertannal a
+végtelenségig kutatnak majd anélkül, hogy egyetértésre jutnának, vagy
+hogy egyikük munkája a másikra tudna épülni. Say sokat merített Smith
+kutatásaiból, Rossi Say vállára tudott állni, Blanqui és Joseph
+Garnier pedig mindazokéra, akik előttük éltek. De Platón, More,
+Harrington, Fénélon és Fourier anélkül is el tudnak szórakozni az
+Állam, Utópia, Oceana, Salente vagy a Falanszter saját szájuk íze
+szerinti megtervezésével, hogy bármilyen kapcsolat is lenne
+illuzórikus találmányaik között. Ezek az álmodozók mindent, az
+embereket és a dolgokat is saját képzeletük alapján rajzolják
+meg. Elképzelnek egy társadalmi rendet, mely túlmutat az emberi
+szíven, majd hozzá képzelik az új emberi szívet is, ami ebben a
+társadalomban működne.])
+)
+(tous_les_scripts)
+;(footer[
+;,(XXX[,(oeuvres),(art_le)])
+;])
+)

@@ -1,0 +1,52 @@
+; -*- Scheme -*-
+(style 'bo-style)
+(in-bohu :title "Frédéric Bastiat - Bastiat.org
+- Leleplezzük a közgazdaságtani téveszméket, 1845 óta.")
+
+(document :title "Frédéric Bastiat magyarul"
+
+(center (tag :img :src "../pic/bastiat1a.png"
+  :alt "Frédéric Bastiat portréja"
+  :width "20%"))
+
+(center(font :size "+2" (strong[
+,(Bastiat.org)
+,(--) Leleplezzük a közgazdaságtani téveszméket, 1845 óta.])))
+
+(br)
+
+;;(subtitle[Művei])
+
+;;(hrule)
+(tag :a :name "muvei")
+;;(subtitle [Művei])
+(p*
+[
+
+Bastiat francia nyelven írta műveit, melyeket a franciául tudók
+,(ref :url "../fr/index.html#oeuvre" [eredeti nyelven]) is
+olvashatnak.
+
+][
+
+Ezen az oldalon összegyűjtöttük az általunk ismert magyar
+fordításokat. Amennyiben tud olyan fordításról, amely nincs
+felsorolva, kérem jelezze számunkra azt a ,(ref :url
+"https://github.com/fare/bastiat.org/issues" [bastiat.org GitHub
+oldalán]).
+
+][
+
+,(itemize
+
+(item[,(bohu-ref "gazdasagi_harmoniak"
+	[Gazdasági harmóniák, XXII fejezet: A társadalom mozgatórugója])
+	(,(bof-ref "harmonies" (cite-title
+	[Les Harmonies Économiques])),
+	1850)
+])
+
+)
+])
+
+)
