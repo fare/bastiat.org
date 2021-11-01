@@ -4,7 +4,7 @@
 (document :title "Frédéric Bastiat"
 
 
-(div :id "container"
+(div :id "home-container"
 
 
 
@@ -15,14 +15,14 @@
 (div :id "tabs"
 
 (itemize
-(item(ref :url "#tabs-1" [FR]))
-(item(ref :url "#tabs-2" [EN]))
-(item(ref :url "#tabs-3" [ES]))
-(item(ref :url "#tabs-4" [HU]))
+(item(ref :url "#tabs-fr" [FR]))
+(item(ref :url "#tabs-en" [EN]))
+(item(ref :url "#tabs-es" [ES]))
+(item(ref :url "#tabs-hu" [HU]))
 )
 
 
-(div :id "tabs-1" :class "tabs" [
+(div :id "tabs-fr" :class "tabs" [
 ,(p*[,(OE*)uvres les plus célèbres:])
 ,(verses[,(bof-ref "cqovecqonvp" [Ce qu’on voit et ce qu’on ne voit pas]).]
 [,(bof-ref "petition" [Pétition des fabricants de chandelles]).]
@@ -44,7 +44,7 @@
 [,(bof-ref #f [Ancienne page d’accueil]). — ,(ref :url "surbastiat/index.html" [Ouvrages sur Bastiat]).])
 ])
 
-(div :id "tabs-2" :class "tabs" [
+(div :id "tabs-en" :class "tabs" [
 
 ,(boe-ref #f [All about Frederic Bastiat])
 ,(p[Most well-known works:])
@@ -67,7 +67,7 @@
        (ref :url "http://www.econlib.org/library/Bastiat/basHar.html" [Economic Harmonies])))))
 ])
 
-(div :id "tabs-3" :class "tabs" [
+(div :id "tabs-es" :class "tabs" [
 
 
 ,(boes-ref #f [Todo sobre Frederic Bastiat])
@@ -91,7 +91,7 @@
 
 ])
 
-(div :id "tabs-4" :class "tabs" [
+(div :id "tabs-hu" :class "tabs" [
 
 ,(bohu-ref #f [Minden Frédéric Bastiat-ról])
 ,(p[Magyarul elérhető művei:])
