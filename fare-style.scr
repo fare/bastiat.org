@@ -259,7 +259,7 @@
 (define (FB) [Frédéric Bastiat])
 
 
-(define doctype "<!doctype html public \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">")
+(define doctype "<!DOCTYPE html>")
 (define (webbug) '()) ;;;(lambda () (if *webbug* (*webbug*))))
 (define fare-header-args
   '(:textcolor "black" :bgcolor "white"
