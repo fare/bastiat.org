@@ -613,21 +613,44 @@ img#portrait {
 	float: right; width: 60%;
 }
 
-div#tabs ul:first-child {
+div#tabs ul {
 	position: absolute;
 	right: 0; top: -5em;
 	border: none;
 	background: none;
 	z-index:1000;
-	font-family: sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 0.8em;
 }
 
-div#tabs ul:first-child li {
+div#tabs ul li {
+	background-color: #eeeeee;
 	border-radius: 0;
 	border: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
+div#tabs ul li:first-child {
+	border-radius: 3px 0 0 3px;
+}
+
+div#tabs ul li:last-child {
+	border-radius: 0 3px 3px 0;
+}
+
+div#tabs ul li.ui-tabs-active {
+	background-color: #2f1f79;
+}
+
+div#tabs ul li.ui-tabs-active a {
+	color: #fff;
+}
+
+div#tabs ul li.ui-tabs-active a:hover {
+	cursor: default;
+}
 
 a.ui-tabs-anchor {
   border: none;
