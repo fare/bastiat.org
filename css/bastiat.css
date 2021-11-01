@@ -167,8 +167,8 @@ sup {line-height: 0; font-variant: normal;}
 
 .sommaire {
 	margin: auto;
-	padding: 1em 3em;
-	width: 90%;
+	padding: 1em 0;
+	width: calc(100% - 6em);
 	font-size: 1.2em;
 	font-family: "bastiat", sans-serif;
 	text-align: justify;
