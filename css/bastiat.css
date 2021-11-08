@@ -547,9 +547,9 @@ font-size: 90%;
 
 @media only screen and (max-width: 1000px) {
 	.bastiat, .other {
-		width: 80%;
+		width: auto;
 		font-size: 1.2em;
-		position: relative; top: 2em;
+		position: relative;
 		clear: both;
 	}
 	.sommaire table {width: 100%;}
@@ -566,14 +566,17 @@ font-size: 90%;
 
 	.sommaire {
 		padding:0;
+		width: calc(100% - 3em);
 	}
 	.footer {
 		opacity: 0.9;
 	}
 	div#sidebar {
-	position: relative;
-	width:100%; margin: auto;
-	background-color: transparent;
+		position: relative;
+		width: auto;
+		margin: auto;
+		background-color: transparent;
+		top: auto;
 	}
 }
 
@@ -662,7 +665,7 @@ div#tabs ul li {
 	border-radius: 0;
 	border: none;
 	padding-bottom: 0;
-	margin: 0 .1em;
+	margin: 0 .05em;
 }
 
 div#tabs ul li:first-child {
