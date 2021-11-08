@@ -595,6 +595,13 @@ div#home-container {
 	overflow: visible;
 }
 
+@media only screen and (max-width: 768px) {
+	div#home-container {
+		margin-top: 0;
+		margin-bottom: 1em;
+	}
+}
+
 /*div#home-container {
 	overflow: hidden;
 	width: 100%;
@@ -606,10 +613,27 @@ img#portrait {
 	margin: auto auto auto 5%;
 }
 
+@media only screen and (max-width: 768px) {
+	img#portrait {		
+		float: none;
+		margin: 1em auto;
+		display: block;
+		width: 50%;
+		max-width: 200px;
+	}
+}
 
 #tabs {
 	border: none;
 	float: right; width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+	#tabs {		
+		float: none;
+		width: auto;
+		padding: 0;
+	}
 }
 
 div#tabs ul {
@@ -620,6 +644,17 @@ div#tabs ul {
 	z-index:1000;
 	font-family: arial, sans-serif;
 	font-size: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+	div#tabs ul {		
+		top: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		margin: 2em 0 1em;
+	}
 }
 
 div#tabs ul li {
@@ -660,6 +695,17 @@ a.ui-tabs-anchor {
 	color: #068;
 }
 
+@media only screen and (max-width: 768px) {
+	#home-container .tabs {
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+	span.vers {
+		padding-left: 0;
+		margin: 1em 0 2em;
+	}
+}
 
 /*Sommaire Guillaumin*/
 #vignette {
