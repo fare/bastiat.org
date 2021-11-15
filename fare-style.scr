@@ -24,7 +24,6 @@
 
 
 (define (http-equiv x y) (otag :meta :http-equiv x :content y))
-(define (viewport x y) (otag :meta :name x :content y))
 (define (metanc x y) (otag :meta :name x :content y))
 (define-markup (make-glyph (:txt "") (:html #f) (:tex #f) (:info #f) (:man #f) (:pdf #f))
   (let ((foo (format-selector :txt txt
@@ -331,7 +330,7 @@
                                   (make-string1 "text/html; charset=" charset)) lf
                       (if icon (xtag :link :rel "shortcut icon" :type "image/x-icon"
 				     :href icon)) lf
-             (viewport "viewport" "width=device-width") lf
+             (metanc "viewport" "width=device-width") lf
 		      (if css
 			  (loop :for ss :in (ensure-list css) :collect
 				(list (xtag :link :rel "stylesheet" :type "text/css"
