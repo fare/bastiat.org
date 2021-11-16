@@ -36,61 +36,59 @@ div#sidebar ul {
 	font-family: 'bastiat', serif;
 }
 
-
-
 .header {
-    position: absolute; left: 0; top: 0;
-    width: 100%;
 	text-align: center;
 	z-index:20;
 	font-family: "paratexte", sans-serif;
-min-height:1cm;
-background-color: white;
-transition: opacity 200ms height 600ms;
-height: 8em;
-
+	min-height: 1cm;
+	background-color: white;
+	transition: opacity 200ms height 600ms;
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
 
 .tiny {
-height:2em;
+	height:2em;
 }
+
 .tiny .auteur {display: none;}
 
 .header .titre {
-font-size: 2em;
-text-align: center;
-position: static;
-display: block;
-/*transform: translate(-50%,0%);*/ /*Façon alternative de centrer verticalement,
- je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
- /*align-self: center;*/
- /*position: relative; top: -1em;*/
- font-weight: bold;
- /*text-shadow: 1px 1px 0px #555;*/
- /*transition: font-size 300ms, top 300ms;*/
+	font-size: 2em;
+	text-align: center;
+	position: static;
+	display: block;
+	/*transform: translate(-50%,0%);*/ /*Façon alternative de centrer verticalement,
+	je la garde sous le coude au cas où l'autre ne serait pas bien prise en charge par tous les brouteurs.*/
+	/*align-self: center;*/
+	/*position: relative; top: -1em;*/
+	font-weight: bold;
+	/*text-shadow: 1px 1px 0px #555;*/
+	/*transition: font-size 300ms, top 300ms;*/
 }
+
 .tiny .titre {
 	font-size: 1.3em;
-top: 50%;
-text-shadow: none;
+	top: 50%;
+	text-shadow: none;
 }
 
 .header .auteur {
-position: static;
-display: block;
-font-style: italic;
-font-size: 1em;
-text-align: center;
+	position: static;
+	display: block;
+	font-style: italic;
+	font-size: 1em;
+	text-align: center;
 }
 
 
 .header .url_bo {
 	display: block;
 	font-family: monospace;
-
- height: 1.5em;
- padding: 0.8em;
- top: 0; left: 0;
+	height: 1.5em;
+	padding: 0.8em;
+	top: 0; left: 0;
 }
 .url_bo:hover {
 	color: #33f;
@@ -111,7 +109,8 @@ text-align: center;
 }
 
 body {
-	margin: 8em 0 4em 0; padding: 0; /*margin top 6em pour les pages avec header inamovibles...*/
+	margin: 0;
+	padding: 0 0 56px 0; /*margin top 6em pour les pages avec header inamovibles...*/
 	/*background: #f5f5f5;*/
 }
 
@@ -167,8 +166,8 @@ sup {line-height: 0; font-variant: normal;}
 
 .sommaire {
 	margin: auto;
-	padding: 1em 3em;
-	width: 90%;
+	padding: 1em 0;
+	width: calc(100% - 6em);
 	font-size: 1.2em;
 	font-family: "bastiat", sans-serif;
 	text-align: justify;
@@ -253,7 +252,7 @@ sup {line-height: 0; font-variant: normal;}
 	/*line-height: 1.8em;*/ /*1.8*/
 	background: white;
 	/*padding: 8em 3em 2em 3em;*/
-	padding: 3em 3em 2em 3em;
+	padding: 1em 3em 2em 3em;
 }
 
 
@@ -548,10 +547,13 @@ font-size: 90%;
 
 @media only screen and (max-width: 1000px) {
 	.bastiat, .other {
-		width: 80%;
+		width: auto;
+		min-width: auto;
 		font-size: 1.2em;
-		position: relative; top: 2em;
+		position: relative;
 		clear: both;
+		padding: 1em 1.5em 2em 1.5em;
+}
 	}
 	.sommaire table {width: 100%;}
 
@@ -567,14 +569,17 @@ font-size: 90%;
 
 	.sommaire {
 		padding:0;
+		width: calc(100% - 3em);
 	}
 	.footer {
 		opacity: 0.9;
 	}
 	div#sidebar {
-	position: relative;
-	width:100%; margin: auto;
-	background-color: transparent;
+		position: relative;
+		width: auto;
+		margin: auto;
+		background-color: transparent;
+		top: auto;
 	}
 }
 
@@ -588,15 +593,22 @@ font-size: 90%;
 
 
 /* Page d'accueil */
-div#container {
+div#home-container {
 	width: 95%;
-	margin: auto;
+	margin: 4em auto 0;
 	font-family: "bastiat";
 	font-size: 1.2em;
 	overflow: visible;
 }
 
-/*div#container {
+@media only screen and (max-width: 768px) {
+	div#home-container {
+		margin-top: 0;
+		margin-bottom: 1em;
+	}
+}
+
+/*div#home-container {
 	overflow: hidden;
 	width: 100%;
 }*/
@@ -607,27 +619,77 @@ img#portrait {
 	margin: auto auto auto 5%;
 }
 
+@media only screen and (max-width: 768px) {
+	img#portrait {		
+		float: none;
+		margin: 1em auto;
+		display: block;
+		width: 50%;
+		max-width: 200px;
+	}
+}
 
 #tabs {
 	border: none;
 	float: right; width: 60%;
 }
 
-div#tabs ul:first-child {
+@media only screen and (max-width: 768px) {
+	#tabs {		
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+}
+
+div#tabs ul {
 	position: absolute;
 	right: 0; top: -5em;
 	border: none;
 	background: none;
 	z-index:1000;
-	font-family: sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 0.8em;
 }
 
-div#tabs ul:first-child li {
-	border-radius: 0;
-	border: none;
+@media only screen and (max-width: 768px) {
+	div#tabs ul {		
+		top: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		margin: 2em 0 1em;
+	}
 }
 
+div#tabs ul li {
+	background-color: #eeeeee;
+	border-radius: 0;
+	border: none;
+	padding-bottom: 0;
+	margin: 0 .05em;
+}
+
+div#tabs ul li:first-child {
+	border-radius: 3px 0 0 3px;
+}
+
+div#tabs ul li:last-child {
+	border-radius: 0 3px 3px 0;
+}
+
+div#tabs ul li.ui-tabs-active {
+	background-color: #2f1f79;
+}
+
+div#tabs ul li.ui-tabs-active a {
+	color: #fff;
+}
+
+div#tabs ul li.ui-tabs-active a:hover {
+	cursor: default;
+}
 
 a.ui-tabs-anchor {
   border: none;
@@ -639,6 +701,17 @@ a.ui-tabs-anchor {
 	color: #068;
 }
 
+@media only screen and (max-width: 768px) {
+	#home-container .tabs {
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+	span.vers {
+		padding-left: 0;
+		margin: 1em 0 2em;
+	}
+}
 
 /*Sommaire Guillaumin*/
 #vignette {

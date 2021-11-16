@@ -23,6 +23,12 @@
 	margin: -1em auto 0 auto;
 }
 
+@media only screen and (max-width: 1000px) {
+	.personne, .journal {
+		width: auto;
+	}
+}
+
 .personne > a:first-child, .journal > a:first-child {
 	display: block;
 	position: relative; margin-top: 1em;
@@ -95,15 +101,26 @@
 
 .sommaire p.alphabet {
 	position: fixed;
-	left: 0; right: 0; top:0; margin-top: 0;
+	left: 0; right: 0; top:0;
+	margin-top: 0;
 	padding: 1em;
 	font-weight: bold;
 	background: rgba(255,255,255,0.9);
 	z-index:15;
 	border-radius: 0 0 10px 10px;
 	text-align: center;
-	font-size: 1.2em; height: 0.8em; line-height: 0.8em;
+	font-size: 1.2em;
+	line-height: 0.8em;
+	height: 0.8em;
 	font-family: "paratexte";
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.sommaire p.alphabet {
+		height: auto;
+		line-height: 1.4em;
+	}
 }
 
 /*Index des Journaux*/

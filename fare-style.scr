@@ -25,7 +25,6 @@
 
 (define (http-equiv x y) (otag :meta :http-equiv x :content y))
 (define (metanc x y) (otag :meta :name x :content y))
-
 (define-markup (make-glyph (:txt "") (:html #f) (:tex #f) (:info #f) (:man #f) (:pdf #f))
   (let ((foo (format-selector :txt txt
 			      :html html :tex tex :info info :man man :pdf pdf)))
@@ -259,7 +258,7 @@
 (define (FB) [Frédéric Bastiat])
 
 
-(define doctype "<!doctype html public \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">")
+(define doctype "<!DOCTYPE html>")
 (define (webbug) '()) ;;;(lambda () (if *webbug* (*webbug*))))
 (define fare-header-args
   '(:textcolor "black" :bgcolor "white"
@@ -331,6 +330,7 @@
                                   (make-string1 "text/html; charset=" charset)) lf
                       (if icon (xtag :link :rel "shortcut icon" :type "image/x-icon"
 				     :href icon)) lf
+             (metanc "viewport" "width=device-width") lf
 		      (if css
 			  (loop :for ss :in (ensure-list css) :collect
 				(list (xtag :link :rel "stylesheet" :type "text/css"
