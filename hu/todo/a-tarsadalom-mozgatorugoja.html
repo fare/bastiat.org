@@ -1,0 +1,1171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<title>Frédéric Bastiat: A társadalom mozgatórugója &#8211; Carl Menger Intézet</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=233'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9tZW5nZXJibG9nLmNvbQ%3D%3D"
+		+ "&wpcomid=173901011"
+		+ "&time=1724674914";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Carl Menger Intézet &raquo; Feed" href="https://mengerblog.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Carl Menger Intézet &raquo; Comments Feed" href="https://mengerblog.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Carl Menger Intézet &raquo; Frédéric Bastiat: A társadalom&nbsp;mozgatórugója Comments Feed" href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1719498190i&ver=6.6.1-alpha-58760"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJxtzFsKgCAQQNENZaMg+BWtRXQI39KMtP0ogiD6PHC5cHThWmWsDGWInscWKkFE7talx0CjQml+ZCTYMVtGL3oj/mh2RBP8H3NI+H5vXflaFmWU0VJLo+MJKT40cA==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/_static/??-eJylzFsOQDAQQNEN0fFIqQ+xFq1JlWlJH8TuNbbg8+YmB+6zVIeL6CKclLRxAXTKKdHrfDzCVQ+sYhXIZGgBSYfaSzLSz/6BEB9CpkIo4B8UV7QfNNmx7pu246IXfHsBJD44Xg==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s2.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJyVjEEOwiAQAD/ksgGN4sH4Fko3hJYCYZea/r49mF6Nx0lmBj8VfMlCWbCmHmJmDP3AgVqAIRU/M04k1fkZkttKFwgtjsiyJVKe+YL/LJqTmAP/yH35ZkZpqzRwXGoiaLSqG46R5TTgHL2Xl75bba/GPB/TDthVT3U=&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #1279BE;--wp--preset--color--secondary: #FFB302;--wp--preset--color--foreground: #303030;--wp--preset--color--background: #FFFFFF;--wp--preset--color--tertiary: #C5C5C5;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 17.3914px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 26.45px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 23px;--wp--preset--font-size--huge: 30.4174px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}.is-layout-flow  > :first-child{margin-block-start: 0;}.is-layout-flow  > :last-child{margin-block-end: 0;}.is-layout-flow  > *{margin-block-start: 24px;margin-block-end: 0;}.is-layout-constrained  > :first-child{margin-block-start: 0;}.is-layout-constrained  > :last-child{margin-block-end: 0;}.is-layout-constrained  > *{margin-block-start: 24px;margin-block-end: 0;}.is-layout-flex {gap: 24px;}.is-layout-grid {gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s2.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.css?m=1720038764i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='verbum-gutenberg-css-css' href='https://widgets.wp.com/verbum-block-editor/block-editor.css?ver=1721244820' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/comment-likes/css/comment-likes.css,/i/noticons/noticons.css?m=1436783281j&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-13-1' href='https://s0.wp.com/wp-content/themes/pub/varia/print.css?m=1571655471i&cssminify=yes' type='text/css' media='print' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s1.wp.com/_static/??-eJx9i0EKwjAQAD9kXBuEnMS3pGFNV5JsyG5a+nsrvVQUbzMwA0s1gYtiUdAJMwrUPsKEMzYQXROeg8gJfmezb+SBSthTs9TA+WvI3dTUIxWBiGwSB6/E5UPMI3lq/9aGY+K4YYStOuh7uufb4Ozlap2zw/MFjPJOuw==&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='hever-fonts-css' href='https://fonts-api.wp.com/css?family=PT+Sans%3A400%2C400i%2C700%2C700i&#038;subset=latin%2Clatin-ext&#038;display=swap' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-16-1' href='https://s0.wp.com/wp-content/themes/pub/hever/style.css?m=1720427721i&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-18-1' href='https://s0.wp.com/_static/??-eJyNjcsKQjEMBX/ImlsQry7ET5GahrbXNCmmRfx7H7gRN+7OwGEGbs2hSifpUIdrPFIRg4V6C3j5MNgQqBoHk4HlcKUYYry/Z5G0RrMV/C06FUEwxRLYsSa1L/iR9Uz1mc0bSKznwK/DsR787Kd5P/ntbnkAuNBIYA==&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="jetpack_related-posts-js-extra">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="media-video-jwt-bridge-js-extra">
+/* <![CDATA[ */
+var videopressAjax = {"ajaxUrl":"https:\/\/mengerblogcom.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"233"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"173901011","postID":"233","siteURL":"https:\/\/mengerblog.com","xhrURL":"https:\/\/mengerblog.com\/wp-admin\/admin-ajax.php","nonce":"25504ff812","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/pbLFB1-3L","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-mu-wpcom-settings-js-before">
+/* <![CDATA[ */
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/sun\/vendor\/automattic\/jetpack-mu-wpcom\/src\/build\/"};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/_static/??-eJyVjksOwjAMRC9EcAHxWyCOgtLGVG4TO4odPreniwoBO5bzNJo3cM+uEzZkg0EhSUsRXVUsvp+YI77KctAFfPRSdTnWnlhhQMu+G+cMWhkuxB20lWKAgtEbBpdFTb/TMhH/7k7+Es3lIo/nf84ZXW7IQQr4apK8GXXv8o0CSi6oOn+L1ILJiOzaQqHHSXhOp9V+3Ww3ze5wHF4X1GmK'></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+/* ]]> */
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mengerblogcom.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" />
+<link rel='shortlink' href='https://wp.me/pbLFB1-3L' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fmengerblog.com%2F2021%2F04%2F06%2Ffrederic-bastiat-a-tarsadalom-mozgatorugoja%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fmengerblog.com%2F2021%2F04%2F06%2Ffrederic-bastiat-a-tarsadalom-mozgatorugoja%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Frédéric Bastiat: A társadalom mozgatórugója" />
+<meta property="og:url" content="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" />
+<meta property="og:description" content="Az emberi természet Nem dolga semmilyen emberi tudománynak, hogy megadja a dolgok végső értelmét. Az ember szenved, akár a társadalom. Azt kérdezik, miért. Ez ugyanaz a kérdés, mint hogy Isten miér…" />
+<meta property="article:published_time" content="2021-04-06T06:43:37+00:00" />
+<meta property="article:modified_time" content="2021-04-20T06:30:11+00:00" />
+<meta property="og:site_name" content="Carl Menger Intézet" />
+<meta property="og:image" content="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg" />
+<meta property="og:image:width" content="318" />
+<meta property="og:image:height" content="375" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="Frédéric Bastiat: A társadalom&nbsp;mozgatórugója" />
+<meta name="twitter:image" content="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s2.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://mengerblog.com/osd.xml" title="Carl Menger Intézet" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<link rel="pingback" href="https://mengerblog.com/xmlrpc.php"><meta name="application-name" content="Carl Menger Intézet" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="description" content="Az emberi természet Nem dolga semmilyen emberi tudománynak, hogy megadja a dolgok végső értelmét. Az ember szenved, akár a társadalom. Azt kérdezik, miért. Ez ugyanaz a kérdés, mint hogy Isten miért ruházta fel az embert érzésekkel és szabad akarattal. E tekintetben senki nem tud többet, mint a saját hite szerinti kinyilatkoztatást tanítani. De bármi is&hellip;" />
+</head>
+
+<body class="post-template-default single single-post postid-233 single-format-standard wp-embed-responsive customizer-styles-applied singular image-filters-enabled hide-homepage-title jetpack-reblog-enabled">
+
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+<header id="masthead" class="site-header responsive-max-width has-title-and-tagline has-menu" role="banner">
+	
+
+			<p class="site-title"><a href="https://mengerblog.com/" rel="home">Carl Menger Intézet</a></p>
+	
+		<nav id="site-navigation" class="main-navigation" aria-label="Main Navigation">
+
+		<input type="checkbox" role="button" aria-haspopup="true" id="toggle" class="hide-visually">
+		<label for="toggle" id="toggle-menu" class="button">
+			Menu			<span class="dropdown-icon open">+</span>
+			<span class="dropdown-icon close">&times;</span>
+			<span class="hide-visually expanded-text">expanded</span>
+			<span class="hide-visually collapsed-text">collapsed</span>
+		</label>
+
+		<div class="menu-primary-container"><ul id="menu-primary-1" class="main-menu" aria-label="submenu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19"><a href="https://mengerblog.com/">Főoldal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-922"><a href="https://mengerblog.com/carl-menger-muvei/" aria-haspopup="true" aria-expanded="false">Carl Menger művei</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-921"><a href="https://mengerblog.com/osszegyujtott-muvek-iii-kotet/" aria-haspopup="true" aria-expanded="false">Összegyűjtött művek, III. kötet</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-973"><a href="https://mengerblog.com/2023/01/13/a-forditok-eloszava/">A fordítók előszava</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-926"><a href="https://mengerblog.com/a-historizmus-tevedesei-a-nemet-nemzetgazdasagtanban/" aria-haspopup="true" aria-expanded="false">A historizmus tévedései a német nemzetgazdaságtanban</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-923"><a href="https://mengerblog.com/2023/01/05/carl-menger-a-historizmus-tevedesei-a-nemet-nemzetgazdasagtanban-eloszo/">Előszó</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-930"><a href="https://mengerblog.com/2023/01/05/elso-level/">Első levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-935"><a href="https://mengerblog.com/2023/01/05/masodik-level/">Második levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-941"><a href="https://mengerblog.com/2023/01/06/harmadik-level/">Harmadik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-947"><a href="https://mengerblog.com/2023/01/09/negyedik-level/">Negyedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-959"><a href="https://mengerblog.com/2023/01/10/otodik-level/">Ötödik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-964"><a href="https://mengerblog.com/2023/01/13/hatodik-level/">Hatodik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-969"><a href="https://mengerblog.com/2023/01/13/hetedik-level/">Hetedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-977"><a href="https://mengerblog.com/2023/01/17/nyolcadik-level/">Nyolcadik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-982"><a href="https://mengerblog.com/2023/01/17/kilencedik-level/">Kilencedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-987"><a href="https://mengerblog.com/2023/01/19/tizedik-level/">Tizedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-991"><a href="https://mengerblog.com/2023/01/19/tizenegyedik-level/">Tizenegyedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-995"><a href="https://mengerblog.com/2023/01/23/tizenkettedik-level/">Tizenkettedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-999"><a href="https://mengerblog.com/2023/01/23/tizenharmadik-level/">Tizenharmadik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1004"><a href="https://mengerblog.com/2023/01/25/tizennegyedik-level/">Tizennegyedik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1010"><a href="https://mengerblog.com/2023/01/25/tizenotodik-level/">Tizenötödik levél</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1015"><a href="https://mengerblog.com/2023/01/25/tizenhatodik-egyben-utolso-level/">Tizenhatodik (egyben utolsó) levél</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-1021"><a href="https://mengerblog.com/2023/01/28/a-toke-elmelete-i/" aria-haspopup="true" aria-expanded="false">A tőke elmélete I.</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1026"><a href="https://mengerblog.com/2023/01/30/a-toke-elmelete-ii/">A tőke elmélete II.</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1031"><a href="https://mengerblog.com/2023/02/05/a-toke-elmelete-iii/">A tőke elmélete III.</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1036"><a href="https://mengerblog.com/2023/02/07/a-toke-elmelete-iv/">A tőke elmélete IV.</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1046"><a href="https://mengerblog.com/2023/02/09/a-toke-elmelete-v/">A tőke elmélete V.</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-1071"><a href="https://mengerblog.com/2023/03/06/carl-menger-a-klasszikus-nemzetgazdasagtan-tarsadalmi-elmeletei-es-a-modern-gazdasagpolitika-a-fordito-eloszava/" aria-haspopup="true" aria-expanded="false">Carl Menger: A klasszikus nemzetgazdaságtan társadalmi elméletei és a modern gazdaságpolitika, a fordító előszava:</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1075"><a href="https://mengerblog.com/2023/03/06/carl-menger-a-klasszikus-nemzetgazdasagtan-tarsadalmi-elmeletei-es-a-modern-gazdasagpolitika1/">Carl Menger: A klasszikus nemzetgazdaságtan társadalmi elméletei és a modern gazdaságpolitika[1]</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1081"><a href="https://mengerblog.com/2023/03/08/carl-menger-a-klasszikus-nemzetgazdasagtan-tarsadalmi-elmeletei-es-a-modern-gazdasagpolitika-ii/">Carl Menger: A klasszikus nemzetgazdaságtan társadalmi elméletei és a modern gazdaságpolitika II.</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-1091"><a href="https://mengerblog.com/2023/04/02/carl-menger-a-kozgazdasagtan-alapelvei/" aria-haspopup="true" aria-expanded="false">Carl Menger: A KÖZGAZDASÁGTAN ALAPELVEI</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1096"><a href="https://mengerblog.com/2023/04/05/carl-menger-eloszava/">Carl Menger előszava</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-362"><a href="https://mengerblog.com/blog-3/" aria-haspopup="true" aria-expanded="false">Blog</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-230"><a href="https://mengerblog.com/blogbejegyzesek/" aria-haspopup="true" aria-expanded="false">Blogbejegyzések</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-498"><a href="https://mengerblog.com/2021/06/01/radacsy-laszlo-a-nagy-cegek-a-globalizacio-meg-minden/">Radácsy László: A nagy cégek, a globalizáció meg minden</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-499"><a href="https://mengerblog.com/2021/05/07/marcso-kristof-optikai-csalodas-a-koronavalsag-idejen/">Marcsó Kristóf: Optikai csalódás a koronaválság idején</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-500"><a href="https://mengerblog.com/2021/04/23/nemethne-pal-katalin-a-csokos-kapitalizmus-hosszu-hosszu-alkonya/">Némethné Pál Katalin: A csókos kapitalizmus hosszú, hosszú alkonya</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-232"><a href="https://mengerblog.com/forditasok/" aria-haspopup="true" aria-expanded="false">Fordítások</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-501"><a href="https://mengerblog.com/2021/05/17/walter-block-munkahelyek-es-munkanelkuliseg-nehany-alapvetes/">Walter Block: Munkahelyek és munkanélküliség – néhány alapvetés</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-502"><a href="https://mengerblog.com/2021/05/04/peter-g-klein-koronavalsag-es-leviatan/">Peter G. Klein: Koronaválság és leviatán</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-503"><a href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" aria-current="page">Frédéric Bastiat: A társadalom mozgatórugója</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://mengerblog.com/tanulmanyok/">Tanulmányok</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-367"><a href="https://mengerblog.com/sorozatok-a-kapitalizmusrol/" aria-haspopup="true" aria-expanded="false">Cikksorozatok</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-820"><a href="https://mengerblog.com/inflacio-vagy-arstabilitas/" aria-haspopup="true" aria-expanded="false">Infláció vagy árstabilitás?</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1016"><a href="https://mengerblog.com/2023/01/25/tizenhatodik-egyben-utolso-level/">Tizenhatodik (egyben utolsó) levél</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-821"><a href="https://mengerblog.com/2021/10/01/toth-andras-a-penz-es-az-allami-penzveresi-monopolium-kialakulasa-1-resz/">Tóth András: A pénz és az állami pénzverési monopólium kialakulása (1. rész)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-828"><a href="https://mengerblog.com/2021/10/05/toth-andras-az-europai-penzfejlodes-politikai-gazdasagtana-2-resz/">Tóth András: Az európai pénzfejlődés politikai gazdaságtana (2. rész)</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-772"><a href="https://mengerblog.com/oktatas/" aria-haspopup="true" aria-expanded="false">Oktatás</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-773"><a href="https://mengerblog.com/2021/09/01/nathaniel-branden-az-oktatasnak-allaminak-kell-lennie-kozkeletu-tevhitek-a-kapitalizmusrol/">Nathaniel Branden: Az oktatásnak államinak kell lennie? Közkeletű tévhitek a kapitalizmusról</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-783"><a href="https://mengerblog.com/2021/09/07/david-d-friedman-a-kozoktatas-melletti-ervek-gyengei-elso-resz/">David D. Friedman: A közoktatás melletti érvek gyengéi (első rész)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-799"><a href="https://mengerblog.com/2021/09/10/david-d-friedman-a-kozoktatas-melletti-ervek-gyengei-masodik-resz/">David D. Friedman: A közoktatás melletti érvek gyengéi (második rész)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-808"><a href="https://mengerblog.com/2021/09/14/bryan-caplan-mi-ertelme-van-a-felsooktatasnak/">Bryan Caplan: Mi értelme van a felsőoktatásnak?</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-721"><a href="https://mengerblog.com/adoztatas-ujraelosztas/">Adóztatás, újraelosztás</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-681"><a href="https://mengerblog.com/piaci-szabalyozas/">Piaci rend</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="https://mengerblog.com/szocialpolitika/">Szociálpolitika</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-547"><a href="https://mengerblog.com/egyenlotlenseg/">Egyenlőtlenség</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="https://mengerblog.com/marx-es-a-kozeposztaly/">Marx és a középosztály</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://mengerblog.com/munkaero-piac/">Munkaerő-piac</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://mengerblog.com/valsagok-2/">Válságok</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="https://mengerblog.com/monopolium-es-verseny/">Monopólium</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a href="https://www.youtube.com/channel/UCR9ZpmR-YA-XRjhx2NRTJVw">Videók</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://mengerblog.com/about/">Szerzőink</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://mengerblog.com/contact/">Kapcsolat</a></li>
+</ul></div>	</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			
+<article id="post-233" class="post-233 post type-post status-publish format-standard has-post-thumbnail hentry category-forditasok tag-bastiat tag-klasszikus-liberalizmus tag-liberalizmus tag-tarsadalommernokseg entry">
+
+	<header class="entry-header responsive-max-width">
+		<h1 class="entry-title">Frédéric Bastiat: A társadalom&nbsp;mozgatórugója</h1>				<div class="entry-meta">
+			<span class="byline"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://mengerblog.com/author/madlovba3/">madlovba3</a></span></span><span class="posted-on"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></svg><a href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" rel="bookmark"><time class="entry-date published" datetime="2021-04-06T06:43:37+00:00">April 6, 2021</time><time class="updated" datetime="2021-04-20T06:30:11+00:00">April 20, 2021</time></a></span><span class="cat-links"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Posted in</span><a href="https://mengerblog.com/category/forditasok/" rel="category tag">Fordítások</a></span><span class="tags-links"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Tags:</span><a href="https://mengerblog.com/tag/bastiat/" rel="tag">bastiat</a>, <a href="https://mengerblog.com/tag/klasszikus-liberalizmus/" rel="tag">klasszikus liberalizmus</a>, <a href="https://mengerblog.com/tag/liberalizmus/" rel="tag">liberalizmus</a>, <a href="https://mengerblog.com/tag/tarsadalommernokseg/" rel="tag">társadalommérnökség</a></span>		</div><!-- .meta-info -->
+			</header>
+
+	
+			<figure class="post-thumbnail">
+				<img width="318" height="375" src="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg?w=318" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" data-attachment-id="236" data-permalink="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/bastiat/" data-orig-file="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg" data-orig-size="318,375" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Bastiat" data-image-description="" data-image-caption="" data-medium-file="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg?w=254" data-large-file="https://mengerblog.com/wp-content/uploads/2021/04/bastiat.jpg?w=318" tabindex="0" role="button" />			</figure><!-- .post-thumbnail -->
+
+		
+	<div class="entry-content">
+		
+<p class="has-large-font-size"><strong>Az emberi természet</strong></p>
+
+
+
+<p>Nem dolga semmilyen emberi tudománynak, hogy megadja a dolgok végső értelmét.</p>
+
+
+
+<p>Az ember szenved, akár a társadalom. Azt kérdezik, miért. Ez ugyanaz a kérdés, mint hogy Isten miért ruházta fel az embert érzésekkel és szabad akarattal. E tekintetben senki nem tud többet, mint a saját hite szerinti kinyilatkoztatást tanítani.</p>
+
+
+
+<p>De bármi is volt Isten célja, a konkrét tény, amit az emberi tudomány kezdőpontjául választhat, az, hogy az embereket <em>szabadnak és érzőnek </em>teremtették.</p>
+
+
+
+<p>Ez annyira igaz, hogy akit meglep, arra kérem: próbáljon elképzelni egy élő, gondolkodó, akaró, szerető és cselekvő lényt – tehát valami olyasmit, mint egy ember –, de aminek nincsenek érzései vagy szabad akarata.</p>
+
+
+
+<p>Teremthette volna Isten másképp? Az eszünk azt válaszolja, igen, de a képzelőerő mindörökké nemmel válaszol majd, olyan alapvetően lehetetlen elválasztani gondolatilag az emberi fajt e kettős tulajdonságtól. Nos, <em>érzőnek </em>lenni annyit tesz, hogy képesek vagyunk felfogni egymástól megkülönböztethető érzéseket, vagyis olyanokat, amelyek kellemesek vagy fájdalmasak. Ebből fakad a jóllét vagy a rosszul-lét. Így, ahogy Isten megteremtette az érzéseket, a rossznak vagy a rossz lehetőségének is utat engedett.</p>
+
+
+
+<p>Azzal, hogy szabad akaratot adott, Isten felruházott minket – legalábbis egy bizonyos mértékig – azzal a képességgel, hogy elkerüljük a rosszat, és keressük a jót. A szabad akarat feltételezi s kéz a kézben jár az értelemmel. Mi haszna volna a választás képességének, ha nem lennénk képesek megvizsgálni, összevetni és elbírálni? Ilyenformán mindenki, aki e világra lép, magával hoz valamilyen <em>mozgatórugó</em>t és <em>megvilágító</em>t.</p>
+
+
+
+<p>A mozgatórugó az a mélyen személyes és ellenállhatatlan impulzus, minden erőfeszítésünk lényege, ami a Rossz elkerülésére és a Jó keresésére hajt. Úgy is hívják, hogy az önfenntartás ösztöne, önérdek vagy egyéni érdek.</p>
+
+
+
+<p>Sokan elítélték vagy figyelmen kívül hagyták ezt az érzést, de a létezése tagadhatatlan. Képtelenek vagyunk rá, hogy ne azt keressük, amiről azt gondoljuk, hogy javítani fog a sorsunkon, és elkerüljünk mindent, ami ronthat rajta. Ez legalább annyira biztos, mint hogy minden molekulában egyszerre van centripetális és centrifugális erő. És ahogy a vonzás és taszítás ikermozgása a fizikai világ fő mozgatója, elmondhatjuk, hogy az ember vonzalma a boldogsághoz és irtózása a fájdalomtól a társadalmi Gépezet fő mozgatórugója.</p>
+
+
+
+<p>Nem elég azonban, hogy az ember ellenállhatatlanul a jót preferálja a rosszal szemben; képesnek kell lennie megkülönböztetni a kettőt. És erre adott lehetőséget Isten, amikor megadta az embernek azt a komplex és csodálatos képességet, amit értelemként ismerünk. Hogy képesek vagyunk a figyelmünket koncentrálni, összevetni, elbírálni, érvelni, láncolatba tenni az okot és az okozatot, emlékezni és előre látni – ezek a képességek, ha mondhatom így, a fogaskerekei ennek a csodálatra méltó eszköznek.</p>
+
+
+
+<p class="has-large-font-size"><strong>A társadalmi ellentétek és fejlődés forrása</strong></p>
+
+
+
+<p>A mindannyiunkban ott lakozó impulzust az értelmünk irányítja. Az értelmünk azonban hibás. Képes tévedni. Összevetünk, elbírálunk, és ezek alapján cselekszünk, de lehet, hogy tévedünk, rossz döntést hozunk, és a rossz felé fordulunk, mert jónak véljük, vagy elfordulunk a jótól, mert azt hisszük, hogy rossz. Ez a társadalmi <em>diszharmónia </em>fő forrása, amely elkerülhetetlen, éppen azért, mert az emberi faj fő ösztönzője, az önérdek nem egy olyan vak erő, mint a fizikai vonzás, hanem egy olyan erő, amit egy tökéletlen értelem vezérel. Legyünk hát tisztában vele, hogy Harmóniát kizárólag ezzel a megkötéssel láthatunk. Isten nem látta jónak, ha a társadalmi rendet vagy Harmóniát a tökéletességre alapoznánk – sokkal inkább az emberiség tökéletesedésére. Igen, az értelmünk lehet hibás, de tökéletesíthető. Fejlődik, növekszik és kijavítja önmagát. Újra belevág valamibe, majd ellenőrzi; a tapasztalat minden alkalommal javít rajta, és a Felelősség ott lebeg mindannyiunk feje fölött büntetések és jutalmak rendszere formájában. Minden lépés, amit a tévedés útján teszünk, mélyebbre taszít, növekvő fájdalomba, úgyhogy nem hagyhatjuk figyelmen kívül a jelzést. Így a döntéseink s velük együtt a cselekvéseink kijavítása előbb vagy utóbb elkerülhetetlen lesz.</p>
+
+
+
+<p>Az őt mozgató impulzus hatására, szenvedélyesen keresve a mihamarabbi boldogságot, megeshet, hogy az ember mások kárára próbálja majd elérni azt, ami számára jó. Ez a társadalmi diszharmóniák második, bőséges forrása. De meghatározott a végük, végzetes sírjukat a Szolidaritás törvényében lelik. Az ilyenformán félrevitt egyéni erőfeszítések ellenállást váltanak ki minden más hasonló erőfeszítésből, amelyek – természetüknél fogva ellenezve a rosszat – elvetik az igazságtalanságot, és megbüntetik azt.</p>
+
+
+
+<p>Így valósul meg a fejlődés, és nem kevésbé fejlődés ez azért, mert nagy árat fizetünk érte. Ez egy természetes, általános impulzusból következik, valamiből, ami inherens része a természetünknek, és amit egy gyakran téves elme irányít egy megromlásra hajlamos akaratnak alávetve. A fejlődés a Tévedés és az Igazságtalanság falaiba ütközve találkozik mindenható segítséggel a Felelősség és a Szolidaritás képében, hogy leküzdje e akadályokat; és nem mulaszthatja el ezt a találkozást, mert az épp az említett akadályokból fakad.</p>
+
+
+
+<p>Ez a belső, elpusztíthatatlan és univerzális hatóerő, ami ott van minden egyénben, és ami cselekvő lénnyé teszi; ez a hajlam, hogy mindenki a boldogság elérésére és a szerencsétlenség elkerülésére törekedjen; ez az érzés képességéhez elengedhetetlen termék, hatás és pótlék, ami nélkül nem lenne más, mint egy megmagyarázhatatlan csapás; ez a ősi jelenség az eredője minden emberi cselekvésnek. Ez a vonzó- és taszítóerő, amit korábban a társadalmi Gépezet fő mozgatórugójának neveztünk, kivívta magának a politikai gondolkodók többségének ellenszenvét – és ez kétségkívül az egyik legfurcsább rendellenesség, amit a tudomány történetében találhatunk.</p>
+
+
+
+<p class="has-large-font-size"><strong>Az önfeláldozás téves doktrínája</strong></p>
+
+
+
+<p>Igaz, hogy az önérdek az okozója az embernek tulajdonítható minden rossznak és minden jónak. Nem is lehet másként, hisz valamennyi cselekvésünket az határozza meg. Voltak politikai gondolkodók, akik ezt látván, s mivel gyökerestül akarták elpusztítani a rosszat, nem tudtak mást javasolni, mint hogy fojtsuk el az <em>önérdek</em>et. De mivel ezáltal magát a tevékenységünk mögött álló mozgatót pusztították volna el, úgy gondolták, adhat hát egy másfajta mozgatót: jelesül a mások iránt érzett <em>odaadás</em>t és <em>(ön)feláldozás</em>t. Azt remélték, hogy innentől minden csere és társadalmi megállapodás – varázsszóra – az önmagunkról való lemondás elvére helyeződik át. Az emberek többé nem saját boldogságukat keresik, hanem mások boldogságát. Az érzéseik által közvetített jelzések többé nem számítanak, ahogy a felelősségből fakadó terhek és jutalmak sem. A természet minden törvényét a feje tetejére állítják; egyszóra senki nem gondol majd saját egyéniségére azon túl, hogy hogyan tudja szolgálni a közjót. Egyes, magukat mélyen vallásosnak tartó politikai gondolkodók az emberi szív eme általános átalakulásától várták a tökéletes társadalmi harmónia eljövetelét. Azt elfelejtik közölni, hogy mégis hogyan akarják véghezvinni a lényegi első lépést, ami az emberi szív átalakulása.</p>
+
+
+
+<p>Ha elég ostobák is volnának, hogy belevágjanak, aligha lesznek elég erősek. Szeretnék ezt bizonyítva látni? Kezdjék a kísérletet magukon; próbálják meg elfojtani az önérdeket a saját szívükben, hogy az ne legyen felfedezhető a legátlagosabb, mindennapi cselekvéseiken. Hamar rájönnek majd, hogy képtelenek. Hogyan mondhatják akkor, hogy kivétel nélkül mindenkit rászorítanak egy olyan doktrínára, amire saját magukat sem tudják rávenni?</p>
+
+
+
+<p>Bevallom, képtelen vagyok bármi vallásosat látni – hacsak nem egyes külsőségekben, vagy esetleg a szándékaikban – e nagyravágyó elméletekben és lehetetlen maximákban, melyek úgy áradnak az ajkaikról, mintha szentek lennének, miközben ők sem cselekednek egy percre sem másként, mint az átlagember. Valóban igaz vallásosság inspirálta volna ezt a rátarti gondolatot egyes katolikus közgazdászok<a href="#_ftn1"><sup>[1]</sup></a> körében, hogy Isten rosszul végezte a dolgát, és a mi dolgunk, hogy azt helyrehozzuk? Bossuet nem így látta, amikor azt mondta: „Az ember boldogságra vágyik, és nem tud nem vágyakozni rá.”<a href="#_ftn2"><sup>[2]</sup></a></p>
+
+
+
+<p>Sohasem lesz komoly tudományos hatása az önérdek ellen intézett kirohanásoknak, az ugyanis a természeténél fogva elpusztíthatatlan, vagy legalábbis nem lehet az emberből kiirtani anélkül, hogy vele magát az embert is el ne pusztítanák. A vallás, az erkölcs vagy a közgazdaságtan csak annyit tehet, hogy megvilágítja ezt a mozgatórugót, és megmutatja nemcsak a kiinduló, hanem a végső következményeit is mindannak, amire ösztönöz bennünket. A múló fájdalmat követően azt meghaladó és folyamatosan növekvő kielégülés, és a múló élvezetet követően azt meghaladó és folyamatosan romló fájdalom: ezek jelentik röviden a jót és a rosszat erkölcsi szempontból. Akár emelkedett és felvilágosult érdek lesz is az, ami meghatározza az ember erényes választását, az alapjában önérdek lesz.</p>
+
+
+
+<p class="has-large-font-size"><strong>Az emberiség önjelölt gondviselői</strong></p>
+
+
+
+<p>Ha furcsa, hogy elítélik az önérdeket, nem erkölcstelen túlkapásként, hanem a minden emberi tevékenység mögött álló hajtóerőként, akkor még furcsább, hogy semmibe veszik, s azt hiszik, lehet úgy társadalomtudományt művelni, hogy közben nem számolnak vele.</p>
+
+
+
+<p>A politikai gondolkodók általában – a büszkeség megmagyarázhatatlan őrületében – úgy tekintik magukat, mintha letéteményesei és választottbírái lennének ennek a mozgatórugónak. Mindannyiuk kezdőmondata mindig ez: „Tegyük fel, hogy az emberi faj egy birkanyáj, és hogy én vagyok a pásztor; mit kell tennem, hogy az emberi fajt boldoggá tegyem?” Vagy inkább: „Feltéve, hogy adott valamennyi agyag egyfelől és egy fazekas másfelől, mit kell tennie a fazekasnak, hogy a legtöbbet hozza ki az agyagból?”</p>
+
+
+
+<p>Politikai gondolkodóink talán eltérően látják, hogy hogyan válasszuk ki a legjobb fazekast, vagy hogy ki tudja a leghatékonyabban megformázni az agyagot; de abban mind egyetértenek, hogy az ő dolguk az emberi agyag megformázása, ahogy az agyag dolga is az, hogy hagyja nekik, hogy megformázzák. Úgy gondolják, hogy saját maguk – mint törvényhozók – és az emberiség viszonya egy gyám és a gyámsága alatt álló gyermek viszonyának felel meg. Véletlenül sem jut eszükbe, hogy az ember egy élő, érző, akaró és cselekvő lény, mely olyan törvényeknek engedelmeskedik, amiket nem kell kitalálni (mert mindig is léteztek), még kevésbé másokra kényszeríteni, hanem inkább csak tanulmányozni. Nem látják, hogy az emberi fajt hozzájuk minden szempontból hasonló emberek alkotják, akik semmiképp sem alábbvalóak vagy alsóbbrendűek náluk; hogy embertársaikat felruházták impulzussal, hogy cselekedjenek, és értelemmel, hogy választani tudjanak; hogy mindenben, amit az emberek tesznek, hatnak rájuk a Felelősség és a Szolidaritás jelzései; és végül, hogy mindezen jelenségek mentén kialakulnak saját jogon létező társadalmi kapcsolatok, amiket a társadalomtudósok dolga nem kitalálni – ahogy gondolkodóink képzelik –, hanem csupán megfigyelni.</p>
+
+
+
+<p>Azt hiszem, Rousseau volt az a gondolkodó, aki a görögöket megújítva az antikvitásból a legnaivabb módon exhumálta a törvényhozói mindenhatóságot. Meg volt győződve, hogy a társadalmi rend emberi találmány: olyan géphez hasonlította, amiben az emberek fogaskerekek, és a fejedelem az, aki mozgásba hozza. A társadalmi rendet törvényhozók alkotják meg a politikai gondolkodók hatására, akik – visszatérve a metaforához – az emberi faj és gépezet motorjai. Ezért fordulnak mindig a politikai szerzők a törvényhozókhoz szigorúan felszólító módban; utasítják őket, hogy utasítsanak. „Helyezd nemzeted erre vagy arra az alapra; adj nekik tisztes hagyományokat, vesd őket a vallás igájába, hajtsd őket a hadseregbe, vagy a kereskedelembe, a mezőgazdaságba, az erények felé, és így tovább.” A szerényebb szerzők általános alannyal anonimizálnak: „A naplopók nem maradnak a köztársaságban büntetlenül; a népességet megfelelően elosztjuk majd a város és a vidék között; azt tanácsoljuk, hogy ne legyen többé sem gazdag, sem pedig szegény, stb. stb.”</p>
+
+
+
+<p>Ez a beszédmód leleplezi a használói mérhetetlen önteltségét. A doktrína, mely benne foglaltatik, nem hagy az emberiségnek egy jottányi méltóságot sem.</p>
+
+
+
+<p class="has-large-font-size"><strong>A társadalomtervezés valójában társadalomellenesség</strong></p>
+
+
+
+<p>Nem ismerek olyat, aki az említetteknél nagyobbat tévedne elméletben, és pusztítóbb lenne a gyakorlatban. Bárhonnan is nézzük, a hatásuk siralmas.</p>
+
+
+
+<p>Elhitetik az emberekkel, hogy a társadalmi gazdaság puszta mesterséges képződmény, mely egy feltaláló fejéből pattant ki. S mint ilyen, a politikai gondolkodó válik a feltalálóvá. A leghőbb vágya, hogy bevezessék az általa kitalált mechanizmust, s mindent megtesz, hogy az alternatív mechanizmusokat megutáltassa – különösen azt, amelyet az emberi szerveződés és a dolgok természete alakított ki. Az erről az alapállásról írt könyvek nem mások, s nem is lehetnek mások, mint hosszas szónoklatok a Társadalom ellen.</p>
+
+
+
+<p>E hamis tudomány nem tanulmányozza az okok és okozatok láncolatát. Nem megfigyeli a jót és a rosszat, ami az emberi cselekvésből fakad, s amit aztán összefüggésbe hozna a Társadalom mozgatórugójával, hogy eldönthesse, melyik utat érdemes leginkább követni. Nem: utasít, kényszerít és kivet, vagy ha erre nem képes, legalábbis tanácsot ad, ahogy egy fizikus mondaná egy kőnek: „Mostantól nincs alattad semmi, utasítalak, hogy ess le, vagy legalábbis ezt tanácsolom számodra.” Ezt a szellemet követi Droz úr, amikor azt mondja: „A közgazdaságtan célja, hogy olyan széles körben elterjessze a jólétet, amennyire csak lehetséges”,<a href="#_ftn3"><sup>[3]</sup></a> amely definíciót szívesen vett a Szocializmus, mert kaput nyit mindenféle utópiának, s a társadalom szabályozásához vezet. Hová tenné a közvélemény Arago urat,<a href="#_ftn4"><sup>[4]</sup></a> ha azzal kezdené az előadásait, hogy „az asztronómia célja, hogy olyan széles körben elterjessze a gravitációt, amennyire csak lehetséges”? Igaz, az emberek cselekvő lények, megáldva az akarat erejével, és a szabad akarat hatása alatt cselekednek. Ugyanakkor van bennük egy belső erő is, ha tetszik, egyfajta gravitáció, a kérdés pedig, hogy megállapítsuk, milyen cél felé gravitálnak. Ha végzetesen a rossz felé, akkor nincs mit tenni, és biztosak lehetünk benne, hogy a megoldás nem egy politikai gondolkodótól fog jönni, aki – ember lévén – ugyanazon hajlamok foglya, mint mi mindannyian. Ha viszont a jó felé, akkor sikerült rátalálni a hajtóerőre, és a tudománynak nem kell helyettesítenie sem kényszerrel, sem pedig tanáccsal. A tudomány feladata, hogy megvilágítsa a szabad akarat mibenlétét, rámutatva az okok okozatára, annak teljes reményében, hogy az igazság hatása alatt „elterjed a jólét, amennyire csak lehetséges”.</p>
+
+
+
+<p>Gyakorlati értelemben azon doktrínának, amely a Társadalom mozgató erejét nem az emberiség egészében, illetve annak természetében, hanem a törvényhozókban és a kormányokban találja meg, még rémesebb következményei vannak. Ez a doktrína olyan súlyos felelősséget ró a kormányzatra, amit az nem érdemel meg. Ha szenvedés van, a kormányzat hibája. Ha vannak szegények, a kormányzat hiába. Hát nem a kormányzat az általános mozgatórugó? Ha ez nem a jó mozgatórugó, nyilván elromlott, és le kell cserélni egy újjal. Vagy vannak, akik magát a tudományt hibáztatják, és legújabban a következőt szokás mantrázni: „Valamennyi társadalmi szenvedést a közgazdaságtan számlájára írhatunk.” Miért is ne, ha végül is azt mondják róla, hogy a célja elérni az emberek boldogságát, azok bárminemű hozzájárulása nélkül? Amikor az ilyen gondolatok válnak uralkodóvá, a legutolsó, amire az emberek gondolnak, hogy a tekintetüket saját magukra fordítsák, és hogy megállapítsák, hogy a hányatott sorsuk oka saját tudatlanságuk vagy igazságtalanságuk-e: a tudatlanságuk, mely kiteszi őket a Felelősség hatásának, s az igazságtalanságuk, amely a Szolidaritás reakcióit vonzza. Miért is gondolná az emberiség, hogy hányattatásaik okát saját hibáiban kell keresni, amikor meggyőzték már arról, hogy természetéből adódóan tétlen, és hogy bármely cselekvés – s ennek következtében bármely felelősség – rá kizárólag a fejedelem és a törvényhozó akaratából hárul?</p>
+
+
+
+<p>Ha meg kéne határoznom, hogy mi különbözteti meg a Szocializmust a közgazdaságtan tudományától, a következőt tudnám mondani. A Szocializmusnak rengeteg iskolája van. Mindegyiknek megvan a maga utópiája, és elmondhatjuk, hogy olyan messze vannak attól, hogy egymással egyetértsenek, hogy leginkább keserű viszonyt ápolnak egymással. A különbség Blanc úr<a href="#_ftn5"><sup>[5]</sup></a> „termelőszövetkezetei” és Proudhon úr<a href="#_ftn6"><sup>[6]</sup></a> anarchiája között, vagy Fourier<a href="#_ftn7"><sup>[7]</sup></a> egyesületei és Cabet úr<a href="#_ftn8"><sup>[8]</sup></a> kommunizmusa között ég és föld. Ennek tudatában mégis hogyan helyezhetők ezen iskolák vezetői a „Szocializmus” közös platformjára, és mi az a kapocs, ami összeköti őket a természetes társadalommal szemben? Nem lehet más, mint ez: <em>Nem akarják a társadalom természetes formáját. </em>Amit akarnak, az egyfajta mesterséges társadalom, ami egy az egyben a feltaláló agyából pattan ki. Igaz, hogy mind maguk lennének e Minerva Jupitere,<a href="#_ftn9"><sup>[9]</sup></a> hogy mindnek megvan a saját találmánya és álma arról, hogy hogyan is nézne ki a saját társadalmi rendje. De van egy dolog, ami közös bennük: hogy nem ismerik el, hogy az emberi fajnak lenne akár egy hajtóereje, amely a jó felé viszi, sem pedig egy <em>gyógyhatású </em>ereje, ami eltávolítja a rossztól. Veszekednek, hogy ki legyen az, aki megformázza az emberi agyagot, de egyetértenek, hogy van anyag, amit meg kell formázni. A szemükben az emberi faj nem egy élő, harmonikus lény, akinek maga Isten biztosított haladó és megtartó erőt; csak élettelen anyag, ami rájuk vár, hogy érzést és életet leheljenek belé. Nem vizsgálat tárgya, hanem anyag, amin kísérletezni kell.</p>
+
+
+
+<p class="has-large-font-size"><strong>A közgazdaságtan természete és feladata</strong></p>
+
+
+
+<p>Másrészt a közgazdaságtan rámutathat a vonzás és taszítás erejére minden emberben, amelyek együtt a társadalom hajtóerejét adják és amint megbizonyosodott róla, hogy ez a hajtóerő a jó felé irányul, már nem kell az eltörlését akarnia, hogy valami más, általa kreált dologgal helyettesítse. Inkább tanulmányozza azokat a társadalmi jelenségeket – a maguk végtelen változatosságában és komplexitásában –, amiket ez a hajtóerő létrehoz.</p>
+
+
+
+<p>Akkor tehát a közgazdaságtan oly távolról figyelheti csak a társadalom mozgását, mint egy csillagász az égitesteket? Természetesen nem. A közgazdaságtan olyan lényekkel foglalkozik, akik értelmesek és szabadok, s mint ilyenek – ezt sose feledjük el – képesek tévedni. A jó felé igyekszenek, de hibázhatnak. A tudomány beavatkozása így hasznos lehet: nem mint az okok és okozatok létrehozója, vagy az emberi hajlamok megváltoztatója (egy – mesterséges – szerveződés vagy rend alá vetve őket), de még csak nem is mint tanácsadó, hanem mint aki megmutatja a jót és a rosszat, ami az általuk hozott döntésekből fakad.</p>
+
+
+
+<p>Így a közgazdaságtan feladata kizárólag a megfigyelés és a feltárás. Nem mondja az embernek, hogy: „Arra ösztökéllek, és azt tanácsolom neked, hogy ne menj túl közel a tűzhöz.” Vagy inkább: „Megálmodtam egy társadalmi rendet, és isteni látomás alapján létrehozom az intézményeket, amik elég távol tartanak majd a tűztől.” Nem. Felismeri, hogy a tűz éget, és erre figyelmeztet; bebizonyítja ezt a tényt, és ugyanígy jár el a gazdasági vagy erkölcsi rend valamennyi jelenségével kapcsolatban, abban a hitben, hogy ennyi elég. A tűz általi haláltól való irtózást egy ősi, eleve létező ténynek tekinti, amit nem ő hozott létre, és nem is változtathat meg.</p>
+
+
+
+<p>Lehetséges, hogy a közgazdászok ne mindig értsenek egyet, de könnyen belátható, hogy a vitáik teljesen más természetűek, mint amik a szocialistákat megosztják. Két ember, akik minden figyelmüket ugyanazon jelenség és hatásai megfigyelésének szentelik (mint például a járadéknak, a cserének vagy a versenynek), lehet, hogy nem ugyanarra a következtetésre jutnak, ami semmi többet nem bizonyít, mint hogy legalább az egyikük rosszul figyelte meg azt. Újra meg kell vizsgálni; más kutatók segítségével valószínű, hogy végül fény derül az igazságra. Ebből az okból – feltéve, hogy minden egyes közgazdász (akár a csillagászok) a szemük előtt tartják az elődeik eredményeit – a tudomány csak haladó lehet, s ha így van, akkor egyre hasznosabb is, korrigálva a pontatlan megfigyeléseket és megszámlálhatatlan új megfigyeléssel gazdagítva a korábbiakat.</p>
+
+
+
+<p>Ezzel szemben a szocialisták, akik elszigetelik magukat egymástól, hogy mind külön-külön tervezzék a mesterséges, saját képzeletük szülte társadalmi modelljeiket, könnyen lehet, hogy ezzel a módszertannal a végtelenségig kutatnak majd anélkül, hogy egyetértésre jutnának, vagy hogy egyikük munkája a másikra tudna épülni. Say sokat merített Smith kutatásaiból, Rossi Say vállára tudott állni, Blanqui és Joseph Garnier pedig mindazokéra, akik előttük éltek. De Platón, More, Harrington, Fénélon és Fourier anélkül is el tudnak szórakozni az Állam, Utópia, Oceana, Salente vagy a Falanszter saját szájuk íze szerinti megtervezésével, hogy bármilyen kapcsolat is lenne illuzórikus találmányaik között. Ezek az álmodozók mindent, az embereket és a dolgokat is saját képzeletük alapján rajzolják meg. Elképzelnek egy társadalmi rendet, mely túlmutat az emberi szíven, majd hozzá képzelik az új emberi szívet is, ami ebben a társadalomban működne.</p>
+
+
+
+<p class="has-text-align-right"><em>A szöveg a </em>Harmonies économiques<em> (Gazdasági harmóniák) című mű egyik fejezete. A jelen fordítás alapjául szolgáló angol változat <a href="https://oll.libertyfund.org/page/cw5#driving">itt</a> olvasható. Fordította Madlovics Bálint, az eredeti, francia szöveggel összevetette Bertalan Gábor.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><a href="#_ftnref1"><sup>[1]</sup></a> Bastiat itt a közgazdaságtan „szentimentalista iskolájára” utal, különösen Alban Villeneuve-Bargemont 1834-es, <em>Economie politique chrétienne </em>(Keresztény közgazdaságtan) c. munkájára. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref2"><sup>[2]</sup></a> Jacques-Bénigne Bossuet (1672-1704) francia püspök és udvari pap volt XIV. Lajos idején. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref3"><sup>[3]</sup></a> Joseph Droz (1773-1850) morálfilozófus és közgazdász. Az idézet az 1829-es <em>Économie politique, ou, Principes de la science des richesses </em>(Közgazdaságtan, avagy a gazdagság tudományának alapvonalai) c. könyvének kezdőmondata. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref4"><sup>[4]</sup></a> François Arago (1786-1853) a Párizsi Obszervatórium híres csillagásza és fizikusa volt. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref5"><sup>[5]</sup></a> Louis Blanc (1811-1882) újságíró volt, aki 1839-ben egy nagy hatású pamfletet írt <em>L’Organisation du travail </em>(A munka megszervezése) címmel. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref6"><sup>[6]</sup></a> Pierre-Joseph Proudhon (1809-65) politikai gondolkodó, akit az anarchizmus atyjának tekintenek. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref7"><sup>[7]</sup></a> Charles Fourier (1772-1837) szocialista és az ún. falanszteri iskola vagy „fourierizmus” alapítója, amely a társadalmat egy utópikus, kommunista rendszer alapján szervezte volna újra. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref8"><sup>[8]</sup></a> Étienne Cabet (1788-1856) ügyvéd és utópikus szocialista volt, a „kommunizmus” kifejezés megalkotója. (A szerk.)</p>
+
+
+
+<p><a href="#_ftnref9"><sup>[9]</sup></a> Minerva a bölcsesség és háború római istennője volt, akit az istenek királya, Jupiter és Metis, a titán nemzettek. Miután Jupiter lenyelte Metist, a saját testében született meg Minerva, aki felnőttként és teljes harci díszben jött a világra Jupiter fejéből kipattanva. (A szerk.)</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-233" class="share-twitter sd-button share-icon" href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-233" class="share-facebook sd-button share-icon" href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-173901011-233-66cc736256d3e' data-src='//widgets.wp.com/likes/index.html?ver=20240826#blog_id=173901011&amp;post_id=233&amp;origin=mengerblogcom.wordpress.com&amp;obj_id=173901011-233-66cc736256d3e&amp;domain=mengerblog.com' data-name='like-post-frame-173901011-233-66cc736256d3e' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>	</div><!-- .entry-content -->
+
+	<footer class="entry-footer responsive-max-width">
+		<span class="byline"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://mengerblog.com/author/madlovba3/">madlovba3</a></span></span><span class="posted-on"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></svg><a href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" rel="bookmark"><time class="entry-date published" datetime="2021-04-06T06:43:37+00:00">April 6, 2021</time><time class="updated" datetime="2021-04-20T06:30:11+00:00">April 20, 2021</time></a></span><span class="cat-links"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Posted in</span><a href="https://mengerblog.com/category/forditasok/" rel="category tag">Fordítások</a></span><span class="tags-links"><svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span class="screen-reader-text">Tags:</span><a href="https://mengerblog.com/tag/bastiat/" rel="tag">bastiat</a>, <a href="https://mengerblog.com/tag/klasszikus-liberalizmus/" rel="tag">klasszikus liberalizmus</a>, <a href="https://mengerblog.com/tag/liberalizmus/" rel="tag">liberalizmus</a>, <a href="https://mengerblog.com/tag/tarsadalommernokseg/" rel="tag">társadalommérnökség</a></span>	</footer><!-- .entry-footer -->
+
+				
+</article><!-- #post-${ID} -->
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://mengerblog.com/2021/03/15/toth-andras-carl-menger-es-az-osztrak-kozgazdasagi-iskola-szuletese/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous Post</span> <span class="screen-reader-text">Previous post:</span> <br/><span class="post-title">Tóth András: Carl Menger és az osztrák közgazdasági iskola&nbsp;születése</span></a></div><div class="nav-next"><a href="https://mengerblog.com/2021/04/09/toth-andras-a-skot-csoda/" rel="next"><span class="meta-nav" aria-hidden="true">Next Post</span> <span class="screen-reader-text">Next post:</span> <br/><span class="post-title">Tóth András: A skót&nbsp;csoda</span></a></div></div>
+	</nav>
+<div id="comments" class="comments-area responsive-max-width">
+
+			<h2 class="comments-title">
+			8 thoughts on &ldquo;<span>Frédéric Bastiat: A társadalom&nbsp;mozgatórugója</span>&rdquo;		</h2><!-- .comments-title -->
+
+		
+		<ol class="comment-list">
+					<li id="comment-517" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/04/28/nathaniel-branden-a-szabadpiac-okozta-az-1929-33-as-valsagot-kozkeletu-tevhitek-a-kapitalizmusrol/" class="url" rel="ugc">Nathaniel Branden: A szabadpiac okozta az 1929-33-as válságot? Közkeletű tévhitek a kapitalizmusról &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-544" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/05/21/nemethne-pal-katalin-minimalber-az-orok-gumicsont/" class="url" rel="ugc">Némethné Pál Katalin: Minimálbér, az örök gumicsont &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-609" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/06/21/nemethne-pal-katalin-mesek-a-kapitalizmus-alaptorvenyeirol-piketty-biralat/" class="url" rel="ugc">Némethné Pál Katalin: Mesék a kapitalizmus alaptörvényeiről (Piketty-bírálat) &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-637" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/06/29/toth-andras-a-jo-es-a-rossz-egyenlotlensegrol/" class="url" rel="ugc">Tóth András: A jó és a rossz egyenlőtlenségről &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-683" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/07/20/sheldon-richman-a-szabalyozast-akarok-tevedese/" class="url" rel="ugc">Sheldon Richman: A szabályozást akarók tévedése &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-686" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/07/23/charles-w-johnson-a-piaci-erok-mi-vagyunk/" class="url" rel="ugc">Charles W. Johnson: A piaci erők mi vagyunk &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-869" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2021/12/14/michael-esfeld-a-nyilt-tarsdalom-es-uj-ellensegei-1-resz/" class="url" rel="ugc">Michael Esfeld: A nyílt társdalom és új ellenségei (1. rész) &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-1035" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://mengerblog.com/2022/05/13/toth-istvan-a-kalkulacios-vita-darabok-egy-kirakoshoz/" class="url" rel="ugc">Tóth István: A kalkulációs vita. Darabok egy kirakóshoz &#8211; Carl Menger Intézet</a> 			</div>
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://mengerblog.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+
+
+
+<div id="comment-form__verbum" class="transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='233' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="46e4a3a448" />
+			<input type="hidden" name="verbum_show_subscription_modal" value="" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ea60376735" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="134"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	
+	<footer id="colophon" class="site-footer responsive-max-width">
+			
+	
+		<div class="site-info">
+		<a class="site-name" href="https://mengerblog.com/" rel="home">Carl Menger Intézet</a><span class="comma">,</span>
+<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>	</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202435b46853b388ab997de6bfa04c1e397b91783aa2d3e125eb7f62b2f41b95dd5e57" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Edit your profile',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-pub-hever actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/#comments">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Comment						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-reblog" href="">
+							<svg class="gridicon gridicons-reblog" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M22.086 9.914L20 7.828V18c0 1.105-.895 2-2 2h-7v-2h7V7.828l-2.086 2.086L14.5 8.5 19 4l4.5 4.5-1.414 1.414zM6 16.172V6h7V4H6c-1.105 0-2 .895-2 2v10.172l-2.086-2.086L.5 15.5 5 20l4.5-4.5-1.414-1.414L6 16.172z"/></g></svg><span>Reblog</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://mengerblog.com">
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Carl Menger Intézet			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																				<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="173901011" />
+										<input type="hidden" name="source" value="https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="3b8d3cb94b" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fmengerblog.com%252F2021%252F04%252F06%252Ffrederic-bastiat-a-tarsadalom-mozgatorugoja%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+									<li class="actnbr-btn actnbr-hidden no-display" onclick="javascript:__tcfapi( 'showUi' );">
+						<a class="actnbr-action actnbr-actn-privacy" href="#">
+							<svg class="gridicon gridicons-info-outline" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M13 9h-2V7h2v2zm0 2h-2v6h2v-6zm-1-7c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8m0-2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></g></svg>							<span>Privacy						</span>
+						</a>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://mengerblog.com">
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Carl Menger Intézet			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://mengerblogcom.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fmengerblogcom.wordpress.com%2F2021%2F04%2F06%2Ffrederic-bastiat-a-tarsadalom-mozgatorugoja%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fmengerblog.com%252F2021%252F04%252F06%252Ffrederic-bastiat-a-tarsadalom-mozgatorugoja%252F">Log in</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/pbLFB1-3L">Copy shortlink</a></li>
+																	<li class="flb-report">
+										<a href="https://wordpress.com/abuse/?report_url=https://mengerblog.com/2021/04/06/frederic-bastiat-a-tarsadalom-mozgatorugoja/" target="_blank" rel="noopener noreferrer">
+											Report this content										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/173901011/posts/233">
+											View post in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20240822";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+	
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/mengerblog.com\/2021\/04\/06\/frederic-bastiat-a-tarsadalom-mozgatorugoja\/":233};
+	</script>
+				<script type="text/javascript" id="comment-like-js-extra">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading...","swipeUrl":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/comment-likes\/js\/lib\/swipe.js?ver=20131008"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="verbum-settings-js-before">
+/* <![CDATA[ */
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Log in or provide your name and email to leave a reply.","Log in or provide your name and email to leave a comment.":"Log in or provide your name and email to leave a comment.","Receive web and mobile notifications for posts on this site.":"Receive web and mobile notifications for posts on this site.","Name":"Name","Email (address never made public)":"Email (address never made public)","Website (optional)":"Website (optional)","Leave a reply. (log in optional)":"Leave a reply. (log in optional)","Leave a comment. (log in optional)":"Leave a comment. (log in optional)","Log in to leave a reply.":"Log in to leave a reply.","Log in to leave a comment.":"Log in to leave a comment.","Logged in via %s":"Logged in via %s","Log out":"Log out","Email":"Email","(Address never made public)":"(Address never made public)","Instantly":"Instantly","Daily":"Daily","Reply":"Reply","Comment":"Comment","WordPress":"WordPress","Weekly":"Weekly","Notify me of new posts":"Notify me of new posts","Email me new posts":"Email me new posts","Email me new comments":"Email me new comments","Cancel":"Cancel","Write a comment...":"Write a comment...","Write a reply...":"Write a reply...","Website":"Website","Optional":"Optional","We'll keep you in the loop!":"We'll keep you in the loop!","Loading your comment...":"Loading your comment...","Discover more from":"Discover more from Carl Menger Int\u00e9zet","Subscribe now to keep reading and get access to the full archive.":"Subscribe now to keep reading and get access to the full archive.","Continue reading":"Continue reading","Never miss a beat!":"Never miss a beat!","Interested in getting blog post updates? Simply click the button below to stay in the loop!":"Interested in getting blog post updates? Simply click the button below to stay in the loop!","Enter your email address":"Enter your email address","Subscribe":"Subscribe","Comment sent successfully":"Comment sent successfully","Save my name, email, and website in this browser for the next time I comment.":"Save my name, email, and website in this browser for the next time I comment.","siteId":173901011,"postId":233,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https:\/\/mengerblogcom.wordpress.com\/public.api\/connect\/?action=request&domain=mengerblog.com","logoutURL":"https:\/\/mengerblogcom.wordpress.com\/wp-login.php?action=logout&_wpnonce=934f734a3d","homeURL":"https:\/\/mengerblog.com\/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https:\/\/0.gravatar.com\/avatar\/?s=96&amp;d=identicon&amp;r=G","enableBlocks":true,"enableSubscriptionModal":true,"currentLocale":"en","isJetpackComments":false,"allowedBlocks":["core\/paragraph","core\/list","core\/code","core\/list-item","core\/quote","core\/image","core\/embed","core\/quote","core\/code"],"embedNonce":"e72c1afbbf","verbumBundleUrl":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/sun\/vendor\/automattic\/jetpack-mu-wpcom\/src\/features\/verbum-comments\/dist\/index.js","isRTL":false,"vbeCacheBuster":1721244820}
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s0.wp.com/_static/??-eJyNkNFOwzAMRX+I1KtAgj4gPgV5sdnSxk6JE6b+PVFXEGxo4snWzfH1jeE0O5+0sBaQ6uZYD0ENYpjY4L1y5SMqRc7daHfwNzxymdFPrkmn2SfZHsCqwgcrpQxYSxIsJfgrGix72NcQqcF5X6WtEGkrDNCMW6FFUYJ3MSHdDLINunP68UL4GgzqY6XfQOY5Lp0EveGOUzDh4u67Hbw2k2/hLa8w/eNEPy6zWpz/bUfMTEi0rG3QwxblRZ77x354GJ76YTd+Al6xoCs='></script>
+<script type="text/javascript" id="sharing-js-js-after">
+/* <![CDATA[ */
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+/* ]]> */
+</script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20240826#ver=20240826&amp;origin=https://mengerblog.com' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout' role="dialog" aria-hidden="true" tabindex="-1">
+		<div class="likes-text">
+			<span>%d</span>		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?67" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'173901011','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'173901011','v':'wpcom','tz':'0','user_id':'0','post':'233','subd':'mengerblogcom'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsd0xoLz9RQkM2K298TXY9bERQMXc2MjhEaVZfb2wwakRoSj0mUkp1THptM1NdbkV1WjZIcU9mVWQmPUIvMlN6Jk8wW3NYVEJ3dWZOWExuWD9HQ1sudkE3eGJHeXdxa2ZteUNmUFtbJlRSNUh8LUQlb2VBWF02UkphZFVObW5hL3BmS2xGdU8tb1VjNWp5OSxVVVUuaFFnVX5zNTVbckxSZUM4ZHZdSHFJYjksT1tVdF0zJkczZHcrVWtGTVBXMmlBViU4Vzk2fnVOdT00TjE1Lj9kQk9PbTdmYnZ8UzN4TFola1FDMllmLjNxNTNGL3ImNEE3Yj09QS5abi43Wno5cXxuaEJUMXl8Ti5w'}]);
+_stq.push([ 'clickTrackerInit', '173901011', '233' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<script type='disabled' id='wp-enqueue-dynamic-script:wp-i18n:after:1'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'wp-polyfill': 'https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1710866488i&ver=3.15.0',
+		'wp-hooks': 'https://s0.wp.com/wp-content/plugins/gutenberg-core/v19.0.0/build/hooks/index.min.js?m=1723658785i&ver=3aee234ea7807d8d70bc',
+		'wp-i18n': 'https://s0.wp.com/wp-content/plugins/gutenberg-core/v19.0.0/build/i18n/index.min.js?m=1723658785i&ver=5baa98e4345eccc97e24',
+		'verbum': 'https://s2.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.js?m=1724081632i&minify=false&ver=3f2fa75145d82cdab14e'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('wp-polyfill');
+			fetchExternalScript('wp-hooks');
+			fetchExternalScript('wp-i18n');
+			fetchExternalScript('verbum');
+			promises['wp-polyfill'] = promises['wp-polyfill'] || loadWPScript('wp-polyfill');
+			promises['wp-hooks'] = promises['wp-hooks'] || promises['wp-polyfill'].then( () => loadWPScript('wp-hooks') );
+			promises['wp-i18n'] = promises['wp-i18n'] || Promise.all( [ promises['wp-hooks'], promises['wp-polyfill'],  ] ).then( () => loadWPScript('wp-i18n') );
+			promises['verbum'] = promises['verbum'] || promises['wp-i18n'].then( () => loadWPScript('verbum') );
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		'wp-i18n': { translations: 0, before: 0, after: 1 },
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		// Core loads scripts in this order. See: https://github.com/WordPress/WordPress/blob/a59eb9d39c4fcba834b70c9e8dfd64feeec10ba6/wp-includes/class-wp-scripts.php#L428.
+		return loadExtra(handle, 'translations')
+			.then(() => loadExtra(handle, 'before'))
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+
+</body>
+</html>
