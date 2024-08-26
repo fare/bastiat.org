@@ -47,11 +47,9 @@ Once you've properly installed your toolchain, you can build the website with:
 Repetitive output will follow that lasts a couple of minutes; be patient
 it's not an error! Then point your browser to the index file and browse:
 
-	chrome file://$PWD/index.html
-
-or:
-
-	firefox file://$PWD/en/index.html
+	make && xdg-open file://$PWD/index.html
+	make && firefox  file://$PWD/index.html
+	make && chromium file://$PWD/index.html
 
 
 Adding a new file
@@ -60,10 +58,6 @@ Adding a new file
 If you add a new file, you need to tell the build system about it with:
 
 	make dep
-
-You may also have to edit the [.gitignore](.gitignore) to hush git
-warnings about the `.html` file created when you built the website.
-
 
 Publishing Changes
 ------------------
@@ -75,12 +69,10 @@ Either:
 
    2. Have me add you to
       [the official repository on github](http://github.com/fare/bastiat.org),
-      and to the bastiat account on bespin
-	  (maybe also get [an account on bespin.org](bespin.org/application.html)).
-	  Then you can `make bespin` to rebuild the website.
+      and maybe also get [an account on bespin.org](bespin.org/application.html).
+      Then you can `make bespin` to rebuild and publish the website.
 
 Please consult a `git` tutorial for details.
-
 
 What to do?
 -----------
